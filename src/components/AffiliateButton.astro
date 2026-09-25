@@ -8,17 +8,24 @@ const {
   className = ''
 } = Astro.props;
 
-const trackedUrl = buildStripcashUrl(source);
+const tracking = buildStripcashUrl({
+  pagePath: Astro.url.pathname,
+  placement: source,
+  label
+});
 ---
 <a
   class:list={['button', 'button-primary', className]}
-  href={trackedUrl}
+  href={tracking.url}
   target="_blank"
   rel={AFFILIATE_REL}
   data-affiliate-partner="stripchat"
   data-affiliate-source={source}
+  data-stripcash-campaign-id={tracking.campaignId}
+  data-stripcash-creative-id={tracking.creativeId}
   data-stripcash-source-id={STRIPCASH_SOURCE_ID}
-  data-stripcash-p1={source}
+  data-stripcash-p1={tracking.pageKey}
+  data-stripcash-p2={tracking.placement}
 >
   {label}
 </a>

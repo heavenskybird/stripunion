@@ -68,9 +68,30 @@ if (!siteConfig.includes("STRIPCASH_SOURCE_ID = 'stripunion'")) {
 }
 
 const affiliateButton = fs.readFileSync('src/components/AffiliateButton.astro', 'utf8');
-if (!affiliateButton.includes('buildStripcashUrl(source)')) {
+if (!affiliateButton.includes('buildStripcashUrl({')) {
   failed = true;
   console.error('FAIL: AffiliateButton is not using the centralized Stripcash URL builder.');
+}
+
+for (const required of [
+  'data-stripcash-campaign-id',
+  'data-stripcash-creative-id',
+  'data-stripcash-source-id',
+  'data-stripcash-p1',
+  'data-stripcash-p2'
+]) {
+  if (!affiliateButton.includes(required)) {
+    failed = true;
+    console.error(`FAIL: AffiliateButton is missing required Stripcash attribution field: ${required}`);
+  }
+}
+
+const affiliateLib = fs.readFileSync('src/lib/affiliate.js', 'utf8');
+for (const required of ['campaignId', 'creativeId', 'sourceId', "'p1'", "'p2'"]) {
+  if (!affiliateLib.includes(required)) {
+    failed = true;
+    console.error(`FAIL: Stripcash URL builder is missing parameter support: ${required}`);
+  }
 }
 
 if (failed) process.exit(1);
