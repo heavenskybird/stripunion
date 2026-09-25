@@ -17,7 +17,11 @@ const staticPaths = [
   '/age-verification',
   '/stripchat-vs-chaturbate',
   '/best-live-cam-sites',
-  '/chaturbate-alternatives'
+  '/chaturbate-alternatives',
+  '/stripchat-vs-livejasmin',
+  '/stripchat-alternatives',
+  '/stripchat-pricing',
+  '/best-free-live-cam-sites'
 ];
 
 export async function GET() {

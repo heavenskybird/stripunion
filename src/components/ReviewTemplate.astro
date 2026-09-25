@@ -87,6 +87,21 @@ const faqSchema = {
       <AffiliateButton source={review.partner ? `${review.slug}_mid` : `${review.slug}_alternative_mid`} />
     </section>
 
+    {review.relatedLinks?.length > 0 && (
+      <section class="related-guides">
+        <span class="kicker">Continue your decision</span>
+        <h2>Related StripUnion guides</h2>
+        <div class="money-grid">
+          {review.relatedLinks.map(([label, href]) => (
+            <a class="money-card related-card" href={href}>
+              <h3>{label}</h3>
+              <span class="text-link">Read guide →</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <section class="faq">
       <span class="kicker">FAQ</span>
       <h2>Questions about {review.name}</h2>

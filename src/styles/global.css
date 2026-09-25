@@ -156,3 +156,7 @@ img{max-width:100%;height:auto}
 @media(max-width:720px){.conversion-strip{flex-direction:column;align-items:flex-start}.conversion-strip .button{width:100%}.money-grid{grid-template-columns:1fr}}
 
 .card-partner-note{font-size:12px!important;color:#7a6f80!important;background:var(--soft);border-radius:12px;padding:10px 12px;margin:12px 0 14px!important}
+
+.related-guides{margin:54px 0}
+.related-guides>h2{margin-bottom:22px}
+.related-card{text-decoration:none}

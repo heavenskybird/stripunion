@@ -66,7 +66,22 @@ Remaining:
 - legacy redirect strategy
 - blog/main-site reciprocal internal linking
 
-## M3 — Content Architecture
+## M3 — Commercial SEO Content Engine
+
+Primary objective: grow search traffic that can feed an approved affiliate conversion path.
+
+Current Live Cam revenue cluster:
+
+- /best-live-cam-sites
+- /best-free-live-cam-sites
+- /stripchat
+- /stripchat-pricing
+- /stripchat-vs-chaturbate
+- /stripchat-vs-livejasmin
+- /chaturbate-alternatives
+- /stripchat-alternatives
+
+Next candidates should be prioritized by measurable search intent and monetization fit rather than content completeness.
 
 Reusable types:
 
