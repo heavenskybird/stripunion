@@ -128,21 +128,74 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
     </footer>
 
     <script is:inline>
-      document.addEventListener('click', (event) => {
-        const target = event.target;
-        if (!(target instanceof Element)) return;
-        const link = target.closest('[data-affiliate-source]');
-        if (!(link instanceof HTMLAnchorElement)) return;
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          event: 'affiliate_click',
-          affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
-          affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
-          stripcash_source_id: link.getAttribute('data-stripcash-source-id') || 'stripunion',
-          stripcash_p1: link.getAttribute('data-stripcash-p1') || 'unknown',
-          outbound_url: link.href
+      (() => {
+        const sanitize = (value) =>
+          String(value || 'unknown')
+            .toLowerCase()
+            .replace(/[^a-z0-9_-]+/g, '_')
+            .replace(/^_+|_+$/g, '')
+            .slice(0, 80) || 'unknown';
+
+        const detectAcquisition = () => {
+          const params = new URLSearchParams(window.location.search);
+          const utmSource = params.get('utm_source');
+          if (utmSource) return sanitize(`utm_${utmSource}`);
+
+          if (!document.referrer) return 'direct';
+
+          try {
+            const ref = new URL(document.referrer);
+            const host = ref.hostname.toLowerCase();
+
+            if (host === 'blog.stripunion.com') return 'stripunion_blog';
+            if (host === window.location.hostname) return 'internal';
+            if (host.includes('google.')) return 'google';
+            if (host.includes('bing.')) return 'bing';
+            if (host.includes('duckduckgo.')) return 'duckduckgo';
+            if (host.includes('yahoo.')) return 'yahoo';
+            if (host.includes('yandex.')) return 'yandex';
+
+            return sanitize(`ref_${host}`);
+          } catch {
+            return 'referral';
+          }
+        };
+
+        let acquisition = 'unknown';
+        try {
+          acquisition =
+            sessionStorage.getItem('su_acquisition') ||
+            detectAcquisition();
+          sessionStorage.setItem('su_acquisition', acquisition);
+        } catch {
+          acquisition = detectAcquisition();
+        }
+
+        document.addEventListener('click', (event) => {
+          const target = event.target;
+          if (!(target instanceof Element)) return;
+          const link = target.closest('[data-affiliate-source]');
+          if (!(link instanceof HTMLAnchorElement)) return;
+
+          const outbound = new URL(link.href);
+          outbound.searchParams.set('p3', acquisition);
+          link.href = outbound.toString();
+
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+            event: 'affiliate_click',
+            affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
+            affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
+            stripcash_campaign_id: link.getAttribute('data-stripcash-campaign-id') || 'unknown',
+            stripcash_creative_id: link.getAttribute('data-stripcash-creative-id') || 'unknown',
+            stripcash_source_id: link.getAttribute('data-stripcash-source-id') || 'stripunion',
+            stripcash_p1: link.getAttribute('data-stripcash-p1') || 'unknown',
+            stripcash_p2: link.getAttribute('data-stripcash-p2') || 'unknown',
+            stripcash_p3: acquisition,
+            outbound_url: link.href
+          });
         });
-      });
+      })();
     </script>
   </body>
 </html>
