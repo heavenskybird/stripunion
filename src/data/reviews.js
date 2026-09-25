@@ -72,8 +72,7 @@ export const reviews = {
     ],
     faq: [
       ['Can Chaturbate be viewed for free?', 'Its current terms state there is no fee to access the platform and view content, although some functions require an account or payment.'],
-      ['How do private shows work?', 'Official support documentation says broadcasters can set a token-per-minute rate and minimum duration for private shows.'],
-      ['Does StripUnion have a Chaturbate affiliate link?', 'Not currently. Our commercial partner alternative on this page is Stripchat, and it is labeled separately from the Chaturbate review.']
+      ['How do private shows work?', 'Official support documentation says broadcasters can set a token-per-minute rate and minimum duration for private shows.']
     ],
     relatedLinks: [
       ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
@@ -150,8 +149,7 @@ export const reviews = {
       ['Privacy', 'Use conservative profile information, review visibility controls and avoid moving conversations off-platform until you are comfortable with the risks.']
     ],
     faq: [
-      ['Is AdultFriendFinder free?', 'Registration can be free, while selected communication and premium features may require a paid membership.'],
-      ['Is this page an affiliate promotion for AdultFriendFinder?', 'No. StripUnion does not currently use an AdultFriendFinder affiliate link on this page. The separately labeled partner alternative is Stripchat.']
+      ['Is AdultFriendFinder free?', 'Registration can be free, while selected communication and premium features may require a paid membership.']
     ],
     partner: false,
     indexable: true
