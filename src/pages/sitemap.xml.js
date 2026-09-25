@@ -14,7 +14,8 @@ const staticPaths = [
   '/privacy-policy',
   '/terms',
   '/disclaimer',
-  '/age-verification'
+  '/age-verification',
+  '/stripchat-vs-chaturbate'
 ];
 
 export async function GET() {
