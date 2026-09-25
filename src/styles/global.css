@@ -154,3 +154,5 @@ img{max-width:100%;height:auto}
 .money-card h3{margin:6px 0 10px}
 .money-card p{color:var(--muted)}
 @media(max-width:720px){.conversion-strip{flex-direction:column;align-items:flex-start}.conversion-strip .button{width:100%}.money-grid{grid-template-columns:1fr}}
+
+.card-partner-note{font-size:12px!important;color:#7a6f80!important;background:var(--soft);border-radius:12px;padding:10px 12px;margin:12px 0 14px!important}
