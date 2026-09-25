@@ -6,7 +6,7 @@ const {
   title,
   description = SITE.description,
   canonical = Astro.url.pathname,
-  robots = 'index,follow',
+  robots = SITE.allowIndexing ? 'index,follow' : 'noindex,nofollow',
   pageType = 'WebPage',
   extraSchemas = []
 } = Astro.props;

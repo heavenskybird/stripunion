@@ -64,3 +64,27 @@ Also verify:
 GitHub `main` push → Hostinger automatic build/deploy → staging QA.
 
 Only after the staging release passes SEO, conversion, mobile and link checks should the production domain be moved.
+
+
+## Search-index safety
+
+The code now defaults to **noindex** and a site-wide `robots.txt` disallow unless:
+
+`PUBLIC_ALLOW_INDEXING=true`
+
+is set at build time.
+
+For the temporary `hostingersite.com` staging deployment, leave that variable unset (or set it to `false`).
+
+Only when the new application is ready to replace the production site on `stripunion.com` should the Hostinger Web App environment variable be set to:
+
+- name: `PUBLIC_ALLOW_INDEXING`
+- value: `true`
+
+Then trigger a new deployment and verify:
+
+- page meta robots = `index,follow`
+- `/robots.txt` = `Allow: /`
+- sitemap URL = `https://stripunion.com/sitemap.xml`
+
+This prevents the temporary staging hostname from competing with the production domain in search.
