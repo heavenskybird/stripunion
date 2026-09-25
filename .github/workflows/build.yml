@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [main, m0-astro-static]
+    branches: ['**']
   pull_request:
     branches: [main]
 
