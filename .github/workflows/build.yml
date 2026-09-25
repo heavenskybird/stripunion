@@ -20,5 +20,9 @@ jobs:
         run: npm install
       - name: Run migration quality gate
         run: npm run check
-      - name: Build static site
+      - name: Build staging-safe site
         run: npm run build
+      - name: Build production-indexable site
+        run: PUBLIC_ALLOW_INDEXING=true npm run build
+      - name: Verify production SEO artifacts
+        run: npm run check:prod-seo
