@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+
+const title = 'Stripchat Private Shows: Cost Model, Tokens & What to Check in 2026';
+const description = 'Understand how Stripchat private shows are priced, why rates vary, how token spending works and what to check before starting a paid session.';
+
+const faq = [
+  ['Are Stripchat private shows free?', 'No. Private interactions are part of the paid layer and use tokens.'],
+  ['Is there one fixed private-show price?', 'No. Rates can vary by room or performer, so check the displayed rate before starting.'],
+  ['Why does StripUnion avoid publishing one universal dollar-per-minute price?', 'The token package you buy and the displayed room rate can both affect the final cost, so a static number can become misleading quickly.']
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/stripchat">Stripchat Review</a><span>/</span><span>Private Shows</span></nav>
+      <span class="kicker">High-intent guide · September 2026</span>
+      <h1>Stripchat Private Shows</h1>
+      <p class="lead">The important pricing question is not “what does a private show always cost?” There is no single universal rate. The useful questions are the displayed token rate, how long you plan to stay, and what your token package costs.</p>
+      <div class="disclosure"><strong>Affiliate disclosure:</strong> Stripchat is StripUnion’s current commercial partner. We may earn a commission from qualifying referrals through the buttons on this page.</div>
+      <div class="hero-actions">
+        <AffiliateButton source="stripchat_private_shows_hero" />
+        <a class="button button-secondary" href="/stripchat-pricing">Understand tokens first</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="decision-grid">
+      <div><span>Billing model</span><strong>Token-based</strong><p>Private interaction belongs to the paid layer.</p></div>
+      <div><span>Rate</span><strong>Varies by room</strong><p>Check the displayed rate before starting.</p></div>
+      <div><span>Budget risk</span><strong>Time × token rate</strong><p>Longer sessions can increase total spend quickly.</p></div>
+    </div>
+
+    <section class="article-body">
+      <section><h2>How the cost model works</h2><p>Private interactions are charged in tokens rather than through one universal subscription price. Because the displayed rate can vary, the safest comparison is the rate shown for the room you are considering at the moment you are considering it.</p></section>
+      <section><h2>Why token package price matters too</h2><p>A private session has a token cost, while the tokens themselves have a purchase cost. That means your real dollar spend depends on both layers. For that reason, StripUnion separates this guide from the broader token-pricing guide.</p></section>
+      <section><h2>Set a budget before you start</h2><p>Metered interaction can feel inexpensive one minute at a time while adding up over a longer session. Decide what you are comfortable spending before entering a paid interaction rather than calculating only after the session ends.</p></section>
+      <section><h2>Private does not mean risk-free</h2><p>Keep personal information private and treat any live interaction conservatively. Paid access changes the interaction model, not the basic need to protect your identity and payment information.</p></section>
+    </section>
+
+    <section class="conversion-strip">
+      <div><span class="kicker">Check the live offer</span><h2>See the current room and token options on Stripchat.</h2><p>Current displayed rates are more useful than a stale universal price claim.</p></div>
+      <AffiliateButton source="stripchat_private_shows_mid" />
+    </section>
+
+    <section class="faq">
+      <span class="kicker">FAQ</span><h2>Private-show questions</h2>
+      {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="end-cta">
+      <div><span class="kicker">Current partner</span><h2>Ready to compare live rooms?</h2><p>Continue through the tracked Stripchat partner route.</p></div>
+      <AffiliateButton source="stripchat_private_shows_bottom" />
+    </section>
+  </section>
+</BaseLayout>
