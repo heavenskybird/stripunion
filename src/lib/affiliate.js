@@ -3,18 +3,52 @@ import {
   STRIPCASH_SOURCE_ID
 } from '../config/site.js';
 
-export function buildStripcashUrl(source) {
+export function buildStripcashUrl({ pagePath, placement, label }) {
   const url = new URL(STRIPCHAT_AFFILIATE_URL);
+  const pageKey = pagePathToKey(pagePath);
+  const campaignId = classifyCampaign(pageKey);
+  const creativeId = sanitizeTrackingValue(label || 'try_stripchat');
 
-  // Confirmed in Stripcash Links & Creatives documentation/screens:
-  // sourceId and p1 are supported tracking parameters on regular links.
+  url.searchParams.set('campaignId', campaignId);
+  url.searchParams.set('creativeId', creativeId);
   url.searchParams.set('sourceId', STRIPCASH_SOURCE_ID);
-  url.searchParams.set('p1', sanitizeTrackingValue(source || 'unknown'));
+  url.searchParams.set('p1', pageKey);
+  url.searchParams.set('p2', sanitizeTrackingValue(placement || 'unknown'));
 
-  return url.toString();
+  // p3 is attached in the browser at click time so it can carry
+  // first-touch acquisition source (google, bing, stripunion_blog, direct, etc.).
+  return {
+    url: url.toString(),
+    campaignId,
+    creativeId,
+    pageKey,
+    placement: sanitizeTrackingValue(placement || 'unknown')
+  };
 }
 
-function sanitizeTrackingValue(value) {
+export function pagePathToKey(pagePath) {
+  const clean = String(pagePath || '/')
+    .split('?')[0]
+    .replace(/^\/+|\/+$/g, '');
+
+  return sanitizeTrackingValue(clean || 'homepage');
+}
+
+export function classifyCampaign(pageKey) {
+  const key = sanitizeTrackingValue(pageKey);
+
+  if (key === 'homepage') return 'su_home';
+  if (key.includes('_vs_') || key.includes('-vs-')) return 'su_livecam_comparison';
+  if (key.includes('alternatives')) return 'su_livecam_alternatives';
+  if (key.includes('pricing') || key.includes('tokens')) return 'su_livecam_pricing';
+  if (key.startsWith('best_') || key.startsWith('best-')) return 'su_livecam_best';
+  if (key === 'live_cams' || key === 'live-cams') return 'su_livecam_hub';
+  if (['stripchat','chaturbate','livejasmin'].includes(key)) return 'su_livecam_review';
+
+  return 'su_crosssell';
+}
+
+export function sanitizeTrackingValue(value) {
   return String(value)
     .trim()
     .toLowerCase()
