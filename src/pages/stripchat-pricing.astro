@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+
+const title = 'Stripchat Pricing & Tokens: What You Pay For in 2026';
+const description = 'Understand Stripchat’s token-based spending model, what can cost money and why exact token pack prices may vary by market or promotion.';
+---
+<BaseLayout title={title} description={description} pageType="Article">
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/stripchat">Stripchat Review</a><span>/</span><span>Pricing & Tokens</span></nav>
+      <span class="kicker">Pricing intent · September 2026</span>
+      <h1>Stripchat Pricing & Tokens</h1>
+      <p class="lead">Stripchat is not a simple all-access subscription. Public browsing can come before payment, while tokens are used for optional paid interaction.</p>
+      <div class="disclosure"><strong>Affiliate disclosure:</strong> Stripchat is StripUnion’s current commercial partner. Exact token pack pricing can vary by geography, promotion or timing, so we avoid publishing a stale universal price table.</div>
+      <AffiliateButton source="stripchat_pricing_hero" />
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="decision-grid">
+      <div><span>Free layer</span><strong>Public-room browsing</strong><p>You can understand the basic experience before paying.</p></div>
+      <div><span>Paid layer</span><strong>Token-based interaction</strong><p>Tipping and selected private/interactive features use tokens.</p></div>
+      <div><span>Price caveat</span><strong>Rates can vary</strong><p>Market, timing and promotions can affect what you see.</p></div>
+    </div>
+
+    <section class="article-body">
+      <section><h2>What you are actually paying for</h2><p>The key distinction is between browsing and interaction. Tokens become relevant when you move from simply watching public rooms into tipping or paid/private features.</p></section>
+      <section><h2>Why we do not publish a fixed token pack table</h2><p>Affiliate operators and experienced review publishers both warn that token prices can move by geography and promotion. A stale price table can hurt conversion precisely when the user reaches checkout, so StripUnion focuses on the spending model and lets the current offer show the live rate.</p></section>
+      <section><h2>How to control spend</h2><p>Decide what type of interaction you want before buying tokens, check the displayed cost of a paid feature, and avoid treating small incremental token purchases as if they were a fixed subscription.</p></section>
+    </section>
+
+    <section class="conversion-strip">
+      <div><span class="kicker">See the current offer</span><h2>Check today’s Stripchat pricing directly through the partner link.</h2><p>Because pricing can vary, the tracked destination is the right place to see the current offer rather than relying on a static table.</p></div>
+      <AffiliateButton source="stripchat_pricing_mid" />
+    </section>
+
+    <section class="end-cta">
+      <div><span class="kicker">Current partner</span><h2>Ready to see current token options?</h2><p>Continue to Stripchat through the approved affiliate route.</p></div>
+      <AffiliateButton source="stripchat_pricing_bottom" />
+    </section>
+  </section>
+</BaseLayout>
