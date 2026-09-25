@@ -10,7 +10,6 @@ const staticPaths = [
   '/categories',
   '/about',
   '/editorial-policy',
-  '/affiliate-disclosure',
   '/privacy-policy',
   '/terms',
   '/disclaimer',
