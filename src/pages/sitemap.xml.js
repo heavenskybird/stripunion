@@ -1,6 +1,9 @@
 import { SITE } from '../config/site.js';
 import { categories } from '../data/categories.js';
 import { reviews } from '../data/reviews.js';
+import { vrReviews } from '../data/reviews-vr.js';
+
+const allReviews = { ...reviews, ...vrReviews };
 
 const staticPaths = [
   '/',
@@ -10,6 +13,7 @@ const staticPaths = [
   '/affiliate-disclosure',
   '/privacy-policy',
   '/terms',
+  '/disclaimer',
   '/age-verification'
 ];
 
@@ -17,7 +21,9 @@ export async function GET() {
   const paths = [
     ...staticPaths,
     ...categories.map((item) => `/${item.slug}`),
-    ...Object.values(reviews).filter((item) => item.indexable).map((item) => `/${item.slug}`)
+    ...Object.values(allReviews)
+      .filter((item) => item.indexable)
+      .map((item) => `/${item.slug}`)
   ];
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>
