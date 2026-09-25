@@ -1,19 +1,24 @@
 ---
-import { STRIPCHAT_AFFILIATE_URL, AFFILIATE_REL } from '../config/site.js';
+import { AFFILIATE_REL, STRIPCASH_SOURCE_ID } from '../config/site.js';
+import { buildStripcashUrl } from '../lib/affiliate.js';
 
 const {
   source,
   label = 'Try Stripchat →',
   className = ''
 } = Astro.props;
+
+const trackedUrl = buildStripcashUrl(source);
 ---
 <a
   class:list={['button', 'button-primary', className]}
-  href={STRIPCHAT_AFFILIATE_URL}
+  href={trackedUrl}
   target="_blank"
   rel={AFFILIATE_REL}
   data-affiliate-partner="stripchat"
   data-affiliate-source={source}
+  data-stripcash-source-id={STRIPCASH_SOURCE_ID}
+  data-stripcash-p1={source}
 >
   {label}
 </a>
