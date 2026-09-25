@@ -29,8 +29,7 @@ export const vrReviews = {
     ],
     faq: [
       ['Do I need a VR headset?', 'A headset is what delivers the intended immersive experience, although some VR-formatted video may also be viewable on a standard screen.'],
-      ['Is VRPorn subscription based?', 'The original StripUnion coverage describes subscription access for the main library. Confirm current plans with the provider before subscribing.'],
-      ['Does StripUnion currently have a VRPorn affiliate link?', 'No. The commercial Stripchat button shown separately is a current partner alternative, not a VRPorn link.']
+      ['Is VRPorn subscription based?', 'The original StripUnion coverage describes subscription access for the main library. Confirm current plans with the provider before subscribing.']
     ],
     partner: false,
     indexable: true
@@ -65,8 +64,7 @@ export const vrReviews = {
     ],
     faq: [
       ['What should I check before subscribing?', 'Confirm your headset or playback device, current plan terms, streaming/download options and renewal conditions.'],
-      ['Is a large VR library automatically better?', 'Not necessarily. Device fit, playback quality, navigation and how much of the catalog matches your interests are more useful decision factors.'],
-      ['Is the Stripchat button a SexLikeReal link?', 'No. Stripchat is the current commercial partner alternative and is labeled separately.']
+      ['Is a large VR library automatically better?', 'Not necessarily. Device fit, playback quality, navigation and how much of the catalog matches your interests are more useful decision factors.']
     ],
     partner: false,
     indexable: true

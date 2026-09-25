@@ -10,18 +10,17 @@ const featured = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin, rev
 ---
 <BaseLayout
   title="Adult Platform Reviews & Comparisons"
-  description="Compare adult entertainment platforms with independent reviews, category guides and transparent affiliate disclosures. Adults 18+ only."
+  description="Compare adult entertainment platforms with independent reviews, pricing guides and side-by-side comparisons. Adults 18+ only."
 >
   <section class="hero">
     <div class="shell hero-inner">
-      <span class="kicker">Independent reviews · clear disclosures · adults 18+</span>
+      <span class="kicker">Adult reviews · comparisons · adults 18+</span>
       <h1>Adult platform reviews without the guesswork.</h1>
       <p>StripUnion helps you compare how adult platforms actually work — access model, paid features, usability, privacy considerations and key trade-offs — before you leave our site.</p>
       <div class="hero-actions">
         <AffiliateButton source="homepage_hero" />
         <a class="button button-secondary" href="/stripchat-vs-chaturbate">Compare live cam options</a>
       </div>
-      <p class="micro">Commercial partner link. StripUnion may earn a commission from qualifying referrals, at no extra cost to you.</p>
     </div>
   </section>
 
@@ -77,7 +76,7 @@ const featured = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin, rev
       <div class="section-head">
         <span class="kicker">Featured reviews</span>
         <h2>Begin with the platforms readers are most likely to compare.</h2>
-        <p>Editorial links take you to StripUnion reviews. Commercial partner buttons are shown separately and labeled clearly.</p>
+        <p>Start with the reviews readers compare most, then jump into pricing, alternatives and live-room options.</p>
       </div>
       <div class="review-grid">
         {featured.map((review) => <ReviewCard review={review} source={`homepage_featured_${review.slug}`} />)}
@@ -90,7 +89,7 @@ const featured = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin, rev
       <div>
         <span class="kicker">High-intent comparison</span>
         <h2>Stripchat vs Chaturbate</h2>
-        <p>Compare public access, token-based spending, private interactions and discovery style without hiding the fact that only Stripchat is currently an affiliate partner.</p>
+        <p>Compare public access, token-based spending, private interactions and discovery style before choosing what to try.</p>
       </div>
       <div class="hero-actions">
         <a class="button button-secondary" href="/stripchat-vs-chaturbate">Read comparison →</a>
@@ -107,8 +106,7 @@ const featured = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin, rev
       </div>
       <div class="trust-points">
         <div class="trust-point"><strong>Editorial independence</strong><span>We do not label a platform “best” simply because it has an affiliate relationship.</span></div>
-        <div class="trust-point"><strong>Transparent monetization</strong><span>Affiliate buttons are visually and textually separated from editorial links.</span></div>
-        <div class="trust-point"><strong>Practical criteria</strong><span>We focus on access model, cost structure, usability, privacy information and category-specific trade-offs.</span></div>
+                <div class="trust-point"><strong>Practical criteria</strong><span>We focus on access model, cost structure, usability, privacy information and category-specific trade-offs.</span></div>
         <div class="trust-point"><strong>No fabricated social proof</strong><span>No fake star ratings, testimonials, user counts or “tested by us” claims without evidence.</span></div>
       </div>
     </div>

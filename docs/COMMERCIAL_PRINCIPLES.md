@@ -38,7 +38,7 @@ Every high-intent page should have:
 - a commercial CTA above the fold when context supports it
 - a contextual mid-page CTA
 - a closing CTA
-- transparent affiliate disclosure
+- compact, compliant paid-link disclosure without repetitive legalistic copy
 - source attribution for click analytics
 
 Do not use dark patterns or disguise one destination as another.
@@ -50,3 +50,12 @@ Until additional affiliate programs are approved, the only third-party commercia
 ## Affiliate expansion
 
 Apply for additional programs when traffic proves demand for a specific platform or category. After approval, introduce that platform-specific affiliate destination and track its EPC/conversion performance against existing offers.
+
+
+## Disclosure UX
+
+Do not place large affiliate-disclosure boxes, repeated commission explanations or footer disclosure links across the commercial funnel.
+
+For outbound affiliate CTAs, use the compact `Paid link` label immediately adjacent to the CTA and keep `rel="sponsored"` on the outbound link.
+
+Keep the full legal notice available as a noindex fallback page, but do not use it as a primary navigation or SEO destination.

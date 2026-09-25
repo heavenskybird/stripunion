@@ -79,7 +79,7 @@ const pendingForCategory = kind === 'category'
           <div class="section-head">
             <span class="kicker">Migrated reviews</span>
             <h2>Start with the reviews already rebuilt in the new format.</h2>
-            <p>These pages have platform-specific copy, disclosure logic and indexable metadata rather than generic legacy templates.</p>
+            <p>These pages have platform-specific copy, useful comparison points and indexable metadata rather than generic legacy templates.</p>
           </div>
           <div class="review-grid">
             {migratedForCategory.map((review) => (
@@ -104,8 +104,8 @@ const pendingForCategory = kind === 'category'
     <section class="section section-soft">
       <div class="shell narrow">
         <div class="take-box">
-          <span class="kicker">Commercial transparency</span>
-          <p>Stripchat is currently StripUnion's approved affiliate partner. We do not convert unrelated platform names into hidden Stripchat redirects.</p>
+          <span class="kicker">Want a live option?</span>
+          <p>Stripchat offers public-room discovery with optional token-based interactions.</p>
         </div>
         <AffiliateButton source={`${item.slug}_category_partner`} />
       </div>
@@ -130,7 +130,7 @@ const pendingForCategory = kind === 'category'
     <section class="section shell narrow">
       <div class="legacy-note">
         <h2>Why this page is temporarily noindex</h2>
-        <p>We would rather keep a legacy URL available than publish thin or fabricated review content. This page will become indexable after its platform-specific facts, disclosures and internal links are migrated and checked.</p>
+        <p>We would rather keep a legacy URL available than publish thin or fabricated review content. This page will become indexable after its platform-specific facts, structure and internal links are migrated and checked.</p>
         <a class="text-link" href={`/${item.categorySlug}`}>Browse the {item.category} guide →</a>
       </div>
     </section>

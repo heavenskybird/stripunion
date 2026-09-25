@@ -37,6 +37,25 @@ function walk(target) {
 }
 
 let failed = false;
+
+const repetitiveDisclosurePhrases = [
+  'Affiliate disclosure:',
+  'StripUnion may earn commissions from qualifying referrals.',
+  'StripUnion may earn a commission from qualifying referrals'
+];
+
+for (const file of files) {
+  if (file !== 'src/pages/affiliate-disclosure.astro') {
+    const content = fs.readFileSync(file, 'utf8');
+    for (const phrase of repetitiveDisclosurePhrases) {
+      if (content.includes(phrase)) {
+        failed = true;
+        console.error(`FAIL: repetitive affiliate-disclosure copy found in ${file}: ${phrase}`);
+      }
+    }
+  }
+}
+
 for (const file of files) {
   const content = fs.readFileSync(file, 'utf8');
 

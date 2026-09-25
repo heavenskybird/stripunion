@@ -71,7 +71,6 @@ img{max-width:100%;height:auto}
 .text-link{font-weight:760;color:var(--accent);text-decoration:none}
 .review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .card-topline{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.partner-badge{font-size:11px;font-weight:800;background:var(--accent-soft);color:var(--accent);padding:5px 9px;border-radius:999px}
 .trust-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}
 .trust-points{display:grid;gap:14px}
 .trust-point{padding:18px 20px;border:1px solid #ded6e3;background:#fff;border-radius:16px}
@@ -83,7 +82,6 @@ img{max-width:100%;height:auto}
 .page-hero h1{font-size:clamp(42px,6vw,68px)}
 .breadcrumbs{display:flex;gap:9px;flex-wrap:wrap;font-size:13px;color:#c9bccf;margin-bottom:24px}
 .breadcrumbs a{text-decoration:none}
-.disclosure{margin:26px 0 20px;padding:16px 18px;border:1px solid rgba(255,255,255,.18);border-radius:14px;background:rgba(255,255,255,.06);color:#e8e0eb}
 .alternative-cta{display:flex;align-items:center;gap:13px;flex-wrap:wrap}
 .alternative-cta>span{font-size:13px;color:#c9bccf}
 .decision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:34px}
@@ -155,8 +153,12 @@ img{max-width:100%;height:auto}
 .money-card p{color:var(--muted)}
 @media(max-width:720px){.conversion-strip{flex-direction:column;align-items:flex-start}.conversion-strip .button{width:100%}.money-grid{grid-template-columns:1fr}}
 
-.card-partner-note{font-size:12px!important;color:#7a6f80!important;background:var(--soft);border-radius:12px;padding:10px 12px;margin:12px 0 14px!important}
 
 .related-guides{margin:54px 0}
 .related-guides>h2{margin-bottom:22px}
 .related-card{text-decoration:none}
+
+.affiliate-cta{display:inline-flex;flex-direction:column;align-items:center;gap:4px;vertical-align:top}
+.paid-link-note{font-size:10px;line-height:1;text-transform:uppercase;letter-spacing:.08em;color:#a89cad;font-weight:700}
+.page-hero .paid-link-note,.hero .paid-link-note{color:#b9abbf}
+.card-actions .affiliate-cta{align-items:flex-start}

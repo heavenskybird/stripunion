@@ -41,18 +41,10 @@ const faqSchema = {
       <span class="kicker">Independent review · Updated {updatedLabel}</span>
       <h1>{review.title}</h1>
       <p class="lead">{review.dek}</p>
-      <div class="disclosure">
-        <strong>Affiliate disclosure:</strong>
-        {
-          review.partner
-            ? ' Stripchat is a current commercial partner. We may earn a commission from qualifying referrals through clearly labeled buttons.'
-            : ` StripUnion does not currently use an affiliate link for ${review.name}. The separately labeled Stripchat button is a partner alternative, not a link to ${review.name}.`
-        }
-      </div>
       {
         review.partner
           ? <AffiliateButton source={firstCtaSource} />
-          : <div class="alternative-cta"><span>Current partner alternative</span><AffiliateButton source={`${review.slug}_alternative_top`} /></div>
+          : <div class="alternative-cta"><AffiliateButton source={`${review.slug}_alternative_top`} /></div>
       }
     </div>
   </section>
@@ -80,9 +72,9 @@ const faqSchema = {
 
     <section class="conversion-strip">
       <div>
-        <span class="kicker">{review.partner ? 'Try the reviewed platform' : 'Monetized alternative'}</span>
-        <h2>{review.partner ? 'Want to see Stripchat for yourself?' : 'Want a live option you can try now?'}</h2>
-        <p>{review.partner ? 'Use the partner link below to continue to Stripchat.' : `We do not send readers to ${review.name} through a non-affiliate outbound link. If you want a comparable commercial option now, Stripchat is our current partner.`}</p>
+        <span class="kicker">{review.partner ? 'Try Stripchat' : 'Try another live option'}</span>
+        <h2>{review.partner ? 'Want to see Stripchat for yourself?' : 'Want a comparable live-cam option now?'}</h2>
+        <p>{review.partner ? 'Open Stripchat and explore the current live rooms.' : `If you are still comparing after reading about ${review.name}, you can explore Stripchat next.`}</p>
       </div>
       <AffiliateButton source={review.partner ? `${review.slug}_mid` : `${review.slug}_alternative_mid`} />
     </section>
@@ -110,9 +102,9 @@ const faqSchema = {
 
     <section class="end-cta">
       <div>
-        <span class="kicker">{review.partner ? 'Current partner' : 'Partner alternative'}</span>
-        <h2>{review.partner ? 'Ready to explore Stripchat?' : 'Want to compare with our current partner?'}</h2>
-        <p>{review.partner ? 'Use the partner link below if Stripchat fits what you are looking for.' : `Read the ${review.name} review above on its own merits; if you also want to compare a current partner, Stripchat is our available commercial option.`}</p>
+        <span class="kicker">{review.partner ? 'Explore now' : 'Keep comparing'}</span>
+        <h2>{review.partner ? 'Ready to explore Stripchat?' : 'Want to try Stripchat next?'}</h2>
+        <p>{review.partner ? 'Open Stripchat if the experience above matches what you want.' : `If ${review.name} is not the right fit, Stripchat is another live-cam option to compare.`}</p>
       </div>
       <AffiliateButton source={review.partner ? bottomCtaSource : `${review.slug}_alternative_bottom`} />
     </section>
