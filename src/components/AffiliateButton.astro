@@ -14,18 +14,21 @@ const tracking = buildStripcashUrl({
   label
 });
 ---
-<a
-  class:list={['button', 'button-primary', className]}
-  href={tracking.url}
-  target="_blank"
-  rel={AFFILIATE_REL}
-  data-affiliate-partner="stripchat"
-  data-affiliate-source={source}
-  data-stripcash-campaign-id={tracking.campaignId}
-  data-stripcash-creative-id={tracking.creativeId}
-  data-stripcash-source-id={STRIPCASH_SOURCE_ID}
-  data-stripcash-p1={tracking.pageKey}
-  data-stripcash-p2={tracking.placement}
->
-  {label}
-</a>
+<span class="affiliate-cta">
+  <a
+    class:list={['button', 'button-primary', className]}
+    href={tracking.url}
+    target="_blank"
+    rel={AFFILIATE_REL}
+    data-affiliate-partner="stripchat"
+    data-affiliate-source={source}
+    data-stripcash-campaign-id={tracking.campaignId}
+    data-stripcash-creative-id={tracking.creativeId}
+    data-stripcash-source-id={STRIPCASH_SOURCE_ID}
+    data-stripcash-p1={tracking.pageKey}
+    data-stripcash-p2={tracking.placement}
+  >
+    {label}
+  </a>
+  <span class="paid-link-note">Paid link</span>
+</span>
