@@ -192,9 +192,7 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
 
           link.href = outbound.toString();
 
-          window.dataLayer = window.dataLayer || [];
-          window.dataLayer.push({
-            event: 'affiliate_click',
+          const analyticsPayload = {
             affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
             affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
             stripcash_campaign_id: outbound.searchParams.get('campaignId') || 'unknown',
@@ -204,7 +202,14 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
             stripcash_p2: outbound.searchParams.get('p2') || 'unknown',
             stripcash_p3: outbound.searchParams.get('p3') || 'unknown',
             outbound_url: link.href
-          });
+          };
+
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', 'affiliate_click', analyticsPayload);
+          } else {
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ event: 'affiliate_click', ...analyticsPayload });
+          }
         });
       })();
     </script>
