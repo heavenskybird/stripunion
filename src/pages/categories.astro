@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categories } from '../data/categories.js';
+---
+<BaseLayout title="Browse Adult Platform Categories" description="Browse StripUnion category guides for live cams, VR, adult games, dating, premium video, free video and adult shops.">
+  <section class="page-hero">
+    <div class="shell narrow">
+      <span class="kicker">StripUnion categories</span>
+      <h1>Choose the type of platform you want to compare.</h1>
+      <p class="lead">Each category uses criteria that fit the product model rather than forcing every platform into one generic ranking.</p>
+    </div>
+  </section>
+  <section class="section shell">
+    <div class="category-grid">
+      {categories.map((category) => (
+        <a class="category-card" href={`/${category.slug}`}>
+          <span class="kicker">{category.name}</span>
+          <h3>{category.title}</h3>
+          <p>{category.description}</p>
+          <span class="text-link">Explore →</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
