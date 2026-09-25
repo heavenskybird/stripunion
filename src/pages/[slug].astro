@@ -32,7 +32,7 @@ export function getStaticPaths() {
   }
 
   for (const [slug, target, label] of legacyAliases) {
-    paths.push({ params: { slug }, props: { kind: 'alias', item: { slug, target, label } });
+    paths.push({ params: { slug }, props: { kind: 'alias', item: { slug, target, label } } });
   }
 
   return paths;
