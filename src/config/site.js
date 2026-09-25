@@ -1,9 +1,12 @@
+const allowIndexing = import.meta.env.PUBLIC_ALLOW_INDEXING === 'true';
+
 export const SITE = {
   name: 'StripUnion',
   url: 'https://stripunion.com',
   blogUrl: 'https://blog.stripunion.com',
   description: 'Independent adult-platform reviews, comparisons and discovery guides for adults 18+.',
-  locale: 'en_US'
+  locale: 'en_US',
+  allowIndexing
 };
 
 export const STRIPCHAT_AFFILIATE_URL =
