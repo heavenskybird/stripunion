@@ -1,0 +1,19 @@
+---
+import { STRIPCHAT_AFFILIATE_URL, AFFILIATE_REL } from '../config/site.js';
+
+const {
+  source,
+  label = 'Try Stripchat →',
+  className = ''
+} = Astro.props;
+---
+<a
+  class:list={['button', 'button-primary', className]}
+  href={STRIPCHAT_AFFILIATE_URL}
+  target="_blank"
+  rel={AFFILIATE_REL}
+  data-affiliate-partner="stripchat"
+  data-affiliate-source={source}
+>
+  {label}
+</a>
