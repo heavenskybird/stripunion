@@ -1,0 +1,127 @@
+---
+import '../styles/global.css';
+import { SITE } from '../config/site.js';
+
+const {
+  title,
+  description = SITE.description,
+  canonical = Astro.url.pathname,
+  robots = 'index,follow',
+  pageType = 'WebPage'
+} = Astro.props;
+
+const fullTitle = title.includes('StripUnion') ? title : `${title} | StripUnion`;
+const canonicalUrl = new URL(canonical, SITE.url).toString();
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE.name,
+  url: SITE.url
+};
+
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@type': pageType,
+  name: title,
+  description,
+  url: canonicalUrl,
+  isPartOf: {
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url
+  }
+};
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#120f18" />
+    <meta name="robots" content={robots} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content={SITE.locale} />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label="StripUnion home">StripUnion</a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="/live-cams">Live Cams</a>
+          <a href="/vr-ar">VR / AR</a>
+          <a href="/adult-games">Adult Games</a>
+          <a href="/dating-hookups">Dating</a>
+          <a href="/premium-videos">Premium Videos</a>
+          <a href={SITE.blogUrl}>Blog</a>
+        </nav>
+        <span class="age-pill">18+</span>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="/">StripUnion</a>
+          <p>Independent adult-platform reviews, comparisons and discovery guides for adults 18+.</p>
+          <p class="muted">StripUnion may earn commissions from qualifying referrals.</p>
+        </div>
+        <div>
+          <h2>Explore</h2>
+          <a href="/live-cams">Live Cams</a>
+          <a href="/vr-ar">VR / AR</a>
+          <a href="/adult-games">Adult Games</a>
+          <a href="/dating-hookups">Dating / Hookups</a>
+          <a href={SITE.blogUrl}>Blog</a>
+        </div>
+        <div>
+          <h2>Editorial</h2>
+          <a href="/about">About</a>
+          <a href="/editorial-policy">Editorial Policy</a>
+          <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms">Terms of Use</a>
+          <a href="/age-verification">18+ Notice</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© {new Date().getFullYear()} StripUnion.</span>
+        <span>Adults 18+ only. Follow the laws that apply where you live.</span>
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.addEventListener('click', (event) => {
+        const link = event.target.closest('[data-affiliate-source]');
+        if (!link) return;
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'affiliate_click',
+          affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
+          affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
+          outbound_url: link.href
+        });
+      });
+    </script>
+  </body>
+</html>
