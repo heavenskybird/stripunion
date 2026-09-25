@@ -1,0 +1,17 @@
+---
+import AffiliateButton from './AffiliateButton.astro';
+
+const { review, source = 'review_card' } = Astro.props;
+---
+<article class="review-card">
+  <div class="card-topline">
+    <span class="kicker">{review.category}</span>
+    {review.partner && <span class="partner-badge">Current partner</span>}
+  </div>
+  <h3><a href={`/${review.slug}`}>{review.name}</a></h3>
+  <p>{review.dek}</p>
+  <div class="card-actions">
+    <a class="text-link" href={`/${review.slug}`}>Read review →</a>
+    {review.partner && <AffiliateButton source={source} />}
+  </div>
+</article>
