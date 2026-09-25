@@ -178,7 +178,16 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
           if (!(link instanceof HTMLAnchorElement)) return;
 
           const outbound = new URL(link.href);
-          outbound.searchParams.set('p3', acquisition);
+          const isStaging = window.location.hostname.endsWith('.hostingersite.com');
+
+          if (isStaging) {
+            outbound.searchParams.set('campaignId', 'su_staging_test');
+            outbound.searchParams.set('sourceId', 'stripunion_staging');
+            outbound.searchParams.set('p3', 'qa');
+          } else {
+            outbound.searchParams.set('p3', acquisition);
+          }
+
           link.href = outbound.toString();
 
           window.dataLayer = window.dataLayer || [];
@@ -186,12 +195,12 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
             event: 'affiliate_click',
             affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
             affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
-            stripcash_campaign_id: link.getAttribute('data-stripcash-campaign-id') || 'unknown',
-            stripcash_creative_id: link.getAttribute('data-stripcash-creative-id') || 'unknown',
-            stripcash_source_id: link.getAttribute('data-stripcash-source-id') || 'stripunion',
-            stripcash_p1: link.getAttribute('data-stripcash-p1') || 'unknown',
-            stripcash_p2: link.getAttribute('data-stripcash-p2') || 'unknown',
-            stripcash_p3: acquisition,
+            stripcash_campaign_id: outbound.searchParams.get('campaignId') || 'unknown',
+            stripcash_creative_id: outbound.searchParams.get('creativeId') || 'unknown',
+            stripcash_source_id: outbound.searchParams.get('sourceId') || 'stripunion',
+            stripcash_p1: outbound.searchParams.get('p1') || 'unknown',
+            stripcash_p2: outbound.searchParams.get('p2') || 'unknown',
+            stripcash_p3: outbound.searchParams.get('p3') || 'unknown',
             outbound_url: link.href
           });
         });
