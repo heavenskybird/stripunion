@@ -36,6 +36,7 @@ export const reviews = {
       ['Stripchat Pricing & Tokens', '/stripchat-pricing'],
       ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
       ['Stripchat App & Mobile', '/stripchat-app'],
+      ['Stripchat Magic Search', '/stripchat-magic-search'],
       ['How Live Cam Sites Work', 'https://blog.stripunion.com/how-live-cam-sites-work/'],
       ['Are Live Cam Sites Free?', 'https://blog.stripunion.com/are-live-cam-sites-free/'],
       ['Live Cam Safety Guide', 'https://blog.stripunion.com/live-cam-site-safety/']
