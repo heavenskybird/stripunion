@@ -32,6 +32,12 @@ export const reviews = {
       ['Is Stripchat a subscription service?', 'The core interaction model is token-based rather than a single all-access monthly subscription.'],
       ['What should I check before paying?', 'Check the displayed token cost, the type of interaction you are entering, and the platform’s current billing and privacy terms.']
     ],
+    relatedLinks: [
+      ['Stripchat Pricing & Tokens', '/stripchat-pricing'],
+      ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
+      ['Stripchat vs LiveJasmin', '/stripchat-vs-livejasmin'],
+      ['Stripchat Alternatives', '/stripchat-alternatives']
+    ],
     partner: true,
     indexable: true
   },
@@ -67,6 +73,11 @@ export const reviews = {
       ['How do private shows work?', 'Official support documentation says broadcasters can set a token-per-minute rate and minimum duration for private shows.'],
       ['Does StripUnion have a Chaturbate affiliate link?', 'Not currently. Our commercial partner alternative on this page is Stripchat, and it is labeled separately from the Chaturbate review.']
     ],
+    relatedLinks: [
+      ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
+      ['Chaturbate Alternatives', '/chaturbate-alternatives'],
+      ['Best Live Cam Sites', '/best-live-cam-sites']
+    ],
     partner: false,
     indexable: true
   },
@@ -100,6 +111,11 @@ export const reviews = {
     faq: [
       ['Is LiveJasmin free?', 'Basic browsing may be available, while premium/private interactions use credits. Confirm current access and pricing on the provider.'],
       ['How is it different from Stripchat?', 'LiveJasmin is generally positioned more toward premium paid interaction, while Stripchat emphasizes broad public-room discovery with optional token spending.']
+    ],
+    relatedLinks: [
+      ['Stripchat vs LiveJasmin', '/stripchat-vs-livejasmin'],
+      ['Best Live Cam Sites', '/best-live-cam-sites'],
+      ['Best Free Live Cam Sites', '/best-free-live-cam-sites']
     ],
     partner: false,
     indexable: true
