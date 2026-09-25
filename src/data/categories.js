@@ -4,7 +4,7 @@ export const categories = [
     name: 'Live Cams',
     title: 'Live Cam Sites: Reviews & Comparison Guide',
     description: 'Compare live cam platforms by access model, interaction options, usability, privacy information and overall fit.',
-    blurb: 'Live cam platforms combine public live rooms with optional paid interactions. StripUnion separates editorial reviews from commercial partner links so you can compare the experience before clicking out.',
+    blurb: 'Live cam platforms combine public live rooms with optional paid interactions. Compare the discovery style, token or credit model, private options and mobile experience before choosing what to try.',
     factors: ['Free public access', 'Token or credit model', 'Private interaction options', 'Mobile usability', 'Privacy and safety information', 'Content breadth']
   },
   {
