@@ -138,6 +138,8 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
           event: 'affiliate_click',
           affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
           affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
+          stripcash_source_id: link.getAttribute('data-stripcash-source-id') || 'stripunion',
+          stripcash_p1: link.getAttribute('data-stripcash-p1') || 'unknown',
           outbound_url: link.href
         });
       });
