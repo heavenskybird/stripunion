@@ -62,5 +62,16 @@ if (!siteConfig.includes(approvedAffiliate)) {
   console.error('FAIL: approved Stripchat affiliate URL is missing from src/config/site.js');
 }
 
+if (!siteConfig.includes("STRIPCASH_SOURCE_ID = 'stripunion'")) {
+  failed = true;
+  console.error('FAIL: Stripcash source attribution ID is missing or changed unexpectedly.');
+}
+
+const affiliateButton = fs.readFileSync('src/components/AffiliateButton.astro', 'utf8');
+if (!affiliateButton.includes('buildStripcashUrl(source)')) {
+  failed = true;
+  console.error('FAIL: AffiliateButton is not using the centralized Stripcash URL builder.');
+}
+
 if (failed) process.exit(1);
 console.log(`Quality gate passed across ${files.length} source/public files.`);
