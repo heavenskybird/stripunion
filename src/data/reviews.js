@@ -35,10 +35,10 @@ export const reviews = {
     relatedLinks: [
       ['Stripchat Pricing & Tokens', '/stripchat-pricing'],
       ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
-      ['Stripchat vs LiveJasmin', '/stripchat-vs-livejasmin'],
-      ['Stripchat Alternatives', '/stripchat-alternatives'],
-      ['Stripchat Private Shows', '/stripchat-private-shows'],
-      ['Stripchat App & Mobile', '/stripchat-app']
+      ['Stripchat App & Mobile', '/stripchat-app'],
+      ['How Live Cam Sites Work', 'https://blog.stripunion.com/how-live-cam-sites-work/'],
+      ['Are Live Cam Sites Free?', 'https://blog.stripunion.com/are-live-cam-sites-free/'],
+      ['Live Cam Safety Guide', 'https://blog.stripunion.com/live-cam-site-safety/']
     ],
     partner: true,
     indexable: true
