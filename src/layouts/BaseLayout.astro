@@ -7,10 +7,12 @@ const {
   description = SITE.description,
   canonical = Astro.url.pathname,
   robots = 'index,follow',
-  pageType = 'WebPage'
+  pageType = 'WebPage',
+  extraSchemas = []
 } = Astro.props;
 
-const fullTitle = title.includes('StripUnion') ? title : `${title} | StripUnion`;
+const safeTitle = title || SITE.name;
+const fullTitle = safeTitle.includes('StripUnion') ? safeTitle : `${safeTitle} | StripUnion`;
 const canonicalUrl = new URL(canonical, SITE.url).toString();
 
 const organizationSchema = {
@@ -23,7 +25,7 @@ const organizationSchema = {
 const pageSchema = {
   '@context': 'https://schema.org',
   '@type': pageType,
-  name: title,
+  name: safeTitle,
   description,
   url: canonicalUrl,
   isPartOf: {
@@ -32,6 +34,8 @@ const pageSchema = {
     url: SITE.url
   }
 };
+
+const schemas = [organizationSchema, pageSchema, ...extraSchemas];
 ---
 <!doctype html>
 <html lang="en">
@@ -43,8 +47,9 @@ const pageSchema = {
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={pageType === 'Article' ? 'article' : 'website'} />
     <meta property="og:site_name" content={SITE.name} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
@@ -55,8 +60,7 @@ const pageSchema = {
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
 
-    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
-    <script type="application/ld+json" set:html={JSON.stringify(pageSchema)} />
+    {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -75,9 +79,7 @@ const pageSchema = {
       </div>
     </header>
 
-    <main id="main">
-      <slot />
-    </main>
+    <main id="main"><slot /></main>
 
     <footer class="site-footer">
       <div class="shell footer-grid">
@@ -112,8 +114,10 @@ const pageSchema = {
 
     <script is:inline>
       document.addEventListener('click', (event) => {
-        const link = event.target.closest('[data-affiliate-source]');
-        if (!link) return;
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+        const link = target.closest('[data-affiliate-source]');
+        if (!(link instanceof HTMLAnchorElement)) return;
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push({
           event: 'affiliate_click',
