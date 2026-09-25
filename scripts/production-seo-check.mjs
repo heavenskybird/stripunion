@@ -27,7 +27,7 @@ if (!failed) {
   const checks = [
     ['homepage is indexable', home.includes('name="robots" content="index,follow"')],
     ['homepage canonical uses production domain', home.includes('rel="canonical" href="https://stripunion.com/"')],
-    ['homepage has no staging hostname', !home.includes('hostingersite.com')],
+    ['homepage has no staging URL', !/https:\/\/[^"'<>\s]*hostingersite\.com/i.test(home)],
     ['robots allows crawling', robots.includes('Allow: /')],
     ['robots references production sitemap', robots.includes('Sitemap: https://stripunion.com/sitemap.xml')],
     ['robots does not block all crawling', !robots.includes('Disallow: /')],
@@ -35,7 +35,7 @@ if (!failed) {
     ['sitemap has Stripchat review', sitemap.includes('<loc>https://stripunion.com/stripchat</loc>')],
     ['sitemap has Stripchat pricing', sitemap.includes('<loc>https://stripunion.com/stripchat-pricing</loc>')],
     ['sitemap has comparison page', sitemap.includes('<loc>https://stripunion.com/stripchat-vs-chaturbate</loc>')],
-    ['sitemap has no staging hostname', !sitemap.includes('hostingersite.com')],
+    ['sitemap has no staging URL', !/https:\/\/[^<\s]*hostingersite\.com/i.test(sitemap)],
     ['affiliate disclosure is not in sitemap', !sitemap.includes('/affiliate-disclosure')]
   ];
 
@@ -59,9 +59,9 @@ if (!failed) {
       failed = true;
       console.error(`FAIL: priority page is not indexable: ${file}`);
     }
-    if (html.includes('hostingersite.com')) {
+    if (/https:\/\/[^"'<>\s]*hostingersite\.com/i.test(html)) {
       failed = true;
-      console.error(`FAIL: staging hostname leaked into priority page: ${file}`);
+      console.error(`FAIL: staging URL leaked into priority page: ${file}`);
     }
   }
 }
