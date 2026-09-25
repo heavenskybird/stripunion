@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import { categoryBySlug } from '../data/categories.js';
+import { reviews } from '../data/reviews.js';
+
+const category = categoryBySlug['live-cams'];
+const liveReviews = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin];
+---
+<BaseLayout title={category.title} description={category.description}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Live Cams</span></nav>
+      <span class="kicker">Category guide</span>
+      <h1>{category.title}</h1>
+      <p class="lead">{category.blurb}</p>
+      <div class="hero-actions">
+        <AffiliateButton source="livecams_hero" />
+        <a class="button button-secondary" href="#reviews">Read the reviews</a>
+      </div>
+      <p class="micro">Stripchat is our current commercial partner. Other platforms below are covered editorially and link to StripUnion reviews, not disguised affiliate redirects.</p>
+    </div>
+  </section>
+
+  <section class="section shell">
+    <div class="section-head">
+      <span class="kicker">What matters</span>
+      <h2>Compare the model, not just the homepage.</h2>
+      <p>Live-cam services can look similar at first glance while differing materially in how public viewing, tokens, credits and private interactions work.</p>
+    </div>
+    <div class="factor-grid">
+      {category.factors.map((factor) => <div class="factor">{factor}</div>)}
+    </div>
+  </section>
+
+  <section class="section section-soft" id="reviews">
+    <div class="shell">
+      <div class="section-head">
+        <span class="kicker">Live cam reviews</span>
+        <h2>Three different platform styles.</h2>
+        <p>Read the individual reviews for context before choosing a paid interaction model.</p>
+      </div>
+      <div class="review-grid">
+        {liveReviews.map((review) => <ReviewCard review={review} source={`livecams_card_${review.slug}`} />)}
+      </div>
+
+      <table class="comparison-table">
+        <thead><tr><th>Platform</th><th>Access approach</th><th>Paid model</th><th>StripUnion link</th></tr></thead>
+        <tbody>
+          {liveReviews.map((review) => (
+            <tr>
+              <td><strong>{review.name}</strong></td>
+              <td>{review.access}</td>
+              <td>{review.model}</td>
+              <td><a class="text-link" href={`/${review.slug}`}>Read review →</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section shell narrow faq">
+    <span class="kicker">FAQ</span>
+    <h2>Live cam basics</h2>
+    <details>
+      <summary>Are live cam sites free?</summary>
+      <p>Many platforms provide some form of public browsing or viewing without payment, but tipping, private sessions or premium interactions can require tokens or credits. Check each platform's current terms before paying.</p>
+    </details>
+    <details>
+      <summary>What is the biggest cost difference between platforms?</summary>
+      <p>The key distinction is usually not a single sticker price. It is how often you use paid interactions, the token or credit rate, and whether private sessions are priced by time or another mechanism.</p>
+    </details>
+    <details>
+      <summary>Why does StripUnion link to Stripchat from some other reviews?</summary>
+      <p>Stripchat is currently our approved commercial partner. On reviews of other platforms, that button is labeled as a partner alternative rather than pretending to visit the reviewed brand.</p>
+    </details>
+  </section>
+</BaseLayout>

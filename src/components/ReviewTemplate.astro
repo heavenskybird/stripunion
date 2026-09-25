@@ -1,0 +1,104 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from './AffiliateButton.astro';
+import { SITE, updatedLabel } from '../config/site.js';
+
+const { review } = Astro.props;
+const firstCtaSource = `${review.slug}_top`;
+const bottomCtaSource = `${review.slug}_bottom`;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
+    { '@type': 'ListItem', position: 2, name: review.category, item: new URL(`/${review.categorySlug}`, SITE.url).toString() },
+    { '@type': 'ListItem', position: 3, name: review.name, item: new URL(`/${review.slug}`, SITE.url).toString() }
+  ]
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: review.faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout
+  title={review.title}
+  description={review.description}
+  pageType="Article"
+  extraSchemas={[breadcrumbSchema, faqSchema]}
+>
+  <section class="page-hero page-hero-review">
+    <div class="shell narrow">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/">Home</a><span>/</span><a href={`/${review.categorySlug}`}>{review.category}</a><span>/</span><span>{review.name}</span>
+      </nav>
+      <span class="kicker">Independent review · Updated {updatedLabel}</span>
+      <h1>{review.title}</h1>
+      <p class="lead">{review.dek}</p>
+      <div class="disclosure">
+        <strong>Affiliate disclosure:</strong>
+        {
+          review.partner
+            ? ' Stripchat is a current commercial partner. We may earn a commission from qualifying referrals through clearly labeled buttons.'
+            : ` StripUnion does not currently use an affiliate link for ${review.name}. The separately labeled Stripchat button is a partner alternative, not a link to ${review.name}.`
+        }
+      </div>
+      {
+        review.partner
+          ? <AffiliateButton source={firstCtaSource} />
+          : <div class="alternative-cta"><span>Current partner alternative</span><AffiliateButton source={`${review.slug}_alternative_top`} /></div>
+      }
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="decision-grid">
+      <div><span>Best for</span><strong>{review.bestFor}</strong></div>
+      <div><span>Access model</span><strong>{review.access}</strong></div>
+      <div><span>Paid model</span><strong>{review.model}</strong></div>
+    </div>
+
+    <div class="take-box">
+      <span class="kicker">StripUnion's take</span>
+      <p>{review.verdict}</p>
+    </div>
+
+    <div class="pros-cons">
+      <div><h2>Strengths</h2><ul>{review.strengths.map((item) => <li>{item}</li>)}</ul></div>
+      <div><h2>Limitations</h2><ul>{review.limitations.map((item) => <li>{item}</li>)}</ul></div>
+    </div>
+
+    <div class="article-body">
+      {review.sections.map(([heading, body]) => <section><h2>{heading}</h2><p>{body}</p></section>)}
+    </div>
+
+    {review.sourceLinks?.length > 0 && (
+      <section class="sources">
+        <h2>Primary sources</h2>
+        <p>Platform features and terms can change. These links are useful for checking current provider information.</p>
+        <ul>{review.sourceLinks.map(([label, href]) => <li><a href={href} rel="nofollow noopener noreferrer" target="_blank">{label} ↗</a></li>)}</ul>
+      </section>
+    )}
+
+    <section class="faq">
+      <span class="kicker">FAQ</span>
+      <h2>Questions about {review.name}</h2>
+      {review.faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="end-cta">
+      <div>
+        <span class="kicker">{review.partner ? 'Current partner' : 'Partner alternative'}</span>
+        <h2>{review.partner ? 'Ready to explore Stripchat?' : 'Want to compare with our current partner?'}</h2>
+        <p>{review.partner ? 'Use the partner link below if Stripchat fits what you are looking for.' : `Read the ${review.name} review above on its own merits; if you also want to compare a current partner, Stripchat is our available commercial option.`}</p>
+      </div>
+      <AffiliateButton source={review.partner ? bottomCtaSource : `${review.slug}_alternative_bottom`} />
+    </section>
+  </section>
+</BaseLayout>

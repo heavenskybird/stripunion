@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReviewTemplate from '../components/ReviewTemplate.astro';
+import ReviewCard from '../components/ReviewCard.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+import { categories } from '../data/categories.js';
+import { reviews } from '../data/reviews.js';
+import { vrReviews } from '../data/reviews-vr.js';
+import { legacyAliases, pendingReviews } from '../data/legacy.js';
+
+const allReviews = { ...reviews, ...vrReviews };
+
+export function getStaticPaths() {
+  const paths = [];
+  const allReviews = { ...reviews, ...vrReviews };
+
+  for (const review of Object.values(allReviews)) {
+    paths.push({ params: { slug: review.slug }, props: { kind: 'review', item: review } });
+  }
+
+  for (const category of categories.filter((item) => item.slug !== 'live-cams')) {
+    paths.push({ params: { slug: category.slug }, props: { kind: 'category', item: category } });
+  }
+
+  for (const [slug, [name, category, categorySlug]] of Object.entries(pendingReviews)) {
+    if (!allReviews[slug]) {
+      paths.push({
+        params: { slug },
+        props: { kind: 'pending', item: { slug, name, category, categorySlug } }
+      });
+    }
+  }
+
+  for (const [slug, target, label] of legacyAliases) {
+    paths.push({ params: { slug }, props: { kind: 'alias', item: { slug, target, label } } });
+  }
+
+  return paths;
+}
+
+const { kind, item } = Astro.props;
+const migratedForCategory = kind === 'category'
+  ? Object.values(allReviews).filter((review) => review.categorySlug === item.slug)
+  : [];
+const pendingForCategory = kind === 'category'
+  ? Object.entries(pendingReviews)
+      .filter(([slug, data]) => data[2] === item.slug && !allReviews[slug])
+      .map(([slug, data]) => ({ slug, name: data[0] }))
+  : [];
+---
+
+{kind === 'review' && <ReviewTemplate review={item} />}
+
+{kind === 'category' && (
+  <BaseLayout title={item.title} description={item.description}>
+    <section class="page-hero">
+      <div class="shell narrow">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>{item.name}</span></nav>
+        <span class="kicker">Category guide</span>
+        <h1>{item.title}</h1>
+        <p class="lead">{item.blurb}</p>
+      </div>
+    </section>
+
+    <section class="section shell">
+      <div class="section-head">
+        <span class="kicker">Evaluation framework</span>
+        <h2>What to compare in {item.name}</h2>
+        <p>These are the practical factors StripUnion uses when reviewing platforms in this category.</p>
+      </div>
+      <div class="factor-grid">
+        {item.factors.map((factor) => <div class="factor">{factor}</div>)}
+      </div>
+    </section>
+
+    {migratedForCategory.length > 0 && (
+      <section class="section section-soft">
+        <div class="shell">
+          <div class="section-head">
+            <span class="kicker">Migrated reviews</span>
+            <h2>Start with the reviews already rebuilt in the new format.</h2>
+            <p>These pages have platform-specific copy, disclosure logic and indexable metadata rather than generic legacy templates.</p>
+          </div>
+          <div class="review-grid">
+            {migratedForCategory.map((review) => (
+              <ReviewCard review={review} source={`${item.slug}_card_${review.slug}`} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {pendingForCategory.length > 0 && (
+      <section class="section shell narrow">
+        <div class="legacy-note">
+          <span class="kicker">Migration queue</span>
+          <h2>More {item.name} reviews are being rebuilt.</h2>
+          <p>Legacy URLs remain available but are kept out of search indexing until their platform-specific content is checked and rewritten.</p>
+          <p>{pendingForCategory.map((entry, index) => <><a class="text-link" href={`/${entry.slug}`}>{entry.name}</a>{index < pendingForCategory.length - 1 ? ' · ' : ''}</>)}</p>
+        </div>
+      </section>
+    )}
+
+    <section class="section section-soft">
+      <div class="shell narrow">
+        <div class="take-box">
+          <span class="kicker">Commercial transparency</span>
+          <p>Stripchat is currently StripUnion's approved affiliate partner. We do not convert unrelated platform names into hidden Stripchat redirects.</p>
+        </div>
+        <AffiliateButton source={`${item.slug}_category_partner`} />
+      </div>
+    </section>
+  </BaseLayout>
+)}
+
+{kind === 'pending' && (
+  <BaseLayout
+    title={`${item.name} Review`}
+    description={`StripUnion editorial page for ${item.name} in the ${item.category} category.`}
+    robots="noindex,follow"
+  >
+    <section class="page-hero">
+      <div class="shell narrow">
+        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href={`/${item.categorySlug}`}>{item.category}</a><span>/</span><span>{item.name}</span></nav>
+        <span class="kicker">Editorial migration</span>
+        <h1>{item.name} Review</h1>
+        <p class="lead">This legacy StripUnion URL is preserved while its original article is being rewritten into the new editorial format.</p>
+      </div>
+    </section>
+    <section class="section shell narrow">
+      <div class="legacy-note">
+        <h2>Why this page is temporarily noindex</h2>
+        <p>We would rather keep a legacy URL available than publish thin or fabricated review content. This page will become indexable after its platform-specific facts, disclosures and internal links are migrated and checked.</p>
+        <a class="text-link" href={`/${item.categorySlug}`}>Browse the {item.category} guide →</a>
+      </div>
+    </section>
+  </BaseLayout>
+)}
+
+{kind === 'alias' && (
+  <BaseLayout
+    title={`${item.label} — canonical page`}
+    description={`This legacy StripUnion URL now points to the canonical ${item.label} page.`}
+    canonical={item.target}
+    robots="noindex,follow"
+  >
+    <section class="section shell narrow">
+      <div class="legacy-note">
+        <span class="kicker">URL consolidated</span>
+        <h1>{item.label} has moved.</h1>
+        <p>This older StripUnion URL is retained for continuity. Continue to the canonical page below.</p>
+        <a class="button button-primary" href={item.target}>Continue →</a>
+      </div>
+    </section>
+  </BaseLayout>
+)}
