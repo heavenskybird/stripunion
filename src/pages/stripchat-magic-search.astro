@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+
+const title = 'Stripchat Magic Search Guide (2026)';
+const description = 'Learn how Stripchat Magic Search works, what changed in September 2026, and how natural-language live-room discovery differs from traditional category filters.';
+
+const faq = [
+  ['What is Stripchat Magic Search?', 'Magic Search lets users describe what they want in natural language and returns currently live models that match the description rather than forcing users to browse one fixed category at a time.'],
+  ['Do I need a Stripchat account to use Magic Search?', 'Stripcash announced in September 2026 that Magic Search works for guests, so a visitor can try it before registering.'],
+  ['Does Magic Search have a usage limit?', 'Stripcash announced in September 2026 that the previous three-search limit was removed.'],
+  ['Does Magic Search support multiple languages?', 'Stripcash says the feature understands more than 50 languages, which can make it useful for visitors who prefer searching in their own language.']
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/stripchat">Stripchat Review</a><span>/</span><span>Magic Search</span></nav>
+      <span class="kicker">Feature guide · Updated September 2026</span>
+      <h1>Stripchat Magic Search: What It Is & How It Works</h1>
+      <p class="lead">Magic Search changes live-room discovery from clicking through broad tags into describing the kind of room you want in ordinary language. The result is a live list of matching models rather than a static category page.</p>
+      <AffiliateButton source="stripchat_magic_search_hero" label="Try Stripchat →" />
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="take-box">
+      <span class="kicker">Quick answer</span>
+      <p>Stripcash announced in September 2026 that Magic Search is now available without the previous three-search cap, works for guests, and supports more than 50 languages. That makes it a useful discovery layer before a visitor commits to an account or paid interaction.</p>
+    </div>
+
+    <section class="article-body">
+      <section>
+        <h2>How Magic Search differs from normal filters</h2>
+        <p>Traditional live-cam navigation is usually built around categories and tags. Those filters are useful when one label captures what you want, but they can become clumsy when your preference combines several visible traits or a particular room style. Magic Search is designed around a natural-language description instead. It interprets the phrase and returns currently live rooms that match the request.</p>
+      </section>
+
+      <section>
+        <h2>Why the guest access change matters</h2>
+        <p>For a first-time visitor, forcing registration before discovery creates friction. The current Magic Search rollout allows guests to use the feature, which means you can test whether its discovery flow is useful before creating an account. That does not make paid interactions free: tokens and room-specific paid features remain separate from the search experience.</p>
+      </section>
+
+      <section>
+        <h2>Why language support can improve discovery</h2>
+        <p>Stripcash says Magic Search understands more than 50 languages. The practical benefit is that a visitor does not have to translate a preference into an English category label first. That can reduce the distance between what the visitor has in mind and the rooms surfaced by the site.</p>
+      </section>
+
+      <section>
+        <h2>Magic Search does not remove the need to compare pricing</h2>
+        <p>Discovery and spending are different decisions. Magic Search can help you find a relevant live room, but paid interactions can still use tokens and room-specific rates. Before spending, use the <a class="text-link" href="/stripchat-pricing">Stripchat pricing and tokens guide</a> and the <a class="text-link" href="/stripchat-private-shows">private-show guide</a> so you understand the commercial model separately from the search feature.</p>
+      </section>
+    </section>
+
+    <section class="conversion-strip">
+      <div>
+        <span class="kicker">Explore the current experience</span>
+        <h2>See whether Stripchat's discovery flow fits how you browse.</h2>
+        <p>Open Stripchat and compare the live-room experience with the category and pricing information you have already reviewed here.</p>
+      </div>
+      <AffiliateButton source="stripchat_magic_search_mid" />
+    </section>
+
+    <section class="related-guides">
+      <span class="kicker">Continue your decision</span>
+      <h2>Related StripUnion guides</h2>
+      <div class="money-grid">
+        <a class="money-card related-card" href="/stripchat"><h3>Stripchat Review</h3><span class="text-link">Read the full review →</span></a>
+        <a class="money-card related-card" href="/stripchat-pricing"><h3>Pricing & Tokens</h3><span class="text-link">Understand spending →</span></a>
+        <a class="money-card related-card" href="/stripchat-app"><h3>Mobile Access</h3><span class="text-link">Check phone access →</span></a>
+        <a class="money-card related-card" href="https://blog.stripunion.com/how-live-cam-sites-work/"><h3>How Live Cam Sites Work</h3><span class="text-link">Learn the basics →</span></a>
+      </div>
+    </section>
+
+    <section class="faq">
+      <span class="kicker">FAQ</span>
+      <h2>Stripchat Magic Search questions</h2>
+      {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="end-cta">
+      <div>
+        <span class="kicker">Try it for yourself</span>
+        <h2>Want to explore Stripchat's current live rooms?</h2>
+        <p>Open Stripchat and use its current discovery tools before deciding whether to register or buy tokens.</p>
+      </div>
+      <AffiliateButton source="stripchat_magic_search_bottom" />
+    </section>
+  </section>
+</BaseLayout>
