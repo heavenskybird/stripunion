@@ -22,7 +22,8 @@ const staticPaths = [
   '/stripchat-pricing',
   '/best-free-live-cam-sites',
   '/stripchat-private-shows',
-  '/stripchat-app'
+  '/stripchat-app',
+  '/stripchat-magic-search'
 ];
 
 export async function GET() {
