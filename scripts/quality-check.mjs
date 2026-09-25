@@ -16,6 +16,13 @@ const forbidden = [
 const approvedAffiliate =
   'https://go.whitetrafsa.com?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2';
 
+const allowedExternalPrefixes = [
+  'https://schema.org',
+  'https://stripunion.com',
+  'https://blog.stripunion.com',
+  'https://go.whitetrafsa.com'
+];
+
 const files = [];
 for (const root of roots) walk(root);
 
@@ -32,10 +39,19 @@ function walk(target) {
 let failed = false;
 for (const file of files) {
   const content = fs.readFileSync(file, 'utf8');
+
   for (const [label, needle] of forbidden) {
     if (content.includes(needle)) {
       failed = true;
       console.error(`FAIL: ${label} found in ${file}: ${needle}`);
+    }
+  }
+
+  const urls = content.match(/https:\/\/[^'"\`\s<>)]+/g) || [];
+  for (const url of urls) {
+    if (!allowedExternalPrefixes.some((prefix) => url.startsWith(prefix))) {
+      failed = true;
+      console.error(`FAIL: non-approved external URL found in user-facing source: ${file}: ${url}`);
     }
   }
 }
