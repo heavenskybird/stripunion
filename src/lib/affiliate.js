@@ -43,6 +43,7 @@ export function classifyCampaign(pageKey) {
   if (key.includes('pricing') || key.includes('tokens')) return 'su_livecam_pricing';
   if (key.startsWith('best_') || key.startsWith('best-')) return 'su_livecam_best';
   if (key === 'live_cams' || key === 'live-cams') return 'su_livecam_hub';
+  if (key.includes('private') || key.includes('app') || key.includes('magic_search') || key.includes('magic-search')) return 'su_livecam_feature';
   if (['stripchat','chaturbate','livejasmin'].includes(key)) return 'su_livecam_review';
 
   return 'su_crosssell';
