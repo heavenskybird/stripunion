@@ -5,7 +5,7 @@
 Hostinger AI Builder Agentic export:
 
 - Project id: `f5918aff-c2b5-47a1-aaec-33252d2e2e7b`
-- Export format: React/Vite monorepo with a bundled PocketBase runtime and Hostinger Builder/editor runtime.
+- Export format: React/Vite monorepo with bundled PocketBase and Hostinger Builder/editor runtime.
 
 ## Export inventory
 
@@ -20,46 +20,70 @@ Observed in the exported project:
 
 ## Confirmed legacy problems
 
-Before migration cleanup, source inspection found:
+Source inspection found:
 
-- 27 references to the legacy `go.mavrtracktor.com` affiliate/tracking domain across 25 files
+- 27 references to the legacy `go.mavrtracktor.com` tracking domain across 25 files
 - only 5 references to the approved `go.whitetrafsa.com` destination
-- 15 occurrences of the template phrase `Predict the future`
-- 10 placeholder-description occurrences across 5 files
-- Builder-specific ecommerce/cart/checkout runtime despite StripUnion being an affiliate publisher rather than a store
-- bundled PocketBase runtime/database that is not required for the current editorial-affiliate model
-- Hostinger visual-editor/session-journal runtime not needed in a normal production codebase
+- 15 occurrences of `Predict the future`
+- 10 unfinished description placeholders across 5 files
+- ecommerce/cart/checkout runtime despite an affiliate-publisher business model
+- PocketBase runtime/database not required for the current product
+- Hostinger visual-editor/session runtime not required in production
 
-The earlier Hostinger Agentic edits did successfully remove the fake physical address/phone/email placeholders and replaced the broken header logo with a text wordmark, but the export still contained substantial template and legacy-link residue.
+Earlier Agentic edits successfully removed fake address/phone/email placeholders and replaced the broken header logo with a text wordmark, but substantial residue remained.
 
-## Migration decision
+## Architecture decision
 
-The GitHub repository is the new source of truth.
+The GitHub repository is now the source of truth.
 
-We are not importing the Builder export byte-for-byte. Instead:
+The migration does not import Builder output byte-for-byte. Instead:
 
 1. Preserve useful public URLs and editorial content.
-2. Rebuild shared layout/components in a small maintainable React/Vite application.
+2. Rebuild the site with Astro static generation.
 3. Centralize affiliate destinations and disclosures.
-4. Remove Builder/editor, ecommerce, PocketBase, and duplicate generated code that is not required.
-5. Migrate existing useful editorial copy page-by-page after verifying it is not placeholder or fabricated content.
-6. Deploy to a Hostinger Business Web App staging URL before moving `stripunion.com`.
+4. Remove Builder/editor, ecommerce, PocketBase and duplicated generated markup.
+5. Migrate useful editorial copy only after checking it for placeholders and unsupported claims.
+6. Keep legacy URLs available while their canonical replacements are established.
+7. Deploy to a Hostinger Business Web App staging URL before moving `stripunion.com`.
 
-## Current status
+### Why Astro
 
-M0 repository bootstrap is in progress.
+StripUnion is primarily an SEO/editorial affiliate site. Static HTML provides stronger crawlability, lower client-side JavaScript, simpler hosting and better performance characteristics than the initial React SPA bootstrap.
 
-Already created:
+Hostinger currently supports Astro in Business Web Hosting Node.js/Web App deployments.
 
-- clean Vite/React project skeleton
-- central Stripchat affiliate configuration
-- responsive global layout
-- homepage foundation
-- generic editorial-review fallback
-- trust/legal page foundation
-- legacy-route registry
-- Blog link targeting `https://blog.stripunion.com`
+## Current migrated surface
 
-## Do not deploy to production yet
+Implemented on branch `m0-astro-static`:
 
-The current GitHub version is a migration foundation, not the finished production site. Core editorial content, metadata, sitemap/robots, analytics, and page-specific conversion work still need to be completed and validated.
+- static Astro architecture
+- responsive shared layout
+- centralized Stripchat affiliate URL
+- affiliate click event hooks via `dataLayer`
+- homepage conversion architecture
+- Live Cams comparison hub
+- full migrated review templates for Stripchat, Chaturbate, LiveJasmin and AdultFriendFinder
+- primary-source links on the Chaturbate review
+- affiliate disclosure, editorial policy, about, privacy, terms, disclaimer and 18+ pages
+- canonical tags and robots directives
+- Organization/WebSite/Article/Breadcrumb/FAQ structured data where applicable
+- XML sitemap and robots.txt
+- legacy route preservation with noindex/canonical handling
+- GitHub Actions build validation
+
+## Current build state
+
+A GitHub Actions build succeeded after the Astro conversion and CI configuration correction. Further changes must continue to pass build validation before merge to `main`.
+
+## Production status
+
+Do not move `stripunion.com` yet.
+
+Remaining before staging approval:
+
+- migrate the next priority review/category pages
+- visual QA on a real Hostinger staging deployment
+- verify generated sitemap/canonical output
+- configure a real contact mailbox before making Contact indexable
+- decide analytics/consent implementation
+- validate redirects or replacement strategy for legacy URLs
