@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+
+const title = 'Stripchat App: Mobile Access on iPhone & Android in 2026';
+const description = 'Learn how Stripchat works on mobile in 2026, including browser access, home-screen installation and why unofficial APK downloads deserve caution.';
+
+const faq = [
+  ['Is there a normal Stripchat viewer app in the App Store or Google Play?', 'Current 2026 editorial research indicates viewer access is centered on the mobile website / progressive web experience rather than a conventional standalone viewer app.'],
+  ['Can I use Stripchat on a phone?', 'Yes. The mobile web experience is designed for phone access, so a separate viewer download is not required.'],
+  ['Should I install an unofficial Stripchat APK?', 'Treat unofficial APKs cautiously. A browser-based route avoids giving an unknown third-party package access to your login or payment activity.']
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/stripchat">Stripchat Review</a><span>/</span><span>Mobile / App</span></nav>
+      <span class="kicker">Mobile intent · September 2026</span>
+      <h1>Stripchat App & Mobile Access</h1>
+      <p class="lead">For viewers, the practical mobile route is the Stripchat web experience rather than hunting for a random third-party APK. You can open the service in your phone browser and, where supported, add the web experience to your home screen.</p>
+      <div class="disclosure"><strong>Affiliate disclosure:</strong> Stripchat is StripUnion’s current commercial partner. The button below opens the approved tracked web destination.</div>
+      <AffiliateButton source="stripchat_app_hero" label="Open Stripchat on mobile →" />
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="take-box">
+      <span class="kicker">Quick answer</span>
+      <p>You do not need an unofficial viewer APK to use Stripchat on a phone. The browser route is the cleaner option because it keeps login and payment activity on the service’s web flow.</p>
+    </div>
+
+    <section class="article-body">
+      <section><h2>Mobile web vs a conventional app</h2><p>A progressive web experience can behave more like an installed app while still opening the real website. That is different from downloading a separate package from an app store or an APK website.</p></section>
+      <section><h2>Why this matters for account safety</h2><p>Adult-service names are commonly reused by unofficial download sites. If a third-party package asks for your credentials or payment information, you are trusting software outside the normal website flow. Using the approved web route reduces that unnecessary layer.</p></section>
+      <section><h2>Does mobile change the pricing model?</h2><p>The basic commercial model remains the same: public-room discovery first, with optional token-based paid interactions. For cost questions, use the StripUnion pricing guide rather than assuming a mobile-specific subscription.</p><p><a class="text-link" href="/stripchat-pricing">Read Stripchat Pricing & Tokens →</a></p></section>
+    </section>
+
+    <section class="conversion-strip">
+      <div><span class="kicker">Mobile-ready route</span><h2>Open the tracked Stripchat web experience.</h2><p>No unofficial download is required to reach the current partner destination.</p></div>
+      <AffiliateButton source="stripchat_app_mid" label="Open Stripchat →" />
+    </section>
+
+    <section class="faq">
+      <span class="kicker">FAQ</span><h2>Stripchat mobile questions</h2>
+      {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="end-cta">
+      <div><span class="kicker">Current partner</span><h2>Want to try the mobile web experience?</h2><p>Continue through the approved affiliate route.</p></div>
+      <AffiliateButton source="stripchat_app_bottom" label="Try Stripchat →" />
+    </section>
+  </section>
+</BaseLayout>

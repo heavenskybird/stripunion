@@ -36,7 +36,9 @@ export const reviews = {
       ['Stripchat Pricing & Tokens', '/stripchat-pricing'],
       ['Stripchat vs Chaturbate', '/stripchat-vs-chaturbate'],
       ['Stripchat vs LiveJasmin', '/stripchat-vs-livejasmin'],
-      ['Stripchat Alternatives', '/stripchat-alternatives']
+      ['Stripchat Alternatives', '/stripchat-alternatives'],
+      ['Stripchat Private Shows', '/stripchat-private-shows'],
+      ['Stripchat App & Mobile', '/stripchat-app']
     ],
     partner: true,
     indexable: true
