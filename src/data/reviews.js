@@ -67,10 +67,6 @@ export const reviews = {
       ['How do private shows work?', 'Official support documentation says broadcasters can set a token-per-minute rate and minimum duration for private shows.'],
       ['Does StripUnion have a Chaturbate affiliate link?', 'Not currently. Our commercial partner alternative on this page is Stripchat, and it is labeled separately from the Chaturbate review.']
     ],
-    sourceLinks: [
-      ['Chaturbate Terms', 'https://chaturbate.com/terms/'],
-      ['Chaturbate Support — Show Types', 'https://support.chaturbate.com/hc/en-us/articles/360048401752-Show-Types']
-    ],
     partner: false,
     indexable: true
   },

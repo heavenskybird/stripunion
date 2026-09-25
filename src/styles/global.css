@@ -143,3 +143,16 @@ img{max-width:100%;height:auto}
   .section{padding:58px 0}
   .footer-bottom{flex-direction:column}
 }
+
+.conversion-strip{margin:42px 0;background:linear-gradient(135deg,#f4eafb,#fbf8fd);border:1px solid #e4d4ec;border-radius:22px;padding:26px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.conversion-strip h2{font-size:30px;margin:6px 0 8px}
+.conversion-strip p{margin:0;color:#5c5361;max-width:590px}
+.source-note{margin:36px 0;padding:18px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--muted)}
+.source-note p{margin:6px 0 0}
+.money-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.money-card{border:1px solid var(--line);border-radius:20px;padding:22px;background:#fff}
+.money-card h3{margin:6px 0 10px}
+.money-card p{color:var(--muted)}
+@media(max-width:720px){.conversion-strip{flex-direction:column;align-items:flex-start}.conversion-strip .button{width:100%}.money-grid{grid-template-columns:1fr}}
+
+.card-partner-note{font-size:12px!important;color:#7a6f80!important;background:var(--soft);border-radius:12px;padding:10px 12px;margin:12px 0 14px!important}
