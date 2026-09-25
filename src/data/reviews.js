@@ -4,7 +4,7 @@ export const reviews = {
     name: 'Stripchat',
     category: 'Live Cams',
     categorySlug: 'live-cams',
-    title: 'Stripchat Review: Features, Pricing Model & User Experience',
+    title: 'Stripchat Review: Features, Tokens & Private Shows',
     description: 'A practical Stripchat review covering public rooms, token-based interactions, private shows, usability and key trade-offs.',
     dek: 'Stripchat combines free public live rooms with optional token-based interactions. This review focuses on how the experience is structured, what costs money, and what to consider before using it.',
     verdict: 'Stripchat is a strong fit for users who want broad live-room discovery with optional paid interaction, but spending can rise quickly once tipping or private sessions enter the picture.',

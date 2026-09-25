@@ -19,12 +19,16 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: SITE.name,
-  url: SITE.url
+  url: SITE.url,
+  logo: {
+    '@type': 'ImageObject',
+    url: new URL('/favicon.svg', SITE.url).toString()
+  }
 };
 
 const pageSchema = {
   '@context': 'https://schema.org',
-  '@type': pageType,
+  '@type': pageType === 'Article' ? 'WebPage' : pageType,
   name: safeTitle,
   description,
   url: canonicalUrl,
