@@ -1,0 +1,16 @@
+---
+import { SITE } from '../config/site.js';
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex,follow" />
+    <link rel="canonical" href={SITE.blogUrl} />
+    <meta http-equiv="refresh" content={`0;url=${SITE.blogUrl}`} />
+    <title>StripUnion Blog</title>
+  </head>
+  <body>
+    <p>Continue to <a href={SITE.blogUrl}>blog.stripunion.com</a>.</p>
+  </body>
+</html>
