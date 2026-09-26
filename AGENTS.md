@@ -27,6 +27,7 @@
 - Keep account identifiers and endpoint configuration in repository variables or existing configuration where appropriate; do not hard-code sensitive values.
 - Handle each data provider independently. Report failures clearly without deleting valid snapshots from other providers; skip optional collectors cleanly in local development when credentials are absent.
 - Before using an external API, follow its current official documentation and the limitations/cadence recorded in the relevant repository docs.
+- When work concerns OpenAI APIs, Codex, ChatGPT, plugins, MCP, or OpenAI product configuration, use the official OpenAI Developer Docs MCP as the preferred documentation source rather than relying on stale model knowledge.
 
 ## Git and delivery
 - Preserve the user's working tree and staged changes. Never reset, restore, discard, or rewrite user changes unless explicitly asked.
