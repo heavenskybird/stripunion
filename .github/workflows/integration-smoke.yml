@@ -1,0 +1,62 @@
+name: Integration smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/integration-smoke.yml
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify Buffer API credential
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          node --input-type=module <<'NODE'
+          const response = await fetch('https://api.buffer.com', {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${process.env.BUFFER_API_KEY}`,
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ query: 'query { account { id email name } }' })
+          });
+          const payload = await response.json();
+          if (!response.ok || payload.errors?.length || !payload.data?.account?.id) {
+            console.error(JSON.stringify(payload));
+            process.exit(1);
+          }
+          console.log(`Buffer OK: ${payload.data.account.id}`);
+          NODE
+
+      - name: Install SEO collector dependencies
+        working-directory: ops/seo-data-layer
+        run: npm install --no-audit --no-fund
+
+      - name: Verify Google Search Console collector
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+        run: npm run collect:gsc
+
+      - name: Verify GA4 collector
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+        run: npm run collect:ga4
