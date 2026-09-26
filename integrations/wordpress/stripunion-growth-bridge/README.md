@@ -25,4 +25,5 @@ Never commit the token to this repository.
 
 - Only first publish transition triggers dispatch.
 - Successful posts receive a private post-meta dispatch marker.
-- Successful first-publish dispatch is immediate.\n- Failed dispatches retry up to 3 times via WP-Cron.
+- Successful first-publish dispatch is immediate.
+- Failed dispatches retry up to 3 times via WP-Cron.
