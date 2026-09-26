@@ -4,7 +4,7 @@ Private WordPress integration for blog.stripunion.com.
 
 ## Purpose
 
-On the first transition of a WordPress post into the published state, the plugin dispatches the GitHub Actions workflow:
+On the first transition of a WordPress post into the published state, the plugin immediately dispatches the GitHub Actions workflow (v0.2+). The primary success path does not depend on WP-Cron:
 
 `social-distribution.yml`
 
@@ -25,4 +25,4 @@ Never commit the token to this repository.
 
 - Only first publish transition triggers dispatch.
 - Successful posts receive a private post-meta dispatch marker.
-- Failed dispatches retry up to 3 times via WP-Cron.
+- Successful first-publish dispatch is immediate.\n- Failed dispatches retry up to 3 times via WP-Cron.
