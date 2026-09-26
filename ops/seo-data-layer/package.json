@@ -1,0 +1,18 @@
+{
+  "name": "stripunion-seo-data-layer",
+  "private": true,
+  "version": "0.0.2",
+  "type": "module",
+  "scripts": {
+    "check": "node src/config/env.mjs",
+    "collect:gsc": "node src/collectors/gsc.mjs",
+    "collect:ga4": "node src/collectors/ga4.mjs",
+    "collect:google": "npm run collect:gsc && npm run collect:ga4",
+    "collect:site": "node src/collectors/site.mjs",
+    "report:weekly": "node src/reports/weekly.mjs"
+  },
+  "dependencies": {
+    "@google-analytics/data": "^5.2.0",
+    "googleapis": "^160.0.0"
+  }
+}

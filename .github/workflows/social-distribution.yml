@@ -1,0 +1,50 @@
+name: Social distribution
+
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: Published content title
+        required: true
+        type: string
+      url:
+        description: Published content URL
+        required: true
+        type: string
+      excerpt:
+        description: Short excerpt or summary
+        required: false
+        type: string
+      post_id:
+        description: Source post ID
+        required: false
+        type: string
+      source:
+        description: Event source
+        required: false
+        default: wordpress
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  queue-social-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Queue post in Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          SOCIAL_EVENT_JSON: >-
+            {"title":${{ toJson(inputs.title) }},"url":${{ toJson(inputs.url) }},"excerpt":${{ toJson(inputs.excerpt) }},"post_id":${{ toJson(inputs.post_id) }},"source":${{ toJson(inputs.source) }}}
+        run: node ops/seo-data-layer/src/distribution/social-event.mjs

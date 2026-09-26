@@ -1,0 +1,53 @@
+name: SEO data daily
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-data-daily
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install collector dependencies
+        working-directory: ops/seo-data-layer
+        run: npm install --no-audit --no-fund
+
+      - name: Collect Google Search Console and GA4
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+        run: npm run collect:google
+
+      - name: Persist snapshots
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No snapshot changes"
+            exit 0
+          fi
+          git config user.name "stripunion-growth-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/seo-data-layer/data/
+          git commit -m "data: update SEO snapshots [skip ci]"
+          git push
