@@ -3,7 +3,7 @@ approvals_reviewer = "auto_review"
 sandbox_mode = "workspace-write"
 
 [windows]
-sandbox = "elevated"
+sandbox = "unelevated"
 
 [mcp_servers.openaiDeveloperDocs]
 url = "https://developers.openai.com/mcp"
