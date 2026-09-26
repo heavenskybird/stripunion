@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - .github/workflows/seo-data-daily.yml
+      - ops/seo-data-layer/src/collectors/**
+      - ops/seo-data-layer/src/lib/**
+      - ops/seo-data-layer/package.json
   schedule:
     - cron: '20 1 * * *'
 
