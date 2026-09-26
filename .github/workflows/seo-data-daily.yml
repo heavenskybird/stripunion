@@ -2,6 +2,9 @@ name: SEO data daily
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/seo-data-daily.yml
   schedule:
     - cron: '20 1 * * *'
 
