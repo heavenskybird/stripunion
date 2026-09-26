@@ -4,7 +4,7 @@ import { daysAgo, writeSnapshot } from '../lib/io.mjs';
 
 const siteUrl = process.env.GSC_SITE_URL || 'sc-domain:stripunion.com';
 const endDate = process.env.SEO_END_DATE || daysAgo(2);
-const startDate = process.env.SEO_START_DATE || daysAgo(9);
+const startDate = process.env.SEO_START_DATE || daysAgo(32);
 
 const auth = googleAuth(['https://www.googleapis.com/auth/webmasters.readonly']);
 const client = google.searchconsole({ version: 'v1', auth });
