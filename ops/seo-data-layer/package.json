@@ -8,6 +8,8 @@
     "collect:gsc": "node src/collectors/gsc.mjs",
     "collect:ga4": "node src/collectors/ga4.mjs",
     "collect:google": "npm run collect:gsc && npm run collect:ga4",
+    "collect:bing": "node src/collectors/bing.mjs",
+    "collect:buffer": "node src/collectors/buffer.mjs",
     "collect:site": "node src/collectors/site.mjs",
     "report:weekly": "node src/reports/weekly.mjs"
   },

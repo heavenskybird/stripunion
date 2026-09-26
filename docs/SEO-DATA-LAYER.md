@@ -260,6 +260,16 @@ Review-first should remain the default until enough successful posts establish s
 
 ## Productization path
 
+## Implemented collection notes
+
+### Bing Webmaster
+
+The collector uses Microsoft's JSON/HTTP endpoints at `https://ssl.bing.com/webmaster/api.svc/json/` with `BING_WEBMASTER_API_KEY` supplied only through the environment. Set `BING_SITE_URLS` to a comma-, semicolon-, or newline-separated list of verified site URLs. It collects `GetQueryStats`, `GetPageStats`, `GetCrawlStats`, and `GetCrawlIssues` independently per site, and writes partial results to `data/raw/<date>/bing.json`; a failing site does not discard another site's result. Crawl stats update daily; query and page stats are documented as weekly-updated. `InIndex` from crawl stats is the available index-count signal; changes are directional comparisons between collected snapshots, not a complete index inventory. Bing may delay removal of repaired crawl issues by several days and does not expose a Google-style URL Inspection equivalent through this collector. The legacy POX/SOAP APIs are deliberately not used.
+
+### Buffer performance
+
+The Buffer collector discovers organizations and channels through the personal GraphQL API, selects the configured `BUFFER_CHANNEL_ID` when present (otherwise the X channel), and retrieves sent posts from the prior 90 days plus scheduled posts using cursor pagination. Set `BUFFER_SENT_DAYS` to adjust the lookback. Metrics are requested only for sent posts and retain each post's `metricsUpdatedAt`; Buffer refreshes post metrics daily, so they can lag the social network by about a day. Returned metric availability varies by network. The collector makes two paginated post queries and small organization/channel discovery queries per run.
+
 The internal tool can later become a SaaS, but only after StripUnion validates that the system produces useful decisions.
 
 ### SaaS v1 candidate

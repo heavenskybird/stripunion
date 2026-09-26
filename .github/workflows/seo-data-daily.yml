@@ -7,12 +7,14 @@ on:
       - .github/workflows/seo-data-daily.yml
       - ops/seo-data-layer/src/collectors/**
       - ops/seo-data-layer/src/lib/**
+      - ops/seo-data-layer/src/reports/**
       - ops/seo-data-layer/package.json
   schedule:
     - cron: '20 1 * * *'
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: seo-data-daily
@@ -20,14 +22,13 @@ concurrency:
 
 jobs:
   collect:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -38,15 +39,54 @@ jobs:
         working-directory: ops/seo-data-layer
         run: npm install --no-audit --no-fund
 
-      - name: Collect Google Search Console and GA4
+      - name: Collect Google Search Console
+        id: collect_gsc
+        continue-on-error: true
         working-directory: ops/seo-data-layer
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
+        run: npm run collect:gsc
+
+      - name: Collect GA4
+        id: collect_ga4
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
-        run: npm run collect:google
+        run: npm run collect:ga4
+
+      - name: Collect Bing Webmaster
+        id: collect_bing
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          BING_SITE_URLS: ${{ vars.BING_SITE_URLS }}
+        run: |
+          if [ -z "$BING_WEBMASTER_API_KEY" ]; then
+            echo "BING_WEBMASTER_API_KEY is not configured"
+            exit 1
+          fi
+          npm run collect:bing
+
+      - name: Collect Buffer performance
+        id: collect_buffer
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+        run: |
+          if [ -z "$BUFFER_API_KEY" ]; then
+            echo "BUFFER_API_KEY is not configured"
+            exit 1
+          fi
+          npm run collect:buffer
 
       - name: Persist snapshots
+        id: persist
         run: |
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
             echo "No snapshot changes"
@@ -57,3 +97,38 @@ jobs:
           git add ops/seo-data-layer/data/
           git commit -m "data: update SEO snapshots [skip ci]"
           git push
+
+      - name: Summarize collection outcomes
+        if: always()
+        shell: bash
+        id: summarize
+        env:
+          GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
+          GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
+          BING_OUTCOME: ${{ steps.collect_bing.outcome }}
+          BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
+        run: |
+          failed=0
+          for source in gsc ga4 bing buffer; do
+            case "$source" in
+              gsc) outcome="$GSC_OUTCOME" ;;
+              ga4) outcome="$GA4_OUTCOME" ;;
+              bing) outcome="$BING_OUTCOME" ;;
+              buffer) outcome="$BUFFER_OUTCOME" ;;
+            esac
+            if [ "$outcome" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/$source.json" > /dev/null; then
+              echo "$source: collection succeeded and snapshot exists"
+            else
+              echo "$source: collection failed or snapshot is missing"
+              failed=1
+            fi
+          done
+          echo "failed=$failed" >> "$GITHUB_OUTPUT"
+      - name: Dispatch weekly report generation
+        if: always() && steps.persist.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run weekly-growth-report.yml --ref main
+      - name: Mark missing source snapshots as failure
+        if: always() && steps.summarize.outputs.failed == '1'
+        run: exit 1

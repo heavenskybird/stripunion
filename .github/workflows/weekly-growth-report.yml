@@ -6,6 +6,8 @@ on:
     paths:
       - .github/workflows/weekly-growth-report.yml
       - ops/seo-data-layer/src/reports/**
+      - ops/seo-data-layer/src/lib/**
+      - ops/seo-data-layer/data/raw/**
   schedule:
     - cron: '45 1 * * 1'
 
@@ -14,13 +16,12 @@ permissions:
 
 jobs:
   report:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -29,6 +30,8 @@ jobs:
 
       - name: Generate report
         working-directory: ops/seo-data-layer
+        env:
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: node src/reports/weekly.mjs
 
       - name: Persist report
