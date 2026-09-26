@@ -18,6 +18,10 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
+      - name: Validate Hostinger read-only checker
+        run: |
+          node --check scripts/hostinger-readonly-check.mjs
+          node scripts/hostinger-readonly-check.mjs --self-test
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
