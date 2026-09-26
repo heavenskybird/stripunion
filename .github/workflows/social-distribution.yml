@@ -44,7 +44,7 @@ jobs:
       - name: Queue post in Buffer
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          BUFFER_CHANNEL_ID: ${{ secrets.BUFFER_CHANNEL_ID }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
           SOCIAL_EVENT_JSON: >-
             {"title":${{ toJson(inputs.title) }},"url":${{ toJson(inputs.url) }},"excerpt":${{ toJson(inputs.excerpt) }},"post_id":${{ toJson(inputs.post_id) }},"source":${{ toJson(inputs.source) }}}
         run: node ops/seo-data-layer/src/distribution/social-event.mjs
