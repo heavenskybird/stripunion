@@ -2,6 +2,10 @@ name: Weekly growth report
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/weekly-growth-report.yml
+      - ops/seo-data-layer/src/reports/**
   schedule:
     - cron: '45 1 * * 1'
 
