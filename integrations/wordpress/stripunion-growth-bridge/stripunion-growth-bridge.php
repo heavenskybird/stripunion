@@ -2,7 +2,7 @@
 /**
  * Plugin Name: StripUnion Growth Bridge
  * Description: Dispatches newly published StripUnion Blog posts to the StripUnion GitHub Actions growth workflow.
- * Version: 0.1.0
+ * Version: 0.2.0
  * Author: StripUnion
  * Requires at least: 6.5
  * Requires PHP: 8.1
@@ -258,9 +258,9 @@ final class StripUnion_Growth_Bridge {
             return;
         }
 
-        if (!wp_next_scheduled(self::CRON_HOOK, [$post->ID])) {
-            wp_schedule_single_event(time() + 5, self::CRON_HOOK, [$post->ID]);
-        }
+        // Dispatch immediately on first publish so the primary path does not depend
+        // on WP-Cron traffic. WP-Cron remains a retry mechanism only.
+        self::dispatch_post($post->ID);
     }
 
     public static function dispatch_post(int $post_id): void {
@@ -304,7 +304,7 @@ final class StripUnion_Growth_Bridge {
         );
 
         $response = wp_remote_post($url, [
-            'timeout' => 12,
+            'timeout' => 8,
             'headers' => self::github_headers($token),
             'body' => wp_json_encode($body),
         ]);
@@ -326,7 +326,7 @@ final class StripUnion_Growth_Bridge {
             'Authorization' => 'Bearer ' . $token,
             'X-GitHub-Api-Version' => '2022-11-28',
             'Content-Type' => 'application/json',
-            'User-Agent' => 'StripUnion-Growth-Bridge/0.1',
+            'User-Agent' => 'StripUnion-Growth-Bridge/0.2',
         ];
     }
 
