@@ -1,0 +1,11 @@
+{
+  "name": "stripunion-seo-data-layer",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "collect:site": "node src/collectors/site.mjs",
+    "report:weekly": "node src/reports/weekly.mjs",
+    "check": "node src/config/env.mjs"
+  }
+}
