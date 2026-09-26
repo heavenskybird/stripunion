@@ -143,3 +143,7 @@ This is separate from a ChatGPT subscription and should only be added when the r
 - Prefer long-lived but revocable keys for production automation.
 - Keep social publishing review-free only for templates that have already passed testing.
 - Never mass-post identical promotional content across communities.
+
+## Bing Webmaster site variable
+
+Create repository variable BING_SITE_URLS with comma-separated verified site URLs (for example the main and blog properties). Keep the API key in BING_WEBMASTER_API_KEY Actions Secret only.
