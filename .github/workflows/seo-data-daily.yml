@@ -17,7 +17,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: seo-data-daily
+  group: growth-data-persistence
   cancel-in-progress: false
 
 jobs:
