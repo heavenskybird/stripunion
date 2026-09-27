@@ -37,6 +37,10 @@ jobs:
       - name: Build production-indexable site
         run: PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 npm run build
       - name: Verify production SEO artifacts
+        env:
+          PUBLIC_ALLOW_INDEXING: 'true'
+          PUBLIC_GA4_MEASUREMENT_ID: G-TEST123456
         run: |
           npm run check:prod-seo
           node scripts/check-ga4-artifact.mjs
+
