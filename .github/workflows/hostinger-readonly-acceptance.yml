@@ -42,5 +42,6 @@ jobs:
 
       - name: Smoke check deployed staging site
         env:
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
           HOSTINGER_STAGING_DOMAIN: ${{ vars.HOSTINGER_STAGING_DOMAIN }}
         run: node scripts/staging-smoke-check.mjs

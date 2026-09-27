@@ -27,7 +27,9 @@ jobs:
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
-        run: npm run build
+        run: |
+          PUBLIC_ALLOW_INDEXING=false npm run build
+          node scripts/check-staging-robots-artifact.mjs
       - name: Build production-indexable site
         run: PUBLIC_ALLOW_INDEXING=true npm run build
       - name: Verify production SEO artifacts
