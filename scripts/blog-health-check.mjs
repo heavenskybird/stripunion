@@ -5,7 +5,9 @@ const BLOG_ORIGIN = 'https://blog.stripunion.com';
 const MAIN_ORIGIN = 'https://stripunion.com';
 const timeoutMs = 15_000;
 const maxBytes = 2_000_000;
-const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';\nconst expectedGoogleTagId = process.env.EXPECTED_GOOGLE_TAG_ID?.trim() || '';\nconst analyticsIdPattern = /\\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\\b/gi;
+const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';
+const expectedGoogleTagId = process.env.EXPECTED_GOOGLE_TAG_ID?.trim() || '';
+const analyticsIdPattern = /\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\b/gi;
 
 function attributes(tag) {
   const result = {};
