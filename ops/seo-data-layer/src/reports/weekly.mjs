@@ -115,4 +115,56 @@ const summary = {
     clicks: sum(bingQueries, 'Clicks'), impressions: sum(bingQueries, 'Impressions'),
     siteCoverage: bingSiteCoverage,
     highImpressionZeroClickQueries: bingZeroClickQueries, highImpressionZeroClickPages: bingZeroClickPages,
-    crawlErrors: bingCrawl.map((row) => ({ site: row.site, date: row.Date, g^¸òÚ$z{-®éÜj×&–ærò²rÒ&–ær6æ6†÷BÖ—76–ærâuÒ¢µÒ’À¢âââ†vBbbv†÷7E6VvÖVçFF–öäf–Æ&ÆRò²rÒtB†÷7FæÖR6VvÖVçFF–öâVæf–Æ&ÆRf÷"ÆVv7’&÷w3²&W'VâF†RtB6öÆÆV7F÷"Fò÷VÆFR6—FRF÷FÇ2âuÒ¢µÒ’À¢âââ†w62bbw64†÷7E6VvÖVçFF–öäf–Æ&ÆRò²rÒu42†÷7FæÖR6VvÖVçFF–öâVæf–Æ&ÆS¢vRFF†2æòW6&ÆRvR&÷w2âF–Ç’u42F÷FÇ2&R7F–ÆÂf–Æ&ÆRf÷"F†RFöÖ–â&÷W'G’âuÒ¢µÒ’À¢ââæ&–æu6—FT6÷fW&vRæf–ÇFW"‚‡6—FR’Óâ6—FRæ6öæf–wW&VB’æÖ‚‡6—FR’ÓâÒ$Äôr$”är4õdU$tRäõBdU$”d”TC¢G·6—FRæ†÷7FæÖWÒ—2æ÷B&W6VçB–âF†RÆFW7B6öæf–wW&VB÷&WGW&æVB&–ær6—FW2âFB—BFòfW&–f–VB&–ærvV&Ö7FW"6—FW2æB$”äuõ4•DUõU$Å2æ’À¢ââæ&–æu6—FT6÷fW&vRæf–ÇFW"‚‡6—FR’Óâ6—FRæ6öæf–wW&VBbb‚6—FRæÖWF†öG2ÇÂö&¦V7BçfÇVW2‡6—FRæÖWF†öG2’ç6öÖR‚‡7FGW2’Óâ7FGW2ÓÒvö²r’’’æÖ‚‡6—FR’ÓâÒ&–ær'F–ÂöW'&÷"6÷fW&vRf÷"G·6—FRæ†÷7FæÖWÓ¢G´¥4ôâç7G&–æv–g’‡6—FRæÖWF†öG2—Òæ’ÂrrÀ¢r226V&6‚FWF–ÂrÂÒ6öÖ&–æVBu43¢¢¢G¶w646Æ–6·7Ò¢¢6Æ–6·2+r¢¢G¶w64–×&W76–öç7Ò¢¢–×&W76–öç2+r¢¢G·7B‡7VÖÖ'’ævöövÆRæ7G"—Ò¢¢5E"æÀ¢âââ†7G$÷÷'GVæ—F–W2æÆVæwF‚ò7G$÷÷'GVæ—F–W2ç6Æ–6RƒÂR’æÖ‚‡&÷r’ÓâÒvV²5E#¢G·&÷rçVW'—Ò(	BG·&÷ræ–×&W76–öç7Ò–×&W76–öç2ÂG·7B„çVÖ&W"‡&÷ræ7G"ÇÂ’—Ò5E&’¢µÒ’ÂrrÀ¢r22&–ærrÂÒ6öÖ&–æVC¢¢¢G·7VÖÖ'’æ&–æræ6Æ–6·7Ò¢¢6Æ–6·2+r¢¢G·7VÖÖ'’æ&–æræ–×&W76–öç7Ò¢¢–×&W76–öç2+rG¶&–ætW'&÷'2æÆVæwF‡Ò7&vÂ—77VRU$Ç2æÀ¢ââæ&–æt6÷fW&vU7VÖÖ'’À¢ââäö&¦V7BçfÇVW2†&–æt7&vÂç&VGV6R‚†ÆFW7BÂ&÷r’Óâ°¢6öç7BFFRÒ7G&–ær‡&÷räFFRÇÂrr“°¢–b‚ÆFW7E·&÷rç6—FUÒÇÂFFRâ7G&–ær†ÆFW7E·&÷rç6—FUÒäFFRÇÂrr’’ÆFW7E·&÷rç6—FUÒÒ&÷s°¢&WGW&âÆFW7C°¢ÒÂ·Ò’’æÖ‚‡&÷r’ÓâÒG·&÷rç6—FWÓ¢ÆFW7BG·&÷rä7&vÄW'&÷'2ÇÂÒ7&vÂW'&÷'3²G·&÷rä–ä–æFW‚óòwVæ¶æ÷vâwÒ–æFW†VF’ÂrrÀ¢r227V—6—F–öâ6æ6†÷BrÂÒtB6öÖ&–æVC¢¢¢G·7VÖÖ'’ævBç6W76–öç7Ò¢¢6W76–öç2+r¢¢G·7VÖÖ'’ævBæVævvVE6W76–öç7Ò¢¢VævvVB‚G·7B‡7VÖÖ'’ævBæVævvVÖVçE&FR—Ò’+rff–Æ–FUö6Æ–6²¢¢G¶ff–Æ–FT6Æ–6·7Ò¢¢+r&WfVçVRG·7VÖÖ'’ævBç&WfVçVRÇÂvæ÷B6öææV7FVBwÒæÂrrÀ¢r22F—7G&–'WF–öâFWF–ÂrÂÒ'VffW"õƒ¢G·6VçE÷7G2æÆVæwF‡Ò6VçB+rG·66†VGVÆVE÷7G2æÆVæwF‡Ò66†VGVÆVB+rG·7VÖÖ'’æ'VffW"æ–×&W76–öç7Ò–×&W76–öç2+rG·7VÖÖ'’æ'VffW"æ6Æ–6·7Ò6Æ–6·2æÀ¢ââæ†–v…W&f÷&Ö–æu÷7G2ç6Æ–6RƒÂ2’æÖ‚‡÷7B’ÓâÒ÷7BG·÷7Bæ–BÇÂr‡Væ¶æ÷vâ–B’wÓ¢G·÷7BæÖWG&–73òæ–×&W76–öç2óòvâöwÒ–×&W76–öç2ÂG·÷7BæÖWG&–73òæ6Æ–6·2óòvâöwÒ6Æ–6·6’Ârp¥Òæ¦ö–â‚uÆâr“° ¦v—Bg2çw&—FTf–ÆR‡F‚æ¦ö–â‡&W÷'G5&ö÷BÂG·&W÷'DFFWÒæ§6öæ’Â¥4ôâç7G&–æv–g’‡7VÖÖ'’ÂçVÆÂÂ"’²uÆâr“°¦v—Bg2çw&—FTf–ÆR‡F‚æ¦ö–â‡&W÷'G5&ö÷BÂG·&W÷'DFFWÒæÖF’ÂÖB²uÆâr“°¦6öç6öÆRæÆör†ÖB“°
+    crawlErrors: bingCrawl.map((row) => ({ site: row.site, date: row.Date, errors: Number(row.CrawlErrors || 0), http4xx: Number(row.Code4xx || 0), http5xx: Number(row.Code5xx || 0) })),
+    crawlIssues: bingErrors, indexChanges
+  },
+  ga4: {
+    sessions: sum(landingRows, 'sessions'), engagedSessions: sum(landingRows, 'engagedSessions'),
+    siteSegmentationAvailable: gaHostSegmentationAvailable,
+    sites: gaHostSegmentationAvailable ? { main: gaSiteMetrics('main'), blog: gaSiteMetrics('blog'), other: gaSiteMetrics('other') } : null,
+    engagementRate: sum(landingRows, 'sessions') ? sum(landingRows, 'engagedSessions') / sum(landingRows, 'sessions') : 0,
+    acquisitionSources: aggregate(landingRows, 'sessionSourceMedium', 'sessions').slice(0, 8),
+    landingPages: aggregate(landingRows, 'landingPagePlusQueryString', 'sessions').slice(0, 10),
+    affiliateClick: affiliateClicks, conversions: null, revenue: sum(landingRows, 'totalRevenue'), events: events.slice(0, 12)
+  },
+  buffer: {
+    channel: buffer?.data?.channel || null, sentPostCount: sentPosts.length, scheduledPostCount: scheduledPosts.length,
+    impressions: sum(sentPosts.map((post) => post.metrics || {}), 'impressions'), clicks: sum(sentPosts.map((post) => post.metrics || {}), 'clicks'),
+    engagement: { reactions: sum(sentPosts.map((post) => post.metrics || {}), 'reactions'), comments: sum(sentPosts.map((post) => post.metrics || {}), 'comments'), reposts: sum(sentPosts.map((post) => post.metrics || {}), 'reposts'), reach: sum(sentPosts.map((post) => post.metrics || {}), 'reach') },
+    metricsUpdatedAt: sentPosts.map((post) => post.metricsUpdatedAt).filter(Boolean).sort().at(-1) || null,
+    highestPerformingPosts: highPerformingPosts.slice(0, 3).map((post) => ({ id: post.id || null, sentAt: post.sentAt || null, metrics: post.metrics || {} }))
+  }
+};
+
+const md = [
+  `# StripUnion Growth Report â€” ${reportDate}`, '',
+  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} Â· GA4 ${ga4 ? `(${ga4.date})` : 'missing'} Â· Bing ${bing ? `(${bing.date})` : 'missing'} Â· Buffer ${buffer ? `(${buffer.date})` : 'missing'}.`, '',
+  '## Main Site', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.main.sessions}** sessions Â· **${summary.ga4.sites.main.engagedSessions}** engaged Â· **${summary.ga4.sites.main.affiliateClick}** affiliate_click Â· revenue ${summary.ga4.sites.main.revenue ? `**${summary.ga4.sites.main.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.main.clicks}** clicks Â· **${summary.google.sites.main.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
+  '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions Â· **${summary.ga4.sites.blog.engagedSessions}** engaged Â· **${summary.ga4.sites.blog.affiliateClick}** affiliate_click Â· revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks Â· **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
+  '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions Â· **${summary.ga4.engagedSessions}** engaged sessions Â· **${affiliateClicks}** affiliate_click Â· ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`, `- GSC domain property: **${gscClicks}** clicks Â· **${gscImpressions}** impressions; page totals are classified by hostname and other hosts remain separate.`, '',
+  '## Search Opportunities', ...(rankingOpportunities.length ? rankingOpportunities.slice(0, 5).map((row) => `- ${row.query}: position ${Number(row.position).toFixed(1)}, ${row.impressions} impressions`) : ['- No current query rows available.']), '',
+  '## Distribution', `- Buffer: ${sentPosts.length} sent posts Â· ${scheduledPosts.length} scheduled Â· ${summary.buffer.impressions} impressions Â· ${summary.buffer.clicks} clicks.`, '',
+  '## Revenue / Affiliate Attribution', `- ${summary.ga4.siteSegmentationAvailable ? `Main affiliate_click: ${summary.ga4.sites.main.affiliateClick}; Blog affiliate_click: ${summary.ga4.sites.blog.affiliateClick}.` : 'Site-level affiliate_click attribution needs a fresh host-segmented GA4 snapshot.'}`, `- ${summary.ga4.revenue ? `GA4 reported revenue: ${summary.ga4.revenue}.` : 'REVENUE DATA NOT CONNECTED: GA4 revenue was zero or unavailable in the collected rows.'}`, '',
+  '## Warnings / Missing Data',
+  ...(!ga4 ? ['- GA4 snapshot missing.'] : []), ...(!gsc ? ['- GSC snapshot missing.'] : []), ...(!bing ? ['- Bing snapshot missing.'] : []),
+  ...(ga4 && !gaHostSegmentationAvailable ? ['- GA4 hostname segmentation unavailable for legacy rows; rerun the GA4 collector to populate site totals.'] : []),
+  ...(gsc && !gscHostSegmentationAvailable ? ['- GSC hostname segmentation unavailable: page data has no usable page rows. Daily GSC totals are still available for the domain property.'] : []),
+  ...bingSiteCoverage.filter((site) => !site.configured).map((site) => `- BLOG BING COVERAGE NOT VERIFIED: ${site.hostname} is not present in the latest configured/returned Bing sites. Add it to verified Bing Webmaster sites and BING_SITE_URLS.`),
+  ...bingSiteCoverage.filter((site) => site.configured && (!site.methods || Object.values(site.methods).some((status) => status !== 'ok'))).map((site) => `- Bing partial/error coverage for ${site.hostname}: ${JSON.stringify(site.methods)}.`), '',
+  '## Search Detail', `- Combined GSC: **${gscClicks}** clicks Â· **${gscImpressions}** impressions Â· **${pct(summary.google.ctr)}** CTR.`,
+  ...(ctrOpportunities.length ? ctrOpportunities.slice(0, 5).map((row) => `- Weak CTR: ${row.query} â€” ${row.impressions} impressions, ${pct(Number(row.ctr || 0))} CTR`) : []), '',
+  '## Bing', `- Combined: **${summary.bing.clicks}** clicks Â· **${summary.bing.impressions}** impressions Â· ${bingErrors.length} crawl issue URLs.`,
+  ...bingCoverageSummary,
+  ...Object.values(bingCrawl.reduce((latest, row) => {
+    const date = String(row.Date || '');
+    if (!latest[row.site] || date > String(latest[row.site].Date || '')) latest[row.site] = row;
+    return latest;
+  }, {})).map((row) => `- ${row.site}: latest ${row.CrawlErrors || 0} crawl errors; ${row.InIndex ?? 'unknown'} indexed`), '',
+  '## Acquisition Snapshot', `- GA4 combined: **${summary.ga4.sessions}** sessions Â· **${summary.ga4.engagedSessions}** engaged (${pct(summary.ga4.engagementRate)}) Â· affiliate_click **${affiliateClicks}** Â· revenue ${summary.ga4.revenue || 'not connected'}.`, '',
+  '## Distribution Detail', `- Buffer/X: ${sentPosts.length} sent Â· ${scheduledPosts.length} scheduled Â· ${summary.buffer.impressions} impressions Â· ${summary.buffer.clicks} clicks.`,
+  ...highPerformingPosts.slice(0, 3).map((post) => `- Post ${post.id || '(unknown id)'}: ${post.metrics?.impressions ?? 'n/a'} impressions, ${post.metrics?.clicks ?? 'n/a'} clicks`), ''
+].join('\n');
+
+await fs.writeFile(path.join(reportsRoot, `${reportDate}.json`), JSON.stringify(summary, null, 2) + '\n');
+await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md + '\n');
+console.log(md);
