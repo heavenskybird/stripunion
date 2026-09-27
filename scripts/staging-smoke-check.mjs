@@ -173,8 +173,8 @@ function selfTest() {
   assert.equal(canonicalUrl('<link href="https://stripunion.com/a" rel="canonical">'), 'https://stripunion.com/a');
   assert.equal(hasStagingUrlReference('<script>endsWith(\'.hostingersite.com\')</script>'), false);
   assert.equal(hasStagingUrlReference('<a href=\"https://yellowgreen-duck-244197.hostingersite.com/path\">'), true);
-  assert.equal(hasPermissiveCrawlRule('User-agent: *\\nDisallow: /\\n'), false);
-  assert.equal(hasPermissiveCrawlRule('User-agent: *\\nDisallow: /\\nAllow: /\\n'), true);
+  assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n`), false);
+  assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\nAllow: /\n`), true);
   assert.equal(validateStagingDomain('yellowgreen-duck-244197.hostingersite.com'), 'yellowgreen-duck-244197.hostingersite.com');
   assert.throws(() => validateStagingDomain('evil.example'), /hostingersite\.com/);
   console.log('Staging smoke checker self-test passed.');
