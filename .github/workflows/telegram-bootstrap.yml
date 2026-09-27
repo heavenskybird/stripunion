@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - '.github/workflows/telegram-bootstrap.yml'
+      - 'ops/seo-data-layer/src/distribution/telegram.mjs'
 
 permissions:
   contents: read
