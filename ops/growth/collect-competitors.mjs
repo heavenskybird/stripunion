@@ -54,7 +54,7 @@ const snapshots = [];
 for (const competitor of config.domains) {
   const host = new URL(competitor.origin).hostname;
   const allowedHosts = new Set([host, `www.${host}`]);
-  const entry = { name: competitor.name, origin: competitor.origin, evidence: competitor.canonicalEvidence, pages: [], errors: [] };
+  const entry = { name: competitor.name, origin: competitor.origin, evidence: competitor.canonicalEvidence, sitemapFiles: [], sitemapStatus: 'unknown', homepageFallback: true, pages: [], errors: [] };
   try {
     const { response, body } = await fetchText(new URL('/robots.txt', competitor.origin), allowedHosts);
     const sitemapLocs = [...body.matchAll(/^\s*Sitemap:\s*(\S+)/gim)].map((m) => m[1]);
@@ -68,6 +68,8 @@ for (const competitor of config.domains) {
       try {
         const { response: sitemapResponse, body: xml } = await fetchText(sitemap, allowedHosts);
         if (sitemapResponse.status >= 400) continue;
+        if (!/<(?:[\w.-]+:)?(?:sitemapindex|urlset)\b/i.test(xml) && !/<loc>\s*[^<]+\s*<\/loc>/i.test(xml)) continue;
+        entry.sitemapFiles.push(sitemap);
         const sitemapIndex = /<(?:[\w.-]+:)?sitemapindex\b/i.test(xml);
         for (const match of xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)) {
           const u = new URL(match[1].trim());
@@ -78,6 +80,8 @@ for (const competitor of config.domains) {
         }
       } catch (error) { entry.errors.push(`sitemap: ${error.message}`); }
     }
+    entry.sitemapStatus = entry.sitemapFiles.length ? 'available' : 'unavailable';
+    if (!entry.sitemapFiles.length) entry.errors.push('no usable public sitemap discovered; homepage fallback only');
     entry.robotsStatus = response.status;
     const bounded = [...urls].slice(0, config.maxPagesPerDomain);
     entry.sitemapUrls = bounded;
