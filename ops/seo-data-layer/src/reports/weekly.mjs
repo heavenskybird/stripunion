@@ -164,7 +164,7 @@ summary.trafficControlPlane = {
   acquisitionSessions: { organic: channelSessions.organic, social: channelSessions.social, communityReferral: channelSessions.communityReferral, paid: channelSessions.paid, total: sum(landingRows, 'sessions'), unclassified: channelSessions.unclassified },
   qualifiedSessions: sum(landingRows, 'engagedSessions'),
   outboundAffiliateCtr: sum(landingRows, 'sessions') ? affiliateClicks / sum(landingRows, 'sessions') : null,
-  organicImpressions: gscImpressions, organicClicks: gscClicks, indexedPages,
+  organicImpressions: gscImpressions, organicClicks: gscClicks, indexedPages: bing ? indexedPages : null,
   publishedContentCount: { astroCommercialPages: astroPages, wordpressPublishedPosts: null, wordpressDraftInventory: 'unavailable' },
   contentFreshness: { status: 'not-measured', reason: 'CMS publication dates are not part of the current GA4, GSC, or Bing snapshots.' },
   topAcquisitionLandingPages: summary.ga4.landingPages
