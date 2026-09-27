@@ -9,7 +9,7 @@ const REQUIRED_ROUTES = [
   '/stripchat-vs-chaturbate',
   '/best-live-cam-sites',
 ];
-const GUARD_MARKERS = ['.hostingersite.com', 'su_staging_test', 'stripunion_staging'];
+const GUARD_MARKERS = ['.hostingersite.com', 'staging.stripunion.com', 'su_staging_test', 'stripunion_staging'];
 const REQUEST_TIMEOUT_MS = 12_000;
 const MAX_REDIRECTS = 5;
 const MAX_BODY_BYTES = 5 * 1024 * 1024;
@@ -58,7 +58,7 @@ export function canonicalUrl(html) {
 }
 
 export function hasStagingUrlReference(html) {
-  return /https?:\/\/(?:[a-z0-9-]+\.)*hostingersite\.com\b/i.test(html);
+  return /https?:\/\/(?:(?:[a-z0-9-]+\.)*hostingersite\.com|staging\.stripunion\.com)\b/i.test(html);
 }
 
 export function hasPermissiveCrawlRule(robots) {
@@ -113,8 +113,10 @@ export function getRobotsGroups(robots) {
 
 export function validateStagingDomain(value) {
   const host = String(value ?? '').trim().toLowerCase();
-  if (!/^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.hostingersite\.com$/.test(host)) {
-    throw new Error('HOSTINGER_STAGING_DOMAIN must be a hostname under hostingersite.com.');
+  const isTemporaryHost = /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.hostingersite\.com$/.test(host);
+  const isCustomStagingHost = host === 'staging.stripunion.com';
+  if (!isTemporaryHost && !isCustomStagingHost) {
+    throw new Error('HOSTINGER_STAGING_DOMAIN must be the approved StripUnion staging hostname.');
   }
   return host;
 }
@@ -354,6 +356,7 @@ function selfTest() {
   assert.equal(canonicalUrl('<link href="https://stripunion.com/a" rel="canonical">'), 'https://stripunion.com/a');
   assert.equal(hasStagingUrlReference('<script>endsWith(\'.hostingersite.com\')</script>'), false);
   assert.equal(hasStagingUrlReference('<a href=\"https://yellowgreen-duck-244197.hostingersite.com/path\">'), true);
+  assert.equal(hasStagingUrlReference('<a href=\"https://staging.stripunion.com/path\">'), true);
   assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n`), false);
   assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\nAllow: /\n`), true);
   assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n\nUser-agent: Googlebot\nAllow: /\n`), false);
@@ -365,7 +368,8 @@ function selfTest() {
   ]);
   assert.equal(normalizeRobotsBody('User-agent: *\r\nDisallow: /\r\n'), 'User-agent: *\nDisallow: /');
   assert.equal(validateStagingDomain('yellowgreen-duck-244197.hostingersite.com'), 'yellowgreen-duck-244197.hostingersite.com');
-  assert.throws(() => validateStagingDomain('evil.example'), /hostingersite\.com/);
+  assert.equal(validateStagingDomain('staging.stripunion.com'), 'staging.stripunion.com');
+  assert.throws(() => validateStagingDomain('evil.example'), /approved StripUnion staging hostname/);
   console.log('Staging smoke checker self-test passed.');
 }
 
