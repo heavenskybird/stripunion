@@ -1,0 +1,4 @@
+---
+const { updated, methodology, verifiedFacts = [], showAffiliateDisclosure = false } = Astro.props;
+---
+<aside class="discovery-trust"><p class="kicker">Research notes</p>{updated && <p>Information checked {updated}.</p>}{methodology && <p>{methodology}</p>}{verifiedFacts.length > 0 && <ul>{verifiedFacts.map((fact) => <li>{fact}</li>)}</ul>}{showAffiliateDisclosure && <small>Paid links are labeled next to the relevant action.</small>}<slot /></aside>

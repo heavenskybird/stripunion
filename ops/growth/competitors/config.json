@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "maxPagesPerDomain": 60,
+  "timeoutMs": 15000,
+  "domains": [
+    { "name": "Porneed", "origin": "https://porneed.com", "canonicalEvidence": "https://stripcash.com/blog/where-the-cam-buyers-actually-come-from/", "evidenceNote": "Named as the Porneed review site by its StripCash affiliate; verify live canonical at collection." },
+    { "name": "WebcamsChats", "origin": "https://webcamschats.com", "canonicalEvidence": "https://webcamschats.com/about/", "evidenceNote": "First-party About page." },
+    { "name": "CamSitesReviews", "origin": "https://camsitesreviews.com", "canonicalEvidence": "https://camsitesreviews.com/", "evidenceNote": "First-party homepage." },
+    { "name": "FetishAura", "origin": "https://fetishaura.com", "canonicalEvidence": "https://fetishaura.com/", "evidenceNote": "First-party homepage." },
+    { "name": "CamChatReviews", "origin": "https://camchatreviews.com", "canonicalEvidence": "https://camchatreviews.com/", "evidenceNote": "First-party homepage." }
+  ]
+}

@@ -1,0 +1,4 @@
+---
+const { title = 'Pricing details', rows = [], note } = Astro.props;
+---
+<section class="discovery-pricing"><h2>{title}</h2><div class="discovery-table-scroll"><table><thead><tr><th scope="col">Item</th><th scope="col">Price or model</th><th scope="col">Checked</th></tr></thead><tbody>{rows.map((row) => <tr><th scope="row">{row.item}</th><td>{row.price}</td><td>{row.checked}</td></tr>)}</tbody></table></div>{note && <p class="discovery-note">{note}</p>}</section>

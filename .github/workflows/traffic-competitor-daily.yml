@@ -1,0 +1,55 @@
+name: Traffic and competitor intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2 * * *'
+  push:
+    paths:
+      - .github/workflows/traffic-competitor-daily.yml
+      - ops/growth/**
+      - src/pages/**
+      - src/data/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: growth-data-persistence
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect public competitor metadata
+        run: node ops/growth/collect-competitors.mjs
+      - name: Inventory and score existing Astro content
+        run: node ops/growth/content-inventory.mjs
+      - name: Generate evidence-based opportunities
+        run: node ops/growth/opportunities.mjs
+      - name: Persist snapshots and report
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "No growth intelligence changes"
+            exit 0
+          fi
+          git config user.name "stripunion-growth-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/growth/competitors/data/ ops/growth/content-inventory/ ops/growth/opportunities/
+          git commit -m "data: refresh competitor and opportunity intelligence [skip ci]"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            if [ "$attempt" -lt 3 ]; then sleep "$attempt"; fi
+          done
+          echo "Could not persist growth intelligence after three fast-forward retries."
+          exit 1
+

@@ -105,6 +105,19 @@ const indexTotals = (snapshot) => (snapshot?.data?.sites || []).map((site) => {
 const currentIndex = indexTotals(bing);
 const previousIndex = new Map(indexTotals(previousBing).map((item) => [item.site, item.indexed]));
 const indexChanges = currentIndex.map((item) => ({ ...item, previousIndexed: previousIndex.get(item.site) ?? null, change: previousIndex.has(item.site) ? item.indexed - previousIndex.get(item.site) : null }));
+const channelSessions = { organic: 0, social: 0, communityReferral: 0, paid: 0, unclassified: 0 };
+for (const row of landingRows) {
+  const sourceMedium = String(row.sessionSourceMedium || '').toLowerCase();
+  const sessions = Number(row.sessions || 0);
+  const key = /organic/.test(sourceMedium) ? 'organic'
+    : /social|facebook|instagram|tiktok|pinterest|youtube/.test(sourceMedium) ? 'social'
+      : /cpc|ppc|paid|display|retarget/.test(sourceMedium) ? 'paid'
+        : /referral|community/.test(sourceMedium) ? 'communityReferral' : 'unclassified';
+  channelSessions[key] += sessions;
+}
+const indexedPages = currentIndex.reduce((total, item) => total + Number(item.indexed || 0), 0);
+const astroPages = await fs.readdir(path.resolve(packageRoot, '../../src/pages')).then((files) => files.filter((name) => name.endsWith('.astro') && !['404.astro', 'affiliate-disclosure.astro', 'age-verification.astro', 'contact.astro', 'disclaimer.astro', 'editorial-policy.astro', 'privacy-policy.astro', 'terms.astro'].includes(name)).length).catch(() => null);
+
 const reportDate = new Date().toISOString().slice(0, 10);
 await fs.mkdir(reportsRoot, { recursive: true });
 
@@ -147,6 +160,16 @@ const summary = {
   }
 };
 
+summary.trafficControlPlane = {
+  acquisitionSessions: { organic: channelSessions.organic, social: channelSessions.social, communityReferral: channelSessions.communityReferral, paid: channelSessions.paid, total: sum(landingRows, 'sessions'), unclassified: channelSessions.unclassified },
+  qualifiedSessions: sum(landingRows, 'engagedSessions'),
+  outboundAffiliateCtr: sum(landingRows, 'sessions') ? affiliateClicks / sum(landingRows, 'sessions') : null,
+  organicImpressions: gscImpressions, organicClicks: gscClicks, indexedPages: bing ? indexedPages : null,
+  publishedContentCount: { astroCommercialPages: astroPages, wordpressPublishedPosts: null, wordpressDraftInventory: 'unavailable' },
+  contentFreshness: { status: 'not-measured', reason: 'CMS publication dates are not part of the current GA4, GSC, or Bing snapshots.' },
+  topAcquisitionLandingPages: summary.ga4.landingPages
+};
+
 const md = [
   `# StripUnion Growth Report — ${reportDate}`, '',
   `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'}.`, '',
@@ -177,7 +200,22 @@ const md = [
   ...highPerformingPosts.slice(0, 3).map((post) => `- Post ${post.id || '(unknown id)'}: ${post.metrics?.impressions ?? 'n/a'} impressions, ${post.metrics?.clicks ?? 'n/a'} clicks`), ''
 ].join('\n');
 
+md.push(
+  '',
+  '## Traffic control plane',
+  `- Acquisition sessions — Organic: ${summary.trafficControlPlane.acquisitionSessions.organic} · Social: ${summary.trafficControlPlane.acquisitionSessions.social} · Community/Referral: ${summary.trafficControlPlane.acquisitionSessions.communityReferral} · Paid: ${summary.trafficControlPlane.acquisitionSessions.paid} · Total: ${summary.trafficControlPlane.acquisitionSessions.total} (unclassified: ${summary.trafficControlPlane.acquisitionSessions.unclassified}).`,
+  `- Qualified sessions (GA4 engaged sessions): ${summary.trafficControlPlane.qualifiedSessions}.`,
+  `- Outbound affiliate CTR: ${summary.trafficControlPlane.outboundAffiliateCtr == null ? 'unavailable' : pct(summary.trafficControlPlane.outboundAffiliateCtr)} of sessions.`,
+  `- Organic impressions/clicks: ${summary.trafficControlPlane.organicImpressions}/${summary.trafficControlPlane.organicClicks}; indexed pages: ${summary.trafficControlPlane.indexedPages} (Bing-reported index signal).`,
+  `- Published content count: ${astroPages ?? 'unavailable'} Astro commercial routes; WordPress published count unavailable.`,
+  '- Content freshness: not measured in available source snapshots.',
+  '- AFFILIATE REVENUE ATTRIBUTION NOT YET CONNECTED.',
+  '',
+  '### Top acquisition landing pages',
+  ...summary.trafficControlPlane.topAcquisitionLandingPages.map((row) => `- ${row.key}: ${row.value} sessions`)
+);
+
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.json`), JSON.stringify(summary, null, 2) + '\n');
-await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md + '\n');
+await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md.join('\n') + '\n');
 console.log(md);
 

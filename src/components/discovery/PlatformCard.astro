@@ -1,0 +1,4 @@
+---
+const { name, summary, access, pricing, href, label = 'Read review' } = Astro.props;
+---
+<article class="discovery-card"><div class="discovery-card-copy"><h3>{name}</h3><p>{summary}</p><dl>{access && <div><dt>Access</dt><dd>{access}</dd></div>}{pricing && <div><dt>Paid model</dt><dd>{pricing}</dd></div>}</dl>{href && <a class="text-link" href={href}>{label} →</a>}</div><slot /></article>

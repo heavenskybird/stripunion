@@ -26,6 +26,10 @@ jobs:
           node scripts/staging-smoke-check.mjs --self-test
           node --check scripts/blog-health-check.mjs
           node scripts/blog-health-check.mjs --self-test
+          node --check ops/growth/collect-competitors.mjs
+          node --check ops/growth/content-inventory.mjs
+          node --check ops/growth/opportunities.mjs
+          node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
           npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs

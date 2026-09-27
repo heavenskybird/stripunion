@@ -1,0 +1,31 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const root = path.dirname(fileURLToPath(import.meta.url));
+const repo = path.resolve(root, '../..');
+const readLatest = async (dir, suffix) => { try { const names = (await fs.readdir(dir)).filter((n) => n.endsWith(suffix)).sort().reverse(); return names.length ? { date: names[0].slice(0, 10), data: JSON.parse(await fs.readFile(path.join(dir, names[0]), 'utf8')) } : null; } catch { return null; } };
+const dataRoot = path.join(repo, 'ops/seo-data-layer/data/raw');
+const dirs = await fs.readdir(dataRoot).catch(() => []);
+const source = async (file) => { for (const dir of dirs.filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort().reverse()) try { return { date: dir, data: JSON.parse(await fs.readFile(path.join(dataRoot, dir, file), 'utf8')) }; } catch {} return null; };
+const [gsc,bing,competitor,diff] = await Promise.all([source('gsc.json'),source('bing.json'),readLatest(path.join(root,'competitors/data/raw'),'.json'),readLatest(path.join(root,'competitors/data/diffs'),'.json')]);
+const pageFiles = (await fs.readdir(path.join(repo,'src/pages'))).filter((f)=>f.endsWith('.astro')&&!['404.astro','robots.txt.js','sitemap.xml.js'].includes(f));
+const existing = new Set(pageFiles.map((f)=>f.replace(/\.astro$/,'').toLowerCase()));
+const candidates=[];
+const competitorChanges=(diff?.data?.competitors||[]).filter((row)=>(row.newUrls||[]).length).map((row)=>({domain:row.name,newUrlCount:row.newUrls.length,removedUrlCount:(row.removedUrls||[]).length,urls:row.newUrls.slice(0,5)}));
+function addQuery({source,date,query,impressions,clicks,position,page}) {
+ if(!query||impressions<1)return;
+ const intent=/best|review|vs|versus|price|pricing|token|alternative|compare/i.test(query);
+ const competitorEvidence=competitorChanges.map((change)=>({source:'daily public sitemap diff',...change,topicMatch:'not established; treat as landscape context only'}));
+ const score=Math.min(100,Math.round(Math.log2(impressions+1)*8+(Number.isFinite(position)&&20-position>0?20-position:0)+(intent?20:0)+(competitorEvidence.length?5:0)));
+ candidates.push({id:`${source.toLowerCase()}-${Buffer.from(query).toString('hex').slice(0,16)}`,sourceEvidence:[{source,date,query,impressions,clicks,position}],targetKeyword:query,recommendedAction:existing.has(String(page||'').split('/').filter(Boolean).at(-1))?'refresh existing landing page':'evaluate a new on-site guide against the content inventory',trafficIntent:impressions>=20?'high':'observed',commercialIntent:intent?'high':'unknown',competitorEvidence,ourEvidence:{page:page||null,impressions,clicks,position},expectedImpact:'Potential visibility or click-through improvement; no forecast assigned.',confidence:impressions>=20?'medium':'low',risk:intent?'medium':'low',experimentWindow:'14 days',score});
+}
+for (const row of gsc?.data?.queryRows || []) addQuery({source:'GSC',date:gsc.date,query:row.query,impressions:Number(row.impressions||0),clicks:Number(row.clicks||0),position:Number(row.position||99),page:row.page});
+for (const site of bing?.data?.sites||[]) for (const row of site.queryStats||[]) addQuery({source:'Bing',date:row.Date,query:row.Query,impressions:Number(row.Impressions||0),clicks:Number(row.Clicks||0),position:Number(row.AvgImpressionPosition||99)});
+const opportunities=candidates.sort((a,b)=>b.score-a.score).slice(0,30).map(({score,...item},i)=>({...item,rank:i+1}));
+const date=new Date().toISOString().slice(0,10);const outDir=path.join(root,'opportunities');await fs.mkdir(outDir,{recursive:true});
+const result={generatedAt:new Date().toISOString(),sources:{gsc:gsc?.date||null,bing:bing?.date||null,competitorSnapshot:competitor?.date||null,competitorDiff:diff?.date||null,wordpressDrafts:{status:'unavailable',reason:'No authenticated WordPress draft listing tool or repository draft export is available in this workflow.'}},opportunities,guardrails:{highRiskActionsAutoImplemented:false,wordpressPublished:false,competitorBodiesStored:false,forecastGuarantees:false}};
+await fs.writeFile(path.join(outDir,'latest.json'),JSON.stringify(result,null,2)+'\n');
+const lines=[`# Daily Growth Opportunities — ${date}`,'',`Sources: GSC ${result.sources.gsc||'missing'} · Bing ${result.sources.bing||'missing'} · competitor snapshot ${result.sources.competitorSnapshot||'missing'} · diff ${result.sources.competitorDiff||'missing'}.`,'','WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.','', 'Affiliate revenue attribution is not yet connected. Signup and purchase outcomes are not reported as connected.','', '## Ranked evidence-backed opportunities',''];
+for(const o of opportunities) lines.push(`${o.rank}. **${o.targetKeyword}** — ${o.recommendedAction}; ${o.sourceEvidence[0].impressions} impressions, ${o.sourceEvidence[0].clicks} clicks, position ${o.sourceEvidence[0].position}; intent ${o.commercialIntent}; confidence ${o.confidence}; risk ${o.risk}.`);
+if(!opportunities.length) lines.push('No query-level opportunities met the minimum observed-data threshold.');
+await fs.writeFile(path.join(outDir,'latest.md'),lines.join('\n')+'\n');console.log(`Opportunity report generated: ${opportunities.length} evidence-backed candidates.`);
