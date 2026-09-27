@@ -25,7 +25,8 @@ jobs:
           node --check scripts/staging-smoke-check.mjs
           node scripts/staging-smoke-check.mjs --self-test
           node --check scripts/blog-health-check.mjs
-          node scripts/blog-health-check.mjs --self-testnode --check ops/growth/collect-competitors.mjs
+          node scripts/blog-health-check.mjs --self-test
+          node --check ops/growth/collect-competitors.mjs
           node --check ops/growth/content-inventory.mjs
           node --check ops/growth/opportunities.mjs
           node scripts/content-quality-gate.mjs --self-test
