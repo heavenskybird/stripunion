@@ -59,7 +59,12 @@ async function getPosts(status, includeMetrics) {
 const since = new Date(`${daysAgo(Number(process.env.BUFFER_SENT_DAYS || 90))}T00:00:00Z`);
 const [sent, scheduled] = await Promise.all([getPosts('sent', true), getPosts('scheduled', false)]);
 const normalized = sent.map((post) => {
-  const metrics = Object.fromEntries((post.metrics || []).map((metric) => [metric.name || metric.type, Number(metric.value)]));
+  const metrics = {};
+  for (const metric of post.metrics || []) {
+    const value = Number(metric.value);
+    if (metric.type) metrics[String(metric.type)] = value;
+    if (metric.name) metrics[String(metric.name).trim().toLowerCase().replace(/[^a-z0-9]+/g, '')] = value;
+  }
   return {
     ...post,
     metrics: {
@@ -69,7 +74,7 @@ const normalized = sent.map((post) => {
       comments: metrics.comments ?? null,
       reposts: metrics.reposts ?? metrics.shares ?? null,
       clicks: metrics.clicks ?? null,
-      engagementRate: metrics.engagementRate ?? metrics.engagement_rate ?? null,
+      engagementRate: metrics.engagementRate ?? metrics.engagementrate ?? metrics.engagement_rate ?? null,
       raw: post.metrics || []
     }
   };
