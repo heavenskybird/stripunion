@@ -1,0 +1,31 @@
+name: Telegram Bootstrap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/telegram-bootstrap.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  publish-first-telegram-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Publish StripUnion welcome post
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          SOCIAL_EVENT_JSON: >-
+            {"title":"StripUnion is live on Telegram","url":"https://blog.stripunion.com/best-cam-sites-to-watch-live-models-online/","excerpt":"Adult-platform reviews, comparisons, pricing guides and creator resources — with new discoveries and updates published throughout the week.","post_id":"telegram-bootstrap-2026-09-28","source":"telegram-bootstrap"}
+        run: node ops/seo-data-layer/src/distribution/telegram.mjs
