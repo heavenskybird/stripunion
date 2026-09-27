@@ -48,3 +48,11 @@ jobs:
           SOCIAL_EVENT_JSON: >-
             {"title":${{ toJson(inputs.title) }},"url":${{ toJson(inputs.url) }},"excerpt":${{ toJson(inputs.excerpt) }},"post_id":${{ toJson(inputs.post_id) }},"source":${{ toJson(inputs.source) }}}
         run: node ops/seo-data-layer/src/distribution/social-event.mjs
+
+      - name: Publish to Telegram when configured
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          SOCIAL_EVENT_JSON: >-
+            {"title":${{ toJson(inputs.title) }},"url":${{ toJson(inputs.url) }},"excerpt":${{ toJson(inputs.excerpt) }},"post_id":${{ toJson(inputs.post_id) }},"source":${{ toJson(inputs.source) }}}
+        run: node ops/seo-data-layer/src/distribution/telegram.mjs
