@@ -198,7 +198,7 @@ const md = [
   '## Acquisition Snapshot', `- GA4 combined: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged (${pct(summary.ga4.engagementRate)}) · affiliate_click **${affiliateClicks}** · revenue ${summary.ga4.revenue || 'not connected'}.`, '',
   '## Distribution Detail', `- Buffer/X: ${sentPosts.length} sent · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks.`,
   ...highPerformingPosts.slice(0, 3).map((post) => `- Post ${post.id || '(unknown id)'}: ${post.metrics?.impressions ?? 'n/a'} impressions, ${post.metrics?.clicks ?? 'n/a'} clicks`), ''
-].join('\n');
+];
 
 md.push(
   '',
@@ -218,4 +218,3 @@ md.push(
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.json`), JSON.stringify(summary, null, 2) + '\n');
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md.join('\n') + '\n');
 console.log(md);
-
