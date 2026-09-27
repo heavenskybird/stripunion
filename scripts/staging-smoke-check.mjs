@@ -13,6 +13,11 @@ const GUARD_MARKERS = ['.hostingersite.com', 'su_staging_test', 'stripunion_stag
 const REQUEST_TIMEOUT_MS = 12_000;
 const MAX_REDIRECTS = 5;
 const MAX_BODY_BYTES = 5 * 1024 * 1024;
+const ROBOTS_DIAGNOSTIC_MAX_CHARS = 2_000;
+const ROBOTS_CACHE_HEADERS = [
+  'content-type', 'cache-control', 'age', 'etag', 'last-modified', 'x-hcdn-request-id',
+  'x-cache', 'cf-cache-status', 'via', 'vary', 'server-timing', 'x-served-by', 'x-cache-hits',
+];
 
 export function parseAttributes(tag) {
   const attributes = {};
@@ -57,7 +62,53 @@ export function hasStagingUrlReference(html) {
 }
 
 export function hasPermissiveCrawlRule(robots) {
-  return robots.split(/\r?\n/).some((line) => /^\s*allow\s*:/i.test(line));
+  return getWildcardRobotsRules(robots).some((rule) => rule.directive === 'allow');
+}
+
+export function hasExpectedStagingWildcardRules(robots) {
+  const rules = getWildcardRobotsRules(robots);
+  return rules.some((rule) => rule.directive === 'disallow' && rule.value === '/')
+    && !rules.some((rule) => rule.directive === 'allow');
+}
+
+export function normalizeRobotsBody(robots) {
+  return String(robots ?? '').replace(/\r\n?/g, '\n').split('\n').map((line) => line.trim()).join('\n').trim();
+}
+
+export function getWildcardRobotsRules(robots) {
+  return getRobotsGroups(robots).filter((group) => group.agents.includes('*')).flatMap((group) => group.rules);
+}
+
+export function getRobotsGroups(robots) {
+  const groups = [];
+  let agents = [];
+  let rules = [];
+  let sawRule = false;
+  const finish = () => {
+    if (agents.length) groups.push({ agents, rules });
+    agents = [];
+    rules = [];
+    sawRule = false;
+  };
+
+  for (const sourceLine of normalizeRobotsBody(robots).split('\n')) {
+    const line = sourceLine.split('#', 1)[0].trim();
+    if (!line) continue;
+    const match = line.match(/^([\w-]+)\s*:\s*(.*)$/);
+    if (!match) continue;
+    const directive = match[1].toLowerCase();
+    if (directive === 'user-agent') {
+      if (sawRule) finish();
+      agents.push(match[2].trim().toLowerCase());
+      continue;
+    }
+    if (agents.length) {
+      sawRule = true;
+      rules.push({ directive, value: match[2].trim() });
+    }
+  }
+  finish();
+  return groups;
 }
 
 export function validateStagingDomain(value) {
@@ -118,6 +169,107 @@ async function getStagingText(url, host) {
   throw new Error(`Too many redirects: ${url.pathname}`);
 }
 
+async function getRobotsDiagnostic(url, host, requestHeaders = {}) {
+  let current = url;
+  for (let redirects = 0; redirects <= MAX_REDIRECTS; redirects += 1) {
+    if (current.protocol !== 'https:' || current.hostname !== host || current.port) {
+      throw new Error('Unsafe staging URL or redirect rejected: /robots.txt');
+    }
+    let response;
+    try {
+      response = await fetch(current, {
+        method: 'GET', redirect: 'manual', headers: requestHeaders,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      });
+    } catch (error) {
+      if (error?.name === 'TimeoutError' || error?.name === 'AbortError') throw new Error('Request timed out: /robots.txt');
+      throw new Error('Request failed: /robots.txt');
+    }
+    if ([301, 302, 303, 307, 308].includes(response.status)) {
+      const location = response.headers.get('location');
+      if (!location) throw new Error('Robots redirect had no location.');
+      let next;
+      try { next = new URL(location, current); } catch { throw new Error('Robots redirect location was invalid.'); }
+      if (next.protocol !== 'https:' || next.hostname !== host || next.port) throw new Error('Unsafe staging redirect rejected: /robots.txt');
+      if (redirects === MAX_REDIRECTS) throw new Error('Too many redirects: /robots.txt');
+      current = next;
+      continue;
+    }
+    const body = normalizeRobotsBody(await readBoundedText(response));
+    const headers = Object.fromEntries(ROBOTS_CACHE_HEADERS.flatMap((name) => {
+      const value = response.headers.get(name);
+      return value === null ? [] : [[name, value.slice(0, 300)]];
+    }));
+    const diagnostic = {
+      status: response.status,
+      finalUrl: current.href,
+      body: body.slice(0, ROBOTS_DIAGNOSTIC_MAX_CHARS),
+      bodyTruncated: body.length > ROBOTS_DIAGNOSTIC_MAX_CHARS,
+      headers,
+    };
+    console.log(`ROBOTS_DIAGNOSTIC ${JSON.stringify(diagnostic)}`);
+    return { ...diagnostic, body };
+  }
+  throw new Error('Too many redirects: /robots.txt');
+}
+
+async function getDeployedRobotsFile(token, domain) {
+  if (!token) {
+    console.log('DEPLOYED_ROBOTS_FILE unavailable: HOSTINGER_API_TOKEN was not provided.');
+    return null;
+  }
+  const apiOrigin = 'https://developers.hostinger.com';
+  const apiPrefix = '/api/hosting/v1/';
+  const request = async (path, query = {}) => {
+    if (!path.startsWith(apiPrefix) || path.includes('..')) throw new Error('Refused a request outside the documented Hostinger hosting API.');
+    const target = new URL(path, apiOrigin);
+    for (const [key, value] of Object.entries(query)) target.searchParams.set(key, String(value));
+    let response;
+    try {
+      response = await fetch(target, {
+        method: 'GET', headers: { Authorization: `Bearer ${token}`, Accept: 'application/json' },
+        redirect: 'error', signal: AbortSignal.timeout(25_000),
+      });
+    } catch {
+      throw new Error('Hostinger file-content API request failed before a response was received.');
+    }
+    if (!response.ok) throw new Error(`Hostinger file-content API returned HTTP ${response.status}.`);
+    try { return await response.json(); } catch { throw new Error('Hostinger file-content API returned invalid JSON.'); }
+  };
+  try {
+    const sites = [];
+    for (let page = 1; page <= 30; page += 1) {
+      const sitesResponse = await request(`${apiPrefix}websites`, { page, per_page: 100 });
+      const batch = Array.isArray(sitesResponse?.data) ? sitesResponse.data
+        : Array.isArray(sitesResponse?.data?.items) ? sitesResponse.data.items
+          : Array.isArray(sitesResponse?.items) ? sitesResponse.items
+            : Array.isArray(sitesResponse) ? sitesResponse : [];
+      sites.push(...batch);
+      const meta = sitesResponse?.meta ?? sitesResponse?.data?.meta ?? {};
+      const lastPage = Number(meta.last_page ?? meta.lastPage ?? meta.total_pages ?? meta.totalPages ?? 0);
+      if (batch.length < 100 || (lastPage && page >= lastPage)) break;
+      if (page === 30) throw new Error('Hostinger website list exceeded the 30-page diagnostic bound.');
+    }
+    const website = sites.find((item) => String(item?.domain ?? '').toLowerCase() === domain.toLowerCase());
+    if (!website?.username) throw new Error('Exact Hostinger website/account match did not expose a username.');
+    const path = `${apiPrefix}accounts/${encodeURIComponent(website.username)}/domains/${encodeURIComponent(domain)}/files/content`;
+    const payload = await request(path, { path: 'robots.txt', from_line: 0, max_lines: 100 });
+    const content = payload?.data?.content ?? payload?.content;
+    if (typeof content !== 'string') throw new Error('Hostinger file response did not expose textual content.');
+    const normalized = normalizeRobotsBody(content);
+    const diagnostic = {
+      path: payload?.data?.path ?? payload?.path ?? 'robots.txt',
+      body: normalized.slice(0, ROBOTS_DIAGNOSTIC_MAX_CHARS),
+      bodyTruncated: normalized.length > ROBOTS_DIAGNOSTIC_MAX_CHARS,
+    };
+    console.log(`DEPLOYED_ROBOTS_FILE ${JSON.stringify(diagnostic)}`);
+    return normalized;
+  } catch (error) {
+    console.log(`DEPLOYED_ROBOTS_FILE unavailable: ${error.message}`);
+    return null;
+  }
+}
+
 function verify(condition, label, failures) {
   if (condition) console.log(`PASS ${label}`);
   else { console.error(`FAIL ${label}`); failures.push(label); }
@@ -129,7 +281,35 @@ async function main() {
   const failures = [];
   const documents = new Map();
   const paths = ['/', '/robots.txt', ...REQUIRED_ROUTES, '/sitemap.xml'];
-  for (const path of paths) documents.set(path, await getStagingText(new URL(path, origin), host));
+  for (const path of paths) {
+    if (path !== '/robots.txt') documents.set(path, await getStagingText(new URL(path, origin), host));
+  }
+
+  const deployedRobots = await getDeployedRobotsFile(process.env.HOSTINGER_API_TOKEN, host);
+  const normalRobots = await getRobotsDiagnostic(new URL('/robots.txt', origin), host);
+  const cacheBustedUrl = new URL('/robots.txt', origin);
+  cacheBustedUrl.searchParams.set('su_cache_probe', String(Date.now()));
+  const cacheBustedRobots = await getRobotsDiagnostic(cacheBustedUrl, host);
+  const noCacheRobots = await getRobotsDiagnostic(new URL('/robots.txt', origin), host, {
+    'Cache-Control': 'no-cache', Pragma: 'no-cache',
+  });
+  documents.set('/robots.txt', normalRobots.body);
+  console.log(`ROBOTS_COMPARISON ${JSON.stringify({
+    deployedFileMatchesNormal: deployedRobots === null ? null : deployedRobots === normalRobots.body,
+    normalMatchesCacheBusted: normalRobots.body === cacheBustedRobots.body,
+    normalMatchesNoCache: normalRobots.body === noCacheRobots.body,
+    staleCacheEvidence: deployedRobots !== null && hasExpectedStagingWildcardRules(deployedRobots)
+      && hasPermissiveCrawlRule(normalRobots.body)
+      && ([cacheBustedRobots, noCacheRobots].some((result) => result.status === 200 && hasExpectedStagingWildcardRules(result.body))),
+  })}`);
+  console.log(`ROBOTS_GROUPS ${JSON.stringify({
+    normal: getRobotsGroups(normalRobots.body),
+    cacheBusted: getRobotsGroups(cacheBustedRobots.body),
+    noCache: getRobotsGroups(noCacheRobots.body),
+  })}`);
+  if ([normalRobots, cacheBustedRobots, noCacheRobots].some((result) => result.status !== 200)) {
+    failures.push('robots.txt returned a non-200 status for one or more cache diagnostic requests');
+  }
 
   const homepage = documents.get('/');
   verify(/\bStripUnion\b/i.test(homepage), 'homepage identifies StripUnion', failures);
@@ -139,9 +319,10 @@ async function main() {
   verify(!hasPermissiveRobots(homepage), 'homepage has no permissive robots declaration', failures);
 
   const robots = documents.get('/robots.txt');
+  const wildcardRules = getWildcardRobotsRules(robots);
   verify(/^\s*User-agent:\s*\*/im.test(robots), 'robots.txt contains User-agent: *', failures);
-  verify(/^\s*Disallow:\s*\/\s*$/im.test(robots), 'robots.txt disallows the staging site', failures);
-  verify(!hasPermissiveCrawlRule(robots), 'robots.txt has no permissive Allow rule', failures);
+  verify(wildcardRules.some((rule) => rule.directive === 'disallow' && rule.value === '/'), 'robots.txt wildcard group disallows the staging site', failures);
+  verify(!hasPermissiveCrawlRule(robots), 'robots.txt wildcard group has no permissive Allow rule', failures);
 
   for (const path of REQUIRED_ROUTES) {
     const html = documents.get(path);
@@ -162,7 +343,7 @@ async function main() {
   for (const marker of GUARD_MARKERS) verify(deployableText.some((body) => body.includes(marker)), `deployed output contains affiliate staging guard marker ${marker}`, failures);
 
   if (failures.length) throw new Error(`${failures.length} staging smoke assertion(s) failed.`);
-  console.log(`Staging smoke check passed for ${host}; ${paths.length} GET endpoints verified.`);
+  console.log(`Staging smoke check passed for ${host}; ${paths.length} site endpoints and three robots cache variants verified.`);
 }
 
 function selfTest() {
@@ -175,6 +356,14 @@ function selfTest() {
   assert.equal(hasStagingUrlReference('<a href=\"https://yellowgreen-duck-244197.hostingersite.com/path\">'), true);
   assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n`), false);
   assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\nAllow: /\n`), true);
+  assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n\nUser-agent: Googlebot\nAllow: /\n`), false);
+  assert.equal(hasExpectedStagingWildcardRules(`User-agent: *\nDisallow: /\n`), true);
+  assert.equal(hasExpectedStagingWildcardRules(`User-agent: *\nAllow: /\n`), false);
+  assert.deepEqual(getRobotsGroups('User-agent: *\nDisallow: /\n\nUser-agent: Googlebot\nAllow: /'), [
+    { agents: ['*'], rules: [{ directive: 'disallow', value: '/' }] },
+    { agents: ['googlebot'], rules: [{ directive: 'allow', value: '/' }] },
+  ]);
+  assert.equal(normalizeRobotsBody('User-agent: *\r\nDisallow: /\r\n'), 'User-agent: *\nDisallow: /');
   assert.equal(validateStagingDomain('yellowgreen-duck-244197.hostingersite.com'), 'yellowgreen-duck-244197.hostingersite.com');
   assert.throws(() => validateStagingDomain('evil.example'), /hostingersite\.com/);
   console.log('Staging smoke checker self-test passed.');
