@@ -25,7 +25,7 @@ export function normalizeStreams(items = []) {
     resourceName: stream.name || null,
     streamId: stream.name?.split('/').at(-1) || null,
     displayName: stream.displayName || null,
-    defaultUri: stream.defaultUri || null,
+    defaultUri: stream.webStreamData?.defaultUri || null,
     measurementId: stream.webStreamData?.measurementId || null,
     createTime: stream.createTime || null,
     updateTime: stream.updateTime || null
@@ -72,14 +72,14 @@ async function main() {
 
 if (process.argv.includes('--self-test')) {
   const streams = normalizeStreams([
-    { name: 'properties/530171093/dataStreams/42', displayName: 'StripUnion', defaultUri: 'https://stripunion.com', webStreamData: { measurementId: 'G-TEST123456' } }
+    { name: 'properties/530171093/dataStreams/42', displayName: 'StripUnion', webStreamData: { measurementId: 'G-TEST123456', defaultUri: 'https://stripunion.com' } }
   ]);
   if (streams[0].measurementId !== 'G-TEST123456' || streams[0].streamId !== '42' || classifyStreams(streams) !== 'MAIN STREAM') {
     throw new Error('GA4 Admin collector self-test failed.');
   }
   if (classifyStreams(normalizeStreams([
-    { name: 'properties/530171093/dataStreams/43', defaultUri: 'https://stripunion.com', webStreamData: { measurementId: 'G-MAIN123456' } },
-    { name: 'properties/530171093/dataStreams/44', defaultUri: 'https://blog.stripunion.com', webStreamData: { measurementId: 'G-BLOG123456' } }
+    { name: 'properties/530171093/dataStreams/43', webStreamData: { measurementId: 'G-MAIN123456', defaultUri: 'https://stripunion.com' } },
+    { name: 'properties/530171093/dataStreams/44', webStreamData: { measurementId: 'G-BLOG123456', defaultUri: 'https://blog.stripunion.com' } }
   ])) !== 'UNKNOWN / MULTIPLE') throw new Error('GA4 multi-stream classification failed.');
   console.log('GA4 Admin collector self-test passed.');
 } else if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
@@ -89,4 +89,3 @@ if (process.argv.includes('--self-test')) {
     process.exitCode = 1;
   });
 }
-
