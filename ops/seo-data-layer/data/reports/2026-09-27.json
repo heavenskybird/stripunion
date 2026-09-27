@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:43:13.950Z",
+  "generatedAt": "2026-09-27T05:09:18.000Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -12,6 +12,7 @@
     "bing": true,
     "buffer": true
   },
+  "ga4Admin": null,
   "google": {
     "clicks": 0,
     "impressions": 2,
@@ -1593,6 +1594,14 @@
         "revenue": 0
       }
     },
+    "otherHosts": [
+      {
+        "hostname": "stripunion-builder-usjtc3kjqehpz5b8.hostingersite.com",
+        "sessions": 2,
+        "engagedSessions": 0,
+        "affiliateClick": 0
+      }
+    ],
     "engagementRate": 0.29411764705882354,
     "acquisitionSources": [
       {
