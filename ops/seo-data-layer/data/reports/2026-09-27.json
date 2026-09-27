@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T05:09:18.000Z",
+  "generatedAt": "2026-09-27T05:09:59.057Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -91,16 +91,6 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 5,
-        "Clicks": 0,
-        "Date": "/Date(1781222400000)/",
-        "Impressions": 1,
-        "Query": "xhamsters review",
-        "site": "stripunion.com"
-      },
-      {
-        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-        "AvgClickPosition": -1,
         "AvgImpressionPosition": 8,
         "Clicks": 0,
         "Date": "/Date(1781222400000)/",
@@ -111,11 +101,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 7,
+        "AvgImpressionPosition": 5,
         "Clicks": 0,
-        "Date": "/Date(1781827200000)/",
+        "Date": "/Date(1781222400000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamsters review",
         "site": "stripunion.com"
       },
       {
@@ -136,6 +126,16 @@
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
         "Query": "xhamster site review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 1,
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -1673,7 +1673,7 @@
       "reposts": 0,
       "reach": 0
     },
-    "metricsUpdatedAt": "2026-09-27T00:13:09.863Z",
+    "metricsUpdatedAt": "2026-09-27T04:52:20.246Z",
     "highestPerformingPosts": []
   }
 }
