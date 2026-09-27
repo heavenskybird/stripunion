@@ -194,7 +194,7 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           if (!(link instanceof HTMLAnchorElement)) return;
 
           const outbound = new URL(link.href);
-          const isStaging = window.location.hostname.endsWith('.hostingersite.com');
+          const isStaging = window.location.hostname === 'staging.stripunion.com' || window.location.hostname.endsWith('.hostingersite.com');
 
           if (isStaging) {
             outbound.searchParams.set('campaignId', 'su_staging_test');
