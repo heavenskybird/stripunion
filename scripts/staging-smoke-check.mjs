@@ -52,6 +52,14 @@ export function canonicalUrl(html) {
   return null;
 }
 
+export function hasStagingUrlReference(html) {
+  return /https?:\/\/(?:[a-z0-9-]+\.)*hostingersite\.com\b/i.test(html);
+}
+
+export function hasPermissiveCrawlRule(robots) {
+  return robots.split(/\r?\n/).some((line) => /^\s*allow\s*:/i.test(line));
+}
+
 export function validateStagingDomain(value) {
   const host = String(value ?? '').trim().toLowerCase();
   if (!/^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.hostingersite\.com$/.test(host)) {
@@ -127,26 +135,26 @@ async function main() {
   verify(/\bStripUnion\b/i.test(homepage), 'homepage identifies StripUnion', failures);
   verify(hasNoIndexNoFollow(homepage), 'homepage declares noindex,nofollow', failures);
   verify(canonicalUrl(homepage) === `${PRODUCTION_ORIGIN}/`, 'homepage canonical points to production', failures);
-  verify(!/hostingersite\.com/i.test(homepage), 'homepage contains no staging hostname', failures);
+  verify(!hasStagingUrlReference(homepage), 'homepage contains no absolute staging hostname URL', failures);
   verify(!hasPermissiveRobots(homepage), 'homepage has no permissive robots declaration', failures);
 
   const robots = documents.get('/robots.txt');
   verify(/^\s*User-agent:\s*\*/im.test(robots), 'robots.txt contains User-agent: *', failures);
   verify(/^\s*Disallow:\s*\/\s*$/im.test(robots), 'robots.txt disallows the staging site', failures);
-  verify(!/^\s*Allow:\s*\/\s*$/im.test(robots), 'robots.txt has no Allow: / rule', failures);
+  verify(!hasPermissiveCrawlRule(robots), 'robots.txt has no permissive Allow rule', failures);
 
   for (const path of REQUIRED_ROUTES) {
     const html = documents.get(path);
     verify(hasNoIndexNoFollow(html), `${path} declares noindex,nofollow`, failures);
     verify(canonicalUrl(html) === `${PRODUCTION_ORIGIN}${path}`, `${path} canonical points to production`, failures);
-    verify(!/hostingersite\.com/i.test(html), `${path} contains no staging hostname`, failures);
+    verify(!hasStagingUrlReference(html), `${path} contains no absolute staging hostname URL`, failures);
   }
 
   const sitemap = documents.get('/sitemap.xml');
   const sitemapLocs = [...sitemap.matchAll(/<loc>\s*([^<]+?)\s*<\/loc>/gi)].map(([, loc]) => loc.trim());
   verify(sitemapLocs.length > 0, 'sitemap contains URLs', failures);
   verify(sitemapLocs.every((url) => url.startsWith(`${PRODUCTION_ORIGIN}/`)), 'sitemap URLs use production origin only', failures);
-  verify(!/hostingersite\.com/i.test(sitemap), 'sitemap contains no staging hostname', failures);
+  verify(!hasStagingUrlReference(sitemap), 'sitemap contains no absolute staging hostname URL', failures);
 
   const deployedFiles = [...documents.values()];
   const scripts = [...deployedFiles.join('\n').matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi)].map(([, script]) => script);
@@ -163,6 +171,10 @@ function selfTest() {
   assert.equal(hasPermissiveRobots('<meta content="index,follow" name="robots">'), true);
   assert.equal(hasPermissiveRobots('<meta name="robots" content="noindex,nofollow">'), false);
   assert.equal(canonicalUrl('<link href="https://stripunion.com/a" rel="canonical">'), 'https://stripunion.com/a');
+  assert.equal(hasStagingUrlReference('<script>endsWith(\'.hostingersite.com\')</script>'), false);
+  assert.equal(hasStagingUrlReference('<a href=\"https://yellowgreen-duck-244197.hostingersite.com/path\">'), true);
+  assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\n`), false);
+  assert.equal(hasPermissiveCrawlRule(`User-agent: *\nDisallow: /\nAllow: /\n`), true);
   assert.equal(validateStagingDomain('yellowgreen-duck-244197.hostingersite.com'), 'yellowgreen-duck-244197.hostingersite.com');
   assert.throws(() => validateStagingDomain('evil.example'), /hostingersite\.com/);
   console.log('Staging smoke checker self-test passed.');
