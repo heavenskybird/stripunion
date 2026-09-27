@@ -22,6 +22,8 @@ jobs:
         run: |
           node --check scripts/hostinger-readonly-check.mjs
           node scripts/hostinger-readonly-check.mjs --self-test
+          node --check scripts/staging-smoke-check.mjs
+          node scripts/staging-smoke-check.mjs --self-test
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site

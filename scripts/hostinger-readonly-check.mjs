@@ -34,7 +34,7 @@ export function inspectIndexingGuard(environmentVariables) {
   if (value === false || value === 'false') return { exists: true, state: 'valid' };
   if (value === true || value === 'true') return { exists: true, state: 'incorrect' };
   // Hostinger's documented response masks values; presence alone cannot prove the guard value.
-  return { exists: true, state: 'unverifiable' };
+  return { exists: true, state: 'present-masked-requires-runtime-verification' };
 }
 
 export function sanitizeLogLine(input, token = '') {
@@ -157,24 +157,51 @@ async function runObservability(token, domain) {
   const builds = buildsResult.status === 'fulfilled' ? listFromEnvelope(buildsResult.value) : [];
   const envVariables = envResult.status === 'fulfilled' ? listFromEnvelope(envResult.value) : [];
   const gitSettings = gitResult.status === 'fulfilled' ? gitResult.value?.data ?? gitResult.value : {};
-  const latest = newestFirst(builds)[0] ?? null;
+  const expectedAfter = process.env.HOSTINGER_EXPECTED_BUILD_AFTER ? Date.parse(process.env.HOSTINGER_EXPECTED_BUILD_AFTER) : null;
+  const sortedBuilds = newestFirst(builds);
+  let latest = expectedAfter
+    ? sortedBuilds.find((build) => Date.parse(build?.created_at ?? build?.createdAt ?? build?.started_at ?? '') >= expectedAfter) ?? null
+    : sortedBuilds[0] ?? null;
+  const pollDeadline = Date.now() + (expectedAfter ? 9 * 60_000 : 0);
+  if (expectedAfter) console.log(`Waiting for a Hostinger build created after ${new Date(expectedAfter).toISOString()} (maximum 9 minutes).`);
+  while (expectedAfter && !latest && Date.now() < pollDeadline) {
+    await new Promise((resolve) => setTimeout(resolve, 15_000));
+    const refreshed = newestFirst(await getAllPages(api, `${accountPath}/nodejs/builds`));
+    latest = refreshed.find((build) => Date.parse(build?.created_at ?? build?.createdAt ?? build?.started_at ?? '') >= expectedAfter) ?? null;
+    if (latest) console.log('A new Hostinger build matching this main push was found.');
+  }
+  if (expectedAfter && !latest) throw new Error('Timed out waiting for a new Hostinger build attributable to this main push.');
 
   let details = null;
   let logs = { lineCount: 0, warningCount: 0, errorCount: 0, warnings: [], errors: [] };
   const buildUuid = latest?.uuid ?? latest?.id ?? null;
   if (latest && buildUuid) {
-    const [detailResult, logsResult] = await Promise.allSettled([
-      api.get(`${accountPath}/nodejs/builds/${encodeURIComponent(buildUuid)}`),
-      api.get(`${accountPath}/nodejs/builds/${encodeURIComponent(buildUuid)}/logs`, { from_line: 0 }),
-    ]);
-    details = detailResult.status === 'fulfilled' ? detailResult.value?.data ?? detailResult.value : null;
-    logs = logsResult.status === 'fulfilled'
-      ? summarizeLogs(logsResult.value?.data ?? logsResult.value, token)
-      : { ...logs, fetchError: 'Build logs could not be read.' };
+    try {
+      const detailResult = await api.get(`${accountPath}/nodejs/builds/${encodeURIComponent(buildUuid)}`);
+      details = detailResult?.data ?? detailResult;
+    } catch {
+      details = null;
+    }
   }
 
   const guard = inspectIndexingGuard(envVariables);
-  const buildState = details?.state ?? details?.status ?? latest?.state ?? latest?.status ?? 'not available';
+  let buildState = details?.state ?? details?.status ?? latest?.state ?? latest?.status ?? 'not available';
+  const terminalStates = new Set(['completed', 'failed', 'cancelled', 'canceled', 'success', 'succeeded']);
+  while (latest && buildUuid && !terminalStates.has(String(buildState).toLowerCase()) && expectedAfter && Date.now() < pollDeadline) {
+    await new Promise((resolve) => setTimeout(resolve, 15_000));
+    const refreshed = await api.get(`${accountPath}/nodejs/builds/${encodeURIComponent(buildUuid)}`);
+    details = refreshed?.data ?? refreshed;
+    buildState = details?.state ?? details?.status ?? latest?.state ?? latest?.status ?? 'not available';
+    console.log(`Hostinger build state: ${buildState}.`);
+  }
+  if (latest && buildUuid) {
+    try {
+      const logsResult = await api.get(`${accountPath}/nodejs/builds/${encodeURIComponent(buildUuid)}/logs`, { from_line: 0 });
+      logs = summarizeLogs(logsResult?.data ?? logsResult, token);
+    } catch {
+      logs = { ...logs, fetchError: 'Build logs could not be read.' };
+    }
+  }
   const report = {
     domain,
     websiteStatus: summarizeWebsiteStatus(website),
@@ -208,8 +235,11 @@ async function runObservability(token, domain) {
   console.log(JSON.stringify(report, null, 2));
   const failed = [];
   if (!latest) failed.push('No Node.js builds were returned.');
-  if (String(buildState).toLowerCase() === 'failed') failed.push('The latest deployment/build failed.');
-  if (guard.state !== 'valid') failed.push(`PUBLIC_ALLOW_INDEXING guard is ${guard.state}; the API must expose the exact value false to accept staging.`);
+  if (['failed', 'cancelled', 'canceled'].includes(String(buildState).toLowerCase())) failed.push('The selected deployment/build did not complete successfully.');
+  if (!terminalStates.has(String(buildState).toLowerCase())) failed.push('The selected deployment/build did not reach a terminal state before the polling deadline.');
+  if (!guard.exists || guard.state === 'missing') failed.push('PUBLIC_ALLOW_INDEXING is missing from Hostinger environment-variable metadata.');
+  if (guard.state === 'incorrect') failed.push('PUBLIC_ALLOW_INDEXING is explicitly true in Hostinger environment-variable metadata.');
+  if (guard.state === 'present-masked-requires-runtime-verification') console.log('PUBLIC_ALLOW_INDEXING API state: present-masked-requires-runtime-verification; staging smoke check verifies deployed noindex behavior.');
   if (report.readErrors.length) failed.push(`Some optional metadata reads failed: ${report.readErrors.join(', ')}.`);
   if (logs.fetchError) failed.push(logs.fetchError);
   if (logs.errorCount) failed.push('Latest build logs contain error/fatal/failure lines.');
@@ -223,7 +253,7 @@ function selfTest() {
   assert.equal(newestFirst([{ created_at: '2026-01-01' }, { created_at: '2026-02-01' }])[0].created_at, '2026-02-01');
   assert.equal(inspectIndexingGuard([{ name: 'PUBLIC_ALLOW_INDEXING', value: 'false' }]).state, 'valid');
   assert.equal(inspectIndexingGuard([{ name: 'PUBLIC_ALLOW_INDEXING', value: 'true' }]).state, 'incorrect');
-  assert.equal(inspectIndexingGuard([{ name: 'PUBLIC_ALLOW_INDEXING', value: '********' }]).state, 'unverifiable');
+  assert.equal(inspectIndexingGuard([{ name: 'PUBLIC_ALLOW_INDEXING', value: '********' }]).state, 'present-masked-requires-runtime-verification');
   const scrubbed = sanitizeLogLine('Authorization: Bearer abc123 HOSTINGER_API_TOKEN=supersecret gho_abcdefghijklmnopqrstu', 'abc123');
   assert.doesNotMatch(scrubbed, /abc123|supersecret|gho_abcdefghijklmnopqrstu/);
   assert.match(scrubbed, /REDACTED/);
