@@ -26,6 +26,7 @@ function aggregate(rows, keyField, valueField) {
 const pct = (value) => `${(value * 100).toFixed(1)}%`;
 const gsc = await latestSnapshot('gsc.json');
 const ga4 = await latestSnapshot('ga4.json');
+const ga4Admin = await latestSnapshot('ga4-admin.json');
 const bing = await latestSnapshot('bing.json');
 const buffer = await latestSnapshot('buffer.json');
 
@@ -56,6 +57,14 @@ const siteForHost = (host) => host === 'blog.stripunion.com' ? 'blog' : host ===
 const siteGaRows = Object.fromEntries(['main', 'blog', 'other'].map((site) => [site, landingRows.filter((row) => siteForHost(String(row.hostName || '').toLowerCase().replace(/^www\./, '')) === site)]));
 const siteEventRows = Object.fromEntries(['main', 'blog', 'other'].map((site) => [site, eventRows.filter((row) => siteForHost(String(row.hostName || '').toLowerCase().replace(/^www\./, '')) === site)]));
 const gaHostSegmentationAvailable = Boolean(ga4 && landingRows.length > 0 && landingRows.every((row) => Object.hasOwn(row, 'hostName')) && eventRows.every((row) => Object.hasOwn(row, 'hostName')));
+const gaHostRowsAvailable = Boolean(ga4 && [...landingRows, ...eventRows].every((row) => Object.hasOwn(row, 'hostName')));
+const otherHosts = [...new Set([...landingRows, ...eventRows].map((row) => String(row.hostName || '').toLowerCase().replace(/^www\./, '')).filter((host) => host && siteForHost(host) === 'other'))].sort();
+const otherHostMetrics = otherHosts.map((host) => ({
+  hostname: host,
+  sessions: sum(landingRows.filter((row) => String(row.hostName || '').toLowerCase().replace(/^www\./, '') === host), 'sessions'),
+  engagedSessions: sum(landingRows.filter((row) => String(row.hostName || '').toLowerCase().replace(/^www\./, '') === host), 'engagedSessions'),
+  affiliateClick: sum(eventRows.filter((row) => String(row.hostName || '').toLowerCase().replace(/^www\./, '') === host && row.eventName === 'affiliate_click'), 'eventCount')
+}));
 const gaSiteMetrics = (site) => ({
   sessions: sum(siteGaRows[site], 'sessions'), engagedSessions: sum(siteGaRows[site], 'engagedSessions'),
   affiliateClick: sum(siteEventRows[site].filter((row) => row.eventName === 'affiliate_click'), 'eventCount'),
@@ -103,6 +112,7 @@ const summary = {
   generatedAt: new Date().toISOString(),
   sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, bing: bing?.date || null, buffer: buffer?.date || null },
   sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), bing: Boolean(bing), buffer: Boolean(buffer) },
+  ga4Admin: ga4Admin ? { date: ga4Admin.date, propertyId: ga4Admin.data.propertyId || null, topology: ga4Admin.data.topology || 'UNKNOWN / MULTIPLE', unifiedFunnelCandidate: ga4Admin.data.unifiedFunnelCandidate || null, streams: ga4Admin.data.streams || [] } : null,
   google: {
     clicks: gscClicks, impressions: gscImpressions, ctr: gscImpressions ? gscClicks / gscImpressions : 0,
     averagePosition: gscImpressions ? dailyRows.reduce((total, row) => total + Number(row.position || 0) * Number(row.impressions || 0), 0) / gscImpressions : null,
@@ -122,6 +132,7 @@ const summary = {
     sessions: sum(landingRows, 'sessions'), engagedSessions: sum(landingRows, 'engagedSessions'),
     siteSegmentationAvailable: gaHostSegmentationAvailable,
     sites: gaHostSegmentationAvailable ? { main: gaSiteMetrics('main'), blog: gaSiteMetrics('blog'), other: gaSiteMetrics('other') } : null,
+    otherHosts: gaHostRowsAvailable ? otherHostMetrics : [],
     engagementRate: sum(landingRows, 'sessions') ? sum(landingRows, 'engagedSessions') / sum(landingRows, 'sessions') : 0,
     acquisitionSources: aggregate(landingRows, 'sessionSourceMedium', 'sessions').slice(0, 8),
     landingPages: aggregate(landingRows, 'landingPagePlusQueryString', 'sessions').slice(0, 10),
@@ -141,6 +152,7 @@ const md = [
   `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'}.`, '',
   '## Main Site', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.main.sessions}** sessions · **${summary.ga4.sites.main.engagedSessions}** engaged · **${summary.ga4.sites.main.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.main.revenue ? `**${summary.ga4.sites.main.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.main.clicks}** clicks · **${summary.google.sites.main.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
+  '## GA4 Host Segmentation', `- MAIN: **${summary.ga4.sites?.main.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.main.engagedSessions ?? 'unavailable'}** engaged.`, `- BLOG: **${summary.ga4.sites?.blog.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.blog.engagedSessions ?? 'unavailable'}** engaged.`, ...(summary.ga4.otherHosts.length ? summary.ga4.otherHosts.map((host) => `- OTHER ${host.hostname}: ${host.sessions} sessions · ${host.engagedSessions} engaged.`) : [gaHostRowsAvailable ? '- OTHER: no other hostnames in the latest GA4 rows.' : '- OTHER: hostname segmentation unavailable in the latest snapshot.']), `- TOTAL: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}.`, `- Stream topology: ${ga4Admin?.data?.topology || 'UNKNOWN / MULTIPLE'}.`, `- Unified-funnel Measurement ID candidate: ${ga4Admin?.data?.unifiedFunnelCandidate || 'not established'}.`, '',
   '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`, `- GSC domain property: **${gscClicks}** clicks · **${gscImpressions}** impressions; page totals are classified by hostname and other hosts remain separate.`, '',
   '## Search Opportunities', ...(rankingOpportunities.length ? rankingOpportunities.slice(0, 5).map((row) => `- ${row.query}: position ${Number(row.position).toFixed(1)}, ${row.impressions} impressions`) : ['- No current query rows available.']), '',
   '## Distribution', `- Buffer: ${sentPosts.length} sent posts · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks.`, '',
@@ -168,3 +180,4 @@ const md = [
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.json`), JSON.stringify(summary, null, 2) + '\n');
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md + '\n');
 console.log(md);
+
