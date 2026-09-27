@@ -216,6 +216,6 @@ md.push(
 );
 
 await fs.writeFile(path.join(reportsRoot, `${reportDate}.json`), JSON.stringify(summary, null, 2) + '\n');
-await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md + '\n');
+await fs.writeFile(path.join(reportsRoot, `${reportDate}.md`), md.join('\n') + '\n');
 console.log(md);
 
