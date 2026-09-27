@@ -2,6 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from './AffiliateButton.astro';
 import { SITE, updatedLabel } from '../config/site.js';
+import DiscoveryHero from './discovery/DiscoveryHero.astro';
+import PricingTable from './discovery/PricingTable.astro';
+import ProsCons from './discovery/ProsCons.astro';
 
 const { review } = Astro.props;
 const firstCtaSource = `${review.slug}_top`;
@@ -33,22 +36,12 @@ const faqSchema = {
   pageType="Article"
   extraSchemas={[breadcrumbSchema, faqSchema]}
 >
-  <section class="page-hero page-hero-review">
-    <div class="shell narrow">
-      <nav class="breadcrumbs" aria-label="Breadcrumb">
-        <a href="/">Home</a><span>/</span><a href={`/${review.categorySlug}`}>{review.category}</a><span>/</span><span>{review.name}</span>
-      </nav>
-      <span class="kicker">Independent review · Updated {updatedLabel}</span>
-      <h1>{review.title}</h1>
-      <p class="lead">{review.dek}</p>
-      {
-        review.partner
-          ? <AffiliateButton source={firstCtaSource} />
-          : <div class="alternative-cta"><AffiliateButton source={`${review.slug}_alternative_top`} /></div>
-      }
-    </div>
-  </section>
-
+  <DiscoveryHero eyebrow="Independent review" title={review.title} description={review.dek} updated={updatedLabel} image={review.heroImage}>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a><span>/</span><a href={`/${review.categorySlug}`}>{review.category}</a><span>/</span><span>{review.name}</span>
+    </nav>
+    {review.partner ? <AffiliateButton source={firstCtaSource} /> : <div class="alternative-cta"><AffiliateButton source={`${review.slug}_alternative_top`} /></div>}
+  </DiscoveryHero>
   <section class="section shell narrow">
     <div class="decision-grid">
       <div><span>Best for</span><strong>{review.bestFor}</strong></div>
@@ -56,15 +49,14 @@ const faqSchema = {
       <div><span>Paid model</span><strong>{review.model}</strong></div>
     </div>
 
+    <PricingTable title="Access and paid model" rows={[{ item: "Public access", price: review.access, checked: updatedLabel }, { item: "Paid model", price: review.model, checked: updatedLabel }]} note="Terms and prices can vary. Check current provider information before spending." />
+
     <div class="take-box">
       <span class="kicker">StripUnion's take</span>
       <p>{review.verdict}</p>
     </div>
 
-    <div class="pros-cons">
-      <div><h2>Strengths</h2><ul>{review.strengths.map((item) => <li>{item}</li>)}</ul></div>
-      <div><h2>Limitations</h2><ul>{review.limitations.map((item) => <li>{item}</li>)}</ul></div>
-    </div>
+    <ProsCons pros={review.strengths} cons={review.limitations} />
 
     <div class="article-body">
       {review.sections.map(([heading, body]) => <section><h2>{heading}</h2><p>{body}</p></section>)}
