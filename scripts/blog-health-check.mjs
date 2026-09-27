@@ -1,9 +1,11 @@
 import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
 
 const BLOG_ORIGIN = 'https://blog.stripunion.com';
 const MAIN_ORIGIN = 'https://stripunion.com';
 const timeoutMs = 15_000;
 const maxBytes = 2_000_000;
+const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';
 
 function attributes(tag) {
   const result = {};
@@ -89,14 +91,41 @@ async function main() {
 
   const ids = [...new Set([...homepage.body, ...post.body].join('\n').match(/\bG-[A-Z0-9]{4,20}\b/gi) || [])];
   console.log(`BLOG_GA4_MEASUREMENT_IDS ${ids.length ? ids.join(', ') : 'none detected'}`);
+  const analyticsStatus = !ids.length ? 'MISSING'
+    : expectedMeasurementId && ids.some((id) => id !== expectedMeasurementId) ? 'MISMATCH'
+      : expectedMeasurementId && !ids.includes(expectedMeasurementId) ? 'MISMATCH' : 'CONNECTED';
+  console.log(`BLOG_ANALYTICS: ${analyticsStatus}`);
+  if (process.env.GITHUB_OUTPUT) {
+    const accepted = analyticsStatus === 'CONNECTED' ? 'true' : 'false';
+    await fs.appendFile(process.env.GITHUB_OUTPUT, `analytics_status=${analyticsStatus}\nanalytics_accepted=${accepted}\n`, 'utf8');
+  }
+  if (analyticsStatus !== 'CONNECTED') {
+    console.log(analyticsStatus === 'MISSING'
+      ? 'WARN Blog public HTML contains no GA4 Measurement ID.'
+      : `WARN Blog public HTML Measurement ID does not match expected ${expectedMeasurementId}.`);
+  }
 }
 
 function selfTest() {
   assert.deepEqual(attributes('<meta content="index,follow" name="robots">'), { content: 'index,follow', name: 'robots' });
   const groups = 'User-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /';
   assert.equal(/^\s*Disallow:\s*\/?\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
+  const analyticsStatus = (ids, expected = '') => !ids.length ? 'MISSING'
+    : expected && (ids.some((id) => id !== expected) || !ids.includes(expected)) ? 'MISMATCH' : 'CONNECTED';
+  assert.equal(analyticsStatus([]), 'MISSING');
+  assert.equal(analyticsStatus(['G-TEST123456'], 'G-TEST123456'), 'CONNECTED');
+  assert.equal(analyticsStatus(['G-OTHER123456'], 'G-TEST123456'), 'MISMATCH');
+  assert.equal(analyticsStatus(['G-TEST123456', 'G-OTHER123456'], 'G-TEST123456'), 'MISMATCH');
+  const statusFor = (ids, expected) => {
+    const status = !ids.length ? 'MISSING' : expected && !ids.includes(expected) ? 'MISMATCH' : 'CONNECTED';
+    return { status, acceptancePassed: status === 'CONNECTED' };
+  };
+  assert.deepEqual(statusFor([], ''), { status: 'MISSING', acceptancePassed: false });
+  assert.deepEqual(statusFor(['G-TEST123456'], 'G-TEST123456'), { status: 'CONNECTED', acceptancePassed: true });
+  assert.deepEqual(statusFor(['G-OTHER123456'], 'G-TEST123456'), { status: 'MISMATCH', acceptancePassed: false });
   console.log('Blog health checker self-test passed.');
 }
 
 if (process.argv.includes('--self-test')) selfTest();
 else main().catch((error) => { console.error(`Blog health check failed: ${error.message}`); process.exitCode = 1; });
+
