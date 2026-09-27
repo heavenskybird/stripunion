@@ -40,6 +40,9 @@ const pageSchema = {
 };
 
 const schemas = [organizationSchema, pageSchema, ...extraSchemas];
+const ga4MeasurementId = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID?.trim() || '';
+const validGa4MeasurementId = /^G-[A-Z0-9]{4,20}$/i.test(ga4MeasurementId);
+const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
 ---
 <!doctype html>
 <html lang="en">
@@ -52,6 +55,17 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    {loadGa4 && <>
+      <link rel="preconnect" href="https://www.googletagmanager.com" />
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}></script>
+      <script is:inline define:vars={{ ga4MeasurementId }}>
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function gtag() { window.dataLayer.push(arguments); };
+        window.gtag('js', new Date());
+        window.gtag('config', ga4MeasurementId);
+      </script>
+    </>}
 
     <meta property="og:type" content={pageType === 'Article' ? 'article' : 'website'} />
     <meta property="og:site_name" content={SITE.name} />
@@ -180,7 +194,7 @@ const schemas = [organizationSchema, pageSchema, ...extraSchemas];
           if (!(link instanceof HTMLAnchorElement)) return;
 
           const outbound = new URL(link.href);
-          const isStaging = window.location.hostname === 'staging.stripunion.com' || window.location.hostname.endsWith('.hostingersite.com');
+          const isStaging = window.location.hostname.endsWith('.hostingersite.com');
 
           if (isStaging) {
             outbound.searchParams.set('campaignId', 'su_staging_test');

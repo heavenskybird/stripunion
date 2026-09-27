@@ -156,6 +156,7 @@ Exact authentication choice must be implemented after checking the current offic
 
 ### ga4_landing_daily
 - date
+- hostName
 - landing_page
 - source_medium
 - country
@@ -195,6 +196,7 @@ Exact authentication choice must be implemented after checking the current offic
 ### affiliate_events
 - occurred_at
 - event
+- hostName
 - page
 - placement
 - network

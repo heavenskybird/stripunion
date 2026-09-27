@@ -32,6 +32,7 @@ const [landingResponse] = await client.runReport({
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },
+    { name: 'hostName' },
     { name: 'landingPagePlusQueryString' },
     { name: 'sessionSourceMedium' },
     { name: 'country' },
@@ -53,6 +54,7 @@ const [eventResponse] = await client.runReport({
   dimensions: [
     { name: 'date' },
     { name: 'eventName' },
+    { name: 'hostName' },
     { name: 'pagePath' }
   ],
   metrics: [
