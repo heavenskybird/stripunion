@@ -26,6 +26,8 @@ jobs:
           node scripts/staging-smoke-check.mjs --self-test
           node --check scripts/blog-health-check.mjs
           node scripts/blog-health-check.mjs --self-test
+          node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
+          npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs
           node --check scripts/check-ga4-artifact.mjs
       - name: Run migration quality gate
