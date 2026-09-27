@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T05:09:59.057Z",
+  "generatedAt": "2026-09-27T06:04:50.384Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -12,7 +12,23 @@
     "bing": true,
     "buffer": true
   },
-  "ga4Admin": null,
+  "ga4Admin": {
+    "date": "2026-09-27",
+    "propertyId": "530171093",
+    "topology": "MAIN STREAM",
+    "unifiedFunnelCandidate": "G-K57BRX69X1",
+    "streams": [
+      {
+        "resourceName": "properties/530171093/dataStreams/14247320031",
+        "streamId": "14247320031",
+        "displayName": "StripUnion",
+        "defaultUri": "https://stripunion.com",
+        "measurementId": "G-K57BRX69X1",
+        "createTime": "2026-03-27T08:50:48.572Z",
+        "updateTime": "2026-03-27T08:50:48.572Z"
+      }
+    ]
+  },
   "google": {
     "clicks": 0,
     "impressions": 2,
@@ -125,7 +141,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -135,7 +151,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
