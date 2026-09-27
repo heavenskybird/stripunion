@@ -5,7 +5,7 @@ const BLOG_ORIGIN = 'https://blog.stripunion.com';
 const MAIN_ORIGIN = 'https://stripunion.com';
 const timeoutMs = 15_000;
 const maxBytes = 2_000_000;
-const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';
+const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';\nconst expectedGoogleTagId = process.env.EXPECTED_GOOGLE_TAG_ID?.trim() || '';\nconst analyticsIdPattern = /\\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\\b/gi;
 
 function attributes(tag) {
   const result = {};
@@ -89,11 +89,12 @@ async function main() {
   if (!post.body.includes(MAIN_ORIGIN)) console.log('WARN latest published post has no cross-link to stripunion.com');
   else console.log('PASS latest published post links to stripunion.com');
 
-  const ids = [...new Set([...homepage.body, ...post.body].join('\n').match(/\bG-[A-Z0-9]{4,20}\b/gi) || [])];
-  console.log(`BLOG_GA4_MEASUREMENT_IDS ${ids.length ? ids.join(', ') : 'none detected'}`);
-  const analyticsStatus = !ids.length ? 'MISSING'
-    : expectedMeasurementId && ids.some((id) => id !== expectedMeasurementId) ? 'MISMATCH'
-      : expectedMeasurementId && !ids.includes(expectedMeasurementId) ? 'MISMATCH' : 'CONNECTED';
+  const ids = [...new Set([...homepage.body, ...post.body].join('\\n').match(analyticsIdPattern) || [])].map((id) => id.toUpperCase());
+  console.log(`BLOG_ANALYTICS_IDS ${ids.length ? ids.join(', ') : 'none detected'}`);
+  const expectedIds = [expectedMeasurementId.toUpperCase(), expectedGoogleTagId.toUpperCase()].filter(Boolean);
+  const unexpected = ids.filter((id) => !expectedIds.includes(id));
+  const expectedPresent = expectedIds.some((id) => ids.includes(id));
+  const analyticsStatus = !ids.length ? 'MISSING' : unexpected.length || !expectedPresent ? 'MISMATCH' : 'CONNECTED';
   console.log(`BLOG_ANALYTICS: ${analyticsStatus}`);
   if (process.env.GITHUB_OUTPUT) {
     const accepted = analyticsStatus === 'CONNECTED' ? 'true' : 'false';
@@ -110,12 +111,12 @@ function selfTest() {
   assert.deepEqual(attributes('<meta content="index,follow" name="robots">'), { content: 'index,follow', name: 'robots' });
   const groups = 'User-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /';
   assert.equal(/^\s*Disallow:\s*\/?\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
-  const analyticsStatus = (ids, expected = '') => !ids.length ? 'MISSING'
-    : expected && (ids.some((id) => id !== expected) || !ids.includes(expected)) ? 'MISMATCH' : 'CONNECTED';
+  const analyticsStatus = (ids, expected = []) => !ids.length ? 'MISSING' : ids.some((id) => !expected.includes(id)) || !expected.some((id) => ids.includes(id)) ? 'MISMATCH' : 'CONNECTED';
   assert.equal(analyticsStatus([]), 'MISSING');
-  assert.equal(analyticsStatus(['G-TEST123456'], 'G-TEST123456'), 'CONNECTED');
-  assert.equal(analyticsStatus(['G-OTHER123456'], 'G-TEST123456'), 'MISMATCH');
-  assert.equal(analyticsStatus(['G-TEST123456', 'G-OTHER123456'], 'G-TEST123456'), 'MISMATCH');
+  assert.equal(analyticsStatus(['G-TEST123456'], ['G-TEST123456', 'GT-P8VJLHT3']), 'CONNECTED');
+  assert.equal(analyticsStatus(['GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'CONNECTED');
+  assert.equal(analyticsStatus(['G-OTHER123456', 'GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
+  assert.equal(analyticsStatus(['G-TEST123456', 'G-OTHER123456'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
   const statusFor = (ids, expected) => {
     const status = !ids.length ? 'MISSING' : expected && !ids.includes(expected) ? 'MISMATCH' : 'CONNECTED';
     return { status, acceptancePassed: status === 'CONNECTED' };
