@@ -1,11 +1,12 @@
 {
   "policy": {
-    "updated": "2026-09-27",
+    "updated": "2026-09-28",
     "rule": "Prefer official first-party brand/operator affiliate or referral programs. Do not add generic third-party affiliate-network offers without explicit approval.",
     "approved_existing": [
       "stripchat"
     ],
-    "creator_model_strategy": "referral-only; no studio or agency operations"
+    "creator_model_strategy": "referral-only; no studio or agency operations",
+    "whitelabel_strategy": "Allowed when the underlying cam service is an official operator program and the domain is owned/controlled for a differentiated branded acquisition funnel."
   },
   "offers": [
     {
@@ -15,7 +16,13 @@
       "operator_program": "StripCash",
       "status": "active",
       "official_url": "https://stripcash.com/",
-      "relationship": "first_party_operator_program"
+      "relationship": "first_party_operator_program",
+      "viewer_affiliate_status": "active",
+      "model_referral_status": "active",
+      "model_referral_url": "https://go.mavrtracktor.com/signup/model?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2",
+      "whitelabel_status": "pending_approval",
+      "whitelabel_domain": "avcams.online",
+      "standard_revshare_observed": "20%"
     },
     {
       "id": "chaturbate",
@@ -92,6 +99,26 @@
       "status": "target",
       "official_url": "https://www.kiiroo.com/pages/influencer-community",
       "relationship": "direct_brand_program"
+    },
+    {
+      "id": "streamate-cambuilder",
+      "category": "live_cam",
+      "brand": "Streamate",
+      "operator_program": "CamBuilder",
+      "status": "target",
+      "official_url": "https://cambuilder.com/",
+      "relationship": "official_streamate_affiliate_and_whitelabel_platform",
+      "whitelabel": true,
+      "black_label": true,
+      "payout_options_verified": [
+        "35% Lifetime Revenue Share",
+        "$100 Per Spender",
+        "$40 Per Join",
+        "$75 Per Spender + 30% Lifetime Revenue Share",
+        "$30 Per Join + 30% Lifetime Revenue Share"
+      ],
+      "domain_ownership_note": "Standalone 35% lifetime revenue-share white labels do not require transfer of domain ownership; other payout programs require transferring the domain to CamBuilder before payouts.",
+      "strategic_role": "candidate second whitelabel to diversify cam inventory and test premium/private-show traffic economics"
     }
   ]
 }
