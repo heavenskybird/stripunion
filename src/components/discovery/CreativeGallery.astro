@@ -1,0 +1,4 @@
+---
+const { assets = [] } = Astro.props;
+---
+{assets.length > 0 && <figure class="discovery-gallery">{assets.map((asset) => <picture><source srcset={asset.avif || ''} type="image/avif" /><source srcset={asset.webp || ''} type="image/webp" /><img src={asset.src} alt={asset.alt || ''} width={asset.width || 800} height={asset.height || 600} loading="lazy" decoding="async" /></picture>)}<figcaption>Images are original StripUnion artwork or approved program creatives.</figcaption></figure>}
