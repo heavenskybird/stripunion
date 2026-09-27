@@ -1,6 +1,10 @@
 name: Hostinger Read-only Acceptance
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'ops/seo-data-layer/data/**'
   workflow_dispatch:
 
 permissions:
@@ -24,8 +28,19 @@ jobs:
         with:
           node-version: 22
 
+      - name: Record main push time for Hostinger build selection
+        if: github.event_name == 'push'
+        env:
+          PUSHED_AT: ${{ github.event.head_commit.timestamp }}
+        run: echo "HOSTINGER_EXPECTED_BUILD_AFTER=$PUSHED_AT" >> "$GITHUB_ENV"
+
       - name: Read Hostinger staging metadata
         env:
           HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
           HOSTINGER_STAGING_DOMAIN: ${{ vars.HOSTINGER_STAGING_DOMAIN }}
         run: node scripts/hostinger-readonly-check.mjs
+
+      - name: Smoke check deployed staging site
+        env:
+          HOSTINGER_STAGING_DOMAIN: ${{ vars.HOSTINGER_STAGING_DOMAIN }}
+        run: node scripts/staging-smoke-check.mjs

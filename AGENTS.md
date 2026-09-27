@@ -32,6 +32,7 @@
 ## Git and delivery
 - Preserve the user's working tree and staged changes. Never reset, restore, discard, or rewrite user changes unless explicitly asked.
 - Use a focused `codex/` feature or repair branch for changes. Do not push directly to `main`; use a pull request, inspect required checks, and merge only after the checks pass.
+- Publishing tracked StripUnion content to the configured canonical origin `heavenskybird/stripunion` through focused `codex/*` branches and pull requests is an authorized routine delivery action. If direct Git transport is unavailable, use the authenticated GitHub connector/Git Data API as the preferred fallback rather than asking Kenny to relay commits manually. This authorization does not extend to other repositories, new remotes, direct pushes to `main`, secrets, unrelated local files, or destructive history rewrites.
 - Rebase or merge against current `origin/main` only after inspecting history and resolving conflicts only when their intent is unambiguous. Stop and report genuinely ambiguous semantic conflicts.
 - After merging, synchronize local `main`, verify the relevant post-merge workflows, and finish with a clean/accurately reported Git status.
 - Keep commits focused and use a concise conventional commit message that describes the change.
