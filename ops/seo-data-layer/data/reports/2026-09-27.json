@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T06:04:50.384Z",
+  "generatedAt": "2026-09-27T08:15:48.816Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -141,7 +141,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -151,7 +151,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -1691,5 +1691,39 @@
     },
     "metricsUpdatedAt": "2026-09-27T04:52:20.246Z",
     "highestPerformingPosts": []
+  },
+  "trafficControlPlane": {
+    "acquisitionSessions": {
+      "organic": 5,
+      "social": 0,
+      "communityReferral": 8,
+      "paid": 0,
+      "total": 17,
+      "unclassified": 4
+    },
+    "qualifiedSessions": 5,
+    "outboundAffiliateCtr": 0,
+    "organicImpressions": 2,
+    "organicClicks": 0,
+    "indexedPages": 55,
+    "publishedContentCount": {
+      "astroCommercialPages": 17,
+      "wordpressPublishedPosts": null,
+      "wordpressDraftInventory": "unavailable"
+    },
+    "contentFreshness": {
+      "status": "not-measured",
+      "reason": "CMS publication dates are not part of the current GA4, GSC, or Bing snapshots."
+    },
+    "topAcquisitionLandingPages": [
+      {
+        "key": "/",
+        "value": 16
+      },
+      {
+        "key": "(not set)",
+        "value": 1
+      }
+    ]
   }
 }
