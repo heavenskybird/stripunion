@@ -20,7 +20,8 @@ const allowedExternalPrefixes = [
   'https://schema.org',
   'https://stripunion.com',
   'https://blog.stripunion.com',
-  'https://go.whitetrafsa.com'
+  'https://go.whitetrafsa.com',
+  'https://www.googletagmanager.com'
 ];
 
 const files = [];

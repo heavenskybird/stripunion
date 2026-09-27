@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T01:31:14.354Z",
+  "generatedAt": "2026-09-27T04:09:35.970Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -17,6 +17,21 @@
     "impressions": 2,
     "ctr": 0,
     "averagePosition": 3.5,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "clicks": 0,
+        "impressions": 5
+      },
+      "blog": {
+        "clicks": 0,
+        "impressions": 0
+      },
+      "other": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    },
     "rankingOpportunities": [],
     "highImpressionWeakCtr": [],
     "topPagesByImpressions": [
@@ -29,6 +44,28 @@
   "bing": {
     "clicks": 0,
     "impressions": 96,
+    "siteCoverage": [
+      {
+        "hostname": "stripunion.com",
+        "configured": true,
+        "methods": {
+          "GetQueryStats": "ok",
+          "GetPageStats": "ok",
+          "GetCrawlStats": "ok",
+          "GetCrawlIssues": "ok"
+        }
+      },
+      {
+        "hostname": "blog.stripunion.com",
+        "configured": true,
+        "methods": {
+          "GetQueryStats": "ok",
+          "GetPageStats": "ok",
+          "GetCrawlStats": "ok",
+          "GetCrawlIssues": "ok"
+        }
+      }
+    ],
     "highImpressionZeroClickQueries": [
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -1528,6 +1565,8 @@
   "ga4": {
     "sessions": 17,
     "engagedSessions": 5,
+    "siteSegmentationAvailable": false,
+    "sites": null,
     "engagementRate": 0.29411764705882354,
     "acquisitionSources": [
       {
@@ -1600,154 +1639,6 @@
       "reach": 0
     },
     "metricsUpdatedAt": "2026-09-27T00:13:09.863Z",
-    "highestPerformingPosts": [],
-    "sentPosts": [
-      {
-        "id": "6ab78d163afb9171a82bdd43",
-        "text": "Before choosing an adult platform, privacy and account security matter. A practical guide to com…\n\nhttps://blog.stripunion.com/live-cam-token-pricing-guide/?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=live-cam-token-pricing-guide",
-        "status": "sent",
-        "dueAt": "2026-09-26T11:05:00.000Z",
-        "createdAt": "2026-09-26T09:15:02.158Z",
-        "channelId": "6ab75d92ea19ca0bdef12700",
-        "metrics": {
-          "impressions": null,
-          "reach": null,
-          "reactions": null,
-          "comments": null,
-          "reposts": null,
-          "clicks": null,
-          "engagementRate": null,
-          "raw": [
-            {
-              "type": "reactions",
-              "name": "Reactions",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "comments",
-              "name": "Comments",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "engagementRate",
-              "name": "Eng. Rate",
-              "value": 0,
-              "unit": "percentage"
-            },
-            {
-              "type": "reposts",
-              "name": "Reposts",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "impressions",
-              "name": "Impressions",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "clicks",
-              "name": "Clicks",
-              "value": 0,
-              "unit": "count"
-            }
-          ]
-        },
-        "metricsUpdatedAt": "2026-09-26T11:05:10.145Z"
-      },
-      {
-        "id": "6ab76b1d80521ded55248b28",
-        "text": "StripUnion compares adult entertainment platforms by access model, pricing, privacy, mobile experience and user trade-offs. Independent guides for adults 18+.\n\nhttps://stripunion.com/?utm_source=x&utm_medium=social&utm_campaign=brand_intro",
-        "status": "sent",
-        "dueAt": "2026-09-27T00:13:00.000Z",
-        "createdAt": "2026-09-26T06:50:05.446Z",
-        "channelId": "6ab75d92ea19ca0bdef12700",
-        "metrics": {
-          "impressions": null,
-          "reach": null,
-          "reactions": null,
-          "comments": null,
-          "reposts": null,
-          "clicks": null,
-          "engagementRate": null,
-          "raw": [
-            {
-              "type": "reactions",
-              "name": "Reactions",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "comments",
-              "name": "Comments",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "engagementRate",
-              "name": "Eng. Rate",
-              "value": 0,
-              "unit": "percentage"
-            },
-            {
-              "type": "reposts",
-              "name": "Reposts",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "impressions",
-              "name": "Impressions",
-              "value": 0,
-              "unit": "count"
-            },
-            {
-              "type": "clicks",
-              "name": "Clicks",
-              "value": 0,
-              "unit": "count"
-            }
-          ]
-        },
-        "metricsUpdatedAt": "2026-09-27T00:13:09.863Z"
-      }
-    ],
-    "scheduledPosts": [
-      {
-        "id": "6ab76b32b097c5b401b07839",
-        "text": "Public-room-first or premium-first? Different adult platforms are built around very different user expectations. This guide explains the main models and trade-offs.\n\nhttps://blog.stripunion.com/public-room-vs-premium-live-cam/?utm_source=x&utm_medium=social&utm_campaign=guide_platform_models",
-        "status": "scheduled",
-        "dueAt": "2026-10-01T00:58:00.000Z",
-        "createdAt": "2026-09-26T06:50:26.277Z",
-        "channelId": "6ab75d92ea19ca0bdef12700"
-      },
-      {
-        "id": "6ab76b30f28173fa3f5c6616",
-        "text": "Two popular adult platforms can look similar but differ in interface, discovery, mobile use and paid interaction. Our side-by-side comparison focuses on those trade-offs.\n\nhttps://stripunion.com/stripchat-vs-chaturbate?utm_source=x&utm_medium=social&utm_campaign=comparison_stripchat_chaturbate",
-        "status": "scheduled",
-        "dueAt": "2026-09-29T00:58:00.000Z",
-        "createdAt": "2026-09-26T06:50:24.180Z",
-        "channelId": "6ab75d92ea19ca0bdef12700"
-      },
-      {
-        "id": "6ab76b2884e8fc26af2417dc",
-        "text": "Privacy, payment visibility, account security and what you share all matter when evaluating adult platforms. Our safety guide covers the essentials.\n\nhttps://blog.stripunion.com/live-cam-site-safety/?utm_source=x&utm_medium=social&utm_campaign=guide_safety",
-        "status": "scheduled",
-        "dueAt": "2026-09-30T00:23:00.000Z",
-        "createdAt": "2026-09-26T06:50:16.586Z",
-        "channelId": "6ab75d92ea19ca0bdef12700"
-      },
-      {
-        "id": "6ab76b26dffba3cec6f1dce4",
-        "text": "What does “free” actually mean on adult platforms? We break down browsing access, paid features and the trade-offs to understand before spending.\n\nhttps://blog.stripunion.com/are-live-cam-sites-free/?utm_source=x&utm_medium=social&utm_campaign=guide_free_access",
-        "status": "scheduled",
-        "dueAt": "2026-09-28T00:00:00.000Z",
-        "createdAt": "2026-09-26T06:50:14.540Z",
-        "channelId": "6ab75d92ea19ca0bdef12700"
-      }
-    ]
+    "highestPerformingPosts": []
   }
 }

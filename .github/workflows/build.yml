@@ -24,6 +24,10 @@ jobs:
           node scripts/hostinger-readonly-check.mjs --self-test
           node --check scripts/staging-smoke-check.mjs
           node scripts/staging-smoke-check.mjs --self-test
+          node --check scripts/blog-health-check.mjs
+          node scripts/blog-health-check.mjs --self-test
+          node --check scripts/two-site-main-health.mjs
+          node --check scripts/check-ga4-artifact.mjs
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
@@ -31,6 +35,8 @@ jobs:
           PUBLIC_ALLOW_INDEXING=false npm run build
           node scripts/check-staging-robots-artifact.mjs
       - name: Build production-indexable site
-        run: PUBLIC_ALLOW_INDEXING=true npm run build
+        run: PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 npm run build
       - name: Verify production SEO artifacts
-        run: npm run check:prod-seo
+        run: |
+          npm run check:prod-seo
+          node scripts/check-ga4-artifact.mjs

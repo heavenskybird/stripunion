@@ -1,0 +1,67 @@
+name: Two-site health
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: two-site-health
+  cancel-in-progress: true
+
+jobs:
+  main-site:
+    name: Main site public and staging health
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check production public endpoints
+        run: node scripts/two-site-main-health.mjs https://stripunion.com
+      - name: Smoke check configured Hostinger staging (optional)
+        if: ${{ vars.HOSTINGER_STAGING_DOMAIN != '' }}
+        env:
+          HOSTINGER_STAGING_DOMAIN: ${{ vars.HOSTINGER_STAGING_DOMAIN }}
+        run: node scripts/staging-smoke-check.mjs
+
+  blog-site:
+    name: WordPress blog public health
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check public WordPress blog endpoints (read-only)
+        run: node scripts/blog-health-check.mjs
+
+  combined:
+    name: Combined health summary
+    if: always()
+    needs: [main-site, blog-site]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report Main / Blog / Combined status
+        env:
+          MAIN_RESULT: ${{ needs.main-site.result }}
+          BLOG_RESULT: ${{ needs.blog-site.result }}
+        run: |
+          echo "Main: $MAIN_RESULT"
+          echo "Blog: $BLOG_RESULT"
+          if [ "$MAIN_RESULT" = success ] && [ "$BLOG_RESULT" = success ]; then
+            echo "Combined: PASS"
+          else
+            echo "Combined: FAIL"
+            exit 1
+          fi
