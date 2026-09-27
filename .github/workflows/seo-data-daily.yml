@@ -58,6 +58,15 @@ jobs:
           GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
         run: npm run collect:ga4
 
+      - name: Collect GA4 Admin stream metadata
+        id: collect_ga4_admin
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+        run: npm run collect:ga4-admin
+
       - name: Collect Bing Webmaster
         id: collect_bing
         continue-on-error: true
@@ -89,6 +98,8 @@ jobs:
       - name: Check two-site public health
         id: two_site_health
         continue-on-error: true
+        env:
+          EXPECTED_GA4_MEASUREMENT_ID: ${{ steps.collect_ga4_admin.outputs.unified_measurement_id }}
         run: node scripts/blog-health-check.mjs
 
       - name: Persist snapshots
@@ -122,6 +133,9 @@ jobs:
         env:
           GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
           GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
+          GA4_ADMIN_OUTCOME: ${{ steps.collect_ga4_admin.outcome }}
+          BLOG_ANALYTICS_STATUS: ${{ steps.two_site_health.outputs.analytics_status }}
+          BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
           BING_OUTCOME: ${{ steps.collect_bing.outcome }}
           BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
           BLOG_HEALTH_OUTCOME: ${{ steps.two_site_health.outcome }}
@@ -141,12 +155,18 @@ jobs:
               failed=1
             fi
           done
+          if [ "$GA4_ADMIN_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/ga4-admin.json" > /dev/null; then
+            echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
+          else
+            echo "ga4 admin: discovery failed; any previous valid snapshot remains on disk"
+          fi
           if [ "$BLOG_HEALTH_OUTCOME" = success ]; then
             echo "blog public health: succeeded"
           else
             echo "blog public health: failed"
             failed=1
           fi
+          echo "Blog GA4 analytics acceptance: ${BLOG_ANALYTICS_STATUS:-UNKNOWN} (accepted: ${BLOG_ANALYTICS_ACCEPTED:-false})"
           echo "failed=$failed" >> "$GITHUB_OUTPUT"
       - name: Dispatch weekly report generation
         if: always() && steps.persist.outcome == 'success'
@@ -156,3 +176,4 @@ jobs:
       - name: Mark missing source snapshots as failure
         if: always() && steps.summarize.outputs.failed == '1'
         run: exit 1
+

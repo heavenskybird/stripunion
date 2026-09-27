@@ -7,6 +7,8 @@
     "check": "node src/config/env.mjs",
     "collect:gsc": "node src/collectors/gsc.mjs",
     "collect:ga4": "node src/collectors/ga4.mjs",
+    "collect:ga4-admin": "node src/collectors/ga4-admin.mjs",
+    "test": "node --test test/*.test.mjs",
     "collect:google": "npm run collect:gsc && npm run collect:ga4",
     "collect:bing": "node src/collectors/bing.mjs",
     "collect:buffer": "node src/collectors/buffer.mjs",
@@ -18,3 +20,4 @@
     "googleapis": "^160.0.0"
   }
 }
+
