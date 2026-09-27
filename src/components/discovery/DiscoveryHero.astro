@@ -1,0 +1,7 @@
+---
+const { eyebrow, title, description, image, imageAlt, updated } = Astro.props;
+---
+<header class="discovery-hero">
+  <div class="discovery-hero-copy"><p class="kicker">{eyebrow || 'Independent platform guide'}</p><h1>{title}</h1><p class="lead">{description}</p>{updated && <p class="discovery-updated">Updated {updated}</p>}<slot /></div>
+  {image && <picture class="discovery-hero-art"><source srcset={image.avif || ''} type="image/avif" /><source srcset={image.webp || ''} type="image/webp" /><img src={image.src} alt={imageAlt || ''} width={image.width || 960} height={image.height || 640} fetchpriority="high" decoding="async" /></picture>}
+</header>
