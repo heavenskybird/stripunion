@@ -1,0 +1,97 @@
+{
+  "policy": {
+    "updated": "2026-09-27",
+    "rule": "Prefer official first-party brand/operator affiliate or referral programs. Do not add generic third-party affiliate-network offers without explicit approval.",
+    "approved_existing": [
+      "stripchat"
+    ],
+    "creator_model_strategy": "referral-only; no studio or agency operations"
+  },
+  "offers": [
+    {
+      "id": "stripchat",
+      "category": "live_cam",
+      "brand": "Stripchat",
+      "operator_program": "StripCash",
+      "status": "active",
+      "official_url": "https://stripcash.com/",
+      "relationship": "first_party_operator_program"
+    },
+    {
+      "id": "chaturbate",
+      "category": "live_cam",
+      "brand": "Chaturbate",
+      "status": "target",
+      "official_url": "https://chaturbate.com/affiliates/",
+      "relationship": "direct_brand_program"
+    },
+    {
+      "id": "bongacams",
+      "category": "live_cam",
+      "brand": "BongaCams",
+      "operator_program": "BongaCash",
+      "status": "target",
+      "official_url": "https://bongacash.com/join",
+      "relationship": "first_party_operator_program"
+    },
+    {
+      "id": "livejasmin",
+      "category": "live_cam",
+      "brand": "LiveJasmin",
+      "operator_program": "A.W. Empire",
+      "status": "target",
+      "official_url": "https://www.awempire.com/",
+      "relationship": "official_operator_affiliate_platform"
+    },
+    {
+      "id": "camsoda",
+      "category": "live_cam",
+      "brand": "CamSoda",
+      "status": "target",
+      "official_url": "https://www.camsoda.com/affiliates",
+      "relationship": "direct_brand_program"
+    },
+    {
+      "id": "adultfriendfinder",
+      "category": "adult_dating",
+      "brand": "AdultFriendFinder",
+      "operator_program": "FriendFinder Networks",
+      "status": "target",
+      "official_url": "https://adultfriendfinder.com/p/partners/main.cgi",
+      "relationship": "first_party_brand_portfolio"
+    },
+    {
+      "id": "fansly",
+      "category": "creator_fansite",
+      "brand": "Fansly",
+      "status": "target",
+      "official_url": "https://fansly.com/",
+      "relationship": "direct_referral_program"
+    },
+    {
+      "id": "lovense",
+      "category": "adult_toys",
+      "brand": "Lovense",
+      "status": "target",
+      "official_url": "https://www.lovense.com/sextoys/affiliate",
+      "relationship": "direct_brand_program"
+    },
+    {
+      "id": "lovehoney",
+      "category": "adult_toys",
+      "brand": "Lovehoney",
+      "operator_program": "Lovehoney Group",
+      "status": "target",
+      "official_url": "https://www.lovehoneygroup.com/affiliates",
+      "relationship": "first_party_group_program"
+    },
+    {
+      "id": "kiiroo",
+      "category": "adult_toys",
+      "brand": "Kiiroo",
+      "status": "target",
+      "official_url": "https://www.kiiroo.com/pages/influencer-community",
+      "relationship": "direct_brand_program"
+    }
+  ]
+}
