@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T04:27:26.734Z",
+  "generatedAt": "2026-09-27T04:43:13.950Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -90,21 +90,21 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 8,
-        "Clicks": 0,
-        "Date": "/Date(1781222400000)/",
-        "Impressions": 1,
-        "Query": "xhamster reviews",
-        "site": "stripunion.com"
-      },
-      {
-        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-        "AvgClickPosition": -1,
         "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781222400000)/",
         "Impressions": 1,
         "Query": "xhamsters review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 1,
+        "Query": "xhamster reviews",
         "site": "stripunion.com"
       },
       {
@@ -1544,6 +1544,13 @@
         "errors": 0,
         "http4xx": 0,
         "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790380800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
       }
     ],
     "crawlIssues": [],
@@ -1565,8 +1572,27 @@
   "ga4": {
     "sessions": 17,
     "engagedSessions": 5,
-    "siteSegmentationAvailable": false,
-    "sites": null,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "sessions": 15,
+        "engagedSessions": 5,
+        "affiliateClick": 0,
+        "revenue": 0
+      },
+      "blog": {
+        "sessions": 0,
+        "engagedSessions": 0,
+        "affiliateClick": 0,
+        "revenue": 0
+      },
+      "other": {
+        "sessions": 2,
+        "engagedSessions": 0,
+        "affiliateClick": 0,
+        "revenue": 0
+      }
+    },
     "engagementRate": 0.29411764705882354,
     "acquisitionSources": [
       {
