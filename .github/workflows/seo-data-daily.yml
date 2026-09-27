@@ -102,7 +102,18 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add ops/seo-data-layer/data/
           git commit -m "data: update SEO snapshots [skip ci]"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep "$attempt"
+            fi
+          done
+          echo "Could not persist SEO snapshots after three fast-forward retries."
+          exit 1
 
       - name: Summarize collection outcomes
         if: always()
