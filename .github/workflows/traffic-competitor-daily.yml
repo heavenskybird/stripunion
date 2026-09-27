@@ -30,6 +30,8 @@ jobs:
           node-version: 22
       - name: Collect public competitor metadata
         run: node ops/growth/collect-competitors.mjs
+      - name: Inventory and score existing Astro content
+        run: node ops/growth/content-inventory.mjs
       - name: Generate evidence-based opportunities
         run: node ops/growth/opportunities.mjs
       - name: Persist snapshots and report
