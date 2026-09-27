@@ -46,7 +46,7 @@ function pageSummary(url, html, headers, finalUrl) {
   const external = [...new Set(hrefs.map((href) => { try { const u = new URL(href, finalUrl); return u.hostname && u.hostname !== host ? u.hostname : null; } catch { return null; } }).filter(Boolean))].sort();
   const ctas = links.map((link) => link.label).filter((value) => value && value.length < 100 && /visit|try|join|sign up|start|explore|compare|read review|view/i.test(value)).slice(0, 40);
   const visibleText = strip(main);
-  return { url, finalUrl, status: headers.status, title, h1, metaDescription: description, canonical: canonical ? new URL(canonical, finalUrl).href : null, schemaTypes, updateSignals: { lastModifiedHeader: headers.lastModified || null, dateTokens: [...new Set((main.match(/(?:updated|reviewed|checked|published)[^.!?]{0,40}(?:20\d{2}|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[^.!?]{0,20}/gi) || []).slice(0, 10)] }, approximateWords: visibleText ? visibleText.split(/\s+/).length : 0, internalLinks: hrefs.filter((href) => { try { const u = new URL(href, finalUrl); return u.hostname === host; } catch { return href.startsWith('/'); } }).length, externalDestinations: external, ctaLabels: ctas, comparisonTargets: [...new Set((visibleText.match(/\b(?:vs\.?|versus)\s+[A-Z][A-Za-z0-9]+/g) || []).slice(0, 20))], platformCoverage: [...new Set((visibleText.match(/\b(?:Stripchat|Chaturbate|BongaCams|LiveJasmin|CamSoda|MyFreeCams|Jerkmate|Streamate|OnlyFans)\b/gi) || []).map((v) => v.toLowerCase()))], pricingSignals: { currencyMentions: (visibleText.match(/[$€£]\s?\d+(?:[.,]\d+)?/g) || []).slice(0, 30), tokenMentions: (visibleText.match(/\b\d+(?:[.,]\d+)?\s*(?:tokens?|credits?)\b/gi) || []).slice(0, 30) }, visualAssets: { total: assetTags.length, types: assetTags.map((tag) => tag.match(/^<(\w+)/)?.[1]?.toLowerCase()).reduce((acc, type) => { acc[type] = (acc[type] || 0) + 1; return acc; }, {}) } };
+  return { url, finalUrl, status: headers.status, title, h1, metaDescription: description, canonical: canonical ? new URL(canonical, finalUrl).href : null, schemaTypes, updateSignals: { lastModifiedHeader: headers.lastModified || null, dateTokens: [...new Set((main.match(/(?:updated|reviewed|checked|published)[^.!?]{0,40}(?:20\d{2}|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[^.!?]{0,20}/gi) || []).slice(0, 10))] }, approximateWords: visibleText ? visibleText.split(/\s+/).length : 0, internalLinks: hrefs.filter((href) => { try { const u = new URL(href, finalUrl); return u.hostname === host; } catch { return href.startsWith('/'); } }).length, externalDestinations: external, ctaLabels: ctas, comparisonTargets: [...new Set((visibleText.match(/\b(?:vs\.?|versus)\s+[A-Z][A-Za-z0-9]+/g) || []).slice(0, 20))], platformCoverage: [...new Set((visibleText.match(/\b(?:Stripchat|Chaturbate|BongaCams|LiveJasmin|CamSoda|MyFreeCams|Jerkmate|Streamate|OnlyFans)\b/gi) || []).map((v) => v.toLowerCase()))], pricingSignals: { currencyMentions: (visibleText.match(/[$€£]\s?\d+(?:[.,]\d+)?/g) || []).slice(0, 30), tokenMentions: (visibleText.match(/\b\d+(?:[.,]\d+)?\s*(?:tokens?|credits?)\b/gi) || []).slice(0, 30) }, visualAssets: { total: assetTags.length, types: assetTags.map((tag) => tag.match(/^<(\w+)/)?.[1]?.toLowerCase()).reduce((acc, type) => { acc[type] = (acc[type] || 0) + 1; return acc; }, {}) } };
 }
 async function previous() { try { const names = (await fs.readdir(rawDir)).filter((n) => /^\d{4}-\d{2}-\d{2}\.json$/.test(n)).sort().reverse(); return names.length ? JSON.parse(await fs.readFile(path.join(rawDir, names[0]), 'utf8')) : null; } catch { return null; } }
 const prior = await previous();
@@ -58,10 +58,25 @@ for (const competitor of config.domains) {
   try {
     const { response, body } = await fetchText(new URL('/robots.txt', competitor.origin), allowedHosts);
     const sitemapLocs = [...body.matchAll(/^\s*Sitemap:\s*(\S+)/gim)].map((m) => m[1]);
-    const sitemapUrls = sitemapLocs.length ? sitemapLocs : [new URL('/sitemap.xml', competitor.origin).href];
+    const sitemapQueue = sitemapLocs.length ? [...sitemapLocs] : ['/sitemap.xml', '/sitemap_index.xml', '/wp-sitemap.xml'].map((route) => new URL(route, competitor.origin).href);
     const urls = new Set([new URL('/', competitor.origin).href]);
-    for (const sitemap of sitemapUrls.slice(0, 4)) {
-      try { const { body: xml } = await fetchText(sitemap, allowedHosts); for (const m of xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)) { const u = new URL(m[1].trim()); if (allowedHosts.has(u.hostname) && u.protocol === 'https:') urls.add(u.href); if (urls.size >= config.maxPagesPerDomain) break; } } catch (error) { entry.errors.push(`sitemap: ${error.message}`); }
+    const visitedSitemaps = new Set();
+    while (sitemapQueue.length && visitedSitemaps.size < 8 && urls.size < config.maxPagesPerDomain) {
+      const sitemap = sitemapQueue.shift();
+      if (visitedSitemaps.has(sitemap)) continue;
+      visitedSitemaps.add(sitemap);
+      try {
+        const { response: sitemapResponse, body: xml } = await fetchText(sitemap, allowedHosts);
+        if (sitemapResponse.status >= 400) continue;
+        const sitemapIndex = /<(?:[\w.-]+:)?sitemapindex\b/i.test(xml);
+        for (const match of xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)) {
+          const u = new URL(match[1].trim());
+          if (!allowedHosts.has(u.hostname) || u.protocol !== 'https:') continue;
+          if (sitemapIndex || /\.xml(?:$|\?)/i.test(u.pathname + u.search)) sitemapQueue.push(u.href);
+          else urls.add(u.href);
+          if (urls.size >= config.maxPagesPerDomain) break;
+        }
+      } catch (error) { entry.errors.push(`sitemap: ${error.message}`); }
     }
     entry.robotsStatus = response.status;
     const bounded = [...urls].slice(0, config.maxPagesPerDomain);
