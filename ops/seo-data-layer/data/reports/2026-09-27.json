@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T08:15:48.816Z",
+  "generatedAt": "2026-09-27T09:44:40.590Z",
   "sourceDates": {
     "gsc": "2026-09-25",
     "ga4": "2026-09-26",
@@ -127,11 +127,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 5,
+        "AvgImpressionPosition": 7,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "f95zone reviews",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -147,11 +147,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 7,
+        "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "f95zone reviews",
         "site": "stripunion.com"
       },
       {
@@ -1680,9 +1680,9 @@
       "service": "twitter"
     },
     "sentPostCount": 2,
-    "scheduledPostCount": 4,
-    "impressions": 0,
-    "clicks": 0,
+    "scheduledPostCount": 5,
+    "impressions": 7,
+    "clicks": 4,
     "engagement": {
       "reactions": 0,
       "comments": 0,
@@ -1690,7 +1690,110 @@
       "reach": 0
     },
     "metricsUpdatedAt": "2026-09-27T04:52:20.246Z",
-    "highestPerformingPosts": []
+    "highestPerformingPosts": [
+      {
+        "id": "6ab78d163afb9171a82bdd43",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 5,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 100,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 100,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6ab76b1d80521ded55248b28",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 2,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 100,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 100,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 2,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      }
+    ]
   },
   "trafficControlPlane": {
     "acquisitionSessions": {
