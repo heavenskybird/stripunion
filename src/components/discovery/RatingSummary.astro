@@ -1,0 +1,5 @@
+---
+const { score, scale = 10, label = 'Editorial score', basis, sourceDate } = Astro.props;
+const valid = Number.isFinite(Number(score)) && Number(score) >= 0 && Number(score) <= Number(scale);
+---
+{valid && <aside class="discovery-rating" aria-label={`${label}: ${score} out of ${scale}`}><span>{label}</span><strong>{score}<small> / {scale}</small></strong>{basis && <p>{basis}</p>}{sourceDate && <small>Checked {sourceDate}</small>}</aside>}
