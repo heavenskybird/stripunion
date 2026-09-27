@@ -14,7 +14,7 @@ for (const dir of dirs) try { bing = JSON.parse(await fs.readFile(path.join(gscR
 const queryStats = new Map();
 for (const row of gsc?.queryRows || []) { const url=String(row.page||'').toLowerCase(); const key=url.split('/').filter(Boolean).at(-1)||'index'; queryStats.set(key,(queryStats.get(key)||0)+Number(row.impressions||0)); }
 for (const site of bing?.sites || []) for (const row of site.pageStats || []) { const url=String(row.Page||row.page||'').toLowerCase(); const key=url.split('/').filter(Boolean).at(-1)||'index'; queryStats.set(key,(queryStats.get(key)||0)+Number(row.Impressions||row.impressions||0)); }
-const clusterOf = (text) => /best.*(?:cam|site)|top.*cam/i.test(text)?'best cam sites':/vs|versus/i.test(text)?'platform-vs-platform':/pric|token|credit/i.test(text)?'pricing/tokens':/payment|billing|wallet/i.test(text)?'payments':/app|mobile|device|vr/i.test(text)?'mobile/device':/model|creator|work|earn/i.test(text)?'creator/model referral':/feature|search|private|magic/i.test(text)?'features':/country|regional|region/i.test(text)?'regional':/review/i.test(text)?'platform reviews':'guides';
+const clusterOf = (text) => /best.*(?:cam|site)|top.*cam/i.test(text)?'best cam sites':/vs|versus/i.test(text)?'platform-vs-platform':/pric|token|credit/i.test(text)?'pricing/tokens':/payment|billing|wallet/i.test(text)?'payments':/app|mobile|device|vr/i.test(text)?'mobile/device':/\b(?:model|creator|work|earn)\b/i.test(text)?'creator/model referral':/feature|search|private|magic/i.test(text)?'features':/country|regional|region/i.test(text)?'regional':/review/i.test(text)?'platform reviews':'guides';
 const tokens = (value) => new Set(String(value||'').toLowerCase().match(/[a-z0-9]{3,}/g)||[]);
 const rows=[];
 for(const file of files){
