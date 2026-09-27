@@ -37,6 +37,14 @@
 - After merging, synchronize local `main`, verify the relevant post-merge workflows, and finish with a clean/accurately reported Git status.
 - Keep commits focused and use a concise conventional commit message that describes the change.
 
+## Growth operating policy
+- Treat growth as a system, not a content-only problem. Daily diagnosis should consider acquisition, keyword/search visibility, content architecture, visual quality, internal linking, UX/CRO, social/community distribution, affiliate offer coverage, technical SEO/indexation, performance, trust/compliance, creator/model referral opportunities, and monetization/revenue attribution.
+- Daily learning may produce daily publishing. Use the freshest competitor, GSC, GA4, Bing, Buffer, WordPress, and affiliate evidence to select and improve publish candidates, but never mass-publish thin, duplicative, unsupported, or cannibalizing pages.
+- Prefer 1–3 strong publishable items per daily editorial cycle when the evidence and quality gate support them; publishing none is better than shipping weak content. Preserve a separation between low-risk new-content output and edits to established pages.
+- Do not thrash existing published pages based on one-day noise. Evaluate meaningful page/CTA/SEO experiments over 7/14/30-day windows where data permits, and record winner/loser/inconclusive learnings so future decisions reuse validated patterns.
+- Competitor intelligence is for strategy learning, not copying. Learn taxonomy, page types, visual patterns, CTA structures, update cadence, offer coverage, internal-link systems, and topic expansion while never republishing competitor text, images, or proprietary assets.
+- Creator/model acquisition remains referral-only unless explicitly changed by the user. Do not create studio/agency, KYC-custody, creator payroll, or exclusivity workflows.
+
 ## Documentation maintenance
 - Keep this file concise and limited to stable, cross-project rules. Put detailed architecture, runbooks, credentials setup, source-specific cadence/limitations, and volatile operational status in the appropriate `docs/` files.
 - When instructions conflict, follow the user's current explicit request and current repository state; preserve safety rules for credentials and user data.
