@@ -5,9 +5,8 @@ import { classifyStreams, normalizeStreams } from '../src/collectors/ga4-admin.m
 const webStream = (id, uri) => ({
   name: `properties/530171093/dataStreams/${id}`,
   displayName: `Stream ${id}`,
-  defaultUri: uri,
   createTime: '2026-01-01T00:00:00Z',
-  webStreamData: { measurementId: `G-TEST${id}1234` }
+  webStreamData: { measurementId: `G-TEST${id}1234`, defaultUri: uri }
 });
 
 test('normalizes only public stream metadata fields', () => {
@@ -34,4 +33,3 @@ test('does not infer a single stream from unrelated or multiple production strea
     webStream('43', 'https://blog.stripunion.com')
   ])), 'UNKNOWN / MULTIPLE');
 });
-
