@@ -48,8 +48,16 @@ function pageSummary(url, html, headers, finalUrl) {
   const visibleText = strip(main);
   return { url, finalUrl, status: headers.status, title, h1, metaDescription: description, canonical: canonical ? new URL(canonical, finalUrl).href : null, schemaTypes, updateSignals: { lastModifiedHeader: headers.lastModified || null, dateTokens: [...new Set((main.match(/(?:updated|reviewed|checked|published)[^.!?]{0,40}(?:20\d{2}|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[^.!?]{0,20}/gi) || []).slice(0, 10))] }, approximateWords: visibleText ? visibleText.split(/\s+/).length : 0, internalLinks: hrefs.filter((href) => { try { const u = new URL(href, finalUrl); return u.hostname === host; } catch { return href.startsWith('/'); } }).length, externalDestinations: external, ctaLabels: ctas, comparisonTargets: [...new Set((visibleText.match(/\b(?:vs\.?|versus)\s+[A-Z][A-Za-z0-9]+/g) || []).slice(0, 20))], platformCoverage: [...new Set((visibleText.match(/\b(?:Stripchat|Chaturbate|BongaCams|LiveJasmin|CamSoda|MyFreeCams|Jerkmate|Streamate|OnlyFans)\b/gi) || []).map((v) => v.toLowerCase()))], pricingSignals: { currencyMentions: (visibleText.match(/[$€£]\s?\d+(?:[.,]\d+)?/g) || []).slice(0, 30), tokenMentions: (visibleText.match(/\b\d+(?:[.,]\d+)?\s*(?:tokens?|credits?)\b/gi) || []).slice(0, 30) }, visualAssets: { total: assetTags.length, types: assetTags.map((tag) => tag.match(/^<(\w+)/)?.[1]?.toLowerCase()).reduce((acc, type) => { acc[type] = (acc[type] || 0) + 1; return acc; }, {}) } };
 }
-async function previous() { try { const names = (await fs.readdir(rawDir)).filter((n) => /^\d{4}-\d{2}-\d{2}\.json$/.test(n)).sort().reverse(); return names.length ? JSON.parse(await fs.readFile(path.join(rawDir, names[0]), 'utf8')) : null; } catch { return null; } }
+async function previous() {
+  try {
+    const names = (await fs.readdir(rawDir)).filter((name) => /^\d{4}-\d{2}-\d{2}\.json$/.test(name)).sort().reverse();
+    const priorName = names.find((name) => name.slice(0, 10) < date);
+    return priorName ? { date: priorName.slice(0, 10), data: JSON.parse(await fs.readFile(path.join(rawDir, priorName), 'utf8')) } : null;
+  } catch { return null; }
+}
 const prior = await previous();
+let sameDayDiff = null;
+try { sameDayDiff = JSON.parse(await fs.readFile(path.join(diffDir, `${date}.json`), 'utf8')); } catch {}
 const snapshots = [];
 for (const competitor of config.domains) {
   const host = new URL(competitor.origin).hostname;
@@ -92,9 +100,18 @@ for (const competitor of config.domains) {
   } catch (error) { entry.errors.push(`robots: ${error.message}`); }
   snapshots.push(entry);
 }
-const previousByName = new Map((prior?.competitors || []).map((c) => [c.name, new Set(c.sitemapUrls || [])]));
+const previousByName = new Map((prior?.data?.competitors || []).map((c) => [c.name, new Set(c.sitemapUrls || [])]));
 const diffs = snapshots.map((c) => { const before = previousByName.get(c.name) || new Set(); const now = new Set(c.sitemapUrls); return { name: c.name, newUrls: [...now].filter((u) => !before.has(u)), removedUrls: [...before].filter((u) => !now.has(u)), pageCount: now.size, collectionErrors: c.errors }; });
+if (sameDayDiff) {
+  const earlier = new Map((sameDayDiff.competitors || []).map((row) => [row.name, row]));
+  for (const row of diffs) {
+    const old = earlier.get(row.name);
+    if (!old) continue;
+    row.newUrls = [...new Set([...(old.newUrls || []), ...row.newUrls])];
+    row.removedUrls = [...new Set([...(old.removedUrls || []), ...row.removedUrls])];
+  }
+}
 await fs.mkdir(rawDir, { recursive: true }); await fs.mkdir(diffDir, { recursive: true });
-await fs.writeFile(path.join(rawDir, `${date}.json`), JSON.stringify({ generatedAt: new Date().toISOString(), source: 'public pages and public sitemaps; no page body stored', limits: { maxPagesPerDomain: config.maxPagesPerDomain, bodyBytesPerRequest: 2_000_000 }, competitors: snapshots }, null, 2) + '\n');
-await fs.writeFile(path.join(diffDir, `${date}.json`), JSON.stringify({ generatedAt: new Date().toISOString(), comparedTo: prior?.date || null, competitors: diffs }, null, 2) + '\n');
+await fs.writeFile(path.join(rawDir, `${date}.json`), JSON.stringify({ date, generatedAt: new Date().toISOString(), source: 'public pages and public sitemaps; no page body stored', limits: { maxPagesPerDomain: config.maxPagesPerDomain, bodyBytesPerRequest: 2_000_000 }, competitors: snapshots }, null, 2) + '\n');
+await fs.writeFile(path.join(diffDir, `${date}.json`), JSON.stringify({ date, generatedAt: new Date().toISOString(), comparedTo: sameDayDiff?.comparedTo || prior?.date || null, competitors: diffs }, null, 2) + '\n');
 console.log(`Competitor collection ${date}: ${snapshots.reduce((n, c) => n + c.pages.length, 0)} pages; ${snapshots.filter((c) => c.errors.length).length} domains with collection warnings.`);
