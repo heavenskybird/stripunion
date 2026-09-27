@@ -1,5 +1,8 @@
 const token = process.env.TELEGRAM_BOT_TOKEN;
-const chatId = process.env.TELEGRAM_CHANNEL_ID;
+const rawChatId = String(process.env.TELEGRAM_CHANNEL_ID || '').trim();
+const chatId = rawChatId && !rawChatId.startsWith('@') && !/^-?\\d+$/.test(rawChatId)
+  ? `@${rawChatId}`
+  : rawChatId;
 
 function stripHtml(value = '') {
   return String(value)
