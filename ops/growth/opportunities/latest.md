@@ -1,6 +1,6 @@
-# Daily Growth Opportunities — 2026-09-28
+# Daily Growth Opportunities — 2026-09-29
 
-Sources: GSC 2026-09-26 · Bing 2026-09-27 · competitor snapshot 2026-09-28 · diff 2026-09-28.
+Sources: GSC 2026-09-27 · Bing 2026-09-28 · competitor snapshot 2026-09-29 · diff 2026-09-29.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
