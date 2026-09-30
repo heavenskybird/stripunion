@@ -1,6 +1,6 @@
-# Daily Growth Opportunities — 2026-09-29
+# Daily Growth Opportunities — 2026-09-30
 
-Sources: GSC 2026-09-27 · Bing 2026-09-28 · competitor snapshot 2026-09-29 · diff 2026-09-29.
+Sources: GSC 2026-09-28 · Bing 2026-09-29 · competitor snapshot 2026-09-30 · diff 2026-09-30.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -26,15 +26,15 @@ Affiliate revenue attribution is not yet connected. Signup and purchase outcomes
 16. **xhamster#N##N#review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
 17. **f95zone make a review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
 18. **xhampster review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 8; intent review intent; offer not approved; confidence low; risk high.
-19. **xhasters reviews** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 9; intent review intent; offer not approved; confidence low; risk high.
-20. **https+thefapguide+com+review+xhamster** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 10; intent review intent; offer not approved; confidence low; risk high.
-21. **xhamster.com site overview 2025 2026** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 3; intent unknown; confidence low; risk low.
-22. **complete guide to hamster com x** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 10; intent unknown; confidence low; risk low.
-23. **xhamster latest features and site overview** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
-24. **free porn union sites** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 7; intent unknown; confidence low; risk low.
-25. **xhamster porn site pros and cons** — evaluate a new on-site guide against the content inventory; 2 impressions, 0 clicks, position 4; intent unknown; confidence low; risk low.
-26. **with the adult video platform xhamster.** — evaluate a new on-site guide against the content inventory; 2 impressions, 0 clicks, position 9; intent unknown; confidence low; risk low.
-27. **f95zone reivew** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
-28. **xhamster adult website overview** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
-29. **pinkcherry toys company website** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 6; intent unknown; confidence low; risk low.
-30. **xhamster revieuw** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 6; intent unknown; confidence low; risk low.
+19. **stripchat alternative** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 9; intent approved-offer intent; confidence low; risk medium.
+20. **xhasters reviews** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 9; intent review intent; offer not approved; confidence low; risk high.
+21. **https+thefapguide+com+review+xhamster** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 10; intent review intent; offer not approved; confidence low; risk high.
+22. **xhamster.com site overview 2025 2026** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 3; intent unknown; confidence low; risk low.
+23. **complete guide to hamster com x** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 10; intent unknown; confidence low; risk low.
+24. **xhamster latest features and site overview** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
+25. **free porn union sites** — evaluate a new on-site guide against the content inventory; 3 impressions, 0 clicks, position 7; intent unknown; confidence low; risk low.
+26. **xhamster porn site pros and cons** — evaluate a new on-site guide against the content inventory; 2 impressions, 0 clicks, position 4; intent unknown; confidence low; risk low.
+27. **with the adult video platform xhamster.** — evaluate a new on-site guide against the content inventory; 2 impressions, 0 clicks, position 9; intent unknown; confidence low; risk low.
+28. **f95zone reivew** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
+29. **xhamster adult website overview** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 5; intent unknown; confidence low; risk low.
+30. **pinkcherry toys company website** — evaluate a new on-site guide against the content inventory; 1 impressions, 0 clicks, position 6; intent unknown; confidence low; risk low.
