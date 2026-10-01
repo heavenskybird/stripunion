@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-30T08:38:35.283Z",
+  "generatedAt": "2026-10-01T09:00:56.133Z",
   "sources": {
-    "gsc": "2026-09-28",
-    "bing": "2026-09-29",
-    "competitorSnapshot": "2026-09-30",
-    "competitorDiff": "2026-09-30",
+    "gsc": "2026-09-29",
+    "bing": "2026-09-30",
+    "competitorSnapshot": "2026-10-01",
+    "competitorDiff": "2026-10-01",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
@@ -79,8 +79,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -116,8 +116,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -153,8 +153,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -190,8 +190,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -251,8 +251,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -296,8 +296,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -333,8 +333,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -386,8 +386,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -423,8 +423,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -460,8 +460,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -497,8 +497,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -534,8 +534,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -550,43 +550,6 @@
       "risk": "high",
       "experimentWindow": "14 days",
       "rank": 12
-    },
-    {
-      "id": "bing-7868616d73746572",
-      "sourceEvidence": [
-        {
-          "source": "Bing",
-          "date": "/Date(1781827200000)/",
-          "query": "xhamster site review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 7
-        }
-      ],
-      "targetKeyword": "xhamster site review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
-      "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
-      "competitorEvidence": [
-        {
-          "source": "daily public sitemap diff",
-          "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
-          "topicMatch": "not established; treat as landscape context only"
-        }
-      ],
-      "ourEvidence": {
-        "page": null,
-        "impressions": 1,
-        "clicks": 0,
-        "position": 7
-      },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
-      "confidence": "low",
-      "risk": "high",
-      "experimentWindow": "14 days",
-      "rank": 13
     },
     {
       "id": "bing-776f726c64206f66",
@@ -608,8 +571,45 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
+          "topicMatch": "not established; treat as landscape context only"
+        }
+      ],
+      "ourEvidence": {
+        "page": null,
+        "impressions": 1,
+        "clicks": 0,
+        "position": 7
+      },
+      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "high",
+      "experimentWindow": "14 days",
+      "rank": 13
+    },
+    {
+      "id": "bing-7868616d73746572",
+      "sourceEvidence": [
+        {
+          "source": "Bing",
+          "date": "/Date(1781827200000)/",
+          "query": "xhamster site review",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
+        }
+      ],
+      "targetKeyword": "xhamster site review",
+      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "trafficIntent": "observed",
+      "commercialIntent": "review intent; offer not approved",
+      "competitorEvidence": [
+        {
+          "source": "daily public sitemap diff",
+          "domain": "WebcamsChats",
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -645,8 +645,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -682,8 +682,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -719,8 +719,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -756,8 +756,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -778,7 +778,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-09-28",
+          "date": "2026-09-29",
           "query": "stripchat alternative",
           "impressions": 1,
           "clicks": 0,
@@ -793,8 +793,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -830,8 +830,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -867,8 +867,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -904,8 +904,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -949,8 +949,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -986,8 +986,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1023,8 +1023,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1060,8 +1060,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1097,8 +1097,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1134,8 +1134,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1171,8 +1171,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1208,8 +1208,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 21,
-          "removedUrlCount": 21,
+          "newUrlCount": 22,
+          "removedUrlCount": 22,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],

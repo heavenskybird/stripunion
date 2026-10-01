@@ -1,6 +1,6 @@
-# Daily Growth Opportunities — 2026-09-30
+# Daily Growth Opportunities — 2026-10-01
 
-Sources: GSC 2026-09-28 · Bing 2026-09-29 · competitor snapshot 2026-09-30 · diff 2026-09-30.
+Sources: GSC 2026-09-29 · Bing 2026-09-30 · competitor snapshot 2026-10-01 · diff 2026-10-01.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -20,8 +20,8 @@ Affiliate revenue attribution is not yet connected. Signup and purchase outcomes
 10. **xhamster#R##N#review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 5; intent review intent; offer not approved; confidence low; risk high.
 11. **xhamter.com review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 5; intent review intent; offer not approved; confidence low; risk high.
 12. **xhamster reviewed** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 6; intent review intent; offer not approved; confidence low; risk high.
-13. **xhamster site review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
-14. **world of dominion f95zone review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
+13. **world of dominion f95zone review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
+14. **xhamster site review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
 15. **adult industry update xhamster review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
 16. **xhamster#N##N#review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
 17. **f95zone make a review** — validate audience fit and official-source facts; no affiliate CTA until a program is approved; 1 impressions, 0 clicks, position 7; intent review intent; offer not approved; confidence low; risk high.
