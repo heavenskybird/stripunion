@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:43:46.549Z",
+  "generatedAt": "2026-10-02T16:51:34.501Z",
   "sources": {
     "gsc": "2026-09-30",
     "bing": "2026-10-01",
@@ -140,10 +140,10 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "xhamster#N##N#review",
+          "query": "complete guide to hamster com x",
           "impressions": 1,
           "clicks": 0,
-          "position": 7
+          "position": 10
         },
         {
           "source": "Bing",
@@ -156,10 +156,10 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "complete guide to hamster com x",
+          "query": "xhamster#N##N#review",
           "impressions": 1,
           "clicks": 0,
-          "position": 10
+          "position": 7
         },
         {
           "source": "Bing",
@@ -244,18 +244,18 @@
         {
           "source": "Bing",
           "date": "/Date(1787270400000)/",
-          "query": "should a person be leary about xhamster site?",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 10
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1787270400000)/",
           "query": "xhamster#R##N#review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1787270400000)/",
+          "query": "should a person be leary about xhamster site?",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10
         },
         {
           "source": "Bing",
@@ -300,7 +300,7 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamster adult website overview",
+          "query": "xhamter.com review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
@@ -308,7 +308,7 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamter.com review",
+          "query": "xhamster adult website overview",
           "impressions": 1,
           "clicks": 0,
           "position": 5
@@ -387,10 +387,10 @@
         {
           "source": "Bing",
           "date": "/Date(1786665600000)/",
-          "query": "f95zone reviews",
+          "query": "f95zone reivew",
           "impressions": 1,
           "clicks": 0,
-          "position": 8
+          "position": 5
         },
         {
           "source": "Bing",
@@ -403,14 +403,14 @@
         {
           "source": "Bing",
           "date": "/Date(1786665600000)/",
-          "query": "f95zone reivew",
+          "query": "f95zone reviews",
           "impressions": 1,
           "clicks": 0,
-          "position": 5
+          "position": 8
         }
       ],
       "targetKeyword": "F95Zone review",
-      "recommendedAction": "migrate pending /f95zone review into a substantive indexable page before adding any commercial CTA",
+      "recommendedAction": "refresh existing /f95zone landing page using clustered search evidence",
       "trafficIntent": "observed",
       "commercialIntent": "commercial/review intent; monetization relationship not approved",
       "monetizationRoute": null,
@@ -432,7 +432,7 @@
       ],
       "ourEvidence": {
         "page": "/f95zone",
-        "contentState": "pending",
+        "contentState": "review",
         "impressions": 5,
         "clicks": 0,
         "bestPosition": 5,
@@ -440,7 +440,7 @@
       },
       "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
-      "risk": "medium",
+      "risk": "low",
       "experimentWindow": "14 days",
       "rank": 2
     },
