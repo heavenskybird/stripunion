@@ -181,6 +181,14 @@ for (const required of ['Become a cam model on AVCams', 'destinationPath="/signu
   }
 }
 
+const weeklyReport = fs.readFileSync('ops/seo-data-layer/src/reports/weekly.mjs', 'utf8');
+for (const required of ['growthOpportunities', 'contentInventory', 'clusteredOpportunities', 'syntheticPromptPattern', 'tracked main-site pages']) {
+  if (!weeklyReport.includes(required)) {
+    failed = true;
+    console.error(`FAIL: weekly report cleaned growth signal integration is missing: ${required}`);
+  }
+}
+
 const contentInventory = fs.readFileSync('ops/growth/content-inventory.mjs', 'utf8');
 for (const required of ["from '../../src/data/reviews.js'", "from '../../src/data/reviews-vr.js'", "contentSource: 'review-data'", "inventoryBreakdown"]) {
   if (!contentInventory.includes(required)) {
