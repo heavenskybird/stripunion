@@ -1,0 +1,25 @@
+name: StripCash statistics schema probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Probe StripCash Statistics API schema
+        env:
+          STRIPCASH_STATS_API_TOKEN: ${{ secrets.STRIPCASH_STATS_API_TOKEN }}
+        run: node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs
