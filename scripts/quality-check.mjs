@@ -20,7 +20,9 @@ const allowedExternalPrefixes = [
   'https://schema.org',
   'https://stripunion.com',
   'https://blog.stripunion.com',
+  'https://avcams.online',
   'https://go.whitetrafsa.com',
+  'https://stripcash.com',
   'https://www.googletagmanager.com'
 ];
 
