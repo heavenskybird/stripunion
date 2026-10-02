@@ -39,15 +39,40 @@ async function readConfiguredUserId() {
   return match[1];
 }
 
+function safeCatalog(payload) {
+  const statistics = payload?.statistics;
+  const report = statistics?.data;
+  const rows = Array.isArray(report?.data) ? report.data : [];
+  const metrics = Array.isArray(report?.metrics) ? report.metrics : [];
+
+  return {
+    statisticsKeys: statistics && typeof statistics === 'object' ? Object.keys(statistics).sort() : [],
+    reportKeys: report && typeof report === 'object' ? Object.keys(report).sort() : [],
+    groups: Array.isArray(report?.groups) ? report.groups.map((value) => String(value)) : [],
+    metrics: metrics.map((metric) => ({
+      id: String(metric?.id ?? ''),
+      group: String(metric?.group ?? ''),
+      section: String(metric?.section ?? ''),
+      type: String(metric?.type ?? '')
+    })),
+    rowCount: rows.length,
+    firstRowShape: rows.length ? shapeOf(rows[0], 0) : null
+  };
+}
+
 async function runSelfTest() {
   const sample = {
-    totals: { clicks: 12, revenue: 3.45 },
-    rows: [{ date: '2026-10-02', campaignId: 'sample', amount: 1 }]
+    statistics: {
+      data: {
+        groups: ['date'],
+        metrics: [{ id: 'clicks', group: 'traffic', section: 'traffic', type: 'number' }],
+        data: [{ date: '2026-10-02', clicks: 12, revenue: 3.45 }]
+      }
+    }
   };
-  const shape = shapeOf(sample);
-  if (shape?.type !== 'object') throw new Error('shape self-test failed');
-  if (shape.keys?.totals?.keys?.clicks !== 'number') throw new Error('numeric shape self-test failed');
-  if (shape.keys?.rows?.itemShape?.keys?.campaignId !== 'string') throw new Error('array shape self-test failed');
+  const catalog = safeCatalog(sample);
+  if (catalog.metrics[0]?.id !== 'clicks') throw new Error('metric catalog self-test failed');
+  if (catalog.firstRowShape?.keys?.clicks !== 'number') throw new Error('row schema self-test failed');
   console.log('StripCash statistics probe self-test passed.');
 }
 
@@ -79,8 +104,8 @@ async function main() {
   const payload = await response.json();
 
   console.log('StripCash Statistics API probe succeeded.');
-  console.log('Only schema/key names and value types are shown below; no values are printed.');
-  console.log(JSON.stringify(shapeOf(payload), null, 2));
+  console.log('Only safe API metadata, schema/key names, and value types are shown below; no statistic values are printed.');
+  console.log(JSON.stringify(safeCatalog(payload), null, 2));
 }
 
 main().catch((error) => {
