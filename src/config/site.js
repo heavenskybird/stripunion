@@ -9,11 +9,19 @@ export const SITE = {
   allowIndexing
 };
 
-export const STRIPCHAT_AFFILIATE_URL =
-  'https://go.whitetrafsa.com?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2';
+export const AVCAMS = {
+  name: 'AVCams',
+  url: 'https://avcams.online',
+  domain: 'avcams.online',
+  defaultPath: '/girls'
+};
 
+export const STRIPCASH_TRACKING_URL = 'https://go.whitetrafsa.com/';
+export const STRIPCASH_USER_ID =
+  '103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2';
 export const STRIPCASH_SOURCE_ID = 'stripunion';
+export const STRIPCASH_AFFILIATE_REFERRAL_URL = 'https://stripcash.com/sign-up/stripunion';
 
 export const AFFILIATE_REL = 'sponsored nofollow noopener noreferrer';
 
-export const updatedLabel = 'September 2026';
+export const updatedLabel = 'October 2026';
