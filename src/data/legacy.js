@@ -39,7 +39,6 @@ export const pendingReviews = {
   'hentai-haven': ['Hentai Haven', 'Hentai / Anime', 'hentai-anime'],
   pornhub: ['Pornhub', 'Free Videos', 'free-videos'],
   xvideos: ['XVideos', 'Free Videos', 'free-videos'],
-  xhamster: ['xHamster', 'Free Videos', 'free-videos'],
   brazzers: ['Brazzers', 'Premium Videos', 'premium-videos'],
   'naughty-america': ['Naughty America', 'Premium Videos', 'premium-videos'],
   'reality-kings': ['Reality Kings', 'Premium Videos', 'premium-videos'],
