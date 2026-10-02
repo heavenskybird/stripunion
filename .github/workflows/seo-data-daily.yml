@@ -9,6 +9,8 @@ on:
       - ops/seo-data-layer/src/lib/**
       - ops/seo-data-layer/src/reports/**
       - ops/seo-data-layer/package.json
+      - ops/growth/opportunities.mjs
+      - ops/growth/offers/**
       - src/layouts/BaseLayout.astro
   schedule:
     - cron: '20 1 * * *'
