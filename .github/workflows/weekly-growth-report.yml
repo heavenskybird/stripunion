@@ -2,14 +2,6 @@ name: Weekly growth report
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - .github/workflows/weekly-growth-report.yml
-      - ops/seo-data-layer/src/reports/**
-      - ops/seo-data-layer/src/lib/**
-      - ops/seo-data-layer/data/raw/**
-  schedule:
-    - cron: '45 1 * * 1'
 
 permissions:
   contents: write
@@ -50,7 +42,11 @@ jobs:
           git commit -m "report: weekly growth snapshot [skip ci]"
           for attempt in 1 2 3; do
             git fetch origin main
-            git rebase origin/main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              if [ "$attempt" -lt 3 ]; then sleep "$attempt"; fi
+              continue
+            fi
             if git push origin HEAD:main; then
               exit 0
             fi
