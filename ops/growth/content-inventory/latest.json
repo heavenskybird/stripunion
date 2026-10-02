@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T14:34:23.892Z",
+  "generatedAt": "2026-10-02T14:53:05.440Z",
   "scope": "tracked Astro content only; this is not the WordPress draft inventory",
   "sources": {
-    "gsc": "2026-10-02T14:18:40.356Z",
-    "bing": "2026-10-02T14:18:44.704Z",
+    "gsc": "2026-10-02T14:34:44.552Z",
+    "bing": "2026-10-02T14:34:48.254Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -23,13 +23,13 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.33,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 472,
+        "wordCount": 454,
         "headings": 7,
         "links": 13,
         "queryImpressions": 98
@@ -54,7 +54,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 715,
+        "wordCount": 716,
         "headings": 10,
         "links": 9,
         "queryImpressions": 0
@@ -73,13 +73,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.41,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 338,
+        "wordCount": 332,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
@@ -98,13 +98,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.38,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 307,
+        "wordCount": 287,
         "headings": 3,
         "links": 5,
         "queryImpressions": 0
@@ -123,13 +123,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.44,
+        "overlapRisk": 0.46,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 240,
+        "wordCount": 232,
         "headings": 4,
         "links": 4,
         "queryImpressions": 0
@@ -154,7 +154,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 225,
+        "wordCount": 219,
         "headings": 3,
         "links": 4,
         "queryImpressions": 0
@@ -173,13 +173,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 735,
+        "wordCount": 725,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -198,13 +198,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.34,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 441,
+        "wordCount": 434,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -223,13 +223,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.41,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 287,
+        "wordCount": 283,
         "headings": 5,
         "links": 3,
         "queryImpressions": 0
@@ -248,13 +248,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 230,
+        "wordCount": 225,
         "headings": 4,
         "links": 2,
         "queryImpressions": 0
@@ -279,7 +279,7 @@
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 278,
+        "wordCount": 273,
         "headings": 4,
         "links": 6,
         "queryImpressions": 0
@@ -323,13 +323,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 604,
+        "wordCount": 602,
         "headings": 8,
         "links": 8,
         "queryImpressions": 0
@@ -340,7 +340,7 @@
     },
     {
       "route": "/avcams",
-      "title": "AVCams: Live Cam Discovery on Our Branded White-Label",
+      "title": "AVCams: Explore Live Cam Rooms",
       "cluster": "guides",
       "score": 49,
       "scorecard": {
@@ -348,13 +348,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.2,
+        "overlapRisk": 0.21,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 311,
+        "wordCount": 268,
         "headings": 5,
         "links": 6,
         "queryImpressions": 0
@@ -373,7 +373,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.12,
+        "overlapRisk": 0.13,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
@@ -398,13 +398,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.28,
+        "overlapRisk": 0.26,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 403,
+        "wordCount": 397,
         "headings": 6,
         "links": 3,
         "queryImpressions": 0
@@ -423,7 +423,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.27,
+        "overlapRisk": 0.28,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
@@ -475,13 +475,13 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.33,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 472,
+        "wordCount": 454,
         "headings": 7,
         "links": 13,
         "queryImpressions": 98
@@ -505,7 +505,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 715,
+        "wordCount": 716,
         "headings": 10,
         "links": 9,
         "queryImpressions": 0
@@ -523,13 +523,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.41,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 338,
+        "wordCount": 332,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
@@ -547,13 +547,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.38,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 307,
+        "wordCount": 287,
         "headings": 3,
         "links": 5,
         "queryImpressions": 0
@@ -571,13 +571,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.44,
+        "overlapRisk": 0.46,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 240,
+        "wordCount": 232,
         "headings": 4,
         "links": 4,
         "queryImpressions": 0
@@ -601,7 +601,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 225,
+        "wordCount": 219,
         "headings": 3,
         "links": 4,
         "queryImpressions": 0
@@ -619,13 +619,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 735,
+        "wordCount": 725,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -643,13 +643,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.34,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 441,
+        "wordCount": 434,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -667,13 +667,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.41,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 287,
+        "wordCount": 283,
         "headings": 5,
         "links": 3,
         "queryImpressions": 0
@@ -691,13 +691,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.4,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 230,
+        "wordCount": 225,
         "headings": 4,
         "links": 2,
         "queryImpressions": 0
@@ -721,7 +721,7 @@
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 278,
+        "wordCount": 273,
         "headings": 4,
         "links": 6,
         "queryImpressions": 0
@@ -763,13 +763,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 604,
+        "wordCount": 602,
         "headings": 8,
         "links": 8,
         "queryImpressions": 0
@@ -779,7 +779,7 @@
     },
     {
       "route": "/avcams",
-      "title": "AVCams: Live Cam Discovery on Our Branded White-Label",
+      "title": "AVCams: Explore Live Cam Rooms",
       "cluster": "guides",
       "score": 49,
       "scorecard": {
@@ -787,13 +787,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.2,
+        "overlapRisk": 0.21,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 311,
+        "wordCount": 268,
         "headings": 5,
         "links": 6,
         "queryImpressions": 0
@@ -811,7 +811,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.12,
+        "overlapRisk": 0.13,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
@@ -835,13 +835,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.28,
+        "overlapRisk": 0.26,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 403,
+        "wordCount": 397,
         "headings": 6,
         "links": 3,
         "queryImpressions": 0
@@ -859,7 +859,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.27,
+        "overlapRisk": 0.28,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
