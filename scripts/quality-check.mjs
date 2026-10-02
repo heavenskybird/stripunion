@@ -157,16 +157,31 @@ for (const file of userFacingPages) {
   }
 }
 
+const creatorPage = fs.readFileSync('src/pages/become-a-cam-model.astro', 'utf8');
+for (const required of ['Become a cam model on AVCams', 'destinationPath="/signup/model"', 'No guarantees']) {
+  if (!creatorPage.includes(required)) {
+    failed = true;
+    console.error(`FAIL: creator acquisition page is missing required content: ${required}`);
+  }
+}
+
 const sitemap = fs.readFileSync('src/pages/sitemap.xml.js', 'utf8');
-if (!sitemap.includes("'/avcams'")) {
-  failed = true;
-  console.error('FAIL: AVCams landing page is missing from the sitemap.');
+for (const route of ["'/avcams'", "'/become-a-cam-model'"]) {
+  if (!sitemap.includes(route)) {
+    failed = true;
+    console.error(`FAIL: required monetization route is missing from the sitemap: ${route}`);
+  }
 }
 
 const baseLayout = fs.readFileSync('src/layouts/BaseLayout.astro', 'utf8');
 if (!baseLayout.includes('<a href="/avcams">AVCams</a>')) {
   failed = true;
   console.error('FAIL: AVCams is not present in primary navigation.');
+}
+
+if (!baseLayout.includes('<a href="/become-a-cam-model">Become a Model</a>')) {
+  failed = true;
+  console.error('FAIL: creator funnel is not linked from the site chrome.');
 }
 
 for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path']) {
