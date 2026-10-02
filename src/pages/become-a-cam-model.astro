@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AffiliateButton from '../components/AffiliateButton.astro';
+
+const title = 'Become a Cam Model: Start Broadcasting on AVCams';
+const description = 'Interested in becoming a cam model? Review the basics, then continue to AVCams model registration when you are ready. Adults 18+ only.';
+
+const faq = [
+  ['Can I register as a viewer and a model through the same page?', 'Viewer access and model registration use separate paths. Use the model registration route if you want to broadcast.'],
+  ['Does registering guarantee income?', 'No. Earnings depend on many factors, and this page does not make income guarantees. Review the current registration terms before continuing.'],
+  ['Where do I start?', 'Use the model registration button below to open the current AVCams model signup flow.']
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/avcams">AVCams</a><span>/</span><span>Become a Model</span></nav>
+      <span class="kicker">Creator route · Adults 18+</span>
+      <h1>Become a cam model on AVCams</h1>
+      <p class="lead">If you are interested in broadcasting rather than watching, start with the dedicated model registration flow. Review the current requirements and terms before submitting your application.</p>
+      <div class="hero-actions">
+        <AffiliateButton source="become_model_hero" label="Start Model Registration →" destinationPath="/signup/model" />
+        <a class="button button-secondary" href="/avcams">Browse AVCams first</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="decision-grid">
+      <div><span>Route</span><strong>Model registration</strong><p>Use the dedicated creator signup rather than the viewer registration path.</p></div>
+      <div><span>Eligibility</span><strong>Adults 18+ only</strong><p>Review the current identity, age and account requirements shown during registration.</p></div>
+      <div><span>Earnings</span><strong>No guarantees</strong><p>Income varies. Treat any earnings claim that promises a fixed result with caution.</p></div>
+    </div>
+
+    <section class="article-body">
+      <section>
+        <h2>What to prepare before registration</h2>
+        <p>Use accurate personal information, make sure you can complete the current verification steps, and read the platform terms before you begin broadcasting. The registration flow itself is the source of truth for the latest requirements.</p>
+      </section>
+      <section>
+        <h2>Model registration is separate from viewer access</h2>
+        <p>If your goal is to broadcast, go directly to the model signup route. If your goal is only to watch live rooms, use the normal AVCams viewer experience instead.</p>
+      </section>
+      <section>
+        <h2>Do not plan around guaranteed earnings</h2>
+        <p>Creator earnings can vary with activity, audience, pricing and other factors. This page does not publish a fixed income forecast or promise a specific result.</p>
+      </section>
+    </section>
+
+    <section class="conversion-strip">
+      <div>
+        <span class="kicker">Creator signup</span>
+        <h2>Ready to start the registration process?</h2>
+        <p>Open the current AVCams model signup flow and review the requirements before submitting.</p>
+      </div>
+      <AffiliateButton source="become_model_mid" label="Become a Model →" destinationPath="/signup/model" />
+    </section>
+
+    <section class="faq">
+      <span class="kicker">FAQ</span>
+      <h2>Model registration questions</h2>
+      {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="end-cta">
+      <div>
+        <span class="kicker">Start here</span>
+        <h2>Open model registration</h2>
+        <p>Continue when you are ready to review the live signup requirements.</p>
+      </div>
+      <AffiliateButton source="become_model_bottom" label="Start Model Registration →" destinationPath="/signup/model" />
+    </section>
+  </section>
+</BaseLayout>
