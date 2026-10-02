@@ -126,7 +126,26 @@ for (const required of ['userId', 'campaignId', 'creativeId', 'sourceId', "'p1'"
   }
 }
 
+const avcamsPage = fs.readFileSync('src/pages/avcams.astro', 'utf8');
+for (const required of ['AVCams', 'branded StripCash white-label', 'destinationPath="/signup/model"']) {
+  if (!avcamsPage.includes(required)) {
+    failed = true;
+    console.error(`FAIL: first-class AVCams landing page is missing required content: ${required}`);
+  }
+}
+
+const sitemap = fs.readFileSync('src/pages/sitemap.xml.js', 'utf8');
+if (!sitemap.includes("'/avcams'")) {
+  failed = true;
+  console.error('FAIL: AVCams landing page is missing from the sitemap.');
+}
+
 const baseLayout = fs.readFileSync('src/layouts/BaseLayout.astro', 'utf8');
+if (!baseLayout.includes('<a href="/avcams">AVCams</a>')) {
+  failed = true;
+  console.error('FAIL: AVCams is not present in primary navigation.');
+}
+
 for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path']) {
   if (!baseLayout.includes(required)) {
     failed = true;
