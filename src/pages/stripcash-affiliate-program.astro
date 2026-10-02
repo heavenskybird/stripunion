@@ -1,0 +1,101 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StripCashReferralButton from '../components/StripCashReferralButton.astro';
+
+const title = 'StripCash Affiliate Program: Referral Guide for Adult Webmasters';
+const description = 'A practical guide to the StripCash affiliate-referral route for adult webmasters and affiliates, including who it fits, how the referral model works and what to verify before joining.';
+
+const faq = [
+  ['Who is this route for?', 'It is for adult webmasters, traffic owners and affiliates who want to use StripCash affiliate tools. It is separate from viewer access and model registration.'],
+  ['What is the referral share?', 'The referral route currently configured for StripUnion is 5% of referred affiliates’ earnings for life. Confirm the current terms shown by StripCash when you register because program terms can change.'],
+  ['Does joining guarantee earnings?', 'No. Traffic quality, conversion, offer fit and other factors determine results. This page does not promise a specific income level.']
+];
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map(([question, answer]) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: { '@type': 'Answer', text: answer }
+  }))
+};
+---
+<BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><span>StripCash Affiliate Program</span></nav>
+      <span class="kicker">Webmaster route · Adults 18+</span>
+      <h1>StripCash affiliate-referral guide</h1>
+      <p class="lead">If you run adult traffic, content or affiliate campaigns, this is the webmaster route. It is separate from AVCams viewer traffic and the AVCams model-registration funnel.</p>
+      <div class="hero-actions">
+        <StripCashReferralButton source="stripcash_referral_hero" />
+        <a class="button button-secondary" href="/avcams">Looking for viewer traffic instead?</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell narrow">
+    <div class="decision-grid">
+      <div><span>Audience</span><strong>Webmasters & affiliates</strong><p>Use this route if you own traffic or plan to promote adult offers.</p></div>
+      <div><span>Referral model</span><strong>5% lifetime share</strong><p>The current StripUnion referral configuration is 5% of referred affiliates’ earnings for life; verify current terms at signup.</p></div>
+      <div><span>Expectation</span><strong>No income guarantee</strong><p>Affiliate results depend on traffic quality, conversion and offer fit.</p></div>
+    </div>
+
+    <section class="article-body">
+      <section>
+        <h2>Who should use the affiliate route?</h2>
+        <p>This route is for webmasters, media buyers, publishers and affiliates who want to monetize adult traffic through StripCash tools. If you want to watch live rooms, use AVCams. If you want to broadcast as a model, use the separate creator registration route.</p>
+      </section>
+
+      <section>
+        <h2>How the referral model works</h2>
+        <p>The StripCash referral link configured for StripUnion currently carries a 5% lifetime share of referred affiliates’ earnings. That is a referral relationship between affiliates, not a promise that a new affiliate will earn a particular amount.</p>
+      </section>
+
+      <section>
+        <h2>What to verify before joining</h2>
+        <p>Review the current StripCash signup terms, payout rules, accepted traffic sources, compliance requirements and available promotion tools before committing traffic. Program rules can change, so the live registration flow is the final source of truth.</p>
+      </section>
+
+      <section>
+        <h2>Keep the three monetization routes separate</h2>
+        <p>StripUnion now treats viewer traffic, creator/model referrals and affiliate/webmaster referrals as separate funnels. That makes attribution cleaner and prevents a visitor with one intent from being pushed into the wrong signup flow.</p>
+      </section>
+    </section>
+
+    <section class="conversion-strip">
+      <div>
+        <span class="kicker">Webmaster signup</span>
+        <h2>Ready to review the current StripCash affiliate terms?</h2>
+        <p>Open the official referral signup route and confirm the latest program details before you begin sending traffic.</p>
+      </div>
+      <StripCashReferralButton source="stripcash_referral_mid" label="Open StripCash Affiliate Signup →" />
+    </section>
+
+    <section class="faq">
+      <span class="kicker">FAQ</span>
+      <h2>StripCash affiliate-referral questions</h2>
+      {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
+    </section>
+
+    <section class="related-guides">
+      <span class="kicker">Other routes</span>
+      <h2>Not a webmaster?</h2>
+      <div class="money-grid">
+        <a class="money-card related-card" href="/avcams"><h3>Viewer route</h3><span class="text-link">Explore AVCams →</span></a>
+        <a class="money-card related-card" href="/become-a-cam-model"><h3>Creator route</h3><span class="text-link">Become a cam model →</span></a>
+        <a class="money-card related-card" href="/best-live-cam-sites"><h3>Research first</h3><span class="text-link">Compare live-cam models →</span></a>
+      </div>
+    </section>
+
+    <section class="end-cta">
+      <div>
+        <span class="kicker">Affiliate route</span>
+        <h2>Open the StripCash referral signup</h2>
+        <p>Confirm the current terms and decide whether the program fits your traffic strategy.</p>
+      </div>
+      <StripCashReferralButton source="stripcash_referral_bottom" />
+    </section>
+  </section>
+</BaseLayout>
