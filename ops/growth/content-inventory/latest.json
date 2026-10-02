@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-02T13:48:47.502Z",
+  "generatedAt": "2026-10-02T14:34:23.892Z",
   "scope": "tracked Astro content only; this is not the WordPress draft inventory",
   "sources": {
-    "gsc": "2026-10-02T07:04:38.764Z",
-    "bing": "2026-10-02T07:04:43.832Z",
+    "gsc": "2026-10-02T14:18:40.356Z",
+    "bing": "2026-10-02T14:18:44.704Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
     }
   },
-  "inventorySize": 17,
+  "inventorySize": 18,
   "wordpressDraftCount": null,
   "publishReadyDraftCount": null,
   "updateCandidates": [
@@ -17,19 +17,19 @@
       "route": "/index",
       "title": "Adult platform reviews without the guesswork.",
       "cluster": "platform reviews",
-      "score": 87,
+      "score": 83,
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 5,
-        "uniqueness": 4,
+        "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
-        "contentCompleteness": 3
+        "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 442,
+        "wordCount": 472,
         "headings": 7,
         "links": 13,
         "queryImpressions": 98
@@ -54,7 +54,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 714,
+        "wordCount": 715,
         "headings": 10,
         "links": 9,
         "queryImpressions": 0
@@ -62,31 +62,6 @@
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 2
-    },
-    {
-      "route": "/best-free-live-cam-sites",
-      "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
-      "cluster": "best cam sites",
-      "score": 63,
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.15,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 3
-      },
-      "signals": {
-        "wordCount": 226,
-        "headings": 4,
-        "links": 2,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 3
     },
     {
       "route": "/stripchat-pricing",
@@ -98,20 +73,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.39,
+        "overlapRisk": 0.41,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 333,
+        "wordCount": 338,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 4
+      "rank": 3
     },
     {
       "route": "/best-live-cam-sites",
@@ -123,20 +98,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.37,
+        "overlapRisk": 0.36,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 296,
+        "wordCount": 307,
         "headings": 3,
         "links": 5,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 5
+      "rank": 4
     },
     {
       "route": "/chaturbate-alternatives",
@@ -148,20 +123,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.42,
+        "overlapRisk": 0.44,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 234,
+        "wordCount": 240,
         "headings": 4,
         "links": 4,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 6
+      "rank": 5
     },
     {
       "route": "/stripchat-alternatives",
@@ -173,20 +148,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.4,
+        "overlapRisk": 0.44,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 232,
+        "wordCount": 225,
         "headings": 3,
         "links": 4,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 7
+      "rank": 6
     },
     {
       "route": "/stripchat-vs-chaturbate",
@@ -204,14 +179,14 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 728,
+        "wordCount": 735,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 8
+      "rank": 7
     },
     {
       "route": "/stripchat-private-shows",
@@ -223,20 +198,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.34,
+        "overlapRisk": 0.36,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 427,
+        "wordCount": 441,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 9
+      "rank": 8
     },
     {
       "route": "/stripchat-vs-livejasmin",
@@ -248,15 +223,40 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.39,
+        "overlapRisk": 0.41,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 281,
+        "wordCount": 287,
         "headings": 5,
         "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review",
+      "rank": 9
+    },
+    {
+      "route": "/best-free-live-cam-sites",
+      "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
+      "cluster": "best cam sites",
+      "score": 58,
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 3
+      },
+      "signals": {
+        "wordCount": 230,
+        "headings": 4,
+        "links": 2,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
@@ -279,7 +279,7 @@
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 273,
+        "wordCount": 278,
         "headings": 4,
         "links": 6,
         "queryImpressions": 0
@@ -323,13 +323,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 608,
+        "wordCount": 604,
         "headings": 8,
         "links": 8,
         "queryImpressions": 0
@@ -337,6 +337,31 @@
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 13
+    },
+    {
+      "route": "/avcams",
+      "title": "AVCams: Live Cam Discovery on Our Branded White-Label",
+      "cluster": "guides",
+      "score": 49,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.2,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 311,
+        "headings": 5,
+        "links": 6,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review",
+      "rank": 14
     },
     {
       "route": "/categories",
@@ -348,7 +373,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.13,
+        "overlapRisk": 0.12,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
@@ -361,7 +386,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 14
+      "rank": 15
     },
     {
       "route": "/stripchat-app",
@@ -373,20 +398,20 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.24,
+        "overlapRisk": 0.28,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 394,
+        "wordCount": 403,
         "headings": 6,
         "links": 3,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 15
+      "rank": 16
     },
     {
       "route": "/live-cams",
@@ -411,7 +436,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 16
+      "rank": 17
     },
     {
       "route": "/blog",
@@ -436,7 +461,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 17
+      "rank": 18
     }
   ],
   "pages": [
@@ -444,19 +469,19 @@
       "route": "/index",
       "title": "Adult platform reviews without the guesswork.",
       "cluster": "platform reviews",
-      "score": 87,
+      "score": 83,
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 5,
-        "uniqueness": 4,
+        "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
-        "contentCompleteness": 3
+        "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 442,
+        "wordCount": 472,
         "headings": 7,
         "links": 13,
         "queryImpressions": 98
@@ -480,37 +505,13 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 714,
+        "wordCount": 715,
         "headings": 10,
         "links": 9,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
-    },
-    {
-      "route": "/best-free-live-cam-sites",
-      "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
-      "cluster": "best cam sites",
-      "score": 63,
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.15,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 3
-      },
-      "signals": {
-        "wordCount": 226,
-        "headings": 4,
-        "links": 2,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
     },
     {
       "route": "/stripchat-pricing",
@@ -522,13 +523,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.39,
+        "overlapRisk": 0.41,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 333,
+        "wordCount": 338,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
@@ -546,13 +547,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.37,
+        "overlapRisk": 0.36,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 296,
+        "wordCount": 307,
         "headings": 3,
         "links": 5,
         "queryImpressions": 0
@@ -570,13 +571,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.42,
+        "overlapRisk": 0.44,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 234,
+        "wordCount": 240,
         "headings": 4,
         "links": 4,
         "queryImpressions": 0
@@ -594,13 +595,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.4,
+        "overlapRisk": 0.44,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 232,
+        "wordCount": 225,
         "headings": 3,
         "links": 4,
         "queryImpressions": 0
@@ -624,7 +625,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 728,
+        "wordCount": 735,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -642,13 +643,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.34,
+        "overlapRisk": 0.36,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 427,
+        "wordCount": 441,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -666,15 +667,39 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.39,
+        "overlapRisk": 0.41,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 281,
+        "wordCount": 287,
         "headings": 5,
         "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/best-free-live-cam-sites",
+      "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
+      "cluster": "best cam sites",
+      "score": 58,
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 3
+      },
+      "signals": {
+        "wordCount": 230,
+        "headings": 4,
+        "links": 2,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
@@ -696,7 +721,7 @@
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 273,
+        "wordCount": 278,
         "headings": 4,
         "links": 6,
         "queryImpressions": 0
@@ -738,19 +763,43 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 608,
+        "wordCount": 604,
         "headings": 8,
         "links": 8,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
+    },
+    {
+      "route": "/avcams",
+      "title": "AVCams: Live Cam Discovery on Our Branded White-Label",
+      "cluster": "guides",
+      "score": 49,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.2,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 311,
+        "headings": 5,
+        "links": 6,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review"
     },
     {
       "route": "/categories",
@@ -762,7 +811,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.13,
+        "overlapRisk": 0.12,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
@@ -786,13 +835,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.24,
+        "overlapRisk": 0.28,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 394,
+        "wordCount": 403,
         "headings": 6,
         "links": 3,
         "queryImpressions": 0
