@@ -1,16 +1,18 @@
 {
-  "generatedAt": "2026-10-02T14:12:45.939Z",
+  "generatedAt": "2026-10-02T14:18:18.479Z",
   "sourceDates": {
     "gsc": "2026-09-30",
     "ga4": "2026-10-01",
     "bing": "2026-10-01",
-    "buffer": "2026-10-01"
+    "buffer": "2026-10-01",
+    "stripcash": null
   },
   "sources": {
     "gsc": true,
     "ga4": true,
     "bing": true,
-    "buffer": true
+    "buffer": true,
+    "stripcash": false
   },
   "ga4Admin": {
     "date": "2026-10-02",
@@ -1861,6 +1863,7 @@
       }
     ]
   },
+  "stripcash": null,
   "trafficControlPlane": {
     "acquisitionSessions": {
       "organic": 0,
@@ -1901,6 +1904,7 @@
         "key": "(not set)",
         "value": 1
       }
-    ]
+    ],
+    "stripcash": null
   }
 }
