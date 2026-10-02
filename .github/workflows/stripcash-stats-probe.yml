@@ -2,6 +2,11 @@ name: StripCash statistics schema probe
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs'
+      - '.github/workflows/stripcash-stats-probe.yml'
 
 permissions:
   contents: read
