@@ -1,6 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { reviews } from '../../src/data/reviews.js';
+import { vrReviews } from '../../src/data/reviews-vr.js';
+import { pendingReviews } from '../../src/data/legacy.js';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.resolve(root, '../..');
@@ -49,9 +52,13 @@ const approvedBrands = new Set(
 
 const pageFiles = (await fs.readdir(path.join(repo, 'src/pages')))
   .filter((file) => file.endsWith('.astro') && !['404.astro', 'robots.txt.js', 'sitemap.xml.js'].includes(file));
-const existing = new Set(pageFiles.map((file) => file.replace(/\.astro$/, '').toLowerCase()));
+const staticRoutes = new Set(pageFiles.map((file) => file.replace(/\.astro$/, '').toLowerCase()));
+const reviewSlugs = new Set(Object.values({ ...reviews, ...vrReviews }).map((review) => review.slug.toLowerCase()));
+const pendingSlugs = new Set(Object.keys(pendingReviews).map((slug) => slug.toLowerCase()));
 
 const candidates = [];
+let droppedNoiseQueries = 0;
+
 const competitorChanges = (diff?.data?.competitors || [])
   .filter((row) => (row.newUrls || []).length)
   .map((row) => ({
@@ -64,20 +71,130 @@ const competitorChanges = (diff?.data?.competitors || [])
 const creatorIntentPattern = /\b(cam|webcam)\s*(model|performer)|become\s+(a\s+)?(cam|webcam)?\s*model|model\s+signup|start\s+camming|camming\s+(job|work)|cam\s+model\s+earnings/i;
 const affiliateIntentPattern = /stripcash\s+affiliate|cam\s+affiliate|webcam\s+affiliate|adult\s+affiliate\s+program|webmaster\s+affiliate/i;
 const commercialIntentPattern = /best|review|vs|versus|price|pricing|token|alternative|compare|signup|register|earnings|affiliate/i;
+const syntheticPromptPattern = /\bcontext\s*:|\bquestion\s*:|do not include|not for language|location\s*:/i;
+
+function normalizeQuery(value) {
+  return String(value || '')
+    .replace(/#[rn]#/gi, ' ')
+    .replace(/\+/g, ' ')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 function matchesApprovedBrand(query) {
   const lower = String(query || '').toLowerCase();
   return [...approvedBrands].some((brand) => brand && lower.includes(brand));
 }
 
-function existingPageFor(page) {
-  return existing.has(String(page || '').split('/').filter(Boolean).at(-1)?.toLowerCase());
+function routeExists(route) {
+  const slug = String(route || '').split('/').filter(Boolean).at(-1)?.toLowerCase();
+  return Boolean(slug && (staticRoutes.has(slug) || reviewSlugs.has(slug)));
 }
 
-function classifyRecommendation({ query, page, commercialIntent, approvedBrand, creatorIntent, affiliateIntent }) {
-  if (existingPageFor(page)) return 'refresh existing landing page using current search evidence';
-  if (creatorIntent) return 'refresh the existing /become-a-cam-model creator funnel and route to the approved AVCams model signup';
-  if (affiliateIntent) return 'refresh the existing /stripcash-affiliate-program webmaster funnel using the approved StripCash referral route';
+function topicFor(rawQuery) {
+  const query = normalizeQuery(rawQuery);
+
+  if (
+    /\bxhamster\b|\bxhampster\b|\bxhamter\b|\bxhasters\b|\bxhamsters\b|\bhamster com x\b/.test(query)
+  ) {
+    return {
+      key: 'xhamster-review',
+      label: 'xHamster review / site overview',
+      page: '/xhamster',
+      state: reviewSlugs.has('xhamster') ? 'review' : 'pending'
+    };
+  }
+
+  if (/\bf95\s*zone\b|\bf95zone\b/.test(query)) {
+    return {
+      key: 'f95zone-review',
+      label: 'F95Zone review',
+      page: '/f95zone',
+      state: reviewSlugs.has('f95zone') ? 'review' : 'pending'
+    };
+  }
+
+  if (/\bstripchat\b/.test(query) && /alternative/.test(query)) {
+    return {
+      key: 'stripchat-alternatives',
+      label: 'Stripchat alternatives',
+      page: '/stripchat-alternatives',
+      state: routeExists('/stripchat-alternatives') ? 'page' : 'new'
+    };
+  }
+
+  if (/\bstripchat\b/.test(query) && /price|pricing|token|cost/.test(query)) {
+    return {
+      key: 'stripchat-pricing',
+      label: 'Stripchat pricing / tokens',
+      page: '/stripchat-pricing',
+      state: routeExists('/stripchat-pricing') ? 'page' : 'new'
+    };
+  }
+
+  if (/\bstripchat\b/.test(query) && /mobile|app|phone/.test(query)) {
+    return {
+      key: 'stripchat-mobile',
+      label: 'Stripchat mobile experience',
+      page: '/stripchat-app',
+      state: routeExists('/stripchat-app') ? 'page' : 'new'
+    };
+  }
+
+  if (/\bstripcash\b/.test(query) && /affiliate|webmaster/.test(query)) {
+    return {
+      key: 'stripcash-affiliate',
+      label: 'StripCash affiliate program',
+      page: '/stripcash-affiliate-program',
+      state: routeExists('/stripcash-affiliate-program') ? 'page' : 'new'
+    };
+  }
+
+  if (creatorIntentPattern.test(query)) {
+    return {
+      key: 'cam-model-signup',
+      label: 'Become a cam model',
+      page: '/become-a-cam-model',
+      state: routeExists('/become-a-cam-model') ? 'page' : 'new'
+    };
+  }
+
+  for (const review of Object.values({ ...reviews, ...vrReviews })) {
+    const slug = normalizeQuery(review.slug);
+    const name = normalizeQuery(review.name);
+    if ((slug && query.includes(slug)) || (name && query.includes(name))) {
+      return {
+        key: `${review.slug}-review`,
+        label: `${review.name} review`,
+        page: `/${review.slug}`,
+        state: 'review'
+      };
+    }
+  }
+
+  return {
+    key: query,
+    label: String(rawQuery || '').trim(),
+    page: null,
+    state: 'new'
+  };
+}
+
+function classifyRecommendation({ topic, commercialIntent, approvedBrand, creatorIntent, affiliateIntent }) {
+  if (topic.state === 'review' || topic.state === 'page') {
+    return `refresh existing ${topic.page} landing page using clustered search evidence`;
+  }
+  if (topic.state === 'pending') {
+    return `migrate pending ${topic.page} review into a substantive indexable page before adding any commercial CTA`;
+  }
+  if (creatorIntent) {
+    return 'refresh the existing /become-a-cam-model creator funnel and route to the approved AVCams model signup';
+  }
+  if (affiliateIntent) {
+    return 'refresh the existing /stripcash-affiliate-program webmaster funnel using the approved StripCash referral route';
+  }
   if (approvedBrand) return 'evaluate an AVCams-conversion guide against the current content inventory';
   if (commercialIntent) return 'validate audience fit and an official monetization relationship before adding a commercial CTA';
   return 'evaluate a new on-site guide against the content inventory';
@@ -85,11 +202,19 @@ function classifyRecommendation({ query, page, commercialIntent, approvedBrand, 
 
 function addQuery({ sourceName, date, query, impressions, clicks, position, page }) {
   if (!query || impressions < 1) return;
+  if (syntheticPromptPattern.test(query)) {
+    droppedNoiseQueries += 1;
+    return;
+  }
 
-  const creatorIntent = creatorIntentPattern.test(query);
-  const affiliateIntent = affiliateIntentPattern.test(query);
-  const commercialIntent = commercialIntentPattern.test(query) || creatorIntent || affiliateIntent;
-  const approvedBrand = matchesApprovedBrand(query);
+  const normalized = normalizeQuery(query);
+  if (!normalized) return;
+
+  const topic = topicFor(query);
+  const creatorIntent = creatorIntentPattern.test(normalized);
+  const affiliateIntent = affiliateIntentPattern.test(normalized);
+  const commercialIntent = commercialIntentPattern.test(normalized) || creatorIntent || affiliateIntent;
+  const approvedBrand = matchesApprovedBrand(normalized);
   const monetizableIntent = creatorIntent || affiliateIntent || approvedBrand;
 
   const competitorEvidence = competitorChanges.map(({ urls, ...change }) => ({
@@ -97,6 +222,9 @@ function addQuery({ sourceName, date, query, impressions, clicks, position, page
     ...change,
     topicMatch: 'not established; treat as landscape context only'
   }));
+
+  const existingEditorial = topic.state === 'review' || topic.state === 'page';
+  const pendingEditorial = topic.state === 'pending';
 
   const score = Math.min(
     100,
@@ -106,17 +234,19 @@ function addQuery({ sourceName, date, query, impressions, clicks, position, page
       (commercialIntent ? 20 : 0) +
       (monetizableIntent ? 12 : 0) +
       (creatorIntent ? 8 : 0) +
+      (existingEditorial ? 8 : 0) +
+      (pendingEditorial ? 4 : 0) +
       (competitorEvidence.length ? 5 : 0)
     )
   );
 
   candidates.push({
-    id: `${sourceName.toLowerCase()}-${Buffer.from(query).toString('hex').slice(0, 16)}`,
+    id: `${sourceName.toLowerCase()}-${Buffer.from(topic.key).toString('hex').slice(0, 20)}`,
+    topicKey: topic.key,
     sourceEvidence: [{ source: sourceName, date, query, impressions, clicks, position }],
-    targetKeyword: query,
+    targetKeyword: topic.label,
     recommendedAction: classifyRecommendation({
-      query,
-      page,
+      topic,
       commercialIntent,
       approvedBrand,
       creatorIntent,
@@ -138,10 +268,25 @@ function addQuery({ sourceName, date, query, impressions, clicks, position, page
           ? 'avcams-viewer'
           : null,
     competitorEvidence,
-    ourEvidence: { page: page || null, impressions, clicks, position },
+    ourEvidence: {
+      page: topic.page || page || null,
+      contentState: topic.state,
+      impressions,
+      clicks,
+      bestPosition: position,
+      queryVariants: 1
+    },
     expectedImpact: 'Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.',
     confidence: impressions >= 20 ? 'medium' : 'low',
-    risk: commercialIntent && !monetizableIntent ? 'high' : commercialIntent ? 'medium' : 'low',
+    risk: existingEditorial
+      ? 'low'
+      : pendingEditorial
+        ? 'medium'
+        : commercialIntent && !monetizableIntent
+          ? 'high'
+          : commercialIntent
+            ? 'medium'
+            : 'low',
     experimentWindow: '14 days',
     score
   });
@@ -174,22 +319,31 @@ for (const site of bing?.data?.sites || []) {
 
 const grouped = new Map();
 for (const candidate of candidates) {
-  const key = candidate.targetKeyword.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const key = candidate.topicKey || normalizeQuery(candidate.targetKeyword);
   const old = grouped.get(key);
   if (!old) {
     grouped.set(key, candidate);
-  } else {
-    old.sourceEvidence.push(...candidate.sourceEvidence);
-    old.score = Math.min(100, Math.max(old.score, candidate.score) + 4);
-    old.ourEvidence.impressions += candidate.ourEvidence.impressions;
-    old.ourEvidence.clicks += candidate.ourEvidence.clicks;
+    continue;
   }
+
+  old.sourceEvidence.push(...candidate.sourceEvidence);
+  old.ourEvidence.impressions += candidate.ourEvidence.impressions;
+  old.ourEvidence.clicks += candidate.ourEvidence.clicks;
+  old.ourEvidence.queryVariants += 1;
+  old.ourEvidence.bestPosition = Math.min(old.ourEvidence.bestPosition, candidate.ourEvidence.bestPosition);
+  old.score = Math.min(
+    100,
+    Math.max(old.score, candidate.score) +
+      Math.min(12, Math.round(Math.log2(old.ourEvidence.impressions + 1) * 2)) +
+      Math.min(8, old.ourEvidence.queryVariants)
+  );
+  if (candidate.confidence === 'medium') old.confidence = 'medium';
 }
 
 const opportunities = [...grouped.values()]
   .sort((a, b) => b.score - a.score)
   .slice(0, 30)
-  .map(({ score, ...item }, index) => ({ ...item, rank: index + 1 }));
+  .map(({ score, topicKey, ...item }, index) => ({ ...item, rank: index + 1 }));
 
 const stripcashMetrics = stripcash?.data?.metrics || {};
 const monetization = stripcash
@@ -229,6 +383,11 @@ const result = {
     }
   },
   monetization,
+  queryHygiene: {
+    droppedSyntheticPromptQueries: droppedNoiseQueries,
+    canonicalClusteringEnabled: true,
+    purpose: 'Prevent malformed query variants and synthetic prompt text from crowding the ranked growth queue.'
+  },
   opportunities,
   guardrails: {
     highRiskActionsAutoImplemented: false,
@@ -246,6 +405,8 @@ const lines = [
   '',
   `Sources: GSC ${result.sources.gsc || 'missing'} · Bing ${result.sources.bing || 'missing'} · StripCash ${result.sources.stripcash || 'missing'} · competitor snapshot ${result.sources.competitorSnapshot || 'missing'} · diff ${result.sources.competitorDiff || 'missing'}.`,
   '',
+  `Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: ${droppedNoiseQueries}.`,
+  '',
   'WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.',
   '',
   monetization.connected
@@ -258,7 +419,7 @@ const lines = [
 
 for (const opportunity of opportunities) {
   lines.push(
-    `${opportunity.rank}. **${opportunity.targetKeyword}** — ${opportunity.recommendedAction}; ${opportunity.sourceEvidence[0].impressions} impressions, ${opportunity.sourceEvidence[0].clicks} clicks, position ${opportunity.sourceEvidence[0].position}; intent ${opportunity.commercialIntent}; route ${opportunity.monetizationRoute || 'none'}; confidence ${opportunity.confidence}; risk ${opportunity.risk}.`
+    `${opportunity.rank}. **${opportunity.targetKeyword}** — ${opportunity.recommendedAction}; ${opportunity.ourEvidence.impressions} clustered impressions, ${opportunity.ourEvidence.clicks} clicks, best position ${opportunity.ourEvidence.bestPosition}, ${opportunity.ourEvidence.queryVariants} query variant(s); intent ${opportunity.commercialIntent}; route ${opportunity.monetizationRoute || 'none'}; confidence ${opportunity.confidence}; risk ${opportunity.risk}.`
   );
 }
 
@@ -267,4 +428,4 @@ if (!opportunities.length) {
 }
 
 await fs.writeFile(path.join(outDir, 'latest.md'), lines.join('\n') + '\n');
-console.log(`Opportunity report generated: ${opportunities.length} evidence-backed candidates; StripCash aggregate connected=${monetization.connected}.`);
+console.log(`Opportunity report generated: ${opportunities.length} clustered candidates; dropped noise=${droppedNoiseQueries}; StripCash aggregate connected=${monetization.connected}.`);
