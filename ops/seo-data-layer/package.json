@@ -13,11 +13,11 @@
     "collect:bing": "node src/collectors/bing.mjs",
     "collect:buffer": "node src/collectors/buffer.mjs",
     "collect:site": "node src/collectors/site.mjs",
-    "report:weekly": "node src/reports/weekly.mjs"
+    "report:weekly": "node src/reports/weekly.mjs",
+    "collect:stripcash": "node src/collectors/stripcash.mjs"
   },
   "dependencies": {
     "@google-analytics/data": "^5.2.0",
     "googleapis": "^160.0.0"
   }
 }
-
