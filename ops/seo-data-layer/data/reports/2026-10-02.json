@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T07:04:56.004Z",
+  "generatedAt": "2026-10-02T13:49:31.194Z",
   "sourceDates": {
     "gsc": "2026-09-30",
     "ga4": "2026-10-01",
@@ -1599,7 +1599,7 @@
   },
   "ga4": {
     "sessions": 12,
-    "engagedSessions": 6,
+    "engagedSessions": 7,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
@@ -1610,7 +1610,7 @@
       },
       "blog": {
         "sessions": 11,
-        "engagedSessions": 6,
+        "engagedSessions": 7,
         "affiliateClick": 0,
         "revenue": 0
       },
@@ -1629,25 +1629,21 @@
         "affiliateClick": 0
       }
     ],
-    "engagementRate": 0.5,
+    "engagementRate": 0.5833333333333334,
     "acquisitionSources": [
       {
         "key": "(direct) / (none)",
-        "value": 10
+        "value": 11
       },
       {
         "key": "hpanel.hostinger.com / referral",
-        "value": 1
-      },
-      {
-        "key": "(not set)",
         "value": 1
       }
     ],
     "landingPages": [
       {
         "key": "/",
-        "value": 10
+        "value": 9
       },
       {
         "key": "/best-hookup-sites/",
@@ -1655,6 +1651,10 @@
       },
       {
         "key": "/latest/",
+        "value": 1
+      },
+      {
+        "key": "(not set)",
         "value": 1
       }
     ],
@@ -1668,11 +1668,11 @@
       },
       {
         "key": "user_engagement",
-        "value": 11
+        "value": 13
       },
       {
         "key": "session_start",
-        "value": 11
+        "value": 12
       },
       {
         "key": "first_visit",
@@ -1870,7 +1870,7 @@
       "total": 12,
       "unclassified": 11
     },
-    "qualifiedSessions": 6,
+    "qualifiedSessions": 7,
     "outboundAffiliateCtr": 0,
     "organicImpressions": 9,
     "organicClicks": 0,
@@ -1887,7 +1887,7 @@
     "topAcquisitionLandingPages": [
       {
         "key": "/",
-        "value": 10
+        "value": 9
       },
       {
         "key": "/best-hookup-sites/",
@@ -1895,6 +1895,10 @@
       },
       {
         "key": "/latest/",
+        "value": 1
+      },
+      {
+        "key": "(not set)",
         "value": 1
       }
     ]
