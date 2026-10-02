@@ -1,0 +1,25 @@
+---
+import {
+  AFFILIATE_REL,
+  STRIPCASH_AFFILIATE_REFERRAL_URL
+} from '../config/site.js';
+
+const {
+  source,
+  label = 'Join StripCash as an Affiliate →',
+  className = ''
+} = Astro.props;
+---
+<span class="affiliate-cta">
+  <a
+    class:list={['button', 'button-primary', className]}
+    href={STRIPCASH_AFFILIATE_REFERRAL_URL}
+    target="_blank"
+    rel={AFFILIATE_REL}
+    data-affiliate-partner="stripcash_referral"
+    data-affiliate-source={source}
+    data-affiliate-mode="direct-referral"
+  >
+    {label}
+  </a>
+</span>
