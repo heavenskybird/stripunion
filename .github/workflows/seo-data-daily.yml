@@ -184,13 +184,11 @@ jobs:
           fi
           echo "Blog GA4 analytics acceptance: ${BLOG_ANALYTICS_STATUS:-UNKNOWN} (accepted: ${BLOG_ANALYTICS_ACCEPTED:-false})"
           echo "failed=$failed" >> "$GITHUB_OUTPUT"
-      - name: Dispatch downstream growth intelligence
+      - name: Dispatch traffic and opportunity intelligence
         if: always() && steps.persist.outcome == 'success'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          gh workflow run traffic-competitor-daily.yml --ref main
-          gh workflow run weekly-growth-report.yml --ref main
+        run: gh workflow run traffic-competitor-daily.yml --ref main
       - name: Mark missing source snapshots as failure
         if: always() && steps.summarize.outputs.failed == '1'
         run: exit 1
