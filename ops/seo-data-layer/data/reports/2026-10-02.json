@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-02T14:18:18.479Z",
+  "generatedAt": "2026-10-02T14:19:02.705Z",
   "sourceDates": {
     "gsc": "2026-09-30",
     "ga4": "2026-10-01",
     "bing": "2026-10-01",
     "buffer": "2026-10-01",
-    "stripcash": null
+    "stripcash": "2026-10-01"
   },
   "sources": {
     "gsc": true,
     "ga4": true,
     "bing": true,
     "buffer": true,
-    "stripcash": false
+    "stripcash": true
   },
   "ga4Admin": {
     "date": "2026-10-02",
@@ -168,7 +168,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -178,7 +178,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -1863,7 +1863,40 @@
       }
     ]
   },
-  "stripcash": null,
+  "stripcash": {
+    "reportScope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
+    "reportStatus": "success",
+    "metrics": {
+      "signup": 0,
+      "verifiedSignup": 0,
+      "verifiedSignupRate": 0,
+      "newCustomersCount": 0,
+      "firstPurchasesRate": 0,
+      "purchasesCount": 0,
+      "purchasesSumAmount": 0,
+      "purchaseEarnings": 0,
+      "rebillsRate": 0,
+      "uniqueSpenders": 0,
+      "newUniqueSpenders": 0,
+      "returningUniqueSpenders": 0,
+      "uniqueRevenueGenerators": 0,
+      "subscriptionCount": 0,
+      "subscriptionFirstCount": 0,
+      "subscriptionRebillsCount": 0,
+      "subscriptionSumAmount": 0,
+      "subscriptionFirstSumAmount": 0,
+      "subscriptionRebillsSumAmount": 0,
+      "subscriptionEarnings": 0,
+      "refundsCount": 0,
+      "refundsSumAmount": 0,
+      "refundDeductions": 0,
+      "modelsReferralEarnings": 0,
+      "webmasterRegistration": 0,
+      "webmasterReferralEarnings": 0,
+      "schemeEarnings": 0,
+      "totalEarnings": 0
+    }
+  },
   "trafficControlPlane": {
     "acquisitionSessions": {
       "organic": 0,
@@ -1905,6 +1938,16 @@
         "value": 1
       }
     ],
-    "stripcash": null
+    "stripcash": {
+      "signups": 0,
+      "verifiedSignups": 0,
+      "newCustomers": 0,
+      "purchases": 0,
+      "purchaseEarnings": 0,
+      "totalEarnings": 0,
+      "modelReferralEarnings": 0,
+      "webmasterRegistrations": 0,
+      "webmasterReferralEarnings": 0
+    }
   }
 }
