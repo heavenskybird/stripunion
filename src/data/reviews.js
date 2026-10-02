@@ -127,8 +127,8 @@ export const reviews = {
     name: 'xHamster',
     category: 'Free Videos',
     categorySlug: 'free-videos',
-    title: 'xHamster Review 2026: Free Videos, Search & Social Features',
-    description: 'A practical xHamster review covering free video browsing, search and category discovery, account features, mobile use and key trade-offs.',
+    title: 'xHamster Review 2026: Site Overview, Features, Pros & Cons',
+    description: 'A practical xHamster review and site overview covering free video browsing, search, categories, mobile use, content quality trade-offs, features and pros and cons.';
     dek: 'xHamster is an established adult video-sharing platform built around free video browsing, search and categories, with optional account, social and premium features.',
     verdict: 'xHamster can fit users who mainly want a broad free-video browsing experience, while users looking for live interactive rooms may prefer a dedicated cam platform.',
     bestFor: 'Adults who prioritize free video browsing, categories and search over live interaction.',
