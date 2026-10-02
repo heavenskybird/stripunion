@@ -1,15 +1,19 @@
 {
-  "generatedAt": "2026-10-02T16:51:34.409Z",
-  "scope": "tracked Astro content only; this is not the WordPress draft inventory",
+  "generatedAt": "2026-10-02T16:55:01.812Z",
+  "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-02T16:49:33.705Z",
-    "bing": "2026-10-02T16:49:41.500Z",
+    "gsc": "2026-10-02T16:53:00.720Z",
+    "bing": "2026-10-02T16:53:05.507Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
     }
   },
-  "inventorySize": 20,
+  "inventorySize": 27,
+  "inventoryBreakdown": {
+    "astroPages": 19,
+    "dataDrivenReviews": 8
+  },
   "wordpressDraftCount": null,
   "publishReadyDraftCount": null,
   "updateCandidates": [
@@ -18,6 +22,7 @@
       "title": "Adult platform reviews without the guesswork.",
       "cluster": "platform reviews",
       "score": 83,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 5,
@@ -32,7 +37,7 @@
         "wordCount": 454,
         "headings": 7,
         "links": 13,
-        "queryImpressions": 98
+        "queryImpressions": 96
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -43,6 +48,7 @@
       "title": "How Stripchat Tokens Work (2026)",
       "cluster": "pricing/tokens",
       "score": 71,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -64,10 +70,37 @@
       "rank": 2
     },
     {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 65,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.27,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 3
+    },
+    {
       "route": "/stripchat-pricing",
       "title": "Stripchat Pricing & Tokens Guide (2026)",
       "cluster": "pricing/tokens",
       "score": 63,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -85,14 +118,41 @@
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 3
+      "qualityGate": "review-ready",
+      "rank": 4
+    },
+    {
+      "route": "/xhamster",
+      "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
+      "cluster": "features",
+      "score": 62,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.26,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 485,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 5
     },
     {
       "route": "/best-live-cam-sites",
       "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
       "cluster": "best cam sites",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -111,13 +171,14 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 4
+      "rank": 6
     },
     {
       "route": "/chaturbate-alternatives",
       "title": "Chaturbate Alternatives in 2026: Compare Public-Room and Premium Options",
       "cluster": "guides",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -136,13 +197,14 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 5
+      "rank": 7
     },
     {
       "route": "/stripchat-alternatives",
       "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
       "cluster": "guides",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -161,13 +223,40 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 6
+      "rank": 8
+    },
+    {
+      "route": "/stripchat-private-shows",
+      "title": "Stripchat Private Shows: Cost Model, Tokens & What to Check in 2026",
+      "cluster": "pricing/tokens",
+      "score": 60,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.34,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 434,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 9
     },
     {
       "route": "/stripchat-vs-chaturbate",
       "title": "Stripchat vs Chaturbate: Tokens & Access",
       "cluster": "platform-vs-platform",
       "score": 60,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -186,38 +275,14 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 7
-    },
-    {
-      "route": "/stripchat-private-shows",
-      "title": "Stripchat Private Shows: Cost Model, Tokens & What to Check in 2026",
-      "cluster": "pricing/tokens",
-      "score": 59,
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.34,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 434,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 8
+      "rank": 10
     },
     {
       "route": "/stripchat-vs-livejasmin",
       "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
       "cluster": "platform-vs-platform",
       "score": 59,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -236,13 +301,40 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "route": "/about",
+      "title": "StripUnion helps adults compare platforms before clicking out.",
+      "cluster": "guides",
+      "score": 58,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 5,
+        "freshnessSignal": 2,
+        "overlapRisk": 0,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 2
+      },
+      "signals": {
+        "wordCount": 150,
+        "headings": 3,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review",
+      "rank": 12
     },
     {
       "route": "/best-free-live-cam-sites",
       "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
       "cluster": "best cam sites",
       "score": 58,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -261,63 +353,144 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 10
+      "rank": 13
     },
     {
-      "route": "/[slug]",
-      "title": "{item.title}",
-      "cluster": "guides",
+      "route": "/f95zone",
+      "title": "F95Zone Review 2026: Adult Games, Visual Novels & Community",
+      "cluster": "platform reviews",
       "score": 57,
+      "contentSource": "review-data",
       "scorecard": {
-        "commercialIntent": 2,
+        "commercialIntent": 5,
         "keywordOpportunity": 0,
-        "uniqueness": 5,
+        "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 3
+        "overlapRisk": 0.32,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 273,
-        "headings": 4,
-        "links": 6,
+        "wordCount": 457,
+        "headings": 6,
+        "links": 3,
         "queryImpressions": 0
       },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 11
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 14
     },
     {
-      "route": "/about",
-      "title": "StripUnion helps adults compare platforms before clicking out.",
-      "cluster": "guides",
-      "score": 53,
+      "route": "/livejasmin",
+      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
+      "cluster": "creator/model referral",
+      "score": 55,
+      "contentSource": "review-data",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.11,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 2,
-        "contentCompleteness": 2
+        "overlapRisk": 0.28,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 150,
-        "headings": 3,
+        "wordCount": 292,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "needs editorial review",
+      "rank": 15
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 53,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
         "links": 0,
         "queryImpressions": 0
       },
-      "candidateType": "update existing Astro page",
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 16
+    },
+    {
+      "route": "/adultfriendfinder",
+      "title": "AdultFriendFinder Review: Membership, Features & Trade-Offs",
+      "cluster": "features",
+      "score": 52,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.21,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 3
+      },
+      "signals": {
+        "wordCount": 245,
+        "headings": 4,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
-      "rank": 12
+      "rank": 17
+    },
+    {
+      "route": "/sexlikereal",
+      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
+      "cluster": "mobile/device",
+      "score": 52,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.33,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 364,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 18
     },
     {
       "route": "/stripchat-magic-search",
       "title": "Stripchat Magic Search Guide (2026)",
       "cluster": "features",
       "score": 51,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -336,19 +509,72 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 13
+      "rank": 19
+    },
+    {
+      "route": "/chaturbate",
+      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
+      "cluster": "pricing/tokens",
+      "score": 51,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 352,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 20
+    },
+    {
+      "route": "/stripchat-app",
+      "title": "Stripchat App & Mobile Guide (2026)",
+      "cluster": "mobile/device",
+      "score": 50,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.26,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 397,
+        "headings": 6,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 21
     },
     {
       "route": "/avcams",
       "title": "AVCams: Explore Live Cam Rooms",
       "cluster": "guides",
       "score": 49,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.2,
+        "overlapRisk": 0.16,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -360,14 +586,15 @@
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 14
+      "qualityGate": "review-ready",
+      "rank": 22
     },
     {
       "route": "/categories",
       "title": "Choose the type of platform you want to compare.",
       "cluster": "guides",
       "score": 49,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -386,38 +613,14 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 15
-    },
-    {
-      "route": "/stripchat-app",
-      "title": "Stripchat App & Mobile Guide (2026)",
-      "cluster": "mobile/device",
-      "score": 49,
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.26,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 397,
-        "headings": 6,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 16
+      "rank": 23
     },
     {
       "route": "/live-cams",
       "title": "{category.title}",
       "cluster": "guides",
       "score": 48,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -436,13 +639,14 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 17
+      "rank": 24
     },
     {
       "route": "/become-a-cam-model",
       "title": "Become a Cam Model: Start Broadcasting on AVCams",
       "cluster": "creator/model referral",
-      "score": 45,
+      "score": 46,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -451,7 +655,7 @@
         "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
-        "contentCompleteness": 4
+        "contentCompleteness": 5
       },
       "signals": {
         "wordCount": 371,
@@ -461,13 +665,40 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 18
+      "rank": 25
+    },
+    {
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 43,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 491,
+        "headings": 8,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 26
     },
     {
       "route": "/blog",
       "title": "blog",
       "cluster": "guides",
       "score": 41,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -486,32 +717,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 19
-    },
-    {
-      "route": "/stripcash-affiliate-program",
-      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
-      "cluster": "guides",
-      "score": 40,
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.3,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 2,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 491,
-        "headings": 8,
-        "links": 5,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 20
+      "rank": 27
     }
   ],
   "pages": [
@@ -520,6 +726,7 @@
       "title": "Adult platform reviews without the guesswork.",
       "cluster": "platform reviews",
       "score": 83,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 5,
@@ -534,7 +741,7 @@
         "wordCount": 454,
         "headings": 7,
         "links": 13,
-        "queryImpressions": 98
+        "queryImpressions": 96
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -544,6 +751,7 @@
       "title": "How Stripchat Tokens Work (2026)",
       "cluster": "pricing/tokens",
       "score": 71,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -564,10 +772,36 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 65,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.27,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/stripchat-pricing",
       "title": "Stripchat Pricing & Tokens Guide (2026)",
       "cluster": "pricing/tokens",
       "score": 63,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -585,13 +819,39 @@
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/xhamster",
+      "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
+      "cluster": "features",
+      "score": 62,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.26,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 485,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/best-live-cam-sites",
       "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
       "cluster": "best cam sites",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -616,6 +876,7 @@
       "title": "Chaturbate Alternatives in 2026: Compare Public-Room and Premium Options",
       "cluster": "guides",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -640,6 +901,7 @@
       "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
       "cluster": "guides",
       "score": 61,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -660,10 +922,36 @@
       "qualityGate": "needs editorial review"
     },
     {
+      "route": "/stripchat-private-shows",
+      "title": "Stripchat Private Shows: Cost Model, Tokens & What to Check in 2026",
+      "cluster": "pricing/tokens",
+      "score": 60,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.34,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 434,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/stripchat-vs-chaturbate",
       "title": "Stripchat vs Chaturbate: Tokens & Access",
       "cluster": "platform-vs-platform",
       "score": 60,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -684,34 +972,11 @@
       "qualityGate": "review-ready"
     },
     {
-      "route": "/stripchat-private-shows",
-      "title": "Stripchat Private Shows: Cost Model, Tokens & What to Check in 2026",
-      "cluster": "pricing/tokens",
-      "score": 59,
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.34,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 434,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
       "route": "/stripchat-vs-livejasmin",
       "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
       "cluster": "platform-vs-platform",
       "score": 59,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -732,10 +997,36 @@
       "qualityGate": "needs editorial review"
     },
     {
+      "route": "/about",
+      "title": "StripUnion helps adults compare platforms before clicking out.",
+      "cluster": "guides",
+      "score": 58,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 5,
+        "freshnessSignal": 2,
+        "overlapRisk": 0,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 2
+      },
+      "signals": {
+        "wordCount": 150,
+        "headings": 3,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review"
+    },
+    {
       "route": "/best-free-live-cam-sites",
       "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
       "cluster": "best cam sites",
       "score": 58,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -756,58 +1047,136 @@
       "qualityGate": "needs editorial review"
     },
     {
-      "route": "/[slug]",
-      "title": "{item.title}",
-      "cluster": "guides",
+      "route": "/f95zone",
+      "title": "F95Zone Review 2026: Adult Games, Visual Novels & Community",
+      "cluster": "platform reviews",
       "score": 57,
+      "contentSource": "review-data",
       "scorecard": {
-        "commercialIntent": 2,
+        "commercialIntent": 5,
         "keywordOpportunity": 0,
-        "uniqueness": 5,
+        "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 3
+        "overlapRisk": 0.32,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 273,
-        "headings": 4,
-        "links": 6,
+        "wordCount": 457,
+        "headings": 6,
+        "links": 3,
         "queryImpressions": 0
       },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
     },
     {
-      "route": "/about",
-      "title": "StripUnion helps adults compare platforms before clicking out.",
-      "cluster": "guides",
-      "score": 53,
+      "route": "/livejasmin",
+      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
+      "cluster": "creator/model referral",
+      "score": 55,
+      "contentSource": "review-data",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.11,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 2,
-        "contentCompleteness": 2
+        "overlapRisk": 0.28,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 150,
-        "headings": 3,
+        "wordCount": 292,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 53,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
         "links": 0,
         "queryImpressions": 0
       },
-      "candidateType": "update existing Astro page",
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/adultfriendfinder",
+      "title": "AdultFriendFinder Review: Membership, Features & Trade-Offs",
+      "cluster": "features",
+      "score": 52,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.21,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 3
+      },
+      "signals": {
+        "wordCount": 245,
+        "headings": 4,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/sexlikereal",
+      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
+      "cluster": "mobile/device",
+      "score": 52,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.33,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 364,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/stripchat-magic-search",
       "title": "Stripchat Magic Search Guide (2026)",
       "cluster": "features",
       "score": 51,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -828,16 +1197,67 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/chaturbate",
+      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
+      "cluster": "pricing/tokens",
+      "score": 51,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 352,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/stripchat-app",
+      "title": "Stripchat App & Mobile Guide (2026)",
+      "cluster": "mobile/device",
+      "score": 50,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.26,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 397,
+        "headings": 6,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/avcams",
       "title": "AVCams: Explore Live Cam Rooms",
       "cluster": "guides",
       "score": 49,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.2,
+        "overlapRisk": 0.16,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -849,13 +1269,14 @@
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
+      "qualityGate": "review-ready"
     },
     {
       "route": "/categories",
       "title": "Choose the type of platform you want to compare.",
       "cluster": "guides",
       "score": 49,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
@@ -876,34 +1297,11 @@
       "qualityGate": "needs editorial review"
     },
     {
-      "route": "/stripchat-app",
-      "title": "Stripchat App & Mobile Guide (2026)",
-      "cluster": "mobile/device",
-      "score": 49,
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.26,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 397,
-        "headings": 6,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
       "route": "/live-cams",
       "title": "{category.title}",
       "cluster": "guides",
       "score": 48,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -927,7 +1325,8 @@
       "route": "/become-a-cam-model",
       "title": "Become a Cam Model: Start Broadcasting on AVCams",
       "cluster": "creator/model referral",
-      "score": 45,
+      "score": 46,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -936,7 +1335,7 @@
         "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
-        "contentCompleteness": 4
+        "contentCompleteness": 5
       },
       "signals": {
         "wordCount": 371,
@@ -948,10 +1347,36 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 43,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 491,
+        "headings": 8,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/blog",
       "title": "blog",
       "cluster": "guides",
       "score": 41,
+      "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
         "keywordOpportunity": 0,
@@ -970,30 +1395,6 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
-    },
-    {
-      "route": "/stripcash-affiliate-program",
-      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
-      "cluster": "guides",
-      "score": 40,
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.3,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 2,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 491,
-        "headings": 8,
-        "links": 5,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
     }
   ]
 }
