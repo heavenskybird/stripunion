@@ -33,7 +33,6 @@ export const pendingReviews = {
   czechvr: ['CzechVR', 'VR / AR', 'vr-ar'],
   nutaku: ['Nutaku', 'Adult Games', 'adult-games'],
   lewdgames: ['LewdGames', 'Adult Games', 'adult-games'],
-  f95zone: ['F95Zone', 'Adult Games', 'adult-games'],
   fakku: ['FAKKU', 'Hentai / Anime', 'hentai-anime'],
   nhentai: ['nHentai', 'Hentai / Anime', 'hentai-anime'],
   'hentai-haven': ['Hentai Haven', 'Hentai / Anime', 'hentai-anime'],
