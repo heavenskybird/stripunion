@@ -3,7 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 
 const title = 'AVCams: Explore Live Cam Rooms';
-const description = 'Explore AVCams live rooms, public browsing, token-based interactions and model signup options for adults 18+.';
+const description = 'Explore AVCams live rooms, search by interest, browse public rooms and use optional token-based interactions. Adults 18+.';
+
+const quickSearches = [
+  { label: 'Cosplay', query: 'cosplay', source: 'avcams_search_cosplay' },
+  { label: 'Gaming', query: 'gaming', source: 'avcams_search_gaming' },
+  { label: 'Natural look', query: 'natural%20look', source: 'avcams_search_natural' },
+  { label: 'Office style', query: 'office', source: 'avcams_search_office' }
+];
 ---
 <BaseLayout title={title} description={description} pageType="Article">
   <section class="page-hero">
@@ -25,6 +32,25 @@ const description = 'Explore AVCams live rooms, public browsing, token-based int
       <div><span>Paid layer</span><strong>Token-based interaction</strong><p>Selected tips, private sessions and interactive features can use tokens.</p></div>
       <div><span>Experience</span><strong>Browse first</strong><p>Explore live rooms before deciding whether you want to use optional paid features.</p></div>
     </div>
+
+    <section class="related-guides">
+      <span class="kicker">Find a room faster</span>
+      <h2>Start with an interest</h2>
+      <p>Jump straight into a live-room search, then choose from the models who are online now.</p>
+      <div class="money-grid">
+        {quickSearches.map((item) => (
+          <article class="money-card">
+            <h3>{item.label}</h3>
+            <p>See live rooms matching this interest.</p>
+            <AffiliateButton
+              source={item.source}
+              label={`Explore ${item.label} →`}
+              destinationPath={`/search/magic-search/${item.query}`}
+            />
+          </article>
+        ))}
+      </div>
+    </section>
 
     <section class="article-body">
       <section>
@@ -56,7 +82,7 @@ const description = 'Explore AVCams live rooms, public browsing, token-based int
       <h2>Useful StripUnion guides</h2>
       <div class="money-grid">
         <a class="money-card related-card" href="/best-live-cam-sites"><h3>Best Live Cam Sites</h3><span class="text-link">Compare platform models →</span></a>
-        <a class="money-card related-card" href="/stripchat"><h3>Stripchat Review</h3><span class="text-link">Understand the underlying platform model →</span></a>
+        <a class="money-card related-card" href="/stripchat"><h3>Stripchat Review</h3><span class="text-link">Compare the public-room experience →</span></a>
         <a class="money-card related-card" href="/stripchat-pricing"><h3>Pricing & Tokens</h3><span class="text-link">Understand token spending →</span></a>
         <a class="money-card related-card" href="/stripchat-magic-search"><h3>Magic Search</h3><span class="text-link">Understand live-room discovery →</span></a>
       </div>
