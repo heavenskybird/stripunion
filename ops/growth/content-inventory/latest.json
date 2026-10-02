@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-02T16:16:10.279Z",
+  "generatedAt": "2026-10-02T16:26:26.306Z",
   "scope": "tracked Astro content only; this is not the WordPress draft inventory",
   "sources": {
-    "gsc": "2026-10-02T16:14:06.286Z",
-    "bing": "2026-10-02T16:14:11.426Z",
+    "gsc": "2026-10-02T16:24:37.313Z",
+    "bing": "2026-10-02T16:24:42.720Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
     }
   },
-  "inventorySize": 19,
+  "inventorySize": 20,
   "wordpressDraftCount": null,
   "publishReadyDraftCount": null,
   "updateCandidates": [
@@ -487,6 +487,31 @@
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
       "rank": 19
+    },
+    {
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 40,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 491,
+        "headings": 8,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 20
     }
   ],
   "pages": [
@@ -945,6 +970,30 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 40,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 2,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 491,
+        "headings": 8,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
     }
   ]
 }
