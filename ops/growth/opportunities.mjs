@@ -76,8 +76,8 @@ function existingPageFor(page) {
 
 function classifyRecommendation({ query, page, commercialIntent, approvedBrand, creatorIntent, affiliateIntent }) {
   if (existingPageFor(page)) return 'refresh existing landing page using current search evidence';
-  if (creatorIntent) return 'evaluate a creator-acquisition guide that routes to the approved AVCams model signup';
-  if (affiliateIntent) return 'evaluate an affiliate/webmaster guide using the approved StripCash referral route';
+  if (creatorIntent) return 'refresh the existing /become-a-cam-model creator funnel and route to the approved AVCams model signup';
+  if (affiliateIntent) return 'refresh the existing /stripcash-affiliate-program webmaster funnel using the approved StripCash referral route';
   if (approvedBrand) return 'evaluate an AVCams-conversion guide against the current content inventory';
   if (commercialIntent) return 'validate audience fit and an official monetization relationship before adding a commercial CTA';
   return 'evaluate a new on-site guide against the content inventory';
