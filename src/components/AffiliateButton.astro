@@ -1,17 +1,19 @@
 ---
-import { AFFILIATE_REL, STRIPCASH_SOURCE_ID } from '../config/site.js';
-import { buildStripcashUrl } from '../lib/affiliate.js';
+import { AFFILIATE_REL, AVCAMS, STRIPCASH_SOURCE_ID } from '../config/site.js';
+import { buildAvcamsUrl } from '../lib/affiliate.js';
 
 const {
   source,
-  label = 'Try Stripchat →',
-  className = ''
+  label = 'Explore AVCams →',
+  className = '',
+  destinationPath = AVCAMS.defaultPath
 } = Astro.props;
 
-const tracking = buildStripcashUrl({
+const tracking = buildAvcamsUrl({
   pagePath: Astro.url.pathname,
   placement: source,
-  label
+  label,
+  destinationPath
 });
 ---
 <span class="affiliate-cta">
@@ -20,13 +22,15 @@ const tracking = buildStripcashUrl({
     href={tracking.url}
     target="_blank"
     rel={AFFILIATE_REL}
-    data-affiliate-partner="stripchat"
+    data-affiliate-partner="avcams"
     data-affiliate-source={source}
     data-stripcash-campaign-id={tracking.campaignId}
     data-stripcash-creative-id={tracking.creativeId}
     data-stripcash-source-id={STRIPCASH_SOURCE_ID}
     data-stripcash-p1={tracking.pageKey}
     data-stripcash-p2={tracking.placement}
+    data-avcams-target-domain={tracking.targetDomain}
+    data-avcams-path={tracking.destinationPath}
   >
     {label}
   </a>
