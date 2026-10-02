@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T14:19:02.705Z",
+  "generatedAt": "2026-10-02T14:35:11.252Z",
   "sourceDates": {
     "gsc": "2026-09-30",
     "ga4": "2026-10-01",
@@ -134,21 +134,21 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 8,
-        "Clicks": 0,
-        "Date": "/Date(1781222400000)/",
-        "Impressions": 1,
-        "Query": "xhamster reviews",
-        "site": "stripunion.com"
-      },
-      {
-        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-        "AvgClickPosition": -1,
         "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781222400000)/",
         "Impressions": 1,
         "Query": "xhamsters review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 1,
+        "Query": "xhamster reviews",
         "site": "stripunion.com"
       },
       {
@@ -1912,7 +1912,7 @@
     "organicClicks": 0,
     "indexedPages": 54,
     "publishedContentCount": {
-      "astroCommercialPages": 17,
+      "astroCommercialPages": 18,
       "wordpressPublishedPosts": null,
       "wordpressDraftInventory": "unavailable"
     },
