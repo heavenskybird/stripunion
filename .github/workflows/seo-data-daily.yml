@@ -95,6 +95,19 @@ jobs:
           fi
           npm run collect:buffer
 
+      - name: Collect StripCash aggregate statistics
+        id: collect_stripcash
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          STRIPCASH_STATS_API_TOKEN: ${{ secrets.STRIPCASH_STATS_API_TOKEN }}
+        run: |
+          if [ -z "$STRIPCASH_STATS_API_TOKEN" ]; then
+            echo "STRIPCASH_STATS_API_TOKEN is not configured"
+            exit 1
+          fi
+          npm run collect:stripcash
+
       - name: Check two-site public health
         id: two_site_health
         continue-on-error: true
@@ -139,15 +152,17 @@ jobs:
           BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
           BING_OUTCOME: ${{ steps.collect_bing.outcome }}
           BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
+          STRIPCASH_OUTCOME: ${{ steps.collect_stripcash.outcome }}
           BLOG_HEALTH_OUTCOME: ${{ steps.two_site_health.outcome }}
         run: |
           failed=0
-          for source in gsc ga4 bing buffer; do
+          for source in gsc ga4 bing buffer stripcash; do
             case "$source" in
               gsc) outcome="$GSC_OUTCOME" ;;
               ga4) outcome="$GA4_OUTCOME" ;;
               bing) outcome="$BING_OUTCOME" ;;
               buffer) outcome="$BUFFER_OUTCOME" ;;
+              stripcash) outcome="$STRIPCASH_OUTCOME" ;;
             esac
             if [ "$outcome" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/$source.json" > /dev/null; then
               echo "$source: collection succeeded and snapshot exists"
