@@ -12,6 +12,9 @@ on:
       - ops/growth/opportunities.mjs
       - ops/growth/offers/**
       - src/layouts/BaseLayout.astro
+      - src/pages/**
+      - src/data/**
+      - src/components/**
   schedule:
     - cron: '20 1 * * *'
 
