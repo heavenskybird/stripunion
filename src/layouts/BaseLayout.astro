@@ -126,6 +126,7 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           <a href="/stripchat-vs-livejasmin">Stripchat vs LiveJasmin</a>
           <a href="/chaturbate-alternatives">Chaturbate Alternatives</a>
           <a href="/become-a-cam-model">Become a Model</a>
+          <a href="/stripcash-affiliate-program">For Affiliates</a>
           <a href={SITE.blogUrl}>Blog</a>
         </div>
         <div>
@@ -203,32 +204,37 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           if (!(link instanceof HTMLAnchorElement)) return;
 
           const outbound = new URL(link.href);
+          const partner = link.getAttribute('data-affiliate-partner') || 'avcams';
+          const isAvcams = partner === 'avcams';
           const isStaging = window.location.hostname === 'staging.stripunion.com' || window.location.hostname.endsWith('.hostingersite.com');
-          const memberId = createMemberId();
+          const memberId = isAvcams ? createMemberId() : null;
 
-          outbound.searchParams.set('memberId', memberId);
-          if (isStaging) {
-            outbound.searchParams.set('campaignId', 'su_staging_test');
-            outbound.searchParams.set('sourceId', 'stripunion_staging');
-            outbound.searchParams.set('p3', 'qa');
-          } else {
-            outbound.searchParams.set('p3', acquisition);
+          if (isAvcams) {
+            outbound.searchParams.set('memberId', memberId);
+            if (isStaging) {
+              outbound.searchParams.set('campaignId', 'su_staging_test');
+              outbound.searchParams.set('sourceId', 'stripunion_staging');
+              outbound.searchParams.set('p3', 'qa');
+            } else {
+              outbound.searchParams.set('p3', acquisition);
+            }
+            link.href = outbound.toString();
           }
 
-          link.href = outbound.toString();
-
           const analyticsPayload = {
-            affiliate_partner: link.getAttribute('data-affiliate-partner') || 'avcams',
+            affiliate_partner: partner,
             affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
-            stripcash_member_id: memberId,
-            stripcash_campaign_id: outbound.searchParams.get('campaignId') || 'unknown',
-            stripcash_creative_id: outbound.searchParams.get('creativeId') || 'unknown',
-            stripcash_source_id: outbound.searchParams.get('sourceId') || 'stripunion',
-            stripcash_p1: outbound.searchParams.get('p1') || 'unknown',
-            stripcash_p2: outbound.searchParams.get('p2') || 'unknown',
-            stripcash_p3: outbound.searchParams.get('p3') || 'unknown',
-            avcams_target_domain: outbound.searchParams.get('targetDomain') || 'avcams.online',
-            avcams_path: outbound.searchParams.get('path') || 'unknown',
+            affiliate_mode: link.getAttribute('data-affiliate-mode') || (isAvcams ? 'avcams-tracked' : 'direct'),
+            acquisition_source: acquisition,
+            stripcash_member_id: memberId || 'not_applicable',
+            stripcash_campaign_id: isAvcams ? (outbound.searchParams.get('campaignId') || 'unknown') : 'not_applicable',
+            stripcash_creative_id: isAvcams ? (outbound.searchParams.get('creativeId') || 'unknown') : 'not_applicable',
+            stripcash_source_id: isAvcams ? (outbound.searchParams.get('sourceId') || 'stripunion') : 'not_applicable',
+            stripcash_p1: isAvcams ? (outbound.searchParams.get('p1') || 'unknown') : 'not_applicable',
+            stripcash_p2: isAvcams ? (outbound.searchParams.get('p2') || 'unknown') : 'not_applicable',
+            stripcash_p3: isAvcams ? (outbound.searchParams.get('p3') || 'unknown') : 'not_applicable',
+            avcams_target_domain: isAvcams ? (outbound.searchParams.get('targetDomain') || 'avcams.online') : 'not_applicable',
+            avcams_path: isAvcams ? (outbound.searchParams.get('path') || 'unknown') : 'not_applicable',
             outbound_url: link.href
           };
 
