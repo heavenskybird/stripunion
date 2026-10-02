@@ -132,7 +132,7 @@ for (const required of ['userId', 'campaignId', 'creativeId', 'sourceId', "'p1'"
 }
 
 const avcamsPage = fs.readFileSync('src/pages/avcams.astro', 'utf8');
-for (const required of ['AVCams', 'destinationPath="/signup/model"']) {
+for (const required of ['AVCams', 'destinationPath="/signup/model"', '/search/magic-search/', 'avcams_search_cosplay', 'avcams_search_gaming', 'avcams_search_natural', 'avcams_search_office']) {
   if (!avcamsPage.includes(required)) {
     failed = true;
     console.error(`FAIL: first-class AVCams landing page is missing required content: ${required}`);
