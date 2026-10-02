@@ -181,8 +181,22 @@ for (const required of ['Become a cam model on AVCams', 'destinationPath="/signu
   }
 }
 
+const opportunityEngine = fs.readFileSync('ops/growth/opportunities.mjs', 'utf8');
+for (const required of ['syntheticPromptPattern', 'topicFor(rawQuery)', 'canonicalClusteringEnabled', 'droppedSyntheticPromptQueries']) {
+  if (!opportunityEngine.includes(required)) {
+    failed = true;
+    console.error(`FAIL: growth opportunity query hygiene is missing: ${required}`);
+  }
+}
+
+const legacyData = fs.readFileSync('src/data/legacy.js', 'utf8');
+if (/^\s*xhamster:\s*\[/m.test(legacyData)) {
+  failed = true;
+  console.error('FAIL: xHamster remains in the pending-review queue after migration.');
+}
+
 const reviewsData = fs.readFileSync('src/data/reviews.js', 'utf8');
-for (const required of ["slug: 'xhamster'", "partner: false", "indexable: true"]) {
+for (const required of ["slug: 'xhamster'", "title: 'xHamster Review 2026: Site Overview, Features, Pros & Cons'", "partner: false", "indexable: true"]) {
   if (!reviewsData.includes(required)) {
     failed = true;
     console.error(`FAIL: xHamster search-capture review is missing required state: ${required}`);
