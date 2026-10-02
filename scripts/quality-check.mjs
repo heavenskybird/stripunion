@@ -13,14 +13,16 @@ const forbidden = [
   ['fake address', '3721 Single Street']
 ];
 
-const approvedAffiliate =
-  'https://go.whitetrafsa.com?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2';
+const approvedAffiliateUserId =
+  '103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2';
 
 const allowedExternalPrefixes = [
   'https://schema.org',
   'https://stripunion.com',
   'https://blog.stripunion.com',
+  'https://avcams.online',
   'https://go.whitetrafsa.com',
+  'https://stripcash.com',
   'https://www.googletagmanager.com'
 ];
 
@@ -77,20 +79,28 @@ for (const file of files) {
 }
 
 const siteConfig = fs.readFileSync('src/config/site.js', 'utf8');
-if (!siteConfig.includes(approvedAffiliate)) {
-  failed = true;
-  console.error('FAIL: approved Stripchat affiliate URL is missing from src/config/site.js');
+for (const [label, required] of [
+  ['StripCash tracking host', "STRIPCASH_TRACKING_URL = 'https://go.whitetrafsa.com/'"],
+  ['StripCash affiliate userId', approvedAffiliateUserId],
+  ['StripCash source attribution ID', "STRIPCASH_SOURCE_ID = 'stripunion'"],
+  ['AVCams target domain', "domain: 'avcams.online'"],
+  ['AVCams default path', "defaultPath: '/girls'"]
+]) {
+  if (!siteConfig.includes(required)) {
+    failed = true;
+    console.error(`FAIL: ${label} is missing or changed unexpectedly in src/config/site.js`);
+  }
 }
 
-if (!siteConfig.includes("STRIPCASH_SOURCE_ID = 'stripunion'")) {
+if (siteConfig.includes('STRIPCHAT_AFFILIATE_URL')) {
   failed = true;
-  console.error('FAIL: Stripcash source attribution ID is missing or changed unexpectedly.');
+  console.error('FAIL: legacy STRIPCHAT_AFFILIATE_URL should not remain in src/config/site.js');
 }
 
 const affiliateButton = fs.readFileSync('src/components/AffiliateButton.astro', 'utf8');
-if (!affiliateButton.includes('buildStripcashUrl({')) {
+if (!affiliateButton.includes('buildAvcamsUrl({')) {
   failed = true;
-  console.error('FAIL: AffiliateButton is not using the centralized Stripcash URL builder.');
+  console.error('FAIL: AffiliateButton is not using the centralized AVCams/StripCash URL builder.');
 }
 
 for (const required of [
@@ -98,7 +108,9 @@ for (const required of [
   'data-stripcash-creative-id',
   'data-stripcash-source-id',
   'data-stripcash-p1',
-  'data-stripcash-p2'
+  'data-stripcash-p2',
+  'data-avcams-target-domain',
+  'data-avcams-path'
 ]) {
   if (!affiliateButton.includes(required)) {
     failed = true;
@@ -107,10 +119,18 @@ for (const required of [
 }
 
 const affiliateLib = fs.readFileSync('src/lib/affiliate.js', 'utf8');
-for (const required of ['campaignId', 'creativeId', 'sourceId', "'p1'", "'p2'"]) {
+for (const required of ['userId', 'campaignId', 'creativeId', 'sourceId', "'p1'", "'p2'", 'targetDomain', "'path'"]) {
   if (!affiliateLib.includes(required)) {
     failed = true;
     console.error(`FAIL: Stripcash URL builder is missing parameter support: ${required}`);
+  }
+}
+
+const baseLayout = fs.readFileSync('src/layouts/BaseLayout.astro', 'utf8');
+for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path']) {
+  if (!baseLayout.includes(required)) {
+    failed = true;
+    console.error(`FAIL: AVCams click/postback attribution is missing from BaseLayout: ${required}`);
   }
 }
 

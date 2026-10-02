@@ -187,6 +187,15 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           acquisition = detectAcquisition();
         }
 
+        const createMemberId = () => {
+          try {
+            if (typeof crypto?.randomUUID === 'function') {
+              return sanitize(`su_${crypto.randomUUID().replace(/-/g, '')}`);
+            }
+          } catch {}
+          return sanitize(`su_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 14)}`);
+        };
+
         document.addEventListener('click', (event) => {
           const target = event.target;
           if (!(target instanceof Element)) return;
@@ -195,7 +204,9 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
 
           const outbound = new URL(link.href);
           const isStaging = window.location.hostname === 'staging.stripunion.com' || window.location.hostname.endsWith('.hostingersite.com');
+          const memberId = createMemberId();
 
+          outbound.searchParams.set('memberId', memberId);
           if (isStaging) {
             outbound.searchParams.set('campaignId', 'su_staging_test');
             outbound.searchParams.set('sourceId', 'stripunion_staging');
@@ -207,14 +218,17 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           link.href = outbound.toString();
 
           const analyticsPayload = {
-            affiliate_partner: link.getAttribute('data-affiliate-partner') || 'stripchat',
+            affiliate_partner: link.getAttribute('data-affiliate-partner') || 'avcams',
             affiliate_source: link.getAttribute('data-affiliate-source') || 'unknown',
+            stripcash_member_id: memberId,
             stripcash_campaign_id: outbound.searchParams.get('campaignId') || 'unknown',
             stripcash_creative_id: outbound.searchParams.get('creativeId') || 'unknown',
             stripcash_source_id: outbound.searchParams.get('sourceId') || 'stripunion',
             stripcash_p1: outbound.searchParams.get('p1') || 'unknown',
             stripcash_p2: outbound.searchParams.get('p2') || 'unknown',
             stripcash_p3: outbound.searchParams.get('p3') || 'unknown',
+            avcams_target_domain: outbound.searchParams.get('targetDomain') || 'avcams.online',
+            avcams_path: outbound.searchParams.get('path') || 'unknown',
             outbound_url: link.href
           };
 
