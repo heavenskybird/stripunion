@@ -32,6 +32,7 @@ jobs:
           node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
           node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs --self-test
+          node ops/seo-data-layer/src/collectors/stripcash.mjs --self-test
           npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs
           node --check scripts/check-ga4-artifact.mjs
