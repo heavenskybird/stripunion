@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T17:03:22.212Z",
+  "generatedAt": "2026-10-02T17:05:35.616Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-02T17:00:58.826Z",
-    "bing": "2026-10-02T17:01:05.507Z",
+    "gsc": "2026-10-02T17:03:34.109Z",
+    "bing": "2026-10-02T17:03:38.433Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -28,7 +28,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.33,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -47,14 +47,14 @@
       "route": "/how-stripchat-tokens-work",
       "title": "How Stripchat Tokens Work (2026)",
       "cluster": "pricing/tokens",
-      "score": 71,
+      "score": 66,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
-        "uniqueness": 4,
+        "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.29,
+        "overlapRisk": 0.34,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -80,7 +80,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.27,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -122,6 +122,58 @@
       "rank": 4
     },
     {
+      "route": "/best-live-cam-sites",
+      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
+      "cluster": "best cam sites",
+      "score": 62,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 747,
+        "headings": 7,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 5
+    },
+    {
+      "route": "/stripchat-alternatives",
+      "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
+      "cluster": "guides",
+      "score": 62,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.42,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 635,
+        "headings": 7,
+        "links": 4,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 6
+    },
+    {
       "route": "/xhamster",
       "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
       "cluster": "features",
@@ -145,33 +197,7 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
-      "rank": 5
-    },
-    {
-      "route": "/best-live-cam-sites",
-      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
-      "cluster": "best cam sites",
-      "score": 61,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.38,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 287,
-        "headings": 3,
-        "links": 5,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 6
+      "rank": 7
     },
     {
       "route": "/chaturbate-alternatives",
@@ -184,7 +210,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.46,
+        "overlapRisk": 0.37,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -192,32 +218,6 @@
       "signals": {
         "wordCount": 232,
         "headings": 4,
-        "links": 4,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 7
-    },
-    {
-      "route": "/stripchat-alternatives",
-      "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
-      "cluster": "guides",
-      "score": 61,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.44,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 219,
-        "headings": 3,
         "links": 4,
         "queryImpressions": 0
       },
@@ -262,7 +262,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -288,7 +288,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.4,
+        "overlapRisk": 0.39,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -548,7 +548,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.26,
+        "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -626,7 +626,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.28,
+        "overlapRisk": 0.27,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
@@ -732,7 +732,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 2,
-        "overlapRisk": 0.33,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 5,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -750,14 +750,14 @@
       "route": "/how-stripchat-tokens-work",
       "title": "How Stripchat Tokens Work (2026)",
       "cluster": "pricing/tokens",
-      "score": 71,
+      "score": 66,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
         "keywordOpportunity": 0,
-        "uniqueness": 4,
+        "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.29,
+        "overlapRisk": 0.34,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -782,7 +782,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.27,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -822,6 +822,56 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/best-live-cam-sites",
+      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
+      "cluster": "best cam sites",
+      "score": 62,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.3,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 747,
+        "headings": 7,
+        "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/stripchat-alternatives",
+      "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
+      "cluster": "guides",
+      "score": 62,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.42,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 635,
+        "headings": 7,
+        "links": 4,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/xhamster",
       "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
       "cluster": "features",
@@ -847,31 +897,6 @@
       "qualityGate": "review-ready"
     },
     {
-      "route": "/best-live-cam-sites",
-      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
-      "cluster": "best cam sites",
-      "score": 61,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.38,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 287,
-        "headings": 3,
-        "links": 5,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
-    },
-    {
       "route": "/chaturbate-alternatives",
       "title": "Chaturbate Alternatives in 2026: Compare Public-Room and Premium Options",
       "cluster": "guides",
@@ -882,7 +907,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.46,
+        "overlapRisk": 0.37,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -890,31 +915,6 @@
       "signals": {
         "wordCount": 232,
         "headings": 4,
-        "links": 4,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
-    },
-    {
-      "route": "/stripchat-alternatives",
-      "title": "Stripchat Alternatives in 2026: Compare Other Live-Cam Models",
-      "cluster": "guides",
-      "score": 61,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.44,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 219,
-        "headings": 3,
         "links": 4,
         "queryImpressions": 0
       },
@@ -957,7 +957,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.32,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -982,7 +982,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.4,
+        "overlapRisk": 0.39,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -1232,7 +1232,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.26,
+        "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -1307,7 +1307,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.28,
+        "overlapRisk": 0.27,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
