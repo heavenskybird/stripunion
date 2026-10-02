@@ -122,6 +122,48 @@ export const reviews = {
     partner: false,
     indexable: true
   },
+  xhamster: {
+    slug: 'xhamster',
+    name: 'xHamster',
+    category: 'Free Videos',
+    categorySlug: 'free-videos',
+    title: 'xHamster Review 2026: Free Videos, Search & Social Features',
+    description: 'A practical xHamster review covering free video browsing, search and category discovery, account features, mobile use and key trade-offs.',
+    dek: 'xHamster is an established adult video-sharing platform built around free video browsing, search and categories, with optional account, social and premium features.',
+    verdict: 'xHamster can fit users who mainly want a broad free-video browsing experience, while users looking for live interactive rooms may prefer a dedicated cam platform.',
+    bestFor: 'Adults who prioritize free video browsing, categories and search over live interaction.',
+    access: 'A substantial browsing experience is available without a paid subscription; optional account and premium features exist.',
+    model: 'Free/ad-supported browsing with optional premium features.',
+    strengths: [
+      'Search, categories and related discovery tools support broad video browsing.',
+      'The platform combines video consumption with account and community-style features.',
+      'The web experience is designed for both desktop and mobile browsing.'
+    ],
+    limitations: [
+      'A very large content library can make discovery feel noisy without filters.',
+      'User-uploaded material can vary in presentation and production quality.',
+      'Availability, age-assurance requirements and features can vary by location.'
+    ],
+    sections: [
+      ['What xHamster is', 'xHamster is an adult video-sharing and streaming platform with free and premium content. Beyond video browsing, the service includes user accounts and community-style features, so it is broader than a simple static video directory.'],
+      ['Search and discovery', 'The main experience revolves around browsing videos through search, categories and related discovery paths. Users with a specific interest will generally get more value from filtering than from scrolling a broad homepage feed.'],
+      ['Free vs paid access', 'The platform is primarily known for free browsing, while optional account and premium features add functionality. Because exact offers can change, check the current terms before paying for any premium option.'],
+      ['Mobile experience', 'The service can be used through a mobile browser, making search and browsing available without relying on a desktop session. As with any adult platform, avoid unofficial downloads and review current privacy and account settings before signing in.'],
+      ['If you want live interaction instead', 'A video platform and a live-cam platform solve different needs. If your goal is real-time room discovery and optional live interaction rather than on-demand video browsing, compare the live-cam guides on StripUnion before choosing your next step.']
+    ],
+    faq: [
+      ['Is xHamster mainly a video site?', 'Yes. Its core experience centers on adult video browsing and discovery, with additional account, social and premium features.'],
+      ['Can xHamster be used on mobile?', 'The service is accessible through mobile web browsers. Exact features and availability can vary by location.'],
+      ['Does StripUnion currently have an xHamster affiliate link?', 'No. This review is currently editorial. If you want a live-cam experience instead, StripUnion provides a separate AVCams route.']
+    ],
+    relatedLinks: [
+      ['Best Live Cam Sites', '/best-live-cam-sites'],
+      ['Best Free Live Cam Sites', '/best-free-live-cam-sites'],
+      ['AVCams', '/avcams']
+    ],
+    partner: false,
+    indexable: true
+  },
   adultfriendfinder: {
     slug: 'adultfriendfinder',
     name: 'AdultFriendFinder',

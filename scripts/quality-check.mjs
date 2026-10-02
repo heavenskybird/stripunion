@@ -165,6 +165,14 @@ for (const required of ['Become a cam model on AVCams', 'destinationPath="/signu
   }
 }
 
+const reviewsData = fs.readFileSync('src/data/reviews.js', 'utf8');
+for (const required of ["slug: 'xhamster'", "partner: false", "indexable: true"]) {
+  if (!reviewsData.includes(required)) {
+    failed = true;
+    console.error(`FAIL: xHamster search-capture review is missing required state: ${required}`);
+  }
+}
+
 const sitemap = fs.readFileSync('src/pages/sitemap.xml.js', 'utf8');
 for (const route of ["'/avcams'", "'/become-a-cam-model'"]) {
   if (!sitemap.includes(route)) {
