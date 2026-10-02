@@ -10,6 +10,7 @@ on:
       - ops/seo-data-layer/src/reports/**
       - ops/seo-data-layer/package.json
       - ops/growth/opportunities.mjs
+      - ops/growth/content-inventory.mjs
       - ops/growth/offers/**
       - src/layouts/BaseLayout.astro
       - src/pages/**
