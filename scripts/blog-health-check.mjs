@@ -67,7 +67,7 @@ async function main() {
   const robots = await get(`${BLOG_ORIGIN}/robots.txt`, 'text/plain,*/*');
   check(robots.status === 200, 'blog robots.txt returns HTTP 200');
   const wildcardGroup = robots.body.split(/\r?\n\s*\r?\n/).find((group) => /^\s*User-agent:\s*\*/im.test(group)) || '';
-  check(!/^\s*Disallow:\s*\/?\s*$/im.test(wildcardGroup), 'robots wildcard group does not disallow /');
+  check(!/^\s*Disallow:\s*\/\s*$/im.test(wildcardGroup), 'robots wildcard group does not disallow /');
 
   let sitemap = await get(`${BLOG_ORIGIN}/sitemap_index.xml`, 'application/xml,text/xml,*/*');
   if (sitemap.status !== 200 || !/<(?:[\w.-]+:)?(?:sitemapindex|urlset)\b/i.test(sitemap.body)) {
@@ -112,7 +112,9 @@ async function main() {
 function selfTest() {
   assert.deepEqual(attributes('<meta content="index,follow" name="robots">'), { content: 'index,follow', name: 'robots' });
   const groups = 'User-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /';
-  assert.equal(/^\s*Disallow:\s*\/?\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
+  assert.equal(/^\s*Disallow:\s*\/\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
+  assert.equal(/^\s*Disallow:\s*\/\s*$/im.test('User-agent: *\nDisallow:'), false);
+  assert.equal(/^\s*Disallow:\s*\/\s*$/im.test('User-agent: *\nDisallow: /'), true);
   const analyticsStatus = (ids, expected = []) => !ids.length ? 'MISSING' : ids.some((id) => !expected.includes(id)) || !expected.some((id) => ids.includes(id)) ? 'MISMATCH' : 'CONNECTED';
   assert.equal(analyticsStatus([]), 'MISSING');
   assert.equal(analyticsStatus(['G-TEST123456'], ['G-TEST123456', 'GT-P8VJLHT3']), 'CONNECTED');
