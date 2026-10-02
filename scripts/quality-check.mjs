@@ -190,9 +190,12 @@ for (const required of ['syntheticPromptPattern', 'topicFor(rawQuery)', 'canonic
 }
 
 const legacyData = fs.readFileSync('src/data/legacy.js', 'utf8');
-if (/^\s*xhamster:\s*\[/m.test(legacyData)) {
-  failed = true;
-  console.error('FAIL: xHamster remains in the pending-review queue after migration.');
+for (const migratedSlug of ['xhamster', 'f95zone']) {
+  const pendingPattern = new RegExp('^\\s*' + migratedSlug + ':\\s*\\[', 'm');
+  if (pendingPattern.test(legacyData)) {
+    failed = true;
+    console.error(`FAIL: ${migratedSlug} remains in the pending-review queue after migration.`);
+  }
 }
 
 const reviewsData = fs.readFileSync('src/data/reviews.js', 'utf8');
@@ -200,6 +203,12 @@ for (const required of ["slug: 'xhamster'", "title: 'xHamster Review 2026: Site 
   if (!reviewsData.includes(required)) {
     failed = true;
     console.error(`FAIL: xHamster search-capture review is missing required state: ${required}`);
+  }
+}
+for (const required of ["slug: 'f95zone'", "title: 'F95Zone Review 2026: Adult Games, Visual Novels & Community'", "partner: false", "indexable: true"]) {
+  if (!reviewsData.includes(required)) {
+    failed = true;
+    console.error(`FAIL: F95Zone search-capture review is missing required state: ${required}`);
   }
 }
 
