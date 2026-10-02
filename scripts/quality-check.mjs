@@ -131,6 +131,22 @@ for (const required of ['userId', 'campaignId', 'creativeId', 'sourceId', "'p1'"
   }
 }
 
+const bestLiveCamPage = fs.readFileSync('src/pages/best-live-cam-sites.astro', 'utf8');
+for (const required of ['FAQPage', 'Compare the spending model before buying tokens or credits', 'Mobile experience matters more than a separate app']) {
+  if (!bestLiveCamPage.includes(required)) {
+    failed = true;
+    console.error(`FAIL: best-live-cam intent page is missing depth/FAQ content: ${required}`);
+  }
+}
+
+const stripchatAlternativesPage = fs.readFileSync('src/pages/stripchat-alternatives.astro', 'utf8');
+for (const required of ['FAQPage', 'If discovery is the problem', 'If spending or token value is the problem', 'If mobile use is the problem']) {
+  if (!stripchatAlternativesPage.includes(required)) {
+    failed = true;
+    console.error(`FAIL: Stripchat alternatives intent page is missing depth/FAQ content: ${required}`);
+  }
+}
+
 const avcamsPage = fs.readFileSync('src/pages/avcams.astro', 'utf8');
 for (const required of ['AVCams', 'destinationPath="/signup/model"', '/search/magic-search/', 'avcams_search_cosplay', 'avcams_search_gaming', 'avcams_search_natural', 'avcams_search_office']) {
   if (!avcamsPage.includes(required)) {
