@@ -3,8 +3,18 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const packageRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+const repoRoot = path.resolve(packageRoot, '../..');
 const rawRoot = path.join(packageRoot, 'data', 'raw');
 const reportsRoot = path.join(packageRoot, 'data', 'reports');
+
+async function readRepoJson(relativePath) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(repoRoot, relativePath), 'utf8'));
+  } catch (error) {
+    if (error?.code === 'ENOENT') return null;
+    throw error;
+  }
+}
 
 async function latestSnapshot(filename) {
   let dirs = [];
@@ -30,6 +40,8 @@ const ga4Admin = await latestSnapshot('ga4-admin.json');
 const bing = await latestSnapshot('bing.json');
 const buffer = await latestSnapshot('buffer.json');
 const stripcash = await latestSnapshot('stripcash.json');
+const growthOpportunities = await readRepoJson('ops/growth/opportunities/latest.json');
+const contentInventory = await readRepoJson('ops/growth/content-inventory/latest.json');
 
 const cutoff = new Date(); cutoff.setUTCDate(cutoff.getUTCDate() - 7);
 const inLastWeek = (value) => {
@@ -80,10 +92,13 @@ const bingSiteCoverage = ['stripunion.com', 'blog.stripunion.com'].map((hostname
   return { hostname, configured: Boolean(site), methods: site?.methodStatus || null };
 });
 
-const ctrOpportunities = queryRows.filter((row) => Number(row.impressions || 0) >= 2 && Number(row.ctr || 0) < 0.02)
+const syntheticPromptPattern = /\bcontext\s*:|\bquestion\s*:|do not include|not for language|location\s*:/i;
+const cleanQueryRows = queryRows.filter((row) => !syntheticPromptPattern.test(String(row.query || '')));
+const ctrOpportunities = cleanQueryRows.filter((row) => Number(row.impressions || 0) >= 2 && Number(row.ctr || 0) < 0.02)
   .sort((a, b) => Number(b.impressions || 0) - Number(a.impressions || 0)).slice(0, 10);
-const rankingOpportunities = queryRows.filter((row) => Number(row.position || 0) >= 4 && Number(row.position || 0) <= 20)
+const rankingOpportunities = cleanQueryRows.filter((row) => Number(row.position || 0) >= 4 && Number(row.position || 0) <= 20)
   .sort((a, b) => Number(b.impressions || 0) - Number(a.impressions || 0)).slice(0, 10);
+const clusteredOpportunities = growthOpportunities?.opportunities || [];
 const bingZeroClickQueries = bingQueries.filter((row) => Number(row.Impressions || 0) > 0 && Number(row.Clicks || 0) === 0).slice(0, 10);
 const bingZeroClickPages = bingPages.filter((row) => Number(row.Impressions || 0) > 0 && Number(row.Clicks || 0) === 0).slice(0, 10);
 const bingCoverageSummary = bingSiteCoverage.map((site) => `- ${site.hostname}: ${site.configured ? `configured; methods ${Object.values(site.methods || {}).filter((status) => status === 'ok').length}/4 succeeded` : 'BLOG BING COVERAGE NOT VERIFIED'}${site.configured && !Object.values(site.methods || {}).every((status) => status === 'ok') ? `; status ${JSON.stringify(site.methods)}` : ''}`);
@@ -172,7 +187,14 @@ summary.trafficControlPlane = {
   qualifiedSessions: sum(landingRows, 'engagedSessions'),
   outboundAffiliateCtr: sum(landingRows, 'sessions') ? affiliateClicks / sum(landingRows, 'sessions') : null,
   organicImpressions: gscImpressions, organicClicks: gscClicks, indexedPages: bing ? indexedPages : null,
-  publishedContentCount: { astroCommercialPages: astroPages, wordpressPublishedPosts: null, wordpressDraftInventory: 'unavailable' },
+  publishedContentCount: {
+    astroCommercialPages: astroPages,
+    trackedMainSitePages: contentInventory?.inventorySize ?? null,
+    astroPagesTracked: contentInventory?.inventoryBreakdown?.astroPages ?? null,
+    dataDrivenReviewsTracked: contentInventory?.inventoryBreakdown?.dataDrivenReviews ?? null,
+    wordpressPublishedPosts: null,
+    wordpressDraftInventory: 'unavailable'
+  },
   contentFreshness: { status: 'not-measured', reason: 'CMS publication dates are not part of the current GA4, GSC, or Bing snapshots.' },
   topAcquisitionLandingPages: summary.ga4.landingPages,
   stripcash: stripcash ? {
@@ -195,7 +217,15 @@ const md = [
   '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## GA4 Host Segmentation', `- MAIN: **${summary.ga4.sites?.main.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.main.engagedSessions ?? 'unavailable'}** engaged.`, `- BLOG: **${summary.ga4.sites?.blog.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.blog.engagedSessions ?? 'unavailable'}** engaged.`, ...(summary.ga4.otherHosts.length ? summary.ga4.otherHosts.map((host) => `- OTHER ${host.hostname}: ${host.sessions} sessions · ${host.engagedSessions} engaged.`) : [gaHostRowsAvailable ? '- OTHER: no other hostnames in the latest GA4 rows.' : '- OTHER: hostname segmentation unavailable in the latest snapshot.']), `- TOTAL: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}.`, `- Stream topology: ${ga4Admin?.data?.topology || 'UNKNOWN / MULTIPLE'}.`, `- Unified-funnel Measurement ID candidate: ${ga4Admin?.data?.unifiedFunnelCandidate || 'not established'}.`, '',
   '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`, `- GSC domain property: **${gscClicks}** clicks · **${gscImpressions}** impressions; page totals are classified by hostname and other hosts remain separate.`, '',
-  '## Search Opportunities', ...(rankingOpportunities.length ? rankingOpportunities.slice(0, 5).map((row) => `- ${row.query}: position ${Number(row.position).toFixed(1)}, ${row.impressions} impressions`) : ['- No current query rows available.']), '',
+  '## Search Opportunities',
+  ...(clusteredOpportunities.length
+    ? clusteredOpportunities.slice(0, 5).map((row) =>
+        `- ${row.targetKeyword}: ${row.ourEvidence?.impressions ?? 0} clustered impressions across ${row.ourEvidence?.queryVariants ?? 1} variant(s), best position ${row.ourEvidence?.bestPosition ?? 'n/a'} → ${row.recommendedAction}`
+      )
+    : rankingOpportunities.length
+      ? rankingOpportunities.slice(0, 5).map((row) => `- ${row.query}: position ${Number(row.position).toFixed(1)}, ${row.impressions} impressions`)
+      : ['- No current query rows available.']),
+  '',
   '## Distribution', `- Buffer: ${sentPosts.length} sent posts · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks.`, '',
   '## Revenue / Affiliate Attribution',
   `- ${summary.ga4.siteSegmentationAvailable ? `Main affiliate_click: ${summary.ga4.sites.main.affiliateClick}; Blog affiliate_click: ${summary.ga4.sites.blog.affiliateClick}.` : 'Site-level affiliate_click attribution needs a fresh host-segmented GA4 snapshot.'}`,
@@ -228,7 +258,7 @@ md.push(
   `- Qualified sessions (GA4 engaged sessions): ${summary.trafficControlPlane.qualifiedSessions}.`,
   `- Outbound affiliate CTR: ${summary.trafficControlPlane.outboundAffiliateCtr == null ? 'unavailable' : pct(summary.trafficControlPlane.outboundAffiliateCtr)} of sessions.`,
   `- Organic impressions/clicks: ${summary.trafficControlPlane.organicImpressions}/${summary.trafficControlPlane.organicClicks}; indexed pages: ${summary.trafficControlPlane.indexedPages} (Bing-reported index signal).`,
-  `- Published content count: ${astroPages ?? 'unavailable'} Astro commercial routes; WordPress published count unavailable.`,
+  `- Published content count: ${contentInventory?.inventorySize ?? astroPages ?? 'unavailable'} tracked main-site pages (${contentInventory?.inventoryBreakdown?.astroPages ?? astroPages ?? 'n/a'} Astro + ${contentInventory?.inventoryBreakdown?.dataDrivenReviews ?? 'n/a'} data-driven reviews); WordPress published count unavailable.`,
   '- Content freshness: not measured in available source snapshots.',
 `- ${stripcash ? `StripCash aggregate connected: ${summary.trafficControlPlane.stripcash.signups} signups · ${summary.trafficControlPlane.stripcash.verifiedSignups} verified · ${summary.trafficControlPlane.stripcash.newCustomers} new customers · ${summary.trafficControlPlane.stripcash.purchases} purchases · ${summary.trafficControlPlane.stripcash.totalEarnings} total earnings (API default scope).` : 'STRIPCASH AGGREGATE REVENUE NOT YET CONNECTED.'}`,
   `- ${stripcash ? 'Per-click revenue attribution is the remaining gap; memberId is already emitted and the Postback receiver is next.' : 'Per-click revenue attribution is not yet connected.'}`,
