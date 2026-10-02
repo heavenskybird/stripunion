@@ -16,7 +16,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: growth-data-persistence
+  group: growth-intelligence-persistence
   cancel-in-progress: false
 
 jobs:
