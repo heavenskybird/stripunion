@@ -157,6 +157,22 @@ for (const file of userFacingPages) {
   }
 }
 
+const referralButton = fs.readFileSync('src/components/StripCashReferralButton.astro', 'utf8');
+for (const required of ['STRIPCASH_AFFILIATE_REFERRAL_URL', 'data-affiliate-partner="stripcash_referral"', 'data-affiliate-mode="direct-referral"']) {
+  if (!referralButton.includes(required)) {
+    failed = true;
+    console.error(`FAIL: StripCash referral button is missing required state: ${required}`);
+  }
+}
+
+const referralPage = fs.readFileSync('src/pages/stripcash-affiliate-program.astro', 'utf8');
+for (const required of ['StripCash affiliate-referral guide', '5% lifetime share', 'No income guarantee']) {
+  if (!referralPage.includes(required)) {
+    failed = true;
+    console.error(`FAIL: StripCash affiliate funnel is missing required content: ${required}`);
+  }
+}
+
 const creatorPage = fs.readFileSync('src/pages/become-a-cam-model.astro', 'utf8');
 for (const required of ['Become a cam model on AVCams', 'destinationPath="/signup/model"', 'No guarantees']) {
   if (!creatorPage.includes(required)) {
@@ -174,7 +190,7 @@ for (const required of ["slug: 'xhamster'", "partner: false", "indexable: true"]
 }
 
 const sitemap = fs.readFileSync('src/pages/sitemap.xml.js', 'utf8');
-for (const route of ["'/avcams'", "'/become-a-cam-model'"]) {
+for (const route of ["'/avcams'", "'/become-a-cam-model'", "'/stripcash-affiliate-program'"]) {
   if (!sitemap.includes(route)) {
     failed = true;
     console.error(`FAIL: required monetization route is missing from the sitemap: ${route}`);
@@ -190,6 +206,16 @@ if (!baseLayout.includes('<a href="/avcams">AVCams</a>')) {
 if (!baseLayout.includes('<a href="/become-a-cam-model">Become a Model</a>')) {
   failed = true;
   console.error('FAIL: creator funnel is not linked from the site chrome.');
+}
+
+if (!baseLayout.includes('<a href="/stripcash-affiliate-program">For Affiliates</a>')) {
+  failed = true;
+  console.error('FAIL: StripCash affiliate funnel is not linked from the site chrome.');
+}
+
+if (!baseLayout.includes("const isAvcams = partner === 'avcams'")) {
+  failed = true;
+  console.error('FAIL: affiliate click analytics does not distinguish AVCams tracking from direct referral links.');
 }
 
 for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path']) {
