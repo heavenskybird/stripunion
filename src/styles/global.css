@@ -159,8 +159,6 @@ img{max-width:100%;height:auto}
 .related-card{text-decoration:none}
 
 .affiliate-cta{display:inline-flex;flex-direction:column;align-items:center;gap:4px;vertical-align:top}
-.paid-link-note{font-size:10px;line-height:1;text-transform:uppercase;letter-spacing:.08em;color:#a89cad;font-weight:700}
-.page-hero .paid-link-note,.hero .paid-link-note{color:#b9abbf}
 .card-actions .affiliate-cta{align-items:flex-start}
 
 /* Discovery and comparison magazine primitives */

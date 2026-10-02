@@ -98,6 +98,11 @@ if (siteConfig.includes('STRIPCHAT_AFFILIATE_URL')) {
 }
 
 const affiliateButton = fs.readFileSync('src/components/AffiliateButton.astro', 'utf8');
+if (/Paid link|paid-link-note/i.test(affiliateButton)) {
+  failed = true;
+  console.error('FAIL: affiliate CTA still renders a paid-link note.');
+}
+
 if (!affiliateButton.includes('buildAvcamsUrl({')) {
   failed = true;
   console.error('FAIL: AffiliateButton is not using the centralized AVCams/StripCash URL builder.');
@@ -127,10 +132,28 @@ for (const required of ['userId', 'campaignId', 'creativeId', 'sourceId', "'p1'"
 }
 
 const avcamsPage = fs.readFileSync('src/pages/avcams.astro', 'utf8');
-for (const required of ['AVCams', 'branded StripCash white-label', 'destinationPath="/signup/model"']) {
+for (const required of ['AVCams', 'destinationPath="/signup/model"']) {
   if (!avcamsPage.includes(required)) {
     failed = true;
     console.error(`FAIL: first-class AVCams landing page is missing required content: ${required}`);
+  }
+}
+
+for (const forbiddenCopy of ['white-label', 'white label', 'branded StripCash', 'underlying Stripchat infrastructure', 'StripCash/Stripchat infrastructure']) {
+  if (avcamsPage.toLowerCase().includes(forbiddenCopy.toLowerCase())) {
+    failed = true;
+    console.error(`FAIL: AVCams page exposes implementation/white-label wording: ${forbiddenCopy}`);
+  }
+}
+
+const userFacingPages = files.filter((file) => file.startsWith('src/pages/') || file.startsWith('src/components/'));
+for (const file of userFacingPages) {
+  const content = fs.readFileSync(file, 'utf8');
+  for (const forbiddenCopy of ['branded StripCash white-label', 'branded StripCash', 'underlying Stripchat infrastructure', 'StripCash/Stripchat infrastructure']) {
+    if (content.toLowerCase().includes(forbiddenCopy.toLowerCase())) {
+      failed = true;
+      console.error(`FAIL: user-facing implementation wording found in ${file}: ${forbiddenCopy}`);
+    }
   }
 }
 
