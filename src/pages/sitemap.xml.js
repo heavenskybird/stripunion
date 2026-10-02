@@ -14,6 +14,7 @@ const staticPaths = [
   '/terms',
   '/disclaimer',
   '/age-verification',
+  '/avcams',
   '/stripchat-vs-chaturbate',
   '/best-live-cam-sites',
   '/chaturbate-alternatives',
