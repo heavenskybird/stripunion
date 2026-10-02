@@ -3,9 +3,9 @@
   "propertyId": "530171093",
   "startDate": "2026-09-01",
   "endDate": "2026-10-01",
-  "collectedAt": "2026-10-02T07:04:41.767Z",
+  "collectedAt": "2026-10-02T13:49:11.094Z",
   "rowCount": 64,
-  "eventRowCount": 156,
+  "eventRowCount": 157,
   "rows": [
     {
       "date": "20260904",
@@ -803,6 +803,19 @@
     {
       "date": "20261001",
       "hostName": "blog.stripunion.com",
+      "landingPagePlusQueryString": "(not set)",
+      "sessionSourceMedium": "(direct) / (none)",
+      "country": "China",
+      "deviceCategory": "desktop",
+      "sessions": 1,
+      "activeUsers": 1,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "totalRevenue": 0
+    },
+    {
+      "date": "20261001",
+      "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
       "country": "China",
@@ -822,20 +835,7 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
-      "engagedSessions": 0,
-      "keyEvents": 0,
-      "totalRevenue": 0
-    },
-    {
-      "date": "20261001",
-      "hostName": "blog.stripunion.com",
-      "landingPagePlusQueryString": "/",
-      "sessionSourceMedium": "(not set)",
-      "country": "United States",
-      "deviceCategory": "desktop",
-      "sessions": 1,
-      "activeUsers": 1,
-      "engagedSessions": 0,
+      "engagedSessions": 1,
       "keyEvents": 0,
       "totalRevenue": 0
     }
@@ -1194,6 +1194,14 @@
       "totalUsers": 2
     },
     {
+      "date": "20261001",
+      "eventName": "session_start",
+      "hostName": "blog.stripunion.com",
+      "pagePath": "/",
+      "eventCount": 3,
+      "totalUsers": 2
+    },
+    {
       "date": "20260902",
       "eventName": "page_view",
       "hostName": "stripunion.com",
@@ -1371,7 +1379,7 @@
     },
     {
       "date": "20261001",
-      "eventName": "session_start",
+      "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
       "eventCount": 2,
