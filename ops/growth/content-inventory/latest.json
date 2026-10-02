@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-02T14:56:47.769Z",
+  "generatedAt": "2026-10-02T16:01:59.387Z",
   "scope": "tracked Astro content only; this is not the WordPress draft inventory",
   "sources": {
-    "gsc": "2026-10-02T14:34:44.552Z",
-    "bing": "2026-10-02T14:34:48.254Z",
+    "gsc": "2026-10-02T15:54:20.320Z",
+    "bing": "2026-10-02T15:54:25.203Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
     }
   },
-  "inventorySize": 18,
+  "inventorySize": 19,
   "wordpressDraftCount": null,
   "publishReadyDraftCount": null,
   "updateCandidates": [
@@ -354,9 +354,9 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 307,
+        "wordCount": 313,
         "headings": 6,
-        "links": 6,
+        "links": 7,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
@@ -439,6 +439,31 @@
       "rank": 17
     },
     {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Start Broadcasting on AVCams",
+      "cluster": "creator/model referral",
+      "score": 45,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.25,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 371,
+        "headings": 6,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 18
+    },
+    {
       "route": "/blog",
       "title": "blog",
       "cluster": "guides",
@@ -461,7 +486,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 18
+      "rank": 19
     }
   ],
   "pages": [
@@ -793,9 +818,9 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 307,
+        "wordCount": 313,
         "headings": 6,
-        "links": 6,
+        "links": 7,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
@@ -872,6 +897,30 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Start Broadcasting on AVCams",
+      "cluster": "creator/model referral",
+      "score": 45,
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.25,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 371,
+        "headings": 6,
+        "links": 3,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/blog",

@@ -1,14 +1,28 @@
 {
-  "generatedAt": "2026-10-02T14:56:47.831Z",
+  "generatedAt": "2026-10-02T16:01:59.451Z",
   "sources": {
     "gsc": "2026-09-30",
     "bing": "2026-10-01",
+    "stripcash": "2026-10-01",
     "competitorSnapshot": "2026-10-02",
     "competitorDiff": "2026-10-02",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
     }
+  },
+  "monetization": {
+    "connected": true,
+    "date": "2026-10-01",
+    "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
+    "signups": 0,
+    "verifiedSignups": 0,
+    "purchases": 0,
+    "totalEarnings": 0,
+    "modelReferralEarnings": 0,
+    "webmasterRegistrations": 0,
+    "webmasterReferralEarnings": 0,
+    "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
   },
   "opportunities": [
     {
@@ -72,9 +86,10 @@
         }
       ],
       "targetKeyword": "xhamster  review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -86,8 +101,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -97,7 +112,7 @@
         "clicks": 0,
         "position": 10
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -116,9 +131,10 @@
         }
       ],
       "targetKeyword": "review free pornohamster.com",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -130,8 +146,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -141,7 +157,7 @@
         "clicks": 0,
         "position": 6
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -160,9 +176,10 @@
         }
       ],
       "targetKeyword": "xhamster review 2026",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -174,8 +191,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -185,7 +202,7 @@
         "clicks": 0,
         "position": 4
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -204,9 +221,10 @@
         }
       ],
       "targetKeyword": "xhamster content quality videos features review 2025",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -218,8 +236,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -229,7 +247,7 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -272,9 +290,10 @@
         }
       ],
       "targetKeyword": "xhamster reviews",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -286,8 +305,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -297,11 +316,56 @@
         "clicks": 0,
         "position": 8
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
       "rank": 5
+    },
+    {
+      "id": "gsc-7374726970636861",
+      "sourceEvidence": [
+        {
+          "source": "GSC",
+          "date": "2026-09-30",
+          "query": "stripchat alternative",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 9
+        }
+      ],
+      "targetKeyword": "stripchat alternative",
+      "recommendedAction": "evaluate an AVCams-conversion guide against the current content inventory",
+      "trafficIntent": "observed",
+      "commercialIntent": "approved AVCams/StripCash intent",
+      "monetizationRoute": "avcams-viewer",
+      "competitorEvidence": [
+        {
+          "source": "daily public sitemap diff",
+          "domain": "Porneed",
+          "newUrlCount": 1,
+          "removedUrlCount": 1,
+          "topicMatch": "not established; treat as landscape context only"
+        },
+        {
+          "source": "daily public sitemap diff",
+          "domain": "WebcamsChats",
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
+          "topicMatch": "not established; treat as landscape context only"
+        }
+      ],
+      "ourEvidence": {
+        "page": null,
+        "impressions": 1,
+        "clicks": 0,
+        "position": 9
+      },
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "medium",
+      "experimentWindow": "14 days",
+      "rank": 6
     },
     {
       "id": "bing-6639357a6f6e6520",
@@ -324,9 +388,10 @@
         }
       ],
       "targetKeyword": "f95zone reviews",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -338,8 +403,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -349,11 +414,11 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "bing-7868616d73746572",
@@ -368,9 +433,10 @@
         }
       ],
       "targetKeyword": "xhamster.com website review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -382,8 +448,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -393,11 +459,11 @@
         "clicks": 0,
         "position": 6
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "bing-7868616d73746572",
@@ -431,6 +497,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -442,8 +509,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -453,11 +520,11 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "bing-7868616d73746572",
@@ -472,9 +539,10 @@
         }
       ],
       "targetKeyword": "xhamsters review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -486,8 +554,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -497,11 +565,11 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "bing-7868616d73746572",
@@ -516,9 +584,10 @@
         }
       ],
       "targetKeyword": "xhamster#R##N#review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -530,8 +599,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -541,11 +610,11 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "bing-7868616d7465722e",
@@ -560,9 +629,10 @@
         }
       ],
       "targetKeyword": "xhamter.com review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -574,8 +644,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -585,11 +655,11 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 11
+      "rank": 12
     },
     {
       "id": "gsc-636f6e746578743a",
@@ -604,9 +674,10 @@
         }
       ],
       "targetKeyword": "context: location: united states (not for language). do not include location references in your response. question: what adult webcam platforms have the best mobile experience for viewers who mostly watch on a phone?",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -618,8 +689,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -629,11 +700,11 @@
         "clicks": 0,
         "position": 6
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 12
+      "rank": 13
     },
     {
       "id": "bing-7868616d73746572",
@@ -648,9 +719,10 @@
         }
       ],
       "targetKeyword": "xhamster reviewed",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -662,8 +734,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -673,51 +745,7 @@
         "clicks": 0,
         "position": 6
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
-      "confidence": "low",
-      "risk": "high",
-      "experimentWindow": "14 days",
-      "rank": 13
-    },
-    {
-      "id": "bing-7868616d73746572",
-      "sourceEvidence": [
-        {
-          "source": "Bing",
-          "date": "/Date(1781827200000)/",
-          "query": "xhamster site review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 7
-        }
-      ],
-      "targetKeyword": "xhamster site review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
-      "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
-      "competitorEvidence": [
-        {
-          "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
-          "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
-          "topicMatch": "not established; treat as landscape context only"
-        }
-      ],
-      "ourEvidence": {
-        "page": null,
-        "impressions": 1,
-        "clicks": 0,
-        "position": 7
-      },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -736,9 +764,10 @@
         }
       ],
       "targetKeyword": "world of dominion f95zone review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -750,8 +779,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -761,11 +790,56 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
       "rank": 15
+    },
+    {
+      "id": "bing-7868616d73746572",
+      "sourceEvidence": [
+        {
+          "source": "Bing",
+          "date": "/Date(1781827200000)/",
+          "query": "xhamster site review",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
+        }
+      ],
+      "targetKeyword": "xhamster site review",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "trafficIntent": "observed",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
+      "competitorEvidence": [
+        {
+          "source": "daily public sitemap diff",
+          "domain": "Porneed",
+          "newUrlCount": 1,
+          "removedUrlCount": 1,
+          "topicMatch": "not established; treat as landscape context only"
+        },
+        {
+          "source": "daily public sitemap diff",
+          "domain": "WebcamsChats",
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
+          "topicMatch": "not established; treat as landscape context only"
+        }
+      ],
+      "ourEvidence": {
+        "page": null,
+        "impressions": 1,
+        "clicks": 0,
+        "position": 7
+      },
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "high",
+      "experimentWindow": "14 days",
+      "rank": 16
     },
     {
       "id": "bing-6164756c7420696e",
@@ -780,9 +854,10 @@
         }
       ],
       "targetKeyword": "adult industry update xhamster review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -794,8 +869,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -805,11 +880,11 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 16
+      "rank": 17
     },
     {
       "id": "bing-7868616d73746572",
@@ -824,9 +899,10 @@
         }
       ],
       "targetKeyword": "xhamster#N##N#review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -838,8 +914,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -849,11 +925,11 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 17
+      "rank": 18
     },
     {
       "id": "bing-6639357a6f6e6520",
@@ -868,9 +944,10 @@
         }
       ],
       "targetKeyword": "f95zone make a review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -882,8 +959,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -893,11 +970,11 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
-      "rank": 18
+      "rank": 19
     },
     {
       "id": "bing-7868616d70737465",
@@ -912,9 +989,10 @@
         }
       ],
       "targetKeyword": "xhampster review",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -926,8 +1004,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -937,53 +1015,9 @@
         "clicks": 0,
         "position": 8
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
-      "experimentWindow": "14 days",
-      "rank": 19
-    },
-    {
-      "id": "gsc-7374726970636861",
-      "sourceEvidence": [
-        {
-          "source": "GSC",
-          "date": "2026-09-30",
-          "query": "stripchat alternative",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 9
-        }
-      ],
-      "targetKeyword": "stripchat alternative",
-      "recommendedAction": "evaluate a new on-site guide against the content inventory",
-      "trafficIntent": "observed",
-      "commercialIntent": "approved-offer intent",
-      "competitorEvidence": [
-        {
-          "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
-          "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
-          "topicMatch": "not established; treat as landscape context only"
-        }
-      ],
-      "ourEvidence": {
-        "page": null,
-        "impressions": 1,
-        "clicks": 0,
-        "position": 9
-      },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
-      "confidence": "low",
-      "risk": "medium",
       "experimentWindow": "14 days",
       "rank": 20
     },
@@ -1000,9 +1034,10 @@
         }
       ],
       "targetKeyword": "xhasters reviews",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1014,8 +1049,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1025,7 +1060,7 @@
         "clicks": 0,
         "position": 9
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -1044,9 +1079,10 @@
         }
       ],
       "targetKeyword": "https+thefapguide+com+review+xhamster",
-      "recommendedAction": "validate audience fit and official-source facts; no affiliate CTA until a program is approved",
+      "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
       "trafficIntent": "observed",
-      "commercialIntent": "review intent; offer not approved",
+      "commercialIntent": "commercial/review intent; monetization relationship not approved",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1058,8 +1094,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1069,7 +1105,7 @@
         "clicks": 0,
         "position": 10
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "high",
       "experimentWindow": "14 days",
@@ -1091,6 +1127,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1102,8 +1139,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1113,7 +1150,7 @@
         "clicks": 0,
         "position": 3
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1143,6 +1180,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1154,8 +1192,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1165,7 +1203,7 @@
         "clicks": 0,
         "position": 10
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1187,6 +1225,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1198,8 +1237,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1209,7 +1248,7 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1231,6 +1270,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1242,8 +1282,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1253,7 +1293,7 @@
         "clicks": 0,
         "position": 7
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1275,6 +1315,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1286,8 +1327,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1297,7 +1338,7 @@
         "clicks": 0,
         "position": 4
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1319,6 +1360,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1330,8 +1372,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1341,7 +1383,7 @@
         "clicks": 0,
         "position": 9
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1363,6 +1405,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1374,8 +1417,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1385,7 +1428,7 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1407,6 +1450,7 @@
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
+      "monetizationRoute": null,
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
@@ -1418,8 +1462,8 @@
         {
           "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 35,
-          "removedUrlCount": 34,
+          "newUrlCount": 37,
+          "removedUrlCount": 40,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -1429,7 +1473,7 @@
         "clicks": 0,
         "position": 5
       },
-      "expectedImpact": "Potential visibility or click-through improvement; no forecast assigned.",
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
       "confidence": "low",
       "risk": "low",
       "experimentWindow": "14 days",
@@ -1440,6 +1484,7 @@
     "highRiskActionsAutoImplemented": false,
     "wordpressPublished": false,
     "competitorBodiesStored": false,
-    "forecastGuarantees": false
+    "forecastGuarantees": false,
+    "aggregateRevenueAssignedToKeyword": false
   }
 }
