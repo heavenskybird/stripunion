@@ -21,7 +21,7 @@ async function fetchWithRetry(target, accept) {
   const retryableStatuses = new Set([429, 500, 502, 503, 504, 520, 522, 524]);
   let lastError;
 
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
+  for (let attempt = 1; attempt <= 5; attempt += 1) {
     try {
       const response = await fetch(target, {
         method: 'GET',
@@ -29,15 +29,15 @@ async function fetchWithRetry(target, accept) {
         headers: { accept },
         signal: AbortSignal.timeout(timeoutMs)
       });
-      if (!retryableStatuses.has(response.status) || attempt === 3) return response;
+      if (!retryableStatuses.has(response.status) || attempt === 5) return response;
       await response.body?.cancel();
-      console.log(`WARN transient HTTP ${response.status} for ${target.pathname}; retry ${attempt}/3`);
+      console.log(`WARN transient HTTP ${response.status} for ${target.pathname}; retry ${attempt}/5`);
     } catch (error) {
       lastError = error;
-      if (attempt === 3) throw error;
+      if (attempt === 5) throw error;
       console.log(`WARN transient request failure for ${target.pathname}; retry ${attempt}/3`);
     }
-    await new Promise((resolve) => setTimeout(resolve, attempt * 700));
+    await new Promise((resolve) => setTimeout(resolve, attempt * 1500));
   }
 
   throw lastError || new Error(`Request failed for ${target.pathname}.`);
