@@ -23,3 +23,14 @@ Required GitHub Actions configuration:
 - Variable: `LIVE_MODELS_WORKER_DEPLOY_ENABLED=true`
 
 The Cloudflare API token must have permission to deploy Workers in the selected account. The Account ID is account-scoped, not domain-scoped.
+
+
+## Cloudflare bootstrap status — 2026-10-03
+
+The Cloudflare account now has the `stripunion.workers.dev` account subdomain initialized.
+
+A placeholder Worker named `stripunion-live-models` is visible in the Cloudflare dashboard. Its current dashboard state may show no active URL until the repository deployment completes. The repository deployment remains the source of truth for the Worker implementation and is expected to publish:
+
+`https://stripunion-live-models.stripunion.workers.dev`
+
+Do not hand-edit the production Worker code in the Cloudflare dashboard after repository deployment; use GitHub changes and the deployment workflow so the live implementation stays reproducible.
