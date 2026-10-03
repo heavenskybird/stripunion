@@ -28,7 +28,7 @@ function normalizeReport(response) {
 }
 
 const [landingResponse] = await client.runReport({
-  property: `properties/${propertyId}`,
+  property: \`properties/\${propertyId}\`,
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },
@@ -48,8 +48,28 @@ const [landingResponse] = await client.runReport({
   limit: 100000
 });
 
+const [marketResponse] = await client.runReport({
+  property: \`properties/\${propertyId}\`,
+  dateRanges: [{ startDate, endDate }],
+  dimensions: [
+    { name: 'date' },
+    { name: 'hostName' },
+    { name: 'country' },
+    { name: 'language' },
+    { name: 'deviceCategory' }
+  ],
+  metrics: [
+    { name: 'sessions' },
+    { name: 'activeUsers' },
+    { name: 'engagedSessions' },
+    { name: 'keyEvents' },
+    { name: 'totalRevenue' }
+  ],
+  limit: 100000
+});
+
 const [eventResponse] = await client.runReport({
-  property: `properties/${propertyId}`,
+  property: \`properties/\${propertyId}\`,
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },
@@ -65,6 +85,7 @@ const [eventResponse] = await client.runReport({
 });
 
 const rows = normalizeReport(landingResponse);
+const marketRows = normalizeReport(marketResponse);
 const eventRows = normalizeReport(eventResponse);
 
 await writeSnapshot('ga4', endDate, {
@@ -74,7 +95,9 @@ await writeSnapshot('ga4', endDate, {
   endDate,
   collectedAt: new Date().toISOString(),
   rowCount: rows.length,
+  marketRowCount: marketRows.length,
   eventRowCount: eventRows.length,
   rows,
+  marketRows,
   eventRows
 });
