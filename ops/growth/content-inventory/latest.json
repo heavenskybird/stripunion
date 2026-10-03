@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T07:49:31.228Z",
+  "generatedAt": "2026-10-03T09:29:04.203Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-03T07:47:51.706Z",
-    "bing": "2026-10-03T07:47:56.591Z",
+    "gsc": "2026-10-03T09:26:39.462Z",
+    "bing": "2026-10-03T09:26:43.230Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -642,10 +642,10 @@
       "rank": 24
     },
     {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model: Start Broadcasting on AVCams",
-      "cluster": "creator/model referral",
-      "score": 46,
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 48,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
@@ -653,32 +653,6 @@
         "uniqueness": 4,
         "freshnessSignal": 2,
         "overlapRisk": 0.25,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 371,
-        "headings": 6,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 25
-    },
-    {
-      "route": "/stripcash-affiliate-program",
-      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
-      "cluster": "guides",
-      "score": 43,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.3,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -687,6 +661,32 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 25
+    },
+    {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model on AVCams: Creator Signup Guide",
+      "cluster": "creator/model referral",
+      "score": 46,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 786,
+        "headings": 7,
+        "links": 3,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
@@ -1322,10 +1322,10 @@
       "qualityGate": "needs editorial review"
     },
     {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model: Start Broadcasting on AVCams",
-      "cluster": "creator/model referral",
-      "score": 46,
+      "route": "/stripcash-affiliate-program",
+      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
+      "cluster": "guides",
+      "score": 48,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 2,
@@ -1333,31 +1333,6 @@
         "uniqueness": 4,
         "freshnessSignal": 2,
         "overlapRisk": 0.25,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 371,
-        "headings": 6,
-        "links": 3,
-        "queryImpressions": 0
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/stripcash-affiliate-program",
-      "title": "StripCash Affiliate Program: Referral Guide for Adult Webmasters",
-      "cluster": "guides",
-      "score": 43,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.3,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -1366,6 +1341,31 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
+        "queryImpressions": 0
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model on AVCams: Creator Signup Guide",
+      "cluster": "creator/model referral",
+      "score": 46,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 0,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 786,
+        "headings": 7,
+        "links": 3,
         "queryImpressions": 0
       },
       "candidateType": "update existing Astro page",
