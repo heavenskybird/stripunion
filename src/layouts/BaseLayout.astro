@@ -238,6 +238,34 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
             outbound_url: link.href
           };
 
+          if (isAvcams && memberId) {
+            const firstPartyClick = {
+              memberId,
+              occurredAt: Date.now(),
+              pagePath: window.location.pathname,
+              affiliateSource: analyticsPayload.affiliate_source,
+              acquisitionSource: acquisition,
+              campaignId: analyticsPayload.stripcash_campaign_id,
+              creativeId: analyticsPayload.stripcash_creative_id,
+              sourceId: analyticsPayload.stripcash_source_id,
+              p1: analyticsPayload.stripcash_p1,
+              p2: analyticsPayload.stripcash_p2,
+              p3: analyticsPayload.stripcash_p3,
+              targetDomain: analyticsPayload.avcams_target_domain,
+              destinationPath: analyticsPayload.avcams_path
+            };
+
+            try {
+              fetch('https://stripunion-live-models.stripunion.workers.dev/events/click', {
+                method: 'POST',
+                headers: { 'content-type': 'application/json' },
+                body: JSON.stringify(firstPartyClick),
+                keepalive: true,
+                credentials: 'omit'
+              }).catch(() => {});
+            } catch {}
+          }
+
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'affiliate_click', analyticsPayload);
           } else {
