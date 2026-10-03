@@ -2,13 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 
-const title = 'Become a Cam Model: Start Broadcasting on AVCams';
-const description = 'Interested in becoming a cam model? Review the basics, then continue to AVCams model registration when you are ready. Adults 18+ only.';
+const title = 'Become a Cam Model on AVCams: Creator Signup Guide';
+const description = 'Want to become a cam model? See how AVCams creator registration works, what to prepare, how earnings can vary, and how to start. Adults 18+ only.';
 
 const faq = [
-  ['Can I register as a viewer and a model through the same page?', 'Viewer access and model registration use separate paths. Use the model registration route if you want to broadcast.'],
-  ['Does registering guarantee income?', 'No. Earnings depend on many factors, and this page does not make income guarantees. Review the current registration terms before continuing.'],
-  ['Where do I start?', 'Use the model registration button below to open the current AVCams model signup flow.']
+  ['Is this a job offer from StripUnion?', 'No. StripUnion is a referral and information site. Registration, verification, creator terms, account approval and payouts are handled by the platform.'],
+  ['Can I register as a viewer and a model through the same page?', 'Viewer access and model registration use separate paths. Use the creator registration route if you want to broadcast.'],
+  ['Do I need to join a studio?', 'No studio route is promoted here. This page sends prospective creators to the dedicated model registration flow.'],
+  ['How much can I earn?', 'There is no guaranteed income. Earnings depend on factors such as activity, audience response, paid interactions, pricing and retention. Review the current creator terms and payout information during registration.'],
+  ['Will I need age and identity verification?', 'Yes. Adult creator platforms require age and identity checks. Follow the current verification steps shown during registration and never submit documents anywhere except the official platform flow.'],
+  ['Where do I start?', 'Use the model registration button on this page to open the current AVCams creator signup flow.']
 ];
 
 const faqSchema = {
@@ -20,65 +23,170 @@ const faqSchema = {
     acceptedAnswer: { '@type': 'Answer', text: answer }
   }))
 };
+
+const steps = [
+  ['1', 'Create your creator account', 'Open the dedicated model registration route and start with accurate account information.'],
+  ['2', 'Complete verification', 'Follow the platform’s current age, identity and account-verification requirements.'],
+  ['3', 'Build your profile', 'Choose a clear profile identity, presentation and room positioning that match the audience you want to attract.'],
+  ['4', 'Go live and improve', 'Start broadcasting, review your results and refine your presentation, schedule and audience strategy over time.']
+];
+
+const growthFactors = [
+  ['Consistency', 'A creator who appears regularly gives returning viewers more chances to find the room again.'],
+  ['Positioning', 'A clear niche, presentation style and profile make it easier for the right audience to understand what the room offers.'],
+  ['First impression', 'Profile quality, room presentation and the opening moments of a session can affect whether visitors stay.'],
+  ['Interaction', 'Responsive conversation and clear boundaries can improve the experience without requiring you to overshare personal information.'],
+  ['Retention', 'Repeat viewers can matter more than one-off traffic. Treat returning audience as a long-term asset.'],
+  ['Privacy discipline', 'Keep personal information private, use the platform’s controls and follow the current creator rules.']
+];
 ---
 <BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
-  <section class="page-hero">
+  <section class="page-hero creator-hero">
     <div class="shell narrow">
       <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/avcams">AVCams</a><span>/</span><span>Become a Model</span></nav>
-      <span class="kicker">Creator route · Adults 18+</span>
-      <h1>Become a cam model on AVCams</h1>
-      <p class="lead">If you are interested in broadcasting rather than watching, start with the dedicated model registration flow. Review the current requirements and terms before submitting your application.</p>
+      <span class="kicker">Creator opportunity · Adults 18+</span>
+      <h1>Build your live creator presence on AVCams</h1>
+      <p class="lead">If you want to broadcast rather than watch, use the dedicated creator route. Set up your profile, complete the required verification, go live and improve from real audience response. Earnings are variable and never guaranteed.</p>
       <div class="hero-actions">
         <AffiliateButton source="become_model_hero" label="Start Model Registration →" destinationPath="/signup/model" />
-        <a class="button button-secondary" href="/avcams">Browse AVCams first</a>
+        <a class="button button-secondary" href="#how-it-works">See how it works</a>
+      </div>
+      <div class="creator-trust" aria-label="Creator route highlights">
+        <div><strong>18+ only</strong><span>Age and identity verification required</span></div>
+        <div><strong>Direct creator route</strong><span>No studio signup promoted</span></div>
+        <div><strong>Platform-managed</strong><span>Creator approval, terms and payouts stay with the platform</span></div>
       </div>
     </div>
   </section>
 
   <section class="section shell narrow">
-    <div class="decision-grid">
-      <div><span>Route</span><strong>Model registration</strong><p>Use the dedicated creator signup rather than the viewer registration path.</p></div>
-      <div><span>Eligibility</span><strong>Adults 18+ only</strong><p>Review the current identity, age and account requirements shown during registration.</p></div>
-      <div><span>Earnings</span><strong>No guarantees</strong><p>Income varies. Treat any earnings claim that promises a fixed result with caution.</p></div>
+    <div class="section-head">
+      <span class="kicker">Why creators consider live cam</span>
+      <h2>You are building an audience, not buying a lottery ticket</h2>
+      <p>The useful way to think about cam work is as an audience-and-conversion business. You control your presentation and activity; the platform controls the current product rules, account requirements and payout mechanics.</p>
     </div>
 
-    <section class="article-body">
-      <section>
-        <h2>What to prepare before registration</h2>
-        <p>Use accurate personal information, make sure you can complete the current verification steps, and read the platform terms before you begin broadcasting. The registration flow itself is the source of truth for the latest requirements.</p>
-      </section>
-      <section>
-        <h2>Model registration is separate from viewer access</h2>
-        <p>If your goal is to broadcast, go directly to the model signup route. If your goal is only to watch live rooms, use the normal AVCams viewer experience instead.</p>
-      </section>
-      <section>
-        <h2>Do not plan around guaranteed earnings</h2>
-        <p>Creator earnings can vary with activity, audience, pricing and other factors. This page does not publish a fixed income forecast or promise a specific result.</p>
-      </section>
-    </section>
+    <div class="decision-grid">
+      <div><span>Audience</span><strong>Live discovery</strong><p>Your room can be discovered while you are online, so presentation and consistency matter.</p></div>
+      <div><span>Monetization</span><strong>Paid interaction</strong><p>Creator earnings can depend on the paid features and viewer activity available under the current platform model.</p></div>
+      <div><span>Growth</span><strong>Repeat viewers</strong><p>Returning audience and better conversion can matter more than chasing a single high-traffic session.</p></div>
+    </div>
+  </section>
 
-    <section class="conversion-strip">
-      <div>
-        <span class="kicker">Creator signup</span>
-        <h2>Ready to start the registration process?</h2>
-        <p>Open the current AVCams model signup flow and review the requirements before submitting.</p>
+  <section id="how-it-works" class="section section-soft">
+    <div class="shell narrow">
+      <div class="section-head">
+        <span class="kicker">Start in four steps</span>
+        <h2>From registration to your first live session</h2>
+        <p>The exact verification screens can change, so the live registration flow is always the source of truth.</p>
       </div>
-      <AffiliateButton source="become_model_mid" label="Become a Model →" destinationPath="/signup/model" />
-    </section>
+      <div class="creator-steps">
+        {steps.map(([number, heading, body]) => (
+          <article class="creator-step">
+            <span class="step-number">{number}</span>
+            <div><h3>{heading}</h3><p>{body}</p></div>
+          </article>
+        ))}
+      </div>
+      <div class="conversion-strip">
+        <div>
+          <span class="kicker">Ready to begin?</span>
+          <h2>Open the creator registration flow</h2>
+          <p>You can review the current requirements before deciding whether to complete the application.</p>
+        </div>
+        <AffiliateButton source="become_model_steps" label="Open Model Signup →" destinationPath="/signup/model" />
+      </div>
+    </div>
+  </section>
 
+  <section class="section shell narrow">
+    <div class="section-head">
+      <span class="kicker">What can improve results</span>
+      <h2>Six levers worth working on after you go live</h2>
+      <p>None of these guarantees income. They are operating levers you can test and improve over time.</p>
+    </div>
+    <div class="money-grid creator-grid">
+      {growthFactors.map(([heading, body]) => (
+        <article class="money-card">
+          <h3>{heading}</h3>
+          <p>{body}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section section-soft">
+    <div class="shell narrow">
+      <div class="take-box">
+        <span class="kicker">Protect your downside</span>
+        <h2>Keep creator privacy and account safety part of the plan</h2>
+        <p>Use only the official registration route for identity documents, avoid exposing private contact information to viewers, review the current creator rules, and treat any third party promising guaranteed income with caution.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell narrow">
     <section class="faq">
       <span class="kicker">FAQ</span>
-      <h2>Model registration questions</h2>
+      <h2>Questions before becoming a cam model</h2>
       {faq.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
     </section>
 
-    <section class="end-cta">
+    <section class="end-cta creator-final-cta">
       <div>
-        <span class="kicker">Start here</span>
-        <h2>Open model registration</h2>
-        <p>Continue when you are ready to review the live signup requirements.</p>
+        <span class="kicker">Creator signup · 18+</span>
+        <h2>Ready to see the current registration requirements?</h2>
+        <p>Open the official creator flow, review the terms and decide whether AVCams fits the way you want to broadcast.</p>
       </div>
       <AffiliateButton source="become_model_bottom" label="Start Model Registration →" destinationPath="/signup/model" />
     </section>
   </section>
+
+  <style>
+    .creator-hero .lead { max-width: 760px; }
+    .creator-trust {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 28px;
+    }
+    .creator-trust div,
+    .creator-step {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--surface);
+    }
+    .creator-trust div {
+      padding: 16px;
+      display: grid;
+      gap: 6px;
+    }
+    .creator-trust strong { font-size: 1rem; }
+    .creator-trust span { color: var(--muted); font-size: .92rem; }
+    .creator-steps { display: grid; gap: 14px; margin: 28px 0; }
+    .creator-step {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      padding: 18px;
+      align-items: start;
+    }
+    .step-number {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 999px;
+      background: var(--text);
+      color: var(--surface);
+      font-weight: 800;
+    }
+    .creator-step h3 { margin: 0 0 6px; }
+    .creator-step p { margin: 0; color: var(--muted); }
+    .creator-grid .money-card { min-height: 170px; }
+    .creator-final-cta { margin-top: 28px; }
+    @media (max-width: 760px) {
+      .creator-trust { grid-template-columns: 1fr; }
+    }
+  </style>
 </BaseLayout>
