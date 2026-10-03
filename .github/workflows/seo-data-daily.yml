@@ -12,6 +12,7 @@ on:
       - ops/growth/opportunities.mjs
       - ops/growth/content-inventory.mjs
       - ops/growth/offers/**
+      - scripts/blog-health-check.mjs
       - src/layouts/BaseLayout.astro
       - src/pages/**
       - src/data/**
