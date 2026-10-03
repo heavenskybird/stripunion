@@ -115,6 +115,19 @@ jobs:
           fi
           npm run collect:stripcash
 
+      - name: Collect first-party AVCams attribution
+        id: collect_attribution
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          STRIPCASH_POSTBACK_SECRET: ${{ secrets.STRIPCASH_POSTBACK_SECRET }}
+        run: |
+          if [ -z "$STRIPCASH_POSTBACK_SECRET" ]; then
+            echo "STRIPCASH_POSTBACK_SECRET is not configured"
+            exit 1
+          fi
+          npm run collect:attribution
+
       - name: Check two-site public health
         id: two_site_health
         continue-on-error: true
@@ -164,6 +177,7 @@ jobs:
           BING_OUTCOME: ${{ steps.collect_bing.outcome }}
           BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
           STRIPCASH_OUTCOME: ${{ steps.collect_stripcash.outcome }}
+          ATTRIBUTION_OUTCOME: ${{ steps.collect_attribution.outcome }}
           BLOG_HEALTH_OUTCOME: ${{ steps.two_site_health.outcome }}
         run: |
           failed=0
@@ -186,6 +200,11 @@ jobs:
             echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
           else
             echo "ga4 admin: discovery failed; any previous valid snapshot remains on disk"
+          fi
+          if [ "$ATTRIBUTION_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/attribution.json" > /dev/null; then
+            echo "first-party attribution: collection succeeded and snapshot exists"
+          else
+            echo "first-party attribution: unavailable until STRIPCASH_POSTBACK_SECRET and StripCash postback are configured"
           fi
           if [ "$BLOG_HEALTH_OUTCOME" = success ]; then
             echo "blog public health: succeeded"
