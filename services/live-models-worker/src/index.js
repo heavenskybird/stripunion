@@ -4,6 +4,8 @@ const CATALOG_RETENTION_MS = 24 * 60 * 60 * 1000;
 const MAX_STORED_MODELS = 500;
 const DEFAULT_LIMIT = 12;
 const MAX_LIMIT = 24;
+const ATTRIBUTION_RETENTION_MS = 30 * 24 * 60 * 60 * 1000;
+const ATTRIBUTION_CLEANUP_INTERVAL_MS = 6 * 60 * 60 * 1000;
 
 function json(data, init = {}) {
   const headers = new Headers(init.headers || {});
@@ -160,6 +162,322 @@ function originAllowed(request, env) {
   return !origin || allowedOrigins(env).has(origin);
 }
 
+function browserOriginAllowed(request, env) {
+  const origin = request.headers.get('origin');
+  return Boolean(origin && allowedOrigins(env).has(origin));
+}
+
+function safeText(value, fallback = 'unknown', max = 120) {
+  const text = String(value ?? '').trim();
+  if (!text) return fallback;
+  return text
+    .replace(/[^a-zA-Z0-9_./:-]+/g, '_')
+    .replace(/^_+|_+$/g, '')
+    .slice(0, max) || fallback;
+}
+
+function pickAlias(input, aliases) {
+  const entries = Object.entries(input || {});
+  for (const alias of aliases) {
+    const match = entries.find(([key]) => key.toLowerCase() === alias.toLowerCase());
+    if (match && match[1] != null && String(match[1]).trim() !== '') return match[1];
+  }
+  return null;
+}
+
+export function normalizeMemberId(value) {
+  const memberId = String(value || '').trim().toLowerCase();
+  return /^su_[a-z0-9_]{8,80}$/.test(memberId) ? memberId : null;
+}
+
+export function normalizeAttributionClick(input = {}) {
+  const memberId = normalizeMemberId(input.memberId);
+  if (!memberId) return null;
+
+  return {
+    memberId,
+    occurredAt: Number.isFinite(Number(input.occurredAt)) ? Number(input.occurredAt) : Date.now(),
+    pagePath: safeText(input.pagePath, '/', 160),
+    affiliateSource: safeText(input.affiliateSource),
+    acquisitionSource: safeText(input.acquisitionSource),
+    campaignId: safeText(input.campaignId),
+    creativeId: safeText(input.creativeId),
+    sourceId: safeText(input.sourceId, 'stripunion'),
+    p1: safeText(input.p1),
+    p2: safeText(input.p2),
+    p3: safeText(input.p3),
+    targetDomain: safeText(input.targetDomain, 'avcams.online'),
+    destinationPath: safeText(input.destinationPath, '/', 180)
+  };
+}
+
+function normalizeEventType(value) {
+  const text = String(value || '').trim().toLowerCase().replace(/[^a-z0-9]+/g, '_');
+  if (text.includes('first') && text.includes('purchase')) return 'first_purchase';
+  if (text.includes('rebill')) return 'rebill';
+  if (text.includes('refund')) return 'refund';
+  if (text.includes('registration') || text.includes('signup')) return 'member_registration';
+  if (text.includes('purchase')) return 'purchase';
+  return text ? safeText(text, 'unknown', 60) : 'unknown';
+}
+
+function safeNumber(value) {
+  if (value == null || value === '') return 0;
+  const number = Number(String(value).replace(/[^0-9.-]+/g, ''));
+  return Number.isFinite(number) ? number : 0;
+}
+
+export function normalizePostback(input = {}) {
+  const memberId = normalizeMemberId(pickAlias(input, ['memberId', 'member_id', 'memberid']));
+  const eventType = normalizeEventType(
+    pickAlias(input, ['type', 'event', 'eventType', 'conversionType', 'postbackType', 'action'])
+  );
+  const revenue = safeNumber(
+    pickAlias(input, ['revenue', 'payout', 'commission', 'earnings', 'amount'])
+  );
+  const currency = safeText(
+    pickAlias(input, ['currency', 'currencyCode', 'currency_code']),
+    'unknown',
+    12
+  ).toUpperCase();
+  const transactionId = safeText(
+    pickAlias(input, ['transactionId', 'transaction_id', 'txid', 'id']),
+    '',
+    120
+  );
+
+  return {
+    memberId,
+    eventType,
+    revenue,
+    currency,
+    transactionId,
+    occurredAt: Date.now()
+  };
+}
+
+function emptySummary() {
+  return {
+    totalClicks: 0,
+    totalPostbacks: 0,
+    matchedPostbacks: 0,
+    unmatchedPostbacks: 0,
+    duplicatePostbacks: 0,
+    eventCounts: {},
+    revenueByCurrency: {},
+    byP1: {},
+    byAffiliateSource: {},
+    updatedAt: null
+  };
+}
+
+function incrementNumber(target, key, amount = 1) {
+  target[key] = Number(target[key] || 0) + amount;
+}
+
+function incrementRevenue(target, currency, amount) {
+  if (!amount) return;
+  const key = safeText(currency, 'UNKNOWN', 12).toUpperCase();
+  target[key] = Number(target[key] || 0) + amount;
+}
+
+function bucket(container, key) {
+  const safeKey = safeText(key);
+  if (!container[safeKey]) {
+    container[safeKey] = {
+      clicks: 0,
+      postbacks: 0,
+      matchedPostbacks: 0,
+      eventCounts: {},
+      revenueByCurrency: {}
+    };
+  }
+  return container[safeKey];
+}
+
+async function fingerprintPostback(postback) {
+  const stable = JSON.stringify({
+    memberId: postback.memberId,
+    eventType: postback.eventType,
+    revenue: postback.revenue,
+    currency: postback.currency,
+    transactionId: postback.transactionId
+  });
+  const bytes = new TextEncoder().encode(stable);
+  const digest = await crypto.subtle.digest('SHA-256', bytes);
+  return [...new Uint8Array(digest)].map((value) => value.toString(16).padStart(2, '0')).join('');
+}
+
+function constantTimeEqual(left, right) {
+  const a = String(left || '');
+  const b = String(right || '');
+  if (!a || a.length !== b.length) return false;
+  let diff = 0;
+  for (let index = 0; index < a.length; index += 1) {
+    diff |= a.charCodeAt(index) ^ b.charCodeAt(index);
+  }
+  return diff === 0;
+}
+
+async function requestPayload(request) {
+  const url = new URL(request.url);
+  const fromQuery = Object.fromEntries(url.searchParams.entries());
+  delete fromQuery.token;
+
+  if (request.method === 'GET') return fromQuery;
+
+  const contentType = request.headers.get('content-type') || '';
+  try {
+    if (contentType.includes('application/json')) {
+      return { ...fromQuery, ...(await request.json()) };
+    }
+    if (contentType.includes('application/x-www-form-urlencoded') || contentType.includes('multipart/form-data')) {
+      const form = await request.formData();
+      return { ...fromQuery, ...Object.fromEntries(form.entries()) };
+    }
+    const text = await request.text();
+    if (!text) return fromQuery;
+    try {
+      return { ...fromQuery, ...JSON.parse(text) };
+    } catch {
+      return { ...fromQuery, ...Object.fromEntries(new URLSearchParams(text).entries()) };
+    }
+  } catch {
+    return fromQuery;
+  }
+}
+
+export class AttributionStore {
+  constructor(state) {
+    this.state = state;
+  }
+
+  async scheduleCleanup() {
+    const current = await this.state.storage.getAlarm();
+    const desired = Date.now() + ATTRIBUTION_CLEANUP_INTERVAL_MS;
+    if (!current || current > desired) await this.state.storage.setAlarm(desired);
+  }
+
+  async alarm() {
+    const cutoff = Date.now() - ATTRIBUTION_RETENTION_MS;
+    const [clicks, events] = await Promise.all([
+      this.state.storage.list({ prefix: 'click:' }),
+      this.state.storage.list({ prefix: 'event:' })
+    ]);
+
+    const deletes = [];
+    for (const [key, value] of clicks) {
+      if (Number(value?.occurredAt || 0) < cutoff) deletes.push(key);
+    }
+    for (const [key, value] of events) {
+      if (Number(value?.occurredAt || 0) < cutoff) deletes.push(key);
+    }
+    if (deletes.length) await this.state.storage.delete(deletes);
+    if (clicks.size || events.size) await this.state.storage.setAlarm(Date.now() + ATTRIBUTION_CLEANUP_INTERVAL_MS);
+  }
+
+  async recordClick(input) {
+    if (input?.test === true) return { ok: true, test: true };
+
+    const click = normalizeAttributionClick(input);
+    if (!click) return { ok: false, error: 'invalid_member_id' };
+
+    const key = `click:${click.memberId}`;
+    const existing = await this.state.storage.get(key);
+    await this.state.storage.put(key, click);
+
+    if (!existing) {
+      const summary = (await this.state.storage.get('summary')) || emptySummary();
+      summary.totalClicks += 1;
+      bucket(summary.byP1, click.p1).clicks += 1;
+      bucket(summary.byAffiliateSource, click.affiliateSource).clicks += 1;
+      summary.updatedAt = new Date().toISOString();
+      await this.state.storage.put('summary', summary);
+    }
+
+    await this.scheduleCleanup();
+    return { ok: true };
+  }
+
+  async recordPostback(input) {
+    const postback = normalizePostback(input);
+    const fingerprint = await fingerprintPostback(postback);
+    const seenKey = `seen:${fingerprint}`;
+
+    if (await this.state.storage.get(seenKey)) {
+      const summary = (await this.state.storage.get('summary')) || emptySummary();
+      summary.duplicatePostbacks += 1;
+      summary.updatedAt = new Date().toISOString();
+      await this.state.storage.put('summary', summary);
+      return { ok: true, duplicate: true };
+    }
+
+    const click = postback.memberId
+      ? await this.state.storage.get(`click:${postback.memberId}`)
+      : null;
+
+    const summary = (await this.state.storage.get('summary')) || emptySummary();
+    summary.totalPostbacks += 1;
+    if (click) summary.matchedPostbacks += 1;
+    else summary.unmatchedPostbacks += 1;
+    incrementNumber(summary.eventCounts, postback.eventType);
+    incrementRevenue(summary.revenueByCurrency, postback.currency, postback.revenue);
+
+    if (click) {
+      for (const group of [
+        bucket(summary.byP1, click.p1),
+        bucket(summary.byAffiliateSource, click.affiliateSource)
+      ]) {
+        group.postbacks += 1;
+        group.matchedPostbacks += 1;
+        incrementNumber(group.eventCounts, postback.eventType);
+        incrementRevenue(group.revenueByCurrency, postback.currency, postback.revenue);
+      }
+    }
+
+    summary.updatedAt = new Date().toISOString();
+    const eventRecord = {
+      occurredAt: postback.occurredAt,
+      eventType: postback.eventType,
+      revenue: postback.revenue,
+      currency: postback.currency,
+      matched: Boolean(click),
+      p1: click?.p1 || null,
+      affiliateSource: click?.affiliateSource || null
+    };
+
+    await this.state.storage.put({
+      summary,
+      [seenKey]: postback.occurredAt,
+      [`event:${postback.occurredAt}:${fingerprint.slice(0, 16)}`]: eventRecord
+    });
+    await this.scheduleCleanup();
+
+    return { ok: true, matched: Boolean(click), eventType: postback.eventType };
+  }
+
+  async fetch(request) {
+    const url = new URL(request.url);
+
+    if (url.pathname === '/click' && request.method === 'POST') {
+      return json(await this.recordClick(await request.json()), { status: 202 });
+    }
+
+    if (url.pathname === '/postback' && request.method === 'POST') {
+      return json(await this.recordPostback(await request.json()), { status: 200 });
+    }
+
+    if (url.pathname === '/summary' && request.method === 'GET') {
+      return json({
+        ok: true,
+        summary: (await this.state.storage.get('summary')) || emptySummary()
+      });
+    }
+
+    return json({ error: 'not_found' }, { status: 404 });
+  }
+}
+
 export class ModelsCatalog {
   constructor(state, env) {
     this.state = state;
@@ -290,27 +608,86 @@ export default {
       return new Response(null, { status: 204, headers });
     }
 
-    if (request.method !== 'GET') return json({ error: 'method_not_allowed' }, { status: 405, headers });
-
-    if (url.pathname === '/health') {
+    if (url.pathname === '/health' && request.method === 'GET') {
       return json({ ok: true, service: 'stripunion-live-models' }, { headers });
     }
 
-    if (url.pathname !== '/models') return json({ error: 'not_found' }, { status: 404, headers });
-    if (!originAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
+    if (url.pathname === '/models') {
+      if (request.method !== 'GET') return json({ error: 'method_not_allowed' }, { status: 405, headers });
+      if (!originAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
 
-    const id = env.CATALOG.idFromName('global');
-    const stub = env.CATALOG.get(id);
-    const internal = new Request(`https://catalog.internal/models${url.search}`, {
-      headers: {
-        'x-su-country': String(request.cf?.country || ''),
-        'x-su-region': String(request.cf?.regionCode || ''),
-        'x-su-languages': request.headers.get('accept-language') || ''
+      const id = env.CATALOG.idFromName('global');
+      const stub = env.CATALOG.get(id);
+      const internal = new Request(`https://catalog.internal/models${url.search}`, {
+        headers: {
+          'x-su-country': String(request.cf?.country || ''),
+          'x-su-region': String(request.cf?.regionCode || ''),
+          'x-su-languages': request.headers.get('accept-language') || ''
+        }
+      });
+      const response = await stub.fetch(internal);
+      const outgoing = new Response(response.body, response);
+      headers.forEach((value, key) => outgoing.headers.set(key, value));
+      return outgoing;
+    }
+
+    if (url.pathname === '/events/click') {
+      if (request.method !== 'POST') return json({ error: 'method_not_allowed' }, { status: 405, headers });
+      if (!browserOriginAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
+
+      const payload = await requestPayload(request);
+      const id = env.ATTRIBUTION.idFromName('global');
+      const stub = env.ATTRIBUTION.get(id);
+      const response = await stub.fetch(new Request('https://attribution.internal/click', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload)
+      }));
+      const outgoing = new Response(response.body, response);
+      headers.forEach((value, key) => outgoing.headers.set(key, value));
+      return outgoing;
+    }
+
+    if (url.pathname === '/postback/stripcash') {
+      if (!['GET', 'POST'].includes(request.method)) {
+        return json({ error: 'method_not_allowed' }, { status: 405 });
       }
-    });
-    const response = await stub.fetch(internal);
-    const outgoing = new Response(response.body, response);
-    headers.forEach((value, key) => outgoing.headers.set(key, value));
-    return outgoing;
+
+      const secret = String(env.STRIPCASH_POSTBACK_SECRET || '').trim();
+      if (!secret) return json({ error: 'postback_not_configured' }, { status: 503 });
+
+      const supplied =
+        url.searchParams.get('token') ||
+        request.headers.get('authorization')?.replace(/^Bearer\s+/i, '') ||
+        '';
+
+      if (!constantTimeEqual(secret, supplied)) {
+        return json({ error: 'unauthorized' }, { status: 401 });
+      }
+
+      const payload = await requestPayload(request);
+      const id = env.ATTRIBUTION.idFromName('global');
+      const stub = env.ATTRIBUTION.get(id);
+      return stub.fetch(new Request('https://attribution.internal/postback', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload)
+      }));
+    }
+
+    if (url.pathname === '/analytics/summary') {
+      if (request.method !== 'GET') return json({ error: 'method_not_allowed' }, { status: 405 });
+
+      const secret = String(env.STRIPCASH_POSTBACK_SECRET || '').trim();
+      const supplied = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '') || '';
+      if (!secret) return json({ error: 'analytics_not_configured' }, { status: 503 });
+      if (!constantTimeEqual(secret, supplied)) return json({ error: 'unauthorized' }, { status: 401 });
+
+      const id = env.ATTRIBUTION.idFromName('global');
+      const stub = env.ATTRIBUTION.get(id);
+      return stub.fetch(new Request('https://attribution.internal/summary'));
+    }
+
+    return json({ error: 'not_found' }, { status: 404, headers });
   }
 };
