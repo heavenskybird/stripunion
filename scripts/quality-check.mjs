@@ -148,8 +148,23 @@ for (const required of ['FAQPage', 'If discovery is the problem', 'If spending o
   }
 }
 
+const liveNowCommercialPages = [
+  ['src/pages/index.astro', 'homepage_live_now'],
+  ['src/pages/best-live-cam-sites.astro', 'best_live_cam_sites_live_now'],
+  ['src/pages/best-free-live-cam-sites.astro', 'best_free_live_cams_live_now'],
+  ['src/pages/stripchat-alternatives.astro', 'stripchat_alternatives_live_now'],
+  ['src/pages/stripchat-pricing.astro', 'stripchat_pricing_live_now']
+];
+for (const [file, source] of liveNowCommercialPages) {
+  const content = fs.readFileSync(file, 'utf8');
+  if (!content.includes('LiveModelsGrid') || !content.includes(source)) {
+    failed = true;
+    console.error(`FAIL: commercial page is missing attributed Live Now discovery: ${file}`);
+  }
+}
+
 const liveModelsComponent = fs.readFileSync('src/components/LiveModelsGrid.astro', 'utf8');
-for (const required of ['PUBLIC_LIVE_MODELS_API_URL', 'https://stripunion-live-models.stripunion.workers.dev/models', 'targetDomain', 'avcams_live_model', 'search/magic-search']) {
+for (const required of ['PUBLIC_LIVE_MODELS_API_URL', 'https://stripunion-live-models.stripunion.workers.dev/models', 'data-live-source', 'data-live-p1', 'data-live-limit', 'live_models_loaded', 'live_models_unavailable', 'targetDomain', 'search/magic-search']) {
   if (!liveModelsComponent.includes(required)) {
     failed = true;
     console.error(`FAIL: LiveModelsGrid is missing required AVCams live-discovery state: ${required}`);
