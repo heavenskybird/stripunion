@@ -54,7 +54,6 @@ const pageFiles = (await fs.readdir(path.join(repo, 'src/pages')))
   .filter((file) => file.endsWith('.astro') && !['404.astro', 'robots.txt.js', 'sitemap.xml.js'].includes(file));
 const staticRoutes = new Set(pageFiles.map((file) => file.replace(/\.astro$/, '').toLowerCase()));
 const reviewSlugs = new Set(Object.values({ ...reviews, ...vrReviews }).map((review) => review.slug.toLowerCase()));
-const pendingSlugs = new Set(Object.keys(pendingReviews).map((slug) => slug.toLowerCase()));
 
 const candidates = [];
 let droppedNoiseQueries = 0;
@@ -170,6 +169,19 @@ function topicFor(rawQuery) {
         label: `${review.name} review`,
         page: `/${review.slug}`,
         state: 'review'
+      };
+    }
+  }
+
+  for (const [slug, [name]] of Object.entries(pendingReviews)) {
+    const normalizedSlug = normalizeQuery(slug);
+    const normalizedName = normalizeQuery(name);
+    if ((normalizedSlug && query.includes(normalizedSlug)) || (normalizedName && query.includes(normalizedName))) {
+      return {
+        key: `${slug}-review`,
+        label: `${name} review`,
+        page: `/${slug}`,
+        state: 'pending'
       };
     }
   }
