@@ -57,7 +57,10 @@ function check(condition, message) {
 
 function affiliateAnchors(html = '') {
   return [...String(html).matchAll(/<a\b[^>]*href=["'](https:\/\/go\.whitetrafsa\.com[^"']*)["'][^>]*>[\s\S]*?<\/a>/gi)]
-    .map((match) => ({ html: match[0], href: match[1].replace(/&amp;/g, '&') }));
+    .map((match) => ({
+      html: match[0],
+      href: match[1].replace(/&(?:amp|#0*38|#x0*26);/gi, '&')
+    }));
 }
 
 function checkAvcamsAffiliateLinks(html, surface) {
@@ -139,6 +142,8 @@ function selfTest() {
   const sampleAffiliate = '<a href="https://go.whitetrafsa.com?userId=abc&targetDomain=avcams.online" onclick="gtag(\'event\',\'affiliate_click\',{affiliate_partner:\'avcams\'})">Explore AVCams →</a>';
   assert.equal(affiliateAnchors(sampleAffiliate).length, 1);
   assert.equal(new URL(affiliateAnchors(sampleAffiliate)[0].href).searchParams.get('targetDomain'), 'avcams.online');
+  const escapedAffiliate = '<a href="https://go.whitetrafsa.com?userId=abc&#038;targetDomain=avcams.online">Explore AVCams →</a>';
+  assert.equal(new URL(affiliateAnchors(escapedAffiliate)[0].href).searchParams.get('targetDomain'), 'avcams.online');
   const groups = 'User-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /';
   assert.equal(/^\s*Disallow:\s*\/\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
   assert.equal(/^\s*Disallow:\s*\/\s*$/im.test('User-agent: *\nDisallow:'), false);
