@@ -693,7 +693,10 @@ export default {
       if (request.method !== 'GET') return json({ error: 'method_not_allowed' }, { status: 405 });
 
       const secret = String(env.STRIPCASH_POSTBACK_SECRET || '').trim();
-      const supplied = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '') || '';
+      const supplied =
+        request.headers.get('x-stripunion-attribution-token') ||
+        request.headers.get('authorization')?.replace(/^Bearer\s+/i, '') ||
+        '';
       if (!secret) return json({ error: 'analytics_not_configured' }, { status: 503 });
       if (!constantTimeEqual(secret, supplied)) return json({ error: 'unauthorized' }, { status: 401 });
 

@@ -8,16 +8,24 @@ const snapshotDate = process.env.SEO_END_DATE || daysAgo(1);
 
 if (!token) throw new Error('STRIPCASH_POSTBACK_SECRET is not configured.');
 
-const response = await fetch(API_URL, {
-  headers: {
-    authorization: `Bearer ${token}`,
-    accept: 'application/json'
-  },
-  signal: AbortSignal.timeout(15000)
-});
+let response;
+for (let attempt = 1; attempt <= 6; attempt += 1) {
+  response = await fetch(API_URL, {
+    headers: {
+      'x-stripunion-attribution-token': token,
+      accept: 'application/json'
+    },
+    signal: AbortSignal.timeout(15000)
+  });
 
-if (!response.ok) {
-  throw new Error(`StripUnion attribution summary returned HTTP ${response.status}.`);
+  if (response.ok) break;
+  if (![401, 503].includes(response.status) || attempt === 6) {
+    throw new Error(`StripUnion attribution summary returned HTTP ${response.status}.`);
+  }
+
+  await response.body?.cancel();
+  console.log(`Attribution summary HTTP ${response.status}; retrying after deployment/auth propagation (${attempt}/6).`);
+  await new Promise((resolve) => setTimeout(resolve, attempt * 2000));
 }
 
 const payload = await response.json();
