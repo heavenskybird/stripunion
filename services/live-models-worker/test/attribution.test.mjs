@@ -54,3 +54,20 @@ test('normalizes registration and rebill labels', () => {
   assert.equal(normalizePostback({ event: 'Member registration' }).eventType, 'member_registration');
   assert.equal(normalizePostback({ type: 'Rebill' }).eventType, 'rebill');
 });
+
+
+test('normalizes model registration separately from member registration', () => {
+  assert.equal(normalizePostback({ type: 'Model registration' }).eventType, 'model_registration');
+  assert.equal(normalizePostback({ type: 'Member registration' }).eventType, 'member_registration');
+});
+
+test('normalizes positive refund amount to negative revenue', () => {
+  const postback = normalizePostback({
+    memberId: 'su_refund123456',
+    type: 'Refund',
+    revenue: '8.25',
+    transactionId: 'refund-1'
+  });
+  assert.equal(postback.eventType, 'refund');
+  assert.equal(postback.revenue, -8.25);
+});
