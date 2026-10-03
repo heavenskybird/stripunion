@@ -32,6 +32,8 @@ jobs:
           node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
           node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs --self-test
+          node ops/seo-data-layer/src/distribution/telegram.mjs --self-test
+          node ops/seo-data-layer/src/distribution/telegram-evergreen.mjs --self-test
           node ops/seo-data-layer/src/collectors/stripcash-models-schema-probe.mjs --self-test
           node --check services/live-models-worker/src/index.js
           npm --prefix services/live-models-worker install --no-audit --no-fund
