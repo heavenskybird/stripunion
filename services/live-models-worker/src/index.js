@@ -216,6 +216,8 @@ function normalizeEventType(value) {
   if (text.includes('first') && text.includes('purchase')) return 'first_purchase';
   if (text.includes('rebill')) return 'rebill';
   if (text.includes('refund')) return 'refund';
+  if (text.includes('model') && (text.includes('registration') || text.includes('signup'))) return 'model_registration';
+  if (text.includes('member') && (text.includes('registration') || text.includes('signup'))) return 'member_registration';
   if (text.includes('registration') || text.includes('signup')) return 'member_registration';
   if (text.includes('purchase')) return 'purchase';
   return text ? safeText(text, 'unknown', 60) : 'unknown';
@@ -644,10 +646,6 @@ export default {
       if (!browserOriginAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
 
       const payload = await requestPayload(request);
-      if (String(payload.test || '').toLowerCase() === 'true' || String(payload.test || '') === '1') {
-        return json({ ok: true, test: true });
-      }
-
       const id = env.ATTRIBUTION.idFromName('global');
       const stub = env.ATTRIBUTION.get(id);
       const response = await stub.fetch(new Request('https://attribution.internal/click', {
@@ -678,6 +676,10 @@ export default {
       }
 
       const payload = await requestPayload(request);
+      if (String(payload.test || '').toLowerCase() === 'true' || String(payload.test || '') === '1') {
+        return json({ ok: true, test: true });
+      }
+
       const id = env.ATTRIBUTION.idFromName('global');
       const stub = env.ATTRIBUTION.get(id);
       return stub.fetch(new Request('https://attribution.internal/postback', {
