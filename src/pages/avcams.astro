@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
+import LiveModelsGrid from '../components/LiveModelsGrid.astro';
 
 const title = 'AVCams: Explore Live Cam Rooms';
 const description = 'Explore AVCams live rooms, search by interest, browse public rooms and use optional token-based interactions. Adults 18+.';
@@ -31,6 +32,10 @@ const quickSearches = [
       <div><span>Discovery</span><strong>Public live rooms</strong><p>Browse the live experience before deciding whether to use optional paid interactions.</p></div>
       <div><span>Paid layer</span><strong>Token-based interaction</strong><p>Selected tips, private sessions and interactive features can use tokens.</p></div>
       <div><span>Experience</span><strong>Browse first</strong><p>Explore live rooms before deciding whether you want to use optional paid features.</p></div>
+    </div>
+
+    <div id="browse">
+      <LiveModelsGrid />
     </div>
 
     <section class="related-guides">
