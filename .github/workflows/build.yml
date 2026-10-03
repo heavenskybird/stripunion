@@ -33,6 +33,8 @@ jobs:
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
           node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs --self-test
           node ops/seo-data-layer/src/collectors/stripcash-models-schema-probe.mjs --self-test
+          node --check services/live-models-worker/src/index.js
+          node --test services/live-models-worker/test/*.test.mjs
           node ops/seo-data-layer/src/collectors/stripcash.mjs --self-test
           npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs
