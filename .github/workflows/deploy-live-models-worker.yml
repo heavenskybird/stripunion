@@ -47,6 +47,44 @@ jobs:
         env:
           STRIPCASH_MODELS_API_KEY: ${{ secrets.STRIPCASH_MODELS_API_KEY }}
 
+      - name: Smoke test deployed worker
+        working-directory: .
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+        run: |
+          set -euo pipefail
+          base="${DEPLOYMENT_URL:-https://stripunion-live-models.stripunion.workers.dev}"
+          echo "Testing $base"
+
+          health="$(curl --fail --silent --show-error --retry 4 --retry-delay 2 "$base/health")"
+          node -e '
+            const data = JSON.parse(process.argv[1]);
+            if (data.ok !== true || data.service !== "stripunion-live-models") {
+              throw new Error("Unexpected /health payload");
+            }
+            console.log("PASS worker health");
+          ' "$health"
+
+          models="$(curl --fail --silent --show-error --retry 4 --retry-delay 2             -H 'Origin: https://staging.stripunion.com'             "$base/models?limit=3")"
+          node -e '
+            const data = JSON.parse(process.argv[1]);
+            if (data.ok !== true || !Array.isArray(data.models)) {
+              throw new Error("Unexpected /models payload");
+            }
+            if (data.models.length < 1 || data.models.length > 3) {
+              throw new Error("Unexpected model count");
+            }
+            for (const model of data.models) {
+              if (!model.id || !model.username || !model.snapshotUrl) {
+                throw new Error("Missing safe public model fields");
+              }
+              if ("geobans" in model || "clickUrl" in model) {
+                throw new Error("Private/restricted fields leaked to browser payload");
+              }
+            }
+            console.log(`PASS models endpoint: ${data.models.length} eligible card(s), values withheld`);
+          ' "$models"
+
       - name: Show deployment URL
         working-directory: .
         env:
