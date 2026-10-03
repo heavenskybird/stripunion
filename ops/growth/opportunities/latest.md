@@ -1,6 +1,6 @@
-# Daily Growth Opportunities — 2026-10-02
+# Daily Growth Opportunities — 2026-10-03
 
-Sources: GSC 2026-09-30 · Bing 2026-10-01 · StripCash 2026-10-01 · competitor snapshot 2026-10-02 · diff 2026-10-02.
+Sources: GSC 2026-10-01 · Bing 2026-10-02 · StripCash 2026-10-02 · competitor snapshot 2026-10-03 · diff 2026-10-03.
 
 Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 1.
 

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-02T17:05:35.689Z",
+  "generatedAt": "2026-10-03T04:15:52.947Z",
   "sources": {
-    "gsc": "2026-09-30",
-    "bing": "2026-10-01",
-    "stripcash": "2026-10-01",
-    "competitorSnapshot": "2026-10-02",
-    "competitorDiff": "2026-10-02",
+    "gsc": "2026-10-01",
+    "bing": "2026-10-02",
+    "stripcash": "2026-10-02",
+    "competitorSnapshot": "2026-10-03",
+    "competitorDiff": "2026-10-03",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
@@ -13,7 +13,7 @@
   },
   "monetization": {
     "connected": true,
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
     "signups": 0,
     "verifiedSignups": 0,
@@ -132,14 +132,6 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "complete guide to hamster com x",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 10
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1784851200000)/",
           "query": "xhamster reviews",
           "impressions": 1,
           "clicks": 0,
@@ -152,6 +144,14 @@
           "impressions": 1,
           "clicks": 0,
           "position": 7
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1784851200000)/",
+          "query": "complete guide to hamster com x",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10
         },
         {
           "source": "Bing",
@@ -300,7 +300,7 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamter.com review",
+          "query": "xhamster adult website overview",
           "impressions": 1,
           "clicks": 0,
           "position": 5
@@ -308,7 +308,7 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamster adult website overview",
+          "query": "xhamter.com review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
@@ -338,16 +338,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -371,6 +364,14 @@
         {
           "source": "Bing",
           "date": "/Date(1781827200000)/",
+          "query": "world of dominion f95zone review",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1781827200000)/",
           "query": "f95zone reviews",
           "impressions": 1,
           "clicks": 0,
@@ -378,11 +379,11 @@
         },
         {
           "source": "Bing",
-          "date": "/Date(1781827200000)/",
-          "query": "world of dominion f95zone review",
+          "date": "/Date(1786665600000)/",
+          "query": "f95zone reviews",
           "impressions": 1,
           "clicks": 0,
-          "position": 7
+          "position": 8
         },
         {
           "source": "Bing",
@@ -399,14 +400,6 @@
           "impressions": 1,
           "clicks": 0,
           "position": 5
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1786665600000)/",
-          "query": "f95zone reviews",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 8
         }
       ],
       "targetKeyword": "F95Zone review",
@@ -417,16 +410,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -464,16 +450,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -496,7 +475,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-09-30",
+          "date": "2026-10-01",
           "query": "stripchat alternative",
           "impressions": 1,
           "clicks": 0,
@@ -511,16 +490,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -558,16 +530,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
@@ -605,16 +570,9 @@
       "competitorEvidence": [
         {
           "source": "daily public sitemap diff",
-          "domain": "Porneed",
-          "newUrlCount": 1,
-          "removedUrlCount": 1,
-          "topicMatch": "not established; treat as landscape context only"
-        },
-        {
-          "source": "daily public sitemap diff",
           "domain": "WebcamsChats",
-          "newUrlCount": 37,
-          "removedUrlCount": 40,
+          "newUrlCount": 7,
+          "removedUrlCount": 7,
           "topicMatch": "not established; treat as landscape context only"
         }
       ],
