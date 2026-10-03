@@ -113,6 +113,27 @@ jobs:
           fi
           echo "PASS unapproved browser origin is denied"
 
+          click_headers="$(mktemp)"
+          click_body="$(mktemp)"
+          click_status="$(curl --silent --show-error             -D "$click_headers" -o "$click_body" -w '%{http_code}'             -X POST             -H 'Origin: https://staging.stripunion.com'             -H 'Content-Type: application/json'             --data '{"test":true,"memberId":"su_ci_12345678"}'             "$base/events/click")"
+          click_payload="$(cat "$click_body")"
+          if [ "$click_status" != "202" ]; then
+            echo "Click ingestion smoke test failed: HTTP $click_status"
+            rm -f "$click_headers" "$click_body"
+            exit 1
+          fi
+          if ! tr -d '\r' < "$click_headers" | grep -Fiq 'access-control-allow-origin: https://staging.stripunion.com'; then
+            echo "Click ingestion is missing staging CORS"
+            rm -f "$click_headers" "$click_body"
+            exit 1
+          fi
+          node -e '
+            const data = JSON.parse(process.argv[1]);
+            if (data.ok !== true || data.test !== true) throw new Error("Unexpected click-ingestion smoke response");
+            console.log("PASS first-party click ingestion");
+          ' "$click_payload"
+          rm -f "$click_headers" "$click_body"
+
       - name: Show deployment URL
         working-directory: .
         env:
