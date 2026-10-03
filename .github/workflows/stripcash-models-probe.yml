@@ -2,6 +2,12 @@ name: StripCash models API schema probe
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/stripcash-models-probe.yml
+      - ops/seo-data-layer/src/collectors/stripcash-models-schema-probe.mjs
 
 permissions:
   contents: read
