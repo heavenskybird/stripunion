@@ -164,52 +164,84 @@ export class ModelsCatalog {
   constructor(state, env) {
     this.state = state;
     this.env = env;
+    this.refreshPromise = null;
   }
 
   async alarm() {
     await this.state.storage.deleteAll();
   }
 
-  async loadCatalog() {
-    const now = Date.now();
-    const stored = await this.state.storage.get(['catalog', 'fetchedAt']);
-    const catalog = stored.get('catalog');
-    const fetchedAt = Number(stored.get('fetchedAt') || 0);
-
-    if (Array.isArray(catalog) && now - fetchedAt < MIN_UPSTREAM_INTERVAL_MS) {
-      return { catalog, fetchedAt };
-    }
-
+  async refreshCatalog(existingCatalog, existingFetchedAt) {
     const token = String(this.env.STRIPCASH_MODELS_API_KEY || '').trim();
     const userId = String(this.env.STRIPCASH_USER_ID || '').trim();
     if (!token || !userId) throw new Error('StripCash Models API worker is not configured.');
 
+    const attemptedAt = Date.now();
+    await this.state.storage.put('attemptedAt', attemptedAt);
+
     const url = new URL(STRIPCASH_MODELS_URL);
     url.searchParams.set('userId', userId);
 
-    const response = await fetch(url, {
-      headers: {
-        authorization: `Bearer ${token}`,
-        accept: 'application/json'
-      }
-    });
+    try {
+      const response = await fetch(url, {
+        headers: {
+          authorization: `Bearer ${token}`,
+          accept: 'application/json'
+        }
+      });
 
-    if (!response.ok) {
-      if (Array.isArray(catalog)) return { catalog, fetchedAt, stale: true };
-      throw new Error(`StripCash Models API returned HTTP ${response.status}.`);
+      if (!response.ok) {
+        if (Array.isArray(existingCatalog)) {
+          return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
+        }
+        throw new Error(`StripCash Models API returned HTTP ${response.status}.`);
+      }
+
+      const payload = await response.json();
+      const prepared = prepareCatalog(payload);
+      const refreshedAt = Date.now();
+
+      await this.state.storage.put({
+        catalog: prepared,
+        fetchedAt: refreshedAt,
+        attemptedAt: refreshedAt
+      });
+      await this.state.storage.setAlarm(refreshedAt + CATALOG_RETENTION_MS);
+
+      return { catalog: prepared, fetchedAt: refreshedAt, stale: false };
+    } catch (error) {
+      if (Array.isArray(existingCatalog)) {
+        return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
+      }
+      throw error;
+    }
+  }
+
+  async loadCatalog() {
+    const now = Date.now();
+    const stored = await this.state.storage.get(['catalog', 'fetchedAt', 'attemptedAt']);
+    const catalog = stored.get('catalog');
+    const fetchedAt = Number(stored.get('fetchedAt') || 0);
+    const attemptedAt = Number(stored.get('attemptedAt') || 0);
+    const newestAttempt = Math.max(fetchedAt, attemptedAt);
+
+    if (Array.isArray(catalog) && now - fetchedAt < MIN_UPSTREAM_INTERVAL_MS) {
+      return { catalog, fetchedAt, stale: false };
     }
 
-    const payload = await response.json();
-    const prepared = prepareCatalog(payload);
-    const refreshedAt = Date.now();
+    if (now - newestAttempt < MIN_UPSTREAM_INTERVAL_MS) {
+      if (Array.isArray(catalog)) return { catalog, fetchedAt, stale: true };
+      throw new Error('StripCash Models API refresh is cooling down.');
+    }
 
-    await this.state.storage.put({
-      catalog: prepared,
-      fetchedAt: refreshedAt
-    });
-    await this.state.storage.setAlarm(refreshedAt + CATALOG_RETENTION_MS);
+    if (!this.refreshPromise) {
+      this.refreshPromise = this.refreshCatalog(catalog, fetchedAt)
+        .finally(() => {
+          this.refreshPromise = null;
+        });
+    }
 
-    return { catalog: prepared, fetchedAt: refreshedAt, stale: false };
+    return this.refreshPromise;
   }
 
   async fetch(request) {
