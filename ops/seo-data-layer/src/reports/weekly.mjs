@@ -40,6 +40,7 @@ const ga4Admin = await latestSnapshot('ga4-admin.json');
 const bing = await latestSnapshot('bing.json');
 const buffer = await latestSnapshot('buffer.json');
 const stripcash = await latestSnapshot('stripcash.json');
+const attribution = await latestSnapshot('attribution.json');
 const growthOpportunities = await readRepoJson('ops/growth/opportunities/latest.json');
 const contentInventory = await readRepoJson('ops/growth/content-inventory/latest.json');
 
@@ -66,6 +67,11 @@ const bingErrors = bingSites.flatMap((site) => (site.crawlIssues || []).map((row
 const sentPosts = buffer?.data?.sentPosts || [];
 const scheduledPosts = buffer?.data?.scheduledPosts || [];
 const stripcashMetrics = stripcash?.data?.metrics || {};
+const attributionSummary = attribution?.data || {};
+const topAttributionP1 = Object.entries(attributionSummary.byP1 || {})
+  .map(([key, value]) => ({ key, ...(value || {}) }))
+  .sort((a, b) => Number(b.postbacks || 0) - Number(a.postbacks || 0) || Number(b.clicks || 0) - Number(a.clicks || 0))
+  .slice(0, 5);
 const hostnameForUrl = (value) => { try { return new URL(value).hostname.toLowerCase().replace(/^www\./, ''); } catch { return null; } };
 const siteForHost = (host) => host === 'blog.stripunion.com' ? 'blog' : host === 'stripunion.com' ? 'main' : 'other';
 const siteGaRows = Object.fromEntries(['main', 'blog', 'other'].map((site) => [site, landingRows.filter((row) => siteForHost(String(row.hostName || '').toLowerCase().replace(/^www\./, '')) === site)]));
@@ -140,8 +146,8 @@ await fs.mkdir(reportsRoot, { recursive: true });
 
 const summary = {
   generatedAt: new Date().toISOString(),
-  sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null },
-  sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash) },
+  sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
+  sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
   ga4Admin: ga4Admin ? { date: ga4Admin.date, propertyId: ga4Admin.data.propertyId || null, topology: ga4Admin.data.topology || 'UNKNOWN / MULTIPLE', unifiedFunnelCandidate: ga4Admin.data.unifiedFunnelCandidate || null, streams: ga4Admin.data.streams || [] } : null,
   google: {
     clicks: gscClicks, impressions: gscImpressions, ctr: gscImpressions ? gscClicks / gscImpressions : 0,
@@ -179,6 +185,17 @@ const summary = {
     reportScope: stripcash.data.reportScope || null,
     reportStatus: stripcash.data.reportStatus || null,
     metrics: stripcashMetrics
+  } : null,
+  attribution: attribution ? {
+    reportScope: attributionSummary.reportScope || null,
+    totalClicks: Number(attributionSummary.totalClicks || 0),
+    totalPostbacks: Number(attributionSummary.totalPostbacks || 0),
+    matchedPostbacks: Number(attributionSummary.matchedPostbacks || 0),
+    unmatchedPostbacks: Number(attributionSummary.unmatchedPostbacks || 0),
+    duplicatePostbacks: Number(attributionSummary.duplicatePostbacks || 0),
+    eventCounts: attributionSummary.eventCounts || {},
+    revenueByCurrency: attributionSummary.revenueByCurrency || {},
+    topP1: topAttributionP1
   } : null
 };
 
@@ -207,12 +224,20 @@ summary.trafficControlPlane = {
     modelReferralEarnings: Number(stripcashMetrics.modelsReferralEarnings || 0),
     webmasterRegistrations: Number(stripcashMetrics.webmasterRegistration || 0),
     webmasterReferralEarnings: Number(stripcashMetrics.webmasterReferralEarnings || 0)
+  } : null,
+  firstPartyAttribution: attribution ? {
+    clicks: Number(attributionSummary.totalClicks || 0),
+    postbacks: Number(attributionSummary.totalPostbacks || 0),
+    matchedPostbacks: Number(attributionSummary.matchedPostbacks || 0),
+    unmatchedPostbacks: Number(attributionSummary.unmatchedPostbacks || 0),
+    eventCounts: attributionSummary.eventCounts || {},
+    revenueByCurrency: attributionSummary.revenueByCurrency || {}
   } : null
 };
 
 const md = [
   `# StripUnion Growth Report — ${reportDate}`, '',
-  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'}.`, '',
+  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'} · Attribution ${attribution ? `(${attribution.date})` : 'pending'}.`, '',
   '## Main Site', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.main.sessions}** sessions · **${summary.ga4.sites.main.engagedSessions}** engaged · **${summary.ga4.sites.main.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.main.revenue ? `**${summary.ga4.sites.main.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.main.clicks}** clicks · **${summary.google.sites.main.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## GA4 Host Segmentation', `- MAIN: **${summary.ga4.sites?.main.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.main.engagedSessions ?? 'unavailable'}** engaged.`, `- BLOG: **${summary.ga4.sites?.blog.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.blog.engagedSessions ?? 'unavailable'}** engaged.`, ...(summary.ga4.otherHosts.length ? summary.ga4.otherHosts.map((host) => `- OTHER ${host.hostname}: ${host.sessions} sessions · ${host.engagedSessions} engaged.`) : [gaHostRowsAvailable ? '- OTHER: no other hostnames in the latest GA4 rows.' : '- OTHER: hostname segmentation unavailable in the latest snapshot.']), `- TOTAL: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}.`, `- Stream topology: ${ga4Admin?.data?.topology || 'UNKNOWN / MULTIPLE'}.`, `- Unified-funnel Measurement ID candidate: ${ga4Admin?.data?.unifiedFunnelCandidate || 'not established'}.`, '',
@@ -230,7 +255,9 @@ const md = [
   '## Revenue / Affiliate Attribution',
   `- ${summary.ga4.siteSegmentationAvailable ? `Main affiliate_click: ${summary.ga4.sites.main.affiliateClick}; Blog affiliate_click: ${summary.ga4.sites.blog.affiliateClick}.` : 'Site-level affiliate_click attribution needs a fresh host-segmented GA4 snapshot.'}`,
   `- ${stripcash ? `StripCash aggregate scope: signups **${stripcashMetrics.signup || 0}** · verified **${stripcashMetrics.verifiedSignup || 0}** · new customers **${stripcashMetrics.newCustomersCount || 0}** · purchases **${stripcashMetrics.purchasesCount || 0}** · purchase earnings **${stripcashMetrics.purchaseEarnings || 0}** · total earnings **${stripcashMetrics.totalEarnings || 0}**.` : 'STRIPCASH AGGREGATE REVENUE NOT CONNECTED.'}`,
-  `- ${stripcash ? 'Aggregate StripCash revenue is connected; click-to-conversion attribution still requires the Postback receiver.' : 'Postback and Statistics attribution remain disconnected.'}`, '',
+  `- ${attribution ? `First-party attribution: clicks **${attributionSummary.totalClicks || 0}** · postbacks **${attributionSummary.totalPostbacks || 0}** · matched **${attributionSummary.matchedPostbacks || 0}** · unmatched **${attributionSummary.unmatchedPostbacks || 0}** · events ${JSON.stringify(attributionSummary.eventCounts || {})} · revenue by currency ${JSON.stringify(attributionSummary.revenueByCurrency || {})}.` : 'First-party click storage is deployed; StripCash postback secret/setup is still pending.'}`,
+  ...topAttributionP1.map((row) => `- Attribution ${row.key}: ${row.clicks || 0} clicks · ${row.postbacks || 0} postbacks · events ${JSON.stringify(row.eventCounts || {})}.`),
+  `- ${stripcash ? (attribution ? 'Aggregate StripCash statistics and first-party attribution are both connected.' : 'Aggregate StripCash statistics are connected; postback joining is the remaining attribution step.') : 'Postback and Statistics attribution remain disconnected.'}`, '',
   '## Warnings / Missing Data',
   ...(!ga4 ? ['- GA4 snapshot missing.'] : []), ...(!gsc ? ['- GSC snapshot missing.'] : []), ...(!bing ? ['- Bing snapshot missing.'] : []), ...(!stripcash ? ['- StripCash aggregate snapshot missing.'] : []),
   ...(ga4 && !gaHostSegmentationAvailable ? ['- GA4 hostname segmentation unavailable for legacy rows; rerun the GA4 collector to populate site totals.'] : []),
@@ -261,7 +288,7 @@ md.push(
   `- Published content count: ${contentInventory?.inventorySize ?? astroPages ?? 'unavailable'} tracked main-site pages (${contentInventory?.inventoryBreakdown?.astroPages ?? astroPages ?? 'n/a'} Astro + ${contentInventory?.inventoryBreakdown?.dataDrivenReviews ?? 'n/a'} data-driven reviews); WordPress published count unavailable.`,
   '- Content freshness: not measured in available source snapshots.',
 `- ${stripcash ? `StripCash aggregate connected: ${summary.trafficControlPlane.stripcash.signups} signups · ${summary.trafficControlPlane.stripcash.verifiedSignups} verified · ${summary.trafficControlPlane.stripcash.newCustomers} new customers · ${summary.trafficControlPlane.stripcash.purchases} purchases · ${summary.trafficControlPlane.stripcash.totalEarnings} total earnings (API default scope).` : 'STRIPCASH AGGREGATE REVENUE NOT YET CONNECTED.'}`,
-  `- ${stripcash ? 'Per-click revenue attribution is the remaining gap; memberId is already emitted and the Postback receiver is next.' : 'Per-click revenue attribution is not yet connected.'}`,
+  `- ${attribution ? `First-party attribution connected: ${summary.trafficControlPlane.firstPartyAttribution.clicks} clicks · ${summary.trafficControlPlane.firstPartyAttribution.postbacks} postbacks · ${summary.trafficControlPlane.firstPartyAttribution.matchedPostbacks} matched.` : 'First-party clicks are being emitted; StripCash postback joining is not yet connected.'}`,
   '',
   '### Top acquisition landing pages',
   ...summary.trafficControlPlane.topAcquisitionLandingPages.map((row) => `- ${row.key}: ${row.value} sessions`)
