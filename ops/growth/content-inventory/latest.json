@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T05:54:35.976Z",
+  "generatedAt": "2026-10-03T06:09:20.092Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-03T05:52:13.532Z",
-    "bing": "2026-10-03T05:52:18.427Z",
+    "gsc": "2026-10-03T06:07:26.775Z",
+    "bing": "2026-10-03T06:07:31.517Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -34,7 +34,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 454,
+        "wordCount": 458,
         "headings": 7,
         "links": 13,
         "queryImpressions": 96
@@ -80,7 +80,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.29,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -112,7 +112,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 332,
+        "wordCount": 336,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
@@ -132,13 +132,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 747,
+        "wordCount": 751,
         "headings": 7,
         "links": 5,
         "queryImpressions": 0
@@ -164,7 +164,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 635,
+        "wordCount": 639,
         "headings": 7,
         "links": 4,
         "queryImpressions": 0
@@ -262,7 +262,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -340,13 +340,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.37,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 225,
+        "wordCount": 229,
         "headings": 4,
         "links": 2,
         "queryImpressions": 0
@@ -600,7 +600,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.13,
+        "overlapRisk": 0.12,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
@@ -738,7 +738,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 454,
+        "wordCount": 458,
         "headings": 7,
         "links": 13,
         "queryImpressions": 96
@@ -782,7 +782,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.29,
         "internalLinkPotential": 3,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -813,7 +813,7 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 332,
+        "wordCount": 336,
         "headings": 6,
         "links": 6,
         "queryImpressions": 0
@@ -832,13 +832,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.3,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 747,
+        "wordCount": 751,
         "headings": 7,
         "links": 5,
         "queryImpressions": 0
@@ -863,7 +863,7 @@
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 635,
+        "wordCount": 639,
         "headings": 7,
         "links": 4,
         "queryImpressions": 0
@@ -957,7 +957,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.31,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -1032,13 +1032,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.37,
         "internalLinkPotential": 1,
         "affiliateRelevance": 5,
         "contentCompleteness": 3
       },
       "signals": {
-        "wordCount": 225,
+        "wordCount": 229,
         "headings": 4,
         "links": 2,
         "queryImpressions": 0
@@ -1282,7 +1282,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.13,
+        "overlapRisk": 0.12,
         "internalLinkPotential": 0,
         "affiliateRelevance": 0,
         "contentCompleteness": 0
