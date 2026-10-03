@@ -7,7 +7,9 @@ import {
   AVCAMS
 } from '../config/site.js';
 
-const endpoint = import.meta.env.PUBLIC_LIVE_MODELS_API_URL?.trim() || '';
+const endpoint =
+  import.meta.env.PUBLIC_LIVE_MODELS_API_URL?.trim() ||
+  'https://stripunion-live-models.stripunion.workers.dev/models';
 ---
 <section
   class="live-models"
