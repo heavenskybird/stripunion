@@ -73,21 +73,23 @@ Requires:
 
 The daily SEO/growth pipeline has a collector ready to ingest this aggregate summary as `attribution.json` once the same GitHub secret is configured and deployed to the Worker.
 
-## Remaining human setup
+## StripCash panel configuration
 
-1. Create a strong random secret locally. Do not paste it into chat.
-2. Add it as GitHub Actions repository secret:
-   `STRIPCASH_POSTBACK_SECRET`
-3. Open StripCash -> Service -> Postback Setup -> Add postback.
-4. Before saving the first rule, capture the Add postback form including:
-   - URL field
-   - website selection
-   - postback type options
-   - method options
-   - available macro/parameter placeholders
-   - revenue-only option
-5. Use the exact StripCash placeholders shown in that form/documentation to construct the final receiver URL. Do not guess macro names.
-6. After the receiver is configured, use Postbacks Log to validate a real or supported test event.
+The account UI exposes `avcams.online` as a website filter and supports GET/POST postbacks with transaction-type rules including All purchase, First purchase, Refund, Member registration, Member verification, Age verification and Model registration.
+
+Tracking guidance confirms the outbound `memberId` is the postback join key. Common StripCash/TDS integrations use the exact StripCash macros `{memberId}`, `{revenue}` and `{transactionId}`.
+
+Recommended AVCams viewer rules:
+
+- Member registration: revenue-only OFF; static `type=member_registration`; pass `memberId={memberId}`.
+- Member verification: revenue-only OFF; static `type=member_verification`; pass `memberId={memberId}`.
+- First purchase: revenue-only OFF; static `type=first_purchase`; pass `memberId={memberId}` and `transactionId={transactionId}`. Revenue is deliberately omitted so revenue is not double-counted.
+- All purchase: revenue-only ON; static `type=purchase`; pass `memberId={memberId}`, `revenue={revenue}`, and `transactionId={transactionId}`.
+- Refund: revenue-only OFF unless StripCash documents that the filter is based on refund amount; static `type=refund`; pass `memberId={memberId}`, `revenue={revenue}`, and `transactionId={transactionId}`. Positive refund values are normalized to negative revenue internally.
+
+Use Website = `avcams.online` for the viewer funnel and Method = GET.
+
+The secret remains a literal private value in the configured URL and must never be committed to the repository or pasted into public logs.
 
 ## Do not do
 
