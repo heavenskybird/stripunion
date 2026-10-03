@@ -222,7 +222,7 @@ for (const required of ["from '../../src/data/reviews.js'", "from '../../src/dat
 }
 
 const opportunityEngine = fs.readFileSync('ops/growth/opportunities.mjs', 'utf8');
-for (const required of ['syntheticPromptPattern', 'topicFor(rawQuery)', 'canonicalClusteringEnabled', 'droppedSyntheticPromptQueries']) {
+for (const required of ['syntheticPromptPattern', 'topicFor(rawQuery)', 'Object.entries(pendingReviews)', 'canonicalClusteringEnabled', 'droppedSyntheticPromptQueries']) {
   if (!opportunityEngine.includes(required)) {
     failed = true;
     console.error(`FAIL: growth opportunity query hygiene is missing: ${required}`);
