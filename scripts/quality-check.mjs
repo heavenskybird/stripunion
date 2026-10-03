@@ -97,15 +97,6 @@ if (siteConfig.includes('STRIPCHAT_AFFILIATE_URL')) {
   console.error('FAIL: legacy STRIPCHAT_AFFILIATE_URL should not remain in src/config/site.js');
 }
 
-const stripchatNamedAffiliateCta = /<AffiliateButton\b[^>]*label=["'][^"']*Stripchat[^"']*["'][^>]*\/>/i;
-for (const file of userFacingPages) {
-  const content = fs.readFileSync(file, 'utf8');
-  if (stripchatNamedAffiliateCta.test(content)) {
-    failed = true;
-    console.error(`FAIL: AffiliateButton label names Stripchat even though the centralized destination is AVCams: ${file}`);
-  }
-}
-
 const affiliateButton = fs.readFileSync('src/components/AffiliateButton.astro', 'utf8');
 if (/Paid link|paid-link-note/i.test(affiliateButton)) {
   failed = true;
@@ -172,6 +163,14 @@ for (const forbiddenCopy of ['white-label', 'white label', 'branded StripCash', 
 }
 
 const userFacingPages = files.filter((file) => file.startsWith('src/pages/') || file.startsWith('src/components/'));
+const stripchatNamedAffiliateCta = /<AffiliateButton\b[^>]*label=["'][^"']*Stripchat[^"']*["'][^>]*\/>/i;
+for (const file of userFacingPages) {
+  const content = fs.readFileSync(file, 'utf8');
+  if (stripchatNamedAffiliateCta.test(content)) {
+    failed = true;
+    console.error(`FAIL: AffiliateButton label names Stripchat even though the centralized destination is AVCams: ${file}`);
+  }
+}
 for (const file of userFacingPages) {
   const content = fs.readFileSync(file, 'utf8');
   for (const forbiddenCopy of ['branded StripCash white-label', 'branded StripCash', 'underlying Stripchat infrastructure', 'StripCash/Stripchat infrastructure']) {
