@@ -28,6 +28,8 @@ if (payload?.ok !== true || !payload?.summary || typeof payload.summary !== 'obj
 const summary = payload.summary;
 const normalized = {
   collectedAt: new Date().toISOString(),
+  receiverConnected: true,
+  postbackJoinReady: true,
   reportScope: 'first-party AVCams click/postback attribution',
   totalClicks: Number(summary.totalClicks || 0),
   totalPostbacks: Number(summary.totalPostbacks || 0),
