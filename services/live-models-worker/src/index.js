@@ -274,12 +274,8 @@ export class ModelsCatalog {
         count: models.length,
         models
       });
-    } catch (error) {
-      return json({
-        ok: false,
-        error: 'models_unavailable',
-        diagnostic: String(error?.code || 'unknown')
-      }, { status: 503 });
+    } catch {
+      return json({ ok: false, error: 'models_unavailable' }, { status: 503 });
     }
   }
 }
