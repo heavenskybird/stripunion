@@ -1,6 +1,6 @@
 {
   "source": "bing-webmaster-json-http",
-  "collectedAt": "2026-10-03T04:15:09.522Z",
+  "collectedAt": "2026-10-03T04:18:36.421Z",
   "cadence": "Daily collector; Bing query/page stats update weekly and crawl stats daily.",
   "sites": [
     {
@@ -144,15 +144,6 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 9,
-          "Clicks": 0,
-          "Date": "/Date(1784851200000)/",
-          "Impressions": 1,
-          "Query": "xhamster reviews"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 10,
           "Clicks": 0,
           "Date": "/Date(1784851200000)/",
@@ -162,11 +153,11 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 10,
+          "AvgImpressionPosition": 9,
           "Clicks": 0,
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
-          "Query": "complete guide to hamster com x"
+          "Query": "xhamster reviews"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -176,6 +167,15 @@
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
           "Query": "xhamster#N##N#review"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 10,
+          "Clicks": 0,
+          "Date": "/Date(1784851200000)/",
+          "Impressions": 1,
+          "Query": "complete guide to hamster com x"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -270,20 +270,20 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 5,
-          "Clicks": 0,
-          "Date": "/Date(1786665600000)/",
-          "Impressions": 1,
-          "Query": "f95zone reivew"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 7,
           "Clicks": 0,
           "Date": "/Date(1786665600000)/",
           "Impressions": 1,
           "Query": "f95zone make a review"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 5,
+          "Clicks": 0,
+          "Date": "/Date(1786665600000)/",
+          "Impressions": 1,
+          "Query": "f95zone reivew"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
