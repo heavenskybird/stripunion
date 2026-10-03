@@ -156,7 +156,7 @@ jobs:
             console.log("PASS protected StripCash postback endpoint");
           ' "$postback_test"
 
-          summary_test="$(curl --fail --silent --show-error             -H "Authorization: Bearer $STRIPCASH_POSTBACK_SECRET"             "$base/analytics/summary")"
+          summary_test="$(curl --fail --silent --show-error             -H "X-StripUnion-Attribution-Token: $STRIPCASH_POSTBACK_SECRET"             "$base/analytics/summary")"
           node -e '
             const data = JSON.parse(process.argv[1]);
             if (data.ok !== true || !data.summary) throw new Error("Unexpected attribution summary response");
