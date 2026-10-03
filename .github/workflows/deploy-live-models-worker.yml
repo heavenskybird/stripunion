@@ -65,38 +65,53 @@ jobs:
             console.log("PASS worker health");
           ' "$health"
 
-          models_file="$(mktemp)"
-          models_status="$(curl --silent --show-error --retry 4 --retry-delay 2             -o "$models_file" -w '%{http_code}'             -H 'Origin: https://staging.stripunion.com'             "$base/models?limit=3")"
-          models="$(cat "$models_file")"
-          rm -f "$models_file"
+          for origin in https://stripunion.com https://staging.stripunion.com; do
+            headers_file="$(mktemp)"
+            models_file="$(mktemp)"
+            models_status="$(curl --silent --show-error --retry 4 --retry-delay 2               -D "$headers_file" -o "$models_file" -w '%{http_code}'               -H "Origin: $origin"               "$base/models?limit=3")"
+            models="$(cat "$models_file")"
 
-          if [ "$models_status" != "200" ]; then
+            if [ "$models_status" != "200" ]; then
+              echo "Models endpoint failed safely for $origin: HTTP $models_status"
+              rm -f "$headers_file" "$models_file"
+              exit 1
+            fi
+
+            expected_cors="access-control-allow-origin: $origin"
+            if ! tr -d '\r' < "$headers_file" | grep -Fiq "$expected_cors"; then
+              echo "Missing expected CORS header for $origin"
+              rm -f "$headers_file" "$models_file"
+              exit 1
+            fi
+
             node -e '
-              let data = {};
-              try { data = JSON.parse(process.argv[1]); } catch {}
-              console.error(`Models endpoint failed safely: HTTP ${process.argv[2]}, diagnostic=${data.diagnostic || "unknown"}`);
-              process.exit(1);
-            ' "$models" "$models_status"
-          fi
+              const data = JSON.parse(process.argv[1]);
+              if (data.ok !== true || !Array.isArray(data.models)) {
+                throw new Error("Unexpected /models payload");
+              }
+              if (data.models.length < 1 || data.models.length > 3) {
+                throw new Error("Unexpected model count");
+              }
+              for (const model of data.models) {
+                if (!model.id || !model.username || !model.snapshotUrl) {
+                  throw new Error("Missing safe public model fields");
+                }
+                if ("geobans" in model || "clickUrl" in model) {
+                  throw new Error("Private/restricted fields leaked to browser payload");
+                }
+              }
+              console.log(`PASS models endpoint: ${data.models.length} eligible card(s), values withheld`);
+            ' "$models"
 
-          node -e '
-            const data = JSON.parse(process.argv[1]);
-            if (data.ok !== true || !Array.isArray(data.models)) {
-              throw new Error("Unexpected /models payload");
-            }
-            if (data.models.length < 1 || data.models.length > 3) {
-              throw new Error("Unexpected model count");
-            }
-            for (const model of data.models) {
-              if (!model.id || !model.username || !model.snapshotUrl) {
-                throw new Error("Missing safe public model fields");
-              }
-              if ("geobans" in model || "clickUrl" in model) {
-                throw new Error("Private/restricted fields leaked to browser payload");
-              }
-            }
-            console.log(`PASS models endpoint: ${data.models.length} eligible card(s), values withheld`);
-          ' "$models"
+            rm -f "$headers_file" "$models_file"
+          done
+
+          denied_status="$(curl --silent --output /dev/null --write-out '%{http_code}'             -H 'Origin: https://example.invalid'             "$base/models?limit=1")"
+          if [ "$denied_status" != "403" ]; then
+            echo "Unexpected CORS-origin status for unapproved origin: $denied_status"
+            exit 1
+          fi
+          echo "PASS unapproved browser origin is denied"
 
       - name: Show deployment URL
         working-directory: .
