@@ -2,6 +2,7 @@ name = "stripunion-live-models"
 main = "src/index.js"
 compatibility_date = "2026-10-03"
 workers_dev = true
+preview_urls = false
 
 [vars]
 STRIPCASH_USER_ID = "103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2"
