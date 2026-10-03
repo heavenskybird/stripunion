@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url';
 const token = process.env.TELEGRAM_BOT_TOKEN;
 const rawChatId = String(process.env.TELEGRAM_CHANNEL_ID || '').trim();
 const chatId = rawChatId && !rawChatId.startsWith('@') && !/^-?\\d+$/.test(rawChatId)
@@ -23,7 +24,7 @@ function readEvent() {
   return event;
 }
 
-function buildText(event) {
+export function buildTelegramText(event) {
   const title = stripHtml(event.title);
   const excerpt = stripHtml(event.excerpt || '');
   const body = excerpt ? `${title}\n\n${excerpt}` : title;
@@ -77,7 +78,7 @@ export async function publishTelegramEvent(event) {
     return { skipped: true };
   }
 
-  const text = buildText(event);
+  const text = buildTelegramText(event);
   const image = await discoverImage(event.url);
   let result;
 
@@ -106,8 +107,10 @@ export async function publishTelegramEvent(event) {
   return { skipped: false, result };
 }
 
-if (process.argv.includes('--self-test')) {
-  const sample = buildText({
+const isMain = fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isMain && process.argv.includes('--self-test')) {
+  const sample = buildTelegramText({
     title: '<b>Example title</b>',
     excerpt: 'A concise example &amp; summary.',
     url: 'https://blog.stripunion.com/example/'
@@ -116,7 +119,7 @@ if (process.argv.includes('--self-test')) {
     throw new Error('Telegram copy self-test failed');
   }
   console.log('Telegram distribution self-test passed.');
-} else {
+} else if (isMain) {
   const event = readEvent();
   await publishTelegramEvent(event);
 }
