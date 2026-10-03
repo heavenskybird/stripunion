@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T06:39:47.109Z",
+  "generatedAt": "2026-10-03T07:37:28.588Z",
   "sourceDates": {
     "gsc": "2026-10-01",
     "ga4": "2026-10-02",
@@ -1672,8 +1672,8 @@
       "name": "stripunion51860",
       "service": "twitter"
     },
-    "sentPostCount": 14,
-    "scheduledPostCount": 10,
+    "sentPostCount": 16,
+    "scheduledPostCount": 8,
     "impressions": 19,
     "clicks": 4,
     "engagement": {
@@ -1682,7 +1682,7 @@
       "reposts": 0,
       "reach": 0
     },
-    "metricsUpdatedAt": "2026-10-02T22:53:20.490Z",
+    "metricsUpdatedAt": "2026-10-03T07:02:10.215Z",
     "highestPerformingPosts": [
       {
         "id": "6ab78d163afb9171a82bdd43",
@@ -1787,10 +1787,10 @@
         }
       },
       {
-        "id": "6ab9e195612c9e6ac93de72c",
+        "id": "6ac09f1e713b7277a0adeb10",
         "sentAt": null,
         "metrics": {
-          "impressions": 1,
+          "impressions": 0,
           "reach": null,
           "reactions": 0,
           "comments": 0,
@@ -1825,7 +1825,7 @@
             {
               "type": "impressions",
               "name": "Impressions",
-              "value": 1,
+              "value": 0,
               "unit": "count"
             },
             {
