@@ -15,3 +15,12 @@ class_name = "ModelsCatalog"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["ModelsCatalog"]
+
+
+[[durable_objects.bindings]]
+name = "ATTRIBUTION"
+class_name = "AttributionStore"
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["AttributionStore"]
