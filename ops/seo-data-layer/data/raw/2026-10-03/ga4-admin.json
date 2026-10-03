@@ -1,0 +1,18 @@
+{
+  "source": "google-analytics-admin",
+  "propertyId": "530171093",
+  "collectedAt": "2026-10-03T04:13:29.941Z",
+  "topology": "MAIN STREAM",
+  "unifiedFunnelCandidate": "G-K57BRX69X1",
+  "streams": [
+    {
+      "resourceName": "properties/530171093/dataStreams/14247320031",
+      "streamId": "14247320031",
+      "displayName": "StripUnion",
+      "defaultUri": "https://stripunion.com",
+      "measurementId": "G-K57BRX69X1",
+      "createTime": "2026-03-27T08:50:48.572Z",
+      "updateTime": "2026-03-27T08:50:48.572Z"
+    }
+  ]
+}
