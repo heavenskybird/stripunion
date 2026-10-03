@@ -186,15 +186,22 @@ export class ModelsCatalog {
       const response = await fetch(url, {
         headers: {
           authorization: `Bearer ${token}`,
-          accept: 'application/json'
+          accept: 'application/json',
+          origin: 'https://stripunion.com',
+          referer: 'https://stripunion.com/',
+          'user-agent': 'StripUnion-LiveModels/1.0'
         }
       });
 
       if (!response.ok) {
+        const diagnostic = `upstream_http_${response.status}`;
+        console.error(`StripCash Models API diagnostic: ${diagnostic}`);
         if (Array.isArray(existingCatalog)) {
           return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
         }
-        throw new Error(`StripCash Models API returned HTTP ${response.status}.`);
+        const error = new Error('StripCash Models API upstream request failed.');
+        error.code = diagnostic;
+        throw error;
       }
 
       const payload = await response.json();
@@ -212,6 +219,10 @@ export class ModelsCatalog {
     } catch (error) {
       if (Array.isArray(existingCatalog)) {
         return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
+      }
+      if (!error?.code) {
+        error.code = 'upstream_fetch_error';
+        console.error('StripCash Models API diagnostic: upstream_fetch_error');
       }
       throw error;
     }
@@ -263,8 +274,12 @@ export class ModelsCatalog {
         count: models.length,
         models
       });
-    } catch {
-      return json({ ok: false, error: 'models_unavailable' }, { status: 503 });
+    } catch (error) {
+      return json({
+        ok: false,
+        error: 'models_unavailable',
+        diagnostic: String(error?.code || 'unknown')
+      }, { status: 503 });
     }
   }
 }
