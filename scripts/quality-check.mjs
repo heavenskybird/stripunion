@@ -176,7 +176,7 @@ if (liveModelsComponent.includes('STRIPCASH_MODELS_API_KEY')) {
 }
 
 const liveModelsWorker = fs.readFileSync('services/live-models-worker/src/index.js', 'utf8');
-for (const required of ['ModelsCatalog', 'MIN_UPSTREAM_INTERVAL_MS = 10_000', 'blockedCountries', 'blockedRegions', 'blockedLanguages', 'setAlarm', 'MAX_STORED_MODELS = 500']) {
+for (const required of ['ModelsCatalog', 'AttributionStore', '/events/click', '/postback/stripcash', '/analytics/summary', 'MIN_UPSTREAM_INTERVAL_MS = 10_000', 'ATTRIBUTION_RETENTION_MS', 'blockedCountries', 'blockedRegions', 'blockedLanguages', 'setAlarm', 'MAX_STORED_MODELS = 500']) {
   if (!liveModelsWorker.includes(required)) {
     failed = true;
     console.error(`FAIL: live models worker is missing a required compliance/control marker: ${required}`);
@@ -317,7 +317,7 @@ if (!baseLayout.includes("const isAvcams = partner === 'avcams'")) {
   console.error('FAIL: affiliate click analytics does not distinguish AVCams tracking from direct referral links.');
 }
 
-for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path']) {
+for (const required of ['memberId', 'crypto.randomUUID', 'stripcash_member_id', 'avcams_target_domain', 'avcams_path', 'stripunion-live-models.stripunion.workers.dev/events/click', 'keepalive: true']) {
   if (!baseLayout.includes(required)) {
     failed = true;
     console.error(`FAIL: AVCams click/postback attribution is missing from BaseLayout: ${required}`);
