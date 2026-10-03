@@ -55,6 +55,22 @@ function check(condition, message) {
   console.log(`PASS ${message}`);
 }
 
+function affiliateAnchors(html = '') {
+  return [...String(html).matchAll(/<a\b[^>]*href=["'](https:\/\/go\.whitetrafsa\.com[^"']*)["'][^>]*>[\s\S]*?<\/a>/gi)]
+    .map((match) => ({ html: match[0], href: match[1].replace(/&amp;/g, '&') }));
+}
+
+function checkAvcamsAffiliateLinks(html, surface) {
+  const anchors = affiliateAnchors(html);
+  for (const anchor of anchors) {
+    const url = new URL(anchor.href);
+    check(url.searchParams.get('targetDomain') === 'avcams.online', `${surface} StripCash link targets avcams.online`);
+    check(!/affiliate_partner\s*:\s*['"]stripchat['"]/i.test(anchor.html), `${surface} tracked link no longer reports Stripchat as affiliate partner`);
+    check(!/(Try|Check|Open)\s+Stripchat/i.test(anchor.html), `${surface} tracked link label does not name Stripchat`);
+  }
+  return anchors.length;
+}
+
 async function main() {
   const homepage = await get(`${BLOG_ORIGIN}/`);
   check(homepage.status === 200, 'blog homepage returns HTTP 200');
@@ -75,7 +91,7 @@ async function main() {
   }
   check(sitemap.status === 200 && /<(?:[\w.-]+:)?(?:sitemapindex|urlset)\b/i.test(sitemap.body), 'at least one valid sitemap is available');
 
-  const api = await get(`${BLOG_ORIGIN}/wp-json/wp/v2/posts?per_page=1&status=publish`, 'application/json');
+  const api = await get(`${BLOG_ORIGIN}/wp-json/wp/v2/posts?per_page=20&status=publish&_fields=id,link,status,content`, 'application/json');
   check(api.status === 200 && /json/i.test(api.contentType), 'published-post REST endpoint returns JSON HTTP 200');
   let posts;
   try { posts = JSON.parse(api.body); } catch { throw new Error('WordPress published-post endpoint returned invalid JSON.'); }
@@ -90,6 +106,15 @@ async function main() {
   check(postCanonicals.some((value) => value && new URL(value, BLOG_ORIGIN).hostname === 'blog.stripunion.com'), 'latest post canonical stays on blog.stripunion.com');
   if (!post.body.includes(MAIN_ORIGIN)) console.log('WARN latest published post has no cross-link to stripunion.com');
   else console.log('PASS latest published post links to stripunion.com');
+
+  const homepageAffiliateCount = checkAvcamsAffiliateLinks(homepage.body, 'blog homepage');
+  check(homepageAffiliateCount > 0, 'blog homepage exposes at least one tracked AVCams CTA');
+
+  let trackedPostLinks = 0;
+  for (const item of posts) {
+    trackedPostLinks += checkAvcamsAffiliateLinks(item?.content?.rendered || '', `blog post ${item?.id || 'unknown'}`);
+  }
+  check(trackedPostLinks > 0, 'published blog posts expose tracked AVCams CTAs');
 
   const ids = [...new Set([...homepage.body, ...post.body].join('\\n').match(analyticsIdPattern) || [])].map((id) => id.toUpperCase());
   console.log(`BLOG_ANALYTICS_IDS ${ids.length ? ids.join(', ') : 'none detected'}`);
@@ -111,6 +136,9 @@ async function main() {
 
 function selfTest() {
   assert.deepEqual(attributes('<meta content="index,follow" name="robots">'), { content: 'index,follow', name: 'robots' });
+  const sampleAffiliate = '<a href="https://go.whitetrafsa.com?userId=abc&targetDomain=avcams.online" onclick="gtag(\'event\',\'affiliate_click\',{affiliate_partner:\'avcams\'})">Explore AVCams →</a>';
+  assert.equal(affiliateAnchors(sampleAffiliate).length, 1);
+  assert.equal(new URL(affiliateAnchors(sampleAffiliate)[0].href).searchParams.get('targetDomain'), 'avcams.online');
   const groups = 'User-agent: *\nDisallow: /private\n\nUser-agent: Googlebot\nDisallow: /';
   assert.equal(/^\s*Disallow:\s*\/\s*$/im.test(groups.split(/\r?\n\s*\r?\n/)[0]), false);
   assert.equal(/^\s*Disallow:\s*\/\s*$/im.test('User-agent: *\nDisallow:'), false);
