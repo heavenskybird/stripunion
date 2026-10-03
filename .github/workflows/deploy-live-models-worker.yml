@@ -1,0 +1,59 @@
+name: Deploy live models worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - services/live-models-worker/**
+      - .github/workflows/deploy-live-models-worker.yml
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    if: vars.LIVE_MODELS_WORKER_DEPLOY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: services/live-models-worker
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Deploy Cloudflare Worker
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: services/live-models-worker
+          command: deploy
+          secrets: |
+            STRIPCASH_MODELS_API_KEY
+        env:
+          STRIPCASH_MODELS_API_KEY: ${{ secrets.STRIPCASH_MODELS_API_KEY }}
+
+      - name: Show deployment URL
+        working-directory: .
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+        run: |
+          if [ -n "$DEPLOYMENT_URL" ]; then
+            echo "Live models worker deployed: $DEPLOYMENT_URL"
+          else
+            echo "Worker deployed; deployment URL was not returned by the action."
+          fi
