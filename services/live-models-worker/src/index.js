@@ -232,7 +232,7 @@ export function normalizePostback(input = {}) {
   const eventType = normalizeEventType(
     pickAlias(input, ['type', 'event', 'eventType', 'conversionType', 'postbackType', 'action'])
   );
-  const revenue = safeNumber(
+  let revenue = safeNumber(
     pickAlias(input, ['revenue', 'payout', 'commission', 'earnings', 'amount'])
   );
   const currency = safeText(
@@ -245,6 +245,8 @@ export function normalizePostback(input = {}) {
     '',
     120
   );
+
+  if (eventType === 'refund' && revenue > 0) revenue = -revenue;
 
   return {
     memberId,
@@ -642,6 +644,10 @@ export default {
       if (!browserOriginAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
 
       const payload = await requestPayload(request);
+      if (String(payload.test || '').toLowerCase() === 'true' || String(payload.test || '') === '1') {
+        return json({ ok: true, test: true });
+      }
+
       const id = env.ATTRIBUTION.idFromName('global');
       const stub = env.ATTRIBUTION.get(id);
       const response = await stub.fetch(new Request('https://attribution.internal/click', {
