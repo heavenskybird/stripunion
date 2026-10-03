@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
+import LiveModelsGrid from '../components/LiveModelsGrid.astro';
 
 const title = 'Stripchat Pricing & Tokens Guide (2026)';
 const description = 'Understand Stripchat’s token-based spending model, what can cost money and why exact token pack prices may vary by market or promotion.';
@@ -28,6 +29,14 @@ const description = 'Understand Stripchat’s token-based spending model, what c
       <section><h2>Why we do not publish a fixed token pack table</h2><p>Affiliate operators and experienced review publishers both warn that token prices can move by geography and promotion. A stale price table can hurt conversion precisely when the user reaches checkout, so StripUnion focuses on the spending model and lets the current offer show the live rate.</p></section>
       <section><h2>How to control spend</h2><p>Decide what type of interaction you want before buying tokens, check the displayed cost of a paid feature, and avoid treating small incremental token purchases as if they were a fixed subscription.</p></section>
     </section>
+
+    <LiveModelsGrid
+      source="stripchat_pricing_live_now"
+      p1="stripchat_pricing"
+      limit={6}
+      title="See the live-room experience before buying tokens"
+      description="Browse current rooms first. If you decide to interact, check the live rate shown at the moment you use a paid feature."
+    />
 
     <section class="related-guides">
       <span class="kicker">Related buying questions</span>

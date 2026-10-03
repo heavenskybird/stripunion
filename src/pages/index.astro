@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 import ReviewCard from '../components/ReviewCard.astro';
+import LiveModelsGrid from '../components/LiveModelsGrid.astro';
 import { categories } from '../data/categories.js';
 import { reviews } from '../data/reviews.js';
 import { SITE } from '../config/site.js';
@@ -33,6 +34,16 @@ const featured = [reviews.stripchat, reviews.chaturbate, reviews.livejasmin, rev
       </div>
       <a class="button button-secondary" href="/avcams">About AVCams →</a>
     </div>
+  </section>
+
+  <section class="section shell">
+    <LiveModelsGrid
+      source="homepage_live_now"
+      p1="homepage"
+      limit={8}
+      title="Live rooms you can browse now"
+      description="If you are ready to move from research to discovery, start with models who are online now and continue through AVCams."
+    />
   </section>
 
   <section class="section shell">

@@ -7,6 +7,14 @@ import {
   AVCAMS
 } from '../config/site.js';
 
+const {
+  source = 'avcams_live_models',
+  p1 = 'avcams_live_now',
+  limit = 8,
+  title = 'See who is online now',
+  description = 'Live availability changes continuously. StripUnion only shows models that the live-data service can display for your location and language.'
+} = Astro.props;
+
 const endpoint =
   import.meta.env.PUBLIC_LIVE_MODELS_API_URL?.trim() ||
   'https://stripunion-live-models.stripunion.workers.dev/models';
@@ -19,12 +27,15 @@ const endpoint =
   data-user-id={STRIPCASH_USER_ID}
   data-source-id={STRIPCASH_SOURCE_ID}
   data-target-domain={AVCAMS.domain}
+  data-live-source={source}
+  data-live-p1={p1}
+  data-live-limit={String(limit)}
 >
   <div class="live-models-heading">
     <div>
       <span class="kicker">Live now</span>
-      <h2>See who is online now</h2>
-      <p>Live availability changes continuously. StripUnion only shows models that the live-data service can display for your location and language.</p>
+      <h2>{title}</h2>
+      <p>{description}</p>
     </div>
     <span class="live-status" data-live-status>Checking live rooms…</span>
   </div>
@@ -33,7 +44,7 @@ const endpoint =
 
   <div class="live-models-fallback" data-live-fallback hidden>
     <p>Live previews are temporarily unavailable. You can still browse the current rooms directly on AVCams.</p>
-    <AffiliateButton source="avcams_live_models_fallback" label="Browse AVCams →" />
+    <AffiliateButton source={`${source}_fallback`} label="Browse AVCams →" />
   </div>
 </section>
 
@@ -46,10 +57,28 @@ const endpoint =
     const grid = root.querySelector('[data-live-grid]');
     const status = root.querySelector('[data-live-status]');
     const fallback = root.querySelector('[data-live-fallback]');
+    const liveSource = root.dataset.liveSource || 'avcams_live_models';
+    const liveP1 = root.dataset.liveP1 || 'avcams_live_now';
+    const liveLimit = Math.max(1, Math.min(24, Number(root.dataset.liveLimit || 8)));
+
+    const emit = (name, params = {}) => {
+      const payload = {
+        live_models_source: liveSource,
+        page_path: window.location.pathname,
+        ...params
+      };
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', name, payload);
+      } else {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: name, ...payload });
+      }
+    };
 
     const showFallback = (message = 'Live previews unavailable') => {
       if (status) status.textContent = message;
       if (fallback instanceof HTMLElement) fallback.hidden = false;
+      emit('live_models_unavailable', { live_models_status: message });
     };
 
     if (!endpoint || !(grid instanceof HTMLElement)) {
@@ -63,7 +92,7 @@ const endpoint =
       url.searchParams.set('campaignId', 'su_live_now');
       url.searchParams.set('creativeId', 'live_model_card');
       url.searchParams.set('sourceId', root.dataset.sourceId || 'stripunion');
-      url.searchParams.set('p1', 'avcams_live_now');
+      url.searchParams.set('p1', liveP1);
       url.searchParams.set('p2', `model_${model.id}`);
       url.searchParams.set('targetDomain', root.dataset.targetDomain || 'avcams.online');
       url.searchParams.set('path', `/search/magic-search/${encodeURIComponent(model.username)}`);
@@ -79,10 +108,10 @@ const endpoint =
       imageLink.target = '_blank';
       imageLink.rel = 'sponsored nofollow noopener noreferrer';
       imageLink.dataset.affiliatePartner = 'avcams';
-      imageLink.dataset.affiliateSource = 'avcams_live_model';
+      imageLink.dataset.affiliateSource = liveSource;
       imageLink.dataset.stripcashCampaignId = 'su_live_now';
       imageLink.dataset.stripcashSourceId = root.dataset.sourceId || 'stripunion';
-      imageLink.dataset.stripcashP1 = 'avcams_live_now';
+      imageLink.dataset.stripcashP1 = liveP1;
       imageLink.dataset.stripcashP2 = `model_${model.id}`;
       imageLink.dataset.avcamsTargetDomain = root.dataset.targetDomain || 'avcams.online';
       imageLink.dataset.avcamsPath = `/search/magic-search/${model.username}`;
@@ -127,10 +156,10 @@ const endpoint =
       cta.target = '_blank';
       cta.rel = imageLink.rel;
       cta.dataset.affiliatePartner = 'avcams';
-      cta.dataset.affiliateSource = 'avcams_live_model';
+      cta.dataset.affiliateSource = liveSource;
       cta.dataset.stripcashCampaignId = 'su_live_now';
       cta.dataset.stripcashSourceId = root.dataset.sourceId || 'stripunion';
-      cta.dataset.stripcashP1 = 'avcams_live_now';
+      cta.dataset.stripcashP1 = liveP1;
       cta.dataset.stripcashP2 = `model_${model.id}`;
       cta.dataset.avcamsTargetDomain = root.dataset.targetDomain || 'avcams.online';
       cta.dataset.avcamsPath = `/search/magic-search/${model.username}`;
@@ -141,7 +170,10 @@ const endpoint =
       return card;
     };
 
-    fetch(endpoint, {
+    const liveEndpoint = new URL(endpoint);
+    liveEndpoint.searchParams.set('limit', String(liveLimit));
+
+    fetch(liveEndpoint.toString(), {
       headers: { accept: 'application/json' },
       credentials: 'omit'
     })
@@ -157,6 +189,10 @@ const endpoint =
         }
         grid.replaceChildren(...models.map(modelCard));
         if (status) status.textContent = `${models.length} live previews`;
+        emit('live_models_loaded', {
+          live_models_count: models.length,
+          live_models_stale: Boolean(payload?.stale)
+        });
       })
       .catch(() => showFallback());
   })();
