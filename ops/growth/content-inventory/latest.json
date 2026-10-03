@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-03T07:44:38.844Z",
+  "generatedAt": "2026-10-03T07:49:31.228Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-03T07:42:46.357Z",
-    "bing": "2026-10-03T07:42:51.592Z",
+    "gsc": "2026-10-03T07:47:51.706Z",
+    "bing": "2026-10-03T07:47:56.591Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -175,7 +175,7 @@
     },
     {
       "route": "/xhamster",
-      "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
+      "title": "xHamster Review 2026: Free Video Site, Features & Pros/Cons",
       "cluster": "features",
       "score": 62,
       "contentSource": "review-data",
@@ -184,13 +184,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.26,
+        "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 2,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 485,
+        "wordCount": 516,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -366,7 +366,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 1,
         "affiliateRelevance": 2,
         "contentCompleteness": 5
@@ -873,7 +873,7 @@
     },
     {
       "route": "/xhamster",
-      "title": "xHamster Review 2026: Site Overview, Features, Pros & Cons",
+      "title": "xHamster Review 2026: Free Video Site, Features & Pros/Cons",
       "cluster": "features",
       "score": 62,
       "contentSource": "review-data",
@@ -882,13 +882,13 @@
         "keywordOpportunity": 0,
         "uniqueness": 4,
         "freshnessSignal": 4,
-        "overlapRisk": 0.26,
+        "overlapRisk": 0.25,
         "internalLinkPotential": 1,
         "affiliateRelevance": 2,
         "contentCompleteness": 5
       },
       "signals": {
-        "wordCount": 485,
+        "wordCount": 516,
         "headings": 7,
         "links": 3,
         "queryImpressions": 0
@@ -1057,7 +1057,7 @@
         "keywordOpportunity": 0,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.32,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 1,
         "affiliateRelevance": 2,
         "contentCompleteness": 5
