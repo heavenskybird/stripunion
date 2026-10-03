@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
+import LiveModelsGrid from '../components/LiveModelsGrid.astro';
 
 const title = 'Best Live Cam Sites in 2026: Compare the Main Platform Models';
 const description = 'Compare leading live cam platform models for public-room discovery, tokens, private interaction, mobile use and premium experiences before choosing what fits you.';
@@ -41,6 +42,14 @@ const faqSchema = {
       <span class="kicker">Fast decision</span>
       <p>If you want to browse many public rooms before deciding whether to spend, start with a public-room-first model such as AVCams. If private interaction and a more premium presentation matter more, compare that experience separately before paying.</p>
     </div>
+
+    <LiveModelsGrid
+      source="best_live_cam_sites_live_now"
+      p1="best_live_cam_sites"
+      limit={8}
+      title="Compare the guide, then see who is live"
+      description="Use the guide to choose the experience model you want, then browse current rooms without guessing who is online."
+    />
 
     <div class="money-grid">
       <article class="money-card">
