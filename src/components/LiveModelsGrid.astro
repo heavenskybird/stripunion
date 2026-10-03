@@ -1,4 +1,5 @@
 ---
+import AffiliateButton from './AffiliateButton.astro';
 import {
   STRIPCASH_SOURCE_ID,
   STRIPCASH_TRACKING_URL,
@@ -30,7 +31,7 @@ const endpoint = import.meta.env.PUBLIC_LIVE_MODELS_API_URL?.trim() || '';
 
   <div class="live-models-fallback" data-live-fallback hidden>
     <p>Live previews are temporarily unavailable. You can still browse the current rooms directly on AVCams.</p>
-    <a class="button button-primary" href="/avcams#browse">Browse AVCams →</a>
+    <AffiliateButton source="avcams_live_models_fallback" label="Browse AVCams →" />
   </div>
 </section>
 
