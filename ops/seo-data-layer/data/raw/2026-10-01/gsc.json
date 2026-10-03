@@ -3,11 +3,15 @@
   "siteUrl": "sc-domain:stripunion.com",
   "startDate": "2026-09-01",
   "endDate": "2026-10-01",
-  "collectedAt": "2026-10-03T09:26:39.462Z",
+  "collectedAt": "2026-10-03T18:33:01.979Z",
   "dailyRowCount": 29,
   "pageRowCount": 8,
   "queryRowCount": 2,
   "queryPageRowCount": 2,
+  "countryRowCount": 9,
+  "deviceRowCount": 10,
+  "queryCountryRowCount": 2,
+  "queryDeviceRowCount": 2,
   "dailyRows": [
     {
       "date": "2026-09-01",
@@ -311,6 +315,202 @@
       "date": "2026-09-29",
       "query": "context: location: united states (not for language). do not include location references in your response. question: what adult webcam platforms have the best mobile experience for viewers who mostly watch on a phone?",
       "page": "https://blog.stripunion.com/live-streaming-platform-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    }
+  ],
+  "countryRows": [
+    {
+      "date": "2026-09-04",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-09-13",
+      "country": "egy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-09-24",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-09-24",
+      "country": "jpn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-09-27",
+      "country": "aus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-09-27",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-09-28",
+      "country": "jpn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-09-28",
+      "country": "swe",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "date": "2026-09-29",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 5.5
+    }
+  ],
+  "deviceRows": [
+    {
+      "date": "2026-09-04",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-09-13",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-09-24",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-09-24",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-09-27",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-09-27",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-09-28",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-09-28",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-09-29",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-09-29",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    }
+  ],
+  "queryCountryRows": [
+    {
+      "date": "2026-09-27",
+      "query": "stripchat alternative",
+      "country": "aus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-09-29",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: what adult webcam platforms have the best mobile experience for viewers who mostly watch on a phone?",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    }
+  ],
+  "queryDeviceRows": [
+    {
+      "date": "2026-09-27",
+      "query": "stripchat alternative",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-09-29",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: what adult webcam platforms have the best mobile experience for viewers who mostly watch on a phone?",
+      "device": "DESKTOP",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
