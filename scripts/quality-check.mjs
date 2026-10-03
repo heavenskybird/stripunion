@@ -23,6 +23,7 @@ const allowedExternalPrefixes = [
   'https://avcams.online',
   'https://go.whitetrafsa.com',
   'https://stripcash.com',
+  'https://stripunion-live-models.stripunion.workers.dev',
   'https://www.googletagmanager.com'
 ];
 
