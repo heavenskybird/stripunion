@@ -17,15 +17,39 @@ function attributes(tag) {
   return result;
 }
 
+async function fetchWithRetry(target, accept) {
+  const retryableStatuses = new Set([429, 500, 502, 503, 504, 520, 522, 524]);
+  let lastError;
+
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const response = await fetch(target, {
+        method: 'GET',
+        redirect: 'manual',
+        headers: { accept },
+        signal: AbortSignal.timeout(timeoutMs)
+      });
+      if (!retryableStatuses.has(response.status) || attempt === 3) return response;
+      await response.body?.cancel();
+      console.log(`WARN transient HTTP ${response.status} for ${target.pathname}; retry ${attempt}/3`);
+    } catch (error) {
+      lastError = error;
+      if (attempt === 3) throw error;
+      console.log(`WARN transient request failure for ${target.pathname}; retry ${attempt}/3`);
+    }
+    await new Promise((resolve) => setTimeout(resolve, attempt * 700));
+  }
+
+  throw lastError || new Error(`Request failed for ${target.pathname}.`);
+}
+
 async function get(url, accept = 'text/html,application/json,*/*') {
   let target = new URL(url);
   for (let redirects = 0; redirects <= 4; redirects += 1) {
     if (target.protocol !== 'https:' || target.hostname !== new URL(BLOG_ORIGIN).hostname) {
       throw new Error(`Refused request outside ${BLOG_ORIGIN}.`);
     }
-    const response = await fetch(target, {
-      method: 'GET', redirect: 'manual', headers: { accept }, signal: AbortSignal.timeout(timeoutMs)
-    });
+    const response = await fetchWithRetry(target, accept);
     if ([301, 302, 303, 307, 308].includes(response.status)) {
       const location = response.headers.get('location');
       if (!location || redirects === 4) throw new Error(`Invalid or excessive redirect for ${target.pathname}.`);
