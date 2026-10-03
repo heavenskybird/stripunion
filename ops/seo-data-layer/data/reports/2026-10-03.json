@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-03T07:37:28.588Z",
+  "generatedAt": "2026-10-03T07:41:13.459Z",
   "sourceDates": {
     "gsc": "2026-10-01",
     "ga4": "2026-10-02",
     "bing": "2026-10-02",
     "buffer": "2026-10-02",
     "stripcash": "2026-10-02",
-    "attribution": null
+    "attribution": "2026-10-02"
   },
   "sources": {
     "gsc": true,
@@ -14,7 +14,7 @@
     "bing": true,
     "buffer": true,
     "stripcash": true,
-    "attribution": false
+    "attribution": true
   },
   "ga4Admin": {
     "date": "2026-10-03",
@@ -1873,7 +1873,19 @@
       "totalEarnings": 0
     }
   },
-  "attribution": null,
+  "attribution": {
+    "reportScope": "first-party AVCams click/postback attribution",
+    "receiverConnected": true,
+    "postbackJoinReady": true,
+    "totalClicks": 0,
+    "totalPostbacks": 0,
+    "matchedPostbacks": 0,
+    "unmatchedPostbacks": 0,
+    "duplicatePostbacks": 0,
+    "eventCounts": {},
+    "revenueByCurrency": {},
+    "topP1": []
+  },
   "trafficControlPlane": {
     "acquisitionSessions": {
       "organic": 0,
@@ -1929,6 +1941,13 @@
       "webmasterRegistrations": 0,
       "webmasterReferralEarnings": 0
     },
-    "firstPartyAttribution": null
+    "firstPartyAttribution": {
+      "clicks": 0,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "unmatchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
   }
 }
