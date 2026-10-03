@@ -163,3 +163,118 @@ img{max-width:100%;height:auto}
 
 /* Discovery and comparison magazine primitives */
 .discovery-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);gap:32px;align-items:center;padding:clamp(36px,7vw,84px);border-radius:28px;background:radial-gradient(circle at 84% 15%,rgba(165,96,209,.3),transparent 38%),linear-gradient(145deg,#17111d,#30203a);color:#fff}.discovery-hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-.045em;margin:12px 0}.discovery-hero .lead{font-size:clamp(18px,2vw,22px);color:#e5dce9}.discovery-hero-art img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px}.discovery-updated,.discovery-note{font-size:13px;color:var(--muted)}.discovery-card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.discovery-card,.discovery-rating,.discovery-trust{border:1px solid var(--line);border-radius:20px;background:#fff;padding:22px}.discovery-card h3{margin:0 0 8px;font-size:22px}.discovery-card p,.discovery-card dd{color:var(--muted)}.discovery-card dl{display:grid;gap:8px}.discovery-card dl div{display:grid;grid-template-columns:90px 1fr;gap:8px}.discovery-card dt{font-size:12px;text-transform:uppercase;font-weight:800;color:var(--muted)}.discovery-card dd{margin:0}.discovery-rating strong{display:block;font-size:38px;line-height:1.1}.discovery-rating strong small{font-size:14px;color:var(--muted)}.discovery-rating p{color:var(--muted)}.discovery-pricing,.discovery-comparison,.discovery-alternatives{margin-block:34px}.discovery-table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:16px}.discovery-table-scroll table{border-collapse:collapse;width:100%;min-width:540px}.discovery-table-scroll th,.discovery-table-scroll td{text-align:left;vertical-align:top;padding:13px 16px;border-bottom:1px solid var(--line)}.discovery-table-scroll thead{background:var(--soft)}.discovery-pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-block:32px}.discovery-pros-cons>div{padding:22px;border:1px solid var(--line);border-radius:18px}.discovery-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.discovery-gallery picture img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:14px}.discovery-gallery figcaption{grid-column:1/-1;color:var(--muted);font-size:12px}.discovery-trust{background:var(--soft);margin-block:28px}@media(max-width:760px){.discovery-hero{grid-template-columns:1fr;padding:28px}.discovery-pros-cons{grid-template-columns:1fr}}
+
+
+.live-models {
+  margin: 3rem 0;
+}
+
+.live-models-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.live-models-heading h2 {
+  margin-bottom: .45rem;
+}
+
+.live-models-heading p {
+  max-width: 760px;
+  margin: 0;
+}
+
+.live-status {
+  flex: 0 0 auto;
+  font-size: .86rem;
+  opacity: .72;
+}
+
+.live-model-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.live-model-card {
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 16px;
+  background: rgba(255,255,255,.035);
+}
+
+.live-model-card > a {
+  display: block;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: rgba(255,255,255,.04);
+}
+
+.live-model-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .2s ease;
+}
+
+.live-model-card > a:hover img {
+  transform: scale(1.02);
+}
+
+.live-model-card-body {
+  padding: .9rem 1rem 1rem;
+}
+
+.live-model-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.live-model-title-row h3 {
+  margin: 0;
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.live-model-badge {
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 999px;
+  padding: .14rem .42rem;
+  font-size: .7rem;
+  font-weight: 700;
+}
+
+.live-model-card-body p {
+  margin: .45rem 0 .7rem;
+  font-size: .86rem;
+  opacity: .72;
+}
+
+.live-models-fallback {
+  padding: 1.25rem;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 16px;
+  background: rgba(255,255,255,.035);
+}
+
+@media (max-width: 980px) {
+  .live-model-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .live-models-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .live-model-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
