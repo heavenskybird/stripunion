@@ -148,7 +148,7 @@ for (const required of ['FAQPage', 'If discovery is the problem', 'If spending o
 }
 
 const liveModelsComponent = fs.readFileSync('src/components/LiveModelsGrid.astro', 'utf8');
-for (const required of ['PUBLIC_LIVE_MODELS_API_URL', 'targetDomain', 'avcams_live_model', 'search/magic-search']) {
+for (const required of ['PUBLIC_LIVE_MODELS_API_URL', 'https://stripunion-live-models.stripunion.workers.dev/models', 'targetDomain', 'avcams_live_model', 'search/magic-search']) {
   if (!liveModelsComponent.includes(required)) {
     failed = true;
     console.error(`FAIL: LiveModelsGrid is missing required AVCams live-discovery state: ${required}`);
