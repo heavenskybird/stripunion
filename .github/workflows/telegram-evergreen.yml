@@ -1,0 +1,41 @@
+name: Telegram evergreen distribution
+
+on:
+  schedule:
+    - cron: '15 0 * * *'
+    - cron: '15 8 * * *'
+    - cron: '15 16 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: telegram-evergreen-${{ github.event.schedule }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Select evergreen slot and publish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          case "$SCHEDULE" in
+            '15 0 * * *') slot=0 ;;
+            '15 8 * * *') slot=1 ;;
+            '15 16 * * *') slot=2 ;;
+            *) echo "Unknown evergreen schedule: $SCHEDULE"; exit 1 ;;
+          esac
+          EVERGREEN_SLOT="$slot" node ops/seo-data-layer/src/distribution/telegram-evergreen.mjs
