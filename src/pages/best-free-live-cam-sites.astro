@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
+import LiveModelsGrid from '../components/LiveModelsGrid.astro';
 
 const title = 'Best Free Live Cam Sites in 2026: What “Free” Actually Means';
 const description = 'Compare free-access live cam models and understand where optional token spending begins.';
@@ -18,6 +19,14 @@ const description = 'Compare free-access live cam models and understand where op
 
   <section class="section shell narrow">
     <div class="take-box"><span class="kicker">Best fit for free-first browsing</span><p>If your main goal is to explore public rooms before deciding whether to spend, AVCams fits that free-first discovery flow.</p></div>
+
+    <LiveModelsGrid
+      source="best_free_live_cams_live_now"
+      p1="best_free_live_cam_sites"
+      limit={8}
+      title="Browse live public rooms now"
+      description="Start with current live-room discovery, then decide whether any optional paid interaction is worth using."
+    />
 
     <section class="article-body">
       <section><h2>Free browsing and paid interaction are different layers</h2><p>A strong free-first platform lets you understand the environment before payment. The monetized layer starts when you choose tokens, tips, private interaction or other paid features.</p></section>
