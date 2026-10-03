@@ -136,6 +136,10 @@ jobs:
           EXPECTED_GOOGLE_TAG_ID: GT-P8VJLHT3
         run: node scripts/blog-health-check.mjs
 
+      - name: Refresh growth report from latest snapshots
+        working-directory: ops/seo-data-layer
+        run: node src/reports/weekly.mjs
+
       - name: Persist snapshots
         id: persist
         run: |
