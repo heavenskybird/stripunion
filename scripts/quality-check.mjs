@@ -275,7 +275,7 @@ for (const migratedSlug of ['xhamster', 'f95zone']) {
 }
 
 const reviewsData = fs.readFileSync('src/data/reviews.js', 'utf8');
-for (const required of ["slug: 'xhamster'", "title: 'xHamster Review 2026: Site Overview, Features, Pros & Cons'", "partner: false", "indexable: true"]) {
+for (const required of ["slug: 'xhamster'", "title: 'xHamster Review 2026: Free Video Site, Features & Pros/Cons'", "partner: false", "indexable: true"]) {
   if (!reviewsData.includes(required)) {
     failed = true;
     console.error(`FAIL: xHamster search-capture review is missing required state: ${required}`);
