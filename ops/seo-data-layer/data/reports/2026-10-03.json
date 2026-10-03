@@ -1,18 +1,20 @@
 {
-  "generatedAt": "2026-10-03T06:09:30.000Z",
+  "generatedAt": "2026-10-03T06:18:09.034Z",
   "sourceDates": {
     "gsc": "2026-10-01",
     "ga4": "2026-10-02",
     "bing": "2026-10-02",
     "buffer": "2026-10-02",
-    "stripcash": "2026-10-02"
+    "stripcash": "2026-10-02",
+    "attribution": null
   },
   "sources": {
     "gsc": true,
     "ga4": true,
     "bing": true,
     "buffer": true,
-    "stripcash": true
+    "stripcash": true,
+    "attribution": false
   },
   "ga4Admin": {
     "date": "2026-10-03",
@@ -160,7 +162,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -170,7 +172,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -1871,6 +1873,7 @@
       "totalEarnings": 0
     }
   },
+  "attribution": null,
   "trafficControlPlane": {
     "acquisitionSessions": {
       "organic": 0,
@@ -1925,6 +1928,7 @@
       "modelReferralEarnings": 0,
       "webmasterRegistrations": 0,
       "webmasterReferralEarnings": 0
-    }
+    },
+    "firstPartyAttribution": null
   }
 }
