@@ -147,8 +147,28 @@ for (const required of ['FAQPage', 'If discovery is the problem', 'If spending o
   }
 }
 
+const liveModelsComponent = fs.readFileSync('src/components/LiveModelsGrid.astro', 'utf8');
+for (const required of ['PUBLIC_LIVE_MODELS_API_URL', 'targetDomain', 'avcams_live_model', 'search/magic-search']) {
+  if (!liveModelsComponent.includes(required)) {
+    failed = true;
+    console.error(`FAIL: LiveModelsGrid is missing required AVCams live-discovery state: ${required}`);
+  }
+}
+if (liveModelsComponent.includes('STRIPCASH_MODELS_API_KEY')) {
+  failed = true;
+  console.error('FAIL: StripCash Models API key name must not appear in browser-facing LiveModelsGrid code.');
+}
+
+const liveModelsWorker = fs.readFileSync('services/live-models-worker/src/index.js', 'utf8');
+for (const required of ['ModelsCatalog', 'MIN_UPSTREAM_INTERVAL_MS = 10_000', 'blockedCountries', 'blockedRegions', 'blockedLanguages', 'setAlarm', 'MAX_STORED_MODELS = 500']) {
+  if (!liveModelsWorker.includes(required)) {
+    failed = true;
+    console.error(`FAIL: live models worker is missing a required compliance/control marker: ${required}`);
+  }
+}
+
 const avcamsPage = fs.readFileSync('src/pages/avcams.astro', 'utf8');
-for (const required of ['AVCams', 'destinationPath="/signup/model"', '/search/magic-search/', 'avcams_search_cosplay', 'avcams_search_gaming', 'avcams_search_natural', 'avcams_search_office']) {
+for (const required of ['AVCams', 'LiveModelsGrid', 'destinationPath="/signup/model"', '/search/magic-search/', 'avcams_search_cosplay', 'avcams_search_gaming', 'avcams_search_natural', 'avcams_search_office']) {
   if (!avcamsPage.includes(required)) {
     failed = true;
     console.error(`FAIL: first-class AVCams landing page is missing required content: ${required}`);

@@ -1,0 +1,16 @@
+name = "stripunion-live-models"
+main = "src/index.js"
+compatibility_date = "2026-10-03"
+workers_dev = true
+
+[vars]
+STRIPCASH_USER_ID = "103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2"
+ALLOWED_ORIGINS = "https://stripunion.com,https://www.stripunion.com,https://blog.stripunion.com,https://staging.stripunion.com"
+
+[[durable_objects.bindings]]
+name = "CATALOG"
+class_name = "ModelsCatalog"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["ModelsCatalog"]

@@ -1,0 +1,161 @@
+---
+import AffiliateButton from './AffiliateButton.astro';
+import {
+  STRIPCASH_SOURCE_ID,
+  STRIPCASH_TRACKING_URL,
+  STRIPCASH_USER_ID,
+  AVCAMS
+} from '../config/site.js';
+
+const endpoint = import.meta.env.PUBLIC_LIVE_MODELS_API_URL?.trim() || '';
+---
+<section
+  class="live-models"
+  data-live-models
+  data-endpoint={endpoint}
+  data-tracking-base={STRIPCASH_TRACKING_URL}
+  data-user-id={STRIPCASH_USER_ID}
+  data-source-id={STRIPCASH_SOURCE_ID}
+  data-target-domain={AVCAMS.domain}
+>
+  <div class="live-models-heading">
+    <div>
+      <span class="kicker">Live now</span>
+      <h2>See who is online now</h2>
+      <p>Live availability changes continuously. StripUnion only shows models that the live-data service can display for your location and language.</p>
+    </div>
+    <span class="live-status" data-live-status>Checking live rooms…</span>
+  </div>
+
+  <div class="live-model-grid" data-live-grid aria-live="polite"></div>
+
+  <div class="live-models-fallback" data-live-fallback hidden>
+    <p>Live previews are temporarily unavailable. You can still browse the current rooms directly on AVCams.</p>
+    <AffiliateButton source="avcams_live_models_fallback" label="Browse AVCams →" />
+  </div>
+</section>
+
+<script is:inline>
+  (() => {
+    const root = document.querySelector('[data-live-models]');
+    if (!(root instanceof HTMLElement)) return;
+
+    const endpoint = root.dataset.endpoint || '';
+    const grid = root.querySelector('[data-live-grid]');
+    const status = root.querySelector('[data-live-status]');
+    const fallback = root.querySelector('[data-live-fallback]');
+
+    const showFallback = (message = 'Live previews unavailable') => {
+      if (status) status.textContent = message;
+      if (fallback instanceof HTMLElement) fallback.hidden = false;
+    };
+
+    if (!endpoint || !(grid instanceof HTMLElement)) {
+      showFallback('Live previews coming soon');
+      return;
+    }
+
+    const buildTrackedUrl = (model) => {
+      const url = new URL(root.dataset.trackingBase || 'https://go.whitetrafsa.com/');
+      url.searchParams.set('userId', root.dataset.userId || '');
+      url.searchParams.set('campaignId', 'su_live_now');
+      url.searchParams.set('creativeId', 'live_model_card');
+      url.searchParams.set('sourceId', root.dataset.sourceId || 'stripunion');
+      url.searchParams.set('p1', 'avcams_live_now');
+      url.searchParams.set('p2', `model_${model.id}`);
+      url.searchParams.set('targetDomain', root.dataset.targetDomain || 'avcams.online');
+      url.searchParams.set('path', `/search/magic-search/${encodeURIComponent(model.username)}`);
+      return url.toString();
+    };
+
+    const modelCard = (model) => {
+      const card = document.createElement('article');
+      card.className = 'live-model-card';
+
+      const imageLink = document.createElement('a');
+      imageLink.href = buildTrackedUrl(model);
+      imageLink.target = '_blank';
+      imageLink.rel = 'sponsored nofollow noopener noreferrer';
+      imageLink.dataset.affiliatePartner = 'avcams';
+      imageLink.dataset.affiliateSource = 'avcams_live_model';
+      imageLink.dataset.stripcashCampaignId = 'su_live_now';
+      imageLink.dataset.stripcashSourceId = root.dataset.sourceId || 'stripunion';
+      imageLink.dataset.stripcashP1 = 'avcams_live_now';
+      imageLink.dataset.stripcashP2 = `model_${model.id}`;
+      imageLink.dataset.avcamsTargetDomain = root.dataset.targetDomain || 'avcams.online';
+      imageLink.dataset.avcamsPath = `/search/magic-search/${model.username}`;
+      imageLink.setAttribute('aria-label', `Open ${model.username} on AVCams`);
+
+      const image = document.createElement('img');
+      image.src = model.snapshotUrl;
+      image.alt = `${model.username} live preview`;
+      image.loading = 'lazy';
+      image.decoding = 'async';
+      image.width = 320;
+      image.height = 240;
+      imageLink.append(image);
+
+      const body = document.createElement('div');
+      body.className = 'live-model-card-body';
+
+      const titleRow = document.createElement('div');
+      titleRow.className = 'live-model-title-row';
+
+      const title = document.createElement('h3');
+      title.textContent = model.username;
+      titleRow.append(title);
+
+      if (model.broadcastHD) {
+        const badge = document.createElement('span');
+        badge.className = 'live-model-badge';
+        badge.textContent = 'HD';
+        titleRow.append(badge);
+      }
+
+      const meta = document.createElement('p');
+      const viewers = Number(model.viewersCount || 0);
+      const extras = [];
+      if (viewers > 0) extras.push(`${viewers.toLocaleString()} watching`);
+      if (model.broadcastVR) extras.push('VR');
+      meta.textContent = extras.length ? extras.join(' · ') : 'Live now';
+
+      const cta = document.createElement('a');
+      cta.className = 'text-link';
+      cta.href = imageLink.href;
+      cta.target = '_blank';
+      cta.rel = imageLink.rel;
+      cta.dataset.affiliatePartner = 'avcams';
+      cta.dataset.affiliateSource = 'avcams_live_model';
+      cta.dataset.stripcashCampaignId = 'su_live_now';
+      cta.dataset.stripcashSourceId = root.dataset.sourceId || 'stripunion';
+      cta.dataset.stripcashP1 = 'avcams_live_now';
+      cta.dataset.stripcashP2 = `model_${model.id}`;
+      cta.dataset.avcamsTargetDomain = root.dataset.targetDomain || 'avcams.online';
+      cta.dataset.avcamsPath = `/search/magic-search/${model.username}`;
+      cta.textContent = 'View live on AVCams →';
+
+      body.append(titleRow, meta, cta);
+      card.append(imageLink, body);
+      return card;
+    };
+
+    fetch(endpoint, {
+      headers: { accept: 'application/json' },
+      credentials: 'omit'
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error('live-models-http');
+        return response.json();
+      })
+      .then((payload) => {
+        const models = Array.isArray(payload?.models) ? payload.models : [];
+        if (!models.length) {
+          showFallback('No eligible previews right now');
+          return;
+        }
+        grid.replaceChildren(...models.map(modelCard));
+        if (status) status.textContent = `${models.length} live previews`;
+      })
+      .catch(() => showFallback());
+  })();
+</script>
