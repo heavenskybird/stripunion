@@ -50,11 +50,11 @@ img{max-width:100%;height:auto}
 .hero .kicker,.page-hero .kicker{color:#dcbcff}
 .hero h1,.page-hero h1{font-size:clamp(44px,7vw,78px);line-height:1.01;letter-spacing:-.052em;margin:16px 0 24px}
 .hero p,.page-hero .lead{font-size:20px;max-width:780px;color:#e5dce9}
-.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 19px;border-radius:999px;text-decoration:none;font-weight:760;transition:.18s ease;border:1px solid transparent}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;max-width:100%;padding:12px 19px;border-radius:999px;text-decoration:none;text-align:center;font-weight:760;transition:.18s ease;border:1px solid transparent;white-space:normal}
 .button:hover{transform:translateY(-1px)}
 .button-primary{background:linear-gradient(135deg,var(--accent-2),var(--accent));color:white;box-shadow:0 12px 30px rgba(123,63,165,.24)}
 .button-secondary{background:#fff;color:var(--ink);border-color:rgba(255,255,255,.7)}
-.button-outline{border-color:var(--line);background:#fff}
+.button-outline{border-color:var(--line);background:#fff;color:var(--ink)}
 .hero-actions,.card-actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 .hero-actions{margin:32px 0 18px}
 .micro{font-size:12px;color:#bfb3c5;max-width:780px}
@@ -135,6 +135,8 @@ img{max-width:100%;height:auto}
 }
 @media(max-width:580px){
   .shell,.narrow{width:min(100% - 28px,var(--max))}
+  .hero-actions{align-items:stretch}
+  .hero-actions .button{width:100%}
   .hero-inner{padding:78px 0 70px}
   .hero h1,.page-hero h1{font-size:44px}
   .category-grid,.factor-grid,.footer-grid{grid-template-columns:1fr}
