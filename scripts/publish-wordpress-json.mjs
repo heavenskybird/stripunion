@@ -33,11 +33,38 @@ const baseHeaders = {
 
 async function wp(pathname, options = {}, { allowFailure = false } = {}) {
   const headers = { ...baseHeaders, ...(options.headers || {}) };
-  const response = await fetch(siteUrl + pathname, {
-    ...options,
-    headers,
-    signal: AbortSignal.timeout(20000)
-  });
+  const originalBody = options.body;
+  const originalMethod = options.method || 'GET';
+  let requestUrl = siteUrl + pathname;
+  let response = null;
+
+  for (let redirectCount = 0; redirectCount < 4; redirectCount++) {
+    const attemptBody = Buffer.isBuffer(originalBody) ? Buffer.from(originalBody) : originalBody;
+    response = await fetch(requestUrl, {
+      ...options,
+      method: originalMethod,
+      body: attemptBody,
+      headers,
+      redirect: 'manual',
+      signal: AbortSignal.timeout(20000)
+    });
+
+    if (![301, 302, 307, 308].includes(response.status)) {
+      break;
+    }
+
+    const location = response.headers.get('location');
+    if (!location) {
+      break;
+    }
+
+    const nextUrl = new URL(location, requestUrl);
+    if (nextUrl.origin !== new URL(siteUrl).origin) {
+      throw new Error('WordPress REST redirected to a different origin: ' + nextUrl.origin);
+    }
+    requestUrl = nextUrl.toString();
+  }
+
   const text = await response.text();
   let data = null;
   try {
