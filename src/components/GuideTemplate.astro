@@ -1,0 +1,149 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const { guide } = Astro.props;
+const cover = '/editorial-covers/' + guide.categorySlug + '.svg';
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: guide.title,
+  description: guide.description,
+  datePublished: guide.publishedAt,
+  dateModified: guide.updatedAt || guide.publishedAt,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': new URL('/guides/' + guide.slug, Astro.site || 'https://stripunion.com').toString()
+  }
+};
+
+const faqSchema = guide.faqs?.length ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: guide.faqs.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer }
+  }))
+} : null;
+
+const schemas = faqSchema ? [articleSchema, faqSchema] : [articleSchema];
+---
+<BaseLayout
+  title={guide.title}
+  description={guide.description}
+  canonical={'/guides/' + guide.slug}
+  image={cover}
+  pageType="Article"
+  extraSchemas={schemas}
+>
+  <section class="page-hero editorial-guide-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs">
+        <a href="/">Home</a><span>/</span><a href="/guides">Guides</a><span>/</span><a href={'/' + guide.categorySlug}>{guide.categoryLabel}</a>
+      </nav>
+      <span class="kicker">{guide.categoryLabel} · Editorial guide · Adults 18+</span>
+      <h1>{guide.title}</h1>
+      <p class="lead">{guide.excerpt}</p>
+      <div class="hero-actions">
+        <a class="button button-secondary" href={'/' + guide.categorySlug}>Explore {guide.categoryLabel} →</a>
+        <a class="button button-outline" href="/categories">All categories</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell narrow guide-layout">
+    <aside class="guide-summary" aria-label="Key takeaways">
+      <span class="kicker">Quick take</span>
+      <h2>What matters most</h2>
+      <ul>
+        {guide.keyTakeaways.map((item) => <li>{item}</li>)}
+      </ul>
+    </aside>
+
+    <article class="article-body guide-body">
+      {guide.sections.map((section, index) => (
+        <section id={'section-' + (index + 1)}>
+          <h2>{section.heading}</h2>
+          {section.paragraphs?.map((paragraph) => <p>{paragraph}</p>)}
+          {section.bullets?.length && (
+            <ul>
+              {section.bullets.map((item) => <li>{item}</li>)}
+            </ul>
+          )}
+          {section.table && (
+            <div class="table-wrap" role="region" aria-label={section.table.caption || section.heading} tabindex="0">
+              <table>
+                {section.table.caption && <caption>{section.table.caption}</caption>}
+                <thead><tr>{section.table.headers.map((header) => <th scope="col">{header}</th>)}</tr></thead>
+                <tbody>
+                  {section.table.rows.map((row) => <tr>{row.map((cell) => <td>{cell}</td>)}</tr>)}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </section>
+      ))}
+
+      {guide.faqs?.length && (
+        <section class="faq">
+          <span class="kicker">FAQ</span>
+          <h2>Common questions</h2>
+          {guide.faqs.map((item) => (
+            <details>
+              <summary>{item.question}</summary>
+              <p>{item.answer}</p>
+            </details>
+          ))}
+        </section>
+      )}
+
+      <section class="related-guides">
+        <span class="kicker">Continue exploring</span>
+        <h2>Next steps</h2>
+        <div class="money-grid">
+          <a class="money-card related-card" href={'/' + guide.categorySlug}>
+            <h3>{guide.categoryLabel}</h3>
+            <p>Compare platforms and category-specific decision factors.</p>
+            <span class="text-link">Open category →</span>
+          </a>
+          <a class="money-card related-card" href="/guides">
+            <h3>All editorial guides</h3>
+            <p>Browse practical decision-support content across adult categories.</p>
+            <span class="text-link">Browse guides →</span>
+          </a>
+          <a class="money-card related-card" href="/editorial-policy">
+            <h3>How we review</h3>
+            <p>See how StripUnion separates evidence, trade-offs and affiliate relationships.</p>
+            <span class="text-link">Editorial policy →</span>
+          </a>
+        </div>
+      </section>
+    </article>
+  </section>
+
+  <style>
+    .editorial-guide-hero {
+      background:
+        radial-gradient(circle at 85% 25%, rgba(255,255,255,.08), transparent 28%),
+        linear-gradient(145deg, var(--surface), var(--surface-2, #1b1522));
+    }
+    .guide-layout { display: grid; gap: 32px; }
+    .guide-summary {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--surface);
+      padding: 22px;
+    }
+    .guide-summary h2 { margin: 6px 0 14px; }
+    .guide-summary ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+    .guide-body section { scroll-margin-top: 100px; }
+    .guide-body ul { padding-left: 22px; }
+    .table-wrap { overflow-x: auto; margin: 20px 0; border: 1px solid var(--line); border-radius: 14px; }
+    table { border-collapse: collapse; width: 100%; min-width: 620px; background: var(--surface); }
+    th, td { padding: 13px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { font-size: .92rem; }
+    caption { text-align: left; padding: 14px; font-weight: 700; }
+    tbody tr:last-child td { border-bottom: 0; }
+  </style>
+</BaseLayout>
