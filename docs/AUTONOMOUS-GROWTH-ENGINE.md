@@ -19,7 +19,7 @@ The system should not overfit to whatever topic was most recently discussed. Eac
 ## Cadence
 Hourly only: one autonomous loop subsumes the former hourly, daily and weekly tasks. Each run starts with Main/Astro and live WordPress inventory, publishes or materially advances the strongest under-built-category candidates, verifies distribution/indexability, then performs the full-funnel/competitor/partner/technical review and updates the experiment backlog.
 
-During the content-build phase, target 5 production-quality publications per hour and track a rolling 24-hour target of 120. If fewer than 5 can safely pass the gate, publish all safe candidates, record the exact deficit and blockers, work those blockers in the same run, and carry the deficit into the next-hour queue. Never hit the number by shipping thin, duplicated, unsupported, spammy or cannibalizing pages.
+During the content-build phase, target 5 production-quality publications per hour and track a rolling 24-hour target of 120. If existing drafts are insufficient, create new original content from scratch in under-built categories. If an external tool quota or generation credit blocks throughput, bypass, replace, or migrate that dependency instead of accepting lower output. Only genuine external blockers that cannot be removed within the run may reduce the count. Never hit the number by shipping thin, duplicated, unsupported, spammy or cannibalizing pages.
 
 7/14/30-day windows still govern meaningful edits to established successful pages, CTA layouts, SEO targeting and distribution tactics. They do not constrain creation of new quality search surfaces.
 
@@ -68,3 +68,6 @@ During this phase, a report that only says traffic is low without advancing a pu
 
 ## Hourly accountability
 Every hourly summary must report: exact publications and categories, rolling 24-hour progress against the 120 target when known, completed distribution/CRO/technical actions, concrete deficits/blockers for every missing publication below the 5/hour target, and the next-hour publication queue. Low traffic or zero clicks is never an acceptable explanation for inactivity.
+
+## Tool-independence and first-party publishing
+WPWriter is a convenience layer for CMS inspection, editing, media and ad-hoc publishing; it is not critical infrastructure. High-throughput Main-site editorial publishing uses GitHub-tracked guide modules, normal PR/check/merge delivery, automatic sitemap/category integration, generated non-explicit covers and post-deploy social distribution. Direct WordPress REST publishing is the preferred secondary path for Blog content once dedicated application-password credentials are configured. If any future third-party tool constrains growth through quotas, price, permissions or reliability, move the critical path to first-party or replaceable infrastructure rather than lowering the business objective.
