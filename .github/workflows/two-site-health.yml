@@ -2,6 +2,13 @@ name: Ecosystem public health
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/two-site-health.yml'
+      - 'scripts/public-health-oracle.mjs'
+      - 'scripts/two-site-main-health.mjs'
+      - 'scripts/blog-health-check.mjs'
   schedule:
     - cron: '17 * * * *'
 
