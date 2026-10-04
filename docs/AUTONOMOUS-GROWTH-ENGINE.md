@@ -17,14 +17,14 @@ The system should not overfit to whatever topic was most recently discussed. Eac
 - Supply-side growth: creator/model referral content and partner onboarding only; no studio/agency operations.
 
 ## Cadence
-Daily: collect first-party and competitor evidence; update opportunity scores; select quality-gated new content; publish 1-3 strong items when safe; verify indexability, internal links, featured image, social distribution, and approved affiliate CTA behavior.
+Daily: collect first-party and competitor evidence; inspect the live WordPress draft inventory; update opportunity scores; select quality-gated new content; while the content gap is large, publish as many strong non-overlapping items as safely pass the gates, normally several per day rather than a fixed 1–3 cap; verify indexability, internal links, featured image, social distribution, and approved affiliate CTA behavior.
 
 Weekly: review the complete funnel and competitor architecture, identify structural gaps, and prioritize the next clusters/experiments.
 
 7/14/30-day windows: judge meaningful changes to established pages, CTA layouts, SEO targeting and distribution tactics. Avoid reacting to one-day ranking noise.
 
 ## Daily publishing rule
-Daily publishing is encouraged because StripUnion currently has a large content gap, but publishing volume is subordinate to quality. Every published item should add original decision-support value and should not be a near-duplicate of an existing page. Where a WordPress draft exists, prefer upgrading the draft over generating another overlapping article.
+Daily publishing is encouraged because StripUnion currently has a large content gap, and qualified search-surface expansion is itself a growth lever. Publishing volume remains subordinate to quality, but zero clicks or a small early sample is not a reason to wait for traffic before creating additional useful search coverage. Every published item should add original decision-support value and should not be a near-duplicate of an existing page. Where a WordPress draft exists, prefer upgrading the draft over generating another overlapping article.
 
 Before publication, require at minimum:
 - clear search/user intent;
@@ -45,3 +45,9 @@ For each material experiment, preserve: hypothesis, target page/audience, change
 
 ## Human approval boundaries
 Keep DNS, billing, production credentials, legal-policy decisions, new affiliate contracts, payout destinations, large paid-media budgets, and any creator/studio contractual arrangement outside autonomous execution unless explicitly approved.
+
+## Distribution scaling
+Work toward capacity for up to 20 useful, materially distinct X posts/day and up to 100 useful, materially distinct Telegram posts/day, spaced across the day and derived from genuinely different pages, questions, comparisons, tips, visuals, or updates. Scale only when the content pool supports uniqueness and engagement/retention do not deteriorate; never quota-fill with near-duplicate posts.
+
+## Core evidence sources
+The core stack excludes GSC Wizard, Ahrefs, and Semrush. Use direct official/free/open sources wherever possible: repository GSC API snapshots, GA4 Data/Admin, Bing Webmaster REST, Google Trends and Keyword Planner when accessible, Common Crawl, public competitor sitemaps/robots/pages, public SERP research, and PageSpeed/Lighthouse/CrUX. Do not fabricate modeled competitor-traffic estimates when no authoritative free source exists.
