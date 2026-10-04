@@ -8,12 +8,14 @@ const {
   canonical = Astro.url.pathname,
   robots = SITE.allowIndexing ? 'index,follow' : 'noindex,nofollow',
   pageType = 'WebPage',
+  image = null,
   extraSchemas = []
 } = Astro.props;
 
 const safeTitle = title || SITE.name;
 const fullTitle = safeTitle.includes('StripUnion') ? safeTitle : `${safeTitle} | StripUnion`;
 const canonicalUrl = new URL(canonical, SITE.url).toString();
+const imageUrl = image ? new URL(image, SITE.url).toString() : null;
 
 const organizationSchema = {
   '@context': 'https://schema.org',
@@ -73,10 +75,12 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:locale" content={SITE.locale} />
+    {imageUrl && <meta property="og:image" content={imageUrl} />}
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content={imageUrl ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
+    {imageUrl && <meta name="twitter:image" content={imageUrl} />}
 
     {schemas.map((schema) => <script type="application/ld+json" set:html={JSON.stringify(schema)} />)}
   </head>
@@ -91,6 +95,7 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           <a href="/stripchat-vs-chaturbate">Compare</a>
           <a href="/stripchat-pricing">Pricing & Tokens</a>
           <a href="/chaturbate-alternatives">Alternatives</a>
+          <a href="/guides">Guides</a>
           <a href={SITE.blogUrl}>Blog</a>
         </nav>
         <span class="age-pill">18+</span>
@@ -103,6 +108,7 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
             <a href="/stripchat-vs-livejasmin">Stripchat vs LiveJasmin</a>
             <a href="/stripchat-pricing">Pricing & Tokens</a>
             <a href="/chaturbate-alternatives">Chaturbate Alternatives</a>
+            <a href="/guides">Guides</a>
             <a href={SITE.blogUrl}>Blog</a>
           </nav>
         </details>
@@ -127,6 +133,7 @@ const loadGa4 = SITE.allowIndexing && validGa4MeasurementId;
           <a href="/chaturbate-alternatives">Chaturbate Alternatives</a>
           <a href="/become-a-cam-model">Become a Model</a>
           <a href="/stripcash-affiliate-program">For Affiliates</a>
+          <a href="/guides">Editorial Guides</a>
           <a href={SITE.blogUrl}>Blog</a>
         </div>
         <div>
