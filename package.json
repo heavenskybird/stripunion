@@ -12,12 +12,16 @@
     "check:editorial-backlog": "node scripts/validate-hourly-backlog.mjs",
     "check:editorial-artifacts": "node scripts/compile-editorial-artifacts.mjs --check",
     "compile:editorial-artifacts": "node scripts/compile-editorial-artifacts.mjs",
-    "report:editorial-production": "node scripts/editorial-production-count.mjs 24"
+    "report:editorial-production": "node scripts/editorial-production-count.mjs 24",
+    "test:visual": "node scripts/visual-regression.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
   }
 }
