@@ -2,6 +2,13 @@ name: Editorial production snapshot
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/editorial/publication-ledger/astro/*.json'
+      - 'ops/editorial/publication-ledger/wordpress/*.json'
+      - 'scripts/editorial-production-count.mjs'
+      - '.github/workflows/editorial-production-snapshot.yml'
   schedule:
     - cron: '25 * * * *'
 
