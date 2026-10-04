@@ -1,0 +1,19 @@
+{
+  "title": "StripUnion GitHub Publisher Acceptance",
+  "slug": "stripunion-github-publisher-acceptance",
+  "excerpt": "Private draft used to verify the first-party GitHub-to-WordPress publishing path.",
+  "content": "<h2>First-party publishing acceptance</h2><p>This private draft verifies authenticated GitHub-to-WordPress REST publishing without WPWriter generation credits.</p><h3>Expected behavior</h3><p>The publisher should create or update this draft idempotently, preserve it as non-public, and record the result in the repository publication ledger.</p>",
+  "status": "draft",
+  "seo": {
+    "title": "StripUnion GitHub Publisher Acceptance",
+    "description": "Private acceptance draft for the first-party StripUnion GitHub-to-WordPress publishing pipeline.",
+    "focus_keyword": "github wordpress publisher"
+  },
+  "featured_image": false,
+  "related_links": [
+    {
+      "title": "StripUnion Guides",
+      "url": "https://stripunion.com/guides/"
+    }
+  ]
+}
