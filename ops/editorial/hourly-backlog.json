@@ -23,8 +23,10 @@
       "intent": "subscription value and privacy decision guide",
       "surface": "main_or_blog",
       "priority": 90,
-      "status": "planned",
-      "source_requirements": ["official pricing or terms for volatile claims"],
+      "status": "ready",
+      "source_requirements": [
+        "official pricing or terms for volatile claims"
+      ],
       "monetization": "approved_offers_only",
       "notes": "Prefer upgrading a non-overlapping live WordPress draft when available."
     },
@@ -34,8 +36,10 @@
       "intent": "intent-fit and privacy decision guide",
       "surface": "main_or_blog",
       "priority": 88,
-      "status": "planned",
-      "source_requirements": ["official safety and account-policy sources for volatile claims"],
+      "status": "ready",
+      "source_requirements": [
+        "official safety and account-policy sources for volatile claims"
+      ],
       "monetization": "approved_offers_only",
       "notes": "Keep dating intent separate from live-cam viewer intent."
     },
@@ -45,8 +49,10 @@
       "intent": "platform-type selection guide",
       "surface": "main_or_blog",
       "priority": 86,
-      "status": "planned",
-      "source_requirements": ["official creator/platform documentation for volatile claims"],
+      "status": "ready",
+      "source_requirements": [
+        "official creator/platform documentation for volatile claims"
+      ],
       "monetization": "approved_offers_only",
       "notes": "Do not invent creator earnings, payout levels or testing claims."
     },
@@ -56,8 +62,10 @@
       "intent": "billing descriptor and payment privacy guide",
       "surface": "main_or_blog",
       "priority": 84,
-      "status": "planned",
-      "source_requirements": ["official merchant or payment documentation where platform-specific"],
+      "status": "ready",
+      "source_requirements": [
+        "official merchant or payment documentation where platform-specific"
+      ],
       "monetization": "contextual_only",
       "notes": "Educational decision support; no unsupported promises about anonymity."
     },
@@ -67,8 +75,10 @@
       "intent": "upstream-native referral architecture guide",
       "surface": "main_or_blog",
       "priority": 82,
-      "status": "planned",
-      "source_requirements": ["current official affiliate/referral terms"],
+      "status": "ready",
+      "source_requirements": [
+        "current official affiliate/referral terms"
+      ],
       "monetization": "approved_referral_programs_only",
       "notes": "Keep webmaster funnel separate from viewer, model and studio funnels."
     }

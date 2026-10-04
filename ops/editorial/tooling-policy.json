@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-04",
+  "critical_path": {
+    "planning": "repository_backlog",
+    "content_contract": "provider_neutral_json_artifact",
+    "compilation": "repository_compiler",
+    "validation": "ci_quality_gates",
+    "main_site_publishing": "github_actions_to_astro",
+    "blog_publishing": "github_actions_to_wordpress_rest",
+    "distribution": "growth_bridge_buffer_telegram",
+    "production_health": "github_actions_public_health_oracle"
+  },
+  "tools": {
+    "wpwriter": {
+      "status": "deprecated_from_critical_path",
+      "allowed_roles": [
+        "read_only_cms_inspection",
+        "ad_hoc_noncritical_assistance"
+      ],
+      "prohibited_dependencies": [
+        "hourly_generation_target",
+        "production_publish_gate",
+        "featured_image_quota",
+        "seo_metadata_gate"
+      ],
+      "removal_condition": "first_party_content_factory_and_publish_ledger_stable_across_repeated_runs"
+    },
+    "chat_connector": {
+      "status": "control_research_engineering_plane",
+      "allowed_roles": [
+        "planning",
+        "research",
+        "safe_editorial_authoring",
+        "engineering",
+        "qa"
+      ],
+      "prohibited_dependencies": [
+        "required_runtime_publish_click"
+      ]
+    },
+    "ai_providers": {
+      "status": "replaceable_workers",
+      "contract": "ops/editorial/content-artifacts/*.json",
+      "selection_dimensions": [
+        "quality",
+        "cost",
+        "latency",
+        "reliability",
+        "policy_compatibility",
+        "language_quality"
+      ],
+      "note": "No provider is a required single point of failure."
+    }
+  }
+}

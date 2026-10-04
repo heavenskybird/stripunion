@@ -1,0 +1,72 @@
+name: Editorial batch compile
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/editorial/content-artifacts/*.json'
+      - 'scripts/compile-editorial-artifacts.mjs'
+      - 'src/data/categories.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: editorial-batch-compile
+  cancel-in-progress: false
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate and compile artifacts
+        run: |
+          set -euo pipefail
+          node scripts/compile-editorial-artifacts.mjs --check
+          node scripts/compile-editorial-artifacts.mjs
+
+      - name: Detect generated guide changes
+        id: changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain -- src/data/guides)" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create compiler branch and pull request
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch="bot/editorial-batch-${GITHUB_SHA::12}"
+          git config user.name "stripunion-content-factory"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add src/data/guides
+          git commit -m "content: compile autonomous editorial batch"
+          git push origin "$branch"
+
+          url="$(gh pr create             --base main             --head "$branch"             --title "content: compile autonomous editorial batch"             --body "Deterministically compiled from provider-neutral artifacts already merged to canonical main. CI must pass before merge.")"
+          echo "Opened $url"
+
+          # Preserve repository governance. If auto-merge is available, enable it;
+          # otherwise leave the PR open for the next autonomous control-plane run.
+          gh pr merge "$url" --squash --auto || true

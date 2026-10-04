@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ReviewTemplate from '../components/ReviewTemplate.astro';
 import ReviewCard from '../components/ReviewCard.astro';
-import AffiliateButton from '../components/AffiliateButton.astro';
 import { categories } from '../data/categories.js';
 import { reviews } from '../data/reviews.js';
 import { vrReviews } from '../data/reviews-vr.js';
@@ -125,15 +124,6 @@ const pendingForCategory = kind === 'category'
       </section>
     )}
 
-    <section class="section section-soft">
-      <div class="shell narrow">
-        <div class="take-box">
-          <span class="kicker">Want a live option?</span>
-          <p>AVCams offers public-room discovery with optional token-based interactions.</p>
-        </div>
-        <AffiliateButton source={`${item.slug}_category_partner`} />
-      </div>
-    </section>
   </BaseLayout>
 )}
 

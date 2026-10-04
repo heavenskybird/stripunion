@@ -62,6 +62,30 @@ export const categories = [
     description: 'Compare established adult retailers by catalog, shopping experience, delivery information and customer policies.',
     blurb: 'Retailers should be compared on practical shopping factors rather than entertainment-platform features.',
     factors: ['Catalog breadth', 'Shipping information', 'Returns', 'Discretion/privacy', 'Pricing transparency', 'Customer support']
+  },
+  {
+    slug: 'creator-platforms',
+    name: 'Creator / Fan Platforms',
+    title: 'Creator & Fan Platforms: Selection and Privacy Guide',
+    description: 'Compare creator and fan-subscription platform models by audience fit, account controls, discovery, privacy and commercial terms.',
+    blurb: 'Creator platforms serve a different funnel from viewer entertainment pages. Compare audience ownership, discovery, account controls and current commercial terms before choosing a platform.',
+    factors: ['Audience fit', 'Discovery model', 'Account and privacy controls', 'Commercial terms', 'Payout documentation', 'Content ownership and portability']
+  },
+  {
+    slug: 'privacy-safety-payment',
+    name: 'Privacy / Safety / Payment',
+    title: 'Adult Platform Privacy, Safety & Payment Guides',
+    description: 'Practical decision-support for account privacy, billing descriptors, payment choices, device hygiene and safer platform use.',
+    blurb: 'Privacy is not one setting. Account identity, billing, devices, notifications and network exposure are separate decisions that should be evaluated independently.',
+    factors: ['Account identity', 'Billing descriptors', 'Payment controls', 'Device privacy', 'Notification settings', 'Cancellation and records']
+  },
+  {
+    slug: 'webmaster-affiliate',
+    name: 'Webmaster / Affiliate',
+    title: 'Adult Affiliate & Webmaster Program Guides',
+    description: 'Evaluate upstream affiliate and webmaster programs by attribution, permitted traffic, reporting, payout logic and operational fit.',
+    blurb: 'Webmaster economics should be evaluated from current upstream terms and measurable attribution rather than assumed commission claims.',
+    factors: ['Attribution model', 'Permitted traffic', 'Reporting', 'Payout logic', 'Referral tiers', 'Program restrictions']
   }
 ];
 
