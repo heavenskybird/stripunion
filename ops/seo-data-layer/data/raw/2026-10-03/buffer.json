@@ -1,6 +1,6 @@
 {
   "source": "buffer-graphql",
-  "collectedAt": "2026-10-04T05:41:53.703Z",
+  "collectedAt": "2026-10-04T07:01:09.357Z",
   "organization": {
     "id": "6ab75bd1d7d9758ea3145e4b",
     "name": "My organization"
@@ -12,6 +12,62 @@
   },
   "sentLookbackDays": 90,
   "sentPosts": [
+    {
+      "id": "6ac1e740aa79e514b90d9396",
+      "text": "Before choosing an adult platform, privacy and account security matter. Adult games are spread ac…\n\nhttps://stripunion.com/guides/adult-games-beginners-guide?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=adult-games-beginners-guide",
+      "status": "sent",
+      "dueAt": "2026-10-04T06:35:00.000Z",
+      "createdAt": "2026-10-04T05:42:24.079Z",
+      "channelId": "6ab75d92ea19ca0bdef12700",
+      "metrics": {
+        "impressions": 0,
+        "reach": null,
+        "reactions": 0,
+        "comments": 0,
+        "reposts": 0,
+        "clicks": 0,
+        "engagementRate": 0,
+        "raw": [
+          {
+            "type": "reactions",
+            "name": "Reactions",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "comments",
+            "name": "Comments",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "engagementRate",
+            "name": "Eng. Rate",
+            "value": 0,
+            "unit": "percentage"
+          },
+          {
+            "type": "reposts",
+            "name": "Reposts",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "impressions",
+            "name": "Impressions",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "clicks",
+            "name": "Clicks",
+            "value": 0,
+            "unit": "count"
+          }
+        ]
+      },
+      "metricsUpdatedAt": "2026-10-04T06:35:10.057Z"
+    },
     {
       "id": "6ac09f349fdc9f926e6d871d",
       "text": "Mobile live-cam use is less about having an app and more about whether discovery, chat, token purchase and private-session controls work well in the browser you actually use. https://stripunion.com/best-live-cam-sites?utm_source=x&utm_medium=social&utm_campaign=mobile_live_cams",
@@ -1357,5 +1413,38 @@
       "metricsUpdatedAt": "2026-10-03T21:53:30.588Z"
     }
   ],
-  "scheduledPosts": []
+  "scheduledPosts": [
+    {
+      "id": "6ac1e8a77d53b827e0fc7881",
+      "text": "Before choosing an adult platform, privacy and account security matter. VR adult content adds h…\n\nhttps://stripunion.com/guides/vr-adult-content-setup-guide?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=vr-adult-content-setup-guide",
+      "status": "scheduled",
+      "dueAt": "2026-10-04T13:57:00.000Z",
+      "createdAt": "2026-10-04T05:48:23.305Z",
+      "channelId": "6ab75d92ea19ca0bdef12700"
+    },
+    {
+      "id": "6ac1e8a4aa79e514b90dd098",
+      "text": "Similar adult platforms can differ sharply in access, usability and paid interaction. …\n\nhttps://stripunion.com/guides/hentai-anime-streaming-manga-games-guide?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=hentai-anime-streaming-manga-games-guide",
+      "status": "scheduled",
+      "dueAt": "2026-10-04T12:41:00.000Z",
+      "createdAt": "2026-10-04T05:48:20.182Z",
+      "channelId": "6ab75d92ea19ca0bdef12700"
+    },
+    {
+      "id": "6ac1e8a15829d2489a06a3df",
+      "text": "Before choosing an adult platform, privacy and account security matter. …\n\nhttps://stripunion.com/guides/free-adult-video-sites-privacy-usability-guide?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=free-adult-video-sites-privacy-usability-guide",
+      "status": "scheduled",
+      "dueAt": "2026-10-04T11:54:00.000Z",
+      "createdAt": "2026-10-04T05:48:17.141Z",
+      "channelId": "6ab75d92ea19ca0bdef12700"
+    },
+    {
+      "id": "6ac1e89eaa79e514b90dc529",
+      "text": "Similar adult platforms can differ sharply in access, usability and paid interaction. …\n\nhttps://stripunion.com/guides/how-to-choose-discreet-adult-shop?utm_source=x&utm_medium=social&utm_campaign=wp_publish&utm_content=how-to-choose-discreet-adult-shop",
+      "status": "scheduled",
+      "dueAt": "2026-10-04T10:38:00.000Z",
+      "createdAt": "2026-10-04T05:48:14.068Z",
+      "channelId": "6ab75d92ea19ca0bdef12700"
+    }
+  ]
 }
