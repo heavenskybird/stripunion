@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { guides } from '../../lib/guides.js';
+---
+<BaseLayout
+  title="Adult Platform Guides"
+  description="Practical StripUnion guides across adult games, anime, video, dating, shops, VR, live cams and other adult-platform categories. Adults 18+."
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><span>Guides</span></nav>
+      <span class="kicker">Decision-support library · Adults 18+</span>
+      <h1>Adult platform guides across every major category</h1>
+      <p class="lead">Use practical checklists, trade-off frameworks and category-specific explainers before choosing a platform, service or retailer.</p>
+    </div>
+  </section>
+
+  <section class="section shell">
+    <div class="section-head">
+      <span class="kicker">Latest guides</span>
+      <h2>Broader coverage than a single adult niche</h2>
+      <p>StripUnion covers live cams, video, games, anime, shops, dating, VR and adjacent adult-platform decisions.</p>
+    </div>
+    <div class="review-grid">
+      {guides.map((guide) => (
+        <article class="review-card">
+          <span class="kicker">{guide.categoryLabel}</span>
+          <h3><a href={'/guides/' + guide.slug}>{guide.title}</a></h3>
+          <p>{guide.excerpt}</p>
+          <a class="text-link" href={'/guides/' + guide.slug}>Read guide →</a>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

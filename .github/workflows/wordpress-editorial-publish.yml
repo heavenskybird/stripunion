@@ -1,0 +1,43 @@
+name: WordPress editorial publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      content_path:
+        description: Repository JSON payload under ops/editorial/wordpress-queue/
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate content path
+        shell: bash
+        run: |
+          set -euo pipefail
+          path="${{ inputs.content_path }}"
+          case "$path" in
+            ops/editorial/wordpress-queue/*.json) ;;
+            *) echo "content_path must be under ops/editorial/wordpress-queue/" >&2; exit 1 ;;
+          esac
+          test -f "$path"
+
+      - name: Publish through WordPress REST
+        env:
+          WP_SITE_URL: ${{ vars.WP_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: node scripts/publish-wordpress-json.mjs "${{ inputs.content_path }}"

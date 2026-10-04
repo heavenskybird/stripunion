@@ -7,6 +7,7 @@ import { categories } from '../data/categories.js';
 import { reviews } from '../data/reviews.js';
 import { vrReviews } from '../data/reviews-vr.js';
 import { legacyAliases, pendingReviews } from '../data/legacy.js';
+import { guidesByCategory } from '../lib/guides.js';
 
 const allReviews = { ...reviews, ...vrReviews };
 
@@ -42,6 +43,7 @@ const { kind, item } = Astro.props;
 const migratedForCategory = kind === 'category'
   ? Object.values(allReviews).filter((review) => review.categorySlug === item.slug)
   : [];
+const categoryGuides = kind === 'category' ? guidesByCategory(item.slug) : [];
 const pendingForCategory = kind === 'category'
   ? Object.entries(pendingReviews)
       .filter(([slug, data]) => data[2] === item.slug && !allReviews[slug])
@@ -72,6 +74,28 @@ const pendingForCategory = kind === 'category'
         {item.factors.map((factor) => <div class="factor">{factor}</div>)}
       </div>
     </section>
+
+    {categoryGuides.length > 0 && (
+      <section class="section section-soft">
+        <div class="shell">
+          <div class="section-head">
+            <span class="kicker">Editorial guides</span>
+            <h2>Practical {item.name} decision guides</h2>
+            <p>Use these guides to narrow the decision before comparing individual platforms or stores.</p>
+          </div>
+          <div class="review-grid">
+            {categoryGuides.map((guide) => (
+              <article class="review-card">
+                <span class="kicker">{guide.categoryLabel}</span>
+                <h3><a href={'/guides/' + guide.slug}>{guide.title}</a></h3>
+                <p>{guide.excerpt}</p>
+                <a class="text-link" href={'/guides/' + guide.slug}>Read guide →</a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
 
     {migratedForCategory.length > 0 && (
       <section class="section section-soft">

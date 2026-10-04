@@ -1,0 +1,77 @@
+name: Editorial distribution
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/data/guides/*.js'
+
+permissions:
+  contents: read
+
+jobs:
+  distribute-new-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Discover newly added guides
+        id: guides
+        shell: bash
+        run: |
+          set -euo pipefail
+          before="${{ github.event.before }}"
+          after="${{ github.sha }}"
+          if [[ "$before" == "0000000000000000000000000000000000000000" ]]; then
+            before="$(git rev-list --max-parents=0 "$after")"
+          fi
+          files="$(git diff --diff-filter=A --name-only "$before" "$after" -- 'src/data/guides/*.js' || true)"
+          {
+            echo 'files<<EOF'
+            echo "$files"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Wait for production and distribute
+        if: steps.guides.outputs.files != ''
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          GUIDE_FILES: ${{ steps.guides.outputs.files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r file; do
+            [[ -z "$file" ]] && continue
+            event="$(node scripts/guide-event.mjs "$file")"
+            url="$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")"
+
+            live=0
+            for attempt in {1..20}; do
+              code="$(curl -L -sS -o /dev/null -w '%{http_code}' "$url" || true)"
+              if [[ "$code" == "200" ]]; then
+                live=1
+                break
+              fi
+              sleep 15
+            done
+
+            if [[ "$live" != "1" ]]; then
+              echo "Guide not live after wait window: $url" >&2
+              exit 1
+            fi
+
+            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs
+            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
+          done <<< "$GUIDE_FILES"
