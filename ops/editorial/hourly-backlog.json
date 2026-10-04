@@ -23,7 +23,7 @@
       "intent": "subscription value and privacy decision guide",
       "surface": "main_or_blog",
       "priority": 90,
-      "status": "ready",
+      "status": "published",
       "source_requirements": [
         "official pricing or terms for volatile claims"
       ],
@@ -36,7 +36,7 @@
       "intent": "intent-fit and privacy decision guide",
       "surface": "main_or_blog",
       "priority": 88,
-      "status": "ready",
+      "status": "published",
       "source_requirements": [
         "official safety and account-policy sources for volatile claims"
       ],
@@ -49,7 +49,7 @@
       "intent": "platform-type selection guide",
       "surface": "main_or_blog",
       "priority": 86,
-      "status": "ready",
+      "status": "published",
       "source_requirements": [
         "official creator/platform documentation for volatile claims"
       ],
@@ -62,7 +62,7 @@
       "intent": "billing descriptor and payment privacy guide",
       "surface": "main_or_blog",
       "priority": 84,
-      "status": "ready",
+      "status": "published",
       "source_requirements": [
         "official merchant or payment documentation where platform-specific"
       ],
@@ -75,7 +75,7 @@
       "intent": "upstream-native referral architecture guide",
       "surface": "main_or_blog",
       "priority": 82,
-      "status": "ready",
+      "status": "published",
       "source_requirements": [
         "current official affiliate/referral terms"
       ],

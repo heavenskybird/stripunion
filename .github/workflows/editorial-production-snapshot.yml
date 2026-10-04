@@ -1,0 +1,39 @@
+name: Editorial production snapshot
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/editorial/publication-ledger/astro/*.json'
+      - 'ops/editorial/publication-ledger/wordpress/*.json'
+      - 'scripts/editorial-production-count.mjs'
+      - '.github/workflows/editorial-production-snapshot.yml'
+  schedule:
+    - cron: '25 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build rolling 24h production snapshot
+        run: |
+          mkdir -p ops/editorial/snapshots
+          node scripts/editorial-production-count.mjs 24 > ops/editorial/snapshots/rolling-24h.json
+          cat ops/editorial/snapshots/rolling-24h.json
+      - name: Upload snapshot artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-production-rolling-24h
+          path: ops/editorial/snapshots/rolling-24h.json
+          retention-days: 14

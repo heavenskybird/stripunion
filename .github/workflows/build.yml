@@ -48,6 +48,8 @@ jobs:
           node --check scripts/compile-editorial-artifacts.mjs
           node --check scripts/record-astro-publication.mjs
           npm run check:editorial-artifacts
+          node --check scripts/editorial-production-count.mjs
+          npm run report:editorial-production > /tmp/editorial-production.json
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
