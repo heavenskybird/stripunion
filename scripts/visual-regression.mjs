@@ -185,14 +185,15 @@ try {
             .map(selectorFor);
 
           const root = document.documentElement;
-          const horizontalOverflowPx = Math.max(0, root.scrollWidth - root.clientWidth);
+          const viewportWidth = window.innerWidth;
+          const horizontalOverflowPx = Math.max(0, root.scrollWidth - viewportWidth);
 
           const overflowOffenders = [];
           if (horizontalOverflowPx > 2) {
             for (const element of document.body.querySelectorAll('*')) {
               if (!isVisible(element)) continue;
               const rect = element.getBoundingClientRect();
-              if (rect.right <= root.clientWidth + 2 && rect.left >= -2) continue;
+              if (rect.right <= viewportWidth + 2 && rect.left >= -2) continue;
 
               let parent = element.parentElement;
               let containedByScroller = false;
