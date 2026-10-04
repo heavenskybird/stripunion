@@ -23,6 +23,8 @@ html{scroll-behavior:smooth}
 body{margin:0;line-height:1.62;background:var(--paper);color:var(--ink)}
 a{color:inherit}
 img{max-width:100%;height:auto}
+pre{max-width:100%;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+code{overflow-wrap:anywhere}
 .shell{width:min(var(--max),calc(100% - 40px));margin-inline:auto}
 .narrow{width:min(var(--narrow),calc(100% - 40px))}
 .skip-link{position:absolute;left:-9999px;top:8px;background:#fff;padding:10px 14px;z-index:100}
@@ -135,6 +137,8 @@ img{max-width:100%;height:auto}
 }
 @media(max-width:580px){
   .shell,.narrow{width:min(100% - 28px,var(--max))}
+  .header-inner{gap:12px}
+  .age-pill{display:none}
   .hero-actions{align-items:stretch}
   .hero-actions .button{width:100%}
   .hero-inner{padding:78px 0 70px}
