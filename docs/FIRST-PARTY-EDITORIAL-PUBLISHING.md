@@ -112,7 +112,7 @@ This means WPWriter is no longer required for routine high-throughput Blog publi
 
 ## Tool independence
 
-WPWriter remains useful for reading the live CMS, occasional editing, SEO inspection and media operations when convenient. It is optional convenience infrastructure, not production-critical infrastructure.
+WPWriter is deprecated from the production critical path. It may remain connected temporarily for read-only CMS inspection or ad-hoc noncritical assistance, but hourly production must not depend on its credits, generation, images, SEO writes or publish action.
 
 The same rule applies to future tools: if quotas, pricing, permissions or reliability constrain the content objective, preserve the useful capability and move the critical path to first-party or replaceable infrastructure.
 
@@ -124,3 +124,8 @@ The first-party publisher is fed by a repository-managed workload control plane 
 Run `npm run check:editorial-backlog` to validate the queue. CI runs the same validation.
 
 If one authoring or delivery tool is unavailable, use the fallback ladder documented in `docs/RESILIENT-GROWTH-RUNTIME.md`. A fallback is valid only when it is another normal authorized path for the same allowed work; it must not be used to evade a platform safety decision.
+
+
+## Content Factory V1
+
+The provider-neutral Content Factory is documented in `docs/CONTENT-FACTORY.md`. Approved workers emit JSON artifacts under `ops/editorial/content-artifacts/`; the deterministic compiler validates quality/evidence requirements and produces Astro guide modules. New Astro publications are recorded after live verification and social distribution in `ops/editorial/publication-ledger/astro/`, allowing precise rolling production accounting.
