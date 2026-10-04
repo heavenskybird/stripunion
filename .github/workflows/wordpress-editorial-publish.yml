@@ -1,6 +1,10 @@
 name: WordPress editorial publish
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/editorial/wordpress-queue/*.json'
   workflow_dispatch:
     inputs:
       content_path:
@@ -9,35 +13,113 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write
+  actions: read
+
+concurrency:
+  group: wordpress-editorial-publish
+  cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Validate content path
+      - name: Discover publication payloads
+        id: payloads
         shell: bash
         run: |
           set -euo pipefail
-          path="${{ inputs.content_path }}"
-          case "$path" in
-            ops/editorial/wordpress-queue/*.json) ;;
-            *) echo "content_path must be under ops/editorial/wordpress-queue/" >&2; exit 1 ;;
-          esac
-          test -f "$path"
 
-      - name: Publish through WordPress REST
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            files="${{ inputs.content_path }}"
+          else
+            before="${{ github.event.before }}"
+            after="${{ github.sha }}"
+            if [[ "$before" == "0000000000000000000000000000000000000000" ]]; then
+              before="$(git rev-list --max-parents=0 "$after")"
+            fi
+            files="$(git diff --diff-filter=AM --name-only "$before" "$after" -- 'ops/editorial/wordpress-queue/*.json' || true)"
+          fi
+
+          while IFS= read -r path; do
+            [[ -z "$path" ]] && continue
+            case "$path" in
+              ops/editorial/wordpress-queue/*.json) ;;
+              *) echo "Invalid content path: $path" >&2; exit 1 ;;
+            esac
+            test -f "$path"
+          done <<< "$files"
+
+          {
+            echo 'files<<EOF'
+            echo "$files"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Publish through first-party WordPress REST
+        if: steps.payloads.outputs.files != ''
         env:
           WP_SITE_URL: ${{ vars.WP_SITE_URL }}
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
-        run: node scripts/publish-wordpress-json.mjs "${{ inputs.content_path }}"
+          PAYLOAD_FILES: ${{ steps.payloads.outputs.files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/stripunion-wp-results
+
+          while IFS= read -r file; do
+            [[ -z "$file" ]] && continue
+
+            safe="$(basename "$file" .json | tr -cd 'A-Za-z0-9._-')"
+            result="/tmp/stripunion-wp-results/$safe.json"
+
+            echo "Publishing $file"
+            node scripts/publish-wordpress-json.mjs "$file" > "$result"
+
+            status="$(node -e 'const fs=require("fs"); const r=JSON.parse(fs.readFileSync(process.argv[1],"utf8")); process.stdout.write(String(r.status || ""))' "$result")"
+            link="$(node -e 'const fs=require("fs"); const r=JSON.parse(fs.readFileSync(process.argv[1],"utf8")); process.stdout.write(String(r.link || ""))' "$result")"
+
+            if [[ "$status" == "publish" ]]; then
+              test -n "$link"
+              node scripts/verify-wordpress-live.mjs "$link"
+            fi
+
+            node scripts/record-wordpress-publication.mjs "$file" "$result"
+          done <<< "$PAYLOAD_FILES"
+
+      - name: Commit publication ledger
+        if: steps.payloads.outputs.files != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- ops/editorial/publication-ledger/wordpress; then
+            echo "No ledger changes to commit."
+            exit 0
+          fi
+
+          git config user.name "stripunion-growth-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/editorial/publication-ledger/wordpress
+          git commit -m "report: record WordPress editorial publication [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+
+          echo "Failed to push publication ledger after retries." >&2
+          exit 1
