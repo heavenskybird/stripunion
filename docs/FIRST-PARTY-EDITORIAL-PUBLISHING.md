@@ -63,6 +63,23 @@ New first-publish transitions are also observed by the first-party StripUnion Gr
 
 If Yoast private meta is not writable through WordPress core REST, the publisher does not fail the article. WordPress title/excerpt remain the safe fallback, and the ledger records whether Yoast REST writes were available. A future first-party plugin endpoint can expose only the required SEO keys if we decide the extra write control is worth maintaining.
 
+
+## Production acceptance — 2026-10-04
+
+The first-party WordPress path is production-active.
+
+Verified:
+- GitHub Actions authenticates to `blog.stripunion.com` with the dedicated WordPress publisher Application Password.
+- Slug-based create/update is idempotent.
+- Category-name resolution works and controlled category/tag creation is supported.
+- Yoast title, meta description and focus-keyword fields are writable through the current WordPress REST configuration.
+- Generated non-explicit editorial cover images upload successfully with alt text/title metadata.
+- Published pages pass live HTTP 200, self-canonical/noindex checks and appear in the post sitemap.
+- The first production post published through this path triggered the StripUnion Growth Bridge, and the downstream `social-distribution.yml` run completed both Buffer/X and Telegram steps successfully.
+- Publication results are persisted under `ops/editorial/publication-ledger/wordpress/`.
+
+This means WPWriter is no longer required for routine high-throughput Blog publishing. It remains optional for inspection or ad-hoc assistance.
+
 ## Example payload
 
 ```json
