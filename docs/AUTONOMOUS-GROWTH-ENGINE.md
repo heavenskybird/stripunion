@@ -17,14 +17,14 @@ The system should not overfit to whatever topic was most recently discussed. Eac
 - Supply-side growth: creator/model referral content and partner onboarding only; no studio/agency operations.
 
 ## Cadence
-Daily: start with the Main/Astro category inventory and live WordPress drafts, identify under-built categories, and publish or materially advance the strongest quality-gated candidates first. While the content gap is large, publish as many strong non-overlapping items as safely pass the gates, normally several per day rather than a fixed 1–3 cap. Only after content work, collect/interpret traffic and competitor evidence to prioritize the next cycle. Verify indexability, internal links, featured image, social distribution, and approved affiliate CTA behavior.
+Hourly only: one autonomous loop subsumes the former hourly, daily and weekly tasks. Each run starts with Main/Astro and live WordPress inventory, publishes or materially advances the strongest under-built-category candidates, verifies distribution/indexability, then performs the full-funnel/competitor/partner/technical review and updates the experiment backlog.
 
-Weekly: review the complete funnel and competitor architecture, identify structural gaps, and prioritize the next clusters/experiments.
+During the content-build phase, target 5 production-quality publications per hour and track a rolling 24-hour target of 120. If fewer than 5 can safely pass the gate, publish all safe candidates, record the exact deficit and blockers, work those blockers in the same run, and carry the deficit into the next-hour queue. Never hit the number by shipping thin, duplicated, unsupported, spammy or cannibalizing pages.
 
-7/14/30-day windows: judge meaningful changes to established pages, CTA layouts, SEO targeting and distribution tactics. Avoid reacting to one-day ranking noise.
+7/14/30-day windows still govern meaningful edits to established successful pages, CTA layouts, SEO targeting and distribution tactics. They do not constrain creation of new quality search surfaces.
 
-## Daily publishing rule
-Daily publishing is encouraged because StripUnion currently has a large content gap, and qualified search-surface expansion is itself a growth lever. Publishing volume remains subordinate to quality, but zero clicks or a small early sample is not a reason to wait for traffic before creating additional useful search coverage. Every published item should add original decision-support value and should not be a near-duplicate of an existing page. Where a WordPress draft exists, prefer upgrading the draft over generating another overlapping article.
+## Hourly publishing rule
+Hourly publishing is the default operating mode because StripUnion currently has a large content gap, and qualified search-surface expansion is itself a growth lever. Publishing volume remains subordinate to quality, but zero clicks or a small early sample is not a reason to wait for traffic before creating additional useful search coverage. Every published item should add original decision-support value and should not be a near-duplicate of an existing page. Where a WordPress draft exists, prefer upgrading the draft over generating another overlapping article.
 
 Before publication, require at minimum:
 - clear search/user intent;
@@ -65,3 +65,6 @@ The current WordPress draft backlog must be treated as raw inventory to graduate
 5. Feed those learnings into the next content/CRO cycle.
 
 During this phase, a report that only says traffic is low without advancing a publish candidate is an incomplete growth cycle unless a concrete production or factual blocker prevented safe publication.
+
+## Hourly accountability
+Every hourly summary must report: exact publications and categories, rolling 24-hour progress against the 120 target when known, completed distribution/CRO/technical actions, concrete deficits/blockers for every missing publication below the 5/hour target, and the next-hour publication queue. Low traffic or zero clicks is never an acceptable explanation for inactivity.
