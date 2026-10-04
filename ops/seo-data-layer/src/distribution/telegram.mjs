@@ -82,18 +82,25 @@ export async function publishTelegramEvent(event) {
   const image = await discoverImage(event.url);
   let result;
 
-  if (image) {
-    result = await telegram('sendPhoto', {
-      chat_id: chatId,
-      photo: image,
-      caption: text.slice(0, 1024)
-    });
+  const sendText = () => telegram('sendMessage', {
+    chat_id: chatId,
+    text,
+    disable_web_page_preview: false
+  });
+
+  if (image && !/\.svg(?:$|\?)/i.test(image)) {
+    try {
+      result = await telegram('sendPhoto', {
+        chat_id: chatId,
+        photo: image,
+        caption: text.slice(0, 1024)
+      });
+    } catch (error) {
+      console.warn('Telegram photo delivery failed; falling back to text message:', error.message);
+      result = await sendText();
+    }
   } else {
-    result = await telegram('sendMessage', {
-      chat_id: chatId,
-      text,
-      disable_web_page_preview: false
-    });
+    result = await sendText();
   }
 
   console.log(JSON.stringify({
