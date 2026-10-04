@@ -17,7 +17,7 @@ The system should not overfit to whatever topic was most recently discussed. Eac
 - Supply-side growth: creator/model referral content and partner onboarding only; no studio/agency operations.
 
 ## Cadence
-Daily: collect first-party and competitor evidence; inspect the live WordPress draft inventory; update opportunity scores; select quality-gated new content; while the content gap is large, publish as many strong non-overlapping items as safely pass the gates, normally several per day rather than a fixed 1–3 cap; verify indexability, internal links, featured image, social distribution, and approved affiliate CTA behavior.
+Daily: start with the Main/Astro category inventory and live WordPress drafts, identify under-built categories, and publish or materially advance the strongest quality-gated candidates first. While the content gap is large, publish as many strong non-overlapping items as safely pass the gates, normally several per day rather than a fixed 1–3 cap. Only after content work, collect/interpret traffic and competitor evidence to prioritize the next cycle. Verify indexability, internal links, featured image, social distribution, and approved affiliate CTA behavior.
 
 Weekly: review the complete funnel and competitor architecture, identify structural gaps, and prioritize the next clusters/experiments.
 
@@ -51,3 +51,17 @@ Work toward capacity for up to 20 useful, materially distinct X posts/day and up
 
 ## Core evidence sources
 The core stack excludes GSC Wizard, Ahrefs, and Semrush. Use direct official/free/open sources wherever possible: repository GSC API snapshots, GA4 Data/Admin, Bing Webmaster REST, Google Trends and Keyword Planner when accessible, Common Crawl, public competitor sitemaps/robots/pages, public SERP research, and PageSpeed/Lighthouse/CrUX. Do not fabricate modeled competitor-traffic estimates when no authoritative free source exists.
+
+## Category breadth rule
+StripUnion is not a cam-only site. During the site-build phase, maintain an explicit coverage matrix for the repository's core categories: Live Cams, VR/AR, Adult Games, Hentai/Anime, Dating/Hookups, Premium Videos, Free Videos, and Adult Shops. Also track creator/model, webmaster/affiliate, privacy/safety/payment/mobile, and other validated adjacent intents. A category with no useful published hub is a structural content gap even if current analytics show no clicks. Prefer building that missing hub and distinct satellites before repeatedly polishing an already-dense category.
+
+The current WordPress draft backlog must be treated as raw inventory to graduate, not as evidence that coverage already exists. For overlapping draft clusters, select one canonical hub, retarget genuinely different long-tail intents, and merge/drop the rest. Cannibalization management is a publishing optimization, not a reason to leave entire categories unpublished.
+
+## Content-first order of operations
+1. Inventory published coverage and drafts by category/intent.
+2. Select under-built categories and publish or materially advance the best candidates.
+3. Verify canonical/indexability, imagery, internal links, approved CTA paths, and social distribution.
+4. Then analyze GSC/GA4/Bing/Buffer/attribution and competitor evidence.
+5. Feed those learnings into the next content/CRO cycle.
+
+During this phase, a report that only says traffic is low without advancing a publish candidate is an incomplete growth cycle unless a concrete production or factual blocker prevented safe publication.
