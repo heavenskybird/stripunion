@@ -10,7 +10,7 @@ StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 
 
 ## Ranked evidence-backed opportunities
 
-1. **xHamster review / site overview** — refresh existing /xhamster landing page using clustered search evidence; 75 clustered impressions, 0 clicks, best position 3, 37 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
+1. **xHamster review / site overview** — refresh existing /xhamster landing page using clustered search evidence; 76 clustered impressions, 0 clicks, best position 3, 38 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
 2. **F95Zone review** — refresh existing /f95zone landing page using clustered search evidence; 5 clustered impressions, 0 clicks, best position 5, 5 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
 3. **review free pornohamster.com** — validate audience fit and an official monetization relationship before adding a commercial CTA; 12 clustered impressions, 0 clicks, best position 6, 1 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
 4. **Stripchat alternatives** — refresh existing /stripchat-alternatives landing page using clustered search evidence; 1 clustered impressions, 0 clicks, best position 9, 1 query variant(s); intent approved AVCams/StripCash intent; route avcams-viewer; confidence low; risk low.
