@@ -86,7 +86,7 @@ jobs:
       - name: Run production visual QA
         env:
           VISUAL_BASE_URL: https://stripunion.com
-          VISUAL_TARGETS_JSON: '["/","/guides/adult-affiliate-webmaster-program-evaluation-guide/","/guides/premium-adult-video-subscription-value-privacy-guide/","/guides/adult-site-payment-privacy-billing-guide/","https://blog.stripunion.com/","https://avcams.online/"]'
+          VISUAL_TARGETS_JSON: '["/","/guides/adult-affiliate-webmaster-program-evaluation-guide","/guides/premium-adult-video-subscription-value-privacy-guide","/guides/adult-site-payment-privacy-billing-guide","https://blog.stripunion.com/","https://avcams.online/"]'
           VISUAL_OUTPUT_DIR: artifacts/visual-qa-production
         run: npm run test:visual
       - name: Upload production visual evidence
