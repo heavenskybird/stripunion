@@ -1,0 +1,128 @@
+{
+  "backlogId": "creator-model-platform-selection-safety",
+  "slug": "adult-creator-model-platform-selection-safety-guide",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Adult Creator and Cam Model Platform Selection: Safety, Payouts and Audience Fit",
+  "description": "A creator-focused framework for choosing adult creator or cam platforms by audience acquisition, payout documentation, privacy, verification, moderation, portability and support.",
+  "excerpt": "Creators and models need a different decision framework from viewers. Compare audience fit, verification, payout availability, privacy, policy stability and operational support before relying on a platform for income.",
+  "publishedAt": "2026-10-04",
+  "updatedAt": "2026-10-04",
+  "keyTakeaways": [
+    "Creator platform selection should start with audience acquisition and country eligibility, not viewer popularity.",
+    "Verify current fees, payout methods, schedules and eligibility from official documentation before forecasting income.",
+    "Separate public stage identity from private verification and payment requirements.",
+    "Keep your own business records and production assets so one platform is not the only source of operational continuity."
+  ],
+  "sections": [
+    {
+      "heading": "Creator intent is different from viewer intent",
+      "paragraphs": [
+        "A viewer asks whether a platform is entertaining and easy to use. A creator or cam model asks whether the platform can support a sustainable business. Discovery, traffic sources, verification, moderation, payout availability, support and policy fit become core product features rather than background details.",
+        "That difference is why StripUnion should keep creator pages separate from viewer reviews. Sending a creator to a consumer comparison page can hide the information that actually determines whether onboarding is worth the effort and can also weaken attribution between viewer and creator funnels."
+      ]
+    },
+    {
+      "heading": "Start with audience acquisition and country fit",
+      "paragraphs": [
+        "Ask where customers will come from. Some platforms can provide internal discovery, while others work best when creators bring an audience from social channels, communities or their own websites. Neither model is automatically superior, but the acquisition strategy changes which features matter and how quickly a new account can generate useful signals.",
+        "Country eligibility is equally important. Verification methods, payout options and supported markets can change, so check current official onboarding documentation before investing time in a platform-specific application."
+      ],
+      "table": {
+        "caption": "Creator and model platform diligence",
+        "headers": [
+          "Area",
+          "Question",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Audience",
+            "Does the platform provide discovery or expect external traffic?",
+            "Shapes acquisition strategy"
+          ],
+          [
+            "Eligibility",
+            "Can creators in your country complete onboarding?",
+            "Avoids blocked setup"
+          ],
+          [
+            "Verification",
+            "What identity information is required privately?",
+            "Affects compliance and privacy"
+          ],
+          [
+            "Payouts",
+            "Which current methods and schedules are documented?",
+            "Determines cash-flow fit"
+          ],
+          [
+            "Safety",
+            "What moderation, blocking and support tools exist?",
+            "Affects operating risk"
+          ],
+          [
+            "Portability",
+            "What business assets can you retain independently?",
+            "Reduces platform concentration risk"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat payout claims as volatile facts",
+      "paragraphs": [
+        "Headline percentages are not enough to forecast income. Fees, payout timing, minimums, reserves, supported methods and conversion mechanics can change. Use current official documentation and dashboard information before stating a platform-specific number publicly or building a personal forecast.",
+        "Also distinguish gross customer spend from creator proceeds after platform fees, refunds, taxes or other adjustments described in the terms. Sustainable planning depends on net cash flow, not on the most attractive number in marketing copy."
+      ]
+    },
+    {
+      "heading": "Privacy and verification are separate layers",
+      "paragraphs": [
+        "A creator may use a stage name publicly while still providing legal identity privately for age, payment or tax verification. These roles are different. Review what viewers can see, what the platform stores privately and what information appears on profiles, receipts or payout records.",
+        "Use dedicated business contact details where practical, protect sign-in credentials and review notification settings. Do not promise yourself complete anonymity when financial and compliance processes require verified identity."
+      ]
+    },
+    {
+      "heading": "Moderation and support affect business continuity",
+      "paragraphs": [
+        "Read current content and promotion rules before building a catalog or acquisition strategy. Platform boundaries can change, and a business that depends on content near an unclear policy boundary carries avoidable risk. Keep records of important policy updates and avoid assuming another creator's experience defines what is permitted.",
+        "Support quality matters most when something goes wrong: account review, payment issue, content dispute or technical outage. Before relying heavily on one platform, identify the available support channels and what records you should retain."
+      ]
+    },
+    {
+      "heading": "Reduce concentration risk before scaling",
+      "paragraphs": [
+        "Keep original media, approved promotional assets, tax or payment records and analytics under your own control where permitted. Track which traffic sources produce customers so the business can adapt if one platform changes features, distribution or commercial terms.",
+        "Portability does not mean extracting restricted user data or ignoring platform rules. It means preserving the assets and records that legitimately belong to your business so operational memory survives a platform change."
+      ],
+      "bullets": [
+        "Verify country eligibility before applying.",
+        "Read current payout and fee documentation.",
+        "Separate public branding from private verification.",
+        "Locate moderation and support tools early.",
+        "Keep independent business records and production assets."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a creator choose the platform with the most viewers?",
+      "answer": "Not necessarily. Audience fit, discovery mechanics, country eligibility, payout support, policy fit and operating workload can matter more than broad popularity."
+    },
+    {
+      "question": "Can a model use a stage name while still completing identity checks?",
+      "answer": "Public branding and private verification are often separate, but exact requirements vary by platform and should be checked in current official onboarding documentation."
+    },
+    {
+      "question": "Why keep creator assets outside one platform?",
+      "answer": "Independent copies of legitimate business assets and records reduce concentration risk and make it easier to adapt if a platform changes."
+    }
+  ],
+  "evidence": {
+    "class": "evergreen_creator_model_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "No platform-specific payout percentage, eligibility or policy claim."
+  }
+}
