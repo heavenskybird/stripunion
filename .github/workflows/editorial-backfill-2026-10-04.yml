@@ -1,0 +1,67 @@
+name: Editorial distribution backfill 2026-10-04
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/editorial-backfill-2026-10-04.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify live guides and backfill distribution
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          items=(
+            "telegram|src/data/guides/adult-games-beginners-guide.js"
+            "both|src/data/guides/discreet-adult-shop-guide.js"
+            "both|src/data/guides/free-adult-video-safety-guide.js"
+            "both|src/data/guides/hentai-anime-format-guide.js"
+            "both|src/data/guides/vr-adult-content-setup-guide.js"
+          )
+
+          for item in "${items[@]}"; do
+            mode="${item%%|*}"
+            file="${item#*|}"
+            event="$(node scripts/guide-event.mjs "$file")"
+            url="$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")"
+
+            live=0
+            for attempt in {1..12}; do
+              code="$(curl -L -sS -o /dev/null -w '%{http_code}' "$url" || true)"
+              if [[ "$code" == "200" ]]; then
+                live=1
+                break
+              fi
+              sleep 10
+            done
+            if [[ "$live" != "1" ]]; then
+              echo "Guide not live: $url" >&2
+              exit 1
+            fi
+
+            if [[ "$mode" == "both" ]]; then
+              SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs
+            fi
+            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
+          done
