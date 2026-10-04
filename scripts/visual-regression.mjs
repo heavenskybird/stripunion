@@ -209,7 +209,8 @@ try {
                   selector: selectorFor(element),
                   left: Math.round(rect.left),
                   right: Math.round(rect.right),
-                  width: Math.round(rect.width)
+                  width: Math.round(rect.width),
+                  text: (element.textContent || '').trim().replace(/\\s+/g, ' ').slice(0, 120)
                 });
               }
               if (overflowOffenders.length >= 12) break;
