@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T07:03:39.080Z",
+  "generatedAt": "2026-10-04T13:52:09.078Z",
   "sourceDates": {
     "gsc": "2026-10-02",
     "ga4": "2026-10-02",
@@ -148,11 +148,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 5,
+        "AvgImpressionPosition": 7,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "f95zone reviews",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -168,11 +168,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 7,
+        "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "f95zone reviews",
         "site": "stripunion.com"
       },
       {
@@ -1661,8 +1661,8 @@
       "name": "stripunion51860",
       "service": "twitter"
     },
-    "sentPostCount": 25,
-    "scheduledPostCount": 4,
+    "sentPostCount": 28,
+    "scheduledPostCount": 2,
     "impressions": 29,
     "clicks": 4,
     "engagement": {
@@ -1671,7 +1671,7 @@
       "reposts": 0,
       "reach": 0
     },
-    "metricsUpdatedAt": "2026-10-04T06:35:10.057Z",
+    "metricsUpdatedAt": "2026-10-04T12:41:09.746Z",
     "highestPerformingPosts": [
       {
         "id": "6ab78d163afb9171a82bdd43",
@@ -1776,7 +1776,7 @@
         }
       },
       {
-        "id": "6ac1e740aa79e514b90d9396",
+        "id": "6ac1e8a4aa79e514b90dd098",
         "sentAt": null,
         "metrics": {
           "impressions": 0,
