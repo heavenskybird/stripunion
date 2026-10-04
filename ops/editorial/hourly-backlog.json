@@ -18,69 +18,69 @@
   ],
   "queue": [
     {
-      "id": "premium-video-value-privacy",
-      "category": "Premium Videos",
-      "intent": "subscription value and privacy decision guide",
-      "surface": "main_or_blog",
+      "id": "vr-streaming-downloads-device-privacy",
+      "category": "VR / AR",
+      "intent": "VR Adult Content: Streaming vs Downloads, Storage and Device Privacy",
+      "surface": "main",
       "priority": 90,
-      "status": "published",
+      "status": "ready",
       "source_requirements": [
-        "official pricing or terms for volatile claims"
+        "official/stable sources required for any future volatile platform-specific claim"
       ],
-      "monetization": "approved_offers_only",
-      "notes": "Prefer upgrading a non-overlapping live WordPress draft when available."
+      "monetization": "contextual_or_approved_offers_only",
+      "notes": "Distinct satellite intent; must remain non-cannibalizing with existing canonical guide."
     },
     {
-      "id": "adult-dating-intent-privacy",
-      "category": "Dating/Hookups",
-      "intent": "intent-fit and privacy decision guide",
-      "surface": "main_or_blog",
+      "id": "adult-games-browser-download-safety",
+      "category": "Adult Games",
+      "intent": "Browser vs Downloaded Adult Games: Privacy, Storage and Update Trade-offs",
+      "surface": "main",
+      "priority": 89,
+      "status": "ready",
+      "source_requirements": [
+        "official/stable sources required for any future volatile platform-specific claim"
+      ],
+      "monetization": "contextual_or_approved_offers_only",
+      "notes": "Distinct satellite intent; must remain non-cannibalizing with existing canonical guide."
+    },
+    {
+      "id": "hentai-reader-streaming-privacy",
+      "category": "Hentai / Anime",
+      "intent": "Hentai Streaming vs Manga Readers: Privacy, Accounts and Format Choice",
+      "surface": "main",
       "priority": 88,
-      "status": "published",
+      "status": "ready",
       "source_requirements": [
-        "official safety and account-policy sources for volatile claims"
+        "official/stable sources required for any future volatile platform-specific claim"
       ],
-      "monetization": "approved_offers_only",
-      "notes": "Keep dating intent separate from live-cam viewer intent."
+      "monetization": "contextual_or_approved_offers_only",
+      "notes": "Distinct satellite intent; must remain non-cannibalizing with existing canonical guide."
     },
     {
-      "id": "creator-platform-selection",
-      "category": "Creator/Fan Subscription",
-      "intent": "platform-type selection guide",
-      "surface": "main_or_blog",
+      "id": "free-video-account-privacy",
+      "category": "Free Videos",
+      "intent": "Free Adult Video Sites: Guest Browsing vs Accounts",
+      "surface": "main",
+      "priority": 87,
+      "status": "ready",
+      "source_requirements": [
+        "official/stable sources required for any future volatile platform-specific claim"
+      ],
+      "monetization": "contextual_or_approved_offers_only",
+      "notes": "Distinct satellite intent; must remain non-cannibalizing with existing canonical guide."
+    },
+    {
+      "id": "mobile-adult-platform-privacy",
+      "category": "Privacy / Safety / Payment",
+      "intent": "Adult Sites on Mobile: Browser, Notifications, Downloads and Privacy Checklist",
+      "surface": "main",
       "priority": 86,
-      "status": "published",
+      "status": "ready",
       "source_requirements": [
-        "official creator/platform documentation for volatile claims"
+        "official/stable sources required for any future volatile platform-specific claim"
       ],
-      "monetization": "approved_offers_only",
-      "notes": "Do not invent creator earnings, payout levels or testing claims."
-    },
-    {
-      "id": "adult-payment-privacy",
-      "category": "Privacy/Safety/Payment",
-      "intent": "billing descriptor and payment privacy guide",
-      "surface": "main_or_blog",
-      "priority": 84,
-      "status": "published",
-      "source_requirements": [
-        "official merchant or payment documentation where platform-specific"
-      ],
-      "monetization": "contextual_only",
-      "notes": "Educational decision support; no unsupported promises about anonymity."
-    },
-    {
-      "id": "webmaster-upstream-referral",
-      "category": "Webmaster/Affiliate",
-      "intent": "upstream-native referral architecture guide",
-      "surface": "main_or_blog",
-      "priority": 82,
-      "status": "published",
-      "source_requirements": [
-        "current official affiliate/referral terms"
-      ],
-      "monetization": "approved_referral_programs_only",
-      "notes": "Keep webmaster funnel separate from viewer, model and studio funnels."
+      "monetization": "contextual_or_approved_offers_only",
+      "notes": "Distinct satellite intent; must remain non-cannibalizing with existing canonical guide."
     }
   ]
 }
