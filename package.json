@@ -8,7 +8,8 @@
     "check": "node scripts/quality-check.mjs",
     "build": "astro build",
     "preview": "astro preview --host 0.0.0.0 --port 3000",
-    "check:prod-seo": "node scripts/production-seo-check.mjs"
+    "check:prod-seo": "node scripts/production-seo-check.mjs",
+    "check:editorial-backlog": "node scripts/validate-hourly-backlog.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"

@@ -1,15 +1,15 @@
-name: Two-site health
+name: Ecosystem public health
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 6 * * *'
+    - cron: '17 * * * *'
 
 permissions:
   contents: read
 
 concurrency:
-  group: two-site-health
+  group: ecosystem-public-health
   cancel-in-progress: true
 
 jobs:
@@ -44,22 +44,56 @@ jobs:
         with:
           node-version: 22
       - name: Check public WordPress blog endpoints (read-only)
+        env:
+          EXPECTED_GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
+          EXPECTED_GOOGLE_TAG_ID: ${{ vars.GOOGLE_TAG_ID }}
         run: node scripts/blog-health-check.mjs
 
+  ecosystem-oracle:
+    name: Main + Blog + AVCams machine-readable oracle
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Probe public production surfaces
+        id: probe
+        continue-on-error: true
+        run: node scripts/public-health-oracle.mjs ops/health/public-health-oracle.json
+      - name: Upload health oracle artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-health-oracle
+          path: ops/health/public-health-oracle.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Enforce oracle result
+        if: steps.probe.outcome != 'success'
+        run: |
+          echo "Public health oracle reported one or more required failures."
+          exit 1
+
   combined:
-    name: Combined health summary
+    name: Combined ecosystem health summary
     if: always()
-    needs: [main-site, blog-site]
+    needs: [main-site, blog-site, ecosystem-oracle]
     runs-on: ubuntu-latest
     steps:
-      - name: Report Main / Blog / Combined status
+      - name: Report Main / Blog / AVCams-oracle status
         env:
           MAIN_RESULT: ${{ needs.main-site.result }}
           BLOG_RESULT: ${{ needs.blog-site.result }}
+          ORACLE_RESULT: ${{ needs.ecosystem-oracle.result }}
         run: |
           echo "Main: $MAIN_RESULT"
           echo "Blog: $BLOG_RESULT"
-          if [ "$MAIN_RESULT" = success ] && [ "$BLOG_RESULT" = success ]; then
+          echo "Ecosystem oracle: $ORACLE_RESULT"
+          if [ "$MAIN_RESULT" = success ] && [ "$BLOG_RESULT" = success ] && [ "$ORACLE_RESULT" = success ]; then
             echo "Combined: PASS"
           else
             echo "Combined: FAIL"

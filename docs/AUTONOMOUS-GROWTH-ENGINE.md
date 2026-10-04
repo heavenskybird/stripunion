@@ -71,3 +71,18 @@ Every hourly summary must report: exact publications and categories, rolling 24-
 
 ## Tool-independence and first-party publishing
 WPWriter is a convenience layer for CMS inspection, editing, media and ad-hoc publishing; it is not critical infrastructure. High-throughput Main-site editorial publishing uses GitHub-tracked guide modules, normal PR/check/merge delivery, automatic sitemap/category integration, generated non-explicit covers and post-deploy social distribution. Direct WordPress REST publishing is the preferred secondary path for Blog content once dedicated application-password credentials are configured. If any future third-party tool constrains growth through quotas, price, permissions or reliability, move the critical path to first-party or replaceable infrastructure rather than lowering the business objective.
+
+
+## Resilient runtime and health authority
+
+The implementation details live in `docs/RESILIENT-GROWTH-RUNTIME.md`.
+
+Operationally:
+- use `ops/editorial/hourly-backlog.json` as the structured hourly workload/control plane;
+- validate it in CI before relying on it;
+- use the GitHub Actions ecosystem public-health artifact when chat-level web fetch is unavailable;
+- classify failures precisely as `WEB_FETCH_LIMITATION`, `CONNECTOR_PERMISSION_BLOCKER`, `PLATFORM_SAFETY_BLOCKER`, or `PRODUCTION_FAILURE`;
+- continue through another normal authorized first-party path only when the action itself remains allowed;
+- never treat a platform safety decision as a permission problem to work around.
+
+The public-health workflow now runs hourly and covers Main, Blog, and AVCams. The artifact is intentionally machine-readable so future Growth Brain runs can consume concrete production evidence without depending on the chat web-fetch layer.

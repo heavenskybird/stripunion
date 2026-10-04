@@ -115,3 +115,12 @@ This means WPWriter is no longer required for routine high-throughput Blog publi
 WPWriter remains useful for reading the live CMS, occasional editing, SEO inspection and media operations when convenient. It is optional convenience infrastructure, not production-critical infrastructure.
 
 The same rule applies to future tools: if quotas, pricing, permissions or reliability constrain the content objective, preserve the useful capability and move the critical path to first-party or replaceable infrastructure.
+
+
+## Structured hourly backlog and fallback behavior
+
+The first-party publisher is fed by a repository-managed workload control plane at `ops/editorial/hourly-backlog.json`. This file tracks the 5/hour and 120/24h objectives, category/intents, source requirements, approved monetization constraints, and current status. It is deliberately separate from article bodies so workload planning can remain stable while individual Main or Blog payloads are independently authored, reviewed, and published.
+
+Run `npm run check:editorial-backlog` to validate the queue. CI runs the same validation.
+
+If one authoring or delivery tool is unavailable, use the fallback ladder documented in `docs/RESILIENT-GROWTH-RUNTIME.md`. A fallback is valid only when it is another normal authorized path for the same allowed work; it must not be used to evade a platform safety decision.

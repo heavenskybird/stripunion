@@ -43,6 +43,8 @@ jobs:
           npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs
           node --check scripts/check-ga4-artifact.mjs
+          node --check scripts/public-health-oracle.mjs
+          npm run check:editorial-backlog
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
