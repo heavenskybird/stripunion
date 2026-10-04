@@ -1,14 +1,16 @@
 {
   "policy": {
-    "updated": "2026-10-02",
+    "updated": "2026-10-04",
     "rule": "Prefer official first-party brand/operator affiliate or referral programs. Do not add generic third-party affiliate-network offers without explicit approval.",
     "approved_existing": [
       "avcams",
-      "stripchat"
+      "stripchat",
+      "bongacams"
     ],
     "creator_model_strategy": "AVCams-first model referral; do not promote studio signup because it has no affiliate commission.",
     "whitelabel_strategy": "AVCams is the active StripCash/Stripchat white-label conversion destination. StripUnion and its blog acquire traffic; viewer/model traffic should route to AVCams through StripCash's official tracking layer.",
-    "affiliate_referral_strategy": "StripCash affiliate referral is active at https://stripcash.com/sign-up/stripunion and pays 5% of referred affiliates' earnings for life, per account-specific user confirmation."
+    "affiliate_referral_strategy": "StripCash affiliate referral is active at https://stripcash.com/sign-up/stripunion and pays 5% of referred affiliates' earnings for life, per account-specific user confirmation.",
+    "partner_network_strategy": "Prefer upstream-native viewer, model/creator, and webmaster/affiliate referral economics before any StripUnion-funded payout program. Keep the funnels distinct and verify current official terms before promotion."
   },
   "offers": [
     {
@@ -56,9 +58,17 @@
       "category": "live_cam",
       "brand": "BongaCams",
       "operator_program": "BongaCash",
-      "status": "target",
+      "status": "active",
       "official_url": "https://bongacash.com/join",
-      "relationship": "first_party_operator_program"
+      "relationship": "first_party_operator_program",
+      "viewer_campaign_url": "https://bongacams4.com/track?c=843651",
+      "affiliate_referral_url": "https://bongacash.com/ref?c=843654",
+      "model_referral_url": "https://bongacash.com/model-ref?c=843655",
+      "viewer_revshare_observed_account": "20% shown in the BongaCash account UI on 2026-10-04; public BongaCash terms advertise revenue share up to 25%",
+      "affiliate_referral_payout_verified": "5% of referred affiliates' earnings for life",
+      "model_referral_terms_verified": "Current BongaCash terms: country-tiered one-time bonus up to $100 after the referred model reaches the applicable minimum earnings threshold",
+      "studio_referral_policy": "do_not_promote",
+      "strategic_role": "Second active direct cam offer plus upstream-native webmaster and individual-model referral routes; keep viewer, model, and affiliate funnels separate"
     },
     {
       "id": "livejasmin",
