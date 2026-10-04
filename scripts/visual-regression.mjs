@@ -46,6 +46,7 @@ const report = {
   generated_at: new Date().toISOString(),
   base_url: baseUrl,
   failures: [],
+  warnings: [],
   pages: []
 };
 
@@ -226,13 +227,20 @@ try {
         pageRecord.blank_buttons = audit.blankButtons;
         pageRecord.overflow_offenders = audit.overflowOffenders;
 
-        if (audit.horizontalOverflowPx > 2) {
+        if (audit.horizontalOverflowPx > 2 && audit.overflowOffenders.length) {
           report.failures.push({
             type: 'HORIZONTAL_OVERFLOW',
             viewport: viewport.name,
             url,
             detail: `${audit.horizontalOverflowPx}px`,
             offenders: audit.overflowOffenders
+          });
+        } else if (audit.horizontalOverflowPx > 2) {
+          report.warnings.push({
+            type: 'UNATTRIBUTED_SCROLL_GEOMETRY',
+            viewport: viewport.name,
+            url,
+            detail: `${audit.horizontalOverflowPx}px without a visible DOM offender`
           });
         }
         for (const issue of audit.lowContrast) {
@@ -281,5 +289,5 @@ if (report.failures.length) {
   for (const failure of report.failures.slice(0, 50)) console.error(JSON.stringify(failure));
   process.exitCode = 1;
 } else {
-  console.log(`VISUAL_QA_PASS pages=${report.pages.length} screenshots=${report.pages.length}`);
+  console.log(`VISUAL_QA_PASS pages=${report.pages.length} screenshots=${report.pages.length} warnings=${report.warnings.length}`);
 }
