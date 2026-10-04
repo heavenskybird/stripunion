@@ -6,11 +6,11 @@ const baseUrl = process.env.VISUAL_BASE_URL || 'http://127.0.0.1:4321';
 const outputDir = process.env.VISUAL_OUTPUT_DIR || 'artifacts/visual-qa';
 const defaultTargets = [
   '/',
-  '/guides/adult-affiliate-webmaster-program-evaluation-guide/',
-  '/guides/premium-adult-video-subscription-value-privacy-guide/',
-  '/guides/adult-site-payment-privacy-billing-guide/',
-  '/guides/creator-fan-platform-selection-guide/',
-  '/best-live-cam-sites/'
+  '/guides/adult-affiliate-webmaster-program-evaluation-guide',
+  '/guides/premium-adult-video-subscription-value-privacy-guide',
+  '/guides/adult-site-payment-privacy-billing-guide',
+  '/guides/creator-fan-platform-selection-guide',
+  '/best-live-cam-sites'
 ];
 const targets = process.env.VISUAL_TARGETS_JSON
   ? JSON.parse(process.env.VISUAL_TARGETS_JSON)
