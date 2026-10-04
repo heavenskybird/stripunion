@@ -1,0 +1,99 @@
+name: Visual QA
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/visual-regression.mjs'
+      - 'package.json'
+      - '.github/workflows/visual-qa.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/visual-regression.mjs'
+      - 'package.json'
+      - '.github/workflows/visual-qa.yml'
+  schedule:
+    - cron: '43 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: visual-qa-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  local-regression:
+    if: github.event_name == 'pull_request' || github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install project dependencies
+        run: npm install
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Build staging-safe site
+        run: PUBLIC_ALLOW_INDEXING=false npm run build
+      - name: Start local preview
+        shell: bash
+        run: |
+          set -euo pipefail
+          nohup npm run preview -- --host 127.0.0.1 --port 4321 > /tmp/stripunion-preview.log 2>&1 &
+          for attempt in {1..30}; do
+            if curl -fsS http://127.0.0.1:4321/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/stripunion-preview.log
+          exit 1
+      - name: Run responsive visual QA
+        run: npm run test:visual
+      - name: Upload visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-qa-local
+          path: artifacts/visual-qa
+          if-no-files-found: error
+          retention-days: 14
+
+  production-regression:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install project dependencies
+        run: npm install
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run production visual QA
+        env:
+          VISUAL_BASE_URL: https://stripunion.com
+          VISUAL_TARGETS_JSON: '["/","/guides/adult-affiliate-webmaster-program-evaluation-guide/","/guides/premium-adult-video-subscription-value-privacy-guide/","/guides/adult-site-payment-privacy-billing-guide/","https://blog.stripunion.com/","https://avcams.online/"]'
+          VISUAL_OUTPUT_DIR: artifacts/visual-qa-production
+        run: npm run test:visual
+      - name: Upload production visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: visual-qa-production
+          path: artifacts/visual-qa-production
+          if-no-files-found: error
+          retention-days: 14
