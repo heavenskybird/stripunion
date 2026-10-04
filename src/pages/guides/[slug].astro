@@ -1,0 +1,14 @@
+---
+import GuideTemplate from '../../components/GuideTemplate.astro';
+import { guides } from '../../lib/guides.js';
+
+export function getStaticPaths() {
+  return guides.map((guide) => ({
+    params: { slug: guide.slug },
+    props: { guide }
+  }));
+}
+
+const { guide } = Astro.props;
+---
+<GuideTemplate guide={guide} />
