@@ -45,6 +45,9 @@ jobs:
           node --check scripts/check-ga4-artifact.mjs
           node --check scripts/public-health-oracle.mjs
           npm run check:editorial-backlog
+          node --check scripts/compile-editorial-artifacts.mjs
+          node --check scripts/record-astro-publication.mjs
+          npm run check:editorial-artifacts
       - name: Run migration quality gate
         run: npm run check
       - name: Build staging-safe site
