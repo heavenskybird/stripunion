@@ -105,12 +105,15 @@ async function resolveTerms(type, values = [], createMissing = false) {
     if (!name) continue;
     const expectedSlug = slugify(name);
 
-    const found = await wp(
-      '/wp-json/wp/v2/' + endpoint + '?search=' + encodeURIComponent(name) + '&per_page=100&context=edit'
+    const bySlug = await wp(
+      '/wp-json/wp/v2/' + endpoint + '?slug=' + encodeURIComponent(expectedSlug) + '&per_page=100&context=edit'
     );
+    const searched = Array.isArray(bySlug.data) && bySlug.data.length
+      ? bySlug
+      : await wp('/wp-json/wp/v2/' + endpoint + '?search=' + encodeURIComponent(name) + '&per_page=100&context=edit');
 
-    const exact = Array.isArray(found.data)
-      ? found.data.find((item) =>
+    const exact = Array.isArray(searched.data)
+      ? searched.data.find((item) =>
           String(item.name || '').toLowerCase() === name.toLowerCase() ||
           String(item.slug || '').toLowerCase() === expectedSlug
         )
@@ -129,12 +132,20 @@ async function resolveTerms(type, values = [], createMissing = false) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, slug: expectedSlug })
-    });
+    }, { allowFailure: true });
 
-    if (!created.data?.id) {
-      throw new Error('Failed to create WordPress ' + type + ': ' + name);
+    if (created.ok && created.data?.id) {
+      ids.push(created.data.id);
+      continue;
     }
-    ids.push(created.data.id);
+
+    const existingTermId = Number(created.data?.data?.term_id || created.data?.data?.term_exists || 0);
+    if (created.status === 400 && existingTermId > 0) {
+      ids.push(existingTermId);
+      continue;
+    }
+
+    throw new Error('Failed to create WordPress ' + type + ': ' + name + ' (HTTP ' + created.status + ')');
   }
 
   return [...new Set(ids)];
