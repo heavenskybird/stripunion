@@ -2,12 +2,14 @@ import { SITE } from '../config/site.js';
 import { categories } from '../data/categories.js';
 import { reviews } from '../data/reviews.js';
 import { vrReviews } from '../data/reviews-vr.js';
+import { guides } from '../lib/guides.js';
 
 const allReviews = { ...reviews, ...vrReviews };
 
 const staticPaths = [
   '/',
   '/categories',
+  '/guides',
   '/about',
   '/editorial-policy',
   '/privacy-policy',
@@ -34,6 +36,7 @@ export async function GET() {
   const paths = [
     ...staticPaths,
     ...categories.map((item) => `/${item.slug}`),
+    ...guides.map((guide) => `/guides/${guide.slug}`),
     ...Object.values(allReviews)
       .filter((item) => item.indexable)
       .map((item) => `/${item.slug}`)
