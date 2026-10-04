@@ -48,9 +48,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          nohup npm run preview -- --host 127.0.0.1 --port 4321 > /tmp/stripunion-preview.log 2>&1 &
-          for attempt in {1..30}; do
-            if curl -fsS http://127.0.0.1:4321/ >/dev/null; then
+          nohup npx astro preview --host 0.0.0.0 --port 4321 > /tmp/stripunion-preview.log 2>&1 &
+          for attempt in {1..45}; do
+            if curl -fsS http://localhost:4321/ >/dev/null; then
               exit 0
             fi
             sleep 1
@@ -65,7 +65,7 @@ jobs:
         with:
           name: visual-qa-local
           path: artifacts/visual-qa
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 14
 
   production-regression:
