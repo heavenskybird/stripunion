@@ -48,6 +48,7 @@ const normalized = {
   revenueByCurrency: summary.revenueByCurrency && typeof summary.revenueByCurrency === 'object' ? summary.revenueByCurrency : {},
   byP1: summary.byP1 && typeof summary.byP1 === 'object' ? summary.byP1 : {},
   byAffiliateSource: summary.byAffiliateSource && typeof summary.byAffiliateSource === 'object' ? summary.byAffiliateSource : {},
+  byExperiment: summary.byExperiment && typeof summary.byExperiment === 'object' ? summary.byExperiment : {},
   updatedAt: summary.updatedAt || null
 };
 

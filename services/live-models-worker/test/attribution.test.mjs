@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
   normalizeAttributionClick,
+  normalizeExperimentExposure,
   normalizeMemberId,
   normalizePostback
 } from '../src/index.js';
@@ -23,12 +24,16 @@ test('normalizes first-party click attribution', () => {
     p1: 'best_live_cam_sites',
     p2: 'model_123',
     p3: 'bing',
+    experimentId: 'cta-copy-test',
+    experimentVariant: 'treatment',
     targetDomain: 'avcams.online',
     destinationPath: '/search/magic-search/example'
   });
 
   assert.equal(click.memberId, 'su_1234567890');
   assert.equal(click.p1, 'best_live_cam_sites');
+  assert.equal(click.experimentId, 'cta-copy-test');
+  assert.equal(click.experimentVariant, 'treatment');
   assert.equal(click.targetDomain, 'avcams.online');
 });
 
@@ -70,4 +75,21 @@ test('normalizes positive refund amount to negative revenue', () => {
   });
   assert.equal(postback.eventType, 'refund');
   assert.equal(postback.revenue, -8.25);
+});
+
+
+test('normalizes experiment exposures without retaining arbitrary fields', () => {
+  const exposure = normalizeExperimentExposure({
+    experimentId: 'cta-copy-test',
+    variant: 'control',
+    exposureId: 'exp_session_123',
+    pagePath: '/best-live-cam-sites',
+    affiliateSource: 'hero',
+    email: 'should-not-be-retained@example.invalid'
+  });
+
+  assert.equal(exposure.experimentId, 'cta-copy-test');
+  assert.equal(exposure.variant, 'control');
+  assert.equal(exposure.exposureId, 'exp_session_123');
+  assert.equal('email' in exposure, false);
 });

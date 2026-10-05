@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "attributionDate": null,
+  "policy": {
+    "maxConcurrent": 1,
+    "autoStartThresholdSessions": 100,
+    "minImpressionsPerVariant": 100,
+    "minDays": 7,
+    "maxDays": 14,
+    "primaryMetric": "affiliate_ctr"
+  },
+  "experiments": []
+}
