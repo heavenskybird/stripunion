@@ -147,3 +147,20 @@ This is separate from a ChatGPT subscription and should only be added when the r
 ## Bing Webmaster site variable
 
 Create repository variable BING_SITE_URLS with comma-separated verified site URLs (for example the main and blog properties). Keep the API key in BING_WEBMASTER_API_KEY Actions Secret only.
+
+
+## 6. Microsoft Clarity
+
+Main-site Clarity is deployed from the Astro layout and is gated by production indexing. The public project ID is:
+
+`ysuowheiiz`
+
+Optional environment variable:
+
+`PUBLIC_CLARITY_PROJECT_ID=ysuowheiiz`
+
+The ID is public configuration, not a credential. The main site defaults analytics/ad storage to denied and updates Google Consent Mode plus Microsoft Clarity Consent API V2 from the first-party privacy-choice control. Advertising storage remains denied.
+
+For `blog.stripunion.com`, use the official Microsoft Clarity WordPress plugin. The plugin is installed and active. In WordPress admin, open **Clarity**, sign in through Microsoft's OAuth UI, choose the existing **stripunion.com** project (project ID `ysuowheiiz`), and continue. Do not create a duplicate project for the Blog. Complianz and WP Consent API remain the Blog consent layer.
+
+The public Blog health check records `BLOG_CLARITY` and `BLOG_CONSENT_SURFACE`. Set repository variable `BLOG_CLARITY_REQUIRED=true` only after the existing Clarity project has been linked and the public Blog HTML exposes the expected tag; from then on a missing/mismatched Clarity tag becomes a health-check failure.
