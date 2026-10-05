@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:13:16.685Z",
+  "generatedAt": "2026-10-05T07:41:21.544Z",
   "sources": {
     "gsc": "2026-10-03",
     "bing": "2026-10-04",
@@ -29,6 +29,32 @@
     "canonicalClusteringEnabled": true,
     "purpose": "Prevent malformed query variants and synthetic prompt text from crowding the ranked growth queue."
   },
+  "keywordExpansion": {
+    "source": "Bing Webmaster Keyword Research",
+    "country": "US",
+    "language": "en-US",
+    "rows": []
+  },
+  "authorityOpportunities": [
+    {
+      "site": "stripunion.com",
+      "status": "authority_gap",
+      "observedInboundLinks": 0,
+      "linkedTargetPages": 0,
+      "referringSourceRows": 0,
+      "topTargets": [],
+      "recommendedAction": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam."
+    },
+    {
+      "site": "blog.stripunion.com",
+      "status": "authority_gap",
+      "observedInboundLinks": 0,
+      "linkedTargetPages": 0,
+      "referringSourceRows": 0,
+      "topTargets": [],
+      "recommendedAction": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam."
+    }
+  ],
   "opportunities": [
     {
       "id": "bing-7868616d737465722d72",
@@ -140,6 +166,14 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
+          "query": "https+thefapguide+com+review+xhamster",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1784851200000)/",
           "query": "complete guide to hamster com x",
           "impressions": 1,
           "clicks": 0,
@@ -152,14 +186,6 @@
           "impressions": 1,
           "clicks": 0,
           "position": 7
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1784851200000)/",
-          "query": "https+thefapguide+com+review+xhamster",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 10
         },
         {
           "source": "Bing",
@@ -244,18 +270,18 @@
         {
           "source": "Bing",
           "date": "/Date(1787270400000)/",
-          "query": "xhamster#R##N#review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 5
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1787270400000)/",
           "query": "should a person be leary about xhamster site?",
           "impressions": 1,
           "clicks": 0,
           "position": 10
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1787270400000)/",
+          "query": "xhamster#R##N#review",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 5
         },
         {
           "source": "Bing",

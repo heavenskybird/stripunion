@@ -8,6 +8,15 @@ WordPress draft inventory: unavailable in this run; no draft rows or publish-rea
 
 StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 0 total earnings · 0 model-referral earnings · 0 affiliate-referral earnings. These aggregate values are not assigned to individual queries.
 
+## Keyword expansion from Bing
+
+No Bing related-keyword rows are available yet.
+
+## Authority / backlink opportunities
+
+- **stripunion.com** — 0 observed inbound links across 0 linked target page(s); Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
+- **blog.stripunion.com** — 0 observed inbound links across 0 linked target page(s); Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
+
 ## Ranked evidence-backed opportunities
 
 1. **xHamster review / site overview** — refresh existing /xhamster landing page using clustered search evidence; 76 clustered impressions, 0 clicks, best position 3, 38 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
