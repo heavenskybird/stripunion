@@ -10,7 +10,21 @@ StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 
 
 ## Keyword expansion from Bing
 
-No Bing related-keyword rows are available yet.
+1. **porn** — 54629022 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews.
+2. **free porn** — 6804612 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
+3. **xhamster.** — 3296298 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
+4. **xhamster .com** — 703344 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
+5. **porn videos** — 628552 Bing keyword-research impressions signal; seed(s): xhamster site overview.
+6. **freeporn** — 332207 Bing keyword-research impressions signal; seed(s): xhamster site overview.
+7. **xhampster** — 245685 Bing keyword-research impressions signal; seed(s): xhamster site overview.
+8. **chaterbate** — 204401 Bing keyword-research impressions signal; seed(s): chaturbate alternatives.
+9. **x hamster** — 197940 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview.
+10. **hamster porn** — 182526 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview.
+11. **affiliate** — 83458 Bing keyword-research impressions signal; seed(s): adult affiliate program.
+12. **xhamster porn** — 72204 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews.
+13. **hamsterx** — 68292 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview.
+14. **xham** — 64584 Bing keyword-research impressions signal; seed(s): xhamster site overview.
+15. **chaturbate.com** — 63591 Bing keyword-research impressions signal; seed(s): chaturbate alternatives.
 
 ## Authority / backlink opportunities
 
