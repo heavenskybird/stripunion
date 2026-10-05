@@ -21,7 +21,7 @@ function attributes(tag) {
   return result;
 }
 
-async function fetchWithRetry(target, accept) {
+async function fetchWithRetry(target, accept, extraHeaders = {}) {
   const retryableStatuses = new Set([429, 500, 502, 503, 504, 520, 522, 524]);
   let lastError;
 
@@ -30,7 +30,7 @@ async function fetchWithRetry(target, accept) {
       const response = await fetch(target, {
         method: 'GET',
         redirect: 'manual',
-        headers: { accept },
+        headers: { accept, ...extraHeaders },
         signal: AbortSignal.timeout(timeoutMs)
       });
       if (!retryableStatuses.has(response.status) || attempt === 5) return response;
@@ -47,13 +47,13 @@ async function fetchWithRetry(target, accept) {
   throw lastError || new Error(`Request failed for ${target.pathname}.`);
 }
 
-async function get(url, accept = 'text/html,application/json,*/*') {
+async function get(url, accept = 'text/html,application/json,*/*', extraHeaders = {}) {
   let target = new URL(url);
   for (let redirects = 0; redirects <= 4; redirects += 1) {
     if (target.protocol !== 'https:' || target.hostname !== new URL(BLOG_ORIGIN).hostname) {
       throw new Error(`Refused request outside ${BLOG_ORIGIN}.`);
     }
-    const response = await fetchWithRetry(target, accept);
+    const response = await fetchWithRetry(target, accept, extraHeaders);
     if ([301, 302, 303, 307, 308].includes(response.status)) {
       const location = response.headers.get('location');
       if (!location || redirects === 4) throw new Error(`Invalid or excessive redirect for ${target.pathname}.`);
@@ -147,7 +147,24 @@ async function main() {
   }
   check(trackedPostLinks > 0, 'published blog posts expose tracked AVCams CTAs');
 
-  const ids = [...new Set([...homepage.body, ...post.body].join('\\n').match(analyticsIdPattern) || [])].map((id) => id.toUpperCase());
+  const consentCookie = [
+    'cmplz_functional=allow',
+    'cmplz_preferences=allow',
+    'cmplz_statistics=allow',
+    'cmplz_marketing=deny',
+    'cmplz_banner-status=dismissed',
+    'wp_consent_statistics=allow',
+    'wp_consent_statistics-anonymous=allow',
+    'wp_consent_marketing=deny'
+  ].join('; ');
+
+  const [consentedHomepage, consentedPost] = await Promise.all([
+    get(`${BLOG_ORIGIN}/`, 'text/html,*/*', { cookie: consentCookie }),
+    get(postUrl.href, 'text/html,*/*', { cookie: consentCookie })
+  ]);
+
+  const analyticsBodies = [homepage.body, post.body, consentedHomepage.body, consentedPost.body];
+  const ids = [...new Set(analyticsBodies.join('\\n').match(analyticsIdPattern) || [])].map((id) => id.toUpperCase());
   console.log(`BLOG_ANALYTICS_IDS ${ids.length ? ids.join(', ') : 'none detected'}`);
   const expectedIds = [expectedMeasurementId.toUpperCase(), expectedGoogleTagId.toUpperCase()].filter(Boolean);
   const unexpected = ids.filter((id) => !expectedIds.includes(id));
@@ -158,16 +175,17 @@ async function main() {
     const accepted = analyticsStatus === 'CONNECTED' ? 'true' : 'false';
     await fs.appendFile(process.env.GITHUB_OUTPUT, `analytics_status=${analyticsStatus}\nanalytics_accepted=${accepted}\n`, 'utf8');
   }
+
+  let analyticsFailure = null;
   if (analyticsStatus !== 'CONNECTED') {
-    const message = analyticsStatus === 'MISSING'
-      ? 'Blog public HTML contains no GA4 Measurement ID.'
+    analyticsFailure = analyticsStatus === 'MISSING'
+      ? 'Blog public HTML contains no GA4 Measurement ID, including after statistics-consent cookies.'
       : `Blog public HTML Measurement ID does not match expected ${expectedMeasurementId}.`;
-    if (requireAnalytics) throw new Error(message);
-    console.log(`WARN ${message}`);
+    if (!requireAnalytics) console.log(`WARN ${analyticsFailure}`);
   }
 
   const clarityIds = [...new Set(
-    [...homepage.body, ...post.body]
+    analyticsBodies
       .join('\n')
       .matchAll(clarityTagPattern)
       .map((match) => String(match[1] || '').toLowerCase())
@@ -196,12 +214,21 @@ async function main() {
     );
   }
 
+  let clarityFailure = null;
   if (clarityStatus !== 'CONNECTED') {
-    const message = clarityStatus === 'MISSING'
-      ? 'Blog public HTML contains no Microsoft Clarity tracking tag.'
+    clarityFailure = clarityStatus === 'MISSING'
+      ? 'Blog public HTML contains no Microsoft Clarity tracking tag, including after statistics-consent cookies.'
       : `Blog Clarity project ID does not match expected ${expectedClarityProjectId}.`;
-    if (requireClarity) throw new Error(message);
-    console.log(`WARN ${message}`);
+    if (!requireClarity) console.log(`WARN ${clarityFailure}`);
+  }
+
+  const requiredFailures = [
+    requireAnalytics ? analyticsFailure : null,
+    requireClarity ? clarityFailure : null
+  ].filter(Boolean);
+
+  if (requiredFailures.length) {
+    throw new Error(requiredFailures.join(' | '));
   }
 }
 
