@@ -1,10 +1,28 @@
 {
   "source": "bing-webmaster-json-http",
-  "collectedAt": "2026-10-05T07:10:54.062Z",
+  "collectedAt": "2026-10-05T07:39:25.481Z",
   "cadence": "Daily collector; Bing query/page stats update weekly and crawl stats daily.",
+  "account": {
+    "GetUserSites": "ok",
+    "error": null,
+    "sites": [
+      {
+        "site": "blog.stripunion.com",
+        "url": "https://blog.stripunion.com/",
+        "verified": true
+      },
+      {
+        "site": "stripunion.com",
+        "url": "https://stripunion.com/",
+        "verified": true
+      }
+    ]
+  },
   "sites": [
     {
       "site": "stripunion.com",
+      "siteUrl": "https://stripunion.com/",
+      "verified": true,
       "queryStats": [
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -157,6 +175,15 @@
           "Clicks": 0,
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
+          "Query": "https+thefapguide+com+review+xhamster"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 10,
+          "Clicks": 0,
+          "Date": "/Date(1784851200000)/",
+          "Impressions": 1,
           "Query": "complete guide to hamster com x"
         },
         {
@@ -167,15 +194,6 @@
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
           "Query": "xhamster#N##N#review"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
-          "AvgImpressionPosition": 10,
-          "Clicks": 0,
-          "Date": "/Date(1784851200000)/",
-          "Impressions": 1,
-          "Query": "https+thefapguide+com+review+xhamster"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -306,20 +324,20 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 5,
-          "Clicks": 0,
-          "Date": "/Date(1787270400000)/",
-          "Impressions": 1,
-          "Query": "xhamster#R##N#review"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 10,
           "Clicks": 0,
           "Date": "/Date(1787270400000)/",
           "Impressions": 1,
           "Query": "should a person be leary about xhamster site?"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 5,
+          "Clicks": 0,
+          "Date": "/Date(1787270400000)/",
+          "Impressions": 1,
+          "Query": "xhamster#R##N#review"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -569,20 +587,20 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 4,
-          "Clicks": 0,
-          "Date": "/Date(1786665600000)/",
-          "Impressions": 3,
-          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 7,
           "Clicks": 0,
           "Date": "/Date(1786665600000)/",
           "Impressions": 3,
           "Query": "https://stripunion.com/f95zone"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 4,
+          "Clicks": 0,
+          "Date": "/Date(1786665600000)/",
+          "Impressions": 3,
+          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -614,15 +632,6 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 4,
-          "Clicks": 0,
-          "Date": "/Date(1788480000000)/",
-          "Impressions": 7,
-          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 9,
           "Clicks": 0,
           "Date": "/Date(1788480000000)/",
@@ -632,10 +641,10 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 2,
+          "AvgImpressionPosition": 4,
           "Clicks": 0,
-          "Date": "/Date(1789084800000)/",
-          "Impressions": 1,
+          "Date": "/Date(1788480000000)/",
+          "Impressions": 7,
           "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
         },
         {
@@ -646,6 +655,15 @@
           "Date": "/Date(1789084800000)/",
           "Impressions": 1,
           "Query": "https://stripunion.com/xhamster"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 2,
+          "Clicks": 0,
+          "Date": "/Date(1789084800000)/",
+          "Impressions": 1,
+          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -3918,6 +3936,32 @@
         }
       ],
       "crawlIssues": [],
+      "feeds": [
+        {
+          "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+          "Compressed": false,
+          "FileSize": 0,
+          "LastCrawled": "/Date(1791046227000)/",
+          "Status": "Success",
+          "Submitted": "/Date(-11644473600000)/",
+          "Type": "Sitemap",
+          "Url": "https://stripunion.com/sitemap.xml",
+          "UrlCount": 38
+        }
+      ],
+      "feedState": {
+        "status": "already_present",
+        "sitemapUrl": "https://stripunion.com/sitemap.xml",
+        "submitted": false,
+        "error": null
+      },
+      "backlinkPages": [],
+      "backlinkDetails": [],
+      "backlinkMeta": {
+        "totalPages": 0,
+        "truncated": false,
+        "inspectedTargets": []
+      },
       "indexedPages": [
         {
           "date": "/Date(1775347200000)/",
@@ -4640,24 +4684,182 @@
         "GetQueryStats": "ok",
         "GetPageStats": "ok",
         "GetCrawlStats": "ok",
-        "GetCrawlIssues": "ok"
+        "GetCrawlIssues": "ok",
+        "GetFeeds": "ok",
+        "GetLinkCounts": "ok",
+        "GetUrlLinks": "ok"
       },
       "errors": {}
     },
     {
       "site": "blog.stripunion.com",
+      "siteUrl": "https://blog.stripunion.com/",
+      "verified": true,
       "queryStats": [],
       "pageStats": [],
       "crawlStats": [],
       "crawlIssues": [],
+      "feeds": [
+        {
+          "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+          "Compressed": false,
+          "FileSize": 0,
+          "LastCrawled": "/Date(-11644473600000)/",
+          "Status": "Pending",
+          "Submitted": "/Date(1791185960538)/",
+          "Type": "",
+          "Url": "https://blog.stripunion.com/sitemap_index.xml",
+          "UrlCount": 0
+        }
+      ],
+      "feedState": {
+        "status": "submitted",
+        "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+        "submitted": true,
+        "error": null
+      },
+      "backlinkPages": [],
+      "backlinkDetails": [],
+      "backlinkMeta": {
+        "totalPages": 0,
+        "truncated": false,
+        "inspectedTargets": []
+      },
       "indexedPages": [],
       "methodStatus": {
         "GetQueryStats": "ok",
         "GetPageStats": "ok",
         "GetCrawlStats": "ok",
-        "GetCrawlIssues": "ok"
+        "GetCrawlIssues": "ok",
+        "GetFeeds": "ok",
+        "GetLinkCounts": "ok",
+        "GetUrlLinks": "ok"
       },
       "errors": {}
     }
-  ]
+  ],
+  "keywordResearch": {
+    "country": "US",
+    "language": "en-US",
+    "period": {
+      "startDate": "2026-07-07T07:39:20.904Z",
+      "endDate": "2026-10-05T07:39:20.904Z"
+    },
+    "seeds": [
+      "xhamster review",
+      "xhamster site overview",
+      "review free pornohamster.com",
+      "xhamster review 2026",
+      "xhamster reviews",
+      "live cam sites",
+      "chaturbate alternatives",
+      "adult affiliate program"
+    ],
+    "bySeed": [
+      {
+        "seed": "xhamster review",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "xhamster site overview",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "review free pornohamster.com",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "xhamster review 2026",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "xhamster reviews",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "live cam sites",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "chaturbate alternatives",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      },
+      {
+        "seed": "adult affiliate program",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "error",
+          "GetRelatedKeywords": "error"
+        },
+        "errors": {
+          "GetKeywordStats": "HTTP 400",
+          "GetRelatedKeywords": "HTTP 400"
+        }
+      }
+    ]
+  }
 }

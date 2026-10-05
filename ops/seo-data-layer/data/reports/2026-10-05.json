@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:13:29.925Z",
+  "generatedAt": "2026-10-05T07:39:31.479Z",
   "sourceDates": {
     "gsc": "2026-10-03",
     "ga4": "2026-10-02",
@@ -114,22 +114,46 @@
       {
         "hostname": "stripunion.com",
         "configured": true,
+        "verified": true,
         "methods": {
           "GetQueryStats": "ok",
           "GetPageStats": "ok",
           "GetCrawlStats": "ok",
-          "GetCrawlIssues": "ok"
-        }
+          "GetCrawlIssues": "ok",
+          "GetFeeds": "ok",
+          "GetLinkCounts": "ok",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "already_present",
+          "sitemapUrl": "https://stripunion.com/sitemap.xml",
+          "submitted": false,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
       },
       {
         "hostname": "blog.stripunion.com",
         "configured": true,
+        "verified": true,
         "methods": {
           "GetQueryStats": "ok",
           "GetPageStats": "ok",
           "GetCrawlStats": "ok",
-          "GetCrawlIssues": "ok"
-        }
+          "GetCrawlIssues": "ok",
+          "GetFeeds": "ok",
+          "GetLinkCounts": "ok",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "submitted",
+          "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+          "submitted": true,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
       }
     ],
     "highImpressionZeroClickQueries": [
@@ -1605,7 +1629,78 @@
         "previousIndexed": null,
         "change": 0
       }
-    ]
+    ],
+    "backlinks": {
+      "targetPageCount": 0,
+      "observedInboundCount": 0,
+      "sourceRowCount": 0,
+      "topTargetPages": [],
+      "topSourceRows": [],
+      "changes": [
+        {
+          "site": "stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        },
+        {
+          "site": "blog.stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        }
+      ]
+    },
+    "feeds": [
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(1791046227000)/",
+        "Status": "Success",
+        "Submitted": "/Date(-11644473600000)/",
+        "Type": "Sitemap",
+        "Url": "https://stripunion.com/sitemap.xml",
+        "UrlCount": 38,
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(-11644473600000)/",
+        "Status": "Pending",
+        "Submitted": "/Date(1791185960538)/",
+        "Type": "",
+        "Url": "https://blog.stripunion.com/sitemap_index.xml",
+        "UrlCount": 0,
+        "site": "blog.stripunion.com"
+      }
+    ],
+    "keywordResearch": {
+      "country": "US",
+      "language": "en-US",
+      "seeds": [
+        "xhamster review",
+        "xhamster site overview",
+        "review free pornohamster.com",
+        "xhamster review 2026",
+        "xhamster reviews",
+        "live cam sites",
+        "chaturbate alternatives",
+        "adult affiliate program"
+      ],
+      "relatedKeywordRows": 0,
+      "topRelated": []
+    }
   },
   "ga4": {
     "sessions": 5,
