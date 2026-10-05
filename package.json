@@ -15,7 +15,8 @@
     "report:editorial-production": "node scripts/editorial-production-count.mjs 24",
     "test:visual": "node scripts/visual-regression.mjs",
     "reconcile:editorial-backlog": "node scripts/reconcile-editorial-backlog.mjs",
-    "generate:editorial-batch": "node scripts/generate-editorial-batch.mjs"
+    "generate:editorial-batch": "node scripts/generate-editorial-batch.mjs",
+    "sync:growth-control-plane": "node scripts/sync-growth-control-plane.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
