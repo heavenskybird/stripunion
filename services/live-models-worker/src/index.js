@@ -206,8 +206,26 @@ export function normalizeAttributionClick(input = {}) {
     p1: safeText(input.p1),
     p2: safeText(input.p2),
     p3: safeText(input.p3),
+    experimentId: input.experimentId ? safeText(input.experimentId, 'unknown', 100) : null,
+    experimentVariant: input.experimentVariant ? safeText(input.experimentVariant, 'unknown', 40) : null,
     targetDomain: safeText(input.targetDomain, 'avcams.online'),
     destinationPath: safeText(input.destinationPath, '/', 180)
+  };
+}
+
+export function normalizeExperimentExposure(input = {}) {
+  const experimentId = safeText(input.experimentId, '', 100);
+  const variant = safeText(input.variant, '', 40);
+  const exposureId = safeText(input.exposureId, '', 120);
+  if (!experimentId || !variant || !exposureId) return null;
+
+  return {
+    experimentId,
+    variant,
+    exposureId,
+    occurredAt: Number.isFinite(Number(input.occurredAt)) ? Number(input.occurredAt) : Date.now(),
+    pagePath: safeText(input.pagePath, '/', 160),
+    affiliateSource: safeText(input.affiliateSource)
   };
 }
 
@@ -271,6 +289,7 @@ function emptySummary() {
     revenueByCurrency: {},
     byP1: {},
     byAffiliateSource: {},
+    byExperiment: {},
     updatedAt: null
   };
 }
@@ -297,6 +316,28 @@ function bucket(container, key) {
     };
   }
   return container[safeKey];
+}
+
+function experimentVariantBucket(summary, experimentId, variant) {
+  if (!experimentId || !variant) return null;
+  const safeExperiment = safeText(experimentId, 'unknown', 100);
+  const safeVariant = safeText(variant, 'unknown', 40);
+  summary.byExperiment = summary.byExperiment || {};
+  if (!summary.byExperiment[safeExperiment]) {
+    summary.byExperiment[safeExperiment] = { variants: {} };
+  }
+  const variants = summary.byExperiment[safeExperiment].variants;
+  if (!variants[safeVariant]) {
+    variants[safeVariant] = {
+      impressions: 0,
+      clicks: 0,
+      postbacks: 0,
+      matchedPostbacks: 0,
+      eventCounts: {},
+      revenueByCurrency: {}
+    };
+  }
+  return variants[safeVariant];
 }
 
 async function fingerprintPostback(postback) {
@@ -401,10 +442,36 @@ export class AttributionStore {
       summary.totalClicks += 1;
       bucket(summary.byP1, click.p1).clicks += 1;
       bucket(summary.byAffiliateSource, click.affiliateSource).clicks += 1;
+      const experiment = experimentVariantBucket(summary, click.experimentId, click.experimentVariant);
+      if (experiment) experiment.clicks += 1;
       summary.updatedAt = new Date().toISOString();
       await this.state.storage.put('summary', summary);
     }
 
+    await this.scheduleCleanup();
+    return { ok: true };
+  }
+
+  async recordExperiment(input) {
+    if (input?.test === true) return { ok: true, test: true };
+
+    const exposure = normalizeExperimentExposure(input);
+    if (!exposure) return { ok: false, error: 'invalid_experiment_exposure' };
+
+    const seenKey = `exposure:${exposure.exposureId}`;
+    if (await this.state.storage.get(seenKey)) {
+      return { ok: true, duplicate: true };
+    }
+
+    const summary = (await this.state.storage.get('summary')) || emptySummary();
+    const variant = experimentVariantBucket(summary, exposure.experimentId, exposure.variant);
+    variant.impressions += 1;
+    summary.updatedAt = new Date().toISOString();
+
+    await this.state.storage.put({
+      summary,
+      [seenKey]: exposure.occurredAt
+    });
     await this.scheduleCleanup();
     return { ok: true };
   }
@@ -443,6 +510,14 @@ export class AttributionStore {
         incrementNumber(group.eventCounts, postback.eventType);
         incrementRevenue(group.revenueByCurrency, postback.currency, postback.revenue);
       }
+
+      const experiment = experimentVariantBucket(summary, click.experimentId, click.experimentVariant);
+      if (experiment) {
+        experiment.postbacks += 1;
+        experiment.matchedPostbacks += 1;
+        incrementNumber(experiment.eventCounts, postback.eventType);
+        incrementRevenue(experiment.revenueByCurrency, postback.currency, postback.revenue);
+      }
     }
 
     summary.updatedAt = new Date().toISOString();
@@ -453,7 +528,9 @@ export class AttributionStore {
       currency: postback.currency,
       matched: Boolean(click),
       p1: click?.p1 || null,
-      affiliateSource: click?.affiliateSource || null
+      affiliateSource: click?.affiliateSource || null,
+      experimentId: click?.experimentId || null,
+      experimentVariant: click?.experimentVariant || null
     };
 
     await this.state.storage.put({
@@ -471,6 +548,10 @@ export class AttributionStore {
 
     if (url.pathname === '/click' && request.method === 'POST') {
       return json(await this.recordClick(await request.json()), { status: 202 });
+    }
+
+    if (url.pathname === '/experiment' && request.method === 'POST') {
+      return json(await this.recordExperiment(await request.json()), { status: 202 });
     }
 
     if (url.pathname === '/postback' && request.method === 'POST') {
@@ -641,14 +722,15 @@ export default {
       return outgoing;
     }
 
-    if (url.pathname === '/events/click') {
+    if (url.pathname === '/events/click' || url.pathname === '/events/experiment') {
       if (request.method !== 'POST') return json({ error: 'method_not_allowed' }, { status: 405, headers });
       if (!browserOriginAllowed(request, env)) return json({ error: 'origin_not_allowed' }, { status: 403, headers });
 
       const payload = await requestPayload(request);
       const id = env.ATTRIBUTION.idFromName('global');
       const stub = env.ATTRIBUTION.get(id);
-      const response = await stub.fetch(new Request('https://attribution.internal/click', {
+      const internalPath = url.pathname === '/events/experiment' ? '/experiment' : '/click';
+      const response = await stub.fetch(new Request('https://attribution.internal' + internalPath, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify(payload)
