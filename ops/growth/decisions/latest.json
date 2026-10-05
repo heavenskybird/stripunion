@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-05T11:29:12.185Z",
-  "sourceGeneratedAt": "2026-10-05T11:29:12.097Z",
+  "generatedAt": "2026-10-05T16:34:59.142Z",
+  "sourceGeneratedAt": "2026-10-05T16:34:59.076Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -38,6 +38,7 @@
     },
     "attributionSource": "2026-10-04"
   },
+  "validatedLearnings": [],
   "portfolio": {
     "safeCreateCount": 4,
     "updateCount": 4,
@@ -112,7 +113,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": "/f95zone",
           "contentState": "review",
@@ -163,7 +179,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -307,10 +338,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
+            "query": "xhamster#N##N#review",
             "impressions": 1,
             "clicks": 0,
-            "position": 10
+            "position": 7
           },
           {
             "source": "Bing",
@@ -323,10 +354,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster#N##N#review",
+            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
-            "position": 7
+            "position": 10
           },
           {
             "source": "Bing",
@@ -510,7 +541,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": "/xhamster",
           "contentState": "review",
@@ -561,7 +607,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "approved AVCams/StripCash intent",
         "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": "/stripchat-alternatives",
           "contentState": "page",
@@ -642,7 +703,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -693,7 +769,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -744,7 +835,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": "/pinkcherry",
           "contentState": "pending",
@@ -795,7 +901,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -846,7 +967,22 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [],
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 3,
+            "removedUrlCount": 3,
+            "topicMatch": "not established; treat as landscape context only"
+          },
+          {
+            "source": "daily public sitemap diff",
+            "domain": "FetishAura",
+            "newUrlCount": 49,
+            "removedUrlCount": 49,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
