@@ -32,6 +32,12 @@ The first version is an internal operating system for StripUnion, not a public p
   - crawl issues
   - backlinks
   - feeds / sitemaps
+  - keyword research / trend signals
+- Microsoft Clarity
+  - page-level traffic and behavior metrics
+  - rage/dead/error click signals
+  - quickbacks / excessive scroll
+  - engagement and scroll-depth context
 - IndexNow
   - submission log
   - response status
@@ -232,6 +238,7 @@ Weekly:
 
 Initial cadence:
 - GSC/GA4/Bing: daily
+- Clarity Data Export: at most one daily call using a 3-day URL breakdown (well below the provider quota)
 - URL inventory/sitemap crawl: daily
 - URL Inspection: selective, not full-site daily
 - IndexNow: event-driven on publish/update when practical
@@ -277,6 +284,17 @@ Keyword intelligence is collected with `GetKeywordStats` and `GetRelatedKeywords
 The snapshot is written to `data/raw/<date>/bing.json`; a failing site or optional method does not discard another source's valid data. Crawl stats update daily; query and page stats are documented as weekly-updated. `InIndex` from crawl stats is the available index-count signal; changes are directional comparisons between collected snapshots, not a complete index inventory. Bing may delay removal of repaired crawl issues by several days and does not expose a Google-style URL Inspection equivalent through this collector. The legacy POX/SOAP APIs are deliberately not used.
 
 `scripts/check-bing-intelligence.mjs` is the automated acceptance gate. A healthy production snapshot requires both `stripunion.com` and `blog.stripunion.com` to be present and verified, their sitemap/feed state to be accepted, all seven site methods to succeed, backlink arrays to be structurally present (zero links is valid), and at least one keyword seed to complete both keyword methods.
+
+The Growth Brain does not blindly accept every related keyword returned by Bing. It drops synthetic prompt fragments, generic head terms with no decision intent, and off-topic related-keyword collisions (for example generic wildlife/security/retail queries produced from ambiguous seeds). Accepted rows carry a relevance reason, content-state mapping, and a `recommendedUse` value so existing pages are refreshed instead of cannibalized by duplicate pages. `GetKeywordStats` time series are also reduced into rising/stable/falling planning signals; these are decision inputs, not public search-volume claims.
+
+
+### Microsoft Clarity
+
+The main site loads Clarity project `ysuowheiiz` only on production-indexable builds and passes analytics consent through Clarity Consent API V2. The WordPress Blog uses the official Clarity plugin plus its consent-management stack.
+
+The optional first-party collector `src/collectors/clarity.mjs` uses Microsoft's Data Export endpoint with `CLARITY_API_TOKEN`. It makes one request per run with `numOfDays=3` and `dimension1=URL`, stores only the returned dashboard metrics in `data/raw/<date>/clarity.json`, and never logs or persists the token. This stays well below Clarity's project request quota.
+
+Growth Brain combines Clarity friction signals with GA4 conversion evidence. Rage clicks, dead clicks, quickbacks, excessive scroll and error-click/script-error signals become measured UX/CTA investigation candidates. The system does not auto-redesign a page solely from one Clarity anomaly; it requires inspection and a measured experiment.
 
 ### Buffer performance
 
