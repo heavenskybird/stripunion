@@ -61,7 +61,6 @@ jobs:
 
       - name: Mirror Growth Brain state to control plane
         if: success()
-        continue-on-error: true
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
