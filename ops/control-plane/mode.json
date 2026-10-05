@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "mode": "shadow",
+  "promoted_at": null,
+  "promotion_policy": {
+    "required_hourly_cycles": 24,
+    "max_gap_minutes": 110,
+    "source": "editorial-hourly-producer",
+    "require_all_succeeded": true,
+    "require_repository_subset_in_database": true
+  }
+}
