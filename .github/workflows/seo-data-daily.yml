@@ -158,7 +158,8 @@ jobs:
           EXPECTED_GA4_MEASUREMENT_ID: ${{ steps.collect_ga4_admin.outputs.unified_measurement_id }}
           EXPECTED_GOOGLE_TAG_ID: GT-P8VJLHT3
           EXPECTED_CLARITY_PROJECT_ID: ysuowheiiz
-          REQUIRE_CLARITY: ${{ vars.BLOG_CLARITY_REQUIRED || 'false' }}
+          REQUIRE_ANALYTICS: 'true'
+          REQUIRE_CLARITY: 'true'
         run: node scripts/blog-health-check.mjs
 
       - name: Refresh growth report from latest snapshots
