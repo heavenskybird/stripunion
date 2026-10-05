@@ -12,6 +12,25 @@ const requireAnalytics = process.env.REQUIRE_ANALYTICS === 'true';
 const requireClarity = process.env.REQUIRE_CLARITY === 'true';
 const analyticsIdPattern = /\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\b/gi;
 const clarityTagPattern = /clarity\.ms\/tag\/([a-z0-9]{6,20})/gi;
+const clarityWordPressBootstrapPattern = /\(\s*window\s*,\s*document\s*,\s*["']clarity["']\s*,\s*["']script["']\s*,\s*["']([a-z0-9]{6,20})["']\s*\)/gi;
+
+function clarityProjectIds(html = '') {
+  const source = String(html);
+  const ids = new Set();
+  for (const match of source.matchAll(clarityTagPattern)) {
+    if (match[1]) ids.add(String(match[1]).toLowerCase());
+  }
+
+  // Microsoft's WordPress plugin emits a dynamic loader:
+  // t.src = "https://www.clarity.ms/tag/" + i; ...(window, document, "clarity", "script", "<project-id>")
+  // so there is no literal /tag/<project-id> string for the legacy regex to match.
+  if (/clarity\.ms\/tag\//i.test(source)) {
+    for (const match of source.matchAll(clarityWordPressBootstrapPattern)) {
+      if (match[1]) ids.add(String(match[1]).toLowerCase());
+    }
+  }
+  return [...ids];
+}
 
 function attributes(tag) {
   const result = {};
@@ -184,12 +203,7 @@ async function main() {
     if (!requireAnalytics) console.log(`WARN ${analyticsFailure}`);
   }
 
-  const clarityIds = [...new Set(
-    analyticsBodies
-      .join('\n')
-      .matchAll(clarityTagPattern)
-      .map((match) => String(match[1] || '').toLowerCase())
-  )];
+  const clarityIds = clarityProjectIds(analyticsBodies.join('\n'));
   const clarityStatus = !clarityIds.length
     ? 'MISSING'
     : clarityIds.includes(expectedClarityProjectId)
@@ -249,7 +263,9 @@ function selfTest() {
   assert.equal(analyticsStatus(['GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'CONNECTED');
   assert.equal(analyticsStatus(['G-OTHER123456', 'GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
   assert.equal(analyticsStatus(['G-TEST123456', 'G-OTHER123456'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
-  assert.deepEqual([...'<script src="https://www.clarity.ms/tag/ysuowheiiz"></script>'.matchAll(clarityTagPattern)].map((match) => match[1]), ['ysuowheiiz']);
+  assert.deepEqual(clarityProjectIds('<script src="https://www.clarity.ms/tag/ysuowheiiz"></script>'), ['ysuowheiiz']);
+  const wordpressLoader = '<script>t.src = "https://www.clarity.ms/tag/" + i + "?ref=wordpress"; (window, document, "clarity", "script", "ysuowheiiz");</script>';
+  assert.deepEqual(clarityProjectIds(wordpressLoader), ['ysuowheiiz']);
   const statusFor = (ids, expected) => {
     const status = !ids.length ? 'MISSING' : expected && !ids.includes(expected) ? 'MISMATCH' : 'CONNECTED';
     return { status, acceptancePassed: status === 'CONNECTED' };

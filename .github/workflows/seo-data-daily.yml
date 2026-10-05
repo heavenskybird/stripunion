@@ -168,30 +168,48 @@ jobs:
 
       - name: Persist snapshots
         id: persist
+        shell: bash
         run: |
-          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+          set -euo pipefail
+          if git diff --quiet && [ -z "$(git status --porcelain ops/seo-data-layer/data/)" ]; then
             echo "No snapshot changes"
             exit 0
           fi
+
+          # Preserve this run's collector output outside the worktree. Rebase is the
+          # wrong primitive for generated snapshots because another workflow may
+          # advance main while touching the same dated JSON files.
+          snapshot_dir="$(mktemp -d)"
+          cp -a ops/seo-data-layer/data/. "$snapshot_dir/"
+
           git config user.name "stripunion-growth-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add ops/seo-data-layer/data/
-          git commit -m "data: update SEO snapshots [skip ci]"
+
           for attempt in 1 2 3; do
             git fetch origin main
-            if ! git rebase origin/main; then
-              git rebase --abort || true
-              if [ "$attempt" -lt 3 ]; then sleep "$attempt"; fi
-              continue
-            fi
-            if git push origin HEAD:main; then
+            git reset --hard origin/main
+            cp -a "$snapshot_dir/." ops/seo-data-layer/data/
+
+            git add ops/seo-data-layer/data/
+            if git diff --cached --quiet; then
+              echo "Latest main already contains equivalent SEO snapshots."
               exit 0
             fi
-            if [ "$attempt" -lt 3 ]; then
-              sleep "$attempt"
+
+            git commit -m "data: update SEO snapshots [skip ci]"
+            if git push origin HEAD:main; then
+              rm -rf "$snapshot_dir"
+              exit 0
             fi
+
+            # Push lost a race. The next iteration resets to the new main and
+            # reapplies the exact collector output from this run.
+            git reset --hard HEAD^
+            if [ "$attempt" -lt 3 ]; then sleep "$attempt"; fi
           done
-          echo "Could not persist SEO snapshots after three fast-forward retries."
+
+          rm -rf "$snapshot_dir"
+          echo "Could not persist SEO snapshots after three reset-and-reapply retries."
           exit 1
 
       - name: Summarize collection outcomes
