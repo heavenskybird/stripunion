@@ -88,6 +88,11 @@ jobs:
           fi
           npm run collect:bing
 
+      - name: Validate Bing intelligence acceptance
+        id: bing_acceptance
+        continue-on-error: true
+        run: node scripts/check-bing-intelligence.mjs
+
       - name: Collect Buffer performance
         id: collect_buffer
         continue-on-error: true
@@ -134,6 +139,8 @@ jobs:
         env:
           EXPECTED_GA4_MEASUREMENT_ID: ${{ steps.collect_ga4_admin.outputs.unified_measurement_id }}
           EXPECTED_GOOGLE_TAG_ID: GT-P8VJLHT3
+          EXPECTED_CLARITY_PROJECT_ID: ysuowheiiz
+          REQUIRE_CLARITY: ${{ vars.BLOG_CLARITY_REQUIRED || 'false' }}
         run: node scripts/blog-health-check.mjs
 
       - name: Refresh growth report from latest snapshots
@@ -179,6 +186,7 @@ jobs:
           BLOG_ANALYTICS_STATUS: ${{ steps.two_site_health.outputs.analytics_status }}
           BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
           BING_OUTCOME: ${{ steps.collect_bing.outcome }}
+          BING_ACCEPTANCE_OUTCOME: ${{ steps.bing_acceptance.outcome }}
           BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
           STRIPCASH_OUTCOME: ${{ steps.collect_stripcash.outcome }}
           ATTRIBUTION_OUTCOME: ${{ steps.collect_attribution.outcome }}
@@ -204,6 +212,12 @@ jobs:
             echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
           else
             echo "ga4 admin: discovery failed; any previous valid snapshot remains on disk"
+          fi
+          if [ "$BING_ACCEPTANCE_OUTCOME" = success ]; then
+            echo "bing intelligence: verification, sitemap, backlink and keyword acceptance passed"
+          else
+            echo "bing intelligence: acceptance failed"
+            failed=1
           fi
           if [ "$ATTRIBUTION_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/attribution.json" > /dev/null; then
             echo "first-party attribution: collection succeeded and snapshot exists"

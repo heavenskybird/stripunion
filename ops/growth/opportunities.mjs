@@ -58,6 +58,26 @@ const reviewSlugs = new Set(Object.values({ ...reviews, ...vrReviews }).map((rev
 const candidates = [];
 let droppedNoiseQueries = 0;
 
+function keywordImpressions(row = {}) {
+  return Number(
+    row.BroadImpressions ??
+    row.Impressions ??
+    row.StrictImpressions ??
+    row.Count ??
+    row.SearchVolume ??
+    0
+  );
+}
+
+function backlinkTarget(url) {
+  try {
+    const parsed = new URL(url);
+    return parsed.pathname || '/';
+  } catch {
+    return String(url || '');
+  }
+}
+
 const competitorChanges = (diff?.data?.competitors || [])
   .filter((row) => (row.newUrls || []).length)
   .map((row) => ({
@@ -329,6 +349,59 @@ for (const site of bing?.data?.sites || []) {
   }
 }
 
+const keywordExpansionMap = new Map();
+for (const seed of bing?.data?.keywordResearch?.bySeed || []) {
+  for (const row of seed.related || []) {
+    const query = String(row.Query || row.Keyword || row.RelatedKeyword || '').trim();
+    const normalized = normalizeQuery(query);
+    if (!normalized || syntheticPromptPattern.test(query)) continue;
+    const impressions = keywordImpressions(row);
+    const existing = keywordExpansionMap.get(normalized) || {
+      query,
+      seeds: new Set(),
+      impressions: 0,
+      source: 'Bing Webmaster Keyword Research'
+    };
+    existing.seeds.add(seed.seed);
+    existing.impressions += impressions;
+    keywordExpansionMap.set(normalized, existing);
+  }
+}
+const keywordExpansion = [...keywordExpansionMap.values()]
+  .map((row) => ({ ...row, seeds: [...row.seeds] }))
+  .sort((a, b) => b.impressions - a.impressions || a.query.localeCompare(b.query))
+  .slice(0, 40);
+
+const backlinkSiteRows = (bing?.data?.sites || []).map((site) => {
+  const targets = (site.backlinkPages || [])
+    .map((row) => ({
+      url: row.Url || null,
+      path: backlinkTarget(row.Url),
+      inboundLinks: Number(row.Count || 0)
+    }))
+    .sort((a, b) => b.inboundLinks - a.inboundLinks);
+
+  return {
+    site: site.site,
+    verified: site.verified === true,
+    observedInboundLinks: targets.reduce((total, row) => total + row.inboundLinks, 0),
+    linkedTargetPages: targets.length,
+    referringSourceRows: (site.backlinkDetails || []).length,
+    topTargets: targets.slice(0, 10)
+  };
+});
+const authorityOpportunities = backlinkSiteRows.map((site) => ({
+  site: site.site,
+  status: site.observedInboundLinks > 0 ? 'build_on_existing_authority' : 'authority_gap',
+  observedInboundLinks: site.observedInboundLinks,
+  linkedTargetPages: site.linkedTargetPages,
+  referringSourceRows: site.referringSourceRows,
+  topTargets: site.topTargets,
+  recommendedAction: site.observedInboundLinks > 0
+    ? 'Prioritize earned links to commercially useful pages that already attract natural citations, while diversifying referring domains.'
+    : 'Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.'
+}));
+
 const grouped = new Map();
 for (const candidate of candidates) {
   const key = candidate.topicKey || normalizeQuery(candidate.targetKeyword);
@@ -400,6 +473,13 @@ const result = {
     canonicalClusteringEnabled: true,
     purpose: 'Prevent malformed query variants and synthetic prompt text from crowding the ranked growth queue.'
   },
+  keywordExpansion: {
+    source: bing?.data?.keywordResearch ? 'Bing Webmaster Keyword Research' : null,
+    country: bing?.data?.keywordResearch?.country || null,
+    language: bing?.data?.keywordResearch?.language || null,
+    rows: keywordExpansion
+  },
+  authorityOpportunities,
   opportunities,
   guardrails: {
     highRiskActionsAutoImplemented: false,
@@ -425,6 +505,20 @@ const lines = [
     ? `StripCash aggregate funnel connected: ${monetization.signups} signups · ${monetization.verifiedSignups} verified · ${monetization.purchases} purchases · ${monetization.totalEarnings} total earnings · ${monetization.modelReferralEarnings} model-referral earnings · ${monetization.webmasterReferralEarnings} affiliate-referral earnings. These aggregate values are not assigned to individual queries.`
     : 'StripCash aggregate funnel snapshot is unavailable.',
   '',
+  '## Keyword expansion from Bing',
+  '',
+  ...(keywordExpansion.length
+    ? keywordExpansion.slice(0, 15).map((row, index) =>
+        `${index + 1}. **${row.query}** — ${row.impressions} Bing keyword-research impressions signal; seed(s): ${row.seeds.join(', ')}.`
+      )
+    : ['No Bing related-keyword rows are available yet.']),
+  '',
+  '## Authority / backlink opportunities',
+  '',
+  ...authorityOpportunities.map((row) =>
+    `- **${row.site}** — ${row.observedInboundLinks} observed inbound links across ${row.linkedTargetPages} linked target page(s); ${row.recommendedAction}`
+  ),
+  '',
   '## Ranked evidence-backed opportunities',
   ''
 ];
@@ -440,4 +534,4 @@ if (!opportunities.length) {
 }
 
 await fs.writeFile(path.join(outDir, 'latest.md'), lines.join('\n') + '\n');
-console.log(`Opportunity report generated: ${opportunities.length} clustered candidates; dropped noise=${droppedNoiseQueries}; StripCash aggregate connected=${monetization.connected}.`);
+console.log(`Opportunity report generated: ${opportunities.length} clustered candidates; keyword expansion=${keywordExpansion.length}; authority sites=${authorityOpportunities.length}; dropped noise=${droppedNoiseQueries}; StripCash aggregate connected=${monetization.connected}.`);

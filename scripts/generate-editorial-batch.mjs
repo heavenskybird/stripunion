@@ -10,6 +10,7 @@ const artifactDir = 'ops/editorial/content-artifacts';
 const guideDir = 'src/data/guides';
 const ledgerDir = 'ops/editorial/publication-ledger/astro';
 const backlogPath = 'ops/editorial/hourly-backlog.json';
+const growthOpportunityPath = 'ops/growth/opportunities/latest.json';
 const batchManifestPath = '/tmp/stripunion-editorial-batch.json';
 
 if (!apiKey) throw new Error('OPENAI_API_KEY is required for autonomous editorial generation.');
@@ -85,6 +86,15 @@ async function loadExistingGuides() {
 
 async function readJson(file) {
   return JSON.parse(await fs.readFile(file, 'utf8'));
+}
+
+async function readJsonOptional(file) {
+  try {
+    return await readJson(file);
+  } catch (error) {
+    if (error?.code === 'ENOENT') return null;
+    throw error;
+  }
 }
 
 async function loadArtifacts() {
@@ -223,6 +233,7 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
 
 const existingGuides = await loadExistingGuides();
 const existingGuideSlugs = new Set(existingGuides.map((guide) => guide.slug));
+const growthIntelligence = await readJsonOptional(growthOpportunityPath);
 const allArtifacts = await loadArtifacts();
 const ledgerCounts = await loadLedgerCounts();
 const guideCounts = Object.fromEntries(categories.map((category) => [category.slug, 0]));
@@ -312,6 +323,32 @@ const existingTitleContext = existingGuides
   .slice(-180)
   .map((guide) => ({ slug: guide.slug, categorySlug: guide.categorySlug, title: guide.title }));
 
+const growthPlanningContext = {
+  observedSearchOpportunities: (growthIntelligence?.opportunities || []).slice(0, 12).map((row) => ({
+    targetKeyword: row.targetKeyword,
+    recommendedAction: row.recommendedAction,
+    contentState: row.ourEvidence?.contentState || null,
+    existingPage: row.ourEvidence?.page || null,
+    impressions: Number(row.ourEvidence?.impressions || 0),
+    bestPosition: row.ourEvidence?.bestPosition ?? null,
+    monetizationRoute: row.monetizationRoute || null,
+    risk: row.risk || null,
+    confidence: row.confidence || null
+  })),
+  keywordExpansion: (growthIntelligence?.keywordExpansion?.rows || []).slice(0, 20).map((row) => ({
+    query: row.query,
+    impressionsSignal: Number(row.impressions || 0),
+    seeds: row.seeds || []
+  })),
+  authorityState: (growthIntelligence?.authorityOpportunities || []).map((row) => ({
+    site: row.site,
+    status: row.status,
+    observedInboundLinks: Number(row.observedInboundLinks || 0),
+    linkedTargetPages: Number(row.linkedTargetPages || 0),
+    recommendedAction: row.recommendedAction
+  }))
+};
+
 const systemPrompt = [
   'You are the non-explicit editorial production worker for StripUnion.',
   'Create useful adult-industry decision-support content, not erotic content.',
@@ -369,6 +406,16 @@ if (generationCount > 0) {
         description: category.description,
         factors: category.factors
       })), null, 2),
+      '',
+      'Search and authority planning signals from the latest first-party Growth Brain:',
+      JSON.stringify(growthPlanningContext, null, 2),
+      '',
+      'How to use these signals:',
+      '- Use them only to choose a genuinely useful user job or framing inside the selected categories.',
+      '- Treat Bing keyword impressions as planning evidence, never as a factual claim to publish in the article.',
+      '- Do not create a new page when the signal explicitly says to refresh an existing page; avoid search cannibalization.',
+      '- Prefer gaps that complement existing pages and can earn natural citations through useful comparison/checklist/research structure.',
+      '- Monetization routes are routing hints only; do not invent partner facts, prices, payouts, popularity, rankings or performance.',
       '',
       'Existing published/current titles to avoid cannibalizing:',
       JSON.stringify(existingTitleContext, null, 2),
@@ -499,7 +546,13 @@ const manifest = {
   guideFiles: batchRows.map((row) => path.join(guideDir, row.data.slug + '.js')),
   categories: batchRows.map((row) => row.data.categorySlug),
   backlogIds: batchRows.map((row) => row.data.backlogId),
-  skippedCarryover: carryoverRejected
+  skippedCarryover: carryoverRejected,
+  growthIntelligence: {
+    loaded: Boolean(growthIntelligence),
+    observedSearchOpportunityCount: growthPlanningContext.observedSearchOpportunities.length,
+    keywordExpansionCount: growthPlanningContext.keywordExpansion.length,
+    authoritySiteCount: growthPlanningContext.authorityState.length
+  }
 };
 
 await fs.writeFile(batchManifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
@@ -511,5 +564,6 @@ console.log('EDITORIAL_BATCH_PLANNED ' + JSON.stringify({
   generatedCount: generatedRows.length,
   categories: manifest.categories,
   artifacts: manifest.backlogIds,
-  skippedCarryover: carryoverRejected
+  skippedCarryover: carryoverRejected,
+  growthIntelligence: manifest.growthIntelligence
 }));

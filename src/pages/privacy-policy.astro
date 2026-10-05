@@ -1,12 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<BaseLayout title="Privacy Policy" description="StripUnion privacy information covering site access, outbound partner links and future analytics.">
-  <section class="page-hero"><div class="shell narrow"><span class="kicker">Privacy</span><h1>Privacy Policy</h1><p class="lead">This policy describes the current code-based StripUnion site. It will be updated whenever new analytics, forms or account features are introduced.</p></div></section>
+<BaseLayout title="Privacy Policy" description="StripUnion privacy information covering site access, analytics, consent and outbound partner links.">
+  <section class="page-hero"><div class="shell narrow"><span class="kicker">Privacy</span><h1>Privacy Policy</h1><p class="lead">This policy describes how the current StripUnion site uses technical logs, privacy-aware analytics and outbound partner tracking.</p></div></section>
   <section class="section shell narrow article-body">
-    <h2>Site access</h2><p>StripUnion does not currently require a user account to read editorial pages. Hosting and network providers may process standard technical logs such as IP address, browser information and request timestamps for security and delivery purposes.</p>
-    <h2>Affiliate links</h2><p>When you follow an affiliate link, you leave StripUnion and the destination provider may process information under its own privacy policy. StripUnion does not control the destination provider's data practices.</p>
-    <h2>Analytics</h2><p>The codebase includes event hooks for future measurement of affiliate-button clicks. A third-party analytics service should not be enabled in production until its configuration and required disclosure or consent behavior are documented here.</p>
-    <h2>Contact forms and accounts</h2><p>The migrated site currently does not collect personal information through a StripUnion contact form or user account system.</p>
+    <h2>Site access</h2><p>StripUnion does not currently require a user account to read editorial pages. Hosting, CDN and network providers may process standard technical logs such as IP address, browser information, request URLs and timestamps for security, reliability and delivery purposes.</p>
+
+    <h2>Analytics and privacy choices</h2><p>On the production site, StripUnion uses Google Analytics 4 and Microsoft Clarity to understand aggregate traffic and how visitors use pages. Clarity can support interaction analytics such as clicks, scrolling, heatmaps and session recordings. These tools are used to improve navigation, content quality and conversion flows rather than to create a StripUnion user account.</p>
+    <p>Analytics storage is denied by default until you make a choice in the StripUnion privacy control. You can allow or reject analytics and reopen <strong>Privacy choices</strong> from the site footer later. Advertising storage remains denied by StripUnion's consent configuration. The browser stores the analytics preference locally so the site can remember your choice.</p>
+    <p>Where the WordPress Blog uses its own consent interface, the Blog passes the applicable consent state through its consent-management integration. Analytics providers may process technical and interaction data under their own privacy terms.</p>
+
+    <h2>Affiliate links and attribution</h2><p>When you follow an affiliate link, you leave StripUnion and the destination provider may process information under its own privacy policy. StripUnion does not control the destination provider's data practices.</p>
+    <p>For selected partner links, StripUnion records a first-party click event so later partner postbacks can be matched to the originating page and acquisition source. The event can include a generated pseudonymous click/member identifier, timestamp, page path, campaign/placement fields and destination metadata. StripUnion's public pages do not ask you to enter personal profile information for this attribution flow.</p>
+
+    <h2>Contact forms and accounts</h2><p>The current StripUnion site does not provide a StripUnion user account system or a public contact form that stores visitor profiles.</p>
   </section>
 </BaseLayout>

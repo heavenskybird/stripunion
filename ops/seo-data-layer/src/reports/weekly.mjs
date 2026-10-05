@@ -64,6 +64,13 @@ const bingQueries = bingSites.flatMap((site) => (site.queryStats || []).map((row
 const bingPages = bingSites.flatMap((site) => (site.pageStats || []).map((row) => ({ ...row, site: site.site })));
 const bingCrawl = bingSites.flatMap((site) => (site.crawlStats || []).map((row) => ({ ...row, site: site.site })));
 const bingErrors = bingSites.flatMap((site) => (site.crawlIssues || []).map((row) => ({ ...row, site: site.site })));
+const bingBacklinkPages = bingSites.flatMap((site) => (site.backlinkPages || []).map((row) => ({ ...row, site: site.site })));
+const bingBacklinkDetails = bingSites.flatMap((site) => (site.backlinkDetails || []).map((row) => ({ ...row, site: site.site })));
+const bingFeeds = bingSites.flatMap((site) => (site.feeds || []).map((row) => ({ ...row, site: site.site })));
+const bingKeywordResearch = bing?.data?.keywordResearch || null;
+const bingKeywordRows = (bingKeywordResearch?.bySeed || []).flatMap((seed) =>
+  (seed.related || []).map((row) => ({ ...row, seed: seed.seed }))
+);
 const sentPosts = buffer?.data?.sentPosts || [];
 const scheduledPosts = buffer?.data?.scheduledPosts || [];
 const stripcashMetrics = stripcash?.data?.metrics || {};
@@ -95,7 +102,15 @@ const gscHostSegmentationAvailable = Boolean(gsc && pageRows.length > 0 && pageR
 const gscSiteMetrics = (site) => ({ clicks: sum(gscSiteRows[site], 'clicks'), impressions: sum(gscSiteRows[site], 'impressions') });
 const bingSiteCoverage = ['stripunion.com', 'blog.stripunion.com'].map((hostname) => {
   const site = bingSites.find((item) => String(item.site || '').toLowerCase().replace(/^www\./, '') === hostname);
-  return { hostname, configured: Boolean(site), methods: site?.methodStatus || null };
+  return {
+    hostname,
+    configured: Boolean(site),
+    verified: site?.verified === true,
+    methods: site?.methodStatus || null,
+    feedState: site?.feedState || null,
+    backlinkPages: Array.isArray(site?.backlinkPages) ? site.backlinkPages.length : 0,
+    backlinkDetails: Array.isArray(site?.backlinkDetails) ? site.backlinkDetails.length : 0
+  };
 });
 
 const syntheticPromptPattern = /\bcontext\s*:|\bquestion\s*:|do not include|not for language|location\s*:/i;
@@ -107,7 +122,14 @@ const rankingOpportunities = cleanQueryRows.filter((row) => Number(row.position 
 const clusteredOpportunities = growthOpportunities?.opportunities || [];
 const bingZeroClickQueries = bingQueries.filter((row) => Number(row.Impressions || 0) > 0 && Number(row.Clicks || 0) === 0).slice(0, 10);
 const bingZeroClickPages = bingPages.filter((row) => Number(row.Impressions || 0) > 0 && Number(row.Clicks || 0) === 0).slice(0, 10);
-const bingCoverageSummary = bingSiteCoverage.map((site) => `- ${site.hostname}: ${site.configured ? `configured; methods ${Object.values(site.methods || {}).filter((status) => status === 'ok').length}/4 succeeded` : 'BLOG BING COVERAGE NOT VERIFIED'}${site.configured && !Object.values(site.methods || {}).every((status) => status === 'ok') ? `; status ${JSON.stringify(site.methods)}` : ''}`);
+const bingCoverageSummary = bingSiteCoverage.map((site) => {
+  const methodValues = Object.values(site.methods || {});
+  const methodTotal = methodValues.length;
+  const methodOk = methodValues.filter((status) => status === 'ok').length;
+  const feedLabel = site.feedState?.status ? `; sitemap ${site.feedState.status}` : '';
+  const backlinkLabel = `; backlink pages ${site.backlinkPages}, source rows ${site.backlinkDetails}`;
+  return `- ${site.hostname}: ${site.configured ? `configured; verified=${site.verified}; methods ${methodOk}/${methodTotal} succeeded` : 'BING SITE NOT CONFIGURED'}${feedLabel}${backlinkLabel}${site.configured && methodValues.some((status) => status !== 'ok') ? `; status ${JSON.stringify(site.methods)}` : ''}`;
+});
 const highPerformingPosts = sentPosts.map((post) => ({ ...post, _score: Number(post.metrics?.engagementRate || 0) || Number(post.metrics?.clicks || 0) + Number(post.metrics?.reactions || 0) + Number(post.metrics?.comments || 0) + Number(post.metrics?.reposts || 0) }))
   .filter((post) => post.metrics?.impressions != null || post.metrics?.clicks != null || post.metrics?.reactions != null)
   .sort((a, b) => b._score - a._score).slice(0, 10).map(({ _score, ...post }) => post);
@@ -128,6 +150,25 @@ const indexTotals = (snapshot) => (snapshot?.data?.sites || []).map((site) => {
 const currentIndex = indexTotals(bing);
 const previousIndex = new Map(indexTotals(previousBing).map((item) => [item.site, item.indexed]));
 const indexChanges = currentIndex.map((item) => ({ ...item, previousIndexed: previousIndex.get(item.site) ?? null, change: previousIndex.has(item.site) ? item.indexed - previousIndex.get(item.site) : null }));
+
+const backlinkTotals = (snapshot) => (snapshot?.data?.sites || []).map((site) => ({
+  site: site.site,
+  inboundLinks: (site.backlinkPages || []).reduce((total, row) => total + Number(row.Count || 0), 0),
+  linkedTargetPages: (site.backlinkPages || []).length,
+  inspectedSourceRows: (site.backlinkDetails || []).length
+}));
+const currentBacklinks = backlinkTotals(bing);
+const previousBacklinks = new Map(backlinkTotals(previousBing).map((item) => [item.site, item]));
+const backlinkChanges = currentBacklinks.map((item) => {
+  const previous = previousBacklinks.get(item.site);
+  return {
+    ...item,
+    previousInboundLinks: previous?.inboundLinks ?? null,
+    previousLinkedTargetPages: previous?.linkedTargetPages ?? null,
+    inboundLinkChange: previous ? item.inboundLinks - previous.inboundLinks : null,
+    linkedTargetPageChange: previous ? item.linkedTargetPages - previous.linkedTargetPages : null
+  };
+});
 const channelSessions = { organic: 0, social: 0, communityReferral: 0, paid: 0, unclassified: 0 };
 for (const row of landingRows) {
   const sourceMedium = String(row.sessionSourceMedium || '').toLowerCase();
@@ -162,7 +203,29 @@ const summary = {
     siteCoverage: bingSiteCoverage,
     highImpressionZeroClickQueries: bingZeroClickQueries, highImpressionZeroClickPages: bingZeroClickPages,
     crawlErrors: bingCrawl.map((row) => ({ site: row.site, date: row.Date, errors: Number(row.CrawlErrors || 0), http4xx: Number(row.Code4xx || 0), http5xx: Number(row.Code5xx || 0) })),
-    crawlIssues: bingErrors, indexChanges
+    crawlIssues: bingErrors,
+    indexChanges,
+    backlinks: {
+      targetPageCount: bingBacklinkPages.length,
+      observedInboundCount: sum(bingBacklinkPages, 'Count'),
+      sourceRowCount: bingBacklinkDetails.length,
+      topTargetPages: [...bingBacklinkPages].sort((a, b) => Number(b.Count || 0) - Number(a.Count || 0)).slice(0, 10),
+      topSourceRows: bingBacklinkDetails.slice(0, 20),
+      changes: backlinkChanges
+    },
+    feeds: bingFeeds,
+    keywordResearch: bingKeywordResearch ? {
+      country: bingKeywordResearch.country || null,
+      language: bingKeywordResearch.language || null,
+      seeds: bingKeywordResearch.seeds || [],
+      relatedKeywordRows: bingKeywordRows.length,
+      topRelated: [...bingKeywordRows]
+        .sort((a, b) =>
+          Number(b.BroadImpressions ?? b.Impressions ?? b.StrictImpressions ?? b.Count ?? 0) -
+          Number(a.BroadImpressions ?? a.Impressions ?? a.StrictImpressions ?? a.Count ?? 0)
+        )
+        .slice(0, 20)
+    } : null
   },
   ga4: {
     sessions: sum(landingRows, 'sessions'), engagedSessions: sum(landingRows, 'engagedSessions'),
@@ -264,12 +327,22 @@ const md = [
   ...(!ga4 ? ['- GA4 snapshot missing.'] : []), ...(!gsc ? ['- GSC snapshot missing.'] : []), ...(!bing ? ['- Bing snapshot missing.'] : []), ...(!stripcash ? ['- StripCash aggregate snapshot missing.'] : []),
   ...(ga4 && !gaHostSegmentationAvailable ? ['- GA4 hostname segmentation unavailable for legacy rows; rerun the GA4 collector to populate site totals.'] : []),
   ...(gsc && !gscHostSegmentationAvailable ? ['- GSC hostname segmentation unavailable: page data has no usable page rows. Daily GSC totals are still available for the domain property.'] : []),
-  ...bingSiteCoverage.filter((site) => !site.configured).map((site) => `- BLOG BING COVERAGE NOT VERIFIED: ${site.hostname} is not present in the latest configured/returned Bing sites. Add it to verified Bing Webmaster sites and BING_SITE_URLS.`),
+  ...bingSiteCoverage.filter((site) => !site.configured).map((site) => `- BING SITE NOT CONFIGURED: ${site.hostname} is not present in the latest configured/returned Bing sites.`),
+  ...bingSiteCoverage.filter((site) => site.configured && !site.verified).map((site) => `- BING SITE UNVERIFIED: ${site.hostname} is configured but Bing reports IsVerified=false.`),
+  ...bingSiteCoverage.filter((site) => site.configured && site.feedState && !['already_present', 'submitted'].includes(site.feedState.status)).map((site) => `- Bing sitemap state for ${site.hostname}: ${site.feedState.status}.`),
   ...bingSiteCoverage.filter((site) => site.configured && (!site.methods || Object.values(site.methods).some((status) => status !== 'ok'))).map((site) => `- Bing partial/error coverage for ${site.hostname}: ${JSON.stringify(site.methods)}.`), '',
   '## Search Detail', `- Combined GSC: **${gscClicks}** clicks · **${gscImpressions}** impressions · **${pct(summary.google.ctr)}** CTR.`,
   ...(ctrOpportunities.length ? ctrOpportunities.slice(0, 5).map((row) => `- Weak CTR: ${row.query} — ${row.impressions} impressions, ${pct(Number(row.ctr || 0))} CTR`) : []), '',
   '## Bing', `- Combined: **${summary.bing.clicks}** clicks · **${summary.bing.impressions}** impressions · ${bingErrors.length} crawl issue URLs.`,
   ...bingCoverageSummary,
+  `- Backlinks: ${summary.bing.backlinks.targetPageCount} linked target pages · ${summary.bing.backlinks.observedInboundCount} Bing-observed inbound links · ${summary.bing.backlinks.sourceRowCount} inspected referring-source rows.`,
+  ...summary.bing.backlinks.changes.map((row) => `- Backlink delta ${row.site}: ${row.inboundLinks} inbound links${row.inboundLinkChange == null ? ' (no previous comparable snapshot)' : ` (${row.inboundLinkChange >= 0 ? '+' : ''}${row.inboundLinkChange} vs previous)`} · ${row.linkedTargetPages} linked target pages${row.linkedTargetPageChange == null ? '' : ` (${row.linkedTargetPageChange >= 0 ? '+' : ''}${row.linkedTargetPageChange})`}.`),
+  ...(summary.bing.backlinks.topTargetPages.length
+    ? summary.bing.backlinks.topTargetPages.slice(0, 5).map((row) => `- Backlink target ${row.site}: ${row.Url} — ${row.Count || 0} inbound links`)
+    : ['- Backlink target data: no inbound-link rows returned yet.']),
+  ...(summary.bing.keywordResearch
+    ? [`- Keyword intelligence: ${summary.bing.keywordResearch.seeds.length} seed(s) · ${summary.bing.keywordResearch.relatedKeywordRows} related-keyword rows · locale ${summary.bing.keywordResearch.country}/${summary.bing.keywordResearch.language}.`]
+    : ['- Keyword intelligence: no snapshot available yet.']),
   ...Object.values(bingCrawl.reduce((latest, row) => {
     const date = String(row.Date || '');
     if (!latest[row.site] || date > String(latest[row.site].Date || '')) latest[row.site] = row;

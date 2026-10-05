@@ -284,3 +284,17 @@ code{overflow-wrap:anywhere}
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+/* Consent and privacy controls */
+.privacy-choice-link{appearance:none;border:0;background:transparent;color:#c7bccb;font:inherit;font-size:12px;padding:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.privacy-choice-link:hover,.privacy-choice-link:focus-visible{color:#fff}
+.consent-banner{position:fixed;z-index:120;left:50%;bottom:18px;transform:translateX(-50%);width:min(760px,calc(100% - 28px));display:flex;align-items:center;justify-content:space-between;gap:22px;padding:20px 22px;border:1px solid #ddd3e3;border-radius:20px;background:#fff;box-shadow:0 24px 70px rgba(24,13,31,.2)}
+.consent-banner[hidden]{display:none}
+.consent-banner-copy{max-width:480px}
+.consent-banner-copy strong{display:block;font-size:16px;margin-bottom:4px}
+.consent-banner-copy p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
+.consent-banner-actions{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.consent-banner-actions .button{min-height:42px;padding:9px 14px;font-size:13px}
+.consent-banner-actions a{font-size:12px;color:var(--accent)}
+@media(max-width:680px){.consent-banner{align-items:stretch;flex-direction:column}.consent-banner-actions{justify-content:stretch}.consent-banner-actions .button{flex:1 1 145px}}

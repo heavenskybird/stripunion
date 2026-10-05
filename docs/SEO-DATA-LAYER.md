@@ -266,7 +266,17 @@ Review-first should remain the default until enough successful posts establish s
 
 ### Bing Webmaster
 
-The collector uses Microsoft's JSON/HTTP endpoints at `https://ssl.bing.com/webmaster/api.svc/json/` with `BING_WEBMASTER_API_KEY` supplied only through the environment. Set `BING_SITE_URLS` to a comma-, semicolon-, or newline-separated list of verified site URLs. It collects `GetQueryStats`, `GetPageStats`, `GetCrawlStats`, and `GetCrawlIssues` independently per site, and writes partial results to `data/raw/<date>/bing.json`; a failing site does not discard another site's result. Crawl stats update daily; query and page stats are documented as weekly-updated. `InIndex` from crawl stats is the available index-count signal; changes are directional comparisons between collected snapshots, not a complete index inventory. Bing may delay removal of repaired crawl issues by several days and does not expose a Google-style URL Inspection equivalent through this collector. The legacy POX/SOAP APIs are deliberately not used.
+The collector uses Microsoft's JSON/HTTP endpoints at `https://ssl.bing.com/webmaster/api.svc/json/` with `BING_WEBMASTER_API_KEY` supplied only through the environment. Set `BING_SITE_URLS` to a comma-, semicolon-, or newline-separated list of the Main and Blog properties.
+
+Per configured site it now collects `GetQueryStats`, `GetPageStats`, `GetCrawlStats`, `GetCrawlIssues`, `GetFeeds`, `GetLinkCounts`, and `GetUrlLinks`. It also calls `GetUserSites` once per run to record the current verified/unverified state without persisting verification tokens or other credentials. Backlink target counts and a bounded sample of referring URLs/anchor text are persisted in the daily Bing snapshot; the weekly report calculates directional backlink deltas between comparable snapshots.
+
+The collector discovers the public sitemap for each StripUnion property. If the sitemap is missing from Bing's feed list and the property is verified, it submits the sitemap through `SubmitFeed` and re-reads the feed list. This is idempotent: already-present feeds are not resubmitted.
+
+Keyword intelligence is collected with `GetKeywordStats` and `GetRelatedKeywords`. Seeds come from optional `BING_KEYWORD_SEEDS`, top observed first-party Bing queries, and a small strategic fallback set. Optional locale variables are `BING_KEYWORD_COUNTRY` (default `US`) and `BING_KEYWORD_LANGUAGE` (default `en-US`). Keyword data is planning evidence for the Growth Brain; it must not be copied into public articles as unsupported search-volume claims.
+
+The snapshot is written to `data/raw/<date>/bing.json`; a failing site or optional method does not discard another source's valid data. Crawl stats update daily; query and page stats are documented as weekly-updated. `InIndex` from crawl stats is the available index-count signal; changes are directional comparisons between collected snapshots, not a complete index inventory. Bing may delay removal of repaired crawl issues by several days and does not expose a Google-style URL Inspection equivalent through this collector. The legacy POX/SOAP APIs are deliberately not used.
+
+`scripts/check-bing-intelligence.mjs` is the automated acceptance gate. A healthy production snapshot requires both `stripunion.com` and `blog.stripunion.com` to be present and verified, their sitemap/feed state to be accepted, all seven site methods to succeed, backlink arrays to be structurally present (zero links is valid), and at least one keyword seed to complete both keyword methods.
 
 ### Buffer performance
 

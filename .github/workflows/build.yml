@@ -31,6 +31,8 @@ jobs:
           node --check ops/growth/opportunities.mjs
           node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
+          node --check ops/seo-data-layer/src/collectors/bing.mjs
+          node --check ops/seo-data-layer/src/reports/weekly.mjs
           node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs --self-test
           node ops/seo-data-layer/src/distribution/telegram.mjs --self-test
           node ops/seo-data-layer/src/distribution/telegram-evergreen.mjs --self-test
@@ -43,6 +45,8 @@ jobs:
           npm --prefix ops/seo-data-layer test
           node --check scripts/two-site-main-health.mjs
           node --check scripts/check-ga4-artifact.mjs
+          node --check scripts/check-bing-intelligence.mjs
+          node scripts/check-bing-intelligence.mjs --self-test
           node --check scripts/public-health-oracle.mjs
           npm run check:editorial-backlog
           node --check scripts/compile-editorial-artifacts.mjs

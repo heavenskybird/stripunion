@@ -4,6 +4,7 @@ if (origin.protocol !== 'https:' || !['stripunion.com', 'www.stripunion.com'].in
 }
 const timeoutMs = 15_000;
 const maxBytes = 1_000_000;
+const expectedClarityId = (process.env.EXPECTED_CLARITY_PROJECT_ID || 'ysuowheiiz').toLowerCase();
 
 async function get(path) {
   const url = new URL(path, origin);
@@ -34,4 +35,7 @@ const [homepage, robots, sitemap] = await Promise.all([get('/'), get('/robots.tx
 verify(homepage.status === 200 && /StripUnion/i.test(homepage.body), 'main homepage returns 200 and identifies StripUnion');
 verify(robots.status === 200 && !/^\s*Disallow:\s*\/\s*$/im.test(robots.body), 'main robots.txt returns 200 and does not block the full site');
 verify(sitemap.status === 200 && /<loc>https:\/\/(?:www\.)?stripunion\.com\//i.test(sitemap.body), 'main sitemap returns 200 and contains StripUnion URLs');
+verify(homepage.body.toLowerCase().includes('clarity.ms/tag/') && homepage.body.toLowerCase().includes(expectedClarityId), 'main homepage exposes expected Microsoft Clarity tag');
+verify(homepage.body.includes("clarity('consentv2'") || homepage.body.includes("window.clarity('consentv2'"), 'main homepage wires Microsoft Clarity Consent API V2');
+verify(homepage.body.includes("analytics_storage") && homepage.body.includes("ad_storage"), 'main homepage wires analytics consent state');
 console.log('MAIN_PUBLIC_HEALTH PASS');
