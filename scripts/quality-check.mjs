@@ -24,7 +24,8 @@ const allowedExternalPrefixes = [
   'https://go.whitetrafsa.com',
   'https://stripcash.com',
   'https://stripunion-live-models.stripunion.workers.dev',
-  'https://www.googletagmanager.com'
+  'https://www.googletagmanager.com',
+  'https://www.clarity.ms'
 ];
 
 const files = [];
