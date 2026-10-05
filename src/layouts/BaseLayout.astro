@@ -335,6 +335,105 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
           return sanitize(`su_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 14)}`);
         };
 
+        const analyticsConsentGranted = () => {
+          try {
+            const stored = JSON.parse(localStorage.getItem('su_consent_v2') || 'null');
+            return stored?.analytics_storage === 'granted';
+          } catch {
+            return false;
+          }
+        };
+
+        const experimentSessionId = () => {
+          try {
+            let value = sessionStorage.getItem('su_experiment_session');
+            if (!value) {
+              value = typeof crypto?.randomUUID === 'function'
+                ? crypto.randomUUID().replace(/-/g, '')
+                : Date.now().toString(36) + Math.random().toString(36).slice(2, 14);
+              sessionStorage.setItem('su_experiment_session', value);
+            }
+            return value;
+          } catch {
+            return Date.now().toString(36) + Math.random().toString(36).slice(2, 14);
+          }
+        };
+
+        const activateExperiments = () => {
+          if (!analyticsConsentGranted()) return;
+
+          const links = [...document.querySelectorAll('a[data-experiment-id]')]
+            .filter((link) => link instanceof HTMLAnchorElement);
+          const experimentIds = [...new Set(links.map((link) => link.getAttribute('data-experiment-id')).filter(Boolean))];
+
+          for (const experimentId of experimentIds) {
+            const experimentLinks = links.filter((link) => link.getAttribute('data-experiment-id') === experimentId);
+            if (!experimentLinks.length) continue;
+
+            let variant = 'control';
+            try {
+              const key = 'su_exp_assign_' + sanitize(experimentId);
+              const stored = sessionStorage.getItem(key);
+              if (stored === 'control' || stored === 'treatment') {
+                variant = stored;
+              } else {
+                variant = Math.random() < 0.5 ? 'control' : 'treatment';
+                sessionStorage.setItem(key, variant);
+              }
+            } catch {
+              variant = Math.random() < 0.5 ? 'control' : 'treatment';
+            }
+
+            for (const link of experimentLinks) {
+              link.setAttribute('data-experiment-variant', variant);
+              const treatmentLabel = link.getAttribute('data-experiment-treatment-label');
+              if (variant === 'treatment' && treatmentLabel) link.textContent = treatmentLabel;
+            }
+
+            const seenKey = 'su_exp_seen_' + sanitize(experimentId) + '_' + variant + '_' + sanitize(window.location.pathname);
+            let seen = false;
+            try {
+              seen = sessionStorage.getItem(seenKey) === '1';
+              if (!seen) sessionStorage.setItem(seenKey, '1');
+            } catch {}
+
+            if (!seen) {
+              const firstLink = experimentLinks[0];
+              const exposure = {
+                experimentId,
+                variant,
+                exposureId: 'exp_' + experimentSessionId() + '_' + sanitize(experimentId) + '_' + sanitize(window.location.pathname),
+                occurredAt: Date.now(),
+                pagePath: window.location.pathname,
+                affiliateSource: firstLink.getAttribute('data-affiliate-source') || 'unknown'
+              };
+
+              try {
+                fetch('https://stripunion-live-models.stripunion.workers.dev/events/experiment', {
+                  method: 'POST',
+                  headers: { 'content-type': 'application/json' },
+                  body: JSON.stringify(exposure),
+                  keepalive: true,
+                  credentials: 'omit'
+                }).catch(() => {});
+              } catch {}
+
+              if (typeof window.gtag === 'function') {
+                window.gtag('event', 'experiment_impression', {
+                  experiment_id: experimentId,
+                  experiment_variant: variant,
+                  page_path: window.location.pathname
+                });
+              }
+            }
+          }
+        };
+
+        activateExperiments();
+        window.addEventListener('stripunion:consent', (event) => {
+          if (event?.detail?.analytics_storage === 'granted') activateExperiments();
+        });
+
         document.addEventListener('click', (event) => {
           const target = event.target;
           if (!(target instanceof Element)) return;
@@ -373,6 +472,8 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
             stripcash_p3: isAvcams ? (outbound.searchParams.get('p3') || 'unknown') : 'not_applicable',
             avcams_target_domain: isAvcams ? (outbound.searchParams.get('targetDomain') || 'avcams.online') : 'not_applicable',
             avcams_path: isAvcams ? (outbound.searchParams.get('path') || 'unknown') : 'not_applicable',
+            experiment_id: link.getAttribute('data-experiment-id') || 'not_applicable',
+            experiment_variant: link.getAttribute('data-experiment-variant') || 'not_applicable',
             outbound_url: link.href
           };
 
@@ -389,6 +490,8 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
               p1: analyticsPayload.stripcash_p1,
               p2: analyticsPayload.stripcash_p2,
               p3: analyticsPayload.stripcash_p3,
+              experimentId: analyticsPayload.experiment_id === 'not_applicable' ? null : analyticsPayload.experiment_id,
+              experimentVariant: analyticsPayload.experiment_variant === 'not_applicable' ? null : analyticsPayload.experiment_variant,
               targetDomain: analyticsPayload.avcams_target_domain,
               destinationPath: analyticsPayload.avcams_path
             };
