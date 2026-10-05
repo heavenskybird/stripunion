@@ -1,0 +1,141 @@
+export default {
+  "slug": "adult-shop-return-policy-before-ordering",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Return Policies: What to Check Before You Order",
+  "description": "Compare adult shop return policies before checkout. Learn what to verify about eligibility, hygiene rules, shipping costs, damaged goods and support.",
+  "excerpt": "Return rules can depend on product condition, packaging and the reason for a return. Check the policy before ordering so you know what to do if an item is unsuitable, damaged or incomplete.",
+  "publishedAt": "2026-10-05",
+  "updatedAt": "2026-10-05",
+  "keyTakeaways": [
+    "Read the return policy for the specific product category rather than assuming one rule covers every item.",
+    "Check time limits, condition requirements and who pays return shipping before completing an order.",
+    "Distinguish a change-of-mind return from a report about damage, missing parts or an incorrect item.",
+    "Save order confirmations and relevant policy details so you can refer to the same terms later.",
+    "Do not open or use a product if you may want to return it and the policy makes condition important.",
+    "Treat unclear return terms as a meaningful part of the retailer comparison."
+  ],
+  "sections": [
+    {
+      "heading": "Why return terms belong in the purchase decision",
+      "paragraphs": [
+        "A product page can explain features and dimensions, but it may not tell you what happens if the item arrives damaged, does not match its description or is simply not right for you. Return terms answer a different question: what options and responsibilities apply after delivery? Reviewing them before checkout can prevent a mismatch between your expectations and the retailer’s process.",
+        "Do not assume that all adult-shop products follow identical rules. Eligibility can depend on product type, condition, seals, packaging, accessories or the reason for contacting support. Policies may also distinguish between a customer changing their mind and a retailer needing to address an order problem. Read the applicable terms for the item you intend to buy, and ask for clarification if a central point is not explained."
+      ],
+      "bullets": [
+        "Find the return policy before adding a product to your basket.",
+        "Check whether the page has category-specific exceptions.",
+        "Note the policy’s stated deadline and how it is calculated.",
+        "Look for separate instructions for damaged, incorrect or incomplete orders."
+      ]
+    },
+    {
+      "heading": "Check eligibility, condition and packaging rules",
+      "paragraphs": [
+        "Condition requirements can be especially important for personal products. A policy may place limits on returns after a seal has been broken, packaging has been discarded or an item has been opened. That does not tell you what every retailer will accept; it is a reason to read the exact wording before deciding to purchase. If you are unsure about fit, compatibility or dimensions, use product information and support questions before opening anything.",
+        "Keep packaging and included components until you know the order is correct and you are comfortable keeping it. This is a practical recordkeeping step, not a guarantee that a return will be accepted. Avoid testing or altering a product when you may seek a change-of-mind return, and follow the seller’s stated instructions if you need help with a defect or delivery problem."
+      ],
+      "table": {
+        "caption": "Return-policy details to compare across retailers",
+        "headers": [
+          "Policy detail",
+          "Question to check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Eligible products",
+            "Are there product categories or conditions excluded?",
+            "Prevents assuming every item can be returned under the same terms."
+          ],
+          [
+            "Condition",
+            "Must the item remain unopened, sealed or complete?",
+            "Helps you decide what to retain and when to inspect an order."
+          ],
+          [
+            "Time limit",
+            "When does the return window begin, and how long is it?",
+            "Clarifies how quickly you must contact the retailer."
+          ],
+          [
+            "Return shipping",
+            "Who arranges and pays for sending an eligible return?",
+            "Makes the practical and financial steps clearer before checkout."
+          ],
+          [
+            "Order problem",
+            "Is there a separate process for damage, an incorrect item or missing parts?",
+            "Helps you report a fulfillment issue through the right channel."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate change-of-mind returns from order problems",
+      "paragraphs": [
+        "A change-of-mind request and a report about an order that arrived damaged or incomplete are not necessarily handled in the same way. A retailer may ask for different information or have different steps for each situation. When you contact support, describe the issue accurately and follow the process provided for that reason rather than choosing a return category that does not fit.",
+        "Inspect the parcel and product promptly after delivery, while keeping any relevant packaging. If something appears wrong, retain the order confirmation and make a concise record of what you received and what is missing or damaged. Contact the retailer through its stated support channel and avoid discarding materials until you know whether they are needed. These steps make it easier to explain the situation; they do not promise a particular resolution."
+      ],
+      "bullets": [
+        "Keep the order confirmation and delivery record.",
+        "Document the issue clearly without including unnecessary personal information.",
+        "Use the retailer’s stated process for damage, incorrect items or missing components.",
+        "Do not send a product back until the retailer explains the required procedure."
+      ]
+    },
+    {
+      "heading": "Compare shipping and support instructions",
+      "paragraphs": [
+        "A return policy is only useful if you can understand how to act on it. Check whether the retailer explains how to request authorization, where to find return instructions and what information support needs. Also look at delivery estimates and shipping terms before purchase; a return window that starts on a specified date is easier to manage when you understand the retailer’s delivery process.",
+        "Customer support should make the next step clear, even when the answer is that an item is not eligible. Look for a named contact route, an explanation of what to include in a request and a clear distinction between general questions and order issues. You do not need to share more personal information than the process requires. If important instructions are scattered or contradictory, count that against the shopping experience."
+      ]
+    },
+    {
+      "heading": "Read refund language without assuming an outcome",
+      "paragraphs": [
+        "A policy may describe a refund, exchange, store credit or another outcome, and the available route can depend on eligibility and the circumstances. Read the exact wording for how the retailer handles each case. Do not assume that a displayed product page, a payment record or a general return statement overrides the terms that apply to the order.",
+        "Also check whether return shipping, original shipping or other charges are addressed. The purpose is to understand the process, not to predict a result before the retailer reviews a request. If the policy leaves an important point unresolved, ask a specific question before ordering and keep the answer with your purchase records."
+      ],
+      "bullets": [
+        "Identify the stated outcome for eligible change-of-mind returns.",
+        "Check whether the policy addresses shipping costs or exchange options.",
+        "Save the policy page or a dated note of the relevant terms.",
+        "Ask support a direct question if the policy does not explain a decision that affects your order."
+      ]
+    },
+    {
+      "heading": "Use a pre-checkout policy checklist",
+      "paragraphs": [
+        "A short, repeatable checklist is often more useful than trying to remember every paragraph of a retailer’s terms. Apply it to the specific item and to the order as a whole. If you cannot answer one of the key questions, pause before payment rather than assuming the most convenient interpretation.",
+        "A retailer does not have to offer identical terms to another shop for you to compare them fairly. Focus on whether the rules are visible, understandable and workable for your situation. That makes return policy a practical selection factor alongside catalog fit, delivery information, pricing transparency and support."
+      ],
+      "bullets": [
+        "I found the return policy for this product category.",
+        "I understand the condition and packaging requirements.",
+        "I know the stated deadline and when it begins.",
+        "I know how the retailer handles damage, incorrect items or missing parts.",
+        "I understand the return-shipping instructions and stated refund or exchange process.",
+        "I know how to contact support before ordering if an important detail is unclear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume an unopened adult product can be returned?",
+      "answer": "No. Eligibility depends on the retailer’s terms and may vary by product category or other conditions. Check the specific policy before ordering, including any deadline, packaging requirements and exceptions. An unopened condition alone does not establish that a return will be accepted."
+    },
+    {
+      "question": "What should I do if an item arrives damaged or incomplete?",
+      "answer": "Keep the packaging and order information, make a clear record of what is wrong, and contact the retailer through its stated support channel. Follow the instructions for reporting an order problem, which may differ from a change-of-mind return. Do not ship the item back until you know the required process."
+    },
+    {
+      "question": "Should I open a product to check it before deciding whether to keep it?",
+      "answer": "First read the return terms. If eligibility depends on an intact seal, unopened packaging or product condition, opening it could affect your options. Use product details and ask support questions before opening the package if you are uncertain."
+    },
+    {
+      "question": "What if the return policy is vague about shipping or refunds?",
+      "answer": "Ask the retailer a specific question before placing the order and keep the response with your records. If you cannot get a clear answer about a point that matters to you, treat that uncertainty as part of the comparison and consider whether another retailer’s terms are easier to understand."
+    }
+  ]
+};
