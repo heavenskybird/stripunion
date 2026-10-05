@@ -151,6 +151,15 @@ jobs:
           fi
           npm run collect:attribution
 
+      - name: Diagnose Blog Site Kit analytics settings
+        id: sitekit_diagnostic
+        continue-on-error: true
+        env:
+          WP_SITE_URL: ${{ vars.WP_SITE_URL }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: node scripts/site-kit-analytics-diagnostic.mjs
+
       - name: Check two-site public health
         id: two_site_health
         continue-on-error: true
