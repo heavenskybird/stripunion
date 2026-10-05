@@ -261,5 +261,13 @@ jobs:
           echo "Failed to push publication ledger after retries." >&2
           exit 1
 
+      - name: Mirror canonical state to growth control plane
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CONTROL_PLANE_REQUIRED: 'false'
+        run: npm run sync:growth-control-plane
+
       - name: Report rolling production
         run: npm run report:editorial-production
