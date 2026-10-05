@@ -220,7 +220,10 @@ const summary = {
       seeds: bingKeywordResearch.seeds || [],
       relatedKeywordRows: bingKeywordRows.length,
       topRelated: [...bingKeywordRows]
-        .sort((a, b) => Number(b.Impressions || b.Impression || b.Count || 0) - Number(a.Impressions || a.Impression || a.Count || 0))
+        .sort((a, b) =>
+          Number(b.BroadImpressions ?? b.Impressions ?? b.StrictImpressions ?? b.Count ?? 0) -
+          Number(a.BroadImpressions ?? a.Impressions ?? a.StrictImpressions ?? a.Count ?? 0)
+        )
         .slice(0, 20)
     } : null
   },
