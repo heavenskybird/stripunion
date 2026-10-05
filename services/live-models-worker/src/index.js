@@ -405,10 +405,11 @@ export class AttributionStore {
 
   async alarm() {
     const cutoff = Date.now() - ATTRIBUTION_RETENTION_MS;
-    const [clicks, events, seen] = await Promise.all([
+    const [clicks, events, seen, exposures] = await Promise.all([
       this.state.storage.list({ prefix: 'click:' }),
       this.state.storage.list({ prefix: 'event:' }),
-      this.state.storage.list({ prefix: 'seen:' })
+      this.state.storage.list({ prefix: 'seen:' }),
+      this.state.storage.list({ prefix: 'exposure:' })
     ]);
 
     const deletes = [];
@@ -421,8 +422,11 @@ export class AttributionStore {
     for (const [key, value] of seen) {
       if (Number(value || 0) < cutoff) deletes.push(key);
     }
+    for (const [key, value] of exposures) {
+      if (Number(value || 0) < cutoff) deletes.push(key);
+    }
     if (deletes.length) await this.state.storage.delete(deletes);
-    if (clicks.size || events.size || seen.size) {
+    if (clicks.size || events.size || seen.size || exposures.size) {
       await this.state.storage.setAlarm(Date.now() + ATTRIBUTION_CLEANUP_INTERVAL_MS);
     }
   }
