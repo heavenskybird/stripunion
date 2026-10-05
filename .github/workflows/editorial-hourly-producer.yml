@@ -49,39 +49,85 @@ jobs:
       - name: Reconcile publication state
         run: node scripts/reconcile-editorial-backlog.mjs
 
-      - name: Generate five original provider-neutral artifacts
+      - name: Plan hourly batch and generate only the deficit
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/generate-editorial-batch.mjs
 
-      - name: Validate backlog and editorial artifacts
+      - name: Load isolated five-item batch manifest
+        id: batch
+        shell: bash
         run: |
-          npm run check:editorial-backlog
-          npm run check:editorial-artifacts
+          set -euo pipefail
+          test -f /tmp/stripunion-editorial-batch.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('/tmp/stripunion-editorial-batch.json', 'utf8'));
+          if (data.count !== 5 || data.artifactFiles?.length !== 5 || data.guideFiles?.length !== 5) {
+            throw new Error('Expected isolated five-item batch manifest.');
+          }
+          const out = process.env.GITHUB_OUTPUT;
+          fs.appendFileSync(out, [
+            'artifact_files<<EOF',
+            ...data.artifactFiles,
+            'EOF',
+            'guide_files<<EOF',
+            ...data.guideFiles,
+            'EOF',
+            'carryover_count=' + data.carryoverCount,
+            'generated_count=' + data.generatedCount,
+            ''
+          ].join('\n'));
+          console.log(JSON.stringify({
+            count: data.count,
+            carryoverCount: data.carryoverCount,
+            generatedCount: data.generatedCount,
+            categories: data.categories,
+            backlogIds: data.backlogIds,
+            skippedCarryover: data.skippedCarryover
+          }, null, 2));
+          NODE
 
-      - name: Compile artifacts to Astro guide modules
-        run: npm run compile:editorial-artifacts
+      - name: Validate backlog and only this hourly batch
+        env:
+          ARTIFACT_FILES: ${{ steps.batch.outputs.artifact_files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run check:editorial-backlog
+          mapfile -t files < <(printf '%s\n' "$ARTIFACT_FILES" | sed '/^$/d')
+          [[ "${#files[@]}" == "5" ]]
+          node scripts/compile-editorial-artifacts.mjs --check "${files[@]}"
+
+      - name: Compile only this hourly batch
+        env:
+          ARTIFACT_FILES: ${{ steps.batch.outputs.artifact_files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mapfile -t files < <(printf '%s\n' "$ARTIFACT_FILES" | sed '/^$/d')
+          [[ "${#files[@]}" == "5" ]]
+          node scripts/compile-editorial-artifacts.mjs "${files[@]}"
 
       - name: Reconcile compiled state
         run: node scripts/reconcile-editorial-backlog.mjs
 
-      - name: Discover this run's new guide modules
-        id: guides
+      - name: Verify exactly five selected guide modules exist
+        env:
+          GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
         shell: bash
         run: |
           set -euo pipefail
-          files="$(git status --porcelain --untracked-files=all -- src/data/guides | awk '$1 == "??" {print $2}')"
-          count="$(printf '%s\n' "$files" | sed '/^$/d' | wc -l | tr -d ' ')"
+          count=0
+          while IFS= read -r file; do
+            [[ -z "$file" ]] && continue
+            test -f "$file"
+            count=$((count + 1))
+          done <<< "$GUIDE_FILES"
           if [[ "$count" != "5" ]]; then
-            echo "Expected exactly 5 new guide modules; found $count" >&2
-            printf '%s\n' "$files" >&2
+            echo "Expected exactly 5 selected guide modules; found $count" >&2
             exit 1
           fi
-          {
-            echo 'files<<EOF'
-            echo "$files"
-            echo 'EOF'
-          } >> "$GITHUB_OUTPUT"
 
       - name: Run production quality gates
         run: |
@@ -111,9 +157,9 @@ jobs:
           cat /tmp/stripunion-hourly-preview.log
           exit 1
 
-      - name: Run visual QA on all five new guides
+      - name: Run visual QA on all five selected guides
         env:
-          GUIDE_FILES: ${{ steps.guides.outputs.files }}
+          GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
         shell: bash
         run: |
           set -euo pipefail
@@ -123,7 +169,10 @@ jobs:
           process.stdout.write(JSON.stringify(targets));
           NODE
           )"
-          VISUAL_BASE_URL=http://127.0.0.1:4321           VISUAL_TARGETS_JSON="$targets"           VISUAL_OUTPUT_DIR=artifacts/visual-qa-hourly           npm run test:visual
+          VISUAL_BASE_URL=http://127.0.0.1:4321 \
+          VISUAL_TARGETS_JSON="$targets" \
+          VISUAL_OUTPUT_DIR=artifacts/visual-qa-hourly \
+          npm run test:visual
 
       - name: Upload hourly visual evidence
         if: always()
@@ -155,7 +204,7 @@ jobs:
 
       - name: Wait for production and distribute all five guides
         env:
-          GUIDE_FILES: ${{ steps.guides.outputs.files }}
+          GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
