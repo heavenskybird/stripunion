@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": null,
-  "attributionDate": null,
+  "generatedAt": "2026-10-05T11:29:12.260Z",
+  "attributionDate": "2026-10-04",
   "policy": {
     "maxConcurrent": 1,
     "autoStartThresholdSessions": 100,
@@ -10,5 +10,41 @@
     "maxDays": 14,
     "primaryMetric": "affiliate_ctr"
   },
-  "experiments": []
+  "experiments": [
+    {
+      "experimentId": "cta-copy-a66f36ddd29f",
+      "status": "proposed",
+      "kind": "avcams_cta_copy",
+      "surface": "/",
+      "host": "stripunion.com",
+      "hypothesis": "A clearer action-oriented AVCams CTA can improve affiliate click-through without reducing editorial trust.",
+      "primaryMetric": "affiliate_ctr",
+      "allocation": {
+        "control": 0.5,
+        "treatment": 0.5
+      },
+      "variants": {
+        "control": {
+          "labelMode": "original"
+        },
+        "treatment": {
+          "label": "Explore live options →"
+        }
+      },
+      "guardrails": {
+        "minimumSessionsToStart": 100,
+        "minimumImpressionsPerVariant": 100,
+        "minimumDays": 7,
+        "maximumDays": 14,
+        "winnerZScore": 1.96,
+        "minimumAbsoluteRelativeLift": 0.1,
+        "maximumConcurrentExperiments": 1
+      },
+      "evidence": {
+        "sessions": 58,
+        "affiliateClicks": 0,
+        "affiliateCtr": 0
+      }
+    }
+  ]
 }

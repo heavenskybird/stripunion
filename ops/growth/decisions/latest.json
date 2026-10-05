@@ -1,0 +1,918 @@
+{
+  "version": 2,
+  "generatedAt": "2026-10-05T11:29:12.185Z",
+  "sourceGeneratedAt": "2026-10-05T11:29:12.097Z",
+  "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
+  "governor": {
+    "authorityMode": "shadow",
+    "publicationTargetPerHour": 5,
+    "publicationHardMaxPerHour": 5,
+    "minimumAcceptedPublicationsPerHour": 1,
+    "maxConcurrentExperiments": 1,
+    "minimumEditorialWords": 700,
+    "duplicateSimilarityBlockThreshold": 0.42,
+    "highRiskActionsAutoImplemented": false,
+    "fillerContentAllowed": false,
+    "qualityGateCanReduceOutput": true,
+    "rule": "Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."
+  },
+  "commercialState": {
+    "activeOfferIds": [
+      "avcams",
+      "stripchat",
+      "bongacams",
+      "stripcash-affiliate-referral"
+    ],
+    "aggregateMonetization": {
+      "connected": true,
+      "date": "2026-10-04",
+      "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
+      "signups": 0,
+      "verifiedSignups": 0,
+      "purchases": 0,
+      "totalEarnings": 0,
+      "modelReferralEarnings": 0,
+      "webmasterRegistrations": 0,
+      "webmasterReferralEarnings": 0,
+      "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
+    },
+    "attributionSource": "2026-10-04"
+  },
+  "portfolio": {
+    "safeCreateCount": 4,
+    "updateCount": 4,
+    "experimentCount": 1,
+    "totalDecisions": 12
+  },
+  "decisions": [
+    {
+      "id": "search:bing-6639357a6f6e652d7265",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "F95Zone review",
+      "surface": "/f95zone",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /f95zone landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 5,
+        "clicks": 0,
+        "bestPosition": 5,
+        "queryVariants": 5
+      },
+      "payload": {
+        "id": "bing-6639357a6f6e652d7265",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1781827200000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1781827200000)/",
+            "query": "world of dominion f95zone review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone make a review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          }
+        ],
+        "targetKeyword": "F95Zone review",
+        "recommendedAction": "refresh existing /f95zone landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/f95zone",
+          "contentState": "review",
+          "impressions": 5,
+          "clicks": 0,
+          "bestPosition": 5,
+          "queryVariants": 5
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 2
+      }
+    },
+    {
+      "id": "search:bing-6672656520706f726e20",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "free porn union sites",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-6672656520706f726e20",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "free porn union sites",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "free porn union sites",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 3,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 5
+      }
+    },
+    {
+      "id": "search:bing-7868616d737465722d72",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "xHamster review / site overview",
+      "surface": "/xhamster",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /xhamster landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 76,
+        "clicks": 0,
+        "bestPosition": 3,
+        "queryVariants": 38
+      },
+      "payload": {
+        "id": "bing-7868616d737465722d72",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1776384000000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1781222400000)/",
+            "query": "xhamsters review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1781222400000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1781827200000)/",
+            "query": "xhamster site review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1782432000000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1783036800000)/",
+            "query": "xhamster revieuw",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1783641600000)/",
+            "query": "xhamster  review",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1783641600000)/",
+            "query": "xhampster review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784246400000)/",
+            "query": "xhamster site overview",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784246400000)/",
+            "query": "adult industry update xhamster review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster site overview",
+            "impressions": 5,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster.com website review",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "https+thefapguide+com+review+xhamster",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster#N##N#review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1785456000000)/",
+            "query": "xhamster  review",
+            "impressions": 10,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1785456000000)/",
+            "query": "xhamster review 2026",
+            "impressions": 6,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1785456000000)/",
+            "query": "xhamster hosts a vast variety of",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "xhamster content quality videos features review 2025",
+            "impressions": 4,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "xhamster reviews",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "xhamster site overview",
+            "impressions": 5,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "xhamster latest features and site overview",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "xhamster porn site pros and cons",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "xhamster  review",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "should a person be leary about xhamster site?",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "xhamster#R##N#review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787875200000)/",
+            "query": "with the adult video platform xhamster.",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1788480000000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1788480000000)/",
+            "query": "xhasters reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1789084800000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1789689600000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1789689600000)/",
+            "query": "xhamster adult website overview",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1789689600000)/",
+            "query": "xhamter.com review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1790294400000)/",
+            "query": "xhamster.com site overview 2025 2026",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 3
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1790294400000)/",
+            "query": "xhamster reviewed",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1790899200000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "xHamster review / site overview",
+        "recommendedAction": "refresh existing /xhamster landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/xhamster",
+          "contentState": "review",
+          "impressions": 76,
+          "clicks": 0,
+          "bestPosition": 3,
+          "queryVariants": 38
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 1
+      }
+    },
+    {
+      "id": "search:gsc-7374726970636861742d",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Stripchat alternatives",
+      "surface": "/stripchat-alternatives",
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 9,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-7374726970636861742d",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-03",
+            "query": "stripchat alternative",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          }
+        ],
+        "targetKeyword": "Stripchat alternatives",
+        "recommendedAction": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "approved AVCams/StripCash intent",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/stripchat-alternatives",
+          "contentState": "page",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 9,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 4
+      }
+    },
+    {
+      "id": "cta:stripunion.com:/",
+      "kind": "conversion",
+      "action": "EXPERIMENT",
+      "priority": 96,
+      "eligible": true,
+      "subject": "stripunion.com/",
+      "surface": "/",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
+      "evidence": {
+        "sessions": 58,
+        "affiliateClicks": 0,
+        "affiliateCtr": 0,
+        "engagementRate": 0.27586206896551724
+      },
+      "payload": {
+        "host": "stripunion.com",
+        "page": "/",
+        "sessions": 58,
+        "engagedSessions": 16,
+        "affiliateClicks": 0,
+        "affiliateCtr": 0,
+        "engagementRate": 0.27586206896551724,
+        "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
+        "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
+      }
+    },
+    {
+      "id": "search:gsc-6164756c7420706c6174",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 94,
+      "eligible": true,
+      "subject": "adult platform",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 4,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-6164756c7420706c6174",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-03",
+            "query": "adult platform",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          }
+        ],
+        "targetKeyword": "adult platform",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 4,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 7
+      }
+    },
+    {
+      "id": "search:gsc-737472697078756174",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 91,
+      "eligible": true,
+      "subject": "stripxuat",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-737472697078756174",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-03",
+            "query": "stripxuat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "stripxuat",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 8
+      }
+    },
+    {
+      "id": "search:bing-70696e6b636865727279",
+      "kind": "search",
+      "action": "MIGRATE",
+      "priority": 89,
+      "eligible": true,
+      "subject": "PinkCherry review",
+      "surface": "/pinkcherry",
+      "monetizationRoute": null,
+      "risk": "medium",
+      "confidence": "low",
+      "rationale": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 6,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-70696e6b636865727279",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1780012800000)/",
+            "query": "pinkcherry toys company website",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "PinkCherry review",
+        "recommendedAction": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/pinkcherry",
+          "contentState": "pending",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 6,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "medium",
+        "experimentWindow": "14 days",
+        "rank": 6
+      }
+    },
+    {
+      "id": "search:gsc-6164756c742073747269",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 88,
+      "eligible": true,
+      "subject": "adult strip cam",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-6164756c742073747269",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-03",
+            "query": "adult strip cam",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "adult strip cam",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 9
+      }
+    },
+    {
+      "id": "search:bing-72657669657720667265",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 84,
+      "eligible": false,
+      "subject": "review free pornohamster.com",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 12,
+        "clicks": 0,
+        "bestPosition": 6,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-72657669657720667265",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1788480000000)/",
+            "query": "review free pornohamster.com",
+            "impressions": 12,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "review free pornohamster.com",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 12,
+          "clicks": 0,
+          "bestPosition": 6,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 3
+      }
+    },
+    {
+      "id": "authority:blog.stripunion.com",
+      "kind": "authority",
+      "action": "BUILD_AUTHORITY",
+      "priority": 62,
+      "eligible": true,
+      "subject": "blog.stripunion.com",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "medium",
+      "rationale": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.",
+      "evidence": {
+        "observedInboundLinks": 0,
+        "linkedTargetPages": 0
+      },
+      "payload": {
+        "site": "blog.stripunion.com",
+        "status": "authority_gap",
+        "observedInboundLinks": 0,
+        "linkedTargetPages": 0,
+        "referringSourceRows": 0,
+        "topTargets": [],
+        "recommendedAction": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam."
+      }
+    },
+    {
+      "id": "authority:stripunion.com",
+      "kind": "authority",
+      "action": "BUILD_AUTHORITY",
+      "priority": 62,
+      "eligible": true,
+      "subject": "stripunion.com",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "medium",
+      "rationale": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.",
+      "evidence": {
+        "observedInboundLinks": 0,
+        "linkedTargetPages": 0
+      },
+      "payload": {
+        "site": "stripunion.com",
+        "status": "authority_gap",
+        "observedInboundLinks": 0,
+        "linkedTargetPages": 0,
+        "referringSourceRows": 0,
+        "topTargets": [],
+        "recommendedAction": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam."
+      }
+    }
+  ]
+}
