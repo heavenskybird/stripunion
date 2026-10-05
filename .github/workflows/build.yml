@@ -64,6 +64,11 @@ jobs:
           node --check ops/control-plane/client.mjs
           node --check scripts/sync-growth-control-plane.mjs
           node scripts/sync-growth-control-plane.mjs --self-test
+          node --check scripts/control-plane-readiness.mjs
+          node scripts/control-plane-readiness.mjs --self-test
+          node --check scripts/claim-editorial-batch.mjs
+          node --check scripts/sync-visual-checks.mjs
+          node --check scripts/record-control-plane-dead-letter.mjs
           node --check scripts/record-astro-publication.mjs
           npm run check:editorial-artifacts
           node --check scripts/editorial-production-count.mjs

@@ -209,7 +209,11 @@ if (process.argv.includes('--self-test')) {
   process.exit(0);
 }
 
+const mode = await readJson('ops/control-plane/mode.json', { mode: 'shadow' });
+const authoritative = mode.mode === 'authoritative';
 const config = controlPlaneConfig();
+const mustSucceed = config.required || authoritative;
+
 if (!config.configured) {
   const missing = [
     !config.url ? 'SUPABASE_URL' : null,
@@ -217,8 +221,8 @@ if (!config.configured) {
   ].filter(Boolean);
 
   const message = 'Growth control plane is not configured; missing ' + missing.join(', ') + '.';
-  if (config.required) throw new Error(message);
-  console.log('GROWTH_CONTROL_PLANE_SKIP ' + JSON.stringify({ configured: false, missing }));
+  if (mustSucceed) throw new Error(message);
+  console.log('GROWTH_CONTROL_PLANE_SKIP ' + JSON.stringify({ configured: false, missing, mode: mode.mode || 'shadow' }));
   process.exit(0);
 }
 
@@ -273,5 +277,6 @@ try {
     }], 'id');
   } catch {}
 
-  throw error;
+  if (mustSucceed) throw error;
+  console.warn('GROWTH_CONTROL_PLANE_WARN ' + (error instanceof Error ? error.message : String(error)));
 }

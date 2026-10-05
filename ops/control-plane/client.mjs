@@ -51,3 +51,28 @@ export async function upsertRows(config, table, rows, onConflict, chunkSize = 10
     await request(config, table, rows.slice(index, index + chunkSize), onConflict);
   }
 }
+
+
+export async function selectRows(config, table, query = '') {
+  assertTable(table);
+  if (!config?.configured) throw new Error('Control plane is not configured.');
+
+  const suffix = query ? (query.startsWith('?') ? query : '?' + query) : '';
+  const response = await fetch(config.url + '/rest/v1/' + table + suffix, {
+    method: 'GET',
+    headers: {
+      apikey: config.secretKey,
+      ...(config.secretKey.startsWith('sb_secret_') ? {} : { Authorization: 'Bearer ' + config.secretKey }),
+      Accept: 'application/json'
+    }
+  });
+
+  if (!response.ok) {
+    const body = (await response.text()).slice(0, 800);
+    throw new Error('Control-plane read failed for ' + table + ': HTTP ' + response.status + ' ' + body);
+  }
+
+  const payload = await response.json();
+  if (!Array.isArray(payload)) throw new Error('Control-plane read returned a non-array payload for ' + table + '.');
+  return payload;
+}

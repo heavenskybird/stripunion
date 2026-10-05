@@ -31,7 +31,7 @@ The schema in `ops/control-plane/schema.sql` creates:
 - `visual_checks`
 - `dead_letters`
 
-The first sync writes only the first five. The remaining tables establish the next migration boundary for measurement, experiments, visual QA history and failed jobs.
+The Control Plane now writes all of these operational layers: repository state, normalized observations, experiment state, visual QA history and dead-letter audit records.
 
 Row Level Security is enabled with no anonymous policies. GitHub Actions uses a service-role credential server-side only.
 
@@ -56,7 +56,7 @@ SUPABASE_SERVICE_ROLE_KEY
 
 the sync prints a structured skip and exits successfully.
 
-Set `CONTROL_PLANE_REQUIRED=true` only after the shadow database has remained healthy and reconciled. Until then, a database problem must not stop content production.
+`ops/control-plane/mode.json` controls authority. In `shadow` mode, sync/read failures remain non-blocking for publishing. After automatic promotion to `authoritative`, Control Plane reads and writes become required and failures stop the producer rather than allowing stale queue state.
 
 ## Migration gates
 
@@ -68,13 +68,14 @@ Do not promote PostgreSQL to operational authority until all are true:
 4. opportunity and offer mirrors show no destructive overwrite or missing rows;
 5. credentials remain server-side and RLS remains enabled.
 
-After those gates pass, migrate in this order:
+The repository now implements these layers before promotion:
+1. batch claim/lease checkpoint in `content_jobs`;
+2. retry audit through `dead_letters`;
+3. visual-QA persistence;
+4. experiment state and attribution observations;
+5. opportunity and publication mirrors;
+6. an hourly readiness evaluator.
 
-1. job claim / lease state;
-2. retries and dead letters;
-3. visual-QA history;
-4. experiment state;
-5. opportunity lifecycle;
-6. publication state.
+`.github/workflows/control-plane-authority-promotion.yml` evaluates the gate automatically. Once 24 distinct producer cycles pass with no failed runs, no >110-minute gap and no repository IDs missing from the database, it changes `mode.json` from `shadow` to `authoritative` and commits that promotion to `main`.
 
 Git should continue to store code, content artifacts and durable reports, not real-time locks or leases.

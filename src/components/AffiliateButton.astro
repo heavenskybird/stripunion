@@ -2,6 +2,7 @@
 import { AFFILIATE_REL, AVCAMS, STRIPCASH_SOURCE_ID } from '../config/site.js';
 import { buildAvcamsUrl } from '../lib/affiliate.js';
 import activeExperiments from '../../ops/growth/experiments/active.json';
+import experimentRollouts from '../../ops/growth/experiments/rollouts.json';
 
 const {
   source,
@@ -23,6 +24,14 @@ const experiment = (activeExperiments?.experiments || []).find((item) =>
   (String(item.surface || '').replace(/\/$/, '') || '/') === normalizedPath
 ) || null;
 const treatmentLabel = experiment?.variants?.treatment?.label || null;
+const rollout = (experimentRollouts?.experiments || []).find((item) =>
+  item?.kind === 'avcams_cta_copy' &&
+  (String(item.surface || '').replace(/\/$/, '') || '/') === normalizedPath
+) || null;
+const rolloutLabel = rollout?.winner === 'treatment'
+  ? rollout?.variants?.treatment?.label || null
+  : null;
+const effectiveLabel = rolloutLabel || label;
 ---
 <span class="affiliate-cta">
   <a
@@ -42,6 +51,6 @@ const treatmentLabel = experiment?.variants?.treatment?.label || null;
     data-experiment-id={experiment?.experimentId || undefined}
     data-experiment-treatment-label={treatmentLabel || undefined}
   >
-    {label}
+    {effectiveLabel}
   </a>
 </span>
