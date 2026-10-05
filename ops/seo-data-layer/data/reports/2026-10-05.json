@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T09:38:26.494Z",
+  "generatedAt": "2026-10-05T11:27:21.387Z",
   "sourceDates": {
     "gsc": "2026-10-03",
     "ga4": "2026-10-04",
@@ -182,21 +182,21 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 8,
-        "Clicks": 0,
-        "Date": "/Date(1781222400000)/",
-        "Impressions": 1,
-        "Query": "xhamster reviews",
-        "site": "stripunion.com"
-      },
-      {
-        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-        "AvgClickPosition": -1,
         "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781222400000)/",
         "Impressions": 1,
         "Query": "xhamsters review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 1,
+        "Query": "xhamster reviews",
         "site": "stripunion.com"
       },
       {
@@ -216,7 +216,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -226,7 +226,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -1707,13 +1707,6 @@
           "BroadImpressions": 27314511,
           "Impressions": 8663735,
           "Query": "porn",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 27314511,
-          "Impressions": 8663735,
-          "Query": "porn",
           "seed": "xhamster site overview"
         },
         {
@@ -1753,6 +1746,13 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 351489,
+          "Impressions": 23675,
+          "Query": "hamster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 332207,
           "Impressions": 320138,
           "Query": "freeporn",
@@ -1777,13 +1777,6 @@
           "BroadImpressions": 214760,
           "Impressions": 206075,
           "Query": "xhamster.com",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 214760,
-          "Impressions": 206075,
-          "Query": "xhamster.com",
           "seed": "xhamster site overview"
         },
         {
@@ -1795,10 +1788,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 204401,
-          "Impressions": 201433,
-          "Query": "chaterbate",
-          "seed": "chaturbate alternatives"
+          "BroadImpressions": 98970,
+          "Impressions": 83899,
+          "Query": "x hamster",
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1823,10 +1816,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 83458,
-          "Impressions": 4391,
-          "Query": "affiliate",
-          "seed": "adult affiliate program"
+          "BroadImpressions": 64584,
+          "Impressions": 61995,
+          "Query": "xham",
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1840,6 +1833,13 @@
           "BroadImpressions": 63591,
           "Impressions": 61401,
           "Query": "chaturbate.com",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 50668,
+          "Impressions": 49685,
+          "Query": "chatterbate",
           "seed": "chaturbate alternatives"
         }
       ]
@@ -1941,7 +1941,7 @@
       "EngagementTime"
     ],
     "metricGroups": 9,
-    "informationRows": 4
+    "informationRows": 42
   },
   "buffer": {
     "channel": {
@@ -1949,8 +1949,8 @@
       "name": "stripunion51860",
       "service": "twitter"
     },
-    "sentPostCount": 39,
-    "scheduledPostCount": 6,
+    "sentPostCount": 41,
+    "scheduledPostCount": 9,
     "impressions": 74,
     "clicks": 4,
     "engagement": {
@@ -1959,7 +1959,7 @@
       "reposts": 0,
       "reach": 0
     },
-    "metricsUpdatedAt": "2026-10-05T06:40:10.202Z",
+    "metricsUpdatedAt": "2026-10-05T11:26:20.425Z",
     "highestPerformingPosts": [
       {
         "id": "6ab78d163afb9171a82bdd43",
@@ -2064,7 +2064,7 @@
         }
       },
       {
-        "id": "6ac26f2b365aeab50be80f0c",
+        "id": "6ac31c1b69a169193a58d745",
         "sentAt": null,
         "metrics": {
           "impressions": 0,

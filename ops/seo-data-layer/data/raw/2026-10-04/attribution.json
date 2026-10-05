@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-10-05T09:36:35.930Z",
+  "collectedAt": "2026-10-05T11:27:18.552Z",
   "receiverConnected": true,
   "postbackJoinReady": true,
   "reportScope": "first-party AVCams click/postback attribution",
@@ -42,5 +42,6 @@
       "revenueByCurrency": {}
     }
   },
+  "byExperiment": {},
   "updatedAt": "2026-10-05T06:24:45.204Z"
 }

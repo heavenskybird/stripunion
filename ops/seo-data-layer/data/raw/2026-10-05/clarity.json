@@ -1,6 +1,6 @@
 {
   "source": "microsoft-clarity-data-export",
-  "collectedAt": "2026-10-05T09:36:20.575Z",
+  "collectedAt": "2026-10-05T11:27:01.566Z",
   "projectId": "ysuowheiiz",
   "numOfDays": 3,
   "dimension1": "URL",
@@ -18,41 +18,297 @@
   "metrics": [
     {
       "metricName": "DeadClickCount",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "ExcessiveScroll",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "RageClickCount",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "QuickbackClick",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "ScriptErrorCount",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "ErrorClickCount",
-      "information": []
+      "information": [
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     },
     {
       "metricName": "ScrollDepth",
-      "information": []
+      "information": [
+        {
+          "averageScrollDepth": 61.67,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "averageScrollDepth": 41.5,
+          "Url": "https://stripunion.com/avcams/"
+        }
+      ]
     },
     {
       "metricName": "Traffic",
       "information": [
         {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 17,
+          "distinctUserCount": 20,
+          "pagesPerSessionPercentage": 1.05,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 14,
+          "pagesPerSessionPercentage": 1,
+          "Url": "http://127.0.0.1:4321/guides/hentai-anime-library-discovery-workflow"
+        },
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 14,
+          "pagesPerSessionPercentage": 1,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-storefront-update-cadence-checklist"
+        },
+        {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 14,
+          "pagesPerSessionPercentage": 1,
+          "Url": "http://127.0.0.1:4321/guides/adult-affiliate-traffic-permission-preflight"
+        },
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        },
+        {
           "totalSessionCount": 0,
           "totalBotSessionCount": 13,
           "distinctUserCount": 13,
           "pagesPerSessionPercentage": 1,
-          "Url": "https://stripunion.com/"
+          "Url": "http://127.0.0.1:4321/guides/live-cam-first-visit-privacy-checklist"
         },
         {
           "totalSessionCount": 0,
@@ -63,10 +319,17 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 12,
-          "distinctUserCount": 12,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 13,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 14,
+          "pagesPerSessionPercentage": 1,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-subscription-renewal-audit"
         },
         {
           "totalSessionCount": 0,
@@ -79,7 +342,28 @@
     },
     {
       "metricName": "EngagementTime",
-      "information": []
+      "information": [
+        {
+          "totalTime": 409,
+          "activeTime": 24,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalTime": 17,
+          "activeTime": 17,
+          "Url": "https://blog.stripunion.com/wp-admin/remote"
+        },
+        {
+          "totalTime": 50,
+          "activeTime": 27,
+          "Url": "https://stripunion.com/avcams/"
+        },
+        {
+          "totalTime": 32,
+          "activeTime": 32,
+          "Url": "https://blog.stripunion.com/?complianz_scan_token=22269df3dc&complianz_id=home"
+        }
+      ]
     }
   ]
 }
