@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:41:34.800Z",
+  "generatedAt": "2026-10-05T07:48:11.741Z",
   "sourceDates": {
     "gsc": "2026-10-03",
     "ga4": "2026-10-02",
@@ -147,9 +147,9 @@
           "GetUrlLinks": "ok"
         },
         "feedState": {
-          "status": "submitted",
+          "status": "already_present",
           "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
-          "submitted": true,
+          "submitted": false,
           "error": null
         },
         "backlinkPages": 0,
@@ -1675,18 +1675,18 @@
       {
         "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
         "Compressed": false,
-        "FileSize": 0,
-        "LastCrawled": "/Date(-11644473600000)/",
-        "Status": "Pending",
+        "FileSize": 1523,
+        "LastCrawled": "/Date(1791185960000)/",
+        "Status": "Success",
         "Submitted": "/Date(1791185960538)/",
-        "Type": "",
+        "Type": "Sitemap Index",
         "Url": "https://blog.stripunion.com/sitemap_index.xml",
-        "UrlCount": 0,
+        "UrlCount": 5,
         "site": "blog.stripunion.com"
       }
     ],
     "keywordResearch": {
-      "country": "US",
+      "country": "us",
       "language": "en-US",
       "seeds": [
         "xhamster review",
@@ -1698,8 +1698,149 @@
         "chaturbate alternatives",
         "adult affiliate program"
       ],
-      "relatedKeywordRows": 0,
-      "topRelated": []
+      "relatedKeywordRows": 307,
+      "topRelated": [
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 27314511,
+          "Impressions": 8663735,
+          "Query": "porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 27314511,
+          "Impressions": 8663735,
+          "Query": "porn",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 3280198,
+          "Impressions": 3056863,
+          "Query": "xhamster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2268204,
+          "Impressions": 1741993,
+          "Query": "free porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2268204,
+          "Impressions": 1741993,
+          "Query": "free porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2268204,
+          "Impressions": 1741993,
+          "Query": "free porn",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 628552,
+          "Impressions": 220666,
+          "Query": "porn videos",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 332207,
+          "Impressions": 320138,
+          "Query": "freeporn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 245685,
+          "Impressions": 245434,
+          "Query": "xhampster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 214760,
+          "Impressions": 206075,
+          "Query": "xhamster.com",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 214760,
+          "Impressions": 206075,
+          "Query": "xhamster.com",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 214760,
+          "Impressions": 206075,
+          "Query": "xhamster.com",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 204401,
+          "Impressions": 201433,
+          "Query": "chaterbate",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 98970,
+          "Impressions": 83899,
+          "Query": "x hamster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 98970,
+          "Impressions": 83899,
+          "Query": "x hamster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 91263,
+          "Impressions": 79690,
+          "Query": "hamster porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 91263,
+          "Impressions": 79690,
+          "Query": "hamster porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 83458,
+          "Impressions": 4391,
+          "Query": "affiliate",
+          "seed": "adult affiliate program"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 64584,
+          "Impressions": 61995,
+          "Query": "xham",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 63591,
+          "Impressions": 61401,
+          "Query": "chaturbate.com",
+          "seed": "chaturbate alternatives"
+        }
+      ]
     }
   },
   "ga4": {
