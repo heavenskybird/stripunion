@@ -1,0 +1,71 @@
+name: Control plane authority promotion
+
+on:
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: control-plane-authority-promotion
+  cancel-in-progress: false
+
+jobs:
+  evaluate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout canonical main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate readiness evaluator
+        run: node scripts/control-plane-readiness.mjs --self-test
+
+      - name: Evaluate shadow acceptance and promote when ready
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          AUTO_PROMOTE: 'true'
+        run: node scripts/control-plane-readiness.mjs
+
+      - name: Persist authority promotion
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- ops/control-plane/mode.json; then
+            echo "Control Plane remains in current mode; no promotion commit needed."
+            exit 0
+          fi
+
+          node scripts/reconcile-editorial-backlog.mjs >/tmp/reconcile-check.txt || {
+            cat /tmp/reconcile-check.txt
+            exit 1
+          }
+
+          git config user.name "stripunion-control-plane"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/control-plane/mode.json
+          git commit -m "ops: promote growth control plane authority [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+
+          echo "Failed to persist Control Plane authority promotion after retries." >&2
+          exit 1
