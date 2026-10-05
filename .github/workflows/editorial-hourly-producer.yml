@@ -1,0 +1,216 @@
+name: Editorial hourly producer
+
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: editorial-hourly-producer
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      EDITORIAL_BATCH_SIZE: '5'
+      EDITORIAL_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-6-luna' }}
+
+    steps:
+      - name: Checkout canonical main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Verify producer credential
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${OPENAI_API_KEY:-}" ]]; then
+            echo "::error::OPENAI_API_KEY is not configured. Add it under Settings > Secrets and variables > Actions > Repository secrets."
+            exit 1
+          fi
+
+      - name: Reconcile publication state
+        run: node scripts/reconcile-editorial-backlog.mjs
+
+      - name: Generate five original provider-neutral artifacts
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/generate-editorial-batch.mjs
+
+      - name: Validate backlog and editorial artifacts
+        run: |
+          npm run check:editorial-backlog
+          npm run check:editorial-artifacts
+
+      - name: Compile artifacts to Astro guide modules
+        run: npm run compile:editorial-artifacts
+
+      - name: Reconcile compiled state
+        run: node scripts/reconcile-editorial-backlog.mjs
+
+      - name: Discover this run's new guide modules
+        id: guides
+        shell: bash
+        run: |
+          set -euo pipefail
+          files="$(git status --porcelain --untracked-files=all -- src/data/guides | awk '$1 == "??" {print $2}')"
+          count="$(printf '%s\n' "$files" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [[ "$count" != "5" ]]; then
+            echo "Expected exactly 5 new guide modules; found $count" >&2
+            printf '%s\n' "$files" >&2
+            exit 1
+          fi
+          {
+            echo 'files<<EOF'
+            echo "$files"
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Run production quality gates
+        run: |
+          node --check scripts/generate-editorial-batch.mjs
+          node --check scripts/reconcile-editorial-backlog.mjs
+          npm run check
+          PUBLIC_ALLOW_INDEXING=false npm run build
+          node scripts/check-staging-robots-artifact.mjs
+          PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 npm run build
+          PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 npm run check:prod-seo
+          PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 node scripts/check-ga4-artifact.mjs
+
+      - name: Install Chromium for visual QA
+        run: npx playwright install --with-deps chromium
+
+      - name: Start local production preview
+        shell: bash
+        run: |
+          set -euo pipefail
+          nohup npx astro preview --host 0.0.0.0 --port 4321 > /tmp/stripunion-hourly-preview.log 2>&1 &
+          for attempt in {1..45}; do
+            if curl -fsS http://127.0.0.1:4321/ >/dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/stripunion-hourly-preview.log
+          exit 1
+
+      - name: Run visual QA on all five new guides
+        env:
+          GUIDE_FILES: ${{ steps.guides.outputs.files }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          targets="$(node - <<'NODE'
+          const files = String(process.env.GUIDE_FILES || '').split(/\r?\n/).filter(Boolean);
+          const targets = files.map((file) => '/guides/' + file.split('/').pop().replace(/\.js$/, ''));
+          process.stdout.write(JSON.stringify(targets));
+          NODE
+          )"
+          VISUAL_BASE_URL=http://127.0.0.1:4321           VISUAL_TARGETS_JSON="$targets"           VISUAL_OUTPUT_DIR=artifacts/visual-qa-hourly           npm run test:visual
+
+      - name: Upload hourly visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-hourly-visual-qa
+          path: artifacts/visual-qa-hourly
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Commit validated batch directly to canonical main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "stripunion-content-factory"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/editorial/content-artifacts ops/editorial/hourly-backlog.json src/data/guides
+          git commit -m "content: publish autonomous hourly editorial batch [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+
+          echo "Failed to push validated hourly editorial batch after retries." >&2
+          exit 1
+
+      - name: Wait for production and distribute all five guides
+        env:
+          GUIDE_FILES: ${{ steps.guides.outputs.files }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r file; do
+            [[ -z "$file" ]] && continue
+            event="$(node scripts/guide-event.mjs "$file")"
+            url="$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")"
+
+            live=0
+            for attempt in {1..40}; do
+              code="$(curl -L -sS -o /dev/null -w '%{http_code}' "$url" || true)"
+              if [[ "$code" == "200" ]]; then
+                live=1
+                break
+              fi
+              sleep 15
+            done
+
+            if [[ "$live" != "1" ]]; then
+              echo "Guide not live after deployment wait window: $url" >&2
+              exit 1
+            fi
+
+            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs
+            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
+            node scripts/record-astro-publication.mjs "$file" distributed
+          done <<< "$GUIDE_FILES"
+
+      - name: Close publication state and persist ledger
+        shell: bash
+        run: |
+          set -euo pipefail
+          node scripts/reconcile-editorial-backlog.mjs
+          git add ops/editorial/publication-ledger/astro ops/editorial/hourly-backlog.json
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No publication ledger changes found." >&2
+            exit 1
+          fi
+
+          git commit -m "report: close autonomous hourly editorial batch [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+
+          echo "Failed to push publication ledger after retries." >&2
+          exit 1
+
+      - name: Report rolling production
+        run: npm run report:editorial-production
