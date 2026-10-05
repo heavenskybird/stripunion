@@ -1,6 +1,6 @@
 {
   "source": "microsoft-clarity-data-export",
-  "collectedAt": "2026-10-05T16:32:20.390Z",
+  "collectedAt": "2026-10-05T17:05:15.046Z",
   "projectId": "ysuowheiiz",
   "numOfDays": 3,
   "dimension1": "URL",
@@ -20,7 +20,7 @@
       "metricName": "DeadClickCount",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -57,7 +57,7 @@
       "metricName": "ExcessiveScroll",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -94,7 +94,7 @@
       "metricName": "RageClickCount",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -131,7 +131,7 @@
       "metricName": "QuickbackClick",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -168,7 +168,7 @@
       "metricName": "ScriptErrorCount",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -205,7 +205,7 @@
       "metricName": "ErrorClickCount",
       "information": [
         {
-          "sessionsCount": 5,
+          "sessionsCount": 8,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -242,7 +242,7 @@
       "metricName": "ScrollDepth",
       "information": [
         {
-          "averageScrollDepth": 65.67,
+          "averageScrollDepth": 45.33,
           "Url": "https://stripunion.com/"
         },
         {
@@ -255,10 +255,10 @@
       "metricName": "Traffic",
       "information": [
         {
-          "totalSessionCount": 5,
-          "totalBotSessionCount": 17,
-          "distinctUserCount": 23,
-          "pagesPerSessionPercentage": 1.0434782608695652,
+          "totalSessionCount": 8,
+          "totalBotSessionCount": 27,
+          "distinctUserCount": 36,
+          "pagesPerSessionPercentage": 1.0277777777777777,
           "Url": "https://stripunion.com/"
         },
         {
@@ -276,13 +276,6 @@
           "Url": "https://blog.stripunion.com/wp-admin/remote"
         },
         {
-          "totalSessionCount": 0,
-          "totalBotSessionCount": 14,
-          "distinctUserCount": 14,
-          "pagesPerSessionPercentage": 1,
-          "Url": "http://127.0.0.1:4321/guides/adult-game-storefront-update-cadence-checklist"
-        },
-        {
           "totalSessionCount": 4,
           "totalBotSessionCount": 0,
           "distinctUserCount": 1,
@@ -294,7 +287,21 @@
           "totalBotSessionCount": 14,
           "distinctUserCount": 14,
           "pagesPerSessionPercentage": 1,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-storefront-update-cadence-checklist"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 14,
+          "pagesPerSessionPercentage": 1,
           "Url": "http://127.0.0.1:4321/guides/adult-affiliate-traffic-permission-preflight"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 4,
+          "distinctUserCount": 4,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://blog.stripunion.com/"
         },
         {
           "totalSessionCount": 1,
@@ -312,15 +319,15 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 14,
-          "distinctUserCount": 14,
+          "totalBotSessionCount": 22,
+          "distinctUserCount": 22,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/"
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 14,
-          "distinctUserCount": 14,
+          "totalBotSessionCount": 18,
+          "distinctUserCount": 18,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
         },
@@ -333,8 +340,8 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 14,
-          "distinctUserCount": 14,
+          "totalBotSessionCount": 22,
+          "distinctUserCount": 22,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/adult-site-payment-privacy-billing-guide/"
         }
@@ -344,8 +351,8 @@
       "metricName": "EngagementTime",
       "information": [
         {
-          "totalTime": 222,
-          "activeTime": 65,
+          "totalTime": 139,
+          "activeTime": 40,
           "Url": "https://stripunion.com/"
         },
         {
