@@ -151,7 +151,7 @@ const config = controlPlaneConfig();
 if (!config.configured) {
   const missing = [
     !config.url ? 'SUPABASE_URL' : null,
-    !config.serviceRoleKey ? 'SUPABASE_SERVICE_ROLE_KEY' : null
+    !config.secretKey ? 'SUPABASE_SECRET_KEY (or legacy SUPABASE_SERVICE_ROLE_KEY)' : null
   ].filter(Boolean);
 
   const message = 'Growth control plane is not configured; missing ' + missing.join(', ') + '.';
