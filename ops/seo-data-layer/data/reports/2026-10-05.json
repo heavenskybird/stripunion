@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:29:28.986Z",
+  "generatedAt": "2026-10-05T16:32:39.138Z",
   "sourceDates": {
     "gsc": "2026-10-03",
     "ga4": "2026-10-04",
@@ -37,18 +37,18 @@
   },
   "google": {
     "clicks": 0,
-    "impressions": 20,
+    "impressions": 25,
     "ctr": 0,
-    "averagePosition": 6.25,
+    "averagePosition": 6.84,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
         "clicks": 0,
-        "impressions": 16
+        "impressions": 17
       },
       "blog": {
         "clicks": 0,
-        "impressions": 16
+        "impressions": 20
       },
       "other": {
         "clicks": 0,
@@ -93,7 +93,7 @@
     "topPagesByImpressions": [
       {
         "key": "https://stripunion.com/",
-        "value": 16
+        "value": 17
       },
       {
         "key": "https://blog.stripunion.com/",
@@ -105,7 +105,7 @@
       },
       {
         "key": "https://blog.stripunion.com/stripchat-vs-chaturbate-which-cam-site-is-better/",
-        "value": 2
+        "value": 6
       }
     ]
   },
@@ -216,7 +216,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -226,7 +226,7 @@
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -1707,14 +1707,14 @@
           "BroadImpressions": 27314511,
           "Impressions": 8663735,
           "Query": "porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 27314511,
           "Impressions": 8663735,
           "Query": "porn",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1728,14 +1728,14 @@
           "BroadImpressions": 2268204,
           "Impressions": 1741993,
           "Query": "free porn",
-          "seed": "xhamster review"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 2268204,
           "Impressions": 1741993,
           "Query": "free porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1753,6 +1753,13 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 351489,
+          "Impressions": 23675,
+          "Query": "hamster",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 332207,
           "Impressions": 320138,
           "Query": "freeporn",
@@ -1763,14 +1770,14 @@
           "BroadImpressions": 245685,
           "Impressions": 245434,
           "Query": "xhampster",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 245685,
           "Impressions": 245434,
           "Query": "xhampster",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1781,10 +1788,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 214760,
-          "Impressions": 206075,
-          "Query": "xhamster.com",
-          "seed": "xhamster reviews"
+          "BroadImpressions": 204401,
+          "Impressions": 201433,
+          "Query": "chaterbate",
+          "seed": "chaturbate alternatives"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1805,14 +1812,14 @@
           "BroadImpressions": 91263,
           "Impressions": 79690,
           "Query": "hamster porn",
-          "seed": "xhamster review"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 91263,
           "Impressions": 79690,
           "Query": "hamster porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1830,17 +1837,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 63591,
-          "Impressions": 61401,
-          "Query": "chaturbate.com",
-          "seed": "chaturbate alternatives"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 50668,
-          "Impressions": 49685,
-          "Query": "chatterbate",
-          "seed": "chaturbate alternatives"
+          "BroadImpressions": 64584,
+          "Impressions": 61995,
+          "Query": "xham",
+          "seed": "xhamster reviews"
         }
       ]
     }
@@ -1949,8 +1949,8 @@
       "name": "stripunion51860",
       "service": "twitter"
     },
-    "sentPostCount": 41,
-    "scheduledPostCount": 9,
+    "sentPostCount": 44,
+    "scheduledPostCount": 6,
     "impressions": 74,
     "clicks": 4,
     "engagement": {
@@ -1959,7 +1959,7 @@
       "reposts": 0,
       "reach": 0
     },
-    "metricsUpdatedAt": "2026-10-05T11:26:20.425Z",
+    "metricsUpdatedAt": "2026-10-05T14:04:01.005Z",
     "highestPerformingPosts": [
       {
         "id": "6ab78d163afb9171a82bdd43",
@@ -2064,7 +2064,7 @@
         }
       },
       {
-        "id": "6ac31c1b69a169193a58d745",
+        "id": "6ac31c2469a169193a58d898",
         "sentAt": null,
         "metrics": {
           "impressions": 0,
@@ -2191,7 +2191,7 @@
     },
     "qualifiedSessions": 6,
     "outboundAffiliateCtr": 0,
-    "organicImpressions": 20,
+    "organicImpressions": 25,
     "organicClicks": 0,
     "indexedPages": 54,
     "publishedContentCount": {
