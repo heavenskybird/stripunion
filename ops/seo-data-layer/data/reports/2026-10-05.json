@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T07:50:38.244Z",
+  "generatedAt": "2026-10-05T07:51:39.444Z",
   "sourceDates": {
     "gsc": "2026-10-03",
-    "ga4": "2026-10-02",
+    "ga4": "2026-10-04",
     "bing": "2026-10-04",
     "buffer": "2026-10-04",
     "stripcash": "2026-10-04",
@@ -1702,17 +1702,17 @@
       "topRelated": [
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 27314511,
-          "Impressions": 8663735,
-          "Query": "porn",
-          "seed": "xhamster site overview"
+          "BroadImpressions": 57973684,
+          "Impressions": 1857718,
+          "Query": "chat",
+          "seed": "chaturbate alternatives"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 27314511,
           "Impressions": 8663735,
           "Query": "porn",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1726,21 +1726,7 @@
           "BroadImpressions": 2268204,
           "Impressions": 1741993,
           "Query": "free porn",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 2268204,
-          "Impressions": 1741993,
-          "Query": "free porn",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 2268204,
-          "Impressions": 1741993,
-          "Query": "free porn",
-          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1748,6 +1734,20 @@
           "Impressions": 220666,
           "Query": "porn videos",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 351489,
+          "Impressions": 23675,
+          "Query": "hamster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 351489,
+          "Impressions": 23675,
+          "Query": "hamster",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1761,7 +1761,21 @@
           "BroadImpressions": 245685,
           "Impressions": 245434,
           "Query": "xhampster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 245685,
+          "Impressions": 245434,
+          "Query": "xhampster",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 245685,
+          "Impressions": 245434,
+          "Query": "xhampster",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1776,13 +1790,6 @@
           "Impressions": 206075,
           "Query": "xhamster.com",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 214760,
-          "Impressions": 206075,
-          "Query": "xhamster.com",
-          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1796,13 +1803,6 @@
           "BroadImpressions": 98970,
           "Impressions": 83899,
           "Query": "x hamster",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 98970,
-          "Impressions": 83899,
-          "Query": "x hamster",
           "seed": "xhamster site overview"
         },
         {
@@ -1810,14 +1810,14 @@
           "BroadImpressions": 91263,
           "Impressions": 79690,
           "Query": "hamster porn",
-          "seed": "xhamster review"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 91263,
           "Impressions": 79690,
           "Query": "hamster porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1831,21 +1831,21 @@
           "BroadImpressions": 64584,
           "Impressions": 61995,
           "Query": "xham",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 63591,
-          "Impressions": 61401,
-          "Query": "chaturbate.com",
-          "seed": "chaturbate alternatives"
+          "BroadImpressions": 64584,
+          "Impressions": 61995,
+          "Query": "xham",
+          "seed": "xhamster site overview"
         }
       ]
     }
   },
   "ga4": {
-    "sessions": 5,
-    "engagedSessions": 2,
+    "sessions": 9,
+    "engagedSessions": 6,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
@@ -1855,8 +1855,8 @@
         "revenue": 0
       },
       "blog": {
-        "sessions": 5,
-        "engagedSessions": 2,
+        "sessions": 9,
+        "engagedSessions": 6,
         "affiliateClick": 0,
         "revenue": 0
       },
@@ -1868,17 +1868,17 @@
       }
     },
     "otherHosts": [],
-    "engagementRate": 0.4,
+    "engagementRate": 0.6666666666666666,
     "acquisitionSources": [
       {
         "key": "(direct) / (none)",
-        "value": 5
+        "value": 9
       }
     ],
     "landingPages": [
       {
         "key": "/",
-        "value": 3
+        "value": 6
       },
       {
         "key": "/latest/",
@@ -1886,6 +1886,10 @@
       },
       {
         "key": "(not set)",
+        "value": 1
+      },
+      {
+        "key": "/live-cam-token-pricing-guide/",
         "value": 1
       }
     ],
@@ -1895,19 +1899,27 @@
     "events": [
       {
         "key": "page_view",
-        "value": 7
+        "value": 14
       },
       {
         "key": "session_start",
-        "value": 5
-      },
-      {
-        "key": "first_visit",
-        "value": 4
+        "value": 9
       },
       {
         "key": "user_engagement",
-        "value": 4
+        "value": 9
+      },
+      {
+        "key": "scroll",
+        "value": 6
+      },
+      {
+        "key": "first_visit",
+        "value": 5
+      },
+      {
+        "key": "click",
+        "value": 1
       }
     ]
   },
@@ -2154,10 +2166,10 @@
       "social": 0,
       "communityReferral": 0,
       "paid": 0,
-      "total": 5,
-      "unclassified": 5
+      "total": 9,
+      "unclassified": 9
     },
-    "qualifiedSessions": 2,
+    "qualifiedSessions": 6,
     "outboundAffiliateCtr": 0,
     "organicImpressions": 20,
     "organicClicks": 0,
@@ -2177,7 +2189,7 @@
     "topAcquisitionLandingPages": [
       {
         "key": "/",
-        "value": 3
+        "value": 6
       },
       {
         "key": "/latest/",
@@ -2185,6 +2197,10 @@
       },
       {
         "key": "(not set)",
+        "value": 1
+      },
+      {
+        "key": "/live-cam-token-pricing-guide/",
         "value": 1
       }
     ],
