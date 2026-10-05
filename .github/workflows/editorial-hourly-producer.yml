@@ -47,6 +47,10 @@ jobs:
           fi
 
       - name: Reconcile publication state
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: node scripts/reconcile-editorial-backlog.mjs
 
       - name: Plan hourly batch and generate only the deficit
@@ -88,6 +92,13 @@ jobs:
           }, null, 2));
           NODE
 
+      - name: Claim selected batch in control plane
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: npm run control-plane:claim
+
       - name: Validate backlog and only this hourly batch
         env:
           ARTIFACT_FILES: ${{ steps.batch.outputs.artifact_files }}
@@ -110,6 +121,10 @@ jobs:
           node scripts/compile-editorial-artifacts.mjs "${files[@]}"
 
       - name: Reconcile compiled state
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: node scripts/reconcile-editorial-backlog.mjs
 
       - name: Verify exactly five selected guide modules exist
@@ -183,6 +198,25 @@ jobs:
           if-no-files-found: warn
           retention-days: 14
 
+      - name: Persist visual QA history to control plane
+        if: always()
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          VISUAL_REPORT_PATH: artifacts/visual-qa-hourly/visual-report.json
+        run: npm run control-plane:visual
+
+      - name: Checkpoint validated batch to control plane
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CONTROL_PLANE_REQUIRED: 'false'
+          CONTROL_PLANE_SOURCE: editorial-hourly-checkpoint
+        run: npm run sync:growth-control-plane
+
       - name: Commit validated batch directly to canonical main
         shell: bash
         run: |
@@ -239,6 +273,10 @@ jobs:
           done <<< "$GUIDE_FILES"
 
       - name: Close publication state and persist ledger
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         shell: bash
         run: |
           set -euo pipefail
@@ -262,7 +300,6 @@ jobs:
           exit 1
 
       - name: Mirror canonical state to growth control plane
-        continue-on-error: true
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -273,3 +310,15 @@ jobs:
 
       - name: Report rolling production
         run: npm run report:editorial-production
+
+      - name: Record failed hourly run in control plane
+        if: failure()
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DEAD_LETTER_JOB_TYPE: editorial-hourly-producer
+          DEAD_LETTER_REASON: Editorial hourly producer failed; inspect the linked GitHub Actions run and retry only after the root cause is understood.
+          DEAD_LETTER_RETRYABLE: 'true'
+        run: npm run control-plane:dead-letter
