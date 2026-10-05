@@ -46,6 +46,8 @@ jobs:
           node --check scripts/public-health-oracle.mjs
           npm run check:editorial-backlog
           node --check scripts/compile-editorial-artifacts.mjs
+          node --check scripts/generate-editorial-batch.mjs
+          node --check scripts/reconcile-editorial-backlog.mjs
           node --check scripts/record-astro-publication.mjs
           npm run check:editorial-artifacts
           node --check scripts/editorial-production-count.mjs
