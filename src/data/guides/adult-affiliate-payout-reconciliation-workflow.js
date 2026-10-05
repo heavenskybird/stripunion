@@ -1,0 +1,109 @@
+export default {
+  "slug": "adult-affiliate-payout-reconciliation-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Payout Reconciliation: A Webmaster’s Monthly Recordkeeping Workflow",
+  "description": "Build a repeatable affiliate reporting and payout reconciliation workflow for tracking statements, attributed activity, adjustments, thresholds and unresolved discrepancies.",
+  "excerpt": "A monthly reconciliation process helps webmasters compare program reports with payment records, spot discrepancies and preserve an audit trail without assuming every dashboard uses the same definitions.",
+  "publishedAt": "2026-10-05",
+  "updatedAt": "2026-10-05",
+  "keyTakeaways": [
+    "Keep reporting, commission calculations and actual payment records as separate data points.",
+    "Document each program’s reporting period, attribution definitions, payout rules and adjustment explanations.",
+    "Use consistent identifiers and dated exports so changes can be traced across statements.",
+    "Reconcile discrepancies using documented evidence and official support channels rather than guessing at causes.",
+    "Treat recordkeeping as an operational workflow, not as tax or legal advice."
+  ],
+  "sections": [
+    {
+      "heading": "Build a record that separates clicks, attributed activity and payments",
+      "paragraphs": [
+        "Affiliate dashboards often present several kinds of information that should not be treated as interchangeable. A traffic report may describe visits or clicks, an attribution report may describe actions credited under a program’s rules, and a payment record shows money that was actually issued or received. Record each category separately. This makes it easier to identify whether a difference arose in tracking, calculation, approval, payment timing or your own bookkeeping.",
+        "Create a master ledger with one row per program and reporting period. Useful fields include the program identifier, date range, report date, currency as shown, reported activity, stated commission amount, adjustments, balance status, payment reference and date received. Add a note for any field whose definition is unclear. Do not combine unlike reports into one total until you have checked whether periods, currencies and accounting rules match."
+      ],
+      "table": {
+        "caption": "Suggested fields for a monthly affiliate reconciliation ledger",
+        "headers": [
+          "Record",
+          "Information to preserve"
+        ],
+        "rows": [
+          [
+            "Program and period",
+            "Program identifier, reporting dates and date the report was exported"
+          ],
+          [
+            "Activity",
+            "Reported clicks or attributed actions, with the program’s labels"
+          ],
+          [
+            "Commission",
+            "Amount shown, currency, adjustments and any stated status"
+          ],
+          [
+            "Payment",
+            "Payment date, amount received, reference and related statement"
+          ],
+          [
+            "Follow-up",
+            "Difference identified, evidence gathered, support contact and resolution"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Capture statements on a consistent schedule",
+      "paragraphs": [
+        "Choose a regular close date that fits your operations, such as a monthly review after the relevant reporting period has finished. Export or save the available statement with the date and time, and use a consistent file naming convention. A saved report can be useful if dashboard views change later, but it should be treated as a record of what was visible when you captured it rather than as proof that every item is final.",
+        "Keep source documents in an organized location with access controls appropriate to your business. Avoid storing credentials or unnecessary personal information alongside performance exports. If reports are updated after initial publication, save a new version and note what changed instead of overwriting the earlier file. Versioning makes it possible to compare adjustments over time and explain why your ledger differs from a previously saved view."
+      ]
+    },
+    {
+      "heading": "Write down the attribution and payout rules that affect reconciliation",
+      "paragraphs": [
+        "A reconciliation is only meaningful when you understand what the figures represent. Record the program’s stated attribution model, lookback or qualification rules where documented, how cancellations or reversals are handled, and which reporting period applies. Also record payout logic such as thresholds, schedule, eligible payment methods and any stated exclusions. These details can vary between programs, so do not transfer assumptions from one agreement to another.",
+        "Make a short definitions sheet for each program and date it. If a rule changes, preserve the former wording and record when the new terms appeared to take effect, based on the program’s notice or agreement. Where there is uncertainty, phrase it as an open question. A definitions sheet helps explain why an attributed action may not appear as a payable amount yet, but it cannot establish the cause of a specific discrepancy without supporting records."
+      ]
+    },
+    {
+      "heading": "Compare reported balances with payment records",
+      "paragraphs": [
+        "During the monthly review, compare the program’s stated balance with the payment statement and the record from your bank or payment provider. Check whether you are comparing the same currency, period, account and status. A balance described as pending or estimated should not be recorded as if it were already paid. Similarly, a payment received in one month may correspond to activity reported during an earlier period; connect it to the relevant statement rather than treating the dates as identical.",
+        "Use a simple status for each period: reconciled, waiting for a stated payment date, or unresolved. If a payment is partial or the amount differs from the corresponding statement, write down the arithmetic and the records used. Do not infer a missing payment, deduction or currency conversion without evidence. If the program provides a transaction reference or adjustment explanation, preserve it with the entry so you can follow up accurately."
+      ],
+      "bullets": [
+        "Match dates and currencies before comparing totals.",
+        "Keep pending, approved, payable and paid amounts distinct when those labels are provided.",
+        "Record the statement and payment reference supporting each reconciliation decision."
+      ]
+    },
+    {
+      "heading": "Investigate discrepancies with a repeatable process",
+      "paragraphs": [
+        "When figures do not match, first check for common recordkeeping causes: different date ranges, time zones, currencies, filters, report versions or status definitions. Confirm that the same program account and traffic source are represented in each file. Then verify whether an adjustment, reversal or threshold rule is documented for the period. This sequence can resolve simple comparison errors before you open a support request.",
+        "If the difference remains, prepare a concise evidence package: the period, relevant report exports, your calculation, the specific amount or record in question and the explanation you are seeking. Contact the program through its official support route and avoid including passwords, full payment credentials or unrelated visitor data. Keep the case reference and response in your ledger. If the program cannot explain the discrepancy, record that outcome rather than forcing the numbers to appear reconciled."
+      ]
+    },
+    {
+      "heading": "Keep operational records useful without over-collecting data",
+      "paragraphs": [
+        "A good affiliate record supports decisions without collecting more information than you need. Store program statements, terms snapshots, payment references and correspondence. Avoid copying visitor-level data into a general finance spreadsheet unless there is a clear, authorized reason and suitable safeguards. Use restricted access, strong authentication and a retention schedule for exports that may contain sensitive business information.",
+        "Keep reconciliation separate from tax, accounting and legal interpretation. A ledger can organize what a program reported and what you received, but it does not determine how an amount must be classified or reported in a particular jurisdiction. Consult a qualified professional for those questions. Review the workflow periodically to remove fields that no longer serve a purpose and to ensure that a future operator can understand the labels, evidence and unresolved items."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should an affiliate reconcile reports and payments?",
+      "answer": "A regular monthly review is a practical starting point for many operations, but the schedule should match each program’s reporting and payment cycle. Record the period being reviewed and distinguish waiting balances from payments actually received. More frequent checks may be useful when you need closer operational monitoring."
+    },
+    {
+      "question": "What should I do if a dashboard total changes after I save it?",
+      "answer": "Preserve the earlier export, save the updated version with a new date and note the difference. Check for a status change, adjustment or reporting-period update in the program’s documentation. If the reason is unclear, ask the program using the relevant period and evidence rather than relying on memory."
+    },
+    {
+      "question": "Does a reconciliation ledger tell me how to report affiliate income for tax purposes?",
+      "answer": "No. A ledger is an operational record, not tax guidance. It can help organize statements and payments for a qualified accountant or tax professional, but reporting requirements depend on your circumstances and jurisdiction."
+    }
+  ]
+};
