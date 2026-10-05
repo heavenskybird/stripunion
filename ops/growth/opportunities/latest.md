@@ -1,8 +1,8 @@
 # Daily Growth Opportunities — 2026-10-05
 
-Sources: GSC 2026-10-03 · Bing 2026-10-04 · StripCash 2026-10-04 · competitor snapshot 2026-10-05 · diff 2026-10-05.
+Sources: GSC 2026-10-03 · Bing 2026-10-04 · GA4 2026-10-04 · Clarity pending · Attribution 2026-10-04 · StripCash 2026-10-04 · competitor snapshot 2026-10-05 · diff 2026-10-05.
 
-Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 1.
+Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 1 · off-topic/broad Bing expansion rows dropped: 82.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -10,26 +10,39 @@ StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 
 
 ## Keyword expansion from Bing
 
-1. **chat** — 57973684 Bing keyword-research impressions signal; seed(s): chaturbate alternatives.
-2. **porn** — 27314511 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-3. **xhamster** — 3280198 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-4. **free porn** — 2268204 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-5. **xhampster** — 737055 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
-6. **hamster** — 702978 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews.
-7. **porn videos** — 628552 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-8. **xhamster com** — 487346 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview.
-9. **freeporn** — 332207 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-10. **chaterbate** — 204401 Bing keyword-research impressions signal; seed(s): chaturbate alternatives.
-11. **xham** — 193752 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
-12. **hamster porn** — 182526 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews.
-13. **x hamster** — 98970 Bing keyword-research impressions signal; seed(s): xhamster site overview.
-14. **hamster.com** — 98610 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews.
-15. **affiliate** — 83458 Bing keyword-research impressions signal; seed(s): adult affiliate program.
+1. **xhamster** — 3290303 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+2. **xhamster com** — 488584 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+3. **xhampster** — 245685 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+4. **chaterbate** — 204401 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: new_content_candidate.
+5. **hamster porn** — 182526 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: new_content_candidate.
+6. **xhamster porn** — 72204 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
+7. **xhamster gay** — 51260 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+8. **xhamsters** — 46654 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+9. **live sex** — 38162 Bing keyword-research impressions signal; seed(s): live cam sites; use: new_content_candidate.
+10. **xhamster live** — 35820 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
+11. **live cams** — 20829 Bing keyword-research impressions signal; seed(s): live cam sites; use: new_content_candidate.
+12. **xxxhamster** — 20036 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+13. **exhamster** — 18552 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
+14. **xhamter** — 13958 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+15. **hamster xxx** — 12753 Bing keyword-research impressions signal; seed(s): xhamster review; use: new_content_candidate.
+
+## Rising keyword signals
+
+- **chaturbate alternatives** — rising; recent avg 22.67, previous avg 15.33, ratio 1.48 across 10 samples.
+- **live cam sites** — rising; recent avg 46.33, previous avg 32, ratio 1.45 across 9 samples.
 
 ## Authority / backlink opportunities
 
 - **stripunion.com** — 0 observed inbound links across 0 linked target page(s); Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
 - **blog.stripunion.com** — 0 observed inbound links across 0 linked target page(s); Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
+
+## CTA / conversion opportunities
+
+- **stripunion.com/** — 58 sessions · 0 affiliate clicks · CTR 0.0%; Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.
+
+## Clarity behavior opportunities
+
+Clarity Data Export is not connected yet; in-browser tracking can still be active.
 
 ## Ranked evidence-backed opportunities
 
