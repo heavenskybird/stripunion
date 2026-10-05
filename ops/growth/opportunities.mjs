@@ -94,10 +94,10 @@ const creatorIntentPattern = /\b(cam|webcam)\s*(model|performer)|become\s+(a\s+)
 const affiliateIntentPattern = /stripcash\s+affiliate|cam\s+affiliate|webcam\s+affiliate|adult\s+affiliate\s+program|webmaster\s+affiliate/i;
 const commercialIntentPattern = /best|review|vs|versus|price|pricing|token|alternative|compare|signup|register|earnings|affiliate/i;
 const syntheticPromptPattern = /\bcontext\s*:|\bquestion\s*:|do not include|not for language|location\s*:/i;
-const genericKeywordPattern = /^(porn|free porn|porn videos?|adult|adult videos?|sex|sex videos?|xxx)$/i;
+const genericKeywordPattern = /^(porn|free porn|porn videos?|adult|adult videos?|sex|sex videos?|xxx|live sex)$/i;
 const adultDomainPattern = /\b(xhamster|xhampster|xhamter|f95zone|chaturbate|chaterbate|stripchat|bongacams?|livejasmin|camsoda|cam4|myfreecams|pornhub|xvideos|xnxx|onlyfans|fansly|manyvids|hentai|doujin|porn|xxx|adult|nude|sex toy|vibrator|hookup|camgirl|webcam model)\b/i;
 const commercialLiveCamPattern = /\b(live cam|webcam)\s+(sites?|platforms?|models?|chat)\b/i;
-const keywordSeedStopWords = new Set(['review', 'reviews', 'site', 'sites', 'overview', 'free', 'best', 'program', 'affiliate', 'adult', 'alternatives', 'alternative']);
+const keywordSeedStopWords = new Set(['review', 'reviews', 'site', 'sites', 'overview', 'free', 'best', 'program', 'affiliate', 'adult', 'alternatives', 'alternative', 'live']);
 
 function normalizeQuery(value) {
   return String(value || '')
@@ -130,6 +130,52 @@ function keywordExpansionEligibility(query, seed) {
   const topic = topicFor(query);
   if (topic.state !== 'new') return { eligible: true, reason: 'known_content_topic' };
   return { eligible: false, reason: 'off_topic_related_keyword' };
+}
+
+function topicForKeywordExpansion(query, seeds = []) {
+  const topic = topicFor(query);
+  if (topic.state !== 'new') return topic;
+
+  const normalized = normalizeQuery(query);
+  const normalizedSeeds = seeds.map((seed) => normalizeQuery(seed));
+
+  if (
+    normalizedSeeds.some((seed) => seed.includes('xhamster')) &&
+    /\bhamster\b|xxxhamster|exhamster/.test(normalized)
+  ) {
+    return {
+      key: 'xhamster-review',
+      label: 'xHamster review / site overview',
+      page: '/xhamster',
+      state: reviewSlugs.has('xhamster') ? 'review' : 'pending'
+    };
+  }
+
+  if (
+    normalizedSeeds.some((seed) => seed.includes('chaturbate alternatives')) &&
+    /\bchaturbate\b|\bchaterbate\b/.test(normalized)
+  ) {
+    return {
+      key: 'chaturbate-alternatives',
+      label: 'Chaturbate alternatives',
+      page: '/chaturbate-alternatives',
+      state: routeExists('/chaturbate-alternatives') ? 'page' : 'new'
+    };
+  }
+
+  if (
+    normalizedSeeds.some((seed) => seed.includes('live cam sites')) &&
+    /^live cams?$/.test(normalized)
+  ) {
+    return {
+      key: 'best-live-cam-sites',
+      label: 'Best live cam sites',
+      page: '/best-live-cam-sites',
+      state: routeExists('/best-live-cam-sites') ? 'page' : 'new'
+    };
+  }
+
+  return topic;
 }
 
 function bingDateMs(value) {
@@ -433,7 +479,7 @@ for (const seed of bing?.data?.keywordResearch?.bySeed || []) {
 }
 const keywordExpansion = [...keywordExpansionMap.values()]
   .map((row) => {
-    const topic = topicFor(row.query);
+    const topic = topicForKeywordExpansion(row.query, [...row.seeds]);
     return {
       ...row,
       seeds: [...row.seeds],
