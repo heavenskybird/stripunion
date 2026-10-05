@@ -1,0 +1,115 @@
+{
+  "backlogId": "premium-video-subscription-renewal-audit",
+  "slug": "premium-video-subscription-renewal-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Before You Subscribe: A Premium Video Renewal and Cancellation Checklist",
+  "description": "A practical checklist for checking subscription terms, renewal timing, cancellation steps, previews and playback before paying for a premium video membership.",
+  "excerpt": "A subscription is easier to evaluate when you know what renews, what cancellation changes, and which viewing details you can verify before committing.",
+  "keyTakeaways": [
+    "Read the billing interval, renewal terms and cancellation instructions before entering payment details.",
+    "Check whether cancellation ends access immediately or stops the next renewal; do not assume either outcome.",
+    "Use previews and available playback controls to assess fit before relying on promotional descriptions.",
+    "Compare the library organization and mobile experience using the types of content you actually want to find.",
+    "Save confirmation and support records without storing sensitive payment information in an exposed place."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the membership terms as part of the product",
+      "paragraphs": [
+        "A premium video membership is not just a library; it is also a recurring agreement. Before subscribing, locate the checkout summary and identify the billing interval, whether the membership renews automatically, and how the renewal is presented. Look for any distinction between a promotional introductory period and the later renewal arrangement. If a term is unclear, pause rather than treating a banner or button label as a complete explanation.",
+        "Check what the membership includes and what remains separate. Some services may distinguish between included viewing and other paid options, while others may organize access differently. Do not infer coverage from a large library count or a general description. The useful question is whether the material and viewing options relevant to you are included under the exact membership being offered."
+      ],
+      "bullets": [
+        "Record the billing interval and renewal date shown at checkout.",
+        "Check whether taxes, add-ons or separate purchases are described outside the membership.",
+        "Keep a copy of the terms or confirmation in a private location."
+      ]
+    },
+    {
+      "heading": "Map the cancellation path before you need it",
+      "paragraphs": [
+        "Find the cancellation instructions before paying, not only after deciding to leave. Establish whether cancellation is handled in the service account, through a payment provider, or through another route stated in the terms. The route can depend on how the membership was started, so note the instructions that apply to your specific checkout. A missing or hard-to-find cancellation explanation is a reason to postpone subscribing until you can clarify it.",
+        "Cancellation can mean different things: stopping a future renewal, ending access immediately, or requesting a change that takes effect at a later date. Never assume which applies. Read the confirmation screen and any follow-up message carefully, then verify that the account shows the expected membership state. Save the confirmation date and reference details, while avoiding screenshots that expose card numbers or unrelated account information."
+      ],
+      "table": {
+        "caption": "A pre-subscription terms check",
+        "headers": [
+          "Question",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "When does billing repeat?",
+            "The interval and next renewal timing shown for this offer",
+            "Helps you plan a review before the next charge"
+          ],
+          [
+            "How do I cancel?",
+            "The route and steps that apply to this signup method",
+            "Prevents relying on an unsuitable cancellation path"
+          ],
+          [
+            "What happens after cancellation?",
+            "Whether access continues or ends, according to the terms",
+            "Avoids assumptions about remaining membership time"
+          ],
+          [
+            "What does membership include?",
+            "Included library access and any separately described options",
+            "Clarifies the actual scope of the subscription"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use previews to test fit, not to guess at the full library",
+      "paragraphs": [
+        "Previews can help you assess presentation, navigation and whether the catalog appears relevant, but a preview is only a sample. Check how the service labels preview material and whether it clearly distinguishes previews from member access. If you cannot confirm what is included without subscribing, treat that uncertainty as part of the decision rather than assuming the broadest interpretation.",
+        "Assess library breadth by organization as well as volume. Useful signals include whether categories, performers, formats or other filters are understandable and whether search results can be narrowed in a practical way. A large collection that is difficult to navigate may not serve your needs. Try to identify a few representative items or categories through permitted preview access, and note whether the descriptions provide enough context to make a considered choice."
+      ]
+    },
+    {
+      "heading": "Check playback and mobile usability with your own routine in mind",
+      "paragraphs": [
+        "Playback quality should be judged through available information and permitted previews, not a general promise. Look for clear descriptions of supported playback options, resolution labels where provided, and controls such as pausing or seeking. Test on a connection and device similar to what you expect to use. A short preview on a strong connection may not reveal how the service behaves in your usual environment, so keep expectations grounded in what you can actually verify.",
+        "On mobile, inspect whether the site is readable, controls are reachable, and account or billing settings are accessible without excessive navigation. Consider whether playback controls obscure important information or whether the page encourages actions you did not intend. You do not need to install anything merely to judge basic usability. If an app or download is offered, separately review permissions, storage needs and privacy implications before using it."
+      ],
+      "bullets": [
+        "Check whether the catalog and account settings are usable on the device you plan to use.",
+        "Look for clear playback labels and controls in permitted preview material.",
+        "Avoid testing on a shared device or a network where account activity is visible to others."
+      ]
+    },
+    {
+      "heading": "Set a review reminder and keep account records minimal",
+      "paragraphs": [
+        "A simple reminder shortly before the next renewal gives you time to decide whether the membership still fits. At that point, consider whether you used the library, found content efficiently, and had a satisfactory playback experience. This is a personal value check, not a measure of whether the service is universally worthwhile. If you no longer want the membership, use the documented cancellation route early enough to account for any stated processing steps.",
+        "Keep only the records needed to manage the membership: confirmation, renewal date, cancellation status and relevant support correspondence. Store them somewhere private, especially if other people use your device or account. Sign out on shared devices and consider browser history and saved passwords as separate privacy decisions. Avoid sending full payment credentials or sensitive account details in a support message unless a secure, clearly described process requires them."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I cancel as soon as I decide not to renew?",
+      "answer": "Check the membership terms and cancellation screen first. They should explain whether cancellation stops a future renewal and whether access changes immediately. If you decide to leave, follow the stated process and verify the resulting account status."
+    },
+    {
+      "question": "Can a preview tell me whether the entire library is worthwhile?",
+      "answer": "No. A preview can help you judge presentation, playback controls and some catalog organization, but it cannot establish the full library's breadth or future additions. Use it as one piece of evidence and confirm what membership includes."
+    },
+    {
+      "question": "What should I save after subscribing or cancelling?",
+      "answer": "Keep the relevant confirmation, date, membership status and support reference in a private place. Avoid retaining unnecessary payment details, and do not store records where other device users can casually see them."
+    }
+  ],
+  "publishedAt": "2026-10-05",
+  "updatedAt": "2026-10-05",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
