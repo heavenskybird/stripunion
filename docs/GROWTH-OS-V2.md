@@ -115,9 +115,9 @@ Repository state drives publication. Supabase receives state, observations and l
 
 ### authoritative
 
-Prepared target mode after shadow acceptance. Real-time queue/claim/lease/retry state moves to Postgres while Git continues to store code, immutable content artifacts, configuration and durable reports.
+Implemented target mode after shadow acceptance. Selected batches are claimed in Postgres with a bounded lease, reconciliation projects database state back into the repository backlog, failed runs create dead-letter audit records, and final publication state is checkpointed back to Postgres. Git continues to store code, immutable content artifacts, configuration and durable reports.
 
-Authority must not be promoted until the shadow acceptance checks pass. This prevents a new database dependency from becoming a production single point of failure before reconciliation has been observed.
+Authority is promoted automatically only after the shadow acceptance checks pass. The scheduled promotion workflow validates 24 distinct hourly cycles, time continuity and repository-to-database coverage before changing the tracked mode file.
 
 ## Closed-loop completion criteria
 
@@ -131,4 +131,4 @@ The architecture is considered implemented when:
 6. experiment winners feed future decisions without manual spreadsheet work.
 7. database authority can be enabled after the shadow gate without a redesign.
 
-Only item 7's **activation** is intentionally gated by the 24-hour acceptance; its implementation can be prepared in advance.
+All seven implementation items are now represented in code. Item 7's **activation** remains intentionally gated by observed production evidence; the gate itself is automated and performs the promotion without a manual reminder.
