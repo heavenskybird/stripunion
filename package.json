@@ -16,7 +16,10 @@
     "test:visual": "node scripts/visual-regression.mjs",
     "reconcile:editorial-backlog": "node scripts/reconcile-editorial-backlog.mjs",
     "generate:editorial-batch": "node scripts/generate-editorial-batch.mjs",
-    "sync:growth-control-plane": "node scripts/sync-growth-control-plane.mjs"
+    "sync:growth-control-plane": "node scripts/sync-growth-control-plane.mjs",
+    "growth:brain": "node ops/growth/brain.mjs",
+    "growth:experiments": "node ops/growth/experiments.mjs",
+    "growth:observations": "node ops/growth/observations.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
