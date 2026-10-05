@@ -8,6 +8,7 @@ const growthPath = path.join(root, 'ops/growth/opportunities/latest.json');
 const outDir = path.join(root, 'ops/growth/experiments');
 const statePath = path.join(outDir, 'state.json');
 const activePath = path.join(outDir, 'active.json');
+const rolloutPath = path.join(outDir, 'rollouts.json');
 const MIN_START_SESSIONS = 100;
 const MIN_IMPRESSIONS_PER_VARIANT = 100;
 const MIN_DAYS = 7;
@@ -231,8 +232,26 @@ const active = {
     }))
 };
 
+const rollouts = {
+  version: 1,
+  generatedAt: now,
+  experiments: experiments
+    .filter((item) => item.status === 'completed' && ['control', 'treatment'].includes(item.winner))
+    .map((item) => ({
+      experimentId: item.experimentId,
+      kind: item.kind,
+      host: item.host,
+      surface: item.surface,
+      winner: item.winner,
+      variants: item.variants,
+      endedAt: item.endedAt,
+      evidence: item.lastEvaluation || null
+    }))
+};
+
 await fs.writeFile(statePath, JSON.stringify(state, null, 2) + '\n');
 await fs.writeFile(activePath, JSON.stringify(active, null, 2) + '\n');
+await fs.writeFile(rolloutPath, JSON.stringify(rollouts, null, 2) + '\n');
 
 const lines = [
   '# Growth Experiment Engine',
@@ -253,5 +272,6 @@ await fs.writeFile(path.join(outDir, 'latest.md'), lines.join('\n') + '\n');
 console.log('GROWTH_EXPERIMENT_ENGINE_OK ' + JSON.stringify({
   running: active.experiments.length,
   proposed: experiments.filter((item) => item.status === 'proposed').length,
-  completed: experiments.filter((item) => item.status === 'completed').length
+  completed: experiments.filter((item) => item.status === 'completed').length,
+  rollouts: rollouts.experiments.length
 }));
