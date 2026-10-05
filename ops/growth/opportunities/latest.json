@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-04T15:23:45.486Z",
+  "generatedAt": "2026-10-05T07:13:16.685Z",
   "sources": {
-    "gsc": "2026-10-02",
-    "bing": "2026-10-03",
-    "stripcash": "2026-10-03",
-    "competitorSnapshot": "2026-10-04",
-    "competitorDiff": "2026-10-04",
+    "gsc": "2026-10-03",
+    "bing": "2026-10-04",
+    "stripcash": "2026-10-04",
+    "competitorSnapshot": "2026-10-05",
+    "competitorDiff": "2026-10-05",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
@@ -13,7 +13,7 @@
   },
   "monetization": {
     "connected": true,
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
     "signups": 0,
     "verifiedSignups": 0,
@@ -140,7 +140,7 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "https+thefapguide+com+review+xhamster",
+          "query": "complete guide to hamster com x",
           "impressions": 1,
           "clicks": 0,
           "position": 10
@@ -156,7 +156,7 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "complete guide to hamster com x",
+          "query": "https+thefapguide+com+review+xhamster",
           "impressions": 1,
           "clicks": 0,
           "position": 10
@@ -244,18 +244,18 @@
         {
           "source": "Bing",
           "date": "/Date(1787270400000)/",
-          "query": "should a person be leary about xhamster site?",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 10
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1787270400000)/",
           "query": "xhamster#R##N#review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1787270400000)/",
+          "query": "should a person be leary about xhamster site?",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10
         },
         {
           "source": "Bing",
@@ -292,14 +292,6 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamter.com review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 5
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1789689600000)/",
           "query": "xhamster reviews",
           "impressions": 1,
           "clicks": 0,
@@ -309,6 +301,14 @@
           "source": "Bing",
           "date": "/Date(1789689600000)/",
           "query": "xhamster adult website overview",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1789689600000)/",
+          "query": "xhamter.com review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
@@ -364,6 +364,14 @@
         {
           "source": "Bing",
           "date": "/Date(1781827200000)/",
+          "query": "f95zone reviews",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1781827200000)/",
           "query": "world of dominion f95zone review",
           "impressions": 1,
           "clicks": 0,
@@ -371,11 +379,11 @@
         },
         {
           "source": "Bing",
-          "date": "/Date(1781827200000)/",
-          "query": "f95zone reviews",
+          "date": "/Date(1786665600000)/",
+          "query": "f95zone make a review",
           "impressions": 1,
           "clicks": 0,
-          "position": 5
+          "position": 7
         },
         {
           "source": "Bing",
@@ -392,14 +400,6 @@
           "impressions": 1,
           "clicks": 0,
           "position": 5
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1786665600000)/",
-          "query": "f95zone make a review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 7
         }
       ],
       "targetKeyword": "F95Zone review",
@@ -459,7 +459,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-02",
+          "date": "2026-10-03",
           "query": "stripchat alternative",
           "impressions": 1,
           "clicks": 0,
@@ -549,6 +549,102 @@
       "risk": "medium",
       "experimentWindow": "14 days",
       "rank": 6
+    },
+    {
+      "id": "gsc-6164756c7420706c6174",
+      "sourceEvidence": [
+        {
+          "source": "GSC",
+          "date": "2026-10-03",
+          "query": "adult platform",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 4
+        }
+      ],
+      "targetKeyword": "adult platform",
+      "recommendedAction": "evaluate a new on-site guide against the content inventory",
+      "trafficIntent": "observed",
+      "commercialIntent": "unknown",
+      "monetizationRoute": null,
+      "competitorEvidence": [],
+      "ourEvidence": {
+        "page": null,
+        "contentState": "new",
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 4,
+        "queryVariants": 1
+      },
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "low",
+      "experimentWindow": "14 days",
+      "rank": 7
+    },
+    {
+      "id": "gsc-737472697078756174",
+      "sourceEvidence": [
+        {
+          "source": "GSC",
+          "date": "2026-10-03",
+          "query": "stripxuat",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
+        }
+      ],
+      "targetKeyword": "stripxuat",
+      "recommendedAction": "evaluate a new on-site guide against the content inventory",
+      "trafficIntent": "observed",
+      "commercialIntent": "unknown",
+      "monetizationRoute": null,
+      "competitorEvidence": [],
+      "ourEvidence": {
+        "page": null,
+        "contentState": "new",
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "low",
+      "experimentWindow": "14 days",
+      "rank": 8
+    },
+    {
+      "id": "gsc-6164756c742073747269",
+      "sourceEvidence": [
+        {
+          "source": "GSC",
+          "date": "2026-10-03",
+          "query": "adult strip cam",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
+        }
+      ],
+      "targetKeyword": "adult strip cam",
+      "recommendedAction": "evaluate a new on-site guide against the content inventory",
+      "trafficIntent": "observed",
+      "commercialIntent": "unknown",
+      "monetizationRoute": null,
+      "competitorEvidence": [],
+      "ourEvidence": {
+        "page": null,
+        "contentState": "new",
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+      "confidence": "low",
+      "risk": "low",
+      "experimentWindow": "14 days",
+      "rank": 9
     }
   ],
   "guardrails": {
