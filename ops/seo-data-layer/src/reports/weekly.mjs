@@ -150,6 +150,25 @@ const indexTotals = (snapshot) => (snapshot?.data?.sites || []).map((site) => {
 const currentIndex = indexTotals(bing);
 const previousIndex = new Map(indexTotals(previousBing).map((item) => [item.site, item.indexed]));
 const indexChanges = currentIndex.map((item) => ({ ...item, previousIndexed: previousIndex.get(item.site) ?? null, change: previousIndex.has(item.site) ? item.indexed - previousIndex.get(item.site) : null }));
+
+const backlinkTotals = (snapshot) => (snapshot?.data?.sites || []).map((site) => ({
+  site: site.site,
+  inboundLinks: (site.backlinkPages || []).reduce((total, row) => total + Number(row.Count || 0), 0),
+  linkedTargetPages: (site.backlinkPages || []).length,
+  inspectedSourceRows: (site.backlinkDetails || []).length
+}));
+const currentBacklinks = backlinkTotals(bing);
+const previousBacklinks = new Map(backlinkTotals(previousBing).map((item) => [item.site, item]));
+const backlinkChanges = currentBacklinks.map((item) => {
+  const previous = previousBacklinks.get(item.site);
+  return {
+    ...item,
+    previousInboundLinks: previous?.inboundLinks ?? null,
+    previousLinkedTargetPages: previous?.linkedTargetPages ?? null,
+    inboundLinkChange: previous ? item.inboundLinks - previous.inboundLinks : null,
+    linkedTargetPageChange: previous ? item.linkedTargetPages - previous.linkedTargetPages : null
+  };
+});
 const channelSessions = { organic: 0, social: 0, communityReferral: 0, paid: 0, unclassified: 0 };
 for (const row of landingRows) {
   const sourceMedium = String(row.sessionSourceMedium || '').toLowerCase();
@@ -191,7 +210,8 @@ const summary = {
       observedInboundCount: sum(bingBacklinkPages, 'Count'),
       sourceRowCount: bingBacklinkDetails.length,
       topTargetPages: [...bingBacklinkPages].sort((a, b) => Number(b.Count || 0) - Number(a.Count || 0)).slice(0, 10),
-      topSourceRows: bingBacklinkDetails.slice(0, 20)
+      topSourceRows: bingBacklinkDetails.slice(0, 20),
+      changes: backlinkChanges
     },
     feeds: bingFeeds,
     keywordResearch: bingKeywordResearch ? {
@@ -313,6 +333,7 @@ const md = [
   '## Bing', `- Combined: **${summary.bing.clicks}** clicks · **${summary.bing.impressions}** impressions · ${bingErrors.length} crawl issue URLs.`,
   ...bingCoverageSummary,
   `- Backlinks: ${summary.bing.backlinks.targetPageCount} linked target pages · ${summary.bing.backlinks.observedInboundCount} Bing-observed inbound links · ${summary.bing.backlinks.sourceRowCount} inspected referring-source rows.`,
+  ...summary.bing.backlinks.changes.map((row) => `- Backlink delta ${row.site}: ${row.inboundLinks} inbound links${row.inboundLinkChange == null ? ' (no previous comparable snapshot)' : ` (${row.inboundLinkChange >= 0 ? '+' : ''}${row.inboundLinkChange} vs previous)`} · ${row.linkedTargetPages} linked target pages${row.linkedTargetPageChange == null ? '' : ` (${row.linkedTargetPageChange >= 0 ? '+' : ''}${row.linkedTargetPageChange})`}.`),
   ...(summary.bing.backlinks.topTargetPages.length
     ? summary.bing.backlinks.topTargetPages.slice(0, 5).map((row) => `- Backlink target ${row.site}: ${row.Url} — ${row.Count || 0} inbound links`)
     : ['- Backlink target data: no inbound-link rows returned yet.']),
