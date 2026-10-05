@@ -19,7 +19,11 @@
     "sync:growth-control-plane": "node scripts/sync-growth-control-plane.mjs",
     "growth:brain": "node ops/growth/brain.mjs",
     "growth:experiments": "node ops/growth/experiments.mjs",
-    "growth:observations": "node ops/growth/observations.mjs"
+    "growth:observations": "node ops/growth/observations.mjs",
+    "control-plane:readiness": "node scripts/control-plane-readiness.mjs",
+    "control-plane:claim": "node scripts/claim-editorial-batch.mjs",
+    "control-plane:visual": "node scripts/sync-visual-checks.mjs",
+    "control-plane:dead-letter": "node scripts/record-control-plane-dead-letter.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
