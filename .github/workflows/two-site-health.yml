@@ -32,6 +32,8 @@ jobs:
         with:
           node-version: 22
       - name: Check production public endpoints
+        env:
+          EXPECTED_CLARITY_PROJECT_ID: ysuowheiiz
         run: node scripts/two-site-main-health.mjs https://stripunion.com
       - name: Smoke check configured Hostinger staging (optional)
         if: ${{ vars.HOSTINGER_STAGING_DOMAIN != '' }}
@@ -54,6 +56,8 @@ jobs:
         env:
           EXPECTED_GA4_MEASUREMENT_ID: ${{ vars.GA4_MEASUREMENT_ID }}
           EXPECTED_GOOGLE_TAG_ID: ${{ vars.GOOGLE_TAG_ID }}
+          EXPECTED_CLARITY_PROJECT_ID: ysuowheiiz
+          REQUIRE_CLARITY: ${{ vars.BLOG_CLARITY_REQUIRED || 'false' }}
         run: node scripts/blog-health-check.mjs
 
   ecosystem-oracle:
