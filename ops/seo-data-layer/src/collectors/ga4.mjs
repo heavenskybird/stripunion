@@ -28,7 +28,7 @@ function normalizeReport(response) {
 }
 
 const [landingResponse] = await client.runReport({
-  property: \`properties/\${propertyId}\`,
+  property: `properties/${propertyId}`,
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },
@@ -49,7 +49,7 @@ const [landingResponse] = await client.runReport({
 });
 
 const [marketResponse] = await client.runReport({
-  property: \`properties/\${propertyId}\`,
+  property: `properties/${propertyId}`,
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },
@@ -69,7 +69,7 @@ const [marketResponse] = await client.runReport({
 });
 
 const [eventResponse] = await client.runReport({
-  property: \`properties/\${propertyId}\`,
+  property: `properties/${propertyId}`,
   dateRanges: [{ startDate, endDate }],
   dimensions: [
     { name: 'date' },

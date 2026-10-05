@@ -31,6 +31,7 @@ jobs:
           node --check ops/growth/opportunities.mjs
           node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
+          node --check ops/seo-data-layer/src/collectors/ga4.mjs
           node --check ops/seo-data-layer/src/collectors/bing.mjs
           node --check ops/seo-data-layer/src/reports/weekly.mjs
           node ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs --self-test
