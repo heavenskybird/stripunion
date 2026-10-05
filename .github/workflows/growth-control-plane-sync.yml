@@ -1,0 +1,42 @@
+name: Growth control plane shadow sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      required:
+        description: Fail if Supabase is not fully configured
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: growth-control-plane-shadow-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout canonical main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run adapter self-test
+        run: node scripts/sync-growth-control-plane.mjs --self-test
+
+      - name: Mirror repository state to Supabase
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CONTROL_PLANE_REQUIRED: ${{ inputs.required }}
+        run: node scripts/sync-growth-control-plane.mjs
