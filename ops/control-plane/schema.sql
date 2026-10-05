@@ -149,3 +149,19 @@ comment on table public.publications is
   'Verified publication ledger mirrored from repository publication records.';
 comment on table public.affiliate_offers is
   'Centralized offer registry mirror; sensitive credentials never belong here.';
+
+
+-- Data API access for the server-side secret key, which maps to the service_role Postgres role.
+-- Do not grant these tables to anon or authenticated.
+grant usage on schema public to service_role;
+grant select, insert, update on table
+  public.control_plane_runs,
+  public.growth_opportunities,
+  public.content_jobs,
+  public.publications,
+  public.affiliate_offers,
+  public.growth_observations,
+  public.growth_experiments,
+  public.visual_checks,
+  public.dead_letters
+to service_role;
