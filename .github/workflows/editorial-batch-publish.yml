@@ -8,8 +8,6 @@ on:
       - 'scripts/compile-editorial-artifacts.mjs'
       - 'src/data/categories.js'
   workflow_dispatch:
-  schedule:
-    - cron: '17 * * * *'
 
 permissions:
   contents: write
