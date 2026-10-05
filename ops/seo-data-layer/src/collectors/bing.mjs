@@ -3,8 +3,8 @@ import { daysAgo, writeSnapshot } from '../lib/io.mjs';
 const apiKey = process.env.BING_WEBMASTER_API_KEY;
 const date = process.env.SEO_END_DATE || daysAgo(1);
 const rawSites = process.env.BING_SITE_URLS || '';
-const keywordCountry = process.env.BING_KEYWORD_COUNTRY || 'US';
-const keywordLanguage = process.env.BING_KEYWORD_LANGUAGE || 'en-US';
+const keywordCountry = (process.env.BING_KEYWORD_COUNTRY || 'us').trim().toLowerCase();
+const keywordLanguage = (process.env.BING_KEYWORD_LANGUAGE || 'en-US').trim();
 const configuredKeywordSeeds = process.env.BING_KEYWORD_SEEDS || '';
 
 if (!apiKey) {
@@ -35,7 +35,10 @@ async function getApi(method, params = {}) {
     headers: { Accept: 'application/json' },
     signal: AbortSignal.timeout(timeoutMs)
   });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  if (!response.ok) {
+    const diagnostic = redact((await response.text()).slice(0, 500)).replace(/\s+/g, ' ').trim();
+    throw new Error(`HTTP ${response.status}${diagnostic ? `: ${diagnostic}` : ''}`);
+  }
   const payload = await response.json();
   if (payload?.ErrorCode || payload?.error) throw new Error('Bing API returned an error');
   return payload?.d ?? payload;
