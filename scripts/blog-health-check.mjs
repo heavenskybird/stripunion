@@ -7,7 +7,10 @@ const timeoutMs = 15_000;
 const maxBytes = 2_000_000;
 const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';
 const expectedGoogleTagId = process.env.EXPECTED_GOOGLE_TAG_ID?.trim() || '';
+const expectedClarityProjectId = (process.env.EXPECTED_CLARITY_PROJECT_ID?.trim() || 'ysuowheiiz').toLowerCase();
+const requireClarity = process.env.REQUIRE_CLARITY === 'true';
 const analyticsIdPattern = /\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\b/gi;
+const clarityTagPattern = /clarity\.ms\/tag\/([a-z0-9]{6,20})/gi;
 
 function attributes(tag) {
   const result = {};
@@ -159,6 +162,44 @@ async function main() {
       ? 'WARN Blog public HTML contains no GA4 Measurement ID.'
       : `WARN Blog public HTML Measurement ID does not match expected ${expectedMeasurementId}.`);
   }
+
+  const clarityIds = [...new Set(
+    [...homepage.body, ...post.body]
+      .join('\n')
+      .matchAll(clarityTagPattern)
+      .map((match) => String(match[1] || '').toLowerCase())
+  )];
+  const clarityStatus = !clarityIds.length
+    ? 'MISSING'
+    : clarityIds.includes(expectedClarityProjectId)
+      ? 'CONNECTED'
+      : 'MISMATCH';
+  const consentSurfacePresent = /cmplz|complianz|wp-consent-api|wp_consent/i.test(homepage.body + '\n' + post.body);
+
+  console.log(`BLOG_CLARITY_IDS ${clarityIds.length ? clarityIds.join(', ') : 'none detected'}`);
+  console.log(`BLOG_CLARITY: ${clarityStatus}`);
+  console.log(`BLOG_CONSENT_SURFACE: ${consentSurfacePresent ? 'PRESENT' : 'NOT_OBSERVED'}`);
+
+  if (process.env.GITHUB_OUTPUT) {
+    await fs.appendFile(
+      process.env.GITHUB_OUTPUT,
+      [
+        `clarity_status=${clarityStatus}`,
+        `clarity_accepted=${clarityStatus === 'CONNECTED' ? 'true' : 'false'}`,
+        `consent_surface=${consentSurfacePresent ? 'present' : 'not_observed'}`,
+        ''
+      ].join('\n'),
+      'utf8'
+    );
+  }
+
+  if (clarityStatus !== 'CONNECTED') {
+    const message = clarityStatus === 'MISSING'
+      ? 'Blog public HTML contains no Microsoft Clarity tracking tag.'
+      : `Blog Clarity project ID does not match expected ${expectedClarityProjectId}.`;
+    if (requireClarity) throw new Error(message);
+    console.log(`WARN ${message}`);
+  }
 }
 
 function selfTest() {
@@ -178,6 +219,7 @@ function selfTest() {
   assert.equal(analyticsStatus(['GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'CONNECTED');
   assert.equal(analyticsStatus(['G-OTHER123456', 'GT-P8VJLHT3'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
   assert.equal(analyticsStatus(['G-TEST123456', 'G-OTHER123456'], ['G-TEST123456', 'GT-P8VJLHT3']), 'MISMATCH');
+  assert.deepEqual([...'<script src="https://www.clarity.ms/tag/ysuowheiiz"></script>'.matchAll(clarityTagPattern)].map((match) => match[1]), ['ysuowheiiz']);
   const statusFor = (ids, expected) => {
     const status = !ids.length ? 'MISSING' : expected && !ids.includes(expected) ? 'MISMATCH' : 'CONNECTED';
     return { status, acceptancePassed: status === 'CONNECTED' };
