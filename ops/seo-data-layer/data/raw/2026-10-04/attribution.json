@@ -1,0 +1,46 @@
+{
+  "collectedAt": "2026-10-05T07:10:57.505Z",
+  "receiverConnected": true,
+  "postbackJoinReady": true,
+  "reportScope": "first-party AVCams click/postback attribution",
+  "totalClicks": 2,
+  "totalPostbacks": 0,
+  "matchedPostbacks": 0,
+  "unmatchedPostbacks": 0,
+  "duplicatePostbacks": 0,
+  "eventCounts": {},
+  "revenueByCurrency": {},
+  "byP1": {
+    "avcams": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "byAffiliateSource": {
+    "avcams_model_signup": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage_live_now": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "updatedAt": "2026-10-05T06:24:45.204Z"
+}
