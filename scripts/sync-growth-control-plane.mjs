@@ -6,6 +6,7 @@ import { controlPlaneConfig, upsertRows } from '../ops/control-plane/client.mjs'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const now = () => new Date().toISOString();
+const syncSource = String(process.env.CONTROL_PLANE_SOURCE || 'repository-shadow-sync').trim() || 'repository-shadow-sync';
 
 async function readJson(file, fallback = null) {
   try {
@@ -168,10 +169,10 @@ try {
 
   await upsertRows(config, 'control_plane_runs', [{
     id: runId,
-    source: 'repository-shadow-sync',
+    source: syncSource,
     status: 'running',
     started_at: startedAt,
-    snapshot: snapshot.counts,
+    snapshot: { ...snapshot.counts, gitSha: process.env.GITHUB_SHA || null, githubRunId: process.env.GITHUB_RUN_ID || null },
     error: null
   }], 'id');
 
@@ -182,11 +183,11 @@ try {
 
   await upsertRows(config, 'control_plane_runs', [{
     id: runId,
-    source: 'repository-shadow-sync',
+    source: syncSource,
     status: 'succeeded',
     started_at: startedAt,
     completed_at: now(),
-    snapshot: snapshot.counts,
+    snapshot: { ...snapshot.counts, gitSha: process.env.GITHUB_SHA || null, githubRunId: process.env.GITHUB_RUN_ID || null },
     error: null
   }], 'id');
 
@@ -195,7 +196,7 @@ try {
   try {
     await upsertRows(config, 'control_plane_runs', [{
       id: runId,
-      source: 'repository-shadow-sync',
+      source: syncSource,
       status: 'failed',
       started_at: startedAt,
       completed_at: now(),
