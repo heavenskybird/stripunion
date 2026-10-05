@@ -8,14 +8,14 @@ function boolEnv(name, fallback = false) {
 
 export function controlPlaneConfig() {
   const url = String(process.env.SUPABASE_URL || '').trim().replace(/\/+$/, '');
-  const serviceRoleKey = String(process.env.SUPABASE_SERVICE_ROLE_KEY || '').trim();
+  const secretKey = String(process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || '').trim();
   const required = boolEnv('CONTROL_PLANE_REQUIRED', false);
 
   return {
     url,
-    serviceRoleKey,
+    secretKey,
     required,
-    configured: Boolean(url && serviceRoleKey)
+    configured: Boolean(url && secretKey)
   };
 }
 
@@ -31,8 +31,8 @@ async function request(config, table, rows, onConflict) {
   const response = await fetch(config.url + '/rest/v1/' + table + query, {
     method: 'POST',
     headers: {
-      apikey: config.serviceRoleKey,
-      Authorization: 'Bearer ' + config.serviceRoleKey,
+      apikey: config.secretKey,
+      ...(config.secretKey.startsWith('sb_secret_') ? {} : { Authorization: 'Bearer ' + config.secretKey }),
       'Content-Type': 'application/json',
       Prefer: 'resolution=merge-duplicates,return=minimal'
     },

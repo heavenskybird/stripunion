@@ -265,6 +265,7 @@ jobs:
         continue-on-error: true
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           CONTROL_PLANE_REQUIRED: 'false'
         run: npm run sync:growth-control-plane

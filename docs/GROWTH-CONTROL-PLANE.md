@@ -40,7 +40,7 @@ Row Level Security is enabled with no anonymous policies. GitHub Actions uses a 
 1. Create a Supabase Free project (or compatible PostgreSQL instance with a PostgREST endpoint).
 2. Apply `ops/control-plane/schema.sql` in the SQL editor.
 3. Add repository variable `SUPABASE_URL`.
-4. Add repository secret `SUPABASE_SERVICE_ROLE_KEY`.
+4. Create a Supabase **secret API key** (`sb_secret_...`) and add it as repository secret `SUPABASE_SECRET_KEY`. The legacy `SUPABASE_SECRET_KEY` is supported only as a fallback.
 5. Run `npm run sync:growth-control-plane` through the hourly producer or a manual Actions run.
 
 Never put the service-role key in source, chat, browser JavaScript or public logs.

@@ -37,6 +37,7 @@ jobs:
       - name: Mirror repository state to Supabase
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           CONTROL_PLANE_REQUIRED: ${{ inputs.required }}
         run: node scripts/sync-growth-control-plane.mjs
