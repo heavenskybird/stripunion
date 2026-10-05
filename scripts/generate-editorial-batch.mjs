@@ -5,14 +5,15 @@ import { categories } from '../src/data/categories.js';
 
 const apiKey = process.env.OPENAI_API_KEY;
 const model = process.env.EDITORIAL_MODEL || 'gpt-6-luna';
-const batchSize = Number(process.env.EDITORIAL_BATCH_SIZE || 5);
+const targetBatchSize = Number(process.env.EDITORIAL_BATCH_SIZE || 5);
 const artifactDir = 'ops/editorial/content-artifacts';
 const guideDir = 'src/data/guides';
 const ledgerDir = 'ops/editorial/publication-ledger/astro';
 const backlogPath = 'ops/editorial/hourly-backlog.json';
+const batchManifestPath = '/tmp/stripunion-editorial-batch.json';
 
 if (!apiKey) throw new Error('OPENAI_API_KEY is required for autonomous editorial generation.');
-if (!Number.isInteger(batchSize) || batchSize < 1 || batchSize > 8) {
+if (!Number.isInteger(targetBatchSize) || targetBatchSize < 1 || targetBatchSize > 8) {
   throw new Error('EDITORIAL_BATCH_SIZE must be an integer between 1 and 8.');
 }
 
@@ -86,6 +87,18 @@ async function readJson(file) {
   return JSON.parse(await fs.readFile(file, 'utf8'));
 }
 
+async function loadArtifacts() {
+  const rows = [];
+  for (const name of await listFiles(artifactDir, '.json')) {
+    const file = path.join(artifactDir, name);
+    try {
+      const data = await readJson(file);
+      if (data?.backlogId && data?.slug) rows.push({ file, data });
+    } catch {}
+  }
+  return rows;
+}
+
 async function loadLedgerCounts() {
   const counts = Object.fromEntries(categories.map((category) => [category.slug, 0]));
   for (const name of await listFiles(ledgerDir, '.json')) {
@@ -124,6 +137,29 @@ function artifactSignature(artifact) {
   return tokens([artifact.title, artifact.description, artifact.excerpt, headings].join(' '));
 }
 
+function structuralReady(artifact) {
+  if (!artifact || typeof artifact !== 'object') return false;
+  if (!/^[a-z0-9-]+$/.test(artifact.slug || '')) return false;
+  if (!/^[a-z0-9-]+$/.test(artifact.backlogId || '')) return false;
+  if (!categories.some((category) => category.slug === artifact.categorySlug)) return false;
+  if (!Array.isArray(artifact.keyTakeaways) || artifact.keyTakeaways.length < 4) return false;
+  if (!Array.isArray(artifact.sections) || artifact.sections.length < 5) return false;
+  if (!Array.isArray(artifact.faqs) || artifact.faqs.length < 3) return false;
+  if (!artifact.sections.some((section) => section.table || (Array.isArray(section.bullets) && section.bullets.length >= 3))) return false;
+  return wordCount({ keyTakeaways: artifact.keyTakeaways, sections: artifact.sections, faqs: artifact.faqs }) >= 700;
+}
+
+function overlapRisk(artifact, existingGuides) {
+  const signature = artifactSignature(artifact);
+  let max = { score: 0, slug: null };
+  for (const guide of existingGuides) {
+    const guideSignature = tokens([guide.title, guide.description, guide.headings].join(' '));
+    const score = jaccard(signature, guideSignature);
+    if (score > max.score) max = { score, slug: guide.slug };
+  }
+  return max;
+}
+
 function validateBatch(payload, selectedCategories, existingGuides, existingBacklogIds, existingSlugs) {
   const errors = [];
   const artifacts = Array.isArray(payload?.artifacts) ? payload.artifacts : [];
@@ -148,7 +184,7 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
     }
 
     if (!selected.has(artifact.categorySlug)) errors.push('Unexpected categorySlug: ' + artifact.categorySlug);
-    if (seenCategories.has(artifact.categorySlug)) errors.push('Duplicate category in batch: ' + artifact.categorySlug);
+    if (seenCategories.has(artifact.categorySlug)) errors.push('Duplicate category in generated portion: ' + artifact.categorySlug);
     seenCategories.add(artifact.categorySlug);
 
     if (!/^[a-z0-9-]+$/.test(artifact.slug || '')) errors.push('Invalid slug: ' + artifact.slug);
@@ -186,29 +222,90 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
 }
 
 const existingGuides = await loadExistingGuides();
+const existingGuideSlugs = new Set(existingGuides.map((guide) => guide.slug));
+const allArtifacts = await loadArtifacts();
 const ledgerCounts = await loadLedgerCounts();
 const guideCounts = Object.fromEntries(categories.map((category) => [category.slug, 0]));
+
 for (const guide of existingGuides) {
   if (guide.categorySlug && Object.hasOwn(guideCounts, guide.categorySlug)) guideCounts[guide.categorySlug] += 1;
 }
 
+function categoryBuildScore(categorySlug) {
+  return (ledgerCounts[categorySlug] || 0) * 4 + (guideCounts[categorySlug] || 0);
+}
+
+const carryoverRejected = [];
+const carryoverCandidates = [];
+
+for (const row of allArtifacts) {
+  if (existingGuideSlugs.has(row.data.slug)) continue;
+  if (!structuralReady(row.data)) {
+    carryoverRejected.push({ file: row.file, reason: 'structural_quality_gate' });
+    continue;
+  }
+  const risk = overlapRisk(row.data, existingGuides);
+  if (risk.score >= 0.42) {
+    carryoverRejected.push({ file: row.file, reason: 'overlap', with: risk.slug, score: Number(risk.score.toFixed(2)) });
+    continue;
+  }
+  carryoverCandidates.push(row);
+}
+
+carryoverCandidates.sort((a, b) =>
+  categoryBuildScore(a.data.categorySlug) - categoryBuildScore(b.data.categorySlug) ||
+  rotateTie(a.data.categorySlug) - rotateTie(b.data.categorySlug) ||
+  a.file.localeCompare(b.file)
+);
+
+const carryovers = [];
+const usedCategories = new Set();
+for (const row of carryoverCandidates) {
+  if (carryovers.length >= targetBatchSize) break;
+  if (usedCategories.has(row.data.categorySlug)) continue;
+  carryovers.push(row);
+  usedCategories.add(row.data.categorySlug);
+}
+
+const generationCount = targetBatchSize - carryovers.length;
+
 const selectedCategories = [...categories]
-  .sort((a, b) => {
-    const aScore = (ledgerCounts[a.slug] || 0) * 4 + (guideCounts[a.slug] || 0);
-    const bScore = (ledgerCounts[b.slug] || 0) * 4 + (guideCounts[b.slug] || 0);
-    return aScore - bScore || rotateTie(a.slug) - rotateTie(b.slug);
-  })
-  .slice(0, batchSize);
+  .filter((category) => !usedCategories.has(category.slug))
+  .sort((a, b) =>
+    categoryBuildScore(a.slug) - categoryBuildScore(b.slug) ||
+    rotateTie(a.slug) - rotateTie(b.slug)
+  )
+  .slice(0, generationCount);
+
+if (selectedCategories.length !== generationCount) {
+  throw new Error('Unable to select enough distinct categories to fill the hourly batch.');
+}
 
 const backlog = await readJson(backlogPath);
 const existingBacklogIds = new Set((backlog.queue || []).map((item) => item.id));
 const existingSlugs = new Set(existingGuides.map((guide) => guide.slug));
-for (const name of await listFiles(artifactDir, '.json')) {
-  try {
-    const artifact = await readJson(path.join(artifactDir, name));
-    if (artifact?.slug) existingSlugs.add(artifact.slug);
-    if (artifact?.backlogId) existingBacklogIds.add(artifact.backlogId);
-  } catch {}
+
+for (const { data } of allArtifacts) {
+  if (data?.slug) existingSlugs.add(data.slug);
+  if (data?.backlogId) existingBacklogIds.add(data.backlogId);
+}
+
+for (const { data } of carryovers) {
+  if (!(backlog.queue || []).some((item) => item.id === data.backlogId)) {
+    backlog.queue.push({
+      id: data.backlogId,
+      category: data.categoryLabel,
+      intent: data.title,
+      surface: 'main',
+      priority: 96,
+      status: 'ready',
+      source_requirements: [
+        'carry-over artifact already passed the provider-neutral editorial contract; revalidate before compile'
+      ],
+      monetization: 'contextual_or_approved_offers_only',
+      notes: 'Near-ready repository inventory selected before generating new material.'
+    });
+  }
 }
 
 const existingTitleContext = existingGuides
@@ -256,90 +353,98 @@ const schemaHint = {
 };
 
 let lastErrors = [];
-let accepted = null;
+let accepted = [];
 
-for (let attempt = 1; attempt <= 3; attempt += 1) {
-  const userPrompt = [
-    'Generate exactly ' + selectedCategories.length + ' original editorial artifacts, one for each selected category below.',
-    '',
-    'Selected categories:',
-    JSON.stringify(selectedCategories.map((category) => ({
-      slug: category.slug,
-      name: category.name,
-      description: category.description,
-      factors: category.factors
-    })), null, 2),
-    '',
-    'Existing published/current titles to avoid cannibalizing:',
-    JSON.stringify(existingTitleContext, null, 2),
-    '',
-    'Required JSON shape:',
-    JSON.stringify(schemaHint, null, 2),
-    '',
-    'Quality requirements:',
-    '- At least 700 substantive words per artifact across takeaways, sections and FAQs.',
-    '- At least 5 substantive sections.',
-    '- At least one genuinely useful table or checklist.',
-    '- At least 3 FAQs.',
-    '- Mobile-scannable paragraphs and headings.',
-    '- Distinct search intent for every article.',
-    '- No generic filler such as merely saying users should research a topic.',
-    '- No affiliate payout, price, popularity, performance or capability claims.',
-    '- No explicit sexual prose.',
-    '',
-    lastErrors.length ? 'Previous attempt failed these checks; fix them:\n' + lastErrors.join('\n') : ''
-  ].join('\n');
+if (generationCount > 0) {
+  accepted = null;
 
-  const response = await fetch('https://api.openai.com/v1/responses', {
-    method: 'POST',
-    headers: {
-      'Authorization': 'Bearer ' + apiKey,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      model,
-      instructions: systemPrompt,
-      input: userPrompt,
-      max_output_tokens: 20000,
-      store: false
-    })
-  });
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const userPrompt = [
+      'Generate exactly ' + selectedCategories.length + ' original editorial artifacts, one for each selected category below.',
+      '',
+      'Selected categories:',
+      JSON.stringify(selectedCategories.map((category) => ({
+        slug: category.slug,
+        name: category.name,
+        description: category.description,
+        factors: category.factors
+      })), null, 2),
+      '',
+      'Existing published/current titles to avoid cannibalizing:',
+      JSON.stringify(existingTitleContext, null, 2),
+      '',
+      'Carry-over categories already occupying this hourly batch (do not use them):',
+      JSON.stringify([...usedCategories], null, 2),
+      '',
+      'Required JSON shape:',
+      JSON.stringify(schemaHint, null, 2),
+      '',
+      'Quality requirements:',
+      '- At least 700 substantive words per artifact across takeaways, sections and FAQs.',
+      '- At least 5 substantive sections.',
+      '- At least one genuinely useful table or checklist.',
+      '- At least 3 FAQs.',
+      '- Mobile-scannable paragraphs and headings.',
+      '- Distinct search intent for every article.',
+      '- No generic filler such as merely saying users should research a topic.',
+      '- No affiliate payout, price, popularity, performance or capability claims.',
+      '- No explicit sexual prose.',
+      '',
+      lastErrors.length ? 'Previous attempt failed these checks; fix them:\n' + lastErrors.join('\n') : ''
+    ].join('\n');
 
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error('OpenAI Responses API failed: ' + response.status + ' ' + body.slice(0, 1200));
+    const response = await fetch('https://api.openai.com/v1/responses', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + apiKey,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        model,
+        instructions: systemPrompt,
+        input: userPrompt,
+        max_output_tokens: 20000,
+        store: false
+      })
+    });
+
+    if (!response.ok) {
+      const body = await response.text();
+      throw new Error('OpenAI Responses API failed: ' + response.status + ' ' + body.slice(0, 1200));
+    }
+
+    const data = await response.json();
+    const outputText = extractOutputText(data);
+    if (!outputText) {
+      lastErrors = ['Model returned no output text.'];
+      continue;
+    }
+
+    let payload;
+    try {
+      payload = parseJsonText(outputText);
+    } catch (error) {
+      lastErrors = ['Invalid JSON: ' + error.message];
+      continue;
+    }
+
+    const validation = validateBatch(payload, selectedCategories, existingGuides, existingBacklogIds, existingSlugs);
+    if (!validation.errors.length) {
+      accepted = validation.artifacts;
+      break;
+    }
+    lastErrors = validation.errors.slice(0, 16);
   }
 
-  const data = await response.json();
-  const outputText = extractOutputText(data);
-  if (!outputText) {
-    lastErrors = ['Model returned no output text.'];
-    continue;
+  if (!accepted) {
+    throw new Error('Unable to generate a valid non-cannibalizing editorial batch after retries:\n' + lastErrors.join('\n'));
   }
-
-  let payload;
-  try {
-    payload = parseJsonText(outputText);
-  } catch (error) {
-    lastErrors = ['Invalid JSON: ' + error.message];
-    continue;
-  }
-
-  const validation = validateBatch(payload, selectedCategories, existingGuides, existingBacklogIds, existingSlugs);
-  if (!validation.errors.length) {
-    accepted = validation.artifacts;
-    break;
-  }
-  lastErrors = validation.errors.slice(0, 16);
-}
-
-if (!accepted) {
-  throw new Error('Unable to generate a valid non-cannibalizing editorial batch after retries:\n' + lastErrors.join('\n'));
 }
 
 await fs.mkdir(artifactDir, { recursive: true });
 const today = new Date().toISOString().slice(0, 10);
 const selectedBySlug = new Map(selectedCategories.map((category) => [category.slug, category]));
+const generatedRows = [];
 
 for (const raw of accepted) {
   const category = selectedBySlug.get(raw.categorySlug);
@@ -358,6 +463,7 @@ for (const raw of accepted) {
 
   const file = path.join(artifactDir, artifact.backlogId + '.json');
   await fs.writeFile(file, JSON.stringify(artifact, null, 2) + '\n', 'utf8');
+  generatedRows.push({ file, data: artifact });
 
   backlog.queue.push({
     id: artifact.backlogId,
@@ -374,12 +480,36 @@ for (const raw of accepted) {
   });
 }
 
+const batchRows = [...carryovers, ...generatedRows];
+if (batchRows.length !== targetBatchSize) {
+  throw new Error('Hourly batch planning produced ' + batchRows.length + ' items; expected ' + targetBatchSize + '.');
+}
+
 backlog.updated_at = today;
 await fs.writeFile(backlogPath, JSON.stringify(backlog, null, 2) + '\n', 'utf8');
 
-console.log('EDITORIAL_BATCH_GENERATED ' + JSON.stringify({
+const manifest = {
+  version: 1,
+  generatedAt: new Date().toISOString(),
+  targetCount: targetBatchSize,
+  count: batchRows.length,
+  carryoverCount: carryovers.length,
+  generatedCount: generatedRows.length,
+  artifactFiles: batchRows.map((row) => row.file),
+  guideFiles: batchRows.map((row) => path.join(guideDir, row.data.slug + '.js')),
+  categories: batchRows.map((row) => row.data.categorySlug),
+  backlogIds: batchRows.map((row) => row.data.backlogId),
+  skippedCarryover: carryoverRejected
+};
+
+await fs.writeFile(batchManifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
+
+console.log('EDITORIAL_BATCH_PLANNED ' + JSON.stringify({
   model,
-  count: accepted.length,
-  categories: selectedCategories.map((category) => category.slug),
-  artifacts: accepted.map((artifact) => artifact.backlogId)
+  target: targetBatchSize,
+  carryoverCount: carryovers.length,
+  generatedCount: generatedRows.length,
+  categories: manifest.categories,
+  artifacts: manifest.backlogIds,
+  skippedCarryover: carryoverRejected
 }));
