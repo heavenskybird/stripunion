@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const opportunitiesPath = path.join(root, 'ops/growth/opportunities/latest.json');
 const offersPath = path.join(root, 'ops/growth/offers/direct-offers.json');
+const experimentStatePath = path.join(root, 'ops/growth/experiments/state.json');
 const outDir = path.join(root, 'ops/growth/decisions');
 
 async function readJson(file, fallback = null) {
@@ -82,10 +83,25 @@ if (process.argv.includes('--self-test')) {
   process.exit(0);
 }
 
-const [growth, offers] = await Promise.all([
+const [growth, offers, experimentState] = await Promise.all([
   readJson(opportunitiesPath, {}),
-  readJson(offersPath, { offers: [] })
+  readJson(offersPath, { offers: [] }),
+  readJson(experimentStatePath, { experiments: [] })
 ]);
+
+const validatedLearnings = (experimentState.experiments || [])
+  .filter((item) => item.status === 'completed')
+  .map((item) => ({
+    experimentId: item.experimentId,
+    kind: item.kind,
+    surface: item.surface,
+    winner: item.winner || null,
+    conclusion: item.lastEvaluation?.status || 'completed',
+    relativeLift: item.lastEvaluation?.relativeLift ?? null,
+    zScore: item.lastEvaluation?.zScore ?? null,
+    endedAt: item.endedAt || null
+  }))
+  .sort((a, b) => String(b.endedAt || '').localeCompare(String(a.endedAt || '')));
 
 const generatedAt = new Date().toISOString();
 const decisions = [];
@@ -210,6 +226,7 @@ const result = {
     aggregateMonetization: growth?.monetization || null,
     attributionSource: growth?.sources?.attribution || null
   },
+  validatedLearnings,
   portfolio: {
     safeCreateCount,
     updateCount,
