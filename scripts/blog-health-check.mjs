@@ -8,6 +8,7 @@ const maxBytes = 2_000_000;
 const expectedMeasurementId = process.env.EXPECTED_GA4_MEASUREMENT_ID?.trim() || '';
 const expectedGoogleTagId = process.env.EXPECTED_GOOGLE_TAG_ID?.trim() || '';
 const expectedClarityProjectId = (process.env.EXPECTED_CLARITY_PROJECT_ID?.trim() || 'ysuowheiiz').toLowerCase();
+const requireAnalytics = process.env.REQUIRE_ANALYTICS === 'true';
 const requireClarity = process.env.REQUIRE_CLARITY === 'true';
 const analyticsIdPattern = /\b(?:G-[A-Z0-9]{4,20}|GT-[A-Z0-9]{4,20})\b/gi;
 const clarityTagPattern = /clarity\.ms\/tag\/([a-z0-9]{6,20})/gi;
@@ -158,9 +159,11 @@ async function main() {
     await fs.appendFile(process.env.GITHUB_OUTPUT, `analytics_status=${analyticsStatus}\nanalytics_accepted=${accepted}\n`, 'utf8');
   }
   if (analyticsStatus !== 'CONNECTED') {
-    console.log(analyticsStatus === 'MISSING'
-      ? 'WARN Blog public HTML contains no GA4 Measurement ID.'
-      : `WARN Blog public HTML Measurement ID does not match expected ${expectedMeasurementId}.`);
+    const message = analyticsStatus === 'MISSING'
+      ? 'Blog public HTML contains no GA4 Measurement ID.'
+      : `Blog public HTML Measurement ID does not match expected ${expectedMeasurementId}.`;
+    if (requireAnalytics) throw new Error(message);
+    console.log(`WARN ${message}`);
   }
 
   const clarityIds = [...new Set(
