@@ -11,6 +11,7 @@ const guideDir = 'src/data/guides';
 const ledgerDir = 'ops/editorial/publication-ledger/astro';
 const backlogPath = 'ops/editorial/hourly-backlog.json';
 const growthOpportunityPath = 'ops/growth/opportunities/latest.json';
+const growthDecisionPath = 'ops/growth/decisions/latest.json';
 const batchManifestPath = '/tmp/stripunion-editorial-batch.json';
 
 if (!apiKey) throw new Error('OPENAI_API_KEY is required for autonomous editorial generation.');
@@ -234,6 +235,7 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
 const existingGuides = await loadExistingGuides();
 const existingGuideSlugs = new Set(existingGuides.map((guide) => guide.slug));
 const growthIntelligence = await readJsonOptional(growthOpportunityPath);
+const growthDecisions = await readJsonOptional(growthDecisionPath);
 const allArtifacts = await loadArtifacts();
 const ledgerCounts = await loadLedgerCounts();
 const guideCounts = Object.fromEntries(categories.map((category) => [category.slug, 0]));
@@ -324,6 +326,20 @@ const existingTitleContext = existingGuides
   .map((guide) => ({ slug: guide.slug, categorySlug: guide.categorySlug, title: guide.title }));
 
 const growthPlanningContext = {
+  brainDecisions: (growthDecisions?.decisions || [])
+    .filter((row) => row.eligible && ['CREATE', 'UPDATE', 'MIGRATE'].includes(row.action))
+    .slice(0, 16)
+    .map((row) => ({
+      action: row.action,
+      priority: row.priority,
+      subject: row.subject,
+      surface: row.surface,
+      monetizationRoute: row.monetizationRoute,
+      risk: row.risk,
+      confidence: row.confidence,
+      rationale: row.rationale
+    })),
+  governor: growthDecisions?.governor || null,
   observedSearchOpportunities: (growthIntelligence?.opportunities || []).slice(0, 12).map((row) => ({
     targetKeyword: row.targetKeyword,
     recommendedAction: row.recommendedAction,
@@ -436,7 +452,9 @@ if (generationCount > 0) {
       JSON.stringify(growthPlanningContext, null, 2),
       '',
       'How to use these signals:',
-      '- Use them only to choose a genuinely useful user job or framing inside the selected categories.',
+      '- Treat Growth Brain brainDecisions as the ranked strategy layer. Prefer eligible high-priority CREATE decisions that fit the selected category; UPDATE/MIGRATE decisions describe existing surfaces and must not become duplicate new pages.',
+      '- Respect the Growth Brain governor. Publication targets are ceilings/objectives; never create filler merely to satisfy a number.',
+      '- Use the remaining raw signals only to choose a genuinely useful user job or framing inside the selected categories.',
       '- Treat Bing keyword impressions and trend signals as planning evidence, never as factual traffic/search-volume claims to publish in the article.',
       '- Do not create a new page when keywordExpansion.recommendedUse or an observed search signal points to an existing/pending page; avoid search cannibalization.',
       '- CTA and Clarity behavior signals are UX evidence for structure, internal links and CTA placement; they are not reasons by themselves to invent a new topic.',

@@ -29,6 +29,12 @@ jobs:
           node --check ops/growth/collect-competitors.mjs
           node --check ops/growth/content-inventory.mjs
           node --check ops/growth/opportunities.mjs
+          node --check ops/growth/brain.mjs
+          node ops/growth/brain.mjs --self-test
+          node --check ops/growth/experiments.mjs
+          node ops/growth/experiments.mjs --self-test
+          node --check ops/growth/observations.mjs
+          node ops/growth/observations.mjs --self-test
           node scripts/content-quality-gate.mjs --self-test
           node ops/seo-data-layer/src/collectors/ga4-admin.mjs --self-test
           node --check ops/seo-data-layer/src/collectors/ga4.mjs
