@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-05T08:47:49.778Z",
+  "generatedAt": "2026-10-05T09:27:48.012Z",
   "sourceDates": {
     "gsc": "2026-10-03",
     "ga4": "2026-10-04",
-    "clarity": null,
+    "clarity": "2026-10-05",
     "bing": "2026-10-04",
     "buffer": "2026-10-04",
     "stripcash": "2026-10-04",
@@ -12,7 +12,7 @@
   "sources": {
     "gsc": true,
     "ga4": true,
-    "clarity": false,
+    "clarity": true,
     "bing": true,
     "buffer": true,
     "stripcash": true,
@@ -1704,10 +1704,31 @@
       "topRelated": [
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 57973684,
+          "Impressions": 1857718,
+          "Query": "chat",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 27314511,
+          "Impressions": 8663735,
+          "Query": "porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 27314511,
           "Impressions": 8663735,
           "Query": "porn",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 27314511,
+          "Impressions": 8663735,
+          "Query": "porn",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1721,14 +1742,14 @@
           "BroadImpressions": 2268204,
           "Impressions": 1741993,
           "Query": "free porn",
-          "seed": "xhamster review"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 2268204,
           "Impressions": 1741993,
           "Query": "free porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1746,13 +1767,6 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 351489,
-          "Impressions": 23675,
-          "Query": "hamster",
-          "seed": "xhamster reviews"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 332207,
           "Impressions": 320138,
           "Query": "freeporn",
@@ -1763,14 +1777,14 @@
           "BroadImpressions": 245685,
           "Impressions": 245434,
           "Query": "xhampster",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 245685,
           "Impressions": 245434,
           "Query": "xhampster",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1795,10 +1809,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 98970,
-          "Impressions": 83899,
-          "Query": "x hamster",
-          "seed": "xhamster review"
+          "BroadImpressions": 204401,
+          "Impressions": 201433,
+          "Query": "chaterbate",
+          "seed": "chaturbate alternatives"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1813,13 +1827,6 @@
           "Impressions": 83899,
           "Query": "x hamster",
           "seed": "xhamster reviews"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 91263,
-          "Impressions": 79690,
-          "Query": "hamster porn",
-          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1834,13 +1841,6 @@
           "Impressions": 4391,
           "Query": "affiliate",
           "seed": "adult affiliate program"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 64584,
-          "Impressions": 61995,
-          "Query": "xham",
-          "seed": "xhamster review"
         }
       ]
     }
@@ -1925,7 +1925,24 @@
       }
     ]
   },
-  "clarity": null,
+  "clarity": {
+    "date": "2026-10-05",
+    "projectId": "ysuowheiiz",
+    "numOfDays": 3,
+    "metricNames": [
+      "DeadClickCount",
+      "ExcessiveScroll",
+      "RageClickCount",
+      "QuickbackClick",
+      "ScriptErrorCount",
+      "ErrorClickCount",
+      "ScrollDepth",
+      "Traffic",
+      "EngagementTime"
+    ],
+    "metricGroups": 9,
+    "informationRows": 4
+  },
   "buffer": {
     "channel": {
       "id": "6ab75d92ea19ca0bdef12700",

@@ -1,0 +1,85 @@
+{
+  "source": "microsoft-clarity-data-export",
+  "collectedAt": "2026-10-05T09:27:32.197Z",
+  "projectId": "ysuowheiiz",
+  "numOfDays": 3,
+  "dimension1": "URL",
+  "metricNames": [
+    "DeadClickCount",
+    "ExcessiveScroll",
+    "RageClickCount",
+    "QuickbackClick",
+    "ScriptErrorCount",
+    "ErrorClickCount",
+    "ScrollDepth",
+    "Traffic",
+    "EngagementTime"
+  ],
+  "metrics": [
+    {
+      "metricName": "DeadClickCount",
+      "information": []
+    },
+    {
+      "metricName": "ExcessiveScroll",
+      "information": []
+    },
+    {
+      "metricName": "RageClickCount",
+      "information": []
+    },
+    {
+      "metricName": "QuickbackClick",
+      "information": []
+    },
+    {
+      "metricName": "ScriptErrorCount",
+      "information": []
+    },
+    {
+      "metricName": "ErrorClickCount",
+      "information": []
+    },
+    {
+      "metricName": "ScrollDepth",
+      "information": []
+    },
+    {
+      "metricName": "Traffic",
+      "information": [
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 12,
+          "distinctUserCount": 12,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 13,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 12,
+          "distinctUserCount": 12,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 13,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/guides/adult-site-payment-privacy-billing-guide/"
+        }
+      ]
+    },
+    {
+      "metricName": "EngagementTime",
+      "information": []
+    }
+  ]
+}
