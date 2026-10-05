@@ -86,12 +86,44 @@ export function offerRow(item, observedAt) {
   };
 }
 
+export function observationRow(item) {
+  return {
+    observation_id: String(item.observationId),
+    observed_at: item.observedAt,
+    source: String(item.source),
+    entity_type: String(item.entityType),
+    entity_id: item.entityId || null,
+    metric: String(item.metric),
+    value_numeric: item.valueNumeric == null ? null : Number(item.valueNumeric),
+    value_text: item.valueText || null,
+    dimensions: item.dimensions || {},
+    payload: item.payload || {}
+  };
+}
+
+export function experimentRow(item, updatedAt) {
+  return {
+    experiment_id: String(item.experimentId),
+    status: String(item.status || 'proposed'),
+    surface: item.surface || null,
+    hypothesis: item.hypothesis || null,
+    primary_metric: item.primaryMetric || null,
+    started_at: item.startedAt || null,
+    ended_at: item.endedAt || null,
+    winner: item.winner || null,
+    payload: item,
+    updated_at: updatedAt
+  };
+}
+
 async function loadSnapshot() {
   const observedAt = now();
-  const [opportunities, backlog, offers] = await Promise.all([
+  const [opportunities, backlog, offers, observations, experimentState] = await Promise.all([
     readJson('ops/growth/opportunities/latest.json', { opportunities: [], generatedAt: null }),
     readJson('ops/editorial/hourly-backlog.json', { queue: [], updated_at: null }),
-    readJson('ops/growth/offers/direct-offers.json', { offers: [] })
+    readJson('ops/growth/offers/direct-offers.json', { offers: [] }),
+    readJson('ops/growth/observations/latest.json', { observations: [] }),
+    readJson('ops/growth/experiments/state.json', { experiments: [] })
   ]);
 
   const publicationFiles = await listJson('ops/editorial/publication-ledger/astro');
@@ -114,17 +146,29 @@ async function loadSnapshot() {
     .filter((item) => item?.id)
     .map((item) => offerRow(item, observedAt));
 
+  const observationRows = (observations?.observations || [])
+    .filter((item) => item?.observationId && item?.observedAt && item?.source && item?.entityType && item?.metric)
+    .map(observationRow);
+
+  const experimentRows = (experimentState?.experiments || [])
+    .filter((item) => item?.experimentId)
+    .map((item) => experimentRow(item, observedAt));
+
   return {
     observedAt,
     opportunityRows,
     jobRows,
     publicationRows,
     offerRows,
+    observationRows,
+    experimentRows,
     counts: {
       opportunities: opportunityRows.length,
       contentJobs: jobRows.length,
       publications: publicationRows.length,
-      affiliateOffers: offerRows.length
+      affiliateOffers: offerRows.length,
+      observations: observationRows.length,
+      experiments: experimentRows.length
     }
   };
 }
@@ -135,11 +179,28 @@ async function selfTest() {
   const job = jobRow({ id: 'job-test', status: 'ready', priority: 90 }, at);
   const publication = publicationRow({ slug: 'test-guide', distribution_state: 'distributed' }, at);
   const offer = offerRow({ id: 'offer-test', status: 'active' }, at);
+  const observation = observationRow({
+    observationId: 'obs-test',
+    observedAt: at,
+    source: 'test',
+    entityType: 'site',
+    entityId: 'stripunion.com',
+    metric: 'sessions',
+    valueNumeric: 1
+  });
+  const experiment = experimentRow({
+    experimentId: 'exp-test',
+    status: 'proposed',
+    surface: '/',
+    primaryMetric: 'affiliate_ctr'
+  }, at);
 
   if (opportunity.opportunity_id !== 'gsc-test') throw new Error('Opportunity mapping self-test failed.');
   if (job.job_id !== 'job-test' || job.priority !== 90) throw new Error('Job mapping self-test failed.');
   if (publication.publication_id !== 'astro:test-guide') throw new Error('Publication mapping self-test failed.');
   if (offer.offer_id !== 'offer-test') throw new Error('Offer mapping self-test failed.');
+  if (observation.observation_id !== 'obs-test' || observation.value_numeric !== 1) throw new Error('Observation mapping self-test failed.');
+  if (experiment.experiment_id !== 'exp-test') throw new Error('Experiment mapping self-test failed.');
   console.log('GROWTH_CONTROL_PLANE_SELF_TEST_PASS');
 }
 
@@ -166,13 +227,18 @@ const startedAt = now();
 
 try {
   const snapshot = await loadSnapshot();
+  const auditSnapshot = {
+    ...snapshot.counts,
+    gitSha: process.env.GITHUB_SHA || null,
+    githubRunId: process.env.GITHUB_RUN_ID || null
+  };
 
   await upsertRows(config, 'control_plane_runs', [{
     id: runId,
     source: syncSource,
     status: 'running',
     started_at: startedAt,
-    snapshot: { ...snapshot.counts, gitSha: process.env.GITHUB_SHA || null, githubRunId: process.env.GITHUB_RUN_ID || null },
+    snapshot: auditSnapshot,
     error: null
   }], 'id');
 
@@ -180,6 +246,8 @@ try {
   await upsertRows(config, 'content_jobs', snapshot.jobRows, 'job_id');
   await upsertRows(config, 'publications', snapshot.publicationRows, 'publication_id');
   await upsertRows(config, 'affiliate_offers', snapshot.offerRows, 'offer_id');
+  await upsertRows(config, 'growth_observations', snapshot.observationRows, 'observation_id');
+  await upsertRows(config, 'growth_experiments', snapshot.experimentRows, 'experiment_id');
 
   await upsertRows(config, 'control_plane_runs', [{
     id: runId,
@@ -187,7 +255,7 @@ try {
     status: 'succeeded',
     started_at: startedAt,
     completed_at: now(),
-    snapshot: { ...snapshot.counts, gitSha: process.env.GITHUB_SHA || null, githubRunId: process.env.GITHUB_RUN_ID || null },
+    snapshot: auditSnapshot,
     error: null
   }], 'id');
 
