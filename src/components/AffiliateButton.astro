@@ -1,6 +1,7 @@
 ---
 import { AFFILIATE_REL, AVCAMS, STRIPCASH_SOURCE_ID } from '../config/site.js';
 import { buildAvcamsUrl } from '../lib/affiliate.js';
+import activeExperiments from '../../ops/growth/experiments/active.json';
 
 const {
   source,
@@ -15,6 +16,13 @@ const tracking = buildAvcamsUrl({
   label,
   destinationPath
 });
+
+const normalizedPath = Astro.url.pathname.replace(/\/$/, '') || '/';
+const experiment = (activeExperiments?.experiments || []).find((item) =>
+  item?.kind === 'avcams_cta_copy' &&
+  (String(item.surface || '').replace(/\/$/, '') || '/') === normalizedPath
+) || null;
+const treatmentLabel = experiment?.variants?.treatment?.label || null;
 ---
 <span class="affiliate-cta">
   <a
@@ -31,6 +39,8 @@ const tracking = buildAvcamsUrl({
     data-stripcash-p2={tracking.placement}
     data-avcams-target-domain={tracking.targetDomain}
     data-avcams-path={tracking.destinationPath}
+    data-experiment-id={experiment?.experimentId || undefined}
+    data-experiment-treatment-label={treatmentLabel || undefined}
   >
     {label}
   </a>
