@@ -338,13 +338,38 @@ const growthPlanningContext = {
   keywordExpansion: (growthIntelligence?.keywordExpansion?.rows || []).slice(0, 20).map((row) => ({
     query: row.query,
     impressionsSignal: Number(row.impressions || 0),
-    seeds: row.seeds || []
+    seeds: row.seeds || [],
+    topicState: row.topicState || null,
+    existingPage: row.existingPage || null,
+    recommendedUse: row.recommendedUse || null,
+    relevanceReasons: row.relevanceReasons || []
+  })),
+  risingKeywords: (growthIntelligence?.keywordExpansion?.risingKeywordSignals || []).slice(0, 10).map((row) => ({
+    query: row.query,
+    trend: row.trend,
+    recentAverage: row.recentAverage,
+    previousAverage: row.previousAverage,
+    changeRatio: row.changeRatio
   })),
   authorityState: (growthIntelligence?.authorityOpportunities || []).map((row) => ({
     site: row.site,
     status: row.status,
     observedInboundLinks: Number(row.observedInboundLinks || 0),
     linkedTargetPages: Number(row.linkedTargetPages || 0),
+    recommendedAction: row.recommendedAction
+  })),
+  ctaSignals: (growthIntelligence?.ctaOpportunities || []).slice(0, 8).map((row) => ({
+    host: row.host,
+    page: row.page,
+    sessions: Number(row.sessions || 0),
+    affiliateClicks: Number(row.affiliateClicks || 0),
+    affiliateCtr: row.affiliateCtr,
+    recommendedAction: row.recommendedAction
+  })),
+  behaviorSignals: (growthIntelligence?.behaviorOpportunities || []).slice(0, 8).map((row) => ({
+    page: row.page,
+    sessions: row.sessions,
+    signals: row.signals || [],
     recommendedAction: row.recommendedAction
   }))
 };
@@ -412,8 +437,9 @@ if (generationCount > 0) {
       '',
       'How to use these signals:',
       '- Use them only to choose a genuinely useful user job or framing inside the selected categories.',
-      '- Treat Bing keyword impressions as planning evidence, never as a factual claim to publish in the article.',
-      '- Do not create a new page when the signal explicitly says to refresh an existing page; avoid search cannibalization.',
+      '- Treat Bing keyword impressions and trend signals as planning evidence, never as factual traffic/search-volume claims to publish in the article.',
+      '- Do not create a new page when keywordExpansion.recommendedUse or an observed search signal points to an existing/pending page; avoid search cannibalization.',
+      '- CTA and Clarity behavior signals are UX evidence for structure, internal links and CTA placement; they are not reasons by themselves to invent a new topic.',
       '- Prefer gaps that complement existing pages and can earn natural citations through useful comparison/checklist/research structure.',
       '- Monetization routes are routing hints only; do not invent partner facts, prices, payouts, popularity, rankings or performance.',
       '',
@@ -551,7 +577,10 @@ const manifest = {
     loaded: Boolean(growthIntelligence),
     observedSearchOpportunityCount: growthPlanningContext.observedSearchOpportunities.length,
     keywordExpansionCount: growthPlanningContext.keywordExpansion.length,
-    authoritySiteCount: growthPlanningContext.authorityState.length
+    risingKeywordCount: growthPlanningContext.risingKeywords.length,
+    authoritySiteCount: growthPlanningContext.authorityState.length,
+    ctaSignalCount: growthPlanningContext.ctaSignals.length,
+    behaviorSignalCount: growthPlanningContext.behaviorSignals.length
   }
 };
 
