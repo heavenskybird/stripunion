@@ -37,6 +37,7 @@ const pct = (value) => `${(value * 100).toFixed(1)}%`;
 const gsc = await latestSnapshot('gsc.json');
 const ga4 = await latestSnapshot('ga4.json');
 const ga4Admin = await latestSnapshot('ga4-admin.json');
+const clarity = await latestSnapshot('clarity.json');
 const bing = await latestSnapshot('bing.json');
 const buffer = await latestSnapshot('buffer.json');
 const stripcash = await latestSnapshot('stripcash.json');
@@ -187,8 +188,8 @@ await fs.mkdir(reportsRoot, { recursive: true });
 
 const summary = {
   generatedAt: new Date().toISOString(),
-  sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
-  sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
+  sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, clarity: clarity?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
+  sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), clarity: Boolean(clarity), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
   ga4Admin: ga4Admin ? { date: ga4Admin.date, propertyId: ga4Admin.data.propertyId || null, topology: ga4Admin.data.topology || 'UNKNOWN / MULTIPLE', unifiedFunnelCandidate: ga4Admin.data.unifiedFunnelCandidate || null, streams: ga4Admin.data.streams || [] } : null,
   google: {
     clicks: gscClicks, impressions: gscImpressions, ctr: gscImpressions ? gscClicks / gscImpressions : 0,
@@ -237,6 +238,14 @@ const summary = {
     landingPages: aggregate(landingRows, 'landingPagePlusQueryString', 'sessions').slice(0, 10),
     affiliateClick: affiliateClicks, conversions: null, revenue: sum(landingRows, 'totalRevenue'), events: events.slice(0, 12)
   },
+  clarity: clarity ? {
+    date: clarity.date,
+    projectId: clarity.data.projectId || null,
+    numOfDays: Number(clarity.data.numOfDays || 0),
+    metricNames: clarity.data.metricNames || (clarity.data.metrics || []).map((metric) => metric.metricName),
+    metricGroups: (clarity.data.metrics || []).length,
+    informationRows: (clarity.data.metrics || []).reduce((total, metric) => total + (metric.information || []).length, 0)
+  } : null,
   buffer: {
     channel: buffer?.data?.channel || null, sentPostCount: sentPosts.length, scheduledPostCount: scheduledPosts.length,
     impressions: sum(sentPosts.map((post) => post.metrics || {}), 'impressions'), clicks: sum(sentPosts.map((post) => post.metrics || {}), 'clicks'),
@@ -302,10 +311,15 @@ summary.trafficControlPlane = {
 
 const md = [
   `# StripUnion Growth Report — ${reportDate}`, '',
-  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'} · Attribution ${attribution ? `(${attribution.date})` : 'pending'}.`, '',
+  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Clarity ${clarity ? `(${clarity.date})` : 'pending'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'} · Attribution ${attribution ? `(${attribution.date})` : 'pending'}.`, '',
   '## Main Site', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.main.sessions}** sessions · **${summary.ga4.sites.main.engagedSessions}** engaged · **${summary.ga4.sites.main.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.main.revenue ? `**${summary.ga4.sites.main.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.main.clicks}** clicks · **${summary.google.sites.main.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## GA4 Host Segmentation', `- MAIN: **${summary.ga4.sites?.main.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.main.engagedSessions ?? 'unavailable'}** engaged.`, `- BLOG: **${summary.ga4.sites?.blog.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.blog.engagedSessions ?? 'unavailable'}** engaged.`, ...(summary.ga4.otherHosts.length ? summary.ga4.otherHosts.map((host) => `- OTHER ${host.hostname}: ${host.sessions} sessions · ${host.engagedSessions} engaged.`) : [gaHostRowsAvailable ? '- OTHER: no other hostnames in the latest GA4 rows.' : '- OTHER: hostname segmentation unavailable in the latest snapshot.']), `- TOTAL: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}.`, `- Stream topology: ${ga4Admin?.data?.topology || 'UNKNOWN / MULTIPLE'}.`, `- Unified-funnel Measurement ID candidate: ${ga4Admin?.data?.unifiedFunnelCandidate || 'not established'}.`, '',
+  '## Clarity Behavior Analytics',
+  ...(summary.clarity
+    ? [`- Connected: project ${summary.clarity.projectId || 'configured'} · ${summary.clarity.numOfDays}-day window · ${summary.clarity.metricGroups} metric groups · ${summary.clarity.informationRows} URL-dimension rows.`]
+    : ['- Data Export API not connected yet. Main-site tracking can still be active; add CLARITY_API_TOKEN to automate behavior-data ingestion.']),
+  '',
   '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`, `- GSC domain property: **${gscClicks}** clicks · **${gscImpressions}** impressions; page totals are classified by hostname and other hosts remain separate.`, '',
   '## Search Opportunities',
   ...(clusteredOpportunities.length

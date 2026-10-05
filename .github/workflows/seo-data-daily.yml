@@ -74,6 +74,24 @@ jobs:
           GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
         run: npm run collect:ga4-admin
 
+      - name: Collect Microsoft Clarity behavior data
+        id: collect_clarity
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          CLARITY_API_TOKEN: ${{ secrets.CLARITY_API_TOKEN }}
+          PUBLIC_CLARITY_PROJECT_ID: ysuowheiiz
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${CLARITY_API_TOKEN:-}" ]]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "Clarity Data Export pending: CLARITY_API_TOKEN is not configured."
+            exit 0
+          fi
+          echo "configured=true" >> "$GITHUB_OUTPUT"
+          npm run collect:clarity
+
       - name: Collect Bing Webmaster
         id: collect_bing
         continue-on-error: true
@@ -183,6 +201,8 @@ jobs:
           GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
           GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
           GA4_ADMIN_OUTCOME: ${{ steps.collect_ga4_admin.outcome }}
+          CLARITY_OUTCOME: ${{ steps.collect_clarity.outcome }}
+          CLARITY_CONFIGURED: ${{ steps.collect_clarity.outputs.configured }}
           BLOG_ANALYTICS_STATUS: ${{ steps.two_site_health.outputs.analytics_status }}
           BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
           BING_OUTCOME: ${{ steps.collect_bing.outcome }}
@@ -212,6 +232,16 @@ jobs:
             echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
           else
             echo "ga4 admin: discovery failed; any previous valid snapshot remains on disk"
+          fi
+          if [ "$CLARITY_CONFIGURED" = true ]; then
+            if [ "$CLARITY_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/clarity.json" > /dev/null; then
+              echo "clarity: behavior export succeeded and snapshot exists"
+            else
+              echo "clarity: token is configured but collection failed or snapshot is missing"
+              failed=1
+            fi
+          else
+            echo "clarity: Data Export token not configured yet; tracking can still run in-browser"
           fi
           if [ "$BING_ACCEPTANCE_OUTCOME" = success ]; then
             echo "bing intelligence: verification, sitemap, backlink and keyword acceptance passed"
