@@ -120,6 +120,9 @@ function keywordExpansionEligibility(query, seed) {
   if (!normalized || syntheticPromptPattern.test(query)) return { eligible: false, reason: 'noise' };
   if (genericKeywordPattern.test(normalized)) return { eligible: false, reason: 'too_broad' };
   if (normalized === normalizedSeed) return { eligible: true, reason: 'exact_seed' };
+  if (normalizedSeed.includes('live cam sites') && /^live cams?$/.test(normalized)) {
+    return { eligible: true, reason: 'canonical_live_cam_variant' };
+  }
   if (adultDomainPattern.test(normalized) || commercialLiveCamPattern.test(normalized)) {
     return { eligible: true, reason: 'adult_domain_signal' };
   }
