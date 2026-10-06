@@ -1,0 +1,103 @@
+export default {
+  "slug": "dating-platform-chat-to-first-meeting-plan",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Plan a Safer Move From Chat to a First Meeting",
+  "description": "Use a practical communication and planning checklist to move from dating-platform messages to an in-person first meeting while keeping boundaries and privacy in view.",
+  "excerpt": "The transition from a platform conversation to an in-person meeting involves choices about timing, contact details, transport, and boundaries. Make those choices deliberately instead of treating a quick move off-platform as the default.",
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "keyTakeaways": [
+    "Agree on a meeting plan that feels comfortable to both people; there is no required timeline.",
+    "Keep early communication within the platform if that is more comfortable and permitted.",
+    "Choose a public place and arrange transport you can control independently.",
+    "Share a simple check-in plan with a trusted person if you want additional support.",
+    "Treat pressure to share sensitive information or ignore a boundary as a reason to pause."
+  ],
+  "sections": [
+    {
+      "heading": "Set the pace before changing how you communicate",
+      "paragraphs": [
+        "A conversation does not have to move off a dating platform on someone else’s schedule. You can continue messaging there, suggest a voice or video conversation if the platform supports it, or decide that you are not ready to meet. A person who respects a clear boundary gives you room to make that choice without turning it into a test of trust.",
+        "Before exchanging a phone number, personal email, or social account, consider what those details reveal and whether you would be comfortable with future contact through that channel. Some people prefer a separate communication method; others prefer to wait. Neither choice proves someone’s character. The useful signal is whether both people can discuss a boundary and accept the answer without repeated pressure."
+      ],
+      "bullets": [
+        "Choose a pace that feels comfortable rather than responding to a deadline imposed by another person.",
+        "Do not share a home address, workplace, or routine simply to prove interest.",
+        "If you are unsure, suggest a lower-disclosure option or pause the conversation."
+      ]
+    },
+    {
+      "heading": "Agree on practical details before you leave",
+      "paragraphs": [
+        "If you decide to meet, make the plan concrete enough that both people understand it. Confirm the location, approximate time, and a simple way to recognize one another, while avoiding unnecessary personal details in public messages. A busy public venue can make it easier to arrive and leave independently than a private or isolated location. You can choose a shorter first meeting and decide afterward whether you want to continue.",
+        "Arrange transport that does not depend entirely on the other person. Keep control of your route and know how you will get home. If plans change, you can reconsider rather than treating a prior message as a commitment. These are ordinary planning choices, not a guarantee that a meeting will be safe. Use your judgment, and leave or seek help if a situation feels wrong."
+      ],
+      "table": {
+        "caption": "A first-meeting plan that keeps choices clear",
+        "headers": [
+          "Plan element",
+          "Decide in advance",
+          "Keep flexible"
+        ],
+        "rows": [
+          [
+            "Place",
+            "A public location you can access independently",
+            "Whether to extend the meeting or go elsewhere"
+          ],
+          [
+            "Timing",
+            "An approximate start and end point",
+            "Leaving earlier if you want to"
+          ],
+          [
+            "Transport",
+            "Your own way to arrive and leave",
+            "Changing your route if plans change"
+          ],
+          [
+            "Check-in",
+            "Whether to tell a trusted person your general plan",
+            "How much detail you choose to share"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep boundaries clear in conversation",
+      "paragraphs": [
+        "You can state preferences simply: where you are willing to meet, what contact method you prefer, and what information you are not ready to share. You do not need to justify every boundary with a detailed personal explanation. A respectful exchange leaves room for both people to say no, change their mind, or ask a clarifying question.",
+        "Pay attention to patterns rather than trying to diagnose someone from one message. Repeated requests for private details, pressure to move to a less accountable channel, hostility after a refusal, or attempts to rush a meeting may be reasons to stop replying or use the platform’s block and report tools. Save only the information you need for a report and avoid posting another person’s private details publicly."
+      ]
+    },
+    {
+      "heading": "Make a privacy-conscious check-in plan",
+      "paragraphs": [
+        "Some people feel more comfortable telling a trusted person the general meeting location and a time to check in. You can choose the level of detail that suits you; sharing your full conversation or the other person’s sensitive information is not necessary for a basic check-in. If you do not want to involve another person, consider another practical way to keep control of your arrival and departure.",
+        "Think through your device and account privacy too. A calendar entry, message preview, location-sharing setting, or call history can expose plans to anyone with access to your device. Use only tools you understand and can turn off. Do not assume a platform or phone automatically keeps a meeting plan confidential, and avoid enabling continuous location sharing merely because someone asks."
+      ]
+    },
+    {
+      "heading": "Reassess when the plan changes",
+      "paragraphs": [
+        "A meeting plan can change, but a last-minute change does not obligate you to accept it. If the other person proposes moving to a private location, changing transport arrangements, or meeting somewhere unfamiliar, take time to decide whether you still want to proceed. You can suggest another public option, postpone, or cancel without negotiating away your comfort.",
+        "Afterward, decide what contact you want. You can continue, set a limit, or stop responding and use platform controls if contact becomes unwanted. If you feel in immediate danger, contact local emergency services or a trusted person who can help. No checklist can remove uncertainty, but making choices in advance can make it easier to act on your own preferences."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When should I move a conversation off a dating platform?",
+      "answer": "There is no universal right time. Move only when you are comfortable, understand what information the new channel may expose, and have checked the platform’s rules. Continuing on-platform or pausing is also a valid choice."
+    },
+    {
+      "question": "Is a public first meeting a guarantee of safety?",
+      "answer": "No. A public location can make some practical choices easier, but it cannot guarantee how another person will behave. Keep control of your transport, make a plan you can change, and leave or seek help if you feel unsafe."
+    },
+    {
+      "question": "What if someone keeps pushing after I set a boundary?",
+      "answer": "You can stop the conversation, decline the request, or use the platform’s block or report tools. You do not need to keep explaining a boundary. If you believe there is an immediate threat, contact local emergency services or someone you trust."
+    }
+  ]
+};

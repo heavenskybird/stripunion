@@ -1,0 +1,115 @@
+{
+  "backlogId": "free-video-keyboard-screen-reader-usability-checklist",
+  "slug": "free-video-keyboard-screen-reader-usability-checklist",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Test Keyboard and Screen-Reader Usability",
+  "description": "A practical checklist for assessing free video player controls, keyboard navigation, screen-reader labels, focus visibility, and page structure.",
+  "excerpt": "Captions are only one part of video accessibility. Use this focused checklist to see whether a free video platform’s controls and page structure are usable with a keyboard or screen reader before relying on it.",
+  "keyTakeaways": [
+    "Check whether the main player controls can be reached and operated without a pointer.",
+    "Look for visible keyboard focus so you can tell which control is active.",
+    "Listen for clear screen-reader names and understandable control states.",
+    "Assess whether menus, dialogs, and search results preserve a usable page order.",
+    "Record specific barriers rather than assuming every user or assistive setup will behave the same."
+  ],
+  "sections": [
+    {
+      "heading": "Separate player accessibility from captions",
+      "paragraphs": [
+        "Captions can help people access a video’s spoken content, but they do not tell you whether the player itself is operable. A person may need to start or pause playback, change volume, navigate the page, open a menu, or search without using a mouse. Treat those as separate checks when comparing free video platforms.",
+        "Accessibility can also depend on a person’s device, browser, assistive technology, and preferences. A brief review cannot certify a platform or represent every user’s experience. It can, however, reveal obvious friction: controls that cannot be reached, buttons without clear names, or a dialog that is difficult to close. Record what you tried and the setup you used so your notes remain specific."
+      ],
+      "bullets": [
+        "Check captions and transcripts separately from basic player operation.",
+        "Use a device and browser you normally rely on when possible.",
+        "Avoid treating one successful action as proof that every control works."
+      ]
+    },
+    {
+      "heading": "Try essential controls without a pointer",
+      "paragraphs": [
+        "Use keyboard navigation to move through the page and determine whether you can reach the player, play or pause, adjust volume, and access available menus. The exact keys may vary, so look for visible instructions or test common navigation patterns cautiously. A useful interface makes it possible to identify the active control and understand what will happen when you activate it.",
+        "Pay attention to focus order. It should be possible to move through the page in a comprehensible sequence without getting trapped in a player or skipping important controls unexpectedly. If a menu opens, check whether focus reaches its options and can return to the page. Do not repeatedly activate controls whose purpose is unclear; note the problem and leave the page if navigation becomes confusing."
+      ],
+      "table": {
+        "caption": "Keyboard and screen-reader checks for a short comparison",
+        "headers": [
+          "Area",
+          "Check",
+          "Barrier to record"
+        ],
+        "rows": [
+          [
+            "Player",
+            "Can you reach play, pause, and volume controls?",
+            "A control cannot be focused or activated"
+          ],
+          [
+            "Focus",
+            "Can you see which item is currently selected?",
+            "Focus is missing or difficult to distinguish"
+          ],
+          [
+            "Labels",
+            "Does the screen reader identify a control clearly?",
+            "The control is announced without a useful name or purpose"
+          ],
+          [
+            "Menus",
+            "Can you enter, use, and leave the menu predictably?",
+            "Focus disappears, becomes trapped, or returns unpredictably"
+          ],
+          [
+            "Search",
+            "Can you find the search field and understand results?",
+            "The field or result changes are not announced clearly"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Listen for useful names and changing states",
+      "paragraphs": [
+        "A button’s screen-reader name should help explain its purpose, not merely identify that it is a button. Check whether the player announces controls in a way that distinguishes actions such as play, pause, mute, and volume adjustment. If a control changes state, listen for an indication of that change where applicable. Icons alone may be difficult to interpret when their meaning is not exposed to assistive technology.",
+        "Check the surrounding page as well as the player. Headings, links, search fields, and result lists can make it easier to understand where you are. If the page announces repeated or ambiguous links with no context, it may take extra effort to find the intended action. You are assessing practical clarity, not trying to infer the code or make a formal accessibility determination."
+      ]
+    },
+    {
+      "heading": "Check dialogs, navigation, and changing content",
+      "paragraphs": [
+        "Some interfaces show menus, consent dialogs, settings panels, or other overlays. When one appears, check whether its purpose is understandable, whether controls can be reached in sequence, and whether you can close it without guessing. A focus trap or an overlay that cannot be dismissed may block access to the rest of the page. Do not enter personal information just to continue an accessibility test.",
+        "Search pages can also change after you submit a query or select a filter. Notice whether the updated results are easy to find with a keyboard and whether a screen reader gives enough context to understand that the page changed. If the interface updates silently, the user may not know that a new result set is available. Record the concrete behavior instead of generalizing beyond the test."
+      ]
+    },
+    {
+      "heading": "Make a useful comparison note",
+      "paragraphs": [
+        "Keep a short record for each platform: device, browser, input method, assistive technology if used, controls tested, and barriers encountered. Separate what worked from what you did not test. That makes a comparison more honest and repeatable than a broad label such as accessible or inaccessible, which may hide differences between player, search, and account features.",
+        "If you find a barrier, check whether the platform provides an accessible support or feedback route. Describe the page and the task that failed without including sensitive personal information. Your report may help explain the issue, but it does not guarantee a response or fix. If accessibility is essential to your use, prioritize the specific controls you need rather than relying on general marketing statements."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do captions mean a video platform is accessible?",
+      "answer": "Not by themselves. Captions address access to spoken content, while keyboard operation, focus visibility, screen-reader labels, menus, and search are separate parts of the experience."
+    },
+    {
+      "question": "Can a brief keyboard test establish that a platform is accessible?",
+      "answer": "No. A short test can identify particular barriers, but it cannot cover every page, device, browser, assistive technology, or user need. Describe what you tested and avoid treating the result as a formal certification."
+    },
+    {
+      "question": "What should I include when reporting an accessibility barrier?",
+      "answer": "Describe the page or control, the task you attempted, the input method, and what happened instead. Include only details needed to reproduce the issue, and use an official feedback route if one is available."
+    }
+  ],
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
