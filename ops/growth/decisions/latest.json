@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-05T17:08:27.211Z",
-  "sourceGeneratedAt": "2026-10-05T17:08:27.174Z",
+  "generatedAt": "2026-10-06T07:41:38.039Z",
+  "sourceGeneratedAt": "2026-10-06T07:41:37.951Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-04",
+      "date": "2026-10-05",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 0,
       "verifiedSignups": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-04"
+    "attributionSource": "2026-10-05"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -117,15 +117,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -183,15 +183,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -330,14 +330,6 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -355,6 +347,14 @@
             "source": "Bing",
             "date": "/Date(1784851200000)/",
             "query": "https+thefapguide+com+review+xhamster",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -466,7 +466,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhamster  review",
+            "query": "xhasters reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -474,7 +474,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhasters reviews",
+            "query": "xhamster  review",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -545,15 +545,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -595,7 +595,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-03",
+            "date": "2026-10-04",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
@@ -611,15 +611,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -642,7 +642,7 @@
       "id": "cta:stripunion.com:/",
       "kind": "conversion",
       "action": "EXPERIMENT",
-      "priority": 96,
+      "priority": 95,
       "eligible": true,
       "subject": "stripunion.com/",
       "surface": "/",
@@ -651,19 +651,19 @@
       "confidence": "low",
       "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
       "evidence": {
-        "sessions": 58,
+        "sessions": 50,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.27586206896551724
+        "engagementRate": 0.3
       },
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 58,
-        "engagedSessions": 16,
+        "sessions": 50,
+        "engagedSessions": 15,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.27586206896551724,
+        "engagementRate": 0.3,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
@@ -691,7 +691,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-03",
+            "date": "2026-10-04",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -707,15 +707,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -757,7 +757,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-03",
+            "date": "2026-10-04",
             "query": "stripxuat",
             "impressions": 1,
             "clicks": 0,
@@ -773,15 +773,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -839,15 +839,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -889,7 +889,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-03",
+            "date": "2026-10-04",
             "query": "adult strip cam",
             "impressions": 1,
             "clicks": 0,
@@ -905,15 +905,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
@@ -971,15 +971,15 @@
           {
             "source": "daily public sitemap diff",
             "domain": "WebcamsChats",
-            "newUrlCount": 3,
-            "removedUrlCount": 3,
+            "newUrlCount": 5,
+            "removedUrlCount": 5,
             "topicMatch": "not established; treat as landscape context only"
           },
           {
             "source": "daily public sitemap diff",
             "domain": "FetishAura",
-            "newUrlCount": 49,
-            "removedUrlCount": 49,
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
             "topicMatch": "not established; treat as landscape context only"
           }
         ],
