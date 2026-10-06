@@ -1,0 +1,125 @@
+{
+  "backlogId": "free-video-deceptive-buttons-redirect-safety-guide",
+  "slug": "free-video-deceptive-buttons-redirect-safety-guide",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites: Avoid Deceptive Buttons and Risky Redirects",
+  "description": "Learn to recognize misleading play buttons, unexpected redirects and suspicious download prompts while browsing free video platforms more safely.",
+  "excerpt": "Unexpected tabs and look-alike controls can turn a simple browsing session into a security problem. Learn how to pause, verify the page and leave without granting unnecessary access.",
+  "keyTakeaways": [
+    "Pause before clicking controls that resemble a play button, download link, or browser alert.",
+    "Treat unexpected redirects and repeated pop-ups as reasons to stop, not obstacles to overcome.",
+    "Never enter passwords, payment details, or one-time codes into an unexplained prompt.",
+    "Do not install an unfamiliar player, extension, or file to continue browsing.",
+    "Close suspicious pages and review browser permissions instead of granting access under pressure."
+  ],
+  "sections": [
+    {
+      "heading": "Why misleading interface elements matter",
+      "paragraphs": [
+        "Free video pages may contain multiple visual elements around a player, including advertising, recommendations, and controls. A button can look like a play or download control while leading somewhere unrelated. A redirect may open a new tab or display a message that imitates a browser warning. The difficulty is not simply telling one button from another; it is knowing when a page has become untrustworthy.",
+        "No visual cue is a perfect detector. Use a cautious process: check the destination where the browser reveals it, avoid urgent prompts, and leave if the page repeatedly redirects or demands an unexplained action. A legitimate viewing choice should not require you to reveal account credentials or disable basic protections."
+      ],
+      "bullets": [
+        "Pause when several competing play or download controls appear.",
+        "Be wary of prompts that claim immediate action is necessary.",
+        "Do not assume a page element is trustworthy because it uses familiar branding or browser-like wording."
+      ]
+    },
+    {
+      "heading": "Inspect before you click",
+      "paragraphs": [
+        "On a desktop browser, hovering over a link may reveal its destination in the browser interface. On a phone, a long press may display a preview, but avoid opening a link if the preview is unclear. These checks are not guarantees: redirects can change after a click. They can still help you avoid obvious links that lead to unrelated domains or unexpected downloads.",
+        "If a control behaves differently from its label, stop interacting with that page. Do not click multiple times in the hope that the right control will eventually work. Repeated clicks can open more tabs, trigger downloads, or make it harder to tell which page caused the problem."
+      ],
+      "table": {
+        "caption": "A cautious response to common page behavior",
+        "headers": [
+          "What happens",
+          "Safer next step",
+          "Do not"
+        ],
+        "rows": [
+          [
+            "A play-looking control opens another tab",
+            "Close the new tab and reassess the original page.",
+            "Continue through a chain of redirects."
+          ],
+          [
+            "A page says you must install a player",
+            "Leave unless the service explains the software through a trusted official source.",
+            "Download an unknown file or grant administrator access."
+          ],
+          [
+            "A message imitates a system or browser alert",
+            "Close the tab through the browser controls.",
+            "Call a number, enter credentials, or follow instructions in the message."
+          ],
+          [
+            "A site requests notification access unexpectedly",
+            "Decline and review browser site permissions.",
+            "Allow notifications just to dismiss the prompt."
+          ],
+          [
+            "A download begins without a clear request",
+            "Cancel if possible and inspect the downloads list.",
+            "Open the file to find out what it is."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Handle redirects and pop-ups without escalating",
+      "paragraphs": [
+        "An unexpected tab does not automatically mean your device is compromised, but continuing through a chain of redirects increases uncertainty. Close the tab using the browser's own controls. If it will not close normally, quit the browser rather than following instructions displayed in the page. Reopen only the tabs you recognize.",
+        "A site that repeatedly interrupts browsing with alerts, forced redirects, or download prompts may not be worth using. Avoid adding unfamiliar extensions to suppress the problem. Extensions can receive access to browsing data, so install them only from a trusted source after reviewing their permissions and purpose."
+      ]
+    },
+    {
+      "heading": "Protect passwords, payment information and device permissions",
+      "paragraphs": [
+        "A free viewing page should not need your email password, bank login, or one-time security code. Enter credentials only on the service's expected account pages, and check the address carefully. If you reuse passwords, a suspicious prompt can create a broader account risk; unique passwords reduce the damage if one account is exposed.",
+        "Treat permission requests as a separate decision from playback. Decline unexpected requests for notifications, location, camera, microphone, or downloads. You can review and revoke site permissions in the browser settings. If you already entered a password on a page you now distrust, change it through the genuine service and check for unfamiliar sessions."
+      ],
+      "bullets": [
+        "Never share one-time codes with a page or message that you did not initiate.",
+        "Decline unexpected browser notification prompts.",
+        "Review recent downloads and remove files you do not recognize without opening them."
+      ]
+    },
+    {
+      "heading": "Choose a stop rule before browsing",
+      "paragraphs": [
+        "A stop rule makes it easier to leave before frustration leads to risky clicks. For example, decide that you will exit if the page opens repeated tabs, requires an unexplained download, or blocks the exit control. This is a practical threshold, not a judgment that every advertisement is harmful.",
+        "If you suspect that you granted a permission or downloaded a file, use the browser's settings and your device's normal security tools to review the event. Avoid downloading additional cleanup software from a pop-up. If a password or payment detail was entered, use the relevant account or financial provider's official support route."
+      ],
+      "bullets": [
+        "Close the page when the behavior is confusing or repeatedly disruptive.",
+        "Do not follow technical instructions supplied only by an unsolicited pop-up.",
+        "Use official browser, device, and account settings to review permissions and security."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an unexpected redirect mean my device has a virus?",
+      "answer": "Not necessarily. A redirect can be caused by the page or its advertising. Close the tab, avoid downloads, and use your browser's normal settings and security tools if you notice an unfamiliar file or permission change."
+    },
+    {
+      "question": "What should I do if I clicked a suspicious button?",
+      "answer": "Close the resulting page, do not enter information or install software, and check whether a file downloaded or a permission was granted. If you supplied a password, change it through the legitimate account's official site."
+    },
+    {
+      "question": "Are browser notifications required to watch a video?",
+      "answer": "A notification request is a browser permission, not proof that playback requires it. Decline if you do not understand why it is being requested, and review site permissions in your browser settings."
+    }
+  ],
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
