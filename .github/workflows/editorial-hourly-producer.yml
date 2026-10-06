@@ -165,6 +165,7 @@ jobs:
       - name: Run production quality gates
         run: |
           node --check scripts/generate-editorial-batch.mjs
+          node --check scripts/plan-editorial-recovery.mjs
           node --check scripts/reconcile-editorial-backlog.mjs
           npm run check
           PUBLIC_ALLOW_INDEXING=false npm run build
