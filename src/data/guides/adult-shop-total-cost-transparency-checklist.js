@@ -1,0 +1,129 @@
+export default {
+  "slug": "adult-shop-total-cost-transparency-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Price Transparency: Compare the Full Cost Before Checkout",
+  "description": "A practical way to compare adult shop prices beyond the item listing, including bundles, delivery charges, discounts, taxes and checkout add-ons.",
+  "excerpt": "A low listed price is only one part of a purchase decision. Use this checklist to compare the costs a shop discloses, identify unclear charges and decide what to verify before placing an order.",
+  "publishedAt": "2026-10-06",
+  "updatedAt": "2026-10-06",
+  "keyTakeaways": [
+    "Compare the same item and quantity across shops; different bundles can make headline prices misleading.",
+    "Record mandatory charges separately from optional add-ons and promotions.",
+    "Check whether discounts have conditions, such as minimum order values or eligible products.",
+    "Treat missing or unclear costs as questions to resolve before checkout, not as proof of a hidden fee.",
+    "Save the final order summary and relevant policy pages for your records."
+  ],
+  "sections": [
+    {
+      "heading": "Compare like with like before comparing prices",
+      "paragraphs": [
+        "Start with the exact item or a genuinely comparable alternative. Note the model or version, included components, quantity, size or other specifications that affect what arrives. Two listings with similar names may not represent the same package, so a low headline price is not meaningful until the contents match.",
+        "Create a short comparison sheet and keep product price separate from the rest of the order. Record the date you checked, since promotions and availability can change. This is not a price ranking; it is a way to see which information is complete enough for a fair decision."
+      ],
+      "bullets": [
+        "Item or model identifier",
+        "Quantity and included components",
+        "Listed item price and any stated bundle conditions",
+        "Date checked and the page where the details appeared"
+      ]
+    },
+    {
+      "heading": "Build a full-cost view without guessing",
+      "paragraphs": [
+        "A useful comparison separates costs that are required to complete the order from choices the buyer can decline. Depending on the shop and destination, the checkout may disclose delivery charges, taxes or other amounts only after address or delivery information is entered. Do not assume an amount that has not been shown, and do not treat a preliminary cart total as final.",
+        "Use the order summary presented before confirming payment as your reference point. If a charge is unclear, pause and check the relevant help or checkout information. When the site does not explain whether a charge is mandatory, ask customer support before ordering rather than relying on an estimate."
+      ],
+      "table": {
+        "caption": "A simple full-cost comparison worksheet",
+        "headers": [
+          "Cost line",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Item and quantity",
+            "Matching product details and listed amount"
+          ],
+          [
+            "Promotion or bundle",
+            "Discount conditions and included items"
+          ],
+          [
+            "Delivery",
+            "Amount shown for the selected destination and option"
+          ],
+          [
+            "Tax or other charges",
+            "Whether disclosed, estimated or not yet shown"
+          ],
+          [
+            "Optional add-ons",
+            "Whether optional and whether selected"
+          ],
+          [
+            "Final checkout total",
+            "Amount shown before order confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read promotions as terms, not just savings",
+      "paragraphs": [
+        "A promotion can change the comparison only if its conditions fit the intended purchase. Check whether it applies to the item in the cart, whether a minimum spend is required, and whether a bundle changes the quantity or contents. A discount that requires buying more than needed may not reduce the cost of the purchase that actually makes sense for you.",
+        "Look for details about how codes combine with other offers and whether the displayed saving is conditional. If the terms are not clear, compare the order both with and without the promotion where possible. Do not add unnecessary items solely to reach a threshold without comparing the new total against the original plan."
+      ],
+      "bullets": [
+        "Confirm eligible products and any exclusions.",
+        "Check minimum order requirements and expiry wording shown on the page.",
+        "Compare bundle contents and quantity, not just the displayed saving.",
+        "Avoid treating a crossed-out reference price as proof of value by itself."
+      ]
+    },
+    {
+      "heading": "Separate optional extras from required charges",
+      "paragraphs": [
+        "Keep a simple distinction in your notes: required to place the order, optional but selected, or optional and declined. That makes comparisons more useful than a single total that hides why it differs between shops. It also gives you a clear reference if a checkout screen changes after an edit."
+      ]
+    },
+    {
+      "heading": "Use policy and support information to interpret costs",
+      "paragraphs": [
+        "Pricing clarity is connected to the shop’s explanations of delivery, returns and customer support. A low total may be less useful if the policies do not explain what happens when an item is unavailable, an order needs correction or a return question arises. This does not mean one policy is automatically better; it means the terms should be understandable before you commit.",
+        "Check whether help pages explain how to contact the shop and what information is useful when asking about a charge. Keep questions specific: identify the item, destination if relevant, and the unclear line in the summary. Avoid sending sensitive payment details through ordinary messages. A shop should not need your full card number to explain a listed charge."
+      ],
+      "bullets": [
+        "Can you identify the channel for pre-purchase questions?",
+        "Does the checkout explain the charges shown in the order summary?",
+        "Are delivery and return terms accessible before payment?",
+        "Can you save or print the final order details for your records?"
+      ]
+    },
+    {
+      "heading": "Make the decision using evidence you can verify",
+      "paragraphs": [
+        "Once the worksheet is complete, compare the final disclosed totals alongside the product match and the clarity of the terms. If one shop has not yet shown a destination-specific amount, mark it as unknown rather than filling in a guess. If a promotion is conditional, note the condition. Clear unknowns are more useful than false precision.",
+        "Before submitting an order, review the final confirmation screen and retain the receipt or confirmation message. If the total differs from what you expected, do not assume why; use the shop’s support route to ask. A brief pause to resolve an unexplained charge is often more useful than trying to reconstruct the checkout later."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I compare the listed product price or the checkout total?",
+      "answer": "Use both for different purposes. The listed price helps compare the item itself; the checkout total shows the disclosed cost for the selected order and destination. Keep the two separate so a bundle or promotion does not disguise a difference in quantity or contents."
+    },
+    {
+      "question": "What if the shop does not show all charges until checkout?",
+      "answer": "Enter only the information needed to view the order summary, and do not confirm payment until the total and selected options are clear. If a charge remains unexplained, contact the shop before ordering or choose an option with terms you can understand."
+    },
+    {
+      "question": "Does a discount automatically make a bundle better value?",
+      "answer": "No. Compare the bundle’s contents, quantity and total with the items you actually intended to purchase. A larger order is not a saving if it adds products you do not need."
+    },
+    {
+      "question": "What should I keep after placing an order?",
+      "answer": "Keep the confirmation, item details, final total and any relevant policy or promotion terms. Store records in a place that suits your privacy needs, and avoid keeping unnecessary payment credentials."
+    }
+  ]
+};
