@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: native-social-outbox
@@ -75,7 +76,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "ops: reconcile native social outbox"
+          git commit -m "ops: reconcile native social outbox [skip ci]"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
@@ -85,3 +86,14 @@ jobs:
 
           echo "Failed to persist social outbox state after retries." >&2
           exit 1
+
+      - name: Heartbeat Editorial producer scheduler
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh workflow run editorial-producer-scheduler.yml --ref main
+          echo "EDITORIAL_SCHEDULER_HEARTBEAT_REQUESTED"
+
