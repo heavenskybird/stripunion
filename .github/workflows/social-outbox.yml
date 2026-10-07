@@ -1,0 +1,72 @@
+name: Native social outbox
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: native-social-outbox
+  cancel-in-progress: false
+
+jobs:
+  reconcile-and-deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout canonical main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Sync publication ledger into native outbox
+        run: npm run social:outbox:sync
+
+      - name: Process safe pending deliveries
+        env:
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_BATCH_SIZE: '5'
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+        run: npm run social:outbox:worker
+
+      - name: Report outbox state
+        run: npm run social:outbox:report
+
+      - name: Persist native outbox state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "stripunion-social-outbox"
+          git config user.email "actions@users.noreply.github.com"
+          git add ops/social-outbox/events
+
+          if git diff --cached --quiet; then
+            echo "No social outbox state changes."
+            exit 0
+          fi
+
+          git commit -m "ops: reconcile native social outbox [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            git pull --rebase origin main
+          done
+
+          echo "Failed to persist social outbox state after retries." >&2
+          exit 1
