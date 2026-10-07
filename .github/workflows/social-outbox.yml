@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'ops/editorial/publication-ledger/astro/*.json'
+      - 'ops/control-plane/social-outbox-kick.json'
 
 permissions:
   contents: write
