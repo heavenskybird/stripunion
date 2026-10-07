@@ -98,7 +98,7 @@ for (const { file, event } of selected) {
       const post = await createBufferPost({ text: buildXCopy(event), mode: 'addToQueue' });
       event.provider_message_id = post.id || null;
       event.provider_due_at = post.dueAt || null;
-      event.state = 'delivered';
+      event.state = post.dueAt ? 'scheduled' : 'delivered';
       event.next_attempt_at = null;
       delivered += 1;
     } else if (event.channel === 'telegram' && event.provider === 'telegram') {
