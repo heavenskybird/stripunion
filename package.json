@@ -23,7 +23,10 @@
     "control-plane:readiness": "node scripts/control-plane-readiness.mjs",
     "control-plane:claim": "node scripts/claim-editorial-batch.mjs",
     "control-plane:visual": "node scripts/sync-visual-checks.mjs",
-    "control-plane:dead-letter": "node scripts/record-control-plane-dead-letter.mjs"
+    "control-plane:dead-letter": "node scripts/record-control-plane-dead-letter.mjs",
+    "social:outbox:sync": "node scripts/social-outbox-sync.mjs",
+    "social:outbox:worker": "node scripts/social-outbox-worker.mjs",
+    "social:outbox:report": "node scripts/social-outbox-report.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
