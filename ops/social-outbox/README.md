@@ -27,3 +27,15 @@ The `idempotency_key` is stable and must be checked before any future provider a
 4. Buffer remains an adapter, not a publication dependency. X Direct can be added later without changing the outbox contract.
 
 The scheduled workflow defaults to send-disabled until `SOCIAL_OUTBOX_SEND_ENABLED=true` is configured.
+
+
+## Cadence admission control
+
+New publication events are still recorded per channel for auditability, but not every publication becomes delivery debt. At enqueue time StripUnion compares the channel's actual usage plus outstanding pending/retryable work with a cumulative daily budget in `Asia/Shanghai`.
+
+- X budget defaults to 20/day.
+- Telegram budget defaults to 100/day.
+- Events inside the budget enter `pending`.
+- Events outside the current cumulative budget enter `skipped` with cadence-admission metadata.
+- Existing pending/retryable debt is counted before admitting new work, so old social debt drains before the system creates more.
+- This keeps publication throughput independent from social throughput and prevents a 120-publication/day target from creating an unbounded X/Telegram queue.
