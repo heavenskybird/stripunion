@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: editorial-hourly-producer
@@ -324,6 +325,16 @@ jobs:
 
           echo "Failed to push publication ledger after retries." >&2
           exit 1
+
+      - name: Dispatch Native Social Outbox
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh api             --method POST             -H "Accept: application/vnd.github+json"             "/repos/${GITHUB_REPOSITORY}/actions/workflows/social-outbox.yml/dispatches"             -f ref=main
+          echo "SOCIAL_OUTBOX_DISPATCH_REQUESTED"
 
       - name: Mirror canonical state to growth control plane
         env:
