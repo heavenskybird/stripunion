@@ -3,6 +3,10 @@ name: Build
 on:
   push:
     branches: ['**']
+    paths-ignore:
+      - 'ops/editorial/publication-ledger/**'
+      - 'ops/editorial/hourly-backlog.json'
+      - 'ops/social-outbox/events/**'
   pull_request:
     branches: [main]
 
