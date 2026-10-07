@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ops/editorial/publication-ledger/astro/*.json'
 
 permissions:
   contents: write
@@ -42,8 +46,12 @@ jobs:
 
       - name: Process safe pending deliveries
         env:
-          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'true' }}
           SOCIAL_OUTBOX_BATCH_SIZE: '5'
+          SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
+          SOCIAL_OUTBOX_X_DAILY_CAP: '20'
+          SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES: '45'
+          SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: '100'
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
