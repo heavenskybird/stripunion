@@ -273,29 +273,69 @@ jobs:
         run: |
           set -euo pipefail
 
-          while IFS= read -r file; do
-            [[ -z "$file" ]] && continue
-            event="$(node scripts/guide-event.mjs "$file")"
-            url="$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")"
+          mapfile -t guide_files < <(printf '%s\n' "$GUIDE_FILES" | sed '/^[[:space:]]*$/d')
+          if [[ "${#guide_files[@]}" -ne 5 ]]; then
+            echo "Expected exactly five guide files before live verification; got ${#guide_files[@]}." >&2
+            exit 1
+          fi
 
-            live=0
-            for attempt in {1..40}; do
-              code="$(curl -L -sS -o /dev/null -w '%{http_code}' "$url" || true)"
-              if [[ "$code" == "200" ]]; then
-                live=1
-                break
-              fi
-              sleep 15
+          declare -a urls=()
+          for file in "${guide_files[@]}"; do
+            event="$(node scripts/guide-event.mjs "$file")"
+            urls+=("$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")")
+          done
+
+          # All five guides are deployed by the same site build. Use one global
+          # deployment deadline rather than a separate 10-minute window per guide.
+          # This caps the live-verification barrier at ~10 minutes total and avoids
+          # overlapping the next supervisory/hourly cycle.
+          all_live=0
+          declare -a last_codes=()
+          for attempt in {1..40}; do
+            tmpdir="$(mktemp -d)"
+            pids=()
+
+            for i in "${!urls[@]}"; do
+              (
+                code="$(curl -L -sS --connect-timeout 5 --max-time 10 -o /dev/null -w '%{http_code}' "${urls[$i]}" || true)"
+                printf '%s' "$code" > "$tmpdir/$i"
+              ) &
+              pids+=("$!")
             done
 
-            if [[ "$live" != "1" ]]; then
-              echo "Guide not live after deployment wait window: $url" >&2
-              exit 1
-            fi
+            for pid in "${pids[@]}"; do
+              wait "$pid" || true
+            done
 
+            all_live=1
+            last_codes=()
+            for i in "${!urls[@]}"; do
+              code="$(cat "$tmpdir/$i" 2>/dev/null || true)"
+              last_codes+=("$code")
+              if [[ "$code" != "200" ]]; then
+                all_live=0
+              fi
+            done
+            rm -rf "$tmpdir"
+
+            if [[ "$all_live" == "1" ]]; then
+              break
+            fi
+            sleep 15
+          done
+
+          if [[ "$all_live" != "1" ]]; then
+            echo "One or more guides were not live after the shared deployment wait window:" >&2
+            for i in "${!urls[@]}"; do
+              echo "  HTTP ${last_codes[$i]:-unknown}  ${urls[$i]}" >&2
+            done
+            exit 1
+          fi
+
+          for file in "${guide_files[@]}"; do
             node scripts/record-astro-publication.mjs "$file" distribution_pending
             node scripts/social-outbox-enqueue.mjs "$file"
-          done <<< "$GUIDE_FILES"
+          done
 
       - name: Close publication state and persist ledger
         env:
