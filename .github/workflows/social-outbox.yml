@@ -34,6 +34,12 @@ jobs:
       - name: Sync publication ledger into native outbox
         run: npm run social:outbox:sync
 
+      - name: Reconcile historical Buffer deliveries
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
+        run: npm run social:outbox:reconcile:buffer
+
       - name: Process safe pending deliveries
         env:
           SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
