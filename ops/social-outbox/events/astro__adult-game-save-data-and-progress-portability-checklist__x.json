@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-game-save-data-and-progress-portability-checklist:x",
+  "idempotency_key": "astro:adult-game-save-data-and-progress-portability-checklist:x",
+  "publication_id": "astro:adult-game-save-data-and-progress-portability-checklist",
+  "source": "astro",
+  "slug": "adult-game-save-data-and-progress-portability-checklist",
+  "title": "Adult Game Save Data: Check Progress, Backups and Portability",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/adult-game-save-data-and-progress-portability-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "delivered",
+  "desired_at": "2026-10-07T04:39:51.599Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": "6ac4d2e7b26845c297436992",
+  "provider_due_at": "2026-10-07T04:05:00.000Z",
+  "created_at": "2026-10-07T05:30:18.726Z",
+  "updated_at": "2026-10-07T05:30:19.538Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": false,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "sent",
+    "buffer_match_count": 1
+  }
+}

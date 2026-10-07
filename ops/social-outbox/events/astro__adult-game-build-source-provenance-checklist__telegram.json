@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-game-build-source-provenance-checklist:telegram",
+  "idempotency_key": "astro:adult-game-build-source-provenance-checklist:telegram",
+  "publication_id": "astro:adult-game-build-source-provenance-checklist",
+  "source": "astro",
+  "slug": "adult-game-build-source-provenance-checklist",
+  "title": "Adult Games: Verify a Storefront’s Build Source and Version Details",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/adult-game-build-source-provenance-checklist",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "reconcile_required",
+  "desired_at": "2026-10-07T04:48:32.202Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T05:30:18.723Z",
+  "updated_at": "2026-10-07T05:30:18.723Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": true
+  }
+}

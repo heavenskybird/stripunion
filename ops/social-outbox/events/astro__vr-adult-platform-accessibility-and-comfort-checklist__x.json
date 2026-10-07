@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:vr-adult-platform-accessibility-and-comfort-checklist:x",
+  "idempotency_key": "astro:vr-adult-platform-accessibility-and-comfort-checklist:x",
+  "publication_id": "astro:vr-adult-platform-accessibility-and-comfort-checklist",
+  "source": "astro",
+  "slug": "vr-adult-platform-accessibility-and-comfort-checklist",
+  "title": "VR Adult Platforms: Check Accessibility and Viewing Comfort Before Joining",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/vr-adult-platform-accessibility-and-comfort-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "reconcile_required",
+  "desired_at": "2026-10-07T04:50:57.079Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T05:30:18.745Z",
+  "updated_at": "2026-10-07T05:30:18.745Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:dating-platform-community-quality-assessment:telegram",
+  "idempotency_key": "astro:dating-platform-community-quality-assessment:telegram",
+  "publication_id": "astro:dating-platform-community-quality-assessment",
+  "source": "astro",
+  "slug": "dating-platform-community-quality-assessment",
+  "title": "How to Assess a Dating Platform’s Community Before Investing Time",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/dating-platform-community-quality-assessment",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "reconcile_required",
+  "desired_at": "2026-10-07T03:53:49.998Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T05:30:18.733Z",
+  "updated_at": "2026-10-07T05:30:18.733Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": true
+  }
+}

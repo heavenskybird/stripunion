@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-anime-content-labels-and-source-checklist:x",
+  "idempotency_key": "astro:adult-anime-content-labels-and-source-checklist:x",
+  "publication_id": "astro:adult-anime-content-labels-and-source-checklist",
+  "source": "astro",
+  "slug": "adult-anime-content-labels-and-source-checklist",
+  "title": "Adult Anime Platforms: Check Content Labels, Age Boundaries and Sources",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/adult-anime-content-labels-and-source-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "reconcile_required",
+  "desired_at": "2026-10-07T04:45:37.160Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T05:30:18.719Z",
+  "updated_at": "2026-10-07T05:30:18.719Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": true
+  }
+}

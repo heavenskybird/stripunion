@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-shop-product-listing-comparison-checklist:x",
+  "idempotency_key": "astro:adult-shop-product-listing-comparison-checklist:x",
+  "publication_id": "astro:adult-shop-product-listing-comparison-checklist",
+  "source": "astro",
+  "slug": "adult-shop-product-listing-comparison-checklist",
+  "title": "How to Compare Adult Shop Product Listings Before You Buy",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/adult-shop-product-listing-comparison-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "delivered",
+  "desired_at": "2026-10-07T03:53:49.262Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": "6ac3d9b35162d360af9e508b",
+  "provider_due_at": "2026-10-06T05:24:00.000Z",
+  "created_at": "2026-10-07T05:30:18.727Z",
+  "updated_at": "2026-10-07T05:30:19.543Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": false,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "sent",
+    "buffer_match_count": 1
+  }
+}

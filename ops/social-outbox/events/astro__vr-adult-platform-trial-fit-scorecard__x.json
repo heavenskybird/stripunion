@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "event_id": "astro:vr-adult-platform-trial-fit-scorecard:x",
+  "idempotency_key": "astro:vr-adult-platform-trial-fit-scorecard:x",
+  "publication_id": "astro:vr-adult-platform-trial-fit-scorecard",
+  "source": "astro",
+  "slug": "vr-adult-platform-trial-fit-scorecard",
+  "title": "How to Evaluate a VR Adult Platform Before Subscribing",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/vr-adult-platform-trial-fit-scorecard",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "delivered",
+  "desired_at": "2026-10-07T03:53:48.588Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": "6ac3d9b15162d360af9e5025",
+  "provider_due_at": "2026-10-06T04:40:00.000Z",
+  "created_at": "2026-10-07T05:30:18.746Z",
+  "updated_at": "2026-10-07T05:30:19.557Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": false,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "sent",
+    "buffer_match_count": 1
+  }
+}

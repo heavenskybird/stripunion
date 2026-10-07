@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "event_id": "astro:live-cam-platform-accessibility-checklist:x",
+  "idempotency_key": "astro:live-cam-platform-accessibility-checklist:x",
+  "publication_id": "astro:live-cam-platform-accessibility-checklist",
+  "source": "astro",
+  "slug": "live-cam-platform-accessibility-checklist",
+  "title": "Live Cam Platform Accessibility: Check Keyboard, Screen Reader and Viewing Controls",
+  "excerpt": "",
+  "url": "https://stripunion.com/guides/live-cam-platform-accessibility-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "scheduled",
+  "desired_at": "2026-10-07T04:50:55.532Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": "6ac595698ee6eda8363a40f6",
+  "provider_due_at": "2026-10-07T11:14:00.000Z",
+  "created_at": "2026-10-07T05:30:18.740Z",
+  "updated_at": "2026-10-07T05:30:19.553Z",
+  "metadata": {
+    "imported_from_distribution_state": "distribution_pending_reconciliation",
+    "historical_reconciliation_required": false,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "scheduled",
+    "buffer_match_count": 1
+  }
+}
