@@ -1,13 +1,7 @@
 name: Editorial hourly producer
 
 on:
-  schedule:
-    - cron: '7 * * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'ops/control-plane/editorial-producer-kick.json'
 
 permissions:
   contents: write
