@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:vr-shared-headset-account-privacy-checklist:x",
+  "idempotency_key": "astro:vr-shared-headset-account-privacy-checklist:x",
+  "publication_id": "astro:vr-shared-headset-account-privacy-checklist",
+  "source": "astro",
+  "slug": "vr-shared-headset-account-privacy-checklist",
+  "title": "Using a Shared VR Headset: Account, Casting and Privacy Checks",
+  "excerpt": "A headset can expose activity through its account, casting tools, recent apps or shared user profile. Use this checklist to assess whether a shared VR setup gives you enough control before signing in.",
+  "url": "https://stripunion.com/guides/vr-shared-headset-account-privacy-checklist",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:12:28.797Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:12:28.797Z",
+  "updated_at": "2026-10-07T07:12:28.797Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

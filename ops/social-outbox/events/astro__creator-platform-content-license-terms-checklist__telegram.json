@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:creator-platform-content-license-terms-checklist:telegram",
+  "idempotency_key": "astro:creator-platform-content-license-terms-checklist:telegram",
+  "publication_id": "astro:creator-platform-content-license-terms-checklist",
+  "source": "astro",
+  "slug": "creator-platform-content-license-terms-checklist",
+  "title": "Creator Platform Content Rights: Review License and Promotional-Use Terms",
+  "excerpt": "Content ownership and platform permission are not always the same thing. Review what license a creator grants, how promotional use is described and what may happen to content after removal or account closure.",
+  "url": "https://stripunion.com/guides/creator-platform-content-license-terms-checklist",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:12:28.733Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:12:28.733Z",
+  "updated_at": "2026-10-07T07:12:28.733Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

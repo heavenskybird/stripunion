@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:premium-video-preview-entitlement-audit:telegram",
+  "idempotency_key": "astro:premium-video-preview-entitlement-audit:telegram",
+  "publication_id": "astro:premium-video-preview-entitlement-audit",
+  "source": "astro",
+  "slug": "premium-video-preview-entitlement-audit",
+  "title": "Premium Video Previews: Check What a Subscription Actually Includes",
+  "excerpt": "A preview can help assess a platform, but it does not automatically show what a subscription unlocks. Check the relationship between samples, full titles, account access and ongoing availability before deciding.",
+  "url": "https://stripunion.com/guides/premium-video-preview-entitlement-audit",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:12:28.542Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:12:28.542Z",
+  "updated_at": "2026-10-07T07:12:28.542Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

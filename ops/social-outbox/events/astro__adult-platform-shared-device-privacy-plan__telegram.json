@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-platform-shared-device-privacy-plan:telegram",
+  "idempotency_key": "astro:adult-platform-shared-device-privacy-plan:telegram",
+  "publication_id": "astro:adult-platform-shared-device-privacy-plan",
+  "source": "astro",
+  "slug": "adult-platform-shared-device-privacy-plan",
+  "title": "Using Adult Platforms on a Shared Device: A Privacy Checklist",
+  "excerpt": "A private window alone does not remove every trace from a shared device. Use this practical workflow to reduce accidental exposure while keeping accounts and device settings under your control.",
+  "url": "https://stripunion.com/guides/adult-platform-shared-device-privacy-plan",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:12:28.606Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:12:28.606Z",
+  "updated_at": "2026-10-07T07:12:28.606Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

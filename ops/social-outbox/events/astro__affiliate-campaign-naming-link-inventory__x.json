@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:affiliate-campaign-naming-link-inventory:x",
+  "idempotency_key": "astro:affiliate-campaign-naming-link-inventory:x",
+  "publication_id": "astro:affiliate-campaign-naming-link-inventory",
+  "source": "astro",
+  "slug": "affiliate-campaign-naming-link-inventory",
+  "title": "Affiliate Campaign Naming: Build a Link Inventory Webmasters Can Maintain",
+  "excerpt": "A link inventory is more than a list of URLs. A consistent naming scheme helps webmasters connect each placement to its page, channel and intended destination without confusing campaign labels or losing update history.",
+  "url": "https://stripunion.com/guides/affiliate-campaign-naming-link-inventory",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:12:28.669Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:12:28.669Z",
+  "updated_at": "2026-10-07T07:12:28.669Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}
