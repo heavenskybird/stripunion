@@ -1,0 +1,131 @@
+{
+  "backlogId": "creator-platform-collaborator-access-checklist",
+  "slug": "creator-platform-collaborator-access-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platform Collaborator Access: Set Clear Roles and Boundaries",
+  "description": "A practical checklist for creators who share account work with editors, assistants, or moderators: review permissions, credentials, records, and offboarding.",
+  "excerpt": "Delegating account work can save effort, but shared credentials and unclear responsibilities create avoidable risks. Plan collaborator access around specific tasks, limited permissions, documentation, and a clean exit process.",
+  "keyTakeaways": [
+    "List the tasks a collaborator needs before granting any access.",
+    "Use individual accounts and role-based permissions when a platform supports them; avoid casually sharing the primary login.",
+    "Keep sensitive actions, such as payout or recovery changes, under deliberate control.",
+    "Document who approved content, messages, or account changes and how those records are protected.",
+    "Remove access promptly when a working relationship ends and review sessions, recovery routes, and connected tools."
+  ],
+  "sections": [
+    {
+      "heading": "Define the work before granting account access",
+      "paragraphs": [
+        "Creators may delegate editing, scheduling, customer support, moderation, bookkeeping, or account administration. Those tasks do not all require the same access. Start with a written list of what the collaborator will do, what information they need, and what actions they must not take. This makes it easier to decide whether direct account access is necessary at all.",
+        "Separate access to content files from access to a platform account, payout details, identity records, and account recovery. An editor may need approved files and delivery instructions without needing billing or identity settings. A moderator may need to review reports without permission to change account ownership. Granting the broadest available access because it is convenient can expose more than the work requires."
+      ],
+      "bullets": [
+        "Describe tasks and boundaries before inviting a collaborator.",
+        "Identify sensitive areas that are outside the collaborator’s role.",
+        "Use a separate workflow for sending files that does not reveal unrelated account records."
+      ]
+    },
+    {
+      "heading": "Prefer individual access over a shared primary login",
+      "paragraphs": [
+        "If the platform offers separate user accounts, roles, or limited permissions, use them where they meet the workflow. Individual access can make it easier to understand who performed an action and to remove one person without changing everyone’s credentials. Check the actual permission descriptions rather than relying on a role name; two platforms may use the same label for different abilities.",
+        "If separate access is unavailable and a collaborator would need the primary login, assess the risks before proceeding. The main account may expose private messages, personal information, payout settings, or recovery controls. Consider whether the task can instead be completed using exported files, a shared content calendar, or another tool with narrower access. Do not send passwords through ordinary chat or leave them in documents shared with a broad team."
+      ],
+      "bullets": [
+        "Confirm which actions each role can perform before assigning it.",
+        "Avoid shared credentials where individual access is available.",
+        "Use a secure, access-controlled method if sensitive credentials must be shared."
+      ]
+    },
+    {
+      "heading": "Protect recovery, payment, and identity settings",
+      "paragraphs": [
+        "Account continuity depends on recovery options and ownership details. Keep control of the primary email, recovery methods, identity verification, and payout information unless there is a specific, documented business reason to delegate part of that work. If a collaborator needs to prepare a change, they can often provide the information for you to review and submit yourself.",
+        "Clarify who may request, draft, approve, and make changes. A collaborator who can edit a profile may not need the ability to alter payout settings or add another administrator. Review connected apps, trusted devices, and active sessions when access arrangements change. These checks are useful even when a relationship ends amicably, because old devices and tokens can remain active."
+      ],
+      "table": {
+        "caption": "Match common creator tasks to access boundaries",
+        "headers": [
+          "Task",
+          "Access boundary to consider"
+        ],
+        "rows": [
+          [
+            "Editing approved media",
+            "Provide only the needed files and delivery notes, not account recovery access."
+          ],
+          [
+            "Scheduling posts",
+            "Use a limited publishing role if available and define who approves final copy."
+          ],
+          [
+            "Moderating messages",
+            "Set rules for escalation and identify private conversations outside the role."
+          ],
+          [
+            "Bookkeeping",
+            "Share necessary statements through a controlled folder; protect unrelated account settings."
+          ],
+          [
+            "Account administration",
+            "Document which settings may be changed and keep ownership and recovery under review."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set approval and communication rules",
+      "paragraphs": [
+        "Agree on how a collaborator receives instructions, proposes changes, and reports work. For published material, decide whether the creator must approve drafts, captions, schedules, or responses before they go live. For moderation, establish what can be handled routinely and what must be escalated. Clear thresholds reduce inconsistent decisions and make it easier to step in when a situation is sensitive or unclear.",
+        "Record decisions in a work system with limited access rather than depending on scattered personal messages. The record need not contain unnecessary personal information; it should be sufficient to establish what was assigned, approved, and completed. Define whether collaborators may retain working files, how long records are kept, and how accidental disclosure or a security concern should be reported."
+      ],
+      "bullets": [
+        "Name an approver for publishing and account-setting changes.",
+        "Write escalation rules for unusual requests, disputes, or security concerns.",
+        "Keep work records in a location appropriate to their sensitivity."
+      ]
+    },
+    {
+      "heading": "Review access regularly and when the team changes",
+      "paragraphs": [
+        "Access should reflect current work, not every task a person might have performed in the past. Review collaborators and connected tools when responsibilities change, a contract ends, a platform changes its roles, or a device is replaced. Remove permissions that are no longer required. Check active sessions and revoke tokens or linked applications that are not part of the current workflow.",
+        "A periodic review can be brief: compare the current access list with the task list, confirm that each person still needs their role, and inspect high-impact permissions. Keep a dated record of the review and any changes. If the platform does not show enough detail to make a permission decision, contact its support or consult its documentation instead of assuming that a role is limited."
+      ]
+    },
+    {
+      "heading": "Plan offboarding before it is needed",
+      "paragraphs": [
+        "A good collaboration plan includes an orderly end. Specify how files are returned or deleted, whether the person must remove local copies, who revokes account and tool access, and how unfinished work is handed over. The exact obligations depend on your agreements and applicable rules, so document expectations rather than relying on an informal memory.",
+        "When access ends, remove the collaborator from platform roles, shared folders, scheduling tools, messaging workspaces, and password-management systems as relevant. Review account sessions, recovery settings, and connected applications. Change shared credentials if they were used, and confirm that the account owner can still sign in and manage the account. Preserve business records you need while avoiding unnecessary retention of private material."
+      ],
+      "bullets": [
+        "List every platform, folder, tool, and device connection used for the work.",
+        "Revoke permissions and active sessions rather than only changing a team label.",
+        "Confirm account recovery and ownership remain under the creator’s control."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it safe to share my primary creator-account password with an assistant?",
+      "answer": "Sharing a primary login can expose more than the assistant’s task requires and can make it harder to identify actions or remove access cleanly. Prefer an individual, limited role if available. If the platform does not support that, assess the account’s sensitive settings and use a controlled credential process rather than ordinary chat or an open document."
+    },
+    {
+      "question": "What should a creator do when a collaborator leaves?",
+      "answer": "Remove their platform roles, shared-folder access, connected-tool permissions, and active sessions. Review recovery methods and any shared credentials, preserve necessary business records, and confirm that the creator can still access and control the account."
+    },
+    {
+      "question": "Should collaborators have access to payout settings?",
+      "answer": "Only if a specific task requires it and the arrangement has been deliberately reviewed. Many collaborators can prepare information or reconcile records without permission to change payout or ownership settings. Keep access as narrow as practical and document who approves sensitive changes."
+    }
+  ],
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
