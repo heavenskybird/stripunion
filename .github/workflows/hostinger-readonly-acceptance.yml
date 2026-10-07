@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths-ignore:
       - 'ops/seo-data-layer/data/**'
+      - 'ops/editorial/publication-ledger/**'
+      - 'ops/editorial/hourly-backlog.json'
+      - 'ops/social-outbox/events/**'
   workflow_dispatch:
 
 permissions:
