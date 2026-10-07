@@ -72,6 +72,7 @@ jobs:
           node --check scripts/record-control-plane-dead-letter.mjs
           node --check scripts/record-astro-publication.mjs
           node --check scripts/social-outbox-sync.mjs
+          node --check scripts/social-outbox-enqueue.mjs
           node --check scripts/social-outbox-worker.mjs
           node --check scripts/social-outbox-report.mjs
           node --check scripts/social-outbox-reconcile-buffer.mjs
