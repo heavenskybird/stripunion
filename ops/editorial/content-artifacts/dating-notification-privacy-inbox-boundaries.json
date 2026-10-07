@@ -1,0 +1,120 @@
+{
+  "backlogId": "dating-notification-privacy-inbox-boundaries",
+  "slug": "dating-platform-notification-and-inbox-privacy-checklist",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platform Notifications: Reduce Lock-Screen Exposure and Set Inbox Boundaries",
+  "description": "A practical checklist for reviewing dating app notification previews, email alerts, inbox settings and availability controls before using a platform.",
+  "excerpt": "A dating account can reveal more through routine alerts than through a public profile. Check where messages appear, what previews show and which controls let you set contact boundaries.",
+  "keyTakeaways": [
+    "Review notification previews on both the device and the dating account; changing one may not change the other.",
+    "Check whether email alerts, browser notifications and push alerts can be adjusted separately.",
+    "Use message controls and availability settings to decide when and how you want to be contacted.",
+    "Test settings with a low-risk account action before relying on them for privacy.",
+    "Remember that device-level notification settings can affect other apps, so make changes deliberately."
+  ],
+  "sections": [
+    {
+      "heading": "Treat alerts as a separate privacy surface",
+      "paragraphs": [
+        "A profile is not the only place where dating activity can become visible. Notifications may appear on a locked screen, a connected watch, a shared tablet, a browser, or an email account that other people can access. Even a short preview can expose an app name, sender name, or message fragment. If you use a shared device or keep your phone visible at work or home, consider alerts as part of platform selection rather than an afterthought.",
+        "Before creating a profile, find out which kinds of alerts the service offers and whether each can be disabled or limited. Look for controls covering new messages, matches, reminders, marketing messages, and account or security notices. Some alerts may be necessary for account access or security, while social alerts are often optional. Do not assume one global switch controls every delivery channel."
+      ],
+      "bullets": [
+        "Check the phone operating system's lock-screen preview setting.",
+        "Review dating-service push, email, browser, and in-account notification settings separately.",
+        "Consider whether a paired watch, car display, or tablet may repeat alerts."
+      ]
+    },
+    {
+      "heading": "Choose how much message detail appears",
+      "paragraphs": [
+        "A useful middle ground may be to receive an alert that something needs attention without showing its full contents. Where available, choose a generic notification, hide previews while the device is locked, or turn off message alerts while keeping important security notices. The right balance depends on whether timely replies matter to you and how private your devices are in daily use.",
+        "Test the result rather than relying on the setting label. Send or receive a harmless test message if the service permits, lock the device, and check what appears on the screen. Repeat the check with any linked browser or wearable you use. A notification can be private on a phone but still appear in an email subject line or on another connected device."
+      ],
+      "table": {
+        "caption": "Notification locations to review before regular use",
+        "headers": [
+          "Location",
+          "What to inspect",
+          "Possible adjustment"
+        ],
+        "rows": [
+          [
+            "Phone lock screen",
+            "App name, sender and message preview",
+            "Hide previews or disable social alerts"
+          ],
+          [
+            "Email inbox",
+            "Subject line, sender identity and message content",
+            "Reduce optional email alerts or use a private inbox"
+          ],
+          [
+            "Browser",
+            "Desktop banners and saved site permissions",
+            "Review browser notification permissions"
+          ],
+          [
+            "Connected devices",
+            "Mirrored alerts on watches, tablets or car displays",
+            "Change mirroring or device notification settings"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set inbox boundaries that fit your routine",
+      "paragraphs": [
+        "Inbox controls can help make communication manageable without requiring you to respond immediately. Check whether you can mute a conversation, limit alerts to selected activity, pause notifications for a period, or change availability indicators. The existence and names of controls vary by service, so inspect the settings and help pages instead of assuming a feature is present.",
+        "Decide in advance what level of contact is comfortable. For example, you might allow app messages but turn off promotional email, or check the inbox only at chosen times. If a platform displays an online or recently active status, look for an option to hide it if you do not want others to infer when you are available. A boundary is useful only if it matches your actual preferences; avoid enabling indicators that create pressure to respond."
+      ],
+      "bullets": [
+        "Identify whether muting a conversation also hides it or only stops alerts.",
+        "Check whether availability or activity indicators can be controlled.",
+        "Decide which alert types are important enough to keep enabled."
+      ]
+    },
+    {
+      "heading": "Keep notification settings from undermining account security",
+      "paragraphs": [
+        "Reducing social alerts should not mean ignoring account-protection messages. Keep a secure way to receive password-reset and suspicious-login information, and make sure the recovery email account itself is protected. If you use a separate email address for dating accounts, secure it with a unique password and appropriate recovery options. A private inbox is not private if it is routinely open on a shared computer.",
+        "Avoid changing multiple settings at once without noting what you changed. If you stop receiving a security message, confirm whether it was filtered, routed to another inbox, or disabled. Also check spam and notification summaries. A small settings record can help you restore the arrangement later, especially after an operating-system update, app reinstall, or device change."
+      ]
+    },
+    {
+      "heading": "Recheck alerts when your device or account changes",
+      "paragraphs": [
+        "Notification preferences may reset when you replace a phone, reinstall an app, use a new browser, or sign in on another device. Treat those events as a reason to repeat your privacy check. Review both the platform's own settings and the operating system's permissions, because an app may request notification access again after reinstalling.",
+        "When you stop using an account, turn off optional alerts as part of your exit process, then follow the platform's account-cancellation steps if you want to close it. Removing an app does not necessarily end email messages or account activity. For a shared device, sign out and remove saved sessions as appropriate, then verify that no browser permission or email rule continues to surface dating-related alerts."
+      ],
+      "bullets": [
+        "Repeat the check after a phone, browser, or email-account change.",
+        "Confirm that deleted or paused accounts are not still sending optional alerts.",
+        "Review shared-device sessions and saved browser permissions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I hide lock-screen previews, are dating notifications private?",
+      "answer": "It reduces what is visible on that lock screen, but it does not cover every channel. Alerts may still appear in email, a browser, a wearable, a notification history, or another device. Check each place where you receive account messages."
+    },
+    {
+      "question": "Should I turn off every dating app notification?",
+      "answer": "That is a personal choice. You can often separate social alerts from security or account notices. Review the available options and retain the messages you need to manage access safely."
+    },
+    {
+      "question": "Does deleting the app stop emails from a dating service?",
+      "answer": "Not necessarily. App removal and account closure are different actions, and email preferences may be controlled separately. Check the account's communication settings and cancellation or closure instructions."
+    }
+  ],
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
