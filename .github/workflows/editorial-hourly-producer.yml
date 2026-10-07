@@ -172,6 +172,8 @@ jobs:
           node --check scripts/plan-editorial-recovery.mjs
           node --check scripts/reconcile-editorial-backlog.mjs
           node --check scripts/social-outbox-enqueue.mjs
+          node --check scripts/check-live-publications.mjs
+          node scripts/check-live-publications.mjs --self-test
           npm run check
           PUBLIC_ALLOW_INDEXING=false npm run build
           node scripts/check-staging-robots-artifact.mjs
@@ -279,58 +281,17 @@ jobs:
             exit 1
           fi
 
-          declare -a urls=()
-          for file in "${guide_files[@]}"; do
-            event="$(node scripts/guide-event.mjs "$file")"
-            urls+=("$(node -e 'const e=JSON.parse(process.argv[1]); process.stdout.write(e.url)' "$event")")
-          done
+          publication_urls_json="$(node - <<'NODE'
+          const files = String(process.env.GUIDE_FILES || '').split(/\r?\n/).filter(Boolean);
+          const urls = files.map((file) => {
+            const slug = file.split('/').pop().replace(/\.js$/, '');
+            return 'https://stripunion.com/guides/' + slug;
+          });
+          process.stdout.write(JSON.stringify(urls));
+          NODE
+          )"
 
-          # All five guides are deployed by the same site build. Use one global
-          # deployment deadline rather than a separate 10-minute window per guide.
-          # This caps the live-verification barrier at ~10 minutes total and avoids
-          # overlapping the next supervisory/hourly cycle.
-          all_live=0
-          declare -a last_codes=()
-          for attempt in {1..40}; do
-            tmpdir="$(mktemp -d)"
-            pids=()
-
-            for i in "${!urls[@]}"; do
-              (
-                code="$(curl -L -sS --connect-timeout 5 --max-time 10 -o /dev/null -w '%{http_code}' "${urls[$i]}" || true)"
-                printf '%s' "$code" > "$tmpdir/$i"
-              ) &
-              pids+=("$!")
-            done
-
-            for pid in "${pids[@]}"; do
-              wait "$pid" || true
-            done
-
-            all_live=1
-            last_codes=()
-            for i in "${!urls[@]}"; do
-              code="$(cat "$tmpdir/$i" 2>/dev/null || true)"
-              last_codes+=("$code")
-              if [[ "$code" != "200" ]]; then
-                all_live=0
-              fi
-            done
-            rm -rf "$tmpdir"
-
-            if [[ "$all_live" == "1" ]]; then
-              break
-            fi
-            sleep 15
-          done
-
-          if [[ "$all_live" != "1" ]]; then
-            echo "One or more guides were not live after the shared deployment wait window:" >&2
-            for i in "${!urls[@]}"; do
-              echo "  HTTP ${last_codes[$i]:-unknown}  ${urls[$i]}" >&2
-            done
-            exit 1
-          fi
+          PUBLICATION_URLS_JSON="$publication_urls_json" node scripts/check-live-publications.mjs
 
           for file in "${guide_files[@]}"; do
             node scripts/record-astro-publication.mjs "$file" distribution_pending
