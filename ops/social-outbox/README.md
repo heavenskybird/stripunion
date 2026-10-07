@@ -7,7 +7,7 @@ The social outbox owns social-delivery state. Editorial publication does not dep
 - `reconcile_required`: historical publication may already have partial delivery. Never blind-send.
 - `pending`: safe to attempt delivery.
 - `retryable`: prior attempt failed; retry after `next_attempt_at`.
-- `delivered`: provider confirmed delivery/queue acceptance.
+- `scheduled`: provider accepted the post into a future queue slot.\n- `delivered`: provider confirms the post was actually sent/published.
 - `failed`: non-retryable failure.
 - `skipped`: intentionally not distributed.
 
