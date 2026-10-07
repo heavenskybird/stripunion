@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'ops/control-plane/editorial-producer-kick.json'
+      - 'ops/social-outbox/events/**'
 
 permissions:
   contents: read
