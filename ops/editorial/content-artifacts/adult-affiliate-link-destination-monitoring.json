@@ -1,0 +1,126 @@
+{
+  "backlogId": "adult-affiliate-link-destination-monitoring",
+  "slug": "adult-affiliate-link-destination-monitoring",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Adult Affiliate Link Monitoring: Catch Broken and Changed Destinations",
+  "description": "A webmaster workflow for monitoring adult affiliate links, redirects, destination changes, and fallback pages without confusing link health with attribution testing.",
+  "excerpt": "A link can still load and yet send visitors somewhere unexpected. A simple monitoring routine helps webmasters spot broken routes, outdated offers, and changes that need a review.",
+  "keyTakeaways": [
+    "Keep an inventory of live affiliate placements and their intended destinations.",
+    "Monitor whether links load, redirect as expected, and land on content that still fits the surrounding page.",
+    "Separate destination checks from conversion-attribution tests and payout reconciliation.",
+    "Use cautious, documented checks that respect program rules and avoid generating misleading activity.",
+    "Review a fallback plan before removing a link that has become unavailable or unsuitable."
+  ],
+  "sections": [
+    {
+      "heading": "Treat link health as an ongoing operational task",
+      "paragraphs": [
+        "An affiliate link is part of a visitor journey, not just a URL saved in a spreadsheet. A page can remain online while its link becomes malformed, its redirect chain changes, or its destination no longer matches the description beside it. Routine monitoring helps a webmaster discover these problems before a visitor encounters them. It also creates a record of what was checked and why a placement was edited.",
+        "This task is distinct from testing attribution. A destination check asks whether the route works and remains relevant. Attribution QA asks whether an eligible action is recorded under the program’s rules. A link may reach the expected page even if tracking is not functioning, or tracking may load while the landing page has changed. Keep those questions separate so a successful click does not get mistaken for proof of correct reporting."
+      ],
+      "bullets": [
+        "Check that the link is present in the intended page location.",
+        "Confirm that the route resolves rather than producing an error or endless loading.",
+        "Compare the final destination with the purpose described in the surrounding text.",
+        "Record any redirect or destination change that merits follow-up."
+      ]
+    },
+    {
+      "heading": "Create an inventory that makes monitoring manageable",
+      "paragraphs": [
+        "Begin with a list of active placements, not a loose collection of links. For each placement, record the site page, a short label for the link, its current destination, the date checked, and the person responsible for reviewing it. Include the program or account reference only where it is safe and operationally useful. Avoid putting credentials, private keys, or full account access details into the inventory.",
+        "Prioritize links that appear on prominent or evergreen pages, links tied to time-limited campaigns, and links whose destination is especially important to the surrounding claim. This does not require inventing a traffic threshold. Use editorial importance and the potential harm of a mismatch to set a review order. If several pages use the same destination, identify them together so a route change can be assessed consistently."
+      ],
+      "table": {
+        "caption": "Suggested fields for an affiliate destination inventory",
+        "headers": [
+          "Field",
+          "Purpose",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Placement page",
+            "Locates the published link",
+            "Is the page still live and relevant?"
+          ],
+          [
+            "Link label",
+            "Identifies the specific placement",
+            "Does the label accurately describe the destination?"
+          ],
+          [
+            "Expected destination",
+            "Sets a comparison point",
+            "Does the final page still match this expectation?"
+          ],
+          [
+            "Last checked",
+            "Shows when a review occurred",
+            "Is the review stale for this placement?"
+          ],
+          [
+            "Action and owner",
+            "Makes follow-up accountable",
+            "Who will verify the fix or remove the link?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check redirects without manufacturing program activity",
+      "paragraphs": [
+        "A manual route check should be cautious and consistent with the affiliate program’s terms. Some programs limit test clicks, automated requests, or particular forms of traffic. Read those restrictions before creating a monitoring routine, and do not generate conversions, use deceptive identities, or ask others to click solely to create activity. If the program provides a documented link-preview or test method, use it as described. When no approved method is clear, ask the program contact how to verify a destination safely.",
+        "For a permitted check, note the initial link, the final page reached, whether the page gives a clear error, and any meaningful change in the route. A chain of redirects can be normal, so the objective is not to force a particular number of steps. The useful question is whether the final experience is coherent and the link remains within the program’s rules. Do not assume that a browser display proves tracking is valid."
+      ]
+    },
+    {
+      "heading": "Review the destination against its editorial context",
+      "paragraphs": [
+        "A technically working link can become editorially wrong. The linked page may move to a different category, stop explaining an offer mentioned in the article, or present terms that do not support the surrounding copy. Re-read the sentence around the link and compare it with the page reached. If the language implies a feature, price, or condition that the destination does not substantiate, revise the copy or remove the link until the mismatch is resolved.",
+        "Check whether the destination remains accessible and appropriate for the intended audience and geography, where applicable. Do not infer program availability or legal suitability from a successful load alone. If the landing page changes in a material way, document the change and decide whether the original placement still serves readers. The right response may be to edit the description, choose a permitted alternative destination, or remove the link."
+      ]
+    },
+    {
+      "heading": "Set a clear response for failures and changes",
+      "paragraphs": [
+        "Monitoring is valuable only if a detected problem has an owner and a next step. Establish a simple response: confirm the issue using an allowed method, pause or remove a misleading link, update the inventory, and assign follow-up. If the destination is temporarily unavailable, do not replace it with an unrelated page merely to keep a monetized link in place. A neutral explanation or no link may be more accurate while the issue is unresolved.",
+        "Keep a concise change log with the date, affected placement, observed issue, action taken, and any confirmation received. This can help distinguish a local publishing error from a destination change and prevent the same broken route from being reintroduced. Review the monitoring routine when program rules or your site structure changes. A written process reduces reliance on one person’s memory and makes handoffs easier."
+      ],
+      "bullets": [
+        "If the link is broken, pause or remove it and record the failure.",
+        "If the destination changes, re-check its fit with the copy before restoring the placement.",
+        "If tracking questions arise, move them to a separate attribution QA process.",
+        "If permitted testing is unclear, ask the program rather than improvising test traffic."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should an affiliate link be checked?",
+      "answer": "There is no universal interval. Set a schedule based on the placement’s editorial importance, how often its destination may change, and any campaign terms. Recheck promptly after a reported issue or a substantial site update."
+    },
+    {
+      "question": "Does a successful redirect prove that attribution works?",
+      "answer": "No. A route check confirms only what you observed about the destination. Attribution depends on separate program rules and reporting, so evaluate it using an approved QA method."
+    },
+    {
+      "question": "Can I automate link checks?",
+      "answer": "Only if the method is permitted by the relevant program and does not create prohibited traffic or interfere with systems. Review program restrictions first; when uncertain, ask for an approved approach."
+    },
+    {
+      "question": "What should I do when a destination no longer matches my article?",
+      "answer": "Update the surrounding explanation, select a permitted and relevant destination if one is available, or remove the link. Do not keep a misleading placement simply because the URL still loads."
+    }
+  ],
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
