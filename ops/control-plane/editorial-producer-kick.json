@@ -1,6 +1,8 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial hourly producer",
-  "reason": "bootstrap post-PR-135 scheduler failover",
-  "updated_at": "2026-10-07T05:26:31Z"
+  "reason": "post-PR-137 verification after Run #16 timeout; recover the five publishing items with bounded live verification",
+  "updated_at": "2026-10-07T05:26:31Z",
+  "requested_at": "2026-10-07T06:10:58Z",
+  "requested_by": "chatgpt-supervisory-control-plane"
 }
