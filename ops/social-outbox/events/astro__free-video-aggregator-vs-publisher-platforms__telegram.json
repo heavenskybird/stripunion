@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:free-video-aggregator-vs-publisher-platforms:telegram",
+  "idempotency_key": "astro:free-video-aggregator-vs-publisher-platforms:telegram",
+  "publication_id": "astro:free-video-aggregator-vs-publisher-platforms",
+  "source": "astro",
+  "slug": "free-video-aggregator-vs-publisher-platforms",
+  "title": "Free Video Aggregators vs Publisher Platforms: Compare the Viewing Experience",
+  "excerpt": "A free video site may host material directly or organize links and uploads from multiple sources. Understanding that structure helps you assess navigation, source context, and what to verify before browsing.",
+  "url": "https://stripunion.com/guides/free-video-aggregator-vs-publisher-platforms",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:53:39.574Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:53:39.574Z",
+  "updated_at": "2026-10-07T07:53:39.574Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

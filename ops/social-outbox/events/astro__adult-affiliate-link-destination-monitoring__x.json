@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-affiliate-link-destination-monitoring:x",
+  "idempotency_key": "astro:adult-affiliate-link-destination-monitoring:x",
+  "publication_id": "astro:adult-affiliate-link-destination-monitoring",
+  "source": "astro",
+  "slug": "adult-affiliate-link-destination-monitoring",
+  "title": "Adult Affiliate Link Monitoring: Catch Broken and Changed Destinations",
+  "excerpt": "A link can still load and yet send visitors somewhere unexpected. A simple monitoring routine helps webmasters spot broken routes, outdated offers, and changes that need a review.",
+  "url": "https://stripunion.com/guides/adult-affiliate-link-destination-monitoring",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:53:39.373Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:53:39.373Z",
+  "updated_at": "2026-10-07T07:53:39.373Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

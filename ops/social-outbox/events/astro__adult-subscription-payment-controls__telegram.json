@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:adult-subscription-payment-controls:telegram",
+  "idempotency_key": "astro:adult-subscription-payment-controls:telegram",
+  "publication_id": "astro:adult-subscription-payment-controls",
+  "source": "astro",
+  "slug": "adult-subscription-payment-controls",
+  "title": "Adult Subscriptions: Use Payment Controls to Manage Recurring Charges",
+  "excerpt": "Payment controls can help make recurring subscriptions easier to manage. Compare the options available through your payment provider, set reminders, and keep a private record of what you authorize.",
+  "url": "https://stripunion.com/guides/adult-subscription-payment-controls",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:53:39.303Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:53:39.303Z",
+  "updated_at": "2026-10-07T07:53:39.303Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "event_id": "astro:premium-video-bundle-overlap-comparison:x",
+  "idempotency_key": "astro:premium-video-bundle-overlap-comparison:x",
+  "publication_id": "astro:premium-video-bundle-overlap-comparison",
+  "source": "astro",
+  "slug": "premium-video-bundle-overlap-comparison",
+  "title": "Premium Video Bundles vs Separate Subscriptions: Compare Access Before Joining",
+  "excerpt": "A bundle can simplify access, but it may not include every title or entitlement you expect. Map the content and terms you actually need before choosing a bundled or separate membership.",
+  "url": "https://stripunion.com/guides/premium-video-bundle-overlap-comparison",
+  "channel": "x",
+  "provider": "buffer",
+  "state": "pending",
+  "desired_at": "2026-10-07T07:53:39.441Z",
+  "attempt_count": 0,
+  "last_attempt_at": null,
+  "next_attempt_at": null,
+  "last_error": null,
+  "provider_message_id": null,
+  "provider_due_at": null,
+  "created_at": "2026-10-07T07:53:39.441Z",
+  "updated_at": "2026-10-07T07:53:39.441Z",
+  "metadata": {
+    "historical_reconciliation_required": false,
+    "enqueued_by": "editorial_hourly_producer"
+  }
+}
