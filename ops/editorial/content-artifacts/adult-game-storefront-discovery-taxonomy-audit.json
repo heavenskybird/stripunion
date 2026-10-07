@@ -1,0 +1,124 @@
+{
+  "backlogId": "adult-game-storefront-discovery-taxonomy-audit",
+  "slug": "adult-game-storefront-discovery-taxonomy-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Storefronts: Compare Search Filters and Discovery Tools",
+  "description": "Learn how to evaluate adult game storefront search, tags, filters, and listing context so you can narrow a catalog without mistaking visibility for quality.",
+  "excerpt": "A storefront’s search tools shape what you can find and how much context you get before opening a listing. Use this audit to compare discovery tools against your own needs.",
+  "keyTakeaways": [
+    "Test whether filters can be combined and whether applying them changes the results in an understandable way.",
+    "Treat tags as navigation aids, not proof of a game’s content, quality, or suitability; verify details on the listing.",
+    "Check whether search results explain why an item appears and whether sorting choices are clearly named.",
+    "Look for a path from a result to useful listing details without being pressured into an immediate purchase or download.",
+    "A catalog that is easy to search may still have gaps; record what you could not verify rather than filling in missing information."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the discovery task you actually have",
+      "paragraphs": [
+        "Adult game storefronts and catalog pages can differ in how they organize listings. Some emphasize a searchable store, while others mix game pages with community discussion or creator updates. Before comparing tools, define a real task: for example, finding games for a particular operating system, locating titles with a stated demo, or narrowing results by a clearly described feature.",
+        "A concrete task makes it easier to judge whether search and filters help. It also discourages treating a large number of results as evidence of usefulness. Write down the criteria that matter, then see whether the platform lets you apply them without relying on vague tags or external assumptions. Do not use a discovery test as a reason to download an unknown build."
+      ],
+      "bullets": [
+        "Choose two or three criteria that matter to your decision.",
+        "Distinguish platform requirements from personal preferences.",
+        "Use listing information and official documentation to verify important details."
+      ]
+    },
+    {
+      "heading": "Assess search and filter behavior",
+      "paragraphs": [
+        "Try a simple search, then a narrower one, and observe whether the results change in a way you can understand. Check whether the search seems to include titles, descriptions, tags, or other fields only when the platform explains this. A search box is not automatically a complete index, and missing results do not establish that a game does not exist.",
+        "Where filters are available, test whether they can be combined and whether selected filters remain visible. A clear interface makes it possible to remove one constraint without starting over. If a filter has ambiguous wording, treat its meaning as uncertain until the storefront defines it. Do not interpret a result count as a quality signal or a guarantee that all relevant items are represented."
+      ],
+      "table": {
+        "caption": "Questions to ask when auditing storefront discovery",
+        "headers": [
+          "Discovery element",
+          "What to check"
+        ],
+        "rows": [
+          [
+            "Search",
+            "Does the interface explain what fields are searchable?"
+          ],
+          [
+            "Filters",
+            "Can you see, combine, and remove active filters?"
+          ],
+          [
+            "Sorting",
+            "Are sort options named clearly, with criteria you can understand?"
+          ],
+          [
+            "Tags",
+            "Are tags defined or supported by listing details?"
+          ],
+          [
+            "Result cards",
+            "Can you identify the platform and access model before opening a listing?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read tags as clues, not guarantees",
+      "paragraphs": [
+        "Tags can help group a large catalog, but a label is only useful when its meaning is clear and applied consistently. A tag might describe format, platform, genre, access status, or a subjective theme; those are different kinds of information. Check whether the storefront distinguishes them and whether a listing provides more detail than the tag itself.",
+        "When a tag is important to your choice, confirm it on the game’s own page or documentation. Do not infer content warnings, age boundaries, compatibility, or development status from an unexplained label. If the listing omits an answer, note it as unknown. This is especially important when a game is presented through user-submitted tags or mixed community and storefront material."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Inspect the result-to-listing path",
+      "paragraphs": [
+        "A discovery tool is useful only if it leads to enough context for a decision. From a search result, check whether you can identify the title, creator or publisher information where supplied, platform support, access model, update information, and any relevant content or age notices. These details may appear on the listing rather than the result card, but navigation should make them reasonably findable.",
+        "Notice whether the interface pushes you toward an immediate account, download, or purchase before you can read basic information. Some platforms may require an account for certain details; if so, decide whether the requested access is proportionate to your task. Never treat a prominent button as proof that a file is safe or a listing is complete. Verify the build source and version separately before installation."
+      ],
+      "bullets": [
+        "Check the game’s platform and access details before proceeding.",
+        "Confirm that a listing links to the source of the build, when that information is available.",
+        "Keep discovery separate from installation: finding an item is not a safety check."
+      ]
+    },
+    {
+      "heading": "Understand storefront, community, and catalog differences",
+      "paragraphs": [
+        "A storefront is organized around listings and access, while a community space may prioritize posts, discussion, or creator updates. Some sites combine these functions. The distinction matters because a community post can be useful for context without serving as a complete product listing, and a storefront listing may not reflect the full discussion around a game.",
+        "Compare like with like. When evaluating two platforms, ask whether both are storefronts, whether either relies on community submissions, and what information comes from the creator versus other users. If a platform does not label those sources clearly, do not assume community claims are official. Use primary listing or creator-provided information for facts that affect compatibility, purchase, or installation."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Make a repeatable shortlist",
+      "paragraphs": [
+        "After testing discovery, build a shortlist based on verifiable criteria rather than position in search results. Record the search terms and filters used, the details each listing confirmed, and the questions left unanswered. This prevents a temporary sort order or a tag’s prominence from becoming an accidental recommendation.",
+        "Revisit a listing before acting if its access terms or update information matter, since storefront details can change. Avoid interpreting a stale result, absent tag, or community comment as a definitive current status. A good discovery system reduces search effort; it does not replace careful review of the individual listing."
+      ],
+      "paragraphs2": []
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do storefront tags reliably describe every game?",
+      "answer": "Not necessarily. Tag definitions and consistency can vary. Treat tags as a way to navigate, then confirm important details on the individual listing or the creator’s own documentation."
+    },
+    {
+      "question": "Does a high search position mean a game is a better choice?",
+      "answer": "No. Search position can reflect sorting rules or other platform choices that may not be explained. Compare listings against your requirements instead of treating placement as a quality ranking."
+    },
+    {
+      "question": "What is the difference between a storefront and a community catalog?",
+      "answer": "A storefront generally emphasizes listings and access, while a community area may emphasize posts and discussion. Some platforms combine both. Check which information comes from an official listing and which comes from users."
+    }
+  ],
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
