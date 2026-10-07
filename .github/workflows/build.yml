@@ -60,6 +60,7 @@ jobs:
           npm run check:editorial-backlog
           node --check scripts/compile-editorial-artifacts.mjs
           node --check scripts/generate-editorial-batch.mjs
+          node --check scripts/plan-editorial-recovery.mjs
           node --check scripts/reconcile-editorial-backlog.mjs
           node --check ops/control-plane/client.mjs
           node --check scripts/sync-growth-control-plane.mjs

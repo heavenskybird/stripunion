@@ -53,7 +53,21 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: node scripts/reconcile-editorial-backlog.mjs
 
+      - name: Plan recovery-first batch
+        id: recovery
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f /tmp/stripunion-editorial-batch.json
+          node scripts/plan-editorial-recovery.mjs
+          if [[ -f /tmp/stripunion-editorial-batch.json ]]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Plan hourly batch and generate only the deficit
+        if: steps.recovery.outputs.ready != 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/generate-editorial-batch.mjs
@@ -78,14 +92,18 @@ jobs:
             'guide_files<<EOF',
             ...data.guideFiles,
             'EOF',
-            'carryover_count=' + data.carryoverCount,
-            'generated_count=' + data.generatedCount,
+            'carryover_count=' + (data.carryoverCount || 0),
+            'recovery_count=' + (data.recoveryCount || 0),
+            'generated_count=' + (data.generatedCount || 0),
+            'mode=' + (data.mode || 'production'),
             ''
           ].join('\n'));
           console.log(JSON.stringify({
             count: data.count,
-            carryoverCount: data.carryoverCount,
-            generatedCount: data.generatedCount,
+            carryoverCount: data.carryoverCount || 0,
+            recoveryCount: data.recoveryCount || 0,
+            generatedCount: data.generatedCount || 0,
+            mode: data.mode || 'production',
             categories: data.categories,
             backlogIds: data.backlogIds,
             skippedCarryover: data.skippedCarryover
@@ -147,6 +165,7 @@ jobs:
       - name: Run production quality gates
         run: |
           node --check scripts/generate-editorial-batch.mjs
+          node --check scripts/plan-editorial-recovery.mjs
           node --check scripts/reconcile-editorial-backlog.mjs
           npm run check
           PUBLIC_ALLOW_INDEXING=false npm run build
@@ -224,6 +243,12 @@ jobs:
           git config user.name "stripunion-content-factory"
           git config user.email "actions@users.noreply.github.com"
           git add ops/editorial/content-artifacts ops/editorial/hourly-backlog.json src/data/guides
+
+          if git diff --cached --quiet; then
+            echo "No new content changes to commit; recovery batch is using existing canonical guides."
+            exit 0
+          fi
+
           git commit -m "content: publish autonomous hourly editorial batch [skip ci]"
 
           for attempt in 1 2 3; do
@@ -236,9 +261,10 @@ jobs:
           echo "Failed to push validated hourly editorial batch after retries." >&2
           exit 1
 
-      - name: Wait for production and distribute all five guides
+      - name: Wait for production and close publication independently of social delivery
         env:
           GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
+          RECOVERY_COUNT: ${{ steps.batch.outputs.recovery_count }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -267,9 +293,34 @@ jobs:
               exit 1
             fi
 
-            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs
-            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
-            node scripts/record-astro-publication.mjs "$file" distributed
+            # Recovery batches may already have partial Buffer/Telegram delivery from an
+            # earlier failed run. Do not blind-resend them. Close publication first and
+            # leave distribution marked for idempotent reconciliation.
+            if [[ "${RECOVERY_COUNT:-0}" == "5" ]]; then
+              node scripts/record-astro-publication.mjs "$file" distribution_pending_reconciliation
+              continue
+            fi
+
+            buffer_ok=1
+            telegram_ok=1
+
+            if ! SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs; then
+              buffer_ok=0
+              echo "::warning::Buffer delivery pending for $url; publication will still close."
+            fi
+
+            if ! SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs; then
+              telegram_ok=0
+              echo "::warning::Telegram delivery pending for $url; publication will still close."
+            fi
+
+            if [[ "$buffer_ok" == "1" && "$telegram_ok" == "1" ]]; then
+              state="distributed"
+            else
+              state="distribution_pending"
+            fi
+
+            node scripts/record-astro-publication.mjs "$file" "$state"
           done <<< "$GUIDE_FILES"
 
       - name: Close publication state and persist ledger
