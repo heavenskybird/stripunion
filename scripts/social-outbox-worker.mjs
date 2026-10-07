@@ -100,7 +100,8 @@ for (const { file, event } of selected) {
       event.provider_due_at = post.dueAt || null;
       event.state = post.dueAt ? 'scheduled' : 'delivered';
       event.next_attempt_at = null;
-      delivered += 1;
+      if (event.state === 'scheduled') scheduled += 1;
+      else delivered += 1;
     } else if (event.channel === 'telegram' && event.provider === 'telegram') {
       const result = await publishTelegramEvent({
         title: event.title,
