@@ -128,7 +128,7 @@ for (const name of await listJson(outboxDir)) {
   }
 
   const post = matches[0];
-  event.state = 'delivered';
+  event.state = post.status === 'sent' ? 'delivered' : 'scheduled';
   event.provider_message_id = post.id;
   event.provider_due_at = post.dueAt || post.sentAt || null;
   event.last_error = null;
