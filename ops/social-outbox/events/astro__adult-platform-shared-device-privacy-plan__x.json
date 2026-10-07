@@ -19,9 +19,12 @@
   "provider_message_id": "6ac6c74101166a3e1c0868bd",
   "provider_due_at": "2026-10-07T23:26:00.000Z",
   "created_at": "2026-10-07T07:12:28.604Z",
-  "updated_at": "2026-10-07T22:27:13.350Z",
+  "updated_at": "2026-10-07T22:32:23.265Z",
   "metadata": {
     "historical_reconciliation_required": false,
-    "enqueued_by": "editorial_hourly_producer"
+    "enqueued_by": "editorial_hourly_producer",
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "scheduled",
+    "buffer_match_count": 1
   }
 }
