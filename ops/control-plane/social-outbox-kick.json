@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Native social outbox",
-  "reason": "pending outbox events exist but no post-publication outbox run was created; verify push-path trigger",
-  "updated_at": "2026-10-07T07:15:52.438Z"
+  "reason": "post-PR-143 cross-heartbeat verification for editorial scheduler",
+  "updated_at": "2026-10-07T13:21:11.263Z"
 }
