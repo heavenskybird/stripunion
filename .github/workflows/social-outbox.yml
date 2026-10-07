@@ -75,7 +75,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "ops: reconcile native social outbox [skip ci]"
+          git commit -m "ops: reconcile native social outbox"
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
               exit 0
