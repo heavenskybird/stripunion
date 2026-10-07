@@ -119,7 +119,7 @@ let unmatched = 0;
 for (const name of await listJson(outboxDir)) {
   const file = path.join(outboxDir, name);
   const event = JSON.parse(await fs.readFile(file, 'utf8'));
-  if (event.state !== 'reconcile_required' || event.channel !== 'x' || event.provider !== 'buffer') continue;
+  if (!['reconcile_required', 'scheduled'].includes(event.state) || event.channel !== 'x' || event.provider !== 'buffer') continue;
 
   const matches = postsBySlug.get(event.slug) || [];
   if (!matches.length) {
