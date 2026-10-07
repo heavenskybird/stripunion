@@ -27,7 +27,8 @@
     "social:outbox:sync": "node scripts/social-outbox-sync.mjs",
     "social:outbox:worker": "node scripts/social-outbox-worker.mjs",
     "social:outbox:report": "node scripts/social-outbox-report.mjs",
-    "social:outbox:reconcile:buffer": "node scripts/social-outbox-reconcile-buffer.mjs"
+    "social:outbox:reconcile:buffer": "node scripts/social-outbox-reconcile-buffer.mjs",
+    "social:outbox:enqueue": "node scripts/social-outbox-enqueue.mjs"
   },
   "dependencies": {
     "astro": "^7.3.0"
