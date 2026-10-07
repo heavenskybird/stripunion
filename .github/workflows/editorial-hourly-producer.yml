@@ -167,6 +167,7 @@ jobs:
           node --check scripts/generate-editorial-batch.mjs
           node --check scripts/plan-editorial-recovery.mjs
           node --check scripts/reconcile-editorial-backlog.mjs
+          node --check scripts/social-outbox-enqueue.mjs
           npm run check
           PUBLIC_ALLOW_INDEXING=false npm run build
           node scripts/check-staging-robots-artifact.mjs
@@ -261,14 +262,9 @@ jobs:
           echo "Failed to push validated hourly editorial batch after retries." >&2
           exit 1
 
-      - name: Wait for production and close publication independently of social delivery
+      - name: Wait for production and enqueue native social outbox
         env:
           GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
-          RECOVERY_COUNT: ${{ steps.batch.outputs.recovery_count }}
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
         shell: bash
         run: |
           set -euo pipefail
@@ -293,34 +289,8 @@ jobs:
               exit 1
             fi
 
-            # Recovery batches may already have partial Buffer/Telegram delivery from an
-            # earlier failed run. Do not blind-resend them. Close publication first and
-            # leave distribution marked for idempotent reconciliation.
-            if [[ "${RECOVERY_COUNT:-0}" == "5" ]]; then
-              node scripts/record-astro-publication.mjs "$file" distribution_pending_reconciliation
-              continue
-            fi
-
-            buffer_ok=1
-            telegram_ok=1
-
-            if ! SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs; then
-              buffer_ok=0
-              echo "::warning::Buffer delivery pending for $url; publication will still close."
-            fi
-
-            if ! SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs; then
-              telegram_ok=0
-              echo "::warning::Telegram delivery pending for $url; publication will still close."
-            fi
-
-            if [[ "$buffer_ok" == "1" && "$telegram_ok" == "1" ]]; then
-              state="distributed"
-            else
-              state="distribution_pending"
-            fi
-
-            node scripts/record-astro-publication.mjs "$file" "$state"
+            node scripts/record-astro-publication.mjs "$file" distribution_pending
+            node scripts/social-outbox-enqueue.mjs "$file"
           done <<< "$GUIDE_FILES"
 
       - name: Close publication state and persist ledger
@@ -332,7 +302,7 @@ jobs:
         run: |
           set -euo pipefail
           node scripts/reconcile-editorial-backlog.mjs
-          git add ops/editorial/publication-ledger/astro ops/editorial/hourly-backlog.json
+          git add ops/editorial/publication-ledger/astro ops/editorial/hourly-backlog.json ops/social-outbox/events
 
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "No publication ledger changes found." >&2
