@@ -1,0 +1,118 @@
+export default {
+  "slug": "affiliate-campaign-naming-link-inventory",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Campaign Naming: Build a Link Inventory Webmasters Can Maintain",
+  "description": "Create a consistent affiliate campaign naming system and link inventory to make placements, redirects, reporting and future updates easier to manage.",
+  "excerpt": "A link inventory is more than a list of URLs. A consistent naming scheme helps webmasters connect each placement to its page, channel and intended destination without confusing campaign labels or losing update history.",
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "keyTakeaways": [
+    "Use a stable naming convention that identifies placement context without putting personal or sensitive data in tracking labels.",
+    "Keep a canonical inventory of destination, source page, campaign identifier, owner and last verification date.",
+    "Separate the human-readable inventory from the actual tracking URL so changes are controlled and reviewable.",
+    "Record redirect behavior and destination changes instead of silently replacing links.",
+    "A documented process reduces broken placements and makes reports easier to interpret across pages and time."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what the naming system needs to answer",
+      "paragraphs": [
+        "A useful campaign label should help you answer operational questions: which page contains this link, where on the page it appears, what destination it is intended to reach and which reporting grouping should contain it. It does not need to encode every fact about a visitor or campaign. Overloaded labels become hard to read, inconsistent and difficult to maintain when a page layout or promotion changes.",
+        "Before naming links, identify the decisions you make from your reports. If you compare pages, use a stable page or section identifier. If placement position matters, include a concise position code such as header, inline or footer. If the destination changes independently, keep it as a separate field in your inventory rather than embedding the full destination in a campaign name. Avoid adding names, email addresses or other personal information to tracking parameters."
+      ],
+      "bullets": [
+        "List the reporting questions the identifier should support.",
+        "Choose a small set of controlled terms for source, placement and campaign.",
+        "Keep personal information out of URL parameters and campaign labels."
+      ]
+    },
+    {
+      "heading": "Create a canonical link inventory",
+      "paragraphs": [
+        "Store each active placement as a record, not as an isolated URL copied into a note. A useful record includes the page or property, placement, destination description, tracking identifier, link owner, current status and date last checked. Add fields for the approved traffic or placement context where your program terms require it, and for any relevant restriction or disclosure obligation. The inventory becomes the reference point when pages are redesigned, a destination changes or a link stops working.",
+        "Keep the inventory in a controlled location with an identified editor or owner. Decide how updates are approved and how old records are marked inactive. Do not overwrite a past destination without leaving a change note; a short history helps explain why a report changed or why an older page used a different campaign code. Access controls and backups matter too, particularly when multiple people can edit production links."
+      ],
+      "table": {
+        "caption": "Suggested fields for a maintainable affiliate link inventory",
+        "headers": [
+          "Field",
+          "Example of what to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Placement ID",
+            "A short stable identifier",
+            "Lets a report map back to one placement"
+          ],
+          [
+            "Source page and position",
+            "Page slug and placement location",
+            "Shows where the link appears"
+          ],
+          [
+            "Destination description",
+            "Human-readable offer or landing-page label",
+            "Makes destination changes easier to review"
+          ],
+          [
+            "Tracking identifier",
+            "The approved campaign or sub-ID value",
+            "Supports consistent reporting groups"
+          ],
+          [
+            "Status and check date",
+            "Active, paused or retired; date verified",
+            "Helps find stale links and outdated records"
+          ],
+          [
+            "Restrictions and notes",
+            "Relevant permitted-placement notes",
+            "Keeps operational constraints visible"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use stable, readable naming rules",
+      "paragraphs": [
+        "Choose a format that people can scan, such as source-placement-campaign, and document the allowed values. For instance, a team might use a short property code, a page group and a placement location, separated consistently. The exact convention is less important than using it reliably. Avoid changing the meaning of a code after reports have accumulated, because the same label could then refer to different placements across time.",
+        "Make the scheme resilient to ordinary site changes. A page title may change while its URL remains stable; a URL may also change while the page’s role remains the same. Decide which identifier represents the durable concept and record the current URL separately. Keep labels concise enough to avoid transcription errors, but clear enough that another editor can understand them without guessing. If reporting tools impose length or character limits, document those constraints before rollout."
+      ]
+    },
+    {
+      "heading": "Control link changes and redirects",
+      "paragraphs": [
+        "Treat a destination update as a controlled change. Record what is changing, why, who approved it and when it becomes active. Before replacing a production link, confirm the new destination and tracking format against the program’s instructions. Check whether an intermediate redirect changes or strips parameters, and confirm that the final landing page is the one intended. Do not assume a redirect preserves tracking just because the visible link looks correct.",
+        "Use a small, repeatable verification process after publication. Open the page in a clean browsing context, follow the link, inspect the final destination and compare the resulting tracking value with the inventory. If a link is unavailable or a destination is unclear, pause the placement until it can be checked rather than leaving an unverified link live. Keep the previous entry marked retired so that an older report can still be understood."
+      ],
+      "bullets": [
+        "Log destination and campaign-code changes before publishing them.",
+        "Check the landing destination and any redirect path after a change.",
+        "Mark retired placements clearly; do not reuse their identifiers casually."
+      ]
+    },
+    {
+      "heading": "Make reporting and handoffs easier to interpret",
+      "paragraphs": [
+        "A consistent inventory makes reporting more actionable because a campaign label can be traced to a real placement. When a report shows an unexpected result, you can check whether the link moved, changed identifiers, became inactive or was grouped under a different name. This does not prove why a result occurred, but it helps rule out avoidable instrumentation and recordkeeping confusion before interpreting it as a change in audience behavior.",
+        "For a handoff, give the next editor the naming rules, inventory location, change process and a short explanation of which fields must not be edited casually. Review the list on a schedule that suits the site’s update frequency, and remove or archive placements that no longer exist. Keep the active list small and accurate rather than preserving obsolete URLs as if they were live. A maintained inventory is a lightweight operational asset, not a substitute for program terms or tracking verification."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should campaign names include the full destination URL?",
+      "answer": "Usually it is clearer to store the destination separately in the inventory. That keeps identifiers readable and lets you change a destination without changing the meaning of the reporting label."
+    },
+    {
+      "question": "Can one campaign identifier be reused across multiple placements?",
+      "answer": "Only if your reporting design intentionally groups those placements and you can still distinguish them when needed. Document the grouping rule; otherwise, use distinct placement identifiers to avoid ambiguous records."
+    },
+    {
+      "question": "How often should a link inventory be reviewed?",
+      "answer": "Set a review cadence that matches how often your site and destinations change, and check links after any relevant edit. There is no universal interval; the important point is to assign an owner and record verification dates."
+    }
+  ]
+};

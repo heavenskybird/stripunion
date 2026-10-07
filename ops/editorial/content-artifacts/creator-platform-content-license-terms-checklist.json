@@ -1,0 +1,121 @@
+{
+  "backlogId": "creator-platform-content-license-terms-checklist",
+  "slug": "creator-platform-content-license-terms-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platform Content Rights: Review License and Promotional-Use Terms",
+  "description": "A creator-focused checklist for reading platform content licenses, promotional-use permissions, sublicensing language, deletion rules and practical limits.",
+  "excerpt": "Content ownership and platform permission are not always the same thing. Review what license a creator grants, how promotional use is described and what may happen to content after removal or account closure.",
+  "keyTakeaways": [
+    "Distinguish owning content from granting a platform permission to host, display, distribute or promote it.",
+    "Read the license scope, duration, territory, sublicensing and termination language together rather than as isolated clauses.",
+    "Check whether platform promotion, embeds, previews or third-party services are described separately from ordinary hosting.",
+    "Look for provisions about retained copies, backups, moderation records and continued display after deletion or account closure.",
+    "If a term is unclear or consequential, seek qualified advice instead of treating this checklist as a legal interpretation."
+  ],
+  "sections": [
+    {
+      "heading": "Separate ownership from permission to use",
+      "paragraphs": [
+        "A creator may retain ownership of original work while granting a platform permission to use it for specified purposes. Those are separate questions. Ownership concerns who holds rights in the work; a license describes what another party is allowed to do with it. A platform may need permissions to host files, make technical copies, display material to authorized users or distribute it through its service, but the scope depends on the actual agreement.",
+        "Read the operative terms rather than relying on a short marketing summary. Look for the language that describes the license granted when content is uploaded, posted or otherwise made available. Note whether the grant is described as limited or broad, exclusive or non-exclusive, and whether it applies only to platform operation or includes other uses. Do not assume that familiar wording has a standard meaning in every agreement."
+      ],
+      "bullets": [
+        "Find the content license clause and note when it begins.",
+        "Identify what rights the creator retains and what permissions are granted.",
+        "Keep a dated copy of the terms that applied when you accepted them."
+      ]
+    },
+    {
+      "heading": "Review the scope, duration and sublicensing language",
+      "paragraphs": [
+        "Check what activities the license permits. Terms may refer to storing, reproducing, displaying, distributing, adapting, promoting or making content available through related services. These verbs can cover different activities, so record the ones that matter to your work. Also review any stated territory, duration or purpose. If those limits are absent or difficult to reconcile with another clause, mark the issue for clarification rather than filling in the gap yourself.",
+        "Sublicensing language deserves particular attention. A platform may need to involve hosting, payment, delivery or promotional service providers, but the agreement determines what permissions can be passed on and for what purpose. Look for whether third parties receive rights only as needed to provide the service or whether the permission appears broader. Consider whether the terms explain what happens if the platform changes providers or uses content in a new distribution context."
+      ],
+      "table": {
+        "caption": "Questions to record while reviewing a content license",
+        "headers": [
+          "Term area",
+          "Question to answer from the text",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Permitted uses",
+            "Which actions may the platform take with uploaded content?",
+            "Clarifies the functional scope of the grant"
+          ],
+          [
+            "Duration",
+            "When does the permission begin and end?",
+            "Helps distinguish active use from continuing rights"
+          ],
+          [
+            "Sublicensing",
+            "Can rights be passed to service providers or others?",
+            "Shows who may handle or display the material"
+          ],
+          [
+            "Promotion",
+            "Can content or excerpts appear in marketing or previews?",
+            "Separates service delivery from promotional use"
+          ],
+          [
+            "Termination",
+            "What changes when content is removed or an account closes?",
+            "Sets expectations about continuing copies or use"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for promotional and preview uses",
+      "paragraphs": [
+        "Hosting a work for subscribers and using it to promote a platform are not necessarily the same activity. Search the terms for references to advertising, marketing, promotion, previews, excerpts, thumbnails, embeds, social channels or public pages. Check whether the platform can display only material you designate for promotion, or whether the license appears to cover content more generally. The text may define separate settings or permissions, so do not rely on a single upload control without reading the associated explanation.",
+        "Consider the practical consequences for your brand and distribution plans. A preview appearing outside a subscriber area, for example, may affect how you present a release elsewhere. Record whether the platform describes opt-outs, approval steps, content-level controls or removal requests. If those controls exist, confirm how they work and whether changes affect already-created promotional material. If the terms do not answer the question, seek a written explanation before relying on an assumption."
+      ]
+    },
+    {
+      "heading": "Understand removal, retention and account closure",
+      "paragraphs": [
+        "Removing a post from view may not mean every copy is immediately erased. Terms may discuss backups, cached copies, security records, moderation records, legal retention or material already shared by other users. Check what the agreement says about those possibilities and how long any continued use can last. Distinguish technical retention from continued public display, since the terms may treat them differently.",
+        "Review what happens when a creator deletes individual content, ends a subscription, closes an account or loses access. These may trigger different outcomes. Note whether the license ends at once, continues for a specified purpose, or remains in effect for content already distributed. If the answer is unclear, document the clause and ask the platform for clarification. This checklist identifies questions; it does not determine what a contract means under a particular jurisdiction."
+      ]
+    },
+    {
+      "heading": "Keep a decision record and escalate unclear terms",
+      "paragraphs": [
+        "Create a short rights-review record for each platform: the date reviewed, terms version, key clauses, relevant creator settings and unanswered questions. Save the official terms and any written responses in a secure business records location. This makes it easier to revisit a decision after a terms update, a change in promotional settings or a change to your distribution plan. Keep the record factual and distinguish what the text states from your interpretation.",
+        "Prioritize clarification when a clause could affect exclusivity, third-party distribution, promotional use, post-termination rights or the ability to license your work elsewhere. A platform support response can help explain product behavior, but it may not replace contractual terms or legal advice. For material business decisions, consult a qualified professional familiar with the relevant agreement and jurisdiction. Do not upload work you cannot afford to have handled under unclear or unacceptable terms."
+      ],
+      "bullets": [
+        "Save the terms version and date reviewed.",
+        "Record exact clauses and your questions separately.",
+        "Check platform controls against the rights described in the terms.",
+        "Re-review after a material terms update or change in your business plan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I own my content, can a platform still use it?",
+      "answer": "Possibly, if you granted a license in the platform agreement. Ownership and permission are separate. Read the license to understand its scope, duration, permitted uses and any sublicensing provisions."
+    },
+    {
+      "question": "Does deleting a post guarantee that every copy is erased?",
+      "answer": "Not necessarily. The terms may address backups, technical retention, moderation records or material already distributed. Review the deletion and termination provisions to understand what the platform says will happen."
+    },
+    {
+      "question": "Is this checklist legal advice?",
+      "answer": "No. It is a practical reading aid for identifying clauses and questions. Contract interpretation depends on the specific agreement and applicable law, so seek qualified legal advice for consequential decisions."
+    }
+  ],
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-07",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
