@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial hourly producer",
-  "reason": "producer stale beyond 75 minutes; supervisory failover kick for canonical hourly production",
-  "updated_at": "2026-10-07T13:02:27.835Z"
+  "reason": "post-PR-142 scheduler de-duplication verification; fresh Producer must not be duplicated",
+  "updated_at": "2026-10-07T13:15:48.160Z"
 }
