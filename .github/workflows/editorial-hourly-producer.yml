@@ -291,13 +291,14 @@ jobs:
           # overlapping the next supervisory/hourly cycle.
           all_live=0
           declare -a last_codes=()
-          for attempt in {1..40}; do
+          deadline=$((SECONDS + 600))
+          while (( SECONDS < deadline )); do
             tmpdir="$(mktemp -d)"
             pids=()
 
             for i in "${!urls[@]}"; do
               (
-                code="$(curl -L -sS --connect-timeout 5 --max-time 10 -o /dev/null -w '%{http_code}' "${urls[$i]}" || true)"
+                code="$(curl -L -sS --connect-timeout 3 --max-time 5 -o /dev/null -w '%{http_code}' "${urls[$i]}" || true)"
                 printf '%s' "$code" > "$tmpdir/$i"
               ) &
               pids+=("$!")
@@ -321,7 +322,16 @@ jobs:
             if [[ "$all_live" == "1" ]]; then
               break
             fi
-            sleep 15
+
+            remaining=$((deadline - SECONDS))
+            if (( remaining <= 0 )); then
+              break
+            fi
+            if (( remaining < 15 )); then
+              sleep "$remaining"
+            else
+              sleep 15
+            fi
           done
 
           if [[ "$all_live" != "1" ]]; then
