@@ -14,6 +14,10 @@ on:
       - 'Ecosystem public health'
       - 'Editorial production snapshot'
       - 'Control plane authority promotion'
+      - 'Telegram evergreen distribution'
+      - 'Visual QA'
+      - 'Build'
+      - 'Hostinger Read-only Acceptance'
     types: [completed]
 
 permissions:
