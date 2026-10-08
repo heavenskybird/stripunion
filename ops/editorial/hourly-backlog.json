@@ -1583,7 +1583,7 @@
       "intent": "Adult Subscriptions and Currency Conversion: Check the Charge Before Paying",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -1596,7 +1596,7 @@
       "intent": "Affiliate Attribution Windows: Compare Click Credit and Conversion Timing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -1609,7 +1609,7 @@
       "intent": "VR Adult Platforms: Test Headset Browser and App Access Before Joining",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -1622,7 +1622,7 @@
       "intent": "Free Video Platforms: Compare Watch History and Saved-List Privacy",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -1635,7 +1635,7 @@
       "intent": "Adult Games: Check Language Support and Translation Status Before Downloading",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
