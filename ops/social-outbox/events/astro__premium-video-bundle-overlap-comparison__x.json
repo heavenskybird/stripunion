@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/premium-video-bundle-overlap-comparison",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-07T07:53:39.441Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-08T10:04:15.758Z",
@@ -19,12 +19,12 @@
   "provider_message_id": "6ac76aa06a3120c3109499f8",
   "provider_due_at": "2026-10-08T11:06:00.000Z",
   "created_at": "2026-10-07T07:53:39.441Z",
-  "updated_at": "2026-10-08T10:08:34.443Z",
+  "updated_at": "2026-10-08T14:33:22.024Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
