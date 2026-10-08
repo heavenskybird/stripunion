@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "post-PR-151 scheduler cadence verification; expect skip-fresh if latest Producer age <52m",
-  "updated_at": "2026-10-08T16:20:26.680Z"
+  "reason": "external heartbeat: producer cadence overdue >52m; single-job rerun blocked",
+  "updated_at": "2026-10-08T17:55:00.000Z"
 }
