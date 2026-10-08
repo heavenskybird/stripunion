@@ -1,0 +1,120 @@
+{
+  "backlogId": "vr-session-output-and-notification-privacy-checklist",
+  "slug": "vr-session-output-and-notification-privacy-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Content Privacy: Check Casting, Notifications, and Session Output",
+  "description": "Before using an adult VR platform, check casting, screen mirroring, notifications, voice controls, and headset output so a private session does not appear elsewhere.",
+  "excerpt": "A headset session can involve more than the headset display. Review casting, companion screens, notifications, voice controls, and nearby devices before opening a platform or media player.",
+  "keyTakeaways": [
+    "Check whether the headset or app is connected to casting, mirroring, or a companion display before starting a private session.",
+    "Review notifications and voice-assistant behavior because alerts or spoken commands may appear or be heard outside the headset.",
+    "Distinguish headset output from the device or account activity visible to other people who can access connected screens or profiles.",
+    "Test privacy settings with ordinary, non-sensitive content and confirm how to stop casting or disconnect companion devices."
+  ],
+  "sections": [
+    {
+      "heading": "Map every screen and connection in the session",
+      "paragraphs": [
+        "A VR platform may be viewed through a headset while other devices remain part of the same setup. A phone may control the headset, a computer may run the browser, or a television may be available for casting. Which connections exist depends on the user’s equipment and configuration; do not assume the headset is operating alone simply because it covers the wearer’s view.",
+        "Before opening an adult platform, make a quick map of the devices that could display or control the session. Include the headset, companion phone, computer, television, and any shared account or casting destination. Then check which device is currently selected for output. This simple inventory helps separate a private headset view from a mirrored view that another person in the room might see."
+      ],
+      "bullets": [
+        "Identify the headset, controller device, browser, and any nearby display.",
+        "Check for active casting or mirroring indicators before opening a session.",
+        "Notice whether a companion app shows recent activity or device status."
+      ]
+    },
+    {
+      "heading": "Test casting and mirroring controls in advance",
+      "paragraphs": [
+        "Casting can be useful for setup or troubleshooting, but an active display connection can reveal what is on screen. Locate the headset’s output or sharing controls before you need them. Learn how to stop a cast, disconnect a destination, and confirm that the headset has returned to private viewing. Menu names and behavior vary by device, so use the settings and instructions for the equipment you actually own.",
+        "If you share a room or network, avoid experimenting with sensitive material while unsure which screen is receiving output. Test the connection with an ordinary screen first, then verify what appears on the headset and destination display when sharing starts and stops. If a device offers a persistent cast, auto-connect, or remembered destination option, check whether it can be disabled or cleared. Do not assume closing the video or app also terminates screen sharing."
+      ],
+      "table": {
+        "caption": "VR output privacy preflight",
+        "headers": [
+          "Potential exposure point",
+          "What to check",
+          "Safer test"
+        ],
+        "rows": [
+          [
+            "Casting destination",
+            "Whether a television or computer is selected",
+            "Connect using an ordinary screen, then practice disconnecting"
+          ],
+          [
+            "Companion phone",
+            "Previews, controls, or session notifications",
+            "Review its lock-screen and app notification settings"
+          ],
+          [
+            "Computer browser",
+            "Open tabs, recent pages, or saved session state",
+            "Use the intended browser profile and close unrelated windows"
+          ],
+          [
+            "Voice controls",
+            "Whether commands are spoken aloud or sent to another device",
+            "Test a basic command before private use"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reduce notification and account previews",
+      "paragraphs": [
+        "A private display can still be interrupted by a notification that shows on a headset, phone, computer, or lock screen. Review system-level and app-level notifications on each connected device. Consider disabling previews or nonessential alerts for the session, especially on a phone that may be visible to someone nearby. The headset’s notification controls may not govern alerts on the companion device, so check both layers.",
+        "Also consider account-level activity that can appear outside the viewing session. A shared browser profile, shared device account, or companion app might expose recent activity to another person with access. Use a separate device profile where appropriate, sign out of accounts you do not want connected, and avoid leaving a private session open on a shared screen. These steps reduce visible traces but cannot guarantee that every system log or network record is removed."
+      ],
+      "paragraphs_extra": []
+    },
+    {
+      "heading": "Check voice, microphone, and room controls",
+      "paragraphs": [
+        "Voice features can route through the headset, a paired phone, or another connected device. Check whether a command is processed locally or sent through a companion service, if that information is provided. Review microphone permissions and mute controls, and consider whether an activated assistant could respond aloud in the room. If you do not need voice input, turning it off for the session may simplify the setup.",
+        "Room boundaries and passthrough features also affect what appears in the headset, though they serve a different purpose from privacy controls. Confirm that passthrough or external cameras are configured as expected and that the headset is not displaying a cast or social view instead of the intended private interface. For shared spaces, choose a setup that keeps the headset wearer’s display and any external display distinct, and pause before changing output settings."
+      ],
+      "bullets": [
+        "Find microphone mute and voice-assistant controls before use.",
+        "Review companion-device permissions and spoken-alert behavior.",
+        "Know how to pause the session before changing display or room settings."
+      ]
+    },
+    {
+      "heading": "Use a repeatable start-and-finish routine",
+      "paragraphs": [
+        "A short routine reduces reliance on memory. Before a session, verify the output destination, notification previews, companion-device visibility, and account profile. At the end, close the platform, stop casting, disconnect any temporary display, and return devices to their ordinary settings. If you use a shared headset, sign out or switch profiles as appropriate and clear only the activity or local data you intend to remove; do not assume one action clears every connected device.",
+        "Keep your checklist specific to your own headset and network. Record where the relevant controls are, not private session details. If an option is unavailable or unclear, treat that as an unresolved risk rather than guessing. A practical platform comparison can note whether the session works without external display output, whether controls are easy to reach, and whether connected devices provide visible alerts. This helps choose a setup that matches your privacy expectations."
+      ],
+      "bullets": [
+        "Before: verify display destination, alerts, profile, and microphone settings.",
+        "During: pause before changing output or sharing controls.",
+        "After: close the session, end casting, and restore any temporary settings."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does wearing a VR headset guarantee that no one else can see the session?",
+      "answer": "No. Casting, mirroring, companion apps, notifications, shared accounts, or an open browser on another device may expose activity. Check each connected device and destination rather than relying on the headset display alone."
+    },
+    {
+      "question": "Should I disable every notification on my headset?",
+      "answer": "That depends on your needs. You can review notification previews and disable or limit alerts that could expose information during a session. Check both headset and companion-device settings because they may be controlled separately."
+    },
+    {
+      "question": "Will closing the VR app stop screen casting?",
+      "answer": "Not necessarily. Casting or mirroring can be controlled separately from the app. Confirm that the connection has ended using the headset or device’s output controls."
+    }
+  ],
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
