@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "purpose": "External supervisory heartbeat for Editorial hourly producer",
-  "reason": "producer stale >4h while GitHub scheduler/workflow_run heartbeats stopped; recover cadence and validate full chain",
-  "updated_at": "2026-10-08T06:42:57.333Z"
+  "purpose": "Supervisory failover trigger for Editorial hourly producer",
+  "reason": "recover stale producer cadence after GitHub schedule heartbeat gap; external supervisory wake-up",
+  "updated_at": "2026-10-08T06:43:52.499Z"
 }
