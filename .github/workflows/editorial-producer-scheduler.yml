@@ -2,7 +2,7 @@ name: Editorial producer scheduler
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '57 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
