@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: native-social-outbox
@@ -86,14 +85,3 @@ jobs:
 
           echo "Failed to persist social outbox state after retries." >&2
           exit 1
-
-      - name: Heartbeat Editorial producer scheduler
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-        shell: bash
-        run: |
-          set -euo pipefail
-          gh workflow run editorial-producer-scheduler.yml --ref main
-          echo "EDITORIAL_SCHEDULER_HEARTBEAT_REQUESTED"
-

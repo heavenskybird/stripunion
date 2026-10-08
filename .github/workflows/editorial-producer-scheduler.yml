@@ -8,6 +8,13 @@ on:
     branches: [main]
     paths:
       - 'ops/control-plane/editorial-producer-kick.json'
+  workflow_run:
+    workflows:
+      - 'Native social outbox'
+      - 'Ecosystem public health'
+      - 'Editorial production snapshot'
+      - 'Control plane authority promotion'
+    types: [completed]
 
 permissions:
   contents: read
