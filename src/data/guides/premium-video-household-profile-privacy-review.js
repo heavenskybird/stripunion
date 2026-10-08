@@ -1,0 +1,110 @@
+export default {
+  "slug": "premium-video-household-profile-privacy-review",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Profiles in a Shared Household: Check Privacy and Account Separation",
+  "description": "Before sharing a premium video account, review profile separation, viewing-history visibility, recommendations, purchase controls, and device access to decide whether household use fits your privacy needs.",
+  "excerpt": "Separate profiles may organize a shared library, but they do not automatically make every account detail private. Check what each profile can see and control before sharing access.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Distinguish a viewing profile from a separate account with independent access and billing.",
+    "Check whether other users can switch profiles, view history, or access account-level settings.",
+    "Review how recommendations, saved lists, and purchase confirmations appear across profiles and devices.",
+    "Consider who can access a signed-in device, recovery email, payment controls, and notifications.",
+    "Do not share credentials unless the account terms and your household boundaries allow it."
+  ],
+  "sections": [
+    {
+      "heading": "A profile is not always a privacy boundary",
+      "paragraphs": [
+        "A premium video service may let one account create multiple viewing profiles, but the word “profile” does not by itself promise separation. Profiles may organize preferences or saved items while sharing the same login, billing relationship, and account owner controls. The account holder may be able to switch profiles or manage them, and a device left signed in may expose more than the active profile.",
+        "Before sharing access, find out what each profile controls and what remains account-wide. Check whether a profile has its own history, recommendations, watchlist, maturity settings, and access controls. Then check whether another household member can switch into it or see account management screens. If the service does not clearly explain those boundaries, assume that profile separation may be limited."
+      ],
+      "bullets": [
+        "Identify which settings belong to a profile and which belong to the overall account.",
+        "Check whether profiles can be locked or selected without a shared login.",
+        "Review whether any device remains signed in after a profile switch."
+      ]
+    },
+    {
+      "heading": "Trace the data visible to other household members",
+      "paragraphs": [
+        "Viewing history can influence recommendations and may be visible to people who can access the same profile. Saved lists, continue-watching rows, search suggestions, and recent activity can also reveal account use. Even when profiles are separated, a household member may see an email notification, account screen, or device preview that is not limited to the selected profile.",
+        "Map the paths by which information could appear: inside the service, in a browser or device history, in a notification, and in an account email. Think about shared televisions, tablets, browsers, and streaming devices separately. A setting that changes recommendations does not necessarily clear history, and clearing one screen may not remove records elsewhere."
+      ],
+      "table": {
+        "caption": "Check where household viewing information may appear",
+        "headers": [
+          "Information",
+          "Where to check",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Viewing history",
+            "Profile activity and account settings",
+            "Can another profile or account manager view it?"
+          ],
+          [
+            "Recommendations and saved lists",
+            "Home screen, watchlist, and search suggestions",
+            "Could these reveal activity on a shared screen?"
+          ],
+          [
+            "Account and purchase notices",
+            "Email, device notifications, and billing screens",
+            "Who can access the inbox or signed-in device?"
+          ],
+          [
+            "Login and recovery controls",
+            "Account settings and recovery channel",
+            "Who can change access or recover the account?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review devices and sign-in access",
+      "paragraphs": [
+        "Household privacy depends on more than the profile menu. A television or tablet may remain signed in, display a profile chooser, or show recommendations to anyone who opens the service. Consider whether the device itself has a user lock, whether account switching is easy, and whether notification previews appear on a shared screen. Do not assume that closing an app signs out of the account.",
+        "If you are the account holder, review available device and session controls before granting access. If you are not the account holder, understand that the owner may control sign-in, recovery, and account-wide settings. Use each service’s official sharing options and terms; do not try to bypass access controls or conceal account activity from someone who owns or manages the account."
+      ]
+    },
+    {
+      "heading": "Set household boundaries before sharing",
+      "paragraphs": [
+        "Agree on practical expectations before adding another person: which profiles are for individual use, whether credentials may be shared, who can make account changes, and how to handle purchases or profile deletion. Keep the discussion focused on access and privacy rather than requiring anyone to disclose what they watch. If a person is not comfortable with shared visibility, a separate account may be a better fit, subject to the service’s terms and each person’s needs.",
+        "Do not rely on an informal profile label such as “private” unless the service describes what it protects. A profile name is not necessarily a lock, and a hidden row is not necessarily deleted history. If the service provides a PIN or profile restriction, read what it does and whether it applies across devices."
+      ],
+      "bullets": [
+        "Who owns and administers the account?",
+        "Can another user open or switch to an individual profile?",
+        "What happens to history and saved items if a profile is removed?",
+        "Who receives account, purchase, or recovery notifications?",
+        "Which devices will remain signed in?"
+      ]
+    },
+    {
+      "heading": "Use a decision checklist before adding a profile",
+      "paragraphs": [
+        "The right arrangement depends on the sensitivity of the information and the level of control each person needs. A shared profile may be convenient when household members accept shared recommendations and history. Separate profiles may reduce crossover in preferences but still leave shared account access. A separate account may offer clearer boundaries, although it also has its own terms, payment, and management considerations.",
+        "Recheck the setup when adding a device, changing the account owner, or updating privacy preferences. Confirm the service’s current explanations rather than depending on remembered interface behavior. If privacy is a strict requirement, choose the arrangement that does not depend on other household members avoiding visible account areas or notifications."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate profile hide my viewing history from the account owner?",
+      "answer": "Not necessarily. Profile features differ, and the account owner may have access to management or profile-switching controls. Check the service’s current description of history visibility and test only within the permissions and account terms that apply."
+    },
+    {
+      "question": "Will deleting a profile remove every trace of its activity?",
+      "answer": "Do not assume so. A service may treat profile data, account records, device history, and emails differently. Review the platform’s own explanation for what profile deletion affects and consider shared devices or notifications separately."
+    },
+    {
+      "question": "When is a separate account a better option?",
+      "answer": "A separate account may suit people who need independent sign-in, profile management, or viewing records rather than a shared household login. Compare account terms and practical access needs first; profile separation alone may not provide the boundary you want."
+    }
+  ]
+};

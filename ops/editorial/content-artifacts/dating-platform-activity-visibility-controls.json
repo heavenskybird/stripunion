@@ -1,0 +1,122 @@
+{
+  "backlogId": "dating-platform-activity-visibility-controls",
+  "slug": "dating-platform-activity-visibility-controls",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platform Activity Status and Read Receipts: Check Your Visibility",
+  "description": "Before joining or messaging, review whether a dating platform exposes online status, last-active times, read receipts, or typing indicators, and decide which signals fit your privacy and communication preferences.",
+  "excerpt": "Presence indicators and read receipts can shape expectations even when you share little profile information. Use this checklist to evaluate what others may infer and which controls matter to you.",
+  "keyTakeaways": [
+    "Check which activity signals are visible to other members, not only which notifications reach your own device.",
+    "Find out whether controls are optional, reciprocal, account-wide, or limited to certain interactions.",
+    "Treat online and read indicators as imperfect signals rather than proof of attention or availability.",
+    "Consider how visible activity could reveal routines when combined with location, profile, or social information.",
+    "Choose a communication pace you can sustain instead of treating instant replies as an obligation."
+  ],
+  "sections": [
+    {
+      "heading": "Map the signals a platform may expose",
+      "paragraphs": [
+        "A dating service may display some combination of online status, a recent-activity label, read receipts, delivery status, or a typing indicator. These are different signals. Delivery may mean a message reached an account, while a read receipt may indicate that it was opened; neither necessarily tells you whether the recipient had time to respond. A status label may also be delayed or based on an app session rather than a person’s current attention.",
+        "Before creating an account, inspect the privacy settings, help pages, and any accessible account preview for details about these features. Look for the audience for each signal: everyone, matches, people you have messaged, or only you. If the service does not explain the behavior, treat it as uncertain rather than assuming that a control works a particular way."
+      ],
+      "bullets": [
+        "List each visible signal separately instead of treating all status indicators as the same feature.",
+        "Check who can see it and whether visibility changes after matching or messaging.",
+        "Look for a setting that controls the signal and note any stated limitations."
+      ]
+    },
+    {
+      "heading": "Evaluate the privacy trade-off",
+      "paragraphs": [
+        "Activity signals can help people coordinate conversations, but they can also disclose patterns. A repeated last-active time may suggest when someone is usually online. A read receipt can create pressure to answer immediately. When combined with profile details, distance displays, or a recognizable routine, small signals may reveal more than any one setting seems to disclose.",
+        "Decide what matters most for your use. Someone who wants fewer expectations may prefer services that let members hide presence or turn off read receipts. Someone who values visible conversation status may accept those signals but still want control over the audience. Consider whether a platform offers a genuine choice, and whether turning a feature off also changes what you can see about others."
+      ],
+      "table": {
+        "caption": "Questions to ask about common dating-app activity signals",
+        "headers": [
+          "Signal",
+          "What it might communicate",
+          "What to check"
+        ],
+        "rows": [
+          [
+            "Online status",
+            "That an account appears active now or recently",
+            "How recent the status is and who can view it"
+          ],
+          [
+            "Last-active label",
+            "A rough pattern of account use",
+            "Whether it can be hidden and how timing is described"
+          ],
+          [
+            "Read receipt",
+            "That a message may have been opened",
+            "Whether it is optional, reciprocal, or limited to certain chats"
+          ],
+          [
+            "Typing indicator",
+            "That someone may be composing a response",
+            "Whether it appears to the other person and for how long"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether controls are meaningful",
+      "paragraphs": [
+        "A setting labelled “activity” can govern only one feature, such as online presence, while leaving read receipts visible. Review settings one by one and save a record of the labels you chose if you may need to revisit them. If controls differ between web and mobile versions, verify the behavior in the account you actually use rather than assuming settings synchronize.",
+        "Some services may make visibility reciprocal: hiding your own status might also hide other members’ statuses from you. Others may offer no user control for a particular signal. Do not infer a privacy guarantee from a toggle name alone. Read the description, check the relevant help information, and use a low-stakes conversation with someone you trust to understand visible behavior where appropriate."
+      ],
+      "bullets": [
+        "Check online status, last-active labels, read receipts, and typing indicators separately.",
+        "Review whether a change applies to existing conversations as well as new ones.",
+        "Confirm whether turning off a signal limits your ability to see the same signal from others."
+      ]
+    },
+    {
+      "heading": "Set expectations without overexplaining",
+      "paragraphs": [
+        "Activity features can turn ordinary delays into perceived messages. A person may have opened a conversation while busy, left the app running, or received a delayed status update. Avoid treating a read label or online marker as reliable evidence of someone’s intentions. At the same time, you are not required to respond just because a platform makes your activity visible.",
+        "If it suits your communication style, set a simple expectation in your profile or conversation, such as preferring to reply when available. You do not need to disclose work hours, travel routines, or other identifying details to explain a slower response. Use platform controls and notification settings to support a pace that feels manageable."
+      ]
+    },
+    {
+      "heading": "A pre-join activity-visibility checklist",
+      "paragraphs": [
+        "Use a brief checklist before investing time in a service. The goal is not to eliminate all communication signals; it is to know which ones exist and whether you can make a comfortable choice. If a setting is unclear, record the uncertainty as part of your comparison rather than assuming the platform provides a particular privacy option.",
+        "Revisit the settings after a major app update or account change, since interfaces and policies can evolve. If another person pressures you based on an activity signal, you can mute, block, report, or stop responding according to the service’s available tools. The signal itself does not create an obligation to explain your availability."
+      ],
+      "bullets": [
+        "Can I see which activity signals appear to other members?",
+        "Can I control each signal independently, and is the setting reciprocal?",
+        "Could a status pattern reveal a routine when combined with my profile details?",
+        "Do I understand how read and delivery indicators are described?",
+        "Can I set notifications and response expectations that fit my life?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a read receipt prove that someone has read and understood a message?",
+      "answer": "No. A receipt is a platform signal, and its exact meaning depends on the service. It may indicate that a conversation was opened, but it does not establish how carefully someone read the message or whether they are ready to respond."
+    },
+    {
+      "question": "If I hide my activity, can I still see other people’s status?",
+      "answer": "That depends on the platform. Some services make visibility reciprocal, while others use separate controls or do not offer a status setting. Check the feature description and current account settings rather than relying on a general assumption."
+    },
+    {
+      "question": "Should I respond as soon as my status shows me online?",
+      "answer": "No. An activity indicator is not a promise of availability. Choose a reply pace that is comfortable and safe for you, and use privacy or notification controls if visible status creates unwanted pressure."
+    }
+  ],
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
