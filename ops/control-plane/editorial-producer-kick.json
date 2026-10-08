@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial hourly producer",
-  "reason": "recover stale producer cadence after GitHub schedule heartbeat gap; external supervisory wake-up",
-  "updated_at": "2026-10-08T06:43:52.499Z"
+  "reason": "recover stale producer cadence after blocked scheduler single-job rerun; external safety-net wake-up",
+  "updated_at": "2026-10-08T09:02:25.939Z"
 }
