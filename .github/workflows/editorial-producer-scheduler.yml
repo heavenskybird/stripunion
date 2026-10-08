@@ -2,7 +2,7 @@ name: Editorial producer scheduler
 
 on:
   schedule:
-    - cron: '57 * * * *'
+    - cron: '7,17,27,37,47,57 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -91,10 +91,10 @@ jobs:
             process.exit(0);
           }
 
-          if (ageMinutes >= 58) {
+          if (ageMinutes >= 52) {
             console.log(JSON.stringify({
               action: 'dispatch',
-              reason: 'hourly-cadence-due',
+              reason: 'cadence-due',
               ageMinutes: Number(ageMinutes.toFixed(1)),
               latest
             }));
