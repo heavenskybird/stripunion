@@ -1,0 +1,123 @@
+export default {
+  "slug": "dating-platform-block-report-harassment-response-checklist",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platform Safety: A Block, Report and Evidence Checklist",
+  "description": "A practical workflow for handling unwanted contact on a dating platform: preserve useful evidence, block or report safely, review privacy settings and decide what to do next.",
+  "excerpt": "When a conversation turns uncomfortable, a clear sequence can reduce pressure and prevent an impulsive response. Preserve only the evidence you may need, use the platform’s available controls, and decide whether any further action is appropriate for your safety.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "You do not owe an explanation or continued conversation when contact feels unwanted.",
+    "Before blocking or reporting, consider whether preserving a concise record could help you explain the issue or follow up.",
+    "Use the platform’s actual block and report controls; features and review processes differ between services.",
+    "Limit further disclosure, including contact details, location and payment information, while deciding what to do.",
+    "If there is an immediate safety concern, prioritize getting help from trusted people or appropriate local services rather than relying only on a platform report."
+  ],
+  "sections": [
+    {
+      "heading": "Pause and choose a low-pressure next step",
+      "paragraphs": [
+        "Unwanted contact can be stressful, and responding immediately is not required. Pause before replying, sharing more information or agreeing to move to another channel. You can stop a conversation without persuading the other person that your decision is reasonable. If you feel pressured, take time to assess the platform’s options and your own safety.",
+        "Consider whether the person can still see information that could expose you, such as profile details, recent messages or location-related information. Avoid sending an angry response that reveals additional personal details. If the interaction involves threats, coercion or attempts to obtain money or sensitive information, treat that as a reason to stop engagement and review the available safety steps."
+      ],
+      "bullets": [
+        "Do not continue a conversation just to be polite.",
+        "Avoid sharing new contact, location or financial details while under pressure.",
+        "If you feel in immediate danger, seek help beyond the platform."
+      ]
+    },
+    {
+      "heading": "Preserve only the evidence that may be useful",
+      "paragraphs": [
+        "If you may report the interaction, save a concise record before blocking if doing so is safe and practical. This might include relevant messages, the profile identifier, dates and the sequence of events. Keep the record limited to what explains the concern; unnecessary copies can create additional privacy risk. Use a secure place you control, particularly if other people can access your device or account.",
+        "Do not alter or circulate the material to third parties as a way to confront or shame someone. Avoid opening files or links sent during the interaction merely to collect more information. If the platform’s reporting form asks for specific details, provide a factual account and attach only what the service requests through its official process."
+      ],
+      "bullets": [
+        "Record dates, profile identifiers and relevant messages if needed.",
+        "Keep copies private and limited to the issue being reported.",
+        "Do not open suspicious files or links to gather evidence."
+      ]
+    },
+    {
+      "heading": "Use block and report controls deliberately",
+      "paragraphs": [
+        "Blocking and reporting serve different purposes. A block may limit further direct contact or visibility, while a report may send information to the platform for review; the precise effects vary. Read the on-screen explanation before confirming, and do not assume that one action automatically performs the other. If the situation warrants both, use the available steps and note any confirmation shown.",
+        "Report through the service’s own interface or support channel that you can independently locate. Describe what happened in specific, neutral terms: what was said or done, when it occurred and why it concerns you. Do not exaggerate or include speculation as fact. Keep any case reference or confirmation in a private record in case you need to follow up."
+      ],
+      "table": {
+        "caption": "A measured response sequence",
+        "headers": [
+          "Step",
+          "Action",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "1. Pause",
+            "Stop replying and avoid sharing further details.",
+            "Reduce pressure and prevent additional disclosure."
+          ],
+          [
+            "2. Record",
+            "Save only relevant messages and identifying details if safe.",
+            "Support a clear, factual report or later follow-up."
+          ],
+          [
+            "3. Report",
+            "Use the platform’s published reporting route when appropriate.",
+            "Give the service information for its review process."
+          ],
+          [
+            "4. Block",
+            "Use available controls to reduce further contact.",
+            "Set a boundary; verify what the control actually changes."
+          ],
+          [
+            "5. Review",
+            "Check profile visibility, messages and contact settings.",
+            "Reduce avoidable exposure after the interaction."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review your account and privacy settings",
+      "paragraphs": [
+        "After taking action, check whether your profile exposes information you no longer want visible. Review discoverability, location-related settings, contact permissions and notification previews where those controls exist. Do not assume blocking changes every privacy setting or removes information already shared in a conversation. If you have exchanged contact details, think carefully before responding on another channel.",
+        "Consider whether the interaction suggests a broader account-security concern. If you clicked a suspicious link or shared login information, change the affected password from a trusted route and review active sessions and recovery settings. Do not reuse passwords across services. If the person contacts you elsewhere, avoid arguing and use the relevant service’s own safety tools."
+      ],
+      "bullets": [
+        "Review profile visibility and location settings after the incident.",
+        "Change a compromised password and review sessions if credentials may be exposed.",
+        "Avoid moving a pressured conversation to another channel."
+      ]
+    },
+    {
+      "heading": "Decide whether a follow-up is needed",
+      "paragraphs": [
+        "A report does not guarantee a particular outcome or response time. Save any confirmation and review the service’s stated reporting guidance for next steps. If the conduct continues, keep a brief record of new incidents and use the platform’s documented escalation path rather than repeatedly engaging with the person. You can also choose to pause or leave the service if that feels safer.",
+        "For threats or an immediate risk to personal safety, do not rely on a platform’s moderation process as your only response. Contact a trusted person or an appropriate local emergency or support resource. Keep your next steps focused on safety and factual documentation, not on investigating or confronting the other user yourself."
+      ],
+      "bullets": [
+        "Keep a report reference if one is provided.",
+        "Use documented follow-up routes if unwanted contact continues.",
+        "Seek appropriate outside help for immediate safety concerns."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I block or report first on a dating platform?",
+      "answer": "There is no universal order. If it is safe and useful, preserve a concise record before taking an action that could make messages harder to access. Then use the service’s available controls based on your needs. Read what each control does, because blocking and reporting may have different effects."
+    },
+    {
+      "question": "Do I need to tell someone why I am blocking them?",
+      "answer": "No. You can end contact without giving an explanation. If you choose to report, provide relevant facts through the platform’s own process rather than continuing a conversation that feels uncomfortable."
+    },
+    {
+      "question": "What if unwanted contact continues outside the dating platform?",
+      "answer": "Avoid further disclosure or argument, use the relevant service’s blocking and reporting tools, and review any personal information you have shared. If there is an immediate safety concern, seek help from trusted people or appropriate local services rather than depending only on platform moderation."
+    }
+  ]
+};

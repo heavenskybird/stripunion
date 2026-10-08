@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-platform-linked-login-privacy-review",
+  "slug": "adult-platform-social-login-vs-separate-account-privacy",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Login Choices: Compare Linked Sign-In With a Separate Account",
+  "description": "Before using linked sign-in on an adult platform, compare convenience with account linking, recovery dependence and privacy. A checklist for choosing and reviewing login options.",
+  "excerpt": "A linked sign-in can reduce password-management effort, while a separate account can keep services more distinct. Neither option is automatically private or secure. Check what gets connected, how recovery works and what you can change later.",
+  "keyTakeaways": [
+    "Compare the actual sign-in choices offered; do not assume a platform supports a particular login method or privacy control.",
+    "A linked sign-in can connect access to another account, so secure that account and understand its recovery process.",
+    "A separate login creates another credential to protect, but a unique password and secure recovery method can reduce avoidable risk.",
+    "Review requested permissions and account-linking explanations before approving access.",
+    "Know how to change sign-in methods or recover access before relying on the account for ongoing use."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what ‘linked sign-in’ means",
+      "paragraphs": [
+        "Some services may let a user sign in through an existing identity provider; others may require a separate login. The available methods and the information exchanged vary, so inspect the specific sign-in screen and its explanation. A linked option can reduce the number of passwords you manage, but it may also connect access to an account you use elsewhere. Do not assume that signing in shares no information or that it shares everything.",
+        "Separate the act of authenticating from any optional permissions presented during setup. Read the requested access and the purpose stated for it. If the explanation is unclear or requests access that does not fit your intended use, pause before approving. Use an independently located account or privacy information page if you need clarification rather than relying on a message or link you did not expect."
+      ],
+      "bullets": [
+        "Confirm which account or identity provider is involved.",
+        "Read the access request before approving permissions.",
+        "Do not infer data-sharing behavior from the sign-in button alone."
+      ]
+    },
+    {
+      "heading": "Weigh convenience against account dependence",
+      "paragraphs": [
+        "Linked sign-in can simplify password entry and may reduce the number of credentials you have to remember. The trade-off is dependence: if the linked account becomes inaccessible, compromised or closed, access to connected services may be affected. The exact recovery relationship differs, so check whether the platform explains alternate sign-in or account recovery options.",
+        "A separate account keeps login credentials distinct but adds a password and recovery details you must maintain. Reusing a password to make this easier creates a security weakness across both services. If you choose a separate login, use a unique password and secure the email or recovery method attached to it. The better fit depends on whether you can reliably protect and recover either route."
+      ],
+      "table": {
+        "caption": "Compare sign-in approaches using the details that matter to you",
+        "headers": [
+          "Factor",
+          "Linked sign-in",
+          "Separate account"
+        ],
+        "rows": [
+          [
+            "Credential workload",
+            "May reduce the number of passwords you enter.",
+            "Requires a separate password and recovery method."
+          ],
+          [
+            "Dependence",
+            "May rely on access to the linked account.",
+            "Relies on the platform account and its recovery route."
+          ],
+          [
+            "Information connection",
+            "Review the provider’s sign-in and permission explanation.",
+            "Review the platform’s own registration fields and privacy information."
+          ],
+          [
+            "Recovery planning",
+            "Check whether another recovery path is available.",
+            "Secure the account email and use a unique password."
+          ],
+          [
+            "Future changes",
+            "Find out how to unlink or change the sign-in method.",
+            "Find out how to update credentials or close the account."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review permissions and account connections",
+      "paragraphs": [
+        "When a sign-in flow asks you to authorize access, check the account name, requesting service and listed permissions. Approve only what you understand and consider necessary for the sign-in process. If the screen offers a choice, do not select broader access just to move forward without reading its implications. A permission request is a separate decision from agreeing to create an account.",
+        "After setup, review the connected-app or account-security area of the identity provider, if available, as well as the platform’s own account settings. Look for a way to view or remove connections and consider whether removing one would affect login access. Do not revoke a connection until you understand whether you have another way to sign in."
+      ],
+      "bullets": [
+        "Check the account identity shown in the authorization screen.",
+        "Review listed permissions before approving.",
+        "Confirm an alternate login or recovery path before removing a connection."
+      ]
+    },
+    {
+      "heading": "Build a recovery plan before you need one",
+      "paragraphs": [
+        "Account recovery is easiest to plan while you can still access both the platform and any linked account. Find the service’s published recovery instructions and check that recovery details are current and protected. If you use linked sign-in, secure the linked account with its own unique password and available security controls. If you use a separate account, protect the recovery email and avoid reusing credentials.",
+        "Do not share passwords, verification codes or recovery links with someone claiming to provide support. Reach support through a contact route you independently locate. If you suspect a login has been compromised, use the relevant service’s official security steps, change affected credentials from a trusted device and review active sessions where that control is available."
+      ],
+      "bullets": [
+        "Check recovery instructions before an access problem occurs.",
+        "Secure the email or identity account that controls login recovery.",
+        "Never share passwords or one-time codes with a person claiming to be support."
+      ]
+    },
+    {
+      "heading": "Review the choice when accounts or needs change",
+      "paragraphs": [
+        "Your preferred login method can change if you stop using an identity provider, change email access or decide to reduce account connections. Before making a change, confirm what the platform allows and whether your existing account can add another sign-in method. Do not create a second account accidentally if your goal is to change the login for an existing one; check the service’s instructions first.",
+        "When you no longer need the account, review the platform’s stated account-management process and any linked sign-in connection. Closing an account and revoking a linked permission may be separate steps. Keep only the records you need for access or account administration, and avoid retaining passwords or recovery codes in an insecure note."
+      ],
+      "bullets": [
+        "Review connected access when changing or closing an account.",
+        "Check whether unlinking and account closure are separate actions.",
+        "Use the platform’s instructions to avoid creating duplicate accounts unintentionally."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is linked sign-in more private than creating a separate account?",
+      "answer": "Not automatically. The services involved may handle account information differently, and the details depend on their sign-in flow and privacy terms. Read the authorization screen, review requested permissions and compare that with the information a separate registration requires."
+    },
+    {
+      "question": "Is a separate login safer than linked sign-in?",
+      "answer": "Neither approach is universally safer. A separate login adds a credential you must protect; linked sign-in depends on the security and recovery of another account. Use unique credentials, secure recovery methods and review the specific controls available for the accounts involved."
+    },
+    {
+      "question": "Can I unlink a sign-in provider later without losing access?",
+      "answer": "That depends on the service and whether another sign-in or recovery method is available. Before removing a connection, check the platform’s instructions and confirm an alternate way to access the account. Do not revoke access until you understand the consequences."
+    }
+  ],
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
