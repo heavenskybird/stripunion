@@ -1,0 +1,116 @@
+{
+  "backlogId": "adult-affiliate-creative-trademark-permission-checklist",
+  "slug": "adult-affiliate-creative-trademark-permission-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Adult Affiliate Creatives: Check Brand, Logo, and Copy Permissions",
+  "description": "A webmaster checklist for verifying permitted use of affiliate logos, banners, brand names, promotional copy, and modified creative assets before publishing.",
+  "excerpt": "An affiliate link does not automatically grant permission to reuse every brand asset. Check the program’s creative and trademark rules before publishing or editing promotional material.",
+  "keyTakeaways": [
+    "Treat link permission and creative-asset permission as separate questions.",
+    "Check whether logos, banners, brand names, and promotional copy have distinct usage rules.",
+    "Confirm whether resizing, cropping, translation, or copy edits are permitted before modifying supplied assets.",
+    "Keep a dated record of the applicable terms and the approved asset version you publish."
+  ],
+  "sections": [
+    {
+      "heading": "Separate affiliate-link approval from asset rights",
+      "paragraphs": [
+        "Being accepted to an affiliate program or receiving a tracking link does not, by itself, answer whether you may use every logo, banner, product image, or brand phrase. Programs can set separate conditions for links and creative materials. Read the asset rules alongside the general program terms before adding promotional elements to a page, email, or other permitted placement.",
+        "Identify the exact material you intend to publish and the context in which it will appear. A text link, a supplied banner, a copied product image, and a brand name in editorial text may be treated differently. If the rules cover only certain assets or channels, do not extend that permission to other uses without confirmation."
+      ],
+      "bullets": [
+        "List each proposed asset: text, logo, banner, image, or brand phrase.",
+        "Record where it will appear and what page or placement will surround it.",
+        "Check both the program terms and any separate creative guidance."
+      ]
+    },
+    {
+      "heading": "Check what modifications are allowed",
+      "paragraphs": [
+        "A supplied creative asset may be approved only in its original form. Before resizing, cropping, recoloring, translating, adding text, or changing a destination, check whether those edits are allowed. Small visual adjustments can change the message, remove required context, or make a creative no longer match the version the program approved.",
+        "If the rules permit limited edits, record exactly which ones. Do not treat permission to adjust dimensions as permission to rewrite claims or combine the asset with unrelated messaging. When the policy is silent, ask the program contact for written clarification and use the unmodified approved version or a simple text link in the meantime, if those uses are permitted."
+      ]
+    },
+    {
+      "heading": "Review brand-name and trademark restrictions",
+      "paragraphs": [
+        "Program terms may limit how brand names, logos, and other identifiers appear in page titles, domain names, advertisements, or other placements. Check for restrictions on implied endorsement, confusingly similar branding, or uses that suggest the publisher is the brand owner. Do not rely on general industry habits as permission; the written rules for the particular program control its approved uses.",
+        "Keep editorial description distinct from promotional presentation. A factual reference in an article and a graphic that imitates a brand identity are not necessarily treated alike. If you plan to use brand names in paid search, social posts, newsletters, or a domain, verify that the channel and placement are allowed before publishing."
+      ],
+      "table": {
+        "caption": "Creative permission checks by material and action",
+        "headers": [
+          "Material or action",
+          "Permission question",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Logo or banner",
+            "Is this asset supplied or expressly approved for this placement?",
+            "Asset file or identifier and applicable terms"
+          ],
+          [
+            "Resize or crop",
+            "Are dimensions or cropping changes allowed?",
+            "Approved edit limits and published version"
+          ],
+          [
+            "Copy or translation",
+            "May wording be changed, translated, or combined with new claims?",
+            "Approved wording or written clarification"
+          ],
+          [
+            "Brand name in advertising",
+            "Are the channel, keyword, and placement permitted?",
+            "Relevant restriction and permission record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check channel and placement limits",
+      "paragraphs": [
+        "Creative permission can depend on where the material appears. A program may distinguish a website article from an email, social post, paid advertisement, or another traffic source. Verify that each channel is permitted and that the surrounding page follows any stated restrictions. A banner approved for one placement should not automatically be reused in every medium.",
+        "Review any rules about audience, page context, or adjacent material that could affect placement. If a program restricts certain traffic sources or promotional contexts, align the creative plan with those limits before publishing. Keep the link destination and tracking setup consistent with the approved use, and check separately for any restrictions on redirects or intermediate pages."
+      ]
+    },
+    {
+      "heading": "Keep approval and version records manageable",
+      "paragraphs": [
+        "Terms and creative files can change, so keep a compact record of what you reviewed and what you published. Save the date, the relevant rule or written approval, the asset identifier, the placement, and any permitted edits. A record helps you distinguish an old banner from a revised one and makes it easier to respond if a program updates its instructions.",
+        "Review the published placement after changing an asset or page template. Confirm that the creative still matches the approved version, the link points to the intended destination, and no new copy implies a claim the program did not authorize. If terms change, identify affected placements and follow the stated update or removal instructions rather than continuing to rely on an outdated approval."
+      ],
+      "bullets": [
+        "Dated copy or reference to the applicable program terms",
+        "Asset name or version and its source",
+        "Placement and channel where it was used",
+        "Any written approval for edits or exceptions",
+        "Date last checked after a terms or creative change"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate tracking link give me permission to use a company logo?",
+      "answer": "Not necessarily. Link permission and creative or trademark permission can be separate. Check the program’s asset rules and use only materials and placements that are allowed."
+    },
+    {
+      "question": "Can I edit a supplied banner to fit my website?",
+      "answer": "Only if the program terms permit the specific edit. Check whether resizing, cropping, translation, or changes to wording are allowed, and seek written clarification when the rules are silent."
+    },
+    {
+      "question": "Should I check paid-search or social-media use separately?",
+      "answer": "Yes. Programs may distinguish channels and placements. Confirm that the specific traffic source, brand-name use, and creative are permitted before publishing an advertisement or social promotion."
+    }
+  ],
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
