@@ -16,7 +16,6 @@ on:
       - 'Control plane authority promotion'
       - 'Telegram evergreen distribution'
       - 'Visual QA'
-      - 'Telegram evergreen distribution'
     types: [completed]
 
 permissions:
