@@ -1,0 +1,127 @@
+export default {
+  "slug": "adult-affiliate-attribution-window-evaluation",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Attribution Windows: Compare Click Credit and Conversion Timing",
+  "description": "A webmaster’s guide to evaluating affiliate attribution windows, delayed conversions, credit rules, and reporting cutoffs before relying on a program.",
+  "excerpt": "An attribution window defines how long a qualifying referral may receive credit after a visitor clicks. Compare the written time period with the program’s credit rules, reporting delays, and your own content journey before making it part of a forecast.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "An attribution window is only one part of a program’s crediting rules; confirm what event starts it and what events can override or invalidate credit.",
+    "Check whether the written policy explains repeat clicks, existing customers, coupon use, cross-device activity, and other competing referrals.",
+    "Separate the click date, conversion date, reporting date, and payable date when reviewing delayed conversions.",
+    "Use conservative planning assumptions where rules are unclear, and document unanswered questions before building forecasts around a program.",
+    "Do not treat a longer stated window as proof that every later purchase will be credited to your referral."
+  ],
+  "sections": [
+    {
+      "heading": "What an attribution window does and does not tell you",
+      "paragraphs": [
+        "An attribution window is the period in which a program may associate a qualifying action with an earlier referral event. It gives a webmaster one piece of information about how credit might be assigned, but it does not describe every rule that determines whether a referral qualifies. A window’s practical meaning depends on the program’s definition of the starting event, the conversion event, and any conditions that can displace or exclude credit.",
+        "A program may explain its window plainly, or leave important mechanics in separate terms or help pages. Before comparing programs, record the exact language and identify any undefined terms. Ask whether the clock starts at the first click or a later eligible click, whether it resets on another click, and what happens when more than one referral source is involved. Do not fill gaps with assumptions based on another program’s policy."
+      ],
+      "bullets": [
+        "Record the event that starts the window and the event that counts as a conversion.",
+        "Check whether a later qualifying click can replace earlier referral credit.",
+        "Look for exclusions, eligibility conditions, and rules for repeat visitors."
+      ]
+    },
+    {
+      "heading": "Map the visitor journey against the written rules",
+      "paragraphs": [
+        "A visitor may click a link, leave, return later, use a different device, and then complete an action. The program’s attribution rules determine whether and how that journey is recorded; the existence of an attribution window does not establish cross-device tracking or guarantee credit after a change of device. Make a simple journey map using the behaviors your site can reasonably expect, then compare each step with the program’s documented rules.",
+        "This is especially useful for content that supports research over time. A guide or comparison page might introduce an option well before a visitor is ready to act. If the program’s policy does not explain whether later activity still qualifies, treat the result as uncertain. Ask the program for a written clarification and retain the response with the relevant terms version."
+      ],
+      "table": {
+        "caption": "Questions that make a stated window operationally clear",
+        "headers": [
+          "Policy point",
+          "Question to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Starting event",
+            "Which click or referral event starts the clock?",
+            "Different definitions change the period being measured."
+          ],
+          [
+            "Repeat clicks",
+            "Can another eligible click reset or replace credit?",
+            "A later referral may change how an earlier one is treated."
+          ],
+          [
+            "Conversion definition",
+            "Which action counts, and are there eligibility conditions?",
+            "A click window alone does not identify a qualifying outcome."
+          ],
+          [
+            "Device changes",
+            "Does the policy explain activity across devices?",
+            "Do not assume a cross-device connection exists."
+          ],
+          [
+            "Reporting cutoff",
+            "When can a conversion appear in reports?",
+            "A delayed report can look like a missing or late event."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish attribution from reporting and payment timing",
+      "paragraphs": [
+        "The attribution period, report display time, and payment schedule are different concepts. A conversion may qualify under a program’s attribution rules but appear in a report later, or show initially and later be adjusted under the program’s terms. Payment may then follow a separate review or payout schedule. Keep these stages distinct when interpreting a dashboard or comparing program documents.",
+        "When reviewing reports, note the date field used for each row. A report grouped by click date can tell a different story from one grouped by conversion date. Time zones and reporting cutoffs can also affect how adjacent days are displayed. If the interface or export does not make these points clear, ask which timestamps and time zone are used before comparing periods."
+      ],
+      "bullets": [
+        "Label records as click date, conversion date, report date, or payment date.",
+        "Check the report’s time zone and data-refresh schedule where documented.",
+        "Avoid classifying a conversion as lost solely because it did not appear immediately.",
+        "Keep a copy of the policy and reporting definitions used for a review."
+      ]
+    },
+    {
+      "heading": "Evaluate overlapping credit and exceptions",
+      "paragraphs": [
+        "Attribution becomes harder to interpret when several referral sources can influence the same action. Program terms may address competing clicks, direct visits, coupon codes, returning customers, or other exceptions. The key is not to presume which source wins, but to find the program’s explicit rule. If terms are silent, note the uncertainty and ask a specific question rather than relying on informal industry assumptions.",
+        "Some policies distinguish new and existing customers or set eligibility rules for certain actions. Others may describe invalid traffic, self-referrals, or promotional methods in separate sections. Read those restrictions alongside the attribution language. A long window does not compensate for an action that is outside the program’s permitted conditions."
+      ],
+      "paragraphs_extra": [
+        "A useful evaluation note should identify the policy source, date reviewed, exact question, and answer received. This makes later reviews more reliable if a program updates its terms or if a report appears inconsistent with the rule you expected."
+      ]
+    },
+    {
+      "heading": "Use the window in forecasts without overstating certainty",
+      "paragraphs": [
+        "When planning editorial or campaign work, treat attribution as a source of uncertainty rather than a guaranteed conversion promise. If a program’s rules are explicit, use them as the operational assumption for the relevant visitor journey. If they are incomplete, build a conservative scenario and mark the unknowns. Do not turn a stated duration into a prediction about how much credit or revenue a particular page will receive.",
+        "Review assumptions when terms change or your traffic mix changes. Keep the comparison focused on operational fit: clarity of rules, relevant exclusions, reporting definitions, and the ability to reconcile observed events. This is more useful than choosing a program based on the window length alone. A clear, documented policy can be easier to work with than a longer but ambiguous one."
+      ],
+      "bullets": [
+        "Keep the source and review date beside every attribution assumption.",
+        "Ask program support narrow questions about ambiguous credit rules.",
+        "Revisit the assessment when terms or reporting definitions change.",
+        "Do not publish or promise performance claims based only on an attribution window."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a longer attribution window guarantee that a later conversion will be credited?",
+      "answer": "No. The window is only one part of the program’s rules. Eligibility, later clicks, competing sources, customer status, and other stated conditions may affect credit. Review the full policy rather than treating duration as a guarantee."
+    },
+    {
+      "question": "Should click date and conversion date be treated as the same thing?",
+      "answer": "No. They represent different events and may be displayed or reported in different ways. Record both where available, and check the report’s grouping, time zone, and update schedule before interpreting a delayed conversion."
+    },
+    {
+      "question": "What should I do when the program does not explain cross-device behavior?",
+      "answer": "Do not assume cross-device activity is connected or credited. Ask the program for written clarification, keep the answer with the terms you reviewed, and mark the behavior as uncertain in any operational plan until it is clear."
+    },
+    {
+      "question": "Can I use the attribution window as a revenue forecast?",
+      "answer": "Not by itself. It describes a possible time boundary for referral credit, not conversion volume or revenue. Use documented rules to understand eligibility, and treat any forecast as a separate estimate with clearly stated assumptions."
+    }
+  ]
+};

@@ -1,0 +1,134 @@
+{
+  "backlogId": "free-video-watch-history-continuity-comparison",
+  "slug": "free-video-watch-history-continuity-comparison",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Compare Watch History and Saved-List Privacy",
+  "description": "A practical guide to evaluating watch history, saved lists, account dependence, cross-device continuity, and privacy controls on free video platforms.",
+  "excerpt": "History and saved lists can make browsing easier, but they can also create a persistent record tied to an account or device. Compare what a platform saves, where controls live, and whether your preferences follow you across devices.",
+  "keyTakeaways": [
+    "Find out whether watch history and saved lists require an account or can exist in local browser storage.",
+    "Check whether history is visible on the account page, shared devices, recommendations, or notifications.",
+    "Test whether clearing browser data also affects saved lists or merely removes local access information.",
+    "Confirm whether controls let you review, delete, pause, or manage saved activity, without assuming every platform offers the same options.",
+    "Choose a continuity approach that matches your device privacy needs rather than enabling every convenience feature by default."
+  ],
+  "sections": [
+    {
+      "heading": "Separate account history from local browser state",
+      "paragraphs": [
+        "A platform may associate viewing activity or saved items with an account, store some information in a browser, or use a mixture of both. These are different forms of continuity. Account-based information may remain available when you sign in on another device, while local browser information may be limited to the browser profile where it was created. Do not assume that clearing one automatically clears the other.",
+        "Start by checking the platform’s privacy and account controls, then inspect what is visible in your own signed-in and signed-out sessions. Note whether a saved list remains after signing out, whether history appears on a second device, and whether clearing local site data changes the result. These checks help identify where records live without relying on a general promise of privacy."
+      ],
+      "bullets": [
+        "Look for separate controls for account activity and browser data.",
+        "Check whether saved items persist after sign-out or on another device you control.",
+        "Avoid testing with a shared or public account where activity could be visible to others."
+      ]
+    },
+    {
+      "heading": "Decide whether continuity is worth the record it creates",
+      "paragraphs": [
+        "History can help someone return to a video or avoid repeating searches, while saved lists can keep a personal selection organized. The trade-off is that these conveniences can leave activity attached to an account or device. Consider who can open the device, who can access the account, and whether recommendations or recent items might appear where another person can see them.",
+        "The right choice depends on how you use the platform. Someone browsing on a private device may value continuity across sessions. Someone using a shared device may prefer to avoid signing in, use a separate browser profile, or clear local activity after use. These are choices about access and exposure, not guarantees that a particular browsing mode makes activity invisible to every service or network."
+      ],
+      "table": {
+        "caption": "Compare common continuity approaches before using them",
+        "headers": [
+          "Approach",
+          "Potential convenience",
+          "Privacy question to check"
+        ],
+        "rows": [
+          [
+            "Signed-in history",
+            "Activity may be available with the account",
+            "Who can access the account and its activity controls?"
+          ],
+          [
+            "Signed-in saved list",
+            "Saved items may follow the account",
+            "Could another signed-in user see the list?"
+          ],
+          [
+            "Local browser storage",
+            "May preserve state within one browser profile",
+            "Who can open that profile, and what does clearing site data remove?"
+          ],
+          [
+            "No saved history or list",
+            "Leaves fewer intentional continuity records",
+            "Will browser or device settings still retain other activity?"
+          ],
+          [
+            "Separate browser profile",
+            "Can separate browsing state from other profiles",
+            "Is the profile protected and excluded from sync?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check where activity can appear unexpectedly",
+      "paragraphs": [
+        "Activity may be exposed in places beyond a dedicated history page. A recommendation row, recently viewed panel, search suggestion, browser autocomplete, or notification preview can reveal that a platform was used. Check these locations on the device and in the account you intend to use. If a profile or browser sync feature is enabled, consider whether history or saved state could be carried to another device.",
+        "Do not assume a setting called private, guest, or incognito controls every layer. Such modes generally have a particular scope, and the platform, browser, device, or network may have separate records and settings. Review the actual behavior and privacy documentation for the service and software you use. If a setting’s effect is unclear, treat it as uncertain rather than counting on it to remove account-level records."
+      ],
+      "bullets": [
+        "Review account recommendations and recently viewed areas after a test session.",
+        "Check browser sync, autocomplete, and device notification settings separately.",
+        "Review whether other users have access to the same platform login or browser profile.",
+        "Read what a privacy or history control says it changes before relying on it."
+      ]
+    },
+    {
+      "heading": "Evaluate the controls before building a saved library",
+      "paragraphs": [
+        "Before investing time in a saved list, check whether the platform provides usable controls to view, remove, or manage entries. If the list is tied to an account, consider whether you can access it later and what happens if you close or lose access to that account. If the list is local, consider whether a browser reset or device change could remove it. These are practical limits of the chosen approach, not necessarily defects in the platform.",
+        "Try one low-stakes test entry and then examine the available controls. Can you remove it? Does it disappear from other devices? Is there a separate history control? Can you pause future recording, if such a control is provided? Answering these questions early is more useful than building a large saved collection and only then discovering that its storage or removal behavior does not suit your needs."
+      ],
+      "paragraphs_extra": [
+        "Keep expectations realistic: removing an item from a visible list may not mean every related record has been removed from every system. Use the platform’s explanation of its controls and data handling, and avoid treating a single interface action as a universal deletion guarantee."
+      ]
+    },
+    {
+      "heading": "Choose a continuity setup and review it periodically",
+      "paragraphs": [
+        "A simple plan can balance usability and privacy: choose whether to sign in, decide whether to save history or favorites, review browser and device sync, and set a brief cleanup routine for shared equipment. Keep account credentials in a protected place and avoid leaving a signed-in session open for the next person. If you depend on a saved list, consider whether you need a private record of important links that does not expose more activity than necessary.",
+        "Review the setup when you change devices, browser profiles, or account access. A setting that was sensible on a personal phone may not be appropriate on a shared television or computer. Recheck notifications, recent activity, saved items, and account sync after a change. This keeps the decision grounded in the device and access conditions you actually use."
+      ],
+      "bullets": [
+        "Choose account-based or local continuity deliberately; do not assume they are interchangeable.",
+        "Use a separate protected browser profile if that fits your device-sharing situation.",
+        "Check activity visibility after signing out and after changing devices.",
+        "Remove saved activity using the controls that apply to its storage location."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does clearing browser history remove a platform’s account watch history?",
+      "answer": "Not necessarily. Browser history and account-level activity can be stored and controlled separately. Check the platform’s account settings and the browser’s data controls independently, and read what each control says it removes."
+    },
+    {
+      "question": "Can a saved list be private if I use a shared device?",
+      "answer": "It depends on who can access the account or browser profile where the list is stored. Check whether other users can open the same account, profile, or device session, and choose a separate protected setup if appropriate."
+    },
+    {
+      "question": "Will a private browsing window prevent a platform from recording activity?",
+      "answer": "Do not assume that it controls account-level records or every form of platform activity. The browser mode has a limited scope, and the service, device, and network may have separate settings. Review the relevant privacy information."
+    },
+    {
+      "question": "How can I test whether saved items sync to another device?",
+      "answer": "Use devices and accounts you control. Save a low-stakes item, check whether it appears in the other signed-in session, and then remove it using the applicable controls. Do not use someone else’s account for the test."
+    }
+  ],
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
