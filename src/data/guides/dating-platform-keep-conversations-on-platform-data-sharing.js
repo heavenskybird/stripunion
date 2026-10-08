@@ -1,0 +1,133 @@
+export default {
+  "slug": "dating-platform-keep-conversations-on-platform-data-sharing",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Keep Early Conversations On-Platform and Limit Data Sharing",
+  "description": "A practical guide to deciding when to move a dating conversation elsewhere, what contact details to protect and how to respond to pressure to share more.",
+  "excerpt": "You do not have to exchange a phone number, social account or personal contact details just because a match asks. Set a pace that feels comfortable and understand the privacy trade-offs before moving a conversation off-platform.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Use the dating platform’s messaging tools while you are still deciding whether you want to share a separate contact method.",
+    "Treat requests for personal contact details as a choice, not an obligation or proof of interest.",
+    "Before sharing a social profile or phone number, consider what that account reveals beyond the conversation itself.",
+    "Be alert to pressure, urgency or repeated boundary-pushing; pause or use the platform’s block and report tools if needed.",
+    "If you choose to move channels, share only the minimum information needed and review the privacy settings of the destination account."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what moving off-platform means for you",
+      "paragraphs": [
+        "A request to move a conversation can mean different things: a preference for another messaging tool, a wish to exchange phone numbers or an invitation to connect through a public social profile. Each option reveals a different amount of information and may make it easier to contact you outside the dating service. Decide which types of contact you are comfortable sharing before you are in a pressured conversation.",
+        "There is no universal rule that a conversation must remain on-platform or must move elsewhere after a certain number of messages. Your boundary can be based on comfort, privacy and whether the other person respects your pace. A match who accepts a simple not-yet response gives you useful information about whether the interaction can continue without rushing the exchange of personal details."
+      ],
+      "bullets": [
+        "Choose in advance which contact methods you might share and which you will keep private.",
+        "You can decline, wait or end a conversation without providing an explanation beyond what you choose.",
+        "A request to switch channels is not, by itself, proof of identity or trustworthiness."
+      ]
+    },
+    {
+      "heading": "Check what a contact method reveals",
+      "paragraphs": [
+        "A phone number may be associated with other services or contact-discovery features, depending on the settings of those services. A social account may expose a real name, workplace, location clues, family connections or a history of posts. Before sharing, open your own profile as another person might see it and review the account’s visibility, searchable identifiers and linked information. Do not rely on assumptions about what a platform hides by default.",
+        "Consider using the platform’s built-in communication tools until you have decided what information you want to disclose. If you do share a separate contact method, choose one that does not reveal more than you intend, where that option is available to you. Avoid sending identity documents, financial details, home or work addresses, account passwords, or private codes in a dating conversation."
+      ],
+      "table": {
+        "caption": "Consider the information a contact method may expose",
+        "headers": [
+          "Contact method",
+          "Privacy questions to ask yourself"
+        ],
+        "rows": [
+          [
+            "Phone number",
+            "Could it connect to other profiles, contacts or identifying information?"
+          ],
+          [
+            "Social profile",
+            "Does the profile show your name, location, workplace or personal network?"
+          ],
+          [
+            "Separate messaging account",
+            "Can others find your main account or discover your identity through it?"
+          ],
+          [
+            "Platform messaging",
+            "What profile details are visible, and what controls can you use?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Notice pressure and protect your pace",
+      "paragraphs": [
+        "Pressure can take the form of repeated requests after you have said no, attempts to make you feel rude for keeping a boundary, or claims that you must act immediately to prove interest. These behaviors do not establish what someone intends, but they are reasons to slow down and reassess. You can restate your boundary once, stop replying, or use platform tools if you do not want further contact.",
+        "Be careful when a conversation quickly shifts to requests involving money, verification codes, financial accounts, intimate personal information or urgent favors. Do not share one-time security codes or credentials. If someone sends a link or asks you to install an unfamiliar application, do not treat the request as a required step in getting to know them. Use the platform’s reporting route for suspicious conduct and keep relevant messages if you need to explain a report."
+      ],
+      "bullets": [
+        "Do not share passwords, login links or one-time security codes.",
+        "Pause if a request becomes urgent, financial or repeatedly ignores your stated boundary.",
+        "Use block or report controls when you want contact to stop or behavior reviewed."
+      ]
+    },
+    {
+      "heading": "Make a deliberate channel transition",
+      "paragraphs": [
+        "If you decide to communicate elsewhere, make the transition on your terms. Confirm that the account or contact method belongs to the person you intended to reach without relying solely on a profile image or a claim in chat. Share only the contact information needed for the conversation, and avoid adding location, workplace or public profile details just to make the transition easier.",
+        "Check how the new service handles visibility, message previews, contact discovery and notifications. Those settings differ across services, so inspect the controls directly. Consider whether messages can be deleted, whether the account is tied to your everyday identity and how you would stop contact if you changed your mind. You can also return to the dating platform or end the conversation if the transition no longer feels comfortable."
+      ],
+      "bullets": [
+        "Verify the destination account through the context available to you.",
+        "Review discoverability, profile visibility and notification previews before sharing details.",
+        "Keep the option to end contact available; sharing one detail does not require sharing more."
+      ]
+    },
+    {
+      "heading": "Keep a boundary plan you can use quickly",
+      "paragraphs": [
+        "A boundary plan is most useful when it is short. Decide what you will say if you are not ready to switch channels, what you will do if the person keeps asking, and which platform controls you can use to stop contact. You do not need to debate the boundary or disclose a reason. A simple response such as preferring to continue in the app is enough if you want to reply; choosing not to respond is also an option.",
+        "If you have already shared a contact method and want to reduce further exposure, review that account’s privacy and contact-discovery settings, limit new information, and block unwanted contact where appropriate. If the person makes threats or the situation feels unsafe, preserve relevant records and seek help from appropriate local support or emergency services. Platform reporting may be useful, but it is not a substitute for urgent assistance when immediate safety is at risk."
+      ],
+      "table": {
+        "caption": "A quick boundary response plan",
+        "headers": [
+          "Situation",
+          "Possible next step"
+        ],
+        "rows": [
+          [
+            "You are not ready to switch channels",
+            "Say you prefer to continue messaging on the platform, or do not respond"
+          ],
+          [
+            "The request is repeated after you decline",
+            "Stop engaging and consider blocking or reporting"
+          ],
+          [
+            "You already shared a contact method",
+            "Review its privacy settings and reduce further disclosure"
+          ],
+          [
+            "A message raises an immediate safety concern",
+            "Preserve relevant information and seek appropriate local help"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it unsafe to move a dating conversation off-platform?",
+      "answer": "Not automatically. The decision changes which service handles the conversation and what contact or profile information may become visible. Consider the specific details you would share, review the destination account’s settings and move only when you are comfortable."
+    },
+    {
+      "question": "Do I need to give someone my phone number if they ask?",
+      "answer": "No. You can decline, wait or continue using the dating platform’s messaging tools if they suit you. A respectful match should not require you to disclose a contact method on demand."
+    },
+    {
+      "question": "What should I do if someone pressures me to share a code or account information?",
+      "answer": "Do not share passwords or one-time security codes. Stop and reassess the interaction, use the platform’s block or report options if appropriate, and protect any account that may have been exposed."
+    }
+  ]
+};
