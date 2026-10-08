@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "purpose": "Supervisory failover trigger for Editorial hourly producer",
-  "reason": "recover stale producer cadence after blocked scheduler single-job rerun; external safety-net wake-up",
-  "updated_at": "2026-10-08T09:02:25.939Z"
+  "purpose": "Supervisory failover trigger for Editorial producer scheduler",
+  "reason": "post-PR-151 scheduler cadence verification; expect skip-fresh if latest Producer age <52m",
+  "updated_at": "2026-10-08T16:20:26.680Z"
 }
