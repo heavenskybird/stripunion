@@ -1,0 +1,102 @@
+export default {
+  "slug": "adult-shop-gift-card-and-store-credit-terms-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Gift Cards and Store Credit: Check the Terms Before Buying",
+  "description": "Compare adult shop gift cards and store credit by redemption rules, restrictions, balance visibility, expiry language and refund terms.",
+  "excerpt": "A gift card or store credit can look simple at checkout, but its practical value depends on where it works, what it excludes and what happens to unused balance. Review these terms before purchasing.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Check whether a gift card works across the retailer’s full catalog, selected products, or a particular storefront.",
+    "Look for redemption, account, region and balance rules before paying.",
+    "Separate gift card terms from the shop’s ordinary product-return policy.",
+    "Review the stated treatment of expiry, unused balances and refunds without assuming a universal rule.",
+    "Keep the confirmation and terms so you can resolve a later redemption issue."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what the balance can buy",
+      "paragraphs": [
+        "A gift card’s usefulness depends on its redemption scope. Check whether it applies to the retailer’s whole catalog, selected categories, specific products, or only one part of the business. Some retailers may distinguish between their own stock and items supplied through another seller or marketplace; do not assume that one balance covers every listing. The terms should explain where the card can be used.",
+        "Also look for exclusions involving shipping, taxes, sale items, subscriptions, or other charges. These conditions can affect how much of a future order the balance covers. If the page does not explain exclusions, contact customer support before buying or giving the card. A clear answer about scope is more useful than relying on a general statement that the card is accepted at the shop."
+      ],
+      "bullets": [
+        "Check eligible storefronts and product categories.",
+        "Look for exclusions and minimum-order conditions.",
+        "Confirm whether the balance can cover shipping or other checkout charges."
+      ]
+    },
+    {
+      "heading": "Read redemption and account requirements",
+      "paragraphs": [
+        "Find out how the recipient redeems the card: online code, account credit, physical card, or another method specified by the retailer. Check whether redemption requires an account and whether the balance can be applied during guest checkout. If an account is required, consider whether the recipient is comfortable creating one and what information the shop asks for.",
+        "Review whether a redeemed balance can be split across orders, combined with another payment method, or transferred between accounts. These details determine how flexible the card is. Do not assume that a code can be used by more than one person, moved after redemption, or recovered if misplaced. If the terms are silent on a point that matters, ask the retailer before purchase and save its reply."
+      ],
+      "table": {
+        "caption": "Gift card and store-credit terms worth comparing",
+        "headers": [
+          "Term",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Redemption",
+            "What steps and account details are required?"
+          ],
+          [
+            "Eligible orders",
+            "Which products, storefronts, or charges qualify?"
+          ],
+          [
+            "Balance use",
+            "Can it be split, combined with another payment, or saved for later?"
+          ],
+          [
+            "Unused value",
+            "What does the retailer state about expiry and remaining balance?"
+          ],
+          [
+            "Refund handling",
+            "How are returns, cancellations, or refunds paid when a card was used?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check expiry and unused-balance language",
+      "paragraphs": [
+        "Read the specific terms for the card or credit rather than relying on assumptions about how long it will remain usable. Look for an expiry date, inactivity condition, or statement that no expiry applies. If the retailer distinguishes between purchased gift cards and promotional credit, check the rules for each separately; promotional balances may be governed by different terms.",
+        "Consider whether the recipient can check the remaining balance and how. A visible balance checker or a clear customer-service route can make partial use easier to manage. If a balance can only be viewed after logging in, factor that into the recipient’s preferences. Keep the card code private until it is given to the intended person, because anyone who obtains a redeemable code may be able to use it depending on the retailer’s process."
+      ]
+    },
+    {
+      "heading": "Understand how refunds and returns interact",
+      "paragraphs": [
+        "Gift card terms and product-return terms answer different questions. The shop’s return policy explains whether an item may be returned under its stated conditions; the gift card terms may explain where a refund goes if the original order used store credit. Read both documents before purchasing a card for a specific planned order. Do not assume that an unused card and a redeemed balance receive the same treatment.",
+        "Check what happens if an order is cancelled, a product is unavailable, or only part of an order is refunded. The retailer may describe whether value returns to the original card, becomes account credit, or follows another method. Record the wording rather than trying to generalize it. When a purchase is intended as a gift, consider whether the recipient would be comfortable with a refund being returned as shop credit instead of another form."
+      ]
+    },
+    {
+      "heading": "Compare value and keep useful records",
+      "paragraphs": [
+        "Compare cards by flexibility and clarity, not by an assumption that every shop’s rules are alike. A card with clear eligible-use terms and a straightforward balance-check process may be easier to give than one whose exclusions are hard to find. Check whether the retailer states fees or other deductions, and review the final checkout summary before purchasing. Do not rely on a promotional description when the detailed terms say something different.",
+        "Keep the purchase confirmation, the card terms as displayed at the time, and any customer-service response about a key restriction. Store the code separately from public messages or shared documents until it is delivered. If you are buying a card for someone else, provide a brief note about the redemption steps and any known limitations, without promising that the retailer’s policies will remain unchanged."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume a gift card is refundable if it has not been used?",
+      "answer": "No. Refund treatment depends on the retailer’s stated terms and any applicable rules. Check the gift card policy and, if the answer is unclear, ask the retailer before purchasing."
+    },
+    {
+      "question": "Is store credit the same as a gift card?",
+      "answer": "Not necessarily. A gift card is commonly purchased or given for redemption, while store credit may be issued under a separate retailer process. They can have different restrictions, expiry language, transfer rules, or refund treatment, so read the terms for the specific balance."
+    },
+    {
+      "question": "What should I do if a redemption code does not work?",
+      "answer": "Keep the order confirmation and code details, check that you are using the correct storefront and following the stated redemption steps, then contact the retailer through its official support channel. Avoid posting the code publicly while seeking help."
+    }
+  ]
+};

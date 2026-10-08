@@ -1,0 +1,102 @@
+export default {
+  "slug": "vr-adult-platform-library-depth-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: How to Audit Library Breadth Before Choosing",
+  "description": "Use a repeatable sample to compare VR adult libraries by format, catalog depth, accessibility of previews and practical variety—not headline counts.",
+  "excerpt": "A large catalog number does not tell you whether a VR library has the formats, categories or playable examples you want. This audit helps you compare platforms using the same small set of checks.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Compare the content you can actually locate and preview, not just a platform’s headline catalog count.",
+    "Check whether listings distinguish VR-specific material from ordinary video and identify relevant format details.",
+    "Use the same categories and sample size when comparing more than one library.",
+    "Record what requires an account or payment so that preview access is not confused with full access.",
+    "Treat catalog breadth and playback compatibility as separate questions."
+  ],
+  "sections": [
+    {
+      "heading": "Define what library breadth means for your use",
+      "paragraphs": [
+        "Library breadth is not simply the number of items shown on a landing page. For a VR viewer, it includes whether the catalog has useful variety, whether relevant entries are easy to find, and whether the listings give enough information to decide if a title is suitable for your headset and playback setup. A large collection can still be a poor fit if its organization or labeling makes the material you want difficult to identify.",
+        "Before comparing services, write down a few non-explicit categories that matter to you, such as format, duration range, language information, or whether you prefer streaming or files you can manage locally. Keep the list short. It is a comparison instrument, not a prediction of what a platform carries. Your criteria let you notice meaningful differences without relying on claims that cannot be independently checked."
+      ],
+      "bullets": [
+        "List the formats and listing details you need to see.",
+        "Decide whether preview access is essential to your decision.",
+        "Separate catalog variety from headset and network compatibility."
+      ]
+    },
+    {
+      "heading": "Use a consistent sample rather than headline counts",
+      "paragraphs": [
+        "Pick the same small number of search paths for each platform: for example, a broad category page, a format filter if offered, and a targeted search using a neutral descriptive term. Note how many results appear, whether filters narrow results in a useful way, and whether repeated or near-identical entries dominate what you see. The goal is not to estimate an entire catalog from a few pages; it is to compare how usable and varied the visible collection appears.",
+        "Record the date and whether you were signed in. Catalogs and interfaces can change, while logged-out and logged-in visitors may see different pages or access gates. Do not infer that a search result is playable, included with a membership, or available in a particular format until its listing or access terms make that clear. A simple record of observed evidence is more dependable than an impression formed from a promotional page."
+      ],
+      "table": {
+        "caption": "A compact, repeatable audit for comparing visible catalog breadth",
+        "headers": [
+          "Check",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Search paths",
+            "The same broad category, search term, and available filters on each service"
+          ],
+          [
+            "Result variety",
+            "Whether entries appear meaningfully distinct or heavily repeated"
+          ],
+          [
+            "Listing detail",
+            "Whether format, duration, language, or other relevant metadata is visible"
+          ],
+          [
+            "Access boundary",
+            "What can be inspected without an account and what requires another step"
+          ],
+          [
+            "Audit context",
+            "Date, device, browser, and signed-in or guest state"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect VR labeling and listing information",
+      "paragraphs": [
+        "A useful VR listing should make it possible to tell what kind of item is being offered and what information is relevant to playback. Look for clear distinctions between VR-specific and standard video entries, and for format labels that match the platform’s own explanation of supported playback. If the listing uses unfamiliar abbreviations, check the service’s documentation rather than assuming that a familiar-looking label guarantees headset compatibility.",
+        "Also notice missing information. If a listing gives no indication of format, preview scope, or access requirements, mark that as unknown instead of filling the gap with assumptions. This matters when comparing breadth: a catalog may look broad in a grid but provide too little detail to determine whether its entries meet your requirements. Count only what you can confidently classify, and keep uncertain listings in a separate note."
+      ]
+    },
+    {
+      "heading": "Separate previews from included catalog access",
+      "paragraphs": [
+        "A preview can help you assess presentation and basic listing accuracy, but it may represent only a limited portion of an item. For a fair comparison, record what a preview demonstrates and what it does not. For example, it may show that a page loads and that a sample is available, while saying little about the complete item, the full library, or the service’s ongoing access terms.",
+        "Check whether previews are available without registering, whether they require an account, and whether the listing explains what paid access unlocks. Avoid treating a preview as proof that all catalog items can be sampled or that the same access conditions apply to every title. When those distinctions are unclear, note the uncertainty as part of the decision rather than treating the platform as either broad or limited based on a single example."
+      ]
+    },
+    {
+      "heading": "Turn observations into a decision record",
+      "paragraphs": [
+        "After the audit, compare platforms against your own priorities rather than producing a universal winner. One service might make format information easier to inspect, while another might present more variety in the categories you care about. State exactly what you observed and what remains unknown. This makes the result useful later, especially if a service updates its catalog or changes its interface.",
+        "A practical record can fit in a few lines: strongest visible category, clearest listing information, preview access boundary, and unresolved compatibility questions. If a platform’s library appears broad but its format labels are unclear, your next step is to verify playback fit—not to assume breadth settles the device question. Keeping those judgments separate prevents a persuasive catalog display from doing more work than the evidence supports."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a catalog count tell me whether a VR platform has a broad library?",
+      "answer": "It is one data point, not a complete comparison. A count does not show how varied the entries are, how many are VR-specific, how duplicates are handled, or whether the content is accessible under the terms you expect. Pair any stated count with a consistent sample of categories, search results, and listing details."
+    },
+    {
+      "question": "How many entries should I inspect?",
+      "answer": "There is no universally correct sample size. Choose a manageable number that you can apply consistently across every platform you are comparing. Include more than one category or search path, and record the limits of the sample rather than treating it as a census of the full library."
+    },
+    {
+      "question": "Does a VR label guarantee compatibility with my headset?",
+      "answer": "No. A label may describe content format without establishing that a particular headset, browser, app, or playback method supports it. Check the service’s current technical information and test a legitimate preview where available before relying on that label."
+    }
+  ]
+};
