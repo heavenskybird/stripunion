@@ -1,0 +1,118 @@
+export default {
+  "slug": "vr-platform-headset-replacement-continuity-plan",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Replacing a VR Headset: Check Platform Access and Content Continuity",
+  "description": "Before changing VR headsets, check account access, supported playback, saved progress, downloads, and subscription entitlements so a device change does not create surprises.",
+  "excerpt": "A new headset may change how you access a VR library even when your account remains the same. Use this checklist to verify what carries over before switching devices.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Separate account continuity from device compatibility and content entitlement.",
+    "Check saved progress, preferences, downloads, and device authorization as distinct items.",
+    "Do not assume that purchases, subscriptions, or downloaded files transfer to replacement hardware.",
+    "Keep account recovery and any required migration steps available before retiring the old headset."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a headset change as several separate migrations",
+      "paragraphs": [
+        "Replacing a headset can affect more than the ability to open a platform. Account sign-in, device compatibility, subscription access, saved progress, local downloads, and playback controls may each follow different rules. A successful login on new hardware does not establish that every title or setting has transferred. Check each item on its own using current platform and device documentation.",
+        "This distinction matters whether you are upgrading, replacing a damaged device, or moving between headset types. Some access may be tied to an account, some may depend on supported software or formats, and some information may exist only on the old device. Avoid assuming that a feature available on one headset will behave identically on another."
+      ],
+      "bullets": [
+        "Account: can you sign in and recover access on the replacement device?",
+        "Compatibility: does the platform support the new headset and its access method?",
+        "Entitlement: which library items remain available under the current account terms?",
+        "Continuity: what happens to history, saved lists, preferences, and downloads?"
+      ]
+    },
+    {
+      "heading": "Inventory what you want to preserve",
+      "paragraphs": [
+        "Before changing devices, write down the information and access you actually use. That might include bookmarks, viewing progress, preferred settings, subscription status, and locally stored files. Do not assume that every item is important or transferable; the inventory helps you ask precise questions. Check whether each item is account-synced, device-local, exportable, or not documented.",
+        "If progress or preferences matter, look for platform instructions on synchronization and device migration. If no instructions exist, record the current state in a safe, non-sensitive way before making changes. Do not copy restricted files or account data outside the methods the platform permits. Preserve only what you are authorized to retain and store it on a device you control."
+      ],
+      "table": {
+        "caption": "A continuity inventory to complete before retiring an old VR headset",
+        "headers": [
+          "Item",
+          "Where it may be stored",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Account access",
+            "Platform account and device sign-in",
+            "Recovery method and supported sign-in route"
+          ],
+          [
+            "Saved progress or lists",
+            "Account sync or local device storage",
+            "Whether the data syncs or can be recreated"
+          ],
+          [
+            "Membership access",
+            "Account entitlement and current terms",
+            "Whether the replacement device is supported"
+          ],
+          [
+            "Downloads",
+            "Local headset storage",
+            "Whether files are usable, renewable, or transferable under the rules"
+          ],
+          [
+            "Playback preferences",
+            "Platform profile or device settings",
+            "Which settings need to be configured again"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify compatibility before switching fully",
+      "paragraphs": [
+        "Check the platform’s current device compatibility information and compare it with the replacement headset’s supported access methods. Pay attention to browser or app requirements, supported playback formats, and any stated operating-system or software conditions. A general claim that content is available in VR may not answer whether your particular headset and chosen access method are supported.",
+        "If permitted, test the new device before removing or resetting the old one. Confirm that you can sign in, navigate, open a preview, and use the controls you need. Test on the network and in the viewing setup you plan to use. A brief, allowed test can reveal a compatibility gap while you still have access to account recovery and your previous configuration."
+      ]
+    },
+    {
+      "heading": "Protect account recovery and device privacy",
+      "paragraphs": [
+        "Make sure you can access the account’s recovery email or other recovery method before the old headset is unavailable. If sign-in depends on a device prompt, authentication tool, or stored credential, verify how that process works on the replacement hardware. Do not rely on a saved session as your only proof that account access is recoverable.",
+        "Before giving away, selling, or recycling an old headset, follow the manufacturer’s reset guidance and the platform’s account-device instructions. Remove account access as directed and confirm that personal data is not left available to the next user. If the headset is shared, check saved account details, browser sessions, casting preferences, and notifications as part of the handoff."
+      ],
+      "bullets": [
+        "Confirm recovery options before signing out of the old device.",
+        "Use official migration and factory-reset instructions.",
+        "Review saved sessions, credentials, and device authorizations.",
+        "Do not discard the old device until access and important settings are verified on the new one."
+      ]
+    },
+    {
+      "heading": "Make the final switch only after checking entitlements",
+      "paragraphs": [
+        "Compare what you can verify on the replacement headset with the access you currently use. If a subscription or library item is not visible, distinguish a sign-in issue from a compatibility issue or an entitlement question. Check the account status and platform guidance before assuming that content is lost or purchasing access again.",
+        "Keep a concise record of the checks, the device model, and any support guidance you relied on. If an issue remains, contact the platform or device provider through an official support route and describe the exact step that fails. A documented, item-by-item comparison is more useful than a general report that “VR stopped working” and can help avoid unnecessary account changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will my VR account transfer automatically to a replacement headset?",
+      "answer": "Account access and device migration are separate questions. You may be able to sign in on another device, but confirm recovery requirements, supported access methods, and the platform’s current device rules."
+    },
+    {
+      "question": "Do downloaded VR videos transfer to new hardware?",
+      "answer": "Do not assume they do. Download availability, device binding, expiry, and transfer rules depend on the platform’s terms and technical setup. Check official instructions before moving or copying files."
+    },
+    {
+      "question": "Should I reset my old headset before testing the new one?",
+      "answer": "If possible, verify account access and important continuity items on the replacement first. Then follow the old device’s official reset and account-removal instructions before transferring or disposing of it."
+    },
+    {
+      "question": "What if my subscription appears active but content will not play?",
+      "answer": "Check sign-in, entitlement, device compatibility, and playback requirements separately. If those checks do not explain the problem, contact official support with the device and error details."
+    }
+  ]
+};

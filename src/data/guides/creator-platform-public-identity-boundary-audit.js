@@ -1,0 +1,118 @@
+export default {
+  "slug": "creator-platform-public-identity-boundary-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Separate Public Identity From Account and Payout Details",
+  "description": "Audit what fans can see versus what a platform needs for account administration and payouts. Build a clear identity boundary before publishing.",
+  "excerpt": "Creators can plan a public-facing identity without assuming that every account or payment detail stays private. Map visibility, verification, and account settings before launch.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Treat the public profile, private account record, and payment documentation as separate information areas.",
+    "Verify which fields are visible to fans, collaborators, and platform staff before entering sensitive details.",
+    "Check whether profile previews, messages, or notifications reveal information beyond the main profile.",
+    "Use only accurate information where the platform requires verification or payment records."
+  ],
+  "sections": [
+    {
+      "heading": "Define the identity boundary before publishing",
+      "paragraphs": [
+        "Creators often need a public-facing name and profile while a platform may separately require account, verification, or payment information. Those purposes should not be treated as interchangeable. Before publishing, list what you intend to show publicly, what the platform asks you to provide privately, and what information may appear in statements or communications. The platform’s current terms and settings determine the actual boundaries.",
+        "This is a visibility-planning exercise, not a promise that a chosen name or setting guarantees anonymity. A platform may require accurate legal or payment details for its own records, and information can appear in more than one place. Your goal is to understand who can see each field and what consequences follow from providing it, before your profile or posts become visible."
+      ],
+      "bullets": [
+        "Public-facing profile: display name, description, profile image, and linked accounts.",
+        "Private account setup: login, verification, recovery, and contact details.",
+        "Commercial records: payout instructions, statements, and tax-related documents.",
+        "Shared operations: collaborator roles, notifications, and account access."
+      ]
+    },
+    {
+      "heading": "Map each field to its audience",
+      "paragraphs": [
+        "Use the platform’s profile preview and settings pages to identify which details are visible to the public, paying fans, approved collaborators, and platform personnel. If the interface does not explain a field, consult current help materials or ask support before entering sensitive information. A label such as “account details” does not by itself establish who can view a particular item.",
+        "Check the profile in more than one context where the service permits it: a logged-out view, a fan-facing preview, and the account-management view. Look at linked social accounts, contact buttons, location references, image metadata, and old profile text. Visibility controls can apply differently to different areas, so review the actual rendered page rather than relying only on a settings summary."
+      ],
+      "table": {
+        "caption": "Identity-boundary worksheet for a creator account",
+        "headers": [
+          "Information area",
+          "Audience to verify",
+          "Review question"
+        ],
+        "rows": [
+          [
+            "Display name and profile",
+            "Public and fan-facing visitors",
+            "Does the page show only the identity details you intend to publish?"
+          ],
+          [
+            "Verification information",
+            "Platform personnel and any stated processors",
+            "What is required, why, and how is it handled under current terms?"
+          ],
+          [
+            "Payment records",
+            "Platform and relevant payment or reporting parties",
+            "Which information appears in statements, notices, or account screens?"
+          ],
+          [
+            "Messages and notifications",
+            "Recipients and anyone with device access",
+            "Could previews reveal a legal name, email, or other unintended detail?"
+          ],
+          [
+            "Collaborator permissions",
+            "Invited users with assigned access",
+            "Can each person see only the information needed for their role?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review verification and payout documentation separately",
+      "paragraphs": [
+        "Verification and payout setup may require information that should not appear on a public profile. Read the platform’s instructions carefully and distinguish required fields from optional display details. Use accurate information where required; do not substitute a public alias in a field that calls for verified account or payment information. If the purpose or audience of a field is unclear, pause and request clarification through an official channel.",
+        "Payout records also create an ongoing documentation trail. Check where statements are stored, which account contacts receive notices, and whether downloadable records contain personal details. Plan secure storage and limited access for those records. A public brand name can coexist with private administrative records, but the exact arrangement depends on platform procedures and applicable requirements."
+      ]
+    },
+    {
+      "heading": "Check secondary visibility routes",
+      "paragraphs": [
+        "A profile is not the only place where identity details can surface. Consider account recovery messages, billing notices, comment or message notifications, collaborator invitations, and connected social profiles. A device lock screen or shared inbox can expose content even when the platform profile itself is carefully configured. Review notification previews and contact settings on the devices you use.",
+        "Images and text can also disclose context unintentionally. A background, a recognizable location, a reused username, or a linked profile may connect a public creator identity to other accounts. Before posting, inspect material for details you did not intend to share. If collaborators help publish, agree on a review process for captions, links, tags, and account selection."
+      ],
+      "bullets": [
+        "Check what account-recovery and payout messages display in email or device notifications.",
+        "Review connected accounts and remove links that reveal an unintended identity connection.",
+        "Use separate access permissions for collaborators where the platform supports them.",
+        "Agree on a pre-publication check for names, tags, locations, and linked profiles."
+      ]
+    },
+    {
+      "heading": "Document a launch and maintenance routine",
+      "paragraphs": [
+        "Create a short record of the settings and terms you reviewed, including the date and any unanswered questions. This gives you a baseline if the platform changes its interface or policies. Do not store passwords or sensitive verification documents in an unsecured checklist; record where secure records are maintained instead.",
+        "Revisit the boundary when changing your public name, adding a collaborator, updating payout details, enabling a new profile feature, or connecting another account. A setting that was appropriate at launch may not cover a later workflow. If a detail is unexpectedly exposed, follow the platform’s published support and account-security process and preserve relevant records without sharing them publicly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a public creator name while giving a platform different private information?",
+      "answer": "Some platforms distinguish public display details from private account or verification details, but requirements vary. Use accurate information in fields that require it and verify which details are shown to each audience."
+    },
+    {
+      "question": "Does a hidden profile field guarantee that nobody else can access it?",
+      "answer": "No. A visibility setting may limit public display, but the platform may still process information for account administration or other stated purposes. Review the current privacy information and terms."
+    },
+    {
+      "question": "Should collaborators receive access to payout or verification records?",
+      "answer": "Only if a specific role requires it and the platform’s controls and your operating arrangements support that access. Limit permissions to what each collaborator needs and document who is responsible for sensitive records."
+    },
+    {
+      "question": "How often should I review my identity settings?",
+      "answer": "Review them before launch and whenever you change profile details, connect accounts, add collaborators, or update payment information. Also recheck after relevant platform setting or policy changes."
+    }
+  ]
+};
