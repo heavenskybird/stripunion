@@ -1,0 +1,165 @@
+export default {
+  "slug": "live-cam-recording-policy-review",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Platform Recording Rules: Check Capture, Sharing and Reporting Policies",
+  "description": "Compare live cam platform rules for recording, screenshots, redistribution, reporting and privacy. A practical policy checklist helps viewers understand boundaries before interacting or sharing content.",
+  "excerpt": "Platform recording rules affect more than whether a capture button is available. Review the rules on recording, sharing, evidence and complaints before you participate.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Read the platform’s rules on recording and redistribution rather than inferring permission from technical access.",
+    "Check whether the rules address user uploads, performer consent, screenshots and off-platform sharing.",
+    "Find the reporting route for suspected unauthorized recording or distribution.",
+    "Do not capture or share material unless the applicable rules and consent clearly allow it."
+  ],
+  "sections": [
+    {
+      "heading": "Why recording rules deserve a separate review",
+      "paragraphs": [
+        "A live platform may permit viewing while restricting recording, copying or redistribution. The fact that a browser or device can technically capture a screen does not establish permission. Terms, community rules and individual interaction boundaries may all be relevant, and those rules can differ between platforms or change over time.",
+        "Review this topic before creating an account or taking part in a room. Doing so helps you distinguish what the service allows from what a device makes possible. It also gives you a clear route to follow if you encounter content that appears to have been recorded or shared without permission. Do not treat another user’s behavior as evidence that a platform permits it."
+      ],
+      "bullets": [
+        "Locate terms, community standards and content-sharing rules.",
+        "Look for separate guidance about recording, screenshots, clipping and redistribution.",
+        "Check whether rules address material shared away from the platform.",
+        "Save the date you reviewed the current policy, since terms can change."
+      ]
+    },
+    {
+      "heading": "Read for the action, not just the policy label",
+      "paragraphs": [
+        "A page titled “privacy” or “community standards” may not answer the question you have. Search the document for terms such as recording, capture, screenshot, repost, download, stream, consent and intellectual property, then read the surrounding language. A keyword match alone can miss exceptions, definitions or limits that change the meaning.",
+        "Record the exact action the policy addresses. For example, rules may distinguish between capturing a screen, uploading a clip, using a private message to distribute material or reproducing platform content elsewhere. Do not assume that permission for one action implies permission for another. If language is ambiguous, seek clarification through the platform’s official support route and avoid capture or sharing in the meantime."
+      ],
+      "table": {
+        "caption": "Policy questions to compare across live cam platforms",
+        "headers": [
+          "Policy area",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "Recording",
+            "Does the rule address local capture, screen recording or other recording methods?"
+          ],
+          [
+            "Screenshots and clips",
+            "Are still images, clips or excerpts treated separately?"
+          ],
+          [
+            "Redistribution",
+            "Does it restrict reposting, selling or sharing outside the service?"
+          ],
+          [
+            "Consent and rights",
+            "Whose consent or authorization is required, and how is it described?"
+          ],
+          [
+            "Complaints",
+            "Where can affected people report suspected recording or distribution?"
+          ],
+          [
+            "Evidence",
+            "Does the platform explain what information to include in a report?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish viewing access from permission to capture",
+      "paragraphs": [
+        "Access to a stream is not a blanket license to reproduce it. A user may be allowed to watch content under the platform’s rules while still being prohibited from recording, copying or sharing it. Check the terms that apply to your account and any room-specific boundaries, and do not rely on an assumption that public visibility means unrestricted use.",
+        "The same care applies to screenshots and short excerpts. A capture can include identifying information, account names or other people’s contributions beyond the intended subject. Even where a platform has a reporting or moderation process, that does not create permission for users to make copies as a precaution. Use official reporting tools when you need to raise a concern rather than circulating the material."
+      ],
+      "paragraphs2": [
+        "If you are unsure whether an intended use is permitted, do not proceed until you have a clear answer from the relevant rules or authorized source. This is especially important before posting content to social accounts, private groups, forums or file-sharing services. A closed group is still a form of distribution to other people.",
+        "Creators and participants may have rights or expectations that are not fully explained by a viewer-facing interface. Respect explicit boundaries and avoid pressuring anyone to authorize recording or sharing. Platform permissions, applicable law and a person’s consent are related but not interchangeable questions."
+      ]
+    },
+    {
+      "heading": "Find the reporting and removal path before you need it",
+      "paragraphs": [
+        "A useful policy explains how to report suspected unauthorized capture or distribution and what information to provide. Look for a dedicated report form, safety contact or content complaint route rather than assuming a general feedback button reaches the right team. Note whether the platform identifies the type of violation to select and how to submit the affected page or account details.",
+        "If you need to report a concern, preserve relevant page addresses, usernames, dates and case references where it is safe and lawful to do so. Avoid downloading, reposting or forwarding potentially unauthorized material as a way to document it. If the platform offers a process for links or descriptions, use that instead. Follow instructions about not sharing sensitive material in a public report or with unrelated users."
+      ],
+      "bullets": [
+        "Identify the official reporting route and any categories relevant to recording or redistribution.",
+        "Record the content location and account information without circulating the content itself.",
+        "Keep report confirmations and case numbers in a private place.",
+        "Do not promise that a report will result in a particular outcome or timeline."
+      ]
+    },
+    {
+      "heading": "Check whether the policy covers different sharing contexts",
+      "paragraphs": [
+        "Policies should be read with common sharing contexts in mind: direct messages, social networks, private communities, external websites and commercial redistribution. A rule may prohibit some or all of these, or distinguish uses in ways that are not obvious from a short summary. Check definitions and examples, not just headings, before you conclude that a particular channel is allowed.",
+        "Also consider whether a rule addresses re-uploads by other users, platform-hosted embeds or links to material elsewhere. A service may offer reporting options for content it hosts but have limited control over external copies. The policy should help you understand the scope of the platform’s process without implying that it can remove content from every site or device."
+      ]
+    },
+    {
+      "heading": "Use a comparison checklist without making assumptions",
+      "paragraphs": [
+        "When comparing services, mark each policy item as clearly stated, unclear or not found. This gives you a useful decision record without turning an incomplete policy into a claim about platform behavior. A missing explanation is a reason to ask a focused question; it is not proof that recording is permitted or that the platform has no process.",
+        "Revisit the terms before relying on them, especially if you have not used the service for some time. Save a copy or note of the relevant page and review date where the service’s terms permit that use. If you publish a comparison for others, quote or summarize policies accurately, date the review and distinguish written policy from your interpretation."
+      ],
+      "table": {
+        "caption": "Recording-policy review worksheet",
+        "headers": [
+          "Check",
+          "Status",
+          "Evidence or follow-up"
+        ],
+        "rows": [
+          [
+            "Recording and screen capture rules",
+            "Clear / unclear / not found",
+            "Policy section and review date"
+          ],
+          [
+            "Screenshot and clip treatment",
+            "Clear / unclear / not found",
+            "Any separate rule or definition"
+          ],
+          [
+            "Off-platform sharing restrictions",
+            "Clear / unclear / not found",
+            "Channels or exceptions described"
+          ],
+          [
+            "Report route for suspected violations",
+            "Clear / unclear / not found",
+            "Official form or contact"
+          ],
+          [
+            "Scope and limitations of response",
+            "Clear / unclear / not found",
+            "What the policy does and does not promise"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose the cautious course when language is unclear",
+      "paragraphs": [
+        "If a rule is ambiguous, the low-risk choice is to avoid recording and sharing until you have reliable clarification. Do not test a boundary by capturing material and waiting to see whether a report is made. Respect other users’ privacy and the service’s stated restrictions even when a technical feature appears to permit a different action.",
+        "A good platform comparison can identify what is documented, what remains unresolved and how to raise a concern. It cannot guarantee how a particular dispute will be decided or what legal rights apply in every location. Keep the focus on the written rules, consent, practical reporting access and your own decision not to distribute material without clear permission."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a stream is public, may I record it?",
+      "answer": "Do not assume so. Public viewing access does not itself establish permission to record, screenshot or redistribute. Check the applicable platform rules and consent requirements, and avoid capture if permission is unclear."
+    },
+    {
+      "question": "Should I take a screenshot to prove a suspected violation?",
+      "answer": "Use the platform’s official reporting instructions. Do not create or circulate a capture if that could violate rules or expose someone further; provide permitted URLs, account details and other requested information instead."
+    },
+    {
+      "question": "Can a platform guarantee removal of every repost?",
+      "answer": "A platform’s process may apply only to material it controls or hosts. Review what its policy says about scope and limitations, and do not assume it can remove copies from unrelated services."
+    }
+  ]
+};

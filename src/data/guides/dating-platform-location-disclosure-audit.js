@@ -1,0 +1,165 @@
+export default {
+  "slug": "dating-platform-location-disclosure-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platform Location Privacy: Review Distance, Maps and Check-Ins",
+  "description": "Audit how a dating platform collects, displays and uses location information. Check distance labels, map features, travel updates and permissions before deciding what to share.",
+  "excerpt": "Location privacy is not just a profile setting. Review device permissions, distance displays and optional map or check-in features as separate ways your whereabouts may be exposed.",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Check both the platform’s location settings and the device’s app permissions.",
+    "Determine whether a profile shows an exact point, a broad area or a distance indicator.",
+    "Review map, check-in and travel features separately from ordinary discovery settings.",
+    "Avoid sharing a live or routine location with people you have not chosen to trust."
+  ],
+  "sections": [
+    {
+      "heading": "Map the ways location can enter a dating account",
+      "paragraphs": [
+        "A dating service may use location for discovery, distance labels, maps, check-ins or travel features. These are different uses, and turning off one setting may not disable all of them. Start by listing what the app requests from your device and what it says location is used for in profile and account settings.",
+        "Then separate collection from display. An app may use location to sort nearby profiles without publishing a precise location to other users; another feature may let a user add a place or check in. Read the service’s explanations and test the visible profile from the perspective of a viewer where possible. Avoid assuming that a single “location” control covers every feature."
+      ],
+      "bullets": [
+        "Review device permission settings for location access.",
+        "Check profile settings for distance, city, map or location labels.",
+        "Look for separate travel, check-in and nearby discovery features.",
+        "Read whether the service describes background or ongoing location access."
+      ]
+    },
+    {
+      "heading": "Understand distance labels and map precision",
+      "paragraphs": [
+        "A distance label can reveal information even when no address is shown. Consider whether the service displays a broad range, rounded distance, approximate area or map marker, and whether that display changes as you move. The exact implementation varies, so use the platform’s own documentation and visible settings rather than assuming every distance indicator behaves the same way.",
+        "If a feature appears to expose a very precise point, consider disabling it or choosing a less specific option before using the account. Do not share home, work or other routine locations in profile text or public prompts if doing so could identify your patterns. A location can be sensitive even when it seems ordinary; the risk often comes from combining it with repeated timing or other profile details."
+      ],
+      "table": {
+        "caption": "Location exposure points to review",
+        "headers": [
+          "Feature",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Device permission",
+            "Is access limited to use of the app, or does the device show another access level?"
+          ],
+          [
+            "Distance display",
+            "Does the profile reveal a precise, approximate or rounded distance?"
+          ],
+          [
+            "Map or pin",
+            "Can other users view a point, saved place or map area?"
+          ],
+          [
+            "Check-in",
+            "Does the feature show a location and time to other users?"
+          ],
+          [
+            "Travel mode",
+            "Can it reveal a destination or a future location?"
+          ],
+          [
+            "Profile text and photos",
+            "Do details or recognizable surroundings reveal a routine place?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review device permissions and account settings together",
+      "paragraphs": [
+        "Device controls and in-app controls solve different problems. The device setting governs whether the app can request or receive location information under the operating system’s options; the platform setting may govern how the service uses or displays information once it has it. Review both, and revisit them after app updates or changes to the service’s features.",
+        "Choose the narrowest permission that still supports the use you want, if your device offers that choice. If you do not need nearby discovery or location-based features, consider denying access and checking whether the rest of the service remains usable. Do not treat a change in device permission as proof that previously stored information has been deleted; consult the platform’s privacy controls and data policies for that question."
+      ],
+      "paragraphs2": [
+        "If settings are difficult to find, search the app’s privacy, profile and discovery menus, then check the device’s app-permission page. Take care when changing settings on a shared device or account: another user may receive a notification or have access to the same profile.",
+        "Keep a brief note of which settings you changed and when. This helps you notice if a feature asks for renewed access later. It also prevents the mistaken belief that an old setting still applies after you have installed a new version or enabled a different feature."
+      ]
+    },
+    {
+      "heading": "Treat check-ins and travel features as deliberate disclosures",
+      "paragraphs": [
+        "A check-in or travel feature may reveal a place, a period or an intention to be somewhere. Before using one, look for who can see it, how long it remains visible and whether the feature updates automatically. A destination label may expose more than a city name if it identifies a specific venue or a predictable schedule.",
+        "If you want to discuss plans with a match, consider sharing only the detail needed for that conversation and only when you are comfortable. Avoid posting a real-time location to a broad audience simply because the interface makes it easy. For a first meeting, decide independently how to travel and where to meet; a platform location feature is not a substitute for your own safety plan."
+      ],
+      "bullets": [
+        "Check audience and duration before enabling a check-in.",
+        "Look for an option to remove or end a travel status.",
+        "Avoid posting a home address or routine location in profile content.",
+        "Share meeting logistics directly only when appropriate and with care."
+      ]
+    },
+    {
+      "heading": "Reduce location clues in photos and profile details",
+      "paragraphs": [
+        "Location can be disclosed indirectly. A photo may show a recognizable building, street sign, workplace, transit stop or view from a home. Profile text can add a neighborhood, work schedule or recurring activity. Consider what a stranger could infer by combining these details, rather than evaluating each item in isolation.",
+        "Review images and written details before publishing them. Remove or replace material that reveals a home entrance, distinctive workplace or predictable schedule if that information is not necessary to your profile. Be cautious about uploading files that may include location metadata; platform handling can differ, so do not assume metadata is always stripped. If in doubt, use an image export or device setting that removes location information before upload."
+      ]
+    },
+    {
+      "heading": "Create a practical location-privacy review",
+      "paragraphs": [
+        "A short audit is easier to maintain than a list of settings you never revisit. Mark each exposure point as on, off, unclear or not applicable, and note where you verified it. If a platform does not explain who can see a feature, treat that uncertainty as a reason not to use it until you understand the audience.",
+        "Repeat the audit after enabling a new feature, changing devices or noticing a new profile display. Location controls can be distributed across account menus, device permissions and individual features. Keeping them in one checklist gives you a decision record without implying that any one setting makes an account completely anonymous."
+      ],
+      "table": {
+        "caption": "Five-minute location audit",
+        "headers": [
+          "Review item",
+          "Your status",
+          "Next action if unclear"
+        ],
+        "rows": [
+          [
+            "Device location permission",
+            "On / off / limited",
+            "Check operating-system app permissions"
+          ],
+          [
+            "Distance or nearby display",
+            "On / off / unclear",
+            "Review discovery and profile settings"
+          ],
+          [
+            "Map, check-in or travel feature",
+            "On / off / not used",
+            "Check audience and duration"
+          ],
+          [
+            "Profile and photo clues",
+            "Reviewed / not reviewed",
+            "Remove unnecessary identifying details"
+          ],
+          [
+            "Location data policy",
+            "Reviewed / not reviewed",
+            "Check collection, use and deletion explanations"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Respond carefully if a location detail becomes visible",
+      "paragraphs": [
+        "If you discover a location detail you did not intend to share, first remove or limit the relevant feature using the platform’s controls. Then review nearby settings and device permissions rather than assuming the single change addressed every source. If the service provides a privacy or safety contact, use the official route to ask what information is displayed and what options are available.",
+        "If another person uses location information to pressure or threaten you, prioritize immediate personal safety and use relevant platform reporting tools. Preserve necessary account or message details without further distributing them. For urgent danger, contact appropriate local emergency or support services. A platform setting can reduce exposure but cannot control what another person has already seen or recorded."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does disabling phone location permission hide my location on a dating profile?",
+      "answer": "Not necessarily. It can affect device access, but profile details, previously added places or other service settings may remain. Review device permissions and the platform’s own display and privacy controls."
+    },
+    {
+      "question": "Is a distance indicator the same as sharing my exact location?",
+      "answer": "Not always. Services may display distance in different ways. Check the platform’s explanation and visible settings, and avoid assuming that a distance label is harmless or precise without evidence."
+    },
+    {
+      "question": "Should I use a dating app’s check-in feature for a first meeting?",
+      "answer": "Only if you understand who can see it and are comfortable with the disclosure. Consider sharing meeting logistics privately and make an independent plan for travel and personal safety."
+    }
+  ]
+};
