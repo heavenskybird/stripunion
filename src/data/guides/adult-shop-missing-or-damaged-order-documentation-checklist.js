@@ -1,0 +1,125 @@
+export default {
+  "slug": "adult-shop-missing-or-damaged-order-documentation-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Orders: Document a Missing or Damaged Delivery Clearly",
+  "description": "A step-by-step guide to recording an adult shop delivery problem, checking the retailer’s stated process, and sharing only the information needed to resolve it.",
+  "excerpt": "If an order is missing, incomplete, or damaged, a clear record can make the next support conversation easier. Save relevant order details, document the issue discreetly, and follow the retailer’s stated process before sending sensitive information.",
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "keyTakeaways": [
+    "Record the order reference, delivery status, and the specific problem before contacting support.",
+    "Keep photos and packaging evidence private and limited to what the retailer requests to assess the issue.",
+    "Use the retailer’s published contact and claims process; do not assume a carrier update resolves the retailer’s responsibilities or vice versa.",
+    "Share the minimum necessary information and keep copies of messages, responses, and any agreed next steps."
+  ],
+  "sections": [
+    {
+      "heading": "Classify the problem before contacting support",
+      "paragraphs": [
+        "Start by describing the issue precisely. A parcel may be marked delivered but not located, an order may arrive with an item missing, packaging may be damaged, or the item itself may appear damaged. These situations can involve different processes, so avoid sending a general message that leaves support to guess what happened.",
+        "Check the order confirmation and the retailer’s order-status page for the reference number, dispatch details, and any instructions for delivery problems. Confirm whether the concern relates to the carrier’s tracking information, the parcel’s condition, or the order contents. Do not assume that a status update proves the package was received by you or that a delivery estimate is a guaranteed date."
+      ],
+      "bullets": [
+        "Write down the order reference and the date you noticed the problem.",
+        "State whether the parcel is missing, incomplete, externally damaged, or internally damaged.",
+        "Check the retailer’s stated reporting route and any time-sensitive instructions."
+      ]
+    },
+    {
+      "heading": "Create a concise evidence record",
+      "paragraphs": [
+        "A useful record is factual and chronological. Note when the delivery status changed, when you checked the delivery location, and when you opened the parcel if it arrived. Keep the shipping label, packaging, and order confirmation until the issue is resolved, unless the retailer tells you otherwise. These records can help you answer follow-up questions without relying on memory.",
+        "If photographs are useful or requested, take images that show the relevant damage or missing contents without exposing unrelated personal details. Check the background for addresses, faces, documents, or other information you do not need to share. Preserve original files privately, and send only the views necessary to explain the problem through a contact route you have verified."
+      ],
+      "table": {
+        "caption": "Useful records for a delivery issue",
+        "headers": [
+          "Issue",
+          "Details to note",
+          "Privacy-minded evidence"
+        ],
+        "rows": [
+          [
+            "Marked delivered, not found",
+            "Tracking status, date, locations checked",
+            "Keep screenshots with unrelated account data cropped where practical"
+          ],
+          [
+            "Missing item",
+            "Order reference and item as listed",
+            "Show the package contents only if requested and safe to do so"
+          ],
+          [
+            "Damaged parcel",
+            "Condition on arrival and discovery time",
+            "Photograph the relevant area without unnecessary address details"
+          ],
+          [
+            "Damaged item",
+            "What appears damaged and when noticed",
+            "Share a focused image only through a verified support channel"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Contact the right party through a verified route",
+      "paragraphs": [
+        "Use contact information found on the retailer’s own order page or published support materials. If the carrier provides a separate tracking inquiry route, that may help clarify a delivery scan, but keep the retailer informed when the order itself is incomplete or the item is damaged. The seller and carrier may have different roles, so do not assume that contacting one automatically starts the other’s process.",
+        "In your first message, include the order reference, a short description, the relevant dates, and the outcome you are requesting or asking the retailer to explain. Avoid sending full payment details, passwords, identity documents, or unrelated personal information. If support needs additional information, ask why it is needed and whether a less sensitive alternative is acceptable."
+      ],
+      "bullets": [
+        "Verify the support address or form before sending order details.",
+        "Keep the message factual and limited to the problem.",
+        "Do not send card numbers, passwords, or account recovery codes.",
+        "Ask for confirmation of the next step and any response timeframe the retailer states."
+      ]
+    },
+    {
+      "heading": "Protect privacy while retaining useful evidence",
+      "paragraphs": [
+        "If the retailer proposes a remedy, record the details in writing: what will happen, whether any return or collection is required, and what the retailer says you should do next. Do not dispose of packaging or send an item back until you understand the instructions and have a record of them. The exact process depends on the retailer’s policy and applicable rules, so avoid assuming a particular remedy is available."
+      ]
+    },
+    {
+      "heading": "Follow the stated process and keep a timeline",
+      "paragraphs": [
+        "After submitting a report, save the case number or confirmation and note when you sent it. If the retailer asks for more evidence, provide the specific material requested through the verified channel. If you receive no response within a timeframe the retailer has published, follow up with the original reference and a concise timeline instead of starting a disconnected new conversation.",
+        "Keep retailer and carrier messages together but distinguish them clearly. A carrier response about a scan may not answer a question about missing order contents, while a retailer response about replacement or refund terms may not resolve an inaccurate delivery status. A simple timeline prevents repeated explanations and makes it easier to identify which question remains open."
+      ],
+      "bullets": [
+        "Save the support case reference and submission date.",
+        "Keep copies of replies and any instructions about packaging or returns.",
+        "Follow up with the original case details and the unresolved question.",
+        "Avoid sending duplicate reports through unverified channels."
+      ]
+    },
+    {
+      "heading": "Know when to pause before taking further action",
+      "paragraphs": [
+        "Pause if instructions are contradictory, ask you to pay an unexpected fee, request excessive personal information, or direct you to a payment page that you cannot verify. Go back to the retailer’s official support route and ask for the instruction to be confirmed there. This is particularly important when a message arrives separately from the original order communication.",
+        "If the issue remains unresolved, consult the retailer’s published complaint process and the consumer-protection resources relevant to your location. The available options and time limits can vary, so keep your records and check the applicable source rather than relying on generic assumptions. This guide helps organize evidence; it does not determine legal rights or guarantee a particular outcome."
+      ],
+      "bullets": [
+        "Verify unusual payment or information requests independently.",
+        "Keep the original order and support records intact.",
+        "Check local consumer guidance for next steps if the stated process fails."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I include in the first support message?",
+      "answer": "Include the order reference, a brief description of the problem, relevant dates, and any tracking status that helps explain it. Do not include passwords, full payment details, or unrelated identity information."
+    },
+    {
+      "question": "Should I throw away the packaging after finding damage?",
+      "answer": "Keep the packaging and shipping label until you have checked the retailer’s instructions and the issue is resolved. If the retailer requests a return or inspection, follow its documented directions."
+    },
+    {
+      "question": "Is a delivered tracking status proof that I received the order?",
+      "answer": "It is a carrier status, not necessarily a complete explanation of what happened. Record the status and contact the retailer through its verified process if you cannot locate the parcel or the order is incomplete."
+    }
+  ]
+};

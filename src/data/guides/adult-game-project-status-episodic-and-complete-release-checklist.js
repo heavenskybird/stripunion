@@ -1,0 +1,131 @@
+export default {
+  "slug": "adult-game-project-status-episodic-and-complete-release-checklist",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Tell Episodic, In-Progress, and Complete Releases Apart",
+  "description": "A practical way to assess whether an adult game is a finished release, an ongoing project, or an episodic work before deciding how much time and money to commit.",
+  "excerpt": "A game listing may describe a project rather than a finished, self-contained release. Check version notes, episode boundaries, and what the creator actually says is complete before setting expectations.",
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "keyTakeaways": [
+    "Distinguish a complete release from an ongoing project, an episode, and an early-access build using explicit status information.",
+    "Check whether the listing explains what the current version contains and what remains planned rather than treating a roadmap as a promise.",
+    "Look for dated release notes and version identifiers to understand the project’s documented history, not to assume a future update schedule.",
+    "Decide in advance whether you are comfortable with unfinished content, gaps between releases, or an uncertain completion date."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what the listing is selling or offering",
+      "paragraphs": [
+        "A game page can describe a complete product, a work in progress, an episodic release, or a build made available during development. Those models can look similar in a storefront, especially when a page mixes a current download with future plans. Start by finding the creator’s explicit status description and the date or version to which it applies.",
+        "Do not treat words such as “chapter,” “season,” “demo,” or “coming soon” as self-explanatory. A chapter might be a complete short release or one part of a larger unfinished story. A demo can be a standalone sample or a limited build that changes later. Look for a plain statement of what is playable now and what the creator considers complete."
+      ],
+      "bullets": [
+        "Find the current version and release status.",
+        "Check whether access is to a full release, a sample, an episode, or an in-progress build.",
+        "Separate playable content from planned or announced content."
+      ]
+    },
+    {
+      "heading": "Read version history for project context",
+      "paragraphs": [
+        "Version notes can help establish how a project has changed: what was added, corrected, or reworked in a particular build. Look for dated entries and version labels that correspond to the available download. A listing that includes a history provides more context than a vague statement that a game is “updated,” but it still does not guarantee a particular future cadence.",
+        "Compare the build description with its history. If the current page says one thing and the changelog appears to describe another version, record the mismatch and look for a clarification. Do not download a file from an unrelated source just because it claims to be newer; use the source identified by the creator or storefront and apply the usual provenance checks."
+      ],
+      "table": {
+        "caption": "Evidence that helps distinguish release status",
+        "headers": [
+          "Evidence",
+          "What it can clarify",
+          "What it cannot guarantee"
+        ],
+        "rows": [
+          [
+            "Current version label",
+            "Which build the listing describes",
+            "That every platform has the same build"
+          ],
+          [
+            "Dated release notes",
+            "What changed in documented releases",
+            "When the next update will arrive"
+          ],
+          [
+            "Episode or chapter outline",
+            "How the work is divided",
+            "That planned episodes will be completed"
+          ],
+          [
+            "Completion statement",
+            "What the creator calls finished",
+            "That every buyer’s expectations match"
+          ],
+          [
+            "Roadmap",
+            "What the creator currently plans",
+            "A binding release date or promise"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat roadmaps as plans, not delivery commitments",
+      "paragraphs": [
+        "A roadmap can help you understand the intended direction of a project, but planned features and episodes are not the same as current access. Check whether the roadmap is dated, whether it marks completed items, and whether the creator explains how plans may change. Even a detailed schedule should not be interpreted as a guarantee unless the terms explicitly make it one.",
+        "When a project’s future matters to your decision, decide how much uncertainty you can accept. You might be content with the current build even if no further updates arrive, or you may only want a project that is already complete. That is a preference, not a judgment about the creator. The important distinction is to avoid paying or investing time based on future content that is not currently available."
+      ],
+      "bullets": [
+        "List the features or episodes available now.",
+        "Mark future items as planned rather than included.",
+        "Do not rely on an undated roadmap as a current release schedule.",
+        "Ask whether the current build stands on its own for your intended use."
+      ]
+    },
+    {
+      "heading": "Check whether episodes form a usable stopping point",
+      "paragraphs": [
+        "A project page can also change as development continues. Save the version label or release note associated with your decision, especially if you are comparing a sample with a later build. This record helps you distinguish a genuine change from a difference in wording across pages."
+      ]
+    },
+    {
+      "heading": "Use community discussion carefully",
+      "paragraphs": [
+        "Community posts can provide context about what players are currently discussing, but individual comments are not official release evidence. A confident prediction, rumor, or reposted claim does not establish project status. Give more weight to creator statements, versioned release notes, and storefront information that identifies the relevant build.",
+        "If you read discussion threads, check the post date and whether it links to a primary project update. Older comments may refer to an earlier plan or build. Avoid following unofficial download links to obtain a purportedly current version; project status is useful only when the source of the build is clear and trustworthy."
+      ],
+      "bullets": [
+        "Check the date and source of project-status claims.",
+        "Prefer statements tied to a specific version or release.",
+        "Treat community predictions as opinion, not confirmed schedule information.",
+        "Do not use unofficial downloads to resolve uncertainty about a build."
+      ]
+    },
+    {
+      "heading": "Match your decision to your tolerance for unfinished work",
+      "paragraphs": [
+        "Some players are comfortable following an ongoing project; others want a self-contained experience that is already complete. Make that preference explicit before choosing. If you require a finished release, look for a direct completion statement and check whether the listing describes any remaining episodes or planned revisions. If you are comfortable with an in-progress build, decide whether the current version is worth your time on its own.",
+        "A simple status note can prevent mismatched expectations: “complete as described,” “current episode only,” or “ongoing; future work uncertain.” This is not a prediction or endorsement. It is a concise record of the evidence you found and the uncertainty you are accepting. Revisit the page before returning to a long-running project, since version information may have changed."
+      ],
+      "bullets": [
+        "Choose complete releases when future updates are not part of your plan.",
+        "For ongoing projects, evaluate current content independently of promised additions.",
+        "Record unanswered questions about episode boundaries or access.",
+        "Recheck project status before making a new commitment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I tell whether an adult game is finished?",
+      "answer": "Look for a clear completion statement tied to the current release, then compare it with the version notes and any episode or roadmap information. If those sources conflict or are vague, treat the status as uncertain."
+    },
+    {
+      "question": "Does an update roadmap mean future content is guaranteed?",
+      "answer": "No. A roadmap describes plans as presented at that time. It can help explain direction, but it does not establish that every item will arrive or arrive on a particular date."
+    },
+    {
+      "question": "Should I rely on community posts to confirm the latest release?",
+      "answer": "Use community discussion as context, not as the definitive source. Prefer creator or storefront information tied to a version, and avoid unofficial download links when checking whether a build is current."
+    }
+  ]
+};

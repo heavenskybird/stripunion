@@ -1,0 +1,135 @@
+{
+  "backlogId": "ar-experience-permission-review",
+  "slug": "adult-ar-experience-permissions-and-room-data-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Adult AR Experiences: Check Camera Permissions and Room-Data Boundaries",
+  "description": "A practical checklist for evaluating adult augmented-reality experiences, including camera access, spatial mapping, session controls, and data-handling disclosures.",
+  "excerpt": "AR places digital content into a view of your surroundings, so choosing an experience means checking more than headset compatibility. Review permissions, room-data disclosures, and ways to end or reset a session before enabling access.",
+  "keyTakeaways": [
+    "Treat camera access, spatial mapping, and saved room data as separate questions; an explanation of one does not answer the others.",
+    "Check what the experience needs to do on-device and what its privacy notice says may be transmitted, stored, or shared.",
+    "Test the experience in a clear, private area and confirm that you can pause, exit, and revoke permissions without losing control of the device.",
+    "Do not assume that an AR label means an experience uses a particular headset, mapping method, or level of immersion; verify support and behavior for your own setup."
+  ],
+  "sections": [
+    {
+      "heading": "Start by distinguishing AR from ordinary headset playback",
+      "paragraphs": [
+        "An augmented-reality experience presents digital elements in relation to a view of the surrounding environment. That can involve a camera view, spatial positioning, or other device features, but the exact implementation varies. A page that says “AR” is not enough to establish which features are used or which devices are supported.",
+        "Before comparing experiences, identify the practical outcome you want: for example, whether content is simply displayed over a live view, whether it is placed relative to a room, or whether you only need a headset-compatible video. Those are different use cases with different device and privacy implications. Ask the provider’s documentation to describe the experience in plain terms rather than relying on a promotional label."
+      ],
+      "bullets": [
+        "Record your device model, operating system, and the access route you plan to use.",
+        "Look for a specific description of AR behavior, not just a general VR/AR category label.",
+        "Treat missing device or feature details as unknown, not as evidence of compatibility."
+      ]
+    },
+    {
+      "heading": "Review permissions before opening the experience",
+      "paragraphs": [
+        "Camera permission is especially important because it may expose a live view of your surroundings. Check whether the experience explains why it requests camera access, when that access is active, and whether the feature can be used without granting unrelated permissions. A permission prompt only tells you what the device is asking to allow; it does not explain all downstream data handling.",
+        "Spatial mapping, room understanding, microphone access, and storage access are separate considerations. Do not infer that an experience needs all of them simply because it uses AR. If a permission appears broader than the described feature, pause and check the provider’s help or privacy documentation before approving it. You can also deny an optional permission and see whether the experience still offers a reduced mode."
+      ],
+      "bullets": [
+        "Check each permission at the operating-system level and in the provider’s explanation.",
+        "Avoid enabling microphone, contacts, or location access unless the feature clearly requires it.",
+        "Know where to revoke access later in your device settings."
+      ]
+    },
+    {
+      "heading": "Look for meaningful room-data explanations",
+      "paragraphs": [
+        "A useful privacy explanation should clarify whether the app processes camera imagery or spatial information locally, sends information to a service, or retains information after a session. It should also explain what the service says it collects and why. If the notice uses broad terms without explaining how they relate to the AR feature, you cannot confidently determine the data boundary from the notice alone.",
+        "Do not assume that “not recording” means “no data processing,” or that on-device processing means no information is ever stored. Those phrases can refer to different stages of handling. Look for answers about temporary processing, diagnostic data, account-linked information, and deletion or retention controls. If answers are absent, make that uncertainty part of your comparison rather than filling the gap with assumptions."
+      ],
+      "table": {
+        "caption": "Questions to resolve before enabling an AR feature",
+        "headers": [
+          "Question",
+          "What a useful answer should clarify"
+        ],
+        "rows": [
+          [
+            "Camera use",
+            "When the camera is active and what feature depends on it"
+          ],
+          [
+            "Spatial data",
+            "Whether room or surface information is created, processed, or retained"
+          ],
+          [
+            "Transmission",
+            "Whether relevant data leaves the device and for what stated purpose"
+          ],
+          [
+            "Retention",
+            "What is kept after the session and what controls or deletion options exist"
+          ],
+          [
+            "Optional permissions",
+            "Which features still work if a permission is denied"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the session in a controlled setting",
+      "paragraphs": [
+        "Before using an AR experience in a shared or busy space, test its basic controls in a private area where interruptions are unlikely. Confirm how to pause, exit, return to a neutral screen, and close the application. If the experience anchors content in the room, learn how to clear or reset those placements before handing the device to someone else.",
+        "A controlled test also helps distinguish usability problems from privacy concerns. Observe whether a camera indicator appears when expected, whether the experience continues after you switch apps, and whether it asks again for permissions. These checks do not prove what happens on a service’s servers, but they can reveal unexpected device behavior that merits further investigation."
+      ],
+      "bullets": [
+        "Test pause, exit, and app-close actions before beginning a full session.",
+        "Keep the camera view away from private documents, people, or identifying details where practical.",
+        "Reset saved room placements or session state before another person uses the device."
+      ]
+    },
+    {
+      "heading": "Compare support and access details without guessing",
+      "paragraphs": [
+        "AR support can depend on a particular headset, operating-system version, browser, app, or feature set. Check the provider’s current compatibility information for the exact device and access route you intend to use. If a feature is described only for a general device family, ask whether the specific interaction you want is supported; do not treat a successful sign-in as proof that every AR feature will work.",
+        "Also separate technical access from content access. A platform may allow account access on a device without offering the same features or interface there. Preview pages, feature descriptions, and terms can help establish what is included, but only when they are specific enough to evaluate. Keep notes on unanswered questions so that a later device or software change does not turn an assumption into a purchase decision."
+      ],
+      "bullets": [
+        "Verify device, operating-system, and access-route details from current documentation.",
+        "Check whether previews demonstrate the actual AR feature or only a standard video view.",
+        "Keep a short record of which features were confirmed and which remain unclear."
+      ]
+    },
+    {
+      "heading": "Use a decision rule based on data confidence",
+      "paragraphs": [
+        "A practical comparison does not require a perfect privacy guarantee. It does require enough information to make a reasoned choice. Give preference to experiences that explain permissions in context, describe room-data handling clearly, and provide controls that let you stop or reset a session. Treat vague disclosures or unexplained permission requests as unresolved risks, not as automatic proof of wrongdoing.",
+        "If an experience cannot answer basic questions about camera activity, room-data handling, or session exit, consider whether the feature is worth enabling on your device. You can choose a less immersive access route, decline optional permissions, or wait for clearer documentation. That keeps the decision reversible and avoids granting broader access simply to discover how the experience behaves."
+      ],
+      "bullets": [
+        "Proceed when required permissions match the described feature and the data explanation is understandable.",
+        "Choose a reduced-access mode when it meets your needs.",
+        "Pause when essential permission or retention details cannot be established."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an AR label mean an experience records my room?",
+      "answer": "No. The label alone does not establish whether imagery or spatial information is recorded, processed locally, transmitted, or retained. Check the device permission prompt and the provider’s privacy documentation for those separate details."
+    },
+    {
+      "question": "Is denying camera access enough to prevent room-data collection?",
+      "answer": "Not necessarily. It may block a camera-dependent feature, but other device signals or previously stored information can be handled separately. Review the operating-system permissions and the service’s data explanation rather than relying on one setting as a complete privacy assessment."
+    },
+    {
+      "question": "What should I do if the provider does not explain spatial data clearly?",
+      "answer": "Treat the data handling as unknown. Avoid granting the relevant permission until you can find a clear explanation, or choose an access route that does not require the feature. You can also ask the provider a specific question about processing, retention, and deletion."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
