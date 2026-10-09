@@ -1,0 +1,129 @@
+{
+  "backlogId": "adult-anime-history-recommendation-privacy-audit",
+  "slug": "adult-anime-platform-watch-reading-history-privacy-checklist",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Check Viewing History and Recommendation Privacy",
+  "description": "Review how an adult anime platform handles viewing or reading history, recommendations, saved items, and account controls before using a personal or shared device.",
+  "excerpt": "Viewing history can shape recommendations and remain visible on more than one device. Check what is saved, how it is used, and what controls exist before relying on a platform account.",
+  "keyTakeaways": [
+    "Viewing history, saved lists, and recommendation settings are separate features; check each one independently.",
+    "Find out whether activity is tied to an account, stored on a device, or both, where the platform explains this.",
+    "Review controls for clearing history, pausing tracking, or changing recommendations before using a shared device.",
+    "Do not assume clearing browser history also clears platform-side account activity.",
+    "Check which devices and browser profiles are signed in, and consider the privacy of notifications and saved items."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what the platform records",
+      "paragraphs": [
+        "An anime platform may offer video viewing, manga reading, saved items, or several formats. Each can create a different activity trail. A viewing-history page may show watched titles, while reading progress or bookmarks may be stored separately. Recommendations can also be influenced by activity without appearing in the same history list. Look for explanations in account settings, privacy controls, or help pages.",
+        "Determine whether activity appears only in the browser or app, is associated with a signed-in account, or may be present in both places. The platform may not document every technical detail, so avoid assuming that one action erases all records. A useful review begins with the controls and explanations the service actually provides, not with a guess based on how another site works."
+      ],
+      "bullets": [
+        "Check viewing history, reading progress, bookmarks, and recommendations separately.",
+        "Look for account-level privacy or activity settings as well as device settings.",
+        "Note when the platform does not clearly explain where activity is stored."
+      ]
+    },
+    {
+      "heading": "Understand recommendation controls",
+      "paragraphs": [
+        "Recommendations can make a library easier to navigate, but some users prefer fewer suggestions based on earlier activity. Check whether the platform offers a way to hide an item, reset or adjust recommendations, pause activity-based personalization, or manage related settings. The wording may describe different effects, so read what each control claims to change.",
+        "Test controls with a low-stakes action if the platform permits it, then revisit the settings to confirm what changed. A control that removes a title from a visible history list may not also change recommendations, and a recommendation preference may not delete saved items. Keep these outcomes distinct when deciding whether the controls meet your needs."
+      ],
+      "table": {
+        "caption": "Keep activity controls separate",
+        "headers": [
+          "Feature",
+          "What to check",
+          "Common point of confusion"
+        ],
+        "rows": [
+          [
+            "Viewing or reading history",
+            "Can entries be hidden or cleared?",
+            "Clearing visible history may not change recommendations"
+          ],
+          [
+            "Recommendations",
+            "Can personalization be adjusted or reset?",
+            "A preference setting may not remove saved activity"
+          ],
+          [
+            "Bookmarks and lists",
+            "Can items be removed or lists kept private?",
+            "Saved items may remain visible even if history is cleared"
+          ],
+          [
+            "Browser or app data",
+            "What remains on the device?",
+            "Local cleanup may not clear account-level records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review account and device visibility",
+      "paragraphs": [
+        "If you use a signed-in account on more than one device, check whether history and saved items appear across those sessions. A shared tablet, computer, or mobile device may expose account activity to another person who can open the app or browser profile. Review which accounts are signed in, whether the browser syncs activity, and whether the device displays recent items or recommendations on a start screen.",
+        "Notifications can reveal activity even when the platform’s main history is hidden. Review lock-screen previews, email alerts, and browser or app notifications. If a device is shared, sign out when appropriate and avoid leaving a page open where another user can see account-specific recommendations or saved items. These practical steps reduce visible exposure but do not change what the platform may retain under its own policies."
+      ],
+      "bullets": [
+        "Check signed-in sessions and browser profiles on shared devices.",
+        "Review lock-screen previews and platform notification settings.",
+        "Sign out or use a separate device profile when that better fits your situation."
+      ]
+    },
+    {
+      "heading": "Clear activity carefully and verify the result",
+      "paragraphs": [
+        "Before clearing history or deleting saved items, consider whether you rely on them for progress or quick access. Some platforms may not offer restoration after removal. If you decide to clear activity, follow the service’s instructions and check the relevant history, recommendation, and saved-list controls afterward. Record what you changed if you need to remember the settings later.",
+        "Browser history and platform history are not the same thing. Clearing local browser data may remove a page from the device while leaving account activity untouched. Conversely, changing a platform setting may not remove cached page titles or other device-level traces. Handle each layer separately, and use the service’s stated privacy tools for account-level data rather than assuming a browser cleanup does the job."
+      ],
+      "bullets": [
+        "Check what will be removed before confirming a clear-history action.",
+        "Review platform settings and local browser or app history as separate layers.",
+        "Verify the visible result without assuming it proves all retained data was erased."
+      ]
+    },
+    {
+      "heading": "Choose a setup that matches your privacy needs",
+      "paragraphs": [
+        "The right arrangement depends on whether convenience, continuity, or reduced visibility matters most. Keeping history can help you resume a series or remember where you left off. Turning off or limiting personalization may reduce tailored suggestions but can make browsing less convenient. A separate account or browser profile may reduce accidental exposure on a shared device, while still leaving the service’s account-level terms relevant.",
+        "Make your decision using observable controls. Prefer clear explanations, separate settings, and an easy-to-find sign-out or history-management route. If a platform does not explain what its controls do, treat the uncertainty as part of your choice. Do not rely on a privacy label or a single cleanup action as a substitute for understanding account and device behavior."
+      ],
+      "bullets": [
+        "Decide whether you value continuity, limited recommendations, or reduced on-device visibility most.",
+        "Check controls before creating a long-term history or saved library.",
+        "Revisit settings after account, device, or browser-profile changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does clearing browser history erase an adult anime platform’s account history?",
+      "answer": "Not necessarily. Browser history is stored locally by the browser, while a platform may separately associate activity with a signed-in account. Use the platform’s own history controls for account activity and review device-level data separately."
+    },
+    {
+      "question": "Are recommendations the same as viewing history?",
+      "answer": "No. Recommendations may use activity or preferences, but they are a distinct feature from a visible history list. Check recommendation settings and history controls independently, and read what each control says it changes."
+    },
+    {
+      "question": "Can I keep reading progress without making it visible on a shared device?",
+      "answer": "That depends on the platform and device controls. Check whether progress is account-linked, whether other signed-in users can see it, and whether the device supports separate profiles or sessions. Do not assume that hiding a history list also hides bookmarks or progress."
+    },
+    {
+      "question": "What should I check before clearing saved activity?",
+      "answer": "Confirm whether clearing removes bookmarks, reading progress, or recommendations as well as visible history, and whether the action can be reversed. Keep any information you need for continuity before removing it, then verify the relevant controls afterward."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

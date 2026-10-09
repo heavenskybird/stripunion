@@ -1,0 +1,127 @@
+export default {
+  "slug": "affiliate-link-redesign-migration-qa-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Link Migration After a Website Redesign: A Webmaster QA Checklist",
+  "description": "Use a structured QA process to review affiliate links after a redesign, checking destinations, redirect behavior, placement, tracking parameters, and program rules.",
+  "excerpt": "A site redesign can change where affiliate links point or how they are presented. This checklist helps webmasters audit migrated links without assuming every redirect or tracking detail is valid.",
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "keyTakeaways": [
+    "Inventory affiliate links before a redesign and compare the inventory against the migrated pages afterward.",
+    "Check destination, redirect path, tracking parameters, and visible link text as separate items.",
+    "Do not generate test referrals or conversions unless the program explicitly permits the method.",
+    "Keep a change log that records the page, link location, observed issue, and correction.",
+    "Recheck representative links on desktop and mobile, and confirm that the destination still fits the page context."
+  ],
+  "sections": [
+    {
+      "heading": "Build a migration inventory before changing pages",
+      "paragraphs": [
+        "A redesign may alter page paths, templates, button components, or link handling. Affiliate links can be lost, duplicated, changed into ordinary destination links, or left pointing at an outdated page. Start by exporting or recording the existing links and the pages where they appear. Include text links, buttons, banners, and links embedded in reusable site components.",
+        "Keep the inventory focused enough to maintain. Useful fields include the source page, link location, destination domain, campaign or sub-ID parameters, current placement, and the program associated with the link. Do not store secret credentials in a general spreadsheet. The purpose is to make changes traceable and to identify omissions after the migration."
+      ],
+      "bullets": [
+        "List links in page content and shared templates separately.",
+        "Record the intended destination and the page context for each important link.",
+        "Mark links that are expired, outdated, or awaiting program-rule review before migration."
+      ]
+    },
+    {
+      "heading": "Verify the path from page to destination",
+      "paragraphs": [
+        "After the new site is available in a controlled environment or after launch, compare migrated links against your inventory. Check whether each link is present in the expected location and leads to the intended destination. A link that opens a generic landing page may technically resolve but still be a poor match for the page’s promise.",
+        "Inspect redirect behavior without assuming that a redirect is harmless. A destination may redirect through several steps, lead to an error, or lose query parameters. Check the final visible destination and any intermediate behavior using methods allowed by the program and your site’s technical policies. If you cannot confirm whether a redirect preserves attribution, request clarification from the program rather than guessing."
+      ],
+      "table": {
+        "caption": "Post-redesign affiliate link checks",
+        "headers": [
+          "Check",
+          "Record",
+          "Follow-up if unclear"
+        ],
+        "rows": [
+          [
+            "Link presence",
+            "Page and link location",
+            "Compare with the pre-redesign inventory"
+          ],
+          [
+            "Destination",
+            "Expected and observed final destination",
+            "Confirm the intended page is still available"
+          ],
+          [
+            "Tracking parameters",
+            "Required parameters present or absent",
+            "Consult program documentation or support"
+          ],
+          [
+            "Placement",
+            "Text, button, or shared component",
+            "Check that the wording matches the destination"
+          ],
+          [
+            "Mobile behavior",
+            "Tap target and destination on a phone",
+            "Correct overlap, clipping, or unexpected navigation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat tracking checks and conversion tests differently",
+      "paragraphs": [
+        "A link opening successfully does not prove that attribution works. Tracking may depend on program-specific parameters, redirect handling, cookies, or other mechanisms that are not visible from a simple click. Preserve parameters exactly when documentation requires them, but do not add or alter tracking values based on guesswork.",
+        "Avoid testing your own referral, purchase, or signup unless the program’s terms explicitly authorize the test procedure. Self-referrals and artificial transactions can violate restrictions or create misleading records. Safer checks include inspecting a link’s structure, confirming the destination, consulting written program instructions, and asking support how to validate a migrated link without creating a disallowed event."
+      ],
+      "bullets": [
+        "Do not remove unfamiliar parameters until their function is confirmed.",
+        "Do not use personal or alternate accounts to manufacture a conversion.",
+        "Document the approved validation method if the program provides one."
+      ]
+    },
+    {
+      "heading": "Review context, disclosure, and program restrictions",
+      "paragraphs": [
+        "A redesign can also change the context around a link. A button may be moved next to wording that overstates an offer, or a comparison table may imply a relationship that no longer applies. Review the full surrounding page, not only the URL. Make sure disclosures remain visible and that link wording does not promise a result or benefit that you cannot substantiate.",
+        "Check current program rules for restrictions that affect placement, traffic sources, wording, or redirects. A technical migration is not a reason to presume old permissions still cover a changed page or new traffic source. If a redesign introduces new promotional formats or placements, confirm permission before directing visitors through them."
+      ],
+      "bullets": [
+        "Read the link in context on desktop and mobile.",
+        "Confirm disclosures remain close enough to be noticed and understood.",
+        "Check whether new placements or traffic sources require separate approval."
+      ]
+    },
+    {
+      "heading": "Log issues and schedule a second pass",
+      "paragraphs": [
+        "Use a simple issue log with the page, link, date checked, observed behavior, severity, and corrective action. Prioritize broken destinations, missing links on high-intent pages, incorrect tracking parameters, and confusing or misleading placement. Keep screenshots or non-sensitive notes where they help explain an issue, but avoid collecting unnecessary visitor or account information.",
+        "A single launch-day review may miss problems caused by later template changes, cached pages, or edits by multiple contributors. Recheck a sample of links after the site has settled, then add affiliate links to the normal content-update checklist. This turns migration QA into a repeatable process rather than a one-time repair exercise."
+      ],
+      "bullets": [
+        "Fix broken or mismatched destinations before cosmetic issues.",
+        "Keep a record of corrections and the person responsible for follow-up.",
+        "Repeat checks after major template, URL, or link-management changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a successful redirect prove that an affiliate link is tracking correctly?",
+      "answer": "No. It confirms only that a visitor can reach a destination. Attribution may rely on program-specific parameters or other rules. Verify tracking requirements from program documentation or support, and do not infer attribution from the visible landing page."
+    },
+    {
+      "question": "Can I test an affiliate link by making a purchase through it?",
+      "answer": "Only if the program explicitly permits that test method and explains how to perform it. Self-referrals or artificial conversions may be prohibited. Use a program-approved validation method or ask support for a compliant way to check migrated links."
+    },
+    {
+      "question": "Should tracking parameters be copied exactly during a redesign?",
+      "answer": "Preserve parameters that the program requires, but verify the current instructions before changing or reusing them. A copied value can be outdated or tied to a different placement. Keep a record of what was changed and why."
+    },
+    {
+      "question": "What is the best order for a migration audit?",
+      "answer": "First confirm each expected link is present, then check the destination and redirect behavior, then inspect tracking requirements and mobile presentation. Review program restrictions and page context throughout, because a technically working link can still be misplaced or noncompliant."
+    }
+  ]
+};

@@ -1,0 +1,122 @@
+export default {
+  "slug": "premium-video-publisher-focused-vs-multi-label-libraries",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Compare Publisher-Focused and Multi-Label Libraries",
+  "description": "Compare publisher-focused and multi-label premium video libraries by catalog scope, access terms, searchability, and fit with your viewing priorities.",
+  "excerpt": "A large catalog is not automatically a useful one. Compare how a premium video service groups publishers, titles, and access rights before choosing a membership.",
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "keyTakeaways": [
+    "A publisher-focused service may suit you when you want depth from a particular source; a multi-label library may suit you when variety across sources matters more.",
+    "Check whether the advertised catalog includes every title in a collection or only selected items, and whether some content requires separate payment.",
+    "Compare search filters and title-level access details rather than relying on broad catalog-size language.",
+    "Treat catalog availability as changeable: check how the service explains removals, access limits, and membership cancellation.",
+    "Use a short scorecard based on the titles and collections you actually want, not a generalized impression of breadth."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the library structure, not the headline",
+      "paragraphs": [
+        "Premium video services can organize their libraries around a single publisher, a group of labels, or a broader collection of sources. These structures answer different needs. A focused catalog may make it easier to follow a specific collection or source, while a wider catalog may offer more variety but require extra work to find relevant titles.",
+        "Do not assume that a service’s top-level description tells you which titles a membership includes. A title might be listed in the library but require a separate rental or purchase, be available only in a different plan, or have limited access terms. Check examples at the individual-title level before judging the overall offer."
+      ],
+      "bullets": [
+        "Write down several titles, labels, or collections that matter to you before comparing services.",
+        "For each, record whether the listing indicates membership access, an additional charge, or an unclear entitlement.",
+        "Note whether the service identifies the publisher or label consistently across listings."
+      ]
+    },
+    {
+      "heading": "Compare catalog depth with breadth",
+      "paragraphs": [
+        "Breadth is the variety of sources, collections, or formats represented. Depth is how much of a particular collection or source is available. These are not interchangeable. A service may present many labels but have only a small selection from each; another may be narrower but provide a more coherent collection from its featured source.",
+        "Assess the dimensions that match your habits. If you tend to look for a specific publisher, count how many of your priority titles are actually included and whether collections appear complete enough for your purpose. If you prefer to browse across sources, check whether the catalog exposes those sources clearly rather than burying them in an undifferentiated search result list."
+      ],
+      "table": {
+        "caption": "A practical way to compare library structure",
+        "headers": [
+          "Question",
+          "What to inspect",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "How broad is the selection?",
+            "Distinct publishers, labels, or collection types shown",
+            "Signals variety across sources, not depth within each one"
+          ],
+          [
+            "How deep is a priority collection?",
+            "Your chosen titles and collection entries",
+            "Shows whether a source is meaningfully represented"
+          ],
+          [
+            "Are access terms clear?",
+            "Membership, add-on, rental, or purchase labels",
+            "Helps prevent confusing a listing with included access"
+          ],
+          [
+            "Can you identify sources?",
+            "Publisher or label metadata on title pages",
+            "Makes targeted browsing and comparison easier"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check catalog organization and search tools",
+      "paragraphs": [
+        "A large catalog only helps if you can locate and evaluate its contents. Try searching by a title, collection, or publisher name, then see whether results distinguish exact matches from related suggestions. Check whether filters are available for source, format, release period, or other useful attributes, and whether those filters remain usable on a phone.",
+        "Look for consistent detail on title pages. Missing source information, vague collection labels, or unclear access badges make it harder to compare two services fairly. You do not need every possible filter; you need enough reliable organization to find the material you care about without repeatedly guessing what a listing contains."
+      ],
+      "bullets": [
+        "Test one exact-title search and one broader collection or publisher search.",
+        "Check whether filters can be combined and reset without losing your place.",
+        "Open several title pages to see whether source and access information are consistent."
+      ]
+    },
+    {
+      "heading": "Separate catalog claims from membership value",
+      "paragraphs": [
+        "A catalog may appear extensive while only a portion is included in the membership. Before treating a title count, label list, or promotional collection as evidence of value, inspect how the service defines inclusion. Look for separate purchase options, plan-specific restrictions, or content marked as unavailable to members.",
+        "Value depends on your own usable selection, not a service’s total inventory. Make a simple comparison: count the priority items you can access under the membership terms, then note any gaps or extra steps. If the pages do not make entitlement clear, mark it as uncertain instead of assuming access."
+      ],
+      "bullets": [
+        "Compare included items rather than every title visible in a search.",
+        "Record extra-payment or plan restrictions separately from catalog size.",
+        "Treat unclear labels as unresolved questions to confirm before subscribing."
+      ]
+    },
+    {
+      "heading": "Account for change and make a decision",
+      "paragraphs": [
+        "Libraries can change over time. Check whether the service explains that titles may be added or removed, and whether it provides any practical notice or title-level indication of availability. A current listing can help with today’s decision, but it does not guarantee that a particular title will remain available indefinitely.",
+        "Use a brief decision scorecard rather than trying to rank services universally. Give the greatest weight to your priority sources, included access, and the ease of finding titles. Give less weight to broad claims that you cannot verify from visible listings. Revisit your choice if the collection you rely on changes or your viewing priorities shift."
+      ],
+      "bullets": [
+        "Choose a small set of must-have titles or collections as your comparison sample.",
+        "Mark each service as clear, unclear, or unsuitable for access terms and source coverage.",
+        "Review renewal and cancellation terms separately from your catalog comparison."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a multi-label library always better than a publisher-focused service?",
+      "answer": "No. A wider range of sources may be useful if variety is your priority, but it does not prove that a service has depth in any particular collection. Compare the titles and sources you actually want and check which are included."
+    },
+    {
+      "question": "How can I tell whether a listed title is included in a membership?",
+      "answer": "Check the title page and the service’s membership terms for an explicit access label. Look for language that distinguishes included viewing from rental, purchase, add-on, or plan-limited access. If the terms remain ambiguous, treat inclusion as unconfirmed."
+    },
+    {
+      "question": "Can I rely on a catalog remaining unchanged?",
+      "answer": "Do not assume that it will. Review any information the service provides about catalog availability and changes. Save your own notes about current access terms if you need to compare options later, while remembering that a saved listing is not a promise of continued access."
+    },
+    {
+      "question": "What should I compare first if I have limited time?",
+      "answer": "Start with a few priority titles or collections, verify their access terms, and check whether the service identifies their sources clearly. Then test search and filters on the device you expect to use. Those checks reveal more about practical fit than a headline catalog claim."
+    }
+  ]
+};
