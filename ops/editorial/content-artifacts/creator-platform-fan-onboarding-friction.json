@@ -1,0 +1,132 @@
+{
+  "backlogId": "creator-platform-fan-onboarding-friction",
+  "slug": "creator-platform-fan-onboarding-friction",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Evaluate Fan Access and Onboarding Before You Launch",
+  "description": "Compare creator platforms from a fan’s first visit through subscription access. Use this checklist to spot account, preview, and navigation friction before launch.",
+  "excerpt": "A platform can suit a creator’s workflow yet make it difficult for prospective fans to understand what is available or how to get access. Map the visitor journey before committing.",
+  "keyTakeaways": [
+    "Map the steps between a public profile, a preview, and the content a fan is considering.",
+    "Check which information is visible before a visitor creates an account or pays.",
+    "Test the path on a phone as well as a desktop browser, without assuming the experience is identical.",
+    "Make access expectations clear in your own promotion, especially when platform features are gated.",
+    "Recheck the journey after changes to profile layout, account requirements, or platform terms."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the fan journey as part of platform fit",
+      "paragraphs": [
+        "Choosing a creator platform is not only a decision about creator tools and commercial terms. A prospective fan also has to understand what the page offers, what is available to preview, and what steps are required to access paid material. If that path is confusing, people may leave before they can make an informed decision. The platform’s interface is part of the experience you are asking your audience to navigate.",
+        "This is a practical evaluation, not a prediction of conversion. You cannot know in advance how every visitor will respond, and platform interfaces can change. You can, however, identify avoidable obstacles: unclear labels, unexpected account prompts, difficult-to-find access terms, or a mismatch between a promotional link and the page it opens."
+      ],
+      "bullets": [
+        "Start from the link a prospective fan would actually receive.",
+        "Write down every page, prompt, and decision between arrival and access.",
+        "Separate platform-imposed steps from information you control in your promotion."
+      ]
+    },
+    {
+      "heading": "Map what a visitor can understand before joining",
+      "paragraphs": [
+        "Review the public-facing profile as a newcomer. Can a visitor identify the creator, understand the general type of offering, and find the relevant membership or purchase information without searching through unrelated screens? Check whether the page explains what access includes and whether previews are clearly distinguished from paid material. Do not rely on assumptions based on another account or a logged-in view; visibility may differ.",
+        "Record what is visible before registration, after registration, and after a visitor selects an access option. If essential terms appear only late in the path, consider whether your own promotional copy should explain them more clearly. Avoid promising a preview, feature, or access route unless you have confirmed that it is available to the intended audience."
+      ],
+      "table": {
+        "caption": "A simple map of the visitor journey",
+        "headers": [
+          "Journey point",
+          "What to check",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "First landing",
+            "Does the link open the intended profile or offer?",
+            "Destination URL and visible page heading"
+          ],
+          [
+            "Before account creation",
+            "Can a visitor understand the available access choices?",
+            "Visible labels, descriptions, and terms"
+          ],
+          [
+            "Preview stage",
+            "Is preview material clearly separated from gated access?",
+            "What appears without signing in"
+          ],
+          [
+            "Access selection",
+            "Are the next steps and applicable terms understandable?",
+            "Prompts shown before confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check account gates and handoffs carefully",
+      "paragraphs": [
+        "Some journeys may ask a visitor to register before showing additional information or continuing toward access. Note exactly when that prompt appears and what it asks the visitor to do. An account requirement is not automatically a problem, but it can be a source of surprise if a promotional post implies that a visitor can inspect all details first. Explain known requirements in plain language rather than relying on a fan to discover them midway through the journey.",
+        "Also check whether the link crosses between different pages, domains, or sign-in states. A handoff can cause confusion if the page title changes, the destination does not match the link description, or a visitor has to repeat a step. Test ordinary paths without entering payment details or sharing unnecessary personal information. Your goal is to observe the journey, not to complete a purchase."
+      ],
+      "bullets": [
+        "Note where sign-in is required and whether the reason is apparent.",
+        "Check that links in bios and posts lead to the intended destination.",
+        "Avoid asking fans to send sensitive account or payment information to troubleshoot access."
+      ]
+    },
+    {
+      "heading": "Test the path on the devices your audience uses",
+      "paragraphs": [
+        "A journey that looks clear on a large screen may require more scrolling or repeated navigation on a phone. Check whether important access details are easy to locate at a narrow screen width, whether labels remain readable, and whether the next step is obvious without relying on hover effects. Look for accidental ambiguity between a preview control and a purchase or subscription action.",
+        "Use a consistent test path across devices: open the same public link, inspect the same information, and note any different prompts. If a platform’s behavior depends on browser settings, account state, or region, record that limitation instead of treating one observation as universal. Recheck after major profile edits or platform interface changes, because saved instructions can quickly become inaccurate."
+      ]
+    },
+    {
+      "heading": "Make creator-controlled explanations do useful work",
+      "paragraphs": [
+        "You may not control a platform’s account flow, page layout, or exact wording. You can control whether your promotional links and descriptions set realistic expectations. State where a link leads, what a visitor can inspect there, and whether registration may be required to continue. Keep the description aligned with the current platform page instead of copying a claim from an old post.",
+        "A short access explanation can reduce avoidable confusion without pressuring anyone to join. Use neutral language and make it easy for a visitor to understand that access is optional. If the platform changes its process, update pinned posts, profile links, and reusable messages together. Where multiple offers exist, direct each link to the relevant information rather than making visitors guess which option matches the description."
+      ],
+      "bullets": [
+        "Describe the destination accurately and avoid implying that every feature is visible to guests.",
+        "Keep public explanations consistent across profile pages and promotional channels.",
+        "Remove outdated access instructions when the platform changes its interface or terms."
+      ]
+    },
+    {
+      "heading": "Compare platforms with a repeatable scorecard",
+      "paragraphs": [
+        "A short scorecard helps compare options without pretending that one interface will suit every creator or audience. Rate each step for clarity, number of handoffs, visibility of terms, and mobile usability. The rating is for your own decision process, not a claim about likely sales. Add a note explaining each score so you can distinguish a genuine platform limitation from an issue you could solve with clearer links or copy.",
+        "Give extra weight to the access steps most relevant to your audience. For example, if fans often arrive from a mobile social link, the mobile landing and the first account prompt deserve close attention. If your audience needs to compare several access choices, the clarity of those descriptions may matter more. Revisit the scorecard after a short trial period or whenever the visitor journey changes materially."
+      ],
+      "bullets": [
+        "Score clarity, number of steps, mobile readability, and visibility of access terms.",
+        "Record observations separately from guesses about visitor behavior.",
+        "Use the same test path for every platform under consideration."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I create an account just to test the fan journey?",
+      "answer": "Begin with what can be observed without registering. If testing a later step requires an account, review the platform’s terms and use only information you are comfortable providing. Do not use a fan’s private account or request their credentials."
+    },
+    {
+      "question": "How often should I recheck my platform links?",
+      "answer": "Recheck after profile redesigns, changes to access options, or updates to platform terms. It is also sensible to periodically open important links from a logged-out browser and a phone so outdated destinations or instructions are easier to spot."
+    },
+    {
+      "question": "Does a longer onboarding path mean a platform is a poor choice?",
+      "answer": "Not by itself. A required step may serve a platform purpose, and different audiences tolerate different levels of friction. The useful question is whether each step is understandable, relevant, and accurately described before a visitor reaches it."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
