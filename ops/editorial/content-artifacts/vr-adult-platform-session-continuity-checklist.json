@@ -1,0 +1,131 @@
+{
+  "backlogId": "vr-adult-platform-session-continuity-checklist",
+  "slug": "vr-adult-platform-session-continuity-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Pause, Resume, and Exit Controls Before Choosing",
+  "description": "Evaluate how a VR platform handles pauses, interruptions, recentering, and session exit so you can choose a setup that fits your room and routine.",
+  "excerpt": "A VR session is easier to manage when controls are predictable. Test how a platform responds to interruptions and how clearly you can pause, resume, recenter, and exit.",
+  "keyTakeaways": [
+    "Test pause, resume, recenter, and exit controls before relying on a VR platform for regular use.",
+    "Distinguish platform controls from headset-level controls and learn where each is located.",
+    "Check whether interruption behavior preserves your place or returns you to a different screen.",
+    "Plan for room boundaries, controller access, and a quick way to stop playback.",
+    "Record what you can verify rather than assuming behavior from a feature label."
+  ],
+  "sections": [
+    {
+      "heading": "Why session continuity is a separate platform check",
+      "paragraphs": [
+        "Platform comparisons often focus on headset compatibility, library size, streaming, or membership access. Yet an otherwise suitable service can be inconvenient if you cannot manage a session confidently when interrupted. Pause and exit controls matter during ordinary situations such as answering a call, adjusting equipment, moving out of the play area, or ending a session without searching through unfamiliar menus.",
+        "This guide concerns interface behavior and practical control, not a promise about comfort or performance. VR interfaces vary by device, application, and software version. Check the current platform and headset instructions, then test any control in a low-stakes setting before depending on it. Do not assume a control shown in one playback mode will be available in another."
+      ],
+      "bullets": [
+        "Identify which controls belong to the platform and which belong to the headset.",
+        "Test controls before a long session or a paid commitment.",
+        "Choose a setup that lets you stop playback without navigating a complicated menu."
+      ]
+    },
+    {
+      "heading": "Map the controls you may need in a hurry",
+      "paragraphs": [
+        "Before playing content, locate the platform’s pause, stop, and exit controls. Then find the headset’s own system interface or equivalent control path using the device’s official instructions. The distinction matters: a platform-level control may pause a video, while a headset-level control may suspend or leave an application. Learn both paths so you have a fallback if one interface becomes difficult to access.",
+        "Check whether controls are visible in the current viewing mode and whether they remain reachable when a menu is dismissed. Note if an action requires a controller, a hand gesture, or a headset button, and consider whether you can reach that input safely from your normal position. Avoid experimenting while moving around the room; test the sequence while stationary and within the device’s recommended use conditions."
+      ],
+      "table": {
+        "caption": "Session continuity controls to verify",
+        "headers": [
+          "Control",
+          "What to test",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Pause",
+            "Whether playback stops and how the control is reached",
+            "Helps manage interruptions without guessing"
+          ],
+          [
+            "Resume",
+            "Whether playback continues from the expected point",
+            "Shows whether you need to note your place"
+          ],
+          [
+            "Recenter",
+            "How the view is realigned using approved device controls",
+            "Can help restore a usable viewing position"
+          ],
+          [
+            "Exit",
+            "How to leave the platform and return to the device interface",
+            "Provides a clear way to end the session"
+          ],
+          [
+            "System interruption",
+            "What happens when the headset interface is opened",
+            "Clarifies whether playback pauses, continues, or changes state"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test interruption and resume behavior deliberately",
+      "paragraphs": [
+        "Choose a short, appropriate test and pause it using the platform control. Wait briefly, then resume and observe whether playback returns to the same point, resets, or opens a different view. Repeat with a headset-level interruption only if device guidance allows it. This provides a practical answer about continuity instead of relying on a label such as resume or continue.",
+        "Also test what happens after the headset is removed or the application loses focus, when that is safe and supported by the device instructions. Behavior can differ, so do not make assumptions based on an unrelated app or a previous software version. If the system’s response is unclear, treat that as a limitation in your assessment and look for official guidance before building a routine around it."
+      ],
+      "bullets": [
+        "Use a short test rather than a long session.",
+        "Observe whether playback pauses, continues, or changes location.",
+        "Note whether resuming requires a new menu or account action.",
+        "Do not treat one successful test as a guarantee across devices or updates."
+      ]
+    },
+    {
+      "heading": "Include room setup and controller access in the test",
+      "paragraphs": [
+        "Control usability is affected by where the headset, controllers, and other necessary equipment are placed. Before starting, make sure you can reach the controls without stepping outside the play area or crossing an obstacle. Follow the headset manufacturer’s room-boundary and usage guidance. Keep the route to the exit clear, and do not rely on a virtual menu as your only way to manage a physical interruption.",
+        "Consider interruptions from other people or shared spaces as well. A pause control may be useful, but it does not make a shared room private. Choose a suitable environment, manage notifications and casting settings according to the device’s instructions, and check that the headset is not displaying content to an unintended screen. A simple routine for pausing and removing the headset can reduce confusion, but it cannot replace privacy planning."
+      ]
+    },
+    {
+      "heading": "Compare platforms using verified session behavior",
+      "paragraphs": [
+        "Use a short comparison record for each platform: where pause and exit controls appear, whether the view resumes as expected, which device-level controls are involved, and what remains unverified. This keeps the comparison grounded in your own setup. If a platform offers a preview, use it for control testing only where its terms and available options permit. Do not infer behavior for every content type or headset from a single sample.",
+        "Session continuity should be weighed alongside the factors that matter to you, such as device fit, streaming or download options, preview access, library organization, and membership structure. No single control check decides the whole purchase. If an essential control is hard to locate or the interruption behavior is unclear, seek current instructions or consider another option before subscribing. Recheck after substantial software or interface changes."
+      ],
+      "bullets": [
+        "Keep separate notes for platform controls and headset controls.",
+        "Mark observations as tested, documented, or unknown.",
+        "Include room layout and shared-device privacy in your decision.",
+        "Reassess if an update changes the interface or access path."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does pause always save my place in a VR video?",
+      "answer": "Not necessarily. Resume behavior can depend on the platform, playback mode, headset, and software state. Test a short session and check current instructions instead of assuming that pause and resume work consistently everywhere."
+    },
+    {
+      "question": "Should I rely on the headset’s system menu as my only exit method?",
+      "answer": "Learn the device-level controls, but also locate the platform’s own pause and exit options. Knowing both routes gives you more context if an application menu is unclear. Follow the headset’s official instructions and use the controls in a safe, stationary setup."
+    },
+    {
+      "question": "Can recentering fix an uncomfortable VR session?",
+      "answer": "Recentering is a viewing-position control, not a guarantee of comfort. If a session feels unsuitable, pause or exit and follow device guidance. This article does not make medical or comfort guarantees."
+    },
+    {
+      "question": "How should I compare interruption behavior across platforms?",
+      "answer": "Use the same short test where permitted, record what you observe, and note your headset and access mode. Keep untested behavior marked as unknown, because a result on one setup may not apply to another."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
