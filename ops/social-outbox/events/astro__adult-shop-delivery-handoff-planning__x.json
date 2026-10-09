@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/adult-shop-delivery-handoff-planning",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-08T08:03:51.178Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-08T19:04:00.890Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ac7e9215b76911addddc9aa",
   "provider_due_at": "2026-10-09T02:19:00.000Z",
   "created_at": "2026-10-08T08:03:51.178Z",
-  "updated_at": "2026-10-09T02:12:46.076Z",
+  "updated_at": "2026-10-09T02:57:43.282Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 6,
     "cadence_pressure_before_enqueue": 12,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
