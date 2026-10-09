@@ -1,0 +1,122 @@
+{
+  "backlogId": "webmaster-permitted-traffic-compliance-audit",
+  "slug": "webmaster-affiliate-permitted-traffic-compliance-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Audit Permitted Traffic Before Sending Visitors",
+  "description": "Use this checklist to verify allowed traffic sources, promotion methods, disclosure rules and enforcement terms before adding affiliate links to a website or campaign.",
+  "excerpt": "A traffic source that works for one affiliate program may be prohibited by another. Build a documented review of each program’s rules before publishing links or expanding promotion.",
+  "keyTakeaways": [
+    "Read the current program terms and any channel-specific policies before placing links; do not assume that common webmaster practices are allowed.",
+    "Map every traffic source to a specific method, such as editorial pages, email, paid search or social posts, and record whether the program explicitly permits it.",
+    "Check restrictions on brand bidding, redirects, incentives, email collection and use of program assets instead of relying on assumptions or informal summaries.",
+    "Keep dated copies of relevant policies and written answers to ambiguous questions so the team can explain why a campaign was considered compliant.",
+    "Treat a change in traffic source or promotion method as a new review, even if the destination link and affiliate account remain unchanged."
+  ],
+  "sections": [
+    {
+      "heading": "Why traffic permission needs its own review",
+      "paragraphs": [
+        "Affiliate terms often address more than whether a publisher may use a tracking link. A program may set different conditions for different traffic sources, creative formats or ways of encouraging a visitor to click. A site that relies on search traffic, for example, has different operational questions from a publisher buying ads or sending a newsletter. The central task is to match the actual promotion method to the program’s written permissions.",
+        "This review is not a substitute for legal advice or a guarantee that a campaign will be accepted. It is a practical way to find ambiguous or prohibited methods before they are built into a site, paid campaign or recurring publishing workflow. When rules are unclear, pause that method and request clarification from the program through a channel that preserves the response."
+      ],
+      "bullets": [
+        "List each site, channel and campaign that could send a visitor to a tracked destination.",
+        "Record who owns each channel and who can change its content or targeting.",
+        "Separate confirmed permissions from assumptions and unanswered questions."
+      ]
+    },
+    {
+      "heading": "Create a source-and-method inventory",
+      "paragraphs": [
+        "Describe traffic precisely enough that another person can understand how a visitor reaches the offer. “Web traffic” is too broad: distinguish an editorial comparison page from a coupon page, a paid keyword ad, an email link, a social post, a browser notification or a redirect. Include whether a method involves an incentive, a landing page, a shortened link, a tracking parameter or a third-party publisher. The goal is not to use every channel, but to make the review auditable.",
+        "For each source, identify the audience, destination and user journey. Note whether the content is owned by you, supplied by another publisher or purchased as advertising. Record any intermediaries that can alter the link or page. If the same affiliate link appears in several contexts, track those placements separately because the rules may treat them differently."
+      ],
+      "table": {
+        "caption": "A practical traffic-permission inventory",
+        "headers": [
+          "Traffic method",
+          "Questions to resolve before launch"
+        ],
+        "rows": [
+          [
+            "Editorial website pages",
+            "Are affiliate links allowed in reviews, comparisons and navigational pages? Are particular claims or placements restricted?"
+          ],
+          [
+            "Paid search or display ads",
+            "Are paid placements permitted? Are brand terms, direct linking, ad copy or specific targeting methods restricted?"
+          ],
+          [
+            "Email or messaging",
+            "Does the program permit these channels, and are there additional consent, disclosure or list-use conditions?"
+          ],
+          [
+            "Social or creator posts",
+            "Are platform posts allowed? Must links, disclosures or creative assets follow specified formats?"
+          ],
+          [
+            "Redirects, incentives or sub-publishers",
+            "Are the mechanism and any reward permitted? Does the program require prior approval or prohibit the method?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read rules as operational instructions",
+      "paragraphs": [
+        "Look for the exact terms that govern traffic sources, promotional methods, claims, trademarks, couponing, incentives, redirects and use of logos or supplied creative. Check incorporated policies as well as the main agreement: the operative rule may sit in a creative guide, advertiser notice or channel-specific document. Note whether approval must be obtained before launch and whether permission applies to a particular property or to all properties associated with an account.",
+        "Translate each rule into a decision your team can follow. “Paid traffic: ask for approval before purchase” is more useful than copying a long clause into a spreadsheet without a conclusion. Preserve the original wording and a link or dated copy beside your summary. If one clause seems to conflict with another, record the conflict and request written clarification rather than choosing the more convenient interpretation."
+      ],
+      "bullets": [
+        "Mark each method as allowed, prohibited, conditional or unresolved.",
+        "Record the specific clause, policy name and review date supporting that status.",
+        "Identify required disclosures, approval steps, asset rules and prohibited claims."
+      ]
+    },
+    {
+      "heading": "Check disclosure and user-experience obligations",
+      "paragraphs": [
+        "Review the destination and the surrounding page together: the user should be able to tell what is being recommended and where the link leads. If an external publisher or contractor contributes content, make the disclosure and link rules part of the written brief and approval process. Keep a record of the page version and the link placement so a later audit can establish what visitors actually saw."
+      ]
+    },
+    {
+      "heading": "Build an approval and monitoring workflow",
+      "paragraphs": [
+        "Assign an owner to approve new traffic methods and decide what evidence must be retained. A lightweight review can capture the property, channel, page or campaign, terms consulted, approval status, disclosure check and launch date. Require a second review when someone adds a new source, changes a landing page, starts paid promotion or introduces a new redirect or incentive. Do not let a previously approved link imply blanket approval for future campaigns.",
+        "Monitor program notices and policy updates rather than assuming that terms stay fixed. Set a review trigger for changes to the agreement, a notice from the program, a new channel or a material change in the visitor journey. If a method is disputed, stop or isolate the affected placement while asking for clarification, and preserve relevant records. A clear trail helps the team respond consistently without claiming that documentation guarantees acceptance."
+      ],
+      "bullets": [
+        "Keep dated terms, policy pages, approval messages and campaign descriptions together.",
+        "Use a named reviewer and a defined escalation route for unclear restrictions.",
+        "Recheck a method after a policy update or a substantial change to the source or destination."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a traffic source allowed if the program does not explicitly prohibit it?",
+      "answer": "Silence is not the same as clear permission. Review all applicable terms and ask the program for written clarification when a material method is not addressed. Until then, mark it unresolved and avoid relying on it as a core acquisition channel."
+    },
+    {
+      "question": "Can I use the same affiliate link on my website and in paid ads?",
+      "answer": "Do not assume that permission for a link on an owned page extends to paid advertising. Review the rules for each source and method separately, including restrictions on brand terms, ad copy, redirects and direct linking. Record the answer for each placement."
+    },
+    {
+      "question": "What should I save if a program gives me approval?",
+      "answer": "Keep the dated response, the question you asked, the exact channel and method described, any conditions attached, and the terms version you reviewed. A broad reply may not cover a materially different campaign, so retain enough detail to connect the approval to the actual placement."
+    },
+    {
+      "question": "How often should a traffic-permission review be repeated?",
+      "answer": "Repeat it whenever the source, promotion method, destination experience or applicable program rules change. A periodic check is also useful for long-running campaigns, but a calendar reminder does not replace a review triggered by a specific change."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
