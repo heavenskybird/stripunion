@@ -1,0 +1,122 @@
+{
+  "backlogId": "affiliate-statement-reconciliation-workflow",
+  "slug": "affiliate-statement-reconciliation-webmaster-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Statement Reconciliation: Match Reports to Your Own Records",
+  "description": "Create a repeatable affiliate reconciliation workflow for matching program statements, tracking records, adjustments, and payment documentation.",
+  "excerpt": "A dashboard total is not a complete audit trail. Keep dated exports and reconcile reported activity, adjustments, and payment records using a consistent process.",
+  "keyTakeaways": [
+    "Save dated reports and payment records so period-to-period comparisons remain possible.",
+    "Use matching date ranges, time zones, currencies, and status definitions when comparing records.",
+    "Separate attributed events from qualified, adjusted, and payable amounts.",
+    "Document discrepancies with the relevant report period and identifiers before contacting a program.",
+    "Treat your own analytics as a cross-check, not proof that another system must record the same events."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you are reconciling",
+      "paragraphs": [
+        "Affiliate records can describe different stages of activity: link clicks, tracked actions, qualified conversions, adjustments, and amounts marked payable. These stages are not interchangeable. A report that counts an event does not necessarily establish that it is commissionable or included in a payment. Start by identifying the precise fields and period you intend to compare.",
+        "This workflow is for recordkeeping and discrepancy review, not a claim that every program uses the same reporting model. Read the program’s current definitions and terms. Note how it defines dates, statuses, attribution, reversals, currencies, and payment periods. If a label is unclear, preserve the original wording and ask for clarification rather than silently assigning your own meaning."
+      ],
+      "bullets": [
+        "Choose one reporting period and write down its start and end boundaries.",
+        "List the report fields and payment records you expect to compare.",
+        "Record the program’s definitions for event status and payable balance."
+      ]
+    },
+    {
+      "heading": "Create a stable evidence folder",
+      "paragraphs": [
+        "Save the report or export for each period as soon as it is available, along with the date you downloaded it. Keep the original file unchanged and work from a copy when adding notes. If an export is not available, save a permitted record of the relevant dashboard figures and document when you captured them. A current screen may not preserve a past view, so do not depend on it as your only record.",
+        "Store supporting material in a controlled location with access limited to people who need it. Affiliate records can reveal business activity, partner relationships, and campaign structure. Use a consistent naming convention that includes the program identifier, reporting period, and download date. Avoid placing sensitive account or payment details in filenames or broadly shared spreadsheets."
+      ]
+    },
+    {
+      "heading": "Align time, currency, and status definitions",
+      "paragraphs": [
+        "Before comparing totals, confirm that both records cover the same time window. A dashboard may use a different time zone or period cutoff than your analytics system or payment statement. A conversion near a boundary can therefore appear in different periods without either report being wrong. Record the time zone and cutoff rules whenever they are disclosed.",
+        "Check currency and rounding as well. A report in one currency may not match a payment record in another after conversion, fees, or rounding. Do not treat a difference as an error until you understand which amount is being displayed and what adjustments apply. Keep raw figures and any conversion calculation separate so another person can reproduce your reasoning."
+      ],
+      "table": {
+        "caption": "A reconciliation map that keeps different affiliate records from being treated as equivalent.",
+        "headers": [
+          "Record type",
+          "What it may show",
+          "Check before comparing"
+        ],
+        "rows": [
+          [
+            "Click report",
+            "Tracked visits or link interactions",
+            "Date range, time zone, and tracking definitions"
+          ],
+          [
+            "Conversion report",
+            "Attributed actions and their reported status",
+            "Attribution window, status, and adjustment rules"
+          ],
+          [
+            "Account balance",
+            "Amounts shown as pending, approved, or otherwise classified",
+            "Program definitions and when the balance updates"
+          ],
+          [
+            "Payment record",
+            "An amount issued or recorded as paid",
+            "Payment period, currency, fees, and reference details"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reconcile in stages instead of comparing one total",
+      "paragraphs": [
+        "Work from activity toward payment: compare tracked clicks with your own campaign records, review reported conversions and their statuses, identify adjustments or reversals, then compare the resulting payable balance with payment documentation. This sequence helps locate the stage where a difference appears. A single comparison between an analytics total and a payment amount can hide several legitimate causes.",
+        "Your own analytics and a program report may use different tracking methods, consent handling, filters, or attribution rules. They are useful as a cross-check but do not necessarily measure the same events. Note the difference between a missing event, a timing difference, a status change, and an unexplained amount. Avoid changing tracking or making accusations based on a raw total that has not been normalized."
+      ]
+    },
+    {
+      "heading": "Investigate discrepancies with a concise record",
+      "paragraphs": [
+        "When a difference remains, document the period, relevant report field, amount or event count, and the specific question. Include the report version or capture date, but do not send unnecessary visitor-level data or personal information. If an identifier is needed to investigate an event, use the minimum information the program requests through an appropriate support channel.",
+        "Ask one focused question at a time. For example, ask whether a status has a defined update schedule or which adjustment category applies to a line item. Preserve the response with the related report. If the program explains that records are preliminary, note when a final report or payment statement is expected according to its terms, rather than assuming a universal processing timetable."
+      ],
+      "bullets": [
+        "State the period and field you are asking about.",
+        "Describe the difference without assuming its cause.",
+        "Keep the support response and any correction with the original evidence."
+      ]
+    },
+    {
+      "heading": "Make the workflow repeatable and secure",
+      "paragraphs": [
+        "Use the same worksheet each period, but keep program-specific definitions in a separate reference tab or document. That avoids assuming that identical labels mean identical things across programs. Add columns for report dates, cutoff rules, currency, adjustments, payment references, and unresolved questions. Mark preliminary figures clearly so they are not mistaken for final records.",
+        "At month or period close, record what reconciled, what remains open, and what evidence would resolve it. Restrict access to the records and follow your organization’s retention practices. A consistent process can help with business planning and support inquiries, but it cannot independently verify a program’s underlying tracking or guarantee how a later review will be decided."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why do my analytics and an affiliate report show different click totals?",
+      "answer": "The systems may use different time zones, filters, consent handling, bot rules, tracking methods, or reporting definitions. Align the periods and definitions first, then document what remains different. Your analytics are a useful cross-check, but they may not count the same events as the program."
+    },
+    {
+      "question": "Should I reconcile conversions directly to payment amounts?",
+      "answer": "Not without accounting for event status, qualification rules, adjustments, reversals, currency, and the program’s payment-period terms. Reconcile in stages so you can see where a difference arises. A conversion report and a payment record may describe different stages of the process."
+    },
+    {
+      "question": "What should I send when asking about a discrepancy?",
+      "answer": "Provide the relevant period, report field, amount or count, and a concise description of the unresolved question. Include report dates or references where useful. Share only the minimum information needed through an appropriate support channel, and avoid exposing unnecessary visitor-level or personal data."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
