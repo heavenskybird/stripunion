@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-08T07:33:28.798Z",
-  "sourceGeneratedAt": "2026-10-08T07:33:28.728Z",
+  "generatedAt": "2026-10-09T07:31:47.043Z",
+  "sourceGeneratedAt": "2026-10-09T07:31:47.002Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 1,
       "verifiedSignups": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-07"
+    "attributionSource": "2026-10-08"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -86,6 +86,14 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
             "query": "f95zone reviews",
             "impressions": 1,
             "clicks": 0,
@@ -98,14 +106,6 @@
             "impressions": 1,
             "clicks": 0,
             "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -308,14 +308,6 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -328,6 +320,14 @@
             "impressions": 1,
             "clicks": 0,
             "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
           },
           {
             "source": "Bing",
@@ -412,18 +412,18 @@
           {
             "source": "Bing",
             "date": "/Date(1787270400000)/",
-            "query": "should a person be leary about xhamster site?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
             "query": "xhamster#R##N#review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "should a person be leary about xhamster site?",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
           },
           {
             "source": "Bing",
@@ -468,7 +468,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -476,7 +476,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -550,7 +550,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -558,7 +558,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -609,7 +609,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
@@ -650,19 +650,19 @@
       "confidence": "low",
       "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
       "evidence": {
-        "sessions": 43,
+        "sessions": 40,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.32558139534883723
+        "engagementRate": 0.325
       },
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 43,
-        "engagedSessions": 14,
+        "sessions": 40,
+        "engagedSessions": 13,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.32558139534883723,
+        "engagementRate": 0.325,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
@@ -690,7 +690,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "stripxuat",
             "impressions": 1,
             "clicks": 0,
@@ -741,7 +741,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "adult strip cam",
             "impressions": 1,
             "clicks": 0,
@@ -843,7 +843,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-06",
+            "date": "2026-10-07",
             "query": "cam sites free",
             "impressions": 1,
             "clicks": 0,
