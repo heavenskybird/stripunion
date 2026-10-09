@@ -1,0 +1,115 @@
+export default {
+  "slug": "adult-shop-accessory-and-replacement-part-compatibility-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Accessories: Check Compatibility Before Buying Replacement Parts",
+  "description": "Use this checklist to compare product model numbers, connector details, dimensions, and retailer documentation before ordering adult product accessories or replacement parts.",
+  "excerpt": "An accessory can look similar to the part you need and still be incompatible. Verify the model, connection, dimensions, and seller documentation before checkout.",
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "keyTakeaways": [
+    "Start with the exact product name, model, and revision rather than relying on appearance or a broad product category.",
+    "Check connector type, dimensions, power information, and compatibility notes where those details apply.",
+    "Treat retailer labels such as “universal” or “compatible” as claims to verify against the product documentation.",
+    "Confirm that the accessory is intended for the product and version you own; do not force a connection that does not fit.",
+    "Save the listing and order details so you can explain a compatibility issue clearly if you need retailer support."
+  ],
+  "sections": [
+    {
+      "heading": "Why accessory compatibility deserves its own check",
+      "paragraphs": [
+        "A replacement part or accessory may appear close to an existing item without being designed for it. Product families can include different versions, connectors, dimensions, or power requirements. A retailer’s category page may help you find candidates, but a category match alone is not enough to confirm fit.",
+        "This guide is about checking compatibility evidence before ordering. It does not assess product safety or provide medical advice. Follow the product maker’s instructions and stop if a part is damaged, does not fit as described, or conflicts with the product documentation. When a critical specification is unclear, ask the retailer or manufacturer rather than experimenting with a mismatched component."
+      ],
+      "bullets": [
+        "Find the exact model or revision on your original product or its documentation.",
+        "Keep compatibility checks separate from broader product-selection and return-policy decisions."
+      ]
+    },
+    {
+      "heading": "Identify the product you already own",
+      "paragraphs": [
+        "Start by recording the product’s exact name and model number, including any version or generation information shown on its packaging, instructions, or product label. Similar names can refer to different items, so a shortened nickname or an approximate visual match is weak evidence. If you no longer have the packaging, check the manufacturer’s documentation or account records where available.",
+        "Note the relevant details of the part you are replacing: its stated purpose, dimensions, connection type, and any markings. Do not dismantle a product or inspect internal components unless its instructions say that is appropriate. If a part has no readable label and the exact model is uncertain, seek identification help before purchasing a replacement."
+      ],
+      "paragraphs_extra": []
+    },
+    {
+      "heading": "Compare specifications, not just photographs",
+      "paragraphs": [
+        "Product images are useful for identifying general shape, but camera angle and scale can make two different pieces look alike. Look for a specification list that states dimensions, connector details, materials or power information when relevant, and the exact products the seller says are compatible. Compare those details with the original product’s official documentation rather than estimating from a photo.",
+        "Pay attention to whether a compatibility claim names a particular model or uses broad language. A statement such as “fits most” leaves questions unanswered. It may describe a limited set of versions, and it does not establish that the accessory works with your specific item. If the listing does not identify the compatible model or the necessary measurements, ask for clarification."
+      ],
+      "table": {
+        "caption": "Compatibility details to verify against product documentation",
+        "headers": [
+          "Detail",
+          "What to compare"
+        ],
+        "rows": [
+          [
+            "Model and revision",
+            "Exact name, model number, and version of the product you own"
+          ],
+          [
+            "Connection",
+            "Connector shape and any stated connection standard"
+          ],
+          [
+            "Dimensions",
+            "Measurements that affect fit, alignment, or attachment"
+          ],
+          [
+            "Power or charging",
+            "The product’s documented requirements and the accessory’s stated specifications"
+          ],
+          [
+            "Compatibility claim",
+            "A named list of supported models or a clear limitation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check power and connection information carefully",
+      "paragraphs": [
+        "For any accessory involving charging or power, compare the stated requirements with the product maker’s documentation. Do not assume that a connector that physically fits is electrically appropriate. Check the relevant voltage, current, charging method, and any restrictions only where those specifications are provided by the manufacturer, and do not use a substitute that the instructions do not support.",
+        "For non-powered accessories, confirm how they attach and whether the listing describes the correct interface. Avoid forcing a part into place or modifying either item to make them fit. An unexpected gap, loose connection, or unusual resistance is a reason to stop and recheck compatibility, not to apply more pressure."
+      ],
+      "paragraphs_extra": []
+    },
+    {
+      "heading": "Evaluate retailer evidence and ask focused questions",
+      "paragraphs": [
+        "A useful product page should make it possible to identify the item being sold and understand the basis for its compatibility claim. Look for a model list, clear specifications, and a route to ask a product question. Retailer descriptions can be incomplete, so compare them with the manufacturer’s documentation when available. If the two sources conflict, pause and request clarification.",
+        "Make questions specific: provide the exact model and revision you own, then ask whether the listed accessory is confirmed for that model and which specification supports the match. Do not send unnecessary personal information. Save the response alongside the listing so you can refer to it if the order arrives with a different model or description."
+      ],
+      "bullets": [
+        "Ask about the exact model, not whether the item is “generally compatible.”",
+        "Save the listing title, model number, and compatibility answer.",
+        "Do not treat a customer review as a substitute for a specification."
+      ]
+    },
+    {
+      "heading": "Plan for uncertainty and order records",
+      "paragraphs": [
+        "Before checkout, label the match as confirmed, partly supported, or uncertain. If the accessory is essential and compatibility remains uncertain, wait for a clear answer. Consider the shop’s order-change and return terms separately; a return policy does not make a potentially incompatible purchase a good fit, and eligibility can depend on the item and the retailer’s stated conditions.",
+        "After ordering, keep the order confirmation and the product packaging until you have checked that the delivered model matches the listing. If there is a mismatch, document the discrepancy with clear, limited photos of the item and the identifying label, and contact the retailer through its stated support process. Avoid altering or using a part whose identity or compatibility is in doubt."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I choose a replacement part based on appearance alone?",
+      "answer": "Appearance is not enough to confirm compatibility. Compare the exact model, version, connection, dimensions, and any relevant power details with product documentation."
+    },
+    {
+      "question": "What does “universal” mean on an accessory listing?",
+      "answer": "The wording may not specify which models or interfaces are covered. Ask the seller to confirm compatibility with your exact product and identify the specifications behind the claim."
+    },
+    {
+      "question": "Should I try forcing a part that almost fits?",
+      "answer": "No. Stop if a part does not fit as described, and check the documentation or contact the retailer or manufacturer. Forcing or modifying it can damage the product or create a safety concern."
+    }
+  ]
+};
