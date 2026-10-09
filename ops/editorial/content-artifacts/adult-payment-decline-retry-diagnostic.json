@@ -1,0 +1,113 @@
+{
+  "backlogId": "adult-payment-decline-retry-diagnostic",
+  "slug": "adult-platform-payment-decline-and-checkout-retry-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Payment Declined? Check These Steps Before Retrying",
+  "description": "A cautious checklist for handling a declined adult-platform payment, checking pending authorizations, avoiding duplicate attempts, and keeping useful records.",
+  "excerpt": "A declined checkout does not always tell you whether a payment request reached your bank. Pause, inspect the status, and resolve uncertainty before trying again.",
+  "keyTakeaways": [
+    "Do not repeat a payment immediately when the checkout outcome is unclear; first check the platform and payment account for pending activity.",
+    "Distinguish a declined payment from a pending authorization or an order confirmation that has not appeared yet.",
+    "Use the payment provider’s official channels to ask about an uncertain transaction; do not share full card credentials in ordinary support messages.",
+    "Keep concise records of the time, amount shown, status, and support case so you can explain the issue without making repeated attempts."
+  ],
+  "sections": [
+    {
+      "heading": "Pause before making another attempt",
+      "paragraphs": [
+        "A payment error can mean different things. The platform may have rejected the checkout before sending a request, a payment provider may have declined it, or the transaction may still be processing while the page shows an error. Repeating the action before understanding which occurred can create confusion and may result in multiple pending entries. Close or leave the checkout page without clicking pay again.",
+        "Start by noting the time of the attempt and the exact message shown. Check whether the platform created an order, sent a confirmation, or displayed a clear failed status. Then review your payment account through its official app or website. A pending entry is not always a completed charge, and the absence of an immediate alert does not prove that no request was made."
+      ],
+      "bullets": [
+        "Do not refresh and resubmit a checkout while its status is uncertain.",
+        "Record the displayed message and the time of the attempt.",
+        "Check the platform order area and payment account before deciding what to do next."
+      ]
+    },
+    {
+      "heading": "Separate a decline from a pending authorization",
+      "paragraphs": [
+        "A completed transaction, a pending authorization, and a declined request are different states. A pending authorization may appear while a provider checks a transaction, but its handling and timing depend on the payment provider and the circumstances. Do not assume that an entry is final simply because it appears in an account, and do not assume it will disappear by a specific date.",
+        "Compare the platform’s order status with the payment account’s status. If the platform says no order was created but the provider shows an uncertain or pending item, contact the provider using the number or secure messaging channel on its official service. Ask whether the entry is pending, completed, or declined and what steps are appropriate. Avoid using contact details from an unsolicited message or an unfamiliar checkout pop-up."
+      ],
+      "table": {
+        "caption": "Use the visible transaction state to choose a cautious next step",
+        "headers": [
+          "What you see",
+          "What to check",
+          "Safer next step"
+        ],
+        "rows": [
+          [
+            "Clear decline and no order",
+            "Whether the payment provider also shows a decline",
+            "Resolve the stated issue before making a new attempt"
+          ],
+          [
+            "Pending or processing entry",
+            "Platform order status and provider transaction details",
+            "Wait for clarification; avoid resubmitting meanwhile"
+          ],
+          [
+            "Completed entry but no confirmation",
+            "Order history, receipt, and provider transaction record",
+            "Contact official platform support with the reference details"
+          ],
+          [
+            "No visible payment record and no order",
+            "Whether the platform confirms the attempt failed",
+            "Proceed only after the outcome is clear"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check for common causes without exposing payment data",
+      "paragraphs": [
+        "If both the platform and provider show a clear decline, review the message for a specific, understandable reason. Possible issues can include incorrect billing details, a card restriction, an expired payment method, or a provider decision. These are possibilities, not a diagnosis. Correct only information you can verify, and contact the payment provider if the reason is not explained or the account shows a control you do not recognize.",
+        "Use the payment service’s secure account area rather than sending full card numbers, security codes, passwords, or one-time codes to support. If a platform asks you to repeat sensitive details in an ordinary email or chat, stop and use its official help route to confirm a safe process. Do not move to an unrelated payment channel simply because someone claims it will bypass a decline."
+      ]
+    },
+    {
+      "heading": "Contact support with a minimal, useful record",
+      "paragraphs": [
+        "A support request is easier to resolve when it states what happened and what remains uncertain. Include the approximate time, currency and amount shown at checkout, the platform’s order status, and a transaction reference if one is available. Share only the minimum needed through an official secure channel. Mask payment details if a screenshot is necessary, and remove unrelated notifications or account information from the image.",
+        "Ask a direct question: whether an order exists, whether a transaction was submitted, or what the provider’s status means. Keep the case number and the response. If the platform cannot confirm the payment state, ask the payment provider about its record; if the provider cannot identify the merchant request, ask the platform. Avoid opening several duplicate support tickets unless the first route is unavailable or the issue remains unresolved."
+      ]
+    },
+    {
+      "heading": "Retry only after the status is clear",
+      "paragraphs": [
+        "A retry makes sense only when you have a clear failed outcome, no order, and no unresolved payment entry. If a provider identifies a correctable issue, fix that issue first. If the payment is pending or the platform has not confirmed whether it created an order, wait for guidance instead of making another attempt. There is no universal processing window that applies to every provider and checkout.",
+        "Once resolved, save the receipt or confirmation and check that the order details match what you intended. If you decide not to continue, close the checkout and confirm there is no active order or recurring plan. A short transaction log—attempt time, result, support contact, and final outcome—can prevent repeated troubleshooting and help you explain the issue if it recurs."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a checkout says declined, can I try again immediately?",
+      "answer": "First confirm that no order or pending payment exists. If the platform and payment provider both show a clear decline, address the stated issue before making another attempt. If the status is uncertain, do not resubmit yet."
+    },
+    {
+      "question": "Is a pending payment the same as a completed charge?",
+      "answer": "No. A pending entry and a completed transaction are different statuses, and the provider can explain what its entry means. Check the official provider account and ask its support team if the status is unclear."
+    },
+    {
+      "question": "What information should I give platform support?",
+      "answer": "Share the time of the attempt, the platform order status, a relevant transaction reference, and the message shown. Use an official secure channel and do not send passwords, one-time codes, or full payment credentials."
+    },
+    {
+      "question": "What if the platform and payment provider show different statuses?",
+      "answer": "Keep records of both views and contact each service through its official support route. Ask the platform whether it created an order and ask the provider to clarify its transaction status. Avoid another payment attempt until the mismatch is resolved."
+    }
+  ],
+  "publishedAt": "2026-10-09",
+  "updatedAt": "2026-10-09",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
