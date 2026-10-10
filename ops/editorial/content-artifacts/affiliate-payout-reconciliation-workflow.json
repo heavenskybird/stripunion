@@ -1,0 +1,138 @@
+{
+  "backlogId": "affiliate-payout-reconciliation-workflow",
+  "slug": "affiliate-program-payout-reconciliation-and-records-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Payout Reconciliation: Match Reports, Adjustments and Payment Records",
+  "description": "Build a repeatable affiliate payout reconciliation workflow: compare reporting periods, approved activity, adjustments, thresholds and payment records without assuming every dashboard total is final.",
+  "excerpt": "An affiliate dashboard balance is not always the amount or date of a completed payment. This workflow helps webmasters connect activity reports, adjustments, payout rules and bank records while flagging discrepancies for review.",
+  "keyTakeaways": [
+    "Separate reported conversions, approved commissions, payable balances and completed transfers; these figures can represent different stages.",
+    "Record the reporting period, time zone, currency and status definitions before comparing an affiliate report with a payment statement.",
+    "Track reversals, holds, minimum thresholds and payment-method requirements as separate reconciliation items rather than unexplained differences.",
+    "Use a consistent monthly ledger that preserves report exports, payment confirmations and support correspondence.",
+    "Escalate discrepancies with specific dates, transaction references and calculations, while protecting sensitive account and customer data."
+  ],
+  "sections": [
+    {
+      "heading": "Know which number you are reconciling",
+      "paragraphs": [
+        "Affiliate interfaces may show activity, estimated commission, approved amounts, pending balances and payments in separate places. Those labels are not interchangeable. A click or conversion count is not necessarily a payable commission, and a payable balance is not necessarily a transfer already issued. Before comparing figures, write down the program’s definitions for each status and identify which report is authoritative for settlement.",
+        "Use the program’s documented payment terms rather than assuming a dashboard total is final. Check how it defines the earning period, when activity is reviewed, what conditions can change a commission’s status, and whether balance carryover is possible. Do not infer a payout rate or schedule from a past transfer. Terms can differ by program and may change, so retain the applicable version or dated account notice for each period you reconcile."
+      ],
+      "bullets": [
+        "List the report names and status labels the program uses.",
+        "Identify the period covered by each report and the date it was exported.",
+        "Keep estimated, approved, payable and paid amounts in separate ledger columns.",
+        "Note the version or date of the payment terms used for the period."
+      ]
+    },
+    {
+      "heading": "Normalize dates, currencies and reporting scope",
+      "paragraphs": [
+        "Many apparent mismatches come from comparing reports with different date boundaries. One view may group activity by the visitor’s event date, while a payment record may be organized by approval or settlement date. Time zones can also move activity across a day or month boundary. Record the time zone, start and end dates, and the event that determines each report’s date before comparing totals.",
+        "Currency and scope require the same care. Confirm whether figures are shown in the tracking currency, a reporting currency or a payment currency, and note whether conversion or deductions are applied. Make sure the report includes the same sites, sub-accounts, campaigns and referral sources as the payment being reviewed. If a program offers filters, save or document them so a later export can be reproduced."
+      ],
+      "table": {
+        "caption": "Reconciliation fields to capture for each period",
+        "headers": [
+          "Field",
+          "Why it matters",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Reporting period and time zone",
+            "Dates may not align across activity and settlement views",
+            "Start/end dates and zone"
+          ],
+          [
+            "Currency",
+            "Displayed totals may use different currency bases",
+            "Report currency and payment currency"
+          ],
+          [
+            "Status definitions",
+            "Pending, approved and payable may mean different things",
+            "Program wording and applicable terms"
+          ],
+          [
+            "Scope",
+            "Filters can omit sites, campaigns or sub-accounts",
+            "Selected properties and filters"
+          ],
+          [
+            "Payment reference",
+            "Connects a reported balance to an actual transfer",
+            "Transfer date, reference and amount"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Track adjustments and carryovers explicitly",
+      "paragraphs": [
+        "Build a bridge from the prior period’s closing balance to the current period’s closing balance. Start with the opening balance, add newly approved amounts, then list each adjustment, reversal, hold, threshold carryover or other documented change as its own line. The objective is not to assume every change is correct or incorrect; it is to make each difference traceable to a stated rule or report.",
+        "Avoid hiding discrepancies inside a single miscellaneous adjustment. If an amount changes status, record the date, old status, new status and the explanation provided. If payment is delayed because a threshold or documentation requirement has not been met, record the requirement and any next step. Do not treat an affiliate program’s interface label as a substitute for written payment terms when a balance’s treatment is unclear."
+      ],
+      "bullets": [
+        "Use one line per adjustment rather than netting several differences together.",
+        "Record the source report, transaction reference and date for each change.",
+        "Distinguish a program hold from a payment-provider delay or bank posting delay.",
+        "Mark unexplained differences as open questions, not as confirmed deductions."
+      ]
+    },
+    {
+      "heading": "Match a payable balance to a completed payment",
+      "paragraphs": [
+        "When a payment is shown as issued, compare its amount, currency, issue date and reference with the program’s payment record and the receiving account’s statement. A transfer can be initiated on one date and posted by a financial institution on another. Check whether the program describes a payment as pending, sent, failed or completed, and use the stated status instead of assuming a transfer has arrived because a dashboard balance reached zero.",
+        "Payment-method settings and account verification can also affect settlement. Check that the selected method is active, the required payment or tax documentation is current, and the payee details are accurate. Do not change payment information in response to an unexpected email. Use the program’s authenticated account area and its verified support process, and keep a record of any update confirmation."
+      ],
+      "bullets": [
+        "Compare amount, currency, date and reference across program and payment-provider records.",
+        "Check the payment status before contacting support about a missing transfer.",
+        "Verify required account documentation and payee settings through the authenticated dashboard.",
+        "Never send passwords, one-time codes or full financial credentials in an email reply."
+      ]
+    },
+    {
+      "heading": "Maintain a monthly evidence file and resolve exceptions",
+      "paragraphs": [
+        "A compact monthly file should include the relevant terms, report exports, reconciliation ledger, payment confirmation and important support responses. Keep a consistent naming convention, such as program, period and report type, so you can locate evidence later. Restrict access to people who need it; affiliate reports can contain commercially sensitive information or personal data that should not be copied into public spreadsheets or shared casually.",
+        "When contacting a program about a mismatch, present a concise comparison: period and time zone, report name, amount shown, payment reference if applicable, and the exact difference you cannot explain. Ask which rule or status accounts for it. Avoid sending visitor-level information unless the program explicitly requests it through a secure, appropriate channel and you are permitted to share it. Close the issue in your ledger only when the explanation or correction is documented."
+      ],
+      "bullets": [
+        "Reconcile on a consistent schedule, such as after each reporting period closes.",
+        "Preserve original exports alongside any cleaned or summarized spreadsheet.",
+        "Use role-based access and secure storage for reports and payment evidence.",
+        "Document the question, support response, resolution date and any follow-up required."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an affiliate dashboard balance the same as money already paid?",
+      "answer": "Not necessarily. A dashboard may separate estimated, pending, approved, payable and issued amounts. Check the program’s definitions and match any completed-payment status to a transfer record and the receiving account."
+    },
+    {
+      "question": "Why might a monthly report not match a payment received that month?",
+      "answer": "The report and payment may use different earning periods, time zones, approval dates, currencies or settlement dates. Adjustments, holds and carried balances can also affect the total. Reconcile each factor separately using the applicable program terms."
+    },
+    {
+      "question": "What evidence should I keep for affiliate payout reconciliation?",
+      "answer": "Keep dated terms or notices, report exports, a ledger of status changes and adjustments, payment confirmations, and relevant support responses. Store them securely and limit access to people who need them."
+    },
+    {
+      "question": "What details should I provide when asking about a discrepancy?",
+      "answer": "Provide the reporting period and time zone, report name, relevant status, amount, currency and payment reference. State the exact difference and ask which documented rule explains it. Avoid sharing passwords, one-time codes or unnecessary personal data."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "backlogId": "live-cam-follow-notification-privacy",
+  "slug": "live-cam-favorites-follow-notifications-privacy-checklist",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Favorites and Follow Alerts: Check Privacy Before Enabling Them",
+  "description": "Before saving favorite rooms or following accounts on a live cam platform, check who can see those choices, how alerts work, what is stored and how to clear or disable activity.",
+  "excerpt": "Favorites and follow alerts can make room discovery easier, but they may create account records, notifications or visible profile activity. Check the controls and device exposure before turning them on.",
+  "keyTakeaways": [
+    "Determine whether saved rooms and follows are private to your account, visible to other members, or displayed on a profile.",
+    "Check where notifications appear, whether they include room or account details, and whether lock-screen previews can expose them.",
+    "Find out whether favorites sync across devices and whether they remain after sign-out, app removal or account closure.",
+    "Distinguish saved-list controls from viewing history, recommendations and platform activity logs; disabling one may not clear the others.",
+    "Test the feature with a low-risk choice, then confirm that removal and notification settings behave as expected."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what a favorite or follow records",
+      "paragraphs": [
+        "A favorite or follow feature can serve as a personal shortcut, an alert subscription, a public signal, or some combination of those functions. The label alone does not tell you who can see the choice or what the platform stores. Before using it, look for an explanation in the platform’s help pages, privacy information or feature settings. Check whether the saved item is private by default, visible to other users, or shown through profile activity.",
+        "Also consider whether saving a room or account affects future recommendations, search results or notifications. A platform may use saved choices to organize a list or personalize discovery, but the exact behavior varies. Do not assume that removing a favorite erases all related activity or that a private list is invisible to the service itself. Separate what other members can see from what the platform may retain internally."
+      ],
+      "bullets": [
+        "Find the feature’s visibility setting before saving a room or account.",
+        "Check whether the platform describes the list as private, public or shareable.",
+        "Look for connections to recommendations, alerts and activity displays.",
+        "If the explanation is missing, leave the setting off until you can make an informed choice."
+      ]
+    },
+    {
+      "heading": "Check notifications across devices",
+      "paragraphs": [
+        "Follow alerts may arrive in a browser, mobile app, email inbox or operating-system notification center. Each destination can reveal more than the platform page itself, especially if a device is shared or displays message previews on a lock screen. Check whether an alert identifies a room, performer account, category or platform name, and whether you can receive a generic notice instead. Do not enable every notification prompt just to access browsing features.",
+        "A notification can remain in a device’s history even after you remove the follow or clear a saved list. Review browser notification permissions, app notification settings, email preferences and lock-screen preview controls separately. If you use multiple devices, check each one; changing a setting on a website may not change an app or email subscription. Use the platform’s account settings and the device’s operating-system settings together to understand the full notification path."
+      ],
+      "table": {
+        "caption": "Notification locations and privacy checks",
+        "headers": [
+          "Location",
+          "What may be exposed",
+          "Control to look for"
+        ],
+        "rows": [
+          [
+            "Lock screen",
+            "Alert text, account or room names, platform identity",
+            "Hide previews or disable sensitive categories."
+          ],
+          [
+            "Browser",
+            "Permission prompt, desktop pop-up, site notification",
+            "Review and revoke browser site permissions."
+          ],
+          [
+            "Mobile app",
+            "Push alert and notification history",
+            "Adjust categories in both app and device settings."
+          ],
+          [
+            "Email",
+            "Follow notices, schedules or promotional messages",
+            "Review email preferences and inbox access."
+          ],
+          [
+            "In-account activity",
+            "Saved list, follow status or recent activity",
+            "Check profile visibility and saved-list controls."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate favorites from other history and recommendations",
+      "paragraphs": [
+        "A saved list is only one possible record of platform activity. Browsing history, recently viewed items, search terms, recommendation signals and login records may have separate settings or retention practices. Clearing favorites may not clear those other records. Likewise, disabling personalized recommendations may not remove a follow that still sends alerts. Read the controls individually and note what each one claims to change.",
+        "If you are trying to reduce device traces, also review browser history, cached site data, saved passwords, downloads and the account’s session state. These steps address local access, not necessarily information retained by the platform. Shared devices and browsers may synchronize history across profiles or devices, so confirm which account is signed in before making changes. Avoid relying on private-browsing mode as a replacement for account-level controls."
+      ],
+      "bullets": [
+        "Identify separate settings for follows, favorites, viewing history, search history and recommendations.",
+        "Check whether clearing a list removes items only from your view or also changes alerts.",
+        "Review browser and device records separately from platform records.",
+        "Do not assume private browsing prevents an account from saving activity while signed in."
+      ]
+    },
+    {
+      "heading": "Test removal, sync and account behavior",
+      "paragraphs": [
+        "Before relying on favorites as a private convenience, save one non-sensitive item and examine the result. Check how it appears in your account, whether it is visible from another permitted account view, whether an alert is generated, and whether the list syncs to another device. Then remove it and confirm the list and alert state. This limited test can reveal confusing interface behavior before you build a larger list.",
+        "Check what happens when you sign out, switch devices, uninstall an app or close an account. A saved list may be stored in the account and return when you sign back in; an app removal may leave account data unchanged. If the platform offers export or deletion controls, note their scope and limitations. Keep expectations realistic: a control may remove a feature from your profile without promising immediate deletion from all internal systems."
+      ],
+      "bullets": [
+        "Test add and remove behavior with an item you would not mind seeing in account history.",
+        "Check list sync on another device only if it is yours and secure.",
+        "Distinguish sign-out, app removal, list clearing and account deletion.",
+        "Keep a record of the relevant privacy setting if it matters to your ongoing use."
+      ]
+    },
+    {
+      "heading": "Choose a setup that matches your privacy needs",
+      "paragraphs": [
+        "If you mainly want quick access, a private saved list with alerts disabled may be sufficient—if the platform actually offers those controls. If account visibility is unclear or the feature appears public, use ordinary search instead of saving a follow. If alerts are useful, choose only the channels you can manage and review them periodically. The best setup depends on whether convenience, reduced notifications or minimized account records matters most to you.",
+        "Treat follow and favorite controls as part of a broader account decision, not as a guarantee of anonymity. Use a unique password, secure recovery settings and a device you are authorized to use. On shared networks, devices or accounts, consider what other people can see through notifications and synchronized browser data. Recheck settings after app or platform updates, since menus and defaults can change."
+      ],
+      "bullets": [
+        "Use only the saved-list or alert features whose visibility and behavior you understand.",
+        "Turn off notification channels you do not need and inspect device-level previews.",
+        "Recheck settings after updates or when adding a new device.",
+        "Do not record, capture or share other people’s content without permission and a lawful basis."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can other users see my live cam favorites or follows?",
+      "answer": "That depends on the platform’s design and your settings. Check whether the list is private, public or displayed on a profile, and do not infer visibility from the feature name alone. If the platform does not explain it, avoid saving items you would not want associated with the account."
+    },
+    {
+      "question": "Does unfollowing an account erase every record of the follow?",
+      "answer": "Not necessarily. It may remove the item from your active list or stop future alerts, while separate account, recommendation or technical records may follow different retention rules. Check the platform’s privacy information for the scope of each control."
+    },
+    {
+      "question": "Will disabling push alerts also stop email notifications?",
+      "answer": "Not always. Push alerts, browser notices and email preferences may have separate settings. Review each channel in the platform account and on the device or inbox where messages arrive."
+    },
+    {
+      "question": "Does private browsing keep saved favorites private?",
+      "answer": "Private browsing mainly changes local browser-session behavior; it does not necessarily change what an account stores while you are signed in. Review account visibility, saved-list controls, notification settings and device access separately."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
