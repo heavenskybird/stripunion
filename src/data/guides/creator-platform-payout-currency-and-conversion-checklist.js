@@ -1,0 +1,110 @@
+export default {
+  "slug": "creator-platform-payout-currency-and-conversion-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platform Payout Currency: Check Conversion, Statements and Recordkeeping",
+  "description": "Compare creator platform payout-currency details before relying on projected earnings. Check display currency, conversion disclosures, statement fields and records.",
+  "excerpt": "A dashboard balance and a bank deposit may not be expressed in the same currency. Map how amounts are displayed, converted and documented before using platform figures for business planning.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Separate the currency shown to fans, the currency used in reports and the currency received in your payout account.",
+    "Check whether conversion timing, rates, fees or payout-provider handling are explained in current documentation.",
+    "Use statements and transaction records to reconcile platform balances with deposits rather than relying on one dashboard figure.",
+    "Record currency, dates and source documents consistently for later bookkeeping review.",
+    "Treat unclear conversion details as a planning uncertainty, not as a basis for assuming a particular net amount."
+  ],
+  "sections": [
+    {
+      "heading": "Map the currencies across the full payment path",
+      "paragraphs": [
+        "A creator may encounter more than one currency in the same commercial workflow. A displayed offer, a fan transaction, a platform report and a payout deposit might each use different currency labels or conversion steps. Do not assume that the amount visible on a profile or dashboard is the amount that will appear in a bank account.",
+        "Before comparing platforms, draw a simple payment path: the amount presented to the customer, the currency recorded by the platform, any balance currency, the payout currency and the currency credited by your financial provider. For each step, note what the platform documents and what remains uncertain. This makes comparison more concrete than relying on a headline commission or an estimated conversion."
+      ],
+      "bullets": [
+        "Identify the currency shown at the point of sale.",
+        "Identify the currency used in reports and account balances.",
+        "Identify the currency in which payouts are issued, if stated.",
+        "Check whether your receiving provider may apply a separate conversion."
+      ]
+    },
+    {
+      "heading": "Read conversion and payout disclosures carefully",
+      "paragraphs": [
+        "Find the platform’s current explanation of currency handling, including any stated conversion point, rate source, timing or fee. Separate platform terms from information provided by a bank or payment provider; the latter may affect the final credited amount independently. If documentation does not say how a conversion is determined, mark that as unknown rather than filling in a likely-sounding answer.",
+        "Check whether the explanation applies to all transaction types or only certain balances or payout routes. Look for dates or revision information on help pages and terms, because currency procedures can change. If a material detail is missing, ask support a specific question and keep the response. For example: “Which currency appears on the payout statement, and at what point is conversion applied?”"
+      ]
+    },
+    {
+      "heading": "Compare reports by field, not by the headline balance",
+      "paragraphs": [
+        "A useful report should provide enough information to trace how an amount became a payout. Examine the fields available in statements or exports, such as transaction or payout dates, gross and net amounts where provided, currency labels, adjustments and payout references. The exact fields vary, so assess what the platform documents instead of assuming a standard report format.",
+        "Compare platforms using the same test: can you match a reported balance to a payout record and then to the deposit entry in your own financial records? If a report shows totals without meaningful dates, currencies or references, reconciliation may take more work. That is an operational consideration, not proof that a platform is unsuitable for every creator."
+      ],
+      "table": {
+        "caption": "Currency and reporting questions for a platform comparison",
+        "headers": [
+          "Stage",
+          "Information to verify"
+        ],
+        "rows": [
+          [
+            "Customer transaction",
+            "Currency displayed or recorded and where that information appears"
+          ],
+          [
+            "Platform balance",
+            "Balance currency and how pending or adjusted amounts are identified"
+          ],
+          [
+            "Conversion",
+            "Whether timing, rate basis or fees are documented"
+          ],
+          [
+            "Payout",
+            "Payout currency, reference details and statement fields"
+          ],
+          [
+            "Receiving provider",
+            "Whether separate conversion or deposit records may apply"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a repeatable reconciliation record",
+      "paragraphs": [
+        "Choose a consistent method for recording the platform statement, payout date, currency and amount received. Keep the original statement or export with the related deposit record, and note any difference that is not explained by the available documentation. A simple monthly log can capture the reporting period, statement total, payout reference, deposit date and follow-up status.",
+        "Avoid editing original records to make figures appear to match. If a total differs, preserve both source amounts and document the question you are investigating. This makes later review more reliable and reduces the chance of confusing a display-currency change with a missing payment or adjustment. Keep records in a secure location with access limited to people who need them."
+      ],
+      "bullets": [
+        "Save the original statement or report before making notes.",
+        "Record the currency next to every relevant amount.",
+        "Link the statement to a payout reference and deposit record where available.",
+        "Flag unexplained differences rather than silently changing a figure.",
+        "Review documentation when platform or payout settings change."
+      ]
+    },
+    {
+      "heading": "Use uncertainty in platform selection honestly",
+      "paragraphs": [
+        "When a platform does not explain a conversion step, compare that uncertainty explicitly. Ask whether missing details would prevent you from forecasting, reconciling or explaining your records. A clear process may be more useful to your business than a superficially attractive figure whose currency treatment you cannot verify.",
+        "Do not base a business plan on an assumed exchange rate, fee or payout amount. Use the platform’s stated terms for the known parts and label the rest as unknown until confirmed. Revisit the comparison when the provider updates its documentation or when you change payout settings. This approach supports informed planning without claiming that any platform’s conversion outcome is guaranteed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a creator dashboard balance the same as a payout deposit?",
+      "answer": "Not necessarily. The figures may use different currencies, dates or processing stages. Compare the relevant statement, payout reference and receiving-provider record before treating them as equivalent."
+    },
+    {
+      "question": "What should I do if the conversion method is not explained?",
+      "answer": "Record the detail as unknown and ask the platform a specific question through its official support route. Avoid using an assumed rate or fee to project a net payout."
+    },
+    {
+      "question": "Which records should I retain for a currency review?",
+      "answer": "Keep original platform statements or exports, payout references, deposit records and notes identifying the currency and dates for each amount. Follow your own recordkeeping requirements and seek qualified help for accounting questions."
+    }
+  ]
+};

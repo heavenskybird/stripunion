@@ -1,0 +1,103 @@
+export default {
+  "slug": "affiliate-program-application-readiness-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Before Applying to an Affiliate Program: Prepare Your Site and Traffic Evidence",
+  "description": "A webmaster checklist for assessing affiliate-program application readiness, documenting traffic sources, reviewing site content and clarifying approval requirements.",
+  "excerpt": "An application is easier to evaluate when your site, traffic sources and promotion plans are clearly described. Prepare evidence and questions before submitting rather than guessing what a program accepts.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Review the program’s published eligibility and application instructions before applying.",
+    "Describe actual traffic sources and planned placements accurately; do not imply approval for unreviewed methods.",
+    "Make your site’s purpose, ownership contact and relevant content easy for a reviewer to understand.",
+    "Ask specific questions about unclear promotional methods, required disclosures or brand-use restrictions.",
+    "Keep a copy of the submitted application and the program’s written decision or conditions."
+  ],
+  "sections": [
+    {
+      "heading": "Read the application requirements as a checklist",
+      "paragraphs": [
+        "Affiliate applications often ask for information about a website, its audience or how referrals will be promoted. The exact requirements vary by program, so begin with the program’s own current instructions. Separate items that are explicitly required from details that are optional or unexplained. Do not assume that being accepted by one program means another uses the same criteria.",
+        "Create a short checklist from the application page before you submit anything. Note whether the program asks for site URLs, traffic descriptions, promotional channels, business contact details or other information. If a field is unclear, look for its explanation in the program’s terms or help materials. A well-prepared application is accurate and specific; it does not need inflated claims or unsupported performance estimates."
+      ],
+      "bullets": [
+        "Record every required field and supporting document.",
+        "Confirm that the site or channel you plan to use is identified accurately.",
+        "Note any stated content, geography or traffic-source eligibility conditions.",
+        "Keep questions about ambiguous requirements for the program’s official support contact."
+      ]
+    },
+    {
+      "heading": "Make the site and its purpose easy to assess",
+      "paragraphs": [
+        "Before applying, check that the submitted site works and that its purpose is understandable. Review key pages for clear navigation, functioning links and accurate descriptions. If a site is new or still being developed, explain its actual status rather than presenting planned content as already published. A reviewer should be able to distinguish what exists now from what you intend to build later.",
+        "Make sure your contact information and ownership details are consistent with the application and the site’s published information. Avoid exposing unnecessary personal information publicly, but provide any details the application legitimately requests through its stated process. If several domains or social channels are involved, list which ones you plan to use and how they relate to the application."
+      ]
+    },
+    {
+      "heading": "Document traffic sources and planned placements",
+      "paragraphs": [
+        "Describe where visitors come from in plain terms: for example, editorial pages, email, social posts or other channels you actually use. Do not label a source “organic” or “direct” if that does not accurately explain it, and do not claim a channel is active when it is only a future plan. If the application requests estimated volumes and you do not have dependable figures, state the basis for any estimate or ask how the field should be completed.",
+        "Prepare examples of intended placements, such as a relevant comparison page or a contextual link, if the application requests them. Explain the user purpose and placement without promising outcomes. Keep proposed placements aligned with the program’s instructions, including any restrictions on certain traffic sources, claims, or use of the program’s name and creative materials."
+      ],
+      "table": {
+        "caption": "Application evidence to prepare without overstating your case",
+        "headers": [
+          "Application area",
+          "Useful preparation"
+        ],
+        "rows": [
+          [
+            "Site identity",
+            "Working URL, concise description and current publication status"
+          ],
+          [
+            "Traffic sources",
+            "Accurate list of active channels and a clear distinction from planned channels"
+          ],
+          [
+            "Placement plan",
+            "Example page or context showing how a referral link would fit"
+          ],
+          [
+            "Audience description",
+            "A factual summary based on what your site serves, without invented demographics"
+          ],
+          [
+            "Compliance questions",
+            "Specific questions about unclear sources, claims, disclosures or creative use"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Resolve promotional-method questions before scaling",
+      "paragraphs": [
+        "A method that seems common in affiliate marketing is not automatically permitted by a specific program. Review the program’s stated rules for each channel you plan to use, including paid placements, email, social promotion or other sources named in the terms. If a method is not addressed, ask for clarification before directing substantial activity through it.",
+        "Keep the question narrow and factual. Identify the traffic source, the type of placement and the context in which a referral would appear. Save the response alongside the relevant program terms. Avoid treating informal assumptions or another publisher’s practice as approval. Clear written guidance helps you build a promotion plan around documented requirements rather than guesswork."
+      ]
+    },
+    {
+      "heading": "Keep an application record and prepare for follow-up",
+      "paragraphs": [
+        "Save the application as submitted, including the site URLs, channels and promotional methods you described. Record the submission date and any confirmation or follow-up messages. If the program approves the application with conditions, note the conditions where your publishing team can find them and check that planned placements follow them.",
+        "If an application is declined or returned for more information, read the response carefully before resubmitting. Correct factual gaps and answer the stated question rather than sending repeated applications with slightly different descriptions. If your site, traffic sources or promotion plan changes after acceptance, review the program’s terms and ask whether the change requires an update. This keeps the relationship traceable as your operations develop."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I apply before my site is fully launched?",
+      "answer": "Check the program’s published eligibility rules first. If you apply while the site is in progress, describe its current status honestly and do not present planned pages or traffic as already established."
+    },
+    {
+      "question": "What if I am unsure whether a traffic source is allowed?",
+      "answer": "Review the program’s current terms and ask the program directly with a specific description of the source and placement. Do not assume that another affiliate’s use of a channel means it is permitted for your account."
+    },
+    {
+      "question": "What should I save after submitting an application?",
+      "answer": "Keep a copy of the answers, the sites and channels you identified, the submission confirmation and any written approval conditions or follow-up instructions."
+    }
+  ]
+};

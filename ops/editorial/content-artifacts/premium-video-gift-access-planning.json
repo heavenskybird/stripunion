@@ -1,0 +1,114 @@
+{
+  "backlogId": "premium-video-gift-access-planning",
+  "slug": "premium-video-subscription-gifts-access-checklist",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Giving a Premium Video Subscription: Check Gift Access, Compatibility and Renewal Terms",
+  "description": "Planning a premium video subscription as a gift? Use this checklist to verify redemption, account requirements, renewal behavior, region limits and recipient privacy.",
+  "excerpt": "A subscription gift is only useful if the recipient can redeem it on their own terms. Check how access is delivered, what account it attaches to and whether it creates future billing.",
+  "keyTakeaways": [
+    "Confirm that the service actually offers a gift option before planning around one.",
+    "Distinguish a prepaid period or gift code from a recurring membership started in the recipient’s account.",
+    "Check redemption rules, expiration language, account requirements and region limitations before purchasing.",
+    "Avoid requesting the recipient’s password or creating an account in their name without permission.",
+    "Make the gift easy to decline or leave unused without surprise charges or unwanted account sharing."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm what kind of gift is actually available",
+      "paragraphs": [
+        "The phrase “gift subscription” can refer to different arrangements. A retailer might provide a prepaid code, a fixed access period, a gift card with limited uses or simply instructions for starting a regular subscription. Those options are not interchangeable. Before buying, identify what the recipient receives, who redeems it and whether the gift itself starts recurring billing.",
+        "Do not infer gift functionality from the fact that a service sells memberships. Look for explicit information on the official purchase or help pages. If the terms do not clearly say whether the access is prepaid, recurring or tied to an existing account, pause and ask the provider. A gift that unexpectedly requires the recipient to enter payment details may not fit your intentions."
+      ],
+      "bullets": [
+        "What exactly is delivered: a code, a link, account access or a payment credit?",
+        "Who redeems it, and must that person already have an account?",
+        "Does redemption begin a fixed term or an ongoing renewal?",
+        "Are there stated expiration, region or account restrictions?"
+      ]
+    },
+    {
+      "heading": "Check redemption and account ownership",
+      "paragraphs": [
+        "A clean gift arrangement lets the recipient control their own account. Check whether a code can be redeemed by an existing member, whether a new account is required and whether the account name or billing details must match the purchaser. Avoid asking for the recipient’s password or logging in on their behalf. Sharing credentials can expose account information and makes it harder for the recipient to manage access independently.",
+        "If an account must be created, understand whose email address and payment details are used and who can manage recovery. The recipient should be able to control their own login, notifications and membership settings. If the service’s process requires unusual sharing of credentials or personal information, choose a different gift format or give the recipient the option to select a service themselves."
+      ]
+    },
+    {
+      "heading": "Verify renewal, expiry and cancellation implications",
+      "paragraphs": [
+        "Read the terms for what happens when the gift period ends. It may end without further action, or redemption could be connected to a recurring membership; do not assume either outcome. Look for whether payment information is requested during redemption, when a renewal would occur and how the recipient can stop it. If the terms are unclear, the gift may create an obligation the recipient did not expect.",
+        "Also check whether an unredeemed code expires, whether it can be transferred and whether unused value is refundable. These details matter when a recipient is travelling, has no account yet or prefers to decide later. Keep the recipient’s choice central: a gift should not create pressure to activate immediately or continue paying."
+      ],
+      "table": {
+        "caption": "Gift-access checks to complete before purchase",
+        "headers": [
+          "Topic",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Delivery",
+            "What will the recipient receive, and how will it be sent?"
+          ],
+          [
+            "Redemption",
+            "Does the code require a new account or accept an existing one?"
+          ],
+          [
+            "Renewal",
+            "Does access end automatically or can it become recurring?"
+          ],
+          [
+            "Expiry",
+            "Is there a redemption deadline or unused-value rule?"
+          ],
+          [
+            "Compatibility",
+            "Can the recipient access the service in their location and on their preferred device?"
+          ],
+          [
+            "Privacy",
+            "Will the gift message, email or account record reveal more than intended?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Consider compatibility without choosing for someone else",
+      "paragraphs": [
+        "A gift can be technically valid but still unsuitable. The recipient may already subscribe, prefer a different service, lack a compatible device or be unable to use the service from their region. Check the provider’s published access information without making assumptions about the recipient’s viewing habits. If you are uncertain, a neutral message offering a choice can be more considerate than selecting a service that may not fit.",
+        "Avoid using private information to guess what someone watches or which account they use. If the recipient has not expressed interest in a particular service, consider asking before making a purchase. A gift option that allows them to choose the service or decline it may be preferable to a code that is difficult to transfer or redeem."
+      ]
+    },
+    {
+      "heading": "Deliver the gift discreetly and leave control with the recipient",
+      "paragraphs": [
+        "Think about how the gift notification will appear. An email subject line, shared inbox or lock-screen preview may reveal the service name. Use a delivery method that suits the recipient’s privacy preferences, and do not send a code to an address they do not control. If the gift is digital, explain what it is without sending account credentials or asking them to disclose private account details.",
+        "Keep the purchase receipt and gift terms until the recipient confirms that the gift was received or decides not to use it. Make clear that redemption is optional and that the recipient can manage their own account. If a code is misdirected, treat it as sensitive: use the provider’s official support route and do not post it publicly or share it in a group conversation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I buy a regular membership and call it a gift?",
+      "answer": "A regular membership may be billed to the purchaser and tied to their account, which can create access and privacy problems. Look for an explicitly supported gift option and confirm how redemption and renewal work."
+    },
+    {
+      "question": "Should I create an account for the recipient?",
+      "answer": "Usually, the recipient should control their own account and recovery details. Do not create or manage an account in someone else’s name without their consent, and never request their password just to redeem a gift."
+    },
+    {
+      "question": "What if the gift terms do not explain whether it renews?",
+      "answer": "Treat that as an unresolved purchase detail. Ask the provider through its official support channel or choose a gift arrangement whose renewal behavior is stated clearly."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
