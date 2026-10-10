@@ -1,0 +1,117 @@
+{
+  "backlogId": "ar-adult-platform-fit-and-permissions",
+  "slug": "ar-adult-platform-fit-and-permissions",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "AR Adult Platforms: Check Device Fit, Camera Access and Privacy Before Choosing",
+  "description": "A practical framework for assessing adult AR platforms on phones and tablets, including device fit, camera permissions, access models and privacy boundaries.",
+  "excerpt": "Adult AR has different compatibility and privacy questions from headset-based VR. Use this checklist to assess whether an AR experience fits your device, permission preferences and intended setting before creating an account or paying.",
+  "keyTakeaways": [
+    "Treat AR as a separate access path from VR: confirm which device types and operating conditions are supported.",
+    "Check whether camera or other device permissions are necessary, optional or explained clearly before enabling them.",
+    "Distinguish a preview from a complete test of tracking, display and interaction on your own device.",
+    "Compare account requirements, recurring access and one-time access using the terms shown at checkout.",
+    "Consider your physical setting: AR may place digital elements in a view of your surroundings, so assess who can see the screen and what the camera can capture."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what you mean by AR access",
+      "paragraphs": [
+        "The word AR can refer to more than one kind of experience. A platform might describe an experience as augmented reality because it overlays digital elements on a camera view, uses a device’s motion or spatial features, or offers an AR-labeled mode alongside ordinary video. Those descriptions do not guarantee the same interaction or hardware requirements. Before comparing services, identify the kind of experience you actually want and note what would make it usable for you.",
+        "Keep AR and VR requirements separate in your comparison. A headset that works for one VR service does not automatically establish whether a phone-based AR feature will work, and a mobile browser that plays ordinary video does not establish that it supports an AR mode. Look for the platform’s current device and software requirements, and record the date you checked them. Requirements can change as operating systems and platform features change."
+      ],
+      "bullets": [
+        "Write down the device model and operating system you plan to use.",
+        "Identify whether you expect a camera-view overlay, motion-based interaction or simply an AR-labeled catalog.",
+        "Check for a clear explanation of supported browsers, apps and minimum software requirements.",
+        "Do not assume an experience labeled AR works in every region, browser or device configuration."
+      ]
+    },
+    {
+      "heading": "Evaluate permissions before opening an experience",
+      "paragraphs": [
+        "An AR experience may ask for access to a camera or other device features. A permission prompt tells you what access is requested, but it does not by itself explain how the platform uses, stores or shares information. Read the platform’s privacy notice and the operating system’s permission controls separately. Look for a plain-language explanation of why each permission is needed, when it is used, and whether the feature can be explored without granting it.",
+        "Use the least access that still lets you test the service. If a permission request appears before you can see what the experience does, pause and look for a help page or preview explaining the requirement. Avoid granting broad or persistent access merely because a page requests it. If you do test an AR mode, review the permission afterward and revoke it when it is no longer needed. Permission settings help limit access; they are not a promise about every kind of data a service may collect."
+      ],
+      "bullets": [
+        "Check whether the permission request matches the feature you chose.",
+        "Look for controls to allow access only while using the app or to revoke access later.",
+        "Avoid testing on a device whose camera view or notifications are visible to other people.",
+        "Review the service’s data and retention explanations rather than inferring them from the permission prompt."
+      ]
+    },
+    {
+      "heading": "Test fit without confusing a preview for a full evaluation",
+      "paragraphs": [
+        "A preview can help establish whether a page loads, whether controls are understandable and whether the initial display suits your device. It may not show how the full experience behaves over time, whether all modes are included, or whether a paid feature uses different requirements. Make a short test plan before you start: check loading, orientation, resizing, pausing, returning to the page and exiting. These checks focus on practical usability rather than assuming that a preview represents every part of a service.",
+        "Where possible, use the same device and network conditions you expect to use later. Note any point at which the page redirects to an app store, asks you to sign in or presents a payment gate. Those are separate access decisions, not proof that your device is incompatible. If an experience will not load, check the published troubleshooting information and requirements before paying or changing device settings."
+      ],
+      "table": {
+        "caption": "A simple AR fit check separates device, access and privacy questions.",
+        "headers": [
+          "Question",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Device fit",
+            "Supported device, operating system, browser or app",
+            "Avoid assuming that ordinary playback confirms AR support."
+          ],
+          [
+            "Permission fit",
+            "Whether camera or other access is required and explained",
+            "Helps you decide whether the feature is acceptable on your device."
+          ],
+          [
+            "Preview fit",
+            "What the preview includes and what remains gated",
+            "Prevents a short sample from being mistaken for a full test."
+          ],
+          [
+            "Exit fit",
+            "How to pause, close the experience and revoke permissions",
+            "Makes the trial easier to end and the device easier to manage."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare account and access models on their own terms",
+      "paragraphs": [
+        "An AR feature may be available through an account, a subscription, a one-time purchase or another access arrangement. Do not infer the model from the presence of a free preview. Read the terms for the specific feature you plan to use: what access starts immediately, whether it renews, what happens when access ends, and whether content remains available through another mode. If a price or renewal term is not clear before checkout, treat that as an unresolved decision rather than filling in the gap with assumptions.",
+        "Consider how access is tied to your device and account. Check whether changing phones, reinstalling an app or signing in on another device affects access, and whether the service explains how purchases are restored. For recurring access, note the renewal date and cancellation method in a place you control. These checks are useful even when you only plan to try the service briefly, because a successful AR preview does not answer billing or future-access questions."
+      ]
+    },
+    {
+      "heading": "Choose a setting that protects your surroundings and attention",
+      "paragraphs": [
+        "Unlike a fully immersive headset view, some AR modes use a live view of the space around the device. Consider who might see the screen, whether the device is shared and whether notifications or other open apps could appear during use. Choose a private setting, keep the screen from facing people who have not agreed to see the content, and review notification previews and casting or display connections. These are practical privacy steps, not guarantees that activity cannot be recorded or observed.",
+        "A useful comparison includes the ordinary conditions of use, not only catalog labels. Ask whether you can control when a camera view begins, whether you can exit immediately, and whether the experience provides instructions for closing the mode. If the platform’s explanation of permissions, account access or cancellation is hard to find, factor that uncertainty into your choice. A service that fits your device but conflicts with your privacy boundaries is not a good fit."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an AR label mean a platform will work on any smartphone?",
+      "answer": "No. AR can depend on a particular device, operating system, browser, app or device feature. Check the platform’s current requirements for the exact device and mode you intend to use rather than relying on the label alone."
+    },
+    {
+      "question": "Should I grant camera access just to view a preview?",
+      "answer": "Only if the permission is necessary for the preview you chose and you are comfortable with the request. Look for an explanation of why access is needed, whether it is temporary, and whether a non-AR preview is available. You can decline and review device permission settings later."
+    },
+    {
+      "question": "Can a preview tell me everything about a paid AR experience?",
+      "answer": "Usually a preview can answer only some fit questions, such as whether a page loads or its basic controls make sense. Confirm what is excluded, what access costs or renews, and what devices are supported before committing."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
