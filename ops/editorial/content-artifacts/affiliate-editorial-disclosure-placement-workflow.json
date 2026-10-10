@@ -1,0 +1,129 @@
+{
+  "backlogId": "affiliate-editorial-disclosure-placement-workflow",
+  "slug": "affiliate-editorial-disclosure-placement-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Disclosure Placement: A Practical Editorial Workflow for Webmasters",
+  "description": "Build a repeatable affiliate disclosure workflow: identify monetized links, place clear notices, check mobile visibility, and review pages after updates.",
+  "excerpt": "Affiliate disclosures are easy to lose during publishing, redesigns, or link changes. Use a page-level workflow to make the commercial relationship understandable while keeping editorial claims separate from tracking links.",
+  "keyTakeaways": [
+    "Map every location where affiliate links appear, including templates and older evergreen pages.",
+    "Place a plain-language disclosure where readers can see it before or while they encounter monetized recommendations.",
+    "Check the actual mobile layout rather than assuming a notice visible on desktop will remain visible.",
+    "Keep editorial comparisons grounded in verifiable criteria instead of letting commission status determine the conclusion.",
+    "Review disclosures whenever a page, template, link destination, or monetization method changes.",
+    "Treat this workflow as an editorial control, not a substitute for jurisdiction-specific legal advice."
+  ],
+  "sections": [
+    {
+      "heading": "Create a page-level map of monetized links",
+      "paragraphs": [
+        "A disclosure process starts with knowing where commercial links exist. Inventory affiliate links in article bodies, comparison tables, buttons, sidebars, recommendation boxes, email landing pages, and reusable page templates. Include older pages that may still receive visitors even if they are no longer prominent in navigation. A central map makes it less likely that a notice is omitted from a less obvious placement.",
+        "Record the destination, the page or component where the link appears, and who owns the next review. Do not rely only on an affiliate dashboard or a link-shortener list: those records may not show the full reader-facing context. The editorial inventory should answer two questions together: where does the link send a reader, and where will that reader encounter an explanation of the commercial relationship?"
+      ],
+      "bullets": [
+        "List in-article links, buttons, tables, widgets, and shared templates.",
+        "Identify pages with links but no current owner or review date.",
+        "Keep link mapping distinct from claims about a partner’s products or terms."
+      ]
+    },
+    {
+      "heading": "Write a disclosure readers can understand",
+      "paragraphs": [
+        "Use direct language that explains the relevant relationship without making readers decode internal terminology. A notice should not rely on a vague label, an unexplained symbol, or wording that only makes sense to the publisher. Explain, in plain terms, that the publisher may receive compensation when a reader follows a qualifying link or takes a specified action, as applicable to the actual arrangement.",
+        "Make the wording fit the page and the relationship in question. Do not imply that every link is compensated if only certain links are, and do not suggest independence if the publisher has a financial interest. If the business model changes, revise the wording to match. For legal obligations, jurisdictions and circumstances can differ; have qualified counsel review the publisher’s policy when appropriate."
+      ]
+    },
+    {
+      "heading": "Place the notice in the reader’s path",
+      "paragraphs": [
+        "Placement affects whether a reader can connect the notice to a recommendation. A notice hidden in a footer or separated from the relevant content may be easy to miss. Consider placing a concise explanation near the beginning of a page that contains affiliate links, then use contextual labels where a table or standalone button could otherwise appear detached from that explanation.",
+        "Check the rendered page rather than judging placement from a content-management preview. On mobile, a long introduction, collapsed module, or sticky element may move the notice away from the first commercial link. A reader should not have to search an unrelated policy page to understand why a recommendation includes a tracked link. The appropriate placement depends on page structure, but visibility and proximity are practical checks for every format."
+      ],
+      "table": {
+        "caption": "Disclosure placement checks by content format",
+        "headers": [
+          "Placement",
+          "Review question",
+          "Common editorial check"
+        ],
+        "rows": [
+          [
+            "Article",
+            "Can readers see the notice before or near the first affiliate link?",
+            "Review the page from its top on desktop and mobile."
+          ],
+          [
+            "Comparison table",
+            "Can a reader connect the notice to the linked recommendations?",
+            "Check the table heading, link labels, and surrounding context."
+          ],
+          [
+            "Button or callout",
+            "Is the commercial nature clear at the point of action?",
+            "Avoid a standalone button with no nearby explanation."
+          ],
+          [
+            "Reusable template",
+            "Does the notice appear on every page using the component?",
+            "Test representative pages after template changes."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep editorial judgment separate from monetization",
+      "paragraphs": [
+        "A disclosure explains a commercial relationship; it does not make unsupported editorial claims acceptable. Set comparison criteria before adding affiliate links and apply them consistently to linked and unlinked options. If a recommendation is based on a specific feature, document what evidence supports the statement and distinguish firsthand evaluation from information summarized from a published policy or product listing.",
+        "Avoid language that implies a ranking, test, or outcome you cannot substantiate. If compensation affects which options are included or how they are presented, describe the selection method honestly and review whether the page still answers the reader’s question. A clear separation between editorial criteria and link monetization helps maintain a useful comparison and makes later updates easier to audit."
+      ],
+      "bullets": [
+        "Write comparison criteria before selecting commercial links.",
+        "Label verified facts, editorial judgments, and unresolved information distinctly.",
+        "Do not imply personal testing, guaranteed results, or a universal best choice without evidence."
+      ]
+    },
+    {
+      "heading": "Check disclosure visibility across devices and page states",
+      "paragraphs": [
+        "A notice can be present in the source content but difficult to see in the published experience. Review common screen sizes, navigation states, and content modules. Check whether a cookie notice, promotional overlay, or sticky header obscures the disclosure or the first affiliate link. Confirm that text remains readable and that color, placement, or formatting does not make the explanation look like unrelated fine print.",
+        "Test pages reached from search, social links, and internal navigation, not only the homepage route. A visitor may land directly on an older article and never see a site-wide disclosure elsewhere. Include pages with different templates and content lengths in the review. Record issues and assign a person to correct them so the audit produces a change rather than merely a list."
+      ]
+    },
+    {
+      "heading": "Build disclosure reviews into publishing and maintenance",
+      "paragraphs": [
+        "Disclosure checks should be part of the publishing checklist and the link-change workflow. When an editor adds a tracked link, changes a button, updates a comparison table, or moves content into a new template, confirm that the notice still fits the page. If a page stops using affiliate links, review whether its disclosure remains accurate rather than leaving stale language by default.",
+        "Use a repeatable record with a page URL, link locations, disclosure wording, device review, review date, and owner. Revisit high-change templates after redesigns and run periodic checks on older pages. The purpose is not to create paperwork for its own sake; it is to make clear who must act when a commercial link or page layout changes and to keep reader-facing explanations aligned with the current page."
+      ],
+      "bullets": [
+        "Before publishing: confirm link inventory, wording, and placement.",
+        "After a redesign: inspect templates and representative pages on mobile.",
+        "After a link change: confirm destination and nearby disclosure context.",
+        "During routine review: remove or revise notices that no longer match the page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a disclosure in a site footer enough for every affiliate link?",
+      "answer": "A footer notice may be distant from a particular recommendation and easy for a reader to miss. Review the page context and make the relationship understandable where readers encounter the commercial link. Requirements can vary by jurisdiction and circumstances, so this workflow is not legal advice."
+    },
+    {
+      "question": "Should an affiliate disclosure appear on pages with no affiliate links?",
+      "answer": "Use wording that accurately describes the page. A site-wide statement may explain a general business relationship, but a page-specific notice that implies a link is present when it is not can confuse readers. Review the wording when links are added or removed."
+    },
+    {
+      "question": "How often should a webmaster review disclosure placement?",
+      "answer": "Review it whenever links, templates, page structure, or monetization arrangements change. Add periodic checks for older pages and test mobile layouts after redesigns, since a notice can remain in the content while becoming harder to see."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

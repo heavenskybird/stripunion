@@ -1,0 +1,124 @@
+export default {
+  "slug": "hentai-anime-language-metadata-accessibility-checklist",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Compare Subtitle and Language Information by Title",
+  "description": "Check adult anime platforms for title-level subtitle, audio, translation, and language details before choosing a stream, manga edition, or game.",
+  "excerpt": "A platform-wide language claim may not apply to every title. Compare language details at the individual listing level, check how filters work, and look for a clear way to flag inaccurate metadata.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Check language and subtitle information on each title page instead of inferring it from platform-wide claims.",
+    "Distinguish subtitles, translated text, interface language, and audio language.",
+    "Look for filters that reflect actual title-level metadata and can be cleared easily.",
+    "Verify whether language options apply to all episodes, chapters, editions, or only selected items.",
+    "Use previews or sample pages where available to confirm readability and presentation.",
+    "Treat missing language information as unknown, not as evidence that a particular option exists."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the different meanings of language support",
+      "paragraphs": [
+        "The phrase “language support” can refer to several different things: a platform interface, search filters, subtitles, translated on-screen text, audio, or a manga edition. These are not interchangeable. A site may have a translated menu while an individual title has no translated subtitle information, or a title may provide translated text without offering alternate audio.",
+        "Start by deciding which language feature matters for the format you plan to use. For streaming, you may need title-level information about subtitles, audio, or captions. For manga, you may want the language of the edition and any translation notes. For games, check the interface and text-language details separately. A precise question makes a platform comparison much more useful than a general label."
+      ],
+      "bullets": [
+        "Interface language describes navigation and account controls.",
+        "Subtitle or caption information describes text accompanying a stream.",
+        "Edition language describes the text in a manga or game.",
+        "Audio language is a separate title-level feature where applicable."
+      ]
+    },
+    {
+      "heading": "Check language details on individual title pages",
+      "paragraphs": [
+        "A platform-wide statement can describe a general service but may not identify what is available for a specific title. Open the listing and check whether it names languages for that title, episode, chapter, or edition. If the catalogue uses tags, see whether those tags are visible in search results and repeated in the item details.",
+        "Look for evidence that the information is specific rather than implied. A language selector, edition label, or subtitle field is more useful than a broad description that says a platform serves an international audience. If a series has multiple entries, check whether each one has the same options. Do not assume that one episode’s metadata applies to the entire series or that a translation is included in every format."
+      ],
+      "table": {
+        "caption": "Language details to compare at the title level",
+        "headers": [
+          "Format",
+          "Check for",
+          "Common point of confusion"
+        ],
+        "rows": [
+          [
+            "Streaming",
+            "Subtitle, caption, and audio details for the specific title",
+            "A translated interface is not the same as translated playback text."
+          ],
+          [
+            "Manga",
+            "Edition language and sample-page or chapter information",
+            "A category label may not identify the language of every volume."
+          ],
+          [
+            "Game",
+            "Menu, text, and audio language details where supplied",
+            "A store interface language does not establish in-game text support."
+          ],
+          [
+            "Series or collection",
+            "Whether language details apply to every included item",
+            "One listing may not describe every episode or edition."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test search and language filters",
+      "paragraphs": [
+        "Filters can help locate items in a preferred language, but only if the platform explains what the filter represents. Test a search, select a language option, and inspect several results. Check whether the listed language is repeated on each title page and whether the filter can be removed without clearing the entire search.",
+        "Notice whether filters operate at the correct level. A catalogue-level filter may identify a title’s primary language but not reveal subtitle choices. A series filter may not distinguish between editions or episodes. If the platform has separate fields for audio, subtitles, and text, that separation is useful. When it does not, treat the filter as a broad discovery aid and verify the exact listing before committing."
+      ]
+    },
+    {
+      "heading": "Use previews to assess readability and presentation",
+      "paragraphs": [
+        "When previews, sample pages, or non-paid viewing options are available, use them to answer specific presentation questions. For a stream, check whether text is legible at the size and device you expect to use. For manga, confirm reading direction and whether sample pages show the edition language clearly. A preview may be abbreviated or may not represent every item in a series, so note its limits.",
+        "A preview can help assess interface and formatting, but it does not confirm that every title has the same language options. Avoid assuming a sample is representative unless the platform says so. If there is no preview, rely on title-level metadata and ask support a narrow question about the particular item or edition rather than a general question about the whole catalogue."
+      ],
+      "bullets": [
+        "Check whether the preview belongs to the exact title or edition you want.",
+        "Note whether language details are visible before account creation.",
+        "Confirm whether preview access is limited by device, membership, or format."
+      ]
+    },
+    {
+      "heading": "Watch for inconsistencies and missing details",
+      "paragraphs": [
+        "Metadata is only useful when it is maintained consistently. Compare a search result with the title page, and compare title pages within a series if the language option matters across multiple entries. Conflicting labels, blank fields, or vague descriptions should be treated as unresolved questions. Save the relevant title name and the wording you saw if you need to contact support.",
+        "Check whether the platform has a feedback or correction route for inaccurate language tags. A clear process helps users report a mismatch without assuming how quickly it will be fixed. If the platform describes how listings are sourced or updated, that context can help you judge the metadata, but it still does not guarantee that every item is correct."
+      ]
+    },
+    {
+      "heading": "Choose by the language information you can verify",
+      "paragraphs": [
+        "Build a simple comparison around the titles or formats you actually expect to use. Record whether the language is clearly specified at the item level, whether filters help you find matching items, whether previews answer presentation questions, and whether missing information can be clarified. Mark uncertain details as unknown instead of counting them as available features.",
+        "This approach is especially helpful when comparing a streaming service with a manga or game-focused platform. Their catalogues use different metadata, so a single broad claim about language coverage may not be comparable. Evaluate the specific titles and formats you care about, then consider account requirements and access terms separately before joining or paying."
+      ],
+      "bullets": [
+        "Title-level language information is explicit.",
+        "Filters reflect the relevant format and can be reset.",
+        "Preview or sample material answers a practical question, if offered.",
+        "Series and edition differences are not hidden by broad claims.",
+        "A route exists to ask about or report unclear metadata."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform interface language tell me what languages a title supports?",
+      "answer": "No. Interface language describes navigation and account controls. Check the individual title’s information for subtitles, audio, translated text, or edition language, depending on the format."
+    },
+    {
+      "question": "Can I rely on a language filter for an entire series?",
+      "answer": "Only if the platform makes clear that the filter applies across all included episodes, chapters, or editions. Verify the entries you plan to use because title-level options can differ within a collection."
+    },
+    {
+      "question": "What should I do when a title’s language information is missing?",
+      "answer": "Treat it as unknown. Check for a sample or preview, look for a support or metadata-reporting route, and ask about the specific title or edition before relying on an assumed option."
+    }
+  ]
+};

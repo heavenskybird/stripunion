@@ -1,0 +1,123 @@
+export default {
+  "slug": "vr-adult-platform-content-labels-filtering-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Content Labels and Filtering Controls Before Joining",
+  "description": "Compare VR adult platforms by the clarity of content labels, search filters, exclusion controls, and ways to correct or report misleading listings.",
+  "excerpt": "A large VR library is easier to evaluate when titles have useful labels and the platform lets you narrow results deliberately. This guide focuses on metadata and filtering—not headset setup or broad library size.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Assess whether listings use consistent labels and explain what those labels mean.",
+    "Test whether search filters work together or reset when you change a query.",
+    "Check for ways to hide or exclude categories that are not relevant to your preferences.",
+    "Distinguish platform-level filters from settings that only change recommendations.",
+    "Look for a route to report inaccurate tags or misleading descriptions.",
+    "Do not treat labels as a guarantee that every listing is correctly categorized."
+  ],
+  "sections": [
+    {
+      "heading": "Treat labels as decision tools, not guarantees",
+      "paragraphs": [
+        "Content labels help users understand and sort a catalogue, but their usefulness depends on consistency. A platform may use categories, tags, format descriptions, language markers, or other listing details. Check whether the same terms appear across titles and whether the platform explains ambiguous labels. A category name that means one thing on one listing and something else on another is difficult to use as a reliable filter.",
+        "Labels are metadata, not independent verification. They may be supplied by a publisher, creator, or platform process, and the source may not be obvious. When a particular attribute matters to your choice, compare the label with the listing description and any available preview information. Treat missing or contradictory metadata as uncertainty rather than filling the gap with an assumption."
+      ],
+      "bullets": [
+        "Check whether labels are defined or self-explanatory.",
+        "Notice if title pages show the source or context for their metadata.",
+        "Record which important details are missing or inconsistent."
+      ]
+    },
+    {
+      "heading": "Test search filters with realistic queries",
+      "paragraphs": [
+        "A filter menu can appear comprehensive while still being hard to use. Try a small set of practical searches and see whether filters can be combined, cleared individually, and retained when you open a result and return. Observe whether the results visibly reflect your choices. If the platform silently resets a filter or mixes incompatible terms, that can make repeated browsing frustrating.",
+        "Check whether filters narrow the catalogue or only reorder recommendations. Search, browse categories, and personalized suggestions may behave differently. For a fair comparison, use the same query and filter combination on each platform you are considering, where possible. Keep the test simple: one search term, one or two filters, then a check that the returned listings still match the stated criteria."
+      ],
+      "table": {
+        "caption": "A short test for VR library labels and filters",
+        "headers": [
+          "Test",
+          "What to observe",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "Combine filters",
+            "Whether selected options can be used together",
+            "A result set that reflects more than one chosen criterion."
+          ],
+          [
+            "Return from a listing",
+            "Whether query and filters remain in place",
+            "A predictable route back to the same results."
+          ],
+          [
+            "Clear one option",
+            "Whether other selected filters remain active",
+            "Controls that are understandable and reversible."
+          ],
+          [
+            "Inspect a title page",
+            "Whether labels and description agree",
+            "Metadata that can be interpreted without guessing."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for meaningful exclusion controls",
+      "paragraphs": [
+        "Some users want to hide particular categories rather than search for more of them. Check whether a platform offers exclusion, mute, or hide controls, and learn where those settings apply. A preference that removes items from recommendations may not affect search results, saved lists, or the broader catalogue. The platform’s wording should make that scope clear.",
+        "Consider whether settings are account-wide, browser-specific, or tied to one device. This matters if you use more than one headset or access route. Avoid saving sensitive preference details on a shared account without understanding who can view them. A clear, reversible control is generally more practical than an unexplained personalization setting that cannot be inspected or adjusted."
+      ],
+      "bullets": [
+        "Check whether an exclusion affects search, recommendations, or both.",
+        "Look for an easy way to review and undo preferences.",
+        "Find out whether settings follow the account across devices."
+      ]
+    },
+    {
+      "heading": "Separate content preferences from recommendation systems",
+      "paragraphs": [
+        "A platform may use viewing, search, or saved-item activity to tailor recommendations. That is different from a filter that changes the current results based on criteria you explicitly selected. Look for settings that explain whether recommendations can be reset, reduced, or disabled, and whether the platform distinguishes personalization from ordinary search.",
+        "If you want predictable browsing, test the platform without relying on personalized suggestions. Use category navigation or a deliberate query and compare the results with the recommendation area. Do not assume that selecting a label permanently restricts what appears elsewhere. A useful interface tells you when it is applying a temporary search condition and when it is adapting suggestions."
+      ]
+    },
+    {
+      "heading": "Evaluate reporting and correction routes",
+      "paragraphs": [
+        "Even a well-designed label system can contain mistakes. Check whether listings provide a way to report inaccurate metadata, misleading descriptions, or a broken filter result. A reporting route should explain what information to provide and, where possible, how to follow up. A generic contact form may still be useful, but clearer categories make it easier to communicate the issue.",
+        "Avoid treating a report button as proof that every listing is reviewed in a particular way. Read the platform’s explanation of its handling process, if available, and note whether it describes moderation or correction responsibilities. When choosing between platforms, assess the clarity of the process rather than assuming a particular response time or outcome."
+      ]
+    },
+    {
+      "heading": "Compare platforms with a repeatable scorecard",
+      "paragraphs": [
+        "A compact scorecard keeps the comparison focused on controls you can actually observe. For each platform, note whether labels are defined, filters combine, exclusions are available, preferences can be changed, and inaccurate listings can be reported. Mark an item as unclear when the interface or documentation does not answer it. That is more useful than giving a platform credit for a feature you could not verify.",
+        "This comparison is about reducing browsing friction and avoiding unwanted results, not proving that a catalogue is complete or perfectly labeled. Use the scorecard before creating an account or paying where the platform permits. If settings are visible only after sign-in, decide whether you are comfortable creating an account to test them and review the relevant account and privacy information first."
+      ],
+      "bullets": [
+        "Labels: consistent and understandable.",
+        "Filters: combinable, visible, and easy to reset.",
+        "Exclusions: scope is clear and preferences are reversible.",
+        "Recommendations: distinguishable from manual search results.",
+        "Reporting: a route exists for incorrect or misleading metadata."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are platform content labels always accurate?",
+      "answer": "No label system should be treated as a guarantee. Labels can be incomplete, inconsistent, or mistaken. Compare them with the listing description and available preview information, and use the platform’s reporting route when a listing appears inaccurate."
+    },
+    {
+      "question": "What is the difference between a filter and a recommendation setting?",
+      "answer": "A filter usually changes the results for a search or browse view according to selected criteria. A recommendation setting may influence personalized suggestions based on platform activity. Check the platform’s wording and test where each control applies."
+    },
+    {
+      "question": "Should I create an account just to test filtering?",
+      "answer": "First see whether the relevant controls are available without an account. If sign-in is required, review the account and privacy information and decide whether the test is worth sharing the requested details. Do not assume an account is necessary unless the platform says so."
+    }
+  ]
+};
