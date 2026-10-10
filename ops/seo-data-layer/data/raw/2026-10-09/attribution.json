@@ -1,0 +1,63 @@
+{
+  "collectedAt": "2026-10-10T07:15:48.150Z",
+  "receiverConnected": true,
+  "postbackJoinReady": true,
+  "reportScope": "first-party AVCams click/postback attribution",
+  "totalClicks": 4,
+  "totalPostbacks": 1,
+  "matchedPostbacks": 0,
+  "unmatchedPostbacks": 1,
+  "duplicatePostbacks": 0,
+  "eventCounts": {
+    "member_registration": 1
+  },
+  "revenueByCurrency": {},
+  "byP1": {
+    "avcams": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "how-stripchat-tokens-work": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "byAffiliateSource": {
+    "avcams_model_signup": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage_live_now": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "stripchat_tokens_hero": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "byExperiment": {},
+  "updatedAt": "2026-10-10T04:44:25.376Z"
+}
