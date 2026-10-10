@@ -1,0 +1,117 @@
+{
+  "backlogId": "creator-collaborator-consent-records-workflow",
+  "slug": "creator-platform-collaborator-consent-records-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Collaborations: Organize Consent and Participation Records Before Publishing",
+  "description": "Build a practical workflow for organizing collaborator permissions, participation records and publishing checks without treating platform tools as a substitute for your own documentation.",
+  "excerpt": "A clear pre-publication records process helps collaborators confirm what they agreed to and gives creators a consistent way to check files, permissions and access.",
+  "keyTakeaways": [
+    "Keep collaboration permissions, platform access and revenue arrangements as separate records with clear owners.",
+    "Confirm the intended use and boundaries for each collaboration before publishing or repurposing material.",
+    "Restrict access to sensitive records and avoid storing identity documents in general-purpose content folders.",
+    "Use a release checklist and change log, but do not treat a checklist as a legal guarantee."
+  ],
+  "sections": [
+    {
+      "heading": "Define what the record is meant to prove",
+      "paragraphs": [
+        "A creator’s collaboration file should help answer practical questions: who participated, what material is covered, what use was discussed, what limits were agreed and who confirmed the final publication plan? A folder of messages without context can be difficult to interpret later. A concise record that identifies the project and its scope is easier to review before publishing or making a change.",
+        "Keep the purpose narrow. This workflow is an organizational aid, not legal advice and not a guarantee that a document satisfies every requirement that may apply to a particular project or location. Where formal documentation or age and identity checks are required, follow applicable rules and the platform’s current process. Do not infer that platform approval replaces your own responsibilities."
+      ]
+    },
+    {
+      "heading": "Separate permission from account access and payment terms",
+      "paragraphs": [
+        "Permission to participate in a project is not the same thing as permission to access a creator account. Likewise, an agreed revenue split does not, by itself, describe how material may be edited, posted, promoted or reused. Keep these subjects in distinct records so a collaborator’s access to a tool cannot be mistaken for broader permission, and a financial note cannot be mistaken for a content-use agreement.",
+        "For each project, identify the participants, the relevant files or project label, the intended platform or use, any agreed boundaries and the person responsible for confirming the final version. Record when a change is discussed and who approved it. If the scope changes, pause and confirm the update rather than assuming the earlier record covers every future use."
+      ],
+      "bullets": [
+        "Project identifier and date.",
+        "Participants and the scope of their involvement.",
+        "Intended publication or use and any stated limits.",
+        "Confirmation that the final plan was reviewed.",
+        "Separate links to access and financial records, if needed."
+      ]
+    },
+    {
+      "heading": "Create a pre-publication confirmation step",
+      "paragraphs": [
+        "Before a project is released, compare the planned publication against the record: the people involved, the files selected, the intended destination and any stated limits. Check that the material has not been substituted or edited in a way that changes the agreed scope. If the working files have multiple versions, use consistent names and identify which version was approved.",
+        "A simple pause-and-confirm step is valuable when a collaborator’s participation, intended use or distribution changes. Ask a clear question about the proposed change, document the response and update the project record. Do not rely on an old message that refers to a different project or an incomplete draft. If there is disagreement or uncertainty, do not publish until the issue is resolved."
+      ]
+    },
+    {
+      "heading": "Store records with least-necessary access",
+      "paragraphs": [
+        "Consent and identity records can be sensitive. Store them separately from public content drafts and limit access to people who need them for a defined task. Use account protections available to your team, review shared-folder permissions and remove access when a role ends. Avoid sending documents through casual channels or leaving them in a device folder shared with household members or other collaborators.",
+        "Keep only information needed for the purpose and retention period you have established. A project log can point to a restricted record without copying sensitive details into a broad spreadsheet. Do not place passwords, payment credentials or unnecessary identity information in collaboration notes. Make a backup appropriate to your business needs, and ensure that backup access is also controlled."
+      ]
+    },
+    {
+      "heading": "Manage edits, withdrawals and project changes",
+      "paragraphs": [
+        "Create a change log when the plan changes after initial confirmation. Record what changed, when it changed, who was notified and what action followed. This can help distinguish an approved revision from a mistaken upload or a later misunderstanding. Use the platform’s available removal or editing tools where appropriate, but do not assume removing a post erases every copy or external record.",
+        "If a participant asks to revise or withdraw permission, respond through a documented, respectful process. Pause future use while clarifying what the request concerns, review the records and follow applicable obligations and platform procedures. Avoid promising outcomes you cannot control, such as removal from third-party copies. Keep the response factual and limit access to the discussion."
+      ]
+    },
+    {
+      "heading": "Make the workflow repeatable for a small team",
+      "paragraphs": [
+        "Assign clear responsibility for collecting records, checking publication scope, approving access and handling later requests. A creator working alone may hold several roles, but naming each step still reduces omissions. For a team, avoid relying on informal assumptions about who has checked a file or contacted a collaborator.",
+        "At regular intervals, check that the record is findable, access is still appropriate and the project status is accurate. Close out completed projects according to your retention plan. The objective is not to preserve every message forever; it is to maintain proportionate, organized evidence that supports careful publishing and clear collaboration."
+      ],
+      "table": {
+        "caption": "A pre-publication collaboration record review",
+        "headers": [
+          "Review area",
+          "Check before release"
+        ],
+        "rows": [
+          [
+            "Scope",
+            "Do the planned files and use match the documented project?"
+          ],
+          [
+            "Confirmation",
+            "Is there a clear record of the final plan and who reviewed it?"
+          ],
+          [
+            "Access",
+            "Can only appropriate people view sensitive records and files?"
+          ],
+          [
+            "Changes",
+            "Are revisions, questions or unresolved limits documented?"
+          ],
+          [
+            "Closeout",
+            "Is there an owner and retention plan for completed records?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform’s verification process replace creator records?",
+      "answer": "Do not assume that it does. Platform processes and a creator’s project documentation serve different purposes. Follow the platform’s current requirements and maintain records appropriate to your own workflow and obligations."
+    },
+    {
+      "question": "Should consent records be stored with the published files?",
+      "answer": "Usually, sensitive records should not be placed in a broadly shared content folder. Keep them in a restricted location and use a project reference to connect them to the relevant files."
+    },
+    {
+      "question": "What should I do if the planned use changes after confirmation?",
+      "answer": "Pause the changed use, explain the proposed change and obtain clear confirmation before proceeding. Update the project record so it reflects the current scope rather than relying on an earlier, narrower discussion."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

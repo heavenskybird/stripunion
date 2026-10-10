@@ -1,0 +1,109 @@
+export default {
+  "slug": "premium-video-platform-screen-reader-keyboard-usability-checklist",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Test Screen-Reader and Keyboard Usability Before Joining",
+  "description": "Assess premium video platform navigation with a keyboard and screen reader before subscribing, focusing on search, account controls and playback access.",
+  "excerpt": "A platform can have a large library and still be difficult to use with your preferred access method. This checklist helps you test key tasks before committing.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Test the actual tasks you expect to perform rather than relying on a general accessibility statement.",
+    "Check whether keyboard focus is visible and whether menus and controls can be reached in a sensible order.",
+    "Use a screen reader to test search, title information, account settings and playback controls where a preview permits.",
+    "Record barriers and workarounds separately; a workaround may not be reliable or comfortable for continued use."
+  ],
+  "sections": [
+    {
+      "heading": "Test real tasks, not just a landing page",
+      "paragraphs": [
+        "Accessibility is practical: can you find a title, understand its information, begin playback, adjust controls and manage your account using the tools you rely on? A polished home page or a statement that a service supports accessibility does not establish that every part of the experience works for your needs. Test the pathway you would use as a member, including any sign-in or payment screens you can access before joining.",
+        "Write down the device, browser or app, assistive technology and settings used during your check. Results can differ across combinations, and a barrier on one device does not automatically describe every version. A short, repeatable test log helps you compare services fairly and gives support teams a clearer description if you choose to report an issue."
+      ]
+    },
+    {
+      "heading": "Check keyboard navigation and focus",
+      "paragraphs": [
+        "Try moving through the interface without a mouse. Check whether the focus indicator is visible, whether the order follows the page layout and whether you can reach search, filters, title cards, account controls and playback. Watch for a focus trap in pop-ups or menus, a control that cannot be activated from the keyboard, or an interface that moves focus unexpectedly after a selection.",
+        "Test the most important recovery actions too. Can you close a dialog, return to the previous area and identify where focus went? If a page uses a custom player, check whether its controls are reachable and whether keyboard actions are explained. A control that technically receives focus but has no clear label or response may still be hard to use."
+      ],
+      "bullets": [
+        "Navigate the main page, search results and title details without a mouse.",
+        "Confirm that focus is visible and does not disappear behind menus.",
+        "Open and close dialogs, filters and account menus.",
+        "Check whether playback controls can be reached and operated."
+      ]
+    },
+    {
+      "heading": "Use a screen reader to follow the information flow",
+      "paragraphs": [
+        "With your usual screen reader, listen to how the service announces navigation landmarks, headings, search fields, buttons and title cards. Useful labels should tell you what an element does or which title it represents. Repeated generic labels can make a large library difficult to navigate, while missing labels can leave an essential control unexplained.",
+        "Check whether results are announced after a search or filter change, and whether the reading order remains understandable. Explore title information and account settings, not only the home screen. If a preview cannot reach member-only areas, mark those tasks as unverified instead of treating the preview as evidence that the full service is accessible."
+      ]
+    },
+    {
+      "heading": "Evaluate playback controls and status messages",
+      "paragraphs": [
+        "If preview playback is available, test play and pause, volume, captions where offered, seeking, full-screen controls and any visible error messages. The goal is to understand whether controls have names, communicate their state and can be operated using your access method. Do not assume that a control shown visually is also exposed to assistive technology.",
+        "Notice whether the interface announces changes such as playback starting, a loading state or a failed request. If a control is difficult to find, note the exact step where the problem occurs. Clear observations are more useful than a broad conclusion that the whole player is either accessible or inaccessible."
+      ],
+      "table": {
+        "caption": "A compact accessibility comparison record",
+        "headers": [
+          "Task",
+          "Observation to record"
+        ],
+        "rows": [
+          [
+            "Find a title",
+            "Could search and results be understood and operated?"
+          ],
+          [
+            "Open title details",
+            "Were headings, labels and available information clear?"
+          ],
+          [
+            "Control playback",
+            "Could key controls be reached, identified and activated?"
+          ],
+          [
+            "Manage the account",
+            "Could settings and help routes be located and navigated?"
+          ],
+          [
+            "Recover from an issue",
+            "Could you close a dialog or return to a known location?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate access barriers from feature gaps",
+      "paragraphs": [
+        "A service may be usable with a keyboard but lack a particular feature you prefer. Conversely, a feature may exist but be difficult to operate with your assistive technology. Keep these findings separate: one is a capability question, the other is an access barrier. This distinction makes comparisons more accurate and helps you decide whether a missing feature is a deal-breaker or a manageable limitation.",
+        "Also distinguish what you could test from what remains unknown. A public preview may not expose member account pages, the complete player or all library functions. If those areas matter to you, ask support a specific question and request a description of the exact task, not a general assurance. Keep the answer with your comparison notes."
+      ]
+    },
+    {
+      "heading": "Make a decision using your own priorities",
+      "paragraphs": [
+        "Rank the tasks that matter most: searching, browsing title details, managing a subscription, or controlling playback. A barrier in a task you use every time may matter more than a minor issue in a rarely visited menu. Consider whether an alternative route is dependable, understandable and comfortable for you, not merely technically possible.",
+        "Before subscribing, make a short record of what you tested, the setup used, barriers found and questions still unanswered. If you join, revisit the same tasks after a site or app update. Accessibility can change with interface revisions, and your experience on one version should not be treated as a permanent guarantee about another."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I determine accessibility from a platform’s accessibility statement?",
+      "answer": "A statement can describe a service’s approach, but it cannot show whether the tasks you depend on work in your particular device and assistive-technology setup. Use it as background, then test the most important tasks where access is available."
+    },
+    {
+      "question": "What if I cannot test member-only features before subscribing?",
+      "answer": "Record those features as unverified. Ask support specific questions about the tasks you need to perform and consider whether the remaining uncertainty is acceptable before committing."
+    },
+    {
+      "question": "Should I compare services using the same assistive technology?",
+      "answer": "For a useful comparison, use the setup you actually rely on and keep it consistent where possible. Record any differences in device, browser, app or settings so you do not mistake a setup change for a platform difference."
+    }
+  ]
+};
