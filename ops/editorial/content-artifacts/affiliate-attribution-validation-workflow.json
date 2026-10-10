@@ -1,0 +1,122 @@
+{
+  "backlogId": "affiliate-attribution-validation-workflow",
+  "slug": "webmaster-affiliate-attribution-validation-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Attribution: Validate Tracking Before You Scale Traffic",
+  "description": "A practical workflow for checking affiliate attribution, referral windows, reporting detail and conversion handling before relying on a program’s tracking.",
+  "excerpt": "A tracking link is not proof that referrals are being credited as expected. Use a controlled validation workflow to document attribution rules, test reporting and catch gaps before scaling promotion.",
+  "keyTakeaways": [
+    "Write down attribution rules in plain language, including referral windows, last-click behavior and exclusions.",
+    "Test tracking with approved, clearly identified links and a small controlled visit rather than relying on assumptions.",
+    "Compare click records with conversion and adjustment reports while accounting for reporting delays and privacy-related measurement limits.",
+    "Keep evidence of link versions, dates and support answers so later discrepancies can be investigated.",
+    "Do not send prohibited traffic or create artificial conversions as a tracking test."
+  ],
+  "sections": [
+    {
+      "heading": "Turn attribution language into a testable rule",
+      "paragraphs": [
+        "Affiliate attribution describes how a program associates a visitor or transaction with a referral source. The phrase can hide important differences: a program may describe a referral window, crediting priority, cross-device behavior, or exclusions without explaining how those elements interact. Before publishing links, translate the terms into a short statement you can test. For example, record what action begins attribution, how long it may persist, and what later action could replace it.",
+        "Separate confirmed terms from unanswered questions. Save the current program terms or help page, the date you reviewed it, and any written clarification received from support. Do not treat a familiar industry convention as a rule for this particular program. If attribution language is vague, note the uncertainty in your business plan and avoid forecasting income as though every click will be credited."
+      ],
+      "bullets": [
+        "Record the referral window and the event that starts it.",
+        "Ask how competing referrals, repeat visits and cross-device activity are handled.",
+        "Note exclusions, such as transactions or visitor sources that do not qualify."
+      ]
+    },
+    {
+      "heading": "Design a clean, low-risk tracking check",
+      "paragraphs": [
+        "A useful tracking check is controlled, documented and permitted by the program. Choose a link created through the approved process, record its destination and identifier, and use it in a way that complies with the program’s traffic rules. Avoid self-referrals, fabricated purchases, repeated clicks intended to inflate totals, or asking another person to complete a transaction as a test unless the program explicitly authorizes that method.",
+        "A safer first check may simply verify that a legitimate test visit appears in click reporting. Record the time, approximate source, device category and link version without collecting unnecessary personal information. If conversion attribution can only be validated through a qualifying transaction, ask the program for an approved test procedure rather than generating a transaction that could violate its rules."
+      ],
+      "bullets": [
+        "Use one clearly labeled link for the test and preserve its destination.",
+        "Confirm in advance whether test visits or transactions are allowed.",
+        "Never use tracking tests to mislead users or manufacture commission activity."
+      ]
+    },
+    {
+      "heading": "Read click and conversion reports as separate evidence",
+      "paragraphs": [
+        "A click appearing in a dashboard confirms only that the reporting system recorded an event; it does not prove that a later transaction will qualify. Conversion reports may update on a different schedule, and later adjustments can reflect cancellations, refunds, validation checks or other program rules. Compare time periods carefully and allow for stated reporting delays before deciding that tracking has failed.",
+        "Use a simple reconciliation sheet with dates, link identifiers, the reporting period reviewed and any relevant status labels. Look for patterns rather than demanding a one-to-one match between your site analytics and an affiliate dashboard. Browser privacy settings, consent choices, ad blockers, redirects and different measurement definitions can produce discrepancies. They are possible explanations to investigate, not proof of misconduct or a guarantee that a referral should be credited."
+      ],
+      "table": {
+        "caption": "Keep attribution checks organized without treating unlike measurements as equivalent.",
+        "headers": [
+          "Evidence",
+          "What it can help confirm",
+          "What it cannot establish by itself"
+        ],
+        "rows": [
+          [
+            "Link configuration record",
+            "Which approved identifier and destination were used",
+            "Whether a later transaction qualifies"
+          ],
+          [
+            "Affiliate click report",
+            "Whether the reporting system recorded a visit",
+            "Whether the visitor completed a qualifying action"
+          ],
+          [
+            "Conversion status report",
+            "How a reported event is currently classified",
+            "Whether the status is final if review or adjustment remains possible"
+          ],
+          [
+            "Site analytics",
+            "Whether a visit reached a page on your own site",
+            "Whether the program recorded or credited the referral"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check redirects, identifiers and placement changes",
+      "paragraphs": [
+        "Tracking can break when a link is copied incorrectly, an identifier is removed, or a redirect changes the destination. Maintain a link inventory containing the original program link, the page where it appears, the date it was added and any later edits. When changing a destination or using a permitted redirect, check the program’s rules first and verify that the approved tracking information remains intact.",
+        "Test links after site redesigns, content migrations and template changes. A link that works in an editor may behave differently after publication, especially when scripts, link-shortening services or mobile layouts intervene. Check the final published link on a normal user path, but do not repeatedly click it to generate artificial activity. Keep the review focused on whether the destination and identifier are preserved."
+      ]
+    },
+    {
+      "heading": "Use reporting to make cautious operational decisions",
+      "paragraphs": [
+        "Reporting is most useful when it helps answer a specific question: which placements attract measured clicks, whether a particular link version is recording activity, or whether a reported conversion is awaiting review. Choose a small set of stable measures and review them consistently. Avoid comparing short periods with different traffic mixes or changing several links at once, because either choice makes it harder to understand what happened.",
+        "Treat missing data as a diagnostic signal, not an invitation to bypass rules. Check the link inventory, reporting delay, program notices and your own implementation. If the discrepancy persists, send support a concise, privacy-conscious record: dates, link identifiers, relevant status labels and the exact question. Do not include unnecessary visitor data. Keep the response with your attribution notes."
+      ]
+    },
+    {
+      "heading": "Build a repeatable attribution review",
+      "paragraphs": [
+        "Make tracking review part of routine affiliate operations. At launch, verify the approved link and the visible destination. After a redesign or policy update, repeat a smaller implementation check. On a regular schedule, reconcile the reporting periods you use for business decisions, noting any unresolved questions instead of quietly assuming the most favorable interpretation.",
+        "A short review log prevents memory from becoming the evidence. Include the date, the link or placement checked, the reporting interval, any observed difference and the next action. If a program changes its attribution terms or reporting interface, capture the new wording and reassess old assumptions. This process cannot guarantee a conversion will be credited, but it can help identify configuration mistakes early and support a clearer conversation when numbers do not match expectations."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a click in an affiliate report prove a sale will be credited?",
+      "answer": "No. A click record and a credited conversion are different events. A later transaction may be subject to the program’s eligibility rules, attribution logic, review process and reporting schedule. Check the written terms and current status before drawing a conclusion."
+    },
+    {
+      "question": "Can I place an order through my own affiliate link to test tracking?",
+      "answer": "Do not assume this is allowed. Self-referrals and test transactions may be prohibited or excluded. Ask the program for an approved testing method and follow its instructions rather than creating a transaction that could violate the rules."
+    },
+    {
+      "question": "Why might my website analytics and affiliate dashboard differ?",
+      "answer": "They may use different event definitions, attribution windows, consent handling and reporting times. Privacy settings, blockers, redirects and incomplete tracking can also affect measurement. Compare like periods and investigate implementation details without assuming either report is a complete record of the other."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
