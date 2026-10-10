@@ -1,0 +1,106 @@
+export default {
+  "slug": "creator-platform-upload-preview-privacy-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Upload Previews and File Metadata Before Publishing",
+  "description": "Review preview images, filenames, embedded metadata and public-facing upload details before publishing on a creator platform, with a practical privacy checklist for creators.",
+  "excerpt": "A post can reveal more than its intended content through previews, filenames, or embedded file details. This pre-publication audit helps creators inspect those surfaces before they become visible.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Check the public preview and listing text separately from the content available to subscribers.",
+    "Use neutral, deliberate filenames and verify that drafts or export details do not reveal private information.",
+    "Inspect source files for embedded metadata where relevant, while preserving originals in a secure working archive.",
+    "Test the published view using the platform’s available preview or a controlled account state, rather than assuming the composer view matches the public page.",
+    "Treat platform preview controls as one layer of privacy, not a guarantee that content cannot be copied or captured."
+  ],
+  "sections": [
+    {
+      "heading": "Map every surface an upload can create",
+      "paragraphs": [
+        "Publishing is not always a single-file action. A platform may display a cover image, thumbnail, title, caption, filename, category, or excerpt in a public or subscriber-facing listing. Those surfaces can expose details even when the main post is restricted. Before uploading, list what the platform asks you to provide and which audience states may see each item: logged-out visitors, followers, paying subscribers, or other account roles.",
+        "This is a practical review of information exposure, not a claim that any particular platform uses a specific preview system. The available controls vary. Read the publishing interface and current platform documentation, then verify the result using the preview tools or account states the service makes available. If you cannot determine who can see a field, treat it as potentially exposed until you receive a clear answer."
+      ],
+      "bullets": [
+        "List the main upload, preview image, title, caption, tags, and attachment name.",
+        "Record the audience state in which each item is visible.",
+        "Mark controls you cannot verify instead of assuming they are private."
+      ]
+    },
+    {
+      "heading": "Choose preview assets deliberately",
+      "paragraphs": [
+        "A useful review can be done without publishing the full post: inspect the chosen image at thumbnail size, on a narrow mobile layout, and in any available logged-out preview. If no preview exists before publishing, consider whether the uncertainty is acceptable. When it is not, ask platform support or use a less revealing asset. The objective is to make an informed choice, not to infer undocumented platform behavior."
+      ]
+    },
+    {
+      "heading": "Clean filenames and visible text",
+      "paragraphs": [
+        "File and folder names often begin as internal shorthand: a legal name, project code, location, client reference, or date format. Before upload, replace internal names with a simple, non-identifying label that makes sense for your own records without exposing sensitive details. Review the title, caption, alt text, tags, and any text that the platform may display in a notification or share preview. A private note pasted into a public-facing field can be difficult to recall after publication.",
+        "Use a consistent naming method for working files, but do not put sensitive account details or personal identifiers into filenames that may be displayed. Keep internal identifiers in a separate, access-controlled inventory if you need them for production. When editing the visible description, read it as a stranger would: does it reveal a schedule, location clue, other person’s information, or a contact path that you did not intend to publish? Make the text useful to its audience while minimizing unnecessary disclosure."
+      ],
+      "table": {
+        "caption": "Pre-publication surface review",
+        "headers": [
+          "Surface",
+          "Check before publishing",
+          "Safer handling"
+        ],
+        "rows": [
+          [
+            "Thumbnail or cover",
+            "Crop, visible details, and small-screen appearance",
+            "Choose an intentional asset and preview its likely display sizes"
+          ],
+          [
+            "Filename",
+            "Names, project codes, dates, or locations",
+            "Use a neutral public-facing filename"
+          ],
+          [
+            "Caption and tags",
+            "Accidental personal, schedule, or contact details",
+            "Keep private production notes out of public fields"
+          ],
+          [
+            "Embedded file details",
+            "Metadata that may identify a device, creator, or location",
+            "Inspect with a suitable tool and remove only when appropriate"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect source-file metadata without losing your archive",
+      "paragraphs": [
+        "Metadata inspection is not a substitute for reviewing what is visible in the frame or audible in the file. A background sign, spoken name, or reflected screen can identify details even when metadata is absent. Treat the file review as one layer of a broader release checklist, and avoid promising yourself that technical cleanup makes a post anonymous or impossible to copy."
+      ]
+    },
+    {
+      "heading": "Verify the audience view and document the result",
+      "paragraphs": [
+        "Before release, use the platform’s available preview and audience controls to inspect the page as different viewers may encounter it. Check the profile listing, feed card, post page, and any share preview you can access. Confirm that the intended audience setting is active and that adjacent content or profile details do not reveal more than expected. When the service does not provide a logged-out preview, record that limitation and decide whether to proceed with a more conservative preview asset.",
+        "After publishing, check the live result promptly and correct mistakes using the platform’s available edit or removal controls. A correction cannot guarantee that a previously displayed preview was never seen or retained. For repeatable operations, save a brief checklist with the publishing record: asset version, audience setting, preview reviewed, metadata checked where appropriate, and date of verification. This makes it easier to spot process gaps without storing unnecessary personal data."
+      ],
+      "bullets": [
+        "Use a second-person review for sensitive releases when practical.",
+        "Keep a private record of the approved asset version and audience setting.",
+        "If a disclosure occurs, follow the platform’s current support and reporting process; do not assume deletion removes all copies."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a creator platform automatically remove file metadata?",
+      "answer": "Do not assume that it does. Platform behavior can vary by format and may change. Check the platform’s current documentation or test a non-sensitive sample, and inspect your own publishing copy when metadata matters."
+    },
+    {
+      "question": "If I delete a post, does that remove every preview or copy?",
+      "answer": "Not necessarily. A preview may already have been seen, saved, shared, or cached outside your control. Use available removal tools, but treat them as a request to remove content from the platform rather than a guarantee that every copy disappears."
+    },
+    {
+      "question": "Should I keep the original file after removing metadata?",
+      "answer": "If you need the original for legitimate business or production records, keep it in a secure, access-controlled archive and upload a clearly labeled publishing copy. Avoid storing extra copies without a purpose."
+    }
+  ]
+};
