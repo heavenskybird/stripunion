@@ -1,0 +1,114 @@
+export default {
+  "slug": "vr-platform-recommendation-history-privacy-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Recommendation and Viewing-History Controls",
+  "description": "A practical guide to assessing recommendation settings, viewing history, account separation and visible activity on VR adult platforms before use.",
+  "excerpt": "Recommendations and recent activity can make a headset session easier to resume, but they may also leave visible traces. Check what the platform saves, displays and lets you control.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Distinguish recommendations, recent activity, watch history and saved items; these may be separate controls.",
+    "Check privacy and account settings in both the platform and any browser or app used through the headset.",
+    "On a shared headset, sign out or use an appropriate separate account rather than assuming a private viewing mode hides all activity.",
+    "Test what appears on the home screen, recent list and account profile before relying on a privacy control.",
+    "Treat a deleted history entry as a change to visible account history, not proof that every system copy has been removed."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the different kinds of activity",
+      "paragraphs": [
+        "A recommendation is not necessarily the same thing as a viewing-history entry. A platform may separately show recently opened items, saved items, search history, resume points or suggestions based on prior activity. Each can appear in a different place and have different controls. Before assessing privacy, identify the surfaces you actually use: headset home screen, platform library, browser, app, profile page and any account dashboard available on another device.",
+        "Recommendations may also be visible without opening a detailed history page. A tile on a shared headset’s home screen could disclose recent activity even when an account menu is closed. Conversely, a service might use activity to shape recommendations without displaying a complete history list. Do not infer how data is used from the appearance of a recommendation alone; consult the platform’s settings and privacy information for the distinctions it makes."
+      ],
+      "table": {
+        "caption": "Activity surfaces to inspect before using a VR platform",
+        "headers": [
+          "Surface",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Home screen",
+            "Can recent, resumed or suggested items appear as tiles?"
+          ],
+          [
+            "Search",
+            "Are past queries shown, retained or available to clear?"
+          ],
+          [
+            "History",
+            "Can you view or remove activity, and what does the control say it removes?"
+          ],
+          [
+            "Saved list",
+            "Is a saved item visible to other users of the same account?"
+          ],
+          [
+            "Account dashboard",
+            "Can activity or recommendations be viewed outside the headset?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check settings in the headset and on the account",
+      "paragraphs": [
+        "A headset interface may expose only part of a platform’s controls. Check the platform’s account settings through the headset and, if appropriate, through its official account page on a device you control. Look for settings covering history, recommendations, saved items, search activity and notifications. Read the label and explanation for each control rather than assuming that a toggle labeled “private” applies to every activity surface.",
+        "Also check the browser or app used to reach the platform. Browser history, saved credentials, tabs and downloaded files can remain separate from a platform account’s viewing history. If you use a headset browser, investigate its own history and session controls. If you use a platform app, check whether account notifications or recommendation cards are shown after returning to the home screen. The platform and device can maintain different records, so one setting may not control both."
+      ],
+      "bullets": [
+        "Review platform, app and browser settings separately.",
+        "Check whether an account page is accessible from another device or user profile.",
+        "Read the scope of a control before treating it as a full-session privacy option."
+      ]
+    },
+    {
+      "heading": "Assess visible activity on a shared headset",
+      "paragraphs": [
+        "A headset may be used by more than one person, even when accounts are intended to be personal. Before opening a platform, consider whether the headset profile is shared, whether account credentials are saved, and whether recent items or suggestions appear on a common home screen. If other people can use the same profile, a platform’s history controls may not prevent them from seeing a tile, resuming a session or opening a saved list.",
+        "Where possible, use a separate user profile or account that you are authorized to manage. Confirm that switching profiles actually changes the account and activity surfaces you care about. Do not rely on merely closing an app or removing the headset; the account may remain signed in. If you cannot separate profiles, review the headset’s sign-out and session controls and decide whether using the platform on that shared setup fits your privacy needs."
+      ]
+    },
+    {
+      "heading": "Test controls without assuming they erase every record",
+      "paragraphs": [
+        "If the platform offers history or recommendation controls, check their stated effect. A control might remove entries from a visible list, pause certain activity from shaping recommendations, or affect only future activity. Those are different outcomes. Look for wording about timing, scope and any limits. If an explanation does not say whether a control applies to prior activity, assume that point is unresolved until the platform clarifies it.",
+        "Do not treat clearing a list as proof that all copies or related records have been erased. The service may describe separate retention practices, and the headset, browser or account provider may hold different information. A prudent check is to remove a non-sensitive test item if the service allows it, then inspect the same visible surfaces again. This can show how the interface behaves, but it cannot establish what every system stores behind the scenes."
+      ],
+      "bullets": [
+        "Distinguish clearing visible history from changing future recommendations.",
+        "Check whether a setting applies to one account, one device or all signed-in sessions.",
+        "Avoid using an important privacy decision as a test when the control’s effect is unclear."
+      ]
+    },
+    {
+      "heading": "Review recommendations and notifications after a session",
+      "paragraphs": [
+        "Activity can become visible after a session ends. Check what appears when you return to the headset home screen, open the platform library or switch accounts. Look for recent-item rows, continue-watching prompts, suggestions and notifications. A platform may offer ways to dismiss or hide items, but the presence of a control does not necessarily change the account’s retained history. Understand what the option is described as doing before using it.",
+        "Notifications can appear on a paired phone, computer or headset display, depending on the accounts and settings involved. Review notification previews and linked-device access, especially if another person uses those devices. Avoid casting or mirroring a session to a display unless you have checked which screen will receive the output. These checks complement recommendation settings: a private-looking platform screen does not control every device associated with an account."
+      ]
+    },
+    {
+      "heading": "Choose a setup based on the records you can control",
+      "paragraphs": [
+        "A useful platform comparison asks not only whether a service offers recommendations, but whether you can understand and manage the resulting activity. Give greater weight to clear labels, accessible account controls and a workable way to separate users when those features matter to you. If a platform does not explain what activity it displays or how its controls work, record that as an uncertainty rather than filling the gap with assumptions.",
+        "Before a session, decide whether the device, account and viewing environment are private enough for your needs. Afterward, sign out or switch accounts if that is part of your plan, review visible recent activity and check paired-device notifications. Keep expectations realistic: user-facing controls can reduce visible traces, but they do not necessarily eliminate every account, device or service record. Choose the arrangement you can operate consistently."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off recommendations also turn off viewing history?",
+      "answer": "Not necessarily. Recommendation settings and history controls may be separate. Read the platform’s explanation for each setting and check whether it affects past activity, future suggestions or only a visible list."
+    },
+    {
+      "question": "Is a headset’s private or guest mode enough to hide platform activity?",
+      "answer": "Do not assume so. Device-level modes may not control an account’s activity, paired devices, app records or platform history. Check the scope of the mode and the separate controls available in the platform and browser."
+    },
+    {
+      "question": "Does clearing recent items prove that all viewing data is deleted?",
+      "answer": "No. It may change what is visible in a particular list, but other account, device or service records may be governed by separate settings and retention practices. Review the platform’s explanation for the specific control."
+    }
+  ]
+};
