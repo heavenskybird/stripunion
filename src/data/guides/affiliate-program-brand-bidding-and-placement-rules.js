@@ -1,0 +1,110 @@
+export default {
+  "slug": "affiliate-program-brand-bidding-and-placement-rules",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Promotion Rules: Check Brand Bidding, Coupons and Link Placement",
+  "description": "Before promoting an affiliate offer, verify program rules for brand-name search ads, coupon claims, email, social posts, redirects and link placement.",
+  "excerpt": "A program’s general permission to send traffic does not necessarily answer whether a specific promotion method is allowed. Use this review to document channel-specific restrictions before launching ads, publishing coupons or placing affiliate links.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Check rules by promotion method; general approval to participate does not establish that every channel is permitted.",
+    "Look for explicit restrictions on brand-name bidding, domains, ad copy, coupon claims, email, social posts and redirects.",
+    "Confirm whether required disclosures or landing-page conditions apply to the placement you plan to use.",
+    "Save the current program terms and any written clarification before launching a campaign.",
+    "Recheck restrictions when the channel, creative, destination or program terms change."
+  ],
+  "sections": [
+    {
+      "heading": "Turn broad program rules into channel-specific questions",
+      "paragraphs": [
+        "Affiliate terms often address promotion in multiple places: a contract, program dashboard, help center, advertiser notices or individual campaign instructions. A statement that a program accepts affiliates does not by itself clarify whether paid search, email, social media, coupon pages or other placements are allowed. Build a list of the exact methods you plan to use and find the rule that applies to each one. If the documents conflict, treat the restriction as unresolved until the program clarifies it.",
+        "This review is different from a general traffic-source audit. The focus is whether a particular promotional action is permitted and under what conditions. A method may be allowed only with limits on wording, destination, disclosure, audience or bidding. Capture both the rule and its source so a teammate can understand why a campaign was approved, changed or declined."
+      ]
+    },
+    {
+      "heading": "Review brand bidding and paid-search terms carefully",
+      "paragraphs": [
+        "If you plan to buy search advertising, look for rules about bidding on a program, advertiser or product brand; misspellings and variations; use of brand terms in ad text; and the display URL or domain. Do not assume that a restriction on ad copy either permits or prohibits bidding itself. Search for definitions and examples in the program’s terms, and distinguish a general paid-search rule from any campaign-specific instruction.",
+        "Also check whether direct linking is allowed or whether ads must lead to a site you operate before reaching the advertiser. Verify restrictions on redirects, tracking templates, copied landing pages and domains that could appear official. If the policy is vague, submit the proposed keyword approach and destination for written clarification. Avoid launching first and interpreting silence as approval."
+      ],
+      "table": {
+        "caption": "Promotion-rule review by channel",
+        "headers": [
+          "Planned placement",
+          "Terms to check",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Paid search",
+            "Brand bidding, ad copy, display URL, direct linking and redirects",
+            "Relevant policy passage and written approval if needed"
+          ],
+          [
+            "Coupon or deal page",
+            "Coupon authorization, claim wording, expiration and offer accuracy",
+            "Current offer terms and page review"
+          ],
+          [
+            "Email",
+            "Permission, disclosure, recipient rules and allowed link format",
+            "Program email policy and final message"
+          ],
+          [
+            "Social post",
+            "Permitted networks, claims, account disclosures and link treatment",
+            "Social policy and approved creative"
+          ],
+          [
+            "On-site affiliate link",
+            "Placement, disclosure, destination and prohibited contexts",
+            "Page URL, disclosure location and link record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check coupon, incentive and claim restrictions",
+      "paragraphs": [
+        "Coupon and deal promotions deserve a separate review because an offer can be time-sensitive or subject to conditions. Confirm whether the program permits coupon listings, whether codes must be supplied or approved, and how to describe availability, eligibility and expiration. Do not present an unverified discount, benefit or limited-time claim as fact. If a code stops working or an offer changes, update or remove the claim promptly and keep a record of the correction.",
+        "Check whether incentives are permitted and what counts as an incentive under the terms. A rule might distinguish editorial comparison from a reward offered to a visitor, or it may impose limits on how a deal is framed. Do not infer permission from another affiliate’s page. Your own agreement and current campaign instructions govern your promotion."
+      ]
+    },
+    {
+      "heading": "Verify rules for email, social and editorial placements",
+      "paragraphs": [
+        "For email, look for program rules governing audience consent, sender identity, disclosures, link formats and prohibited mailing practices. For social platforms, check whether the program allows promotion on the specific channel and account type, and whether it has requirements for disclosure or creative. The affiliate program’s rules are only one layer: the publisher, email provider or social platform may impose separate requirements. Confirm both sets before publishing.",
+        "For editorial pages, identify where links may appear and whether comparisons, review claims, images or product wording have special conditions. Keep affiliate disclosures clear and close enough to the recommendation that readers can understand the relationship. This does not replace the program’s own requirements, but it helps make a placement transparent and maintainable. Record the destination and link location so you can audit them later."
+      ]
+    },
+    {
+      "heading": "Create a decision record and recheck it after changes",
+      "paragraphs": [
+        "Maintain a compact rules register with the channel, activity, relevant term, source, date checked, decision and unresolved questions. Save the applicable terms or a dated copy when permitted. If support gives a written interpretation, retain the full exchange and note which campaign, domain, keywords or creative it covers. An answer about one placement should not be treated as blanket permission for a different channel or campaign.",
+        "Repeat the review when you change a landing page, domain, ad copy, keyword list, coupon claim or traffic source, and when the program announces a policy update. Pause a placement if a material restriction becomes unclear. This reduces the chance that a previously compliant campaign drifts into a prohibited method as creative or destinations change."
+      ],
+      "bullets": [
+        "List every promotion method you plan to use.",
+        "Find the governing term for each method, including campaign-specific notices.",
+        "Ask focused questions when rules are ambiguous; retain written answers.",
+        "Review the final destination and creative against the approved method.",
+        "Set a reminder to recheck terms after material changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If an affiliate program approves my application, can I use any promotional channel?",
+      "answer": "Not necessarily. Participation approval and permission for a specific method are separate questions. Review channel-specific rules and any campaign restrictions before using a placement."
+    },
+    {
+      "question": "Does a ban on using a brand name in ad copy also settle brand-keyword bidding?",
+      "answer": "Not unless the terms clearly say so. Check bidding, ad text, domains and direct-linking rules separately, and request written clarification when the wording is ambiguous."
+    },
+    {
+      "question": "How often should a webmaster review program promotion rules?",
+      "answer": "Review them before launching a new channel or campaign and again after material changes to terms, creative, keywords, destination or placement. Keep dated notes so the decision can be revisited."
+    }
+  ]
+};
