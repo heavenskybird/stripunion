@@ -1,0 +1,133 @@
+{
+  "backlogId": "creator-platform-accessibility-fit-audit",
+  "slug": "creator-platform-accessibility-fit-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Accessibility for Your Publishing Workflow and Audience",
+  "description": "Evaluate creator-platform accessibility across publishing tools, fan-facing pages, support information and workable alternatives before committing.",
+  "excerpt": "Accessibility affects both the creator’s day-to-day work and a fan’s ability to understand and use a page. Use this audit to identify barriers, test critical workflows and compare what platforms document without assuming that a single feature tells the whole story.",
+  "keyTakeaways": [
+    "Assess accessibility from both the creator’s publishing perspective and the fan’s browsing perspective; one does not guarantee the other.",
+    "Test important tasks, not just the home page: account setup, editing, publishing, browsing, subscribing and contacting support.",
+    "Look for keyboard operation, clear focus indicators, meaningful labels, readable text and captions or transcripts where relevant.",
+    "Treat platform documentation as evidence to verify, not as a substitute for testing your own workflow and devices.",
+    "Record barriers, workarounds and unresolved questions so accessibility can be part of a reasoned platform decision."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the tasks that matter to your work",
+      "paragraphs": [
+        "Accessibility is not a single switch or badge. A platform may make one screen easy to use while an essential task—such as editing a post, reviewing a draft or managing account settings—remains difficult. Begin by listing the actions you and your audience need to complete, then assess those actions individually. This keeps the review practical and makes comparisons more meaningful than relying on general claims.",
+        "For a creator, critical tasks might include completing account setup, uploading or describing content, checking a preview, changing a post, reviewing account notices and finding help. For a fan, they might include understanding a page, locating membership information, browsing a creator’s offerings, completing a sign-up flow and finding cancellation information. The relevant list depends on the way you intend to use the platform; do not treat every possible feature as equally important."
+      ],
+      "bullets": [
+        "Choose several essential tasks for each user group: creator and fan.",
+        "Include both routine actions and an account or billing task that users may need only occasionally.",
+        "Note the device, browser, input method or assistive technology used during each test.",
+        "Separate a platform limitation from a device, browser or temporary connection problem before drawing a conclusion."
+      ]
+    },
+    {
+      "heading": "Check navigation and operation without a mouse",
+      "paragraphs": [
+        "Keyboard access is a useful first check for interactive parts of a website. Try moving through menus, forms, settings and publishing controls using the keyboard alone. The currently selected control should be apparent, and the order should make sense. If the focus disappears, jumps unexpectedly or becomes trapped in a panel, record where it happens and whether it prevents a task from being completed.",
+        "Accessible interaction also depends on clear names and instructions. A field should communicate what information it asks for, and an error should help explain what needs attention. Buttons should be distinguishable by purpose rather than appearance alone. If you use a screen reader, test whether important controls and status messages are announced in a useful way. A brief check of a landing page cannot establish that every workflow is accessible, so test the specific paths on which your operation depends."
+      ],
+      "bullets": [
+        "Can you reach and activate important controls without a mouse?",
+        "Is keyboard focus visible and does it follow a sensible sequence?",
+        "Are form fields, buttons and errors understandable when encountered out of visual context?",
+        "Can you open, navigate and close dialogs or menus without losing your place?"
+      ]
+    },
+    {
+      "heading": "Inspect content presentation and fan-facing information",
+      "paragraphs": [
+        "A creator’s published page is part of the accessibility experience. Look at text size and contrast, heading structure, link descriptions and whether important information relies on color or an image alone. Consider whether a fan can understand what an offer includes, what is optional and where to find the relevant terms. Clear structure helps people navigate and can reduce confusion for many users, not only people using assistive technology.",
+        "Check how the platform handles captions, transcripts, alternative text or other content descriptions that are relevant to your planned publishing format. Do not assume that a feature exists, applies to every content type or works automatically. See whether the workflow allows you to provide descriptions, whether those descriptions remain associated with the item after publication and whether a fan can find them. When the platform gives limited control, document the gap and decide whether another publishing approach can address it without creating a confusing or inaccessible experience."
+      ],
+      "bullets": [
+        "Review heading order, link wording, text resizing and contrast on creator and fan pages.",
+        "Check whether important instructions or labels are communicated in more than one way.",
+        "Confirm how relevant caption, transcript or description fields are created and displayed.",
+        "Review a published preview as well as the editing screen; they may not present information identically."
+      ]
+    },
+    {
+      "heading": "Compare evidence, documentation and real-world workarounds",
+      "paragraphs": [
+        "Platform accessibility statements, help pages and release notes can indicate what has been considered and where to ask follow-up questions. Look for specific descriptions of supported tasks, known limitations, contact methods and a process for reporting barriers. Broad assurances without examples provide little basis for judging whether your own essential workflows will work.",
+        "Use a simple evidence log. For every issue, record the task, page or control, device and input method, what happened, whether you found a workaround and how much that workaround affects the task. Distinguish a reliable workaround from one that requires extra effort, another person’s help or disclosure of information you would rather keep private. A workaround can make a task possible without making the experience acceptable for your needs."
+      ],
+      "table": {
+        "caption": "A practical evidence log for comparing platform accessibility",
+        "headers": [
+          "Area to assess",
+          "Evidence to record",
+          "Decision question"
+        ],
+        "rows": [
+          [
+            "Creator workflow",
+            "Task, input method, barrier and workaround",
+            "Can I reliably complete essential publishing and account tasks?"
+          ],
+          [
+            "Fan-facing page",
+            "Navigation, offer clarity and available descriptions",
+            "Can intended fans understand and use the page?"
+          ],
+          [
+            "Support and documentation",
+            "Specificity, contact route and known limitations",
+            "Can I get a useful answer when a barrier blocks a task?"
+          ],
+          [
+            "Overall fit",
+            "Impact, frequency and unresolved dependencies",
+            "Is the remaining friction acceptable for this use case?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Turn findings into a platform decision",
+      "paragraphs": [
+        "Accessibility should be considered alongside audience fit, account controls, commercial terms and portability. Set a minimum standard for essential tasks before comparing platforms. For example, you may decide that you must be able to publish and correct a page independently, or that fans must be able to locate membership information using a keyboard. A platform that performs well on nonessential features should not obscure failure on a task you depend on.",
+        "Recheck the most important workflows when a platform changes its interface or when your publishing needs change. Save dated notes, screenshots or support responses only when doing so is appropriate and safe; avoid collecting unnecessary personal information. If you contact support, describe the task and barrier in concrete terms and ask whether a documented alternative exists. The goal is not to certify a platform universally, but to make a transparent decision about a particular workflow and audience."
+      ],
+      "bullets": [
+        "Set essential accessibility requirements before scoring optional features.",
+        "Weight barriers by their effect on task completion, frequency and available alternatives.",
+        "Keep evidence and uncertainty separate: an untested feature is not a confirmed capability.",
+        "Revisit the audit after substantial workflow or interface changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a platform’s accessibility statement tell me whether it will work for me?",
+      "answer": "It can provide useful information about design goals, known issues and support channels, but it cannot establish that your particular device, assistive technology and workflow will work. Use documentation to choose what to test and what to ask, then verify the tasks that matter to you."
+    },
+    {
+      "question": "Should I test every feature before choosing a creator platform?",
+      "answer": "Start with essential tasks rather than trying to test every feature. Include setup, publishing, account management and the fan-facing actions central to your business. Expand the test if a nonessential feature becomes important to your plans."
+    },
+    {
+      "question": "What if an accessibility barrier has a workaround?",
+      "answer": "Record the workaround and its cost. Consider whether it is repeatable, private, independent and workable when you are busy or using a different device. A workaround may reduce the impact of a barrier, but it does not necessarily make the platform a good fit."
+    },
+    {
+      "question": "How should I compare platforms when I cannot test every one fully?",
+      "answer": "Use the same essential tasks and evidence categories for each option. Mark anything not tested as unknown, ask specific questions through documented support channels and avoid treating missing information as proof that a feature works or fails."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

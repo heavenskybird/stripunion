@@ -1,0 +1,133 @@
+{
+  "backlogId": "adult-subscription-billing-descriptor-audit",
+  "slug": "adult-subscription-billing-descriptor-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Subscription Billing Privacy: Check Descriptors and Payment Records Before Paying",
+  "description": "Review how an adult subscription may appear in payment records, what information a payment method exposes and how to save records without creating unnecessary privacy risks.",
+  "excerpt": "A private account name does not necessarily determine what appears on a card or bank statement. Before subscribing, identify the billing route, inspect the available descriptor information and decide how to store receipts and account records safely.",
+  "keyTakeaways": [
+    "Separate the name shown on a service account from the merchant information shown by a bank, card issuer or payment intermediary.",
+    "Check the checkout flow and available billing disclosures before submitting payment details; do not assume a descriptor will be discreet.",
+    "Consider who can view payment notifications, shared statements, email receipts and saved payment accounts.",
+    "Choose payment controls that fit your needs, while recognizing that a separate card or digital wallet does not guarantee anonymity.",
+    "Keep only the records you need, store them securely and understand how to locate cancellation and transaction details later."
+  ],
+  "sections": [
+    {
+      "heading": "Map the entire route from checkout to statement",
+      "paragraphs": [
+        "Billing privacy is shaped by more than the display name on a website. A payment may pass through a platform, payment processor, app store or other intermediary, and the resulting entry can differ from the name a user sees while browsing. The exact display can depend on the payment route and the financial institution. A creator or service account can also use a public-facing name that is different from the legal or billing details required by a payment provider.",
+        "Before entering payment information, identify the route the checkout is asking you to use. Read the payment and billing disclosures shown at checkout and any linked help information about receipts, renewals and transaction records. If the descriptor is not explained, treat it as unknown rather than assuming it will match the service name or be hidden. If the wording matters for your safety, do not proceed until you have enough reliable information to make an informed choice."
+      ],
+      "bullets": [
+        "Note whether payment is processed directly, through an app store or through another named intermediary.",
+        "Look for billing descriptor, receipt, renewal and refund information before paying.",
+        "Check whether checkout opens a different domain or payment interface and confirm that the transition is expected.",
+        "Treat absent or unclear descriptor information as unresolved, not as a privacy assurance."
+      ]
+    },
+    {
+      "heading": "Review who can see financial and account information",
+      "paragraphs": [
+        "The transaction record is only one possible point of exposure. A shared bank account, jointly accessible card portal, household email inbox or family payment wallet may reveal a merchant entry or receipt to another person. A lock-screen notification can expose part of an email or financial alert even if the underlying account is protected. Consider the actual access arrangements around each channel, including devices where messages or password-manager entries are synchronized.",
+        "An account’s billing name, email address and payment profile may also connect a subscription to a wider identity. Review what information the service requests, which details are required for payment and whether optional fields can be left blank. Avoid entering false payment information; inaccurate information can interfere with verification, support or refunds. Instead, minimize information where the service permits it and use a separate, controlled email or payment account only if it is allowed and practical for your circumstances."
+      ],
+      "bullets": [
+        "Check who can access the payment account, statement, receipt inbox and notification previews.",
+        "Review shared-device and synchronized-account settings before checkout.",
+        "Distinguish required billing information from optional profile details.",
+        "Do not rely on a pseudonymous service profile to conceal a transaction from a financial account holder."
+      ]
+    },
+    {
+      "heading": "Choose payment controls with realistic expectations",
+      "paragraphs": [
+        "Payment methods may offer different controls, such as spending limits, transaction alerts, card replacement or the ability to disable future charges. Availability depends on the issuer and payment route, so verify the controls with the provider that actually handles the transaction. A prepaid or virtual payment method may change how a charge is managed, but it does not automatically make a purchase untraceable or prevent a merchant record from being created.",
+        "Choose a method you can monitor and manage without putting another person’s payment credentials at risk. Consider whether recurring billing is enabled, how the next charge is described and what steps are needed to stop it. If you use a wallet or intermediary, understand whether cancellation must happen with the service, the intermediary or both. Do not assume that removing a card from a profile cancels an active subscription."
+      ],
+      "table": {
+        "caption": "Compare payment routes by the records and controls they create",
+        "headers": [
+          "Question",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Who processes the charge?",
+            "Name and route presented at checkout",
+            "The processor or intermediary may affect receipts and transaction labels."
+          ],
+          [
+            "What appears in records?",
+            "Descriptor information and receipt destination",
+            "Statements, email and account history can be visible to different people."
+          ],
+          [
+            "What controls are available?",
+            "Alerts, limits, card controls and recurring-payment settings",
+            "Controls can help manage spending but vary by provider."
+          ],
+          [
+            "How is renewal stopped?",
+            "Cancellation location and confirmation method",
+            "Removing a payment method may not end the membership."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep receipts and notifications from becoming a second exposure",
+      "paragraphs": [
+        "Receipts help resolve billing questions, confirm a cancellation or identify a transaction later. They can also reveal information if delivered to a shared inbox or shown in a notification preview. Before completing checkout, consider which email address will receive receipts and whether that inbox is accessible to others. Review notification previews on devices you share, and avoid saving sensitive account details in a place where another user can casually see them.",
+        "Keep records proportionate to your needs. A transaction date, amount, merchant label and cancellation confirmation may be sufficient for ordinary account management, but store those details in a private account or secure record system. Do not create unnecessary screenshots containing card numbers, addresses or unrelated personal information. If you need evidence for a billing inquiry, preserve the relevant parts and follow the payment provider’s instructions for submitting them securely."
+      ],
+      "bullets": [
+        "Use an email inbox you can access and protect, if the service allows a choice.",
+        "Review lock-screen and email notification previews before subscribing.",
+        "Save cancellation confirmations and relevant receipts in a controlled location.",
+        "Avoid retaining full payment credentials or unnecessary identity documents in personal notes."
+      ]
+    },
+    {
+      "heading": "Plan cancellation and account closure before the first charge",
+      "paragraphs": [
+        "Understand where renewal is managed before you subscribe. A membership purchased through an intermediary may require cancellation through that intermediary, while a direct purchase may use the service’s account settings. Read the instructions and note the effective date, any confirmation step and whether access continues through a paid period. Keep a record of the completed cancellation rather than relying only on a button click or an email draft.",
+        "If a charge does not match your records, compare the date and descriptor with your receipt and account history before disputing it. Contact the relevant service or payment provider through a verified channel and share only information needed to identify the transaction. When access to the account is shared or compromised, secure the email and payment accounts too; changing one service password may not protect linked accounts. A calm recordkeeping plan makes it easier to distinguish a renewal, a delayed entry and an unfamiliar transaction."
+      ],
+      "bullets": [
+        "Identify the cancellation location and confirmation method before checkout.",
+        "Record the renewal date and set a reminder if you need one.",
+        "After cancellation, verify the account status and save confirmation details.",
+        "Use official contact routes and disclose only the information needed to resolve a billing issue."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will a private profile name keep a subscription off a bank statement?",
+      "answer": "Not necessarily. Profile names and payment descriptors are separate, and the statement wording can depend on the payment route and financial institution. Check the available billing information before paying, and treat an unclear descriptor as unknown."
+    },
+    {
+      "question": "Does using a digital wallet or virtual card make a payment anonymous?",
+      "answer": "No payment method should be assumed to provide anonymity. It may offer useful spending or account controls, but the service, payment provider or financial institution may still keep transaction records. Review the terms and records associated with the specific route."
+    },
+    {
+      "question": "If I remove my payment method, does that cancel the subscription?",
+      "answer": "Not necessarily. Removing a payment method and canceling a recurring membership can be separate actions. Follow the service or billing intermediary’s cancellation procedure and verify the resulting account status."
+    },
+    {
+      "question": "What billing details should I save?",
+      "answer": "Keep the information needed to manage the account or resolve a billing issue, such as the transaction date, relevant receipt and cancellation confirmation. Store it somewhere protected and avoid retaining unnecessary payment credentials or sensitive personal data."
+    }
+  ],
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
