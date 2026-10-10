@@ -1,0 +1,104 @@
+export default {
+  "slug": "creator-platform-policy-change-log-and-review-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Build a Policy Change Log for Terms, Features and Business Decisions",
+  "description": "Create a practical creator platform policy change log to track terms, feature changes, payout documentation, content rights, and review actions over time.",
+  "excerpt": "A platform decision is not finished when an account is opened. A simple change log helps creators notice updates, identify which business assumptions may be affected, and record what they verified without treating every announcement as a crisis.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Keep dated copies or references for important terms and notices, and record when you reviewed them.",
+    "Track changes by business area, such as fees, payout documentation, content rights, discovery, and account controls.",
+    "Separate a platform’s stated change from your interpretation of its likely effect.",
+    "Use explicit review triggers so important updates lead to a proportionate decision.",
+    "Maintain your own business records rather than relying on a platform announcement feed as the only archive."
+  ],
+  "sections": [
+    {
+      "heading": "Why ongoing policy review belongs in platform selection",
+      "paragraphs": [
+        "Platform terms and operational features can be updated after a creator has already invested time in building a catalog or audience. A change log turns that ongoing uncertainty into a manageable review process. It does not predict whether a service will change or imply that every update is harmful. It gives you a place to record what changed, when you learned about it, which business assumptions it touches, and what you decided to do next.",
+        "This process complements, rather than replaces, a pre-join review of commercial terms, content rights, discovery, and payout documentation. The earlier review captures the starting position; the log helps you compare later notices with that baseline. Keeping the two connected makes it easier to spot a meaningful difference instead of relying on memory or a headline summary."
+      ]
+    },
+    {
+      "heading": "Set up a log that preserves evidence and context",
+      "paragraphs": [
+        "A useful record can be a spreadsheet, document, or another secure system you already maintain. Include the date you found the notice, its effective date if stated, the source location, the topic, a short neutral summary, and the action needed. Preserve a copy or a reliable reference where permitted by the service’s terms and your own recordkeeping practices. Note when the source is an announcement, help page, agreement, or direct account notice; those materials may serve different purposes.",
+        "Keep the original wording or source reference separate from your interpretation. For example, record what a notice says about a feature before writing how you think it could affect your workflow. This distinction helps you revisit the decision if more information appears. Avoid turning the log into an unverified collection of screenshots without dates or context. A useful record lets you answer what changed, where the information came from, and what you did about it."
+      ],
+      "table": {
+        "caption": "Suggested fields for a creator-platform change log",
+        "headers": [
+          "Field",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Date found and effective date",
+            "Distinguishes when you learned of a change from when it may apply"
+          ],
+          [
+            "Source and topic",
+            "Makes it possible to find the original notice and group related updates"
+          ],
+          [
+            "Stated change",
+            "Preserves a concise, neutral summary of what the platform says"
+          ],
+          [
+            "Business area affected",
+            "Connects the notice to rights, discovery, payouts, account controls, or workflow"
+          ],
+          [
+            "Review and decision",
+            "Records questions checked, action taken, owner, and next review date"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Track changes by their business impact area",
+      "paragraphs": [
+        "Choose categories that match how your creator business operates. Common areas to monitor include commercial terms, content license or promotional-use language, permitted promotion, account access, audience discovery, payout statements, deductions, and content portability. The point is not to watch every platform feature equally. It is to connect an update to something you rely on, such as a workflow, record, audience route, or right you previously reviewed.",
+        "A single notice can touch more than one area. Record the primary topic and add related categories when relevant. For example, a change to how a feature works might affect both fan access and your publishing workflow. Do not assume that a feature announcement changes contractual terms, or that a terms update automatically changes how a specific account is treated. Verify the actual language and scope before drawing conclusions."
+      ]
+    },
+    {
+      "heading": "Use clear triggers for a closer review",
+      "paragraphs": [
+        "Not every update needs an immediate business response. Define the kinds of changes that warrant a closer review in your own operation. Triggers might include revised terms governing content use, a changed process for payout records, new account-control options, altered discoverability settings, or a feature you use being retired. These are prompts to check the relevant documentation and consequences, not automatic instructions to leave a platform or change your business.",
+        "For each trigger, identify the next question. If a payout document format changes, can you still reconcile the statement with your records? If language concerning content rights changes, which exact provision should you compare with the prior version? If a discovery feature changes, how dependent is your current workflow on it? Specific questions make reviews quicker and prevent a vague sense of risk from becoming an unsupported conclusion."
+      ]
+    },
+    {
+      "heading": "Record decisions, owners and follow-up dates",
+      "paragraphs": [
+        "A log is only useful if it captures what happened after a notice was reviewed. Record the decision, the reason, any open questions, and who is responsible for the next step. Possible outcomes include no action after review, a workflow adjustment, a request for clarification through an appropriate support route, or a scheduled reassessment. Keep the rationale concise and tied to the evidence available at the time.",
+        "Set a follow-up date when a question cannot yet be answered or when an announced change has a future effective date. Mark the difference between a confirmed fact and an assumption. If you run a team, assign one person to monitor notices and another to review changes affecting their area, with access limited to what each person needs. Clear ownership reduces the chance that several people assume someone else is tracking an important update."
+      ]
+    },
+    {
+      "heading": "Protect the log and avoid relying on one source",
+      "paragraphs": [
+        "A change log may contain business-sensitive notes, copies of platform notices, or operational decisions. Store it where authorized collaborators can access it and where unrelated people cannot. Keep an independent business record rather than assuming an announcement feed, inbox, or account dashboard will retain every item in a form you can find later. Make sure any copies you keep comply with applicable terms and your organization’s record practices.",
+        "When an update matters, locate the underlying platform documentation and read the relevant sections in context. A short notice may summarize a change without answering how it applies to your account or existing content. If the wording remains unclear, record the uncertainty and seek qualified advice where appropriate; do not present an interpretation as a guarantee. A disciplined record supports better decisions while acknowledging that platform rules and features can evolve."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should a creator review a platform change log?",
+      "answer": "Choose a cadence that fits your operation and the sources of notices you use, then review promptly when a change touches an important business dependency. The key is to assign responsibility and follow up on dated or unresolved items rather than relying on memory."
+    },
+    {
+      "question": "Does a platform announcement automatically change its contract terms?",
+      "answer": "Not necessarily. An announcement and a formal terms document may serve different purposes. Check the relevant official documentation, effective dates, and scope before concluding what has changed or how it applies."
+    },
+    {
+      "question": "What should I do when an update is unclear?",
+      "answer": "Record the exact source, the question you cannot answer, and the business area it may affect. Seek clarification through an appropriate channel or qualified adviser when needed, and avoid treating an uncertain interpretation as established fact."
+    }
+  ]
+};
