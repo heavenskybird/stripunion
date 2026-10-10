@@ -1,0 +1,116 @@
+export default {
+  "slug": "webmaster-affiliate-report-reconciliation-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reporting Reconciliation: Match Clicks, Conversions and Statements",
+  "description": "A practical workflow for checking affiliate reports, reconciling reporting periods, documenting discrepancies and reviewing statements without assuming every dashboard uses the same definitions.",
+  "excerpt": "Affiliate dashboards can use different time zones, attribution windows and status definitions. This workflow helps webmasters compare records carefully and raise specific questions when numbers do not align.",
+  "publishedAt": "2026-10-10",
+  "updatedAt": "2026-10-10",
+  "keyTakeaways": [
+    "Record each program’s reporting time zone, date boundaries and definitions before comparing totals.",
+    "Separate clicks, pending actions, approved conversions, adjustments and payable balances.",
+    "Compare like-for-like periods and allow for documented processing delays before classifying a difference as an error.",
+    "Keep dated exports, statement records and support correspondence in an organized, access-controlled archive.",
+    "Ask focused questions that identify the report, date range and discrepancy rather than sending vague claims."
+  ],
+  "sections": [
+    {
+      "heading": "Learn the reporting definitions before comparing numbers",
+      "paragraphs": [
+        "A report is only useful when you understand what each column means. A click count may be filtered, deduplicated or recorded under a particular attribution rule. An action may appear as pending before it is approved, and an approved item may later be adjusted under program terms. Do not compare two dashboards as though their labels necessarily describe the same event.",
+        "Create a short reference for every program you work with. Record definitions for clicks, referrals, conversions, reversals, approval status and payable balance, along with any stated reporting delay. If a definition is missing, ask the program contact for clarification and retain the answer. This prevents a normal difference in reporting logic from being confused with a tracking failure."
+      ],
+      "bullets": [
+        "Identify the meaning of each report column and status.",
+        "Record stated attribution and adjustment rules without assuming they match another program.",
+        "Note when reports are updated and when pending items may change status."
+      ]
+    },
+    {
+      "heading": "Align date ranges and time zones",
+      "paragraphs": [
+        "A common source of apparent mismatch is comparing periods that do not have the same boundaries. One report may use a different time zone, start its day at a different hour or display the date when an action occurred rather than when it was recorded. Month-end reports can be especially difficult to compare if the dashboards use different cutoffs.",
+        "For each comparison, write down the start and end dates, time zone and export time. Convert records only when you can do so consistently and preserve the original values alongside any converted view. If the program does not explain its reporting calendar, ask rather than choosing an assumed time zone. Keep comparisons at the same level of detail, such as daily against daily or monthly against monthly."
+      ]
+    },
+    {
+      "heading": "Build a repeatable reconciliation routine",
+      "paragraphs": [
+        "A routine can be lightweight: export reports on a consistent schedule, save the original file, record the date range and compare totals against your own permitted analytics. The goal is not to force every system to match exactly. It is to notice material changes, confirm that expected events appear and identify where the systems measure different stages of a referral.",
+        "Use separate columns for clicks, actions, approvals, reversals and amounts if the reporting system provides them. Avoid treating a pending action as a completed payable event. If your own analytics use a different counting method, document the distinction and compare trends or defined event groups rather than raw totals. Keep a notes column for known reporting delays or policy changes."
+      ],
+      "table": {
+        "caption": "A reporting reconciliation record",
+        "headers": [
+          "Record",
+          "What to capture",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Report export",
+            "Program, export date, reporting period and time zone",
+            "Makes future comparisons reproducible"
+          ],
+          [
+            "Event definitions",
+            "Column labels, status meanings and stated delays",
+            "Prevents unlike measures being compared"
+          ],
+          [
+            "Discrepancy",
+            "Metric, affected dates and observed difference",
+            "Gives support a specific issue to investigate"
+          ],
+          [
+            "Resolution",
+            "Response, adjustment or follow-up date",
+            "Creates an audit trail for later statements"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish a timing difference from a discrepancy",
+      "paragraphs": [
+        "A difference is not automatically an error. Reporting may lag, actions can remain pending, and later adjustments may change an earlier period. First check the program’s documented processing schedule and status definitions. Then compare the same date range after any stated delay has passed, while preserving the earlier snapshot so that changes remain visible.",
+        "If a difference persists, narrow it down. Identify the exact metric, reporting period, status and export version involved. Check whether a tracking link changed, a campaign label was mistyped or a site analytics filter excludes a relevant event. Do not alter tracking or resend traffic as a test unless the program permits the method and you can do so without generating misleading activity."
+      ],
+      "bullets": [
+        "Check documented processing delays before escalating.",
+        "Compare the same status, period and time zone.",
+        "Investigate changes in links, labels or measurement filters.",
+        "Do not create artificial referrals or test transactions to force a match."
+      ]
+    },
+    {
+      "heading": "Review statements and payout records separately",
+      "paragraphs": [
+        "A performance report and a financial statement answer different questions. Reports may describe activity, while statements may show approved balances, adjustments, fees or payment status according to the program’s terms. Reconcile statement lines against the program’s definitions and retain the relevant reporting period rather than expecting every report total to equal a payment record.",
+        "Store statements, receipts and correspondence with access limited to people who need them. Keep a record of currency and any conversion information shown by the program, but do not infer an exchange rate or payment timing that the documents do not state. If an amount or adjustment is unclear, ask support to identify the line item and its applicable rule. Do not send sensitive account credentials in a support request."
+      ]
+    },
+    {
+      "heading": "Raise a precise support question and close the loop",
+      "paragraphs": [
+        "A useful support request states what you compared and what remains unexplained. Include the program name, report type, date range, time zone, relevant status and export date. Describe the discrepancy neutrally, such as one report showing a different count for a defined period, and ask which rule or processing step explains it. Avoid asserting a cause before the evidence supports one.",
+        "When support replies, add the explanation and any promised follow-up date to your reconciliation record. If the answer changes a reporting definition or reveals a recurring delay, update your reference sheet. That makes later reviews faster and reduces repeated queries. Use only approved communication and data-sharing channels, and include the minimum identifiers needed for investigation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why might my affiliate dashboard and site analytics show different click counts?",
+      "answer": "They may use different event definitions, filters, time zones, deduplication rules or reporting delays. Compare the definitions and periods first; raw totals are not necessarily directly equivalent."
+    },
+    {
+      "question": "Should I treat a pending conversion as payable?",
+      "answer": "No. Use the program’s status definitions and terms. Pending, approved, adjusted and payable items can represent different stages, so keep them separate in your reconciliation."
+    },
+    {
+      "question": "What should I include when asking about a report discrepancy?",
+      "answer": "Identify the report, metric, date range, time zone, export date and status being compared. Explain the difference neutrally and ask which reporting rule or process applies."
+    }
+  ]
+};
