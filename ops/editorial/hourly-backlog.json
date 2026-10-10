@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09",
+  "updated_at": "2026-10-10",
   "hourly_target": 5,
   "rolling_24h_target": 120,
   "blocker_taxonomy": [
@@ -3208,7 +3208,7 @@
       "intent": "Adult Game Storefronts: Compare Access, Compatibility and Update Signals",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -3221,7 +3221,7 @@
       "intent": "Adult Shop Sustainability Claims: Check Materials, Packaging and Disposal",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -3234,7 +3234,7 @@
       "intent": "VR Adult Platforms: Check Update Cadence and Library Freshness",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -3247,7 +3247,7 @@
       "intent": "Adult Platform Email Aliases: Separate Inboxes Without Losing Account Recovery",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -3260,7 +3260,7 @@
       "intent": "Dating Platforms: Compare Relationship-Intent Labels Before You Join",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
