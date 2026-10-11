@@ -1,0 +1,151 @@
+{
+  "backlogId": "adult-site-recurring-payment-preflight",
+  "slug": "adult-site-recurring-payment-preflight",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Before Paying an Adult Site: Check One-Time and Recurring Charges",
+  "description": "Learn how to distinguish one-time payments from recurring adult-site charges, confirm renewal terms, review payment controls and keep cancellation records.",
+  "excerpt": "A checkout can involve a single purchase, an ongoing membership, or a payment that renews unless canceled. This pre-payment checklist helps you identify the commitment and keep useful records.",
+  "keyTakeaways": [
+    "Read the checkout summary and terms to identify whether a payment is one-time, recurring, or tied to a trial or introductory period.",
+    "Confirm the renewal interval, renewal trigger, cancellation route, and deadline before submitting payment.",
+    "Do not assume that closing an account, deleting an app, or removing a payment method cancels a recurring authorization.",
+    "Save confirmation and cancellation records, and use the merchant’s stated process before contacting a payment provider about a disputed charge."
+  ],
+  "sections": [
+    {
+      "heading": "Classify the payment before entering details",
+      "paragraphs": [
+        "Start by deciding what kind of transaction the checkout describes. A one-time purchase generally has a different commitment from a membership that renews, a recurring credit purchase, or an introductory offer that changes terms after an initial period. Read the checkout summary and any linked terms rather than relying only on a button label or promotional headline. If the language does not make the payment type clear, pause and ask the merchant for an explanation before proceeding.",
+        "Look for the total due now and what may be due later. Note whether the payment is for access, an item, a balance of credits, or a combination. If the checkout offers add-ons or preselected options, verify that the final summary reflects what you intended. A clear record of the selected product and billing structure is useful if a later statement or renewal does not match your understanding."
+      ],
+      "bullets": [
+        "Identify whether the charge is one-time, recurring, or conditional on a trial period.",
+        "Check the amount due now and any stated future renewal amount or calculation method.",
+        "Review selected add-ons and the final checkout summary before submitting."
+      ]
+    },
+    {
+      "heading": "Translate renewal language into a calendar event",
+      "paragraphs": [
+        "For a recurring payment, find the billing interval and the event that begins it. A plan might renew on a stated date, after a set period, or according to terms tied to activation. Do not guess from the signup date if the terms specify another date. Record the date shown at checkout and the interval so you can compare it with later account notices and payment records.",
+        "Check whether a trial or reduced introductory period converts to a paid plan automatically, and identify the deadline for stopping that conversion if you do not want the next charge. A reminder can help, but it does not replace following the merchant’s cancellation procedure. If the merchant’s date or interval is unclear, request written clarification before payment rather than relying on an informal assumption."
+      ],
+      "table": {
+        "caption": "Payment terms to translate before checkout",
+        "headers": [
+          "Term",
+          "Question to answer",
+          "Action"
+        ],
+        "rows": [
+          [
+            "Payment type",
+            "Is this a purchase, membership, credit balance, or another charge?",
+            "Write down the exact item or access being paid for."
+          ],
+          [
+            "Renewal",
+            "Does it repeat, and at what interval or date?",
+            "Record the stated date or interval."
+          ],
+          [
+            "Trial or introduction",
+            "Does it convert automatically, and when?",
+            "Note the cancellation deadline and route."
+          ],
+          [
+            "Cancellation",
+            "What action stops future charges?",
+            "Locate the instructions before paying."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what cancellation actually changes",
+      "paragraphs": [
+        "Cancellation can mean different things: stopping future renewals, ending access immediately, preventing a trial from converting, or closing an account. Look for the merchant’s definition and the steps it requires. Some services may keep access active through an already-paid period; others may describe a different outcome. Do not infer the result from a generic account deletion button or from removing an app from a device.",
+        "Find out whether cancellation must be completed in the merchant account, through a payment provider, or through another route identified in the terms. If more than one route is described, follow the one that applies to your purchase and save proof of completion. A payment method removal is not reliable evidence that a recurring agreement has ended unless the merchant explicitly says that is the cancellation method."
+      ],
+      "bullets": [
+        "Locate the exact cancellation steps before you need them.",
+        "Check whether access continues after cancellation and whether that affects renewal.",
+        "Keep confirmation showing the date and status of the cancellation."
+      ]
+    },
+    {
+      "heading": "Choose payment controls that match the commitment",
+      "paragraphs": [
+        "Payment choices differ in the controls they provide, and availability depends on the merchant and provider. Before using a card, wallet, or other option, consider whether you can review transactions, manage recurring authorizations, receive useful alerts, and resolve a billing question. Do not assume that a particular payment method hides a transaction, prevents renewal, or guarantees a dispute outcome.",
+        "Separate payment security from billing privacy. A method may offer account controls without changing what appears on a statement or receipt. If the descriptor matters to you, look for the merchant’s stated billing information and the payment provider’s description of transaction records. When information is incomplete, treat that as uncertainty to resolve before paying—not as proof of a particular outcome."
+      ],
+      "bullets": [
+        "Check which payment methods the merchant actually accepts at checkout.",
+        "Review available transaction alerts and recurring-payment controls with the provider.",
+        "Do not rely on a payment method as a substitute for cancellation."
+      ]
+    },
+    {
+      "heading": "Keep records that make later reconciliation possible",
+      "paragraphs": [
+        "Save the order confirmation, checkout summary, renewal terms, and any message that clarifies a payment question. If you start a recurring plan, record the account used, start date, renewal interval, and cancellation route in a private place you can access later. A short note is often more useful than trying to reconstruct terms from memory after a charge appears.",
+        "When reviewing a statement, compare the date and amount with the merchant’s confirmation and your account status. If a charge is unfamiliar, check whether it corresponds to a purchase, renewal, or other transaction in the account before taking further action. Use the merchant’s official support route for a billing explanation and keep its response. If you believe a charge is unauthorized or unresolved, consult your payment provider’s process and follow its instructions."
+      ],
+      "table": {
+        "caption": "A minimal recurring-payment record",
+        "headers": [
+          "Record",
+          "Why keep it"
+        ],
+        "rows": [
+          [
+            "Checkout confirmation",
+            "Shows what you selected and what was presented."
+          ],
+          [
+            "Renewal terms and date",
+            "Helps distinguish an expected renewal from an unexpected transaction."
+          ],
+          [
+            "Cancellation confirmation",
+            "Documents the action taken and its status."
+          ],
+          [
+            "Support or provider reference",
+            "Keeps follow-up connected to the original question."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a pre-payment stop checklist",
+      "paragraphs": [
+        "Before paying, pause if the checkout does not identify the product or access clearly, if recurring terms are difficult to locate, or if the cancellation route is missing. A short delay is better than agreeing to a commitment you cannot describe. Ask a specific question—such as whether the payment renews and what action stops renewal—and retain the answer. Do not send account passwords or full payment credentials to support.",
+        "After checkout, verify that the confirmation matches your understanding. Check the account area for a plan status or renewal date if the merchant provides one, and save the relevant information. If something differs, contact the merchant promptly using its official route. This sequence—understand, record, confirm—reduces confusion without assuming that any website or payment provider offers a particular feature."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does removing a payment method cancel a recurring adult-site plan?",
+      "answer": "Not necessarily. Cancellation rules depend on the merchant and payment arrangement. Follow the stated cancellation process, confirm the plan’s status, and keep the confirmation. Removing a card or closing an app should not be treated as proof that renewal has stopped."
+    },
+    {
+      "question": "What should I check if a checkout mentions a trial?",
+      "answer": "Check whether it converts automatically, when the paid period begins, what amount or calculation applies, and the deadline and route for cancellation. Save the terms shown at checkout and set a reminder if useful, while still completing the required cancellation steps if you choose not to continue."
+    },
+    {
+      "question": "What records help if I do not recognize a charge?",
+      "answer": "Compare the statement with the merchant’s confirmation, renewal terms, account status, and any support response. Contact the merchant through its official billing route for an explanation. If the issue remains or you believe the charge is unauthorized, consult your payment provider’s process."
+    }
+  ],
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

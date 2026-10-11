@@ -1,0 +1,154 @@
+export default {
+  "slug": "webmaster-affiliate-disclosure-placement-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Content: Audit Disclosure Placement and Link Labels",
+  "description": "A practical workflow for making affiliate relationships and commercial links clear across editorial pages, comparison tables, buttons and reused content.",
+  "excerpt": "Disclosure text can be missed when it is separated from the link or obscured by page design. Use this audit to check how readers encounter commercial links across an affiliate site.",
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "keyTakeaways": [
+    "Place clear relationship information where readers can reasonably encounter it in the content, and do not rely on a footer alone for every context.",
+    "Use link labels and button text that describe the destination or action instead of implying an unsupported result.",
+    "Review tables, mobile layouts, reused modules, and social or email excerpts as separate viewing contexts.",
+    "Keep a record of approved wording, page locations, and review dates, and check applicable requirements with qualified guidance for your jurisdiction."
+  ],
+  "sections": [
+    {
+      "heading": "Map every place a commercial link appears",
+      "paragraphs": [
+        "Begin with an inventory rather than editing one page at a time. Include text links, buttons, comparison tables, product cards, image links, widgets, and links inside recurring page modules. Also include content reused in newsletters, social posts, or other channels if those formats carry commercial links. A disclosure on the main article may not travel with a copied excerpt or a standalone button.",
+        "For each placement, note the page or channel, the surrounding explanation, and where a reader is likely to encounter it. This helps reveal patterns such as a disclosure appearing only after a long page, a table containing links without nearby context, or a reusable module that is published on pages with different subject matter. Treat each presentation as its own check because the reader may arrive directly at a section or view it on a narrow screen."
+      ],
+      "bullets": [
+        "Inventory links in article text, tables, buttons, cards, and reusable modules.",
+        "Include excerpts and off-site formats that carry links.",
+        "Mark whether the disclosure is near the link, the content, or only elsewhere on the page."
+      ]
+    },
+    {
+      "heading": "Make the relationship understandable in context",
+      "paragraphs": [
+        "A useful disclosure tells readers, in plain language, that a commercial relationship may exist and why the linked destination is relevant. Avoid wording that is so vague that a reader cannot tell whether the site may receive compensation. At the same time, do not make claims about the size, certainty, or effect of compensation unless those claims are verified and appropriate to publish.",
+        "Placement matters because readers may not see every part of a page. Put the explanation where it can be understood before or alongside the relevant recommendation or link, and assess whether the design makes it visually noticeable. A disclosure hidden in dense text, collapsed content, or a low-contrast area may technically be present but difficult to recognize. Use plain wording and a visual treatment that remains legible without overpowering the editorial explanation."
+      ],
+      "table": {
+        "caption": "Disclosure placement review",
+        "headers": [
+          "Placement",
+          "Check",
+          "Possible improvement"
+        ],
+        "rows": [
+          [
+            "Article opening",
+            "Can readers see the relationship before reaching recommendations?",
+            "Add concise context near the relevant editorial discussion."
+          ],
+          [
+            "Comparison table",
+            "Does the relationship apply to linked entries in the table?",
+            "Place clear wording near the table or its link area."
+          ],
+          [
+            "Call-to-action button",
+            "Is the commercial nature clear without surrounding paragraphs?",
+            "Use nearby explanatory text and a descriptive button label."
+          ],
+          [
+            "Reusable module",
+            "Does the disclosure remain with the module wherever it appears?",
+            "Include context in the component or require page-level review."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Write link labels that set accurate expectations",
+      "paragraphs": [
+        "A link label should help readers understand what they will open or do. Descriptive text such as a destination or a clearly named next step is more informative than an unexplained command. Avoid wording that implies guaranteed savings, outcomes, access, or approval unless there is reliable support for that exact claim. The label should also make sense when read outside its surrounding paragraph, since screen readers and link lists may present links separately.",
+        "Check that the destination matches the promise. If a button says it opens a comparison, the destination should lead to that comparison rather than a generic home page. If a link is a commercial referral, do not disguise it as a neutral citation. Review redirects and tracking parameters as part of link maintenance so the destination remains appropriate and the label does not become misleading after a page change."
+      ],
+      "bullets": [
+        "Use labels that identify the destination or action.",
+        "Avoid unsupported urgency, outcome, or savings language.",
+        "Verify that the link still leads where its label says it will."
+      ]
+    },
+    {
+      "heading": "Test the disclosure in real reading conditions",
+      "paragraphs": [
+        "Review the page at mobile widths as well as on a desktop layout. A disclosure that sits beside a table on a wide screen may be pushed far away when the table scrolls horizontally. Check whether buttons, sticky elements, or overlays cover the disclosure and whether the text remains readable at normal zoom. If a reader can reach a commercial link through a direct anchor or shared section URL, test that route too.",
+        "Also inspect page templates and accessibility behavior. Confirm that the disclosure is actual text rather than only an image, that link names are understandable without visual context, and that a keyboard user can reach the relevant explanation and link in a sensible order. These checks are about clarity and usability; they do not replace review of applicable rules or platform-specific requirements."
+      ],
+      "bullets": [
+        "Test a narrow mobile viewport and horizontal-scroll tables.",
+        "Check direct links to sections and pages with sticky or fixed elements.",
+        "Confirm that disclosure and link text are readable and navigable without relying on images."
+      ]
+    },
+    {
+      "heading": "Create a repeatable review and change record",
+      "paragraphs": [
+        "Use a short editorial checklist whenever a new link, table, or call-to-action is added. Record who checked the disclosure, which wording was used, where it appears, and the date of review. This is especially helpful when a shared component changes or a page is republished in another format. A record makes it easier to spot inconsistencies and to recheck the affected surfaces after a redesign.",
+        "Schedule a review when a destination changes, a commercial relationship changes, or a page template is updated. If you use a standard disclosure, make clear which situations it covers and where editors must add context. Requirements can vary by jurisdiction and channel, so consult qualified legal or compliance guidance for a definitive assessment. An internal checklist is an operational aid, not a legal guarantee."
+      ],
+      "table": {
+        "caption": "Lightweight disclosure QA workflow",
+        "headers": [
+          "Step",
+          "Review question",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Inventory",
+            "Where do commercial links appear?",
+            "URLs, modules, and channels"
+          ],
+          [
+            "Context",
+            "Can a reader understand the relationship near the link?",
+            "Wording and placement"
+          ],
+          [
+            "Clarity",
+            "Does the label accurately describe the destination?",
+            "Link text and checked URL"
+          ],
+          [
+            "Verification",
+            "Was the mobile and accessible presentation reviewed?",
+            "Reviewer and date"
+          ],
+          [
+            "Maintenance",
+            "What changed since the last review?",
+            "Change note and follow-up owner"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep editorial usefulness separate from the commercial link",
+      "paragraphs": [
+        "A disclosure does not make a weak recommendation useful. Explain the criteria behind a comparison, identify information that remains unverified, and avoid presenting commercial placement as evidence of quality. Readers should be able to understand why an option is mentioned and what limits apply even if they do not follow the link. This separation supports more trustworthy editorial work and makes the page easier to maintain when a link changes.",
+        "Review the page for conflicts between the prose and the call to action. For example, a page may describe uncertainty while a button promises certainty. Align the language, state the next step plainly, and avoid pressure that makes it difficult to compare options. When information is not available, say what a reader should verify at the destination rather than filling the gap with an assumption."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a disclosure in a site footer enough for every affiliate link?",
+      "answer": "Do not assume that one footer notice is sufficient for every page, link, or channel. Readers may arrive directly at a section or see a copied excerpt without the footer. Review placement in context and consult qualified guidance for the requirements that apply to your situation."
+    },
+    {
+      "question": "Should a disclosure be repeated near a comparison table or button?",
+      "answer": "Check whether the relationship is clear where readers encounter that commercial link. A table or standalone button may be viewed without the surrounding article, so it may need nearby context. The appropriate presentation depends on the page and applicable requirements."
+    },
+    {
+      "question": "What should an affiliate link label say?",
+      "answer": "Use accurate, descriptive wording that tells readers what the destination or action is. Avoid implying an unverified outcome, discount, or guarantee. Check the destination after changes so the label remains accurate."
+    }
+  ]
+};

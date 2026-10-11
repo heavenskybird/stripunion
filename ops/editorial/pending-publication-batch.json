@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T22:53:22.745Z",
+  "generatedAt": "2026-10-11T23:54:02.157Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-audience-and-business-fit.json",
-    "ops/editorial/content-artifacts/vr-platform-billing-and-renewal-records.json",
-    "ops/editorial/content-artifacts/adult-anime-free-premium-account-gates.json",
-    "ops/editorial/content-artifacts/free-video-multi-domain-network-check.json",
-    "ops/editorial/content-artifacts/adult-game-platform-model-selection.json"
+    "ops/editorial/content-artifacts/adult-shop-delivery-returns-preflight.json",
+    "ops/editorial/content-artifacts/live-cam-safety-concern-reporting-workflow.json",
+    "ops/editorial/content-artifacts/adult-site-recurring-payment-preflight.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-disclosure-placement-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-discovery-model-fit-guide.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-audience-and-business-fit.js",
-    "src/data/guides/vr-adult-platform-billing-renewal-records-audit.js",
-    "src/data/guides/adult-anime-platform-free-premium-account-gates.js",
-    "src/data/guides/free-video-site-networks-shared-domains-policy-check.js",
-    "src/data/guides/adult-game-platform-storefront-community-discovery-choice.js"
+    "src/data/guides/adult-shop-delivery-returns-preflight.js",
+    "src/data/guides/live-cam-safety-concern-reporting-workflow.js",
+    "src/data/guides/adult-site-recurring-payment-preflight.js",
+    "src/data/guides/webmaster-affiliate-disclosure-placement-audit.js",
+    "src/data/guides/creator-platform-discovery-model-fit-guide.js"
   ],
   "categories": [
-    "creator-platforms",
-    "vr-ar",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "adult-shops",
+    "live-cams",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "creator-platform-audience-and-business-fit",
-    "vr-platform-billing-and-renewal-records",
-    "adult-anime-free-premium-account-gates",
-    "free-video-multi-domain-network-check",
-    "adult-game-platform-model-selection"
+    "adult-shop-delivery-returns-preflight",
+    "live-cam-safety-concern-reporting-workflow",
+    "adult-site-recurring-payment-preflight",
+    "webmaster-affiliate-disclosure-placement-audit",
+    "creator-platform-discovery-model-fit-guide"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38182059087",
-  "phase": "closed"
+  "r1CycleId": "38185785306"
 }
