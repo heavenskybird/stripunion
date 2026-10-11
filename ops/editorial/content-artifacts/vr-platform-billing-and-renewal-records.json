@@ -1,0 +1,125 @@
+{
+  "backlogId": "vr-platform-billing-and-renewal-records",
+  "slug": "vr-adult-platform-billing-renewal-records-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platform Subscriptions: Check Renewal, Cancellation and Receipts",
+  "description": "Before subscribing to a VR adult platform, check how billing, renewal notices, cancellation, account access and transaction records are explained.",
+  "excerpt": "Subscription cost is only part of the decision. Use this audit to understand renewal terms, find cancellation controls and keep useful records when subscribing through a VR service.",
+  "keyTakeaways": [
+    "Identify which service or account manages the subscription before starting checkout.",
+    "Record the billing interval, renewal wording, cancellation path and any access-after-cancellation explanation shown to you.",
+    "Check what confirmation and transaction records are available and how to retrieve them later.",
+    "Review whether headset, platform-store and content-service accounts are separate before troubleshooting billing or access.",
+    "Save relevant terms and confirmations securely without assuming that a receipt alone proves every access entitlement."
+  ],
+  "sections": [
+    {
+      "heading": "Map the subscription path before checkout",
+      "paragraphs": [
+        "A VR viewing setup can involve more than one account: a headset or device account, a browser or application account, and a content service account. A subscription may be started through one of these paths, and the account that handles billing may not be the account that presents the content. Before entering payment details, note which service is named in the checkout flow and where the subscription will be managed.",
+        "This distinction is practical, not just administrative. If access stops, a device-store receipt may answer a different question from a content-platform account page. Likewise, cancelling one account or uninstalling an application may not necessarily end an independently managed subscription. Confirm the stated management route before completing purchase.",
+        "Use a private note to record the service name, account identifier, checkout location and date. Avoid storing full payment credentials in an unsecured note. This small record can help you find the correct support channel or account settings later, especially if you use more than one device or access route."
+      ],
+      "bullets": [
+        "Identify the account shown as the seller or billing manager.",
+        "Locate where subscription settings can be opened after checkout.",
+        "Check whether the headset account and content-service account are distinct."
+      ]
+    },
+    {
+      "heading": "Read renewal wording and cancellation instructions",
+      "paragraphs": [
+        "Look for the billing interval, renewal date or method of calculating the next charge, and the wording that describes recurring billing. Check whether the checkout page explains how to cancel and whether cancellation takes effect immediately or at a stated point in the billing period. If the wording is missing or ambiguous, pause and ask support before subscribing rather than relying on assumptions.",
+        "Find the cancellation route while you still have access to the checkout information. It may be described in a service account, a device-store subscription screen or another billing area. Follow the instructions for the account that actually controls the subscription. Removing a shortcut, deleting an app or signing out should not be treated as cancellation unless the terms explicitly say so.",
+        "Take care with labels such as pause, turn off renewal and cancel. They can describe different account states. Read the confirmation screen and save the resulting notice. If the service provides no clear confirmation, record the date and steps taken and contact the appropriate support channel for written clarification."
+      ],
+      "table": {
+        "caption": "Subscription details to locate and record",
+        "headers": [
+          "Item",
+          "Where to look",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Billing manager",
+            "Checkout screen and account subscription settings",
+            "Identifies where payment changes and cancellation are handled"
+          ],
+          [
+            "Renewal terms",
+            "Checkout summary and current subscription terms",
+            "Clarifies the recurring interval and how the next charge is described"
+          ],
+          [
+            "Cancellation process",
+            "Help documentation and account settings",
+            "Helps distinguish ending renewal from removing an app or signing out"
+          ],
+          [
+            "Access after cancellation",
+            "Membership or subscription terms",
+            "Explains what the service says about continued access"
+          ],
+          [
+            "Receipt and history",
+            "Billing account and transaction history",
+            "Supports later reconciliation or a support request"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand what a receipt does and does not show",
+      "paragraphs": [
+        "A confirmation or receipt can help establish that a transaction was processed, but its contents may not explain every part of the access arrangement. Check whether it identifies the billed service, date, amount, billing period or order reference, and whether a separate account screen displays the subscription state. Keep both records when available, because one may show payment while the other shows access status.",
+        "Review how to retrieve past transactions and whether records remain available after a subscription ends. If you expect to need records for personal budgeting or account support, save relevant documents in a private, secure location. Use a neutral filename if device previews or file lists could be visible to others, and avoid leaving receipts in a shared inbox or shared device account.",
+        "If a charge or access state appears inconsistent, compare the receipt, the account's subscription page and any cancellation confirmation before contacting support. Provide only the necessary transaction reference and account details. Do not send full payment-card information through ordinary support messages."
+      ]
+    },
+    {
+      "heading": "Separate billing access from headset compatibility",
+      "paragraphs": [
+        "Billing and playback are related but separate checks. A valid subscription does not by itself establish that a specific headset, browser or application path will work as expected. Before paying, review the service's current compatibility information and test any available preview or sign-in path without assuming that a billing confirmation verifies device fit.",
+        "When investigating a problem, note which step fails: account sign-in, entitlement recognition, library access, stream start or headset playback. This helps avoid changing billing settings to solve a device issue, or troubleshooting a headset when the account does not show an active entitlement. Consult the service's support instructions for that specific stage.",
+        "Where a platform permits multiple access methods, make a simple record of the route you tested and the account used. Do not share account credentials across services or devices merely to simplify troubleshooting. If you use a shared headset, sign out when finished and review any saved-account or notification behavior separately from subscription billing."
+      ]
+    },
+    {
+      "heading": "Build a low-friction subscription record",
+      "paragraphs": [
+        "A compact record can prevent uncertainty later. Store the subscription start date, billing manager, renewal description, cancellation route and support contact location. Add the date you reviewed the terms, because policies and account interfaces can change. Keep the record factual and avoid copying unnecessary personal or payment data.",
+        "Set a reminder based on the renewal information presented at checkout if you want to reassess before another billing period. A reminder is not a substitute for the platform's cancellation process; it is a prompt to review your account and act through the correct route. After cancelling, retain the confirmation and check the account state rather than relying only on memory.",
+        "If you manage several subscriptions, record each service separately. Similar-looking account names or device-store menus can make it easy to cancel the wrong item or assume a change applied across accounts. Clear records make it easier to compare services on terms and account handling without relying on a vague recollection of checkout."
+      ],
+      "bullets": [
+        "Save the checkout summary and relevant terms with the date reviewed.",
+        "Keep the receipt, account status and cancellation confirmation together where practical.",
+        "After a change, verify the subscription state in the account that manages billing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does uninstalling a VR app cancel its subscription?",
+      "answer": "Do not assume so. App removal and subscription cancellation can be separate actions. Check the account or store identified as the billing manager, follow its cancellation instructions and save the confirmation."
+    },
+    {
+      "question": "Which receipt should I use if access is missing?",
+      "answer": "Start with the transaction record from the account that processed the payment, then compare it with the content service's subscription or entitlement page. The records may answer different questions. Share only the necessary reference information with the relevant support team."
+    },
+    {
+      "question": "Should I subscribe before testing headset compatibility?",
+      "answer": "If a preview, demo or non-paid access route is available, use it to check the relevant device path first. If no test is offered, review current compatibility information and the access terms before paying. A subscription confirmation should not be treated as proof that every headset route is supported."
+    }
+  ],
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

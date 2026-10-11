@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T20:16:24.657Z",
+  "generatedAt": "2026-10-11T22:53:22.745Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/affiliate-attribution-conflict-audit.json",
-    "ops/editorial/content-artifacts/adult-payment-household-privacy-plan.json",
-    "ops/editorial/content-artifacts/live-cam-platform-comparison-scorecard.json",
-    "ops/editorial/content-artifacts/premium-video-catalog-sample-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-evidence-based-shortlist.json"
+    "ops/editorial/content-artifacts/creator-platform-audience-and-business-fit.json",
+    "ops/editorial/content-artifacts/vr-platform-billing-and-renewal-records.json",
+    "ops/editorial/content-artifacts/adult-anime-free-premium-account-gates.json",
+    "ops/editorial/content-artifacts/free-video-multi-domain-network-check.json",
+    "ops/editorial/content-artifacts/adult-game-platform-model-selection.json"
   ],
   "guideFiles": [
-    "src/data/guides/webmaster-affiliate-attribution-conflict-audit.js",
-    "src/data/guides/adult-platform-payment-household-privacy-plan.js",
-    "src/data/guides/live-cam-platform-comparison-scorecard.js",
-    "src/data/guides/premium-video-subscription-catalog-sample-audit.js",
-    "src/data/guides/dating-platform-evidence-based-shortlist.js"
+    "src/data/guides/creator-platform-audience-and-business-fit.js",
+    "src/data/guides/vr-adult-platform-billing-renewal-records-audit.js",
+    "src/data/guides/adult-anime-platform-free-premium-account-gates.js",
+    "src/data/guides/free-video-site-networks-shared-domains-policy-check.js",
+    "src/data/guides/adult-game-platform-storefront-community-discovery-choice.js"
   ],
   "categories": [
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "live-cams",
-    "premium-videos",
-    "dating-hookups"
+    "creator-platforms",
+    "vr-ar",
+    "hentai-anime",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "affiliate-attribution-conflict-audit",
-    "adult-payment-household-privacy-plan",
-    "live-cam-platform-comparison-scorecard",
-    "premium-video-catalog-sample-audit",
-    "dating-platform-evidence-based-shortlist"
+    "creator-platform-audience-and-business-fit",
+    "vr-platform-billing-and-renewal-records",
+    "adult-anime-free-premium-account-gates",
+    "free-video-multi-domain-network-check",
+    "adult-game-platform-model-selection"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38171378065",
-  "phase": "closed"
+  "r1CycleId": "38182059087"
 }
