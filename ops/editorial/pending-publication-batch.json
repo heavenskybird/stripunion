@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T19:07:19.207Z",
+  "generatedAt": "2026-10-11T20:16:24.657Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/ar-app-camera-room-permission-audit.json",
-    "ops/editorial/content-artifacts/free-video-platform-listing-context-audit.json",
-    "ops/editorial/content-artifacts/adult-game-storefront-license-and-reinstall-check.json",
-    "ops/editorial/content-artifacts/adult-shop-delivery-destination-choice-check.json",
-    "ops/editorial/content-artifacts/adult-anime-account-gates-access-review.json"
+    "ops/editorial/content-artifacts/affiliate-attribution-conflict-audit.json",
+    "ops/editorial/content-artifacts/adult-payment-household-privacy-plan.json",
+    "ops/editorial/content-artifacts/live-cam-platform-comparison-scorecard.json",
+    "ops/editorial/content-artifacts/premium-video-catalog-sample-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-evidence-based-shortlist.json"
   ],
   "guideFiles": [
-    "src/data/guides/ar-adult-app-camera-and-room-permission-checklist.js",
-    "src/data/guides/free-adult-video-platform-listing-context-checklist.js",
-    "src/data/guides/adult-game-storefront-license-reinstall-and-update-checklist.js",
-    "src/data/guides/adult-shop-delivery-destination-and-handoff-checklist.js",
-    "src/data/guides/adult-anime-platform-account-and-access-gate-checklist.js"
+    "src/data/guides/webmaster-affiliate-attribution-conflict-audit.js",
+    "src/data/guides/adult-platform-payment-household-privacy-plan.js",
+    "src/data/guides/live-cam-platform-comparison-scorecard.js",
+    "src/data/guides/premium-video-subscription-catalog-sample-audit.js",
+    "src/data/guides/dating-platform-evidence-based-shortlist.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime"
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "live-cams",
+    "premium-videos",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "ar-app-camera-room-permission-audit",
-    "free-video-platform-listing-context-audit",
-    "adult-game-storefront-license-and-reinstall-check",
-    "adult-shop-delivery-destination-choice-check",
-    "adult-anime-account-gates-access-review"
+    "affiliate-attribution-conflict-audit",
+    "adult-payment-household-privacy-plan",
+    "live-cam-platform-comparison-scorecard",
+    "premium-video-catalog-sample-audit",
+    "dating-platform-evidence-based-shortlist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38166457904",
-  "phase": "closed"
+  "r1CycleId": "38171378065"
 }
