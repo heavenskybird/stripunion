@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T14:02:40.910Z",
+  "generatedAt": "2026-10-11T14:56:01.783Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-audience-discovery-fit.json",
-    "ops/editorial/content-artifacts/premium-video-title-version-check.json",
-    "ops/editorial/content-artifacts/live-cam-public-access-boundaries.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-payout-logic-review.json",
-    "ops/editorial/content-artifacts/adult-anime-mobile-experience-checklist.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-session-resume-access-audit.json",
+    "ops/editorial/content-artifacts/free-video-embedded-player-decision-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-installation-and-update-ownership-guide.json",
+    "ops/editorial/content-artifacts/adult-shop-return-eligibility-before-ordering.json",
+    "ops/editorial/content-artifacts/dating-platform-accessibility-workflow-fit-guide.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-audience-discovery-fit.js",
-    "src/data/guides/premium-video-title-version-check.js",
-    "src/data/guides/live-cam-public-access-boundaries.js",
-    "src/data/guides/webmaster-affiliate-payout-logic-review.js",
-    "src/data/guides/adult-anime-mobile-experience-checklist.js"
+    "src/data/guides/vr-adult-platform-session-resume-access-audit.js",
+    "src/data/guides/free-video-platforms-embedded-player-privacy-and-playback-checklist.js",
+    "src/data/guides/adult-games-check-installation-updates-and-device-support.js",
+    "src/data/guides/adult-shop-returns-check-seals-defects-and-refund-terms.js",
+    "src/data/guides/dating-platform-accessibility-check-profile-search-and-messaging.js"
   ],
   "categories": [
-    "creator-platforms",
-    "premium-videos",
-    "live-cams",
-    "webmaster-affiliate",
-    "hentai-anime"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "creator-platform-audience-discovery-fit",
-    "premium-video-title-version-check",
-    "live-cam-public-access-boundaries",
-    "webmaster-affiliate-payout-logic-review",
-    "adult-anime-mobile-experience-checklist"
+    "vr-adult-platform-session-resume-access-audit",
+    "free-video-embedded-player-decision-checklist",
+    "adult-games-installation-and-update-ownership-guide",
+    "adult-shop-return-eligibility-before-ordering",
+    "dating-platform-accessibility-workflow-fit-guide"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38145459096",
-  "phase": "closed"
+  "r1CycleId": "38149052722"
 }
