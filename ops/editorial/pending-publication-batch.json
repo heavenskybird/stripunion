@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T08:48:36.939Z",
+  "generatedAt": "2026-10-11T14:02:40.910Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-lookalike-site-checklist.json",
-    "ops/editorial/content-artifacts/adult-games-storefront-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-delivery-choice-planner.json",
-    "ops/editorial/content-artifacts/adult-purchase-payment-method-planner.json",
-    "ops/editorial/content-artifacts/dating-platform-event-feature-fit-checklist.json"
+    "ops/editorial/content-artifacts/creator-platform-audience-discovery-fit.json",
+    "ops/editorial/content-artifacts/premium-video-title-version-check.json",
+    "ops/editorial/content-artifacts/live-cam-public-access-boundaries.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-payout-logic-review.json",
+    "ops/editorial/content-artifacts/adult-anime-mobile-experience-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-adult-video-lookalike-site-url-checklist.js",
-    "src/data/guides/adult-games-storefront-platform-support-update-audit.js",
-    "src/data/guides/adult-shop-delivery-tracking-and-handoff-checklist.js",
-    "src/data/guides/adult-purchases-payment-method-privacy-checklist.js",
-    "src/data/guides/dating-platform-events-and-groups-privacy-fit-guide.js"
+    "src/data/guides/creator-platform-audience-discovery-fit.js",
+    "src/data/guides/premium-video-title-version-check.js",
+    "src/data/guides/live-cam-public-access-boundaries.js",
+    "src/data/guides/webmaster-affiliate-payout-logic-review.js",
+    "src/data/guides/adult-anime-mobile-experience-checklist.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "privacy-safety-payment",
-    "dating-hookups"
+    "creator-platforms",
+    "premium-videos",
+    "live-cams",
+    "webmaster-affiliate",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "free-video-lookalike-site-checklist",
-    "adult-games-storefront-fit-audit",
-    "adult-shop-delivery-choice-planner",
-    "adult-purchase-payment-method-planner",
-    "dating-platform-event-feature-fit-checklist"
+    "creator-platform-audience-discovery-fit",
+    "premium-video-title-version-check",
+    "live-cam-public-access-boundaries",
+    "webmaster-affiliate-payout-logic-review",
+    "adult-anime-mobile-experience-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38126021041",
-  "phase": "closed"
+  "r1CycleId": "38145459096"
 }
