@@ -1,0 +1,116 @@
+export default {
+  "slug": "webmaster-affiliate-program-change-control-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Track Terms Changes Before They Disrupt Your Operations",
+  "description": "A practical change-control process for affiliate operators to monitor program terms, traffic rules, tracking changes, payout documentation and partner communications.",
+  "excerpt": "Program terms and operational details can change. Build a documented review process so traffic, tracking and payment assumptions do not persist unnoticed.",
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "keyTakeaways": [
+    "Keep dated copies or notes of the rules and operational terms you rely on.",
+    "Separate confirmed program changes from rumors or dashboard anomalies.",
+    "Review traffic permissions before changing channels, creatives or targeting.",
+    "Test tracking and reporting after material technical changes.",
+    "Maintain a contact and escalation record without assuming a dispute will be resolved in a particular way."
+  ],
+  "sections": [
+    {
+      "heading": "Why change control belongs in affiliate operations",
+      "paragraphs": [
+        "An affiliate workflow often depends on several assumptions: which traffic sources are permitted, how referrals are attributed, what a report means, how conversions are reviewed and when payment documentation is available. If any of those details change, old links, campaign settings or internal forecasts may no longer match the current program. A small change log helps an operator distinguish current instructions from assumptions that were once valid.",
+        "Change control is not a claim that every program changes frequently or that a particular outcome is likely. It is a way to avoid operating indefinitely from an old email, an unverified forum post or a remembered conversation. It also makes handoffs easier when several people manage content, tracking or finance. Keep the process proportionate: document changes that affect compliance, measurement, payment administration or visitor experience."
+      ],
+      "bullets": [
+        "Record terms that influence traffic, attribution or payment operations.",
+        "Date notes and identify their source.",
+        "Assign someone to review updates and follow up on open questions.",
+        "Keep obsolete instructions clearly marked rather than silently overwriting them."
+      ]
+    },
+    {
+      "heading": "Create a source-of-truth record",
+      "paragraphs": [
+        "For each program, identify where current terms and technical instructions are published: an account dashboard, program agreement, official email, support response or another designated source. Record the date checked and the section or message that supports an operational decision. If two sources conflict, do not choose the more convenient one without clarification. Mark the issue as unresolved and ask the program contact which instruction controls.",
+        "Preserve only records you are authorized to keep and handle them securely. A useful log can capture the subject, date, source, affected campaigns and next action without copying unnecessary personal or confidential information. If terms are updated, retain a note of what changed and which live pages, links or internal procedures need review. This creates an audit trail for your own operations without pretending to replace legal or accounting advice."
+      ],
+      "table": {
+        "caption": "Minimum fields for a program change log",
+        "headers": [
+          "Field",
+          "What to record",
+          "Operational use"
+        ],
+        "rows": [
+          [
+            "Date and source",
+            "When you checked and where the instruction appeared",
+            "Establishes which information informed a decision"
+          ],
+          [
+            "Change summary",
+            "Plain-language description of the updated item",
+            "Helps identify affected work"
+          ],
+          [
+            "Impact area",
+            "Traffic, attribution, reporting, payout or restriction",
+            "Routes the update to the right owner"
+          ],
+          [
+            "Action and owner",
+            "Pages, links or processes to review and who will do it",
+            "Prevents updates from remaining unassigned"
+          ],
+          [
+            "Status",
+            "Open, confirmed, implemented or awaiting clarification",
+            "Separates unresolved questions from completed work"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Recheck traffic permissions when campaigns change",
+      "paragraphs": [
+        "Traffic that was acceptable for one campaign or placement should not automatically be assumed acceptable for a new one. Before adding a source, changing targeting, using a new creative format or sending visitors through a different site section, compare the planned activity with current program restrictions. Pay particular attention to rules that define prohibited sources, brand use, incentives, unsolicited messaging, paid search or other channel-specific limits when those subjects apply.",
+        "Keep evidence of the check and ask a specific question if a rule is ambiguous. Describe the proposed placement or method accurately instead of asking for broad approval that could be misunderstood. Do not launch first and seek clarification later if the uncertainty could create a compliance problem. If permission is withdrawn or a restriction changes, identify affected placements and pause or revise them as appropriate while you confirm the current requirements."
+      ]
+    },
+    {
+      "heading": "Validate tracking after technical or campaign changes",
+      "paragraphs": [
+        "A change to a link, redirect, analytics setup, landing page or campaign parameter can affect attribution even when the destination still appears to work. After a material change, use the program’s documented testing process, if available, and compare the resulting click or referral record with your own test notes. Avoid generating activity in ways that violate program terms or distort reporting. If testing rules are not clear, ask for an approved validation method.",
+        "When a report differs from expectations, treat the difference as a question to investigate rather than immediate proof of a tracking failure or a missing payment. Check time windows, filters, campaign identifiers and any documented reporting definitions. Record screenshots or exports only when permitted and store them securely. A reproducible issue report should state what changed, when it changed, which links or campaigns are affected and what evidence you can share."
+      ]
+    },
+    {
+      "heading": "Connect reporting and payout records to current terms",
+      "paragraphs": [
+        "Reporting labels and payment procedures need context. Keep the current definitions for clicks, conversions, reversals, thresholds, review periods and payment documentation where the program provides them. Do not infer that a figure in a dashboard is final or payable unless the program’s terms say so. When finance records and program statements do not align, compare date ranges, currencies, filters and adjustment explanations before escalating.",
+        "A change in payout logic, referral tiers or payment administration can affect budgeting and reconciliation. Update internal forecasts only after confirming the applicable terms and the effective date. Preserve the supporting notice and note which reporting periods it covers. If a payment or adjustment is unclear, ask a focused question and retain the response. Do not publish or share confidential program details beyond what your agreement permits."
+      ]
+    },
+    {
+      "heading": "Use a repeatable review cadence and escalation path",
+      "paragraphs": [
+        "Set a review cadence that fits the scale and risk of your operations. A smaller site may check program notices during routine campaign maintenance; a larger operation may assign a responsible owner and track notices against a calendar. The point is to make the task predictable, not to invent a universal schedule. Review promptly when you receive a notice of changed terms, a tracking issue or a payment statement that does not match your records.",
+        "For each unresolved issue, write down the question, evidence, date raised, contact route and next follow-up. Keep the tone factual and avoid sending sensitive user information unless the program specifically requires it and the method is appropriate. If the answer changes a decision, update the relevant campaign documentation and inform anyone who relies on the old instruction. Close the item only when the operational effect is understood and recorded."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should an affiliate operator check program terms?",
+      "answer": "There is no single cadence for every program. Choose a review process that fits your operation, and recheck promptly when a notice, campaign change or reporting issue could affect compliance or measurement."
+    },
+    {
+      "question": "What should I do when a dashboard and an email appear to conflict?",
+      "answer": "Record both sources and the dates, avoid relying on an unverified interpretation, and ask the program’s designated contact which instruction applies. Keep the answer with your change log."
+    },
+    {
+      "question": "Should I keep old program instructions?",
+      "answer": "Keep authorized records that help explain past decisions, but label them as superseded and preserve their dates. Do not let obsolete instructions appear to be current policy."
+    }
+  ]
+};

@@ -1,0 +1,135 @@
+{
+  "backlogId": "privacy-separate-account-identity-adult-platforms",
+  "slug": "adult-platform-account-identity-separation-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Separate Personal Identity from Account Details",
+  "description": "A practical checklist for limiting unnecessary links between adult-platform accounts and personal email, usernames, devices and notifications without assuming anonymity.",
+  "excerpt": "Account separation can reduce casual exposure, but it does not guarantee anonymity. Review identifiers, recovery methods, browser sessions and notifications before using an account.",
+  "keyTakeaways": [
+    "Use distinct account identifiers where appropriate, but do not treat them as a guarantee of anonymity.",
+    "Review recovery email, phone and social sign-in choices before creating an account.",
+    "Avoid reusing usernames that are already tied to public personal profiles.",
+    "Check notifications, saved logins and browser sessions on any device you share.",
+    "Keep account records and cancellation details without storing unnecessary sensitive information."
+  ],
+  "sections": [
+    {
+      "heading": "Define what separation can and cannot do",
+      "paragraphs": [
+        "Separating an adult-platform account from everyday accounts can reduce accidental links, such as a familiar username appearing in a profile or a notification revealing an account on a shared screen. It does not make an account anonymous. A platform may collect information needed to operate an account or process a payment, and devices, networks, payment providers or other services may handle data under their own practices.",
+        "Begin by identifying the exposure you are trying to reduce. You may be concerned about someone seeing a notification, recognizing a reused username, finding a saved login on a shared device or encountering account details in an email inbox. Different risks need different controls. A separate email address will not solve a shared-device problem, and a hidden notification will not change what information a platform collects."
+      ],
+      "bullets": [
+        "Identify who might see the device, inbox or account.",
+        "Separate accidental visibility from data collection by the platform.",
+        "Decide which identifiers you do not want reused elsewhere.",
+        "Do not describe a setup as anonymous unless the limits are clear."
+      ]
+    },
+    {
+      "heading": "Choose account identifiers deliberately",
+      "paragraphs": [
+        "Before registering, check which fields are required and which are optional. If a username or display name is visible to other users, avoid reusing one that already identifies you on public accounts. A distinctive username can connect otherwise separate profiles through ordinary search or recognition. The same concern can apply to profile images, biographies and linked social accounts.",
+        "An email address used only for a particular account can make inbox organization easier, but it is still an identifier and may be connected to you through the email provider or account recovery. Choose a recovery method you can reliably access and understand how it affects separation. Do not provide false information where accurate details are required for account operation, verification or payment; instead, decide whether the requested information is acceptable before proceeding."
+      ],
+      "bullets": [
+        "Check whether a username is public or visible to other members.",
+        "Avoid reusing a handle or profile image associated with personal accounts.",
+        "Review optional profile fields before filling them in.",
+        "Understand which recovery details are linked to the account."
+      ]
+    },
+    {
+      "heading": "Review sign-in and recovery connections",
+      "paragraphs": [
+        "A quick sign-in option can connect an account to an identity provider or another existing account. Before choosing it, review what information the connection shares and whether the account remains accessible if you later lose access to the external login. Do not assume that the convenience of one sign-in method provides more privacy than creating a separate login; the relevant details depend on the services and their settings.",
+        "Set a strong, unique password when the platform supports password sign-in, and use available account-security controls. Store recovery information somewhere appropriate for your situation, not in a note that is easily visible on a shared device. If an account offers a recovery email or phone number, consider who can access that inbox or number and what other accounts might reveal the connection."
+      ]
+    },
+    {
+      "heading": "Reduce accidental exposure on devices and in notifications",
+      "paragraphs": [
+        "Device privacy is about more than private browsing. Check saved passwords, browser autofill, open sessions and account tabs, especially if a device is shared. Sign out when appropriate, review any option to remember the device and avoid leaving an account accessible to someone who uses the same browser profile. Private browsing can limit some local history after a session, but it does not make a user invisible to the platform or network.",
+        "Review email, app and browser notification settings before enabling them. Lock-screen previews, sender names, message subjects and notification badges may reveal more than expected. If notifications are useful, consider reducing their detail through device settings rather than assuming the service will keep them discreet. When you finish, close tabs and check whether the account remains active in another browser window or app."
+      ],
+      "bullets": [
+        "Check saved passwords and autofill on shared devices.",
+        "Review lock-screen previews and email notification content.",
+        "Check active sessions and sign out where needed.",
+        "Do not rely on private browsing as a complete privacy solution."
+      ]
+    },
+    {
+      "heading": "Keep payment and account records in mind",
+      "paragraphs": [
+        "Account separation does not determine how a payment appears on a statement. Before paying, review the platform’s billing information and the payment provider’s account or statement settings. Do not infer a billing descriptor from a site name, and do not use payment details that are not yours or that you are not authorized to use. If a descriptor or billing route is unclear, seek an explanation before completing a transaction.",
+        "Keep enough records to manage the account: confirmation messages, renewal dates, cancellation instructions and any support correspondence relevant to an issue. Store them in a way that does not expose more than necessary to people who share the device or inbox. A separate folder or email account may help with organization, but it should be protected and recoverable. Do not delete records you may need to verify a cancellation or resolve a billing question."
+      ]
+    },
+    {
+      "heading": "Use a short pre-registration privacy review",
+      "paragraphs": [
+        "A checklist is most useful when it captures decisions rather than creating a false sense of safety. Before creating an account, confirm which fields are required, which identifiers could be visible, how recovery works and what notifications may appear. Then review privacy and account terms for information about collection, retention and account closure. If the platform does not explain an important point, record that uncertainty.",
+        "After setup, revisit the same controls. A user may enable a notification, save a password or link another sign-in method later without considering how it changes exposure. Periodic checks are particularly useful after changing devices, email providers or account-recovery details. The goal is not to make every trace impossible; it is to understand the connections you are choosing and limit unnecessary exposure."
+      ],
+      "table": {
+        "caption": "Account-separation review",
+        "headers": [
+          "Area",
+          "Question to ask",
+          "Action to consider"
+        ],
+        "rows": [
+          [
+            "Username",
+            "Could this handle identify another public profile?",
+            "Choose a distinct identifier if appropriate"
+          ],
+          [
+            "Recovery",
+            "Who can access the linked email or phone?",
+            "Use a secure, reliable recovery method"
+          ],
+          [
+            "Device",
+            "Could another user open a saved session?",
+            "Review saved logins, active sessions and sign-out options"
+          ],
+          [
+            "Notifications",
+            "What appears on a lock screen or shared inbox?",
+            "Reduce previews or disable unnecessary alerts"
+          ],
+          [
+            "Records",
+            "Can I find renewal and cancellation information later?",
+            "Keep essential records in a protected, accessible place"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a separate email address make an account anonymous?",
+      "answer": "No. It can help separate inboxes or identifiers, but it does not control what the platform, payment provider, device or network may know. Review each service’s practices and limits."
+    },
+    {
+      "question": "Is private browsing enough on a shared device?",
+      "answer": "No. It can limit some locally retained browsing history, but saved logins, active sessions, downloads, notifications and other device settings may still expose activity."
+    },
+    {
+      "question": "Should I use a social account to sign in?",
+      "answer": "Compare convenience with the account connection it creates. Review the information shared, recovery implications and available alternatives before linking accounts."
+    }
+  ],
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

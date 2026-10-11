@@ -1,0 +1,129 @@
+{
+  "backlogId": "creator-platform-content-rights-exit-portability-audit",
+  "slug": "creator-platform-content-rights-and-portability-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Content Rights and Portability Before Building a Business",
+  "description": "A creator-focused checklist for reviewing platform licenses, ownership language, export options, account closure and the practical limits of moving content elsewhere.",
+  "excerpt": "Ownership language and exit tools answer different questions. Review the platform agreement and test what you can actually retrieve before making a service central to your business.",
+  "keyTakeaways": [
+    "Distinguish ownership language from the license a platform receives to host or distribute content.",
+    "Check whether account export covers files, captions, messages, subscriber records or only selected data.",
+    "Do not assume a download option preserves the original quality, metadata or organization.",
+    "Review what happens to content and records when an account is paused, closed or restricted.",
+    "Maintain independent backups and records where lawful and consistent with privacy obligations."
+  ],
+  "sections": [
+    {
+      "heading": "Separate ownership from platform permission",
+      "paragraphs": [
+        "A creator may retain ownership of original work while granting a platform permission to host, display, process or distribute it. Those ideas are not interchangeable. Read the agreement for the scope, duration, territory and purposes of any license, along with provisions about sublicensing, promotion, removal and account termination. Do not assume that a statement about ownership answers every question about how the service can use submitted material.",
+        "Make a plain-language summary of the rights that matter to your work. Note whether the agreement distinguishes public posts, private messages, promotional previews, profile images and other materials. If a term is unclear, identify the exact wording and ask for clarification before relying on an interpretation. This guide is an operational checklist, not legal advice; creators with material rights concerns may need qualified advice for their circumstances."
+      ],
+      "bullets": [
+        "Who owns the submitted work under the stated terms?",
+        "What permissions does the platform receive?",
+        "Does the agreement describe promotional use or sublicensing?",
+        "What rules apply after removal or account closure?"
+      ]
+    },
+    {
+      "heading": "Map what the platform lets you export",
+      "paragraphs": [
+        "A platform may offer an account download or data export, but the label alone does not establish what is included. Check whether you can retrieve original files, captions, post text, timestamps, message history, transaction records, audience information or settings. These items may have different privacy and retention implications, and an export may not include every category. Use the platform’s documentation to establish the scope rather than assuming a complete business archive is available.",
+        "If an export feature is available, test it with information you are entitled to access and review the resulting files. Confirm that they open, that filenames and dates make sense, and that any included records can be organized outside the platform. Do not collect or retain personal information about fans beyond what you need and are permitted to keep. An export that includes a data file is not automatically a usable backup of your work or business records."
+      ],
+      "table": {
+        "caption": "Portability questions to answer before depending on a platform",
+        "headers": [
+          "Data or asset",
+          "What to verify",
+          "Potential gap to note"
+        ],
+        "rows": [
+          [
+            "Original media",
+            "Whether files can be retrieved and in what form",
+            "A preview or compressed copy may not replace an original"
+          ],
+          [
+            "Captions and post text",
+            "Whether text is included and remains connected to its post",
+            "A file may not preserve context or ordering"
+          ],
+          [
+            "Messages",
+            "Whether export exists and what privacy rules apply",
+            "Messages may not be portable or appropriate to retain"
+          ],
+          [
+            "Business records",
+            "What transaction or account history can be downloaded",
+            "Records may need separate, secure documentation"
+          ],
+          [
+            "Account state",
+            "What remains available after pause, closure or restriction",
+            "Access may differ by account status or platform rules"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand portability limits beyond file downloads",
+      "paragraphs": [
+        "Moving content is not the same as moving an audience, subscriptions, payment history, message relationships or platform discovery. A downloadable media file may preserve the work itself but not the context, engagement or commercial arrangements associated with it. Before building a workflow around a service, identify which parts of the business are platform-dependent and which can be maintained independently.",
+        "Also check whether the platform’s terms or privacy requirements limit how you can use exported information elsewhere. Audience data can involve personal information, consent expectations and restrictions on marketing or contact. Do not assume that a fan list can be transferred or used for a new service simply because you can view it on the original platform. Review the relevant terms and applicable obligations before exporting or contacting people."
+      ]
+    },
+    {
+      "heading": "Plan for pause, closure and loss of access",
+      "paragraphs": [
+        "Read the sections that explain account suspension, termination, content removal and data retention. Look for whether you can retrieve files during a closure process, how long access may remain available and whether a pending account issue changes the process. Avoid treating an account-closure button as a complete business-exit plan. The platform may have separate procedures for subscriptions, outstanding transactions, disputes, content removal and personal-data requests.",
+        "Prepare a practical exit checklist while you still have normal access. Identify the records you need for your own business, the content you can lawfully preserve and the steps required to close or pause the account. Save important notices and transaction documentation securely. Do not download or retain material that you lack permission to keep, and do not assume that deletion from your profile removes every copy or record held under the platform’s stated policies."
+      ],
+      "bullets": [
+        "Locate account pause, closure and appeal instructions.",
+        "Confirm whether access to exports changes after account restrictions.",
+        "Keep essential business records in a secure, independent location.",
+        "Document which materials must not be transferred or retained."
+      ]
+    },
+    {
+      "heading": "Build a resilient content and records workflow",
+      "paragraphs": [
+        "A resilient workflow keeps appropriate source files, captions and business records in a creator-controlled system in addition to platform copies. Use access controls, secure backups and clear naming so files can be found without relying on a platform’s library structure. Separate public creative materials from sensitive records such as identity, payment and support documents. The exact setup depends on your needs, devices and obligations; avoid storing everything in one unprotected location.",
+        "A backup is only useful if it can be restored. Periodically check that files open and that the archive includes the items you expect. Keep a simple inventory of what is stored, where it is stored and who can access it. For audience or transaction information, minimize collection and limit access to people who need it. A portability plan should preserve your work without creating an unnecessary privacy or security risk."
+      ]
+    },
+    {
+      "heading": "Review the terms before platform dependence grows",
+      "paragraphs": [
+        "Revisit rights and portability terms when the platform updates its agreement, when you add a new content format or when your business begins to depend on a feature. Record the date, relevant section and questions you resolved. A one-time sign-up review cannot capture every later change, and a remembered summary may become outdated.",
+        "Use a simple decision rule: do not make a platform the only home for an important asset or record unless you understand the consequences of losing access and have an appropriate alternative. This does not mean avoiding platform tools. It means using them with clear expectations about rights, data export, account status and the limits of audience portability."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I own my content, can I automatically repost it anywhere?",
+      "answer": "Not necessarily. Ownership and platform permissions are separate, and other agreements or privacy obligations may also matter. Review the relevant terms before transferring or reposting material."
+    },
+    {
+      "question": "Does an account data export count as a complete backup?",
+      "answer": "Not by itself. Check which files and records are included, whether they retain useful organization and whether you can open them. Keep appropriate source materials and business records independently where you are entitled to do so."
+    },
+    {
+      "question": "Can I move my subscribers or fan list to another service?",
+      "answer": "Do not assume that audience information is transferable or reusable for new contact. Review platform rules, privacy expectations and applicable obligations before exporting or contacting people."
+    }
+  ],
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
