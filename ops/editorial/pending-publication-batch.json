@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T15:52:12.434Z",
+  "generatedAt": "2026-10-11T19:07:19.207Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-language-support-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-account-language-settings-audit.json",
-    "ops/editorial/content-artifacts/privacy-separate-account-identity-adult-platforms.json",
-    "ops/editorial/content-artifacts/affiliate-program-change-control-compliance-log.json",
-    "ops/editorial/content-artifacts/creator-platform-content-rights-exit-portability-audit.json"
+    "ops/editorial/content-artifacts/ar-app-camera-room-permission-audit.json",
+    "ops/editorial/content-artifacts/free-video-platform-listing-context-audit.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-license-and-reinstall-check.json",
+    "ops/editorial/content-artifacts/adult-shop-delivery-destination-choice-check.json",
+    "ops/editorial/content-artifacts/adult-anime-account-gates-access-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-platform-language-support-comparison.js",
-    "src/data/guides/premium-video-platform-language-settings-and-account-fit.js",
-    "src/data/guides/adult-platform-account-identity-separation-checklist.js",
-    "src/data/guides/webmaster-affiliate-program-change-control-checklist.js",
-    "src/data/guides/creator-platform-content-rights-and-portability-audit.js"
+    "src/data/guides/ar-adult-app-camera-and-room-permission-checklist.js",
+    "src/data/guides/free-adult-video-platform-listing-context-checklist.js",
+    "src/data/guides/adult-game-storefront-license-reinstall-and-update-checklist.js",
+    "src/data/guides/adult-shop-delivery-destination-and-handoff-checklist.js",
+    "src/data/guides/adult-anime-platform-account-and-access-gate-checklist.js"
   ],
   "categories": [
-    "live-cams",
-    "premium-videos",
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "creator-platforms"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "live-cam-language-support-comparison",
-    "premium-video-account-language-settings-audit",
-    "privacy-separate-account-identity-adult-platforms",
-    "affiliate-program-change-control-compliance-log",
-    "creator-platform-content-rights-exit-portability-audit"
+    "ar-app-camera-room-permission-audit",
+    "free-video-platform-listing-context-audit",
+    "adult-game-storefront-license-and-reinstall-check",
+    "adult-shop-delivery-destination-choice-check",
+    "adult-anime-account-gates-access-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38152935573",
-  "phase": "closed"
+  "r1CycleId": "38166457904"
 }

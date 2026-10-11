@@ -1,0 +1,108 @@
+export default {
+  "slug": "ar-adult-app-camera-and-room-permission-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "AR Adult Apps: Check Camera and Room Permissions Before Use",
+  "description": "Use this checklist to review camera, microphone, storage and room-mapping permissions before choosing an adult augmented-reality app.",
+  "excerpt": "Augmented-reality apps may request access to sensors or device features that a headset-only viewing service does not need. Check what is essential, what is optional and how to revoke access.",
+  "publishedAt": "2026-10-11",
+  "updatedAt": "2026-10-11",
+  "keyTakeaways": [
+    "Separate permissions needed for a feature you plan to use from permissions requested during general setup.",
+    "A camera permission can expose more than the app’s on-screen experience; review the app’s explanation and your device settings.",
+    "Room mapping, spatial data, microphone access and photo-library access are separate permission questions.",
+    "Test whether the app remains usable when optional permissions are denied, rather than assuming every request is essential.",
+    "Revisit permissions after app updates, device changes or a change in how you use the app."
+  ],
+  "sections": [
+    {
+      "heading": "Why AR permissions deserve their own review",
+      "paragraphs": [
+        "Augmented reality combines digital content with a view of a physical environment. Depending on the device and feature, an app may ask to use a camera, microphone, motion sensors, storage or spatial features. Those requests are not interchangeable: camera access does not automatically explain why an app needs a microphone, and a general permission list may not make clear whether a feature processes room information.",
+        "Treat permission review as a fit check, not a verdict that an app is safe or unsafe. Your goal is to understand what the app says each permission enables, whether you want that feature, and what the device lets you control. If an explanation is missing or unclear, consider that an unresolved question before creating an account or using the feature."
+      ],
+      "bullets": [
+        "Read the permission prompt and the app’s own explanation, not just the button labels.",
+        "Distinguish an optional feature from a requirement for basic access.",
+        "Check device-level settings to see whether permissions can be changed later."
+      ]
+    },
+    {
+      "heading": "Map each request to a specific feature",
+      "paragraphs": [
+        "Make a small permission inventory before setup. For each request, note the feature the app says it supports, whether you intend to use that feature, and whether the explanation identifies what happens to related data. This helps distinguish a narrowly explained request from a broad one that appears during onboarding without context.",
+        "A camera request may be relevant to an AR overlay, but that alone does not tell you whether images are processed on the device, transmitted elsewhere, stored, or used only while the feature is active. Do not infer the answer from the permission name. Look for an explanation in the app’s settings or privacy materials, and record anything that remains uncertain."
+      ],
+      "table": {
+        "caption": "Questions to ask when a device permission appears",
+        "headers": [
+          "Permission area",
+          "Check before allowing"
+        ],
+        "rows": [
+          [
+            "Camera",
+            "Which feature needs it, when is it active, and can access be limited or revoked?"
+          ],
+          [
+            "Microphone",
+            "Does a feature require audio input, or is this request unrelated to your intended use?"
+          ],
+          [
+            "Photos or storage",
+            "Is access needed to select a file, save something, or use a broader library?"
+          ],
+          [
+            "Motion or spatial features",
+            "What device capability is being used, and does the app explain its purpose?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand camera and room access separately",
+      "paragraphs": [
+        "Camera access and room understanding can be related in an AR experience, but they are not the same question. A device may have features that identify surfaces, position virtual elements or maintain their placement. Ask what the app uses and whether its description says anything about processing, storage or transmission. If the explanation only says that a feature improves AR, that may not answer the data-handling question you care about.",
+        "Use a controlled test environment if you decide to try an AR feature. Avoid pointing a camera toward other people, private documents, screens or recognizable parts of a home. Keep the test short, check whether the app indicates that the camera is active, and close the feature when finished. These habits reduce accidental exposure, but they do not replace checking the app’s stated practices and device controls."
+      ],
+      "bullets": [
+        "Do not assume a permission prompt describes every kind of data a feature may process.",
+        "Check whether the device shows an active-camera indicator.",
+        "Choose a neutral test area with no bystanders or identifying details in view."
+      ]
+    },
+    {
+      "heading": "Try a least-permission setup",
+      "paragraphs": [
+        "Where the device allows it, begin with permissions denied or limited and enable only those required for a feature you have chosen to try. Observe what still works. If a feature is unavailable, decide whether it matters to you before granting additional access. This is more informative than approving every prompt during a fast setup flow and trying to reconstruct the choices later.",
+        "Permission names and controls vary by operating system and device. Look for controls that allow access only while using an app, one-time access, selected-file access or revocation, where available. A setting is useful only if you understand its scope. If the app says a feature requires broad access but the device offers a narrower option, test whether the narrower choice meets your needs."
+      ]
+    },
+    {
+      "heading": "Recheck after updates and use changes",
+      "paragraphs": [
+        "Permission review is not a one-time task. App updates can add features or change how existing features are described, while device updates can introduce different permission choices. Revisit the app’s settings and the device’s permission panel after a major update, when you start using a new feature, or when you stop using the app.",
+        "If you uninstall the app, review any downloaded files or saved data separately; removing an app does not necessarily explain what an account or service retains. For account-related questions, consult the service’s current privacy and deletion information. Keep a note of permissions you intentionally granted and why, so you can later decide whether they are still necessary."
+      ],
+      "bullets": [
+        "Review permissions after an app or operating-system update.",
+        "Revoke access you no longer need and confirm whether the feature still works as expected.",
+        "Treat account data, saved files and device permissions as separate cleanup tasks."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does camera access mean an app is recording?",
+      "answer": "Not necessarily. A permission indicates that an app can access a device feature under the granted conditions; it does not, by itself, explain whether data is recorded, stored or transmitted. Check the app’s explanation, privacy materials and device indicators, and avoid granting access if the information you need is unavailable."
+    },
+    {
+      "question": "Can I try an AR app without granting every permission?",
+      "answer": "Often you can test the parts that do not depend on a denied permission, but the result depends on the app and device. Start with the minimum access offered, then enable a permission only if a feature you want clearly requires it."
+    },
+    {
+      "question": "Should I allow room or motion access for every AR feature?",
+      "answer": "No blanket rule applies. First identify the specific feature, read the explanation and consider whether it fits your use. If the app does not explain why access is needed or how related information is handled, treat that uncertainty as part of your decision."
+    }
+  ]
+};
