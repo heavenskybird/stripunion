@@ -31,13 +31,31 @@ export function classifyStatus(status) {
 
 export async function probeUrl(url, timeoutMs = 7_000, fetchImpl = fetch) {
   try {
-    const response = await fetchImpl(url, {
-      method: 'GET', redirect: 'manual',
-      headers: { 'User-Agent': 'StripUnion-Publication-Verifier/2.0', 'Cache-Control': 'no-cache' },
-      signal: AbortSignal.timeout(timeoutMs),
-    });
-    try { await response.body?.cancel(); } catch {}
-    return { url, status: response.status, classification: classifyStatus(response.status), ok: response.status === 200 };
+    const original = new URL(url);
+    let current = original;
+    const redirects = [];
+    // One timeout covers the entire chain, including canonical slash normalization.
+    const signal = AbortSignal.timeout(timeoutMs);
+    for (let hop = 0; hop <= 2; hop++) {
+      const response = await fetchImpl(current.href, {
+        method: 'GET', redirect: 'manual',
+        headers: { 'User-Agent': 'StripUnion-Publication-Verifier/2.0', 'Cache-Control': 'no-cache' }, signal,
+      });
+      try { await response.body?.cancel(); } catch {}
+      if ([301, 308].includes(response.status) && hop < 2 && response.headers.get('location')) {
+        const next = new URL(response.headers.get('location'), current);
+        const sameGuide = next.origin === original.origin && !next.username && !next.password &&
+          !next.search && !next.hash && next.pathname.replace(/\/$/, '') === original.pathname.replace(/\/$/, '') &&
+          next.href !== current.href;
+        if (sameGuide) {
+          redirects.push({ status: response.status, path: next.pathname });
+          current = next;
+          continue;
+        }
+      }
+      return { url, finalUrl: current.href, redirects, status: response.status,
+        classification: classifyStatus(response.status), ok: response.status === 200 };
+    }
   } catch (error) {
     return { url, status: 0, classification: 'transport-error', ok: false,
       error: ['TimeoutError', 'AbortError'].includes(error?.name) ? error.name : 'NetworkError' };

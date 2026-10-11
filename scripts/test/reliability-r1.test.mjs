@@ -171,6 +171,35 @@ test('real request timeout cannot be mistaken for a live page', async () => {
   assert.equal(result.reason, 'attempt-limit');
 });
 
+test('observed permanent trailing-slash redirect is bounded and requires a real final 200', async () => {
+  const result = await waitForAllLive(urls, { expectedGuides: hashes, fetchImpl: async (url) => {
+    if (url.endsWith('/publication-deployment.json')) return Response.json({ version: 1, guides: hashes });
+    return url.endsWith('/') ? new Response('', { status: 200 }) :
+      new Response('', { status: 301, headers: { location: new URL(url).pathname + '/' } });
+  } });
+  assert.equal(result.ok, true);
+  assert.ok(result.results.every((row) => row.redirects.length === 1 && row.status === 200));
+});
+
+test('canonical redirect cannot hide final 403/404/503, homepage redirect or a redirect loop', async () => {
+  for (const failure of [403, 404, 503, 'homepage', 'loop']) {
+    let requests = 0;
+    const result = await waitForAllLive(urls, { expectedGuides: hashes, maxAttempts: 1, fetchImpl: async (url) => {
+      if (url.endsWith('/publication-deployment.json')) return Response.json({ version: 1, guides: hashes });
+      requests++;
+      if (failure === 'homepage') return new Response('', { status: 301, headers: { location: '/' } });
+      if (url.endsWith('/')) {
+        return failure === 'loop' ? new Response('', { status: 301, headers: { location: url.slice(0, -1) } }) :
+          new Response('', { status: failure });
+      }
+      return new Response('', { status: 301, headers: { location: new URL(url).pathname + '/' } });
+    } });
+    assert.equal(result.ok, false);
+    assert.ok(requests <= 15);
+    if (typeof failure === 'number') assert.ok(result.results.every((row) => row.status === failure));
+  }
+});
+
 test('all HTTP 200 with stale/malformed/missing/forbidden deployment evidence fails closed', async () => {
   for (const marker of ['stale', 'invalid', 404, 403]) {
     const result = await verify({ markers: [marker], maxAttempts: 2 });

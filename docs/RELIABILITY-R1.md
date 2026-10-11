@@ -43,7 +43,7 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 
 已有 Ledger 记录在 recovery 中不会回退到 distribution_pending，不改变 published_at。原 distributed 完成路径仍能单调升级 pending 记录到 distributed；损坏 JSON 明确失败，不覆盖证据。Outbox 继续使用原有 slug/channel 文件与 idempotency key；本次没有改变额度或消息生成规则。
 
-`scripts/check-live-publications.mjs` 要求五个不同的 canonical guide URL，拒绝凭证、query/hash、跨 origin URL。请求不跟随重定向，成功只接受真实 200。
+`scripts/check-live-publications.mjs` 要求五个不同的 canonical guide URL，拒绝凭证、query/hash、跨 origin URL。请求使用 manual redirect；只允许同 HTTPS origin、同 guide 路径的 301/308 尾斜杠规范化，最多两跳，整个跳转链共用请求超时。最终成功只接受真实 200。
 
 | 状态 | 分类/恢复 |
 | --- | --- |
@@ -52,7 +52,7 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 | 429 | rate-limited，有上限 backoff；不持有或打印远端错误正文。 |
 | 500–599 | server-error，有上限 backoff；持续故障永不成功。 |
 | transport timeout/error | 状态 0，保留安全错误类型；不记录可能携带凭证的错误消息。 |
-| 3xx/其他状态 | terminal unexpected response，不把跳转到首页/挑战页作为发布。 |
+| 未许可的 3xx/其他状态 | terminal unexpected response，不把跨 origin、跨 guide、首页/挑战页、query/凭证或循环跳转作为发布。 |
 
 默认总期限十分钟，最多三十轮，每请求七秒超时，15/30/60 秒 backoff；sleep/request timeout 均裁剪到剩余期限。参数还设有硬上界（最大十分钟、四十轮、十秒请求超时），不能配置无限重试。
 
@@ -73,14 +73,14 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 | `scripts/publication-deployment.mjs` | 构建指纹生成与复用。 |
 | `scripts/record-astro-publication.mjs` | 保留既有 Ledger、禁止 recovery 降级、允许分发完成升级。 |
 | `astro.config.mjs` | 注册轻量构建完成 hook，无新增依赖。 |
-| `scripts/test/reliability-r1.test.mjs` | 28 项离线测试，含临时文件中的真实 checkpoint/Ledger CLI 测试。 |
+| `scripts/test/reliability-r1.test.mjs` | 30 项离线测试，含临时文件中的真实 checkpoint/Ledger CLI 测试。 |
 | `docs/CONTENT-FACTORY.md`、`docs/GROWTH-CONTROL-PLANE.md` | 更新 canonical 运行说明。 |
 | `docs/RELIABILITY-R1.md` | 本报告、优化建议、风险及 runbook。 |
 
 ## 验证结果
 
 - Node.js 22.23.3（官方 Windows archive，SHA-256 对照官方 SHASUMS256）；另外早期在本地 Node 24.14.0 验证。依赖按仓库现有 `npm install` 路径安装，未增加依赖或 lockfile。
-- `node --test scripts/test/reliability-r1.test.mjs`：28/28 通过。覆盖 cron 漏触发、重复/手动触发、历史 rerun、并发 SHA 冲突、API fail-closed、403/404/429/5xx、部分 URL 失败、真实 abort 超时、部署延迟/陈旧指纹、deadline/attempt ceiling、精确五篇恢复、partial Ledger、不可变发布时间及 closed-cycle 恢复。
+- `node --test scripts/test/reliability-r1.test.mjs`：30/30 通过。覆盖 cron 漏触发、重复/手动触发、历史 rerun、并发 SHA 冲突、API fail-closed、403/404/429/5xx、部分 URL 失败、真实 abort 超时、部署延迟/陈旧指纹、deadline/attempt ceiling、精确五篇恢复、partial Ledger、不可变发布时间及 closed-cycle 恢复；并覆盖真实生产尾斜杠跳转模式、最终故障、跨页跳转与循环上限。
 - `node scripts/check-live-publications.mjs --self-test`：通过。
 - actionlint 1.7.12（官方 release/checksum）：四个变更 workflow 校验通过。Windows 没有 ShellCheck，本次 actionlint 明确禁用其调用；现有 shell 块另经 diff 审阅。
 - `npm run check`：419 个 source/public 文件通过。
@@ -91,6 +91,8 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 - 测试全部使用 mock HTTP、模拟状态存储或临时文件，不 dispatch/rerun 任何历史 Producer，不访问真实 OpenAI/社交发布。此次不声称生产 R1 已通过。
 
 只读运行证据：[最近成功的 Producer](https://github.com/heavenskybird/stripunion/actions/runs/38101793893)；[前次失败运行](https://github.com/heavenskybird/stripunion/actions/runs/38093278768) 的 jobs API 确认失败于 Wait for production and enqueue native social outbox。完整日志下载返回 GitHub API 403、要求 repository admin，因此不能确定该次网站 HTTP 状态。这是日志授权限制，不能宣称网站当时返回 403。
+
+直接只读生产 HTTP 抽查确认既有 `/guides/adult-affiliate-webmaster-program-evaluation-guide` 返回 301 到同路径尾斜杠，再返回真实 200。修正后的 probeUrl 同样记录原 301 和最终 200；因此加入两跳以内的严格同 guide 规范化支持，不修改公开 canonical URL。
 
 ## 十四天视觉证据存储压力
 
