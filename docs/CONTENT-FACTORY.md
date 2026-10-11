@@ -48,7 +48,7 @@ Compilation:
 
 ## Hourly autonomous production
 
-`.github/workflows/editorial-hourly-producer.yml` is the production owner. It runs hourly (and on manual dispatch) inside GitHub Actions, so scheduled ChatGPT runs are not required to mutate repository files.
+`.github/workflows/editorial-hourly-producer.yml` is the production owner. The multi-source scheduler calls it as a reusable workflow; manual dispatch uses the same job lock and durable cadence admission. Scheduled ChatGPT runs are not required to mutate repository files. Reliability R1 behavior, recovery limits and rollout instructions are documented in `docs/RELIABILITY-R1.md`.
 
 Each run reconciles the backlog from the publication ledger, selects under-built categories, calls a replaceable AI worker through the provider-neutral artifact contract, rejects duplicate/cannibalizing output, compiles the five accepted artifacts, runs build/SEO/visual preflight, pushes the validated batch to canonical `main`, waits for production HTTP 200, distributes to Buffer/X and Telegram, records the publication ledger, and retires published backlog items.
 

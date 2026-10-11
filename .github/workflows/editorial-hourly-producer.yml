@@ -2,17 +2,18 @@ name: Editorial hourly producer
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 permissions:
   contents: write
   actions: write
 
-concurrency:
-  group: editorial-hourly-producer
-  cancel-in-progress: false
-
 jobs:
   produce:
+    if: github.ref == 'refs/heads/main'
+    concurrency:
+      group: editorial-hourly-producer
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
@@ -31,10 +32,21 @@ jobs:
         with:
           node-version: 22
 
+      - name: Refresh main after acquiring the single writer lock
+        run: git pull --ff-only origin main
+
+      - name: Admit one durable cadence cycle
+        id: admission
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/editorial-r1-runtime.mjs admit
+
       - name: Install dependencies
+        if: steps.admission.outputs.claimed == 'true'
         run: npm install
 
       - name: Verify producer credential
+        if: steps.admission.outputs.claimed == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         shell: bash
@@ -46,6 +58,7 @@ jobs:
           fi
 
       - name: Reconcile publication state
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -53,12 +66,16 @@ jobs:
         run: node scripts/reconcile-editorial-backlog.mjs
 
       - name: Plan recovery-first batch
+        if: steps.admission.outputs.claimed == 'true'
         id: recovery
         shell: bash
         run: |
           set -euo pipefail
           rm -f /tmp/stripunion-editorial-batch.json
-          node scripts/plan-editorial-recovery.mjs
+          node scripts/editorial-r1-runtime.mjs restore
+          if [[ ! -f /tmp/stripunion-editorial-batch.json ]]; then
+            node scripts/plan-editorial-recovery.mjs
+          fi
           if [[ -f /tmp/stripunion-editorial-batch.json ]]; then
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
@@ -66,12 +83,13 @@ jobs:
           fi
 
       - name: Plan hourly batch and generate only the deficit
-        if: steps.recovery.outputs.ready != 'true'
+        if: steps.recovery.outputs.ready != 'true' && steps.admission.outputs.claimed == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node scripts/generate-editorial-batch.mjs
 
       - name: Load isolated five-item batch manifest
+        if: steps.admission.outputs.claimed == 'true'
         id: batch
         shell: bash
         run: |
@@ -110,6 +128,7 @@ jobs:
           NODE
 
       - name: Claim selected batch in control plane
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -117,6 +136,7 @@ jobs:
         run: npm run control-plane:claim
 
       - name: Validate backlog and only this hourly batch
+        if: steps.admission.outputs.claimed == 'true'
         env:
           ARTIFACT_FILES: ${{ steps.batch.outputs.artifact_files }}
         shell: bash
@@ -128,6 +148,7 @@ jobs:
           node scripts/compile-editorial-artifacts.mjs --check "${files[@]}"
 
       - name: Compile only this hourly batch
+        if: steps.admission.outputs.claimed == 'true' && steps.batch.outputs.mode != 'recovery'
         env:
           ARTIFACT_FILES: ${{ steps.batch.outputs.artifact_files }}
         shell: bash
@@ -138,6 +159,7 @@ jobs:
           node scripts/compile-editorial-artifacts.mjs "${files[@]}"
 
       - name: Reconcile compiled state
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -145,6 +167,7 @@ jobs:
         run: node scripts/reconcile-editorial-backlog.mjs
 
       - name: Verify exactly five selected guide modules exist
+        if: steps.admission.outputs.claimed == 'true'
         env:
           GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
         shell: bash
@@ -162,6 +185,7 @@ jobs:
           fi
 
       - name: Run production quality gates
+        if: steps.admission.outputs.claimed == 'true'
         run: |
           node --check scripts/generate-editorial-batch.mjs
           node --check scripts/plan-editorial-recovery.mjs
@@ -169,6 +193,7 @@ jobs:
           node --check scripts/social-outbox-enqueue.mjs
           node --check scripts/check-live-publications.mjs
           node scripts/check-live-publications.mjs --self-test
+          node --test scripts/test/reliability-r1.test.mjs
           npm run check
           PUBLIC_ALLOW_INDEXING=false npm run build
           node scripts/check-staging-robots-artifact.mjs
@@ -177,9 +202,11 @@ jobs:
           PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 node scripts/check-ga4-artifact.mjs
 
       - name: Install Chromium for visual QA
+        if: steps.admission.outputs.claimed == 'true'
         run: npx playwright install --with-deps chromium
 
       - name: Start local production preview
+        if: steps.admission.outputs.claimed == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -194,6 +221,7 @@ jobs:
           exit 1
 
       - name: Run visual QA on all five selected guides
+        if: steps.admission.outputs.claimed == 'true'
         env:
           GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
         shell: bash
@@ -211,7 +239,7 @@ jobs:
           npm run test:visual
 
       - name: Upload hourly visual evidence
-        if: always()
+        if: always() && steps.admission.outputs.claimed == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: editorial-hourly-visual-qa
@@ -220,7 +248,7 @@ jobs:
           retention-days: 14
 
       - name: Persist visual QA history to control plane
-        if: always()
+        if: always() && steps.admission.outputs.claimed == 'true'
         continue-on-error: true
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
@@ -230,6 +258,7 @@ jobs:
         run: npm run control-plane:visual
 
       - name: Checkpoint validated batch to control plane
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -239,12 +268,14 @@ jobs:
         run: npm run sync:growth-control-plane
 
       - name: Commit validated batch directly to canonical main
+        if: steps.admission.outputs.claimed == 'true'
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "stripunion-content-factory"
           git config user.email "actions@users.noreply.github.com"
-          git add ops/editorial/content-artifacts ops/editorial/hourly-backlog.json src/data/guides
+          node scripts/editorial-r1-runtime.mjs checkpoint
+          git add ops/editorial/content-artifacts ops/editorial/hourly-backlog.json src/data/guides ops/editorial/pending-publication-batch.json
 
           if git diff --cached --quiet; then
             echo "No new content changes to commit; recovery batch is using existing canonical guides."
@@ -264,6 +295,7 @@ jobs:
           exit 1
 
       - name: Wait for production and enqueue native social outbox
+        if: steps.admission.outputs.claimed == 'true'
         env:
           GUIDE_FILES: ${{ steps.batch.outputs.guide_files }}
         shell: bash
@@ -286,7 +318,15 @@ jobs:
           NODE
           )"
 
-          PUBLICATION_URLS_JSON="$publication_urls_json" node scripts/check-live-publications.mjs
+          expected_guides_json="$(node --input-type=module - <<'NODE'
+          import { guideFingerprints } from './scripts/publication-deployment.mjs';
+          const files = String(process.env.GUIDE_FILES || '').split(/\r?\n/).filter(Boolean);
+          process.stdout.write(JSON.stringify(await guideFingerprints(files)));
+          NODE
+          )"
+          PUBLICATION_URLS_JSON="$publication_urls_json" \
+          PUBLICATION_EXPECTED_GUIDES_JSON="$expected_guides_json" \
+          node scripts/check-live-publications.mjs
 
           for file in "${guide_files[@]}"; do
             node scripts/record-astro-publication.mjs "$file" distribution_pending
@@ -294,6 +334,7 @@ jobs:
           done
 
       - name: Close publication state and persist ledger
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -302,11 +343,12 @@ jobs:
         run: |
           set -euo pipefail
           node scripts/reconcile-editorial-backlog.mjs
-          git add ops/editorial/publication-ledger/astro ops/editorial/hourly-backlog.json ops/social-outbox/events
+          node scripts/editorial-r1-runtime.mjs clear
+          git add ops/editorial/publication-ledger/astro ops/editorial/hourly-backlog.json ops/social-outbox/events ops/editorial/pending-publication-batch.json
 
-          if [[ -z "$(git status --porcelain)" ]]; then
-            echo "No publication ledger changes found." >&2
-            exit 1
+          if git diff --cached --quiet; then
+            echo "Publication state is already closed."
+            exit 0
           fi
 
           git commit -m "report: close autonomous hourly editorial batch"
@@ -321,6 +363,7 @@ jobs:
           exit 1
 
       - name: Dispatch Native Social Outbox
+        if: steps.admission.outputs.claimed == 'true'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
@@ -330,7 +373,14 @@ jobs:
           gh api             --method POST             -H "Accept: application/vnd.github+json"             "/repos/${GITHUB_REPOSITORY}/actions/workflows/social-outbox.yml/dispatches"             -f ref=main
           echo "SOCIAL_OUTBOX_DISPATCH_REQUESTED"
 
+      - name: Complete durable R1 cycle
+        if: steps.admission.outputs.claimed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/editorial-r1-runtime.mjs finish success
+
       - name: Mirror canonical state to growth control plane
+        if: steps.admission.outputs.claimed == 'true'
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
@@ -340,10 +390,11 @@ jobs:
         run: npm run sync:growth-control-plane
 
       - name: Report rolling production
+        if: steps.admission.outputs.claimed == 'true'
         run: npm run report:editorial-production
 
       - name: Record failed hourly run in control plane
-        if: failure()
+        if: failure() && steps.admission.outputs.claimed == 'true'
         continue-on-error: true
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
@@ -353,3 +404,18 @@ jobs:
           DEAD_LETTER_REASON: Editorial hourly producer failed; inspect the linked GitHub Actions run and retry only after the root cause is understood.
           DEAD_LETTER_RETRYABLE: 'true'
         run: npm run control-plane:dead-letter
+
+      - name: Record incomplete R1 cycle
+        if: failure() && steps.admission.outputs.claimed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/editorial-r1-runtime.mjs finish failure
+
+      - name: Upload bounded publication verification evidence
+        if: always() && steps.admission.outputs.claimed == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-verification-${{ github.run_id }}
+          path: artifacts/publication-verification
+          if-no-files-found: ignore
+          retention-days: 14

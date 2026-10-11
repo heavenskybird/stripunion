@@ -19,99 +19,22 @@ on:
     types: [completed]
 
 permissions:
-  contents: read
+  contents: write
   actions: write
 
+# Coalesce wakeups without killing the writer. Pending replacement is safe: every
+# admitted job evaluates durable cadence, rather than depending on a particular cron.
 concurrency:
-  group: editorial-producer-scheduler
-  cancel-in-progress: true
+  group: editorial-producer-scheduler-r1
+  cancel-in-progress: false
 
 jobs:
-  dispatch-if-due:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - name: Dispatch canonical Producer only when due
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          gh workflow enable editorial-hourly-producer.yml || true
-
-          runs="$(gh run list \
-            --workflow editorial-hourly-producer.yml \
-            --limit 20 \
-            --json databaseId,status,conclusion,createdAt,event,url)"
-
-          decision="$(RUNS_JSON="$runs" node - <<'NODE'
-          const runs = JSON.parse(process.env.RUNS_JSON || '[]');
-          const now = Date.now();
-          const activeStatuses = new Set(['queued', 'in_progress', 'waiting', 'requested', 'pending']);
-          const active = runs
-            .filter((run) => activeStatuses.has(run.status))
-            .sort((a, b) => Date.parse(b.createdAt || 0) - Date.parse(a.createdAt || 0))[0] || null;
-
-          if (active) {
-            console.log(JSON.stringify({ action: 'skip-active', active }));
-            process.exit(0);
-          }
-
-          const latest = runs
-            .filter((run) => run.createdAt)
-            .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))[0] || null;
-
-          if (!latest) {
-            console.log(JSON.stringify({ action: 'dispatch', reason: 'no-prior-run' }));
-            process.exit(0);
-          }
-
-          const ageMinutes = (now - Date.parse(latest.createdAt)) / 60000;
-          const failed = ['failure', 'cancelled', 'timed_out', 'action_required', 'startup_failure']
-            .includes(latest.conclusion);
-
-          if (failed && ageMinutes >= 10) {
-            console.log(JSON.stringify({
-              action: 'dispatch',
-              reason: 'retry-completed-failure',
-              ageMinutes: Number(ageMinutes.toFixed(1)),
-              latest
-            }));
-            process.exit(0);
-          }
-
-          if (failed) {
-            console.log(JSON.stringify({
-              action: 'skip-retry-backoff',
-              ageMinutes: Number(ageMinutes.toFixed(1)),
-              latest
-            }));
-            process.exit(0);
-          }
-
-          if (ageMinutes >= 52) {
-            console.log(JSON.stringify({
-              action: 'dispatch',
-              reason: 'cadence-due',
-              ageMinutes: Number(ageMinutes.toFixed(1)),
-              latest
-            }));
-          } else {
-            console.log(JSON.stringify({
-              action: 'skip-fresh',
-              ageMinutes: Number(ageMinutes.toFixed(1)),
-              latest
-            }));
-          }
-          NODE
-          )"
-
-          echo "EDITORIAL_PRODUCER_SCHEDULER $decision"
-
-          action="$(node -e 'const d=JSON.parse(process.argv[1]); process.stdout.write(d.action)' "$decision")"
-          if [[ "$action" == "dispatch" ]]; then
-            gh workflow run editorial-hourly-producer.yml --ref main
-            echo "EDITORIAL_PRODUCER_DISPATCH_REQUESTED"
-          fi
+  produce-if-due:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.head_repository.full_name == github.repository &&
+        github.event.workflow_run.event != 'pull_request'))
+    uses: ./.github/workflows/editorial-hourly-producer.yml
+    secrets: inherit

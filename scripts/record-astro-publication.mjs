@@ -17,7 +17,22 @@ const ledgerPath = path.join(ledgerDir, guide.slug + '.json');
 const now = new Date().toISOString();
 
 let existing = null;
-try { existing = JSON.parse(await fs.readFile(ledgerPath, 'utf8')); } catch {}
+try { existing = JSON.parse(await fs.readFile(ledgerPath, 'utf8')); }
+catch (error) { if (error.code !== 'ENOENT') throw error; }
+
+// Exact-batch recovery must not reset existing publication/distribution evidence.
+if (existing) {
+  if (existing.slug !== guide.slug || !existing.published_at || existing.url !== `https://stripunion.com/guides/${guide.slug}`) {
+    throw new Error('Invalid existing publication ledger; refusing overwrite.');
+  }
+  if (distributionState === 'distributed' && existing.distribution_state !== 'distributed') {
+    await fs.writeFile(ledgerPath, JSON.stringify({ ...existing, distribution_state: 'distributed', verified_at: now }, null, 2) + '\n');
+    console.log(`ASTRO_DISTRIBUTION_COMPLETED ${ledgerPath}`);
+    process.exit(0);
+  }
+  console.log(`ASTRO_PUBLICATION_ALREADY_RECORDED ${ledgerPath}`);
+  process.exit(0);
+}
 
 const entry = {
   version: 1,
