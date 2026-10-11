@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "external heartbeat: producer cadence overdue >52m; single-job rerun blocked",
-  "updated_at": "2026-10-08T17:55:00.000Z"
+  "reason": "R1 external heartbeat: successful receipt older than 52m; no active scheduler/writer; request one fresh scheduler admission",
+  "updated_at": "2026-10-11T13:59:49.000Z"
 }
