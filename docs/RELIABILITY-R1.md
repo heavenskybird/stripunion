@@ -87,10 +87,18 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 - `PUBLIC_ALLOW_INDEXING=false npm run build` 与 staging robots artifact 检查：通过。
 - `PUBLIC_ALLOW_INDEXING=true PUBLIC_GA4_MEASUREMENT_ID=G-TEST123456 npm run build`、`npm run check:prod-seo` 与 GA4/Clarity artifact 检查：通过；449 个静态页面。测试 measurement ID 不写入配置或已发布内容。
 - 本地构建指纹覆盖 360 个 guide 模块，并与 source SHA-256 全量比对一致。
-- `git diff --check`：通过。最终 PR/check 状态以交付链接为准。
+- `git diff --check`：通过。Draft PR [#152](https://github.com/heavenskybird/stripunion/pull/152) 已创建；实现提交 `baf97be`、`c4faf6a` 的 [push Build](https://github.com/heavenskybird/stripunion/actions/runs/38107880922) 与 [PR Build](https://github.com/heavenskybird/stripunion/actions/runs/38107883566) 均通过。后续报告更新的最新 checks 以 PR 为准；没有合并 main。
 - 测试全部使用 mock HTTP、模拟状态存储或临时文件，不 dispatch/rerun 任何历史 Producer，不访问真实 OpenAI/社交发布。此次不声称生产 R1 已通过。
 
-只读运行证据：[最近成功的 Producer](https://github.com/heavenskybird/stripunion/actions/runs/38101793893)；[前次失败运行](https://github.com/heavenskybird/stripunion/actions/runs/38093278768) 的 jobs API 确认失败于 Wait for production and enqueue native social outbox。完整日志下载返回 GitHub API 403、要求 repository admin，因此不能确定该次网站 HTTP 状态。这是日志授权限制，不能宣称网站当时返回 403。
+只读运行证据：[最近成功的 Producer](https://github.com/heavenskybird/stripunion/actions/runs/38101793893)；[前次失败运行](https://github.com/heavenskybird/stripunion/actions/runs/38093278768) 的 jobs API 确认失败于 Wait for production and enqueue native social outbox。首次 sandbox 内日志下载返回 GitHub API 403；随后通过已有认证 CLI 的正常只读路径成功读取，日志明确记录 `PUBLICATION_LIVE_CHECK_FAILED`，五个真实 HTTP 403 URL 分别为：
+
+- `/guides/adult-games-storefront-license-and-update-checklist`
+- `/guides/adult-shop-total-order-cost-comparison`
+- `/guides/webmaster-affiliate-report-reconciliation-workflow`
+- `/guides/premium-video-subscription-plan-fit-audit`
+- `/guides/live-cam-room-discovery-filter-evaluation`
+
+没有重跑该历史 Producer。日志权限限制已排除；这些 403 必须作为当次真实发布验证失败保留。仅凭日志不能归因到 Hostinger/WAF/CDN 的具体规则，本次没有修改规则或生产配置。
 
 直接只读生产 HTTP 抽查确认既有 `/guides/adult-affiliate-webmaster-program-evaluation-guide` 返回 301 到同路径尾斜杠，再返回真实 200。修正后的 probeUrl 同样记录原 301 和最终 200；因此加入两跳以内的严格同 guide 规范化支持，不修改公开 canonical URL。
 
@@ -121,7 +129,7 @@ R1 将 Scheduler 改为直接调用 reusable Producer，完全移除 Producer di
 
 1. **部署前排空旧工作流**：本次没有 merge。批准上线时，先在 Actions 暂停 Scheduler，等待所有正在运行的旧 Producer 完成（尤其是持有旧 manifest 的运行），确认没有外部任务直接 dispatch Producer。再审阅并合并本 PR；不能在旧 Producer 中途替换脚本后重跑历史 run。
 2. **首次生产验收**：确认 Hostinger 部署本 PR 的正常 main build，直接读取 `https://stripunion.com/publication-deployment.json`，确认 200/version=1。再恢复 Scheduler；等待一次自然 cron admission，不手动派发 Producer。检查 R1_ADMISSION、receipt branch、单个五篇 manifest、全部 PUBLICATION_PROBE 结果和 Ledger closure；重复 wakeup 应 skip，pending 不应取消正在执行的 writer。
-3. **日志权限**：有 repository admin 权限的人打开失败 run 38093278768 下载日志，确定历史失败原因。本次没有为获取日志提升 token scope 或修改凭证。
+3. **403 根因**：历史日志已通过认证只读路径取回，五个 403 已确认，无需 Kenny 手工转发日志。若上线后 403 再现，管理员应将新 run 的时间、五个 URL、User-Agent 和 PUBLICATION_PROBE 证据与 Hostinger/CDN 已有访问/防护日志对照，确定拒绝来自哪一层。不得因其他 URL 200 或 oracle 正常把该批次标记成功；配置变更需另行授权，本次没有提升 token scope 或修改凭证。
 4. **重试上限恢复**：发生 cycle-retry-limit 时，先暂停 Scheduler、等 writer 排空；检查原 manifest/五个源文件/verify artifact/Hostinger 部署。修复实际问题后，在 GitHub 的 `codex/editorial-r1-runtime` 分支编辑 `ops/control-plane/editorial-r1-receipt.json`，只将 attempts 调整为 1，保留 status=failure/running、cycleId、runId、recentRunIds、startedAt 和原 manifest。必须记录人工原因；这给同一 cycle 两次额外有上限尝试。恢复 Scheduler，等待新的自然 wakeup。禁止删 receipt、伪造 success、重跑历史 Producer，或重新生成已提交批次。
 5. **first-attempt API 写失败**：admission 以 SHA 写 receipt 成功后若 runner 恰在写 GITHUB_ENV/output 前中断，会保留 running receipt；下次仍受 backoff/三次上限控制。不存在 receipt 写失败后的 permissive fallback。
 6. **其他写入者**：single writer 限于自动/手动 canonical Producer。旧 editorial-distribution、人工 PR merge、社会 outbox 的元数据提交仍是独立写入者；现有 rebase retry 可能遇到语义冲突，会失败并保留 checkpoint，不自动消解不明确冲突。未在 R1 重构所有发布渠道或改造分发为 exactly-once。
