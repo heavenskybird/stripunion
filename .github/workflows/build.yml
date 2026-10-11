@@ -7,6 +7,7 @@ on:
       - 'ops/editorial/publication-ledger/**'
       - 'ops/editorial/hourly-backlog.json'
       - 'ops/social-outbox/events/**'
+      - 'ops/control-plane/editorial-r1-receipt.json'
   pull_request:
     branches: [main]
 
@@ -22,6 +23,8 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
+      - name: Test R1 reliability without external calls
+        run: node --test scripts/test/reliability-r1.test.mjs
       - name: Validate Hostinger read-only checker
         run: |
           node --check scripts/hostinger-readonly-check.mjs

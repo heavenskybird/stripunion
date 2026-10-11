@@ -38,7 +38,8 @@ jobs:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          AUTO_PROMOTE: 'true'
+          # R1 retains shadow authority; readiness evidence can still be evaluated.
+          AUTO_PROMOTE: 'false'
         run: node scripts/control-plane-readiness.mjs
 
       - name: Persist authority promotion

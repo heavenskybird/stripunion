@@ -76,6 +76,8 @@ The repository now implements these layers before promotion:
 5. opportunity and publication mirrors;
 6. an hourly readiness evaluator.
 
-`.github/workflows/control-plane-authority-promotion.yml` evaluates the gate automatically. Once 24 distinct producer cycles pass with no failed runs, no >110-minute gap and no repository IDs missing from the database, it changes `mode.json` from `shadow` to `authoritative` and commits that promotion to `main`.
+`.github/workflows/control-plane-authority-promotion.yml` evaluates readiness automatically. Reliability R1 sets `AUTO_PROMOTE=false`: passing readiness does not change `mode.json`. Promotion requires a separately authorized change after R1 acceptance; this sprint retains shadow mode.
 
 Git should continue to store code, content artifacts and durable reports, not real-time locks or leases.
+
+R1 uses GitHub Actions job concurrency for the Producer lock. A small audit/admission receipt on the isolated `codex/editorial-r1-runtime` branch survives workflow interruption and enforces cadence/retry limits; it does not introduce a database lease or promote Supabase. The canonical five-guide checkpoint remains with content on `main`. See `docs/RELIABILITY-R1.md`.
