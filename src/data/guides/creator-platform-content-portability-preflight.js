@@ -1,0 +1,103 @@
+export default {
+  "slug": "creator-platform-content-portability-preflight",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Before Joining a Creator Platform: Check Content Portability and Account Exit Options",
+  "description": "Assess export tools, rights terms, fan-data limits, and account closure rules before choosing a creator or fan-subscription platform.",
+  "excerpt": "A platform can help creators reach and manage an audience, but the work of leaving may be difficult. Use this pre-join checklist to examine what you can export, what rights you grant, and what happens to account records if you move.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Treat content downloads, audience information, and payment records as separate portability questions; access to one does not establish access to the others.",
+    "Read the platform terms for the scope and duration of any license it needs to host, display, promote, or distribute your work.",
+    "Find the account-closure and content-removal procedures before you rely on the service for ongoing business.",
+    "Keep independent copies of original files, captions, release documentation, and business records in a secure system you control.",
+    "Plan a move around what can lawfully and practically transfer, not an assumption that subscribers or messages can be migrated."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a platform exit scenario",
+      "paragraphs": [
+        "A useful platform comparison asks not only how a creator joins, publishes, and receives support, but also how they could leave. Imagine a change in business priorities, a policy disagreement, or a decision to pause publishing. Then check whether the platform explains account deactivation, permanent closure, content removal, and any waiting period or review process in clear terms.",
+        "Separate leaving the platform from removing material already distributed through it. A creator may be able to close a profile but still need to make a separate request about hosted files, previews, or promotional copies. Terms and workflows differ, so record the exact steps stated by the service rather than relying on assumptions or informal summaries."
+      ],
+      "bullets": [
+        "Locate account closure and content-removal instructions before opening a paid account.",
+        "Note what happens to existing subscriptions, pending transactions, and access during closure.",
+        "Save a dated copy of relevant terms and help documentation for your own records."
+      ]
+    },
+    {
+      "heading": "Audit the content rights language",
+      "paragraphs": [
+        "A platform typically needs permission to handle material in order to operate the service. The important decision is the scope of that permission: which uses are covered, whether the license continues after an upload is removed, and whether separate promotional or sublicensing permissions are described. Read the actual terms and privacy documentation rather than treating an upload button as a complete explanation of rights.",
+        "Distinguish platform hosting from ownership. Check whether the terms say the creator retains ownership, what license the service receives, and what duties apply to material featuring other people or third-party elements. If a clause is unclear or appears broader than the service you intend to use, pause and seek appropriate professional advice before uploading work."
+      ],
+      "table": {
+        "caption": "Questions to record while reviewing rights and exit terms",
+        "headers": [
+          "Area",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Hosting license",
+            "What uses are authorized, for how long, and whether removal changes that authorization."
+          ],
+          [
+            "Promotion",
+            "Whether previews, promotional placements, or partner distribution are covered separately."
+          ],
+          [
+            "Removal",
+            "How to request removal and whether the process covers copies or embeds controlled by the service."
+          ],
+          [
+            "Third-party material",
+            "What responsibilities apply to releases, music, trademarks, or other included material."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what data you can actually export",
+      "paragraphs": [
+        "Content portability is not the same as audience portability. A service may let a creator download original uploads while limiting access to subscriber names, contact details, messages, or payment information. Those limits can reflect privacy commitments and account protections. Do not treat fan information as a transferable mailing list unless the platform clearly permits that use and each person’s consent supports it.",
+        "Look for a documented export function and determine which records it includes, the available file formats, and whether exports cover older material. If no export is described, ask support a specific question and keep the answer with your planning notes. Build your own lawful business records from the outset rather than expecting a complete archive to appear when you decide to leave."
+      ],
+      "bullets": [
+        "List uploads, captions, schedules, sales records, and customer-service records separately.",
+        "Check whether export is self-service, request-based, or unavailable for particular record types.",
+        "Avoid copying personal audience data into another system without a lawful basis and appropriate notice."
+      ]
+    },
+    {
+      "heading": "Keep an independent working archive",
+      "paragraphs": [
+        "A creator-controlled archive makes platform changes easier to manage. Preserve original files and working versions in storage you control, with clear filenames and dates. Keep a separate record of publication dates, descriptions, rights documentation, and any permissions needed to use included material. This is a continuity practice, not a guarantee that every archived item can be reposted elsewhere.",
+        "Protect the archive as business material. Use strong account security, limit access to people who need it, and maintain a backup that is separate from the device holding the primary copy. Avoid storing sensitive identity documents alongside public-facing content unless there is a specific operational reason and suitable safeguards."
+      ]
+    },
+    {
+      "heading": "Make portability part of the platform scorecard",
+      "paragraphs": [
+        "Compare services on the process they document, not on a general promise of creator control. Record whether the platform explains rights, exports, account closure, removal requests, and support escalation. A clear limitation can be easier to plan around than an unclear promise. If a high-priority issue is unanswered, mark it as unresolved rather than assuming the platform will accommodate a future move.",
+        "A realistic transition plan also accounts for what cannot move. Subscribers may need to discover and choose a new destination themselves; private conversations and payment relationships should not be copied automatically. Prepare neutral notices that comply with platform rules and audience consent, and verify the applicable policies before directing people elsewhere."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does downloading my uploads mean I can move everything to another platform?",
+      "answer": "No. A file download may cover only creator-uploaded media. It does not necessarily include descriptions, private messages, audience information, transaction records, or permission to republish material elsewhere. Confirm each export category and the rights that apply to the content."
+    },
+    {
+      "question": "Can I take subscriber contact details with me when I leave?",
+      "answer": "Do not assume so. Contact information may be restricted by platform terms, privacy commitments, or consent conditions. Check the applicable rules and collect or use audience data only in ways that are permitted and appropriately disclosed."
+    },
+    {
+      "question": "What should I save before closing an account?",
+      "answer": "Where permitted, preserve your original work, relevant business records, published descriptions, and copies of applicable terms. Review closure and removal procedures first, and do not retain another person’s personal information unless you have a valid reason and safeguards."
+    }
+  ]
+};
