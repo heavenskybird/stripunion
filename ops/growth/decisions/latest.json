@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-11T07:21:24.075Z",
-  "sourceGeneratedAt": "2026-10-11T07:21:24.020Z",
+  "generatedAt": "2026-10-12T07:30:50.376Z",
+  "sourceGeneratedAt": "2026-10-12T07:30:50.322Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 1,
       "verifiedSignups": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-10"
+    "attributionSource": "2026-10-11"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -86,14 +86,6 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
             "query": "f95zone make a review",
             "impressions": 1,
             "clicks": 0,
@@ -106,6 +98,14 @@
             "impressions": 1,
             "clicks": 0,
             "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -300,18 +300,18 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
           },
           {
             "source": "Bing",
@@ -468,7 +468,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -476,7 +476,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -558,7 +558,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
@@ -609,7 +609,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -617,7 +617,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -700,7 +700,7 @@
       "id": "cta:stripunion.com:/",
       "kind": "conversion",
       "action": "EXPERIMENT",
-      "priority": 91,
+      "priority": 90,
       "eligible": true,
       "subject": "stripunion.com/",
       "surface": "/",
@@ -709,19 +709,19 @@
       "confidence": "low",
       "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
       "evidence": {
-        "sessions": 35,
+        "sessions": 30,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.34285714285714286
+        "engagementRate": 0.4
       },
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 35,
+        "sessions": 30,
         "engagedSessions": 12,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.34285714285714286,
+        "engagementRate": 0.4,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
@@ -749,7 +749,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "striphun",
             "impressions": 2,
             "clicks": 0,
@@ -800,7 +800,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "stripxuat",
             "impressions": 1,
             "clicks": 0,
@@ -953,7 +953,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "adult strip cam",
             "impressions": 1,
             "clicks": 0,
@@ -1004,7 +1004,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-09",
+            "date": "2026-10-10",
             "query": "cam sites free",
             "impressions": 1,
             "clicks": 0,

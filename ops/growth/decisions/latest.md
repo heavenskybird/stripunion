@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-10-11T07:21:24.075Z
+Generated: 2026-10-12T07:30:50.376Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -12,7 +12,7 @@ Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHar
 - **UPDATE** · 100 · Stripchat alternatives · eligible=true · risk=low · confidence=low · refresh existing /stripchat-alternatives landing page using clustered search evidence
 - **CREATE** · 99 · adult platform · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 97 · free porn union sites · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **EXPERIMENT** · 91 · stripunion.com/ · eligible=true · risk=low · confidence=low · Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.
+- **EXPERIMENT** · 90 · stripunion.com/ · eligible=true · risk=low · confidence=low · Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.
 - **CREATE** · 90 · striphun · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 85 · stripxuat · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **HOLD** · 84 · review free pornohamster.com · eligible=false · risk=high · confidence=low · validate audience fit and an official monetization relationship before adding a commercial CTA
