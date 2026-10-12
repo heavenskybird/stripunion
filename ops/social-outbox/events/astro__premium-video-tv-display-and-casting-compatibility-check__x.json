@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/premium-video-tv-display-and-casting-compatibility-check",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-12T08:13:53.523Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-12T14:09:53.622Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6accea324dc05e79cb39abee",
   "provider_due_at": "2026-10-12T22:45:00.000Z",
   "created_at": "2026-10-12T08:13:53.523Z",
-  "updated_at": "2026-10-12T21:04:26.494Z",
+  "updated_at": "2026-10-12T23:04:26.917Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 4,
     "cadence_pressure_before_enqueue": 13,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
