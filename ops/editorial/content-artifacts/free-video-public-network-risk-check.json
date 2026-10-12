@@ -1,0 +1,137 @@
+{
+  "backlogId": "free-video-public-network-risk-check",
+  "slug": "free-video-public-network-risk-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites on Public Wi-Fi: Check Network and Screen Privacy",
+  "description": "Use a practical checklist for browsing free video platforms on shared networks, including connection security, device exposure and account precautions.",
+  "excerpt": "Public Wi-Fi creates more than a connection question: nearby screens, shared devices and network rules can affect privacy too. Use this checklist to separate practical safeguards from guarantees a network cannot provide.",
+  "keyTakeaways": [
+    "Use a network you trust when possible, and do not assume a public hotspot makes browsing private.",
+    "Check the site connection and avoid entering sensitive account details on suspicious pages or through unexpected redirects.",
+    "Remember that network operators, device owners and account providers may each have different visibility into activity.",
+    "Protect screen privacy, notifications and browser sessions when using a public place or shared device.",
+    "A VPN or private-browsing window does not guarantee anonymity or erase records held by websites, networks or accounts."
+  ],
+  "sections": [
+    {
+      "heading": "Separate network privacy from device privacy",
+      "paragraphs": [
+        "Public Wi-Fi concerns are often described as if one tool can hide all activity. In practice, different parties may see different information. A network operator may have access to connection metadata under its policies; a website may receive account, device or request information; and someone looking at your screen may see the page directly. A browser’s private mode mainly limits some local history and does not make those other records disappear.",
+        "Start by asking what you are protecting against. Avoiding shoulder-surfing, limiting traces on a borrowed device, protecting an account login and reducing exposure to an untrusted hotspot are separate jobs. A measure useful for one job may not solve another. If the device is managed by an employer, school, hotel or another owner, assume its settings and monitoring rules may differ from a personal device."
+      ],
+      "bullets": [
+        "Use a personal, updated device when available.",
+        "Avoid signing into a shared device account to browse.",
+        "Check who owns or manages the network and device.",
+        "Keep screen content out of view in public spaces."
+      ]
+    },
+    {
+      "heading": "Assess the connection before opening a site",
+      "paragraphs": [
+        "Choose the correct network name using information from the venue rather than a lookalike listing. A fake hotspot can imitate a legitimate name. Disable automatic connection to unknown networks when practical, and avoid accepting unexpected certificates, configuration profiles or prompts that ask you to install software. If a sign-in portal appears, confirm that it belongs to the venue before entering information.",
+        "A secure connection indicator is a useful baseline, not a complete trust assessment. Check that the domain is spelled correctly and that the browser shows a protected connection before entering credentials. Be alert to redirects, pop-ups and buttons that take you to unrelated pages. Do not proceed through a browser warning just because the page is familiar. If the site repeatedly fails or sends you somewhere unexpected, leave rather than entering account or payment information."
+      ],
+      "table": {
+        "caption": "Public-network risk check",
+        "headers": [
+          "Situation",
+          "Practical check",
+          "Limit to remember"
+        ],
+        "rows": [
+          [
+            "Unknown hotspot",
+            "Confirm the exact network name with the venue; turn off auto-join.",
+            "A familiar name alone does not prove the hotspot is legitimate."
+          ],
+          [
+            "Login or account prompt",
+            "Check the domain and connection before entering credentials.",
+            "A protected connection does not verify the site’s overall trustworthiness."
+          ],
+          [
+            "Shared or managed device",
+            "Use a personal device if possible; avoid saving logins.",
+            "The device owner may control software and records."
+          ],
+          [
+            "Visible screen or notifications",
+            "Reduce screen visibility and hide lock-screen previews.",
+            "Network settings cannot prevent someone nearby from seeing the display."
+          ],
+          [
+            "VPN or private browsing",
+            "Understand the tool’s stated scope and provider.",
+            "Neither guarantees anonymity or removes all records."
+          ],
+          [
+            "Unexpected redirect",
+            "Close the page and revisit only through a known, carefully checked address.",
+            "Do not install extensions or profiles to continue."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect accounts and avoid unnecessary sign-ins",
+      "paragraphs": [
+        "Payment details deserve additional caution. Do not enter payment information into an unexpected prompt, a redirected page or a site whose address you have not checked. Free access should not require you to bypass browser warnings or install unknown software. When a service offers paid features, read the terms and identify the actual merchant before proceeding."
+      ]
+    },
+    {
+      "heading": "Reduce exposure on screens, browsers and shared devices",
+      "paragraphs": [
+        "In a café, hotel or other public setting, screen visibility may be the most immediate risk. Choose a seat and display angle that limit casual viewing, use headphones if appropriate, and disable sensitive notification previews. Do not cast to a public display or leave a session visible when stepping away. A short pause can still leave a page, account or recommendation feed on screen.",
+        "On a device you do not own, avoid saving passwords, accepting persistent notifications, installing extensions or changing security settings for convenience. Private browsing can reduce some local history after the window closes, but downloads, bookmarks, screenshots and network records may remain. On your own device, review browser permissions and close tabs when done. Treat downloads cautiously and do not open unfamiliar files simply because a site presents them as required."
+      ],
+      "bullets": [
+        "Lock the screen before leaving the device unattended.",
+        "Turn off automatic casting and review connected displays.",
+        "Decline browser notifications that are not needed.",
+        "Do not save credentials or payment details on a borrowed device.",
+        "Close the session and remove local traces only where appropriate and permitted."
+      ]
+    },
+    {
+      "heading": "Decide whether the location is suitable for browsing",
+      "paragraphs": [
+        "A public network may be acceptable for low-risk, casual browsing, but it may not be suitable for account changes, payment activity or viewing on a managed device. Consider whether you can postpone sensitive tasks until you are on a trusted personal connection. Follow venue, workplace and school network rules; do not try to bypass access controls. If you cannot establish that the device and connection are appropriate, the safest decision may be to wait.",
+        "No single checklist can promise that activity will be invisible. A VPN shifts some trust to the VPN provider and does not conceal activity from every account or device service. Private mode has a limited local-history role. Strong account security, careful domain checks and physical screen awareness each address different exposures. Decide based on the actual threat, not on a blanket claim that a particular tool makes public browsing anonymous."
+      ],
+      "bullets": [
+        "Postpone account or payment changes if the device or connection is not trusted.",
+        "Use a personal connection for sensitive tasks when available.",
+        "Review account sessions afterward if you signed in on an unfamiliar network.",
+        "Treat privacy tools as limited safeguards, not guarantees."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from public Wi-Fi?",
+      "answer": "No. It may limit some history saved locally after the private window closes, but it does not make you anonymous to websites, account providers or every network operator."
+    },
+    {
+      "question": "Does a VPN make public Wi-Fi completely safe?",
+      "answer": "No tool guarantees complete safety. A VPN changes which provider handles some network traffic, but it does not prevent phishing, unsafe downloads, visible screens or account-level records."
+    },
+    {
+      "question": "Is it safer to use a free video site without an account?",
+      "answer": "Avoiding an account can reduce the amount of account information you provide, but the website and network may still process technical information. Check what access is possible without signing in and avoid unnecessary credentials."
+    },
+    {
+      "question": "What should I do after signing in on a borrowed device?",
+      "answer": "Sign out, close the browser and check whether the browser saved credentials or opened persistent sessions. If you think the account may remain accessible, use a trusted device to review active sessions and change the password if warranted."
+    }
+  ],
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

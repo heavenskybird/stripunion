@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T23:01:31.035Z",
+  "generatedAt": "2026-10-12T23:52:46.399Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-audience-discovery-dependence-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-tracking-outage-contingency-plan.json",
-    "ops/editorial/content-artifacts/live-cam-recommendation-history-control-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-instrument-separation-checklist.json",
-    "ops/editorial/content-artifacts/dating-platform-paid-messaging-access-audit.json"
+    "ops/editorial/content-artifacts/premium-video-payment-privacy-audit.json",
+    "ops/editorial/content-artifacts/hentai-anime-release-completeness-check.json",
+    "ops/editorial/content-artifacts/vr-platform-in-session-navigation-audit.json",
+    "ops/editorial/content-artifacts/free-video-public-network-risk-check.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-community-evaluation.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-audience-discovery-dependence-audit.js",
-    "src/data/guides/webmaster-affiliate-tracking-outage-contingency-plan.js",
-    "src/data/guides/live-cam-recommendation-history-control-audit.js",
-    "src/data/guides/adult-platform-payment-instrument-separation-checklist.js",
-    "src/data/guides/dating-platform-paid-messaging-access-audit.js"
+    "src/data/guides/premium-video-payment-privacy-audit.js",
+    "src/data/guides/hentai-anime-release-completeness-check.js",
+    "src/data/guides/vr-platform-in-session-navigation-audit.js",
+    "src/data/guides/free-video-public-network-risk-check.js",
+    "src/data/guides/adult-game-storefront-community-evaluation.js"
   ],
   "categories": [
-    "creator-platforms",
-    "webmaster-affiliate",
-    "live-cams",
-    "privacy-safety-payment",
-    "dating-hookups"
+    "premium-videos",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "creator-platform-audience-discovery-dependence-audit",
-    "webmaster-affiliate-tracking-outage-contingency-plan",
-    "live-cam-recommendation-history-control-audit",
-    "adult-platform-payment-instrument-separation-checklist",
-    "dating-platform-paid-messaging-access-audit"
+    "premium-video-payment-privacy-audit",
+    "hentai-anime-release-completeness-check",
+    "vr-platform-in-session-navigation-audit",
+    "free-video-public-network-risk-check",
+    "adult-game-storefront-community-evaluation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38319522658",
-  "phase": "closed"
+  "r1CycleId": "38324158845"
 }
