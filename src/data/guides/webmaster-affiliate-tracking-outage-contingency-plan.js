@@ -1,0 +1,108 @@
+export default {
+  "slug": "webmaster-affiliate-tracking-outage-contingency-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Tracking Outages: Build a Webmaster Incident and Evidence Plan",
+  "description": "Prepare for affiliate tracking interruptions with a practical workflow for detecting anomalies, preserving evidence, contacting a program, and managing visitor links responsibly.",
+  "excerpt": "A sudden reporting gap can come from a site change, a tracking problem, delayed reporting, or a program-side issue. Build an incident plan before one occurs so you can protect records, avoid risky link changes, and ask precise questions.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Define what counts as an anomaly using your own historical reporting and expected reporting delays.",
+    "Preserve time-stamped evidence before changing links, tags, redirects, or campaign settings.",
+    "Check your own implementation and permitted-traffic rules before concluding that a program has an outage.",
+    "Contact program support with specific identifiers, time ranges, and test details rather than unsupported claims.",
+    "Keep visitor-facing links accurate and disclose affiliate relationships as required."
+  ],
+  "sections": [
+    {
+      "heading": "Prepare an incident threshold before reports look unusual",
+      "paragraphs": [
+        "Affiliate reporting can change for many reasons, including ordinary fluctuations, delayed updates, a site release, a tracking configuration change, or a program-side interruption. A blank or lower-than-usual report does not, by itself, prove that tracking has failed. Before an incident, decide what pattern will trigger a review, using your own normal reporting cycle, known delays, and campaign activity as context.",
+        "Document the systems involved in each important placement: page or property, outbound link format, redirect path if any, sub-ID conventions, campaign notes, and the program contact route. Keep a record of the last known working configuration and who can change it. This gives the team a baseline for troubleshooting and reduces the chance that several people make conflicting edits during a suspected outage."
+      ],
+      "bullets": [
+        "Write down the program’s stated reporting delay and support contact process.",
+        "Keep a change log for affiliate links, redirects, analytics tags, and relevant page releases.",
+        "Set an internal owner for incident coordination and a separate person for verification where possible."
+      ]
+    },
+    {
+      "heading": "Triage the issue without guessing at its cause",
+      "paragraphs": [
+        "Begin with a bounded comparison: identify the affected program, campaign, placement, and time window, then compare the report with your own outbound-click records where available. Check whether the page is accessible, whether the link resolves to the expected destination, and whether a recent change could have altered the link or stripped tracking parameters. Use a controlled test and follow the program’s rules; avoid generating artificial activity or transactions.",
+        "Check the account dashboard for notices, maintenance information, reporting updates, or changes in campaign status. Confirm whether the report is delayed or whether a filter or date range has changed. A discrepancy between your analytics and a partner report can reflect different definitions, time zones, attribution rules, or consent and blocking behavior. Record these possibilities rather than labeling the issue as lost commissions before evidence supports that conclusion."
+      ],
+      "table": {
+        "caption": "A triage sequence that separates observable symptoms from possible causes.",
+        "headers": [
+          "Check",
+          "Record",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Outbound link",
+            "Page, timestamp, destination, and permitted test result",
+            "Repeatedly clicking or generating artificial conversions"
+          ],
+          [
+            "Site changes",
+            "Deployments, redirects, plugins, and tag edits",
+            "Making several unlogged changes at once"
+          ],
+          [
+            "Program reporting",
+            "Date range, status notices, and stated update timing",
+            "Assuming every reporting gap is a program outage"
+          ],
+          [
+            "Traffic rules",
+            "Relevant source, placement, and applicable terms",
+            "Switching to an unapproved traffic method as a workaround"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve evidence before repairing or replacing links",
+      "paragraphs": [
+        "Save copies or screenshots of the relevant report views, noting the displayed date range and time zone. Capture the affected page URL, link location, campaign identifier, and any sub-ID used. If you have deployment logs or change tickets, record the matching release time. Keep original files or records unaltered where practical, and store them in a location with appropriate access controls.",
+        "Do not overwrite the evidence by immediately replacing every link or changing attribution parameters. First note the current configuration and the reason for each proposed change. If a correction is necessary to prevent a broken visitor journey, preserve the before-and-after state and the time of the repair. This simple record can help distinguish a technical fix from a reporting or attribution question later."
+      ]
+    },
+    {
+      "heading": "Contact the program with a focused support request",
+      "paragraphs": [
+        "A useful support request gives the program enough information to investigate without making a conclusion for them. Include the account or campaign identifier, affected placements, approximate time window with time zone, the observed symptom, the checks already completed, and any relevant screenshots or link examples. Ask whether reporting is delayed, whether a known tracking issue exists, and whether they need a specific diagnostic detail.",
+        "Keep the tone factual. Avoid presenting estimated unreported earnings as confirmed losses unless the program’s records establish that amount. Ask how the program handles investigation and what records it can provide. Save the ticket number, replies, and any instructions. If program terms or support guidance require a particular workflow, follow it instead of trying an improvised workaround that could create a compliance issue."
+      ],
+      "bullets": [
+        "Use one incident record or ticket thread where possible.",
+        "Include the exact date range and reporting time zone.",
+        "Ask for next steps and an expected update process rather than assuming a resolution."
+      ]
+    },
+    {
+      "heading": "Maintain visitor access and close the incident carefully",
+      "paragraphs": [
+        "While investigating, check that the visitor-facing link still reaches the intended destination and that the surrounding page description remains accurate. If a link is broken, use only a replacement or fallback that is permitted and relevant. Do not silently substitute a different offer in a way that misleads visitors. Keep affiliate disclosures clear even when a placement is temporarily changed.",
+        "Close the incident with a brief post-review: what was observed, what was confirmed, what remained uncertain, which changes were made, and who approved them. Compare final program reporting with the preserved baseline when the reporting period has had time to update. If the cause is unknown, say so internally. Use the findings to improve monitoring and documentation rather than treating one incident as proof of how all programs behave."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "When should a webmaster call a reporting gap an outage?",
+      "answer": "Use the program’s documented reporting cadence and your own baseline to decide when a review is warranted. A reporting anomaly is evidence of a symptom, not proof of an outage. Confirm the affected scope and check your link implementation, date filters, and program notices first."
+    },
+    {
+      "question": "Should I replace affiliate links while tracking is being investigated?",
+      "answer": "Only when needed to maintain an accurate visitor journey, and only with a permitted alternative. Preserve the original link and document the change before editing. Avoid changing multiple variables at once, since that makes it harder to identify the cause."
+    },
+    {
+      "question": "What evidence is useful in a support ticket?",
+      "answer": "Provide campaign and placement identifiers, the relevant time range and time zone, the observed report or link behavior, recent changes, and steps already taken. Share only information needed for investigation and use the program’s approved support channel."
+    }
+  ]
+};
