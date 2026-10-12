@@ -1,0 +1,119 @@
+export default {
+  "slug": "live-cam-room-identity-separation-audit",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Platforms: Check Username and Profile Exposure Across Rooms",
+  "description": "Assess whether a live cam platform links your public username, profile, and activity across rooms. Use this privacy checklist before chatting or customizing an account.",
+  "excerpt": "A display name can feel separate from a real-world identity, but profile details and repeated usernames may connect activity across rooms or services. Check how the platform presents your account before interacting.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Treat a display name, profile page, and room activity as potentially connected unless the platform explains otherwise.",
+    "Check what other users can see from your profile and whether the same identifier appears in different contexts.",
+    "Avoid reusing identifying usernames, photos, links, or biographical details from personal accounts.",
+    "Review account and privacy controls before posting in a room or sending messages.",
+    "A pseudonym can reduce obvious exposure but cannot guarantee anonymity."
+  ],
+  "sections": [
+    {
+      "heading": "Map the account surfaces other users may encounter",
+      "paragraphs": [
+        "A live cam account may appear in more places than a sign-in screen. Other users might encounter a display name in a room, a profile page, a chat message, a follow or favorite list, or a notification. The exact surfaces vary, so do not infer privacy from a short name field or from being signed in with an email address that is not displayed.",
+        "Before participating, inspect the platform’s public-facing profile and room interface using the access options available without sharing personal information. Look for which details are visible by default, which require an action to reveal, and whether the same account name appears consistently across pages. If documentation does not explain the behavior, treat the uncertainty as a decision factor.",
+        "This review is about identity linkage, not a promise that any setting can make activity invisible. A pseudonym may still be searchable, memorable, or connected to other accounts if it is reused. Decide what separation you need before choosing a username."
+      ],
+      "bullets": [
+        "Check the room name label, profile preview, and any public activity or status area.",
+        "Look for links between a user name and follows, favorites, or messages.",
+        "Note settings that control profile visibility, and distinguish them from settings that only hide notifications."
+      ]
+    },
+    {
+      "heading": "Choose identifiers that do not connect unrelated accounts",
+      "paragraphs": [
+        "Reusing a handle across personal social accounts and an adult platform can make separate identities easier to connect. Searchability, distinctive spelling, and repeated profile language can all act as clues. If separation matters, choose a fresh display name that does not reveal your real name, workplace, location, or another account identifier.",
+        "The same principle applies to images, links, and profile text. A recognizable avatar or a link to a personal portfolio can bridge otherwise separate accounts. Avoid adding details that identify you unless there is a clear reason and you are comfortable with the visibility. Also consider metadata and background details in images you upload; a visible image can reveal more than its caption.",
+        "A new name is only one layer. Do not enter personal details into profile fields simply because they are optional, and check whether a profile can be found through internal search or linked from room activity. Revisit the choices if you later change privacy priorities."
+      ],
+      "table": {
+        "caption": "Identity-linkage checks before interacting",
+        "headers": [
+          "Element",
+          "Potential linkage",
+          "Safer review"
+        ],
+        "rows": [
+          [
+            "Display name",
+            "May match a handle used elsewhere",
+            "Choose a distinct name if separation is important."
+          ],
+          [
+            "Profile image",
+            "May be recognizable or reused",
+            "Use an image that does not identify a personal account."
+          ],
+          [
+            "Bio or links",
+            "May disclose location, work, or other profiles",
+            "Include only information you intend to make visible."
+          ],
+          [
+            "Room activity",
+            "May connect messages or status to a profile",
+            "Check what is shown when you post or appear in a room."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand what controls do—and do not—separate",
+      "paragraphs": [
+        "Privacy controls can govern different things: who can view a profile, who can message an account, whether a profile appears in discovery, or whether activity triggers alerts. One control does not necessarily cover all of them. Read the description for each setting and check whether it applies to the public profile, room activity, or both.",
+        "Also distinguish between hiding information from other users and limiting information held by the platform. An account setting may affect what appears on a profile without changing records retained by the service. For information about collection, use, and retention, read the privacy notice and account data controls rather than assuming that a less visible profile means less data is held.",
+        "If you change a setting, verify the result through the normal user-facing view where possible. Take care not to use another person’s account or disclose private information during testing. If the effect remains unclear, avoid publishing details that depend on the setting working as expected."
+      ],
+      "bullets": [
+        "Read the explanation beside each privacy or discovery setting.",
+        "Check whether a setting affects profile search, room display, messages, or only alerts.",
+        "Do not interpret a hidden profile field as proof that the platform does not retain it."
+      ]
+    },
+    {
+      "heading": "Consider interactions that can create additional identity traces",
+      "paragraphs": [
+        "Chatting, following, favoriting, or sending a message may create a visible record or a notification, depending on platform design. Before using any feature, find out whether it associates your display name with a profile or makes your account easier to find. A feature can be useful while still creating a trace that matters to your privacy preferences.",
+        "Be cautious with requests to move conversations to another service, share personal contact details, or provide identifying information. A platform’s profile controls may not apply once details are shared elsewhere. Keep conversations within the channels you are comfortable using, and use available reporting or blocking processes if another user pressures you to disclose information.",
+        "If you share a device or browser profile, account names, saved credentials, and notifications may be visible to someone with access to that device. Sign out when appropriate, review saved logins, and manage browser notifications separately from platform settings. These steps reduce casual exposure but do not erase records held by the service or network."
+      ]
+    },
+    {
+      "heading": "Use a pre-interaction identity checklist",
+      "paragraphs": [
+        "A short review before participating can prevent avoidable links between accounts. Start with the name and image, then inspect the public profile, search visibility, and interaction settings. Decide which information you are willing to expose before entering a room rather than making the choice in response to a prompt or another user’s request.",
+        "For each potential identifier, ask whether it would help someone recognize you outside the platform. Consider direct identifiers such as a name or workplace, as well as indirect clues such as a reused handle, distinctive photo, or combination of location and personal details. If the answer is yes and disclosure is not necessary, leave it out.",
+        "Keep expectations realistic. Platform settings, other users’ actions, screenshots, and external systems are outside your full control. If anonymity is essential, do not rely on a single setting or on a pseudonym alone. Choose whether the service’s documented controls and your own risk tolerance make participation appropriate."
+      ],
+      "bullets": [
+        "Use a username that does not identify or duplicate a personal account.",
+        "Review profile fields, photos, links, and room-visible details.",
+        "Check search, messaging, follow, and notification controls separately.",
+        "Avoid sharing personal contact information or moving to an unfamiliar channel under pressure."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a pseudonym make a live cam account anonymous?",
+      "answer": "No. A pseudonym can reduce obvious identification, but reused names, profile details, images, activity, and information shared in conversation may connect accounts. It also does not determine what information the platform itself collects."
+    },
+    {
+      "question": "Should I reuse my usual online username?",
+      "answer": "If separating identities matters to you, avoid reusing a handle that appears on personal accounts. A distinctive name can be searchable or recognizable even when it does not contain your real name."
+    },
+    {
+      "question": "What is the difference between profile visibility and data privacy?",
+      "answer": "Profile visibility concerns what other users can see. Data privacy concerns what the service collects, uses, retains, or shares. Review both the account controls and the platform’s current privacy information."
+    }
+  ]
+};
