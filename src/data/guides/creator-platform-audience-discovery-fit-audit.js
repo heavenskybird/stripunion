@@ -1,0 +1,107 @@
+export default {
+  "slug": "creator-platform-audience-discovery-fit-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Match Discovery Tools to Your Audience Plan",
+  "description": "Assess creator-platform discovery, audience fit and account controls before choosing where to build a fan community or direct subscribers.",
+  "excerpt": "A platform can support subscriptions without being a dependable source of discovery. Use this framework to separate audience acquisition tools from the account features needed to serve people who already know your work.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Decide whether your main need is platform discovery, subscriber management, or a combination of the two.",
+    "Distinguish searchable public profiles from content visible only after following or subscribing.",
+    "Check how discovery settings affect pseudonyms, profile visibility and the separation of personal and creator accounts.",
+    "Evaluate portability and commercial terms independently from audience reach."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the audience job you need the platform to do",
+      "paragraphs": [
+        "Creators often compare platforms as though each one has the same primary job: attract an audience and then manage paid access. In practice, those functions can be separate. One platform may mainly provide tools for people who already know where to find a creator, while another may emphasize searchable profiles, recommendations, categories or public previews. A feature being present does not establish how useful it will be for a particular creator.",
+        "Write down the task you need most before comparing options. Are you trying to be discoverable by new people, organize access for an existing audience, communicate updates, or maintain a stable membership space? Rank those needs. This keeps a visible feature list from distracting you from the actual workflow, and makes it easier to identify when a platform requires you to bring most of your own traffic."
+      ],
+      "bullets": [
+        "Separate audience acquisition from subscription and communication management.",
+        "List the audience sources you control, such as an existing site, mailing list or social account.",
+        "Name the platform feature that would solve your highest-priority problem."
+      ]
+    },
+    {
+      "heading": "Read discovery features as pathways, not promises",
+      "paragraphs": [
+        "A public profile, search box, category page or recommendation area describes a possible pathway to discovery. It does not guarantee that a new audience will find a particular account. Check how that pathway works: what profile information is visible, whether listings are searchable without an account, and whether a creator can control public previews or category placement. Separate documented interface behavior from claims about reach or outcomes.",
+        "Try to map the route from a first visit to a meaningful action. Can a visitor understand what the creator offers, view permitted previews, and find the next step without confusing public material with subscriber-only access? Consider whether discovery depends on a platform account, a particular profile name, or other information you do not want exposed. A clear path can still be a poor fit if it conflicts with your privacy or brand boundaries."
+      ],
+      "table": {
+        "caption": "Questions that distinguish discovery from audience servicing",
+        "headers": [
+          "Platform function",
+          "What to inspect",
+          "Decision it informs"
+        ],
+        "rows": [
+          [
+            "Search and categories",
+            "Who can search, which profile details appear, and how categories are selected",
+            "Whether public discovery fits your privacy and audience goals"
+          ],
+          [
+            "Public profile and previews",
+            "What a visitor can see before following or subscribing",
+            "Whether the first-visit explanation is clear"
+          ],
+          [
+            "Subscriber tools",
+            "How updates, access levels and account controls are organized",
+            "Whether the platform can serve an audience you already have"
+          ],
+          [
+            "External links",
+            "Which destinations and calls to action are permitted",
+            "Whether you can connect the platform to your existing channels"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check audience fit against actual account controls",
+      "paragraphs": [
+        "Audience fit is not only about subject matter. It can depend on whether the platform supports the type of interaction, publishing rhythm, access structure and public identity you intend to use. Review account settings that affect who can see a profile, how people can contact the creator, and whether account names or profile details are exposed in public contexts. Do not assume settings available to fans are also available to creators.",
+        "Make a short test plan using public help pages or a non-sensitive account setup where appropriate. Check the profile preview, the registration path and the subscriber view if the platform offers a safe way to inspect them. Note which controls can be changed later and which choices may be difficult to reverse, such as a public handle appearing in external links. This helps reveal whether the platform’s default arrangement fits your intended boundaries."
+      ]
+    },
+    {
+      "heading": "Review commercial terms and payout documentation separately",
+      "paragraphs": [
+        "Audience tools and commercial terms answer different questions. Before choosing, locate the current terms that explain applicable fees, payment processing, refunds or reversals, account holds, payout scheduling and required documentation. Avoid evaluating the platform from a headline percentage or a single example. The practical effect depends on the complete terms and on the creator’s own transactions, location and account requirements.",
+        "Check what records are available for reconciling activity: transaction identifiers, date ranges, status labels, adjustments and downloadable statements. Confirm what information may be required for account verification or payout setup, and how to update it safely. If the platform’s reports do not provide enough detail for your bookkeeping, account for the additional manual work before moving an established audience."
+      ],
+      "bullets": [
+        "Save a copy of the terms in effect when you make a decision.",
+        "Identify the reports and documents needed for your bookkeeping.",
+        "Check how the platform explains payment holds, disputes and account review."
+      ]
+    },
+    {
+      "heading": "Assess portability before building a long-term workflow",
+      "paragraphs": [
+        "A creator can have access to content on a platform without having a simple way to move every part of the business elsewhere. Review the terms governing content ownership, licenses, platform use, subscriber communications and account closure. Then check which materials can be exported, whether subscriber relationships can be transferred, and what happens to links or archives if an account is closed. Avoid assuming that audience data is portable just because content files are downloadable.",
+        "Portability planning can be practical rather than dramatic. Keep copies of creator-owned source files and business records in storage you control, maintain a secure record of published URLs, and document how you would notify an audience if access arrangements changed. Confirm that each step complies with the platform’s terms and respects the privacy of subscribers. These preparations reduce dependence on undocumented memory without implying that any platform offers a particular export feature."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform’s search feature mean it will bring new subscribers?",
+      "answer": "No. Search or recommendation tools describe a possible discovery route, not a guaranteed level of visibility or conversion. Check what is publicly searchable and decide whether you can support the platform with your own audience channels."
+    },
+    {
+      "question": "Should a creator use the same identity across every platform?",
+      "answer": "That depends on brand and privacy needs. Before connecting identities, review public profile fields, link visibility, account recovery details and whether the same handle could make separate accounts easy to associate."
+    },
+    {
+      "question": "What should I compare beyond the platform’s advertised fee?",
+      "answer": "Read the full commercial terms, including how transactions, refunds, adjustments, account reviews and payout records are handled. Also check whether available reporting meets your operational and bookkeeping needs."
+    }
+  ]
+};

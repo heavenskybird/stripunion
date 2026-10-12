@@ -1,0 +1,120 @@
+{
+  "backlogId": "premium-video-membership-access-window-audit",
+  "slug": "premium-video-membership-access-window-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Memberships: Check When Access Starts and Ends",
+  "description": "Compare premium video membership access windows, renewal timing, time zones and account status changes before deciding when to subscribe.",
+  "excerpt": "A membership’s renewal date is only one part of its timing. Check when access begins, how the platform defines the end of a paid period, and what happens if an account or payment status changes.",
+  "keyTakeaways": [
+    "Separate the payment date, access start date and access end date; they may not be described as the same moment.",
+    "Look for the time zone and exact time used to define renewals or membership expiration.",
+    "Check whether access continues through a paid period after a cancellation request, rather than assuming either outcome.",
+    "Save the confirmation showing the selected plan, start date and next billing or expiration date."
+  ],
+  "sections": [
+    {
+      "heading": "Why an access window is different from a billing cycle",
+      "paragraphs": [
+        "A membership decision is partly a timing decision. A checkout page may show a billing interval, while account settings show an expiration date and a receipt records a payment timestamp. Those details answer different questions: when money is charged, when membership benefits become available, and when those benefits stop. Treating them as interchangeable can lead to an unexpected gap or an extra renewal.",
+        "Before paying, locate the platform’s description of the first access period and subsequent renewal periods. Check whether access starts immediately, after payment confirmation, or at another stated point. Also identify whether a change to account status, payment authorization, or a cancellation request affects access before the displayed period ends. If the explanation is unclear, do not infer a rule from the wording of the billing interval alone."
+      ],
+      "bullets": [
+        "Record the payment timestamp separately from the access start and end dates.",
+        "Check whether the platform displays a date, an exact time, or both.",
+        "Look for a written explanation of what happens after a cancellation request."
+      ]
+    },
+    {
+      "heading": "Read dates, time zones and renewal cutoffs carefully",
+      "paragraphs": [
+        "A renewal shown as a calendar date may be interpreted according to the platform’s time zone rather than the time zone on your device. This matters when you are planning around travel, a temporary card lock, or a particular day to review the account. Look for a time-zone label, a stated processing cutoff, or a billing help page that defines how the displayed date is applied.",
+        "Do not rely on a calendar reminder set only for the last day if the platform does not say when that day ends. Set a reminder far enough ahead to review the account and complete any requested action. Keep a copy of the displayed date at the time you join, because account pages can change as the membership progresses or after a plan change."
+      ],
+      "table": {
+        "caption": "A simple way to distinguish membership dates",
+        "headers": [
+          "Date or time",
+          "What it answers",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Payment time",
+            "When a charge or authorization was recorded",
+            "Receipt timestamp, currency and payment status"
+          ],
+          [
+            "Access start",
+            "When membership benefits are available",
+            "Whether confirmation or a separate activation step is needed"
+          ],
+          [
+            "Renewal date",
+            "When another billing period may begin",
+            "Time zone, cutoff and whether renewal is automatic"
+          ],
+          [
+            "Access end",
+            "When membership benefits may stop",
+            "Whether the date is inclusive and what account status applies"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand status changes without guessing",
+      "paragraphs": [
+        "Membership pages may distinguish active, pending cancellation, expired, payment issue, or suspended states. A label such as pending does not by itself tell you whether playback remains available until a particular date. Find the account’s explanation of each relevant status and compare it with the terms shown at checkout. Where a platform offers more than one membership path, confirm that the same timing rules apply to the option you selected.",
+        "If payment fails or needs verification, check whether the platform describes a grace period, a retry process, or immediate interruption of access. Do not assume that a failed transaction automatically cancels a membership or that access remains active while a payment is unresolved. These are service rules, not general properties of subscriptions, and they need to be confirmed in the platform’s own account and billing information."
+      ],
+      "bullets": [
+        "Check what the account page says after a payment issue or status change.",
+        "Keep confirmation messages that document any change you make.",
+        "If the displayed status conflicts with a receipt or email, save both before contacting support."
+      ]
+    },
+    {
+      "heading": "Plan around temporary access needs",
+      "paragraphs": [
+        "If you expect to watch during a limited period, compare the planned viewing dates with the stated access window before joining. A subscription that begins on the day of purchase may fit differently from one whose access begins later. Likewise, a renewal near the end of a trip or project may matter even when the first period appears convenient. Use the precise dates shown by the service rather than estimating a month as a fixed number of days.",
+        "If you are comparing more than one service, make a small timeline for each: purchase, access start, renewal, any cancellation cutoff, and expected end of access. This is more useful than comparing billing intervals alone. It can also expose missing information, such as an expiration date that is not shown until after signup. Treat that gap as a question to resolve before you commit, not as evidence of a particular policy."
+      ]
+    },
+    {
+      "heading": "Keep a compact record of the terms you accepted",
+      "paragraphs": [
+        "Save the checkout summary or confirmation that identifies the plan, its start date, the next renewal date if applicable, and the account used. A screenshot or downloaded receipt can help you compare the original terms with what appears later in account settings. Store records in a private location, especially if other people can access the device or account where the confirmation arrived.",
+        "Use a short checklist whenever you begin, change or end a membership. Note what you selected, when access should end, and what confirmation proves the change was completed. This record is not a substitute for the platform’s terms, but it helps you spot a mismatch quickly and explain the issue clearly if you need to contact support."
+      ],
+      "bullets": [
+        "Save the checkout terms and transaction confirmation.",
+        "Record the account email or username associated with the membership.",
+        "Set a reminder before the next renewal or planned access end.",
+        "After making a change, verify the resulting status in the account page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does cancelling a membership always end access immediately?",
+      "answer": "Not necessarily. Access after a cancellation request depends on the platform’s terms and the account status shown to you. Check whether the platform says access continues through a paid period, ends immediately, or follows another rule, and save the confirmation of the cancellation."
+    },
+    {
+      "question": "Why can a receipt date differ from the date access begins?",
+      "answer": "A receipt records a payment event, while access may be activated separately or described using a different time reference. Compare the receipt with the membership page and confirmation message to identify the stated start of access."
+    },
+    {
+      "question": "What should I do if my membership end date is unclear?",
+      "answer": "Check the account page, checkout summary and relevant billing terms for the date, time zone and status rules. If those sources do not resolve the question, contact the platform before relying on a particular end date."
+    }
+  ],
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

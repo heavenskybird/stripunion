@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-platform-account-identity-boundaries-checklist",
+  "slug": "adult-platform-account-identity-boundaries-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Separate Public Identity from Recovery Details",
+  "description": "Plan a privacy-conscious adult platform account by reviewing usernames, email visibility, recovery details, notifications and identity separation.",
+  "excerpt": "A pseudonymous profile does not automatically make an account separate from your everyday identity. Review public fields, recovery routes and connected notifications before you create or update an account.",
+  "keyTakeaways": [
+    "Treat public profile information and private recovery information as separate exposure surfaces.",
+    "Check whether a username, email address or profile link can reveal an identity connection.",
+    "Use accurate information where required by a platform; do not rely on false details to create privacy.",
+    "Review notification previews and account recovery settings on devices or inboxes others might access."
+  ],
+  "sections": [
+    {
+      "heading": "Map the identity surfaces before registration",
+      "paragraphs": [
+        "An account can reveal information through more than its visible profile. Consider the username shown to other users, the display name on public pages, the email used for login, the recovery phone or email, and notifications sent to connected devices. These fields may have different audiences and different privacy controls. A privacy review begins by listing them separately rather than assuming that a profile nickname hides every account detail.",
+        "Before creating an account, read the registration and privacy information to understand which fields are public, which are used for account administration, and which may be displayed in receipts or support exchanges. Do not enter false identity information where accurate information is required. Instead, choose permitted profile details carefully and use account settings to limit unnecessary visibility."
+      ],
+      "bullets": [
+        "List the public name, login identifier and recovery methods separately.",
+        "Check which profile fields are visible without signing in.",
+        "Review whether profile links expose a real-name account elsewhere."
+      ]
+    },
+    {
+      "heading": "Choose a handle that does not join unrelated accounts",
+      "paragraphs": [
+        "A reused username can connect accounts even when each profile contains very little personal information. Search the handle you plan to use across your own online presence and consider whether it has appeared on a personal profile, public post or domain registration. Avoid placing your everyday email address or full name in a public handle when the platform allows a different display name.",
+        "Also check whether profile pages expose metadata such as linked social accounts, creator links, location fields or contact details. A privacy-conscious choice is not only about the name itself; it is about how the name combines with information elsewhere. Make decisions based on what the platform actually displays, not on assumptions about how obscure a profile may be."
+      ],
+      "table": {
+        "caption": "Separate account surfaces by audience",
+        "headers": [
+          "Surface",
+          "Who may encounter it",
+          "Review before use"
+        ],
+        "rows": [
+          [
+            "Public handle and profile",
+            "Visitors, members or search users depending on settings",
+            "Name, links, biography and any optional location details"
+          ],
+          [
+            "Login email",
+            "Platform systems and possibly account messages",
+            "Whether it appears publicly or in communications"
+          ],
+          [
+            "Recovery contact",
+            "People with access to that inbox or device",
+            "Lock-screen previews, shared access and recovery security"
+          ],
+          [
+            "Payment or receipt record",
+            "Account holder and any authorized payer or account viewer",
+            "What account or merchant details appear in records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat recovery channels as part of privacy planning",
+      "paragraphs": [
+        "Recovery methods can be a privacy weak point if they route account messages to a shared inbox, family device or work number. Before relying on a recovery contact, check who can access it, whether alerts appear on a lock screen, and whether the address or number is used publicly elsewhere. Keep recovery information current enough to regain access, but do not add contact methods you cannot protect.",
+        "A separate email address may help organize account messages, but it is not a guarantee of anonymity. The platform may still require verification, and other records can connect the account to you. Use a strong, unique password and available account security controls. Store recovery codes or equivalent credentials in a protected place rather than in a shared notes app or unprotected message thread."
+      ]
+    },
+    {
+      "heading": "Review devices, notifications and account sessions",
+      "paragraphs": [
+        "Account privacy extends to every device that receives a message or retains a login. Check notification settings for message previews, account alerts and email subject lines. If a device is shared, remove saved credentials when appropriate and confirm that the browser does not keep an account open for the next user. A private browsing window does not replace logging out or controlling device access.",
+        "Review active sessions or signed-in devices when the platform provides that information. Sign out of sessions you do not recognize or no longer use, then update credentials if you suspect another person had access. When using a managed device, remember that organizational administration may limit what you can conceal or control. Avoid using such a device for accounts whose privacy depends on keeping activity separate."
+      ],
+      "bullets": [
+        "Turn off sensitive lock-screen previews where appropriate.",
+        "Check saved logins and shared-device browser profiles.",
+        "Review active sessions and remove access that is no longer needed."
+      ]
+    },
+    {
+      "heading": "Keep a privacy review practical and repeatable",
+      "paragraphs": [
+        "Account settings can change, and a platform may add profile fields or notification types. Revisit the account after registration, after a major settings change, and when changing devices or recovery information. Check the public profile view while signed out or use a safe preview feature if available. Do not share a live account page publicly just to test what it reveals.",
+        "A short record can note the handle chosen, the visibility settings reviewed, the recovery method in use and the date you checked notifications. Keep that record somewhere private and do not include full passwords or payment credentials. If you later close the account, review what profile information remains visible and what confirmation the platform provides, rather than assuming that deleting an app removes the account."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a pseudonym make an account anonymous?",
+      "answer": "No. A pseudonym can reduce direct profile disclosure, but login details, recovery contacts, payment records, reused handles and device notifications may still connect the account to you. Review each exposure separately."
+    },
+    {
+      "question": "Should I create an account with a false name for privacy?",
+      "answer": "Do not provide false information where the platform requires accurate details. Review what is publicly displayed and use the platform’s permitted profile and privacy controls instead."
+    },
+    {
+      "question": "What is the first privacy check after signing up?",
+      "answer": "Review the profile as a visitor would see it, then check notifications, recovery contacts, saved sessions and account visibility. Save a private note of settings that matter to you."
+    }
+  ],
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

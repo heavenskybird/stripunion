@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T10:04:22.069Z",
+  "generatedAt": "2026-10-12T15:22:03.155Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-product-information-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-access-model-comparison.json",
-    "ops/editorial/content-artifacts/vr-ar-format-fit-comparison.json",
-    "ops/editorial/content-artifacts/live-cam-access-cost-boundary-worksheet.json",
-    "ops/editorial/content-artifacts/dating-community-feature-fit-guide.json"
+    "ops/editorial/content-artifacts/premium-video-membership-access-window-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-audience-discovery-fit-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-recordkeeping-preflight.json",
+    "ops/editorial/content-artifacts/adult-platform-account-identity-boundaries-checklist.json",
+    "ops/editorial/content-artifacts/adult-anime-mobile-reader-fit-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-product-details-materials-fit-and-care-checklist.js",
-    "src/data/guides/adult-anime-platform-free-vs-premium-access-and-account-checklist.js",
-    "src/data/guides/vr-vs-ar-adult-platform-format-device-privacy-fit-guide.js",
-    "src/data/guides/live-cam-platform-access-model-and-cost-boundary-comparison.js",
-    "src/data/guides/dating-platform-community-features-groups-events-and-boundaries-guide.js"
+    "src/data/guides/premium-video-membership-access-window-audit.js",
+    "src/data/guides/creator-platform-audience-discovery-fit-audit.js",
+    "src/data/guides/webmaster-affiliate-recordkeeping-preflight.js",
+    "src/data/guides/adult-platform-account-identity-boundaries-checklist.js",
+    "src/data/guides/adult-anime-mobile-reader-fit-audit.js"
   ],
   "categories": [
-    "adult-shops",
-    "hentai-anime",
-    "vr-ar",
-    "live-cams",
-    "dating-hookups"
+    "premium-videos",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-shop-product-information-audit",
-    "adult-anime-access-model-comparison",
-    "vr-ar-format-fit-comparison",
-    "live-cam-access-cost-boundary-worksheet",
-    "dating-community-feature-fit-guide"
+    "premium-video-membership-access-window-audit",
+    "creator-platform-audience-discovery-fit-audit",
+    "webmaster-affiliate-recordkeeping-preflight",
+    "adult-platform-account-identity-boundaries-checklist",
+    "adult-anime-mobile-reader-fit-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38233485188",
-  "phase": "closed"
+  "r1CycleId": "38269236788"
 }
