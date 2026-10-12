@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T01:53:37.864Z",
+  "generatedAt": "2026-10-12T05:54:39.966Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-plan-fit-before-app-store-billing.json",
-    "ops/editorial/content-artifacts/dating-platform-first-meeting-logistics-safety-plan.json",
-    "ops/editorial/content-artifacts/free-video-browser-app-access-choice.json",
-    "ops/editorial/content-artifacts/adult-game-installation-prepurchase-review.json",
-    "ops/editorial/content-artifacts/adult-shop-product-information-materials-care-audit.json"
+    "ops/editorial/content-artifacts/adult-anime-games-device-save-update-check.json",
+    "ops/editorial/content-artifacts/vr-adult-file-portability-rights-audit.json",
+    "ops/editorial/content-artifacts/live-cam-credit-currency-ledger-clarity.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-team-account-ownership.json",
+    "ops/editorial/content-artifacts/adult-platform-payment-method-control-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-billing-channel-control-checklist.js",
-    "src/data/guides/dating-platform-first-meeting-planning-checklist.js",
-    "src/data/guides/free-adult-video-browser-versus-app-privacy-checklist.js",
-    "src/data/guides/adult-game-storefront-installation-and-update-checklist.js",
-    "src/data/guides/adult-shop-product-materials-and-care-information-checklist.js"
+    "src/data/guides/adult-anime-game-platform-device-save-update-checklist.js",
+    "src/data/guides/vr-adult-platform-download-portability-and-access-rights-checklist.js",
+    "src/data/guides/live-cam-platform-credit-currency-conversion-ledger-checklist.js",
+    "src/data/guides/webmaster-affiliate-program-team-access-and-account-ownership-checklist.js",
+    "src/data/guides/adult-platform-payment-method-controls-and-recurring-charge-checklist.js"
   ],
   "categories": [
-    "premium-videos",
-    "dating-hookups",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "hentai-anime",
+    "vr-ar",
+    "live-cams",
+    "webmaster-affiliate",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "premium-video-plan-fit-before-app-store-billing",
-    "dating-platform-first-meeting-logistics-safety-plan",
-    "free-video-browser-app-access-choice",
-    "adult-game-installation-prepurchase-review",
-    "adult-shop-product-information-materials-care-audit"
+    "adult-anime-games-device-save-update-check",
+    "vr-adult-file-portability-rights-audit",
+    "live-cam-credit-currency-ledger-clarity",
+    "webmaster-affiliate-team-account-ownership",
+    "adult-platform-payment-method-control-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38193527150",
-  "phase": "closed"
+  "r1CycleId": "38209877039"
 }

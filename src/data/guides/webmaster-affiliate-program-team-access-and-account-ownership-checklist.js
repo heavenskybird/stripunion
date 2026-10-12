@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-program-team-access-and-account-ownership-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Accounts: Set Team Access, Ownership and Handover Rules",
+  "description": "A practical checklist for affiliate and webmaster teams to manage program account ownership, user permissions, access recovery and staff handovers.",
+  "excerpt": "Affiliate tracking and reporting can become operational risks when one person owns every login. Set clear account ownership, least-privilege access and handover steps before a team changes.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Assign a durable business owner for each program account instead of tying control to one employee’s personal inbox.",
+    "Give each team member an individual login when available and limit permissions to their role.",
+    "Document recovery routes and secure second-factor methods without placing secrets in shared notes.",
+    "Include tracking links, terms records and open support issues in staff handovers.",
+    "Remove or revise access promptly when responsibilities change, then verify that reporting still works."
+  ],
+  "sections": [
+    {
+      "heading": "Make ownership explicit before the account is needed",
+      "paragraphs": [
+        "An affiliate account may contain tracking links, reporting history, payment settings, policy notices and support conversations. If access depends on one person’s personal email or phone, a departure or device loss can interrupt routine work. Decide who represents the business or publishing operation and who is responsible for keeping account details current. Record the role and an approved organizational contact route, rather than relying only on an individual’s memory.",
+        "Check the program’s account rules before changing ownership or contact details. Some programs may require a particular account structure or may limit who can administer access. Do not create duplicate accounts to work around unclear rules. When ownership or administrative rights are uncertain, ask the program through its official support channel and retain the response with internal records."
+      ],
+      "bullets": [
+        "Identify the accountable business role and a backup contact.",
+        "Use an organization-controlled email where the program permits it.",
+        "Record any program-specific account ownership or transfer rules."
+      ]
+    },
+    {
+      "heading": "Use individual access and role-appropriate permissions",
+      "paragraphs": [
+        "When a program supports multiple users, individual logins make it easier to know who can access the account and to change access when duties change. Assign only the permissions needed for a person’s work. Someone who reviews reports may not need authority to change payment settings, while a link manager may not need to edit account recovery details. The available roles vary, so inspect the actual controls rather than assuming a particular permission model.",
+        "If a program allows only one login, document that constraint and agree on a secure access process. Avoid sending passwords through ordinary chat, placing them in public project documents or reusing them across services. Use an approved password manager with access controls if appropriate for your organization. Protect the account’s recovery email and authentication methods at least as carefully as the password."
+      ],
+      "table": {
+        "caption": "Map common affiliate-account tasks to access planning",
+        "headers": [
+          "Task",
+          "Operational question"
+        ],
+        "rows": [
+          [
+            "Reporting",
+            "Who needs to view data, and can access be read-only?"
+          ],
+          [
+            "Tracking links",
+            "Who may create or edit links, and how are changes documented?"
+          ],
+          [
+            "Payment settings",
+            "Who is authorized to review or change payout details?"
+          ],
+          [
+            "Account recovery",
+            "Which organization-controlled contact can restore access?"
+          ],
+          [
+            "Terms and support",
+            "Who records program notices and follows up on open requests?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect recovery routes and authentication",
+      "paragraphs": [
+        "A strong password is not enough if recovery messages go to an inaccessible mailbox or a former employee’s phone. Review the current recovery email, authentication method and backup route. Ensure the people responsible for account continuity can reach the recovery channel without circulating sensitive codes in a shared document. If a program offers second-factor authentication, follow its setup instructions and store recovery material through a controlled method.",
+        "Test that the designated account owner can sign in using the intended recovery process, but avoid unnecessary password resets that could disrupt other users. Review active sessions or connected devices if the platform exposes those controls. After a suspected compromise, use the program’s official recovery process, rotate reused credentials on other services and check whether tracking links or payment settings were changed."
+      ]
+    },
+    {
+      "heading": "Create a handover record that preserves operating context",
+      "paragraphs": [
+        "A useful handover should let a new operator continue work without guessing which link is live, which traffic sources are allowed or which program questions remain unresolved. Record account identifiers, current authorized contacts, link conventions, reporting cadence and the location of policy documents. Include dates and context for support responses, and distinguish confirmed program instructions from internal interpretations.",
+        "Do not include passwords, authentication codes or full payment details in a handover document. Transfer credentials through the approved secure access method, and confirm the recipient has the appropriate role before removing the previous operator. A staged handover can reduce disruption: grant access, verify essential tasks, transfer ownership where permitted, then revoke old access and confirm the change."
+      ],
+      "bullets": [
+        "List active tracking links and the pages or campaigns that use them.",
+        "Record the current program terms version or date checked, where available.",
+        "Note unresolved support cases and who is following up.",
+        "Confirm the new operator can access reports before closing the old route."
+      ]
+    },
+    {
+      "heading": "Review access whenever people or responsibilities change",
+      "paragraphs": [
+        "Access reviews should follow staff changes, contractor transitions, role changes and suspected account exposure. Compare the current user list with the people who still need access. Remove obsolete users where the program supports individual accounts; if it does not, change shared credentials through a secure process and update recovery details. Check other connected accounts that may expose the same reporting or payment information.",
+        "After a change, verify that essential operations still work: sign-in, report access, link management and authorized support contact. Keep a dated record of what changed and who approved it. This is a practical continuity control, not a guarantee against account misuse. The goal is to reduce unnecessary access and make it possible to investigate a problem accurately."
+      ]
+    },
+    {
+      "heading": "Separate account administration from compliance decisions",
+      "paragraphs": [
+        "An administrator’s ability to edit a link or payment field does not automatically mean they are authorized to make business or compliance decisions. Define who approves traffic sources, promotional copy, domain changes and payment updates. Keep approval records near the relevant campaign documentation, but do not confuse internal approval with the program’s own rules.",
+        "Review program restrictions independently when a campaign or traffic source changes. Preserve the relevant instruction and the date it was checked, then make sure those requirements reach anyone publishing links. Clear ownership is most useful when it connects account access to the right decision-maker without treating access privileges as permission to ignore program terms."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should an affiliate account always use a business email?",
+      "answer": "Use an organization-controlled contact route when the program permits it and when it fits the account rules. Check the program’s requirements before changing account ownership or contact information."
+    },
+    {
+      "question": "What if a program allows only one login?",
+      "answer": "Document the limitation, restrict who can use the credential and share access only through a secure, controlled method. Review the recovery route and change access when the authorized team changes."
+    },
+    {
+      "question": "What belongs in a handover document?",
+      "answer": "Include account ownership contacts, relevant link and reporting context, current program instructions, open support issues and next steps. Do not place passwords, authentication codes or full payment details in the document."
+    },
+    {
+      "question": "How often should a team review account access?",
+      "answer": "Review it when a person’s role changes, someone leaves, a contractor’s work ends or a security concern arises. A periodic review can also help identify access that is no longer necessary."
+    }
+  ]
+};
