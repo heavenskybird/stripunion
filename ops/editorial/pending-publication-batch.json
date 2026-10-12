@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T23:54:02.157Z",
+  "generatedAt": "2026-10-12T01:53:37.864Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-delivery-returns-preflight.json",
-    "ops/editorial/content-artifacts/live-cam-safety-concern-reporting-workflow.json",
-    "ops/editorial/content-artifacts/adult-site-recurring-payment-preflight.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-disclosure-placement-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-discovery-model-fit-guide.json"
+    "ops/editorial/content-artifacts/premium-video-plan-fit-before-app-store-billing.json",
+    "ops/editorial/content-artifacts/dating-platform-first-meeting-logistics-safety-plan.json",
+    "ops/editorial/content-artifacts/free-video-browser-app-access-choice.json",
+    "ops/editorial/content-artifacts/adult-game-installation-prepurchase-review.json",
+    "ops/editorial/content-artifacts/adult-shop-product-information-materials-care-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-delivery-returns-preflight.js",
-    "src/data/guides/live-cam-safety-concern-reporting-workflow.js",
-    "src/data/guides/adult-site-recurring-payment-preflight.js",
-    "src/data/guides/webmaster-affiliate-disclosure-placement-audit.js",
-    "src/data/guides/creator-platform-discovery-model-fit-guide.js"
+    "src/data/guides/premium-video-billing-channel-control-checklist.js",
+    "src/data/guides/dating-platform-first-meeting-planning-checklist.js",
+    "src/data/guides/free-adult-video-browser-versus-app-privacy-checklist.js",
+    "src/data/guides/adult-game-storefront-installation-and-update-checklist.js",
+    "src/data/guides/adult-shop-product-materials-and-care-information-checklist.js"
   ],
   "categories": [
-    "adult-shops",
-    "live-cams",
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "creator-platforms"
+    "premium-videos",
+    "dating-hookups",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-shop-delivery-returns-preflight",
-    "live-cam-safety-concern-reporting-workflow",
-    "adult-site-recurring-payment-preflight",
-    "webmaster-affiliate-disclosure-placement-audit",
-    "creator-platform-discovery-model-fit-guide"
+    "premium-video-plan-fit-before-app-store-billing",
+    "dating-platform-first-meeting-logistics-safety-plan",
+    "free-video-browser-app-access-choice",
+    "adult-game-installation-prepurchase-review",
+    "adult-shop-product-information-materials-care-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38185785306",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "38193527150"
 }

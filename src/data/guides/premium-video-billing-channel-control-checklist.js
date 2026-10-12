@@ -1,0 +1,111 @@
+export default {
+  "slug": "premium-video-billing-channel-control-checklist",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Check Who Controls Billing and Cancellation",
+  "description": "Before joining a premium video service, identify who bills you, where renewal settings live, and what proof to save if you cancel.",
+  "excerpt": "A subscription can be managed by the video service itself or by another billing provider. Map the billing route before starting so you know where to review renewal terms, update payment details, and cancel.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Find out which organization will process the recurring charge before confirming enrollment; the service you watch through may not be the billing manager.",
+    "Check whether cancellation must happen on the original sign-up channel, and note the steps and stated effective date.",
+    "Keep confirmation records and make sure the account status reflects the change you requested.",
+    "Separate access questions from billing questions: cancellation can stop future renewal without necessarily ending access immediately."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the billing relationship before you subscribe",
+      "paragraphs": [
+        "A premium video service may offer enrollment on its own website, through a mobile app marketplace, or through another billing intermediary. These routes can place different settings in different account areas. Before you enter payment details, look for the name of the billing party, the renewal interval, and the place where the subscription will be managed. Do not assume that the service’s general account page controls every payment arrangement.",
+        "This distinction matters when you later need to change a payment method, review a charge, or stop renewal. Record the route you used, such as the service website or an app marketplace, along with the account email or login associated with it. Avoid saving full payment details in an unsecured note. The goal is a simple map of the subscription, not a collection of sensitive financial information."
+      ],
+      "bullets": [
+        "Who is identified as the seller or billing provider?",
+        "Which account was used to start the membership?",
+        "Where are renewal settings and receipts expected to appear?"
+      ]
+    },
+    {
+      "heading": "Compare the terms attached to each enrollment route",
+      "paragraphs": [
+        "Read the terms shown at the point of enrollment rather than relying on a general pricing page or an old promotional description. Look for the recurring interval, when the next charge is scheduled, whether an introductory period changes into a recurring plan, and whether taxes or other charges are described separately. If the information is unclear, pause before confirming. A useful comparison is one that records the actual terms presented to you, not assumptions about how all subscriptions work.",
+        "Check whether any offer has eligibility conditions or a specific end date, and save a copy of the terms that apply to your account. Keep the receipt or confirmation email, but remember that a receipt proves a transaction was recorded; it may not explain every rule for cancellation or continued access. If a billing intermediary is involved, read its subscription-management instructions too. The service and the billing provider may each publish information relevant to your decision."
+      ],
+      "table": {
+        "caption": "A simple enrollment-channel comparison to fill in before committing",
+        "headers": [
+          "Check",
+          "Service website",
+          "App marketplace or intermediary"
+        ],
+        "rows": [
+          [
+            "Billing party shown at checkout",
+            "Record the displayed name",
+            "Record the displayed name"
+          ],
+          [
+            "Renewal information",
+            "Note interval and next-charge wording",
+            "Note interval and next-charge wording"
+          ],
+          [
+            "Cancellation location",
+            "Record the stated route",
+            "Record the stated route"
+          ],
+          [
+            "Receipt or account record",
+            "Note where confirmation is stored",
+            "Note where confirmation is stored"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make a cancellation plan while the terms are in front of you",
+      "paragraphs": [
+        "Do not wait until the renewal date to find out where cancellation lives. Open the relevant help page or subscription settings before joining and note the steps, any stated deadline, and what status should appear after the request. If the service directs you to a third-party account, confirm that you can access that account. If you cannot identify the cancellation route, treat that as an unresolved decision point rather than expecting support to sort it out later.",
+        "Distinguish turning off renewal from deleting an account or ending access immediately. These are different actions on many subscription services, and the wording of the terms should tell you what to expect. A pause, account deletion, or sign-out may not be the same as cancellation. Save the cancellation instructions alongside your renewal date in a private calendar or personal record that does not expose sensitive details on a shared screen."
+      ],
+      "bullets": [
+        "Set a reminder far enough ahead to review the next renewal.",
+        "Write down the cancellation route and the account needed to use it.",
+        "Check whether the stated result is non-renewal, immediate termination, or something else."
+      ]
+    },
+    {
+      "heading": "Keep a clear record of payment and account status",
+      "paragraphs": [
+        "Also review statements using the billing name you noted at enrollment. The merchant or intermediary label may differ from the name shown in the video interface. If you do not recognize a charge, first compare its date and amount with the receipt and account records. Use the billing provider’s official support route if the transaction remains unclear; do not follow unsolicited messages asking for credentials or payment details."
+      ]
+    },
+    {
+      "heading": "Use a decision rule before choosing a billing route",
+      "paragraphs": [
+        "A convenient enrollment path is not automatically the easiest one to manage later. Compare the routes available to you on three practical points: how clearly the recurring terms are displayed, how easy it is to find the correct subscription settings, and whether you can retrieve reliable receipts. A route that is easy to start but difficult to identify later may not fit someone who prefers tightly managed subscriptions.",
+        "If the terms, billing party, or cancellation path cannot be verified before payment, delay enrollment. If they are clear, save the essential details and decide whether the access period and renewal arrangement suit your plans. This process does not require predicting how often you will watch. It simply makes the recurring obligation visible and gives you a workable exit plan before you commit."
+      ],
+      "bullets": [
+        "Proceed only when the billing party and renewal schedule are understandable.",
+        "Choose a sign-up route whose account you can access and manage.",
+        "Keep the record minimal, private, and easy to find when renewal approaches."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I subscribed through an app marketplace, should I cancel on the video service’s website?",
+      "answer": "Do not assume either way. Check the terms and account settings for the route used to enroll. If the service identifies the marketplace as the subscription manager, use the marketplace’s official subscription settings and verify the resulting status there."
+    },
+    {
+      "question": "Does deleting my video account necessarily stop recurring billing?",
+      "answer": "Not necessarily. Account deletion and subscription cancellation can be separate actions. Check the billing provider’s cancellation instructions, complete the required steps, and confirm that renewal is off before deleting or abandoning the account."
+    },
+    {
+      "question": "What records are useful after cancellation?",
+      "answer": "Keep the date, confirmation message or reference, and a note of the account and billing route involved. Avoid storing passwords or full payment details in the same note. Recheck the subscription status and save any support response if the status is unclear."
+    }
+  ]
+};
