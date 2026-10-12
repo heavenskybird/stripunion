@@ -1,0 +1,133 @@
+export default {
+  "slug": "premium-video-title-shortlist-metadata-comparison",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Compare Title Details Against a Must-Watch Shortlist",
+  "description": "A practical method for comparing premium video platforms by checking whether specific titles are listed, included, and described clearly before subscribing.",
+  "excerpt": "Catalog breadth claims can be difficult to evaluate without knowing whether the titles you actually want are available under the plan you are considering. Build a shortlist, verify each title's access status, and record the details that remain uncertain.",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-12",
+  "keyTakeaways": [
+    "Create a short list of titles that would make a subscription worthwhile to you before comparing platforms.",
+    "Verify each title on the platform itself and distinguish a listing from confirmed plan inclusion.",
+    "Record edition, language, format, and access details only when the platform states them clearly.",
+    "Recheck important titles close to the time you plan to join because catalog information can change.",
+    "Do not treat one matching title or a large-looking catalog as proof of overall value."
+  ],
+  "sections": [
+    {
+      "heading": "Compare libraries using the titles that matter to you",
+      "paragraphs": [
+        "A broad catalog description does not answer a personal decision: whether the platform includes the particular titles you expect to watch. A shortlist makes the comparison concrete and keeps a platform's overall library size from overshadowing gaps that matter to you. This approach is especially useful when two services describe their catalogs differently or when a title may appear in search without being included in a membership.",
+        "The goal is to verify specific, decision-relevant details using information visible before subscribing. A title can be listed as a preview, a separate purchase, or a member-access item; the result page alone may not show which applies. Avoid assuming that a search match means the title is part of the plan. Record the access language shown on the title page and consult plan terms where needed."
+      ],
+      "bullets": [
+        "Choose a manageable shortlist based on your own priorities, not a platform's promotional examples.",
+        "Check title pages and membership terms together.",
+        "Keep unknown access status separate from confirmed inclusion."
+      ]
+    },
+    {
+      "heading": "Build a shortlist before opening platform pages",
+      "paragraphs": [
+        "Write down the titles, series, or specific editions that would make a service useful to you. Include enough variety to reflect your actual priorities, but keep the list short enough to check carefully. You can mark some as essential and others as optional. This prevents an attractive home page or a large number of unrelated results from shifting your decision criteria midway through the comparison.",
+        "Be precise about names when a title has multiple editions, installments, or similar labels. A search result with a familiar word may not be the exact item you mean. If you care about a particular version or installment, record that detail in your shortlist. Do not add sensitive personal notes to a shared device or account if privacy is a concern; the list can be stored privately and kept minimal."
+      ],
+      "table": {
+        "caption": "A shortlist worksheet for comparing specific titles",
+        "headers": [
+          "Shortlist item",
+          "What to verify",
+          "Status to record"
+        ],
+        "rows": [
+          [
+            "Title or series",
+            "Is the exact title or installment identifiable?",
+            "Confirmed, unclear, or not found"
+          ],
+          [
+            "Membership inclusion",
+            "Does the plan include it or require separate access?",
+            "Included, separate, or unclear"
+          ],
+          [
+            "Edition details",
+            "Does the listing identify the version you want?",
+            "Stated details or unknown"
+          ],
+          [
+            "Language information",
+            "Are subtitles or language tracks specified?",
+            "Stated, absent, or unclear"
+          ],
+          [
+            "Access conditions",
+            "Are limits or special terms described?",
+            "Record the wording or follow-up question"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish search results from included access",
+      "paragraphs": [
+        "Search pages can surface items that are not included in the membership being considered. Look for wording that distinguishes member access from a separate purchase, rental, preview, or other entitlement. If a page presents several access routes, identify which one applies to the plan you would actually select. Do not infer inclusion from a play button, thumbnail, or presence in the catalog alone.",
+        "When the access language is ambiguous, check the plan's terms or ask support before joining. Phrase the question around the specific title and plan rather than asking generally whether the library is large. If you receive an answer, keep it with your comparison notes and treat it as information from that date. A clear answer may resolve the decision; an unclear answer is a reason to preserve uncertainty rather than count the title as included."
+      ],
+      "bullets": [
+        "Look for explicit plan-inclusion wording on the title page or in membership terms.",
+        "Check whether the title requires a separate transaction or additional access tier.",
+        "Do not count a preview as full member access."
+      ]
+    },
+    {
+      "heading": "Check title identity and edition details",
+      "paragraphs": [
+        "A result that resembles the title on your list may refer to a different installment, edit, or edition. Confirm identifying details that matter to your choice, such as series order or a version label, when the platform provides them. If details are absent, record them as unknown rather than assuming that two similarly named listings are interchangeable.",
+        "Metadata quality is itself useful comparison evidence. A platform that presents clear title names, descriptions, and access status makes it easier to decide before subscribing. Missing information does not prove that a title is unavailable, but it can increase the effort required to verify it. Use a consistent standard across platforms: only mark a detail confirmed when the platform states it plainly."
+      ],
+      "paragraphs2": [
+        "If language or subtitle options matter to you, check the specific title rather than assuming that a platform-wide setting applies to every item. Likewise, do not assume that a series listing includes every installment. The shortlist is a tool for targeted verification, not a substitute for checking individual title pages where distinctions could affect your decision."
+      ]
+    },
+    {
+      "heading": "Use a consistent comparison method",
+      "paragraphs": [
+        "Search each platform with the same title names and record the date, result, and access wording. Check essential items first so you can stop early if a service does not meet a must-have requirement. For optional titles, use the same level of verification on every platform. This keeps one service from receiving a more generous interpretation simply because its pages are easier to browse.",
+        "Keep platform claims separate from your observations. For example, note whether a title page explicitly says “included” rather than writing that the entire service has a complete catalog. If a search returns no result, record “not found in this check,” not “unavailable forever.” Catalogs and page structures can change, so recheck essential details near the time of enrollment."
+      ],
+      "bullets": [
+        "Use the same shortlist and verification questions for each candidate.",
+        "Record the date and exact access language for essential items.",
+        "Treat search failures as observations, not proof that a title can never be available."
+      ]
+    },
+    {
+      "heading": "Turn the shortlist into a subscription decision",
+      "paragraphs": [
+        "After verification, compare the number and importance of confirmed matches against the terms of the plan you are considering. A simple table can separate essentials, optional matches, and unresolved items. Avoid assigning a numerical value to a title unless you have a meaningful personal basis for it; the point is to make your own priorities visible, not to create an artificial universal score.",
+        "Finally, review subscription terms, renewal, cancellation, playback compatibility, and preview access independently. A strong match on the shortlist does not resolve those other questions. If a key title's access remains unclear, you can delay the decision, contact support, or choose not to rely on that title when judging value. This keeps the decision grounded in confirmed access rather than marketing language."
+      ],
+      "bullets": [
+        "Decide in advance which shortlist items are essential and which are optional.",
+        "Do not count unclear or separate-access titles as confirmed membership matches.",
+        "Revisit the shortlist if your viewing priorities change or catalog information is updated."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a title appears in platform search, is it included in the subscription?",
+      "answer": "Not necessarily. Search may show previews, separately accessed items, or titles outside a particular plan. Check the title page and plan terms for explicit inclusion language before counting it as a membership match."
+    },
+    {
+      "question": "How many titles should I put on a shortlist?",
+      "answer": "Use a list small enough to verify carefully and broad enough to reflect your priorities. Mark essential titles separately from optional ones. There is no universal number that makes a platform comparison valid."
+    },
+    {
+      "question": "Should I rely on a platform's catalog description instead of checking titles?",
+      "answer": "A general description can provide context, but it cannot confirm access to the specific titles you care about. Verify key items individually and record anything the platform does not state clearly."
+    }
+  ]
+};

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T15:22:03.155Z",
+  "generatedAt": "2026-10-12T16:14:18.577Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-membership-access-window-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-audience-discovery-fit-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-recordkeeping-preflight.json",
-    "ops/editorial/content-artifacts/adult-platform-account-identity-boundaries-checklist.json",
-    "ops/editorial/content-artifacts/adult-anime-mobile-reader-fit-audit.json"
+    "ops/editorial/content-artifacts/free-video-playback-failure-recovery-checklist.json",
+    "ops/editorial/content-artifacts/adult-game-save-and-update-continuity-guide.json",
+    "ops/editorial/content-artifacts/adult-shop-return-eligibility-prepurchase-checklist.json",
+    "ops/editorial/content-artifacts/vr-adult-session-length-planning-guide.json",
+    "ops/editorial/content-artifacts/premium-video-title-shortlist-metadata-comparison.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-membership-access-window-audit.js",
-    "src/data/guides/creator-platform-audience-discovery-fit-audit.js",
-    "src/data/guides/webmaster-affiliate-recordkeeping-preflight.js",
-    "src/data/guides/adult-platform-account-identity-boundaries-checklist.js",
-    "src/data/guides/adult-anime-mobile-reader-fit-audit.js"
+    "src/data/guides/free-video-playback-failure-recovery-checklist.js",
+    "src/data/guides/adult-game-save-and-update-continuity-guide.js",
+    "src/data/guides/adult-shop-return-eligibility-prepurchase-checklist.js",
+    "src/data/guides/vr-adult-session-length-planning-guide.js",
+    "src/data/guides/premium-video-title-shortlist-metadata-comparison.js"
   ],
   "categories": [
-    "premium-videos",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar",
+    "premium-videos"
   ],
   "backlogIds": [
-    "premium-video-membership-access-window-audit",
-    "creator-platform-audience-discovery-fit-audit",
-    "webmaster-affiliate-recordkeeping-preflight",
-    "adult-platform-account-identity-boundaries-checklist",
-    "adult-anime-mobile-reader-fit-audit"
+    "free-video-playback-failure-recovery-checklist",
+    "adult-game-save-and-update-continuity-guide",
+    "adult-shop-return-eligibility-prepurchase-checklist",
+    "vr-adult-session-length-planning-guide",
+    "premium-video-title-shortlist-metadata-comparison"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38269236788",
-  "phase": "closed"
+  "r1CycleId": "38275649288"
 }
