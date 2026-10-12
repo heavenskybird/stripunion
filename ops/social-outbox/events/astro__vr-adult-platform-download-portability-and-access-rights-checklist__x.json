@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/vr-adult-platform-download-portability-and-access-rights-checklist",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-12T05:58:13.170Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-12T08:14:16.650Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6acc96d8712ba82086b17dd3",
   "provider_due_at": "2026-10-12T09:52:00.000Z",
   "created_at": "2026-10-12T05:58:13.170Z",
-  "updated_at": "2026-10-12T08:20:22.896Z",
+  "updated_at": "2026-10-12T09:59:43.750Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 9,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
