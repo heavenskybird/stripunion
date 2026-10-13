@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T06:04:40.238Z",
+  "generatedAt": "2026-10-13T07:08:12.988Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-session-budget-controls.json",
-    "ops/editorial/content-artifacts/premium-video-travel-playback-planning.json",
-    "ops/editorial/content-artifacts/adult-anime-game-account-requirements.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-session-preflight.json",
-    "ops/editorial/content-artifacts/free-video-platform-adult-creator-context.json"
+    "ops/editorial/content-artifacts/adult-games-storefront-vs-community-access-fit.json",
+    "ops/editorial/content-artifacts/adult-shop-discreet-delivery-policy-checklist.json",
+    "ops/editorial/content-artifacts/dating-platform-messaging-membership-fit.json",
+    "ops/editorial/content-artifacts/live-cam-payment-privacy-information-check.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-portfolio-concentration-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-platform-session-budget-controls.js",
-    "src/data/guides/premium-video-subscriptions-travel-playback-planning.js",
-    "src/data/guides/adult-anime-games-account-drm-save-requirements.js",
-    "src/data/guides/vr-adult-platform-session-preflight-device-network-privacy.js",
-    "src/data/guides/free-adult-video-platform-creator-context-and-listing-quality.js"
+    "src/data/guides/adult-games-storefront-vs-community-access-fit.js",
+    "src/data/guides/adult-shop-discreet-delivery-policy-checklist.js",
+    "src/data/guides/dating-platform-messaging-membership-fit.js",
+    "src/data/guides/live-cam-payment-privacy-information-check.js",
+    "src/data/guides/webmaster-affiliate-portfolio-concentration-review.js"
   ],
   "categories": [
+    "adult-games",
+    "adult-shops",
+    "dating-hookups",
     "live-cams",
-    "premium-videos",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "live-cam-session-budget-controls",
-    "premium-video-travel-playback-planning",
-    "adult-anime-game-account-requirements",
-    "vr-adult-platform-session-preflight",
-    "free-video-platform-adult-creator-context"
+    "adult-games-storefront-vs-community-access-fit",
+    "adult-shop-discreet-delivery-policy-checklist",
+    "dating-platform-messaging-membership-fit",
+    "live-cam-payment-privacy-information-check",
+    "webmaster-affiliate-portfolio-concentration-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38354528412",
-  "phase": "closed"
+  "r1CycleId": "38360542400"
 }

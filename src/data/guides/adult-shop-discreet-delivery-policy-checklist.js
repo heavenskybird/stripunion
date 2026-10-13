@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-shop-discreet-delivery-policy-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Delivery Privacy: Check Packaging, Notifications and Returns Before Ordering",
+  "description": "A practical adult shop checklist for reviewing packaging, shipping notices, delivery options and return terms without assuming every retailer handles them alike.",
+  "excerpt": "Delivery privacy depends on more than the outside of a parcel. Check the retailer’s shipping, notification, payment and returns information together so you know what may be visible at each stage of an order.",
+  "publishedAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "keyTakeaways": [
+    "Read the retailer’s own description of packaging and check whether it explains what does and does not appear on the parcel.",
+    "Consider who can see delivery emails, text alerts, account history, and tracking links.",
+    "Review return conditions for opened, unused, defective, or hygiene-sensitive goods before purchase.",
+    "Check how shipping charges, delivery estimates, and carrier options are presented at checkout.",
+    "Do not treat the word discreet as a complete explanation of privacy practices."
+  ],
+  "sections": [
+    {
+      "heading": "Treat delivery privacy as a chain, not a label",
+      "paragraphs": [
+        "A retailer may describe an order as discreet, but that single word does not tell you everything about the delivery process. Privacy can involve the parcel exterior, sender information, packing slip, order confirmation, tracking messages, payment records, and account history. Review the whole chain and distinguish what the shop explicitly explains from what it leaves unspecified.",
+        "Start with the shipping or privacy information available before checkout. Look for plain statements about packaging, return addresses, invoices, and the name used in shipping notices. If a policy is vague, do not assume that the parcel or correspondence will be handled in a particular way. You can decide whether to contact support, choose another delivery arrangement, or postpone the order."
+      ],
+      "bullets": [
+        "Find the packaging explanation before entering payment details.",
+        "Check whether emails or text alerts may reveal a retailer or item name.",
+        "Note which details remain unclear and decide whether they matter for your situation."
+      ]
+    },
+    {
+      "heading": "Check what the parcel and paperwork may reveal",
+      "paragraphs": [
+        "The outside of a parcel is only one part of the question. A shipping label may show sender or return information, while paperwork inside may identify the retailer or order contents. Retailer policies differ, so seek explicit information about both the external packaging and any documents included. If the policy addresses one but not the other, treat the missing part as unresolved.",
+        "Also consider how a shared household handles deliveries. A parcel could be left in a common area, held at a collection point, or signed for by someone else, depending on the delivery arrangement. Check whether the shop offers choices you can actually select for your address, and verify that the option appears in the checkout flow before relying on it."
+      ],
+      "table": {
+        "caption": "Delivery privacy checkpoints to verify before ordering",
+        "headers": [
+          "Stage",
+          "Information to check"
+        ],
+        "rows": [
+          [
+            "Parcel exterior",
+            "Sender name, return address, and retailer explanation of packaging"
+          ],
+          [
+            "Inside the parcel",
+            "Packing slips, invoices, or item-identifying paperwork"
+          ],
+          [
+            "Delivery updates",
+            "Email, text, or account notifications and their visible wording"
+          ],
+          [
+            "After delivery",
+            "Order history, receipts, and account access on shared devices"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review delivery messages and account exposure",
+      "paragraphs": [
+        "Order confirmations and tracking alerts can be convenient, but they may be visible on a lock screen, shared inbox, or family device. Before ordering, consider which email address or phone number receives notices and whether message previews are enabled. If you control those settings, you may be able to reduce incidental exposure without changing the retailer’s own practices.",
+        "A customer account can retain order history even after delivery. Check whether the shop explains account controls, receipt access, and any available options for reducing stored details. Do not assume that deleting an email removes the retailer’s record, or that closing an account automatically erases transaction records. The relevant policies and obligations can differ, so use the shop’s stated information."
+      ]
+    },
+    {
+      "heading": "Understand returns before choosing a product",
+      "paragraphs": [
+        "Return rules can vary by product condition and category. Some shops may distinguish unopened items from opened goods, products with hygiene considerations, defective products, and orders that arrived incorrectly. Read the actual conditions and any time limits before buying. A general returns heading does not establish that every product can be returned after opening or use.",
+        "Look for the process as well as eligibility: how to request a return, whether authorization is required, how the item must be packaged, and what evidence the retailer asks for if something arrives damaged or incorrect. Note who pays any stated return shipping charges and how refunds or exchanges are described. If the policy does not answer a question relevant to your purchase, ask support before ordering."
+      ],
+      "bullets": [
+        "Check condition-based exclusions on the product page and returns page.",
+        "Save the order confirmation and relevant policy wording.",
+        "For damage or an incorrect item, document the issue and follow the stated contact process."
+      ]
+    },
+    {
+      "heading": "Compare shipping cost and timing transparently",
+      "paragraphs": [
+        "A useful delivery comparison includes more than the advertised shipping method. Check whether shipping charges appear before the final order step, whether delivery estimates are ranges or firm commitments, and whether the estimate changes by location or product availability. Avoid treating an estimate as a guarantee unless the retailer clearly defines it that way.",
+        "Confirm whether a selected delivery option is available for your address and whether the checkout summary matches the policy information. Consider how a delay or missed delivery is handled and where tracking support comes from. Clear information makes it easier to compare shops on a like-for-like basis, even when you ultimately prioritize catalog, product details, or customer support."
+      ]
+    },
+    {
+      "heading": "Use a pre-order decision checklist",
+      "paragraphs": [
+        "Before submitting an order, compare the retailer’s product, delivery, privacy, and return information together. These policies answer different questions. A clear parcel description does not explain account data; a generous return window does not establish discreet packaging. Keep each issue in its own row rather than giving a shop one overall privacy score based on a single reassuring phrase.",
+        "If a detail is important and missing, contact customer support using a channel listed by the retailer and ask a specific question. Keep the response with your order records. If the answer remains unclear, consider whether the uncertainty is worth accepting or whether another retailer provides enough information for an informed choice."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does discreet shipping mean the parcel has no identifying information?",
+      "answer": "Not necessarily. The phrase can be used without spelling out sender details, paperwork, or notifications. Check the retailer’s specific packaging explanation and ask about any important ambiguity."
+    },
+    {
+      "question": "Should I check return rules before or after ordering?",
+      "answer": "Before ordering. Eligibility may depend on product type, condition, or whether packaging has been opened. Read the applicable terms for the item rather than relying on a general assumption."
+    },
+    {
+      "question": "Can deleting an order email remove the retailer’s order record?",
+      "answer": "Deleting a message from your inbox does not establish what the retailer retains. Review the retailer’s account and privacy information for its stated controls and retention details."
+    },
+    {
+      "question": "What is the most useful question to ask customer support?",
+      "answer": "Ask about a specific unresolved step, such as what sender information appears on the parcel or what conditions apply to returning the particular product. Specific questions are easier to evaluate than a broad request for discretion."
+    }
+  ]
+};
