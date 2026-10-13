@@ -2,5 +2,5 @@
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
   "reason": "R1 external heartbeat: successful receipt older than 52m; no active scheduler/writer; request one fresh scheduler admission",
-  "updated_at": "2026-10-11T13:59:49.000Z"
+  "updated_at": "2026-10-13T06:02:18.352Z"
 }
