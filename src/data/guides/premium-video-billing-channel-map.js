@@ -1,0 +1,115 @@
+export default {
+  "slug": "premium-video-billing-channel-map",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Identify Who Manages Billing and Cancellation",
+  "description": "Before subscribing to a premium video service, map the billing channel, renewal controls, receipts, and cancellation steps so you know where to manage the membership.",
+  "excerpt": "A billing-route checklist for understanding whether a video subscription is managed directly or through another account or payment channel.",
+  "publishedAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "keyTakeaways": [
+    "Identify the merchant or billing channel shown at checkout before you confirm a subscription.",
+    "Distinguish access to the video account from control of the payment or renewal.",
+    "Save the cancellation route and confirmation evidence in a private, accessible place.",
+    "Check whether billing records and platform account records are managed separately.",
+    "If a subscription was started through an intermediary, verify where cancellation must happen rather than relying on the video app alone."
+  ],
+  "sections": [
+    {
+      "heading": "Map the route from signup to renewal",
+      "paragraphs": [
+        "A premium video subscription can involve more than one account: the video service, a payment provider, a device or app account, or another intermediary. The account you use to watch may not be the account that controls renewal. Before subscribing, identify the route from the offer page through checkout and note which organization or account is presented as responsible for recurring billing.",
+        "This is a practical distinction, not just a billing detail. If you later change a password, remove an app, or close a viewing profile, that may not stop a separate renewal agreement. Read the checkout summary and subscription terms before confirming. If the route is unclear, pause rather than assuming that the screen where you watch is also the place where you cancel."
+      ],
+      "bullets": [
+        "Record the account used to sign up and the billing route shown at checkout.",
+        "Check the confirmation screen or receipt for a merchant or intermediary name.",
+        "Keep viewing credentials separate from payment credentials where the available controls allow it."
+      ]
+    },
+    {
+      "heading": "Identify the account that controls renewal",
+      "paragraphs": [
+        "Look for the specific account area that manages renewal, payment method, and cancellation. It might be in the video service’s membership settings, a separate app-store or device account, or another billing portal. The relevant terms and interface should tell you which route applies to your signup. Do not generalize from another subscription you have used; similar-looking services can use different billing arrangements.",
+        "Check whether the video service explains what to do if you cannot access the billing account. Recovery and cancellation may follow different procedures. If an intermediary manages the membership, the video service may still provide access information while directing billing changes elsewhere. Make a note of the appropriate support or account route, but do not assume that contacting one organization automatically updates every linked account."
+      ],
+      "table": {
+        "caption": "Billing-route checks before you subscribe",
+        "headers": [
+          "Question",
+          "Where to look",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Who will bill the membership?",
+            "Checkout summary and order confirmation",
+            "Identifies the record to use when reviewing charges."
+          ],
+          [
+            "Where is renewal managed?",
+            "Membership settings and subscription terms",
+            "Shows which account controls recurring billing."
+          ],
+          [
+            "Where must cancellation happen?",
+            "Cancellation instructions for the signup route",
+            "Prevents reliance on the wrong account or app."
+          ],
+          [
+            "Where are receipts available?",
+            "Billing history or payment-account records",
+            "Helps you retrieve confirmation later."
+          ],
+          [
+            "What happens to viewing access after cancellation?",
+            "Membership terms and access-period explanation",
+            "Separates stopping renewal from immediate account closure."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand cancellation versus account closure",
+      "paragraphs": [
+        "Do not rely on uninstalling an app, removing a saved payment method, or closing a profile as a substitute for a documented cancellation. Those steps may affect access or payment convenience without ending the underlying membership. Keep a copy of the confirmation until the billing record reflects the change or the service’s terms describe the relevant status."
+      ]
+    },
+    {
+      "heading": "Keep records that help you verify account status",
+      "paragraphs": [
+        "A small recordkeeping habit can reduce confusion later. Save the sign-up confirmation, billing route, renewal information, and cancellation instructions in a secure location. When you cancel, retain the confirmation and any stated effective date. If a receipt uses a billing description you might not immediately recognize, recording the service name and route can help you match the charge to the correct account without relying on memory.",
+        "Protect those records as private information. Avoid storing payment details or sensitive passwords in an unprotected note. If you use a password manager or another secure record system, store only what you need to identify the account and recover access. When discussing a billing question with support, provide only the information requested through the service’s official support channel and avoid posting receipts or account identifiers publicly."
+      ],
+      "bullets": [
+        "Save the confirmation email or receipt in a private account you can access later.",
+        "Record the billing channel and cancellation location, not full payment credentials.",
+        "After cancellation, retain any confirmation and review the next relevant billing record."
+      ]
+    },
+    {
+      "heading": "Use the map to compare memberships fairly",
+      "paragraphs": [
+        "This process is especially helpful when more than one person or account is involved. Identify which account holder can manage billing and who can view subscription records. Do not share credentials simply to make cancellation easier; use the service’s supported account and recovery controls. If you cannot tell who has authority over a renewal, pause and resolve account ownership before subscribing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does deleting the video app cancel the subscription?",
+      "answer": "Do not assume so. App removal may not affect a recurring billing agreement. Follow the cancellation instructions for the account or billing channel used at signup and keep the confirmation."
+    },
+    {
+      "question": "Is cancellation the same as deleting my account?",
+      "answer": "Not necessarily. Cancellation may stop future renewal, while account deletion may be a separate process. Check the service’s terms for the effects of each action and whether they are managed in different places."
+    },
+    {
+      "question": "What if I cannot remember where I subscribed?",
+      "answer": "Check confirmation messages, receipts, and the subscription sections of accounts you may have used. Use official support channels if needed, and avoid sharing full payment details in public or unsolicited messages."
+    },
+    {
+      "question": "Why keep a cancellation confirmation?",
+      "answer": "It provides a record of the request and may identify an effective date or reference. Store it securely and compare it with later account or billing records if you need to verify the change."
+    }
+  ]
+};

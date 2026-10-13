@@ -1,0 +1,115 @@
+export default {
+  "slug": "creator-platform-discovery-dependency-map",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Map Discovery Sources Before Choosing a Subscription Model",
+  "description": "Assess creator and fan platforms by identifying how new audiences find accounts, how discovery differs from external promotion, and what that means for your business plan.",
+  "excerpt": "A practical framework for creators comparing platform discovery systems without assuming that signup automatically brings an audience.",
+  "publishedAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "keyTakeaways": [
+    "Separate platform-provided discovery from audiences you bring through external channels.",
+    "Identify which discovery surfaces are available and whether their rules are clearly documented.",
+    "Check what account, privacy, and audience controls support the way you plan to promote.",
+    "Treat discovery as an uncertain channel, not a guaranteed source of subscribers or revenue.",
+    "Keep a simple record of where visitors arrive from so you can distinguish platform reach from your own promotion."
+  ],
+  "sections": [
+    {
+      "heading": "Define what discovery means for your business",
+      "paragraphs": [
+        "When comparing a creator and fan platform, “discovery” can refer to several different paths: browsing categories, search, recommendations, promotional placement, or visitors arriving from a creator’s own links. These paths have different dependencies. Platform discovery depends on how the service organizes and displays accounts; external discovery depends on channels and audience relationships outside it. Treating both as one promise can lead to a business plan built on assumptions rather than an operating model.",
+        "Start with the audience you already reach and the audience you hope to reach. If you have an established community elsewhere, ask whether the platform supports clear profile links and a straightforward path from profile to subscription information. If you are relying on the platform to introduce your work to new visitors, find out what discovery features it documents and what, if anything, it explains about eligibility. Do not infer likely reach from the existence of a search page or recommendation feature."
+      ],
+      "bullets": [
+        "List the audiences you can currently reach without the platform.",
+        "Name the discovery surfaces you have actually confirmed, such as search or categories.",
+        "Mark any assumptions about recommendation eligibility or exposure as unknown until documented."
+      ]
+    },
+    {
+      "heading": "Compare platform discovery with external promotion",
+      "paragraphs": [
+        "A useful evaluation separates on-platform browsing from promotion you control elsewhere. On-platform discovery may depend on account settings, category selection, profile completeness, content labels, or platform rules. External promotion may depend on your own site, mailing list, social channels, collaborations, or other permitted sources. The first can change with platform design and policies; the second requires your own time, consent practices, and compliance with each channel’s rules.",
+        "For each route, ask what happens after a visitor arrives. Can a prospective subscriber understand the account’s offer, access terms, and update expectations before paying? Are profile and content labels sufficiently clear to help the right audience decide? Does the platform offer a way to measure referral sources, or will you need a separate, privacy-conscious tracking method? These questions concern fit and operational clarity, not a prediction of traffic or conversions."
+      ],
+      "table": {
+        "caption": "Discovery route comparison for a creator plan",
+        "headers": [
+          "Route",
+          "What to verify",
+          "Planning implication"
+        ],
+        "rows": [
+          [
+            "Platform search or categories",
+            "Whether the feature exists, its rules, and account eligibility",
+            "Do not budget around visibility that is not documented."
+          ],
+          [
+            "Recommendations or featured placement",
+            "How selection is described and whether creators control any settings",
+            "Treat exposure as uncertain unless terms specify otherwise."
+          ],
+          [
+            "Creator-controlled links",
+            "Whether profile links and landing information are clear and permitted",
+            "Plan for the work of attracting and informing visitors."
+          ],
+          [
+            "Direct audience channels",
+            "Whether promotion is allowed under both platforms’ rules",
+            "Check restrictions before sending visitors."
+          ],
+          [
+            "Referral reporting",
+            "What the dashboard records and how data can be exported or reconciled",
+            "Avoid attributing outcomes without suitable evidence."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read discovery rules alongside commercial terms",
+      "paragraphs": [
+        "Also review the platform’s documentation about payouts and reporting before projecting business outcomes. This article does not estimate earnings: the practical point is to know which records the service provides and how those records relate to subscriptions or referrals. If a discovery dashboard reports views but not the source or outcome you need, it may not answer the business question you are trying to measure."
+      ]
+    },
+    {
+      "heading": "Design a modest test that answers one question",
+      "paragraphs": [
+        "If the platform permits it and the effort is manageable, test one discovery assumption at a time. For instance, you might compare whether visitors arrive through a platform profile or a creator-controlled link during a defined period. Use labels that are permitted by the relevant services and do not collect unnecessary personal information. Keep the question narrow: “Which link source brought these visits?” is easier to answer than “Is this platform good for growth?”",
+        "Record the date range, link or surface used, available reporting fields, and any limitations. Do not treat a small or short-term observation as a forecast. Platform placement, audience behavior, and reporting definitions may change. A test is useful when it helps you improve a decision, such as whether to spend more time preparing a profile or maintaining an external channel, not when it is used to claim a stable outcome from limited evidence."
+      ],
+      "bullets": [
+        "Choose one discovery route and one measurable question for each test.",
+        "Use only tracking methods allowed by the platform and relevant privacy expectations.",
+        "Record missing data and definitions as carefully as recorded totals."
+      ]
+    },
+    {
+      "heading": "Choose a model that does not depend on a single discovery path",
+      "paragraphs": [
+        "Finally, distinguish visibility from ownership of an audience relationship. A follower count, profile view, or platform message does not necessarily give you a portable contact list or permission to contact people elsewhere. Review platform terms and privacy expectations before attempting to move audience relationships across services. The safest plan is one that respects consent and uses only communication routes the platform and the audience have agreed to."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does joining a creator platform guarantee new audience discovery?",
+      "answer": "No. The existence of search, recommendations, or categories does not guarantee exposure, subscribers, or revenue. Review the platform’s documentation and plan for discovery sources you can verify."
+    },
+    {
+      "question": "Should I rely on external promotion instead?",
+      "answer": "That depends on your existing audience, time, privacy needs, and the rules of the platform and promotion channels. Compare external promotion with on-platform features rather than assuming either route will perform in a particular way."
+    },
+    {
+      "question": "How can I tell which discovery route is useful?",
+      "answer": "Use permitted, minimal tracking and define a specific question in advance. Review what the platform’s reporting actually measures, record gaps, and avoid treating limited observations as a forecast."
+    },
+    {
+      "question": "Can I move subscribers or followers to another service later?",
+      "answer": "Do not assume that audience relationships or contact information are portable. Check platform terms, privacy rules, and audience consent before using any off-platform contact or migration process."
+    }
+  ]
+};

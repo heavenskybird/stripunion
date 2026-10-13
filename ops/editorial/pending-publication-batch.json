@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T18:32:40.161Z",
+  "generatedAt": "2026-10-13T19:27:48.108Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-spatial-format-label-audit.json",
-    "ops/editorial/content-artifacts/adult-game-storefront-license-save-portability-checklist.json",
-    "ops/editorial/content-artifacts/adult-shop-return-hygiene-policy-checklist.json",
-    "ops/editorial/content-artifacts/adult-manga-volume-access-model-comparison.json",
-    "ops/editorial/content-artifacts/adult-platform-identity-compartmentalization-checklist.json"
+    "ops/editorial/content-artifacts/dating-platform-visibility-before-messaging.json",
+    "ops/editorial/content-artifacts/live-cam-stream-label-interpretation.json",
+    "ops/editorial/content-artifacts/creator-platform-discovery-dependency-map.json",
+    "ops/editorial/content-artifacts/premium-video-billing-channel-map.json",
+    "ops/editorial/content-artifacts/affiliate-dashboard-report-definitions-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-spatial-format-label-audit.js",
-    "src/data/guides/adult-game-storefront-license-save-portability-checklist.js",
-    "src/data/guides/adult-shop-return-hygiene-policy-checklist.js",
-    "src/data/guides/adult-manga-volume-access-model-comparison.js",
-    "src/data/guides/adult-platform-identity-compartmentalization-checklist.js"
+    "src/data/guides/dating-platform-visibility-before-messaging.js",
+    "src/data/guides/live-cam-stream-label-interpretation.js",
+    "src/data/guides/creator-platform-discovery-dependency-map.js",
+    "src/data/guides/premium-video-billing-channel-map.js",
+    "src/data/guides/affiliate-dashboard-report-definitions-audit.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "privacy-safety-payment"
+    "dating-hookups",
+    "live-cams",
+    "creator-platforms",
+    "premium-videos",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "vr-adult-platform-spatial-format-label-audit",
-    "adult-game-storefront-license-save-portability-checklist",
-    "adult-shop-return-hygiene-policy-checklist",
-    "adult-manga-volume-access-model-comparison",
-    "adult-platform-identity-compartmentalization-checklist"
+    "dating-platform-visibility-before-messaging",
+    "live-cam-stream-label-interpretation",
+    "creator-platform-discovery-dependency-map",
+    "premium-video-billing-channel-map",
+    "affiliate-dashboard-report-definitions-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38447266337",
-  "phase": "closed"
+  "r1CycleId": "38454467358"
 }
