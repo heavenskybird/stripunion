@@ -1,0 +1,84 @@
+export default {
+  "slug": "dating-platform-first-meet-planning-checklist",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Moving From an Adult Dating App to an In-Person Meeting: A Safety Checklist",
+  "description": "Plan a consensual first meeting after connecting online with practical checks for identity, boundaries, location, transport, communication and changing your mind.",
+  "excerpt": "A platform match does not establish identity, compatibility or safety. Use a separate, deliberate plan for deciding whether to meet, what to share and how to leave if the situation changes.",
+  "publishedAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "keyTakeaways": [
+    "Keep platform messaging and an in-person decision separate; do not treat a profile, verification badge or conversation as proof of someone’s identity.",
+    "Agree on the basic plan, expectations and boundaries before meeting, and check that both people freely accept it without pressure.",
+    "Choose a public, easy-to-leave location and arrange independent transport and a check-in plan that does not depend on the other person.",
+    "Protect personal information, watch for changes in behavior and leave or cancel if you feel uncertain; consent and plans can change at any time."
+  ],
+  "sections": [
+    {
+      "heading": "Decide whether the conversation is ready to leave the platform",
+      "paragraphs": [
+        "An online connection can be useful for learning whether a conversation feels respectful, but a profile and messages cannot establish everything about a person. Take time to notice whether the other person answers reasonable questions consistently, respects a pause and accepts boundaries without trying to wear them down. Pressure to move quickly, secrecy, demands for money or attempts to isolate you are reasons to stop and reassess.",
+        "Before moving to a phone number, private messaging service or meeting, consider what information the new channel reveals. A phone number can connect to other accounts or personal records; a social profile may expose a workplace, friends or routine. You can continue using the platform’s available communication tools while deciding. You do not owe someone an off-platform channel or an in-person meeting because you have been chatting."
+      ]
+    },
+    {
+      "heading": "Agree on the meeting and boundaries in advance",
+      "paragraphs": [
+        "A useful plan is specific but not elaborate: where to meet, roughly when, how long you expect to stay and how each person will get there. Discuss any boundaries relevant to the meeting in plain, non-pressuring language. Confirm that both people understand the plan and can change their mind. A prior conversation or agreement is not blanket consent to later activities; consent must remain voluntary and can be withdrawn.",
+        "Notice how the other person responds to ordinary planning. Respectful discussion includes accepting a public first meeting, a time limit, separate transport or a decision to postpone. If someone treats a boundary as an obstacle to overcome, asks you to keep the meeting secret or makes a threat, do not negotiate under pressure. Cancel through a channel you control, preserve relevant messages if you may need to report them, and use the platform’s reporting tools where appropriate."
+      ]
+    },
+    {
+      "heading": "Choose a location and exit plan you control",
+      "paragraphs": [
+        "For an initial meeting, choose a public location where you can arrive and leave independently. Make sure you know how you will get home before you go, and keep access to your own transport or a reliable alternative. Avoid making the other person responsible for your ride, accommodation or access to a private location. If the plan changes to a less public setting, you can decline and leave; you do not have to justify that choice.",
+        "Tell a trusted person the basic plan and arrange a check-in at a time you choose. Share only the information that person needs to help, such as the meeting location and when you expect to check in. Agree what they should do if you do not respond. A check-in is a support measure, not a guarantee of safety, so keep your own phone accessible and maintain an exit option."
+      ],
+      "bullets": [
+        "Meet somewhere you can locate and leave without another person’s help.",
+        "Arrange independent transport and keep your phone charged and accessible.",
+        "Set a check-in with someone you trust and agree what happens if you miss it.",
+        "Do not let a last-minute location change override your comfort or original plan."
+      ]
+    },
+    {
+      "heading": "Limit personal details and prepare your device",
+      "paragraphs": [
+        "Share only the personal information needed for the meeting. Avoid giving a home address, workplace schedule, financial details or documents to someone you have not established trust with. Consider whether a username, profile photo or phone number links to public accounts. Do not send intimate or identifying material under pressure, and do not assume that a recipient will keep it private. If someone threatens to expose information, preserve evidence and seek help through platform reporting and appropriate local support channels.",
+        "Before leaving, review whether message previews, map sharing, social notifications or account names could reveal more than you intend. Keep location sharing limited to the trusted person you chose, and confirm who can see it and when it ends. Device checks should not distract from the meeting plan: make sure you can contact your check-in person and access transport information without handing your phone to someone else."
+      ]
+    },
+    {
+      "heading": "Use a pause-and-leave decision rule",
+      "paragraphs": [
+        "Decide in advance what would make you pause, cancel or leave. The reasons can be simple: the other person arrives with an unexpected guest, changes the venue without agreement, appears to disregard your boundaries or makes you feel unsafe. You do not need proof of bad intent to end a meeting. A brief statement such as “I’m leaving now” is enough; if speaking feels unsafe, move toward staff or other people and contact someone you trust.",
+        "If something concerning happens, focus first on getting to a safe place. Keep relevant messages or profile details if they may support a platform report or later request for help. You can block or report through the platform, and you may choose to contact local emergency services if there is an immediate danger. Platform tools vary, so learn where reporting and blocking controls are before you need them."
+      ]
+    },
+    {
+      "heading": "Review the plan after the meeting",
+      "paragraphs": [
+        "Afterward, check in with the person you told about the meeting and reflect on whether the other person respected the boundaries and arrangements. You can decide not to continue contact even if the meeting seemed pleasant. You can also change communication settings, block or report an account if later messages become intrusive or threatening. A prior meeting does not create an obligation to keep talking.",
+        "If you choose to meet again, make a fresh plan rather than assuming the first meeting establishes trust or future consent. Review what information you shared and whether you want to tighten profile visibility, notification previews or location sharing. These small follow-up steps help keep decisions in your control without treating any single precaution as a guarantee."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform verification badge prove that a dating profile is safe?",
+      "answer": "No. A badge or other platform signal may describe a particular check, but it cannot guarantee identity, intentions, compatibility or future behavior. Read the platform’s explanation of what the check covers, continue to use your own judgment and retain control over the meeting plan and your personal information."
+    },
+    {
+      "question": "Is it rude to cancel a first meeting at the last minute?",
+      "answer": "You can cancel whenever you no longer want to meet, including at short notice. You do not need to prove that the other person has done something wrong. If you feel unsafe, prioritize leaving or staying away and communicate only if doing so feels safe. A clear, brief cancellation is sufficient when direct communication is appropriate."
+    },
+    {
+      "question": "What should I tell a trusted person before meeting someone from an app?",
+      "answer": "Share the basic location and timing, how you plan to get there and when you will check in. Decide in advance what that person should do if you do not respond. Share only what is useful to the plan, and do not rely on a check-in as a substitute for independent transport or your ability to leave."
+    },
+    {
+      "question": "Should I move the conversation off-platform before meeting?",
+      "answer": "That is a personal choice, not a requirement. Consider what additional information a phone number or social profile could reveal and whether you are comfortable with that exposure. You can keep communicating through the platform while deciding, and you can decline to share another contact method without owing an explanation."
+    }
+  ]
+};
