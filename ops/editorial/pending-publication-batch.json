@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:02:22.740Z",
+  "generatedAt": "2026-10-13T15:58:06.685Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-guest-access-signup-tradeoffs.json",
-    "ops/editorial/content-artifacts/adult-game-download-source-and-install-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-discreet-delivery-order-privacy.json",
-    "ops/editorial/content-artifacts/premium-video-notification-and-email-privacy.json",
-    "ops/editorial/content-artifacts/creator-platform-portability-and-exit-planning.json"
+    "ops/editorial/content-artifacts/shared-account-adult-platform-payment-privacy.json",
+    "ops/editorial/content-artifacts/dating-platform-messaging-model-comparison.json",
+    "ops/editorial/content-artifacts/affiliate-link-destination-quality-audit.json",
+    "ops/editorial/content-artifacts/live-cam-chat-control-interface-audit.json",
+    "ops/editorial/content-artifacts/free-video-low-bandwidth-playback-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-guest-access-signup-tradeoffs.js",
-    "src/data/guides/adult-game-download-source-and-install-safety-checklist.js",
-    "src/data/guides/adult-shop-delivery-packaging-and-order-privacy-checklist.js",
-    "src/data/guides/premium-video-subscription-email-and-notification-privacy-check.js",
-    "src/data/guides/creator-platform-content-portability-and-exit-planning.js"
+    "src/data/guides/adult-platform-payments-shared-account-exposure-checklist.js",
+    "src/data/guides/dating-platform-messaging-access-model-comparison.js",
+    "src/data/guides/webmaster-affiliate-link-destination-quality-audit.js",
+    "src/data/guides/live-cam-platform-chat-mute-block-control-audit.js",
+    "src/data/guides/free-video-platform-low-bandwidth-playback-checklist.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "premium-videos",
-    "creator-platforms"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "live-cams",
+    "free-videos"
   ],
   "backlogIds": [
-    "free-video-guest-access-signup-tradeoffs",
-    "adult-game-download-source-and-install-preflight",
-    "adult-shop-discreet-delivery-order-privacy",
-    "premium-video-notification-and-email-privacy",
-    "creator-platform-portability-and-exit-planning"
+    "shared-account-adult-platform-payment-privacy",
+    "dating-platform-messaging-model-comparison",
+    "affiliate-link-destination-quality-audit",
+    "live-cam-chat-control-interface-audit",
+    "free-video-low-bandwidth-playback-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38418247655",
-  "phase": "closed"
+  "r1CycleId": "38426255291"
 }
