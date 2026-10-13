@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T20:35:43.427Z",
+  "generatedAt": "2026-10-13T23:05:13.005Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/hentai-anime-credit-and-rights-metadata-check.json",
-    "ops/editorial/content-artifacts/free-video-resolution-label-interpretation-check.json",
-    "ops/editorial/content-artifacts/adult-game-download-installation-safety-check.json",
-    "ops/editorial/content-artifacts/adult-shop-parcel-and-delivery-privacy-check.json",
-    "ops/editorial/content-artifacts/ar-platform-environmental-data-permission-audit.json"
+    "ops/editorial/content-artifacts/dating-platform-messaging-access-comparison.json",
+    "ops/editorial/content-artifacts/affiliate-program-pre-application-fit-review.json",
+    "ops/editorial/content-artifacts/creator-platform-content-portability-plan.json",
+    "ops/editorial/content-artifacts/premium-video-library-fit-by-release-pattern.json",
+    "ops/editorial/content-artifacts/adult-platform-payment-identity-separation-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-platform-credit-and-rights-metadata-check.js",
-    "src/data/guides/free-adult-video-resolution-labels-playback-checklist.js",
-    "src/data/guides/adult-game-download-installation-and-update-safety-checklist.js",
-    "src/data/guides/adult-shop-delivery-discretion-and-parcel-privacy-checklist.js",
-    "src/data/guides/adult-ar-platform-camera-room-data-privacy-checklist.js"
+    "src/data/guides/compare-dating-platforms-messaging-access-before-signup.js",
+    "src/data/guides/evaluate-an-affiliate-program-before-applying.js",
+    "src/data/guides/creator-platform-content-ownership-and-portability-checklist.js",
+    "src/data/guides/compare-premium-video-libraries-for-a-planned-viewing-window.js",
+    "src/data/guides/adult-platform-payment-and-account-identity-separation.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar"
+    "dating-hookups",
+    "webmaster-affiliate",
+    "creator-platforms",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "hentai-anime-credit-and-rights-metadata-check",
-    "free-video-resolution-label-interpretation-check",
-    "adult-game-download-installation-safety-check",
-    "adult-shop-parcel-and-delivery-privacy-check",
-    "ar-platform-environmental-data-permission-audit"
+    "dating-platform-messaging-access-comparison",
+    "affiliate-program-pre-application-fit-review",
+    "creator-platform-content-portability-plan",
+    "premium-video-library-fit-by-release-pattern",
+    "adult-platform-payment-identity-separation-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38463744854",
-  "phase": "closed"
+  "r1CycleId": "38481768359"
 }

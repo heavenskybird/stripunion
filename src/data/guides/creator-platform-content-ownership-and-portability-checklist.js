@@ -1,0 +1,112 @@
+export default {
+  "slug": "creator-platform-content-ownership-and-portability-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Content Rights and Portability Before You Build",
+  "description": "A practical creator checklist for reviewing platform content rights, export options, account controls, fan communication limits, and exit planning before choosing a subscription service.",
+  "excerpt": "A creator’s platform choice affects more than subscriptions. Review the rights terms, original-file backups, account access, and realistic ways to communicate changes to fans.",
+  "publishedAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "keyTakeaways": [
+    "Separate ownership of original work from the platform’s license to host and display it.",
+    "Check whether the terms address promotion, moderation, removal requests, and post-termination access.",
+    "Keep source files, metadata, and business records outside the platform.",
+    "Do not assume fan relationships or subscription records can be exported or transferred.",
+    "Make an exit plan before an account problem or platform change makes it urgent."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish ownership from platform permissions",
+      "paragraphs": [
+        "Read the rights section of the creator agreement to understand what you retain and what permission you grant the service. A platform may need permission to host, process, display, or promote material for its service to function. The scope, duration, audience, and purpose of those permissions matter; a general statement that creators keep ownership does not answer every practical question.",
+        "Look for language about sublicensing, promotional use, edits or format changes, and what happens when content is removed or an account closes. These terms differ among services, so do not transfer assumptions from one agreement to another. If the intended use of your work is unclear, seek written clarification or qualified advice before uploading material you would not be comfortable licensing on the stated terms."
+      ]
+    },
+    {
+      "heading": "Create an independent archive of your work",
+      "paragraphs": [
+        "Treat the platform as a publishing channel, not your only storage location. Keep original files, final versions, captions, release documentation, and relevant production notes in a secure location you control. Organize files so you can identify which version was published, when it appeared, and whether it was later updated or removed.",
+        "Check whether the platform offers downloads or exports, but verify their scope instead of assuming they provide a full archive. A download may omit descriptions, captions, comments, publication dates, or other context. Maintain a basic index outside the service that links each published item to its original file and the platform location, using access controls suitable for sensitive business records."
+      ],
+      "table": {
+        "caption": "Portability items to track independently",
+        "headers": [
+          "Item",
+          "What to retain",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Original content",
+            "Source and final files with version notes",
+            "Supports continuity if a hosted copy becomes unavailable"
+          ],
+          [
+            "Publication details",
+            "Title, description, date, and relevant labels",
+            "Makes rebuilding or updating a catalog more manageable"
+          ],
+          [
+            "Business records",
+            "Statements, receipts, and dated policy terms",
+            "Supports accounting and later questions about account activity"
+          ],
+          [
+            "Audience communications",
+            "Permitted contact details and consent records, if applicable",
+            "Helps distinguish legitimate communication from an assumed export right"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify export and account-access limits",
+      "paragraphs": [
+        "Look for documentation describing what creators can export, in what format, and whether exports include content, earnings records, subscriber information, or messages. These are separate data categories and may be governed by different rules. A platform’s ability to show information in a dashboard does not mean it offers a reusable export of that information.",
+        "Review who can access the account and how credentials can be recovered if a team member leaves or loses access. Use individual access where available rather than sharing a single login. Record the account owner, authorized administrators, recovery route, and steps for removing former team members. Limit access to personal or fan information to the people who need it for defined business tasks."
+      ]
+    },
+    {
+      "heading": "Plan how to communicate a move without assuming portability",
+      "paragraphs": [
+        "Fan subscriptions, messages, and payment relationships may not move with a creator when changing services. Before inviting people to another destination, check the current platform’s rules for off-platform links and promotional messages. Also consider whether fans have separately chosen to receive updates through another channel; an existing platform relationship should not be treated as blanket permission to contact them elsewhere.",
+        "Prepare neutral notice language that explains where future updates may be found, if the service permits that communication. Avoid implying that subscriptions, purchases, or account details will transfer unless the relevant services explicitly confirm it. Keep a list of what cannot move, such as platform-specific messages or membership history, so your transition plan does not promise continuity you cannot deliver."
+      ]
+    },
+    {
+      "heading": "Understand takedown, moderation, and post-closure terms",
+      "paragraphs": [
+        "Review the platform’s processes for removing your own material, responding to moderation actions, and appealing an account decision. Determine whether removal affects public access immediately, whether copies may remain in backups for a stated period, and what the agreement says about content after termination. These are different questions, and the answer to one does not establish the others.",
+        "Keep dated copies of relevant terms and notices, along with records of your own removal requests and support responses. If you need to preserve evidence of a dispute, store it securely and avoid sharing private account information broadly. A clear record can help you explain the sequence of events without relying on memory or an inaccessible dashboard."
+      ]
+    },
+    {
+      "heading": "Use an exit-readiness checklist before publishing at scale",
+      "paragraphs": [
+        "A useful exit plan names the person responsible for account access, the location of original files and records, the permitted ways to notify fans, and the process for stopping scheduled promotion. Review the plan when the platform agreement changes, a new team member joins, or you start using a new content format. Keeping the plan current is less disruptive than improvising after losing access.",
+        "Do not make the platform choice on theoretical portability alone. Compare the terms and tools that are actually documented, then note any gaps that require a separate process. If the platform does not offer an export you need, decide whether you can maintain that information lawfully and safely outside the service. If not, the limitation may be important enough to rule out the platform."
+      ],
+      "bullets": [
+        "Confirm where original files and publication records are stored.",
+        "Name account owners and recovery contacts.",
+        "Save current terms and document any platform-specific limits.",
+        "Check the rules before directing fans to another channel.",
+        "Write down what will not transfer if the account closes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I own my content, can I automatically reuse it anywhere?",
+      "answer": "Not necessarily. Ownership and platform permissions are separate. Review the agreement for the license you grant, any restrictions that apply, and any separate rights or obligations connected to the material."
+    },
+    {
+      "question": "Can I assume subscriber information will be exportable?",
+      "answer": "No. Subscriber records and contact details may have separate access, privacy, and export rules. Check the platform’s documentation and do not collect or reuse information beyond the permissions and purposes that apply."
+    },
+    {
+      "question": "What is the most important portability step to take early?",
+      "answer": "Maintain secure copies of original content and essential business records outside the platform. Then verify which metadata, audience information, and account history cannot be exported so your transition plan reflects actual limits."
+    }
+  ]
+};
