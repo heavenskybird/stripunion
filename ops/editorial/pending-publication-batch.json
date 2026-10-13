@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T11:40:52.976Z",
+  "generatedAt": "2026-10-13T15:02:22.740Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-account-identity-compartmentalization.json",
-    "ops/editorial/content-artifacts/premium-video-limited-data-playback-controls.json",
-    "ops/editorial/content-artifacts/creator-fan-membership-model-fit.json",
-    "ops/editorial/content-artifacts/adult-anime-game-requirements-preflight.json",
-    "ops/editorial/content-artifacts/vr-platform-seated-standing-control-fit.json"
+    "ops/editorial/content-artifacts/free-video-guest-access-signup-tradeoffs.json",
+    "ops/editorial/content-artifacts/adult-game-download-source-and-install-preflight.json",
+    "ops/editorial/content-artifacts/adult-shop-discreet-delivery-order-privacy.json",
+    "ops/editorial/content-artifacts/premium-video-notification-and-email-privacy.json",
+    "ops/editorial/content-artifacts/creator-platform-portability-and-exit-planning.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-account-identity-compartmentalization-checklist.js",
-    "src/data/guides/premium-video-limited-data-playback-settings-checklist.js",
-    "src/data/guides/creator-fan-platform-membership-vs-one-off-access-guide.js",
-    "src/data/guides/adult-anime-games-device-save-account-requirements-checklist.js",
-    "src/data/guides/vr-adult-platform-controller-navigation-fit-checklist.js"
+    "src/data/guides/free-video-platform-guest-access-signup-tradeoffs.js",
+    "src/data/guides/adult-game-download-source-and-install-safety-checklist.js",
+    "src/data/guides/adult-shop-delivery-packaging-and-order-privacy-checklist.js",
+    "src/data/guides/premium-video-subscription-email-and-notification-privacy-check.js",
+    "src/data/guides/creator-platform-content-portability-and-exit-planning.js"
   ],
   "categories": [
-    "privacy-safety-payment",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "premium-videos",
-    "creator-platforms",
-    "hentai-anime",
-    "vr-ar"
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-account-identity-compartmentalization",
-    "premium-video-limited-data-playback-controls",
-    "creator-fan-membership-model-fit",
-    "adult-anime-game-requirements-preflight",
-    "vr-platform-seated-standing-control-fit"
+    "free-video-guest-access-signup-tradeoffs",
+    "adult-game-download-source-and-install-preflight",
+    "adult-shop-discreet-delivery-order-privacy",
+    "premium-video-notification-and-email-privacy",
+    "creator-platform-portability-and-exit-planning"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38391601888",
-  "phase": "closed"
+  "r1CycleId": "38418247655"
 }
