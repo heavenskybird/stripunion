@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T19:27:48.108Z",
+  "generatedAt": "2026-10-13T20:35:43.427Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-visibility-before-messaging.json",
-    "ops/editorial/content-artifacts/live-cam-stream-label-interpretation.json",
-    "ops/editorial/content-artifacts/creator-platform-discovery-dependency-map.json",
-    "ops/editorial/content-artifacts/premium-video-billing-channel-map.json",
-    "ops/editorial/content-artifacts/affiliate-dashboard-report-definitions-audit.json"
+    "ops/editorial/content-artifacts/hentai-anime-credit-and-rights-metadata-check.json",
+    "ops/editorial/content-artifacts/free-video-resolution-label-interpretation-check.json",
+    "ops/editorial/content-artifacts/adult-game-download-installation-safety-check.json",
+    "ops/editorial/content-artifacts/adult-shop-parcel-and-delivery-privacy-check.json",
+    "ops/editorial/content-artifacts/ar-platform-environmental-data-permission-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-visibility-before-messaging.js",
-    "src/data/guides/live-cam-stream-label-interpretation.js",
-    "src/data/guides/creator-platform-discovery-dependency-map.js",
-    "src/data/guides/premium-video-billing-channel-map.js",
-    "src/data/guides/affiliate-dashboard-report-definitions-audit.js"
+    "src/data/guides/adult-anime-platform-credit-and-rights-metadata-check.js",
+    "src/data/guides/free-adult-video-resolution-labels-playback-checklist.js",
+    "src/data/guides/adult-game-download-installation-and-update-safety-checklist.js",
+    "src/data/guides/adult-shop-delivery-discretion-and-parcel-privacy-checklist.js",
+    "src/data/guides/adult-ar-platform-camera-room-data-privacy-checklist.js"
   ],
   "categories": [
-    "dating-hookups",
-    "live-cams",
-    "creator-platforms",
-    "premium-videos",
-    "webmaster-affiliate"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-platform-visibility-before-messaging",
-    "live-cam-stream-label-interpretation",
-    "creator-platform-discovery-dependency-map",
-    "premium-video-billing-channel-map",
-    "affiliate-dashboard-report-definitions-audit"
+    "hentai-anime-credit-and-rights-metadata-check",
+    "free-video-resolution-label-interpretation-check",
+    "adult-game-download-installation-safety-check",
+    "adult-shop-parcel-and-delivery-privacy-check",
+    "ar-platform-environmental-data-permission-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38454467358",
-  "phase": "closed"
+  "r1CycleId": "38463744854"
 }
