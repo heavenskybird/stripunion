@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:58:06.685Z",
+  "generatedAt": "2026-10-13T18:32:40.161Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/shared-account-adult-platform-payment-privacy.json",
-    "ops/editorial/content-artifacts/dating-platform-messaging-model-comparison.json",
-    "ops/editorial/content-artifacts/affiliate-link-destination-quality-audit.json",
-    "ops/editorial/content-artifacts/live-cam-chat-control-interface-audit.json",
-    "ops/editorial/content-artifacts/free-video-low-bandwidth-playback-audit.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-spatial-format-label-audit.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-license-save-portability-checklist.json",
+    "ops/editorial/content-artifacts/adult-shop-return-hygiene-policy-checklist.json",
+    "ops/editorial/content-artifacts/adult-manga-volume-access-model-comparison.json",
+    "ops/editorial/content-artifacts/adult-platform-identity-compartmentalization-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-payments-shared-account-exposure-checklist.js",
-    "src/data/guides/dating-platform-messaging-access-model-comparison.js",
-    "src/data/guides/webmaster-affiliate-link-destination-quality-audit.js",
-    "src/data/guides/live-cam-platform-chat-mute-block-control-audit.js",
-    "src/data/guides/free-video-platform-low-bandwidth-playback-checklist.js"
+    "src/data/guides/vr-adult-platform-spatial-format-label-audit.js",
+    "src/data/guides/adult-game-storefront-license-save-portability-checklist.js",
+    "src/data/guides/adult-shop-return-hygiene-policy-checklist.js",
+    "src/data/guides/adult-manga-volume-access-model-comparison.js",
+    "src/data/guides/adult-platform-identity-compartmentalization-checklist.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "dating-hookups",
-    "webmaster-affiliate",
-    "live-cams",
-    "free-videos"
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "shared-account-adult-platform-payment-privacy",
-    "dating-platform-messaging-model-comparison",
-    "affiliate-link-destination-quality-audit",
-    "live-cam-chat-control-interface-audit",
-    "free-video-low-bandwidth-playback-audit"
+    "vr-adult-platform-spatial-format-label-audit",
+    "adult-game-storefront-license-save-portability-checklist",
+    "adult-shop-return-hygiene-policy-checklist",
+    "adult-manga-volume-access-model-comparison",
+    "adult-platform-identity-compartmentalization-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38426255291",
-  "phase": "closed"
+  "r1CycleId": "38447266337"
 }
