@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-12T07:30:50.376Z",
-  "sourceGeneratedAt": "2026-10-12T07:30:50.322Z",
+  "generatedAt": "2026-10-13T07:50:52.498Z",
+  "sourceGeneratedAt": "2026-10-13T07:50:52.435Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 1,
       "verifiedSignups": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-11"
+    "attributionSource": "2026-10-12"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -86,14 +86,6 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone make a review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
             "query": "f95zone reivew",
             "impressions": 1,
             "clicks": 0,
@@ -106,6 +98,14 @@
             "impressions": 1,
             "clicks": 0,
             "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone make a review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -412,18 +412,18 @@
           {
             "source": "Bing",
             "date": "/Date(1787270400000)/",
-            "query": "xhamster#R##N#review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
             "query": "should a person be leary about xhamster site?",
             "impressions": 1,
             "clicks": 0,
             "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "xhamster#R##N#review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
           },
           {
             "source": "Bing",
@@ -558,7 +558,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-10",
+            "date": "2026-10-11",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
@@ -609,7 +609,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-10",
+            "date": "2026-10-11",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -617,7 +617,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-10",
+            "date": "2026-10-11",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -646,10 +646,69 @@
       }
     },
     {
-      "id": "search:bing-6672656520706f726e20",
+      "id": "search:gsc-737472697068756e",
       "kind": "search",
       "action": "CREATE",
       "priority": 97,
+      "eligible": true,
+      "subject": "striphun",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 0,
+        "bestPosition": 9.5,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-737472697068756e",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-11",
+            "query": "striphun",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 9.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-11",
+            "query": "striphun",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          }
+        ],
+        "targetKeyword": "striphun",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 3,
+          "clicks": 0,
+          "bestPosition": 9.5,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 7
+      }
+    },
+    {
+      "id": "search:bing-6672656520706f726e20",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 94,
       "eligible": true,
       "subject": "free porn union sites",
       "surface": null,
@@ -693,14 +752,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 7
+        "rank": 8
       }
     },
     {
       "id": "cta:stripunion.com:/",
       "kind": "conversion",
       "action": "EXPERIMENT",
-      "priority": 90,
+      "priority": 89,
       "eligible": true,
       "subject": "stripunion.com/",
       "surface": "/",
@@ -709,72 +768,21 @@
       "confidence": "low",
       "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
       "evidence": {
-        "sessions": 30,
+        "sessions": 28,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.4
+        "engagementRate": 0.39285714285714285
       },
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 30,
-        "engagedSessions": 12,
+        "sessions": 28,
+        "engagedSessions": 11,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.4,
+        "engagementRate": 0.39285714285714285,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
-      }
-    },
-    {
-      "id": "search:gsc-737472697068756e",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 90,
-      "eligible": true,
-      "subject": "striphun",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 9.5,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-737472697068756e",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-10",
-            "query": "striphun",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 9.5
-          }
-        ],
-        "targetKeyword": "striphun",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 9.5,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 9
       }
     },
     {
@@ -800,7 +808,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-10",
+            "date": "2026-10-11",
             "query": "stripxuat",
             "impressions": 1,
             "clicks": 0,
@@ -880,10 +888,61 @@
       }
     },
     {
+      "id": "search:gsc-6164756c742073747269",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 82,
+      "eligible": true,
+      "subject": "adult strip cam",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-6164756c742073747269",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-11",
+            "query": "adult strip cam",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "adult strip cam",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 11
+      }
+    },
+    {
       "id": "search:bing-70696e6b636865727279",
       "kind": "search",
       "action": "MIGRATE",
-      "priority": 83,
+      "priority": 80,
       "eligible": true,
       "subject": "PinkCherry review",
       "surface": "/pinkcherry",
@@ -927,58 +986,7 @@
         "confidence": "low",
         "risk": "medium",
         "experimentWindow": "14 days",
-        "rank": 8
-      }
-    },
-    {
-      "id": "search:gsc-6164756c742073747269",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 82,
-      "eligible": true,
-      "subject": "adult strip cam",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-6164756c742073747269",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-10",
-            "query": "adult strip cam",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "adult strip cam",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 11
+        "rank": 9
       }
     },
     {
@@ -1004,7 +1012,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-10",
+            "date": "2026-10-11",
             "query": "cam sites free",
             "impressions": 1,
             "clicks": 0,
