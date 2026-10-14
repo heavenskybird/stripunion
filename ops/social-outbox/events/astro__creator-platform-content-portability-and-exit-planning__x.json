@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/creator-platform-content-portability-and-exit-planning",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-13T15:04:50.413Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-14T01:54:29.722Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6acee0d5b610c3011f983b8f",
   "provider_due_at": "2026-10-14T05:49:00.000Z",
   "created_at": "2026-10-13T15:04:50.413Z",
-  "updated_at": "2026-10-14T02:52:12.572Z",
+  "updated_at": "2026-10-14T05:56:20.320Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 6,
     "cadence_pressure_before_enqueue": 19,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
