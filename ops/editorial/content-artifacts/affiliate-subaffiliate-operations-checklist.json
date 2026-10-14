@@ -1,0 +1,117 @@
+{
+  "backlogId": "affiliate-subaffiliate-operations-checklist",
+  "slug": "webmaster-affiliate-subaffiliate-recruitment-and-monitoring-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Sub-Affiliate Programs: Check Recruitment Rules and Oversight",
+  "description": "A webmaster checklist for assessing downstream referral structures, recruitment permissions, tracking, disclosures and monitoring responsibilities before inviting sub-affiliates.",
+  "excerpt": "A referral tier can add operational responsibilities as well as potential reach. Confirm what recruitment is allowed, how downstream activity is tracked and what oversight is expected before building a sub-affiliate network.",
+  "keyTakeaways": [
+    "Verify whether a program explicitly permits sub-affiliate recruitment and identify any approval requirements.",
+    "Understand how referrals are attributed across the direct affiliate, sub-affiliate and end customer.",
+    "Set disclosure, traffic-source and recordkeeping expectations before accepting downstream partners.",
+    "Check whether reporting distinguishes your own activity from downstream activity and how adjustments are documented.",
+    "Create a process for pausing or removing a sub-affiliate if their traffic conflicts with program rules."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm that downstream recruitment is allowed",
+      "paragraphs": [
+        "A referral tier mentioned in a program description does not by itself establish that every participant may recruit downstream affiliates. Before inviting anyone, read the current agreement and operational guidance for explicit permission, eligibility conditions and any approval process. Check whether rules differ by traffic source, territory, promotional method or account status.",
+        "Ask the program contact for clarification when the wording is ambiguous, and keep the response with the version of the terms you reviewed. Do not promise prospective partners that they will qualify or earn a particular amount. Your role is to explain the arrangement accurately, including requirements and uncertainties, rather than projecting outcomes."
+      ]
+    },
+    {
+      "heading": "Map attribution through each referral layer",
+      "paragraphs": [
+        "A downstream structure can make attribution harder to interpret. Establish how a click, referral and qualifying event are associated with the direct affiliate and the sub-affiliate. Review definitions for tracking windows, duplicate referrals, cross-device activity and cases where multiple sources may be involved. The program’s written attribution rules—not an assumption about how tracking usually works—should guide your model.",
+        "Check whether the reporting interface identifies downstream activity separately and whether you can inspect the underlying references needed for reconciliation. If the dashboard groups activity together, ask what evidence is available when a discrepancy arises. Document how you will explain attribution limits to partners so they do not mistake a report summary for a complete account of every visitor journey."
+      ]
+    },
+    {
+      "heading": "Set traffic and disclosure expectations before recruiting",
+      "paragraphs": [
+        "Downstream partners can use methods you do not control unless you establish boundaries and monitor them. Give each partner the applicable rules on permitted traffic, prohibited placements, brand terms, incentives, creative materials and disclosure. Make clear that a method being technically possible does not mean it is authorized by the program.",
+        "Require partners to describe the channels they plan to use and to notify you before changing them. Review public pages and promotional materials periodically for clear affiliate disclosures and accurate visitor expectations. If a partner uses a method that appears inconsistent with the program rules, pause the activity while you verify the facts and follow the official escalation process."
+      ],
+      "bullets": [
+        "Provide current program rules before a partner launches.",
+        "Record approved channels and any conditions attached to approval.",
+        "Set a process for reporting changes in a partner’s traffic methods.",
+        "Keep a documented route for correcting or stopping non-compliant promotion."
+      ]
+    },
+    {
+      "heading": "Understand reporting and payout responsibilities",
+      "paragraphs": [
+        "A layered arrangement can produce different records for clicks, conversions, adjustments and referral credits. Determine which party receives each report, what time period it covers, and how a downstream amount is calculated under the program’s terms. Check how reversals, invalid activity or later adjustments are shown, without assuming that a dashboard total is final before the program’s stated validation process is complete.",
+        "Keep your own records of partner IDs, campaign labels, terms versions, statements and relevant correspondence. Reconcile downstream summaries with the program’s records at a consistent interval. If numbers differ, record the reporting period and fields involved, then use the program’s documented support channel rather than editing or presenting an unsupported calculation as settled fact."
+      ]
+    },
+    {
+      "heading": "Create proportionate partner oversight",
+      "paragraphs": [
+        "Oversight should be defined before a problem occurs. Decide how often you will review partner pages, which traffic or reporting signals trigger a closer check, and who can suspend a partner relationship. Keep the process proportionate to the volume and risk of activity, but do not treat recruitment as a one-time task that ends when a tracking link is issued.",
+        "Use a written partner agreement or onboarding record that identifies the program rules, approved methods, disclosure expectations, reporting contacts and process for changes. Avoid granting broad access to your own accounts. If a partner leaves, remove access to shared materials and check whether their links or tracking identifiers require action under the program’s rules."
+      ]
+    },
+    {
+      "heading": "Compare programs on operational fit, not headline structure",
+      "paragraphs": [
+        "A referral tier is only useful if its administration fits your organization. Compare the clarity of recruitment rules, downstream reporting, attribution explanations, support routes and procedures for investigating disputes. A program with elaborate terms may be workable if its responsibilities are clear; a simple-sounding structure can be difficult if no one explains how activity is tracked.",
+        "Before recruiting, make a small operational test plan using allowed methods and clearly identified test records where the program permits them. Verify that partner identifiers appear as expected and that reporting can be reconciled without sending live traffic that violates terms. Stop if the program does not authorize a test or if the tracking result cannot be interpreted confidently."
+      ],
+      "table": {
+        "caption": "Sub-affiliate program diligence checklist",
+        "headers": [
+          "Area",
+          "Question to resolve before recruitment"
+        ],
+        "rows": [
+          [
+            "Permission",
+            "Does the current agreement explicitly allow downstream recruitment?"
+          ],
+          [
+            "Attribution",
+            "How are direct and downstream referrals identified and credited?"
+          ],
+          [
+            "Traffic rules",
+            "Which methods may partners use, and what needs approval?"
+          ],
+          [
+            "Reporting",
+            "Can downstream activity and adjustments be reviewed separately?"
+          ],
+          [
+            "Oversight",
+            "How can a partner be corrected, paused or removed?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I recruit sub-affiliates whenever a program mentions referral tiers?",
+      "answer": "No. Confirm that your specific account is permitted to recruit downstream partners and check whether approval, eligibility or promotional restrictions apply."
+    },
+    {
+      "question": "What should I tell a sub-affiliate about attribution?",
+      "answer": "Explain the program’s documented attribution rules, reporting limits and any relevant validation or adjustment process. Do not guarantee that every customer journey will be credited in a particular way."
+    },
+    {
+      "question": "Who is responsible if a sub-affiliate uses a prohibited traffic method?",
+      "answer": "Responsibilities depend on the program agreement and your arrangement with the partner. Read both, communicate rules before launch, monitor activity and follow the program’s stated process when a concern arises."
+    }
+  ],
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

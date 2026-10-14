@@ -1,0 +1,117 @@
+{
+  "backlogId": "vr-accessible-playback-controls",
+  "slug": "vr-adult-platform-caption-and-audio-accessibility-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Compare Captions and Audio Controls Before Choosing",
+  "description": "A practical way to compare captions, audio controls, text alternatives and accessibility information on VR adult platforms before creating an account.",
+  "excerpt": "Immersive playback can make ordinary accessibility settings harder to find. Use this checklist to assess captions, audio controls and alternatives before choosing a VR platform.",
+  "keyTakeaways": [
+    "Check whether accessibility information is available before registration, rather than assuming a headset’s system settings will apply inside every player.",
+    "Evaluate captions for readability, placement and control in the headset view, not only whether a platform mentions them.",
+    "Distinguish platform-level accessibility features from options supplied by a headset, browser or operating system.",
+    "Test whether audio can be muted or adjusted without interrupting navigation or making essential controls inaccessible.",
+    "Record unavailable or unclear features as unknowns; do not treat missing documentation as proof that a feature is absent."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the accessibility tasks that matter to you",
+      "paragraphs": [
+        "Accessibility is not a single feature. One person may need captions for spoken material, another may rely on reduced or muted audio, and another may need menus that can be operated without precise controller movements. Before comparing VR adult platforms, write down the tasks you need to complete comfortably. That turns a vague question such as “Is this accessible?” into specific checks.",
+        "Separate viewing needs from navigation needs. A platform may offer a readable library interface but provide few options once playback begins, or it may support playback controls while making account and membership menus difficult to operate. Compare the entire path: finding a title, reading its information, starting playback, changing settings, pausing, and leaving."
+      ],
+      "bullets": [
+        "Can I understand relevant spoken information without relying on audio?",
+        "Can I lower or mute audio independently of other device sounds?",
+        "Can I locate and operate playback controls from my usual seated position?",
+        "Can I find accessibility information before registration or payment?"
+      ]
+    },
+    {
+      "heading": "Separate platform features from headset features",
+      "paragraphs": [
+        "A headset, browser, operating system and content platform can each provide different settings. A system-level caption option may not appear in every application or may not apply to video content. Similarly, changing a headset’s audio output does not tell you whether a platform has its own volume controls, accessible menus or caption settings. Keep these layers separate in your comparison notes.",
+        "Look for documentation that identifies where a setting works: across the headset, only in a particular browser, or only within a specific player. If the wording is broad, ask support a precise question before relying on the feature. For example, ask whether captions can be enabled during playback on your intended access route, rather than asking generally whether the service is accessible."
+      ]
+    },
+    {
+      "heading": "Assess captions as an in-headset experience",
+      "paragraphs": [
+        "A caption option is useful only if it can be read and managed in the environment where you watch. Check whether captions can be enabled without leaving playback, whether text can be repositioned or resized if those controls are offered, and whether captions remain legible against the viewing background. Consider whether the text competes with menus or other on-screen information.",
+        "Do not infer caption quality from a label alone. Some content may have captions while other titles do not, and a platform may not explain coverage consistently. If previews or sample material are available, use them to check the actual interface and look for title-level indicators. Treat unspecified coverage as an open question, not a guarantee of universal availability."
+      ]
+    },
+    {
+      "heading": "Review audio controls and non-audio alternatives",
+      "paragraphs": [
+        "Audio controls should be considered both as playback features and as privacy tools. Check whether you can lower or mute content audio through the player, whether the control is easy to reach, and whether the headset’s own volume adjustment remains available. If you share a room or device, test the physical and software controls you expect to use before beginning a session.",
+        "Where audio carries information that affects navigation or understanding, look for a text alternative or another way to identify the relevant control. Do not assume that spatial or directional audio is necessary to operate the interface. If a platform does not describe alternatives, add that uncertainty to your decision record and seek clarification before paying."
+      ]
+    },
+    {
+      "heading": "Use a repeatable comparison checklist",
+      "paragraphs": [
+        "Compare platforms using the same questions and the same access route. Testing one service through a browser and another through a different application can produce misleading results because the headset, software and player may differ. Record the device and access method beside each observation, along with the date, because interfaces and software can change.",
+        "A short checklist is more useful than an overall impression. Mark each item as available, unavailable, unclear or not tested. This prevents a missing answer from being mistaken for a negative result and helps you identify which unresolved issue matters enough to ask about."
+      ],
+      "table": {
+        "caption": "A practical VR accessibility comparison record",
+        "headers": [
+          "Check",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Information before signup",
+            "Whether feature details and access-route limits are documented"
+          ],
+          [
+            "Caption controls",
+            "Where captions appear, how they are enabled and what coverage is stated"
+          ],
+          [
+            "Audio adjustment",
+            "Whether player and device-level controls are both usable"
+          ],
+          [
+            "Menu operation",
+            "Whether essential controls are reachable with your usual input method"
+          ],
+          [
+            "Evidence status",
+            "Available, unavailable, unclear or not tested, plus access route"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make a decision without overstating the evidence",
+      "paragraphs": [
+        "Set a minimum requirement before comparing services. For example, you might require a usable way to reduce audio and clear information about captions for the content you intend to access. A platform that meets essential needs with documented controls may be a better fit than one with a broader library but uncertain accessibility information.",
+        "If you contact support, keep the question concrete and save the response with your notes. Avoid treating a general statement about compatibility as proof that every title, device or player supports a feature. Your conclusion should reflect the evidence you actually checked, including any limitations or unanswered questions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a headset’s caption setting guarantee captions on a VR content platform?",
+      "answer": "No. Headset or operating-system settings and a platform’s player are separate layers. Check whether captions are provided for the relevant content and whether they work through the access route you plan to use."
+    },
+    {
+      "question": "What should I do if a platform does not publish accessibility details?",
+      "answer": "Record the feature as unclear, then ask a specific question about your device, access route and required control. Do not assume that an undocumented feature is either present or absent."
+    },
+    {
+      "question": "Can I compare accessibility using a preview?",
+      "answer": "A preview can help you inspect visible controls and the viewing interface, but it may not represent every title or account feature. Use it as one piece of evidence and check any requirements the preview cannot answer."
+    }
+  ],
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

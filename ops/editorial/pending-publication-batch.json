@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T04:53:02.473Z",
+  "generatedAt": "2026-10-14T07:38:59.449Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-unstable-connection-playback-check.json",
-    "ops/editorial/content-artifacts/adult-subscription-payment-alert-privacy-checklist.json",
-    "ops/editorial/content-artifacts/free-video-caption-usability-comparison.json",
-    "ops/editorial/content-artifacts/adult-game-demo-install-compatibility-check.json",
-    "ops/editorial/content-artifacts/adult-shop-discreet-delivery-policy-check.json"
+    "ops/editorial/content-artifacts/vr-accessible-playback-controls.json",
+    "ops/editorial/content-artifacts/adult-anime-game-installation-risk-check.json",
+    "ops/editorial/content-artifacts/creator-identity-separation-audit.json",
+    "ops/editorial/content-artifacts/premium-video-account-exit-data-plan.json",
+    "ops/editorial/content-artifacts/affiliate-subaffiliate-operations-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-unstable-connection-playback-check.js",
-    "src/data/guides/adult-subscription-payment-alert-privacy-checklist.js",
-    "src/data/guides/free-video-caption-usability-comparison.js",
-    "src/data/guides/adult-game-demo-install-compatibility-check.js",
-    "src/data/guides/adult-shop-discreet-delivery-policy-check.js"
+    "src/data/guides/vr-adult-platform-caption-and-audio-accessibility-audit.js",
+    "src/data/guides/adult-anime-games-installation-permissions-and-save-data-checklist.js",
+    "src/data/guides/creator-platform-public-branding-legal-identity-privacy-checklist.js",
+    "src/data/guides/premium-video-account-closure-watchlist-and-records-checklist.js",
+    "src/data/guides/webmaster-affiliate-subaffiliate-recruitment-and-monitoring-checklist.js"
   ],
   "categories": [
+    "vr-ar",
+    "hentai-anime",
+    "creator-platforms",
     "premium-videos",
-    "privacy-safety-payment",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "premium-video-unstable-connection-playback-check",
-    "adult-subscription-payment-alert-privacy-checklist",
-    "free-video-caption-usability-comparison",
-    "adult-game-demo-install-compatibility-check",
-    "adult-shop-discreet-delivery-policy-check"
+    "vr-accessible-playback-controls",
+    "adult-anime-game-installation-risk-check",
+    "creator-identity-separation-audit",
+    "premium-video-account-exit-data-plan",
+    "affiliate-subaffiliate-operations-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38513374908",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "38529458911"
 }
