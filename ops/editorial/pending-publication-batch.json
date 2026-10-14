@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T09:03:37.800Z",
+  "generatedAt": "2026-10-14T12:26:48.918Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-room-rules-before-participating.json",
-    "ops/editorial/content-artifacts/dating-platform-messaging-access-fit-checklist.json",
-    "ops/editorial/content-artifacts/adult-platform-shared-device-privacy-audit.json",
-    "ops/editorial/content-artifacts/free-video-platform-caption-accessibility-comparison.json",
-    "ops/editorial/content-artifacts/adult-game-storefront-platform-support-checklist.json"
+    "ops/editorial/content-artifacts/adult-anime-free-premium-access-map.json",
+    "ops/editorial/content-artifacts/adult-shop-shipping-returns-privacy-comparison.json",
+    "ops/editorial/content-artifacts/vr-headset-purchase-compatibility-preflight.json",
+    "ops/editorial/content-artifacts/live-cam-versus-on-demand-format-fit.json",
+    "ops/editorial/content-artifacts/creator-platform-portability-and-dependency-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-room-rules-before-participating.js",
-    "src/data/guides/dating-platform-messaging-access-fit-checklist.js",
-    "src/data/guides/adult-platform-shared-device-privacy-audit.js",
-    "src/data/guides/free-video-platform-caption-accessibility-comparison.js",
-    "src/data/guides/adult-game-storefront-platform-support-checklist.js"
+    "src/data/guides/adult-anime-platform-free-preview-premium-access-account-gates.js",
+    "src/data/guides/adult-shops-compare-shipping-packaging-returns-before-ordering.js",
+    "src/data/guides/before-buying-vr-headset-check-adult-platform-compatibility.js",
+    "src/data/guides/live-cams-vs-on-demand-video-choose-format-by-use-case.js",
+    "src/data/guides/creator-platform-audience-content-portability-dependency-checklist.js"
   ],
   "categories": [
+    "hentai-anime",
+    "adult-shops",
+    "vr-ar",
     "live-cams",
-    "dating-hookups",
-    "privacy-safety-payment",
-    "free-videos",
-    "adult-games"
+    "creator-platforms"
   ],
   "backlogIds": [
-    "live-cam-room-rules-before-participating",
-    "dating-platform-messaging-access-fit-checklist",
-    "adult-platform-shared-device-privacy-audit",
-    "free-video-platform-caption-accessibility-comparison",
-    "adult-game-storefront-platform-support-checklist"
+    "adult-anime-free-premium-access-map",
+    "adult-shop-shipping-returns-privacy-comparison",
+    "vr-headset-purchase-compatibility-preflight",
+    "live-cam-versus-on-demand-format-fit",
+    "creator-platform-portability-and-dependency-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38539005740",
-  "phase": "closed"
+  "r1CycleId": "38563575071"
 }
