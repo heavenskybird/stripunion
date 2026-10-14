@@ -1,0 +1,110 @@
+export default {
+  "slug": "webmaster-affiliate-reporting-schema-selection-guide",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Reporting: Check Dashboard Fields Before Choosing a Program",
+  "description": "Assess affiliate reporting documentation by checking available metrics, definitions, date ranges, status changes and export options before building campaigns around a program.",
+  "excerpt": "A dashboard is useful only when its numbers answer operational questions. Compare reporting definitions, dimensions and data access before committing traffic or building internal workflows.",
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "keyTakeaways": [
+    "Check metric definitions before comparing dashboard totals across programs.",
+    "Verify which dimensions can distinguish campaigns, placements and traffic sources.",
+    "Understand how reporting dates, time zones and status updates are represented.",
+    "Assess whether reports can be retained and reviewed in a format your workflow can use.",
+    "Document reporting gaps before launch instead of trying to reconstruct missing data later."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the decisions your reports must support",
+      "paragraphs": [
+        "Affiliate reporting should help answer concrete questions: which permitted traffic source produced a click, which campaign generated a recorded action, and what status that action currently has. Before comparing programs, write down the decisions you need to make each week or month. A publisher focused on a few placements may need different detail from a team managing multiple sites and campaigns. The right test is whether the reporting model supports your workflow, not whether a dashboard looks sophisticated.",
+        "Ask for documentation or inspect the reporting interface before sending meaningful traffic. Identify the metrics shown, how the program defines each one and whether the definitions are available in writing. A label such as conversion or revenue can conceal different counting rules. Do not compare two programs’ totals as if their terminology were standardized unless their definitions and reporting windows match."
+      ],
+      "table": {
+        "caption": "Core reporting questions to resolve before launch",
+        "headers": [
+          "Reporting area",
+          "What to establish",
+          "Operational use"
+        ],
+        "rows": [
+          [
+            "Metric definitions",
+            "What each click, action and status means",
+            "Prevents false comparisons between dashboards"
+          ],
+          [
+            "Campaign dimensions",
+            "Which approved tags or IDs are available",
+            "Helps separate sites, placements and campaigns"
+          ],
+          [
+            "Date handling",
+            "Time zone, date boundaries and update timing",
+            "Makes internal reporting periods consistent"
+          ],
+          [
+            "Data access",
+            "How results can be viewed, saved or exported",
+            "Supports review and durable business records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect dimensions and tagging limits",
+      "paragraphs": [
+        "A total with no context is hard to act on. Determine whether the program supports identifiers for campaigns, placements, creatives or other approved traffic distinctions. Learn the naming limits, allowed characters, attribution behavior and whether tags remain visible in reports. Never assume that a field is accepted simply because a link builder lets you enter it; confirm how the program documents and reports that value.",
+        "Design a small, stable naming convention before launching. Use consistent terms for properties and placements, avoid names that expose personal information and keep a separate mapping file that explains each code. If a program permits only limited tracking fields, prioritize the distinctions that inform real decisions. A complicated taxonomy is not helpful if reports truncate it or staff cannot apply it consistently."
+      ],
+      "bullets": [
+        "Confirm which tracking fields the program permits.",
+        "Test that identifiers appear in reports as intended before scaling.",
+        "Use a consistent codebook and avoid sensitive information in tags.",
+        "Record any limits on tag length, format or reporting availability."
+      ]
+    },
+    {
+      "heading": "Clarify dates, updates and conversion statuses",
+      "paragraphs": [
+        "Reporting periods can differ because of time zones, delayed processing or the date assigned to an event. Establish which time zone the dashboard uses and whether a displayed date refers to the click, recorded action or later status change. Confirm how often reports update and whether an early figure can change after review. These details matter when reconciling internal analytics or evaluating a campaign near a period boundary.",
+        "Ask how the program labels actions that are pending, approved, declined or otherwise changed, where those definitions exist. Find out whether historical records show status changes and whether the program explains a reason category. Do not treat a preliminary dashboard count as a final payment statement. Keep the concepts distinct: a marketing report helps evaluate activity, while payout terms and finalized statements determine how compensation is calculated."
+      ]
+    },
+    {
+      "heading": "Evaluate report access and record continuity",
+      "paragraphs": [
+        "Check how you can retain reports for your own records. The program may provide an export, a statement or only an on-screen view; do not assume any particular format or level of historical access. Establish whether reports can be filtered by the dimensions you need and whether the same fields appear in the retained record. If exporting is not available, determine what manual recordkeeping is feasible and whether the dashboard preserves the periods you need.",
+        "Consider account access as part of reporting reliability. Decide who on your team should view financial and campaign information, how access will be removed when roles change and who is responsible for preserving records. Use the program’s documented access controls where available. Keep internal copies in a controlled location and avoid relying on a single person’s browser history or screenshots as the only source of campaign records."
+      ]
+    },
+    {
+      "heading": "Run a reporting acceptance test before scaling",
+      "paragraphs": [
+        "A limited pre-launch test can reveal whether the reporting model fits your process. Use only traffic methods the program permits, label the test clearly and note the date and time of each step. Compare the resulting dashboard fields with the program’s written definitions. The point is not to claim a test proves future performance; it is to verify that basic fields appear in a usable way and to document unresolved questions.",
+        "Create a short acceptance checklist and mark each field as confirmed, unavailable or unclear. Resolve material gaps with the program before planning around them. If the reporting system cannot distinguish a critical placement or explain status changes, decide whether another internal method can responsibly fill that gap. Do not invent precision by multiplying incomplete metrics or treating missing fields as zero."
+      ],
+      "bullets": [
+        "Write down required metrics and dimensions before the test.",
+        "Confirm date and status definitions against program documentation.",
+        "Save a dated sample report and your interpretation of each field.",
+        "Escalate unanswered reporting questions before increasing traffic."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I compare conversion totals from different affiliate dashboards directly?",
+      "answer": "Only after checking that the programs use comparable definitions, reporting periods, attribution rules and status stages. Similar labels do not guarantee identical counting. Keep program-specific definitions alongside any internal comparison."
+    },
+    {
+      "question": "What if a program provides no export option?",
+      "answer": "Find out whether the dashboard retains historical data and whether statements or other records are available. If you must maintain records manually, use a consistent schedule, record the date and filters used, and keep copies in a controlled location. Treat any missing history as a limitation when evaluating operational fit."
+    },
+    {
+      "question": "Should campaign tags include identifying details?",
+      "answer": "Avoid putting personal, customer or otherwise sensitive information in tracking tags. Use non-identifying internal codes and a separate access-controlled mapping if you need to connect those codes to your own placements or records. Confirm the program’s permitted tag formats first."
+    }
+  ]
+};
