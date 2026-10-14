@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/adult-subscription-payment-alert-privacy-checklist",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-14T06:46:36.749Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-14T07:41:44.260Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6acf3238848c31c80964eb72",
   "provider_due_at": "2026-10-14T10:30:00.000Z",
   "created_at": "2026-10-14T06:46:36.749Z",
-  "updated_at": "2026-10-14T09:06:37.166Z",
+  "updated_at": "2026-10-14T11:05:54.651Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 10,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
