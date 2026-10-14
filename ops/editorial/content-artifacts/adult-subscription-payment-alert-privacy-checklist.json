@@ -1,0 +1,126 @@
+{
+  "backlogId": "adult-subscription-payment-alert-privacy-checklist",
+  "slug": "adult-subscription-payment-alert-privacy-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Subscription Payments: Check Billing Descriptors, Alerts and Payment Controls",
+  "description": "Before paying for an adult subscription, check how charges may appear, what payment alerts reveal, which controls your bank offers and what records to retain.",
+  "excerpt": "Payment privacy involves more than the checkout page. Review statement details, bank alerts, shared account access and recurring-payment controls before committing.",
+  "keyTakeaways": [
+    "Read the checkout terms and available billing information before submitting payment.",
+    "A merchant descriptor may differ from the brand or page name, so do not assume how a charge will appear.",
+    "Check whether bank or card alerts are visible on shared devices, inboxes or accounts.",
+    "Use payment controls you understand, and confirm whether they affect recurring charges.",
+    "Keep receipts and cancellation records somewhere private and accessible to you."
+  ],
+  "sections": [
+    {
+      "heading": "Think of payment privacy as a chain",
+      "paragraphs": [
+        "A payment can leave traces at several points: the merchant checkout, the payment processor, a card or bank statement, email receipts, banking notifications and shared financial records. A discreet-looking page does not determine what every other party displays. Before paying, consider which people can access the payment method, account inbox, bank app, postal statements or device notifications involved in the transaction.",
+        "This is a practical privacy review, not a promise that any particular payment will be anonymous or hidden. Payment providers and merchants may need information to process, manage or document a transaction. Your goal is to understand the information flow well enough to make an informed choice and avoid surprises. If a detail is not stated clearly, treat it as unknown and seek clarification before proceeding."
+      ],
+      "bullets": [
+        "Identify who owns or can view the payment account.",
+        "List where receipts and transaction alerts are delivered.",
+        "Check whether a payment method is set to renew automatically."
+      ]
+    },
+    {
+      "heading": "Check the descriptor information before paying",
+      "paragraphs": [
+        "The name shown during checkout, the merchant name used by a processor and the wording on a statement may not be identical. Do not assume a charge will use the site name, a neutral name or any particular wording unless the available payment information explains it. Look for billing or payment FAQs, checkout disclosures and receipt examples where provided. If the description remains unclear and it matters to your privacy, contact the relevant provider before making the purchase.",
+        "Remember that a descriptor is only one part of the record. A card issuer may display a transaction category, date, amount or additional details, and notifications may appear separately from a monthly statement. What appears can depend on the payment route and financial provider. Avoid relying on screenshots, anecdotes or assumptions about another person’s transaction as evidence of what yours will show."
+      ],
+      "table": {
+        "caption": "Questions to answer before submitting a payment",
+        "headers": [
+          "Record location",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Checkout or receipt",
+            "What merchant and transaction details are disclosed?"
+          ],
+          [
+            "Card or bank statement",
+            "Is the expected descriptor explained or still uncertain?"
+          ],
+          [
+            "Email or text alert",
+            "Who can see the notification and its preview?"
+          ],
+          [
+            "Shared financial account",
+            "Who has login, statement or transaction access?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review alerts and shared-account exposure",
+      "paragraphs": [
+        "A transaction alert can appear on a lock screen, smartwatch, shared tablet, email inbox or banking app. Check notification previews and the devices that receive alerts before you make a payment. If someone else has access to your financial account or email, changing a notification setting may not prevent them from seeing the transaction through another route. Consider the full account-access arrangement rather than focusing only on one device.",
+        "Do not change security settings on an account you do not control or hide activity from an account co-owner who has legitimate access. If the payment method is shared, understand the account holder’s access and any financial agreement before using it. Where privacy cannot be achieved without misrepresenting who is paying, choose a different lawful and authorized option or do not proceed."
+      ],
+      "bullets": [
+        "Check lock-screen preview settings on devices you control.",
+        "Review which inbox receives payment confirmations.",
+        "Do not store payment credentials on a device used by others unless appropriate."
+      ]
+    },
+    {
+      "heading": "Choose payment controls you can manage",
+      "paragraphs": [
+        "Payment options differ, and not every method offers the same controls. Before choosing one, check whether it supports spending limits, transaction notifications, card locking, merchant controls or a separate balance. Confirm the terms directly with the issuer or payment provider. A control that blocks future transactions may not cancel a subscription or erase an existing charge, so distinguish payment authorization from membership management.",
+        "Use only a payment method you are authorized to use. Review the amount, currency, renewal schedule and any recurring-payment language shown at checkout. If you use a card with controls, understand how to manage the settings and what happens if the card is replaced, locked or expires. Do not assume that a declined renewal ends the membership; check the merchant’s account terms and retain the relevant confirmation."
+      ]
+    },
+    {
+      "heading": "Keep receipts and exit records privately",
+      "paragraphs": [
+        "A record of the transaction can help you identify a charge, contact support or verify a cancellation. Save the confirmation page, receipt, renewal terms and cancellation confirmation in a location that only you can access appropriately. A private folder, secure account or other personal recordkeeping method may work, depending on your circumstances. Avoid placing sensitive notes in a shared calendar, family inbox or device notification history by default.",
+        "Record the date, payment method, merchant details shown at checkout and any next renewal date disclosed. If you cancel, save the confirmation and note whether access continues until a stated date. Keep records only as long as useful for account management or financial reconciliation, and protect them with normal device and account security. Deleting a receipt does not necessarily remove the transaction from provider records."
+      ]
+    },
+    {
+      "heading": "Make a go, pause or stop decision",
+      "paragraphs": [
+        "Before checkout, summarize what you know and what remains uncertain: descriptor wording, alert visibility, account access, recurring terms and available controls. If the unresolved detail could expose information you need to keep private, pause and ask the merchant or payment provider for clarification. A vague promise of discretion is not the same as a clear description of records and access.",
+        "After payment, monitor the account through a channel you control and compare the transaction with the receipt. If a charge is unfamiliar, first check your own purchase records and contact the relevant provider using a verified route. Avoid sharing full card details in an email or support message unless the provider specifically requires a secure process. Treat payment privacy as an ongoing account-management task, not a one-time checkout choice."
+      ],
+      "bullets": [
+        "Proceed only when the payment method is authorized and the terms are understandable.",
+        "Pause when statement or notification behavior is important but unresolved.",
+        "Keep cancellation and transaction evidence in a suitably private location."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I know exactly what a charge will look like before paying?",
+      "answer": "Only if the merchant or payment provider supplies clear, applicable information, and the final display can still depend on the financial institution and payment route. If the descriptor is important to you and remains uncertain, ask the provider before paying or choose not to proceed."
+    },
+    {
+      "question": "Will turning off a bank alert hide a transaction from a shared account holder?",
+      "answer": "Not necessarily. A co-owner or authorized account user may have access to statements, transaction history or other alerts. Review who can access the financial account itself; notification settings control only some ways information may appear."
+    },
+    {
+      "question": "Does locking or replacing a card cancel a subscription?",
+      "answer": "Do not assume that it does. Card controls and membership cancellation are different processes, and consequences depend on the payment provider and merchant terms. Cancel through the account or billing route specified by the service, then save the confirmation."
+    },
+    {
+      "question": "What payment records should I keep?",
+      "answer": "Keep enough information to identify the transaction and confirm account actions, such as the receipt, disclosed renewal terms and cancellation confirmation. Store records in a place you control, and avoid putting sensitive details in shared inboxes or calendars."
+    }
+  ],
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
