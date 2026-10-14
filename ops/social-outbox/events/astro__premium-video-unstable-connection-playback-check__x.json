@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/premium-video-unstable-connection-playback-check",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-14T06:46:36.336Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-14T06:47:07.631Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6acf256b0d20fd152783058e",
   "provider_due_at": "2026-10-14T07:17:00.000Z",
   "created_at": "2026-10-14T06:46:36.336Z",
-  "updated_at": "2026-10-14T06:47:08.026Z",
+  "updated_at": "2026-10-14T07:41:43.592Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -30,6 +30,9 @@
     "cadence_allowed_by_now": 12,
     "cadence_used_today": 9,
     "cadence_outstanding_before_enqueue": 0,
-    "cadence_pressure_before_enqueue": 9
+    "cadence_pressure_before_enqueue": 9,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "sent",
+    "buffer_match_count": 1
   }
 }
