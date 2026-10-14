@@ -1,0 +1,102 @@
+export default {
+  "slug": "vr-adult-platform-seated-roomscale-setup-fit-checklist",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Compare Seated and Room-Scale Setup Fit Before Joining",
+  "description": "Compare VR platform usability across seated and room-scale viewing setups by checking launch steps, controller demands, recentering, navigation, and clear exit options.",
+  "excerpt": "A platform may technically open on a headset yet still be awkward for the space and input method you actually use. Check setup and control demands in a preview before choosing a membership or library.",
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "keyTakeaways": [
+    "Evaluate the platform in the viewing position and room setup you expect to use, not only from a desktop description.",
+    "Check controller requirements, menu reachability, recentering, and the ability to pause or exit without searching.",
+    "Separate headset compatibility from practical usability in a seated or room-scale arrangement.",
+    "Use preview access, when available, to test setup steps without assuming a preview represents every title or session."
+  ],
+  "sections": [
+    {
+      "heading": "Describe your intended setup before comparing platforms",
+      "paragraphs": [
+        "VR platform fit depends on more than whether a headset is listed as compatible. Write down the setup you expect to use: seated or standing, controller in hand or another supported input method, headset browser or app, and whether you need to keep the physical area compact. These are comparison criteria, not a recommendation that one position or control style is best for everyone. Your actual arrangement determines which setup steps and menus are convenient.",
+        "Then distinguish a technical requirement from a usability preference. A service may open successfully but place important controls far away, require repeated controller input, or make it difficult to return to the library. Record those as practical limitations instead of reducing the result to a yes-or-no compatibility judgment. Do not infer support for a particular mode unless the platform documents it or you can verify it through an appropriate preview."
+      ],
+      "table": {
+        "caption": "Setup-fit comparison prompts",
+        "headers": [
+          "Use case",
+          "What to test",
+          "Evidence to note"
+        ],
+        "rows": [
+          [
+            "Seated viewing",
+            "Can you reach menus and adjust the view from your usual seat?",
+            "Control steps, menu position, and whether adjustments persist."
+          ],
+          [
+            "Room-scale setup",
+            "Can you navigate without repeatedly leaving the viewing area?",
+            "Required movement, menu access, and clear session exit."
+          ],
+          [
+            "Headset browser",
+            "Do account, library, and playback controls work in that route?",
+            "Which tasks are available and where the route changes."
+          ],
+          [
+            "Controller-limited use",
+            "Can you complete basic tasks with the input method you intend to use?",
+            "Any unavailable actions or workarounds stated by the service."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the route from library to playback",
+      "paragraphs": []
+    },
+    {
+      "heading": "Check recentering, pause, and exit controls",
+      "paragraphs": [
+        "In a VR environment, a basic action can be inconvenient if the control is hard to find or requires restarting the session. Check how to pause, return to a menu, adjust the view, and leave playback. If the interface offers a recenter or orientation control, find where it is and test whether the instruction is clear. Do not assume the headset’s system-level controls and the platform’s own controls behave identically; know which layer you are using.",
+        "A useful fit test includes what happens after a brief interruption. Pause, return to a menu, and try to resume using the stated controls. Note whether the platform gives a clear indication of the current state, such as paused or back in the library. This is a usability check, not a guarantee that progress will always persist after a disconnect or application close. Check separate continuity terms if preserving position matters to you."
+      ],
+      "bullets": [
+        "Find pause and exit without relying on guesswork.",
+        "Check whether the platform explains view adjustment or recentering.",
+        "Note which controls belong to the headset and which belong to the platform."
+      ]
+    },
+    {
+      "heading": "Compare controller demands and menu readability",
+      "paragraphs": []
+    },
+    {
+      "heading": "Use a repeatable scorecard and state its limits",
+      "paragraphs": [
+        "Score each candidate against the same checklist: setup route, input requirements, seated usability, room-scale demands, view adjustment, pause and exit, and any tasks that require a separate device. Use simple labels such as works in my test, unclear, or does not fit my setup. Add the access route and date of the check, because an app or interface can change. Avoid claiming that one test establishes universal compatibility across headset models, software versions, or account states.",
+        "Finally, keep the decision proportional to the evidence. A preview may show that the menu is navigable but not establish how the full library behaves, and a desktop page may describe controls without letting you try them. If a limitation matters to you, verify it through current service documentation or a suitable test before subscribing. Do not buy hardware or a membership solely on an assumption about an untested feature."
+      ],
+      "bullets": [
+        "Setup tested: seated, standing, or both.",
+        "Input method and access route recorded.",
+        "Pause, recenter, return-to-library, and exit located.",
+        "Untested features marked as unknown rather than assumed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does headset compatibility mean a platform will work well seated?",
+      "answer": "Not necessarily. Compatibility indicates a technical relationship described by the service, while seated usability depends on menus, controls, view adjustment, and the setup you actually use. Check those separately."
+    },
+    {
+      "question": "Can a preview tell me whether every VR title will have the same controls?",
+      "answer": "Not always. A preview can help you test a route or interface, but it may not represent every title or session. Record what you tested and verify any important unknowns."
+    },
+    {
+      "question": "What is the most useful first test when comparing VR platform setup?",
+      "answer": "Try a complete low-commitment path from the library to playback and back, using your intended headset and input method. Include pause, view adjustment, and exit so you can assess routine control as well as entry."
+    }
+  ]
+};
