@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/premium-video-unstable-connection-playback-check.json",
     "ops/editorial/content-artifacts/adult-subscription-payment-alert-privacy-checklist.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38513374908"
+  "r1CycleId": "38513374908",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
