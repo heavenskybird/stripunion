@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T23:05:13.005Z",
+  "generatedAt": "2026-10-14T01:51:30.396Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-messaging-access-comparison.json",
-    "ops/editorial/content-artifacts/affiliate-program-pre-application-fit-review.json",
-    "ops/editorial/content-artifacts/creator-platform-content-portability-plan.json",
-    "ops/editorial/content-artifacts/premium-video-library-fit-by-release-pattern.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-identity-separation-plan.json"
+    "ops/editorial/content-artifacts/live-cam-performer-verification-evidence-guide.json",
+    "ops/editorial/content-artifacts/hentai-anime-tag-taxonomy-content-filter-guide.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-catalog-detail-evidence-check.json",
+    "ops/editorial/content-artifacts/free-video-comment-review-evidence-guide.json",
+    "ops/editorial/content-artifacts/adult-game-platform-operating-system-compatibility-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/compare-dating-platforms-messaging-access-before-signup.js",
-    "src/data/guides/evaluate-an-affiliate-program-before-applying.js",
-    "src/data/guides/creator-platform-content-ownership-and-portability-checklist.js",
-    "src/data/guides/compare-premium-video-libraries-for-a-planned-viewing-window.js",
-    "src/data/guides/adult-platform-payment-and-account-identity-separation.js"
+    "src/data/guides/live-cam-platform-performer-verification-evidence-guide.js",
+    "src/data/guides/hentai-anime-platform-tags-content-warnings-filter-guide.js",
+    "src/data/guides/vr-adult-platform-catalog-details-evidence-checklist.js",
+    "src/data/guides/free-video-platform-comments-reviews-evidence-guide.js",
+    "src/data/guides/adult-game-platform-operating-system-compatibility-checklist.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "premium-videos",
-    "privacy-safety-payment"
+    "live-cams",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "dating-platform-messaging-access-comparison",
-    "affiliate-program-pre-application-fit-review",
-    "creator-platform-content-portability-plan",
-    "premium-video-library-fit-by-release-pattern",
-    "adult-platform-payment-identity-separation-plan"
+    "live-cam-performer-verification-evidence-guide",
+    "hentai-anime-tag-taxonomy-content-filter-guide",
+    "vr-adult-platform-catalog-detail-evidence-check",
+    "free-video-comment-review-evidence-guide",
+    "adult-game-platform-operating-system-compatibility-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38481768359",
-  "phase": "closed"
+  "r1CycleId": "38497562908"
 }
