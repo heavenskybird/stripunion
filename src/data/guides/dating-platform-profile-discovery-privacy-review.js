@@ -1,0 +1,115 @@
+export default {
+  "slug": "dating-platform-profile-discovery-privacy-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Profile Discovery and Privacy Before Joining",
+  "description": "Compare how adult-oriented dating platforms expose profiles in search, recommendations and contact tools, and decide what privacy controls you need.",
+  "excerpt": "A dating profile can be visible in more places than a search screen. Use this guide to assess discovery settings, identity separation and contact controls before filling out a profile.",
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "keyTakeaways": [
+    "Map where a profile can appear, including search results, recommendations and community areas.",
+    "Check which visibility controls exist and whether their limits are clearly explained.",
+    "Use a distinct username and contact address if you want separation from personal accounts.",
+    "Understand how messaging, read indicators and contact requests affect exposure.",
+    "Plan how to reduce visibility, close an account and remove profile information later."
+  ],
+  "sections": [
+    {
+      "heading": "Treat profile visibility as a set of separate decisions",
+      "paragraphs": [
+        "Choosing a dating platform is not only about who you can find. It is also about who may find you, what information is shown before a conversation and how easily your profile can be connected to your other online identities. A service may offer search and discovery features that affect visibility in different ways. Do not treat a single privacy toggle as proof that every profile surface is hidden.",
+        "Before creating an account, identify your comfort boundary. You might be comfortable appearing to signed-in members but not in public search results, or you might want to keep identifying details out of profile text. The right setup depends on your needs and the controls actually documented by the platform. Write down the boundary first; it makes it easier to evaluate settings without being rushed by a signup flow."
+      ],
+      "bullets": [
+        "Decide what profile information can be visible to other members.",
+        "Separate visibility to members from visibility to the public.",
+        "Note any exposure you would consider unacceptable."
+      ]
+    },
+    {
+      "heading": "Map every route into profile discovery",
+      "paragraphs": [
+        "Review how members may encounter a profile: direct search, filters, recommendations, nearby or location-based listings, community areas and mutual-interest features. Check whether each route uses the same visibility setting. A profile that is hidden from one search function might still appear through another feature, and a platform may explain these limits in a help page rather than beside the control itself.",
+        "Look for plain-language descriptions of who can see a profile, what information appears in previews and whether a profile can be shared or indexed outside the service. If a claim is ambiguous, do not assume the most protective interpretation. Ask support a specific question before adding sensitive details. Make a note of the answer and where you found the relevant setting so you can review it later."
+      ],
+      "table": {
+        "caption": "Questions to ask about discovery surfaces",
+        "headers": [
+          "Surface",
+          "Privacy question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Member search",
+            "Which members can find the profile?",
+            "Audience and filter limitations"
+          ],
+          [
+            "Recommendations",
+            "Can the profile appear without a direct search?",
+            "Available controls and exceptions"
+          ],
+          [
+            "Public pages",
+            "Can profile details be viewed without signing in?",
+            "What is exposed and how to limit it"
+          ],
+          [
+            "Community features",
+            "Can activity or participation reveal the account?",
+            "Visibility of posts, reactions or status"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build identity separation before filling in a profile",
+      "paragraphs": [
+        "Use an account identity that does not unnecessarily connect to personal social profiles, a work address or usernames used elsewhere. Reusing a recognizable handle can make accounts easier to associate even when the service does not publish your real name. Profile text can also reveal identity indirectly through a rare job title, a precise workplace, a distinctive schedule or a combination of local details.",
+        "Consider what contact channels the platform asks for and whether each is optional, private or displayed to other members. Use a dedicated address if that helps keep notifications and account recovery separate. Avoid adding personal identifiers simply because a form offers a field. Provide information that is required for the account, but check the purpose and visibility of optional details before submitting them."
+      ]
+    },
+    {
+      "heading": "Evaluate messaging and contact controls",
+      "paragraphs": [
+        "Messaging features shape exposure as well as convenience. Check who can initiate contact, whether you can limit requests, and what profile details appear when a message arrives. If read indicators, online status or activity timestamps are displayed, consider whether they reveal more about your routine than you want to share. Find out whether blocking or muting a member changes future visibility and whether the control is reversible.",
+        "Test the platform’s explanations before entering a conversation. A user should be able to understand whether a message is private, whether a profile link can be shared, and what happens to existing conversations if an account is hidden or closed. Do not send financial details, authentication codes or documents through ordinary dating messages. If someone pressures you to move immediately to an unfamiliar channel, pause and assess the risks."
+      ],
+      "bullets": [
+        "Check who can send a first message or contact request.",
+        "Review blocking, muting and reporting steps before you need them.",
+        "Avoid sharing account credentials or sensitive identity documents in chat."
+      ]
+    },
+    {
+      "heading": "Check the controls by using a low-disclosure test profile",
+      "paragraphs": [
+        "When the platform permits browsing before full participation, inspect settings and help materials first. If you decide to create an account, begin with minimal optional information and review the profile from any available preview or member-view screen. Confirm which fields appear, whether location is precise or generalized, and whether activity indicators can be changed. Do not use another person’s account to test what your profile looks like without their consent.",
+        "Treat a test profile as a way to learn the interface, not as a guarantee of complete anonymity. Signup information, device notifications and billing or recovery details may be handled separately from the public profile. Review those pathways too. If the service does not explain the visibility of a sensitive field, leave it blank when optional or ask for clarification before proceeding."
+      ]
+    },
+    {
+      "heading": "Plan reduced visibility and account closure",
+      "paragraphs": [
+        "Privacy controls matter most when you can find and use them. Locate options for hiding, pausing or deleting a profile, and distinguish a temporary visibility change from account closure. Check whether conversations, profile content or account records remain after closure, and whether deletion requires a separate request. Save only the account information you need for your own records, and avoid keeping sensitive message content unnecessarily.",
+        "A final check should cover the profile, connected contact channels, notifications and device-level previews. If you stop using the service, remove public-facing details, revoke optional permissions where applicable and follow the documented closure process. Keep confirmation of the action. No platform setting can promise that another member has not already seen or saved information, so share only what you are comfortable disclosing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hiding a dating profile make it invisible to everyone?",
+      "answer": "Not necessarily. A control may limit one discovery route but not messages already exchanged, recommendation surfaces, public pages or other exceptions. Read the control’s description and verify its scope rather than assuming that one setting removes every form of visibility."
+    },
+    {
+      "question": "Is using a separate username enough to protect my identity?",
+      "answer": "A separate username helps avoid an obvious connection, but profile details, photos, location clues, contact information and reused writing can still identify or link accounts. Review the whole profile and avoid sharing more identifying detail than you intend."
+    },
+    {
+      "question": "What should I do if the platform does not explain a privacy setting?",
+      "answer": "Do not rely on an optimistic interpretation. Check the help materials, ask support a specific question and avoid adding sensitive information while the answer is unclear. If the uncertainty affects a boundary that matters to you, consider whether the service is a suitable fit."
+    }
+  ]
+};
