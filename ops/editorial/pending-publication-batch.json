@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T21:40:50.456Z",
+  "generatedAt": "2026-10-14T22:41:41.113Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-exit-and-commission-continuity.json",
-    "ops/editorial/content-artifacts/dating-platform-profile-discovery-privacy-review.json",
-    "ops/editorial/content-artifacts/creator-platform-earnings-documentation-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-model-fit-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-content-labels-filtering-fit.json"
+    "ops/editorial/content-artifacts/adult-account-identity-and-payment-separation.json",
+    "ops/editorial/content-artifacts/vr-ar-device-category-requirements-audit.json",
+    "ops/editorial/content-artifacts/free-video-search-discovery-quality-audit.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-platform-support-comparison.json",
+    "ops/editorial/content-artifacts/adult-shop-delivery-and-package-privacy-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/webmaster-affiliate-program-exit-and-commission-continuity.js",
-    "src/data/guides/dating-platform-profile-discovery-privacy-review.js",
-    "src/data/guides/creator-platform-earnings-documentation-workflow.js",
-    "src/data/guides/live-cam-platform-model-fit-comparison.js",
-    "src/data/guides/premium-video-content-labels-filtering-fit.js"
+    "src/data/guides/adult-account-identity-and-payment-separation.js",
+    "src/data/guides/vr-ar-device-category-requirements-audit.js",
+    "src/data/guides/free-video-search-discovery-quality-audit.js",
+    "src/data/guides/adult-game-storefront-platform-support-comparison.js",
+    "src/data/guides/adult-shop-delivery-and-package-privacy-checklist.js"
   ],
   "categories": [
-    "webmaster-affiliate",
-    "dating-hookups",
-    "creator-platforms",
-    "live-cams",
-    "premium-videos"
+    "privacy-safety-payment",
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "webmaster-affiliate-program-exit-and-commission-continuity",
-    "dating-platform-profile-discovery-privacy-review",
-    "creator-platform-earnings-documentation-workflow",
-    "live-cam-platform-model-fit-comparison",
-    "premium-video-content-labels-filtering-fit"
+    "adult-account-identity-and-payment-separation",
+    "vr-ar-device-category-requirements-audit",
+    "free-video-search-discovery-quality-audit",
+    "adult-game-storefront-platform-support-comparison",
+    "adult-shop-delivery-and-package-privacy-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38641844014",
-  "phase": "closed"
+  "r1CycleId": "38649010404"
 }

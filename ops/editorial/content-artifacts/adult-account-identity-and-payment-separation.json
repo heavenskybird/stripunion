@@ -1,0 +1,138 @@
+{
+  "backlogId": "adult-account-identity-and-payment-separation",
+  "slug": "adult-account-identity-and-payment-separation",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Account Privacy: Separate Login Identity From Payment Records",
+  "description": "A practical checklist for separating an adult account’s username and contact details from payment records, receipts, notifications, and shared-device exposure.",
+  "excerpt": "A private username is only one part of account privacy. Map where your email, profile name, billing identity, receipts, and notifications may appear before creating or paying for an account.",
+  "keyTakeaways": [
+    "Treat a username, contact email, public profile, and payment identity as separate information fields that may be handled differently.",
+    "Check what appears on receipts, account notices, and payment records before completing a transaction.",
+    "Use contact details you control, and avoid reusing identifiers that make accounts easy to connect.",
+    "Review notification previews, saved passwords, browser sessions, and shared-device access as part of the same privacy plan.",
+    "Keep enough transaction documentation to resolve billing issues without retaining unnecessary sensitive information."
+  ],
+  "sections": [
+    {
+      "heading": "Map the identities an account may expose",
+      "paragraphs": [
+        "An account can involve several identities: the name used to register, a username shown to other users, an email or phone number used for account contact, and details submitted to a payment provider. These fields do not necessarily have the same visibility or purpose. A profile name might be displayed publicly, while a billing name may be collected for transaction processing. Do not assume that changing one field changes the others.",
+        "Before registering, look for the account’s explanations of profile visibility, contact details, billing, and receipts. If the information is unclear, note the uncertainty rather than treating a privacy label or short sign-up form as proof of separation. Your decision can be as simple as postponing registration until you understand which fields are required and which can be left blank."
+      ],
+      "bullets": [
+        "List the username, profile name, email, phone number, billing name, and payment method involved.",
+        "Mark which fields are mandatory, optional, public, or described as private.",
+        "Record unresolved questions before entering payment information."
+      ]
+    },
+    {
+      "heading": "Choose identifiers that are difficult to connect",
+      "paragraphs": [
+        "Reusing the same username, profile image, or email address across unrelated services can make accounts easier to associate. Consider whether a new account needs a public-facing name at all, and avoid including identifying details in a username. A separate email address can help organize messages and reduce accidental cross-account exposure, but it should remain an address you can reliably access for verification, receipts, and account recovery.",
+        "Separation is not the same as anonymity. A service or payment processor may still require information to operate an account or handle a transaction. Do not provide false information where accurate information is required. Instead, check the service’s terms and privacy information, provide required details accurately, and limit optional profile information to what you are comfortable sharing."
+      ],
+      "bullets": [
+        "Avoid usernames or images reused on personal social accounts.",
+        "Use an email address you control and can recover securely.",
+        "Do not enter inaccurate billing or identity details to try to create privacy."
+      ]
+    },
+    {
+      "heading": "Check payment records before paying",
+      "paragraphs": [
+        "Payment privacy depends on more than what a service displays inside its account. A card statement, digital wallet history, bank record, email receipt, or household expense report may show transaction information. Before paying, locate any available billing explanation and determine what the service says may appear on transaction records. If the wording is vague, do not assume that a particular descriptor will be used or that a transaction will be hidden.",
+        "Compare available payment methods by their control and record implications, not by a promise of secrecy. For example, ask whether a method creates a separate account history, sends a receipt to an email address, or can be reviewed by someone who manages a shared account. Keep transaction evidence needed for disputes or budgeting, but store it where other users of your device or cloud account cannot casually see it."
+      ],
+      "table": {
+        "caption": "A payment-record check before confirming a transaction",
+        "headers": [
+          "Record location",
+          "Question to answer",
+          "Practical action"
+        ],
+        "rows": [
+          [
+            "Service account",
+            "Can purchases or membership details be viewed by another profile or account user?",
+            "Review account access and profile-sharing settings."
+          ],
+          [
+            "Email",
+            "Where will receipts and billing notices be sent?",
+            "Check the destination inbox and its notification previews."
+          ],
+          [
+            "Payment account",
+            "Who can view statements or wallet activity?",
+            "Review shared access and statement visibility."
+          ],
+          [
+            "Personal records",
+            "What evidence may be needed to resolve a billing issue?",
+            "Keep necessary receipts in a private, organized location."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reduce accidental exposure on devices",
+      "paragraphs": [
+        "A private registration can still become visible through a lock-screen preview, a browser that stays signed in, or a password manager suggestion on a shared device. Before using an account, check where the browser stores passwords and whether the device synchronizes history or saved credentials to other devices. Use the device’s own privacy and account controls; a private browsing window does not automatically remove records from every service or payment provider.",
+        "Set notifications deliberately. You may be able to disable message previews, change which categories generate alerts, or route account email to an inbox with less visible notifications. Also check whether email subject lines reveal service names or account actions. These steps reduce casual exposure but cannot guarantee that no record remains elsewhere."
+      ],
+      "bullets": [
+        "Turn off sensitive lock-screen previews where appropriate.",
+        "Sign out on devices other people can access and avoid saving credentials there.",
+        "Check browser history synchronization and password-manager sharing.",
+        "Review email notification previews and account-alert settings."
+      ]
+    },
+    {
+      "heading": "Keep records without keeping unnecessary data",
+      "paragraphs": [
+        "A useful privacy plan balances discretion with the ability to manage an account. Save the information needed to identify a charge, contact support, cancel a recurring payment, or secure account recovery. Avoid taking screenshots that expose unrelated personal details, and do not store passwords beside receipts. If you maintain a private record, protect it with the device or account controls you already trust and know how to use.",
+        "When an account is no longer needed, check both the service and the payment route. Cancelling access may not automatically remove payment authorization, saved credentials, or email records. Follow the stated cancellation process, save appropriate confirmation, review the next payment statement, and then consider account closure or data deletion options. Keep a minimal record of the closure if you may need to verify it later."
+      ]
+    },
+    {
+      "heading": "Use a short pre-registration decision test",
+      "paragraphs": [
+        "Before creating an account, answer four questions: what information is required, what information may be displayed, where transaction records may appear, and who else can access the devices or accounts involved? If one answer is unknown, decide whether you can accept that uncertainty. This is more useful than relying on a broad promise of privacy because it connects specific information to specific places where it might be seen.",
+        "After registration, repeat the check when you add a payment method, change an email address, enable notifications, or use a shared device. Privacy settings and account arrangements can change over time. A brief review after each important change helps catch exposure routes that were not relevant during initial sign-up."
+      ],
+      "bullets": [
+        "Know which identity fields are required and which are optional.",
+        "Understand where receipts and billing notices are delivered.",
+        "Check shared-device, email, and payment-account access.",
+        "Retain cancellation or dispute evidence in a controlled location."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate username make an account anonymous?",
+      "answer": "No. A separate username can reduce casual links to other accounts, but registration details, payment records, device activity, and service data may still connect an account to you. Treat username separation as one privacy measure, not a guarantee of anonymity."
+    },
+    {
+      "question": "Should I use a separate email address?",
+      "answer": "A separate address can make account messages easier to manage and reduce accidental mixing with personal correspondence. Use an address you control, can recover, and can access for receipts or security checks. It does not by itself change what billing records show."
+    },
+    {
+      "question": "Can I assume a payment descriptor will be discreet?",
+      "answer": "No. Check the billing information available before paying, and avoid assuming what a bank, wallet, or statement will display. If the description is unclear and the potential record matters to you, consider whether to delay the transaction or use a different option whose record implications you understand."
+    },
+    {
+      "question": "What should I keep after cancelling?",
+      "answer": "Keep the minimum evidence useful for confirming cancellation or resolving a later charge, such as a confirmation notice or transaction reference. Store it securely, avoid retaining unnecessary screenshots or credentials, and check the relevant payment record for the outcome."
+    }
+  ],
+  "publishedAt": "2026-10-14",
+  "updatedAt": "2026-10-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
