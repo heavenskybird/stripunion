@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T17:25:30.559Z",
+  "generatedAt": "2026-10-14T18:38:10.646Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-guest-access-account-boundaries.json",
-    "ops/editorial/content-artifacts/adult-games-update-and-platform-support-evidence.json",
-    "ops/editorial/content-artifacts/adult-shop-delivery-privacy-check.json",
-    "ops/editorial/content-artifacts/adult-anime-access-entitlement-comparison.json",
-    "ops/editorial/content-artifacts/dating-platform-messaging-access-check.json"
+    "ops/editorial/content-artifacts/adult-platform-shared-device-privacy-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-discreet-playback-controls-audit.json",
+    "ops/editorial/content-artifacts/live-cam-public-profile-search-visibility-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-consent-measurement-operations.json",
+    "ops/editorial/content-artifacts/creator-platform-audience-portability-exit-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-guest-access-account-requirements.js",
-    "src/data/guides/adult-games-check-update-and-platform-support-before-choosing.js",
-    "src/data/guides/adult-shops-check-delivery-privacy-from-checkout-to-doorstep.js",
-    "src/data/guides/adult-anime-platforms-compare-free-and-premium-access.js",
-    "src/data/guides/dating-platforms-check-messaging-access-before-building-a-profile.js"
+    "src/data/guides/adult-platform-shared-device-privacy-workflow.js",
+    "src/data/guides/premium-video-discreet-playback-controls-audit.js",
+    "src/data/guides/live-cam-public-profile-search-visibility-audit.js",
+    "src/data/guides/webmaster-affiliate-consent-measurement-operations.js",
+    "src/data/guides/creator-platform-audience-portability-exit-plan.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "dating-hookups"
+    "privacy-safety-payment",
+    "premium-videos",
+    "live-cams",
+    "webmaster-affiliate",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "free-video-guest-access-account-boundaries",
-    "adult-games-update-and-platform-support-evidence",
-    "adult-shop-delivery-privacy-check",
-    "adult-anime-access-entitlement-comparison",
-    "dating-platform-messaging-access-check"
+    "adult-platform-shared-device-privacy-workflow",
+    "premium-video-discreet-playback-controls-audit",
+    "live-cam-public-profile-search-visibility-audit",
+    "webmaster-affiliate-consent-measurement-operations",
+    "creator-platform-audience-portability-exit-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38606218891",
-  "phase": "closed"
+  "r1CycleId": "38616538680"
 }
