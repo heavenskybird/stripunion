@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T07:38:59.449Z",
+  "generatedAt": "2026-10-14T09:03:37.800Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-accessible-playback-controls.json",
-    "ops/editorial/content-artifacts/adult-anime-game-installation-risk-check.json",
-    "ops/editorial/content-artifacts/creator-identity-separation-audit.json",
-    "ops/editorial/content-artifacts/premium-video-account-exit-data-plan.json",
-    "ops/editorial/content-artifacts/affiliate-subaffiliate-operations-checklist.json"
+    "ops/editorial/content-artifacts/live-cam-room-rules-before-participating.json",
+    "ops/editorial/content-artifacts/dating-platform-messaging-access-fit-checklist.json",
+    "ops/editorial/content-artifacts/adult-platform-shared-device-privacy-audit.json",
+    "ops/editorial/content-artifacts/free-video-platform-caption-accessibility-comparison.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-platform-support-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-caption-and-audio-accessibility-audit.js",
-    "src/data/guides/adult-anime-games-installation-permissions-and-save-data-checklist.js",
-    "src/data/guides/creator-platform-public-branding-legal-identity-privacy-checklist.js",
-    "src/data/guides/premium-video-account-closure-watchlist-and-records-checklist.js",
-    "src/data/guides/webmaster-affiliate-subaffiliate-recruitment-and-monitoring-checklist.js"
+    "src/data/guides/live-cam-room-rules-before-participating.js",
+    "src/data/guides/dating-platform-messaging-access-fit-checklist.js",
+    "src/data/guides/adult-platform-shared-device-privacy-audit.js",
+    "src/data/guides/free-video-platform-caption-accessibility-comparison.js",
+    "src/data/guides/adult-game-storefront-platform-support-checklist.js"
   ],
   "categories": [
-    "vr-ar",
-    "hentai-anime",
-    "creator-platforms",
-    "premium-videos",
-    "webmaster-affiliate"
+    "live-cams",
+    "dating-hookups",
+    "privacy-safety-payment",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "vr-accessible-playback-controls",
-    "adult-anime-game-installation-risk-check",
-    "creator-identity-separation-audit",
-    "premium-video-account-exit-data-plan",
-    "affiliate-subaffiliate-operations-checklist"
+    "live-cam-room-rules-before-participating",
+    "dating-platform-messaging-access-fit-checklist",
+    "adult-platform-shared-device-privacy-audit",
+    "free-video-platform-caption-accessibility-comparison",
+    "adult-game-storefront-platform-support-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38529458911",
-  "phase": "closed"
+  "r1CycleId": "38539005740"
 }
