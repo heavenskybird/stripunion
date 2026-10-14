@@ -6588,7 +6588,7 @@
       "intent": "Premium Video Streaming on Unstable Connections: Check Buffering and Resume Behavior",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -6601,7 +6601,7 @@
       "intent": "Adult Subscription Payments: Check Billing Descriptors, Alerts and Payment Controls",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -6614,7 +6614,7 @@
       "intent": "Free Video Platforms: Compare Caption Availability and Usability Before Browsing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -6627,7 +6627,7 @@
       "intent": "Adult Games: Check Demo Access, System Requirements and Installation Before Buying",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -6640,7 +6640,7 @@
       "intent": "Adult Shop Delivery Privacy: Check Packaging, Tracking and Returns Before Ordering",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
