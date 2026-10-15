@@ -1,34 +1,34 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T06:17:12.926Z",
-  "sourceGeneratedAt": "2026-10-14T06:17:12.729Z",
-  "attributionDate": "2026-10-13",
+  "generatedAt": "2026-10-15T06:00:26.180Z",
+  "sourceGeneratedAt": "2026-10-15T06:00:26.028Z",
+  "attributionDate": "2026-10-14",
   "observations": [
     {
-      "observationId": "4ed4a4a487fefb988ac3da0293a2b8aa",
-      "observedAt": "2026-10-14T06:17:12.729Z",
+      "observationId": "a75d5919d45198f9d5fbef7b958030c5",
+      "observedAt": "2026-10-15T06:00:26.028Z",
       "source": "ga4",
       "entityType": "page",
       "entityId": "stripunion.com/",
       "metric": "sessions",
-      "valueNumeric": 28,
+      "valueNumeric": 22,
       "valueText": null,
       "dimensions": {},
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 28,
-        "engagedSessions": 11,
+        "sessions": 22,
+        "engagedSessions": 7,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.39285714285714285,
+        "engagementRate": 0.3181818181818182,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
     },
     {
-      "observationId": "2a3058a29851c97cfc13d247141428b6",
-      "observedAt": "2026-10-14T06:17:12.729Z",
+      "observationId": "539db5fef02e55bc57539e3441d91063",
+      "observedAt": "2026-10-15T06:00:26.028Z",
       "source": "ga4",
       "entityType": "page",
       "entityId": "stripunion.com/",
@@ -39,18 +39,18 @@
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 28,
-        "engagedSessions": 11,
+        "sessions": 22,
+        "engagedSessions": 7,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.39285714285714285,
+        "engagementRate": 0.3181818181818182,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
     },
     {
-      "observationId": "fcc905464f311089d0bfa4af46e02843",
-      "observedAt": "2026-10-14T06:17:12.729Z",
+      "observationId": "a575d9a583ba56b2f97dd3b0687d2c28",
+      "observedAt": "2026-10-15T06:00:26.028Z",
       "source": "ga4",
       "entityType": "page",
       "entityId": "stripunion.com/",
@@ -61,18 +61,18 @@
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 28,
-        "engagedSessions": 11,
+        "sessions": 22,
+        "engagedSessions": 7,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.39285714285714285,
+        "engagementRate": 0.3181818181818182,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
     },
     {
-      "observationId": "dcc6a4b17382bed6ce7e0d6d4a30b1a7",
-      "observedAt": "2026-10-14T06:17:12.729Z",
+      "observationId": "7183ea884c4ba171f6dcfc0fc2db77d4",
+      "observedAt": "2026-10-15T06:00:26.028Z",
       "source": "bing",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -91,8 +91,8 @@
       }
     },
     {
-      "observationId": "a7c1648a0376d60301875130b50f9fc5",
-      "observedAt": "2026-10-14T06:17:12.729Z",
+      "observationId": "9130c9b761ce25c1ed9aea20d9198fd5",
+      "observedAt": "2026-10-15T06:00:26.028Z",
       "source": "bing",
       "entityType": "site",
       "entityId": "blog.stripunion.com",
@@ -111,8 +111,8 @@
       }
     },
     {
-      "observationId": "88039d6ba5b7e5d097e07a5a88252649",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "4d0b5d4e0fe8a9e15571e62b1e766ff2",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -121,12 +121,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-10-13"
+        "attributionDate": "2026-10-14"
       }
     },
     {
-      "observationId": "674aae5c641f1b95b2c4a95f913edfa8",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "25456e399de4095a2c4cfb96c934d960",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -135,12 +135,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-10-13"
+        "attributionDate": "2026-10-14"
       }
     },
     {
-      "observationId": "2205f687e3463e82c0ed074e4d333984",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "c6690e7b7c4ef0c3a8122f12ba3d3ae8",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -149,12 +149,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-10-13"
+        "attributionDate": "2026-10-14"
       }
     },
     {
-      "observationId": "31cd7cd0d6e243c53aa557d4fc9076a7",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "20855baf15ff94159c633321320f7d7d",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -163,12 +163,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-10-13"
+        "attributionDate": "2026-10-14"
       }
     },
     {
-      "observationId": "095438cd6fc8a5f797abc8ca69f880ca",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "5662189b94811ad6aab78f34c5b9ed5b",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -177,12 +177,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-10-13"
+        "attributionDate": "2026-10-14"
       }
     },
     {
-      "observationId": "cf2db8d6858c344815e26eb612c6b58a",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "5f3b9de5729b07be418c4b443a681cef",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -199,8 +199,8 @@
       }
     },
     {
-      "observationId": "d7881efd615482020b56144a5ab40018",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "4e7bbc71aa7c607d70865850961e1207",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -217,8 +217,8 @@
       }
     },
     {
-      "observationId": "9b93c64275e28f9ec526e7425aa595e9",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "3b85eb7afe40eb7f1c411e6f79baf1ac",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -235,8 +235,8 @@
       }
     },
     {
-      "observationId": "61948aedf43dcff00b80a8c1316b308f",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "dd7e4eca142bd8425bb5f4a1ddf80fa8",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -253,8 +253,8 @@
       }
     },
     {
-      "observationId": "62355b65d45ca6ab8ad3a02de202d876",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "902b4010c51610ec76927bba1cb20e55",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -271,8 +271,8 @@
       }
     },
     {
-      "observationId": "9fe95d036c25e3c65d6fa85c109d0db0",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "d24524a16d1bf61df45894edf8cdc530",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -289,8 +289,8 @@
       }
     },
     {
-      "observationId": "4b86c762df586ed725383632f6da1358",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "895c3ae89225d2f7be77cbe64126c42d",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",
@@ -307,8 +307,8 @@
       }
     },
     {
-      "observationId": "162d362f599d731576aa5b827f0b80fb",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "eeef9bc1f5b1d6f82e3d3f957db170a3",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",
@@ -325,8 +325,8 @@
       }
     },
     {
-      "observationId": "76cb70d55b170a78e4b6fa2c21f467cb",
-      "observedAt": "2026-10-14T06:14:16.487Z",
+      "observationId": "0ec94ddf21aa048494e05010b1234434",
+      "observedAt": "2026-10-15T05:57:41.487Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",

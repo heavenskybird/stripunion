@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-14T06:17:12.797Z",
-  "sourceGeneratedAt": "2026-10-14T06:17:12.729Z",
+  "generatedAt": "2026-10-15T06:00:26.075Z",
+  "sourceGeneratedAt": "2026-10-15T06:00:26.028Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,9 +25,9 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
-      "signups": 1,
+      "signups": 0,
       "verifiedSignups": 0,
       "purchases": 0,
       "totalEarnings": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-13"
+    "attributionSource": "2026-10-14"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -86,6 +86,14 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
             "query": "f95zone reivew",
             "impressions": 1,
             "clicks": 0,
@@ -98,14 +106,6 @@
             "impressions": 1,
             "clicks": 0,
             "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -308,6 +308,14 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -320,14 +328,6 @@
             "impressions": 1,
             "clicks": 0,
             "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
           },
           {
             "source": "Bing",
@@ -468,7 +468,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -476,7 +476,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -759,7 +759,7 @@
       "id": "cta:stripunion.com:/",
       "kind": "conversion",
       "action": "EXPERIMENT",
-      "priority": 89,
+      "priority": 87,
       "eligible": true,
       "subject": "stripunion.com/",
       "surface": "/",
@@ -768,19 +768,19 @@
       "confidence": "low",
       "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
       "evidence": {
-        "sessions": 28,
+        "sessions": 22,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.39285714285714285
+        "engagementRate": 0.3181818181818182
       },
       "payload": {
         "host": "stripunion.com",
         "page": "/",
-        "sessions": 28,
-        "engagedSessions": 11,
+        "sessions": 22,
+        "engagedSessions": 7,
         "affiliateClicks": 0,
         "affiliateCtr": 0,
-        "engagementRate": 0.39285714285714285,
+        "engagementRate": 0.3181818181818182,
         "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
         "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
       }
