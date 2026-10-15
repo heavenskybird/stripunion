@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T06:29:42.929Z",
+  "generatedAt": "2026-10-15T07:26:30.969Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-membership-change-tracking.json",
-    "ops/editorial/content-artifacts/dating-platform-message-access-map.json",
-    "ops/editorial/content-artifacts/creator-platform-prejoin-portability-audit.json",
-    "ops/editorial/content-artifacts/vr-platform-library-access-mode-audit.json",
-    "ops/editorial/content-artifacts/free-video-moderation-transparency-check.json"
+    "ops/editorial/content-artifacts/adult-games-install-and-update-preflight.json",
+    "ops/editorial/content-artifacts/adult-shop-product-specification-comparison.json",
+    "ops/editorial/content-artifacts/adult-manga-edition-translation-comparison.json",
+    "ops/editorial/content-artifacts/premium-video-subscription-total-charge-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-support-readiness.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-membership-change-tracking.js",
-    "src/data/guides/dating-platform-messaging-access-map.js",
-    "src/data/guides/creator-platform-prejoin-portability-audit.js",
-    "src/data/guides/vr-platform-library-access-mode-audit.js",
-    "src/data/guides/free-video-moderation-transparency-check.js"
+    "src/data/guides/adult-games-install-update-and-save-data-preflight.js",
+    "src/data/guides/adult-shop-product-page-fit-material-and-compatibility-check.js",
+    "src/data/guides/adult-manga-editions-compare-translation-format-and-release-details.js",
+    "src/data/guides/premium-video-subscription-check-currency-tax-and-renewal-total.js",
+    "src/data/guides/webmaster-affiliate-program-support-escalation-readiness-checklist.js"
   ],
   "categories": [
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
     "premium-videos",
-    "dating-hookups",
-    "creator-platforms",
-    "vr-ar",
-    "free-videos"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "premium-video-membership-change-tracking",
-    "dating-platform-message-access-map",
-    "creator-platform-prejoin-portability-audit",
-    "vr-platform-library-access-mode-audit",
-    "free-video-moderation-transparency-check"
+    "adult-games-install-and-update-preflight",
+    "adult-shop-product-specification-comparison",
+    "adult-manga-edition-translation-comparison",
+    "premium-video-subscription-total-charge-audit",
+    "webmaster-affiliate-program-support-readiness"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38692531592",
-  "phase": "closed"
+  "r1CycleId": "38698486126"
 }
