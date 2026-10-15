@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T18:18:25.005Z",
+  "generatedAt": "2026-10-15T19:57:34.286Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-content-audience-exit-plan.json",
-    "ops/editorial/content-artifacts/adult-anime-format-library-selection-guide.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-feature-claim-evidence-audit.json",
-    "ops/editorial/content-artifacts/free-video-platform-ad-and-privacy-evaluation.json",
-    "ops/editorial/content-artifacts/adult-game-installation-and-update-source-check.json"
+    "ops/editorial/content-artifacts/adult-shop-policy-comparison-before-ordering.json",
+    "ops/editorial/content-artifacts/live-cam-browser-requirements-fallback-check.json",
+    "ops/editorial/content-artifacts/premium-video-plan-change-timing-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-audience-discovery-fit-matrix.json",
+    "ops/editorial/content-artifacts/adult-platform-account-identity-recovery-privacy-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-content-audience-exit-plan.js",
-    "src/data/guides/adult-anime-format-library-selection-guide.js",
-    "src/data/guides/vr-adult-platform-feature-claim-evidence-audit.js",
-    "src/data/guides/free-video-platform-ad-and-privacy-evaluation.js",
-    "src/data/guides/adult-game-installation-and-update-source-check.js"
+    "src/data/guides/adult-shop-shipping-returns-privacy-policy-comparison.js",
+    "src/data/guides/live-cam-platform-browser-requirements-fallback-access.js",
+    "src/data/guides/premium-video-subscription-plan-change-timing-terms.js",
+    "src/data/guides/creator-platform-audience-discovery-fit-matrix.js",
+    "src/data/guides/adult-platform-account-identity-and-recovery-privacy-plan.js"
   ],
   "categories": [
+    "adult-shops",
+    "live-cams",
+    "premium-videos",
     "creator-platforms",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games"
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "creator-platform-content-audience-exit-plan",
-    "adult-anime-format-library-selection-guide",
-    "vr-adult-platform-feature-claim-evidence-audit",
-    "free-video-platform-ad-and-privacy-evaluation",
-    "adult-game-installation-and-update-source-check"
+    "adult-shop-policy-comparison-before-ordering",
+    "live-cam-browser-requirements-fallback-check",
+    "premium-video-plan-change-timing-audit",
+    "creator-platform-audience-discovery-fit-matrix",
+    "adult-platform-account-identity-recovery-privacy-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38784218192",
-  "phase": "closed"
+  "r1CycleId": "38797554812"
 }
