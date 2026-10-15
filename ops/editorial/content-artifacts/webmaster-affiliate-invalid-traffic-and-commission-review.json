@@ -1,0 +1,127 @@
+{
+  "backlogId": "webmaster-affiliate-invalid-traffic-and-commission-review",
+  "slug": "webmaster-affiliate-invalid-traffic-commission-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Review Invalid-Traffic Rules and Commission Reversals",
+  "description": "Learn how to evaluate invalid-traffic definitions, commission reversals, evidence requirements, and appeal procedures before relying on an affiliate program.",
+  "excerpt": "A commission shown in a dashboard may not be final. Review how a program defines invalid traffic, handles reversals, and lets publishers question a decision before building around its revenue.",
+  "keyTakeaways": [
+    "Separate the event that earns a provisional commission from the event that makes it payable.",
+    "Look for specific invalid-traffic definitions, examples, and consequences rather than relying on a broad prohibition alone.",
+    "Check whether reversals include a reason, timing, and a route for supplying relevant evidence.",
+    "Keep dated copies of program terms and your own campaign records so a later review has context.",
+    "Do not try to diagnose a tracking or policy problem by sending more traffic before understanding the program’s rules."
+  ],
+  "sections": [
+    {
+      "heading": "Why reversal rules deserve a separate review",
+      "paragraphs": [
+        "Affiliate dashboards can show activity at different stages: a click, a reported conversion, a provisional commission, and an amount that has been approved for payment. Those labels do not necessarily mean the same thing across programs. A publisher deciding whether a channel is sustainable needs to know which events can still be rejected, adjusted, or reversed, and when that decision becomes final under the program’s terms.",
+        "This is a different question from whether tracking works. Tracking checks ask whether a referral is recorded. Reversal checks ask what can happen after a referral is recorded, what conduct can lead to a reversal, and whether the publisher can understand or challenge the decision. Treat the latter as a program-risk review, not as an assumption that every dashboard entry is guaranteed income."
+      ],
+      "bullets": [
+        "Identify which commission statuses are provisional and which, if any, are described as approved or payable.",
+        "Find the current terms governing invalid activity, cancellations, adjustments, and disputes.",
+        "Record the date and version of the terms you reviewed."
+      ]
+    },
+    {
+      "heading": "Translate broad invalid-traffic language into questions",
+      "paragraphs": [
+        "Terms may use umbrella language such as fraudulent, incentivized, automated, misleading, or low-quality traffic. Those labels can cover very different situations. Before sending a source, determine whether the restriction concerns the visitor’s method of arrival, the wording of a promotion, an incentive offered by the publisher, automated activity, or conduct after the click. Do not assume a source is allowed just because it is common in your industry or appears in a dashboard.",
+        "Look for concrete examples and practical boundaries. If the terms do not clearly address a planned placement, ask the program contact for written clarification before launching it. Describe the source accurately, including the page or placement type and any incentive or promotional wording. Save the response with the relevant terms. A vague answer should not be treated as explicit approval."
+      ],
+      "table": {
+        "caption": "A review framework for invalid-traffic and reversal language",
+        "headers": [
+          "Term or policy area",
+          "Question to resolve",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Traffic definition",
+            "Which sources or behaviors are prohibited or restricted?",
+            "Dated terms and any written clarification"
+          ],
+          [
+            "Commission status",
+            "When is a reported conversion still subject to review?",
+            "Dashboard status definitions and reporting date"
+          ],
+          [
+            "Reversal notice",
+            "Does the program identify a reason or category for an adjustment?",
+            "Notice, affected period, and relevant campaign records"
+          ],
+          [
+            "Dispute process",
+            "Where, when, and with what information can a decision be questioned?",
+            "Submission instructions and correspondence"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Map the commission lifecycle and reversal triggers",
+      "paragraphs": [
+        "Write down the sequence from referral to final accounting using the program’s own terminology. Note any review period, validation event, adjustment step, or condition that could change the amount. Check whether a reversal can affect only an individual transaction or whether the terms describe broader account or campaign consequences. Avoid filling gaps with assumptions: if timing or status meanings are not defined, mark them as unresolved and request clarification.",
+        "Read reversal language alongside payment terms. A reversal can change a balance before payment, affect a later statement, or be handled through another mechanism; the written terms determine what applies. Also note whether the program distinguishes customer cancellations or refunds from suspected traffic violations. These categories have different operational implications, even if both can reduce a reported commission."
+      ],
+      "bullets": [
+        "Capture the date a conversion first appears and each later status change.",
+        "Check whether reports show adjustment dates, reasons, or affected transaction identifiers.",
+        "Confirm how the program describes corrections to earlier reporting periods.",
+        "Avoid treating a pending balance as a forecast or guaranteed amount."
+      ]
+    },
+    {
+      "heading": "Assess notice and appeal procedures before you depend on the program",
+      "paragraphs": [
+        "A useful procedure explains where to raise a question, what information to include, and whether there is a stated deadline. It should let a publisher identify the affected transaction or period without sending unnecessary visitor data. If the program gives only a general support address, ask what details help route an accounting or compliance question and whether the answer will be recorded in writing.",
+        "A review request is strongest when it is factual and bounded. Identify the relevant dates, campaign labels, placement description, dashboard entries, and term version. Ask which rule or status definition was applied and what records would help clarify the issue. Do not alter, recreate, or inflate activity to test a disputed decision. Preserve original records and make clear which parts are confirmed versus uncertain."
+      ]
+    },
+    {
+      "heading": "Build an evidence file without collecting unnecessary visitor data",
+      "paragraphs": [
+        "Keep records that explain your own publishing activity: dated copies of program terms, approval messages, placement descriptions, campaign identifiers, and relevant aggregate reports. Use a consistent naming scheme so a report can be connected to a source without relying on memory. Retain only information needed for accounting, compliance, or an active dispute, and follow your own retention and privacy practices.",
+        "Avoid collecting sensitive visitor information merely to strengthen a possible future claim. A publisher generally needs to document what was published and what the program reported, not build an unnecessary dossier on individual visitors. If a program asks for information that seems disproportionate, clarify the purpose and whether a less identifying report or aggregate record will suffice."
+      ]
+    },
+    {
+      "heading": "Use the review to make a measured operating decision",
+      "paragraphs": [
+        "A program with clear rules is easier to evaluate, but clarity alone does not make it a fit. Consider how much of your business would rely on the program, whether your planned sources are explicitly permitted, and whether you can keep the records needed to understand adjustments. If material terms remain uncertain, limit exposure until you have an answer rather than treating early reported commissions as proof of dependable economics.",
+        "Revisit the review when terms change, a new traffic source is introduced, or an unexpected adjustment appears. Compare the new language with your saved version and update your internal notes. This creates an audit trail for decisions and helps distinguish a policy change from a reporting question or a routine transaction adjustment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a commission shown in a dashboard mean it is guaranteed?",
+      "answer": "Not necessarily. Dashboard labels and payment conditions depend on the program’s terms. Determine whether the entry is provisional, subject to validation, or approved for payment, and do not assume the labels mean the same thing across programs."
+    },
+    {
+      "question": "What should I send when asking about a commission reversal?",
+      "answer": "Use the program’s stated process. Typically, a focused inquiry can identify the affected period or transaction, campaign label, relevant status changes, and the term or policy question. Avoid sending unnecessary personal data about visitors."
+    },
+    {
+      "question": "Should I pause a traffic source after a reversal?",
+      "answer": "First review the applicable terms and the explanation available for the adjustment. If the source may be restricted or the issue is unresolved, pausing it while seeking written clarification can limit further uncertainty. Do not assume that one adjustment proves the source was prohibited."
+    },
+    {
+      "question": "How often should I revisit these rules?",
+      "answer": "Review them before launching a new source, when the program changes its terms, and when reporting or reversal behavior raises a material question. Keep dated copies so you can tell which rules applied to a past period."
+    }
+  ],
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
