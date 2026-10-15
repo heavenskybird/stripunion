@@ -1,0 +1,129 @@
+export default {
+  "slug": "free-video-moderation-transparency-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Moderation and Reporting Before You Browse",
+  "description": "A practical checklist for assessing a free video platform's moderation information, reporting tools, account controls and privacy before relying on its library.",
+  "excerpt": "Free access does not tell you how a platform handles reports, disputed uploads or account controls. Check for clear policies and usable reporting routes before making an account or sharing information.",
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "keyTakeaways": [
+    "Look for a clear explanation of how users can report content, accounts or safety concerns and what information the platform asks for.",
+    "Check whether moderation policies describe review processes, restrictions and appeal or escalation routes without assuming that a policy guarantees a particular outcome.",
+    "Use account and privacy controls deliberately; browsing without an account may still involve device or browser data, so review your own settings too.",
+    "Treat unclear upload provenance, missing policy information or broken report paths as uncertainty rather than proof of safety or wrongdoing.",
+    "Avoid sharing personal details in reports unless they are necessary, and keep a private note of the report reference or confirmation if a concern needs follow-up."
+  ],
+  "sections": [
+    {
+      "heading": "Free access is not a moderation policy",
+      "paragraphs": [
+        "A platform's free-to-view model says little by itself about how it handles content reports, account abuse, rights concerns or privacy questions. Before relying on a site, look for policies that explain what users can report, how to reach the reporting tools and what happens after a report is submitted. This is a transparency check, not a promise that any particular item will be reviewed or removed.",
+        "Separate the existence of a policy from its usefulness. A broad statement about safety may not explain how to report a specific problem, what details are required or how to follow up. Look for clear categories, accessible instructions and a way to identify the relevant content or account. If the information is missing, difficult to find or inconsistent across pages, note that as a limitation in your comparison."
+      ],
+      "table": {
+        "caption": "Moderation transparency checklist",
+        "headers": [
+          "Area",
+          "What to look for",
+          "What remains uncertain if absent"
+        ],
+        "rows": [
+          [
+            "Policy scope",
+            "Rules describing reportable content and conduct",
+            "Which concerns the platform says it addresses."
+          ],
+          [
+            "Reporting path",
+            "An accessible form, menu or documented contact route",
+            "How a user can raise a specific concern."
+          ],
+          [
+            "Review information",
+            "Any explanation of review, restrictions or escalation",
+            "What process follows a report."
+          ],
+          [
+            "Account controls",
+            "Block, mute, hide or other user-level options where offered",
+            "How a viewer can reduce unwanted contact or exposure."
+          ],
+          [
+            "Privacy information",
+            "Description of data collection and available controls",
+            "What information may be associated with browsing or an account."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find reporting tools before you need them",
+      "paragraphs": [
+        "Locate the reporting route from more than one place: the content page, the account menu if you have one, and the platform's help or policy pages. A usable route should make it possible to identify what is being reported and describe the concern without unnecessary disclosure. If a report form requests personal information, consider whether each field is relevant and review the site's privacy information before submitting.",
+        "Check whether the platform provides a confirmation or reference after a report. Save that information privately if you need to follow up, but do not retain unnecessary copies of sensitive material. If there is no clear confirmation or explanation of what happens next, avoid assuming that the report has been resolved. For immediate personal safety concerns, use appropriate local resources rather than relying solely on a website form."
+      ],
+      "bullets": [
+        "Locate a reporting route before creating an account if possible.",
+        "Check what information is required and whether it is relevant to the report.",
+        "Keep a private confirmation note if follow-up may be necessary."
+      ]
+    },
+    {
+      "heading": "Read moderation descriptions for scope and limits",
+      "paragraphs": [
+        "A platform may also describe how it addresses mistaken or disputed reports. Look for whether there is an appeal, correction or follow-up path, and what information the platform says it needs. This does not require judging individual cases in advance; it helps you understand whether the service explains both reporting and response procedures."
+      ]
+    },
+    {
+      "heading": "Assess upload context without overclaiming",
+      "paragraphs": [
+        "When available, inspect whether a listing provides meaningful context about its source, uploader or content labels. Missing information does not establish that an upload is unauthorized or unsafe, but it does limit what you can verify. Be cautious about treating a title, tag or user comment as authoritative evidence. If the platform describes a verification or rights process, read what that process covers and what remains outside its scope.",
+        "Use the site's reporting route when you have a concrete concern, and include only accurate, relevant information. Do not repost or redistribute disputed material to draw attention to it. If the platform's policies do not explain how to submit a concern, that is a reason to be cautious about relying on the site, especially if you expect to need clear moderation support."
+      ],
+      "bullets": [
+        "Distinguish labels and user comments from platform policy statements.",
+        "Treat missing provenance as an information gap, not as a conclusion.",
+        "Avoid sharing or reposting material to publicize a concern."
+      ]
+    },
+    {
+      "heading": "Consider privacy while browsing or reporting",
+      "paragraphs": [
+        "A free site may allow some browsing without an account, but that does not establish that browsing is anonymous. Your browser, device, network and any site technologies can create records. Review the platform's privacy notice and your browser settings, and decide whether you are comfortable with the information described. On shared devices, avoid saving credentials or leaving history, downloads or notifications visible to other users.",
+        "If you create an account to use reporting or community tools, provide only required information and use a distinct password. Check profile visibility and notification settings before participating. For a report, avoid including unrelated personal details, payment information or identifying images. A report should provide enough context to locate the issue while limiting unnecessary exposure."
+      ],
+      "bullets": [
+        "Review privacy information and browser settings before signing in.",
+        "Use distinct credentials and check profile visibility if you make an account.",
+        "Limit personal information in reports to what is needed."
+      ]
+    },
+    {
+      "heading": "Make a decision using evidence, not assurances",
+      "paragraphs": [
+        "Compare platforms with a short record of what you verified: policy clarity, report access, account controls, privacy explanation and any unanswered questions. Mark each item as clear, unclear or unavailable. This is more reliable than a general impression of a site's appearance or a claim that moderation is comprehensive. A transparent process is useful information, but it cannot guarantee that every report will receive the result you want.",
+        "If a platform is difficult to assess, you can choose not to create an account or to avoid using features that require personal information. If you do browse, make privacy choices before interacting and know where to leave or block unwanted elements. Revisit policies if you begin using the platform regularly, because terms and interfaces can change. Use current documentation for current decisions."
+      ],
+      "bullets": [
+        "Record policy and report links with the date you checked them.",
+        "Separate verified controls from claims you cannot independently assess.",
+        "Choose whether to browse, register or leave based on the information available."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a moderation policy prove that a platform is safe?",
+      "answer": "No. A policy describes stated rules or processes; it does not guarantee a particular result. Check whether the reporting route is accessible and whether the policy explains its scope and limitations."
+    },
+    {
+      "question": "Can I browse a free video platform anonymously?",
+      "answer": "Free access or guest browsing does not establish anonymity. Review the privacy notice, browser and device settings, and any account or network information involved."
+    },
+    {
+      "question": "What should I include in a report?",
+      "answer": "Provide accurate information needed to identify the concern and use the platform's documented reporting route. Avoid adding unrelated personal or sensitive information, and keep any confirmation privately if follow-up is needed."
+    }
+  ]
+};

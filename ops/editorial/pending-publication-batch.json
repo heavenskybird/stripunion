@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T04:34:35.875Z",
+  "generatedAt": "2026-10-15T06:29:42.929Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-access-and-update-evaluation.json",
-    "ops/editorial/content-artifacts/adult-shop-shipping-returns-prepurchase-check.json",
-    "ops/editorial/content-artifacts/adult-purchase-payment-privacy-choice.json",
-    "ops/editorial/content-artifacts/live-cam-listing-ranking-signals-audit.json",
-    "ops/editorial/content-artifacts/affiliate-link-integration-operational-readiness.json"
+    "ops/editorial/content-artifacts/premium-video-membership-change-tracking.json",
+    "ops/editorial/content-artifacts/dating-platform-message-access-map.json",
+    "ops/editorial/content-artifacts/creator-platform-prejoin-portability-audit.json",
+    "ops/editorial/content-artifacts/vr-platform-library-access-mode-audit.json",
+    "ops/editorial/content-artifacts/free-video-moderation-transparency-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-game-storefront-access-update-evaluation.js",
-    "src/data/guides/adult-shop-shipping-returns-prepurchase-checklist.js",
-    "src/data/guides/adult-purchase-payment-privacy-and-records-guide.js",
-    "src/data/guides/live-cam-room-listings-sorting-and-ranking-audit.js",
-    "src/data/guides/webmaster-affiliate-link-integration-readiness-checklist.js"
+    "src/data/guides/premium-video-membership-change-tracking.js",
+    "src/data/guides/dating-platform-messaging-access-map.js",
+    "src/data/guides/creator-platform-prejoin-portability-audit.js",
+    "src/data/guides/vr-platform-library-access-mode-audit.js",
+    "src/data/guides/free-video-moderation-transparency-check.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "privacy-safety-payment",
-    "live-cams",
-    "webmaster-affiliate"
+    "premium-videos",
+    "dating-hookups",
+    "creator-platforms",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-games-access-and-update-evaluation",
-    "adult-shop-shipping-returns-prepurchase-check",
-    "adult-purchase-payment-privacy-choice",
-    "live-cam-listing-ranking-signals-audit",
-    "affiliate-link-integration-operational-readiness"
+    "premium-video-membership-change-tracking",
+    "dating-platform-message-access-map",
+    "creator-platform-prejoin-portability-audit",
+    "vr-platform-library-access-mode-audit",
+    "free-video-moderation-transparency-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38681979782",
-  "phase": "closed"
+  "r1CycleId": "38692531592"
 }
