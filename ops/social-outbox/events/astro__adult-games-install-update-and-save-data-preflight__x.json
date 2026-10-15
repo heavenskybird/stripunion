@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/adult-games-install-update-and-save-data-preflight",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-15T07:30:04.275Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-15T12:05:02.697Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ad0c16e4f1ca4dbda77b5fc",
   "provider_due_at": "2026-10-15T13:21:00.000Z",
   "created_at": "2026-10-15T07:30:04.275Z",
-  "updated_at": "2026-10-15T13:03:52.125Z",
+  "updated_at": "2026-10-15T13:31:00.570Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 2,
     "cadence_pressure_before_enqueue": 12,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
