@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-platform-identity-separation",
+  "slug": "adult-platform-account-identity-separation-plan",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Create an Identity-Separation Plan Without Assuming Anonymity",
+  "description": "Plan how to separate adult-platform accounts from personal and work identities by reviewing usernames, email, recovery details, notifications, and records.",
+  "excerpt": "A separate username is only one part of account privacy. This practical plan helps you reduce accidental links between accounts while keeping recovery, billing, and account records manageable.",
+  "keyTakeaways": [
+    "Treat identity separation as reducing avoidable links, not as a guarantee of anonymity.",
+    "Use distinct credentials and avoid usernames or profile details that connect directly to personal or work accounts.",
+    "Choose recovery details you can maintain securely; losing access can make an otherwise private account difficult to manage.",
+    "Review notification previews, shared-device sessions, browser profiles, and saved passwords as part of the same plan.",
+    "Keep billing and cancellation records secure without storing more account information than you need."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you are separating",
+      "paragraphs": [
+        "Before changing settings, identify the links you want to avoid. You may want an adult-platform username not to reveal a personal social profile, or you may want account emails kept apart from a workplace inbox. Those are different goals from preventing a payment processor, platform, or device from associating activity with an account. A practical plan starts by stating the boundary you want, then identifying where information could cross it.",
+        "No single setting can make an account anonymous. Services may keep records needed to operate accounts, devices can retain browsing data, email providers handle messages, and payment records may be held outside the platform. Avoid relying on a pseudonym as a promise that other records do not exist. The useful goal is to reduce unnecessary exposure and accidental association while keeping the account recoverable and its obligations visible."
+      ],
+      "bullets": [
+        "Separate personal or work contact details from platform account details where practical.",
+        "Avoid reusing a username, profile image, bio, or password that identifies another account.",
+        "Decide which notifications may appear on a lock screen or shared device.",
+        "Choose a safe place for essential account and billing records."
+      ]
+    },
+    {
+      "heading": "Build separation into account credentials",
+      "paragraphs": [
+        "Use a unique password for every account and store it in a password manager or another secure method you already trust. Reusing a password can connect accounts in ways that are difficult to undo, and a compromise on one service can put other accounts at risk. If you use an email alias or a separate mailbox, first confirm that you can receive recovery messages and that you will retain access to it.",
+        "Choose a username that does not repeat a handle used on personal, social, gaming, or work accounts. Avoid details in a profile that make it easy to identify you, such as a distinctive biography or a linked public profile, unless you intentionally want that connection. Do not invent false details that could interfere with age checks, billing, or account recovery. The aim is a consistent, manageable separation—not a profile that cannot be maintained."
+      ]
+    },
+    {
+      "heading": "Choose recovery and contact details you can maintain",
+      "paragraphs": [
+        "Account separation can fail if the only recovery address is inaccessible or shared with other people. Choose a contact route you control and can protect with strong authentication. Check whether recovery messages reveal the service name on a lock screen, in a shared inbox, or in a browser's autofill suggestions. If multiple people can see a mailbox, consider whether it is appropriate for private account recovery before using it.",
+        "Keep recovery information current. If you close or replace an email account, update dependent platform accounts first and verify that the change worked. Keep any recovery codes in a secure location separate from the device they protect. Avoid adding an unnecessary phone number or alternate contact simply because a form suggests it; first determine whether it is optional and how it may be used. Account access and privacy are both part of the decision."
+      ],
+      "table": {
+        "caption": "Review common account links and choose a manageable control for each.",
+        "headers": [
+          "Potential link",
+          "Practical control to consider"
+        ],
+        "rows": [
+          [
+            "Reused username",
+            "Choose a distinct handle and avoid identifying profile details."
+          ],
+          [
+            "Reused password",
+            "Use a unique password and store it securely."
+          ],
+          [
+            "Shared inbox",
+            "Use a contact route you control and can recover."
+          ],
+          [
+            "Lock-screen preview",
+            "Hide sensitive message previews or adjust notification settings."
+          ],
+          [
+            "Saved browser session",
+            "Use a separate browser profile or sign out on shared devices."
+          ],
+          [
+            "Account closure",
+            "Keep the correct closure and paid-access cancellation steps."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Audit devices, sessions, and notifications",
+      "paragraphs": [
+        "An account's privacy depends partly on the device where it is used. On a shared or borrowed device, consider whether browser history, saved passwords, downloads, open tabs, and an active login could be visible to someone else. A separate browser profile can help keep cookies and bookmarks apart from everyday browsing, but it does not erase network, service, or device records. Sign out when finished if another person may use the device.",
+        "Review notification content across the platform, email, and device settings. A message subject or sender name can appear on a lock screen, smartwatch, desktop notification, or shared tablet even when the platform itself is closed. Turn off previews or unnecessary alerts where appropriate, then verify the change with a test notification. Also check whether the platform offers active-session controls so you can recognize and end sessions you no longer use."
+      ],
+      "bullets": [
+        "Check browser profiles, autofill, saved passwords, and download locations.",
+        "Hide previews on screens that other people can see.",
+        "Review active sessions and sign out of devices you no longer control.",
+        "Avoid leaving an account open on a shared household or work device."
+      ]
+    },
+    {
+      "heading": "Keep billing and records separate but usable",
+      "paragraphs": [
+        "Payment privacy and account identity are related but not identical. Before paying, review the billing descriptor information available from the service and your payment provider, as well as recurring-payment and cancellation terms. Do not assume that a platform username controls what appears on a statement. If statement visibility matters to you, check the relevant payment documentation before making a purchase and choose only a method you understand and are permitted to use.",
+        "Keep receipts, cancellation confirmations, and support correspondence in a secure place you can access later. Records help resolve billing questions and confirm that an account change was completed, but storing them in a shared inbox or unprotected folder may create a different privacy risk. Avoid keeping card details in notes or screenshots. Retain only what you need for account management and any applicable recordkeeping obligations."
+      ]
+    },
+    {
+      "heading": "Review the plan when circumstances change",
+      "paragraphs": [
+        "Identity separation is not a one-time setup. Revisit it when you change a device, mailbox, password manager, payment method, or household arrangement. A phone replacement can leave old sessions active; a new email provider can disrupt recovery; a shared-device change can expose saved credentials. A short review at each change is more reliable than assuming old settings still fit.",
+        "If you decide to stop using an account, follow the platform's closure instructions and separately confirm whether any paid access must be cancelled through another route. Save confirmation and check for future messages or charges according to the terms you accepted. Deleting an app is not necessarily the same as closing an account, and closing an account may not remove records held elsewhere. Read the applicable information rather than assuming one action completes every step."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate email address make an account anonymous?",
+      "answer": "No. It can reduce one connection to your everyday inbox, but it does not erase platform, device, network, payment, or recovery records. Think of a separate address as one control in a broader privacy plan, and choose one you can keep secure and access when account recovery is needed."
+    },
+    {
+      "question": "Should I use a fake name or made-up account details?",
+      "answer": "Do not enter information that could conflict with account, billing, age, or recovery requirements. You can often limit unnecessary profile details or use a non-identifying username, but first check which fields are required and how the service uses them. Accurate information where required helps avoid access and account-management problems."
+    },
+    {
+      "question": "What is the first privacy check on a shared device?",
+      "answer": "Check whether the account is still signed in and whether the browser has saved passwords, history, or downloads that another user could see. Then review notifications and lock-screen previews. If the device is not yours or you cannot control its settings, avoid saving credentials and sign out when finished."
+    }
+  ],
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
