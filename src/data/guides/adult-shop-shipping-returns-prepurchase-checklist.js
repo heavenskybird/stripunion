@@ -1,0 +1,115 @@
+export default {
+  "slug": "adult-shop-shipping-returns-prepurchase-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Before Ordering from an Adult Shop: Check Shipping, Packaging and Return Terms",
+  "description": "Compare adult-shop delivery and return policies before checkout with a practical checklist for shipping estimates, packaging details, exceptions, and support records.",
+  "excerpt": "A product listing does not answer every delivery question. Use this checklist to compare shipping information, packaging disclosures, return conditions, and the records worth keeping.",
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "keyTakeaways": [
+    "Check whether delivery estimates are estimates or commitments, and identify the point at which an order is considered shipped.",
+    "Look for explicit packaging and sender information; do not assume that a retailer offers a particular level of discretion.",
+    "Read return exceptions by product condition and order status before buying, rather than relying on a general returns headline.",
+    "Compare the full checkout total and any stated shipping conditions before submitting payment.",
+    "Save the order confirmation, policy version or screenshots, tracking details, and support correspondence."
+  ],
+  "sections": [
+    {
+      "heading": "Check the delivery promise before adding items",
+      "paragraphs": [
+        "Shipping information can combine processing time, transit estimates, and exceptions. Find out whether the stated window begins when an order is placed, when payment clears, or when a parcel is handed to a carrier. Check whether the estimate depends on stock status, destination, shipping service, or business days. If a product page and shipping page differ, treat that as an unresolved detail and ask support before relying on a date.",
+        "Also look for how the retailer handles delays, split shipments, and tracking. A parcel may not receive tracking updates immediately, and a store's policy should explain what to do if an order appears stalled or is marked delivered but cannot be located. Keep the wording measured: an estimate is not the same as a guaranteed arrival date unless the terms expressly say so."
+      ],
+      "bullets": [
+        "Note the stated processing window and transit estimate separately.",
+        "Check whether the item is shown as available, backordered, or subject to a separate dispatch window.",
+        "Find the order-status and delayed-delivery contact route before checkout."
+      ]
+    },
+    {
+      "heading": "Verify packaging and sender information rather than assuming discretion",
+      "paragraphs": [
+        "Retailers use different language to describe packaging, labels, and sender details. Look for a specific explanation of the outer parcel, return address, invoice or packing slip, and any information visible to someone handling the delivery. A general claim about discreet shopping may not explain every part of the delivery process, so identify the exact details that matter to your household or workplace.",
+        "If the information is incomplete, ask a focused question before ordering and save the answer. Do not rely on an assumption that a carrier, bank statement, parcel locker, or shared delivery location will conceal the purchase. Consider whether you control the delivery address and who can access delivery notifications. These steps help you make a practical choice without treating packaging language as an absolute privacy guarantee."
+      ],
+      "table": {
+        "caption": "Delivery details to compare across retailer policies",
+        "headers": [
+          "Detail",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Outer packaging",
+            "What, if anything, does the policy say about the parcel's appearance?"
+          ],
+          [
+            "Sender or return address",
+            "What name or address information may appear on the label?"
+          ],
+          [
+            "Packing slip",
+            "Does the shipment include an invoice or other itemized document?"
+          ],
+          [
+            "Notifications",
+            "Which email, text, or account alerts may reveal order status?"
+          ],
+          [
+            "Delivery location",
+            "Can you choose a location you control, and what happens after a missed delivery?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read returns as conditions, exceptions and deadlines",
+      "paragraphs": [
+        "A returns headline does not establish that every item can be returned. Read the policy for condition requirements, time limits, hygiene-related or other product exceptions, opened packaging, damaged goods, and order errors. Check whether the policy distinguishes a change of mind from a defect or an item that does not match its description. The retailer's written terms, not a general retail assumption, should guide your decision.",
+        "Look for how to start a return, whether prior authorization is required, what evidence is requested, and how the retailer explains refund timing and method. If an item arrives damaged or incorrect, the process may differ from a standard return. Photographing the parcel and product condition before contacting support can help preserve a clear record, but follow the retailer's instructions and avoid sending sensitive information through an unverified channel."
+      ],
+      "bullets": [
+        "Identify the return window and the event that starts it.",
+        "Check which product conditions or categories are excluded.",
+        "Find the instructions for damaged, incorrect, or missing items.",
+        "Confirm how the policy describes refund method and processing steps."
+      ]
+    },
+    {
+      "heading": "Compare the checkout total and policy visibility",
+      "paragraphs": [
+        "The product price is only one part of the purchase decision. Review shipping charges, taxes or other amounts shown at checkout, and any threshold or condition attached to delivery options. The exact total can depend on destination and cart contents, so check the final screen before placing the order. If a fee or condition appears only late in checkout, decide whether the retailer has provided enough information for you to proceed confidently.",
+        "Check that policies are accessible before you enter payment details and that their wording is specific enough to answer your questions. A useful policy explains process, timing, exceptions, and contact routes rather than relying entirely on broad reassurance. Keep a copy of relevant terms and the final order summary. That record can help you distinguish what was stated at purchase from later changes to a public policy page."
+      ]
+    },
+    {
+      "heading": "Assess support by the issue you might need to resolve",
+      "paragraphs": [
+        "Support quality is easier to evaluate when you focus on a concrete delivery or returns problem. Look for a contact method, expected response guidance if provided, and instructions for order-status issues, damaged parcels, or return authorization. Check whether you can contact support without posting order details publicly. Avoid sending payment credentials or unnecessary personal data when a support request only requires an order number and a description of the issue.",
+        "Before ordering, test whether policy pages and help links are easy to locate and whether the steps are internally consistent. If you ask a pre-purchase question, save the response and note the date. A clear reply can clarify ambiguous terms, but it does not replace the written policy. If the answer conflicts with the policy or leaves an essential uncertainty unresolved, compare another retailer or postpone the order."
+      ]
+    },
+    {
+      "heading": "Keep a compact order and delivery record",
+      "paragraphs": [
+        "A small record makes follow-up less stressful. Save the order confirmation, item description, final total, stated delivery estimate, return terms, and any support replies. When the parcel ships, retain the carrier reference and note any unusual status change. Store records somewhere appropriate for your privacy needs; email receipts and phone alerts can be visible on shared devices or accounts.",
+        "If a problem occurs, contact the retailer through a route listed on its official site and describe the issue plainly. Include only the information needed to locate the order, and keep a copy of the message and response. This record is useful for tracking the retailer's stated process, but it is not a guarantee of a particular delivery result or refund outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume an adult-shop order will arrive in discreet packaging?",
+      "answer": "No. Packaging, labels, sender information, and packing slips vary. Check the retailer's specific written explanation and ask support about any detail that matters to you before ordering."
+    },
+    {
+      "question": "What should I check in an adult shop's return policy?",
+      "answer": "Review the time limit, product-condition rules, exclusions, authorization process, and instructions for damaged or incorrect orders. Do not assume that a general return headline applies to every item."
+    },
+    {
+      "question": "What records should I keep after placing an order?",
+      "answer": "Keep the order confirmation, final checkout summary, relevant shipping and return terms, tracking information, and support correspondence. Store them with your privacy needs in mind, especially on shared devices or accounts."
+    }
+  ]
+};
