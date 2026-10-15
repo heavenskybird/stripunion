@@ -1,0 +1,138 @@
+export default {
+  "slug": "creator-platform-content-audience-exit-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Build a Content and Audience Exit Plan Before You Join",
+  "description": "Compare creator platforms by what you can preserve, export, and communicate if you leave. Use a practical continuity plan before building a business around one service.",
+  "excerpt": "A platform can help creators reach paying fans, but a business plan should also account for what happens if the account, service, or terms change. Map content, records, and audience communication before committing.",
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "keyTakeaways": [
+    "Separate original files, platform-hosted posts, subscriber records, and business documents; they may have different export options and rules.",
+    "Check whether platform terms allow you to retain and reuse your own work outside the service, and note any exceptions or restrictions.",
+    "Do not assume followers, messages, subscriptions, or payment histories can be transferred to another service.",
+    "Create a compliant, optional way for interested fans to learn about future work without misusing platform data or sending unsolicited messages.",
+    "Review the platform’s current export, account closure, retention, and dispute documentation before relying on it."
+  ],
+  "sections": [
+    {
+      "heading": "Why exit planning belongs in platform selection",
+      "paragraphs": [
+        "A creator platform is not only a place to publish. It can also hold posts, audience interactions, subscription settings, payment records, and messages that support daily operations. If access changes, a service changes its rules, or you decide to move, the practical question is what parts of your business remain available to you. Planning for that possibility is not a prediction that a platform will fail. It is a way to avoid depending on assumptions that have never been checked.",
+        "Start by separating continuity into four areas: creative assets, business records, audience relationships, and account access. Each has different constraints. An original file saved by you is not the same as a post stored only on a service. A list of subscribers may be subject to privacy rules and platform terms. A payment statement may remain available for a limited period or require a specific account state. Treat each category separately rather than calling all of it an export."
+      ],
+      "bullets": [
+        "List which assets exist only on the platform and which you retain independently.",
+        "Record the official help or terms pages that explain downloads, account closure, and retention.",
+        "Identify a safe, lawful way to preserve essential business records."
+      ]
+    },
+    {
+      "heading": "Audit content rights and practical portability",
+      "paragraphs": [
+        "Read the content and license terms for what they actually say about ownership, hosting permission, promotional use, sublicensing, removal, and termination. A statement that you retain ownership does not necessarily answer every question about how the service may host or display a post. Conversely, a platform’s technical export may not include every format, caption, comment, or attachment. Make a note of what is explicit, what is conditional, and what remains unclear.",
+        "Test the available export or download process with non-sensitive material before you need it. Check whether files arrive in usable formats, whether dates and descriptions are retained, and whether the process includes only selected posts or a broader archive. Keep a separate, organized copy of original work and business documents in storage you control, with access protected by strong authentication. Do not save or redistribute material in ways that violate consent, rights, or service rules."
+      ],
+      "table": {
+        "caption": "A practical portability audit separates assets by control and uncertainty.",
+        "headers": [
+          "Asset or record",
+          "Question to verify",
+          "Continuity step"
+        ],
+        "rows": [
+          [
+            "Original creative files",
+            "Do you retain the source files outside the service?",
+            "Maintain an organized, access-controlled backup."
+          ],
+          [
+            "Published posts",
+            "Can you download them, and what metadata is included?",
+            "Test the documented export process."
+          ],
+          [
+            "Audience details",
+            "What does the service permit you to access or export?",
+            "Do not assume transfer rights; follow consent and terms."
+          ],
+          [
+            "Payment and tax records",
+            "How long are statements available and in what format?",
+            "Preserve records you are entitled to keep."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Plan audience communication without treating data as property",
+      "paragraphs": [
+        "Audience continuity is often less portable than content. A following count does not necessarily mean you possess a transferable contact list, and access to messages does not automatically authorize reuse of private information elsewhere. Before creating an off-platform channel, check the service rules, privacy obligations, and the permissions people gave. Prefer a clear opt-in route that lets interested fans choose whether to hear from you through a separate channel.",
+        "Write a neutral transition message in advance, but publish it only through channels and methods the platform permits. Give people a choice, explain where updates will appear, and avoid pressure or repeated contact. Do not copy private messages, infer contact details, or scrape profile information to rebuild an audience. A respectful transition protects trust even if the number of people who follow elsewhere is uncertain."
+      ],
+      "bullets": [
+        "Use opt-in communication rather than importing or scraping platform data.",
+        "Keep a record of where and when a transition notice is permitted.",
+        "Make it possible for people to decline further updates."
+      ]
+    },
+    {
+      "heading": "Preserve business records and access safely",
+      "paragraphs": [
+        "A continuity plan should include routine records, not only a last-minute archive. Keep copies of statements, invoices, relevant policy notices, and correspondence needed for bookkeeping or resolving a dispute, subject to applicable rules and privacy responsibilities. Use clear file names and dates so records remain useful later. Store them in a location that is not dependent on the same login or device as the creator account.",
+        "Secure account recovery before there is a problem. Use a unique password, enable available multifactor authentication, and maintain recovery information in a protected place. If a trusted business partner needs access, check whether the service provides role-based permissions rather than sharing credentials. Decide who can access backups and what happens if a collaborator leaves. A backup that nobody can securely retrieve is not a reliable continuity measure."
+      ]
+    },
+    {
+      "heading": "Compare platforms with an exit-readiness scorecard",
+      "paragraphs": [
+        "During selection, score evidence rather than promises. For each platform, note whether the relevant policy is easy to find, whether the process is described in concrete steps, whether you can test it, and whether an important question remains unanswered. Avoid treating a broad ownership statement as proof that every operational record can be exported. The goal is not to find a perfect platform; it is to understand the dependencies you are accepting.",
+        "Revisit the scorecard when the service changes terms, account controls, or export procedures. Keep the result alongside your ordinary business planning and decide in advance what would trigger a review, such as loss of access to essential records or a material change to content permissions. This turns a vague worry about platform dependence into a manageable set of checks and actions."
+      ],
+      "table": {
+        "caption": "Use these evidence prompts to compare exit readiness.",
+        "headers": [
+          "Area",
+          "Evidence to look for",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Content",
+            "Terms and a documented export or removal process",
+            "Can you retain usable copies of your own work?"
+          ],
+          [
+            "Audience",
+            "Clear limits on contact information and permitted messaging",
+            "What communication is allowed without data transfer?"
+          ],
+          [
+            "Records",
+            "Statement availability and account-closure guidance",
+            "Which records must you save routinely?"
+          ],
+          [
+            "Access",
+            "Recovery and authorized team-access controls",
+            "Can you recover the account without unsafe sharing?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does retaining ownership mean I can move all my posts to another platform?",
+      "answer": "Not necessarily. Ownership, the platform’s hosting license, technical export options, and the rights of people depicted or involved are separate issues. Read the terms and check what the actual export includes. If a permission or reuse question is unclear, do not assume that ownership alone answers it."
+    },
+    {
+      "question": "Can I export a list of subscribers to contact after leaving?",
+      "answer": "Do not assume that you can. Access to audience information and permission to reuse it depend on platform terms, privacy rules, and the consent people provided. Use only permitted, transparent communication methods, and avoid scraping or copying private information."
+    },
+    {
+      "question": "When should a creator make a continuity backup?",
+      "answer": "Make a routine plan before an urgent account or service change. Preserve records you are entitled to keep, retain original work in secure storage, and periodically confirm that your export and recovery steps still work. Follow relevant retention, privacy, and content-rights obligations."
+    }
+  ]
+};

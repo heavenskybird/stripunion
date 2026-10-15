@@ -1,0 +1,152 @@
+{
+  "backlogId": "vr-adult-platform-feature-claim-evidence-audit",
+  "slug": "vr-adult-platform-feature-claim-evidence-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Verify Feature Claims Before Choosing a Library",
+  "description": "A practical audit for checking VR platform claims against visible documentation and your own device needs. Separate confirmed compatibility, access details, and unresolved questions before signing up.",
+  "excerpt": "VR platform descriptions can use broad terms for formats, playback, and device support. This guide shows how to turn those claims into specific questions and document what you can verify before committing.",
+  "keyTakeaways": [
+    "Translate broad feature language into testable questions about your headset, browser, software, and intended playback path.",
+    "Separate official documentation from a marketing label, community comment, or assumption.",
+    "Check whether format and library details apply to specific titles rather than assuming they describe every item.",
+    "Record unresolved compatibility questions and avoid purchasing on the basis of an unverified requirement.",
+    "Recheck key details when device software or platform terms change."
+  ],
+  "sections": [
+    {
+      "heading": "Turn broad platform claims into specific questions",
+      "paragraphs": [
+        "VR product pages may use compact labels to describe a library or viewing experience. A label alone may not tell you which headset, browser, software version, or playback route is required. Before comparing services, translate each claim into a question you can answer: does it work with the device you own, does it require a separate application, and does the stated format apply to the particular title you want? This prevents a general description from being mistaken for a compatibility guarantee.",
+        "Build a short list of requirements based on your setup. Include headset model or category, whether you expect to use a headset browser or a connected computer, required account dependencies, and whether you need streaming or local files. Keep your intended setup stable while comparing options; otherwise differences in device, connection, or software can make the results difficult to interpret. If a service does not provide enough information to answer a critical requirement, record it as unknown."
+      ],
+      "bullets": [
+        "Write down the exact device and access route you plan to use.",
+        "Turn each marketing term into a question about a specific title or function.",
+        "Mark missing evidence as unknown instead of assuming compatibility."
+      ]
+    },
+    {
+      "heading": "Rank evidence by how directly it answers the question",
+      "paragraphs": [
+        "Not all evidence is equally useful. Current official compatibility documentation is more directly relevant to a device requirement than a general promotional description. A title detail page may answer format questions that a platform-wide landing page does not. Support documentation can clarify setup dependencies, while an informal comment may suggest a question to investigate but should not settle it. Keep a note of the source and date so you can tell what has been confirmed and what may need rechecking.",
+        "Look for concrete details rather than confidence of tone. Useful evidence identifies supported access paths, prerequisites, limits, and troubleshooting steps. If a page says only that a service is compatible with VR, it may not specify the headset or method. If a title carries a format label, check whether there is a definition or example that helps you interpret it. When an important claim cannot be verified from available documentation, ask support a narrowly framed question before spending or installing anything."
+      ],
+      "table": {
+        "caption": "Use an evidence hierarchy to avoid treating all claims as equivalent.",
+        "headers": [
+          "Evidence source",
+          "What it can help establish",
+          "Caution"
+        ],
+        "rows": [
+          [
+            "Current device documentation",
+            "Named prerequisites and supported access routes",
+            "Confirm it matches your exact setup."
+          ],
+          [
+            "Title-level details",
+            "Format or requirements for a specific item",
+            "Do not generalize to the entire library."
+          ],
+          [
+            "Support response",
+            "Clarification of a defined, unresolved question",
+            "Keep the wording and date for reference."
+          ],
+          [
+            "Promotional or informal claim",
+            "A lead for further checking",
+            "May omit conditions or exceptions."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check title-level details instead of inferring from a catalog label",
+      "paragraphs": [
+        "A platform-wide statement about its library may conceal meaningful differences between titles. One item may have a different format, access route, or set of metadata than another. If you have a shortlist, inspect the individual entries and record the information that matters for each one. A useful comparison includes the title’s stated format, any playback or download notes, and whether a preview is available through the same route you intend to use.",
+        "Be cautious when labels are undefined or used inconsistently. Do not assume that terms such as immersive, VR-ready, or compatible describe identical technical properties across services. Ask whether the platform provides a glossary, sample, or title-specific explanation. If you cannot tell what a label promises, treat it as a discovery tag rather than proof that the item will meet your device or viewing expectations."
+      ],
+      "bullets": [
+        "Check a small, representative title shortlist rather than a catalog headline.",
+        "Record the exact label and where its definition appears.",
+        "Distinguish preview access from full-item access and format support."
+      ]
+    },
+    {
+      "heading": "Verify the full access path before committing",
+      "paragraphs": [
+        "Compatibility is a chain, not a single checkbox. The intended path may involve a platform account, a browser or application, a device account, a network connection, and a content access rule. Confirm the steps that matter in sequence: where you sign in, how you open a title, which controller or navigation method is expected, and whether the content is streamed or stored locally. A breakdown at any step can make an otherwise compatible service impractical for your setup.",
+        "Use a no-cost or low-commitment evaluation only if the stated terms make it appropriate and clear. Do not install unfamiliar software or grant permissions without understanding what it requests. Check whether an account must be linked to another service and whether that link is necessary for the access route you want. If a critical step is undocumented, pause and obtain clarification rather than treating a successful landing page or login as proof that playback will work."
+      ]
+    },
+    {
+      "heading": "Maintain a change log for device and platform dependencies",
+      "paragraphs": [
+        "Compatibility can depend on software and account conditions that change over time. Keep a brief record of the device, browser or application, relevant software version, date checked, and the source used to confirm each requirement. This is useful if a feature later behaves differently or if you replace a device. It also helps distinguish a platform change from a local setting or network issue without relying on memory.",
+        "Recheck the most important requirements when your headset software changes, the platform updates its access method, or its terms and support pages are revised. A previous successful setup is practical evidence for that setup at that time, not a permanent promise for every future configuration. If continuity is important, save the relevant documentation and support guidance in a secure place, and avoid keeping unnecessary sensitive account details in the same notes."
+      ]
+    },
+    {
+      "heading": "Use a decision record, not a vague impression",
+      "paragraphs": [
+        "Before choosing, summarize each service in three columns: confirmed fit, unresolved questions, and acceptable compromises. For example, you may confirm that the documented access route matches your device while leaving title-level format details unresolved. The record makes it easier to decide whether to proceed, seek clarification, or choose another option. It also prevents a positive impression of the interface from overshadowing an essential technical gap.",
+        "Give the greatest weight to requirements that would make the service unusable for you. A minor navigation preference may be an acceptable compromise; an unsupported device route is not. Do not fill gaps with broad claims, testimonials, or assumptions about what a label usually means. The point of the audit is to make a defensible choice from available evidence and to know exactly what you still do not know."
+      ],
+      "table": {
+        "caption": "A compact decision record keeps verified facts separate from open questions.",
+        "headers": [
+          "Status",
+          "Record",
+          "Next step"
+        ],
+        "rows": [
+          [
+            "Confirmed",
+            "Requirement matched to current documentation",
+            "Keep the source and check date."
+          ],
+          [
+            "Unresolved",
+            "Key detail absent or ambiguous",
+            "Ask a specific support question."
+          ],
+          [
+            "Compromise",
+            "Nonessential feature differs from preference",
+            "Decide whether the trade-off is acceptable."
+          ],
+          [
+            "Not a fit",
+            "Essential requirement is not met or cannot be verified",
+            "Do not rely on the unconfirmed claim."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a general VR compatibility label guarantee that my headset will work?",
+      "answer": "No. A broad label may not identify the required headset, browser, software, application, or access route. Check current documentation against your specific setup and confirm any essential detail that remains unclear."
+    },
+    {
+      "question": "How should I treat a user comment about compatibility?",
+      "answer": "Use it as a prompt for a question, not as conclusive evidence. Device models, software versions, and access methods can differ. Compare the comment with current official documentation or ask support about the exact setup you plan to use."
+    },
+    {
+      "question": "How often should I recheck compatibility information?",
+      "answer": "Revisit it when a relevant device or software version changes, when the platform updates its access route, or before a new commitment if compatibility is essential. Keep the date and source of earlier checks so outdated information is recognizable."
+    }
+  ],
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
