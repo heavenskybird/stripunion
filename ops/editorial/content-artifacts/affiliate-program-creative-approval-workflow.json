@@ -1,0 +1,122 @@
+{
+  "backlogId": "affiliate-program-creative-approval-workflow",
+  "slug": "webmaster-affiliate-creative-approval-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Creative Approval Rules Before Publishing",
+  "description": "Build a practical review workflow for affiliate banners, copy and landing pages. Check asset permissions, approval steps, change notices and evidence before launch.",
+  "excerpt": "Affiliate creative rules can affect more than banner choice: they may cover copy, logos, landing pages and edits. Use this workflow to clarify what needs approval and keep a record of decisions.",
+  "keyTakeaways": [
+    "Separate program-supplied assets from materials you create; permission for one does not automatically establish permission for the other.",
+    "Check whether approval applies to an asset, a placement, a landing page, or the complete visitor journey.",
+    "Record the version and location of approved creative so later edits do not silently change what was reviewed.",
+    "Use a pre-publication checklist for claims, trademarks, disclosures, destinations and mobile rendering.",
+    "Ask for written clarification when terms leave an important use case or editing permission ambiguous."
+  ],
+  "sections": [
+    {
+      "heading": "Treat creative approval as a launch requirement",
+      "paragraphs": [
+        "Affiliate program terms may address the materials used to promote an offer as well as the traffic sources that deliver visitors. A program might provide banners or text links, while separately setting conditions for publisher-written copy, brand references, screenshots or landing pages. Do not assume that an asset being available in a dashboard means every placement or alteration is permitted.",
+        "Before building a campaign, identify which materials you intend to use and where they will appear. A banner in a review page, a comparison table, an email, and a paid advertisement can create different presentation contexts. The practical question is not simply “Is this creative allowed?” but “Is this exact creative allowed in this channel, alongside this copy, with this destination?”"
+      ],
+      "bullets": [
+        "List each asset type: supplied image, text link, logo, original copy, screenshot or custom graphic.",
+        "Map each asset to the page or channel where visitors will encounter it.",
+        "Identify which uses need approval before publication and who can provide that approval."
+      ]
+    },
+    {
+      "heading": "Make an approval matrix before producing variations",
+      "paragraphs": [
+        "A compact approval matrix prevents the team from treating one approved example as permission for every future variation. Note the asset, intended placement, required reviewer, approval status and any limitations. If approval applies only to a particular page or campaign, capture that scope rather than marking the creative as universally approved.",
+        "Include proposed edits in the matrix. Cropping, resizing, changing a headline, adding a claim, placing a logo next to editorial text or changing the destination can affect how a visitor understands the promotion. Even when the underlying image remains the same, the new context may deserve a fresh review under the program’s rules."
+      ],
+      "table": {
+        "caption": "A working matrix for documenting creative permissions",
+        "headers": [
+          "Material or placement",
+          "Question to resolve",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Program-supplied banner",
+            "Are alterations and placements specified?",
+            "Asset identifier, permitted edits and approved locations"
+          ],
+          [
+            "Publisher-written copy",
+            "Are claims or brand phrases restricted?",
+            "Copy version, review response and publication date"
+          ],
+          [
+            "Comparison or review page",
+            "Does approval cover the surrounding context?",
+            "Page URL, screenshots and approval scope"
+          ],
+          [
+            "Email or paid placement",
+            "Is this channel permitted and does it need separate review?",
+            "Channel, audience description and written confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review claims, context and visitor expectations",
+      "paragraphs": [
+        "Check that promotional wording is supportable and consistent with information you can verify. Avoid turning a general feature description into a promise about access, outcomes, availability or terms. A supplied headline is not a substitute for checking whether the same statement remains accurate in your placement. If a program provides current copy guidance, preserve the version you relied on.",
+        "Look at the complete visitor path. The link label, surrounding explanation, landing-page headline and destination should not imply different things. A visitor should be able to understand that a link is promotional where required, what it leads to, and which important conditions may affect the offer. Keep editorial descriptions distinct from program-provided claims so readers can tell what is an assessment and what is a promotion."
+      ],
+      "bullets": [
+        "Check that the link label describes the destination rather than promising an unverified result.",
+        "Review the placement on a narrow mobile screen as well as on desktop.",
+        "Confirm that required disclosures remain visible and understandable in the actual layout.",
+        "Remove outdated claims when the underlying offer or program guidance changes."
+      ]
+    },
+    {
+      "heading": "Keep versioned evidence, not just an approval email",
+      "paragraphs": [
+        "A useful record lets someone reconstruct what was approved. Save the creative file or a stable identifier, the copy version, the destination, the placement, the reviewer’s response and the date. If approval arrives through a dashboard or support conversation, retain an export or screenshot where appropriate. Store records in a location the people responsible for updates can access.",
+        "Use version control for pages and creative variants. If a headline changes after approval, record the change and determine whether it falls within the approval scope. This is especially useful when several people manage the site: without a record, a later editor may repeat an old design while missing the limitation attached to it."
+      ]
+    },
+    {
+      "heading": "Build a repeatable pre-publication check",
+      "paragraphs": [
+        "Run a brief review immediately before launch rather than relying on memory from the planning stage. Confirm the current program rules, permitted channel, asset rights, page context, link destination and disclosure presentation. Then click through the published route and check that the destination still matches the description. A correct draft can become misleading if a redirect or page update changes the visitor journey.",
+        "Repeat the check after a material edit, a change in placement, a destination change or a program notice that affects creative use. This does not require treating every routine technical adjustment as a full new campaign. It does require identifying which changes could alter the message, permissions or visitor expectation, and documenting the decision to reapprove or retain the existing approval."
+      ],
+      "bullets": [
+        "Verify the live page, not only the staging version.",
+        "Compare the live creative and copy with the approved versions.",
+        "Check the destination and disclosure placement on mobile.",
+        "Save the review date and note any unresolved questions before scaling the placement."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate dashboard asset automatically have unrestricted use?",
+      "answer": "Not necessarily. Availability in a dashboard does not by itself explain permitted channels, edits, placements or combinations with other claims. Check the program’s terms and asset instructions, and ask for clarification when a meaningful use case is not addressed."
+    },
+    {
+      "question": "Should I request approval for every small design adjustment?",
+      "answer": "Use the program’s stated review process. In your own workflow, distinguish cosmetic changes that do not alter meaning from changes that affect claims, branding, destination or visitor expectations. When the boundary is unclear, ask whether the existing approval covers the proposed adjustment and keep the response."
+    },
+    {
+      "question": "What should I save as proof of approval?",
+      "answer": "Keep the approved asset or its identifier, the relevant copy version, the intended placement and destination, the date, and the approval response. Include any limitations or conditions. A short record tying approval to a specific campaign is more useful than an isolated message without context."
+    }
+  ],
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

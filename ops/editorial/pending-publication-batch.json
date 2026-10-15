@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T00:08:42.251Z",
+  "generatedAt": "2026-10-15T01:29:43.957Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-account-access-map.json",
-    "ops/editorial/content-artifacts/adult-platform-identity-separation.json",
-    "ops/editorial/content-artifacts/creator-platform-portability-preflight.json",
-    "ops/editorial/content-artifacts/dating-messaging-access-audit.json",
-    "ops/editorial/content-artifacts/live-cam-data-use-planning.json"
+    "ops/editorial/content-artifacts/affiliate-program-creative-approval-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-no-account-evaluation-map.json",
+    "ops/editorial/content-artifacts/vr-platform-in-headset-purchase-checkout-audit.json",
+    "ops/editorial/content-artifacts/hentai-anime-guest-browsing-account-gates.json",
+    "ops/editorial/content-artifacts/free-video-ad-interruption-and-redirect-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-platform-account-access-map.js",
-    "src/data/guides/adult-platform-account-identity-separation-plan.js",
-    "src/data/guides/creator-platform-fan-portability-and-exit-plan.js",
-    "src/data/guides/dating-platform-messaging-access-and-membership-audit.js",
-    "src/data/guides/live-cam-streaming-data-use-and-quality-planning.js"
+    "src/data/guides/webmaster-affiliate-creative-approval-workflow.js",
+    "src/data/guides/premium-video-no-account-evaluation-map.js",
+    "src/data/guides/vr-adult-platform-in-headset-purchase-checkout-audit.js",
+    "src/data/guides/hentai-anime-platform-guest-browsing-account-gates.js",
+    "src/data/guides/free-video-platform-ad-interruption-and-redirect-audit.js"
   ],
   "categories": [
+    "webmaster-affiliate",
+    "premium-videos",
+    "vr-ar",
     "hentai-anime",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams"
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-anime-account-access-map",
-    "adult-platform-identity-separation",
-    "creator-platform-portability-preflight",
-    "dating-messaging-access-audit",
-    "live-cam-data-use-planning"
+    "affiliate-program-creative-approval-workflow",
+    "premium-video-no-account-evaluation-map",
+    "vr-platform-in-headset-purchase-checkout-audit",
+    "hentai-anime-guest-browsing-account-gates",
+    "free-video-ad-interruption-and-redirect-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38658055428",
-  "phase": "closed"
+  "r1CycleId": "38665706789"
 }
