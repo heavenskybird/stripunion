@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T07:26:30.969Z",
+  "generatedAt": "2026-10-15T09:28:56.302Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-install-and-update-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-product-specification-comparison.json",
-    "ops/editorial/content-artifacts/adult-manga-edition-translation-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-total-charge-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-support-readiness.json"
+    "ops/editorial/content-artifacts/dating-platform-message-access-preflight.json",
+    "ops/editorial/content-artifacts/creator-platform-commercial-terms-audit.json",
+    "ops/editorial/content-artifacts/shared-device-adult-account-privacy-workflow.json",
+    "ops/editorial/content-artifacts/live-cam-category-label-interpretation-guide.json",
+    "ops/editorial/content-artifacts/free-video-platform-moderation-evidence-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-install-update-and-save-data-preflight.js",
-    "src/data/guides/adult-shop-product-page-fit-material-and-compatibility-check.js",
-    "src/data/guides/adult-manga-editions-compare-translation-format-and-release-details.js",
-    "src/data/guides/premium-video-subscription-check-currency-tax-and-renewal-total.js",
-    "src/data/guides/webmaster-affiliate-program-support-escalation-readiness-checklist.js"
+    "src/data/guides/dating-platform-message-access-preflight.js",
+    "src/data/guides/creator-platform-commercial-terms-audit.js",
+    "src/data/guides/shared-device-adult-account-privacy-workflow.js",
+    "src/data/guides/live-cam-category-label-interpretation-guide.js",
+    "src/data/guides/free-video-platform-moderation-evidence-audit.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "premium-videos",
-    "webmaster-affiliate"
+    "dating-hookups",
+    "creator-platforms",
+    "privacy-safety-payment",
+    "live-cams",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-games-install-and-update-preflight",
-    "adult-shop-product-specification-comparison",
-    "adult-manga-edition-translation-comparison",
-    "premium-video-subscription-total-charge-audit",
-    "webmaster-affiliate-program-support-readiness"
+    "dating-platform-message-access-preflight",
+    "creator-platform-commercial-terms-audit",
+    "shared-device-adult-account-privacy-workflow",
+    "live-cam-category-label-interpretation-guide",
+    "free-video-platform-moderation-evidence-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38698486126",
-  "phase": "closed"
+  "r1CycleId": "38712800574"
 }
