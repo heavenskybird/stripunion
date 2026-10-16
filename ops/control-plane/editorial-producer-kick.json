@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 external heartbeat: success receipt started 2026-10-15T01:27:14.340Z, older than 52m; no active canonical writer/scheduler; fresh R1 admission requested",
-  "updated_at": "2026-10-15T03:01:48.046Z"
+  "reason": "R1 heartbeat bounded recovery: receipt failure run 38850741342 at 2026-10-16T04:27:55.620Z, attempts=1, >10m; no active writer; content validation failed (unsupported 'guaranteed privacy'); request fresh scheduler admission, not historical rerun",
+  "updated_at": "2026-10-16T05:00:21.820Z"
 }
