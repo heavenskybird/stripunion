@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T00:24:35.890Z",
+  "generatedAt": "2026-10-16T01:33:43.201Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-message-access-privacy-exit-check.json",
-    "ops/editorial/content-artifacts/live-cam-notification-exposure-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-portability-migration-plan.json",
-    "ops/editorial/content-artifacts/free-video-ad-tracking-and-account-privacy-guide.json",
-    "ops/editorial/content-artifacts/adult-game-storefront-platform-and-update-evidence.json"
+    "ops/editorial/content-artifacts/vr-platform-accessibility-onboarding-check.json",
+    "ops/editorial/content-artifacts/adult-shop-return-policy-comparison.json",
+    "ops/editorial/content-artifacts/hentai-anime-format-selection-guide.json",
+    "ops/editorial/content-artifacts/dating-platform-message-access-comparison.json",
+    "ops/editorial/content-artifacts/live-cam-unused-credit-terms-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-messaging-access-privacy-and-cancellation-check.js",
-    "src/data/guides/live-cam-platform-notification-and-alert-privacy-check.js",
-    "src/data/guides/creator-fan-platform-content-portability-and-migration-plan.js",
-    "src/data/guides/free-adult-video-platform-advertising-and-privacy-check.js",
-    "src/data/guides/adult-game-platform-support-installation-and-update-checklist.js"
+    "src/data/guides/vr-adult-platform-onboarding-and-first-session-checklist.js",
+    "src/data/guides/adult-shops-returns-and-delivery-policy-comparison.js",
+    "src/data/guides/adult-anime-platforms-choose-streaming-manga-or-games.js",
+    "src/data/guides/dating-platforms-compare-messaging-access-before-signing-up.js",
+    "src/data/guides/live-cam-credits-check-expiration-refund-and-unused-balance-terms.js"
   ],
   "categories": [
+    "vr-ar",
+    "adult-shops",
+    "hentai-anime",
     "dating-hookups",
-    "live-cams",
-    "creator-platforms",
-    "free-videos",
-    "adult-games"
+    "live-cams"
   ],
   "backlogIds": [
-    "dating-platform-message-access-privacy-exit-check",
-    "live-cam-notification-exposure-audit",
-    "creator-platform-portability-migration-plan",
-    "free-video-ad-tracking-and-account-privacy-guide",
-    "adult-game-storefront-platform-and-update-evidence"
+    "vr-platform-accessibility-onboarding-check",
+    "adult-shop-return-policy-comparison",
+    "hentai-anime-format-selection-guide",
+    "dating-platform-message-access-comparison",
+    "live-cam-unused-credit-terms-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38826043541",
-  "phase": "closed"
+  "r1CycleId": "38835593017"
 }
