@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T22:32:57.050Z",
+  "generatedAt": "2026-10-16T00:24:35.890Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-headset-storage-capacity-planning.json",
-    "ops/editorial/content-artifacts/adult-shop-delivery-returns-planning.json",
-    "ops/editorial/content-artifacts/adult-platform-account-identity-separation.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-application-readiness.json",
-    "ops/editorial/content-artifacts/premium-video-multi-subscription-renewal-calendar.json"
+    "ops/editorial/content-artifacts/dating-platform-message-access-privacy-exit-check.json",
+    "ops/editorial/content-artifacts/live-cam-notification-exposure-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-portability-migration-plan.json",
+    "ops/editorial/content-artifacts/free-video-ad-tracking-and-account-privacy-guide.json",
+    "ops/editorial/content-artifacts/adult-game-storefront-platform-and-update-evidence.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-headset-storage-capacity-planning.js",
-    "src/data/guides/adult-shop-shipping-returns-and-delivery-planning-guide.js",
-    "src/data/guides/adult-platform-account-identity-separation-workflow.js",
-    "src/data/guides/webmaster-affiliate-program-application-readiness-checklist.js",
-    "src/data/guides/premium-video-multiple-subscriptions-renewal-calendar.js"
+    "src/data/guides/dating-platform-messaging-access-privacy-and-cancellation-check.js",
+    "src/data/guides/live-cam-platform-notification-and-alert-privacy-check.js",
+    "src/data/guides/creator-fan-platform-content-portability-and-migration-plan.js",
+    "src/data/guides/free-adult-video-platform-advertising-and-privacy-check.js",
+    "src/data/guides/adult-game-platform-support-installation-and-update-checklist.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-shops",
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "premium-videos"
+    "dating-hookups",
+    "live-cams",
+    "creator-platforms",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "vr-adult-headset-storage-capacity-planning",
-    "adult-shop-delivery-returns-planning",
-    "adult-platform-account-identity-separation",
-    "webmaster-affiliate-program-application-readiness",
-    "premium-video-multi-subscription-renewal-calendar"
+    "dating-platform-message-access-privacy-exit-check",
+    "live-cam-notification-exposure-audit",
+    "creator-platform-portability-migration-plan",
+    "free-video-ad-tracking-and-account-privacy-guide",
+    "adult-game-storefront-platform-and-update-evidence"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 1,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38817637683",
-  "phase": "closed"
+  "r1CycleId": "38826043541"
 }

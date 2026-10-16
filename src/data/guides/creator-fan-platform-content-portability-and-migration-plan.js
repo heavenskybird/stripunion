@@ -1,0 +1,132 @@
+export default {
+  "slug": "creator-fan-platform-content-portability-and-migration-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator-Fan Platforms: Plan Content Portability Before Building a Subscription Business",
+  "description": "Assess creator platform export options, content rights, audience communication and migration dependencies before relying on one service.",
+  "excerpt": "A practical continuity plan for creators comparing platform terms, preserving original work and preparing for a change in service.",
+  "publishedAt": "2026-10-16",
+  "updatedAt": "2026-10-16",
+  "keyTakeaways": [
+    "Distinguish owning an original file from having a usable copy of platform-hosted data and content.",
+    "Read the terms for licenses, user permissions and removal or account-closure consequences.",
+    "Check whether subscriber, message and transaction records can be exported and in what format.",
+    "Do not assume that subscriber relationships or payment authorizations transfer to another service.",
+    "Maintain secure, organized copies of work and business records outside the platform."
+  ],
+  "sections": [
+    {
+      "heading": "Define portability before comparing services",
+      "paragraphs": [
+        "Portability is broader than downloading a media file. A creator may need original content files, captions, descriptions, release or consent records, publication dates, message history, subscriber records, transaction statements and proof of account settings. Different services may support different exports, and some information may be unavailable or subject to privacy restrictions. Treat each category separately rather than relying on a vague claim that data can be downloaded.",
+        "Start by listing what you would need to continue operating if you lost access to an account tomorrow. Separate creative assets from platform-generated records and from information about fans or collaborators. The last category requires particular care: a record being useful for business operations does not automatically mean it is appropriate or permitted to copy elsewhere. Check the service's terms, privacy information and applicable recordkeeping obligations before exporting or retaining personal information."
+      ],
+      "bullets": [
+        "List original files, metadata, business records and audience information separately.",
+        "Identify which materials are already stored securely outside the platform.",
+        "Record any export limits, formats or access conditions stated by the service."
+      ]
+    },
+    {
+      "heading": "Read ownership and license language closely",
+      "paragraphs": [
+        "Terms commonly distinguish ownership from permission to use content. A creator may retain rights in original work while granting the platform a license needed to host, display, distribute or promote it. The scope, duration and post-termination effects of that license depend on the actual terms. Read the language about sublicensing, promotional use, removal and account closure; do not assume that ownership alone answers what the platform may continue doing.",
+        "Also consider material that includes other people, collaborators or licensed assets. A platform's content rules and the agreements behind a work may affect where and how it can be reposted. Preserve the underlying permission and release records in a secure business system, and avoid transferring content to another service until you have confirmed that doing so is permitted. When terms are ambiguous or the stakes are significant, obtain qualified professional advice rather than relying on a general editorial checklist."
+      ],
+      "table": {
+        "caption": "Separate the rights and records involved in a content move",
+        "headers": [
+          "Item",
+          "Question to resolve before migration"
+        ],
+        "rows": [
+          [
+            "Original work",
+            "Who owns it, and where is the master file stored?"
+          ],
+          [
+            "Platform-hosted copy",
+            "Can it be downloaded, and what happens to the platform license after closure?"
+          ],
+          [
+            "Collaborator records",
+            "Are permissions and releases documented for the intended new use?"
+          ],
+          [
+            "Fan information",
+            "Can it be exported or reused under the applicable terms and privacy rules?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test account exports before you depend on them",
+      "paragraphs": [
+        "A menu item labeled export may cover only a subset of account information. Find out whether it includes posts, captions, private messages, subscriber records, transaction statements or other operational data. Check whether the resulting files are readable, whether media is included or only referenced, and whether exports are available while an account is active. A feature that is accessible only under certain account conditions may not help during a sudden loss of access.",
+        "If permitted, make a small test export and open the files in a secure environment. Confirm that filenames, dates and descriptions are understandable and that the contents are complete enough for your intended recordkeeping. Do not retain more audience information than necessary, and protect any exported data with access controls. Note the date, location and contents of each backup so you can tell whether it is current."
+      ],
+      "bullets": [
+        "Check the service's documentation for export scope and account eligibility.",
+        "Test whether files open and preserve useful names, dates and context.",
+        "Protect exports and limit access to people who need them for defined work."
+      ]
+    },
+    {
+      "heading": "Plan audience continuity without assuming transfer",
+      "paragraphs": [
+        "A following, subscriber list or message history is not necessarily portable just because a creator has access to it. Platform rules may restrict how audience data can be downloaded or used for promotion elsewhere, and fans may have chosen to receive communication only within the original service. Review consent, privacy and communications rules before using any contact information outside its original context.",
+        "A more durable continuity plan relies on clear, permitted channels and realistic expectations. Explain where official updates will appear if a platform change becomes necessary, without promising that subscriptions, payments or access will transfer. Keep public-facing information accurate and avoid pressuring fans to move. A migration plan should describe what will happen to existing access, billing and content on the old service, based on confirmed terms rather than assumptions."
+      ]
+    },
+    {
+      "heading": "Build a practical migration file",
+      "paragraphs": [
+        "A migration file is a concise operating record, not a copy of every account detail. Include a current inventory of original assets, secure backup locations, publishing metadata, rights and permission records, business statements, and links to the current platform terms and export instructions. Add a list of tasks that must be completed before closure, such as checking access periods, saving permitted records and communicating a change through allowed channels.",
+        "Set a review interval that fits your publishing and business routine. Recheck the terms when the service changes its rules, when you add a new content type or when your business depends more heavily on one platform. Keep the plan accessible to an authorized backup person if appropriate, but do not share passwords casually. A clear inventory makes it easier to compare platforms and reduces the chance that a technical export will be mistaken for a complete business handover."
+      ],
+      "table": {
+        "caption": "Core items for a creator continuity file",
+        "headers": [
+          "Record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Original asset inventory",
+            "Shows what exists and where a secure master copy is stored."
+          ],
+          [
+            "Rights and permission notes",
+            "Supports decisions about permitted reuse and transfer."
+          ],
+          [
+            "Export and closure instructions",
+            "Reduces dependence on memory if access changes."
+          ],
+          [
+            "Audience communication plan",
+            "Sets expectations without assuming subscriber data or payments transfer."
+          ],
+          [
+            "Statements and business records",
+            "Helps maintain an orderly operational history, subject to retention rules."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I own my content, can I repost it anywhere?",
+      "answer": "Not necessarily. Platform terms may include a license, and a work may also involve collaborators, releases, licensed material or other restrictions. Review the rights and permissions that apply to the specific work and intended destination before reposting."
+    },
+    {
+      "question": "Can I move my subscribers to another creator platform?",
+      "answer": "Do not assume subscriber relationships, payment details or contact information transfer. Check the service's terms and privacy rules, and communicate only through channels and methods that are permitted. Explain any change in access clearly without promising automatic continuity."
+    },
+    {
+      "question": "What should a creator export first when planning an exit?",
+      "answer": "Prioritize records that are permitted and operationally important: original assets, relevant metadata, business statements and documented permissions. Check the service's export scope before relying on it, and handle audience data carefully because access to a file does not automatically authorize every future use."
+    }
+  ]
+};
