@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-17T05:43:47.180Z",
-  "sourceGeneratedAt": "2026-10-17T05:43:47.140Z",
+  "generatedAt": "2026-10-18T06:05:04.612Z",
+  "sourceGeneratedAt": "2026-10-18T06:05:04.571Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 0,
       "verifiedSignups": 0,
@@ -36,14 +36,14 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-16"
+    "attributionSource": "2026-10-17"
   },
   "validatedLearnings": [],
   "portfolio": {
     "safeCreateCount": 8,
     "updateCount": 5,
-    "experimentCount": 1,
-    "totalDecisions": 18
+    "experimentCount": 0,
+    "totalDecisions": 17
   },
   "decisions": [
     {
@@ -86,10 +86,10 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
+            "query": "f95zone reivew",
             "impressions": 1,
             "clicks": 0,
-            "position": 8
+            "position": 5
           },
           {
             "source": "Bing",
@@ -102,10 +102,10 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
+            "query": "f95zone reviews",
             "impressions": 1,
             "clicks": 0,
-            "position": 5
+            "position": 8
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -113,15 +113,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/f95zone",
           "contentState": "review",
@@ -172,15 +164,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/stripchat",
           "contentState": "review",
@@ -316,6 +300,14 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
+            "query": "https+thefapguide+com+review+xhamster",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -333,14 +325,6 @@
             "source": "Bing",
             "date": "/Date(1784851200000)/",
             "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -428,18 +412,18 @@
           {
             "source": "Bing",
             "date": "/Date(1787270400000)/",
-            "query": "should a person be leary about xhamster site?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
             "query": "xhamster#R##N#review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "should a person be leary about xhamster site?",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
           },
           {
             "source": "Bing",
@@ -484,7 +468,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -492,7 +476,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -532,18 +516,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
             "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "xhamster  review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
           },
           {
             "source": "Bing",
@@ -559,15 +543,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/xhamster",
           "contentState": "review",
@@ -618,15 +594,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "approved AVCams/StripCash intent",
         "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/stripchat-alternatives",
           "contentState": "page",
@@ -685,15 +653,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -752,15 +712,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -777,42 +729,12 @@
       }
     },
     {
-      "id": "cta:stripunion.com:/",
-      "kind": "conversion",
-      "action": "EXPERIMENT",
-      "priority": 87,
-      "eligible": true,
-      "subject": "stripunion.com/",
-      "surface": "/",
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
-      "evidence": {
-        "sessions": 22,
-        "affiliateClicks": 0,
-        "affiliateCtr": 0,
-        "engagementRate": 0.3181818181818182
-      },
-      "payload": {
-        "host": "stripunion.com",
-        "page": "/",
-        "sessions": 22,
-        "engagedSessions": 7,
-        "affiliateClicks": 0,
-        "affiliateCtr": 0,
-        "engagementRate": 0.3181818181818182,
-        "recommendedAction": "Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.",
-        "evidenceThreshold": "Requires at least 20 sessions in the collected GA4 window."
-      }
-    },
-    {
       "id": "search:bing-6164756c7420746f7920",
       "kind": "search",
       "action": "CREATE",
       "priority": 86,
       "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
+      "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -830,7 +752,7 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
             "impressions": 1,
             "clicks": 0,
             "position": 1
@@ -838,26 +760,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
             "impressions": 1,
             "clicks": 0,
             "position": 1
           }
         ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -908,15 +822,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -967,15 +873,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -997,7 +895,7 @@
       "action": "CREATE",
       "priority": 83,
       "eligible": true,
-      "subject": "adult toy retailer discreet packaging billing privacy buying online",
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -1015,7 +913,7 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
             "impressions": 1,
             "clicks": 0,
             "position": 1
@@ -1023,26 +921,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
             "impressions": 1,
             "clicks": 0,
             "position": 1
           }
         ],
-        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1093,15 +983,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1152,15 +1034,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1211,15 +1085,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/pinkcherry",
           "contentState": "pending",
@@ -1270,15 +1136,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1329,15 +1187,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 2,
-            "removedUrlCount": 2,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
