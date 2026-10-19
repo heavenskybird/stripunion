@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-18T06:05:04.500Z",
+  "generatedAt": "2026-10-19T06:21:33.411Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
     "gsc": "2026-10-13T07:48:20.184Z",
-    "bing": "2026-10-18T06:02:16.548Z",
+    "bing": "2026-10-19T06:18:48.958Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 458,
         "headings": 7,
         "links": 13,
-        "queryImpressions": 101
+        "queryImpressions": 109
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -741,7 +741,7 @@
         "wordCount": 458,
         "headings": 7,
         "links": 13,
-        "queryImpressions": 101
+        "queryImpressions": 109
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
