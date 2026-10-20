@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-19T06:21:33.578Z",
-  "sourceGeneratedAt": "2026-10-19T06:21:33.511Z",
+  "generatedAt": "2026-10-20T06:10:07.722Z",
+  "sourceGeneratedAt": "2026-10-20T06:10:07.657Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 0,
       "verifiedSignups": 0,
@@ -36,585 +36,21 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-18"
+    "attributionSource": "2026-10-19"
   },
   "validatedLearnings": [],
   "portfolio": {
-    "safeCreateCount": 8,
-    "updateCount": 5,
+    "safeCreateCount": 7,
+    "updateCount": 1,
     "experimentCount": 0,
-    "totalDecisions": 17
+    "totalDecisions": 10
   },
   "decisions": [
-    {
-      "id": "search:bing-6639357a6f6e652d7265",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "F95Zone review",
-      "surface": "/f95zone",
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /f95zone landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 5,
-        "clicks": 0,
-        "bestPosition": 5,
-        "queryVariants": 5
-      },
-      "payload": {
-        "id": "bing-6639357a6f6e652d7265",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1781827200000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1781827200000)/",
-            "query": "world of dominion f95zone review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone make a review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          }
-        ],
-        "targetKeyword": "F95Zone review",
-        "recommendedAction": "refresh existing /f95zone landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/f95zone",
-          "contentState": "review",
-          "impressions": 5,
-          "clicks": 0,
-          "bestPosition": 5,
-          "queryVariants": 5
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 2
-      }
-    },
-    {
-      "id": "search:bing-7374726970636861742d",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "Stripchat review",
-      "surface": "/stripchat",
-      "monetizationRoute": "avcams-viewer",
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /stripchat landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 1,
-        "bestPosition": 8,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-7374726970636861742d",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1791504000000)/",
-            "query": "i want to understand abiut the stripchat live live stresming site",
-            "impressions": 2,
-            "clicks": 1,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "Stripchat review",
-        "recommendedAction": "refresh existing /stripchat landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/stripchat",
-          "contentState": "review",
-          "impressions": 2,
-          "clicks": 1,
-          "bestPosition": 8,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 5
-      }
-    },
-    {
-      "id": "search:bing-7868616d737465722d72",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "xHamster review / site overview",
-      "surface": "/xhamster",
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /xhamster landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 81,
-        "clicks": 0,
-        "bestPosition": 3,
-        "queryVariants": 42
-      },
-      "payload": {
-        "id": "bing-7868616d737465722d72",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1776384000000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1781222400000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1781222400000)/",
-            "query": "xhamsters review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1781827200000)/",
-            "query": "xhamster site review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1782432000000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1783036800000)/",
-            "query": "xhamster revieuw",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1783641600000)/",
-            "query": "xhamster  review",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1783641600000)/",
-            "query": "xhampster review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784246400000)/",
-            "query": "xhamster site overview",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784246400000)/",
-            "query": "adult industry update xhamster review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "xhamster site overview",
-            "impressions": 5,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "xhamster.com website review",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "xhamster#N##N#review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1785456000000)/",
-            "query": "xhamster  review",
-            "impressions": 10,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1785456000000)/",
-            "query": "xhamster review 2026",
-            "impressions": 6,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1785456000000)/",
-            "query": "xhamster hosts a vast variety of",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "xhamster content quality videos features review 2025",
-            "impressions": 4,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "xhamster reviews",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "xhamster site overview",
-            "impressions": 5,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "xhamster latest features and site overview",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "xhamster porn site pros and cons",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
-            "query": "xhamster  review",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
-            "query": "should a person be leary about xhamster site?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
-            "query": "xhamster#R##N#review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787875200000)/",
-            "query": "with the adult video platform xhamster.",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1788480000000)/",
-            "query": "xhasters reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1788480000000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1789084800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1789689600000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1790294400000)/",
-            "query": "xhamster.com site overview 2025 2026",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 3
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1790294400000)/",
-            "query": "xhamster reviewed",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1790899200000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1791504000000)/",
-            "query": "is xhamster an adult website",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "xhamster  review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "is xhamster a porn website?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 6
-          }
-        ],
-        "targetKeyword": "xHamster review / site overview",
-        "recommendedAction": "refresh existing /xhamster landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/xhamster",
-          "contentState": "review",
-          "impressions": 81,
-          "clicks": 0,
-          "bestPosition": 3,
-          "queryVariants": 42
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 1
-      }
-    },
-    {
-      "id": "search:gsc-7374726970636861742d",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "Stripchat alternatives",
-      "surface": "/stripchat-alternatives",
-      "monetizationRoute": "avcams-viewer",
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 9,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-7374726970636861742d",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "stripchat alternative",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          }
-        ],
-        "targetKeyword": "Stripchat alternatives",
-        "recommendedAction": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "approved AVCams/StripCash intent",
-        "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/stripchat-alternatives",
-          "contentState": "page",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 9,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 4
-      }
-    },
     {
       "id": "search:gsc-6164756c7420706c6174",
       "kind": "search",
       "action": "CREATE",
-      "priority": 90,
+      "priority": 100,
       "eligible": true,
       "subject": "adult platform",
       "surface": null,
@@ -666,14 +102,65 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 9
+        "rank": 2
+      }
+    },
+    {
+      "id": "search:gsc-7374726970636861742d",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Stripchat alternatives",
+      "surface": "/stripchat-alternatives",
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 9,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-7374726970636861742d",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-11",
+            "query": "stripchat alternative",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          }
+        ],
+        "targetKeyword": "Stripchat alternatives",
+        "recommendedAction": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "approved AVCams/StripCash intent",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/stripchat-alternatives",
+          "contentState": "page",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 9,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 1
       }
     },
     {
       "id": "search:gsc-737472697068756e",
       "kind": "search",
       "action": "CREATE",
-      "priority": 88,
+      "priority": 100,
       "eligible": true,
       "subject": "striphun",
       "surface": null,
@@ -725,234 +212,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 10
-      }
-    },
-    {
-      "id": "search:bing-6164756c7420746f7920",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 86,
-      "eligible": true,
-      "subject": "adult toy retailer discreet packaging billing privacy buying online",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-6164756c7420746f7920",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 7
-      }
-    },
-    {
-      "id": "search:bing-6672656520706f726e20",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 85,
-      "eligible": true,
-      "subject": "free porn union sites",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 3,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-6672656520706f726e20",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "free porn union sites",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "free porn union sites",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 3,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 11
-      }
-    },
-    {
-      "id": "search:bing-72657669657720667265",
-      "kind": "search",
-      "action": "HOLD",
-      "priority": 84,
-      "eligible": false,
-      "subject": "review free pornohamster.com",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "high",
-      "confidence": "low",
-      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-      "evidence": {
-        "impressions": 12,
-        "clicks": 0,
-        "bestPosition": 6,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-72657669657720667265",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1788480000000)/",
-            "query": "review free pornohamster.com",
-            "impressions": 12,
-            "clicks": 0,
-            "position": 6
-          }
-        ],
-        "targetKeyword": "review free pornohamster.com",
-        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 12,
-          "clicks": 0,
-          "bestPosition": 6,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "high",
-        "experimentWindow": "14 days",
         "rank": 3
-      }
-    },
-    {
-      "id": "search:bing-6164756c7420746f7920",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 83,
-      "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-6164756c7420746f7920",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 8
       }
     },
     {
       "id": "search:gsc-737472697078756174",
       "kind": "search",
       "action": "CREATE",
-      "priority": 76,
+      "priority": 97,
       "eligible": true,
       "subject": "stripxuat",
       "surface": null,
@@ -996,14 +263,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 13
+        "rank": 6
       }
     },
     {
       "id": "search:gsc-6164756c742073747269",
       "kind": "search",
       "action": "CREATE",
-      "priority": 73,
+      "priority": 94,
       "eligible": true,
       "subject": "adult strip cam",
       "surface": null,
@@ -1047,65 +314,65 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 14
+        "rank": 7
       }
     },
     {
-      "id": "search:bing-70696e6b636865727279",
+      "id": "search:bing-6164756c7420746f7920",
       "kind": "search",
-      "action": "MIGRATE",
-      "priority": 71,
+      "action": "CREATE",
+      "priority": 93,
       "eligible": true,
-      "subject": "PinkCherry review",
-      "surface": "/pinkcherry",
+      "subject": "adult toy retailer discreet packaging billing privacy buying online",
+      "surface": null,
       "monetizationRoute": null,
-      "risk": "medium",
+      "risk": "low",
       "confidence": "low",
-      "rationale": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+      "rationale": "evaluate a new on-site guide against the content inventory",
       "evidence": {
         "impressions": 1,
         "clicks": 0,
-        "bestPosition": 6,
+        "bestPosition": 1,
         "queryVariants": 1
       },
       "payload": {
-        "id": "bing-70696e6b636865727279",
+        "id": "bing-6164756c7420746f7920",
         "sourceEvidence": [
           {
             "source": "Bing",
-            "date": "/Date(1780012800000)/",
-            "query": "pinkcherry toys company website",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
             "impressions": 1,
             "clicks": 0,
-            "position": 6
+            "position": 1
           }
         ],
-        "targetKeyword": "PinkCherry review",
-        "recommendedAction": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
         "competitorEvidence": [],
         "ourEvidence": {
-          "page": "/pinkcherry",
-          "contentState": "pending",
+          "page": null,
+          "contentState": "new",
           "impressions": 1,
           "clicks": 0,
-          "bestPosition": 6,
+          "bestPosition": 1,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
-        "risk": "medium",
+        "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 12
+        "rank": 4
       }
     },
     {
       "id": "search:gsc-63616d20736974657320",
       "kind": "search",
       "action": "CREATE",
-      "priority": 70,
+      "priority": 91,
       "eligible": true,
       "subject": "cam sites free",
       "surface": null,
@@ -1149,43 +416,43 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 15
+        "rank": 8
       }
     },
     {
-      "id": "search:bing-782068616d7374657220",
+      "id": "search:bing-6164756c7420746f7920",
       "kind": "search",
-      "action": "HOLD",
-      "priority": 67,
-      "eligible": false,
-      "subject": "x hamster saxix review",
+      "action": "CREATE",
+      "priority": 90,
+      "eligible": true,
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
       "monetizationRoute": null,
-      "risk": "high",
+      "risk": "low",
       "confidence": "low",
-      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "rationale": "evaluate a new on-site guide against the content inventory",
       "evidence": {
         "impressions": 1,
         "clicks": 0,
-        "bestPosition": 10,
+        "bestPosition": 1,
         "queryVariants": 1
       },
       "payload": {
-        "id": "bing-782068616d7374657220",
+        "id": "bing-6164756c7420746f7920",
         "sourceEvidence": [
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "x hamster saxix review",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
             "impressions": 1,
             "clicks": 0,
-            "position": 10
+            "position": 1
           }
         ],
-        "targetKeyword": "x hamster saxix review",
-        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "commercialIntent": "unknown",
         "monetizationRoute": null,
         "competitorEvidence": [],
         "ourEvidence": {
@@ -1193,14 +460,14 @@
           "contentState": "new",
           "impressions": 1,
           "clicks": 0,
-          "bestPosition": 10,
+          "bestPosition": 1,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
-        "risk": "high",
+        "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 6
+        "rank": 5
       }
     },
     {

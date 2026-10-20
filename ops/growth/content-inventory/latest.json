@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-19T06:21:33.411Z",
+  "generatedAt": "2026-10-20T06:10:07.555Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
     "gsc": "2026-10-13T07:48:20.184Z",
-    "bing": "2026-10-19T06:18:48.958Z",
+    "bing": "2026-10-20T06:07:12.627Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -17,32 +17,6 @@
   "wordpressDraftCount": null,
   "publishReadyDraftCount": null,
   "updateCandidates": [
-    {
-      "route": "/index",
-      "title": "Adult platform reviews without the guesswork.",
-      "cluster": "platform reviews",
-      "score": 83,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 5,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.32,
-        "internalLinkPotential": 5,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 458,
-        "headings": 7,
-        "links": 13,
-        "queryImpressions": 109
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
-      "rank": 1
-    },
     {
       "route": "/how-stripchat-tokens-work",
       "title": "How Stripchat Tokens Work (2026)",
@@ -67,7 +41,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 2
+      "rank": 1
     },
     {
       "route": "/stripchat",
@@ -93,6 +67,32 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
+      "rank": 2
+    },
+    {
+      "route": "/index",
+      "title": "Adult platform reviews without the guesswork.",
+      "cluster": "platform reviews",
+      "score": 63,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.32,
+        "internalLinkPotential": 5,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 458,
+        "headings": 7,
+        "links": 13,
+        "queryImpressions": 2
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review",
       "rank": 3
     },
     {
@@ -722,31 +722,6 @@
   ],
   "pages": [
     {
-      "route": "/index",
-      "title": "Adult platform reviews without the guesswork.",
-      "cluster": "platform reviews",
-      "score": 83,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 5,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.32,
-        "internalLinkPotential": 5,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 458,
-        "headings": 7,
-        "links": 13,
-        "queryImpressions": 109
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
-    },
-    {
       "route": "/how-stripchat-tokens-work",
       "title": "How Stripchat Tokens Work (2026)",
       "cluster": "pricing/tokens",
@@ -795,6 +770,31 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
+    },
+    {
+      "route": "/index",
+      "title": "Adult platform reviews without the guesswork.",
+      "cluster": "platform reviews",
+      "score": 63,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 0,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.32,
+        "internalLinkPotential": 5,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 458,
+        "headings": 7,
+        "links": 13,
+        "queryImpressions": 2
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review"
     },
     {
       "route": "/stripchat-pricing",
