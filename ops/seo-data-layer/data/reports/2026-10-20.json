@@ -1,0 +1,900 @@
+{
+  "generatedAt": "2026-10-20T06:07:20.428Z",
+  "sourceDates": {
+    "gsc": "2026-10-11",
+    "ga4": "2026-10-19",
+    "clarity": "2026-10-19",
+    "bing": "2026-10-19",
+    "buffer": "2026-10-19",
+    "stripcash": "2026-10-19",
+    "attribution": "2026-10-19"
+  },
+  "sources": {
+    "gsc": true,
+    "ga4": true,
+    "clarity": true,
+    "bing": true,
+    "buffer": true,
+    "stripcash": true,
+    "attribution": true
+  },
+  "ga4Admin": {
+    "date": "2026-10-20",
+    "propertyId": "530171093",
+    "topology": "MAIN STREAM",
+    "unifiedFunnelCandidate": "G-K57BRX69X1",
+    "streams": [
+      {
+        "resourceName": "properties/530171093/dataStreams/14247320031",
+        "streamId": "14247320031",
+        "displayName": "StripUnion",
+        "defaultUri": "https://stripunion.com",
+        "measurementId": "G-K57BRX69X1",
+        "createTime": "2026-03-27T08:50:48.572Z",
+        "updateTime": "2026-03-27T08:50:48.572Z"
+      }
+    ]
+  },
+  "google": {
+    "clicks": 0,
+    "impressions": 0,
+    "ctr": 0,
+    "averagePosition": null,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "clicks": 0,
+        "impressions": 24
+      },
+      "blog": {
+        "clicks": 0,
+        "impressions": 47
+      },
+      "other": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    },
+    "rankingOpportunities": [
+      {
+        "date": "2026-10-08",
+        "query": "striphun",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "date": "2026-09-27",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-09-30",
+        "query": "adult platform",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-09-30",
+        "query": "stripxuat",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-10-02",
+        "query": "adult strip cam",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-10-04",
+        "query": "cam sites free",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "date": "2026-10-05",
+        "query": "adult platform",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-10-10",
+        "query": "striphun",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      }
+    ],
+    "highImpressionWeakCtr": [
+      {
+        "date": "2026-10-08",
+        "query": "striphun",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      }
+    ],
+    "topPagesByImpressions": [
+      {
+        "key": "https://stripunion.com/",
+        "value": 24
+      },
+      {
+        "key": "https://blog.stripunion.com/stripchat-vs-chaturbate-which-cam-site-is-better/",
+        "value": 23
+      },
+      {
+        "key": "https://blog.stripunion.com/live-streaming-platform-comparison/",
+        "value": 13
+      },
+      {
+        "key": "https://blog.stripunion.com/",
+        "value": 11
+      }
+    ]
+  },
+  "bing": {
+    "clicks": 0,
+    "impressions": 2,
+    "siteCoverage": [
+      {
+        "hostname": "stripunion.com",
+        "configured": true,
+        "verified": false,
+        "methods": {
+          "GetQueryStats": "error",
+          "GetPageStats": "error",
+          "GetCrawlStats": "error",
+          "GetCrawlIssues": "error",
+          "GetFeeds": "error",
+          "GetLinkCounts": "error",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "skipped_unverified",
+          "sitemapUrl": "https://stripunion.com/sitemap.xml",
+          "submitted": false,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
+      },
+      {
+        "hostname": "blog.stripunion.com",
+        "configured": true,
+        "verified": true,
+        "methods": {
+          "GetQueryStats": "ok",
+          "GetPageStats": "ok",
+          "GetCrawlStats": "ok",
+          "GetCrawlIssues": "ok",
+          "GetFeeds": "ok",
+          "GetLinkCounts": "ok",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "already_present",
+          "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+          "submitted": false,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
+      }
+    ],
+    "highImpressionZeroClickQueries": [
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 1,
+        "Clicks": 0,
+        "Date": "/Date(1792108800000)/",
+        "Impressions": 1,
+        "Query": "adult toy retailer discreet packaging billing privacy buying online",
+        "site": "blog.stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 1,
+        "Clicks": 0,
+        "Date": "/Date(1792108800000)/",
+        "Impressions": 1,
+        "Query": "adult toy retailer discreet billing shipping faq packaging",
+        "site": "blog.stripunion.com"
+      }
+    ],
+    "highImpressionZeroClickPages": [
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 1,
+        "Clicks": 0,
+        "Date": "/Date(1792108800000)/",
+        "Impressions": 2,
+        "Query": "https://blog.stripunion.com/adult-shop-privacy-packaging-billing-delivery/",
+        "site": "blog.stripunion.com"
+      }
+    ],
+    "crawlErrors": [
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1790899200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1790985600000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791072000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791158400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791244800000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791331200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791417600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791504000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791590400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791676800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791763200000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791849600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791936000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792022400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792108800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792195200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792281600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      }
+    ],
+    "crawlIssues": [],
+    "indexChanges": [
+      {
+        "site": "stripunion.com",
+        "indexed": null,
+        "previousIndexed": 40,
+        "change": -40
+      },
+      {
+        "site": "blog.stripunion.com",
+        "indexed": 3,
+        "previousIndexed": 3,
+        "change": 0
+      }
+    ],
+    "backlinks": {
+      "targetPageCount": 0,
+      "observedInboundCount": 0,
+      "sourceRowCount": 0,
+      "topTargetPages": [],
+      "topSourceRows": [],
+      "changes": [
+        {
+          "site": "stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        },
+        {
+          "site": "blog.stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        }
+      ]
+    },
+    "feeds": [
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(1792256655000)/",
+        "Status": "Success",
+        "Submitted": "/Date(1791185960538)/",
+        "Type": "Sitemap Index",
+        "Url": "https://blog.stripunion.com/sitemap_index.xml",
+        "UrlCount": 27,
+        "site": "blog.stripunion.com"
+      }
+    ],
+    "keywordResearch": {
+      "country": "us",
+      "language": "en-US",
+      "seeds": [
+        "adult toy retailer discreet billing shipping faq packaging",
+        "adult toy retailer discreet packaging billing privacy buying online",
+        "live cam sites",
+        "chaturbate alternatives",
+        "adult affiliate program",
+        "adult games",
+        "vr adult content"
+      ],
+      "relatedKeywordRows": 250,
+      "topRelated": [
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 7957915,
+          "Impressions": 7711247,
+          "Query": "pornhub",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2438287,
+          "Impressions": 1876601,
+          "Query": "free porn",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 1798819,
+          "Impressions": 677346,
+          "Query": "hentai",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 1341457,
+          "Impressions": 16910,
+          "Query": "adult",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 676709,
+          "Impressions": 238267,
+          "Query": "porn videos",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 540506,
+          "Impressions": 238024,
+          "Query": "porno",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 113858,
+          "Impressions": 65434,
+          "Query": "sex games",
+          "seed": "adult games"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 97009,
+          "Impressions": 39643,
+          "Query": "porn game",
+          "seed": "adult games"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 94101,
+          "Impressions": 87692,
+          "Query": "gamcore",
+          "seed": "adult games"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 90033,
+          "Impressions": 4720,
+          "Query": "affiliate",
+          "seed": "adult affiliate program"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 55242,
+          "Impressions": 54216,
+          "Query": "chatterbate",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 52961,
+          "Impressions": 32707,
+          "Query": "adult video",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 45501,
+          "Impressions": 24466,
+          "Query": "amazon associates",
+          "seed": "adult affiliate program"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 39532,
+          "Impressions": 18162,
+          "Query": "live sex",
+          "seed": "live cam sites"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 30466,
+          "Impressions": 28155,
+          "Query": "adult empire",
+          "seed": "vr adult content"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 27112,
+          "Impressions": 26015,
+          "Query": "chatubate",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 24247,
+          "Impressions": 21875,
+          "Query": "amazon affiliate program",
+          "seed": "adult affiliate program"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 23564,
+          "Impressions": 13348,
+          "Query": "nsfw games",
+          "seed": "adult games"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 22986,
+          "Impressions": 16938,
+          "Query": "live porn",
+          "seed": "live cam sites"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 21045,
+          "Impressions": 20886,
+          "Query": "free porn hub",
+          "seed": "vr adult content"
+        }
+      ]
+    }
+  },
+  "ga4": {
+    "sessions": 0,
+    "engagedSessions": 0,
+    "siteSegmentationAvailable": false,
+    "sites": null,
+    "otherHosts": [],
+    "engagementRate": 0,
+    "acquisitionSources": [],
+    "landingPages": [],
+    "affiliateClick": 0,
+    "conversions": null,
+    "revenue": 0,
+    "events": []
+  },
+  "clarity": {
+    "date": "2026-10-19",
+    "projectId": "ysuowheiiz",
+    "numOfDays": 3,
+    "metricNames": [
+      "DeadClickCount",
+      "ExcessiveScroll",
+      "RageClickCount",
+      "QuickbackClick",
+      "ScriptErrorCount",
+      "ErrorClickCount",
+      "ScrollDepth",
+      "Traffic",
+      "EngagementTime"
+    ],
+    "metricGroups": 9,
+    "informationRows": 109
+  },
+  "buffer": {
+    "channel": {
+      "id": "6ab75d92ea19ca0bdef12700",
+      "name": "stripunion51860",
+      "service": "twitter"
+    },
+    "sentPostCount": 184,
+    "scheduledPostCount": 0,
+    "impressions": 748,
+    "clicks": 42,
+    "engagement": {
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "reach": 0
+    },
+    "metricsUpdatedAt": "2026-10-20T04:56:21.115Z",
+    "highestPerformingPosts": [
+      {
+        "id": "6ab78d163afb9171a82bdd43",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 8,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 62.5,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 62.5,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 8,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6ac09f269fdc9f926e6d827a",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 7,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 3,
+          "engagementRate": 57.14,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 57.14,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 7,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 3,
+              "unit": "count"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6ab76b1d80521ded55248b28",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 5,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 40,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 40,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 5,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "stripcash": {
+    "reportScope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
+    "reportStatus": "success",
+    "metrics": {
+      "signup": 0,
+      "verifiedSignup": 0,
+      "verifiedSignupRate": 0,
+      "newCustomersCount": 0,
+      "firstPurchasesRate": 0,
+      "purchasesCount": 0,
+      "purchasesSumAmount": 0,
+      "purchaseEarnings": 0,
+      "rebillsRate": 0,
+      "uniqueSpenders": 0,
+      "newUniqueSpenders": 0,
+      "returningUniqueSpenders": 0,
+      "uniqueRevenueGenerators": 0,
+      "subscriptionCount": 0,
+      "subscriptionFirstCount": 0,
+      "subscriptionRebillsCount": 0,
+      "subscriptionSumAmount": 0,
+      "subscriptionFirstSumAmount": 0,
+      "subscriptionRebillsSumAmount": 0,
+      "subscriptionEarnings": 0,
+      "refundsCount": 0,
+      "refundsSumAmount": 0,
+      "refundDeductions": 0,
+      "modelsReferralEarnings": 0,
+      "webmasterRegistration": 0,
+      "webmasterReferralEarnings": 0,
+      "schemeEarnings": 0,
+      "totalEarnings": 0
+    }
+  },
+  "attribution": {
+    "reportScope": "first-party AVCams click/postback attribution",
+    "receiverConnected": true,
+    "postbackJoinReady": true,
+    "totalClicks": 4,
+    "totalPostbacks": 1,
+    "matchedPostbacks": 0,
+    "unmatchedPostbacks": 1,
+    "duplicatePostbacks": 0,
+    "eventCounts": {
+      "member_registration": 1
+    },
+    "revenueByCurrency": {},
+    "topP1": [
+      {
+        "key": "homepage",
+        "clicks": 2,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "avcams",
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "how-stripchat-tokens-work",
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    ]
+  },
+  "trafficControlPlane": {
+    "acquisitionSessions": {
+      "organic": 0,
+      "social": 0,
+      "communityReferral": 0,
+      "paid": 0,
+      "total": 0,
+      "unclassified": 0
+    },
+    "qualifiedSessions": 0,
+    "outboundAffiliateCtr": null,
+    "organicImpressions": 0,
+    "organicClicks": 0,
+    "indexedPages": 3,
+    "publishedContentCount": {
+      "astroCommercialPages": 20,
+      "trackedMainSitePages": 27,
+      "astroPagesTracked": 19,
+      "dataDrivenReviewsTracked": 8,
+      "wordpressPublishedPosts": null,
+      "wordpressDraftInventory": "unavailable"
+    },
+    "contentFreshness": {
+      "status": "not-measured",
+      "reason": "CMS publication dates are not part of the current GA4, GSC, or Bing snapshots."
+    },
+    "topAcquisitionLandingPages": [],
+    "stripcash": {
+      "signups": 0,
+      "verifiedSignups": 0,
+      "newCustomers": 0,
+      "purchases": 0,
+      "purchaseEarnings": 0,
+      "totalEarnings": 0,
+      "modelReferralEarnings": 0,
+      "webmasterRegistrations": 0,
+      "webmasterReferralEarnings": 0
+    },
+    "firstPartyAttribution": {
+      "clicks": 4,
+      "postbacks": 1,
+      "matchedPostbacks": 0,
+      "unmatchedPostbacks": 1,
+      "eventCounts": {
+        "member_registration": 1
+      },
+      "revenueByCurrency": {}
+    }
+  }
+}
