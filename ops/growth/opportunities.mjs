@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { opportunityId } from './opportunity-identity.mjs';
 import { reviews } from '../../src/data/reviews.js';
 import { vrReviews } from '../../src/data/reviews-vr.js';
 import { pendingReviews } from '../../src/data/legacy.js';
@@ -379,7 +380,7 @@ function addQuery({ sourceName, date, query, impressions, clicks, position, page
   );
 
   candidates.push({
-    id: `${sourceName.toLowerCase()}-${Buffer.from(topic.key).toString('hex').slice(0, 20)}`,
+    id: opportunityId(sourceName, topic.key),
     topicKey: topic.key,
     sourceEvidence: [{ source: sourceName, date, query, impressions, clicks, position }],
     targetKeyword: topic.label,
