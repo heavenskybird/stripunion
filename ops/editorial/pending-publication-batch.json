@@ -1,48 +1,47 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:06:19.299Z",
+  "generatedAt": "2026-10-21T14:02:36.468Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/affiliate-conversion-qualification-rules-audit.json",
-    "ops/editorial/content-artifacts/premium-video-age-assurance-data-review.json",
-    "ops/editorial/content-artifacts/adult-platform-local-browser-profile-hygiene.json",
-    "ops/editorial/content-artifacts/creator-platform-enforcement-appeals-readiness.json",
-    "ops/editorial/content-artifacts/adult-anime-mobile-manga-reader-usability-audit.json"
+    "ops/editorial/content-artifacts/free-video-autoplay-and-next-video-controls-audit.json",
+    "ops/editorial/content-artifacts/adult-game-community-participation-and-review-quality-guide.json",
+    "ops/editorial/content-artifacts/adult-shop-checkout-payment-and-billing-privacy-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-account-recovery-and-ownership-checklist.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-verification-and-safety-evidence-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/affiliate-conversion-qualification-rules-audit.js",
-    "src/data/guides/premium-video-age-assurance-data-review.js",
-    "src/data/guides/adult-platform-local-browser-profile-hygiene.js",
-    "src/data/guides/creator-platform-enforcement-appeals-readiness.js",
-    "src/data/guides/adult-anime-mobile-manga-reader-usability-audit.js"
+    "src/data/guides/free-video-platform-autoplay-and-next-video-controls-audit.js",
+    "src/data/guides/adult-game-community-participation-and-review-quality-guide.js",
+    "src/data/guides/adult-shop-checkout-payment-and-billing-privacy-audit.js",
+    "src/data/guides/vr-adult-platform-account-recovery-and-ownership-checklist.js",
+    "src/data/guides/adult-dating-platform-verification-and-safety-evidence-checklist.js"
   ],
   "categories": [
-    "webmaster-affiliate",
-    "premium-videos",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "affiliate-conversion-qualification-rules-audit",
-    "premium-video-age-assurance-data-review",
-    "adult-platform-local-browser-profile-hygiene",
-    "creator-platform-enforcement-appeals-readiness",
-    "adult-anime-mobile-manga-reader-usability-audit"
+    "free-video-autoplay-and-next-video-controls-audit",
+    "adult-game-community-participation-and-review-quality-guide",
+    "adult-shop-checkout-payment-and-billing-privacy-audit",
+    "vr-adult-platform-account-recovery-and-ownership-checklist",
+    "adult-dating-platform-verification-and-safety-evidence-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
     "loaded": true,
-    "observedSearchOpportunityCount": 8,
+    "observedSearchOpportunityCount": 12,
     "keywordExpansionCount": 20,
-    "risingKeywordCount": 3,
+    "risingKeywordCount": 2,
     "authoritySiteCount": 2,
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38850741342",
-  "phase": "closed"
+  "r1CycleId": "39612688105"
 }
