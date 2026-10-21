@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/affiliate-conversion-qualification-rules-audit",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-21T13:08:48.764Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-21T13:09:28.060Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ad8b9880e8e6c40c7d085cf",
   "provider_due_at": "2026-10-21T13:47:00.000Z",
   "created_at": "2026-10-21T13:08:48.764Z",
-  "updated_at": "2026-10-21T13:13:20.986Z",
+  "updated_at": "2026-10-21T14:06:29.560Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 0,
     "cadence_pressure_before_enqueue": 0,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
