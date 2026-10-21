@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 heartbeat bounded recovery: receipt failure run 38850741342 at 2026-10-16T04:27:55.620Z, attempts=1, >10m; no active writer; content validation failed (unsupported 'guaranteed privacy'); request fresh scheduler admission, not historical rerun",
-  "updated_at": "2026-10-16T05:00:21.820Z"
+  "reason": "Operator approved safe resume on 2026-10-21: R1 generator fix PR #153 merged, old cycle 38850741342 manually unlocked attempts 3->1 at 12:41Z with evidence preserved, no active Producer/Scheduler writer; request exactly one fresh Scheduler wake for bounded re-admission (never historical rerun).",
+  "updated_at": "2026-10-21T13:02:32.612Z"
 }
