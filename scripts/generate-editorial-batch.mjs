@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { categories } from '../src/data/categories.js';
+import { findUnsupportedEditorialClaim } from './editorial-generator-guards.mjs';
 
 const apiKey = process.env.OPENAI_API_KEY;
 const model = process.env.EDITORIAL_MODEL || 'gpt-6-luna';
@@ -171,7 +172,7 @@ function overlapRisk(artifact, existingGuides) {
   return max;
 }
 
-function validateBatch(payload, selectedCategories, existingGuides, existingBacklogIds, existingSlugs) {
+function validateBatch(payload, selectedCategories, existingGuides, existingArtifacts, existingBacklogIds, existingSlugs) {
   const errors = [];
   const artifacts = Array.isArray(payload?.artifacts) ? payload.artifacts : [];
   if (artifacts.length !== selectedCategories.length) {
@@ -183,10 +184,13 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
   const seenCategories = new Set();
   const seenSlugs = new Set();
   const seenBacklogIds = new Set();
-  const existingSignatures = existingGuides.map((guide) => ({
+  // Also compare against unpublished artifacts, not only already-published guide modules.
+  const existingSignatures = [...existingGuides, ...existingArtifacts].map((guide) => ({
     slug: guide.slug,
-    signature: tokens([guide.title, guide.description, guide.headings].join(' '))
+    signature: tokens([guide.title, guide.description, guide.headings,
+      ...(guide.sections || []).map((section) => section.heading || '')].join(' '))
   }));
+  const generatedSignatures = [];
 
   for (const artifact of artifacts) {
     if (!artifact || typeof artifact !== 'object') {
@@ -219,14 +223,19 @@ function validateBatch(payload, selectedCategories, existingGuides, existingBack
     });
     if (substantiveWords < 700) errors.push(artifact.slug + ': only ' + substantiveWords + ' substantive words; require >= 700.');
 
+    // Screen for exactly the same unsafe guarantees rejected by the compiler.
+    const forbidden = findUnsupportedEditorialClaim(artifact);
+    if (forbidden) errors.push(artifact.slug + ': unsupported superlative or guarantee: ' + forbidden);
+
     const signature = artifactSignature(artifact);
-    for (const existing of existingSignatures) {
+    for (const existing of [...existingSignatures, ...generatedSignatures]) {
       const score = jaccard(signature, existing.signature);
       if (score >= 0.42) {
         errors.push(artifact.slug + ': semantic-overlap risk ' + score.toFixed(2) + ' with existing ' + existing.slug);
         break;
       }
     }
+    generatedSignatures.push({ slug: artifact.slug, signature });
   }
 
   return { errors, artifacts };
@@ -430,7 +439,20 @@ const schemaHint = {
   ]
 };
 
+// The validator still checks the complete inventory. This smaller context helps
+// the model avoid collisions before spending its bounded generation attempts.
+const blockedRecentIdentifiers = [
+  ...(backlog.queue || [])
+    .filter((item) => selectedCategories.some((category) => category.name === item.category))
+    .slice(-80)
+    .map((item) => ({ id: item.id, intent: item.intent })),
+  ...allArtifacts
+    .filter((row) => selectedCategories.some((category) => category.slug === row.data.categorySlug))
+    .slice(-60)
+    .map((row) => ({ id: row.data.backlogId, slug: row.data.slug, intent: row.data.title }))
+];
 let lastErrors = [];
+const rejectedIdentifiers = new Set();
 let accepted = [];
 
 if (generationCount > 0) {
@@ -466,6 +488,10 @@ if (generationCount > 0) {
       '',
       'Carry-over categories already occupying this hourly batch (do not use them):',
       JSON.stringify([...usedCategories], null, 2),
+      '',
+      'Already-used or rejected identifiers: never reuse an ID, slug, or underlying topic; choose genuinely different reader intent:',
+      JSON.stringify({ recent: blockedRecentIdentifiers, rejectedThisRun: [...rejectedIdentifiers] }, null, 2),
+      'Do not simply append a number to camouflage duplicate editorial intent.',
       '',
       'Required JSON shape:',
       JSON.stringify(schemaHint, null, 2),
@@ -519,10 +545,15 @@ if (generationCount > 0) {
       continue;
     }
 
-    const validation = validateBatch(payload, selectedCategories, existingGuides, existingBacklogIds, existingSlugs);
+    const validation = validateBatch(payload, selectedCategories, existingGuides,
+      allArtifacts.map((row) => row.data), existingBacklogIds, existingSlugs);
     if (!validation.errors.length) {
       accepted = validation.artifacts;
       break;
+    }
+    for (const artifact of validation.artifacts) {
+      if (artifact?.slug) rejectedIdentifiers.add(artifact.slug);
+      if (artifact?.backlogId) rejectedIdentifiers.add(artifact.backlogId);
     }
     lastErrors = validation.errors.slice(0, 16);
   }
