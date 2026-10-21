@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T13:18:45.602Z",
-  "sourceGeneratedAt": "2026-10-21T13:18:45.555Z",
+  "generatedAt": "2026-10-21T13:21:53.255Z",
+  "sourceGeneratedAt": "2026-10-21T13:21:53.218Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -40,10 +40,10 @@
   },
   "validatedLearnings": [],
   "portfolio": {
-    "safeCreateCount": 8,
-    "updateCount": 5,
+    "safeCreateCount": 3,
+    "updateCount": 4,
     "experimentCount": 0,
-    "totalDecisions": 17
+    "totalDecisions": 11
   },
   "decisions": [
     {
@@ -102,7 +102,7 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 5
+        "rank": 4
       }
     },
     {
@@ -145,6 +145,14 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
             "query": "f95zone make a review",
             "impressions": 1,
             "clicks": 0,
@@ -157,14 +165,6 @@
             "impressions": 1,
             "clicks": 0,
             "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -316,7 +316,7 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
+            "query": "https+thefapguide+com+review+xhamster",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -340,7 +340,7 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
+            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -484,7 +484,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -492,7 +492,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -532,18 +532,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
             "query": "xhamster  review",
             "impressions": 1,
             "clicks": 0,
             "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
           },
           {
             "source": "Bing",
@@ -584,138 +584,12 @@
       }
     },
     {
-      "id": "search:gsc-e7ecce55f8c64492ec61e3b80a3fd5dd",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "Stripchat alternatives",
-      "surface": "/stripchat-alternatives",
-      "monetizationRoute": "avcams-viewer",
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 9,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-e7ecce55f8c64492ec61e3b80a3fd5dd",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "stripchat alternative",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          }
-        ],
-        "targetKeyword": "Stripchat alternatives",
-        "recommendedAction": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "approved AVCams/StripCash intent",
-        "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": "/stripchat-alternatives",
-          "contentState": "page",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 9,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 4
-      }
-    },
-    {
-      "id": "search:gsc-0164ca6c6ac3685a7594f588c1e17161",
+      "id": "search:bing-383614ad32d602566b69194685dad0ae",
       "kind": "search",
       "action": "CREATE",
-      "priority": 90,
+      "priority": 94,
       "eligible": true,
-      "subject": "adult platform",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 4,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "gsc-0164ca6c6ac3685a7594f588c1e17161",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "adult platform",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "adult platform",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "adult platform",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 4,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 9
-      }
-    },
-    {
-      "id": "search:gsc-6b218b6d76bc6f4d1614ad8f1731e116",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 88,
-      "eligible": true,
-      "subject": "striphun",
+      "subject": "free porn union sites",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -724,30 +598,22 @@
       "evidence": {
         "impressions": 3,
         "clicks": 0,
-        "bestPosition": 9.5,
-        "queryVariants": 2
+        "bestPosition": 7,
+        "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-6b218b6d76bc6f4d1614ad8f1731e116",
+        "id": "bing-383614ad32d602566b69194685dad0ae",
         "sourceEvidence": [
           {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "striphun",
-            "impressions": 2,
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "free porn union sites",
+            "impressions": 3,
             "clicks": 0,
-            "position": 9.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "striphun",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
+            "position": 7
           }
         ],
-        "targetKeyword": "striphun",
+        "targetKeyword": "free porn union sites",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
@@ -766,21 +632,21 @@
           "contentState": "new",
           "impressions": 3,
           "clicks": 0,
-          "bestPosition": 9.5,
-          "queryVariants": 2
+          "bestPosition": 7,
+          "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 10
+        "rank": 8
       }
     },
     {
       "id": "search:bing-f183180a5b493affbee84df916e009ca",
       "kind": "search",
       "action": "CREATE",
-      "priority": 86,
+      "priority": 89,
       "eligible": true,
       "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
@@ -840,40 +706,48 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 7
+        "rank": 6
       }
     },
     {
-      "id": "search:bing-383614ad32d602566b69194685dad0ae",
+      "id": "search:bing-fc9020574ec130be09cf21579efb999a",
       "kind": "search",
       "action": "CREATE",
-      "priority": 85,
+      "priority": 86,
       "eligible": true,
-      "subject": "free porn union sites",
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
       "confidence": "low",
       "rationale": "evaluate a new on-site guide against the content inventory",
       "evidence": {
-        "impressions": 3,
+        "impressions": 2,
         "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
+        "bestPosition": 1,
+        "queryVariants": 2
       },
       "payload": {
-        "id": "bing-383614ad32d602566b69194685dad0ae",
+        "id": "bing-fc9020574ec130be09cf21579efb999a",
         "sourceEvidence": [
           {
             "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "free porn union sites",
-            "impressions": 3,
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
             "clicks": 0,
-            "position": 7
+            "position": 1
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
           }
         ],
-        "targetKeyword": "free porn union sites",
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
@@ -890,16 +764,16 @@
         "ourEvidence": {
           "page": null,
           "contentState": "new",
-          "impressions": 3,
+          "impressions": 2,
           "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
+          "bestPosition": 1,
+          "queryVariants": 2
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 11
+        "rank": 7
       }
     },
     {
@@ -962,195 +836,10 @@
       }
     },
     {
-      "id": "search:bing-fc9020574ec130be09cf21579efb999a",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 83,
-      "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-fc9020574ec130be09cf21579efb999a",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 8
-      }
-    },
-    {
-      "id": "search:gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 76,
-      "eligible": true,
-      "subject": "stripxuat",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "stripxuat",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "stripxuat",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 13
-      }
-    },
-    {
-      "id": "search:gsc-48f567ada084daec09bcb42571bc3cf7",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 73,
-      "eligible": true,
-      "subject": "adult strip cam",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-48f567ada084daec09bcb42571bc3cf7",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "adult strip cam",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "adult strip cam",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 14
-      }
-    },
-    {
       "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
       "kind": "search",
       "action": "MIGRATE",
-      "priority": 71,
+      "priority": 80,
       "eligible": true,
       "subject": "PinkCherry review",
       "surface": "/pinkcherry",
@@ -1202,73 +891,14 @@
         "confidence": "low",
         "risk": "medium",
         "experimentWindow": "14 days",
-        "rank": 12
-      }
-    },
-    {
-      "id": "search:gsc-a046613ee6863976a7d98f5f5e8fdded",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 70,
-      "eligible": true,
-      "subject": "cam sites free",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 19,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-a046613ee6863976a7d98f5f5e8fdded",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-11",
-            "query": "cam sites free",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 19
-          }
-        ],
-        "targetKeyword": "cam sites free",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 19,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 15
+        "rank": 9
       }
     },
     {
       "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
       "kind": "search",
       "action": "HOLD",
-      "priority": 67,
+      "priority": 70,
       "eligible": false,
       "subject": "x hamster saxix review",
       "surface": null,
@@ -1320,7 +950,7 @@
         "confidence": "low",
         "risk": "high",
         "experimentWindow": "14 days",
-        "rank": 6
+        "rank": 5
       }
     },
     {
