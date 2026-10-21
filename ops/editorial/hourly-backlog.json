@@ -8603,7 +8603,7 @@
       "intent": "Premium Video Subscriptions: Check Access and Recovery Terms for a Failed Renewal",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -8616,7 +8616,7 @@
       "intent": "Free Video Platforms: Check Upload Context and Reposts Before Relying on a Listing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -8629,7 +8629,7 @@
       "intent": "Adult Games: Check Telemetry, Permissions and Data Sharing Before Launch",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -8642,7 +8642,7 @@
       "intent": "Adult Shops: Check Stock, Backorders and Substitution Terms Before Checkout",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -8655,7 +8655,7 @@
       "intent": "VR Adult Platforms: Check Account Data and Exit Options Before Creating a Profile",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
