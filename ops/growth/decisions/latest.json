@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T13:21:53.255Z",
-  "sourceGeneratedAt": "2026-10-21T13:21:53.218Z",
+  "generatedAt": "2026-10-21T13:26:20.283Z",
+  "sourceGeneratedAt": "2026-10-21T13:26:20.236Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -40,10 +40,10 @@
   },
   "validatedLearnings": [],
   "portfolio": {
-    "safeCreateCount": 3,
-    "updateCount": 4,
+    "safeCreateCount": 8,
+    "updateCount": 5,
     "experimentCount": 0,
-    "totalDecisions": 11
+    "totalDecisions": 17
   },
   "decisions": [
     {
@@ -102,7 +102,7 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 4
+        "rank": 5
       }
     },
     {
@@ -193,7 +193,7 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 2
+        "rank": 3
       }
     },
     {
@@ -316,14 +316,6 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -332,18 +324,26 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster#N##N#review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "https+thefapguide+com+review+xhamster",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "xhamster#N##N#review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
           },
           {
             "source": "Bing",
@@ -540,18 +540,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
             "query": "is xhamster a porn website?",
             "impressions": 1,
             "clicks": 0,
             "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
           }
         ],
         "targetKeyword": "xHamster review / site overview",
@@ -580,14 +580,188 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
+        "rank": 2
+      }
+    },
+    {
+      "id": "search:gsc-blog-6c59bb2972e690e661abc595ec1b8a2e",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "AdultFriendFinder review",
+      "surface": "/adultfriendfinder",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /adultfriendfinder landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 19,
+        "clicks": 0,
+        "bestPosition": 18.666666666666668,
+        "queryVariants": 7
+      },
+      "payload": {
+        "id": "gsc-blog-6c59bb2972e690e661abc595ec1b8a2e",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 19.5
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 20
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 7,
+            "clicks": 0,
+            "position": 29.142857142857142
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "sites like adultfriendfinder",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 18.666666666666668
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "websites like adultfriendfinder",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 19.333333333333332
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 28.5
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 30
+          }
+        ],
+        "targetKeyword": "AdultFriendFinder review",
+        "recommendedAction": "refresh existing /adultfriendfinder landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": "/adultfriendfinder",
+          "contentState": "review",
+          "impressions": 19,
+          "clicks": 0,
+          "bestPosition": 18.666666666666668,
+          "queryVariants": 7
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
         "rank": 1
+      }
+    },
+    {
+      "id": "search:gsc-blog-0164ca6c6ac3685a7594f588c1e17161",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 90,
+      "eligible": true,
+      "subject": "adult platform",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 4,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-blog-0164ca6c6ac3685a7594f588c1e17161",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adult platform",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adult platform",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          }
+        ],
+        "targetKeyword": "adult platform",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 4,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 9
       }
     },
     {
       "id": "search:bing-383614ad32d602566b69194685dad0ae",
       "kind": "search",
       "action": "CREATE",
-      "priority": 94,
+      "priority": 88,
       "eligible": true,
       "subject": "free porn union sites",
       "surface": null,
@@ -639,14 +813,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 8
+        "rank": 10
       }
     },
     {
       "id": "search:bing-f183180a5b493affbee84df916e009ca",
       "kind": "search",
       "action": "CREATE",
-      "priority": 89,
+      "priority": 86,
       "eligible": true,
       "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
@@ -706,14 +880,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 6
+        "rank": 7
       }
     },
     {
       "id": "search:bing-fc9020574ec130be09cf21579efb999a",
       "kind": "search",
       "action": "CREATE",
-      "priority": 86,
+      "priority": 83,
       "eligible": true,
       "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
@@ -773,14 +947,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 7
+        "rank": 8
       }
     },
     {
       "id": "search:bing-c880ec0c67c2ea62b52b0c4ccb79e197",
       "kind": "search",
       "action": "HOLD",
-      "priority": 84,
+      "priority": 81,
       "eligible": false,
       "subject": "review free pornohamster.com",
       "surface": null,
@@ -832,14 +1006,132 @@
         "confidence": "low",
         "risk": "high",
         "experimentWindow": "14 days",
-        "rank": 3
+        "rank": 4
+      }
+    },
+    {
+      "id": "search:gsc-blog-48f567ada084daec09bcb42571bc3cf7",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 79,
+      "eligible": true,
+      "subject": "adult strip cam",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-blog-48f567ada084daec09bcb42571bc3cf7",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "adult strip cam",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "adult strip cam",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 12
+      }
+    },
+    {
+      "id": "search:gsc-blog-4cffa3259f41e1541c4f3d6a7e2b9c50",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 76,
+      "eligible": true,
+      "subject": "are cam sites safe",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 11,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-blog-4cffa3259f41e1541c4f3d6a7e2b9c50",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "are cam sites safe",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 11
+          }
+        ],
+        "targetKeyword": "are cam sites safe",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 11,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 13
       }
     },
     {
       "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
       "kind": "search",
       "action": "MIGRATE",
-      "priority": 80,
+      "priority": 74,
       "eligible": true,
       "subject": "PinkCherry review",
       "surface": "/pinkcherry",
@@ -891,14 +1183,73 @@
         "confidence": "low",
         "risk": "medium",
         "experimentWindow": "14 days",
-        "rank": 9
+        "rank": 11
+      }
+    },
+    {
+      "id": "search:gsc-blog-a046613ee6863976a7d98f5f5e8fdded",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 73,
+      "eligible": true,
+      "subject": "cam sites free",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 19,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-blog-a046613ee6863976a7d98f5f5e8fdded",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "cam sites free",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 19
+          }
+        ],
+        "targetKeyword": "cam sites free",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 19,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 14
       }
     },
     {
       "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
       "kind": "search",
       "action": "HOLD",
-      "priority": 70,
+      "priority": 67,
       "eligible": false,
       "subject": "x hamster saxix review",
       "surface": null,
@@ -950,7 +1301,7 @@
         "confidence": "low",
         "risk": "high",
         "experimentWindow": "14 days",
-        "rank": 5
+        "rank": 6
       }
     },
     {
@@ -1003,6 +1354,65 @@
         "referringSourceRows": 0,
         "topTargets": [],
         "recommendedAction": "Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam."
+      }
+    },
+    {
+      "id": "search:gsc-blog-878a005b2b4fd819bf0e84100163e8cb",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 60,
+      "eligible": true,
+      "subject": "sites like adult friend finder",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 22,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-blog-878a005b2b4fd819bf0e84100163e8cb",
+        "sourceEvidence": [
+          {
+            "source": "GSC-Blog",
+            "date": "2026-10-19",
+            "query": "sites like adult friend finder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 22
+          }
+        ],
+        "targetKeyword": "sites like adult friend finder",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 22,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 15
       }
     }
   ]
