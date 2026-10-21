@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-21T13:26:46.474Z",
+  "generatedAt": "2026-10-21T13:41:44.730Z",
   "sourceDates": {
-    "gsc": null,
+    "gsc": "2026-10-19",
     "gscBlog": "2026-10-19",
     "ga4": "2026-10-20",
     "clarity": "2026-10-21",
@@ -11,7 +11,7 @@
     "attribution": "2026-10-20"
   },
   "sources": {
-    "gsc": false,
+    "gsc": true,
     "gscBlog": true,
     "ga4": true,
     "clarity": true,
@@ -46,14 +46,190 @@
       "note": "Independent Blog URL-prefix signal; do not add to main Domain property totals."
     },
     "clicks": 0,
-    "impressions": 0,
+    "impressions": 65,
     "ctr": 0,
-    "averagePosition": null,
-    "siteSegmentationAvailable": false,
-    "sites": null,
-    "rankingOpportunities": [],
-    "highImpressionWeakCtr": [],
-    "topPagesByImpressions": []
+    "averagePosition": 12.446153846153846,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "clicks": 0,
+        "impressions": 29
+      },
+      "blog": {
+        "clicks": 0,
+        "impressions": 128
+      },
+      "other": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    },
+    "rankingOpportunities": [
+      {
+        "date": "2026-10-17",
+        "query": "sites like adultfriendfinder",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 18.666666666666668
+      },
+      {
+        "date": "2026-10-17",
+        "query": "websites like adultfriendfinder",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 19.333333333333332
+      },
+      {
+        "date": "2026-10-08",
+        "query": "striphun",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "date": "2026-10-16",
+        "query": "adultfriendfinder alternatives",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "date": "2026-09-27",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "date": "2026-09-30",
+        "query": "adult platform",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-09-30",
+        "query": "stripxuat",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-10-02",
+        "query": "adult strip cam",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-10-04",
+        "query": "cam sites free",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "date": "2026-10-05",
+        "query": "adult platform",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      }
+    ],
+    "highImpressionWeakCtr": [
+      {
+        "date": "2026-10-17",
+        "query": "adultfriendfinder alternatives",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 29.142857142857142
+      },
+      {
+        "date": "2026-10-17",
+        "query": "sites like adultfriendfinder",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 18.666666666666668
+      },
+      {
+        "date": "2026-10-17",
+        "query": "websites like adultfriendfinder",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 19.333333333333332
+      },
+      {
+        "date": "2026-10-08",
+        "query": "striphun",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "date": "2026-10-16",
+        "query": "adultfriendfinder alternatives",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "date": "2026-10-18",
+        "query": "adultfriendfinder alternatives",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 28.5
+      }
+    ],
+    "topPagesByImpressions": [
+      {
+        "key": "https://blog.stripunion.com/stripchat-vs-chaturbate-which-cam-site-is-better/",
+        "value": 50
+      },
+      {
+        "key": "https://stripunion.com/",
+        "value": 29
+      },
+      {
+        "key": "https://blog.stripunion.com/live-streaming-platform-comparison/",
+        "value": 21
+      },
+      {
+        "key": "https://blog.stripunion.com/sites-like-adultfriendfinder/",
+        "value": 20
+      },
+      {
+        "key": "https://blog.stripunion.com/live-cam-site-safety/",
+        "value": 17
+      },
+      {
+        "key": "https://blog.stripunion.com/",
+        "value": 11
+      },
+      {
+        "key": "https://blog.stripunion.com/are-live-cam-sites-free/",
+        "value": 7
+      },
+      {
+        "key": "https://blog.stripunion.com/safest-cam-sites-to-watch-live-models-online/",
+        "value": 2
+      }
+    ]
   },
   "bing": {
     "clicks": 1,
@@ -73,8 +249,8 @@
           "GetUrlLinks": "ok"
         },
         "feedState": {
-          "status": "already_present",
-          "sitemapUrl": "https://stripunion.com/sitemap.xml",
+          "status": "no_public_sitemap",
+          "sitemapUrl": null,
           "submitted": false,
           "error": null
         },
@@ -1805,6 +1981,13 @@
           "BroadImpressions": 29249239,
           "Impressions": 9227093,
           "Query": "porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 29249239,
+          "Impressions": 9227093,
+          "Query": "porn",
           "seed": "xhamster site overview"
         },
         {
@@ -1813,13 +1996,6 @@
           "Impressions": 3350023,
           "Query": "xhamster",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 2438287,
-          "Impressions": 1876601,
-          "Query": "free porn",
-          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1837,10 +2013,38 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 386159,
+          "Impressions": 25756,
+          "Query": "hamster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 386159,
+          "Impressions": 25756,
+          "Query": "hamster",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 357435,
+          "Impressions": 344374,
+          "Query": "freeporn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 357435,
           "Impressions": 344374,
           "Query": "freeporn",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 357435,
+          "Impressions": 344374,
+          "Query": "freeporn",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1872,10 +2076,10 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 230683,
-          "Impressions": 221020,
-          "Query": "xhamster.com",
-          "seed": "xhamster reviews"
+          "BroadImpressions": 222989,
+          "Impressions": 219968,
+          "Query": "chaterbate",
+          "seed": "chaturbate alternatives"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1883,6 +2087,13 @@
           "Impressions": 92769,
           "Query": "x hamster",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 109424,
+          "Impressions": 92769,
+          "Query": "x hamster",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -1896,49 +2107,14 @@
           "BroadImpressions": 99050,
           "Impressions": 86595,
           "Query": "hamster porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 99050,
           "Impressions": 86595,
           "Query": "hamster porn",
-          "seed": "xhamster reviews"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 90033,
-          "Impressions": 4720,
-          "Query": "affiliate",
-          "seed": "adult affiliate program"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 70676,
-          "Impressions": 67867,
-          "Query": "xham",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 55242,
-          "Impressions": 54216,
-          "Query": "chatterbate",
-          "seed": "chaturbate alternatives"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 45501,
-          "Impressions": 24466,
-          "Query": "amazon associates",
-          "seed": "adult affiliate program"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 39532,
-          "Impressions": 18162,
-          "Query": "live sex",
-          "seed": "live cam sites"
         }
       ]
     }
@@ -1973,7 +2149,7 @@
       "EngagementTime"
     ],
     "metricGroups": 9,
-    "informationRows": 42
+    "informationRows": 65
   },
   "buffer": {
     "channel": {
@@ -2241,7 +2417,7 @@
     },
     "qualifiedSessions": 0,
     "outboundAffiliateCtr": null,
-    "organicImpressions": 0,
+    "organicImpressions": 65,
     "organicClicks": 0,
     "indexedPages": 42,
     "publishedContentCount": {
