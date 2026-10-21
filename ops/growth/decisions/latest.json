@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T13:44:13.702Z",
-  "sourceGeneratedAt": "2026-10-21T13:44:13.644Z",
+  "generatedAt": "2026-10-21T13:51:01.312Z",
+  "sourceGeneratedAt": "2026-10-21T13:51:01.271Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -41,9 +41,9 @@
   "validatedLearnings": [],
   "portfolio": {
     "safeCreateCount": 10,
-    "updateCount": 6,
+    "updateCount": 7,
     "experimentCount": 0,
-    "totalDecisions": 20
+    "totalDecisions": 21
   },
   "decisions": [
     {
@@ -102,7 +102,7 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 6
+        "rank": 7
       }
     },
     {
@@ -153,18 +153,18 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
             "query": "f95zone reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -316,6 +316,14 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
@@ -325,14 +333,6 @@
             "source": "Bing",
             "date": "/Date(1784851200000)/",
             "query": "https+thefapguide+com+review+xhamster",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -428,18 +428,18 @@
           {
             "source": "Bing",
             "date": "/Date(1787270400000)/",
-            "query": "xhamster#R##N#review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1787270400000)/",
             "query": "should a person be leary about xhamster site?",
             "impressions": 1,
             "clicks": 0,
             "position": 10
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1787270400000)/",
+            "query": "xhamster#R##N#review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
           },
           {
             "source": "Bing",
@@ -484,7 +484,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -492,7 +492,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -540,18 +540,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
             "query": "is xhamster a porn website?",
             "impressions": 1,
             "clicks": 0,
             "position": 6
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
           }
         ],
         "targetKeyword": "xHamster review / site overview",
@@ -584,6 +584,73 @@
       }
     },
     {
+      "id": "search:gsc-1c9e5c6e1010b318768676af408b6824",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Become a cam model",
+      "surface": "/become-a-cam-model",
+      "monetizationRoute": "avcams-model-signup",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /become-a-cam-model landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 2,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-1c9e5c6e1010b318768676af408b6824",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 2
+          }
+        ],
+        "targetKeyword": "Become a cam model",
+        "recommendedAction": "refresh existing /become-a-cam-model landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "approved creator-referral intent",
+        "monetizationRoute": "avcams-model-signup",
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": "/become-a-cam-model",
+          "contentState": "page",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 2,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 4
+      }
+    },
+    {
       "id": "search:gsc-6c59bb2972e690e661abc595ec1b8a2e",
       "kind": "search",
       "action": "UPDATE",
@@ -596,10 +663,10 @@
       "confidence": "low",
       "rationale": "refresh existing /adultfriendfinder landing page using clustered search evidence",
       "evidence": {
-        "impressions": 19,
+        "impressions": 23,
         "clicks": 0,
         "bestPosition": 18.666666666666668,
-        "queryVariants": 7
+        "queryVariants": 9
       },
       "payload": {
         "id": "gsc-6c59bb2972e690e661abc595ec1b8a2e",
@@ -659,6 +726,22 @@
             "impressions": 1,
             "clicks": 0,
             "position": 30
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 29
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "sites like adultfriendfinder",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 23.5
           }
         ],
         "targetKeyword": "AdultFriendFinder review",
@@ -678,10 +761,10 @@
         "ourEvidence": {
           "page": "/adultfriendfinder",
           "contentState": "review",
-          "impressions": 19,
+          "impressions": 23,
           "clicks": 0,
           "bestPosition": 18.666666666666668,
-          "queryVariants": 7
+          "queryVariants": 9
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
@@ -746,14 +829,89 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 5
+        "rank": 6
+      }
+    },
+    {
+      "id": "search:gsc-6b218b6d76bc6f4d1614ad8f1731e116",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 92,
+      "eligible": true,
+      "subject": "striphun",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 4,
+        "clicks": 0,
+        "bestPosition": 9,
+        "queryVariants": 3
+      },
+      "payload": {
+        "id": "gsc-6b218b6d76bc6f4d1614ad8f1731e116",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "striphun",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 9.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "striphun",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "striphun",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          }
+        ],
+        "targetKeyword": "striphun",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 4,
+          "clicks": 0,
+          "bestPosition": 9,
+          "queryVariants": 3
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 9
       }
     },
     {
       "id": "search:gsc-0164ca6c6ac3685a7594f588c1e17161",
       "kind": "search",
       "action": "CREATE",
-      "priority": 87,
+      "priority": 81,
       "eligible": true,
       "subject": "adult platform",
       "surface": null,
@@ -813,16 +971,16 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 10
+        "rank": 12
       }
     },
     {
-      "id": "search:gsc-6b218b6d76bc6f4d1614ad8f1731e116",
+      "id": "search:bing-383614ad32d602566b69194685dad0ae",
       "kind": "search",
       "action": "CREATE",
-      "priority": 85,
+      "priority": 79,
       "eligible": true,
-      "subject": "striphun",
+      "subject": "free porn union sites",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -831,30 +989,22 @@
       "evidence": {
         "impressions": 3,
         "clicks": 0,
-        "bestPosition": 9.5,
-        "queryVariants": 2
+        "bestPosition": 7,
+        "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-6b218b6d76bc6f4d1614ad8f1731e116",
+        "id": "bing-383614ad32d602566b69194685dad0ae",
         "sourceEvidence": [
           {
-            "source": "GSC",
-            "date": "2026-10-19",
-            "query": "striphun",
-            "impressions": 2,
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "free porn union sites",
+            "impressions": 3,
             "clicks": 0,
-            "position": 9.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-19",
-            "query": "striphun",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
+            "position": 7
           }
         ],
-        "targetKeyword": "striphun",
+        "targetKeyword": "free porn union sites",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
@@ -873,21 +1023,80 @@
           "contentState": "new",
           "impressions": 3,
           "clicks": 0,
-          "bestPosition": 9.5,
-          "queryVariants": 2
+          "bestPosition": 7,
+          "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 11
+        "rank": 13
+      }
+    },
+    {
+      "id": "search:bing-c880ec0c67c2ea62b52b0c4ccb79e197",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 78,
+      "eligible": false,
+      "subject": "review free pornohamster.com",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 12,
+        "clicks": 0,
+        "bestPosition": 6,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-c880ec0c67c2ea62b52b0c4ccb79e197",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1788480000000)/",
+            "query": "review free pornohamster.com",
+            "impressions": 12,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "review free pornohamster.com",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 12,
+          "clicks": 0,
+          "bestPosition": 6,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 5
       }
     },
     {
       "id": "search:bing-f183180a5b493affbee84df916e009ca",
       "kind": "search",
       "action": "CREATE",
-      "priority": 83,
+      "priority": 77,
       "eligible": true,
       "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
@@ -947,132 +1156,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 8
-      }
-    },
-    {
-      "id": "search:bing-383614ad32d602566b69194685dad0ae",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 82,
-      "eligible": true,
-      "subject": "free porn union sites",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 3,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-383614ad32d602566b69194685dad0ae",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "free porn union sites",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "free porn union sites",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 3,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 12
-      }
-    },
-    {
-      "id": "search:bing-c880ec0c67c2ea62b52b0c4ccb79e197",
-      "kind": "search",
-      "action": "HOLD",
-      "priority": 81,
-      "eligible": false,
-      "subject": "review free pornohamster.com",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "high",
-      "confidence": "low",
-      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-      "evidence": {
-        "impressions": 12,
-        "clicks": 0,
-        "bestPosition": 6,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-c880ec0c67c2ea62b52b0c4ccb79e197",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1788480000000)/",
-            "query": "review free pornohamster.com",
-            "impressions": 12,
-            "clicks": 0,
-            "position": 6
-          }
-        ],
-        "targetKeyword": "review free pornohamster.com",
-        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 12,
-          "clicks": 0,
-          "bestPosition": 6,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "high",
-        "experimentWindow": "14 days",
-        "rank": 4
+        "rank": 10
       }
     },
     {
       "id": "search:bing-fc9020574ec130be09cf21579efb999a",
       "kind": "search",
       "action": "CREATE",
-      "priority": 80,
+      "priority": 74,
       "eligible": true,
       "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
@@ -1132,14 +1223,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 9
+        "rank": 11
       }
     },
     {
       "id": "search:gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
       "kind": "search",
       "action": "CREATE",
-      "priority": 73,
+      "priority": 70,
       "eligible": true,
       "subject": "stripxuat",
       "surface": null,
@@ -1191,14 +1282,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 14
+        "rank": 15
       }
     },
     {
       "id": "search:gsc-48f567ada084daec09bcb42571bc3cf7",
       "kind": "search",
       "action": "CREATE",
-      "priority": 70,
+      "priority": 67,
       "eligible": true,
       "subject": "adult strip cam",
       "surface": null,
@@ -1250,14 +1341,14 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 15
+        "rank": 16
       }
     },
     {
       "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
       "kind": "search",
       "action": "MIGRATE",
-      "priority": 68,
+      "priority": 65,
       "eligible": true,
       "subject": "PinkCherry review",
       "surface": "/pinkcherry",
@@ -1309,14 +1400,14 @@
         "confidence": "low",
         "risk": "medium",
         "experimentWindow": "14 days",
-        "rank": 13
+        "rank": 14
       }
     },
     {
       "id": "search:gsc-4cffa3259f41e1541c4f3d6a7e2b9c50",
       "kind": "search",
       "action": "CREATE",
-      "priority": 67,
+      "priority": 64,
       "eligible": true,
       "subject": "are cam sites safe",
       "surface": null,
@@ -1362,124 +1453,6 @@
           "impressions": 1,
           "clicks": 0,
           "bestPosition": 11,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 16
-      }
-    },
-    {
-      "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
-      "kind": "search",
-      "action": "HOLD",
-      "priority": 64,
-      "eligible": false,
-      "subject": "x hamster saxix review",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "high",
-      "confidence": "low",
-      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 10,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-35d51b36604d7bcab39a47c3c3b29b69",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "x hamster saxix review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          }
-        ],
-        "targetKeyword": "x hamster saxix review",
-        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 10,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "high",
-        "experimentWindow": "14 days",
-        "rank": 7
-      }
-    },
-    {
-      "id": "search:gsc-a046613ee6863976a7d98f5f5e8fdded",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 64,
-      "eligible": true,
-      "subject": "cam sites free",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 19,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-a046613ee6863976a7d98f5f5e8fdded",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-19",
-            "query": "cam sites free",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 19
-          }
-        ],
-        "targetKeyword": "cam sites free",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 19,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
@@ -1542,10 +1515,128 @@
       }
     },
     {
+      "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 61,
+      "eligible": false,
+      "subject": "x hamster saxix review",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 10,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-35d51b36604d7bcab39a47c3c3b29b69",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "x hamster saxix review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          }
+        ],
+        "targetKeyword": "x hamster saxix review",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 10,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 8
+      }
+    },
+    {
+      "id": "search:gsc-a046613ee6863976a7d98f5f5e8fdded",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 61,
+      "eligible": true,
+      "subject": "cam sites free",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 19,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-a046613ee6863976a7d98f5f5e8fdded",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-19",
+            "query": "cam sites free",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 19
+          }
+        ],
+        "targetKeyword": "cam sites free",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 19,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 18
+      }
+    },
+    {
       "id": "search:gsc-878a005b2b4fd819bf0e84100163e8cb",
       "kind": "search",
       "action": "CREATE",
-      "priority": 51,
+      "priority": 48,
       "eligible": true,
       "subject": "sites like adult friend finder",
       "surface": null,
@@ -1597,7 +1688,7 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 18
+        "rank": 19
       }
     }
   ]

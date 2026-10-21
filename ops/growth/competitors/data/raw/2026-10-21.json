@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "generatedAt": "2026-10-21T13:44:13.422Z",
+  "generatedAt": "2026-10-21T13:51:01.116Z",
   "source": "public pages and public sitemaps; no page body stored",
   "limits": {
     "maxPagesPerDomain": 60,
@@ -12177,16 +12177,18 @@
           ],
           "comparisonTargets": [
             "vs LiveJasmin",
-            "vs MyFreeCams",
-            "vs Cam4",
             "vs Chaturbate",
-            "vs Flirt4Free"
+            "vs BongaCams",
+            "vs CamSoda",
+            "vs Streamate"
           ],
           "platformCoverage": [
             "stripchat",
             "livejasmin",
-            "myfreecams",
-            "chaturbate"
+            "chaturbate",
+            "bongacams",
+            "camsoda",
+            "streamate"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12239,17 +12241,17 @@
           ],
           "comparisonTargets": [
             "vs LiveJasmin",
-            "vs BongaCams",
             "vs CamSoda",
-            "vs Flirt4Free",
-            "vs StripChat"
+            "vs StripChat",
+            "vs BongaCams",
+            "vs Cam4"
           ],
           "platformCoverage": [
             "chaturbate",
             "livejasmin",
-            "bongacams",
             "camsoda",
-            "stripchat"
+            "stripchat",
+            "bongacams"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12300,17 +12302,17 @@
           ],
           "comparisonTargets": [
             "vs StripChat",
+            "vs BongaCams",
             "vs CamSoda",
-            "vs IMLive",
             "vs MyFreeCams",
-            "vs BongaCams"
+            "vs Cam4"
           ],
           "platformCoverage": [
             "chaturbate",
             "stripchat",
+            "bongacams",
             "camsoda",
-            "myfreecams",
-            "bongacams"
+            "myfreecams"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12363,15 +12365,15 @@
           ],
           "comparisonTargets": [
             "vs Chaturbate",
-            "vs Streamate",
             "vs Flirt4Free",
             "vs IMLive",
+            "vs StripChat",
             "vs LiveJasmin"
           ],
           "platformCoverage": [
             "camsoda",
             "chaturbate",
-            "streamate",
+            "stripchat",
             "livejasmin"
           ],
           "pricingSignals": {
@@ -12423,15 +12425,17 @@
           ],
           "comparisonTargets": [
             "vs BongaCams",
-            "vs IMLive",
-            "vs Flirt4Free",
             "vs LiveJasmin",
-            "vs Cam4"
+            "vs StripChat",
+            "vs IMLive",
+            "vs Streamate"
           ],
           "platformCoverage": [
             "chaturbate",
             "bongacams",
-            "livejasmin"
+            "livejasmin",
+            "stripchat",
+            "streamate"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12484,16 +12488,16 @@
           ],
           "comparisonTargets": [
             "vs Flirt4Free",
-            "vs IMLive",
-            "vs CamSoda",
             "vs StripChat",
-            "vs Streamate"
+            "vs MyFreeCams",
+            "vs CamSoda",
+            "vs Cam4"
           ],
           "platformCoverage": [
             "livejasmin",
-            "camsoda",
             "stripchat",
-            "streamate"
+            "myfreecams",
+            "camsoda"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12547,16 +12551,16 @@
           "comparisonTargets": [
             "vs BongaCams",
             "vs IMLive",
-            "vs Chaturbate",
-            "vs MyFreeCams",
-            "vs LiveJasmin"
+            "vs CamSoda",
+            "vs Streamate",
+            "vs Chaturbate"
           ],
           "platformCoverage": [
             "stripchat",
             "bongacams",
             "chaturbate",
-            "myfreecams",
-            "livejasmin"
+            "camsoda",
+            "streamate"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12610,17 +12614,15 @@
           ],
           "comparisonTargets": [
             "vs Chaturbate",
-            "vs LiveJasmin",
             "vs BongaCams",
-            "vs CamSoda",
-            "vs IMLive"
+            "vs Cam4",
+            "vs IMLive",
+            "vs Flirt4Free"
           ],
           "platformCoverage": [
             "myfreecams",
             "chaturbate",
-            "livejasmin",
-            "bongacams",
-            "camsoda"
+            "bongacams"
           ],
           "pricingSignals": {
             "currencyMentions": [
@@ -12666,16 +12668,16 @@
           "comparisonTargets": [],
           "platformCoverage": [
             "stripchat",
-            "camsoda"
+            "myfreecams"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$0.64",
               "$0.64",
               "$0.64",
+              "$1.50",
               "$1.20",
-              "$0.60",
-              "$1.50"
+              "$6.00"
             ],
             "tokenMentions": [
               "50 Token",
@@ -12702,7 +12704,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 291,
+          "approximateWords": 290,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -12719,15 +12721,18 @@
           "comparisonTargets": [],
           "platformCoverage": [
             "livejasmin",
-            "camsoda"
+            "chaturbate",
+            "myfreecams",
+            "stripchat"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$0.99",
               "$0.99",
-              "$0.60",
-              "$1.50",
-              "$1.20"
+              "$0.54",
+              "$1.20",
+              "$6.00",
+              "$0.64"
             ],
             "tokenMentions": []
           },
@@ -12751,7 +12756,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 281,
+          "approximateWords": 282,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -12769,16 +12774,14 @@
           "platformCoverage": [
             "chaturbate",
             "streamate",
-            "livejasmin",
-            "stripchat"
+            "camsoda"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$0.54",
               "$0.54",
-              "$1.20",
-              "$0.99",
-              "$0.64"
+              "$0.60",
+              "$1.20"
             ],
             "tokenMentions": []
           },
@@ -12802,7 +12805,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 266,
+          "approximateWords": 265,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -12820,16 +12823,15 @@
           "platformCoverage": [
             "bongacams",
             "chaturbate",
-            "stripchat",
-            "streamate",
-            "livejasmin"
+            "myfreecams"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$1.52",
               "$1.52",
-              "$0.64",
-              "$0.99"
+              "$6.00",
+              "$1.20",
+              "$1.50"
             ],
             "tokenMentions": [
               "10 Tokens",
@@ -12856,7 +12858,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 255,
+          "approximateWords": 256,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -12876,15 +12878,14 @@
             "stripchat",
             "chaturbate",
             "streamate",
-            "myfreecams"
+            "bongacams"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$0.60",
               "$0.60",
-              "$1.50",
-              "$6.00",
-              "$1.20"
+              "$0.64",
+              "$1.52"
             ],
             "tokenMentions": [
               "200 tokens"
@@ -12910,7 +12911,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 262,
+          "approximateWords": 263,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -12927,19 +12928,18 @@
           "comparisonTargets": [],
           "platformCoverage": [
             "myfreecams",
-            "chaturbate",
-            "camsoda",
-            "livejasmin"
+            "bongacams",
+            "livejasmin",
+            "stripchat"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$6.00",
               "$6",
               "$6.00",
-              "$0.54",
-              "$0.60",
-              "$1.50",
-              "$0.99"
+              "$1.52",
+              "$0.99",
+              "$0.64"
             ],
             "tokenMentions": []
           },
@@ -12979,17 +12979,16 @@
           ],
           "comparisonTargets": [],
           "platformCoverage": [
-            "streamate",
-            "chaturbate",
-            "bongacams"
+            "myfreecams",
+            "stripchat"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$1.20",
               "$1.20",
-              "$0.54",
-              "$1.52",
-              "$1.50"
+              "$1.50",
+              "$6.00",
+              "$0.64"
             ],
             "tokenMentions": []
           },
@@ -13013,7 +13012,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 244,
+          "approximateWords": 243,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -13029,16 +13028,18 @@
           ],
           "comparisonTargets": [],
           "platformCoverage": [
-            "myfreecams",
-            "camsoda"
+            "stripchat",
+            "bongacams",
+            "livejasmin"
           ],
           "pricingSignals": {
             "currencyMentions": [
               "$1.50",
               "$1.50",
-              "$6.00",
+              "$0.64",
+              "$1.52",
               "$1.20",
-              "$0.60"
+              "$0.99"
             ],
             "tokenMentions": [
               "120 Credits",
@@ -13084,15 +13085,15 @@
           "platformCoverage": [
             "streamate",
             "jerkmate",
+            "chaturbate",
             "camsoda",
-            "stripchat",
-            "chaturbate"
+            "myfreecams"
           ],
           "pricingSignals": {
             "currencyMentions": [
+              "$0.54",
               "$0.60",
-              "$0.64",
-              "$0.54"
+              "$6.00"
             ],
             "tokenMentions": []
           },
@@ -13116,7 +13117,7 @@
             "lastModifiedHeader": null,
             "dateTokens": []
           },
-          "approximateWords": 210,
+          "approximateWords": 209,
           "internalLinks": 25,
           "externalDestinations": [],
           "ctaLabels": [
@@ -13132,15 +13133,15 @@
           ],
           "comparisonTargets": [],
           "platformCoverage": [
+            "livejasmin",
             "bongacams",
-            "camsoda",
-            "streamate",
             "stripchat"
           ],
           "pricingSignals": {
             "currencyMentions": [
+              "$1.20",
+              "$0.99",
               "$1.52",
-              "$0.60",
               "$0.64"
             ],
             "tokenMentions": []
@@ -13740,7 +13741,7 @@
               "Updated October 20, 2026<"
             ]
           },
-          "approximateWords": 6687,
+          "approximateWords": 6749,
           "internalLinks": 243,
           "externalDestinations": [],
           "ctaLabels": [
