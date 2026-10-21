@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-21T13:13:45.021Z",
-  "sourceGeneratedAt": "2026-10-21T13:13:44.961Z",
+  "generatedAt": "2026-10-21T13:18:45.602Z",
+  "sourceGeneratedAt": "2026-10-21T13:18:45.555Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -47,98 +47,7 @@
   },
   "decisions": [
     {
-      "id": "search:bing-6639357a6f6e652d7265",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "F95Zone review",
-      "surface": "/f95zone",
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /f95zone landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 5,
-        "clicks": 0,
-        "bestPosition": 5,
-        "queryVariants": 5
-      },
-      "payload": {
-        "id": "bing-6639357a6f6e652d7265",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1781827200000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1781827200000)/",
-            "query": "world of dominion f95zone review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone make a review",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "F95Zone review",
-        "recommendedAction": "refresh existing /f95zone landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": "/f95zone",
-          "contentState": "review",
-          "impressions": 5,
-          "clicks": 0,
-          "bestPosition": 5,
-          "queryVariants": 5
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 2
-      }
-    },
-    {
-      "id": "search:bing-7374726970636861742d",
+      "id": "search:bing-2e886c865880b946ab4a91f91429ba94",
       "kind": "search",
       "action": "UPDATE",
       "priority": 100,
@@ -156,7 +65,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "bing-7374726970636861742d",
+        "id": "bing-2e886c865880b946ab4a91f91429ba94",
         "sourceEvidence": [
           {
             "source": "Bing",
@@ -197,7 +106,98 @@
       }
     },
     {
-      "id": "search:bing-7868616d737465722d72",
+      "id": "search:bing-4385f15b20ee9736545e7f6049716b03",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "F95Zone review",
+      "surface": "/f95zone",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /f95zone landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 5,
+        "clicks": 0,
+        "bestPosition": 5,
+        "queryVariants": 5
+      },
+      "payload": {
+        "id": "bing-4385f15b20ee9736545e7f6049716b03",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1781827200000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1781827200000)/",
+            "query": "world of dominion f95zone review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone make a review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          }
+        ],
+        "targetKeyword": "F95Zone review",
+        "recommendedAction": "refresh existing /f95zone landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": "/f95zone",
+          "contentState": "review",
+          "impressions": 5,
+          "clicks": 0,
+          "bestPosition": 5,
+          "queryVariants": 5
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 2
+      }
+    },
+    {
+      "id": "search:bing-a826e3f99c4e4187a9d77ce0a2cb3290",
       "kind": "search",
       "action": "UPDATE",
       "priority": 100,
@@ -215,7 +215,7 @@
         "queryVariants": 42
       },
       "payload": {
-        "id": "bing-7868616d737465722d72",
+        "id": "bing-a826e3f99c4e4187a9d77ce0a2cb3290",
         "sourceEvidence": [
           {
             "source": "Bing",
@@ -316,7 +316,7 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
+            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -340,7 +340,7 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
+            "query": "https+thefapguide+com+review+xhamster",
             "impressions": 1,
             "clicks": 0,
             "position": 10
@@ -584,7 +584,7 @@
       }
     },
     {
-      "id": "search:gsc-7374726970636861742d",
+      "id": "search:gsc-e7ecce55f8c64492ec61e3b80a3fd5dd",
       "kind": "search",
       "action": "UPDATE",
       "priority": 100,
@@ -602,7 +602,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-7374726970636861742d",
+        "id": "gsc-e7ecce55f8c64492ec61e3b80a3fd5dd",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -643,7 +643,7 @@
       }
     },
     {
-      "id": "search:gsc-6164756c7420706c6174",
+      "id": "search:gsc-0164ca6c6ac3685a7594f588c1e17161",
       "kind": "search",
       "action": "CREATE",
       "priority": 90,
@@ -661,7 +661,7 @@
         "queryVariants": 2
       },
       "payload": {
-        "id": "gsc-6164756c7420706c6174",
+        "id": "gsc-0164ca6c6ac3685a7594f588c1e17161",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -710,7 +710,7 @@
       }
     },
     {
-      "id": "search:gsc-737472697068756e",
+      "id": "search:gsc-6b218b6d76bc6f4d1614ad8f1731e116",
       "kind": "search",
       "action": "CREATE",
       "priority": 88,
@@ -728,7 +728,7 @@
         "queryVariants": 2
       },
       "payload": {
-        "id": "gsc-737472697068756e",
+        "id": "gsc-6b218b6d76bc6f4d1614ad8f1731e116",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -777,195 +777,10 @@
       }
     },
     {
-      "id": "search:bing-6164756c7420746f7920",
+      "id": "search:bing-f183180a5b493affbee84df916e009ca",
       "kind": "search",
       "action": "CREATE",
       "priority": 86,
-      "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-6164756c7420746f7920",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 7
-      }
-    },
-    {
-      "id": "search:bing-6672656520706f726e20",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 85,
-      "eligible": true,
-      "subject": "free porn union sites",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 3,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-6672656520706f726e20",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "free porn union sites",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "free porn union sites",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 3,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 11
-      }
-    },
-    {
-      "id": "search:bing-72657669657720667265",
-      "kind": "search",
-      "action": "HOLD",
-      "priority": 84,
-      "eligible": false,
-      "subject": "review free pornohamster.com",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "high",
-      "confidence": "low",
-      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-      "evidence": {
-        "impressions": 12,
-        "clicks": 0,
-        "bestPosition": 6,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-72657669657720667265",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1788480000000)/",
-            "query": "review free pornohamster.com",
-            "impressions": 12,
-            "clicks": 0,
-            "position": 6
-          }
-        ],
-        "targetKeyword": "review free pornohamster.com",
-        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "WebcamsChats",
-            "newUrlCount": 6,
-            "removedUrlCount": 6,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 12,
-          "clicks": 0,
-          "bestPosition": 6,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "high",
-        "experimentWindow": "14 days",
-        "rank": 3
-      }
-    },
-    {
-      "id": "search:bing-6164756c7420746f7920",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 83,
       "eligible": true,
       "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
@@ -980,7 +795,7 @@
         "queryVariants": 2
       },
       "payload": {
-        "id": "bing-6164756c7420746f7920",
+        "id": "bing-f183180a5b493affbee84df916e009ca",
         "sourceEvidence": [
           {
             "source": "Bing",
@@ -1025,11 +840,196 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
+        "rank": 7
+      }
+    },
+    {
+      "id": "search:bing-383614ad32d602566b69194685dad0ae",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 85,
+      "eligible": true,
+      "subject": "free porn union sites",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-383614ad32d602566b69194685dad0ae",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "free porn union sites",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "free porn union sites",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 3,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 11
+      }
+    },
+    {
+      "id": "search:bing-c880ec0c67c2ea62b52b0c4ccb79e197",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 84,
+      "eligible": false,
+      "subject": "review free pornohamster.com",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 12,
+        "clicks": 0,
+        "bestPosition": 6,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-c880ec0c67c2ea62b52b0c4ccb79e197",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1788480000000)/",
+            "query": "review free pornohamster.com",
+            "impressions": 12,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "review free pornohamster.com",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 12,
+          "clicks": 0,
+          "bestPosition": 6,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 3
+      }
+    },
+    {
+      "id": "search:bing-fc9020574ec130be09cf21579efb999a",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 83,
+      "eligible": true,
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 1,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "bing-fc9020574ec130be09cf21579efb999a",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          }
+        ],
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [
+          {
+            "source": "daily public sitemap diff",
+            "domain": "WebcamsChats",
+            "newUrlCount": 6,
+            "removedUrlCount": 6,
+            "topicMatch": "not established; treat as landscape context only"
+          }
+        ],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 1,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
         "rank": 8
       }
     },
     {
-      "id": "search:gsc-737472697078756174",
+      "id": "search:gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
       "kind": "search",
       "action": "CREATE",
       "priority": 76,
@@ -1047,7 +1047,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-737472697078756174",
+        "id": "gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -1088,7 +1088,7 @@
       }
     },
     {
-      "id": "search:gsc-6164756c742073747269",
+      "id": "search:gsc-48f567ada084daec09bcb42571bc3cf7",
       "kind": "search",
       "action": "CREATE",
       "priority": 73,
@@ -1106,7 +1106,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-6164756c742073747269",
+        "id": "gsc-48f567ada084daec09bcb42571bc3cf7",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -1147,7 +1147,7 @@
       }
     },
     {
-      "id": "search:bing-70696e6b636865727279",
+      "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
       "kind": "search",
       "action": "MIGRATE",
       "priority": 71,
@@ -1165,7 +1165,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "bing-70696e6b636865727279",
+        "id": "bing-f933cc640c80d607ffd4b9ac6fc569d3",
         "sourceEvidence": [
           {
             "source": "Bing",
@@ -1206,7 +1206,7 @@
       }
     },
     {
-      "id": "search:gsc-63616d20736974657320",
+      "id": "search:gsc-a046613ee6863976a7d98f5f5e8fdded",
       "kind": "search",
       "action": "CREATE",
       "priority": 70,
@@ -1224,7 +1224,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-63616d20736974657320",
+        "id": "gsc-a046613ee6863976a7d98f5f5e8fdded",
         "sourceEvidence": [
           {
             "source": "GSC",
@@ -1265,7 +1265,7 @@
       }
     },
     {
-      "id": "search:bing-782068616d7374657220",
+      "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
       "kind": "search",
       "action": "HOLD",
       "priority": 67,
@@ -1283,7 +1283,7 @@
         "queryVariants": 1
       },
       "payload": {
-        "id": "bing-782068616d7374657220",
+        "id": "bing-35d51b36604d7bcab39a47c3c3b29b69",
         "sourceEvidence": [
           {
             "source": "Bing",
