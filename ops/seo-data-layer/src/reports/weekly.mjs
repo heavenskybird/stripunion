@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { freshSnapshot } from '../../../growth/snapshot-freshness.mjs';
 
 const packageRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const repoRoot = path.resolve(packageRoot, '../..');
@@ -34,8 +35,8 @@ function aggregate(rows, keyField, valueField) {
   return [...map.entries()].map(([key, value]) => ({ key, value })).sort((a, b) => b.value - a.value);
 }
 const pct = (value) => `${(value * 100).toFixed(1)}%`;
-const gsc = await latestSnapshot('gsc.json');
-const gscBlog = await latestSnapshot('gsc-blog.json');
+const gsc = freshSnapshot(await latestSnapshot('gsc.json'));
+const gscBlog = freshSnapshot(await latestSnapshot('gsc-blog.json'));
 const ga4 = await latestSnapshot('ga4.json');
 const ga4Admin = await latestSnapshot('ga4-admin.json');
 const clarity = await latestSnapshot('clarity.json');
