@@ -1,4 +1,5 @@
 import { daysAgo, writeSnapshot } from '../lib/io.mjs';
+import { recentSuccessfulBingSitemap } from '../lib/bing-sitemap-evidence.mjs';
 
 const apiKey = process.env.BING_WEBMASTER_API_KEY;
 const date = process.env.SEO_END_DATE || daysAgo(1);
@@ -175,11 +176,23 @@ async function ensureFeed(siteUrl, verified, initialFeeds) {
   const feeds = Array.isArray(initialFeeds) ? initialFeeds : [];
 
   if (!sitemapUrl) {
-    return { status: 'no_public_sitemap', sitemapUrl: null, submitted: false, feeds };
+    const recentlyCrawled = verified ? recentSuccessfulBingSitemap(feeds, siteUrl) : null;
+    if (recentlyCrawled) {
+      console.warn('BING_SITEMAP_PUBLIC_PROBE_WARNING ' + JSON.stringify({
+        siteUrl, status: 'public_probe_unavailable',
+        bingLastCrawled: recentlyCrawled.crawledAt,
+        bingUrlCount: recentlyCrawled.urlCount
+      }));
+      return {
+        status: 'already_present', sitemapUrl: recentlyCrawled.url,
+        submitted: false, feeds, publicProbeStatus: 'unavailable_recent_bing_success'
+      };
+    }
+    return { status: 'no_public_sitemap', sitemapUrl: null, submitted: false, feeds, publicProbeStatus: 'unavailable_without_recent_bing_success' };
   }
 
   if (feeds.some((feed) => normalizeUrl(feed?.Url) === normalizeUrl(sitemapUrl))) {
-    return { status: 'already_present', sitemapUrl, submitted: false, feeds };
+    return { status: 'already_present', sitemapUrl, submitted: false, feeds, publicProbeStatus: 'ok' };
   }
 
   if (!verified) {
@@ -337,6 +350,7 @@ for (const siteUrl of sites) {
     feeds: feedState.feeds || [],
     feedState: {
       status: feedState.status,
+      publicProbeStatus: feedState.publicProbeStatus || 'ok',
       sitemapUrl: feedState.sitemapUrl,
       submitted: feedState.submitted,
       error: feedState.error || null
