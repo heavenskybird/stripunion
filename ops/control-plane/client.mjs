@@ -45,10 +45,38 @@ async function request(config, table, rows, onConflict) {
   }
 }
 
+export function uniqueUpsertRows(rows, onConflict) {
+  if (!onConflict || !Array.isArray(rows)) return { rows, duplicates: 0 };
+  const columns = onConflict.split(',').map((key) => key.trim());
+  const seen = new Set();
+  const unique = [];
+  let duplicates = 0;
+  for (const row of rows) {
+    const identity = columns.map((key) => {
+      if (row?.[key] == null || row[key] === '') throw new Error('Missing upsert conflict key: ' + key);
+      return String(row[key]);
+    });
+    const signature = JSON.stringify(identity);
+    if (seen.has(signature)) {
+      duplicates++;
+      continue; // Sorted input preserves highest-priority occurrence.
+    }
+    seen.add(signature);
+    unique.push(row);
+  }
+  return { rows: unique, duplicates };
+}
+
 export async function upsertRows(config, table, rows, onConflict, chunkSize = 100) {
   if (!config?.configured) throw new Error('Control plane is not configured.');
-  for (let index = 0; index < rows.length; index += chunkSize) {
-    await request(config, table, rows.slice(index, index + chunkSize), onConflict);
+  const prepared = uniqueUpsertRows(rows, onConflict);
+  if (prepared.duplicates) {
+    console.warn('CONTROL_PLANE_UPSERT_DUPLICATES ' + JSON.stringify({
+      table, conflictKey: onConflict, skippedDuplicates: prepared.duplicates
+    }));
+  }
+  for (let index = 0; index < prepared.rows.length; index += chunkSize) {
+    await request(config, table, prepared.rows.slice(index, index + chunkSize), onConflict);
   }
 }
 
