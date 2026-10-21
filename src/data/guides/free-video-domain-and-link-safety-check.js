@@ -1,0 +1,109 @@
+export default {
+  "slug": "free-video-domain-and-link-safety-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Site Links and Redirects Before Browsing",
+  "description": "Use a practical link-safety checklist for free video platforms: verify the domain, inspect redirects, avoid deceptive prompts and protect account details.",
+  "excerpt": "Free video browsing can involve search results, ads and outbound links. Check where a link leads before entering credentials, downloading files or granting permissions.",
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "keyTakeaways": [
+    "Check the exact web address before signing in; a familiar logo or page title does not verify a domain.",
+    "Treat unexpected redirects, download prompts and permission requests as separate warning signs.",
+    "Do not enter payment or login information after following an unsolicited pop-up or message.",
+    "Use browser controls to close suspicious tabs and avoid interacting with deceptive overlays.",
+    "Report suspicious links through available platform channels when practical, without reposting them."
+  ],
+  "sections": [
+    {
+      "heading": "Verify the destination, not just the page appearance",
+      "paragraphs": [
+        "A page can imitate the colors, name or layout of a familiar service without being the service’s real site. Before entering an account name, password or payment information, inspect the full address in the browser. Check spelling, unexpected extra words, unusual subdomains and whether the page was reached through a link you intended to open. A search result title or image is not proof of the destination.",
+        "Use a known route when available, such as a saved bookmark you created after checking the address. Be cautious with links from comments, unsolicited messages, pop-up notices or shortened URLs that conceal the destination. If a page asks you to sign in again after an unexpected redirect, stop and verify the site independently rather than entering credentials into the new page."
+      ],
+      "bullets": [
+        "Read the full address before signing in or sharing personal information.",
+        "Be wary of close-lookalike spellings and unexpected address changes.",
+        "Do not use a page’s logo or design as the only sign of authenticity."
+      ]
+    },
+    {
+      "heading": "Treat redirects and overlays as a separate risk",
+      "paragraphs": [
+        "Some browsing paths open a new tab, send you through several addresses or place an overlay over the page. A redirect is not automatically harmful, but an unexpected one deserves attention. Pause when a click that should play or open a listing instead leads to an unrelated page, a full-screen warning or a request to install software. Close the tab using the browser’s own controls rather than following instructions displayed by the unexpected page.",
+        "Overlays can imitate system alerts, age checks or security notices. Do not assume that a warning is legitimate because it uses urgent wording or a familiar icon. If a message claims that your device is infected or that you must install a particular file to continue, leave the page and use the device’s normal security settings to assess the situation. Avoid granting camera, microphone, notification or file access unless you understand why the site needs it and intend to allow it."
+      ],
+      "table": {
+        "caption": "Link and page signals that warrant a pause",
+        "headers": [
+          "Signal",
+          "Safer next step",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Address changes unexpectedly",
+            "Check the new address and close the tab if it is unrelated",
+            "Entering login details automatically"
+          ],
+          [
+            "A download starts without a clear request",
+            "Cancel or close it and do not open the file",
+            "Running an unknown installer or archive"
+          ],
+          [
+            "A page demands urgent action",
+            "Leave through browser controls and verify independently",
+            "Following the page’s instructions under pressure"
+          ],
+          [
+            "A site requests device permission",
+            "Check the stated purpose and decline if unnecessary",
+            "Granting access just to dismiss an overlay"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep account and payment details out of uncertain flows",
+      "paragraphs": [
+        "A free viewing page should not automatically be treated as a safe place to enter sensitive details. If a page unexpectedly requests a password, payment card, phone number or identity information, ask whether that request matches the action you chose. A demand to “verify” an account after a redirect is not enough evidence that the request is legitimate. Stop and confirm the destination through a separate, trusted route.",
+        "Use a unique password for each service, and use the account’s security controls where available. Do not share one-time codes with a page or person that appeared unexpectedly. If you already entered credentials on a page you now distrust, use the service’s verified account-recovery route to change the password and review active sessions. If payment information was involved, contact the payment provider using its own verified channel."
+      ]
+    },
+    {
+      "heading": "Handle suspicious downloads and browser permissions cautiously",
+      "paragraphs": [
+        "A video or listing should not require an unexplained program installation merely to view a page. Avoid files that arrive unexpectedly, especially when a page claims they are a required player, codec or security update. Do not open a downloaded file just to determine what it does. If you intentionally download a file from a source you trust, review the source, file type and device security guidance before opening it.",
+        "Browser permissions also deserve a deliberate decision. A site that does not need camera, microphone, location or notification access for the task you chose should not receive those permissions by default. Permission prompts can be declined; if you already allowed access, review the browser’s site settings and revoke permissions you no longer want. A browser prompt is a request, not proof that access is necessary."
+      ],
+      "bullets": [
+        "Cancel unexpected downloads and do not open unknown files.",
+        "Grant permissions only when the purpose is clear and relevant.",
+        "Review and revoke permissions through browser settings when needed.",
+        "Keep your browser and device security tools maintained through their normal update channels."
+      ]
+    },
+    {
+      "heading": "Make a short response plan for a suspicious page",
+      "paragraphs": [
+        "A calm response is more useful than clicking through a chain of warnings. Close the suspicious tab, avoid downloading or entering information, and check the browser’s downloads and site-permission lists. If the page caused a pop-up loop, use the browser’s tab controls or close the browser rather than interacting with the overlay. If a file was downloaded, do not open it; use the device’s normal security process for handling unknown files.",
+        "If you believe an account was exposed, change its password through a verified route and review sessions and recovery options. If payment information may have been submitted, contact the payment provider using its verified contact method. Report the link through an available platform reporting tool when appropriate. Do not repost the link in a way that could send other people to the same uncertain destination."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a padlock icon prove that a site is legitimate?",
+      "answer": "No. It indicates an encrypted connection to the address shown, but it does not establish that the address belongs to the service you intended to visit. Check the domain and how you reached the page."
+    },
+    {
+      "question": "Should I install a player or update offered by a pop-up?",
+      "answer": "Do not install software just because an unexpected pop-up requests it. Close the page and, if an update is genuinely needed, use the device or software maker’s normal update route."
+    },
+    {
+      "question": "What if I entered my password after a redirect?",
+      "answer": "Use a verified route to change that password, review active sessions and check recovery settings. If you reused the password elsewhere, update those accounts too."
+    }
+  ]
+};
