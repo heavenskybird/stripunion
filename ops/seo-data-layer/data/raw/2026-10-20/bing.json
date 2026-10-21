@@ -1,6 +1,6 @@
 {
   "source": "bing-webmaster-json-http",
-  "collectedAt": "2026-10-21T13:16:00.856Z",
+  "collectedAt": "2026-10-21T13:19:16.515Z",
   "cadence": "Daily collector; Bing query/page stats update weekly and crawl stats daily.",
   "account": {
     "GetUserSites": "ok",
@@ -166,7 +166,7 @@
           "Clicks": 0,
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
-          "Query": "complete guide to hamster com x"
+          "Query": "https+thefapguide+com+review+xhamster"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -193,7 +193,7 @@
           "Clicks": 0,
           "Date": "/Date(1784851200000)/",
           "Impressions": 1,
-          "Query": "https+thefapguide+com+review+xhamster"
+          "Query": "complete guide to hamster com x"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -288,6 +288,15 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
+          "AvgImpressionPosition": 5,
+          "Clicks": 0,
+          "Date": "/Date(1786665600000)/",
+          "Impressions": 1,
+          "Query": "f95zone reivew"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
           "AvgImpressionPosition": 7,
           "Clicks": 0,
           "Date": "/Date(1786665600000)/",
@@ -302,15 +311,6 @@
           "Date": "/Date(1786665600000)/",
           "Impressions": 1,
           "Query": "f95zone reviews"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
-          "AvgImpressionPosition": 5,
-          "Clicks": 0,
-          "Date": "/Date(1786665600000)/",
-          "Impressions": 1,
-          "Query": "f95zone reivew"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -400,7 +400,7 @@
           "Clicks": 0,
           "Date": "/Date(1789689600000)/",
           "Impressions": 1,
-          "Query": "xhamter.com review"
+          "Query": "xhamster adult website overview"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -409,7 +409,7 @@
           "Clicks": 0,
           "Date": "/Date(1789689600000)/",
           "Impressions": 1,
-          "Query": "xhamster adult website overview"
+          "Query": "xhamter.com review"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -459,6 +459,33 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
+          "AvgImpressionPosition": 7,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 1,
+          "Query": "xhamster  review"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 9,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 1,
+          "Query": "complete guide to hamster com x"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 6,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 1,
+          "Query": "is xhamster a porn website?"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
           "AvgImpressionPosition": 1,
           "Clicks": 0,
           "Date": "/Date(1792108800000)/",
@@ -477,38 +504,11 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 9,
-          "Clicks": 0,
-          "Date": "/Date(1792108800000)/",
-          "Impressions": 1,
-          "Query": "complete guide to hamster com x"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 1,
           "Clicks": 0,
           "Date": "/Date(1792108800000)/",
           "Impressions": 1,
           "Query": "adult toy retailer discreet billing shipping faq packaging"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
-          "AvgImpressionPosition": 7,
-          "Clicks": 0,
-          "Date": "/Date(1792108800000)/",
-          "Impressions": 1,
-          "Query": "xhamster  review"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
-          "AvgImpressionPosition": 6,
-          "Clicks": 0,
-          "Date": "/Date(1792108800000)/",
-          "Impressions": 1,
-          "Query": "is xhamster a porn website?"
         }
       ],
       "pageStats": [
@@ -704,15 +704,6 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 4,
-          "Clicks": 0,
-          "Date": "/Date(1788480000000)/",
-          "Impressions": 7,
-          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
-        },
-        {
-          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-          "AvgClickPosition": -1,
           "AvgImpressionPosition": 9,
           "Clicks": 0,
           "Date": "/Date(1788480000000)/",
@@ -722,10 +713,10 @@
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
           "AvgClickPosition": -1,
-          "AvgImpressionPosition": 2,
+          "AvgImpressionPosition": 4,
           "Clicks": 0,
-          "Date": "/Date(1789084800000)/",
-          "Impressions": 1,
+          "Date": "/Date(1788480000000)/",
+          "Impressions": 7,
           "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
         },
         {
@@ -736,6 +727,15 @@
           "Date": "/Date(1789084800000)/",
           "Impressions": 1,
           "Query": "https://stripunion.com/xhamster"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 2,
+          "Clicks": 0,
+          "Date": "/Date(1789084800000)/",
+          "Impressions": 1,
+          "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide"
         },
         {
           "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -4105,8 +4105,8 @@
         }
       ],
       "feedState": {
-        "status": "already_present",
-        "sitemapUrl": "https://stripunion.com/sitemap.xml",
+        "status": "no_public_sitemap",
+        "sitemapUrl": null,
         "submitted": false,
         "error": null
       },
@@ -5230,8 +5230,8 @@
         }
       ],
       "feedState": {
-        "status": "already_present",
-        "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+        "status": "no_public_sitemap",
+        "sitemapUrl": null,
         "submitted": false,
         "error": null
       },
@@ -5332,8 +5332,8 @@
     "country": "us",
     "language": "en-US",
     "period": {
-      "startDate": "2026-07-23T13:15:53.961Z",
-      "endDate": "2026-10-21T13:15:53.961Z"
+      "startDate": "2026-07-23T13:19:10.043Z",
+      "endDate": "2026-10-21T13:19:10.043Z"
     },
     "seeds": [
       "xhamster review",
@@ -5448,57 +5448,278 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 39218,
-            "Impressions": 36926,
-            "Query": "xhamster live"
+            "BroadImpressions": 32130,
+            "Impressions": 31524,
+            "Query": "xhamster com"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 39371,
-            "Impressions": 34119,
-            "Query": "xhamster porn"
+            "BroadImpressions": 915,
+            "Impressions": 915,
+            "Query": "xhamster live/newest"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 774,
-            "Impressions": 712,
-            "Query": "xhamster trans"
+            "BroadImpressions": 1178,
+            "Impressions": 1178,
+            "Query": "dawn knudsen xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2179,
-            "Impressions": 2153,
-            "Query": "site xhamster.com xhamster"
+            "BroadImpressions": 268,
+            "Impressions": 268,
+            "Query": "xhamster taboo"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 672,
-            "Impressions": 672,
-            "Query": "xhamster shemale"
+            "BroadImpressions": 25425,
+            "Impressions": 15265,
+            "Query": "xhamsters"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1055,
-            "Impressions": 1051,
-            "Query": "xhamster bbw"
+            "BroadImpressions": 306,
+            "Impressions": 306,
+            "Query": "cuckold xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2438287,
-            "Impressions": 1876601,
-            "Query": "free porn"
+            "BroadImpressions": 610,
+            "Impressions": 610,
+            "Query": "gerekkk xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1684,
-            "Impressions": 1684,
-            "Query": "xhamster porn videos"
+            "BroadImpressions": 903,
+            "Impressions": 650,
+            "Query": "xhamster milf"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1078,
-            "Impressions": 688,
-            "Query": "free xhamster"
+            "BroadImpressions": 315,
+            "Impressions": 315,
+            "Query": "xhamster live chat"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7156,
+            "Impressions": 6352,
+            "Query": "xhamster videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1448,
+            "Impressions": 1297,
+            "Query": "gay porn xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1958,
+            "Impressions": 1917,
+            "Query": "xxx xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1603,
+            "Impressions": 1467,
+            "Query": "xhamster mature"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 430,
+            "Impressions": 430,
+            "Query": "xnxx xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 70676,
+            "Impressions": 67867,
+            "Query": "xham"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 386159,
+            "Impressions": 25756,
+            "Query": "hamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 461,
+            "Impressions": 441,
+            "Query": "xhamster gay bear massage"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 357435,
+            "Impressions": 344374,
+            "Query": "freeporn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 13548,
+            "Impressions": 12314,
+            "Query": "hamster xxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1030,
+            "Impressions": 886,
+            "Query": "gay xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4254,
+            "Impressions": 4229,
+            "Query": "hamsterxxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2665,
+            "Impressions": 2643,
+            "Query": "xhamp"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5953,
+            "Impressions": 5504,
+            "Query": "xhamster xxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 331,
+            "Impressions": 331,
+            "Query": "bbw xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 271,
+            "Impressions": 271,
+            "Query": "xhamster stories"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 9199,
+            "Impressions": 5024,
+            "Query": "porn xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 283,
+            "Impressions": 283,
+            "Query": "xhamster xxx videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2597,
+            "Impressions": 2597,
+            "Query": "xhamster history"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7475,
+            "Impressions": 7475,
+            "Query": "xhamter"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6729,
+            "Impressions": 6707,
+            "Query": "xhamster'"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2917,
+            "Impressions": 1188,
+            "Query": "xhamster sex"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10800,
+            "Impressions": 10793,
+            "Query": "xxxhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 29249239,
+            "Impressions": 9227093,
+            "Query": "porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1552,
+            "Impressions": 1552,
+            "Query": "xhamster login"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "xhamster site overview",
+        "stats": [],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 271635,
+            "Impressions": 271317,
+            "Query": "xhampster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 35730,
+            "Impressions": 30331,
+            "Query": "hamster.com"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10850,
+            "Impressions": 10848,
+            "Query": "www.xhamster.com"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 357435,
+            "Impressions": 344374,
+            "Query": "freeporn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 70676,
+            "Impressions": 67867,
+            "Query": "xham"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10316,
+            "Impressions": 10316,
+            "Query": "exhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10800,
+            "Impressions": 10793,
+            "Query": "xxxhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 29249239,
+            "Impressions": 9227093,
+            "Query": "porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 679,
+            "Impressions": 679,
+            "Query": "www.xhamster com"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 204,
+            "Impressions": 204,
+            "Query": "xhemster.com"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -5508,45 +5729,87 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10468,
-            "Impressions": 9164,
-            "Query": "xxx hamster"
+            "BroadImpressions": 99050,
+            "Impressions": 86595,
+            "Query": "hamster porn"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1315,
-            "Impressions": 839,
-            "Query": "xhamster lesbian"
+            "BroadImpressions": 39371,
+            "Impressions": 34119,
+            "Query": "xhamster porn"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1018,
-            "Impressions": 818,
-            "Query": "xhamster vintage"
+            "BroadImpressions": 7102,
+            "Impressions": 6336,
+            "Query": "www.xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 46,
-            "Impressions": 46,
-            "Query": "xhamster niche"
+            "BroadImpressions": 676709,
+            "Impressions": 238267,
+            "Query": "porn videos"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 44,
-            "Impressions": 44,
-            "Query": "xhamster germany"
+            "BroadImpressions": 2438287,
+            "Impressions": 1876601,
+            "Query": "free porn"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 352,
-            "Impressions": 352,
-            "Query": "google xhamster"
+            "BroadImpressions": 32130,
+            "Impressions": 31524,
+            "Query": "xhamster com"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 861,
-            "Impressions": 369,
-            "Query": "sex xhamster"
+            "BroadImpressions": 25425,
+            "Impressions": 15265,
+            "Query": "xhamsters"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10114,
+            "Impressions": 10114,
+            "Query": "xhamsters videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 109424,
+            "Impressions": 92769,
+            "Query": "x hamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 14098,
+            "Impressions": 14062,
+            "Query": "x hampster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 36702,
+            "Impressions": 36667,
+            "Query": "hamsterx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3665,
+            "Impressions": 3662,
+            "Query": "x hamster.com"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 103931,
+            "Impressions": 68863,
+            "Query": "adult videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3593721,
+            "Impressions": 3350023,
+            "Query": "xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -5556,46 +5819,211 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1426,
-            "Impressions": 1405,
-            "Query": "xhamster tube"
+            "BroadImpressions": 14144,
+            "Impressions": 14080,
+            "Query": "xhamsters.com"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1837,
-            "Impressions": 1104,
-            "Query": "xhamster video"
+            "BroadImpressions": 116,
+            "Impressions": 116,
+            "Query": "www.xhamsters.com"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "review free pornohamster.com",
+        "stats": [],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 131,
+            "Impressions": 131,
+            "Query": "chess game review free"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 6762,
-            "Impressions": 6729,
-            "Query": "xhamester"
+            "BroadImpressions": 180,
+            "Impressions": 180,
+            "Query": "chess review free"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 418,
-            "Impressions": 418,
-            "Query": "xhamster sex cam"
+            "BroadImpressions": 186,
+            "Impressions": 186,
+            "Query": "resume review free"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "xhamster review 2026",
+        "stats": [],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 32,
+            "Impressions": 32,
+            "Query": "etrade review 2026"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 450,
-            "Impressions": 445,
-            "Query": "xhamster download"
+            "BroadImpressions": 65,
+            "Impressions": 65,
+            "Query": "1inch review 2026"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 396,
-            "Impressions": 396,
-            "Query": "hentai xhamster"
+            "BroadImpressions": 100,
+            "Impressions": 100,
+            "Query": "iphone 18 pro max review 2026"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 604,
-            "Impressions": 600,
-            "Query": "xhamster movies"
+            "BroadImpressions": 21,
+            "Impressions": 21,
+            "Query": "sense and sensibility review 2026"
           },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 33,
+            "Impressions": 33,
+            "Query": "iphone duo review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 198,
+            "Impressions": 198,
+            "Query": "kia niro hybrid review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 459,
+            "Impressions": 459,
+            "Query": "performance review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 31,
+            "Impressions": 31,
+            "Query": "etrade login review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 84,
+            "Impressions": 84,
+            "Query": "pendle review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 71,
+            "Impressions": 71,
+            "Query": "autodesk design review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 126,
+            "Impressions": 126,
+            "Query": "citi bank review 2026 ci-ti-or"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 13,
+            "Impressions": 10,
+            "Query": "global energy review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 79,
+            "Impressions": 79,
+            "Query": "annual review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 96,
+            "Impressions": 96,
+            "Query": "world population review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7,
+            "Impressions": 6,
+            "Query": "global hydrogen review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 17,
+            "Impressions": 17,
+            "Query": "dentabiome review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 34,
+            "Impressions": 34,
+            "Query": "hyper liquid review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 761,
+            "Impressions": 719,
+            "Query": "lido liquid staking review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 60,
+            "Impressions": 60,
+            "Query": "hyperliquid exchange review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 89,
+            "Impressions": 89,
+            "Query": "hyperliquid dex review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 11,
+            "Impressions": 11,
+            "Query": "street fighter movie review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1,
+            "Impressions": 1,
+            "Query": "curriculum review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 71,
+            "Impressions": 71,
+            "Query": "hyperliquid review 2026"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 50,
+            "Impressions": 50,
+            "Query": "uniswap review 2026"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "xhamster reviews",
+        "stats": [],
+        "related": [
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 99050,
@@ -5649,59 +6077,24 @@
             "BroadImpressions": 674,
             "Impressions": 674,
             "Query": "xhamster gay videos"
-          }
-        ],
-        "methodStatus": {
-          "GetKeywordStats": "ok",
-          "GetRelatedKeywords": "ok"
-        },
-        "errors": {}
-      },
-      {
-        "seed": "xhamster site overview",
-        "stats": [],
-        "related": [
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 39371,
-            "Impressions": 34119,
-            "Query": "xhamster porn"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2438287,
-            "Impressions": 1876601,
-            "Query": "free porn"
+            "BroadImpressions": 166,
+            "Impressions": 166,
+            "Query": "cfnm xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 679,
-            "Impressions": 679,
-            "Query": "www.xhamster com"
+            "BroadImpressions": 445,
+            "Impressions": 380,
+            "Query": "xhamster spanking"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 204,
-            "Impressions": 204,
-            "Query": "xhemster.com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 12826,
-            "Impressions": 12614,
-            "Query": "xha"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 7102,
-            "Impressions": 6336,
-            "Query": "www.xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 676709,
-            "Impressions": 238267,
-            "Query": "porn videos"
+            "BroadImpressions": 539,
+            "Impressions": 539,
+            "Query": "xhamster porn tube"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -5711,319 +6104,52 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 915,
+            "Impressions": 915,
+            "Query": "xhamster live/newest"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1178,
+            "Impressions": 1178,
+            "Query": "dawn knudsen xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 268,
+            "Impressions": 268,
+            "Query": "xhamster taboo"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 25425,
             "Impressions": 15265,
             "Query": "xhamsters"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10114,
-            "Impressions": 10114,
-            "Query": "xhamsters videos"
+            "BroadImpressions": 306,
+            "Impressions": 306,
+            "Query": "cuckold xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 99050,
-            "Impressions": 86595,
-            "Query": "hamster porn"
+            "BroadImpressions": 610,
+            "Impressions": 610,
+            "Query": "gerekkk xhamster"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 271635,
-            "Impressions": 271317,
-            "Query": "xhampster"
+            "BroadImpressions": 903,
+            "Impressions": 650,
+            "Query": "xhamster milf"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 35730,
-            "Impressions": 30331,
-            "Query": "hamster.com"
+            "BroadImpressions": 315,
+            "Impressions": 315,
+            "Query": "xhamster live chat"
           },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10850,
-            "Impressions": 10848,
-            "Query": "www.xhamster.com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 109424,
-            "Impressions": 92769,
-            "Query": "x hamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 14098,
-            "Impressions": 14062,
-            "Query": "x hampster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 36702,
-            "Impressions": 36667,
-            "Query": "hamsterx"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 3665,
-            "Impressions": 3662,
-            "Query": "x hamster.com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 103931,
-            "Impressions": 68863,
-            "Query": "adult videos"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 357435,
-            "Impressions": 344374,
-            "Query": "freeporn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 70676,
-            "Impressions": 67867,
-            "Query": "xham"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10316,
-            "Impressions": 10316,
-            "Query": "exhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10800,
-            "Impressions": 10793,
-            "Query": "xxxhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 29249239,
-            "Impressions": 9227093,
-            "Query": "porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 3593721,
-            "Impressions": 3350023,
-            "Query": "xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 230683,
-            "Impressions": 221020,
-            "Query": "xhamster.com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 14144,
-            "Impressions": 14080,
-            "Query": "xhamsters.com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 116,
-            "Impressions": 116,
-            "Query": "www.xhamsters.com"
-          }
-        ],
-        "methodStatus": {
-          "GetKeywordStats": "ok",
-          "GetRelatedKeywords": "ok"
-        },
-        "errors": {}
-      },
-      {
-        "seed": "review free pornohamster.com",
-        "stats": [],
-        "related": [
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 131,
-            "Impressions": 131,
-            "Query": "chess game review free"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 186,
-            "Impressions": 186,
-            "Query": "resume review free"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 180,
-            "Impressions": 180,
-            "Query": "chess review free"
-          }
-        ],
-        "methodStatus": {
-          "GetKeywordStats": "ok",
-          "GetRelatedKeywords": "ok"
-        },
-        "errors": {}
-      },
-      {
-        "seed": "xhamster review 2026",
-        "stats": [],
-        "related": [
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 459,
-            "Impressions": 459,
-            "Query": "performance review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 31,
-            "Impressions": 31,
-            "Query": "etrade login review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 84,
-            "Impressions": 84,
-            "Query": "pendle review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 71,
-            "Impressions": 71,
-            "Query": "autodesk design review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 32,
-            "Impressions": 32,
-            "Query": "etrade review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 65,
-            "Impressions": 65,
-            "Query": "1inch review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 100,
-            "Impressions": 100,
-            "Query": "iphone 18 pro max review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 21,
-            "Impressions": 21,
-            "Query": "sense and sensibility review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 33,
-            "Impressions": 33,
-            "Query": "iphone duo review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 198,
-            "Impressions": 198,
-            "Query": "kia niro hybrid review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 7,
-            "Impressions": 6,
-            "Query": "global hydrogen review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 79,
-            "Impressions": 79,
-            "Query": "annual review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 96,
-            "Impressions": 96,
-            "Query": "world population review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 126,
-            "Impressions": 126,
-            "Query": "citi bank review 2026 ci-ti-or"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 13,
-            "Impressions": 10,
-            "Query": "global energy review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 71,
-            "Impressions": 71,
-            "Query": "hyperliquid review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 50,
-            "Impressions": 50,
-            "Query": "uniswap review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 17,
-            "Impressions": 17,
-            "Query": "dentabiome review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 34,
-            "Impressions": 34,
-            "Query": "hyper liquid review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 761,
-            "Impressions": 719,
-            "Query": "lido liquid staking review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 60,
-            "Impressions": 60,
-            "Query": "hyperliquid exchange review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 89,
-            "Impressions": 89,
-            "Query": "hyperliquid dex review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 11,
-            "Impressions": 11,
-            "Query": "street fighter movie review 2026"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1,
-            "Impressions": 1,
-            "Query": "curriculum review 2026"
-          }
-        ],
-        "methodStatus": {
-          "GetKeywordStats": "ok",
-          "GetRelatedKeywords": "ok"
-        },
-        "errors": {}
-      },
-      {
-        "seed": "xhamster reviews",
-        "stats": [],
-        "related": [
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 27390,
@@ -6122,198 +6248,6 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 99050,
-            "Impressions": 86595,
-            "Query": "hamster porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1525,
-            "Impressions": 1525,
-            "Query": "xhamster categories"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1853,
-            "Impressions": 1648,
-            "Query": "xhamster free porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 604,
-            "Impressions": 604,
-            "Query": "xhamster chat"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1951,
-            "Impressions": 1951,
-            "Query": "xhamster2"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 544,
-            "Impressions": 529,
-            "Query": "xhamster desi"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 894,
-            "Impressions": 894,
-            "Query": "xhamster porn site"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 259,
-            "Impressions": 259,
-            "Query": "xhamster cuckold"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 674,
-            "Impressions": 674,
-            "Query": "xhamster gay videos"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 166,
-            "Impressions": 166,
-            "Query": "cfnm xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 445,
-            "Impressions": 380,
-            "Query": "xhamster spanking"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 539,
-            "Impressions": 539,
-            "Query": "xhamster porn tube"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 39218,
-            "Impressions": 36926,
-            "Query": "xhamster live"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 39371,
-            "Impressions": 34119,
-            "Query": "xhamster porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 774,
-            "Impressions": 712,
-            "Query": "xhamster trans"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2179,
-            "Impressions": 2153,
-            "Query": "site xhamster.com xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 672,
-            "Impressions": 672,
-            "Query": "xhamster shemale"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1055,
-            "Impressions": 1051,
-            "Query": "xhamster bbw"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 128,
-            "Impressions": 128,
-            "Query": "xhamster zen102"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 578,
-            "Impressions": 578,
-            "Query": "xhamster sex videos"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 5014,
-            "Impressions": 5014,
-            "Query": "hampsterx"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2438287,
-            "Impressions": 1876601,
-            "Query": "free porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 352,
-            "Impressions": 352,
-            "Query": "google xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 32130,
-            "Impressions": 31524,
-            "Query": "xhamster com"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 915,
-            "Impressions": 915,
-            "Query": "xhamster live/newest"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1178,
-            "Impressions": 1178,
-            "Query": "dawn knudsen xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 268,
-            "Impressions": 268,
-            "Query": "xhamster taboo"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 25425,
-            "Impressions": 15265,
-            "Query": "xhamsters"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 306,
-            "Impressions": 306,
-            "Query": "cuckold xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 610,
-            "Impressions": 610,
-            "Query": "gerekkk xhamster"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 903,
-            "Impressions": 650,
-            "Query": "xhamster milf"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 315,
-            "Impressions": 315,
-            "Query": "xhamster live chat"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 1684,
             "Impressions": 1684,
             "Query": "xhamster porn videos"
@@ -6323,6 +6257,72 @@
             "BroadImpressions": 1078,
             "Impressions": 688,
             "Query": "free xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 12826,
+            "Impressions": 12614,
+            "Query": "xha"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10468,
+            "Impressions": 9164,
+            "Query": "xxx hamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1315,
+            "Impressions": 839,
+            "Query": "xhamster lesbian"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1018,
+            "Impressions": 818,
+            "Query": "xhamster vintage"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 46,
+            "Impressions": 46,
+            "Query": "xhamster niche"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 44,
+            "Impressions": 44,
+            "Query": "xhamster germany"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 861,
+            "Impressions": 369,
+            "Query": "sex xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7156,
+            "Impressions": 6352,
+            "Query": "xhamster videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1448,
+            "Impressions": 1297,
+            "Query": "gay porn xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1958,
+            "Impressions": 1917,
+            "Query": "xxx xhamster"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1603,
+            "Impressions": 1467,
+            "Query": "xhamster mature"
           }
         ],
         "methodStatus": {
@@ -6408,48 +6408,6 @@
         "related": [
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 26,
-            "Impressions": 26,
-            "Query": "live cam fargo"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 50,
-            "Impressions": 50,
-            "Query": "vail live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 23,
-            "Impressions": 23,
-            "Query": "catalina live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 370,
-            "Impressions": 370,
-            "Query": "times square live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 192,
-            "Impressions": 192,
-            "Query": "pensacola florida live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 383,
-            "Impressions": 383,
-            "Query": "ocean lakes live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 27,
-            "Impressions": 27,
-            "Query": "hilton clearwater live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 1744,
             "Impressions": 1744,
             "Query": "seaview fishing pier live cam"
@@ -6471,12 +6429,6 @@
             "BroadImpressions": 4552,
             "Impressions": 4552,
             "Query": "big bear eagle cam live cam 2"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 293,
-            "Impressions": 293,
-            "Query": "cornell bird feeder live cam"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -6510,63 +6462,219 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1315,
-            "Impressions": 1059,
-            "Query": "live cam girls"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 135,
-            "Impressions": 135,
-            "Query": "wolf creek live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 140,
-            "Impressions": 140,
-            "Query": "johnstown railway station live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 29,
-            "Impressions": 29,
-            "Query": "flagstaff live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 134,
-            "Impressions": 134,
-            "Query": "las vegas airport live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 23,
-            "Impressions": 23,
-            "Query": "russianwoman live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 418,
-            "Impressions": 418,
-            "Query": "port huron live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 816,
-            "Impressions": 706,
-            "Query": "big bear eagles live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 325,
-            "Impressions": 236,
-            "Query": "mallory square live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 414,
             "Impressions": 414,
             "Query": "chatbute live cam models"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 599,
+            "Impressions": 599,
+            "Query": "goldys farm live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 563,
+            "Impressions": 403,
+            "Query": "kensington live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 98,
+            "Impressions": 98,
+            "Query": "reading northern live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 475,
+            "Impressions": 475,
+            "Query": "ndtc live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 457,
+            "Impressions": 457,
+            "Query": "kotogal live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 208,
+            "Impressions": 207,
+            "Query": "live cam free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 172,
+            "Impressions": 172,
+            "Query": "deep live cam github"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 767,
+            "Impressions": 767,
+            "Query": "alaska bear live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22986,
+            "Impressions": 16938,
+            "Query": "live porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 27,
+            "Impressions": 27,
+            "Query": "lake michigan live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 112,
+            "Impressions": 112,
+            "Query": "birds of big bear valley live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1864,
+            "Impressions": 1692,
+            "Query": "jackie and shadow live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 174,
+            "Impressions": 174,
+            "Query": "live cam kilauea volcano"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 996,
+            "Impressions": 996,
+            "Query": "brown bear live cam brooks falls"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 195,
+            "Impressions": 195,
+            "Query": "key west duval street live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1465,
+            "Impressions": 848,
+            "Query": "sturgis live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 39532,
+            "Impressions": 18162,
+            "Query": "live sex"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3022,
+            "Impressions": 619,
+            "Query": "bald eagle live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 143,
+            "Impressions": 143,
+            "Query": "nefl eagles live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 255,
+            "Impressions": 252,
+            "Query": "live cam sex"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 113,
+            "Impressions": 113,
+            "Query": "yellowstone live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 311,
+            "Impressions": 311,
+            "Query": "ocean key live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 312,
+            "Impressions": 312,
+            "Query": "santa monica pier live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 35,
+            "Impressions": 35,
+            "Query": "livcam login"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2661,
+            "Impressions": 2661,
+            "Query": "monterey bay aquarium live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 731,
+            "Impressions": 699,
+            "Query": "live cam porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 545,
+            "Impressions": 545,
+            "Query": "real live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 24,
+            "Impressions": 24,
+            "Query": "snowbird live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 286,
+            "Impressions": 286,
+            "Query": "breckenridge live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 186,
+            "Impressions": 186,
+            "Query": "brown bears brooks falls live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 883,
+            "Impressions": 883,
+            "Query": "captain anderson's marina live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 787,
+            "Impressions": 744,
+            "Query": "fobbv live cam 1"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 79,
+            "Impressions": 79,
+            "Query": "live cam clips"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 260,
+            "Impressions": 238,
+            "Query": "huntington beach live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 754,
+            "Impressions": 566,
+            "Query": "livcam"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -6597,114 +6705,6 @@
             "BroadImpressions": 1926,
             "Impressions": 1926,
             "Query": "okaloosa island pier live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 230,
-            "Impressions": 230,
-            "Query": "keloland live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 280,
-            "Impressions": 280,
-            "Query": "silver city live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1014,
-            "Impressions": 853,
-            "Query": "panama city beach live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 294,
-            "Impressions": 294,
-            "Query": "beulah michigan live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 196,
-            "Impressions": 150,
-            "Query": "the villages live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 33,
-            "Impressions": 33,
-            "Query": "montauk sunset beach live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 49,
-            "Impressions": 49,
-            "Query": "schooners live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 274,
-            "Impressions": 230,
-            "Query": "graceland live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1258,
-            "Impressions": 1258,
-            "Query": "bourbon street live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 143,
-            "Impressions": 143,
-            "Query": "miaeyex live cam show"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 835,
-            "Impressions": 835,
-            "Query": "st barthelemy live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 502,
-            "Impressions": 502,
-            "Query": "san diego zoo live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 351,
-            "Impressions": 351,
-            "Query": "hairy girls live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 191,
-            "Impressions": 191,
-            "Query": "live cam pensacola florida"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2661,
-            "Impressions": 2661,
-            "Query": "monterey bay aquarium live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 731,
-            "Impressions": 699,
-            "Query": "live cam porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 545,
-            "Impressions": 545,
-            "Query": "real live cam"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 24,
-            "Impressions": 24,
-            "Query": "snowbird live cam"
           }
         ],
         "methodStatus": {
@@ -6810,69 +6810,189 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 342,
-            "Impressions": 23,
-            "Query": "like chaturbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
             "BroadImpressions": 319,
             "Impressions": 286,
             "Query": "sites like chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 14022,
-            "Impressions": 10516,
-            "Query": "chatterbait"
+            "BroadImpressions": 342,
+            "Impressions": 23,
+            "Query": "like chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 7854,
-            "Impressions": 7229,
-            "Query": "chatur"
+            "BroadImpressions": 10707,
+            "Impressions": 10707,
+            "Query": "chaturbate login"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 336,
-            "Impressions": 336,
-            "Query": "chaturbate kateline"
+            "BroadImpressions": 1108,
+            "Impressions": 1108,
+            "Query": "mature chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 314,
-            "Impressions": 294,
-            "Query": "chaturbate recordings"
+            "BroadImpressions": 406,
+            "Impressions": 406,
+            "Query": "chaturbate scarlettford"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1744,
-            "Impressions": 1744,
-            "Query": "chaturbateme"
+            "BroadImpressions": 1053,
+            "Impressions": 1053,
+            "Query": "shy_schoolgirl_ at chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 612,
-            "Impressions": 585,
-            "Query": "honeyyy95 chaturbate"
+            "BroadImpressions": 46,
+            "Impressions": 46,
+            "Query": "hellokinki chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 647,
-            "Impressions": 647,
-            "Query": "chaturbate sitemap"
+            "BroadImpressions": 777,
+            "Impressions": 777,
+            "Query": "chaturbate female cams"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 297,
-            "Impressions": 297,
-            "Query": "chaturbate xvideos"
+            "BroadImpressions": 771,
+            "Impressions": 717,
+            "Query": "chaturbate cams"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 317,
-            "Impressions": 317,
-            "Query": "chaturbate lucyxxcute"
+            "BroadImpressions": 791,
+            "Impressions": 791,
+            "Query": "chaturbate bbw"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1324,
+            "Impressions": 1324,
+            "Query": "chaturbate men’s exhibition"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 257,
+            "Impressions": 257,
+            "Query": "chaturbate camgirls"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3645,
+            "Impressions": 3420,
+            "Query": "chaturbate exhibitionist"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2279,
+            "Impressions": 1436,
+            "Query": "chaturbate live"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 55242,
+            "Impressions": 54216,
+            "Query": "chatterbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 934,
+            "Impressions": 934,
+            "Query": "chaturbate cam girls"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1038,
+            "Impressions": 592,
+            "Query": "asian chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 555,
+            "Impressions": 555,
+            "Query": "bbw chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 824,
+            "Impressions": 800,
+            "Query": "chaturbate archive"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 232,
+            "Impressions": 232,
+            "Query": "what is chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 12479,
+            "Impressions": 11937,
+            "Query": "chaturbate men"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1516,
+            "Impressions": 616,
+            "Query": "chaturbate asian"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1063,
+            "Impressions": 1028,
+            "Query": "chaturbate mia_dynasty"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3361,
+            "Impressions": 3339,
+            "Query": "chaturbate webcam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1973,
+            "Impressions": 1973,
+            "Query": "chaturbate women"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2204,
+            "Impressions": 2135,
+            "Query": "chaturbate porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 312,
+            "Impressions": 312,
+            "Query": "chaturbate kali-s"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1414,
+            "Impressions": 1356,
+            "Query": "chaturbate exhibitionists"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 503,
+            "Impressions": 503,
+            "Query": "chaturbate legswattitude"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 551,
+            "Impressions": 466,
+            "Query": "porn chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 40,
+            "Impressions": 40,
+            "Query": "chatbature"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -6948,159 +7068,39 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 10707,
-            "Impressions": 10707,
-            "Query": "chaturbate login"
+            "BroadImpressions": 1112,
+            "Impressions": 1064,
+            "Query": "chaturbate xxx"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1108,
-            "Impressions": 1108,
-            "Query": "mature chaturbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 406,
-            "Impressions": 406,
-            "Query": "chaturbate scarlettford"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 777,
-            "Impressions": 777,
-            "Query": "chaturbate female cams"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 771,
-            "Impressions": 717,
-            "Query": "chaturbate cams"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 791,
-            "Impressions": 791,
-            "Query": "chaturbate bbw"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1324,
-            "Impressions": 1324,
-            "Query": "chaturbate men’s exhibition"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 257,
-            "Impressions": 257,
-            "Query": "chaturbate camgirls"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 12479,
-            "Impressions": 11937,
-            "Query": "chaturbate men"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1516,
+            "BroadImpressions": 616,
             "Impressions": 616,
-            "Query": "chaturbate asian"
+            "Query": "chat bate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1063,
-            "Impressions": 1028,
-            "Query": "chaturbate mia_dynasty"
+            "BroadImpressions": 27112,
+            "Impressions": 26015,
+            "Query": "chatubate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 3361,
-            "Impressions": 3339,
-            "Query": "chaturbate webcam"
+            "BroadImpressions": 2163,
+            "Impressions": 903,
+            "Query": "chaturbate sex"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1973,
-            "Impressions": 1973,
-            "Query": "chaturbate women"
+            "BroadImpressions": 526,
+            "Impressions": 505,
+            "Query": "www chaturbate"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2204,
-            "Impressions": 2135,
-            "Query": "chaturbate porn"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 312,
-            "Impressions": 312,
-            "Query": "chaturbate kali-s"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1414,
-            "Impressions": 1356,
-            "Query": "chaturbate exhibitionists"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 503,
-            "Impressions": 503,
-            "Query": "chaturbate legswattitude"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 551,
-            "Impressions": 466,
-            "Query": "porn chaturbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 40,
-            "Impressions": 40,
-            "Query": "chatbature"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 3645,
-            "Impressions": 3420,
-            "Query": "chaturbate exhibitionist"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 2279,
-            "Impressions": 1436,
-            "Query": "chaturbate live"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 55242,
-            "Impressions": 54216,
-            "Query": "chatterbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 934,
-            "Impressions": 934,
-            "Query": "chaturbate cam girls"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 1038,
-            "Impressions": 592,
-            "Query": "asian chaturbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 555,
-            "Impressions": 555,
-            "Query": "bbw chaturbate"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 824,
-            "Impressions": 800,
-            "Query": "chaturbate archive"
+            "BroadImpressions": 702,
+            "Impressions": 702,
+            "Query": "ebony chaturbate"
           }
         ],
         "methodStatus": {
@@ -7139,9 +7139,63 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 5899,
-            "Impressions": 5489,
-            "Query": "amazon associates central"
+            "BroadImpressions": 202,
+            "Impressions": 202,
+            "Query": "rakuten affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 116,
+            "Impressions": 116,
+            "Query": "digistore24 affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 163,
+            "Impressions": 163,
+            "Query": "lululemon affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 263,
+            "Impressions": 263,
+            "Query": "amazon affiliate program join free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 31,
+            "Impressions": 31,
+            "Query": "hostinger affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 41,
+            "Impressions": 41,
+            "Query": "travel payouts affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 39818,
+            "Impressions": 6706,
+            "Query": "amazon affiliate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 18,
+            "Impressions": 17,
+            "Query": "shopee affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5,
+            "Impressions": 5,
+            "Query": "myntra affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6,
+            "Impressions": 6,
+            "Query": "trip.com affiliate program"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -7190,132 +7244,6 @@
             "BroadImpressions": 749,
             "Impressions": 749,
             "Query": "benable affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 461,
-            "Impressions": 461,
-            "Query": "walmart affiliate program sign up"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 190,
-            "Impressions": 190,
-            "Query": "smart credit affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 124,
-            "Impressions": 124,
-            "Query": "awin affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 142,
-            "Impressions": 142,
-            "Query": "tiktok shop affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 130,
-            "Impressions": 130,
-            "Query": "nike affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 290,
-            "Impressions": 290,
-            "Query": "amazon affiliate program sign up"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 15,
-            "Impressions": 15,
-            "Query": "getyourguide affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 75,
-            "Impressions": 75,
-            "Query": "aliexpress affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 555,
-            "Impressions": 555,
-            "Query": "tiktok affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 557,
-            "Impressions": 541,
-            "Query": "temu affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 6285,
-            "Impressions": 6075,
-            "Query": "amazon associates program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 42,
-            "Impressions": 42,
-            "Query": "alibaba affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 286,
-            "Impressions": 277,
-            "Query": "affiliate marketing programs"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 24247,
-            "Impressions": 21875,
-            "Query": "amazon affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 157,
-            "Impressions": 157,
-            "Query": "adidas affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 344,
-            "Impressions": 332,
-            "Query": "affiliate program amazon"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 95,
-            "Impressions": 95,
-            "Query": "amazon affiliate program log in"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 131,
-            "Impressions": 131,
-            "Query": "sephora affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 42,
-            "Impressions": 42,
-            "Query": "the home depot affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 22,
-            "Impressions": 22,
-            "Query": "fashion nova affiliate program"
-          },
-          {
-            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 45501,
-            "Impressions": 24466,
-            "Query": "amazon associates"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -7397,21 +7325,93 @@
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 202,
-            "Impressions": 202,
-            "Query": "rakuten affiliate program"
+            "BroadImpressions": 286,
+            "Impressions": 277,
+            "Query": "affiliate marketing programs"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 116,
-            "Impressions": 116,
-            "Query": "digistore24 affiliate program"
+            "BroadImpressions": 24247,
+            "Impressions": 21875,
+            "Query": "amazon affiliate program"
           },
           {
             "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-            "BroadImpressions": 163,
-            "Impressions": 163,
-            "Query": "lululemon affiliate program"
+            "BroadImpressions": 157,
+            "Impressions": 157,
+            "Query": "adidas affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 344,
+            "Impressions": 332,
+            "Query": "affiliate program amazon"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 95,
+            "Impressions": 95,
+            "Query": "amazon affiliate program log in"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 131,
+            "Impressions": 131,
+            "Query": "sephora affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 42,
+            "Impressions": 42,
+            "Query": "the home depot affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22,
+            "Impressions": 22,
+            "Query": "fashion nova affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 45501,
+            "Impressions": 24466,
+            "Query": "amazon associates"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 461,
+            "Impressions": 461,
+            "Query": "walmart affiliate program sign up"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 190,
+            "Impressions": 190,
+            "Query": "smart credit affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 124,
+            "Impressions": 124,
+            "Query": "awin affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 142,
+            "Impressions": 142,
+            "Query": "tiktok shop affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 130,
+            "Impressions": 130,
+            "Query": "nike affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 290,
+            "Impressions": 290,
+            "Query": "amazon affiliate program sign up"
           }
         ],
         "methodStatus": {
