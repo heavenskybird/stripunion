@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-20T06:10:07.657Z",
+  "generatedAt": "2026-10-21T06:10:18.299Z",
   "sources": {
     "gsc": "2026-10-11",
-    "bing": "2026-10-19",
-    "ga4": "2026-10-19",
-    "clarity": "2026-10-19",
-    "attribution": "2026-10-19",
-    "stripcash": "2026-10-19",
-    "competitorSnapshot": "2026-10-20",
-    "competitorDiff": "2026-10-20",
+    "bing": "2026-10-20",
+    "ga4": "2026-10-20",
+    "clarity": "2026-10-21",
+    "attribution": "2026-10-20",
+    "stripcash": "2026-10-20",
+    "competitorSnapshot": "2026-10-21",
+    "competitorDiff": "2026-10-21",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
@@ -16,7 +16,7 @@
   },
   "monetization": {
     "connected": true,
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
     "signups": 0,
     "verifiedSignups": 0,
@@ -29,7 +29,7 @@
   },
   "queryHygiene": {
     "droppedSyntheticPromptQueries": 1,
-    "droppedIrrelevantKeywordExpansion": 126,
+    "droppedIrrelevantKeywordExpansion": 115,
     "canonicalClusteringEnabled": true,
     "purpose": "Prevent malformed, off-topic, over-broad and synthetic prompt-like rows from crowding the ranked growth queue."
   },
@@ -68,32 +68,18 @@
     ],
     "rows": [
       {
-        "query": "pornhub",
+        "query": "chaterbate",
         "seeds": [
-          "vr adult content"
+          "chaturbate alternatives"
         ],
-        "impressions": 7957915,
+        "impressions": 222989,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
         ],
-        "topicState": "pending",
-        "existingPage": "/pornhub",
-        "recommendedUse": "migrate_pending:/pornhub"
-      },
-      {
-        "query": "hentai",
-        "seeds": [
-          "vr adult content"
-        ],
-        "impressions": 1798819,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "new",
-        "existingPage": null,
-        "recommendedUse": "new_content_candidate"
+        "topicState": "page",
+        "existingPage": "/chaturbate-alternatives",
+        "recommendedUse": "refresh_existing:/chaturbate-alternatives"
       },
       {
         "query": "sex games",
@@ -110,14 +96,14 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "porn game",
+        "query": "porngameshub",
         "seeds": [
           "adult games"
         ],
-        "impressions": 97009,
+        "impressions": 36864,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "adult_domain_signal"
+          "specific_seed_overlap"
         ],
         "topicState": "new",
         "existingPage": null,
@@ -138,18 +124,18 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "nsfw games",
+        "query": "live cams",
         "seeds": [
-          "adult games"
+          "live cam sites"
         ],
-        "impressions": 23564,
+        "impressions": 23916,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "specific_seed_overlap"
+          "canonical_live_cam_variant"
         ],
-        "topicState": "new",
-        "existingPage": null,
-        "recommendedUse": "new_content_candidate"
+        "topicState": "page",
+        "existingPage": "/best-live-cam-sites",
+        "recommendedUse": "refresh_existing:/best-live-cam-sites"
       },
       {
         "query": "live porn",
@@ -194,25 +180,11 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate men",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 12479,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "adult movie",
+        "query": "free adult videos",
         "seeds": [
           "vr adult content"
         ],
-        "impressions": 11840,
+        "impressions": 15887,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -236,20 +208,6 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate login",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 10707,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
         "query": "adult films",
         "seeds": [
           "vr adult content"
@@ -264,11 +222,39 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "xxx games",
+        "query": "free sex games",
         "seeds": [
           "adult games"
         ],
-        "impressions": 6332,
+        "impressions": 8378,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "specific_seed_overlap"
+        ],
+        "topicState": "new",
+        "existingPage": null,
+        "recommendedUse": "new_content_candidate"
+      },
+      {
+        "query": "chaturbate male",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 6680,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "porn games hub",
+        "seeds": [
+          "adult games"
+        ],
+        "impressions": 6217,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -306,6 +292,34 @@
         "recommendedUse": "new_content_candidate"
       },
       {
+        "query": "pornhubcom",
+        "seeds": [
+          "vr adult content"
+        ],
+        "impressions": 4967,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "known_content_topic"
+        ],
+        "topicState": "pending",
+        "existingPage": "/pornhub",
+        "recommendedUse": "migrate_pending:/pornhub"
+      },
+      {
+        "query": "chaturbate'",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 4078,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
         "query": "pornhubgames",
         "seeds": [
           "adult games"
@@ -318,6 +332,34 @@
         "topicState": "pending",
         "existingPage": "/pornhub",
         "recommendedUse": "migrate_pending:/pornhub"
+      },
+      {
+        "query": "browser porn games",
+        "seeds": [
+          "adult games"
+        ],
+        "impressions": 3813,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "new",
+        "existingPage": null,
+        "recommendedUse": "new_content_candidate"
+      },
+      {
+        "query": "chaturbate gay",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 3728,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
         "query": "chaturbate exhibitionist",
@@ -334,18 +376,18 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "chaturbate webcam",
+        "query": "18 games",
         "seeds": [
-          "chaturbate alternatives"
+          "adult games"
         ],
-        "impressions": 3361,
+        "impressions": 2969,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "adult_domain_signal"
+          "specific_seed_overlap"
         ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
+        "topicState": "new",
+        "existingPage": null,
+        "recommendedUse": "new_content_candidate"
       },
       {
         "query": "adult game",
@@ -362,6 +404,20 @@
         "recommendedUse": "new_content_candidate"
       },
       {
+        "query": "chaturbate log",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 2281,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
         "query": "chaturbate live",
         "seeds": [
           "chaturbate alternatives"
@@ -376,32 +432,32 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "chaturbate porn",
+        "query": "sexy games",
         "seeds": [
-          "chaturbate alternatives"
+          "adult games"
         ],
-        "impressions": 2204,
+        "impressions": 2164,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "adult_domain_signal"
+          "specific_seed_overlap"
         ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
+        "topicState": "new",
+        "existingPage": null,
+        "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate sex",
+        "query": "adult time porn",
         "seeds": [
-          "chaturbate alternatives"
+          "vr adult content"
         ],
-        "impressions": 2163,
+        "impressions": 2110,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
         ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
+        "topicState": "new",
+        "existingPage": null,
+        "recommendedUse": "new_content_candidate"
       },
       {
         "query": "sexgames",
@@ -418,18 +474,18 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate women",
+        "query": "pornhub recommended",
         "seeds": [
-          "chaturbate alternatives"
+          "vr adult content"
         ],
-        "impressions": 1973,
+        "impressions": 2070,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
         ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
+        "topicState": "pending",
+        "existingPage": "/pornhub",
+        "recommendedUse": "migrate_pending:/pornhub"
       },
       {
         "query": "youtube adult",
@@ -444,6 +500,62 @@
         "topicState": "new",
         "existingPage": null,
         "recommendedUse": "new_content_candidate"
+      },
+      {
+        "query": "chaturbate trans",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1908,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate log in",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1883,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate mature",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1834,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate free",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1796,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
         "query": "chaturbateme",
@@ -488,35 +600,21 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "naked games",
+        "query": "adult video content",
         "seeds": [
-          "adult games"
+          "vr adult content"
         ],
-        "impressions": 1620,
+        "impressions": 1668,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "specific_seed_overlap"
+          "adult_domain_signal"
         ],
         "topicState": "new",
         "existingPage": null,
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate asian",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1516,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "adult website",
+        "query": "itch adult",
         "seeds": [
           "adult games"
         ],
@@ -528,104 +626,6 @@
         "topicState": "new",
         "existingPage": null,
         "recommendedUse": "new_content_candidate"
-      },
-      {
-        "query": "chaturbate exhibitionists",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1414,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "sex games online",
-        "seeds": [
-          "adult games"
-        ],
-        "impressions": 1381,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "specific_seed_overlap"
-        ],
-        "topicState": "new",
-        "existingPage": null,
-        "recommendedUse": "new_content_candidate"
-      },
-      {
-        "query": "chaturbate xxx",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1112,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "mature chaturbate",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1108,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "chaturbate mia_dynasty",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1063,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "shy_schoolgirl_ at chaturbate",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1053,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "asian chaturbate",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 1038,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
       }
     ]
   },
@@ -770,13 +770,13 @@
         {
           "source": "Bing",
           "date": "/Date(1792108800000)/",
-          "query": "adult toy retailer discreet packaging billing privacy buying online",
+          "query": "adult toy retailer discreet billing shipping faq packaging",
           "impressions": 1,
           "clicks": 0,
           "position": 1
         }
       ],
-      "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
+      "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",
@@ -802,13 +802,13 @@
         {
           "source": "Bing",
           "date": "/Date(1792108800000)/",
-          "query": "adult toy retailer discreet billing shipping faq packaging",
+          "query": "adult toy retailer discreet packaging billing privacy buying online",
           "impressions": 1,
           "clicks": 0,
           "position": 1
         }
       ],
-      "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+      "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
       "recommendedAction": "evaluate a new on-site guide against the content inventory",
       "trafficIntent": "observed",
       "commercialIntent": "unknown",

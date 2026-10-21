@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-20T06:10:07.722Z",
-  "sourceGeneratedAt": "2026-10-20T06:10:07.657Z",
+  "generatedAt": "2026-10-21T06:10:18.339Z",
+  "sourceGeneratedAt": "2026-10-21T06:10:18.299Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 0,
       "verifiedSignups": 0,
@@ -36,7 +36,7 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-19"
+    "attributionSource": "2026-10-20"
   },
   "validatedLearnings": [],
   "portfolio": {
@@ -323,7 +323,7 @@
       "action": "CREATE",
       "priority": 93,
       "eligible": true,
-      "subject": "adult toy retailer discreet packaging billing privacy buying online",
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -341,13 +341,13 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
             "impressions": 1,
             "clicks": 0,
             "position": 1
           }
         ],
-        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
@@ -425,7 +425,7 @@
       "action": "CREATE",
       "priority": 90,
       "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
+      "subject": "adult toy retailer discreet packaging billing privacy buying online",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
@@ -443,13 +443,13 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
             "impressions": 1,
             "clicks": 0,
             "position": 1
           }
         ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
