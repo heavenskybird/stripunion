@@ -1,9 +1,9 @@
 {
-  "collectedAt": "2026-10-21T06:07:25.462Z",
+  "collectedAt": "2026-10-21T13:10:58.617Z",
   "receiverConnected": true,
   "postbackJoinReady": true,
   "reportScope": "first-party AVCams click/postback attribution",
-  "totalClicks": 4,
+  "totalClicks": 5,
   "totalPostbacks": 1,
   "matchedPostbacks": 0,
   "unmatchedPostbacks": 1,
@@ -33,6 +33,13 @@
       "matchedPostbacks": 0,
       "eventCounts": {},
       "revenueByCurrency": {}
+    },
+    "stripchat-vs-chaturbate": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
     }
   },
   "byAffiliateSource": {
@@ -56,8 +63,15 @@
       "matchedPostbacks": 0,
       "eventCounts": {},
       "revenueByCurrency": {}
+    },
+    "comparison_stripchat_chaturbate_mid": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
     }
   },
   "byExperiment": {},
-  "updatedAt": "2026-10-10T04:44:25.376Z"
+  "updatedAt": "2026-10-21T13:06:03.969Z"
 }

@@ -1,6 +1,6 @@
 {
   "source": "buffer-graphql",
-  "collectedAt": "2026-10-21T06:07:22.424Z",
+  "collectedAt": "2026-10-21T13:10:54.818Z",
   "organization": {
     "id": "6ab75bd1d7d9758ea3145e4b",
     "name": "My organization"
@@ -10317,5 +10317,14 @@
       "metricsUpdatedAt": "2026-10-09T15:54:31.182Z"
     }
   ],
-  "scheduledPosts": []
+  "scheduledPosts": [
+    {
+      "id": "6ad8b9880e8e6c40c7d085cf",
+      "text": "A practical StripUnion decision-support guide: A tracked…\n\nhttps://stripunion.com/guides/affiliate-conversion-qualification-rules-audit?utm_source=x&utm_medium=social&utm_campaign=social_outbox&utm_content=affiliate-conversion-qualification-rules-audit",
+      "status": "scheduled",
+      "dueAt": "2026-10-21T13:47:00.000Z",
+      "createdAt": "2026-10-21T13:09:28.225Z",
+      "channelId": "6ab75d92ea19ca0bdef12700"
+    }
+  ]
 }
