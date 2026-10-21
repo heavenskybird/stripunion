@@ -1,0 +1,119 @@
+export default {
+  "slug": "creator-platform-team-permissions-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Team Access and Permissions Before Adding Collaborators",
+  "description": "A practical workflow for reviewing creator-platform team roles, account permissions, approval steps and access changes before collaborators handle a creator business.",
+  "excerpt": "Collaborators can help with routine operations, but shared logins make it harder to limit access and understand who changed what. Compare role controls and build a simple access workflow before adding a team member.",
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "keyTakeaways": [
+    "List the tasks a collaborator actually needs before granting any account access.",
+    "Prefer separate named accounts and limited roles over sharing a creator’s main login.",
+    "Check whether sensitive actions—such as payment changes, account closure or publishing—can be restricted or require confirmation.",
+    "Agree on access reviews and prompt removal when a collaborator’s responsibilities end.",
+    "Keep a record of assigned permissions and the platform’s available audit or activity history."
+  ],
+  "sections": [
+    {
+      "heading": "Start with tasks, not job titles",
+      "paragraphs": [
+        "A label such as assistant, editor or manager does not define what someone needs to do inside a platform. One collaborator may only schedule posts; another may need to respond to fan messages; a third may help reconcile business records. Begin by writing down the actual tasks, the information each task requires and whether it involves changing or publishing anything.",
+        "This task list becomes a practical test for the platform’s access controls. If a collaborator only needs to prepare draft material, access to payout details or account recovery settings may be unnecessary. If the platform offers only one shared login with broad access, record that limitation before relying on the account for team operations."
+      ],
+      "bullets": [
+        "Separate viewing information from editing, publishing and account-management actions.",
+        "Identify tasks that could expose personal, financial or unpublished business information.",
+        "Decide who can approve consequential changes and who can make routine updates."
+      ]
+    },
+    {
+      "heading": "Compare role controls and separate accounts",
+      "paragraphs": [
+        "Check whether the platform allows each collaborator to sign in with a distinct account, and whether access can be limited by role or task. Distinct logins make it easier to grant, review and remove access without changing the creator’s own password. They also help the account owner understand which person performed an action when activity records identify users.",
+        "Do not assume that a role name explains its full authority. Read the permission details or test available settings in a low-risk way before inviting a collaborator to the live account. Confirm whether a role can view messages, download files, alter profile details, manage other users or access financial records. If role boundaries are unclear, treat that uncertainty as a business risk rather than assuming the least access."
+      ],
+      "table": {
+        "caption": "A task-to-permission map to prepare before inviting a collaborator",
+        "headers": [
+          "Task",
+          "Access to verify",
+          "Question to settle"
+        ],
+        "rows": [
+          [
+            "Prepare drafts",
+            "Draft or content workspace",
+            "Can the collaborator publish, or only prepare material?"
+          ],
+          [
+            "Handle routine messages",
+            "Inbox or message tools",
+            "Can the role see other account areas or private records?"
+          ],
+          [
+            "Review business records",
+            "Reports or statements",
+            "Can financial settings also be changed?"
+          ],
+          [
+            "Maintain account settings",
+            "Specific settings access",
+            "Which changes require owner approval?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect high-impact account actions",
+      "paragraphs": [
+        "Some account actions can affect access, revenue records or the public-facing presence of a creator business. Consider who can change login credentials, recovery methods, payout settings, ownership details, account status or security settings. Where the platform offers confirmation prompts, approval steps or separate administrator controls, understand how they work before delegating.",
+        "If the platform cannot restrict a high-impact action, define an off-platform approval procedure. For example, agree that the account owner must approve a payout-detail change through a separate, known communication channel. This is an operational safeguard, not a substitute for platform security. Avoid sending passwords, authentication codes or recovery links through ordinary team chat."
+      ],
+      "bullets": [
+        "Keep primary recovery methods under the account owner’s control where possible.",
+        "Use a separate, verified channel to confirm consequential account changes.",
+        "Never treat a shared password as a substitute for role controls or an access record."
+      ]
+    },
+    {
+      "heading": "Build an invitation and removal routine",
+      "paragraphs": [
+        "Before sending an invitation, confirm the collaborator’s identity, explain the scope of their work and document the access they will receive. Use an individual account if the platform supports one. Ask the collaborator to secure that account with a unique password and available sign-in protections. Keep invitations and access instructions in a controlled business channel rather than a public or shared workspace.",
+        "Access should be reviewed when duties change, a project ends or a person leaves the team. Remove or reduce permissions promptly, revoke active sessions if the platform provides that option, and check whether recovery credentials, connected apps or shared files need separate attention. A reliable offboarding process prevents old permissions from silently remaining in place."
+      ]
+    },
+    {
+      "heading": "Use records to make access accountable",
+      "paragraphs": [
+        "Maintain a simple access register listing each collaborator, their responsibilities, the permissions granted, the date access began and the person responsible for reviewing it. The register is useful even when a platform has an activity log: platform records may have limited retention, may omit some actions or may not identify which person used a shared credential.",
+        "Review the platform’s activity or security history periodically, especially after a role change or an unexpected account event. Note the distinction between an action being recorded and the platform allowing that action to be reversed. If the platform provides no useful audit trail, increase the care taken with written approvals and limit the number of people who can make consequential changes."
+      ]
+    },
+    {
+      "heading": "Make the decision using a least-access test",
+      "paragraphs": [
+        "A platform’s team tools should be evaluated against the way the creator actually works, not a feature checklist in isolation. Ask whether routine tasks can be delegated without giving every collaborator access to account ownership, payment details or private records. Also consider how quickly access can be changed when the work changes.",
+        "A useful decision rule is to grant the smallest permission set that supports a defined task, then review it after the task is complete. If the platform requires broad access for basic collaboration, decide whether the convenience is worth the added exposure, whether work can happen outside the account, or whether a different workflow is safer. Do not infer that a platform is secure merely because it offers team roles; the role boundaries and your operating routine both matter."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it safe to share a creator account password with a collaborator?",
+      "answer": "A shared password makes it difficult to limit or attribute access and complicates offboarding. If separate accounts and roles are available, use them. If they are not, recognize the limitation, minimize the number of people with access and avoid sharing recovery codes or authentication tokens."
+    },
+    {
+      "question": "What should a collaborator be allowed to access?",
+      "answer": "Grant access based on specific tasks, not seniority or a broad job title. Someone preparing drafts may not need publishing, payment or account-recovery permissions. Check the platform’s actual role definitions rather than relying on role names alone."
+    },
+    {
+      "question": "How often should team permissions be reviewed?",
+      "answer": "Review access when responsibilities change, a project ends, a collaborator leaves or an account security concern arises. A scheduled review can also catch permissions that have remained active after a temporary task was completed."
+    },
+    {
+      "question": "What if the platform does not offer an activity log?",
+      "answer": "Keep a separate access register and record approvals for consequential changes. Limit broad access, use individual accounts when possible and document the platform’s logging limitations in your operating plan."
+    }
+  ]
+};

@@ -1,0 +1,119 @@
+export default {
+  "slug": "affiliate-program-creative-feed-operations-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Audit Creative Libraries and Data Feeds Before Integration",
+  "description": "A webmaster checklist for evaluating affiliate banners, text links, product feeds and update instructions before building them into a site or campaign.",
+  "excerpt": "Creative assets and product feeds can save manual work, but they also create dependencies on licensing, update schedules and technical formats. Check how the materials are supplied and maintained before integrating them.",
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "keyTakeaways": [
+    "Confirm which creative assets and data fields are available and which uses the program permits.",
+    "Check the feed format, update process, field definitions and handling of missing or changed items.",
+    "Avoid building an integration around a sample file until it has been compared with the current production format.",
+    "Plan for stale assets, broken links or feed interruptions without promising visitors information you cannot verify.",
+    "Keep a record of the relevant terms, asset versions and integration decisions."
+  ],
+  "sections": [
+    {
+      "heading": "Treat program materials as an operational dependency",
+      "paragraphs": [
+        "Affiliate programs may provide banners, text links, product information or structured data for a publisher’s site. The existence of a creative library or feed does not establish that every asset is current, appropriate for every placement or permitted for every use. Before integrating materials, identify how your site will use them and what could break if the source changes.",
+        "This evaluation is separate from deciding whether an offer fits an audience or whether an attribution model suits a business. It focuses on the practical materials used to represent an offer: how they are licensed, supplied, updated and removed. A careful review helps prevent an integration from depending on unclear terms or unreliable data."
+      ],
+      "bullets": [
+        "List each intended placement, such as a comparison page, newsletter or on-site module.",
+        "Record which material is supplied by the program and which copy or design your team creates.",
+        "Identify what the visitor will rely on the asset to communicate."
+      ]
+    },
+    {
+      "heading": "Verify permitted use and creative restrictions",
+      "paragraphs": [
+        "Read the current program terms and any separate creative-use guidance. Check whether assets can be cropped, resized, translated, combined with other elements or used in particular placements. Look for restrictions on brand wording, claims, image alterations, geographic use, paid promotion and the duration of permission after a relationship ends.",
+        "Do not assume a download button grants unrestricted rights or that an old approval covers a changed design. Save the terms or guidance that applies to the integration, note the date reviewed and seek clarification from the program when a proposed use is not addressed. Keep your own editorial copy accurate and distinguish it from program-supplied descriptions or promotional claims."
+      ]
+    },
+    {
+      "heading": "Inspect the feed as data, not as finished copy",
+      "paragraphs": [
+        "A feed may contain fields such as identifiers, names, descriptions, images, categories or destination links. Before using it, review the field definitions and a representative sample. Check whether values can be blank, duplicated, encoded in unexpected ways or changed between updates. Confirm how the program communicates discontinued items and whether a feed entry itself establishes that an offer is currently available.",
+        "Test the actual delivery format in a non-public environment before using it on live pages. Identify encoding, file-size, delimiter, authentication or schema assumptions that could affect an import. If the format is documented, compare the documentation against the sample rather than treating the sample as a complete specification. Avoid exposing raw feed values to visitors without checking their meaning and presentation."
+      ],
+      "table": {
+        "caption": "Questions to record when assessing an affiliate creative library or feed",
+        "headers": [
+          "Area",
+          "What to verify",
+          "Operational response"
+        ],
+        "rows": [
+          [
+            "Usage rights",
+            "Allowed placements, edits and duration of permission",
+            "Save the applicable guidance and approval"
+          ],
+          [
+            "Fields",
+            "Definitions, formats and possible blank values",
+            "Validate before rendering data publicly"
+          ],
+          [
+            "Updates",
+            "How changes, removals or notices are delivered",
+            "Assign an owner to check and apply updates"
+          ],
+          [
+            "Failure handling",
+            "What happens when a file or image is unavailable",
+            "Prepare a safe fallback or remove the affected element"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand update timing and ownership",
+      "paragraphs": [
+        "Ask how often the program expects assets or data to change and how publishers are notified. Do not assume that an advertised update schedule is a service guarantee unless the applicable terms say so. Establish who on your team is responsible for checking notices, refreshing files and reviewing changes that affect published pages.",
+        "An integration also needs a rule for stale data. If a feed import fails, a link points to an unexpected destination or an image is missing, decide whether the page should hide the affected item, display a clear fallback or pause publication. The right response depends on how important that information is to the visitor. A blank field should not silently be replaced with invented details."
+      ]
+    },
+    {
+      "heading": "Design a cautious test and fallback path",
+      "paragraphs": [
+        "Run the integration in a staging or otherwise controlled environment first. Compare the output with the source file, check links, confirm that text displays correctly and test how the page behaves with missing fields. Where possible, keep a copy of the last known-good version and document how to disable the feed or remove an asset without rebuilding the entire page.",
+        "A fallback should protect visitor expectations rather than preserve a placement at any cost. If an image disappears, a link becomes unclear or an offer description cannot be verified, it may be better to remove the element until it is reviewed. Do not fabricate availability, product details or promotional terms to fill a data gap."
+      ],
+      "bullets": [
+        "Use a controlled test before publishing new feed fields or asset formats.",
+        "Check that outbound links resolve to the intended destination.",
+        "Provide a named owner and a documented way to disable an unreliable integration."
+      ]
+    },
+    {
+      "heading": "Keep a change record for the integration",
+      "paragraphs": [
+        "Record the feed or asset source, the date and version used, the terms reviewed, any clarifications received and the person responsible for maintenance. Keep copies of relevant notices when the program changes its creative guidance or feed structure. This record supports troubleshooting and helps a future editor understand why a particular field or placement was used.",
+        "Review the integration after material changes to the program, your site, or the intended use of an asset. A creative approved for one page may not be suitable in a new channel, and a previously stable feed may change structure. A short review at change points is more useful than assuming that an old integration remains valid indefinitely."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate product feed guarantee that listed information is current?",
+      "answer": "No. A feed is a source of data, but its accuracy and update practices depend on the program’s documentation and operations. Check the field definitions, update process and notices, and avoid presenting uncertain values as verified current facts."
+    },
+    {
+      "question": "Can I edit or crop a program-provided banner?",
+      "answer": "That depends on the program’s applicable creative terms and approval rules. Check the written guidance before changing an asset, and request clarification when the proposed edit is not covered."
+    },
+    {
+      "question": "Should an integration display every field in the feed?",
+      "answer": "Not automatically. Confirm what each field means, whether it is complete and whether it is useful to the visitor. Omit or review unclear fields rather than publishing raw data without context."
+    },
+    {
+      "question": "What should I do if an affiliate feed stops updating?",
+      "answer": "Use the fallback you planned: pause or remove affected content, verify destination links and contact the program through its documented support route if needed. Do not make up missing details to keep the placement populated."
+    }
+  ]
+};
