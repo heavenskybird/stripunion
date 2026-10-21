@@ -151,6 +151,7 @@ function artifactSignature(artifact) {
 
 function structuralReady(artifact) {
   if (!artifact || typeof artifact !== 'object') return false;
+  if (findUnsupportedEditorialClaim(artifact)) return false;
   if (!/^[a-z0-9-]+$/.test(artifact.slug || '')) return false;
   if (!/^[a-z0-9-]+$/.test(artifact.backlogId || '')) return false;
   if (!categories.some((category) => category.slug === artifact.categorySlug)) return false;
