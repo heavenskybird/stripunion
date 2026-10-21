@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { freshSnapshot } from './snapshot-freshness.mjs';
 import { opportunityId } from './opportunity-identity.mjs';
 import { reviews } from '../../src/data/reviews.js';
 import { vrReviews } from '../../src/data/reviews-vr.js';
@@ -31,7 +32,7 @@ const source = async (file) => {
   return null;
 };
 
-const [gsc, bing, ga4, clarity, attribution, stripcash, competitor, diff] = await Promise.all([
+const [gscRaw, bing, ga4, clarity, attribution, stripcash, competitor, diff] = await Promise.all([
   source('gsc.json'),
   source('bing.json'),
   source('ga4.json'),
@@ -41,6 +42,8 @@ const [gsc, bing, ga4, clarity, attribution, stripcash, competitor, diff] = awai
   readLatest(path.join(root, 'competitors/data/raw'), '.json'),
   readLatest(path.join(root, 'competitors/data/diffs'), '.json')
 ]);
+
+const gsc = freshSnapshot(gscRaw);
 
 const directOffers = JSON.parse(await fs.readFile(path.join(root, 'offers/direct-offers.json'), 'utf8'));
 const approvedBrands = new Set(
