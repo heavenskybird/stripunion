@@ -1,0 +1,117 @@
+{
+  "backlogId": "affiliate-program-term-conflict-resolution-workflow",
+  "slug": "affiliate-program-term-conflict-resolution-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Terms: Resolve Conflicts Between Dashboards, Emails and Contracts",
+  "description": "A workflow for documenting conflicting affiliate program instructions and clarifying which terms govern traffic, tracking and account decisions.",
+  "excerpt": "An affiliate dashboard, email and signed agreement may not present instructions in the same place. Build a record of the conflict and request a written clarification before relying on an assumption.",
+  "keyTakeaways": [
+    "Record the exact wording, date and source of each conflicting instruction before acting on it.",
+    "Distinguish a general policy from an account-specific message or dashboard status.",
+    "Ask a focused question that identifies the affected traffic, link, campaign or account decision.",
+    "Do not treat silence, an informal assurance or a dashboard label as a complete resolution of a material conflict.",
+    "Keep the response with the relevant version of the program terms and review it when instructions change."
+  ],
+  "sections": [
+    {
+      "heading": "Why conflicting instructions need a documented process",
+      "paragraphs": [
+        "Affiliate operations can rely on information delivered through different channels: program terms, a dashboard, an application response, a support message or a direct account notice. If two sources appear to disagree, acting on the more convenient interpretation can create a tracking, compliance or payment dispute. The task is not to guess which source is authoritative; it is to identify the conflict and obtain a clear answer from the program operator.",
+        "This workflow is useful when instructions concern a specific traffic source, link format, campaign, reporting field or account status. It does not decide contractual precedence or replace professional advice where that is needed. Instead, it creates a traceable record of what you saw, what you asked and what response you received, so your team can pause or proceed based on documented information rather than memory."
+      ]
+    },
+    {
+      "heading": "Capture the two instructions accurately",
+      "paragraphs": [
+        "Save the relevant wording from each source with enough context to identify it. Record the date, where it appeared, the program or account involved and any version or effective date shown. For a dashboard message, note the section and status. For an email, retain the sender, date and subject. For terms, keep the relevant passage and the version or date presented to you. Avoid paraphrasing in the evidence record until after you have saved the original wording.",
+        "Then describe the conflict in one sentence. For example, a general policy may appear to disallow a traffic method while an account message seems to approve a named campaign. Do not expand the issue into assumptions about all traffic or all accounts. A narrowly defined question is easier for the operator to answer and easier for your team to apply consistently."
+      ],
+      "bullets": [
+        "Save the original wording and source.",
+        "Record relevant dates, versions and account identifiers.",
+        "State precisely which two instructions appear inconsistent.",
+        "Identify any planned activity that should pause until clarification."
+      ]
+    },
+    {
+      "heading": "Classify what kind of conflict it is",
+      "paragraphs": [
+        "Not every apparent contradiction is the same. One source may be older than another; a general rule may have an exception; an account notice may refer only to one campaign; or a dashboard field may describe status rather than permission. Sort the conflict before asking for help. This prevents a support request about traffic approval from becoming entangled with an unrelated question about reporting or payment.",
+        "Check for scope and timing. Ask whether both instructions address the same account, region, traffic source, campaign and period. If one instruction has an effective date or an expiration condition, record it. If the sources apply to different situations, the apparent conflict may be resolvable without changing either instruction. If they truly address the same action differently, request an explicit decision."
+      ]
+    },
+    {
+      "heading": "Ask a focused, answerable question",
+      "paragraphs": [
+        "Use the program’s documented support or account contact route. State the conflict neutrally, quote or attach the relevant excerpts, and explain the concrete decision you need to make. Ask whether the specified action is permitted for the identified account and circumstances, and whether the answer changes any existing instruction. If the question concerns tracking, ask which implementation or report definition should be followed rather than asking only whether tracking is working.",
+        "Request a response that names the scope of the clarification and its effective date. Avoid sending unnecessary visitor data, personal information or confidential business material. If the operator asks for details, provide only what is needed to identify the campaign or issue through an appropriate channel. Keep a copy of the request and the response with the source documents."
+      ]
+    },
+    {
+      "heading": "Pause consequential activity while the answer is unclear",
+      "paragraphs": [
+        "Decide in advance which actions your team will pause when an unresolved conflict could affect compliance or financial records. That may include launching a new campaign, changing a link, increasing spend or representing a feature as approved. A pause is not a conclusion that the activity is prohibited; it is a temporary control while you seek a reliable answer.",
+        "If a deadline or active campaign makes a pause difficult, document the operational risk and ask the program operator for urgent, written clarification. Do not treat a quick verbal assurance as a substitute for a record when the decision may later need to be reviewed. If you must act under your own policies while awaiting a response, document the rationale and limit the action to what those policies allow."
+      ],
+      "table": {
+        "caption": "A conflict log for affiliate program instructions",
+        "headers": [
+          "Log field",
+          "What to enter"
+        ],
+        "rows": [
+          [
+            "Issue",
+            "The specific action, campaign or account decision in question"
+          ],
+          [
+            "Source A and date",
+            "Exact location, wording and version or message date"
+          ],
+          [
+            "Source B and date",
+            "Exact location, wording and version or message date"
+          ],
+          [
+            "Question sent",
+            "The narrow clarification requested and the contact route"
+          ],
+          [
+            "Resolution",
+            "Response, scope, effective date and any follow-up needed"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Update internal procedures after resolution",
+      "paragraphs": [
+        "When you receive an answer, read it for scope rather than treating it as a universal rule. A clarification for one account, campaign or date may not apply to other activity. Save it with the relevant terms, update the team’s operating notes and identify which older instruction it addresses. If the answer is incomplete, ask a follow-up question before expanding the interpretation.",
+        "Set a review point for changes to program terms and account notices. When an instruction changes, preserve the earlier version and record what was updated, when it took effect and which campaigns were affected. This makes future audits easier and helps prevent a team member from relying on an outdated email or dashboard screenshot. The objective is a consistent decision trail, not a larger archive without context."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which source should I trust if affiliate program instructions conflict?",
+      "answer": "Do not assume that a dashboard, email or general terms page automatically controls every situation. Record the conflicting wording and ask the program operator for a written clarification that identifies the specific account, activity and effective date."
+    },
+    {
+      "question": "Should I stop a campaign while waiting for a response?",
+      "answer": "Use your own compliance and risk procedures to decide what to pause. If the unresolved issue could affect permitted traffic or account standing, a temporary pause on the affected action can reduce uncertainty while you seek clarification. Document the decision and its scope."
+    },
+    {
+      "question": "What if support responds without resolving the conflict?",
+      "answer": "Reply with a concise follow-up that restates the two sources and asks for a direct answer to the operational question. Preserve the exchange. Do not broaden an ambiguous response beyond the account, activity or period it actually addresses."
+    }
+  ],
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

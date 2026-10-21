@@ -1,0 +1,118 @@
+{
+  "backlogId": "dating-platform-community-feature-fit",
+  "slug": "dating-platform-community-feature-fit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Compare Community Features with One-to-One Matching",
+  "description": "Compare dating-platform community spaces, group features and individual matching by participation, privacy controls and account fit.",
+  "excerpt": "Some dating services center on individual profiles while others also include shared community spaces. Use this guide to compare what those features mean for your privacy and preferred way to connect.",
+  "keyTakeaways": [
+    "Separate one-to-one matching tools from forums, groups, events or other shared spaces when evaluating a service.",
+    "Check whether community participation is optional and whether it uses the same profile identity as the dating area.",
+    "Review who can see posts, replies, attendance or membership before contributing.",
+    "Look for clear rules and reporting routes for both community spaces and private interactions.",
+    "Choose a platform model based on the kind of participation you want, not on the number of features listed."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the connection style you actually want",
+      "paragraphs": [
+        "Dating platforms can combine individual profiles and matching with shared spaces such as discussion groups, themed communities or event listings. Those features serve different jobs. A person who wants a direct, individual search may not benefit from a busy community feed, while someone who prefers context and shared interests may want spaces beyond profile cards. The useful comparison is not which model is universally better; it is whether the platform’s structure supports your preferred way to participate.",
+        "Make a short list of the activities you would use: browse profiles, join a group, read discussion, attend an event, or contact a specific person. Then distinguish available features from required ones. If a service makes community participation central, check whether you can still use individual discovery without posting publicly. If the community is optional, find out whether opting out affects access to the features you care about."
+      ]
+    },
+    {
+      "heading": "Understand how identity carries between spaces",
+      "paragraphs": [
+        "A profile name, photograph or biography used in a shared community may be visible to a different audience from the one you expected when creating a dating profile. Check whether the same account name appears in groups, event listings, comments and direct interactions. Also examine whether a community post is discoverable to members who cannot see your dating profile, or whether profile details are carried into the post automatically.",
+        "Do not assume that separate tabs or feature labels mean separate identities. Look for a preview, privacy description or account setting that explains what other members can see. If the explanation is unclear, avoid publishing identifying details until you understand the audience. A platform’s controls may differ by feature, so review each area rather than treating the main profile visibility setting as a universal privacy switch."
+      ]
+    },
+    {
+      "heading": "Check audience and participation controls",
+      "paragraphs": [
+        "Community features can expose activity in ways that individual matching does not. Depending on the design, members may be able to see group membership, public replies, event attendance or the timing of activity. Before joining or posting, find out whether spaces are public to all members, limited to approved participants, or visible beyond the service. Check whether you can leave a group, remove a post or edit a contribution afterward.",
+        "A private or members-only label is not a complete explanation by itself. Read what the platform says about audience boundaries and consider what information you would be comfortable sharing with the listed audience. Start with low-detail participation if you are unsure, and do not post contact information or identifying details just to make a conversation easier."
+      ],
+      "bullets": [
+        "Can you browse a group before joining it?",
+        "Who can see membership, posts, replies and event attendance?",
+        "Can you leave a group or remove your own contribution?",
+        "Does the community feature use your dating profile name or image?"
+      ]
+    },
+    {
+      "heading": "Compare moderation and reporting by feature",
+      "paragraphs": [
+        "A platform’s community and dating areas may have different rules, moderation tools or reporting routes. Check whether the rules cover both public posts and direct interactions, and whether a report can include the relevant context. Useful information includes how to block someone, how to report unwanted behavior and where to find the rules before participating. The existence of a control does not guarantee a particular outcome, but unclear or hard-to-find procedures make it harder to decide whether the space suits you.",
+        "Consider how the platform handles group hosts, event organizers or member-run spaces, if those roles exist. Ask who is responsible for removing content or addressing a concern and whether the platform provides a way to escalate an issue. Avoid relying on informal assurances from another member when the service’s own rules or reporting path are not clear."
+      ]
+    },
+    {
+      "heading": "Assess whether community features are optional",
+      "paragraphs": [
+        "Feature descriptions can make a platform sound more flexible than its actual joining flow. Before investing time in a profile, check whether group membership, public posting or event participation is necessary to use search and matching. Also identify whether any participation setting changes notifications or public activity. These details help you avoid signing up for a model that asks for more visible interaction than you intend.",
+        "Where possible, inspect the service’s public information and settings descriptions before creating a profile. If you make an account to evaluate it, use only the information needed for the evaluation and review privacy controls before posting or joining a group. Keep a note of what you tested: for example, whether browsing was available without joining or whether participation displayed an activity indicator."
+      ]
+    },
+    {
+      "heading": "Use a feature-fit scorecard",
+      "paragraphs": [
+        "A short scorecard can make comparison more concrete. Rate each feature as essential, useful or unnecessary, then record the privacy and moderation detail you could verify. This is more informative than counting features, because a platform with fewer community tools may fit someone who wants individual matching, while a richer community model may suit someone who values shared-interest spaces.",
+        "Keep the conclusion specific to your needs. You might prefer a service where group participation is optional, or one where audience controls are clearly explained before posting. Avoid treating a community feature as evidence of stronger safety or better outcomes by itself. The relevant decision is whether the available structure, controls and rules match your intended use."
+      ],
+      "table": {
+        "caption": "Compare community and individual features by the job they serve",
+        "headers": [
+          "Feature area",
+          "Question to answer",
+          "Evidence to note"
+        ],
+        "rows": [
+          [
+            "Individual matching",
+            "Can you search and connect without posting publicly?",
+            "Available search and contact controls"
+          ],
+          [
+            "Groups or discussions",
+            "Who can see membership and contributions?",
+            "Audience description and removal options"
+          ],
+          [
+            "Events",
+            "Is attendance or interest visible to other members?",
+            "Visibility settings and event rules"
+          ],
+          [
+            "Moderation",
+            "How do you block, report or escalate a concern?",
+            "Rules and reporting route for each feature"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are community features necessary to use a dating platform?",
+      "answer": "That depends on the service’s design. Check whether search and individual matching can be used without joining groups, posting or attending events. Feature descriptions and account settings can help you distinguish optional participation from a required part of the service."
+    },
+    {
+      "question": "Can a community post reveal more than a dating profile?",
+      "answer": "It can reach a different audience or expose activity such as group membership or event interest. Review the audience description and identity settings for each feature, and avoid sharing identifying details until you understand who can see them."
+    },
+    {
+      "question": "Should I judge a platform’s safety by whether it has groups or events?",
+      "answer": "No. The presence of a feature does not establish how well it is moderated or whether it suits your needs. Check the rules, reporting options, audience controls and your ability to leave or remove contributions."
+    }
+  ],
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
