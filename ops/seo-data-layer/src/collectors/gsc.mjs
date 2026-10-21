@@ -3,6 +3,10 @@ import { googleAuth } from '../lib/google-auth.mjs';
 import { daysAgo, writeSnapshot } from '../lib/io.mjs';
 
 const siteUrl = process.env.GSC_SITE_URL || 'sc-domain:stripunion.com';
+// Keep URL-prefix data separately from the canonical domain-property snapshot.
+// Mixing these scopes silently would misstate total impressions and clicks.
+const snapshotName = process.env.GSC_SNAPSHOT_NAME || 'gsc';
+if (!['gsc', 'gsc-blog'].includes(snapshotName)) throw new Error('Unsupported GSC snapshot name.');
 const endDate = process.env.SEO_END_DATE || daysAgo(2);
 const startDate = process.env.SEO_START_DATE || daysAgo(32);
 
@@ -96,7 +100,7 @@ const deviceRows = normalize(deviceRaw, deviceDimensions);
 const queryCountryRows = normalize(queryCountryRaw, queryCountryDimensions);
 const queryDeviceRows = normalize(queryDeviceRaw, queryDeviceDimensions);
 
-await writeSnapshot('gsc', endDate, {
+await writeSnapshot(snapshotName, endDate, {
   source: 'google-search-console',
   siteUrl,
   startDate,

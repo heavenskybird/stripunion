@@ -56,6 +56,16 @@ jobs:
           GSC_SITE_URL: ${{ vars.GSC_SITE_URL }}
         run: npm run collect:gsc
 
+      - name: Collect Google Search Console Blog URL-prefix
+        id: collect_gsc_blog
+        continue-on-error: true
+        working-directory: ops/seo-data-layer
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: https://blog.stripunion.com/
+          GSC_SNAPSHOT_NAME: gsc-blog
+        run: npm run collect:gsc
+
       - name: Collect GA4
         id: collect_ga4
         continue-on-error: true
@@ -218,6 +228,7 @@ jobs:
         id: summarize
         env:
           GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
+          GSC_BLOG_OUTCOME: ${{ steps.collect_gsc_blog.outcome }}
           GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
           GA4_ADMIN_OUTCOME: ${{ steps.collect_ga4_admin.outcome }}
           CLARITY_OUTCOME: ${{ steps.collect_clarity.outcome }}
@@ -247,6 +258,12 @@ jobs:
               failed=1
             fi
           done
+          if [ "$GSC_BLOG_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/gsc-blog.json" > /dev/null; then
+            echo "gsc blog: URL-prefix collection succeeded and isolated snapshot exists"
+          else
+            echo "gsc blog: URL-prefix API authorization or collection failed"
+            failed=1
+          fi
           if [ "$GA4_ADMIN_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/ga4-admin.json" > /dev/null; then
             echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
           else
