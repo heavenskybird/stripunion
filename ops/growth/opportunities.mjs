@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { freshSnapshot } from './snapshot-freshness.mjs';
+import { selectSearchOpportunityGsc } from './gsc-scope.mjs';
 import { opportunityId } from './opportunity-identity.mjs';
 import { reviews } from '../../src/data/reviews.js';
 import { vrReviews } from '../../src/data/reviews-vr.js';
@@ -32,8 +33,9 @@ const source = async (file) => {
   return null;
 };
 
-const [gscRaw, bing, ga4, clarity, attribution, stripcash, competitor, diff] = await Promise.all([
+const [gscRaw, gscBlogRaw, bing, ga4, clarity, attribution, stripcash, competitor, diff] = await Promise.all([
   source('gsc.json'),
+  source('gsc-blog.json'),
   source('bing.json'),
   source('ga4.json'),
   source('clarity.json'),
@@ -44,6 +46,8 @@ const [gscRaw, bing, ga4, clarity, attribution, stripcash, competitor, diff] = a
 ]);
 
 const gsc = freshSnapshot(gscRaw);
+const gscBlog = freshSnapshot(gscBlogRaw);
+const gscOpportunitySource = selectSearchOpportunityGsc(gsc, gscBlog);
 
 const directOffers = JSON.parse(await fs.readFile(path.join(root, 'offers/direct-offers.json'), 'utf8'));
 const approvedBrands = new Set(
@@ -434,10 +438,10 @@ function addQuery({ sourceName, date, query, impressions, clicks, position, page
   });
 }
 
-for (const row of gsc?.data?.queryRows || []) {
+for (const row of gscOpportunitySource.snapshot?.data?.queryRows || []) {
   addQuery({
-    sourceName: 'GSC',
-    date: gsc.date,
+    sourceName: gscOpportunitySource.sourceName,
+    date: gscOpportunitySource.snapshot.date,
     query: row.query,
     impressions: Number(row.impressions || 0),
     clicks: Number(row.clicks || 0),
@@ -705,6 +709,8 @@ const result = {
   generatedAt: new Date().toISOString(),
   sources: {
     gsc: gsc?.date || null,
+    gscBlog: gscBlog?.date || null,
+    gscOpportunityScope: gscOpportunitySource.scope,
     bing: bing?.date || null,
     ga4: ga4?.date || null,
     clarity: clarity?.date || null,
