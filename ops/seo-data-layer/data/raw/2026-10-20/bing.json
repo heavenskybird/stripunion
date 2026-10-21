@@ -1,0 +1,2463 @@
+{
+  "source": "bing-webmaster-json-http",
+  "collectedAt": "2026-10-21T06:07:20.853Z",
+  "cadence": "Daily collector; Bing query/page stats update weekly and crawl stats daily.",
+  "account": {
+    "GetUserSites": "ok",
+    "error": null,
+    "sites": [
+      {
+        "site": "blog.stripunion.com",
+        "url": "https://blog.stripunion.com/",
+        "verified": true
+      },
+      {
+        "site": "stripunion.com",
+        "url": "https://stripunion.com/",
+        "verified": false
+      }
+    ]
+  },
+  "sites": [
+    {
+      "site": "stripunion.com",
+      "siteUrl": "https://stripunion.com/",
+      "verified": false,
+      "queryStats": [],
+      "pageStats": [],
+      "crawlStats": [],
+      "crawlIssues": [],
+      "feeds": [],
+      "feedState": {
+        "status": "skipped_unverified",
+        "sitemapUrl": "https://stripunion.com/sitemap.xml",
+        "submitted": false,
+        "error": null
+      },
+      "backlinkPages": [],
+      "backlinkDetails": [],
+      "backlinkMeta": {
+        "totalPages": 0,
+        "truncated": false,
+        "inspectedTargets": []
+      },
+      "indexedPages": [],
+      "methodStatus": {
+        "GetQueryStats": "error",
+        "GetPageStats": "error",
+        "GetCrawlStats": "error",
+        "GetCrawlIssues": "error",
+        "GetFeeds": "error",
+        "GetLinkCounts": "error",
+        "GetUrlLinks": "ok"
+      },
+      "errors": {
+        "GetQueryStats": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}",
+        "GetPageStats": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}",
+        "GetCrawlStats": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}",
+        "GetCrawlIssues": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}",
+        "GetFeeds": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}",
+        "GetLinkCounts": "HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}"
+      }
+    },
+    {
+      "site": "blog.stripunion.com",
+      "siteUrl": "https://blog.stripunion.com/",
+      "verified": true,
+      "queryStats": [
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 1,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 1,
+          "Query": "adult toy retailer discreet billing shipping faq packaging"
+        },
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 1,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 1,
+          "Query": "adult toy retailer discreet packaging billing privacy buying online"
+        }
+      ],
+      "pageStats": [
+        {
+          "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+          "AvgClickPosition": -1,
+          "AvgImpressionPosition": 1,
+          "Clicks": 0,
+          "Date": "/Date(1792108800000)/",
+          "Impressions": 2,
+          "Query": "https://blog.stripunion.com/adult-shop-privacy-packaging-billing-delivery/"
+        }
+      ],
+      "crawlStats": [
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 0,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 5,
+          "CrawlErrors": 0,
+          "Date": "/Date(1790899200000)/",
+          "DnsFailures": 0,
+          "InIndex": 0,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 1,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 5,
+          "CrawlErrors": 2,
+          "Date": "/Date(1790985600000)/",
+          "DnsFailures": 0,
+          "InIndex": 1,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 2,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 6,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791072000000)/",
+          "DnsFailures": 0,
+          "InIndex": 2,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 2,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 1,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791158400000)/",
+          "DnsFailures": 0,
+          "InIndex": 2,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 2,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 42,
+          "CrawlErrors": 2,
+          "Date": "/Date(1791244800000)/",
+          "DnsFailures": 0,
+          "InIndex": 2,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 18,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791331200000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 6,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791417600000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 0,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 7,
+          "CrawlErrors": 1,
+          "Date": "/Date(1791504000000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 2,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 5,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791590400000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 5,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 11,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791676800000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 2,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 7,
+          "CrawlErrors": 1,
+          "Date": "/Date(1791763200000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 2,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 3,
+          "CrawlErrors": 0,
+          "Date": "/Date(1791849600000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 5,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 4,
+          "CrawlErrors": 1,
+          "Date": "/Date(1791936000000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 7,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 5,
+          "CrawlErrors": 0,
+          "Date": "/Date(1792022400000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 7,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 3,
+          "CrawlErrors": 0,
+          "Date": "/Date(1792108800000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 7,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 4,
+          "CrawlErrors": 0,
+          "Date": "/Date(1792195200000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 7,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 4,
+          "CrawlErrors": 0,
+          "Date": "/Date(1792281600000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        },
+        {
+          "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+          "AllOtherCodes": 7,
+          "BlockedByRobotsTxt": 0,
+          "Code2xx": 3,
+          "Code301": 0,
+          "Code302": 0,
+          "Code4xx": 0,
+          "Code5xx": 0,
+          "ConnectionTimeout": 0,
+          "ContainsMalware": 0,
+          "CrawledPages": 2,
+          "CrawlErrors": 0,
+          "Date": "/Date(1792368000000)/",
+          "DnsFailures": 0,
+          "InIndex": 3,
+          "InLinks": 0
+        }
+      ],
+      "crawlIssues": [],
+      "feeds": [
+        {
+          "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+          "Compressed": false,
+          "FileSize": 0,
+          "LastCrawled": "/Date(1792256655000)/",
+          "Status": "Success",
+          "Submitted": "/Date(1791185960538)/",
+          "Type": "Sitemap Index",
+          "Url": "https://blog.stripunion.com/sitemap_index.xml",
+          "UrlCount": 27
+        }
+      ],
+      "feedState": {
+        "status": "already_present",
+        "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+        "submitted": false,
+        "error": null
+      },
+      "backlinkPages": [],
+      "backlinkDetails": [],
+      "backlinkMeta": {
+        "totalPages": 0,
+        "truncated": false,
+        "inspectedTargets": []
+      },
+      "indexedPages": [
+        {
+          "date": "/Date(1790899200000)/",
+          "indexed": 0
+        },
+        {
+          "date": "/Date(1790985600000)/",
+          "indexed": 1
+        },
+        {
+          "date": "/Date(1791072000000)/",
+          "indexed": 2
+        },
+        {
+          "date": "/Date(1791158400000)/",
+          "indexed": 2
+        },
+        {
+          "date": "/Date(1791244800000)/",
+          "indexed": 2
+        },
+        {
+          "date": "/Date(1791331200000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791417600000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791504000000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791590400000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791676800000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791763200000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791849600000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1791936000000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1792022400000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1792108800000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1792195200000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1792281600000)/",
+          "indexed": 3
+        },
+        {
+          "date": "/Date(1792368000000)/",
+          "indexed": 3
+        }
+      ],
+      "methodStatus": {
+        "GetQueryStats": "ok",
+        "GetPageStats": "ok",
+        "GetCrawlStats": "ok",
+        "GetCrawlIssues": "ok",
+        "GetFeeds": "ok",
+        "GetLinkCounts": "ok",
+        "GetUrlLinks": "ok"
+      },
+      "errors": {}
+    }
+  ],
+  "keywordResearch": {
+    "country": "us",
+    "language": "en-US",
+    "period": {
+      "startDate": "2026-07-23T06:07:15.439Z",
+      "endDate": "2026-10-21T06:07:15.439Z"
+    },
+    "seeds": [
+      "adult toy retailer discreet billing shipping faq packaging",
+      "adult toy retailer discreet packaging billing privacy buying online",
+      "live cam sites",
+      "chaturbate alternatives",
+      "adult affiliate program",
+      "adult games",
+      "vr adult content"
+    ],
+    "bySeed": [
+      {
+        "seed": "adult toy retailer discreet billing shipping faq packaging",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "adult toy retailer discreet packaging billing privacy buying online",
+        "stats": [],
+        "related": [],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "live cam sites",
+        "stats": [
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22,
+            "Date": "/Date(1778889600000)/",
+            "Impressions": 22,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 20,
+            "Date": "/Date(1779494400000)/",
+            "Impressions": 20,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 31,
+            "Date": "/Date(1783728000000)/",
+            "Impressions": 31,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 42,
+            "Date": "/Date(1784332800000)/",
+            "Impressions": 42,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 32,
+            "Date": "/Date(1784937600000)/",
+            "Impressions": 32,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22,
+            "Date": "/Date(1785542400000)/",
+            "Impressions": 22,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 49,
+            "Date": "/Date(1786147200000)/",
+            "Impressions": 49,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 57,
+            "Date": "/Date(1786752000000)/",
+            "Impressions": 57,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 33,
+            "Date": "/Date(1787961600000)/",
+            "Impressions": 33,
+            "Query": "live cam sites"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 26,
+            "Date": "/Date(1791590400000)/",
+            "Impressions": 26,
+            "Query": "live cam sites"
+          }
+        ],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1744,
+            "Impressions": 1744,
+            "Query": "seaview fishing pier live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1491,
+            "Impressions": 1483,
+            "Query": "kilauea volcano live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 55,
+            "Impressions": 55,
+            "Query": "telluride live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4552,
+            "Impressions": 4552,
+            "Query": "big bear eagle cam live cam 2"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 188,
+            "Impressions": 188,
+            "Query": "pikes peak live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 24,
+            "Impressions": 24,
+            "Query": "keystone live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 51,
+            "Impressions": 51,
+            "Query": "newburyport live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 153,
+            "Impressions": 83,
+            "Query": "chaturbate live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 356,
+            "Impressions": 333,
+            "Query": "critter vision live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 414,
+            "Impressions": 414,
+            "Query": "chatbute live cam models"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3785,
+            "Impressions": 3785,
+            "Query": "big bear eagle cam live cam 1"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1084,
+            "Impressions": 966,
+            "Query": "deerfield beach live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 342,
+            "Impressions": 339,
+            "Query": "live cam chat"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1521,
+            "Impressions": 1521,
+            "Query": "ocean city live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 479,
+            "Impressions": 479,
+            "Query": "destin live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 973,
+            "Impressions": 973,
+            "Query": "georgia aquarium live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 987,
+            "Impressions": 987,
+            "Query": "surf city fishing pier live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 332,
+            "Impressions": 332,
+            "Query": "live cam savannah ga"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4191,
+            "Impressions": 452,
+            "Query": "aquarium live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 260,
+            "Impressions": 174,
+            "Query": "key west live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 174,
+            "Impressions": 174,
+            "Query": "atlantic city boardwalk live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 259,
+            "Impressions": 169,
+            "Query": "surf city pier live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 23916,
+            "Impressions": 2592,
+            "Query": "live cams"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 222,
+            "Impressions": 27,
+            "Query": "duval street live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 480,
+            "Impressions": 480,
+            "Query": "katmai bears live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 333,
+            "Impressions": 333,
+            "Query": "wellfleet beachcomber live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 113,
+            "Impressions": 113,
+            "Query": "dana point harbor live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 19215,
+            "Impressions": 460,
+            "Query": "web cams"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 224,
+            "Impressions": 224,
+            "Query": "goldy's farm live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 599,
+            "Impressions": 599,
+            "Query": "goldys farm live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 563,
+            "Impressions": 403,
+            "Query": "kensington live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 98,
+            "Impressions": 98,
+            "Query": "reading northern live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 475,
+            "Impressions": 475,
+            "Query": "ndtc live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 457,
+            "Impressions": 457,
+            "Query": "kotogal live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 208,
+            "Impressions": 207,
+            "Query": "live cam free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 172,
+            "Impressions": 172,
+            "Query": "deep live cam github"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 767,
+            "Impressions": 767,
+            "Query": "alaska bear live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22986,
+            "Impressions": 16938,
+            "Query": "live porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 27,
+            "Impressions": 27,
+            "Query": "lake michigan live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 112,
+            "Impressions": 112,
+            "Query": "birds of big bear valley live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2661,
+            "Impressions": 2661,
+            "Query": "monterey bay aquarium live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 731,
+            "Impressions": 699,
+            "Query": "live cam porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 545,
+            "Impressions": 545,
+            "Query": "real live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 24,
+            "Impressions": 24,
+            "Query": "snowbird live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 286,
+            "Impressions": 286,
+            "Query": "breckenridge live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 186,
+            "Impressions": 186,
+            "Query": "brown bears brooks falls live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 883,
+            "Impressions": 883,
+            "Query": "captain anderson's marina live cam"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 787,
+            "Impressions": 744,
+            "Query": "fobbv live cam 1"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 79,
+            "Impressions": 79,
+            "Query": "live cam clips"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 260,
+            "Impressions": 238,
+            "Query": "huntington beach live cam"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "chaturbate alternatives",
+        "stats": [
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5,
+            "Date": "/Date(1779494400000)/",
+            "Impressions": 5,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 8,
+            "Date": "/Date(1780099200000)/",
+            "Impressions": 8,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 37,
+            "Date": "/Date(1782518400000)/",
+            "Impressions": 37,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6,
+            "Date": "/Date(1783728000000)/",
+            "Impressions": 6,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 29,
+            "Date": "/Date(1784332800000)/",
+            "Impressions": 0,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 40,
+            "Date": "/Date(1786147200000)/",
+            "Impressions": 40,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 20,
+            "Date": "/Date(1786752000000)/",
+            "Impressions": 20,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 16,
+            "Date": "/Date(1789171200000)/",
+            "Impressions": 16,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 32,
+            "Date": "/Date(1790380800000)/",
+            "Impressions": 32,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 42,
+            "Date": "/Date(1790985600000)/",
+            "Impressions": 0,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 49,
+            "Date": "/Date(1791590400000)/",
+            "Impressions": 10,
+            "Query": "chaturbate alternatives"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 60,
+            "Date": "/Date(1792195200000)/",
+            "Impressions": 11,
+            "Query": "chaturbate alternatives"
+          }
+        ],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 342,
+            "Impressions": 23,
+            "Query": "like chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 319,
+            "Impressions": 286,
+            "Query": "sites like chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 130,
+            "Impressions": 130,
+            "Query": "best chaturbate alternatives"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3645,
+            "Impressions": 3420,
+            "Query": "chaturbate exhibitionist"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2279,
+            "Impressions": 1436,
+            "Query": "chaturbate live"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 55242,
+            "Impressions": 54216,
+            "Query": "chatterbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 934,
+            "Impressions": 934,
+            "Query": "chaturbate cam girls"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1038,
+            "Impressions": 592,
+            "Query": "asian chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 555,
+            "Impressions": 555,
+            "Query": "bbw chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 824,
+            "Impressions": 800,
+            "Query": "chaturbate archive"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 232,
+            "Impressions": 232,
+            "Query": "what is chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6680,
+            "Impressions": 6193,
+            "Query": "chaturbate male"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 222989,
+            "Impressions": 219968,
+            "Query": "chaterbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 974,
+            "Impressions": 916,
+            "Query": "chaturbate adult"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 15159,
+            "Impressions": 15159,
+            "Query": "chatturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2281,
+            "Impressions": 398,
+            "Query": "chaturbate log"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1796,
+            "Impressions": 929,
+            "Query": "chaturbate free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1834,
+            "Impressions": 1083,
+            "Query": "chaturbate mature"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 583,
+            "Impressions": 583,
+            "Query": "pipervales at chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 546,
+            "Impressions": 453,
+            "Query": "chaturbate new"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 198,
+            "Impressions": 198,
+            "Query": "ghostcrimson chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 561,
+            "Impressions": 349,
+            "Query": "chaturbate web"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 104,
+            "Impressions": 104,
+            "Query": "chaturbate movies"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 421,
+            "Impressions": 421,
+            "Query": "jackandjill chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 169,
+            "Impressions": 169,
+            "Query": "pk2secretxx chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 14022,
+            "Impressions": 10516,
+            "Query": "chatterbait"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7854,
+            "Impressions": 7229,
+            "Query": "chatur"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 336,
+            "Impressions": 336,
+            "Query": "chaturbate kateline"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 314,
+            "Impressions": 294,
+            "Query": "chaturbate recordings"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1744,
+            "Impressions": 1744,
+            "Query": "chaturbateme"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 612,
+            "Impressions": 585,
+            "Query": "honeyyy95 chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 647,
+            "Impressions": 647,
+            "Query": "chaturbate sitemap"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 297,
+            "Impressions": 297,
+            "Query": "chaturbate xvideos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 317,
+            "Impressions": 317,
+            "Query": "chaturbate lucyxxcute"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5483,
+            "Impressions": 4706,
+            "Query": "chaturbate female"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3728,
+            "Impressions": 3534,
+            "Query": "chaturbate gay"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 554,
+            "Impressions": 554,
+            "Query": "chaturbate sex cams"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4078,
+            "Impressions": 4063,
+            "Query": "chaturbate'"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 449,
+            "Impressions": 449,
+            "Query": "shy_schoolgirl_ chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1908,
+            "Impressions": 1885,
+            "Query": "chaturbate trans"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1883,
+            "Impressions": 1883,
+            "Query": "chaturbate log in"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 232,
+            "Impressions": 232,
+            "Query": "kaitlynxbeckham chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 443,
+            "Impressions": 443,
+            "Query": "chaturbate me"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 28,
+            "Impressions": 28,
+            "Query": "kiittyyx creampie chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 727,
+            "Impressions": 727,
+            "Query": "chaturbate monserrat"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 710,
+            "Impressions": 710,
+            "Query": "chaturbate /_neroli"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 340,
+            "Impressions": 340,
+            "Query": "aguslover chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 396,
+            "Impressions": 324,
+            "Query": "chaturbate .com"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 85,
+            "Impressions": 85,
+            "Query": "osher cox cams chaturbate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 580,
+            "Impressions": 462,
+            "Query": "chaturbate hairy"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "adult affiliate program",
+        "stats": [],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 461,
+            "Impressions": 461,
+            "Query": "walmart affiliate program sign up"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 190,
+            "Impressions": 190,
+            "Query": "smart credit affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 124,
+            "Impressions": 124,
+            "Query": "awin affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 142,
+            "Impressions": 142,
+            "Query": "tiktok shop affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 130,
+            "Impressions": 130,
+            "Query": "nike affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 290,
+            "Impressions": 290,
+            "Query": "amazon affiliate program sign up"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 15,
+            "Impressions": 15,
+            "Query": "getyourguide affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 75,
+            "Impressions": 75,
+            "Query": "aliexpress affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 286,
+            "Impressions": 277,
+            "Query": "affiliate marketing programs"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 24247,
+            "Impressions": 21875,
+            "Query": "amazon affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 157,
+            "Impressions": 157,
+            "Query": "adidas affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 344,
+            "Impressions": 332,
+            "Query": "affiliate program amazon"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 95,
+            "Impressions": 95,
+            "Query": "amazon affiliate program log in"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 131,
+            "Impressions": 131,
+            "Query": "sephora affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 42,
+            "Impressions": 42,
+            "Query": "the home depot affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 22,
+            "Impressions": 22,
+            "Query": "fashion nova affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 45501,
+            "Impressions": 24466,
+            "Query": "amazon associates"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5899,
+            "Impressions": 5489,
+            "Query": "amazon associates central"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3,
+            "Impressions": 3,
+            "Query": "affiliate programme"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 14,
+            "Impressions": 14,
+            "Query": "temu affiliate program login"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3,
+            "Impressions": 3,
+            "Query": "amazon market affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 79,
+            "Impressions": 79,
+            "Query": "canva affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 555,
+            "Impressions": 555,
+            "Query": "tiktok affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 557,
+            "Impressions": 541,
+            "Query": "temu affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6285,
+            "Impressions": 6075,
+            "Query": "amazon associates program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 42,
+            "Impressions": 42,
+            "Query": "alibaba affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 202,
+            "Impressions": 202,
+            "Query": "rakuten affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 116,
+            "Impressions": 116,
+            "Query": "digistore24 affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 163,
+            "Impressions": 163,
+            "Query": "lululemon affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 263,
+            "Impressions": 263,
+            "Query": "amazon affiliate program join free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 31,
+            "Impressions": 31,
+            "Query": "hostinger affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 41,
+            "Impressions": 41,
+            "Query": "travel payouts affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 39818,
+            "Impressions": 6706,
+            "Query": "amazon affiliate"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 18,
+            "Impressions": 17,
+            "Query": "shopee affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5,
+            "Impressions": 5,
+            "Query": "myntra affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6,
+            "Impressions": 6,
+            "Query": "trip.com affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 972,
+            "Impressions": 972,
+            "Query": "amazon affiliate program sign in"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 434,
+            "Impressions": 434,
+            "Query": "home depot affiliate program sign up"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 165,
+            "Impressions": 165,
+            "Query": "amazon.com affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 251,
+            "Impressions": 173,
+            "Query": "affiliate links"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 477,
+            "Impressions": 477,
+            "Query": "amazon affiliate program login"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 211,
+            "Impressions": 211,
+            "Query": "shopify affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 237,
+            "Impressions": 237,
+            "Query": "ebay affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 749,
+            "Impressions": 749,
+            "Query": "benable affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 519,
+            "Impressions": 508,
+            "Query": "shein affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 419,
+            "Impressions": 419,
+            "Query": "impact affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 756,
+            "Impressions": 756,
+            "Query": "amazon associates affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 9030,
+            "Impressions": 1524,
+            "Query": "affiliates"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 176,
+            "Impressions": 176,
+            "Query": "etsy affiliate program"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 106,
+            "Impressions": 33,
+            "Query": "affiliate company"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "adult games",
+        "stats": [
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2434,
+            "Date": "/Date(1777075200000)/",
+            "Impressions": 1061,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2216,
+            "Date": "/Date(1777680000000)/",
+            "Impressions": 1041,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2327,
+            "Date": "/Date(1778284800000)/",
+            "Impressions": 1093,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2168,
+            "Date": "/Date(1778889600000)/",
+            "Impressions": 1019,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2326,
+            "Date": "/Date(1779494400000)/",
+            "Impressions": 1153,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2502,
+            "Date": "/Date(1780099200000)/",
+            "Impressions": 1256,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2410,
+            "Date": "/Date(1780704000000)/",
+            "Impressions": 1157,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2434,
+            "Date": "/Date(1781308800000)/",
+            "Impressions": 1118,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2476,
+            "Date": "/Date(1781913600000)/",
+            "Impressions": 1097,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2256,
+            "Date": "/Date(1782518400000)/",
+            "Impressions": 1121,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2239,
+            "Date": "/Date(1783123200000)/",
+            "Impressions": 1112,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2381,
+            "Date": "/Date(1783728000000)/",
+            "Impressions": 1240,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2250,
+            "Date": "/Date(1784332800000)/",
+            "Impressions": 1189,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2255,
+            "Date": "/Date(1784937600000)/",
+            "Impressions": 1261,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2471,
+            "Date": "/Date(1785542400000)/",
+            "Impressions": 1256,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2289,
+            "Date": "/Date(1786147200000)/",
+            "Impressions": 1162,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2424,
+            "Date": "/Date(1786752000000)/",
+            "Impressions": 1218,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2176,
+            "Date": "/Date(1787961600000)/",
+            "Impressions": 1090,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2421,
+            "Date": "/Date(1788566400000)/",
+            "Impressions": 1218,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2162,
+            "Date": "/Date(1789171200000)/",
+            "Impressions": 1012,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2343,
+            "Date": "/Date(1789776000000)/",
+            "Impressions": 1154,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2350,
+            "Date": "/Date(1790380800000)/",
+            "Impressions": 1166,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2341,
+            "Date": "/Date(1790985600000)/",
+            "Impressions": 1124,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2526,
+            "Date": "/Date(1791590400000)/",
+            "Impressions": 1188,
+            "Query": "adult games"
+          },
+          {
+            "__type": "KeywordStats:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2589,
+            "Date": "/Date(1792195200000)/",
+            "Impressions": 1278,
+            "Query": "adult games"
+          }
+        ],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 282,
+            "Impressions": 282,
+            "Query": "newgrounds adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2079,
+            "Impressions": 2046,
+            "Query": "sexgames"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 52,
+            "Impressions": 52,
+            "Query": "adult games newgrounds"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 58,
+            "Impressions": 58,
+            "Query": "free adult games no download"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 110,
+            "Impressions": 104,
+            "Query": "18 plus games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 619,
+            "Impressions": 311,
+            "Query": "naked game"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 436,
+            "Impressions": 436,
+            "Query": "adultgameson"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 56,
+            "Impressions": 56,
+            "Query": "naughty.games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2302,
+            "Impressions": 985,
+            "Query": "adult game"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 142,
+            "Impressions": 142,
+            "Query": "newgrounds nsfw"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3873,
+            "Impressions": 3873,
+            "Query": "pornhubgames"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 427,
+            "Impressions": 427,
+            "Query": "f95 adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 76,
+            "Impressions": 76,
+            "Query": "adult games android"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3813,
+            "Impressions": 2645,
+            "Query": "browser porn games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1124,
+            "Impressions": 1124,
+            "Query": "free online porn games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 319,
+            "Impressions": 268,
+            "Query": "adult games free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 9,
+            "Impressions": 9,
+            "Query": "hot adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 236,
+            "Impressions": 236,
+            "Query": "adult games itch.io"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1437,
+            "Impressions": 408,
+            "Query": "itch adult"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 8378,
+            "Impressions": 7804,
+            "Query": "free sex games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 6217,
+            "Impressions": 6179,
+            "Query": "porn games hub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 349,
+            "Impressions": 343,
+            "Query": "naughty games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 19,
+            "Impressions": 19,
+            "Query": "halloween adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 8,
+            "Impressions": 8,
+            "Query": "adult games db"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 877,
+            "Impressions": 567,
+            "Query": "newgrounds adult"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2164,
+            "Impressions": 1798,
+            "Query": "sexy games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 36864,
+            "Impressions": 36572,
+            "Query": "porngameshub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10,
+            "Impressions": 10,
+            "Query": "adult games browser"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1690,
+            "Impressions": 1690,
+            "Query": "adult games world"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4972,
+            "Impressions": 3913,
+            "Query": "adult sex games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 70,
+            "Impressions": 70,
+            "Query": "adult world games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 113858,
+            "Impressions": 65434,
+            "Query": "sex games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 544,
+            "Impressions": 526,
+            "Query": "adult video games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 482,
+            "Impressions": 278,
+            "Query": "best adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 831,
+            "Impressions": 801,
+            "Query": "adultgames"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 215,
+            "Impressions": 129,
+            "Query": "fucking game"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 393,
+            "Impressions": 393,
+            "Query": "adult game world"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 329,
+            "Impressions": 327,
+            "Query": "18 game"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1728,
+            "Impressions": 1652,
+            "Query": "nude games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 18,
+            "Impressions": 18,
+            "Query": "18adultgames"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 30,
+            "Impressions": 30,
+            "Query": "adultgames world"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 5452,
+            "Impressions": 5425,
+            "Query": "porngamehub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 951,
+            "Impressions": 951,
+            "Query": "itch adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 110,
+            "Impressions": 110,
+            "Query": "xxx adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 286,
+            "Impressions": 286,
+            "Query": "gamecore adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 404,
+            "Impressions": 404,
+            "Query": "adult games collection"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 474,
+            "Impressions": 474,
+            "Query": "adult browser games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1381,
+            "Impressions": 1184,
+            "Query": "sex games online"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2969,
+            "Impressions": 2616,
+            "Query": "18 games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 181,
+            "Impressions": 181,
+            "Query": "3d adult games"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      },
+      {
+        "seed": "vr adult content",
+        "stats": [],
+        "related": [
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10,
+            "Impressions": 10,
+            "Query": "vr adult games"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1668,
+            "Impressions": 1549,
+            "Query": "adult video content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 514,
+            "Impressions": 514,
+            "Query": "you're about to see adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1432,
+            "Impressions": 1385,
+            "Query": "hamster adult video"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 313,
+            "Impressions": 313,
+            "Query": "hamster adult porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 9419,
+            "Impressions": 9386,
+            "Query": "ponhub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 308,
+            "Impressions": 130,
+            "Query": "adult xxxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2070,
+            "Impressions": 2070,
+            "Query": "pornhub recommended"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1144,
+            "Impressions": 1117,
+            "Query": "adult youtube"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2639,
+            "Impressions": 2530,
+            "Query": "adultxxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 205,
+            "Impressions": 205,
+            "Query": "japanese manga adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 35,
+            "Impressions": 35,
+            "Query": "rule 34 adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1341457,
+            "Impressions": 16910,
+            "Query": "adult"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 941,
+            "Impressions": 883,
+            "Query": "adult free porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 7587,
+            "Impressions": 7587,
+            "Query": "pornub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 705,
+            "Impressions": 438,
+            "Query": "show me porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 94,
+            "Impressions": 94,
+            "Query": "adult explicit content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 35,
+            "Impressions": 35,
+            "Query": "free full porn movie streaming online"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 402,
+            "Impressions": 402,
+            "Query": "adult content images"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 52961,
+            "Impressions": 32707,
+            "Query": "adult video"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 17777,
+            "Impressions": 12837,
+            "Query": "adult time"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 962,
+            "Impressions": 871,
+            "Query": "free adult sex movies"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 65,
+            "Impressions": 65,
+            "Query": "brazzers adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 96,
+            "Impressions": 96,
+            "Query": "adult content identification"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 469,
+            "Impressions": 469,
+            "Query": "adult entertainment scene"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 1936,
+            "Impressions": 649,
+            "Query": "youtube adult"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 297,
+            "Impressions": 297,
+            "Query": "hot adult videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 101,
+            "Impressions": 82,
+            "Query": "adult xvideos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 10952,
+            "Impressions": 5530,
+            "Query": "adult xxx"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 14961,
+            "Impressions": 8132,
+            "Query": "erotic movies"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 30466,
+            "Impressions": 28155,
+            "Query": "adult empire"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 102,
+            "Impressions": 67,
+            "Query": "adults videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 990,
+            "Impressions": 371,
+            "Query": "adult sex sites"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 21045,
+            "Impressions": 20886,
+            "Query": "free porn hub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 220,
+            "Impressions": 217,
+            "Query": "pornographic adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 71,
+            "Impressions": 71,
+            "Query": "tiktok adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 3824,
+            "Impressions": 3148,
+            "Query": "youtube sex"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 99,
+            "Impressions": 99,
+            "Query": "pornhub adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 179031,
+            "Impressions": 102377,
+            "Query": "porn video"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 4967,
+            "Impressions": 4967,
+            "Query": "pornhubcom"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 9696,
+            "Impressions": 7410,
+            "Query": "adult films"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 25,
+            "Impressions": 25,
+            "Query": "nurse allie rae adult content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 2110,
+            "Impressions": 2035,
+            "Query": "adult time porn"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 168,
+            "Impressions": 168,
+            "Query": "adult erotic video content"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 13671,
+            "Impressions": 13671,
+            "Query": "pormhub"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 78,
+            "Impressions": 78,
+            "Query": "youtube adults channels"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 221972,
+            "Impressions": 54823,
+            "Query": "free sex"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 15887,
+            "Impressions": 15263,
+            "Query": "free adult videos"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 867,
+            "Impressions": 569,
+            "Query": "porn hub free"
+          },
+          {
+            "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+            "BroadImpressions": 374,
+            "Impressions": 374,
+            "Query": "free adult content"
+          }
+        ],
+        "methodStatus": {
+          "GetKeywordStats": "ok",
+          "GetRelatedKeywords": "ok"
+        },
+        "errors": {}
+      }
+    ]
+  }
+}

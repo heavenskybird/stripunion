@@ -1,0 +1,381 @@
+{
+  "source": "microsoft-clarity-data-export",
+  "collectedAt": "2026-10-21T06:07:11.311Z",
+  "projectId": "ysuowheiiz",
+  "numOfDays": 3,
+  "dimension1": "URL",
+  "metricNames": [
+    "DeadClickCount",
+    "ExcessiveScroll",
+    "RageClickCount",
+    "QuickbackClick",
+    "ScriptErrorCount",
+    "ErrorClickCount",
+    "ScrollDepth",
+    "Traffic",
+    "EngagementTime"
+  ],
+  "metrics": [
+    {
+      "metricName": "DeadClickCount",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "ExcessiveScroll",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "RageClickCount",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "QuickbackClick",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "ScriptErrorCount",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "ErrorClickCount",
+      "information": [
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "ScrollDepth",
+      "information": [
+        {
+          "averageScrollDepth": 5,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    },
+    {
+      "metricName": "Traffic",
+      "information": [
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 236,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-game-mod-support-and-community-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/free-video-platform-comments-reviews-evidence-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-site-account-data-minimization/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-platform-account-identity-separation-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/webmaster-affiliate-consent-measurement-operations/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/categories/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 112,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://blog.stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-account-requirements-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-mobile-reader-fit-audit/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/affiliate-editorial-disclosure-placement-workflow/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-discreet-playback-controls-audit/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-platform-account-identity-boundaries-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-spoiler-safe-browsing-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/evaluate-an-affiliate-program-before-applying/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-affiliate-referral-tier-terms-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/live-cam-platform-customer-support-evaluation/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/vr-adult-platform-library-overlap-audit/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/webmaster-affiliate-reporting-schema-selection-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-shop-delivery-discretion-and-parcel-privacy-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/free-video-platform-ad-interruption-and-redirect-audit/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 224,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/free-video-moderation-transparency-check/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-library-discovery-workflow/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 224,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-subscription-short-term-viewing-plan/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-account-closure-watchlist-and-records-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/dating-platform-messaging-access-fit-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/dating-platform-communication-channel-fit-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/hentai-anime-mobile-format-usability-audit/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-shop-return-hygiene-policy-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/creator-platform-content-portability-and-exit-planning/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-language-translation-metadata-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 224,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-site-payment-privacy-billing-guide/"
+        }
+      ]
+    },
+    {
+      "metricName": "EngagementTime",
+      "information": [
+        {
+          "totalTime": 0,
+          "activeTime": 0,
+          "Url": "https://stripunion.com/"
+        }
+      ]
+    }
+  ]
+}
