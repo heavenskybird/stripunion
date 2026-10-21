@@ -52,7 +52,13 @@ export function summarizeLogs(payload, token = '') {
   const rawLogs = payload?.logs ?? payload?.log ?? payload?.output ?? payload?.lines_text ?? '';
   const lines = Array.isArray(rawLogs) ? rawLogs.map((entry) => typeof entry === 'string' ? entry : entry?.message ?? JSON.stringify(entry)) : String(rawLogs).split(/\r?\n/);
   const warnings = lines.filter((line) => /\bwarn(?:ing)?\b/i.test(line));
-  const errors = lines.filter((line) => /\berror\b|\bfatal\b|\bfailed\b|\bexception\b/i.test(line));
+  // Astro prints successful page output as '/guides/foo-billing-error/index.html (+5ms)'.
+  // File slug words are not log severity: mask only successful rendered HTML paths,
+  // preserving any genuine ERROR/FAILED marker before or after the path.
+  const errors = lines.filter((line) => {
+    const withoutRenderedPage = line.replace(/\/[^\s]*?\.html(?=\s+\(\+\d+ms\))/g, '[rendered-page]');
+    return /\berror\b|\bfatal\b|\bfailed\b|\bexception\b/i.test(withoutRenderedPage);
+  });
   return {
     lineCount: Number.isFinite(payload?.lines) ? payload.lines : lines.filter(Boolean).length,
     warningCount: warnings.length,
@@ -258,6 +264,11 @@ function selfTest() {
   assert.doesNotMatch(scrubbed, /abc123|supersecret|gho_abcdefghijklmnopqrstu/);
   assert.match(scrubbed, /REDACTED/);
   assert.equal(summarizeLogs({ logs: ['warning: be careful', 'ERROR: build failed'] }).errorCount, 1);
+  assert.equal(summarizeLogs({ logs: [
+    '06:17:31   ├─ /guides/premium-video-billing-error-readiness-checklist/index.html (+5ms)',
+    '06:17:31   ├─ /guides/adult-shop-delivery-estimates-tracking-and-failed-delivery-checklist/index.html (+2ms)'
+  ] }).errorCount, 0);
+  assert.equal(summarizeLogs({ logs: ['06:17:31 ERROR: failed to render /guides/test/index.html (+2ms)'] }).errorCount, 1);
   console.log('Hostinger read-only checker self-test passed.');
 }
 
