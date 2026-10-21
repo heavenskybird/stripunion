@@ -1,0 +1,122 @@
+{
+  "backlogId": "affiliate-conversion-qualification-rules-audit",
+  "slug": "affiliate-conversion-qualification-rules-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Which Referrals Qualify for Commission",
+  "description": "Learn how to compare affiliate conversion qualification rules, including new-customer requirements, attribution conditions, cancellations and reversals.",
+  "excerpt": "A tracked click does not automatically mean a commissionable conversion. Use this guide to map the rules that determine which referrals qualify and when recorded conversions can change.",
+  "keyTakeaways": [
+    "Separate click tracking, conversion recording, qualification and final commission approval; programs may treat these as distinct stages.",
+    "Check how a program defines a qualifying customer, order, subscription or action, rather than relying on a headline commission description.",
+    "Record the conditions that can disqualify or reverse a conversion, including cancellations, refunds, duplicate orders or attribution conflicts.",
+    "Test a small, documented referral journey before committing substantial traffic, and preserve the terms and reporting evidence you used.",
+    "Treat unexplained differences between tracked events and approved commissions as questions to investigate, not proof of misconduct."
+  ],
+  "sections": [
+    {
+      "heading": "Map the stages between a click and a commission",
+      "paragraphs": [
+        "Affiliate reporting can contain several events that sound similar but represent different steps. A click may be recorded when a visitor follows a link. A conversion may be recorded when the visitor completes an action. Qualification may depend on program rules, while approval or payment may happen later. Comparing programs sensibly requires knowing which stage each dashboard number represents.",
+        "Create a short event map for every program you evaluate. Write down what event starts attribution, what action creates a conversion, what checks can affect qualification, and when the result becomes final. If the program’s material does not explain a stage, mark it as unknown and ask the program contact for clarification before using that assumption in forecasts."
+      ],
+      "bullets": [
+        "Click recorded: what counts as a click, and are repeat or filtered clicks treated differently?",
+        "Action recorded: which customer action creates a pending conversion?",
+        "Qualification: what must be true for the action to remain eligible?",
+        "Final status: when can a pending or approved conversion still change?"
+      ]
+    },
+    {
+      "heading": "Read the qualifying-action definition closely",
+      "paragraphs": [
+        "A phrase such as “new customer” can leave important questions unanswered. It may refer to a person who has never had an account, a person who has not purchased before, or another definition stated in the program terms. Similarly, an order-based action may depend on whether payment clears, whether the order is completed, or whether particular products are eligible. Do not infer these details from a dashboard label alone.",
+        "Compare the written definition with the visitor journey your site actually promotes. If a page describes a trial, registration or purchase, confirm which of those actions the program recognizes and whether additional conditions apply. Keep a dated copy of the relevant terms or a written response. This makes later reviews more reliable if wording changes or a conversion is questioned."
+      ],
+      "table": {
+        "caption": "Questions to ask when defining a commissionable action",
+        "headers": [
+          "Rule area",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Customer status",
+            "How does the program define new, returning or existing customers?"
+          ],
+          [
+            "Action",
+            "Which completed action creates a conversion, and what does not count?"
+          ],
+          [
+            "Order or plan scope",
+            "Are some products, plans or transaction types excluded?"
+          ],
+          [
+            "Completion condition",
+            "Must a payment, registration or other step be completed or verified?"
+          ],
+          [
+            "Timing",
+            "What event date determines whether the action is inside the attribution period?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Identify reasons a recorded conversion may change",
+      "paragraphs": [
+        "A pending conversion is not necessarily a final commission. Program rules may allow a status change after an order is cancelled, refunded, duplicated or otherwise found ineligible. The exact reasons and review timing depend on the agreement. The practical task is to find the written conditions and understand whether a change is visible in reporting, supported by a reason code, or explained through a separate statement.",
+        "Distinguish ordinary adjustments from unexplained discrepancies. Keep the original conversion date, later status, any reason shown, and the applicable program wording together. If a pattern appears, send a concise, evidence-based question through the documented support route. Avoid making a conclusion from a single reversed event when the program’s review process or customer transaction status is not visible to you."
+      ],
+      "bullets": [
+        "List named cancellation, refund, duplicate-action and ineligibility conditions.",
+        "Check whether reversals are shown as separate events or overwrite earlier statuses.",
+        "Find out whether the program supplies a reason, reference number or review path.",
+        "Record the date you checked the rule so you can identify later changes."
+      ]
+    },
+    {
+      "heading": "Compare attribution conditions with qualification rules",
+      "paragraphs": [
+        "Attribution answers which referral source receives credit; qualification answers whether the referred action is eligible under program rules. These questions interact, but they are not interchangeable. A visitor may arrive through a trackable link and still complete an action that does not qualify. Conversely, an action can appear eligible while a competing referral or attribution rule determines which source receives credit.",
+        "When comparing programs, note attribution conditions alongside qualification terms rather than combining them into one broad “conversion” assumption. Check what happens when a visitor uses multiple devices, returns later, or follows another referral link, if the program explains those cases. Where the terms are silent, record the uncertainty and avoid treating an assumed outcome as guaranteed."
+      ]
+    },
+    {
+      "heading": "Use a low-risk validation and evidence workflow",
+      "paragraphs": [
+        "Before expanding a campaign, define a test that is permitted by the program and does not create artificial or misleading actions. Use ordinary visitor journeys and the tracking methods allowed by the terms. Confirm that links identify the intended campaign, then compare click reports, conversion statuses and statements over a reasonable reporting cycle. The aim is to check that the process is understandable, not to manufacture conversions.",
+        "Maintain a compact evidence file for each program: the current qualification wording, attribution notes, dated screenshots or exports where permitted, support answers, and examples of status changes. Limit access to people who need the records, and avoid storing personal visitor data that is not necessary for the operational review. A clear record helps distinguish a tracking problem from a rule misunderstanding."
+      ],
+      "bullets": [
+        "Document the test page, link identifier, date range and expected visitor action.",
+        "Compare reported clicks, pending actions, approved actions and later adjustments.",
+        "Do not use self-referrals, fabricated orders or prohibited traffic to test a program.",
+        "Pause assumptions—not necessarily all traffic—when material rules remain unclear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a tracked conversion guarantee a commission?",
+      "answer": "Not necessarily. A tracked event may still be pending review, fail a qualification condition, or be adjusted under the program’s written terms. Check the event status and the rules that define final eligibility."
+    },
+    {
+      "question": "What should I do when a conversion is reversed without a clear reason?",
+      "answer": "Save the relevant report details, dates and terms, then ask the program’s documented support contact for the reason and the applicable rule. Keep the question specific and avoid sharing unnecessary visitor information."
+    },
+    {
+      "question": "How often should I review qualification terms?",
+      "answer": "Review them before launch, when reporting behavior changes, and whenever the program announces revised terms. Keep a dated version or a record of where and when you checked the current wording."
+    }
+  ],
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

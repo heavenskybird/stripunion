@@ -1,48 +1,47 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T01:33:43.201Z",
+  "generatedAt": "2026-10-21T13:06:19.299Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-accessibility-onboarding-check.json",
-    "ops/editorial/content-artifacts/adult-shop-return-policy-comparison.json",
-    "ops/editorial/content-artifacts/hentai-anime-format-selection-guide.json",
-    "ops/editorial/content-artifacts/dating-platform-message-access-comparison.json",
-    "ops/editorial/content-artifacts/live-cam-unused-credit-terms-check.json"
+    "ops/editorial/content-artifacts/affiliate-conversion-qualification-rules-audit.json",
+    "ops/editorial/content-artifacts/premium-video-age-assurance-data-review.json",
+    "ops/editorial/content-artifacts/adult-platform-local-browser-profile-hygiene.json",
+    "ops/editorial/content-artifacts/creator-platform-enforcement-appeals-readiness.json",
+    "ops/editorial/content-artifacts/adult-anime-mobile-manga-reader-usability-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-onboarding-and-first-session-checklist.js",
-    "src/data/guides/adult-shops-returns-and-delivery-policy-comparison.js",
-    "src/data/guides/adult-anime-platforms-choose-streaming-manga-or-games.js",
-    "src/data/guides/dating-platforms-compare-messaging-access-before-signing-up.js",
-    "src/data/guides/live-cam-credits-check-expiration-refund-and-unused-balance-terms.js"
+    "src/data/guides/affiliate-conversion-qualification-rules-audit.js",
+    "src/data/guides/premium-video-age-assurance-data-review.js",
+    "src/data/guides/adult-platform-local-browser-profile-hygiene.js",
+    "src/data/guides/creator-platform-enforcement-appeals-readiness.js",
+    "src/data/guides/adult-anime-mobile-manga-reader-usability-audit.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-shops",
-    "hentai-anime",
-    "dating-hookups",
-    "live-cams"
+    "webmaster-affiliate",
+    "premium-videos",
+    "privacy-safety-payment",
+    "creator-platforms",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "vr-platform-accessibility-onboarding-check",
-    "adult-shop-return-policy-comparison",
-    "hentai-anime-format-selection-guide",
-    "dating-platform-message-access-comparison",
-    "live-cam-unused-credit-terms-check"
+    "affiliate-conversion-qualification-rules-audit",
+    "premium-video-age-assurance-data-review",
+    "adult-platform-local-browser-profile-hygiene",
+    "creator-platform-enforcement-appeals-readiness",
+    "adult-anime-mobile-manga-reader-usability-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
     "loaded": true,
-    "observedSearchOpportunityCount": 12,
+    "observedSearchOpportunityCount": 8,
     "keywordExpansionCount": 20,
-    "risingKeywordCount": 2,
+    "risingKeywordCount": 3,
     "authoritySiteCount": 2,
-    "ctaSignalCount": 1,
+    "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "38835593017",
-  "phase": "closed"
+  "r1CycleId": "38850741342"
 }
