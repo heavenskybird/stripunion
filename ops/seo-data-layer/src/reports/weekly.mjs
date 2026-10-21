@@ -35,6 +35,7 @@ function aggregate(rows, keyField, valueField) {
 }
 const pct = (value) => `${(value * 100).toFixed(1)}%`;
 const gsc = await latestSnapshot('gsc.json');
+const gscBlog = await latestSnapshot('gsc-blog.json');
 const ga4 = await latestSnapshot('ga4.json');
 const ga4Admin = await latestSnapshot('ga4-admin.json');
 const clarity = await latestSnapshot('clarity.json');
@@ -60,6 +61,9 @@ const queryRows = gsc?.data?.queryRows || [];
 const pageRows = gsc?.data?.pageRows || [];
 const gscClicks = sum(dailyRows, 'clicks');
 const gscImpressions = sum(dailyRows, 'impressions');
+const blogGscDailyRows = (gscBlog?.data?.dailyRows || []).filter((row) => inLastWeek(row.date));
+const blogGscClicks = sum(blogGscDailyRows, 'clicks');
+const blogGscImpressions = sum(blogGscDailyRows, 'impressions');
 const bingSites = bing?.data?.sites || [];
 const bingQueries = bingSites.flatMap((site) => (site.queryStats || []).map((row) => ({ ...row, site: site.site })));
 const bingPages = bingSites.flatMap((site) => (site.pageStats || []).map((row) => ({ ...row, site: site.site })));
@@ -188,10 +192,17 @@ await fs.mkdir(reportsRoot, { recursive: true });
 
 const summary = {
   generatedAt: new Date().toISOString(),
-  sourceDates: { gsc: gsc?.date || null, ga4: ga4?.date || null, clarity: clarity?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
-  sources: { gsc: Boolean(gsc), ga4: Boolean(ga4), clarity: Boolean(clarity), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
+  sourceDates: { gsc: gsc?.date || null, gscBlog: gscBlog?.date || null, ga4: ga4?.date || null, clarity: clarity?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
+  sources: { gsc: Boolean(gsc), gscBlog: Boolean(gscBlog), ga4: Boolean(ga4), clarity: Boolean(clarity), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
   ga4Admin: ga4Admin ? { date: ga4Admin.date, propertyId: ga4Admin.data.propertyId || null, topology: ga4Admin.data.topology || 'UNKNOWN / MULTIPLE', unifiedFunnelCandidate: ga4Admin.data.unifiedFunnelCandidate || null, streams: ga4Admin.data.streams || [] } : null,
   google: {
+    blogUrlPrefix: gscBlog ? {
+      siteUrl: gscBlog.data.siteUrl,
+      clicks: blogGscClicks,
+      impressions: blogGscImpressions,
+      ctr: blogGscImpressions ? blogGscClicks / blogGscImpressions : 0,
+      note: 'Independent Blog URL-prefix signal; do not add to main Domain property totals.'
+    } : null,
     clicks: gscClicks, impressions: gscImpressions, ctr: gscImpressions ? gscClicks / gscImpressions : 0,
     averagePosition: gscImpressions ? dailyRows.reduce((total, row) => total + Number(row.position || 0) * Number(row.impressions || 0), 0) / gscImpressions : null,
     siteSegmentationAvailable: gscHostSegmentationAvailable,
@@ -311,16 +322,16 @@ summary.trafficControlPlane = {
 
 const md = [
   `# StripUnion Growth Report — ${reportDate}`, '',
-  `Sources: GSC ${gsc ? `(${gsc.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Clarity ${clarity ? `(${clarity.date})` : 'pending'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'} · Attribution ${attribution ? `(${attribution.date})` : 'pending'}.`, '',
+  `Sources: GSC Domain ${gsc ? `(${gsc.date})` : 'missing'} · GSC Blog ${gscBlog ? `(${gscBlog.date})` : 'missing'} · GA4 ${ga4 ? `(${ga4.date})` : 'missing'} · Clarity ${clarity ? `(${clarity.date})` : 'pending'} · Bing ${bing ? `(${bing.date})` : 'missing'} · Buffer ${buffer ? `(${buffer.date})` : 'missing'} · StripCash ${stripcash ? `(${stripcash.date})` : 'missing'} · Attribution ${attribution ? `(${attribution.date})` : 'pending'}.`, '',
   '## Main Site', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.main.sessions}** sessions · **${summary.ga4.sites.main.engagedSessions}** engaged · **${summary.ga4.sites.main.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.main.revenue ? `**${summary.ga4.sites.main.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.main.clicks}** clicks · **${summary.google.sites.main.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
-  '## Blog', `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
+  '## Blog', `- GSC URL-prefix: ${gscBlog ? `**${blogGscClicks}** clicks · **${blogGscImpressions}** impressions (separate Blog property, not included in Domain total)` : 'Blog URL-prefix snapshot unavailable.'}`, `- GA4: ${summary.ga4.siteSegmentationAvailable ? `**${summary.ga4.sites.blog.sessions}** sessions · **${summary.ga4.sites.blog.engagedSessions}** engaged · **${summary.ga4.sites.blog.affiliateClick}** affiliate_click · revenue ${summary.ga4.sites.blog.revenue ? `**${summary.ga4.sites.blog.revenue}**` : 'REVENUE DATA NOT CONNECTED'}` : 'hostname segmentation unavailable in the latest snapshot; rerun GA4 collection.'}`, `- GSC page rows: ${summary.google.siteSegmentationAvailable ? `**${summary.google.sites.blog.clicks}** clicks · **${summary.google.sites.blog.impressions}** impressions` : 'page-level hostname segmentation unavailable; see combined domain totals below.'}`, '',
   '## GA4 Host Segmentation', `- MAIN: **${summary.ga4.sites?.main.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.main.engagedSessions ?? 'unavailable'}** engaged.`, `- BLOG: **${summary.ga4.sites?.blog.sessions ?? 'unavailable'}** sessions · **${summary.ga4.sites?.blog.engagedSessions ?? 'unavailable'}** engaged.`, ...(summary.ga4.otherHosts.length ? summary.ga4.otherHosts.map((host) => `- OTHER ${host.hostname}: ${host.sessions} sessions · ${host.engagedSessions} engaged.`) : [gaHostRowsAvailable ? '- OTHER: no other hostnames in the latest GA4 rows.' : '- OTHER: hostname segmentation unavailable in the latest snapshot.']), `- TOTAL: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}.`, `- Stream topology: ${ga4Admin?.data?.topology || 'UNKNOWN / MULTIPLE'}.`, `- Unified-funnel Measurement ID candidate: ${ga4Admin?.data?.unifiedFunnelCandidate || 'not established'}.`, '',
   '## Clarity Behavior Analytics',
   ...(summary.clarity
     ? [`- Connected: project ${summary.clarity.projectId || 'configured'} · ${summary.clarity.numOfDays}-day window · ${summary.clarity.metricGroups} metric groups · ${summary.clarity.informationRows} URL-dimension rows.`]
     : ['- Data Export API not connected yet. Main-site tracking can still be active; add CLARITY_API_TOKEN to automate behavior-data ingestion.']),
   '',
-  '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`, `- GSC domain property: **${gscClicks}** clicks · **${gscImpressions}** impressions; page totals are classified by hostname and other hosts remain separate.`, '',
+  '## Combined Funnel', `- GA4 property total: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged sessions · **${affiliateClicks}** affiliate_click · ${summary.ga4.revenue ? `**${summary.ga4.revenue}** revenue` : 'REVENUE DATA NOT CONNECTED'}`,  `- GSC domain property: ${gsc ? `**${gscClicks}** clicks · **${gscImpressions}** impressions; page totals classified by hostname.` : 'unavailable / not authorized (do not interpret as zero clicks).'}`, '',
   '## Search Opportunities',
   ...(clusteredOpportunities.length
     ? clusteredOpportunities.slice(0, 5).map((row) =>
@@ -338,14 +349,15 @@ const md = [
   ...topAttributionP1.map((row) => `- Attribution ${row.key}: ${row.clicks || 0} clicks · ${row.postbacks || 0} postbacks · events ${JSON.stringify(row.eventCounts || {})}.`),
   `- ${stripcash ? (attribution ? 'Aggregate StripCash statistics and first-party attribution are both connected.' : 'Aggregate StripCash statistics are connected; postback joining is the remaining attribution step.') : 'Postback and Statistics attribution remain disconnected.'}`, '',
   '## Warnings / Missing Data',
-  ...(!ga4 ? ['- GA4 snapshot missing.'] : []), ...(!gsc ? ['- GSC snapshot missing.'] : []), ...(!bing ? ['- Bing snapshot missing.'] : []), ...(!stripcash ? ['- StripCash aggregate snapshot missing.'] : []),
+  ...(!ga4 ? ['- GA4 snapshot missing.'] : []), ...(!gsc ? ['- GSC Domain property snapshot missing; Blog URL-prefix cannot substitute for Domain totals.'] : []),
+   ...(!gscBlog ? ['- GSC Blog URL-prefix snapshot missing.'] : []), ...(!bing ? ['- Bing snapshot missing.'] : []), ...(!stripcash ? ['- StripCash aggregate snapshot missing.'] : []),
   ...(ga4 && !gaHostSegmentationAvailable ? ['- GA4 hostname segmentation unavailable for legacy rows; rerun the GA4 collector to populate site totals.'] : []),
   ...(gsc && !gscHostSegmentationAvailable ? ['- GSC hostname segmentation unavailable: page data has no usable page rows. Daily GSC totals are still available for the domain property.'] : []),
   ...bingSiteCoverage.filter((site) => !site.configured).map((site) => `- BING SITE NOT CONFIGURED: ${site.hostname} is not present in the latest configured/returned Bing sites.`),
   ...bingSiteCoverage.filter((site) => site.configured && !site.verified).map((site) => `- BING SITE UNVERIFIED: ${site.hostname} is configured but Bing reports IsVerified=false.`),
   ...bingSiteCoverage.filter((site) => site.configured && site.feedState && !['already_present', 'submitted'].includes(site.feedState.status)).map((site) => `- Bing sitemap state for ${site.hostname}: ${site.feedState.status}.`),
   ...bingSiteCoverage.filter((site) => site.configured && (!site.methods || Object.values(site.methods).some((status) => status !== 'ok'))).map((site) => `- Bing partial/error coverage for ${site.hostname}: ${JSON.stringify(site.methods)}.`), '',
-  '## Search Detail', `- Combined GSC: **${gscClicks}** clicks · **${gscImpressions}** impressions · **${pct(summary.google.ctr)}** CTR.`,
+  '## Search Detail', `- Domain GSC: ${gsc ? `**${gscClicks}** clicks · **${gscImpressions}** impressions · **${pct(summary.google.ctr)}** CTR` : 'unavailable'}; Blog URL-prefix (separate): ${gscBlog ? `**${blogGscClicks}** clicks · **${blogGscImpressions}** impressions` : 'unavailable'}.`,
   ...(ctrOpportunities.length ? ctrOpportunities.slice(0, 5).map((row) => `- Weak CTR: ${row.query} — ${row.impressions} impressions, ${pct(Number(row.ctr || 0))} CTR`) : []), '',
   '## Bing', `- Combined: **${summary.bing.clicks}** clicks · **${summary.bing.impressions}** impressions · ${bingErrors.length} crawl issue URLs.`,
   ...bingCoverageSummary,
