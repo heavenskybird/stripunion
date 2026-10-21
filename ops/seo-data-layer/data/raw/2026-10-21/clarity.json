@@ -1,6 +1,6 @@
 {
   "source": "microsoft-clarity-data-export",
-  "collectedAt": "2026-10-21T13:41:11.598Z",
+  "collectedAt": "2026-10-21T13:48:46.758Z",
   "projectId": "ysuowheiiz",
   "numOfDays": 3,
   "dimension1": "URL",
@@ -20,7 +20,7 @@
       "metricName": "DeadClickCount",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -28,11 +28,11 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 50,
+          "sessionsWithoutMetricPercentage": 50,
+          "pagesViews": 1,
+          "subTotal": 1,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
@@ -49,7 +49,7 @@
       "metricName": "ExcessiveScroll",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -57,7 +57,7 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -78,7 +78,7 @@
       "metricName": "RageClickCount",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -86,7 +86,7 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -107,7 +107,7 @@
       "metricName": "QuickbackClick",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -115,11 +115,11 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 50,
+          "sessionsWithoutMetricPercentage": 50,
+          "pagesViews": 1,
+          "subTotal": 1,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
@@ -136,7 +136,7 @@
       "metricName": "ScriptErrorCount",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -144,7 +144,7 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -165,7 +165,7 @@
       "metricName": "ErrorClickCount",
       "information": [
         {
-          "sessionsCount": 1,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -173,7 +173,7 @@
           "Url": "https://stripunion.com/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -194,11 +194,11 @@
       "metricName": "ScrollDepth",
       "information": [
         {
-          "averageScrollDepth": 5,
+          "averageScrollDepth": 40,
           "Url": "https://stripunion.com/"
         },
         {
-          "averageScrollDepth": 24,
+          "averageScrollDepth": 62,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
@@ -211,10 +211,10 @@
       "metricName": "Traffic",
       "information": [
         {
-          "totalSessionCount": 1,
+          "totalSessionCount": 3,
           "totalBotSessionCount": 239,
-          "distinctUserCount": 1,
-          "pagesPerSessionPercentage": 1,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 1.3333333333333333,
           "Url": "https://stripunion.com/"
         },
         {
@@ -247,14 +247,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 1,
-          "distinctUserCount": 0,
-          "pagesPerSessionPercentage": null,
-          "Url": "https://stripunion.com/guides/webmaster-affiliate-consent-measurement-operations/"
-        },
-        {
-          "totalSessionCount": 0,
-          "totalBotSessionCount": 13,
+          "totalBotSessionCount": 14,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "http://127.0.0.1:4321/guides/premium-video-age-assurance-data-review"
@@ -275,7 +268,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 7,
+          "totalBotSessionCount": 11,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "http://127.0.0.1:4321/guides/affiliate-conversion-qualification-rules-audit"
@@ -334,13 +327,6 @@
           "totalBotSessionCount": 1,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
-          "Url": "https://stripunion.com/guides/evaluate-an-affiliate-program-before-applying/"
-        },
-        {
-          "totalSessionCount": 0,
-          "totalBotSessionCount": 1,
-          "distinctUserCount": 0,
-          "pagesPerSessionPercentage": null,
           "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
         },
         {
@@ -359,7 +345,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 11,
+          "totalBotSessionCount": 13,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "http://127.0.0.1:4321/guides/adult-anime-mobile-manga-reader-usability-audit"
@@ -373,7 +359,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 13,
+          "totalBotSessionCount": 14,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "http://127.0.0.1:4321/guides/creator-platform-enforcement-appeals-readiness"
@@ -408,7 +394,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 10,
+          "totalBotSessionCount": 12,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "http://127.0.0.1:4321/guides/adult-platform-local-browser-profile-hygiene"
@@ -456,9 +442,9 @@
           "Url": "https://stripunion.com/guides/hentai-anime-mobile-format-usability-audit/"
         },
         {
-          "totalSessionCount": 1,
+          "totalSessionCount": 2,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 1,
+          "distinctUserCount": 2,
           "pagesPerSessionPercentage": 2,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
@@ -503,13 +489,13 @@
       "metricName": "EngagementTime",
       "information": [
         {
-          "totalTime": 0,
-          "activeTime": 0,
+          "totalTime": 3,
+          "activeTime": 3,
           "Url": "https://stripunion.com/"
         },
         {
-          "totalTime": 0,
-          "activeTime": 0,
+          "totalTime": 116,
+          "activeTime": 11,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {

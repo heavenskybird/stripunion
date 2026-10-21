@@ -1,6 +1,6 @@
 {
   "source": "buffer-graphql",
-  "collectedAt": "2026-10-21T13:41:38.091Z",
+  "collectedAt": "2026-10-21T13:48:58.371Z",
   "organization": {
     "id": "6ab75bd1d7d9758ea3145e4b",
     "name": "My organization"
@@ -12,6 +12,62 @@
   },
   "sentLookbackDays": 90,
   "sentPosts": [
+    {
+      "id": "6ad8b9880e8e6c40c7d085cf",
+      "text": "A practical StripUnion decision-support guide: A tracked…\n\nhttps://stripunion.com/guides/affiliate-conversion-qualification-rules-audit?utm_source=x&utm_medium=social&utm_campaign=social_outbox&utm_content=affiliate-conversion-qualification-rules-audit",
+      "status": "sent",
+      "dueAt": "2026-10-21T13:47:00.000Z",
+      "createdAt": "2026-10-21T13:09:28.225Z",
+      "channelId": "6ab75d92ea19ca0bdef12700",
+      "metrics": {
+        "impressions": 0,
+        "reach": null,
+        "reactions": 0,
+        "comments": 0,
+        "reposts": 0,
+        "clicks": 0,
+        "engagementRate": 0,
+        "raw": [
+          {
+            "type": "reactions",
+            "name": "Reactions",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "comments",
+            "name": "Comments",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "engagementRate",
+            "name": "Eng. Rate",
+            "value": 0,
+            "unit": "percentage"
+          },
+          {
+            "type": "reposts",
+            "name": "Reposts",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "impressions",
+            "name": "Impressions",
+            "value": 0,
+            "unit": "count"
+          },
+          {
+            "type": "clicks",
+            "name": "Clicks",
+            "value": 0,
+            "unit": "count"
+          }
+        ]
+      },
+      "metricsUpdatedAt": "2026-10-21T13:47:11.171Z"
+    },
     {
       "id": "6ad17fadfb64fffcf1acf342",
       "text": "A practical StripUnion decision-support guide: …\n\nhttps://stripunion.com/guides/vr-adult-platform-onboarding-and-first-session-checklist?utm_source=x&utm_medium=social&utm_campaign=social_outbox&utm_content=vr-adult-platform-onboarding-and-first-session-checklist",
@@ -10317,14 +10373,5 @@
       "metricsUpdatedAt": "2026-10-09T15:54:31.182Z"
     }
   ],
-  "scheduledPosts": [
-    {
-      "id": "6ad8b9880e8e6c40c7d085cf",
-      "text": "A practical StripUnion decision-support guide: A tracked…\n\nhttps://stripunion.com/guides/affiliate-conversion-qualification-rules-audit?utm_source=x&utm_medium=social&utm_campaign=social_outbox&utm_content=affiliate-conversion-qualification-rules-audit",
-      "status": "scheduled",
-      "dueAt": "2026-10-21T13:47:00.000Z",
-      "createdAt": "2026-10-21T13:09:28.225Z",
-      "channelId": "6ab75d92ea19ca0bdef12700"
-    }
-  ]
+  "scheduledPosts": []
 }
