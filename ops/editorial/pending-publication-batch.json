@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T19:44:17.156Z",
+  "generatedAt": "2026-10-21T21:00:53.367Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-cancellation-and-deletion-path.json",
-    "ops/editorial/content-artifacts/adult-account-credential-security-review.json",
-    "ops/editorial/content-artifacts/creator-platform-membership-benefit-fit.json",
-    "ops/editorial/content-artifacts/affiliate-program-geographic-eligibility-review.json",
-    "ops/editorial/content-artifacts/live-cam-platform-accessibility-fit-check.json"
+    "ops/editorial/content-artifacts/premium-video-renewal-failure-access-recovery-audit.json",
+    "ops/editorial/content-artifacts/free-video-upload-provenance-reupload-check.json",
+    "ops/editorial/content-artifacts/adult-game-telemetry-permission-privacy-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-stock-backorder-substitution-check.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-account-data-exit-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-cancellation-and-deletion-path.js",
-    "src/data/guides/adult-account-credential-security-review.js",
-    "src/data/guides/creator-platform-membership-benefit-fit.js",
-    "src/data/guides/affiliate-program-geographic-eligibility-review.js",
-    "src/data/guides/live-cam-platform-accessibility-fit-check.js"
+    "src/data/guides/premium-video-renewal-failure-access-recovery-audit.js",
+    "src/data/guides/free-video-upload-provenance-reupload-check.js",
+    "src/data/guides/adult-game-telemetry-permission-privacy-audit.js",
+    "src/data/guides/adult-shop-stock-backorder-substitution-check.js",
+    "src/data/guides/vr-adult-platform-account-data-exit-audit.js"
   ],
   "categories": [
-    "dating-hookups",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "live-cams"
+    "premium-videos",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-platform-cancellation-and-deletion-path",
-    "adult-account-credential-security-review",
-    "creator-platform-membership-benefit-fit",
-    "affiliate-program-geographic-eligibility-review",
-    "live-cam-platform-accessibility-fit-check"
+    "premium-video-renewal-failure-access-recovery-audit",
+    "free-video-upload-provenance-reupload-check",
+    "adult-game-telemetry-permission-privacy-audit",
+    "adult-shop-stock-backorder-substitution-check",
+    "vr-adult-platform-account-data-exit-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39663818220",
-  "phase": "closed"
+  "r1CycleId": "39674287463"
 }
