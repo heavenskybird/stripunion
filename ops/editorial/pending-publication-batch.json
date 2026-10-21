@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/creator-platform-team-permissions-workflow.json",
     "ops/editorial/content-artifacts/affiliate-program-creative-feed-operations-audit.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39627920276"
+  "r1CycleId": "39627920276",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
