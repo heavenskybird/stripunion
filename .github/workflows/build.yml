@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Test R1 reliability without external calls
-        run: node --test scripts/test/reliability-r1.test.mjs
+        run: node --test scripts/test/reliability-r1.test.mjs scripts/test/editorial-generator-guards.test.mjs
       - name: Validate Hostinger read-only checker
         run: |
           node --check scripts/hostinger-readonly-check.mjs
