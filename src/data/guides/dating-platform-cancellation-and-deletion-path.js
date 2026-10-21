@@ -1,0 +1,115 @@
+export default {
+  "slug": "dating-platform-cancellation-and-deletion-path",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Before Joining a Dating Platform, Map Cancellation, Pausing and Account Deletion",
+  "description": "Compare dating platforms by what happens when you pause, cancel or delete an account. Use this checklist to understand renewals, visibility and remaining records.",
+  "excerpt": "A subscription cancellation, a hidden profile and account deletion are different actions. Map the consequences of each before choosing a dating or casual connection platform.",
+  "publishedAt": "2026-10-21",
+  "updatedAt": "2026-10-21",
+  "keyTakeaways": [
+    "Find out whether billing cancellation and profile deletion are separate steps.",
+    "Check whether a pause or hide setting stops new discovery, existing conversations, or neither.",
+    "Record renewal timing, confirmation steps and the route for resolving a disputed charge.",
+    "Review what the platform says about messages, profile data and account records after closure."
+  ],
+  "sections": [
+    {
+      "heading": "Separate billing, visibility and account closure",
+      "paragraphs": [
+        "The word “cancel” can refer to several different actions: stopping a paid plan from renewing, hiding a profile, pausing activity or closing an account. Those actions may be controlled in different menus and may have different effects. Before joining, look for help pages or account instructions that name each action clearly. If the explanation is ambiguous, treat that as a comparison point rather than assuming one button does everything.",
+        "Build a simple action map for each service you are considering. For each action, note whether it affects future billing, profile discovery, the ability to sign in, and access to existing conversations. This helps prevent a common mismatch: a user expects a profile to disappear but only disables renewal, or expects a subscription to stop but merely hides the profile. Avoid relying on an account screen that you have not yet seen; record unanswered questions for support or for a pre-join check."
+      ],
+      "bullets": [
+        "Write down the platform’s labels for pause, hide, cancel renewal and delete account.",
+        "Identify which actions require a separate confirmation.",
+        "Check whether a deletion request can be reversed and, if so, under what stated conditions."
+      ]
+    },
+    {
+      "heading": "Check renewal timing and proof of cancellation",
+      "paragraphs": [
+        "A cancellation process is easier to manage when its timing and evidence are clear. Review the plan terms for the renewal date, the time zone if one is specified, and whether access continues after renewal is turned off. Do not infer that removing a payment method cancels a subscription, or that deleting an app changes the billing relationship. The stated cancellation route may be through the platform, an app marketplace or another billing intermediary; identify which party controls the plan before subscribing.",
+        "Look for a confirmation page, email or account status that documents the change. Save a copy of the relevant confirmation and note the date. If the platform does not describe what proof to expect, consider whether you are comfortable relying on that process. A calendar reminder before the renewal date can help, but it is not a substitute for following the stated steps and checking that the account reflects the result."
+      ],
+      "table": {
+        "caption": "Use this comparison table to evaluate the closure path before creating an account.",
+        "headers": [
+          "Question",
+          "What to verify",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "What stops renewal?",
+            "The stated route and any separate billing provider",
+            "Cancellation instructions and confirmation"
+          ],
+          [
+            "What hides a profile?",
+            "Whether search, recommendations and existing contacts are affected",
+            "Visibility settings or help documentation"
+          ],
+          [
+            "What deletes an account?",
+            "Whether deletion is a distinct request and what happens next",
+            "Deletion instructions and data policy"
+          ],
+          [
+            "How do I verify completion?",
+            "Expected status change, receipt or support response",
+            "A dated confirmation saved for your records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand pause and hide settings before relying on them",
+      "paragraphs": [
+        "A pause can be useful when you want to take a break without closing an account, but the label alone does not explain the outcome. Check whether a paused profile is excluded from new discovery, whether people you have already contacted can still open it, and whether conversations remain available. Also check whether pausing affects paid access or automatically changes a plan. These details matter because “not actively using the service” is not necessarily the same as “not visible” or “not being billed.”",
+        "Compare temporary controls with the outcome you actually want. If the goal is to stop appearing in search, look for an explicit visibility setting and its stated scope. If the goal is to stop renewal, use the billing cancellation process. If the goal is to remove the account, read the deletion instructions. Keep notes on controls that do not have a clear explanation, and avoid treating a temporary setting as a guarantee of invisibility."
+      ],
+      "bullets": [
+        "Does pausing stop new matches, recommendations or profile views?",
+        "Can existing contacts still see the profile or send messages?",
+        "Does the setting change billing, paid access or subscription renewal?",
+        "Can the setting be reversed without creating a new account?"
+      ]
+    },
+    {
+      "heading": "Review what happens to messages and personal records",
+      "paragraphs": [
+        "Account closure may not have the same effect on every piece of information. The platform’s privacy notice and deletion guidance may distinguish profile details, messages, transaction records, safety reports and information retained for operational or legal reasons. Do not assume that deleting an account erases every record immediately, or that old conversations disappear from another person’s view. Look for a plain-language explanation of what is removed, what may remain and how long processing can take.",
+        "If you need to preserve a legitimate record, such as a subscription confirmation or a safety-related report, consider what you should save before closing the account. Avoid downloading or retaining other people’s personal information without a clear need. A useful decision is whether the platform gives enough detail to understand the boundary between account closure and record retention. When details are unclear, ask support a focused question and keep its answer with your account notes."
+      ]
+    },
+    {
+      "heading": "Use a pre-join and exit checklist",
+      "paragraphs": [
+        "The best platform choice is not just the one that seems convenient to join; it is one whose exit steps you can understand. Before registering, identify how you would stop renewal, hide a profile and request deletion. Note where the instructions live and whether they name the billing party. Then decide what confirmation you would expect after each action. This small exercise can reveal confusing or incomplete processes before you have profile information or an active plan to manage.",
+        "Keep the checklist proportionate. You do not need to predict every possible support issue, but you should be able to locate the basic controls and distinguish their effects. Revisit the instructions if plan terms or account settings change. When you leave, follow the relevant steps in sequence, verify the resulting status and retain only the records needed to manage billing or resolve a genuine issue."
+      ],
+      "bullets": [
+        "Locate renewal cancellation instructions and identify who handles billing.",
+        "Check pause and hide settings separately from account deletion.",
+        "Save relevant subscription and closure confirmations.",
+        "Review the privacy notice for post-closure data and message handling.",
+        "After acting, sign in or check a confirmation channel to verify the status."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does deleting a dating profile automatically cancel a paid plan?",
+      "answer": "Not necessarily. Account deletion and subscription cancellation can be separate processes, especially when billing is managed through another provider. Check the platform’s instructions and confirm the plan’s status through the stated billing route."
+    },
+    {
+      "question": "Is hiding a profile the same as pausing an account?",
+      "answer": "Not always. A hide setting may affect discovery, while a pause may change account activity or access. Review what each control does to search visibility, existing conversations and billing before relying on it."
+    },
+    {
+      "question": "What should I save when I cancel?",
+      "answer": "Keep relevant confirmation of the cancellation or deletion request, the date you submitted it and any response needed to verify the outcome. Store records securely and avoid retaining other people’s personal information without a reason."
+    }
+  ]
+};

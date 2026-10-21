@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T18:39:15.999Z",
+  "generatedAt": "2026-10-21T19:44:17.156Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-streaming-language-version-check.json",
-    "ops/editorial/content-artifacts/vr-adult-household-profile-separation-check.json",
-    "ops/editorial/content-artifacts/free-video-domain-and-link-safety-check.json",
-    "ops/editorial/content-artifacts/adult-game-early-access-status-check.json",
-    "ops/editorial/content-artifacts/adult-shop-warranty-and-defect-support-check.json"
+    "ops/editorial/content-artifacts/dating-platform-cancellation-and-deletion-path.json",
+    "ops/editorial/content-artifacts/adult-account-credential-security-review.json",
+    "ops/editorial/content-artifacts/creator-platform-membership-benefit-fit.json",
+    "ops/editorial/content-artifacts/affiliate-program-geographic-eligibility-review.json",
+    "ops/editorial/content-artifacts/live-cam-platform-accessibility-fit-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-streaming-language-version-check.js",
-    "src/data/guides/vr-adult-household-profile-separation-check.js",
-    "src/data/guides/free-video-domain-and-link-safety-check.js",
-    "src/data/guides/adult-game-early-access-status-check.js",
-    "src/data/guides/adult-shop-warranty-and-defect-support-check.js"
+    "src/data/guides/dating-platform-cancellation-and-deletion-path.js",
+    "src/data/guides/adult-account-credential-security-review.js",
+    "src/data/guides/creator-platform-membership-benefit-fit.js",
+    "src/data/guides/affiliate-program-geographic-eligibility-review.js",
+    "src/data/guides/live-cam-platform-accessibility-fit-check.js"
   ],
   "categories": [
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "dating-hookups",
+    "privacy-safety-payment",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "live-cams"
   ],
   "backlogIds": [
-    "adult-anime-streaming-language-version-check",
-    "vr-adult-household-profile-separation-check",
-    "free-video-domain-and-link-safety-check",
-    "adult-game-early-access-status-check",
-    "adult-shop-warranty-and-defect-support-check"
+    "dating-platform-cancellation-and-deletion-path",
+    "adult-account-credential-security-review",
+    "creator-platform-membership-benefit-fit",
+    "affiliate-program-geographic-eligibility-review",
+    "live-cam-platform-accessibility-fit-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39654245750",
-  "phase": "closed"
+  "r1CycleId": "39663818220"
 }
