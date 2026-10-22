@@ -1,0 +1,790 @@
+{
+  "source": "microsoft-clarity-data-export",
+  "collectedAt": "2026-10-22T06:10:19.534Z",
+  "projectId": "ysuowheiiz",
+  "numOfDays": 3,
+  "dimension1": "URL",
+  "metricNames": [
+    "DeadClickCount",
+    "ExcessiveScroll",
+    "RageClickCount",
+    "QuickbackClick",
+    "ScriptErrorCount",
+    "ErrorClickCount",
+    "ScrollDepth",
+    "Traffic",
+    "EngagementTime"
+  ],
+  "metrics": [
+    {
+      "metricName": "DeadClickCount",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 50,
+          "sessionsWithoutMetricPercentage": 50,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "ExcessiveScroll",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "RageClickCount",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "QuickbackClick",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 50,
+          "sessionsWithoutMetricPercentage": 50,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 100,
+          "sessionsWithoutMetricPercentage": 0,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "ScriptErrorCount",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "ErrorClickCount",
+      "information": [
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "ScrollDepth",
+      "information": [
+        {
+          "averageScrollDepth": 40,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "averageScrollDepth": 49,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "averageScrollDepth": 62,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "averageScrollDepth": 100,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    },
+    {
+      "metricName": "Traffic",
+      "information": [
+        {
+          "totalSessionCount": 3,
+          "totalBotSessionCount": 207,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 1.3333333333333333,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-adult-platform-account-recovery-and-ownership-checklist"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-recommendation-history-control-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 28,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/live-cam-room-interaction-cost-boundary-review"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-age-assurance-data-review"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/free-video-platform-autoplay-and-next-video-controls-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/categories/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 98,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://blog.stripunion.com/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-storefront-discovery-tools-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-conversion-qualification-rules-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-runtime-and-programme-fit-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/free-video-upload-provenance-reupload-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-account-requirements-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-platform-account-identity-boundaries-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-telemetry-permission-privacy-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-anime-spoiler-safe-browsing-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-adult-household-profile-separation-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-anime-platform-redirect-and-download-safety"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/free-video-domain-and-link-safety-check"
+        },
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/live-cam-schedule-and-time-zone-comparison"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-anime-streaming-language-version-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/dating-platform-community-feature-fit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-anime-mobile-manga-reader-usability-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-platform-pending-payment-authorization-and-refund-guide"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-customer-support-prepurchase-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/dating-platform-cancellation-and-deletion-path"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-enforcement-appeals-readiness"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-adult-platform-account-data-exit-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-platform-account-deletion-records-workflow"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-warranty-and-defect-support-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-stream-quality-controls-comparison"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 28,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-program-creative-feed-operations-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/live-cam-platform-accessibility-fit-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-stock-backorder-substitution-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-program-term-conflict-resolution-workflow"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/live-cam-mobile-interface-fit-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-adult-device-handoff-planning"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 188,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-platform-local-browser-profile-hygiene"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-platform-duplicate-charge-response-records"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/dating-platform-presence-indicator-controls"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-program-paid-search-brand-policy-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 189,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-subscription-short-term-viewing-plan/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 28,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-team-permissions-workflow"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-anime-series-completeness-release-tracking"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-program-geographic-eligibility-review"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-checkout-payment-and-billing-privacy-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/free-video-platform-download-offer-safety-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-renewal-failure-access-recovery-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-games-library-access-rights-and-delisting-checklist"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 28,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-product-discreet-shipping-billing-checklist"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-dating-platform-location-precision-and-distance-controls"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-early-access-status-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-game-community-participation-and-review-quality-guide"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-anime-manga-library-organization-and-progress"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-membership-benefit-fit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-total-checkout-cost-transparency-guide"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 28,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-playback-preference-persistence-check"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-account-credential-security-review"
+        },
+        {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 2,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-checklist/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-dating-platform-verification-and-safety-evidence-checklist"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-publishing-workflow-fit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 13,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/free-video-playback-control-quality-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/creator-platform-content-portability-and-exit-planning/"
+        },
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 2,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-fan-data-minimization-workflow"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 189,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "https://stripunion.com/guides/adult-site-payment-privacy-billing-guide/"
+        }
+      ]
+    },
+    {
+      "metricName": "EngagementTime",
+      "information": [
+        {
+          "totalTime": 3,
+          "activeTime": 3,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalTime": 9,
+          "activeTime": 9,
+          "Url": "https://stripunion.com/guides/adult-anime-platform-credit-and-rights-metadata-check/"
+        },
+        {
+          "totalTime": 116,
+          "activeTime": 11,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+        },
+        {
+          "totalTime": 12,
+          "activeTime": 12,
+          "Url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+        }
+      ]
+    }
+  ]
+}
