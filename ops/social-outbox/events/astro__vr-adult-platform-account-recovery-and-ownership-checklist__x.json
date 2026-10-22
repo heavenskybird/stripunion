@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/vr-adult-platform-account-recovery-and-ownership-checklist",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-21T14:05:58.874Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-22T00:04:02.830Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ad952f3ecaa6cda041c038a",
   "provider_due_at": "2026-10-22T05:32:00.000Z",
   "created_at": "2026-10-21T14:05:58.874Z",
-  "updated_at": "2026-10-22T05:29:57.017Z",
+  "updated_at": "2026-10-22T07:01:40.680Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 7,
     "cadence_pressure_before_enqueue": 8,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
