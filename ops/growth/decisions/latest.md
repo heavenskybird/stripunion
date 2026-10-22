@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-10-21T13:51:01.312Z
+Generated: 2026-10-22T06:12:52.496Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 

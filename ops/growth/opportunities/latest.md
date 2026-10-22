@@ -1,8 +1,8 @@
-# Daily Growth Opportunities — 2026-10-21
+# Daily Growth Opportunities — 2026-10-22
 
-Sources: GSC 2026-10-19 · Bing 2026-10-20 · GA4 2026-10-20 · Clarity 2026-10-21 · Attribution 2026-10-20 · StripCash 2026-10-20 · competitor snapshot 2026-10-21 · diff 2026-10-21.
+Sources: GSC 2026-10-20 · Bing 2026-10-21 · GA4 2026-10-21 · Clarity 2026-10-22 · Attribution 2026-10-21 · StripCash 2026-10-21 · competitor snapshot 2026-10-22 · diff 2026-10-22.
 
-Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 4 · off-topic/broad Bing expansion rows dropped: 130.
+Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 4 · off-topic/broad Bing expansion rows dropped: 142.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -11,20 +11,20 @@ StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 
 ## Keyword expansion from Bing
 
 1. **xhamster** — 3600450 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-2. **xhamster .com** — 559116 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-3. **hamster porn** — 297150 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-4. **xhampster** — 271635 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
-5. **chaterbate** — 222989 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate-alternatives.
-6. **xhamster porn** — 78742 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-7. **xhamsters** — 76275 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-8. **xhamster live** — 39218 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
-9. **live cams** — 23916 Bing keyword-research impressions signal; seed(s): live cam sites; use: refresh_existing:/best-live-cam-sites.
-10. **xxx hamster** — 20936 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
-11. **xhamsters.com** — 14144 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
-12. **chaturbate men** — 12479 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
-13. **www xhamster com** — 12090 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-14. **xxxhamster** — 10800 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
-15. **exhamster** — 10316 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+2. **xhampster** — 814905 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+3. **xhamster .com** — 296303 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+4. **hamster porn** — 99050 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+5. **xhamster porn** — 78742 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+6. **chaturbate com** — 77241 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
+7. **xhamster gay** — 54780 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+8. **xhamster live** — 39218 Bing keyword-research impressions signal; seed(s): xhamster reviews; use: refresh_existing:/xhamster.
+9. **www xhamster com** — 33790 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+10. **xhamsters** — 25425 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+11. **xxxhamster** — 21600 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+12. **xxx hamster** — 20936 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+13. **xhamsters.com** — 14144 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+14. **hamster xxx** — 13548 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
+15. **chaturbate men** — 12479 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
 
 ## Rising keyword signals
 
