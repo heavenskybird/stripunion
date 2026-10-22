@@ -1,0 +1,144 @@
+{
+  "backlogId": "affiliate-program-paid-search-brand-policy-audit",
+  "slug": "affiliate-program-paid-search-brand-policy-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Brand-Bidding Rules Before Running Paid Search",
+  "description": "A practical checklist for reviewing affiliate program rules on branded keywords, paid search, ad copy, landing pages and evidence before a campaign launches.",
+  "excerpt": "Paid-search permissions can be more specific than a general traffic policy. Review brand bidding, ad copy and landing-page rules separately before spending on a campaign.",
+  "keyTakeaways": [
+    "Treat paid-search permission as a specific policy question, not an assumption based on general affiliate approval.",
+    "Check rules for brand names, misspellings, combinations and display URLs separately.",
+    "Confirm how ad copy, landing pages and direct linking are treated.",
+    "Save dated copies of applicable terms and written clarifications.",
+    "Set a campaign pause process for policy changes or uncertain interpretations."
+  ],
+  "sections": [
+    {
+      "heading": "Separate general traffic approval from paid-search permission",
+      "paragraphs": [
+        "Being accepted into an affiliate program does not by itself establish that every traffic source is allowed. Paid search can involve separate restrictions for brand terms, competitors, misspellings, ad copy, landing pages, or the use of a program’s name in a display URL. A campaign that seems like ordinary promotion to a visitor may still fall outside the program’s written rules. Treat paid-search review as its own pre-launch task.",
+        "Start by locating the current agreement, traffic policy, advertising guidance and any campaign-specific instructions. Look for defined terms and examples, not only broad statements such as “paid traffic allowed.” If documents differ or leave important terms unexplained, do not resolve the ambiguity by guessing. Ask the program contact a narrowly framed question and retain the response with the policy version you reviewed."
+      ],
+      "bullets": [
+        "Find the current rules for paid traffic and search advertising.",
+        "Check whether approval applies to all campaigns or only named campaigns.",
+        "Write down unresolved terms before creating ads or committing a budget."
+      ]
+    },
+    {
+      "heading": "Map the different forms of brand bidding",
+      "paragraphs": [
+        "Brand-bidding rules can distinguish exact brand names from misspellings, shortened forms, brand-plus-product phrases, or combinations with generic terms. They may also address competitor names or other terms associated with the merchant. Do not assume that a restriction on one keyword automatically explains every related keyword. Build a list of the actual terms you plan to target and compare each group with the program’s language.",
+        "Check whether the rules address keyword selection, ad headlines, descriptions, display URLs, and other visible ad elements separately. A campaign may use a generic keyword but still include a brand name in the creative, or it may use a brand-related keyword while keeping the ad text generic. Record each component because a policy may treat them differently. If the distinction is unclear, pause the affected campaign until you have a clear answer."
+      ],
+      "table": {
+        "caption": "Paid-search policy questions to resolve before campaign setup",
+        "headers": [
+          "Campaign element",
+          "Question to answer",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Keywords",
+            "Are brand terms, misspellings or combinations restricted?",
+            "Policy text and approved keyword groups"
+          ],
+          [
+            "Ad creative",
+            "Can the brand name appear in headlines or descriptions?",
+            "Written guidance and saved ad versions"
+          ],
+          [
+            "Display URL",
+            "Are brand references or lookalike paths restricted?",
+            "Policy clause and final URL configuration"
+          ],
+          [
+            "Landing page",
+            "Must traffic reach a specific destination or use an approved page?",
+            "Destination rules and tested campaign URL"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review destination and direct-link requirements",
+      "paragraphs": [
+        "Search policy is not limited to keywords. The destination may need to be an approved page, a program-provided link, or a page that clearly identifies the affiliate as a separate publisher. Check whether direct linking is permitted, whether redirects are restricted, and whether the ad destination must match the URL shown to the visitor. These questions are separate from whether a link technically works.",
+        "Test the entire path from the ad destination through any tracking redirect to the final page. Confirm that the destination loads, that the visitor’s expectation matches the page, and that the campaign does not depend on an unapproved intermediate step. Keep the test focused on operational correctness rather than trying to evade review or conceal the source of traffic. If a program provides a required link format, preserve it and document any changes."
+      ],
+      "bullets": [
+        "Record the approved destination and any required tracking parameters.",
+        "Check whether redirects, landing pages or direct linking have separate rules.",
+        "Re-test destinations after changing links, pages or campaign structure."
+      ]
+    },
+    {
+      "heading": "Build an approval and evidence file",
+      "paragraphs": [
+        "A useful paid-search file lets someone later reconstruct what was permitted and what actually ran. Keep the dated policy version, the relevant written approval, the keyword groups, ad copy, final destinations, and the person who authorized the launch. Store only operational evidence needed for this purpose and limit access to people responsible for campaign management. A screenshot alone may not capture the exact wording or date of a policy, so preserve the underlying document or message where appropriate.",
+        "If approval is conditional, record the conditions in a campaign checklist rather than leaving them buried in an email thread. For example, identify the approved keyword set, excluded terms, landing-page requirements, or review date. Do not treat silence, an informal conversation, or approval for one campaign as blanket permission for another. A clear record helps reduce internal confusion when campaigns are handed over or revised."
+      ],
+      "table": {
+        "caption": "Minimum campaign file for an accountable launch",
+        "headers": [
+          "Record",
+          "Reason to retain"
+        ],
+        "rows": [
+          [
+            "Policy version and date checked",
+            "Shows which rules informed the decision."
+          ],
+          [
+            "Written clarification or approval",
+            "Preserves the scope and conditions of the response."
+          ],
+          [
+            "Keyword and ad copy snapshot",
+            "Shows what was actually configured."
+          ],
+          [
+            "Destination and redirect test",
+            "Documents where the campaign sent visitors."
+          ],
+          [
+            "Owner and review date",
+            "Makes follow-up responsibility explicit."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Create a pause and change-control process",
+      "paragraphs": [
+        "Paid-search campaigns can remain active after the person who launched them has moved on. Assign an owner who can review policy updates and pause affected campaigns. Set a review point when the program changes its terms, when an ad platform changes its controls, or when the destination or keyword strategy changes. The objective is not to predict every policy development; it is to make sure an uncertain campaign does not continue by default.",
+        "When a rule changes, identify which campaigns and ad groups may be affected, preserve the previous configuration for records, and document the decision to pause, revise or resume. If the new wording is ambiguous, seek clarification before restarting the affected activity. Make sure the procedure is practical for the people who manage ads, content and affiliate links. A concise written process is more useful than relying on one person’s memory."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program allows paid traffic, does that mean branded keywords are allowed?",
+      "answer": "Not necessarily. General paid-traffic permission may coexist with restrictions on brand terms, misspellings, ad copy, display URLs or destinations. Check the specific current rules and obtain clarification where the wording does not settle your planned use."
+    },
+    {
+      "question": "Is an informal message enough to approve a campaign?",
+      "answer": "It may not show the full scope or conditions of approval. Ask a specific question that describes the keyword approach, ad text and destination, and retain the response with the applicable policy. Do not assume approval extends to materially different campaigns."
+    },
+    {
+      "question": "What should I do when the policy is unclear?",
+      "answer": "Avoid launching the uncertain part of the campaign while you seek a clear answer from the program. Document the question, the policy version reviewed and the response. Do not try to work around unclear rules by disguising the keyword or destination."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

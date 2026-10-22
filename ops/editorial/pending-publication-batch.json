@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T01:33:03.921Z",
+  "generatedAt": "2026-10-22T02:50:41.775Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-series-completeness-release-tracking.json",
-    "ops/editorial/content-artifacts/vr-adult-device-handoff-planning.json",
-    "ops/editorial/content-artifacts/live-cam-schedule-and-time-zone-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-runtime-and-programme-fit-check.json",
-    "ops/editorial/content-artifacts/adult-platform-duplicate-charge-response-records.json"
+    "ops/editorial/content-artifacts/creator-platform-publishing-workflow-fit.json",
+    "ops/editorial/content-artifacts/affiliate-program-paid-search-brand-policy-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-presence-indicator-controls.json",
+    "ops/editorial/content-artifacts/vr-stream-quality-controls-comparison.json",
+    "ops/editorial/content-artifacts/adult-anime-manga-library-organization-and-progress.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-series-completeness-release-tracking.js",
-    "src/data/guides/vr-adult-device-handoff-planning.js",
-    "src/data/guides/live-cam-schedule-and-time-zone-comparison.js",
-    "src/data/guides/premium-video-runtime-and-programme-fit-check.js",
-    "src/data/guides/adult-platform-duplicate-charge-response-records.js"
+    "src/data/guides/creator-platform-publishing-workflow-fit.js",
+    "src/data/guides/affiliate-program-paid-search-brand-policy-audit.js",
+    "src/data/guides/dating-platform-presence-indicator-controls.js",
+    "src/data/guides/vr-stream-quality-controls-comparison.js",
+    "src/data/guides/adult-anime-manga-library-organization-and-progress.js"
   ],
   "categories": [
-    "hentai-anime",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "dating-hookups",
     "vr-ar",
-    "live-cams",
-    "premium-videos",
-    "privacy-safety-payment"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-anime-series-completeness-release-tracking",
-    "vr-adult-device-handoff-planning",
-    "live-cam-schedule-and-time-zone-comparison",
-    "premium-video-runtime-and-programme-fit-check",
-    "adult-platform-duplicate-charge-response-records"
+    "creator-platform-publishing-workflow-fit",
+    "affiliate-program-paid-search-brand-policy-audit",
+    "dating-platform-presence-indicator-controls",
+    "vr-stream-quality-controls-comparison",
+    "adult-anime-manga-library-organization-and-progress"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39705958525",
-  "phase": "closed"
+  "r1CycleId": "39712888243"
 }
