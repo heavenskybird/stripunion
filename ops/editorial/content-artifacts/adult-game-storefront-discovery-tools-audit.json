@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-game-storefront-discovery-tools-audit",
+  "slug": "adult-game-storefront-discovery-tools-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Storefronts: Evaluate Search, Tags and Discovery Tools",
+  "description": "Compare adult game discovery systems by search, tags, filters, sorting and listing clarity before deciding where to browse.",
+  "excerpt": "A storefront can list many games yet still make relevant titles hard to find. This guide provides a structured way to assess search, tags, filters and result explanations without relying on promotional placement.",
+  "keyTakeaways": [
+    "Test whether search handles ordinary title and creator queries clearly before relying on it.",
+    "Check if tags and filters have understandable definitions and can be combined or removed.",
+    "Distinguish editorial collections and promoted placements from neutral search results.",
+    "Look for enough listing information to understand why a result appears.",
+    "Treat missing metadata and unclear sorting as limitations rather than evidence about a game's quality."
+  ],
+  "sections": [
+    {
+      "heading": "Judge discovery by tasks, not by storefront size",
+      "paragraphs": [
+        "A storefront can contain a broad catalog and still be difficult to use if search results are noisy, labels are inconsistent or filters are hard to understand. Conversely, a smaller catalog can be easier to browse when listings are clear and discovery tools match the way a visitor searches. The useful comparison is how well the storefront helps you move from a question to an informed shortlist.",
+        "Choose a few neutral discovery tasks before opening a storefront: find a known title, locate a game from a creator you already recognize, narrow results by a stated platform or feature, and clear the filters afterward. These tasks test the interface without requiring a purchase, installation or account wherever public access allows. Use the same tasks across storefronts so the comparison is not based on unrelated browsing."
+      ]
+    },
+    {
+      "heading": "Test search and result relevance",
+      "paragraphs": [
+        "Start with a precise query such as a title or creator name, then try a broader term only if the storefront supports it. Check whether the results make the match understandable and whether similar names or unrelated listings are easy to distinguish. If search suggestions appear, see whether they are clearly labeled as suggestions rather than silently changing the query.",
+        "Pay attention to what happens when a query returns few results. A helpful interface may make it easy to broaden or revise the search; a confusing one may present empty results without explaining the scope. Record the behavior, not a guess about how the search system works internally. Do not treat placement near the top as proof that a result is the best match or highest quality."
+      ],
+      "table": {
+        "caption": "Discovery checks for comparing storefronts",
+        "headers": [
+          "Discovery tool",
+          "Useful question",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Search",
+            "Can a known title or creator be found clearly?",
+            "Query used and whether results matched it."
+          ],
+          [
+            "Tags",
+            "Are labels understandable and consistently applied?",
+            "Definitions available and labels shown on listings."
+          ],
+          [
+            "Filters",
+            "Can you narrow results and remove a selection easily?",
+            "Filter names, combinations and reset behavior."
+          ],
+          [
+            "Sorting",
+            "Can you tell what the ordering represents?",
+            "Visible sort label and any explanation provided."
+          ],
+          [
+            "Collections",
+            "Is the collection editorial, user-created or otherwise described?",
+            "Who appears to curate it, if the storefront says."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect tags and filters for meaning",
+      "paragraphs": [
+        "Tags can describe format, platform, status, features or other attributes, but storefronts do not always use the same vocabulary. Check whether a tag has a definition and whether its meaning is consistent across listings. A tag that sounds precise but is not explained may be less useful than a broader label with clear context.",
+        "Try filters one at a time, then combine a small number if that option exists. Observe whether the result count or listing set changes in a way you can understand. Check for a visible reset control and a way to remove an individual filter. If a filter disappears from the screen while still affecting results, note that as a discoverability issue. Do not assume every listing has complete metadata simply because filters are available."
+      ],
+      "bullets": [
+        "Look for definitions or descriptions of unfamiliar tags.",
+        "Check whether a filter selection remains visible while browsing results.",
+        "Confirm that clearing one filter does not silently preserve another.",
+        "Treat missing tags as unknown information, not as proof that a feature is absent."
+      ]
+    },
+    {
+      "heading": "Understand sorting, promotion and curation",
+      "paragraphs": [
+        "A result order may reflect relevance, date, user activity, editorial selection or a commercial placement. The interface may explain some of these distinctions, but do not infer a ranking method from position alone. Check for labels that identify sponsored or curated items and look for a sorting menu that describes what each option means.",
+        "Collections and recommendation shelves can be useful starting points, but they are not necessarily a complete view of the catalog. Check whether the storefront explains who selected a collection or how a recommendation is generated. If the basis is not stated, treat it as one discovery route rather than a neutral or comprehensive ranking. This is particularly important when building a shortlist from featured listings."
+      ]
+    },
+    {
+      "heading": "Use listing details to validate a result",
+      "paragraphs": [
+        "A useful result should lead to enough information to decide whether it belongs on a shortlist. Look for a clear title, creator or publisher attribution where supplied, platform information, release or update status where relevant, and a link to fuller details. These fields do not establish quality, but they help distinguish one listing from another and identify what remains unknown.",
+        "Keep discovery separate from purchase readiness. Finding a promising listing does not confirm device compatibility, installation source, update status or purchase terms. Those questions should be checked on the relevant detail page before taking action. If search results omit a detail, do not fill the gap with assumptions based on a thumbnail, tag or storefront category."
+      ]
+    },
+    {
+      "heading": "Build a shortlist with transparent notes",
+      "paragraphs": [
+        "A useful shortlist records why each item appeared and what information supports including it. Note the query or filter that surfaced the listing, the visible details and any missing information. This makes it easier to revisit results without confusing promotional visibility with personal relevance. It also helps identify whether a storefront's discovery tools support your particular way of browsing.",
+        "Finish by rating the tools, not the games: search was easy to refine, tags were defined, filter removal was clear, or result ordering was unexplained. You can use simple labels such as clear, usable with effort and unclear. There is no need to invent a numerical score or declare a universal winner. The objective is to choose an interface that supports your needs while making uncertainty visible."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront's top result mean it is the best game?",
+      "answer": "No. Position may reflect search matching, sorting, curation, promotion or other factors. Check whether the storefront explains the ordering and use listing details to make your own shortlist."
+    },
+    {
+      "question": "Are tags reliable evidence that a game has a particular feature?",
+      "answer": "Tags are useful clues, but their meaning and completeness can vary. Look for definitions and confirm important details on the listing or another official information page before relying on them."
+    },
+    {
+      "question": "Can I compare discovery tools without buying or installing anything?",
+      "answer": "Often you can assess public search, filters and listing pages without a purchase or installation. If a feature requires an account, record that limitation and avoid downloading or paying just to test discovery."
+    },
+    {
+      "question": "What should I do when search results are ambiguous?",
+      "answer": "Refine the query using information you already trust, such as a complete title or creator name, and check the listing details. If the match remains uncertain, do not treat the result as confirmed."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
