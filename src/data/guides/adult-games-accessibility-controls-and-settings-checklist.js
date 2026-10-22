@@ -1,0 +1,110 @@
+export default {
+  "slug": "adult-games-accessibility-controls-and-settings-checklist",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Compare Accessibility Controls and Settings Before Choosing",
+  "description": "Learn how to compare adult games by control remapping, text readability, captions, adjustable difficulty and clear accessibility documentation.",
+  "excerpt": "A storefront listing may not reveal whether a game’s controls and presentation fit your needs. Use this checklist to assess accessibility evidence before committing time or money.",
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Separate accessibility information supplied by the creator from features you have personally confirmed.",
+    "Check whether controls can be remapped and whether essential actions require particular inputs.",
+    "Look for readable text, adjustable presentation options and any described caption support.",
+    "Treat missing documentation as unknown, not proof that a feature is absent or present."
+  ],
+  "sections": [
+    {
+      "heading": "Define which barriers matter to your play",
+      "paragraphs": [
+        "Accessibility needs differ, so begin with the tasks that matter to you rather than a vague search for an accessible game. You may need remappable controls, larger text, captions, adjustable difficulty, reduced reliance on timed inputs, or a way to pause and resume comfortably. A feature that matters to one player may be irrelevant to another, and a game can support some needs without supporting all of them.",
+        "Separate requirements from preferences. A requirement is a condition that makes a game usable for you; a preference improves comfort but may not determine whether you can play. This distinction helps you compare listings without letting a long feature list distract from a control or presentation barrier that would prevent you from enjoying the game."
+      ],
+      "bullets": [
+        "Write down essential controls or settings before browsing.",
+        "Identify which features are necessary and which are optional.",
+        "Note whether your requirements apply to the game itself, the device, or both."
+      ]
+    },
+    {
+      "heading": "Inspect control options and input demands",
+      "paragraphs": [
+        "Look for information about key or button remapping, controller support, mouse input, and any actions that depend on repeated, simultaneous, or time-sensitive inputs. A simple claim such as “controller supported” does not explain whether every menu and gameplay action works with that device. If the listing or documentation explains the control scheme, compare it with the inputs you can comfortably use.",
+        "Where a demo, free preview, or trial is available, use it to check the actual menus and a representative section of play. Test whether you can change bindings, whether those changes persist, and whether a required action can be performed with your preferred input. If no safe or legitimate preview is offered, do not assume the controls will be adaptable; record the limitation as unverified."
+      ],
+      "table": {
+        "caption": "Control evidence to collect before choosing a game",
+        "headers": [
+          "Area",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Remapping",
+            "Whether important actions can be assigned to different inputs"
+          ],
+          [
+            "Input device",
+            "Which menus and gameplay actions are described as supported"
+          ],
+          [
+            "Timed actions",
+            "Whether timing demands or alternate settings are documented"
+          ],
+          [
+            "Persistence",
+            "Whether control choices are described as saved between sessions"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check text, captions, and presentation settings",
+      "paragraphs": [
+        "Text size and readability can affect menus, dialogue, instructions, and status information. Look for a documented text-size setting or a clear indication that text can be adjusted. If a preview is available, check a menu and a typical gameplay screen rather than judging only a promotional image. Screenshots may be scaled or edited and should not be treated as reliable proof of how text appears in use.",
+        "If captions are important, find out whether dialogue or other relevant audio information is represented in text and whether the option can be enabled. The term “subtitles” may describe spoken dialogue without covering other audio cues, so look for detail rather than relying on a label alone. Record the exact information provided and avoid assuming that a listed feature applies to every part of the game."
+      ]
+    },
+    {
+      "heading": "Read descriptions of difficulty and pacing options",
+      "paragraphs": [
+        "Some games describe options that change difficulty, timing, pace, or the consequences of failure. These can matter to players who prefer less time pressure or a more flexible session. Check whether the option is actually explained, whether it can be selected at the start or changed later, and whether the description indicates that it affects a particular mode rather than the whole game.",
+        "Do not treat a broad difficulty label as evidence that a game supports a specific access need. A lower difficulty setting may not change timing requirements, text size, or control complexity. If documentation does not answer your question, mark the setting as unknown and consider contacting the publisher or creator through an established support channel before making a purchase."
+      ]
+    },
+    {
+      "heading": "Judge documentation and previews as evidence",
+      "paragraphs": [
+        "Accessibility claims are most useful when they say what a setting does and where it applies. A detailed control list, settings guide, or clearly described demo provides stronger decision support than an unexplained badge. None of these guarantees a fit for every player, but specific descriptions help you identify what still needs checking.",
+        "Use a simple evidence record: feature claimed, source of the claim, whether you tested it, and any limitation you observed. Distinguish creator-provided information from your own test results. This makes comparisons fair and helps prevent a short demo or one setting screen from being mistaken for a full accessibility audit."
+      ],
+      "bullets": [
+        "Prefer specific descriptions over vague claims.",
+        "Check whether settings are available in the game or only mentioned in promotional material.",
+        "Record which features you personally tested and which remain unverified.",
+        "Do not download files from unofficial sources to test a feature."
+      ]
+    },
+    {
+      "heading": "Build a shortlist around your must-haves",
+      "paragraphs": [
+        "Create a shortlist by eliminating games that clearly conflict with your requirements, then compare the remaining options on documentation quality, available previews, and optional settings. This is more useful than ranking games by the number of accessibility features mentioned, because a single essential control or text option may matter more than several unrelated features.",
+        "When information is incomplete, decide whether the uncertainty is acceptable before you buy or install. A clear answer from the creator may resolve it; otherwise, avoid treating uncertainty as a positive claim. Keep your notes focused on your own use case, since accessibility fit is individual and can depend on device configuration as well as game design."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront accessibility tag tell me everything I need to know?",
+      "answer": "Usually not. A tag can help you find relevant information, but it may not explain which settings exist or how they work. Look for a feature description, controls documentation, or a legitimate preview that lets you check the details you need."
+    },
+    {
+      "question": "Should I treat a missing accessibility description as proof that a feature is unavailable?",
+      "answer": "No. Missing information means the feature is unverified, not necessarily absent. If the detail is essential, seek clarification from an official creator or publisher channel, or choose an option whose documentation answers your question."
+    },
+    {
+      "question": "Can a demo confirm that a full game will meet my needs?",
+      "answer": "A demo can provide useful evidence about the parts it includes, such as menu navigation or a sample control sequence. It cannot establish how every level, mode, or later section behaves. Record what you tested and avoid generalizing beyond that sample."
+    }
+  ]
+};
