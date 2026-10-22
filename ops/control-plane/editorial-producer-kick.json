@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "Operator approved safe resume on 2026-10-21: R1 generator fix PR #153 merged, old cycle 38850741342 manually unlocked attempts 3->1 at 12:41Z with evidence preserved, no active Producer/Scheduler writer; request exactly one fresh Scheduler wake for bounded re-admission (never historical rerun).",
-  "updated_at": "2026-10-21T13:02:32.612Z"
+  "reason": "R1 hourly resilience check 2026-10-22: latest receipt success for run 39705958525, newest Scheduler 39708449345 safely skipped on backoff, no active writer; GitHub scheduler cron missed fresh admission after 52m. Trigger one fresh scheduler wake only; do not touch receipt or bypass admission.",
+  "updated_at": "2026-10-22T02:42:46.509Z"
 }
