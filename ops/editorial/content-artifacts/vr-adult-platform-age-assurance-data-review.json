@@ -1,0 +1,125 @@
+{
+  "backlogId": "vr-adult-platform-age-assurance-data-review",
+  "slug": "vr-adult-platform-age-assurance-data-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Compare Age Checks and Identity Data Requests",
+  "description": "Before choosing a VR adult platform, review its age-assurance steps, requested information, data handling explanations and alternatives for account access.",
+  "excerpt": "Age checks can affect setup, privacy and whether an account is practical to use. Compare what a VR platform asks for, why it says it needs it and what its own documentation explains about handling that information.",
+  "keyTakeaways": [
+    "Separate a simple age confirmation from a request for additional identity information; do not assume they involve the same data.",
+    "Read the platform’s own explanation of what is collected, who handles it and how long it is retained, where disclosed.",
+    "Check whether the age-check process is required before browsing, account creation or a particular feature.",
+    "Do not upload sensitive documents through links or messages that you have not verified as official.",
+    "Treat unclear data handling or unexplained requests as a reason to pause and seek clarification before proceeding."
+  ],
+  "sections": [
+    {
+      "heading": "Map the age-check journey before signing up",
+      "paragraphs": [
+        "A platform may ask a visitor to confirm age at one point and request more information at another. Those steps should not be treated as interchangeable. Before creating an account, map the sequence you can observe: what appears before browsing, what appears during registration, and what appears when accessing a restricted function. This helps you understand whether an additional check is part of general access or attached to a particular activity.",
+        "Use public help pages and account guidance to answer the basics before entering personal information. Look for the stated purpose of each check, whether it is described as mandatory, and what happens if the check cannot be completed. Avoid relying on assumptions based on another website or a different device. A platform’s process can change, so make the decision using its current official information rather than an old discussion or an unverified message."
+      ],
+      "bullets": [
+        "Record when a check appears in the visitor journey.",
+        "Distinguish an age confirmation from a request for identity evidence.",
+        "Confirm whether the check is mandatory for the access you want."
+      ]
+    },
+    {
+      "heading": "Read the data explanation, not just the prompt",
+      "paragraphs": [
+        "When a page asks for information, inspect the accompanying privacy notice and age-assurance explanation. Look for categories of information collected, the stated purpose, who processes or receives it, and how long it may be kept. The explanation may distinguish information used to make a decision from information retained for account administration. If those distinctions are absent, do not fill the gap with a guess.",
+        "Pay attention to what the platform says about deletion, access requests and account closure. These terms can clarify what choices may exist after a check, but they do not guarantee immediate removal of every record. Note whether the notice explains exceptions or separate retention obligations. If the policy uses broad terms without explaining the specific age-check data, use the official support route to ask a focused question before submitting anything sensitive."
+      ],
+      "bullets": [
+        "Look for collection, purpose, recipients and retention explanations.",
+        "Check how the notice describes deletion and account closure.",
+        "Save the policy date or page reference you relied on for your decision."
+      ]
+    },
+    {
+      "heading": "Evaluate the verification route and its trust signals",
+      "paragraphs": [
+        "If a platform directs you to a separate verification flow, check that the route is linked from the platform’s official account or help pages. A message, pop-up or third-party post is not enough to establish that a request is legitimate. Be cautious of unexpected demands for documents, payment details or account credentials. Navigate to the platform through a known official address and locate the instructions there rather than following an unsolicited link.",
+        "Read what the platform says about the organization or service handling the check, if it identifies one. Look for an explanation of the relationship between that service and the platform, as well as where to find privacy information for the process. If the service is not clearly identified or the purpose of a requested field is not explained, pause. Do not send identity documents to an address supplied only in an informal message."
+      ]
+    },
+    {
+      "heading": "Consider the headset and account context",
+      "paragraphs": [
+        "A VR setup can involve more than one account: the adult-content platform, a headset account, a browser profile or a payment account. Consider which account is asking for information and whether the request is being made by the service you intended to use. Keep account credentials separate; an age check should not require you to disclose your password to a person or an unverified service.",
+        "Also consider where verification might take place. A shared headset, shared browser or account with other users can expose prompts, email notifications or saved account details. Before starting, sign in only on a device and profile you are comfortable using, review notification visibility and avoid saving sensitive documents to shared storage. These device steps do not change the platform’s data practices, but they can limit accidental exposure in your own environment."
+      ],
+      "bullets": [
+        "Identify which service is asking for information at each step.",
+        "Keep passwords private and use official routes for verification.",
+        "Check shared-device notifications, browser profiles and saved files."
+      ]
+    },
+    {
+      "heading": "Use a decision record and a pause rule",
+      "paragraphs": [
+        "A short comparison record makes it easier to assess multiple options without retaining sensitive copies of documents. Note whether a check is required, what the platform says it collects, where its explanation is located and whether an alternative route is documented. Do not record identity numbers, document images or other sensitive verification material in the comparison sheet.",
+        "Set a pause rule before you begin: if the information requested differs from the official instructions, if the page cannot be verified, or if the data explanation is too unclear for your comfort, stop and seek clarification. You can choose not to proceed if the answer remains unsatisfactory. The purpose of comparison is not to find a way around age requirements; it is to make an informed decision about what information you are willing to provide to a service."
+      ],
+      "table": {
+        "caption": "Age-assurance comparison worksheet",
+        "headers": [
+          "Question",
+          "Evidence to look for",
+          "Decision"
+        ],
+        "rows": [
+          [
+            "When does the check appear?",
+            "Official access or registration instructions",
+            "Before browsing, during signup or for a specific feature?"
+          ],
+          [
+            "What information is requested?",
+            "The platform’s prompt and privacy explanation",
+            "Is each requested item explained?"
+          ],
+          [
+            "Who handles the information?",
+            "Platform notice and any identified service notice",
+            "Can I identify the responsible service?"
+          ],
+          [
+            "What happens after the check?",
+            "Retention, deletion and account-closure explanations",
+            "Are the limits and choices clear enough?"
+          ],
+          [
+            "Is the route official?",
+            "A link reached through the platform’s own pages",
+            "Can I verify it without trusting an unsolicited message?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an age confirmation the same as identity verification?",
+      "answer": "Not necessarily. A confirmation prompt and a request for identity information can involve different steps and data. Check the specific platform’s explanation rather than inferring what a process collects from its label."
+    },
+    {
+      "question": "Should I send an identity document if a message asks me to verify my age?",
+      "answer": "Do not use an unsolicited link or send documents through an unverified message. Visit the platform using a known official route, find its current verification instructions and confirm that the request matches them. If it does not, pause and contact the platform through its official support channel."
+    },
+    {
+      "question": "What if the platform does not explain how age-check information is handled?",
+      "answer": "You can ask the platform through an official support route for clarification about collection, purpose, recipients and retention. If the explanation remains inadequate for your comfort, you can decide not to create an account or continue with that service."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

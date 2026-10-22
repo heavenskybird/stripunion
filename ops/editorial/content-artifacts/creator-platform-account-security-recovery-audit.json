@@ -1,0 +1,130 @@
+{
+  "backlogId": "creator-platform-account-security-recovery-audit",
+  "slug": "creator-platform-account-security-recovery-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Account Security and Recovery Before You Build",
+  "description": "Compare creator platforms’ login safeguards, recovery routes, session controls and support processes before relying on an account for business.",
+  "excerpt": "A creator account can hold publishing access, fan conversations and business records. Use this checklist to compare security and recovery arrangements before making a platform central to your work.",
+  "keyTakeaways": [
+    "Check which login protections are available and whether you can enable them without relying on a shared device.",
+    "Review recovery routes before you need them, including who controls the associated email address or phone number.",
+    "Find out how to review active sessions and respond to suspected account access by someone else.",
+    "Keep recovery information and essential business records somewhere you control, with access limited to trusted people.",
+    "Treat a clearly documented support and appeal process as part of account continuity, not as a substitute for your own safeguards."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the account’s role in your business",
+      "paragraphs": [
+        "Before comparing security features, list what the account enables you to do. A creator may use one login to publish, message fans, manage membership settings, view statements or change payment details. Losing access to that login can therefore disrupt several workflows at once. The more operationally important the account becomes, the more useful it is to understand how access is protected and restored.",
+        "Separate platform access from the records and tools you control elsewhere. For example, keep copies of important business correspondence and accounting records in an appropriately secured location outside the platform. This does not preserve access to platform features, and it does not replace a platform’s own records. It does reduce the chance that a single inaccessible account leaves you without information needed for routine business administration."
+      ],
+      "bullets": [
+        "List the tasks and business information tied to the account.",
+        "Identify other accounts needed to log in or recover access.",
+        "Decide which records need a separate, access-controlled copy."
+      ]
+    },
+    {
+      "heading": "Compare login protections in practical terms",
+      "paragraphs": [
+        "Read the platform’s current account-security guidance and inspect the controls available during account setup. Look for whether a second verification step can be enabled, what forms it can take, and whether the platform explains how to replace a lost verification method. A feature label alone is not enough: you need to know whether the protection fits the devices and recovery channels you can reliably access.",
+        "Use a unique password for the creator account rather than reusing credentials from personal or business services. A password manager can help generate and retain distinct passwords, provided that its own access and recovery arrangements suit your needs. Avoid storing credentials in a shared browser profile or sending them in ordinary team messages. If another person needs access for work, investigate platform-approved role permissions instead of distributing the main login."
+      ],
+      "bullets": [
+        "Check whether extra sign-in verification is available and enabled.",
+        "Confirm how to update a lost or replaced verification method.",
+        "Use distinct credentials and avoid informal password sharing."
+      ]
+    },
+    {
+      "heading": "Test recovery before a lockout happens",
+      "paragraphs": [
+        "Recovery often depends on a linked email address, phone number, identity review or support request. Check that each linked contact method is current and controlled by you, not by a former collaborator or an organization you may leave. If a recovery route depends on an inbox, secure that inbox separately. A well-protected creator account can still be difficult to recover if its email account is inaccessible.",
+        "Read the platform’s documented steps for a forgotten password, a lost device and a suspected compromise. Note what information support may request, how to submit a request and whether the platform describes a way to challenge an access decision. Do not assume that a support response will arrive within a particular time or that an account can always be restored. A useful plan records the official route and the evidence you can safely provide."
+      ],
+      "bullets": [
+        "Verify linked recovery addresses and numbers while signed in.",
+        "Save the official recovery instructions in a secure place.",
+        "Know how you would report an account you believe was compromised."
+      ]
+    },
+    {
+      "heading": "Review sessions, collaborators and account changes",
+      "paragraphs": [
+        "If the platform offers a page for active sessions or signed-in devices, learn how to find it and what actions it permits. Check it after using a temporary device, changing a password or ending a working relationship with someone who had legitimate access. If no session-management control is documented, note that limitation rather than assuming that changing a password will automatically end every session.",
+        "Before adding a collaborator, determine whether the platform supports separate roles and what each role can view or change. Limit access to the tasks a person actually performs, and remove access when the work ends. Pay particular attention to permissions involving payout settings, account email, login methods, audience messages and content publication. If the platform offers only one shared login, consider whether that arrangement is acceptable for the account’s importance."
+      ],
+      "bullets": [
+        "Review account sessions and available sign-out controls.",
+        "Prefer individual, limited permissions where the platform supports them.",
+        "Remove former collaborators and review consequential account settings."
+      ]
+    },
+    {
+      "heading": "Create a proportionate continuity plan",
+      "paragraphs": [
+        "A simple plan can make an access problem less chaotic. Record the official account-support route, the email address used for recovery, and the steps for securing linked accounts. Keep that note in a protected place rather than in a public document or an unsecured shared folder. Where appropriate, identify a trusted person who can help locate records without receiving your password or access to private fan information.",
+        "Review the plan when you change devices, recovery details, business roles or the platform’s account procedures. If a login alert or unfamiliar session appears, use the platform’s official security instructions, secure the linked email account and preserve relevant notices. Do not respond to messages that ask for credentials through an unverified route. This approach will not prevent every problem, but it gives you a clear sequence of actions and reduces dependence on memory during a stressful interruption."
+      ],
+      "table": {
+        "caption": "A practical comparison sheet for creator-account security",
+        "headers": [
+          "Area",
+          "What to verify",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Sign-in",
+            "Available verification steps and password guidance",
+            "Can I use the controls consistently on my devices?"
+          ],
+          [
+            "Recovery",
+            "Current recovery channels and official instructions",
+            "Do I control every linked account and contact method?"
+          ],
+          [
+            "Sessions",
+            "Where sessions are listed and how they can be ended",
+            "What will I do after temporary or shared-device access?"
+          ],
+          [
+            "Collaborators",
+            "Role permissions and access-removal process",
+            "Can each person have only the access their role needs?"
+          ],
+          [
+            "Support",
+            "Official reporting route and stated review process",
+            "Do I know where to submit a genuine access concern?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a collaborator use my creator-platform password?",
+      "answer": "Avoid sharing the main password when the platform provides individual roles or permissions. Separate access makes it easier to limit tasks and remove access later. If the platform has no role system, weigh the operational need against the risks, establish a clear access procedure and never send credentials through an insecure channel."
+    },
+    {
+      "question": "What should I check before changing the email address on my account?",
+      "answer": "Confirm that you can access the new inbox, review the platform’s change and verification instructions, and make sure the inbox itself is protected. Check whether changing the address affects login or recovery steps. Keep the old address available until the platform confirms the change, if its documented process requires that."
+    },
+    {
+      "question": "Does a strong password guarantee that my creator account cannot be accessed by someone else?",
+      "answer": "No. A unique password helps reduce credential-reuse risk, but it cannot address every threat, including compromised email, unsafe device access or deceptive requests for credentials. Use the platform’s available sign-in protections, secure linked accounts and follow official security guidance."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
