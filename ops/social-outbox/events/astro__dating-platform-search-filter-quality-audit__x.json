@@ -19,7 +19,7 @@
   "provider_message_id": "6ada66e5e391db54dafb60be",
   "provider_due_at": "2026-10-23T03:35:00.000Z",
   "created_at": "2026-10-22T14:48:08.877Z",
-  "updated_at": "2026-10-22T19:41:25.738Z",
+  "updated_at": "2026-10-22T21:05:58.027Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -30,6 +30,9 @@
     "cadence_allowed_by_now": 19,
     "cadence_used_today": 15,
     "cadence_outstanding_before_enqueue": 3,
-    "cadence_pressure_before_enqueue": 18
+    "cadence_pressure_before_enqueue": 18,
+    "reconciled_by": "buffer_posts_query",
+    "buffer_status": "scheduled",
+    "buffer_match_count": 1
   }
 }
