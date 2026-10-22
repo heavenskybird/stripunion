@@ -1,0 +1,29 @@
+name: Editorial heartbeat bridge
+
+# A guarded non-main branch update gives the external Hourly Heartbeat a new
+# workflow_run event without pushing a metadata-only commit to the Hostinger-
+# deployed main branch. It never writes content or uses provider secrets.
+on:
+  push:
+    branches:
+      - bot/stripunion-heartbeat-kicks
+    paths:
+      - 'ops/control-plane/editorial-producer-kick.json'
+
+permissions:
+  contents: read
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Confirm authorized heartbeat branch
+        shell: bash
+        env:
+          CURRENT_REF: ${{ github.ref }}
+          CURRENT_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          test "$CURRENT_REF" = "refs/heads/bot/stripunion-heartbeat-kicks"
+          echo "EDITORIAL_HEARTBEAT_BRIDGE_OK repo=$CURRENT_REPOSITORY ref=$CURRENT_REF"
