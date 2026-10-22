@@ -1,0 +1,123 @@
+{
+  "backlogId": "affiliate-channel-traffic-permission-matrix",
+  "slug": "affiliate-channel-traffic-permission-matrix",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Build a Channel-by-Channel Traffic Permission Matrix",
+  "description": "A practical framework for checking whether affiliate terms permit promotion through email, social posts, messaging, push notifications and other traffic channels.",
+  "excerpt": "A program’s general approval does not necessarily answer whether every promotional channel is allowed. Build a dated matrix from the written terms so campaigns, collaborators and traffic sources can be checked against the same evidence.",
+  "keyTakeaways": [
+    "Check program terms separately for each channel rather than interpreting a broad approval as permission for every traffic source.",
+    "Record restrictions, approval requirements, disclosure rules and prohibited tactics alongside the exact source document.",
+    "Distinguish a channel being permitted from a particular creative or claim being approved.",
+    "Ask the program for written clarification when terms do not address a channel or conflict across documents.",
+    "Recheck the matrix before launching a new channel, changing campaign format or delegating promotion to another person."
+  ],
+  "sections": [
+    {
+      "heading": "Why a channel-by-channel review is useful",
+      "paragraphs": [
+        "Affiliate promotion may involve a website, email newsletter, social account, paid placement, push notification, messaging channel or another source. A program may describe some of these differently, and general acceptance into a program does not necessarily resolve every channel’s rules. Checking each source separately helps avoid sending visitors through a method that the current terms do not permit.",
+        "This guide is about organizing evidence, not interpreting a particular program’s rules or providing legal advice. The allowed channels, required notices and approval steps depend on the program’s written terms and applicable requirements. Build a record of what the program actually says, identify gaps, and obtain clarification before relying on an assumption. This is especially important when a campaign uses multiple sources or a contractor promotes links on your behalf."
+      ]
+    },
+    {
+      "heading": "List the channels you actually plan to use",
+      "paragraphs": [
+        "Start with an inventory of your planned traffic sources. Use specific labels rather than a single category such as “online promotion.” For example, distinguish an editorial article from an email campaign, an organic social post from a paid social placement, and a search advertisement from a direct link shared in a message. Include any sub-affiliates or outside publishers you expect to involve, if the program allows them.",
+        "For each channel, write down where the visitor sees the promotion, how the affiliate link appears and whether a third party controls the placement. These details can affect which program rule is relevant. Do not add channels simply because they are common in affiliate marketing. The matrix should reflect your actual operating plan so it can guide launch decisions rather than becoming a generic list detached from the campaign."
+      ]
+    },
+    {
+      "heading": "Extract permissions and conditions from written terms",
+      "paragraphs": [
+        "Review the current program agreement, traffic policy, promotional guidelines, creative approval rules and any channel-specific help pages. Capture the exact document name, the relevant section and the date you accessed it. Note whether the document expressly allows a channel, prohibits it, requires prior approval or leaves the question unclear. A general statement that promotion is accepted may not settle a specific restriction elsewhere in the terms.",
+        "Record conditions next to the permission. A channel might have requirements relating to disclosure, claims, brand names, landing pages, link format or the use of approved materials. Keep those points distinct: permission to use a channel is not the same thing as approval of every creative. If one document appears to conflict with another, do not choose the more permissive reading without confirmation. Ask the program for a written explanation tied to the channel and campaign format you intend to use."
+      ]
+    },
+    {
+      "heading": "Build a matrix that drives launch decisions",
+      "paragraphs": [
+        "A useful matrix has one row per channel and columns for the source, rule, conditions, approval status, owner and next review date. Use plain status labels such as “permitted in cited terms,” “approval required,” “prohibited,” or “unclear—hold.” Avoid writing “approved” unless you have evidence that the specific channel or creative received the required approval. Link the record to the exact policy source so another team member can verify the entry.",
+        "Give every restriction an owner and a next action. If email promotion requires a particular approval, identify who will request it and what evidence will be retained. If the terms do not mention a channel, mark it unresolved rather than treating silence as permission. This creates a clear stop point before launch. Keep the matrix separate from performance reporting so operational eligibility is not confused with clicks, conversions or commissions."
+      ],
+      "table": {
+        "caption": "Example structure for a program traffic-permission matrix",
+        "headers": [
+          "Traffic channel",
+          "Rule evidence",
+          "Conditions or approval",
+          "Status and next action"
+        ],
+        "rows": [
+          [
+            "Editorial website",
+            "Policy title, section and review date",
+            "Record any link, claim or disclosure conditions",
+            "Documented status; assign page owner."
+          ],
+          [
+            "Email campaign",
+            "Email-specific wording or written clarification",
+            "Note required review or content restrictions",
+            "Hold launch until requirements are met."
+          ],
+          [
+            "Organic social",
+            "Relevant social or promotional policy",
+            "Record account or creative limitations",
+            "Verify the particular account and format."
+          ],
+          [
+            "Paid placement",
+            "Paid-media and bidding terms",
+            "Record restrictions and approval requirements",
+            "Do not infer permission from organic rules."
+          ],
+          [
+            "Messaging or push",
+            "Specific written rule or program response",
+            "Record audience and format conditions",
+            "Mark unclear if terms do not address it."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep traffic permission separate from creative review",
+      "paragraphs": [
+        "A channel can be permitted while a particular advertisement, subject line, claim or landing page still needs review. Conversely, an approved creative may not authorize its use in every channel or context. Track these decisions in connected but separate records: the matrix answers where promotion may occur, while the creative review record answers whether a specific asset meets the program’s requirements.",
+        "Before launch, compare the final placement with both records. Check that the link points to the approved destination, the surrounding claims are within the documented rules and any required disclosures are visible where they need to be. If a campaign changes after approval—for example, a new headline, audience or placement—check whether the program requires renewed review. Keep evidence of the version actually published, not just the draft that was submitted."
+      ]
+    },
+    {
+      "heading": "Maintain the matrix when terms or campaigns change",
+      "paragraphs": [
+        "Affiliate terms and campaign plans can change. Recheck relevant policies when the program sends a terms notice, when a new channel is added, when an outside publisher joins the campaign or when an existing placement changes materially. Store prior versions with dates so you can tell which rule informed a past decision. Do not overwrite a restriction without retaining the source and the reason for the update.",
+        "Make the matrix accessible to people who schedule or publish campaigns, but limit editing to those responsible for policy review. Include a simple escalation path for unclear cases: pause the affected channel, ask the program through an official contact route, retain the response and update the record. This workflow will not guarantee approval or prevent every policy issue, but it makes assumptions visible before traffic is sent and helps keep promotion consistent across a team."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program accepts my website, does that mean my social and email traffic are allowed too?",
+      "answer": "Not necessarily. Acceptance of a property does not automatically establish that every channel or campaign format is permitted. Check the written rules for each source and request clarification where the terms are silent or ambiguous."
+    },
+    {
+      "question": "Should I mark a channel as allowed if the terms do not mention it?",
+      "answer": "No. Record it as unclear and seek written guidance before relying on it. Silence in the materials you reviewed is not the same as an explicit permission."
+    },
+    {
+      "question": "How is channel permission different from creative approval?",
+      "answer": "Channel permission concerns where or how a promotion may run. Creative approval concerns a particular asset, claim or placement. A campaign may need to satisfy both sets of requirements, so track them separately."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
