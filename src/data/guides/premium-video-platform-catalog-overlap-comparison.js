@@ -1,0 +1,126 @@
+export default {
+  "slug": "premium-video-platform-catalog-overlap-comparison",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Comparing Premium Video Subscriptions: Check Catalog Overlap Before Paying for More Than One",
+  "description": "Use a title shortlist and comparison matrix to see whether multiple premium video subscriptions offer enough distinct, accessible titles to justify separate memberships.",
+  "excerpt": "Two libraries can look broad while sharing many of the titles you actually want. Compare a personal shortlist across services, verify membership access, and separate genuinely unique titles from catalog-wide claims.",
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Build a shortlist of specific titles or series that matter to you before comparing services.",
+    "Verify that each shortlisted title is included in the relevant membership rather than rented or sold separately.",
+    "Count distinct accessible titles, not just the total number of listings or categories shown.",
+    "Recheck availability and terms near the time you plan to subscribe because catalogs and membership inclusions can change."
+  ],
+  "sections": [
+    {
+      "heading": "Start with your own watchlist, not library-size claims",
+      "paragraphs": [
+        "When comparing two or more premium video memberships, a large catalog figure may not tell you how much of the library is useful to you. A better starting point is a shortlist of titles, series, publishers, or specific formats you would actually watch. Include a mix of definite priorities and optional discoveries, then use the same list for every service. This keeps the comparison grounded in your viewing preferences rather than promotional language or broad category counts.",
+        "Build the list before opening subscription checkout pages. Record exact title names, alternative spellings, series names, and publisher names where relevant. That makes it easier to spot duplicate editions, incomplete collections, or listings that refer to a related but different title. A list of roughly ten to twenty meaningful candidates can be enough for a practical personal audit; it is a working tool, not a statistically representative measure of the full catalog."
+      ],
+      "bullets": [
+        "Separate must-watch items from nice-to-have items.",
+        "Use exact titles and series names where possible, not broad search terms alone.",
+        "Keep one shortlist and apply it consistently to every candidate service."
+      ]
+    },
+    {
+      "heading": "Verify what each membership actually includes",
+      "paragraphs": [
+        "Finding a title in a platform search does not by itself establish that the subscription includes it. The title could require a separate rental, purchase, add-on, or another account. Check the title page and the plan’s inclusion terms for each item on your shortlist. Record whether the item is included, separately paid, unavailable, or ambiguous. If the platform uses labels such as premium, included, or member access, check the legend or terms that define them rather than relying on color or placement alone.",
+        "Also check version and edition details. A listing may represent a different cut, release, collection, or installment from the one you intend to watch. Record the listed runtime or edition only when that detail is relevant to your choice, and note when the platform does not provide enough information to confirm a match. This prevents a nominal title match from being counted as useful access when the actual version is unclear."
+      ],
+      "table": {
+        "caption": "A simple cross-platform title matrix",
+        "headers": [
+          "Shortlist item",
+          "Platform A",
+          "Platform B",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Priority title or series",
+            "Included / separate / unclear / absent",
+            "Included / separate / unclear / absent",
+            "Title page, inclusion label, date checked"
+          ],
+          [
+            "Second priority item",
+            "Included / separate / unclear / absent",
+            "Included / separate / unclear / absent",
+            "Edition or series match"
+          ],
+          [
+            "Optional discovery item",
+            "Included / separate / unclear / absent",
+            "Included / separate / unclear / absent",
+            "Search result and membership terms"
+          ],
+          [
+            "Publisher or collection",
+            "Coverage observed / not observed",
+            "Coverage observed / not observed",
+            "Whether collection is complete or partial"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Measure overlap and distinct value in a way that fits your use",
+      "paragraphs": [
+        "Once you have checked the same list across services, classify each item as included on both, included only on one, separately paid, unclear, or unavailable. The overlap count shows how many priorities appear to be shared; the unique count shows which service appears to add something you cannot access through another membership. If one platform contains several titles you would never choose, do not give those listings the same weight as a priority item. You can assign a simple personal score, such as three points for a must-watch, one for an optional title, and zero for a title you would not watch.",
+        "This is a decision aid, not a universal value score. It does not account for every browsing preference, content update, playback condition, or commercial term. It helps answer a narrower question: whether another membership adds enough titles that matter to you. You can also note whether a platform offers a collection or publisher you prefer, but distinguish that qualitative preference from a verified count of included titles."
+      ],
+      "bullets": [
+        "Mark shared items separately from unique items.",
+        "Weight titles by your own interest rather than treating every listing equally.",
+        "Keep uncertain entries out of the confirmed-included total."
+      ]
+    },
+    {
+      "heading": "Check breadth without mistaking listing volume for useful coverage",
+      "paragraphs": [
+        "A personal shortlist can miss the fact that you want ongoing discovery, not just a fixed set of titles. If breadth matters, sample several categories, publishers, or series using a consistent method on each service. Check whether search and filters make it possible to find relevant material, and note whether the platform presents complete series or isolated entries. Avoid comparing the number of results from different search tools as if the counts were directly equivalent; search behavior, duplicate entries, and catalog definitions can differ.",
+        "A practical sampling worksheet can include the number of relevant items found in each of a few chosen categories, the number confirmed as included, and the number that appear to be duplicates or separate purchases. Record the date and the search method. The result is a snapshot of what you observed, not a guarantee of the entire catalog’s breadth or future availability. If the service provides no meaningful search before joining, mark that as a limitation rather than inventing a catalog estimate."
+      ],
+      "bullets": [
+        "Use the same categories and search terms across platforms when sampling.",
+        "Record duplicates, separate purchases, and uncertain entries separately.",
+        "Date the comparison, since access and catalogs may change."
+      ]
+    },
+    {
+      "heading": "Turn the comparison into a subscription decision",
+      "paragraphs": [
+        "Before deciding, read the membership duration, renewal, cancellation, and title-inclusion terms for each candidate. A library that looks attractive may not suit you if the titles you need are excluded from the plan or access depends on a separate transaction. Conversely, two services with similar catalogs may each have different titles you value. Compare the likely use of each service against your shortlist, the billing terms, and how easily you can cancel or manage the membership. Do not assume that a title will remain available for the entire period unless the platform says so in its terms.",
+        "Keep the matrix for later review and revisit only the entries that affect your decision. If you subscribe, check that the priority items are still included at the time you join. If the catalog changes or a title becomes unavailable, update the record rather than treating an old search result as current evidence. This habit reduces duplicate memberships driven by vague impressions of library size and supports a more deliberate subscription choice."
+      ],
+      "bullets": [
+        "Recheck priority titles and plan inclusions immediately before subscribing.",
+        "Read renewal and cancellation terms separately from catalog claims.",
+        "Choose based on distinct titles you value, not an assumed ranking or total catalog size."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many titles should I compare across premium video platforms?",
+      "answer": "There is no required number. Choose a shortlist large enough to represent what you would genuinely watch, with both essential and optional items. The same list should be checked across every service so the comparison remains consistent."
+    },
+    {
+      "question": "Should I count a title if it appears in search but is sold separately?",
+      "answer": "No, not as a membership-included title. Record it as a separate purchase or rental, then decide whether it still adds value to your overall plan. Keep that status distinct from included access."
+    },
+    {
+      "question": "Can a catalog overlap comparison predict future availability?",
+      "answer": "No. It is a dated snapshot of the information you can verify. Catalogs and plan inclusions can change, so recheck the titles and terms close to the time you subscribe."
+    },
+    {
+      "question": "What if a platform does not let me check its catalog before joining?",
+      "answer": "Mark the relevant items as unknown rather than assuming they are included. Use any official previews or catalog information available, and weigh the lack of pre-join evidence as a limitation in your decision."
+    }
+  ]
+};

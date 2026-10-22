@@ -1,0 +1,128 @@
+{
+  "backlogId": "webmaster-affiliate-property-approval-audit",
+  "slug": "affiliate-program-domain-and-site-approval-checklist",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Domain and Site Approval Before Promoting Offers",
+  "description": "A webmaster checklist for confirming which domains, subdomains, apps, and traffic properties must be registered or approved before affiliate promotion begins.",
+  "excerpt": "An affiliate account may not automatically cover every property you operate. Map the sites and placements you plan to use, confirm approval requirements in writing, and keep a record of changes and permissions.",
+  "keyTakeaways": [
+    "List each domain, subdomain, app, and other property where affiliate links or creatives may appear.",
+    "Check whether approval is required before launch, whether approval is property-specific, and how new properties are added.",
+    "Confirm that the approved property, traffic source, content, and link destination match the program’s written rules.",
+    "Keep dated evidence of applications, approvals, policy versions, and later changes to your promotional footprint."
+  ],
+  "sections": [
+    {
+      "heading": "Build a complete inventory of promotional properties",
+      "paragraphs": [
+        "A webmaster may operate several sites, microsites, subdomains, apps, or editorial properties under one organization. Do not assume that approval for one property automatically covers the others. Start with an inventory of every place where a program link, banner, widget, or other promotion could appear. Include properties that are not yet public if you plan to launch them, and note who controls each one. This turns an uncertain account-level assumption into a concrete list you can check against program requirements.",
+        "For each property, record its canonical domain, any relevant subdomains, the type of content it carries, the audience it serves, and the intended placement of affiliate material. If you use an app, email newsletter, or social account, include it as a separate promotional property rather than treating it as an extension of a website. The program’s rules may distinguish these surfaces or impose different requirements, so the inventory is a starting point, not a claim that every channel is eligible."
+      ],
+      "bullets": [
+        "List primary domains, subdomains, microsites, apps, newsletters, and social properties separately.",
+        "Record the property owner or responsible operator and the intended promotion method.",
+        "Flag new or planned properties before publishing links."
+      ]
+    },
+    {
+      "heading": "Find out whether approval is account-wide or property-specific",
+      "paragraphs": [
+        "Read the current program agreement, publisher dashboard guidance, application instructions, and any property-registration process. Look for explicit language about submitting domains, adding a website, or obtaining approval before promotion. Distinguish an account being accepted into a program from a particular site or traffic source being reviewed. If the documents do not state whether approval applies to every property, do not infer broad permission from a successful account application or from the fact that a tracking link works.",
+        "When the answer is unclear, ask the official program contact a specific, written question. Identify the exact domain or channel, explain the content and promotional placement, and ask whether it must be registered or approved before use. Keep the response with the program version and date. A general statement that a program welcomes publishers may not resolve whether a particular property or content category is permitted. Clear, property-level confirmation is more useful than an informal assumption."
+      ],
+      "table": {
+        "caption": "Property approval record",
+        "headers": [
+          "Property",
+          "Approval question",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Main website",
+            "Is this exact domain registered and approved?",
+            "Application, approval notice, applicable terms"
+          ],
+          [
+            "Subdomain or microsite",
+            "Does approval extend to this hostname or require a separate entry?",
+            "Dashboard record and written clarification"
+          ],
+          [
+            "App or newsletter",
+            "Is this channel permitted and separately declared?",
+            "Channel policy and approval response"
+          ],
+          [
+            "New property",
+            "Must review happen before links are published?",
+            "Submission date, approval status, launch date"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Match approval to actual content and placement",
+      "paragraphs": [
+        "A property name alone may not tell the program how you intend to promote an offer. Describe the relevant content, page type, audience, traffic source, and link placement when requesting approval. A site might have different sections or use multiple traffic methods, and each can be governed by different restrictions. Review the rules for content categories, promotional materials, redirects, email, paid placements, and any other channels you plan to use. Do not treat permission for one type of placement as permission for every method.",
+        "Check that the link destination and creative match what was approved. If a program requires approved creatives, destination pages, or placement disclosures, record those requirements alongside the property approval. Keep the distinction clear between general program membership, property registration, and specific campaign or creative approval. These are separate operational questions. A link that generates clicks is not evidence that the underlying property or promotional method complies with the agreement."
+      ],
+      "bullets": [
+        "Describe the actual page and traffic source, not just the site’s brand name.",
+        "Check whether content sections, paid placements, email, or social promotion need separate permission.",
+        "Use only the creatives and destinations allowed by the program’s current instructions."
+      ]
+    },
+    {
+      "heading": "Control changes when sites or ownership evolve",
+      "paragraphs": [
+        "Property approval is not a one-time administrative detail if your portfolio changes. Revisit the requirements when you add a subdomain, launch a new site, change a property’s focus, acquire a domain, or move a campaign to a new channel. Record who can update the program account and who is responsible for checking that the new property is approved before links go live. A simple release checklist can prevent a developer or editor from copying a tracking link onto an unreviewed site.",
+        "Ownership changes deserve particular attention. If a domain is transferred, acquired, or operated by a new entity, check whether the existing approval remains valid and whether the program needs updated account or property information. Save the old approval record and the new confirmation together so you can reconstruct what was authorized at each stage. Do not assume that a previous owner’s approval transfers to a new operator."
+      ],
+      "bullets": [
+        "Add property approval to the launch checklist for every new site or channel.",
+        "Trigger a review after a domain acquisition, redesign, audience shift, or change in promotion method.",
+        "Restrict link publishing to team members who understand the approval status."
+      ]
+    },
+    {
+      "heading": "Maintain evidence and resolve uncertainty before scaling",
+      "paragraphs": [
+        "Keep a compact evidence file for each program: the applicable terms, property inventory, application details, approval notices, support replies, and dates of material changes. A dashboard screenshot can help document a status, but preserve the underlying written terms too. If the program uses a portal to record approved sites, capture the property list and review it periodically. Store the evidence where the people responsible for publishing and compliance can access it without exposing account credentials.",
+        "If a program contact gives an answer that conflicts with published terms or dashboard instructions, pause the affected promotion and request clarification through an official channel. Explain the conflict precisely and ask which rule applies. Until resolved, avoid expanding traffic or moving the link to an unconfirmed property. This is a practical risk-control step; it does not substitute for legal advice or guarantee that a program will approve a site. The goal is to make your operating assumptions explicit before they affect a campaign."
+      ],
+      "bullets": [
+        "Keep dated terms and approvals together with the property they cover.",
+        "Review the approved-property list on a recurring schedule and after major changes.",
+        "Escalate conflicts through official program channels before broadening promotion."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does acceptance into an affiliate program automatically approve every site I operate?",
+      "answer": "Do not assume so. Program membership and property-level approval can be separate. Check the current agreement and dashboard instructions, then ask the official contact whether each exact domain or channel must be registered or reviewed."
+    },
+    {
+      "question": "Do subdomains need separate approval?",
+      "answer": "Requirements vary by program. Record each relevant hostname and verify whether approval for the parent domain covers it. If the written rules do not answer the question, obtain clarification before publishing links there."
+    },
+    {
+      "question": "Should I keep approval evidence after a site changes?",
+      "answer": "Yes. Retain dated approvals, terms, and records of changes so you can see what was authorized at the time. Recheck requirements after a change in ownership, content focus, domain, or traffic method."
+    },
+    {
+      "question": "Is a tracking link working proof that a site is approved?",
+      "answer": "No. A link can function technically without establishing that the property, content, or traffic method complies with program rules. Confirm approval through the program’s documented process."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
