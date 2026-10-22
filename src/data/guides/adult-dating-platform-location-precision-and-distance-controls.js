@@ -1,0 +1,110 @@
+export default {
+  "slug": "adult-dating-platform-location-precision-and-distance-controls",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Location Precision Before Matching",
+  "description": "Review how a dating platform collects, displays and controls location information before creating a profile or using distance-based discovery.",
+  "excerpt": "Distance features can reveal more than a broad region, depending on how a platform collects and displays location. Check the controls and test what other users can infer before building a profile.",
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Check whether location is entered manually, derived from a device or presented as a distance estimate.",
+    "Review location permissions at both the platform-account and device levels.",
+    "Avoid profile details that make a home, workplace or regular routine easier to infer.",
+    "Test privacy controls and discovery settings before adding identifying profile information.",
+    "Recheck location exposure after changing devices, permissions or account settings."
+  ],
+  "sections": [
+    {
+      "heading": "Find out how location enters the service",
+      "paragraphs": [
+        "A dating platform may ask for a city, region or distance preference, or request access to device location. These are not interchangeable. A manually entered area may give the service less precise information than a device permission, while the service may still infer or display location in other ways. Read the platform’s explanation before granting access or entering a specific place.",
+        "Check whether location is required to create an account, used only for discovery or connected to another feature. If the service explains that location is approximate, look for what “approximate” means in its own documentation rather than assuming it cannot identify a neighborhood. Avoid granting precise device access when a broader setting or manual location serves your purpose.",
+        "Device permissions and in-app controls can be separate. Changing a setting inside the platform may not change the operating system’s permission, and revoking device access may not remove location information already associated with an account. Review both layers and read the platform’s account or privacy controls to understand what can be changed or removed."
+      ],
+      "bullets": [
+        "Check whether location is manual, device-derived or both.",
+        "Read what the platform says location is used for.",
+        "Review device permissions as well as account settings.",
+        "Choose the least precise option that meets your discovery needs."
+      ]
+    },
+    {
+      "heading": "Understand what distance information can reveal",
+      "paragraphs": [
+        "A distance label may appear less identifying than a street address, but repeated observations can provide context about where an account is usually active. The practical risk depends on how the platform displays distance, how often it updates and what other details appear on the profile. Do not treat a rounded or broad distance as a guarantee that a person cannot infer anything about your location.",
+        "Consider the combination of signals: distance, a narrow workplace or neighborhood reference, recurring availability and distinctive profile details. Each may seem ordinary alone, but together they can reduce the number of plausible locations. Keep profile information broad when privacy matters, and avoid naming a specific building, shift pattern or regular route.",
+        "Before relying on a distance feature, inspect the platform’s help pages and privacy settings for information about visibility and location controls. If the service does not explain how the display works, treat that uncertainty as relevant to your decision. You can choose a service or discovery method that asks for less location detail rather than trying to infer a hidden technical guarantee."
+      ],
+      "table": {
+        "caption": "Location choices and questions to ask",
+        "headers": [
+          "Location approach",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Manually entered city or region",
+            "Can the chosen area be made broad enough for your comfort, and how is it shown to others?"
+          ],
+          [
+            "Device location permission",
+            "Does the service request precise access, and can you use a less precise setting?"
+          ],
+          [
+            "Distance-based discovery",
+            "Does the platform explain what distance information is displayed and when it changes?"
+          ],
+          [
+            "No location access",
+            "Which features remain available, and does the account retain previously supplied location details?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Limit identifying combinations in your profile",
+      "paragraphs": [
+        "Location privacy is not only a map or distance setting. Profile text, photos, routines and preferred meeting areas can reveal where someone spends time. Avoid combining a narrow neighborhood with a job site, regular schedule or easily recognized local landmark if you do not want those details connected.",
+        "Review images for background clues before adding them. A visible sign, distinctive exterior, work badge or familiar route can disclose context even when the profile never states an address. Use images and descriptions that communicate what you choose to share without unintentionally adding precise location information.",
+        "Be careful with contact details or external social accounts that expose a separate identity or public location history. A dating profile can be linked to other accounts through reused usernames, names or images. If separation matters, use distinct profile details and avoid sharing links that reveal more than you intend."
+      ]
+    },
+    {
+      "heading": "Test discovery and privacy controls before completing a profile",
+      "paragraphs": [
+        "Where the platform allows browsing or setting review before a complete profile is public, use that opportunity to inspect location options. Check which fields are required, what appears on a visible profile and whether distance settings can be changed later. Do not add sensitive details just to explore an interface when a less revealing preview is available.",
+        "If the service offers visibility controls, read what each one affects. Hiding a profile from some discovery surfaces may not remove location from existing conversations, past matches or account records. Look for explanations of who can see you, whether location is shown to other users and whether controls apply immediately or only after a delay.",
+        "Take a moment to recheck your profile from the perspective of another user if the platform provides a preview. Review the displayed area, distance, biography and images together. The useful test is not whether one setting sounds reassuring, but whether the full set of visible information fits the amount of location exposure you accept."
+      ],
+      "bullets": [
+        "Review required location fields before completing registration.",
+        "Read the scope of each visibility or discovery control.",
+        "Preview the combined profile information where possible.",
+        "Do not assume that hiding one field removes all location-related data."
+      ]
+    },
+    {
+      "heading": "Revisit permissions when circumstances change",
+      "paragraphs": [
+        "Location choices can become outdated when you move, change devices or adjust operating-system permissions. Review the account’s location and discovery settings after such changes, and check whether a previously granted permission remains active. A device-level change may not update an account field that was entered manually.",
+        "If you decide to stop sharing location, follow the platform’s instructions for changing or removing the stored value and separately review device access. Check the resulting profile display rather than relying on the action label alone. If the platform provides no clear removal path, ask support what remains visible and what can be deleted.",
+        "Location settings are one part of a broader safety decision. Choose communication and meeting arrangements that respect your boundaries, avoid sharing a home or workplace address with someone you do not know, and use the platform’s reporting or blocking tools if a person uses location information to threaten or pressure you. No setting can guarantee that other users will behave appropriately, so limit exposure to the level you are comfortable managing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an approximate distance safe to share?",
+      "answer": "It may reveal less than a precise address, but the amount of information depends on the platform and what else appears on a profile. Read how distance is displayed, keep other location clues broad and avoid treating an estimate as a privacy guarantee."
+    },
+    {
+      "question": "If I turn off location access on my phone, is my account location removed?",
+      "answer": "Not necessarily. Device permissions and information already stored in an account can be separate. Review both the operating system’s permission and the platform’s account controls, and check the visible profile after making changes."
+    },
+    {
+      "question": "Can profile details reveal location even when I do not share an address?",
+      "answer": "Yes. A narrow workplace reference, routine, recognizable background or combination of local details can provide clues. Review text and images together and share only location information you are comfortable making available."
+    }
+  ]
+};

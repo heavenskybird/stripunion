@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T02:50:41.775Z",
+  "generatedAt": "2026-10-22T05:25:39.157Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-publishing-workflow-fit.json",
-    "ops/editorial/content-artifacts/affiliate-program-paid-search-brand-policy-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-presence-indicator-controls.json",
-    "ops/editorial/content-artifacts/vr-stream-quality-controls-comparison.json",
-    "ops/editorial/content-artifacts/adult-anime-manga-library-organization-and-progress.json"
+    "ops/editorial/content-artifacts/free-video-download-offer-safety-check.json",
+    "ops/editorial/content-artifacts/adult-game-library-access-rights-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-total-checkout-cost-comparison.json",
+    "ops/editorial/content-artifacts/adult-platform-pending-payment-authorization-guide.json",
+    "ops/editorial/content-artifacts/dating-platform-location-precision-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-publishing-workflow-fit.js",
-    "src/data/guides/affiliate-program-paid-search-brand-policy-audit.js",
-    "src/data/guides/dating-platform-presence-indicator-controls.js",
-    "src/data/guides/vr-stream-quality-controls-comparison.js",
-    "src/data/guides/adult-anime-manga-library-organization-and-progress.js"
+    "src/data/guides/free-video-platform-download-offer-safety-check.js",
+    "src/data/guides/adult-games-library-access-rights-and-delisting-checklist.js",
+    "src/data/guides/adult-shop-total-checkout-cost-transparency-guide.js",
+    "src/data/guides/adult-platform-pending-payment-authorization-and-refund-guide.js",
+    "src/data/guides/adult-dating-platform-location-precision-and-distance-controls.js"
   ],
   "categories": [
-    "creator-platforms",
-    "webmaster-affiliate",
-    "dating-hookups",
-    "vr-ar",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "privacy-safety-payment",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "creator-platform-publishing-workflow-fit",
-    "affiliate-program-paid-search-brand-policy-audit",
-    "dating-platform-presence-indicator-controls",
-    "vr-stream-quality-controls-comparison",
-    "adult-anime-manga-library-organization-and-progress"
+    "free-video-download-offer-safety-check",
+    "adult-game-library-access-rights-audit",
+    "adult-shop-total-checkout-cost-comparison",
+    "adult-platform-pending-payment-authorization-guide",
+    "dating-platform-location-precision-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39712888243",
-  "phase": "closed"
+  "r1CycleId": "39723177213"
 }
