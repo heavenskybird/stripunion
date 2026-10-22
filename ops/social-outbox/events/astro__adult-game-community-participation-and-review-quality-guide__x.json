@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/adult-game-community-participation-and-review-quality-guide",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-21T14:05:58.257Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-21T21:04:54.720Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ad928f64989bea5baf60ceb",
   "provider_due_at": "2026-10-22T03:00:00.000Z",
   "created_at": "2026-10-21T14:05:58.257Z",
-  "updated_at": "2026-10-22T01:36:12.865Z",
+  "updated_at": "2026-10-22T03:09:36.630Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 5,
     "cadence_pressure_before_enqueue": 6,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
