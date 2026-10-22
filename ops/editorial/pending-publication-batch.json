@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T19:37:57.002Z",
+  "generatedAt": "2026-10-22T22:04:29.787Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-refund-policy-preflight.json",
-    "ops/editorial/content-artifacts/adult-platform-browser-extension-permission-audit.json",
-    "ops/editorial/content-artifacts/free-video-embedded-player-dependency-check.json",
-    "ops/editorial/content-artifacts/adult-games-update-cadence-evidence-review.json",
-    "ops/editorial/content-artifacts/adult-shop-international-delivery-customs-checklist.json"
+    "ops/editorial/content-artifacts/adult-anime-game-platform-compatibility-and-library-continuity.json",
+    "ops/editorial/content-artifacts/vr-shared-headset-cleaning-and-handling-checklist.json",
+    "ops/editorial/content-artifacts/creator-platform-payout-documentation-reconciliation-workflow.json",
+    "ops/editorial/content-artifacts/adult-platform-notification-exposure-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-photo-privacy-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-refund-policy-preflight.js",
-    "src/data/guides/adult-platform-browser-extension-permission-audit.js",
-    "src/data/guides/free-video-embedded-player-dependency-check.js",
-    "src/data/guides/adult-games-update-cadence-evidence-review.js",
-    "src/data/guides/adult-shop-international-delivery-customs-checklist.js"
+    "src/data/guides/adult-anime-games-platform-compatibility-and-library-continuity.js",
+    "src/data/guides/vr-shared-headset-cleaning-and-handling-checklist.js",
+    "src/data/guides/creator-platform-payout-documentation-reconciliation-workflow.js",
+    "src/data/guides/adult-platform-notification-exposure-audit.js",
+    "src/data/guides/adult-dating-profile-photo-privacy-review.js"
   ],
   "categories": [
-    "premium-videos",
+    "hentai-anime",
+    "vr-ar",
+    "creator-platforms",
     "privacy-safety-payment",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "dating-hookups"
   ],
   "backlogIds": [
-    "premium-video-refund-policy-preflight",
-    "adult-platform-browser-extension-permission-audit",
-    "free-video-embedded-player-dependency-check",
-    "adult-games-update-cadence-evidence-review",
-    "adult-shop-international-delivery-customs-checklist"
+    "adult-anime-game-platform-compatibility-and-library-continuity",
+    "vr-shared-headset-cleaning-and-handling-checklist",
+    "creator-platform-payout-documentation-reconciliation-workflow",
+    "adult-platform-notification-exposure-audit",
+    "adult-dating-profile-photo-privacy-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39840782358",
-  "phase": "closed"
+  "r1CycleId": "39861723425"
 }
