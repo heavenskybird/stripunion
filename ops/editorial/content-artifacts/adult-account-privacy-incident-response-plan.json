@@ -1,0 +1,124 @@
+{
+  "backlogId": "adult-account-privacy-incident-response-plan",
+  "slug": "adult-account-privacy-incident-response-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Account Privacy Incident: A Checklist for Limiting Exposure and Securing Access",
+  "description": "A practical response plan for a suspected adult-account privacy incident, covering account access, connected email, payment records, notifications and documentation.",
+  "excerpt": "If an adult account or its associated email may be exposed, prioritize access control, reduce further disclosure and keep a careful record of what you can verify.",
+  "keyTakeaways": [
+    "Use a trusted device and network to secure the account and the email address used for recovery.",
+    "Change reused passwords, review active sessions and enable available login protections.",
+    "Check payment records and account notifications without assuming a billing alert proves account access.",
+    "Preserve only relevant evidence, store it securely and avoid public disclosure while assessing the incident.",
+    "Use the platform’s official support route and contact payment providers through verified channels if a transaction concern exists."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what may have happened",
+      "paragraphs": [
+        "A privacy incident can mean different things: an unfamiliar login, an exposed email address, a notification appearing on a shared screen, a lost device, or a payment record seen by someone else. Begin by separating confirmed facts from possibilities. Record when you noticed the issue, which account or device is involved, and what evidence you have. Avoid making public accusations or deleting everything before you understand what may be needed.",
+        "If you believe someone can access the account now, prioritize stopping that access. Use a device and network you trust, especially if the original device may be compromised or monitored. If the concern involves immediate physical safety or coercion, consider appropriate local support in addition to platform tools. An account checklist cannot replace help suited to an urgent safety situation."
+      ],
+      "bullets": [
+        "Write down what you observed and when, using neutral language.",
+        "Identify the affected account, email address, device and payment method.",
+        "Use a trusted device for recovery if the original device is in question."
+      ]
+    },
+    {
+      "heading": "Secure the account and its recovery route",
+      "paragraphs": [
+        "Change the account password to a strong, unique one and secure the associated email account as well. If the same password was used elsewhere, replace it on those services too. Review active sessions, connected devices and recovery details where the account offers those controls. Sign out sessions you do not recognize, while keeping a note of relevant details before removing them if you may need to report the event.",
+        "Enable available login protections, such as multi-factor authentication, and check that recovery contact information is current and under your control. Do not share verification codes with anyone claiming to provide support. Navigate to the service through a known address or official app rather than following unexpected messages that request credentials."
+      ],
+      "table": {
+        "caption": "A first-response checklist by account layer",
+        "headers": [
+          "Layer",
+          "Action to consider"
+        ],
+        "rows": [
+          [
+            "Adult platform account",
+            "Change unique password; review sessions and recovery details"
+          ],
+          [
+            "Associated email",
+            "Secure access, password and recovery methods"
+          ],
+          [
+            "Device",
+            "Use a trusted device; review screen lock and account sync"
+          ],
+          [
+            "Payments",
+            "Check account and statement activity through official channels"
+          ],
+          [
+            "Notifications",
+            "Review previews and recipients on devices you control"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review devices, shared access and notifications",
+      "paragraphs": [
+        "Check whether another person could see the account through a shared browser, saved login, synced password manager or device profile. Sign out where appropriate, remove saved credentials from devices you no longer control and review browser or account synchronization settings. If you used a shared device, remember that traces can include saved passwords, downloads, open tabs and notification previews; removing one item does not necessarily clear every trace.",
+        "Review email, browser and device notifications for sensitive previews or shared recipients. Change settings on devices and accounts you control, and avoid altering a device that belongs to someone else without permission. If a lost or stolen device is involved, use the device maker’s official recovery and security tools and consider what account sessions should be revoked."
+      ],
+      "bullets": [
+        "Review saved logins and active sessions on devices you control.",
+        "Check lock-screen previews and shared email access.",
+        "Do not assume private browsing removes account, network or payment records."
+      ]
+    },
+    {
+      "heading": "Check payment records without overreacting",
+      "paragraphs": [
+        "Look at the account’s billing history and relevant payment statements for transactions you do not recognize. A statement line or notification can indicate a payment event, but it does not by itself establish who accessed an account or what information was viewed. Keep the date, amount and descriptor available for a support inquiry, and contact the payment provider through a verified channel if you suspect an unauthorized transaction.",
+        "Avoid sending full card details, passwords or one-time codes through email or chat. Ask the platform what account information it needs to locate the issue and provide only what is appropriate through its official support process. If you share a financial account with another person, consider who can see transaction alerts and statements, but do not assume that changing an online account removes records held by a bank or processor."
+      ],
+      "bullets": [
+        "Compare platform billing history with statements you can access.",
+        "Use verified support and payment-provider channels.",
+        "Never send complete payment credentials or login codes in an unsolicited message."
+      ]
+    },
+    {
+      "heading": "Preserve evidence and close the loop",
+      "paragraphs": [
+        "Keep a concise incident log with dates, observed account activity, steps taken and support case references. Save only evidence that is relevant, such as a security notice or an unfamiliar session entry, and store it somewhere access-controlled. Avoid forwarding sensitive screenshots broadly; they may reveal email addresses, transaction details or account identifiers unrelated to the report.",
+        "After containment, check whether any public profile details, contact information or linked accounts need attention. Follow up with the platform if its response does not address the specific concern, and retain the case reference. Update passwords and recovery methods on affected services, then monitor for further unfamiliar activity. Reassess notification and device settings so the same exposure path is less likely to recur."
+      ],
+      "bullets": [
+        "Maintain a dated record of actions and support responses.",
+        "Keep evidence secure and limited to what is useful.",
+        "Monitor the account and payment records for additional unexpected activity."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I delete the account immediately after a suspected privacy incident?",
+      "answer": "Not always. First consider whether you need access to secure the account, review sessions, document activity or contact support. If you choose to close it, understand that closure may not remove records held by payment providers or other systems."
+    },
+    {
+      "question": "Does changing the platform password secure the associated email account?",
+      "answer": "No. Secure the email account separately because it may control password resets and security notices. Use unique passwords and review its recovery methods and active sessions."
+    },
+    {
+      "question": "What information should I give platform support?",
+      "answer": "Provide a concise description, relevant dates, account identifier and any case or transaction reference requested through an official channel. Do not send passwords, full payment credentials or verification codes."
+    }
+  ],
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

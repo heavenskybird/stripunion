@@ -1,0 +1,113 @@
+export default {
+  "slug": "dating-platform-block-unmatch-report-controls-before-joining",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Compare Block, Unmatch and Report Controls Before You Connect",
+  "description": "A practical guide to checking what blocking, unmatching and reporting do on a dating platform, including conversation visibility and follow-up options.",
+  "excerpt": "Blocking, unmatching and reporting are not interchangeable. Check what each control changes, what remains visible and what evidence you may want to retain before relying on them.",
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Check whether blocking prevents new contact, hides a profile, or changes visibility in both directions.",
+    "Find out whether unmatching removes the conversation from one or both accounts and whether it can be restored.",
+    "Treat reporting as a separate process; note what information the platform asks for and how to follow up.",
+    "Review whether safety controls are available from a profile, a conversation and the account settings area.",
+    "If you need a record, consider saving relevant information before using a control that may remove access to the conversation."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the three controls by purpose",
+      "paragraphs": [
+        "Blocking is generally intended to limit future interaction with a particular account, while unmatching usually ends a match or conversation. Reporting is a request for the platform to review conduct or a safety concern. The labels alone do not establish exactly what happens next, so inspect the platform’s explanations before relying on any one control.",
+        "The controls may have different outcomes for discoverability, messaging, conversation history and review. A platform might hide profiles from each other, remove a match, retain a conversation, or offer a report route without automatically blocking the other account. Understand these distinctions in advance, particularly if you expect to need both a record and a way to stop contact."
+      ],
+      "bullets": [
+        "Find each control in the interface before you need it.",
+        "Read the platform’s own description of the effect of each action.",
+        "Do not assume that reporting also blocks or that unmatching submits a report."
+      ]
+    },
+    {
+      "heading": "Check what blocking changes",
+      "paragraphs": [
+        "Look for a direct explanation of whether blocking prevents messages, profile views, search results or future matching. Also check whether it applies only to the account you select or to accounts the other person might create; platforms differ, and account linking may be limited. Avoid treating a block as a guarantee that someone cannot identify you elsewhere or contact you through another service.",
+        "Where possible, determine whether a blocked person is notified, whether the block can be reversed and whether your own profile remains visible to them in any context. These details matter for expectations, not for assigning blame. If the interface offers a preview or confirmation screen, read it carefully before completing the action."
+      ],
+      "table": {
+        "caption": "Questions to answer for each safety control",
+        "headers": [
+          "Control",
+          "Check before relying on it"
+        ],
+        "rows": [
+          [
+            "Block",
+            "Does it stop messages, hide profiles, prevent new matches, or some combination?"
+          ],
+          [
+            "Unmatch",
+            "Does it end contact, remove the conversation, or affect visibility?"
+          ],
+          [
+            "Report",
+            "What details are requested, and is a separate block action needed?"
+          ],
+          [
+            "Mute or restrict, if offered",
+            "Does it silence notifications only, or limit contact in another way?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand unmatching and conversation history",
+      "paragraphs": [
+        "A disappearing conversation can be useful for reducing unwanted contact, but it can also make it harder to refer back to a timeline or details. Before unmatching, check whether the platform says the conversation will remain accessible, be hidden, or be removed. Avoid assuming you can restore a match later; recovery options may not be available.",
+        "If the conversation contains information you may need for a report or personal record, consider preserving relevant details before removing access. Keep records proportionate and secure. Do not share private messages publicly as a substitute for using the platform’s reporting process, and avoid collecting or retaining information you do not need."
+      ],
+      "bullets": [
+        "Check whether message history remains after an unmatch.",
+        "Note dates and account identifiers that are relevant to a report.",
+        "Use private, access-controlled storage if you preserve a record."
+      ]
+    },
+    {
+      "heading": "Review the reporting path and its limits",
+      "paragraphs": [
+        "Find the report option from more than one place, such as a profile and a conversation, and check what categories or evidence it requests. A clear process should explain how to submit a concern and whether there is a way to add context. If the report form is limited, you can still provide a concise factual account and identify the relevant interaction without making claims you cannot support.",
+        "A report submission is not the same as a promised outcome. Check whether the platform describes any confirmation, status update or way to provide additional information. If you face an immediate threat, a platform report may not be an adequate substitute for contacting appropriate local emergency or support services. Use the route that fits the urgency and situation."
+      ],
+      "bullets": [
+        "Keep the description factual, specific and chronological.",
+        "Note any confirmation or reference information supplied.",
+        "Check whether reporting and blocking must be done separately."
+      ]
+    },
+    {
+      "heading": "Test discoverability and settings without oversharing",
+      "paragraphs": [
+        "A useful pre-join check is to locate the controls using the platform’s help material or a low-risk account setup, without creating a detailed profile or initiating contact. Review which profile fields are public and whether privacy settings change who can find or message you. This helps you understand whether blocking is a backstop or only one part of a broader privacy plan.",
+        "Make a short personal decision path: what you would do to stop contact, what information you would preserve if needed, and where you would submit a report. Keep it simple enough to use under stress. Recheck the controls if the platform changes its interface or its help pages, because old instructions may no longer match current behavior."
+      ],
+      "bullets": [
+        "Locate block, unmatch and report controls before completing a profile.",
+        "Review profile visibility and contact settings alongside safety controls.",
+        "Save a link to current help information if the platform provides it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I block, unmatch or report first?",
+      "answer": "It depends on what you need. Reporting requests a review; blocking is intended to limit contact; unmatching usually ends a connection. Check the platform’s stated effects and consider preserving relevant information before an action that may hide a conversation."
+    },
+    {
+      "question": "Will a dating platform tell someone that I blocked or reported them?",
+      "answer": "Policies and interface behavior vary. Check the platform’s explanation rather than assuming the action is invisible or that a notification will be sent."
+    },
+    {
+      "question": "Does unmatching erase the other person’s copy of a conversation?",
+      "answer": "Do not assume it does. Unmatching may affect what you can see in the service, but it does not establish what another account has retained. Check the platform’s terms and avoid sharing sensitive information you would not want retained."
+    }
+  ]
+};
