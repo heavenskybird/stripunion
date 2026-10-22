@@ -1,0 +1,116 @@
+export default {
+  "slug": "premium-video-refund-policy-preflight",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Check Refund Terms Before You Pay",
+  "description": "A practical guide to evaluating premium video refund terms, billing support, cancellation timing and the records to keep if access or payment goes wrong.",
+  "excerpt": "A cancellation policy does not answer every billing question. Use this checklist to understand what a premium video service says about refunds, failed access and payment disputes before subscribing.",
+  "publishedAt": "2026-10-22",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Read refund terms separately from cancellation terms; they address different situations.",
+    "Check whether the service explains what happens when a payment succeeds but access does not appear.",
+    "Find out which support channel handles a billing question and what information it requires.",
+    "Keep receipts, confirmation messages and support correspondence in a private, organized place.",
+    "Do not assume that contacting the service, your payment provider or an app store produces the same outcome."
+  ],
+  "sections": [
+    {
+      "heading": "Separate refunds, cancellation and access",
+      "paragraphs": [
+        "Cancellation generally concerns whether a future renewal will occur. A refund concerns whether money already collected may be returned. Access is a third question: a membership might remain usable until a stated date after cancellation, or access might change under different terms. Treat these as separate policy topics rather than assuming one answer settles all three.",
+        "Before paying, locate the service’s current terms for refunds, recurring billing, cancellation and account access. Look for the wording that applies to your specific purchase path. If you subscribe through an intermediary, its billing and refund process may differ from the platform’s direct process. The checkout screen and confirmation should help identify who received the payment and where to start with a billing issue."
+      ],
+      "bullets": [
+        "Record the name of the billing party shown at checkout or in the receipt.",
+        "Find the written refund policy and note any stated conditions or request steps.",
+        "Check whether the cancellation page describes the end date of access separately from renewal status."
+      ]
+    },
+    {
+      "heading": "Map the problem to the right policy",
+      "paragraphs": [
+        "A useful pre-purchase check is to consider ordinary scenarios, not to predict whether a refund will be approved. For example, a mistaken renewal, duplicate-looking entry, inability to sign in, or a payment that appears complete before membership access is available may be handled through different support steps. The policy may specify a time window, required account details or a particular contact form. Do not infer an entitlement from a general promise of customer support.",
+        "Terms can also distinguish a billing correction from a discretionary refund. If the policy is unclear, note the exact question and ask support before subscribing. Avoid sending sensitive payment details in an ordinary message unless the service specifically provides a secure method and explains what is needed. Never share a full payment-card number or account password to establish a billing query."
+      ],
+      "table": {
+        "caption": "A practical map for checking billing and access terms",
+        "headers": [
+          "Situation to check",
+          "What to locate before subscribing"
+        ],
+        "rows": [
+          [
+            "You want to stop future renewals",
+            "Cancellation steps, confirmation method and stated access end date"
+          ],
+          [
+            "A charge appears unexpected",
+            "Billing contact, receipt details and any stated request process"
+          ],
+          [
+            "Payment appears complete but access is missing",
+            "Account troubleshooting steps and support route for access issues"
+          ],
+          [
+            "You paid through an intermediary",
+            "Which party manages billing, cancellation and refund requests"
+          ],
+          [
+            "A refund request is declined or unresolved",
+            "The written explanation, available escalation path and relevant records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Identify the correct support channel",
+      "paragraphs": [
+        "A platform may direct account access questions to one team and billing questions to another. A payment intermediary may also have its own support process. Confirm which party can view the transaction and make a decision about it. If you paid through an app marketplace, payment wallet or other third party, check that party’s terms rather than assuming the video platform controls the transaction.",
+        "Review the support page for practical details: whether it offers a billing category, what account identifier it requests, whether it provides a case number, and how it communicates a decision. A clear process helps you prepare a concise report. Keep the description factual: date, amount as shown on your receipt, transaction reference if available, account email or other requested identifier, and the access problem. Redact unrelated details when saving or sharing screenshots."
+      ],
+      "bullets": [
+        "Use the official support route linked from the account or service terms.",
+        "Ask one focused question at a time and retain the reply or case reference.",
+        "Do not follow unsolicited messages that ask you to move a billing discussion to an unfamiliar channel."
+      ]
+    },
+    {
+      "heading": "Keep an evidence file without oversharing",
+      "paragraphs": [
+        "A small private record can make a billing issue easier to explain. Save the receipt, subscription confirmation, cancellation confirmation and relevant support messages. If a page describes the terms that applied when you paid, keep a dated copy or screenshot for your own records where permitted. Store these materials somewhere protected; receipts can reveal a service relationship even when the statement descriptor is generic.",
+        "Keep only information that is useful to the issue. A screenshot showing the relevant confirmation may be more appropriate than sending an entire statement containing unrelated purchases. If you contact a payment provider, follow its instructions for submitting documentation and redact information it does not need. Do not edit evidence in a way that changes its meaning; create a separate redacted copy if necessary and preserve the original privately."
+      ],
+      "bullets": [
+        "Save the receipt and any cancellation or refund confirmation.",
+        "Note dates, case numbers and the outcome of each contact.",
+        "Protect records with device or account security appropriate to your circumstances."
+      ]
+    },
+    {
+      "heading": "Make the decision before checkout",
+      "paragraphs": [
+        "Refund terms are one part of subscription fit, not a substitute for checking the catalog, renewal schedule or cancellation route. A low-friction way to assess a service is to read the actual policy pages, review the checkout details and confirm the billing party before entering payment information. If the terms do not answer an important question, pause rather than relying on assumptions or informal claims.",
+        "After subscribing, verify that the confirmation identifies the plan and renewal arrangement you intended. If a problem arises, use the documented support channel and describe the issue precisely. Keep communications and avoid repeated submissions that could make the record harder to follow. If you remain uncertain about your rights or options, consult the relevant payment provider or a qualified consumer-advice resource for your location; this guide does not determine eligibility or guarantee a particular outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does cancelling a premium video subscription automatically produce a refund?",
+      "answer": "Not necessarily. Cancellation usually addresses future renewal, while a refund concerns an amount already collected. Check the service’s refund terms and the billing party’s process for the specific purchase."
+    },
+    {
+      "question": "Who should I contact if I paid but cannot access the membership?",
+      "answer": "Start with the support route named in the receipt or the service’s billing guidance. If another company processed the purchase, check whether it handles billing or access requests. Keep the receipt and a concise record of the problem."
+    },
+    {
+      "question": "What should I save if I request a refund?",
+      "answer": "Keep the receipt, relevant subscription terms, any cancellation or access confirmation, support messages and case references. Store them privately and share only the information the official support process requests."
+    },
+    {
+      "question": "Can a platform guarantee that a refund will be approved?",
+      "answer": "A general guide cannot establish that. Refund decisions depend on the applicable terms, purchase route and circumstances. Read the current policy and ask the responsible billing party if an important point is unclear."
+    }
+  ]
+};

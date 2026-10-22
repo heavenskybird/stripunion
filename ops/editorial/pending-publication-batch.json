@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T18:35:23.026Z",
+  "generatedAt": "2026-10-22T19:37:57.002Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-product-care-documentation-review.json",
-    "ops/editorial/content-artifacts/live-cam-platform-billing-dispute-readiness.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-refund-access-workflow.json",
-    "ops/editorial/content-artifacts/dating-platform-contact-sync-permission-audit.json",
-    "ops/editorial/content-artifacts/affiliate-channel-traffic-permission-matrix.json"
+    "ops/editorial/content-artifacts/premium-video-refund-policy-preflight.json",
+    "ops/editorial/content-artifacts/adult-platform-browser-extension-permission-audit.json",
+    "ops/editorial/content-artifacts/free-video-embedded-player-dependency-check.json",
+    "ops/editorial/content-artifacts/adult-games-update-cadence-evidence-review.json",
+    "ops/editorial/content-artifacts/adult-shop-international-delivery-customs-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-product-care-documentation-review.js",
-    "src/data/guides/live-cam-platform-billing-dispute-readiness.js",
-    "src/data/guides/creator-platform-fan-refund-access-workflow.js",
-    "src/data/guides/dating-platform-contact-sync-permission-audit.js",
-    "src/data/guides/affiliate-channel-traffic-permission-matrix.js"
+    "src/data/guides/premium-video-refund-policy-preflight.js",
+    "src/data/guides/adult-platform-browser-extension-permission-audit.js",
+    "src/data/guides/free-video-embedded-player-dependency-check.js",
+    "src/data/guides/adult-games-update-cadence-evidence-review.js",
+    "src/data/guides/adult-shop-international-delivery-customs-checklist.js"
   ],
   "categories": [
-    "adult-shops",
-    "live-cams",
-    "creator-platforms",
-    "dating-hookups",
-    "webmaster-affiliate"
+    "premium-videos",
+    "privacy-safety-payment",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-shop-product-care-documentation-review",
-    "live-cam-platform-billing-dispute-readiness",
-    "creator-platform-fan-refund-access-workflow",
-    "dating-platform-contact-sync-permission-audit",
-    "affiliate-channel-traffic-permission-matrix"
+    "premium-video-refund-policy-preflight",
+    "adult-platform-browser-extension-permission-audit",
+    "free-video-embedded-player-dependency-check",
+    "adult-games-update-cadence-evidence-review",
+    "adult-shop-international-delivery-customs-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39832110483",
-  "phase": "closed"
+  "r1CycleId": "39840782358"
 }
