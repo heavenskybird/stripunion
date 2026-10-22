@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T00:00:04.487Z",
+  "generatedAt": "2026-10-22T01:33:03.921Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-mobile-interface-fit-audit.json",
-    "ops/editorial/content-artifacts/premium-video-recommendation-history-control-audit.json",
-    "ops/editorial/content-artifacts/free-video-playback-control-quality-audit.json",
-    "ops/editorial/content-artifacts/adult-game-storefront-discovery-tools-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-customer-support-prepurchase-audit.json"
+    "ops/editorial/content-artifacts/adult-anime-series-completeness-release-tracking.json",
+    "ops/editorial/content-artifacts/vr-adult-device-handoff-planning.json",
+    "ops/editorial/content-artifacts/live-cam-schedule-and-time-zone-comparison.json",
+    "ops/editorial/content-artifacts/premium-video-runtime-and-programme-fit-check.json",
+    "ops/editorial/content-artifacts/adult-platform-duplicate-charge-response-records.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-mobile-interface-fit-audit.js",
-    "src/data/guides/premium-video-recommendation-history-control-audit.js",
-    "src/data/guides/free-video-playback-control-quality-audit.js",
-    "src/data/guides/adult-game-storefront-discovery-tools-audit.js",
-    "src/data/guides/adult-shop-customer-support-prepurchase-audit.js"
+    "src/data/guides/adult-anime-series-completeness-release-tracking.js",
+    "src/data/guides/vr-adult-device-handoff-planning.js",
+    "src/data/guides/live-cam-schedule-and-time-zone-comparison.js",
+    "src/data/guides/premium-video-runtime-and-programme-fit-check.js",
+    "src/data/guides/adult-platform-duplicate-charge-response-records.js"
   ],
   "categories": [
+    "hentai-anime",
+    "vr-ar",
     "live-cams",
     "premium-videos",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "live-cam-mobile-interface-fit-audit",
-    "premium-video-recommendation-history-control-audit",
-    "free-video-playback-control-quality-audit",
-    "adult-game-storefront-discovery-tools-audit",
-    "adult-shop-customer-support-prepurchase-audit"
+    "adult-anime-series-completeness-release-tracking",
+    "vr-adult-device-handoff-planning",
+    "live-cam-schedule-and-time-zone-comparison",
+    "premium-video-runtime-and-programme-fit-check",
+    "adult-platform-duplicate-charge-response-records"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39696693822",
-  "phase": "closed"
+  "r1CycleId": "39705958525"
 }
