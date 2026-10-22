@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/free-video-age-assurance-data-review",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-22T09:44:01.370Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-22T12:02:31.551Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ad9fb57eb1348c17aba30c7",
   "provider_due_at": "2026-10-22T14:05:00.000Z",
   "created_at": "2026-10-22T09:44:01.370Z",
-  "updated_at": "2026-10-22T13:51:40.814Z",
+  "updated_at": "2026-10-22T14:39:48.225Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 14,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
