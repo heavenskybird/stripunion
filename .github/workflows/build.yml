@@ -7,6 +7,8 @@ on:
       - 'ops/editorial/publication-ledger/**'
       - 'ops/editorial/hourly-backlog.json'
       - 'ops/social-outbox/events/**'
+      - 'ops/control-plane/editorial-producer-kick.json'
+      - 'ops/control-plane/social-outbox-kick.json'
       - 'ops/control-plane/editorial-r1-receipt.json'
   pull_request:
     branches: [main]
