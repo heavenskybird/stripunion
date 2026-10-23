@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 external heartbeat 2026-10-23T09:05:14.641Z: last successful receipt 39918036111; cadence due after 52m, no active canonical writer in latest GitHub Actions inventory, no admission backoff; request one fresh Scheduler wake via guarded bot-branch Bridge only.",
-  "updated_at": "2026-10-23T09:05:14.641Z"
+  "reason": "R1 external heartbeat 2026-10-23T15:00:19.000Z: last successful receipt 39960717387 admitted 2026-10-23T13:23:16.503Z; 52-minute cooldown elapsed, no active canonical Scheduler/Producer writer in latest GitHub Actions inventory, no admission backoff; request exactly one fresh Scheduler wake via guarded bot-branch Bridge only.",
+  "updated_at": "2026-10-23T15:00:19.000Z"
 }
