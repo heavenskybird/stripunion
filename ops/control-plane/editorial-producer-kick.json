@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 hourly resilience check 2026-10-22: latest receipt success for run 39705958525, newest Scheduler 39708449345 safely skipped on backoff, no active writer; GitHub scheduler cron missed fresh admission after 52m. Trigger one fresh scheduler wake only; do not touch receipt or bypass admission.",
-  "updated_at": "2026-10-22T02:42:46.509Z"
+  "reason": "R1 external heartbeat 2026-10-23T09:05:14.641Z: last successful receipt 39918036111; cadence due after 52m, no active canonical writer in latest GitHub Actions inventory, no admission backoff; request one fresh Scheduler wake via guarded bot-branch Bridge only.",
+  "updated_at": "2026-10-23T09:05:14.641Z"
 }
