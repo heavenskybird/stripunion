@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/adult-game-platform-account-gate-comparison",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-23T06:33:43.637Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-23T10:17:52.660Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6adb345150cce2289e0c4f88",
   "provider_due_at": "2026-10-23T12:28:00.000Z",
   "created_at": "2026-10-23T06:33:43.637Z",
-  "updated_at": "2026-10-23T12:15:11.689Z",
+  "updated_at": "2026-10-23T12:55:21.662Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 2,
     "cadence_pressure_before_enqueue": 11,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
