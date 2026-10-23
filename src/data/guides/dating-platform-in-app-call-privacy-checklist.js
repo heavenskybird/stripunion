@@ -1,0 +1,123 @@
+export default {
+  "slug": "dating-platform-in-app-call-privacy-checklist",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check In-App Voice and Video Call Privacy Before Connecting",
+  "description": "Compare dating-platform voice and video calling by access rules, identity exposure, permissions, reporting options and how to end or disable calls safely.",
+  "excerpt": "Calling inside a dating service can reduce the need to share a phone number, but the privacy details depend on the platform. Check how calls work, what information is exposed and which controls you have before using them.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Confirm whether in-app calls are available and whether they require a match, account step or other condition.",
+    "Check whether the platform explains what personal information the other participant can see during a call.",
+    "Review camera and microphone permissions and know how to revoke them afterward.",
+    "Find call-level block, report and end controls before a conversation starts.",
+    "Do not treat an in-app call as proof of identity or as a guarantee against recording."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the call access model",
+      "paragraphs": [
+        "Dating services may offer voice or video communication in different ways, and the feature may not be available in every account state or device context. Check the platform’s current help pages and interface to learn whether calling is built into the service, whether both people must opt in, and whether there are conditions such as an established match. Do not assume that a feature shown in a promotional description is available to every user.",
+        "Compare the practical setup steps without sharing personal contact details. Check whether the call begins from a conversation screen, whether an invitation must be accepted, and whether either participant can decline without ending the wider match. If the platform does not explain these steps, ask support or test the non-sensitive interface before relying on the feature."
+      ],
+      "bullets": [
+        "Check eligibility and opt-in requirements.",
+        "Find out whether calls are initiated through the platform or an external service.",
+        "Understand how a declined call affects the existing conversation."
+      ]
+    },
+    {
+      "heading": "Review what identity information is exposed",
+      "paragraphs": [
+        "An in-app call does not automatically mean that a phone number, email address or other account detail is hidden. Review the platform’s explanation of what participants can see, including profile name, account image, status indicators and any call invitation information. If the call uses an external service or asks you to switch apps, inspect what the transition reveals before continuing.",
+        "Treat the call as one communication channel, not an identity check. A live conversation may help you decide whether you are comfortable continuing, but it cannot by itself verify a person’s claims or remove the possibility of misleading information. Avoid revealing identifying details in the background, spoken conversation or on-screen notifications, especially when using a shared device or an environment where others may overhear."
+      ],
+      "table": {
+        "caption": "In-app calling checks before accepting an invitation",
+        "headers": [
+          "Check",
+          "What to look for",
+          "Practical decision"
+        ],
+        "rows": [
+          [
+            "Call route",
+            "Whether the call stays inside the dating service",
+            "Avoid an unexpected app or contact-detail handoff"
+          ],
+          [
+            "Visible identity",
+            "What profile or account details appear",
+            "Limit exposure before accepting"
+          ],
+          [
+            "Permissions",
+            "When camera or microphone access is requested",
+            "Grant only what is needed and review afterward"
+          ],
+          [
+            "Safety controls",
+            "How to end, block or report during a call",
+            "Know the route before a problem occurs"
+          ],
+          [
+            "Recording information",
+            "What the platform says about capture and privacy",
+            "Do not assume a call cannot be recorded"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Manage camera and microphone permissions",
+      "paragraphs": [
+        "Before a call, review the device’s camera and microphone permissions for the dating app or browser. Allow access only when you intend to use the feature, and understand how to turn it off through device settings. If a service requests permissions at an unexpected time or asks for access unrelated to the call, pause and review the request rather than approving it automatically.",
+        "Prepare the device environment as well as the account. Check whether notifications can appear on screen, whether a connected display or audio device is in use, and whether the call could be heard by someone nearby. When finished, end the call using the platform control and verify that the camera or microphone indicator has stopped. Revoke permissions later if you do not expect to use the feature again."
+      ],
+      "bullets": [
+        "Review app or browser permissions before calling.",
+        "Check notification previews and nearby audio exposure.",
+        "Confirm that the call has ended and revoke access when appropriate."
+      ]
+    },
+    {
+      "heading": "Know the safety controls during a call",
+      "paragraphs": [
+        "Locate the end-call, block and report controls before accepting an invitation. If controls are hidden behind a menu, learn the route while the interface is calm rather than trying to find it under pressure. Read what happens when you block or report someone during a call, and whether reporting can be completed after the call ends. Use the platform’s own safety instructions for current steps.",
+        "You can end a conversation at any point if it no longer feels comfortable. Do not rely on a caller to honor a request to stop, and do not provide additional personal information to justify ending the call. If someone pressures you to move off-platform, share contact details or continue after you have declined, use the platform’s available controls and preserve relevant account records if you choose to report the behavior."
+      ],
+      "bullets": [
+        "Find end, block and report controls in advance.",
+        "Use the platform’s reporting route if a call becomes unwanted or concerning.",
+        "You do not need to provide a reason to end a call."
+      ]
+    },
+    {
+      "heading": "Set boundaries for recording and follow-up",
+      "paragraphs": [
+        "Check the platform’s published rules on recording, screenshots and sharing call content. Policies can explain expected conduct, but they cannot establish that another participant is technically unable to capture what appears on a device. Avoid showing documents, account screens, location clues or other information you would not want retained. Be especially careful when a call involves another person’s privacy.",
+        "After a call, decide what information to retain and how to secure it. If you want to continue communicating, consider whether the platform offers message controls that let you keep the conversation there without disclosing a personal number. If you report an issue, save only the information needed to explain it and follow the service’s instructions. For future calls, revisit permissions and notification settings rather than assuming they remained unchanged."
+      ],
+      "bullets": [
+        "Do not assume in-app means unrecordable.",
+        "Avoid exposing documents, addresses or private notifications on camera.",
+        "Choose whether to keep future communication on-platform."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an in-app call hide my phone number?",
+      "answer": "Not automatically. Check the platform’s documentation to see whether calls remain inside its service or involve another provider, and what details are visible to participants."
+    },
+    {
+      "question": "Can I assume a video call verifies someone’s identity?",
+      "answer": "No. A call can provide an additional interaction channel, but it does not independently establish that someone’s profile claims are accurate."
+    },
+    {
+      "question": "What should I do if I want to stop a call?",
+      "answer": "Use the end-call control and, if needed, the platform’s block or report tools. You do not need to share a personal explanation or continue a conversation that you want to end."
+    }
+  ]
+};

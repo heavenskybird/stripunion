@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T13:24:57.515Z",
+  "generatedAt": "2026-10-23T15:03:33.381Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-commercial-terms-change-log.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-headset-support-lifecycle-audit.json",
-    "ops/editorial/content-artifacts/adult-manga-access-model-and-retention-comparison.json",
-    "ops/editorial/content-artifacts/free-video-watch-history-retention-deletion-audit.json",
-    "ops/editorial/content-artifacts/adult-game-mod-policy-and-addon-risk-review.json"
+    "ops/editorial/content-artifacts/adult-shop-recurring-order-terms-audit.json",
+    "ops/editorial/content-artifacts/live-cam-account-closure-and-data-exit-checklist.json",
+    "ops/editorial/content-artifacts/creator-platform-tax-documentation-readiness.json",
+    "ops/editorial/content-artifacts/affiliate-program-payee-tax-documentation-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-in-app-call-privacy-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-commercial-terms-change-log.js",
-    "src/data/guides/vr-adult-platform-headset-support-lifecycle-audit.js",
-    "src/data/guides/adult-manga-access-model-and-retention-comparison.js",
-    "src/data/guides/free-video-watch-history-retention-deletion-audit.js",
-    "src/data/guides/adult-game-mod-policy-and-addon-risk-review.js"
+    "src/data/guides/adult-shop-recurring-order-terms-audit.js",
+    "src/data/guides/live-cam-account-closure-and-data-exit-checklist.js",
+    "src/data/guides/creator-platform-tax-documentation-readiness.js",
+    "src/data/guides/affiliate-program-payee-tax-documentation-audit.js",
+    "src/data/guides/dating-platform-in-app-call-privacy-checklist.js"
   ],
   "categories": [
+    "adult-shops",
+    "live-cams",
     "creator-platforms",
-    "vr-ar",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "webmaster-affiliate",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "creator-platform-commercial-terms-change-log",
-    "vr-adult-platform-headset-support-lifecycle-audit",
-    "adult-manga-access-model-and-retention-comparison",
-    "free-video-watch-history-retention-deletion-audit",
-    "adult-game-mod-policy-and-addon-risk-review"
+    "adult-shop-recurring-order-terms-audit",
+    "live-cam-account-closure-and-data-exit-checklist",
+    "creator-platform-tax-documentation-readiness",
+    "affiliate-program-payee-tax-documentation-audit",
+    "dating-platform-in-app-call-privacy-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39960717387",
-  "phase": "closed"
+  "r1CycleId": "39974676713"
 }

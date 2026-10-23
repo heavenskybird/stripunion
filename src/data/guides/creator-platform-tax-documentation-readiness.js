@@ -1,0 +1,115 @@
+export default {
+  "slug": "creator-platform-tax-documentation-readiness",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Tax Documents and Payee Records Before Building Income",
+  "description": "Review creator-platform tax forms, payee details, downloadable statements and correction processes before relying on a platform for business records.",
+  "excerpt": "Tax-related paperwork is part of platform operations, not an afterthought. Check which documents may be available, whose name appears on the account, and how records can be corrected or retrieved before you depend on them.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Confirm what tax or payment documents the platform says it provides and where they can be retrieved.",
+    "Keep account payee details consistent with the person or business that should receive platform records.",
+    "Distinguish platform statements from your own complete business records.",
+    "Check how corrections, account changes and document access are handled over time.",
+    "Consult a qualified tax professional for advice about your own reporting obligations."
+  ],
+  "sections": [
+    {
+      "heading": "Find out what documents the platform provides",
+      "paragraphs": [
+        "Platforms may provide different combinations of payment histories, downloadable statements, annual summaries or tax-related forms. Do not infer that a dashboard total is a tax document, or that a particular document will be available in every country or account situation. Review the platform’s current payment and tax documentation to identify what it says it makes available and whether delivery is electronic, account-based or otherwise described.",
+        "Check whether documents can be downloaded by date range, whether older records remain accessible, and whether the platform explains how it handles corrected or reissued documents. If the documentation is unclear, ask support a focused question before building a workflow around a feature. Save the response and note where the official help page is located, since account interfaces and documentation may change."
+      ],
+      "bullets": [
+        "List the statements and tax-related documents the platform explicitly identifies.",
+        "Check retrieval method, historical access and correction instructions.",
+        "Do not treat a dashboard display as a substitute for a record you have not verified."
+      ]
+    },
+    {
+      "heading": "Align payee and account information",
+      "paragraphs": [
+        "The name and details associated with a creator account can affect where payment documents are issued or how the platform identifies the payee. Before receiving payments, review the account’s legal-name, business-name, address and tax-information fields, if present, and understand which fields are public-facing and which are used for administration. The platform’s instructions should explain what information it requires; avoid entering invented or informal details to make the profile look consistent.",
+        "If a creator operates through a business or changes the person responsible for the account, do not assume the platform will transfer records automatically. Check whether ownership changes are supported, what verification may be requested and whether documents remain associated with the original account holder. For individualized decisions about entity structure, tax residency or reporting, consult a qualified professional rather than relying on general platform guidance."
+      ],
+      "table": {
+        "caption": "Creator documentation preflight",
+        "headers": [
+          "Record area",
+          "What to verify",
+          "Good operational practice"
+        ],
+        "rows": [
+          [
+            "Payee identity",
+            "Which account fields identify the recipient of payments or documents",
+            "Keep approved account details current and retain change confirmations"
+          ],
+          [
+            "Payment history",
+            "Whether completed transactions can be viewed or exported",
+            "Save periodic copies in a secure, organized location"
+          ],
+          [
+            "Tax documents",
+            "Which forms or summaries the platform says it issues",
+            "Record where they are retrieved and how corrections work"
+          ],
+          [
+            "Account changes",
+            "How name, address or ownership changes are reviewed",
+            "Document the request and wait for confirmation"
+          ],
+          [
+            "Support trail",
+            "How questions about missing or incorrect records are handled",
+            "Keep case numbers and relevant replies"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build records beyond the dashboard",
+      "paragraphs": [
+        "A platform’s payment view may not contain every record a creator needs for bookkeeping. Consider keeping a secure record of payment dates, gross amounts shown, adjustments identified by the platform, transfer confirmations, relevant fees and correspondence about corrections. Use the labels the platform itself provides and avoid relabeling numbers in a way that makes later reconciliation difficult.",
+        "Create a repeatable process rather than relying on memory at year-end. For example, choose a regular review interval, download available statements, reconcile them against transfer records and store any unresolved differences in a dated log. Restrict access to sensitive records, especially when a team helps manage creator operations. This is a recordkeeping method, not a determination of which amounts are taxable or how they should be reported."
+      ],
+      "bullets": [
+        "Keep original platform statements alongside your own reconciliation notes.",
+        "Record the period covered and date downloaded for each file.",
+        "Store sensitive documents with access limited to people who need them."
+      ]
+    },
+    {
+      "heading": "Plan for corrections and account changes",
+      "paragraphs": []
+    },
+    {
+      "heading": "Set a review routine and get qualified advice",
+      "paragraphs": [
+        "A short monthly or quarterly review can catch missing statements, stale payee details and unresolved transfer differences while information is still easy to locate. Assign responsibility for downloading files, checking account notices and recording support interactions. If more than one person has access, decide who can update payee information and who can view or export sensitive documents. Keep a change log for administrative updates.",
+        "Platform documentation can explain how its own records work, but it cannot determine every creator’s tax position. Jurisdiction, business structure and individual circumstances may affect what reporting applies. Use platform records as source material and ask a qualified tax professional how they relate to your obligations. Avoid making account decisions based on informal online advice that does not reflect your circumstances."
+      ],
+      "bullets": [
+        "Schedule periodic downloads and reconciliation.",
+        "Document who may change payee information or retrieve records.",
+        "Ask a qualified professional about personal tax treatment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a platform payment summary enough for tax reporting?",
+      "answer": "Not necessarily. A summary may be useful evidence, but whether it is sufficient depends on the platform’s documentation and your circumstances. Keep supporting records and consult a qualified tax professional."
+    },
+    {
+      "question": "Should I use a business name or my personal name?",
+      "answer": "Follow the platform’s documented payee and verification rules. The appropriate arrangement depends on your situation, so seek qualified professional advice rather than guessing or entering inconsistent details."
+    },
+    {
+      "question": "What should I do if a document appears incorrect?",
+      "answer": "Compare it with the platform’s payment history, save the original, and use the official correction channel. Keep the case reference and any revised document, and wait for confirmation before treating the issue as resolved."
+    }
+  ]
+};

@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-shop-recurring-order-terms-audit",
+  "slug": "adult-shop-recurring-order-terms-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Recurring-Order Terms Before Setting Up Replenishment",
+  "description": "Compare adult-shop recurring-order options by delivery interval, renewal notices, cancellation controls, item substitutions and billing records before enrolling.",
+  "excerpt": "A recurring order can be convenient, but the important details are how often it renews, what happens when an item is unavailable, and how easily you can change or stop it. Use this checklist to compare the terms before you commit.",
+  "keyTakeaways": [
+    "Treat recurring orders as a separate purchase model, not just a faster checkout; review the renewal schedule and cancellation rules first.",
+    "Check whether each renewal requires your approval or proceeds automatically, and find out where notices are sent.",
+    "Look for clear controls to pause, skip, change quantities, update an address or stop future orders.",
+    "Confirm how unavailable items, price changes, shipping charges and taxes are handled on later orders.",
+    "Keep order confirmations and cancellation records so you can verify what was requested and when."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what repeats",
+      "paragraphs": [
+        "A recurring-order option may repeat a specific item, a basket, or a delivery schedule. Those distinctions matter: repeating one selected product is not the same as authorizing a broader list of purchases. Before enrolling, identify exactly which items are included, whether quantities are fixed, and whether the retailer can add related products or substitutions.",
+        "Read the enrollment screen and the applicable terms together. A short label such as “repeat order” may not explain the renewal interval, the date an order is prepared, or whether a separate confirmation is required. If the details are split across pages, save the relevant terms or note where they appeared before submitting payment information."
+      ],
+      "bullets": [
+        "Write down the item, quantity, interval and next expected order date.",
+        "Check whether the repeat applies only to the selected product or to a whole basket.",
+        "Identify whether each order is automatic or requires a fresh confirmation."
+      ]
+    },
+    {
+      "heading": "Compare renewal, notice and change controls",
+      "paragraphs": [
+        "The practical value of a recurring order depends on the controls available between renewals. Look for a clear account page or support process for changing the interval, skipping one shipment, pausing future orders, changing quantities and updating delivery details. A control that is easy to find before enrollment is more useful than a vague promise that changes can be requested later.",
+        "Check when an order becomes difficult to change. Some retailers may define a preparation or dispatch cutoff; the terms should explain whether a change made after that point affects the current order or only later ones. Review how renewal notices are delivered, how far in advance they arrive, and whether you can manage notification preferences without missing important order information."
+      ],
+      "table": {
+        "caption": "Recurring-order details to compare before enrolling",
+        "headers": [
+          "Term",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Renewal interval",
+            "Fixed schedule, selectable interval, or adjustable timing",
+            "Helps estimate when another order may be placed"
+          ],
+          [
+            "Order approval",
+            "Automatic renewal or confirmation each time",
+            "Clarifies whether action is needed to prevent an order"
+          ],
+          [
+            "Change cutoff",
+            "When edits stop applying to the next order",
+            "Avoids assuming a late change affects an order already being prepared"
+          ],
+          [
+            "Pause or skip",
+            "Whether these controls exist and where to use them",
+            "Provides flexibility without requiring full cancellation"
+          ],
+          [
+            "Notice method",
+            "Where renewal and order notices are sent",
+            "Makes it easier to see upcoming activity"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand item changes and availability",
+      "paragraphs": [
+        "An item may become unavailable, change packaging, or be replaced in a catalog. Find out whether a recurring order is paused, cancelled, delayed or changed when the selected item cannot be supplied. Do not assume a retailer will obtain approval before offering an alternative; look for explicit wording about substitutions and whether you can reject them.",
+        "Review how the retailer communicates product changes. A message sent to an old email address may not help if account details have changed, so confirm that contact information is current. If an item has a specific version or option that matters to your purchase, check whether the repeat order preserves that selection or whether you must review it again each time."
+      ],
+      "bullets": [
+        "Check whether substitutions are permitted and whether approval is requested first.",
+        "Find out what happens to the schedule if an item is out of stock.",
+        "Confirm that selected options and quantities carry forward as expected."
+      ]
+    },
+    {
+      "heading": "Read the later-order cost terms",
+      "paragraphs": [
+        "A recurring order does not necessarily mean a fixed total. Product prices, shipping charges, taxes, discounts or other checkout details may be treated differently on future orders. Check the terms for what can change, whether you receive an updated total before each order, and whether the retailer offers a way to review the next order before it is finalized. Avoid relying on a first-order total as a promise about later purchases.",
+        "Look for how payment problems are handled. The terms should make it possible to understand whether a failed payment triggers another attempt, delays an order or ends the recurring arrangement. If a payment method expires, update it through the retailer’s official account controls and check for confirmation. Keep renewal notices and receipts so you can compare the amount charged with the order that was actually placed."
+      ],
+      "bullets": [
+        "Review how price or shipping changes are communicated.",
+        "Check whether the next order total is visible before it is finalized.",
+        "Understand what happens after a declined or expired payment method."
+      ]
+    },
+    {
+      "heading": "Make cancellation verifiable",
+      "paragraphs": [
+        "Before enrolling, locate the actual cancellation route and note whether it is available in the account, through customer support, or both. Check whether cancellation stops only future orders or also affects an order already being prepared. A clear distinction between stopping a repeat schedule and cancelling a specific order can prevent confusion.",
+        "After requesting a pause or cancellation, look for an on-screen confirmation or written message that identifies the change and its effective date. Save that record with the original enrollment details. If a future order still appears after cancellation, compare its timing with the stated cutoff and contact support using the retailer’s published process. Avoid sharing more personal information than is needed to identify the account and request."
+      ],
+      "bullets": [
+        "Find the cancellation path before enrolling.",
+        "Check whether a separate request is needed to stop an order already in progress.",
+        "Save the confirmation and effective date for any change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a recurring order the same as a subscription?",
+      "answer": "Not necessarily. A recurring order may repeat selected products, while a subscription can refer to a different access or membership arrangement. Read the retailer’s definition, renewal terms and cancellation rules rather than relying on the label."
+    },
+    {
+      "question": "Can I assume I will be asked before every repeat order ships?",
+      "answer": "No. Check whether the arrangement renews automatically or requires confirmation. If the terms do not make this clear, ask the retailer before enrolling and keep the response."
+    },
+    {
+      "question": "What should I save after cancelling?",
+      "answer": "Keep the cancellation confirmation, the date you submitted the request, and any message explaining when it takes effect. These records help you check whether a later order falls before or after the stated cutoff."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
