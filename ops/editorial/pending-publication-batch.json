@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T22:06:05.015Z",
+  "generatedAt": "2026-10-23T23:09:48.264Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-sensor-data-privacy-audit.json",
-    "ops/editorial/content-artifacts/free-video-browser-notification-permission-audit.json",
-    "ops/editorial/content-artifacts/adult-games-browser-build-installation-format-comparison.json",
-    "ops/editorial/content-artifacts/adult-shop-discreet-packaging-claim-verification.json",
-    "ops/editorial/content-artifacts/adult-dating-email-phone-lookup-privacy-check.json"
+    "ops/editorial/content-artifacts/live-cam-language-fit-comparison.json",
+    "ops/editorial/content-artifacts/premium-video-account-email-change-continuity.json",
+    "ops/editorial/content-artifacts/adult-platform-contact-email-separation-plan.json",
+    "ops/editorial/content-artifacts/creator-platform-independent-content-archive-workflow.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-payout-calendar-planning.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-sensor-data-privacy-audit.js",
-    "src/data/guides/free-video-browser-notification-permission-audit.js",
-    "src/data/guides/adult-games-browser-build-vs-download-installation-check.js",
-    "src/data/guides/adult-shop-discreet-packaging-claim-verification.js",
-    "src/data/guides/adult-dating-email-phone-lookup-privacy-check.js"
+    "src/data/guides/live-cam-platform-language-fit-comparison.js",
+    "src/data/guides/premium-video-account-email-change-continuity-checklist.js",
+    "src/data/guides/adult-platform-contact-email-separation-and-recovery-plan.js",
+    "src/data/guides/creator-platform-independent-content-archive-workflow.js",
+    "src/data/guides/webmaster-affiliate-payout-calendar-planning.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "dating-hookups"
+    "live-cams",
+    "premium-videos",
+    "privacy-safety-payment",
+    "creator-platforms",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "vr-platform-sensor-data-privacy-audit",
-    "free-video-browser-notification-permission-audit",
-    "adult-games-browser-build-installation-format-comparison",
-    "adult-shop-discreet-packaging-claim-verification",
-    "adult-dating-email-phone-lookup-privacy-check"
+    "live-cam-language-fit-comparison",
+    "premium-video-account-email-change-continuity",
+    "adult-platform-contact-email-separation-plan",
+    "creator-platform-independent-content-archive-workflow",
+    "webmaster-affiliate-payout-calendar-planning"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40030965317",
-  "phase": "closed"
+  "r1CycleId": "40037487320"
 }
