@@ -1,0 +1,123 @@
+{
+  "backlogId": "premium-video-membership-household-access-boundaries",
+  "slug": "premium-video-membership-household-access-boundaries",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Check Household Access and Profile Boundaries",
+  "description": "Before choosing a premium video subscription, check profile separation, household access rules, viewing history and what other account users can see.",
+  "excerpt": "A subscription used by more than one person can create questions about profiles, history and account access. Check the written rules and available controls before sharing credentials or devices.",
+  "keyTakeaways": [
+    "Distinguish a separate profile from a separate account and verify what each controls.",
+    "Read household, device and account-sharing terms rather than assuming a subscription can be shared.",
+    "Check whether watch history, searches and recommendations are separated between profiles.",
+    "Consider who can access billing, login recovery and account settings.",
+    "Avoid sharing credentials when the platform’s rules or available controls do not fit your needs."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what “household access” means for you",
+      "paragraphs": [
+        "People use the phrase household access to mean different things: several profiles on one account, playback on more than one device, or account sharing among people who live together. Those arrangements can have different limits and privacy consequences. Before comparing subscriptions, define who would use the account, which devices they would use and what information you want to keep separate.",
+        "Do not assume that a profile is a private account. A profile may organize viewing without separating billing, login access or account recovery. A person who controls the main credentials may still be able to manage profiles or see account-level information. The platform’s help pages and terms are the relevant sources for permitted use and specific controls; if the rules are unclear, treat them as unresolved."
+      ],
+      "bullets": [
+        "List intended users and devices before comparing plans.",
+        "Separate profile organization from account ownership and permissions.",
+        "Check written household and account-sharing rules."
+      ]
+    },
+    {
+      "heading": "Compare the controls available to each profile",
+      "paragraphs": [
+        "Look for documented controls that affect viewing history, watchlists, searches, recommendations and notifications. Check whether each is managed at the profile level or across the whole account. If a control is described only as personalization, do not assume it hides history from another account user. The distinction between changing recommendations and concealing activity is important.",
+        "Where a public demonstration or preview allows it, inspect settings without entering personal information. If you need an account to see the controls, weigh that step against the information requested and the privacy policy. A comparison should record what you verified, what the documentation says and what remains unknown. Avoid representing a profile feature as a stronger privacy boundary than the platform describes."
+      ],
+      "table": {
+        "caption": "Questions to ask about shared subscription access",
+        "headers": [
+          "Area",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Profiles",
+            "Can each person have a separate profile, and what does it separate?"
+          ],
+          [
+            "Viewing activity",
+            "Are searches, history and recommendations profile-specific?"
+          ],
+          [
+            "Account control",
+            "Who can change credentials, settings and profiles?"
+          ],
+          [
+            "Access rules",
+            "What do the platform terms say about household use?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Consider billing and account-management visibility",
+      "paragraphs": [
+        "Even when profiles separate viewing, billing information usually belongs to the account rather than to an individual profile. Check who can view payment settings, receipts, renewal information and account emails. Also consider who controls password resets and recovery channels. Someone with access to the main email or credentials may have broader visibility or control than a profile menu suggests.",
+        "If a subscription is paid for by one person and used by others, clarify who manages renewal and cancellation. Keep payment details and account recovery information with the person responsible for them, and avoid passing credentials through informal channels. Where household members need independent control, separate accounts may be more appropriate, subject to the service’s terms and available options."
+      ]
+    },
+    {
+      "heading": "Check device limits separately from sharing permission",
+      "paragraphs": [
+        "A plan’s device or concurrent-playback rules do not automatically define who is permitted to use the account. These are separate questions: one concerns technical access, the other concerns the platform’s terms. Check both. Look for the stated number of registered devices, simultaneous streams and any process for removing a device, then compare that information with the people and screens you expect to use.",
+        "A device list can also reveal that an account is active somewhere unexpected. If the service documents a device-management page, learn where to review it and how to sign out or remove access. Do not assume that signing out on one device closes every session. For shared or borrowed equipment, use the platform’s documented sign-out flow and avoid saving credentials in a profile that others can open."
+      ],
+      "bullets": [
+        "Record device and concurrent-playback limits from current documentation.",
+        "Check whether devices can be reviewed or removed from account settings.",
+        "Use a documented sign-out process on shared equipment."
+      ]
+    },
+    {
+      "heading": "Make a privacy plan before sharing a screen or login",
+      "paragraphs": [
+        "A shared television, computer or mobile device may expose more than a video profile: browser history, saved passwords, email notifications and account settings may also be visible. Consider using separate operating-system or browser profiles when appropriate, and keep account credentials out of shared autofill. These device-level measures complement, but do not replace, platform account controls.",
+        "Notifications can reveal account names, billing reminders or viewing-related information on a lock screen. Review notification settings on both the platform and the device. If the service offers multiple profiles, check which profile is active before playback and whether it remains selected after the app closes. Small, repeatable checks are more dependable than assuming a shared device will preserve the intended profile."
+      ]
+    },
+    {
+      "heading": "Use a decision matrix instead of relying on a profile label",
+      "paragraphs": [
+        "A simple matrix can show whether a subscription fits a household use case. Mark each area as verified, unclear or not available: permission to share, profile separation, history controls, account administration and device management. An unclear answer is not a failure, but it is a reason to avoid depending on that feature for privacy. Use current platform documentation and record when you checked it.",
+        "Choose a setup based on the level of separation you actually need. If several users need independent billing, recovery and private viewing records, a shared account profile may not be an adequate substitute for separate accounts. If you only need organized queues and the service’s rules permit the intended use, profiles may be sufficient. The key is to match the arrangement to verified controls and terms rather than to a general claim of household convenience."
+      ],
+      "bullets": [
+        "Mark access rules, profile privacy and billing control separately.",
+        "Treat undocumented behavior as unknown.",
+        "Decide who owns the account and who is responsible for renewal.",
+        "Recheck terms if the intended users or devices change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does having separate profiles mean other users cannot see my activity?",
+      "answer": "Not automatically. A profile may separate recommendations or watchlists without hiding all account activity. Check what the platform says about history, searches, settings and account-level access."
+    },
+    {
+      "question": "Are device limits the same as household-sharing rules?",
+      "answer": "No. Device or simultaneous-playback limits describe technical access, while sharing terms describe permitted use. Review both before deciding how an account will be used."
+    },
+    {
+      "question": "What should I check before using a shared television?",
+      "answer": "Check the active profile, saved login state, notification behavior and sign-out process. Also consider whether other users can open account settings or view billing and recovery information."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
