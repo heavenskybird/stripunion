@@ -1,0 +1,150 @@
+{
+  "backlogId": "adult-shop-accessibility-shopping-audit",
+  "slug": "adult-shop-accessibility-shopping-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Shopping Accessibility Before You Order",
+  "description": "Evaluate whether an adult shop’s catalog, product details, checkout, and support are accessible with your preferred device and assistive technology before ordering.",
+  "excerpt": "A shop can stock a suitable item yet make it difficult to find, compare, or order. This accessibility audit focuses on the shopping journey, not assumptions about a retailer’s tools.",
+  "keyTakeaways": [
+    "Test the full path from category browsing to checkout rather than judging accessibility from the homepage alone.",
+    "Check whether product information is available as readable text and whether important details depend only on images or color.",
+    "Evaluate keyboard navigation, zoom, focus visibility, and form error recovery on the device you plan to use.",
+    "Confirm that shipping, return, privacy, and support information can be found without completing a purchase.",
+    "Use a short task-based scorecard to compare shops against your own access needs."
+  ],
+  "sections": [
+    {
+      "heading": "Evaluate the shopping journey, not just the landing page",
+      "paragraphs": [
+        "Accessibility is practical: can you complete the tasks you need with your device, browser, settings, and assistive technology? A home page may load cleanly while category filters, product galleries, or checkout forms create barriers. Test a full route: open a category, narrow the selection, inspect a product, locate delivery and return information, and reach the point just before placing an order.",
+        "Use products or pages that do not require a purchase to conduct the comparison. Record any point where a control is difficult to identify, a page changes unexpectedly, or information is available only through an interaction your setup cannot perform. If a task cannot be completed, note what alternative the shop provides, such as a text description or support contact.",
+        "A site’s accessibility statement, if available, can help explain its approach, but it does not replace checking the tasks that matter to you. Likewise, one successful interaction does not prove that every page or feature works for every user. Keep conclusions specific to what you tested."
+      ],
+      "bullets": [
+        "Can you browse categories and use filters with your preferred input method?",
+        "Can you reach product details without relying on hover-only controls?",
+        "Can you find shipping, return, privacy, and support terms?",
+        "Can you review checkout fields and correct an error before ordering?"
+      ]
+    },
+    {
+      "heading": "Check whether product details are perceivable",
+      "paragraphs": [
+        "Product decisions often depend on details such as dimensions, materials, included components, care guidance, and compatibility. Check whether those details appear as selectable text and whether images have useful descriptions where a visual feature conveys important information. A gallery should not be the only source of a specification you need to make a decision.",
+        "Increase text size or zoom the page to see whether descriptions and controls remain usable. Look for clipped text, overlapping buttons, or a layout that requires horizontal scrolling for ordinary tasks. If you use a screen reader, check whether headings, labels, and image descriptions convey enough context to distinguish one item or option from another.",
+        "Color-coded labels and icons can help with scanning but should not be the sole way to communicate a product attribute, stock status, or selected option. When an option changes, confirm that the new state is clear through text or an accessible control label. If a detail remains uncertain, seek clarification before ordering rather than inferring from a photograph."
+      ],
+      "table": {
+        "caption": "Product-page information to assess for accessible presentation",
+        "headers": [
+          "Information",
+          "What to check"
+        ],
+        "rows": [
+          [
+            "Specifications",
+            "Are key details available as readable text?"
+          ],
+          [
+            "Images",
+            "Can you identify items and meaningful visual differences?"
+          ],
+          [
+            "Options",
+            "Can you select and confirm a variant without relying only on color?"
+          ],
+          [
+            "Care and compatibility",
+            "Are instructions and limitations easy to locate?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test navigation and controls with your setup",
+      "paragraphs": [
+        "If you use a keyboard or alternative input, move through the page in order and check that focus is visible. You should be able to identify the active link or button, open and close menus, move through filters, and return to the results without losing your place. Watch for controls that can be reached but not activated, or that become difficult to escape once opened.",
+        "For touch use, check whether controls are large and spaced enough for your preferred accuracy and whether key actions remain available when the page is zoomed. If you use voice control, check whether buttons and fields have distinct, understandable names. With assistive technology, verify that product options and form errors are announced clearly rather than being conveyed only by a change in appearance.",
+        "Test the tasks that matter to you rather than attempting to certify the site. Browser and assistive-technology combinations differ, and a shop’s pages may use different components. A focused, honest record of your own results is more useful than a broad claim that a site is accessible or inaccessible."
+      ]
+    },
+    {
+      "heading": "Inspect checkout, policies, and support before purchase",
+      "paragraphs": [
+        "Checkout is a high-consequence part of the journey because a missing label or unclear error can lead to incorrect information or an abandoned order. Before submitting anything, check whether fields have clear names, required fields are identified, and error messages explain how to fix a problem. Confirm whether you can review and correct details before final submission.",
+        "Find delivery, returns, privacy, and payment information without being forced to place an order. Check whether policy links are keyboard-accessible and readable when enlarged. If the shop provides customer support, see whether there is a contact method you can use and whether its instructions are understandable. Do not assume that a phone-only support route will meet your needs.",
+        "If an access barrier prevents you from confirming a material term, contact the retailer before paying. Ask a specific question about the information or interaction you cannot access, and keep the response with your order notes if you proceed. Support responsiveness is useful evidence about your shopping experience, but one response should not be treated as a guarantee of future service."
+      ],
+      "bullets": [
+        "Check labels, required-field indicators, and error messages.",
+        "Confirm that you can review and correct the order before submitting it.",
+        "Locate shipping and return information in an accessible form.",
+        "Identify a support route that works for you before you need help."
+      ]
+    },
+    {
+      "heading": "Build a comparison scorecard around your needs",
+      "paragraphs": [
+        "Choose a small set of tasks that reflects how you shop. For one person, the key need may be text enlargement and product descriptions; for another, it may be keyboard-only checkout or screen-reader labels. Score each task as completed, completed with difficulty, or not completed, and describe the barrier. Avoid combining unrelated observations into a single vague rating.",
+        "Compare shops using the same task set and device conditions. If you change browsers, zoom levels, or assistive technology midway through, record the change because it can affect the result. Include whether an alternative route was available, such as a clearly labelled text specification or a support response.",
+        "Use the scorecard to decide what to do next: continue browsing, ask support for missing information, or choose a retailer whose shopping path better fits your needs. Accessibility is one part of a purchasing decision alongside catalog fit, delivery terms, return conditions, privacy, and total checkout details."
+      ],
+      "table": {
+        "caption": "Simple task-based scorecard",
+        "headers": [
+          "Task",
+          "Result to record"
+        ],
+        "rows": [
+          [
+            "Find a product category",
+            "Completed, difficult, or blocked; note the control"
+          ],
+          [
+            "Compare product details",
+            "Text available, image-dependent, or unclear"
+          ],
+          [
+            "Use a filter or option",
+            "Input method tested and whether the selection was confirmed"
+          ],
+          [
+            "Review policies",
+            "Policy found and readable with your setup"
+          ],
+          [
+            "Reach checkout review",
+            "Forms usable and errors correctable before submission"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a retailer’s accessibility statement tell me whether I can use its store?",
+      "answer": "It can describe the retailer’s approach, known issues, or contact route, but it may not answer whether your specific tasks work with your device and assistive technology. Test the shopping steps that matter to you and use the statement as additional context."
+    },
+    {
+      "question": "What should I test first if I use a screen reader?",
+      "answer": "Try category navigation, product identification, key specifications, option selection, and the start of checkout. Check whether headings, form labels, buttons, and error messages convey enough information to complete those tasks without relying on visual appearance alone."
+    },
+    {
+      "question": "Should I place an order to test a shop’s accessibility?",
+      "answer": "No. You can assess much of the journey by browsing product pages, reviewing policy information, and stopping before final submission. If a material detail is inaccessible, ask the retailer for clarification before deciding whether to proceed."
+    },
+    {
+      "question": "How do I compare accessibility without overgeneralizing?",
+      "answer": "Use the same task list and device setup for each shop, record the specific result for each task, and describe what you tested. Treat the findings as a practical comparison for your needs, not as a universal certification."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
