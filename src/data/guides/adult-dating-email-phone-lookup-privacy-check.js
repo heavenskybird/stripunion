@@ -1,0 +1,115 @@
+export default {
+  "slug": "adult-dating-email-phone-lookup-privacy-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Whether Your Email or Phone Can Identify Your Profile",
+  "description": "Before joining an adult dating platform, review phone and email lookup, registration visibility, account matching, and controls that may limit discovery by people you know.",
+  "excerpt": "A profile privacy setting may not answer whether someone can find an account through a phone number or email address. Check lookup and matching controls separately before registering.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Profile visibility and lookup by email or phone are different privacy questions.",
+    "Check whether registration identifiers are hidden, searchable, or used for contact matching.",
+    "Review address-book access and identifier-based discovery as separate controls.",
+    "Use an email address and phone number only after understanding the platform's stated use of each.",
+    "If the platform does not explain lookup behavior, treat it as unknown rather than assuming your profile is unsearchable."
+  ],
+  "sections": [
+    {
+      "heading": "Separate profile visibility from identifier lookup",
+      "paragraphs": [
+        "A dating platform may offer controls over who sees a profile, but that does not necessarily answer whether another person can enter an email address or phone number to check for an account. These are distinct paths to discovery. Profile visibility settings may govern browsing or recommendations, while identifier lookup may be controlled elsewhere or not described at all.",
+        "Before registering, identify the privacy outcome you need. You may want to limit casual browsing, prevent people who already know your contact details from finding you, or keep registration details separate from profile information. These goals are not interchangeable. A setting that hides your profile from one browsing surface should not be treated as proof that every form of account matching is disabled."
+      ],
+      "bullets": [
+        "Look for wording about searching by phone number or email.",
+        "Check whether registration identifiers appear on the public profile.",
+        "Do not infer lookup behavior from a general hidden-profile option."
+      ]
+    },
+    {
+      "heading": "Read registration and account-matching explanations",
+      "paragraphs": [
+        "Review the registration screen and privacy information for a clear explanation of why the service requests an email address or phone number. Possible account functions include sign-in, recovery, verification, or notifications, but the platform should explain its own use rather than leaving you to guess. A requested identifier does not by itself establish that other members can search it.",
+        "Look specifically for terms such as contact matching, account discovery, address-book comparison, or finding people you know. If the service describes a matching feature, determine whether it is optional, whether it requires permission to access contacts, and whether it can be disabled. If the wording is unclear, record that uncertainty before entering an identifier you would rather not associate with an account."
+      ],
+      "table": {
+        "caption": "Distinguish the routes by which an account might be found",
+        "headers": [
+          "Discovery route",
+          "What to check",
+          "Do not assume"
+        ],
+        "rows": [
+          [
+            "Profile browsing",
+            "Who can view or search profiles?",
+            "That hidden browsing means contact lookup is blocked"
+          ],
+          [
+            "Email or phone lookup",
+            "Can someone enter an identifier to find an account?",
+            "That the registration identifier is always private or always public"
+          ],
+          [
+            "Contact matching",
+            "Does the service compare uploaded address books?",
+            "That denying contact permission disables every matching method"
+          ],
+          [
+            "Account suggestions",
+            "Are profiles recommended based on connections or identifiers?",
+            "That a recommendation setting also controls direct search"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review contact access and lookup separately",
+      "paragraphs": [
+        "If the app asks to access your contacts, consider whether you need that feature. Denying address-book permission can reduce one kind of data sharing, but it may not answer every question about identifier-based lookup. A platform might use contact access for a specific matching feature, while other account discovery practices are governed by different settings or service rules.",
+        "Check the operating system's permission controls as well as the app's settings. If you previously granted contact access, review whether it remains enabled and whether the platform explains how uploaded or matched contact information is handled. Do not assume that removing device permission deletes information already processed; look for a separate deletion or opt-out explanation if that matters to you."
+      ]
+    },
+    {
+      "heading": "Choose registration identifiers deliberately",
+      "paragraphs": [
+        "Where a service permits a choice of email address, consider using an address that is not prominently associated with other public accounts. This does not guarantee anonymity or prevent account linking, but it can help separate routine messages from an inbox used for other purposes. Use an email account you can access later if it is needed for login recovery or important service notices.",
+        "If a phone number is requested, first check whether it is required and what the platform says it is used for. Do not provide a number simply because a prompt appears before you have reviewed the explanation. If you decide to continue, use an identifier you are comfortable associating with the service and keep its account-recovery implications in mind. Avoid using someone else's contact information or providing inaccurate details that could create security problems."
+      ],
+      "bullets": [
+        "Identify whether each requested identifier is required or optional.",
+        "Read the stated purposes before submitting it.",
+        "Choose contact details you can maintain and recover securely."
+      ]
+    },
+    {
+      "heading": "Test privacy controls before relying on them",
+      "paragraphs": [
+        "Look for controls that explicitly address search by contact information, contact matching, or suggestions to people who know you. A setting labeled private or hidden may have a narrower effect than its name suggests. Read nearby explanatory text, and check whether the setting applies to the whole account, a particular feature, or only a limited audience.",
+        "If you create an account, review these controls before completing a detailed profile. This can reduce the chance of filling in information before discovering that the available privacy options do not meet your needs. Keep a note of the setting names and revisit them after app updates or changes to your contact information. The service may alter its interface, so confirm current controls rather than relying on a remembered menu."
+      ]
+    },
+    {
+      "heading": "Decide what to do when the answer is missing",
+      "paragraphs": [
+        "If the service does not explain whether people can find accounts using an email address or phone number, treat the behavior as unknown. You can ask customer support a focused question, review the current privacy notice, or decide not to provide the identifier. A vague statement about keeping profiles private may not resolve the specific lookup question.",
+        "Make a decision based on the privacy consequence that matters to you. If being found by someone with your contact details would be unwanted, avoid assuming a hidden-profile setting solves the problem unless the platform says so clearly. You can choose a service with more explicit controls, decline optional matching features, or not create an account. The aim is informed control, not an unsupported promise that a particular identifier can never be associated with a profile."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can other members search for my profile using my phone number?",
+      "answer": "That depends on the platform's design and settings. Check for explicit information about phone-number lookup or account matching. Do not assume that a number requested for sign-in or recovery is either searchable or automatically hidden."
+    },
+    {
+      "question": "If I deny contact access, does that prevent people I know from finding me?",
+      "answer": "Not necessarily. Denying address-book access may limit one feature, but the service may have other discovery routes or recommendations. Review the platform's explanation of contact matching and identifier lookup separately."
+    },
+    {
+      "question": "Does hiding my profile prevent email-based account lookup?",
+      "answer": "Not unless the platform says that the hidden-profile control also disables that lookup method. Profile visibility and identifier-based discovery may be governed by different settings, so check the specific wording."
+    }
+  ]
+};

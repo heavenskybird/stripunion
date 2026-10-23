@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T20:01:33.841Z",
+  "generatedAt": "2026-10-23T22:06:05.015Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-library-search-filter-validation.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-commission-adjustment-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-logged-out-profile-preview-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-billing-descriptor-verification-workflow.json",
-    "ops/editorial/content-artifacts/adult-anime-game-input-accessibility-preflight.json"
+    "ops/editorial/content-artifacts/vr-platform-sensor-data-privacy-audit.json",
+    "ops/editorial/content-artifacts/free-video-browser-notification-permission-audit.json",
+    "ops/editorial/content-artifacts/adult-games-browser-build-installation-format-comparison.json",
+    "ops/editorial/content-artifacts/adult-shop-discreet-packaging-claim-verification.json",
+    "ops/editorial/content-artifacts/adult-dating-email-phone-lookup-privacy-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-library-search-filter-validation.js",
-    "src/data/guides/webmaster-affiliate-program-commission-adjustment-audit.js",
-    "src/data/guides/creator-platform-logged-out-profile-preview-audit.js",
-    "src/data/guides/adult-platform-billing-descriptor-verification-workflow.js",
-    "src/data/guides/adult-anime-game-input-accessibility-preflight.js"
+    "src/data/guides/vr-platform-sensor-data-privacy-audit.js",
+    "src/data/guides/free-video-browser-notification-permission-audit.js",
+    "src/data/guides/adult-games-browser-build-vs-download-installation-check.js",
+    "src/data/guides/adult-shop-discreet-packaging-claim-verification.js",
+    "src/data/guides/adult-dating-email-phone-lookup-privacy-check.js"
   ],
   "categories": [
-    "premium-videos",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "hentai-anime"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "premium-video-library-search-filter-validation",
-    "webmaster-affiliate-program-commission-adjustment-audit",
-    "creator-platform-logged-out-profile-preview-audit",
-    "adult-platform-billing-descriptor-verification-workflow",
-    "adult-anime-game-input-accessibility-preflight"
+    "vr-platform-sensor-data-privacy-audit",
+    "free-video-browser-notification-permission-audit",
+    "adult-games-browser-build-installation-format-comparison",
+    "adult-shop-discreet-packaging-claim-verification",
+    "adult-dating-email-phone-lookup-privacy-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40015439421",
-  "phase": "closed"
+  "r1CycleId": "40030965317"
 }
