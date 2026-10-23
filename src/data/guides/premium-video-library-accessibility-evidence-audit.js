@@ -1,0 +1,107 @@
+export default {
+  "slug": "premium-video-library-accessibility-evidence-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Accessibility Information Before Choosing a Library",
+  "description": "A practical way to compare how premium video platforms explain accessibility features, including captions, audio options, keyboard use, and title-level details.",
+  "excerpt": "Accessibility information can vary between a platform’s overall interface and individual videos. Use this checklist to see what is documented, what needs testing, and which gaps matter to your viewing routine.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Separate accessibility features of the site or app from accessibility features available within each video.",
+    "Check whether feature descriptions apply to the whole catalog or only selected titles.",
+    "Use the same short evaluation tasks on each platform, such as finding settings and confirming a selected option remains active.",
+    "Treat missing or vague documentation as an unknown—not proof that a feature is either present or absent.",
+    "Record evidence and limitations before subscribing so you can compare practical fit rather than broad claims."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the task you need to complete",
+      "paragraphs": [
+        "Accessibility fit is not a single platform-wide rating. A video service has at least two layers to consider: the interface used to browse and manage an account, and the playback features available in a specific title. A platform might make its menus workable with a keyboard while offering limited accessibility information for the videos themselves, or the reverse. Evaluate each layer separately.",
+        "Begin with the tasks that matter in your own use. Examples include navigating the catalog without a pointer, locating captions, adjusting playback settings, understanding labels, or using the service without sound. A short, concrete task list makes comparisons more useful than a general impression that an interface feels accessible. It also prevents one successful test from being mistaken for evidence about every feature."
+      ],
+      "bullets": [
+        "Write down the specific tasks you need to perform before comparing services.",
+        "Separate interface needs from title-level playback needs.",
+        "Note whether you are evaluating a browser, app, or another supported viewing route."
+      ]
+    },
+    {
+      "heading": "Distinguish documented features from tested behavior",
+      "paragraphs": [
+        "Platform help pages and accessibility statements can identify intended support, but documentation is not the same as verified behavior in every browser, device, or title. Look for clear scope: does a statement refer to the website, a particular app, the playback player, or all of them? Check whether the information names limitations and dates or describes how to request help when a feature is unavailable.",
+        "When practical, test a sample using a low-commitment preview or other legitimate access route. Try the exact task you care about rather than simply opening a page. For instance, check whether you can reach a setting using your usual navigation method, tell when it is enabled, and return to the video without losing your place. Do not infer catalog-wide availability from one sample title."
+      ],
+      "table": {
+        "caption": "A simple evidence log keeps platform claims and your own observations distinct.",
+        "headers": [
+          "Area to assess",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Interface navigation",
+            "Where the feature is documented; whether the relevant task worked in your chosen access route."
+          ],
+          [
+            "Title-level options",
+            "Which sampled titles expose the option; whether availability is stated before playback."
+          ],
+          [
+            "Settings and feedback",
+            "How to locate a setting and tell whether a change took effect."
+          ],
+          [
+            "Limitations",
+            "Unclear scope, unsupported routes, missing information, or behavior you could not verify."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check title-level information before relying on it",
+      "paragraphs": [
+        "Catalog-level statements often describe a service in broad terms, while the viewing decision concerns a particular title. Look for title pages, playback menus, or help documentation that identify options at the individual-title level. If the service does not show this information before access, record that uncertainty and decide whether the available preview is enough to assess fit.",
+        "Use a small, representative sample rather than assuming every item behaves alike. If you expect to watch different kinds of releases or series, check more than one title and note whether the interface gives consistent information. A platform that clearly marks unknown or unavailable features may be easier to evaluate than one that makes broad claims without explaining their limits."
+      ],
+      "bullets": [
+        "Check whether feature details appear on title pages, in a player, or only in general help material.",
+        "Record the titles or access routes you actually tested.",
+        "Do not treat an unlabelled option as proof that the feature is unavailable."
+      ]
+    },
+    {
+      "heading": "Compare access routes and account boundaries",
+      "paragraphs": [
+        "A useful comparison does not require a pass-or-fail label. It can show that one platform has clear documentation, another offers a useful preview, and a third leaves important details uncertain. That is decision support: it makes the trade-off visible without claiming that a service is suitable for every person or setup."
+      ]
+    },
+    {
+      "heading": "Turn observations into a practical decision",
+      "paragraphs": [
+        "Prioritize the features that are essential for you, then separate them from preferences that would be helpful but not decisive. For each essential feature, record whether it is documented, directly tested, and available through the access route you intend to use. If any essential point remains unknown, seek clarification before paying rather than relying on a generalized marketing statement.",
+        "Keep the comparison brief and reusable. A dated note of the page reviewed, route tested, and result observed can help if platform information changes. Recheck material details before subscribing, especially when a page describes a feature without stating its scope. The goal is not to award a universal accessibility score; it is to understand whether the information and experience available to you meet your own requirements."
+      ],
+      "bullets": [
+        "Mark each need as essential, preferred, or not relevant to your use.",
+        "For essential needs, distinguish documented, tested, and unknown status.",
+        "Recheck unresolved details before making a paid commitment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform-wide accessibility statement mean every video has the same options?",
+      "answer": "Not necessarily. A statement may describe the site or app rather than every title. Check whether the platform explains title-level availability and sample more than one relevant item when possible."
+    },
+    {
+      "question": "What should I do if accessibility information is unclear?",
+      "answer": "Record the specific unanswered question and ask support for a precise answer about the interface, device route, or title you intend to use. Treat an unclear response as unresolved rather than assuming a feature is present."
+    },
+    {
+      "question": "Can a preview establish accessibility fit for an entire catalog?",
+      "answer": "No. A preview can show how a particular route and title behave, but it cannot establish that all titles or devices offer the same options. Use it as one piece of evidence and check the scope of any broader claims."
+    }
+  ]
+};
