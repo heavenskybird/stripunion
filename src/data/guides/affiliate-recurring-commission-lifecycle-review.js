@@ -1,0 +1,124 @@
+export default {
+  "slug": "affiliate-recurring-commission-lifecycle-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check How Recurring Commissions Are Earned and End",
+  "description": "A webmaster checklist for evaluating recurring affiliate commission rules, including qualifying rebills, customer cancellations, reversals, attribution continuity and statement evidence.",
+  "excerpt": "A recurring-commission headline does not explain which later events qualify. Map the customer and commission lifecycle before you build forecasts or depend on future rebills.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Distinguish an initial qualifying referral from later recurring events that may or may not earn commission.",
+    "Check what happens after cancellation, payment failure, refund, account change or attribution loss.",
+    "Identify when a commission is considered earned, approved, payable or subject to reversal.",
+    "Compare the written program terms with dashboard labels and statements, and record unresolved differences.",
+    "Model recurring revenue only from verified rules; do not assume a customer remains eligible indefinitely."
+  ],
+  "sections": [
+    {
+      "heading": "Map the lifecycle before comparing programs",
+      "paragraphs": [
+        "Recurring commission arrangements can involve more than one event: an initial referral, a first completed transaction, later renewals, account changes and eventual cancellation. A program’s general description may not specify which of these events are eligible or under what conditions. Write out the lifecycle in plain language before assessing the offer. This makes it easier to find gaps in the published terms and ask the program operator focused questions.",
+        "Keep this review distinct from the headline commission amount or referral tier. The purpose here is to understand when a repeated customer action is attributed and recognized, and what can interrupt that recognition. Do not project future income from a recurring label alone. The actual rules may depend on the written program terms, transaction status and attribution logic, and can change over time."
+      ],
+      "bullets": [
+        "List the initial referral and each later customer event that could affect commission.",
+        "Mark each event as described, unclear or not addressed in the program materials.",
+        "Record the applicable terms version and review date."
+      ]
+    },
+    {
+      "heading": "Check which recurring events qualify",
+      "paragraphs": [
+        "Look for language that defines the event that creates a commission: a completed renewal, a settled payment, continued paid access, or another specified action. Do not assume every recurring charge is treated alike. The program may distinguish a first conversion from later rebills or apply different conditions to different customer actions. If the terms use labels such as “active,” “qualified” or “retained,” find their definitions rather than supplying your own.",
+        "Ask whether eligibility depends on the original referral remaining attributable, the referred customer remaining in a particular account state, or a defined payment status. Check whether an account upgrade, downgrade, reactivation or change in billing arrangement affects the referral. If the documentation does not answer these questions, ask for a written clarification and retain it with the terms you reviewed. An answer in an informal message may be useful evidence, but it does not necessarily amend the contract."
+      ],
+      "table": {
+        "caption": "Questions to map recurring commission treatment",
+        "headers": [
+          "Customer or commission event",
+          "Question for the program",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Initial transaction",
+            "What event counts as a qualifying conversion?",
+            "Definition and transaction status required"
+          ],
+          [
+            "Later renewal",
+            "Which renewal events qualify, and what preserves attribution?",
+            "Rebill wording and attribution conditions"
+          ],
+          [
+            "Payment failure",
+            "Is a failed or later-recovered payment treated differently?",
+            "Status definitions and any recovery rule"
+          ],
+          [
+            "Refund or charge reversal",
+            "Can a previously recorded commission be reversed?",
+            "Reversal conditions and timing language"
+          ],
+          [
+            "Cancellation and reactivation",
+            "What happens if service ends and the customer later returns?",
+            "Reactivation and attribution terms"
+          ],
+          [
+            "Account or plan change",
+            "Can a change affect eligibility or commission treatment?",
+            "Relevant account-change clauses"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand timing, approval and reversals",
+      "paragraphs": [
+        "Do not infer a fixed approval period, payment schedule or reversal window unless the program’s current terms state it. Where timing is unclear, ask for the applicable rule and save the response. If the dashboard and written terms appear inconsistent, record the discrepancy and request clarification before expanding traffic."
+      ]
+    },
+    {
+      "heading": "Test whether reporting can show the lifecycle",
+      "paragraphs": [
+        "Before relying on recurring commission reporting, confirm which fields or report views let you distinguish first conversions from later events. The program might expose transaction status, event type, adjustment reason or a referral identifier, but do not assume any particular field exists. Check the documentation or a permitted test account, and record what you can actually export or review. A report that shows only a total may be insufficient for diagnosing a missing renewal or unexplained reversal.",
+        "Set a reconciliation method that respects program rules and visitor privacy. Keep the relevant program reports, statements, terms versions and support responses. Use consistent internal labels for campaign and referral records where permitted. Avoid collecting more visitor data than necessary, and do not attempt to identify individual customers beyond information the program lawfully and contractually provides. The objective is to verify aggregate business records, not to expose private customer information."
+      ],
+      "bullets": [
+        "Confirm how recurring events are distinguished from initial conversions, if at all.",
+        "Check whether reports identify pending, approved, reversed and paid states.",
+        "Save report exports and statements according to the program’s available retention rules.",
+        "Record discrepancies with date, report name and the program’s explanation."
+      ]
+    },
+    {
+      "heading": "Make a decision without assuming future earnings",
+      "paragraphs": [
+        "Compare programs on the clarity and operational fit of their recurring-event rules, not on the presence of the word “recurring.” A clear program explains eligible events, attribution conditions, status changes, reversals and the evidence available for reconciliation. An unclear rule may be manageable if the program answers questions and provides usable records; an unresolved rule is a risk you should account for rather than silently treating it as favorable.",
+        "Before committing resources, summarize the lifecycle in a one-page note: what starts commission eligibility, what preserves it, what can interrupt it, how adjustments are reported and which terms govern. Keep the summary tied to the current program documentation. If the operator changes its terms, review whether the lifecycle has changed and update your forecast assumptions. This is a decision-support process, not a prediction of earnings or a guarantee that any commission will be paid."
+      ],
+      "bullets": [
+        "Separate verified terms from assumptions and unanswered questions.",
+        "Use conservative planning that does not presume every future renewal qualifies.",
+        "Recheck the lifecycle when program terms or reporting change.",
+        "Do not rely on dashboard totals alone when transaction states are unclear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does “recurring commission” mean every future renewal earns commission?",
+      "answer": "Not necessarily. The program’s terms determine which later events qualify and whether attribution or account conditions must remain in place. Verify the specific renewal rules before making assumptions."
+    },
+    {
+      "question": "Can a recurring commission be reversed after it appears in a dashboard?",
+      "answer": "That depends on the program’s rules and the status shown. Check how it defines pending, approved and payable amounts, and review its provisions for refunds, disputes and other adjustments."
+    },
+    {
+      "question": "What should I do if the dashboard and program terms describe different rules?",
+      "answer": "Save the relevant terms and report, note the discrepancy and ask the program operator for a written explanation. Avoid building a forecast on the more favorable interpretation until the conflict is resolved."
+    }
+  ]
+};
