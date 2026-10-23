@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 external heartbeat 2026-10-23T16:58:38.185Z: last successful receipt 39982684223 admitted 2026-10-23T15:57:30.244Z; 52-minute cooldown passed; fresh Actions inventory shows zero active canonical Producer/Scheduler/Bridge writers; request exactly one guarded out-of-band Scheduler wake via Editorial heartbeat bridge.",
-  "updated_at": "2026-10-23T16:58:38.185Z"
+  "reason": "R1 external heartbeat 2026-10-23T17:55:53.093Z: receipt 39991260928 admitted 2026-10-23T16:58:59.541Z completed 2026-10-23T17:04:26.302Z; 52-minute cooldown elapsed; fresh Actions inventory shows zero active canonical Producer/Scheduler/Bridge writers; request one out-of-band Scheduler wake via trusted Editorial heartbeat bridge.",
+  "updated_at": "2026-10-23T17:55:53.093Z"
 }
