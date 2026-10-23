@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/dating-platform-membership-model-fit-audit",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-23T04:50:48.659Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-23T04:51:19.011Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6adae7c7cc1b7cdc08cf4ae0",
   "provider_due_at": "2026-10-23T06:22:00.000Z",
   "created_at": "2026-10-23T04:50:48.659Z",
-  "updated_at": "2026-10-23T05:21:28.157Z",
+  "updated_at": "2026-10-23T06:34:17.081Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 0,
     "cadence_pressure_before_enqueue": 8,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
