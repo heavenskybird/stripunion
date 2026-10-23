@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T07:32:33.901Z",
+  "generatedAt": "2026-10-23T10:20:04.419Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-license-scope-review.json",
-    "ops/editorial/content-artifacts/premium-video-sample-plan-by-viewing-use.json",
-    "ops/editorial/content-artifacts/live-cam-geolocation-permission-review.json",
-    "ops/editorial/content-artifacts/adult-platform-private-browsing-limits-guide.json",
-    "ops/editorial/content-artifacts/affiliate-recurring-commission-lifecycle-review.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-language-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-publisher-attribution-evaluation.json",
+    "ops/editorial/content-artifacts/free-video-platform-keyboard-screen-reader-usability.json",
+    "ops/editorial/content-artifacts/adult-game-content-labels-and-warning-review.json",
+    "ops/editorial/content-artifacts/adult-shop-product-specification-transparency-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-content-license-scope-review.js",
-    "src/data/guides/premium-video-subscription-sample-plan-by-viewing-use.js",
-    "src/data/guides/live-cam-platform-geolocation-permission-checklist.js",
-    "src/data/guides/adult-platform-private-browsing-and-network-visibility-guide.js",
-    "src/data/guides/affiliate-recurring-commission-lifecycle-review.js"
+    "src/data/guides/vr-adult-platform-language-fit-audit.js",
+    "src/data/guides/adult-anime-publisher-attribution-evaluation.js",
+    "src/data/guides/free-video-platform-keyboard-screen-reader-usability.js",
+    "src/data/guides/adult-game-content-labels-and-warning-review.js",
+    "src/data/guides/adult-shop-product-specification-transparency-check.js"
   ],
   "categories": [
-    "creator-platforms",
-    "premium-videos",
-    "live-cams",
-    "privacy-safety-payment",
-    "webmaster-affiliate"
+    "vr-ar",
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "creator-platform-license-scope-review",
-    "premium-video-sample-plan-by-viewing-use",
-    "live-cam-geolocation-permission-review",
-    "adult-platform-private-browsing-limits-guide",
-    "affiliate-recurring-commission-lifecycle-review"
+    "vr-adult-platform-language-fit-audit",
+    "adult-anime-publisher-attribution-evaluation",
+    "free-video-platform-keyboard-screen-reader-usability",
+    "adult-game-content-labels-and-warning-review",
+    "adult-shop-product-specification-transparency-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39918036111",
-  "phase": "closed"
+  "r1CycleId": "39938112577"
 }

@@ -1,0 +1,117 @@
+{
+  "backlogId": "adult-game-content-labels-and-warning-review",
+  "slug": "adult-game-content-labels-and-warning-review",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Content Labels and Warnings Before Choosing a Storefront",
+  "description": "Compare how adult game storefronts display content labels, warnings, and filtering choices so you can decide whether their information is clear enough for your needs.",
+  "excerpt": "Labels and warnings are only useful when their scope is clear and the controls are understandable. This checklist helps compare how game platforms communicate content information before you download or buy.",
+  "keyTakeaways": [
+    "Check whether labels are attached to individual games or presented only as broad storefront categories.",
+    "Look for explanations of what warnings mean and whether labels are supplied by the publisher, storefront, or community.",
+    "Test whether filters hide, reduce, or merely sort results before relying on them.",
+    "Treat missing or unclear labels as uncertainty rather than proof that a game contains or excludes a particular theme.",
+    "Compare warning visibility on listings, detail pages, and community posts separately."
+  ],
+  "sections": [
+    {
+      "heading": "Treat labels and warnings as decision information",
+      "paragraphs": [
+        "A storefront’s content labels can help a buyer decide what to explore, avoid, or investigate further. Their usefulness depends on more than the number of labels shown. A reader needs to know what a label describes, where it comes from, whether it applies to an individual game, and how to adjust the browsing experience. A broad category label may help with initial orientation but may not provide enough detail for a specific purchase decision.",
+        "This assessment is not a judgment about a game’s quality or a substitute for a platform’s policies. It is a way to determine whether the information is clear enough for your own preferences. Keep in mind that different storefronts may use different terms, and the same word may not have the same scope everywhere. Compare definitions and examples rather than assuming that labels are standardized."
+      ]
+    },
+    {
+      "heading": "Find out who supplies the information",
+      "paragraphs": [
+        "Check whether a label or warning is attributed to the game publisher, the storefront, reviewers, or community members. The source affects how you should interpret it. A platform-provided label may follow a stated policy; a publisher description may reflect the creator’s own categorization; community tags can be useful but may vary in consistency. If the source is not explained, mark that uncertainty instead of assuming a particular review process.",
+        "Look for a policy or help page that defines the label system and explains how to raise an error. Note whether the explanation covers individual game pages, store categories, and community-generated material. A storefront may apply different rules to each surface. Clear definitions do not guarantee perfect accuracy, but they make the platform’s approach easier to understand and compare."
+      ],
+      "bullets": [
+        "Is the source of each label identified?",
+        "Are key terms defined in plain language?",
+        "Does the policy explain user or publisher reports?",
+        "Are community tags distinguished from storefront labels?"
+      ]
+    },
+    {
+      "heading": "Inspect label placement and scope",
+      "paragraphs": [
+        "Check where content information appears: search results, game detail pages, purchase screens, community discussions, or downloadable files. A warning that is visible only after opening a page may be less useful to someone who needs to decide from a listing. Conversely, a compact search label may not explain its meaning until the detail page. Record where information appears and whether the scope is clear before you rely on it.",
+        "Ask whether a label applies to the complete game, a particular version, a demo, or a specific update. If the platform does not explain the scope, do not infer that every part of a product has been reviewed equally. A storefront can change its interface or label conventions, so compare current screens and avoid relying on an old screenshot or an informal summary."
+      ],
+      "table": {
+        "caption": "Questions for evaluating game content information",
+        "headers": [
+          "Check",
+          "What to look for",
+          "How to interpret gaps"
+        ],
+        "rows": [
+          [
+            "Source",
+            "Publisher, platform, or community attribution",
+            "Unknown source means the label's basis is unclear"
+          ],
+          [
+            "Definition",
+            "A clear explanation of the term",
+            "Do not assume a label has a universal meaning"
+          ],
+          [
+            "Placement",
+            "Visibility in listings and detail pages",
+            "Record where you must navigate to find it"
+          ],
+          [
+            "Scope",
+            "Whether the label applies to a game, version, or update",
+            "Treat unspecified scope as unresolved"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test filters before depending on them",
+      "paragraphs": [
+        "If the storefront offers content filters, check what each setting does and whether the effect is described. A filter may hide results, reduce their prominence, or change sorting; those outcomes are not interchangeable. Try a reversible setting and observe how the listing changes, but do not assume that one test proves every category is handled identically. Record the label, the control name, and the observed effect.",
+        "Also check whether settings apply to search, recommendations, community pages, or only one part of the store. A control that affects one screen may not change other surfaces. If the platform asks you to sign in before showing preferences, note that requirement as part of your comparison. Do not interpret a filter as a guarantee that all unwanted material will be excluded unless the platform clearly states its scope."
+      ]
+    },
+    {
+      "heading": "Compare storefronts with a consistent checklist",
+      "paragraphs": [
+        "Choose a small set of relevant categories and examine the same kinds of pages on each storefront. Record whether labels are present, defined, attributed, and visible before a purchase decision. Then test the available filter controls and note which sections appear to be affected. This approach produces actionable comparisons without inventing a score or assuming that one platform’s terminology is equivalent to another’s.",
+        "Use explicit evidence language in your notes: “definition found,” “source not stated,” “filter effect observed on search results,” or “scope not clear.” That is more reliable than calling a system comprehensive or incomplete based on a few examples. If the information is central to your choice and remains unclear, consider contacting the platform or publisher through a published support route before relying on the listing."
+      ],
+      "bullets": [
+        "Compare the same page types and label categories.",
+        "Separate platform labels from community tags.",
+        "Record the observed effect of each filter.",
+        "Recheck important information on the current listing before purchase."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a content label guarantee that a game has been reviewed?",
+      "answer": "Not unless the storefront explains its process and scope. Check who supplied the label and what the platform says it represents."
+    },
+    {
+      "question": "If a filter is enabled, can I assume all matching results are hidden?",
+      "answer": "No. A filter may affect only certain pages or change sorting rather than remove results. Check the platform’s explanation and observe its behavior."
+    },
+    {
+      "question": "What does it mean if a game has no warning or label?",
+      "answer": "It means you did not find a warning in the place you checked. It does not establish that a particular theme is absent or that the game was assessed."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
