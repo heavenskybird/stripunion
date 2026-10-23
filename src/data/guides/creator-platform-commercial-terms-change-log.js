@@ -1,0 +1,112 @@
+export default {
+  "slug": "creator-platform-commercial-terms-change-log",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Track Commercial-Term Changes Before They Affect Your Business",
+  "description": "Build a practical change log for creator-platform fees, payout rules, account controls and content terms so you can spot operational changes early.",
+  "excerpt": "Platform terms can affect revenue, access, rights and daily workflows. A dated change log helps creators distinguish a meaningful policy change from a routine notice and decide what to review next.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Keep dated copies of the terms and policy pages that affect your account, rather than relying on memory or a notification alone.",
+    "Separate changes to fees, payment handling, content rights, account rules and discovery so each change has a clear operational owner.",
+    "Record the effective date and any action deadline stated by the platform; do not assume a notice date is the same as a change date.",
+    "Use a written response plan for changes that affect revenue, content access or account continuity.",
+    "A change log is an organizational aid, not a substitute for reading current platform terms or obtaining professional advice where needed."
+  ],
+  "sections": [
+    {
+      "heading": "Why a change log matters for a creator business",
+      "paragraphs": [
+        "A creator platform can be part of several connected workflows: publishing, fan communication, membership access, billing, reporting and account administration. A change to one policy may therefore require more than a quick read. For example, a revised payment process could affect how you reconcile statements, while a change to account rules could affect the way a team member performs routine work. Without a record of what changed and when, it is easy to overlook the practical consequence.",
+        "A change log does not need to predict every possible risk. Its purpose is to make decisions traceable. Record the notice, the affected workflow, the date it takes effect and the next action you chose. This helps you compare the new language with the prior version and explain later why you updated a workflow, paused an activity or decided that no immediate action was needed."
+      ],
+      "bullets": [
+        "Keep a copy of the notice and the relevant policy text, including the page title and the date you accessed it.",
+        "Mark whether the change is proposed, already effective or awaiting clarification.",
+        "Assign one person to review each notice if more than one person helps operate the account."
+      ]
+    },
+    {
+      "heading": "Sort notices by the business area they affect",
+      "paragraphs": [
+        "First classify a notice by subject rather than by the channel through which it arrived. A message in an account inbox may concern commercial terms, security, content rules or a new interface. Those categories call for different review steps. Useful headings include payment and deductions, payout documentation, content rights, membership access, account and identity controls, discovery or promotion, and reporting or data access.",
+        "Some notices affect more than one area. A change to a payment provider, for instance, may involve both payment processing and the records you use to reconcile revenue. Record the primary subject and any linked workflows. This avoids treating every notice as a general policy update and makes it easier to find earlier decisions about the same subject."
+      ],
+      "table": {
+        "caption": "A simple structure for classifying a platform notice",
+        "headers": [
+          "Area to review",
+          "Questions to record"
+        ],
+        "rows": [
+          [
+            "Commercial terms",
+            "Which fee, deduction, transaction or account term is changing?"
+          ],
+          [
+            "Payments and records",
+            "Does the notice affect payment timing, available statements or documentation?"
+          ],
+          [
+            "Content and access",
+            "Does it change permitted use, content availability, licensing or member access?"
+          ],
+          [
+            "Account controls",
+            "Does it alter permissions, verification, security or account status procedures?"
+          ],
+          [
+            "Discovery and reporting",
+            "Does it affect how content is surfaced or what account data can be reviewed?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare the new terms with the previous version",
+      "paragraphs": [
+        "Do not rely on a short notification summary when the underlying policy is available. Read the current text and compare it with the prior version you saved. Focus on changed definitions, exceptions, deadlines, responsibilities and cross-references. A small wording change can matter if it changes which transactions or content are covered. If the platform provides a revision date or a list of changes, record it, but still check the sections that apply to your account.",
+        "Keep facts separate from interpretation. Write down what the text says, then add a clearly labeled note about the operational effect you think it may have. If wording is unclear, identify the precise question rather than guessing. This distinction is useful when asking support for clarification, consulting an adviser or reviewing the issue later after more information is available."
+      ],
+      "bullets": [
+        "Record the old and new wording or retain dated copies that allow a direct comparison.",
+        "Note defined terms, exceptions and references to other policy pages.",
+        "Write unresolved questions separately from confirmed changes."
+      ]
+    },
+    {
+      "heading": "Turn a policy change into an operational decision",
+      "paragraphs": [
+        "Once the change is understood, identify what needs to happen in your own operation. A change may require updating bookkeeping categories, revising a team procedure, changing a customer-service response, reviewing content already published or simply filing the notice for reference. Avoid making unnecessary changes before you understand the effective date and scope. Equally, avoid leaving a material change unassigned because it appears administrative.",
+        "For consequential changes, define a decision point and an owner. The decision could be to continue under the revised terms, seek clarification, adjust a workflow, reduce dependence on a particular platform feature or prepare an orderly transition. This guide does not determine which choice is right; the choice depends on your business, the actual terms and your risk tolerance. Preserve the reasoning and the documents that informed it."
+      ]
+    },
+    {
+      "heading": "Use a repeatable review cadence and escalation path",
+      "paragraphs": [
+        "Check platform notices through the account’s official communication channels and review the relevant policy pages when a notice points to a change. A predictable review routine reduces the chance that an important update is buried among routine messages. Keep access to the records limited to people who need them, especially if the log includes financial, identity or account-security details.",
+        "Escalate a change when you cannot determine its scope, when it affects money or content rights, or when an action deadline is unclear. Ask focused questions and save the response with the related notice. If the issue could have tax, contract or other legal consequences, consider qualified professional guidance. A platform support response can clarify platform procedures, but it should not be treated as a guarantee about outcomes outside the platform."
+      ],
+      "bullets": [
+        "Review notices on a recurring schedule and promptly when an account warning or deadline arrives.",
+        "Use a secure, backed-up location for dated notices and policy copies.",
+        "Track status as open, clarified, action required or closed, with the date of the last review."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How much detail should a creator put in a platform change log?",
+      "answer": "Enough to identify the notice, affected policy, effective date, operational impact, decision owner and next action. Keep sensitive account details out of a broadly shared log; link to securely stored records when necessary."
+    },
+    {
+      "question": "Should I act as soon as a platform announces a change?",
+      "answer": "Not automatically. First determine whether the notice is a proposal, a future change or an effective change, and read the applicable terms. If the notice sets a deadline or requires a specific action, record that and address it promptly."
+    },
+    {
+      "question": "Can a support reply replace reviewing the written terms?",
+      "answer": "A support reply may help explain a procedure or clarify an ambiguity, but keep the written terms and the reply together. If the change raises substantial business or legal questions, consider advice from an appropriately qualified professional."
+    }
+  ]
+};

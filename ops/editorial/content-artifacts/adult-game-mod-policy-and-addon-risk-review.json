@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-game-mod-policy-and-addon-risk-review",
+  "slug": "adult-game-mod-policy-and-addon-risk-review",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Mod Policies and Third-Party Add-Ons Before Installing",
+  "description": "Evaluate an adult game’s mod rules, add-on sources, version compatibility and support boundaries before modifying files or installing community tools.",
+  "excerpt": "Mods and add-ons can change a game’s files, settings or online behavior. This checklist helps players distinguish documented support from community instructions and assess the practical risks before proceeding.",
+  "keyTakeaways": [
+    "Check whether the developer or storefront documents mod support, restricts modifications or is silent on the subject.",
+    "Treat third-party tools and files as separate from the game’s official installation and support path.",
+    "Confirm the game version, add-on version, dependencies and removal instructions before making changes.",
+    "Back up saves and settings only through methods you understand and that the platform permits.",
+    "Do not assume a community recommendation guarantees safety, compatibility or continued support."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the game’s documented mod position",
+      "paragraphs": [
+        "A game’s availability on a storefront does not establish that every modification is supported. Look for developer documentation, storefront rules, help pages or community guidelines that explain whether mods are permitted, discouraged or unsupported. Check whether the information applies to the particular game and version you use. A general statement about a platform or community may not answer the rules for a specific title.",
+        "Separate permission from technical support. A developer may permit community modifications while not troubleshooting problems caused by them, or the rules may impose limits on where files can come from or how they are used. If the position is unclear, treat it as unresolved and seek clarification through an official channel. Avoid relying on an informal post as if it were a binding or comprehensive policy statement."
+      ],
+      "bullets": [
+        "Find the current game-specific guidance and note its date or version.",
+        "Check whether the storefront or developer distinguishes offline changes from online or shared features.",
+        "Record any stated restrictions before following installation instructions."
+      ]
+    },
+    {
+      "heading": "Assess the source and purpose of an add-on",
+      "paragraphs": [
+        "A mod is a separate file or tool that may come from a developer, a community repository or an individual creator. The source, purpose and distribution method matter. Read the page that describes the add-on, identify its author and version, and check whether the publisher explains what files or settings it changes. Be cautious of instructions that ask you to disable device protections, provide account credentials or run an unexplained executable.",
+        "Do not infer safety from a download page’s appearance or from positive comments alone. Community feedback can help you identify common installation issues, but it does not verify that a file is safe, current or compatible with your setup. Prefer sources with clear version information, change notes and removal instructions. If an add-on’s purpose or behavior is not explained in terms you understand, do not install it until you have better information."
+      ]
+    },
+    {
+      "heading": "Check version fit and dependencies before changing files",
+      "paragraphs": [
+        "Compatibility often depends on more than the game title. A mod may require a particular game build, another add-on, a specific loader or a configuration change. Read the installation notes for the exact version and confirm that the information matches your current game. If the page lists known conflicts or prerequisites, write them down before installing anything. Adding several modifications at once can make it difficult to identify which one caused a problem.",
+        "Use a staged approach where the game and platform rules allow it: record the original setup, install one change at a time and test whether the game starts and loads the expected save. This does not guarantee compatibility, but it makes troubleshooting more manageable. Avoid replacing or deleting files unless the instructions explain what they are and how to restore the original state. If you cannot identify the affected files or reverse the steps, the installation process may be too risky for your current setup."
+      ],
+      "table": {
+        "caption": "Pre-installation questions for a game mod or add-on",
+        "headers": [
+          "Check",
+          "What to establish"
+        ],
+        "rows": [
+          [
+            "Policy",
+            "Whether modifications are allowed, limited or unsupported for this title"
+          ],
+          [
+            "Source",
+            "Who provides the file and whether the purpose and version are documented"
+          ],
+          [
+            "Compatibility",
+            "Which game build, dependencies and tools are required"
+          ],
+          [
+            "Data changes",
+            "Whether saves, settings or game files may be changed"
+          ],
+          [
+            "Removal",
+            "How to undo the change and what to do if the game no longer launches"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect saves, settings and account access",
+      "paragraphs": [
+        "Before changing a game installation, determine where saves and configuration files are stored and how the platform handles backups or synchronization. Do not assume that a cloud copy is current, complete or independent of local changes. Follow the platform’s documented backup process where available, and avoid making manual copies of files you cannot identify or are not permitted to copy.",
+        "Keep mod tools separate from account credentials. A legitimate mod workflow should not require you to disclose a password to an unknown third party. Review any requested permissions and consider whether the tool needs the access it asks for. If installation instructions involve an account sign-in, an external launcher or broad device permissions, verify those requests through trustworthy documentation before proceeding. Protecting the account is especially important because a game modification and platform account are separate systems."
+      ]
+    },
+    {
+      "heading": "Plan for updates, conflicts and removal",
+      "paragraphs": [
+        "A game update can change the files or behavior on which a mod depends. Before updating, check whether the add-on’s maintainer has posted version information and whether the game’s own guidance describes a recommended process. Avoid assuming that an add-on will continue to work after an update. If a game offers automatic updating, consider whether you want to review the mod’s compatibility notes before launching the updated version.",
+        "Keep a concise record of what you installed, where it came from, the version and how to remove it. If the game behaves unexpectedly, use that record to undo the most recent change rather than adding more tools in an attempt to fix an unknown cause. If the developer does not support modified installations, return to the documented unmodified setup before contacting official support, where the platform’s rules permit. This makes it easier to explain the issue without implying that community modifications are part of the official game."
+      ],
+      "bullets": [
+        "Install one add-on at a time when practical and retain its removal instructions.",
+        "Recheck compatibility after game or tool updates.",
+        "Keep a record of the original setup and the changes you made."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a mod hosted in a community space have developer approval?",
+      "answer": "Not necessarily. Check the game-specific developer guidance and storefront rules. A community hosting location does not by itself establish official approval or support."
+    },
+    {
+      "question": "Can I use a mod after the game updates?",
+      "answer": "Only if the mod’s documentation and the game’s current behavior support that version. Check compatibility notes and dependencies before launching with the modified setup."
+    },
+    {
+      "question": "What should I do if a mod installation breaks a save or prevents launch?",
+      "answer": "Stop making additional changes, consult the add-on’s documented removal or recovery steps, and use only backup methods you understand and are permitted to use. If the game’s official support excludes modified installations, restore the documented unmodified setup before seeking help."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
