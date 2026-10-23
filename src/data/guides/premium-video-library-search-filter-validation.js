@@ -1,0 +1,136 @@
+export default {
+  "slug": "premium-video-library-search-filter-validation",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Libraries: Test Search and Filters Before Choosing a Subscription",
+  "description": "Use a repeatable test set to see whether a premium video library’s search, filters and result labels help you find the kinds of titles you want.",
+  "excerpt": "A large catalog is not useful if its search tools make relevant titles hard to find. Test a few realistic queries, filter combinations and result pages before deciding whether a library suits you.",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "keyTakeaways": [
+    "Test search using several different query styles rather than relying on one successful result.",
+    "Check whether filters can be combined, cleared and understood without losing your place.",
+    "Compare displayed result details with the title page before treating a result as a match.",
+    "Record search limitations separately from catalog-size impressions; they affect whether you can use the library efficiently.",
+    "Use the same small test set across platforms so your comparison reflects your own discovery needs."
+  ],
+  "sections": [
+    {
+      "heading": "Why test search separately from catalog breadth",
+      "paragraphs": [
+        "A platform may advertise or display a broad library, yet finding a relevant title can still be difficult. Search quality, filter design and clear result labels shape the everyday usefulness of a catalog. This is a separate question from whether the platform has enough content or whether its titles are organized into series and collections.",
+        "A short, repeatable test helps distinguish a catalog gap from a search problem. If a known title does not appear, it may be absent, indexed under a different name, hidden by a filter, or difficult to surface. Treat those possibilities as separate observations instead of concluding that one search result proves the library’s overall breadth."
+      ],
+      "bullets": [
+        "Choose a few searches that reflect how you would actually look for titles.",
+        "Include one exact title or creator name, one broader topic or category, and one query using a likely alternate term.",
+        "Note when a result is ambiguous, incomplete or hard to distinguish from similarly named entries."
+      ]
+    },
+    {
+      "heading": "Build a small, fair test set",
+      "paragraphs": [
+        "Before comparing platforms, write down a handful of searches you can repeat. Keep the list small enough to use on every candidate, but varied enough to test common discovery paths. Include a search where you know what result you expect and another where you would rely on categories or descriptive terms.",
+        "Avoid designing a test around one platform’s vocabulary. A term that works on one service may not be the label another uses. Record the exact query and whether you tried a reasonable alternative. The goal is to learn how each library responds to your needs, not to reward a platform for matching a specially chosen phrase."
+      ],
+      "table": {
+        "caption": "A practical search test set for comparing libraries",
+        "headers": [
+          "Test",
+          "What to try",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Known-item search",
+            "A title or publisher name you already know",
+            "Whether the result appears, and how clearly it is identified"
+          ],
+          [
+            "Broad search",
+            "A general term you would naturally use",
+            "Whether results are relevant or difficult to narrow"
+          ],
+          [
+            "Category browse",
+            "A relevant category or subject label",
+            "Whether the category is visible and meaningfully scoped"
+          ],
+          [
+            "Filter combination",
+            "Apply two available filters together",
+            "Whether the result set changes as expected and filters remain visible"
+          ],
+          [
+            "Recovery test",
+            "Clear filters or return to results",
+            "Whether you can restart without losing your place"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how search results communicate uncertainty",
+      "paragraphs": [
+        "A result card should give you enough information to decide whether to open it. Look for distinct titles, creator or publisher attribution where available, and a concise description of what the listing represents. Similar names, repeated thumbnails or missing details make it harder to tell whether a result is a match or a near-duplicate.",
+        "When the result page and title page disagree, record the discrepancy rather than guessing which is correct. The listing might summarize a collection while the title page describes one entry, or a search term might match text that is not central to the title. Verify meaningful details on the title page before using search results to assess a platform’s coverage."
+      ],
+      "bullets": [
+        "Check whether the result card identifies a single title, a collection or another type of listing.",
+        "Notice if a search term appears highlighted or explained in context.",
+        "Record missing or conflicting details as a usability issue, not as proof that a title is absent."
+      ]
+    },
+    {
+      "heading": "Evaluate filters as a workflow, not a feature list",
+      "paragraphs": [
+        "A platform can list many filters without making them useful. Test whether the available controls help you narrow results, whether their labels are understandable, and whether selecting a filter produces an observable change. If a filter is unclear or appears to do nothing, note that uncertainty instead of assuming it is broken or comprehensive.",
+        "Try combining filters and then removing only one. This reveals whether the interface shows what is active and whether you can adjust your search without starting over. Also check how the platform handles an empty result set: useful guidance or a clear way to remove filters can save time, while a blank page may leave you unsure whether the query, filters or catalog caused the problem."
+      ],
+      "bullets": [
+        "Can you see which filters are active?",
+        "Can you remove one filter without clearing the rest?",
+        "Does an empty result offer a practical next step?",
+        "Can you return to your prior results after opening a title?"
+      ]
+    },
+    {
+      "heading": "Compare platforms with a consistent scorecard",
+      "paragraphs": [
+        "Use a simple record with one row per test and separate columns for relevance, clarity and effort. A result can be relevant but difficult to identify; a filter can be easy to operate but offer little useful refinement. Keeping those judgments separate prevents a single positive impression from masking a friction point that would matter during regular use.",
+        "If you compare a free preview with an account-only area, mark which tests were possible in each access state. Do not treat an inaccessible feature as evidence of poor performance; record it as unknown. A careful comparison distinguishes what you observed from what you could not verify, which makes your decision more reliable and keeps the scorecard useful if you revisit it later."
+      ],
+      "bullets": [
+        "Use the same queries and steps for each platform.",
+        "Mark results as observed, unclear or not testable.",
+        "Keep notes about the exact wording of confusing controls.",
+        "Give the most weight to tests that match your own search habits."
+      ]
+    },
+    {
+      "heading": "Turn the test into a decision",
+      "paragraphs": [
+        "A search test does not need a complicated numerical ranking. Decide which tasks matter most to you: finding known titles, browsing broad subjects, narrowing results, or recognizing the right listing before opening it. A platform that handles your priority tasks clearly may be a better practical fit than one that looks comprehensive but requires repeated trial and error.",
+        "Before subscribing, review any search limitations you noted alongside membership terms and the content you could inspect. Search behavior can change, and a small test is only a snapshot of what you could access at the time. Keep the date and access state with your notes so you do not confuse a limited preview with a full catalog assessment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many searches should I use to compare premium video libraries?",
+      "answer": "There is no required number. A small set of varied, repeatable searches is usually more useful than many searches chosen at random. Include a known item, a broad query, a category browse and a filter test, then add anything central to your own viewing habits."
+    },
+    {
+      "question": "What if a title does not appear in search?",
+      "answer": "Treat that as an unresolved observation. Try a reasonable alternate spelling or category, check whether filters are active, and look for a collection or alternate listing. If you still cannot find it, record that the search did not surface it; do not assume the platform has no related content."
+    },
+    {
+      "question": "Can a free preview tell me how the full library search works?",
+      "answer": "Only for the parts you can access. Record whether a search or filter was available in the preview and mark inaccessible features as unknown. Do not infer that the preview exposes every catalog entry or control."
+    },
+    {
+      "question": "Should I score search quality with a single number?",
+      "answer": "You can, but separate notes about relevance, clarity and effort are more actionable. A single score may hide whether the issue was missing results, confusing labels or difficulty recovering from a filter."
+    }
+  ]
+};
