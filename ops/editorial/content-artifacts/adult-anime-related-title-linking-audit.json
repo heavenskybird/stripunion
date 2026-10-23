@@ -1,0 +1,144 @@
+{
+  "backlogId": "adult-anime-related-title-linking-audit",
+  "slug": "adult-anime-platform-related-title-linking-audit",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Check How Related Titles and Adaptations Are Linked",
+  "description": "Assess whether an adult anime platform clearly connects related titles, adaptations and series entries, so you can discover a catalog without confusing lookalike listings.",
+  "excerpt": "Related-title recommendations can help you navigate anime catalogs—or make it hard to tell what is actually connected. Check the links, labels and evidence before relying on them.",
+  "keyTakeaways": [
+    "Treat “related” as a platform label to verify, not proof that two listings share a publisher, series or adaptation relationship.",
+    "Check whether title pages explain the connection between linked entries.",
+    "Distinguish verified series or adaptation information from recommendation-driven similarity.",
+    "Record ambiguous links and use clear titles, credits or official catalog details to resolve them."
+  ],
+  "sections": [
+    {
+      "heading": "Why related-title links need interpretation",
+      "paragraphs": [
+        "Anime catalogs can contain original works, adaptations, alternate editions, spin-offs and items that merely share broad tags. A “related” or “more like this” link may help discovery, but the label can describe similarity rather than a documented relationship. If you are building a reading or viewing list, treating every linked result as part of the same series can produce a misleading shortlist.",
+        "Start by asking what relationship you need to identify. You may want the next entry in a series, a screen adaptation of a particular work, another work from the same publisher or simply recommendations with similar catalog tags. Those are different discovery jobs. A platform that explains the basis of a link makes it easier to choose the correct path; a link without context should remain a lead, not a conclusion."
+      ],
+      "bullets": [
+        "Define whether you are seeking a sequel, adaptation, shared publisher or similar recommendation",
+        "Keep recommendation links separate from confirmed catalog relationships",
+        "Check the title page for an explanation of why an item is linked"
+      ]
+    },
+    {
+      "heading": "Inspect the evidence on title pages",
+      "paragraphs": [
+        "When two entries appear connected, compare their visible metadata. Look for consistent series names, volume or episode numbering, adaptation labels, credits, publisher information and release details where supplied. A clear shared identifier is more useful than a thumbnail or tag alone. If the platform gives no relationship details, record what is missing rather than filling the gap based on similar artwork or wording.",
+        "Check whether a page links to a source or provides a stable catalog identifier. Avoid assuming that a title translation, romanization or shortened display name is unique. Similar names can refer to different works, while one work may appear under more than one title. Use the platform’s own details and, where available, publisher information to confirm identity before treating a recommendation as a continuation or adaptation."
+      ],
+      "table": {
+        "caption": "Interpret common relationship clues carefully",
+        "headers": [
+          "Clue",
+          "What it may support",
+          "What it does not prove alone"
+        ],
+        "rows": [
+          [
+            "Same series name and numbering",
+            "A possible sequence within a series",
+            "That the platform’s listing is complete"
+          ],
+          [
+            "Adaptation label with credits",
+            "A stated adaptation relationship",
+            "That every related listing is the same edition"
+          ],
+          [
+            "Same publisher or creator credit",
+            "A shared publisher or credited contributor",
+            "That two works share a story or series"
+          ],
+          [
+            "Similar tags or recommendation placement",
+            "A discovery suggestion",
+            "A formal relationship between titles"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate series paths from recommendations",
+      "paragraphs": [
+        "A useful catalog should let you distinguish a formal series path from personalized or category-based suggestions. Check whether the platform groups numbered entries together and whether it labels recommendations as recommendations. If the interface uses one undifferentiated “related” area, inspect individual entries before adding them to a sequence. Do not rely on display order alone to determine reading or viewing order.",
+        "If you are comparing platforms, test the same known title on each one and note how each service presents its relationships. Record whether the page identifies a series, lists order, links adaptations or simply offers similar items. This is a method for comparing catalog clarity, not a claim that any one platform’s system is complete. Missing links may reflect missing metadata rather than an absent title."
+      ],
+      "bullets": [
+        "Look for explicit series names and sequence indicators",
+        "Distinguish recommendation panels from structured series navigation",
+        "Do not infer chronological or release order from page placement"
+      ]
+    },
+    {
+      "heading": "Handle ambiguous titles and alternate listings",
+      "paragraphs": [
+        "When two listings seem to describe the same work, compare the details rather than selecting the first match. Check the displayed title, credited contributors, publisher, edition or version notes, and any stable identifier. A translated title may differ across listings, and a catalog may use aliases inconsistently. If key details conflict or are missing, avoid merging the entries in your own list until you can confirm the relationship.",
+        "For adaptations, look for a direct statement that one entry adapts another, along with any identifying credits. A shared franchise or creator may be relevant but does not by itself establish that two listings are direct adaptations. Keep a note of the source of each relationship you accept. This helps you revisit uncertain matches if the platform updates its catalog or changes the title page."
+      ],
+      "table": {
+        "caption": "A small relationship-check record",
+        "headers": [
+          "Record",
+          "Example of a useful note"
+        ],
+        "rows": [
+          [
+            "Listing identifiers",
+            "Exact displayed titles and any catalog IDs"
+          ],
+          [
+            "Relationship claimed",
+            "Series entry, adaptation, publisher link or recommendation"
+          ],
+          [
+            "Evidence shown",
+            "Credits, numbering, explicit label or source link"
+          ],
+          [
+            "Confidence",
+            "Confirmed from details, plausible, or unresolved"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a discovery workflow that avoids false connections",
+      "paragraphs": [
+        "Use search and related-title tools to generate candidates, then verify each candidate against the title page. Keep separate lists for confirmed series entries and unverified recommendations. If your goal is breadth rather than sequence, tag suggestions by the reason they appeared—such as shared category or contributor—when the platform states it. If the reason is not stated, label it as an unexplained recommendation.",
+        "Finally, compare platforms on clarity rather than raw link volume. Useful signals include explicit relationship labels, stable title details, visible ordering and a way to report or correct inaccurate metadata. Do not assume that a larger recommendation panel is more accurate. If a relationship matters to your decision and the platform provides no supporting details, treat that as a limitation in the catalog information and seek confirmation before relying on it."
+      ],
+      "bullets": [
+        "Use recommendations to discover candidates, not to establish relationships",
+        "Keep confirmed sequences separate from unverified suggestions",
+        "Prefer platforms that explain links and provide usable title details"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a “related title” label mean the item is part of the same series?",
+      "answer": "Not necessarily. The label may describe a formal series connection, shared metadata or a recommendation. Check for explicit series information, numbering or other supporting details."
+    },
+    {
+      "question": "How can I tell whether an anime listing is an adaptation?",
+      "answer": "Look for an explicit adaptation statement and relevant credits or source information. Shared tags, artwork or creator names can be clues, but they do not prove a direct adaptation by themselves."
+    },
+    {
+      "question": "What should I do when two listings have similar titles?",
+      "answer": "Compare the exact title, credits, publisher, edition notes and any stable identifiers. If important details are missing or conflict, keep the entries separate until the relationship is clear."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

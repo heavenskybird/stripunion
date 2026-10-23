@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T15:03:33.381Z",
+  "generatedAt": "2026-10-23T15:59:30.455Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-recurring-order-terms-audit.json",
-    "ops/editorial/content-artifacts/live-cam-account-closure-and-data-exit-checklist.json",
-    "ops/editorial/content-artifacts/creator-platform-tax-documentation-readiness.json",
-    "ops/editorial/content-artifacts/affiliate-program-payee-tax-documentation-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-in-app-call-privacy-checklist.json"
+    "ops/editorial/content-artifacts/premium-video-preview-representativeness-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-virtual-card-payment-controls.json",
+    "ops/editorial/content-artifacts/vr-adult-saved-items-control-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-related-title-linking-audit.json",
+    "ops/editorial/content-artifacts/free-video-account-feature-boundaries-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-recurring-order-terms-audit.js",
-    "src/data/guides/live-cam-account-closure-and-data-exit-checklist.js",
-    "src/data/guides/creator-platform-tax-documentation-readiness.js",
-    "src/data/guides/affiliate-program-payee-tax-documentation-audit.js",
-    "src/data/guides/dating-platform-in-app-call-privacy-checklist.js"
+    "src/data/guides/premium-video-preview-representativeness-audit.js",
+    "src/data/guides/adult-platform-virtual-card-payment-controls.js",
+    "src/data/guides/vr-adult-platform-favorites-queues-and-saved-items-audit.js",
+    "src/data/guides/adult-anime-platform-related-title-linking-audit.js",
+    "src/data/guides/free-video-platform-account-feature-boundaries-check.js"
   ],
   "categories": [
-    "adult-shops",
-    "live-cams",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "dating-hookups"
+    "premium-videos",
+    "privacy-safety-payment",
+    "vr-ar",
+    "hentai-anime",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-recurring-order-terms-audit",
-    "live-cam-account-closure-and-data-exit-checklist",
-    "creator-platform-tax-documentation-readiness",
-    "affiliate-program-payee-tax-documentation-audit",
-    "dating-platform-in-app-call-privacy-checklist"
+    "premium-video-preview-representativeness-audit",
+    "adult-platform-virtual-card-payment-controls",
+    "vr-adult-saved-items-control-audit",
+    "adult-anime-related-title-linking-audit",
+    "free-video-account-feature-boundaries-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39974676713",
-  "phase": "closed"
+  "r1CycleId": "39982684223"
 }
