@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T10:20:04.419Z",
+  "generatedAt": "2026-10-23T12:10:10.236Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-language-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-publisher-attribution-evaluation.json",
-    "ops/editorial/content-artifacts/free-video-platform-keyboard-screen-reader-usability.json",
-    "ops/editorial/content-artifacts/adult-game-content-labels-and-warning-review.json",
-    "ops/editorial/content-artifacts/adult-shop-product-specification-transparency-check.json"
+    "ops/editorial/content-artifacts/adult-device-cloud-sync-trace-audit.json",
+    "ops/editorial/content-artifacts/affiliate-attribution-window-definition-audit.json",
+    "ops/editorial/content-artifacts/premium-video-purchase-access-after-membership-audit.json",
+    "ops/editorial/content-artifacts/live-cam-account-gate-access-map.json",
+    "ops/editorial/content-artifacts/dating-platform-off-platform-contact-boundary-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-language-fit-audit.js",
-    "src/data/guides/adult-anime-publisher-attribution-evaluation.js",
-    "src/data/guides/free-video-platform-keyboard-screen-reader-usability.js",
-    "src/data/guides/adult-game-content-labels-and-warning-review.js",
-    "src/data/guides/adult-shop-product-specification-transparency-check.js"
+    "src/data/guides/adult-platform-device-cloud-sync-and-file-trace-audit.js",
+    "src/data/guides/affiliate-program-attribution-window-and-crediting-rules-audit.js",
+    "src/data/guides/premium-video-membership-cancellation-and-purchased-title-access-audit.js",
+    "src/data/guides/live-cam-platform-account-requirements-access-stage-checklist.js",
+    "src/data/guides/adult-dating-platform-off-platform-contact-and-privacy-boundaries.js"
   ],
   "categories": [
-    "vr-ar",
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "premium-videos",
+    "live-cams",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "vr-adult-platform-language-fit-audit",
-    "adult-anime-publisher-attribution-evaluation",
-    "free-video-platform-keyboard-screen-reader-usability",
-    "adult-game-content-labels-and-warning-review",
-    "adult-shop-product-specification-transparency-check"
+    "adult-device-cloud-sync-trace-audit",
+    "affiliate-attribution-window-definition-audit",
+    "premium-video-purchase-access-after-membership-audit",
+    "live-cam-account-gate-access-map",
+    "dating-platform-off-platform-contact-boundary-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "39938112577",
-  "phase": "closed"
+  "r1CycleId": "39951032154"
 }

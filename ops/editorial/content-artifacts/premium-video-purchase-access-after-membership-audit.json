@@ -1,0 +1,124 @@
+{
+  "backlogId": "premium-video-purchase-access-after-membership-audit",
+  "slug": "premium-video-membership-cancellation-and-purchased-title-access-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Access: Check What Happens to Purchased Titles After Membership Ends",
+  "description": "Before subscribing or cancelling, distinguish membership access from separately purchased titles, then verify account, device and retention conditions in writing.",
+  "excerpt": "A library can combine membership viewing and one-time purchases. Map each access type separately so you know what cancellation changes—and what the platform’s terms actually promise.",
+  "keyTakeaways": [
+    "Separate subscription-included viewing from rentals, purchases and other one-time entitlements.",
+    "Check whether one-time access depends on an active account, a particular app, region or playback method.",
+    "Treat download availability as distinct from ongoing access rights.",
+    "Save purchase records and verify account-closure consequences before deleting an account."
+  ],
+  "sections": [
+    {
+      "heading": "Make an inventory of access types",
+      "paragraphs": [
+        "A platform library may place titles available through a membership beside titles offered as rentals or one-time purchases. Similar catalog screens do not mean the access rights are the same. Membership access commonly depends on the plan remaining active, while other access types may have their own duration, device or account conditions. The platform’s actual terms, not the placement of a title in a library, determine the distinction.",
+        "Before subscribing, create a short inventory of titles or features that matter to you and record how each is accessed. Check whether a title is included in the plan, offered as a separate transaction, or available through more than one route. If the interface is unclear, do not infer ownership from words such as “buy” or “library”; find the terms defining access and what can happen if the account is closed or the title is withdrawn."
+      ],
+      "bullets": [
+        "Mark each relevant title as membership, rental, purchase or unclear.",
+        "Record the plan or transaction associated with each access type.",
+        "Do not treat a catalog listing as proof of permanent access."
+      ]
+    },
+    {
+      "heading": "Read the terms for access after cancellation",
+      "paragraphs": [
+        "Cancelling a membership and closing an account are different actions. A membership cancellation may end plan-based viewing at a stated point, while a separate purchase could remain attached to the account under its own conditions. Account closure may have broader consequences. Review the terms for each action independently, including the effective date, remaining access, and any conditions on continued account availability.",
+        "Look for what happens if a title is removed from the service, a payment is reversed, the account becomes inaccessible or the platform changes its delivery method. Terms may describe limits or exceptions that are easy to miss in a short checkout summary. If you need a specific purchased title to remain accessible, ask support a precise question about that title’s entitlement and the result of cancelling the membership, rather than relying on a general statement about the library."
+      ],
+      "table": {
+        "caption": "Access questions to resolve before making a change",
+        "headers": [
+          "Access type",
+          "Question to verify",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Membership-included title",
+            "When does access end after cancellation?",
+            "Plan terms and cancellation confirmation"
+          ],
+          [
+            "Rental",
+            "How long is viewing available and when does the period start?",
+            "Transaction receipt and rental terms"
+          ],
+          [
+            "One-time purchase",
+            "What account, device or service conditions apply?",
+            "Purchase receipt and entitlement terms"
+          ],
+          [
+            "Downloaded copy",
+            "Does the download expire or require account verification?",
+            "Download conditions and device notes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish purchases, downloads and playback permissions",
+      "paragraphs": [
+        "A title described as purchased may still have technical or contractual conditions on playback. It might require an active account, an approved application or periodic verification. A download can be an offline convenience rather than a portable file that remains playable indefinitely. Check whether the terms describe local storage, expiration, device limits or region restrictions before assuming a download will preserve access after cancellation.",
+        "Review the playback path you actually use: browser, mobile app, television app or another supported device. Verify whether any downloaded copy is tied to that app or account and whether it can be restored after replacing a device. Do not attempt to bypass technical restrictions. If long-term access matters, identify the official support and recovery route and keep transaction information available."
+      ],
+      "bullets": [
+        "Check whether a download is temporary, app-bound or subject to periodic verification.",
+        "Confirm whether replacing a device affects restoration or redownload options.",
+        "Keep a purchase receipt and account identifier in a private record."
+      ]
+    },
+    {
+      "heading": "Plan cancellation without losing useful records",
+      "paragraphs": [
+        "Before cancelling, identify the account that controls the membership and any separate purchase receipts. If billing is managed through a third party, the cancellation route may differ from the platform’s account settings; check the relevant billing channel without assuming that one cancellation action ends every entitlement. Preserve the confirmation and note the effective date, especially if access is meant to continue until the end of a period.",
+        "Do not close the account simply to stop a recurring membership unless you have checked the separate account-closure terms. If you intend to delete the account, ask whether purchase records or access rights are affected and whether a data or transaction record should be saved first. Keep only the records you need, in a secure place, and avoid sharing screenshots that expose unrelated account details."
+      ],
+      "bullets": [
+        "Confirm whether cancellation and account deletion are separate steps.",
+        "Save receipts, confirmation messages and the effective date before deleting anything.",
+        "Check the billing provider’s cancellation instructions if a third party manages payment."
+      ]
+    },
+    {
+      "heading": "Use a decision checklist for future subscriptions",
+      "paragraphs": [
+        "A useful comparison records more than the advertised membership library. For each platform, note the plan-based access rule, how separately purchased titles are identified, what happens after membership cancellation, what happens after account closure, and whether offline playback has separate conditions. Record the source of each answer—terms, account screen or support response—so that a clear rule is not confused with an assumption.",
+        "Use your own likely use case to weigh the result. If you only need temporary access to a membership catalog, the end-of-membership date may be the key detail. If you make one-time purchases, account continuity, receipts and device recovery may matter more. If the platform does not clearly distinguish entitlements, treat that uncertainty as a meaningful selection factor and ask for clarification before paying."
+      ],
+      "bullets": [
+        "Compare access terms separately for memberships, rentals and purchases.",
+        "Note where each answer came from and when you checked it.",
+        "Treat unclear access conditions as unresolved, not as a promise of continued access."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does cancelling a video membership automatically remove separately purchased titles?",
+      "answer": "It depends on the platform’s terms and the type of entitlement. Membership cancellation and account closure can have different effects. Check the terms for each access type and save relevant purchase records before making changes."
+    },
+    {
+      "question": "Does downloading a title mean I can keep watching it after cancellation?",
+      "answer": "Not necessarily. A download may be app-bound, time-limited or subject to account verification. Review the offline-access conditions and do not assume that a downloaded copy is permanent or portable."
+    },
+    {
+      "question": "What should I ask support if a purchase and membership appear together?",
+      "answer": "Ask whether the specific title is included through the membership or separately purchased, what cancellation changes, whether account closure affects it, and what device or playback conditions apply. Keep the written response with the purchase record."
+    }
+  ],
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
