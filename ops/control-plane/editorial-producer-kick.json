@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 hourly resilience check 2026-10-22: latest receipt success for run 39705958525, newest Scheduler 39708449345 safely skipped on backoff, no active writer; GitHub scheduler cron missed fresh admission after 52m. Trigger one fresh scheduler wake only; do not touch receipt or bypass admission.",
-  "updated_at": "2026-10-22T02:42:46.509Z"
+  "reason": "One controlled R1 scheduler wake following Hostinger production redeploy and safe rearm of existing five-guide recovery batch. Reuse original pending checkpoint and require online fingerprint verification before close; no new content generation.",
+  "updated_at": "2026-10-24T10:58:00.000Z"
 }
