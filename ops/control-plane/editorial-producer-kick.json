@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded cadence wake 2026-10-24T12:03:55.994Z: isolated receipt run 40088234711 success (admitted 2026-10-24T11:01:50.960Z, finished 2026-10-24T11:04:01.740Z, attempts=2); 52-minute cooldown elapsed, latest canonical main Scheduler run 40090881623 completed at 2026-10-24T11:41:10Z with no new admission, latest Actions inventory shows no active Producer/Scheduler writer. Bot branch previous kick 2026-10-24T07:01:25.600Z is >15 minutes old. Request exactly ONE fresh out-of-band bridge wake on bot branch; no historical rerun or main change.",
-  "updated_at": "2026-10-24T12:03:55.994Z"
+  "reason": "R1 guarded cadence wake 2026-10-24T12:59:35Z: isolated receipt run 40092407709 success (admitted 2026-10-24T12:04:18.675Z, finished 2026-10-24T12:09:06.699Z, attempts=1); 52-minute cooldown elapsed at 2026-10-24T12:56:18.675Z. Latest canonical main Scheduler run 40094824122 completed at 2026-10-24T12:39:35Z with R1_ADMISSION skip/backoff and no new admission. Fresh 100-run Actions inventory shows no active Producer/Scheduler writer. Previous bot kick 2026-10-24T12:03:55.994Z is >15 minutes old. Request exactly ONE fresh out-of-band bridge wake on bot branch; no historical rerun or main change.",
+  "updated_at": "2026-10-24T12:59:35Z"
 }
