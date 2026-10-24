@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T23:09:48.264Z",
+  "generatedAt": "2026-10-24T00:41:45.599Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-language-fit-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-account-email-change-continuity.json",
-    "ops/editorial/content-artifacts/adult-platform-contact-email-separation-plan.json",
-    "ops/editorial/content-artifacts/creator-platform-independent-content-archive-workflow.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-payout-calendar-planning.json"
+    "ops/editorial/content-artifacts/adult-anime-platform-format-fit-comparison.json",
+    "ops/editorial/content-artifacts/free-video-moderation-transparency-evaluation.json",
+    "ops/editorial/content-artifacts/adult-game-edition-and-addon-entitlement-check.json",
+    "ops/editorial/content-artifacts/adult-shop-return-eligibility-policy-comparison.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-region-and-device-storefront-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-platform-language-fit-comparison.js",
-    "src/data/guides/premium-video-account-email-change-continuity-checklist.js",
-    "src/data/guides/adult-platform-contact-email-separation-and-recovery-plan.js",
-    "src/data/guides/creator-platform-independent-content-archive-workflow.js",
-    "src/data/guides/webmaster-affiliate-payout-calendar-planning.js"
+    "src/data/guides/adult-anime-platform-format-fit-comparison.js",
+    "src/data/guides/free-video-moderation-transparency-evaluation.js",
+    "src/data/guides/adult-game-edition-and-addon-entitlement-check.js",
+    "src/data/guides/adult-shop-return-eligibility-policy-comparison.js",
+    "src/data/guides/vr-adult-platform-region-and-device-storefront-fit.js"
   ],
   "categories": [
-    "live-cams",
-    "premium-videos",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "webmaster-affiliate"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "live-cam-language-fit-comparison",
-    "premium-video-account-email-change-continuity",
-    "adult-platform-contact-email-separation-plan",
-    "creator-platform-independent-content-archive-workflow",
-    "webmaster-affiliate-payout-calendar-planning"
+    "adult-anime-platform-format-fit-comparison",
+    "free-video-moderation-transparency-evaluation",
+    "adult-game-edition-and-addon-entitlement-check",
+    "adult-shop-return-eligibility-policy-comparison",
+    "vr-adult-platform-region-and-device-storefront-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40037487320",
-  "phase": "closed"
+  "r1CycleId": "40046061178"
 }
