@@ -11138,7 +11138,7 @@
       "intent": "Adult Platform Privacy: Check Third-Party Login and Account Linking",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -11151,7 +11151,7 @@
       "intent": "Adult Dating Platforms: Evaluate Verification Badges Before Trusting a Profile",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -11164,7 +11164,7 @@
       "intent": "Live Cam Platforms on Mobile: Test Usability Before Creating an Account",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -11177,7 +11177,7 @@
       "intent": "Premium Video Platforms: Check Audio Description Availability Before Joining",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -11190,7 +11190,7 @@
       "intent": "Free Video Platforms: Find Reporting and Content-Removal Routes Before Browsing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
