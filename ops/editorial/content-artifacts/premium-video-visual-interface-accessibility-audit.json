@@ -1,0 +1,114 @@
+{
+  "backlogId": "premium-video-visual-interface-accessibility-audit",
+  "slug": "premium-video-visual-interface-accessibility-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Visual Accessibility Before Subscribing",
+  "description": "Compare premium video interfaces for text resizing, contrast, zoom, focus visibility, and readable controls before you choose a subscription.",
+  "excerpt": "A platform's catalog may fit your interests while its menus and controls remain difficult to use. Test visual interface details before committing to a membership.",
+  "keyTakeaways": [
+    "Evaluate the browsing interface and playback controls separately from the content itself.",
+    "Test text enlargement, browser zoom, contrast, and focus visibility on the devices you use.",
+    "Check whether key actions remain understandable without relying on color alone.",
+    "Record specific barriers and ask support targeted questions before subscribing."
+  ],
+  "sections": [
+    {
+      "heading": "Assess the interface, not just the library",
+      "paragraphs": [
+        "A platform can offer a suitable library yet still be difficult to navigate. Visual accessibility affects tasks such as reading plan terms, finding a title, changing playback settings, and locating cancellation controls. Treat these as separate parts of the evaluation. A catalog preview tells you little about whether menus, labels, and buttons are comfortable for you to see and use.",
+        "Make a short list of the tasks you expect to perform: browse categories, search, read title details, start playback, adjust settings, and manage an account. Test each task using the same device and display conditions you normally use. If an interface works only when viewed at one particular size or in one browser, note that limitation rather than assuming the experience will be consistent everywhere."
+      ],
+      "bullets": [
+        "Test browsing, playback, account settings, and subscription controls.",
+        "Use the devices and display settings you rely on.",
+        "Distinguish a content-access issue from an interface-readability issue."
+      ]
+    },
+    {
+      "heading": "Check text size, scaling, and zoom behavior",
+      "paragraphs": [
+        "Try enlarging text through the browser or device settings and observe whether menus remain usable. Look for labels that become clipped, buttons that overlap, or content that requires awkward horizontal scrolling. An interface may look readable at its default size but become difficult when enlarged; the reverse can also happen if controls are too small before scaling.",
+        "Check common pages rather than a single landing screen. Navigation menus, search results, title descriptions, sign-in forms, and billing pages may use different layouts. If the service provides a mobile app as well as a website, assess them separately because text scaling or layout behavior may differ. Do not assume that a setting on one device carries over to another."
+      ],
+      "table": {
+        "caption": "Visual interface checks to record during a preview",
+        "headers": [
+          "Check",
+          "What to try",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Text size",
+            "Increase text or browser zoom",
+            "Whether labels remain complete and readable"
+          ],
+          [
+            "Contrast",
+            "Review menus, labels, and controls",
+            "Any text or icons that become hard to distinguish"
+          ],
+          [
+            "Focus visibility",
+            "Navigate interactive elements using a keyboard",
+            "Whether the current control is easy to locate"
+          ],
+          [
+            "Color dependence",
+            "Look for status or selection cues",
+            "Whether meaning is also shown with text, shape, or an icon"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for contrast and cues that do not rely on color alone",
+      "paragraphs": [
+        "Text and control boundaries need to remain distinguishable from their backgrounds in the situations that matter to you. Review small labels, secondary buttons, selected menu items, and playback controls, not only large headings. A colorful design can still be hard to interpret if important elements blend into their surroundings or are distinguished only by subtle shade changes.",
+        "Check how the interface communicates errors, selected filters, and playback states. Color can be one useful signal, but it should not be the only way to recognize an important state. Look for text labels, shapes, icons, outlines, or other visible cues. If a control is ambiguous, note exactly where the problem occurs so a support question can be specific."
+      ]
+    },
+    {
+      "heading": "Test keyboard focus and control visibility",
+      "paragraphs": [
+        "If you use a keyboard or another input method that moves focus between controls, check whether the active item is visibly highlighted. Move through navigation, search results, playback controls, and account settings. A focus indicator that is faint, obscured, or absent can make it difficult to know which action will occur when you select a control.",
+        "Also inspect controls during playback. Buttons may fade after a period of inactivity or appear only when the pointer moves. Check whether they can be revealed reliably and whether their icons or labels are large and distinct enough for your needs. If the site offers settings for control display, captions, or interface appearance, verify how to reach them before assuming they will solve a particular barrier."
+      ]
+    },
+    {
+      "heading": "Turn observations into a subscription decision",
+      "paragraphs": [
+        "Write down what worked, what required an adjustment, and what remained difficult. Describe the task rather than making a broad judgment: for example, whether you could increase the text size on the plan page without losing access to the navigation. This makes comparisons between platforms clearer and gives customer support a concrete question to answer.",
+        "Use public previews or account-free pages when available, but remember that they may not expose every screen. Ask support whether the specific interface behavior you need is supported, and request an answer tied to the website, app, or device you plan to use. If an essential task cannot be evaluated before subscribing, include that uncertainty in your decision and avoid treating a general accessibility statement as proof that every screen will fit."
+      ],
+      "bullets": [
+        "Keep a short scorecard of tasks and observed barriers.",
+        "Ask support about a named page, device, and accessibility need.",
+        "Recheck essential account controls before relying on a paid membership."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I judge visual accessibility from a platform's marketing page?",
+      "answer": "Only partly. A marketing page may not show search, playback, account settings, or billing screens. Test the specific tasks you expect to use, and mark any screens you cannot preview as unknown."
+    },
+    {
+      "question": "Should I test the website and mobile app separately?",
+      "answer": "Yes, if you may use both. Layout, text scaling, and control behavior can differ between a website and an app, or between devices. Evaluate the version you plan to use."
+    },
+    {
+      "question": "What should I ask customer support?",
+      "answer": "Ask about a specific barrier and task, such as whether text enlargement remains usable on a named account page. Include the device or access method relevant to your decision and keep the response."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
