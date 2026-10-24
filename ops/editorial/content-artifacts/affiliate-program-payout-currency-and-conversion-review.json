@@ -1,0 +1,119 @@
+{
+  "backlogId": "affiliate-program-payout-currency-and-conversion-review",
+  "slug": "affiliate-program-payout-currency-and-conversion-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Compare Payout Currency and Conversion Rules Before You Commit",
+  "description": "Assess affiliate payout currency, conversion timing, settlement records and possible intermediary costs before building a program into your cash-flow plan.",
+  "excerpt": "A commission balance and the amount that reaches your account may be expressed in different currencies. Compare the rules and records before relying on a program.",
+  "keyTakeaways": [
+    "Identify the currency used to calculate commissions, the currency used for settlement and the currency received by your payment provider.",
+    "Find out when and how any currency conversion is performed, and whether the terms identify who sets the conversion basis.",
+    "Check which exchange, transfer or intermediary costs may apply without assuming the program or payment provider covers them.",
+    "Preserve statements and conversion details so you can reconcile program records with received funds."
+  ],
+  "sections": [
+    {
+      "heading": "Separate commission currency from the currency received",
+      "paragraphs": [
+        "An affiliate dashboard may present a balance in one currency while a settlement is sent in another. The receiving bank or payment service may then display a further conversion or deduction. These are separate stages, and a single headline currency label may not explain them all. Before comparing programs, write down the currency used for reporting, the currency used for settlement and the currency in which your account receives funds.",
+        "This distinction is useful even if you operate in only one country or expect to work with a single program. Currency handling affects bookkeeping, revenue comparisons and the amount you can reconcile against a statement. It also helps prevent a misleading comparison between a dashboard figure and a bank deposit that has passed through a separate conversion process."
+      ],
+      "bullets": [
+        "List each currency involved from reported commission through received funds.",
+        "Keep balances, settlement notices and receiving-account records as separate evidence."
+      ]
+    },
+    {
+      "heading": "Find the conversion point and the rule behind it",
+      "paragraphs": [
+        "Look for the point at which a balance is converted: when a commission is recorded, when a payment is approved, when funds are sent or when the receiving institution processes them. The terms may specify a conversion method, refer to a payment provider or leave the exact operational detail unclear. Do not fill gaps with assumptions based on a dashboard display or an old payment.",
+        "Ask whether the program explains the date used for conversion, the source or basis used and how the result appears in reporting. If the documentation does not answer these questions, record the unanswered points for program support before making a forecast. A useful comparison focuses on documented mechanics, not a guessed exchange rate or a single past transaction."
+      ],
+      "table": {
+        "caption": "Currency and settlement questions to compare across programs",
+        "headers": [
+          "Stage",
+          "Question to document",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Commission reporting",
+            "Which currency is used to show credited activity?",
+            "Dashboard export or statement."
+          ],
+          [
+            "Payment approval",
+            "Does approval use the displayed currency or another settlement currency?",
+            "Terms and payment notice."
+          ],
+          [
+            "Transfer",
+            "Who initiates conversion, and when does it occur?",
+            "Settlement record and transfer details."
+          ],
+          [
+            "Receipt",
+            "Does the receiving institution show a conversion or separate charge?",
+            "Account statement and provider record."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Identify possible costs without assuming who absorbs them",
+      "paragraphs": [
+        "Currency conversion and fund transfer can involve costs at different points in a payment chain. The relevant terms may come from the affiliate program, a payment processor, an intermediary or your receiving institution. Determine which source governs each part rather than treating every deduction as a program fee. Also check whether the program describes a minimum payment amount or a method-specific limitation separately from currency handling.",
+        "For comparison, list each possible charge as confirmed, not stated or not applicable based on documentation available to you. Do not enter an invented percentage or assume that a displayed balance is net of all costs. If a provider's terms are separate from the affiliate agreement, save both versions and note the date checked. This provides a more reliable operational picture than relying on a verbal summary."
+      ],
+      "bullets": [
+        "Record whether transfer, conversion or intermediary charges are described by each party.",
+        "Distinguish a stated cost from an amount that is simply not disclosed.",
+        "Check whether payment-method changes alter the relevant terms."
+      ]
+    },
+    {
+      "heading": "Build records that reconcile statements to deposits",
+      "paragraphs": [
+        "Keep a payment record that connects the program's reported balance to the amount received. A practical record includes the reporting period, balance currency, amount approved, settlement currency, send date, receipt date and the receiving statement reference. If a conversion is involved, retain the conversion details supplied by the program or payment provider. This does not guarantee a perfect match, but it helps you identify which step explains a difference.",
+        "When you find a discrepancy, compare records in sequence rather than treating it as one unexplained payment problem. First verify the commission balance, then the amount approved, then the amount sent, and finally the amount credited after any receiving-provider processing. Note any unresolved difference and ask the appropriate party for the specific missing detail. Keep original records alongside your own calculations."
+      ]
+    },
+    {
+      "heading": "Compare programs with a currency-fit scorecard",
+      "paragraphs": [
+        "A program's currency model may fit your operation even if it is not the same as another program's model. The useful decision depends on your reporting currency, accounting workflow, receiving options and tolerance for uncertainty. Compare the clarity of the rules and the availability of records before you compare projected earnings. A transparent process is easier to forecast and reconcile than one where the conversion point is unknown.",
+        "Use the same questions for every candidate program. Mark each answer confirmed, unclear or not suitable, then give more weight to the details that matter for your business. If you operate across currencies, consult an appropriate accounting professional about your recordkeeping needs; the program's interface alone may not answer how you should report income."
+      ],
+      "bullets": [
+        "Can I identify the currency used for commissions and settlement?",
+        "Do I know where conversion occurs and which records document it?",
+        "Are possible transfer or intermediary costs described by the responsible provider?",
+        "Can I reconcile an approved amount to the amount received?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the dashboard balance necessarily the amount I will receive?",
+      "answer": "Not necessarily. Settlement currency, conversion and receiving-provider processing may affect the final record. Compare the program's balance with payment notices and your receiving account statement."
+    },
+    {
+      "question": "What if a program does not state its conversion method?",
+      "answer": "Treat the method as unknown. Ask the program for the specific rule and retain its answer. Do not use a past payment as a guaranteed guide to future conversions."
+    },
+    {
+      "question": "Should I compare programs using the displayed commission balance?",
+      "answer": "Use it as one input, not as a complete comparison. Document currency, settlement mechanics and any separately stated costs before evaluating how a program fits your operation."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
