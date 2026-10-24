@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T13:03:10.709Z",
+  "generatedAt": "2026-10-24T14:32:30.325Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-domain-authenticity-preflight.json",
-    "ops/editorial/content-artifacts/adult-games-offline-dependency-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-backorder-substitution-terms-audit.json",
-    "ops/editorial/content-artifacts/affiliate-program-inactivity-clause-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-interaction-boundary-controls.json"
+    "ops/editorial/content-artifacts/adult-platform-third-party-login-privacy-review.json",
+    "ops/editorial/content-artifacts/adult-dating-verification-badge-evidence-review.json",
+    "ops/editorial/content-artifacts/live-cam-mobile-usability-fit-audit.json",
+    "ops/editorial/content-artifacts/premium-video-audio-description-availability-audit.json",
+    "ops/editorial/content-artifacts/free-video-content-reporting-and-removal-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-domain-authenticity-checklist.js",
-    "src/data/guides/adult-games-offline-play-and-service-dependency-check.js",
-    "src/data/guides/adult-shop-backorders-and-substitutions-checklist.js",
-    "src/data/guides/affiliate-program-inactivity-and-dormant-account-terms.js",
-    "src/data/guides/creator-platform-fan-interaction-boundary-controls-guide.js"
+    "src/data/guides/adult-platform-third-party-login-privacy-review.js",
+    "src/data/guides/adult-dating-verification-badge-evidence-review.js",
+    "src/data/guides/live-cam-mobile-usability-fit-audit.js",
+    "src/data/guides/premium-video-audio-description-availability-audit.js",
+    "src/data/guides/free-video-content-reporting-and-removal-workflow.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "webmaster-affiliate",
-    "creator-platforms"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "live-cams",
+    "premium-videos",
+    "free-videos"
   ],
   "backlogIds": [
-    "free-video-domain-authenticity-preflight",
-    "adult-games-offline-dependency-preflight",
-    "adult-shop-backorder-substitution-terms-audit",
-    "affiliate-program-inactivity-clause-audit",
-    "creator-platform-fan-interaction-boundary-controls"
+    "adult-platform-third-party-login-privacy-review",
+    "adult-dating-verification-badge-evidence-review",
+    "live-cam-mobile-usability-fit-audit",
+    "premium-video-audio-description-availability-audit",
+    "free-video-content-reporting-and-removal-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40096241165",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "40102788201"
 }

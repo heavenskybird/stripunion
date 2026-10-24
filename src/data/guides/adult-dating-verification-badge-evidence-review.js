@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-dating-verification-badge-evidence-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Evaluate Verification Badges Before Trusting a Profile",
+  "description": "Learn what a dating-profile verification badge may and may not establish, what evidence to check, and how to protect your privacy when deciding whether to connect.",
+  "excerpt": "A badge can be a useful signal, but its meaning depends on the platform's process. Learn how to assess the claim without treating verification as proof of identity, intent or safety.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Read the platform's explanation of what each badge verifies and how recently it was checked.",
+    "Separate proof of account control or a completed check from proof of real-world identity, intentions or trustworthiness.",
+    "Look for a clear way to report a badge that appears misleading or no longer fits the profile.",
+    "Do not send identity documents or off-platform payments because a profile displays a badge.",
+    "Use conversation boundaries and platform safety tools regardless of verification status."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what the badge means",
+      "paragraphs": [
+        "Dating platforms use different labels and processes, so a badge has no universal meaning. It might indicate that a person completed a particular in-app check, confirmed control of an account or provided information that the platform reviewed. It may not establish a legal name, current location, relationship status, intentions or suitability for an offline meeting. The platform's own explanation is the starting point for judging the signal.",
+        "Look for a specific description rather than relying on the badge design or nearby words such as verified, authentic or trusted. Check whether the platform explains what evidence it asks for, who reviews it, whether the check is repeated and what the badge does not mean. If the explanation is missing or broad, treat the badge as limited evidence rather than a guarantee. Avoid inferring more than the service says it checked."
+      ],
+      "bullets": [
+        "Find the help article or in-app explanation for the exact badge type.",
+        "Note what the check confirms and what it explicitly excludes.",
+        "Check whether badges can expire, be removed or require renewal."
+      ],
+      "table": {
+        "caption": "Separate a badge claim from conclusions it cannot establish on its own",
+        "headers": [
+          "Possible platform claim",
+          "Do not automatically infer"
+        ],
+        "rows": [
+          [
+            "A specified check was completed",
+            "That every profile detail is accurate."
+          ],
+          [
+            "The account passed a platform process",
+            "That the person has safe intentions or is compatible."
+          ],
+          [
+            "A profile met a stated requirement at one point",
+            "That the information remains current."
+          ],
+          [
+            "A platform displays a badge",
+            "That the account cannot be impersonated or compromised."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the evidence and process behind the signal",
+      "paragraphs": [
+        "Useful verification information should explain the process in understandable terms. Look for the kind of information involved, whether the check is automated or reviewed by people, and whether the platform says how long records are kept. You do not need to collect another user's private evidence; the goal is to understand the platform's claim and decide how much weight to give it.",
+        "Consider whether the badge is attached to a particular check or to the entire account. A profile may be verified in one narrow sense while other details remain user-provided. Also check whether the process applies consistently or whether different badge types have different meanings. If the platform uses a vague symbol without a clear explanation, do not assume its scope. Treat uncertainty as a reason to keep normal boundaries, not as a reason to investigate someone beyond the platform."
+      ],
+      "bullets": [
+        "Look for the date or validity period if the platform provides one.",
+        "Distinguish information checked by the service from information entered by the profile owner.",
+        "Avoid asking another user to disclose documents or sensitive personal details to prove a badge."
+      ]
+    },
+    {
+      "heading": "Use the badge as one input, not a decision rule",
+      "paragraphs": [
+        "A verification mark is one piece of account information. Your decision to message or meet should also reflect the conversation, your preferences and the platform's safety guidance. Notice whether the person respects a reasonable pace, answers ordinary questions consistently and accepts boundaries. A badge cannot substitute for your own judgment, and a lack of a badge does not by itself establish deception. People may choose not to complete a process for privacy or accessibility reasons.",
+        "Be cautious if someone uses a badge to demand trust, request money, pressure you to move quickly or persuade you to ignore discomfort. Those actions deserve attention regardless of the profile's status. Keep communication on-platform until you are comfortable with the next step, and do not share financial details, access codes or documents as a response to a verification claim. If the conversation feels coercive, use the platform's block or report features."
+      ],
+      "bullets": [
+        "Keep your personal boundaries the same for verified and unverified profiles.",
+        "Do not use a badge as a reason to send money or sensitive information.",
+        "Pause or end a conversation if someone uses verification to pressure you."
+      ]
+    },
+    {
+      "heading": "Protect your own information during verification",
+      "paragraphs": [
+        "If you choose to verify your own profile, read what information the process requests before beginning. Identify whether the check asks for an image, a camera action, a phone number or other sensitive data, and review how the platform says it uses and retains that material. Check whether completion is optional, whether the resulting badge is visible to others and whether the process can be withdrawn. Avoid uploading documents through links sent by another user or through a page whose authenticity you have not confirmed.",
+        "Make the choice on a device and account you control. Do not use another person's identity materials, and do not disclose verification codes to anyone who contacts you. If the platform's explanation does not answer a material privacy question, pause and contact official support through a route you reached independently. You can decide that a feature is not worth the data requested; a profile badge is not a requirement for every person's dating choices."
+      ],
+      "bullets": [
+        "Review data use, retention, visibility and withdrawal details before starting.",
+        "Use only the platform's own account settings or verified help route.",
+        "Never share a one-time login or verification code with another user."
+      ]
+    },
+    {
+      "heading": "Know how to report a misleading or concerning badge",
+      "paragraphs": [
+        "If a profile appears to misuse a badge or impersonate someone, use the reporting route provided by the platform. Explain the observable issue in factual terms rather than making claims you cannot support. Keep relevant details within the service where possible, and avoid reposting another person's profile or private information elsewhere. A report is a request for review; it does not guarantee a particular decision or disclose the platform's investigation.",
+        "Before reporting, check whether the platform distinguishes impersonation, misleading profile information, harassment and suspected account compromise. Selecting the closest category can help the service understand the concern. If you believe your own account has been copied, document the platform name, profile location and date in a secure record and follow the service's official impersonation process. Do not confront someone or attempt to access an account yourself."
+      ],
+      "bullets": [
+        "Use the reporting category that best describes what you observed.",
+        "Keep reports factual, specific and limited to relevant information.",
+        "Do not publish private evidence or attempt to investigate another person's identity."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a verification badge prove that a dating profile is safe?",
+      "answer": "No badge should be treated as a guarantee of safety. It indicates only what the platform says its process checked. Continue to set boundaries, protect personal information and use the platform's safety and reporting tools."
+    },
+    {
+      "question": "Should I avoid every profile without a badge?",
+      "answer": "That is a personal choice, but the absence of a badge alone does not establish that a profile is false. People may not complete verification for privacy or other reasons. Consider the available information and your comfort without treating a badge as the only measure."
+    },
+    {
+      "question": "What should I do if someone asks me to prove my identity outside the platform?",
+      "answer": "Do not send documents, account credentials or verification codes to another user. If you choose to verify, use only the platform's official process and review its data practices first. Report pressure or impersonation through the service's own tools."
+    }
+  ]
+};
