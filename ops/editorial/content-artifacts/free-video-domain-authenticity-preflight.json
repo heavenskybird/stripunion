@@ -1,0 +1,117 @@
+{
+  "backlogId": "free-video-domain-authenticity-preflight",
+  "slug": "free-video-platform-domain-authenticity-checklist",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check a Site’s Domain and Login Page Before Signing In",
+  "description": "Use a practical checklist to spot unexpected domain changes, imitation login pages, and risky redirects before using a free video platform.",
+  "excerpt": "A familiar logo is not proof that a page belongs to the service you intended to visit. Check the address, navigation, and login flow before sharing account details.",
+  "keyTakeaways": [
+    "A site’s branding can be copied, so verify the web address separately from the page design.",
+    "Unexpected redirects, misspelled domains, and requests for unrelated credentials are reasons to pause.",
+    "Do not follow an unsolicited message or pop-up to a login page; navigate using a saved, known address instead.",
+    "A browser privacy warning or certificate error should not be bypassed just to reach a video page.",
+    "If a page seems suspicious, close it and check the site’s independently located help or contact information."
+  ],
+  "sections": [
+    {
+      "heading": "Why the address matters more than the logo",
+      "paragraphs": [
+        "A page can copy the colors, logo, and layout of a familiar free video service without being operated by that service. Imitation pages may appear in search results, advertisements, messages, or redirects. The visual design is only one clue; the address shown by the browser is a separate piece of evidence.",
+        "Before signing in, look at the full domain rather than only the page title or the first words in the address bar. Watch for small spelling changes, extra words, unusual subdomains, or a domain ending that differs from the one you expected. A padlock or encrypted connection does not establish that the site is genuine; it indicates a protected connection to the site named in the address."
+      ],
+      "bullets": [
+        "Check the domain before entering an email address or password.",
+        "Do not assume that a search advertisement is the official destination.",
+        "Treat a familiar logo on an unfamiliar address as a reason to verify, not as confirmation."
+      ]
+    },
+    {
+      "heading": "Follow a deliberate route to the site",
+      "paragraphs": [
+        "Avoid using a login link from an unexpected email, direct message, pop-up, or comment. If you already know the correct address, type it yourself or use a bookmark you created after checking it. If you do not know the address, compare independent references and the service’s own published help information rather than trusting a single sponsored result.",
+        "A chain of redirects can make it harder to see where a link leads. If clicking a result takes you through several unfamiliar domains, opens extra tabs, or changes the destination after loading, stop and reassess. Do not keep clicking through simply because the page claims that an account check or video verification is required."
+      ],
+      "table": {
+        "caption": "Quick checks before using a login page",
+        "headers": [
+          "What you notice",
+          "Practical response"
+        ],
+        "rows": [
+          [
+            "The address has a spelling variation",
+            "Close the page and find the service through a known, independent route."
+          ],
+          [
+            "A link redirects through unfamiliar domains",
+            "Do not enter credentials; verify the destination before continuing."
+          ],
+          [
+            "A page requests a password for another service",
+            "Stop. Do not reuse or disclose credentials on an unexpected page."
+          ],
+          [
+            "The browser shows a security warning",
+            "Do not bypass the warning to reach the page."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Notice unusual requests during sign-in",
+      "paragraphs": [
+        "A sign-in screen should ask only for information that makes sense for the account action you chose. Be cautious if a page demands payment details to continue to a supposedly free page, asks you to install a browser extension, or requests credentials for an unrelated email or social account. A request that feels mismatched deserves verification before action.",
+        "Do not provide a one-time code, recovery phrase, or password in response to a message that claims to be support. Codes can authorize access just as passwords can. If you have a question about a sign-in requirement, close the page and seek the service’s help information through a route you locate independently."
+      ]
+    },
+    {
+      "heading": "Use browser warnings and device controls as signals",
+      "paragraphs": [
+        "A browser warning about a site’s security certificate, deceptive content, or unsafe download is a prompt to stop, not an inconvenience to click past. It may have several possible causes, but a visitor usually cannot confirm the cause from the warning screen alone. Do not disable browser protections or change device security settings just to load one page.",
+        "Keep the browser and operating system updated, and use a reputable password manager if you choose to maintain an account. A password manager may help identify a domain mismatch because it will not offer saved credentials on a different address. It is not a substitute for checking the destination, and autofill prompts should not be treated as proof that a page is safe."
+      ],
+      "bullets": [
+        "Leave certificate and deceptive-site protections enabled.",
+        "Do not install software or extensions at a page’s unexplained request.",
+        "Use a unique password for each account, especially if you choose to register."
+      ]
+    },
+    {
+      "heading": "Separate a platform page from third-party promotions",
+      "paragraphs": [
+        "Free video pages may include promotions, external links, or embedded material. A banner or pop-up can imitate platform styling while leading somewhere else. Before selecting a prompt, check whether the address changes and whether the destination is relevant to the action you intended to take.",
+        "Do not treat a prompt that says your device is infected, your session is about to expire, or a video requires an urgent update as reliable merely because it appears over a video page. Close the tab if possible. If a new tab opens, do not enter information there; close it and review the browser’s site-permission settings if unwanted pages continue."
+      ]
+    },
+    {
+      "heading": "Respond carefully if you already entered details",
+      "paragraphs": [
+        "If you entered a password on a page that now seems questionable, change that password using the genuine service reached through a verified route. If you reused it elsewhere, update those accounts too. Review account recovery options and active sessions where those controls are available, and use the service’s official help route if you need assistance.",
+        "If you entered payment details or downloaded a file, take the next step based on what was exposed: contact the relevant payment provider about the transaction, remove an unwanted download without opening it, or use your device’s established security tools. Keep a note of the address and what happened. Avoid returning through the same suspicious link to investigate."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a padlock icon prove that a free video site is legitimate?",
+      "answer": "No. It indicates that the connection is encrypted to the domain shown in the browser. It does not confirm who operates that domain or whether the page is an official service. Check the address and how you reached it."
+    },
+    {
+      "question": "What should I do if a search result looks right but has a different domain?",
+      "answer": "Do not sign in from that result until you verify the destination. Close the page and use an address or reference you have checked independently. Avoid assuming that a similar name or logo makes the page genuine."
+    },
+    {
+      "question": "Should I bypass a browser warning if I recognize the site?",
+      "answer": "No. The warning means the browser cannot establish a condition it expects for a safe connection or page. Stop rather than bypassing it, and try again later through a verified address or consult independently located help information."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

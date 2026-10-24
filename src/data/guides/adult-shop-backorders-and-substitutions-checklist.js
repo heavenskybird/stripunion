@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-shop-backorders-and-substitutions-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Backorder, Substitution, and Cancellation Terms Before Ordering",
+  "description": "Before placing an adult shop order, check how the retailer handles unavailable items, backorders, substitutions, split shipments, and cancellation requests.",
+  "excerpt": "A listing may be available when you place an order but unavailable when it is prepared. Check the retailer’s rules for delays, replacements, split shipments, and refunds.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Check whether an item is in stock, backordered, or subject to an estimated restock date.",
+    "Find out whether the retailer may substitute a product or requires your approval first.",
+    "Understand how a split shipment affects delivery updates and any shipping charges before ordering.",
+    "Review how to cancel an unavailable item and how the retailer handles the associated payment.",
+    "Keep order confirmations and any written agreement about changes or cancellation."
+  ],
+  "sections": [
+    {
+      "heading": "Treat stock language as decision information",
+      "paragraphs": [
+        "An item shown in a catalog is not necessarily ready to ship. Retailers may distinguish available stock from a backorder, a preorder, or an item with an estimated restock date. Read the wording beside the product and again at checkout, because availability information can be presented in more than one place.",
+        "An estimate is not the same as a guaranteed dispatch date. If timing matters, look for the retailer’s explanation of whether the date refers to expected restock, order preparation, or carrier handoff. If the wording does not define the estimate, ask for clarification before relying on it. Do not assume that a date displayed for one item applies to the entire order."
+      ],
+      "bullets": [
+        "Save a copy of the stock status shown when you order.",
+        "Check whether an estimated date is a restock estimate or a delivery estimate.",
+        "Look for a process to contact the retailer if an estimate changes."
+      ]
+    },
+    {
+      "heading": "Find out whether substitutions need your approval",
+      "paragraphs": [
+        "If an item becomes unavailable, a retailer may offer a replacement, wait for stock, cancel the line, or take another action described in its terms. The important point is whether the retailer needs your approval before changing the product. A substitute can differ in size, features, material, compatibility, packaging, or intended use, so a similar product name is not enough to establish that it meets your needs.",
+        "Look for a clear way to accept or decline a proposed replacement. Check whether silence is treated as approval, whether the order will pause while the retailer waits, and how much time you have to respond. If the policy is unclear, ask before ordering and keep the response with your order records."
+      ],
+      "table": {
+        "caption": "Questions to ask when an ordered item is unavailable",
+        "headers": [
+          "Possible outcome",
+          "What to confirm"
+        ],
+        "rows": [
+          [
+            "Backorder",
+            "Whether the item remains on the order and how delays are communicated."
+          ],
+          [
+            "Substitution",
+            "Whether explicit customer approval is required before the product changes."
+          ],
+          [
+            "Partial shipment",
+            "Whether available items ship separately and whether any added charge applies."
+          ],
+          [
+            "Cancellation",
+            "How to remove the unavailable item and how the payment is adjusted."
+          ],
+          [
+            "Order hold",
+            "Whether the whole order waits or only the unavailable item is delayed."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand split shipments and order-wide delays",
+      "paragraphs": [
+        "If an order contains several products, the retailer may ship available items first or hold everything until the full order is ready. Either approach can affect when you receive tracking information and whether the remaining item generates a separate shipment. Check the policy rather than assuming that one confirmation means one package.",
+        "Ask whether splitting an order changes shipping charges or requires a new delivery choice. Also check how tracking details are shared and whether each parcel has its own estimated timing. If a shipment is divided, match each tracking notice to the relevant item and keep the original order confirmation so you can follow up about anything that remains outstanding."
+      ]
+    },
+    {
+      "heading": "Check cancellation and payment handling together",
+      "paragraphs": [
+        "A cancellation policy should explain how to request cancellation, whether an order can still be changed after preparation begins, and what happens if only part of an order is unavailable. Check whether the retailer distinguishes canceling an item from canceling the entire order. If a cancellation deadline is specified, note how the request must be submitted.",
+        "Payment handling is a separate question. Look for the retailer’s explanation of how it handles an amount associated with a canceled or delayed item. Avoid assuming when a pending transaction will disappear or when a credit will appear, because the retailer and payment provider may each have a role. Save any confirmation that records the requested change and the retailer’s response."
+      ],
+      "bullets": [
+        "Find the order-change or cancellation contact route before checkout.",
+        "Confirm whether you can cancel one product without canceling the entire order.",
+        "Retain the order number and written confirmation of any approved change."
+      ]
+    },
+    {
+      "heading": "Check the information flow if an order is delayed",
+      "paragraphs": [
+        "Retailers may communicate stock changes through account messages, email, or order-status pages. Check which channel the retailer uses and whether you can update contact details without changing the order. If you do not create an account, understand how to retrieve order information using the confirmation details you receive.",
+        "Review the retailer’s stated process for contacting support about a delay. A useful process tells you what details to provide, such as the order number and affected item, and how to receive a response. Avoid sending payment credentials or unnecessary personal information in a message. Use contact details from the retailer’s verified website rather than a link in an unexpected message."
+      ]
+    },
+    {
+      "heading": "Make a decision record before placing the order",
+      "paragraphs": [
+        "Before checkout, note the stock status, any estimate, the substitution rule, the split-shipment approach, and the cancellation process. This does not require a complex spreadsheet; a saved confirmation or short note is enough. The point is to preserve the terms you relied on if the order changes later.",
+        "If an item is essential and the retailer’s policy leaves a key question unanswered, consider whether you are comfortable proceeding without a firm answer. You can contact support before ordering and ask for a direct explanation. Compare the response with the published terms, and keep it. A clear, documented process is more useful than relying on an assumption about what a retailer will do."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an estimated restock date guarantee that an order will ship then?",
+      "answer": "Not necessarily. The meaning of an estimate depends on the retailer’s wording and process. Check whether it refers to restock, preparation, dispatch, or delivery, and whether the retailer explains what happens if the estimate changes."
+    },
+    {
+      "question": "Can an adult shop substitute an unavailable product without asking?",
+      "answer": "Policies differ. Check the retailer’s terms for whether approval is required, how you can decline, and what happens if you do not respond. If the policy does not clearly answer those questions, ask before ordering."
+    },
+    {
+      "question": "What should I save if an order is delayed or changed?",
+      "answer": "Keep the order confirmation, the stock status shown at purchase, any messages about delays or substitutions, and the retailer’s confirmation of a cancellation or other change. Avoid sending sensitive payment details in follow-up messages."
+    }
+  ]
+};

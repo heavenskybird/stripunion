@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T12:06:17.948Z",
+  "generatedAt": "2026-10-24T13:03:10.709Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/affiliate-program-geographic-eligibility-routing-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-delegated-access-permissions-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-account-cancellation-exit-checklist.json",
-    "ops/editorial/content-artifacts/adult-anime-platform-discovery-method-comparison.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-account-free-catalog-evaluation.json"
+    "ops/editorial/content-artifacts/free-video-domain-authenticity-preflight.json",
+    "ops/editorial/content-artifacts/adult-games-offline-dependency-preflight.json",
+    "ops/editorial/content-artifacts/adult-shop-backorder-substitution-terms-audit.json",
+    "ops/editorial/content-artifacts/affiliate-program-inactivity-clause-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-fan-interaction-boundary-controls.json"
   ],
   "guideFiles": [
-    "src/data/guides/affiliate-program-geographic-eligibility-routing-audit.js",
-    "src/data/guides/creator-platform-delegated-access-permissions-audit.js",
-    "src/data/guides/adult-dating-platform-account-cancellation-exit-checklist.js",
-    "src/data/guides/adult-anime-platform-discovery-method-comparison.js",
-    "src/data/guides/vr-adult-platform-account-free-catalog-evaluation.js"
+    "src/data/guides/free-video-platform-domain-authenticity-checklist.js",
+    "src/data/guides/adult-games-offline-play-and-service-dependency-check.js",
+    "src/data/guides/adult-shop-backorders-and-substitutions-checklist.js",
+    "src/data/guides/affiliate-program-inactivity-and-dormant-account-terms.js",
+    "src/data/guides/creator-platform-fan-interaction-boundary-controls-guide.js"
   ],
   "categories": [
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "webmaster-affiliate",
-    "creator-platforms",
-    "dating-hookups",
-    "hentai-anime",
-    "vr-ar"
+    "creator-platforms"
   ],
   "backlogIds": [
-    "affiliate-program-geographic-eligibility-routing-audit",
-    "creator-platform-delegated-access-permissions-audit",
-    "adult-dating-platform-account-cancellation-exit-checklist",
-    "adult-anime-platform-discovery-method-comparison",
-    "vr-adult-platform-account-free-catalog-evaluation"
+    "free-video-domain-authenticity-preflight",
+    "adult-games-offline-dependency-preflight",
+    "adult-shop-backorder-substitution-terms-audit",
+    "affiliate-program-inactivity-clause-audit",
+    "creator-platform-fan-interaction-boundary-controls"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40092407709",
-  "phase": "closed"
+  "r1CycleId": "40096241165"
 }
