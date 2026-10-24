@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T18:26:41.134Z",
+  "generatedAt": "2026-10-24T19:47:12.261Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-serialization-reading-order-audit.json",
-    "ops/editorial/content-artifacts/free-video-playback-control-behavior-check.json",
-    "ops/editorial/content-artifacts/adult-games-user-review-version-relevance-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-bundle-inclusions-checklist.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-install-source-permissions-audit.json"
+    "ops/editorial/content-artifacts/creator-platform-moderation-appeal-readiness.json",
+    "ops/editorial/content-artifacts/adult-upload-image-metadata-privacy-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-release-cadence-evidence-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-creative-asset-rights-audit.json",
+    "ops/editorial/content-artifacts/live-cam-platform-discovery-taxonomy-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-serialization-reading-order-audit.js",
-    "src/data/guides/free-video-playback-control-behavior-check.js",
-    "src/data/guides/adult-games-user-review-version-relevance-audit.js",
-    "src/data/guides/adult-shop-bundle-inclusions-checklist.js",
-    "src/data/guides/vr-adult-platform-install-source-permissions-audit.js"
+    "src/data/guides/creator-platform-moderation-appeal-readiness.js",
+    "src/data/guides/adult-platform-upload-image-metadata-privacy-checklist.js",
+    "src/data/guides/premium-video-platform-release-cadence-and-library-updates-audit.js",
+    "src/data/guides/webmaster-affiliate-creative-asset-rights-and-expiration-audit.js",
+    "src/data/guides/live-cam-platform-discovery-filters-and-room-taxonomy-fit.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar"
+    "creator-platforms",
+    "privacy-safety-payment",
+    "premium-videos",
+    "webmaster-affiliate",
+    "live-cams"
   ],
   "backlogIds": [
-    "adult-anime-serialization-reading-order-audit",
-    "free-video-playback-control-behavior-check",
-    "adult-games-user-review-version-relevance-audit",
-    "adult-shop-bundle-inclusions-checklist",
-    "vr-adult-platform-install-source-permissions-audit"
+    "creator-platform-moderation-appeal-readiness",
+    "adult-upload-image-metadata-privacy-workflow",
+    "premium-video-release-cadence-evidence-audit",
+    "webmaster-affiliate-creative-asset-rights-audit",
+    "live-cam-platform-discovery-taxonomy-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40120551701",
-  "phase": "closed"
+  "r1CycleId": "40126703127"
 }

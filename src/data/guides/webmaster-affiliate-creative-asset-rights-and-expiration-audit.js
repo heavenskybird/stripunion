@@ -1,0 +1,110 @@
+export default {
+  "slug": "webmaster-affiliate-creative-asset-rights-and-expiration-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Audit Creative Asset Rights and Expiration Terms",
+  "description": "Before using affiliate banners, logos, or copy, check permitted edits, placement, duration, reuse, and what to do when a program withdraws an asset.",
+  "excerpt": "Approval to use a creative does not always answer how long it may be used, where it can appear, or whether edits are permitted. Build an asset record that captures those operational terms.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Check the actual license or program terms for each creative, not only whether it appears in a dashboard.",
+    "Record permitted placements, edits, territories, campaign dates, and reuse conditions where stated.",
+    "Keep a link between each live asset and its source, approval, and review date.",
+    "Plan how to locate and remove outdated or withdrawn material across every site and format.",
+    "Ask for clarification when duration or reuse rights are unclear; do not treat access to a file as permission to use it indefinitely."
+  ],
+  "sections": [
+    {
+      "heading": "Why creative rights need an operational review",
+      "paragraphs": [
+        "Affiliate teams may receive banners, logos, product images, text, or other promotional assets through a program portal or direct communication. The ability to download a file does not necessarily settle the terms of use. The permission may be limited by placement, campaign, territory, date, or the version of a creative that was supplied.",
+        "A rights review is different from an approval workflow. Approval may confirm that an asset or placement has been reviewed, while rights terms describe what use is permitted and for how long. Keep those questions separate in your records. This helps prevent stale material from remaining live after a campaign ends or after a program changes its requirements."
+      ]
+    },
+    {
+      "heading": "Build an asset register that can be maintained",
+      "paragraphs": [
+        "For each creative, record a recognizable name, file location, source, date received, program or campaign reference, and the page or placement where it is used. Add any stated restrictions and the date you reviewed them. If a program gives a notice that an asset has changed or been withdrawn, preserve the notice and link it to the affected placements.",
+        "The register should help someone other than the original publisher locate and update the asset. Use consistent naming and avoid relying on memory, email search, or a dashboard that may not preserve old files. Keep the register proportionate: store the facts needed to manage permission and removal, but do not collect unrelated personal data."
+      ],
+      "table": {
+        "caption": "Minimum fields for an affiliate creative asset register",
+        "headers": [
+          "Field",
+          "Why it helps",
+          "Example of a useful entry"
+        ],
+        "rows": [
+          [
+            "Asset source and identifier",
+            "Shows which file or version is in use",
+            "Program portal, asset name, or source message"
+          ],
+          [
+            "Use location",
+            "Makes removal and updates actionable",
+            "Site, page, placement, or campaign tag"
+          ],
+          [
+            "Permission limits",
+            "Captures conditions that affect use",
+            "Allowed placement, editing, region, or date limit"
+          ],
+          [
+            "Review and change history",
+            "Shows when terms or files were checked",
+            "Review date and linked change notice"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the conditions that can limit use",
+      "paragraphs": [
+        "Check whether the program distinguishes between supplied and modified creatives. Cropping, resizing, translating, adding labels, or combining an image with other elements may count as an edit under the terms. Also look for limits on where an asset may appear, whether it can be used in email or paid media, and whether attribution or surrounding disclosures are required.",
+        "A permitted placement for one campaign may not extend to other sites or channels. Confirm whether an asset is approved for each property you operate and whether the permission is time-bound. If the terms refer to a separate agreement or current program rules, locate that document and save its version or date rather than relying on a copied summary."
+      ],
+      "bullets": [
+        "Check whether resizing, cropping, translation, or overlays require approval.",
+        "Confirm the permitted site, page type, channel, and campaign scope.",
+        "Look for end dates, withdrawal language, and reuse restrictions.",
+        "Keep approval evidence connected to the exact creative version."
+      ]
+    },
+    {
+      "heading": "Plan for expiration, withdrawal, and replacement",
+      "paragraphs": [
+        "Set a review date for assets with an explicit end date or campaign condition. For assets without a stated end date, do not infer permanent permission; schedule a periodic terms check or request clarification. Assign responsibility for review so the task does not disappear when a campaign owner changes roles or leaves the organization.",
+        "When a program withdraws or replaces a creative, identify all locations where the old version appears, including cached page templates, translated pages, email drafts, and scheduled content. Document what was changed and when. If removal cannot happen immediately, follow the program’s stated instructions and record the remaining locations and expected next action."
+      ]
+    },
+    {
+      "heading": "Make asset governance part of publishing operations",
+      "paragraphs": [
+        "Before publishing, compare the creative’s permitted use with the planned placement and the program’s current rules. After publishing, retain the page location and version reference in the asset register. On a regular schedule, review assets that have been live for a long time, campaigns that have ended, and pages that are being redesigned or migrated.",
+        "If terms conflict or leave a material gap, pause the affected use when practical and ask the program for written clarification. Do not assume that an earlier approval settles every later use. A clear internal workflow should identify who can approve changes, who can remove assets, and how a program notice reaches the people responsible for the relevant pages."
+      ],
+      "bullets": [
+        "Can you identify every live location for a given asset?",
+        "Is permission tied to a specific version, channel, or campaign?",
+        "Who receives and acts on withdrawal or replacement notices?",
+        "Can you show when the asset’s terms were last reviewed?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If an asset is available in a program dashboard, can I use it indefinitely?",
+      "answer": "Availability for download does not by itself establish indefinite permission. Check the current terms for time limits, campaign scope, permitted placements, and withdrawal conditions."
+    },
+    {
+      "question": "Do resizing or translating a banner count as editing?",
+      "answer": "That depends on the program’s rules. Review the applicable terms and ask for written clarification before making changes if the rules do not clearly permit them."
+    },
+    {
+      "question": "What should I do when a program withdraws a creative?",
+      "answer": "Use the program’s stated instructions, locate all placements under your control, and record the changes. If removal is delayed, document the affected locations and the next action rather than assuming the old asset remains authorized."
+    }
+  ]
+};

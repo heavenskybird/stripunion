@@ -1,0 +1,122 @@
+{
+  "backlogId": "adult-upload-image-metadata-privacy-workflow",
+  "slug": "adult-platform-upload-image-metadata-privacy-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Before Uploading to an Adult Platform: Check Image Metadata and Identifying Details",
+  "description": "A practical privacy checklist for reviewing image metadata, backgrounds, filenames, and other identifying details before uploading content to an adult platform.",
+  "excerpt": "Removing location metadata can help, but it is only one part of an upload privacy check. Review the file itself, its surroundings, its name, and the path it takes from device to platform.",
+  "keyTakeaways": [
+    "Treat metadata removal and visual review as separate checks; neither replaces the other.",
+    "Use a copy of the file for inspection or editing so the original remains intact.",
+    "Check backgrounds, reflections, labels, screens, and other details that could reveal identity or location.",
+    "Review filenames and upload destinations, and confirm what the platform says about processing and retention.",
+    "Do not assume that an app, browser, or platform removes all metadata unless its documentation clearly says so."
+  ],
+  "sections": [
+    {
+      "heading": "Think beyond the location tag",
+      "paragraphs": [
+        "A photo or video file can contain information beyond the visible image. Depending on the device and workflow, metadata may include capture time, device details, orientation, or location information. Other clues may be visible rather than embedded: a street sign, workplace badge, reflection, shipping label, or distinctive room detail can reveal more than a file’s metadata.",
+        "A careful pre-upload process reduces avoidable exposure but cannot promise anonymity. Platforms may process files, create additional versions, or retain information under their own policies. The useful goal is to decide what information you are comfortable sharing, remove unnecessary clues you control, and understand where uncertainty remains before you publish."
+      ],
+      "bullets": [
+        "Separate file metadata from information visible in the image.",
+        "Consider whether capture dates or device details could identify a routine or location.",
+        "Remember that a changed filename does not remove embedded metadata."
+      ]
+    },
+    {
+      "heading": "Inspect a working copy before uploading",
+      "paragraphs": [
+        "Create a working copy in a separate, clearly named folder rather than editing your only original. Use device or operating-system tools you trust to inspect available file details. The exact fields and controls vary by device, file type, and app, so verify what the tool actually displays and changes instead of assuming a single setting handles every case.",
+        "If you choose to remove metadata, check the resulting copy again where your tools allow it. Some editing or export steps may change one set of fields while retaining another. Keep the original in a secure location only if you have a legitimate reason to retain it, and do not leave sensitive drafts in a shared folder, automatic sync location, or public-facing upload queue by mistake."
+      ],
+      "table": {
+        "caption": "Pre-upload review: different clues require different checks",
+        "headers": [
+          "Potential clue",
+          "Where to check",
+          "Practical action"
+        ],
+        "rows": [
+          [
+            "Location or capture details",
+            "File properties or a trusted metadata tool",
+            "Remove fields you do not need and verify the edited copy"
+          ],
+          [
+            "Background identifiers",
+            "Full-size visual review",
+            "Crop, obscure, reshoot, or choose not to publish"
+          ],
+          [
+            "Filename and folder path",
+            "Upload picker and local file manager",
+            "Use a neutral filename and select the intended copy"
+          ],
+          [
+            "Cloud-sync or backup copy",
+            "Device sync and backup settings",
+            "Understand which accounts or devices can access the file"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review the image for visible identifiers",
+      "paragraphs": [
+        "Inspect the whole frame, including edges and background. Look for mail, documents, badges, branded clothing, screens, window views, distinctive furnishings, and reflections in mirrors or glossy surfaces. A small detail can still be legible at full resolution, so check the original dimensions rather than relying only on a cropped preview or thumbnail.",
+        "Also consider patterns across multiple uploads. A single neutral background may reveal little, while repeated images can expose the same room, routine, device, or local landmark. If a detail concerns someone else, do not publish it without appropriate permission. When the risk is unclear, removing the detail or choosing a different image may be safer than relying on a platform’s later removal process."
+      ],
+      "bullets": [
+        "Zoom in on reflective surfaces and the edges of the frame.",
+        "Check whether text is readable at the file’s original size.",
+        "Avoid including other people or their personal information without permission.",
+        "Consider whether several posts together reveal a location or routine."
+      ]
+    },
+    {
+      "heading": "Check upload paths, filenames, and connected services",
+      "paragraphs": [
+        "A file may travel through a camera roll, editing app, cloud backup, messaging service, and browser before it reaches a platform. Each step can create another copy or retain a version with different metadata. Review the route you actually use, including automatic backups and shared folders, rather than focusing only on the final upload screen.",
+        "Use a neutral filename that does not contain your legal name, workplace, location, or personal account handle. Before selecting a file, confirm that the upload dialog points to the intended working copy. If you use a connected cloud account or device shared with others, check access permissions and consider whether the file is being synchronized beyond the device you intended."
+      ]
+    },
+    {
+      "heading": "Understand the platform’s role and set a repeatable workflow",
+      "paragraphs": [
+        "Read the platform’s privacy and content-upload information to understand what it says about file processing, storage, moderation copies, and deletion requests. Do not infer that metadata is stripped just because the public-facing page does not display it. If the documentation is unclear, ask a focused question through an official channel and make the uncertainty part of your decision.",
+        "A repeatable workflow reduces mistakes: create a working copy, inspect metadata, review the full image, use a neutral filename, confirm the selected file, and record the destination. Recheck the workflow when you change devices, editing apps, or upload methods. Keep the checklist private and avoid storing unnecessary personal details in it."
+      ],
+      "bullets": [
+        "Inspect the copy you plan to upload, not just the original.",
+        "Check the platform’s current privacy information and account controls.",
+        "Confirm the selected file and destination immediately before publishing.",
+        "Review cloud-sync and shared-device access separately from platform settings."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does removing location metadata make an upload anonymous?",
+      "answer": "No. Visible details, account information, upload records, and other contextual clues may still identify a person or place. Metadata removal is one limited privacy step, not a guarantee of anonymity."
+    },
+    {
+      "question": "Should I edit the original file or make a copy?",
+      "answer": "A working copy helps preserve the original while you inspect or change the upload version. Store both carefully, and avoid keeping sensitive files in shared or automatically synchronized locations unless you intend that access."
+    },
+    {
+      "question": "Can I assume the platform strips metadata during upload?",
+      "answer": "Do not assume so without clear, current documentation. If the platform does not explain its handling, ask through an official support channel and make your choice based on the remaining uncertainty."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
