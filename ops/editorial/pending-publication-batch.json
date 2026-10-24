@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/live-cam-private-session-commitment-map.json",
     "ops/editorial/content-artifacts/adult-platform-profile-identity-boundaries.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40064321347"
+  "r1CycleId": "40064321347",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
