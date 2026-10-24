@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-platform-profile-identity-boundaries",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Separate Profile Identity from Information Needed to Pay",
+  "description": "Review adult platform account fields before signing up: distinguish a public-facing profile name from billing, verification, and recovery details.",
+  "excerpt": "An account may use different names and details for different purposes. This guide helps you identify which information is displayed, which is required, and where the boundaries may be unclear.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Treat a profile name, login identifier, billing name, and verification information as separate data fields until the platform explains how they are used.",
+    "Check whether any profile details are public, searchable, or visible to other users before choosing them.",
+    "Read the platform’s explanation of payment and verification requirements instead of assuming a pseudonym changes those requirements.",
+    "Avoid supplying extra identifying information in optional fields when it is not needed for the function you want.",
+    "Save the terms and account settings that explain identity use so you can review them later."
+  ],
+  "sections": [
+    {
+      "heading": "Start by sorting account information into roles",
+      "paragraphs": [
+        "An online account can involve several kinds of identity information: a display name, an email address used to sign in, a recovery contact, a billing name, and details requested for age or account verification. These fields can have different audiences and purposes. Before entering information, list the fields the platform requests and identify what the platform says each one is for. Do not assume that one name automatically replaces another across the whole account.",
+        "This distinction is useful even when a platform allows a pseudonymous display name. A profile name may be shown to other users while payment or account records are handled separately. Conversely, a field that looks like a profile detail may still appear in account communications or public activity. The exact platform settings and explanations determine the boundary, so review them before selecting a name or creating a profile."
+      ],
+      "bullets": [
+        "Separate public-facing profile fields from sign-in and recovery fields.",
+        "Identify which details appear to be optional and which are required for the function you want.",
+        "Check whether a name is used in public profile pages, comments, or other activity."
+      ]
+    },
+    {
+      "heading": "Inspect visibility before choosing a profile name",
+      "paragraphs": [
+        "A name is only private if the platform’s design and settings keep it from audiences you do not intend. Look for profile previews, visibility controls, and descriptions of search or discovery. Check whether people can see your profile name through public activity, saved lists, room participation, or shared links. If the platform does not explain visibility clearly, use a name that does not reveal details you would prefer to keep separate and avoid posting identifying information in free-text fields.",
+        "Check what happens when you change a name. The platform may describe whether previous activity is updated, whether a profile link changes, or whether old references remain. Do not assume that changing a display name erases past visibility or removes information already shared elsewhere. A name choice should be considered together with the account’s activity and profile settings, not as a complete privacy measure by itself."
+      ],
+      "table": {
+        "caption": "A field-by-field identity review",
+        "headers": [
+          "Information type",
+          "Questions to ask",
+          "Practical decision"
+        ],
+        "rows": [
+          [
+            "Display name",
+            "Who can see it, search for it, or associate it with activity?",
+            "Choose a name that does not disclose unnecessary personal details."
+          ],
+          [
+            "Login identifier",
+            "Is it visible to other users or used only for account access?",
+            "Use the platform’s stated purpose to decide whether separation is useful."
+          ],
+          [
+            "Recovery contact",
+            "What messages may be sent and who controls the address or number?",
+            "Keep access secure and review where recovery messages can appear."
+          ],
+          [
+            "Billing information",
+            "What does the payment process require and where are records kept?",
+            "Do not assume a profile pseudonym changes payment requirements."
+          ],
+          [
+            "Verification information",
+            "What is requested, why, and how does the platform describe handling it?",
+            "Proceed only after understanding the stated requirement and data use."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand payment and verification boundaries",
+      "paragraphs": [
+        "Payment and verification processes may ask for information that is different from the name shown on a profile. Read the checkout explanation and relevant account terms to learn which details are requested, who processes them, and whether the platform explains what is stored or shared. Do not infer that a payment method, account name, or display name guarantees anonymity. Those are separate pieces of information with separate records and purposes.",
+        "If the platform requests identity or verification data, look for an explanation of the purpose, handling, retention, and any third-party service involved. An unclear explanation is a reason to postpone the decision, not a reason to provide additional information in the hope that it will help. Share only information the platform says is required for the feature you intend to use, and avoid uploading documents or filling optional identity fields unless you understand why they are requested."
+      ]
+    },
+    {
+      "heading": "Reduce unnecessary connections between accounts",
+      "paragraphs": [
+        "If you want to keep an adult platform profile separate from other online identities, review sign-up options before connecting accounts or importing information. A social sign-in or linked profile may reduce setup steps but could connect account records or expose profile details, depending on the services’ settings and explanations. Compare the convenience with the amount of account linkage you are comfortable creating.",
+        "Use distinct credentials where appropriate and review saved autofill data before submitting forms, especially on a device used for other purposes. Autofill can insert a legal name, email address, or other details into a field where you expected something else. Check each field before submission. This is a practical data-minimization step, not a promise that separate accounts cannot be associated through other means."
+      ],
+      "bullets": [
+        "Review sign-in choices before linking an existing account.",
+        "Check autofilled values rather than assuming the right identity field was populated.",
+        "Avoid reusing a recognizable profile name from other services if separation matters to you.",
+        "Review profile visibility and account-linking settings after setup."
+      ]
+    },
+    {
+      "heading": "Keep a record of the identity rules you relied on",
+      "paragraphs": [
+        "Account screens and terms can change. Save a dated note of the platform’s explanation of which profile details are visible, what payment or verification information is required, and where to manage those settings. You do not need to keep sensitive documents in an informal notes file; record the location of the relevant policy or setting and the decision you made. Protect any screenshots or receipts that contain account details.",
+        "Revisit the settings after a major account change, such as adding a new sign-in method, changing a display name, or making a purchase. Check the relevant terms again if a new field appears or the platform changes its verification flow. A quick review can catch mismatches between what you intended to share and what the interface is asking for. If the platform’s explanation remains vague, seek clarification through its official support route or choose not to proceed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a pseudonymous profile name make an account anonymous?",
+      "answer": "No. A profile name is only one part of an account. Sign-in, payment, recovery, verification, device, and activity records may be handled separately. Review the platform’s explanations and settings rather than treating a pseudonym as a guarantee."
+    },
+    {
+      "question": "Should my profile name match my payment details?",
+      "answer": "Do not assume either way. Check which name the platform requests for each field and what it says about visibility and payment processing. Enter information for the field’s stated purpose, and do not place payment details in a profile field unless the platform specifically requires that."
+    },
+    {
+      "question": "What if a platform does not explain why it needs an identity detail?",
+      "answer": "Pause before providing it. Look for the platform’s privacy information or support explanation that identifies the purpose and handling. If the reason remains unclear, you can decline to provide the detail or choose not to create the account."
+    }
+  ]
+};

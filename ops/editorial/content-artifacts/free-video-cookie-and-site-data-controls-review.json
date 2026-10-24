@@ -1,0 +1,115 @@
+{
+  "backlogId": "free-video-cookie-and-site-data-controls-review",
+  "slug": "free-video-cookie-and-site-data-controls-review",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Review Cookie and Site-Data Controls Before Browsing",
+  "description": "A practical guide to reviewing cookie notices, site storage, and browser privacy controls when comparing free video platforms.",
+  "excerpt": "A cookie banner is only one part of a site’s data controls. Learn what to inspect, what browser settings can affect, and how to compare explanations without assuming a particular outcome.",
+  "keyTakeaways": [
+    "Read what a platform says about cookies and similar site storage rather than treating a banner as the entire privacy explanation.",
+    "Distinguish settings managed by the platform from controls offered by your browser.",
+    "Check whether preferences can be revisited and whether the explanation identifies categories of site data.",
+    "Review the site’s data explanation on the browser and device you actually use.",
+    "Do not assume that clearing site data or choosing a browser option erases records held elsewhere."
+  ],
+  "sections": [
+    {
+      "heading": "Look beyond the first cookie notice",
+      "paragraphs": [
+        "A cookie notice may summarize a site’s use of cookies or similar technologies, but it is not necessarily the full explanation of how site data is handled. Open the platform’s privacy information and look for descriptions of the categories it uses, the purposes it gives, and the controls available to visitors. Check whether the notice describes essential functions separately from optional purposes, where the platform itself makes that distinction.",
+        "Pay attention to what the interface actually lets you choose. A banner may provide buttons, a settings panel, or a link to a longer explanation. Read the labels and identify whether you can change a choice later. Do not infer that a particular button blocks every form of measurement or data use. The platform’s description and the browser’s own behavior are separate parts of the picture."
+      ],
+      "bullets": [
+        "Open the detailed privacy or cookie explanation from the notice.",
+        "Identify the categories and purposes the platform says it uses.",
+        "Check whether a preference panel is available after the first visit."
+      ]
+    },
+    {
+      "heading": "Separate platform settings from browser controls",
+      "paragraphs": [
+        "Platforms may offer their own preference controls, while browsers provide separate options for cookies, site storage, and permissions. These controls can interact, but they are not interchangeable. A platform preference records a choice as described by that service; a browser setting may affect how the site stores or retrieves information on that device. Review both without assuming one substitutes for the other.",
+        "If you change browser settings, check whether the platform still loads the functions you need and whether the site explains any resulting limitations. A browser may block or clear some site data while leaving other kinds of records outside that local browser storage. Do not treat a browser change as a guarantee that the platform, a network provider, or another service has erased information it already received."
+      ],
+      "table": {
+        "caption": "Where to look when reviewing site-data controls",
+        "headers": [
+          "Control area",
+          "What it can help you inspect",
+          "What not to assume"
+        ],
+        "rows": [
+          [
+            "Platform notice",
+            "The site’s stated categories, purposes, and preference options",
+            "A banner choice may not explain every data practice."
+          ],
+          [
+            "Platform privacy settings",
+            "Whether the service exposes preferences after the first visit",
+            "A setting may not control browser storage directly."
+          ],
+          [
+            "Browser site controls",
+            "Storage or cookie settings for the current browser and device",
+            "Local controls do not prove records held by the service were deleted."
+          ],
+          [
+            "Device or browser history",
+            "Some records saved locally during browsing",
+            "Clearing one local record does not remove every account or service record."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether controls are understandable and reachable",
+      "paragraphs": [
+        "A control is more useful when its label makes clear what it changes. Look for explanations alongside choices rather than relying on an unfamiliar toggle name. If a page offers several categories, note which are enabled, disabled, or described as necessary for the site to function. If you cannot tell what a choice means, use the platform’s detailed explanation or support information before deciding.",
+        "Also check whether the settings can be revisited without repeating the entire sign-up or browsing process. A visible privacy-settings link, account preference, or browser control may make later review easier. Compare platforms on the clarity and reachability of their controls, not on a claim that any one option delivers complete privacy. Clear limits are useful information too."
+      ]
+    },
+    {
+      "heading": "Review site data on the device you actually use",
+      "paragraphs": [
+        "Browser behavior can vary by browser, device, and configuration, so inspect the site-data controls on the device you plan to use. If you use more than one browser or device, do not assume a setting on one automatically applies to the others. Account settings may follow an account, while browser storage is commonly managed within a particular browser environment; verify the platform’s explanation for how its own preferences work.",
+        "If the device is shared, be mindful that changing cookie settings is not the same as managing saved passwords, browsing history, or account sessions. Those are separate privacy questions. This guide focuses on site data and preference controls, so use the relevant browser and device settings for other traces. Before clearing data, consider whether the change might sign you out or remove preferences you rely on."
+      ],
+      "bullets": [
+        "Review the site in the browser and on the device you plan to use.",
+        "Check whether preferences appear to apply across account sessions or only locally.",
+        "Consider sign-in and saved-preference effects before clearing site data."
+      ]
+    },
+    {
+      "heading": "Compare explanations without overclaiming",
+      "paragraphs": [
+        "A useful comparison records what each platform says, where that statement appears, and which controls it exposes. Note whether categories are explained in plain language, whether a visitor can revisit choices, and whether the privacy information describes the relationship between platform and browser controls. This creates a practical comparison of transparency and usability without guessing about technical implementation.",
+        "Keep conclusions narrow. If the platform describes a control but does not specify its full effect, say that the effect is not clear from the available explanation. If you change a browser setting, record what you changed and where, but do not treat it as proof that all related records are gone. Recheck the platform’s current notice when its interface or privacy explanation changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does declining optional cookies mean a free video site collects no data?",
+      "answer": "Do not assume that. A preference choice has the meaning described by that platform, and other types of data or records may be handled separately. Read the site’s explanation and keep conclusions limited to what it actually states."
+    },
+    {
+      "question": "Does clearing browser site data delete information held by a platform?",
+      "answer": "Not necessarily. Clearing local browser data may affect information stored on that device, such as site preferences or session data, but it does not by itself establish that the platform deleted records on its systems."
+    },
+    {
+      "question": "Should I use the platform’s settings or my browser’s settings?",
+      "answer": "They serve different roles. Review the platform’s own preference options and the browser’s site controls, then decide based on their stated effects. Do not assume one control replaces the other."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

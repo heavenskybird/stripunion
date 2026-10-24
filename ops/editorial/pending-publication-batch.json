@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T03:59:32.315Z",
+  "generatedAt": "2026-10-24T05:00:42.592Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-delivery-window-and-carrier-handoff-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-message-access-pathway-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-discovery-dependency-assessment.json",
-    "ops/editorial/content-artifacts/affiliate-program-product-feed-change-operations.json",
-    "ops/editorial/content-artifacts/premium-video-scheduled-event-replay-access-audit.json"
+    "ops/editorial/content-artifacts/live-cam-private-session-commitment-map.json",
+    "ops/editorial/content-artifacts/adult-platform-profile-identity-boundaries.json",
+    "ops/editorial/content-artifacts/vr-adult-prescription-glasses-headset-fit-check.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-localization-language-audit.json",
+    "ops/editorial/content-artifacts/free-video-cookie-and-site-data-controls-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-delivery-window-and-carrier-handoff-audit.js",
-    "src/data/guides/dating-platform-message-access-pathway-audit.js",
-    "src/data/guides/creator-platform-discovery-dependency-assessment.js",
-    "src/data/guides/affiliate-program-product-feed-change-operations.js",
-    "src/data/guides/premium-video-scheduled-event-replay-access-audit.js"
+    "src/data/guides/live-cam-private-session-commitment-map.js",
+    "src/data/guides/adult-platform-profile-identity-boundaries.js",
+    "src/data/guides/vr-adult-prescription-glasses-headset-fit-check.js",
+    "src/data/guides/adult-anime-platform-localization-language-audit.js",
+    "src/data/guides/free-video-cookie-and-site-data-controls-review.js"
   ],
   "categories": [
-    "adult-shops",
-    "dating-hookups",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "premium-videos"
+    "live-cams",
+    "privacy-safety-payment",
+    "vr-ar",
+    "hentai-anime",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-delivery-window-and-carrier-handoff-audit",
-    "dating-platform-message-access-pathway-audit",
-    "creator-platform-discovery-dependency-assessment",
-    "affiliate-program-product-feed-change-operations",
-    "premium-video-scheduled-event-replay-access-audit"
+    "live-cam-private-session-commitment-map",
+    "adult-platform-profile-identity-boundaries",
+    "vr-adult-prescription-glasses-headset-fit-check",
+    "adult-anime-platform-localization-language-audit",
+    "free-video-cookie-and-site-data-controls-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40060366754",
-  "phase": "closed"
+  "r1CycleId": "40064321347"
 }
