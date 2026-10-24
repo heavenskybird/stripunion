@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T02:03:30.112Z",
+  "generatedAt": "2026-10-24T03:03:49.466Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-match-expiration-and-chat-continuity.json",
-    "ops/editorial/content-artifacts/affiliate-program-payout-currency-and-conversion-review.json",
-    "ops/editorial/content-artifacts/creator-platform-watermark-and-content-removal-workflow.json",
-    "ops/editorial/content-artifacts/adult-platform-home-wifi-visibility-review.json",
-    "ops/editorial/content-artifacts/live-cam-cross-device-session-continuity-audit.json"
+    "ops/editorial/content-artifacts/premium-video-membership-commitment-terms-comparison.json",
+    "ops/editorial/content-artifacts/vr-adult-headset-text-entry-search-usability-check.json",
+    "ops/editorial/content-artifacts/adult-anime-mobile-reader-interface-fit-audit.json",
+    "ops/editorial/content-artifacts/free-video-ad-experience-prebrowse-audit.json",
+    "ops/editorial/content-artifacts/adult-game-community-hub-vs-storefront-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-match-expiration-and-chat-continuity.js",
-    "src/data/guides/affiliate-program-payout-currency-and-conversion-review.js",
-    "src/data/guides/creator-platform-watermark-and-content-removal-workflow.js",
-    "src/data/guides/adult-platform-home-wifi-visibility-review.js",
-    "src/data/guides/live-cam-cross-device-session-continuity-audit.js"
+    "src/data/guides/premium-video-membership-commitment-terms-comparison.js",
+    "src/data/guides/vr-adult-headset-text-entry-search-usability-check.js",
+    "src/data/guides/adult-anime-mobile-reader-interface-fit-audit.js",
+    "src/data/guides/free-video-ad-experience-prebrowse-audit.js",
+    "src/data/guides/adult-game-community-hub-vs-storefront-fit.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "live-cams"
+    "premium-videos",
+    "vr-ar",
+    "hentai-anime",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "dating-platform-match-expiration-and-chat-continuity",
-    "affiliate-program-payout-currency-and-conversion-review",
-    "creator-platform-watermark-and-content-removal-workflow",
-    "adult-platform-home-wifi-visibility-review",
-    "live-cam-cross-device-session-continuity-audit"
+    "premium-video-membership-commitment-terms-comparison",
+    "vr-adult-headset-text-entry-search-usability-check",
+    "adult-anime-mobile-reader-interface-fit-audit",
+    "free-video-ad-experience-prebrowse-audit",
+    "adult-game-community-hub-vs-storefront-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40052231434",
-  "phase": "closed"
+  "r1CycleId": "40056596907"
 }
