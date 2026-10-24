@@ -1,0 +1,125 @@
+{
+  "backlogId": "affiliate-multi-site-account-structure-audit",
+  "slug": "affiliate-multi-site-account-structure-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs for Multiple Sites: Plan Account and Property Structure",
+  "description": "Compare how affiliate programs handle multiple websites, tracking properties, users, and reporting before connecting more than one site.",
+  "excerpt": "If you operate several websites, the account structure can affect access, reporting, and day-to-day oversight. Use this checklist to clarify what the program supports before integrating another property.",
+  "keyTakeaways": [
+    "Confirm whether each site needs separate approval, tracking identifiers, or an independent account.",
+    "Map who can access each property and whether permissions can be limited by site.",
+    "Check whether reports can distinguish sites without creating confusing or duplicated records.",
+    "Document ownership, approved domains, and the process for adding or removing a property.",
+    "Keep separate tracking and review records even if a program groups multiple sites under one login."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the properties you actually operate",
+      "paragraphs": [
+        "Before choosing an account structure, list the websites, subdomains, applications, or other properties you intend to manage. Record who owns each one, who edits its content, and what audience or business purpose it serves. This inventory helps you ask precise questions rather than treating several distinct properties as interchangeable because they share an operator.",
+        "A program may use terms such as account, property, site, campaign, or tracking ID differently. Do not assume that a single login automatically authorizes every domain you control. Review the program's current application and operating terms to determine whether each property needs to be disclosed, approved, or added through a dashboard process. Keep a record of the answer and the date you received it.",
+        "The right structure depends on the program's rules and your internal operating needs. One account can be convenient for a small team, while separate accounts may make access boundaries or reporting clearer in some situations. Neither structure is universally preferable. Compare the consequences for approval, tracking, access, reporting, and eventual ownership changes."
+      ],
+      "bullets": [
+        "List each property and its owner or responsible operator.",
+        "Record the exact domains and subdomains that could carry program links.",
+        "Mark which properties are already approved and which still need confirmation."
+      ]
+    },
+    {
+      "heading": "Clarify approval and tracking boundaries",
+      "paragraphs": [
+        "Ask whether a program requires approval for each website or permits additional properties under an existing account. Confirm whether an approval applies to a specific domain, a whole brand, or another defined scope. If a new site or subdomain is planned, find out whether it must be reviewed before links go live. The program's current written terms and direct responses should guide the decision.",
+        "For tracking, map the identifiers available to distinguish properties, campaigns, and placements. A structure that uses one identifier for several sites may make later analysis difficult, while an overly elaborate structure can become hard to maintain. Choose a naming approach your team can apply consistently and reconcile with your own web analytics without placing personal information in tracking parameters.",
+        "Test each property separately before broader publication. Verify that the correct destination loads, that the tracking marker is present as intended, and that the dashboard or reporting path can identify the property. Keep a record of the test date and result. A test confirms the behavior you observed at that time; it does not establish permanent tracking performance."
+      ]
+    },
+    {
+      "heading": "Design access around people and responsibilities",
+      "paragraphs": [
+        "Consider whether one central account is appropriate for everyone who works across the portfolio. A person who edits one site may not need access to reports or settings for every other property. Review the program's available user roles and permissions before inviting collaborators. If access cannot be limited by property, decide whether that exposure is acceptable for your team and the information in the account.",
+        "Assign a primary owner and a backup administrator for each program relationship. Document who can approve new properties, change tracking settings, download reports, and communicate with program support. Avoid informal sharing of a single password where individual access is available. Remove or update access when a contractor or team member no longer needs it.",
+        "Plan for ownership changes in advance. A site sale, domain transfer, partnership change, or staff handover can raise questions about who controls the affiliate account and who is permitted to continue using its links. Review the written rules for changes of ownership and account transfer rather than assuming that a login can simply be passed to a new operator."
+      ],
+      "bullets": [
+        "Use individual access where available and grant only needed permissions.",
+        "Name a primary and backup contact for program administration.",
+        "Record a handover process for staff changes, site transfers, and domain changes."
+      ]
+    },
+    {
+      "heading": "Check reporting and records across sites",
+      "paragraphs": [
+        "Before expanding, confirm how the program's reports separate properties. Look for the identifiers, filters, or export fields that would let you distinguish activity by site. If a report combines several properties without a useful breakdown, decide whether your own tracking records can fill that gap. Do not assume that a dashboard label corresponds to a separate approved property unless the program defines it that way.",
+        "Set a consistent property naming convention before adding new tracking identifiers. Include enough context to distinguish sites and placements while avoiding names that expose personal or sensitive visitor information. Document the convention and keep a mapping between the internal property name and the identifier used in program tools.",
+        "Reconcile reports using the same date range, time zone, and property definitions wherever possible. Preserve the source exports and note any differences between program reporting and your own analytics. Several properties under one account can create ambiguity if identifiers are reused, so resolve naming conflicts before launch rather than trying to reconstruct the history later."
+      ],
+      "table": {
+        "caption": "Multi-site account planning checklist",
+        "headers": [
+          "Area",
+          "Question to resolve",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Approval",
+            "Does each property need separate review or registration?",
+            "Written terms or a dated support response."
+          ],
+          [
+            "Tracking",
+            "Can links and reports distinguish each property?",
+            "Identifier map and recorded test results."
+          ],
+          [
+            "Access",
+            "Can users be limited to the work they perform?",
+            "Current role list and access owner."
+          ],
+          [
+            "Reporting",
+            "Can exports be filtered or grouped by property?",
+            "Sample export and field definitions."
+          ],
+          [
+            "Ownership",
+            "What happens if a property or operator changes?",
+            "Relevant transfer and change-control terms."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a controlled process for adding or removing a site",
+      "paragraphs": [
+        "Treat each new property as a small change request. Record the domain, owner, intended traffic sources, approval status, tracking identifiers, and person responsible for maintenance. Check the program's current permitted-traffic rules for that property and content context. General approval of one site does not necessarily settle the requirements for another.",
+        "When a property is retired, transferred, or no longer approved, identify where its links appear and what replacement or removal steps are needed. Keep a list of pages, templates, newsletters, and other placements that use the affected tracking links. Update the internal property map so an inactive identifier is not reused accidentally.",
+        "Review the structure periodically, especially after a domain change, team reorganization, program-terms update, or reporting redesign. A short recurring review can identify duplicate accounts, orphaned identifiers, stale access, and properties missing from the approval record. Keep the review operational: verify the records and settings rather than relying on memory or assumptions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can one affiliate account cover several websites?",
+      "answer": "That depends on the specific program's current rules and account tools. Confirm whether each property must be disclosed or approved, and keep written evidence of the program's answer before placing links."
+    },
+    {
+      "question": "Should I use a separate account for every site?",
+      "answer": "Not automatically. Compare the program's rules, reporting options, user permissions, and ownership requirements. Choose a structure that is permitted and can be administered reliably."
+    },
+    {
+      "question": "What should I do before adding a new domain?",
+      "answer": "Check approval requirements, traffic rules, tracking options, reporting separation, and who will manage the property. Document the result and test the tracking path before publishing broadly."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
