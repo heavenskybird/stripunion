@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded external heartbeat 2026-10-24T04:56:24.547Z: receipt 40060366754 success (started 2026-10-24T03:56:56.830Z, finished 2026-10-24T04:06:30.987Z); full 52-minute admission cooldown and 15-minute latest-kick spacing satisfied; current Actions runs show zero active canonical Producer/Scheduler writers; request exactly one out-of-band bridge wake.",
-  "updated_at": "2026-10-24T04:56:24.547Z"
+  "reason": "R1 guarded bounded recovery 2026-10-24T07:01:25.600Z: receipt run 40070537865 failure (started 2026-10-24T06:31:32.529Z, finished 2026-10-24T06:45:13.080Z, attempts=1); >10-minute bounded recovery delay satisfied, latest kick 2026-10-24T04:56:24.547Z >15 minutes old, no active canonical Producer/Scheduler writer in latest Actions inventory. Request ONE fresh bot-branch bridge wake to recover checkpoint; production verification has twice failed with HTTP 404/deployment-stale and requires Hostinger investigation.",
+  "updated_at": "2026-10-24T07:01:25.600Z"
 }
