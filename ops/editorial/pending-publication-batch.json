@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T06:33:19.832Z",
+  "generatedAt": "2026-10-24T12:06:17.948Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-game-system-requirements-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-warranty-and-defect-policy-review.json",
-    "ops/editorial/content-artifacts/premium-video-visual-interface-accessibility-audit.json",
-    "ops/editorial/content-artifacts/adult-account-password-manager-autofill-safety-check.json",
-    "ops/editorial/content-artifacts/live-cam-moderation-and-reporting-readiness-check.json"
+    "ops/editorial/content-artifacts/affiliate-program-geographic-eligibility-routing-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-delegated-access-permissions-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-account-cancellation-exit-checklist.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-discovery-method-comparison.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-account-free-catalog-evaluation.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-game-system-requirements-fit-audit.js",
-    "src/data/guides/adult-shop-warranty-and-defect-policy-review.js",
-    "src/data/guides/premium-video-visual-interface-accessibility-audit.js",
-    "src/data/guides/adult-account-password-manager-autofill-safety-check.js",
-    "src/data/guides/live-cam-moderation-and-reporting-readiness-check.js"
+    "src/data/guides/affiliate-program-geographic-eligibility-routing-audit.js",
+    "src/data/guides/creator-platform-delegated-access-permissions-audit.js",
+    "src/data/guides/adult-dating-platform-account-cancellation-exit-checklist.js",
+    "src/data/guides/adult-anime-platform-discovery-method-comparison.js",
+    "src/data/guides/vr-adult-platform-account-free-catalog-evaluation.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "premium-videos",
-    "privacy-safety-payment",
-    "live-cams"
+    "webmaster-affiliate",
+    "creator-platforms",
+    "dating-hookups",
+    "hentai-anime",
+    "vr-ar"
   ],
   "backlogIds": [
-    "adult-game-system-requirements-fit-audit",
-    "adult-shop-warranty-and-defect-policy-review",
-    "premium-video-visual-interface-accessibility-audit",
-    "adult-account-password-manager-autofill-safety-check",
-    "live-cam-moderation-and-reporting-readiness-check"
+    "affiliate-program-geographic-eligibility-routing-audit",
+    "creator-platform-delegated-access-permissions-audit",
+    "adult-dating-platform-account-cancellation-exit-checklist",
+    "adult-anime-platform-discovery-method-comparison",
+    "vr-adult-platform-account-free-catalog-evaluation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40070537865",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "40092407709"
 }

@@ -1,0 +1,117 @@
+export default {
+  "slug": "creator-platform-delegated-access-permissions-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Team Permissions Before Delegating Account Work",
+  "description": "Compare creator-platform team access by task, permission scope, review controls, and offboarding needs before sharing an account with a contractor or assistant.",
+  "excerpt": "Delegating routine work does not require giving every collaborator the same access. Map tasks to the narrowest practical permissions, test the workflow, and plan how to remove access when responsibilities change.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "List the actual tasks a collaborator must perform before inviting them into a creator account.",
+    "Distinguish access to drafts, publishing, fan communications, analytics, payments, and account settings.",
+    "Prefer individual, revocable access over shared credentials when the platform offers it.",
+    "Check what a collaborator can view or change before relying on a role label alone.",
+    "Include access review and removal in contractor changes, role changes, and account handover plans."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with tasks, not role names",
+      "paragraphs": [
+        "Creator teams often delegate narrow activities: preparing draft posts, scheduling approved material, answering routine questions, organizing records, or reviewing performance reports. A platform's role labels may not map neatly to those tasks. Before granting access, write down what the collaborator needs to do and what they should not be able to view or change. That list is a better decision tool than a broad label such as assistant or manager.",
+        "Separate actions that look similar but carry different consequences. Drafting is not the same as publishing; reading a message is not the same as sending one; viewing a report is not the same as changing payout details. Identify which activities could expose sensitive information, create a public commitment, or alter access for the account owner. Use those distinctions to decide what access is necessary and what should remain owner-controlled."
+      ],
+      "bullets": [
+        "Define each delegated task in plain language.",
+        "Mark tasks that can publish, message, change settings, or reveal financial information.",
+        "Name the owner who approves high-impact actions and reviews completed work."
+      ]
+    },
+    {
+      "heading": "Compare permission scope with real workflow needs",
+      "paragraphs": [
+        "When evaluating a platform's team controls, inspect the permissions available in practice rather than assuming a role name means limited access. Check whether the invited person can see private messages, account identifiers, financial records, unpublished material, or settings outside their assignment. If the platform offers only broad account access, assess whether the work can instead be completed through exported materials, a separate business tool, or an owner-reviewed handoff.",
+        "A permission matrix makes trade-offs visible. Record the task, the minimum information needed, the available platform permission, and any compensating review. If one role grants more access than needed, document that extra exposure and decide whether the operational benefit justifies it. Do not assume that a collaborator's good intentions eliminate the risk of accidental edits, misdirected messages, or access remaining active after the project ends."
+      ],
+      "table": {
+        "caption": "Map delegated creator work to account permissions",
+        "headers": [
+          "Task",
+          "Access to evaluate",
+          "Control to retain or add"
+        ],
+        "rows": [
+          [
+            "Prepare unpublished posts",
+            "Draft or content access",
+            "Owner approval before publication"
+          ],
+          [
+            "Schedule approved posts",
+            "Scheduling and publishing permissions",
+            "Confirm review and undo procedures"
+          ],
+          [
+            "Respond to routine messages",
+            "Message visibility and reply access",
+            "Define escalation topics and review sampling"
+          ],
+          [
+            "Prepare performance summaries",
+            "Analytics visibility and export access",
+            "Limit unrelated account or payment data"
+          ],
+          [
+            "Maintain account settings",
+            "Settings and ownership permissions",
+            "Reserve recovery and payout changes for the owner"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect ownership and account recovery",
+      "paragraphs": [
+        "The creator or business owner should understand which account remains the authoritative account, who controls its recovery methods, and how access is restored if a collaborator leaves unexpectedly. Avoid letting a contractor become the sole holder of a recovery channel, critical password, or ownership contact. Where the platform supports individual invitations, use them so each person's access can be reviewed and revoked separately.",
+        "Shared credentials make responsibility harder to establish and can complicate recovery. If a platform does not support delegated users, consider whether the task can be performed without sharing the main login. If credential sharing is unavoidable under the platform's rules, use a deliberate access procedure, limit the people involved, and document the recovery owner. Do not weaken account security to make collaboration convenient."
+      ]
+    },
+    {
+      "heading": "Set review and communication boundaries",
+      "paragraphs": [
+        "Permission controls do not replace a clear operating agreement. Explain which messages can be answered using approved language, which topics must be escalated, and who has authority to make commitments on behalf of the creator. Define how drafts are reviewed, where work is tracked, and how the collaborator should report a suspected mistake. A written workflow reduces ambiguity without requiring the owner to monitor every routine action in real time.",
+        "For access to private communications or audience information, make the scope explicit. Collaborators should know what information they need for the task, how to avoid copying it into unnecessary notes or external tools, and when to ask before sharing it with another team member. Keep the procedure proportionate to the sensitivity of the task, and check that it remains compatible with the platform's rules and the creator's own policies."
+      ],
+      "bullets": [
+        "Set approval requirements for publishing, account changes, and unusual requests.",
+        "Create escalation rules for sensitive, disputed, or unclear communications.",
+        "Review whether collaborators can export, retain, or forward information beyond their assigned work."
+      ]
+    },
+    {
+      "heading": "Make access review and offboarding routine",
+      "paragraphs": [
+        "Access should change when responsibilities change. Keep a simple register of who has access, why they need it, who approved it, and when it was last reviewed. Revisit the register when a contractor's project ends, a team member changes duties, or a security concern arises. The register is an operational aid, not a substitute for the platform's own account controls.",
+        "When removing a collaborator, revoke their platform invitation and any related access to shared workspaces or credentials. Check whether active sessions, saved devices, connected tools, or shared recovery methods also need attention. Confirm that account ownership and recovery remain with the appropriate person. If the platform provides an access history, preserve relevant records according to your business process without retaining unnecessary personal information."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a contractor use the creator's main login?",
+      "answer": "Individual delegated access is generally easier to review and revoke when the platform supports it. If only shared login access is available, check platform rules and document a careful security and recovery process before sharing credentials."
+    },
+    {
+      "question": "Is a platform role name enough to determine what a collaborator can do?",
+      "answer": "No. Role labels can be broad or unclear. Inspect the actual visibility and actions allowed, especially for publishing, messaging, account settings, recovery, and financial information."
+    },
+    {
+      "question": "How often should creator teams review access?",
+      "answer": "Review access when duties change, a project ends, a collaborator leaves, or a security concern appears. A regular review interval can also help catch access that no longer has a business purpose."
+    },
+    {
+      "question": "What if the platform offers only broad access?",
+      "answer": "Consider whether the task can be completed through a narrower workflow, such as owner-reviewed drafts or limited reports. If broad access is unavoidable, record the extra exposure and add appropriate approval, monitoring, and offboarding steps."
+    }
+  ]
+};
