@@ -1,0 +1,111 @@
+export default {
+  "slug": "affiliate-program-counterparty-terms-identity-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Identify the Contracting Party and Applicable Terms",
+  "description": "A due-diligence checklist for identifying who operates an affiliate program, which terms govern participation, and where to direct operational questions.",
+  "excerpt": "A program name may not identify the organization responsible for its terms or administration. Confirm the contracting party, applicable documents, and support route before relying on the relationship.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Identify the legal or business entity named in the program agreement, not only the brand shown in marketing.",
+    "Find the terms that apply to your account and verify whether separate policies are incorporated.",
+    "Record which organization operates tracking, reporting, and payment administration where disclosed.",
+    "Use documented contacts to clarify inconsistencies before sending material traffic.",
+    "Keep a dated copy of the terms and the identity information you relied on."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the program brand from the responsible entity",
+      "paragraphs": [
+        "An affiliate program may use a consumer-facing brand, a program name, a tracking domain, and an organization identified in its terms. Those names can refer to different parts of the arrangement. Before applying or placing links, locate the program agreement, account terms, or other governing document and identify the entity it names. Do not assume that the brand on a landing page is the party responsible for every program obligation.",
+        "Record the entity name as written, the document where it appears, and the date you reviewed it. If an agreement identifies an operator, network, or administrator in addition to a merchant, note what role each party is described as performing. This is an operational record, not a legal conclusion. If the relationship is unclear, request clarification through an official contact channel before building the program into your site."
+      ],
+      "bullets": [
+        "Look for the named entity in the participation agreement and linked terms.",
+        "Note whether the agreement distinguishes a merchant from an administrator or network.",
+        "Avoid treating a logo, account name, or tracking domain as proof of who is responsible."
+      ]
+    },
+    {
+      "heading": "Map the documents that govern participation",
+      "paragraphs": [
+        "Program terms may be presented across more than one document: an agreement, an acceptable-use policy, privacy information, creative rules, or instructions in the account dashboard. Identify which documents apply and whether the main agreement incorporates additional policies by reference. If the program has a revision date or version, record it. A link to a policy that cannot be opened, a missing document, or inconsistent naming deserves clarification before launch.",
+        "Make a small document map rather than relying on memory. For each document, record its title, location, last-updated information if shown, and the topic it covers. This can help you determine whether a question belongs to the commercial terms, traffic rules, data handling, or technical documentation. It also makes later reviews more efficient if an account notice says a policy has changed."
+      ],
+      "table": {
+        "caption": "A compact document map for evaluating an affiliate relationship",
+        "headers": [
+          "Document or record",
+          "What to identify"
+        ],
+        "rows": [
+          [
+            "Participation agreement",
+            "Named parties, acceptance process, term, and termination language."
+          ],
+          [
+            "Program policies",
+            "Traffic, creative, and other restrictions referenced by the agreement."
+          ],
+          [
+            "Privacy information",
+            "Organizations and data practices described for account or tracking data."
+          ],
+          [
+            "Dashboard notices",
+            "Account-specific conditions, changes, or required actions."
+          ],
+          [
+            "Support contact",
+            "The documented route for questions about terms and administration."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Clarify who performs each operational role",
+      "paragraphs": [
+        "Where the program discloses it, determine who operates the affiliate dashboard, tracking links, reporting, and payment administration. These functions may be handled by one organization or divided among several. Knowing the stated roles can help you direct a question to the appropriate team and understand which account or document controls a particular process. Do not infer that one party handles a function just because its name appears on a webpage.",
+        "For each role, record the source of your information. For instance, an agreement may identify one party while dashboard documentation describes another as the tracking provider. If those descriptions do not fit together, ask for a written explanation of the relationship and the correct support route. Clear operational ownership matters most when you need to resolve an account issue, interpret a notice, or confirm which terms apply."
+      ]
+    },
+    {
+      "heading": "Check for inconsistencies before integrating",
+      "paragraphs": [
+        "Compare the entity named in the agreement with the name shown during application, in the account dashboard, and in any program communications. Differences may have an ordinary explanation, such as a disclosed administrator or group company, but do not fill in the explanation yourself. Request confirmation of which entity is party to your agreement and which documents apply to your account.",
+        "Also check that the destination for questions is functional and relevant. A generic contact form may be sufficient for routine matters, but you should know how to submit a question about terms, account ownership, or program administration. Save the response with your document map. If no one can clarify a material inconsistency, consider delaying integration rather than committing operational resources on an uncertain basis."
+      ],
+      "bullets": [
+        "Compare names across the agreement, application, dashboard, and official notices.",
+        "Ask which entity is party to the agreement and which policy versions apply.",
+        "Keep written clarification with the records for that program."
+      ]
+    },
+    {
+      "heading": "Maintain a usable record as terms evolve",
+      "paragraphs": [
+        "Store the agreement and relevant policies in a location where the people who manage the affiliate relationship can access them. Include the date reviewed and any official explanation that resolved an identity or document question. Restrict access to staff who need it, and avoid placing account credentials alongside general compliance records. A simple index can point to the current documents without exposing sensitive login information.",
+        "When the program sends an update, compare the notice with your saved document map. Identify whether it changes the named parties, the applicable policy, or only an operational instruction. If the notice is unclear, ask for the current governing document and its effective date. This process helps your team distinguish a genuine change from a different label or communication channel, without assuming that an old copy remains current."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the program brand necessarily the party to my affiliate agreement?",
+      "answer": "Not necessarily. Read the agreement or governing terms for the named entity and note any disclosed administrator or network. Ask the program to clarify the roles if the documents use different names."
+    },
+    {
+      "question": "Which documents should a webmaster keep?",
+      "answer": "Keep the participation agreement, policies it references, relevant privacy or tracking documentation, and material account notices. Record when you reviewed each and where it came from."
+    },
+    {
+      "question": "What if the dashboard and agreement name different organizations?",
+      "answer": "Do not assume the difference is an error or that it is immaterial. Ask through an official channel which organization is party to the agreement and which entity handles the relevant operational function."
+    },
+    {
+      "question": "Is this checklist a substitute for legal advice?",
+      "answer": "No. It is an operational due-diligence process for organizing documents and questions. If you need an interpretation of legal obligations, consult an appropriately qualified professional."
+    }
+  ]
+};

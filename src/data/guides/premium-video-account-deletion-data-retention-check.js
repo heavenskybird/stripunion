@@ -1,0 +1,106 @@
+export default {
+  "slug": "premium-video-account-deletion-data-retention-check",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Accounts: Check Data Retention Before You Delete Your Profile",
+  "description": "Understand the difference between cancelling a membership and deleting an account, and check how to preserve records and review data-retention terms first.",
+  "excerpt": "Removing an account may affect viewing history, saved items, receipts, and access, but it is not always the same as cancelling a subscription. Check both processes before acting.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Treat membership cancellation and account deletion as separate actions until the service confirms otherwise.",
+    "Check what records, saved items, and access may be lost when an account is deleted.",
+    "Download or retain receipts and other records you may need before starting deletion.",
+    "Look for the platform’s stated process for deletion requests and any explained retention exceptions.",
+    "Verify billing status after taking action rather than relying only on a confirmation screen."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the action you actually need",
+      "paragraphs": [
+        "A person may want to stop future charges, remove a profile from a device, erase saved account information, or close an account entirely. Those are different goals, and a platform may provide different processes for each. Cancelling a membership may stop a renewal while leaving the account available. Deleting an account may affect saved items, preferences, access, or records. Do not assume one action automatically performs the other.",
+        "Start by writing down the outcome you want: no future renewal, no active profile, removal of particular data, or complete account closure. Then read the platform’s instructions for that action and check who manages billing if the membership was started through another service. If billing and the video account are managed separately, account deletion alone may not resolve the billing arrangement."
+      ],
+      "bullets": [
+        "Find the membership cancellation instructions and account deletion instructions separately.",
+        "Identify which organization or billing channel manages the subscription.",
+        "Check whether deletion is reversible and whether access ends immediately or later."
+      ]
+    },
+    {
+      "heading": "Inventory the information and access you may lose",
+      "paragraphs": [
+        "Before requesting account deletion, consider what is associated with the profile: saved titles, viewing progress, preferences, playlists, support messages, or account-linked purchase records. The platform may not retain or restore those items after deletion. If you rely on any of them, check whether the service provides an export or another way to keep a personal record. Do not assume that a screenshot or export will include every account detail.",
+        "Separate personal records from platform access. Receipts, renewal confirmations, and support correspondence may be useful if you later need to check a charge or resolve an account question. Save appropriate records in a private location before deletion, while avoiding unnecessary copies of sensitive information. Also note any access that depends on the account, such as a membership or individually purchased items, and read the service’s explanation of what happens to each."
+      ],
+      "table": {
+        "caption": "Pre-deletion inventory to help avoid unintended loss",
+        "headers": [
+          "Item to review",
+          "Question to resolve first"
+        ],
+        "rows": [
+          [
+            "Membership",
+            "Has it been cancelled through the correct billing channel?"
+          ],
+          [
+            "Receipts and confirmations",
+            "Do you need copies for your records before account access ends?"
+          ],
+          [
+            "Saved items and progress",
+            "Can they be exported, or will deletion remove them?"
+          ],
+          [
+            "Purchased access",
+            "Does the platform explain whether the account is needed to use it?"
+          ],
+          [
+            "Personal data",
+            "What deletion process and retention exceptions does the notice describe?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the privacy notice for deletion and retention terms",
+      "paragraphs": [
+        "Look for the service’s description of how to submit a deletion request, how it confirms a request, and what information it says may remain for a stated purpose. A privacy notice may distinguish account details from records retained for operational, security, transaction, or legal reasons. The exact terms vary, so use the service’s current notice rather than assuming that selecting “delete” removes every associated record at once.",
+        "Check whether the platform asks you to verify the account before processing a request and whether it gives a way to track the request. Be careful about providing additional information through unofficial channels. Use the platform’s documented support or privacy contact route, and send only information reasonably needed to identify the account or request. If the process is unclear, ask what steps are required and what confirmation you should expect."
+      ]
+    },
+    {
+      "heading": "Protect account records while preparing to leave",
+      "paragraphs": [
+        "Save essential billing and account records before initiating deletion, but store them thoughtfully. A private, access-controlled location is preferable to a shared device or an unprotected inbox. If you use a shared computer or phone, sign out after saving records and remove local copies that you no longer need. Avoid forwarding sensitive records to an account that other people can access.",
+        "If you are deleting an account because you no longer want recommendations or email, check whether the platform offers narrower controls such as changing communication preferences or removing selected profile information. Those controls may suit your goal without closing the entire account, but verify their effect in the service’s documentation. Do not treat a privacy preference change as proof that all prior records have been deleted."
+      ]
+    },
+    {
+      "heading": "Confirm cancellation and deletion separately",
+      "paragraphs": [
+        "After submitting a cancellation or deletion request, keep the confirmation and note the date. If the platform says a request will take time to process, retain the stated process details and watch for a completion notice. Check the account or billing channel for the resulting status when possible. A disappearance of an app icon or a sign-out does not establish that a subscription has ended or that an account deletion request was completed.",
+        "If a renewal appears after you believe you cancelled, compare the charge date with the cancellation confirmation and the platform’s stated terms. Contact the billing provider or platform identified in the terms, and provide the relevant records through its support process. Keep the issues distinct: billing status, account access, and deletion status may require separate confirmation. This method gives you a clearer record without assuming what the service will retain or remove."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does deleting a premium video account automatically cancel its membership?",
+      "answer": "Do not assume that it does. Check the service’s instructions and identify the billing channel. If cancellation and account deletion are separate, complete and confirm both actions that match your goal."
+    },
+    {
+      "question": "Will account deletion erase every record immediately?",
+      "answer": "Not necessarily. The platform’s privacy notice should explain its deletion process and any information it says may be retained. Review the current terms and request clarification if the process is not clear."
+    },
+    {
+      "question": "What should I save before deleting an account?",
+      "answer": "Consider keeping relevant receipts, renewal or cancellation confirmations, support correspondence, and any records you may need later. Store them securely and avoid retaining more sensitive information than necessary."
+    },
+    {
+      "question": "Can I remove viewing history without deleting my whole account?",
+      "answer": "That depends on the platform’s controls. Check whether it offers history, profile, or recommendation settings as separate options, and read what each control does before relying on it."
+    }
+  ]
+};

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T20:49:38.335Z",
+  "generatedAt": "2026-10-24T21:55:35.522Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-community-features-visibility-fit.json",
-    "ops/editorial/content-artifacts/vr-adult-streaming-format-entitlement-comparison.json",
-    "ops/editorial/content-artifacts/adult-manga-reading-progress-device-handoff-audit.json",
-    "ops/editorial/content-artifacts/free-video-unstable-connection-playback-resilience.json",
-    "ops/editorial/content-artifacts/adult-game-installer-source-and-permissions-preflight.json"
+    "ops/editorial/content-artifacts/adult-shop-checkout-total-cost-transparency-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-location-precision-privacy-audit.json",
+    "ops/editorial/content-artifacts/premium-video-account-deletion-data-retention-check.json",
+    "ops/editorial/content-artifacts/creator-platform-release-schedule-operations-workflow.json",
+    "ops/editorial/content-artifacts/affiliate-program-counterparty-terms-identity-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-community-features-visibility-fit.js",
-    "src/data/guides/vr-adult-streaming-format-entitlement-comparison.js",
-    "src/data/guides/adult-manga-reading-progress-device-handoff-audit.js",
-    "src/data/guides/free-video-unstable-connection-playback-resilience.js",
-    "src/data/guides/adult-game-installer-source-and-permissions-preflight.js"
+    "src/data/guides/adult-shop-checkout-total-cost-transparency-audit.js",
+    "src/data/guides/dating-platform-location-precision-privacy-audit.js",
+    "src/data/guides/premium-video-account-deletion-data-retention-check.js",
+    "src/data/guides/creator-platform-release-schedule-operations-workflow.js",
+    "src/data/guides/affiliate-program-counterparty-terms-identity-review.js"
   ],
   "categories": [
+    "adult-shops",
     "dating-hookups",
-    "vr-ar",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "premium-videos",
+    "creator-platforms",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "dating-platform-community-features-visibility-fit",
-    "vr-adult-streaming-format-entitlement-comparison",
-    "adult-manga-reading-progress-device-handoff-audit",
-    "free-video-unstable-connection-playback-resilience",
-    "adult-game-installer-source-and-permissions-preflight"
+    "adult-shop-checkout-total-cost-transparency-audit",
+    "dating-platform-location-precision-privacy-audit",
+    "premium-video-account-deletion-data-retention-check",
+    "creator-platform-release-schedule-operations-workflow",
+    "affiliate-program-counterparty-terms-identity-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40131256111",
-  "phase": "closed"
+  "r1CycleId": "40136209064"
 }
