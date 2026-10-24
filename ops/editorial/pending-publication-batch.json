@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T14:32:30.325Z",
+  "generatedAt": "2026-10-24T16:17:06.203Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-third-party-login-privacy-review.json",
-    "ops/editorial/content-artifacts/adult-dating-verification-badge-evidence-review.json",
-    "ops/editorial/content-artifacts/live-cam-mobile-usability-fit-audit.json",
-    "ops/editorial/content-artifacts/premium-video-audio-description-availability-audit.json",
-    "ops/editorial/content-artifacts/free-video-content-reporting-and-removal-workflow.json"
+    "ops/editorial/content-artifacts/vr-adult-headset-power-session-planning.json",
+    "ops/editorial/content-artifacts/adult-game-community-moderation-safety-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-billing-descriptor-privacy-check.json",
+    "ops/editorial/content-artifacts/adult-anime-title-completeness-catalog-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-first-meeting-safety-planning.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-third-party-login-privacy-review.js",
-    "src/data/guides/adult-dating-verification-badge-evidence-review.js",
-    "src/data/guides/live-cam-mobile-usability-fit-audit.js",
-    "src/data/guides/premium-video-audio-description-availability-audit.js",
-    "src/data/guides/free-video-content-reporting-and-removal-workflow.js"
+    "src/data/guides/vr-adult-headset-power-session-planning.js",
+    "src/data/guides/adult-game-community-moderation-safety-audit.js",
+    "src/data/guides/adult-shop-billing-descriptor-privacy-check.js",
+    "src/data/guides/adult-anime-title-completeness-catalog-audit.js",
+    "src/data/guides/adult-dating-first-meeting-safety-planning.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "dating-hookups",
-    "live-cams",
-    "premium-videos",
-    "free-videos"
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "adult-platform-third-party-login-privacy-review",
-    "adult-dating-verification-badge-evidence-review",
-    "live-cam-mobile-usability-fit-audit",
-    "premium-video-audio-description-availability-audit",
-    "free-video-content-reporting-and-removal-workflow"
+    "vr-adult-headset-power-session-planning",
+    "adult-game-community-moderation-safety-audit",
+    "adult-shop-billing-descriptor-privacy-check",
+    "adult-anime-title-completeness-catalog-audit",
+    "adult-dating-first-meeting-safety-planning"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40102788201",
-  "phase": "closed"
+  "r1CycleId": "40110672154"
 }

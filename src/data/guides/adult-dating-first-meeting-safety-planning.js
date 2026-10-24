@@ -1,0 +1,125 @@
+export default {
+  "slug": "adult-dating-first-meeting-safety-planning",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating: Plan a First In-Person Meeting with Clear Safety Boundaries",
+  "description": "A practical, non-alarmist checklist for moving from online conversation to an adult dating meeting, including venue, transport, check-ins and boundaries.",
+  "excerpt": "A good first-meeting plan is specific, flexible and yours to control. Agree on a public venue, independent transport and a check-in plan before sharing more personal information or changing locations.",
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "keyTakeaways": [
+    "Choose a first meeting in a public place where you can arrive and leave independently; do not let a new match control your transportation.",
+    "Tell a trusted person the basic plan and agree on a check-in time and an action if you do not respond.",
+    "Keep early communication and planning within the platform or channel you are comfortable using; moving off-platform is optional.",
+    "Set boundaries in advance, including what you are comfortable sharing and what you will do if plans change or you feel uneasy.",
+    "Treat platform safety features and profile verification as limited tools, not proof that another person is safe or that a meeting will go as planned."
+  ],
+  "sections": [
+    {
+      "heading": "Decide whether the move offline feels right",
+      "paragraphs": [
+        "A meeting is optional. You can continue chatting, ask questions, suggest a public setting, or decide not to proceed. A match, friendly conversation or verification indicator does not create an obligation to meet. Take time to assess whether the other person respects ordinary boundaries, such as accepting a public venue, a limited first meeting or a change of plans.",
+        "Before agreeing, consider what information you have shared and what you still want to keep private. Avoid sending identity documents, workplace details, home address or financial information to someone you have not established trust with. If someone pressures you to move quickly, keep the meeting secret, send money or ignore your boundaries, treat that behavior as a reason to pause or decline rather than a problem you must solve for them."
+      ],
+      "bullets": [
+        "You can delay, decline or cancel without owing an explanation.",
+        "Agree only to a plan that leaves you control over your arrival and departure.",
+        "Do not send money or sensitive identifying information as a condition of meeting."
+      ]
+    },
+    {
+      "heading": "Choose a meeting plan that keeps options open",
+      "paragraphs": [
+        "For an initial meeting, choose a public location that is accessible to you and where you can leave without relying on the other person. Decide how long you want to stay and how you will get there and back. If the other person proposes a private location or an unexpected second stop, you can say no and keep the original plan or leave. A plan is not binding simply because it was agreed in chat.",
+        "Share only the location information needed to coordinate. You may choose a well-known public venue rather than disclosing your home or regular routine. Keep your phone charged and retain access to your own transport funds or route. If you are meeting in an unfamiliar area, consider how you will get home and whether you have a backup route. Practical independence is more useful than relying on assurances from someone you have not met."
+      ],
+      "table": {
+        "caption": "A simple first-meeting plan assigns a decision and a backup before you leave.",
+        "headers": [
+          "Planning item",
+          "Decision to make",
+          "Backup or boundary"
+        ],
+        "rows": [
+          [
+            "Venue",
+            "Choose a public place you are comfortable reaching",
+            "Decline a last-minute switch to a private location"
+          ],
+          [
+            "Transport",
+            "Arrange your own way there and back",
+            "Keep a second route or contact option available"
+          ],
+          [
+            "Check-in",
+            "Tell a trusted person when you expect to check in",
+            "Agree what they should do if you do not respond"
+          ],
+          [
+            "Duration",
+            "Set a time window that suits you",
+            "Leave when you want; you do not need to extend the meeting"
+          ],
+          [
+            "Communication",
+            "Choose the channel you prefer for coordination",
+            "Keep platform messaging if you do not want to share a number"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set up a check-in that is useful, not performative",
+      "paragraphs": [
+        "A check-in works best when another person knows what to expect. Tell a trusted friend or contact where you plan to meet, roughly when you expect to finish and how they can reach you. Agree on a check-in time and what action they should take if you miss it. Share only the details needed for that plan, and choose someone you trust to respect your privacy.",
+        "Consider a brief message when you arrive and when you leave, if that feels right for you. You can also agree on a simple phrase that signals you need a call or assistance, but do not rely on a code as your only safety plan. Keep your phone accessible and know local emergency options. A check-in supports your own plan; it cannot guarantee safety or substitute for leaving a situation that feels wrong."
+      ],
+      "bullets": [
+        "Share the plan with someone you trust before leaving.",
+        "Set a specific check-in time and a clear follow-up action.",
+        "Keep your phone charged and accessible.",
+        "Leave or seek assistance if you feel unsafe, even if no check-in is due."
+      ]
+    },
+    {
+      "heading": "Keep control of communication and personal information",
+      "paragraphs": [
+        "You are not required to move a conversation to text, voice or another service. Staying on the dating platform may preserve its available block or report tools, while using another channel may reveal contact details. Review what a phone number, messaging profile or social account could expose before sharing it. If you choose to move channels, use a contact method you are comfortable associating with the person and understand its privacy settings.",
+        "During the meeting, maintain the boundaries you set online. You can decline questions, refuse a change of venue, end the meeting or stop responding afterward. Consent to meet is not consent to anything else, and agreeing to one plan does not require agreeing to a different plan. If you want to leave, prioritize leaving safely over being polite or finishing a conversation."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Use platform tools without overestimating them",
+      "paragraphs": [
+        "Before meeting, locate the platform’s block and report options and know how to access them if needed. Use those tools for behavior that violates the service’s rules or makes you uncomfortable. A profile badge or identity check, where offered, may indicate that a particular check took place; it does not prove a person’s intentions, current circumstances or suitability for an in-person meeting.",
+        "Keep the distinction between platform safeguards and your personal plan clear. The platform may provide messaging controls or community guidance, but you still decide what information to share, where to meet and when to leave. If a concerning interaction occurs, preserve relevant messages if you may need to report it, use official reporting routes and consider support from someone you trust. Do not make assumptions about a platform’s response time or outcome unless its current policies say so."
+      ],
+      "bullets": [
+        "Know where blocking and reporting controls are before you need them.",
+        "Treat profile checks as limited signals rather than guarantees.",
+        "Keep control of your location, transport and decision to leave.",
+        "Use official support routes and trusted contacts if a concern arises."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I share my home address before a first date?",
+      "answer": "You do not need to share your home address to arrange an initial meeting. Choose a public venue and transportation plan that do not depend on revealing where you live. Share only the information needed to coordinate, and only when you are comfortable doing so."
+    },
+    {
+      "question": "Is meeting in public enough to make a first meeting safe?",
+      "answer": "No single precaution guarantees safety. A public venue can be one part of a plan that also includes independent transport, a trusted-person check-in, clear boundaries and the ability to leave. Use the combination that fits your circumstances and trust your judgment if plans change."
+    },
+    {
+      "question": "Do I have to move the conversation off the dating platform?",
+      "answer": "No. Moving to text or another service is optional. Consider whether sharing a phone number or account could reveal identifying details, and whether you prefer to retain the platform’s available communication controls. You can decline or wait."
+    },
+    {
+      "question": "What if my match changes the venue at the last minute?",
+      "answer": "You can keep the original plan, suggest another public location you choose, postpone or cancel. Do not feel obligated to go to a private or unfamiliar place. If you feel pressured or unsafe, end the interaction and contact someone you trust or local emergency services if needed."
+    }
+  ]
+};
