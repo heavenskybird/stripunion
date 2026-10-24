@@ -4,7 +4,7 @@
   "startedAt": "2026-10-24T07:36:27.414Z",
   "status": "failure",
   "cycleId": "40070537865",
-  "attempts": 3,
+  "attempts": 1,
   "recentRunIds": [
     "38115668454",
     "38101793893",
@@ -136,5 +136,12 @@
     "40072514154",
     "40074795165"
   ],
-  "finishedAt": "2026-10-24T07:48:39.928Z"
+  "finishedAt": "2026-10-24T07:48:39.928Z",
+  "operatorRecovery": {
+    "reason": "Hostinger redeploy completed; owner verified all five pending guide pages load in browser on 2026-10-24. Resume same pending batch for machine fingerprint and ledger verification without regenerating content.",
+    "previousAttempts": 3,
+    "rearmedAt": "2026-10-24T10:57:00Z",
+    "preserveCycleId": "40070537865",
+    "sourceRunId": "40074795165"
+  }
 }
