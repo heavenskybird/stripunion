@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T21:55:35.522Z",
+  "generatedAt": "2026-10-24T23:12:39.871Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-checkout-total-cost-transparency-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-location-precision-privacy-audit.json",
-    "ops/editorial/content-artifacts/premium-video-account-deletion-data-retention-check.json",
-    "ops/editorial/content-artifacts/creator-platform-release-schedule-operations-workflow.json",
-    "ops/editorial/content-artifacts/affiliate-program-counterparty-terms-identity-review.json"
+    "ops/editorial/content-artifacts/live-cam-interaction-menu-clarity-check.json",
+    "ops/editorial/content-artifacts/adult-platform-smart-tv-voice-activity-privacy-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-multi-device-session-limits-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-content-tag-and-filter-fit-audit.json",
+    "ops/editorial/content-artifacts/free-video-outbound-link-and-download-prompt-safety-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-checkout-total-cost-transparency-audit.js",
-    "src/data/guides/dating-platform-location-precision-privacy-audit.js",
-    "src/data/guides/premium-video-account-deletion-data-retention-check.js",
-    "src/data/guides/creator-platform-release-schedule-operations-workflow.js",
-    "src/data/guides/affiliate-program-counterparty-terms-identity-review.js"
+    "src/data/guides/live-cam-interaction-menu-clarity-check.js",
+    "src/data/guides/adult-platform-smart-tv-voice-activity-privacy-audit.js",
+    "src/data/guides/vr-adult-platform-multi-device-session-limits-audit.js",
+    "src/data/guides/adult-anime-content-tag-and-filter-fit-audit.js",
+    "src/data/guides/free-video-outbound-link-and-download-prompt-safety-check.js"
   ],
   "categories": [
-    "adult-shops",
-    "dating-hookups",
-    "premium-videos",
-    "creator-platforms",
-    "webmaster-affiliate"
+    "live-cams",
+    "privacy-safety-payment",
+    "vr-ar",
+    "hentai-anime",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-checkout-total-cost-transparency-audit",
-    "dating-platform-location-precision-privacy-audit",
-    "premium-video-account-deletion-data-retention-check",
-    "creator-platform-release-schedule-operations-workflow",
-    "affiliate-program-counterparty-terms-identity-review"
+    "live-cam-interaction-menu-clarity-check",
+    "adult-platform-smart-tv-voice-activity-privacy-audit",
+    "vr-adult-platform-multi-device-session-limits-audit",
+    "adult-anime-content-tag-and-filter-fit-audit",
+    "free-video-outbound-link-and-download-prompt-safety-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40136209064",
-  "phase": "closed"
+  "r1CycleId": "40141650187"
 }

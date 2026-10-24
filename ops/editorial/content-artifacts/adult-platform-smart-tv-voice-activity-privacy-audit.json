@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-platform-smart-tv-voice-activity-privacy-audit",
+  "slug": "adult-platform-smart-tv-voice-activity-privacy-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms on Smart TVs: Check Voice Search, Profiles, and Recent Activity",
+  "description": "Review smart-TV voice controls, profile visibility, and activity history before using an adult platform on a television or connected device.",
+  "excerpt": "A television can involve several accounts and activity surfaces. This guide helps you check voice search, profiles, recommendations, and shared-screen exposure before you sign in.",
+  "keyTakeaways": [
+    "Check whether voice searches are handled by the television, its assistant, the platform, or more than one service.",
+    "Review which TV profile is active and whether its recommendations or recent activity are visible to others.",
+    "Test how leaving playback, switching profiles, and signing out affect the screen and account state.",
+    "Use controls you understand, and avoid assuming that closing a screen deletes account or device history."
+  ],
+  "sections": [
+    {
+      "heading": "Map the accounts involved before signing in",
+      "paragraphs": [
+        "A smart-TV session may involve a television account, a device or app-store account, a browser or streaming app, and an adult-platform account. These layers can have different profiles, histories, and privacy controls. Before entering credentials, identify which service is asking you to sign in and which account will manage the app or device.",
+        "Check the screen’s account indicator and profile name rather than relying on the person who last used the television. If the device is shared, a sign-in on the TV may be visible to other household members through app lists, profile menus, or account-switching screens. Where separate profiles are available, confirm what they actually separate; a profile may organize preferences without hiding the app or the account from other users."
+      ],
+      "bullets": [
+        "Identify the active TV profile and platform account.",
+        "Check whether the app is installed under a shared device account.",
+        "Find the sign-out and account-switching controls before you need them."
+      ]
+    },
+    {
+      "heading": "Understand what voice search might capture",
+      "paragraphs": [
+        "Voice search can pass a query through several systems. The television’s voice assistant may process the request before a platform app receives it, and the device provider may have its own activity settings. Do not assume a voice command remains only inside the app where you started speaking. Review the television’s microphone and voice-assistant settings as well as any controls offered by the platform.",
+        "Consider using remote-control text entry instead if you cannot determine how voice requests are handled or retained. If voice features are enabled, check for settings related to microphone access, voice history, personalization, and deletion. The setting names vary by device, so use the device’s own documentation to identify what each control changes. Disabling a feature may limit convenience, but it can reduce the number of services involved in a search."
+      ],
+      "table": {
+        "caption": "Questions to ask about smart-TV activity surfaces",
+        "headers": [
+          "Surface",
+          "What to check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Voice search",
+            "Which assistant receives a request and what history controls exist",
+            "A search may be processed outside the platform app"
+          ],
+          [
+            "TV profile",
+            "Whether profiles show distinct recommendations or recent activity",
+            "Other viewers may use the same device"
+          ],
+          [
+            "App screen",
+            "Whether signed-in accounts are visible in an app chooser or switcher",
+            "The app itself can reveal that an account is present"
+          ],
+          [
+            "Recent activity",
+            "Whether device or platform history can be reviewed or cleared",
+            "Closing playback may not clear stored activity"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review profiles and recommendation visibility",
+      "paragraphs": [
+        "Profiles can shape recommendations, queues, or recently viewed items, but their privacy behavior is not uniform. Check whether a profile is protected by a separate sign-in, whether profile names are visible from the home screen, and whether switching profiles actually hides previous activity. Avoid treating a profile label as a private boundary unless the device and service explain what it protects.",
+        "Preview screens, search suggestions, and home-page rows may reveal activity even when playback is stopped. Before using the TV, inspect what appears on the home screen after a session and whether recommendations or continue-watching rows are shared across profiles. If you cannot verify how these features behave, consider not signing into a shared profile or use a device where you control the account and display."
+      ]
+    },
+    {
+      "heading": "Test leaving, signing out, and clearing activity",
+      "paragraphs": [
+        "A useful privacy check is to learn the difference between pausing playback, closing an app, switching profiles, signing out, and removing an account from the device. These actions are not interchangeable. Closing an app may leave a session active, and signing out of a platform may not remove device-level search history or recommendations already generated.",
+        "Use non-sensitive navigation to inspect the controls before relying on them. Confirm what the platform says will be deleted, what remains in a device account, and whether clearing history affects recommendations or saved items. If the interface provides a confirmation step, read it. Keep any account recovery information private, and avoid leaving credentials saved on a device that other people can access."
+      ],
+      "bullets": [
+        "Locate separate controls for app sign-out and device-profile switching.",
+        "Check what a history-clearing control includes and excludes.",
+        "Verify that the app returns to a signed-out screen before leaving a shared TV."
+      ]
+    },
+    {
+      "heading": "Build a repeatable shared-TV routine",
+      "paragraphs": [
+        "A routine is more dependable than trying to remember privacy settings after each use. Before starting, check the active profile, voice-assistant state, and screen visibility. Afterward, stop playback, return to a neutral screen, sign out if appropriate, and review any available recent-activity controls. Follow the device and platform instructions rather than assuming a single action clears every trace.",
+        "Keep the routine proportionate to your situation. On a device used only by you, account separation may be less important than understanding voice history and recommendations. On a shared television, profile visibility and saved credentials may matter more. If you cannot control who can view the TV screen or account, choose another device or do not sign in. These steps reduce accidental exposure but cannot guarantee that every service has no retained records."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does signing out of an app remove smart-TV voice history?",
+      "answer": "Not necessarily. App sign-out and device voice-assistant history may be managed separately. Review the television’s voice settings and the platform’s account controls independently."
+    },
+    {
+      "question": "Does a separate TV profile guarantee privacy?",
+      "answer": "No. Profiles may separate recommendations or preferences without hiding app presence, account names, or device-level activity. Check the actual profile and visibility behavior."
+    },
+    {
+      "question": "Is using text search always private?",
+      "answer": "No method guarantees privacy. Text search can avoid speaking a query aloud, but the device or platform may still process and retain search activity under its own settings."
+    }
+  ],
+  "publishedAt": "2026-10-24",
+  "updatedAt": "2026-10-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
