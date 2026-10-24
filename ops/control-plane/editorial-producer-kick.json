@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded bounded recovery 2026-10-24T07:01:25.600Z: receipt run 40070537865 failure (started 2026-10-24T06:31:32.529Z, finished 2026-10-24T06:45:13.080Z, attempts=1); >10-minute bounded recovery delay satisfied, latest kick 2026-10-24T04:56:24.547Z >15 minutes old, no active canonical Producer/Scheduler writer in latest Actions inventory. Request ONE fresh bot-branch bridge wake to recover checkpoint; production verification has twice failed with HTTP 404/deployment-stale and requires Hostinger investigation.",
-  "updated_at": "2026-10-24T07:01:25.600Z"
+  "reason": "R1 guarded cadence wake 2026-10-24T12:03:55.994Z: isolated receipt run 40088234711 success (admitted 2026-10-24T11:01:50.960Z, finished 2026-10-24T11:04:01.740Z, attempts=2); 52-minute cooldown elapsed, latest canonical main Scheduler run 40090881623 completed at 2026-10-24T11:41:10Z with no new admission, latest Actions inventory shows no active Producer/Scheduler writer. Bot branch previous kick 2026-10-24T07:01:25.600Z is >15 minutes old. Request exactly ONE fresh out-of-band bridge wake on bot branch; no historical rerun or main change.",
+  "updated_at": "2026-10-24T12:03:55.994Z"
 }
