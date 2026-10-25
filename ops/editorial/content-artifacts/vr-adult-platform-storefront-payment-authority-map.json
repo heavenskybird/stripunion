@@ -1,0 +1,118 @@
+{
+  "backlogId": "vr-adult-platform-storefront-payment-authority-map",
+  "slug": "vr-adult-platform-storefront-payment-authority-map",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Find Which Account Controls the Purchase",
+  "description": "Before joining a VR adult platform, map the roles of the content service, headset storefront, and payment account so you know where purchase controls may reside.",
+  "excerpt": "A VR viewing setup can involve several accounts. Map which service presents the content, processes the transaction, and provides account controls before committing.",
+  "keyTakeaways": [
+    "A headset, a content provider, and a payment service can have separate accounts and separate responsibilities.",
+    "Identify which account appears to control purchase confirmation, subscription changes, and support before starting a transaction.",
+    "Do not assume that buying or subscribing inside a headset means the content provider and device storefront share the same account or policies.",
+    "Check whether account linking is required and what information the connection is said to share.",
+    "Keep a simple record of the account and support route associated with each transaction, without storing sensitive payment data in an unsafe place."
+  ],
+  "sections": [
+    {
+      "heading": "Map the services involved before choosing a purchase route",
+      "paragraphs": [
+        "A VR content experience may involve a headset account, a content-platform account, and a separate payment or billing service. These roles can be combined in some setups or handled separately in others. Do not infer the arrangement from the headset interface or a logo on a checkout screen. Before paying, identify which service presents the content and which account the transaction instructions say will control it.",
+        "Create a short map with three entries: the account used to access the headset, the account used to access the content, and the account or service named for the transaction. For each, note whether it is required and whether the platform explains how the accounts connect. This map is not a prediction about every service; it is a way to make the arrangement visible before you rely on it."
+      ],
+      "table": {
+        "caption": "A basic account-responsibility map",
+        "headers": [
+          "Role",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Headset or device account",
+            "Does it provide device access only, or is it named in the purchase flow?"
+          ],
+          [
+            "Content-platform account",
+            "Is it required to browse, join, or access the library?"
+          ],
+          [
+            "Transaction account",
+            "Which account or service is identified for purchase management and support?"
+          ],
+          [
+            "Linked accounts",
+            "Is a connection required, and what information does the explanation say is shared?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Identify where purchase controls are described",
+      "paragraphs": [
+        "A checkout screen may present the amount and request confirmation, but that does not by itself tell you where later account controls are located. Look for explicit instructions about managing the purchase, changing access, or seeking help. If those instructions refer to a device storefront, record that. If they point to the content provider, record that instead. If the page does not say, the responsibility remains unclear.",
+        "Keep the question narrow: which account is named as the place to manage this transaction? Do not assume that the service displaying content can change a purchase made through another account, or that a device storefront can answer questions about content access. This distinction can save time later and can help you decide whether the arrangement is understandable enough to use."
+      ]
+    },
+    {
+      "heading": "Check account-linking requirements and boundaries",
+      "paragraphs": [
+        "Some services may ask you to connect accounts to enable access or coordinate a purchase. Before agreeing, read the account-linking explanation and note which accounts are connected, what data is said to move between them, and whether the connection can be removed. A general button saying “continue” does not answer those questions. Use the documented instructions rather than guessing what a link does.",
+        "Consider whether you are using a personal or shared headset account. Linking a private content account to a shared device profile may make access, purchase prompts, or account details visible in places you did not intend. Check the relevant profile and account settings before linking. If the platform does not explain how to unlink accounts or what happens to access afterward, treat that as an unresolved point before proceeding."
+      ],
+      "bullets": [
+        "Confirm that you control every account you plan to connect.",
+        "Read the stated data-sharing and unlinking information before accepting.",
+        "Avoid entering credentials into a page reached through an unexpected prompt."
+      ]
+    },
+    {
+      "heading": "Compare access paths by responsibility, not appearance",
+      "paragraphs": [
+        "A content platform may be available through a browser, a headset interface, or another access route. The visual experience can look similar while account requirements or transaction controls differ. For each route you are considering, note whether it uses the same content account and where the platform says purchases are managed. Do not assume that a subscription or library carries across routes unless the terms say so.",
+        "A side-by-side comparison is useful even when the answer is simply “not stated.” Mark the account needed for access, the location of purchase controls, the named support route, and any linking requirements. If these fields differ between routes, decide which arrangement you can manage most confidently. This is an operational comparison, not a claim that one route is always better."
+      ]
+    },
+    {
+      "heading": "Check the support route before a transaction",
+      "paragraphs": [
+        "Find the support instructions for both the content service and the transaction route before paying. The relevant contact may depend on whether the question concerns account access, content details, or a purchase record. A useful support page should make it possible to identify where each type of question belongs. Save the official help location rather than relying on a search result or message that may not be connected to the service.",
+        "If the responsibilities are split, note the split clearly. For example, one service may describe content access while another is named for purchase management. Do not assume either party can resolve every issue. If neither service explains who handles an important transaction question, consider waiting until the arrangement is clear."
+      ]
+    },
+    {
+      "heading": "Use a pre-purchase checklist and keep a minimal record",
+      "paragraphs": [
+        "Before confirming a transaction, verify which account is being used, whether a link to another account is required, and where the platform says the purchase can be managed. Check that the selected access route matches the account you intend to use. If anything on the confirmation page differs from the explanation you reviewed, stop and re-check rather than completing the transaction automatically.",
+        "Afterward, keep only the records you reasonably need, such as the transaction date, the account associated with access, and the official management or support location. Do not store full payment credentials in a casual note. A minimal record helps you remember where to go without creating an unnecessary collection of sensitive information."
+      ],
+      "bullets": [
+        "Which account will provide content access?",
+        "Which service or account is named for purchase management?",
+        "Is account linking required, and can the connection be removed?",
+        "Where should an access question go, and where should a transaction question go?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I complete a purchase inside a headset, does the headset account necessarily control it?",
+      "answer": "Not necessarily. The transaction instructions should identify the account or service responsible for management. Check those instructions rather than inferring responsibility from where the purchase screen appeared."
+    },
+    {
+      "question": "Should I link my content account to a shared headset account?",
+      "answer": "First check whether linking is required, what information the explanation says is shared, and what other users of the device may be able to see. If those boundaries are unclear, pause before linking."
+    },
+    {
+      "question": "What if the platform does not explain where to manage a purchase?",
+      "answer": "Treat the management route as uncertain. Check the official help information or ask the service before paying, especially if you need to know which account will control access or support."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

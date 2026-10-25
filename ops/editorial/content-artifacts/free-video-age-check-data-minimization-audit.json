@@ -1,0 +1,117 @@
+{
+  "backlogId": "free-video-age-check-data-minimization-audit",
+  "slug": "free-video-age-check-data-minimization-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Understand Age Checks and the Data They Request",
+  "description": "Learn how to evaluate age prompts, verification requests, and privacy disclosures on free video platforms before sharing information.",
+  "excerpt": "An age notice, a self-confirmation prompt, and an identity check can involve very different data. Use this framework to understand what a platform is asking for and decide whether to continue.",
+  "keyTakeaways": [
+    "An age notice or self-confirmation prompt is not the same thing as identity verification; read the exact instructions.",
+    "Before submitting information, identify what data is requested, why it is requested, and whether the platform explains how it is handled.",
+    "Check whether an age-check flow is operated by the platform or another service, and read the applicable privacy information for both.",
+    "Do not assume a verification request is necessary or safe merely because it appears beside a login or playback prompt.",
+    "If the request is unclear or the platform offers no understandable privacy explanation, pause rather than improvising with false details."
+  ],
+  "sections": [
+    {
+      "heading": "First identify what kind of age check you are seeing",
+      "paragraphs": [
+        "Age-related prompts can look similar while asking for very different things. A notice may simply state that a service is intended for adults. A self-confirmation prompt may ask you to affirm that you meet an age requirement. A more involved flow may ask for information or documents to assess eligibility. Do not treat these as interchangeable: the data and privacy implications differ.",
+        "Read the words on the screen and the surrounding explanation before continuing. Note whether the prompt asks only for confirmation, requests a date of birth, directs you to an outside service, or asks for identity information. If you cannot tell what action is being requested, do not enter information just to make the prompt disappear. A clear process should explain what step is required and where to find its terms."
+      ],
+      "bullets": [
+        "Record the exact type of information requested before providing anything.",
+        "Check whether the prompt identifies the party responsible for the process.",
+        "Stop if the screen redirects to an unexpected domain or changes into a payment or download request."
+      ]
+    },
+    {
+      "heading": "Read the privacy explanation for collection and retention",
+      "paragraphs": [
+        "A useful privacy explanation should help you understand what information is collected, the purpose for collecting it, who may receive it, and how long it may be retained. Look for details about deletion, access, and whether information is used for other purposes. A vague statement that information is handled securely does not answer these separate questions.",
+        "Pay particular attention to whether the platform says it receives the underlying identity information or only a result confirming that a requirement was met. These are different data arrangements, and the distinction should be explained rather than assumed. If a third-party age-check provider is involved, look for information about that provider’s role and its own privacy terms. If the relevant explanation is missing, treat that uncertainty as part of your decision."
+      ],
+      "table": {
+        "caption": "Questions to answer before proceeding with an age-related prompt",
+        "headers": [
+          "Question",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "What is requested?",
+            "A confirmation, a date of birth, account details, identity information, or another item."
+          ],
+          [
+            "Who handles it?",
+            "The platform itself, a named service provider, or an unclear party."
+          ],
+          [
+            "What is the purpose?",
+            "A specific explanation of the check rather than a broad, unexplained request."
+          ],
+          [
+            "What happens afterward?",
+            "Retention, deletion, sharing, and any stated use beyond the check."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether the request fits the action you chose",
+      "paragraphs": [
+        "Compare the request with what you were trying to do. A prompt encountered while opening a page may have a different context from one presented during account creation or a later account change. That difference does not prove a request is improper, but it is a reason to examine the explanation carefully. A request that appears without context is harder to evaluate than one tied to a clearly described step.",
+        "Avoid sending sensitive information through a link in an unsolicited message or through a page whose address you have not checked. If a platform directs you to another service, navigate from the platform’s own clearly identified instructions rather than relying on a surprising pop-up or message. Never use fabricated identity details as a workaround. That can create account problems and does not resolve the privacy or eligibility question."
+      ]
+    },
+    {
+      "heading": "Assess account and device exposure as well as the form",
+      "paragraphs": [
+        "Age checks may be associated with an account, a browser session, or a device, depending on the process. Before starting, consider whether the device is shared and whether saved form data, autofill, email alerts, or account notifications could be visible to someone else. Use a personal profile on a shared device and review its autofill and notification settings before entering private information.",
+        "Also consider what happens if you abandon the process partway through. Check whether the page explains how to remove an incomplete account or withdraw submitted information. Do not assume that closing the tab deletes data already sent. If you cannot find clear instructions, avoid adding more information until you understand the platform’s stated retention and contact options."
+      ],
+      "bullets": [
+        "Use a device and browser profile you are authorized to use.",
+        "Review saved form and notification settings before entering sensitive information.",
+        "Keep a note of where the privacy terms and data-request instructions are located."
+      ]
+    },
+    {
+      "heading": "Make a decision using evidence, not pressure",
+      "paragraphs": [
+        "A countdown, repeated prompt, or blocked page can encourage a quick response, but urgency does not make a request easier to trust. Give yourself time to inspect the domain, the stated purpose, the privacy notice, and any third-party terms. If the explanations are not available until after you submit data, that is an important limitation in your evaluation.",
+        "You can use a simple decision rule: proceed only when you understand what is being requested, who receives it, why it is needed, and what the stated handling terms are. If any of those points remains unclear, leave the flow and seek the platform’s documented support or privacy information. This is a practical privacy decision, not a judgment about whether every platform uses the same method."
+      ]
+    },
+    {
+      "heading": "Keep a concise record of what you agreed to",
+      "paragraphs": [
+        "If you decide to continue, save or note the relevant privacy terms, the date of the check, and the name of any outside provider shown on the page. This gives you a reference if the process later changes or you want to ask about access or deletion. Do not keep copies of identity documents or sensitive screenshots unless you have a clear reason and a secure place to store them.",
+        "Revisit the terms if the platform changes the process or asks for a different kind of information later. A previous confirmation does not automatically explain a new request. Keeping a brief record helps separate what you actually saw from assumptions about how the service works."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an age-confirmation prompt the same as identity verification?",
+      "answer": "No. A prompt asking you to confirm an age requirement may request less information than a process involving identity data. Read the exact instructions and privacy explanation rather than inferring the process from a button label."
+    },
+    {
+      "question": "Should I submit identity information if the privacy terms are unclear?",
+      "answer": "It is reasonable to pause. Look for an explanation of what is collected, who handles it, why it is needed, and how long it may be retained. If those points are not clear, do not rely on assumptions or urgency to make the decision."
+    },
+    {
+      "question": "If a third party handles the check, does that mean the platform receives no information?",
+      "answer": "Not necessarily. The arrangement can differ. Check both the platform’s explanation and the provider’s terms for what information each party receives and retains."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
