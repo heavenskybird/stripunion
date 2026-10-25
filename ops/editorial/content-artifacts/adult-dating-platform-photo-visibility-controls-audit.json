@@ -1,0 +1,115 @@
+{
+  "backlogId": "adult-dating-platform-photo-visibility-controls-audit",
+  "slug": "adult-dating-platform-photo-visibility-controls-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Photo Visibility and Audience Controls Before Uploading",
+  "description": "A privacy-focused checklist for reviewing dating-platform photo visibility, profile audience settings, and image handling before adding personal pictures.",
+  "excerpt": "Before uploading profile photos, learn who can view them, what visibility controls actually do, and whether the platform explains image handling. A careful review helps you make a deliberate choice about what to share.",
+  "keyTakeaways": [
+    "Check whether images are visible to all members, selected audiences, or only under a specific profile setting.",
+    "Distinguish a visibility setting from controls over copying, screenshots, or redistribution.",
+    "Review image and profile settings separately; a private profile may not mean every image is private.",
+    "Consider whether photos contain identifying details in the background, metadata, or linked social context.",
+    "Use only images you have the right to share and avoid uploading material that includes another person without permission."
+  ],
+  "sections": [
+    {
+      "heading": "Find the audience controls before uploading",
+      "paragraphs": [
+        "Before adding a photo, locate the platform’s explanations of profile visibility and image access. Check whether images are available to all members, people who meet a search condition, selected connections, or another defined audience. The labels may describe different layers of access, so read the accompanying explanation rather than inferring the audience from a button name alone.",
+        "Test the settings available before uploading where possible. Look for a preview, audience selector, or description of how profile visibility interacts with photo visibility. If the explanation is unclear, treat the audience as uncertain and consider delaying the upload. Do not assume that a setting described as private hides every profile element or prevents an image from being copied by someone who can view it."
+      ],
+      "bullets": [
+        "Find the profile visibility explanation.",
+        "Check whether photo visibility has its own control.",
+        "Record what audience the platform says can view an image."
+      ]
+    },
+    {
+      "heading": "Separate visibility controls from image-protection promises",
+      "paragraphs": [
+        "A control that limits who can open a photo is not the same as a guarantee that a viewer cannot save, capture, or redistribute it. Review the platform’s wording carefully and separate access restrictions from claims about copying or reuse. If the service does not explain what happens after an image is displayed, do not infer that the image is technically protected.",
+        "Also check whether an image can appear in search results, recommendations, previews, or messages. A profile-level setting may not describe every place an image appears. Where the platform provides a logged-out view or a profile preview, use it to understand public exposure, but recognize that it may not represent every member’s view. Keep the scope of your conclusion limited to what you can verify."
+      ],
+      "table": {
+        "caption": "Questions to ask about photo visibility",
+        "headers": [
+          "Setting or surface",
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Profile audience",
+            "Who can find or open the profile?",
+            "Stated audience and any exceptions"
+          ],
+          [
+            "Photo audience",
+            "Does each image have a separate control?",
+            "Whether the control is per-photo or account-wide"
+          ],
+          [
+            "Search and previews",
+            "Can images appear outside the profile page?",
+            "Surfaces described by the platform"
+          ],
+          [
+            "Copying or sharing",
+            "Does the service explain limits or reporting options?",
+            "What is stated, and what remains uncertain"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review identifying details within images",
+      "paragraphs": [
+        "A photo can reveal context beyond the person pictured. Backgrounds may show a workplace, neighborhood, distinctive room, document, or other recognizable detail. Before uploading, inspect the whole image rather than focusing only on the subject. Consider whether the same image appears on a public social account or elsewhere under a name that could connect profiles.",
+        "Image metadata may also contain information depending on how a file was created and handled. Do not assume that a platform strips every detail unless it explains this and you can verify the behavior. If privacy matters, use an image you are comfortable sharing in the intended audience and avoid including details that identify other people or places. Never upload someone else’s image without the necessary permission."
+      ]
+    },
+    {
+      "heading": "Decide how much profile context to combine",
+      "paragraphs": [
+        "Photos rarely stand alone: a username, bio, location fields, linked accounts, and repeated images can combine to make a profile easier to recognize. Review the complete profile as a set before publishing. Decide which details are necessary for the kind of connection you seek and which are optional. Avoid adding identifying information simply because a form offers a field for it.",
+        "If you use different names or images in different parts of your life, consider whether a photo or bio detail could connect those identities. That is a personal decision, not a guarantee that separation can be maintained. Do not rely solely on a platform setting to prevent recognition by someone who already knows you or has access to the same image elsewhere."
+      ]
+    },
+    {
+      "heading": "Make a deliberate upload and review plan",
+      "paragraphs": [
+        "Before uploading, summarize the audience you intend to allow, the platform settings that support that choice, and any exposure you cannot control. If the service’s explanation does not match your comfort level, choose a different image, use fewer profile details, or do not upload. This is a practical boundary, not a judgment about what other members should share.",
+        "After uploading, review the profile from any available preview and revisit the settings if the platform changes them. If you later remove an image, check the service’s explanation of removal and retain only the records you need. Do not assume removal erases copies made by others or every retained system record. If an image is misused, consult the platform’s reporting instructions and preserve relevant evidence without redistributing the image further."
+      ],
+      "bullets": [
+        "Choose an image appropriate for the audience you verified.",
+        "Review profile and photo settings separately.",
+        "Know how to report misuse before you need to do so."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a private profile guarantee that only selected people can see my photos?",
+      "answer": "Not by itself. Photo settings may differ from profile settings, and previews or other surfaces may have separate rules. Check the platform’s explanation for each relevant surface."
+    },
+    {
+      "question": "Can a dating platform prevent viewers from copying a photo?",
+      "answer": "Do not assume that visibility controls prevent copying or capture. Review what the platform actually states and share only images you are comfortable making available to the intended audience."
+    },
+    {
+      "question": "Should I remove location metadata before uploading?",
+      "answer": "Consider what information the image file may contain and whether the platform explains how it handles metadata. Avoid relying on an unverified assumption that all identifying details are removed."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

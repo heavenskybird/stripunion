@@ -1,0 +1,115 @@
+{
+  "backlogId": "webmaster-affiliate-locale-routing-quality-audit",
+  "slug": "webmaster-affiliate-locale-routing-quality-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Links: Audit Language and Locale Routing Before Sending Visitors",
+  "description": "A webmaster checklist for verifying language and locale routing, destination consistency, and fallback behavior without assuming a link works the same for every visitor.",
+  "excerpt": "A link can appear correct in your own browser and still send visitors to a mismatched destination. Test language and locale routing deliberately, document outcomes, and make uncertainty visible before scaling a campaign.",
+  "keyTakeaways": [
+    "Test links in more than one language and locale context, while recognizing that browser settings and location signals may affect routing.",
+    "Verify the final destination and page language rather than judging only the initial redirect.",
+    "Check whether campaign parameters survive redirects and whether the destination still matches the link’s description.",
+    "Document fallback behavior for unsupported or ambiguous locale contexts.",
+    "Confirm program terms permit your intended link behavior and do not infer permission from a successful test."
+  ],
+  "sections": [
+    {
+      "heading": "Define the visitor path you intend to support",
+      "paragraphs": [
+        "Before testing, define what a good destination means for the visitor. That may include the language of the landing page, the relevance of the offer, the visible currency or locale information, and whether the page preserves the context of the link. Avoid treating locale as a single signal: a visitor’s browser language, chosen site language, region, and account setting may not match.",
+        "Write down the intended path from the page containing the affiliate link through any redirect to the final destination. Include the link label, the expected language or locale, and any campaign parameters that need to remain available for measurement. This simple specification gives you a standard for testing and helps distinguish a destination mismatch from a measurement problem."
+      ],
+      "bullets": [
+        "State the language and destination you expect.",
+        "List any campaign identifiers that must be preserved.",
+        "Identify the source page and the exact link being tested."
+      ]
+    },
+    {
+      "heading": "Test routing under controlled conditions",
+      "paragraphs": [
+        "Test more than one browser-language setting and, where feasible, more than one region context. Keep a record of the conditions for each test because the destination may respond to several signals at once. Use a controlled test environment and avoid repeatedly clicking live tracking links in ways that could create misleading activity or violate program rules. If a program offers a test link or sandbox, follow its documented process.",
+        "For every test, record the initial URL, redirect sequence where visible, final destination, page language, and any message about availability or region. A successful load does not establish that every visitor will receive the same result. It establishes only what happened in that test context. Repeat a test when the result is inconsistent, and label a result as unknown when the cause cannot be isolated."
+      ],
+      "table": {
+        "caption": "A compact locale-routing test log",
+        "headers": [
+          "Test context",
+          "Observed result",
+          "Follow-up question"
+        ],
+        "rows": [
+          [
+            "Browser language set to intended language",
+            "Final URL and page language",
+            "Did the destination preserve campaign context?"
+          ],
+          [
+            "Different browser language",
+            "Redirect or fallback behavior",
+            "Was the change clear and relevant?"
+          ],
+          [
+            "Region context differs",
+            "Availability message or destination",
+            "Does the program permit this routing method?"
+          ],
+          [
+            "Unknown or unsupported locale",
+            "Fallback page or error",
+            "Is there a useful next step for the visitor?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check final-page relevance and continuity",
+      "paragraphs": [
+        "A redirect should not be evaluated only by whether it completes. Compare the final page with the promise made by the originating link. If the link describes a particular service, language, or offer, check whether the destination makes that context clear. A page in another language or a generic landing page may create confusion even if it technically loads.",
+        "Check whether the final page retains the relevant campaign parameters, where the program’s documentation says they should be used. Do not add, remove, or alter tracking parameters beyond what the program permits. If your measurement depends on a sub-ID or campaign tag, verify the supported method and compare the final behavior with the program’s instructions. Keep these checks separate from claims about conversion or earnings."
+      ]
+    },
+    {
+      "heading": "Plan for fallback and ambiguous cases",
+      "paragraphs": [
+        "Routing cannot always determine a visitor’s preferred language or region. Decide how the destination should behave when signals conflict or the preferred locale is unsupported. A clear language selector, a neutral landing page, or an explanatory message may be more helpful than a silent redirect to an unexpected page, but the available options depend on the upstream program and destination.",
+        "Do not build a fallback that implies availability or eligibility you have not verified. If a visitor may need to choose a language manually, make that limitation clear in the link context or page copy. Keep the wording factual and do not promise that every visitor will see a particular version. Record the fallback you actually tested and the contexts that remain untested."
+      ],
+      "bullets": [
+        "Document what happens when language signals conflict.",
+        "Identify unsupported locales and the observed fallback.",
+        "Avoid promising a destination that has not been verified."
+      ]
+    },
+    {
+      "heading": "Review program restrictions before deployment",
+      "paragraphs": [
+        "A technically functional redirect is not automatically permitted. Check the current program terms for rules on redirects, link cloaking, localization, geographic targeting, and modifying tracking links. Use the program’s approved tools and seek written clarification when a routing method is unclear. Keep a dated copy or note of the relevant terms so your operational decision has a reference point.",
+        "After deployment, test links from the actual pages where visitors will encounter them and establish a routine for checking redirects and destination language. If a destination changes, pause or update affected links rather than leaving a misleading route in place. Maintain a record of the test date and outcome. This process supports visitor clarity and operational review, but it does not establish program approval or guarantee that a destination will remain unchanged."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a link that works in my browser prove locale routing is reliable?",
+      "answer": "No. It shows the outcome in one test context. Browser language, region signals, account settings, or destination changes may produce different results for other visitors."
+    },
+    {
+      "question": "Should I change an affiliate link to add my own language routing?",
+      "answer": "Only if the program terms and documentation permit the method. Do not alter tracking links or add redirect behavior based solely on technical feasibility."
+    },
+    {
+      "question": "What if the destination language cannot be predicted?",
+      "answer": "Document the tested behavior and make the link description accurate. If the destination offers a language choice, note that as part of the visitor path rather than promising a specific localized page."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
