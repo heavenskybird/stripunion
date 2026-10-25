@@ -1,0 +1,109 @@
+export default {
+  "slug": "affiliate-promo-code-qualification-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Verify Promo-Code Rules and Referral Credit Before Publishing",
+  "description": "A webmaster checklist for checking promo-code eligibility, attribution, stacking and disclosure rules before adding affiliate codes to a campaign.",
+  "excerpt": "A promotional code can affect both a visitor's checkout and how a referral is credited. Confirm the rules, attribution path and permitted placement before publishing or promising a discount.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Confirm whether a code is approved for your account, site, audience and placement.",
+    "Distinguish a code that offers a buyer benefit from a code that actually records affiliate attribution.",
+    "Check stacking, eligibility, expiration and destination rules in the current program terms.",
+    "Test the complete click-to-checkout path without assuming a successful discount proves referral tracking.",
+    "Keep clear records of approval, code terms, placement, test date and any later changes."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a promo code and an affiliate referral as separate mechanisms",
+      "paragraphs": [
+        "A code can be accepted at checkout without proving that an affiliate referral was recorded. Conversely, a tracked link may attribute a visit even when a code is not eligible for a particular purchase. These are separate questions: what benefit the code provides to a buyer, what event earns referral credit and how the program connects the two. Do not infer one from the other.",
+        "Before publishing, identify the exact campaign and offer terms that apply to your account. Look for whether the code is assigned to you, available to multiple publishers or restricted to specific channels. Check whether a click is required before code entry, whether another referral can overwrite credit and whether the program has separate rules for code-only promotion. If any point is missing, request clarification rather than filling gaps with assumptions."
+      ],
+      "table": {
+        "caption": "Questions to resolve before featuring a promotional code",
+        "headers": [
+          "Issue",
+          "Evidence to check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Code approval",
+            "Current program terms or written authorization",
+            "A working code may still be unauthorized for your placement"
+          ],
+          [
+            "Referral tracking",
+            "Documented attribution path and a controlled test",
+            "A buyer benefit does not prove credit is assigned"
+          ],
+          [
+            "Eligibility",
+            "Restrictions, exclusions and applicable offer conditions",
+            "Visitors need accurate expectations before clicking"
+          ],
+          [
+            "Stacking",
+            "Rules for combining codes or other promotions",
+            "Checkout behavior can differ from the advertised offer"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check permission for the specific promotion channel",
+      "paragraphs": [
+        "Permission to promote a program generally should not be assumed to include every code placement. A code may be treated differently in a website article, email, paid advertisement, coupon listing, browser extension or third-party community post. Read the current restrictions for each channel you plan to use and confirm whether brand names, code text, bidding terms or redirects have additional conditions.",
+        "Record the exact approved destination and any required accompanying language. A code placed beside an unrelated offer or on a page that does not explain its terms can mislead visitors even if the code is valid. If you distribute content through multiple properties, verify that the account and relevant property are approved for those uses. Keep the permission evidence with campaign records so editors can check it before reusing the code."
+      ],
+      "bullets": [
+        "Name each intended placement: site page, email, paid media or other channel.",
+        "Check whether the code may be displayed publicly or only after a tracked click.",
+        "Confirm permitted brand wording, destination links and required disclosures."
+      ]
+    },
+    {
+      "heading": "Make the offer terms understandable to visitors",
+      "paragraphs": [
+        "A useful promotion description explains what a visitor must do without overstating the benefit. Verify eligibility conditions such as new-customer status, qualifying items, minimum spend, geographic limits or other exclusions directly from approved terms. Do not invent a discount amount or imply universal eligibility if the program materials do not support it. If terms may change, avoid evergreen copy that presents a temporary code as permanent.",
+        "Explain whether the visitor must enter the code, follow a particular link or meet another condition. State material limitations near the code rather than hiding them behind a vague phrase. Clearly distinguish editorial information from promotional messaging and include the required affiliate disclosure in a noticeable place. The goal is that a visitor can understand the offer and your commercial relationship before deciding whether to proceed."
+      ]
+    },
+    {
+      "heading": "Test discount application and referral tracking independently",
+      "paragraphs": [
+        "A controlled test should answer two questions without confusing their results. First, does the code behave as the approved offer terms describe? Second, does the program record the referral as expected after the permitted link and checkout path? Use the program's documented test process where available, and do not create transactions that violate its rules or generate misleading commissions. If a genuine purchase is required for verification, follow the program's guidance and document the limits of the test.",
+        "Capture the test date, destination, code behavior and available tracking evidence. A dashboard may update after a delay, so check the stated reporting process rather than treating an immediate blank report as proof of failure. Likewise, a displayed discount is not evidence of attribution. If the two mechanisms appear inconsistent, pause claims about referral credit and ask the program to explain the approved setup."
+      ]
+    },
+    {
+      "heading": "Maintain the code as a campaign asset that can expire or change",
+      "paragraphs": [
+        "Promotional codes can have limits, revised terms or end dates. Assign each code an owner and a review date. Keep its source, approval, eligible placements, disclosure text, tested destination and known conditions in one campaign record. When the program changes the offer, update affected pages, emails and scheduled campaigns; remove or clearly label a code that is no longer confirmed.",
+        "A lightweight monitoring routine reduces stale copy: check active code pages on a schedule, monitor program notices and give editors a simple way to flag checkout failures. Keep historical versions so you can explain what visitors were told at a given time. Do not continue advertising an unverified benefit merely because an old page remains indexed or a code worked in a past test."
+      ],
+      "bullets": [
+        "Record approval and the exact program terms used for the promotion.",
+        "Separate evidence of code acceptance from evidence of referral tracking.",
+        "Set a review date and identify every placement that needs updating.",
+        "Remove or correct claims when a code's status or conditions cannot be confirmed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a promo code works at checkout, does that prove my affiliate account receives credit?",
+      "answer": "No. Checkout acceptance shows only that the code was applied under the conditions tested. Referral attribution is a separate process. Verify it using the program's approved tracking method and documentation."
+    },
+    {
+      "question": "Can I publish a code I found on another website?",
+      "answer": "Do not assume it is authorized for your account or channel. Confirm the code's source, current terms and permitted placements with the program before using it, and avoid presenting an unverified code as an active offer."
+    },
+    {
+      "question": "What if the program's code terms do not explain referral attribution?",
+      "answer": "Ask the program for written clarification about the required click path, code use and credit rules. Until you receive an answer, avoid promising that the code will earn you referral credit or making attribution claims to visitors."
+    }
+  ]
+};

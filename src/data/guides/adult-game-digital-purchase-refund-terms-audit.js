@@ -1,0 +1,109 @@
+export default {
+  "slug": "adult-game-digital-purchase-refund-terms-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Digital Purchase Refund Terms Before You Buy",
+  "description": "A practical guide to reviewing digital game refund rules, seller identity, eligibility conditions and support routes before completing a purchase.",
+  "excerpt": "Digital game refund rules can depend on the seller, product type and purchase circumstances. Check the written policy and the correct support route before treating a refund as available.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Identify the actual seller and the policy that governs the checkout you will use.",
+    "Check deadlines, eligibility conditions, exceptions and the process for submitting a request.",
+    "Do not assume a demo, key or purchase made through another storefront follows the same rules.",
+    "Save order details and policy text so you can refer to the terms that applied at purchase.",
+    "Treat support explanations as guidance, not a guarantee of a particular outcome."
+  ],
+  "sections": [
+    {
+      "heading": "Identify who is selling the game and which policy applies",
+      "paragraphs": [
+        "A game page, payment screen and developer site may involve different parties. Before buying, identify the seller named in the checkout or order terms and find the refund policy that applies to that transaction. A developer's general statement may not control a purchase completed through a separate storefront, and a platform policy may not cover a key bought from an unrelated seller.",
+        "Check the policy from the exact purchase path you intend to use. Record the product type, seller, storefront and any account or delivery method that may affect eligibility. If the checkout does not make the responsible party clear, pause and seek clarification before paying. Knowing where a request must go can prevent lost time if a question arises later."
+      ],
+      "table": {
+        "caption": "Refund-policy details to compare before checkout",
+        "headers": [
+          "Policy detail",
+          "Question to answer",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Responsible seller",
+            "Which entity handles the order and refund request?",
+            "Checkout terms or order page"
+          ],
+          [
+            "Eligibility",
+            "What conditions apply to this product and purchase?",
+            "Policy section covering the product type"
+          ],
+          [
+            "Time limit",
+            "When must a request be submitted?",
+            "The stated deadline and purchase date"
+          ],
+          [
+            "Request route",
+            "Which account, form or support channel handles it?",
+            "Current instructions and case reference"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read eligibility conditions and exceptions closely",
+      "paragraphs": [
+        "Look for the conditions that determine whether a request can be considered. Policies may distinguish between a direct digital purchase, a game key, a gift, downloadable material or a transaction made through a third-party seller. They may also describe time limits, account status, prior use or other exclusions. Do not infer eligibility from a general promise or from a policy written for a different product category.",
+        "Pay attention to language that explains whether the process is discretionary, conditional or limited to specific circumstances. Avoid relying on informal forum posts or another buyer's experience as a substitute for the current written terms. If a relevant situation is not addressed, ask the seller to clarify in writing before purchasing, particularly when the product's delivery or activation may affect the available remedy."
+      ],
+      "bullets": [
+        "Check the policy for the exact storefront and product format.",
+        "Note deadlines, exclusions, required evidence and request steps.",
+        "Ask about unclear conditions before checkout rather than after a dispute."
+      ]
+    },
+    {
+      "heading": "Do not confuse a demo, preview or compatibility test with refund eligibility",
+      "paragraphs": [
+        "A demo can help you assess whether a game fits your preferences or device, but it does not establish the refund terms for a separate full purchase. Likewise, a successful download or activation may not answer whether a later request qualifies. Keep the evaluation decision and the refund-policy decision separate: one concerns fit, and the other concerns the seller's written process.",
+        "Before buying, use available product information to check device support, release status and any stated dependencies. If you have a technical concern, review support guidance and system requirements first. Save the policy version that applied at the time of checkout. This creates a factual record without assuming that a particular problem will qualify for an exception."
+      ]
+    },
+    {
+      "heading": "Save transaction and policy records in one place",
+      "paragraphs": [
+        "Keep the order confirmation, product title, seller, purchase date, payment reference and relevant policy text. If the terms are displayed online, save a dated copy or a record of the page address and date you reviewed it. Store these records securely and avoid including private account details in a public support post. Clear documentation makes it easier to describe the transaction accurately.",
+        "If you contact support, keep the case number, date, channel and response. Describe the issue precisely and follow the stated process. Do not send credentials or unnecessary identity information through an unverified channel. If a request is denied, review the stated reason and the policy section cited before deciding whether to ask for clarification or use another appropriate support route."
+      ]
+    },
+    {
+      "heading": "Use a pre-purchase decision checklist",
+      "paragraphs": [
+        "A refund policy is only one part of a digital purchase decision. Combine it with device compatibility, seller clarity, product description and the availability of a demo or preview. If essential information is missing, consider waiting for clarification rather than treating the possibility of a refund as a substitute for a sound purchase decision. No checklist can guarantee a particular result under a seller's policy.",
+        "Make the decision based on the terms that are actually presented, not assumptions about what other storefronts do. If the policy is unclear, unusually difficult to locate or inconsistent with checkout wording, preserve the relevant pages and ask the seller which terms govern. Recheck the policy immediately before completing an order because the page or purchase route may have changed since your initial research."
+      ],
+      "bullets": [
+        "Confirm seller, product format and governing policy.",
+        "Write down eligibility conditions and any deadline.",
+        "Save the checkout terms and order confirmation.",
+        "Use only the seller's stated support route for a request."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does every digital game purchase have the same refund rules?",
+      "answer": "No. Rules can depend on the seller, storefront, product format and the circumstances described in the policy. Check the current terms for the exact checkout path you plan to use."
+    },
+    {
+      "question": "Does trying a demo tell me whether a full purchase can be refunded?",
+      "answer": "No. A demo may help assess product fit, but refund eligibility is governed by the terms for the full purchase. Review those terms separately before paying."
+    },
+    {
+      "question": "What records should I save after buying a game?",
+      "answer": "Keep the order confirmation, purchase date, seller and product details, relevant policy text and any support correspondence or case number. Store them securely and use the official support route described by the seller."
+    }
+  ]
+};
