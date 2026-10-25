@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-10-24T06:01:50.310Z
+Generated: 2026-10-25T06:17:37.107Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -31,3 +31,4 @@ Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHar
 - **CREATE** · 52 · cam sites free · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 39 · sites like adult friend finder · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 36 · where to watch adult anime · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 33 · vr catalog · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory

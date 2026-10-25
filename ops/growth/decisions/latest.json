@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-24T06:01:50.310Z",
-  "sourceGeneratedAt": "2026-10-24T06:01:50.256Z",
+  "generatedAt": "2026-10-25T06:17:37.107Z",
+  "sourceGeneratedAt": "2026-10-25T06:17:37.050Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,7 +25,7 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
       "signups": 0,
       "verifiedSignups": 0,
@@ -36,14 +36,14 @@
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-23"
+    "attributionSource": "2026-10-24"
   },
   "validatedLearnings": [],
   "portfolio": {
-    "safeCreateCount": 14,
+    "safeCreateCount": 15,
     "updateCount": 7,
     "experimentCount": 0,
-    "totalDecisions": 25
+    "totalDecisions": 26
   },
   "decisions": [
     {
@@ -86,14 +86,6 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
             "query": "f95zone make a review",
             "impressions": 1,
             "clicks": 0,
@@ -106,6 +98,14 @@
             "impressions": 1,
             "clicks": 0,
             "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -113,15 +113,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/f95zone",
           "contentState": "review",
@@ -150,10 +142,10 @@
       "confidence": "low",
       "rationale": "refresh existing /xhamster landing page using clustered search evidence",
       "evidence": {
-        "impressions": 81,
+        "impressions": 84,
         "clicks": 0,
         "bestPosition": 3,
-        "queryVariants": 42
+        "queryVariants": 44
       },
       "payload": {
         "id": "bing-a826e3f99c4e4187a9d77ce0a2cb3290",
@@ -257,18 +249,18 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
           },
           {
             "source": "Bing",
@@ -393,7 +385,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhamster  review",
+            "query": "xhasters reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -401,7 +393,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhasters reviews",
+            "query": "xhamster  review",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -417,10 +409,10 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster reviews",
             "impressions": 1,
             "clicks": 0,
-            "position": 5
+            "position": 8
           },
           {
             "source": "Bing",
@@ -433,10 +425,10 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster reviews",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
-            "position": 8
+            "position": 5
           },
           {
             "source": "Bing",
@@ -493,6 +485,22 @@
             "impressions": 1,
             "clicks": 0,
             "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792713600000)/",
+            "query": "er xhamster en seriøs gratis side",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792713600000)/",
+            "query": "er xhamster en seriøs gratis dide",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
           }
         ],
         "targetKeyword": "xHamster review / site overview",
@@ -500,22 +508,14 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/xhamster",
           "contentState": "review",
-          "impressions": 81,
+          "impressions": 84,
           "clicks": 0,
           "bestPosition": 3,
-          "queryVariants": 42
+          "queryVariants": 44
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
@@ -547,7 +547,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
             "impressions": 1,
             "clicks": 0,
@@ -555,7 +555,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
             "impressions": 1,
             "clicks": 0,
@@ -563,7 +563,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
             "impressions": 2,
             "clicks": 0,
@@ -571,7 +571,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
             "impressions": 3,
             "clicks": 0,
@@ -579,7 +579,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
             "impressions": 1,
             "clicks": 0,
@@ -587,7 +587,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "is it evaluate the webcam modeling platforms company stripchat on couples cams",
             "impressions": 1,
             "clicks": 0,
@@ -595,7 +595,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "is it evaluate the webcam modeling platforms company stripchat on live milf cams",
             "impressions": 1,
             "clicks": 0,
@@ -603,7 +603,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
             "impressions": 2,
             "clicks": 0,
@@ -611,7 +611,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on ebony cams",
             "impressions": 2,
             "clicks": 0,
@@ -619,7 +619,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
             "impressions": 1,
             "clicks": 0,
@@ -631,15 +631,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "approved creator-referral intent",
         "monetizationRoute": "avcams-model-signup",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/become-a-cam-model",
           "contentState": "page",
@@ -668,21 +660,29 @@
       "confidence": "low",
       "rationale": "refresh existing /stripchat landing page using clustered search evidence",
       "evidence": {
-        "impressions": 3,
+        "impressions": 4,
         "clicks": 1,
-        "bestPosition": 7,
-        "queryVariants": 2
+        "bestPosition": 4,
+        "queryVariants": 3
       },
       "payload": {
         "id": "gsc-2e886c865880b946ab4a91f91429ba94",
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "is stripchat free",
             "impressions": 1,
             "clicks": 0,
             "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-23",
+            "query": "list websites that provide detailed safety ratings for stripchat.",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
           },
           {
             "source": "Bing",
@@ -698,22 +698,14 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/stripchat",
           "contentState": "review",
-          "impressions": 3,
+          "impressions": 4,
           "clicks": 1,
-          "bestPosition": 7,
-          "queryVariants": 2
+          "bestPosition": 4,
+          "queryVariants": 3
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
@@ -735,17 +727,17 @@
       "confidence": "low",
       "rationale": "refresh existing /adultfriendfinder landing page using clustered search evidence",
       "evidence": {
-        "impressions": 30,
+        "impressions": 34,
         "clicks": 0,
         "bestPosition": 16,
-        "queryVariants": 13
+        "queryVariants": 15
       },
       "payload": {
         "id": "gsc-6c59bb2972e690e661abc595ec1b8a2e",
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 2,
             "clicks": 0,
@@ -753,7 +745,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 1,
             "clicks": 0,
@@ -761,7 +753,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 7,
             "clicks": 0,
@@ -769,7 +761,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 3,
             "clicks": 0,
@@ -777,7 +769,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "websites like adultfriendfinder",
             "impressions": 3,
             "clicks": 0,
@@ -785,7 +777,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 2,
             "clicks": 0,
@@ -793,7 +785,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 1,
             "clicks": 0,
@@ -801,7 +793,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 2,
             "clicks": 0,
@@ -809,7 +801,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 2,
             "clicks": 0,
@@ -817,7 +809,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 2,
             "clicks": 0,
@@ -825,7 +817,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 2,
             "clicks": 0,
@@ -833,7 +825,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adultfriendfinder alternatives",
             "impressions": 2,
             "clicks": 0,
@@ -841,11 +833,27 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adultfriendfinder",
             "impressions": 1,
             "clicks": 0,
             "position": 17
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-23",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 27
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-23",
+            "query": "sites like adultfriendfinder",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 29
           }
         ],
         "targetKeyword": "AdultFriendFinder review",
@@ -853,22 +861,14 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/adultfriendfinder",
           "contentState": "review",
-          "impressions": 30,
+          "impressions": 34,
           "clicks": 0,
           "bestPosition": 16,
-          "queryVariants": 13
+          "queryVariants": 15
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
@@ -900,7 +900,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
@@ -912,15 +912,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "approved AVCams/StripCash intent",
         "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/stripchat-alternatives",
           "contentState": "page",
@@ -959,7 +951,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "striphun",
             "impressions": 2,
             "clicks": 0,
@@ -967,7 +959,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "striphun",
             "impressions": 1,
             "clicks": 0,
@@ -975,7 +967,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "striphun",
             "impressions": 1,
             "clicks": 0,
@@ -987,15 +979,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1034,7 +1018,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -1042,7 +1026,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
@@ -1054,15 +1038,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1113,15 +1089,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1172,15 +1140,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1239,15 +1199,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1306,15 +1258,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1353,7 +1297,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "seriös?",
             "impressions": 1,
             "clicks": 0,
@@ -1365,15 +1309,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1412,7 +1348,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "stripxuat",
             "impressions": 1,
             "clicks": 0,
@@ -1424,15 +1360,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1471,7 +1399,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "do you have to pay for those",
             "impressions": 1,
             "clicks": 0,
@@ -1483,15 +1411,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1594,15 +1514,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": "/pinkcherry",
           "contentState": "pending",
@@ -1653,15 +1565,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "commercial/review intent; monetization relationship not approved",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1700,7 +1604,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "adult strip cam",
             "impressions": 1,
             "clicks": 0,
@@ -1712,15 +1616,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1759,7 +1655,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "paid subscription",
             "impressions": 1,
             "clicks": 0,
@@ -1771,15 +1667,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1818,7 +1706,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "are cam sites safe",
             "impressions": 1,
             "clicks": 0,
@@ -1830,15 +1718,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1877,7 +1757,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "cam sites free",
             "impressions": 1,
             "clicks": 0,
@@ -1889,15 +1769,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1936,7 +1808,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "sites like adult friend finder",
             "impressions": 1,
             "clicks": 0,
@@ -1948,15 +1820,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -1995,7 +1859,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-22",
+            "date": "2026-10-23",
             "query": "where to watch adult anime",
             "impressions": 1,
             "clicks": 0,
@@ -2007,15 +1871,7 @@
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
-        "competitorEvidence": [
-          {
-            "source": "daily public sitemap diff",
-            "domain": "Porneed",
-            "newUrlCount": 1,
-            "removedUrlCount": 1,
-            "topicMatch": "not established; treat as landscape context only"
-          }
-        ],
+        "competitorEvidence": [],
         "ourEvidence": {
           "page": null,
           "contentState": "new",
@@ -2029,6 +1885,57 @@
         "risk": "low",
         "experimentWindow": "14 days",
         "rank": 23
+      }
+    },
+    {
+      "id": "search:gsc-79681a983a1efb9ac8a7abb96d0d43eb",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 33,
+      "eligible": true,
+      "subject": "vr catalog",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 42,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-79681a983a1efb9ac8a7abb96d0d43eb",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-23",
+            "query": "vr catalog",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 42
+          }
+        ],
+        "targetKeyword": "vr catalog",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 42,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 24
       }
     }
   ]
