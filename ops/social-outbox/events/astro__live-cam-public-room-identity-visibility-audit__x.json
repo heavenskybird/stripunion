@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/live-cam-public-room-identity-visibility-audit",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-25T09:51:10.590Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-25T13:15:54.285Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ade010a3d5b27036bd387f4",
   "provider_due_at": "2026-10-25T22:13:00.000Z",
   "created_at": "2026-10-25T09:51:10.590Z",
-  "updated_at": "2026-10-25T22:00:46.435Z",
+  "updated_at": "2026-10-25T23:03:47.349Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 3,
     "cadence_pressure_before_enqueue": 14,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
