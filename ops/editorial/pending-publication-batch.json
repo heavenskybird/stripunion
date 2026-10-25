@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T14:31:06.238Z",
+  "generatedAt": "2026-10-25T16:06:52.223Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-catalog-breadth-use-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-membership-feature-boundary-audit.json",
-    "ops/editorial/content-artifacts/affiliate-coupon-cashback-traffic-terms-audit.json",
-    "ops/editorial/content-artifacts/live-cam-platform-accessibility-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-receipt-email-retention-privacy-workflow.json"
+    "ops/editorial/content-artifacts/creator-platform-net-earnings-statement-audit.json",
+    "ops/editorial/content-artifacts/premium-video-picture-in-picture-background-playback-check.json",
+    "ops/editorial/content-artifacts/adult-anime-game-access-pathway-comparison.json",
+    "ops/editorial/content-artifacts/vr-platform-motion-comfort-controls-audit.json",
+    "ops/editorial/content-artifacts/free-video-search-result-duplicate-listing-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-catalog-breadth-use-fit-audit.js",
-    "src/data/guides/adult-dating-membership-feature-boundary-audit.js",
-    "src/data/guides/affiliate-coupon-cashback-traffic-terms-audit.js",
-    "src/data/guides/live-cam-platform-accessibility-fit-audit.js",
-    "src/data/guides/adult-platform-receipt-email-retention-privacy-workflow.js"
+    "src/data/guides/creator-platform-net-earnings-statement-audit.js",
+    "src/data/guides/premium-video-picture-in-picture-background-playback-check.js",
+    "src/data/guides/adult-anime-game-access-pathway-comparison.js",
+    "src/data/guides/vr-platform-motion-comfort-controls-audit.js",
+    "src/data/guides/free-video-search-result-duplicate-listing-audit.js"
   ],
   "categories": [
-    "adult-shops",
-    "dating-hookups",
-    "webmaster-affiliate",
-    "live-cams",
-    "privacy-safety-payment"
+    "creator-platforms",
+    "premium-videos",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-catalog-breadth-use-fit-audit",
-    "adult-dating-membership-feature-boundary-audit",
-    "affiliate-coupon-cashback-traffic-terms-audit",
-    "live-cam-platform-accessibility-fit-audit",
-    "adult-platform-receipt-email-retention-privacy-workflow"
+    "creator-platform-net-earnings-statement-audit",
+    "premium-video-picture-in-picture-background-playback-check",
+    "adult-anime-game-access-pathway-comparison",
+    "vr-platform-motion-comfort-controls-audit",
+    "free-video-search-result-duplicate-listing-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40202334075",
-  "phase": "closed"
+  "r1CycleId": "40209942388"
 }
