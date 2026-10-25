@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/free-video-platform-domain-authenticity-checklist",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-24T13:41:10.663Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-24T18:30:00.313Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6adcf9288b3d437ddcd28131",
   "provider_due_at": "2026-10-25T01:13:00.000Z",
   "created_at": "2026-10-24T13:41:10.663Z",
-  "updated_at": "2026-10-25T00:22:53.783Z",
+  "updated_at": "2026-10-25T01:39:31.009Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 3,
     "cadence_pressure_before_enqueue": 17,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
