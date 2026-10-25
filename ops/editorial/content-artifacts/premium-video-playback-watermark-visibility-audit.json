@@ -1,0 +1,116 @@
+{
+  "backlogId": "premium-video-playback-watermark-visibility-audit",
+  "slug": "premium-video-playback-watermark-visibility-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Whether Playback Shows Account Identifiers",
+  "description": "Before watching on a shared display or casting device, check whether a premium video platform uses visible account identifiers and how its playback privacy is explained.",
+  "excerpt": "Account privacy does not end at sign-in. Review what may appear on the playback screen, previews and shared displays before choosing where to watch.",
+  "keyTakeaways": [
+    "Account information may be exposed through interfaces or playback overlays, so review what appears on the screen—not only the privacy notice.",
+    "Do not assume that every platform, title or playback route uses the same watermark or account-identification behavior.",
+    "Use public documentation and a permitted preview to inspect the interface before choosing a shared display or casting setup.",
+    "Check whether account names, profile details, email addresses or other identifiers appear in visible areas or notifications.",
+    "If the behavior is unclear and privacy matters, ask the platform a specific question or choose a viewing environment you control."
+  ],
+  "sections": [
+    {
+      "heading": "Think about privacy at the playback layer",
+      "paragraphs": [
+        "A privacy review often focuses on account creation, payment records and viewing history. Those are important, but the screen itself can also reveal information. A player interface, profile selector, notification, support overlay or visible identifier may be seen by another person if you watch on a shared television, mirror a screen or cast to a device in a common area.",
+        "Do not assume that visible identifiers are present, absent or identical across every title. Platform behavior can depend on the player, device, account settings or access route. The useful question is specific: what information can appear during browsing and playback on the device I intend to use, and can I evaluate that before exposing the account on a shared screen?"
+      ]
+    },
+    {
+      "heading": "Look for clear descriptions of player overlays",
+      "paragraphs": [
+        "Review the platform’s help pages and privacy explanations for terms such as watermark, account identifier, playback overlay, profile label, casting and screen mirroring. Check whether the explanation distinguishes an on-screen label from technical or forensic watermarking, which may not be visible during ordinary playback. If a page only describes general data collection, it may not answer what another person can see.",
+        "When contacting support, ask a narrow question: whether a visible account name or other personal identifier appears during playback on your intended device, and whether that varies by title or viewing route. Avoid sending payment details or account passwords to obtain an answer. Save the response and note its date, since player interfaces and settings can change."
+      ],
+      "table": {
+        "caption": "A screen-privacy review by viewing stage",
+        "headers": [
+          "Stage",
+          "What to inspect",
+          "Useful question"
+        ],
+        "rows": [
+          [
+            "Browsing",
+            "Profile names, recent items and account menus",
+            "Could someone nearby identify the signed-in profile?"
+          ],
+          [
+            "Starting playback",
+            "Intro screens, prompts and player labels",
+            "Does the interface display personal account details?"
+          ],
+          [
+            "Watching",
+            "Persistent or temporary player overlays",
+            "Can an identifier appear while a video is playing?"
+          ],
+          [
+            "Casting or mirroring",
+            "Notifications, device names and shared-screen behavior",
+            "Could another display or user see account information?"
+          ],
+          [
+            "Ending playback",
+            "Next-item screens, recommendations and return-to-profile views",
+            "What remains visible after the video ends?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use previews carefully to inspect the interface",
+      "paragraphs": [
+        "If the platform provides an allowed preview or public player demonstration, use it to inspect visible controls and screen layout before signing in on a shared device. A preview can show interface elements, but it may not reproduce every account state, title, playback route or device behavior. Treat it as a partial observation, not proof that no identifier will ever appear.",
+        "Do not test by exposing personal account details on a screen you do not control. If you need to evaluate a casting or mirroring route, first review the device’s own sharing indicators and notification settings. Check the platform’s terms and help pages before recording or capturing playback; do not assume screen capture is allowed or appropriate."
+      ]
+    },
+    {
+      "heading": "Consider the whole shared-display path",
+      "paragraphs": [
+        "Visible playback is only one part of a shared-screen setup. A device may show a profile name before playback, display incoming notifications during a session, or remain signed in after the screen is disconnected. Review the account profile and device-level sharing behavior together. A platform’s player cannot control every notification or label generated by the operating system or television.",
+        "Choose a route you understand and can end cleanly. Confirm which account is signed in, check what appears on the receiving display, and know how to stop casting or sign out. If other household members use the same device, consider whether separate profiles or a separate device account are available and appropriate. Do not rely on a private browsing window alone to hide an account that remains signed in elsewhere."
+      ],
+      "bullets": [
+        "Check visible account details before starting playback.",
+        "Review notification previews on the device that will display the video.",
+        "Confirm how casting or mirroring ends and whether the account remains signed in.",
+        "Avoid testing personal account behavior on a display you do not control."
+      ]
+    },
+    {
+      "heading": "Make an evidence-based privacy decision",
+      "paragraphs": [
+        "For each platform, classify the evidence as documented, observed in an appropriate preview, unclear or not applicable. Record the device and access route because a browser, app and cast receiver may not behave identically. This makes your comparison useful later if you switch devices or the platform changes its player.",
+        "If the service does not explain whether playback shows account identifiers, treat that point as unresolved rather than interpreting silence as reassurance. You can ask support, use a screen and account you control, or decide that the uncertainty does not fit your privacy needs. The goal is not to assume a particular platform behavior; it is to prevent a surprise on a shared display."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do all premium video platforms display a visible watermark?",
+      "answer": "There is no universal rule. Visible player labels, technical watermarking and account interfaces are different things, and practices can vary. Check the specific platform’s explanations and the device route you plan to use."
+    },
+    {
+      "question": "Can a preview confirm that my account details will never appear?",
+      "answer": "Usually not by itself. A preview may not include a signed-in profile, every player state or every casting route. Treat it as one piece of evidence and check help documentation or ask support about the exact device and behavior."
+    },
+    {
+      "question": "What is a sensible first check before casting to a shared display?",
+      "answer": "Review the account and player interface, inspect notification behavior on the sending device, and confirm how to stop casting and sign out. Use a display you control for any permitted test, and do not assume the platform controls operating-system notifications."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

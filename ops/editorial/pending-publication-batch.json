@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T01:41:47.826Z",
+  "generatedAt": "2026-10-25T04:03:03.439Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-public-identity-separation-audit.json",
-    "ops/editorial/content-artifacts/affiliate-promo-code-qualification-audit.json",
-    "ops/editorial/content-artifacts/premium-video-playback-speed-controls-audit.json",
-    "ops/editorial/content-artifacts/adult-game-digital-purchase-refund-terms-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-care-instructions-audit.json"
+    "ops/editorial/content-artifacts/vr-platform-compatibility-evidence-workflow.json",
+    "ops/editorial/content-artifacts/free-video-metered-mobile-data-planning.json",
+    "ops/editorial/content-artifacts/adult-anime-game-save-portability-check.json",
+    "ops/editorial/content-artifacts/premium-video-playback-watermark-visibility-audit.json",
+    "ops/editorial/content-artifacts/live-cam-session-recording-policy-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-public-identity-separation-audit.js",
-    "src/data/guides/affiliate-promo-code-qualification-audit.js",
-    "src/data/guides/premium-video-playback-speed-controls-audit.js",
-    "src/data/guides/adult-game-digital-purchase-refund-terms-audit.js",
-    "src/data/guides/adult-shop-product-care-instructions-audit.js"
+    "src/data/guides/vr-platform-compatibility-evidence-workflow.js",
+    "src/data/guides/free-video-metered-mobile-data-planning.js",
+    "src/data/guides/adult-anime-game-save-portability-check.js",
+    "src/data/guides/premium-video-playback-watermark-visibility-audit.js",
+    "src/data/guides/live-cam-session-recording-policy-review.js"
   ],
   "categories": [
-    "creator-platforms",
-    "webmaster-affiliate",
+    "vr-ar",
+    "free-videos",
+    "hentai-anime",
     "premium-videos",
-    "adult-games",
-    "adult-shops"
+    "live-cams"
   ],
   "backlogIds": [
-    "creator-platform-public-identity-separation-audit",
-    "affiliate-promo-code-qualification-audit",
-    "premium-video-playback-speed-controls-audit",
-    "adult-game-digital-purchase-refund-terms-audit",
-    "adult-shop-product-care-instructions-audit"
+    "vr-platform-compatibility-evidence-workflow",
+    "free-video-metered-mobile-data-planning",
+    "adult-anime-game-save-portability-check",
+    "premium-video-playback-watermark-visibility-audit",
+    "live-cam-session-recording-policy-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40151502518",
-  "phase": "closed"
+  "r1CycleId": "40160349037"
 }

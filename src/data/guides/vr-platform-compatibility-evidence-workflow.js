@@ -1,0 +1,116 @@
+export default {
+  "slug": "vr-platform-compatibility-evidence-workflow",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Verify Headset Compatibility Before You Commit",
+  "description": "Use a practical evidence checklist to confirm that a VR adult platform fits your headset, browser, connection method and preferred viewing routine.",
+  "excerpt": "A compatibility label is only a starting point. Check the exact headset, access route, software requirements and playback conditions you plan to use before paying or installing anything.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Treat headset compatibility as a specific combination of device, operating environment, access route and content format—not a general yes-or-no claim.",
+    "Look for current documentation naming your headset or supported browser, and distinguish explicit support from a broad claim such as “VR compatible.”",
+    "Confirm whether the platform expects a headset browser, a native app, a computer connection or a local playback workflow.",
+    "Test the intended path with information available before joining, and avoid installing software from sources you cannot verify.",
+    "Record unresolved questions and use them as decision criteria rather than assuming an unlisted feature will work."
+  ],
+  "sections": [
+    {
+      "heading": "Define what compatibility means for your setup",
+      "paragraphs": [
+        "A platform may use the word “compatible” to describe different things: a headset can open its website, a video can play in a browser, or a particular immersive format can be displayed correctly. Those are not interchangeable outcomes. Before comparing services, write down the headset model, whether you expect to use its built-in browser or another access route, and the type of playback you want.",
+        "Separate the essentials from preferences. An essential might be access without a computer; a preference might be the ability to continue browsing on a phone. This distinction keeps a polished feature list from distracting you from the basic question: can the platform’s documented access path work with the equipment and routine you actually have?"
+      ],
+      "bullets": [
+        "Headset model and relevant software environment.",
+        "Intended route: browser, app, computer connection or local playback.",
+        "Any essential format, control or display requirement.",
+        "Whether a non-headset device is needed for setup or account management."
+      ]
+    },
+    {
+      "heading": "Read compatibility claims as evidence, not guarantees",
+      "paragraphs": [
+        "Give more weight to specific, maintained documentation than to a general badge or marketing phrase. Useful evidence may name supported device families, browser requirements, minimum software versions, known limitations, or troubleshooting steps. Check when the information was written if a date is provided. A page that does not name your device is not proof of incompatibility, but it leaves an important question unanswered.",
+        "Compare the platform’s own help material with the device maker’s current guidance on browser access, app installation and supported file handling. If the two sources appear to conflict, do not resolve the discrepancy by guessing. Ask support a narrowly framed question that names your device and intended route, then keep the response with your comparison notes."
+      ],
+      "table": {
+        "caption": "A simple way to grade compatibility evidence",
+        "headers": [
+          "Evidence type",
+          "What it helps establish",
+          "What remains uncertain"
+        ],
+        "rows": [
+          [
+            "Device-specific support page",
+            "Whether the platform documents that device or device family",
+            "Whether your exact software version and intended content path work"
+          ],
+          [
+            "Browser or app requirements",
+            "Which access route the platform expects",
+            "Whether the route is comfortable and reliable for your use"
+          ],
+          [
+            "General “VR ready” wording",
+            "That the service intends to serve VR users",
+            "Device, format, control and software details"
+          ],
+          [
+            "Support response",
+            "How the platform interprets your specific setup",
+            "Whether future updates will preserve that support"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Map the complete access route",
+      "paragraphs": [
+        "Compatibility often depends on several steps working together. A site might open in the headset browser but require a separate device to create an account. Another route might use a computer to send content to the headset. Draw the path from arriving at the platform to starting playback, including any login, app, pairing or file-selection steps. Each dependency can change the convenience and privacy of the setup.",
+        "Check where credentials are entered and whether the route requires permissions or software beyond the platform’s own website. If an app is involved, identify its official source and requested permissions before installing it. If a computer or phone must remain involved, consider whether that device can display notifications or retain account details while the headset is in use."
+      ],
+      "bullets": [
+        "Can you reach the catalog from the headset itself?",
+        "Is an additional device needed for sign-in, playback or transfer?",
+        "Does the route require a separate app, extension or local player?",
+        "Are the required steps documented, including exit and sign-out?"
+      ]
+    },
+    {
+      "heading": "Check the conditions that can change playback",
+      "paragraphs": [
+        "A page loading successfully is not the same as satisfying your playback needs. Check the platform’s explanations of format labels, quality settings and browser limitations, and compare them with your headset’s documentation. Do not infer that every title or stream uses the same format merely because one sample or preview works. A platform may describe separate formats or access rules for different parts of its catalog.",
+        "Also consider connection stability and the place where you expect to use the service. If you plan to rely on a wireless network, check whether the platform offers adjustable playback settings or practical troubleshooting advice. Treat missing details as unknowns. Do not purchase equipment or a membership based on an assumption that an undocumented format, setting or network behavior will be available."
+      ]
+    },
+    {
+      "heading": "Make a decision using a repeatable checklist",
+      "paragraphs": [
+        "Use the same checklist for each candidate platform so that comparisons do not turn into a contest between different kinds of claims. For every requirement, mark it as documented, tested, unclear or not supported. A blank answer is not a failure by itself; it tells you which question to ask or which uncertainty you would be accepting. Prioritize anything that would prevent access altogether.",
+        "Before creating an account or paying, verify the official destination, read the current access instructions and check what can be evaluated without joining. Avoid sideloading unknown software or providing account credentials through a page reached from an unverified link. If an essential compatibility detail remains unclear, pause the decision rather than treating marketing wording as confirmation."
+      ],
+      "bullets": [
+        "Record the exact headset and software environment you intend to use.",
+        "Save links or notes for device-specific support and access instructions.",
+        "Mark each requirement documented, tested, unclear or not supported.",
+        "Resolve essential unknowns before installing software or paying."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does “VR compatible” mean a platform supports my exact headset?",
+      "answer": "Not necessarily. The phrase may refer to a general immersive format, a browser that opens on some headsets, or a particular playback route. Look for device-specific documentation and confirm the steps required for your exact setup."
+    },
+    {
+      "question": "What should I do if my headset is not named in the help pages?",
+      "answer": "Treat support as unconfirmed rather than assuming either compatibility or incompatibility. Ask the platform about your headset model, software environment and intended access route. Keep the answer with your comparison notes, especially if the setup is essential to your decision."
+    },
+    {
+      "question": "Can I verify compatibility without creating an account?",
+      "answer": "Often you can inspect public help pages, device requirements and access instructions first. Whether a preview or playback test is available without an account varies, so check the stated terms. Do not enter payment details simply to answer a basic device-support question."
+    }
+  ]
+};
