@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T17:53:59.526Z",
+  "generatedAt": "2026-10-25T18:59:37.028Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-platform-content-breadth-evidence-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-checkout-authorization-terms-preflight.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-discoverability-controls-audit.json",
-    "ops/editorial/content-artifacts/vr-adult-private-room-readiness-checklist.json",
-    "ops/editorial/content-artifacts/free-video-caption-and-subtitle-usability-check.json"
+    "ops/editorial/content-artifacts/adult-games-mod-support-and-installation-risk-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-product-claim-evidence-checklist.json",
+    "ops/editorial/content-artifacts/adult-anime-sample-image-quality-legibility-audit.json",
+    "ops/editorial/content-artifacts/premium-video-account-security-control-preflight.json",
+    "ops/editorial/content-artifacts/adult-platform-bank-alert-and-payment-notification-privacy.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-platform-content-breadth-evidence-audit.js",
-    "src/data/guides/adult-platform-checkout-authorization-terms-preflight.js",
-    "src/data/guides/adult-dating-profile-discoverability-controls-audit.js",
-    "src/data/guides/vr-adult-private-room-readiness-checklist.js",
-    "src/data/guides/free-video-caption-and-subtitle-usability-check.js"
+    "src/data/guides/adult-games-mod-support-and-installation-risk-audit.js",
+    "src/data/guides/adult-shop-product-claim-evidence-checklist.js",
+    "src/data/guides/adult-anime-sample-image-quality-legibility-audit.js",
+    "src/data/guides/premium-video-account-security-control-preflight.js",
+    "src/data/guides/adult-platform-bank-alert-and-payment-notification-privacy.js"
   ],
   "categories": [
-    "live-cams",
-    "privacy-safety-payment",
-    "dating-hookups",
-    "vr-ar",
-    "free-videos"
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "live-cam-platform-content-breadth-evidence-audit",
-    "adult-platform-checkout-authorization-terms-preflight",
-    "adult-dating-profile-discoverability-controls-audit",
-    "vr-adult-private-room-readiness-checklist",
-    "free-video-caption-and-subtitle-usability-check"
+    "adult-games-mod-support-and-installation-risk-audit",
+    "adult-shop-product-claim-evidence-checklist",
+    "adult-anime-sample-image-quality-legibility-audit",
+    "premium-video-account-security-control-preflight",
+    "adult-platform-bank-alert-and-payment-notification-privacy"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40218535444",
-  "phase": "closed"
+  "r1CycleId": "40223719376"
 }

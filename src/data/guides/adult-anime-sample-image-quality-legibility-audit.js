@@ -1,0 +1,110 @@
+export default {
+  "slug": "adult-anime-sample-image-quality-legibility-audit",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Manga Platforms: Check Sample Image Quality and Page Legibility",
+  "description": "Assess page clarity, text legibility, cropping, and image presentation in adult manga samples before choosing a digital platform or edition.",
+  "excerpt": "A sample can reveal more than a cover image. Check whether pages are readable on your device, presented in order, and clear enough to assess before committing to a title or platform.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Use interior sample pages when available; a cover does not show reading quality.",
+    "Check text legibility at the size and zoom you expect to use.",
+    "Look for cropping, compression, missing pages, and inconsistent presentation.",
+    "Distinguish a sample's image quality from the full edition's completeness.",
+    "Use a structured comparison rather than assuming similar titles have similar files."
+  ],
+  "sections": [
+    {
+      "heading": "Why sample quality deserves a separate check",
+      "paragraphs": [
+        "A listing can identify a format or edition without making clear how readable its pages will be on your device. Cover art is especially limited evidence: it may be displayed at a different size or quality than the interior pages. If a platform provides sample pages, inspect them as a practical test of legibility and presentation rather than relying on a promotional image to represent the reading experience.",
+        "Image quality is only one part of a useful sample. Page order, crop boundaries, contrast, and the way text sits within the image can all affect whether a digital edition is comfortable to read. The same title may be presented differently across formats or sellers, so compare the actual sample offered for the exact edition you are considering."
+      ],
+      "bullets": [
+        "Open interior pages rather than judging from the cover alone.",
+        "Check the sample using the device and screen size you expect to use.",
+        "Keep edition and format details alongside your notes about image quality."
+      ]
+    },
+    {
+      "heading": "Test legibility at realistic viewing sizes",
+      "paragraphs": [
+        "View the sample at the size you are likely to read, not only at maximum zoom. If text becomes difficult to distinguish at a normal page fit, the sample may require frequent zooming and panning. On a phone, check whether a page can be understood in portrait orientation or whether the interface offers a useful way to enlarge a panel without losing your place.",
+        "Avoid judging clarity from a single page. Inspect pages with different text sizes, line weights, and visual density, because a simple page may look sharp while a more detailed one reveals compression or small lettering. If a platform lets you switch between a page view and a zoomed view, note whether the image remains clear and whether navigation back to the full page is straightforward."
+      ],
+      "table": {
+        "caption": "A quick review of an adult manga sample",
+        "headers": [
+          "Feature",
+          "What to inspect",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Text",
+            "Can ordinary lettering be read at a practical size?",
+            "Record whether zoom is needed often"
+          ],
+          [
+            "Image clarity",
+            "Do lines and details remain distinct when enlarged?",
+            "Note visible softness or compression"
+          ],
+          [
+            "Cropping",
+            "Are page edges or text areas cut off?",
+            "Check more than one interior page"
+          ],
+          [
+            "Navigation",
+            "Can you move between pages and return to the page view?",
+            "Record whether controls feel predictable"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for cropping, compression, and inconsistent pages",
+      "paragraphs": [
+        "A sample may show pages that have been reduced, compressed, or cropped for a particular display. Inspect the outer edges and gutters for missing content, and compare several pages for consistency. Soft lettering, visible artifacts, or uneven page dimensions can make an edition less convenient to read, even when its listing names the format accurately.",
+        "Do not assume that every visible issue in a sample will appear throughout an edition, but do not ignore repeated problems either. One unclear page may be an isolated preview limitation; several affected pages are stronger evidence that you should seek a fuller sample or ask support a precise question. Record what you observed rather than guessing how the complete edition was created."
+      ]
+    },
+    {
+      "heading": "Separate sample readability from title completeness",
+      "paragraphs": [
+        "A clear sample does not prove that a full edition contains every expected page, volume, or bonus item. Completeness is a separate question from image quality. Check the product or platform listing for edition details, volume information, and any stated scope, and compare those facts with the sample without treating one as evidence of the other.",
+        "Similarly, a sample may be rendered in a different viewer or at a different resolution from the content available after purchase. Look for an explanation of the sample format and avoid inferring an exact full-resolution experience unless the listing says so. If you are comparing platforms, keep separate notes for readability, edition coverage, and access terms so one strong feature does not conceal an unanswered question."
+      ]
+    },
+    {
+      "heading": "Build a repeatable sample comparison",
+      "paragraphs": [
+        "When comparing several listings, use the same device, orientation, and zoom approach for each sample. Write down the exact title and edition, whether interior pages were available, how much zoom was needed, and whether you noticed cropping or inconsistent clarity. This makes the comparison more useful than relying on memory or on a general impression from the cover.",
+        "A simple checklist can guide a decision without turning it into a technical review. If no sample is provided, treat readability as unverified and decide whether the available title information is enough for you. You can also check whether the platform explains its viewer controls or offers customer support for questions about a particular edition. Do not upload or redistribute sample pages to seek outside opinions unless the platform's terms allow it."
+      ],
+      "bullets": [
+        "Record the title, edition, and format of each sample.",
+        "Check readability at a normal viewing size and at a practical zoom level.",
+        "Inspect multiple pages for cropping or inconsistent image clarity.",
+        "Keep completeness and access questions separate from image-quality notes.",
+        "Mark quality as unverified when no interior sample is available."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the cover image a reliable test of manga page quality?",
+      "answer": "Usually it is limited evidence because a cover may be presented differently from interior pages. An interior sample provides a more useful check of text legibility, cropping, and image clarity."
+    },
+    {
+      "question": "Can a readable sample confirm that an edition is complete?",
+      "answer": "No. Readability and completeness are separate questions. Check the listing's edition and volume details, and do not infer full contents from a few sample pages."
+    },
+    {
+      "question": "What if the platform does not provide sample pages?",
+      "answer": "Treat image quality as unverified. Decide whether other available details are enough for you, or ask support whether an interior sample or clearer information is available before making a purchase."
+    }
+  ]
+};
