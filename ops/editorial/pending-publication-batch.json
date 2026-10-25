@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T18:59:37.028Z",
+  "generatedAt": "2026-10-25T20:02:07.658Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-mod-support-and-installation-risk-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-claim-evidence-checklist.json",
-    "ops/editorial/content-artifacts/adult-anime-sample-image-quality-legibility-audit.json",
-    "ops/editorial/content-artifacts/premium-video-account-security-control-preflight.json",
-    "ops/editorial/content-artifacts/adult-platform-bank-alert-and-payment-notification-privacy.json"
+    "ops/editorial/content-artifacts/live-cam-platform-device-permission-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-content-license-terms-audit.json",
+    "ops/editorial/content-artifacts/affiliate-program-payee-verification-data-review.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-identity-document-data-review.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-content-authorization-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-mod-support-and-installation-risk-audit.js",
-    "src/data/guides/adult-shop-product-claim-evidence-checklist.js",
-    "src/data/guides/adult-anime-sample-image-quality-legibility-audit.js",
-    "src/data/guides/premium-video-account-security-control-preflight.js",
-    "src/data/guides/adult-platform-bank-alert-and-payment-notification-privacy.js"
+    "src/data/guides/live-cam-platform-device-permission-audit.js",
+    "src/data/guides/creator-platform-content-license-terms-audit.js",
+    "src/data/guides/affiliate-program-payee-verification-data-review.js",
+    "src/data/guides/adult-dating-platform-identity-document-data-review.js",
+    "src/data/guides/adult-anime-platform-content-authorization-audit.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "premium-videos",
-    "privacy-safety-payment"
+    "live-cams",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "dating-hookups",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-games-mod-support-and-installation-risk-audit",
-    "adult-shop-product-claim-evidence-checklist",
-    "adult-anime-sample-image-quality-legibility-audit",
-    "premium-video-account-security-control-preflight",
-    "adult-platform-bank-alert-and-payment-notification-privacy"
+    "live-cam-platform-device-permission-audit",
+    "creator-platform-content-license-terms-audit",
+    "affiliate-program-payee-verification-data-review",
+    "adult-dating-platform-identity-document-data-review",
+    "adult-anime-platform-content-authorization-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40223719376",
-  "phase": "closed"
+  "r1CycleId": "40228671855"
 }

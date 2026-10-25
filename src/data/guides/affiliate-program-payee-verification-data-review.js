@@ -1,0 +1,120 @@
+export default {
+  "slug": "affiliate-program-payee-verification-data-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Review Payee Verification and Payout Data Requests",
+  "description": "Assess what an affiliate program asks from payees, when it requests verification, how it explains data handling, and what to confirm before onboarding.",
+  "excerpt": "Payout onboarding can involve sensitive business or identity information. Use this checklist to understand the request, its purpose, and the program’s stated handling before submitting data.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "List each requested data item and connect it to the program’s stated onboarding or payout purpose.",
+    "Find out which legal entity collects the information and where the program explains its handling.",
+    "Check whether sensitive documents must be uploaded through an official, access-controlled process.",
+    "Clarify what happens if verification is incomplete, delayed, or no longer needed.",
+    "Keep a record of submitted items and confirmations without storing unnecessary copies of sensitive documents."
+  ],
+  "sections": [
+    {
+      "heading": "Inventory the information requested",
+      "paragraphs": [
+        "Before submitting payout details, make an inventory of the fields and documents requested. Separate ordinary contact or business information from information that can identify a person or verify financial ownership. The point is not to presume a request is improper; it is to understand exactly what is being requested and what explanation accompanies it.",
+        "For each item, record the stage at which it is requested, whether it is required to open an account or receive a payout, and the stated reason. If an item appears unrelated to the stated purpose, ask the program for clarification before providing it. Avoid sending identity or financial documents through an informal message when the program provides a designated onboarding channel."
+      ],
+      "bullets": [
+        "Record the requested field or document without copying its sensitive contents into a general worksheet.",
+        "Note whether the request is for account setup, payee verification, tax documentation, or another stated purpose.",
+        "Ask about any requirement that is not explained."
+      ]
+    },
+    {
+      "heading": "Confirm who is collecting the data",
+      "paragraphs": [
+        "An affiliate dashboard, an outside payment provider, and a contracting business may have different roles. Read the program’s onboarding and privacy information to identify which entity is asking for each item and which entity will receive it. Do not assume that the brand name shown on a dashboard is the only organization involved in processing a payment.",
+        "Check that the request comes through an official program channel you can independently identify. A familiar logo or a message that looks routine is not enough to establish that a request is genuine. Navigate to the program through a known official route, review the account’s instructions, and contact support through its documented channel if a request arrives unexpectedly or asks you to send sensitive information elsewhere."
+      ]
+    },
+    {
+      "heading": "Understand the stated purpose and handling",
+      "paragraphs": [
+        "Look for the program’s explanation of why the information is collected, how it is used, and whether it is shared with payment or verification providers. The notice should help you understand the data flow at a useful level. If it only says information may be used for broad business purposes, ask whether there is a more specific explanation for payee onboarding and payout processing.",
+        "Review what the program says about access, retention, security practices, and deletion or correction requests. These details do not prove that a system is risk-free, but they help you assess whether the program has documented a process you can understand. If an external provider receives information, check whether the program identifies that provider’s role and points to relevant information about its handling."
+      ],
+      "table": {
+        "caption": "A payee-information review sheet for affiliate onboarding",
+        "headers": [
+          "Question",
+          "Evidence to locate",
+          "Follow-up if unclear"
+        ],
+        "rows": [
+          [
+            "Who requests it?",
+            "Official onboarding instructions and named entity",
+            "Confirm the contracting or collecting entity."
+          ],
+          [
+            "Why is it needed?",
+            "A stated purpose linked to a specific field",
+            "Ask what function depends on the information."
+          ],
+          [
+            "How is it submitted?",
+            "Documented upload or account workflow",
+            "Verify the channel through official support."
+          ],
+          [
+            "Who can access it?",
+            "Privacy information about recipients or providers",
+            "Ask which parties handle the data."
+          ],
+          [
+            "What happens later?",
+            "Retention, correction, or deletion information",
+            "Ask how to update or remove information when appropriate."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the payout consequences before agreeing",
+      "paragraphs": [
+        "Verification can affect whether a payee account is approved or whether a payout can proceed, but the exact consequences depend on the program’s terms. Read the relevant payout and account language for what happens if information is missing, inconsistent, or awaiting review. Do not infer timing or outcomes that the program has not documented.",
+        "If a process is unclear, ask a focused question before your balance or business operations depend on the answer. For example, ask which payout steps pause during review, whether the program provides a status update, and how to correct an error. Preserve the reply and any account notices so you can distinguish a documented policy from an informal assumption later."
+      ],
+      "bullets": [
+        "Find the program’s stated consequences for incomplete verification.",
+        "Ask how an incorrect or outdated payee detail can be corrected.",
+        "Keep dated confirmations and status notices in your business records."
+      ]
+    },
+    {
+      "heading": "Submit information with operational care",
+      "paragraphs": [
+        "Use only the official submission method described in the program’s account or onboarding materials. Check the destination before uploading, especially if a link arrives in a message. Limit access to team members who need to handle payee setup, and avoid placing identity documents in shared folders or ordinary project notes without a defined business reason and suitable controls.",
+        "After submission, record what was provided, when, through which official channel, and whether the program confirmed receipt. Keep that record minimal: a document category and confirmation reference may be enough for workflow tracking. Do not retain extra document copies merely for convenience. Follow applicable organizational retention practices and seek appropriate professional advice for tax or regulatory questions."
+      ]
+    },
+    {
+      "heading": "Compare programs on clarity, not on assumptions",
+      "paragraphs": [
+        "When choosing between programs, compare the quality of the documented onboarding process: clear purpose statements, identifiable entities, secure submission instructions, understandable payout consequences, and a way to resolve errors. A program that explains its request clearly is easier to evaluate operationally than one that leaves basic questions unanswered.",
+        "Avoid treating a polished interface or a short privacy summary as proof of sound data handling. Use the terms, privacy information, account workflow, and official support responses together. If a request remains unexplained or the submission route cannot be verified, pause onboarding until you can resolve the uncertainty. This review supports a decision; it is not a guarantee about compliance or security."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I provide a requested payee document if the reason is not explained?",
+      "answer": "Pause and ask the program through an official support channel what the document is for, who receives it, and how it must be submitted. Do not send sensitive information through an unverified route."
+    },
+    {
+      "question": "Does a payout provider’s involvement mean the affiliate program has no responsibility for the process?",
+      "answer": "Do not assume that. Identify the parties named in the program’s terms and privacy information, and ask how their roles relate to onboarding and payout handling. The documents should guide your understanding."
+    },
+    {
+      "question": "What records should a webmaster keep after verification?",
+      "answer": "Keep a minimal record of the request, the date and official submission channel, confirmation or status references, and any support response. Avoid storing unnecessary copies of sensitive documents in general business files."
+    }
+  ]
+};

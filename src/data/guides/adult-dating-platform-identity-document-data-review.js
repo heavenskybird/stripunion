@@ -1,0 +1,113 @@
+export default {
+  "slug": "adult-dating-platform-identity-document-data-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Review Identity-Document Requests Before Joining",
+  "description": "A privacy-first checklist for evaluating dating-platform identity or age-verification requests, including purpose, submission routes, retention, and alternatives.",
+  "excerpt": "A verification badge and an identity-document request are different issues. Before uploading sensitive information, understand why it is requested, who handles it, and what the platform says happens next.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Distinguish a profile verification badge from a platform request to submit identity information.",
+    "Find the stated purpose, data recipient, submission method, and retention information before providing documents.",
+    "Check whether the platform explains any alternative way to complete the required account step.",
+    "Confirm whether verification is optional or connected to access, messaging, or account status.",
+    "Use only a verified official submission route and avoid sending documents through informal messages."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what kind of verification is being requested",
+      "paragraphs": [
+        "The word “verification” can refer to different processes. A platform might offer a profile badge intended to signal that an account completed a particular check, or it might ask an account holder to provide information or documents as part of onboarding or access. These are not interchangeable. A badge does not, by itself, tell you what personal data was collected or how it was handled.",
+        "Before responding to a request, identify whether it concerns profile presentation, account eligibility, age assurance, identity matching, or another stated purpose. Read the prompt and the relevant help information together. If the wording does not explain the purpose, avoid guessing based on what other services do. A clear description helps you decide whether the requested data is proportionate to the step you are trying to complete."
+      ],
+      "bullets": [
+        "Record the exact account action that triggered the request.",
+        "Separate a public-facing badge from private onboarding information.",
+        "Look for a plain explanation of the requested check’s purpose."
+      ]
+    },
+    {
+      "heading": "Find out who receives the information",
+      "paragraphs": [
+        "The platform may handle a verification step itself or describe a separate service provider. Check the platform’s official information for the named organization, its role, and whether the platform says it receives documents, a verification result, or another limited signal. Do not assume a third party receives less information simply because it is external; check what the documents actually say.",
+        "Confirm the submission route before uploading anything. Use the account’s official workflow or another method identified in the platform’s own documentation. If a message asks you to send a document to an unfamiliar address or through an unofficial chat, stop and verify the request through a channel you can reach independently. Never let urgency replace confirmation."
+      ]
+    },
+    {
+      "heading": "Review data use, retention, and available choices",
+      "paragraphs": [
+        "Look for a description of how verification information is used, who may access it, how long it is retained, and whether it is deleted or transformed after a decision. The platform may distinguish between a document image and a result indicating that a check was completed. Those distinctions matter, but rely on the platform’s own explanation rather than assuming a particular workflow.",
+        "Check whether the process is optional and what happens if you decline. A platform may connect a check to an account feature or access decision; the exact effects should be explained in its terms or help information. If alternatives are available, note what they require and whether they achieve the same stated purpose. If a policy is missing or unclear, ask support before submitting sensitive data."
+      ],
+      "table": {
+        "caption": "Identity-request questions to answer before making a decision",
+        "headers": [
+          "Question",
+          "What to look for",
+          "If the answer is missing"
+        ],
+        "rows": [
+          [
+            "Why is it requested?",
+            "A specific purpose tied to the account step",
+            "Ask what feature or status depends on it."
+          ],
+          [
+            "Who handles it?",
+            "The platform or a named verification provider",
+            "Confirm the data recipient through official support."
+          ],
+          [
+            "What is retained?",
+            "Separate explanations for documents and results",
+            "Ask how long each type is kept."
+          ],
+          [
+            "Is there a choice?",
+            "Optional status and any alternative process",
+            "Ask what declining means for your account."
+          ],
+          [
+            "How do I submit it?",
+            "An official account workflow or documented route",
+            "Do not upload until the route is verified."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Consider exposure beyond the platform",
+      "paragraphs": [
+        "Sensitive documents can contain information beyond the detail needed for a particular check. Before uploading, read the platform’s instructions about which document types and fields it accepts, and whether it explains how the information is processed. Do not alter or obscure a document unless the official instructions allow it; instead, ask whether a less revealing option is accepted.",
+        "Think about the device and account you use to complete verification. Avoid shared devices or public networks when you cannot control saved files, account sessions, or visible notifications. After completing an official process, check for downloaded copies or temporary files and follow the platform’s instructions. These device precautions do not replace the platform’s data-handling commitments, but they can reduce avoidable exposure on your side."
+      ],
+      "bullets": [
+        "Use a device and account you control.",
+        "Follow official instructions about acceptable documents and file formats.",
+        "Check for saved copies after submission and handle them securely."
+      ]
+    },
+    {
+      "heading": "Make a decision using documented facts",
+      "paragraphs": [
+        "A practical decision compares the sensitivity of the requested information with the platform’s explanation, the available choices, and the importance of the feature you want to use. You do not need to accept a request simply because it is presented as a routine step. If the purpose, recipient, or retention practice remains unclear, delay the decision and seek a direct answer.",
+        "Keep a note of the date, the policy or help page you consulted, and the response you received. Do not save the actual document in an unrelated notes file just to preserve evidence of the process. If the platform changes the request or terms, review them again. This method helps you make an informed account decision without treating any badge or verification label as a guarantee about another person."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an identity-verification badge proof that a dating profile is trustworthy?",
+      "answer": "No. A badge generally indicates only that a platform’s specified process was completed, if the platform explains that process. It does not establish a person’s intentions or guarantee that every profile detail is accurate."
+    },
+    {
+      "question": "Should I upload an identity document through a direct message?",
+      "answer": "Do not do so unless the platform’s official instructions specifically identify that route. Verify the request through the account interface or documented support channel before sending sensitive information."
+    },
+    {
+      "question": "What if I cannot find how long verification information is retained?",
+      "answer": "Ask the platform what it retains, who can access it, and how long it is kept. If the response does not resolve your concern, you can delay joining or decline the request rather than relying on an assumption."
+    }
+  ]
+};
