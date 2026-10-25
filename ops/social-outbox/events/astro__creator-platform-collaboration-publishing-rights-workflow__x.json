@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/creator-platform-collaboration-publishing-rights-workflow",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-25T06:13:45.082Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-25T08:08:36.019Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6addb9046887a2efc1f501be",
   "provider_due_at": "2026-10-25T11:54:00.000Z",
   "created_at": "2026-10-25T06:13:45.082Z",
-  "updated_at": "2026-10-25T11:08:46.195Z",
+  "updated_at": "2026-10-25T12:13:12.054Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 10,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
