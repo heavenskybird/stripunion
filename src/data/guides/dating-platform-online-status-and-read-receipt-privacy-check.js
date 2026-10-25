@@ -1,0 +1,123 @@
+export default {
+  "slug": "dating-platform-online-status-and-read-receipt-privacy-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check Online Status and Read-Receipt Privacy",
+  "description": "Before messaging on an adult-oriented dating platform, learn how online indicators, activity timestamps, and read receipts may affect privacy and communication expectations.",
+  "excerpt": "Presence indicators can reveal more than whether someone is available to chat. Check what status information is shown, who can see it, and whether controls are clear before relying on messaging features.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Distinguish online status, last-active time, and read receipts; they reveal different information.",
+    "Check the platform’s actual visibility settings instead of assuming indicators can be disabled.",
+    "Consider whether status information is shown to everyone, matches, contacts, or another defined audience.",
+    "Do not treat a read receipt or missing status as proof of someone’s intentions or availability.",
+    "Review privacy controls before messaging and again if settings or account relationships change."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the different kinds of presence signals",
+      "paragraphs": [
+        "Dating services may display several kinds of activity information, but the labels are not interchangeable. An online indicator may suggest a current session. A last-active time may show a past interaction. A read receipt may indicate that a message was opened or marked as viewed. Each signal can create different expectations and privacy implications, so identify exactly what a platform displays before interpreting it.",
+        "Do not assume that an indicator proves a person is actively reading messages or is available to respond. The platform may define status in a way that is not obvious from the label, and display timing may not match your expectations. Treat indicators as limited interface information rather than a promise about another person’s attention, interest, or response time."
+      ],
+      "table": {
+        "caption": "Presence indicators and the questions they raise",
+        "headers": [
+          "Indicator",
+          "Possible information exposed",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Online status",
+            "A user may appear active now",
+            "Who can see it and how the platform defines activity"
+          ],
+          [
+            "Last-active time",
+            "A recent or approximate activity window",
+            "Whether it is exact, approximate, or audience-limited"
+          ],
+          [
+            "Read receipt",
+            "A message may have been opened or marked viewed",
+            "Whether it is mutual, optional, or tied to a setting"
+          ],
+          [
+            "Typing indicator",
+            "A message may be in progress",
+            "Whether it appears in one-to-one or group conversations"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find out who can see your activity",
+      "paragraphs": [
+        "Visibility is as important as the indicator itself. Look for settings or help information that explains whether activity is visible to all members, people you have matched with, people you have messaged, or another audience. Do not infer the audience from the app’s layout. A status marker beside a profile may be visible more widely than the conversation in which it appears.",
+        "Check whether the service describes separate controls for online status, last-active time, and read receipts. One setting may not govern the others. If you cannot find a clear explanation, treat the audience as uncertain. That uncertainty may matter if you share a device, prefer asynchronous messaging, or do not want your activity pattern to be visible to other members."
+      ],
+      "bullets": [
+        "Identify the audience for each activity signal.",
+        "Check whether settings are separate or combined.",
+        "Look for controls that apply to messages, profiles, or both.",
+        "Do not assume that hiding one indicator hides all activity information."
+      ]
+    },
+    {
+      "heading": "Review control options before starting conversations",
+      "paragraphs": [
+        "If the platform provides activity controls, read what each option changes and whether it applies immediately. A setting might hide a status, limit its audience, or affect whether you can see other members’ status in return. Verify the actual description rather than expecting a familiar control to work the same way it does elsewhere.",
+        "Consider the trade-off between convenience and visibility. Activity indicators can help people coordinate a conversation, but they can also make a user feel pressured to reply quickly. If you prefer to respond on your own schedule, check whether the platform offers a relevant control before beginning regular messaging. If it does not, adjust your expectations and avoid treating presence signals as commitments."
+      ]
+    },
+    {
+      "heading": "Interpret read receipts without turning them into proof",
+      "paragraphs": [
+        "A read receipt is an interface event, not a complete account of what happened. The message may have appeared on a screen, been opened briefly, or been seen in circumstances that do not allow an immediate reply. Platform descriptions differ, and the indicator may not communicate whether the recipient understood or intends to respond.",
+        "Likewise, the absence of a receipt does not prove that a message was ignored. The feature may be disabled, unavailable, delayed, or defined differently than expected. Use the content of a conversation and clear communication—not an indicator alone—to understand expectations. This reduces the chance of drawing unwarranted conclusions from a small visual signal."
+      ]
+    },
+    {
+      "heading": "Account for shared devices and notification previews",
+      "paragraphs": [
+        "Presence privacy does not stop at the platform’s settings. A message notification can display a sender name or text on a lock screen, desktop banner, smartwatch, or shared tablet. If other people can see those displays, they may learn that a conversation is active even when your profile settings limit status information. Review device notifications separately from account-level activity controls.",
+        "On a shared device, sign out when appropriate and avoid leaving a dating account open in a browser or app that another person can access. Check whether the platform sends activity-related emails or notifications if those could appear in a shared inbox. These steps do not control what other members see, but they address a different path by which conversation activity may become visible."
+      ],
+      "bullets": [
+        "Review lock-screen and desktop notification previews.",
+        "Check connected devices such as watches or shared tablets.",
+        "Use a separate device profile or sign out when appropriate.",
+        "Remember that device notifications and profile visibility are separate controls."
+      ]
+    },
+    {
+      "heading": "Make a messaging decision that fits your boundaries",
+      "paragraphs": [
+        "Before using messaging, decide what level of activity visibility feels acceptable. You might be comfortable with a limited online marker but not a precise last-active time, or you may prefer to avoid read receipts altogether. The available choices depend on the service, so base your decision on settings and explanations you can actually verify.",
+        "Recheck controls if you change your audience, begin using a different device, or notice a new indicator. Keep expectations realistic: status features cannot guarantee privacy from screenshots, notifications, or information another person chooses to share. If a control is unclear or unavailable, decide whether the messaging model still works for you rather than assuming the feature will behave privately."
+      ],
+      "bullets": [
+        "Know which activity signals are enabled before messaging.",
+        "Understand who can see each signal.",
+        "Separate status visibility from device notification privacy.",
+        "Treat activity indicators as limited information, not proof of intent."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an online indicator mean someone is available to chat?",
+      "answer": "Not necessarily. It indicates only what the platform’s interface defines as activity, and that definition may not reflect a person’s attention or willingness to respond. Check the service’s explanation and avoid treating status as a promise."
+    },
+    {
+      "question": "Can I assume that turning off read receipts also hides my online status?",
+      "answer": "No. Read receipts and online status can be separate features. Check each setting and its description individually, including who can see the information and whether the control affects what you can see from others."
+    },
+    {
+      "question": "Why should I check notification settings if I changed profile visibility?",
+      "answer": "Profile controls affect what other members may see inside the service. Device notifications can independently show message activity or text on a lock screen, desktop, or shared device. Review both layers."
+    }
+  ]
+};

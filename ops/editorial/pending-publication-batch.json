@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T05:58:43.103Z",
+  "generatedAt": "2026-10-25T08:05:32.701Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-collaboration-publishing-rights-workflow.json",
-    "ops/editorial/content-artifacts/adult-affiliate-email-newsletter-terms-and-operations.json",
-    "ops/editorial/content-artifacts/dating-platform-paid-visibility-feature-evaluation.json",
-    "ops/editorial/content-artifacts/adult-platform-account-deletion-data-retention-workflow.json",
-    "ops/editorial/content-artifacts/vr-platform-region-relocation-account-continuity-plan.json"
+    "ops/editorial/content-artifacts/adult-anime-preview-evidence-fit-audit.json",
+    "ops/editorial/content-artifacts/free-video-account-recovery-security-fit.json",
+    "ops/editorial/content-artifacts/adult-games-update-cadence-maintenance-evidence-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-delivery-option-address-fit-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-online-status-read-receipt-privacy-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-collaboration-publishing-rights-workflow.js",
-    "src/data/guides/adult-affiliate-email-newsletter-terms-and-operations.js",
-    "src/data/guides/dating-platform-paid-visibility-feature-evaluation.js",
-    "src/data/guides/adult-platform-account-deletion-data-retention-workflow.js",
-    "src/data/guides/vr-platform-region-relocation-account-continuity-plan.js"
+    "src/data/guides/adult-anime-platform-preview-evidence-fit-audit.js",
+    "src/data/guides/free-video-platform-login-security-account-recovery-checklist.js",
+    "src/data/guides/adult-game-platform-update-cadence-maintenance-evidence-audit.js",
+    "src/data/guides/adult-shop-delivery-options-address-and-collection-fit.js",
+    "src/data/guides/dating-platform-online-status-and-read-receipt-privacy-check.js"
   ],
   "categories": [
-    "creator-platforms",
-    "webmaster-affiliate",
-    "dating-hookups",
-    "privacy-safety-payment",
-    "vr-ar"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "creator-platform-collaboration-publishing-rights-workflow",
-    "adult-affiliate-email-newsletter-terms-and-operations",
-    "dating-platform-paid-visibility-feature-evaluation",
-    "adult-platform-account-deletion-data-retention-workflow",
-    "vr-platform-region-relocation-account-continuity-plan"
+    "adult-anime-preview-evidence-fit-audit",
+    "free-video-account-recovery-security-fit",
+    "adult-games-update-cadence-maintenance-evidence-audit",
+    "adult-shop-delivery-option-address-fit-audit",
+    "dating-platform-online-status-read-receipt-privacy-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40167349041",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "40175129079"
 }
