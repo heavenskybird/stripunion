@@ -1,0 +1,124 @@
+export default {
+  "slug": "adult-shop-gift-order-recipient-and-delivery-control",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Buying an Adult Product as a Gift: Check Recipient, Receipt, and Delivery Details",
+  "description": "Planning an adult-product gift? Check product suitability, gift messaging, receipts, delivery notifications, and return handling before placing an order.",
+  "excerpt": "A gift order can reveal more than the parcel itself. Before purchasing, confirm the recipient's preferences and age-appropriate suitability, then check who receives order messages, what paperwork is included, and who can manage delivery or returns.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Confirm the recipient's preferences and suitability without assuming that a gift is welcome.",
+    "Check whether checkout supports a separate purchaser, recipient, and delivery contact.",
+    "Review gift receipts, invoices, order emails, and parcel documents rather than relying on a general packaging claim.",
+    "Understand who can receive tracking alerts, change delivery instructions, or request a return.",
+    "Keep the purchaser's payment and order records separate from information intended for the recipient."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm that the gift is appropriate and wanted",
+      "paragraphs": [
+        "A thoughtful gift starts with the recipient's comfort, not with a product listing. Consider whether the recipient has indicated that this kind of present is welcome and whether they would prefer to choose a product themselves. A neutral gift card or a conversation may be more suitable when preferences are unknown. Do not use a surprise purchase to pressure someone into accepting an intimate or personal item.",
+        "Check product descriptions for dimensions, materials, care guidance, and intended use, but do not assume that a listing can answer questions about an individual recipient's needs. Avoid making medical or safety conclusions from marketing language. If the product requires particular care or has a specific fit, confirm that the recipient can review the details before deciding whether to keep it. A gift should leave the recipient free to decline or exchange it."
+      ],
+      "bullets": [
+        "Check whether the recipient has expressed interest in this category of gift.",
+        "Avoid guessing about preferences that the recipient has not shared.",
+        "Review practical product details and care information.",
+        "Choose a more neutral option if the recipient's preferences are uncertain.",
+        "Make acceptance, exchange, or refusal easy and pressure-free."
+      ]
+    },
+    {
+      "heading": "Separate purchaser, recipient, and delivery contacts",
+      "paragraphs": [
+        "Checkout forms can have separate fields for the purchaser, billing contact, recipient, and delivery contact. Read each field label carefully and verify what communications it controls. A recipient name on the parcel may not be the same as the account holder's name, and an email address entered for delivery updates may receive messages about the order. Avoid adding the recipient's contact information unless it is needed and they have agreed to receive those messages.",
+        "Before paying, review the order summary and each address field. Check whether the seller allows a different delivery address, whether the recipient must be available to accept the parcel, and whether carrier instructions can be changed after dispatch. Do not rely on assumptions about who can redirect or collect an order. If a choice is unclear, consult the retailer's published delivery information or contact support before submitting."
+      ],
+      "table": {
+        "caption": "Gift-order roles to verify before checkout",
+        "headers": [
+          "Role or record",
+          "Question to check",
+          "Possible practical concern"
+        ],
+        "rows": [
+          [
+            "Purchaser",
+            "Which name and email receive the order confirmation?",
+            "The payer may retain all account and receipt records"
+          ],
+          [
+            "Recipient",
+            "Which name appears on the delivery label or gift note?",
+            "A recipient may receive a parcel without knowing who ordered it"
+          ],
+          [
+            "Delivery contact",
+            "Who receives tracking or delivery alerts?",
+            "Messages could disclose a gift before it arrives"
+          ],
+          [
+            "Invoice or gift receipt",
+            "What paperwork is included or sent electronically?",
+            "Price or purchaser details may be visible"
+          ],
+          [
+            "Return contact",
+            "Who can start an exchange or return?",
+            "The recipient may need the purchaser's order reference"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect receipts and paperwork options",
+      "paragraphs": [
+        "Retailers may handle invoices, gift receipts, and order confirmations differently. Check whether a price appears in the parcel, whether a gift receipt is available, and whether the purchaser receives a separate confirmation. Do not assume that selecting a gift option removes all pricing or order information. Review the retailer's own description of what accompanies an order and ask support when the wording does not answer your question.",
+        "Keep the order reference and purchase confirmation somewhere the purchaser can retrieve them without placing them in a shared inbox or family account unintentionally. If the recipient may need to exchange the item, establish how they can do so without exposing payment details. A receipt designed for returns may contain information that is not the same as the purchaser's full payment record. Know which record to provide and to whom."
+      ]
+    },
+    {
+      "heading": "Plan delivery messages and handoff",
+      "paragraphs": [
+        "Delivery notifications can reach the wrong person if checkout uses an old email address, shared phone number, or account contact. Confirm who will receive dispatch and tracking notices, whether the parcel requires a signature, and whether the recipient is comfortable with the selected delivery arrangement. If the parcel is going to a shared address, consider whether another household member may see it or accept it.",
+        "Check the retailer's and carrier's stated options before relying on a particular delivery change. Collection points, delivery instructions, and redirection rules depend on the relevant service and order. Do not promise a recipient that a parcel can be rerouted unless the policy confirms it. When timing or handoff is uncertain, choose a plan that allows the recipient to make an informed choice rather than sending an unexpected parcel."
+      ]
+    },
+    {
+      "heading": "Understand return and exchange responsibilities",
+      "paragraphs": [
+        "A gift recipient may not be able to return an order without the purchaser's order number or cooperation. Review the retailer's return instructions, eligibility conditions, time limits, and method for requesting an exchange before purchase. Product category and condition can affect eligibility, so never assume that every item can be returned after opening. Follow the retailer's published policy and preserve the required packaging or paperwork if the recipient may need it.",
+        "Decide how to handle a return without asking the recipient to disclose more than necessary. The purchaser may need to contact the retailer, while the recipient may need to confirm the item or provide a delivery detail. Keep payment information private and do not share login credentials. If the policy is difficult to understand, select a gift with a clear route for the recipient to decline or exchange it, or delay buying until you have reliable clarification."
+      ]
+    },
+    {
+      "heading": "Use a final gift-order review",
+      "paragraphs": [
+        "Before placing the order, review the product, recipient details, delivery address, contact fields, gift message, and paperwork options together. Check the complete order summary for mistakes and make sure the chosen payment method is under the purchaser's control. Do not save the recipient's personal information in a retailer account unless there is a clear reason and permission to do so.",
+        "After checkout, retain the order confirmation and relevant terms. If the retailer sends tracking to the purchaser, decide when and how to share delivery information with the recipient. If an unexpected message arrives, verify it through the retailer or carrier's known channels before following links. A calm, clear handoff protects the recipient's choice and helps the purchaser resolve delivery or return questions without exposing unnecessary account details."
+      ],
+      "bullets": [
+        "Is the gift welcome, and are the recipient's preferences known?",
+        "Are purchaser, recipient, billing, and delivery fields correct?",
+        "Who receives confirmation, tracking, and delivery messages?",
+        "Does the parcel include pricing or purchaser information?",
+        "What does the return policy require from the purchaser or recipient?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume a gift receipt hides the price?",
+      "answer": "No. Retailers use different paperwork options, and a gift receipt may not remove every price or order detail. Check the retailer's explanation of what is included in the parcel and what is sent electronically before checkout."
+    },
+    {
+      "question": "Should I enter the recipient's email for delivery updates?",
+      "answer": "Only if that is necessary and the recipient agrees. Messages can reveal an order or arrive before the parcel. Check whether the purchaser can receive tracking instead and share delivery information in a way the recipient is comfortable with."
+    },
+    {
+      "question": "Can a gift recipient return an item without the purchaser?",
+      "answer": "That depends on the retailer's policy and the order records available. Check who can initiate a return, what reference is required, and whether the product's condition affects eligibility. Do not assume that the recipient can access the purchaser's account or payment details."
+    }
+  ]
+};

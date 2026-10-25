@@ -1,0 +1,131 @@
+{
+  "backlogId": "adult-games-save-data-portability-check",
+  "slug": "adult-games-save-data-and-portability-check",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Save Data and Progress Portability Before Switching Devices",
+  "description": "Before buying or moving an adult game to another device, check how saves, cloud sync, accounts, and updates affect progress and portability.",
+  "excerpt": "A game that runs on two devices may not carry progress between them. Learn how to check whether saves are local, account-linked, synchronized, or dependent on a particular version before you switch hardware or reinstall.",
+  "keyTakeaways": [
+    "Platform compatibility does not by itself establish that saved progress transfers between devices.",
+    "Find out where saves are stored, whether synchronization is automatic, and how conflicts are handled.",
+    "Check account, version, and update dependencies before moving or reinstalling a game.",
+    "Back up files only through documented, permitted methods and keep a separate copy when appropriate.",
+    "Test a small, reversible change before relying on a transfer for valuable progress."
+  ],
+  "sections": [
+    {
+      "heading": "Separate game compatibility from save compatibility",
+      "paragraphs": [
+        "A game may be available on more than one operating system or device type without sharing progress between those versions. The editions might store saves in different locations, use separate account systems, or have different update histories. Treat 'works on this device' and 'continues my existing save' as two independent questions when comparing a storefront, community page, or developer's documentation.",
+        "Before purchasing or reinstalling, identify the exact edition and version you own, the device where the current save exists, and the device you plan to use next. Look for official documentation or a clear support answer about cross-device progress. If the page only describes supported platforms, do not read that as confirmation of save transfer. Ask the developer or support route before making a change that could overwrite local data."
+      ],
+      "table": {
+        "caption": "Questions that distinguish access from progress continuity",
+        "headers": [
+          "Topic",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Game edition",
+            "Whether both devices use the same edition or build",
+            "Different versions may store or interpret saves differently"
+          ],
+          [
+            "Save location",
+            "Whether progress is local, account-linked, or synchronized",
+            "A reinstall or device change may not include local files"
+          ],
+          [
+            "Cloud behavior",
+            "Whether sync is supported and how conflicts are resolved",
+            "Automatic synchronization can replace a newer save"
+          ],
+          [
+            "Account dependency",
+            "Whether sign-in is required to access the save",
+            "Account recovery may be needed on the new device"
+          ],
+          [
+            "Update compatibility",
+            "Whether a save made on one version works on another",
+            "Version differences can affect loading or features"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find out where progress is stored",
+      "paragraphs": [
+        "Save data may be stored on the device, in a platform account, through a separate game account, or in a synchronized service. Those arrangements are not interchangeable. Read the game's support information for the exact method, including any instructions for locating or exporting files. Avoid assuming that a cloud icon, account login, or store library automatically includes a working save backup.",
+        "If progress is stored locally, determine whether the game supports an export or documented backup process. Keep the original file untouched until the copy is confirmed. If progress is account-linked, check what happens when you change the associated login, lose access to an email address, or sign in on a new device. Avoid moving or editing files with tools you do not understand, since a mistaken change could make a save unreadable."
+      ],
+      "bullets": [
+        "Record the game edition and current version.",
+        "Locate the official explanation of save storage and backup.",
+        "Confirm whether the save is tied to a store, game, or operating-system account.",
+        "Keep an untouched backup before testing any transfer.",
+        "Do not assume an installation backup includes personal save data."
+      ]
+    },
+    {
+      "heading": "Check synchronization and conflict behavior",
+      "paragraphs": [
+        "Synchronization can help keep progress consistent, but it also introduces a conflict question: what happens if two devices have different saves? Look for the service's explanation of which copy takes priority, whether it asks you to choose, and whether a previous version can be restored. Do not launch a game on multiple devices while a transfer is underway unless the instructions say that is safe.",
+        "A useful test is to make a small, reversible change on one device, allow synchronization to finish, and then verify the result on the other device. Do this only after securing the original save and understanding how to restore it. If documentation is unclear, avoid using a test save that contains progress you cannot replace. Record the date and version when you make the test, so later behavior can be compared accurately."
+      ]
+    },
+    {
+      "heading": "Account recovery is part of save portability",
+      "paragraphs": [
+        "If a save depends on an account, changing devices may require more than reinstalling the game. You may need access to an email address, an authentication method, or a recovery code. Check those details while you still have access to the original device. Review account security and recovery settings, and store recovery information in a secure place separate from the device if that is appropriate for your situation.",
+        "Check whether the save can be accessed after an account name, email, or linked login changes. Do not unlink an account or close it until you know what happens to associated progress. A storefront account, game account, and cloud-storage account may be separate even if the sign-in experience appears connected. Keep a note of which account controls which function without writing passwords in an exposed document."
+      ]
+    },
+    {
+      "heading": "Consider updates before moving or restoring a save",
+      "paragraphs": [
+        "Updates can change how a game reads or stores progress. Before updating immediately before a transfer, check release notes or support guidance for save compatibility and any migration instructions. If a platform offers automatic updates, understand whether you can review timing or version details. Do not assume that a newer version will always read every older save, or that a newer save can be opened by an older build.",
+        "Keep track of the version associated with a backup. If a problem appears after an update, that information can help you explain what changed. Avoid downloading unofficial copies or replacement save files from unknown sources; they may be unsafe, incompatible, or unrelated to the version you use. Use only developer-documented or platform-supported routes for backups and troubleshooting."
+      ]
+    },
+    {
+      "heading": "Use a low-risk migration checklist",
+      "paragraphs": [
+        "A reliable move is deliberate and reversible. Confirm the target device and edition, read the official transfer steps, and make a separate backup before changing anything. Keep both devices available until the new copy opens and the expected progress appears. Do not delete the original installation or save immediately after the first successful launch; verify that the new save persists after a normal close and restart.",
+        "If the transfer fails, stop before repeatedly overwriting files or accepting a sync conflict without understanding it. Preserve both copies and note the error message, platform, game version, and recent changes. Use the developer's support route or the relevant platform's help documentation. Clear evidence makes troubleshooting more useful and reduces the risk of turning a recoverable mismatch into lost progress."
+      ],
+      "bullets": [
+        "Confirm the exact edition, version, and account on both devices.",
+        "Read documented transfer instructions before starting.",
+        "Back up the original save and preserve the untouched copy.",
+        "Transfer or synchronize once, then verify the result before deleting anything.",
+        "If a conflict appears, preserve both versions and seek documented guidance."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a game supports two platforms, will my save transfer between them?",
+      "answer": "Not necessarily. Platform support describes where a game can run, not whether saves are shared. Check the documentation for cross-device or cross-version progress, save storage, and any required accounts before buying or moving the game."
+    },
+    {
+      "question": "Should I rely on cloud synchronization as my only backup?",
+      "answer": "Do not assume synchronization is the same as an independent backup. Confirm how conflicts and restoration work, and follow documented backup guidance. If local saves matter, preserve a separate copy through a supported method before making changes."
+    },
+    {
+      "question": "What should I do if the new device shows an older save?",
+      "answer": "Stop before accepting a choice that could overwrite either copy. Preserve the original and the newer version, note the accounts and versions involved, and consult the game's support information. Avoid repeatedly launching or syncing until you understand which copy will be retained."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
