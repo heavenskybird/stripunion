@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T17:01:14.723Z",
+  "generatedAt": "2026-10-25T17:53:59.526Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-input-controls-accessibility-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-dimensions-fit-information-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-tier-benefit-entitlement-audit.json",
-    "ops/editorial/content-artifacts/affiliate-dashboard-account-security-preflight.json",
-    "ops/editorial/content-artifacts/premium-video-simultaneous-stream-limit-audit.json"
+    "ops/editorial/content-artifacts/live-cam-platform-content-breadth-evidence-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-checkout-authorization-terms-preflight.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-discoverability-controls-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-private-room-readiness-checklist.json",
+    "ops/editorial/content-artifacts/free-video-caption-and-subtitle-usability-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-input-controls-accessibility-audit.js",
-    "src/data/guides/adult-shop-product-dimensions-fit-information-audit.js",
-    "src/data/guides/creator-platform-tier-benefit-entitlement-audit.js",
-    "src/data/guides/affiliate-dashboard-account-security-preflight.js",
-    "src/data/guides/premium-video-simultaneous-stream-limit-audit.js"
+    "src/data/guides/live-cam-platform-content-breadth-evidence-audit.js",
+    "src/data/guides/adult-platform-checkout-authorization-terms-preflight.js",
+    "src/data/guides/adult-dating-profile-discoverability-controls-audit.js",
+    "src/data/guides/vr-adult-private-room-readiness-checklist.js",
+    "src/data/guides/free-video-caption-and-subtitle-usability-check.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "premium-videos"
+    "live-cams",
+    "privacy-safety-payment",
+    "dating-hookups",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-games-input-controls-accessibility-audit",
-    "adult-shop-product-dimensions-fit-information-audit",
-    "creator-platform-tier-benefit-entitlement-audit",
-    "affiliate-dashboard-account-security-preflight",
-    "premium-video-simultaneous-stream-limit-audit"
+    "live-cam-platform-content-breadth-evidence-audit",
+    "adult-platform-checkout-authorization-terms-preflight",
+    "adult-dating-profile-discoverability-controls-audit",
+    "vr-adult-private-room-readiness-checklist",
+    "free-video-caption-and-subtitle-usability-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40214263468",
-  "phase": "closed"
+  "r1CycleId": "40218535444"
 }
