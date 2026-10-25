@@ -1,0 +1,122 @@
+export default {
+  "slug": "adult-platform-account-deletion-data-retention-workflow",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Closing an Adult Platform Account: Plan for Deletion, Records and Retention",
+  "description": "A practical account-closure workflow for adult platforms: preserve essential billing records, understand deletion limits, remove access safely and verify the status of a request.",
+  "excerpt": "Account closure is not always the same as deleting every record. Prepare first, use the platform’s official process and keep a minimal record of the request and its outcome.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "Distinguish stopping a subscription from closing an account or requesting data deletion.",
+    "Save only the billing and account records you may need before access ends.",
+    "Check for linked logins, active sessions, saved payment methods and connected services.",
+    "Ask what the platform deletes, retains or de-identifies rather than assuming total erasure.",
+    "Keep a minimal, secure record of the request, confirmation and any follow-up."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what “closing the account” means",
+      "paragraphs": [
+        "People may use “cancel,” “close” and “delete” to mean different actions. Cancelling a subscription can stop future renewals while leaving the account active. Deactivating an account may hide a profile without removing stored information. A deletion request may begin a separate process and can have exceptions. Identify the outcome you want before taking action.",
+        "Check the platform’s account and privacy instructions for the available options. Determine whether a subscription must be cancelled separately, whether purchased access changes and whether signing in again affects a pending request. If instructions are unclear, ask support a specific question about the distinction between billing cancellation, account closure and personal-data deletion."
+      ],
+      "bullets": [
+        "List active subscriptions or recurring payments.",
+        "Identify the account closure and privacy-request routes.",
+        "Check whether access or saved information changes after closure.",
+        "Note any steps that must be completed before signing out."
+      ]
+    },
+    {
+      "heading": "Save necessary records without making a second archive",
+      "paragraphs": [
+        "Before closure, consider whether you need receipts, renewal confirmations, cancellation evidence or support correspondence for your own records. Save only what is reasonably useful and store it securely. Avoid downloading or retaining more account content than needed, particularly if the device or storage location is shared.",
+        "A concise record can include the date, account email or internal reference, transaction identifiers needed to match a charge and confirmation that a request was submitted. Keep records separate from ordinary shared folders and use access controls. Do not retain authentication codes, full payment credentials or unnecessary identity documents as part of a closure file."
+      ]
+    },
+    {
+      "heading": "Disconnect access and check connected services",
+      "paragraphs": [
+        "Review how the account is accessed. If it uses a password, change or remove any stored credentials in your password manager after closure is complete. If it relies on an external sign-in provider, review that provider’s connected-app settings and revoke access where appropriate. Also check active sessions and sign out of devices you no longer control.",
+        "Look for linked billing channels, app-store subscriptions, email preferences and third-party services. A payment arrangement managed outside the platform may require a separate cancellation step. Likewise, removing a linked login may not close the platform account itself. Work through each connection deliberately and keep the confirmation for any action that affects future billing or account access."
+      ]
+    },
+    {
+      "heading": "Understand limits on deletion and retention",
+      "paragraphs": [
+        "A deletion request does not necessarily mean every associated record disappears immediately or from every system. A platform may describe information it retains for operational, security, dispute-resolution or other stated purposes, and it may explain a processing period or exceptions. Read the current privacy notice and request instructions rather than assuming a particular outcome.",
+        "Ask focused questions if the response does not explain what happens to profile information, payment records, messages, backups or account identifiers. A request to delete information is different from a request to stop marketing communications, and neither should be assumed to complete the other. The platform’s response should explain its process, but no general guide can promise how a particular company handles a particular record."
+      ],
+      "table": {
+        "caption": "Separate account-closure actions so you can verify each one",
+        "headers": [
+          "Action",
+          "What it addresses",
+          "Confirmation to retain"
+        ],
+        "rows": [
+          [
+            "Cancel renewal",
+            "Future recurring billing through the relevant billing channel",
+            "Cancellation notice or account status"
+          ],
+          [
+            "Close or deactivate profile",
+            "Whether the account remains active or visible",
+            "Closure confirmation or support response"
+          ],
+          [
+            "Request data deletion",
+            "Processing of personal information under the platform’s process",
+            "Request reference and response"
+          ],
+          [
+            "Revoke connected access",
+            "External sign-in or third-party authorization",
+            "Connected-app status, where available"
+          ],
+          [
+            "Sign out of devices",
+            "Existing sessions on devices you no longer control",
+            "Session status or sign-out record, if provided"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Submit the request through an official route",
+      "paragraphs": [
+        "Use the platform’s published account settings, privacy contact or support process. Provide the information needed to locate the account, but do not send extra sensitive information through an unverified channel. Check that the page or contact details belong to the service you intend to contact, especially if the request involves account identifiers.",
+        "Be clear about the actions requested: cancellation of recurring billing, account closure, deletion review or a combination. Ask for a reference number or written confirmation when available. If the platform requires verification, follow its stated process and assess what information is necessary. Do not share passwords or one-time authentication codes with a support representative."
+      ]
+    },
+    {
+      "heading": "Verify completion and keep a minimal audit trail",
+      "paragraphs": [
+        "After submitting the request, check the response for the actions completed, any action still pending and any records retained. If you do not receive confirmation within the period described by the platform, follow up through the same official route with the original reference. Avoid repeated requests through unrelated channels that could create confusion about which case is current.",
+        "Once closure is confirmed, check for unexpected renewal notices or account-access messages and respond through the appropriate support or billing route. Keep a minimal record of the final status, then remove unnecessary local copies of the request materials. The goal is to retain enough evidence to understand the outcome without creating a larger privacy footprint than necessary."
+      ],
+      "bullets": [
+        "Record when each separate request was submitted.",
+        "Keep confirmation of subscription cancellation and account closure separately.",
+        "Follow up on unresolved items using the original case reference.",
+        "Remove unnecessary copies after the request is resolved."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does cancelling a subscription delete my platform account?",
+      "answer": "Not necessarily. Cancellation commonly concerns future billing, while profile closure and data deletion may be separate actions. Check the platform’s instructions and complete each action you want to request."
+    },
+    {
+      "question": "Should I delete all my records before submitting a closure request?",
+      "answer": "First consider whether you need receipts, cancellation evidence or support references for your own records. Keep only what is useful, store it securely and avoid retaining sensitive material unnecessarily."
+    },
+    {
+      "question": "Can I expect every copy of my information to be erased?",
+      "answer": "Do not assume that every record or backup will be removed. Review the platform’s privacy notice and request response for its stated process, retention practices and any exceptions."
+    }
+  ]
+};
