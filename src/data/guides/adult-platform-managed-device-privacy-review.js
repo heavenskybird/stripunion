@@ -1,0 +1,108 @@
+export default {
+  "slug": "adult-platform-managed-device-privacy-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms on Work or School Devices: Check Management and Privacy Risks",
+  "description": "Understand why employer- or school-managed devices can expose activity through policies, management tools, accounts, and network controls before using an adult platform.",
+  "excerpt": "A managed device is not equivalent to a personal device in private-browsing mode. Check ownership, management, acceptable-use rules, and connected accounts before deciding whether it is appropriate for personal activity.",
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "keyTakeaways": [
+    "A device owned or managed by an employer or school may be subject to policies and technical controls beyond ordinary browser settings.",
+    "Private-browsing mode does not remove device management, monitoring, account, or network records.",
+    "Do not try to bypass workplace or school controls; review the relevant policy and use personal equipment for personal activity where appropriate.",
+    "Check connected work accounts, synchronization, notifications, and shared display settings.",
+    "If you are unsure whether a device is managed, ask the responsible IT administrator or consult device information rather than experimenting."
+  ],
+  "sections": [
+    {
+      "heading": "Why managed devices need a different privacy decision",
+      "paragraphs": [
+        "A work or school device may be configured and administered by an organization. Its policies, installed software, browser settings, account connections, and network access can differ from a personal device. This does not mean every organization collects the same information or actively reviews every user’s activity. It does mean you should not assume that ordinary personal-device privacy settings describe the full situation.",
+        "Before using an adult platform, make a simple ownership and management check. Is the device owned by an employer, school, or another organization? Is it enrolled in a management system, signed into an organizational account, or subject to an acceptable-use policy? If the answer is yes or unclear, treat it as a managed environment and avoid using it for personal activity unless the policy clearly permits it."
+      ],
+      "bullets": [
+        "Identify who owns the device and who administers its settings.",
+        "Review acceptable-use and personal-use policies before browsing.",
+        "Do not assume that personal browsing is permitted because a site loads."
+      ]
+    },
+    {
+      "heading": "Understand the limits of browser privacy controls",
+      "paragraphs": [
+        "Private or incognito browsing primarily changes what the browser keeps in its local history after a session. It does not generally remove records created by a signed-in account, device-management software, a network service, a website, or other connected systems. Exact behavior depends on the device and configuration, so a browser label should not be treated as a privacy guarantee.",
+        "Likewise, deleting a local history entry does not establish that all related records are gone. Downloads, saved files, bookmarks, open tabs, account activity, or synchronization may be handled separately. On a managed device, avoid testing privacy boundaries by attempting to disable controls, remove organizational software, or bypass restrictions. If the use is personal and sensitive, the safer choice is to use a personal device and connection consistent with applicable rules."
+      ]
+    },
+    {
+      "heading": "Check accounts, synchronization, and visible traces",
+      "paragraphs": [
+        "A device can be managed even when you use a personal browser profile, and a personal account can still connect activity across devices. Check whether the browser is signed into an organizational account, whether synchronization is enabled, and whether email, calendar, or cloud storage accounts are shared with the organization. Avoid adding personal accounts to a device if doing so would violate policy or expose data to an account administrator.",
+        "Visible traces matter too. A shared workstation, presentation screen, or browser left open can reveal a tab or notification without any sophisticated monitoring. Consider lock-screen previews, recent-app views, downloads, bookmarks, and browser restore behavior. These checks reduce accidental exposure, but they cannot override management or network controls. Do not rely on them as a way to conceal activity on equipment that is not yours."
+      ],
+      "table": {
+        "caption": "Decision checklist for a device that may be managed.",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "Practical next step"
+        ],
+        "rows": [
+          [
+            "Who owns or administers the device?",
+            "Ownership and administration can determine applicable rules and controls.",
+            "Check the asset label, device settings, or organizational policy."
+          ],
+          [
+            "Is an organizational account connected?",
+            "Account sign-in may connect browser, email, or sync data.",
+            "Review account status without removing or bypassing required settings."
+          ],
+          [
+            "Does policy permit personal browsing?",
+            "Technical access is not the same as permission.",
+            "Consult the written acceptable-use policy or IT contact."
+          ],
+          [
+            "Could someone see the screen or alerts?",
+            "Tabs and notifications may be visible to nearby users.",
+            "Avoid sensitive personal use on shared or displayed equipment."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Do not confuse device privacy with network privacy",
+      "paragraphs": [
+        "Device controls and network controls are separate. An organization may apply network filtering or logging independently of what the browser stores locally. Conversely, a personal network does not make an organization-owned device private. Do not assume that changing networks, using a different browser, or signing out of one account removes every form of organizational administration.",
+        "This guide cannot determine what a particular employer or school collects. Policies and configurations differ, and technical systems can change. If you need a precise answer, consult the organization’s published privacy and acceptable-use documentation or ask its IT or privacy contact. Avoid relying on guesses from a browser icon, a blocked page, or the absence of an alert."
+      ]
+    },
+    {
+      "heading": "Choose a boundary that does not depend on bypassing controls",
+      "paragraphs": [
+        "If a device is managed, the clearest boundary is to keep personal sensitive activity off it, especially where policy is unclear or prohibits such use. Use a personal device and connection for personal activity, subject to the rules and laws that apply to you. This is not a promise that personal equipment eliminates every privacy risk; it simply avoids treating organizational equipment as if it were under your sole control.",
+        "When using your own device, maintain ordinary security practices: keep software current, use a separate account where useful, secure the screen, and review notification and synchronization settings. Do not install untrusted tools that claim to hide activity. If a device is shared with others, consider whether personal use is appropriate and review shared-device privacy separately. A clear boundary is safer than attempting to defeat a system you do not administer."
+      ],
+      "bullets": [
+        "Use policy-compliant personal equipment for personal browsing.",
+        "Do not disable management tools or evade network restrictions.",
+        "Ask an authorized administrator when ownership or management status is uncertain."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide adult-platform activity from an employer or school?",
+      "answer": "No. Private browsing is not a guarantee against account, device-management, network, or website records. Its local history behavior does not determine what other systems may record."
+    },
+    {
+      "question": "Can I make a managed device private by signing out of my work account?",
+      "answer": "Not necessarily. Device management and network rules may remain in place independently of a browser sign-in. Follow the organization’s policy and do not remove or bypass required controls."
+    },
+    {
+      "question": "What if I do not know whether my device is managed?",
+      "answer": "Check ownership and device information or consult the organization’s IT contact. Until you know, avoid sensitive personal activity on the device rather than testing its monitoring or management boundaries."
+    }
+  ]
+};
