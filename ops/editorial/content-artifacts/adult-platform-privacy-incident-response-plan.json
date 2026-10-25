@@ -1,0 +1,147 @@
+{
+  "backlogId": "adult-platform-privacy-incident-response-plan",
+  "slug": "adult-platform-privacy-incident-response-plan",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Privacy Incident: A Practical Account Response Plan",
+  "description": "Use this practical plan to respond to a suspected adult-platform privacy incident: secure access, review payment records, preserve relevant evidence and contact appropriate support.",
+  "excerpt": "A calm, ordered response can help you limit further account exposure and keep track of what happened. Start with immediate access controls, then review connected accounts and records.",
+  "keyTakeaways": [
+    "Use a trusted device and network when changing credentials or reviewing an account.",
+    "Secure the account’s email first if it may also be exposed, then change reused or compromised passwords.",
+    "Review active sessions, linked sign-ins and payment activity without assuming one change resolves every exposure.",
+    "Preserve relevant dates and messages securely; avoid circulating sensitive material.",
+    "Contact the platform and payment provider through official channels, and seek urgent local assistance if there is an immediate threat."
+  ],
+  "sections": [
+    {
+      "heading": "Pause and identify what may be exposed",
+      "paragraphs": [
+        "A privacy incident can mean different things: an unexpected login, a message or notification reaching the wrong person, an unfamiliar charge, or a concern that account information was disclosed. Start by describing what you observed and when. Separate confirmed facts from possibilities. This prevents a rushed response from overlooking the most immediate risk or prompting unnecessary sharing of sensitive details.",
+        "If you believe someone else can currently access the account, use a device and connection you consider trustworthy to review it. Avoid clicking sign-in links from unexpected messages. Navigate through a known official address or application, and do not send passwords, verification codes or full payment details to someone claiming to provide support. If there is an immediate safety threat, prioritize getting help from appropriate local services or a trusted person."
+      ],
+      "bullets": [
+        "Write down what happened, when you noticed it and which account or device is involved.",
+        "Mark each detail as confirmed, suspected or unknown.",
+        "Use an official route to reach the platform.",
+        "Do not share passwords, access codes or complete payment credentials."
+      ]
+    },
+    {
+      "heading": "Secure account access in a sensible order",
+      "paragraphs": [
+        "If the account may be compromised, change its password to a unique one and review recovery options. If the same password was used elsewhere, update it on other important accounts too. The email account connected to the platform may be especially important because it can receive password-reset links; secure it if you suspect it is affected. Use available account security controls, but check their descriptions rather than assuming they revoke every session or linked access automatically.",
+        "Look for active-session, device, sign-in or third-party access settings if the service provides them. Sign out sessions you do not recognize where the interface allows it, remove unfamiliar links and confirm recovery details are yours. Keep a note of which actions you completed and when. If you cannot access the account, use the platform’s official recovery process and provide only the information it requests through that channel."
+      ],
+      "table": {
+        "caption": "A response sequence helps keep account actions organized.",
+        "headers": [
+          "Step",
+          "Action to consider",
+          "Record"
+        ],
+        "rows": [
+          [
+            "1",
+            "Secure the connected email account if it may be affected",
+            "Time changed and recovery options checked"
+          ],
+          [
+            "2",
+            "Change reused or exposed passwords",
+            "Accounts reviewed, without recording passwords"
+          ],
+          [
+            "3",
+            "Review sessions and linked access",
+            "Unknown sessions or connections and actions taken"
+          ],
+          [
+            "4",
+            "Use official recovery or support channels if locked out",
+            "Request date and any reference number"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review payment activity and recurring access",
+      "paragraphs": [
+        "Check the payment account or card activity for transactions you do not recognize, repeated charges you did not expect or authorization activity that needs clarification. Compare records with receipts and account history where available. Do not conclude that an unfamiliar entry is fraud solely from a shortened descriptor; use the payment provider’s official contact route to ask about a transaction you cannot identify.",
+        "If you suspect payment credentials were exposed, contact the relevant provider promptly and ask what controls are available for that account or payment method. Review recurring authorizations and saved payment methods through the provider and platform where appropriate. The available actions depend on the provider and transaction; do not assume that changing a platform password cancels billing or that cancelling access changes a payment authorization."
+      ],
+      "bullets": [
+        "Compare unfamiliar entries with receipts, order records and renewal information.",
+        "Contact the payment provider through a verified channel if a transaction remains unclear.",
+        "Check recurring billing and saved payment details separately from account access.",
+        "Keep transaction references private and share only what support requests."
+      ]
+    },
+    {
+      "heading": "Preserve evidence without spreading the exposure",
+      "paragraphs": [
+        "A concise record can help when contacting support or a payment provider. Note relevant dates, account actions, message references and transaction identifiers. Save only the material needed to explain the incident, and store it in a location with appropriate access controls. Avoid posting screenshots publicly or forwarding private messages broadly; wider circulation can create a second privacy problem.",
+        "If you need to capture evidence, follow the platform’s instructions and applicable rules. A record of what you observed does not prove who caused it, and an absence of visible account changes does not establish that no exposure occurred. Keep your language precise: state what you saw, what you did and what remains uncertain. Avoid altering records in a way that could make later review harder."
+      ],
+      "table": {
+        "caption": "Keep an incident log focused on useful facts.",
+        "headers": [
+          "Record",
+          "Keep",
+          "Avoid"
+        ],
+        "rows": [
+          [
+            "Timeline",
+            "Dates, approximate times and actions taken",
+            "Guessing at a cause as though it were confirmed"
+          ],
+          [
+            "Support contact",
+            "Official channel, request date and reference",
+            "Sharing credentials or verification codes"
+          ],
+          [
+            "Payment concern",
+            "Relevant transaction date and reference",
+            "Publishing full account or card details"
+          ],
+          [
+            "Account changes",
+            "Sessions or settings reviewed and outcome",
+            "Saving passwords in the incident note"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Contact support and follow through",
+      "paragraphs": [
+        "Use the platform’s official support route to describe the issue, the account affected, the time you noticed it and the steps you already took. Ask focused questions, such as whether a session can be revoked, how to recover access or where to report a suspected disclosure. Provide only the information needed to identify the account and investigate. Be cautious of unsolicited messages that promise to fix the issue if you provide a code or make a payment.",
+        "After the immediate response, review recovery details, notification settings and connected services. Check payment records again after the provider’s recommended interval, and keep track of any follow-up actions or responses. If the incident involves threats, coercion or a risk of immediate harm, seek appropriate local assistance rather than relying only on platform support. A response plan can reduce avoidable exposure, but it cannot guarantee that every copy or record is removed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I delete the account immediately after a suspected incident?",
+      "answer": "Not necessarily. First consider whether you need access to account settings, support tools or relevant records. Secure access and document the issue using official channels, then decide whether to close the account based on the platform’s stated process and your needs."
+    },
+    {
+      "question": "Does changing my password end every active session?",
+      "answer": "That depends on the service. Review session and device controls separately, and use any available sign-out or access-revocation options. Do not assume a password change alone removes every linked session."
+    },
+    {
+      "question": "What should I do about a payment I do not recognize?",
+      "answer": "Compare it with available receipts and account records, then contact the payment provider through an official channel if it remains unclear. Keep transaction references private and follow the provider’s instructions."
+    }
+  ],
+  "publishedAt": "2026-10-25",
+  "updatedAt": "2026-10-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
