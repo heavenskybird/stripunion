@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/vr-platform-compatibility-evidence-workflow",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-25T04:41:45.007Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-25T04:42:12.161Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6add88a40b5343d070b6634e",
   "provider_due_at": "2026-10-25T06:35:00.000Z",
   "created_at": "2026-10-25T04:41:45.007Z",
-  "updated_at": "2026-10-25T06:14:21.327Z",
+  "updated_at": "2026-10-25T06:50:36.360Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 0,
     "cadence_pressure_before_enqueue": 8,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
