@@ -1,0 +1,117 @@
+export default {
+  "slug": "vr-adult-platform-microphone-voice-permission-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Microphone and Voice-Input Permissions Before Use",
+  "description": "A practical checklist for reviewing headset microphone access, voice-input settings, app permissions and account controls before using a VR adult platform.",
+  "excerpt": "A headset microphone can be controlled at more than one level: the device, its operating system, an app and sometimes an in-session setting. Use this checklist to understand those controls and reduce unnecessary microphone access.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Check microphone permissions at both the headset or operating-system level and the individual app level.",
+    "Do not assume that a voice-related feature is required; verify what the service says it uses and whether it can be disabled.",
+    "Review account and privacy information for explanations of voice data, storage, retention and deletion.",
+    "Test microphone behavior before a session using a non-sensitive, ordinary check and confirm that permission changes take effect.",
+    "Recheck permissions after app updates, reinstallations or account changes."
+  ],
+  "sections": [
+    {
+      "heading": "Identify every control layer",
+      "paragraphs": [
+        "Microphone access may be governed by several layers: a physical mute control, device settings, operating-system permissions, app permissions and an in-app control. The labels and behavior vary by device, so do not assume that changing one setting changes every other layer. Begin with the headset’s own privacy or permission menu and identify which apps have access before opening a platform.",
+        "Then inspect the platform’s settings and help information for any voice-input, voice-search, communication or speech-related feature. The presence of a microphone permission does not prove that a particular feature is active, and a feature label does not explain how data is handled. Your goal is to determine which controls exist and what the service documents, not to guess from a permission prompt."
+      ],
+      "bullets": [
+        "Locate a physical mute or microphone indicator, if the device provides one.",
+        "Review app-level permissions in headset settings.",
+        "Check the platform’s own controls separately."
+      ]
+    },
+    {
+      "heading": "Understand what the platform says it collects",
+      "paragraphs": [
+        "Read the privacy notice and relevant help pages for clear descriptions of microphone access, voice input and any associated data. Look for whether audio is processed locally or sent elsewhere, whether recordings or transcriptions are retained, how long they may be kept and whether they are linked to an account. If the wording does not answer a question, treat the answer as unknown rather than assuming that no data is collected.",
+        "Distinguish permission from collection and collection from retention. A device can allow an app to use a microphone without that fact alone establishing what happens to audio. Conversely, a privacy notice can describe processing without giving you a simple in-app switch. Compare the available controls with the service’s explanations, and do not rely on a general privacy slogan in place of specific documentation."
+      ],
+      "table": {
+        "caption": "Use this map to compare permission controls with the questions they answer.",
+        "headers": [
+          "Control or document",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Device mute or hardware control",
+            "Does it stop microphone input, and how can you confirm its status?"
+          ],
+          [
+            "Operating-system permission",
+            "Which apps can request or use the microphone?"
+          ],
+          [
+            "In-app voice setting",
+            "Can a voice feature be turned off without removing unrelated access?"
+          ],
+          [
+            "Privacy notice or help page",
+            "What voice-related data is processed, stored, retained or deleted?"
+          ],
+          [
+            "Account privacy controls",
+            "Can associated data or activity be reviewed or managed?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose the least-access setup that works",
+      "paragraphs": [
+        "If voice input is optional and you do not need it, consider denying microphone permission or disabling the relevant feature. If the platform requires a permission for a function you intend to use, decide whether that function is worth the access and review any narrower controls. Do not grant access simply because a prompt appears during setup; pause to understand what is being requested.",
+        "A permission decision should reflect your situation. On a shared headset, another person may have settings or account access, so confirm who can change permissions and whether the device communicates microphone status clearly. On a personal headset, review whether a general device setting might affect other apps you use. Make a note of the original state so you can reverse a change if it disrupts an unrelated feature."
+      ],
+      "bullets": [
+        "Decline optional microphone access when it is not needed.",
+        "Use a physical mute or narrower app setting if that meets your needs.",
+        "Record any setting changed and how to restore it."
+      ]
+    },
+    {
+      "heading": "Test permissions without relying on guesswork",
+      "paragraphs": [
+        "After changing a permission, close and reopen the app if the device requires it, then check the permission screen again. If the platform has a voice feature, test whether that feature works only when permission is allowed and whether it stops when permission is removed. Use an ordinary test prompt or the device’s documented indicator; do not use sensitive information to test a microphone.",
+        "Confirm the boundary of the test. A visible mute icon, for example, is useful only if the device documentation explains what it indicates. Check whether leaving an app, switching accounts or restarting the headset changes the state. If the result is unclear, keep the microphone disabled while you consult the device or service documentation rather than assuming that a control worked."
+      ],
+      "bullets": [
+        "Check the permission state after changing it.",
+        "Verify the device’s microphone indicator using its documentation.",
+        "Repeat the check after restarting or switching apps if relevant."
+      ]
+    },
+    {
+      "heading": "Build a permission review habit",
+      "paragraphs": [
+        "Permissions can change when an app is updated, reinstalled or moved to a new device. Revisit microphone access after those events and whenever a platform introduces a voice-related feature. Keep a short record of the setting you selected, the reason and the date. This makes it easier to notice an unexpected prompt or restore your preferred configuration without having to reconstruct the decision.",
+        "A useful review also includes the account itself: check whether activity settings, privacy controls or data requests have changed. If a service’s documentation conflicts with what the headset appears to do, use the headset controls to restrict access while you seek clarification. This is a practical privacy precaution, not a claim that any particular platform records or misuses audio."
+      ],
+      "bullets": [
+        "Recheck after updates, reinstalls and device changes.",
+        "Keep a brief settings note in a private location.",
+        "Treat undocumented behavior as uncertain and restrict access until clarified."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I deny microphone permission, can I still use a VR platform?",
+      "answer": "That depends on the device and the specific platform features. Some functions may not need microphone access, while a voice-input feature may require it. Check the service’s documentation and test the functions you need without assuming that permission is universally required."
+    },
+    {
+      "question": "Does a microphone permission mean the platform is recording me?",
+      "answer": "A permission indicates that an app may be able to request microphone access under the device’s rules; it does not by itself establish whether audio is captured, transmitted or retained. Review the platform’s privacy information and the device’s permission behavior for those details."
+    },
+    {
+      "question": "When should I review microphone settings again?",
+      "answer": "Recheck after app or headset updates, reinstallations, account changes, new voice features and whenever a permission prompt appears unexpectedly. A quick review can confirm that your preferred setting is still in effect."
+    }
+  ]
+};

@@ -1,0 +1,113 @@
+export default {
+  "slug": "creator-platform-business-model-fit-scorecard",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Match Subscription and Payment Models to Your Business",
+  "description": "Compare creator-platform business models by recurring access, one-time offers, fan expectations, operational workload and the terms you need to verify.",
+  "excerpt": "A platform’s payment model affects more than revenue: it shapes what fans expect, what you must deliver and how much ongoing administration your business needs. Use this scorecard to compare models before choosing where to build.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Start with the kind of ongoing relationship you can reliably maintain, not a platform’s headline feature list.",
+    "Distinguish recurring access from one-time purchases, tips and individually priced extras; each creates different fan expectations.",
+    "Check how clearly the platform explains fees, refunds, renewals, payout timing and access when a payment fails or a plan ends.",
+    "Estimate the work involved in delivering each offer, including customer questions, updates and recordkeeping.",
+    "Compare a platform’s business model with your own goals and keep a written record of the terms you relied on."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with the promise you can consistently keep",
+      "paragraphs": [
+        "A creator platform’s business model is a working agreement between you and your audience. Before comparing features, define what a paying supporter would receive and how often you can provide it. A recurring offer may suit work that has a dependable rhythm; an occasional one-time offer may fit projects that have a clear beginning and end. Neither is automatically the better choice.",
+        "Write down the minimum commitment you can sustain during a busy month, not only the schedule you could manage during a launch. Include creation, editing, publishing, messages, administration and time away. A model that depends on constant updates can become a poor fit if your capacity varies. Treat sustainability as a selection criterion alongside potential audience fit."
+      ],
+      "bullets": [
+        "Describe the offer in one sentence without relying on platform jargon.",
+        "Estimate the recurring work, including non-creative administration.",
+        "Decide what supporters should understand about timing and access."
+      ]
+    },
+    {
+      "heading": "Compare the models by fan expectation and workload",
+      "paragraphs": [
+        "Recurring access asks supporters to understand a continuing relationship: what is available now, what may be added later and what happens if they stop paying. One-time offers are usually easier to explain as a specific item or defined package, but they still require clear access and support terms. Tips may be less tied to a promised bundle, yet creators should explain whether a tip is simply voluntary support or connected to a stated benefit.",
+        "Individually priced extras can create flexibility, but they also add choices and operational steps. Consider how you will label each offer, answer questions about what is included and resolve mistaken purchases. A mixed model can serve different preferences, but too many overlapping offers can confuse supporters. Select the simplest structure that communicates your actual offer accurately."
+      ],
+      "table": {
+        "caption": "Use this comparison to identify the work and expectations each offer may create.",
+        "headers": [
+          "Model to evaluate",
+          "Questions to answer before choosing"
+        ],
+        "rows": [
+          [
+            "Recurring access",
+            "What is available during each billing period? What continues, changes or ends when access stops?"
+          ],
+          [
+            "One-time offer",
+            "What specific item or access period is included? Can a buyer revisit it, and under what terms?"
+          ],
+          [
+            "Tip or voluntary support",
+            "Is a tip separate from paid benefits? What confirmation and records are available?"
+          ],
+          [
+            "Paid extra",
+            "What exactly is included, how is it delivered, and how will buyers get help if something is unclear?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the commercial terms as operating rules",
+      "paragraphs": [
+        "Do not reduce the commercial comparison to a single fee figure. Read the current terms for deductions, payment processing, refunds, disputed payments, payout timing, minimum requirements, supported payout methods and account holds. The platform’s displayed offer and its formal terms may explain different parts of the transaction, so record the source and date of the information you use.",
+        "Check what can change and how changes are communicated. Identify whether a platform can modify fees, access features, payment options or eligibility rules, and whether the terms describe notice or transition steps. This is not a prediction that a change will happen; it is a way to understand your exposure before you depend on a service. If wording is unclear, treat the uncertainty as a real comparison factor."
+      ],
+      "bullets": [
+        "Save the current terms and relevant help pages for your records.",
+        "Note renewal, cancellation, refund, dispute and payout rules separately.",
+        "Mark terms that are unclear rather than filling gaps with assumptions."
+      ]
+    },
+    {
+      "heading": "Plan for delivery and support effort",
+      "paragraphs": [
+        "An offer is only useful if you can deliver it in the form and timeframe supporters reasonably expect. Map each offer from purchase through delivery: what you publish, what a supporter sees, what confirmation they receive and what happens if delivery is delayed. Consider how questions will arrive and how you will distinguish a platform issue from a question about your own offer.",
+        "Build a small support plan before launch. Decide where you will publish updates, how you will explain a schedule change and what information you need to resolve an access problem. Keep the plan proportionate. A complicated tier or add-on structure can consume time in clarification and reconciliation, even when the creative work itself is manageable."
+      ],
+      "bullets": [
+        "Draft a plain-language description of each offer and its limits.",
+        "Prepare a repeatable way to announce changes or delays.",
+        "Keep a record of orders, delivery status and support follow-up."
+      ]
+    },
+    {
+      "heading": "Use a scorecard and revisit the decision",
+      "paragraphs": [
+        "Score each candidate against the same requirements rather than letting one attractive feature dominate. For example, rate audience fit, clarity of commercial terms, deliverability, payout documentation, privacy controls and the ability to export or preserve your own work. Use a simple scale such as strong, uncertain or weak, and write down evidence for each rating. The evidence might be a terms page, an account-control setting or an observed step in a public purchase flow.",
+        "A platform choice is not permanent by definition, but moving can involve lost continuity, rework or changed supporter expectations. Set a review date and a few triggers, such as an important terms change, a sustained change in your available time or a mismatch between the offer and audience response. Keep your own content and business records organized so reassessment does not depend entirely on memory."
+      ],
+      "bullets": [
+        "Compare at least two plausible business-model structures, even if only one platform is under consideration.",
+        "Record both the score and the evidence behind it.",
+        "Revisit the scorecard after material changes to terms, workload or offer design."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a recurring subscription always the best model for a creator?",
+      "answer": "No. It can fit an offer with a sustainable continuing rhythm, but it also creates expectations around renewals, ongoing value and clear access terms. A one-time offer or voluntary support model may be easier to align with some projects. Choose according to what you can deliver and explain consistently."
+    },
+    {
+      "question": "What should I check before combining subscriptions and paid extras?",
+      "answer": "Make the boundary between included and separately purchased benefits unmistakable. Check how each item is described, delivered, refunded or accessed after a subscription ends. Also consider the administrative load: more offer types can mean more questions and more records to reconcile."
+    },
+    {
+      "question": "How should I compare platform commercial terms if they are hard to understand?",
+      "answer": "Separate the terms into practical questions: what is deducted, when funds may be paid, how disputes and refunds work, and what happens if an account or payment is restricted. Save the relevant official wording and seek qualified advice for legal, tax or accounting questions. Do not infer a missing term from another platform’s policy."
+    }
+  ]
+};
