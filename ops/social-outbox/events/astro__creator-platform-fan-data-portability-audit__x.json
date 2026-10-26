@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/creator-platform-fan-data-portability-audit",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-25T13:15:21.015Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-25T17:14:17.759Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ade38ea0b5343d070e20f87",
   "provider_due_at": "2026-10-26T01:00:00.000Z",
   "created_at": "2026-10-25T13:15:21.015Z",
-  "updated_at": "2026-10-26T00:11:09.029Z",
+  "updated_at": "2026-10-26T01:42:02.645Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 3,
     "cadence_pressure_before_enqueue": 17,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
