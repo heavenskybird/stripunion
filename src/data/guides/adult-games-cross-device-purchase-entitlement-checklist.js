@@ -1,0 +1,127 @@
+export default {
+  "slug": "adult-games-cross-device-purchase-entitlement-checklist",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Verify Cross-Buy and Device Entitlements Before Purchasing",
+  "description": "Check whether an adult game purchase includes access on other devices, separate editions, or future upgrades before choosing a storefront or buying twice.",
+  "excerpt": "A game listed for multiple devices does not automatically mean one purchase unlocks every version. This checklist helps separate platform availability from cross-buy entitlement, add-on access, and upgrade rights.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "A title appearing on multiple platforms does not prove that a purchase on one platform grants access on another.",
+    "Check whether the listing describes separate versions, separate purchases, or a shared entitlement.",
+    "Confirm whether add-ons and future editions follow the same access rules as the base game.",
+    "Save the product-page wording and purchase record that explain the entitlement you relied on.",
+    "Treat cross-buy claims as specific to the storefront, account, region, and version named in the terms."
+  ],
+  "sections": [
+    {
+      "heading": "Availability is not the same as cross-buy",
+      "paragraphs": [
+        "A game may be available for more than one device while still requiring separate purchases for each version. Store listings, developer announcements, and community posts can use broad phrases such as “available on desktop and mobile” without explaining whether one transaction unlocks both. For a purchasing decision, the relevant question is not simply where the game can run; it is what your particular transaction entitles your account to access.",
+        "Look for explicit terms such as cross-buy, shared ownership, or an account-linked entitlement, and check which storefront or account the claim refers to. If the wording only lists supported platforms, treat that as compatibility or availability information—not proof of a shared purchase. When the information is ambiguous, ask the seller or developer a precise question before paying."
+      ],
+      "bullets": [
+        "Record the exact storefront and account involved in the purchase.",
+        "Distinguish a platform compatibility list from a cross-buy promise.",
+        "Check whether the promise names specific editions or versions."
+      ]
+    },
+    {
+      "heading": "Map each version and transaction before checkout",
+      "paragraphs": [
+        "Build a simple map of the versions you might use: operating system, device, storefront, and edition. A game can have separate builds, store pages, or account systems even when the title and artwork look similar. A browser version, downloadable build, and mobile edition may differ in features or purchase route. Do not assume that matching names or shared screenshots mean the same entitlement applies across them.",
+        "For each version, note whether it is included in the transaction you plan to make, requires an additional purchase, or has unclear status. Check whether the seller’s terms distinguish base game access from add-ons, downloadable content, soundtrack files, or upgraded editions. This is especially useful if you expect to change devices later: the goal is to know what your account can access, not to infer ownership from the game’s brand or developer."
+      ],
+      "table": {
+        "caption": "Cross-device purchase questions to resolve before checkout",
+        "headers": [
+          "Question",
+          "Evidence to look for",
+          "Decision if unclear"
+        ],
+        "rows": [
+          [
+            "Does one purchase cover another device?",
+            "Explicit cross-buy or shared-entitlement wording",
+            "Assume separate access until confirmed"
+          ],
+          [
+            "Are the builds the same edition?",
+            "Edition names and version details",
+            "Compare included features before deciding"
+          ],
+          [
+            "Are add-ons included?",
+            "A separate list of DLC or expansion entitlements",
+            "Treat add-ons as separate unless stated"
+          ],
+          [
+            "Which account owns access?",
+            "Storefront account and account-linking terms",
+            "Avoid purchasing through an account you may not control"
+          ],
+          [
+            "Do regional terms differ?",
+            "Region-specific store listing or access conditions",
+            "Confirm the terms for your purchasing region"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check account linking and entitlement boundaries",
+      "paragraphs": [
+        "Some access models may rely on linking a storefront account to a developer account or another service. If so, identify which account records ownership and what happens if the accounts are unlinked, changed, or inaccessible. Do not assume that linking accounts merges their libraries or transfers purchases. Read the explanation of the specific entitlement rather than relying on a generic “connect account” instruction.",
+        "Also check whether the entitlement is limited by region, device family, or a particular version. A cross-buy promise may apply only to named platforms or editions. If you use more than one account, confirm which one must be signed in to install or launch the game. Keep a private record of the purchase confirmation and the terms you reviewed, especially if the access model depends on account linking."
+      ],
+      "bullets": [
+        "Identify the account that holds the purchase record.",
+        "Check what unlinking or changing accounts does to access.",
+        "Confirm the named platforms, versions, and regions covered by any cross-buy wording."
+      ]
+    },
+    {
+      "heading": "Separate upgrades, add-ons, and future releases",
+      "paragraphs": [
+        "A shared entitlement for a base game does not necessarily cover every extra item associated with it. Add-ons, expansions, soundtrack packages, special editions, and later releases may have independent terms. Likewise, an upgrade from one edition to another may be free, discounted, or a separate transaction; do not infer the answer from a platform’s general cross-buy policy.",
+        "Before purchase, list the extras you consider essential and verify whether each is included. If a listing says “complete,” look for an itemized description of what that means. When a future upgrade is mentioned, check whether the statement is a documented entitlement or simply a development plan. A clear separation between current access and possible future releases makes it easier to compare the real scope of the purchase without relying on assumptions."
+      ],
+      "bullets": [
+        "Confirm base-game access separately from add-ons and special editions.",
+        "Look for itemized inclusions instead of interpreting broad bundle labels.",
+        "Treat future upgrade statements as unconfirmed unless terms specify entitlement."
+      ]
+    },
+    {
+      "heading": "Keep evidence and resolve ambiguity before paying",
+      "paragraphs": [
+        "Entitlement wording can be spread across a store page, FAQ, developer post, and checkout screen. Save or record the relevant wording and its date, along with the title, edition, storefront, and region. This is not a guarantee of a particular outcome, but it gives you a more reliable reference if the listing changes or the installed version does not match your expectation.",
+        "If you contact support, ask a narrow question: whether a named purchase on a specified storefront grants access to a named version on a second device, and whether any account linking is required. Keep the response with your transaction records. If the answer remains unclear, compare the cost and inconvenience of buying separately against the risk that cross-device access is not included. That is a practical decision, not a claim about what every store provides."
+      ],
+      "bullets": [
+        "Save the listing and entitlement language before checkout.",
+        "Ask about a specific purchase, platform, version, and account combination.",
+        "If the answer is unclear, avoid treating a broad availability statement as a promise."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a game is listed for two platforms, does one purchase cover both?",
+      "answer": "Not automatically. A platform list can describe where versions are available without promising that one transaction unlocks each version. Look for explicit cross-buy or shared-entitlement wording tied to the storefront and editions you plan to use."
+    },
+    {
+      "question": "Does cross-buy usually include add-ons or special editions?",
+      "answer": "Do not assume so. Base-game access, add-ons, expansions, and special editions can have separate terms. Check each item’s inclusion explicitly before relying on one purchase for a complete setup."
+    },
+    {
+      "question": "What if a game requires linking accounts?",
+      "answer": "Identify which account records ownership and review what happens if accounts are unlinked or changed. Account linking alone does not establish that purchases transfer or libraries merge."
+    },
+    {
+      "question": "What should I save before buying?",
+      "answer": "Keep the product listing, edition name, storefront, region, checkout description, and any direct response clarifying cross-device access. These records help you understand the terms you evaluated."
+    }
+  ]
+};

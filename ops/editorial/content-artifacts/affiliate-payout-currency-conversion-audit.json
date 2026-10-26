@@ -1,0 +1,134 @@
+{
+  "backlogId": "affiliate-payout-currency-conversion-audit",
+  "slug": "affiliate-program-payout-currency-and-conversion-fee-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Payout Currency and Conversion Fees Before Joining",
+  "description": "Compare affiliate payout currencies, conversion timing, transfer charges, and statement details so projected earnings are not confused with deposited funds.",
+  "excerpt": "A commission balance and a bank deposit can differ when currency conversion or transfer charges apply. This checklist helps webmasters identify the program’s payout currency, exchange-rate method, fees, and records to verify before relying on a payout estimate.",
+  "keyTakeaways": [
+    "Confirm the currency used for reported commissions and the currency sent for payment; they may differ.",
+    "Look for who determines any exchange rate and when conversion occurs.",
+    "Check whether transfer, intermediary, or receiving-bank charges are documented separately.",
+    "Compare payout statements with actual deposits using dates, currencies, and transaction references.",
+    "Treat unanswered currency or fee terms as an operational uncertainty, not as an assumed fixed cost."
+  ],
+  "sections": [
+    {
+      "heading": "Separate commission currency from deposit currency",
+      "paragraphs": [
+        "Affiliate reporting may display a balance in one currency while the payment provider or receiving account uses another. These are separate parts of the payment path. Before joining, identify the currency in which commissions are calculated, the currency shown in reports, and the currency ultimately sent. If the terms do not distinguish them, ask which amount and currency govern the payable balance.",
+        "Do not compare two programs using a single displayed number until you know what it represents. A dashboard amount could be a reporting view rather than the currency of the transfer. Record the currency and the relevant point in the process for every figure you use in planning. This does not predict the exchange rate or the net amount you will receive; it clarifies what you need to verify."
+      ],
+      "bullets": [
+        "Identify the commission currency and the reporting currency separately.",
+        "Confirm the payment currency and the destination account currency.",
+        "Avoid treating an estimated dashboard balance as a guaranteed deposited amount."
+      ]
+    },
+    {
+      "heading": "Find out how and when conversion is calculated",
+      "paragraphs": [
+        "If conversion occurs, check whether the program, payment provider, or receiving bank determines the rate. Terms may also state when conversion happens, such as when a balance is approved or when a transfer is processed. Do not assume that a public reference rate, a dashboard conversion, and the rate applied to a particular transfer will match. The relevant method is the one documented for the transaction.",
+        "If the program provides a rate or conversion figure in a statement, note its date, currency pair, and the transaction to which it applies. If conversion timing or method is not explained, request clarification before using the program for cash-flow forecasts. Keep the wording factual in your own records: note what the program says and what remains unconfirmed, rather than entering an estimated rate as though it were a contractual term."
+      ],
+      "table": {
+        "caption": "Currency and transfer details to compare across programs",
+        "headers": [
+          "Detail",
+          "Question to resolve",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Commission currency",
+            "In which currency is the commission calculated?",
+            "Terms or written program response"
+          ],
+          [
+            "Payment currency",
+            "Which currency is sent to the payee?",
+            "Payout settings and payment statement"
+          ],
+          [
+            "Conversion method",
+            "Who sets the rate and when is it applied?",
+            "Rate date and transaction reference, if supplied"
+          ],
+          [
+            "Transfer charges",
+            "Are any program or payment-provider charges described?",
+            "Fee schedule or statement line item"
+          ],
+          [
+            "Receiving charges",
+            "Could the bank or intermediary apply a separate charge?",
+            "Bank documentation and deposit record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Account for transfer and receiving fees distinctly",
+      "paragraphs": [
+        "A difference between a reported amount and a deposited amount can have several explanations, including conversion, a transfer charge, an intermediary deduction, or a receiving-bank fee. These possibilities should not be collapsed into one guessed “payout fee.” Check which charges the program documents and which may be imposed elsewhere in the payment chain. The program may not control every intermediary charge, so distinguish its stated terms from your own bank’s terms.",
+        "Before choosing a payout method, read the relevant program documentation and the payment provider’s or bank’s fee information. If the documents do not show whether a fee is fixed, variable, or deducted from the transfer, ask for the method rather than an estimate. Avoid inventing a typical fee or assuming that a fee-free label applies to every account, currency, or destination."
+      ],
+      "bullets": [
+        "Separate program charges from provider, intermediary, and receiving-bank charges.",
+        "Check whether charges are deducted before transfer or collected separately.",
+        "Do not treat another publisher’s experience as evidence of your own fee schedule."
+      ]
+    },
+    {
+      "heading": "Build a simple reconciliation record",
+      "paragraphs": [
+        "For each payment, record the statement period, approved amount, stated currency, payment date, transfer reference, amount received, and destination currency. If the program or provider lists a conversion rate or deduction, record that separately. This creates a trail that can help identify whether a difference comes from timing, conversion, or a fee. Keep the records securely and limit access to people who need them for finance or accounting work.",
+        "Compare like with like: a commission amount for one reporting period is not necessarily the same thing as a payment sent on the same date. Pending adjustments, approval timing, and transfer timing can create differences that are unrelated to currency conversion. Use the statement’s dates and transaction identifiers, and ask the program about a specific item if it cannot be reconciled from the available information."
+      ],
+      "bullets": [
+        "Keep statement and bank records for the same transaction together.",
+        "Record currencies and dates rather than only a final converted amount.",
+        "Ask about a specific discrepancy and include the relevant transaction reference."
+      ]
+    },
+    {
+      "heading": "Use currency terms in program selection and planning",
+      "paragraphs": [
+        "When comparing programs, assess whether their currency terms are understandable and workable for your business. A useful comparison records the payable currency, conversion responsibility, described charges, and statement detail. If one program explains these items clearly and another does not, that is an operational difference worth recording—even when you cannot predict the eventual net deposit.",
+        "For planning, use scenarios rather than a false-precision estimate. Note what is confirmed, what depends on a provider or bank, and what remains unknown. Recheck the official terms before changing payment settings, adding a new payee, or relying on a new currency route. Keep your own records in a consistent base currency for internal analysis, but label any conversion assumptions and avoid presenting projections as guaranteed payout amounts."
+      ],
+      "bullets": [
+        "Compare documented terms and reporting clarity, not assumed net payout figures.",
+        "Separate confirmed rules from estimates and unknowns in internal forecasts.",
+        "Recheck official terms when payment settings or routes change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the currency shown in an affiliate dashboard always the payout currency?",
+      "answer": "Not necessarily. A dashboard may report commissions in a different currency from the one used for payment. Confirm the calculation, reporting, and transfer currencies separately in the program terms."
+    },
+    {
+      "question": "Who sets the exchange rate for an affiliate payout?",
+      "answer": "That depends on the payment arrangement. Check whether the program, payment provider, receiving bank, or another intermediary determines the rate and when it is applied. Do not assume a reference rate is the transaction rate."
+    },
+    {
+      "question": "Why might a deposit differ from the reported commission?",
+      "answer": "Possible explanations include differences in timing, currency conversion, or charges applied by the program, payment provider, intermediary, or receiving bank. Compare the statement and deposit record before drawing a conclusion."
+    },
+    {
+      "question": "What details should I keep for payout reconciliation?",
+      "answer": "Keep the statement period, approved amount and currency, payment date, transfer reference, any documented conversion or charge, and the receiving amount and currency. Store the records securely and use them to ask about specific discrepancies."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
