@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T06:32:18.757Z",
+  "generatedAt": "2026-10-26T08:10:56.850Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-free-paid-access-model-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-authenticity-provenance-check.json",
-    "ops/editorial/content-artifacts/adult-platform-account-recovery-channel-security-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-match-expiry-and-queue-lifecycle-audit.json",
-    "ops/editorial/content-artifacts/live-cam-stream-quality-data-buffering-evaluation.json"
+    "ops/editorial/content-artifacts/creator-platform-audience-location-controls.json",
+    "ops/editorial/content-artifacts/premium-video-publisher-provenance-review.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-tax-document-readiness.json",
+    "ops/editorial/content-artifacts/vr-platform-library-episode-structure-audit.json",
+    "ops/editorial/content-artifacts/free-video-ad-placement-usability-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-free-paid-access-model-audit.js",
-    "src/data/guides/adult-shop-product-authenticity-provenance-check.js",
-    "src/data/guides/adult-platform-account-recovery-channel-security-audit.js",
-    "src/data/guides/adult-dating-match-expiry-and-queue-lifecycle-audit.js",
-    "src/data/guides/live-cam-stream-quality-data-buffering-evaluation.js"
+    "src/data/guides/creator-platform-audience-location-controls.js",
+    "src/data/guides/premium-video-platform-publisher-and-rights-transparency-check.js",
+    "src/data/guides/webmaster-affiliate-tax-document-readiness.js",
+    "src/data/guides/vr-platform-library-episode-and-collection-structure-audit.js",
+    "src/data/guides/free-video-platform-ad-placement-and-click-safety-check.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "privacy-safety-payment",
-    "dating-hookups",
-    "live-cams"
+    "creator-platforms",
+    "premium-videos",
+    "webmaster-affiliate",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-games-free-paid-access-model-audit",
-    "adult-shop-product-authenticity-provenance-check",
-    "adult-platform-account-recovery-channel-security-audit",
-    "adult-dating-match-expiry-and-queue-lifecycle-audit",
-    "live-cam-stream-quality-data-buffering-evaluation"
+    "creator-platform-audience-location-controls",
+    "premium-video-publisher-provenance-review",
+    "webmaster-affiliate-tax-document-readiness",
+    "vr-platform-library-episode-structure-audit",
+    "free-video-ad-placement-usability-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40280210744",
-  "phase": "closed"
+  "r1CycleId": "40290046641"
 }
