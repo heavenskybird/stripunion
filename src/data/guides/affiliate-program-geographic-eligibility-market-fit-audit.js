@@ -1,0 +1,113 @@
+export default {
+  "slug": "affiliate-program-geographic-eligibility-market-fit-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Geographic Eligibility Before Targeting a Market",
+  "description": "Before promoting an affiliate offer in a new market, verify publisher eligibility, customer availability, permitted locations, payment constraints and the program’s written terms.",
+  "excerpt": "A referral link can resolve correctly while the program or offer is unavailable to the audience you intend to reach. Use this market-eligibility audit to check the rules, customer journey and reporting implications before publishing.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Distinguish publisher eligibility from the countries or regions where referred customers can use an offer.",
+    "Check the program’s written terms for location restrictions, language requirements and promotional limits.",
+    "Test the visitor journey in relevant locales without assuming that a successful redirect proves eligibility.",
+    "Confirm how region-specific outcomes appear in reporting and how policy changes will be communicated.",
+    "Keep evidence of the terms and checks that informed your market decision."
+  ],
+  "sections": [
+    {
+      "heading": "Separate publisher eligibility from customer availability",
+      "paragraphs": [
+        "Geographic eligibility has at least two sides. A program may limit where its publishers can apply or operate, while the promoted service may separately limit the countries or regions where customers can register, pay or use particular features. Confirm both questions. Approval to participate as a publisher does not by itself establish that every audience market is eligible for the offer.",
+        "Write down the exact markets you intend to target and the role each plays: publisher location, audience location, payment region or service availability. This prevents vague conclusions such as “international traffic is allowed.” If a program uses broad terms like territory or eligible customer, look for definitions and exceptions. Ask the program contact for clarification before building a campaign around an assumption."
+      ],
+      "bullets": [
+        "List your publisher’s operating location and each audience market separately.",
+        "Check customer availability as well as publisher application rules.",
+        "Record any stated exceptions, exclusions or market-specific conditions."
+      ]
+    },
+    {
+      "heading": "Read location rules before choosing a campaign",
+      "paragraphs": [
+        "Review the current program agreement, traffic rules and offer materials for geographic restrictions. Look for limits on where ads may be shown, which language versions are approved, what claims can be used, and whether a particular destination or offer is available in a market. Do not infer permission from the fact that a link works in a browser or that a dashboard accepts a campaign label.",
+        "If rules differ across program documents, pause and ask which source controls. Keep the response with the terms you reviewed and note the date. A short written clarification is more useful than an informal assumption because staff, offer details and rules can change. Do not publish targeting that the program has not permitted simply because a third-party link tool can deliver visitors there."
+      ],
+      "table": {
+        "caption": "Geographic checks to complete before launching a market",
+        "headers": [
+          "Area",
+          "Question",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Publisher eligibility",
+            "Can the publisher operate or apply from its location?",
+            "Application rules or written program clarification"
+          ],
+          [
+            "Audience eligibility",
+            "May visitors from the intended market be referred?",
+            "Terms or offer restrictions covering that market"
+          ],
+          [
+            "Customer journey",
+            "Can a visitor understand the destination and see relevant options?",
+            "Manual checks of the approved locale route and landing page"
+          ],
+          [
+            "Promotion rules",
+            "Are the chosen language, placements and claims permitted?",
+            "Current creative guidance and traffic rules"
+          ],
+          [
+            "Reporting",
+            "Can market-specific activity be identified in available reports?",
+            "Dashboard field definitions or program documentation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the visitor’s destination by locale",
+      "paragraphs": [
+        "A link may redirect differently according to location, language settings or other signals. Test the intended visitor path using the program’s approved methods and confirm that the destination matches the page or claim shown in your promotion. Check that the landing page is understandable, that the offer is presented consistently, and that the visitor is not sent to an unexpected or unavailable destination.",
+        "Do not use technical workarounds to bypass a market restriction or to make a destination appear eligible. If testing is limited, ask the program how it expects publishers to validate the route. A successful test in one country does not establish behavior everywhere. Keep market checks proportionate and repeat them after a destination, offer, or routing rule changes."
+      ]
+    },
+    {
+      "heading": "Plan for language, support and visitor expectations",
+      "paragraphs": [
+        "Market fit involves more than the presence of a translated page. Check whether the offer information, sign-up flow, support route and relevant terms are available in a language your audience can use. If a promotion is written in one language but the destination switches to another, visitors may misunderstand what they are being asked to do. Make the transition clear in your own description and avoid claims that the destination does not support.",
+        "Consider how local payment options, customer eligibility or service restrictions may affect the journey, but do not promise that a visitor can complete a purchase unless the program’s information supports that statement. The publisher’s job is to set accurate expectations, not to guess about a visitor’s eligibility. Where the situation is unclear, narrow the campaign or seek written guidance rather than broadening claims."
+      ]
+    },
+    {
+      "heading": "Make market decisions traceable and easy to revise",
+      "paragraphs": [
+        "Keep a compact market file with the relevant program terms, approved destinations, language notes, test date and any written clarifications. This file helps a team member understand why a market was included and makes it easier to review when the program changes. Avoid storing unnecessary visitor-level data merely to document your own compliance checks.",
+        "Set a review trigger for material changes: a new offer, changed terms, a redirect update, or a campaign entering a new market. If a rule becomes unclear, pause the affected promotion until you can confirm the current position. Do not assume old approval covers a new property, placement or territory unless the program says so. Clear records support controlled operations without implying that any particular outcome or conversion is guaranteed."
+      ],
+      "bullets": [
+        "Store dated copies or notes of relevant terms and written clarifications.",
+        "Recheck when a campaign adds a country, language or new destination.",
+        "Pause a market-specific promotion if its eligibility basis becomes uncertain."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If an affiliate link works in a country, does that mean promotion there is allowed?",
+      "answer": "No. Technical routing does not establish publisher permission or customer eligibility. Check the program’s written terms and offer restrictions for the market you intend to target."
+    },
+    {
+      "question": "Is publisher location the same as customer eligibility?",
+      "answer": "Not necessarily. A program may address where a publisher can participate separately from where referred customers can register or use an offer. Verify both rather than treating one rule as an answer to the other."
+    },
+    {
+      "question": "What should I do if geographic rules are unclear?",
+      "answer": "Ask the program through an official contact route and describe the publisher location, audience market, placement and offer you have in mind. Keep the response with the applicable terms, and avoid launching the uncertain promotion until you have a clear basis."
+    }
+  ]
+};

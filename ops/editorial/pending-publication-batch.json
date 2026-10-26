@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T20:11:36.524Z",
+  "generatedAt": "2026-10-26T21:58:55.856Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-catalog-removal-access-planning.json",
-    "ops/editorial/content-artifacts/adult-platform-browser-autofill-privacy-audit.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-lost-headset-account-response.json",
-    "ops/editorial/content-artifacts/adult-anime-platform-regional-availability-account-fit.json",
-    "ops/editorial/content-artifacts/free-video-embedded-player-privacy-boundary-check.json"
+    "ops/editorial/content-artifacts/adult-game-community-quality-and-moderation-review.json",
+    "ops/editorial/content-artifacts/adult-shop-guest-checkout-data-use-review.json",
+    "ops/editorial/content-artifacts/premium-video-household-account-sharing-terms-check.json",
+    "ops/editorial/content-artifacts/adult-platform-active-session-and-signout-review.json",
+    "ops/editorial/content-artifacts/affiliate-program-geographic-eligibility-market-fit-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-catalog-removal-access-planning.js",
-    "src/data/guides/adult-platform-browser-autofill-privacy-audit.js",
-    "src/data/guides/vr-adult-platform-lost-headset-account-response.js",
-    "src/data/guides/adult-anime-platform-regional-availability-account-fit.js",
-    "src/data/guides/free-video-embedded-player-privacy-boundary-check.js"
+    "src/data/guides/adult-game-community-quality-and-moderation-review.js",
+    "src/data/guides/adult-shop-guest-checkout-data-use-review.js",
+    "src/data/guides/premium-video-household-account-sharing-terms-check.js",
+    "src/data/guides/adult-platform-active-session-and-signout-review.js",
+    "src/data/guides/affiliate-program-geographic-eligibility-market-fit-audit.js"
   ],
   "categories": [
+    "adult-games",
+    "adult-shops",
     "premium-videos",
     "privacy-safety-payment",
-    "vr-ar",
-    "hentai-anime",
-    "free-videos"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "premium-video-catalog-removal-access-planning",
-    "adult-platform-browser-autofill-privacy-audit",
-    "vr-adult-platform-lost-headset-account-response",
-    "adult-anime-platform-regional-availability-account-fit",
-    "free-video-embedded-player-privacy-boundary-check"
+    "adult-game-community-quality-and-moderation-review",
+    "adult-shop-guest-checkout-data-use-review",
+    "premium-video-household-account-sharing-terms-check",
+    "adult-platform-active-session-and-signout-review",
+    "affiliate-program-geographic-eligibility-market-fit-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40393148219",
-  "phase": "closed"
+  "r1CycleId": "40408403865"
 }
