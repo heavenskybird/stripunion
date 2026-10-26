@@ -1,0 +1,115 @@
+{
+  "backlogId": "adult-games-base-game-add-on-entitlement-map",
+  "slug": "adult-games-base-game-add-on-entitlement-map",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Base-Game and Add-On Access Before Buying",
+  "description": "Map what an adult game listing includes, how add-ons relate to the base game, and whether separate content has distinct access requirements.",
+  "excerpt": "A storefront listing may refer to a base release, an expansion, or a bundle. Use this checklist to understand dependencies and avoid buying an add-on that does not match your intended access.",
+  "keyTakeaways": [
+    "Identify whether a listing is a standalone game, an add-on, a bundle, or an upgrade before purchasing.",
+    "Check any stated base-game requirement and confirm that it applies to your edition and platform.",
+    "Read bundle contents individually rather than relying on a broad package name.",
+    "Distinguish ownership of an add-on from access to the base game it depends on.",
+    "Keep a record of the listing description and edition details shown at the time of purchase."
+  ],
+  "sections": [
+    {
+      "heading": "Classify the listing before comparing editions",
+      "paragraphs": [
+        "Storefronts may display a base game beside expansions, extra content, bundles, soundtrack items, or upgrades. Those listings can use similar artwork and naming, so start by identifying the product type. Look for words such as base game, expansion, downloadable content, bundle, upgrade, or complete edition. If the page does not clearly state the type, inspect its description and included-content section before comparing options.",
+        "Do not treat a shared series name as evidence that two products work independently. An add-on may require a particular base release, and an upgrade may provide access only to a defined edition. Write down the exact product name, product type, and any listed dependency. This basic map prevents a common mismatch: purchasing something that sounds like the intended game but is described as an extra for a game you do not own."
+      ],
+      "bullets": [
+        "Record the exact listing title and product type.",
+        "Look for an explicit base-game requirement.",
+        "Check whether the product is described as an upgrade or a standalone release."
+      ]
+    },
+    {
+      "heading": "Read dependencies and edition requirements together",
+      "paragraphs": [
+        "A dependency statement can name a base game without explaining every edition or platform condition. Compare the dependency with the version you own or plan to buy. Check the storefront’s platform label and any edition details on both listings. If the add-on requires a base game from a specific storefront or release, do not assume a similarly named copy automatically qualifies. The platform’s stated compatibility information is the best available evidence.",
+        "Look for wording that distinguishes required content from recommended content. A page may identify an add-on as optional while still requiring the base game to launch it. Those are separate questions: whether the add-on is necessary for a particular experience, and whether it can run without the base product. When the page does not answer both, check the publisher’s documentation or the storefront’s help material before buying."
+      ],
+      "table": {
+        "caption": "Map each item in a game package before purchase",
+        "headers": [
+          "Product type",
+          "Details to verify",
+          "Common question to resolve"
+        ],
+        "rows": [
+          [
+            "Base game",
+            "Edition, platform, and stated included content",
+            "Does this provide the main game access I want?"
+          ],
+          [
+            "Add-on or expansion",
+            "Required base game and compatible edition",
+            "Can it work with the version I own?"
+          ],
+          [
+            "Bundle",
+            "Every included item and any excluded items",
+            "Is the desired item actually part of this package?"
+          ],
+          [
+            "Upgrade",
+            "Eligible starting edition and resulting access",
+            "What must I already own to use it?"
+          ],
+          [
+            "Extra item",
+            "Whether it is standalone or tied to a game",
+            "Does it provide game access or only an additional asset?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify what a bundle contains",
+      "paragraphs": [
+        "A bundle name can suggest broad coverage without revealing the exact items. Open the included-content list and check each entry individually. Note whether the package contains the base game, selected add-ons, or only a collection of extras. If the storefront marks an item as already owned, confirm how that affects the package display and final selection. Do not infer that a bundle includes every release in a series unless its itemized contents say so.",
+        "Pay particular attention to edition names and repeated entries. A package may combine products with different labels or omit a recent add-on. Your comparison should be based on the listed components, not an image or headline. If the package page links to separate product descriptions, check those descriptions for platform and dependency details. This is a practical way to compare packages without relying on promotional shorthand."
+      ]
+    },
+    {
+      "heading": "Check ownership and launch requirements separately",
+      "paragraphs": [
+        "Buying an add-on and being able to use it are different questions. The account that holds the add-on may also need access to the required base game, and both may need to be available through a compatible platform. Check which account or storefront controls each entitlement and whether the add-on appears in the same library as its base game. Keep the distinction clear if you use more than one account or device.",
+        "Also inspect any stated launch or installation requirements before purchase. An item can be owned in an account while still requiring an installed base game, a specific launcher, or other supported software. This guide is about mapping access, not assuming a particular technical setup. Use the listing’s compatibility information and the developer’s documentation where available, and record any unanswered dependency as a reason to wait."
+      ]
+    },
+    {
+      "heading": "Keep a purchase record that explains the choice",
+      "paragraphs": [
+        "Before completing a purchase, save or note the product name, edition, platform, included items, and dependency statement. Keep the receipt and the relevant storefront description together. If you later need to work out whether you bought a base game or an add-on, those records are more useful than relying on a remembered package name. They also help distinguish a missing entitlement from a product that was never included in the package.",
+        "Use a short decision rule: proceed only when you can state what the product is, what it requires, and where the access will appear. If you cannot identify the base-game dependency or the package contents, pause and seek clarification through the storefront or publisher’s documented support route. This avoids treating a vague listing as a complete answer and makes your purchasing decision easier to review later."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can an add-on work without the base game?",
+      "answer": "That depends on the listing. Check whether the product page explicitly requires a base game and whether it names an edition or platform. Do not assume an add-on is standalone based on its title."
+    },
+    {
+      "question": "Does a bundle always include the base game?",
+      "answer": "No. Review the itemized contents and any exclusions. A bundle name or image is not a substitute for checking each included product."
+    },
+    {
+      "question": "If I own an add-on, does that mean I can launch it?",
+      "answer": "Not necessarily. Ownership and usable access can depend on the required base game, compatible edition, platform, and account. Check those requirements separately."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
