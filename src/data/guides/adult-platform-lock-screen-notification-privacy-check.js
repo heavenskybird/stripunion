@@ -1,0 +1,120 @@
+export default {
+  "slug": "adult-platform-lock-screen-notification-privacy-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Notifications: Check Lock-Screen Privacy Before Enabling Alerts",
+  "description": "Review notification previews, sender names, badges, shared-device settings and email alerts before enabling adult-platform notifications on a phone or computer.",
+  "excerpt": "Notifications can reveal account activity even when an app is closed. This guide helps you check what appears on lock screens, connected devices and notification history before turning alerts on.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Check what a notification preview shows while the device is locked, not only when the app is open.",
+    "Review notification controls on every device that receives alerts, including paired wearables and desktop sessions.",
+    "Disabling message previews may reduce visible detail, but it does not remove all traces of an alert.",
+    "Distinguish push notifications from email, text messages, calendar events and account-security alerts.",
+    "Use a test notification or operating-system preview where available, and recheck settings after updates or account changes."
+  ],
+  "sections": [
+    {
+      "heading": "Map the places an alert could appear",
+      "paragraphs": [
+        "An account notification may appear in more places than the app itself. Depending on the device and settings, it could show on a lock screen, notification shade, desktop banner, paired watch, connected display or notification history. A person who can see or use one of those devices may see an alert without opening the adult platform.",
+        "Before enabling alerts, identify which devices are signed in or paired with the account. Include shared tablets, family computers and any wearable that mirrors phone notifications. The goal is not to assume that every device exposes the same details; it is to check the actual display settings for each device you use."
+      ],
+      "bullets": [
+        "List phones, tablets, computers and wearables that receive account notifications.",
+        "Check whether notifications are mirrored, synchronized or displayed on an external screen.",
+        "Identify devices that other people can unlock, borrow or see in a shared room."
+      ]
+    },
+    {
+      "heading": "Inspect lock-screen previews and notification content",
+      "paragraphs": [
+        "A lock-screen preview may reveal a sender, account name, message subject or a short section of notification text. Some systems allow previews only after the device is unlocked; others can show more detail. The wording of an operating-system setting can be general, so check the actual preview behavior rather than assuming that the setting affects every app in the same way.",
+        "Where possible, review the platform’s notification settings and the device’s system-level preview controls together. One setting may limit what the app sends, while another controls what the device displays. If the platform offers categories such as messages, account updates or promotions, choose only the categories you need rather than enabling every alert by default."
+      ],
+      "table": {
+        "caption": "Notification locations to review before enabling adult-platform alerts.",
+        "headers": [
+          "Location",
+          "Potential exposure",
+          "Control to check"
+        ],
+        "rows": [
+          [
+            "Phone lock screen",
+            "Sender, account name or message preview",
+            "Whether previews appear while locked"
+          ],
+          [
+            "Notification history",
+            "Earlier alerts may remain visible after dismissal",
+            "Whether history is enabled and who can access the device"
+          ],
+          [
+            "Paired wearable",
+            "Mirrored alert text or sender details",
+            "Which apps are allowed to send alerts to the wearable"
+          ],
+          [
+            "Desktop banner",
+            "A pop-up visible during other computer use",
+            "Banner, sound and preview settings for the app or browser"
+          ],
+          [
+            "Email or text channel",
+            "Subject lines, sender details or message content",
+            "Account-level alert preferences and inbox or messaging privacy"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate app alerts from email and text messages",
+      "paragraphs": [
+        "Turning off an app’s push notifications does not necessarily stop emails, text messages or other account communications. A platform may use different preference controls for promotional updates, direct messages, receipts, security alerts and password recovery. Review each channel separately, and avoid disabling essential security messages if you rely on them to protect or recover the account.",
+        "Email subject lines can be visible in a locked-device preview or shared inbox. Text notifications may appear on a paired device or carrier account. If you want fewer visible traces, inspect the relevant account and device settings rather than relying on one switch in the app. Keep in mind that required service communications may be handled separately from optional marketing preferences."
+      ]
+    },
+    {
+      "heading": "Check sounds, badges and connected-device behavior",
+      "paragraphs": [
+        "A notification can disclose activity without showing a detailed text preview. A distinctive sound, vibration, home-screen badge or repeated banner may draw attention to an app. On a shared device, even the app icon or notification count may be more visible than intended. Decide which kinds of signals matter in your situation, then adjust each control where available.",
+        "Connected watches, computer notification centers and display-mirroring features can have independent settings. A change on the phone may not change what a paired device displays. Review the companion device directly, remove unused pairings where appropriate and check whether a browser session can display site notifications outside the main app."
+      ]
+    },
+    {
+      "heading": "Test settings and preserve important account alerts",
+      "paragraphs": [
+        "After adjusting settings, verify the result with a low-risk test when the platform or device provides one. Lock the device and observe what is visible, then check a paired device and the notification history. Do not use a sensitive message as a test on a device that other people may see. Menu names and behavior can change after software updates, so repeat the check when the device or account settings change.",
+        "Privacy settings should not undermine account security. Consider keeping alerts for sign-in attempts or recovery events if they help you notice unauthorized access, while reducing optional content previews. If the platform does not let you choose alert categories or preview detail, record that limitation when deciding whether to enable notifications at all."
+      ],
+      "bullets": [
+        "Test the locked-screen view before leaving alerts enabled.",
+        "Review notification history and paired-device settings as separate controls.",
+        "Keep recovery details current and retain access to a secure channel for important account notices."
+      ]
+    },
+    {
+      "heading": "Use a repeatable notification review",
+      "paragraphs": [
+        "A short review is useful whenever you install an app, sign in on a new device or change notification preferences. Revisit account-level settings, operating-system previews, browser permissions and paired-device behavior. If you share a device, check what remains visible after dismissing an alert and whether another profile can view the notification history.",
+        "No single notification setting guarantees privacy across every channel or device. A practical setup reduces unnecessary detail at the points you identified, while preserving the alerts you need. Keep the review focused on observable behavior: what appears, where it appears, how long it remains and who can access that screen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I turn off push notifications, will I stop receiving all account messages?",
+      "answer": "Not necessarily. Email, text, security alerts and promotional messages may use separate controls. Review each channel in the platform account and on the device or inbox that receives it."
+    },
+    {
+      "question": "Does hiding lock-screen previews hide the notification everywhere?",
+      "answer": "No. A notification may still appear in a notification center, history, wearable or desktop banner. Check each device and location that receives alerts."
+    },
+    {
+      "question": "Should I disable security notifications for privacy?",
+      "answer": "Consider the trade-off before disabling them. Security and recovery alerts can help you notice account changes, while optional content previews may be reduced separately. Keep a secure way to receive important account information."
+    }
+  ]
+};

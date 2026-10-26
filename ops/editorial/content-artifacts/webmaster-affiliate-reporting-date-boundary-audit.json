@@ -1,0 +1,122 @@
+{
+  "backlogId": "webmaster-affiliate-reporting-date-boundary-audit",
+  "slug": "webmaster-affiliate-reporting-date-boundary-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reports: Check Time Zones, Date Boundaries and Conversion Timing",
+  "description": "A webmaster workflow for comparing affiliate reporting periods, time zones, delayed conversions and date boundaries before relying on dashboard totals.",
+  "excerpt": "Two affiliate reports can appear inconsistent because they group activity by different dates or time zones. Verify the reporting clock and conversion timing before comparing totals.",
+  "keyTakeaways": [
+    "Find out which time zone a dashboard uses before comparing daily reports with your own analytics.",
+    "Distinguish click date, conversion date, approval date and statement date.",
+    "Check whether recent reporting periods can change as delayed or reviewed events appear.",
+    "Use a documented comparison window when reconciling program reports with internal records.",
+    "Do not treat a difference in date grouping alone as proof of a tracking failure."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the clock behind each report",
+      "paragraphs": [
+        "A reporting date is meaningful only when you know the time zone and the boundary used to assign events to that date. An affiliate dashboard may group activity according to a program-defined clock, while your site analytics or server logs may use another. A click shortly before midnight in one time zone can therefore appear on a different calendar date in another report.",
+        "Before comparing daily totals, locate the program’s reporting documentation or dashboard notes for its time zone. If the information is not stated, ask the program contact and record the answer. Do not assume that the dashboard uses your browser’s local time, your site’s configured time zone or the location of the program operator."
+      ],
+      "bullets": [
+        "Record the reporting time zone for the affiliate dashboard and your own analytics.",
+        "Check whether date filters use calendar days, rolling windows or another defined period.",
+        "Note whether a report’s displayed date is based on event time or processing time."
+      ]
+    },
+    {
+      "heading": "Separate the dates attached to a conversion",
+      "paragraphs": [
+        "A referral can have several relevant dates. The visitor may click on one day, complete an action later, have that action reviewed on another day and see it included in a later statement. Reports that use different dates for these stages can disagree without describing different underlying events.",
+        "When reviewing a dashboard, identify whether each conversion row or summary is grouped by click date, conversion date, approval date or payment statement period. If the interface does not make this clear, consult the reporting definitions. Keep these dates separate in internal notes instead of compressing them into a single “conversion date” field."
+      ],
+      "table": {
+        "caption": "Common reporting dates and the question each one answers.",
+        "headers": [
+          "Date field",
+          "What it may represent",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Click date",
+            "When a visitor followed a referral link",
+            "Useful for relating a referral to a traffic period"
+          ],
+          [
+            "Conversion date",
+            "When the tracked action was recorded",
+            "May occur after the original click"
+          ],
+          [
+            "Review or approval date",
+            "When the program assessed an event",
+            "Can change a later status or report period"
+          ],
+          [
+            "Statement date",
+            "When activity is summarized for accounting",
+            "May not match the day the click or action occurred"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Account for delayed and revised reporting",
+      "paragraphs": [
+        "Recent activity may be incomplete while events are still being received, matched or reviewed. A conversion might appear after a delay, change status or be assigned to a different reporting period under the program’s rules. The exact handling varies, so check the written definitions rather than assuming that a daily total is final at the moment it first appears.",
+        "For operational comparisons, choose a consistent review interval and mark whether the data is preliminary or settled according to the program’s documentation. Avoid comparing an early dashboard snapshot with an older period that has had more time to update. If a discrepancy persists, preserve the dates, filters and export used so the question can be investigated accurately."
+      ]
+    },
+    {
+      "heading": "Build a fair comparison with your own analytics",
+      "paragraphs": [
+        "Your website analytics and an affiliate report may measure different events, use different attribution rules and apply different privacy or consent settings. Date alignment addresses only one source of mismatch; it does not make the underlying counts directly equivalent. Compare like with like, such as a defined click period against the program’s corresponding click report, and label any known measurement differences.",
+        "Use the same start and end boundaries wherever possible. If one tool supports time-zone configuration and another does not, document the conversion or grouping method you used. Keep original exports unchanged, then create a separate working copy for adjustments. This makes the comparison reproducible and helps distinguish a reporting-boundary issue from a genuine tracking question."
+      ]
+    },
+    {
+      "heading": "Use a repeatable reconciliation procedure",
+      "paragraphs": [
+        "A short written procedure reduces confusion when more than one person checks reports. Record the program, report name, filters, time zone, date range, export time and whether the period is considered complete. Include the date field the dashboard uses, such as click date or conversion date, and the status categories included in the totals.",
+        "When a number differs, first confirm that both reports cover the same time window and event stage. Then check whether one report was updated later or includes a different status. If the mismatch remains, gather the relevant report rows or identifiers that the program permits you to retain and ask a specific question about the period and field in dispute."
+      ],
+      "bullets": [
+        "Save the report definition and date filters with each comparison.",
+        "Keep raw exports separate from adjusted analysis files.",
+        "Escalate a persistent discrepancy with the time zone, event date type and report snapshot identified."
+      ]
+    },
+    {
+      "heading": "Compare programs on reporting clarity",
+      "paragraphs": [
+        "When evaluating programs, reporting clarity is an operational consideration, not a promise about earnings or tracking performance. Look for definitions of time zone, date fields, status changes and update timing. A dashboard that labels its periods and event dates clearly is easier to reconcile with internal records than one that leaves those details unexplained.",
+        "If documentation is incomplete, ask the program to explain how it assigns events to dates and whether past periods can be revised. Record the response and any remaining uncertainty. This helps you decide whether the program’s reporting model fits your workflow without treating a displayed total as self-explanatory."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why might an affiliate dashboard show a conversion on a different day from my analytics?",
+      "answer": "The systems may use different time zones, event dates or processing stages. Check whether the report groups by click, conversion, review or statement date before concluding that the records conflict."
+    },
+    {
+      "question": "Should I compare a recent daily total with a finalized older period?",
+      "answer": "Use caution. Recent reporting may still be updated under the program’s rules. Compare periods at a similar stage and note whether the data is preliminary or complete."
+    },
+    {
+      "question": "What should I send when asking about a reporting discrepancy?",
+      "answer": "Provide the report name, time zone, date range, filters, relevant event-date definition and export time. Include permitted event identifiers if available, while avoiding unnecessary personal data."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

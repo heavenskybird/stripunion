@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T01:44:21.865Z",
+  "generatedAt": "2026-10-26T04:00:17.632Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-business-model-fit-scorecard.json",
-    "ops/editorial/content-artifacts/adult-anime-free-premium-access-boundaries.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-microphone-voice-permission-audit.json",
-    "ops/editorial/content-artifacts/free-video-account-profile-visibility-audit.json",
-    "ops/editorial/content-artifacts/adult-games-content-warning-visibility-audit.json"
+    "ops/editorial/content-artifacts/adult-shop-outer-package-privacy-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-lock-screen-notification-privacy-check.json",
+    "ops/editorial/content-artifacts/premium-video-caption-quality-sample-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-post-archive-visibility-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-reporting-date-boundary-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-business-model-fit-scorecard.js",
-    "src/data/guides/adult-anime-free-premium-access-boundaries.js",
-    "src/data/guides/vr-adult-platform-microphone-voice-permission-audit.js",
-    "src/data/guides/free-video-account-profile-visibility-audit.js",
-    "src/data/guides/adult-games-content-warning-visibility-audit.js"
+    "src/data/guides/adult-shop-outer-package-privacy-audit.js",
+    "src/data/guides/adult-platform-lock-screen-notification-privacy-check.js",
+    "src/data/guides/premium-video-caption-quality-sample-audit.js",
+    "src/data/guides/creator-platform-post-archive-visibility-audit.js",
+    "src/data/guides/webmaster-affiliate-reporting-date-boundary-audit.js"
   ],
   "categories": [
+    "adult-shops",
+    "privacy-safety-payment",
+    "premium-videos",
     "creator-platforms",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "creator-platform-business-model-fit-scorecard",
-    "adult-anime-free-premium-access-boundaries",
-    "vr-adult-platform-microphone-voice-permission-audit",
-    "free-video-account-profile-visibility-audit",
-    "adult-games-content-warning-visibility-audit"
+    "adult-shop-outer-package-privacy-audit",
+    "adult-platform-lock-screen-notification-privacy-check",
+    "premium-video-caption-quality-sample-audit",
+    "creator-platform-post-archive-visibility-audit",
+    "webmaster-affiliate-reporting-date-boundary-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40255502351",
-  "phase": "closed"
+  "r1CycleId": "40266652040"
 }
