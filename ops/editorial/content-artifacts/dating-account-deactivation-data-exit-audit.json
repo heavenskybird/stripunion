@@ -1,0 +1,123 @@
+{
+  "backlogId": "dating-account-deactivation-data-exit-audit",
+  "slug": "dating-account-deactivation-data-exit-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Accounts: Compare Deactivation, Deletion and Data-Removal Options",
+  "description": "Learn how to distinguish hiding a dating profile from closing an account, and check data-removal steps, billing status and records before leaving a service.",
+  "excerpt": "A hidden profile, an inactive account and a deleted account can mean different things. Use this exit checklist to understand visibility, billing and data requests before you leave.",
+  "keyTakeaways": [
+    "Confirm whether an account action hides a profile, disables access or requests deletion.",
+    "Check billing separately; removing a profile may not stop recurring charges.",
+    "Review what data can be exported or retained before closing the account.",
+    "Save confirmation of each action and use the service’s documented privacy-request route for data questions."
+  ],
+  "sections": [
+    {
+      "heading": "Name the exit action you actually want",
+      "paragraphs": [
+        "Services may offer several actions with different consequences: hide a profile, pause discovery, deactivate an account or request account deletion. A hidden profile can remain registered, while deactivation may limit access without necessarily removing stored information. Deletion may require a separate request or waiting period. Read the labels and explanations on the actual account screen rather than treating these terms as interchangeable.",
+        "Decide whether your priority is to stop being shown to other members, stop using the service, or ask for personal data to be removed where applicable. Those goals may require different steps. If you only need a temporary break, check what happens when you sign back in; some services may treat a later login as reactivation. Do not assume that uninstalling an app changes account status."
+      ],
+      "bullets": [
+        "Write down whether you want reduced visibility, a temporary break or account closure.",
+        "Read the confirmation screen for what the selected action changes.",
+        "Check whether signing in later could reactivate an account or profile."
+      ]
+    },
+    {
+      "heading": "Check profile visibility after each action",
+      "paragraphs": [
+        "If your concern is immediate visibility, prioritize the platform’s hide or discovery controls and verify the change before moving on to a longer deletion process. If your goal is data removal, treat that as a separate request and follow the documented privacy route. Keeping those objectives distinct makes the process easier to track."
+      ]
+    },
+    {
+      "heading": "Separate account closure from billing cancellation",
+      "paragraphs": [
+        "Billing may be handled by the dating service, an app marketplace or another payment provider. Closing a profile does not necessarily end a recurring payment, and canceling a subscription does not necessarily remove the profile. Identify the billing channel used and follow its cancellation steps separately from the account’s privacy or closure workflow.",
+        "Before making changes, locate the next renewal information, cancellation instructions and confirmation method. Save the cancellation confirmation and check the account or payment record afterward. If the billing provider and service show different account states, contact the relevant support channel with transaction details, not full payment credentials. This article does not determine whether any refund is available."
+      ],
+      "bullets": [
+        "Identify where the subscription is billed.",
+        "Cancel recurring billing using the documented channel and save confirmation.",
+        "Check profile closure and billing status as two separate checklist items."
+      ]
+    },
+    {
+      "heading": "Review data access, export and retention information",
+      "paragraphs": [
+        "Before closing an account, check whether you want a copy of permitted records, such as profile details, preferences or account history. Look for an export option and read what it includes, how long it remains available and whether it contains sensitive information. Store any export securely and delete it when you no longer need it.",
+        "Read the privacy notice for information about retention after closure, including account security records, transaction records or information the service says it may retain. A deletion request may not mean that every record disappears immediately or that every category is treated alike. If you want clarification, use the service’s stated privacy-request contact and ask about specific categories instead of assuming a general delete control covers everything."
+      ],
+      "bullets": [
+        "Check for an export option before starting closure.",
+        "Review retention explanations for different data categories.",
+        "Use the documented privacy-request route and retain the request reference."
+      ]
+    },
+    {
+      "heading": "Complete the exit with a confirmation log",
+      "paragraphs": [
+        "Use a simple log to track each action: profile visibility change, recurring-billing cancellation, data request and account closure. Record the date, confirmation reference and any stated completion period. This is especially useful when different parts of the process are handled by separate services. Do not include passwords or full card details in your log.",
+        "Once the process is complete, remove saved credentials from devices you control and consider whether platform emails or notifications should remain enabled. These device steps are separate from the platform’s data policies. If you later receive a notice that conflicts with your records, use the saved confirmation details to ask support for clarification."
+      ],
+      "table": {
+        "caption": "Dating account exit checklist",
+        "headers": [
+          "Goal",
+          "Action to verify",
+          "Evidence"
+        ],
+        "rows": [
+          [
+            "Reduce visibility",
+            "Hide or pause profile and confirm affected surfaces",
+            "Account setting or confirmation"
+          ],
+          [
+            "Stop recurring charges",
+            "Cancel through the correct billing channel",
+            "Cancellation receipt or status"
+          ],
+          [
+            "Request data removal",
+            "Use documented privacy request process",
+            "Request reference and response"
+          ],
+          [
+            "Keep needed records",
+            "Export permitted information before closure",
+            "Securely stored export"
+          ],
+          [
+            "Close account",
+            "Complete closure and note any waiting period",
+            "Final confirmation"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does deleting a dating app delete my account?",
+      "answer": "Usually, removing an app from a device should not be treated as account closure. Use the service’s account controls and verify the status separately."
+    },
+    {
+      "question": "Does hiding a profile remove my data?",
+      "answer": "Not necessarily. Hiding generally addresses visibility, while data removal or account deletion may require a different process. Check the service’s explanations for each action."
+    },
+    {
+      "question": "Should I cancel billing before requesting account deletion?",
+      "answer": "Check the service’s documented sequence and billing channel. In all cases, track billing cancellation separately and retain its confirmation."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
