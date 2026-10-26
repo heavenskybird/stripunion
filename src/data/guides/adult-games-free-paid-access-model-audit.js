@@ -1,0 +1,113 @@
+export default {
+  "slug": "adult-games-free-paid-access-model-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Map Free Access, Paid Unlocks and Add-On Costs Before Starting",
+  "description": "Compare free access, one-time purchases, subscriptions, add-ons and progression gates in adult games before investing time or money.",
+  "excerpt": "A game described as free may offer only an initial portion at no charge, while a paid purchase may still leave optional extras. Use this guide to map what access includes, what costs extra and how to avoid confusing a preview with the full offer.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Separate free access to a preview or opening section from access to a complete release; look for an explicit description of what is included.",
+    "Check whether payment is one-time, recurring, tied to an account, or required for optional items and additional chapters.",
+    "Treat unclear progression gates as unknowns: record what the listing confirms and what it leaves unanswered before investing time.",
+    "Compare access terms and add-on boundaries rather than assuming that a free label or purchase button tells the whole story."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the access model, not the “free” or “paid” label",
+      "paragraphs": [
+        "A short label can conceal meaningful differences. “Free” might describe a complete game, an opening segment, a demo, an account-based preview, or access supported by optional purchases. “Paid” might mean a single purchase for the listed release, a recurring membership, or payment for a specific chapter or add-on. Those models affect both the cost decision and how much of the game can be evaluated before committing.",
+        "For each title on your shortlist, write down what the listing explicitly says is available without payment and what payment unlocks. Look for boundaries such as chapter, route, character, feature, or time period. If the store page does not describe the boundary, note that as an unanswered question rather than inferring that the whole game is included. A clear access map is more useful than comparing headline labels."
+      ],
+      "bullets": [
+        "Record the access model in plain language: free complete release, limited preview, one-time purchase, recurring access, or unclear.",
+        "Keep confirmed inclusions separate from assumptions and marketing language."
+      ]
+    },
+    {
+      "heading": "Trace the point where payment becomes necessary",
+      "paragraphs": [
+        "A practical review asks where a player encounters a purchase request, not only whether one exists. Check the store description, screenshots, public documentation and any available preview for information about locked chapters, optional paths, extra content, or features that require an additional transaction. A preview may show how the game begins without showing how far a free user can proceed, so make that distinction explicit.",
+        "When available details are incomplete, avoid treating a purchase prompt as proof that every later section is paid, or treating an initial free section as proof that the full release is free. Record the exact unresolved point: for example, whether a particular chapter is included, whether extra content is optional, or whether access ends after a trial period. This lets you make a decision based on what is verifiable rather than on a guess."
+      ],
+      "bullets": [
+        "Identify the first stated access boundary and the content or feature on each side of it.",
+        "Check whether add-ons are described as optional, required for the main release, or not clearly explained."
+      ]
+    },
+    {
+      "heading": "Distinguish one-time purchases from recurring access",
+      "paragraphs": [
+        "A one-time purchase and a subscription solve different access problems. A purchase may grant access to a particular release, while a membership may provide access only while the account remains eligible under its terms. Neither description by itself establishes whether future updates, add-on chapters, or other titles are included. Look for the precise scope of the entitlement and any account or storefront dependencies before treating an access model as permanent or comprehensive.",
+        "For recurring access, note the renewal interval, how cancellation works, and whether access continues through the current paid period. For a single purchase, check whether the listing describes the exact edition or bundle and whether add-ons are separate. Do not infer that an update is included simply because the base game was purchased. The goal is to understand what the transaction covers, not to predict future content or support."
+      ],
+      "table": {
+        "caption": "A comparison worksheet for identifying what a game’s access label actually means.",
+        "headers": [
+          "Access description",
+          "What to verify",
+          "Unanswered question to record"
+        ],
+        "rows": [
+          [
+            "Free access",
+            "Whether the full release or a limited portion is included",
+            "Where does free access end, if anywhere?"
+          ],
+          [
+            "One-time purchase",
+            "Which edition and features the purchase covers",
+            "Are chapters or add-ons sold separately?"
+          ],
+          [
+            "Recurring access",
+            "Renewal, cancellation and access-end terms",
+            "What remains available after access ends?"
+          ],
+          [
+            "Optional add-on",
+            "Whether the main release can be used without it",
+            "Does the add-on change access to other content?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for add-ons, bundles and overlapping entitlements",
+      "paragraphs": [
+        "A bundle can combine a base release with extras, but its title alone may not explain the contents. Compare the included items against the separate add-on listings, and watch for overlap if you already own part of the package. Check whether an add-on is described as an extension, a cosmetic or convenience item, an additional chapter, or a separate release. Those labels describe different kinds of value and should not be treated as interchangeable.",
+        "Keep an inventory of the content you want and the access needed for each item. If the listing does not say whether an add-on is included in a particular edition, mark it as unverified and consult the storefront’s displayed terms or the publisher’s documented support route. Avoid assuming that a bundle automatically contains every current or future extra. Clear itemization makes it easier to compare offers without relying on a promotional headline."
+      ],
+      "bullets": [
+        "List the base release and every extra you care about as separate rows.",
+        "Check for duplicate ownership, separate add-on listings, and explicit inclusion statements."
+      ]
+    },
+    {
+      "heading": "Use a decision record before starting or paying",
+      "paragraphs": [
+        "A simple comparison record can prevent a low-friction start from turning into an unplanned commitment. Note the platform, account requirement, access model, included content, known extras, renewal or cancellation terms, and any open questions. For a free-to-start title, decide in advance whether you are willing to stop at a gate or consider a later purchase. For a paid title, decide which listed inclusions matter enough to justify the commitment, without assuming that unmentioned extras are part of it.",
+        "Keep screenshots or a written note of the terms you relied on, especially if an offer or access description may change. This is a personal reference, not a guarantee of future availability. If the information is too vague to determine what is included, that uncertainty is itself decision-relevant. You can wait for a clearer description, choose an option with more explicit terms, or proceed only with a limit you have chosen beforehand."
+      ],
+      "bullets": [
+        "Write down your maximum acceptable commitment before checkout or account setup.",
+        "Save the dated access description and distinguish it from your own interpretation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does “free to play” mean the complete game costs nothing?",
+      "answer": "Not necessarily. The phrase may describe a complete release, an opening portion, or access with optional or required purchases later. Check the specific listing for what is included and where any stated access limits apply. If it does not say, treat the scope as unconfirmed."
+    },
+    {
+      "question": "How can I tell whether a purchase is recurring?",
+      "answer": "Look for explicit billing language, renewal timing, cancellation instructions and the duration of access. A payment button or a price label alone may not explain whether the transaction recurs. If the terms do not clearly identify the model, pause and seek clarification before submitting payment."
+    },
+    {
+      "question": "Are updates and add-on chapters automatically included with a purchase?",
+      "answer": "Do not assume so. Check the edition description and the individual add-on terms for explicit inclusion. A base-game purchase, membership or bundle can have different boundaries, and future content may be described separately. Record any unclear inclusion as an open question."
+    }
+  ]
+};
