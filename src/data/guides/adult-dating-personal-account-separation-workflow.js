@@ -1,0 +1,112 @@
+export default {
+  "slug": "adult-dating-personal-account-separation-workflow",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Keep Your Dating Identity Separate from Personal Accounts",
+  "description": "A practical checklist for separating an adult dating profile from personal email, social accounts, contacts and notification trails.",
+  "excerpt": "A separate profile name is only one part of privacy. Check how sign-in, contact syncing, notifications and account recovery connect a dating profile to your everyday identity.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Choose a sign-in method only after checking whether it connects the dating profile to a personal social or device account.",
+    "Review contact syncing and address-book permissions before enabling them; check whether the choice can be reversed.",
+    "Use a profile name and email address that do not reveal personal identifiers, while keeping recovery information secure.",
+    "Preview notification content and account emails on any device that might be shared or visible to others.",
+    "Treat separation as risk reduction, not a guarantee that a profile cannot be identified or linked."
+  ],
+  "sections": [
+    {
+      "heading": "Define what separation means for you",
+      "paragraphs": [
+        "Keeping a dating identity separate does not require deception or a complicated security setup. It means making deliberate choices about which personal identifiers, accounts and devices connect to the profile. Start by deciding what you want to keep private: a personal email address, your social accounts, your contacts, or simply notifications that could appear on a shared screen.",
+        "Different people have different boundaries. Someone using a private device may mainly want to avoid linking a dating account to social profiles. Someone sharing a phone or computer may also need to consider lock-screen alerts, browser sessions and saved passwords. List your practical concerns first; that list becomes a test plan for the platform’s settings and sign-up flow."
+      ],
+      "bullets": [
+        "Write down which identifiers you do not want displayed or suggested to other members.",
+        "Decide whether you are comfortable using a social sign-in option or prefer a separate login.",
+        "Consider whether another person can access your device, email inbox or app notifications."
+      ]
+    },
+    {
+      "heading": "Inspect sign-in and account-linking choices",
+      "paragraphs": [
+        "Before creating a profile, read the sign-in options and any explanation of linked accounts. A social sign-in can make login convenient, but convenience alone does not tell you what information is shared, what is displayed, or whether linking is required. Look for clear explanations of the information requested and any option to disconnect an account later.",
+        "If you choose a separate email login, use an address you control and can recover. Avoid addresses that expose your full name or another public identifier if that conflicts with your privacy goal. A distinct address is not a substitute for a strong, unique password or appropriate account security. Keep recovery access available to you, and do not create a setup that makes it easy to lose control of the profile."
+      ],
+      "table": {
+        "caption": "Sign-in choices to evaluate against your own privacy boundary",
+        "headers": [
+          "Choice",
+          "Questions to check"
+        ],
+        "rows": [
+          [
+            "Social sign-in",
+            "Which account details are requested? Is linking optional? Can it be disconnected?"
+          ],
+          [
+            "Separate email sign-in",
+            "Does the address reveal your identity? Can you securely receive recovery messages?"
+          ],
+          [
+            "Device or app sign-in",
+            "Does it create a persistent session, and can you review active sessions later?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review contact access before allowing syncing",
+      "paragraphs": [
+        "Contact discovery can be useful when you want to find people you already know, but it may be at odds with keeping dating activity separate from your address book. Do not assume that a permission prompt explains every consequence. Check what data the service says it accesses, whether upload or matching is involved, and whether you can use search or discovery without granting contact access.",
+        "If you have already enabled syncing, look for a setting to turn it off and, where offered, remove previously uploaded contacts. Revoking permission in the device settings can stop future access by an app, but it may not remove data already provided to a service. Check the platform’s account controls and privacy information for the available deletion process. If the service does not explain the effect of a setting clearly, avoid treating the permission as harmless."
+      ],
+      "bullets": [
+        "Decline contact access if it is not necessary for the way you plan to use the service.",
+        "Check device permissions separately from the platform’s own privacy controls.",
+        "Look for a way to withdraw permission and request deletion of previously supplied contact data."
+      ]
+    },
+    {
+      "heading": "Separate profile details from public identifiers",
+      "paragraphs": [
+        "A profile can reveal more than its display name. Reused usernames, linked social handles, distinctive biographies and photos that also appear elsewhere can make accounts easier to connect. Review each field with the same question: would this detail help someone identify another account or locate me outside the platform? You do not need to remove every personal detail, but share only what serves your intended interaction.",
+        "Check whether the platform offers separate controls for what members see and what the service uses internally. A display-name setting may not affect login details, email receipts or profile suggestions. Likewise, hiding a profile from one discovery feature may not prevent every kind of visibility. Read the descriptions of each control and test the resulting profile view if a preview is available."
+      ]
+    },
+    {
+      "heading": "Control notifications and recovery trails",
+      "paragraphs": [
+        "Account activity can reach places other than the app itself. Email subject lines, lock-screen notifications, browser pop-ups and password-manager entries may expose a service name or profile information to anyone who can see the device. Check notification previews and email preferences before using the account on a shared screen or device. Where possible, reduce message content displayed while the device is locked.",
+        "Privacy choices should not make account recovery impossible. Keep access to the email or recovery method you selected, and make sure it is protected independently. Review whether the service lists active sessions or offers a way to sign out other devices. When you finish using a shared device, sign out and check that credentials or browsing data were not left available to its next user."
+      ]
+    },
+    {
+      "heading": "Use a separation checklist before and after signup",
+      "paragraphs": [
+        "A quick review before signup can prevent accidental connections that are harder to undo later. Save the platform’s privacy and account-control pages so you can revisit them if settings change. Do not assume that an option is private merely because it is not displayed on your profile; distinguish public profile visibility from information supplied to the service.",
+        "After setup, review the profile from the perspective of another member, then inspect your device’s permissions and notification settings. Recheck these choices after a major app update, a device change or a change in who can access your email. The goal is a manageable boundary that fits your circumstances, not a promise of perfect anonymity."
+      ],
+      "bullets": [
+        "Confirm that the account uses the sign-in method you intended.",
+        "Review contact, social-account and notification permissions.",
+        "Check the visible profile for reused identifiers and unintended personal details.",
+        "Confirm you can recover the account and sign out of other sessions if needed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a separate email address make a dating profile anonymous?",
+      "answer": "No. It can reduce one connection to your personal identity, but profile details, reused photos, linked accounts, device access and information supplied to the service can create other links. Consider it one privacy measure, not a guarantee of anonymity."
+    },
+    {
+      "question": "If I deny contact access, can I still use a dating platform?",
+      "answer": "That depends on the platform’s design. Check whether contact access is optional and whether search or discovery features remain available without it. Avoid granting a permission until you understand what it enables and whether it can be withdrawn."
+    },
+    {
+      "question": "Does turning off contact syncing delete contacts already uploaded?",
+      "answer": "Not necessarily. Turning off device permission may prevent future access, while previously supplied data may require a separate removal request or account setting. Check the service’s privacy controls and explanation of retention."
+    }
+  ]
+};
