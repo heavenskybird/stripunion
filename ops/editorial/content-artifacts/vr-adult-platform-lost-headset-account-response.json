@@ -1,0 +1,146 @@
+{
+  "backlogId": "vr-adult-platform-lost-headset-account-response",
+  "slug": "vr-adult-platform-lost-headset-account-response",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Lost VR Headset: Protect Adult Platform Accounts and Review Access",
+  "description": "A practical response plan for a missing VR headset: secure linked accounts, review active sessions, and check recovery and purchase controls.",
+  "excerpt": "If a headset is lost or stolen, act on the accounts and access paths connected to it. This checklist helps you identify what to secure without assuming every platform offers the same controls.",
+  "keyTakeaways": [
+    "List the headset account, adult platform account, email, and payment accounts that may be connected.",
+    "Use official account settings to review sign-ins, devices, and session controls where available.",
+    "Change credentials from a device you trust if you suspect account access may be exposed.",
+    "Do not assume remote sign-out, device tracking, or content removal is available; verify each capability.",
+    "Keep support records and distinguish device security from subscription cancellation or billing changes."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the accounts, not assumptions about the headset",
+      "paragraphs": [
+        "A missing headset can involve several separate accounts: the device maker’s account, an app or platform account, an email address used for recovery, and the payment account used for purchases. One login may not control every service. Before acting, make a short list of the accounts you used on the headset, any browser profiles or saved sign-ins, and any payment route associated with those accounts.",
+        "Use a phone, computer, or other device that you trust to access account settings. Avoid following account-recovery links from unexpected messages. Navigate through the official site or app you normally use, and confirm that the support contact or sign-in page is genuine. The goal is to reduce the chance that urgency leads you to disclose credentials to an impersonator."
+      ],
+      "bullets": [
+        "Identify device, platform, email, and payment accounts separately.",
+        "Start account recovery from a trusted device and a known route.",
+        "Record when the headset was last known to be in your possession."
+      ]
+    },
+    {
+      "heading": "Review sign-ins and available session controls",
+      "paragraphs": [
+        "Check each relevant account for a device list, recent sign-ins, active sessions, or a control to sign out other devices. The labels and available actions differ by service, so verify what each control actually does before using it. A device list may show only registered hardware, while a session list may concern web or app sign-ins. Neither should be assumed to cover every stored login on a headset.",
+        "If a service offers remote sign-out or device removal, read any explanation of timing and effect. Removing a device registration may not delete local files, clear a browser, cancel a subscription, or prevent use of another account already present on the device. If you cannot determine what the control covers, contact the service through its official support channel and ask about the missing headset specifically."
+      ],
+      "table": {
+        "caption": "Separate controls that may be relevant after a headset goes missing",
+        "headers": [
+          "Control area",
+          "What to confirm"
+        ],
+        "rows": [
+          [
+            "Device account",
+            "Whether the headset is listed and whether a supported remote action exists"
+          ],
+          [
+            "Platform account",
+            "Whether active sessions or signed-in devices can be reviewed or ended"
+          ],
+          [
+            "Email recovery",
+            "Whether the recovery mailbox and its sign-in methods remain secure"
+          ],
+          [
+            "Payment settings",
+            "Whether recurring charges or stored payment options need separate attention"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Secure credentials and recovery channels",
+      "paragraphs": [
+        "If you believe someone may be able to access a logged-in account, change its password from a trusted device and follow the service’s guidance for ending other sessions. Use a unique password rather than reusing a password from another account. If multi-factor authentication is available, review its enrolled methods and recovery options. A password change alone may not end every existing session, so check for a separate sign-out control or ask support what the change does.",
+        "Protect the email account used for account recovery. If that mailbox is accessible from the missing headset or shares credentials with another service, secure it too. Review recovery phone numbers, backup addresses, and sign-in alerts for changes you did not make. Do not remove a recovery option unless you have another working method; losing access to the mailbox can make recovery more difficult."
+      ],
+      "bullets": [
+        "Change credentials from a device you control if access may be compromised.",
+        "Use separate passwords for the device, platform, and recovery email accounts.",
+        "Review recovery details and sign-in methods before removing or replacing them.",
+        "Do not share verification codes with anyone claiming to be support."
+      ]
+    },
+    {
+      "heading": "Check subscriptions and payment routes separately",
+      "paragraphs": [
+        "A missing device does not automatically end a membership or prevent recurring billing. Find which account or storefront manages the subscription and review its current billing and cancellation controls. The service that displays content may not be the same account that processes the charge. Check the confirmation email or account history you already have rather than guessing which company is responsible.",
+        "If you see a transaction you do not recognise, contact the relevant provider through a verified channel and follow its process. Keep dates, support messages, and transaction references. Avoid cancelling unrelated cards or accounts without understanding the effect on other services. If you only want to stop future renewal, use the applicable subscription control and verify that the account displays the resulting status."
+      ],
+      "table": {
+        "caption": "Account-security tasks and billing tasks are not interchangeable",
+        "headers": [
+          "Goal",
+          "Where to look"
+        ],
+        "rows": [
+          [
+            "End a headset or app session",
+            "Device or platform account security settings, if offered"
+          ],
+          [
+            "Recover account access",
+            "Official account recovery and protected email channels"
+          ],
+          [
+            "Stop future renewal",
+            "The account or storefront that manages the subscription"
+          ],
+          [
+            "Question a transaction",
+            "The payment provider or financial institution’s official support route"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Document the response and plan the next step",
+      "paragraphs": [
+        "Keep a concise record of the date the headset went missing, the accounts you reviewed, the controls you used, and any support case numbers. Store it somewhere private and accessible from a trusted device. This record helps if you need to follow up, explain why a sign-in changed, or confirm that a billing request was completed. Avoid including full payment details or passwords in the record.",
+        "If the headset is later recovered, do not assume it is safe to use immediately. Review the device account and platform sessions again, check for unfamiliar profile or recovery changes, and follow the manufacturer’s current guidance for securing a returned device. If you cannot establish who had access or whether account settings changed, ask the relevant provider what additional steps are available. A clear response plan is more useful than relying on unverified claims about remote wiping or tracking."
+      ],
+      "bullets": [
+        "Keep dates, actions, and case numbers, but never record passwords or verification codes.",
+        "Verify that a sign-out or cancellation request has taken effect.",
+        "Recheck accounts if the headset is recovered or a provider reports a change.",
+        "Use only verified support routes for account recovery and billing questions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I remotely sign out of an adult platform on a lost headset?",
+      "answer": "That depends on the platform and how the account was used. Check its current security settings for device or session controls, and ask official support if the scope is unclear. Do not assume that removing a registered headset ends every browser or app session."
+    },
+    {
+      "question": "Will changing my password automatically cancel a subscription?",
+      "answer": "No. Password changes and subscription billing are separate processes. Review the account or storefront that manages renewal and confirm the subscription status there."
+    },
+    {
+      "question": "Should I remove every recovery method after losing a headset?",
+      "answer": "Not automatically. First secure the recovery account and confirm that you still have a working, controlled recovery method. Removing all recovery options can make it harder to regain access."
+    },
+    {
+      "question": "What if I cannot tell which account controls a purchase?",
+      "answer": "Check the receipt, account history, and current subscription settings for the service or storefront named in the transaction. Contact the relevant provider through an official channel and keep the response for your records."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

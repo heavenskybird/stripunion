@@ -1,0 +1,145 @@
+{
+  "backlogId": "adult-platform-browser-autofill-privacy-audit",
+  "slug": "adult-platform-browser-autofill-privacy-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Browser Autofill: Check Saved Details Before Checkout",
+  "description": "Review browser autofill, synced profiles, and saved payment details before using an adult platform, especially on a shared device.",
+  "excerpt": "Browser autofill can surface names, addresses, email accounts, or payment details at the wrong moment. Use this practical audit before signing in or checking out.",
+  "keyTakeaways": [
+    "Browser autofill may reveal information independently of the platform’s own privacy settings.",
+    "A browser profile can sync saved addresses and payment details across devices.",
+    "On a shared device, use a separate browser profile or avoid saving sensitive checkout information.",
+    "Check what the browser stores before deleting data; removing saved details can affect other services.",
+    "Treat browser data, platform account data, and payment records as separate privacy layers."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what autofill can expose",
+      "paragraphs": [
+        "Autofill is designed to make forms faster by suggesting information previously entered into a browser. Depending on the browser and settings, suggestions may include names, addresses, phone numbers, email addresses, or payment details. Those suggestions can appear on a checkout page before you decide whether to use them. The browser’s behaviour is separate from the platform’s account settings, so disabling platform emails or choosing a private account name does not necessarily control browser suggestions.",
+        "Exposure can happen through a visible suggestion, a saved form value, a browser history entry, or data synced to another signed-in browser profile. The exact data and controls vary by browser and device. The useful starting point is to identify which browser profile is active and whether it is shared, signed in, or syncing. Do not assume that a private window changes the saved information stored in the ordinary profile."
+      ],
+      "bullets": [
+        "Check the active browser profile before entering account or payment information.",
+        "Consider whether anyone else can unlock the device or use the same browser profile.",
+        "Review separate settings for addresses, payment methods, form filling, and sync."
+      ]
+    },
+    {
+      "heading": "Audit browser profiles and sync settings",
+      "paragraphs": [
+        "A browser profile may connect saved details to a broader account used on several devices. Before using an adult platform, check whether the active profile belongs only to you, whether it syncs data, and which categories are included in sync. A device can appear private while still sharing browser data with another device through the same account. Conversely, turning off sync may not remove information already stored locally or on another device.",
+        "If you use a shared computer, a separate profile can reduce accidental crossover, but it is not a substitute for access control on the device. Protect the device login, avoid leaving the profile open, and sign out when appropriate. If creating a separate profile is not practical, consider using a browser or device you control and refrain from saving sensitive entries. Check the browser’s own instructions for the consequences of each setting."
+      ],
+      "table": {
+        "caption": "Browser privacy layers to check before entering sensitive details",
+        "headers": [
+          "Layer",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Active profile",
+            "Is this profile personal, shared, or managed by someone else?"
+          ],
+          [
+            "Sync",
+            "Which saved details may be available on other devices?"
+          ],
+          [
+            "Autofill",
+            "What names, addresses, or payment details can appear in forms?"
+          ],
+          [
+            "Device access",
+            "Can another person open the browser profile or saved-data settings?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose whether to save checkout information",
+      "paragraphs": [
+        "At checkout, a browser or payment interface may offer to save information for later. Read the prompt and identify whether the information would be stored by the browser, the payment service, or the platform. These are different storage locations with different controls. If the interface does not make the choice clear, pause and check the relevant help information before accepting a save option.",
+        "Saving a payment method can be convenient, but it may create another place to review, secure, or remove payment details. On a shared device, saving a card or billing address to the shared browser profile can expose it to another user with access to that profile. You can decline browser storage and complete the payment using the method’s normal checkout flow, if available. Avoid entering false billing details; use accurate information required for the transaction and focus on controlling where it is stored."
+      ],
+      "bullets": [
+        "Read each save prompt rather than accepting it automatically.",
+        "Distinguish browser storage from platform storage and payment-provider storage.",
+        "Avoid saving checkout details to a profile used by other people."
+      ]
+    },
+    {
+      "heading": "Clean up without disrupting other accounts",
+      "paragraphs": [
+        "If you find saved information you no longer want in a browser, use the browser’s settings to review and remove the relevant category. Deleting all browsing data can also remove useful sign-ins, preferences, and saved information for unrelated services. Choose the narrowest available control that meets your goal, and read the browser’s explanation of what will be removed and from which devices.",
+        "After changing settings, verify the result in the relevant browser profile. If sync is on, check whether a change applies across devices or whether separate copies remain. Do not rely on clearing history alone to remove saved addresses or payment details; these may have separate storage controls. If a device belongs to an employer, school, family member, or another administrator, avoid making sensitive changes that you are not authorised to make and do not assume you control its records."
+      ],
+      "table": {
+        "caption": "Targeted cleanup questions",
+        "headers": [
+          "Data type",
+          "What to verify after cleanup"
+        ],
+        "rows": [
+          [
+            "Browsing history",
+            "Whether the selected history range and devices are covered"
+          ],
+          [
+            "Saved addresses",
+            "Whether address autofill is stored separately from history"
+          ],
+          [
+            "Payment details",
+            "Whether the browser or another payment service retains them"
+          ],
+          [
+            "Sync data",
+            "Whether the change has reached other signed-in devices"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a pre-checkout privacy routine",
+      "paragraphs": [
+        "A brief routine reduces mistakes without requiring complicated technical changes. Confirm the device and browser profile, review whether the page is the intended platform, and inspect any autofill suggestion before selecting it. At the end, sign out if needed, close the relevant tabs, and check whether the browser offered to save account or payment information. These steps address accidental exposure; they do not erase a platform’s transaction records or a payment provider’s records.",
+        "Keep your expectations realistic. A private browsing window generally changes how some local browsing data is handled, but it does not make a transaction anonymous to the platform, payment processor, network operator, or other parties involved. Likewise, disabling autofill does not hide a bank statement or remove account information already submitted. Treat each privacy layer separately and use the control designed for the specific information you want to protect."
+      ],
+      "bullets": [
+        "Before checkout: verify the browser profile, sync status, and visible form suggestions.",
+        "During checkout: decline unneeded save prompts and check what service is storing the data.",
+        "After checkout: close the session and review any saved-data prompt or profile change.",
+        "For shared devices: do not rely on history deletion as a substitute for a separate, protected profile."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing prevent autofill information from appearing?",
+      "answer": "Behaviour differs by browser and setting. A private window is not a universal way to prevent saved information from being suggested, and it does not necessarily change data already stored in the regular profile. Check the browser’s own documentation and test settings without entering sensitive information."
+    },
+    {
+      "question": "If I delete browser history, are saved payment details also removed?",
+      "answer": "Not necessarily. History, addresses, passwords, and payment details can have separate controls. Review each relevant category in the browser and any payment service where information may have been saved."
+    },
+    {
+      "question": "Is a separate browser profile enough on a shared device?",
+      "answer": "It can reduce accidental crossover, but it is not a complete privacy guarantee. Device access, profile protections, browser sync, and other local records still matter. Use a device and profile you control where possible."
+    },
+    {
+      "question": "Does disabling autofill hide a purchase from a payment provider?",
+      "answer": "No. Autofill controls what a browser suggests in forms. It does not remove transaction records held by a platform, payment provider, or financial institution."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

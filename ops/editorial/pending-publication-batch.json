@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T19:18:29.118Z",
+  "generatedAt": "2026-10-26T20:11:36.524Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-identity-display-surface-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-inbox-boundaries-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-unused-credit-policy-audit.json",
-    "ops/editorial/content-artifacts/dating-account-deactivation-data-exit-audit.json",
-    "ops/editorial/content-artifacts/affiliate-link-outage-fallback-plan.json"
+    "ops/editorial/content-artifacts/premium-video-catalog-removal-access-planning.json",
+    "ops/editorial/content-artifacts/adult-platform-browser-autofill-privacy-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-lost-headset-account-response.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-regional-availability-account-fit.json",
+    "ops/editorial/content-artifacts/free-video-embedded-player-privacy-boundary-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-identity-display-surface-audit.js",
-    "src/data/guides/creator-platform-inbox-boundaries-workflow.js",
-    "src/data/guides/live-cam-platform-unused-credit-policy-audit.js",
-    "src/data/guides/dating-account-deactivation-data-exit-audit.js",
-    "src/data/guides/affiliate-link-outage-fallback-plan.js"
+    "src/data/guides/premium-video-catalog-removal-access-planning.js",
+    "src/data/guides/adult-platform-browser-autofill-privacy-audit.js",
+    "src/data/guides/vr-adult-platform-lost-headset-account-response.js",
+    "src/data/guides/adult-anime-platform-regional-availability-account-fit.js",
+    "src/data/guides/free-video-embedded-player-privacy-boundary-check.js"
   ],
   "categories": [
+    "premium-videos",
+    "privacy-safety-payment",
     "vr-ar",
-    "creator-platforms",
-    "live-cams",
-    "dating-hookups",
-    "webmaster-affiliate"
+    "hentai-anime",
+    "free-videos"
   ],
   "backlogIds": [
-    "vr-platform-identity-display-surface-audit",
-    "creator-platform-inbox-boundaries-workflow",
-    "live-cam-unused-credit-policy-audit",
-    "dating-account-deactivation-data-exit-audit",
-    "affiliate-link-outage-fallback-plan"
+    "premium-video-catalog-removal-access-planning",
+    "adult-platform-browser-autofill-privacy-audit",
+    "vr-adult-platform-lost-headset-account-response",
+    "adult-anime-platform-regional-availability-account-fit",
+    "free-video-embedded-player-privacy-boundary-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40383049603",
-  "phase": "closed"
+  "r1CycleId": "40393148219"
 }
