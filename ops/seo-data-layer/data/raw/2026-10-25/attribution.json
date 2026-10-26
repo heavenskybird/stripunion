@@ -1,0 +1,115 @@
+{
+  "collectedAt": "2026-10-26T06:24:03.599Z",
+  "receiverConnected": true,
+  "postbackJoinReady": true,
+  "reportScope": "first-party AVCams click/postback attribution",
+  "totalClicks": 10,
+  "totalPostbacks": 12,
+  "matchedPostbacks": 1,
+  "unmatchedPostbacks": 11,
+  "duplicatePostbacks": 0,
+  "eventCounts": {
+    "member_registration": 2,
+    "age_verification": 2,
+    "purchase": 6,
+    "first_purchase": 1,
+    "member_verification": 1
+  },
+  "revenueByCurrency": {
+    "UNKNOWN": 222.06000000000003
+  },
+  "byP1": {
+    "avcams": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "how-stripchat-tokens-work": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "stripchat-vs-chaturbate": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "stripchat_alternatives": {
+      "clicks": 2,
+      "postbacks": 1,
+      "matchedPostbacks": 1,
+      "eventCounts": {
+        "age_verification": 1
+      },
+      "revenueByCurrency": {}
+    },
+    "stripchat_pricing": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "byAffiliateSource": {
+    "avcams_model_signup": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "homepage_live_now": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "stripchat_tokens_hero": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "comparison_stripchat_chaturbate_mid": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "stripchat_alternatives_live_now": {
+      "clicks": 2,
+      "postbacks": 1,
+      "matchedPostbacks": 1,
+      "eventCounts": {
+        "age_verification": 1
+      },
+      "revenueByCurrency": {}
+    },
+    "stripchat_pricing_live_now": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    }
+  },
+  "byExperiment": {},
+  "updatedAt": "2026-10-26T00:21:13.459Z"
+}
