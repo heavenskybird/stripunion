@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-games-operating-system-compatibility-evidence-audit",
+  "slug": "adult-games-operating-system-compatibility-evidence-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Verify Operating-System Compatibility Before You Buy",
+  "description": "Check storefront requirements, developer documentation and user reports to assess whether an adult game is likely to work on your operating system and device.",
+  "excerpt": "A platform label may not answer every compatibility question. Use a clear evidence workflow to check operating-system support, hardware requirements, dependencies and the limits of community reports before purchasing.",
+  "keyTakeaways": [
+    "Check the storefront's supported operating systems and minimum requirements, then compare them with developer documentation.",
+    "Distinguish official support from community workarounds or reports that may apply only to a particular configuration.",
+    "Verify the exact game edition and current version when reading compatibility notes.",
+    "Look for required launchers, runtimes, input devices and storage before checkout.",
+    "If essential compatibility information is missing, treat that as unresolved risk rather than assuming the game will work."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility is more than an operating-system badge",
+      "paragraphs": [
+        "A storefront badge can be a useful starting point, but it may not answer whether a game works on your particular computer. Operating-system version, processor and graphics hardware, memory, display settings, storage, input devices, and required software can all affect whether a game launches and remains usable. A listed operating system is not the same as a guarantee that every configuration on it will work.",
+        "This guide is for checking evidence before buying or installing. It does not assume that any particular operating system or device is supported by a given game. Instead, it offers a way to separate official requirements from informal reports, identify missing details, and decide whether you have enough information to proceed."
+      ],
+      "bullets": [
+        "Start with the exact edition and version you intend to obtain.",
+        "Treat platform badges as an entry point, not the full compatibility record.",
+        "Keep official requirements separate from community workarounds."
+      ]
+    },
+    {
+      "heading": "Read the storefront requirements carefully",
+      "paragraphs": [
+        "Look for minimum and recommended requirements, supported operating systems, processor and graphics details, memory, storage, and any stated input requirements. Some listings provide a short compatibility label but link to a more complete specification elsewhere. If requirements are split across pages, make a note of where each detail comes from and whether the information clearly applies to the edition being sold.",
+        "Pay attention to qualifiers. A statement such as “requires a controller,” “requires a separate launcher,” or “not tested on older systems” can matter as much as the operating-system label. If requirements are not stated, do not assume that a game is lightweight or compatible because its screenshots, file size, or genre appear simple. Missing requirements should remain an open question."
+      ],
+      "table": {
+        "caption": "Separate the kinds of evidence you may find while checking compatibility.",
+        "headers": [
+          "Evidence source",
+          "What it can establish",
+          "What it cannot establish by itself"
+        ],
+        "rows": [
+          [
+            "Storefront requirements",
+            "The seller's published platform and hardware information",
+            "That every configuration will work as expected"
+          ],
+          [
+            "Developer documentation",
+            "Official notes, known limitations and update context",
+            "Support for a setup not mentioned in the documentation"
+          ],
+          [
+            "Community reports",
+            "A user-described outcome on a particular setup",
+            "A general guarantee or official support commitment"
+          ],
+          [
+            "Your own device details",
+            "Whether your hardware appears to meet stated requirements",
+            "Whether undocumented dependencies or conflicts exist"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Match the requirements to your actual setup",
+      "paragraphs": [
+        "Identify your operating-system edition and version, processor, graphics hardware, memory, available storage, and the input method you expect to use. Compare each item with the published requirements instead of relying on a broad device label. If your computer is managed by an employer, school, or another person, you may not have permission to install software or change system settings; check those boundaries before proceeding.",
+        "Minimum requirements generally describe a threshold rather than an ideal experience, while recommended requirements indicate a different target. Neither label necessarily explains every configuration. If a listing names a particular graphics API, runtime, or other dependency, confirm that it is available for your system and that you understand whether it must be installed separately. Do not download a dependency from an unfamiliar mirror."
+      ],
+      "bullets": [
+        "Write down the exact system version rather than “Windows,” “Mac,” or “Linux” alone.",
+        "Check free storage against both the stated install size and any additional files mentioned.",
+        "Confirm whether the game expects keyboard, mouse, controller, or another input method."
+      ]
+    },
+    {
+      "heading": "Interpret community reports with care",
+      "paragraphs": [
+        "Community posts can help reveal questions that official documentation does not answer, such as whether a game has launched on a certain hardware combination. Their value depends on how much setup information the poster provides. A report that names the game version, operating system, device, and any workaround is more useful than a short statement that it “works” or “doesn't work.”",
+        "Check the report date and whether it refers to the current game version. An older success may not apply after an update, and an older failure may have been addressed. Look for multiple independent reports before treating a pattern as meaningful. Even several similar reports remain anecdotal unless the developer or storefront confirms the support status."
+      ]
+    },
+    {
+      "heading": "Check launchers, dependencies and update history",
+      "paragraphs": [
+        "A game may rely on a separate launcher, account, runtime, or online connection even when the game itself is installed locally. Read the listing and support notes for those requirements, and consider whether they fit your device and privacy preferences. Find out which software provider handles updates if that information is available, and whether installing the game involves additional components.",
+        "Update history can help explain why compatibility evidence may differ across reports. Note the version associated with a report or support note, and look for developer descriptions of fixes or known issues. Do not assume that a recent update resolves a problem unless the documentation says so. If compatibility is important to the purchase decision, save the relevant support information so you can refer to it later."
+      ]
+    },
+    {
+      "heading": "Make a decision when evidence is incomplete",
+      "paragraphs": [
+        "Before checkout, classify each important requirement as confirmed, uncertain, or not applicable. If your system meets the listed specifications but the operating system is not explicitly supported, that is different from a clear statement of support. Likewise, a community workaround may be acceptable to a technically confident player but unsuitable for someone who wants a straightforward installation.",
+        "Use the seller's stated refund or support terms as a separate part of the decision, but do not assume that compatibility problems automatically qualify for a refund. If the compatibility evidence is too vague, consider waiting for clarification or choosing a product with clearer documentation. That is a practical risk decision, not a judgment about the game's quality."
+      ],
+      "bullets": [
+        "Confirmed: the source explicitly addresses your system or requirements.",
+        "Uncertain: the evidence is incomplete, dated, or based on a different configuration.",
+        "Unverified: no reliable information answers the compatibility question."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront operating-system label guarantee that a game will run on my device?",
+      "answer": "No. It indicates a platform category in the listing, but individual hardware, system versions, dependencies, and configurations can still matter. Compare the detailed requirements with your own setup."
+    },
+    {
+      "question": "Can community reports replace official compatibility information?",
+      "answer": "They can provide useful examples, but they do not establish official support. Check dates, game versions, hardware details, and whether the report required a workaround."
+    },
+    {
+      "question": "What if the listing does not state minimum requirements?",
+      "answer": "Treat compatibility as unresolved. Look for official documentation or ask the seller or developer a specific question about your system before purchasing; do not infer support from appearance or file size."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
