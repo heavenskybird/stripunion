@@ -1,0 +1,107 @@
+export default {
+  "slug": "free-video-ad-personalization-privacy-controls-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Ad Personalization and Privacy Controls",
+  "description": "Learn how to assess advertising privacy on free video platforms by checking personalization explanations, account settings, browser choices and data-control documentation.",
+  "excerpt": "Free access can come with advertising, but the way ads are selected and the controls available to viewers can vary. Use this checklist to understand what a platform explains before signing in or changing privacy settings.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Distinguish ad placement and click safety from how advertising may be personalized.",
+    "Look for the platform’s explanation of advertising data and available controls.",
+    "Check whether privacy choices differ between signed-in and accountless browsing.",
+    "Review browser and device permissions separately from the platform’s own settings.",
+    "Treat a personalization control as a limited setting, not a guarantee that no data is processed."
+  ],
+  "sections": [
+    {
+      "heading": "Separate advertising experience from advertising privacy",
+      "paragraphs": [
+        "An ad can affect the viewing experience because of where it appears, how long it interrupts playback or whether it resembles a clickable recommendation. Those are usability questions. Advertising privacy is a separate question: what information may be used to select, measure or limit advertising, and what choices the platform offers. A site may explain one area clearly while leaving the other difficult to understand.",
+        "When comparing free video platforms, do not treat the presence of an ad-settings menu as proof that advertising is not personalized. Read what the control says it changes, whether it applies to the current browser or account, and whether the platform describes other forms of data use. If the explanation is unclear, note the uncertainty. This is more useful than inferring a platform’s practices from the appearance of a single ad."
+      ],
+      "bullets": [
+        "Assess ad interruption and click clarity separately from data use.",
+        "Record the exact wording of any personalization or privacy control.",
+        "Do not infer a platform-wide practice from one advertising display."
+      ]
+    },
+    {
+      "heading": "Read the platform’s explanation of ad selection",
+      "paragraphs": [
+        "Start with the service’s privacy information and any dedicated advertising or personalization settings. Look for an explanation of whether ads may be based on activity on the platform, information associated with an account, device or browser signals, or other categories described by the service. This guide does not assume that any particular platform uses a specific method; the purpose is to locate and evaluate what each service actually says.",
+        "Check whether the explanation distinguishes personalized advertising from contextual advertising, measurement or frequency management. Terms can be used differently, so rely on the platform’s own definitions. Note whether the documentation identifies a way to change a preference and whether it explains the effect of that choice. If a control applies only after signing in, record that distinction before deciding whether to create an account."
+      ],
+      "table": {
+        "caption": "A practical advertising-privacy comparison",
+        "headers": [
+          "Area",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Ad selection",
+            "The platform’s own description of factors it says may shape advertising."
+          ],
+          [
+            "Choice",
+            "Where a personalization preference can be reviewed or changed."
+          ],
+          [
+            "Account state",
+            "Whether the platform describes different settings for signed-in and signed-out use."
+          ],
+          [
+            "Browser controls",
+            "Relevant site data, cookie or permission settings described by the browser."
+          ],
+          [
+            "Control limits",
+            "What the platform says a choice does not change or cover."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare signed-in and accountless settings carefully",
+      "paragraphs": [
+        "An account can provide a settings page or saved preferences, but it can also associate activity with a profile. Accountless browsing does not automatically mean no data is processed; a platform may still describe browser or device-related practices. These are general considerations, not claims about a specific service. Compare the platform’s own disclosures for both states and do not assume that a setting in one state carries over to another.",
+        "If you already have an account, review its ad and privacy settings without changing anything until you understand the effect. If you are evaluating the platform without an account, read the privacy notice and browser controls relevant to that use. Avoid creating an account solely to reveal a setting unless you are comfortable providing the required information. Document what was visible, what required sign-in and which questions remained unanswered."
+      ]
+    },
+    {
+      "heading": "Use browser and device privacy controls as a separate layer",
+      "paragraphs": [
+        "A platform setting and a browser setting do different jobs. Browser controls may let you manage site data, permissions or tracking-related preferences, while platform settings may govern choices within the service. Check the controls available in your own browser and device, and understand that changing them can affect sign-in, saved preferences or site functionality. The right choice depends on your priorities and the platform’s documented behavior.",
+        "Review whether the site has permission to send notifications or access other device functions that are not necessary for ordinary playback. This is separate from advertising personalization, but it can affect what information or prompts appear on a device. Do not grant a permission just to dismiss a message unless you understand why it is requested. If you share a device, consider whether account state, browser history and notifications could reveal platform use to another person."
+      ],
+      "bullets": [
+        "Review site-specific browser data and permissions, not only global settings.",
+        "Recheck settings after signing in or switching browsers.",
+        "Use shared-device protections where appropriate, while recognizing they do not erase every record."
+      ]
+    },
+    {
+      "heading": "Make a comparison without overstating what controls do",
+      "paragraphs": [
+        "A useful scorecard records whether the platform explains ad selection, provides a meaningful preference control, distinguishes account states and describes the limits of each choice. Mark evidence as clear, partly explained or not found. Do not convert the existence of a toggle into a claim that all advertising-related processing stops. Likewise, an unclear disclosure is a reason to note uncertainty, not proof of a particular hidden practice.",
+        "Revisit your notes if the platform changes its privacy information or if you move from accountless browsing to a signed-in account. The decision is not simply whether to accept or reject all advertising. It is whether the platform’s explanations and controls are understandable enough for your preferences. If an important point is missing, use an official privacy or support channel for clarification and make your choice based on the response and the information available."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off personalized ads stop all advertising?",
+      "answer": "Not necessarily. A control may affect one kind of ad selection while other advertising or measurement practices remain. Read the platform’s explanation of what the setting changes and what it does not cover."
+    },
+    {
+      "question": "Is accountless browsing automatically more private?",
+      "answer": "Not automatically. Accountless use may avoid linking activity to a signed-in profile, but the platform may still describe browser or device-related data practices. Compare the relevant disclosures and controls."
+    },
+    {
+      "question": "Are ad privacy settings the same as ad placement controls?",
+      "answer": "No. Placement and interruption affect the viewing experience; privacy settings concern data use and advertising choices. Evaluate both areas separately when comparing services."
+    }
+  ]
+};
