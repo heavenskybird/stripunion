@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-10-25T06:17:37.107Z",
-  "sourceGeneratedAt": "2026-10-25T06:17:37.050Z",
+  "generatedAt": "2026-10-26T06:26:25.147Z",
+  "sourceGeneratedAt": "2026-10-26T06:26:25.106Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -25,25 +25,25 @@
     ],
     "aggregateMonetization": {
       "connected": true,
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
-      "signups": 0,
-      "verifiedSignups": 0,
-      "purchases": 0,
-      "totalEarnings": 0,
+      "signups": 2,
+      "verifiedSignups": 1,
+      "purchases": 6,
+      "totalEarnings": 222.06,
       "modelReferralEarnings": 0,
       "webmasterRegistrations": 0,
       "webmasterReferralEarnings": 0,
       "attributionLimit": "Aggregate StripCash metrics must not be assigned to an individual query without grouped Statistics data or postback-level joining."
     },
-    "attributionSource": "2026-10-24"
+    "attributionSource": "2026-10-25"
   },
   "validatedLearnings": [],
   "portfolio": {
-    "safeCreateCount": 15,
-    "updateCount": 7,
+    "safeCreateCount": 13,
+    "updateCount": 11,
     "experimentCount": 0,
-    "totalDecisions": 26
+    "totalDecisions": 32
   },
   "decisions": [
     {
@@ -94,18 +94,18 @@
           {
             "source": "Bing",
             "date": "/Date(1786665600000)/",
-            "query": "f95zone reivew",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1786665600000)/",
             "query": "f95zone reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 8
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1786665600000)/",
+            "query": "f95zone reivew",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
           }
         ],
         "targetKeyword": "F95Zone review",
@@ -126,11 +126,543 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 4
+        "rank": 6
       }
     },
     {
-      "id": "search:bing-a826e3f99c4e4187a9d77ce0a2cb3290",
+      "id": "search:gsc-0b491387582b258ba2010f1d83f4c340",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Stripchat pricing / tokens",
+      "surface": "/stripchat-pricing",
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /stripchat-pricing landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 3
+      },
+      "payload": {
+        "id": "gsc-0b491387582b258ba2010f1d83f4c340",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat token cost",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat tokens",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 81
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "token stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 20
+          }
+        ],
+        "targetKeyword": "Stripchat pricing / tokens",
+        "recommendedAction": "refresh existing /stripchat-pricing landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "approved AVCams/StripCash intent",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/stripchat-pricing",
+          "contentState": "page",
+          "impressions": 3,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 3
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 7
+      }
+    },
+    {
+      "id": "search:gsc-1c9e5c6e1010b318768676af408b6824",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Become a cam model",
+      "surface": "/become-a-cam-model",
+      "monetizationRoute": "avcams-model-signup",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /become-a-cam-model landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 17,
+        "clicks": 0,
+        "bestPosition": 1.5,
+        "queryVariants": 12
+      },
+      "payload": {
+        "id": "gsc-1c9e5c6e1010b318768676af408b6824",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 2
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 22.666666666666668
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "is it evaluate the webcam modeling platforms company stripchat on couples cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 11
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "is it evaluate the webcam modeling platforms company stripchat on live milf cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on ebony cams",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 1.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "is it evaluate the webcam modeling platforms company chaturbate on ebony live cams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 3
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "live webcam model platforms review",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 20
+          }
+        ],
+        "targetKeyword": "Become a cam model",
+        "recommendedAction": "refresh existing /become-a-cam-model landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "approved creator-referral intent",
+        "monetizationRoute": "avcams-model-signup",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/become-a-cam-model",
+          "contentState": "page",
+          "impressions": 17,
+          "clicks": 0,
+          "bestPosition": 1.5,
+          "queryVariants": 12
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 2
+      }
+    },
+    {
+      "id": "search:gsc-2e886c865880b946ab4a91f91429ba94",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "Stripchat review",
+      "surface": "/stripchat",
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /stripchat landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 13,
+        "clicks": 1,
+        "bestPosition": 4,
+        "queryVariants": 12
+      },
+      "payload": {
+        "id": "gsc-2e886c865880b946ab4a91f91429ba94",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "is stripchat free",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "list websites that provide detailed safety ratings for stripchat.",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "list websites that provide detailed safety ratings for stripchat.",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "how to change language on stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "livejasmin stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "private show stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 15
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "similar stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 24
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat alternate",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 23
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat magic search",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat referral",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 13
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat similar",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 17
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1791504000000)/",
+            "query": "i want to understand abiut the stripchat live live stresming site",
+            "impressions": 2,
+            "clicks": 1,
+            "position": 8
+          }
+        ],
+        "targetKeyword": "Stripchat review",
+        "recommendedAction": "refresh existing /stripchat landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/stripchat",
+          "contentState": "review",
+          "impressions": 13,
+          "clicks": 1,
+          "bestPosition": 4,
+          "queryVariants": 12
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 3
+      }
+    },
+    {
+      "id": "search:gsc-6c59bb2972e690e661abc595ec1b8a2e",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 100,
+      "eligible": true,
+      "subject": "AdultFriendFinder review",
+      "surface": "/adultfriendfinder",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /adultfriendfinder landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 38,
+        "clicks": 0,
+        "bestPosition": 16,
+        "queryVariants": 18
+      },
+      "payload": {
+        "id": "gsc-6c59bb2972e690e661abc595ec1b8a2e",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 19.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 20
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 7,
+            "clicks": 0,
+            "position": 29.142857142857142
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 18.666666666666668
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "websites like adultfriendfinder",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 19.333333333333332
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 28.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 30
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 29
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 23.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 26
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 16
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 26
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 17
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 27
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 29
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 27
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adultfriendfinder alternatives",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 30
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "sites like adultfriendfinder",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 30
+          }
+        ],
+        "targetKeyword": "AdultFriendFinder review",
+        "recommendedAction": "refresh existing /adultfriendfinder landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/adultfriendfinder",
+          "contentState": "review",
+          "impressions": 38,
+          "clicks": 0,
+          "bestPosition": 16,
+          "queryVariants": 18
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 1
+      }
+    },
+    {
+      "id": "search:gsc-a826e3f99c4e4187a9d77ce0a2cb3290",
       "kind": "search",
       "action": "UPDATE",
       "priority": 100,
@@ -142,14 +674,38 @@
       "confidence": "low",
       "rationale": "refresh existing /xhamster landing page using clustered search evidence",
       "evidence": {
-        "impressions": 84,
+        "impressions": 87,
         "clicks": 0,
         "bestPosition": 3,
-        "queryVariants": 44
+        "queryVariants": 47
       },
       "payload": {
-        "id": "bing-a826e3f99c4e4187a9d77ce0a2cb3290",
+        "id": "gsc-a826e3f99c4e4187a9d77ce0a2cb3290",
         "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "is xhamster free",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "xhamster adult video sharing official website",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "xhamster website company overview 2026",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
           {
             "source": "Bing",
             "date": "/Date(1776384000000)/",
@@ -249,22 +805,6 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 10
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1784851200000)/",
             "query": "https+thefapguide+com+review+xhamster",
             "impressions": 1,
             "clicks": 0,
@@ -273,10 +813,26 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
             "query": "xhamster#N##N#review",
             "impressions": 1,
             "clicks": 0,
             "position": 7
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1784851200000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
           },
           {
             "source": "Bing",
@@ -385,7 +941,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhasters reviews",
+            "query": "xhamster  review",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -393,7 +949,7 @@
           {
             "source": "Bing",
             "date": "/Date(1788480000000)/",
-            "query": "xhamster  review",
+            "query": "xhasters reviews",
             "impressions": 1,
             "clicks": 0,
             "position": 9
@@ -417,7 +973,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster adult website overview",
+            "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -425,7 +981,7 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamter.com review",
+            "query": "xhamster adult website overview",
             "impressions": 1,
             "clicks": 0,
             "position": 5
@@ -465,6 +1021,14 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
+            "query": "complete guide to hamster com x",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
             "query": "xhamster  review",
             "impressions": 1,
             "clicks": 0,
@@ -477,14 +1041,6 @@
             "impressions": 1,
             "clicks": 0,
             "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "complete guide to hamster com x",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
           },
           {
             "source": "Bing",
@@ -506,375 +1062,22 @@
         "targetKeyword": "xHamster review / site overview",
         "recommendedAction": "refresh existing /xhamster landing page using clustered search evidence",
         "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "commercialIntent": "unknown",
         "monetizationRoute": null,
         "competitorEvidence": [],
         "ourEvidence": {
           "page": "/xhamster",
           "contentState": "review",
-          "impressions": 84,
+          "impressions": 87,
           "clicks": 0,
           "bestPosition": 3,
-          "queryVariants": 44
+          "queryVariants": 47
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 3
-      }
-    },
-    {
-      "id": "search:gsc-1c9e5c6e1010b318768676af408b6824",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "Become a cam model",
-      "surface": "/become-a-cam-model",
-      "monetizationRoute": "avcams-model-signup",
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /become-a-cam-model landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 15,
-        "clicks": 0,
-        "bestPosition": 1.5,
-        "queryVariants": 10
-      },
-      "payload": {
-        "id": "gsc-1c9e5c6e1010b318768676af408b6824",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 9
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 2
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 22.666666666666668
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "is it evaluate the webcam modeling platforms company stripchat on couples cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 11
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "is it evaluate the webcam modeling platforms company stripchat on live milf cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on ebony cams",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 1.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          }
-        ],
-        "targetKeyword": "Become a cam model",
-        "recommendedAction": "refresh existing /become-a-cam-model landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "approved creator-referral intent",
-        "monetizationRoute": "avcams-model-signup",
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/become-a-cam-model",
-          "contentState": "page",
-          "impressions": 15,
-          "clicks": 0,
-          "bestPosition": 1.5,
-          "queryVariants": 10
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 2
-      }
-    },
-    {
-      "id": "search:gsc-2e886c865880b946ab4a91f91429ba94",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "Stripchat review",
-      "surface": "/stripchat",
-      "monetizationRoute": "avcams-viewer",
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /stripchat landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 4,
-        "clicks": 1,
-        "bestPosition": 4,
-        "queryVariants": 3
-      },
-      "payload": {
-        "id": "gsc-2e886c865880b946ab4a91f91429ba94",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "is stripchat free",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "list websites that provide detailed safety ratings for stripchat.",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1791504000000)/",
-            "query": "i want to understand abiut the stripchat live live stresming site",
-            "impressions": 2,
-            "clicks": 1,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "Stripchat review",
-        "recommendedAction": "refresh existing /stripchat landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": "avcams-viewer",
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/stripchat",
-          "contentState": "review",
-          "impressions": 4,
-          "clicks": 1,
-          "bestPosition": 4,
-          "queryVariants": 3
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 7
-      }
-    },
-    {
-      "id": "search:gsc-6c59bb2972e690e661abc595ec1b8a2e",
-      "kind": "search",
-      "action": "UPDATE",
-      "priority": 100,
-      "eligible": true,
-      "subject": "AdultFriendFinder review",
-      "surface": "/adultfriendfinder",
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "refresh existing /adultfriendfinder landing page using clustered search evidence",
-      "evidence": {
-        "impressions": 34,
-        "clicks": 0,
-        "bestPosition": 16,
-        "queryVariants": 15
-      },
-      "payload": {
-        "id": "gsc-6c59bb2972e690e661abc595ec1b8a2e",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 19.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 20
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 7,
-            "clicks": 0,
-            "position": 29.142857142857142
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 18.666666666666668
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "websites like adultfriendfinder",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 19.333333333333332
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 28.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 30
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 29
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 23.5
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 26
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 16
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 26
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 17
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adultfriendfinder alternatives",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 27
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adultfriendfinder",
-            "impressions": 2,
-            "clicks": 0,
-            "position": 29
-          }
-        ],
-        "targetKeyword": "AdultFriendFinder review",
-        "recommendedAction": "refresh existing /adultfriendfinder landing page using clustered search evidence",
-        "trafficIntent": "observed",
-        "commercialIntent": "commercial/review intent; monetization relationship not approved",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": "/adultfriendfinder",
-          "contentState": "review",
-          "impressions": 34,
-          "clicks": 0,
-          "bestPosition": 16,
-          "queryVariants": 15
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 1
+        "rank": 4
       }
     },
     {
@@ -890,21 +1093,45 @@
       "confidence": "low",
       "rationale": "refresh existing /stripchat-alternatives landing page using clustered search evidence",
       "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 9,
-        "queryVariants": 1
+        "impressions": 8,
+        "clicks": 1,
+        "bestPosition": 6.5,
+        "queryVariants": 4
       },
       "payload": {
         "id": "gsc-e7ecce55f8c64492ec61e3b80a3fd5dd",
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-23",
+            "date": "2026-10-24",
+            "query": "stripchat alternatives",
+            "impressions": 2,
+            "clicks": 1,
+            "position": 10
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
             "query": "stripchat alternative",
             "impressions": 1,
             "clicks": 0,
             "position": 9
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "alternatives to stripchat",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat alternative",
+            "impressions": 4,
+            "clicks": 0,
+            "position": 6.5
           }
         ],
         "targetKeyword": "Stripchat alternatives",
@@ -916,23 +1143,259 @@
         "ourEvidence": {
           "page": "/stripchat-alternatives",
           "contentState": "page",
+          "impressions": 8,
+          "clicks": 1,
+          "bestPosition": 6.5,
+          "queryVariants": 4
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 5
+      }
+    },
+    {
+      "id": "search:gsc-c3383b6fbf6bb3a66fcfa3c7fe4df9f9",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 92,
+      "eligible": true,
+      "subject": "Chaturbate review",
+      "surface": "/chaturbate",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /chaturbate landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 4,
+        "clicks": 0,
+        "bestPosition": 8,
+        "queryVariants": 3
+      },
+      "payload": {
+        "id": "gsc-c3383b6fbf6bb3a66fcfa3c7fe4df9f9",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "apps like chaturbate",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 10
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "chaturbate competition",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "chaturbate vs",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 19
+          }
+        ],
+        "targetKeyword": "Chaturbate review",
+        "recommendedAction": "refresh existing /chaturbate landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/chaturbate",
+          "contentState": "review",
+          "impressions": 4,
+          "clicks": 0,
+          "bestPosition": 8,
+          "queryVariants": 3
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 9
+      }
+    },
+    {
+      "id": "search:gsc-a280c2f47356e0200eb05a772c073c57",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 89,
+      "eligible": true,
+      "subject": "freelivecam",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 8,
+        "clicks": 0,
+        "bestPosition": 8.5,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-a280c2f47356e0200eb05a772c073c57",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "freelivecam",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 8.5
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "freelivecam",
+            "impressions": 6,
+            "clicks": 0,
+            "position": 8.5
+          }
+        ],
+        "targetKeyword": "freelivecam",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 8,
+          "clicks": 0,
+          "bestPosition": 8.5,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 11
+      }
+    },
+    {
+      "id": "search:gsc-59067a96f26af6117bab9e04b43abc12",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 81,
+      "eligible": true,
+      "subject": "avcams",
+      "surface": null,
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate an AVCams-conversion guide against the current content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 4,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-59067a96f26af6117bab9e04b43abc12",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "avcams",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          }
+        ],
+        "targetKeyword": "avcams",
+        "recommendedAction": "evaluate an AVCams-conversion guide against the current content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
           "impressions": 1,
           "clicks": 0,
-          "bestPosition": 9,
+          "bestPosition": 4,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 6
+        "rank": 14
+      }
+    },
+    {
+      "id": "search:gsc-4f099eead21d39ef5374056a3c897d08",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 80,
+      "eligible": true,
+      "subject": "Stripchat mobile experience",
+      "surface": "/stripchat-app",
+      "monetizationRoute": "avcams-viewer",
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /stripchat-app landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 1,
+        "bestPosition": 20,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-4f099eead21d39ef5374056a3c897d08",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "apps like stripchat",
+            "impressions": 1,
+            "clicks": 1,
+            "position": 20
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "stripchat apps",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 45
+          }
+        ],
+        "targetKeyword": "Stripchat mobile experience",
+        "recommendedAction": "refresh existing /stripchat-app landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": "avcams-viewer",
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/stripchat-app",
+          "contentState": "page",
+          "impressions": 2,
+          "clicks": 1,
+          "bestPosition": 20,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 15
       }
     },
     {
       "id": "search:gsc-6b218b6d76bc6f4d1614ad8f1731e116",
       "kind": "search",
       "action": "CREATE",
-      "priority": 92,
+      "priority": 80,
       "eligible": true,
       "subject": "striphun",
       "surface": null,
@@ -951,7 +1414,7 @@
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-23",
+            "date": "2026-10-24",
             "query": "striphun",
             "impressions": 2,
             "clicks": 0,
@@ -959,7 +1422,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-23",
+            "date": "2026-10-24",
             "query": "striphun",
             "impressions": 1,
             "clicks": 0,
@@ -967,7 +1430,7 @@
           },
           {
             "source": "GSC",
-            "date": "2026-10-23",
+            "date": "2026-10-24",
             "query": "striphun",
             "impressions": 1,
             "clicks": 0,
@@ -992,116 +1455,6 @@
         "confidence": "low",
         "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 9
-      }
-    },
-    {
-      "id": "search:gsc-0164ca6c6ac3685a7594f588c1e17161",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 81,
-      "eligible": true,
-      "subject": "adult platform",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 4,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "gsc-0164ca6c6ac3685a7594f588c1e17161",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adult platform",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          },
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adult platform",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "adult platform",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 4,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 12
-      }
-    },
-    {
-      "id": "search:bing-383614ad32d602566b69194685dad0ae",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 79,
-      "eligible": true,
-      "subject": "free porn union sites",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 3,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "bing-383614ad32d602566b69194685dad0ae",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1786060800000)/",
-            "query": "free porn union sites",
-            "impressions": 3,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "free porn union sites",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 3,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
         "rank": 13
       }
     },
@@ -1109,7 +1462,7 @@
       "id": "search:bing-c880ec0c67c2ea62b52b0c4ccb79e197",
       "kind": "search",
       "action": "HOLD",
-      "priority": 78,
+      "priority": 69,
       "eligible": false,
       "subject": "review free pornohamster.com",
       "surface": null,
@@ -1153,278 +1506,7 @@
         "confidence": "low",
         "risk": "high",
         "experimentWindow": "14 days",
-        "rank": 5
-      }
-    },
-    {
-      "id": "search:bing-f183180a5b493affbee84df916e009ca",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 77,
-      "eligible": true,
-      "subject": "adult toy retailer discreet packaging billing privacy buying online",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-f183180a5b493affbee84df916e009ca",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet packaging billing privacy buying online",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 10
-      }
-    },
-    {
-      "id": "search:bing-fc9020574ec130be09cf21579efb999a",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 74,
-      "eligible": true,
-      "subject": "adult toy retailer discreet billing shipping faq packaging",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 2,
-        "clicks": 0,
-        "bestPosition": 1,
-        "queryVariants": 2
-      },
-      "payload": {
-        "id": "bing-fc9020574ec130be09cf21579efb999a",
-        "sourceEvidence": [
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
-            "query": "adult toy retailer discreet billing shipping faq packaging",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 1
-          }
-        ],
-        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 2,
-          "clicks": 0,
-          "bestPosition": 1,
-          "queryVariants": 2
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 11
-      }
-    },
-    {
-      "id": "search:gsc-9eb6b2c1462b01e63be27ec16effab0a",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 67,
-      "eligible": true,
-      "subject": "seriös?",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 4,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-9eb6b2c1462b01e63be27ec16effab0a",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "seriös?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 4
-          }
-        ],
-        "targetKeyword": "seriös?",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 4,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 16
-      }
-    },
-    {
-      "id": "search:gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 64,
-      "eligible": true,
-      "subject": "stripxuat",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 7,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-b568bbb17b5d100bc2a93c6f1a3bac57",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "stripxuat",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 7
-          }
-        ],
-        "targetKeyword": "stripxuat",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 17
-      }
-    },
-    {
-      "id": "search:gsc-bb33c515b105766e805bb2f9d8483b93",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 63,
-      "eligible": true,
-      "subject": "do you have to pay for those",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 2,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-bb33c515b105766e805bb2f9d8483b93",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "do you have to pay for those",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 2
-          }
-        ],
-        "targetKeyword": "do you have to pay for those",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 2,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 14
+        "rank": 8
       }
     },
     {
@@ -1480,61 +1562,348 @@
       }
     },
     {
-      "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
+      "id": "search:gsc-0164ca6c6ac3685a7594f588c1e17161",
       "kind": "search",
-      "action": "MIGRATE",
-      "priority": 62,
+      "action": "CREATE",
+      "priority": 60,
       "eligible": true,
-      "subject": "PinkCherry review",
-      "surface": "/pinkcherry",
+      "subject": "adult platform",
+      "surface": null,
       "monetizationRoute": null,
-      "risk": "medium",
+      "risk": "low",
       "confidence": "low",
-      "rationale": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+      "rationale": "evaluate a new on-site guide against the content inventory",
       "evidence": {
-        "impressions": 1,
+        "impressions": 2,
         "clicks": 0,
-        "bestPosition": 6,
-        "queryVariants": 1
+        "bestPosition": 4,
+        "queryVariants": 2
       },
       "payload": {
-        "id": "bing-f933cc640c80d607ffd4b9ac6fc569d3",
+        "id": "gsc-0164ca6c6ac3685a7594f588c1e17161",
         "sourceEvidence": [
           {
-            "source": "Bing",
-            "date": "/Date(1780012800000)/",
-            "query": "pinkcherry toys company website",
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adult platform",
             "impressions": 1,
             "clicks": 0,
-            "position": 6
+            "position": 4
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "adult platform",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
           }
         ],
-        "targetKeyword": "PinkCherry review",
-        "recommendedAction": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+        "targetKeyword": "adult platform",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
         "monetizationRoute": null,
         "competitorEvidence": [],
         "ourEvidence": {
-          "page": "/pinkcherry",
-          "contentState": "pending",
-          "impressions": 1,
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
           "clicks": 0,
-          "bestPosition": 6,
+          "bestPosition": 4,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 19
+      }
+    },
+    {
+      "id": "search:gsc-e7195b6ed51c56807bcc7fa2e943afb0",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 59,
+      "eligible": true,
+      "subject": "hentai games save",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 1,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-e7195b6ed51c56807bcc7fa2e943afb0",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "hentai games save",
+            "impressions": 2,
+            "clicks": 0,
+            "position": 1
+          }
+        ],
+        "targetKeyword": "hentai games save",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 1,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
         "confidence": "low",
-        "risk": "medium",
+        "risk": "low",
         "experimentWindow": "14 days",
-        "rank": 15
+        "rank": 16
+      }
+    },
+    {
+      "id": "search:bing-383614ad32d602566b69194685dad0ae",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 58,
+      "eligible": true,
+      "subject": "free porn union sites",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-383614ad32d602566b69194685dad0ae",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1786060800000)/",
+            "query": "free porn union sites",
+            "impressions": 3,
+            "clicks": 0,
+            "position": 7
+          }
+        ],
+        "targetKeyword": "free porn union sites",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 3,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 20
+      }
+    },
+    {
+      "id": "search:gsc-a9006c7c32085a82885dd3760c359289",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 57,
+      "eligible": false,
+      "subject": "best paid hentai sites",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 7,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "gsc-a9006c7c32085a82885dd3760c359289",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "best paid hentai sites",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 7
+          },
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "best paid hentai sites",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 22
+          }
+        ],
+        "targetKeyword": "best paid hentai sites",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 7,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 10
+      }
+    },
+    {
+      "id": "search:bing-fc9020574ec130be09cf21579efb999a",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 56,
+      "eligible": true,
+      "subject": "adult toy retailer discreet billing shipping faq packaging",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 1,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "bing-fc9020574ec130be09cf21579efb999a",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet billing shipping faq packaging",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          }
+        ],
+        "targetKeyword": "adult toy retailer discreet billing shipping faq packaging",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 1,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 17
+      }
+    },
+    {
+      "id": "search:bing-f183180a5b493affbee84df916e009ca",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 53,
+      "eligible": true,
+      "subject": "adult toy retailer discreet packaging billing privacy buying online",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 2,
+        "clicks": 0,
+        "bestPosition": 1,
+        "queryVariants": 2
+      },
+      "payload": {
+        "id": "bing-f183180a5b493affbee84df916e009ca",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "adult toy retailer discreet packaging billing privacy buying online",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          }
+        ],
+        "targetKeyword": "adult toy retailer discreet packaging billing privacy buying online",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 2,
+          "clicks": 0,
+          "bestPosition": 1,
+          "queryVariants": 2
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 18
       }
     },
     {
       "id": "search:bing-35d51b36604d7bcab39a47c3c3b29b69",
       "kind": "search",
       "action": "HOLD",
-      "priority": 61,
+      "priority": 49,
       "eligible": false,
       "subject": "x hamster saxix review",
       "surface": null,
@@ -1578,40 +1947,40 @@
         "confidence": "low",
         "risk": "high",
         "experimentWindow": "14 days",
-        "rank": 8
+        "rank": 12
       }
     },
     {
-      "id": "search:gsc-48f567ada084daec09bcb42571bc3cf7",
+      "id": "search:gsc-55c514e66cbb6d0221e80633ca9589a4",
       "kind": "search",
       "action": "CREATE",
-      "priority": 61,
+      "priority": 46,
       "eligible": true,
-      "subject": "adult strip cam",
+      "subject": "a good hentai anime app on hp",
       "surface": null,
       "monetizationRoute": null,
       "risk": "low",
       "confidence": "low",
       "rationale": "evaluate a new on-site guide against the content inventory",
       "evidence": {
-        "impressions": 1,
+        "impressions": 3,
         "clicks": 0,
-        "bestPosition": 7,
+        "bestPosition": 9,
         "queryVariants": 1
       },
       "payload": {
-        "id": "gsc-48f567ada084daec09bcb42571bc3cf7",
+        "id": "gsc-55c514e66cbb6d0221e80633ca9589a4",
         "sourceEvidence": [
           {
             "source": "GSC",
-            "date": "2026-10-23",
-            "query": "adult strip cam",
-            "impressions": 1,
+            "date": "2026-10-24",
+            "query": "a good hentai anime app on hp",
+            "impressions": 3,
             "clicks": 0,
-            "position": 7
+            "position": 9
           }
         ],
-        "targetKeyword": "adult strip cam",
+        "targetKeyword": "a good hentai anime app on hp",
         "recommendedAction": "evaluate a new on-site guide against the content inventory",
         "trafficIntent": "observed",
         "commercialIntent": "unknown",
@@ -1620,315 +1989,9 @@
         "ourEvidence": {
           "page": null,
           "contentState": "new",
-          "impressions": 1,
+          "impressions": 3,
           "clicks": 0,
-          "bestPosition": 7,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 18
-      }
-    },
-    {
-      "id": "search:gsc-db3ff4d36d009366543d66d5807510df",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 58,
-      "eligible": true,
-      "subject": "paid subscription",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 8,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-db3ff4d36d009366543d66d5807510df",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "paid subscription",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          }
-        ],
-        "targetKeyword": "paid subscription",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 8,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 19
-      }
-    },
-    {
-      "id": "search:gsc-4cffa3259f41e1541c4f3d6a7e2b9c50",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 55,
-      "eligible": true,
-      "subject": "are cam sites safe",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 11,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-4cffa3259f41e1541c4f3d6a7e2b9c50",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "are cam sites safe",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 11
-          }
-        ],
-        "targetKeyword": "are cam sites safe",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 11,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 20
-      }
-    },
-    {
-      "id": "search:gsc-a046613ee6863976a7d98f5f5e8fdded",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 52,
-      "eligible": true,
-      "subject": "cam sites free",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 19,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-a046613ee6863976a7d98f5f5e8fdded",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "cam sites free",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 19
-          }
-        ],
-        "targetKeyword": "cam sites free",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 19,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 21
-      }
-    },
-    {
-      "id": "search:gsc-878a005b2b4fd819bf0e84100163e8cb",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 39,
-      "eligible": true,
-      "subject": "sites like adult friend finder",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 22,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-878a005b2b4fd819bf0e84100163e8cb",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "sites like adult friend finder",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 22
-          }
-        ],
-        "targetKeyword": "sites like adult friend finder",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 22,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 22
-      }
-    },
-    {
-      "id": "search:gsc-6ea17be7adc3620292b00c2502672ad1",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 36,
-      "eligible": true,
-      "subject": "where to watch adult anime",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 50,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-6ea17be7adc3620292b00c2502672ad1",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "where to watch adult anime",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 50
-          }
-        ],
-        "targetKeyword": "where to watch adult anime",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 50,
-          "queryVariants": 1
-        },
-        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
-        "confidence": "low",
-        "risk": "low",
-        "experimentWindow": "14 days",
-        "rank": 23
-      }
-    },
-    {
-      "id": "search:gsc-79681a983a1efb9ac8a7abb96d0d43eb",
-      "kind": "search",
-      "action": "CREATE",
-      "priority": 33,
-      "eligible": true,
-      "subject": "vr catalog",
-      "surface": null,
-      "monetizationRoute": null,
-      "risk": "low",
-      "confidence": "low",
-      "rationale": "evaluate a new on-site guide against the content inventory",
-      "evidence": {
-        "impressions": 1,
-        "clicks": 0,
-        "bestPosition": 42,
-        "queryVariants": 1
-      },
-      "payload": {
-        "id": "gsc-79681a983a1efb9ac8a7abb96d0d43eb",
-        "sourceEvidence": [
-          {
-            "source": "GSC",
-            "date": "2026-10-23",
-            "query": "vr catalog",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 42
-          }
-        ],
-        "targetKeyword": "vr catalog",
-        "recommendedAction": "evaluate a new on-site guide against the content inventory",
-        "trafficIntent": "observed",
-        "commercialIntent": "unknown",
-        "monetizationRoute": null,
-        "competitorEvidence": [],
-        "ourEvidence": {
-          "page": null,
-          "contentState": "new",
-          "impressions": 1,
-          "clicks": 0,
-          "bestPosition": 42,
+          "bestPosition": 9,
           "queryVariants": 1
         },
         "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
@@ -1936,6 +1999,465 @@
         "risk": "low",
         "experimentWindow": "14 days",
         "rank": 24
+      }
+    },
+    {
+      "id": "search:gsc-ff7772053abf7d817d6eec229a09e14f",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 30,
+      "eligible": true,
+      "subject": "both",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 1,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-ff7772053abf7d817d6eec229a09e14f",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "both",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 1
+          }
+        ],
+        "targetKeyword": "both",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 1,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 25
+      }
+    },
+    {
+      "id": "search:gsc-bb33c515b105766e805bb2f9d8483b93",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 27,
+      "eligible": true,
+      "subject": "do you have to pay for those",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 2,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-bb33c515b105766e805bb2f9d8483b93",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "do you have to pay for those",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 2
+          }
+        ],
+        "targetKeyword": "do you have to pay for those",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 2,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 26
+      }
+    },
+    {
+      "id": "search:bing-f933cc640c80d607ffd4b9ac6fc569d3",
+      "kind": "search",
+      "action": "MIGRATE",
+      "priority": 26,
+      "eligible": true,
+      "subject": "PinkCherry review",
+      "surface": "/pinkcherry",
+      "monetizationRoute": null,
+      "risk": "medium",
+      "confidence": "low",
+      "rationale": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 6,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "bing-f933cc640c80d607ffd4b9ac6fc569d3",
+        "sourceEvidence": [
+          {
+            "source": "Bing",
+            "date": "/Date(1780012800000)/",
+            "query": "pinkcherry toys company website",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
+          }
+        ],
+        "targetKeyword": "PinkCherry review",
+        "recommendedAction": "migrate pending /pinkcherry review into a substantive indexable page before adding any commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/pinkcherry",
+          "contentState": "pending",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 6,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "medium",
+        "experimentWindow": "14 days",
+        "rank": 27
+      }
+    },
+    {
+      "id": "search:gsc-9eb6b2c1462b01e63be27ec16effab0a",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 25,
+      "eligible": true,
+      "subject": "seriös?",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 4,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-9eb6b2c1462b01e63be27ec16effab0a",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "seriös?",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 4
+          }
+        ],
+        "targetKeyword": "seriös?",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 4,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 30
+      }
+    },
+    {
+      "id": "search:gsc-233172e530d89b2f7cd1de97f92f24b3",
+      "kind": "search",
+      "action": "UPDATE",
+      "priority": 21,
+      "eligible": true,
+      "subject": "VRPorn review",
+      "surface": "/vrporn",
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "refresh existing /vrporn landing page using clustered search evidence",
+      "evidence": {
+        "impressions": 3,
+        "clicks": 1,
+        "bestPosition": 42,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-233172e530d89b2f7cd1de97f92f24b3",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "vrporn",
+            "impressions": 3,
+            "clicks": 1,
+            "position": 42
+          }
+        ],
+        "targetKeyword": "VRPorn review",
+        "recommendedAction": "refresh existing /vrporn landing page using clustered search evidence",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": "/vrporn",
+          "contentState": "review",
+          "impressions": 3,
+          "clicks": 1,
+          "bestPosition": 42,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 29
+      }
+    },
+    {
+      "id": "search:gsc-e8005f21a83225ca76895be4688dcc31",
+      "kind": "search",
+      "action": "CREATE",
+      "priority": 21,
+      "eligible": true,
+      "subject": "dime gemini",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "low",
+      "confidence": "low",
+      "rationale": "evaluate a new on-site guide against the content inventory",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 3,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-e8005f21a83225ca76895be4688dcc31",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "dime gemini",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 3
+          }
+        ],
+        "targetKeyword": "dime gemini",
+        "recommendedAction": "evaluate a new on-site guide against the content inventory",
+        "trafficIntent": "observed",
+        "commercialIntent": "unknown",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 3,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "low",
+        "experimentWindow": "14 days",
+        "rank": 28
+      }
+    },
+    {
+      "id": "search:gsc-89d30526454358fd4f56317e6e1a8992",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 12,
+      "eligible": false,
+      "subject": "affiliate onboarding",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 66,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-89d30526454358fd4f56317e6e1a8992",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "affiliate onboarding",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 66
+          }
+        ],
+        "targetKeyword": "affiliate onboarding",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 66,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 21
+      }
+    },
+    {
+      "id": "search:gsc-1e88b9b9532b639c8507203afb40ce86",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 9,
+      "eligible": false,
+      "subject": "affiliate programs bidding on brand names",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 95,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-1e88b9b9532b639c8507203afb40ce86",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "affiliate programs bidding on brand names",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 95
+          }
+        ],
+        "targetKeyword": "affiliate programs bidding on brand names",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 95,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 22
+      }
+    },
+    {
+      "id": "search:gsc-4e63004fccbb775a4f31131b5720553d",
+      "kind": "search",
+      "action": "HOLD",
+      "priority": 6,
+      "eligible": false,
+      "subject": "strip chat token price",
+      "surface": null,
+      "monetizationRoute": null,
+      "risk": "high",
+      "confidence": "low",
+      "rationale": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+      "evidence": {
+        "impressions": 1,
+        "clicks": 0,
+        "bestPosition": 79,
+        "queryVariants": 1
+      },
+      "payload": {
+        "id": "gsc-4e63004fccbb775a4f31131b5720553d",
+        "sourceEvidence": [
+          {
+            "source": "GSC",
+            "date": "2026-10-24",
+            "query": "strip chat token price",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 79
+          }
+        ],
+        "targetKeyword": "strip chat token price",
+        "recommendedAction": "validate audience fit and an official monetization relationship before adding a commercial CTA",
+        "trafficIntent": "observed",
+        "commercialIntent": "commercial/review intent; monetization relationship not approved",
+        "monetizationRoute": null,
+        "competitorEvidence": [],
+        "ourEvidence": {
+          "page": null,
+          "contentState": "new",
+          "impressions": 1,
+          "clicks": 0,
+          "bestPosition": 79,
+          "queryVariants": 1
+        },
+        "expectedImpact": "Potential visibility, click-through, conversion, or referral improvement; no forecast assigned.",
+        "confidence": "low",
+        "risk": "high",
+        "experimentWindow": "14 days",
+        "rank": 23
       }
     }
   ]
