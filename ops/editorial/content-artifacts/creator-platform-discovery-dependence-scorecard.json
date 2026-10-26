@@ -1,0 +1,142 @@
+{
+  "backlogId": "creator-platform-discovery-dependence-scorecard",
+  "slug": "creator-platform-discovery-dependence-scorecard",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Assess Discovery Dependence Before Building Your Audience There",
+  "description": "Evaluate creator-platform discovery by checking how fans can find you, what controls you have, and whether your audience strategy can work without internal recommendations.",
+  "excerpt": "Platform discovery can be a useful route to new audiences, but its mechanics and visibility may be hard to control. Use this scorecard to test what you can verify before depending on it.",
+  "keyTakeaways": [
+    "Distinguish platform-native discovery from traffic you bring through your own channels.",
+    "Check which creator profile and content elements are searchable or recommendable, if documented.",
+    "Assess whether discovery features can be evaluated without assuming a promised reach level.",
+    "Plan for audience continuity if internal discovery changes or is unavailable.",
+    "Track discovery sources using permitted, privacy-conscious methods and avoid treating impressions as guaranteed demand."
+  ],
+  "sections": [
+    {
+      "heading": "Separate discovery from audience ownership",
+      "paragraphs": [
+        "A platform can provide several different ways for a potential fan to encounter a creator: search, category browsing, recommendations, public profile pages, or links shared elsewhere. These routes have different degrees of creator control. A profile found through platform search is not the same as a visitor who arrives through a creator’s own site or communication channel.",
+        "Before choosing a platform, list the discovery routes it documents and identify which ones you can influence. This is not a prediction of reach. It is a map of dependency: if an important route is controlled by platform rules or recommendation systems, your business plan should not treat it as a stable asset you control."
+      ],
+      "bullets": [
+        "List platform-native discovery routes separately from external referrals.",
+        "Mark each route as creator-controlled, platform-controlled, or unclear.",
+        "Do not equate an available discovery feature with a guarantee of exposure."
+      ]
+    },
+    {
+      "heading": "Inspect what a fan can actually find",
+      "paragraphs": [
+        "Review the public-facing path from an unfamiliar visitor’s perspective, using only access that is legitimately available. Check whether creator profiles can be searched, what information appears in a result, and whether profile pages explain the creator’s offer clearly. Where a platform provides filters or categories, note their labels and whether they make your intended audience easier to identify.",
+        "Do not infer discoverability from a polished interface or a broad category list. A feature may have restrictions, eligibility conditions, or content rules that affect which profiles appear. Record what the platform documents, what you can observe without misrepresenting yourself, and what remains unknown. This makes the evaluation more actionable than assuming that a search box means every profile is equally findable."
+      ],
+      "table": {
+        "caption": "Discovery route evaluation",
+        "headers": [
+          "Route",
+          "Questions to verify"
+        ],
+        "rows": [
+          [
+            "Search",
+            "Are profiles indexed, and which fields can be searched?"
+          ],
+          [
+            "Categories or tags",
+            "Who selects them, and are there eligibility rules?"
+          ],
+          [
+            "Recommendations",
+            "Are criteria or creator controls documented?"
+          ],
+          [
+            "Public profile",
+            "What can an unregistered visitor see?"
+          ],
+          [
+            "External links",
+            "Can a creator direct visitors to a stable profile URL?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Measure what is observable, not what is promised",
+      "paragraphs": [
+        "If platform reporting identifies discovery sources, determine what each metric means before using it. Impressions, profile visits, clicks, follows, and paid actions describe different stages. A higher figure at an early stage does not establish that visitors found the offer relevant or completed a desired action. Look for the metric’s definition, reporting interval, and any known limitations.",
+        "When source reporting is limited, use a modest, documented experiment rather than an elaborate attribution system. For instance, compare a clear time window after making one permitted profile change, while keeping other changes noted. Avoid collecting more visitor data than you need, and follow the platform’s rules and applicable privacy requirements. Treat the result as local evidence, not a transferable forecast."
+      ],
+      "bullets": [
+        "Write down the metric definition and reporting period.",
+        "Separate exposure from visits and downstream actions.",
+        "Label small or incomplete observations as uncertain rather than conclusive."
+      ]
+    },
+    {
+      "heading": "Build an audience plan that does not rely on one surface",
+      "paragraphs": [
+        "(Continued) A practical plan gives each channel a defined purpose: discovery, information, or ongoing communication. Avoid making a single algorithmic surface the only way new people can find your work, while recognizing that external channels also take effort and may have their own rules. The aim is not to promise independence from platforms but to understand where dependence exists."
+      ]
+    },
+    {
+      "heading": "Use a decision scorecard before committing effort",
+      "paragraphs": [
+        "Score the platform on verifiable properties rather than imagined reach. A useful scorecard can include whether discovery routes are documented, whether a creator can edit relevant profile fields, whether source reporting is available, and whether external links are permitted. Use “unknown” as a valid result. It prevents gaps in public documentation from quietly becoming optimistic assumptions.",
+        "Review the scorecard again when platform terms or discovery features change. Keep the assessment proportionate to the planned investment: a creator testing a small profile may need a short checklist, while a business reorganizing its audience strategy may need a documented review. In either case, state the evidence and its date, and distinguish observed interface behavior from official rules."
+      ],
+      "table": {
+        "caption": "A simple discovery-dependence scorecard",
+        "headers": [
+          "Dimension",
+          "Evidence to collect"
+        ],
+        "rows": [
+          [
+            "Discoverability",
+            "Documented search, browse, or recommendation routes"
+          ],
+          [
+            "Control",
+            "Editable profile fields and permitted creator actions"
+          ],
+          [
+            "Measurement",
+            "Definitions and availability of source-level metrics"
+          ],
+          [
+            "Continuity",
+            "Permitted external links and audience contact boundaries"
+          ],
+          [
+            "Uncertainty",
+            "Open questions and assumptions that need verification"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform discovery feature mean a new creator will be recommended?",
+      "answer": "No. The existence of search or recommendations does not establish that a particular profile will receive exposure. Review the documented mechanics and treat reach as uncertain unless there is specific, verifiable evidence."
+    },
+    {
+      "question": "Should I move fans to an external mailing list?",
+      "answer": "Only where the platform’s rules permit it and people have given appropriate consent. A platform relationship does not automatically authorize off-platform contact or transfer of platform-held data."
+    },
+    {
+      "question": "What is the most useful discovery metric?",
+      "answer": "There is no universal best metric. Match the measure to the question: exposure for visibility, profile visits for interest, and later actions for outcomes. Confirm each metric’s definition and limitations before drawing conclusions."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

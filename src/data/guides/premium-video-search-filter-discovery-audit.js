@@ -1,0 +1,135 @@
+export default {
+  "slug": "premium-video-search-filter-discovery-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Test Search and Filters Before Choosing a Library",
+  "description": "Compare premium video platforms by testing search behavior, filter usefulness, sorting, and mobile discoverability before paying for access.",
+  "excerpt": "A large library is only useful if you can find what matters to you. Use a repeatable search-and-filter audit to assess how a premium video platform supports browsing.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Test a few representative searches rather than judging a platform by its library-size claims.",
+    "Check whether filters narrow results in ways that match your actual viewing preferences.",
+    "Compare sorting controls and whether their meaning is explained.",
+    "Repeat tests on the device you expect to use, including mobile if relevant.",
+    "Record missing controls and uncertainty; do not infer catalog quality from search convenience alone."
+  ],
+  "sections": [
+    {
+      "heading": "Make the search test reflect your needs",
+      "paragraphs": [
+        "Before comparing platforms, define a small set of search tasks that reflect how you actually browse. These might include finding a known title, narrowing a broad category, or locating content by a descriptive attribute the platform publicly exposes. Keep the tasks consistent across services so that the comparison evaluates the interface rather than a different set of user expectations each time.",
+        "Avoid searching for obscure terms on one platform and broad terms on another. Use the same query wording where possible, and note whether the search appears to match titles, descriptions, performers, publishers, or tags. If the platform does not explain its search scope, record that as unknown. A search result page is evidence of an interface response, not proof that it indexes the entire library."
+      ],
+      "bullets": [
+        "Choose three to five realistic search tasks before testing.",
+        "Use comparable wording across the platforms you evaluate.",
+        "Record the date and access level used for each test."
+      ]
+    },
+    {
+      "heading": "Check filters for practical value",
+      "paragraphs": [
+        "A filter is useful when it narrows results in a way that helps you make a decision. Review the available filter labels, whether multiple filters can be combined, and whether selected filters remain visible. Check if clearing one filter is easy and whether the results update clearly. A long filter menu is not automatically better if its labels are unclear or its choices do not match your browsing needs.",
+        "Where access permits, test one filter at a time and then combine a small number. Note whether the result count changes and whether the displayed items appear consistent with the selected options. Do not assume that a filter is comprehensive simply because it has a relevant label. If its underlying data coverage is not described, distinguish observed behavior from a claim about the full catalog."
+      ],
+      "table": {
+        "caption": "Repeatable search and filter audit",
+        "headers": [
+          "Test",
+          "What to observe"
+        ],
+        "rows": [
+          [
+            "Known-title query",
+            "Whether a matching result appears and how it is labeled"
+          ],
+          [
+            "Broad-topic query",
+            "Whether results can be narrowed without excessive steps"
+          ],
+          [
+            "Combined filters",
+            "Whether choices can be combined and remain visible"
+          ],
+          [
+            "Sort control",
+            "What each sort label means and whether it changes results"
+          ],
+          [
+            "Reset action",
+            "How easily the search returns to a neutral state"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Interpret sorting and result counts carefully",
+      "paragraphs": [
+        "For a useful comparison, describe the action a sort control performs rather than judging its hidden logic. For example, note that a particular selection changes the displayed ordering, while separately stating that the platform does not explain how that ordering is calculated. That distinction keeps the evaluation factual and useful to a prospective subscriber."
+      ]
+    },
+    {
+      "heading": "Test browsing on the device you will use",
+      "paragraphs": [
+        "Search can behave differently across desktop and mobile layouts. On the device you expect to use, check whether filters are visible, tucked into a menu, or difficult to clear. Observe whether the result list remains readable and whether selecting a result returns you to the prior search context. These are practical details that can affect the time it takes to find a title, even when the underlying catalog is unchanged.",
+        "If you can evaluate the platform without an account, do not assume that logged-in search behaves the same way. Conversely, do not create an account solely to test a feature unless you are comfortable with the information and terms involved. Record which features you could verify without joining and which remain inaccessible. This helps make a comparison transparent rather than implying a complete audit."
+      ],
+      "bullets": [
+        "Test on the screen size and input method you actually use.",
+        "Check whether search state is retained after opening and returning from a result.",
+        "Label features that require account access as unverified if you did not test them."
+      ]
+    },
+    {
+      "heading": "Turn observations into a platform comparison",
+      "paragraphs": [
+        "Summarize findings in terms of task completion: could you find a known title, narrow a broad query, and understand the displayed ordering? Include the steps or friction points that affected the task, not just a score. A simple comparison can distinguish clear search, useful filters, transparent sorting, and mobile usability without claiming that any platform has a universally superior library.",
+        "Keep the conclusion limited to what you tested. Search convenience does not prove that a catalog contains more titles, that titles will remain available, or that every result is included in a membership. Confirm those separate questions through the platform’s catalog information and terms. A dated test note also makes it easier to revisit the comparison if the interface or search features change."
+      ],
+      "table": {
+        "caption": "Turn the test into a decision",
+        "headers": [
+          "Finding",
+          "Decision relevance"
+        ],
+        "rows": [
+          [
+            "Known titles are easy to locate",
+            "Useful if you arrive with a shortlist"
+          ],
+          [
+            "Filters match your preferences",
+            "Useful for exploratory browsing"
+          ],
+          [
+            "Sort labels are unclear",
+            "Treat ordering as opaque"
+          ],
+          [
+            "Mobile controls are hard to reach",
+            "Consider the device you use most"
+          ],
+          [
+            "Account-only features remain unknown",
+            "Do not assume they match the preview"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can search quality tell me which platform has the biggest library?",
+      "answer": "No. Search tests assess findability, not the total number of titles. Catalog breadth requires separate evidence, and visible results may depend on account access, filters, or the query used."
+    },
+    {
+      "question": "Should I trust a “popular” or “featured” sort?",
+      "answer": "Treat the label as a description of the interface unless the platform explains its basis. Do not present it as an objective popularity ranking without supporting documentation."
+    },
+    {
+      "question": "How many queries should I test?",
+      "answer": "A small, repeatable set is usually more useful than a large, inconsistent sample. Include tasks that match your browsing habits and use the same tests across the platforms being compared."
+    }
+  ]
+};

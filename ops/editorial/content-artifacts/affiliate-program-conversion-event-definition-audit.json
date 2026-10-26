@@ -1,0 +1,143 @@
+{
+  "backlogId": "affiliate-program-conversion-event-definition-audit",
+  "slug": "affiliate-program-conversion-event-definition-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check What Counts as a Conversion Before Comparing Offers",
+  "description": "Compare affiliate programs by the events they credit, how those events are reported, and what evidence you need to assess conversion quality.",
+  "excerpt": "A reported conversion can represent different milestones in different programs. Map the event definitions before comparing offers or forecasting from dashboard totals.",
+  "keyTakeaways": [
+    "Write down the exact event that earns credit: for example, a completed purchase, a qualified lead, or another defined action.",
+    "Separate tracked events from payable events; the two may not be identical under program terms.",
+    "Check how repeat actions, cancellations, and later adjustments are represented in reports.",
+    "Compare programs using like-for-like event definitions rather than headline conversion counts.",
+    "Keep a dated record of event definitions and ask for written clarification when terms are ambiguous."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the event, not the dashboard total",
+      "paragraphs": [
+        "An affiliate dashboard may label an outcome as a conversion, sale, lead, signup, or another event. Those labels are not enough to tell you what happened. Before evaluating a program, locate the written definition of the event that creates a recorded conversion and the separate definition, if any, of the event that becomes eligible for commission.",
+        "This distinction matters when you compare programs or decide where to allocate editorial work. A dashboard total can combine different kinds of actions, or count an initial event before a later qualification step. Treat each reported number as a defined measurement, not a universal unit that can be compared without context."
+      ],
+      "bullets": [
+        "Record the event name shown in reporting and its contractual or help-document definition.",
+        "Mark whether the event is tracked, reviewed, approved, payable, or subject to later adjustment."
+      ]
+    },
+    {
+      "heading": "Map the path from click to credited event",
+      "paragraphs": [
+        "Draw the customer path as a sequence of observable stages: referral click, landing visit, initial action, qualification or verification, and final credited event. Not every program will expose every stage, and a program may use different terminology. The purpose of the map is to identify which stage is visible to you and where the program defines its commission obligation.",
+        "Ask whether a credited event can later change status, and what report or statement reflects that change. A report that records an early action can be useful for diagnosing a funnel, but it should not be mistaken for a finalized payable outcome. If the documentation does not explain the status sequence, seek a written explanation before using the data in forecasts."
+      ],
+      "table": {
+        "caption": "A practical event-definition comparison sheet",
+        "headers": [
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "What triggers tracking?",
+            "The earliest action the program records"
+          ],
+          [
+            "What qualifies for credit?",
+            "The documented eligibility conditions"
+          ],
+          [
+            "When is the event finalized?",
+            "The status or review step that confirms it"
+          ],
+          [
+            "Can status change later?",
+            "The stated reasons and reporting location"
+          ],
+          [
+            "What amount is attributed?",
+            "The documented basis, not an assumed value"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for edge cases that change interpretation",
+      "paragraphs": [
+        "Definitions become especially important around repeat actions, existing customers, incomplete submissions, duplicate records, refunds, cancellations, or actions that fail verification. The program may treat these as ineligible, delay a decision, or report them separately. Avoid inferring its rules from a generic label or from the way another program handles the same situation.",
+        "Build a short edge-case list that reflects your actual traffic and the offer’s user journey. Ask how each case appears in reporting and whether a decision can be reviewed. This is not a request for a guaranteed outcome; it is a way to understand the boundaries of the measurement before your editorial or technical setup depends on it."
+      ],
+      "bullets": [
+        "Check repeat actions and existing-customer treatment.",
+        "Check whether incomplete or unverified events appear in reports.",
+        "Check where cancellations, reversals, or status changes are documented."
+      ]
+    },
+    {
+      "heading": "Compare event quality without inventing a common denominator",
+      "paragraphs": [
+        "When two programs define conversions differently, do not rank them by raw conversion counts alone. First identify whether the events represent comparable stages and whether each report covers the same time period and eligible traffic. If the definitions differ, present the comparison as a difference in measurement rather than implying one program produces more valuable outcomes.",
+        "For internal planning, maintain separate columns for clicks, early events, finalized events, and payable outcomes when the program makes those distinctions available. If a program only provides a single aggregate, note that limitation. A cautious comparison is more useful than a precise-looking calculation built on unlike definitions."
+      ],
+      "table": {
+        "caption": "How to compare programs fairly",
+        "headers": [
+          "Comparison step",
+          "Decision rule"
+        ],
+        "rows": [
+          [
+            "Read the definitions",
+            "Use the program’s documented wording"
+          ],
+          [
+            "Align the stages",
+            "Compare events only when they represent similar milestones"
+          ],
+          [
+            "Note missing fields",
+            "Do not fill reporting gaps with assumptions"
+          ],
+          [
+            "State the limitation",
+            "Label comparisons that are not directly equivalent"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Create a durable event-definition record",
+      "paragraphs": [
+        "Keep a dated copy or citation for the applicable program terms, event descriptions, dashboard labels, and written clarifications. Note the date you checked them and the account or property they apply to. This makes it easier to revisit a decision if terminology changes, a dashboard is redesigned, or a report appears inconsistent with the documented definition.",
+        "The record should support operations rather than replace the program’s terms. When a number looks unusual, capture the report date range, event status, relevant referral identifiers, and the question you sent to support. Avoid collecting unnecessary visitor-level information. A small, consistent evidence file can help you explain your own analysis and ask a precise follow-up question."
+      ],
+      "bullets": [
+        "Save definitions with a check date and source location.",
+        "Keep examples of ambiguous status labels and the program’s written answers.",
+        "Use aggregated operational notes where possible; avoid storing unnecessary personal data."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is every dashboard conversion a payable conversion?",
+      "answer": "Not necessarily. A dashboard may record an event before eligibility review or final approval. Check the program’s definition of a tracked event separately from its definition of a commissionable event."
+    },
+    {
+      "question": "Can I compare conversion rates across two affiliate programs?",
+      "answer": "Only with care. Confirm that the numerator represents a similar event and that the denominator and reporting period are comparable. If event definitions differ, explain the difference rather than treating the rates as directly equivalent."
+    },
+    {
+      "question": "What should I do if the event definition is unclear?",
+      "answer": "Save the wording you can find, list the specific ambiguity, and ask the program for written clarification. Until clarified, avoid using the uncertain event as a firm basis for forecasts or performance claims."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
