@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T14:28:05.451Z",
+  "generatedAt": "2026-10-26T15:33:07.202Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-listing-detail-verification-workflow.json",
-    "ops/editorial/content-artifacts/adult-games-operating-system-compatibility-evidence-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-return-eligibility-policy-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-translation-language-edition-comparison.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-content-access-transition-audit.json"
+    "ops/editorial/content-artifacts/affiliate-program-exclusivity-and-competition-review.json",
+    "ops/editorial/content-artifacts/premium-video-membership-versus-creator-subscription-access.json",
+    "ops/editorial/content-artifacts/adult-platform-account-email-alias-and-recovery-review.json",
+    "ops/editorial/content-artifacts/adult-dating-membership-cancellation-and-profile-exit-workflow.json",
+    "ops/editorial/content-artifacts/creator-platform-original-content-backup-and-migration-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-listing-detail-verification-workflow.js",
-    "src/data/guides/adult-games-operating-system-compatibility-evidence-audit.js",
-    "src/data/guides/adult-shop-return-eligibility-policy-audit.js",
-    "src/data/guides/adult-anime-translation-language-edition-comparison.js",
-    "src/data/guides/vr-adult-platform-content-access-transition-audit.js"
+    "src/data/guides/affiliate-program-exclusivity-and-competition-review.js",
+    "src/data/guides/premium-video-membership-versus-creator-subscription-access.js",
+    "src/data/guides/adult-platform-account-email-alias-and-recovery-review.js",
+    "src/data/guides/adult-dating-membership-cancellation-and-profile-exit-workflow.js",
+    "src/data/guides/creator-platform-original-content-backup-and-migration-workflow.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "vr-ar"
+    "webmaster-affiliate",
+    "premium-videos",
+    "privacy-safety-payment",
+    "dating-hookups",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "free-video-listing-detail-verification-workflow",
-    "adult-games-operating-system-compatibility-evidence-audit",
-    "adult-shop-return-eligibility-policy-audit",
-    "adult-anime-translation-language-edition-comparison",
-    "vr-adult-platform-content-access-transition-audit"
+    "affiliate-program-exclusivity-and-competition-review",
+    "premium-video-membership-versus-creator-subscription-access",
+    "adult-platform-account-email-alias-and-recovery-review",
+    "adult-dating-membership-cancellation-and-profile-exit-workflow",
+    "creator-platform-original-content-backup-and-migration-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40339617094",
-  "phase": "closed"
+  "r1CycleId": "40350129389"
 }
