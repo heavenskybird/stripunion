@@ -1,0 +1,109 @@
+export default {
+  "slug": "dating-in-app-contact-exchange-boundaries",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Assess In-App Communication and Contact-Exchange Boundaries",
+  "description": "Compare dating platforms by how their communication tools support gradual contact, privacy boundaries, and a comfortable move from in-app messages.",
+  "excerpt": "A useful dating platform lets you understand how its communication works before you decide whether to share another way to reach you. Use this guide to assess channels, boundaries, and practical exit points.",
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "keyTakeaways": [
+    "Identify which communication channels are available before sharing a phone number, email address, or other contact detail.",
+    "Check whether you can decline or postpone requests to move a conversation off-platform without losing basic account control.",
+    "Review what each channel may expose, including profile information, notification previews, and contact identifiers.",
+    "Decide in advance what you are comfortable sharing and what would make you pause or end a conversation.",
+    "Compare platforms by clarity of controls and policies, not by assumptions about how other members will behave."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the boundary you want the platform to support",
+      "paragraphs": [
+        "Choosing a dating platform is not only a question of who you might meet. It is also a choice about how conversations can happen and how much personal information you need to reveal to continue them. Before signing up, decide whether you want to keep initial communication inside the service, when you might consider another channel, and which details you do not want to share.",
+        "This is a personal boundary, not a test of another member’s intentions. A respectful person may have a preference for a particular channel, but you are not required to accept it. A platform comparison is useful when it shows whether you can keep communicating, pause, or leave without being pushed toward contact exchange."
+      ],
+      "bullets": [
+        "Write down which contact details you consider private, such as your personal number or main email.",
+        "Decide whether you are comfortable with text-only conversation at first.",
+        "Set a rule for yourself about when, if ever, you would move communication elsewhere."
+      ]
+    },
+    {
+      "heading": "Map the communication path before creating a profile",
+      "paragraphs": [
+        "Look for a clear explanation of how members can initiate and continue conversations. A service may offer several ways to communicate, or may limit some options to particular account states. Do not assume that a visible message button means every user can use it under the same conditions. Check the current interface and available help information for the specific steps that apply.",
+        "Separate the communication feature from the personal information it may reveal. In-app messaging can avoid immediately sharing a phone number, but your profile name, photos, notification settings, and writing habits may still identify you. If voice or video options are offered, consider whether the feature exposes your voice, surroundings, or device notifications. Assess the information involved before enabling a new channel."
+      ],
+      "table": {
+        "caption": "A comparison framework for communication options",
+        "headers": [
+          "Communication option",
+          "Questions to answer",
+          "Boundary to consider"
+        ],
+        "rows": [
+          [
+            "In-app text",
+            "Can you start, pause, or stop a conversation from the platform?",
+            "Avoid sharing identifying details before you are ready."
+          ],
+          [
+            "Voice or video, if available",
+            "What permissions are requested, and what can be visible or audible?",
+            "Choose a private setting and control what appears in the background."
+          ],
+          [
+            "External contact",
+            "What information becomes visible when you switch channels?",
+            "Share only the contact method you are comfortable using."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat a request to move off-platform as a decision point",
+      "paragraphs": [
+        "A request to switch to text, email, or another service can be ordinary, but it changes the privacy and accountability context. The new channel may display a real name, account image, telephone number, or other information that was not part of your dating profile. It may also have different blocking, reporting, and message-history controls. Consider those differences rather than treating the request as a routine next step.",
+        "You can state that you prefer to continue in the platform’s messaging area for now. If a person insists, creates urgency, or makes continued contact conditional on receiving private details, pause and use the platform’s available safety controls. The platform cannot guarantee another member’s conduct, so your ability to decline and end a conversation matters."
+      ],
+      "bullets": [
+        "Ask what information the proposed channel reveals before agreeing to use it.",
+        "Do not send verification codes, account passwords, or financial information as part of a contact exchange.",
+        "If you switch channels, keep your original boundary in place and reassess if the conversation changes."
+      ]
+    },
+    {
+      "heading": "Compare privacy and exit controls alongside messaging features",
+      "paragraphs": [
+        "A channel is more useful when the platform explains how to manage unwanted contact. Check for straightforward controls to block or report a profile and find out whether those controls are available from the conversation itself. Review any explanation of what happens to a conversation after a block, report, or account change. Avoid assuming that message deletion removes every copy or record.",
+        "Also consider how message notifications appear on your devices. A private conversation can become visible through a lock-screen preview, a shared tablet, or a connected watch. You can reduce exposure by changing notification previews or using a device profile that is not shared. Those settings complement platform controls; they do not replace the need to use a channel you are comfortable with."
+      ]
+    },
+    {
+      "heading": "Use a simple comparison scorecard",
+      "paragraphs": [
+        "When comparing more than one service, record observable facts separately from impressions. For each one, note the communication options you can confirm, what account status is needed to use them, where the privacy explanation is located, and how you can stop unwanted contact. If a policy or control is unclear, label it unknown rather than interpreting silence as a promise.",
+        "Score each platform against your own non-negotiables. For example, one person may prioritize the ability to keep early messages in-app; another may care more about being able to manage notifications discreetly. A high feature count is not automatically a better fit. Choose the setup that supports your communication boundaries with the least uncertainty."
+      ],
+      "bullets": [
+        "Record what the platform says about each channel and when it becomes available.",
+        "Check whether blocking and reporting are easy to locate from a conversation.",
+        "Note any unanswered questions and resolve them before sharing contact details.",
+        "Revisit notification settings after signup and before using a shared device."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to share my phone number to continue a dating conversation?",
+      "answer": "That depends on the platform’s current communication options, but you do not need to share a personal number simply because someone asks. Check whether you can continue in-app and choose the option that fits your privacy boundary."
+    },
+    {
+      "question": "Is moving off-platform always a warning sign?",
+      "answer": "Not by itself. It is a point to reassess what information the new channel reveals and whether you are comfortable with the change. Pressure, urgency, or requests for sensitive information are reasons to pause and use available controls."
+    },
+    {
+      "question": "What should I compare before choosing a dating platform?",
+      "answer": "Compare the communication options you can verify, the conditions for using them, the privacy information provided, and how to block or report unwanted contact. Also consider device notifications and your own preferred boundaries."
+    }
+  ]
+};

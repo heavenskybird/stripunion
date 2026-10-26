@@ -1,0 +1,115 @@
+{
+  "backlogId": "affiliate-offer-claims-evidence-file",
+  "slug": "affiliate-offer-claims-evidence-file",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Offer Claims: Build an Evidence File Before Publishing Comparisons",
+  "description": "A practical workflow for webmasters to verify affiliate offer claims, document evidence, label uncertainty, and keep comparison pages accurate.",
+  "excerpt": "A comparison page is only as reliable as the claims behind it. Build a compact evidence file before publishing, and make uncertainty visible rather than filling gaps with assumptions.",
+  "keyTakeaways": [
+    "Separate claims supplied by a program from facts you independently verified.",
+    "Record the source, date, wording, and scope for each important offer claim.",
+    "Use cautious wording for features or terms that are incomplete, ambiguous, or time-sensitive.",
+    "Do not convert an affiliate relationship into an implied endorsement or an unverified performance claim.",
+    "Set a review trigger so material changes prompt an update or a visible correction."
+  ],
+  "sections": [
+    {
+      "heading": "Treat each comparison claim as something to substantiate",
+      "paragraphs": [
+        "Affiliate content can help readers compare products or services, but a polished table does not make every statement reliable. Claims about access, features, eligibility, billing, or restrictions should have an identifiable basis. A program description may be useful evidence of what a provider says, but it is not independent proof of a result or a guarantee that every user will have the same experience.",
+        "Before drafting, identify the reader’s decision and the claims that could change it. If a statement could affect whether someone signs up, spends money, or shares personal information, it deserves a clear source and careful wording. Avoid adding unsupported superlatives, performance promises, or comparisons merely to make a page sound decisive."
+      ]
+    },
+    {
+      "heading": "Create a compact claim-and-source ledger",
+      "paragraphs": [
+        "Keep a simple ledger with one row per material claim. Record the exact claim, where it came from, the date checked, what it actually establishes, and any limitation. A screenshot or saved copy can help preserve what you reviewed, subject to applicable privacy and recordkeeping practices. Include the page or document location so another editor can retrace the check without repeating the entire search.",
+        "Distinguish direct observations from provider statements. For example, seeing a label on a public offer page is different from confirming a term in the current program rules. If you cannot test or verify something, say so in your notes and avoid presenting it as a tested fact. A useful evidence file makes uncertainty visible instead of hiding it behind confident copy."
+      ],
+      "table": {
+        "caption": "A practical evidence ledger for affiliate comparisons",
+        "headers": [
+          "Ledger field",
+          "What to record",
+          "Editorial use"
+        ],
+        "rows": [
+          [
+            "Claim",
+            "The specific wording proposed for publication",
+            "Check that it is narrow and understandable."
+          ],
+          [
+            "Source",
+            "Official page, terms, support response, or direct observation",
+            "Show whether the claim is provider-supplied or independently observed."
+          ],
+          [
+            "Date and scope",
+            "When checked and which offer, market, or account state it concerns",
+            "Avoid implying that a limited observation applies everywhere."
+          ],
+          [
+            "Limitations",
+            "Unknowns, exclusions, or ambiguity",
+            "Qualify, omit, or seek clarification before publishing."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use an evidence hierarchy without overstating certainty",
+      "paragraphs": [
+        "Prefer current, specific documentation for terms that are defined by a provider. Use a relevant program agreement or official offer details for the conditions it actually addresses. A promotional page may summarize an offer but omit exceptions; a support response may clarify a question but should be retained with its date and context. Independent observations can support a description of what you saw, but they do not establish universal availability.",
+        "No source removes the need to interpret scope. A feature may depend on account status, location, device, or other conditions. If the evidence does not address those conditions, avoid a blanket statement. Use wording such as “the offer page describes” or “we observed on the page checked” when that distinction matters. If the claim remains too uncertain to explain accurately, leave it out."
+      ]
+    },
+    {
+      "heading": "Write comparisons that separate fact, interpretation, and opinion",
+      "paragraphs": [
+        "Readers benefit when a page makes clear what is directly documented, what the publisher inferred, and what is a preference-based judgment. A comparison can say that one option provides a specific documented term and another publishes a different term, then explain why a reader might care. It should not leap from that observation to a claim that one option is universally better.",
+        "Keep affiliate disclosures clear and distinct from evidence statements. A disclosure tells readers about the commercial relationship; it does not substantiate a product claim. Likewise, an accurate claim does not replace a disclosure. Make sure comparison language reflects the evidence available and does not imply personal testing if no such testing occurred."
+      ],
+      "bullets": [
+        "Use exact dates or review periods for claims that may change.",
+        "Describe what the evidence says, not what you wish it implied.",
+        "Label direct tests and observations accurately; do not invent testing.",
+        "Remove unsupported rankings, guarantees, and outcome promises."
+      ]
+    },
+    {
+      "heading": "Build a review and correction routine",
+      "paragraphs": [
+        "Evidence can become stale when an offer page, program term, or feature description changes. Set review triggers for material claims, such as a reader report, a known terms update, or a scheduled editorial review. Record what changed and which parts of the page depend on it. An update should correct the affected claim rather than silently leave contradictory statements in separate sections.",
+        "When evidence cannot be refreshed, reduce the claim’s scope or remove it. Maintain a clear distinction between an outdated statement and a current verified one. If a page depends on an affiliate relationship, keep a process for checking that links and offer destinations still support the surrounding description. Accuracy is an ongoing editorial task, not a one-time pre-publication box."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an official affiliate page enough evidence for a comparison claim?",
+      "answer": "It can support a carefully scoped statement about what the provider currently says, but it does not independently prove a result or guarantee availability in every circumstance. Record the source and its limits."
+    },
+    {
+      "question": "Can I include a claim if I cannot verify it independently?",
+      "answer": "Sometimes you can report it as a provider statement if the source is clear and the wording is accurate. If the claim is ambiguous, consequential, or impossible to scope, omit it or seek clarification rather than presenting it as fact."
+    },
+    {
+      "question": "How should an editor handle uncertain terms?",
+      "answer": "Mark the uncertainty in the evidence ledger, narrow the wording, and state what remains unknown when it matters to the reader’s decision. Do not fill missing information with assumptions."
+    },
+    {
+      "question": "Does an affiliate disclosure validate the claims on a page?",
+      "answer": "No. Disclosure explains the commercial relationship. Each material factual claim still needs appropriate evidence, and the wording should accurately represent what that evidence establishes."
+    }
+  ],
+  "publishedAt": "2026-10-26",
+  "updatedAt": "2026-10-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T23:00:27.253Z",
+  "generatedAt": "2026-10-26T00:07:38.818Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-age-check-data-minimization-audit.json",
-    "ops/editorial/content-artifacts/adult-games-demo-scope-and-full-release-comparison.json",
-    "ops/editorial/content-artifacts/adult-shop-materials-disclosure-comparison.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-storefront-payment-authority-map.json",
-    "ops/editorial/content-artifacts/adult-anime-edition-label-verification.json"
+    "ops/editorial/content-artifacts/dating-in-app-contact-exchange-boundaries.json",
+    "ops/editorial/content-artifacts/adult-subscription-billing-descriptor-check.json",
+    "ops/editorial/content-artifacts/affiliate-offer-claims-evidence-file.json",
+    "ops/editorial/content-artifacts/premium-video-caption-availability-comparison.json",
+    "ops/editorial/content-artifacts/live-cam-free-public-access-scope-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-age-check-data-minimization-audit.js",
-    "src/data/guides/adult-games-demo-scope-and-full-release-comparison.js",
-    "src/data/guides/adult-shop-materials-disclosure-comparison.js",
-    "src/data/guides/vr-adult-platform-storefront-payment-authority-map.js",
-    "src/data/guides/adult-anime-edition-label-verification.js"
+    "src/data/guides/dating-in-app-contact-exchange-boundaries.js",
+    "src/data/guides/adult-subscription-billing-descriptor-check.js",
+    "src/data/guides/affiliate-offer-claims-evidence-file.js",
+    "src/data/guides/premium-video-caption-availability-comparison.js",
+    "src/data/guides/live-cam-free-public-access-scope-check.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar",
-    "hentai-anime"
+    "dating-hookups",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "premium-videos",
+    "live-cams"
   ],
   "backlogIds": [
-    "free-video-age-check-data-minimization-audit",
-    "adult-games-demo-scope-and-full-release-comparison",
-    "adult-shop-materials-disclosure-comparison",
-    "vr-adult-platform-storefront-payment-authority-map",
-    "adult-anime-edition-label-verification"
+    "dating-in-app-contact-exchange-boundaries",
+    "adult-subscription-billing-descriptor-check",
+    "affiliate-offer-claims-evidence-file",
+    "premium-video-caption-availability-comparison",
+    "live-cam-free-public-access-scope-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40242618795",
-  "phase": "closed"
+  "r1CycleId": "40247661585"
 }
