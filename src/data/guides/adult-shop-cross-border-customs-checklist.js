@@ -1,0 +1,117 @@
+export default {
+  "slug": "adult-shop-cross-border-customs-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Ordering from an Adult Shop Across Borders: Check Customs and Delivery Rules",
+  "description": "Before placing an international adult-shop order, check destination rules, possible import steps, delivery responsibility, and what happens if a parcel is held.",
+  "excerpt": "An order that can be placed online is not necessarily straightforward to receive across a border. Use this checklist to clarify destination rules, customs processes, and next steps before checkout.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Confirm that the item and its destination are permitted under applicable rules before ordering.",
+    "Distinguish the retailer’s shipping information from decisions made by carriers or customs authorities.",
+    "Check who is responsible for any required import paperwork, charges, or parcel follow-up.",
+    "Understand the retailer’s response if a shipment is delayed, returned, or refused at the border.",
+    "Save the listing, order terms, and support answers that informed your decision."
+  ],
+  "sections": [
+    {
+      "heading": "Check the destination before checking out",
+      "paragraphs": [
+        "International ordering adds a layer of rules that a domestic delivery does not. Requirements can depend on the destination, the product category, the carrier, and the route used. Do not infer that an item is permitted merely because a retailer displays it or accepts an order. Confirm the relevant import and delivery rules for your destination using appropriate official sources where available.",
+        "Be precise about what you are checking. A general page about importing goods may not address the specific product, while a retailer’s shipping page may only describe the locations it is willing to serve. If the item’s description is unclear, ask the retailer what product details it can provide for checking. Avoid placing an order until you understand whether the parcel can lawfully reach you and what steps may be required."
+      ],
+      "bullets": [
+        "Confirm the destination country and, where relevant, the delivery region.",
+        "Check whether the product category has import or delivery restrictions.",
+        "Verify that the retailer serves the destination and the selected shipping method.",
+        "Use current official guidance for destination-specific rules."
+      ]
+    },
+    {
+      "heading": "Separate retailer promises from border processes",
+      "paragraphs": [
+        "A retailer may describe dispatch or shipping procedures, but that does not mean it controls customs review, carrier handling, or the timing of a border decision. Read shipping terms for the exact responsibility they assign. Look for what the retailer says about documentation, tracking, and support if a parcel is delayed while under review.",
+        "Do not treat an estimated arrival window as confirmation that customs processing will be completed within that period. Transit, inspection, requests for information, and local delivery can involve separate steps. A useful comparison records the retailer’s stated dispatch process separately from the carrier’s tracking process and any official import requirements."
+      ],
+      "table": {
+        "caption": "Separate the parties and responsibilities before placing an order",
+        "headers": [
+          "Party",
+          "Questions to clarify"
+        ],
+        "rows": [
+          [
+            "Retailer",
+            "What shipping methods and documentation are described? Who should be contacted about an order issue?"
+          ],
+          [
+            "Carrier",
+            "How are tracking updates and delivery exceptions shown? Is recipient action requested?"
+          ],
+          [
+            "Customs or relevant authority",
+            "What destination rules and procedures apply to the item?"
+          ],
+          [
+            "Recipient",
+            "What information, documents, or follow-up may be needed to receive the parcel?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find out who handles paperwork and charges",
+      "paragraphs": [
+        "An international order may involve paperwork or charges beyond the amount shown at checkout. The applicable details vary, so do not assume that a retailer’s checkout total includes every possible import cost or recipient obligation. Look for explicit terms about how duties, taxes, and processing charges are handled, and whether those terms differ by destination or shipping method.",
+        "Clarify the administrative path as well as the potential cost. Does the retailer provide documents needed for shipment? Will the carrier contact you if information is required? Is the recipient expected to respond by a deadline? If the retailer cannot explain the process, ask the carrier or consult official destination guidance before ordering. Keep the answers together so you can respond consistently if a request arrives."
+      ]
+    },
+    {
+      "heading": "Plan for a held, delayed, or returned parcel",
+      "paragraphs": [
+        "A border delay is not the same as a lost parcel, and the remedy may depend on why the shipment stopped. Read the retailer’s terms for how it handles parcels awaiting recipient action, returned to sender, or refused by an authority. Check whether you must contact the carrier first, what evidence the retailer requires, and whether there are stated time limits for reporting a problem.",
+        "Avoid assuming that a parcel will automatically be resent or refunded if it cannot be delivered. Ask which party decides the next step and whether the order’s status affects available remedies. If the retailer’s policy does not address the situation, record that uncertainty before paying. A written support answer can help clarify the process, but it cannot replace applicable law or an authority’s decision."
+      ]
+    },
+    {
+      "heading": "Compare shipping choices by clarity, not just speed",
+      "paragraphs": [
+        "When comparing shipping methods, consider how each one explains tracking, delivery exceptions, and recipient actions. A method described as faster is not necessarily easier to resolve if a parcel needs attention. Check whether tracking covers the journey across borders or only part of it, and whether the carrier’s terms say how updates are provided when a shipment is held.",
+        "Also check whether a change in shipping method changes the party responsible for delivery or the information you must provide. If the retailer offers multiple carriers, do not assume their customs procedures or communication channels are identical. Compare documented details, and ask a focused question when the page uses vague terms such as “international shipping” without explaining the relevant steps."
+      ]
+    },
+    {
+      "heading": "Make a pre-order record",
+      "paragraphs": [
+        "Before checkout, keep a concise record of the product description, destination, shipping method, and relevant retailer policy. Save the order confirmation and any written response about customs, paperwork, or returns. These details help you compare what was disclosed with what occurs later, without relying on memory or a page that may have changed.",
+        "If a required import cost, recipient responsibility, or remedy remains unclear, pause the order. The aim is not to predict what a particular authority will decide; it is to understand the process well enough to make an informed choice. If the parcel is delayed, use the carrier’s formal tracking and support route, follow any official request, and contact the retailer with the order details and a clear description of the issue."
+      ],
+      "bullets": [
+        "Destination and product category checked against current guidance.",
+        "Retailer shipping terms saved for the selected method.",
+        "Responsibilities for paperwork and possible charges understood.",
+        "Process for a held, returned, or refused parcel identified.",
+        "Support contacts and order records kept in one place."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a retailer accepting an international order mean the product can be imported?",
+      "answer": "Not necessarily. A retailer’s checkout process is not a determination by the destination’s authorities. Check current rules for the specific destination and product category before ordering."
+    },
+    {
+      "question": "Are possible import charges always included in the checkout total?",
+      "answer": "Do not assume so. Look for clear terms describing how duties, taxes, or carrier processing charges are handled for your destination and shipping method. If the terms are unclear, ask before paying."
+    },
+    {
+      "question": "Who should I contact if customs or a carrier holds a parcel?",
+      "answer": "Follow the instructions shown by the carrier or relevant authority, and contact the retailer using its order-support process as appropriate. The terms should explain which party handles each kind of issue; do not assume one party can resolve every hold."
+    },
+    {
+      "question": "What should I save before placing an international order?",
+      "answer": "Keep the product listing, shipping and return terms, selected delivery method, order confirmation, and any written clarification about paperwork or import responsibilities. These records make later support conversations more precise."
+    }
+  ]
+};

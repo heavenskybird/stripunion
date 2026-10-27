@@ -1,0 +1,120 @@
+export default {
+  "slug": "adult-games-accessibility-controls-prepurchase-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Accessibility and Control Options Before You Buy",
+  "description": "A practical checklist for evaluating adult game accessibility, control remapping, text presentation, and feature details before purchasing.",
+  "excerpt": "Accessibility information can be scattered across a store listing, settings menu, and community documentation. Use this checklist to verify which controls and presentation options are actually available before committing.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Look for concrete descriptions of settings rather than broad accessibility claims.",
+    "Check whether control remapping applies to every required action, not just common inputs.",
+    "Use screenshots, demonstrations, or documentation to verify text size and readability.",
+    "Distinguish settings available at launch from planned or community-created workarounds.",
+    "Record unanswered questions and seek written clarification before purchase when a feature is essential."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the needs that affect whether you can play",
+      "paragraphs": [
+        "Accessibility is not a single feature. A game may offer adjustable text while keeping its menus difficult to navigate, or provide multiple control options while requiring one action that cannot be remapped. Before comparing storefront listings, write down the conditions that matter for your use: readable text, a particular input method, adjustable timing, clear menus, or the ability to pause and resume easily.",
+        "Separate essential needs from preferences. An essential need is a condition without which you cannot comfortably use the game. A preference improves convenience but may not determine whether the game is usable. This distinction helps avoid being swayed by an impressive feature list that does not answer the question you actually need answered."
+      ],
+      "bullets": [
+        "List the inputs you can use comfortably and any you need to avoid.",
+        "Note whether text size, contrast, timing, or pause controls are essential.",
+        "Write down the operating system and input device you expect to use."
+      ]
+    },
+    {
+      "heading": "Translate broad claims into verifiable details",
+      "paragraphs": [
+        "A phrase such as “accessibility options” does not tell you which settings exist, where they apply, or whether they can be changed during play. Look for named controls and specific descriptions. Useful evidence might identify a text-size setting, a remapping menu, adjustable timing, or a documented alternative input method. If a listing only uses general language, treat the details as unconfirmed rather than assuming the game meets a particular need.",
+        "Check whether evidence is current and tied to the version you would use. Store pages, developer notes, manuals, and update records may describe different releases. A screenshot can show that a control existed at one point, but it may not establish that the setting is still present or works across all menus. Keep the evidence source and its date in your notes."
+      ],
+      "table": {
+        "caption": "A simple way to classify accessibility evidence",
+        "headers": [
+          "Evidence type",
+          "What it can help confirm",
+          "What remains uncertain"
+        ],
+        "rows": [
+          [
+            "Specific store description",
+            "Which options the publisher says are included",
+            "How well an option works in practice"
+          ],
+          [
+            "Current settings screenshot",
+            "Whether a named setting appears in the interface",
+            "Whether it applies throughout the game"
+          ],
+          [
+            "Manual or help page",
+            "How to find or use a documented control",
+            "Whether the instructions match the current release"
+          ],
+          [
+            "Written support response",
+            "A clarification about a particular feature",
+            "Whether future updates will change it"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check remapping beyond the obvious buttons",
+      "paragraphs": [
+        "Control remapping is useful only if it covers the actions that create a barrier. Check whether the game allows you to change movement, confirmation, back or cancel, menu navigation, and any actions that must be repeated. Some interfaces let players swap a few prominent inputs but leave menus or required combinations unchanged. A feature name alone does not settle that distinction.",
+        "Consider the full input path from launch to ordinary use. Can you navigate the title screen with the chosen method? Are there required simultaneous presses, rapid sequences, or prompts that expect a specific button? If documentation does not say, look for a control diagram or an unedited interface demonstration. Do not assume that a community modification or external tool is officially supported."
+      ]
+    },
+    {
+      "heading": "Evaluate text, menus, and pacing as separate questions",
+      "paragraphs": [
+        "Text presentation deserves its own check. Look for adjustable size, contrast options, line spacing, and whether important instructions remain visible long enough to read. A sample image may show the default presentation, but it cannot establish that the text can be enlarged or that every screen follows the same layout. If you rely on a particular setting, seek evidence of that setting rather than extrapolating from one screenshot.",
+        "Menus and pacing also affect usability. Check whether menus explain their controls, whether navigation can be reversed without losing progress, and whether time-sensitive prompts can be paused or adjusted. A game may provide a pause option during some sections but not others. Make a short list of the exact moments or interface areas that matter to you and verify each one separately."
+      ]
+    },
+    {
+      "heading": "Use demonstrations and community notes carefully",
+      "paragraphs": [
+        "A demonstration can reveal navigation steps, visual presentation, and the number of inputs needed to reach a setting. Prefer material that shows the relevant menu or control in context. A short promotional clip may be edited to omit setup and menus, so it is weaker evidence for accessibility than a clear, continuous walkthrough of the feature you are checking.",
+        "Community discussions can point to questions that official documentation overlooks, but they are not guarantees. Posts may refer to a different version, platform, or input device. Treat them as leads: verify dates, compare the described setup with your own, and look for corroboration. If a community-created workaround is necessary, consider whether you are comfortable maintaining it after game or operating-system updates."
+      ]
+    },
+    {
+      "heading": "Keep a decision record before purchasing",
+      "paragraphs": [
+        "A short evidence record makes comparisons easier and reduces the risk of confusing assumptions with confirmed features. For each candidate, note the relevant requirement, the evidence found, the version or date if available, and whether the answer is confirmed, unclear, or unavailable. This does not require a complicated scoring model. It is a compact way to spot a deal-breaker before purchase.",
+        "If an essential requirement remains unanswered, pause rather than filling the gap with an optimistic guess. Ask a focused question that names the setting and the context in which you need it. If you cannot obtain a clear answer, decide whether the uncertainty is acceptable under the storefront’s stated purchase terms. Save the listing and any support response so you can refer back to the information you used."
+      ],
+      "bullets": [
+        "Requirement: name the exact setting or input condition.",
+        "Evidence: record the source and the relevant detail.",
+        "Status: mark confirmed, unclear, or not offered.",
+        "Decision: identify essential barriers before comparing preferences."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a general accessibility label prove a game will work for me?",
+      "answer": "No. It is a prompt to investigate, not a complete specification. Check which options are included, where they apply, and whether the evidence describes the version and device you plan to use."
+    },
+    {
+      "question": "What is the most useful evidence for checking control remapping?",
+      "answer": "Look for current documentation or a clear view of the remapping menu, then verify that the actions you need to change are included. If an essential action is not listed, ask for clarification rather than assuming all inputs can be changed."
+    },
+    {
+      "question": "Can a community workaround count as an accessibility feature?",
+      "answer": "It may help some players, but it is different from a built-in or officially documented option. Check how it is maintained, whether it applies to your setup, and whether you are willing to rely on it if updates affect it."
+    },
+    {
+      "question": "What should I do when accessibility details are missing?",
+      "answer": "Identify the specific question that affects your decision and seek a direct answer from the publisher or storefront documentation. If the answer remains unclear, treat the feature as unverified and decide whether that uncertainty is acceptable."
+    }
+  ]
+};

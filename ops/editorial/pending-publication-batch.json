@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T14:10:20.322Z",
+  "generatedAt": "2026-10-27T15:05:32.415Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/affiliate-program-policy-source-conflict-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-transaction-history-records-check.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-pause-access-restart-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-managed-work-device-privacy-check.json",
-    "ops/editorial/content-artifacts/free-video-tv-casting-account-privacy-check.json"
+    "ops/editorial/content-artifacts/adult-games-accessibility-controls-prepurchase-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-cross-border-customs-checklist.json",
+    "ops/editorial/content-artifacts/adult-anime-account-free-browsing-access-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-refund-eligibility-preflight.json",
+    "ops/editorial/content-artifacts/premium-video-series-watch-order-completeness-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/affiliate-program-policy-source-conflict-workflow.js",
-    "src/data/guides/live-cam-platform-transaction-history-records-check.js",
-    "src/data/guides/premium-video-subscription-pause-access-restart-audit.js",
-    "src/data/guides/adult-platform-managed-work-device-privacy-check.js",
-    "src/data/guides/free-video-tv-casting-account-privacy-check.js"
+    "src/data/guides/adult-games-accessibility-controls-prepurchase-audit.js",
+    "src/data/guides/adult-shop-cross-border-customs-checklist.js",
+    "src/data/guides/adult-anime-account-free-browsing-access-audit.js",
+    "src/data/guides/vr-adult-platform-refund-eligibility-preflight.js",
+    "src/data/guides/premium-video-series-watch-order-completeness-audit.js"
   ],
   "categories": [
-    "webmaster-affiliate",
-    "live-cams",
-    "premium-videos",
-    "privacy-safety-payment",
-    "free-videos"
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "vr-ar",
+    "premium-videos"
   ],
   "backlogIds": [
-    "affiliate-program-policy-source-conflict-workflow",
-    "live-cam-platform-transaction-history-records-check",
-    "premium-video-subscription-pause-access-restart-audit",
-    "adult-platform-managed-work-device-privacy-check",
-    "free-video-tv-casting-account-privacy-check"
+    "adult-games-accessibility-controls-prepurchase-audit",
+    "adult-shop-cross-border-customs-checklist",
+    "adult-anime-account-free-browsing-access-audit",
+    "vr-adult-platform-refund-eligibility-preflight",
+    "premium-video-series-watch-order-completeness-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40517927894",
-  "phase": "closed"
+  "r1CycleId": "40527076875"
 }
