@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-platform-security-incident-response-planning",
+  "slug": "adult-platform-security-incident-response-planning",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Account Exposure: Prepare a Practical Security Response Plan",
+  "description": "Build a calm response checklist for suspected adult-platform account exposure, including account access, connected email, payment review, and recordkeeping.",
+  "excerpt": "If an account may be exposed, quick, organized steps can help you regain control and understand what needs attention. Prepare a response plan before an incident so you know which accounts, records, and settings to review.",
+  "keyTakeaways": [
+    "Treat account access, recovery email, payment records, and device sessions as related but distinct parts of an incident.",
+    "Use a trusted route to reach the service rather than links in unexpected messages.",
+    "Secure the email account and any reused credentials that could enable further access.",
+    "Keep a concise record of what happened and the actions you took.",
+    "Avoid assuming that deleting an account will undo prior access or settle every payment question."
+  ],
+  "sections": [
+    {
+      "heading": "Prepare a short incident checklist in advance",
+      "paragraphs": [
+        "A suspected exposure can mean different things: an unfamiliar sign-in, a password-reset message you did not request, an account detail changed without your approval, or a device that is no longer under your control. Prepare a simple checklist while things are calm. Include the platform's official sign-in route, its support contact path, the email account used for recovery, and the places where you can review payment activity. Do not store passwords in the checklist.",
+        "Keep the plan somewhere you can access safely, but not in a location that is visible to other users of a shared device. It should tell you what to do first, what evidence to note, and which accounts may depend on the affected email or password. Avoid including unnecessary sensitive details. A small, current plan is more useful than a long document that contains secrets or instructions you cannot follow under pressure."
+      ],
+      "bullets": [
+        "Write down the official service address by navigating to it independently, not through an unsolicited message.",
+        "List which email account handles password resets and which payment account may need review.",
+        "Decide where to keep incident notes without exposing them to other device users."
+      ]
+    },
+    {
+      "heading": "Confirm the alert through a trusted route",
+      "paragraphs": [
+        "Do not click a link in an unexpected warning to investigate a possible compromise. Messages about account access can be imitated. Open the service through a saved bookmark or type its known address yourself, then review account activity and security settings if available. If you cannot sign in, use the recovery flow reached from that route. Contact support using a channel listed in the service's own materials, and do not provide a password or one-time code to someone who contacts you unexpectedly.",
+        "Record what triggered your concern: the date and time, the wording of an alert, any unfamiliar activity, and whether you recognize the device or location description. Keep only information that is useful to explain the issue. If you have an image of a warning, avoid sharing it publicly if it contains account identifiers or recovery details. A documented timeline can help you distinguish a suspicious event from a delayed notification or a routine security check."
+      ]
+    },
+    {
+      "heading": "Secure the account and its recovery path",
+      "paragraphs": [
+        "If you can access the account through the trusted route, change its password to a new, unique one and review available sign-in methods, recovery details, and active sessions. End sessions you do not recognize where the service provides that control. If the same password was used elsewhere, change it on those accounts too, starting with the email account that can reset other passwords. Reusing an exposed password can turn one incident into several.",
+        "Check the recovery email for forwarding rules or unfamiliar changes, and secure it with its own unique password and available security protections. If you cannot access the platform account, use the official recovery process and tell support what you observed. Do not create a second account to work around a locked account unless the service directs you to do so; doing so can complicate identity checks or support. Record the steps and their completion times."
+      ],
+      "table": {
+        "caption": "Organize the response by account layer",
+        "headers": [
+          "Layer",
+          "What to review"
+        ],
+        "rows": [
+          [
+            "Platform account",
+            "Password, recovery details, active sessions, profile changes, and support instructions"
+          ],
+          [
+            "Recovery email",
+            "Sign-ins, password, forwarding rules, recovery options, and unexpected reset messages"
+          ],
+          [
+            "Payment account",
+            "Transactions, alerts, payment method controls, and the appropriate issuer contact route"
+          ],
+          [
+            "Devices",
+            "Screen lock, account sign-ins, saved credentials, and whether someone else has access"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review payment activity without making assumptions",
+      "paragraphs": [
+        "An account-access concern does not automatically mean a payment was made, and a payment question does not by itself prove account access. Check the relevant statement or payment account for activity you do not recognize. Compare dates and amounts with your own records, but do not post statements or transaction identifiers in public forums. If you see a transaction you believe is unauthorized, contact the payment provider through its established channel and follow its instructions.",
+        "If a platform account has a stored payment method, review available payment controls after securing access. The right next step depends on what you find and on the terms of the payment provider and service. Keep confirmation numbers and support correspondence in a secure record. Do not assume that closing the platform account cancels a payment arrangement managed elsewhere; verify the controlling account or billing route before taking action."
+      ],
+      "bullets": [
+        "Separate confirmed activity from alerts or suspicions that have not been verified.",
+        "Use the payment provider's own process for a transaction you do not recognize.",
+        "Keep relevant receipts and support records, but avoid saving unnecessary copies in shared locations."
+      ]
+    },
+    {
+      "heading": "Document actions and limit further exposure",
+      "paragraphs": [
+        "Maintain a compact incident log with the first observed warning, the account or device involved, steps taken, and any support reference numbers. Note which passwords or recovery details were changed without recording the actual secrets. This log can prevent repeated work and make it easier to explain the timeline to support. Keep it factual: distinguish what you saw from what you suspect, and update it when new information arrives.",
+        "After access is stabilized, review device privacy and account notifications. Sign out of devices you no longer control, remove saved credentials where appropriate, and check whether message previews or account alerts appear on shared screens. These steps reduce incidental exposure but cannot determine what happened before the review. If the risk involves threats, coercion, or immediate danger, prioritize personal safety and seek appropriate help rather than treating the issue as a routine password problem."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do first if I see a sign-in I do not recognize?",
+      "answer": "Reach the service through a trusted route, secure the account if you still have access, review sessions and recovery details, and secure the email account used for resets. Record the alert and contact the service through its listed support channel if needed."
+    },
+    {
+      "question": "Should I delete the account immediately?",
+      "answer": "Not automatically. First consider whether you need to secure access, report activity, review billing, or preserve a useful record. Account closure may not address every one of those tasks. Follow the service's documented steps and verify separate payment arrangements."
+    },
+    {
+      "question": "What information should I avoid sharing with support?",
+      "answer": "Never share your password or a one-time sign-in code in response to an unexpected request. Provide only the information the official support process requests, and use the service's own channel rather than an unverified contact."
+    },
+    {
+      "question": "Does changing a password prove the account is secure?",
+      "answer": "No single action proves that. Also review recovery details, active sessions, connected email security, reused passwords, and payment activity. The exact controls differ by service, so use its current instructions and keep a record of what you checked."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,111 @@
+export default {
+  "slug": "webmaster-affiliate-program-inactivity-account-policy-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Inactivity Rules Before Leaving an Account Idle",
+  "description": "Review affiliate program dormancy terms, account status, reporting access, and reactivation steps before pausing campaigns or leaving a program unused.",
+  "excerpt": "A quiet campaign does not always mean an account can be ignored indefinitely. Check how a program defines inactivity, what may change during dormancy, and how to preserve records before pausing.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Find the program's definition of inactivity rather than assuming it means no clicks or no conversions.",
+    "Check whether dormancy can affect access, links, commissions, or account status.",
+    "Document outstanding balances and export permitted reports before access changes.",
+    "Ask for the reactivation process before you need to restart a campaign.",
+    "Remove or update stale links when you stop promoting an offer."
+  ],
+  "sections": [
+    {
+      "heading": "Find the rule and identify what activity counts",
+      "paragraphs": [
+        "Affiliate programs may define dormancy in their own terms, and the relevant event may not be obvious from a dashboard. A rule could refer to account sign-in, promotional activity, tracked traffic, credited conversions, or another condition. Do not assume that a link still being present on your website counts as active participation. Locate the current agreement, help documentation, or account notice and identify the exact definition and any stated review period.",
+        "Record where you found the rule and when you checked it. If the language is unclear, ask the program contact to explain which event keeps the account active and whether any warning is provided before a status change. Keep the question specific and retain the answer with your program records. This prevents an operational pause from turning into an avoidable dispute about what the contract meant."
+      ],
+      "bullets": [
+        "Search current terms and account notices for inactivity, dormant, suspended, closed, and reactivation.",
+        "Distinguish account sign-in from traffic generation and conversion activity.",
+        "Note any stated notice period and the communication channel used for warnings."
+      ]
+    },
+    {
+      "heading": "Map the possible effects of a dormant status",
+      "paragraphs": [
+        "An inactivity rule can matter beyond whether you can log in. Verify whether a dormant status may affect tracking links, access to reports, pending commissions, referral relationships, or the ability to restart promotion. These are separate questions: an account might remain accessible while a particular offer or link changes, or a report might be available only for a limited period. Do not assume a consequence unless the terms or program support confirms it.",
+        "Pay special attention to unresolved activity around the date you plan to pause. Check how the program treats pending or unfinalized conversions, and whether any deadlines apply to inquiries or record access. This article does not predict a program's outcome; it provides a map of issues to verify in its own terms. If a term could materially affect your business, get clarification before letting the account sit unused."
+      ],
+      "table": {
+        "caption": "Dormancy questions to resolve before pausing",
+        "headers": [
+          "Area",
+          "Question for the current program terms"
+        ],
+        "rows": [
+          [
+            "Account status",
+            "What event defines inactivity, and can the account be suspended or closed?"
+          ],
+          [
+            "Links and offers",
+            "Do existing links remain valid, or can destinations and tracking be changed?"
+          ],
+          [
+            "Unsettled activity",
+            "How are pending conversions or unresolved commission questions handled?"
+          ],
+          [
+            "Reports",
+            "How long can historical reports be accessed or exported?"
+          ],
+          [
+            "Restart",
+            "Is reactivation available, and does it require a new application or review?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve operational records before a pause",
+      "paragraphs": [
+        "Before reducing activity, make a permitted export of reports and statements you may need for reconciliation. Save the program's terms, relevant notices, and your own records of active placements. Follow any confidentiality, data-handling, or retention rules that apply; do not collect personal information that is unnecessary for your accounting. Use consistent filenames or a simple index so you can find records if account access later changes.",
+        "Record the status of outstanding questions and any pending account actions. If you need to contact support, use the official account route and save the response. Avoid treating a dashboard total as a final statement if the program's process distinguishes pending from finalized activity. The aim is to preserve an accurate operational picture, not to assume that every displayed figure is payable or permanent."
+      ]
+    },
+    {
+      "heading": "Handle links and site content responsibly",
+      "paragraphs": [
+        "A paused account may leave old promotional links on pages that still receive visitors. Review those placements and decide whether to remove them, replace them with a non-commercial destination, or keep them only if the program permits continued use. Check the current destination and the visitor expectation before leaving a link live. A link that no longer works or points somewhere unexpected can undermine trust even when the affiliate account itself remains open.",
+        "Keep a record of pages and placements changed during the pause. If you manage many properties, use a short inventory of the page, link location, and action taken rather than relying on memory. Do not make claims that an offer is available when you have not verified it. If a program requires prompt removal of materials after termination or suspension, follow its current instruction and retain evidence of the update."
+      ],
+      "bullets": [
+        "Inventory placements that remain publicly accessible.",
+        "Check program instructions before leaving links active during dormancy.",
+        "Confirm that replacement copy does not imply a current offer or relationship that has ended."
+      ]
+    },
+    {
+      "heading": "Plan a controlled return to promotion",
+      "paragraphs": [
+        "Before restarting, confirm that the account is active, the terms remain current, the offer is still available to your audience, and the tracking links still resolve as expected. Do not rely on old campaign settings or remembered permissions. If the program requires reapproval, complete that process before publishing. Recheck disclosure language and any traffic restrictions that apply to the placements you plan to restore.",
+        "If you decide not to return, follow the program's exit process and keep records of relevant communications and unresolved items. In either case, update your internal program inventory with the last review date, account status, and next action. A modest routine review can prevent an inactive account from being mistaken for a live, approved campaign. These checks support continuity without suggesting that any program guarantees access, commission treatment, or reactivation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a quiet affiliate account automatically become inactive?",
+      "answer": "Not necessarily. Each program may define inactivity differently, and it may consider sign-ins, traffic, conversions, or other events. Check the current terms and ask the program when the definition is unclear."
+    },
+    {
+      "question": "Should I leave old affiliate links on my site during a pause?",
+      "answer": "Check the program's current rules and verify that the destination still matches what the page tells visitors. If the relationship or offer is no longer current, update or remove the placement as appropriate and keep a record."
+    },
+    {
+      "question": "What should I export before an account becomes dormant?",
+      "answer": "Where permitted, preserve relevant reports, statements, notices, terms, and your placement inventory. Follow the program's data and confidentiality rules, and do not retain unnecessary personal information."
+    },
+    {
+      "question": "Can I assume reactivation will restore the same terms?",
+      "answer": "No. Ask whether reactivation requires review and confirm the current terms, approved properties, offers, and tracking links before promoting again."
+    }
+  ]
+};

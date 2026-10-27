@@ -1,0 +1,118 @@
+{
+  "backlogId": "creator-platform-promotion-renewal-transition-audit",
+  "slug": "creator-platform-promotion-renewal-transition-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Promotion Terms Before Offering a Subscription Discount",
+  "description": "A creator checklist for reviewing subscription promotions, eligibility, renewal transitions, and fan-facing explanations before publishing an offer.",
+  "excerpt": "A promotion can attract attention but create confusion if eligibility, access, or the later renewal is unclear. Map the complete offer and its transition before publishing it to fans.",
+  "keyTakeaways": [
+    "Describe the full path from promotional eligibility through the next billing or access event.",
+    "Confirm who qualifies, when the offer starts and ends, and whether it applies to new or existing subscribers.",
+    "Separate promotional price language from the platform's renewal and cancellation terms.",
+    "Check how the offer interacts with tiers, archived posts, and other active promotions.",
+    "Keep a dated copy of the offer text and the platform terms that governed it."
+  ],
+  "sections": [
+    {
+      "heading": "Define the offer as a complete journey",
+      "paragraphs": [
+        "A discount is not a complete offer description by itself. Before publishing, map what a fan sees from the first promotional message to the end of the promotional period and the next decision point. Establish whether the offer changes a subscription charge, access period, or another benefit; whether it applies automatically or requires a code; and what happens when the promotion ends. Use the platform's current terms rather than assuming that a familiar promotional format works the same way everywhere.",
+        "Write down the terms in plain language before composing marketing copy. Identify the eligible audience, dates or trigger conditions, included tier, and any exclusions. If any important term is controlled by the platform and cannot be changed, explain it accurately instead of implying a different arrangement. The goal is to let a potential subscriber understand the offer without having to infer what happens after the headline discount."
+      ],
+      "bullets": [
+        "State the eligible audience and the action needed to claim the offer.",
+        "Identify the start, end, and transition point using the platform's stated timing.",
+        "Separate benefits included in the promotion from benefits available only in another tier."
+      ]
+    },
+    {
+      "heading": "Check eligibility and interactions with other offers",
+      "paragraphs": [
+        "A promotion may be limited to a defined group, a particular subscription state, or a specific period. Verify whether existing subscribers can use it, whether a returning subscriber is treated as new, and whether multiple offers can be combined. Do not rely on a test account or an old campaign to establish the current rules. If the platform's terms are ambiguous, seek clarification before announcing eligibility in public.",
+        "Consider how the offer behaves alongside tier changes, gifts, complimentary access, or other promotions you may run. Overlapping offers can create different expectations for people who arrive through different routes. Keep a simple internal record of the audience segment and offer version so you can answer questions consistently. Avoid making promises about platform behavior that you cannot verify from its current documentation or account tools."
+      ],
+      "table": {
+        "caption": "Promotion preflight: verify each point before publication",
+        "headers": [
+          "Decision point",
+          "Evidence to confirm"
+        ],
+        "rows": [
+          [
+            "Eligibility",
+            "Current platform rules for new, returning, or existing subscribers"
+          ],
+          [
+            "Offer scope",
+            "Which tier, access period, or benefit the promotion actually changes"
+          ],
+          [
+            "Combination rules",
+            "Whether the offer can be combined with other discounts or account states"
+          ],
+          [
+            "After the promotion",
+            "The next renewal, access, or cancellation decision described by the platform"
+          ],
+          [
+            "Offer end",
+            "How the platform handles expiration, redemption limits, or campaign closure"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make the renewal transition easy to understand",
+      "paragraphs": [
+        "The transition after a promotion deserves as much attention as the initial offer. Explain, using the platform's stated terms, whether a subscription continues automatically, what the next charge or access decision is, and where a subscriber can manage or cancel it. Do not bury a material renewal detail under promotional language. Where the platform controls the wording or presentation, review the actual checkout or offer flow available to you and describe only what it shows.",
+        "If the offer changes the first period but not later periods, make that distinction prominent. If the promotion grants a defined access period rather than changing a recurring charge, avoid calling it a discount on an ongoing subscription unless that is accurate. Keep language consistent across posts, profile descriptions, and direct messages. A subscriber should not encounter materially different explanations depending on where they discovered the offer."
+      ]
+    },
+    {
+      "heading": "Protect tier expectations and creator workload",
+      "paragraphs": [
+        "A promotion can bring in subscribers who expect the same benefits as other members of the tier. Before launch, confirm that the offer does not imply extra access, custom work, or personal interaction unless you have deliberately included and can deliver it. If a temporary campaign includes a distinct benefit, specify what it is, when it is delivered, and what happens if it cannot be provided. Keep the offer within the scope of the platform's rules and your actual capacity.",
+        "Estimate operational load without inventing conversion forecasts. Consider whether you can answer questions, maintain the promised posting schedule, and distinguish subscribers who joined under different terms if support requires it. A short campaign calendar can prevent overlapping messages or inconsistent expiry reminders. If you cannot track which offer a person saw, avoid promising individualized handling that depends on knowing that history."
+      ],
+      "bullets": [
+        "Match promotional copy to the tier's documented benefits.",
+        "Avoid implying guaranteed personal responses or custom benefits unless included and manageable.",
+        "Prepare a consistent answer for questions about eligibility, renewal, and cancellation."
+      ]
+    },
+    {
+      "heading": "Keep evidence and review the offer after launch",
+      "paragraphs": [
+        "Save a dated copy of the final promotional wording, the relevant platform terms, and the configuration or screen that shows the offer. Record when the campaign became active and when you stopped promoting it. This gives you a practical reference if a fan asks what they were shown or if the platform changes its presentation. Do not store more fan information than needed to administer the offer.",
+        "After launch, review the offer as a subscriber would: check whether the public message matches the available purchase flow and whether the transition is described consistently. If terms or interface behavior change, pause or revise the promotion rather than relying on an old screenshot. When ending a campaign, remove outdated copy from places you control and make sure any remaining description clearly states that the offer is no longer available."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I describe the renewal terms in every promotional post?",
+      "answer": "Include the material transition clearly wherever a subscriber makes a decision, and make sure promotional posts do not contradict the platform's checkout explanation. The exact display requirements and available controls vary, so review the current platform flow and applicable rules."
+    },
+    {
+      "question": "Can I assume an existing subscriber is eligible for a promotion?",
+      "answer": "No. Eligibility can depend on the platform's current rules and the subscriber's account state. Verify the terms before making a promise, and state any limits plainly."
+    },
+    {
+      "question": "What records should I keep for a campaign?",
+      "answer": "Keep a dated copy of the final offer, its eligibility and transition terms, relevant platform documentation, and when the campaign was active. Avoid keeping unnecessary personal information about subscribers."
+    },
+    {
+      "question": "What if the platform's promotion wording is unclear?",
+      "answer": "Do not fill gaps with assumptions. Ask the platform through its official support route or avoid making claims about the uncertain behavior. Publish only terms you can explain accurately."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
