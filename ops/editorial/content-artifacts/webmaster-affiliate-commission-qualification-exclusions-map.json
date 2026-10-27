@@ -1,0 +1,139 @@
+{
+  "backlogId": "webmaster-affiliate-commission-qualification-exclusions-map",
+  "slug": "webmaster-affiliate-commission-qualification-exclusions-map",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map Commission Qualification Rules and Exclusions",
+  "description": "A webmaster workflow for documenting which actions qualify for commission, which are excluded, and how program terms affect tracking and reconciliation.",
+  "excerpt": "A headline payout model cannot tell you which referrals ultimately qualify. Map qualifying actions, exclusions, and evidence requirements before building traffic around an affiliate program.",
+  "keyTakeaways": [
+    "Separate the event that is tracked from the event that is eligible for commission.",
+    "Document exclusions, reversals, and qualification conditions in the program’s own wording.",
+    "Check how attribution rules interact with eligibility instead of evaluating either in isolation.",
+    "Record where to find the terms and how updates are communicated.",
+    "Use test records and program support to clarify ambiguous definitions before scaling activity."
+  ],
+  "sections": [
+    {
+      "heading": "Build a qualification map from primary terms",
+      "paragraphs": [
+        "Start with the program agreement, offer terms, and any official help material that explains commission eligibility. Capture the exact language for the action that can earn commission and the conditions attached to it. A tracking dashboard may show clicks or conversions, but a displayed event is not necessarily a final eligible commission. Keep those concepts distinct in your notes.",
+        "Create one row for each offer or event you intend to promote. Record the qualifying action, any stated waiting or validation condition, the exclusions, and where the rule appears. If the program uses different rules for different products, regions, traffic types, or campaigns, do not collapse them into a single generic assumption. Mark missing definitions as questions to resolve rather than filling the gap with guesswork."
+      ],
+      "table": {
+        "caption": "Qualification map for comparing affiliate program terms",
+        "headers": [
+          "Rule area",
+          "Question to answer",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Tracked event",
+            "What action appears in reporting?",
+            "Official event definition and report field"
+          ],
+          [
+            "Commission eligibility",
+            "What conditions make that action payable?",
+            "Relevant offer or program wording"
+          ],
+          [
+            "Exclusions",
+            "What actions, traffic, or transactions are excluded?",
+            "Exact exclusion language and scope"
+          ],
+          [
+            "Adjustments",
+            "Can recorded events be reversed or revised, and on what stated basis?",
+            "Terms describing validation or adjustment"
+          ],
+          [
+            "Attribution",
+            "How is the referral credited when more than one source is involved?",
+            "Applicable attribution terms"
+          ],
+          [
+            "Changes",
+            "Where are revised conditions announced?",
+            "Notice location and date checked"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish tracking from qualification",
+      "paragraphs": [
+        "Tracking answers whether a system recorded an event. Qualification answers whether that event meets the program’s commission rules. A report may therefore be useful for diagnosing a link or campaign even when it does not represent a final earnings amount. Similarly, a conversion count should not be interpreted as a guaranteed number of payable transactions unless the program’s definitions explicitly support that interpretation.",
+        "When reading a dashboard, identify the status and meaning of each relevant field. If the report does not explain whether a value is pending, validated, adjusted, or otherwise provisional, consult official documentation or ask support. Avoid building forecasts from an event label whose meaning is unclear. For your own records, keep a dated copy of the documentation you relied on and note any unresolved interpretation."
+      ],
+      "bullets": [
+        "Write down the difference between reported events and final commission status.",
+        "Check whether the program defines pending, approved, rejected, or adjusted outcomes.",
+        "Ask for clarification when a dashboard field does not map clearly to a term."
+      ]
+    },
+    {
+      "heading": "Read exclusions as operational rules",
+      "paragraphs": [
+        "Exclusions can apply to traffic sources, visitor actions, transaction types, self-referrals, duplicate events, or other conditions specified by the program. The relevant set varies, so do not assume a familiar rule from one program applies to another. Read the wording in context and check whether it applies to the whole program, a particular offer, or a particular campaign.",
+        "Translate each exclusion into a practical control for your site. If a traffic source is not permitted, make sure your acquisition plan does not depend on it. If a transaction type is excluded, avoid presenting it as an expected commission source. If the terms allow commission reversals under defined conditions, document those conditions and decide how you will account for uncertainty. A careful map is more useful than a broad statement that an offer is simply eligible or ineligible."
+      ],
+      "bullets": [
+        "Connect each exclusion to the pages, campaigns, or traffic sources it could affect.",
+        "Mark uncertain wording for written clarification before launch.",
+        "Do not describe excluded or unverified actions as commission-generating."
+      ]
+    },
+    {
+      "heading": "Check how attribution and eligibility interact",
+      "paragraphs": [
+        "Attribution rules determine which referral receives credit; qualification rules determine whether a credited referral meets the program’s conditions. These are related but separate questions. A visitor may be attributed to a referral under the program’s model while the resulting action remains subject to validation or an exclusion. Conversely, an eligible action may not be credited to your referral if the applicable attribution conditions are not met.",
+        "For each program, record both rule sets in the same comparison document. Identify the source of attribution terms, the qualifying event, any stated validation, and how a conflict or overwritten referral is handled. If the terms use technical language, ask the program to explain the specific scenario you expect, such as a return visit or a competing referral. Keep the question factual and retain the response; do not generalize an answer beyond the scenario it addresses."
+      ],
+      "bullets": [
+        "Map attribution and eligibility as separate decision steps.",
+        "Check whether offer-specific terms override general program language.",
+        "Use concrete scenarios when asking support to interpret a rule."
+      ]
+    },
+    {
+      "heading": "Maintain the map as terms change",
+      "paragraphs": [
+        "Qualification rules can be updated, and an old comparison can become misleading. Note when you reviewed each source and where the program posts changes. When a notice arrives, compare the revised wording with your map and identify affected offers, traffic sources, pages, and reporting assumptions. A change may call for editing a disclosure, pausing a campaign, or simply updating internal records; decide based on the actual revised terms.",
+        "Keep records proportionate and useful: the relevant program text, date checked, unresolved questions, and any confirmation received. Do not rely solely on a dashboard screenshot or an informal message if the governing terms are available elsewhere. If the program does not explain an important condition, treat that as uncertainty in your operational assessment. Resolve it before committing substantial work or describing potential earnings to an audience."
+      ],
+      "bullets": [
+        "Add a review date and source link to each mapped rule.",
+        "Recheck relevant terms when a program notice or reporting change appears.",
+        "Pause affected promotion if you cannot establish whether it remains compliant."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a conversion shown in a dashboard necessarily commissionable?",
+      "answer": "Not necessarily. Reporting may show a tracked event before the program determines whether it meets eligibility conditions. Check the program’s event definitions, validation language, exclusions, and the meaning of each status field."
+    },
+    {
+      "question": "How should I handle a vague exclusion?",
+      "answer": "Record the exact wording and the campaign or action it might affect. Ask the program through an official channel for clarification about a specific scenario, and retain the response. Until clarified, avoid representing the uncertain activity as eligible."
+    },
+    {
+      "question": "Should attribution and commission eligibility be compared together?",
+      "answer": "Yes, but keep them as separate questions in your analysis. Attribution concerns referral credit; eligibility concerns whether the credited action meets the program’s commission rules. Both can affect how you interpret a reported event."
+    },
+    {
+      "question": "How often should I revisit a qualification map?",
+      "answer": "Review it when program terms, offer details, traffic sources, or reporting definitions change, and periodically before making new commitments. Record the date of each review so you can distinguish current terms from older notes."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
