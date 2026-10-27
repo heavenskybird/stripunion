@@ -1,0 +1,115 @@
+{
+  "backlogId": "adult-games-language-and-translation-scope-check",
+  "slug": "adult-games-language-and-translation-scope-check",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Language and Translation Scope Before Choosing a Storefront",
+  "description": "A practical way to check game language listings, translation coverage, interface support, and update notes before choosing an adult game.",
+  "excerpt": "A language label may describe menus, subtitles, or only part of a game. Use this checklist to work out what is actually supported and what remains uncertain.",
+  "keyTakeaways": [
+    "Check language support separately for the interface, subtitles, audio, and other text.",
+    "Use the game's own store listing and documentation as evidence, not assumptions based on a community label.",
+    "Look for language details in recent update notes as well as the initial listing.",
+    "Treat community translations as distinct from developer-supported languages.",
+    "Confirm that the language you need is available in the specific version and platform you intend to use."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining the language support you need",
+      "paragraphs": [
+        "Before comparing games, identify which parts of the experience need to be understandable to you. Some players mainly need readable menus and setup instructions; others also need subtitles, in-game text, accessibility information, or spoken-language support. A single label such as multilingual may not explain which of these areas is covered.",
+        "Write down your minimum requirement and any preferences separately. For example, a readable interface might be essential while subtitles are optional, or the reverse may be true. This makes it easier to compare store listings without treating every language-related feature as equally important."
+      ],
+      "bullets": [
+        "List the interface languages you can comfortably use.",
+        "Decide whether subtitles, dialogue text, or audio languages matter.",
+        "Mark which elements are essential and which are optional."
+      ]
+    },
+    {
+      "heading": "Read language labels as claims that need scope",
+      "paragraphs": [
+        "A store page may show language indicators, but the indicator's meaning can vary. Look for a breakdown that distinguishes interface, subtitles, and audio rather than assuming that one check mark means full translation. If the listing uses a broad label without defining coverage, record that as unclear and look for a linked help page or developer note.",
+        "Check the listing for the exact game edition and platform. A language option described for one release may not apply to every version, operating system, or storefront build. Avoid relying on a general description copied across listings unless it explicitly matches the edition you are considering."
+      ],
+      "table": {
+        "caption": "Language coverage checklist for each game",
+        "headers": [
+          "Game element",
+          "Evidence to seek"
+        ],
+        "rows": [
+          [
+            "Interface",
+            "A named language listing or in-game settings description"
+          ],
+          [
+            "Subtitles and text",
+            "A distinct statement about readable in-game text"
+          ],
+          [
+            "Audio",
+            "A separate statement about spoken-language options"
+          ],
+          [
+            "Instructions and support",
+            "Language of setup help, documentation, or support materials"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish official support from community translations",
+      "paragraphs": [
+        "A community translation may be useful, but it is not automatically part of the official release. Check who provides it, how it is obtained, which version it supports, and whether the game developer or storefront describes it as supported. An informal project can have separate installation, compatibility, and maintenance considerations.",
+        "If a translation requires additional files or software, review the source and instructions before installing anything. Do not assume that a community resource is safe, current, or compatible simply because another player mentions it. If you prefer not to add files, make sure the base game meets your language needs without them."
+      ],
+      "bullets": [
+        "Record whether language support is official, community-provided, or unspecified.",
+        "Check version compatibility and installation steps before adding files.",
+        "Do not treat a community translation as a promised part of the purchase."
+      ]
+    },
+    {
+      "heading": "Use update information to check whether support is maintained",
+      "paragraphs": [
+        "Language support can be affected by game updates, so review available update notes for changes to text, settings, or translation resources. The goal is not to predict future development but to see whether language-related changes are documented. If notes are sparse, treat the maintenance status as unknown rather than concluding that the translation is abandoned.",
+        "For a community translation, check its own version notes where available and compare them with the game version you plan to use. A mismatch can lead to missing text or errors. If the project does not identify compatible versions, that is a practical risk to weigh before relying on it."
+      ]
+    },
+    {
+      "heading": "Make a shortlist based on verified coverage",
+      "paragraphs": [
+        "For each candidate, keep a small evidence record: the listing's language breakdown, any developer documentation, the edition checked, and what you could not confirm. This is more useful than a simple yes-or-no label because it preserves differences between interface support, translated content, and optional community work.",
+        "If two games appear similar, prefer the one whose language scope is stated clearly when language access is important to you. That is a choice based on documentation quality and your own requirements, not a claim that one game is universally better. Recheck the current listing before purchase because descriptions and builds can change."
+      ],
+      "bullets": [
+        "Verify the exact edition and platform before making a decision.",
+        "Separate confirmed features from unclear or community-dependent support.",
+        "Keep a note of the specific language element that remains unverified."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an interface-language label mean the game has translated dialogue?",
+      "answer": "Not necessarily. Interface, subtitles, in-game text, and audio may be listed separately or have different coverage. Look for a breakdown that names each element, and treat a broad label as incomplete evidence."
+    },
+    {
+      "question": "Can I rely on a community translation being compatible?",
+      "answer": "Compatibility depends on the specific translation and game version. Check the translation source's version notes and installation instructions. If compatibility is not stated, consider it uncertain rather than assuming it will work."
+    },
+    {
+      "question": "Should I check language support again after an update?",
+      "answer": "It is sensible to review current release notes and the store listing when language support is important. Updates may change game text or compatibility, but the existence of an update alone does not establish that translation support changed."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
