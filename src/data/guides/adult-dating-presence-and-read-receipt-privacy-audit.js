@@ -1,0 +1,138 @@
+export default {
+  "slug": "adult-dating-presence-and-read-receipt-privacy-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Online Status and Read-Receipt Controls Before Messaging",
+  "description": "Compare dating platforms’ online-status, activity, and read-receipt settings to understand what other members may infer from your messaging behavior.",
+  "excerpt": "Online indicators and read receipts can reveal more about your routine than your profile does. Use this checklist to compare what a dating platform shows, who can see it, and whether you can control it.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Check whether activity indicators are exact, approximate, or based on recent use, and whether the platform explains their meaning.",
+    "Find out if read receipts are optional, automatic, limited to certain members, or included in a paid feature.",
+    "Test whether settings apply to everyone, only matches, or selected conversations before relying on them.",
+    "Compare how visible status indicators interact with blocking, unmatching, and account inactivity.",
+    "Treat status controls as one part of privacy planning, not a guarantee that your activity cannot be inferred."
+  ],
+  "sections": [
+    {
+      "heading": "Why presence indicators matter when choosing a dating platform",
+      "paragraphs": [
+        "A dating profile is not the only information other members may see. Some services display a current or recent activity label, show whether a message has been opened, or make response timing visible through conversation features. These signals can shape expectations even when you have shared little about yourself.",
+        "Before joining, identify which parts of your activity are visible and whether you can switch them off. A platform may use a vague label such as recent activity, while another may show a more immediate status. Do not assume that familiar labels mean the same thing across services; look for an explanation in settings or help documentation."
+      ],
+      "bullets": [
+        "Record each status or receipt feature and its stated meaning.",
+        "Check whether the feature is enabled by default.",
+        "Note whether changing a setting affects existing conversations."
+      ]
+    },
+    {
+      "heading": "Compare online-status labels and their precision",
+      "paragraphs": [
+        "Status labels can range from a simple active indicator to a time-based estimate. The more precise a label appears, the more it may reveal about when someone uses the service. Even an approximate indicator can create an expectation that a person is available to reply, so consider whether you want your browsing pattern to be legible to matches.",
+        "Look for a description of how activity is calculated, how long a label remains visible, and whether the platform updates it continuously or after a delay. If those details are not provided, mark the behavior as unclear rather than assuming the indicator is harmless or exact. A comparison should distinguish documented behavior from inference."
+      ],
+      "table": {
+        "caption": "A practical way to compare activity indicators",
+        "headers": [
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "What does the indicator say?",
+            "Exact label and any platform explanation"
+          ],
+          [
+            "Who can see it?",
+            "Everyone, logged-in members, matches, or another stated audience"
+          ],
+          [
+            "Can it be hidden?",
+            "Setting location, default, and any stated exceptions"
+          ],
+          [
+            "How current is it?",
+            "Documented update timing, if available"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read receipts and message-state signals",
+      "paragraphs": [
+        "A read receipt can make a conversation feel more immediate by showing that a message was opened. That may help some people coordinate, but it can also create pressure to respond before they are ready. Check whether the service marks messages as delivered, opened, or both; these terms describe different events and should not be treated as interchangeable.",
+        "Find out whether read receipts are universal or depend on mutual settings, membership level, or a particular conversation type. If the documentation is vague, use the platform’s settings and any available preview account carefully to confirm what is actually offered. Do not send sensitive information merely to test how message indicators work."
+      ],
+      "bullets": [
+        "Separate delivery confirmation from an opened-message receipt.",
+        "Check whether you can disable receipts without disabling messaging.",
+        "Confirm whether other members can tell that you changed the setting."
+      ]
+    },
+    {
+      "heading": "Check the audience, defaults, and interaction between settings",
+      "paragraphs": [
+        "A privacy control is only useful if you understand its audience. A setting may apply to profile visitors but not existing matches, or it may hide your status while leaving message receipts active. Review each control independently and note any exceptions stated in the platform’s help material.",
+        "Also check whether controls behave differently after a match ends, a person is blocked, or an account becomes inactive. This is not only a question about what is visible now; it is about whether old conversations or status information remain available later. Avoid assuming that hiding an indicator erases information someone has already seen."
+      ],
+      "table": {
+        "caption": "Presence-control comparison worksheet",
+        "headers": [
+          "Control",
+          "Default or setting",
+          "Audience and exceptions"
+        ],
+        "rows": [
+          [
+            "Online or recent activity",
+            "Record what the platform states",
+            "Record who can view it"
+          ],
+          [
+            "Read receipts",
+            "Record whether they can be changed",
+            "Record whether both people must opt in"
+          ],
+          [
+            "Last-active display",
+            "Record its stated precision",
+            "Record whether matches are treated differently"
+          ],
+          [
+            "Blocking or unmatching",
+            "Record the stated effect",
+            "Record what happens to prior conversation signals"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make the comparison useful before creating an account",
+      "paragraphs": [
+        "Create a shortlist of the signals you are comfortable sharing. For example, you may accept that a match can see whether a message was opened but prefer not to display general activity to profile visitors. Use that shortlist to compare platforms rather than relying on a broad claim that a service has privacy settings.",
+        "Save the relevant help-page wording or take notes on the setting names and dates checked. Platform features can change, so verify the current controls when you create an account. If an important control is unavailable or not explained, treat that uncertainty as a selection factor instead of assuming the feature will work as you prefer."
+      ],
+      "bullets": [
+        "Decide which activity signals you consider acceptable before messaging.",
+        "Keep a record of unclear or undocumented controls.",
+        "Recheck settings after app updates or account changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off online status also turn off read receipts?",
+      "answer": "Not necessarily. These controls may be separate, so check both settings and any documented exceptions. If the platform does not explain how they interact, treat the behavior as uncertain rather than assuming one setting covers both."
+    },
+    {
+      "question": "Can a read receipt prove that someone read and understood a message?",
+      "answer": "No. A receipt generally describes a platform event, such as a message being opened, if that is how the service defines it. It does not establish attention, comprehension, or intent to respond."
+    },
+    {
+      "question": "Should I test privacy settings by messaging a stranger?",
+      "answer": "Avoid using an uninformed person as a test. First review help documentation and settings. If you need to verify behavior, use only a controlled, appropriate test method that does not expose personal details or involve someone who has not agreed to participate."
+    }
+  ]
+};

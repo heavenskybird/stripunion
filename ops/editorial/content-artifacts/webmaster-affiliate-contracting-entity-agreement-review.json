@@ -1,0 +1,150 @@
+{
+  "backlogId": "webmaster-affiliate-contracting-entity-agreement-review",
+  "slug": "webmaster-affiliate-contracting-entity-agreement-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check the Contracting Entity and Agreement Terms Before Joining",
+  "description": "A practical webmaster checklist for identifying the affiliate agreement’s contracting party, document hierarchy, dispute terms, and operational implications before approval.",
+  "excerpt": "A program name and dashboard are not the whole commercial relationship. Check which entity is actually contracting with you, which terms govern, and where the agreement leaves important responsibilities unclear.",
+  "keyTakeaways": [
+    "Identify the legal entity named as the contracting party rather than relying only on a brand or program name.",
+    "Compare the application, dashboard terms, and linked policies to see which documents form the agreement.",
+    "Record clauses on unilateral changes, liability, termination, and dispute procedures for review.",
+    "Check whether the entity that manages the program is also the entity responsible for statements or payments.",
+    "Treat unclear or conflicting terms as questions to resolve before building operations around the program."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the program brand from the contracting party",
+      "paragraphs": [
+        "An affiliate program may use a brand name that differs from the legal entity named in its agreement. For a webmaster, that distinction matters when keeping records, raising a payment query, or understanding which organization has made a contractual commitment. A logo, dashboard heading, or email signature does not by itself identify the contracting party.",
+        "Locate the agreement and search for the opening definitions, acceptance language, and signature or consent section. Record the full entity name and any stated business address or registration details. If the document names more than one entity, note what role each one appears to have instead of treating them as interchangeable."
+      ],
+      "bullets": [
+        "Write down the program brand and the contracting entity separately.",
+        "Record the agreement version and the date you reviewed it.",
+        "Note whether a parent, operator, or payment provider is described as a separate party."
+      ]
+    },
+    {
+      "heading": "Map the documents that set the program rules",
+      "paragraphs": [
+        "Affiliate arrangements can refer to more than one document: a main agreement, traffic rules, creative standards, privacy terms, or policies linked from the dashboard. The important question is not just whether a policy exists, but whether the agreement incorporates it and how conflicts between documents are handled.",
+        "Build a simple document map before approval. For each source, record its title, location, version or effective date if provided, and the subject it covers. Look for language that allows terms to be updated by posting a new version or sending a notice. This helps you distinguish stable contractual provisions from policies that may change through another process."
+      ],
+      "table": {
+        "caption": "Agreement document map for a program review",
+        "headers": [
+          "Document",
+          "What to record",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Main affiliate agreement",
+            "Parties, acceptance method, version",
+            "Which entity is responsible for the agreement?"
+          ],
+          [
+            "Traffic or promotion policy",
+            "Covered channels and restrictions",
+            "Is it incorporated into the agreement?"
+          ],
+          [
+            "Payment or reporting terms",
+            "Relevant sections and effective date",
+            "Which source controls if terms differ?"
+          ],
+          [
+            "Linked program policies",
+            "URL, title, date checked",
+            "How are policy changes communicated?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review responsibility, liability, and dispute language",
+      "paragraphs": [
+        "Read clauses that allocate responsibility for your own site, marketing, disclosures, visitor data, and use of program materials. The aim is not to interpret the agreement as a lawyer, but to spot obligations that affect your day-to-day work and identify questions that need qualified advice. Broad language can have practical consequences even when a program appears straightforward to operate.",
+        "Check the sections covering liability limits, indemnity, governing law, dispute venue, and dispute-resolution steps. Record whether the agreement calls for notice, a particular contact channel, or a specified process before a dispute proceeds. If the agreement uses unfamiliar terms or presents a significant commitment, ask a qualified professional to explain the consequences in your circumstances."
+      ],
+      "bullets": [
+        "Mark clauses that assign responsibility for your content, traffic, or data handling.",
+        "Note any deadlines or formal steps for raising a dispute.",
+        "Do not treat a general support inbox as a substitute for a stated contractual notice process."
+      ]
+    },
+    {
+      "heading": "Check who handles operations and who owes the obligation",
+      "paragraphs": [
+        "The organization that operates a dashboard may not be the same one named as the contracting party. Likewise, reporting, support, creative delivery, and payment may involve different entities or service providers. These arrangements are not automatically a problem, but you should understand the roles before relying on a particular contact or record.",
+        "Compare the agreement’s party definitions with the account onboarding material, reporting interface, and payment documentation. If one source names an operator and another names a different entity, ask which relationship applies to your account. Preserve written clarification with the agreement notes so that later staff can understand the arrangement without reconstructing it from old messages."
+      ],
+      "table": {
+        "caption": "Match each operational role to its stated responsibility",
+        "headers": [
+          "Role",
+          "Evidence to locate",
+          "Unresolved question"
+        ],
+        "rows": [
+          [
+            "Program contracting party",
+            "Agreement definitions and acceptance terms",
+            "Who is legally named in the agreement?"
+          ],
+          [
+            "Dashboard or program operator",
+            "Account terms and interface notices",
+            "Is the operator acting for another entity?"
+          ],
+          [
+            "Reporting contact",
+            "Support and reporting documentation",
+            "Which records are authoritative?"
+          ],
+          [
+            "Payment responsibility",
+            "Payment terms and statements",
+            "Which entity is responsible for the stated obligation?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Turn the review into a documented decision",
+      "paragraphs": [
+        "Before sending traffic, keep a compact file containing the agreement, linked policies, approval record, and questions answered in writing. Include the dates checked and a note on where each document came from. This is a practical recordkeeping step, not a substitute for legal advice or a guarantee that terms will remain unchanged.",
+        "Set a reminder to revisit the document map when the program announces a policy update, changes the account dashboard, or alters the commercial arrangement. If the contracting party changes or the agreement is replaced, compare the new version with your saved copy. Decide whether the updated terms still fit your business, and pause new activity if a material question remains unresolved."
+      ],
+      "bullets": [
+        "Keep a dated copy or reference for every governing document you review.",
+        "Save written answers to questions about conflicting or unclear terms.",
+        "Assign an owner to monitor notices and agreement updates."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a program brand name enough to identify the contracting party?",
+      "answer": "No. The agreement should identify the relevant legal entity or entities. Record the name stated in the contract and ask for clarification if the agreement or onboarding material does not make the relationship clear."
+    },
+    {
+      "question": "Do linked policies automatically become part of an affiliate agreement?",
+      "answer": "That depends on the agreement’s wording and the circumstances. Check whether the main document incorporates the policies and how it handles updates or conflicts. If the effect is important or unclear, seek qualified legal advice."
+    },
+    {
+      "question": "What should a webmaster do if documents conflict?",
+      "answer": "Save the relevant versions, note the conflicting language, and request written clarification through an appropriate program contact. Avoid relying on an informal assumption when the difference could affect your obligations or business decisions."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
