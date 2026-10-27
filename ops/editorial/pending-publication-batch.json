@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T06:56:06.629Z",
+  "generatedAt": "2026-10-27T07:54:13.632Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-account-deletion-data-retention-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-mobile-experience-fit-audit.json",
-    "ops/editorial/content-artifacts/free-video-account-deletion-retention-checklist.json",
-    "ops/editorial/content-artifacts/adult-games-update-history-early-access-evidence-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-care-instructions-purchase-check.json"
+    "ops/editorial/content-artifacts/vr-platform-plan-change-notice-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-first-meetup-planning-checklist.json",
+    "ops/editorial/content-artifacts/creator-platform-chargeback-policy-preflight.json",
+    "ops/editorial/content-artifacts/adult-upload-image-metadata-privacy-check.json",
+    "ops/editorial/content-artifacts/premium-video-mobile-navigation-usability-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-account-deletion-data-retention-audit.js",
-    "src/data/guides/adult-anime-mobile-experience-fit-audit.js",
-    "src/data/guides/free-video-account-deletion-retention-checklist.js",
-    "src/data/guides/adult-games-update-history-early-access-evidence-audit.js",
-    "src/data/guides/adult-shop-product-care-instructions-purchase-check.js"
+    "src/data/guides/vr-platform-plan-change-notice-audit.js",
+    "src/data/guides/adult-dating-first-meetup-planning-checklist.js",
+    "src/data/guides/creator-platform-chargeback-policy-preflight.js",
+    "src/data/guides/adult-upload-image-metadata-privacy-check.js",
+    "src/data/guides/premium-video-mobile-navigation-usability-audit.js"
   ],
   "categories": [
-    "premium-videos",
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "vr-ar",
+    "dating-hookups",
+    "creator-platforms",
+    "privacy-safety-payment",
+    "premium-videos"
   ],
   "backlogIds": [
-    "premium-video-account-deletion-data-retention-audit",
-    "adult-anime-mobile-experience-fit-audit",
-    "free-video-account-deletion-retention-checklist",
-    "adult-games-update-history-early-access-evidence-audit",
-    "adult-shop-product-care-instructions-purchase-check"
+    "vr-platform-plan-change-notice-audit",
+    "adult-dating-first-meetup-planning-checklist",
+    "creator-platform-chargeback-policy-preflight",
+    "adult-upload-image-metadata-privacy-check",
+    "premium-video-mobile-navigation-usability-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40463805986",
-  "phase": "closed"
+  "r1CycleId": "40469388556"
 }

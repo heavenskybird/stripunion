@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-dating-first-meetup-planning-checklist",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating: Plan a First In-Person Meeting with Clear Safety Boundaries",
+  "description": "A practical adult dating checklist for planning a first in-person meeting, agreeing on boundaries, and keeping your own transport and exit options.",
+  "excerpt": "Moving from an online conversation to an in-person meeting calls for a different kind of preparation. Use this checklist to agree on a public setting, communicate expectations, and keep control of your plans.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Agree on the basic plan in advance: a public venue, a time window, and how each person will arrive and leave.",
+    "Keep your first meeting plan independent of the other person's transport, accommodation, or payment arrangements.",
+    "Share limited check-in information with someone you trust, while avoiding unnecessary disclosure of the other person's private details.",
+    "Treat pressure to change plans, surrender control of transport, or ignore a boundary as a reason to pause or leave.",
+    "Confirm any important expectations directly rather than relying on assumptions based on a profile or earlier chat."
+  ],
+  "sections": [
+    {
+      "heading": "Make the transition from chat to meeting deliberate",
+      "paragraphs": [
+        "An online conversation can feel familiar before you have met someone in person. That familiarity is not a substitute for making a practical plan. Before agreeing to meet, decide what you are comfortable sharing, what type of venue feels manageable, and how long you want to set aside. A first meeting can remain brief and low-pressure; you do not need to commit to a longer plan simply because a conversation has gone well.",
+        "Use the platform's communication tools for as long as they suit you, and do not treat moving off-platform as a requirement. If you decide to exchange contact details, consider what information those details reveal and whether you are comfortable with that. A person who respects your choice should be able to discuss logistics without demanding personal information or insisting that you move faster than you want."
+      ],
+      "bullets": [
+        "Choose a time and general area that work for you independently.",
+        "Set a reasonable duration and decide in advance whether you want the option to extend it.",
+        "Keep the conversation about practical expectations clear and respectful."
+      ]
+    },
+    {
+      "heading": "Choose a venue and transport plan you control",
+      "paragraphs": [
+        "For a first in-person meeting, choose a public place where you can arrive and leave on your own terms. Consider whether the venue is open during the planned time, how you will get there, and whether you can leave without depending on the other person. Avoid sharing a home address or making a private location the default before you have established that the arrangement feels right to you.",
+        "Plan transport both ways before you go. If you use public transport, a rideshare, or your own vehicle, keep the practical details under your control. You may also want to identify a nearby place where you can wait or regroup. These preparations are not a prediction that something will go wrong; they simply reduce the pressure to stay in a situation because leaving feels complicated."
+      ],
+      "table": {
+        "caption": "First-meeting plan: independent choices and useful checks",
+        "headers": [
+          "Planning area",
+          "Check before agreeing",
+          "Keep under your control"
+        ],
+        "rows": [
+          [
+            "Venue",
+            "Is it public and suitable for a short meeting?",
+            "The final choice and whether you stay"
+          ],
+          [
+            "Timing",
+            "Do the start and end time work for you?",
+            "Whether to extend the meeting"
+          ],
+          [
+            "Transport",
+            "Can you arrive and leave without relying on the other person?",
+            "Your route and backup option"
+          ],
+          [
+            "Check-in",
+            "Who can you contact if you want support?",
+            "What information you share and when"
+          ],
+          [
+            "Contact",
+            "Are you comfortable exchanging details?",
+            "Whether and when you move off-platform"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Agree on expectations and boundaries",
+      "paragraphs": [
+        "A profile, message exchange, or mutual interest does not establish consent to any activity or further contact. Before meeting, communicate the expectations that matter to you in plain language. You can say what kind of meeting you are agreeing to, what you are not agreeing to, and that you may change your mind. The same applies to the other person: listen to their stated boundaries and do not treat a past conversation as permission for something different.",
+        "Keep the agreement specific enough to avoid mismatched assumptions. For example, clarify whether the plan is only to meet and talk, whether either person expects to continue elsewhere, and how you will handle it if one of you wants to end the meeting. You do not have to negotiate every possible situation in advance; you do need enough clarity to make an informed choice and to leave room for either person to say no."
+      ]
+    },
+    {
+      "heading": "Share a limited check-in plan",
+      "paragraphs": [
+        "A check-in can give you a practical way to let someone you trust know that your plans are proceeding as expected. Decide what information you want to share, such as the venue area and the time you expect to check in. You can keep the disclosure limited; avoid forwarding private messages or exposing the other person's personal information without a clear need.",
+        "Choose a check-in method that is realistic for you to use. If you plan to send a message at a set time, make sure your phone is charged and accessible. Consider agreeing on a simple next step if you do not check in, such as your contact trying to reach you. A check-in arrangement should support your autonomy, not make you feel obligated to continue a meeting to avoid disappointing someone."
+      ],
+      "bullets": [
+        "Tell a trusted person the general plan and when you expect to check in.",
+        "Keep your phone charged and consider what notifications are visible.",
+        "Do not share more identifying information than you are comfortable disclosing.",
+        "If plans change, update your trusted contact when it is practical."
+      ]
+    },
+    {
+      "heading": "Notice pressure and keep an exit option",
+      "paragraphs": [
+        "Pay attention to how the other person responds when you set a limit or request a practical change. Repeated pressure to meet somewhere private, conceal the plan, hand over your phone, or depend on them for transport is a meaningful reason to reconsider. You do not need to prove that a person has bad intentions before deciding a plan no longer feels right.",
+        "If you choose to leave, keep the explanation brief if that feels safer and more comfortable. Move toward a public or staffed place and contact someone you trust if needed. If you feel in immediate danger, contact local emergency services. Afterward, use the dating platform's available reporting or blocking tools when appropriate, and keep any records you may need without sharing them more widely than necessary."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a first meeting always be in a public place?",
+      "answer": "A public setting can make it easier to keep the meeting brief and manage your arrival and departure. Choose a location and arrangement that feel comfortable to you, and avoid treating someone else's preferred setting as an obligation."
+    },
+    {
+      "question": "How much should I tell a friend about the person I am meeting?",
+      "answer": "Share enough practical information to support your own check-in plan, such as the general venue and expected timing. Avoid forwarding private conversations or disclosing personal details that are not needed for that purpose."
+    },
+    {
+      "question": "What if the other person wants to change the plan at the last minute?",
+      "answer": "You can decline a change or postpone the meeting. If the new plan removes your independent transport, moves to a private setting, or makes you uncomfortable, you are not required to go along with it."
+    },
+    {
+      "question": "Do earlier messages count as consent to continue after the meeting?",
+      "answer": "No. Consent is specific and can change. A profile or prior conversation does not obligate either person to continue a meeting, change locations, or agree to anything else."
+    }
+  ]
+};
