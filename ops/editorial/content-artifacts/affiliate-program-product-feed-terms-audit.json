@@ -1,0 +1,115 @@
+{
+  "backlogId": "affiliate-program-product-feed-terms-audit",
+  "slug": "affiliate-program-product-feed-terms-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Product Feeds: Check Data Rights, Update Rules, and Operational Fit",
+  "description": "A webmaster checklist for evaluating affiliate product feeds, data permissions, refresh expectations, permitted uses, and maintenance responsibilities.",
+  "excerpt": "A product feed can save manual work, but it also creates obligations around rights, freshness, accuracy, and removal. Review the terms and workflow before building around one.",
+  "keyTakeaways": [
+    "Confirm which feed fields you may display, store, transform, and republish.",
+    "Clarify how often data changes and whether the program specifies an update schedule.",
+    "Plan what happens when a feed item is withdrawn, changed, or temporarily unavailable.",
+    "Separate feed availability from permission to use data in every format or channel.",
+    "Test a small implementation and document ownership for updates and error handling."
+  ],
+  "sections": [
+    {
+      "heading": "Define the job the feed is meant to do",
+      "paragraphs": [
+        "A product or offer feed can support a directory, comparison table, filtered listing, or internal workflow. Before evaluating a program’s feed, write down the actual job: which fields are needed, how visitors will use them, how often information must be current, and whether the feed is central to the page or simply a convenience. This prevents a technically available feed from driving a site design that does not serve readers.",
+        "List the data fields required for the planned page, such as a display name, category, destination link, or status field, but do not assume every program supplies or permits every field. Your review should establish what is documented rather than infer rights from the fact that data can be downloaded. If the feed is unavailable, ask whether the content could be maintained manually or whether the page concept should be reconsidered."
+      ],
+      "bullets": [
+        "Write down the reader-facing purpose of each feed-powered page.",
+        "Identify required fields separately from optional fields.",
+        "Decide who on your team owns feed monitoring and corrections."
+      ]
+    },
+    {
+      "heading": "Read the data-use permissions before implementation",
+      "paragraphs": [
+        "A feed’s technical format does not define the permitted use of its contents. Review the program terms and feed documentation for rules on copying, caching, editing, displaying, combining, and redistributing data. Pay particular attention to whether the information may be used only on approved properties or in approved promotional contexts. If language is unclear, request written clarification before publishing a feed-powered page.",
+        "Check how the terms address images, logos, descriptions, and other creative assets separately from basic listing data. Permission to use one field does not necessarily grant permission to use every asset associated with an offer. Also look for rules on attribution, branding, modifications, and removal requests. Keep a dated copy or internal record of the terms you relied on so future editors know the scope of the approval."
+      ]
+    },
+    {
+      "heading": "Establish a freshness and change-handling plan",
+      "paragraphs": [
+        "Feed data can become outdated when offers change, destinations are removed, or a program revises its catalog. Ask whether the feed documentation states an expected update cadence, how changes are communicated, and whether items can disappear without a separate notice. Avoid promising readers that a listing is current unless your process can support that claim.",
+        "Choose a refresh approach that fits your publishing system. A page that is regenerated from a feed may need a validation step before deployment; a manually curated page may need a scheduled review and a named owner. Define what the site should do when a record is malformed or missing: hide it, flag it for review, or retain a clearly marked fallback. Do not leave broken or uncertain listings live simply because the feed import failed silently."
+      ],
+      "table": {
+        "caption": "Feed-readiness questions to resolve before launch",
+        "headers": [
+          "Area",
+          "Question",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Permission",
+            "Which fields and assets may be displayed or altered?",
+            "Terms, feed documentation, and written clarifications."
+          ],
+          [
+            "Refresh",
+            "How are updates delivered and how often should they be checked?",
+            "Documented update instructions and an internal monitoring schedule."
+          ],
+          [
+            "Removal",
+            "What should happen when an item is withdrawn or its destination changes?",
+            "A documented removal and correction procedure."
+          ],
+          [
+            "Format",
+            "What file structure, encoding, and field meanings are specified?",
+            "A sample file and an implementation mapping."
+          ],
+          [
+            "Ownership",
+            "Who reviews import errors and approves publication?",
+            "A named team role and escalation contact."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat links and feed fields as separate checks",
+      "paragraphs": [
+        "A feed may contain a destination URL, but the presence of a URL does not establish that your implementation preserves tracking correctly or follows the program’s link rules. Confirm whether the feed supplies a complete approved destination, whether any parameters must remain unchanged, and whether your site may add its own campaign identifiers. Do not remove, rewrite, or obscure parameters unless the documentation permits that treatment.",
+        "Inspect a sample destination before deployment and confirm that it resolves as intended in a normal browser. Check for redirects, locale behavior, and any special handling the program documents. This is a validation task, not a promise that every destination will remain unchanged over time. Keep a process for detecting broken links and for pausing a listing when its destination cannot be verified."
+      ]
+    },
+    {
+      "heading": "Test a limited implementation and document recovery",
+      "paragraphs": [
+        "Begin with a small test set rather than importing an entire feed into public pages. Verify that fields map to the right labels, special characters display correctly, and missing values do not create misleading claims. Compare the rendered result with the source data and retain a record of the test. A sample implementation can reveal problems with field meanings or formatting before they affect a larger site area.",
+        "Plan for interruptions: the feed endpoint may be unavailable, credentials may need renewal, or a format change may break an import. Your fallback should favor accurate, transparent pages over stale automated output. Depending on the use case, you might pause the affected listings, display only verified details, or switch to a maintained editorial page. Define who can make that decision and how the team will restore the feed after checking it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program provides a feed, can I publish every field in it?",
+      "answer": "Do not assume so. Review the program’s terms and feed documentation for permissions covering each field, asset, property, and use. Ask for written clarification when the scope is ambiguous, and keep a record of the answer."
+    },
+    {
+      "question": "How often should a feed-powered page be updated?",
+      "answer": "Use the program’s documented update guidance where available, then match your process to the consequences of stale information. A page should not imply real-time accuracy unless your implementation and monitoring genuinely support it."
+    },
+    {
+      "question": "What should happen when a feed import fails?",
+      "answer": "Avoid silently serving unverified data indefinitely. Define a fallback in advance, such as pausing affected listings or publishing only information that has been checked. Assign an owner to investigate the failure and approve restoration."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T02:00:03.927Z",
+  "generatedAt": "2026-10-27T04:04:04.355Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-preview-playback-condition-audit.json",
-    "ops/editorial/content-artifacts/free-video-platform-reporting-and-escalation-check.json",
-    "ops/editorial/content-artifacts/adult-games-language-and-translation-scope-check.json",
-    "ops/editorial/content-artifacts/adult-shop-payment-statement-privacy-review.json",
-    "ops/editorial/content-artifacts/premium-video-rental-purchase-subscription-access-map.json"
+    "ops/editorial/content-artifacts/adult-platform-browser-sync-history-privacy-audit.json",
+    "ops/editorial/content-artifacts/affiliate-program-product-feed-terms-audit.json",
+    "ops/editorial/content-artifacts/live-cam-unwanted-interaction-control-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-unmatch-block-contact-continuity-review.json",
+    "ops/editorial/content-artifacts/creator-platform-scheduled-publishing-release-control-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-preview-playback-condition-audit.js",
-    "src/data/guides/free-video-platform-reporting-and-escalation-check.js",
-    "src/data/guides/adult-games-language-and-translation-scope-check.js",
-    "src/data/guides/adult-shop-payment-statement-privacy-review.js",
-    "src/data/guides/premium-video-rental-purchase-subscription-access-map.js"
+    "src/data/guides/adult-platform-browser-sync-history-privacy-audit.js",
+    "src/data/guides/affiliate-program-product-feed-terms-audit.js",
+    "src/data/guides/live-cam-unwanted-interaction-control-audit.js",
+    "src/data/guides/adult-dating-unmatch-block-contact-continuity-review.js",
+    "src/data/guides/creator-platform-scheduled-publishing-release-control-audit.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "premium-videos"
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "live-cams",
+    "dating-hookups",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "vr-adult-platform-preview-playback-condition-audit",
-    "free-video-platform-reporting-and-escalation-check",
-    "adult-games-language-and-translation-scope-check",
-    "adult-shop-payment-statement-privacy-review",
-    "premium-video-rental-purchase-subscription-access-map"
+    "adult-platform-browser-sync-history-privacy-audit",
+    "affiliate-program-product-feed-terms-audit",
+    "live-cam-unwanted-interaction-control-audit",
+    "adult-dating-unmatch-block-contact-continuity-review",
+    "creator-platform-scheduled-publishing-release-control-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40435647004",
-  "phase": "closed"
+  "r1CycleId": "40446945375"
 }

@@ -1,0 +1,104 @@
+export default {
+  "slug": "adult-dating-unmatch-block-contact-continuity-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check What Blocking and Unmatching Change After a Match",
+  "description": "A practical guide to checking how blocking and unmatching affect conversations, profile visibility, reports, and personal records on dating platforms.",
+  "excerpt": "Before relying on block or unmatch controls, find out what happens to an existing conversation, future visibility, and any records you may need.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Unmatching, blocking, reporting, and deleting a conversation can have different effects.",
+    "Check whether an existing message thread remains available after each action.",
+    "Find out whether blocking affects discovery, messaging, or only a particular account relationship.",
+    "Review how to report a concern before removing access to relevant context.",
+    "Save only necessary records in a secure place before using a control that may remove a thread."
+  ],
+  "sections": [
+    {
+      "heading": "Know which action fits the situation",
+      "paragraphs": [
+        "Dating platforms may offer several ways to end or limit contact. Unmatching can end a match connection, blocking may restrict future visibility or communication, and reporting asks the platform to review a concern. Removing a conversation from your inbox may simply tidy your view. These actions are not interchangeable, so check the platform’s help text before choosing one.",
+        "Start by identifying the outcome you need. Do you want to stop receiving messages, prevent a profile from appearing again, report a safety issue, or simply clear an old thread from view? The right action depends on the problem. If the platform’s wording does not make the outcome clear, avoid treating the button label as a complete explanation. Consult the help center or ask support before relying on it."
+      ],
+      "table": {
+        "caption": "Compare common post-match actions before using them",
+        "headers": [
+          "Action",
+          "Questions to check",
+          "Possible record impact"
+        ],
+        "rows": [
+          [
+            "Unmatch",
+            "Does the connection end, and can either person reconnect?",
+            "The conversation may become unavailable; verify first."
+          ],
+          [
+            "Block",
+            "Does it limit messages, profile discovery, or both?",
+            "Check whether your own access to the thread changes."
+          ],
+          [
+            "Report",
+            "What details are requested and how is a report submitted?",
+            "The platform may need context; follow its instructions."
+          ],
+          [
+            "Delete or clear thread",
+            "Is the action local to your inbox or does it affect the match?",
+            "You may lose access to information you wanted to retain."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what happens to the conversation",
+      "paragraphs": [
+        "An unmatch or block may remove a conversation from one or both inboxes, make the profile unavailable, or leave a limited record. The precise behavior is platform-specific. Look for explicit information about message history, attachments, profile details, and whether an action can be reversed. If you may need to report a concern, find out whether the reporting process is easier before ending the match.",
+        "Preserve only information you reasonably need, and do so in a privacy-conscious way. Avoid collecting or sharing more personal information than necessary. Store any relevant notes or permitted evidence in a place protected by your device security, and consider whether cloud photo or document backups could expose it on a shared account. Follow the platform’s instructions and applicable rules; do not bypass controls to retain content."
+      ]
+    },
+    {
+      "heading": "Understand visibility after blocking or unmatching",
+      "paragraphs": [
+        "A control that ends a match does not automatically explain whether your profile will disappear from the other person’s view, whether their profile can reappear in discovery, or whether messages can still arrive through another feature. Check the platform’s stated scope across search, recommendations, likes, and existing conversations. If it only describes one surface, do not extend that claim to others.",
+        "Also consider how the service handles new accounts or alternate accounts. A platform may not be able to connect every account to a person, and no blocking feature should be treated as a guarantee against contact outside the service. Keep personal contact details private until you are comfortable sharing them. If contact crosses a boundary, use the platform’s documented safety tools and review local emergency resources if there is an immediate threat."
+      ]
+    },
+    {
+      "heading": "Prepare before removing access to a thread",
+      "paragraphs": [
+        "When a conversation contains information relevant to a report, understand the reporting workflow before unmatching or deleting the thread. The platform may ask for an account name, conversation context, or approximate timing. It may also provide a way to report directly from the conversation. Learn the available path in advance so that a quick action does not unintentionally remove the context you wanted to provide.",
+        "If you are unsure whether blocking preserves the thread, pause and consult the service’s help documentation. Do not keep a conversation open if doing so feels unsafe; personal safety comes first. Where appropriate, you can use a platform’s reporting route or seek trusted support. Keep records factual and limited to what is needed, and do not post private messages publicly as a substitute for an official report."
+      ],
+      "bullets": [
+        "Find the report option while the conversation is still accessible.",
+        "Check whether block and unmatch can be reversed.",
+        "Understand whether deleting a thread affects only your inbox.",
+        "Use device access controls for any records you choose to keep."
+      ]
+    },
+    {
+      "heading": "Make a platform comparison that reflects your needs",
+      "paragraphs": [
+        "When comparing services, record what each platform explicitly says about blocking, unmatching, reporting, and conversation history. Note whether the information is available before signup, requires an account, or is unclear. This makes your decision based on evidence rather than a generic feature list. If a control is important to you, prioritize clarity about its scope and ease of access.",
+        "Revisit the settings after a significant app or policy change. A platform may alter menu locations or the behavior attached to a control. Review your own preferences periodically, especially if you change devices or account settings. No single feature can replace good judgment about sharing contact details, but clear controls can help you manage interactions and make an informed choice about where to participate."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is unmatching the same as blocking?",
+      "answer": "Not necessarily. Unmatching may end a connection, while blocking may restrict future contact or visibility. Check the platform’s description for each action and how it affects an existing conversation."
+    },
+    {
+      "question": "Should I unmatch before reporting a concern?",
+      "answer": "First check the platform’s reporting instructions and whether the conversation contains context the report may need. If you feel unsafe, prioritize leaving the interaction and use the service’s available safety process. Do not assume that a thread will remain accessible after unmatching."
+    },
+    {
+      "question": "Can a block prevent someone from contacting me outside the dating service?",
+      "answer": "No. A platform control cannot be assumed to affect contact through other services or alternate accounts. Keep personal details private when appropriate and seek help if contact becomes threatening."
+    }
+  ]
+};
