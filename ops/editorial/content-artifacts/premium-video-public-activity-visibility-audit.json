@@ -1,0 +1,126 @@
+{
+  "backlogId": "premium-video-public-activity-visibility-audit",
+  "slug": "premium-video-public-activity-visibility-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Whether Your Profile or Activity Is Public",
+  "description": "Before joining a premium video platform, check profile visibility, follows, comments, ratings and other activity controls that may expose account information.",
+  "excerpt": "A video subscription can include social or community features as well as playback. This privacy audit helps you distinguish private viewing from visible profiles, reactions and contributions, and identify what controls to check before interacting.",
+  "keyTakeaways": [
+    "A private account or subscription does not automatically establish that every profile field or social action is private.",
+    "Check visibility separately for profile details, follows, ratings, comments, lists and activity feeds where those features exist.",
+    "Distinguish public display from visibility to other account holders, contacts, creators or the service itself.",
+    "Use preview or help pages to inspect controls before posting, and avoid testing visibility with identifying information.",
+    "Recheck settings after changes to account options or platform features; record what you verified and what remains uncertain."
+  ],
+  "sections": [
+    {
+      "heading": "Separate private viewing from social visibility",
+      "paragraphs": [
+        "A premium video service may offer more than a library and playback controls. Depending on the service, accounts may have profiles, follows, ratings, comments, recommendations or other ways to interact. Those features can create visibility questions that are separate from whether a video is paid or private. Do not assume that a subscription makes all account activity visible only to you.",
+        "Start with the distinction between viewing and participation. You may only want access to playback, or you may want to use some community features. Your privacy needs can differ for each. Identify which actions you might take and ask who could see them: the general public, other users, approved contacts, a creator or publisher, or only the service. If the platform does not clearly explain an audience, treat that setting as uncertain until you can verify it."
+      ]
+    },
+    {
+      "heading": "Map the profile and activity surfaces",
+      "paragraphs": [
+        "Look for a profile page and note which fields can identify you or connect to other accounts. A display name, profile image, biography, links or location field may be more revealing than the email address used to sign in. Check whether the profile can be viewed without an account, by logged-in members, or only through a connection or invitation, if the platform explains those options. Avoid using personal details while exploring visibility controls.",
+        "Then consider actions that could appear outside the profile itself. Following an account, rating a title, writing a comment, saving a public list or reacting to a post may have different visibility rules. Do not assume that a private watchlist setting also hides ratings or follows. Make a small inventory of the features you might use and the audience stated for each. Where a feature is absent, mark it not applicable rather than guessing about another platform’s design."
+      ]
+    },
+    {
+      "heading": "Inspect settings before interacting",
+      "paragraphs": [
+        "Check the platform’s account and privacy settings, help pages and any explanation shown beside a social feature. Look for choices to limit profile visibility, hide activity, remove a public contribution or control who can follow or contact an account. The available options vary, so do not expect a setting to exist simply because a different service offers one. Record the setting’s exact label and the audience it describes.",
+        "If you cannot verify the audience, avoid publishing a test comment or adding identifying material just to find out. A post may be copied, indexed, notified to other users or difficult to remove, depending on the service. Instead, look for an official explanation or contact support with a specific question. You can still evaluate whether the platform fits by treating unclear social visibility as a limitation in your decision."
+      ],
+      "table": {
+        "caption": "Review each possible activity separately rather than assuming one privacy setting covers everything.",
+        "headers": [
+          "Surface or action",
+          "What to check",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Profile fields",
+            "Which details appear, and who can view the profile?",
+            "Record each audience stated; avoid adding identifying details during testing."
+          ],
+          [
+            "Following or connections",
+            "Can other users see whom the account follows or connects with?",
+            "Check this separately from profile visibility."
+          ],
+          [
+            "Ratings or reactions",
+            "Are ratings or reactions attached to a visible profile or feed?",
+            "Do not assume a rating is private unless the service says so."
+          ],
+          [
+            "Comments or posts",
+            "Who can read, search for or respond to a contribution?",
+            "Check removal and editing information before posting."
+          ],
+          [
+            "Lists or saved collections",
+            "Are saved items private, shareable or public by default?",
+            "Verify list controls independently of viewing history."
+          ],
+          [
+            "Notifications",
+            "Could an action generate a visible notice or email?",
+            "Review notification settings and avoid testing with personal details."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand different audiences and data flows",
+      "paragraphs": [
+        "“Visible” can refer to several different audiences. A profile might be hidden from the public but still viewable by logged-in members. An action might be visible to a creator or publisher without appearing on a public profile. A platform may also process account activity internally even when other users cannot see it. These are different questions, and a setting that addresses one does not necessarily answer the others.",
+        "Read privacy explanations with the action you care about in mind. If the language is broad, look for a more specific help article or ask support whether a named action is visible to a named audience. Do not treat a general statement about account privacy as a promise that every interaction is confidential. Make your decision based on the controls and explanations available, not on an assumption about how a social feature normally works."
+      ]
+    },
+    {
+      "heading": "Choose a low-exposure way to evaluate the service",
+      "paragraphs": [
+        "You can often assess a platform’s social design without publishing anything. Review publicly accessible profile examples only if doing so is appropriate and does not expose your own identity. Inspect settings before enabling a feature, and read the platform’s explanation of editing, deletion and account closure. If the platform requires an account to see these controls, decide whether that account-creation step is acceptable before proceeding.",
+        "If you choose to participate, use only information you are comfortable sharing with the audience the service describes. Avoid reusing a personal profile image, username or biography if you want to keep accounts separate. Remember that a pseudonym does not by itself guarantee anonymity; details in posts or linked accounts can identify a person. Use a private device and account setup consistent with your own privacy needs, and do not connect an existing social identity unless you understand what the connection exposes."
+      ]
+    },
+    {
+      "heading": "Keep a verification record and revisit it",
+      "paragraphs": [
+        "A short record helps prevent assumptions from becoming habits. Note the date, setting names, audiences described and any unanswered questions. If the service changes its interface or introduces a new community feature, revisit the relevant controls before using it. A control you checked once may not cover a newly added feature or a different type of activity.",
+        "If you decide that social participation is not worth the exposure, you can limit use to the functions whose visibility you understand. If you already posted something, check the service’s stated editing or deletion process and verify the result where possible. Do not assume that removing a post erases notifications, copies or prior views. The aim is to make an informed choice about participation and reduce avoidable disclosure, not to promise that every trace can be removed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a private profile mean my ratings and follows are private too?",
+      "answer": "Not necessarily. Profile fields, follows, ratings and comments may have separate visibility rules. Check each feature and its stated audience independently."
+    },
+    {
+      "question": "Can I test visibility by posting a temporary comment?",
+      "answer": "That can expose information or create a record that is not fully reversible. Prefer published help material, settings and support clarification before posting."
+    },
+    {
+      "question": "Is activity hidden from other users also hidden from the service?",
+      "answer": "Those are different questions. A control about what other users see does not necessarily explain what the service processes or retains. Consult the relevant privacy information for each concern."
+    },
+    {
+      "question": "What if the platform does not explain who can see an action?",
+      "answer": "Treat the audience as unclear. Avoid sharing identifying details or using that feature until you find a reliable explanation or decide the uncertainty is acceptable."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
