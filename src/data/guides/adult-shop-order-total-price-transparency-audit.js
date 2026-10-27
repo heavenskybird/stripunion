@@ -1,0 +1,144 @@
+export default {
+  "slug": "adult-shop-order-total-price-transparency-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare the Full Order Total Before Checkout",
+  "description": "A practical adult shop price-transparency checklist for comparing item prices, shipping, taxes, discounts and payment-stage totals before placing an order.",
+  "excerpt": "A displayed item price is only one part of a purchase decision. Compare the costs and conditions that appear across the cart and checkout, and pause when the total is unclear.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Compare the same item or a carefully matched basket, not unrelated products with different contents.",
+    "Record item price, shipping, taxes or other displayed charges, discounts and the final amount separately.",
+    "Check whether discount codes have eligibility conditions, exclusions or expiry information.",
+    "Do not assume shipping is free, taxes are included, or a displayed subtotal is the final charge.",
+    "Keep a record of the order summary and stated terms while avoiding unnecessary storage of sensitive payment details."
+  ],
+  "sections": [
+    {
+      "heading": "Compare like with like",
+      "paragraphs": [
+        "A price comparison is only useful when the items being compared are genuinely comparable. Check product name, model or version, quantity, bundle contents and any important listed specifications. A lower displayed price may refer to a different item, a smaller pack, or a configuration that does not meet the same need. If the product details differ, mark the comparison as imperfect rather than describing one option as cheaper for the same purchase.",
+        "For a broader retailer comparison, make a small basket based on what you actually intend to buy. Keep quantities and product variants consistent where possible. Record when the comparison was made, because availability and displayed terms can change. Do not treat a banner price or search-result snippet as the complete offer; use the item page and the order summary that appears before submitting payment."
+      ],
+      "bullets": [
+        "Confirm item identity, quantity and bundle contents.",
+        "Record any product variation that could affect the comparison.",
+        "Use the same basket or clearly label differences between baskets."
+      ]
+    },
+    {
+      "heading": "Build the total from visible components",
+      "paragraphs": [
+        "Separate the item price from other charges. Shipping, taxes, handling, and any optional services may be shown at different stages or depend on information entered during checkout. The order summary is the point to verify the amount you are being asked to authorize. If a charge is not explained, or if the total changes after an address or delivery choice is entered, pause and check the relevant terms before proceeding.",
+        "Avoid assuming that “subtotal,” “estimated total,” and “amount due” mean the same thing. Record the wording the shop uses and whether a displayed charge is included in the amount shown. If the final figure is not available until late in the process, do not submit payment merely to discover it. A clear comparison should show both the visible item amount and the final pre-payment total, with uncertainties written down."
+      ],
+      "table": {
+        "caption": "Order-total comparison worksheet",
+        "headers": [
+          "Cost element",
+          "What to record",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Items",
+            "Product, variant, quantity and displayed amount",
+            "Are the compared products actually equivalent?"
+          ],
+          [
+            "Shipping",
+            "Displayed delivery charge and chosen option",
+            "Does the amount change with the delivery selection?"
+          ],
+          [
+            "Taxes or other charges",
+            "Amount and label shown in the summary",
+            "Is the charge included in the total due?"
+          ],
+          [
+            "Discount",
+            "Applied reduction and conditions shown",
+            "Does the code apply to these items and quantities?"
+          ],
+          [
+            "Final amount",
+            "Total shown immediately before payment",
+            "Does it match the breakdown and your expectations?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read discount terms instead of relying on the headline",
+      "paragraphs": [
+        "A promotion may have conditions that affect which products or orders qualify. Check any visible minimum, exclusion, expiry, quantity limit, or requirement to enter a code. Confirm that the discount appears in the order summary before payment; a code entered into a box is not evidence that it was accepted. If the cart shows a different amount than expected, inspect the terms rather than assuming the discrepancy will be corrected later.",
+        "Compare the final total with and without a discount only when you can confirm which items qualify. A percentage or amount-off headline can be difficult to evaluate when the eligible basket is unclear. Record the relevant condition in plain language, such as “code shown as applied to these listed items,” and avoid treating a time-limited promotion as a reason to skip checks. The decision should still make sense if the promotion is unavailable."
+      ]
+    },
+    {
+      "heading": "Check currency and checkout changes",
+      "paragraphs": [
+        "The currency shown on a product page and the currency used at checkout should be clear before you place an order. If the displayed currency changes, note the final currency and amount in the order summary. A payment provider or card issuer may apply its own conversion or other terms; do not assume that a shop’s displayed figure describes every possible payment-related amount. When the checkout does not make the payable currency clear, seek clarification or stop.",
+        "Watch for changes between the cart and the final review screen. Adding a delivery option, changing a quantity, applying a code, or editing an address can update the total. Re-read the complete summary after any change. This is especially important when the checkout uses several pages, because a price seen earlier may no longer be the amount due. Never rely on a remembered subtotal when the final screen presents a different figure."
+      ],
+      "bullets": [
+        "Confirm the currency beside the amount due.",
+        "Review the full total after changing delivery, quantity or discount details.",
+        "Do not assume an external payment provider will use the shop’s displayed currency terms.",
+        "Pause if the order summary does not explain a changed amount."
+      ]
+    },
+    {
+      "heading": "Keep a useful record without oversharing",
+      "paragraphs": [
+        "A short record helps you compare retailers and resolve confusion later. Save or note the product identifiers, quantity, visible cost breakdown, delivery selection, discount condition and final amount shown before payment. If you keep a screenshot, consider whether it includes an address, account name, order number or other information you do not need in your comparison. Store the record in a place appropriate to your privacy needs and remove unnecessary personal details.",
+        "Customer support can clarify an ambiguous charge or promotion, but ask a specific question and retain the answer with the relevant terms. For example, ask whether a listed delivery charge is included in the final amount displayed, rather than relying on a broad assurance about pricing. Do not send payment credentials or unnecessary identity information in a general support message. If the total still cannot be understood before authorization, choosing not to proceed is a reasonable decision."
+      ],
+      "table": {
+        "caption": "Final pre-payment check",
+        "headers": [
+          "Check",
+          "Ready to proceed when…",
+          "Pause when…"
+        ],
+        "rows": [
+          [
+            "Product match",
+            "The item, version and quantity match your intention",
+            "The listing or cart describes a different configuration"
+          ],
+          [
+            "Discount",
+            "The reduction appears and the conditions are understandable",
+            "The code is rejected or the cart total is unexplained"
+          ],
+          [
+            "Delivery and charges",
+            "The chosen options and displayed charges are clear",
+            "A charge appears without a clear label or amount"
+          ],
+          [
+            "Final amount",
+            "The payable total is visible in a clear currency",
+            "The checkout does not show what you are authorizing"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the product-page price the amount I will pay?",
+      "answer": "Not necessarily. Shipping, taxes, other displayed charges, and discounts can affect the final amount. Review the complete order summary immediately before payment and pause if the amount due or its currency is unclear."
+    },
+    {
+      "question": "How can I compare two adult shops fairly?",
+      "answer": "Compare the same product or a carefully matched basket, including quantity and variant. Record the visible cost components and final pre-payment total for each. Note any differences in item contents or checkout terms rather than presenting unlike purchases as equivalent."
+    },
+    {
+      "question": "What should I do if a discount code changes the total unexpectedly?",
+      "answer": "Check the code’s visible conditions and confirm which items qualify. Review the cart and final summary after applying the code. If the reduction or resulting total remains unexplained, ask the shop a specific question or do not proceed."
+    }
+  ]
+};
