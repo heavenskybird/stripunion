@@ -1,0 +1,128 @@
+export default {
+  "slug": "affiliate-program-policy-source-conflict-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Rules Conflict? Build a Policy-Source Check Before Promoting",
+  "description": "When an affiliate agreement, dashboard, FAQ, or support message seems inconsistent, use this workflow to identify the conflict, document it, and get a clear answer before publishing.",
+  "excerpt": "Affiliate rules can be spread across several documents and interfaces. A practical source-check workflow helps webmasters spot contradictory instructions, record what needs clarification, and avoid treating an assumption as approval.",
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "keyTakeaways": [
+    "Separate the specific activity you plan to do from the rule that appears to allow or restrict it.",
+    "Record the wording, location, date, and version of each relevant instruction.",
+    "Do not assume a dashboard setting or informal message overrides an agreement or published policy.",
+    "Ask a narrow, scenario-based question and request a written response from an authorized program contact.",
+    "Keep unresolved restrictions out of production until you understand what the program permits."
+  ],
+  "sections": [
+    {
+      "heading": "Why policy conflicts deserve their own preflight",
+      "paragraphs": [
+        "Affiliate instructions may appear in an agreement, a program help page, a dashboard notice, a campaign brief, or a message from a representative. Those sources can be written for different purposes and updated at different times. A sentence that sounds permissive in one place may not answer the narrower question you need to resolve, such as whether a particular placement, format, or audience is allowed.",
+        "This is not a request to interpret a contract as a lawyer. It is an operational method for noticing ambiguity before it becomes a live campaign problem. The useful outcome is a clear record of the activity under review, the sources that appear to conflict, the person or channel asked to clarify it, and the response received. If the program does not clarify an important restriction, treat that uncertainty as a decision risk rather than filling the gap with a guess."
+      ],
+      "bullets": [
+        "Name the concrete promotion activity, not just the general channel.",
+        "Distinguish an unclear rule from a rule that is clear but inconvenient.",
+        "Keep the campaign paused if the unresolved point could affect compliance or commission eligibility."
+      ]
+    },
+    {
+      "heading": "Map the sources without assuming which one wins",
+      "paragraphs": [
+        "Start by listing the relevant documents and interfaces. For each item, note its title or location, the date you accessed it, any displayed revision date, and the exact passage that matters. Save a permitted copy or a concise internal reference so a teammate can find the same text later. Avoid copying confidential material into public notes or systems that are not approved for it.",
+        "Then describe the apparent conflict in neutral terms. For example, one source may give a broad description of a traffic type while another names a more specific restriction. Do not label a source as controlling just because it is newer, easier to find, or displayed inside the dashboard. The program's own agreement may specify how updates and notices work; check that process instead of inventing a hierarchy."
+      ],
+      "table": {
+        "caption": "A compact source map for a policy question",
+        "headers": [
+          "Source",
+          "What to record",
+          "Question it can help answer"
+        ],
+        "rows": [
+          [
+            "Program agreement or terms",
+            "Relevant clause, version or effective date, update language",
+            "What formal rules and update process are stated?"
+          ],
+          [
+            "Policy or help page",
+            "Page title, URL or dashboard location, access date",
+            "How does the program explain the rule operationally?"
+          ],
+          [
+            "Campaign brief or creative instructions",
+            "Campaign name, date, required or prohibited placements",
+            "Are there campaign-specific instructions?"
+          ],
+          [
+            "Written program response",
+            "Sender or support channel, date, question asked, complete reply",
+            "Did an authorized contact address the exact scenario?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Turn a vague concern into a precise question",
+      "paragraphs": [
+        "A broad question such as “Is this allowed?” often produces an answer too general to guide implementation. Describe the proposed action in enough detail for the program to assess it: the traffic source, where a link or creative would appear, who the intended audience is, and whether any paid placement or incentive is involved. Include only information needed to explain the scenario, and do not send visitor personal data unless the program specifically requires it through an appropriate channel.",
+        "Ask which rule or document the response relies on and whether the answer applies to the specific campaign or to the program generally. If the plan has alternatives, present them separately. A response about one placement should not silently be treated as approval for another. Request clarification on whether the answer is temporary, campaign-specific, or subject to another approval step."
+      ],
+      "bullets": [
+        "State the proposed action in plain, concrete language.",
+        "Identify the exact sentence or instructions that appear inconsistent.",
+        "Ask for the applicable rule and any required approval process.",
+        "Ask whether the answer applies to the named property, campaign, and period."
+      ]
+    },
+    {
+      "heading": "Assess written responses and unresolved gaps",
+      "paragraphs": [
+        "A useful response addresses the actual scenario, identifies the relevant restriction or permission, and explains any conditions. A generic link to a policy page may be helpful, but it is not necessarily an answer if the page is the source of the ambiguity. If the reply is incomplete, follow up with one focused question rather than repeatedly restating the whole issue. Keep the full exchange with the source map.",
+        "Consider the authority and scope of the response without making assumptions about a staff member's role. If the program does not identify whether the responder can approve exceptions, ask which channel handles formal approvals. A conversational message should not be treated as a waiver of written terms unless the program confirms that effect. When no clear answer is available, choose a compliant alternative or do not run the activity."
+      ]
+    },
+    {
+      "heading": "Keep the decision attached to implementation",
+      "paragraphs": [
+        "Once the point is resolved, turn the answer into a short internal decision note: what was asked, the answer, the source relied on, any limitations, and the date to review it again. Link the note to the affected campaign or placement. This helps prevent an approval for one use from being copied into a different context where its assumptions no longer apply.",
+        "Give the people who publish or maintain the campaign the practical instruction they need, not a vague summary such as “program approved.” Include boundaries, such as which property or placement was discussed, and who to contact if the implementation changes. If the program later updates its terms or withdraws the clarification, pause the affected activity and revisit the source map."
+      ],
+      "bullets": [
+        "Record the decision and its scope in the campaign documentation.",
+        "Add a review trigger for relevant policy or campaign changes.",
+        "Do not present internal clarification as a universal legal guarantee."
+      ]
+    },
+    {
+      "heading": "A compact pre-publication decision checklist",
+      "paragraphs": [
+        "Before publishing a promotion that depends on an unclear rule, check that the activity is described specifically enough to evaluate. Confirm that the relevant sources have been collected and that their dates and versions are recorded. Make sure the question went to an appropriate program channel and the response actually covers the proposed use.",
+        "The checklist is complete only when the team can explain what it may do, what it must not do, and what conditions apply. If any of those are still unknown, the remaining choices are to seek clarification, redesign the placement, or hold the campaign. That is a more reliable operational decision than treating silence or a broad marketing description as permission."
+      ],
+      "bullets": [
+        "Can the publisher identify the exact activity being reviewed?",
+        "Are the relevant source passages and dates recorded?",
+        "Does the response address the specific placement and property?",
+        "Are approval conditions and exclusions visible to implementers?",
+        "Is there a safe alternative if the question remains unresolved?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which source should I trust if the agreement and dashboard appear different?",
+      "answer": "Do not assume which one controls based on appearance or convenience. Check the agreement's update and notice provisions, document both passages, and ask the program to identify the applicable instruction for your scenario. If the conflict affects whether an activity is permitted, hold that activity until you have a usable answer."
+    },
+    {
+      "question": "Does a written reply automatically change the program terms?",
+      "answer": "Not necessarily. A reply may clarify how the program applies a rule without changing formal terms. Ask whether the response is an approval, a clarification, or campaign-specific guidance, and retain the answer with its stated scope. Do not treat an informal exchange as a guaranteed contractual change."
+    },
+    {
+      "question": "What if support sends me back to the same unclear policy page?",
+      "answer": "Reply with the exact passage and the specific activity the page does not resolve. Ask one narrow follow-up question and, if needed, request the channel responsible for formal policy or campaign approvals. If the ambiguity remains material, choose a different implementation or do not proceed."
+    }
+  ]
+};

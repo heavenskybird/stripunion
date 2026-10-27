@@ -1,0 +1,117 @@
+{
+  "backlogId": "adult-platform-managed-work-device-privacy-check",
+  "slug": "adult-platform-managed-work-device-privacy-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms on Work or School Devices: Check Management and Privacy Risks",
+  "description": "Before using an adult platform on an employer- or school-managed device, understand device policies, management profiles, browser controls, and why personal browsing settings may not protect privacy.",
+  "excerpt": "A device that looks like a regular phone or laptop may still be managed by an employer or school. This guide explains what to check, what personal settings cannot guarantee, and how to keep private activity off devices you do not control.",
+  "keyTakeaways": [
+    "A managed device may have organizational policies, security tools, or administrator controls beyond ordinary browser settings.",
+    "Private browsing does not remove device management, network records, or monitoring installed by an organization.",
+    "Do not try to bypass workplace or school controls; follow the device policy and use a personally controlled device for personal activity.",
+    "Check which accounts, profiles, browser sync, and notifications are connected to the device.",
+    "If you cannot tell who controls the device or what it records, treat it as unsuitable for sensitive personal browsing."
+  ],
+  "sections": [
+    {
+      "heading": "First determine who controls the device",
+      "paragraphs": [
+        "A device can be personally owned but enrolled in an employer's management program, or it can be issued and controlled by a workplace or school. Management may affect installed apps, configuration settings, browser behavior, security reporting, and the ability to inspect or erase organizational data. The visible interface alone may not reveal all of those controls.",
+        "Before using an adult platform, check the device's management or work-profile settings and the organization's acceptable-use policy. Do not remove management software, disable required controls, or use a workaround to evade restrictions. If the status is uncertain, ask the organization's IT contact what personal use is permitted and what kinds of administration apply. For sensitive browsing, the safer decision is generally to use a device you personally control and that is not enrolled in organizational management."
+      ]
+    },
+    {
+      "heading": "Understand what personal browsing modes do not change",
+      "paragraphs": [
+        "Private or incognito browsing can limit some information saved in a local browser session, but it does not turn a managed device into a private one. It does not remove organizational controls, guarantee that network activity is unseen, prevent monitoring software from operating, or change the device's management status. Browser modes also have limits around downloads, bookmarks, saved credentials, and data entered into websites.",
+        "A virtual private network or a different browser should not be treated as a way to defeat an organization's rules or guarantee anonymity. The device, network, account, and service can each handle information differently. This article cannot tell you what a particular employer or school monitors. Its practical point is narrower: do not rely on a single browser switch when the device belongs to or is managed by another organization."
+      ]
+    },
+    {
+      "heading": "Check accounts, profiles, and sync connections",
+      "paragraphs": [
+        "Review whether the device is signed into a work or school account, a managed browser profile, shared cloud storage, or a browser-sync service. A profile may synchronize history, saved passwords, bookmarks, or open tabs according to its settings. A separate browser profile can help keep ordinary browsing data organized on a personal device, but it does not override management on an organizational device.",
+        "Check whether account recovery messages, verification notices, or receipts could arrive in a work-controlled inbox. Do not use an organizational email address for a personal adult-platform account. If you have already used a personal account on a managed device, sign out through the service, review active sessions and browser sync where permitted, and follow organizational policy. Avoid deleting organizational records or changing settings you are not authorized to change."
+      ],
+      "table": {
+        "caption": "Device and account questions to answer before sensitive personal use",
+        "headers": [
+          "Area",
+          "What to check",
+          "Safer decision if unclear"
+        ],
+        "rows": [
+          [
+            "Device management",
+            "Whether the device is issued or enrolled in an organization profile",
+            "Do not use it for sensitive personal activity"
+          ],
+          [
+            "Acceptable-use policy",
+            "Whether personal browsing is allowed and what restrictions apply",
+            "Follow the policy or ask the responsible administrator"
+          ],
+          [
+            "Browser profile",
+            "Whether the profile is organization-managed or synchronizes activity",
+            "Use a personally controlled device and account for personal use"
+          ],
+          [
+            "Email and recovery",
+            "Whether messages go to an organizational inbox",
+            "Keep personal account recovery separate from work or school accounts"
+          ],
+          [
+            "Notifications and displays",
+            "Whether alerts can appear on shared or managed screens",
+            "Do not enable sensitive alerts on a device others administer or see"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Avoid using a managed device to test the boundary",
+      "paragraphs": [
+        "Trying a site briefly to see whether it is blocked can still involve the device or network and may conflict with organizational rules. Do not probe filters, install unapproved software, change security settings, or attempt to bypass access controls. If you need to know what is permitted, use the policy or ask the appropriate administrator instead of experimenting.",
+        "The same caution applies to personal storage on an organizational device. Do not save private files, payment information, screenshots, or account credentials in a work-controlled folder or synced profile. If the device is shared or may be returned to an employer or school, avoid mixing personal accounts and sensitive records with its managed environment in the first place."
+      ]
+    },
+    {
+      "heading": "Use a personally controlled device with basic hygiene",
+      "paragraphs": [
+        "A personal device is not automatically private, but it gives you more control over the account, operating system, browser, and notification settings. Keep the device updated, use a screen lock, and avoid signing into organizational browser profiles or cloud accounts for personal activity. Review saved passwords, autofill, browser sync, and notification previews before using a sensitive service.",
+        "If you use a shared household device, the relevant concern changes from organizational monitoring to other users' access. Use an individual device profile where available, sign out when finished, and do not rely on deleting history as a complete privacy solution. Consider what remains in downloaded files, account sessions, shared inboxes, and cloud backups. Choose settings that fit the device's actual ownership and use."
+      ]
+    },
+    {
+      "heading": "If you already used an organizational device",
+      "paragraphs": [
+        "Do not panic or assume a specific record was created. First, stop using the managed device for that personal activity. Sign out of the platform if you can do so without changing organizational controls, and review the platform account's active sessions through a personal device. If you entered a password into an organization-managed browser or suspect it was saved, change it from a personal device and update any other accounts that reused it.",
+        "Do not attempt to erase management logs, remove organization profiles, or conceal activity by altering work or school systems. If you are concerned about device policy or account exposure, consult the relevant IT or privacy contact and follow the organization's procedures. Keep the discussion factual and share only the details needed to get help."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from an employer or school?",
+      "answer": "It should not be treated as doing so. Private browsing may limit some local browser history, but it does not remove device management, organizational policies, or all possible network or software records. The exact visibility depends on the device and organization, so avoid sensitive personal use on a managed device."
+    },
+    {
+      "question": "Is a personally owned phone always safe if it has a work profile?",
+      "answer": "Not necessarily. A personally owned device can still be enrolled in organizational management or have a separate managed profile. Check the enrollment status and policy, and ask the organization what controls apply. If you cannot determine the boundary, use a device that is not managed for sensitive personal activity."
+    },
+    {
+      "question": "Should I remove management software if I want more privacy?",
+      "answer": "Do not remove or disable organizational controls unless you are explicitly authorized to do so. Follow the device policy and contact the administrator with questions. Use a personally controlled, unmanaged device for personal browsing instead of trying to bypass management."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
