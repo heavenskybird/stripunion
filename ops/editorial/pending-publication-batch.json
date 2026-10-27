@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T06:01:13.053Z",
+  "generatedAt": "2026-10-27T06:56:06.629Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-message-retention-and-deletion-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-security-incident-response-planning.json",
-    "ops/editorial/content-artifacts/creator-platform-promotion-renewal-transition-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-inactivity-account-policy-audit.json",
-    "ops/editorial/content-artifacts/live-cam-paid-interaction-disconnect-charge-review.json"
+    "ops/editorial/content-artifacts/premium-video-account-deletion-data-retention-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-mobile-experience-fit-audit.json",
+    "ops/editorial/content-artifacts/free-video-account-deletion-retention-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-update-history-early-access-evidence-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-product-care-instructions-purchase-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-message-retention-and-deletion-audit.js",
-    "src/data/guides/adult-platform-security-incident-response-planning.js",
-    "src/data/guides/creator-platform-promotion-renewal-transition-audit.js",
-    "src/data/guides/webmaster-affiliate-program-inactivity-account-policy-audit.js",
-    "src/data/guides/live-cam-paid-interaction-disconnect-charge-review.js"
+    "src/data/guides/premium-video-account-deletion-data-retention-audit.js",
+    "src/data/guides/adult-anime-mobile-experience-fit-audit.js",
+    "src/data/guides/free-video-account-deletion-retention-checklist.js",
+    "src/data/guides/adult-games-update-history-early-access-evidence-audit.js",
+    "src/data/guides/adult-shop-product-care-instructions-purchase-check.js"
   ],
   "categories": [
-    "dating-hookups",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "live-cams"
+    "premium-videos",
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-dating-message-retention-and-deletion-audit",
-    "adult-platform-security-incident-response-planning",
-    "creator-platform-promotion-renewal-transition-audit",
-    "webmaster-affiliate-program-inactivity-account-policy-audit",
-    "live-cam-paid-interaction-disconnect-charge-review"
+    "premium-video-account-deletion-data-retention-audit",
+    "adult-anime-mobile-experience-fit-audit",
+    "free-video-account-deletion-retention-checklist",
+    "adult-games-update-history-early-access-evidence-audit",
+    "adult-shop-product-care-instructions-purchase-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40458322828",
-  "phase": "closed"
+  "r1CycleId": "40463805986"
 }

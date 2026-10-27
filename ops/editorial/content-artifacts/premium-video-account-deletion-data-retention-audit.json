@@ -1,0 +1,128 @@
+{
+  "backlogId": "premium-video-account-deletion-data-retention-audit",
+  "slug": "premium-video-account-deletion-data-retention-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Account Deletion and Data Retention After Canceling",
+  "description": "Cancellation and account deletion are different steps. Use this checklist to review what remains, what may be retained, and how to document account closure.",
+  "excerpt": "Ending a membership does not necessarily close an account or erase its information. Check the platform’s account-closure process, retention explanations, and confirmation records before deciding what to do next.",
+  "keyTakeaways": [
+    "Treat membership cancellation, account deactivation, and account deletion as separate actions until the service’s terms confirm otherwise.",
+    "Review the privacy notice and account controls for categories of information the service says it retains and why.",
+    "Save relevant billing records and cancellation evidence before requesting account deletion.",
+    "Check how deletion requests are submitted, acknowledged, and followed up without assuming a particular completion time.",
+    "Consider whether saved lists, preferences, or account history will be lost when the account is closed."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the membership from the account",
+      "paragraphs": [
+        "A membership can stop renewing while the account itself remains open. That account may still contain profile details, saved items, preferences, or account history. Conversely, an account closure request may not itself end a recurring payment arrangement, particularly if billing is managed through a separate channel. Treat these as two tasks until the platform’s own instructions make the relationship clear.",
+        "Before taking action, write down the outcome you want: stop future renewals, prevent sign-in, remove profile information, or request deletion of information associated with the account. These goals are related but not interchangeable. A clear checklist helps prevent a user from closing a profile while overlooking billing, or canceling a membership while expecting all account information to disappear."
+      ],
+      "bullets": [
+        "Find the membership cancellation instructions and the separate account-closure or deletion instructions.",
+        "Identify whether an outside billing provider controls the recurring payment.",
+        "Note any saved lists or preferences you may want to export or record first."
+      ]
+    },
+    {
+      "heading": "Read the retention explanation, not just the deletion button",
+      "paragraphs": [
+        "A deletion control tells you how to start a request; it does not, by itself, explain what happens to every data category. Review the privacy notice and account settings for the service’s description of information it may retain, the stated reasons, and any exceptions. Look for distinctions between profile information, transaction records, security logs, communications, and material needed to administer a request.",
+        "Do not assume that a general phrase such as “delete account” means immediate removal from every system or that every record is treated identically. A service may describe different handling for different categories. The practical question is whether its explanation is specific enough for you to understand the stated scope and the steps available if you need clarification. If the explanation is vague, record that uncertainty before proceeding."
+      ],
+      "table": {
+        "caption": "Use this map to organize what to verify. It is a checklist, not a claim about any particular service’s retention practices.",
+        "headers": [
+          "Information area",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "Account profile",
+            "Whether profile details can be edited, removed, or included in a closure request"
+          ],
+          [
+            "Saved items and preferences",
+            "Whether they can be exported or whether deletion removes them"
+          ],
+          [
+            "Billing and receipts",
+            "Where records are available and whether they are separate from account closure"
+          ],
+          [
+            "Support messages",
+            "How requests and replies are handled after closure"
+          ],
+          [
+            "Security or technical records",
+            "Whether the notice describes a purpose or retention exception"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve the records you may need before closing",
+      "paragraphs": [
+        "Account closure can remove convenient access to information you may later need, including receipts, membership dates, support correspondence, or the confirmation that a renewal was stopped. Before submitting a request, consider saving relevant records to a private location you control. Keep only what serves a real purpose, and avoid creating unnecessary copies of sensitive account information.",
+        "A useful record does not need to contain more than necessary. For example, a dated cancellation confirmation may be more useful than a full screenshot of an account page displaying unrelated personal details. If you contact support, retain the message and any case reference, but store them securely. These records can help you explain what you requested if a later question arises; they do not guarantee a particular outcome."
+      ],
+      "bullets": [
+        "Save the cancellation confirmation and the date it was received.",
+        "Keep relevant receipts or transaction references in a secure location.",
+        "Record the wording and date of any account-deletion request.",
+        "Avoid capturing unrelated personal details when documenting a request."
+      ]
+    },
+    {
+      "heading": "Submit a precise request and keep its scope clear",
+      "paragraphs": [
+        "Use the service’s stated account controls or support route, and describe the outcome you are requesting in plain language. If the service offers separate options for deactivation and deletion, choose intentionally rather than assuming one means the other. If you want both recurring billing stopped and an account closed, state both requests and verify each separately using the relevant instructions.",
+        "A concise request can identify the account using the service’s requested method, state whether you are asking to close or delete it, and ask for confirmation of the request’s status. Avoid sending passwords or unnecessary identity documents in an ordinary message. If identity verification is requested, review what is being asked and whether the request came through an official channel before sharing sensitive information."
+      ]
+    },
+    {
+      "heading": "Verify outcomes without assuming a fixed timeline",
+      "paragraphs": [
+        "After sending a request, look for a confirmation that identifies what was received: a cancellation, a deletion request, or both. A generic automated reply may confirm delivery without confirming completion. If the service describes a status page, case number, or follow-up method, use that route and keep the response with your records.",
+        "Do not infer that an account is closed just because sign-in fails once, or that a membership is canceled just because the profile appears inaccessible. Check the relevant confirmation and any billing channel that applies. If the service does not provide a clear status, use its published support route to ask a narrow follow-up question. Avoid repeating sensitive account details unless the official process requires them."
+      ]
+    },
+    {
+      "heading": "Make a decision before you submit",
+      "paragraphs": [
+        "Deletion may be difficult or impossible to reverse, while deactivation may preserve a path back into an account. If you are unsure, compare the stated options and consequences before choosing. You may decide that stopping renewal is sufficient, or that you want to request deletion as a separate privacy step. The correct choice depends on your own needs and the service’s documented process.",
+        "A final preflight combines the account, billing, and information-retention questions rather than treating them as one setting. Confirm what you want removed, what records you need to keep, and how you will verify the result. If the platform’s explanations leave a material question unanswered, pause and seek clarification through its official support channel instead of relying on assumptions."
+      ],
+      "bullets": [
+        "Have I stopped renewal through the correct billing channel?",
+        "Do I understand the difference between deactivation and deletion here?",
+        "Have I saved only the records I may reasonably need?",
+        "Do I know where to check request status or ask a follow-up?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does canceling a premium video membership delete my account?",
+      "answer": "Not necessarily. Cancellation commonly refers to stopping a recurring membership, while account closure or deletion is a separate action. Check the service’s instructions for both and confirm each outcome independently."
+    },
+    {
+      "question": "Should I save receipts before requesting account deletion?",
+      "answer": "If you may need billing or cancellation records later, consider saving relevant receipts and confirmations first. Store them securely and avoid keeping unnecessary sensitive information."
+    },
+    {
+      "question": "Can I assume every account record will be erased after a deletion request?",
+      "answer": "No. Review the platform’s privacy notice for its stated handling of different information categories and any described exceptions. If the explanation is unclear, ask the service for clarification."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
