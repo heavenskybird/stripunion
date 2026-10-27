@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T07:54:13.632Z",
+  "generatedAt": "2026-10-27T10:05:25.310Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-plan-change-notice-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-first-meetup-planning-checklist.json",
-    "ops/editorial/content-artifacts/creator-platform-chargeback-policy-preflight.json",
-    "ops/editorial/content-artifacts/adult-upload-image-metadata-privacy-check.json",
-    "ops/editorial/content-artifacts/premium-video-mobile-navigation-usability-audit.json"
+    "ops/editorial/content-artifacts/live-cam-private-interaction-fit-and-boundaries.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-branded-search-policy-audit.json",
+    "ops/editorial/content-artifacts/adult-manga-series-completeness-audit.json",
+    "ops/editorial/content-artifacts/free-video-search-query-privacy-audit.json",
+    "ops/editorial/content-artifacts/adult-game-refund-policy-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-plan-change-notice-audit.js",
-    "src/data/guides/adult-dating-first-meetup-planning-checklist.js",
-    "src/data/guides/creator-platform-chargeback-policy-preflight.js",
-    "src/data/guides/adult-upload-image-metadata-privacy-check.js",
-    "src/data/guides/premium-video-mobile-navigation-usability-audit.js"
+    "src/data/guides/live-cam-private-interaction-fit-and-boundaries.js",
+    "src/data/guides/webmaster-affiliate-branded-search-policy-audit.js",
+    "src/data/guides/adult-manga-series-completeness-audit.js",
+    "src/data/guides/free-video-search-query-privacy-audit.js",
+    "src/data/guides/adult-game-refund-policy-preflight.js"
   ],
   "categories": [
-    "vr-ar",
-    "dating-hookups",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "premium-videos"
+    "live-cams",
+    "webmaster-affiliate",
+    "hentai-anime",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "vr-platform-plan-change-notice-audit",
-    "adult-dating-first-meetup-planning-checklist",
-    "creator-platform-chargeback-policy-preflight",
-    "adult-upload-image-metadata-privacy-check",
-    "premium-video-mobile-navigation-usability-audit"
+    "live-cam-private-interaction-fit-and-boundaries",
+    "webmaster-affiliate-branded-search-policy-audit",
+    "adult-manga-series-completeness-audit",
+    "free-video-search-query-privacy-audit",
+    "adult-game-refund-policy-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40469388556",
-  "phase": "closed"
+  "r1CycleId": "40485469580"
 }
