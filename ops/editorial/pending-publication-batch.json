@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T18:26:55.272Z",
+  "generatedAt": "2026-10-27T20:05:55.229Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-presence-and-read-receipt-privacy-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-contracting-entity-agreement-review.json",
-    "ops/editorial/content-artifacts/live-cam-recording-replay-policy-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-account-recovery-resilience-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-collaborator-consent-workflow-comparison.json"
+    "ops/editorial/content-artifacts/adult-platform-display-name-identity-separation-checklist.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-headset-readability-evaluation.json",
+    "ops/editorial/content-artifacts/free-video-low-data-playback-planning-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-save-data-portability-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-replacement-parts-availability-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-presence-and-read-receipt-privacy-audit.js",
-    "src/data/guides/webmaster-affiliate-contracting-entity-agreement-review.js",
-    "src/data/guides/live-cam-recording-replay-policy-comparison.js",
-    "src/data/guides/premium-video-account-recovery-resilience-audit.js",
-    "src/data/guides/creator-platform-collaborator-consent-workflow-comparison.js"
+    "src/data/guides/adult-platform-display-name-identity-separation-checklist.js",
+    "src/data/guides/vr-adult-platform-headset-readability-evaluation.js",
+    "src/data/guides/free-video-low-data-playback-planning-checklist.js",
+    "src/data/guides/adult-games-save-data-portability-audit.js",
+    "src/data/guides/adult-shop-replacement-parts-availability-check.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "live-cams",
-    "premium-videos",
-    "creator-platforms"
+    "privacy-safety-payment",
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-dating-presence-and-read-receipt-privacy-audit",
-    "webmaster-affiliate-contracting-entity-agreement-review",
-    "live-cam-recording-replay-policy-comparison",
-    "premium-video-account-recovery-resilience-audit",
-    "creator-platform-collaborator-consent-workflow-comparison"
+    "adult-platform-display-name-identity-separation-checklist",
+    "vr-adult-platform-headset-readability-evaluation",
+    "free-video-low-data-playback-planning-checklist",
+    "adult-games-save-data-portability-audit",
+    "adult-shop-replacement-parts-availability-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40559448329",
-  "phase": "closed"
+  "r1CycleId": "40574718151"
 }

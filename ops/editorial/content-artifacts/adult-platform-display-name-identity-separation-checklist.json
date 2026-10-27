@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-platform-display-name-identity-separation-checklist",
+  "slug": "adult-platform-display-name-identity-separation-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Separate Your Display Name from Personal Identity",
+  "description": "A practical checklist for choosing an adult-platform display name, limiting identifying details, and checking where account information may appear.",
+  "excerpt": "A display name can be visible in places that are easy to overlook. Check account fields, profile surfaces, linked sign-ins, and support interactions before settling on an identity for an adult platform.",
+  "keyTakeaways": [
+    "Treat a public-facing display name, account login, billing identity, and contact address as separate information categories.",
+    "Check which profile fields are visible to other users, searchable, or included in community activity before filling them in.",
+    "Avoid handles that reuse usernames, initials, dates, or other clues connected to personal accounts.",
+    "Review linked sign-in options and profile integrations for unintended identity connections.",
+    "Keep a record of the platform’s account-name editing and profile-deletion options without storing unnecessary personal details."
+  ],
+  "sections": [
+    {
+      "heading": "Map the different identities an account may use",
+      "paragraphs": [
+        "An adult-platform account may involve several identities at once: a login name, a display name, a contact email, a billing name, and details entered into a profile. These fields serve different purposes, but a user may enter the same information in each out of habit. Start by listing the fields the service asks for and decide which are required, optional, or visible to other people before submitting them.",
+        "Do not assume that a name used during checkout is the name shown on a profile, or that a profile name is hidden merely because the account itself is private. The service’s settings, help pages, and account screens are the sources to check. If the distinction is unclear, treat the field as potentially visible until you can confirm its purpose."
+      ],
+      "bullets": [
+        "Login identifier: what you use to access the account.",
+        "Display name: what may appear in profiles, comments, or community features.",
+        "Contact and payment details: information used for account operations or transactions."
+      ]
+    },
+    {
+      "heading": "Choose a handle that does not identify you elsewhere",
+      "paragraphs": [
+        "A unique display name can reduce accidental connections between an adult-platform profile and a personal social account. Reusing a familiar handle may let someone who knows you connect the accounts, even if neither profile shows your real name. The same concern applies to a recognizable avatar, personal biography, location reference, workplace hint, or recurring naming pattern.",
+        "Choose a handle that is not already associated with your everyday accounts. Avoid adding birth years, initials, neighborhood names, employer references, or memorable phrases that friends or coworkers could recognize. This is a practical privacy measure, not a guarantee of anonymity: platform records, payment information, device data, and other activity may still link an account to its owner."
+      ],
+      "bullets": [
+        "Search your own usual usernames mentally before reusing a handle; avoid familiar variations.",
+        "Use a non-identifying avatar and profile text if the service permits them.",
+        "Do not imply that a pseudonym prevents the platform from identifying the account holder."
+      ]
+    },
+    {
+      "heading": "Inspect profile visibility before adding details",
+      "paragraphs": [
+        "Check whether a profile is visible to the public, signed-in users, followers, or only the account holder. Look beyond the main profile page: comments, ratings, saved collections, community posts, and activity indicators may expose a display name in separate places. A platform may have different visibility controls for each feature, so one private-profile setting might not cover every surface.",
+        "Use the account’s settings or a logged-out view, where available, to inspect what an unfamiliar visitor can see. If you cannot verify the audience for a field or activity, leave it blank or do not use the feature. Avoid relying on a setting label alone when the platform provides a preview or explanation of what becomes visible."
+      ],
+      "bullets": [
+        "Check profiles, comments, ratings, lists, and community posts separately.",
+        "Review audience settings when first setting up the account and after major settings changes.",
+        "Leave optional biography and location fields empty unless they serve a clear purpose."
+      ]
+    },
+    {
+      "heading": "Check linked accounts and sign-in connections",
+      "paragraphs": [
+        "Signing in through another account can be convenient, but it may connect identities or introduce another account into the recovery chain. Before choosing a linked sign-in, review the permission screen and the platform’s explanation of what information it receives. Consider whether the account name, email, profile image, or other identifiers could carry across. Do not assume that using a single sign-in button makes the adult-platform profile private from the connected service.",
+        "Review existing connections in both services’ settings when possible. Remove integrations you no longer use, and confirm that you can still access the adult-platform account afterward. If the platform requires a connected identity and does not explain the data flow clearly, weigh that requirement against your privacy needs before creating the account."
+      ],
+      "bullets": [
+        "Read the authorization prompt rather than approving by habit.",
+        "Check whether a connected service can display or reuse your profile details.",
+        "Confirm a workable recovery route before disconnecting a sign-in method."
+      ]
+    },
+    {
+      "heading": "Plan for name changes, support requests, and account closure",
+      "paragraphs": [
+        "A display name that can be changed may still remain in old comments, notifications, cached pages, or records maintained under the platform’s policies. Before using community features, find out whether editing a name updates past activity and whether closing an account removes public profile information. If these details are not documented, avoid posting content that depends on later removal.",
+        "Support requests can also expose identity details. Contact support through the account’s official help route, provide only information needed to resolve the issue, and avoid sending payment credentials or identity documents unless the service explains why they are required and how they are handled. Keep any account notes in a private place and record only what you need to manage access or closure."
+      ],
+      "table": {
+        "caption": "A quick identity-separation review before creating or updating an account",
+        "headers": [
+          "Account element",
+          "Privacy question",
+          "Practical check"
+        ],
+        "rows": [
+          [
+            "Display name",
+            "Could someone connect it to another profile?",
+            "Use a distinct, non-identifying handle."
+          ],
+          [
+            "Profile fields",
+            "Who can see each field or activity?",
+            "Check visibility per feature; leave optional fields blank."
+          ],
+          [
+            "Linked sign-in",
+            "What information or identity is shared?",
+            "Read permissions and review connected-account settings."
+          ],
+          [
+            "Name changes",
+            "What happens to older activity?",
+            "Check help information before posting publicly."
+          ],
+          [
+            "Support and closure",
+            "What information is requested or retained?",
+            "Use official channels and share only necessary details."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a pseudonym make an adult-platform account anonymous?",
+      "answer": "No. A pseudonym can reduce casual recognition through a public-facing profile, but it does not necessarily hide account, payment, device, or service records from the platform or other parties with access to them. Treat it as one privacy measure rather than a promise of anonymity."
+    },
+    {
+      "question": "Should I use the same username as on ordinary social accounts?",
+      "answer": "Usually avoid reusing a handle if you want to limit easy connections between profiles. A familiar username, avatar, or writing style can make accounts easier to associate even when real names are not displayed."
+    },
+    {
+      "question": "What should I do if I cannot tell whether a profile field is public?",
+      "answer": "Do not enter identifying information until you can verify the audience and purpose. Check account settings and official help information; if visibility remains unclear, leave the field empty or skip the feature."
+    }
+  ],
+  "publishedAt": "2026-10-27",
+  "updatedAt": "2026-10-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
