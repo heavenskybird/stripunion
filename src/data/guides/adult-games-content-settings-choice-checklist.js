@@ -1,0 +1,116 @@
+export default {
+  "slug": "adult-games-content-settings-choice-checklist",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Content Settings and Optional Scene Controls Before Starting",
+  "description": "Learn how to verify content notices, optional settings, and save behavior in adult games before playing, so you know what controls do and when they apply.",
+  "excerpt": "A store description may summarize a game, but it may not explain which content settings are available, where to find them, or whether changes affect an existing save. Check those details before committing time or money.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Separate store-page content notices from settings that can change the game’s presentation.",
+    "Check whether options are available at startup, in menus, or only after beginning a save.",
+    "Read whether a setting applies immediately, requires a restart, or affects only new playthroughs.",
+    "Do not assume a listed option is a complete substitute for clear content information."
+  ],
+  "sections": [
+    {
+      "heading": "Treat content notices and player settings as different evidence",
+      "paragraphs": [
+        "A content notice helps you understand the themes or material a game may include. A player setting is a control that may alter some part of the experience. One does not guarantee the other: a detailed notice does not prove that settings exist, and a toggle does not explain everything the game contains. Before choosing a title, look for both the store’s description and any developer-provided explanation of settings.",
+        "Descriptions can be brief, promotional, or incomplete. If the listing names adjustable content but does not say what the setting changes, where it is found, or whether it can be changed later, record those details as unknown. Avoid treating a community comment as authoritative when it conflicts with the publisher’s current documentation. When important information is missing, decide whether that uncertainty is acceptable before purchase or installation rather than relying on a convenient assumption."
+      ],
+      "bullets": [
+        "Record the source and date of any content-setting information you rely on.",
+        "Look for the control’s stated effect, not just its label.",
+        "Treat absent or vague explanations as unknown, not as proof of a particular behavior."
+      ]
+    },
+    {
+      "heading": "Find out when settings are available",
+      "paragraphs": [
+        "Settings may appear in a launcher, an initial setup screen, a main menu, or an in-game options menu. A player who wants to decide before beginning should check which route applies. Store screenshots, official help pages, or a demo may offer evidence, but they may not show every menu or the current version. If you cannot confirm the location before starting, decide whether you are willing to encounter initial material before reaching the controls.",
+        "Check whether changing an option requires restarting the game or beginning a new save. A setting might be available only when a new playthrough starts, while another could take effect immediately. These distinctions matter if you are trying to configure the experience before continuing an existing save. Do not assume that a setting’s current position reflects what was selected when the save was created; look for an explicit explanation of scope and persistence."
+      ],
+      "table": {
+        "caption": "Questions to answer before relying on an in-game content option",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "Evidence to seek"
+        ],
+        "rows": [
+          [
+            "Where is the option?",
+            "You may need to make a choice before gameplay begins.",
+            "Current documentation, menu screenshots, or demo access"
+          ],
+          [
+            "What does it change?",
+            "A label alone may not explain the setting’s scope.",
+            "A precise description from the developer or in-game help"
+          ],
+          [
+            "When does it take effect?",
+            "Some changes may require a restart or a new save.",
+            "Instructions about applying, restarting, or starting over"
+          ],
+          [
+            "Does it persist?",
+            "A setting may reset between sessions or saves.",
+            "Save-specific and account-wide behavior explained"
+          ],
+          [
+            "Can it be reversed?",
+            "You may want to restore the original presentation later.",
+            "An explicit route to change it again"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use demos and previews as bounded evidence",
+      "paragraphs": [
+        "For games without a demo, look for non-graphic, official documentation about menus and configuration. A developer’s patch notes may explain that options were added or changed, but a change log is not necessarily a full guide. Record uncertainty in your decision notes. The point is not to demand that every title support every preference; it is to understand what is known before choosing."
+      ]
+    },
+    {
+      "heading": "Check how settings interact with saves and updates",
+      "paragraphs": [
+        "A setting can be tied to a particular save, a general configuration file, or an account profile. The distinction affects what happens when you create another save, move to another device, or reinstall. Do not assume that a choice carries over automatically. If the developer documents save-specific behavior, note whether starting a new game copies the current settings or returns to defaults.",
+        "Updates may change menu wording, add options, or alter how existing saves behave. When a setting is important to your decision, check current version notes after a major update rather than relying indefinitely on an old guide. Keep your own notes limited to useful details, such as the menu path and the version you checked. Do not post private account details, save files, or identifying screenshots in public communities while asking for help."
+      ],
+      "bullets": [
+        "Confirm whether a preference applies per save, per device, or across an account.",
+        "Check for a restart or new-save requirement before changing an option.",
+        "After an update, verify important settings again using current documentation."
+      ]
+    },
+    {
+      "heading": "Make a decision before beginning",
+      "paragraphs": [
+        "A simple pre-start checklist can prevent frustration: identify the content information you need, verify whether the relevant setting exists, understand its limits, and determine whether you can access it before gameplay. If a key answer remains unknown, choose among waiting for clarification, trying a demo, selecting a different title, or accepting that uncertainty. These are reasonable decisions; a missing feature is not automatically a defect, but it may not fit your preferences.",
+        "Keep the check proportional. You do not need to audit every menu in every game. Focus on the setting or notice that would materially change your choice, and verify it through a source with a clear relationship to the game. If you contact support, ask specifically where the option appears and whether it affects existing saves. A precise question is more likely to produce a useful answer than asking whether the game is simply “customizable.”"
+      ],
+      "bullets": [
+        "Before starting: read the current listing and content information.",
+        "Before relying on a control: confirm its effect, availability, and timing.",
+        "Before changing an existing save: check reversibility and save scope."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a content notice mean a game has adjustable settings?",
+      "answer": "No. A notice and a player control serve different purposes. A notice describes themes or material; a setting may alter some aspect of presentation. Verify each separately through current, relevant information."
+    },
+    {
+      "question": "Can a demo prove that the full game has the same settings?",
+      "answer": "A demo can show what is present in that demo build, but it may not include every menu or match the current full version. Use it as limited evidence and check official documentation for details that affect your decision."
+    },
+    {
+      "question": "What should I ask support about a setting?",
+      "answer": "Ask where the option appears, what it changes, whether it applies to an existing save, whether a restart is needed, and whether the change can be reversed. Keep the question specific and avoid sending personal account information unless genuinely required."
+    }
+  ]
+};
