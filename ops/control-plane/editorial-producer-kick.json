@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded out-of-band wake 2026-10-28T06:55:40.826Z: canonical main reusable Producer, successful bot-branch Editorial heartbeat bridge and trusted workflow_run guard verified; isolated receipt runId=40641533242 status=success attempts=1 startedAt=2026-10-28T06:03:26.862Z finishedAt=2026-10-28T06:11:56.188Z; full 52-minute cooldown expired 2026-10-28T06:55:26.862Z. Latest 100 Actions runs checked at 2026-10-28T06:55:36Z; no active or queued canonical Scheduler/Producer writer. Latest Scheduler 40643173358 completed with R1_ADMISSION skip/backoff. Prior bot kick 2026-10-28T06:03:02.816Z exceeds 15-minute spacing. Request exactly one fresh Scheduler wake via bot branch; no historical rerun and no main edit.",
-  "updated_at": "2026-10-28T06:55:40.826Z"
+  "reason": "R1 guarded out-of-band wake 2026-10-28T09:57:44.611Z: canonical main reusable Producer and trusted successful bot-branch heartbeat workflow_run guard verified; isolated receipt runId=40661118934 status=success attempts=1 startedAt=2026-10-28T09:02:27.946Z finishedAt=2026-10-28T09:08:25.294Z; 52-minute cooldown expired 2026-10-28T09:54:27.946Z. Fresh 100 Actions runs verified at 2026-10-28T09:57:44.611Z, no active or queued canonical Scheduler/Producer writer or other active workflow. Latest Scheduler 40667672064 completed R1 admission skip/backoff. Previous bot kick 2026-10-28T06:55:40.826Z exceeds 15-minute spacing. Request one fresh Scheduler wake via bot branch only; no historical rerun or main edit.",
+  "updated_at": "2026-10-28T09:57:44.611Z"
 }
