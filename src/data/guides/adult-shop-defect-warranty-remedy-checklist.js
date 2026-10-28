@@ -1,0 +1,113 @@
+export default {
+  "slug": "adult-shop-defect-warranty-remedy-checklist",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Defect, Warranty, and Replacement Terms Before Buying",
+  "description": "Learn how to review adult-shop product warranties, defect reporting steps, evidence requirements, and replacement or repair terms before ordering.",
+  "excerpt": "Returns and defective-product remedies are not always described in the same place. Use this checklist to find the applicable terms before you buy.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Read warranty or defect terms separately from ordinary change-of-mind return rules.",
+    "Check how soon a problem must be reported and what evidence the shop requests.",
+    "Find out whether the remedy described is repair, replacement, refund, or another process.",
+    "Review who handles the claim: the retailer, manufacturer, or another service provider.",
+    "Keep order records and follow the product’s published care and safety instructions."
+  ],
+  "sections": [
+    {
+      "heading": "Separate a defect claim from an ordinary return",
+      "paragraphs": [
+        "A retailer’s standard return policy may address unwanted or unsuitable purchases, while a warranty or defect policy explains what to do when an item does not work as represented. Those processes can have different conditions, deadlines, and evidence requirements. Do not assume that a rule about sealed packaging or change-of-mind returns answers what happens when an item arrives damaged or develops a fault.",
+        "Before checkout, find the shop’s terms for damaged, faulty, or defective goods and note how they define the process. Check whether the retailer directs customers to the manufacturer, handles the claim itself, or describes both routes. If the policy is hard to locate, ask a specific pre-purchase question and save the response. A clear answer helps you understand the route; it does not guarantee a particular outcome."
+      ]
+    },
+    {
+      "heading": "Check deadlines, reporting steps, and evidence requests",
+      "paragraphs": [
+        "Look for the time allowed to report a problem, when that period begins, and the contact method the shop requires. A deadline might be described in relation to delivery, discovery of a fault, or another event. Record the wording rather than assuming the clock starts when you first use the product. If the language is unclear, ask the retailer to explain it before ordering.",
+        "Policies may ask for an order number, description of the issue, photographs of packaging, or other evidence. Find out what information is actually required and avoid sending unnecessary personal details. Do not continue using an item if the instructions say to stop when a fault is suspected. Keep the original packaging until you understand whether the claim process asks for it, but do not store product information where other household members can access it if that concerns you."
+      ],
+      "bullets": [
+        "Save the order confirmation and delivery record.",
+        "Note the stated reporting deadline and how the policy defines its start.",
+        "Use the retailer’s specified support route for a claim.",
+        "Share only the evidence the process requests."
+      ]
+    },
+    {
+      "heading": "Identify the remedies the terms actually describe",
+      "paragraphs": [
+        "A policy may describe repair, replacement, refund, store credit, troubleshooting, or an assessment before a decision. These are not interchangeable. Read what the retailer says about the sequence of steps, who chooses the remedy, and whether an item must be returned for inspection. Avoid assuming that a defect automatically qualifies for the outcome you prefer or that every shop offers the same options.",
+        "Check whether the remedy depends on product type, condition, proof of purchase, or the cause of the issue. If an item is replaced, look for information about the coverage period for the replacement. If the policy does not answer these questions, write them down and ask support. A useful pre-purchase review is specific: it identifies what the shop commits to explain and what remains unknown."
+      ],
+      "table": {
+        "caption": "Terms to locate before ordering",
+        "headers": [
+          "Policy detail",
+          "What to verify",
+          "Your note"
+        ],
+        "rows": [
+          [
+            "Responsible party",
+            "Whether the retailer, manufacturer, or another party handles a claim",
+            "Record the correct contact route"
+          ],
+          [
+            "Reporting window",
+            "The stated deadline and when it begins",
+            "Save the exact wording"
+          ],
+          [
+            "Evidence",
+            "Order details, photos, packaging, or troubleshooting steps requested",
+            "Prepare only what is required"
+          ],
+          [
+            "Possible remedy",
+            "Repair, replacement, refund, credit, or assessment",
+            "Note which outcomes are actually described"
+          ],
+          [
+            "Return process",
+            "Whether the item must be sent back and how instructions are issued",
+            "Wait for the shop’s process before mailing anything"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review product-specific support and care information",
+      "paragraphs": [
+        "Some product issues may be addressed through troubleshooting guidance or care instructions, while others require a formal claim. Review the product page and any manufacturer materials for cleaning, storage, charging, or handling information relevant to the item. Follow the instructions supplied with the product rather than experimenting with methods that could cause damage or affect a claim.",
+        "Check whether the product listing identifies a manufacturer or provides a route to product support. If it does, determine whether the retailer or manufacturer is the first point of contact for a fault. Keep the product’s model name and order details available when contacting support, but avoid posting identifying order information in public forums. A documented support route is more useful than relying on informal assurances from a product description."
+      ]
+    },
+    {
+      "heading": "Protect your records while keeping the process manageable",
+      "paragraphs": [
+        "Save the order confirmation, relevant policy, and any support exchange in a private location you can find later. You can make a short note of the product, order date, and contact route without retaining unnecessary sensitive information. If you use a shared email account or device, consider whether order notifications or saved documents might be visible to others, and adjust account access or notification previews according to your needs.",
+        "If a problem occurs, describe it accurately and follow the stated process. Keep copies of messages and note when you contacted the retailer. If the shop’s response does not address the written terms, ask a clear follow-up question and use the formal escalation route it provides. These steps create a useful record without assuming the retailer will grant a specific remedy or that a policy guarantees a particular result."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a defect policy the same as a return policy?",
+      "answer": "Not necessarily. A return policy may cover unwanted purchases, while defect terms may explain a different reporting and assessment process. Read both and check which one applies to the situation you are considering."
+    },
+    {
+      "question": "Should I send a product back before contacting the shop?",
+      "answer": "Follow the retailer’s stated claim process and wait for its instructions if the policy requires authorization or gives a specific return route. Keep the item and packaging until you know what is required."
+    },
+    {
+      "question": "What if the product page gives no warranty information?",
+      "answer": "Check the retailer’s general terms and any linked manufacturer information. If an important detail remains unclear, ask support before ordering or decide whether you are comfortable with the unanswered question."
+    },
+    {
+      "question": "What records should I keep if I report a problem?",
+      "answer": "Keep the order confirmation, relevant policy wording, evidence requested by the shop, and copies of support messages. Store them somewhere private and avoid sharing unnecessary personal or payment information."
+    }
+  ]
+};
