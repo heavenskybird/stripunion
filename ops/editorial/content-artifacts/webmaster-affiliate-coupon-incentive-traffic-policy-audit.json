@@ -1,0 +1,121 @@
+{
+  "backlogId": "webmaster-affiliate-coupon-incentive-traffic-policy-audit",
+  "slug": "webmaster-affiliate-coupon-incentive-traffic-policy-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Coupon and Incentive Rules Before Promoting Offers",
+  "description": "A practical checklist for webmasters reviewing coupon, cashback, loyalty, and other incentive-traffic rules in affiliate program terms.",
+  "excerpt": "A coupon or reward promotion can change how a visitor reaches an offer and whether the program permits that traffic. Check the rules, disclosures, and tracking path before publishing.",
+  "keyTakeaways": [
+    "Do not assume coupon, cashback, loyalty, or reward traffic is allowed just because a program provides tracking links.",
+    "Check the program agreement and current written guidance for each incentive method you plan to use.",
+    "Clarify whether a code is approved, where it may be shown, and whether it can be combined with other offers.",
+    "Keep visitor-facing terms clear about eligibility, limitations, and the source of the incentive.",
+    "Document approvals and test the visitor journey without making assumptions about commission attribution."
+  ],
+  "sections": [
+    {
+      "heading": "Classify the incentive before you add it",
+      "paragraphs": [
+        "“Incentive traffic” can mean several different things: a coupon code, cashback, loyalty points, a rebate, a contest entry, or another reward for taking an action. A program may treat these methods differently, and a general permission to use affiliate links does not necessarily authorize every incentive. Start by describing exactly what the visitor receives, what action triggers it, and who funds or fulfils it.",
+        "Write the proposed journey in plain language: where the visitor sees the message, what they must do, which link or code they use, and when any reward is issued. This description gives a program manager something concrete to approve. Avoid vague labels such as “deal traffic” when the actual method is a cash reward or a purchase-linked rebate."
+      ],
+      "bullets": [
+        "Identify the reward type and its value mechanism without implying a guaranteed outcome.",
+        "Record the action that makes a visitor eligible.",
+        "Note whether the incentive is funded by you, the merchant, or another party.",
+        "Describe every placement where the offer will appear."
+      ]
+    },
+    {
+      "heading": "Read the rules that govern the offer",
+      "paragraphs": [
+        "Review the current affiliate agreement, program policies, offer-specific terms, and written instructions from the program. Search for terms about coupons, cashbacks, rewards, loyalty schemes, coupon extensions, toolbar referrals, sub-affiliates, and promotional codes. The exact vocabulary varies, so consider the mechanics rather than relying only on a matching label.",
+        "If documents conflict or do not address the proposed method, ask for written clarification before publishing. Include the exact page, channel, reward mechanic, and target offer in your question. A general answer approving “promotion” may not resolve whether a specific cash-back placement or code distribution method is allowed. Keep the reply with the relevant policy version and date so that the decision can be reviewed later."
+      ],
+      "table": {
+        "caption": "Use this checklist to distinguish common incentive models.",
+        "headers": [
+          "Method",
+          "Questions to ask",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Coupon or promo code",
+            "Is the code authorized, and where may it be displayed?",
+            "Code source and written placement approval"
+          ],
+          [
+            "Cashback or rebate",
+            "Is a purchase-linked reward permitted, and who fulfils it?",
+            "Program response and visitor-facing terms"
+          ],
+          [
+            "Points or loyalty credit",
+            "Are points treated as an incentive, and what actions qualify?",
+            "Program policy and reward rules"
+          ],
+          [
+            "Contest or prize entry",
+            "Does entry depend on a click, signup, or purchase?",
+            "Approval, eligibility terms, and campaign records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Clarify codes, placement, and visitor expectations",
+      "paragraphs": [
+        "A code may be valid for one channel but not another, or it may be restricted to selected campaigns. Verify whether the code is active, who supplied it, which audience it is intended for, and whether it can be combined with other offers. Do not present an unverified code as current or guaranteed. If the program requires approval for creative or code placement, obtain that approval before sending visitors.",
+        "Make the visitor-facing explanation match the actual terms. Explain who is eligible, what action is required, what the reward or discount depends on, and any relevant limits. If an incentive is conditional or delayed, do not describe it as immediate or automatic. Use clear affiliate disclosures where required by applicable rules and make the commercial relationship understandable at the point where a visitor may act."
+      ]
+    },
+    {
+      "heading": "Test the visitor journey and attribution carefully",
+      "paragraphs": [
+        "Before launch, walk through the journey as a visitor: view the placement, follow the affiliate link, reach the offer, and check whether the code or incentive instructions remain clear. Confirm that redirects do not remove important terms or lead to a different destination. If the program provides a test method, use it within the program’s rules and do not create artificial transactions that could violate policy.",
+        "Keep incentive compliance separate from assumptions about credit. A link click does not prove that a later transaction will qualify, and the presence of a coupon does not establish how competing attribution or commission rules work. Use approved tracking procedures, retain campaign identifiers, and ask the program how the incentive affects attribution or eligibility if its documentation is silent."
+      ],
+      "bullets": [
+        "Check the live page and destination on desktop and mobile.",
+        "Confirm that code restrictions and reward conditions are visible.",
+        "Use only tracking tests the program permits.",
+        "Record the campaign version, links, and approval correspondence."
+      ]
+    },
+    {
+      "heading": "Monitor changes and pause when terms are uncertain",
+      "paragraphs": [
+        "Promotional rules can be offer-specific and can change. Assign someone to review program notices, campaign updates, and code expiration information. When a code stops working, a reward changes, or a program revises its terms, update or remove the placement promptly rather than leaving stale claims in place.",
+        "If there is uncertainty about whether a method is permitted, pause that specific incentive while you seek clarification. Do not assume that a method is allowed because another publisher uses it or because an affiliate link technically works. A written decision, dated policy copy, and accurate visitor disclosure make later review more reliable and help prevent avoidable operational disputes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are coupon sites always allowed in affiliate programs?",
+      "answer": "No. Permission depends on the program’s current terms and may vary by offer, code, or placement. Check the agreement and written program guidance for the exact method you intend to use."
+    },
+    {
+      "question": "Does a tracking link mean cashback traffic is approved?",
+      "answer": "No. A link can function technically even when a particular traffic method is restricted. Confirm the rules for cashback or rebates separately and obtain written clarification if the documentation is unclear."
+    },
+    {
+      "question": "What should I ask a program manager about a proposed incentive?",
+      "answer": "Describe the reward, the action required, who funds it, the page and channel where it will appear, and the offer involved. Ask whether that exact method is permitted, what disclosures are required, and whether any offer-specific restrictions apply."
+    },
+    {
+      "question": "Should I leave an expired or unverified code on a page?",
+      "answer": "No. Remove it or clearly update the page when you cannot verify that it remains valid. Stale claims can mislead visitors and create avoidable support or compliance issues."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
