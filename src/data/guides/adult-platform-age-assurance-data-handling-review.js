@@ -1,0 +1,104 @@
+export default {
+  "slug": "adult-platform-age-assurance-data-handling-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms: Review Age-Check Data Handling Before You Verify",
+  "description": "Before completing an adult-platform age check, identify what information is requested, who handles it, how long it may be retained and what alternatives exist.",
+  "excerpt": "An age check can involve different kinds of information and different processors. This practical review helps you understand the request, assess privacy details and pause when important terms are unclear.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Identify the exact information requested before submitting documents, images or account details.",
+    "Look for the responsible organization, stated purpose, retention explanation and contact route in the relevant privacy information.",
+    "Distinguish an age-check provider from the platform requesting verification; data may pass through more than one party.",
+    "Do not assume that a deletion promise, data-minimization claim or privacy label has the same scope in every situation.",
+    "If the process is unclear or asks for more information than you are comfortable providing, pause and seek an official explanation."
+  ],
+  "sections": [
+    {
+      "heading": "Inventory the information requested",
+      "paragraphs": [
+        "Start with the actual verification screen, not a general description of age checks. Note whether the process asks for a document, a live image, payment information, a phone number, an account login or another form of evidence. Some processes may request more than one item. Do not upload anything until you understand what the form is asking you to provide and whether each field is required.",
+        "Separate the evidence itself from related information. A document may contain a name, date of birth, document number, photo and issuing details; a live image may raise different questions about capture and storage. Make a short inventory of the fields visible to you. If the platform or verification screen does not explain why a field is needed, treat that as an unanswered question rather than assuming it is necessary."
+      ],
+      "bullets": [
+        "What data fields are requested?",
+        "Is the submission required, or is an alternative offered?",
+        "Does the screen explain the purpose of each requested item?",
+        "Does the form identify the service receiving the information?"
+      ]
+    },
+    {
+      "heading": "Identify who receives and processes the data",
+      "paragraphs": [
+        "The service asking for verification may not be the only organization involved. Check whether the platform names an external verification provider, explains its role and links to the provider’s privacy information. Look for the legal or business name of the organization responsible for the process, not just a logo or abbreviated label. If multiple organizations are named, note what the platform says each one does.",
+        "Read the platform’s privacy notice alongside any separate verification notice. Those documents may cover different data flows, purposes and retention practices. Check whether information is used only to make an age decision or also for account administration, fraud prevention or other stated purposes. Do not infer that information is never shared simply because the screen describes the check as secure."
+      ],
+      "table": {
+        "caption": "Use this information map to understand the verification flow before submitting data.",
+        "headers": [
+          "Information area",
+          "Question to answer",
+          "Record for your decision"
+        ],
+        "rows": [
+          [
+            "Data collected",
+            "What fields, images or identifiers are requested?",
+            "List each requested item and mark any unclear fields."
+          ],
+          [
+            "Organizations involved",
+            "Who operates the platform and who performs the check?",
+            "Record the named organizations and their stated roles."
+          ],
+          [
+            "Purpose",
+            "What does each notice say the data is used for?",
+            "Separate the stated age decision from other stated purposes."
+          ],
+          [
+            "Retention",
+            "Does the notice explain how long data or results are kept?",
+            "Note what is explicit and what remains unspecified."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read retention, deletion and access explanations carefully",
+      "paragraphs": [
+        "Look for a direct explanation of how long submitted evidence and verification results are retained. A notice may distinguish between the original document, a derived result and an account record showing that a check occurred. Those are different records. If the explanation only says data is kept as needed, without clarifying which data or how that period is determined, record the limitation instead of translating it into a definite deletion timeline.",
+        "Check whether the notices explain how to ask questions, request access or seek deletion where applicable. The process and scope can depend on the organization and situation, so do not treat a general privacy statement as a personal guarantee. If you need certainty about a specific record, ask the relevant organization to clarify what it retains after verification and how a request should be made."
+      ]
+    },
+    {
+      "heading": "Evaluate the screen and request for warning signs",
+      "paragraphs": [
+        "A legitimate-looking logo is not enough to establish that a request is authentic. Reach the verification flow through the platform’s official account or help pages, rather than following an unexpected message or an unfamiliar link. Check that the requested information is consistent with the explanation the service provides. An urgent demand, an unexplained request for credentials, or a payment request unrelated to the stated process deserves additional scrutiny.",
+        "Stop if the form asks you to provide information you do not understand or if the named organization changes without explanation. Use a verified support route to ask what is required, who receives it and how the outcome is used. Never share passwords or one-time sign-in codes as a substitute for verification, and do not send sensitive documents through an informal support conversation unless the service explicitly directs you to an appropriate secure process."
+      ]
+    },
+    {
+      "heading": "Make a decision without over-collecting your own records",
+      "paragraphs": [
+        "If the process meets your requirements, submit only the information the official flow requests. Do not create extra copies of identity documents or retain screenshots containing sensitive fields just to document that you completed a check. If you need a record, keep a minimal note of the platform, the date, the provider named in the notice and where you found the relevant privacy terms.",
+        "If the data flow remains unclear, you can delay verification and ask for clarification rather than accepting uncertainty under pressure. If you decide not to proceed, check whether the account can remain unverified, whether other platform functions are restricted, and what happens to any information already submitted. Avoid assuming that account closure automatically removes verification records; check the relevant privacy and account terms directly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an age check always involve sending an identity document?",
+      "answer": "No. Verification methods differ. Read the official flow to see what information it requests and whether it offers an alternative. Do not assume a method is available unless the service describes it."
+    },
+    {
+      "question": "Will closing an account erase age-check information?",
+      "answer": "Not necessarily. Account closure and data retention can be separate matters, and verification providers may have their own notices. Check the platform’s and provider’s explanations or ask them about the specific records involved."
+    },
+    {
+      "question": "Should I submit a document if I cannot tell who receives it?",
+      "answer": "Pause until you can identify the responsible organizations and understand the stated purpose and handling. Reach the platform through an official channel and request a clear explanation before submitting sensitive information."
+    }
+  ]
+};

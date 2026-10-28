@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T04:58:58.044Z",
+  "generatedAt": "2026-10-28T06:07:45.174Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-review-evidence-scorecard.json",
-    "ops/editorial/content-artifacts/free-video-moderation-transparency-review.json",
-    "ops/editorial/content-artifacts/adult-game-capture-privacy-checklist.json",
-    "ops/editorial/content-artifacts/adult-shop-gift-order-privacy-planner.json",
-    "ops/editorial/content-artifacts/live-cam-room-language-translation-check.json"
+    "ops/editorial/content-artifacts/dating-profile-discoverability-control-audit.json",
+    "ops/editorial/content-artifacts/premium-video-caption-language-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-age-assurance-data-handling-review.json",
+    "ops/editorial/content-artifacts/affiliate-program-qr-offline-referral-policy-check.json",
+    "ops/editorial/content-artifacts/creator-platform-business-continuity-readiness.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-review-evidence-scorecard.js",
-    "src/data/guides/free-video-moderation-transparency-review.js",
-    "src/data/guides/adult-game-capture-privacy-checklist.js",
-    "src/data/guides/adult-shop-gift-order-privacy-planner.js",
-    "src/data/guides/live-cam-room-language-translation-check.js"
+    "src/data/guides/dating-profile-discoverability-control-audit.js",
+    "src/data/guides/premium-video-caption-language-fit-audit.js",
+    "src/data/guides/adult-platform-age-assurance-data-handling-review.js",
+    "src/data/guides/affiliate-program-qr-offline-referral-policy-check.js",
+    "src/data/guides/creator-platform-business-continuity-readiness.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "live-cams"
+    "dating-hookups",
+    "premium-videos",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "vr-adult-platform-review-evidence-scorecard",
-    "free-video-moderation-transparency-review",
-    "adult-game-capture-privacy-checklist",
-    "adult-shop-gift-order-privacy-planner",
-    "live-cam-room-language-translation-check"
+    "dating-profile-discoverability-control-audit",
+    "premium-video-caption-language-fit-audit",
+    "adult-platform-age-assurance-data-handling-review",
+    "affiliate-program-qr-offline-referral-policy-check",
+    "creator-platform-business-continuity-readiness"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40635037185",
-  "phase": "closed"
+  "r1CycleId": "40641533242"
 }

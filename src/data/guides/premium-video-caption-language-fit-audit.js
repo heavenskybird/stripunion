@@ -1,0 +1,104 @@
+export default {
+  "slug": "premium-video-caption-language-fit-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Caption and Subtitle Support Before Joining",
+  "description": "Compare subtitle languages, caption availability and player controls on premium video platforms before choosing a subscription library.",
+  "excerpt": "A platform may mention subtitles without making clear which titles include them or how captions work in its player. Use this guide to check language coverage and usability against the videos you actually want to watch.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Separate subtitle language availability from closed-caption availability; they serve different needs and may vary by title.",
+    "Check title-level details instead of assuming that a platform-wide accessibility statement applies to every video.",
+    "Test whether captions can be enabled, repositioned or adjusted in the playback environment you use.",
+    "Compare a small, relevant title shortlist across services rather than relying on a broad feature label.",
+    "Treat missing information as an unresolved compatibility question, not as evidence that captions are available."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the language and access need first",
+      "paragraphs": [
+        "Before comparing platforms, decide what you need from text on screen. A subtitle may translate spoken dialogue or provide a text track in another language, while captions can include speech and other audio information. The labels are not always used consistently by services, so focus on the actual function you need rather than the name attached to a menu option.",
+        "Write down the language or languages that matter and whether you need translated subtitles, same-language text, or both. If more than one person will use the account, list each person’s requirements separately. This small preparation prevents a platform from seeming suitable based on a single sample title when its language support may be limited to particular videos or playback contexts."
+      ]
+    },
+    {
+      "heading": "Verify support title by title",
+      "paragraphs": [
+        "A library-wide claim is not enough to establish that a particular title has captions or subtitles. Check title pages, sample playback and any available language metadata for a shortlist of videos you would genuinely watch. Record whether the information identifies the track language, distinguishes subtitles from captions and describes differences between versions or episodes.",
+        "If a title page has no language details, do not fill in the gap by guessing from a trailer, cover image or platform-wide statement. Look for an official help page or ask the service a direct question before joining. When sampling playback is possible, use the same title and device conditions you expect to use later; a feature shown in one player may not be available in another."
+      ],
+      "table": {
+        "caption": "A title-level comparison makes gaps visible before you choose a library.",
+        "headers": [
+          "Check",
+          "Record",
+          "Decision use"
+        ],
+        "rows": [
+          [
+            "Subtitle language",
+            "Language listed for each shortlisted title",
+            "Confirms whether the text matches your language needs."
+          ],
+          [
+            "Caption type",
+            "Whether the track translates speech or provides captions",
+            "Avoids treating unlike text tracks as interchangeable."
+          ],
+          [
+            "Title coverage",
+            "Which titles or episodes actually list the feature",
+            "Shows whether support is broad enough for your intended use."
+          ],
+          [
+            "Player access",
+            "Where the playback menu exposes the track",
+            "Checks that the feature is usable in your viewing setup."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test controls in the playback environment you use",
+      "paragraphs": [
+        "A track can exist but still be difficult to use if the player menu is hard to find or text is difficult to read. Where a preview or no-cost sample is available, check how to turn captions on and off, whether the menu identifies languages clearly, and whether the text remains legible on your screen. If you rely on a specific device, test that device rather than assuming all player versions behave alike.",
+        "Keep the test practical. Confirm that text appears during playback, that it is synchronized well enough for your needs, and that you can return to the setting without restarting your search. Avoid making a purchase based only on a screenshot of a player menu; a menu image does not show that the relevant track exists for the title you intend to watch."
+      ],
+      "bullets": [
+        "Can you find the subtitle or caption menu without searching help pages?",
+        "Are track names and languages distinguishable?",
+        "Can you enable and disable a track during playback?",
+        "Is text readable on the screen and device you plan to use?"
+      ]
+    },
+    {
+      "heading": "Compare coverage without overvaluing a single sample",
+      "paragraphs": [
+        "A sample can prove that a feature works for that specific video and setup; it cannot establish full-library coverage. Build a short list of representative titles, including different series or content areas if those matter to your choice. Compare the available metadata for each, and note where you confirmed the information: title page, playback menu or written support response.",
+        "Do not count a platform as a match merely because one preview has the right language track. A useful comparison asks how many of your priority titles are verified, how many remain uncertain, and whether the language information is easy to locate. If your shortlist is small, a platform with clear support for those titles may fit better than a larger catalog with less transparent title-level details."
+      ]
+    },
+    {
+      "heading": "Make an evidence-based choice and keep the record simple",
+      "paragraphs": [
+        "Use a simple scorecard rather than a vague impression of accessibility. Mark each priority title as verified, unavailable or unknown for each required track. Add a separate note for player usability. This keeps the comparison honest: a title with no published track details is unknown, not confirmed unavailable, and not confirmed supported.",
+        "Save only the information needed to make your decision, such as the title name, track language and date checked. Platform catalogs and player interfaces can change, so recheck the details before subscribing if time has passed. If captions or subtitles are essential to your use, make that a threshold requirement rather than a minor preference that can be outweighed by unrelated library features."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are subtitles and captions the same thing?",
+      "answer": "Not always. Subtitles commonly represent spoken content in text, often in a different language, while captions may include additional audio information. Services may use the labels differently, so verify what a specific track contains."
+    },
+    {
+      "question": "Can a platform say it supports subtitles even if a specific video has none?",
+      "answer": "Yes. A general feature statement does not establish support for every title. Check the title-level details or sample the relevant playback before relying on the feature."
+    },
+    {
+      "question": "What if the platform does not show language details before joining?",
+      "answer": "Treat coverage as unverified. Check official help information or ask support about specific titles and track types. If the feature is essential, consider waiting until the service can provide a clear answer."
+    }
+  ]
+};

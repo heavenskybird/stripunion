@@ -1,0 +1,110 @@
+export default {
+  "slug": "dating-profile-discoverability-control-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Profile Discoverability Before You Join",
+  "description": "Compare profile visibility, browsing and pause controls on adult dating platforms before creating an account or paying for membership.",
+  "excerpt": "A platform’s profile controls affect who can find you, when your profile appears and what changes when you pause or hide it. Use this checklist to compare those controls before signing up.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Distinguish profile visibility from account activity: hiding a profile may not pause messages, membership billing or other account functions.",
+    "Check whether browsing privately changes what other members can see, and whether the setting has exceptions.",
+    "Find out how visibility controls apply to search results, recommendations, likes and existing conversations.",
+    "Test whether you can change or reverse a visibility setting without closing the account.",
+    "Treat screenshots and written policy details as useful records, not proof that a platform can remove every copy of information already viewed."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what you want to control",
+      "paragraphs": [
+        "Discoverability is not a single setting. A dating platform might let you hide a profile from search while still allowing it to appear in recommendations, or let you browse without appearing in some lists while leaving your profile visible. Before comparing services, name the situation you want to manage: reducing casual discovery, taking a temporary break, limiting new contact, or stepping away entirely. Those goals can require different controls.",
+        "Keep visibility separate from membership and messaging. A hidden profile may remain active, and an account that is not shown to new people may still have existing conversations or billing attached. Conversely, pausing an account may limit functions you wanted to keep. Write down the outcome you need in plain language, then check whether the platform describes a setting that actually matches it."
+      ],
+      "bullets": [
+        "Can I hide the profile without deleting it?",
+        "Does hiding affect new discovery, existing conversations, or both?",
+        "Can I still use the account while hidden?",
+        "Does the setting change billing or membership status?"
+      ]
+    },
+    {
+      "heading": "Map every place a profile might appear",
+      "paragraphs": [
+        "A profile can be surfaced in more places than a conventional search page. Look for explanations covering recommendations, nearby or recently active lists, likes, mutual-interest prompts, community areas and profile links shared by other members. The names of these areas vary, so follow the platform’s help and privacy pages rather than assuming one visibility switch controls every surface.",
+        "When the service offers a preview or free browsing, check what a person who is not signed in can see and what a signed-in member can see. Avoid uploading identifying material just to test visibility. If the controls cannot be checked without completing a profile, use a minimal, non-identifying setup where permitted, and do not treat an unavailable test as confirmation that a feature works a particular way."
+      ],
+      "table": {
+        "caption": "Use this map to ask whether one profile setting applies across different discovery surfaces.",
+        "headers": [
+          "Surface",
+          "Question to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Search results",
+            "Can a hidden profile still appear in direct or filtered search?",
+            "Search visibility may be controlled separately from other exposure."
+          ],
+          [
+            "Recommendations",
+            "Does hiding remove the profile from suggested-member feeds?",
+            "A profile may be surfaced without a person searching for it."
+          ],
+          [
+            "Existing conversations",
+            "Can previous contacts still open or message the profile?",
+            "A visibility change may affect new discovery but not prior connections."
+          ],
+          [
+            "External links",
+            "What happens when someone opens a profile link?",
+            "A direct link may behave differently from in-platform discovery."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare private browsing with profile hiding",
+      "paragraphs": [
+        "Private browsing and profile hiding solve different problems. A private-browsing option usually concerns the trace left by your visits or whether your viewing activity is displayed to other members. A hidden-profile control concerns whether other people can discover your profile. One feature should not be assumed to provide the other. Look for a clear explanation of both the viewer’s visibility and the profile’s visibility.",
+        "Check the scope of any private mode before relying on it. The service may describe limits, exceptions, or interactions with likes and messages. If the explanation is vague, assume that some actions can still be visible and avoid testing with an account or contact where visibility would create a problem. The useful comparison is not whether a platform uses the word private, but which actions it says are concealed and from whom."
+      ]
+    },
+    {
+      "heading": "Check whether controls are reversible and understandable",
+      "paragraphs": [
+        "A good decision depends on knowing how to change a setting later. Find the steps for hiding, pausing, restoring or deleting a profile before you join. Note whether the control is available in account settings, whether the platform describes a delay, and whether changes affect current conversations. Do not infer that a temporary pause is available simply because an account can be deactivated.",
+        "Prefer controls with a clear status and a predictable path back. If a setting uses ambiguous labels, check its help text and any confirmation screen before applying it. Make a private note of the setting’s name and where you found it, especially if you plan to return after a break. These records help you remember your choice; they do not guarantee that every cached view or member-created copy disappears."
+      ],
+      "bullets": [
+        "Locate the control before sharing profile details.",
+        "Read the confirmation text before changing visibility.",
+        "Check whether restoring visibility requires a new setup step.",
+        "Record the setting name and the date you changed it."
+      ]
+    },
+    {
+      "heading": "Choose a visibility model that fits your routine",
+      "paragraphs": [
+        "A person who wants to browse occasionally may value a platform that explains private viewing separately from profile visibility. Someone who wants to meet new people but reduce casual exposure may prefer clear controls over where profiles are recommended. A temporary break calls for an understandable pause or hiding option, while a full departure requires checking account closure and data handling separately. Matching the control to the routine is more useful than choosing by a single feature label.",
+        "Before paying, make a short comparison across the services you are considering: what can be hidden, what remains visible, how existing contacts are handled and how easily settings can be changed. Mark unknowns as unknown rather than assuming the most favorable interpretation. If profile control is essential and the service cannot explain it plainly, that uncertainty is a meaningful reason to delay creating a detailed profile."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hiding a dating profile stop membership billing?",
+      "answer": "Not necessarily. Visibility controls and subscription cancellation are often separate account actions. Check the membership terms and billing settings independently, and look for an explicit confirmation of any cancellation."
+    },
+    {
+      "question": "Does private browsing make my profile invisible?",
+      "answer": "Not by itself. Private browsing generally concerns the visibility of your activity as a viewer, while profile hiding concerns whether other people can find your profile. Verify the specific scope of each control."
+    },
+    {
+      "question": "Can hiding a profile remove information someone has already seen?",
+      "answer": "A visibility setting can affect future access on the service, but it cannot reliably retrieve screenshots, notes or other copies already made by another person. Avoid sharing details you would not want copied."
+    }
+  ]
+};
