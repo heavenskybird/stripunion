@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/affiliate-program-policy-source-conflict-workflow",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-27T14:21:05.507Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-27T16:05:55.121Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ae0cbe3960a519e24d15bbb",
   "provider_due_at": "2026-10-28T02:36:00.000Z",
   "created_at": "2026-10-27T14:21:05.507Z",
-  "updated_at": "2026-10-28T01:58:18.056Z",
+  "updated_at": "2026-10-28T02:43:12.805Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 2,
     "cadence_pressure_before_enqueue": 17,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
