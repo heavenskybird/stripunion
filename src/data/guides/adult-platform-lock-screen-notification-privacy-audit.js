@@ -1,0 +1,138 @@
+export default {
+  "slug": "adult-platform-lock-screen-notification-privacy-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Notifications: Check Lock-Screen, Browser and Email Previews",
+  "description": "Audit notification previews from adult platforms across lock screens, browsers, email, and connected devices to reduce unwanted disclosure.",
+  "excerpt": "Turning off an app alert may not stop messages from appearing elsewhere. Check operating-system previews, browser permissions, email notifications, and connected-device displays as separate surfaces.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Check notification privacy at both the platform and device level.",
+    "Review lock-screen previews, browser push permissions, and email subject-line displays separately.",
+    "Use a test notification to see what information is exposed on each device you use.",
+    "Check connected displays and shared devices, not only the primary phone.",
+    "Revisit settings after account, operating-system, browser, or notification changes."
+  ],
+  "sections": [
+    {
+      "heading": "Map every place a notification can appear",
+      "paragraphs": [
+        "An account setting that turns off one type of message may not control every notification surface. Alerts can appear inside an app, on a lock screen, in a browser, in an email client, or on a paired device. Start by listing the devices and accounts you use, including tablets, desktop browsers, smart displays, and watches if they receive alerts.",
+        "For each surface, note whether it can display a sender name, message subject, preview text, or other account-related detail. You do not need to infer what a platform shares; inspect the settings and, where possible, send a harmless test notification. The goal is to find the display path before private information appears unexpectedly."
+      ],
+      "bullets": [
+        "List devices and browsers that receive account alerts.",
+        "Include email apps and paired or shared devices.",
+        "Record which surfaces show text, sender details, or only a generic alert."
+      ]
+    },
+    {
+      "heading": "Set operating-system preview controls",
+      "paragraphs": [
+        "Review the device’s notification settings for the app or browser. Look for controls that determine whether content appears on a locked screen, whether previews are hidden until the device is unlocked, and whether alerts appear in a notification history or summary. The labels vary by device, so verify the visible result rather than assuming a setting name has the same effect everywhere.",
+        "If other people may see your screen, consider hiding notification content or disabling alerts on that device. A passcode can limit access to the device, but it does not necessarily hide text that the device is configured to show while locked. After changing a setting, lock the device and trigger a test alert to confirm what an observer could see."
+      ],
+      "table": {
+        "caption": "Notification surfaces and a practical check",
+        "headers": [
+          "Surface",
+          "What to inspect",
+          "Verification step"
+        ],
+        "rows": [
+          [
+            "Phone or tablet lock screen",
+            "Preview visibility and notification history",
+            "Lock the device and check a test alert"
+          ],
+          [
+            "Browser",
+            "Site notification permission and desktop alerts",
+            "Review browser settings and test the display"
+          ],
+          [
+            "Email client",
+            "Message previews and sender display",
+            "Check a test message on the lock screen and inbox"
+          ],
+          [
+            "Paired device",
+            "Whether alerts mirror from another device",
+            "Check the paired device independently"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review browser and email notification routes",
+      "paragraphs": [
+        "A browser may have a permission to show site notifications even when the platform’s own alert settings look quiet. Review the browser’s site-permission list and remove permissions you no longer want. Check each browser profile separately, especially if you use more than one profile or browser on the same device.",
+        "Email can expose information through subject lines, sender names, desktop banners, and lock-screen previews. Review platform email preferences alongside the email client’s own preview settings. If you use an inbox shared with other people, consider whether account messages belong there. Do not assume that unsubscribing from promotional email also disables account notices you may need for security or billing."
+      ],
+      "bullets": [
+        "Inspect browser site-notification permissions in every relevant profile.",
+        "Check email subject and preview visibility on both desktop and mobile.",
+        "Keep essential account and security messages distinct from optional alerts where controls allow."
+      ]
+    },
+    {
+      "heading": "Check shared devices, displays, and notification history",
+      "paragraphs": [
+        "Notifications can travel farther than the device where an account was first set up. Check whether a phone mirrors alerts to a watch, computer, vehicle display, or other connected screen. On a shared device, confirm which user profile is active and whether notifications are visible outside that profile. Remove old pairings you no longer use if they continue to receive alerts.",
+        "Some devices retain alerts in a history or notification center after they disappear from the screen. Review whether that history is enabled and who can access it. If you share a device, consider separate operating-system profiles where available, or turn off the relevant notification route. A quick lock-screen check alone will not reveal every place an older alert may remain."
+      ],
+      "table": {
+        "caption": "Connected-device review",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "Action to consider"
+        ],
+        "rows": [
+          [
+            "Are alerts mirrored?",
+            "A second device may display a notification you hid on the first",
+            "Review pairing and mirror settings"
+          ],
+          [
+            "Is notification history retained?",
+            "Dismissed alerts may remain accessible",
+            "Inspect history settings and clear what you no longer need"
+          ],
+          [
+            "Is the device shared?",
+            "Other users may see account-related alerts",
+            "Use separate profiles or disable the relevant route"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the configuration and keep it maintainable",
+      "paragraphs": [
+        "After adjusting settings, test each route separately: app alert, browser notification, and email message. Check the screen while locked and unlocked, then inspect any paired device and notification history. Use a non-sensitive test where possible. If the platform does not provide a safe test option, verify the settings menus and avoid triggering an unnecessary message.",
+        "Keep a short record of which setting controls each surface so you can repeat the check after a device or software change. Revisit notification privacy when you sign in on a new device, reinstall an app, create a browser profile, or change account preferences. Settings can be layered, so a change in one place does not prove that every other route has changed."
+      ],
+      "bullets": [
+        "Test app, browser, email, and paired-device routes independently.",
+        "Check both visible alerts and any retained notification history.",
+        "Repeat the audit after adding a device or changing software or account settings."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I turn off platform notifications, are email alerts also stopped?",
+      "answer": "Not necessarily. Platform preferences, browser permissions, operating-system notifications, and email-client previews are separate controls. Review each route that can display an alert."
+    },
+    {
+      "question": "Does hiding lock-screen previews remove old notifications?",
+      "answer": "It may change what is displayed going forward, but retained notification history can be a separate feature. Check the device’s history settings and inspect existing alerts."
+    },
+    {
+      "question": "What is the simplest way to verify my settings?",
+      "answer": "Test each notification path separately and inspect the result on the device where it appears. Include paired devices and email previews, not just the primary app screen."
+    }
+  ]
+};
