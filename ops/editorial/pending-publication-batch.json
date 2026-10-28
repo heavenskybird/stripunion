@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T21:59:51.170Z",
+  "generatedAt": "2026-10-28T23:02:35.566Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-refund-after-renewal-evidence-workflow.json",
-    "ops/editorial/content-artifacts/free-video-content-reporting-and-follow-up-workflow.json",
-    "ops/editorial/content-artifacts/adult-games-multiplayer-privacy-and-online-dependency-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-payment-method-data-minimization-checklist.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-service-status-and-incident-notice-audit.json"
+    "ops/editorial/content-artifacts/adult-anime-content-exposure-controls-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-block-report-response-workflow.json",
+    "ops/editorial/content-artifacts/creator-platform-team-permissions-access-audit.json",
+    "ops/editorial/content-artifacts/premium-video-streaming-data-use-planning-guide.json",
+    "ops/editorial/content-artifacts/live-cam-platform-safety-information-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-refund-after-renewal-evidence-workflow.js",
-    "src/data/guides/free-video-content-reporting-and-follow-up-workflow.js",
-    "src/data/guides/adult-games-multiplayer-privacy-and-online-dependency-audit.js",
-    "src/data/guides/adult-shop-payment-method-data-minimization-checklist.js",
-    "src/data/guides/vr-adult-platform-service-status-and-incident-notice-audit.js"
+    "src/data/guides/adult-anime-content-exposure-controls-audit.js",
+    "src/data/guides/adult-dating-block-report-response-workflow.js",
+    "src/data/guides/creator-platform-team-permissions-access-audit.js",
+    "src/data/guides/premium-video-streaming-data-use-planning-guide.js",
+    "src/data/guides/live-cam-platform-safety-information-review.js"
   ],
   "categories": [
+    "hentai-anime",
+    "dating-hookups",
+    "creator-platforms",
     "premium-videos",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar"
+    "live-cams"
   ],
   "backlogIds": [
-    "premium-video-refund-after-renewal-evidence-workflow",
-    "free-video-content-reporting-and-follow-up-workflow",
-    "adult-games-multiplayer-privacy-and-online-dependency-audit",
-    "adult-shop-payment-method-data-minimization-checklist",
-    "vr-adult-platform-service-status-and-incident-notice-audit"
+    "adult-anime-content-exposure-controls-audit",
+    "adult-dating-block-report-response-workflow",
+    "creator-platform-team-permissions-access-audit",
+    "premium-video-streaming-data-use-planning-guide",
+    "live-cam-platform-safety-information-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40776210037",
-  "phase": "closed"
+  "r1CycleId": "40784200623"
 }

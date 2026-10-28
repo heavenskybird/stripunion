@@ -1,0 +1,131 @@
+export default {
+  "slug": "adult-dating-block-report-response-workflow",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Evaluate Block, Report, and Safety Response Tools",
+  "description": "Compare adult dating platforms by block controls, reporting steps, evidence options, and the clarity of their safety response process.",
+  "excerpt": "Before investing time in an adult dating profile, find out how to stop contact, report concerning behavior, and understand what happens next. This checklist focuses on practical safety tools rather than promises.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Test whether blocking immediately stops messages and profile visibility, and whether the other person is notified.",
+    "Check what information a report form requests and whether it supports adding context or evidence.",
+    "Look for clear guidance about follow-up, escalation, and urgent safety concerns.",
+    "Keep your own records when appropriate, without sharing sensitive information unnecessarily.",
+    "Use platform tools alongside personal boundaries; no interface can guarantee another person’s conduct."
+  ],
+  "sections": [
+    {
+      "heading": "Inspect the safety workflow before you need it",
+      "paragraphs": [
+        "A dating platform’s safety features are most useful when they are easy to find under pressure. Before you start conversations, locate the block and report controls on a profile, within a message thread, and in the account settings. A tool available in only one place may be difficult to use if the profile disappears or a conversation becomes inaccessible. Check whether the interface uses plain language and explains what each action does.",
+        "Separate immediate contact control from formal reporting. Blocking is generally an action you take to stop or limit interaction; reporting sends information to the service for review. One may not automatically trigger the other. If a platform offers both, learn whether blocking can be completed without submitting a report and whether reporting can be done after you have already blocked someone."
+      ],
+      "bullets": [
+        "Find block and report controls from both profile and message views.",
+        "Check whether blocking can be undone and what happens to existing conversations.",
+        "Identify the platform’s stated route for urgent safety concerns."
+      ]
+    },
+    {
+      "heading": "Compare what blocking actually changes",
+      "paragraphs": [
+        "The label “block” can cover different behaviors. It may stop new messages, hide your profile from a specific account, remove a match, or do only some of these things. Check the explanation before relying on it. Also look for any stated limits, such as whether a blocked person can still see material already shared or encounter a public profile through another route.",
+        "Consider the visibility side of blocking. Some services explain whether the other account is notified; others may simply make a conversation disappear. Do not assume either approach. If you are concerned about an immediate interaction, prioritize the action that ends contact and then review the details when it is safe to do so. A discreet, easy-to-find control can be more useful than a long list of options hidden in settings."
+      ],
+      "table": {
+        "caption": "Questions to use when comparing block and report tools",
+        "headers": [
+          "Tool",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Block",
+            "Effect on messages, matching, and profile visibility",
+            "Shows whether contact is actually limited"
+          ],
+          [
+            "Report",
+            "Available categories and information requested",
+            "Helps you understand what the service can review"
+          ],
+          [
+            "Evidence",
+            "Whether relevant messages or profile details can be included",
+            "May reduce the need to reconstruct events later"
+          ],
+          [
+            "Follow-up",
+            "Whether a status or response is provided",
+            "Sets realistic expectations after submission"
+          ],
+          [
+            "Appeal or support",
+            "How to ask questions or correct an error",
+            "Clarifies the next step if the initial process is unclear"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand the reporting form and evidence request",
+      "paragraphs": [
+        "Review the report categories and the information the service asks for. Specific options can help route a report, while a single broad category may require a concise explanation. Check whether the form asks you to identify a message, profile, date, or other context. Do not send more personal information than the form requires, and avoid including unrelated private conversations or details about other people.",
+        "If you decide to report, preserve relevant information before content becomes unavailable, where doing so is safe and permitted. A brief private note of dates, account identifiers, and what occurred can help you describe the issue accurately. Do not alter or circulate private material, and do not assume a screenshot is necessary or allowed. Follow the platform’s instructions about evidence, and use local emergency or support resources for immediate danger rather than waiting for an online review."
+      ],
+      "bullets": [
+        "Use the closest available report category and explain the issue factually.",
+        "Keep a private record of key dates and account details when appropriate.",
+        "Avoid sending sensitive information that is not relevant to the report."
+      ]
+    },
+    {
+      "heading": "Read the response and escalation information",
+      "paragraphs": [
+        "A platform should explain, at least in general terms, what happens after a report is submitted. Look for information about review, possible account actions, whether you receive an update, and how to contact support if the process fails. This information helps set expectations; it does not guarantee a particular outcome, timetable, or explanation about another member’s account.",
+        "Notice whether the service distinguishes between ordinary reports and urgent threats. If a concern involves immediate physical danger, coercion, or a credible threat, an app’s review queue is not an emergency service. Use appropriate local emergency or specialist support channels. The platform can still be notified, but it should not be treated as the only response route."
+      ]
+    },
+    {
+      "heading": "Protect your account and personal information while responding",
+      "paragraphs": [
+        "Safety tools work best when paired with basic account security. Use a strong, unique password where available, review active sessions, and keep recovery information current. If you are worried about someone accessing your device or account, consider changing credentials from a device you trust and reviewing sign-in notifications. Avoid announcing a safety action to the person if doing so could increase risk.",
+        "Before contacting support, check what identifying information will appear in the request and whether replies could arrive by email or as a notification. If you share a device or mailbox, consider whether those messages could be seen by someone else. These steps are not a substitute for the platform’s security settings, but they can reduce accidental disclosure while you seek help."
+      ]
+    },
+    {
+      "heading": "Use a short comparison checklist",
+      "paragraphs": [
+        "Compare services with the same questions rather than relying on a general impression of safety. A platform that clearly explains its limits may be easier to assess than one that uses broad assurances without describing the actual tools. Record unknowns separately from confirmed features, and seek clarification before building a profile if a specific safety function is essential to you.",
+        "Revisit the process after major account or interface changes. Menu locations, report categories, and support instructions can change over time. Keep your own boundaries central: leave a conversation, block, or stop using a service when that is the right choice for you. A platform’s tools can support those decisions but cannot make another person respectful or guarantee a response."
+      ],
+      "bullets": [
+        "Can I block from the profile and the conversation?",
+        "Does the service explain what blocking changes?",
+        "Can I report a profile or message with relevant context?",
+        "Are follow-up expectations and support routes explained?",
+        "Can I use these tools without exposing extra personal details?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I block someone before reporting them?",
+      "answer": "There is no universal sequence. If ending contact is your immediate priority, use the block control and then check whether a report can still be submitted. Platform workflows differ, so confirm whether blocking removes access to relevant messages or profile information."
+    },
+    {
+      "question": "Will the platform tell me what action it took?",
+      "answer": "That depends on its stated process. Some services may confirm receipt or provide limited follow-up, while privacy rules can restrict details about another account. Avoid assuming a report will result in a particular response."
+    },
+    {
+      "question": "What if the report form does not match my concern?",
+      "answer": "Choose the closest accurate category and provide a concise factual explanation if there is a text field. If the issue is urgent, use an appropriate direct support or emergency channel rather than relying only on a general report form."
+    },
+    {
+      "question": "Does a block guarantee the other person cannot find me?",
+      "answer": "No. Blocking may limit specific interactions, but its reach depends on the platform’s design and account settings. Review the stated scope and avoid treating a block as a guarantee of complete invisibility."
+    }
+  ]
+};

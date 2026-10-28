@@ -1,0 +1,130 @@
+export default {
+  "slug": "creator-platform-team-permissions-access-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Team Roles and Account Access Before Delegating",
+  "description": "A creator-focused checklist for comparing team permissions, shared access, account security, and offboarding controls on fan platforms.",
+  "excerpt": "Delegating routine work can help creators manage a platform account, but broad shared access creates avoidable business and privacy risks. Learn how to compare roles, permissions, sign-in protections, and access removal.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Prefer named team accounts and limited roles over sharing the creator’s primary password.",
+    "Map each task to the minimum permission needed, especially for publishing, messaging, billing, and account settings.",
+    "Check how to revoke access and whether the account owner can review sign-in history or active sessions.",
+    "Document who owns recovery methods, payment settings, and final approval of important changes.",
+    "Use a repeatable offboarding checklist when a contractor or team member stops working with you."
+  ],
+  "sections": [
+    {
+      "heading": "Treat account access as an operating decision",
+      "paragraphs": [
+        "Creators may delegate scheduling, moderation, customer support, or administrative work. Those tasks do not necessarily require the same level of access. Before inviting anyone, list the work to be done and identify which areas of the account that work touches. A person who prepares posts may not need authority to change payment details, alter recovery settings, or close the account.",
+        "Start by checking whether the platform supports named team members, role-based permissions, or separate workspaces. If it offers only one shared login, treat that as a material limitation and consider whether delegation is still appropriate. A shared credential makes it difficult to identify who performed an action, remove just one person’s access, or keep account security settings under the owner’s control."
+      ],
+      "bullets": [
+        "Write down each delegated task before assigning access.",
+        "Separate day-to-day work from ownership and financial control.",
+        "Avoid sharing the primary password when individual access is available."
+      ]
+    },
+    {
+      "heading": "Map tasks to the smallest useful permission",
+      "paragraphs": [
+        "Compare permissions by function rather than by role title. A role called “manager” can mean different things across services. Inspect what it can do with posts, subscriber messages, pricing or offer settings, analytics, payout information, account recovery, and team invitations. Look for permissions that are bundled together and identify any action that should remain owner-only.",
+        "A simple access matrix can show where risk concentrates. For example, a moderator may need to view and respond to certain messages but not export account data or modify payout settings. A publishing assistant may prepare drafts without being able to publish them. If the platform cannot separate these tasks, introduce compensating steps such as owner approval, limited access periods, or keeping sensitive work outside the shared account."
+      ],
+      "table": {
+        "caption": "Example access-planning matrix for a creator account",
+        "headers": [
+          "Task",
+          "Possible minimum access",
+          "Owner check"
+        ],
+        "rows": [
+          [
+            "Prepare draft posts",
+            "Draft or content-preparation access",
+            "Who approves publication?"
+          ],
+          [
+            "Moderate messages",
+            "Limited message or moderation access",
+            "Can the role view unrelated account data?"
+          ],
+          [
+            "Review performance",
+            "Read-only reporting access, if available",
+            "Can reports be exported or shared?"
+          ],
+          [
+            "Manage billing",
+            "Owner-controlled access where practical",
+            "Who can change payment or renewal settings?"
+          ],
+          [
+            "Invite team members",
+            "Restricted to the account owner",
+            "Can an invitee add further users?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check sign-in, verification, and activity visibility",
+      "paragraphs": [
+        "Review how invited users authenticate and whether each person can secure their own sign-in. Check available protections such as multi-step verification, sign-in alerts, device lists, and active-session controls without assuming every platform offers them. If team members share one password, an account owner may have less visibility into who signed in and from where.",
+        "Ask how the platform records administrative actions. An activity log can help explain an unexpected change, but its presence and detail vary. Look for a way to review team membership, recent sign-ins, changes to important settings, and invitations. Keep a separate internal record of access grants and removals, including the reason and date, so that account administration does not depend entirely on a platform dashboard."
+      ],
+      "bullets": [
+        "Use individual accounts where possible.",
+        "Confirm who controls recovery email addresses and phone numbers.",
+        "Review sign-in sessions and alerts after access changes."
+      ]
+    },
+    {
+      "heading": "Protect ownership and recovery controls",
+      "paragraphs": [
+        "The account owner should know which email, phone number, identity checks, or other recovery methods are attached to the account. These details can determine who can regain access after a lost device, staff change, or security incident. Keep recovery channels current and avoid routing critical recovery messages to an address controlled only by a temporary contractor.",
+        "Clarify who can change account ownership, payout destinations, tax or business records, and public profile details. The exact controls vary, so read platform documentation and inspect account settings. If ownership cannot be transferred or delegated cleanly, record that dependency as a continuity risk and make sure the responsible owner can still access the account independently."
+      ]
+    },
+    {
+      "heading": "Create an access-grant and review routine",
+      "paragraphs": [
+        "Use a written onboarding checklist for every new team member. State the tasks, access level, expected duration, approval boundaries, and the right person to contact when something looks wrong. Train people not to reuse passwords, export subscriber information unnecessarily, or move account conversations to personal channels without a clear operational reason.",
+        "Review access periodically and whenever responsibilities change. Remove permissions that are no longer needed instead of leaving them in place “just in case.” A brief monthly or quarterly review can compare the current team list with the work plan, though the appropriate interval depends on how often the team changes and how sensitive the work is. Keep the review factual and document unresolved platform limitations."
+      ]
+    },
+    {
+      "heading": "Plan offboarding before a team member leaves",
+      "paragraphs": [
+        "Offboarding should be a sequence, not an informal reminder to stop signing in. Revoke platform invitations, end active sessions where possible, rotate any shared credentials, and review recovery methods and connected tools. Check whether the person had access to message exports, draft libraries, payment settings, or external services, and remove those permissions too.",
+        "Preserve business records that the creator is entitled and required to retain, while limiting unnecessary copies of personal or subscriber information. Confirm that work files are stored in creator-controlled locations and that account ownership does not depend on a departing person’s email or device. If a platform cannot show or revoke a specific session, contact its support channel and record the limitation and follow-up."
+      ],
+      "bullets": [
+        "Remove the person’s named account or invitation.",
+        "Review active sessions, connected services, and recovery details.",
+        "Change shared credentials and verify that the owner can sign in.",
+        "Confirm that essential work records remain under creator control."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it safe to share my creator account password with an assistant?",
+      "answer": "Sharing a primary password can make accountability and access removal harder. If named team access or role-based permissions are available, use those instead. If the platform allows only one login, assess the risk carefully and strengthen account security and offboarding procedures."
+    },
+    {
+      "question": "Which account areas should usually stay owner-controlled?",
+      "answer": "Consider keeping ownership, recovery methods, payout destinations, billing, and authority to invite additional team members under the creator’s control. The right division depends on the platform’s permissions and your business arrangements."
+    },
+    {
+      "question": "What should I do when a contractor finishes?",
+      "answer": "Remove their platform access, end active sessions if the service permits it, rotate shared credentials, review connected tools and recovery settings, and confirm that key records are stored in creator-controlled locations."
+    },
+    {
+      "question": "What if a platform does not offer separate roles?",
+      "answer": "Treat the lack of role separation as a real operational limitation. You may decide not to delegate sensitive tasks through that account, use owner review for changes, or limit access to tasks that do not require the shared login."
+    }
+  ]
+};
