@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T16:07:02.296Z",
+  "generatedAt": "2026-10-28T16:58:21.160Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-publisher-catalog-model-comparison.json",
-    "ops/editorial/content-artifacts/adult-games-wishlist-privacy-and-alert-controls.json",
-    "ops/editorial/content-artifacts/adult-shop-stock-status-backorder-substitution-check.json",
-    "ops/editorial/content-artifacts/adult-platform-account-email-compartmentalization-workflow.json",
-    "ops/editorial/content-artifacts/affiliate-mobile-app-handoff-attribution-audit.json"
+    "ops/editorial/content-artifacts/live-cam-camera-microphone-permission-review.json",
+    "ops/editorial/content-artifacts/adult-dating-cancellation-exit-sequence.json",
+    "ops/editorial/content-artifacts/creator-platform-content-audience-portability-plan.json",
+    "ops/editorial/content-artifacts/premium-video-payment-failure-access-review.json",
+    "ops/editorial/content-artifacts/vr-platform-account-federated-sign-in-privacy-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-publisher-catalog-model-comparison.js",
-    "src/data/guides/adult-games-wishlist-privacy-and-alert-controls.js",
-    "src/data/guides/adult-shop-stock-status-backorder-substitution-check.js",
-    "src/data/guides/adult-platform-account-email-compartmentalization-workflow.js",
-    "src/data/guides/affiliate-mobile-app-handoff-attribution-audit.js"
+    "src/data/guides/live-cam-camera-microphone-permission-review.js",
+    "src/data/guides/adult-dating-cancellation-exit-sequence.js",
+    "src/data/guides/creator-platform-content-audience-portability-plan.js",
+    "src/data/guides/premium-video-payment-failure-access-review.js",
+    "src/data/guides/vr-platform-account-federated-sign-in-privacy-review.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "privacy-safety-payment",
-    "webmaster-affiliate"
+    "live-cams",
+    "dating-hookups",
+    "creator-platforms",
+    "premium-videos",
+    "vr-ar"
   ],
   "backlogIds": [
-    "vr-platform-publisher-catalog-model-comparison",
-    "adult-games-wishlist-privacy-and-alert-controls",
-    "adult-shop-stock-status-backorder-substitution-check",
-    "adult-platform-account-email-compartmentalization-workflow",
-    "affiliate-mobile-app-handoff-attribution-audit"
+    "live-cam-camera-microphone-permission-review",
+    "adult-dating-cancellation-exit-sequence",
+    "creator-platform-content-audience-portability-plan",
+    "premium-video-payment-failure-access-review",
+    "vr-platform-account-federated-sign-in-privacy-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40722089237",
-  "phase": "closed"
+  "r1CycleId": "40730840441"
 }

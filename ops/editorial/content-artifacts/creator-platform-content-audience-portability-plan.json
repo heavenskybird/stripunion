@@ -1,0 +1,123 @@
+{
+  "backlogId": "creator-platform-content-audience-portability-plan",
+  "slug": "creator-platform-content-audience-portability-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Build a Content and Audience Portability Plan Before You Need One",
+  "description": "A practical creator-operations guide to checking export options, organizing original files, documenting audience permissions, and preparing for a platform change.",
+  "excerpt": "A creator may be able to keep original files while still lacking an easy way to move posts, links, or audience records. Map what can be exported and what must be rebuilt before a disruption forces a rushed decision.",
+  "keyTakeaways": [
+    "Separate files you control from platform-hosted posts, messages, analytics, and audience records.",
+    "Check export options before relying on a platform as your only copy or business record.",
+    "Keep a structured archive of originals and publication details that you are permitted to retain.",
+    "Do not assume you can transfer a fan list or contact details to another service.",
+    "Prepare a migration checklist that respects audience consent, platform terms, and privacy obligations."
+  ],
+  "sections": [
+    {
+      "heading": "Define what portability means for your work",
+      "paragraphs": [
+        "Portability is not one feature. It may mean retrieving original media, downloading captions or descriptions, retaining a record of what was published, moving approved links, or understanding whether a platform provides an export of account information. These items can have different access rules, formats, and practical value. A platform that lets you download a file may not provide a usable archive of comments, messages, analytics, or audience relationships.",
+        "Start by listing the business materials you rely on. Separate creator-owned originals and working files from platform-generated records and information about other people. This distinction helps you ask precise questions and avoids assuming that access to a dashboard means you own or may export everything shown there. Check the platform’s terms and privacy information before making a portability plan."
+      ],
+      "table": {
+        "caption": "Map portability by information type",
+        "headers": [
+          "Information",
+          "Portability question"
+        ],
+        "rows": [
+          [
+            "Original media and working files",
+            "Do you keep a separate source copy, and can you retrieve any platform-only version?"
+          ],
+          [
+            "Published posts and descriptions",
+            "Can you export text and publication details in a format you can use?"
+          ],
+          [
+            "Audience and contact records",
+            "Does the platform permit export, and what consent or privacy limits apply?"
+          ],
+          [
+            "Analytics and transaction records",
+            "Can you save statements or reports for records you are entitled to retain?"
+          ],
+          [
+            "Links and promotional materials",
+            "Which links will need updating if a page or account changes?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Audit export options before a change is urgent",
+      "paragraphs": [
+        "Look in account settings, help materials, and data or privacy controls for export instructions. Record what the export includes, its file format, and whether the process has limits or requires a support request. If the platform does not explain a particular data type, mark it as unknown instead of treating its presence in a dashboard as evidence that it can be exported.",
+        "Where permitted, test the process with a small, low-risk export. Confirm that the file opens, that dates and labels are understandable, and that you can identify what is missing. An export that technically downloads but cannot be sorted or interpreted may have limited operational value. Keep the test focused and store the result securely, especially if it contains personal, financial, or audience information."
+      ],
+      "bullets": [
+        "Check the current export instructions and any stated limits.",
+        "Record which categories of information are included or excluded.",
+        "Open a sample export and verify its structure.",
+        "Store sensitive exports with access limited to people who need them."
+      ]
+    },
+    {
+      "heading": "Maintain a separate archive of creator-controlled materials",
+      "paragraphs": [
+        "A separate archive reduces reliance on a platform for access to your own working materials. Organize original files, approved edits, captions, descriptions, and publication dates in a consistent folder structure. Use clear filenames or a simple index so that files can be located without depending on a platform search page. Retain only material you have the right to keep, and follow any agreements or obligations that apply to collaborators.",
+        "Keep the archive distinct from records about fans or customers. A content backup and an audience export raise different privacy and permission questions. Protect the archive with strong account security and a backup approach appropriate to your risks. Test that important files can be opened and restored; a backup that cannot be located or read is not a dependable operational record."
+      ]
+    },
+    {
+      "heading": "Treat audience portability as a consent question",
+      "paragraphs": [
+        "A platform’s access to audience information does not automatically mean a creator can copy it elsewhere or use it for a new purpose. Before exporting contact details or sending migration messages, check the platform’s rules and the permissions people gave when they shared information. Privacy rules may also depend on where you and your audience are located, so avoid treating a general business practice as universally permitted.",
+        "Prefer audience communication methods that are transparent and within the applicable terms. Explain why you are contacting people, avoid adding anyone to a new list without the required permission, and provide an appropriate way to decline further messages where required. If you cannot establish that transfer or reuse is allowed, do not make the transfer part of the plan; use a permitted public update or another compliant route instead."
+      ]
+    },
+    {
+      "heading": "Prepare a migration record without copying everything",
+      "paragraphs": [
+        "A useful migration record describes how to continue the business, not just how to duplicate a platform account. Note which content is available in your archive, which posts rely on platform-specific features, which links need review, and which records cannot be transferred. Identify dependencies such as scheduled releases, external promotional pages, or team workflows that may need attention if access changes.",
+        "Keep the record factual and dated. List who is responsible for checking exports, updating approved links, notifying audiences through permitted channels, and retaining necessary business records. Avoid collecting extra personal information merely because it could be convenient later. The goal is to know what you can lawfully and practically move, what must be recreated, and what must remain behind."
+      ],
+      "bullets": [
+        "List content and business records by source and owner.",
+        "Mark each item as exportable, separately archived, rebuildable, or unknown.",
+        "Identify public links and workflows that depend on the platform.",
+        "Assign a responsible person and a review date for the plan."
+      ]
+    },
+    {
+      "heading": "Review the plan when terms or operations change",
+      "paragraphs": [
+        "Export controls, account settings, and platform terms can change. Review the plan when you change platforms, add collaborators, change the way you collect audience information, or learn that an export is no longer available. Make sure the archive still opens and that the people who need access can retrieve it without sharing a single personal login.",
+        "Portability is a resilience measure, not a promise that every relationship or piece of platform data can be moved. A clear map of what you control, what you can export, and what you may not transfer supports better decisions and reduces the risk of rushed, privacy-invasive workarounds."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I move my fan or subscriber list to another platform?",
+      "answer": "Do not assume you can. Check the platform’s rules, the permissions people gave, and the privacy requirements that apply to your situation. A list visible in a dashboard is not automatically transferable for a new use."
+    },
+    {
+      "question": "Does an export feature mean all account content is portable?",
+      "answer": "No. Export tools may include some information and exclude other material, or provide data in a format that is difficult to reuse. Check the stated scope and inspect a sample export before relying on it."
+    },
+    {
+      "question": "What should creators back up first?",
+      "answer": "Start with materials you control and are permitted to retain, such as original working files and publication details needed for business operations. Treat audience information and platform-generated records as separate categories with their own access and privacy rules."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
