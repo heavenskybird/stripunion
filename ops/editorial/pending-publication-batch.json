@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T18:01:32.569Z",
+  "generatedAt": "2026-10-28T18:52:22.042Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-download-access-and-file-boundaries-audit.json",
-    "ops/editorial/content-artifacts/adult-games-community-review-evidence-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-charging-compatibility-preflight.json",
-    "ops/editorial/content-artifacts/adult-manga-page-image-readability-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-download-cloud-backup-exposure-audit.json"
+    "ops/editorial/content-artifacts/adult-dating-profile-identifying-clues-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-multi-property-account-fit.json",
+    "ops/editorial/content-artifacts/creator-platform-tier-access-publication-qa.json",
+    "ops/editorial/content-artifacts/live-cam-public-and-paid-access-model-comparison.json",
+    "ops/editorial/content-artifacts/premium-video-single-vs-multi-publisher-library-model.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-download-access-and-file-boundaries.js",
-    "src/data/guides/adult-games-storefront-community-review-evidence-checklist.js",
-    "src/data/guides/adult-shop-product-charging-and-power-compatibility-checklist.js",
-    "src/data/guides/adult-manga-platform-page-image-readability-check.js",
-    "src/data/guides/adult-platform-device-downloads-and-cloud-backup-privacy-check.js"
+    "src/data/guides/adult-dating-profile-identifying-clues-audit.js",
+    "src/data/guides/webmaster-affiliate-multi-property-account-fit.js",
+    "src/data/guides/creator-platform-tier-access-publication-qa.js",
+    "src/data/guides/live-cam-public-and-paid-access-model-comparison.js",
+    "src/data/guides/premium-video-single-vs-multi-publisher-library-model.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "privacy-safety-payment"
+    "dating-hookups",
+    "webmaster-affiliate",
+    "creator-platforms",
+    "live-cams",
+    "premium-videos"
   ],
   "backlogIds": [
-    "free-video-download-access-and-file-boundaries-audit",
-    "adult-games-community-review-evidence-audit",
-    "adult-shop-product-charging-compatibility-preflight",
-    "adult-manga-page-image-readability-audit",
-    "adult-platform-download-cloud-backup-exposure-audit"
+    "adult-dating-profile-identifying-clues-audit",
+    "webmaster-affiliate-multi-property-account-fit",
+    "creator-platform-tier-access-publication-qa",
+    "live-cam-public-and-paid-access-model-comparison",
+    "premium-video-single-vs-multi-publisher-library-model"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40740605000",
-  "phase": "closed"
+  "r1CycleId": "40748840507"
 }

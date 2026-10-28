@@ -1,0 +1,124 @@
+{
+  "backlogId": "creator-platform-tier-access-publication-qa",
+  "slug": "creator-platform-tier-access-publication-qa",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Test Subscriber Access Before Publishing Tiered Content",
+  "description": "A practical QA workflow for creators using subscription tiers: verify who can view a post, what previews reveal, and how access changes after edits.",
+  "excerpt": "Before a tiered post goes live, test its audience, preview and visibility settings. A repeatable access check can prevent content from appearing in the wrong place.",
+  "keyTakeaways": [
+    "Treat audience selection, preview visibility and public profile display as separate settings to verify.",
+    "Test with a low-risk draft or preview where the platform permits, and do not use a real subscriber account without consent.",
+    "Check access after editing, scheduling or changing a post's tier rather than assuming the original setting persists.",
+    "Keep a publication log that records the intended audience and the final verified settings."
+  ],
+  "sections": [
+    {
+      "heading": "Turn the intended audience into a clear rule",
+      "paragraphs": [
+        "Tiered publishing can involve several distinct audiences: people who are not subscribers, followers, subscribers at different levels and former subscribers. Before composing a post, write down who should be able to see the full item, any preview and its descriptive text. This makes the intended access explicit instead of relying on a tier name remembered from a previous publication.",
+        "Do not assume that a tier label controls every surface where a post might appear. The post body, thumbnail, caption, feed card, profile page and notification preview may have different visibility rules. Consult the platform's current publishing controls and help material, then verify the selected audience in the actual draft or preview."
+      ],
+      "bullets": [
+        "Write an audience statement for each post: full access, preview access and intended exclusions.",
+        "Identify all surfaces where title, image or excerpt may appear.",
+        "Record any uncertainty rather than treating an unclear setting as safe."
+      ]
+    },
+    {
+      "heading": "Use drafts and previews as a controlled test",
+      "paragraphs": [
+        "If the platform offers draft, preview or test-publishing tools, use them to inspect the post before release. Check the audience selector, displayed tier, thumbnail, excerpt and any shareable link. A preview is useful evidence but may not reproduce every account state, device layout or notification behavior, so avoid treating one successful preview as proof of every access condition.",
+        "Where a platform does not provide a safe test mode, choose a low-risk post to learn how its controls work, and avoid testing with sensitive material. Do not create misleading accounts or access another person's account to simulate a subscriber. If a test requires a real user, obtain their informed agreement and limit what they can see."
+      ],
+      "bullets": [
+        "Use a draft or preview before publishing, if available.",
+        "Check the post from the creator view and a permitted viewer view.",
+        "Use non-sensitive material to learn an unfamiliar publishing workflow."
+      ]
+    },
+    {
+      "heading": "Check the whole visibility path, not only the main post",
+      "paragraphs": [
+        "A post may be protected while its title, cover image, excerpt or announcement remains visible elsewhere. Before release, inspect the public-facing profile and any feed or notification preview the platform exposes. Confirm that a preview does not disclose information you intended to reserve for a particular audience, and that the title does not accidentally reveal a private collaboration, personal detail or unreleased project.",
+        "Review external links and embeds separately. If a post points to another page, confirm that the destination uses the intended access rules too. Platform-level restrictions do not automatically control copies, screenshots, browser notifications or third-party services. Explain access limits clearly to fans without promising that content cannot be copied."
+      ],
+      "bullets": [
+        "Review title, preview image, excerpt and notification text as independent surfaces.",
+        "Check links and embedded destinations for their own access controls.",
+        "Avoid claims that a platform setting prevents copying or redistribution."
+      ]
+    },
+    {
+      "heading": "Recheck after edits, scheduling and tier changes",
+      "paragraphs": [
+        "A post's access can be affected by later actions. Editing the audience, moving a scheduled post, changing a tier or duplicating an existing post may leave a setting different from the one expected. Build a final check into the publication workflow immediately before release, and repeat it after any material change.",
+        "For scheduled posts, verify both the saved schedule and the audience attached to the queued item. If you edit a post after it has been published, check whether earlier viewers retain access, whether new viewers gain access and whether the platform sends an update. The precise behavior depends on the service, so confirm it through current documentation or a safe test rather than guessing."
+      ],
+      "table": {
+        "caption": "Tiered-post release check",
+        "headers": [
+          "Stage",
+          "Verify",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Draft",
+            "Correct audience, title, media and preview",
+            "Intended tier and draft version"
+          ],
+          [
+            "Pre-release",
+            "Full post and preview surfaces match intent",
+            "Final reviewer and check time"
+          ],
+          [
+            "After edit",
+            "Audience and scheduled status remain correct",
+            "What changed and why"
+          ],
+          [
+            "After release",
+            "Post appears as intended in approved viewer view",
+            "Observed state and follow-up needed"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build an accountable publication routine",
+      "paragraphs": [
+        "A simple release log helps creators and teams catch mistakes and respond clearly. Record the post identifier, intended audience, scheduled or publication time, reviewer and any changes made after approval. Keep the log factual and limited to what is needed; avoid recording subscriber identities or sensitive information unnecessarily.",
+        "If a post appears to have been available to the wrong audience, act promptly. Use the platform's controls to correct or remove access where possible, preserve the relevant post settings and timestamps, and communicate with affected subscribers when appropriate. Do not assume that changing a setting retracts views or copies already made. After resolving the immediate issue, identify whether the cause was an unclear audience rule, a missed review step or a confusing interface."
+      ],
+      "bullets": [
+        "Use a two-person check for posts with especially sensitive previews or collaborations.",
+        "Record corrections without collecting unnecessary fan data.",
+        "After an access error, review the workflow and update the checklist."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does selecting a subscriber tier hide every part of a post from non-subscribers?",
+      "answer": "Not necessarily. The full content, title, image, excerpt and notification preview may have different visibility rules. Check each surface in the platform's current controls and verify the result before publishing."
+    },
+    {
+      "question": "Can I use a test account to check tier access?",
+      "answer": "Use only testing methods the platform permits. A draft or preview is preferable; if a real viewer is needed, obtain their consent and use low-risk material. Do not use someone else's account or misrepresent your identity to bypass access controls."
+    },
+    {
+      "question": "If I change a post's tier after publication, does that remove access for everyone who already viewed it?",
+      "answer": "You should not assume that. A changed setting may affect future access, but it cannot necessarily retract prior views, saved copies, screenshots or notifications. Check the platform's documented behavior and address any unintended exposure directly."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
