@@ -1,0 +1,164 @@
+export default {
+  "slug": "free-video-keyboard-navigation-usability-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Test Keyboard Navigation and Player Controls",
+  "description": "Use a repeatable keyboard-only check to compare free video sites’ navigation, search, player controls, and account prompts before relying on them.",
+  "excerpt": "A quick keyboard audit can reveal whether you can reach search, operate the player, and dismiss overlays without a mouse. Compare the same tasks across candidate platforms.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Test the full path from page load to search results and player controls using only a keyboard.",
+    "Check whether focus is visible and moves in a logical order, especially around overlays and advertisements.",
+    "Confirm that play, pause, volume, captions, and exit controls can be reached and identified.",
+    "Record interruptions and keyboard traps separately from general page clutter.",
+    "Use the same device, browser, and tasks when comparing platforms so the results are meaningful."
+  ],
+  "sections": [
+    {
+      "heading": "Why test keyboard access before choosing",
+      "paragraphs": [
+        "A site can appear easy to use with a pointer yet make common tasks difficult through keyboard controls alone. This matters to people who prefer keyboard navigation, use assistive technology, have limited pointing-device access, or want to understand how a page behaves when overlays appear. A short hands-on check can reveal whether search, playback, and basic controls are reachable without relying on a platform’s broad accessibility claims.",
+        "This is a usability check, not a formal accessibility certification. Results can vary by browser, device, page layout, and the specific player being used. Keep the scope practical: can you move through the page, identify the current focus, start and control playback, and leave the player without getting stuck? Comparing those tasks gives you concrete evidence about your own routine rather than a vague impression."
+      ],
+      "bullets": [
+        "Choose the same browser and device for each site when possible.",
+        "Use ordinary keyboard navigation, such as Tab, Shift+Tab, Enter, and arrow keys where the interface indicates them.",
+        "Do not enter account or payment details just to test basic navigation.",
+        "Record the page or player state when a task fails."
+      ]
+    },
+    {
+      "heading": "Test the route from landing page to a result",
+      "paragraphs": [
+        "Start at a page that can be accessed without signing in, if available. Use Tab to move through the interface and watch for a visible focus indicator. Can you identify the search field, enter a query, and submit it? Do category or filter controls expose their names and states? If focus moves into a banner or promotional overlay, check whether you can reach its close control and return to the main page.",
+        "Observe the order of focus as well as whether an element can be activated. A control that is technically reachable but announced or presented without a clear purpose can still be difficult to use. Note repeated stops, hidden controls, or places where focus jumps unexpectedly. If the site requires an account before search, record that as an access condition rather than treating it as a keyboard failure."
+      ],
+      "table": {
+        "caption": "Repeatable keyboard tasks for a free-video site",
+        "headers": [
+          "Task",
+          "What to check",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Reach search",
+            "Visible focus, usable text entry, clear submit action",
+            "Pass, partial, blocked, or not tested"
+          ],
+          [
+            "Review results",
+            "Logical focus order and identifiable result controls",
+            "Any skipped or repeated elements"
+          ],
+          [
+            "Open player",
+            "Whether the player can be reached and started",
+            "Prompt, restriction, or control issue"
+          ],
+          [
+            "Operate playback",
+            "Reachable play, pause, volume, and captions where offered",
+            "Which controls were accessible"
+          ],
+          [
+            "Exit or return",
+            "Whether focus can leave the player and reach page navigation",
+            "Any trap or unexpected jump"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Audit player controls and focus behavior",
+      "paragraphs": [
+        "Once a player is open, test the controls you would actually use. Can you find play or pause, adjust volume, and reach captions or other listed options? Some players respond to keyboard shortcuts, but shortcuts differ; use visible controls or documented instructions rather than guessing. Check whether the focus indicator remains visible over the player and whether a control’s purpose is clear before activation.",
+        "Then test how the player handles transitions. Start or pause playback, open a settings menu if available, and close it again. If an overlay appears, determine whether keyboard focus moves into it and can return to the player. A focus trap is a situation where you cannot move out of a component using expected keyboard navigation. Record the steps that caused it so you can repeat the check or explain the issue accurately."
+      ],
+      "paragraphs_continuation": "Avoid judging a feature as absent simply because one key did not work. The control may use another documented method or require focus on the player. If instructions are available, follow them and record the method. If no method is apparent and the control is important to you, mark it as unresolved rather than treating an assumption as a confirmed limitation."
+    },
+    {
+      "heading": "Separate advertisements and overlays from the player",
+      "paragraphs": [
+        "Free video pages may contain several interactive areas around the player, including banners, prompts, or other page elements. Test whether keyboard focus can move past these areas and whether each dismissible overlay has a reachable, identifiable close control. Note whether a new tab or window opens unexpectedly when activating an element. Do not click through unfamiliar external prompts just to complete the audit.",
+        "Distinguish a keyboard issue from an interruption pattern. An advertisement may be visually distracting but still keyboard-accessible; a player control may be hard to reach even when no advertisement is present. Record the two observations separately. This helps you compare sites on the behavior that matters to you and avoids reducing every usability problem to one general “clutter” score."
+      ],
+      "bullets": [
+        "Can you identify the current focus when an overlay appears?",
+        "Can you reach and activate its close or dismissal control?",
+        "Does focus return to a sensible point afterward?",
+        "Can you avoid opening unrelated links or tabs while navigating?"
+      ]
+    },
+    {
+      "heading": "Build a comparable result rather than a vague rating",
+      "paragraphs": [
+        "Use a small set of consistent tasks and record whether each one passed, partly worked, was blocked, or was not tested. Add a short note describing what happened, such as “search field reached after two promotional links” or “could not return focus from settings.” This is more useful than a single rating because another person can see which task succeeded and under what conditions.",
+        "Repeat a failed task once after reloading the page or checking the site’s help instructions. Do not spend money or disable device protections to make a feature work. If the issue appears only on one browser or screen size, include that detail. Your comparison should represent the setup you use, while acknowledging that another device or later interface change may produce a different result."
+      ],
+      "table": {
+        "caption": "Compact comparison record",
+        "headers": [
+          "Area",
+          "Result",
+          "Evidence note"
+        ],
+        "rows": [
+          [
+            "Search and results",
+            "Pass / partial / blocked / not tested",
+            "Where focus moved or what prevented the task"
+          ],
+          [
+            "Player operation",
+            "Pass / partial / blocked / not tested",
+            "Controls reached and method used"
+          ],
+          [
+            "Overlay handling",
+            "Pass / partial / blocked / not tested",
+            "Dismissal and return-focus behavior"
+          ],
+          [
+            "Exit and navigation",
+            "Pass / partial / blocked / not tested",
+            "Whether focus left the player predictably"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Turn the test into a decision",
+      "paragraphs": [
+        "Prioritize the tasks that matter in your actual use. If you mainly search and play a short sample, an inaccessible filter may be less important than being able to pause and leave the player. If captions or volume controls are essential, test those directly rather than assuming that general keyboard access covers them. A platform is a better fit when the required actions are dependable in your setup, not merely because it has more visible features.",
+        "Keep the findings time-bounded. Interfaces change, and a player may be supplied by a separate service from the surrounding page. Note the date, browser, and device when you tested. If a particular control fails, consider using the platform’s support or feedback channel with a concise description of the steps and outcome. Do not include personal account information unless support needs it and the channel is appropriate."
+      ],
+      "bullets": [
+        "My most important keyboard tasks are identified.",
+        "The same tasks were applied to each platform.",
+        "Failures and interruptions are recorded separately.",
+        "Results include the browser and device used.",
+        "The final choice reflects required tasks, not an unsupported overall accessibility claim."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a keyboard test establish whether a platform is fully accessible?",
+      "answer": "No. This workflow checks a limited set of practical tasks. Formal accessibility evaluation requires broader testing, including different assistive technologies and applicable standards."
+    },
+    {
+      "question": "Which keys should I use during the comparison?",
+      "answer": "Start with Tab, Shift+Tab, Enter, and arrow keys when the interface indicates they apply. Use any documented player shortcuts, but do not assume every platform uses the same controls."
+    },
+    {
+      "question": "What should I do if keyboard focus gets stuck?",
+      "answer": "Record the page state and the actions that led to the problem. Try a normal reverse-navigation step or reload if safe, then report the issue through an official feedback channel if needed."
+    },
+    {
+      "question": "Should I create an account to test keyboard navigation?",
+      "answer": "Not for basic tasks if they are available without signing in. If the platform gates a feature behind an account, record the gate and decide whether account creation is worthwhile before proceeding."
+    }
+  ]
+};

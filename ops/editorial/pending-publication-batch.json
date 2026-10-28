@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T12:59:55.506Z",
+  "generatedAt": "2026-10-28T14:32:17.817Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-app-listing-and-update-path-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-return-policy-prepurchase-map.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-exclusivity-conflict-review.json",
-    "ops/editorial/content-artifacts/adult-platform-lock-screen-notification-privacy-audit.json",
-    "ops/editorial/content-artifacts/premium-video-preview-access-evaluation.json"
+    "ops/editorial/content-artifacts/live-cam-billing-descriptor-privacy-review.json",
+    "ops/editorial/content-artifacts/creator-platform-post-subscription-access-map.json",
+    "ops/editorial/content-artifacts/adult-dating-off-platform-transition-safety-plan.json",
+    "ops/editorial/content-artifacts/adult-anime-localization-language-comparison.json",
+    "ops/editorial/content-artifacts/free-video-keyboard-navigation-usability-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-app-listing-and-update-path-audit.js",
-    "src/data/guides/adult-shop-return-policy-prepurchase-map.js",
-    "src/data/guides/webmaster-affiliate-exclusivity-conflict-review.js",
-    "src/data/guides/adult-platform-lock-screen-notification-privacy-audit.js",
-    "src/data/guides/premium-video-preview-access-evaluation.js"
+    "src/data/guides/live-cam-billing-descriptor-privacy-review.js",
+    "src/data/guides/creator-platform-post-subscription-access-map.js",
+    "src/data/guides/adult-dating-off-platform-transition-safety-plan.js",
+    "src/data/guides/adult-anime-localization-language-comparison.js",
+    "src/data/guides/free-video-keyboard-navigation-usability-audit.js"
   ],
   "categories": [
+    "live-cams",
+    "creator-platforms",
+    "dating-hookups",
     "hentai-anime",
-    "adult-shops",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "premium-videos"
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-anime-app-listing-and-update-path-audit",
-    "adult-shop-return-policy-prepurchase-map",
-    "webmaster-affiliate-exclusivity-conflict-review",
-    "adult-platform-lock-screen-notification-privacy-audit",
-    "premium-video-preview-access-evaluation"
+    "live-cam-billing-descriptor-privacy-review",
+    "creator-platform-post-subscription-access-map",
+    "adult-dating-off-platform-transition-safety-plan",
+    "adult-anime-localization-language-comparison",
+    "free-video-keyboard-navigation-usability-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40692186037",
-  "phase": "closed"
+  "r1CycleId": "40706231605"
 }
