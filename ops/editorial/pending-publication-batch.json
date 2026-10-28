@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T02:39:53.130Z",
+  "generatedAt": "2026-10-28T04:58:58.044Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-recommendation-feed-transparency-check.json",
-    "ops/editorial/content-artifacts/affiliate-program-application-rejection-remediation.json",
-    "ops/editorial/content-artifacts/creator-platform-recurring-vs-one-time-offer-fit.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-record-visibility-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-accessibility-controls-comparison.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-review-evidence-scorecard.json",
+    "ops/editorial/content-artifacts/free-video-moderation-transparency-review.json",
+    "ops/editorial/content-artifacts/adult-game-capture-privacy-checklist.json",
+    "ops/editorial/content-artifacts/adult-shop-gift-order-privacy-planner.json",
+    "ops/editorial/content-artifacts/live-cam-room-language-translation-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-platform-recommendation-feed-transparency-check.js",
-    "src/data/guides/affiliate-program-application-rejection-remediation-checklist.js",
-    "src/data/guides/creator-platform-recurring-subscription-vs-one-time-offer-fit.js",
-    "src/data/guides/adult-platform-payment-record-visibility-audit.js",
-    "src/data/guides/adult-anime-platform-accessibility-controls-comparison.js"
+    "src/data/guides/vr-adult-platform-review-evidence-scorecard.js",
+    "src/data/guides/free-video-moderation-transparency-review.js",
+    "src/data/guides/adult-game-capture-privacy-checklist.js",
+    "src/data/guides/adult-shop-gift-order-privacy-planner.js",
+    "src/data/guides/live-cam-room-language-translation-check.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "hentai-anime"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "live-cams"
   ],
   "backlogIds": [
-    "dating-recommendation-feed-transparency-check",
-    "affiliate-program-application-rejection-remediation",
-    "creator-platform-recurring-vs-one-time-offer-fit",
-    "adult-platform-payment-record-visibility-audit",
-    "adult-anime-accessibility-controls-comparison"
+    "vr-adult-platform-review-evidence-scorecard",
+    "free-video-moderation-transparency-review",
+    "adult-game-capture-privacy-checklist",
+    "adult-shop-gift-order-privacy-planner",
+    "live-cam-room-language-translation-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40622043757",
-  "phase": "closed"
+  "r1CycleId": "40635037185"
 }

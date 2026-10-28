@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-game-capture-privacy-checklist",
+  "slug": "adult-game-capture-privacy-checklist",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Screenshots, Overlays, and Broadcast Privacy Before Playing",
+  "description": "Check a game's screenshot, overlay, achievement, and broadcast settings before play to reduce accidental exposure on shared devices or social accounts.",
+  "excerpt": "A game can expose more than its on-screen content through screenshots, notifications, overlays, and linked social features. Use this checklist to identify capture paths and set privacy boundaries before launching.",
+  "keyTakeaways": [
+    "Review capture and broadcast settings in the game, launcher, operating system, and any recording tool you use.",
+    "Check whether achievements, activity status, or overlays can reveal a game title to other people.",
+    "Disable or limit automatic capture and public sharing when you do not want activity exposed.",
+    "Test settings with a harmless screen before relying on them for privacy.",
+    "Remember that settings can change after updates or when accounts and devices are linked differently."
+  ],
+  "sections": [
+    {
+      "heading": "Map where game activity can appear",
+      "paragraphs": [
+        "A privacy check for a game is not limited to its own settings menu. Activity may be visible through a launcher profile, friend list, achievement feed, notification, streaming overlay, or operating-system capture feature. Which pathways exist depends on the game, the storefront, the device, and the settings you have enabled. Treat this as a map to inspect, not a claim that every game uses every feature.",
+        "Start by listing the accounts and screens involved when you launch a game. Consider the game account, storefront or launcher account, shared computer profile, console or device account, and any connected streaming or chat service. The question is simple: where could a title, screenshot, status, or notification appear, and who can see that surface? A route you do not use can be marked not applicable rather than assumed to be active."
+      ],
+      "bullets": [
+        "List accounts that launch, update, or display the game.",
+        "Identify shared screens, friend lists, overlays, and notification surfaces.",
+        "Separate local-only display from information that may be shared with an account or service."
+      ]
+    },
+    {
+      "heading": "Check capture and sharing controls at every layer",
+      "paragraphs": [
+        "Look for options related to screenshots, clips, automatic highlights, cloud capture, broadcast, and shared activity. These settings may sit in different menus: inside the game, in a launcher, in the device’s privacy controls, or in a separate capture application. Read what each option controls before changing it. A switch that disables broadcasting may not disable screenshots, and a local capture setting may not control what a linked account displays.",
+        "If you use recording or streaming software, check its scene sources and overlays as well as its destination settings. A desktop capture can include notifications or launcher windows outside the game. A saved clip may also be synchronized or shared through another service depending on your configuration. Do not assume that a private recording stays local unless the relevant tool’s settings and documentation say so."
+      ],
+      "table": {
+        "caption": "Capture and activity privacy review",
+        "headers": [
+          "Surface",
+          "Check",
+          "Safer test or adjustment"
+        ],
+        "rows": [
+          [
+            "Game settings",
+            "Screenshot, clip, replay, and broadcast options.",
+            "Turn off automatic sharing if it is not needed; review manual capture controls."
+          ],
+          [
+            "Launcher or storefront profile",
+            "Game activity, achievements, status, and friend visibility.",
+            "Set activity visibility to the narrowest option that suits your use."
+          ],
+          [
+            "Device notifications",
+            "Title names and alerts shown on a lock screen or shared display.",
+            "Review notification previews and use a non-sensitive test alert."
+          ],
+          [
+            "Recording or streaming tool",
+            "Capture sources, overlays, destinations, and automatic uploads.",
+            "Inspect each source and confirm where test footage is stored."
+          ],
+          [
+            "Shared user profile",
+            "Saved images, recent activity, and accessible account sessions.",
+            "Use separate device profiles where available and sign out when appropriate."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review achievements, status, and overlays",
+      "paragraphs": [
+        "Privacy settings involve trade-offs. Hiding activity may also reduce convenient social features, and disabling capture can make it harder to save a useful screenshot. Choose a configuration that fits your needs rather than switching every feature off without understanding the result. Keep a note of settings that matter so you can recheck them after a software update or account change."
+      ]
+    },
+    {
+      "heading": "Use a low-risk test before depending on settings",
+      "paragraphs": [
+        "Before relying on a privacy setting, test it with a neutral screen or non-sensitive game. Check the profile as another user would see it if that option is available, review the device’s recent captures, and confirm whether a test notification or status message appears on other linked screens. This does not prove that every pathway is closed, but it can catch obvious misconfigurations without exposing sensitive information.",
+        "When testing a recording tool, use a short clip and inspect its destination, filename, synchronization status, and included overlays. Delete the test through the tool’s documented process if you do not need it. Do not assume that removing a local file also removes a copy from a cloud account or shared library; check the service’s storage and deletion controls when that distinction matters."
+      ],
+      "bullets": [
+        "Use a neutral test screen before changing to the game you want to play.",
+        "Check the public or friend-visible profile view if the service provides one.",
+        "Inspect test files and confirm storage or synchronization destinations.",
+        "Repeat the check after updates, account linking, or changes to shared-device access."
+      ]
+    },
+    {
+      "heading": "Build a repeatable launch checklist",
+      "paragraphs": [
+        "A short routine is more reliable than trying to remember every setting in the moment. Before launching, check the account currently signed in, profile activity visibility, notification previews, and capture or broadcast status. If you are on a shared device, confirm that you are using the intended profile and that saved captures are not visible to other users. Close unrelated windows that could appear in a screen recording or shared display.",
+        "Keep the checklist proportional to the device. A personal device with no connected social or capture tools may need only a quick account and notification check. A shared computer or streaming setup warrants a broader review of overlays, destinations, and account visibility. Revisit the checklist when a launcher is reinstalled, an account is linked, or an update resets settings. These checks reduce avoidable exposure; they cannot guarantee that every service or device handles activity in the same way."
+      ],
+      "bullets": [
+        "Confirm the active game and launcher accounts.",
+        "Review status visibility, notifications, and overlays.",
+        "Check whether capture or broadcast is active and where files are stored.",
+        "Use a separate profile or sign out when a shared device makes that the better fit."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a game reveal its title without taking a screenshot?",
+      "answer": "Yes, depending on the game, launcher, and account settings. Activity status, achievements, notifications, or profile history may show a title. Check the visibility settings for each account involved rather than relying only on the game’s own menu."
+    },
+    {
+      "question": "If I disable broadcasting, are screenshots private too?",
+      "answer": "Not necessarily. Broadcast, screenshot, clip, and cloud-sync controls can be separate. Check each feature in the game, launcher, device, and any recording tool you use, and test the configuration with a neutral screen."
+    },
+    {
+      "question": "What should I check before using a streaming or recording overlay?",
+      "answer": "Review capture sources, notifications, chat panels, account names, and the destination where recordings are stored or uploaded. Make a short test using non-sensitive material, then inspect what was captured and where it went."
+    },
+    {
+      "question": "How often should I repeat a game privacy check?",
+      "answer": "Repeat it after a game or launcher update, a change in account linking, a reinstall, or a switch to a shared device. Settings and connected services can change, so a past check is not permanent proof of the current configuration."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
