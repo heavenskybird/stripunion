@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T19:56:50.469Z",
+  "generatedAt": "2026-10-28T20:58:07.282Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-publisher-edition-verification.json",
-    "ops/editorial/content-artifacts/vr-adult-offline-playback-validation.json",
-    "ops/editorial/content-artifacts/free-video-age-check-data-minimization.json",
-    "ops/editorial/content-artifacts/adult-games-mod-support-installation-check.json",
-    "ops/editorial/content-artifacts/adult-shop-product-documentation-claims-check.json"
+    "ops/editorial/content-artifacts/adult-dating-location-precision-and-distance-privacy-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-page-content-eligibility-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-payment-request-authenticity-checklist.json",
+    "ops/editorial/content-artifacts/live-cam-platform-schedule-time-zone-fit-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-moderation-appeal-readiness-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-publisher-edition-verification.js",
-    "src/data/guides/vr-adult-platform-offline-playback-validation.js",
-    "src/data/guides/free-video-platform-age-check-data-minimization.js",
-    "src/data/guides/adult-games-mod-support-installation-check.js",
-    "src/data/guides/adult-shop-product-documentation-claims-check.js"
+    "src/data/guides/adult-dating-location-precision-and-distance-privacy-audit.js",
+    "src/data/guides/webmaster-affiliate-page-content-eligibility-audit.js",
+    "src/data/guides/adult-platform-payment-request-authenticity-checklist.js",
+    "src/data/guides/live-cam-platform-schedule-time-zone-fit-audit.js",
+    "src/data/guides/creator-platform-moderation-appeal-readiness-audit.js"
   ],
   "categories": [
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "dating-hookups",
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "live-cams",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-anime-publisher-edition-verification",
-    "vr-adult-offline-playback-validation",
-    "free-video-age-check-data-minimization",
-    "adult-games-mod-support-installation-check",
-    "adult-shop-product-documentation-claims-check"
+    "adult-dating-location-precision-and-distance-privacy-audit",
+    "webmaster-affiliate-page-content-eligibility-audit",
+    "adult-platform-payment-request-authenticity-checklist",
+    "live-cam-platform-schedule-time-zone-fit-audit",
+    "creator-platform-moderation-appeal-readiness-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40757961287",
-  "phase": "closed"
+  "r1CycleId": "40767631324"
 }
