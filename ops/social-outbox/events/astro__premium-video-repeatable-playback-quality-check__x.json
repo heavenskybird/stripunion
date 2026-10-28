@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/premium-video-repeatable-playback-quality-check",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-28T09:08:16.422Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-28T10:06:07.646Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ae1c90f91b138e3084f580b",
   "provider_due_at": "2026-10-28T14:03:00.000Z",
   "created_at": "2026-10-28T09:08:16.422Z",
-  "updated_at": "2026-10-28T13:03:38.761Z",
+  "updated_at": "2026-10-28T14:36:42.963Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 13,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }

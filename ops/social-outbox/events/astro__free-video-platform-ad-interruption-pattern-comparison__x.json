@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/free-video-platform-ad-interruption-pattern-comparison",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-28T07:32:31.615Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-28T09:08:50.400Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ae1bba217d013af799d236f",
   "provider_due_at": "2026-10-28T13:47:00.000Z",
   "created_at": "2026-10-28T07:32:31.615Z",
-  "updated_at": "2026-10-28T13:03:38.667Z",
+  "updated_at": "2026-10-28T14:36:42.872Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 1,
     "cadence_pressure_before_enqueue": 12,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
