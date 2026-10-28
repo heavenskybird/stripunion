@@ -1,0 +1,121 @@
+{
+  "backlogId": "creator-platform-discovery-source-fit-audit",
+  "slug": "creator-platform-discovery-source-fit-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Whether Discovery Can Reach the Fans You Want",
+  "description": "Assess how creator-platform discovery works, what a new fan can find, and whether platform discovery or direct audience traffic better fits your operation.",
+  "excerpt": "A platform’s discovery model affects how new fans encounter a creator, but the relevant controls and pathways can differ. Use this audit to compare discoverability with the audience you already reach.",
+  "keyTakeaways": [
+    "Map the actual routes a prospective fan can use to find a creator, and distinguish platform discovery from direct links.",
+    "Check whether discovery depends on public profile fields, categories, previews, or other information you are comfortable displaying.",
+    "Assess discovery from the perspective of a logged-out visitor and an existing fan where those views are available.",
+    "Do not assume platform placement, reach, or conversion; verify what the interface and current terms actually show.",
+    "Choose a platform based on the balance between discoverability, privacy, audience ownership, and the work required to bring people in."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the audience route you need",
+      "paragraphs": [
+        "Creators approach platform discovery from different starting points. One may already have an audience and need reliable ways to direct existing followers to a paid page. Another may be assessing whether a platform offers useful ways for unfamiliar users to encounter a profile. These are different jobs. Write down which one matters before comparing platforms, because a feature that supports browsing inside a service may not help a creator who primarily needs dependable external links.",
+        "Map the steps a new person would take: arrive from an outside link, view a public profile, understand the available membership choices, and decide whether to follow or subscribe. Separately map any discovery route that begins inside the platform. If you cannot verify a step using accessible pages or documentation, mark it as unknown rather than treating it as a capability."
+      ],
+      "bullets": [
+        "Identify whether your primary need is external audience conversion, internal discovery, or both.",
+        "List the profile and content details a new visitor can see before subscribing.",
+        "Note any step where a visitor must sign in or create an account before understanding the offer."
+      ]
+    },
+    {
+      "heading": "Audit what platform discovery exposes",
+      "paragraphs": [
+        "Discovery can rely on information that is also visible to visitors: a display name, profile description, category, sample post, or other public-facing material. Check which fields can be made public, which can be limited, and whether the platform explains how each field is used. A creator should not assume that a privacy setting removes all appearance in search, recommendations, or other browsing surfaces unless the service says so.",
+        "Test the experience from more than one perspective if the service allows it. A logged-out view can reveal what a first-time visitor sees; a separate account or preview route may show different navigation. Avoid creating misleading profiles or using someone else’s account. The goal is to understand the ordinary user path and the information that may be exposed as part of participating in discovery."
+      ],
+      "table": {
+        "caption": "Discovery audit: record evidence rather than assumptions",
+        "headers": [
+          "Question",
+          "Evidence to look for",
+          "Decision relevance"
+        ],
+        "rows": [
+          [
+            "How can a new visitor arrive?",
+            "Public profile link, platform browse route, or both",
+            "Shows whether the platform supports your audience-entry plan"
+          ],
+          [
+            "What information is visible?",
+            "Profile fields, samples, categories, and public activity",
+            "Helps balance discovery with privacy and brand boundaries"
+          ],
+          [
+            "Can visibility be changed?",
+            "Available settings and their stated scope",
+            "Clarifies how much control you have over exposure"
+          ],
+          [
+            "What does the visitor need to do?",
+            "Sign-in prompts, preview access, or membership selection steps",
+            "Reveals friction in the route from discovery to decision"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish discovery from audience ownership",
+      "paragraphs": [
+        "A platform may provide profile pages and ways for visitors to browse, but that does not mean a creator controls the relationship or can move followers elsewhere. Examine the platform’s terms and tools for permitted communications, export options, and limits on directing users off-platform. Do not infer portability from the presence of a profile link or follower list.",
+        "Plan for more than one point of contact where your business rules and the platform permit it. Keep a record of which external channels you control and how they connect to the platform. The purpose is continuity, not indiscriminate messaging. A discovery feature can be one source of visitors while your own audience channels remain separate assets with their own privacy, consent, and maintenance responsibilities."
+      ]
+    },
+    {
+      "heading": "Compare the labor behind each discovery path",
+      "paragraphs": [
+        "Discovery is not only a feature question; it can require ongoing work. A platform route may depend on keeping profile details current, organizing public samples, or responding to platform-specific presentation requirements. An external route may require maintaining links and explaining the offer elsewhere. List those tasks and estimate them in time or workflow steps without assuming a particular level of reach.",
+        "Consider whether the platform makes it practical to understand which entry points are being used. If reporting is available, check what it measures, how it defines a visit, and whether the data can be exported or retained. If there is no evidence linking a discovery feature to outcomes, treat it as an unmeasured option rather than a promised source of new fans."
+      ]
+    },
+    {
+      "heading": "Review account controls and commercial terms together",
+      "paragraphs": [
+        "Discovery settings can interact with commercial terms and account controls. Read how a profile may be displayed, what restrictions apply to public previews, and whether the platform reserves discretion over placement or visibility. Review the rules for links, promotional claims, and communications before building an acquisition routine around a feature. A visible control is not necessarily a contractual guarantee about how discovery will work.",
+        "Record where the relevant rule appears and when you checked it. If a public help page and the account interface appear inconsistent, seek clarification before relying on a consequential assumption. Keep the question specific: identify the exact setting, route, or content type you need to understand. That makes it easier to compare policy language with the behavior you can observe."
+      ]
+    },
+    {
+      "heading": "Choose a discovery mix that fits your boundaries",
+      "paragraphs": [
+        "A practical choice does not require maximizing exposure. Decide what level of public identity, profile detail, and sample visibility is acceptable, then eliminate options that cannot respect those boundaries. Among the remaining options, compare how clearly a visitor can understand the offer and how much ongoing work is needed to maintain the route.",
+        "Revisit the decision when your audience strategy changes, a platform revises its controls, or a public profile begins exposing details you did not intend to share. Save a short record of the settings and terms that informed the choice. This turns discovery into a manageable operating decision rather than an assumption that a platform will continuously bring the right people."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does having an internal discovery feature guarantee new subscribers?",
+      "answer": "No. A discovery route is a possible way for visitors to encounter a profile, not a promise of placement, reach, or subscriptions. Verify what route exists and evaluate any available reporting without assuming an outcome."
+    },
+    {
+      "question": "Should a creator make every profile field public to improve discovery?",
+      "answer": "Not automatically. First determine which fields are actually used in public browsing and which can be limited. Then weigh the possible discovery value against privacy, brand, and safety boundaries."
+    },
+    {
+      "question": "How can I compare discovery if I cannot see platform analytics?",
+      "answer": "Document the visible visitor path and any reporting the platform explicitly provides. Mark unmeasured outcomes as unknown. You can compare setup effort and control even when you cannot attribute visits or subscriptions."
+    },
+    {
+      "question": "Is an external audience the same as a portable platform audience?",
+      "answer": "No. Followers or subscribers on a service may be governed by its account tools and terms. Review export and communication rules before assuming you can transfer contact details or relationships elsewhere."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

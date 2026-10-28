@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-creative-rendering-preflight",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Creatives: Check Format and Rendering Before Deployment",
+  "description": "Use a practical preflight to check affiliate banners and other supplied creatives for format, link behavior, responsive display, accessibility, and fallback handling.",
+  "excerpt": "An approved creative can still render poorly in a publisher’s layout. This deployment preflight helps webmasters verify display, links, accessibility, and fallbacks without making unsupported performance assumptions.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Confirm that the specific creative, format, destination, and placement are permitted under current program rules.",
+    "Preview the asset in the real page layout and at multiple viewport sizes before deployment.",
+    "Check link destination, redirect behavior, tracking parameters, and visual interaction as separate items.",
+    "Provide a sensible fallback when an image or embed fails, and preserve a clear link for visitors.",
+    "Record the creative version, approval evidence, placement, and test date so later changes can be traced."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm the asset and placement are permitted",
+      "paragraphs": [
+        "Before testing how a creative looks, identify the exact asset and the placement where you plan to use it. Program approval may apply to a particular file, copy, destination, or context rather than every possible use. Check current terms and any approval notes for restrictions on placement, modification, surrounding content, or link behavior. Do not treat an old approval for one placement as permission for a different campaign or format.",
+        "Keep the source file, version or supplied identifier, approval evidence, and intended page together. If you have edited the asset, confirm whether edits are allowed and whether the revised version needs review. A technically correct banner can still be unsuitable if its wording, destination, or context does not match the program’s rules."
+      ],
+      "bullets": [
+        "Match the file and destination to the specific approved creative.",
+        "Check whether cropping, resizing, translation, or copy changes require approval.",
+        "Record the page, placement, and date of your policy check."
+      ]
+    },
+    {
+      "heading": "Preview the creative in the actual page layout",
+      "paragraphs": [
+        "A file that looks correct in isolation may be clipped, stretched, or visually crowded inside a publisher template. Test it in the component or page where visitors will encounter it, including the surrounding text and layout. Check common screen widths, zoom levels, and orientation changes relevant to your site. Look for overlap with navigation, consent notices, or other controls, and verify that the asset does not force an unexpectedly wide page.",
+        "Check both the image itself and the container around it. Preserve the creative’s intended proportions unless the program permits another treatment. If the asset is responsive, confirm that resizing does not hide a disclosure, truncate important wording, or make the link difficult to select. A preview on one desktop screen is not a substitute for checking the actual responsive layout."
+      ],
+      "table": {
+        "caption": "Creative deployment preflight",
+        "headers": [
+          "Area",
+          "Check",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Asset",
+            "File, version, copy, and approval status match",
+            "Asset identifier and approval source"
+          ],
+          [
+            "Display",
+            "No clipping, distortion, or obstruction at tested widths",
+            "Page, viewport, and test date"
+          ],
+          [
+            "Link",
+            "Destination and redirect behavior are expected",
+            "Tested destination and relevant parameters"
+          ],
+          [
+            "Fallback",
+            "Visitor has a usable alternative if the creative fails",
+            "Fallback text, link, or component behavior"
+          ],
+          [
+            "Accessibility",
+            "Meaningful text alternative and usable interaction are present",
+            "Accessibility checks completed"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the destination and tracking separately",
+      "paragraphs": [
+        "A creative’s appearance does not confirm that its link works. Follow the link in a controlled test and verify that it reaches the intended destination, preserves any authorized tracking parameters, and does not route visitors through an unexpected page. If redirects are used, document the visible route and check that the final destination is consistent with the creative’s wording.",
+        "Use a test method that does not create a false conversion or violate program rules. Do not submit fabricated customer information, trigger paid actions, or repeatedly click live links to inspect behavior. If you cannot validate attribution without affecting reporting, ask the program for a permitted test procedure. Keep the distinction between a successful page load and verified attribution clear."
+      ]
+    },
+    {
+      "heading": "Plan for missing images and blocked embeds",
+      "paragraphs": [
+        "A creative may fail to load because of a temporary network issue, a browser setting, a removed asset, or a blocked external resource. Decide what visitors should see in that case. Where appropriate, provide descriptive alternative text or a plain text link that preserves the offer’s meaning without relying solely on an image. For embedded material, avoid leaving a blank or broken-looking area that obscures surrounding content.",
+        "Fallback behavior should not introduce a new claim or destination that the program has not approved. Use a replacement link or message only when permitted and make it clear to visitors what will happen if they follow it. Recheck the fallback after template changes, because a working component can become hidden or misaligned when page styles are updated."
+      ]
+    },
+    {
+      "heading": "Check usability and accessibility",
+      "paragraphs": [
+        "Verify that the creative can be reached and activated using the interaction methods your site supports. Check that a link has a meaningful accessible name, that text embedded in an image is not the only way to understand an important offer, and that nearby disclosures remain readable. Avoid relying on color alone to communicate a distinction. If an asset includes moving or changing content, review the applicable program rules and your site’s accessibility practices before using it.",
+        "Make sure the link’s clickable area is predictable and does not cover unrelated controls. Test keyboard navigation where relevant, and confirm that focus is visible. These checks improve the visitor’s ability to understand and use the placement; they do not establish that the creative will produce any particular commercial result."
+      ]
+    },
+    {
+      "heading": "Maintain a versioned deployment record",
+      "paragraphs": [
+        "After testing, record the asset version, page location, destination, approval reference, devices or viewport sizes checked, and the test date. Keep only the information needed to reproduce the review; do not collect unnecessary visitor data. A simple change log helps identify whether a rendering problem began after a creative replacement, redirect change, or site-template update.",
+        "Repeat the preflight when the program replaces an asset, changes a destination, revises terms, or when your own page layout changes. Remove or update placements that no longer have valid creative files or approved destinations. This routine helps keep the live site aligned with both the current program instructions and the visitor experience you intended."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a creative is approved, can I resize or edit it?",
+      "answer": "Approval scope varies. Check the program’s current instructions for resizing, cropping, translation, and copy changes. If the permitted treatment is unclear, ask for confirmation before publishing a modified version."
+    },
+    {
+      "question": "How should I test a live affiliate link without affecting reporting?",
+      "answer": "Use a test method the program explicitly permits. Avoid actions that could register a false conversion or breach traffic rules. If no safe test procedure is documented, ask the program before testing."
+    },
+    {
+      "question": "Do I need a fallback if a banner does not load?",
+      "answer": "A fallback can preserve useful context for visitors when an image or embed fails. Use alternative text or another permitted treatment appropriate to the placement, and verify that it does not create an unapproved destination or claim."
+    },
+    {
+      "question": "Does a responsive preview show how a creative will perform?",
+      "answer": "No. It can help reveal display, sizing, and usability issues across viewports, but it does not establish traffic or commercial performance. Keep technical rendering checks separate from outcome claims."
+    }
+  ]
+};
