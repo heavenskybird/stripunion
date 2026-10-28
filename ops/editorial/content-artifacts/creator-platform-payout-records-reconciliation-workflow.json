@@ -1,0 +1,131 @@
+{
+  "backlogId": "creator-platform-payout-records-reconciliation-workflow",
+  "slug": "creator-platform-payout-records-reconciliation-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Reconcile Payout Statements and Keep Reliable Records",
+  "description": "A practical workflow for matching creator-platform payout records with deposits, fees and business bookkeeping without assuming every dashboard reports money the same way.",
+  "excerpt": "Build a repeatable record trail from platform statements to bank deposits. This workflow helps creators spot timing differences, document adjustments and keep payout records usable for bookkeeping.",
+  "keyTakeaways": [
+    "Treat a platform balance, a payout statement and a bank deposit as separate records until you reconcile them.",
+    "Save dated copies of statements and transaction details before dashboard history changes or becomes harder to retrieve.",
+    "Record gross amounts, deductions, adjustments, payout currency and deposit dates as distinct fields rather than one net figure.",
+    "Use a consistent monthly reconciliation routine and flag unexplained differences for follow-up.",
+    "Store sensitive financial records securely and limit access to people who need them."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the question each record answers",
+      "paragraphs": [
+        "A creator dashboard may show earnings, an amount available for withdrawal, a payout initiated, or a transaction marked complete. Those labels do not necessarily describe the same stage of the money flow. A bank statement, meanwhile, records what arrived in an account, not how a platform calculated it. Reconciliation means connecting those records while keeping their distinct meanings intact.",
+        "Before building a spreadsheet, identify the records the platform makes available: activity or earnings reports, payout statements, adjustment or fee details, and transaction identifiers. Then identify the corresponding bank or payment-service records. Do not assume a single dashboard total is a complete accounting record, and do not treat an initiated payout as a confirmed deposit."
+      ],
+      "bullets": [
+        "Use the platform statement to understand its reported calculation.",
+        "Use the payment account record to verify what was received and when.",
+        "Keep bank fees, exchange adjustments, refunds or reversals distinct when the records show them."
+      ]
+    },
+    {
+      "heading": "Build a small, consistent reconciliation ledger",
+      "paragraphs": [
+        "A useful ledger does not need to reproduce every screen in a dashboard. It should preserve enough detail to explain how a reported amount connects to a deposit. Choose a consistent time period, such as a calendar month, and capture the platform, statement period, statement date, payout reference, reported gross amount, deductions or adjustments, payout amount, currency and status. Add the bank arrival date and deposited amount when the transfer is visible.",
+        "Keep platform activity dates separate from payout dates. A payout may relate to activity from an earlier period, while a transfer may arrive later than its status change. Recording both dates prevents an apparent month-end mismatch from being mistaken for missing income. If the platform provides a transaction reference, copy it exactly; it can help connect a statement to a payment record or support request."
+      ],
+      "table": {
+        "caption": "Suggested fields for a creator payout reconciliation ledger",
+        "headers": [
+          "Field",
+          "What to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Statement period",
+            "The dates covered by the platform report",
+            "Separates earning activity from transfer timing"
+          ],
+          [
+            "Payout reference",
+            "The platform's transaction or payout identifier",
+            "Helps connect records when a transfer is delayed or unclear"
+          ],
+          [
+            "Reported calculation",
+            "Gross, deductions, adjustments and net amount as itemized",
+            "Preserves how the platform describes the payout"
+          ],
+          [
+            "Deposit record",
+            "Arrival date, received amount, currency and payment-account reference",
+            "Confirms the amount that reached the receiving account"
+          ],
+          [
+            "Review note",
+            "Difference, explanation, question or follow-up date",
+            "Keeps unresolved items visible instead of silently changing figures"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Save source documents before you need them",
+      "paragraphs": [
+        "A ledger is an index, not a substitute for the documents behind its entries. Save statements, payout confirmations and relevant transaction exports in a private, access-controlled location. Use clear filenames that include the platform name, document type and statement period. Keep the original file when possible; if you add notes or calculations, save those separately so your working copy does not replace the source.",
+        "Check the platform's available export and retention options periodically. An account dashboard may not preserve every view indefinitely, and a temporary screen or email notification may be less useful later than a dated statement. Where exports are unavailable, retain a clear, dated record of the relevant information and note how it was captured. Avoid putting full payment-card numbers, passwords or unnecessary identity documents into the ledger."
+      ],
+      "bullets": [
+        "Keep original statements separate from edited calculations.",
+        "Use a folder structure that makes a specific month and payout easy to find.",
+        "Restrict shared-folder permissions and use account security controls on the storage service.",
+        "Back up records in a secure location, not on an unprotected shared device."
+      ]
+    },
+    {
+      "heading": "Investigate differences without guessing",
+      "paragraphs": [
+        "When a statement and deposit do not match, first compare like with like: the same currency, payout reference and reporting period. Check whether the statement shows adjustments, deductions, a conversion, or a status that has not reached completion. Then compare the platform's recorded transfer amount with the receiving account's posted amount. A difference may reflect timing or an intermediary record, but the available evidence should determine the explanation.",
+        "Do not edit the original amount to force the ledger to balance. Record the difference, the records reviewed and the next action. If you contact support, include the relevant transaction reference and dates, but share only the information needed to identify the issue. Keep the response with the reconciliation record. If the discrepancy remains unresolved, mark it as open rather than carrying forward an unsupported assumption."
+      ]
+    },
+    {
+      "heading": "Make month-end review repeatable",
+      "paragraphs": [
+        "A regular review reduces the amount of detective work required later. At month-end, collect available statements, enter payouts into the ledger, match completed transfers to payment-account records and list anything pending or unexplained. Then check that each entry has a source document or a note describing why it is not yet available. A short review done consistently is often easier to maintain than an elaborate system used only when a problem occurs.",
+        "Keep business records separate from public creator materials and casual messages. A private financial folder should not be shared with collaborators merely because they help with publishing or promotion. If another person handles bookkeeping, decide which documents they need, how they receive them, and how access is removed when responsibilities change. For tax treatment or required retention periods, consult an appropriate qualified professional in your jurisdiction; this workflow is recordkeeping guidance, not tax advice."
+      ],
+      "bullets": [
+        "Mark each payout as matched, pending or under review.",
+        "Reconcile using source records rather than memory or an estimated total.",
+        "Review folder access and record backups periodically.",
+        "Keep unresolved differences visible until documented or closed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I record the platform's gross amount or only the amount deposited?",
+      "answer": "Keep both when the platform provides them, along with itemized deductions or adjustments and the amount reported as payable. The deposit records what reached your payment account; the platform statement explains its calculation. Combining them into one number can hide timing or calculation differences."
+    },
+    {
+      "question": "What if a payout is marked complete but is not visible in my bank account?",
+      "answer": "Record the platform status and date, then check the corresponding payment-account activity and reference details. Avoid treating the status as proof of receipt. If the transfer remains unaccounted for, contact the relevant support channel with the payout identifier and the dates you checked."
+    },
+    {
+      "question": "How often should I reconcile creator-platform payouts?",
+      "answer": "Choose a schedule you can sustain, such as reviewing records monthly and checking pending transfers between reviews when needed. The important part is to keep statement periods, payout dates and deposit dates distinct so delayed transfers do not disappear into a later period."
+    },
+    {
+      "question": "Can I use screenshots instead of downloadable statements?",
+      "answer": "A screenshot can help preserve a view when no export is offered, but note its capture date and what part of the account it shows. Retain downloadable statements or transaction records when available, and do not present a cropped image as if it were a complete statement."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

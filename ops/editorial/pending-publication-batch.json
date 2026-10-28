@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T11:08:51.657Z",
+  "generatedAt": "2026-10-28T11:59:39.480Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-autoplay-and-next-up-controls-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-settlement-currency-and-conversion-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-method-privacy-and-control-matrix.json",
-    "ops/editorial/content-artifacts/live-cam-guest-access-and-account-gate-audit.json",
-    "ops/editorial/content-artifacts/premium-video-player-control-usability-comparison.json"
+    "ops/editorial/content-artifacts/creator-platform-payout-records-reconciliation-workflow.json",
+    "ops/editorial/content-artifacts/adult-dating-contact-sync-discovery-privacy-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-shared-purchase-and-household-access-terms.json",
+    "ops/editorial/content-artifacts/free-video-platform-account-login-security-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-operating-system-and-compatibility-layer-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-autoplay-and-next-up-controls-audit.js",
-    "src/data/guides/webmaster-affiliate-settlement-currency-and-conversion-audit.js",
-    "src/data/guides/adult-platform-payment-method-privacy-and-control-matrix.js",
-    "src/data/guides/live-cam-guest-access-and-account-gate-audit.js",
-    "src/data/guides/premium-video-player-control-usability-comparison.js"
+    "src/data/guides/creator-platform-payout-records-reconciliation-workflow.js",
+    "src/data/guides/adult-dating-contact-sync-discovery-privacy-audit.js",
+    "src/data/guides/vr-adult-platform-shared-purchase-and-household-access-terms.js",
+    "src/data/guides/free-video-platform-account-login-security-checklist.js",
+    "src/data/guides/adult-games-operating-system-and-compatibility-layer-check.js"
   ],
   "categories": [
+    "creator-platforms",
+    "dating-hookups",
     "vr-ar",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "live-cams",
-    "premium-videos"
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "vr-platform-autoplay-and-next-up-controls-audit",
-    "webmaster-affiliate-settlement-currency-and-conversion-audit",
-    "adult-platform-payment-method-privacy-and-control-matrix",
-    "live-cam-guest-access-and-account-gate-audit",
-    "premium-video-player-control-usability-comparison"
+    "creator-platform-payout-records-reconciliation-workflow",
+    "adult-dating-contact-sync-discovery-privacy-audit",
+    "vr-adult-platform-shared-purchase-and-household-access-terms",
+    "free-video-platform-account-login-security-checklist",
+    "adult-games-operating-system-and-compatibility-layer-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40677129841",
-  "phase": "closed"
+  "r1CycleId": "40683953461"
 }

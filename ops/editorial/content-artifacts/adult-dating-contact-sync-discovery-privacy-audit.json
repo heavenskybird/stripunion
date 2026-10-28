@@ -1,0 +1,120 @@
+{
+  "backlogId": "adult-dating-contact-sync-discovery-privacy-audit",
+  "slug": "adult-dating-contact-sync-discovery-privacy-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Apps: Check Contact Sync and Social-Link Discovery Before Joining",
+  "description": "Review contact uploads, social connections and discovery settings before creating an adult-dating profile, with a practical checklist for limiting unnecessary exposure.",
+  "excerpt": "A dating app may ask to use your contacts or connect another account as part of setup. Learn what to inspect, what to decline and how to revisit those choices without assuming a setting guarantees invisibility.",
+  "keyTakeaways": [
+    "Read the purpose of a contacts permission separately from the app's general privacy summary.",
+    "Distinguish access to an address book from uploading, matching or storing contact data.",
+    "Check whether social links, linked accounts or contact-based suggestions are optional.",
+    "Review operating-system permissions as well as account-level settings.",
+    "Treat profile visibility controls as risk reduction, not a promise that no one can identify you."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the different kinds of connection",
+      "paragraphs": [
+        "Dating services may offer features that use an address book, invite contacts, connect a social account, or suggest profiles based on shared connections. These are not interchangeable. Allowing an app to read contacts is a device permission; uploading a contact list is a separate data-handling action; linking a social account may expose or import a different set of details. Look for an explanation of each step rather than treating a single permission prompt as the whole policy.",
+        "Before setup, decide which connections you actually want. If your goal is simply to create a profile and browse, ask whether contact syncing or social linking is necessary for that task. A request for contacts should not be interpreted as proof that the app must receive an entire address book. If the explanation is unclear, postpone the permission and inspect the service's help or privacy information first."
+      ],
+      "bullets": [
+        "Address-book permission is not the same thing as permission to send an invitation.",
+        "Social sign-in and social-profile linking may have different effects.",
+        "A contact-blocking feature may use uploaded data, local device access or another matching method; check which."
+      ]
+    },
+    {
+      "heading": "Inspect the permission at the point it appears",
+      "paragraphs": [
+        "When an operating system displays a contacts permission, pause and read the requested scope. Device settings may let you allow access, deny it or change it later, though the available choices vary by device and software version. A permission label alone does not explain what the service does with the data after access. Look for a separate account setting or notice describing whether contacts are uploaded, retained, used for matching or used for invitations.",
+        "If the app offers limited contact access, consider selecting only the people needed for a specific feature rather than granting broad access. If there is no clear limited option, you can deny access and check whether the feature can be skipped. Revisit the operating-system permission list after setup to confirm what remains enabled. Turning off a permission later may stop future access, but it does not automatically establish that previously transferred data has been deleted."
+      ],
+      "table": {
+        "caption": "Questions to distinguish common connection options",
+        "headers": [
+          "Option",
+          "Question to check",
+          "Safer decision point"
+        ],
+        "rows": [
+          [
+            "Contacts permission",
+            "Can the feature work without access to the whole address book?",
+            "Decline or limit access if the purpose is unclear or unnecessary"
+          ],
+          [
+            "Contact matching or blocking",
+            "Does the service upload contacts, and can submitted data be removed?",
+            "Read the feature explanation before enabling it"
+          ],
+          [
+            "Social sign-in",
+            "What account details are shared for authentication?",
+            "Review requested data and consider a separate sign-in method if offered"
+          ],
+          [
+            "Social profile link",
+            "Will profile details, contacts or activity be visible or imported?",
+            "Leave optional links disconnected unless the benefit is clear"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate account access from profile visibility",
+      "paragraphs": [
+        "A connected account can create several distinct exposures: the dating service may receive information from another service, other people may see a linked profile, or a connection may become a discovery signal. Check both sides of the relationship. The dating app may have a setting for linked accounts, while the other service may have its own permissions or visibility controls. Removing a link in one place does not necessarily remove data already copied or shared elsewhere.",
+        "Use the least revealing setup that still supports your goals. Avoid adding a public social handle merely because a profile form offers the field. If the service offers an option to hide or disconnect linked accounts, read what it changes and whether it affects sign-in or recovery. Do not assume a private social profile makes a linked account private on a dating service; each service controls its own display and discovery rules."
+      ]
+    },
+    {
+      "heading": "Review discovery controls without treating them as guarantees",
+      "paragraphs": [
+        "Search and discovery settings may control whether a profile appears in certain lists, whether a person can be found by a particular identifier, or whether recommendations use selected data. These controls are useful to inspect, but their scope matters. A setting that limits one route of discovery may not prevent someone from recognizing a profile through its text, photo, approximate details or an existing connection.",
+        "Read labels carefully and test settings only with an appropriate level of caution. If a service describes a control as limiting visibility rather than eliminating it, take that distinction seriously. Use profile details and photos that you are comfortable sharing with the intended audience, and avoid placing personal contact information in public fields. Review the control again after app updates or account changes because menus and settings can move."
+      ],
+      "bullets": [
+        "Check whether contact-based matching can be disabled after account creation.",
+        "Look for controls for social-account links and imported profile details.",
+        "Avoid using a personal identifier in a public profile field unless you intend it to be discoverable.",
+        "Recheck settings after changing devices or reconnecting an account."
+      ]
+    },
+    {
+      "heading": "Use a deliberate setup and review routine",
+      "paragraphs": [
+        "A careful setup can be simple: read the permission prompt, decline optional access that is not needed, skip social linking unless its purpose is clear, and review the service's discovery and data controls before completing the profile. Keep a note of the settings you intentionally chose so you can recognize when a later prompt asks to change them. If you grant access for a feature, set a reminder to decide whether you still need it.",
+        "If you previously enabled contact sync, inspect the account settings and the service's instructions for disconnecting or removing submitted contacts. Also revoke device-level access if you do not want continued access. Those are separate actions, and neither should be assumed to erase all historical copies without confirmation. If you share a device, secure its lock screen and avoid leaving a profile or permission-management screen visible to others. This is practical privacy guidance, not a guarantee against identification."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I deny contacts access, can I still use a dating service?",
+      "answer": "That depends on the service and the feature you want. Contacts may be optional, but the service determines its account requirements. Check whether you can skip the prompt and continue with ordinary profile or search functions before deciding."
+    },
+    {
+      "question": "Does turning off contact access delete contacts already uploaded?",
+      "answer": "Not necessarily. Device permissions control access from that device; previously submitted data may be handled through a separate account setting or deletion process. Check the service's current instructions for removal and any explanation of retention."
+    },
+    {
+      "question": "Does connecting a social profile make my dating profile private?",
+      "answer": "No general assumption is safe. A linked account can have its own visibility and data-sharing effects, and privacy settings on one service may not govern the other. Review the specific link permissions and the dating service's profile controls."
+    },
+    {
+      "question": "Can contact blocking guarantee that people I know will not see me?",
+      "answer": "Do not treat it as a guarantee. The feature may depend on data supplied, matching rules and the service's current implementation. People may also recognize profile information or encounter a profile through another discovery route."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
