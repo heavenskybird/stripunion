@@ -16338,7 +16338,7 @@
       "intent": "Adult Anime Platforms: Verify Publisher and Edition Details Before Buying",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -16351,7 +16351,7 @@
       "intent": "VR Adult Platforms: Test Offline Playback Before Relying on Downloads",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -16364,7 +16364,7 @@
       "intent": "Free Video Platforms: Compare Age-Check Data Requests Before Creating an Account",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -16377,7 +16377,7 @@
       "intent": "Adult Games: Evaluate Mod Support and Third-Party Add-ons Before Installing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -16390,7 +16390,7 @@
       "intent": "Adult Shops: Verify Product Documentation and Safety Claims Before Buying",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
