@@ -1,0 +1,127 @@
+{
+  "backlogId": "webmaster-affiliate-settlement-currency-and-conversion-audit",
+  "slug": "webmaster-affiliate-settlement-currency-and-conversion-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Settlement Currency and Conversion Rules",
+  "description": "Compare affiliate settlement currencies, conversion timing, and statement details before relying on program reporting for financial records.",
+  "excerpt": "A dashboard balance and a received payment may be expressed in different currencies. Map how each program reports, converts, and documents earnings before building forecasts or reconciliations.",
+  "keyTakeaways": [
+    "Separate the currency used for commission reporting from the currency used for settlement.",
+    "Look for the conversion source, conversion date, and any stated deductions in current program terms.",
+    "Check whether reports preserve the original transaction currency or show only a converted total.",
+    "Keep program statements and payment records together, but reconcile them as separate evidence.",
+    "Treat an unclear currency rule as an operational risk, not as an assumed exchange rate or fee."
+  ],
+  "sections": [
+    {
+      "heading": "Why currency rules belong in program selection",
+      "paragraphs": [
+        "Affiliate income can be reported, calculated, and paid in different currencies. A dashboard amount may be an accounting figure rather than the amount that reaches a bank or payment account. If you compare programs only by the balance displayed in a report, you can miss the operational work needed to reconcile statements, record receipts, or explain differences to your bookkeeper. This guide focuses on understanding those mechanics, not predicting the value of a future payment.",
+        "Currency handling is distinct from payout timing and payout thresholds. Even when a program documents when it pays, you still need to know what currency its records use and how any conversion is represented. Before sending meaningful traffic, identify the applicable terms and report fields. If they are not described clearly, ask the program’s support channel for a written explanation and retain the response with your records."
+      ],
+      "bullets": [
+        "Distinguish reporting currency, commission currency, and settlement currency.",
+        "Do not treat a displayed balance as a guaranteed net receipt.",
+        "Capture the date and source of any currency policy you rely on."
+      ]
+    },
+    {
+      "heading": "Build a currency map for each program",
+      "paragraphs": [
+        "Start with the program agreement, payout documentation, and reporting interface. Record the currency shown for each relevant figure: gross sale or conversion value if provided, commission, adjustments, payable balance, and completed payment. Some programs may expose only a subset of these fields. Mark missing information explicitly rather than filling gaps with assumptions. The purpose is to compare what can actually be verified.",
+        "Then trace the path from reported commission to settlement. Does the program state that conversion occurs when a transaction is recorded, when a payable amount is calculated, or when the payment is sent? Does it identify the conversion source or explain how fees are handled? If a policy does not answer a question, preserve it as unknown. Avoid using a general internet exchange-rate estimate to explain a specific statement unless the program identifies that method."
+      ],
+      "table": {
+        "caption": "Currency questions to record in a program comparison",
+        "headers": [
+          "Stage",
+          "Evidence to locate",
+          "Unanswered question to flag"
+        ],
+        "rows": [
+          [
+            "Commission report",
+            "Displayed currency and report definitions",
+            "Is the value original or already converted?"
+          ],
+          [
+            "Payable balance",
+            "Statement currency and adjustment lines",
+            "When does the payable figure become final?"
+          ],
+          [
+            "Settlement",
+            "Payment currency and any documented deductions",
+            "Who determines conversion and at what stage?"
+          ],
+          [
+            "Reconciliation",
+            "Statement, receipt, and reporting period",
+            "Can a difference be traced to a documented rule?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect reporting detail before integration",
+      "paragraphs": [
+        "A report is more useful when it identifies both amount and currency at the row or statement level. Check whether exports retain currency codes, dates, transaction references, and adjustment descriptions. A single total without currency context can be difficult to compare with a payment receipt, especially when several programs or reporting periods are involved. If you use an API or scheduled export, check that its fields preserve the same detail as the dashboard.",
+        "Make a small sample reconciliation before building automated finance workflows. Select one reporting period with a completed statement, export the available records, and match the program’s figures to the payment evidence you receive. Do not alter the program’s numbers to force a match. Record each difference and whether the source documentation explains it. If the report lacks the needed fields, note the limitation before relying on it for monthly accounting."
+      ],
+      "bullets": [
+        "Keep the original export before normalizing values for internal reports.",
+        "Retain currency codes, time period, and report generation date.",
+        "Document manual adjustments separately from program-reported amounts."
+      ]
+    },
+    {
+      "heading": "Keep internal forecasting separate from settlement facts",
+      "paragraphs": [
+        "For planning, you may need to express multiple program balances in a common internal currency. Label that result as a planning estimate and record the rate source and date used for the conversion. Do not present it as a program-confirmed payable amount. The distinction matters when estimates are compared with final statements or receipts, which may use different conversion timing or rules.",
+        "Use a consistent internal method for forecasts, but retain source-currency values alongside it. That preserves traceability when an estimate changes or a program statement arrives later. If your reporting system has a conversion field, confirm whether it stores the original amount and rate or overwrites the value. A reversible workflow is safer than a spreadsheet that replaces original figures with a converted total."
+      ]
+    },
+    {
+      "heading": "Reconcile statements and receipts without guessing",
+      "paragraphs": [
+        "When a payment arrives, compare it with the relevant program statement, not only with a dashboard balance viewed on another date. Check that the reporting period, currency, adjustment entries, and payment status align. A difference can have several explanations, including timing or a documented conversion step, but do not assign a cause without evidence. Ask for clarification when the program’s records do not explain the amount.",
+        "Store the inquiry and response with the statement and payment confirmation. Use a stable filename or accounting reference that does not expose sensitive account credentials. If you manage more than one program, maintain a separate ledger line for each program and settlement event. This keeps operational records useful without confusing an estimate, a payable balance, and a completed receipt."
+      ]
+    },
+    {
+      "heading": "Apply a practical comparison threshold",
+      "paragraphs": [
+        "A program’s currency process is easier to manage when its terms identify the relevant currencies, reports retain currency context, and statements can be matched to payment evidence. You do not need every internal calculation disclosed to make a comparison, but you do need enough information to understand what a displayed amount represents. Missing details are more significant if your accounting process depends on transaction-level reconciliation.",
+        "Before joining or expanding traffic, mark each comparison item as documented, confirmed in writing, or unresolved. Revisit the record when terms or reporting fields change. This is not financial or tax advice; it is a way to identify operational questions early. For tax treatment or accounting obligations, consult an appropriately qualified professional in your jurisdiction."
+      ],
+      "bullets": [
+        "Documented: the current program materials answer the question.",
+        "Confirmed: support provided a written clarification.",
+        "Unresolved: do not model the unknown as a known fee, rate, or guarantee."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the currency shown in an affiliate dashboard necessarily the settlement currency?",
+      "answer": "No. A dashboard may report commissions in a currency that differs from the currency used for payment. Check the program’s current terms, statement, and payment documentation rather than assuming they match."
+    },
+    {
+      "question": "Can I use a public exchange-rate estimate to reconcile a payment?",
+      "answer": "You can use a clearly labeled estimate for internal planning, but it may not explain a program’s actual settlement. Record the rate source and date, preserve original values, and seek program documentation for the specific conversion rule."
+    },
+    {
+      "question": "What should I do if a statement does not identify its currency?",
+      "answer": "Do not infer the currency from a symbol alone. Ask the program to identify the currency and explain how the reported amount relates to settlement, then keep the written response with the statement."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
