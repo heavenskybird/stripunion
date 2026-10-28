@@ -1,0 +1,148 @@
+{
+  "backlogId": "dating-recommendation-feed-transparency-check",
+  "slug": "adult-dating-platform-recommendation-feed-transparency-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Evaluate Recommendation Feeds Before Building a Routine",
+  "description": "Compare dating-platform recommendations with manual browsing. Check how suggestions are explained, refreshed, filtered, and affected by your profile settings.",
+  "excerpt": "A recommendation feed can save browsing time, but it is worth understanding how suggestions are generated and whether you can shape or reset them. Use this checklist to compare recommendation-led discovery with manual browsing.",
+  "keyTakeaways": [
+    "Distinguish recommendation feeds from ordinary search results and manually applied filters.",
+    "Look for explanations of why a profile is suggested, without assuming the explanation reveals every ranking factor.",
+    "Check whether your preferences, activity, or profile changes affect suggestions and whether those effects are documented.",
+    "Compare the ability to dismiss, revisit, or refresh suggestions before relying on a feed.",
+    "Treat recommendation controls as one part of privacy and discovery—not as a guarantee about who can see your profile."
+  ],
+  "sections": [
+    {
+      "heading": "Separate recommendations from search and filters",
+      "paragraphs": [
+        "A dating platform may show profiles through several routes: a recommendation feed, a manually browsed list, search results, or a set of matches based on stated preferences. These routes can look similar on screen while giving you different levels of control. Before comparing services, identify which surface you are evaluating and what the platform says it does.",
+        "Manual search typically lets you choose some criteria directly, while a recommendation feed may prioritize profiles using signals or rules that are not fully visible. Do not assume that a filter setting controls every recommendation, or that a feed includes every profile meeting your criteria. Record what the platform explains and what remains unclear."
+      ],
+      "bullets": [
+        "Can you tell whether a result came from search, a filter, or a recommendation?",
+        "Are recommendation criteria described separately from profile visibility settings?",
+        "Can you browse without accepting optional personalization, where such a choice is offered?"
+      ],
+      "table": {
+        "caption": "A practical way to compare discovery routes",
+        "headers": [
+          "Discovery route",
+          "What to inspect",
+          "Useful question"
+        ],
+        "rows": [
+          [
+            "Recommendation feed",
+            "Explanation, refresh, and dismissal controls",
+            "Can I understand why this suggestion appeared?"
+          ],
+          [
+            "Manual search",
+            "Available criteria and result controls",
+            "Can I set the conditions that matter to me?"
+          ],
+          [
+            "Preference-based matches",
+            "How stated preferences are used",
+            "Do preferences affect suggestions, search, or both?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what the platform explains about suggestions",
+      "paragraphs": [
+        "A short explanation can make a feed easier to use, but it should not be mistaken for a complete account of how recommendations are produced. Look for descriptions of the broad inputs involved, such as profile preferences or activity, and check whether the explanation is specific to recommendations or simply general marketing language.",
+        "Pay attention to whether the platform distinguishes your chosen preferences from inferred or activity-based signals. If a service does not explain a particular factor, note that as an unknown rather than guessing. A useful comparison records what is stated, where it is stated, and whether the wording is clear enough to guide a decision."
+      ],
+      "bullets": [
+        "Save the relevant help or settings page for your own comparison notes.",
+        "Mark undocumented ranking details as unknown, not as confirmed capabilities.",
+        "Check whether the explanation describes recommendations, profile visibility, or both."
+      ]
+    },
+    {
+      "heading": "Evaluate how preferences and activity interact",
+      "paragraphs": [
+        "Some discovery systems may use information you enter, actions you take, or both. The important question is not to speculate about a platform’s internal ranking, but to find out what its own controls and documentation say. Check whether you can edit stated preferences, whether the service describes how activity affects suggestions, and whether optional personalization can be limited.",
+        "Consider the practical effect of changing a preference or taking a break from browsing. Does the platform explain whether changes apply immediately, after a delay, or only to future suggestions? If the answer is not documented, avoid relying on a particular timing. Record the uncertainty and compare it with services that explain their settings more clearly."
+      ]
+    },
+    {
+      "heading": "Test feed controls before using them regularly",
+      "paragraphs": [
+        "A feed is easier to manage when you can dismiss a suggestion, revisit a profile, or indicate that a recommendation is not relevant. The labels and effects of those controls matter: dismissing a profile may differ from blocking an account, and hiding a suggestion may not change future recommendations. Read the control text before using it.",
+        "A brief, low-stakes evaluation can reveal whether the feed is navigable and whether its controls match your expectations. Keep the test focused on the interface and documented behavior. Do not treat one session’s results as proof of how recommendations will work over time."
+      ],
+      "bullets": [
+        "Check whether dismissed suggestions can be recovered.",
+        "Read confirmation prompts before using block, report, or hide actions.",
+        "Look for a refresh or reset option and note any stated limits.",
+        "Avoid interpreting a small sample of recommendations as a definitive ranking pattern."
+      ]
+    },
+    {
+      "heading": "Keep recommendation settings separate from privacy decisions",
+      "paragraphs": [
+        "A recommendation feed controls what you are shown; profile visibility controls who may encounter your profile. They are related parts of discovery, but one does not necessarily determine the other. If privacy is a priority, review visibility and audience settings separately instead of assuming that changing recommendations makes your profile private.",
+        "Also check whether the platform offers controls for activity indicators or personalization, and read what each control actually covers. A setting that changes the feed may not change notification delivery, profile searchability, or other account surfaces. Make a short settings inventory so you can revisit each choice without conflating them."
+      ]
+    },
+    {
+      "heading": "Use a comparison scorecard to choose a discovery style",
+      "paragraphs": [
+        "A recommendation-led service may suit someone who prefers a guided stream of profiles, while manual browsing may suit someone who wants to set criteria directly. These are preferences, not quality rankings. Compare how much control each interface offers, how clearly it explains its behavior, and whether it supports a comfortable browsing routine.",
+        "Before creating a detailed profile or spending time on a service, write down your must-haves and unanswered questions. Give more weight to features you can verify in settings or documentation than to assumptions about a platform’s internal system. If a key control is unclear, treat that uncertainty as part of the decision."
+      ],
+      "table": {
+        "caption": "Discovery comparison scorecard",
+        "headers": [
+          "Question",
+          "Record your finding"
+        ],
+        "rows": [
+          [
+            "Can I distinguish recommendations from search?",
+            "Clear / unclear / not stated"
+          ],
+          [
+            "Can I edit preferences or limit personalization?",
+            "Available controls and stated scope"
+          ],
+          [
+            "Can I dismiss or revisit suggestions?",
+            "Controls and any stated limits"
+          ],
+          [
+            "Are profile visibility settings separate?",
+            "Where to review them"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are recommendations the same as search results?",
+      "answer": "Not necessarily. Search results may follow criteria you choose, while recommendations may use a separate process. Check the platform’s labels and documentation rather than assuming the two surfaces behave alike."
+    },
+    {
+      "question": "Does changing recommendation preferences hide my profile?",
+      "answer": "Do not assume so. Recommendation controls affect what you are shown, while profile visibility controls concern who may see you. Review those settings separately and rely on the platform’s stated scope."
+    },
+    {
+      "question": "How can I compare recommendation systems without knowing their algorithms?",
+      "answer": "Compare observable controls and documentation: what the service says influences suggestions, whether you can adjust preferences, and how dismissal or refresh works. Record unknowns instead of inferring the hidden ranking logic."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

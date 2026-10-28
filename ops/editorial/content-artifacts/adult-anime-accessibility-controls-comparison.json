@@ -1,0 +1,144 @@
+{
+  "backlogId": "adult-anime-accessibility-controls-comparison",
+  "slug": "adult-anime-platform-accessibility-controls-comparison",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Compare Accessibility Controls Across Formats",
+  "description": "Evaluate accessibility before choosing an adult anime platform. Compare captions, text scaling, keyboard navigation, reader controls, and game options by format.",
+  "excerpt": "Accessibility can differ between video, manga, and game experiences—even within one service. Use this format-by-format checklist to identify the controls that matter to your needs before creating an account or paying.",
+  "keyTakeaways": [
+    "Evaluate video, manga, and game accessibility separately rather than assuming a platform-wide feature applies to every format.",
+    "Check the actual controls you need, such as caption options, text size, keyboard navigation, or adjustable reading layout.",
+    "Use available previews or public interface pages to test practical usability where possible.",
+    "Treat missing or unclear accessibility information as an unanswered question, not a confirmed limitation or capability.",
+    "Compare accessibility alongside account requirements and the format you plan to use."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the format and the access need",
+      "paragraphs": [
+        "Adult anime services may combine streaming, manga or comics, and games, but each format has different interface demands. A caption control matters for video; text scaling and reading direction matter for manga; keyboard, controller, or menu navigation may matter for a game. A general statement about accessibility does not establish that every title or format has the same controls.",
+        "Write down the specific task you need to complete. For example, you might need captions you can turn on and read comfortably, a reader that supports a useful zoom level, or menus that can be navigated without a particular input method. The more concrete the need, the easier it is to check documentation and test a preview."
+      ],
+      "table": {
+        "caption": "Match accessibility questions to the format",
+        "headers": [
+          "Format",
+          "Controls to investigate",
+          "Practical check"
+        ],
+        "rows": [
+          [
+            "Streaming video",
+            "Caption availability, size, contrast, and placement",
+            "Test a sample player and its settings"
+          ],
+          [
+            "Manga or comics",
+            "Text size, zoom, page layout, and navigation",
+            "Check whether controls work at a comfortable reading scale"
+          ],
+          [
+            "Games",
+            "Input options, menu navigation, and adjustable settings",
+            "Review the specific game’s requirements and settings"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assess video caption and player controls",
+      "paragraphs": [
+        "For streaming, check whether captions are available for the material you plan to watch and whether the player offers controls that meet your needs. Availability may vary by title, language, or edition, so a platform-level feature description is not enough to confirm every program has captions. Look for title-level information when the service provides it.",
+        "If a preview is available, test caption visibility on the device and screen you expect to use. Check whether captions can be enabled easily, whether their placement blocks important interface controls, and whether size or contrast adjustments are offered. If you cannot test the player, record the missing information and ask support a precise question before relying on the feature."
+      ],
+      "bullets": [
+        "Check title-level caption information where available.",
+        "Test controls on your intended device, not only on a desktop preview.",
+        "Look for clear labels and a straightforward way to turn settings on or off.",
+        "Do not assume a platform-wide caption statement applies to every item."
+      ]
+    },
+    {
+      "heading": "Test manga and comic reader comfort",
+      "paragraphs": [
+        "A reader’s usability can depend on more than whether pages load. Check whether you can zoom, fit a page to the screen, move between pages predictably, and adjust the layout to a comfortable view. If the interface includes small controls or text, test them at the size and device you would actually use.",
+        "Look for information about reading direction and navigation consistency, especially if the library includes different publication formats. Accessibility needs vary, so there is no single layout that suits every reader. The practical question is whether the available controls let you read and move through the material without repeated strain or confusion."
+      ]
+    },
+    {
+      "heading": "Review game input and settings title by title",
+      "paragraphs": [
+        "Game accessibility is often specific to an individual title. A platform that hosts games may not control their input options, text size, menu design, or accessibility settings. Check the game’s own description and settings information instead of relying on a general platform feature list.",
+        "Before installing or purchasing, identify the required device and input method, then look for information about remapping, adjustable text, subtitles, or other controls relevant to you. If the details are not stated, ask the publisher or platform through an appropriate support channel. Do not infer a feature from screenshots or from another game in the same library."
+      ]
+    },
+    {
+      "heading": "Check navigation and account tasks too",
+      "paragraphs": [
+        "Accessibility includes the tasks around the content: creating an account, finding settings, managing a subscription, and contacting support. Look for readable menus, clear labels, predictable focus movement, and instructions that do not depend entirely on color or a single input method. These checks can matter even when the media itself offers helpful controls.",
+        "If you can browse public pages without an account, use that opportunity to inspect the interface. If account creation is required to reach settings, review the sign-up and cancellation information first. Do not create an account on the assumption that an accessibility setting exists unless the platform has documented it or you can verify it."
+      ],
+      "bullets": [
+        "Can you locate account, accessibility, and billing settings without guesswork?",
+        "Are controls labelled clearly enough to understand their effect?",
+        "Can you reach help information if a setting does not work?",
+        "Are the steps to change or cancel access explained in an accessible format?"
+      ]
+    },
+    {
+      "heading": "Compare evidence and record unanswered questions",
+      "paragraphs": [
+        "A useful comparison distinguishes tested behavior from published claims and unanswered questions. Record the device, format, title or sample, and setting you checked. This makes your notes more useful than a simple label such as “accessible,” which can hide important differences between a reader and a video player.",
+        "When information is missing, ask a narrow question about the exact task or format you need. A clear answer may help you choose; a vague answer leaves the issue unresolved. Accessibility information can change, so check current platform or title documentation before making a purchase decision and avoid treating an old preview as definitive."
+      ],
+      "table": {
+        "caption": "Evidence notes for comparing platform accessibility",
+        "headers": [
+          "Evidence type",
+          "How to record it"
+        ],
+        "rows": [
+          [
+            "Tested control",
+            "Device, format, and action tested"
+          ],
+          [
+            "Published information",
+            "Page or title description and date checked"
+          ],
+          [
+            "Unanswered question",
+            "Specific control or task that still needs confirmation"
+          ],
+          [
+            "Decision",
+            "Must-have, useful, or not required for your use"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does one accessibility feature apply to every title on a platform?",
+      "answer": "Not necessarily. Features may differ by format, title, edition, or device. Check the specific item and player or reader information rather than assuming a platform-wide description covers everything."
+    },
+    {
+      "question": "How can I evaluate accessibility without creating an account?",
+      "answer": "Review public help pages, title descriptions, and any available previews or interface samples. If an essential setting is only visible after sign-in, ask a specific question before joining or paying."
+    },
+    {
+      "question": "What should I do when accessibility information is unclear?",
+      "answer": "Record the unanswered task and ask the platform or relevant publisher about that exact control. Do not treat silence as proof that a feature is available or unavailable."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
