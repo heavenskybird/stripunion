@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T16:58:21.160Z",
+  "generatedAt": "2026-10-28T18:01:32.569Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-camera-microphone-permission-review.json",
-    "ops/editorial/content-artifacts/adult-dating-cancellation-exit-sequence.json",
-    "ops/editorial/content-artifacts/creator-platform-content-audience-portability-plan.json",
-    "ops/editorial/content-artifacts/premium-video-payment-failure-access-review.json",
-    "ops/editorial/content-artifacts/vr-platform-account-federated-sign-in-privacy-review.json"
+    "ops/editorial/content-artifacts/free-video-download-access-and-file-boundaries-audit.json",
+    "ops/editorial/content-artifacts/adult-games-community-review-evidence-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-product-charging-compatibility-preflight.json",
+    "ops/editorial/content-artifacts/adult-manga-page-image-readability-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-download-cloud-backup-exposure-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-camera-microphone-permission-review.js",
-    "src/data/guides/adult-dating-cancellation-exit-sequence.js",
-    "src/data/guides/creator-platform-content-audience-portability-plan.js",
-    "src/data/guides/premium-video-payment-failure-access-review.js",
-    "src/data/guides/vr-platform-account-federated-sign-in-privacy-review.js"
+    "src/data/guides/free-video-platform-download-access-and-file-boundaries.js",
+    "src/data/guides/adult-games-storefront-community-review-evidence-checklist.js",
+    "src/data/guides/adult-shop-product-charging-and-power-compatibility-checklist.js",
+    "src/data/guides/adult-manga-platform-page-image-readability-check.js",
+    "src/data/guides/adult-platform-device-downloads-and-cloud-backup-privacy-check.js"
   ],
   "categories": [
-    "live-cams",
-    "dating-hookups",
-    "creator-platforms",
-    "premium-videos",
-    "vr-ar"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "live-cam-camera-microphone-permission-review",
-    "adult-dating-cancellation-exit-sequence",
-    "creator-platform-content-audience-portability-plan",
-    "premium-video-payment-failure-access-review",
-    "vr-platform-account-federated-sign-in-privacy-review"
+    "free-video-download-access-and-file-boundaries-audit",
+    "adult-games-community-review-evidence-audit",
+    "adult-shop-product-charging-compatibility-preflight",
+    "adult-manga-page-image-readability-audit",
+    "adult-platform-download-cloud-backup-exposure-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40730840441",
-  "phase": "closed"
+  "r1CycleId": "40740605000"
 }
