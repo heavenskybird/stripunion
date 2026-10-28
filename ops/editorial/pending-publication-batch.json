@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T18:52:22.042Z",
+  "generatedAt": "2026-10-28T19:56:50.469Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-profile-identifying-clues-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-multi-property-account-fit.json",
-    "ops/editorial/content-artifacts/creator-platform-tier-access-publication-qa.json",
-    "ops/editorial/content-artifacts/live-cam-public-and-paid-access-model-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-single-vs-multi-publisher-library-model.json"
+    "ops/editorial/content-artifacts/adult-anime-publisher-edition-verification.json",
+    "ops/editorial/content-artifacts/vr-adult-offline-playback-validation.json",
+    "ops/editorial/content-artifacts/free-video-age-check-data-minimization.json",
+    "ops/editorial/content-artifacts/adult-games-mod-support-installation-check.json",
+    "ops/editorial/content-artifacts/adult-shop-product-documentation-claims-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-profile-identifying-clues-audit.js",
-    "src/data/guides/webmaster-affiliate-multi-property-account-fit.js",
-    "src/data/guides/creator-platform-tier-access-publication-qa.js",
-    "src/data/guides/live-cam-public-and-paid-access-model-comparison.js",
-    "src/data/guides/premium-video-single-vs-multi-publisher-library-model.js"
+    "src/data/guides/adult-anime-publisher-edition-verification.js",
+    "src/data/guides/vr-adult-platform-offline-playback-validation.js",
+    "src/data/guides/free-video-platform-age-check-data-minimization.js",
+    "src/data/guides/adult-games-mod-support-installation-check.js",
+    "src/data/guides/adult-shop-product-documentation-claims-check.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "live-cams",
-    "premium-videos"
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-dating-profile-identifying-clues-audit",
-    "webmaster-affiliate-multi-property-account-fit",
-    "creator-platform-tier-access-publication-qa",
-    "live-cam-public-and-paid-access-model-comparison",
-    "premium-video-single-vs-multi-publisher-library-model"
+    "adult-anime-publisher-edition-verification",
+    "vr-adult-offline-playback-validation",
+    "free-video-age-check-data-minimization",
+    "adult-games-mod-support-installation-check",
+    "adult-shop-product-documentation-claims-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40748840507",
-  "phase": "closed"
+  "r1CycleId": "40757961287"
 }

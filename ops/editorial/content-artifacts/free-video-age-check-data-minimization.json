@@ -1,0 +1,132 @@
+{
+  "backlogId": "free-video-age-check-data-minimization",
+  "slug": "free-video-platform-age-check-data-minimization",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Compare Age-Check Data Requests Before Creating an Account",
+  "description": "Evaluate age-check and account prompts on free video platforms by reviewing the data requested, stated purpose, and available alternatives.",
+  "excerpt": "An age prompt may ask for very different kinds of information. Compare what a platform requests, why it says it needs it, and what happens to the data before deciding how to proceed.",
+  "keyTakeaways": [
+    "Distinguish an age confirmation from a request for identity documents or other sensitive information.",
+    "Read the platform’s explanation of purpose, retention, and third-party processing before submitting data.",
+    "Check whether browsing or account creation is possible without providing optional information.",
+    "Do not send identity documents through an unverified page, message, or external link.",
+    "Age-check requirements vary by service and location; this guide is a privacy checklist, not legal advice."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what the prompt is actually asking",
+      "paragraphs": [
+        "An age prompt can range from a simple confirmation to a request for additional information. Do not treat these as equivalent. Read the screen closely and identify each requested field, whether the information is optional, and whether the request appears before browsing, account creation, or access to a particular feature.",
+        "A familiar logo or a professional-looking page is not enough to establish who receives the information. Check the domain and whether the prompt is part of the platform’s normal interface. If it opens a new site or asks you to contact an account through a message service, pause and verify the route through the platform’s official help materials."
+      ],
+      "bullets": [
+        "List the exact information requested before entering it.",
+        "Notice whether the prompt asks for age confirmation, identity data, or both.",
+        "Verify that the screen belongs to the platform before responding."
+      ]
+    },
+    {
+      "heading": "Read the purpose and retention explanation",
+      "paragraphs": [
+        "Look for a plain explanation of why the data is requested and how long it may be retained. A useful notice should help you understand whether information is used only to evaluate age, associated with an account, or shared with a verification provider. If the explanation is difficult to find, unclear, or inconsistent with the fields on the screen, treat that as a reason to delay.",
+        "Check whether the platform describes deletion, correction, or review options for information connected to the process. A short statement that information is secure does not answer what data is collected, who processes it, or when it is removed. Keep the decision grounded in the actual notice rather than a general privacy slogan."
+      ],
+      "bullets": [
+        "Find the privacy notice and any age-check explanation linked from the prompt.",
+        "Look for the purpose, retention period or criteria, and provider involvement.",
+        "Note whether the platform explains how to ask questions or request help."
+      ]
+    },
+    {
+      "heading": "Compare the data request with the access being offered",
+      "paragraphs": [
+        "Consider whether the amount and sensitivity of the requested information make sense for the feature you are trying to use. A request for a birth date is different from a request for an identity document or facial image. This does not by itself determine whether a request is proper, but it helps you make an informed privacy decision and notice when an explanation is missing.",
+        "Check whether the platform offers a lower-data route, such as browsing limited public pages without an account, or whether the requested step is required for the activity. Do not assume that every service offers a choice. If you cannot determine whether a field is optional or what happens if you decline, review the help documentation before proceeding."
+      ],
+      "table": {
+        "caption": "A practical way to compare an age-check prompt",
+        "headers": [
+          "Question",
+          "What to inspect",
+          "Decision use"
+        ],
+        "rows": [
+          [
+            "What is requested?",
+            "Each field, document, or device permission",
+            "Understand the sensitivity of the data"
+          ],
+          [
+            "Why is it requested?",
+            "Purpose statement and feature being accessed",
+            "Check whether the explanation is specific"
+          ],
+          [
+            "Who handles it?",
+            "Platform notice and any named service provider",
+            "Understand the data path before submitting"
+          ],
+          [
+            "What if I decline?",
+            "Alternative access, account options, or stated consequences",
+            "Choose whether the feature is worth the disclosure"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify the route before sharing sensitive material",
+      "paragraphs": [
+        "If a process asks for an identity document, check the platform’s official documentation for the exact verification path. Navigate to the service using its known address or a trusted bookmark rather than following an unexpected message link. Pay attention to the web address and the organization named in any handoff to a separate provider.",
+        "Do not send sensitive documents through ordinary email, direct messages, or a third-party form that you cannot verify. If the service provides a documented verification provider, read the provider’s privacy information as well as the platform’s. Keep copies only when necessary and avoid adding extra personal data that the process does not require."
+      ],
+      "bullets": [
+        "Start from a known platform address or official account page.",
+        "Confirm any external verification provider through platform documentation.",
+        "Never send identity documents through an unverified message or link."
+      ]
+    },
+    {
+      "heading": "Consider account and device privacy around the prompt",
+      "paragraphs": [
+        "Age checks may be tied to an account, device, browser session, or a separate service. Find out what the platform says about that relationship. If an account is shared, consider whether a verification status or related notification could be visible to another user. On a personal device, review saved passwords, autofill, and browser settings before entering sensitive information.",
+        "Avoid storing verification images or identifiers in a general photo library or shared cloud folder unless you have a clear need and understand the exposure. If the platform permits account-free browsing, use that only within its stated rules and understand that browser or network records may still exist. No single privacy control removes every trace of activity."
+      ]
+    },
+    {
+      "heading": "Choose a response using a clear threshold",
+      "paragraphs": [
+        "A practical decision can be based on four points: the data requested, the stated purpose, the parties involved, and the available alternative if you decline. Proceed only when those details are clear enough for your comfort. If a notice is absent, a domain cannot be verified, or the process asks for information unrelated to its explanation, stop and seek clarification through official support.",
+        "Remember that access rules can differ by platform and location. This checklist helps you evaluate privacy disclosures; it does not establish whether a particular verification process meets a legal requirement. When a service provides a location-specific explanation, read that text rather than applying a general assumption from another service."
+      ],
+      "bullets": [
+        "Proceed only if you can explain what data is requested and why.",
+        "Pause when the recipient, purpose, or retention information is unclear.",
+        "Use official support for questions; do not bypass an age-check process."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an age confirmation the same as identity verification?",
+      "answer": "No. An age confirmation may ask for a basic assertion, while identity verification can involve additional information or documents. Read the prompt and its linked notice to understand exactly what is requested."
+    },
+    {
+      "question": "Should I upload an identity document if a platform asks for one?",
+      "answer": "First verify that the request is part of the platform’s documented process, identify who will handle the document, and read the purpose and retention information. Do not upload it through an unexpected or unverified link. If key details are missing, ask official support before deciding."
+    },
+    {
+      "question": "Does declining an age-check prompt always prevent browsing?",
+      "answer": "Not necessarily. Available access depends on the platform and the feature. Check the service’s stated options rather than assuming that account-free or limited browsing is available."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
