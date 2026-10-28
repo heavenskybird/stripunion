@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T14:32:17.817Z",
+  "generatedAt": "2026-10-28T16:07:02.296Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-billing-descriptor-privacy-review.json",
-    "ops/editorial/content-artifacts/creator-platform-post-subscription-access-map.json",
-    "ops/editorial/content-artifacts/adult-dating-off-platform-transition-safety-plan.json",
-    "ops/editorial/content-artifacts/adult-anime-localization-language-comparison.json",
-    "ops/editorial/content-artifacts/free-video-keyboard-navigation-usability-audit.json"
+    "ops/editorial/content-artifacts/vr-platform-publisher-catalog-model-comparison.json",
+    "ops/editorial/content-artifacts/adult-games-wishlist-privacy-and-alert-controls.json",
+    "ops/editorial/content-artifacts/adult-shop-stock-status-backorder-substitution-check.json",
+    "ops/editorial/content-artifacts/adult-platform-account-email-compartmentalization-workflow.json",
+    "ops/editorial/content-artifacts/affiliate-mobile-app-handoff-attribution-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-billing-descriptor-privacy-review.js",
-    "src/data/guides/creator-platform-post-subscription-access-map.js",
-    "src/data/guides/adult-dating-off-platform-transition-safety-plan.js",
-    "src/data/guides/adult-anime-localization-language-comparison.js",
-    "src/data/guides/free-video-keyboard-navigation-usability-audit.js"
+    "src/data/guides/vr-platform-publisher-catalog-model-comparison.js",
+    "src/data/guides/adult-games-wishlist-privacy-and-alert-controls.js",
+    "src/data/guides/adult-shop-stock-status-backorder-substitution-check.js",
+    "src/data/guides/adult-platform-account-email-compartmentalization-workflow.js",
+    "src/data/guides/affiliate-mobile-app-handoff-attribution-audit.js"
   ],
   "categories": [
-    "live-cams",
-    "creator-platforms",
-    "dating-hookups",
-    "hentai-anime",
-    "free-videos"
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
+    "privacy-safety-payment",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "live-cam-billing-descriptor-privacy-review",
-    "creator-platform-post-subscription-access-map",
-    "adult-dating-off-platform-transition-safety-plan",
-    "adult-anime-localization-language-comparison",
-    "free-video-keyboard-navigation-usability-audit"
+    "vr-platform-publisher-catalog-model-comparison",
+    "adult-games-wishlist-privacy-and-alert-controls",
+    "adult-shop-stock-status-backorder-substitution-check",
+    "adult-platform-account-email-compartmentalization-workflow",
+    "affiliate-mobile-app-handoff-attribution-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40706231605",
-  "phase": "closed"
+  "r1CycleId": "40722089237"
 }

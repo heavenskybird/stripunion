@@ -1,0 +1,137 @@
+{
+  "backlogId": "adult-games-wishlist-privacy-and-alert-controls",
+  "slug": "adult-games-wishlist-privacy-and-alert-controls",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Storefront Wishlists: Check Visibility, Alerts and Account Privacy",
+  "description": "Before saving adult games to a storefront wishlist, check who can see it, how alerts work, what account details are exposed and whether saved items sync across devices.",
+  "excerpt": "A wishlist can help you remember games and compare storefronts, but it may also create persistent account records or notifications. Check visibility and alert controls before using one.",
+  "keyTakeaways": [
+    "A wishlist may be private, public, shareable or governed by account-level settings; verify the current setting instead of assuming.",
+    "Wishlist notifications can appear in email, app or device notification surfaces, so check channels separately.",
+    "A saved list can sync across devices or remain tied to a storefront account; understand where it is accessible.",
+    "Use a separate account name and strong authentication where available, but do not rely on a display name alone to protect privacy.",
+    "If you share links or use public profiles, inspect the exact page in a signed-out or private browsing context before distributing it."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a wishlist as an account record, not a private note",
+      "paragraphs": [
+        "A storefront wishlist is convenient because it gathers titles you may want to revisit, compare or purchase later. Unlike a note kept locally, however, a wishlist can be linked to an account and may be available through other signed-in devices or profile surfaces. Its visibility depends on the storefront’s current settings and design. Do not infer privacy from the fact that a list is called a wishlist or that you did not intentionally publish it.",
+        "Before saving sensitive titles, find the storefront’s help page or account settings that explain list visibility. Look for distinctions between private lists, public profiles, share links and community features. If the explanation is unclear, test using a non-sensitive item or ask support. Avoid entering personal information into list names or notes; a title visible to someone else can be more identifying when combined with a real name, familiar username or public profile."
+      ],
+      "bullets": [
+        "Check whether the list is private by default and whether that default can change.",
+        "Look for separate controls for profile visibility, list sharing and activity feeds.",
+        "Avoid identifying text in list names, notes or public profile fields."
+      ]
+    },
+    {
+      "heading": "Audit who can view a saved list",
+      "paragraphs": [
+        "A storefront may offer multiple ways to expose saved items: a public profile, a shareable link, a friend list, community activity or a feature that displays recent activity. These controls can be separate. Check each one that applies to your account, rather than assuming one privacy toggle controls every surface. If a list can be shared, determine whether the link grants access only to that list or reveals additional profile information.",
+        "When you need to verify a visibility setting, use a harmless test item and inspect the result while signed out or in a separate browser profile. A signed-in view may show permissions that an outside visitor does not have, or it may hide details that others can see. Avoid testing with a list that already contains items you would not want exposed. If the storefront does not provide a reliable way to inspect outside visibility, choose a different method for keeping track of titles."
+      ],
+      "table": {
+        "caption": "Wishlist visibility checks and the evidence to look for",
+        "headers": [
+          "Surface",
+          "What to check",
+          "Safer verification step"
+        ],
+        "rows": [
+          [
+            "Account profile",
+            "Whether saved items or activity appear publicly",
+            "Review profile settings and inspect a harmless test profile while signed out"
+          ],
+          [
+            "Shared list link",
+            "Whether a link reveals one list or more account details",
+            "Test a non-sensitive list in a separate browser context"
+          ],
+          [
+            "Friends or contacts",
+            "Whether contacts can see lists or updates",
+            "Review the audience setting and contact-sharing controls"
+          ],
+          [
+            "Community activity",
+            "Whether saves or purchases appear in feeds",
+            "Check activity and profile settings separately from list privacy"
+          ],
+          [
+            "Other signed-in devices",
+            "Whether the list syncs to another device or account session",
+            "Review signed-in devices and avoid shared accounts where possible"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Control alerts across email, apps and devices",
+      "paragraphs": [
+        "A private list can still create visible traces through alerts. A storefront may send messages about saved items, account activity or recommendations, and devices may display those messages on a lock screen or desktop. The exact options vary, so review the storefront’s notification settings and the operating system’s notification settings as separate layers. Disabling one email category does not necessarily suppress an app alert or browser notification.",
+        "Choose notification settings based on your actual devices and inbox access. If a device is shared, turn off sensitive lock-screen previews or use the device’s per-app notification controls where available. Consider whether a work or family email account is an appropriate place for storefront messages. Keep essential security and account-recovery notices distinct from promotional alerts when the service permits that choice; do not disable safeguards without understanding their purpose."
+      ],
+      "bullets": [
+        "Check email preferences, app notifications and browser notifications separately.",
+        "Review lock-screen and desktop preview settings on each device you use.",
+        "Confirm which security or recovery messages remain enabled after changing promotions."
+      ]
+    },
+    {
+      "heading": "Understand syncing, account access and shared devices",
+      "paragraphs": [
+        "A wishlist may follow an account across a browser, app or additional device. That can be useful when comparing storefronts, but it also means a saved list may be visible wherever the account remains signed in. On a shared computer or device, sign out after use and avoid saving credentials in a profile that other people can open. If the storefront offers device or session management, review it, but do not assume list privacy replaces basic account security.",
+        "Use a unique password and an independent recovery method where available. If the account is shared with another person, understand that privacy settings may not prevent that person from viewing lists while signed in. Do not use a shared account for information you need to keep separate. If you lose access to a device, follow the storefront’s account security process and review active sessions or credentials when those controls are offered."
+      ]
+    },
+    {
+      "heading": "Use a low-exposure workflow for comparing games",
+      "paragraphs": [
+        "You do not have to use a storefront wishlist to keep a shortlist. A private local note or spreadsheet may reduce exposure to storefront profile features, though local files can also be visible to other device users or synchronized through cloud services. Choose a method that fits the device and account you actually use. If you make a local list, avoid placing it in a shared folder or giving it a filename that unnecessarily identifies its contents.",
+        "For a storefront comparison, record only details needed to make a decision: title, storefront, supported platform information, current access status and the date checked. Avoid collecting account credentials or unnecessary personal data in the same document. If the list is shared with someone else, review the sharing permissions and notification behavior before sending it. Delete or revise records you no longer need, while considering whether backups or sync services retain copies."
+      ],
+      "bullets": [
+        "Choose between a storefront list and a local note based on the privacy of the account and device.",
+        "Keep comparison notes minimal and avoid storing passwords with titles.",
+        "Review cloud-sync and folder-sharing settings if you use a local document."
+      ]
+    },
+    {
+      "heading": "Recheck settings before sharing or changing accounts",
+      "paragraphs": [
+        "Wishlist settings can change when an account is updated, a storefront changes its interface or you move to a new device. Before sharing a profile, list link or screenshot, inspect the actual content and audience. A screenshot can reveal more than the list itself, including account names, browser tabs or notification banners. Before closing an account, check whether the storefront provides a way to remove lists or change profile visibility, and keep only the records you genuinely need.",
+        "Build a small review into your routine: after a major account or device change, revisit list visibility, notification channels and saved sign-ins. If a setting is unavailable or unclear, do not rely on an assumption that the wishlist is hidden. You can keep a short private shortlist instead and revisit storefront listings when you are ready to compare. This keeps the decision process useful without treating a storefront feature as a secure personal archive."
+      ],
+      "bullets": [
+        "Inspect list and profile visibility after account or interface changes.",
+        "Check screenshots and shared links for names, other tabs and account details.",
+        "Remove or unshare lists you no longer need, then verify the result."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are adult game storefront wishlists private by default?",
+      "answer": "There is no universal default. Privacy depends on the storefront and account settings. Check the current visibility, profile and sharing controls, and verify with a harmless test item if the setting is unclear."
+    },
+    {
+      "question": "Can a wishlist create notifications even if nobody else can see it?",
+      "answer": "Yes. A list may generate email, app or browser alerts, and device settings may display previews. Review storefront notification preferences and device-level controls separately."
+    },
+    {
+      "question": "Is a local list automatically safer than a storefront wishlist?",
+      "answer": "Not automatically. A local file may be exposed through a shared device, cloud sync, backups or shared folders. Choose the storage method based on who can access the device and account, and keep the record minimal."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

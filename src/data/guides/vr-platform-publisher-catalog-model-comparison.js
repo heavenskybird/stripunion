@@ -1,0 +1,130 @@
+export default {
+  "slug": "vr-platform-publisher-catalog-model-comparison",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Compare Single-Publisher and Multi-Publisher Library Models",
+  "description": "Compare publisher-focused and multi-publisher VR libraries by headset fit, title availability, preview access, navigation and subscription terms before choosing.",
+  "excerpt": "A large catalog is not automatically the right catalog. Use this comparison to understand whether a publisher-focused library or a multi-publisher service better matches the VR titles, devices and access terms you care about.",
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "A single-publisher library may concentrate on a particular publisher’s releases, while a multi-publisher service may combine material from multiple sources; verify what is actually included rather than assuming from the label.",
+    "Make a shortlist of specific titles or publishers before comparing catalog size claims.",
+    "Check whether the same titles are available in the format and playback path your headset supports.",
+    "Preview the interface and confirm how it presents publishers, collections, access status and unavailable titles.",
+    "Compare renewal, cancellation and post-expiration access terms separately from catalog breadth."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the library model, not the headline catalog size",
+      "paragraphs": [
+        "A VR library can be organized around a single publisher’s releases or combine titles from multiple publishers. Those models describe how a catalog is assembled, but they do not tell you whether it contains the titles you want, whether those titles are available in a suitable format, or how long access lasts. Treat the model as a starting point for investigation, not a quality ranking.",
+        "Before browsing services, write down a short list of titles, publishers, series or production styles that matter to you. This turns a vague comparison into a checkable one. If you have no specific favorites, list the kinds of catalog organization and discovery tools you need—for example, clear publisher labels, series pages or filters that separate VR formats. Avoid relying on a single total-title figure, which may use definitions that differ between services."
+      ],
+      "bullets": [
+        "Record the title or publisher, format, and access condition for each shortlist item.",
+        "Mark whether the item is essential, a useful extra, or simply an example of the catalog you want.",
+        "Note the date you checked the listing; catalogs and availability can change."
+      ]
+    },
+    {
+      "heading": "Check whether the catalog claim is verifiable",
+      "paragraphs": [
+        "A useful listing should let you identify what is included rather than asking you to infer it from marketing language. Look for a browsable catalog, item-level descriptions, publisher or collection labels, and clear indications of whether each item is included with membership, available separately, or only shown as a preview. If a service provides no public catalog, decide whether account creation or a preview is required before you can make a meaningful comparison.",
+        "Compare like with like. A collection count, scene count, title count and publisher count are different measures. A page may also combine VR and non-VR material or list multiple versions of one title. When the distinction matters to your decision, record the exact catalog evidence you can see and any questions left unanswered. If an important item’s status is ambiguous, ask support before paying and save the response."
+      ],
+      "table": {
+        "caption": "A practical way to compare two library models without assuming either is better",
+        "headers": [
+          "Question",
+          "Publisher-focused library",
+          "Multi-publisher library"
+        ],
+        "rows": [
+          [
+            "What should I verify first?",
+            "Which releases and collections from that publisher are actually included",
+            "Which publishers, titles and collections are represented"
+          ],
+          [
+            "How can I test fit?",
+            "Match your shortlist against item-level listings",
+            "Match your shortlist and check whether desired publishers are included"
+          ],
+          [
+            "What can be easy to overlook?",
+            "Whether the titles you want are included in the plan or sold separately",
+            "Whether the catalog’s breadth includes enough material relevant to you"
+          ],
+          [
+            "What evidence is useful?",
+            "Dated listings, format details and access terms for specific items",
+            "Dated publisher/title listings, format details and access terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Match titles to your headset and playback route",
+      "paragraphs": [
+        "Catalog fit is only useful when the titles work with your actual setup. Check each important listing for format information and compare it with your headset, browser, app or connected-device route. Do not assume that every item in one library supports every playback option the service offers. A platform may expose different formats or access paths, so look for item-level details and a clear compatibility explanation.",
+        "Use the equipment and access path you expect to use, if a preview or sample makes that possible. Confirm that you can find the item, identify its format, start playback, pause, resume and return to the library without confusing navigation. This is a product-fit check, not a promise that performance will be identical across devices or network conditions. If testing requires a paid plan, weigh that limitation before sharing payment details or enrolling."
+      ],
+      "bullets": [
+        "Check headset and software requirements against official, current service documentation.",
+        "Look for format information on individual listings, not only a general platform page.",
+        "Record any difference between browser access, an app, and a connected-PC route."
+      ]
+    },
+    {
+      "heading": "Evaluate navigation for the way the library is organized",
+      "paragraphs": [
+        "A publisher-focused catalog may make publisher identity and series organization central to browsing. A multi-publisher catalog may need stronger ways to distinguish publishers, collections and formats. Those are possibilities to test, not guaranteed features. In a preview or available catalog view, see whether you can move from a title to related items, return to search, and understand what is included without losing your place.",
+        "Try a short, repeatable navigation task: locate one shortlist item, verify its format and access status, find another title from the same publisher, then return to the broader library. Notice whether labels remain clear and whether browsing becomes difficult in the headset. A catalog that looks extensive on a desktop page can still be hard to inspect in a headset interface. Record observations as practical fit notes rather than turning a short test into a broad claim about the whole service."
+      ],
+      "bullets": [
+        "Can you distinguish publishers and collections without guessing?",
+        "Can you tell included items from previews or separate purchases?",
+        "Can you return to search or a collection without restarting your browse?"
+      ]
+    },
+    {
+      "heading": "Compare subscription terms separately from catalog composition",
+      "paragraphs": [
+        "Library model and payment model are related but not interchangeable. A publisher-focused catalog can have one set of access terms, and a multi-publisher catalog can have another; neither arrangement implies a particular price, renewal schedule or ownership right. Read the current checkout and cancellation terms for the exact plan you are considering. Note the billing interval, renewal behavior, cancellation route and what the terms say happens to membership access when a plan ends.",
+        "If you are comparing memberships with separately purchased items, determine which items remain accessible after membership ends and under what account conditions. Do not assume that a visible item becomes a permanent purchase simply because it appears in a library. Save the relevant terms and confirmation records in a place that fits your privacy needs. A plan with many listed items may be a poor fit if most of your shortlist is excluded or if the access conditions do not match how you want to use the library."
+      ],
+      "bullets": [
+        "Write down the renewal interval and cancellation method shown before checkout.",
+        "Check whether previews, membership access and separate purchases are clearly distinguished.",
+        "Confirm what access continues, if any, after cancellation or expiration."
+      ]
+    },
+    {
+      "heading": "Use a weighted shortlist to make the final choice",
+      "paragraphs": [
+        "Give each decision factor a simple importance rating before you choose. For example, specific titles may matter more than total catalog breadth; device fit may be essential; and navigation may be a deciding factor if you browse in-headset. Score only what you can verify. Use “unknown” where a service does not provide enough evidence instead of quietly treating missing information as a positive. This keeps a comparison useful even when some catalog details are unavailable.",
+        "Revisit the shortlist shortly before a purchase because catalogs and plan terms can change. If one option clearly meets your essential requirements and the other leaves important facts unresolved, that is useful information even without a numerical winner. Keep the comparison focused on your own use: a multi-publisher library is not automatically better for every viewer, and a publisher-focused catalog is not automatically more complete for every interest."
+      ],
+      "bullets": [
+        "Mark essential requirements separately from preferences.",
+        "Treat missing or unclear facts as unknown and seek an answer before purchase if they matter.",
+        "Recheck item availability, format details and plan terms at the point of decision."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a multi-publisher VR library always broader than a publisher-focused one?",
+      "answer": "Not necessarily. The label describes how the library is assembled, not whether it contains more items overall or more of the items you want. Compare dated, item-level listings and apply the same shortlist to each option."
+    },
+    {
+      "question": "Does a title listed in a VR catalog necessarily work on my headset?",
+      "answer": "No. Check the title’s format and the service’s current compatibility information against your headset and chosen playback route. A general platform compatibility statement may not settle every item-level question."
+    },
+    {
+      "question": "What should I check before starting a membership?",
+      "answer": "Confirm the items included in the plan, relevant formats, renewal interval, cancellation route and the terms for access after membership ends. Save the terms or confirmation details you may need later."
+    }
+  ]
+};

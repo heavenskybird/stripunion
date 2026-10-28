@@ -1,0 +1,140 @@
+{
+  "backlogId": "affiliate-mobile-app-handoff-attribution-audit",
+  "slug": "affiliate-mobile-app-handoff-attribution-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Links: Test Mobile App Handoffs Without Losing Referral Context",
+  "description": "A practical affiliate QA workflow for testing mobile browser-to-app handoffs, redirects, tracking parameters, destination consistency and evidence across common visitor paths.",
+  "excerpt": "A referral link can appear to work in a desktop browser while behaving differently on a phone. Test the complete mobile path—from tap through any app handoff—to identify broken destinations and tracking uncertainty before scaling traffic.",
+  "keyTakeaways": [
+    "Test the visitor journey from the actual published link, not only from a dashboard preview.",
+    "Record each redirect and destination change, including any browser-to-app transition.",
+    "Use test identifiers only when program terms and tools permit them; never assume a test conversion will be credited.",
+    "Compare the destination and visible offer before and after an app handoff without claiming that a click proves attribution.",
+    "Check program rules, privacy obligations and mobile traffic permissions before launching or changing the flow."
+  ],
+  "sections": [
+    {
+      "heading": "Why mobile handoffs need their own test",
+      "paragraphs": [
+        "A link that works in a desktop browser may take a different path on a phone. The visitor may open a mobile browser, see a redirect, land on a store page, or be offered a handoff to an installed app. Each step can affect whether the destination matches the link promise and whether referral context is preserved. A working page load alone does not establish that attribution is functioning.",
+        "Test the path on the device types and browsers relevant to your own audience, without assuming that one result represents every visitor. Record the starting URL, each visible redirect or prompt, the final destination and whether the app opens. Do not publish a claim about tracking effectiveness from a single click. The purpose of QA is to identify observable breaks and unknowns so you can ask the program operator focused questions before relying on the path."
+      ],
+      "bullets": [
+        "Start from the link as it appears on the live page or placement.",
+        "Include mobile browser-only and app-installed paths when relevant.",
+        "Separate observed destination behavior from unverified attribution behavior."
+      ]
+    },
+    {
+      "heading": "Prepare a controlled test and preserve evidence",
+      "paragraphs": [
+        "Before testing, read the program’s current terms for mobile traffic, deep links, redirects, test clicks and test conversions. Some programs may prohibit certain traffic or testing methods, so do not generate test transactions unless the operator explicitly permits them. If an approved test method or diagnostic link exists, use that process and note its scope. If no conversion test is permitted, you can still document the visible navigation path without claiming a commission event occurred.",
+        "Create a test record with the date, device type, operating system and version, browser, whether the destination app is installed, starting placement and observed final destination. Use a harmless page and avoid capturing unnecessary personal data. Screenshots can include notifications, account names or other private details, so review them before saving or sharing. Keep only enough evidence to diagnose the redirect and destination behavior."
+      ],
+      "table": {
+        "caption": "Mobile affiliate-link QA evidence to collect",
+        "headers": [
+          "Test condition",
+          "Record",
+          "Do not infer"
+        ],
+        "rows": [
+          [
+            "App not installed",
+            "Starting link, browser redirects, final web destination",
+            "That a completed page load proves referral credit"
+          ],
+          [
+            "App installed",
+            "Whether an app prompt appears and where it leads",
+            "That app opening preserves the tracking identifier"
+          ],
+          [
+            "Different mobile browser",
+            "Browser, redirect sequence and destination differences",
+            "That one browser result applies to all visitors"
+          ],
+          [
+            "Live placement tap",
+            "Placement location, link target and visible visitor expectation",
+            "That a dashboard click is the same as a user journey"
+          ],
+          [
+            "Approved test event",
+            "Program-approved method and event evidence",
+            "That an unapproved purchase or conversion should be credited"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Trace redirects and check parameter persistence",
+      "paragraphs": [
+        "Follow the link from the published placement and note each visible URL change where practical. Redirects can be introduced by the program link, your own tracking layer, a content-management system, a link shortener or a destination service. Record whether expected identifiers remain present after each step, but do not copy sensitive tokens into public notes. A query parameter that disappears from the browser display does not by itself prove that attribution failed; the program may handle context through another method. Conversely, seeing a parameter does not prove that the referral will be recorded.",
+        "Compare the path for app-installed and app-not-installed conditions. An app handoff may use a separate destination or omit details visible in a browser URL. Ask the program operator how its approved mobile flow is intended to work and what evidence is available for checking it. Avoid editing program URLs or adding arbitrary identifiers unless the terms and documentation explicitly allow it. Preserve the original link and a documented test copy so you can distinguish your own changes from the approved version."
+      ],
+      "bullets": [
+        "Record the full path privately, including redirects you control.",
+        "Check whether CMS or short-link layers alter the supplied URL.",
+        "Ask the program how mobile app handoff and referral context are supported.",
+        "Never treat a visible click identifier as proof of commission attribution."
+      ]
+    },
+    {
+      "heading": "Confirm the destination matches the visitor’s expectation",
+      "paragraphs": [
+        "At the final destination, verify that the page or app relates to the offer described beside your link. Check that the visitor is not sent to an unrelated home page, a broken page, an unexpected locale or a different product than the one promoted. If the destination depends on region or device settings, note the condition rather than treating it as a universal result. A relevant destination is important for visitor trust even when tracking is operating correctly.",
+        "Review the surrounding placement as well as the destination. Link text should describe what a visitor can expect, and any required affiliate disclosure should remain visible in the mobile layout. Check whether a redirect opens a store or app without a clear way back to the original content. If a handoff creates confusion, consider whether the program provides an approved web destination or another compliant link format. Do not conceal a redirect or describe an app handoff as guaranteed if you cannot verify that behavior across supported conditions."
+      ]
+    },
+    {
+      "heading": "Ask the program operator specific tracking questions",
+      "paragraphs": [
+        "If the mobile path is ambiguous, send the operator a concise account of the test conditions and ask how the documented link is expected to behave. Useful questions include whether the program supports app handoffs, whether supplied identifiers should persist through the redirect, whether there is an approved diagnostic method, and where a publisher can see click or event evidence. Include only the information needed to reproduce the issue, and avoid sending full visitor-level data or sensitive account credentials.",
+        "Keep the answer with the relevant program terms and link version. If the operator says the behavior depends on a particular link format, device or region, document that boundary and test it as directed. If written materials and support answers conflict, request clarification before sending additional traffic. Do not treat a support response as a promise of conversion or payout; it should clarify supported behavior and the correct way to test it."
+      ],
+      "bullets": [
+        "Describe device, browser, app-installed status and observed destination.",
+        "Ask which link format is approved for mobile app handoffs.",
+        "Ask what reporting can verify the path and what remains unobservable.",
+        "Save the response and the applicable terms with the test record."
+      ]
+    },
+    {
+      "heading": "Set a maintenance routine for mobile links",
+      "paragraphs": [
+        "Repeat mobile checks after changing a destination, replacing a creative, updating a redirect, migrating a page or receiving notice of a program change. A link that worked before a website or app update may not behave the same way later. Prioritize links that are prominent or central to visitor decisions, and keep an inventory of the placement, source URL, approved destination, last test date and any known limitations. This makes it easier to identify which pages need a recheck when a program reports a change.",
+        "If you find a broken or misleading path, pause or replace the link using an approved option and update the visitor-facing description. Keep the old version and the date of the change in your records if needed for troubleshooting. Monitor reports for changes, but treat dashboard data as one evidence source rather than a complete view of every user journey. A repeatable process supports responsible operations without making unsupported claims about attribution performance."
+      ],
+      "bullets": [
+        "Retest after link, redirect, site, app or program-term changes.",
+        "Maintain a minimal link inventory with test dates and approved destinations.",
+        "Correct or pause a link when the visitor journey is broken or misleading.",
+        "Follow program traffic rules and privacy requirements throughout testing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate link opening the app prove the referral will be tracked?",
+      "answer": "No. It proves only that the observed handoff occurred under that test condition. Attribution may depend on program implementation and approved link formats. Ask the operator how to verify mobile referral context."
+    },
+    {
+      "question": "Can I make a test purchase to see whether a mobile link tracks?",
+      "answer": "Only if the program explicitly permits that test and explains the approved method. Do not assume a self-referral or test transaction will qualify, and do not create transactions that violate program terms."
+    },
+    {
+      "question": "What should I do if the app handoff drops visible tracking parameters?",
+      "answer": "Record the observed path, but do not conclude from the browser URL alone that attribution failed. Check the program’s mobile-link documentation and ask the operator whether the approved handoff preserves referral context through another method."
+    }
+  ],
+  "publishedAt": "2026-10-28",
+  "updatedAt": "2026-10-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
