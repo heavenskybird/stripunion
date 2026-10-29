@@ -1,0 +1,120 @@
+export default {
+  "slug": "creator-platform-public-identity-payout-onboarding-map",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Separate Public Branding from Payout Onboarding",
+  "description": "Before choosing a creator platform, map what fans see against the identity and payment details required for payouts, verification, and account recovery.",
+  "excerpt": "A creator profile can use a public-facing brand while payout onboarding asks for information used to administer an account. Map those roles before committing, and check who can see which details.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Treat the public profile, private account credentials, verification records, and payout details as separate information layers.",
+    "Check the platform’s current onboarding instructions and terms to understand what information is required and for what purpose.",
+    "Confirm which identity details appear publicly, to collaborators, to support staff, or only in account and payment settings.",
+    "Use consistent, accurate information where financial or identity verification is required; do not assume a public pseudonym can replace it.",
+    "Keep a secure record of the account owner, payout destination, recovery method, and any changes made."
+  ],
+  "sections": [
+    {
+      "heading": "Why public branding and payout onboarding need separate checks",
+      "paragraphs": [
+        "A creator may want a memorable public name that is distinct from their legal or financial identity. That does not necessarily mean every part of a platform account can use the public name. Account registration, age or identity checks, tax forms, payout setup, and support recovery can each serve a different purpose and may request different details. The precise requirements depend on the platform and the creator’s circumstances, so verify them in the current official onboarding materials rather than relying on informal summaries.",
+        "The decision is not simply whether a platform allows a stage name. It is whether you understand where each piece of information is stored, who can access it, and what happens if it does not match the platform’s records. A mismatch can complicate verification or account recovery. At the same time, putting private identity details in public-facing fields may expose information you intended to keep separate."
+      ],
+      "bullets": [
+        "List each identity field requested during signup, verification, tax setup, payout setup, and profile creation.",
+        "For each field, record the stated purpose and whether the platform says it is displayed publicly.",
+        "Separate information that fans can see from information used for account administration."
+      ]
+    },
+    {
+      "heading": "Build an information map before opening the account",
+      "paragraphs": [
+        "A simple information map helps reveal when one item is doing several jobs. For example, a display name may appear on a profile, while an account email may be used for login and notices. A payout beneficiary name may be checked by a payment provider, while a recovery contact may be used to regain access. Do not assume that changing one setting changes the others; check each field and its effect independently.",
+        "Use the platform’s official documentation and the actual signup or settings screens as evidence. If the purpose or visibility of a field is unclear, ask support a narrow, practical question before submitting sensitive information. Keep the answer and the relevant policy version with your business records. Avoid sending identity documents through an unverified message or support link."
+      ],
+      "table": {
+        "caption": "A practical map for reviewing identity fields during creator-platform onboarding",
+        "headers": [
+          "Information layer",
+          "Questions to answer",
+          "Useful record"
+        ],
+        "rows": [
+          [
+            "Public profile",
+            "Which name, image, bio, and contact links can visitors see?",
+            "Profile-field checklist and preview"
+          ],
+          [
+            "Login and recovery",
+            "Which email, phone, or recovery method controls account access?",
+            "Recovery method and update procedure"
+          ],
+          [
+            "Verification",
+            "What information or documents are requested, and why?",
+            "Official requirement and submission channel"
+          ],
+          [
+            "Payout and tax setup",
+            "Which beneficiary, tax, or payment details are required?",
+            "Payout setup instructions and change process"
+          ],
+          [
+            "Team access",
+            "Can any collaborator view or edit sensitive settings?",
+            "Role list and permission boundaries"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check visibility, not just field labels",
+      "paragraphs": [
+        "A label such as “account name” does not tell you on its own whether the information is public. Review profile previews, public pages while signed out, and privacy or account settings. Look for less obvious surfaces too: receipts, messages, public replies, creator directories, downloadable files, and notifications. A brand name used consistently in public areas may still appear beside a different legal or payment name in account administration, but the platform’s documentation should explain what is disclosed.",
+        "If you use a pseudonym, make sure it is not accidentally replaced by a personal name in a bio, contact address, file metadata, or connected social account. Avoid publishing a private phone number or personal email as a business contact by default. These precautions reduce accidental disclosure; they cannot guarantee anonymity, especially where platforms or payment providers require identifying information."
+      ],
+      "bullets": [
+        "Preview the profile while signed out, where available.",
+        "Review profile pages, public comments, creator listings, receipts, and contact links for unexpected personal details.",
+        "Check connected social accounts and imported profile information before making the page public."
+      ]
+    },
+    {
+      "heading": "Plan for verification and payout changes",
+      "paragraphs": [
+        "Before relying on a platform for business income, identify how payout setup works, what records are needed, and how to update a payment destination. Use accurate details for any fields the platform or payment provider requires for verification. Do not attempt to work around a mismatch by submitting inconsistent information; ask the relevant provider how to correct it and keep a dated record of the response.",
+        "Also determine who controls the payout destination and whether access to it depends on a shared business email, a collaborator, or a separate payment account. A creator who loses access to a login or payout account may face a different recovery process from someone who only needs to edit a public profile. Store account details securely and restrict access to people who need it."
+      ]
+    },
+    {
+      "heading": "Make the platform decision using a concrete checklist",
+      "paragraphs": [
+        "A platform is a better operational fit when you can explain the relationship between public branding, account ownership, verification, and payouts before accepting payments. Compare the official onboarding steps across platforms without assuming that the same field names mean the same thing. If essential details are absent from public documentation, treat that as an unresolved question rather than evidence that a requirement does not exist.",
+        "Revisit the map whenever you change a payout destination, legal or business structure, recovery contact, or team arrangement. Keep a copy of relevant instructions and confirmations in a secure business records location. A short, updated record makes it easier to identify which account controls access and to correct mistakes without exposing extra information to fans or unauthorized collaborators."
+      ],
+      "bullets": [
+        "Can you identify the account owner and public-facing brand separately?",
+        "Do you know which fields are public and which are used for verification or payouts?",
+        "Is the submission channel for sensitive documents confirmed through official platform materials?",
+        "Can you update recovery and payout details without changing the public profile by mistake?",
+        "Are access rights limited to the people who need them?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator use a public name that differs from their payout identity?",
+      "answer": "A platform may distinguish public profile names from the information required for verification or payments, but rules vary. Check the current official terms and onboarding instructions for the specific platform and payment provider. Use accurate information wherever it is required."
+    },
+    {
+      "question": "Does a creator profile name tell me what appears on a payment record?",
+      "answer": "Not necessarily. Profile display names and payment or account records can be handled in different systems. Review the platform’s billing and payout explanations, and ask support about a specific field if its visibility is unclear."
+    },
+    {
+      "question": "What should I do if my payout details do not match the requested account information?",
+      "answer": "Do not guess or submit inconsistent details. Check the provider’s instructions, contact support through an independently verified official channel, and retain a record of the guidance and any correction steps."
+    }
+  ]
+};
