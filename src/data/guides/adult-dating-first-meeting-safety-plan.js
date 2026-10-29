@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-dating-first-meeting-safety-plan",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating: Plan a Safer First In-Person Meeting",
+  "description": "A practical first-meeting plan for adults using dating or hookup platforms, covering public venues, independent transport, check-ins, and exit options.",
+  "excerpt": "Moving from an online conversation to an in-person meeting calls for a plan that preserves your choices. Decide where to meet, how to arrive and leave, what information to share, and whom you can contact if plans change.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Choose a public place you can leave independently, and decide on your transport before confirming the meeting.",
+    "Tell a trusted person the plan and agree on a check-in time without sharing more personal information than needed.",
+    "Keep early meetings time-limited and avoid depending on the other person for a ride, accommodation, or access to a private location.",
+    "Set boundaries in advance and remember that either person can change their mind or end the meeting.",
+    "Use the platform’s block or report options if someone pressures you, ignores boundaries, or makes you feel unsafe."
+  ],
+  "sections": [
+    {
+      "heading": "Decide whether an in-person meeting feels right",
+      "paragraphs": [
+        "An online conversation does not create an obligation to meet. Before arranging a first meeting, consider whether you feel comfortable with the pace, communication, and boundaries so far. Pressure to meet immediately, requests for secrecy, or anger when you ask reasonable questions are reasons to pause. You can continue chatting, decline, or stop contact without needing to prove your decision.",
+        "Make the plan only when you can choose freely and can leave on your own terms. Avoid agreeing because you have already spent time messaging or because the other person has paid for something. If your circumstances change, you can cancel or reschedule. A good plan preserves the ability to say no before, during, and after the meeting."
+      ],
+      "bullets": [
+        "Do I feel free to decline or postpone?",
+        "Have my boundaries been respected in conversation?",
+        "Can I get to and from the meeting independently?",
+        "Do I have a person I can contact if the plan changes?"
+      ]
+    },
+    {
+      "heading": "Choose a venue and arrival plan that preserve options",
+      "paragraphs": [
+        "For a first meeting, choose a public setting where you can arrive and leave without relying on the other person. Consider whether the venue is familiar, how you will get there, and whether you can leave promptly if you feel uncomfortable. Make your own transport plan and keep control of your phone, money, keys, and other essentials.",
+        "Avoid making the first meeting depend on a private address, a ride from the other person, or a location where leaving would be difficult. If the plan changes to a new venue, pause and decide again rather than treating the change as automatic. You can decline a last-minute change, suggest another public location, or end the plan."
+      ],
+      "table": {
+        "caption": "A first-meeting plan to make before you confirm",
+        "headers": [
+          "Plan element",
+          "Decision to make",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Venue",
+            "Choose a public place you are comfortable using.",
+            "Keeps the plan in a setting with ordinary public access."
+          ],
+          [
+            "Transport",
+            "Arrange your own route there and back.",
+            "Preserves an independent way to leave."
+          ],
+          [
+            "Check-in",
+            "Tell a trusted person the basic plan and check-in time.",
+            "Creates a simple point of contact if plans change."
+          ],
+          [
+            "Time",
+            "Set an initial end time or a short first-meeting window.",
+            "Makes it easier to leave without negotiating an open-ended plan."
+          ],
+          [
+            "Backup",
+            "Choose a person or service to contact if needed.",
+            "Gives you a next step if you feel uncomfortable."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Share a limited plan with a trusted contact",
+      "paragraphs": []
+    },
+    {
+      "heading": "Set boundaries and keep control of your information",
+      "paragraphs": [
+        "Decide in advance what personal information you are comfortable sharing at a first meeting. You can keep home and work addresses, financial details, and other identifying information private. Consider whether your phone’s lock screen, notifications, or shared-device settings might reveal messages or account details, and adjust them if needed before you leave.",
+        "Boundaries can cover timing, venue, conversation topics, physical space, or whether you want to continue meeting. You do not have to justify a boundary or negotiate it repeatedly. If the other person pushes past a limit, take that seriously. You can leave, contact your trusted person, or use the platform’s safety features afterward."
+      ],
+      "bullets": [
+        "Keep your own transport and important belongings under your control.",
+        "Do not share an address or account access to make the plan easier.",
+        "Set a clear end time and a check-in time.",
+        "Choose a brief way to contact your support person if you need help.",
+        "Remember that consent and comfort can change at any time."
+      ]
+    },
+    {
+      "heading": "Recognize pressure and preserve an exit",
+      "paragraphs": []
+    },
+    {
+      "heading": "Use platform tools after the meeting if needed",
+      "paragraphs": []
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I owe someone an in-person meeting after chatting?",
+      "answer": "No. A conversation or prior agreement does not obligate you to meet. You can decline, postpone, or cancel if you no longer feel comfortable."
+    },
+    {
+      "question": "What details should I share with a trusted contact?",
+      "answer": "Share the basic information needed for a check-in, such as the public venue, expected time, and how to reach you. Agree on what they should do if you miss the check-in, and avoid sharing unrelated private details."
+    },
+    {
+      "question": "What if the other person changes the location at the last minute?",
+      "answer": "Pause and reassess. You can keep the original plan, suggest another public venue, or cancel. You are not required to accept a location change, particularly if it reduces your ability to leave independently."
+    }
+  ]
+};
