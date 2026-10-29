@@ -1,0 +1,112 @@
+export default {
+  "slug": "adult-games-localization-language-fit-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Language and Localization Fit Before You Buy",
+  "description": "Evaluate game language support beyond a store-page flag by checking menus, instructions, interface text, update notes, and community information before purchase.",
+  "excerpt": "A language tag may not explain how much of a game is translated. Use a practical checklist to assess menus, instructions, updates, and other text you may need to understand.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Check which parts of the game are listed as available in your preferred language, not just whether a language appears in a store filter.",
+    "Look for evidence about interface text, instructions, subtitles, and update information separately.",
+    "Treat community translation claims as unverified until the source, scope, and installation requirements are clear.",
+    "Consider whether untranslated text affects navigation, setup, or understanding of the game’s systems.",
+    "Recheck language information after major updates because localization details can change."
+  ],
+  "sections": [
+    {
+      "heading": "Read language support as a set of separate features",
+      "paragraphs": [
+        "A store page may list one or more supported languages without explaining the scope of that support. A language option could refer to the interface, written content, subtitles, documentation, or only some of those elements. Do not assume that a single tag means every screen and instruction is translated. Look for a feature breakdown, screenshots, a publisher explanation, or other evidence that identifies what is covered.",
+        "Start with the parts that affect whether you can use the game comfortably. Menus and setup instructions may matter even when you can understand the main content. Tutorial text, settings descriptions, error messages, and update notes may also influence whether you can navigate or troubleshoot. Make a short list of the text you need to understand and compare that list against what the storefront or publisher actually confirms."
+      ],
+      "bullets": [
+        "Separate interface, instructions, subtitles, and documentation in your notes.",
+        "Look for language details in the official store listing and game information.",
+        "Mark unspecified areas as unknown rather than assuming they are covered."
+      ]
+    },
+    {
+      "heading": "Check evidence quality before relying on a language claim",
+      "paragraphs": [
+        "Evidence varies in reliability and detail. A specific language menu shown in a current screenshot may demonstrate that an option exists, but not how thoroughly every line is translated. A publisher’s feature list may define scope more clearly, while an old community post could refer to an earlier version. Note the source and date of any claim you use to make a purchase decision.",
+        "If a demo or preview is available, use it to inspect the actual interface and language selection rather than inferring from a general description. A demo may not represent the full game, so distinguish what you verified there from what remains unconfirmed. If no direct sample exists, a precise question to the publisher or storefront support may be more useful than treating a vague community comment as definitive."
+      ],
+      "table": {
+        "caption": "Language evidence to look for",
+        "headers": [
+          "Evidence",
+          "What it can help confirm",
+          "Limitation to note"
+        ],
+        "rows": [
+          [
+            "Store language list",
+            "Which language options are claimed",
+            "May not describe which parts are translated"
+          ],
+          [
+            "Feature breakdown",
+            "Whether interface, text, or subtitles are included",
+            "May not reflect later updates"
+          ],
+          [
+            "Current screenshots or demo",
+            "How selected menus or text appear",
+            "May cover only a small portion of the game"
+          ],
+          [
+            "Community translation discussion",
+            "Whether players discuss an unofficial option",
+            "Source, completeness, and safety may be uncertain"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assess unofficial translations cautiously",
+      "paragraphs": [
+        "Community-made translations can be useful to learn about, but they introduce questions separate from the game’s official language support. Check who made the files, whether the creator describes the scope, which version they support, and whether installation requires modifying game files or using an additional tool. Do not install files from an unclear source simply because a discussion describes them as a translation.",
+        "Consider whether using an unofficial file is allowed by the game’s or storefront’s terms and whether it may affect updates, saves, support, or security. Do not assume that a community project is complete, maintained, or compatible. If the information is incomplete, treat the translation as a possible option rather than a dependable feature. A safer buying decision is one that remains acceptable without an unverified add-on."
+      ],
+      "bullets": [
+        "Check the source and version details before considering an unofficial file.",
+        "Review applicable rules and installation requirements.",
+        "Avoid executable downloads from sources you cannot verify."
+      ]
+    },
+    {
+      "heading": "Consider how language affects setup, updates, and ongoing use",
+      "paragraphs": [
+        "Do not let a broad language claim stand in for a practical fit decision. A game can offer a preferred language in one area while leaving important menus or instructions in another. A brief checklist of the text you need most can make this difference visible before you buy."
+      ]
+    },
+    {
+      "heading": "Build a language-fit decision before checkout",
+      "paragraphs": [
+        "Create a simple comparison with your preferred language, the officially stated coverage, direct evidence, any known gaps, and the date you checked. Assign confidence to each item: confirmed by a current source, observed in a sample, or unclear. This is more useful than treating every language label as equally conclusive, especially when the game’s description is brief.",
+        "Decide in advance which gaps would change your choice. You may be comfortable with untranslated optional notes but not with untranslated setup instructions. If a key question remains unanswered, postpone the purchase or choose an option whose language details are clearer. Recheck the listing shortly before buying, particularly if the game has received updates since you first reviewed it. The aim is not to demand perfect localization; it is to know what you are relying on."
+      ],
+      "bullets": [
+        "Record the source and date for the language information you reviewed.",
+        "Identify which untranslated areas would prevent comfortable use.",
+        "Do not count a planned or community translation as confirmed official support."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront language tag mean the whole game is translated?",
+      "answer": "Not necessarily. A tag may not specify whether it covers menus, instructions, subtitles, or other text. Look for a detailed breakdown or direct evidence, and treat unspecified areas as unconfirmed."
+    },
+    {
+      "question": "Can I rely on a community translation before buying?",
+      "answer": "Treat it as an unverified option until you understand who provides it, what it covers, which game version it supports, and whether its installation is permitted and safe. Do not make the purchase depend on a file whose source or maintenance is unclear."
+    },
+    {
+      "question": "When should I check language support again?",
+      "answer": "Recheck before purchase and after updates that may change menus, instructions, or available language options. Keep the date and source of your earlier review so you can see whether the information is current."
+    }
+  ]
+};
