@@ -11,8 +11,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: native-social-outbox
+  cancel-in-progress: false
+
 jobs:
   publish-first-telegram-message:
+    if: vars.SOCIAL_LEGACY_REPLAY_ENABLED == 'true' && vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

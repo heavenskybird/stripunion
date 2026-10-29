@@ -10,11 +10,12 @@ permissions:
   contents: read
 
 concurrency:
-  group: telegram-evergreen-${{ github.event.schedule }}
+  group: native-social-outbox
   cancel-in-progress: false
 
 jobs:
   publish:
+    if: vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

@@ -28,8 +28,13 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: native-social-outbox
+  cancel-in-progress: false
+
 jobs:
   queue-social-post:
+    if: vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

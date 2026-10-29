@@ -22,6 +22,7 @@ const row = {
   retryable,
   payload: {
     githubRunId,
+    r1CycleId: process.env.R1_CYCLE_ID || null,
     githubRunAttempt: process.env.GITHUB_RUN_ATTEMPT || null,
     githubSha: process.env.GITHUB_SHA || null,
     githubRepository: process.env.GITHUB_REPOSITORY || null,

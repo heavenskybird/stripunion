@@ -1,0 +1,643 @@
+[
+  {
+    "file": "build.yml",
+    "name": "Build",
+    "triggers": {
+      "push": {
+        "branches": [
+          "**"
+        ],
+        "paths-ignore": [
+          "ops/editorial/publication-ledger/**",
+          "ops/editorial/hourly-backlog.json",
+          "ops/social-outbox/events/**",
+          "ops/control-plane/editorial-producer-kick.json",
+          "ops/control-plane/social-outbox-kick.json",
+          "ops/control-plane/editorial-r1-receipt.json"
+        ]
+      },
+      "pull_request": {
+        "branches": [
+          "main"
+        ]
+      }
+    },
+    "permissions": null,
+    "concurrency": null
+  },
+  {
+    "file": "control-plane-authority-promotion.yml",
+    "name": "Control plane authority promotion",
+    "triggers": {
+      "schedule": [
+        {
+          "cron": "47 * * * *"
+        }
+      ],
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "write"
+    },
+    "concurrency": {
+      "group": "control-plane-authority-promotion",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "deploy-live-models-worker.yml",
+    "name": "Deploy live models worker",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "services/live-models-worker/**",
+          ".github/workflows/deploy-live-models-worker.yml"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "editorial-backfill-2026-10-04.yml",
+    "name": "Editorial distribution backfill 2026-10-04",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          ".github/workflows/editorial-backfill-2026-10-04.yml"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "editorial-batch-publish.yml",
+    "name": "Editorial batch compile",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/editorial/content-artifacts/*.json",
+          "scripts/compile-editorial-artifacts.mjs",
+          "src/data/categories.js"
+        ]
+      },
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "write",
+      "pull-requests": "write"
+    },
+    "concurrency": {
+      "group": "editorial-batch-compile",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "editorial-distribution.yml",
+    "name": "Editorial distribution",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "src/data/guides/*.js"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "write"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "editorial-heartbeat-bridge.yml",
+    "name": "Editorial heartbeat bridge",
+    "triggers": {
+      "push": {
+        "branches": [
+          "bot/stripunion-heartbeat-kicks"
+        ],
+        "paths": [
+          "ops/control-plane/editorial-producer-kick.json"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "editorial-hourly-producer.yml",
+    "name": "Editorial hourly producer",
+    "triggers": {
+      "workflow_dispatch": null,
+      "workflow_call": null
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "write"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "editorial-producer-scheduler.yml",
+    "name": "Editorial producer scheduler",
+    "triggers": {
+      "schedule": [
+        {
+          "cron": "7,17,27,37,47,57 * * * *"
+        }
+      ],
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/control-plane/editorial-producer-kick.json"
+        ]
+      },
+      "workflow_run": {
+        "workflows": [
+          "Native social outbox",
+          "Ecosystem public health",
+          "Editorial production snapshot",
+          "Control plane authority promotion",
+          "Telegram evergreen distribution",
+          "Visual QA",
+          "Editorial heartbeat bridge"
+        ],
+        "types": [
+          "completed"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "write"
+    },
+    "concurrency": {
+      "group": "editorial-producer-scheduler-r1",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "editorial-production-snapshot.yml",
+    "name": "Editorial production snapshot",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/editorial/publication-ledger/astro/*.json",
+          "ops/editorial/publication-ledger/wordpress/*.json",
+          "scripts/editorial-production-count.mjs",
+          ".github/workflows/editorial-production-snapshot.yml"
+        ]
+      },
+      "schedule": [
+        {
+          "cron": "25 * * * *"
+        }
+      ]
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "growth-control-plane-sync.yml",
+    "name": "Growth control plane shadow sync",
+    "triggers": {
+      "workflow_dispatch": {
+        "inputs": {
+          "required": {
+            "description": "Fail if Supabase is not fully configured",
+            "required": true,
+            "type": "boolean",
+            "default": true
+          }
+        }
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": {
+      "group": "growth-control-plane-shadow-sync",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "hostinger-readonly-acceptance.yml",
+    "name": "Hostinger Read-only Acceptance",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths-ignore": [
+          "ops/seo-data-layer/data/**",
+          "ops/editorial/publication-ledger/**",
+          "ops/editorial/hourly-backlog.json",
+          "ops/social-outbox/events/**",
+          "ops/control-plane/editorial-producer-kick.json",
+          "ops/control-plane/social-outbox-kick.json"
+        ]
+      },
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": {
+      "group": "hostinger-readonly-acceptance",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "integration-smoke.yml",
+    "name": "Integration smoke test",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "paths": [
+          ".github/workflows/integration-smoke.yml"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "seo-data-daily.yml",
+    "name": "SEO data daily",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "paths": [
+          ".github/workflows/seo-data-daily.yml",
+          "ops/seo-data-layer/src/collectors/**",
+          "ops/seo-data-layer/src/lib/**",
+          "ops/seo-data-layer/src/reports/**",
+          "ops/seo-data-layer/package.json",
+          "ops/growth/opportunities.mjs",
+          "ops/growth/content-inventory.mjs",
+          "ops/growth/offers/**",
+          "scripts/blog-health-check.mjs",
+          "src/layouts/BaseLayout.astro",
+          "src/pages/**",
+          "src/data/**",
+          "src/components/**"
+        ]
+      },
+      "schedule": [
+        {
+          "cron": "20 1 * * *"
+        }
+      ]
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "write"
+    },
+    "concurrency": {
+      "group": "seo-data-persistence",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "social-distribution.yml",
+    "name": "Social distribution",
+    "triggers": {
+      "workflow_dispatch": {
+        "inputs": {
+          "title": {
+            "description": "Published content title",
+            "required": true,
+            "type": "string"
+          },
+          "url": {
+            "description": "Published content URL",
+            "required": true,
+            "type": "string"
+          },
+          "excerpt": {
+            "description": "Short excerpt or summary",
+            "required": false,
+            "type": "string"
+          },
+          "post_id": {
+            "description": "Source post ID",
+            "required": false,
+            "type": "string"
+          },
+          "source": {
+            "description": "Event source",
+            "required": false,
+            "default": "wordpress",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "social-outbox-heartbeat.yml",
+    "name": "Social outbox heartbeat",
+    "triggers": {
+      "workflow_dispatch": null,
+      "workflow_run": {
+        "workflows": [
+          "Editorial heartbeat bridge",
+          "Ecosystem public health",
+          "Editorial production snapshot"
+        ],
+        "types": [
+          "completed"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "write"
+    },
+    "concurrency": {
+      "group": "native-social-outbox",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "social-outbox.yml",
+    "name": "Native social outbox",
+    "triggers": {
+      "schedule": [
+        {
+          "cron": "*/15 * * * *"
+        }
+      ],
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/editorial/publication-ledger/astro/*.json",
+          "ops/control-plane/social-outbox-kick.json"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "write"
+    },
+    "concurrency": {
+      "group": "native-social-outbox",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "stripcash-models-probe.yml",
+    "name": "StripCash models API schema probe",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          ".github/workflows/stripcash-models-probe.yml",
+          "ops/seo-data-layer/src/collectors/stripcash-models-schema-probe.mjs"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "stripcash-stats-probe.yml",
+    "name": "StripCash statistics schema probe",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/seo-data-layer/src/collectors/stripcash-schema-probe.mjs",
+          ".github/workflows/stripcash-stats-probe.yml"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "telegram-bootstrap.yml",
+    "name": "Telegram Bootstrap",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          ".github/workflows/telegram-bootstrap.yml",
+          "ops/seo-data-layer/src/distribution/telegram.mjs"
+        ]
+      }
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": null
+  },
+  {
+    "file": "telegram-evergreen.yml",
+    "name": "Telegram evergreen distribution",
+    "triggers": {
+      "schedule": [
+        {
+          "cron": "15 0 * * *"
+        },
+        {
+          "cron": "15 8 * * *"
+        },
+        {
+          "cron": "15 16 * * *"
+        }
+      ]
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": {
+      "group": "telegram-evergreen-${{ github.event.schedule }}",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "traffic-competitor-daily.yml",
+    "name": "Traffic and competitor intelligence",
+    "triggers": {
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "write"
+    },
+    "concurrency": {
+      "group": "growth-intelligence-persistence",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "two-site-health.yml",
+    "name": "Ecosystem public health",
+    "triggers": {
+      "workflow_dispatch": null,
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          ".github/workflows/two-site-health.yml",
+          "scripts/public-health-oracle.mjs",
+          "scripts/two-site-main-health.mjs",
+          "scripts/blog-health-check.mjs"
+        ]
+      },
+      "schedule": [
+        {
+          "cron": "17 * * * *"
+        }
+      ]
+    },
+    "permissions": {
+      "contents": "read"
+    },
+    "concurrency": {
+      "group": "ecosystem-public-health",
+      "cancel-in-progress": true
+    }
+  },
+  {
+    "file": "visual-qa.yml",
+    "name": "Visual QA",
+    "triggers": {
+      "pull_request": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "src/**",
+          "scripts/visual-regression.mjs",
+          "scripts/test/visual-overflow.regression.mjs",
+          "scripts/test/live-models-preview.regression.mjs",
+          "package.json",
+          ".github/workflows/visual-qa.yml"
+        ]
+      },
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "src/**",
+          "scripts/visual-regression.mjs",
+          "scripts/test/visual-overflow.regression.mjs",
+          "scripts/test/live-models-preview.regression.mjs",
+          "package.json",
+          ".github/workflows/visual-qa.yml"
+        ]
+      },
+      "schedule": [
+        {
+          "cron": "43 * * * *"
+        }
+      ],
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "read",
+      "actions": "write"
+    },
+    "concurrency": {
+      "group": "visual-qa-${{ github.event_name }}-${{ github.ref }}",
+      "cancel-in-progress": true
+    }
+  },
+  {
+    "file": "weekly-growth-report.yml",
+    "name": "Weekly growth report",
+    "triggers": {
+      "workflow_dispatch": null
+    },
+    "permissions": {
+      "contents": "write"
+    },
+    "concurrency": {
+      "group": "growth-report-persistence",
+      "cancel-in-progress": false
+    }
+  },
+  {
+    "file": "wordpress-editorial-publish.yml",
+    "name": "WordPress editorial publish",
+    "triggers": {
+      "push": {
+        "branches": [
+          "main"
+        ],
+        "paths": [
+          "ops/editorial/wordpress-queue/*.json"
+        ]
+      },
+      "workflow_dispatch": {
+        "inputs": {
+          "content_path": {
+            "description": "Repository JSON payload under ops/editorial/wordpress-queue/",
+            "required": true,
+            "type": "string"
+          }
+        }
+      }
+    },
+    "permissions": {
+      "contents": "write",
+      "actions": "read"
+    },
+    "concurrency": {
+      "group": "wordpress-editorial-publish",
+      "cancel-in-progress": false
+    }
+  }
+]

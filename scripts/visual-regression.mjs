@@ -10,7 +10,11 @@ const defaultTargets = [
   '/guides/premium-adult-video-subscription-value-privacy-guide',
   '/guides/adult-site-payment-privacy-billing-guide',
   '/guides/creator-fan-platform-selection-guide',
-  '/best-live-cam-sites'
+  '/best-live-cam-sites',
+  '/stripchat-alternatives',
+  '/adultfriendfinder',
+  '/become-a-cam-model',
+  '/avcams'
 ];
 const targets = process.env.VISUAL_TARGETS_JSON
   ? JSON.parse(process.env.VISUAL_TARGETS_JSON)
@@ -40,7 +44,7 @@ function slugify(value) {
     .slice(0, 110) || 'home';
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, ...(process.env.VISUAL_CHROMIUM_PATH ? { executablePath: process.env.VISUAL_CHROMIUM_PATH } : {}) });
 const report = {
   version: 1,
   generated_at: new Date().toISOString(),
@@ -227,20 +231,10 @@ try {
         pageRecord.blank_buttons = audit.blankButtons;
         pageRecord.overflow_offenders = audit.overflowOffenders;
 
-        if (audit.horizontalOverflowPx > 2 && audit.overflowOffenders.length) {
+        if (audit.horizontalOverflowPx > 2) {
           report.failures.push({
-            type: 'HORIZONTAL_OVERFLOW',
-            viewport: viewport.name,
-            url,
-            detail: `${audit.horizontalOverflowPx}px`,
-            offenders: audit.overflowOffenders
-          });
-        } else if (audit.horizontalOverflowPx > 2) {
-          report.warnings.push({
-            type: 'UNATTRIBUTED_SCROLL_GEOMETRY',
-            viewport: viewport.name,
-            url,
-            detail: `${audit.horizontalOverflowPx}px without a visible DOM offender`
+            type: 'HORIZONTAL_OVERFLOW', viewport: viewport.name, url,
+            detail: `${audit.horizontalOverflowPx}px`, offenders: audit.overflowOffenders
           });
         }
         for (const issue of audit.lowContrast) {
