@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/live-cam-private-interaction-options-fit-audit.json",
     "ops/editorial/content-artifacts/creator-platform-fan-messaging-boundary-controls-audit.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40826513177"
+  "r1CycleId": "40826513177",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
