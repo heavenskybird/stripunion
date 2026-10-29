@@ -1,0 +1,131 @@
+{
+  "backlogId": "affiliate-geographic-eligibility-and-routing-audit",
+  "slug": "affiliate-program-geographic-eligibility-and-routing-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Geographic Eligibility and Visitor Routing Before Promotion",
+  "description": "A practical workflow for checking which audiences and locations an affiliate program permits, documenting geographic exclusions, and avoiding misleading or broken visitor routes.",
+  "excerpt": "A language setting is not the same as geographic eligibility. Before promoting an affiliate offer, map the program’s location rules to your audience, landing pages, and routing behavior.",
+  "keyTakeaways": [
+    "Check program terms for permitted visitor locations, customer eligibility, and any location-specific promotion restrictions; do not infer these from the offer’s language or currency.",
+    "Map your actual traffic sources and audience regions against documented rules before placing links.",
+    "Test the visitor journey for supported and unsupported locations without attempting to evade restrictions.",
+    "Keep a dated record of the rule source, your interpretation, routing behavior, and questions sent to the program.",
+    "If eligibility is unclear, pause promotion to the affected audience until the program provides a usable answer."
+  ],
+  "sections": [
+    {
+      "heading": "Separate audience location from language and currency",
+      "paragraphs": [
+        "Geographic eligibility answers a different question from language localization. A site may publish in one language for readers in several countries, while a program may accept referrals only from certain locations, limit promotion in others, or apply different customer eligibility rules by region. A translated page or local currency display does not establish that an offer is available to every reader who can understand it.",
+        "Start by identifying the dimensions that matter in the program’s own terms. These may include where the visitor is located, where the referred customer resides, where an advertisement is shown, or where a publisher operates. Do not assume these definitions are interchangeable. If the agreement uses a broad phrase such as “approved territories,” find the accompanying list or ask the program to define it before relying on the phrase."
+      ],
+      "bullets": [
+        "Record the exact wording and source for each geographic rule.",
+        "Distinguish visitor location, customer residence, publisher location, and ad-target location.",
+        "Treat language, currency, and domain extension as clues for localization, not proof of eligibility."
+      ]
+    },
+    {
+      "heading": "Build a region-to-rule map for your audience",
+      "paragraphs": [
+        "Use available aggregate audience information to make a practical map of where visitors come from. A webmaster does not need to identify individual readers to perform this review: country-level or other sufficiently broad statistics may be enough to spot whether a material part of the audience falls outside the program’s stated scope. If your site serves several regions, list each separately rather than treating the whole audience as one market.",
+        "Compare that map with the program’s documented rules and note the result for every relevant region: permitted, excluded, uncertain, or subject to a condition. Record the date you checked the rule because terms and offer availability can change. If your analytics do not provide reliable location information, do not represent your audience as regionally eligible based on guesswork. Use a conservative description and seek clarification from the program."
+      ],
+      "table": {
+        "caption": "A simple geographic eligibility review matrix",
+        "headers": [
+          "Audience region",
+          "Program evidence",
+          "Publisher decision",
+          "Follow-up"
+        ],
+        "rows": [
+          [
+            "Region with clear permission",
+            "Current written term or program confirmation",
+            "Promotion may proceed if other rules are met",
+            "Save source and review date"
+          ],
+          [
+            "Region named as excluded",
+            "Current written restriction",
+            "Do not target or route referrals there",
+            "Check whether existing pages need adjustment"
+          ],
+          [
+            "Region not addressed",
+            "No clear supporting rule",
+            "Treat as unresolved",
+            "Request written clarification"
+          ],
+          [
+            "Mixed or unknown audience",
+            "Aggregate data is incomplete",
+            "Avoid making a blanket eligibility claim",
+            "Improve aggregate measurement or narrow placement"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the whole visitor journey",
+      "paragraphs": [
+        "Eligibility is not just a question about the link destination. Review how a visitor encounters the link, what the landing page promises, and what happens after the click. A page may attract readers from several countries even if its main language or topic appears region-specific. Make sure the link label does not imply universal availability when access depends on location.",
+        "Where the program or destination provides a location-specific experience, check that it handles ineligible visitors clearly and does not silently send them to an unrelated offer. Do not construct a workaround intended to disguise location or bypass a program restriction. If an automatic redirect is proposed, confirm that the program permits it and that the resulting destination is relevant, transparent, and consistent with the visitor’s expectations."
+      ],
+      "bullets": [
+        "Review the audience targeting of paid placements and promotional posts, if used.",
+        "Check whether a regional redirect is permitted before implementing one.",
+        "Confirm that unavailable visitors are not presented with a false availability promise.",
+        "Keep a record of test conditions and observed results without collecting unnecessary personal data."
+      ]
+    },
+    {
+      "heading": "Document restrictions and get precise answers",
+      "paragraphs": [
+        "When the written terms are ambiguous, ask a focused question rather than requesting a general assurance that promotion is allowed. State the relevant audience region, traffic source, placement type, and intended destination. Ask whether the restriction concerns the publisher, the visitor, the referred customer, or some combination. A specific answer is easier to apply and preserve than a broad statement that “international traffic is fine.”",
+        "Maintain a small decision file containing the applicable agreement language, any territory list, program correspondence, the pages and placements reviewed, and the date of your decision. Note who approved a routing or targeting arrangement and what conditions were attached. This creates an operational reference for editors and media buyers and helps prevent a later team member from treating an old interpretation as a universal rule."
+      ],
+      "bullets": [
+        "Ask about named regions and use cases, not hypothetical worldwide permission.",
+        "Save written replies with the related program and placement notes.",
+        "Escalate conflicting terms rather than choosing the most permissive interpretation."
+      ]
+    },
+    {
+      "heading": "Review after audience or program changes",
+      "paragraphs": [
+        "Geographic review is not a one-time checkbox. Revisit it when you add a new country-specific section, change paid targeting, publish translated content, alter link routing, or receive a notice that offer coverage has changed. A website migration or new distribution partner can also expose pages to a different audience than the one originally considered.",
+        "A lightweight review calendar can reduce accidental drift. At each review, compare the current program terms against the recorded region map, inspect the key landing pages, and confirm that the traffic sources remain permitted. If the program’s rules are unavailable or have materially changed, pause the affected placement while you establish the new requirements. This is a compliance workflow, not a guarantee of legal compliance; publishers should obtain qualified advice where their obligations are uncertain."
+      ],
+      "bullets": [
+        "Trigger a review after changes in audience, targeting, destination, or program terms.",
+        "Remove or revise placements that imply an offer is available everywhere when it is not.",
+        "Keep a dated change log so the reason for a routing decision remains clear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a translated landing page mean the affiliate offer is approved in that country?",
+      "answer": "No. Translation indicates that a page can be understood; it does not prove that the program permits promotion to visitors in that location or that customers there are eligible. Check the applicable program terms or obtain written clarification."
+    },
+    {
+      "question": "Can I automatically send an ineligible visitor to a different offer?",
+      "answer": "Only if the program permits that routing and the alternate destination is accurate and relevant. Do not use redirects to conceal a restriction or mislead visitors. Document the approved behavior and test the visitor experience."
+    },
+    {
+      "question": "What should I do when a program does not publish a clear territory list?",
+      "answer": "Treat the affected region as unresolved. Ask the program a specific written question describing the audience, source, and placement. Until the scope is clear, avoid representing the offer as available there or targeting that audience with it."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
