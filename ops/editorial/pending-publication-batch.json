@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T13:03:20.006Z",
+  "generatedAt": "2026-10-29T14:04:23.759Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-mobile-browser-playback-fit.json",
-    "ops/editorial/content-artifacts/affiliate-email-campaign-permission-preflight.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-dispute-evidence-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-featured-listing-discovery-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-review-and-appeal-audit.json"
+    "ops/editorial/content-artifacts/creator-platform-upload-workflow-fit-checklist.json",
+    "ops/editorial/content-artifacts/premium-video-mobile-catalog-navigation-fit-audit.json",
+    "ops/editorial/content-artifacts/free-video-personalization-and-recommendation-controls-audit.json",
+    "ops/editorial/content-artifacts/adult-games-optional-purchase-disclosure-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-prepurchase-customer-support-readiness-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-platform-mobile-browser-playback-fit.js",
-    "src/data/guides/affiliate-email-campaign-permission-and-suppression-preflight.js",
-    "src/data/guides/adult-platform-payment-dispute-evidence-workflow.js",
-    "src/data/guides/live-cam-room-listing-discovery-and-sort-audit.js",
-    "src/data/guides/adult-dating-profile-review-hold-and-appeal-checklist.js"
+    "src/data/guides/creator-platform-upload-workflow-fit-checklist.js",
+    "src/data/guides/premium-video-mobile-catalog-navigation-fit-audit.js",
+    "src/data/guides/free-video-personalization-and-recommendation-controls-audit.js",
+    "src/data/guides/adult-games-optional-purchase-disclosure-audit.js",
+    "src/data/guides/adult-shop-prepurchase-customer-support-readiness-audit.js"
   ],
   "categories": [
-    "hentai-anime",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "live-cams",
-    "dating-hookups"
+    "creator-platforms",
+    "premium-videos",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-anime-mobile-browser-playback-fit",
-    "affiliate-email-campaign-permission-preflight",
-    "adult-platform-payment-dispute-evidence-workflow",
-    "live-cam-featured-listing-discovery-audit",
-    "adult-dating-profile-review-and-appeal-audit"
+    "creator-platform-upload-workflow-fit-checklist",
+    "premium-video-mobile-catalog-navigation-fit-audit",
+    "free-video-personalization-and-recommendation-controls-audit",
+    "adult-games-optional-purchase-disclosure-audit",
+    "adult-shop-prepurchase-customer-support-readiness-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40878129104",
-  "phase": "closed"
+  "r1CycleId": "40887202477"
 }

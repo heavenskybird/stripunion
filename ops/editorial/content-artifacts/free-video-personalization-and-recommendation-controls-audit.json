@@ -1,0 +1,118 @@
+{
+  "backlogId": "free-video-personalization-and-recommendation-controls-audit",
+  "slug": "free-video-personalization-and-recommendation-controls-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Recommendation and Personalization Controls",
+  "description": "Learn how to inspect recommendation settings, personalization signals, and feed controls on free video platforms before browsing or signing in.",
+  "excerpt": "A recommendation feed can shape what appears on screen and what data may influence suggestions. Use this audit to understand visible controls without assuming how a platform works behind the scenes.",
+  "keyTakeaways": [
+    "Distinguish between controls that change recommendations and controls that delete or retain account history.",
+    "Check whether controls are available to signed-out visitors, account holders, or both.",
+    "Look for clear explanations of which activity or settings affect suggestions, while treating missing detail as unknown.",
+    "Test visible controls with low-risk browsing and avoid interpreting one changed feed as proof of complete data deletion."
+  ],
+  "sections": [
+    {
+      "heading": "Separate recommendations from viewing history",
+      "paragraphs": [
+        "Recommendation controls and history controls are related, but they are not interchangeable. A platform may offer a way to mark an item as unwanted, adjust a preference, or reset suggestions while keeping some activity records. Conversely, a history setting may affect what appears in an account’s activity list without changing recommendations immediately. Read the labels and explanations carefully instead of assuming that one action clears every signal used for personalization.",
+        "Before testing, decide what you want to manage: the content shown in a feed, the activity saved to an account, or the browser data stored on your device. These are separate layers. Account controls concern the platform’s account features; browser controls concern local storage and cookies; a recommendation setting may address only future suggestions. Keeping those goals distinct makes it easier to assess whether a control does what you need."
+      ],
+      "bullets": [
+        "Write down whether your goal is to change suggestions, manage saved activity, or clear local browser data.",
+        "Do not treat a “reset” label as proof that all previously collected information is erased.",
+        "Check help text and privacy explanations as well as the control’s name."
+      ]
+    },
+    {
+      "heading": "Find out which browsing state the control applies to",
+      "paragraphs": [
+        "Check whether the platform distinguishes signed-in and signed-out browsing. Some preference controls may appear only in an account, while a browser may also retain local choices. If you test while signed in, note which account is active and whether other profiles or devices could affect the result. If you test while signed out, do not assume the platform has no way to personalize the page; simply record what the interface discloses and what remains unclear.",
+        "A practical comparison starts with a clean, low-risk test. Observe the initial feed before changing a setting, find the available recommendation controls, and record their exact labels. Change one setting at a time and revisit the same section. Avoid searching for sensitive subjects just to provoke a visible change. A small test can show whether an interface responds, but cannot establish all the data sources or retention practices behind the recommendations."
+      ],
+      "table": {
+        "caption": "Recommendation-control evidence map",
+        "headers": [
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Where is the control?",
+            "Account settings, feed menu, browser prompt, or another stated location"
+          ],
+          [
+            "Who can use it?",
+            "Signed-in users, signed-out visitors, or unclear"
+          ],
+          [
+            "What does it say it changes?",
+            "Suggestions, a preference, history, or another defined item"
+          ],
+          [
+            "Is the effect explained?",
+            "Stated timing and scope, or a note that details are unclear"
+          ],
+          [
+            "What remains separate?",
+            "Account history, browser storage, and privacy settings to review independently"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read explanations for scope and effect",
+      "paragraphs": [
+        "Look for an explanation that identifies the activity or preference a control affects. Useful wording should make clear whether a choice applies to one item, a category of suggestions, or a broader feed. Also check whether the platform explains when a change takes effect and whether it can be reversed. If the description is vague, record the ambiguity instead of expanding the platform’s promise beyond the words shown.",
+        "Review the platform’s privacy materials for a separate explanation of recommendation data. These materials may describe categories of information, account settings, or retention at a general level. Compare the explanation with the interface, but do not assume that a policy paragraph guarantees a particular real-time feed outcome. Where details are not stated, treat them as unknown and decide whether that uncertainty is acceptable for your own use."
+      ],
+      "bullets": [
+        "Save the exact control label and its accompanying explanation.",
+        "Record whether the stated scope is item-level, preference-level, or broader.",
+        "Mark unclear timing, retention, or data-source explanations as unresolved."
+      ]
+    },
+    {
+      "heading": "Assess the practical privacy boundary",
+      "paragraphs": [
+        "Recommendation controls are only one part of privacy. Consider whether you are using a personal or shared device, whether account sign-in is necessary for the task, and whether browser history or notifications could reveal that you visited the platform. Those device-level traces are not necessarily changed by adjusting a feed preference. Use appropriate device and account privacy practices, especially on devices other people can access, and avoid entering sensitive information into a service unless you understand its data handling.",
+        "If you choose to browse without signing in, remember that this does not by itself prove that the platform cannot use browser storage or other technical signals. Read relevant notices and browser prompts, and manage local data using your browser’s own controls when appropriate. The aim is to understand the boundary of each control rather than to promise anonymity or claim that one setting removes every trace."
+      ],
+      "bullets": [
+        "Check whether account sign-in is needed for the features you want to use.",
+        "Review browser privacy controls separately from platform account settings.",
+        "Consider notifications, shared devices, and visible browser history as separate exposure points."
+      ]
+    },
+    {
+      "heading": "Use a simple decision record",
+      "paragraphs": [
+        "A short record helps you compare platforms without relying on memory or assumptions. For each service, note the control location, access state, stated effect, reversibility, and any unanswered questions. Include the date because interfaces and policies can change. If a control appears to change the feed, record only what you observed—for example, that a section looked different after an adjustment—not what you cannot verify, such as whether all prior personalization data was removed.",
+        "Decide what minimum level of clarity you need before using a platform regularly. You might require an understandable way to influence suggestions, a clear distinction between recommendation settings and history, or an explanation of account and browser controls. If those needs are not met, you can limit use or choose a different browsing approach. The decision should reflect evidence and your comfort with uncertainty, not a claim that any platform guarantees a particular privacy outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does resetting recommendations delete my viewing history?",
+      "answer": "Not necessarily. A recommendation reset and history deletion may be separate controls with different scopes. Read the platform’s explanation for each, and do not assume one action changes the other unless the service clearly says so."
+    },
+    {
+      "question": "Can a free video platform personalize recommendations when I am signed out?",
+      "answer": "The answer depends on the platform and the information it discloses. Check its signed-out interface, privacy notices, and browser prompts. If the platform does not explain the scope, treat it as unknown rather than assuming that signed-out browsing is unpersonalized."
+    },
+    {
+      "question": "How can I tell whether a control worked?",
+      "answer": "You can observe whether the interface or feed changes after adjusting a setting, but that observation does not prove the full data-handling effect. Record what visibly changed and consult the platform’s documentation for the stated scope, timing, and any separate history controls."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

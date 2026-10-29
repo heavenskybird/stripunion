@@ -1,0 +1,111 @@
+export default {
+  "slug": "creator-platform-upload-workflow-fit-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Upload and Publishing Workflows Before You Commit",
+  "description": "Compare creator platforms by checking file requirements, upload processing, draft controls, publishing steps and how well each workflow fits your production routine.",
+  "excerpt": "A platform may suit your business model but still create friction at every upload. Use this workflow audit to compare practical publishing requirements before moving your work.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Check documented file types, size limits, and processing expectations against the files you actually produce.",
+    "Test whether drafts, scheduled posts, edits, and previews support your intended publishing workflow.",
+    "Separate technical upload limits from content rules and commercial terms; they answer different questions.",
+    "Record the workflow in a repeatable test so a polished demo does not substitute for evidence."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the publishing work you need to do",
+      "paragraphs": [
+        "Creator platforms differ not only in audience access or commercial terms, but also in the everyday mechanics of publishing. An upload process that adds repeated conversions, manual steps, or uncertain processing can affect how reliably you maintain a schedule. Before comparing services, write down the kinds of media and posts you expect to publish, the devices you use to prepare them, and the steps you want to complete in one sitting.",
+        "Keep this inventory factual and platform-neutral. Include the source file types and approximate file sizes you already work with, whether you prepare posts in batches, whether posts need captions or accompanying text, and whether you revise material after publishing. Do not assume a platform accepts a file merely because its help page mentions a broad media category; check the exact current requirements and note when they were reviewed."
+      ],
+      "bullets": [
+        "List the file types and typical file sizes in your existing workflow.",
+        "Note whether you need drafts, scheduled publication, revisions, or batch preparation.",
+        "Record the devices and network conditions you commonly use for uploads."
+      ]
+    },
+    {
+      "heading": "Compare file requirements with your actual workflow",
+      "paragraphs": [
+        "Look for a platform’s documented upload specifications, including accepted formats, maximum file size or duration if stated, and any separate requirements for images, video, or attachments. Also check whether the platform explains what happens when a file is rejected or needs conversion. These details matter because a nominally supported format may still require a time-consuming export or a different editing step.",
+        "Treat a missing or unclear specification as an open question, not as proof that a feature is unavailable. Seek clarification through official documentation or support, and save the answer with the date and source. Avoid relying on third-party summaries for a critical technical requirement if you can verify it directly. A compact comparison table can distinguish confirmed requirements from assumptions and unanswered questions."
+      ],
+      "table": {
+        "caption": "A practical upload-requirements comparison",
+        "headers": [
+          "Workflow question",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Which file types are accepted?",
+            "Exact formats stated in current platform documentation"
+          ],
+          [
+            "Are size or duration limits stated?",
+            "The limit, scope, and date checked—or “not clearly stated”"
+          ],
+          [
+            "Does the platform process files after upload?",
+            "What the platform says about processing, review, or conversion"
+          ],
+          [
+            "What happens when an upload fails?",
+            "Documented error guidance and any available support route"
+          ],
+          [
+            "Can the creator preview the result?",
+            "Where a preview appears and what it lets you verify"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect drafts, scheduling, and revision steps",
+      "paragraphs": [
+        "A reliable publishing workflow needs more than a successful file transfer. Check whether you can save incomplete work, see which items remain drafts, and confirm the intended audience or access level before publication. If scheduling matters, look for clearly labeled date, time, and time-zone controls. Confirm whether the platform describes what happens if a scheduled post is edited or removed before it goes live.",
+        "Examine the revision path too. Find out what can be changed after publication, whether an edit replaces the existing post or creates a new version, and whether changes affect links or audience access. Do not infer these behaviors from the presence of an edit button. If the platform offers a test or preview mode, use non-sensitive sample material and check the result from the perspective available to a viewer, where permitted."
+      ],
+      "bullets": [
+        "Check whether drafts remain identifiable after leaving and returning to the publishing screen.",
+        "Verify scheduled dates, time zones, and any stated editing behavior before relying on scheduling.",
+        "Confirm the difference between previewing a post and making it public."
+      ]
+    },
+    {
+      "heading": "Run a small, repeatable workflow test",
+      "paragraphs": [
+        "A structured test makes platforms easier to compare without publishing private or unfinished work. Use a low-risk sample file that you own and that contains no personal metadata you do not want to disclose. Follow the same steps on each platform: prepare the file, start an upload, review any prompts, save or preview the post, and record the number of required decisions or manual conversions. Do not publish the sample publicly unless you intentionally want to do so and understand the access settings.",
+        "Record observations rather than impressions alone. Note which instructions were easy to find, whether the displayed status was understandable, and whether the result appeared as expected. If you encounter an error, capture its wording without including account credentials or sensitive material. A second run can help distinguish a one-off interruption from a repeatable process, but do not mistake a small personal test for proof of platform-wide reliability."
+      ],
+      "bullets": [
+        "Use the same sample file and sequence of steps for each comparison.",
+        "Keep a dated note of what worked, what failed, and what remains unverified.",
+        "Avoid including private drafts or identifiable information in test uploads."
+      ]
+    },
+    {
+      "heading": "Keep workflow fit separate from business and rights decisions",
+      "paragraphs": [
+        "Technical convenience is one part of platform fit, not a substitute for reviewing policies and commercial terms. A platform’s upload instructions do not by themselves establish who owns submitted material, what license is granted, how content rules are applied, or what happens to access after an account change. Review those questions in their own documents and keep the evidence separate from your file-format notes.",
+        "Likewise, do not assume that a smooth publishing interface means all operational risks are addressed. Keep original source files and your own publication records in an appropriate secure location, and understand the platform’s stated account, content, and export options before making it the only place where important material exists. Your decision can then reflect both day-to-day usability and longer-term business needs, without confusing one with the other."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I upload my real production files while comparing platforms?",
+      "answer": "Use a low-risk sample file that you own and are comfortable submitting under the platform’s terms. Remove personal metadata where practical, avoid private or unreleased work, and do not publish the sample unless you intend to. Check the platform’s terms and privacy information before any test upload."
+    },
+    {
+      "question": "What if a platform does not publish a clear file limit?",
+      "answer": "Mark the requirement as unverified and ask the platform through an official support channel. Save the response and date, and avoid building a workflow around an assumed limit. An undocumented detail is a comparison gap, not evidence that every file will work."
+    },
+    {
+      "question": "Does a successful test prove the platform will always process my uploads?",
+      "answer": "No. A small test only shows what happened in that particular case. It can reveal workflow steps and obvious incompatibilities, but it cannot establish ongoing service reliability, future policy, or performance under other conditions."
+    }
+  ]
+};
