@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T05:00:27.188Z",
+  "generatedAt": "2026-10-29T06:01:26.588Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-homepage-preview-visibility-controls-audit.json",
-    "ops/editorial/content-artifacts/adult-game-update-cadence-evidence-checklist.json",
-    "ops/editorial/content-artifacts/adult-shop-discreet-packaging-claims-verification.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-media-access-controls-audit.json",
-    "ops/editorial/content-artifacts/premium-video-household-profile-separation-audit.json"
+    "ops/editorial/content-artifacts/live-cam-private-interaction-options-fit-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-fan-messaging-boundary-controls-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-feed-integration-readiness-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-password-manager-autofill-privacy-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-manga-reading-progress-continuity-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-homepage-preview-visibility-controls-audit.js",
-    "src/data/guides/adult-game-update-cadence-evidence-checklist.js",
-    "src/data/guides/adult-shop-discreet-packaging-claims-verification.js",
-    "src/data/guides/adult-dating-profile-media-access-controls-audit.js",
-    "src/data/guides/premium-video-household-profile-separation-audit.js"
+    "src/data/guides/live-cam-private-interaction-options-fit-audit.js",
+    "src/data/guides/creator-platform-fan-messaging-boundary-controls-audit.js",
+    "src/data/guides/webmaster-affiliate-feed-integration-readiness-audit.js",
+    "src/data/guides/adult-platform-password-manager-autofill-privacy-audit.js",
+    "src/data/guides/adult-anime-manga-reading-progress-continuity-audit.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "dating-hookups",
-    "premium-videos"
+    "live-cams",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "free-video-homepage-preview-visibility-controls-audit",
-    "adult-game-update-cadence-evidence-checklist",
-    "adult-shop-discreet-packaging-claims-verification",
-    "adult-dating-profile-media-access-controls-audit",
-    "premium-video-household-profile-separation-audit"
+    "live-cam-private-interaction-options-fit-audit",
+    "creator-platform-fan-messaging-boundary-controls-audit",
+    "webmaster-affiliate-feed-integration-readiness-audit",
+    "adult-platform-password-manager-autofill-privacy-audit",
+    "adult-anime-manga-reading-progress-continuity-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40820708552",
-  "phase": "closed"
+  "r1CycleId": "40826513177"
 }
