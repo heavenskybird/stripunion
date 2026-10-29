@@ -1,0 +1,135 @@
+export default {
+  "slug": "free-video-platform-search-filter-coverage-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Whether Search Filters Narrow Results Reliably",
+  "description": "Compare free video platforms by testing category labels, filter combinations and how clearly results explain what they contain before relying on search.",
+  "excerpt": "A search box can return plenty of results without making them easy to compare. Use a repeatable filter test to see whether a free video platform’s categories and search controls help narrow a shortlist—or leave important distinctions unclear.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Test filters against a small, neutral set of search tasks rather than judging a platform from its homepage or one search.",
+    "Check whether categories and labels have clear meanings, and whether combining filters narrows results predictably.",
+    "Notice when filters disappear, reset, or produce empty results; these behaviors affect whether a shortlist is reproducible.",
+    "Treat result labels as clues, not guarantees: verify important details on the item page before making a choice.",
+    "Compare platforms using the same tasks and record uncertainty instead of awarding points for a large number of filter controls."
+  ],
+  "sections": [
+    {
+      "heading": "Start with tasks, not a feature-count contest",
+      "paragraphs": [
+        "A platform can display many filter buttons while still making it difficult to find a specific kind of result. The useful question is not how many controls appear, but whether the controls help you make a decision. Before comparing platforms, write down three or four non-graphic search tasks in ordinary language. For example, you might want to narrow results by duration, language label, upload period, or a broad category you understand.",
+        "Use the same tasks on each platform. This makes the comparison less dependent on whichever site has the most visually prominent search page. Avoid entering personal information or signing in just to run the test unless account-only tools are part of the decision you are evaluating. Record what the platform lets you do without an account separately from features it gates behind one."
+      ],
+      "bullets": [
+        "Choose tasks that reflect distinctions you actually care about.",
+        "Keep search terms and task wording consistent across platforms.",
+        "Record whether a control is available before sign-in, after sign-in, or not clearly explained."
+      ]
+    },
+    {
+      "heading": "Check whether category labels are understandable",
+      "paragraphs": [
+        "A category is useful only if its meaning is sufficiently clear to guide a choice. Look for a short explanation, a stable label, or examples of what the category includes. If labels are broad, overlapping, or unexplained, treat them as navigation hints rather than precise classifications. Do not assume that two platforms use the same word in the same way.",
+        "Pay attention to labels that appear to combine different concepts. A category might refer to a format, a topic, an uploader-defined tag, or a site-curated classification. These are not interchangeable. If a platform does not explain who assigns labels or how they are reviewed, record that as an uncertainty rather than inferring a moderation or verification practice."
+      ],
+      "bullets": [
+        "Can you find an explanation of each important category?",
+        "Are tags described as user-applied, platform-applied, or left unspecified?",
+        "Do similar labels appear to overlap without a clear distinction?"
+      ]
+    },
+    {
+      "heading": "Test filters one at a time, then in combination",
+      "paragraphs": [
+        "Run a simple sequence: search once without filters, apply one filter, then add a second filter if the interface allows it. Observe whether the results visibly change and whether the selected controls remain visible. A control that appears selected but does not explain its effect can be hard to trust. Likewise, a filter that silently resets when you change a search term makes results difficult to reproduce.",
+        "Try removing one filter and returning to the original search. Check whether the platform preserves the remaining choices. If combinations are unavailable, note that as a limitation rather than assuming the platform supports them. An empty result set can mean there are no matching items, but it can also signal a restrictive combination or an unclear label. Look for a clear way to reset and broaden the search."
+      ],
+      "table": {
+        "caption": "A practical filter test for each platform",
+        "headers": [
+          "Test",
+          "What to observe",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Baseline search",
+            "What appears before applying a filter?",
+            "Use as a reference, not as a quality score."
+          ],
+          [
+            "Single filter",
+            "Does the visible result set change?",
+            "Record the selected label and result behavior."
+          ],
+          [
+            "Two-filter combination",
+            "Can both controls remain active?",
+            "Note whether the combination is explained."
+          ],
+          [
+            "Remove or reset",
+            "Can you undo one choice without losing the rest?",
+            "Record recovery steps and any unexpected reset."
+          ],
+          [
+            "No-result case",
+            "Is there a clear message and next step?",
+            "Distinguish an empty result from a broken or confusing state."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate filtering from sorting and recommendations",
+      "paragraphs": [
+        "Filtering, sorting, and recommendations solve different problems. A filter narrows the set of results; sorting changes their order; recommendations may use signals that are not shown to the visitor. Do not count a sort option as a filter, or assume that a personalized row reflects the same search criteria you entered. If a platform mixes these controls, write down which action actually changed the set and which merely moved items around.",
+        "When a search page includes recommended or promoted placements, note whether those are identified. The purpose is not to judge the business model from a single screen. It is to make sure you know whether you are comparing results matching your chosen criteria or items surfaced for another reason. If the interface does not make this distinction clear, avoid treating the first few results as a representative sample."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Use a small comparison record and verify key details",
+      "paragraphs": [
+        "A concise record can prevent an attractive interface from outweighing useful evidence. For each task, note the filter names, whether combinations worked, whether labels were explained, and what remained ambiguous. Include a short example of a search that failed or required a workaround. This creates a practical basis for comparing platforms without claiming that one is universally better.",
+        "Search results are not a substitute for the item page. Before relying on a result, check the details that matter to your decision, such as the displayed title, duration, language or format labels, and any creator or uploader information provided. If a result’s label conflicts with its detail page, treat that mismatch as a reason to be cautious. Avoid relying on a search filter for facts the platform does not clearly substantiate."
+      ],
+      "bullets": [
+        "Keep a dated note if you expect to revisit the comparison later.",
+        "Mark each finding as observed, explained by the platform, or uncertain.",
+        "Do not infer content provenance, moderation quality, or completeness from filter behavior alone."
+      ]
+    },
+    {
+      "heading": "Make the result useful for privacy and access decisions",
+      "paragraphs": [
+        "Search can expose more than content choices: entered terms may remain visible in the page, URL, browser history, or account activity, depending on the service and device. If privacy matters, check whether search terms appear in shareable links or saved history, and avoid using a shared device for sensitive searches unless you can manage its history appropriately. This is a separate question from whether the filters are effective.",
+        "A platform comparison should also distinguish public information from account-dependent features. If a filter requires an account, decide whether the added search convenience is worth providing account details. Review the platform’s privacy controls and available account settings directly; do not assume that turning off recommendations also clears search history. The best choice is the one whose search behavior, limitations, and data controls are understandable for your own use."
+      ],
+      "bullets": [
+        "Check whether search terms appear in the address bar or shareable link.",
+        "Record which search tools require sign-in.",
+        "Review history and recommendation controls separately from filter quality."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many searches do I need to compare free video platforms?",
+      "answer": "A few consistent tasks are usually more informative than many unrelated searches. Choose tasks that test different kinds of narrowing, such as one broad category, one descriptive label, and one combination of controls. The point is to compare behavior, not to measure the size or quality of a platform’s library."
+    },
+    {
+      "question": "If a filter returns no results, does that mean the platform lacks that content?",
+      "answer": "Not necessarily. The filter may be narrow, the label may be applied inconsistently, or the search combination may be unsupported. Check the platform’s explanation, remove one condition, and see whether the search broadens. Record the result as uncertain if the interface does not clarify what happened."
+    },
+    {
+      "question": "Should I trust categories or tags shown in search results?",
+      "answer": "Treat them as navigation aids unless the platform explains their meaning and how they are assigned. Verify decision-critical details on the item page, and note any mismatch between the result label and the details shown there."
+    },
+    {
+      "question": "Are search filters the same as recommendation controls?",
+      "answer": "No. Filters are explicit criteria you select to narrow results. Recommendations may be based on other signals and may not expose why an item was shown. Compare and manage those features separately."
+    }
+  ]
+};
