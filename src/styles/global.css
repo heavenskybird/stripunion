@@ -81,7 +81,7 @@ code{overflow-wrap:anywhere}
 .blog-band h2{margin-top:0}
 .blog-band p{color:#d8cfdd;max-width:660px}
 .page-hero{background:linear-gradient(145deg,#130e18,#26152f);color:#fff;padding:72px 0 64px}
-.page-hero h1{font-size:clamp(42px,6vw,68px)}
+.page-hero h1{font-size:clamp(42px,6vw,68px);overflow-wrap:anywhere}
 .breadcrumbs{display:flex;gap:9px;flex-wrap:wrap;font-size:13px;color:#c9bccf;margin-bottom:24px}
 .breadcrumbs a{text-decoration:none}
 .alternative-cta{display:flex;align-items:center;gap:13px;flex-wrap:wrap}

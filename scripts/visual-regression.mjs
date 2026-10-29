@@ -223,6 +223,31 @@ try {
             }
           }
 
+          // Text glyphs can overflow a correctly sized element under fallback fonts.
+          if (horizontalOverflowPx > 2 && !overflowOffenders.length) {
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            let node;
+            while ((node = walker.nextNode()) && overflowOffenders.length < 12) {
+              const element = node.parentElement;
+              if (!node.textContent.trim() || !element || !isVisible(element)) continue;
+              let parent = element;
+              let contained = false;
+              while (parent && parent !== document.body) {
+                if (['auto', 'scroll', 'hidden', 'clip'].includes(getComputedStyle(parent).overflowX)) { contained = true; break; }
+                parent = parent.parentElement;
+              }
+              if (contained) continue;
+              const range = document.createRange();
+              range.selectNodeContents(node);
+              for (const rect of range.getClientRects()) {
+                if (rect.right > viewportWidth + 2 || rect.left < -2) {
+                  overflowOffenders.push({ selector: selectorFor(element), kind: 'text', left: Math.round(rect.left), right: Math.round(rect.right), text: node.textContent.trim().slice(0, 120) });
+                  break;
+                }
+              }
+            }
+          }
+
           return { horizontalOverflowPx, overflowOffenders, lowContrast, blankButtons };
         });
 
