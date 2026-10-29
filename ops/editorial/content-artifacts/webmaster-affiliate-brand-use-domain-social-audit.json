@@ -1,0 +1,124 @@
+{
+  "backlogId": "webmaster-affiliate-brand-use-domain-social-audit",
+  "slug": "webmaster-affiliate-brand-use-domain-social-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Brand-Use Rules for Domains and Social Accounts",
+  "description": "Before using an affiliate brand in a domain, account name, or social profile, check trademark, naming, approval, and takedown terms.",
+  "excerpt": "Brand-use rules can reach beyond paid search. Review how an affiliate agreement treats domain names, social handles, profile names, and branded content before creating an asset that may be difficult to change.",
+  "keyTakeaways": [
+    "Treat domain, account, and profile naming as separate brand-use questions.",
+    "Check the agreement and current program guidance before registering an asset.",
+    "Do not assume that an approved link permits every use of a brand name.",
+    "Save approval and policy records with dates and the asset they cover.",
+    "Plan a change route in case permission is limited or later withdrawn."
+  ],
+  "sections": [
+    {
+      "heading": "Map the brand uses you are considering",
+      "paragraphs": [
+        "Affiliate operators may encounter brand names in several places: a domain, subdomain, website title, social profile, account handle, post, or landing-page heading. Each use can create a different impression about who operates the property. List the exact assets and placements you are considering before checking the program rules; a general question about using a brand can hide important differences.",
+        "Separate descriptive references from uses that could make an asset appear official or controlled by the brand owner. This is a practical review, not a legal determination. If the distinction is unclear or the asset has long-term value, seek qualified advice before committing to a name or design that may be costly to replace."
+      ],
+      "bullets": [
+        "Domain name or subdomain",
+        "Social account name, handle, or profile image",
+        "Page title, site masthead, and navigation label",
+        "Promotional text, banners, and landing-page headings"
+      ]
+    },
+    {
+      "heading": "Read program guidance for each placement",
+      "paragraphs": [
+        "Review the current affiliate agreement, brand guidelines, and any program-specific instructions. Look for terms about trademarks, domains, social media, account names, paid promotion, and approval. Rules that address search advertising may not answer whether a brand can appear in a domain or social handle, so avoid treating one policy section as permission for every other use.",
+        "Record the exact policy source, date checked, and the use it addresses. If the wording conflicts across sources or does not cover the proposed placement, ask the program contact for a written interpretation before registering or publishing the asset. A response about one placement should not automatically be treated as approval for unrelated uses."
+      ],
+      "table": {
+        "caption": "A placement-by-placement brand-use review",
+        "headers": [
+          "Asset",
+          "Policy question",
+          "Record to retain"
+        ],
+        "rows": [
+          [
+            "Domain",
+            "Are brand terms restricted in registrations or subdomains?",
+            "Relevant agreement section and any written clarification."
+          ],
+          [
+            "Social profile",
+            "Are brand references, handles, or profile graphics allowed?",
+            "Guidance covering the specific account and presentation."
+          ],
+          [
+            "Page title",
+            "Could the wording imply an official relationship?",
+            "Approved wording or documented review notes."
+          ],
+          [
+            "Creative",
+            "Are logos, marks, or supplied images licensed for this use?",
+            "Asset terms, source, and any approval conditions."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Do not confuse referral approval with brand permission",
+      "paragraphs": [
+        "A program may approve an affiliate account, website, or referral link without approving every way the operator uses a brand name. Link tracking, access to creative assets, or permission to promote an offer may be limited by separate rules. Treat these as distinct questions and avoid inferring a broad right from a narrower approval.",
+        "When asking for clarification, describe the precise asset and context. Include the proposed domain or account name, where it will appear, and whether the use is informational or promotional. Ask what wording, disclosures, or visual treatments are required, if any. Specific questions are more likely to receive an answer you can apply consistently than a vague request to use the brand."
+      ]
+    },
+    {
+      "heading": "Assess operational and visitor-trust risks",
+      "paragraphs": [
+        "A name that resembles an official property can confuse visitors about who operates the site, who receives their information, or where a link leads. Make ownership and affiliate relationships clear in the relevant context, and avoid visual or written choices that imply authorization beyond what you have confirmed. The goal is accurate expectations, not merely avoiding a policy complaint.",
+        "Think through what happens if a domain or social account must be renamed. Check whether links, printed materials, profile followers, and campaign records would need updating. A brand-dependent asset can create operational concentration: a policy change may affect a large part of the audience pathway. A clear, neutral naming approach may be easier to maintain, but it should still be checked against the applicable rules."
+      ],
+      "bullets": [
+        "Could a visitor mistake the property for an official account?",
+        "Can the asset be renamed without breaking important links?",
+        "Would a policy change affect several channels at once?",
+        "Are disclosures visible where a visitor encounters the promotion?"
+      ]
+    },
+    {
+      "heading": "Maintain approvals and policy-change records",
+      "paragraphs": [
+        "Keep a compact record containing the policy version or source, date reviewed, proposed use, and any written response. Store it with the corresponding asset so a future team member can see what was reviewed. Do not treat a response from an informal conversation as a permanent blanket approval unless it clearly states that scope.",
+        "Set a review point when the program changes its terms, when you create a new channel, or when you substantially change a page or creative. Recheck the specific placement against the current guidance. If a program contact withdraws or narrows permission, pause the affected use while you establish the applicable next step rather than continuing on the basis of an old message."
+      ]
+    },
+    {
+      "heading": "Create a fallback before registering or publishing",
+      "paragraphs": [
+        "Before launching a brand-dependent domain or account, decide how you would respond if the use is not allowed or approval changes. A fallback might involve a neutral domain, a renamed social profile, revised page titles, or redirect and link updates. The exact plan depends on your assets, but it should identify who can make changes and where affected links are maintained.",
+        "Do not register a costly name or invest heavily in brand-specific creative while a material policy question is unresolved. Confirm the scope first, then document the decision and planned review date. This approach helps keep the program, audience, and webmaster aligned without assuming that any specific program permits a particular brand use."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If an affiliate link is approved, can I use the brand name in my domain?",
+      "answer": "Do not assume that. Link approval and domain-name rules can be separate. Check the current agreement and ask about the exact proposed domain before registering or promoting it."
+    },
+    {
+      "question": "Do brand rules apply to social media handles as well as websites?",
+      "answer": "They may, but terms differ. Check the program's current guidance for social profiles, account names, imagery, and promotional posts rather than relying only on website or search-advertising rules."
+    },
+    {
+      "question": "What should I save when a program approves a brand use?",
+      "answer": "Keep the written approval, the policy source and date, the exact asset and placement reviewed, and any conditions. Recheck if you materially change the use or the program updates its rules."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,117 @@
+export default {
+  "slug": "live-cam-credit-expiration-refund-terms-audit",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Credits: Check Expiration and Refund Terms Before Buying",
+  "description": "Use this checklist to compare live cam credit expiration, refunds, remaining balances, and account-closure rules before making a purchase.",
+  "excerpt": "A credit balance is useful only if you understand its terms. Check expiration, refunds, disputed charges, and what happens to unused credits before deciding whether a purchase fits your plans.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Check whether purchased credits and promotional credits follow different rules.",
+    "Look for expiration, inactivity, and account-closure terms before checkout.",
+    "Understand the stated refund and disputed-charge process.",
+    "Save the relevant terms and receipt without exposing account details.",
+    "Buy only an amount you can use under the terms you have confirmed."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the type of balance you are considering",
+      "paragraphs": [
+        "A balance shown in an account may combine different kinds of credits. Purchased credits, promotional credits, bonuses, or adjustments may have different conditions. Before buying, find out how the platform labels each type and which rules apply to it. Do not assume that every displayed unit was purchased or that every balance has the same value or rights.",
+        "Check whether the checkout page describes the unit clearly and whether the terms connect a purchase to a specific account. If the platform uses more than one currency or credit label, note which one appears at checkout and in the account balance. A clear mapping helps you reconcile the purchase later without relying on memory."
+      ],
+      "bullets": [
+        "Can you distinguish purchased credits from promotional or complimentary credits?",
+        "Does the platform state which credits are used first?",
+        "Can credits be transferred, or are they tied to one account?",
+        "Does a displayed balance show its source or any conditions?"
+      ]
+    },
+    {
+      "heading": "Find expiration and inactivity rules before purchase",
+      "paragraphs": [
+        "Look for terms covering expiration, inactivity, account suspension, and account closure. These rules may be stated in separate places, so check the purchase screen, account terms, and help information rather than relying on a single summary. Record the wording that applies to the credits you plan to buy and note whether it addresses purchased and promotional balances separately.",
+        "If a rule is unclear, ask for clarification before checkout. Questions worth resolving include whether an expiration date is displayed, whether inactivity changes the balance, and whether a closed account can access unused credits. Do not infer that a balance remains available indefinitely just because it appears in an account today."
+      ],
+      "table": {
+        "caption": "Credit terms worth verifying before completing a purchase",
+        "headers": [
+          "Term",
+          "Question to answer",
+          "Why it affects planning"
+        ],
+        "rows": [
+          [
+            "Expiration",
+            "Do credits expire, and how is the date communicated?",
+            "Affects whether you can use the balance on your timeline."
+          ],
+          [
+            "Inactivity",
+            "Does an idle account change access to the balance?",
+            "Matters if you may take a long break."
+          ],
+          [
+            "Refunds",
+            "Which circumstances qualify under the stated terms?",
+            "Clarifies options if access or a purchase has a problem."
+          ],
+          [
+            "Account closure",
+            "What happens to unused credits after closure?",
+            "Helps prevent surprises when leaving the service."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read refund and dispute conditions precisely",
+      "paragraphs": [
+        "Refund terms can depend on the type of purchase, whether credits have been used, the timing of a request, or the platform's stated process. Read the actual conditions and avoid treating a general phrase such as support available as a promise that a particular purchase will be refunded. If the terms distinguish between an accidental purchase, a technical issue, and a billing dispute, note those distinctions.",
+        "Find the route for raising a problem and the information it asks you to provide. Keep the request focused on the transaction and issue. Use official account or support channels rather than links sent unexpectedly in messages. If a charge is not recognized, contact the relevant payment provider through its known channel and follow the platform's stated dispute steps where appropriate."
+      ],
+      "bullets": [
+        "Identify the published refund request route before you need it.",
+        "Check whether unused and partially used balances are treated differently.",
+        "Keep the receipt and relevant terms, but do not share them publicly.",
+        "Use a known support route if a payment or refund message seems suspicious."
+      ]
+    },
+    {
+      "heading": "Compare checkout information with the account balance",
+      "paragraphs": [
+        "Before confirming, review the total charged, the amount or type of credit being added, and any conditions shown next to the purchase. Check the final confirmation screen rather than relying on an earlier selection. If the currency, credit count, or account destination is not clear, stop and resolve the mismatch before authorizing the transaction.",
+        "Afterward, compare the receipt with the balance shown in the account. Save the confirmation in a private place and note the date, but avoid collecting unnecessary screenshots that reveal unrelated information. This simple reconciliation can help distinguish a display delay from a purchase mismatch without making unsupported assumptions about how quickly a platform processes updates."
+      ]
+    },
+    {
+      "heading": "Choose a purchase size that fits your own usage",
+      "paragraphs": [
+        "The right amount depends on your planned use, the available terms, and your own spending limits. Avoid buying a large balance solely because it is offered as a bundle or because you feel pressured to act quickly. First check whether the credits have an expiration or inactivity condition and whether you have a realistic plan to use them under those rules.",
+        "Set a personal spending ceiling before checkout and use any payment controls available through your payment provider or account. If you cannot determine how credits are consumed or what happens to unused credits, choose not to buy until the terms are clear. A smaller commitment can reduce unused-balance risk, but it does not replace checking the conditions."
+      ]
+    },
+    {
+      "heading": "Keep a compact purchase record and review it later",
+      "paragraphs": [
+        "For each purchase, keep the receipt, the relevant terms as they appeared at the time, and a note of the balance added. Store these records privately and only as long as they are useful for account management or resolving a question. A brief, organized record is more practical than retaining a large collection of sensitive account material.",
+        "If the terms change later, check how the platform says changes apply to existing balances. Do not assume a revised policy affects every past purchase in the same way. When a change matters to your decision, seek clarification through the official support channel and keep the response with the purchase record. This makes future decisions more informed without treating any single policy as universal."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do live cam credits always expire?",
+      "answer": "There is no universal rule. Check the specific platform's current terms for expiration, inactivity, promotional balances, and account closure before purchasing."
+    },
+    {
+      "question": "Can unused credits always be refunded?",
+      "answer": "Do not assume so. Refund eligibility may depend on the stated terms and circumstances. Read the conditions and locate the request process before buying."
+    },
+    {
+      "question": "What records should I keep after buying credits?",
+      "answer": "Keep a private copy of the receipt, the applicable terms, and a concise note of the balance added. Avoid retaining unrelated sensitive account information."
+    }
+  ]
+};

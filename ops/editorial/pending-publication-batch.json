@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T07:59:42.705Z",
+  "generatedAt": "2026-10-29T09:06:17.162Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-search-filter-coverage-audit.json",
-    "ops/editorial/content-artifacts/adult-games-edition-dlc-scope-check.json",
-    "ops/editorial/content-artifacts/adult-shop-order-change-cancellation-window-audit.json",
-    "ops/editorial/content-artifacts/vr-platform-checkout-data-recipient-map.json",
-    "ops/editorial/content-artifacts/creator-platform-payout-hold-and-review-terms-audit.json"
+    "ops/editorial/content-artifacts/adult-dating-search-filter-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-account-deletion-retention-audit.json",
+    "ops/editorial/content-artifacts/live-cam-credit-expiration-refund-terms-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-brand-use-domain-social-audit.json",
+    "ops/editorial/content-artifacts/premium-video-concurrent-stream-household-access-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-search-filter-coverage-audit.js",
-    "src/data/guides/adult-games-edition-and-dlc-scope-checklist.js",
-    "src/data/guides/adult-shop-order-change-cancellation-window-audit.js",
-    "src/data/guides/vr-adult-platform-checkout-data-recipient-map.js",
-    "src/data/guides/creator-platform-payout-hold-and-review-terms-audit.js"
+    "src/data/guides/adult-dating-search-filter-fit-audit.js",
+    "src/data/guides/adult-platform-account-deletion-retention-audit.js",
+    "src/data/guides/live-cam-credit-expiration-refund-terms-audit.js",
+    "src/data/guides/webmaster-affiliate-brand-use-domain-social-audit.js",
+    "src/data/guides/premium-video-concurrent-stream-household-access-audit.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar",
-    "creator-platforms"
+    "dating-hookups",
+    "privacy-safety-payment",
+    "live-cams",
+    "webmaster-affiliate",
+    "premium-videos"
   ],
   "backlogIds": [
-    "free-video-search-filter-coverage-audit",
-    "adult-games-edition-dlc-scope-check",
-    "adult-shop-order-change-cancellation-window-audit",
-    "vr-platform-checkout-data-recipient-map",
-    "creator-platform-payout-hold-and-review-terms-audit"
+    "adult-dating-search-filter-fit-audit",
+    "adult-platform-account-deletion-retention-audit",
+    "live-cam-credit-expiration-refund-terms-audit",
+    "webmaster-affiliate-brand-use-domain-social-audit",
+    "premium-video-concurrent-stream-household-access-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40838579891",
-  "phase": "closed"
+  "r1CycleId": "40846545633"
 }
