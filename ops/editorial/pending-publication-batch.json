@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T17:04:55.191Z",
+  "generatedAt": "2026-10-29T19:57:55.805Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-offline-access-requirements-check.json",
-    "ops/editorial/content-artifacts/adult-shop-product-care-instructions-comparison.json",
-    "ops/editorial/content-artifacts/adult-anime-age-assurance-data-review.json",
-    "ops/editorial/content-artifacts/adult-dating-first-meeting-safety-plan.json",
-    "ops/editorial/content-artifacts/creator-platform-third-party-rights-clearance-workflow.json"
+    "ops/editorial/content-artifacts/premium-video-series-episode-organization-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-link-sharing-exposure-workflow.json",
+    "ops/editorial/content-artifacts/affiliate-cross-device-attribution-evidence-audit.json",
+    "ops/editorial/content-artifacts/live-cam-room-moderation-controls-audit.json",
+    "ops/editorial/content-artifacts/vr-platform-room-boundary-and-passthrough-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-offline-access-requirements-check.js",
-    "src/data/guides/adult-shop-product-care-instructions-comparison.js",
-    "src/data/guides/adult-anime-age-assurance-data-review.js",
-    "src/data/guides/adult-dating-first-meeting-safety-plan.js",
-    "src/data/guides/creator-platform-third-party-rights-clearance-workflow.js"
+    "src/data/guides/premium-video-series-episode-organization-audit.js",
+    "src/data/guides/adult-platform-link-sharing-exposure-workflow.js",
+    "src/data/guides/affiliate-cross-device-attribution-evidence-audit.js",
+    "src/data/guides/live-cam-room-moderation-controls-audit.js",
+    "src/data/guides/vr-platform-room-boundary-and-passthrough-preflight.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "dating-hookups",
-    "creator-platforms"
+    "premium-videos",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "live-cams",
+    "vr-ar"
   ],
   "backlogIds": [
-    "adult-games-offline-access-requirements-check",
-    "adult-shop-product-care-instructions-comparison",
-    "adult-anime-age-assurance-data-review",
-    "adult-dating-first-meeting-safety-plan",
-    "creator-platform-third-party-rights-clearance-workflow"
+    "premium-video-series-episode-organization-audit",
+    "adult-platform-link-sharing-exposure-workflow",
+    "affiliate-cross-device-attribution-evidence-audit",
+    "live-cam-room-moderation-controls-audit",
+    "vr-platform-room-boundary-and-passthrough-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40917247187",
-  "phase": "closed"
+  "r1CycleId": "40944466628"
 }

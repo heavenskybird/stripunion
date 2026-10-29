@@ -1,0 +1,134 @@
+{
+  "backlogId": "affiliate-cross-device-attribution-evidence-audit",
+  "slug": "affiliate-cross-device-attribution-evidence-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Cross-Device Attribution Claims Before Planning Around Them",
+  "description": "Assess whether an affiliate program explains cross-device attribution, what evidence it provides, and where tracking limitations affect your reporting expectations.",
+  "excerpt": "A visitor may discover an offer on one device and complete an action on another. Before building forecasts around cross-device credit, clarify what the program actually documents, what it does not, and how you can validate reports.",
+  "keyTakeaways": [
+    "Ask the program to define exactly what it means by cross-device attribution and which user journeys it covers.",
+    "Do not assume that a click on one device will be connected to a later action on another device.",
+    "Separate documented tracking behavior from general marketing language and from your own analytics observations.",
+    "Use controlled, policy-compliant tests and preserve evidence without submitting false transactions or personal data.",
+    "Plan reporting and business decisions around confirmed rules, while treating unknown cross-device behavior as unverified."
+  ],
+  "sections": [
+    {
+      "heading": "Why cross-device attribution needs a specific question",
+      "paragraphs": [
+        "Affiliate attribution is often discussed as if every referral journey were a single browser session. In practice, a person may first encounter a referral link on a phone, then later continue on a desktop or another device. Whether a program credits the original referral in that situation depends on the program’s own tracking design, rules, and available identifiers. Do not infer cross-device coverage from a general statement that a program tracks referrals.",
+        "This guide is about verifying cross-device attribution specifically. It is not a replacement for checking attribution windows, last-click rules, referral conflicts, permitted traffic, or commission qualification. Those are related but separate questions. For this check, the central decision is whether a program has a documented, understandable approach to a journey that crosses devices—and whether the reports let you assess what happened without claiming more certainty than the evidence supports."
+      ],
+      "bullets": [
+        "Use the phrase “cross-device” explicitly when asking for clarification.",
+        "Separate a tracking capability from a policy about which referral receives credit.",
+        "Treat unsupported or undefined claims as unknown, not as a promise."
+      ]
+    },
+    {
+      "heading": "Ask for a precise journey definition",
+      "paragraphs": [
+        "Start with a neutral example: a visitor follows a referral link on one device, does not complete the relevant action there, and later returns on a different device. Ask which stages, if any, the program can associate. A useful answer should explain the relevant conditions and limitations in plain language, not only repeat a broad capability label. Do not assume the same answer applies to every visitor, browser, region, or account state.",
+        "Clarify what the program considers the initial referral, the later action, and the event that receives credit. Ask whether the documentation distinguishes a visitor who signs in from one who does not, or a journey that uses the same browser account from one that does not. You do not need to request confidential technical details. You do need enough policy and operational information to understand the boundaries of the claim."
+      ],
+      "table": {
+        "caption": "Questions to resolve before relying on cross-device credit",
+        "headers": [
+          "Area",
+          "Clarifying question"
+        ],
+        "rows": [
+          [
+            "Scope",
+            "Which device-to-device journeys are included, if any?"
+          ],
+          [
+            "Conditions",
+            "Does the documented behavior depend on sign-in, browser state, or another stated condition?"
+          ],
+          [
+            "Attribution rules",
+            "How does cross-device behavior interact with the program’s referral-credit rules?"
+          ],
+          [
+            "Reporting",
+            "Can the dashboard identify relevant events or explain the credit decision?"
+          ],
+          [
+            "Limitations",
+            "Which cases are expressly not covered or cannot be verified?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish evidence from inference",
+      "paragraphs": [
+        "Keep three evidence types separate. First, program documentation or written support guidance may describe how cross-device referrals are treated. Second, dashboard reports may show a click, conversion, or referral credit, but those fields may not explain the full journey. Third, your own analytics may show activity across sessions or devices, but that does not prove the affiliate program linked those events or credited the referral for the same reason.",
+        "Record the date and source for each statement. If program wording is broad, quote or summarize only what it actually says and ask a focused follow-up. Avoid turning an observed conversion after a cross-device journey into proof of a tracking mechanism; other paths could account for the result. Similarly, a missing conversion does not by itself establish that cross-device tracking is absent. Reporting delays, eligibility rules, visitor choices, or other stated program conditions may affect what you observe."
+      ],
+      "bullets": [
+        "Label evidence as documented, observed, inferred, or unknown.",
+        "Save relevant terms and support responses with dates, while respecting confidentiality and retention obligations.",
+        "Do not publish technical or capability claims that exceed the evidence you received."
+      ]
+    },
+    {
+      "heading": "Design a controlled validation check",
+      "paragraphs": [
+        "Keep an evidence log that is useful but restrained: program and account context, test date, test configuration, expected result, observed result, and follow-up question. Do not store sensitive visitor-level data simply to make the test look more conclusive. If a program does not explain what the dashboard can confirm, mark the attribution outcome as uncertain rather than inventing a measurement method."
+      ]
+    },
+    {
+      "heading": "Review how cross-device claims affect reporting",
+      "paragraphs": [
+        "Check whether reports give you enough context to reconcile credited referrals with clicks and other program events. A dashboard may expose totals without indicating whether any event came from a cross-device journey. If so, you can use the figures for the purposes they support, but should not claim that a particular share of conversions was cross-device unless the reporting provides that evidence.",
+        "Ask how cross-device attribution interacts with competing referrals and other program rules. For example, determine which documented rule takes precedence when more than one referral could be associated with a later event. Do not assume a universal model. Compare the answer with the program agreement and reporting definitions, and ask for clarification where they appear inconsistent. Keep any business forecast conservative: rely on confirmed terms and treat unmeasured cross-device effects as a limitation, not as guaranteed incremental credit."
+      ],
+      "bullets": [
+        "Check whether reports expose individual events, aggregate totals, or explanatory fields.",
+        "Keep cross-device assumptions separate from measured click and conversion data.",
+        "Reconcile program documentation with the agreement and the dashboard definitions."
+      ]
+    },
+    {
+      "heading": "Make a program-fit decision without overclaiming",
+      "paragraphs": [
+        "Cross-device attribution may matter more when your audience commonly researches on one device and acts on another, but the relevance does not prove a given program can connect those steps. Decide whether the program remains operationally suitable if cross-device credit is limited, unclear, or not visible in reports. Consider your ability to measure referrals with the data the program actually provides, along with permitted traffic, reporting access, payout logic, and program restrictions.",
+        "Write a short decision note: what the program documents, what you verified, what remains unknown, and what assumptions you will not use in forecasts or promotional claims. Revisit the note if the program changes its terms or tracking documentation. This turns a vague capability question into an auditable operational decision and reduces the risk of building campaigns around an attribution behavior that has not been established."
+      ],
+      "bullets": [
+        "Treat unknown attribution as a planning limitation, not a reason to estimate an unsupported payout.",
+        "Use only tracking approaches permitted by the program and applicable privacy rules.",
+        "Review written terms and documentation again when the program reports a change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does cross-device attribution mean every device switch is tracked?",
+      "answer": "No. The phrase alone does not establish coverage. Ask the program which journeys it includes, what conditions apply, and what limitations are documented."
+    },
+    {
+      "question": "Can my analytics prove an affiliate program credited a cross-device referral?",
+      "answer": "Not by themselves. Your analytics may show activity, but the program’s attribution decision and reporting are separate. Treat a connection as unverified unless the program provides evidence for it."
+    },
+    {
+      "question": "Should I run test purchases on different devices?",
+      "answer": "Only if the program permits the test and you can avoid false transactions, unapproved traffic, or unnecessary personal-data collection. Confirm the rules first; otherwise rely on documented guidance."
+    },
+    {
+      "question": "How should I forecast when cross-device reporting is unclear?",
+      "answer": "Use only confirmed program rules and measured information. Mark cross-device effects as unknown, and avoid forecasts or promotional claims that depend on unverified credit."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
