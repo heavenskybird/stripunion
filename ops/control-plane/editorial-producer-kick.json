@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded out-of-band wake 2026-10-28T23:00:12.060Z: canonical main reusable Producer and trusted successful bot-branch heartbeat bridge workflow_run guard verified. Isolated receipt runId=40776210037 status=success attempts=1 startedAt=2026-10-28T21:58:03.511Z finishedAt=2026-10-28T22:02:42.249Z; full 52-minute cooldown ended 2026-10-28T22:50:03.511Z. Latest 100 GitHub Actions runs refreshed: no active/queued canonical Scheduler or Producer, most recent run 40776844233 2026-10-28T22:02:40Z. Last bot kick 2026-10-28T21:57:35.720Z exceeds 15-minute spacing; prior heartbeat bridge 40776193309 success. Request exactly one fresh Scheduler wake via bot branch, never historical rerun or main push.",
-  "updated_at": "2026-10-28T23:00:12.060Z"
+  "reason": "R1 bounded-recovery out-of-band wake 2026-10-29T01:00:47.814Z: deployed main reusable Producer and trusted successful bot-branch heartbeat workflow_run guard verified. Isolated receipt runId=40790332479 cycleId=40790332479 status=failure attempts=1 startedAt=2026-10-28T23:52:53.053Z finishedAt=2026-10-28T23:58:09.508Z; 10-minute recovery delay elapsed. Latest 100 GitHub Actions runs rechecked: no active or queued canonical writer. Last bot kick 2026-10-28T23:00:12.060Z exceeds 15-minute spacing; last bridge succeeded. Prior failure was editorial generator duplicate backlogId adult-shop-order-change-cancellation-preflight; request one fresh guarded Scheduler admission (at most three cycle attempts), never rerun history or push main.",
+  "updated_at": "2026-10-29T01:00:47.814Z"
 }
