@@ -1,0 +1,121 @@
+export default {
+  "slug": "creator-platform-revenue-deduction-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Revenue Deductions Before Setting Offer Prices",
+  "description": "Learn how to inspect platform terms and payout statements for deductions, adjustments, and timing details before using expected proceeds to set creator offer prices.",
+  "excerpt": "A posted offer price is not necessarily the amount a creator receives. Build a documented view of deductions and settlement terms before planning around estimated proceeds.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Separate the amount a fan is charged from the amount recorded as creator earnings and the amount ultimately transferred.",
+    "Identify every documented deduction, adjustment, reserve, or condition that may affect proceeds.",
+    "Use current platform terms and statements as evidence; do not estimate from an assumed industry-standard fee.",
+    "Check how refunds, reversals, disputes, and currency conversion are described before relying on a net figure.",
+    "Use a conservative, clearly labeled estimate when planning offer prices, and revisit it when documented terms change."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the difference between price and proceeds",
+      "paragraphs": [
+        "Creators often need to choose prices before they have a complete operating history. The amount displayed to a fan, the amount credited to an account, and the amount that reaches a payout destination can be different figures. Treating them as interchangeable can make an offer appear more profitable than the records support.",
+        "This audit is about evidence, not a universal fee formula. Platform terms can vary, and the same account may encounter distinct deductions or adjustments under different circumstances. Use the platform’s current documentation and your own account records. If a term is missing or ambiguous, mark it as unknown instead of filling the gap with a guess."
+      ],
+      "bullets": [
+        "Keep customer-facing price, recorded earnings, and transferred amount as separate fields.",
+        "Use current terms and account-specific statements where available.",
+        "Label estimates as estimates, and record what evidence supports them."
+      ]
+    },
+    {
+      "heading": "Build a deductions inventory from primary records",
+      "paragraphs": [
+        "Review the sections that explain fees, transaction processing, refunds, disputes, taxes or withholding, currency conversion, and account adjustments. Not every service will use every category, and labels differ. The task is to identify what the specific agreement says, who applies a deduction, and which event can trigger it. Keep a reference to the document and the date you checked it.",
+        "Then compare those terms with statements or dashboard entries for completed transactions. Match a sample of entries across the full path: customer transaction, earnings record, any adjustment, and transfer record. If a total cannot be reconciled, note the gap and request an explanation through the platform’s documented support route. Do not assume a missing line is harmless or that an estimate explains it."
+      ],
+      "table": {
+        "caption": "Create one row per term or transaction category that may affect proceeds.",
+        "headers": [
+          "Item to inspect",
+          "Evidence to capture"
+        ],
+        "rows": [
+          [
+            "Platform or processing charge",
+            "Term name, basis, and where it appears in the statement"
+          ],
+          [
+            "Refund or reversal",
+            "Trigger, timing, and statement label"
+          ],
+          [
+            "Currency conversion",
+            "Currency used and any documented conversion method"
+          ],
+          [
+            "Other adjustment",
+            "Description, date, and explanation or support reference"
+          ],
+          [
+            "Transfer amount",
+            "Statement total and amount recorded by the payout destination"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check timing, conditions, and exceptions",
+      "paragraphs": [
+        "A deduction is only one part of the commercial picture. Review when earnings become available, whether a transaction can be adjusted later, and what conditions could delay or change a transfer. Look for language about review periods, reserves, dispute outcomes, minimum transfer conditions, and account status. Do not presume a condition applies or does not apply; use the wording and account records.",
+        "Create a timeline for a small set of transactions: purchase date, earnings entry, any later adjustment, and transfer date. This helps distinguish a charge from a timing difference. If the terms do not explain an entry, retain a dated copy of the relevant statement and ask a precise question. Avoid sharing unnecessary fan information when seeking assistance; redact details that are not required for the inquiry."
+      ],
+      "bullets": [
+        "Record the event date and the date an adjustment appears.",
+        "Separate pending balances from amounts documented as transferred.",
+        "Note which terms describe exceptions or later changes."
+      ]
+    },
+    {
+      "heading": "Use the audit to inform offer-price decisions",
+      "paragraphs": [
+        "When setting a price, work backward from a proceeds target using only documented terms and assumptions you can explain. If a fee is a percentage, a fixed amount, or subject to a condition, model it only as the agreement specifies. If the available evidence does not establish the calculation, avoid presenting a precise net estimate. A range or conservative planning figure can be more honest than false precision, but it should still have a clear basis.",
+        "Consider operational costs separately from platform deductions. Production time, tools, recordkeeping, and other business expenses may affect whether an offer makes sense, but they should not be mixed into a platform’s transaction math. Keep a worksheet that distinguishes platform-level amounts from your own cost assumptions. Revisit the price if the documented commercial terms or your business costs change."
+      ],
+      "bullets": [
+        "Mark the source and date for each assumption in the pricing worksheet.",
+        "Keep platform deductions separate from creator operating costs.",
+        "Do not use a fee estimate as a guarantee of future proceeds."
+      ]
+    },
+    {
+      "heading": "Create a repeatable review and escalation file",
+      "paragraphs": [
+        "A useful audit can be repeated without rebuilding the evidence from scratch. Keep the agreement version, date accessed, relevant statement exports, your calculation method, and a list of unresolved questions. Limit access to the file and store it securely; payout statements may contain sensitive financial or account information. Retain records only as long as they are useful or required for your business needs.",
+        "If numbers do not reconcile, state the exact transaction period and difference, identify the statement fields involved, and ask what documented rule explains it. Save the response with the audit. If a term changes, compare the old and new wording and update your planning assumptions before relying on them. This creates a defensible process without assuming every discrepancy has the same cause."
+      ],
+      "bullets": [
+        "Keep dated copies of terms and statements relevant to the calculation.",
+        "Ask support about specific fields and periods, not just a broad unexplained total.",
+        "Update pricing assumptions when verified terms change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I infer a platform’s deduction from the amount transferred?",
+      "answer": "Not reliably by itself. The difference may involve timing, adjustments, currency conversion, or other documented conditions. Reconcile transaction and transfer records, then check the applicable terms before drawing a conclusion."
+    },
+    {
+      "question": "Should a creator use a single net percentage when planning prices?",
+      "answer": "Only if that percentage is supported by the current terms and is suitable for the transactions being modeled. A single estimate may conceal exceptions or changing conditions, so document its assumptions and avoid treating it as guaranteed."
+    },
+    {
+      "question": "What should I do when a statement uses an unfamiliar deduction label?",
+      "answer": "Save the statement and its date, note the affected amount or period, and ask the platform for a definition and the related term. Avoid sharing fan or account details that are not necessary to resolve the question."
+    },
+    {
+      "question": "How often should I review revenue deductions?",
+      "answer": "Review the terms before making material pricing decisions and when a statement or account record changes in a way you do not understand. A periodic review can also help catch outdated assumptions, but the appropriate interval depends on your workflow."
+    }
+  ]
+};

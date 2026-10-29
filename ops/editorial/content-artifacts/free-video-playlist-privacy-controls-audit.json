@@ -1,0 +1,132 @@
+{
+  "backlogId": "free-video-playlist-privacy-controls-audit",
+  "slug": "free-video-playlist-privacy-controls-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Playlist Privacy and Saved-List Controls",
+  "description": "Compare free video platforms’ playlist and saved-list controls, including account requirements, visibility, sharing, editing, and what happens when you sign out.",
+  "excerpt": "Saved lists can make browsing more organized, but their privacy and persistence depend on the platform’s controls. Check visibility, sharing, and account behavior before building a list.",
+  "keyTakeaways": [
+    "Find out whether saving or organizing videos requires an account on the specific platform.",
+    "Check whether a playlist is private, public, unlisted, or governed by another visibility setting.",
+    "Review sharing, editing, deletion, and link behavior before adding items to a saved list.",
+    "Test whether a list remains available after signing out or changing devices instead of assuming it is account-linked.",
+    "Avoid putting sensitive titles in a list until you understand who can see it and how it may appear on shared screens."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish a saved item from a playlist",
+      "paragraphs": [
+        "Free video services may offer several ways to save or organize items: a watch-later queue, favorites, a named playlist, browser bookmarks, or a list attached to an account. These options can look similar while behaving differently. One may be stored locally in a browser; another may be associated with a profile or shareable link. Identify which mechanism the interface is using before relying on it.",
+        "Look for the control’s label and any explanation shown when you save an item. Note whether the action asks you to sign in, creates a public page, or lets you choose visibility. If the interface is unclear, do not assume that a list is private just because it is not displayed on the current screen."
+      ],
+      "bullets": [
+        "Identify whether an item is saved in the browser, platform account, or a playlist.",
+        "Check whether creating a list changes its visibility or creates a shareable page.",
+        "Do not rely on a familiar label to infer how the feature works."
+      ]
+    },
+    {
+      "heading": "Check visibility and sharing defaults",
+      "paragraphs": [
+        "Before adding items, inspect who can view a playlist and whether the setting can be changed later. A platform might use different terms for private, public, or link-accessible lists, so read the explanation rather than guessing. Check whether anyone with a link can view the list, whether it appears on a profile, and whether the platform displays saved lists in search or recommendations, if documented.",
+        "If sharing is available, find out whether a list can be shared accidentally through a profile, embedded page, or copied link. Treat a shareable URL as sensitive until you know its access rules. On a shared device, consider whether another person can open the account or browser history and see the list even if its platform visibility is restricted."
+      ],
+      "table": {
+        "caption": "Playlist privacy comparison checklist for each service you consider.",
+        "headers": [
+          "Control",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Default visibility",
+            "What setting applies when a list is first created?"
+          ],
+          [
+            "Profile display",
+            "Can the list appear on a public or account profile?"
+          ],
+          [
+            "Link access",
+            "Can someone with a copied link view it?"
+          ],
+          [
+            "Sharing action",
+            "Does sharing require confirmation or change visibility?"
+          ],
+          [
+            "Editing and deletion",
+            "Can you remove items or delete the whole list?"
+          ],
+          [
+            "Cross-device access",
+            "Does the list follow an account, browser, or device?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand account and device persistence",
+      "paragraphs": [
+        "A saved list may depend on cookies, local browser storage, or a signed-in account. Test persistence only with non-sensitive items: save one, sign out or open the platform in a separate browser profile, and see whether the list remains. The result helps explain the storage model, but it does not prove that the service stores no other activity information. Avoid logging out if doing so could remove access to an account you cannot recover.",
+        "On a shared computer or phone, saved lists can remain visible to the next person through an open profile, browser session, or synchronized account. Review sign-out and profile-switching behavior, and close the relevant page when finished. If a list is sensitive, choose not to save it unless you are comfortable with the documented visibility and persistence."
+      ],
+      "bullets": [
+        "Test persistence with ordinary items, not sensitive titles.",
+        "Check account sign-out and browser-profile behavior separately.",
+        "Do not treat a list disappearing from one screen as proof that all copies are gone."
+      ]
+    },
+    {
+      "heading": "Assess editing, removal, and broken-list behavior",
+      "paragraphs": [
+        "A playlist is useful only if you can maintain it. Check whether you can reorder items, remove one entry, rename a list, or delete the list entirely. Look for what happens when a video becomes unavailable: the service may leave a placeholder, remove it, or show an error. Do not assume a saved link will continue to work if the original item or account changes.",
+        "If an item is removed from your list, verify whether the action only removes it from the list or affects another saved-items area. Read any confirmation message before deleting a complete playlist. For a list you want to keep, use an export or copy method only if the service explicitly provides one; do not rely on manual copying as proof of a platform backup."
+      ],
+      "bullets": [
+        "Try a reversible edit before building a large list.",
+        "Confirm the difference between removing an item and deleting a list.",
+        "Check the platform’s explanation of unavailable or removed entries."
+      ]
+    },
+    {
+      "heading": "Choose a saving method that fits your privacy needs",
+      "paragraphs": [
+        "Compare the service’s controls against the way you use devices. Someone who browses on a personal account may value cross-device continuity; someone using a shared screen may prefer not to create a persistent list. The best option depends on whether you need organization, privacy, or portability most. A convenience feature is not automatically worth using if its visibility is unclear.",
+        "Write down what you verified: account requirement, default visibility, link behavior, persistence, and deletion controls. Mark anything not explained as unknown. If you decide to use playlists, revisit the settings after a platform update or account change, and periodically remove lists you no longer need. Keep account credentials private and avoid sharing a device session just to share a list."
+      ],
+      "bullets": [
+        "Choose the least persistent method that still meets your organizational need.",
+        "Keep a dated note of important privacy settings and terms.",
+        "Remove old lists and end shared-device sessions when appropriate."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are playlists on free video platforms automatically private?",
+      "answer": "Do not assume so. Check the platform’s current visibility setting and explanation for each playlist. A list may have a public profile page or link-based access even if it is not prominent in the interface."
+    },
+    {
+      "question": "Will a saved list remain after I sign out?",
+      "answer": "It depends on whether the feature is tied to an account, browser storage, or another mechanism. Test with non-sensitive items and review the service’s explanation; do not infer broader privacy practices from that test."
+    },
+    {
+      "question": "Can I share a playlist without making it public?",
+      "answer": "That depends on the service’s sharing and visibility controls. Check whether sharing creates a link, changes the list’s audience, or exposes it on a profile before sending anything."
+    },
+    {
+      "question": "What is the safest way to test playlist controls?",
+      "answer": "Use a non-sensitive item, inspect the default visibility, test one edit and removal action, and check the list in a separate browser session if appropriate. Avoid using sensitive titles until you understand how the list is stored and shown."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

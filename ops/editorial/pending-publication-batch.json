@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T15:06:35.157Z",
+  "generatedAt": "2026-10-29T16:09:54.234Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-game-monetization-model-audit.json",
-    "ops/editorial/content-artifacts/vr-adult-scheduled-event-access-planning.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-api-automation-readiness.json",
-    "ops/editorial/content-artifacts/adult-dating-presence-and-read-receipt-controls.json",
-    "ops/editorial/content-artifacts/adult-platform-managed-device-network-risk-check.json"
+    "ops/editorial/content-artifacts/live-cam-token-budget-preflight.json",
+    "ops/editorial/content-artifacts/creator-platform-revenue-deduction-audit.json",
+    "ops/editorial/content-artifacts/premium-video-content-label-filter-audit.json",
+    "ops/editorial/content-artifacts/vr-platform-capture-privacy-audit.json",
+    "ops/editorial/content-artifacts/free-video-playlist-privacy-controls-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-game-monetization-model-audit.js",
-    "src/data/guides/vr-adult-scheduled-event-access-planning.js",
-    "src/data/guides/webmaster-affiliate-api-automation-readiness.js",
-    "src/data/guides/adult-dating-presence-and-read-receipt-controls.js",
-    "src/data/guides/adult-platform-managed-device-network-risk-check.js"
+    "src/data/guides/live-cam-token-budget-preflight.js",
+    "src/data/guides/creator-platform-revenue-deduction-audit.js",
+    "src/data/guides/premium-video-content-label-filter-audit.js",
+    "src/data/guides/vr-platform-capture-privacy-audit.js",
+    "src/data/guides/free-video-playlist-privacy-controls-audit.js"
   ],
   "categories": [
-    "hentai-anime",
+    "live-cams",
+    "creator-platforms",
+    "premium-videos",
     "vr-ar",
-    "webmaster-affiliate",
-    "dating-hookups",
-    "privacy-safety-payment"
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-anime-game-monetization-model-audit",
-    "vr-adult-scheduled-event-access-planning",
-    "webmaster-affiliate-api-automation-readiness",
-    "adult-dating-presence-and-read-receipt-controls",
-    "adult-platform-managed-device-network-risk-check"
+    "live-cam-token-budget-preflight",
+    "creator-platform-revenue-deduction-audit",
+    "premium-video-content-label-filter-audit",
+    "vr-platform-capture-privacy-audit",
+    "free-video-playlist-privacy-controls-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40897820854",
-  "phase": "closed"
+  "r1CycleId": "40907914480"
 }
