@@ -1,0 +1,139 @@
+{
+  "backlogId": "adult-shop-checkout-total-cost-breakdown-audit",
+  "slug": "adult-shop-checkout-total-cost-breakdown-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check the Full Order Total Before You Place an Order",
+  "description": "A practical checklist for comparing adult shop checkout totals, including item prices, delivery charges, taxes, and other disclosed fees.",
+  "excerpt": "A product price is only one part of an order. Compare the complete checkout breakdown and note which charges are confirmed, estimated, or still unclear.",
+  "keyTakeaways": [
+    "Compare the final order summary rather than relying on an item’s displayed price alone.",
+    "Separate product, shipping, tax, and other disclosed charges in your notes.",
+    "Check whether delivery choices change the total and whether any estimate can change later.",
+    "Pause before payment if the checkout does not explain a charge or its basis."
+  ],
+  "sections": [
+    {
+      "heading": "Start from the order total, not the product page",
+      "paragraphs": [
+        "A product listing may show the item price without showing every cost that could apply to an order. Delivery, taxes, and other charges can appear later in the checkout flow, and the final amount may depend on the delivery destination or options selected. For a reliable comparison, use the order summary shown before payment rather than treating the product page as the complete cost.",
+        "The aim is to record what the seller displays at the point of purchase, not to predict a charge that has not been stated. If the total is not yet final, mark it as an estimate and note what could change it. That distinction is useful when comparing shops because a clear estimate is different from a confirmed total, even if the two figures look similar."
+      ],
+      "bullets": [
+        "Add the item to the cart to reach the order summary before payment.",
+        "Record the displayed total and the stage at which it appears.",
+        "Mark whether the amount is confirmed, estimated, or incomplete."
+      ]
+    },
+    {
+      "heading": "Break the total into comparable parts",
+      "paragraphs": [
+        "For each shop, list the product amount, delivery charge, taxes or similar charges shown, and any other disclosed fee. This reveals whether a lower item price is offset by delivery or another charge later in checkout. It also makes it easier to see whether one retailer gives a clear breakdown while another shows only a combined total.",
+        "Use the same order assumptions when comparing: the same item or equivalent product, the same destination, and comparable delivery choices. If the stores do not offer identical options, note the difference instead of forcing a false like-for-like comparison. Do not invent missing costs; label them as not shown or not yet calculated."
+      ],
+      "table": {
+        "caption": "A checkout comparison worksheet",
+        "headers": [
+          "Order component",
+          "Shop A record",
+          "Shop B record"
+        ],
+        "rows": [
+          [
+            "Item amount",
+            "Displayed amount or not confirmed",
+            "Displayed amount or not confirmed"
+          ],
+          [
+            "Delivery",
+            "Selected option and charge",
+            "Selected option and charge"
+          ],
+          [
+            "Taxes or similar charges",
+            "Shown, estimated, or not shown",
+            "Shown, estimated, or not shown"
+          ],
+          [
+            "Other disclosed charges",
+            "Description and amount, if any",
+            "Description and amount, if any"
+          ],
+          [
+            "Total before payment",
+            "Confirmed or estimated",
+            "Confirmed or estimated"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how delivery choices affect the total",
+      "paragraphs": [
+        "If a checkout offers more than one delivery option, compare the charge and the stated timing or conditions for each option. A different delivery choice may change the total, and a free or lower-cost option may have different handling or timing terms. Read the description attached to the option rather than relying on a short label alone.",
+        "Check whether delivery charges are calculated only after a destination is entered. If so, use the destination you intend to use, where safe and appropriate, to reach a meaningful estimate. Do not assume that a charge shown for one location applies to another. If the checkout provides only a range or estimate, keep that uncertainty visible in your comparison."
+      ],
+      "bullets": [
+        "Use the same destination for each comparison where possible.",
+        "Record the selected delivery option alongside its charge.",
+        "Keep delivery timing separate from delivery price.",
+        "Note when the checkout has not yet calculated a final amount."
+      ]
+    },
+    {
+      "heading": "Look for conditions behind discounts and fees",
+      "paragraphs": [
+        "Promotional offers, minimum-order rules, or delivery thresholds can affect the total. Check whether a displayed discount is applied in the cart, whether it has conditions, and whether the order summary shows the resulting amount. Do not rely on a banner or product-page message if the cart does not confirm the adjustment.",
+        "If a fee appears under a broad label, look for an explanation in the checkout or the shop’s help information. A charge that is not explained well enough to understand is a reason to pause, not a reason to guess. Save the wording and ask the retailer for clarification if the charge affects whether you want to proceed."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Treat estimates and changing totals carefully",
+      "paragraphs": [
+        "Some totals may remain provisional until the destination, delivery option, or other order details are entered. A displayed estimate can be useful, but it should not be recorded as a guaranteed final amount. Look for a final order review before payment and confirm that the amount there matches what you expect.",
+        "If a total changes between cart and payment review, identify which component changed. A small unexplained difference can indicate that a previously unshown charge or selection has been applied. Do not submit the order until the final amount and its components are understandable to you. Keep a copy of the confirmation and order summary for your records."
+      ],
+      "bullets": [
+        "Compare cart and final review totals before submitting payment.",
+        "Check whether a changed amount has a clear explanation.",
+        "Keep the order confirmation and disclosed cost breakdown."
+      ]
+    },
+    {
+      "heading": "Compare transparency as well as the amount",
+      "paragraphs": [
+        "The lowest visible total is not automatically the clearest or most dependable comparison. Consider whether the shop shows delivery and other charges before payment, explains estimates, and makes changes legible in the final review. A transparent breakdown helps you decide whether the order fits your budget without having to infer what the total includes.",
+        "Use a short scorecard that distinguishes cost from clarity. Record the total you can confirm, the components that remain unknown, and any conditions attached to the displayed amount. This supports a more informed purchase decision without assuming that fees, tax treatment, or delivery options are identical across retailers."
+      ],
+      "bullets": [
+        "Is the full pre-payment total visible?",
+        "Are the components itemized or clearly explained?",
+        "Are estimates and conditions labeled?",
+        "Can you understand why the total changed, if it changed?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the product-page price the same as the final order cost?",
+      "answer": "Not necessarily. Delivery, taxes, and other disclosed charges may appear later in checkout. Check the final order review before payment and record whether the amount is confirmed or still estimated."
+    },
+    {
+      "question": "What should I do if a checkout total changes?",
+      "answer": "Pause and identify which part of the order changed. Review the selected delivery option, any applied discounts, and the listed charges. If the reason is not clear, seek clarification before submitting the order."
+    },
+    {
+      "question": "How can I compare two shops fairly?",
+      "answer": "Use the same item or a clearly comparable product, destination, and delivery assumptions where possible. Record each charge separately and label anything that has not been calculated or explained rather than guessing."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
