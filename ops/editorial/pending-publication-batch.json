@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T10:07:58.434Z",
+  "generatedAt": "2026-10-29T11:05:05.692Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-series-completeness-order-audit.json",
-    "ops/editorial/content-artifacts/free-video-cookie-storage-privacy-audit.json",
-    "ops/editorial/content-artifacts/adult-games-early-access-status-evidence-check.json",
-    "ops/editorial/content-artifacts/adult-shop-checkout-total-cost-breakdown-audit.json",
-    "ops/editorial/content-artifacts/vr-platform-plan-accessibility-and-flexibility-review.json"
+    "ops/editorial/content-artifacts/premium-video-offline-download-reliability-audit.json",
+    "ops/editorial/content-artifacts/live-cam-mobile-use-fit-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-price-change-notice-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-active-session-review-workflow.json",
+    "ops/editorial/content-artifacts/adult-dating-community-feature-fit-guide.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-series-completeness-order-audit.js",
-    "src/data/guides/free-video-cookie-storage-privacy-audit.js",
-    "src/data/guides/adult-games-early-access-status-evidence-check.js",
-    "src/data/guides/adult-shop-checkout-total-cost-breakdown-audit.js",
-    "src/data/guides/vr-platform-plan-accessibility-and-flexibility-review.js"
+    "src/data/guides/premium-video-offline-download-reliability-audit.js",
+    "src/data/guides/live-cam-mobile-use-fit-audit.js",
+    "src/data/guides/creator-platform-price-change-notice-audit.js",
+    "src/data/guides/adult-platform-active-session-review-workflow.js",
+    "src/data/guides/adult-dating-community-feature-fit-guide.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar"
+    "premium-videos",
+    "live-cams",
+    "creator-platforms",
+    "privacy-safety-payment",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "adult-anime-series-completeness-order-audit",
-    "free-video-cookie-storage-privacy-audit",
-    "adult-games-early-access-status-evidence-check",
-    "adult-shop-checkout-total-cost-breakdown-audit",
-    "vr-platform-plan-accessibility-and-flexibility-review"
+    "premium-video-offline-download-reliability-audit",
+    "live-cam-mobile-use-fit-audit",
+    "creator-platform-price-change-notice-audit",
+    "adult-platform-active-session-review-workflow",
+    "adult-dating-community-feature-fit-guide"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40854534763",
-  "phase": "closed"
+  "r1CycleId": "40862325262"
 }
