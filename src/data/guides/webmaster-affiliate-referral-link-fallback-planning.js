@@ -1,0 +1,105 @@
+export default {
+  "slug": "webmaster-affiliate-referral-link-fallback-planning",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Plan a Fallback When Referral Links or Destinations Fail",
+  "description": "Build a responsible affiliate-link contingency plan for broken destinations, tracking interruptions, and unavailable offers without misleading visitors.",
+  "excerpt": "Referral links can stop behaving as expected when a destination changes or a service is unavailable. A clear fallback process helps webmasters protect visitor expectations, preserve evidence, and avoid sending traffic to an unverified substitute.",
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "keyTakeaways": [
+    "Define what counts as a broken, redirected, unavailable, or materially changed destination.",
+    "Check program terms before substituting links, redirects, or alternative offers.",
+    "Use a visitor-first fallback that is transparent and does not disguise a destination change.",
+    "Keep incident notes and distinguish technical failures from attribution problems.",
+    "Retest repaired links and remove or label promotions that cannot be verified."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what failure looks like before it happens",
+      "paragraphs": [
+        "A referral link can fail in more than one way. It might lead to an error page, redirect somewhere unexpected, reach a page whose offer has changed, or open a destination that is unavailable to the visitor. A click can also appear to work while the webmaster cannot confirm whether tracking behaved as intended. Those cases call for different responses, so define them in advance instead of treating every problem as a simple broken URL.",
+        "Create a small inventory of links that matter to active pages. Record the source page, the expected destination, the program or offer associated with it, and the last time the route was checked. Use a status such as working, needs review, or removed. This turns an outage or change into a manageable maintenance task and helps avoid leaving outdated promotions in place unnoticed."
+      ],
+      "bullets": [
+        "Broken: the destination does not load or returns an unexpected error.",
+        "Changed: the destination or offer no longer matches the published description.",
+        "Unverified: the page loads, but a tracking or attribution issue remains unresolved.",
+        "Unavailable: the intended visitor cannot reach the destination through the published route."
+      ]
+    },
+    {
+      "heading": "Verify the destination and program rules before substituting",
+      "paragraphs": [
+        "When a destination changes, do not automatically replace it with another offer or route visitors through an improvised redirect. First check the program’s current terms and official notices for link, redirect, destination, and creative requirements. A replacement that looks technically sensible may still be outside the program’s rules or may no longer match what the page promises to visitors.",
+        "Compare the destination with the surrounding editorial text. If the original offer is unavailable, a substitute should not be presented as though it were the same product or access arrangement. When no approved replacement can be confirmed, the safer choice is often to remove the referral link, label the destination as unavailable, or provide a non-commercial route that still helps the visitor."
+      ],
+      "table": {
+        "caption": "A practical decision path for a referral-link incident",
+        "headers": [
+          "Observed issue",
+          "Responsible next step"
+        ],
+        "rows": [
+          [
+            "Error or blank destination",
+            "Retest the route, preserve the error details, and remove or label the link if unresolved"
+          ],
+          [
+            "Unexpected redirect",
+            "Stop promotion until the destination and program rules are checked"
+          ],
+          [
+            "Offer or page changed",
+            "Update the editorial description only after verifying the new offer and permitted link"
+          ],
+          [
+            "Tracking is uncertain",
+            "Separate the technical destination test from attribution validation and document both"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Design a visitor-first fallback",
+      "paragraphs": [
+        "A fallback should preserve a visitor’s ability to understand where a link goes. If the destination is temporarily unavailable, a plain notice can explain that the link is being reviewed. If a verified official destination exists and program rules permit its use, update the link and describe the change accurately. Do not use a cloaked or unexpected redirect to conceal a failed offer or send visitors to an unrelated page.",
+        "Consider what a reader needs if the commercial route cannot be used. The page might remain useful with a clear explanation, a link to the relevant non-commercial information, or no link at all. Keep affiliate disclosures accurate when a link is changed or removed. A fallback is not successful merely because it preserves a click; it should also preserve accurate expectations and respect the program’s requirements."
+      ]
+    },
+    {
+      "heading": "Keep incident evidence without overcollecting data",
+      "paragraphs": [
+        "During an incident, record the time, affected page, link identifier, expected destination, observed result, and steps taken. A screenshot or response detail may help explain the issue, but avoid collecting visitor information that is not needed for troubleshooting. Keep diagnostic records in a restricted location and follow your site’s retention practices.",
+        "Separate evidence about page behavior from evidence about referral credit. A successful landing page does not prove that attribution was recorded, and an unexpected report does not by itself prove that the link was broken. If you contact the program, provide the relevant link or campaign identifier and a concise description of the test. Avoid sending personal visitor details unless the program has a clear, appropriate need and an approved process."
+      ]
+    },
+    {
+      "heading": "Close the incident and prevent repeat failures",
+      "paragraphs": [
+        "After a repair, test the published page—not only a saved URL or dashboard preview. Confirm that the link label still describes the destination, that the destination is the one you intend, and that any required disclosure remains visible. If attribution needs separate validation, use the program’s approved test process and keep those results distinct from the destination check.",
+        "Set a review interval suited to how often the page or offer changes, and prioritize links on pages that are still actively maintained. Track the incident from detection through resolution, including whether the link was repaired, replaced, removed, or left under review. A simple change log makes it easier for another editor to understand why a link changed and prevents a temporary workaround from becoming a permanent, unexplained redirect."
+      ],
+      "bullets": [
+        "Record the original destination and the reason for each change.",
+        "Confirm program permission before using a redirect or substitute route.",
+        "Check that descriptions and disclosures still match the current link.",
+        "Retest the live page and close the incident with a dated note."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I automatically replace a broken affiliate link with another offer?",
+      "answer": "No. Verify the substitute destination, confirm that program terms permit it, and update the surrounding description so it accurately represents what visitors will reach."
+    },
+    {
+      "question": "What if the destination loads but attribution appears uncertain?",
+      "answer": "Record the destination test separately from the tracking question. Use the program’s approved validation process and avoid claiming that attribution is confirmed until you have evidence."
+    },
+    {
+      "question": "Is removing a referral link an acceptable fallback?",
+      "answer": "Yes. If you cannot verify a suitable destination or permitted replacement, removing the link or clearly marking it unavailable can be more responsible than sending visitors through an unexplained route."
+    }
+  ]
+};
