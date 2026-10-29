@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T14:04:23.759Z",
+  "generatedAt": "2026-10-29T15:06:35.157Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-upload-workflow-fit-checklist.json",
-    "ops/editorial/content-artifacts/premium-video-mobile-catalog-navigation-fit-audit.json",
-    "ops/editorial/content-artifacts/free-video-personalization-and-recommendation-controls-audit.json",
-    "ops/editorial/content-artifacts/adult-games-optional-purchase-disclosure-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-prepurchase-customer-support-readiness-audit.json"
+    "ops/editorial/content-artifacts/adult-anime-game-monetization-model-audit.json",
+    "ops/editorial/content-artifacts/vr-adult-scheduled-event-access-planning.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-api-automation-readiness.json",
+    "ops/editorial/content-artifacts/adult-dating-presence-and-read-receipt-controls.json",
+    "ops/editorial/content-artifacts/adult-platform-managed-device-network-risk-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-upload-workflow-fit-checklist.js",
-    "src/data/guides/premium-video-mobile-catalog-navigation-fit-audit.js",
-    "src/data/guides/free-video-personalization-and-recommendation-controls-audit.js",
-    "src/data/guides/adult-games-optional-purchase-disclosure-audit.js",
-    "src/data/guides/adult-shop-prepurchase-customer-support-readiness-audit.js"
+    "src/data/guides/adult-anime-game-monetization-model-audit.js",
+    "src/data/guides/vr-adult-scheduled-event-access-planning.js",
+    "src/data/guides/webmaster-affiliate-api-automation-readiness.js",
+    "src/data/guides/adult-dating-presence-and-read-receipt-controls.js",
+    "src/data/guides/adult-platform-managed-device-network-risk-check.js"
   ],
   "categories": [
-    "creator-platforms",
-    "premium-videos",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "hentai-anime",
+    "vr-ar",
+    "webmaster-affiliate",
+    "dating-hookups",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "creator-platform-upload-workflow-fit-checklist",
-    "premium-video-mobile-catalog-navigation-fit-audit",
-    "free-video-personalization-and-recommendation-controls-audit",
-    "adult-games-optional-purchase-disclosure-audit",
-    "adult-shop-prepurchase-customer-support-readiness-audit"
+    "adult-anime-game-monetization-model-audit",
+    "vr-adult-scheduled-event-access-planning",
+    "webmaster-affiliate-api-automation-readiness",
+    "adult-dating-presence-and-read-receipt-controls",
+    "adult-platform-managed-device-network-risk-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40887202477",
-  "phase": "closed"
+  "r1CycleId": "40897820854"
 }

@@ -1,0 +1,116 @@
+{
+  "backlogId": "adult-platform-managed-device-network-risk-check",
+  "slug": "adult-platform-managed-device-network-risk-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms on Work or School Devices: Check Managed-Device and Network Exposure",
+  "description": "A practical privacy checklist for understanding device management, account separation, network policies, browser traces, and notification exposure before using an adult platform.",
+  "excerpt": "Private browsing does not make a managed device or network private. Before using an adult platform on work or school equipment, identify who controls the device, what policies apply, and what traces may remain.",
+  "keyTakeaways": [
+    "A private-browsing window does not remove device-management, network, or account-level controls.",
+    "Check ownership and management status before signing in or saving information on a device.",
+    "Review applicable workplace or school rules rather than assuming personal use is permitted.",
+    "Consider browser sync, notifications, downloads, and connected accounts as separate exposure paths.",
+    "When privacy matters, use a personal device and connection you control, consistent with applicable policies."
+  ],
+  "sections": [
+    {
+      "heading": "Determine who owns and manages the device",
+      "paragraphs": [
+        "A device supplied by an employer, school, or other organization may be configured and managed differently from a personal device. Management can include security settings, required software, account controls, or restrictions on what may be installed. The exact capabilities vary, so do not assume that clearing a browser window or signing out removes organizational oversight.",
+        "Before signing in to an adult platform, check whether the device is enrolled in a management program, uses an organization-controlled account, or displays a work or school profile. Read the relevant acceptable-use and privacy notices. If those documents do not explain monitoring or personal-use rules clearly, ask the organization’s designated support channel rather than testing the device with sensitive activity."
+      ],
+      "bullets": [
+        "Confirm whether the device and account are personal or organization-managed.",
+        "Review acceptable-use rules before installing an app or creating a session.",
+        "Do not add personal credentials to a device you are not permitted to use personally."
+      ]
+    },
+    {
+      "heading": "Separate device visibility from network visibility",
+      "paragraphs": [
+        "Device management and network administration are different issues. A managed device may have controls even when it uses a personal connection, and an organization’s network may have its own policies even when you bring a personal device. The technical details are not always visible to an ordinary user, and private browsing does not make network activity invisible to the network operator.",
+        "If you are considering a workplace or school connection, consult its published rules and use a connection you control for personal activity when appropriate. Do not try to bypass organizational controls. A personal network can reduce dependence on an organization’s network, but it does not erase account records, browser sync, payment records, or device-level traces."
+      ],
+      "table": {
+        "caption": "Separate the main exposure paths before deciding",
+        "headers": [
+          "Exposure path",
+          "What to check",
+          "What a privacy window does not establish"
+        ],
+        "rows": [
+          [
+            "Device",
+            "Ownership, management profile, installed controls",
+            "That the device owner cannot manage or inspect it"
+          ],
+          [
+            "Network",
+            "Connection owner and applicable use policy",
+            "That network activity is hidden from the operator"
+          ],
+          [
+            "Account",
+            "Work or school sign-in, browser sync, saved credentials",
+            "That account-level history or sync is disabled"
+          ],
+          [
+            "Physical output",
+            "Notifications, downloads, casting, visible screens",
+            "That alerts or saved files cannot be seen"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check accounts, browser sync, and saved information",
+      "paragraphs": [
+        "A personal session can become connected to an organization account through browser profiles, synced bookmarks, saved passwords, or a shared identity provider. Check which browser profile is active and whether history, tabs, or credentials synchronize to other devices. Do not save account details on a shared or managed browser unless you understand the consequences and are allowed to do so.",
+        "Downloads and cached files are another separate consideration. A private window does not necessarily prevent every file or system record from being retained. Avoid downloading sensitive material to equipment controlled by someone else. If you have already signed in, sign out, remove saved credentials where permitted, and review active sessions from a device you control. These steps reduce some local exposure but cannot guarantee that all records are erased."
+      ]
+    },
+    {
+      "heading": "Review notifications and visible device output",
+      "paragraphs": [
+        "A notification can expose a service name or message preview even if the browser history is not visible. Alerts may appear on a lock screen, desktop, connected watch, or another device signed in to the same account. Before using a personal device in a shared or supervised setting, review notification previews and connected-device settings.",
+        "Also consider screen casting, external displays, and recent-app views. A managed device may have restrictions on changing these settings, and you should not attempt to evade them. If you cannot control what appears on the device, postpone personal browsing until you have a suitable device and environment. Avoid sending account messages or recovery codes to an organization-managed email address."
+      ]
+    },
+    {
+      "heading": "Choose a safer boundary for personal activity",
+      "paragraphs": [
+        "The simplest decision rule is to avoid using an employer- or school-managed device for personal adult-platform activity unless the organization explicitly permits it and you are comfortable with the applicable controls. Use a personal device and account you control, and check the privacy of the connection and notifications separately. This is a practical boundary, not a guarantee of anonymity.",
+        "If you have already used a managed device, do not assume that deleting local history removes account, network, or administrative records. Sign out where possible, remove saved credentials only when permitted, and review account sessions and recovery settings from a personal device. If you are unsure whether a policy applies, ask the responsible organization contact without sharing unnecessary personal details."
+      ],
+      "bullets": [
+        "Prefer a personal device and account for personal browsing.",
+        "Keep adult-platform accounts separate from organization email and sign-in tools.",
+        "Do not attempt to bypass device or network controls.",
+        "Treat clearing history as one cleanup step, not a promise that all traces are gone."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from a school or employer?",
+      "answer": "No. Private browsing mainly affects some local browser history and session data. It does not establish that device-management tools, network operators, account systems, or other records cannot reveal activity."
+    },
+    {
+      "question": "Is using a personal device on a work or school network private?",
+      "answer": "Not automatically. Device ownership and network ownership are separate. Review the network’s policies and consider using a connection you control for personal activity when appropriate."
+    },
+    {
+      "question": "What if I already signed in on a managed device?",
+      "answer": "Sign out where possible, avoid saving credentials, and review active account sessions and recovery settings from a personal device. These steps can reduce ongoing exposure but cannot guarantee that every prior record has been removed."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

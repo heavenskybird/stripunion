@@ -1,0 +1,120 @@
+{
+  "backlogId": "webmaster-affiliate-api-automation-readiness",
+  "slug": "webmaster-affiliate-api-automation-readiness",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program APIs: Check Access, Limits, and Data Rights Before Automating",
+  "description": "A webmaster checklist for evaluating affiliate API access, authentication, request limits, data permissions, update rules, and operational fallback before building integrations.",
+  "excerpt": "An API can reduce manual work, but it also creates dependencies on access rules, data definitions, and service availability. Check these conditions before automating affiliate reporting or feeds.",
+  "keyTakeaways": [
+    "Confirm whether an API exists and whether your account and intended use are eligible to access it.",
+    "Document authentication, request limits, pagination, and any stated service or version policies.",
+    "Check whether API data may be stored, transformed, displayed, or retained in your planned workflow.",
+    "Test field definitions against the program’s dashboard or reports before using API output for decisions.",
+    "Build a manual or delayed-update fallback so an integration problem does not silently break operations."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm that API access fits the account and use case",
+      "paragraphs": [
+        "Do not treat the presence of technical documentation as proof that every affiliate account can use the API. Check whether access requires approval, an account status, particular credentials, or a separate agreement. Then describe your intended integration plainly: for example, retrieving reports for internal analysis or displaying approved product information on a site.",
+        "Compare the stated permitted use with your actual workflow before writing code. An API intended for reporting may not authorize public display of the same fields, and an available endpoint does not necessarily grant unrestricted reuse of its output. Keep a copy of the access terms and record who is responsible for reviewing changes before the integration is expanded."
+      ],
+      "bullets": [
+        "Verify eligibility and approval requirements before estimating development effort.",
+        "Write down whether the integration is internal, public-facing, or both.",
+        "Identify the account owner who can maintain credentials and permissions."
+      ]
+    },
+    {
+      "heading": "Map authentication, limits, and version rules",
+      "paragraphs": [
+        "Document how credentials are issued, where they may be stored, and how they can be rotated or revoked. Avoid placing secrets in public code, shared documents, or client-side scripts. Establish which person or system can access the credentials, and make a plan for replacement if an employee leaves or a key is exposed.",
+        "Read the documentation for request limits, pagination, errors, and version changes. If a limit is not stated, ask rather than selecting a polling frequency by guesswork. Build retry behavior that does not create repeated requests without control, and record enough technical context to diagnose failures without logging sensitive credentials."
+      ],
+      "table": {
+        "caption": "Pre-build API review points",
+        "headers": [
+          "Area",
+          "Questions to settle",
+          "Operational response"
+        ],
+        "rows": [
+          [
+            "Eligibility",
+            "Who can request access, and for which purposes?",
+            "Obtain approval and record permitted uses"
+          ],
+          [
+            "Authentication",
+            "How are secrets created, stored, and revoked?",
+            "Restrict access and define a rotation process"
+          ],
+          [
+            "Limits",
+            "Are requests, pages, or time ranges restricted?",
+            "Set conservative schedules and handle errors"
+          ],
+          [
+            "Data rights",
+            "May data be stored, transformed, or displayed?",
+            "Match retention and presentation to the terms"
+          ],
+          [
+            "Changes",
+            "How are versions or field definitions updated?",
+            "Assign an owner to monitor notices and test changes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check data definitions and permission to retain outputs",
+      "paragraphs": [
+        "Field names are not always self-explanatory. Determine how dates, statuses, currency, referral identifiers, and conversion events are defined before using them in dashboards or business decisions. Compare a small sample with the program’s own reporting interface, while accounting for different update timing or definitions. If an important field has no documented meaning, ask for clarification.",
+        "Review whether the program permits you to cache or retain API responses and for how long. Consider what happens when a record changes, a referral is reversed, or access is withdrawn. Design the integration so that a stored response is not presented as live or final if it may be delayed or updated. Keep the data-minimization principle practical: retain only what the workflow needs."
+      ]
+    },
+    {
+      "heading": "Test failures and establish a safe fallback",
+      "paragraphs": [
+        "Before relying on an automated feed, test ordinary errors such as expired credentials, unavailable endpoints, incomplete pages, and delayed data. The goal is not to predict every outage; it is to make failures visible. Log timestamps and non-sensitive error details, show when data was last refreshed, and alert an owner if updates stop.",
+        "Decide what users or colleagues should see when an update fails. A clearly dated prior snapshot may be safer than an empty table that looks authoritative, but only if the program’s data terms permit retaining it. For public-facing content, consider pausing or labeling stale data rather than presenting it as current. Keep a manual review route for essential tasks."
+      ],
+      "bullets": [
+        "Use a test environment or limited initial run where available.",
+        "Set a last-updated indicator and a failure alert.",
+        "Document how to pause the integration and resume manual checks."
+      ]
+    },
+    {
+      "heading": "Compare the operational value with the dependency created",
+      "paragraphs": [
+        "Automation has ongoing costs: code maintenance, credential security, documentation changes, and investigation when outputs differ from a dashboard. Estimate those responsibilities before replacing a simple manual process. An API is a better fit when the saved work and consistency are meaningful and a named owner can maintain it—not merely because automation is technically possible.",
+        "Use a go/no-go record that lists the approved use, required data, expected refresh cadence, retention rules, failure response, and responsible owner. If any of those remain unresolved, keep the integration limited or defer it. Review the record whenever account terms, documentation, or your website workflow changes. This prevents a small reporting tool from gradually becoming an unreviewed dependency."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does API documentation mean I am allowed to use every endpoint?",
+      "answer": "No. Documentation describes technical behavior, while access and permitted-use terms determine whether your account and use case are authorized. Confirm both before integrating an endpoint."
+    },
+    {
+      "question": "Can I store API responses for later reporting?",
+      "answer": "That depends on the program’s data and retention terms. Check what may be stored, for how long, and whether changed or reversed records must be updated or removed."
+    },
+    {
+      "question": "What is a useful fallback if the API stops updating?",
+      "answer": "Make the failure visible, show when data was last refreshed, and assign someone to use an approved manual process or pause dependent outputs. Do not silently present stale data as current."
+    }
+  ],
+  "publishedAt": "2026-10-29",
+  "updatedAt": "2026-10-29",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
