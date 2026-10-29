@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 due out-of-band wake 2026-10-29T05:59:03.649Z: verified deployed main reusable Producer, Editorial heartbeat bridge and trusted workflow_run guard; isolated receipt runId=40820708552 status=success attempts=1 startedAt=2026-10-29T04:58:44.158Z finishedAt=2026-10-29T05:02:52.669Z. Full 52-minute cooldown elapsed; latest 100 GitHub Actions runs show no active/queued canonical Producer or Scheduler writer; last bot kick 2026-10-29T04:58:22.382Z exceeds 15-minute spacing. Request exactly one fresh guarded Scheduler admission; no historical rerun, no main write.",
-  "updated_at": "2026-10-29T05:59:03.649Z"
+  "reason": "R1 recovery out-of-band wake 2026-10-29T07:02:01.086Z: deployed main uses reusable Producer with durable R1_ADMISSION and trusted successful Editorial heartbeat bridge workflow_run guard; isolated receipt runId=40826513177 status=failure attempts=1 startedAt=2026-10-29T05:59:30.421Z finishedAt=2026-10-29T06:13:18.042Z; bounded 10-minute recovery delay elapsed. Previous cycle committed five guides but production verification failed with 12 consecutive transport-error/NetworkError probes (HTTP status 0), so this wake requests recovery-first verification, NOT new published article credit. Latest 100 runs have no active/queued canonical writer; prior bot kick 2026-10-29T05:59:03.649Z is >15 minutes old. Exactly one guarded fresh Scheduler wake; no historical rerun and no main write.",
+  "updated_at": "2026-10-29T07:02:01.086Z"
 }
