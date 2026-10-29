@@ -9,7 +9,7 @@ Status: proposed repair; **no merge, deployment, production configuration change
 - Supplied checkout was `work` at `08ddf1ef…`; its `origin/main` was stale at `7cb0c1ab…`. Its untracked `.astro/` was preserved. Work is isolated in `/workspace/work/stripunion`.
 - Initial Git transport failed because sandbox socket access could not reach the configured proxy. Canonical files were fetched with the GitHub connector and the reconstructed **entire tree hash matched canonical main**. A subsequent ordinary Git fetch with supported socket permission succeeded. The final feature branch is based on the real canonical commit, not the reconstructed checkpoint.
 - Only open PR returned by the fresh inventory: [Draft #164](https://github.com/heavenskybird/stripunion/pull/164), head `68e0087…`, offline Keyword Intelligence V0. No cherry-pick or modification.
-- Node 22.23.4; Astro 7.3; canonical local build: 1,434 pages. README's historical staging status is stale and was not used to infer production state.
+- Node 22.23.4; installed Astro 7.4.2 (package range `^7.3.0`), Playwright 1.64.1; canonical local build: 1,434 pages. README's historical staging status is stale and was not used to infer production state.
 - Environment reported enforced restricted networking, no configured secrets/runtime credentials/outbound identities. Production `stripunion.com` requests were denied at the network proxy (CONNECT 403). This is an environment observation limit, not evidence of a site outage. No attempt bypassed the proxy or destination policy.
 - Canonical main contained 26 workflow definitions. [workflow-inventory.json](workflow-inventory.json) records names, triggers, permissions and concurrency **before this patch**. Read-only collectors and production publishers are distinguished from social senders below.
 
@@ -106,7 +106,7 @@ Minimum user/authorized operator action: capture one `/models?limit=1` response 
 
 ## Validation and acceptance plan
 
-Local validation: Node 22.23.4, 52/52 core reliability/generator/outbox/workflow-contract tests, 14/14 SEO tests, 12/12 Worker tests; browser overflow regression 1/1 (21 fixture cases); mocked live-preview regression 1/1 (2 scenarios); final visual 70/70; quality check; staging build/robots; production-indexable build/SEO; actionlint across all workflows; JavaScript syntax/self-tests; diff whitespace and protected-path checks. No lint script exists in package.json; actionlint, syntax checks and repository quality gate provide the applicable lint coverage. No provider mutation occurred in tests.
+Local validation: Node 22.23.4 with supplied dependencies, 52/52 core reliability/generator/outbox/workflow-contract tests, 14/14 SEO tests, 12/12 Worker tests; browser overflow regression 1/1 (21 fixture cases); mocked live-preview regression 1/1 (2 scenarios); final visual 70/70; quality check; staging build/robots; production-indexable build/SEO; actionlint across all workflows; JavaScript syntax/self-tests; diff whitespace and protected-path checks. No lint script exists in package.json; actionlint, syntax checks and repository quality gate provide the applicable lint coverage. No provider mutation occurred in tests.
 
 Deployment acceptance is **not authorized by this report**. Keep this patch Draft until the following concrete checks pass:
 
