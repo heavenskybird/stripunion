@@ -75,10 +75,10 @@ const endpoint =
       }
     };
 
-    const showFallback = (message = 'Live previews unavailable') => {
+    const showFallback = (message = 'Live previews unavailable', diagnostics = {}) => {
       if (status) status.textContent = message;
       if (fallback instanceof HTMLElement) fallback.hidden = false;
-      emit('live_models_unavailable', { live_models_status: message });
+      emit('live_models_unavailable', { live_models_status: message, ...diagnostics });
     };
 
     if (!endpoint || !(grid instanceof HTMLElement)) {
@@ -178,13 +178,17 @@ const endpoint =
       credentials: 'omit'
     })
       .then((response) => {
-        if (!response.ok) throw new Error('live-models-http');
+        if (!response.ok) {
+          const error = new Error('live-models-http');
+          error.status = response.status;
+          throw error;
+        }
         return response.json();
       })
       .then((payload) => {
         const models = Array.isArray(payload?.models) ? payload.models : [];
         if (!models.length) {
-          showFallback('No eligible previews right now');
+          showFallback('No eligible previews right now', { live_models_failure_stage: 'empty_catalog' });
           return;
         }
         grid.replaceChildren(...models.map(modelCard));
@@ -194,6 +198,9 @@ const endpoint =
           live_models_stale: Boolean(payload?.stale)
         });
       })
-      .catch(() => showFallback());
+      .catch((error) => showFallback(undefined, {
+        live_models_http_status: Number(error?.status) || 0,
+        live_models_failure_stage: error?.status ? 'http_response' : 'transport_cors_or_payload'
+      }));
   })();
 </script>

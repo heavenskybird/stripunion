@@ -1,0 +1,314 @@
+{
+  "guideCount": 1345,
+  "exactBodyDuplicates": [],
+  "exactTitleDuplicates": [
+    [
+      "adult-shop-customer-support-escalation-prepurchase-check",
+      "adult-shop-customer-support-preorder-readiness",
+      "adult-shop-prepurchase-customer-support-readiness-audit"
+    ],
+    [
+      "adult-anime-platform-format-fit-comparison",
+      "adult-anime-platforms-choose-streaming-manga-or-games"
+    ],
+    [
+      "adult-dating-first-meeting-safety-planning",
+      "adult-dating-first-meetup-planning-checklist"
+    ],
+    [
+      "adult-game-input-controls-accessibility-and-device-support-checklist",
+      "adult-games-input-controls-accessibility-audit"
+    ],
+    [
+      "adult-platform-managed-device-privacy-review",
+      "adult-platform-managed-work-device-privacy-check"
+    ],
+    [
+      "adult-platform-upload-image-metadata-privacy-checklist",
+      "adult-upload-image-metadata-privacy-check"
+    ],
+    [
+      "adult-shop-checkout-total-cost-transparency-audit",
+      "adult-shop-order-total-price-transparency-audit"
+    ],
+    [
+      "adult-shop-shipping-returns-and-discretion-checklist",
+      "adult-shop-shipping-returns-prepurchase-checklist"
+    ],
+    [
+      "affiliate-program-geographic-eligibility-and-routing-audit",
+      "affiliate-program-geographic-eligibility-review"
+    ],
+    [
+      "dating-platform-message-access-model-comparison",
+      "dating-platforms-compare-messaging-access-before-signing-up"
+    ],
+    [
+      "dating-platform-messaging-access-fit-checklist",
+      "dating-platform-paid-messaging-access-audit"
+    ],
+    [
+      "free-video-cookie-storage-privacy-audit",
+      "free-video-platform-browser-storage-privacy-audit"
+    ],
+    [
+      "live-cam-credits-check-expiration-refund-and-unused-balance-terms",
+      "live-cam-platform-unused-credit-policy-audit"
+    ]
+  ],
+  "identicalFaqGroups": [],
+  "titleOverlapCandidates": [
+    {
+      "a": "adult-account-password-manager-autofill-safety-check",
+      "b": "adult-platform-password-manager-autofill-privacy-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-affiliate-email-newsletter-terms-and-operations",
+      "b": "affiliate-newsletter-link-readiness-audit",
+      "titleJaccard": 0.875
+    },
+    {
+      "a": "adult-affiliate-program-permitted-traffic-policy-audit",
+      "b": "webmaster-affiliate-permitted-traffic-compliance-audit",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-anime-account-free-browsing-access-audit",
+      "b": "live-cam-guest-access-and-account-gate-audit",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-anime-account-requirements-preflight",
+      "b": "adult-anime-platform-account-and-access-gate-checklist",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-anime-account-requirements-preflight",
+      "b": "adult-anime-platform-account-requirements-checklist",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-anime-format-library-selection-guide",
+      "b": "adult-anime-platform-format-fit-comparison",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-anime-format-library-selection-guide",
+      "b": "adult-anime-platforms-choose-streaming-manga-or-games",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-anime-free-premium-access-and-account-gates-checklist",
+      "b": "adult-anime-platform-free-preview-premium-access-account-gates",
+      "titleJaccard": 0.8
+    },
+    {
+      "a": "adult-anime-free-premium-access-boundaries",
+      "b": "adult-anime-platform-free-vs-premium-access-and-account-checklist",
+      "titleJaccard": 0.7
+    },
+    {
+      "a": "adult-anime-free-premium-access-entitlement-check",
+      "b": "adult-anime-free-premium-entitlement-audit",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-anime-game-device-requirements-fit-audit",
+      "b": "adult-anime-game-platform-device-save-update-checklist",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-anime-platform-cross-format-title-availability-checklist",
+      "b": "adult-anime-platform-format-library-fit-guide",
+      "titleJaccard": 0.778
+    },
+    {
+      "a": "adult-anime-platform-download-prompt-safety-audit",
+      "b": "adult-anime-platform-redirect-and-download-safety",
+      "titleJaccard": 0.778
+    },
+    {
+      "a": "adult-anime-platform-format-fit-comparison",
+      "b": "adult-anime-platforms-choose-streaming-manga-or-games",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-dating-community-feature-fit-guide",
+      "b": "adult-dating-platform-community-space-fit-check",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-dating-first-meeting-safety-planning",
+      "b": "adult-dating-first-meetup-planning-checklist",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-dating-location-precision-and-distance-privacy-audit",
+      "b": "dating-platform-location-precision-privacy-audit",
+      "titleJaccard": 0.875
+    },
+    {
+      "a": "adult-dating-platform-messaging-access-comparison",
+      "b": "dating-platform-messaging-access-model-comparison",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-dating-platform-messaging-access-comparison",
+      "b": "dating-platform-messaging-gates-comparison",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-dating-platform-messaging-access-comparison",
+      "b": "dating-platforms-check-messaging-access-before-building-a-profile",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-dating-presence-and-read-receipt-privacy-audit",
+      "b": "dating-platform-online-status-and-read-receipt-privacy-check",
+      "titleJaccard": 0.7
+    },
+    {
+      "a": "adult-dating-profile-discoverability-controls-audit",
+      "b": "dating-platform-profile-discoverability-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-dating-profile-discoverability-controls-audit",
+      "b": "dating-profile-discoverability-control-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-game-input-controls-accessibility-and-device-support-checklist",
+      "b": "adult-games-input-controls-accessibility-audit",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-game-platform-operating-system-compatibility-checklist",
+      "b": "adult-games-operating-system-and-compatibility-layer-check",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-game-storefront-discovery-taxonomy-audit",
+      "b": "adult-game-storefront-discovery-tool-comparison",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-game-storefront-discovery-tool-comparison",
+      "b": "adult-game-storefront-discovery-tools-audit",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-platform-active-session-and-signout-review",
+      "b": "adult-platform-active-session-review-workflow",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-platform-managed-device-privacy-review",
+      "b": "adult-platform-managed-work-device-privacy-check",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-platform-upload-image-metadata-privacy-checklist",
+      "b": "adult-upload-image-metadata-privacy-check",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-checkout-total-cost-transparency-audit",
+      "b": "adult-shop-order-total-price-transparency-audit",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-cross-border-customs-checklist",
+      "b": "adult-shop-international-delivery-customs-and-import-check",
+      "titleJaccard": 0.9
+    },
+    {
+      "a": "adult-shop-customer-support-escalation-prepurchase-check",
+      "b": "adult-shop-customer-support-preorder-readiness",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-customer-support-escalation-prepurchase-check",
+      "b": "adult-shop-customer-support-prepurchase-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-customer-support-escalation-prepurchase-check",
+      "b": "adult-shop-prepurchase-customer-support-readiness-audit",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-customer-support-preorder-readiness",
+      "b": "adult-shop-customer-support-prepurchase-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-customer-support-preorder-readiness",
+      "b": "adult-shop-prepurchase-customer-support-readiness-audit",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-customer-support-prepurchase-audit",
+      "b": "adult-shop-prepurchase-customer-support-readiness-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-defect-warranty-remedy-checklist",
+      "b": "adult-shop-defective-product-warranty-and-remedy-checklist",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-shop-discreet-delivery-policy-check",
+      "b": "adult-shop-discreet-delivery-policy-checklist",
+      "titleJaccard": 0.778
+    },
+    {
+      "a": "adult-shop-material-disclosure-check",
+      "b": "adult-shop-product-dimensions-fit-information-audit",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-product-care-instructions-audit",
+      "b": "adult-shop-product-care-instructions-purchase-check",
+      "titleJaccard": 0.75
+    },
+    {
+      "a": "adult-shop-product-dimensions-fit-information-audit",
+      "b": "adult-shop-product-specification-transparency-check",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-shipping-returns-and-discretion-checklist",
+      "b": "adult-shop-shipping-returns-prepurchase-checklist",
+      "titleJaccard": 1
+    },
+    {
+      "a": "adult-shop-warranty-and-defect-policy-review",
+      "b": "adult-shop-warranty-and-defect-support-check",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-shop-warranty-and-defect-support-check",
+      "b": "adult-shop-warranty-defect-policy-checklist",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "adult-subscription-billing-descriptor-check",
+      "b": "adult-subscription-billing-descriptor-privacy",
+      "titleJaccard": 0.714
+    },
+    {
+      "a": "affiliate-program-exclusivity-and-competition-review",
+      "b": "affiliate-program-exclusivity-and-competitor-restrictions-audit",
+      "titleJaccard": 0.778
+    },
+    {
+      "a": "affiliate-program-geographic-eligibility-and-routing-audit",
+      "b": "affiliate-program-geographic-eligibility-review",
+      "titleJaccard": 1
+    }
+  ],
+  "totalTitleOverlapCandidates": 94,
+  "note": "Title similarity is triage evidence, not proof of content duplication; no content modified."
+}

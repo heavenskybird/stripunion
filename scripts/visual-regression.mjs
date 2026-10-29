@@ -10,7 +10,11 @@ const defaultTargets = [
   '/guides/premium-adult-video-subscription-value-privacy-guide',
   '/guides/adult-site-payment-privacy-billing-guide',
   '/guides/creator-fan-platform-selection-guide',
-  '/best-live-cam-sites'
+  '/best-live-cam-sites',
+  '/stripchat-alternatives',
+  '/adultfriendfinder',
+  '/become-a-cam-model',
+  '/avcams'
 ];
 const targets = process.env.VISUAL_TARGETS_JSON
   ? JSON.parse(process.env.VISUAL_TARGETS_JSON)
@@ -40,7 +44,7 @@ function slugify(value) {
     .slice(0, 110) || 'home';
 }
 
-const browser = await chromium.launch({ headless: true });
+const browser = await chromium.launch({ headless: true, ...(process.env.VISUAL_CHROMIUM_PATH ? { executablePath: process.env.VISUAL_CHROMIUM_PATH } : {}) });
 const report = {
   version: 1,
   generated_at: new Date().toISOString(),
@@ -219,6 +223,31 @@ try {
             }
           }
 
+          // Text glyphs can overflow a correctly sized element under fallback fonts.
+          if (horizontalOverflowPx > 2 && !overflowOffenders.length) {
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+            let node;
+            while ((node = walker.nextNode()) && overflowOffenders.length < 12) {
+              const element = node.parentElement;
+              if (!node.textContent.trim() || !element || !isVisible(element)) continue;
+              let parent = element;
+              let contained = false;
+              while (parent && parent !== document.body) {
+                if (['auto', 'scroll', 'hidden', 'clip'].includes(getComputedStyle(parent).overflowX)) { contained = true; break; }
+                parent = parent.parentElement;
+              }
+              if (contained) continue;
+              const range = document.createRange();
+              range.selectNodeContents(node);
+              for (const rect of range.getClientRects()) {
+                if (rect.right > viewportWidth + 2 || rect.left < -2) {
+                  overflowOffenders.push({ selector: selectorFor(element), kind: 'text', left: Math.round(rect.left), right: Math.round(rect.right), text: node.textContent.trim().slice(0, 120) });
+                  break;
+                }
+              }
+            }
+          }
+
           return { horizontalOverflowPx, overflowOffenders, lowContrast, blankButtons };
         });
 
@@ -227,20 +256,10 @@ try {
         pageRecord.blank_buttons = audit.blankButtons;
         pageRecord.overflow_offenders = audit.overflowOffenders;
 
-        if (audit.horizontalOverflowPx > 2 && audit.overflowOffenders.length) {
+        if (audit.horizontalOverflowPx > 2) {
           report.failures.push({
-            type: 'HORIZONTAL_OVERFLOW',
-            viewport: viewport.name,
-            url,
-            detail: `${audit.horizontalOverflowPx}px`,
-            offenders: audit.overflowOffenders
-          });
-        } else if (audit.horizontalOverflowPx > 2) {
-          report.warnings.push({
-            type: 'UNATTRIBUTED_SCROLL_GEOMETRY',
-            viewport: viewport.name,
-            url,
-            detail: `${audit.horizontalOverflowPx}px without a visible DOM offender`
+            type: 'HORIZONTAL_OVERFLOW', viewport: viewport.name, url,
+            detail: `${audit.horizontalOverflowPx}px`, offenders: audit.overflowOffenders
           });
         }
         for (const issue of audit.lowContrast) {
