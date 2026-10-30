@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-subscription-prepaid-card-fit-audit",
+  "slug": "adult-subscription-prepaid-card-fit-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Subscriptions and Prepaid Cards: Check Acceptance, Renewals and Refunds",
+  "description": "Before using a prepaid card for an adult subscription, check whether it can cover recurring charges, how refunds work, and what records may remain.",
+  "excerpt": "A prepaid card can put a boundary around available funds, but it may not work for every recurring subscription. Use this checklist to verify acceptance, renewal behavior, refund routes and records before paying.",
+  "keyTakeaways": [
+    "Do not assume a prepaid card will be accepted just because it carries a familiar payment network logo; confirm the service’s current checkout rules.",
+    "Check whether the card supports recurring payments and whether its balance can cover taxes, currency conversion or authorization holds.",
+    "Identify how to stop renewal at the service and what happens if a future charge is declined.",
+    "Find out where refunds go, whether they can return to the original card, and what to do if the card expires or is discarded.",
+    "Treat prepaid payment as one privacy measure, not as a guarantee of anonymity or concealment."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the card’s actual payment rules",
+      "paragraphs": [
+        "Prepaid cards vary in how they can be used. Some are designed for one-time purchases, while others may support recurring transactions; acceptance can also depend on the issuer, the card’s registration status, the merchant’s payment processor and the buyer’s location. A card that works for ordinary online shopping is not necessarily eligible for a particular subscription checkout.",
+        "Before entering payment details, read the card issuer’s terms and the subscription service’s payment information. Look for explicit information about recurring billing, online transactions, international payments and any restrictions that apply to the card type. If the published information is unclear, ask the issuer or service support a specific question, such as whether this card type can be used for a recurring subscription. Avoid relying on a successful first charge as proof that later renewals will work."
+      ],
+      "bullets": [
+        "Confirm the card is activated and eligible for online transactions.",
+        "Check whether registration of a billing address or other cardholder details is required.",
+        "Keep the card terms and the service’s payment explanation for reference."
+      ]
+    },
+    {
+      "heading": "Plan for the difference between a first charge and a renewal",
+      "paragraphs": [
+        "A subscription’s initial checkout and its later billing events may be handled differently. A service may submit a new transaction on a schedule, while a card issuer may apply separate checks to recurring payments. A card with enough balance for the first payment might not have enough for a later renewal, particularly if the balance changes or the charge includes taxes or currency conversion.",
+        "Before subscribing, note the renewal date, the amount and currency shown at checkout, and the steps for turning off renewal. Do not treat an insufficient balance as a cancellation method: a declined payment may lead to retries, account restrictions or a request for another payment method, depending on the service’s terms. Use the service’s cancellation controls when you want billing to stop, then retain the confirmation."
+      ],
+      "table": {
+        "caption": "Questions to answer before relying on a prepaid card",
+        "headers": [
+          "Payment point",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "First checkout",
+            "Is this card type accepted, and what total amount and currency are shown?"
+          ],
+          [
+            "Renewal",
+            "Can the card support recurring payments, and when is the next charge due?"
+          ],
+          [
+            "Low balance",
+            "What does the service say happens after a declined renewal?"
+          ],
+          [
+            "Cancellation",
+            "Where is renewal switched off, and what confirmation is provided?"
+          ],
+          [
+            "Refund",
+            "How are eligible refunds returned if the original card is no longer usable?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check balance, holds and currency details",
+      "paragraphs": [
+        "The displayed subscription amount may not be the only amount that affects a card balance. Depending on the transaction, issuer and payment route, the available balance could be affected by taxes, currency conversion or a temporary authorization. These details are not uniform, so use the checkout total and the issuer’s own explanation rather than estimating from a headline price.",
+        "If the card has a fixed balance, leave room for charges that the service or issuer identifies as possible. Check whether the card must be registered with a billing address and whether the address entered at checkout must match that registration. Do not submit false details to work around a verification step; if the card cannot meet the stated requirements, choose another lawful payment method or do not proceed."
+      ]
+    },
+    {
+      "heading": "Understand refunds and the card’s usable lifespan",
+      "paragraphs": [
+        "A refund may be routed back through the original payment method, but the exact process depends on the service, payment processor and card issuer. Before buying, find the service’s refund terms and ask the issuer how a refund is handled if the card has expired, been replaced or has no remaining spendable balance. Keep the card or account information needed to follow up until any purchase issue is resolved.",
+        "Separate refund eligibility from the mechanics of receiving a refund. A service’s policy may describe when a refund can be requested, while the issuer explains how funds are made available after a refund is processed. Record the purchase date, confirmation, amount and the relevant support instructions. Share only the information support needs; do not send a full card number or security code through an insecure message."
+      ]
+    },
+    {
+      "heading": "Set privacy expectations and keep a clean record",
+      "paragraphs": [
+        "Using a prepaid instrument may limit the amount available on that instrument, but it does not make a transaction anonymous. The merchant, payment processor or issuer may still receive information needed to authorize and record a payment. Account details, email receipts, browser history and notifications can also create records independent of the card itself.",
+        "Decide what records you need for account management or a possible billing question, and store them in a private place you control. Avoid keeping payment details in an unsecured note or on a device other people use. After paying, review the account’s renewal status and confirmation messages. If you decide not to continue, cancel through the service’s stated process rather than depending on the card balance to prevent another charge."
+      ],
+      "bullets": [
+        "Keep a dated note of the checkout terms and renewal date.",
+        "Save a cancellation confirmation if you turn renewal off.",
+        "Do not assume a prepaid card hides account activity from every party involved in payment processing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a prepaid card always work for an adult subscription?",
+      "answer": "No. Acceptance depends on the card’s terms and the service’s current payment rules. Verify recurring-payment eligibility and checkout requirements before relying on a card."
+    },
+    {
+      "question": "If the prepaid balance reaches zero, is the subscription cancelled?",
+      "answer": "Do not assume so. A declined charge is not the same as a confirmed cancellation, and the service may describe retries or other account consequences. Use the service’s cancellation control and keep its confirmation."
+    },
+    {
+      "question": "Can a refund be returned to an expired or discarded prepaid card?",
+      "answer": "The answer depends on the issuer and payment route. Check the issuer’s refund guidance before discarding the card, and ask the service how eligible refunds are processed."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T10:05:03.084Z",
+  "generatedAt": "2026-10-30T11:59:26.246Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-redirect-and-permission-safety-check.json",
-    "ops/editorial/content-artifacts/adult-game-installer-source-permission-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-shipping-estimate-and-dispatch-planning.json",
-    "ops/editorial/content-artifacts/adult-anime-app-source-permissions-checklist.json",
-    "ops/editorial/content-artifacts/premium-video-service-status-incident-communication-audit.json"
+    "ops/editorial/content-artifacts/adult-subscription-prepaid-card-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-discovery-flow-fit-guide.json",
+    "ops/editorial/content-artifacts/free-live-cam-accountless-browsing-checklist.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-pilot-readiness-scorecard.json",
+    "ops/editorial/content-artifacts/creator-platform-monetization-model-fit-scorecard.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-redirect-and-permission-safety-check.js",
-    "src/data/guides/adult-game-installer-source-permission-audit.js",
-    "src/data/guides/adult-shop-shipping-estimate-and-dispatch-planning.js",
-    "src/data/guides/adult-anime-app-source-permissions-checklist.js",
-    "src/data/guides/premium-video-service-status-incident-communication-audit.js"
+    "src/data/guides/adult-subscription-prepaid-card-fit-audit.js",
+    "src/data/guides/adult-dating-discovery-flow-fit-guide.js",
+    "src/data/guides/free-live-cam-accountless-browsing-checklist.js",
+    "src/data/guides/webmaster-affiliate-program-pilot-readiness-scorecard.js",
+    "src/data/guides/creator-platform-monetization-model-fit-scorecard.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "premium-videos"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "live-cams",
+    "webmaster-affiliate",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "free-video-redirect-and-permission-safety-check",
-    "adult-game-installer-source-permission-audit",
-    "adult-shop-shipping-estimate-and-dispatch-planning",
-    "adult-anime-app-source-permissions-checklist",
-    "premium-video-service-status-incident-communication-audit"
+    "adult-subscription-prepaid-card-fit-audit",
+    "adult-dating-discovery-flow-fit-guide",
+    "free-live-cam-accountless-browsing-checklist",
+    "webmaster-affiliate-program-pilot-readiness-scorecard",
+    "creator-platform-monetization-model-fit-scorecard"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41037483418",
-  "phase": "closed"
+  "r1CycleId": "41051774820"
 }
