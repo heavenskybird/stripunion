@@ -1,0 +1,141 @@
+{
+  "backlogId": "free-video-platform-transcript-caption-availability-check",
+  "slug": "free-video-platform-caption-and-transcript-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Captions and Transcripts Before Choosing Where to Watch",
+  "description": "A practical way to compare caption and transcript availability on free video platforms, including language, accuracy signals, player controls, and mobile readability.",
+  "excerpt": "Caption controls and transcript availability can vary by video, even within one service. Use a repeatable check to see whether a free video platform provides the text support you need before making it your regular destination.",
+  "keyTakeaways": [
+    "Check caption availability on several representative videos, not just one platform demo.",
+    "Distinguish subtitles, captions, auto-generated text, and transcripts when the service labels them.",
+    "Test language selection, timing, size, contrast, and mobile controls in the player.",
+    "Do not assume that captions are accurate or complete merely because a toggle exists.",
+    "Record which limitations are platform-wide and which depend on an individual upload."
+  ],
+  "sections": [
+    {
+      "heading": "Set the viewing task you need captions to support",
+      "paragraphs": [
+        "Caption needs differ. Some viewers want dialogue text, others need descriptions of relevant non-speech audio, and some prefer a transcript they can read or search separately. Before comparing services, decide which task matters to you. A platform’s caption button may expose different types of text, and labels can be inconsistent. A clear comparison starts by recording the feature you need rather than treating every text option as equivalent.",
+        "Choose several representative videos for a fair check: different uploaders, durations, and content types, while staying within the platform’s ordinary public access. Captions may be added by an uploader, generated automatically, or unavailable. One successful example does not establish consistent coverage across a catalog. Note the video and date of each check, and avoid recording personal viewing details in a shared document if privacy matters."
+      ],
+      "bullets": [
+        "Dialogue captions or subtitles",
+        "Captions for meaningful non-speech audio, if needed",
+        "A separate transcript or text search option",
+        "Language and readability requirements"
+      ]
+    },
+    {
+      "heading": "Identify what the platform actually offers",
+      "paragraphs": [
+        "Look for the player’s caption menu and the platform’s help information. Determine whether the text is supplied by an uploader, generated automatically, or described in another way. These labels may help explain how captions were produced, but they do not guarantee accuracy. A transcript can also differ from timed captions: it may be easier to search, while lacking synchronized display during playback.",
+        "Check whether the service explains how to request missing captions or report a caption problem. Do not assume that a generic feedback form reaches the person responsible for a particular video. If controls or explanations are not available, mark that as an information gap rather than concluding that the platform has no captions anywhere. Compare the platform’s published description with the actual player, since the two may not align."
+      ],
+      "table": {
+        "caption": "Caption and transcript checks to record",
+        "headers": [
+          "Check",
+          "What to look for",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Availability",
+            "Whether captions appear for multiple videos",
+            "Coverage can vary by upload"
+          ],
+          [
+            "Type",
+            "Uploader-provided, generated, or otherwise labeled text",
+            "The label helps set expectations, not prove accuracy"
+          ],
+          [
+            "Language",
+            "Selectable languages and clear language labels",
+            "A visible option may not exist for every video"
+          ],
+          [
+            "Player controls",
+            "Toggle, timing, size, and readability settings",
+            "Controls affect practical use across screens"
+          ],
+          [
+            "Transcript",
+            "Separate readable or searchable text, if offered",
+            "A transcript may support tasks that timed captions do not"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test captions inside the player",
+      "paragraphs": [
+        "A visible control is only useful if it works in ordinary playback. Turn captions on and off, check that the display stays synchronized, and see whether the text can be read against the video. If size or placement controls exist, test them on the device you use most. Look for player buttons that are hidden behind menus or difficult to reach on a small screen. Record whether controls persist when playback is paused or resumed.",
+        "Check the text with a brief sample rather than judging from the icon alone. Notice whether lines appear delayed, overlap, or disappear too quickly for comfortable reading. These observations are not a formal accuracy audit, but they can reveal usability issues. Avoid assuming that a platform-wide player control guarantees the same behavior in embedded players, mobile browsers, and other access routes."
+      ],
+      "bullets": [
+        "Confirm the caption toggle is visible and usable.",
+        "Check timing and legibility during normal playback.",
+        "Test on the screen and browser you actually use.",
+        "Note whether controls differ between platform pages and embedded players."
+      ]
+    },
+    {
+      "heading": "Assess accuracy without overclaiming",
+      "paragraphs": [
+        "A short review can identify obvious omissions, repeated text, or timing problems, but it cannot establish the accuracy of every caption file. If accuracy matters for a particular video, compare a few clear spoken phrases with the displayed text and note any discrepancies. Do not treat a generated label as evidence that the text is complete, and do not assume uploader-provided text is error-free.",
+        "Keep judgments appropriately scoped: “captions were available on these examples” is more defensible than “the platform captions everything.” Separate a video-specific problem from a platform-level limitation. If the service offers a reporting channel, use the available process and note whether it explains what happens next. For a comparison, the presence of an easy-to-find correction route is useful information even when the platform does not disclose a resolution timetable."
+      ],
+      "bullets": [
+        "Record sample size and date, not sweeping coverage claims.",
+        "Separate availability, readability, and accuracy into different observations.",
+        "Note whether reporting or correction instructions are easy to find."
+      ]
+    },
+    {
+      "heading": "Compare mobile and desktop readability",
+      "paragraphs": []
+    },
+    {
+      "heading": "Build a comparison that stays useful over time",
+      "paragraphs": [
+        "Use a small scorecard with separate entries for caption coverage in your sample, language options, controls, transcript availability, mobile readability, and reporting guidance. Keep the observations descriptive: confirmed in sample, inconsistent, or not found. Free platforms may change player interfaces or caption policies, so add the date and recheck if a feature is important to your ongoing use.",
+        "A scorecard helps you choose based on your needs without turning a limited review into a ranking. If one service has clearer controls but less consistent availability in your sample, that trade-off is more informative than a single overall score. Revisit the comparison when you change devices or when a platform changes its player. Do not publish or share private viewing histories as part of the notes."
+      ],
+      "bullets": [
+        "Track availability separately from control quality.",
+        "Include device, browser, and check date.",
+        "Keep sample-based conclusions limited to the sample.",
+        "Recheck important controls after interface changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are captions and subtitles the same thing?",
+      "answer": "The labels are used inconsistently. A service may use “subtitles” for dialogue text and “captions” for additional audio information, but you should inspect the player’s explanation and actual behavior rather than assume a universal distinction."
+    },
+    {
+      "question": "Does an automatic caption label mean the text is accurate?",
+      "answer": "No. It describes a production method where the platform identifies it, not a guarantee of quality. Check a small sample for timing and obvious errors, and keep your conclusions limited to the videos you reviewed."
+    },
+    {
+      "question": "Why might captions be available on one video but not another?",
+      "answer": "Availability can depend on the individual upload, language, caption source, and platform processing. Check more than one video before drawing conclusions about overall coverage."
+    },
+    {
+      "question": "What should I record when comparing platforms?",
+      "answer": "Record the video sample, date, device, caption type, languages offered, player controls, transcript availability, and any reporting instructions. Keep observations separate from assumptions about the rest of the catalog."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
