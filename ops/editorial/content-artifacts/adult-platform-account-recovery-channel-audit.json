@@ -1,0 +1,117 @@
+{
+  "backlogId": "adult-platform-account-recovery-channel-audit",
+  "slug": "adult-platform-account-recovery-channel-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Check Recovery Email and Phone Exposure",
+  "description": "A practical way to review account recovery channels, secure the inbox or phone number behind an account, and reduce avoidable privacy and lockout risks.",
+  "excerpt": "Recovery details can protect an account, but they can also create a connection between services or expose sensitive notifications. Review what is attached to your account before you need to recover it.",
+  "keyTakeaways": [
+    "List the email addresses and phone numbers used for sign-in, recovery, and alerts.",
+    "Secure the recovery inbox and phone account as carefully as the platform account itself.",
+    "Check how recovery messages appear on shared devices and lock screens.",
+    "Keep recovery options current while avoiding unnecessary identity links."
+  ],
+  "sections": [
+    {
+      "heading": "Map every recovery route",
+      "paragraphs": [
+        "Start by identifying how you can regain access if you forget a password, lose a device, or encounter a security check. A platform account may use an email address, phone number, authentication app, backup codes, or a linked sign-in provider. These routes have different privacy and security implications. Record which ones are currently enabled and which are required, rather than assuming that the email used at registration is the only recovery channel.",
+        "Use a private, secure record to note the account identifier, recovery methods, and where backup codes are stored. Do not put passwords or recovery codes into an unprotected note or send them to yourself in plain text. The purpose of the map is to know where a recovery request could arrive and what you would need to do if one channel became unavailable."
+      ],
+      "table": {
+        "caption": "Recovery-channel inventory",
+        "headers": [
+          "Channel",
+          "What to check"
+        ],
+        "rows": [
+          [
+            "Email",
+            "Is it current, secured, and accessible without relying on the platform account?"
+          ],
+          [
+            "Phone number",
+            "Can you still receive messages, and is the number shared or exposed elsewhere?"
+          ],
+          [
+            "Authenticator or backup codes",
+            "Are they available securely if the primary device is lost?"
+          ],
+          [
+            "Linked sign-in provider",
+            "Which provider can restore access, and what account data may be connected?"
+          ],
+          [
+            "Support recovery",
+            "What information does the current help process request?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect the inbox behind the account",
+      "paragraphs": [
+        "An email account used for recovery can become the route into several other accounts. Use a unique password and available account-security protections on that inbox. Review its recovery methods too: an old phone number or shared address can undermine the protection you expect. Check recent account activity if the email service provides it, and remove old sessions or forwarding rules you do not recognize.",
+        "Consider what a recovery email reveals when it arrives. A subject line or sender may be visible on a lock screen, shared tablet, or connected device. Where the email service allows it, adjust notification previews or use an inbox dedicated to this kind of account. An alias can reduce casual linkage, but it is not a substitute for securing the mailbox and does not change what the platform itself may know."
+      ],
+      "bullets": [
+        "Secure the inbox with a unique password and its available sign-in protections.",
+        "Review recovery options and forwarding rules on the inbox.",
+        "Limit message previews on devices other people may see."
+      ]
+    },
+    {
+      "heading": "Think carefully before attaching a phone number",
+      "paragraphs": [
+        "Keep the contact information attached to the account consistent with what you can actually access. An outdated number may create a lockout risk, while a frequently shared number may increase exposure. If your circumstances change, update the recovery channel through the platform’s verified account settings and confirm that the new route works before removing the old one, if the platform allows that sequence."
+      ]
+    },
+    {
+      "heading": "Reduce exposure from recovery notifications",
+      "paragraphs": [
+        "A recovery message can reveal the name of a service or the existence of an account to someone who can see your device, inbox, or notification history. Review lock-screen previews, shared browser or email sessions, and notification syncing across devices. If you receive an unexpected password-reset message, do not follow a link merely because the message looks urgent. Navigate to the service through a route you already trust and check the account directly.",
+        "Device privacy matters even when the recovery channel is secure. A shared phone plan, shared email account, family computer, or synced tablet may make messages accessible to someone else. Identify who can access the recovery device and whether they can view old messages or notifications. If you cannot make that channel private, weigh the risk before attaching it and consider whether a different supported recovery route is more appropriate."
+      ],
+      "bullets": [
+        "Review lock-screen previews and cross-device notification syncing.",
+        "Treat unexpected recovery messages cautiously and visit the service directly.",
+        "Check who can access the recovery inbox or phone account."
+      ]
+    },
+    {
+      "heading": "Keep recovery workable over time",
+      "paragraphs": [
+        "A recovery plan should survive ordinary changes such as replacing a phone, changing an email provider, or losing a device. Before removing a recovery method, confirm that another supported route is active. Store backup codes securely and make sure you can locate them without depending on the device they protect. Revisit the plan when you change contact details or when a linked provider changes its security options.",
+        "If access is lost, use the platform’s published support process and provide only information requested through its official channel. Keep a record of the case reference and steps taken, but avoid sending passwords or one-time codes. After regaining access, review account contact details, linked sign-ins, active sessions, and notification settings. This turns recovery into a controlled account check rather than simply restoring the old setup."
+      ],
+      "bullets": [
+        "Update a recovery channel before losing access to the old one.",
+        "Store backup codes somewhere separate from the device they protect.",
+        "After recovery, review linked accounts, sessions, and contact details."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is it safer to use an email alias for recovery?",
+      "answer": "An alias may reduce casual linkage between accounts, but it does not secure the inbox by itself. Make sure the underlying mailbox is protected and that you can still access the alias when recovery is needed."
+    },
+    {
+      "question": "Should I remove my phone number from an account?",
+      "answer": "First check whether it is required for recovery or verification and whether another supported method is active. Removing the only working route could make a future lockout harder to resolve."
+    },
+    {
+      "question": "What should I do with an unexpected recovery code?",
+      "answer": "Do not share it or enter it into a page reached from an unsolicited message. Go directly to the service using a trusted route, check account activity, and change credentials if you find evidence of unauthorized access."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

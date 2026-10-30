@@ -1,0 +1,108 @@
+export default {
+  "slug": "adult-dating-discovery-visibility-scope-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Who Can Find and View Your Profile",
+  "description": "Learn how to assess dating profile visibility across search, discovery, and direct profile access before choosing a platform or publishing a profile.",
+  "excerpt": "A profile’s visibility is not always one simple setting. Check how discovery, search, and profile access work together, and decide what level of exposure fits your needs.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Distinguish appearance in discovery from access to a profile through search or a direct link.",
+    "Check which profile details are visible before a person matches or starts a conversation.",
+    "Test visibility controls with a low-risk profile setup before adding identifying details.",
+    "Revisit settings after profile edits, membership changes, or platform policy updates."
+  ],
+  "sections": [
+    {
+      "heading": "Treat visibility as several separate questions",
+      "paragraphs": [
+        "When assessing a dating platform, do not reduce profile privacy to a single visible or hidden switch. A service may handle discovery, search results, profile previews, and direct profile access differently. A setting that affects one surface may not affect another. Before building a profile, identify the places where other members might encounter it and the choices the platform provides for each place.",
+        "Make a simple inventory of what you want to control. You might want to limit who sees a profile, hide selected details, or avoid appearing in a particular discovery flow. These are different goals, and a platform may not offer all of them. Avoid assuming that a control has a wider effect than its wording states. Read the setting description and help material, then test the behavior using only information you are comfortable exposing."
+      ],
+      "table": {
+        "caption": "Separate the profile surfaces before judging privacy",
+        "headers": [
+          "Surface",
+          "Question to check"
+        ],
+        "rows": [
+          [
+            "Discovery feed",
+            "Can a profile be shown to members who have not searched for it?"
+          ],
+          [
+            "Search results",
+            "Can members search using profile fields, filters, or keywords?"
+          ],
+          [
+            "Profile preview",
+            "Which details appear before a member opens the full profile?"
+          ],
+          [
+            "Direct access",
+            "Can a profile be opened from a shared or saved link?"
+          ],
+          [
+            "Off-platform exposure",
+            "Does the platform explain whether profile pages can appear outside its member area?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the visibility controls closely",
+      "paragraphs": [
+        "Inspect each control’s label and supporting explanation. Determine whether it applies immediately, only to future discovery, or to an existing profile that may already have been seen. Check whether hiding a profile also affects messages, matches, saved profiles, or prior conversations. These details matter because reducing future exposure is not the same as removing information another member already viewed or copied.",
+        "If controls are unclear, avoid testing them with sensitive details. Use a minimal profile and observe the available states before adding more information. Take note of the exact setting names and any confirmation message. Platform interfaces and terms can change, so an old screenshot or third-party summary may not describe the current behavior. When possible, check the platform’s own help material and settings interface together."
+      ],
+      "bullets": [
+        "Look for a separate control for discovery and profile details.",
+        "Check whether changes are immediate or subject to a delay.",
+        "Note any limitations, such as settings that apply only to certain members or account types."
+      ]
+    },
+    {
+      "heading": "Decide which details to show at each stage",
+      "paragraphs": [
+        "A useful profile does not need to reveal every detail at the first point of contact. Consider what is essential for someone to decide whether to engage and what can wait until a conversation develops. Avoid including workplace details, a precise routine, or information that links easily to another account unless you have a clear reason to share it. Even where a platform limits visibility, other members may be able to record or describe what they see.",
+        "Review text and images for indirect identifiers as well as names. A distinctive background, recognizable uniform, public social handle, or repeated phrase can connect accounts even when a profile uses a different display name. This is not a guarantee that identity can be concealed; it is a way to make deliberate choices about what connections you create. Keep profile details consistent with the privacy level you want, and avoid sharing information you would not want copied outside the service."
+      ],
+      "bullets": [
+        "Use only the contact details needed to operate the account.",
+        "Check images and profile text for incidental identifiers.",
+        "Decide in advance what you will not share in a public-facing profile."
+      ]
+    },
+    {
+      "heading": "Test the member experience without overexposing yourself",
+      "paragraphs": []
+    },
+    {
+      "heading": "Plan for visibility changes and account transitions",
+      "paragraphs": [
+        "Visibility preferences can change when someone takes a break, changes membership, edits a profile, or wants to stop using the service. Check whether the platform offers a distinct option to hide discovery, pause a profile, or deactivate an account; these actions may have different effects. Confirm what happens to existing conversations, saved profiles, and previously shared links rather than assuming a visibility change removes all traces.",
+        "Recheck the settings after a significant account change and keep a brief record of what you selected. If a control does not work as described, save the setting name, date, and relevant confirmation without collecting unnecessary personal data about other members. Use the platform’s support or reporting process where appropriate. No setting can control screenshots or information already copied by another person, so share only what you are comfortable having leave the platform."
+      ],
+      "bullets": [
+        "Review settings after account changes and major profile edits.",
+        "Distinguish hiding a profile from deleting or deactivating an account.",
+        "Do not treat privacy controls as a guarantee against copying or re-sharing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hiding a dating profile remove it from every place?",
+      "answer": "Not necessarily. A control may affect future discovery without removing prior messages, saved information, or content another member already saw. Check the platform’s explanation for each surface and do not assume a single setting covers all access routes."
+    },
+    {
+      "question": "Should I use a separate display name?",
+      "answer": "A separate name can reduce easy account linkage, but it does not make a profile unidentifiable by itself. Consider images, biography details, contact information, and other recognizable patterns too."
+    },
+    {
+      "question": "How often should I review visibility settings?",
+      "answer": "Review them when you create or substantially edit a profile, change account status, or notice a change in the platform’s controls or terms. A periodic check is also useful if privacy needs change."
+    }
+  ]
+};
