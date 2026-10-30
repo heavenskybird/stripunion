@@ -18353,7 +18353,7 @@
       "intent": "Free Video Sites: Check Redirects, Fake Player Controls, and Permission Prompts",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -18366,7 +18366,7 @@
       "intent": "Adult Games: Verify Installer Sources and Permissions Before Installing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -18379,7 +18379,7 @@
       "intent": "Adult Shop Delivery Estimates: Check Dispatch Timing and Delays Before Ordering",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -18392,7 +18392,7 @@
       "intent": "Adult Anime Apps: Check the App Source and Permissions Before Installing",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -18405,7 +18405,7 @@
       "intent": "Premium Video Platforms: Check Outage Updates and Service-Status Communication",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
