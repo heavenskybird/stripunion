@@ -1,0 +1,111 @@
+export default {
+  "slug": "creator-platform-content-library-portability-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Content Portability Before You Build a Library",
+  "description": "A creator-focused workflow for checking original-file access, metadata, permitted reuse, and continuity before relying on a fan platform as your archive.",
+  "excerpt": "A platform library is not automatically a portable backup. Check which original files and records you can retrieve, and what terms apply if you move elsewhere.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Distinguish platform-hosted copies from original files you control.",
+    "Check whether exports include useful metadata, not just media files.",
+    "Read the terms for reuse and redistribution before moving material to another service.",
+    "Maintain a separate, secure archive rather than treating a platform as the only copy.",
+    "Test an export or retrieval workflow before depending on it for a large catalog."
+  ],
+  "sections": [
+    {
+      "heading": "Separate hosting from ownership and portability",
+      "paragraphs": [
+        "Uploading work to a creator platform does not by itself explain who controls the original files, which uses are permitted, or what happens when an account closes. These are separate questions. Review the current agreement and any upload or licensing terms to understand the permissions you grant. Avoid assuming that the ability to remove a post means you can recover its original file or every record associated with it.",
+        "Make a simple inventory of what you publish and where the original source files are stored. For each item, distinguish the original, any edited version, the version uploaded to the platform, and related description or publication details. Keeping these categories separate makes it easier to plan a move, restore a file, or answer a rights question without relying on a platform copy as your only archive."
+      ],
+      "bullets": [
+        "Keep original source files under your control.",
+        "Record where each published version is hosted.",
+        "Review the platform’s permission and removal terms before relying on assumptions."
+      ]
+    },
+    {
+      "heading": "Find out what an export actually contains",
+      "paragraphs": [
+        "An export button or download request may provide only part of the information needed to continue operating elsewhere. Check whether it includes original media, edited uploads, titles, descriptions, publication dates, tags, and other metadata that matters to your workflow. Also look for stated limits on file type, batch size, retention, or the time an export link remains available. Do not assume the word “export” means a complete archive.",
+        "If a test export is available, try it with a small, non-critical sample before relying on it. Confirm that files open, names remain understandable, and any included text can be read without specialist software. Note which details are missing. If the platform does not explain what the export contains, ask support a specific question and keep the response with your operational records."
+      ],
+      "table": {
+        "caption": "Content portability inventory for a creator account",
+        "headers": [
+          "Record or asset",
+          "Portability question"
+        ],
+        "rows": [
+          [
+            "Original files",
+            "Do I hold a separate copy outside the platform?"
+          ],
+          [
+            "Uploaded files",
+            "Can I retrieve the uploaded version in a usable form?"
+          ],
+          [
+            "Descriptions and titles",
+            "Are text fields included in an export or saved separately?"
+          ],
+          [
+            "Publication records",
+            "Can I identify when and where an item was published?"
+          ],
+          [
+            "Permissions",
+            "Do the terms allow the intended reuse on another service?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check permissions before reusing or moving work",
+      "paragraphs": [
+        "Portability is not only a technical question. Before reposting an item elsewhere, check the platform agreement, any relevant licenses, and any third-party permissions connected to the work. An export can give you a file without settling whether or how you may reuse it. Keep a record of the terms that applied when you uploaded the material and the permissions you obtained for any components you did not create yourself.",
+        "If a platform changes its terms or your circumstances change, review the current rules before making a migration plan. Avoid treating promotional statements or informal advice as a substitute for the applicable agreement. When the consequences are significant or unclear, consider seeking qualified professional advice. The aim is to identify the specific question—such as whether a particular license permits reuse—not to infer permission from technical access."
+      ]
+    },
+    {
+      "heading": "Maintain an archive that is not dependent on one account",
+      "paragraphs": [
+        "A separate archive can reduce the risk of losing working files if an account is unavailable, a feature changes, or you decide to stop using a platform. Choose storage you can access and maintain, and organize files so you can connect each asset to its publication details. Keep sensitive account credentials and private material protected, with access limited to people who need it.",
+        "Backups should be more than duplicate folders that share the same failure risk. Consider whether a device loss, accidental deletion, or account compromise could affect every copy at once. Follow the storage provider’s security options and periodically confirm that important files can be opened. This is an operational resilience check, not a guarantee against every kind of data loss."
+      ],
+      "bullets": [
+        "Keep at least one working copy outside the creator platform.",
+        "Use clear file names or an index that links assets to publication records.",
+        "Review access permissions on storage shared with assistants or collaborators."
+      ]
+    },
+    {
+      "heading": "Plan a migration before you need one",
+      "paragraphs": [
+        "A planned migration is easier than an urgent one. Write down the assets you would need first, where their originals are, what metadata is essential, and which permission questions must be answered. Then test how long the retrieval process takes in practical terms without assuming a particular platform response time. Note the official support route and any stated account-closure or export conditions.",
+        "Make the plan useful without storing unnecessary fan information. Creator content files, content metadata, and audience records are different kinds of data and may have different export rules. Do not copy or reuse audience details unless the terms and applicable requirements allow it. If the platform provides no clear path for a needed record, identify that as a business dependency and decide whether you can operate responsibly with the limitation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does downloading a creator’s uploaded content settle whether it can be reused elsewhere?",
+      "answer": "No. Technical access to a file does not establish what the platform agreement, licenses, or other permissions allow. Review the relevant terms before reusing or moving work."
+    },
+    {
+      "question": "Should a creator platform be the only copy of published work?",
+      "answer": "Relying on a single hosted copy creates a dependency on the account and the platform’s available tools. Maintaining a separate, secure archive gives you more control over your working files."
+    },
+    {
+      "question": "What should I test in a sample export?",
+      "answer": "Check which files and metadata are included, whether files open, whether names are useful, and whether the export has limits or an expiry. A small test can expose gaps before you rely on a larger retrieval."
+    },
+    {
+      "question": "Are audience records part of a content portability plan?",
+      "answer": "They are a separate category of data with distinct privacy and terms considerations. Do not assume you can export or reuse fan information in the same way as your own media files; check applicable rules first."
+    }
+  ]
+};

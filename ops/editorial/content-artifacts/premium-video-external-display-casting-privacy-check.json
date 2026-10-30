@@ -1,0 +1,119 @@
+{
+  "backlogId": "premium-video-external-display-casting-privacy-check",
+  "slug": "premium-video-external-display-casting-privacy-check",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Casting and External-Display Privacy",
+  "description": "A practical checklist for evaluating casting, screen mirroring, and external-display behavior before using a premium video subscription.",
+  "excerpt": "A video that starts on one device may appear on another screen or leave a visible session. Check destination, account, and exit controls before relying on casting.",
+  "keyTakeaways": [
+    "Test whether casting and mirroring are distinct features on your own devices.",
+    "Confirm which screen or device is the playback destination before starting a session.",
+    "Check whether shared devices retain account access, playback state, or visible titles.",
+    "Learn how to stop playback and disconnect the destination without assuming one control does both.",
+    "Review household and account terms before sharing sign-in details."
+  ],
+  "sections": [
+    {
+      "heading": "Map the devices and connections you may use",
+      "paragraphs": [
+        "External playback can mean several different things: a platform’s cast control, operating-system screen mirroring, a connected streaming device, or a browser running on a television. These paths may behave differently, so do not treat them as interchangeable. List the phone, computer, display, and any intermediary device you expect to use. Check which account is signed in on each device and who can access it.",
+        "A living-room television or shared display can reveal more than the video itself. Device names, app icons, account profiles, recent activity, and notifications may be visible to other people nearby. Before starting, consider whether the display is private and whether the destination device belongs to you. If you cannot identify the active destination, pause and confirm it rather than assuming the video will remain on the initiating device."
+      ],
+      "bullets": [
+        "List the initiating device, playback device, and any intermediary device.",
+        "Check whether each device uses your own account or a shared account.",
+        "Identify who can see or control the destination screen."
+      ]
+    },
+    {
+      "heading": "Distinguish casting from screen mirroring",
+      "paragraphs": [
+        "With casting, a device may send a playback request to another device; with mirroring, the display may reproduce the initiating screen. The precise behavior depends on the devices and software in use. Look for platform and device documentation that describes the connection method. Avoid assuming that locking your phone, switching apps, or leaving a page open will have the same effect for both methods.",
+        "Run a low-risk test before depending on the setup. Use non-sensitive material or a basic interface screen to identify what appears on the external display, whether controls remain on the phone, and what happens if the initiating device disconnects. Note whether the display shows account information, a title, a thumbnail, or other activity when playback begins or stops. This is a device-behavior check, not a guarantee that every future session will behave identically."
+      ],
+      "table": {
+        "caption": "Questions to answer for each external-playback route",
+        "headers": [
+          "Check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Which device starts playback?",
+            "It identifies where account and session controls are likely to be available."
+          ],
+          [
+            "Which device displays the content?",
+            "It clarifies who may see the session and its on-screen details."
+          ],
+          [
+            "How is the connection ended?",
+            "Stopping playback and disconnecting may be separate actions."
+          ],
+          [
+            "Does the destination retain a session?",
+            "A shared device may remain signed in after viewing ends."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check account and session traces on shared displays",
+      "paragraphs": [
+        "Before using a television or other shared display, check whether it is signed in to an account that belongs to someone else or is available to other household members. Avoid entering your own credentials on a device you do not control unless you understand the sign-in and sign-out process. A one-time cast may still leave the destination app or account ready for later use, depending on the setup.",
+        "After a session, verify the result on both the initiating device and the display. Stop playback, disconnect the session if appropriate, and check whether the destination returned to a neutral screen. If you signed in directly on a shared device, use its sign-out controls and follow any instructions for removing account access. Do not assume that closing a browser window or turning off a display ends the account session."
+      ],
+      "bullets": [
+        "Confirm who owns the destination account before starting.",
+        "Check both playback status and account sign-in status when finished.",
+        "Do not leave credentials saved on a device other people can access."
+      ]
+    },
+    {
+      "heading": "Plan for audio, notifications, and accidental display",
+      "paragraphs": [
+        "External playback can change where audio comes from and what people nearby can hear. Check volume and output before starting, especially if a display is connected to speakers in a shared room. Also review notifications on the initiating device. Message previews or account alerts may appear on a phone or computer even when the main video is displayed elsewhere.",
+        "Consider whether the operating system, display, or connected device shows a title or preview in its interface, history, or recent-app list. You may not be able to suppress every system-level trace, so avoid promising yourself that a particular route is private without checking its behavior. When the destination is visible to others, choose a private time and place or use a device setup you control."
+      ]
+    },
+    {
+      "heading": "Build a repeatable start-and-stop routine",
+      "paragraphs": [
+        "A short routine reduces mistakes: verify the destination, check the account, confirm the room and audio situation, then begin playback. At the end, stop the video, disconnect if needed, and confirm the destination is no longer displaying the session. If the platform supports persistent sign-in on the external device, decide whether you want to sign out each time or avoid direct sign-in on that device.",
+        "Keep the routine specific to the connection path you actually use. Write down the separate steps for casting, mirroring, or direct app playback, because their controls may differ. Recheck after a device or software change. A new television, updated app, or altered account setting can change available controls, so an old habit should not substitute for a quick verification."
+      ],
+      "bullets": [
+        "Verify the active display before starting.",
+        "Separate the steps for stopping playback, disconnecting, and signing out.",
+        "Repeat the check after changing devices or account settings."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does casting always keep account information off the television?",
+      "answer": "No universal behavior can be assumed. The display may show a title, account state, or other interface details depending on the device and connection method. Check the specific setup before relying on it."
+    },
+    {
+      "question": "Is stopping playback the same as disconnecting?",
+      "answer": "Not necessarily. Some setups have separate playback and connection controls. Confirm that playback has stopped and that the external device is no longer connected if that is your intention."
+    },
+    {
+      "question": "What is the safest way to test an unfamiliar display?",
+      "answer": "Use a non-sensitive screen or material first. Confirm what appears on the destination, where controls remain, and how to stop and disconnect before using the setup for anything private."
+    },
+    {
+      "question": "Should I sign in directly on a shared television?",
+      "answer": "Only if you understand who can access the device and how to remove your account afterward. If you cannot control its saved sessions or sign-out process, avoid entering credentials there."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
