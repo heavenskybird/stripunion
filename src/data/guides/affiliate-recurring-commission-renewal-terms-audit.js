@@ -1,0 +1,110 @@
+export default {
+  "slug": "affiliate-recurring-commission-renewal-terms-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Whether Commissions Apply to Renewals and Repeat Purchases",
+  "description": "A practical checklist for understanding affiliate commission rules for renewals, repeat purchases, customer eligibility, attribution, and reversals.",
+  "excerpt": "A tracked referral may not answer whether later renewals or purchases qualify. Compare the program's written rules for recurring commissions before building forecasts or publishing claims.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Separate the first qualifying conversion from later renewals, repeat purchases, and account reactivations.",
+    "Find the written rules for how long a referral remains eligible and which customer actions can end eligibility.",
+    "Distinguish tracking attribution from commission qualification: a tracked customer is not automatically a commissionable event.",
+    "Check how refunds, cancellations, failed payments, and other adjustments affect later commission records.",
+    "Use a conservative forecast until the program clarifies ambiguous renewal terms in writing."
+  ],
+  "sections": [
+    {
+      "heading": "Define the event that earns a commission",
+      "paragraphs": [
+        "Affiliate programs can use different rules for initial purchases and later customer activity. A first purchase may be treated differently from a renewal, a repeat order, or a return after an account has been inactive. Avoid describing an arrangement as recurring unless the written terms identify which later events qualify and how eligibility is determined.",
+        "Start by listing the event types relevant to the offer. For each one, note whether the terms say it is commissionable, excluded, or unclear. This is more useful than relying on a headline commission description, because a broad description may not explain the customer lifecycle or the conditions attached to later events."
+      ],
+      "table": {
+        "caption": "A comparison grid for recurring and repeat-purchase terms",
+        "headers": [
+          "Event",
+          "Question for the program terms"
+        ],
+        "rows": [
+          [
+            "Initial purchase",
+            "What action counts as the qualifying conversion?"
+          ],
+          [
+            "Renewal",
+            "Do later billing periods qualify, and for how long?"
+          ],
+          [
+            "Repeat purchase",
+            "Does a new order from the same customer qualify?"
+          ],
+          [
+            "Reactivation",
+            "Does eligibility resume after a cancelled or inactive account returns?"
+          ],
+          [
+            "Adjustment",
+            "How do refunds, failed payments, or reversals affect recorded commission?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Do not confuse attribution with eligibility",
+      "paragraphs": [
+        "Attribution answers which referral is credited under the program's tracking rules. Commission eligibility answers whether a particular customer event earns commission under the program's terms. A referral may remain associated with a customer while a later renewal is excluded, or a subsequent action may need to meet separate qualification conditions.",
+        "Check whether the terms specify an eligibility duration, a customer-status rule, or a restriction on previously existing customers. Also check whether the program describes how it treats a customer who changes plans, cancels, returns, or makes another purchase. If those cases are not addressed, record the gap rather than filling it with an assumption."
+      ]
+    },
+    {
+      "heading": "Read the rules for reversals and interruptions",
+      "paragraphs": [
+        "Renewal-related records may change when a payment is refunded, disputed, cancelled, or otherwise adjusted. The program's terms should explain which adjustments can reverse a commission, whether a later correction appears in reporting, and how to identify the event being adjusted. Do not treat an initial dashboard entry as final unless the program explains its status and adjustment process.",
+        "Consider interruptions as well as reversals. A customer may pause, cancel, or restart an account, and the program may treat each situation differently. Make a scenario list and ask for the relevant written rule. Clear answers help you understand reporting without promising that any particular referral will produce continuing earnings."
+      ],
+      "bullets": [
+        "Record whether the terms address refunds and payment reversals.",
+        "Check what the program says about cancellations, pauses, and reactivations.",
+        "Note whether dashboard statuses distinguish pending, approved, and adjusted events.",
+        "Keep the date and version of the terms you reviewed."
+      ]
+    },
+    {
+      "heading": "Ask precise questions before forecasting",
+      "paragraphs": [
+        "A useful inquiry describes a scenario rather than asking whether commissions are simply recurring. For example, ask whether a customer who makes a qualifying initial purchase and later renews remains eligible, what limits apply, and where the rule appears in the agreement. Ask separately about repeat purchases and reactivations, since those may not share the same treatment.",
+        "Request clarification through an official program contact and retain the response alongside the written terms. If a verbal answer differs from the agreement, ask which document controls and whether the relevant terms can be confirmed in writing. Do not base a revenue forecast on an informal interpretation that cannot be reconciled with the program's published conditions."
+      ]
+    },
+    {
+      "heading": "Build a conservative planning model",
+      "paragraphs": [
+        "For planning, separate the first qualifying event from any later events and model uncertain renewals as unconfirmed rather than guaranteed. If terms specify a duration or a limit, use that rule exactly in your assumptions. If the terms are silent, leave later commissions out of the base case until the program answers the question.",
+        "Keep the model easy to audit: note the source document, the date checked, and the assumptions for each event type. Review those assumptions when terms change or when reporting reveals a pattern that does not match the documented rule. This process helps prevent a site, budget, or business decision from depending on an unsupported interpretation."
+      ]
+    },
+    {
+      "heading": "Make the comparison decision-ready",
+      "paragraphs": [
+        "When comparing programs, rate the clarity of their customer-lifecycle rules separately from commission amounts. A written explanation of renewals, eligibility limits, and adjustments is more actionable than an undefined promise of ongoing earnings. You can compare programs without predicting how many customers will renew or what any publisher will earn.",
+        "Before launching, make sure your own descriptions match the terms. Avoid claiming that referrals generate continuing commission unless the program's current documentation supports that exact wording and the applicable conditions are clear. Recheck the relevant rules periodically and update internal planning notes if eligibility changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does tracking a customer mean renewals will earn commission?",
+      "answer": "No. Tracking attribution and commission eligibility are separate questions. Review the program terms to see whether a renewal qualifies, how long eligibility lasts, and what conditions or exclusions apply."
+    },
+    {
+      "question": "Are repeat purchases the same as recurring renewals?",
+      "answer": "Not necessarily. A scheduled renewal and a later separate purchase can be treated as different events. Check the program's definitions and ask about each event type that matters to your business."
+    },
+    {
+      "question": "How should I plan when renewal rules are unclear?",
+      "answer": "Use a conservative base case that does not depend on unconfirmed later commissions. Record the uncertainty and seek written clarification from an official program contact before changing your assumptions."
+    }
+  ]
+};
