@@ -1,0 +1,116 @@
+export default {
+  "slug": "creator-platform-indirect-tax-responsibility-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Indirect-Tax Responsibilities Before Setting Prices",
+  "description": "A creator-focused checklist for understanding platform documentation, indirect-tax handling and pricing responsibilities before launch.",
+  "excerpt": "A platform’s checkout and payout records may not answer every tax question. Map what the platform documents, what remains your responsibility to verify and what records to keep before setting prices.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Do not assume a platform’s role in checkout determines every tax responsibility for a creator.",
+    "Check platform terms and documentation for how taxes are displayed, collected, reported or reflected in transactions.",
+    "Separate platform-provided records from your own recordkeeping and local obligations.",
+    "Review how changes in audience location, offer type or selling structure could affect the questions you need to ask.",
+    "Use a qualified tax professional for jurisdiction-specific advice rather than treating platform wording as a legal conclusion."
+  ],
+  "sections": [
+    {
+      "heading": "Separate platform processing from creator responsibility",
+      "paragraphs": [
+        "When evaluating a creator platform, distinguish the functions it performs from the obligations that may apply to your own business. A platform may provide checkout, transaction records or tax-related documentation, but those features do not, by themselves, establish the full set of responsibilities for every creator, offer or location. Read the relevant terms and help materials closely, and note what the platform explicitly says it handles.",
+        "Avoid inferring responsibility from a single screen or label. A displayed tax line, a payout statement or a platform-generated document may describe one part of a transaction without resolving how your own records, filings or pricing should work. Treat each document as evidence about its stated purpose, not as a universal answer to a tax question."
+      ],
+      "bullets": [
+        "List what the platform says it handles in checkout or transaction processing.",
+        "List what its documentation does not explain.",
+        "Keep your own business obligations as a separate question to verify."
+      ]
+    },
+    {
+      "heading": "Read the right documents before choosing a platform",
+      "paragraphs": [
+        "Start with the platform’s current terms for creators, payment or transaction documentation, and any help pages that explain how amounts are presented. Look for definitions of the amount charged, deductions, adjustments and amounts paid to the creator. The goal is to understand the records you will receive and the platform’s stated role, not to interpret legal obligations from incomplete text.",
+        "Save the relevant document titles and dates in your platform comparison notes. If two pages appear to describe the same transaction differently, record the conflict and ask the platform for clarification before building a pricing model around it. Do not assume an informal support response overrides formal terms; ask which written document controls and retain the reply."
+      ],
+      "table": {
+        "caption": "Questions to resolve before pricing or launch",
+        "headers": [
+          "Area",
+          "What to look for",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Checkout display",
+            "How the customer-facing amount and any stated tax are described",
+            "Documented wording and applicable transaction context"
+          ],
+          [
+            "Creator statements",
+            "Which transaction fields and adjustments appear in records",
+            "Field names, dates and export availability"
+          ],
+          [
+            "Platform terms",
+            "The stated division of processing and creator responsibilities",
+            "Relevant clause and any unanswered interpretation"
+          ],
+          [
+            "Your business records",
+            "What information you need to retain independently",
+            "A recordkeeping plan confirmed with an appropriate adviser"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Model prices without assuming a tax outcome",
+      "paragraphs": [
+        "Pricing decisions should account for the difference between the amount a customer sees and the amount recorded or paid to a creator, without assuming that any one figure represents a final tax result. Build a planning worksheet with clearly named fields for the listed price, platform charges or adjustments documented by the platform, and the amount shown in creator records. Keep tax questions in a separate field until you have reliable guidance for your circumstances.",
+        "Use the worksheet to compare how a platform’s documented transaction reporting fits your operations, not to manufacture certainty about what you will owe. If your intended price depends on an unclear tax treatment, pause and obtain qualified advice before publishing the offer. A small unresolved assumption can affect margin planning and recordkeeping across multiple transactions."
+      ]
+    },
+    {
+      "heading": "Consider audience and offer differences",
+      "paragraphs": [
+        "The relevant questions may differ with the locations of customers, the type of offer and the way a creator conducts business. A platform may describe a general process but leave specific cases outside its public explanation. Note the intended markets and offer types in your evaluation so an adviser can respond to your actual situation rather than a generic description.",
+        "Do not assume that a platform’s general statement applies identically to every transaction or jurisdiction. Where documentation is broad, ask whether the platform can explain how it applies to the specific creator account and offer you plan to use. Keep that answer separate from professional advice about your own reporting and compliance."
+      ]
+    },
+    {
+      "heading": "Build a records workflow before publishing",
+      "paragraphs": [
+        "Reliable records make it easier to understand platform statements, compare periods and answer questions later. Decide how you will retain platform transaction records, payout statements, relevant terms and correspondence. Use consistent filenames or folders that include the platform, document type and covered period. Protect access to those records, particularly when business information is stored on a shared device or workspace.",
+        "Check whether you can retrieve historical records and in what format before you rely on a dashboard as your sole source. If records are incomplete or difficult to reconcile, ask what exports or statements are available and plan a method to capture what you need. A recordkeeping workflow does not determine tax treatment, but it gives you better material to review with a qualified professional."
+      ],
+      "bullets": [
+        "Retain platform terms and relevant documentation with dates.",
+        "Keep transaction and payout records in an organized, access-controlled location.",
+        "Note unresolved questions and the person or source responsible for confirming them.",
+        "Review the workflow when platform terms or your business setup changes."
+      ]
+    },
+    {
+      "heading": "Ask focused questions and avoid false certainty",
+      "paragraphs": [
+        "When a platform’s explanation is incomplete, ask a narrow operational question: which record shows the customer transaction, what the record’s fields mean, or where the platform describes its role. When the question concerns your legal or tax obligations, consult a qualified professional familiar with the places and activities relevant to your business. Platform support can clarify platform documentation, but it may not provide individualized advice.",
+        "Use an explicit decision rule: do not set a business process around an assumption you cannot verify. Record what is confirmed, what is uncertain and what evidence would resolve the uncertainty. This keeps a platform comparison useful without overstating what its features or paperwork can establish."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a platform displays tax during checkout, does that settle my responsibilities?",
+      "answer": "No. A checkout display describes a customer-facing part of a transaction, but it does not by itself answer every responsibility that may apply to a creator. Check the platform’s written terms and obtain qualified advice for your circumstances."
+    },
+    {
+      "question": "What should I compare between creator platforms?",
+      "answer": "Compare the written explanation of transaction handling, the fields available in statements, access to historical records and the clarity of the platform’s stated role. Also note unanswered questions so you can resolve them before relying on a particular workflow."
+    },
+    {
+      "question": "Can platform support provide tax advice?",
+      "answer": "Support may be able to explain platform procedures and documents, but do not assume it provides individualized tax advice. For questions about your own obligations, consult a qualified professional."
+    }
+  ]
+};

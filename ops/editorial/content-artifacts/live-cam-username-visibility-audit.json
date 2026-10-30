@@ -1,0 +1,120 @@
+{
+  "backlogId": "live-cam-username-visibility-audit",
+  "slug": "live-cam-username-visibility-audit",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Platforms: Check Username and Profile Visibility Before Chatting",
+  "description": "Compare live cam platforms by checking where your username, profile details and activity may appear before you participate.",
+  "excerpt": "A handle can be visible in more places than a chat box. Use this checklist to map what other users, performers and the public may see before choosing a live cam platform.",
+  "keyTakeaways": [
+    "Check visibility in public rooms, private interactions, profile pages and platform search separately.",
+    "Do not assume a display name hides account details or that a profile is invisible when you are not actively chatting.",
+    "Look for controls that let you edit, restrict or remove profile information, and learn where those controls apply.",
+    "Consider whether a handle reused elsewhere could connect your platform activity to another identity.",
+    "Record unanswered visibility questions and resolve them before sharing identifying details."
+  ],
+  "sections": [
+    {
+      "heading": "Map the places your identity may appear",
+      "paragraphs": [
+        "Before joining a live cam platform, make a simple map of the surfaces where an account name or profile could be displayed. Consider public room chat, room participant lists, private interaction interfaces, profile pages, comments, messages and search results. A name shown only to other signed-in users creates a different exposure than one visible on a public profile page.",
+        "Read the platform’s help pages and privacy information for descriptions of profile visibility. Then inspect any available settings before participating. The purpose is not to assume that every surface exposes the same information; it is to find out which surfaces are described, which settings control them and which questions remain unanswered."
+      ],
+      "bullets": [
+        "List every place where you expect to interact or appear.",
+        "For each place, note whether the account name, avatar, biography or activity status is shown.",
+        "Separate information visible to other users from account information visible only in settings."
+      ]
+    },
+    {
+      "heading": "Treat a display name as a public label",
+      "paragraphs": [
+        "A display name is useful for choosing how you present yourself, but it should not be treated as a privacy guarantee. A distinctive handle may be searchable elsewhere or associated with accounts on other services. Reusing a personal username, familiar nickname or recognizable profile image can make separate online identities easier to connect.",
+        "If separation matters, choose a handle and avatar that do not reveal your name, workplace, personal social account or other identifying clues. Avoid putting contact information or links to personal profiles in a biography. Review the finished profile as a stranger might see it, rather than relying on what you remember entering."
+      ],
+      "bullets": [
+        "Use a distinct handle if you want separation from other accounts.",
+        "Check profile images and biography text for identifying clues.",
+        "Avoid assuming that changing a handle automatically removes earlier references to it."
+      ]
+    },
+    {
+      "heading": "Compare visibility settings by function",
+      "paragraphs": [
+        "Settings may govern different things: profile discovery, presence indicators, messages, notifications or visibility within a room. A control that hides a profile from one search surface may not change what appears to people in an active chat. Check the wording and scope of each setting, and avoid interpreting a broad label such as “private” as a promise about every part of the service.",
+        "Where the platform documents a setting, note whether it applies immediately, whether other users can still access previously shared information, and whether it affects public and private interactions alike. If the documentation is unclear, treat the setting as unverified rather than assuming the most protective interpretation."
+      ],
+      "table": {
+        "caption": "A practical visibility map to complete for each platform",
+        "headers": [
+          "Surface",
+          "What to check",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Public room",
+            "Whether a handle, avatar or message is visible to room participants",
+            "Help text or setting description"
+          ],
+          [
+            "Profile page",
+            "Which profile fields are shown and who can view them",
+            "Profile preview and visibility controls"
+          ],
+          [
+            "Private interaction",
+            "Whether the same display name or profile details appear",
+            "Interaction instructions or account settings"
+          ],
+          [
+            "Search and discovery",
+            "Whether users can find the account by name or profile details",
+            "Search controls and privacy documentation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check profile edits, removal and account exit",
+      "paragraphs": [
+        "A privacy review should include what happens after a profile detail changes. Check whether you can edit or remove a handle, avatar, biography and links, and whether the platform explains when updates take effect. Some information may remain in messages, records or other users’ recollections even if a profile field is later removed, so avoid publishing details you would not want retained or copied.",
+        "Also find the account closure or deletion information before relying on it. Look for an explanation of what is removed, what may be retained, and whether the process differs from temporarily disabling an account. These are separate questions from ordinary profile visibility and should be evaluated on their own."
+      ]
+    },
+    {
+      "heading": "Use a low-disclosure first-use check",
+      "paragraphs": [
+        "If you decide to try a platform, begin with the minimum profile information needed for the intended use. Review the account name and profile from the available preview or public-facing view before joining conversations. Keep private contact details, personal social links and identifying photographs out of the profile unless you have a deliberate reason to share them.",
+        "Revisit the settings after any platform change that affects your profile or interaction options. Keep a short note of the setting names and any important limitations described in the platform’s own documentation. This gives you a more reliable basis for comparing services than relying on a single “privacy” label or a remembered setup."
+      ],
+      "bullets": [
+        "Complete the profile with minimal information.",
+        "Review the public-facing profile before participating.",
+        "Save or note the platform’s documented visibility and account-removal instructions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a display name keep my identity private?",
+      "answer": "Not by itself. A display name can reduce direct exposure of your legal name, but a reused handle, recognizable image, profile text or linked account may connect identities. Check each surface where your profile or activity can appear."
+    },
+    {
+      "question": "Should I assume a private profile is invisible to everyone?",
+      "answer": "No. “Private” may describe a particular setting or audience, not every place where an account name or activity appears. Read the platform’s explanation and check public rooms, profiles, search and interaction screens separately."
+    },
+    {
+      "question": "What should I do if the visibility information is unclear?",
+      "answer": "Avoid adding identifying details until you can confirm the setting’s scope. Review the help and privacy information, ask the platform’s support channel if appropriate, and treat undocumented behavior as uncertain rather than as a guarantee."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
