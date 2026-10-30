@@ -1,0 +1,152 @@
+{
+  "backlogId": "creator-platform-fan-data-access-and-export-audit",
+  "slug": "creator-platform-fan-data-access-and-export-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Fan Data Access and Export Before Building a Business",
+  "description": "Assess what fan information a creator platform exposes, lets you export, and permits you to retain so your customer workflow does not depend on assumptions.",
+  "excerpt": "Creator tools can make it easy to communicate with supporters, but the available audience data and export options may shape your operations. Use this checklist to understand access, limits, and responsible handling before you build workflows around that data.",
+  "keyTakeaways": [
+    "Distinguish information visible in a dashboard from data you are allowed to download or retain.",
+    "Check which fields are available, how far back reports reach, and whether exports are practical to use.",
+    "Read platform terms and privacy guidance before using fan data outside the service.",
+    "Limit staff access to the information they need for their assigned tasks.",
+    "Plan for platform access changes without treating an export as permission to reuse every record."
+  ],
+  "sections": [
+    {
+      "heading": "Separate visibility from portability",
+      "paragraphs": [
+        "A dashboard may show a creator selected information about supporters without providing a downloadable record. A visible name, membership status, or interaction summary is not automatically available in an export, nor does dashboard access by itself establish permission to copy the information into another system. Treat visibility, export capability, and permitted use as three separate questions.",
+        "This distinction matters when planning supporter communication, bookkeeping, customer support, or an eventual move to another service. A workflow that assumes data can be taken elsewhere may fail if exports are limited or terms restrict reuse. Before you rely on a field, identify where it appears, whether you can retrieve it in a usable form, and what the platform says you may do with it."
+      ],
+      "bullets": [
+        "List the information your operation genuinely needs.",
+        "Mark each field as visible, exportable, or not confirmed.",
+        "Check whether the platform’s rules limit storage or use outside the service."
+      ]
+    },
+    {
+      "heading": "Inventory the data and its operational purpose",
+      "paragraphs": [
+        "Begin with a purpose-based inventory rather than collecting every available field. A creator may need transaction records for reconciliation, a membership status for access support, or an interaction record to answer a fan’s question. Each purpose should have a clear reason and a responsible person. If a field does not support a defined task, avoid building a process around it just because it is present.",
+        "Be especially careful with sensitive or identifying information. Do not assume a creator needs access to payment credentials or private details held by the platform. The platform may intentionally keep some information unavailable to creators. Your comparison should focus on the information needed for legitimate operations, not on seeking broader access without a business reason."
+      ],
+      "table": {
+        "caption": "Use a data inventory to separate operational needs",
+        "headers": [
+          "Data category",
+          "Possible operational purpose",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Membership status",
+            "Answer access questions",
+            "Whether current status is visible or reportable"
+          ],
+          [
+            "Transaction summary",
+            "Reconcile business records",
+            "Available date range and export format"
+          ],
+          [
+            "Support conversation",
+            "Resolve a specific service issue",
+            "Access permissions and retention rules"
+          ],
+          [
+            "Aggregate engagement",
+            "Understand broad audience activity",
+            "Definition, time period, and download options"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test exports before making them part of a workflow",
+      "paragraphs": [
+        "If the platform offers exports, inspect a small sample before designing a recurring process. Check whether column names are understandable, dates are consistent, and records can be matched to the task at hand. An export that exists but omits key fields or uses unclear labels may not support reconciliation or customer support reliably.",
+        "Find out whether exports are available to the account role you expect to use, whether they include historical data, and whether they can be generated without a support request. Save a test file securely and confirm that it contains only the information you expected. Do not send sensitive files through casual channels or keep duplicate copies indefinitely."
+      ],
+      "bullets": [
+        "Check the file type and whether the data can be opened with tools you already use.",
+        "Confirm the date range and any limits described in the interface or help documentation.",
+        "Record when the test was performed and what it did not include."
+      ]
+    },
+    {
+      "heading": "Read the rules before moving information elsewhere",
+      "paragraphs": [
+        "An export feature is not a blanket authorization to reuse the information for any purpose. Review the platform’s terms and privacy guidance for restrictions on marketing, contacting supporters outside the service, retention, or onward sharing. If those rules are ambiguous, seek clarification rather than treating technical access as permission.",
+        "Consider what supporters were told when they provided information and what expectations your communication creates. Do not repurpose data for a new channel or unrelated activity without checking the relevant terms and obligations. This guide is operational decision support, not legal advice; requirements can depend on location, data type, and how your business operates."
+      ]
+    },
+    {
+      "heading": "Build access and retention controls into the process",
+      "paragraphs": [
+        "Limit access to fan information by role. Someone handling account questions may need a different view from someone preparing financial records. Use individual accounts and platform permissions where available, and remove access when a person no longer needs it. Avoid shared credentials and avoid storing exported data in a location that many people can access without a clear reason.",
+        "Set a retention rule for any local copy. Keep records only as long as a defined operational need or applicable requirement calls for them, and dispose of outdated copies using a method suited to the storage system. A written routine reduces accidental spread across downloads folders, email attachments, and team drives. It also helps you explain internally what information is held and why."
+      ]
+    },
+    {
+      "heading": "Plan for change without overpromising portability",
+      "paragraphs": [
+        "Platform policies, account access, and export tools can change. Keep an internal note of which workflows rely on platform-only data and what you would do if those fields became unavailable. That may mean changing support procedures, saving permitted business records, or asking the platform about a specific export need. Do not promise supporters that you can transfer their records unless you have verified both technical capability and permission.",
+        "Review the inventory periodically and whenever you introduce a new tool, staff role, or communication channel. Remove unnecessary copies and update access as the operation changes. A realistic continuity plan recognizes that some information may remain controlled by the platform and that an export may not recreate a complete audience relationship."
+      ],
+      "table": {
+        "caption": "Pre-launch audit for fan-data workflows",
+        "headers": [
+          "Audit item",
+          "Evidence to keep",
+          "Decision"
+        ],
+        "rows": [
+          [
+            "Field has a defined purpose",
+            "Short workflow note",
+            "Use, revise, or omit"
+          ],
+          [
+            "Export capability tested",
+            "Sample file and test date",
+            "Reliable, limited, or unavailable"
+          ],
+          [
+            "Use outside the platform reviewed",
+            "Relevant terms or written clarification",
+            "Proceed only within confirmed limits"
+          ],
+          [
+            "Retention and access assigned",
+            "Role and deletion procedure",
+            "Apply before regular collection"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I can see supporter information in a dashboard, can I copy it into my own database?",
+      "answer": "Do not assume that visibility means unrestricted copying or reuse. Check the platform’s terms, privacy guidance, export options, and any applicable obligations. Use only information needed for a defined purpose and stay within confirmed permissions."
+    },
+    {
+      "question": "What should I test in a platform export?",
+      "answer": "Check the fields included, date range, file format, clarity of labels, and whether the data supports the workflow you intend to use. Confirm the export contains only expected information and store any sample securely."
+    },
+    {
+      "question": "Does an export guarantee I can move my audience to another service?",
+      "answer": "No. A file may be incomplete, technically difficult to use, or restricted in how it can be used. Verify both the practical contents and the platform’s rules before planning a transition around exported information."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
