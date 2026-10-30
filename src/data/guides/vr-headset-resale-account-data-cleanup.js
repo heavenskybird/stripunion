@@ -1,0 +1,108 @@
+export default {
+  "slug": "vr-headset-resale-account-data-cleanup",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Selling a VR Headset? Remove Adult Platform Access and Local Data",
+  "description": "Prepare a VR headset for resale or handoff by checking signed-in accounts, adult platform sessions, downloads, browser data, and device reset steps.",
+  "excerpt": "A headset handoff can leave account sessions, saved credentials, browser traces, and downloaded files behind. Use this orderly checklist to separate platform sign-out from device cleanup before resale or transfer.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Sign out of platform accounts and inspect headset-level accounts separately before handing over a device.",
+    "Check local downloads, browser data, cached content, and saved credentials rather than assuming a reset handled each item.",
+    "Follow the headset manufacturer's current reset instructions and verify the device returns to its setup state.",
+    "Confirm account recovery options before removing device access, so you do not lock yourself out of an account you are keeping.",
+    "Treat device cleanup, platform account closure, and purchase ownership as different tasks."
+  ],
+  "sections": [
+    {
+      "heading": "Separate headset cleanup from platform account management",
+      "paragraphs": [
+        "A VR headset may contain several layers of access: a device account, browser sessions, installed apps, saved credentials, and accounts for individual content services. Removing one layer does not necessarily sign out of every other one. Before resale or a handoff, make an inventory of the services used on the headset and distinguish accounts you intend to keep from accounts you plan to close.",
+        "Start with the account consequences. Confirm that you can still sign in to any service you plan to keep from another device, and check that its recovery email or authentication method remains available. Device removal, password changes, and account closure can have different effects. Do not close a service account simply because you are selling the headset unless that is your intention; conversely, do not assume removing a headset automatically removes a service's records."
+      ],
+      "bullets": [
+        "List device accounts, browsers, content apps, and any external media players used.",
+        "Confirm access to recovery methods for accounts you are keeping.",
+        "Decide which accounts should remain active and which, if any, should be closed."
+      ]
+    },
+    {
+      "heading": "Check local files, browser sessions, and saved access",
+      "paragraphs": [
+        "Review the headset for downloaded media, saved browser pages, history, cookies, cached data, and account credentials. The exact menu names and storage locations depend on the device and software version, so use the manufacturer's current instructions rather than guessing. A file manager, browser privacy menu, or app settings may expose separate cleanup options. Pay attention to removable or connected storage as well as internal storage.",
+        "Also check for accounts that remain signed in inside a browser or application. A browser sign-out does not necessarily sign an app out, and clearing browsing data may not remove downloaded files. If the headset has paired devices or a companion application, review those connections separately. Remove only the items you intend to erase and keep any personal data you need before beginning a reset."
+      ],
+      "table": {
+        "caption": "Headset handoff cleanup checklist",
+        "headers": [
+          "Area",
+          "What to inspect",
+          "Completion check"
+        ],
+        "rows": [
+          [
+            "Platform accounts",
+            "Signed-in sessions and device authorizations",
+            "Accounts show signed out or the headset is removed where supported."
+          ],
+          [
+            "Browser",
+            "History, cookies, saved logins, and open sessions",
+            "Browser data is cleared using the device's documented controls."
+          ],
+          [
+            "Local storage",
+            "Downloads, saved media, and removable storage",
+            "Personal files are removed or storage is handled separately."
+          ],
+          [
+            "Applications",
+            "Sign-in state and locally stored account data",
+            "Relevant apps are signed out or removed as intended."
+          ],
+          [
+            "Device reset",
+            "Manufacturer's reset procedure and post-reset state",
+            "The headset returns to the expected initial setup screen."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect account access before unlinking the headset",
+      "paragraphs": [
+        "If the headset is your only signed-in device, verify account recovery before signing out or resetting it. Check that the email address, password manager, or other recovery method is accessible outside the headset. If a service uses a device-based sign-in or authentication prompt, learn how you will complete the next login before removing the device. This avoids turning a privacy cleanup into an account-recovery problem.",
+        "Where a service offers a list of active sessions or linked devices, review it and remove the headset if the control is available. Do not assume that a local reset revokes all remote sessions. Likewise, do not assume that a password change erases local downloads. Use the service's own account controls for remote access and the device's documented controls for local data."
+      ]
+    },
+    {
+      "heading": "Use the device maker's reset process carefully",
+      "paragraphs": [
+        "A factory reset is often the final device-preparation step, but follow the current instructions for the specific headset and software version. Read what the reset removes and whether it affects connected accounts, downloaded data, or device configuration. Back up anything you need first. If the headset is unresponsive or will not open its settings, use the official support instructions for recovery or reset instead of an unverified workaround.",
+        "After the reset, check that the headset displays the expected first-use setup flow and no longer opens your previous profile. Do not sign back into personal accounts just to confirm that they are gone; that would create a new session. If the device prompts you to activate or link an account during handoff, pause and ensure the new owner can complete setup using their own credentials."
+      ]
+    },
+    {
+      "heading": "Keep ownership and purchase records separate",
+      "paragraphs": [
+        "Selling hardware does not necessarily transfer access to content purchases or platform subscriptions. Check the applicable service terms and account settings before promising that a buyer will receive a library, membership, or saved content. A digital purchase may be tied to an account rather than the physical headset. Keep personal purchase records securely if you may need them later, but avoid leaving receipts or account information on the device.",
+        "For a handoff, communicate the device's condition and explain that the new owner should set it up with their own account. Do not give out your password, recovery codes, or authentication device as a shortcut. Once the device is reset, remove any related device authorization you can manage through the account service, then retain a short checklist of what you completed for your own records."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a factory reset remove every adult platform account session?",
+      "answer": "Do not assume so. A reset may clear device-local information, while a service may also maintain remote sessions or linked-device records. Check the headset maker's instructions and each platform's account controls."
+    },
+    {
+      "question": "Should I delete my platform account when selling a headset?",
+      "answer": "Not unless you want to close that account. You can often treat device removal, signing out, and account closure as separate decisions. Review the service's controls and confirm recovery access before changing anything."
+    },
+    {
+      "question": "What should I do with downloads on removable storage?",
+      "answer": "Inspect and handle removable storage separately from the headset reset. Keep or erase files according to your needs, and do not leave personal storage media with the device unless you intend to transfer it."
+    }
+  ]
+};

@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T19:36:54.774Z",
+  "generatedAt": "2026-10-30T20:48:56.215Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-return-policy-preflight.json",
-    "ops/editorial/content-artifacts/vr-platform-official-access-verification.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-mobile-deep-link-readiness.json",
-    "ops/editorial/content-artifacts/adult-platform-username-compartmentalization-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-moderation-enforcement-readiness.json"
+    "ops/editorial/content-artifacts/live-cam-billing-privacy-preflight.json",
+    "ops/editorial/content-artifacts/premium-video-playback-quality-preflight.json",
+    "ops/editorial/content-artifacts/adult-dating-location-privacy-controls-audit.json",
+    "ops/editorial/content-artifacts/vr-headset-resale-account-data-cleanup.json",
+    "ops/editorial/content-artifacts/adult-anime-publisher-credit-verification.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-return-policy-preflight.js",
-    "src/data/guides/vr-platform-official-access-verification.js",
-    "src/data/guides/webmaster-affiliate-mobile-deep-link-readiness.js",
-    "src/data/guides/adult-platform-username-compartmentalization-audit.js",
-    "src/data/guides/creator-platform-moderation-enforcement-readiness.js"
+    "src/data/guides/live-cam-billing-privacy-preflight.js",
+    "src/data/guides/premium-video-playback-quality-preflight.js",
+    "src/data/guides/adult-dating-location-privacy-controls-audit.js",
+    "src/data/guides/vr-headset-resale-account-data-cleanup.js",
+    "src/data/guides/adult-anime-publisher-credit-verification.js"
   ],
   "categories": [
-    "adult-shops",
+    "live-cams",
+    "premium-videos",
+    "dating-hookups",
     "vr-ar",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "creator-platforms"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-shop-return-policy-preflight",
-    "vr-platform-official-access-verification",
-    "webmaster-affiliate-mobile-deep-link-readiness",
-    "adult-platform-username-compartmentalization-audit",
-    "creator-platform-moderation-enforcement-readiness"
+    "live-cam-billing-privacy-preflight",
+    "premium-video-playback-quality-preflight",
+    "adult-dating-location-privacy-controls-audit",
+    "vr-headset-resale-account-data-cleanup",
+    "adult-anime-publisher-credit-verification"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41116342086",
-  "phase": "closed"
+  "r1CycleId": "41125937523"
 }
