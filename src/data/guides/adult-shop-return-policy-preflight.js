@@ -1,0 +1,121 @@
+export default {
+  "slug": "adult-shop-return-policy-preflight",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare Return Policies Before You Buy",
+  "description": "A practical checklist for comparing adult-shop return policies, including hygiene seals, product condition, return shipping, refunds and documentation.",
+  "excerpt": "Return terms can depend on product type, packaging condition and the reason for a return. Use this checklist to understand the policy before ordering and to keep useful records if an issue arises.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Check the policy for each product category; a store may treat unopened, opened, defective and incorrectly supplied items differently.",
+    "Find out whether a hygiene seal or original packaging affects eligibility, and do not assume that a general returns page covers every item.",
+    "Distinguish a change-of-mind return from a defect, damage or fulfillment error; the steps and remedies may differ.",
+    "Confirm who pays return shipping, how a return is authorized, and how the refund is issued before sending anything back.",
+    "Save the listing, order confirmation, policy text and support messages so you can refer to the terms that applied when you ordered."
+  ],
+  "sections": [
+    {
+      "heading": "Read the policy that applies to the specific item",
+      "paragraphs": [
+        "A retailer’s general returns page is a starting point, not necessarily the complete rule for every item. Products may be divided into categories, and the conditions can differ by category or by the reason for the request. Look for the policy linked from the product page, checkout, help center and terms. If the sources appear inconsistent, ask the retailer which rule applies before placing the order.",
+        "Pay attention to the policy’s definitions. Terms such as “unopened,” “unused,” “sealed,” “hygiene item,” “defective” and “incorrect item” may have a specific meaning in the retailer’s process. Do not infer that a product can be returned simply because its outer shipping box is intact, or that opening a package automatically removes every remedy. The policy and applicable local consumer rules matter."
+      ],
+      "bullets": [
+        "Identify the item category and any product-specific return note.",
+        "Check whether the policy distinguishes change-of-mind requests from faults, damage or fulfillment mistakes.",
+        "Look for stated exceptions, deadlines and required approval steps.",
+        "If wording is unclear, ask a specific question and keep the reply."
+      ]
+    },
+    {
+      "heading": "Understand packaging, seals and product condition",
+      "paragraphs": [
+        "For some personal products, a hygiene seal or sealed inner packaging may be central to the return conditions. Before opening anything, inspect the outer parcel and the product packaging for damage, missing parts or an item that does not match the order. If you need to document a problem, take clear photographs before altering the packaging. Keep the product, accessories and packaging together while you contact support.",
+        "A return policy may define the condition required for a change-of-mind return differently from the process for a faulty or wrongly supplied item. Read the relevant section rather than applying one rule to every situation. If you discover a problem after opening a package, describe what happened accurately and ask what evidence or next step the retailer requires. Do not discard packaging or send a product back without checking the retailer’s instructions."
+      ],
+      "table": {
+        "caption": "Questions to resolve before opening or returning an item",
+        "headers": [
+          "Policy detail",
+          "What to check"
+        ],
+        "rows": [
+          [
+            "Seal or packaging condition",
+            "Which seal matters, and how does the policy define unopened or unused?"
+          ],
+          [
+            "Fault or damage",
+            "How should the issue be reported, and what evidence is requested?"
+          ],
+          [
+            "Wrong item or missing part",
+            "What should remain untouched while support reviews the order?"
+          ],
+          [
+            "Return authorization",
+            "Is approval or a reference number required before dispatch?"
+          ],
+          [
+            "Return route",
+            "Which address, carrier or label instructions apply?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare the practical cost and steps of a return",
+      "paragraphs": [
+        "Eligibility is only one part of a useful policy comparison. Find out whether the customer or retailer pays return postage, whether the retailer supplies a label, and whether any original delivery charge is treated differently. Confirm whether a return must use a particular carrier or service. These details affect the effort and possible cost of resolving an order, even when the item is eligible.",
+        "Check the process timeline in the policy, but do not treat an estimate as a guaranteed completion date. A retailer may need to receive and inspect a return before processing it. The method of refund can also differ: the policy may describe a refund to the original payment method, store credit or another remedy depending on the situation. If your preferred resolution matters, clarify what is available before buying."
+      ],
+      "bullets": [
+        "Note the request deadline and whether it begins at purchase, dispatch or delivery.",
+        "Check whether a return label is provided and who pays postage.",
+        "Confirm how the retailer says it will handle refunds, exchanges or store credit.",
+        "Keep proof of dispatch and tracking details if you send an item back."
+      ]
+    },
+    {
+      "heading": "Assess support and communication before ordering",
+      "paragraphs": [
+        "For an issue after delivery, keep communication factual: state what was ordered, what arrived, when the issue was noticed and what outcome you are requesting. Attach only useful evidence, such as a photograph of visible damage or an image showing a mismatch with the listing. Avoid sending unnecessary intimate or identifying material. If the retailer asks you to return the item, request the address and instructions directly through its support process."
+      ]
+    },
+    {
+      "heading": "Build a simple pre-purchase return comparison",
+      "paragraphs": [
+        "When comparing shops, use the same questions for each item rather than relying on a vague impression that one policy is more generous. Record what the policy says and where you found it. A short comparison is especially useful when shopping across several product categories, because a store-wide headline can hide category-specific exclusions or different procedures.",
+        "A practical decision is not always to select the policy with the most convenient wording. Consider whether the return conditions are understandable, whether support can explain unclear points, and whether the stated process fits your circumstances. If a policy leaves a material question unanswered, resolve it before checkout or choose an item and retailer whose terms you can confidently interpret."
+      ],
+      "bullets": [
+        "Product and category covered by the policy",
+        "Deadline and condition requirements",
+        "Treatment of seals and original packaging",
+        "Who pays return shipping",
+        "Authorization, label and dispatch instructions",
+        "Available remedy and stated processing steps",
+        "Date policy was checked and any written support clarification"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can an adult-shop item be returned if the package has been opened?",
+      "answer": "It depends on the item, the reason for the return, the retailer’s written terms and applicable local rules. A policy may treat a change-of-mind request differently from a faulty or incorrectly supplied item. Check the product-specific wording and contact the retailer before sending anything back."
+    },
+    {
+      "question": "Should I open the item to check it before deciding whether to keep it?",
+      "answer": "First inspect the outside for visible damage or an order mismatch, and read the return conditions for the item. If a seal or packaging condition affects eligibility, opening it may matter. When uncertain, ask the retailer what inspection is allowed and document any issue before changing the packaging."
+    },
+    {
+      "question": "Who normally pays for return shipping?",
+      "answer": "There is no universal rule across retailers and situations. The policy may specify different arrangements for change-of-mind returns, faults or fulfillment errors. Check the relevant section and confirm whether you need a label, authorization or a particular carrier."
+    },
+    {
+      "question": "What should I keep if I need to request a return?",
+      "answer": "Keep the order confirmation, product listing, policy text, packaging, support messages and any useful photographs. If you dispatch a return, retain the receipt and tracking information. Share only the information needed to resolve the order."
+    }
+  ]
+};

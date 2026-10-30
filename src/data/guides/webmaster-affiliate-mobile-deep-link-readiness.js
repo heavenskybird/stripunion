@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-mobile-deep-link-readiness",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Links in Mobile Apps: Check Deep-Link Rules Before Launch",
+  "description": "A webmaster checklist for evaluating affiliate deep links, app handoffs, attribution visibility and fallback behavior before adding links to a mobile app.",
+  "excerpt": "A referral link that works in a browser may behave differently inside a mobile app or after an app handoff. Map the journey, verify program rules and test fallbacks before sending visitors through a new route.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Confirm in writing whether the program allows links inside your app and whether app traffic requires separate approval or tracking setup.",
+    "Map every handoff from the app tap through any browser, store or advertiser app before assuming a referral will remain attributable.",
+    "Test links on supported device and operating-system combinations without treating one successful run as proof of universal behavior.",
+    "Provide a useful browser fallback when a destination app is unavailable, while preserving the program’s permitted tracking route.",
+    "Record test conditions, link versions and program guidance so changes to app behavior or terms can be investigated later."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm app traffic is permitted",
+      "paragraphs": [
+        "A webmaster may already have an approved website and still need to verify whether an affiliate program permits traffic from a mobile application. Program rules can define eligible properties, promotion methods, redirects, app placements and required disclosures separately. Do not assume that an existing website approval automatically covers an app, an in-app browser or a link placed in a user-generated area. Review the current agreement and ask the program contact for clarification where the wording is not explicit.",
+        "Explain the proposed placement accurately when you request approval: identify the app, the screens where links appear, the type of audience interaction and whether a link opens an external browser or another app. Ask whether the program requires a distinct tracking link, app identifier, approved domain or other setup. Keep the reply with the relevant terms. If a program prohibits a particular placement, do not try to disguise it through a redirect or alternate link format."
+      ],
+      "bullets": [
+        "Check whether app inventory must be registered separately.",
+        "Ask whether in-app browsers, push messages or user-submitted placements have distinct rules.",
+        "Confirm the required disclosure format and where it must appear.",
+        "Record the date and source of program guidance."
+      ]
+    },
+    {
+      "heading": "Map the full mobile handoff",
+      "paragraphs": [
+        "A link tap can lead through several steps: the app’s own web view, the device browser, an advertiser page, a platform prompt or an installed destination app. Each handoff may change the visible address, interrupt the visitor or affect whether the referral identifier remains available. Draw the intended journey before implementation. For every transition, note which application handles it, what the visitor sees and where the link is expected to land.",
+        "Do not assume that a link working on a desktop proves it works on a phone. Mobile operating systems and app settings can influence which application opens a URL. A user may not have the destination app installed, may have disabled a relevant setting or may choose a different browser. Test a reasonable range of conditions and treat unknown behavior as an open question rather than promising a particular result."
+      ],
+      "table": {
+        "caption": "Mobile affiliate handoff test matrix",
+        "headers": [
+          "Test condition",
+          "What to observe"
+        ],
+        "rows": [
+          [
+            "Link opens inside the publisher app",
+            "Destination, disclosure visibility and whether the page is usable."
+          ],
+          [
+            "Link opens in the device browser",
+            "Address reached, loading behavior and referral parameters retained as permitted."
+          ],
+          [
+            "Destination app is installed",
+            "Whether the handoff is expected, clear and reversible."
+          ],
+          [
+            "Destination app is not installed",
+            "Whether the visitor receives a useful web destination or clear next step."
+          ],
+          [
+            "Visitor returns to publisher app",
+            "Whether the original screen and navigation remain understandable."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect attribution without overpromising",
+      "paragraphs": [
+        "Attribution tests have limits. A test can show whether a route opens and whether a tracking link is formed as expected; it may not verify downstream crediting or every device configuration. Use the program’s approved test procedures, avoid creating false transactions and do not use real customer data in a test. Label what was directly observed and what remains dependent on the program’s reporting or terms."
+      ]
+    },
+    {
+      "heading": "Design a helpful fallback and clear disclosures",
+      "paragraphs": [
+        "If a deep link cannot open its intended destination, the visitor should not be left at a blank screen or an unexplained error. Plan a fallback that directs to a relevant browser page or offers a clear way to continue, subject to the program’s rules. The fallback should preserve the visitor’s ability to understand where they are going, and it should not trigger an unexpected app installation or purchase flow. Test the fallback with the destination app absent and with the link opened in a browser.",
+        "Affiliate disclosures should remain visible in the mobile context. A disclosure on a desktop page may be absent from an app screen, hidden below a scroll boundary or separated from the recommendation by an app handoff. Place concise, understandable disclosure near the relevant recommendation and review the program’s requirements and applicable disclosure obligations. Make sure the disclosure remains readable on smaller screens and is not obscured by interface elements."
+      ],
+      "bullets": [
+        "Use clear link labels that describe the destination or next step.",
+        "Keep the disclosure close to the recommendation and visible before the tap.",
+        "Avoid auto-opening destinations or creating confusing loops.",
+        "Provide a browser route when an app-specific route cannot be completed."
+      ]
+    },
+    {
+      "heading": "Document tests and control changes",
+      "paragraphs": [
+        "Before launch, maintain a small test record: app version, device and operating-system details, link destination, placement, time and observed result. Record whether the app was installed, which browser handled the link and whether the visitor was returned to the publisher app. This makes it easier to distinguish a program-level change from an app release or device-specific behavior. Retain only operational data you need and follow your privacy and retention practices.",
+        "Treat changes to the affiliate terms, link generator, app routing or destination as reasons to review the integration. A previously tested link can behave differently after a redirect change, an app update or a revised program restriction. Keep a named owner for the link implementation, a way to disable a broken placement and a process for replacing links if the program changes its requirements. This is an operational safeguard, not a guarantee of attribution or uninterrupted destination access."
+      ],
+      "bullets": [
+        "Store a dated copy of relevant program instructions.",
+        "Keep a record of link versions and test cases.",
+        "Check links after app or destination changes.",
+        "Provide a way to pause or remove a placement if it violates terms or fails.",
+        "Review disclosure placement after interface changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does website approval automatically cover affiliate links in my app?",
+      "answer": "Not necessarily. Programs may distinguish between websites, mobile applications, in-app browsers and other placements. Check the current agreement and obtain clarification or approval for the specific app placement before launch."
+    },
+    {
+      "question": "Can I assume a deep link will preserve attribution?",
+      "answer": "No. A successful handoff does not establish how a program credits a later action. Follow the program’s documented mobile-link process and distinguish what your tests observe from what only program reporting can confirm."
+    },
+    {
+      "question": "What if the destination app is not installed?",
+      "answer": "Plan and test a useful browser fallback or other permitted next step. Make the destination clear, avoid forcing an install and verify that the fallback complies with the program’s terms."
+    },
+    {
+      "question": "Should I use real transactions to test an affiliate link?",
+      "answer": "Do not create test transactions unless the program explicitly authorizes a safe test method. Use documented testing procedures and avoid activity that could be treated as invalid traffic or a real commission event."
+    }
+  ]
+};

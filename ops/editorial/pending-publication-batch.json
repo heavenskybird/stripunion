@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T18:13:00.912Z",
+  "generatedAt": "2026-10-30T19:36:54.774Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-paid-membership-cancellation-audit.json",
-    "ops/editorial/content-artifacts/affiliate-recurring-commission-renewal-terms-audit.json",
-    "ops/editorial/content-artifacts/adult-anime-manga-reader-display-usability-audit.json",
-    "ops/editorial/content-artifacts/free-video-offline-download-terms-and-file-safety-check.json",
-    "ops/editorial/content-artifacts/adult-games-mod-support-and-user-content-safety-audit.json"
+    "ops/editorial/content-artifacts/adult-shop-return-policy-preflight.json",
+    "ops/editorial/content-artifacts/vr-platform-official-access-verification.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-mobile-deep-link-readiness.json",
+    "ops/editorial/content-artifacts/adult-platform-username-compartmentalization-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-moderation-enforcement-readiness.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-paid-membership-cancellation-audit.js",
-    "src/data/guides/affiliate-recurring-commission-renewal-terms-audit.js",
-    "src/data/guides/adult-anime-manga-reader-display-usability-audit.js",
-    "src/data/guides/free-video-offline-download-terms-and-file-safety-check.js",
-    "src/data/guides/adult-games-mod-support-and-user-content-safety-audit.js"
+    "src/data/guides/adult-shop-return-policy-preflight.js",
+    "src/data/guides/vr-platform-official-access-verification.js",
+    "src/data/guides/webmaster-affiliate-mobile-deep-link-readiness.js",
+    "src/data/guides/adult-platform-username-compartmentalization-audit.js",
+    "src/data/guides/creator-platform-moderation-enforcement-readiness.js"
   ],
   "categories": [
-    "dating-hookups",
+    "adult-shops",
+    "vr-ar",
     "webmaster-affiliate",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "privacy-safety-payment",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-dating-paid-membership-cancellation-audit",
-    "affiliate-recurring-commission-renewal-terms-audit",
-    "adult-anime-manga-reader-display-usability-audit",
-    "free-video-offline-download-terms-and-file-safety-check",
-    "adult-games-mod-support-and-user-content-safety-audit"
+    "adult-shop-return-policy-preflight",
+    "vr-platform-official-access-verification",
+    "webmaster-affiliate-mobile-deep-link-readiness",
+    "adult-platform-username-compartmentalization-audit",
+    "creator-platform-moderation-enforcement-readiness"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41104378857",
-  "phase": "closed"
+  "r1CycleId": "41116342086"
 }

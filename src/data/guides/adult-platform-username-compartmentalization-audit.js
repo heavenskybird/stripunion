@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-platform-username-compartmentalization-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Privacy: Choose a Username That Does Not Link Your Accounts",
+  "description": "A practical account-identity checklist for choosing adult-platform usernames, avoiding unnecessary cross-account links and reviewing where profile names may appear.",
+  "excerpt": "A username can connect accounts even when you use different email addresses. Check for reused handles, public profile surfaces and account-linking clues before choosing an identity for an adult platform.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "A reused handle can make separate accounts easier to associate through ordinary searches, even if their emails differ.",
+    "Choose a username that does not disclose your legal name, workplace, location or another identifying detail unless you intend that information to be public.",
+    "Before saving a profile name, check where it may appear in comments, messages, receipts, device interfaces or shared links.",
+    "Separate account identity from payment and legal onboarding details; a public-facing handle does not make the underlying account anonymous.",
+    "Review profile visibility and change options before publishing, and avoid placing identifying information in bios or custom fields."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what a username can reveal",
+      "paragraphs": [
+        "A username is often more than a sign-in label. It may appear on a profile, in comments, in messages, in shared URLs or in notifications. If you reuse a familiar handle across unrelated services, someone who sees it may be able to search for the same name elsewhere. That association can happen without access to your email address or payment details. Consider the username as a visible identifier, not as a private password.",
+        "A handle can also reveal information directly. A real name, birth year, neighborhood, employer reference or personal social-media name may narrow down who an account belongs to. Even a combination of seemingly ordinary details can be identifying when matched with other public information. Before choosing a name, decide what you are comfortable making visible and avoid adding details that are not necessary to use the service."
+      ],
+      "bullets": [
+        "Avoid reusing a handle that identifies you on personal or professional accounts.",
+        "Do not include a legal name, workplace, precise location or contact detail in a public name.",
+        "Check whether the name is visible before account creation is complete.",
+        "Treat profile names and bios as potentially searchable unless the platform explains otherwise."
+      ]
+    },
+    {
+      "heading": "Create separation between accounts",
+      "paragraphs": [
+        "If you want an adult-platform account to be less readily associated with your other online accounts, use a distinct handle that is not a variation of your usual one. Small changes—adding a digit, punctuation mark or abbreviated name—may still look connected. A separate, non-identifying name is usually more useful for compartmentalization than a lightly altered version of a familiar identity.",
+        "Account separation is not the same as anonymity. A platform may hold account, payment, device or verification information, and its policies determine how that information is handled. A different username can reduce casual cross-account matching, but it cannot prevent a service from connecting records within its own systems or guarantee that other identifying signals are absent. Use realistic expectations and review the platform’s privacy information before deciding what to share."
+      ],
+      "table": {
+        "caption": "Username choices and their possible privacy trade-offs",
+        "headers": [
+          "Choice",
+          "Potential exposure"
+        ],
+        "rows": [
+          [
+            "Reuse a personal social handle",
+            "Makes cross-account search and recognition easier."
+          ],
+          [
+            "Use a name based on workplace or location",
+            "May disclose identifying context directly."
+          ],
+          [
+            "Use a lightly modified familiar handle",
+            "Can still resemble the original account name."
+          ],
+          [
+            "Choose a distinct, non-identifying handle",
+            "Reduces obvious links but does not create anonymity."
+          ],
+          [
+            "Use different names on separate services",
+            "Can improve compartmentalization if profile details also differ."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect profile and interaction surfaces",
+      "paragraphs": [
+        "Before filling in a profile, check which fields are optional and where the service says each field appears. A display name may be public while an account email is not; a bio or avatar can still identify you by its content. Review the profile from a logged-out view if the platform provides one, or use its privacy controls to understand the difference between public and private fields. Do not assume that a setting labeled “private” hides every interaction or identifier.",
+        "Consider the ways an account name may travel beyond the profile. A copied link, notification preview or message can show the handle to a person who does not have access to the full account. If a profile has searchable comments or public activity, a chosen username may be associated with those contributions. Avoid posting identifying details in free-text fields and review whether profile visibility can be limited before participating."
+      ],
+      "bullets": [
+        "List the surfaces where the username may appear before choosing it.",
+        "Check profile, message, comment and notification visibility settings.",
+        "Avoid identifiable avatars, bios and custom fields if separation is the goal.",
+        "Review any shared or copied profile links before sending them."
+      ]
+    },
+    {
+      "heading": "Keep account identity separate from account security",
+      "paragraphs": [
+        "Also check whether signing in through another account links identities. A third-party sign-in may disclose or associate account information, depending on the service and the permissions requested. Review the sign-in prompt, linked-account settings and privacy notice before authorizing a connection. If you do not understand what is shared, pause and use a documented alternative rather than assuming that the accounts remain separate."
+      ]
+    },
+    {
+      "heading": "Review, change or retire a username carefully",
+      "paragraphs": [
+        "If you already have an account, inspect the public profile and search for your current handle while signed out, where appropriate. Look for information that could connect it to other accounts. If the platform lets you change the display name, check whether old names remain visible in profile history, shared links, messages or archived records. A username change may not remove copies or references already made by others.",
+        "If you decide to retire an account, review the platform’s account closure and data-retention terms. Changing a handle or deleting a profile does not necessarily remove past messages, screenshots, payment records or information retained under the platform’s policies. Avoid putting more identifying information into the account while you decide. Keep a record of any changes you make, and use the service’s official settings rather than third-party tools that request your credentials."
+      ],
+      "bullets": [
+        "Review public fields and searchability after a profile change.",
+        "Check whether old usernames remain in URLs or account history.",
+        "Understand what account closure does and does not remove.",
+        "Do not share credentials with services claiming to erase every trace."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate username make an adult-platform account anonymous?",
+      "answer": "No. It can reduce obvious links to other accounts, but the platform may hold account, payment, device or verification information. A distinct handle is one privacy measure, not a guarantee of anonymity."
+    },
+    {
+      "question": "Is changing one character in my usual username enough?",
+      "answer": "It may not be. A lightly modified handle can still look related or be found through a search. If account separation matters, choose a distinct name that does not reuse recognizable patterns or personal details."
+    },
+    {
+      "question": "Can I use a pseudonym if a platform asks for account information?",
+      "answer": "Check the platform’s rules and distinguish public display-name fields from information required for account, payment or verification purposes. Do not provide inaccurate information where the service requires accurate details, and do not assume a public pseudonym changes private records."
+    },
+    {
+      "question": "Will changing my username erase the old one?",
+      "answer": "Not necessarily. Old names may remain in messages, links, records or copies made by others, depending on the service. Check the platform’s explanation of name changes and review public surfaces after making a change."
+    }
+  ]
+};
