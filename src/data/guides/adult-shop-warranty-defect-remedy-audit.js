@@ -1,0 +1,111 @@
+export default {
+  "slug": "adult-shop-warranty-defect-remedy-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare Warranty and Defect Remedies Before Buying",
+  "description": "Learn how to compare retailer and manufacturer warranty terms, report a defect, preserve useful evidence, and understand available remedies before ordering from an adult shop.",
+  "excerpt": "A return window and a warranty are not necessarily the same thing. Use this guide to check who handles defects, what evidence may be requested, and which terms to save before you buy.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Separate a change-of-mind return policy from a warranty or defect process; they may have different deadlines and conditions.",
+    "Identify whether the retailer, manufacturer, or another seller is responsible for handling a product problem.",
+    "Check what documentation a claim may require and how the retailer says to submit it.",
+    "Save the product listing, order confirmation, warranty terms, and any support correspondence.",
+    "Compare the possible remedies and who pays return shipping instead of assuming every defect results in the same outcome."
+  ],
+  "sections": [
+    {
+      "heading": "Start by distinguishing returns from defect remedies",
+      "paragraphs": [
+        "A returns page commonly explains what happens when a customer changes their mind or orders an unsuitable item. A warranty or defect process addresses a different question: what happens if an item does not work as described or develops a problem covered by the applicable terms? A retailer may describe these routes on separate pages, and the conditions can differ. Read the relevant terms before buying rather than treating the word “return” as a complete description of every remedy.",
+        "Look for the time limits attached to each process, when those periods begin, and whether the terms distinguish unused products from products that have been opened or used. Do not assume that a short change-of-mind window defines every possible defect claim. Conversely, do not assume a product has a warranty simply because the listing looks detailed. If the wording is unclear, ask the retailer which policy applies to the specific item and keep the answer."
+      ],
+      "bullets": [
+        "Record the separate deadlines for returns, warranty claims, and reporting delivery damage.",
+        "Check whether the product page identifies a warranty provider or points to separate terms.",
+        "Do not rely on an informal summary when the written policy contains more detail."
+      ]
+    },
+    {
+      "heading": "Find out who handles a problem",
+      "paragraphs": [
+        "The seller shown on a product page may not be the only party involved in resolving a defect. A shop might handle the initial report, direct the customer to a manufacturer, or explain that another seller fulfills the order. The process can affect where a claim goes and what information must be supplied. Before checkout, identify the contracting seller and look for a clear contact route for product problems, not just general order questions.",
+        "If a retailer directs customers to a manufacturer, check whether the product listing or policy explains how to locate the manufacturer’s terms and submit a claim. If a marketplace or third-party seller is involved, verify which party receives the report and who arranges any inspection, replacement, or refund process. These are questions about the retailer’s stated procedure, not a guarantee that any particular outcome will be available."
+      ],
+      "table": {
+        "caption": "A practical map for identifying the parties in a defect process",
+        "headers": [
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Who sold the item?",
+            "The seller named at checkout and on the order record"
+          ],
+          [
+            "Who receives a defect report?",
+            "The retailer, manufacturer, or other contact identified in the policy"
+          ],
+          [
+            "Who arranges the next step?",
+            "The party responsible for instructions, inspection, or return authorization"
+          ],
+          [
+            "Where are the applicable terms?",
+            "The item listing, retailer policy, manufacturer terms, or linked claim form"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check claim requirements before you need them",
+      "paragraphs": [
+        "A defect process may ask for proof of purchase, a description of the issue, photographs, packaging details, or other information. Requirements vary, so use the shop’s written instructions rather than sending sensitive or unnecessary material through an unverified channel. Note whether the policy asks customers to contact support before mailing an item. Sending a product without the required authorization could complicate handling or make it harder to show that the item followed the stated process.",
+        "Consider whether the shop explains how to report a problem that appears immediately, one discovered after some use, or damage noticed on arrival. The point is not to predict whether a claim will be accepted; it is to understand the steps and preserve accurate records. If the policy says to stop using an item when a problem occurs, follow that instruction. Avoid attempting repairs or modifications before checking the policy, since those actions could affect how the shop assesses the issue."
+      ],
+      "bullets": [
+        "Save the order number and the version of the policy available when you place the order.",
+        "Use the retailer’s specified support channel and keep a copy of your message.",
+        "Ask what information is needed before sending photographs or returning a product.",
+        "Follow stated handling instructions; do not alter an item to try to establish a claim."
+      ]
+    },
+    {
+      "heading": "Compare remedies, shipping, and assessment steps",
+      "paragraphs": [
+        "Read what the written terms say may happen after a claim is reviewed. A process could describe repair, replacement, refund, store credit, or another resolution, but the available route may depend on the issue, the item, and the governing terms. Avoid treating a general statement such as “warranty included” as a promise of a particular remedy. Look for conditions, exclusions, assessment steps, and any explanation of how the retailer communicates its decision.",
+        "Check who pays for shipping if an item must be returned, whether the retailer provides instructions or a label, and whether the item may need to be inspected before a decision. If the policy does not say, ask before purchasing. Keep packaging until you have checked the stated requirements, but do not assume original packaging is always mandatory. Where consumer rights may apply independently of shop terms, consult an appropriate local source for guidance; this article does not determine legal rights."
+      ]
+    },
+    {
+      "heading": "Build a concise pre-purchase record",
+      "paragraphs": [
+        "A small evidence file makes it easier to compare shops and to find the terms later. Save a copy or screenshot of the product page, warranty wording, return policy, seller identity, and support contact details. Record when you accessed the information because policies can change. For a product where warranty coverage is a deciding factor, note the exact item or model reference so that a broad brand-level statement is not mistaken for a specific product promise.",
+        "Use a simple comparison rather than a vague impression of which shop seems more reassuring. Mark unclear fields as “not stated” and send a focused question to the retailer. Compare how easy it is to identify the responsible party, understand the claim route, and find potential remedies. A shop with clear limits can be easier to evaluate than one using reassuring language without explaining the process."
+      ],
+      "bullets": [
+        "Seller and fulfillment party identified",
+        "Warranty provider and applicable terms located",
+        "Claim deadline and evidence requirements noted",
+        "Return shipping and inspection steps explained or clarified",
+        "Support answer saved with the relevant product listing"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a warranty the same as a return policy?",
+      "answer": "Not necessarily. A return policy often describes returns for reasons such as a change of mind, while a warranty or defect procedure addresses problems covered by separate terms. Check both policies and their deadlines instead of assuming one replaces the other."
+    },
+    {
+      "question": "Should I contact the retailer before sending a product back?",
+      "answer": "Follow the shop’s stated process. If it requires an initial report or return authorization, use that route first. If the instructions are unclear, ask the retailer how to proceed and keep its response."
+    },
+    {
+      "question": "What should I save before placing an order?",
+      "answer": "Keep the product listing, seller identity, warranty and return terms, order confirmation, and any written response from support. These records help you locate the relevant procedure if you later need to ask about an issue."
+    }
+  ]
+};
