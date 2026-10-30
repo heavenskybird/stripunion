@@ -1,6 +1,6 @@
 {
   "version": 1,
   "purpose": "Supervisory failover trigger for Editorial producer scheduler",
-  "reason": "R1 guarded out-of-band wake 2026-10-30T05:02:46.885Z: isolated receipt cycle 41000186373 success attempts=1, admission=2026-10-30T03:57:31.165Z, finished=2026-10-30T04:03:25.561Z. Full 52-minute admission cooldown elapsed; last bot kick 2026-10-30T03:56:34.000Z exceeds 15-minute spacing. Fresh main Actions runs and all active-status queries show no active editorial writer. Request ONE fresh canonical Scheduler wake through trusted heartbeat bridge, no historical Producer rerun or main push. Do not count publication until five final HTTP 200 URLs, matching deployment fingerprint and ledger closure.",
-  "updated_at": "2026-10-30T05:02:46.885Z"
+  "reason": "R1 guarded out-of-band wake 2026-10-30T06:02:28.426Z: isolated receipt cycle 41006230283 success attempts=1, admission=2026-10-30T05:03:10.226Z, finished=2026-10-30T05:08:46.023Z. Full 52-minute cooldown elapsed at 2026-10-30T05:55:10.226Z; last bot kick 2026-10-30T05:02:46.885Z exceeds 15-minute spacing. Latest main Actions runs show no active Editorial writer; 05:42:29Z Scheduler skipped on admission backoff, now expired. Request ONE fresh canonical Scheduler wake via trusted bot-branch heartbeat bridge. No historical Producer rerun, no main push; publication requires five HTTP 200 URLs, matching deployment fingerprint and ledger closure.",
+  "updated_at": "2026-10-30T06:02:28.426Z"
 }
