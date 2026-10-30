@@ -1,0 +1,2630 @@
+{
+  "generatedAt": "2026-10-30T07:16:10.725Z",
+  "sourceDates": {
+    "gsc": "2026-10-28",
+    "gscBlog": "2026-10-28",
+    "ga4": "2026-10-29",
+    "clarity": "2026-10-30",
+    "bing": "2026-10-29",
+    "buffer": "2026-10-29",
+    "stripcash": "2026-10-29",
+    "attribution": "2026-10-29"
+  },
+  "sources": {
+    "gsc": true,
+    "gscBlog": true,
+    "ga4": true,
+    "clarity": true,
+    "bing": true,
+    "buffer": true,
+    "stripcash": true,
+    "attribution": true
+  },
+  "ga4Admin": {
+    "date": "2026-10-30",
+    "propertyId": "530171093",
+    "topology": "MAIN STREAM",
+    "unifiedFunnelCandidate": "G-K57BRX69X1",
+    "streams": [
+      {
+        "resourceName": "properties/530171093/dataStreams/14247320031",
+        "streamId": "14247320031",
+        "displayName": "StripUnion",
+        "defaultUri": "https://stripunion.com",
+        "measurementId": "G-K57BRX69X1",
+        "createTime": "2026-03-27T08:50:48.572Z",
+        "updateTime": "2026-03-27T08:50:48.572Z"
+      }
+    ]
+  },
+  "google": {
+    "blogUrlPrefix": {
+      "siteUrl": "https://blog.stripunion.com/",
+      "clicks": 0,
+      "impressions": 60,
+      "ctr": 0,
+      "note": "Independent Blog URL-prefix signal; do not add to main Domain property totals."
+    },
+    "clicks": 43,
+    "impressions": 2108,
+    "ctr": 0.020398481973434534,
+    "averagePosition": 16.19449715370019,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "clicks": 46,
+        "impressions": 2477
+      },
+      "blog": {
+        "clicks": 0,
+        "impressions": 265
+      },
+      "other": {
+        "clicks": 0,
+        "impressions": 0
+      }
+    },
+    "rankingOpportunities": [
+      {
+        "date": "2026-10-26",
+        "query": "stripchat app",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 14.944444444444445
+      },
+      {
+        "date": "2026-10-27",
+        "query": "are cam sites safe",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 18.857142857142858
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 11.642857142857142
+      },
+      {
+        "date": "2026-10-25",
+        "query": "stripchat app",
+        "clicks": 1,
+        "impressions": 12,
+        "ctr": 0.08333333333333333,
+        "position": 18.916666666666668
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat alternatives",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 9.1
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat app",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 10.4
+      },
+      {
+        "date": "2026-10-25",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 11.555555555555555
+      },
+      {
+        "date": "2026-10-27",
+        "query": "freelivecam",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 9.222222222222221
+      },
+      {
+        "date": "2026-10-26",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 14.25
+      },
+      {
+        "date": "2026-10-26",
+        "query": "stripchat alternatives",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 10.428571428571429
+      }
+    ],
+    "highImpressionWeakCtr": [
+      {
+        "date": "2026-10-26",
+        "query": "stripchat app",
+        "clicks": 0,
+        "impressions": 18,
+        "ctr": 0,
+        "position": 14.944444444444445
+      },
+      {
+        "date": "2026-10-27",
+        "query": "are cam sites safe",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 18.857142857142858
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 11.642857142857142
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat alternatives",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 9.1
+      },
+      {
+        "date": "2026-10-27",
+        "query": "stripchat app",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 10.4
+      },
+      {
+        "date": "2026-10-25",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 11.555555555555555
+      },
+      {
+        "date": "2026-10-27",
+        "query": "freelivecam",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 9.222222222222221
+      },
+      {
+        "date": "2026-10-26",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 14.25
+      },
+      {
+        "date": "2026-10-27",
+        "query": "vrporn",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 68.75
+      },
+      {
+        "date": "2026-10-17",
+        "query": "adultfriendfinder alternatives",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 29.142857142857142
+      }
+    ],
+    "topPagesByImpressions": [
+      {
+        "key": "https://www.stripunion.com/stripchat-alternatives",
+        "value": 118
+      },
+      {
+        "key": "https://www.stripunion.com/stripchat-pricing",
+        "value": 87
+      },
+      {
+        "key": "https://www.stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+        "value": 83
+      },
+      {
+        "key": "https://www.stripunion.com/stripchat-app/",
+        "value": 82
+      },
+      {
+        "key": "https://blog.stripunion.com/stripchat-vs-chaturbate-which-cam-site-is-better/",
+        "value": 76
+      },
+      {
+        "key": "https://blog.stripunion.com/live-cam-site-safety/",
+        "value": 64
+      },
+      {
+        "key": "https://www.stripunion.com/xhamster",
+        "value": 61
+      },
+      {
+        "key": "https://www.stripunion.com/stripchat-alternatives/",
+        "value": 60
+      },
+      {
+        "key": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow",
+        "value": 50
+      },
+      {
+        "key": "https://www.stripunion.com/how-stripchat-tokens-work/",
+        "value": 49
+      }
+    ]
+  },
+  "bing": {
+    "clicks": 1,
+    "impressions": 112,
+    "siteCoverage": [
+      {
+        "hostname": "stripunion.com",
+        "configured": true,
+        "verified": true,
+        "methods": {
+          "GetQueryStats": "ok",
+          "GetPageStats": "ok",
+          "GetCrawlStats": "ok",
+          "GetCrawlIssues": "ok",
+          "GetFeeds": "ok",
+          "GetLinkCounts": "ok",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "already_present",
+          "publicProbeStatus": "ok",
+          "sitemapUrl": "https://stripunion.com/sitemap.xml",
+          "submitted": false,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
+      },
+      {
+        "hostname": "blog.stripunion.com",
+        "configured": true,
+        "verified": true,
+        "methods": {
+          "GetQueryStats": "ok",
+          "GetPageStats": "ok",
+          "GetCrawlStats": "ok",
+          "GetCrawlIssues": "ok",
+          "GetFeeds": "ok",
+          "GetLinkCounts": "ok",
+          "GetUrlLinks": "ok"
+        },
+        "feedState": {
+          "status": "already_present",
+          "publicProbeStatus": "ok",
+          "sitemapUrl": "https://blog.stripunion.com/sitemap_index.xml",
+          "submitted": false,
+          "error": null
+        },
+        "backlinkPages": 0,
+        "backlinkDetails": 0
+      }
+    ],
+    "highImpressionZeroClickQueries": [
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 10,
+        "Clicks": 0,
+        "Date": "/Date(1776384000000)/",
+        "Impressions": 1,
+        "Query": "xhamster  review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1780012800000)/",
+        "Impressions": 1,
+        "Query": "pinkcherry toys company website",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 1,
+        "Query": "xhamster reviews",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 5,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 1,
+        "Query": "xhamsters review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 5,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 1,
+        "Query": "f95zone reviews",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 1,
+        "Query": "world of dominion f95zone review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 1,
+        "Query": "xhamster site review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1782432000000)/",
+        "Impressions": 1,
+        "Query": "xhamster  review",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1783036800000)/",
+        "Impressions": 1,
+        "Query": "xhamster revieuw",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1783641600000)/",
+        "Impressions": 2,
+        "Query": "xhamster  review",
+        "site": "stripunion.com"
+      }
+    ],
+    "highImpressionZeroClickPages": [
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 10,
+        "Clicks": 0,
+        "Date": "/Date(1776384000000)/",
+        "Impressions": 1,
+        "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1780012800000)/",
+        "Impressions": 1,
+        "Query": "https://stripunion.com/pinkcherry",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1781222400000)/",
+        "Impressions": 2,
+        "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 2,
+        "Query": "https://stripunion.com/f95zone-review-largest-adult-game-community",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1781827200000)/",
+        "Impressions": 1,
+        "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1782432000000)/",
+        "Impressions": 1,
+        "Query": "https://stripunion.com/xhamster",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1783036800000)/",
+        "Impressions": 1,
+        "Query": "https://stripunion.com/xhamster",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 8,
+        "Clicks": 0,
+        "Date": "/Date(1783641600000)/",
+        "Impressions": 3,
+        "Query": "https://stripunion.com/xhamster",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 7,
+        "Clicks": 0,
+        "Date": "/Date(1784246400000)/",
+        "Impressions": 4,
+        "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide",
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+        "AvgClickPosition": -1,
+        "AvgImpressionPosition": 6,
+        "Clicks": 0,
+        "Date": "/Date(1784851200000)/",
+        "Impressions": 7,
+        "Query": "https://stripunion.com/xhamster-review-2026-free-adult-video-site-guide",
+        "site": "stripunion.com"
+      }
+    ],
+    "crawlErrors": [
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777507200000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777593600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777680000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777766400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777852800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1777939200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778025600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778112000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778198400000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778284800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778371200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778457600000)/",
+        "errors": 21,
+        "http4xx": 9,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778544000000)/",
+        "errors": 28,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778630400000)/",
+        "errors": 35,
+        "http4xx": 7,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778716800000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778803200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778889600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1778976000000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779062400000)/",
+        "errors": 5,
+        "http4xx": 5,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779148800000)/",
+        "errors": 1,
+        "http4xx": 3,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779235200000)/",
+        "errors": 0,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779321600000)/",
+        "errors": 4,
+        "http4xx": 5,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779408000000)/",
+        "errors": 1,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779494400000)/",
+        "errors": 2,
+        "http4xx": 3,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779580800000)/",
+        "errors": 4,
+        "http4xx": 4,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779667200000)/",
+        "errors": 3,
+        "http4xx": 4,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779753600000)/",
+        "errors": 6,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779840000000)/",
+        "errors": 3,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1779926400000)/",
+        "errors": 4,
+        "http4xx": 7,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780012800000)/",
+        "errors": 4,
+        "http4xx": 7,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780099200000)/",
+        "errors": 4,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780185600000)/",
+        "errors": 0,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780272000000)/",
+        "errors": 0,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780358400000)/",
+        "errors": 3,
+        "http4xx": 3,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780444800000)/",
+        "errors": 6,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780531200000)/",
+        "errors": 12,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780617600000)/",
+        "errors": 10,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780704000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780790400000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780876800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1780963200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781049600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781136000000)/",
+        "errors": 6,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781222400000)/",
+        "errors": 5,
+        "http4xx": 4,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781308800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781395200000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781481600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781568000000)/",
+        "errors": 9,
+        "http4xx": 9,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781654400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781740800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781827200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1781913600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782000000000)/",
+        "errors": 6,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782086400000)/",
+        "errors": 4,
+        "http4xx": 3,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782172800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782259200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782345600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782432000000)/",
+        "errors": 7,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782518400000)/",
+        "errors": 2,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782604800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782691200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782777600000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782864000000)/",
+        "errors": 12,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1782950400000)/",
+        "errors": 9,
+        "http4xx": 7,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783036800000)/",
+        "errors": 2,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783123200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783209600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783296000000)/",
+        "errors": 2,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783382400000)/",
+        "errors": 6,
+        "http4xx": 6,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783468800000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783555200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783641600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783728000000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783814400000)/",
+        "errors": 7,
+        "http4xx": 7,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783900800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1783987200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784073600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784160000000)/",
+        "errors": 2,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784246400000)/",
+        "errors": 6,
+        "http4xx": 5,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784332800000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784419200000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784505600000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784592000000)/",
+        "errors": 3,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784678400000)/",
+        "errors": 6,
+        "http4xx": 4,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784764800000)/",
+        "errors": 7,
+        "http4xx": 5,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784851200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1784937600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785024000000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785110400000)/",
+        "errors": 6,
+        "http4xx": 3,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785196800000)/",
+        "errors": 4,
+        "http4xx": 4,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785283200000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785369600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785456000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785542400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785628800000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785715200000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785801600000)/",
+        "errors": 10,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785888000000)/",
+        "errors": 8,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1785974400000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786060800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786147200000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786233600000)/",
+        "errors": 5,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786320000000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786406400000)/",
+        "errors": 4,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786492800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786579200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786665600000)/",
+        "errors": 3,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786752000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786838400000)/",
+        "errors": 7,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1786924800000)/",
+        "errors": 5,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787011200000)/",
+        "errors": 3,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787097600000)/",
+        "errors": 6,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787184000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787356800000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787443200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787529600000)/",
+        "errors": 3,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787616000000)/",
+        "errors": 4,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787702400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787788800000)/",
+        "errors": 4,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787875200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1787961600000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788048000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788134400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788220800000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788307200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788393600000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788480000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788566400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788652800000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788739200000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788825600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788912000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1788998400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789084800000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789171200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789257600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789344000000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789430400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789516800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789603200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789689600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789776000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789862400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1789948800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790035200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790121600000)/",
+        "errors": 1,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790208000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790294400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790380800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790467200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790553600000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790640000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790726400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790812800000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790899200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1790985600000)/",
+        "errors": 3,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791072000000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791158400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791244800000)/",
+        "errors": 8,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791331200000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791417600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791504000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791590400000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791676800000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791763200000)/",
+        "errors": 3,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791849600000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1791936000000)/",
+        "errors": 5,
+        "http4xx": 2,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792022400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792108800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792195200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792281600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792368000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792454400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792540800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792800000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1792886400000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
+        "date": "/Date(1793145600000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1790899200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1790985600000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791072000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791158400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791244800000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791331200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791417600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791504000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791590400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791676800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791763200000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791849600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1791936000000)/",
+        "errors": 1,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792022400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792108800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792195200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792281600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792368000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792454400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792540800000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792627200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792713600000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792800000000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1792886400000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "date": "/Date(1793145600000)/",
+        "errors": 2,
+        "http4xx": 1,
+        "http5xx": 0
+      }
+    ],
+    "crawlIssues": [],
+    "indexChanges": [
+      {
+        "site": "stripunion.com",
+        "indexed": 35,
+        "previousIndexed": 35,
+        "change": 0
+      },
+      {
+        "site": "blog.stripunion.com",
+        "indexed": 6,
+        "previousIndexed": 4,
+        "change": 2
+      }
+    ],
+    "backlinks": {
+      "targetPageCount": 0,
+      "observedInboundCount": 0,
+      "sourceRowCount": 0,
+      "topTargetPages": [],
+      "topSourceRows": [],
+      "changes": [
+        {
+          "site": "stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        },
+        {
+          "site": "blog.stripunion.com",
+          "inboundLinks": 0,
+          "linkedTargetPages": 0,
+          "inspectedSourceRows": 0,
+          "previousInboundLinks": 0,
+          "previousLinkedTargetPages": 0,
+          "inboundLinkChange": 0,
+          "linkedTargetPageChange": 0
+        }
+      ]
+    },
+    "feeds": [
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(1793033951000)/",
+        "Status": "Success",
+        "Submitted": "/Date(1792735562412)/",
+        "Type": "Sitemap",
+        "Url": "https://stripunion.com/sitemap.xml",
+        "UrlCount": 1097,
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(1792985268000)/",
+        "Status": "Success",
+        "Submitted": "/Date(-11644473600000)/",
+        "Type": "Sitemap Index",
+        "Url": "https://blog.stripunion.com/sitemap_index.xml",
+        "UrlCount": 27,
+        "site": "stripunion.com"
+      },
+      {
+        "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
+        "Compressed": false,
+        "FileSize": 0,
+        "LastCrawled": "/Date(1792985268000)/",
+        "Status": "Success",
+        "Submitted": "/Date(1791185960538)/",
+        "Type": "Sitemap Index",
+        "Url": "https://blog.stripunion.com/sitemap_index.xml",
+        "UrlCount": 27,
+        "site": "blog.stripunion.com"
+      }
+    ],
+    "keywordResearch": {
+      "country": "us",
+      "language": "en-US",
+      "seeds": [
+        "xhamster review",
+        "xhamster site overview",
+        "review free pornohamster.com",
+        "xhamster review 2026",
+        "xhamster reviews",
+        "live cam sites",
+        "chaturbate alternatives",
+        "adult affiliate program"
+      ],
+      "relatedKeywordRows": 303,
+      "topRelated": [
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 28914821,
+          "Impressions": 9112292,
+          "Query": "porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 28914821,
+          "Impressions": 9112292,
+          "Query": "porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 3578683,
+          "Impressions": 3336177,
+          "Query": "xhamster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2423074,
+          "Impressions": 1866323,
+          "Query": "free porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 670920,
+          "Impressions": 237006,
+          "Query": "porn videos",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 354169,
+          "Impressions": 341298,
+          "Query": "freeporn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 272302,
+          "Impressions": 271981,
+          "Query": "xhampster",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 272302,
+          "Impressions": 271981,
+          "Query": "xhampster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 272302,
+          "Impressions": 271981,
+          "Query": "xhampster",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 230240,
+          "Impressions": 220210,
+          "Query": "xhamster.com",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 230240,
+          "Impressions": 220210,
+          "Query": "xhamster.com",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 230240,
+          "Impressions": 220210,
+          "Query": "xhamster.com",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 123985,
+          "Impressions": 116523,
+          "Query": "free porn videos",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 109045,
+          "Impressions": 92548,
+          "Query": "x hamster",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 109045,
+          "Impressions": 92548,
+          "Query": "x hamster",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 103633,
+          "Impressions": 68861,
+          "Query": "adult videos",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 98892,
+          "Impressions": 86620,
+          "Query": "hamster porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 98892,
+          "Impressions": 86620,
+          "Query": "hamster porn",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 88708,
+          "Impressions": 4705,
+          "Query": "affiliate",
+          "seed": "adult affiliate program"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 70457,
+          "Impressions": 67647,
+          "Query": "xham",
+          "seed": "xhamster site overview"
+        }
+      ]
+    }
+  },
+  "ga4": {
+    "sessions": 4,
+    "engagedSessions": 1,
+    "siteSegmentationAvailable": true,
+    "sites": {
+      "main": {
+        "sessions": 0,
+        "engagedSessions": 0,
+        "affiliateClick": 0,
+        "revenue": 0
+      },
+      "blog": {
+        "sessions": 4,
+        "engagedSessions": 1,
+        "affiliateClick": 0,
+        "revenue": 0
+      },
+      "other": {
+        "sessions": 0,
+        "engagedSessions": 0,
+        "affiliateClick": 0,
+        "revenue": 0
+      }
+    },
+    "otherHosts": [],
+    "engagementRate": 0.25,
+    "acquisitionSources": [
+      {
+        "key": "(direct) / (none)",
+        "value": 2
+      },
+      {
+        "key": "yandex.com.tr / referral",
+        "value": 1
+      },
+      {
+        "key": "chatgpt.com / ai-assistant",
+        "value": 1
+      }
+    ],
+    "landingPages": [
+      {
+        "key": "/adult-shop-privacy-packaging-billing-delivery/",
+        "value": 1
+      },
+      {
+        "key": "/live-cam-token-pricing-guide/",
+        "value": 1
+      },
+      {
+        "key": "/",
+        "value": 1
+      },
+      {
+        "key": "/how-live-cam-sites-work/",
+        "value": 1
+      }
+    ],
+    "affiliateClick": 0,
+    "conversions": null,
+    "revenue": 0,
+    "events": [
+      {
+        "key": "page_view",
+        "value": 4
+      },
+      {
+        "key": "session_start",
+        "value": 4
+      },
+      {
+        "key": "first_visit",
+        "value": 3
+      },
+      {
+        "key": "scroll",
+        "value": 1
+      },
+      {
+        "key": "user_engagement",
+        "value": 1
+      }
+    ]
+  },
+  "clarity": {
+    "date": "2026-10-30",
+    "projectId": "ysuowheiiz",
+    "numOfDays": 3,
+    "metricNames": [
+      "DeadClickCount",
+      "ExcessiveScroll",
+      "RageClickCount",
+      "QuickbackClick",
+      "ScriptErrorCount",
+      "ErrorClickCount",
+      "ScrollDepth",
+      "Traffic",
+      "EngagementTime"
+    ],
+    "metricGroups": 9,
+    "informationRows": 749
+  },
+  "buffer": {
+    "channel": {
+      "id": "6ab75d92ea19ca0bdef12700",
+      "name": "stripunion51860",
+      "service": "twitter"
+    },
+    "sentPostCount": 309,
+    "scheduledPostCount": 4,
+    "impressions": 972,
+    "clicks": 46,
+    "engagement": {
+      "reactions": 0,
+      "comments": 0,
+      "reposts": 0,
+      "reach": 0
+    },
+    "metricsUpdatedAt": "2026-10-30T06:22:10.643Z",
+    "highestPerformingPosts": [
+      {
+        "id": "6ae1f2ab41c946fe22cdae7d",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 1,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 200,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 200,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 1,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6adc2ee5e4be8a4d863dafaf",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 3,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 0,
+          "engagementRate": 100,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 100,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 3,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 0,
+              "unit": "count"
+            }
+          ]
+        }
+      },
+      {
+        "id": "6ab78d163afb9171a82bdd43",
+        "sentAt": null,
+        "metrics": {
+          "impressions": 8,
+          "reach": null,
+          "reactions": 0,
+          "comments": 0,
+          "reposts": 0,
+          "clicks": 2,
+          "engagementRate": 62.5,
+          "raw": [
+            {
+              "type": "reactions",
+              "name": "Reactions",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "comments",
+              "name": "Comments",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "engagementRate",
+              "name": "Eng. Rate",
+              "value": 62.5,
+              "unit": "percentage"
+            },
+            {
+              "type": "reposts",
+              "name": "Reposts",
+              "value": 0,
+              "unit": "count"
+            },
+            {
+              "type": "impressions",
+              "name": "Impressions",
+              "value": 8,
+              "unit": "count"
+            },
+            {
+              "type": "clicks",
+              "name": "Clicks",
+              "value": 2,
+              "unit": "count"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "stripcash": {
+    "reportScope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
+    "reportStatus": "success",
+    "metrics": {
+      "signup": 2,
+      "verifiedSignup": 1,
+      "verifiedSignupRate": 50,
+      "newCustomersCount": 1,
+      "firstPurchasesRate": 50,
+      "purchasesCount": 6,
+      "purchasesSumAmount": 1110.37,
+      "purchaseEarnings": 222.06,
+      "rebillsRate": 500,
+      "uniqueSpenders": 1,
+      "newUniqueSpenders": 1,
+      "returningUniqueSpenders": 0,
+      "uniqueRevenueGenerators": 1,
+      "subscriptionCount": 0,
+      "subscriptionFirstCount": 0,
+      "subscriptionRebillsCount": 0,
+      "subscriptionSumAmount": 0,
+      "subscriptionFirstSumAmount": 0,
+      "subscriptionRebillsSumAmount": 0,
+      "subscriptionEarnings": 0,
+      "refundsCount": 0,
+      "refundsSumAmount": 0,
+      "refundDeductions": 0,
+      "modelsReferralEarnings": 0,
+      "webmasterRegistration": 0,
+      "webmasterReferralEarnings": 0,
+      "schemeEarnings": 222.06,
+      "totalEarnings": 222.06
+    }
+  },
+  "attribution": {
+    "reportScope": "first-party AVCams click/postback attribution",
+    "receiverConnected": true,
+    "postbackJoinReady": true,
+    "totalClicks": 15,
+    "totalPostbacks": 12,
+    "matchedPostbacks": 1,
+    "unmatchedPostbacks": 11,
+    "duplicatePostbacks": 0,
+    "eventCounts": {
+      "member_registration": 2,
+      "age_verification": 2,
+      "purchase": 6,
+      "first_purchase": 1,
+      "member_verification": 1
+    },
+    "revenueByCurrency": {
+      "UNKNOWN": 222.06000000000003
+    },
+    "topP1": [
+      {
+        "key": "stripchat_alternatives",
+        "clicks": 3,
+        "postbacks": 1,
+        "matchedPostbacks": 1,
+        "eventCounts": {
+          "age_verification": 1
+        },
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "homepage",
+        "clicks": 3,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "how-stripchat-tokens-work",
+        "clicks": 2,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "stripchat_pricing",
+        "clicks": 2,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      },
+      {
+        "key": "avcams",
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    ]
+  },
+  "trafficControlPlane": {
+    "acquisitionSessions": {
+      "organic": 0,
+      "social": 0,
+      "communityReferral": 1,
+      "paid": 0,
+      "total": 4,
+      "unclassified": 3
+    },
+    "qualifiedSessions": 1,
+    "outboundAffiliateCtr": 0,
+    "organicImpressions": 2108,
+    "organicClicks": 43,
+    "indexedPages": 41,
+    "publishedContentCount": {
+      "astroCommercialPages": 20,
+      "trackedMainSitePages": 27,
+      "astroPagesTracked": 19,
+      "dataDrivenReviewsTracked": 8,
+      "wordpressPublishedPosts": null,
+      "wordpressDraftInventory": "unavailable"
+    },
+    "contentFreshness": {
+      "status": "not-measured",
+      "reason": "CMS publication dates are not part of the current GA4, GSC, or Bing snapshots."
+    },
+    "topAcquisitionLandingPages": [
+      {
+        "key": "/adult-shop-privacy-packaging-billing-delivery/",
+        "value": 1
+      },
+      {
+        "key": "/live-cam-token-pricing-guide/",
+        "value": 1
+      },
+      {
+        "key": "/",
+        "value": 1
+      },
+      {
+        "key": "/how-live-cam-sites-work/",
+        "value": 1
+      }
+    ],
+    "stripcash": {
+      "signups": 2,
+      "verifiedSignups": 1,
+      "newCustomers": 1,
+      "purchases": 6,
+      "purchaseEarnings": 222.06,
+      "totalEarnings": 222.06,
+      "modelReferralEarnings": 0,
+      "webmasterRegistrations": 0,
+      "webmasterReferralEarnings": 0
+    },
+    "firstPartyAttribution": {
+      "clicks": 15,
+      "postbacks": 12,
+      "matchedPostbacks": 1,
+      "unmatchedPostbacks": 11,
+      "eventCounts": {
+        "member_registration": 2,
+        "age_verification": 2,
+        "purchase": 6,
+        "first_purchase": 1,
+        "member_verification": 1
+      },
+      "revenueByCurrency": {
+        "UNKNOWN": 222.06000000000003
+      }
+    }
+  }
+}
