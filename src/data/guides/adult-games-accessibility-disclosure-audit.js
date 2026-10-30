@@ -1,0 +1,149 @@
+export default {
+  "slug": "adult-games-accessibility-disclosure-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Accessibility Information Before Choosing a Title",
+  "description": "A buyer’s checklist for evaluating adult game accessibility details, including readable text, subtitles, input options, and the limits of storefront disclosures.",
+  "excerpt": "Store listings do not always answer practical accessibility questions. Learn how to look for title-specific evidence and separate verified features from unclear or missing information.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Use title-specific evidence because accessibility can differ between games from the same storefront or developer.",
+    "Check readable text, subtitles, control options, and menu navigation against your own needs.",
+    "Use demos, previews, or documentation to confirm details before purchase when available.",
+    "Distinguish a missing disclosure from a confirmed absence of a feature.",
+    "Record what you tested, on which device, and which questions remain unanswered."
+  ],
+  "sections": [
+    {
+      "heading": "Turn your needs into concrete checks",
+      "paragraphs": [
+        "Accessibility is easier to evaluate when you start with specific tasks rather than a general promise that a game is accessible. You may need text that can be enlarged, subtitles that are easy to read, adjustable audio, or controls that work with a preferred input method. Different players need different combinations, and a storefront’s short feature list may not cover every requirement.",
+        "Write down the features that are essential, helpful, or optional for you. Then identify the exact game version and device you are considering. A feature documented for one version may not apply to another platform or build. Clear priorities help you compare listings fairly and avoid treating a long list of generic tags as proof that your specific workflow will work."
+      ],
+      "bullets": [
+        "Separate essential needs from helpful extras.",
+        "Record the operating system, device, and input method you plan to use.",
+        "Check whether a feature description refers to the game, the storefront, or a particular version."
+      ]
+    },
+    {
+      "heading": "Evaluate interface text and visual settings",
+      "paragraphs": [
+        "Inspect whether the game describes text scaling, interface size, contrast options, or other display settings. If screenshots are available, use them as clues but not as confirmation that the interface can be adjusted. Small text in a screenshot may be an image-size issue; only a setting description or a practical test can answer whether the game itself offers a change.",
+        "Look for evidence that important information remains understandable without relying only on color, subtle visual effects, or tiny icons. Menus, instructions, and error messages can matter as much as the main game screen. If you can try a demo, test the text at the device and display settings you expect to use, and check whether the setting persists after closing and reopening the game."
+      ],
+      "table": {
+        "caption": "Use specific evidence to assess common game-accessibility questions.",
+        "headers": [
+          "Area",
+          "What to check",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "Text",
+            "Size, contrast, legibility, and whether interface text can be adjusted",
+            "Settings menu, demo, or detailed developer documentation"
+          ],
+          [
+            "Audio and captions",
+            "Subtitle availability, sizing, background, and separate volume controls",
+            "Title-specific settings or a playable preview"
+          ],
+          [
+            "Controls",
+            "Remapping, sensitivity, alternative input, and menu navigation",
+            "Control options shown in documentation or tested in a demo"
+          ],
+          [
+            "Visual information",
+            "Whether key information depends on color or small visual cues",
+            "A test of the relevant interface or a clear developer explanation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check captions, audio, and control options",
+      "paragraphs": [
+        "When subtitles or captions matter to you, confirm that the specific title offers them and determine whether the option can be changed in settings. Look for information about text size, placement, contrast, and whether captions remain visible against varied backgrounds. A listing that mentions subtitles may not answer these details, so use developer documentation or a demo where possible.",
+        "Control options should be evaluated against the input method you intend to use. Check whether actions can be remapped, whether the game supports the controller or keyboard you plan to use, and whether menus can be navigated without a difficult combination of inputs. Do not infer support merely because a storefront runs on a particular device; store compatibility and game-level controls are separate questions."
+      ],
+      "bullets": [
+        "Confirm that a subtitle or caption feature is present in the specific title.",
+        "Check whether control remapping covers the actions you need to change.",
+        "Look for separate volume options if balancing audio sources matters to you.",
+        "Test both gameplay and menus when a demo or preview permits it."
+      ]
+    },
+    {
+      "heading": "Read storefront listings as evidence, not a guarantee",
+      "paragraphs": [
+        "Storefront tags and feature labels can help you find candidates, but their meaning may vary. A label may be supplied by a developer, storefront, or community and may not describe every version. Read the feature explanation and look for supporting details rather than assuming a tag answers all practical questions.",
+        "If accessibility information is missing, record it as unknown. That is different from confirming that a feature is absent. Search for a title-specific help page, patch notes, or developer response. Ask one precise question at a time, such as whether subtitles can be resized in the current version. A focused question is more likely to produce useful evidence than a general request to confirm that the game is accessible."
+      ],
+      "table": {
+        "caption": "Classify the evidence before making a decision.",
+        "headers": [
+          "Evidence status",
+          "Meaning",
+          "How to use it"
+        ],
+        "rows": [
+          [
+            "Observed",
+            "You tested the feature in the title or demo",
+            "Record the version, device, and result"
+          ],
+          [
+            "Documented",
+            "A title-specific source describes the feature",
+            "Check that the documentation matches the version you plan to use"
+          ],
+          [
+            "Unclear",
+            "A label exists but does not explain the relevant behavior",
+            "Seek a specific answer or treat the feature as unverified"
+          ],
+          [
+            "Not disclosed",
+            "No useful information was found",
+            "Do not assume either availability or absence"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a decision record that fits your priorities",
+      "paragraphs": [
+        "A compact comparison can prevent repeated research. For each title, note the evidence source, date, version, device, and whether an essential feature is confirmed. Add a short explanation of any workaround you would need and whether it is acceptable to you. This keeps the decision grounded in your needs instead of a single overall score that may hide important limitations.",
+        "If an essential feature remains uncertain, consider delaying the purchase until you can obtain clearer information, or choose a title with more relevant documentation. No checklist can guarantee that a game will work for every player or setup. A careful record helps you understand what is known, what remains uncertain, and which questions to resolve before committing."
+      ],
+      "bullets": [
+        "Prioritize essential features over optional storefront labels.",
+        "Keep title and version details with each observation.",
+        "Record workarounds and decide whether they are practical for you.",
+        "Recheck important features after a major game update or platform change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront accessibility tag guarantee the feature works for every version?",
+      "answer": "Not necessarily. Tags and feature labels may have different sources and levels of detail. Check the title-specific description and, when possible, test the current version."
+    },
+    {
+      "question": "What if a game does not mention accessibility features?",
+      "answer": "Treat the feature as unknown, not automatically absent. Look for title-specific documentation or ask a focused question about the particular setting or control you need."
+    },
+    {
+      "question": "Is a demo enough to confirm a game will meet my needs?",
+      "answer": "A demo can provide valuable evidence, but it may not include every menu, mode, or setting. Record what you tested and identify any parts you could not verify."
+    },
+    {
+      "question": "Should I rely on player reviews for accessibility information?",
+      "answer": "Reviews can provide useful firsthand observations, but they may refer to a different version, device, or need. Compare them with title-specific documentation and your own test where possible."
+    }
+  ]
+};

@@ -1,0 +1,156 @@
+{
+  "backlogId": "adult-anime-platform-accessibility-feature-audit",
+  "slug": "adult-anime-platform-accessibility-feature-audit",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Check Accessibility Features Before Choosing",
+  "description": "A practical checklist for comparing accessibility information on adult anime streaming, manga, and game platforms before creating an account or paying.",
+  "excerpt": "Accessibility can differ by format and by title. Use this checklist to inspect readable controls, captions, navigation, and available settings without assuming a platform’s headline features apply to every item.",
+  "keyTakeaways": [
+    "Evaluate accessibility by format and by individual title, not just by platform-wide claims.",
+    "Check whether controls are usable with your preferred input method and at your chosen screen size.",
+    "Look for captions, transcripts, adjustable text, and clear language information where relevant.",
+    "Test available previews or free browsing before relying on an accessibility feature.",
+    "Record missing information as unknown rather than assuming a feature is present."
+  ],
+  "sections": [
+    {
+      "heading": "Treat accessibility as a format-specific comparison",
+      "paragraphs": [
+        "An adult anime platform may offer video, comics, and games, but a feature that helps with one format may not help with another. Caption controls matter for video; text size and reading direction matter for comics; input remapping or readable interface text may matter for games. A platform-wide accessibility statement can be useful, but it does not necessarily describe every title, player, reader, or game build.",
+        "Start with the way you actually plan to use the service. Identify the format, device, browser or app, and any assistive technology or input method you depend on. Then verify the feature at the point of use where possible. If you cannot test it before signing up, look for specific documentation and mark the feature as unverified rather than treating an absence of detail as proof either way."
+      ],
+      "bullets": [
+        "List the format you expect to use most often: streaming, manga, or games.",
+        "Note the device, browser, app, and input method you plan to use.",
+        "Separate confirmed features, title-specific features, and information the platform does not disclose."
+      ]
+    },
+    {
+      "heading": "Check readability and navigation before committing",
+      "paragraphs": [
+        "Look for controls that let you adjust text size, contrast, brightness, or the visual layout where those options are relevant. For manga, check whether page fit, zoom, panel navigation, and reading direction are clear and manageable on your screen. For video, inspect player control labels, keyboard access if you use it, and whether controls remain understandable at your display size.",
+        "Navigation is more than the appearance of a page. Check whether menus have clear labels, whether focus is visible when using a keyboard, and whether important actions can be reached without relying only on color or small icons. On mobile, examine whether controls remain accessible when the page is zoomed or the device is used in a preferred orientation. These checks are practical observations, not a substitute for a formal accessibility audit."
+      ],
+      "table": {
+        "caption": "A format-by-format way to organize accessibility checks.",
+        "headers": [
+          "Format",
+          "Useful checks",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Streaming",
+            "Player labels, keyboard navigation, captions, volume and display controls",
+            "A usable preview, player help page, or title-level feature details"
+          ],
+          [
+            "Manga",
+            "Zoom, page fit, reading direction, text readability, chapter navigation",
+            "Reader controls visible in a sample or documented for the reader"
+          ],
+          [
+            "Games",
+            "Interface text, input options, subtitle or audio settings, menu navigation",
+            "A title-specific feature list or a playable preview with accessible settings"
+          ],
+          [
+            "Account and browsing",
+            "Form labels, focus visibility, error messages, and understandable menus",
+            "Guest browsing or an account-free view of key pages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify captions and language details at title level",
+      "paragraphs": [
+        "For video, determine whether captions or subtitles are available for the specific title you may watch, whether they can be enabled from the player, and whether language information is clearly stated. Do not assume a platform supports captions everywhere because one title includes them. Also distinguish subtitles that translate dialogue from captions that may convey additional audio information; the platform’s labels and the title’s actual options matter.",
+        "For manga and games, check what language metadata means in practice. A language label may describe an interface, text translation, title metadata, or another aspect. Look for samples, screenshots, or title-level descriptions that reveal whether text is legible and whether the stated language applies to the content you need. If a feature is important, ask support a precise question tied to a title or reader rather than relying on a broad marketing phrase."
+      ],
+      "bullets": [
+        "Verify captions or subtitles for a specific video, not just a platform-wide description.",
+        "Check whether language labels identify interface text, content text, or both.",
+        "Look for a way to change settings without losing your place or leaving the player.",
+        "Treat undocumented title-level support as unknown."
+      ]
+    },
+    {
+      "heading": "Use a low-risk test before relying on a feature",
+      "paragraphs": [
+        "If free previews, samples, or guest browsing are available, use them to test the exact workflow you expect to use. Try the controls on the intended device, inspect whether labels remain understandable, and check whether the feature persists when moving between pages or titles. A platform may behave differently in a browser and an app, or in a reader and a player, so test the route you plan to use.",
+        "Avoid creating an account or making a purchase solely on the basis of a feature label if the necessary details are not clear. First see whether help pages, product descriptions, or support can answer a specific question. A practical comparison should record what you observed, the date, the format, and the device. That makes it easier to distinguish a verified limitation from a feature that you simply have not been able to test."
+      ],
+      "table": {
+        "caption": "Record observations in a way that supports a fair comparison.",
+        "headers": [
+          "Check",
+          "Record",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Text or controls",
+            "Screen size, zoom setting, and whether labels were legible",
+            "Usable, limited, or not verified"
+          ],
+          [
+            "Captions or language",
+            "Title, available options, and where settings appear",
+            "Available for this item, unclear, or unavailable"
+          ],
+          [
+            "Navigation",
+            "Input method and any control that was hard to reach",
+            "Works with preferred input, needs workaround, or not tested"
+          ],
+          [
+            "Support response",
+            "Question, response date, and whether the reply is title-specific",
+            "Confirmed, partially answered, or still unknown"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare evidence, not broad promises",
+      "paragraphs": [
+        "A useful comparison distinguishes between documented support, observed behavior, and unsupported claims. Record the exact page or title where you found a feature description and whether you tested it. Avoid interpreting a missing statement as proof that a platform is inaccessible, but do not treat a general promise as confirmation that every title works with your needs.",
+        "If no option fits, consider whether an alternative access route, device, reader, or input method is practical for you. Keep expectations specific: one service may offer a feature on a subset of titles, while another may provide clearer documentation. The goal is not to award a universal accessibility score from limited evidence; it is to make a decision that reflects your priorities and the uncertainty you can accept."
+      ],
+      "bullets": [
+        "Keep platform-level documentation separate from title-level evidence.",
+        "Record the device and access route used for each test.",
+        "Prioritize the accessibility features you need rather than a long undifferentiated feature list.",
+        "Recheck key information when a title, player, reader, or app changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an accessibility statement guarantee that every title is accessible?",
+      "answer": "No. A statement may describe general platform practices rather than every video, manga reader, or game. Check the specific format and title when a feature is essential to your use."
+    },
+    {
+      "question": "What is the difference between subtitles and captions?",
+      "answer": "Terminology varies, but subtitles commonly present spoken dialogue in text, while captions may also represent other relevant audio information. Check the actual options offered for the title and the labels used by its player."
+    },
+    {
+      "question": "Can I assess accessibility without creating an account?",
+      "answer": "Sometimes. Guest browsing, samples, previews, help pages, or public product descriptions may provide useful evidence. If a key feature is unavailable to inspect, mark it as unverified and ask a specific question before relying on it."
+    },
+    {
+      "question": "Should I use an automated accessibility score to choose a platform?",
+      "answer": "A score can help identify issues, but it may not reflect your device, assistive technology, preferred input, or title-specific needs. Pair any automated result with practical checks of the workflow you expect to use."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
