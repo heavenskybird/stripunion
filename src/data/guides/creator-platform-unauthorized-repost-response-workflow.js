@@ -1,0 +1,117 @@
+export default {
+  "slug": "creator-platform-unauthorized-repost-response-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Respond to Unauthorized Reposts With a Clear Evidence Workflow",
+  "description": "A creator-focused workflow for documenting suspected reposts, checking platform reporting routes, protecting evidence and tracking follow-up.",
+  "excerpt": "When work appears elsewhere without permission, a calm record of what you found can make platform reporting more organized and reduce unnecessary exposure of private information.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Record the location, date, and relevant public details before reporting, while avoiding unnecessary collection or redistribution.",
+    "Use the applicable platform reporting channel and follow its instructions rather than assuming one process fits every service.",
+    "Keep original files and publication records separate from screenshots or links gathered during an investigation.",
+    "Share only the information requested and avoid public accusations before the facts are checked.",
+    "Track each report, response, and next step in a private case log."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a careful, limited fact check",
+      "paragraphs": [
+        "A possible repost can be upsetting, but an initial match is not always enough to establish what happened. Check whether the item appears to be your work, whether the location is accessible to the public, and whether the page identifies a source or permission. Record the URL, the date and time you saw it, the account or page name shown, and a concise description of the material. Avoid downloading, forwarding, or republishing the item simply to build a case.",
+        "Keep the investigation focused on information needed for a report. Do not try to access private accounts, bypass access controls, or contact unrelated people to obtain material. If the page disappears or changes, your contemporaneous notes may help explain what you observed, but they do not replace the platform's own review. Separate what you directly saw from what you infer, and label uncertainty plainly."
+      ],
+      "bullets": [
+        "Capture the page address and the date checked.",
+        "Describe the suspected match without adding intimate or unnecessary detail.",
+        "Mark uncertain identity, authorship, or permission questions as unresolved.",
+        "Do not repost the material as a warning or evidence archive."
+      ]
+    },
+    {
+      "heading": "Organize evidence before opening a report",
+      "paragraphs": [
+        "Maintain two distinct records: a provenance file for your own work and a case file for the suspected repost. The provenance file can include original creation files, publication dates, account records, and any relevant permission or licensing terms. The case file can contain the observed URL, screenshots of the surrounding page where appropriate, the date captured, and notes about the account displaying it. Restrict access to both files and use neutral filenames that do not expose sensitive details in shared folders.",
+        "A screenshot is a record of what a page displayed at one moment; it does not by itself settle ownership or permission. Preserve the original capture without editing it, and create a separate redacted copy if you need to share it with a colleague. Do not include unrelated messages, private account data, or identifying information that is not necessary to describe the issue. Keep a note of who collected each item and when."
+      ],
+      "table": {
+        "caption": "Keep the evidence set relevant and easy to review.",
+        "headers": [
+          "Record",
+          "Purpose",
+          "Handling note"
+        ],
+        "rows": [
+          [
+            "Original work record",
+            "Identify the work and relevant publication history",
+            "Store securely; do not alter the source file"
+          ],
+          [
+            "Observed page details",
+            "Show where and when the suspected repost appeared",
+            "Record URL and capture date"
+          ],
+          [
+            "Permission or license record",
+            "Clarify whether permission may apply",
+            "Include only relevant terms and correspondence"
+          ],
+          [
+            "Report log",
+            "Track submissions and responses",
+            "Limit access and note each update"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use the platform's process and provide only what it asks for",
+      "paragraphs": [
+        "Find the reporting route for rights or unauthorized-use complaints in the platform's current help materials. The correct route may differ from a general safety report, account complaint, or customer-support request. Read the instructions before sending information, including any requested description, proof, or declaration. Avoid guessing which legal category applies if the form or facts do not make it clear.",
+        "Submit a concise report that identifies the work, points to the specific location, explains why you believe it is being used without permission, and supplies the requested supporting material. Be accurate about what you know. If ownership is shared, permission was granted for a limited purpose, or another person holds relevant rights, resolve that context before making a broad claim. Do not send identity documents or other sensitive records unless the platform's process specifically requires them and you have reviewed how they are handled."
+      ]
+    },
+    {
+      "heading": "Protect privacy and avoid escalating the exposure",
+      "paragraphs": [
+        "A report should not create a second, wider distribution of the material. Do not post the suspected repost link on social channels to solicit attention, and do not send copies to people who do not need them. If a colleague helps, share a restricted case note or redacted capture rather than an open folder of source files. Review filenames, image previews, and shared-link permissions before sending anything.",
+        "Use a dedicated contact method for case correspondence if that fits your existing account and security practices. Keep the communication factual and professional. Avoid threats, public accusations, or repeated direct messages to the account involved; those actions can complicate documentation and may expose more personal information. If there is a credible immediate safety concern, use the relevant platform safety route as well as any rights-reporting procedure."
+      ],
+      "bullets": [
+        "Limit access to case records to people who need them.",
+        "Review shared-link permissions and previews before sending evidence.",
+        "Keep public statements separate from private platform reports.",
+        "Do not include unrelated personal data in a report."
+      ]
+    },
+    {
+      "heading": "Track reports, deadlines, and follow-up",
+      "paragraphs": [
+        "Create a case log with the platform, the affected URL, report date, reference number if provided, materials submitted, and any response. Record the next action and the date you plan to check for an update. Keep a copy of the exact report sent, but store it securely because it may contain contact details or statements about rights. If the platform asks for additional information, answer the specific request and retain the exchange.",
+        "A platform report is not a guaranteed outcome or a substitute for individualized legal advice. If the matter has significant commercial, contractual, or safety consequences, consider qualified professional guidance. If a report is declined, first review the stated reason and available review or appeal route. Avoid resubmitting the same claim repeatedly without addressing the issue identified or adding the requested clarification."
+      ]
+    },
+    {
+      "heading": "Create a repeatable response plan",
+      "paragraphs": [
+        "A simple written procedure reduces rushed decisions. Identify who can collect public page details, who may access original work files, who approves a report, and where the case log is stored. Establish a rule for preserving evidence without circulating the material, and decide how to notify collaborators whose work or rights may be involved. Revisit the procedure when platform reporting instructions change or when your team changes.",
+        "Keep the plan proportionate. Not every uncertain match requires a public response or extensive investigation. A consistent process makes it easier to distinguish a verified issue from an unconfirmed lead, maintain accurate records, and protect private information while using the platform's stated channels."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I download a suspected repost to preserve evidence?",
+      "answer": "Do not assume downloading or redistributing it is necessary. Start with the URL, date, relevant page context, and the platform's evidence instructions. Preserve only what is appropriate and needed, and avoid sharing the material beyond the reporting process."
+    },
+    {
+      "question": "What if I previously gave someone permission to use the work?",
+      "answer": "Review the permission's scope, duration, and any relevant correspondence before reporting. If the facts are unclear, describe that uncertainty and seek clarification rather than making a claim broader than your records support."
+    },
+    {
+      "question": "Does filing a platform report ensure that the repost will be removed?",
+      "answer": "No outcome is guaranteed. The platform reviews reports under its own process. Keep a copy of the submission, follow any stated request for information, and consider qualified professional guidance when the consequences are significant."
+    }
+  ]
+};
