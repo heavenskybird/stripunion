@@ -1,0 +1,135 @@
+export default {
+  "slug": "vr-headset-generation-support-transition-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Headset-Generation Support Before Keeping a Library",
+  "description": "A checklist for assessing how VR adult platforms handle older and newer headset generations, app versions, device replacement and support transitions before you commit.",
+  "excerpt": "A platform may work today but become less convenient as your headset or software changes. Check how support is documented, what changes trigger an access problem and how to preserve account and purchase records.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Separate current headset compatibility from the platform’s stated support lifecycle and update policy.",
+    "Check which component controls access: headset app, browser, operating-system version, store account or platform account.",
+    "Look for a dated compatibility list, change notice or support article rather than relying on an undated marketing claim.",
+    "Before changing hardware, confirm how account sign-in, saved items and purchased or subscribed access are handled.",
+    "Keep a transition note with device model, software version, official support links and unresolved questions."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility today is not the same as support over time",
+      "paragraphs": [
+        "A platform can appear compatible with a headset at one point and still change its supported access path later. Headsets receive software updates, app stores revise requirements, browsers change, and older devices can stop receiving system updates. These changes may affect whether an app installs, whether a browser can play a stream or whether sign-in works as expected. A compatibility statement is therefore a snapshot, not a guarantee that every future device or software version will be supported.",
+        "For a long-term choice, check both present fit and the evidence of ongoing support. Look for device models or operating-system versions named in current documentation, a date or version number, and a process for announcing changes. A general statement such as “works with VR” does not tell you which generation, access route or software prerequisites are covered. If documentation is vague, record the uncertainty rather than treating silence as confirmation."
+      ],
+      "bullets": [
+        "Identify the exact headset model and software version you use now.",
+        "Check whether access depends on a native app, browser, connected computer or more than one component.",
+        "Note the publication or revision date of compatibility guidance."
+      ]
+    },
+    {
+      "heading": "Map the components that can change",
+      "paragraphs": [
+        "A VR viewing setup is a chain of dependencies. The headset hardware may rely on a system software version; the platform may require a supported browser or app; the app may be distributed through a store; and account access may depend on the platform’s own sign-in system. A change in any link can alter the experience. Mapping those dependencies helps you ask focused questions instead of asking only whether a platform supports a particular headset name.",
+        "Build a simple matrix for the current device and a possible replacement. Record the required software, access route, account or store dependency, and any official statement about support. Distinguish requirements from recommendations. For example, documentation may describe a browser route as available while suggesting another route for certain features. Do not assume that a headset listed as compatible supports every feature or every content format."
+      ],
+      "table": {
+        "caption": "Headset support transition matrix",
+        "headers": [
+          "Dependency",
+          "What to record",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Headset model and generation",
+            "Exact model and whether it is listed as supported",
+            "Current compatibility page naming the device"
+          ],
+          [
+            "System software",
+            "Minimum or supported version, if stated",
+            "Dated support article or installation requirements"
+          ],
+          [
+            "Access route",
+            "Native app, headset browser or computer-assisted path",
+            "Instructions for the specific route you intend to use"
+          ],
+          [
+            "Account dependency",
+            "Platform, device-store or linked account needed",
+            "Sign-in and account-linking documentation"
+          ],
+          [
+            "Change communication",
+            "How support changes are announced",
+            "Release notes, service notices or account messages"
+          ],
+          [
+            "Library and saved data",
+            "What is associated with the platform account or device",
+            "Terms and help pages explaining access and retention"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Evaluate the quality of support evidence",
+      "paragraphs": [
+        "Prefer evidence that is specific, current and attributable to the platform. A dated help page naming the device and software requirement is more useful than a broad compatibility badge with no explanation. Check whether the guidance distinguishes troubleshooting from officially supported access. Community posts can reveal questions worth asking, but they may describe a different software version, region or device configuration and should not replace current first-party instructions.",
+        "Check how the platform communicates changes. Search its help center or account settings for release notes, service notices or device-support updates. If there is no clear notice process, note that as a planning limitation. When contacting support, ask a narrow question: whether a specific model and software version are supported through the access route you expect, and where changes are announced. Avoid sharing passwords, recovery codes or unnecessary account data in the request."
+      ],
+      "bullets": [
+        "Prefer dated, device-specific first-party documentation.",
+        "Check whether the source distinguishes supported features from general playback access.",
+        "Use community reports as prompts for verification, not as definitive compatibility claims.",
+        "Save the URL and date of the evidence you relied on."
+      ]
+    },
+    {
+      "heading": "Plan for a device change without assuming access transfers",
+      "paragraphs": [
+        "Before replacing a headset, confirm what is tied to the platform account and what may be tied to a device-store account, app installation or local storage. Do not assume that subscriptions, purchases, saved items, downloads or settings transfer in the same way. Review the platform’s account and access terms and, where relevant, the device store’s own terms. If a library contains paid access or saved progress, preserve receipts and account identifiers through secure channels before making changes.",
+        "A low-risk transition plan is to verify the new device’s supported access route before signing out of or resetting the old one. Confirm that you can recover the platform account, then test any essential features using an allowed preview or existing access. If the old headset is being sold, lent or recycled, follow the manufacturer’s reset process and separately review platform sessions and linked accounts. A device reset and a platform sign-out are different actions; neither should be assumed to perform the other."
+      ],
+      "bullets": [
+        "Confirm account recovery access before retiring or resetting a headset.",
+        "Check whether purchases, subscriptions, saved items and locally stored files have different transfer rules.",
+        "Keep transaction receipts and support instructions available during a transition.",
+        "After moving devices, review active sessions and unlink devices you no longer control."
+      ]
+    },
+    {
+      "heading": "Make a support-transition decision",
+      "paragraphs": [
+        "A practical decision does not require predicting every future software change. Instead, rate the evidence you have: clear current compatibility, a documented support channel, understandable account dependencies and an exit or transition path. If one of these is unclear, decide whether that uncertainty matters for your expected use. A user who plans to use one device briefly may weigh lifecycle evidence differently from someone choosing a platform for a long-term library.",
+        "Keep the result in a short transition file: device model, access route, software version, official compatibility source, date checked, account dependencies and unanswered questions. Review it when buying a new headset, changing a major software version or receiving a support notice. This gives you a basis for rechecking facts without relying on an old bookmark or a remembered claim. It also makes a later support request more precise."
+      ],
+      "bullets": [
+        "Mark each support claim as confirmed, unclear or not applicable.",
+        "Set a reminder to recheck support when changing the headset or software, not on an arbitrary schedule.",
+        "Do not buy hardware solely on the basis of an unspecific compatibility label.",
+        "Keep the final choice tied to documented evidence and your own transition needs."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform’s current compatibility page guarantee future headset support?",
+      "answer": "No. It describes the information available at the time it was published. Software, devices and platform requirements can change, so check for dated updates and a support-change communication process."
+    },
+    {
+      "question": "Should I keep my old headset until the new one is tested?",
+      "answer": "If practical, preserving the old device temporarily can make it easier to verify sign-in and access before resetting or transferring. Do not leave accounts signed in on a device you no longer control; review sign-out, unlinking and reset steps as part of the transition."
+    },
+    {
+      "question": "What is the difference between device compatibility and account continuity?",
+      "answer": "Compatibility concerns whether a device and access route meet the platform’s requirements. Account continuity concerns whether you can sign in and retain the access or records associated with your account. Confirm both separately."
+    },
+    {
+      "question": "What information is useful when asking support about a headset?",
+      "answer": "Provide the headset model, relevant software version, intended access route and the specific feature you need to verify. Use an official support channel and do not include passwords, one-time codes or full payment details."
+    }
+  ]
+};

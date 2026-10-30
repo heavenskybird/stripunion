@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T00:58:52.986Z",
+  "generatedAt": "2026-10-30T01:56:53.032Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-username-visibility-audit.json",
-    "ops/editorial/content-artifacts/affiliate-promotion-claim-evidence-workflow.json",
-    "ops/editorial/content-artifacts/creator-platform-indirect-tax-responsibility-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-identity-verification-data-audit.json",
-    "ops/editorial/content-artifacts/premium-video-account-recovery-security-audit.json"
+    "ops/editorial/content-artifacts/adult-platform-billing-descriptor-preflight.json",
+    "ops/editorial/content-artifacts/adult-anime-title-alias-discovery-workflow.json",
+    "ops/editorial/content-artifacts/vr-headset-generation-support-transition-audit.json",
+    "ops/editorial/content-artifacts/free-video-moderation-transparency-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-community-reporting-and-rules-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-username-visibility-audit.js",
-    "src/data/guides/affiliate-promotion-claim-evidence-workflow.js",
-    "src/data/guides/creator-platform-indirect-tax-responsibility-audit.js",
-    "src/data/guides/adult-dating-identity-verification-data-audit.js",
-    "src/data/guides/premium-video-account-recovery-security-audit.js"
+    "src/data/guides/adult-platform-billing-descriptor-preflight.js",
+    "src/data/guides/adult-anime-title-alias-discovery-workflow.js",
+    "src/data/guides/vr-headset-generation-support-transition-audit.js",
+    "src/data/guides/free-video-moderation-transparency-checklist.js",
+    "src/data/guides/adult-games-community-reporting-and-rules-audit.js"
   ],
   "categories": [
-    "live-cams",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "dating-hookups",
-    "premium-videos"
+    "privacy-safety-payment",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "live-cam-username-visibility-audit",
-    "affiliate-promotion-claim-evidence-workflow",
-    "creator-platform-indirect-tax-responsibility-audit",
-    "adult-dating-identity-verification-data-audit",
-    "premium-video-account-recovery-security-audit"
+    "adult-platform-billing-descriptor-preflight",
+    "adult-anime-title-alias-discovery-workflow",
+    "vr-headset-generation-support-transition-audit",
+    "free-video-moderation-transparency-checklist",
+    "adult-games-community-reporting-and-rules-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "40982842141",
-  "phase": "closed"
+  "r1CycleId": "40988597602"
 }

@@ -1,0 +1,136 @@
+{
+  "backlogId": "adult-platform-billing-descriptor-preflight",
+  "slug": "adult-platform-billing-descriptor-preflight",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Billing Descriptors: Check What May Appear on Your Statement",
+  "description": "A practical pre-purchase checklist for understanding adult-platform billing descriptors, payment records, receipts, renewals and privacy limits before checkout.",
+  "excerpt": "A payment can leave several records, not just a bank statement entry. Learn what to check before paying, how to preserve useful receipts, and why a billing descriptor cannot be assumed private.",
+  "keyTakeaways": [
+    "A billing descriptor is not necessarily the same as a platform’s public-facing name; check the information shown by the payment provider and merchant before completing a transaction.",
+    "Consider all potential records: card or bank statements, payment-app activity, emailed receipts, account purchase history and shared-device notifications.",
+    "Do not assume that a generic-looking descriptor guarantees anonymity or that a merchant can change the label on request.",
+    "Use a payment method you are authorized to use, and review its statements and alert settings before relying on it for privacy.",
+    "Keep transaction records needed for account support or disputes in a location that is not routinely shared."
+  ],
+  "sections": [
+    {
+      "heading": "Why the descriptor deserves a pre-check",
+      "paragraphs": [
+        "When a person pays for an adult platform, the transaction may create records in more than one place. The billing descriptor—the text associated with a charge on a statement—is only one part of that trail. A confirmation email, payment-provider activity page, merchant account history, renewal notice or banking notification may identify the service differently. The wording can depend on how the merchant processes payments and on the bank or payment service that displays the transaction.",
+        "That is why it is risky to infer privacy from a platform’s brand name, checkout page or marketing language. A short label may be unfamiliar, a processor name may appear, or a statement may show a description that is longer or more specific than expected. These are possibilities to investigate, not universal rules. A careful pre-check focuses on what the actual transaction information says and where it can be seen."
+      ],
+      "bullets": [
+        "Before entering payment details, look for the merchant’s billing or payment help information and any description of statement entries.",
+        "Check whether a shared card, joint account or payment application exposes purchases to another account holder.",
+        "Treat a statement label as one record among several, not as a privacy guarantee."
+      ]
+    },
+    {
+      "heading": "Map every place a payment record could appear",
+      "paragraphs": [
+        "Start by making a simple record map. List the payment instrument, the account that controls it, the device used for checkout, and the channels that may send a receipt or alert. For example, a card transaction may appear on a bank statement, inside a banking app and in an email receipt. A payment wallet may also retain its own history. If the platform account is shared, its purchase history or billing page could be visible to other authorized users.",
+        "Then consider who can access each channel. A person may not have access to the physical card statement but still see a lock-screen notification on a shared phone. An email inbox may be open on a family computer, or a payment app may send transaction alerts to multiple devices. This map helps identify exposure before a charge is made, rather than after an unexpected alert or receipt appears."
+      ],
+      "table": {
+        "caption": "Payment-record map to complete before checkout",
+        "headers": [
+          "Record location",
+          "Questions to check",
+          "Practical next step"
+        ],
+        "rows": [
+          [
+            "Bank or card statement",
+            "Who can view or download it? What descriptor is displayed for a prior or test transaction, if available?",
+            "Review account access and statement-notification settings."
+          ],
+          [
+            "Payment app or wallet",
+            "Does it retain a transaction history or show merchant details? Are other devices signed in?",
+            "Review authorized devices and alert destinations."
+          ],
+          [
+            "Email or text receipt",
+            "Which address or number receives confirmations and renewal notices?",
+            "Use an account you control and can access safely."
+          ],
+          [
+            "Platform account",
+            "Can another profile or household member see purchases or subscription status?",
+            "Review account-sharing and purchase-history visibility."
+          ],
+          [
+            "Phone or computer notifications",
+            "Could a message appear on a lock screen, browser or connected device?",
+            "Adjust previews and check which devices receive alerts."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What to verify before authorizing payment",
+      "paragraphs": [
+        "Look for the actual payment terms and support route before submitting a charge. A billing FAQ may explain the merchant name used on statements, how receipts are delivered, or how to identify a transaction. If the information is missing or ambiguous, contact the merchant through a channel reached from its official site and ask a neutral, specific question about the statement descriptor and receipt delivery. Do not send full card numbers, passwords, one-time codes or identity documents in an ordinary support message.",
+        "Keep expectations realistic. The merchant may not control how a financial institution abbreviates or categorizes a transaction, and the descriptor could vary by payment route or location. A customer-support answer is useful evidence about the merchant’s stated process, not a promise that every bank, wallet or notification will display identical text. Avoid making a purchase solely to test a descriptor if the charge would create an unwanted renewal or other obligation."
+      ],
+      "bullets": [
+        "Confirm the merchant or processor named at checkout and the total amount and recurrence terms shown there.",
+        "Find the cancellation instructions and the date or condition that determines the next renewal, when relevant.",
+        "Ask whether receipts or transaction notices are sent automatically, and where they are sent.",
+        "Save a copy of the checkout terms or support response without including sensitive payment credentials."
+      ]
+    },
+    {
+      "heading": "Choose a recordkeeping approach that protects both privacy and recourse",
+      "paragraphs": [
+        "A clean payment record is useful if a charge is unclear, a renewal continues after cancellation, or support asks for transaction details. Keep the confirmation, transaction date, amount, merchant reference and cancellation confirmation where you can retrieve them. Redact unnecessary information before sharing a screenshot with support. A cropped statement entry or transaction reference may be enough; do not forward an entire bank statement when only one line is relevant.",
+        "At the same time, avoid erasing or hiding information in a way that leaves you unable to manage the account. If you store records digitally, consider whether they sync to a shared cloud account, appear in a shared photo library or are backed up to a device other people use. A private folder is only useful if the device account, backup and recovery access are also under your control. If a payment method is jointly owned, do not alter account settings or statements in a way that violates the provider’s rules or another account holder’s rights."
+      ],
+      "bullets": [
+        "Store only the records needed for support, cancellation and dispute follow-up.",
+        "Use a device or account with appropriate access controls; check whether backups are shared.",
+        "When contacting support, share the least information needed to identify the charge.",
+        "Retain confirmation of cancellation and the date it was completed."
+      ]
+    },
+    {
+      "heading": "Respond calmly if a descriptor is unexpected",
+      "paragraphs": [
+        "If a statement entry looks unfamiliar, first compare the date, amount and transaction reference with platform receipts and payment-app history. A merchant or processor label may not match the service name a customer remembers. Use the platform’s official support route to ask for help identifying the transaction, and avoid clicking links in unsolicited messages that claim to resolve billing issues. The payment provider can explain how it displays entries and what dispute process applies to the account.",
+        "If the charge appears unauthorized, act promptly through the financial institution or payment provider that issued the payment method. Follow its instructions, keep copies of relevant messages and note reference numbers. Do not post full statement details publicly. If the transaction is legitimate but the privacy implications are not acceptable, review renewal settings and cancellation terms rather than assuming that changing an email address or deleting a receipt will remove all financial records."
+      ],
+      "bullets": [
+        "Compare transaction details against records you control before concluding the charge is fraudulent.",
+        "Use official support channels and protect passwords, card numbers and verification codes.",
+        "Record support case numbers and any cancellation or dispute deadlines communicated by the provider."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I know exactly what will appear on my bank statement before paying?",
+      "answer": "Sometimes a merchant provides a descriptor example or a billing FAQ, but the final display can also depend on the payment processor and financial institution. Check the merchant’s current information and ask its official support team if needed; treat the answer as guidance, not a guarantee for every account or statement format."
+    },
+    {
+      "question": "Does a short or generic billing descriptor make a payment anonymous?",
+      "answer": "No. Other records may identify the merchant, including receipts, wallet history, account pages, alerts or information available to a payment provider. A descriptor alone cannot establish anonymity."
+    },
+    {
+      "question": "Should I make a small purchase just to test the descriptor?",
+      "answer": "Only consider that if you understand the cost, renewal terms and any other consequences, and the payment method is yours or authorized for your use. A prior transaction may not predict how a later charge will be displayed. Checking official billing information first is usually less disruptive."
+    },
+    {
+      "question": "What should I save if I need to cancel or question a charge?",
+      "answer": "Keep the transaction date, amount, merchant reference, relevant receipt, support correspondence and cancellation confirmation. Store them in a place you control and share only the minimum information needed when contacting support."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
