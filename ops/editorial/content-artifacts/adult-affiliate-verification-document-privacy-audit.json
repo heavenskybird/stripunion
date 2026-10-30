@@ -1,0 +1,123 @@
+{
+  "backlogId": "adult-affiliate-verification-document-privacy-audit",
+  "slug": "adult-affiliate-verification-document-privacy-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Verification: Check Identity Documents and Data Handling Before Applying",
+  "description": "Before joining an affiliate program, map its identity and business verification requests, submission channel, access controls and update process to reduce avoidable privacy and onboarding risks.",
+  "excerpt": "Verification requests can affect both account access and sensitive business records. Use this checklist to understand what is requested, how it is submitted and what happens when details change.",
+  "keyTakeaways": [
+    "Confirm that a verification request comes through an official program channel before submitting sensitive information.",
+    "List the requested personal, business, ownership and payment details, then identify why each item is needed and whether alternatives are accepted.",
+    "Check the upload channel, access permissions, retention information and support route for correcting or replacing documents.",
+    "Plan for name, address, entity or payout-detail changes before they create a mismatch between records.",
+    "Do not assume that verification requirements, processing timelines or document-handling practices are the same across programs."
+  ],
+  "sections": [
+    {
+      "heading": "Inventory the information a program requests",
+      "paragraphs": [
+        "Affiliate onboarding can ask for information about an individual, a business, the people who control that business or the account that will receive funds. The exact requirements vary. Before applying, make a list of every requested field and document rather than uploading whatever a form appears to accept. Separate identity details, business records, tax documentation and payout-account information so you can see what is being collected.",
+        "For each request, look for an explanation of its purpose and whether the program accepts a less sensitive alternative. Do not send extra documents simply because they are readily available. If a request is unclear, ask the program through a contact channel you independently know to be official. A request for sensitive records deserves a clear explanation before you act."
+      ],
+      "bullets": [
+        "Record each required document, the person or entity it concerns and the stated purpose.",
+        "Note whether the program requests originals, copies, translated records or specific file formats.",
+        "Ask whether nonessential fields can be obscured if the program’s process allows it."
+      ]
+    },
+    {
+      "heading": "Verify the request and submission channel",
+      "paragraphs": [
+        "A message that appears to come from a program is not enough by itself to establish that a document-upload link is genuine. Navigate to the program through a known official route, sign in from there and check whether the same request appears in the account or documented onboarding instructions. Be cautious about unexpected messages that create urgency, ask you to reply with attachments or redirect you to an unfamiliar file-sharing service.",
+        "Before submitting anything, check that the form or portal identifies the organization handling the application and uses an appropriate secure connection. If you cannot verify the channel, pause and contact support using contact information obtained independently. Do not share passwords, one-time codes or full payment credentials as a substitute for identity verification."
+      ],
+      "bullets": [
+        "Reach the account portal independently rather than relying on an unsolicited link.",
+        "Confirm unusual requests with a known support channel.",
+        "Keep a record of the request and submission date without retaining unnecessary copies of sensitive files."
+      ]
+    },
+    {
+      "heading": "Understand access, retention and correction options",
+      "paragraphs": [
+        "A privacy notice or verification policy may explain who can access submitted records, which service providers handle them, how long they are retained and how to request a correction or deletion. The detail and availability of that information differ by program. If the notice does not answer these questions, ask before submitting documents that reveal more information than routine account fields.",
+        "Also check how files are stored and whether verification is managed by the affiliate program itself or another provider. A third-party processor does not automatically mean the process is unsafe, but it does make the data-handling explanation important. Avoid sending the same identity documents through multiple channels unless the program explains why duplicate submission is necessary."
+      ],
+      "table": {
+        "caption": "Verification questions to record before uploading documents",
+        "headers": [
+          "Area",
+          "Question for the program"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "What account or compliance need does this item satisfy?"
+          ],
+          [
+            "Submission",
+            "Which official portal or channel should receive it?"
+          ],
+          [
+            "Access",
+            "Which program staff or service providers can view the record?"
+          ],
+          [
+            "Retention",
+            "Where are storage and deletion or retention practices explained?"
+          ],
+          [
+            "Correction",
+            "How can an outdated or incorrect document be replaced?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Prevent avoidable identity and entity mismatches",
+      "paragraphs": [
+        "Differences between an application name, contracting entity, tax record and payout-account holder can trigger review or delay account setup. Before applying, decide which person or entity will sign the agreement and receive payment, then check that the information is consistent across the relevant records. Do not select an entity name merely because it is convenient if you are not authorized to act for it.",
+        "If a legitimate change occurs later—such as a business name, address, ownership or payout-account change—use the program’s documented update process. Ask whether a change requires fresh verification and whether the account should pause certain activity while the change is reviewed. Keeping a dated record of what was submitted and when can help resolve discrepancies without repeatedly sending full document sets."
+      ]
+    },
+    {
+      "heading": "Build a minimal, controlled recordkeeping workflow",
+      "paragraphs": [
+        "Keep the application confirmation, relevant policy version, support correspondence and a list of submitted document types in a restricted business record. Avoid storing unredacted identity files in a shared folder, email inbox or general project-management system. If a copy must be retained for an operational reason, limit access, use appropriate account security and set a review date for whether it is still needed.",
+        "Assign one person to coordinate verification questions and record changes if several people manage the affiliate operation. That reduces duplicate submissions and inconsistent answers. A clear workflow also helps if staff change or a verification request is disputed: the business can see what was requested, what was provided and which official response followed."
+      ],
+      "bullets": [
+        "Limit access to sensitive onboarding files to people who need them.",
+        "Keep a document-submission log separate from broadly shared campaign notes.",
+        "Use the program’s official correction or support process rather than emailing documents to an unknown address."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I upload identity documents in response to an unexpected email?",
+      "answer": "Pause and verify the request through an independently reached official account portal or support channel. Do not rely on a message link alone, especially if it demands immediate action or asks for documents by ordinary email."
+    },
+    {
+      "question": "Can I obscure information on a document before submitting it?",
+      "answer": "Possibly, but do not alter a document in a way that makes it misleading. Ask the program whether it accepts redacted copies and which fields must remain visible. Follow the program’s documented instructions."
+    },
+    {
+      "question": "What should I do if my business or payout details change?",
+      "answer": "Use the program’s documented update procedure, ask whether new verification is required and record the date and confirmation. Do not assume a change to one account field automatically updates every agreement or payment record."
+    },
+    {
+      "question": "Does a privacy notice guarantee that documents will be deleted on request?",
+      "answer": "No. A notice describes a program’s stated practices and may explain exceptions or retention requirements. Read the actual terms and ask the program how a specific record is handled rather than assuming deletion is available."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

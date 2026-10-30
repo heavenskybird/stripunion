@@ -1,0 +1,111 @@
+export default {
+  "slug": "premium-video-language-track-availability-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Audio and Subtitle Language Availability Before Joining",
+  "description": "Learn how to verify audio tracks, subtitles and language-label consistency across a premium video library before choosing a subscription.",
+  "excerpt": "A language label on a platform does not necessarily describe every title or edition. Check the details that matter to your viewing before treating language support as a membership-wide feature.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Distinguish platform-interface language from the audio and subtitle options available on individual videos.",
+    "Check several relevant title pages rather than inferring library-wide support from one example.",
+    "Look for title-level track details, sample playback or preview controls that let you verify labels.",
+    "Check whether audio, subtitles and captions are described separately and whether settings persist between titles.",
+    "Treat unclear or inconsistent language information as an unresolved point, not as proof that a track is available."
+  ],
+  "sections": [
+    {
+      "heading": "Separate interface language from video language",
+      "paragraphs": [
+        "A platform may offer navigation or account settings in a language that is not available as an audio track or subtitle option for its videos. These are separate capabilities. When evaluating a subscription, write down the language needs that matter to you and identify whether each concerns menus, spoken audio, subtitles, captions or support information.",
+        "Do not treat a general statement such as “available in multiple languages” as confirmation for every title. The wording might describe the site interface, selected programs or a limited set of tracks. Look for title-level details and note whether the platform explains what its language labels mean. If the distinction is not clear, ask support about a specific title before relying on a broad claim."
+      ],
+      "bullets": [
+        "List the languages you need for audio, subtitles or captions separately.",
+        "Check interface-language settings independently of title playback details.",
+        "Record any terms the platform uses for subtitles, captions and dubbed or alternate audio."
+      ]
+    },
+    {
+      "heading": "Verify language details on the titles you would actually watch",
+      "paragraphs": [
+        "Start with a short list of titles or series that represent your likely use, then inspect each available detail page. Look for explicit audio and subtitle information, not just a country flag, a translated title or a general category tag. If a series has multiple editions or episodes, check whether the language options are listed consistently across them.",
+        "When preview access is available, use it to confirm that the controls expose the options described on the listing. A preview may not represent the full subscription experience, so record what it does and does not demonstrate. If there is no preview, the detail page or a support response may still provide evidence, but distinguish stated availability from something you personally verified."
+      ],
+      "table": {
+        "caption": "A title-level language verification record",
+        "headers": [
+          "Item to check",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Audio",
+            "The title page identifies the spoken-language track or states that none is listed."
+          ],
+          [
+            "Subtitles",
+            "The page or player identifies subtitle languages separately from audio."
+          ],
+          [
+            "Captions",
+            "Any caption option is described distinctly rather than assumed from subtitles."
+          ],
+          [
+            "Consistency",
+            "Related episodes or editions show whether language options vary."
+          ],
+          [
+            "Verification",
+            "Note whether the detail came from a listing, preview or direct support response."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how language options appear in the player",
+      "paragraphs": [
+        "A language may be listed in a catalog description but be difficult to select or identify in the player. If a preview or accessible sample is offered, check whether the track menu is visible, whether labels are understandable and whether subtitle controls are separate from audio controls. This is a usability check, not a guarantee about every device or every title.",
+        "Pay attention to whether settings appear to apply to one video or carry over to another. A platform might require users to select a track title by title. If the controls are unavailable in a preview, mark the behavior as unknown rather than assuming it will work a particular way after subscribing. Mobile and desktop interfaces can differ, so test the device you expect to use when the platform permits it."
+      ]
+    },
+    {
+      "heading": "Assess consistency across a library, not just one example",
+      "paragraphs": [
+        "A single title with the right tracks does not establish that the rest of a catalog has them. Compare a handful of titles from the series, categories or publishers that are most relevant to you. Track whether language details are present, absent or simply not disclosed. This helps distinguish a true mismatch from a catalog-information gap.",
+        "When comparing platforms, use the same small sample of titles or equivalent content types and apply the same evidence standard. Do not convert missing metadata into a claim that a language is unavailable, and do not treat a promotional label as proof that all titles include that option. A useful comparison preserves uncertainty instead of hiding it."
+      ],
+      "bullets": [
+        "Mark each title as confirmed, stated but untested, not listed or unclear.",
+        "Avoid generalizing from one title to an entire publisher or library.",
+        "Save the date of the check if catalog details may change."
+      ]
+    },
+    {
+      "heading": "Make language fit part of the subscription decision",
+      "paragraphs": [
+        "Before joining, decide which language features are essential and which are optional. If a particular audio or subtitle track is essential, treat a platform as a poor fit until its availability is supported by clear title-level information or a reliable response from the service. If the feature is optional, you may instead decide that incomplete metadata is an acceptable uncertainty.",
+        "Keep a short record of the specific titles checked, the track details shown and any unanswered questions. Revisit that record if the platform changes its catalog, interface or membership terms. This approach helps avoid a decision based on a general headline while staying proportionate: you need enough evidence for your own priorities, not an exhaustive audit of every video."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a translated platform interface mean its videos have subtitles in that language?",
+      "answer": "No. Interface language and video tracks are distinct. Check title-level audio, subtitle and caption details separately, and ask about specific titles if the information is not clear."
+    },
+    {
+      "question": "Can I assume every episode in a series has the same language options?",
+      "answer": "No. Track availability may vary by title, episode or edition. Check the entries you care about rather than extending one listing’s information to an entire series."
+    },
+    {
+      "question": "Are captions and subtitles interchangeable labels?",
+      "answer": "Not necessarily. Platforms may use the terms differently or provide one without the other. Check the platform’s definitions and the player’s actual options instead of assuming they describe identical features."
+    },
+    {
+      "question": "What if a title page does not list any language information?",
+      "answer": "Treat the information as unknown, not as confirmation that a track exists or does not exist. Ask support about the specific title or use available preview access to check what can be verified."
+    }
+  ]
+};

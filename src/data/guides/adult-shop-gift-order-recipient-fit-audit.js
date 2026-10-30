@@ -1,0 +1,112 @@
+export default {
+  "slug": "adult-shop-gift-order-recipient-fit-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Buying an Adult-Shop Gift: Check Recipient Fit, Privacy and Return Options",
+  "description": "Use this practical checklist to assess whether an adult-shop gift is welcome, suitable and easy to receive, exchange or return without unnecessary privacy surprises.",
+  "excerpt": "A thoughtful gift starts with the recipient’s comfort and control—not a guess about what they want. Check consent, product suitability, delivery visibility and return terms before ordering.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Choose a gift only when the recipient has indicated that this kind of present would be welcome; otherwise, choose a less personal option.",
+    "Check recipient-facing details such as product dimensions, materials, care instructions and included components rather than relying on a broad product label.",
+    "Look for gift receipts, exchange options and return conditions before purchase, because hygiene-related exclusions may apply.",
+    "Consider who can see the delivery address, order notices, parcel and payment record, and give the recipient control over any account or product registration.",
+    "Keep the order confirmation and policy details until the recipient has received and reviewed the gift."
+  ],
+  "sections": [
+    {
+      "heading": "Start with consent and the recipient’s level of comfort",
+      "paragraphs": [
+        "An intimate or personal product is not a neutral gift. Before selecting one, consider whether the recipient has clearly welcomed this category of present. A past conversation about shopping preferences may help, but it is not a substitute for permission to make a particular purchase on someone else’s behalf. If you are unsure, ask directly in a low-pressure way or choose a different gift.",
+        "Avoid treating a surprise as a reason to bypass the recipient’s boundaries. The person receiving the gift should be free to decline it, exchange it or keep it unopened without having to explain themselves. A gift note can make that freedom explicit. Avoid choosing based on assumptions about someone’s relationships, body, health, identity or private life."
+      ],
+      "bullets": [
+        "Would the recipient be comfortable receiving this type of gift from you?",
+        "Can they decline or exchange it without social pressure?",
+        "Would a gift card or a jointly chosen item be more considerate?"
+      ]
+    },
+    {
+      "heading": "Match product information to the recipient’s actual preferences",
+      "paragraphs": [
+        "Once the gift category is welcome, compare the information that affects suitability. Check product dimensions, materials, care instructions, power or accessory requirements where relevant, and the exact contents of the package. A product name or promotional image may not answer the practical questions a recipient would want answered. Use the retailer’s written listing and manufacturer documentation where available.",
+        "Do not infer a person’s fit, experience or preferences from appearance, age or relationship status. If the choice depends on details you do not know, favor an option that lets the recipient make the final selection. Keep in mind that a product with a generous-sounding description may still have specific use, care, storage or compatibility requirements."
+      ],
+      "table": {
+        "caption": "A gift-fit check before adding an item to the order",
+        "headers": [
+          "Question",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Is the item welcome?",
+            "The recipient has expressed interest or has an easy way to choose a different gift."
+          ],
+          [
+            "Is the listing specific?",
+            "Dimensions, materials, included components and care information are clear."
+          ],
+          [
+            "Does it need anything else?",
+            "Any required accessory, charging method or compatible device is identified."
+          ],
+          [
+            "Can the recipient change their mind?",
+            "Gift receipt, exchange and return conditions are understood."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Plan for delivery visibility and account control",
+      "paragraphs": [
+        "A gift can reveal more than intended through order emails, shared shopping accounts, delivery alerts or payment records. Before checkout, identify which name, email address, phone number and delivery address the retailer will use. If the gift should arrive at the recipient’s home, consider whether other household members can see parcel notices or handle the package. Do not use someone else’s account or contact details without permission.",
+        "If the recipient will need a receipt, registration or warranty information, decide how to provide it without taking control of their account. A gift receipt or a printed copy of relevant product documentation can be more appropriate than registering an item in the recipient’s name yourself. Give the recipient any access details directly and let them choose whether to create an account or share information with the retailer."
+      ],
+      "bullets": [
+        "Use contact information you are authorized to provide.",
+        "Check whether order updates go to the purchaser, recipient or both.",
+        "Do not register the recipient’s product or create an account on their behalf without consent."
+      ]
+    },
+    {
+      "heading": "Check gift receipts, exchanges and hygiene-related exclusions",
+      "paragraphs": [
+        "Read the return and exchange terms before placing the order, not after giving the gift. Retailers may distinguish between unopened items, opened packaging, faulty goods, personal-care products and ordinary merchandise. The exact rules vary, so do not assume a gift receipt overrides every restriction or that a recipient can return an item simply because it was unwanted.",
+        "Check who can initiate a return, what proof of purchase is required and whether the retailer offers an exchange or store credit instead of a refund. If the policy is unclear, ask customer support a specific question before checkout and keep the response. Do not promise the recipient a particular remedy unless the retailer’s written policy supports it."
+      ]
+    },
+    {
+      "heading": "Hand over the gift with useful, low-pressure information",
+      "paragraphs": [
+        "A discreet handover can still include practical information. Provide a gift receipt or the order reference if needed, point out any care or product documentation, and explain how to contact the retailer without sharing your account password. If the recipient would rather not keep the item, make clear that an exchange or return is their choice, subject to the retailer’s terms.",
+        "Keep the confirmation, product listing and relevant policy information until the recipient has had a chance to review the gift. If a delivery problem or product issue arises, use the purchaser’s order record to help resolve it while avoiding unnecessary disclosure of the recipient’s personal details. A considerate gift preserves the recipient’s choice after delivery as well as before it."
+      ],
+      "bullets": [
+        "Include a gift receipt when available and appropriate.",
+        "Share care and product information without making assumptions about how the item will be used.",
+        "Let the recipient decide whether to keep, exchange or return the gift."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a gift card safer than choosing a product?",
+      "answer": "It can give the recipient more control over product choice and fit, but check its expiry, redemption, refund and account conditions first. A gift card is not automatically private: purchase emails, account records or delivery notifications may still reveal the purchase."
+    },
+    {
+      "question": "Can a recipient return an opened item?",
+      "answer": "That depends on the retailer’s current policy, the item and its condition. Hygiene-related exclusions may apply. Check the written terms before buying, and avoid promising that an opened product can be returned."
+    },
+    {
+      "question": "Should I register the product for the recipient?",
+      "answer": "Usually, let the recipient decide whether to register it. Registration may require their contact information or create an account record. Provide the documentation or receipt they need and avoid submitting personal details on their behalf without permission."
+    },
+    {
+      "question": "What if I do not know whether this kind of gift is welcome?",
+      "answer": "Ask in a low-pressure way, offer a choice, or select a different gift. A surprise should not require the recipient to accept something personal that they would not have chosen."
+    }
+  ]
+};
