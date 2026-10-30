@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T20:48:56.215Z",
+  "generatedAt": "2026-10-30T22:47:59.405Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-billing-privacy-preflight.json",
-    "ops/editorial/content-artifacts/premium-video-playback-quality-preflight.json",
-    "ops/editorial/content-artifacts/adult-dating-location-privacy-controls-audit.json",
-    "ops/editorial/content-artifacts/vr-headset-resale-account-data-cleanup.json",
-    "ops/editorial/content-artifacts/adult-anime-publisher-credit-verification.json"
+    "ops/editorial/content-artifacts/free-video-discovery-pathway-evidence-audit.json",
+    "ops/editorial/content-artifacts/adult-games-os-storefront-compatibility-matrix.json",
+    "ops/editorial/content-artifacts/adult-shop-payment-statement-privacy-check.json",
+    "ops/editorial/content-artifacts/premium-video-billing-descriptor-privacy-audit.json",
+    "ops/editorial/content-artifacts/adult-affiliate-business-model-structure-comparison.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-billing-privacy-preflight.js",
-    "src/data/guides/premium-video-playback-quality-preflight.js",
-    "src/data/guides/adult-dating-location-privacy-controls-audit.js",
-    "src/data/guides/vr-headset-resale-account-data-cleanup.js",
-    "src/data/guides/adult-anime-publisher-credit-verification.js"
+    "src/data/guides/free-video-platform-discovery-pathway-evidence-audit.js",
+    "src/data/guides/adult-games-os-storefront-compatibility-matrix.js",
+    "src/data/guides/adult-shop-payment-statement-privacy-check.js",
+    "src/data/guides/premium-video-subscription-billing-descriptor-privacy-audit.js",
+    "src/data/guides/adult-affiliate-program-business-model-structure-comparison.js"
   ],
   "categories": [
-    "live-cams",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "premium-videos",
-    "dating-hookups",
-    "vr-ar",
-    "hentai-anime"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "live-cam-billing-privacy-preflight",
-    "premium-video-playback-quality-preflight",
-    "adult-dating-location-privacy-controls-audit",
-    "vr-headset-resale-account-data-cleanup",
-    "adult-anime-publisher-credit-verification"
+    "free-video-discovery-pathway-evidence-audit",
+    "adult-games-os-storefront-compatibility-matrix",
+    "adult-shop-payment-statement-privacy-check",
+    "premium-video-billing-descriptor-privacy-audit",
+    "adult-affiliate-business-model-structure-comparison"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41125937523",
-  "phase": "closed"
+  "r1CycleId": "41140077141"
 }
