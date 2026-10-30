@@ -1,0 +1,109 @@
+export default {
+  "slug": "webmaster-affiliate-program-claim-and-terms-change-monitor",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Monitor Program Claims and Terms Before Updating Your Site",
+  "description": "Create a practical workflow for checking affiliate program terms, offer descriptions, and operational claims before publishing or refreshing webmaster content.",
+  "excerpt": "Program terms and offer details can change. Build a lightweight review process that ties each published claim to a source, date, and update decision.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Keep a source and review date for material program or offer claims.",
+    "Distinguish stable descriptive information from terms that can change.",
+    "Recheck the governing program documents before making consequential updates.",
+    "Correct or remove unsupported claims rather than repeating old copy.",
+    "Record changes and decisions so collaborators can understand why a page was revised."
+  ],
+  "sections": [
+    {
+      "heading": "Treat published affiliate claims as maintainable records",
+      "paragraphs": [
+        "Affiliate pages can remain online long after the facts used to create them have changed. A claim about eligibility, permitted promotion, offer availability, attribution, or payment logic may become inaccurate if the governing material is revised. A maintenance workflow makes it easier to identify which statements need a fresh check and which are broad editorial explanations that do not depend on one program’s current terms.",
+        "For each material claim, record what it says, where it came from, when it was checked, and who is responsible for reviewing it. The record does not need to be complicated. A shared content sheet or issue tracker can be enough if it is accessible to the people who update the site and clearly distinguishes verified information from interpretation."
+      ],
+      "bullets": [
+        "Keep the source next to the claim, not only in a general notes file.",
+        "Record a review date and responsible editor.",
+        "Flag statements that depend on current program documentation."
+      ]
+    },
+    {
+      "heading": "Classify claims by how quickly they may change",
+      "paragraphs": [
+        "Not every sentence needs the same review cadence. A general explanation of how webmasters can compare program policies is different from a statement about a particular offer, application requirement, or current operating term. Classifying claims helps you direct review effort toward details where outdated wording could mislead a reader or create operational problems.",
+        "Use categories such as evergreen guidance, program-specific terms, offer-specific details, and time-sensitive notices. The categories are a prioritization aid, not a guarantee that any information will remain current. When a claim has no reliable source or date, avoid presenting it as settled fact. Replace it with a qualified explanation or remove it until it can be verified."
+      ],
+      "table": {
+        "caption": "A claim register for affiliate content maintenance",
+        "headers": [
+          "Claim type",
+          "Example to track",
+          "Review action"
+        ],
+        "rows": [
+          [
+            "General guidance",
+            "How to compare program documentation",
+            "Review when the article’s purpose or policy context changes"
+          ],
+          [
+            "Program-specific term",
+            "A stated traffic restriction or eligibility rule",
+            "Check the current governing document before publication"
+          ],
+          [
+            "Offer detail",
+            "A named landing page or advertised condition",
+            "Verify the destination and claim immediately before use"
+          ],
+          [
+            "Time-sensitive notice",
+            "A dated change or temporary limitation",
+            "Add an expiry or follow-up date and remove when stale"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a source hierarchy and preserve evidence",
+      "paragraphs": [
+        "When checking a statement, prioritize the documents that govern the relationship or explain the offer directly. A dashboard notice, current program agreement, or official program communication may be more relevant than an old saved page or an informal third-party summary. If sources appear to conflict, record the conflict and seek clarification through an appropriate program contact rather than silently choosing the most convenient interpretation.",
+        "Preserve enough evidence to explain why a statement was published: the document title, date accessed, relevant section, and a secure copy or link where appropriate. Do not store credentials or unnecessary personal information alongside editorial records. Evidence should support editorial accuracy and operational decisions without becoming an uncontrolled repository of sensitive account data."
+      ]
+    },
+    {
+      "heading": "Review pages when a trigger occurs",
+      "paragraphs": [
+        "A calendar review can help, but event-based checks are equally useful. Triggers may include a program notice, a destination change, a dashboard update, a broken link, a significant site redesign, or an editor’s discovery that a claim has no source. Define which events prompt a review and who can mark a page as needing attention. This keeps maintenance from depending solely on memory.",
+        "When a trigger occurs, check the exact statements affected rather than rewriting an entire page without evidence. Confirm the relevant terms, update any related links or disclosures where needed, and note whether the page should be paused, revised, or left unchanged. The workflow is about controlling editorial risk, not predicting whether a program will change."
+      ],
+      "bullets": [
+        "Log the trigger and the date it was received.",
+        "Identify all pages that rely on the affected claim.",
+        "Verify the applicable source before changing wording.",
+        "Record the decision and any follow-up task."
+      ]
+    },
+    {
+      "heading": "Set a clear correction and ownership process",
+      "paragraphs": [
+        "A useful maintenance process explains what happens when a claim cannot be verified. Options include removing the statement, adding a clear qualification, replacing it with a general comparison criterion, or temporarily unpublishing affected content. Choose based on the importance of the claim and the risk of leaving it unclear. Do not keep a strong assertion merely because it appears in older copy.",
+        "Assign an owner for review and a second route for escalation when that person is unavailable. For team sites, define how editors communicate changes to whoever manages referral links and compliance. A concise change log can record the old statement, the evidence checked, the new wording, and the reviewer. This lets future editors understand the rationale rather than reintroducing an unsupported claim."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should affiliate content be reviewed?",
+      "answer": "There is no single interval that fits every claim. Set review priorities according to how consequential and changeable the information is, and also review when a program notice, destination issue, or other relevant trigger occurs."
+    },
+    {
+      "question": "What should I do if program documents conflict?",
+      "answer": "Record the conflicting sources and avoid presenting the disputed point as certain. Seek clarification through an appropriate official contact and update the page when you have enough evidence to support accurate wording."
+    },
+    {
+      "question": "Should an old claim stay on a page if I cannot find its source?",
+      "answer": "Not as an unqualified fact. Remove it, qualify it clearly, or replace it with a general decision criterion until you can verify it. Retaining unsupported language can mislead readers and complicate later maintenance."
+    }
+  ]
+};

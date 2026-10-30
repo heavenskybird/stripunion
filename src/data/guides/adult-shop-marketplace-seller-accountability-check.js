@@ -1,0 +1,109 @@
+export default {
+  "slug": "adult-shop-marketplace-seller-accountability-check",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Who Sells and Fulfills a Marketplace Order",
+  "description": "Before ordering from an adult-shop marketplace, identify the seller, fulfillment party, returns contact, shipping information, and privacy responsibilities.",
+  "excerpt": "A marketplace listing may involve more than one business. Use this checklist to identify who accepts your order and handles common post-purchase questions.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Identify the seller of record rather than relying only on the marketplace name or product listing.",
+    "Check who fulfills the order and which party provides shipping updates.",
+    "Find the applicable returns and customer-support route before checkout.",
+    "Review whether different sellers in one cart have different order terms.",
+    "Keep a record of the listing and terms shown when you placed the order."
+  ],
+  "sections": [
+    {
+      "heading": "A marketplace listing can involve several parties",
+      "paragraphs": [
+        "An online marketplace may display a product on one site while another business sells or ships it. That distinction matters when you need to ask about an order, delivery estimate, return request, or product listing. The marketplace’s familiar branding does not by itself establish which party is responsible for each part of the transaction.",
+        "Before adding an item to your cart, look for the seller name, fulfillment information, and any explanation of who handles support. These details may appear near the purchase button, in the cart, or in the terms. If the roles are unclear, pause and identify what would happen if the package were delayed, the item arrived differently than described, or you needed to ask a policy question."
+      ],
+      "bullets": [
+        "Who is named as the seller?",
+        "Who is expected to pack or ship the order?",
+        "Who handles order questions and return requests?"
+      ]
+    },
+    {
+      "heading": "Trace the order path before checkout",
+      "paragraphs": [
+        "Follow a product from its listing into the cart and checkout. Confirm that the seller name and item details remain visible, particularly if you add products from multiple sellers. A cart with items from different businesses may divide into separate shipments or apply different delivery and return terms. Do not assume that one checkout means one seller or one support channel.",
+        "Check whether the checkout explains which party receives order information and which party sends shipping notices. The exact arrangement depends on the retailer and transaction, so use the page and policy text in front of you rather than assuming a marketplace follows one universal model. If the seller changes between the product page and checkout, review the final terms before submitting the order."
+      ],
+      "table": {
+        "caption": "Map each order responsibility to the information shown at checkout",
+        "headers": [
+          "Order responsibility",
+          "What to identify",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Sale",
+            "Named seller or seller-of-record information",
+            "Shows which business is associated with the purchase"
+          ],
+          [
+            "Fulfillment",
+            "Party shipping or preparing the order",
+            "Clarifies where shipment questions may be directed"
+          ],
+          [
+            "Returns",
+            "Policy and request channel for that item",
+            "Prevents assuming one marketplace-wide rule applies"
+          ],
+          [
+            "Support",
+            "Contact route for order or listing issues",
+            "Helps you avoid being sent between unclear channels"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare policy details item by item",
+      "paragraphs": [
+        "Review the delivery, cancellation, and return information that applies to each item rather than relying on a general policy page alone. Marketplace terms may include shared rules alongside seller-specific conditions. A useful comparison records the source of the rule and any exceptions shown for an individual listing, without assuming that one item’s terms automatically cover another.",
+        "Check whether the policy explains how a request is started, what information is needed, and which party makes the decision. This is a practical way to assess clarity, not a guarantee about how a future request will be handled. If the process is hard to locate before purchase, note that as a decision factor and consider contacting the listed support channel for clarification."
+      ]
+    },
+    {
+      "heading": "Assess shipping and privacy information",
+      "paragraphs": [
+        "Review shipping information for the item and seller you selected. Look for the stated delivery options, any available tracking explanation, and the party responsible for providing updates. Avoid reading a general delivery statement as a promise for every seller or destination. If you need a particular delivery arrangement, confirm that it is offered for the specific item and address before placing the order.",
+        "Privacy information can also be spread across marketplace and seller notices. Check what the checkout says about order information, shipping communications, and account records. Use only the information necessary to complete the transaction, and consider whether account notifications or order emails could be visible on a shared device. A clear privacy notice is useful context, but it should not be treated as a guarantee that every party handles data identically."
+      ],
+      "bullets": [
+        "Confirm delivery details for the selected seller and destination.",
+        "Identify which party sends order and tracking messages.",
+        "Review marketplace and seller privacy information where available.",
+        "Save the order confirmation and relevant terms securely."
+      ]
+    },
+    {
+      "heading": "Keep evidence and know where to ask",
+      "paragraphs": [
+        "After checkout, retain the confirmation, seller name, item description, and the policy information that applied to the order. A screenshot or saved copy can help you reconstruct what was displayed if a listing or policy later changes. Store records in a private place and avoid keeping unnecessary sensitive information in an easily shared folder.",
+        "If an issue arises, start with the support route identified for the specific order. Explain the issue clearly and include relevant order details without sending more personal information than requested. If the marketplace and seller direct you to different contacts, keep a dated record of the instructions. This makes follow-up more orderly without assuming in advance which party will resolve the issue."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the marketplace always the seller?",
+      "answer": "Not necessarily. A marketplace can host listings from separate sellers, and it may also handle some parts of the ordering experience. Check the seller information shown for the specific item and at checkout rather than relying on the site’s brand alone."
+    },
+    {
+      "question": "Can items in one cart have different delivery or return terms?",
+      "answer": "They can. When multiple sellers or fulfillment arrangements are involved, review the terms for each item. Check the order summary and applicable policy text for differences before submitting payment."
+    },
+    {
+      "question": "What should I save after placing an order?",
+      "answer": "Keep the confirmation, seller and item details, and relevant policy information. Save them in a location you control and can access if you need to ask a question. Avoid retaining unnecessary personal or payment data in informal notes."
+    }
+  ]
+};

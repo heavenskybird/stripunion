@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-games-input-remapping-usability-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Input Remapping and Control Accessibility Before Buying",
+  "description": "Use a practical checklist to assess control remapping, keyboard and controller options, interface navigation, and accessibility information before choosing an adult game.",
+  "excerpt": "A game may support your device yet still be difficult to control. Check remapping, input options, menus, and accessibility information before committing.",
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "Separate basic device compatibility from whether the controls are comfortable and usable for you.",
+    "Look for clear documentation on remapping, input methods, and menu navigation.",
+    "Use a demo or preview, when available, to test the actual interface rather than relying on a feature list.",
+    "Record missing information as unknown instead of assuming that a control option exists.",
+    "Consider whether an update could change control behavior and how you would verify that."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility does not guarantee control fit",
+      "paragraphs": [
+        "A listing that says a game runs on a particular computer or supports a controller answers only part of the practical question. You may also need to know whether the game can be controlled comfortably with your preferred input method, whether its menus are navigable without a mouse, and whether important actions can be reassigned. These details can make the difference between a game that technically launches and one that works for your routine.",
+        "Start by writing down the input devices you expect to use and the actions that matter most to you. For example, note whether you need keyboard-only navigation, a particular controller layout, adjustable sensitivity, or the ability to avoid holding a key continuously. Treat these as individual requirements, not as assumptions bundled into a general compatibility statement."
+      ],
+      "bullets": [
+        "List your required input devices before comparing storefront listings.",
+        "Mark each requirement as confirmed, unavailable, or not documented."
+      ]
+    },
+    {
+      "heading": "Read control documentation for specifics",
+      "paragraphs": [
+        "Look for a control map, settings description, accessibility page, or help article that explains what can be changed. A phrase such as “controller support” may not clarify whether buttons can be reassigned, whether menus work with the controller, or whether the game requires a keyboard for setup. Specific, visible documentation is more useful than a broad compatibility label.",
+        "Check whether remapping applies throughout the game or only to selected actions. See if the settings explain how to restore defaults and whether separate profiles can be saved. If documentation is missing, use a support or community channel to ask a precise question, but distinguish an official response from an unverified comment."
+      ],
+      "table": {
+        "caption": "A simple way to classify control evidence before purchase",
+        "headers": [
+          "Requirement",
+          "Evidence to look for",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Button remapping",
+            "Settings list or official control guide",
+            "Confirm the actions you need can be reassigned"
+          ],
+          [
+            "Menu navigation",
+            "Demo, manual, or explicit documentation",
+            "Check whether setup works with your preferred input"
+          ],
+          [
+            "Continuous input",
+            "Control descriptions or hands-on preview",
+            "Look for an alternative if holding a control is a barrier"
+          ],
+          [
+            "Restore settings",
+            "Reset option or documented procedure",
+            "Know how to recover from an unsuitable layout"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the complete path from launch to settings",
+      "paragraphs": [
+        "When a demo or preview is available, test more than the opening screen. Check whether you can reach settings, change an assignment, navigate menus, and return to the game without switching to an unsupported input device. A short test of the complete path can reveal friction that a feature checklist misses. Do not assume a preview includes every setting in the purchased version; note what it does and does not demonstrate.",
+        "If you cannot test the game directly, use available screenshots, help pages, and developer responses to answer the same questions. Avoid treating silence as proof that a feature is absent or present. Instead, list the unresolved requirement and decide whether that uncertainty is acceptable under the storefront’s current terms."
+      ],
+      "bullets": [
+        "Can you reach and operate settings with your intended device?",
+        "Can you change controls and return to a usable default?",
+        "Do menus and prompts remain understandable with your chosen input?",
+        "Does the preview represent the version and platform you intend to use?"
+      ]
+    },
+    {
+      "heading": "Check interface readability and timing demands",
+      "paragraphs": [
+        "Control usability also depends on the interface. Small labels, unclear prompts, limited text scaling, or rapid input sequences may make an otherwise supported layout difficult to use. Look for screenshots or a demo that show settings and prompts at the size you expect to view them. If the game has adjustable timing or difficulty options, verify that the controls and descriptions actually explain those options.",
+        "Consider your own device setup as well. A control layout that works at a desk may not suit a handheld device or a different screen arrangement. Check whether the game allows you to adjust key bindings, sensitivity, or interface display settings where those options matter to you. Do not infer these capabilities solely from a platform logo or device-support claim."
+      ]
+    },
+    {
+      "heading": "Keep a decision record and revisit after updates",
+      "paragraphs": [
+        "Before buying, keep a short record of the requirements you checked, the evidence source, and any open questions. This makes comparison more consistent across storefronts and reduces reliance on memory. A compact record can also help you distinguish a confirmed limitation from a detail that was simply undocumented at the time.",
+        "Games can receive updates, and an update may affect controls or menus. If control fit is essential, check release notes or current help material before relying on a feature you tested earlier. Save any settings guidance that is useful, but do not assume that a previous configuration will remain unchanged after an update or on a different device."
+      ],
+      "bullets": [
+        "Requirement: what must the game support?",
+        "Evidence: where did you confirm it?",
+        "Uncertainty: what remains unanswered?",
+        "Recheck: what would prompt you to test again?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does controller support mean every control can be remapped?",
+      "answer": "No. Controller support and remapping are separate details. Check for a control map or settings documentation that identifies which actions can be reassigned and whether the menus themselves can be operated with the controller."
+    },
+    {
+      "question": "What if a storefront does not describe accessibility controls?",
+      "answer": "Treat the feature as undocumented, not confirmed. Look for official help material or ask a specific question through an appropriate support channel. If the answer matters to your decision and remains uncertain, weigh that uncertainty before buying."
+    },
+    {
+      "question": "Can a demo prove that the full game will work for me?",
+      "answer": "A demo can help test the controls and interface it includes, but it may not contain every setting or later section of the full game. Record what you were able to test and avoid extending that evidence to features the preview did not show."
+    }
+  ]
+};

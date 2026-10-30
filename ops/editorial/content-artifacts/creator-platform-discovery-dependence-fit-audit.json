@@ -1,0 +1,116 @@
+{
+  "backlogId": "creator-platform-discovery-dependence-fit-audit",
+  "slug": "creator-platform-discovery-dependence-fit-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Assess Internal Discovery Before Building an Audience Plan",
+  "description": "Compare creator platforms by how fans can find accounts, what discovery tools are documented, and how much your plan depends on external audience channels.",
+  "excerpt": "Do not assume a platform’s discovery features will supply an audience. Map what is documented, what you control, and what you would need to build elsewhere.",
+  "keyTakeaways": [
+    "Separate platform discovery features from audience channels you operate independently.",
+    "Verify how fans can find a creator account and whether discovery depends on public settings.",
+    "Treat recommendation or reach claims as unverified unless their terms and evidence are clear.",
+    "Plan for discovery changes by keeping permitted, consent-based audience pathways under your control.",
+    "Review discovery privacy, eligibility, and content rules before relying on a feature."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish platform discovery from audience ownership",
+      "paragraphs": [
+        "Creator platforms may offer different ways for fans to find accounts, but a discovery feature is not the same thing as a dependable audience source. Some routes may rely on search, categories, recommendations, public profile settings, or links shared elsewhere. The precise options vary, so verify them in current platform documentation rather than treating a general marketing statement as a description of how discovery works for your account.",
+        "Build an inventory of the audience pathways you can actually describe: people who arrive through a public profile, visitors who use a platform search feature, and people who reach you through channels you manage independently. This is a planning exercise, not a forecast. It helps you see which parts of your plan rely on platform-controlled placement and which require your own lawful, consent-respecting outreach."
+      ],
+      "bullets": [
+        "List each audience pathway separately.",
+        "Identify which party controls each pathway.",
+        "Mark every feature that is not documented as unknown."
+      ]
+    },
+    {
+      "heading": "Verify how a fan can find your account",
+      "paragraphs": [
+        "Check the account’s public and private settings, profile visibility, and any available search or category controls. Find out whether a creator can opt in or out of discovery surfaces and whether a setting affects the whole profile or only selected details. Do not assume that creating an account automatically makes it discoverable, or that a private setting prevents every form of platform-side recommendation.",
+        "Where possible, review the discovery experience from a separate, non-creator view or consult official documentation that explains it. Avoid creating test accounts in ways that violate platform rules. Note whether the documentation explains eligibility, moderation review, or content restrictions for discovery placement; these conditions can matter as much as the feature name."
+      ],
+      "table": {
+        "caption": "A discovery inventory for evaluating creator-platform fit",
+        "headers": [
+          "Discovery route",
+          "What to verify",
+          "Planning implication"
+        ],
+        "rows": [
+          [
+            "Public profile",
+            "Visibility controls and information displayed",
+            "Decide what can be public without exposing private identity"
+          ],
+          [
+            "Platform search",
+            "Whether accounts can appear and under what conditions",
+            "Do not rely on search placement unless eligibility is clear"
+          ],
+          [
+            "Recommendations",
+            "Documented controls, criteria, or limitations",
+            "Treat reach as uncertain rather than guaranteed"
+          ],
+          [
+            "External links",
+            "Platform rules for links and profile references",
+            "Use only permitted channels and accurate descriptions"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat recommendation claims cautiously",
+      "paragraphs": [
+        "Statements about being recommended, promoted, or surfaced to potential fans need careful interpretation. Look for an explanation of eligibility, controls, and any content or account requirements. If the platform does not describe how a feature works, do not build a business plan around an assumed level of visibility. A feature may exist without promising a particular amount of exposure or audience response.",
+        "Separate three questions in your notes: Does a discovery feature exist? Can your account qualify or opt in? Is there evidence about how it operates for your specific circumstances? The first two may be answerable from documentation; the third may remain unknown. This distinction keeps a platform comparison useful without presenting uncertain reach as a fact."
+      ]
+    },
+    {
+      "heading": "Plan audience pathways you can maintain",
+      "paragraphs": [
+        "A balanced plan does not require every creator to use the same channels. It does require clarity about what happens if a platform’s discovery surface changes or becomes unavailable. Consider whether you can direct interested adults to permitted public information, maintain an appropriate contact channel with consent, or keep a non-platform record of business materials that you are entitled to retain. Follow applicable rules and platform terms for each channel.",
+        "Avoid collecting audience data simply because you might need it later. If you use a mailing list or another contact method, explain what subscribers are signing up for, provide a way to change preferences, and handle the information responsibly. Keep platform-specific messaging and external communications distinct so that fans understand who is contacting them and how to control that contact."
+      ],
+      "bullets": [
+        "Document which channels you control and which a platform controls.",
+        "Check platform rules before placing links or inviting off-platform contact.",
+        "Use clear consent and preference controls for any audience list.",
+        "Avoid promising access or delivery that you cannot verify."
+      ]
+    },
+    {
+      "heading": "Compare discovery fit alongside privacy and commercial terms",
+      "paragraphs": [
+        "Discovery is only one part of platform selection. A feature that increases public visibility may also reveal more profile information, while a limited-discovery approach may require more independent audience work. Review privacy controls and commercial terms alongside discovery documentation. Consider whether you can operate under the platform’s rules without exposing identity details you intend to keep private.",
+        "Before committing substantial effort, write a short fit assessment: what discovery options are confirmed, what conditions apply, what remains undocumented, and what audience work you would need to do yourself. Revisit the assessment when platform documentation or your business goals change. This process cannot predict audience growth, but it can prevent a plan from depending on capabilities you have not verified."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a creator platform’s discovery feature guarantee new fans?",
+      "answer": "No. A discovery feature does not establish that an account will receive a particular amount of visibility or that visitors will become fans. Check the feature’s documented eligibility and controls, and treat audience response as uncertain."
+    },
+    {
+      "question": "Should I rely on platform search as my only audience channel?",
+      "answer": "That depends on your goals and the platform’s documented tools, but relying entirely on a surface controlled by another service creates uncertainty. Map which pathways you control, follow each platform’s rules, and avoid assuming any channel will produce a particular outcome."
+    },
+    {
+      "question": "How can I compare discovery features without knowing their algorithms?",
+      "answer": "Compare observable details: whether a feature is documented, who can use it, what settings are available, and what privacy or content conditions apply. Mark undisclosed ranking or reach behavior as unknown instead of inferring how the system works."
+    }
+  ],
+  "publishedAt": "2026-10-30",
+  "updatedAt": "2026-10-30",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
