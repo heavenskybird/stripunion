@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T19:25:59.384Z",
+  "generatedAt": "2026-10-31T20:23:04.537Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-pcvr-standalone-access-fit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-channel-permission-matrix.json",
-    "ops/editorial/content-artifacts/live-cam-token-spend-guardrail-plan.json",
-    "ops/editorial/content-artifacts/adult-dating-inactive-profile-lifecycle-check.json",
-    "ops/editorial/content-artifacts/adult-platform-receipt-record-exposure-audit.json"
+    "ops/editorial/content-artifacts/premium-video-cancellation-access-cutoff-planning.json",
+    "ops/editorial/content-artifacts/creator-platform-payout-identity-separation-planning.json",
+    "ops/editorial/content-artifacts/vr-platform-home-network-traffic-boundary-review.json",
+    "ops/editorial/content-artifacts/free-video-search-query-quality-review.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-account-data-minimization-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-pcvr-standalone-access-fit.js",
-    "src/data/guides/webmaster-affiliate-channel-permission-matrix.js",
-    "src/data/guides/live-cam-token-spend-guardrail-plan.js",
-    "src/data/guides/adult-dating-inactive-profile-lifecycle-check.js",
-    "src/data/guides/adult-platform-receipt-record-exposure-audit.js"
+    "src/data/guides/premium-video-subscription-cancellation-access-cutoff-checklist.js",
+    "src/data/guides/creator-platform-payout-identity-privacy-separation-checklist.js",
+    "src/data/guides/vr-adult-platform-home-network-traffic-privacy-checklist.js",
+    "src/data/guides/free-video-platform-search-query-quality-checklist.js",
+    "src/data/guides/adult-anime-platform-signup-account-data-minimization-checklist.js"
   ],
   "categories": [
+    "premium-videos",
+    "creator-platforms",
     "vr-ar",
-    "webmaster-affiliate",
-    "live-cams",
-    "dating-hookups",
-    "privacy-safety-payment"
+    "free-videos",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "vr-platform-pcvr-standalone-access-fit",
-    "webmaster-affiliate-channel-permission-matrix",
-    "live-cam-token-spend-guardrail-plan",
-    "adult-dating-inactive-profile-lifecycle-check",
-    "adult-platform-receipt-record-exposure-audit"
+    "premium-video-cancellation-access-cutoff-planning",
+    "creator-platform-payout-identity-separation-planning",
+    "vr-platform-home-network-traffic-boundary-review",
+    "free-video-search-query-quality-review",
+    "adult-anime-platform-account-data-minimization-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41234007578",
-  "phase": "closed"
+  "r1CycleId": "41238505433"
 }

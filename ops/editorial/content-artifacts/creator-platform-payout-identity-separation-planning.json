@@ -1,0 +1,142 @@
+{
+  "backlogId": "creator-platform-payout-identity-separation-planning",
+  "slug": "creator-platform-payout-identity-privacy-separation-checklist",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Separate Public Identity from Payout Verification Details",
+  "description": "A privacy-focused checklist for creators reviewing what fans can see, what a platform or payment provider may need for payouts, and how to avoid accidental identity exposure.",
+  "excerpt": "A public creator name and a payout identity serve different purposes. Map the information shown to fans, submitted for account or payment verification, and included in records before publishing or changing account details.",
+  "keyTakeaways": [
+    "Map public profile information separately from account-verification and payout records.",
+    "Check what fans, collaborators, platform staff, and payment providers may each be able to see.",
+    "Use distinct, well-managed contact channels where appropriate, while keeping required verification accurate.",
+    "Review receipts, profile previews, and connected-account permissions for identity details that may appear unexpectedly."
+  ],
+  "sections": [
+    {
+      "heading": "Build an identity map before changing account details",
+      "paragraphs": [
+        "Creators often use a public name that differs from the legal or payment identity associated with account administration. That separation can be a reasonable privacy boundary, but it does not mean a platform or payment provider will accept incomplete or inaccurate verification information. Start by listing the identity fields involved: public display name, login email, contact address, tax or payment records, and any account-owner details requested during onboarding.",
+        "For each field, note who requests it and what purpose the stated policy gives. Do not infer that a name entered for payout verification is automatically hidden from every other party, or that a public display name can replace verification information. The goal is to understand the path each detail takes and to avoid adding personal information to public-facing surfaces unnecessarily."
+      ],
+      "table": {
+        "caption": "Map each information type to its audience before setup",
+        "headers": [
+          "Information type",
+          "Possible audience to check",
+          "Useful verification step"
+        ],
+        "rows": [
+          [
+            "Display name and profile bio",
+            "Fans and visitors",
+            "Preview the public profile while signed out"
+          ],
+          [
+            "Login and recovery email",
+            "Account owner and service processes",
+            "Review contact and recovery settings"
+          ],
+          [
+            "Verification details",
+            "Platform or designated verification provider",
+            "Read the stated purpose and handling terms"
+          ],
+          [
+            "Payout records",
+            "Payment provider and account owner",
+            "Review payee fields and downloadable statements"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect public surfaces, not just the profile editor",
+      "paragraphs": [
+        "A profile editor may not show every place where account information becomes visible. Check the public profile, messages or posts you publish, creator page previews, and any receipt or transaction information described in the platform’s terms. If there is a preview mode, use it. Otherwise, ask a trusted reviewer to check the page without logging in, taking care not to grant them account access.",
+        "Look for accidental identifiers such as a personal email in a bio, a real name in a public link label, or a screenshot that includes account settings. Images and documents can carry names or other embedded details. Before posting promotional material, inspect the visible content and surrounding interface. This is a concrete editorial check, not a reason to assume that every platform exposes the same fields."
+      ],
+      "bullets": [
+        "Preview the profile and public posts in a signed-out view when available.",
+        "Inspect promotional images and documents for account or personal details.",
+        "Keep public contact information separate from private recovery information where practical."
+      ]
+    },
+    {
+      "heading": "Understand verification and payout information on its own terms",
+      "paragraphs": [
+        "Do not treat a payment name, tax record, or account-owner record as a public display setting. Equally, do not rely on a platform’s public pseudonym feature as proof that every transaction or communication is anonymous. A more dependable approach is to identify the exact audiences named in the service’s documentation and ask support a narrow question when that documentation does not answer a material concern."
+      ]
+    },
+    {
+      "heading": "Limit access for collaborators and connected services",
+      "paragraphs": [
+        "A collaborator may need access to some publishing or administrative functions without needing access to payout details, recovery methods, or identity documents. Before inviting anyone, check whether roles can be limited and what each role permits. If the service has no granularity, weigh the operational need against the access being granted, and use a written agreement and clear handover procedure for shared work.",
+        "Connected email, storage, analytics, or payment accounts can create additional routes to personal information. Review the permissions requested and the account that will receive notices. Prefer the minimum access necessary, remove access when a collaboration ends, and avoid sharing a primary personal inbox if a separate business contact channel is suitable. These measures reduce avoidable exposure but cannot guarantee that information is inaccessible to a service operator or provider."
+      ],
+      "bullets": [
+        "Grant only the account permissions needed for the task.",
+        "Review connected-account permissions and remove obsolete access.",
+        "Keep payout administration with a person who has a clear business need."
+      ]
+    },
+    {
+      "heading": "Make a routine for changes, records, and accidental exposure",
+      "paragraphs": [
+        "Account changes can reconnect public and private identities if they are made quickly without checking all surfaces. Before changing a profile name, contact email, payout details, or connected account, review what is visible publicly and what may be included in notifications or statements. After the change, check the profile preview and account contact settings again. If you discover exposed information, remove or correct it where possible and document the affected page or message.",
+        "Keep a private, access-controlled record of the platform’s relevant terms, verification submissions, payout statements, and support replies. This helps you answer operational questions without retaining more sensitive material than necessary. If a privacy concern involves information held by a provider, use the provider’s documented privacy or support process to ask about access, correction, or retention options. Avoid assuming that a request will have a particular outcome until the provider confirms it."
+      ],
+      "table": {
+        "caption": "A lightweight identity-separation review",
+        "headers": [
+          "When",
+          "Review"
+        ],
+        "rows": [
+          [
+            "Before launch",
+            "Public profile, contact details, verification request, payout audience"
+          ],
+          [
+            "Before inviting a collaborator",
+            "Role permissions, account recovery access, statement visibility"
+          ],
+          [
+            "After account changes",
+            "Public preview, connected services, notices and receipts"
+          ],
+          [
+            "Periodically",
+            "Old access grants, stored documents, current privacy and payout terms"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a creator name for payout verification?",
+      "answer": "Verification and payout requirements depend on the relevant platform and payment provider. Use accurate information in the designated secure workflow, and keep the public display name separate where the service permits it."
+    },
+    {
+      "question": "Will fans see the identity details I submit for verification?",
+      "answer": "Do not assume either visibility or secrecy. Review the service’s current documentation for named audiences and ask the provider about specific fields if the answer is unclear."
+    },
+    {
+      "question": "Is a separate email account enough to keep identities separate?",
+      "answer": "It can help organize public contact and private account recovery, but it does not determine what a platform or payment provider can access. Review connected-account permissions and the service’s data handling terms as well."
+    },
+    {
+      "question": "What should I do if personal details appear publicly by mistake?",
+      "answer": "Remove or correct the exposed item where possible, preserve a private record of what appeared and where, and use the service’s official support or privacy channel to ask about any remaining copies or relevant controls."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
