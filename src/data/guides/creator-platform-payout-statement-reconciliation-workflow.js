@@ -1,0 +1,123 @@
+export default {
+  "slug": "creator-platform-payout-statement-reconciliation-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Reconcile Payout Statements Before Relying on Your Records",
+  "description": "A practical workflow for checking creator-platform earnings statements against deposits, deductions, reporting periods, and supporting records.",
+  "excerpt": "A payout total is easier to rely on when you can trace it from the platform statement to the deposit. Use this workflow to identify missing context, timing differences, and questions worth resolving.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Keep the platform statement and the matching deposit record together, but do not assume they describe the same date range.",
+    "Record gross amounts, adjustments, fees, currency, and net amounts as separate fields where the statement provides them.",
+    "Treat an unexplained difference as a question to investigate, not automatic proof of an error.",
+    "Save original exports and dated copies of relevant terms or support replies so later reviews have context.",
+    "Use a consistent monthly reconciliation routine rather than trying to reconstruct the entire history at year end."
+  ],
+  "sections": [
+    {
+      "heading": "Start by defining what you are reconciling",
+      "paragraphs": [
+        "Creator-platform statements and bank or payment-provider deposits answer different questions. A statement may report activity over a platform-defined period, while a deposit is a transfer processed on a particular date. A deposit can also combine activity from more than one period, or arrive after the period in which the underlying earnings appeared. Before comparing totals, write down which statement and which deposit you are matching.",
+        "Use the platform’s own labels as the starting point. If it shows gross activity, adjustments, platform deductions, withholding, or net payable as separate fields, preserve those distinctions. Do not rename a field in a way that changes its meaning. If a label is unclear, record it as unclear and check the platform’s explanation or request a written clarification."
+      ],
+      "bullets": [
+        "Capture the statement period, export date, and currency.",
+        "Record the displayed gross amount and each separately identified adjustment or deduction.",
+        "Record the net amount, payout status, and any payment reference shown.",
+        "Note the date and amount of the corresponding deposit, if one has arrived."
+      ]
+    },
+    {
+      "heading": "Build a reconciliation table that preserves context",
+      "paragraphs": [
+        "A useful worksheet is not just a list of net amounts. Include enough context to understand why two figures might differ: the platform period, the date the statement was produced, the payout date, currency, and any visible adjustment category. If the platform offers downloadable records, save the original file before editing or combining it with your own accounting data.",
+        "Keep the worksheet readable for someone who did not create it. Avoid relying on unexplained shorthand, overwritten values, or a single running total with no source. When you make a correction or add a note, preserve the original figure and identify when and why the change was made. A change log can be as simple as a dated note in a separate column."
+      ],
+      "table": {
+        "caption": "Suggested fields for a creator payout reconciliation worksheet",
+        "headers": [
+          "Field",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Platform period",
+            "The start and end dates shown on the statement"
+          ],
+          [
+            "Statement reference",
+            "Export name, statement identifier, or a note about where the original is stored"
+          ],
+          [
+            "Currency",
+            "The currency displayed on the platform statement and the deposit record"
+          ],
+          [
+            "Statement components",
+            "Gross, adjustments, deductions, and net amounts as separately labelled"
+          ],
+          [
+            "Transfer details",
+            "Payout status, processing date, deposit date, and visible reference"
+          ],
+          [
+            "Difference and next step",
+            "The amount that does not match, a neutral explanation, and the follow-up action"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare figures without assuming the dates match",
+      "paragraphs": [
+        "A common source of confusion is comparing an earnings period with a banking period. The platform may close a statement before it initiates a transfer, and a payment provider or bank may post the funds later. That timing gap can make a monthly deposit total differ from the statement total for the same calendar month even when the records may ultimately reconcile.",
+        "Match records using the clearest available reference, such as a payout identifier, status, or stated transfer amount. If no identifier is available, make the best documented match and mark it as provisional. Do not force a match just because two amounts are similar. Keep unmatched statements and deposits visible until you can establish whether they relate to another period, a pending transfer, or a separate adjustment."
+      ],
+      "bullets": [
+        "Check whether the statement and deposit cover the same dates before comparing totals.",
+        "Look for pending, failed, reversed, or split transfers in the platform’s own records.",
+        "Mark uncertain matches as provisional instead of treating them as confirmed.",
+        "Keep unmatched items on an open-items list for the next review."
+      ]
+    },
+    {
+      "heading": "Investigate differences methodically",
+      "paragraphs": [
+        "When a statement and deposit do not align, first check the explanation the platform provides for each component. Look for separately reported adjustments, deductions, currency conversion details, or a transfer that combines multiple statements. These are possibilities to verify, not assumptions to insert into your records. If the platform does not explain a figure, preserve the exact label and amount before contacting support.",
+        "A clear inquiry includes the statement period, the relevant reference, the displayed figures, and the specific question. Ask which record controls and what documentation is available for the difference. Avoid sending unnecessary personal or payment information in a support message. Keep a copy of the inquiry and reply, along with the date, so you can connect the explanation to the period it concerns."
+      ]
+    },
+    {
+      "heading": "Keep a reliable record set over time",
+      "paragraphs": [
+        "Save original statements in a secure location using consistent filenames, such as platform name, period, and export date. Keep a separate working copy for calculations and annotations. If a dashboard allows access to older statements, do not rely on that access as your only archive; export records when available and note any periods for which an export is missing.",
+        "Review the workflow on a regular schedule that fits your business operations. A short recurring review can catch missing statements or unexplained changes sooner than an annual reconstruction. The purpose is not to prove that every difference is an error; it is to make each figure traceable, identify unresolved questions, and maintain a factual record that can be discussed with an accountant or platform support when needed."
+      ],
+      "bullets": [
+        "Store original files separately from edited worksheets.",
+        "Use access controls and backups appropriate for sensitive business records.",
+        "Keep explanations tied to specific statements rather than relying on memory.",
+        "Ask a qualified tax or accounting professional how to use the records for your circumstances."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I compare a monthly deposit with the statement for that same month?",
+      "answer": "Not automatically. The statement period, transfer initiation date, and date funds appear in an account can differ. Match using the dates and references the platform provides, and keep uncertain matches marked as provisional."
+    },
+    {
+      "question": "What should I do if a statement uses a deduction label I do not understand?",
+      "answer": "Preserve the label exactly as shown, record the amount and statement period, then consult the platform’s written explanation or ask support for clarification. Avoid assigning your own interpretation until you have evidence for it."
+    },
+    {
+      "question": "Is a spreadsheet enough for payout records?",
+      "answer": "A spreadsheet can organize the reconciliation, but it should not replace the underlying statements and deposit records. Keep original exports or copies of source documents so each worksheet entry can be checked."
+    },
+    {
+      "question": "Does this workflow determine how I should report creator income?",
+      "answer": "No. It helps organize and reconcile platform records. How income or deductions should be treated depends on individual circumstances and applicable rules, so consult a qualified professional for accounting or tax advice."
+    }
+  ]
+};
