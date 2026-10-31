@@ -1,0 +1,113 @@
+export default {
+  "slug": "adult-games-profile-library-visibility-review",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Storefronts: Check Profile and Library Visibility Before Joining",
+  "description": "Use a practical privacy review to check how an adult game storefront or community displays profiles, libraries, activity, wishlists, and social connections.",
+  "excerpt": "A game account can expose more than a display name. Check profile, library, activity, and social visibility separately before linking accounts or joining a community.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Profile visibility, owned-game visibility, activity status, and community posts may be controlled by different settings.",
+    "A display name can identify you even if other profile fields are hidden, especially when reused across services.",
+    "Wishlists, follows, reviews, and activity feeds can reveal preferences through separate surfaces.",
+    "Check visibility while signed out or from another account when possible; a settings label alone may not show how a page appears to others.",
+    "If a storefront offers no clear visibility controls, treat its social features as potentially public until you verify otherwise."
+  ],
+  "sections": [
+    {
+      "heading": "Map the different places an account can appear",
+      "paragraphs": [
+        "A storefront or game community account is not always one profile page. A display name may appear beside reviews, forum posts, multiplayer activity, creator pages, or friend lists. A library may have its own visibility setting, while recently played items or online status may be controlled elsewhere. Reviewing only the profile page can therefore miss information exposed through another feature.",
+        "Start by listing the account surfaces you might use: profile, game library, activity feed, wishlist, reviews, comments, groups, and friend or follower lists. For each one, note whether it is public, visible to contacts, visible only to you, or unclear. This inventory makes it easier to compare platforms without relying on broad labels such as private account or community profile."
+      ],
+      "table": {
+        "caption": "A visibility map for game storefront and community features",
+        "headers": [
+          "Surface",
+          "Question to verify"
+        ],
+        "rows": [
+          [
+            "Profile",
+            "Which fields and activity appear to people who are not signed in?"
+          ],
+          [
+            "Library",
+            "Can another person see owned titles, collections, or recent play?"
+          ],
+          [
+            "Social activity",
+            "Are comments, reviews, follows, or group posts public by default?"
+          ],
+          [
+            "Wishlist",
+            "Can contacts or other visitors view saved titles?"
+          ],
+          [
+            "Presence",
+            "Can others see online status, current activity, or session details?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose an identity that does not connect unrelated accounts",
+      "paragraphs": [
+        "A public display name can become a link between otherwise separate accounts. Reusing a familiar username, avatar, or biography may let someone connect a game profile to a personal social account or other public activity. This is not a reason to assume that every visitor will make that connection; it is a reason to decide intentionally whether you want the connection to be easy.",
+        "Before selecting a name, search your own common usernames and consider whether they appear on accounts you want to keep separate. Avoid using identifying details in a public biography, such as a workplace, location, or contact address. If a platform supports a separate private account name and public display name, check which one is actually shown in community areas and shared links."
+      ]
+    },
+    {
+      "heading": "Review libraries, wishlists, and activity independently",
+      "paragraphs": [
+        "A hidden profile does not necessarily mean a hidden library. A storefront might let users control the profile page but expose activity, reviews, achievements, or saved items through separate features. Check each setting individually rather than interpreting one privacy switch as covering every account surface.",
+        "Look for controls that let you hide a library, pause activity sharing, or restrict a wishlist to yourself or chosen contacts. If you cannot find a control, inspect the relevant page from a signed-out browser or ask a trusted person to check what is visible. Do not use a visibility test that requires sharing your password or account access."
+      ],
+      "bullets": [
+        "Check profile details, owned titles, recent activity, and online presence separately.",
+        "Review whether wishlists, follows, reviews, and comments have their own audience settings.",
+        "Check how shared profile links appear to someone who is not signed in.",
+        "Do not infer that a private profile hides public posts made in a separate community area."
+      ]
+    },
+    {
+      "heading": "Treat community participation as its own privacy decision",
+      "paragraphs": [
+        "Joining a group or posting a review can make information visible outside the profile settings. A post may be searchable, quoted, or retained in notifications even if you later change an account setting. Before participating, check whether the space is public, whether membership is displayed, and whether moderators or other members can see account details beyond your chosen display name.",
+        "Read the community rules and reporting options before posting, but distinguish those safety features from privacy controls. A reporting tool may help address conduct without making a post private. If you are unsure about the audience, begin with a low-identification account and avoid sharing personal details in posts, screenshots, or attached files."
+      ]
+    },
+    {
+      "heading": "Run a visibility test before building a social footprint",
+      "paragraphs": [
+        "A quick test can reveal mismatches between a setting label and the actual page. Set the profile and activity controls, then check the profile from a signed-out browser or another account that does not have special access. Review one public community post and one shared profile link as well. If the storefront offers privacy previews, use them, but confirm that they cover the features you plan to use.",
+        "Repeat the check after changing accounts, joining groups, or enabling integrations. Settings can be feature-specific, and an external account connection may create another public profile or activity surface. Keep a short record of the settings you chose and the date you checked them. If you later decide to reduce visibility, revisit old posts, public lists, and linked accounts instead of changing only the main profile toggle."
+      ],
+      "bullets": [
+        "Create a simple checklist of every account surface you intend to use.",
+        "Verify the view from outside your account rather than relying only on settings descriptions.",
+        "Avoid linking external accounts until you understand what the connection shares.",
+        "Recheck visibility after joining groups, posting, or changing account integrations."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does making a game profile private hide my owned games?",
+      "answer": "Not necessarily. Profile, library, recent activity, and wishlist visibility may be separate controls. Check each surface directly and verify what another visitor can see."
+    },
+    {
+      "question": "Can a display name identify me even if my profile is private?",
+      "answer": "It can make accounts easier to connect if you reuse the same name, avatar, or biography elsewhere. Consider whether your public identity should be separate from other accounts."
+    },
+    {
+      "question": "Are community posts covered by profile privacy settings?",
+      "answer": "Do not assume so. Posts, reviews, group membership, and comments may have their own audiences or rules. Check the specific community and post visibility before participating."
+    },
+    {
+      "question": "How can I check what others see without sharing my account?",
+      "answer": "Use a signed-out browser or a separate account to inspect public pages, if available. Never provide your password to another person as a way to test visibility."
+    }
+  ]
+};

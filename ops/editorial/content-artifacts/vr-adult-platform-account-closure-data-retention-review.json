@@ -1,0 +1,120 @@
+{
+  "backlogId": "vr-adult-platform-account-closure-data-retention-review",
+  "slug": "vr-adult-platform-account-closure-data-retention-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Account Closure and Data Retention Before Joining",
+  "description": "Before creating a VR adult platform account, review how to close it, what data may remain, and how to plan for subscriptions, purchases, and saved records.",
+  "excerpt": "An account-closure option does not by itself explain what happens to billing records, purchases, saved items, or platform data. Check the process before relying on a library.",
+  "keyTakeaways": [
+    "Account closure, subscription cancellation, and deletion of personal data may be separate processes.",
+    "A platform may retain some records for stated operational, contractual, or legal reasons; check its policy rather than assuming immediate erasure.",
+    "Download or record information you are entitled to keep before closure, but do not assume purchased or subscription access will continue.",
+    "Check how closure affects headset-linked sign-in, external account connections, and access from other devices.",
+    "Save confirmation of cancellation and closure, then verify whether the account can still be accessed."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish closing an account from ending a subscription",
+      "paragraphs": [
+        "A VR platform account can connect to several things: a subscription, one-time purchases, saved lists, device sessions, and third-party sign-in. Closing the account may not automatically cancel a recurring payment, while cancelling a subscription may leave the account active. Treat these as separate actions until the platform's documented process clearly says otherwise.",
+        "Before joining, look for the exact steps to cancel a plan, remove payment authorization if available, and close the account. Note whether one action must happen before another and whether confirmation is sent by email or shown on screen. If you later decide to leave, following the written order can help avoid confusing an account closure request with a billing change."
+      ],
+      "table": {
+        "caption": "Separate the account and access questions",
+        "headers": [
+          "Action",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Cancel a plan",
+            "When cancellation takes effect and what confirmation is provided"
+          ],
+          [
+            "Close the account",
+            "How to submit the request and whether another verification step is required"
+          ],
+          [
+            "Request data deletion",
+            "Whether this is a separate control or part of account closure"
+          ],
+          [
+            "Review purchases",
+            "What happens to account-linked access and records after closure"
+          ],
+          [
+            "Disconnect devices",
+            "Whether headset or external account sessions need to be removed separately"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read what the platform says it retains",
+      "paragraphs": [
+        "Account deletion language may distinguish information removed from an active profile from information retained in backups, transaction records, security logs, or other systems. The exact categories and time periods depend on the platform and its policies. Do not interpret a button labelled delete as a guarantee that every record disappears instantly.",
+        "Look for a privacy notice or account-closure explanation that describes data categories, retention, and any stated exceptions. If the wording is unclear, record the questions you need answered: which data is removed, which may be retained, and whether retained data remains connected to an account identifier. A clear explanation is more useful than relying on assumptions about what account closure normally means."
+      ]
+    },
+    {
+      "heading": "Plan for purchases, subscriptions, and saved information",
+      "paragraphs": [
+        "Closing an account can affect access to a library, saved lists, preferences, or purchase records. The terms may distinguish a one-time purchase from temporary membership access, and the ability to keep access may depend on the applicable account and service terms. Review those terms before building a library you would be disappointed to lose.",
+        "If the platform offers a way to export or review personal information, learn how it works before you need it. Save receipts or other records you are entitled to retain in a secure location. Do not try to bypass access restrictions or copy files in ways the service does not permit. If you are considering closure, make a list of records and saved information you may legitimately need first."
+      ],
+      "bullets": [
+        "Find cancellation and closure instructions separately.",
+        "Check what account-linked purchases and saved items may be affected.",
+        "Save receipts and permitted account records before closing access.",
+        "Do not assume that a subscription cancellation preserves a library or that closure cancels billing."
+      ]
+    },
+    {
+      "heading": "Include headset and linked-account access in the exit plan",
+      "paragraphs": [
+        "A headset session can outlast the browser or app session used to create it. If you signed in on more than one device, review each session and any linked identity provider or device account. A platform account closure may not remove saved credentials or local app data from a headset, computer, or browser.",
+        "Before leaving, sign out of devices you no longer use and remove saved credentials where appropriate. Check the headset account and platform settings for authorized sessions or linked services. If another person shares the headset, verify that the account is no longer available from that device. These local cleanup steps are separate from the platform's handling of information stored on its systems."
+      ]
+    },
+    {
+      "heading": "Keep a record and verify the result",
+      "paragraphs": [
+        "Use the platform's documented process and keep confirmation of each step. Save the cancellation confirmation, the account-closure request, and any response that explains retention or deletion. Avoid sending passwords or unnecessary identity documents through an unverified contact channel; use the service's stated account support route.",
+        "After the stated process is complete, try to sign in only if doing so will not reactivate or interfere with closure. If the account remains accessible or billing continues unexpectedly, consult the service's instructions and contact support with the relevant confirmation records. A careful exit plan is useful even if you never use it: it helps you understand the practical cost of leaving before you join."
+      ],
+      "bullets": [
+        "Keep confirmation numbers, dates, and messages related to cancellation and closure.",
+        "Review all devices and linked sign-in methods, not only the headset currently in use.",
+        "Check for a separate data request if the closure process does not address data handling.",
+        "Follow up through an official support route if access or billing does not match the documented outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does closing a VR platform account automatically cancel a subscription?",
+      "answer": "Not necessarily. Account closure and subscription cancellation may be separate steps. Check the platform's instructions and keep confirmation of both actions."
+    },
+    {
+      "question": "Does account closure mean all data is erased immediately?",
+      "answer": "Do not assume that. The platform's privacy notice may describe information it removes and records it may retain for stated reasons. Review the applicable explanation or ask the platform for clarification."
+    },
+    {
+      "question": "What should I do with a headset I used to access the account?",
+      "answer": "Sign out, review saved credentials and authorized sessions, and check any linked account or device settings. Local device cleanup is separate from a platform's handling of data on its own systems."
+    },
+    {
+      "question": "Should I save anything before closing the account?",
+      "answer": "Review whether you need receipts, permitted account records, or exported information. Also check how closure may affect purchases, membership access, and saved items before submitting the request."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

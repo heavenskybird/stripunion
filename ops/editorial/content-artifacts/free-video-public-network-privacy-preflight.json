@@ -1,0 +1,122 @@
+{
+  "backlogId": "free-video-public-network-privacy-preflight",
+  "slug": "free-video-public-network-privacy-preflight",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites on Public Wi-Fi: A Privacy Preflight Before Browsing",
+  "description": "Understand what public Wi-Fi can reveal when you browse free video sites, and use a practical checklist to reduce account, device, and network exposure.",
+  "excerpt": "Private browsing does not make a public network private. Check the network, device, account, and browser settings that matter before opening free video sites away from home.",
+  "keyTakeaways": [
+    "A private or incognito browser window mainly limits certain traces saved in that browser; it does not hide activity from every network or service involved.",
+    "A network operator may be able to observe connection details even when a site uses encrypted connections. The precise information available depends on the network and services involved.",
+    "The simplest privacy improvement is often to avoid signing into an account on a device or network you do not control.",
+    "Browser notifications, downloads, casting, and saved passwords can leave traces beyond the page currently open.",
+    "Before browsing, decide what you will not do on the network, such as entering account credentials, saving files, or accepting unexpected prompts."
+  ],
+  "sections": [
+    {
+      "heading": "Separate network privacy from browser privacy",
+      "paragraphs": [
+        "Public Wi-Fi can make privacy feel like a single setting, but it involves several separate parties. The device and browser handle local history and saved data. The network operator handles connectivity. The site and its supporting services may receive connection and usage information. An account, if you sign in, can associate activity with that account. A private browser window changes only part of this picture.",
+        "A private window can reduce the browser history and cookies retained after that window closes, depending on the browser and settings. It does not automatically prevent a network operator from seeing that the device connected to a service, nor does it prevent a site from receiving information needed to deliver a page. It is useful to treat private browsing as a local housekeeping feature, not as a guarantee of anonymity."
+      ],
+      "bullets": [
+        "Ask separately what the network can observe, what the browser stores, and what an account can associate.",
+        "Do not assume that a padlock or encrypted connection makes every part of a session private.",
+        "Use a device and network you trust when entering sensitive account details."
+      ]
+    },
+    {
+      "heading": "Assess the network before connecting",
+      "paragraphs": [
+        "A public hotspot may be operated by a venue, a service provider, or another organization. Its sign-in page and terms can explain who provides access, what information may be collected, and whether access is logged. Read the concise privacy information when available; if the operator is unclear or the network name looks suspicious, choose another connection rather than guessing.",
+        "Avoid joining a lookalike network just because its name resembles the venue. Confirm the official network name through a source you trust, such as venue signage or staff. A network that asks you to install an unfamiliar certificate, configuration profile, or app just to browse should be treated as a significant warning. You can decline and use a different connection."
+      ],
+      "table": {
+        "caption": "Questions to answer before using a public connection",
+        "headers": [
+          "Check",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "Network identity",
+            "Can you confirm the network name with the venue or operator?"
+          ],
+          [
+            "Access prompt",
+            "Does it request only information that makes sense for access, or does it demand unrelated personal details?"
+          ],
+          [
+            "Extra installation",
+            "Can you proceed without installing an unknown app, certificate, or profile?"
+          ],
+          [
+            "Privacy information",
+            "Can you identify the operator and find a clear explanation of data handling?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reduce account and credential exposure",
+      "paragraphs": [
+        "Browsing without signing in can limit the connection between a viewing session and a named account, although the site and network may still receive technical information. If an account is necessary for a feature, consider whether that feature is worth using on a shared or unfamiliar network. Do not use a shared computer's saved-password prompt, and never leave an account signed in after the session.",
+        "A unique password for each service reduces the consequences if one credential is exposed elsewhere. A password manager can help, but do not unlock it on a device you do not trust. If you have to authenticate, check that the address is the intended site and that the browser has not been redirected to an unexpected sign-in page. Do not respond to a surprise request for payment or identity information just to continue viewing."
+      ],
+      "bullets": [
+        "Prefer browsing without signing in when the account features are not needed.",
+        "Do not save credentials on a public or borrowed device.",
+        "Sign out before closing the browser if you used an account.",
+        "If a login prompt looks unusual, close it and navigate to the service through a known route."
+      ]
+    },
+    {
+      "heading": "Check device traces beyond browsing history",
+      "paragraphs": [
+        "Closing a tab does not necessarily remove every local trace. Downloads can remain in a device's files, thumbnails may appear in a gallery, and browser notifications can show content-related text on a lock screen. A shared screen, casting target, or connected display can also make a private session visible to others nearby. Decide before starting whether any of these features are enabled.",
+        "Use a device you control where possible. Review notification previews and casting settings before opening a site, especially when the screen may be visible to other people. Avoid downloading files on a device that is borrowed, managed by an employer, or shared with household members. If you do use a borrowed device, do not assume that deleting the visible history removes downloads, account records, or administrative logs."
+      ]
+    },
+    {
+      "heading": "Use a short pre-browsing and sign-off routine",
+      "paragraphs": [
+        "A repeatable routine is easier to follow than trying to remember every privacy setting in the moment. Before connecting, check the network name, device ownership, account status, and notification or casting exposure. Choose the least revealing path that still meets your purpose. If the connection or prompts feel unexpected, stop rather than working around them.",
+        "When finished, sign out if necessary, close the relevant tabs, and check whether you created downloads or left a page open. On your own device, clear only the local data you intend to remove; understand that this does not erase information already received by a site or network operator. If you entered a password on a device that may not be trustworthy, change it from a trusted device and review account sessions where that option exists."
+      ],
+      "bullets": [
+        "Confirm the network and device are the ones you intended to use.",
+        "Turn off unnecessary casting and consider lock-screen notification previews.",
+        "Avoid saving passwords, files, or account details on devices you do not control.",
+        "Sign out and close the session; do not treat history deletion as remote data deletion.",
+        "If something seems wrong, disconnect and use a trusted connection for account changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide free video site activity from public Wi-Fi?",
+      "answer": "No. Private browsing mainly changes what the browser retains locally after the private session. It does not promise to hide connection information from the network operator or information sent to a site. The details depend on the browser, network, and services involved."
+    },
+    {
+      "question": "Can the Wi-Fi operator see exactly what I watch?",
+      "answer": "Do not assume either complete visibility or complete privacy. Encryption can limit what a network observer can read, while connection details may still be visible. What a site or account receives is a separate question from what the network operator can observe."
+    },
+    {
+      "question": "Should I sign in to an account on a public hotspot?",
+      "answer": "If the feature you need does not require an account, browsing without signing in can reduce account-linked exposure. If you must sign in, use a device you trust, check the site address, avoid saving the password, and sign out afterward."
+    },
+    {
+      "question": "Does deleting browser history erase information from the site?",
+      "answer": "No. Deleting local history affects browser data stored on that device. It does not automatically remove information already sent to a site, an account, or a network operator."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
