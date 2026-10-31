@@ -1,0 +1,130 @@
+{
+  "backlogId": "creator-platform-analytics-decision-fit-audit",
+  "slug": "creator-platform-analytics-decision-fit-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Whether Analytics Support Your Decisions",
+  "description": "A practical framework for comparing creator-platform analytics, including metric definitions, time periods, exports, and limits on what dashboard data can tell you.",
+  "excerpt": "A dashboard is useful only when its metrics are understandable and relevant to your work. Compare the data a creator platform provides with the decisions you need to make.",
+  "keyTakeaways": [
+    "Start with a business question, then identify the metrics that could help answer it.",
+    "Check each metric’s definition, time period, update timing, and exclusions before comparing platforms.",
+    "Distinguish descriptive dashboard figures from evidence of cause or future performance.",
+    "Find out whether reports can be exported and whether historical data remains accessible.",
+    "Use a small, repeatable review routine instead of changing offers in response to one unexplained fluctuation."
+  ],
+  "sections": [
+    {
+      "heading": "Choose decisions before comparing dashboards",
+      "paragraphs": [
+        "Creator platforms can present many figures, but more metrics do not automatically make a dashboard more useful. Begin by listing the decisions you actually expect to make: reviewing whether a promotion reached its intended audience, understanding changes in membership activity, organizing publishing work, or checking whether a particular page is being viewed. Then identify the minimum information needed for each decision.",
+        "This approach helps avoid choosing a platform because its dashboard looks detailed while overlooking whether the data is usable. It also keeps analytics separate from other platform criteria, such as account controls, commercial terms, privacy, and content ownership. A metric can support a decision without replacing judgement, and a missing metric does not necessarily make a service unsuitable if your workflow does not depend on it."
+      ],
+      "bullets": [
+        "Write down the question you want the data to answer.",
+        "Identify the fields needed to answer it.",
+        "Decide how often you need the information.",
+        "Note what you will do if the measure is unavailable or unclear."
+      ]
+    },
+    {
+      "heading": "Read definitions before comparing numbers",
+      "paragraphs": [
+        "The same label can mean different things across dashboards. A platform’s definition may specify which actions count, how repeat activity is handled, or whether a figure is estimated, delayed, or filtered. Before comparing metrics between services or periods, locate the definition and note any exclusions. If the explanation is missing, treat the figure as ambiguous rather than assuming it matches a familiar term.",
+        "Metric definitions also matter when evaluating changes over time. If a platform changes its reporting method, a difference in the displayed total may reflect a measurement change rather than a change in audience behavior. Keep a dated note of definitions or interface updates when a number will inform a business decision. If the platform does not provide a change history, avoid treating a series of numbers as directly comparable without qualification."
+      ],
+      "table": {
+        "caption": "A framework for assessing creator-platform analytics",
+        "headers": [
+          "Check",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Definition",
+            "What actions and exclusions form the metric?",
+            "Prevents comparing unlike measures"
+          ],
+          [
+            "Time period",
+            "Which dates, time zone, or reporting interval apply?",
+            "Avoids mismatched comparisons"
+          ],
+          [
+            "Update timing",
+            "Is the figure immediate, delayed, or revised later?",
+            "Helps interpret incomplete data"
+          ],
+          [
+            "Export",
+            "Can the data be saved in a usable format?",
+            "Supports records and independent review"
+          ],
+          [
+            "History",
+            "How far back can you access the measure?",
+            "Shows whether trends can be examined consistently"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check time windows and update behavior",
+      "paragraphs": [
+        "A metric without a clear time window is difficult to interpret. Look for the dates covered, the time zone used, and whether the dashboard groups activity by day, week, billing period, or another interval. If you compare two views, confirm that both use the same boundaries. A period that starts at different local times can make adjacent reports look inconsistent even when the underlying activity has not changed.",
+        "Find out whether figures update continuously or on a schedule. A recent period may appear incomplete if processing is delayed, and a previously displayed number may later be adjusted. The platform may explain these behaviors in help materials or report notes. When it does not, record the date you viewed a number and avoid using a very recent figure as the sole basis for a significant decision."
+      ]
+    },
+    {
+      "heading": "Evaluate exports and historical access",
+      "paragraphs": [
+        "If your workflow depends on keeping business records, check whether analytics can be exported and what the export contains. A downloadable file may omit explanatory labels, filters, or date settings that appear on screen. Confirm whether the format is readable and whether the fields are sufficiently clear for your own records. Do not assume that a dashboard view can be recreated later if you did not save the relevant information.",
+        "Historical access also affects what you can learn from a platform. Check whether older periods remain available, whether saved reports expire, and whether data can be retrieved after an account change. This is distinct from exporting fan data: here the focus is on your own reporting history and the continuity of your business records. Keep only the information you need and handle it according to your privacy and recordkeeping practices."
+      ]
+    },
+    {
+      "heading": "Avoid treating correlation as proof",
+      "paragraphs": [
+        "Analytics can show that two events happened in the same period, but that alone does not show that one caused the other. A change in a dashboard figure might coincide with a new offer, a posting schedule change, seasonal factors, or an update to the platform’s measurement. Record other relevant changes before drawing a conclusion, especially if you are using the result to alter your schedule or commercial approach.",
+        "Use consistent observation periods and change one major variable at a time when practical. This does not create a controlled experiment, but it can make your notes more interpretable. Avoid reacting to a single brief fluctuation. A useful review asks what the metric actually measures, what else changed, and whether the apparent pattern persists across comparable periods."
+      ]
+    },
+    {
+      "heading": "Create a repeatable analytics review",
+      "paragraphs": [
+        "A lightweight review routine can make platform data more useful without turning analytics into a constant task. Choose a regular interval suited to your work, save the relevant report, and note any major changes in publishing or offers. Keep the original platform definitions nearby so that future comparisons use the same meaning. If the platform changes its dashboard, mark the point where comparability may have changed.",
+        "When comparing platforms, score each one on whether it provides the specific information you need, whether its definitions are clear, and whether you can keep your own records. Do not rank services based on the number of charts or assume a dashboard can establish future income. The goal is a practical fit between available data and your decisions, with important limitations visible rather than hidden."
+      ],
+      "bullets": [
+        "Save the report date and covered period.",
+        "Record metric definitions and filters used.",
+        "Note relevant publishing or offer changes.",
+        "Flag missing, delayed, or revised data.",
+        "Review patterns across comparable periods before acting."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which analytics should a creator platform provide?",
+      "answer": "There is no universal minimum that fits every creator. Start with the decisions you need to make, then identify the measures and records required for those decisions. Prefer clear definitions and usable history over a long list of unexplained figures."
+    },
+    {
+      "question": "Can platform analytics show that a promotion caused a change?",
+      "answer": "A dashboard may show changes occurring around the same time, but that does not establish cause by itself. Consider other changes, measurement delays, and definition updates, and compare similar periods before drawing conclusions."
+    },
+    {
+      "question": "Are analytics exports the same as fan-data exports?",
+      "answer": "No. Analytics exports concern reporting measures and activity summaries, while fan-data exports concern information about audience members. Check the scope and privacy implications of each separately."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
