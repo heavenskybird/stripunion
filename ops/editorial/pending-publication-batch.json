@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T12:02:34.877Z",
+  "generatedAt": "2026-10-31T13:06:49.759Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-search-and-filter-evaluation.json",
-    "ops/editorial/content-artifacts/adult-games-license-and-launcher-dependency-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-material-disclosure-review.json",
-    "ops/editorial/content-artifacts/live-cam-credit-expiry-and-refund-policy-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-account-deletion-and-deactivation-audit.json"
+    "ops/editorial/content-artifacts/premium-video-mobile-viewing-workflow-fit.json",
+    "ops/editorial/content-artifacts/adult-platform-shared-browser-trace-control.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-geographic-eligibility-fit.json",
+    "ops/editorial/content-artifacts/creator-platform-release-calendar-workflow.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-interrupted-session-recovery-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-search-and-filter-evaluation.js",
-    "src/data/guides/adult-games-license-and-launcher-dependency-audit.js",
-    "src/data/guides/adult-shop-product-material-disclosure-review.js",
-    "src/data/guides/live-cam-credit-expiry-and-refund-policy-audit.js",
-    "src/data/guides/adult-dating-account-deletion-and-deactivation-audit.js"
+    "src/data/guides/premium-video-mobile-viewing-workflow-fit.js",
+    "src/data/guides/adult-platform-shared-browser-trace-control.js",
+    "src/data/guides/webmaster-affiliate-geographic-eligibility-fit.js",
+    "src/data/guides/creator-platform-release-calendar-workflow.js",
+    "src/data/guides/vr-adult-platform-interrupted-session-recovery-plan.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "live-cams",
-    "dating-hookups"
+    "premium-videos",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "creator-platforms",
+    "vr-ar"
   ],
   "backlogIds": [
-    "vr-adult-platform-search-and-filter-evaluation",
-    "adult-games-license-and-launcher-dependency-audit",
-    "adult-shop-product-material-disclosure-review",
-    "live-cam-credit-expiry-and-refund-policy-audit",
-    "adult-dating-account-deletion-and-deactivation-audit"
+    "premium-video-mobile-viewing-workflow-fit",
+    "adult-platform-shared-browser-trace-control",
+    "webmaster-affiliate-geographic-eligibility-fit",
+    "creator-platform-release-calendar-workflow",
+    "vr-adult-platform-interrupted-session-recovery-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41199159754",
-  "phase": "closed"
+  "r1CycleId": "41203895841"
 }
