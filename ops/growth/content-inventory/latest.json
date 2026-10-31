@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-30T07:18:34.368Z",
+  "generatedAt": "2026-10-31T07:07:52.421Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-10-30T07:15:43.284Z",
-    "bing": "2026-10-30T07:16:04.519Z",
+    "gsc": "2026-10-31T07:04:49.272Z",
+    "bing": "2026-10-31T07:05:07.285Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 84
+        "queryImpressions": 100
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -89,7 +89,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 100
+        "queryImpressions": 121
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -115,7 +115,7 @@
         "wordCount": 639,
         "headings": 7,
         "links": 4,
-        "queryImpressions": 178
+        "queryImpressions": 226
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -141,7 +141,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 65
+        "queryImpressions": 84
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -167,7 +167,7 @@
         "wordCount": 232,
         "headings": 4,
         "links": 4,
-        "queryImpressions": 61
+        "queryImpressions": 114
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -193,7 +193,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 54
+        "queryImpressions": 72
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -203,11 +203,11 @@
       "route": "/best-free-live-cam-sites",
       "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
       "cluster": "best cam sites",
-      "score": 74,
+      "score": 78,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 4,
+        "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.37,
@@ -219,11 +219,63 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 42
+        "queryImpressions": 49
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
       "rank": 8
+    },
+    {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 73,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 2,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.29,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 24
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 9
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 73,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 52
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 10
     },
     {
       "route": "/stripchat-vs-livejasmin",
@@ -245,11 +297,37 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 25
+        "queryImpressions": 28
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "route": "/best-live-cam-sites",
+      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
+      "cluster": "best cam sites",
+      "score": 70,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 2,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 751,
+        "headings": 7,
+        "links": 5,
+        "queryImpressions": 17
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 12
     },
     {
       "route": "/stripchat-app",
@@ -271,85 +349,7 @@
         "wordCount": 397,
         "headings": 6,
         "links": 3,
-        "queryImpressions": 101
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 10
-    },
-    {
-      "route": "/stripchat",
-      "title": "Stripchat Review: Tokens, Pricing & Features",
-      "cluster": "pricing/tokens",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 1,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.29,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 437,
-        "headings": 5,
-        "links": 7,
-        "queryImpressions": 12
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready",
-      "rank": 11
-    },
-    {
-      "route": "/vrporn",
-      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
-      "cluster": "mobile/device",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.19,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 374,
-        "headings": 5,
-        "links": 0,
-        "queryImpressions": 44
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready",
-      "rank": 12
-    },
-    {
-      "route": "/best-live-cam-sites",
-      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
-      "cluster": "best cam sites",
-      "score": 66,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 1,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 751,
-        "headings": 7,
-        "links": 5,
-        "queryImpressions": 11
+        "queryImpressions": 129
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -359,11 +359,11 @@
       "route": "/stripchat-vs-chaturbate",
       "title": "Stripchat vs Chaturbate: Tokens & Access",
       "cluster": "platform-vs-platform",
-      "score": 64,
+      "score": 68,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 1,
+        "keywordOpportunity": 2,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.31,
@@ -375,11 +375,37 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 13
+        "queryImpressions": 18
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 14
+    },
+    {
+      "route": "/sexlikereal",
+      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
+      "cluster": "mobile/device",
+      "score": 68,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 4,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.33,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 364,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 37
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 15
     },
     {
       "route": "/livejasmin",
@@ -401,36 +427,10 @@
         "wordCount": 292,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 15
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "needs editorial review",
-      "rank": 15
-    },
-    {
-      "route": "/sexlikereal",
-      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
-      "cluster": "mobile/device",
-      "score": 60,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 2,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.33,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 364,
-        "headings": 5,
-        "links": 0,
         "queryImpressions": 19
       },
       "candidateType": "update data-driven review",
-      "qualityGate": "review-ready",
+      "qualityGate": "needs editorial review",
       "rank": 16
     },
     {
@@ -505,7 +505,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 9
+        "queryImpressions": 10
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -557,7 +557,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 5
+        "queryImpressions": 6
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -583,7 +583,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 11
+        "queryImpressions": 13
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -687,7 +687,7 @@
         "wordCount": 786,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1
+        "queryImpressions": 3
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -741,7 +741,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 84
+        "queryImpressions": 100
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -791,7 +791,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 100
+        "queryImpressions": 121
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +816,7 @@
         "wordCount": 639,
         "headings": 7,
         "links": 4,
-        "queryImpressions": 178
+        "queryImpressions": 226
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -841,7 +841,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 65
+        "queryImpressions": 84
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,7 +866,7 @@
         "wordCount": 232,
         "headings": 4,
         "links": 4,
-        "queryImpressions": 61
+        "queryImpressions": 114
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -891,7 +891,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 54
+        "queryImpressions": 72
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -900,11 +900,11 @@
       "route": "/best-free-live-cam-sites",
       "title": "Best Free Live Cam Sites in 2026: What “Free” Actually Means",
       "cluster": "best cam sites",
-      "score": 74,
+      "score": 78,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 4,
+        "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.37,
@@ -916,10 +916,60 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 42
+        "queryImpressions": 49
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 73,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 2,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.29,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 24
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 73,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 52
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/stripchat-vs-livejasmin",
@@ -941,10 +991,35 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 25
+        "queryImpressions": 28
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/best-live-cam-sites",
+      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
+      "cluster": "best cam sites",
+      "score": 70,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 2,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 2,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 751,
+        "headings": 7,
+        "links": 5,
+        "queryImpressions": 17
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/stripchat-app",
@@ -966,82 +1041,7 @@
         "wordCount": 397,
         "headings": 6,
         "links": 3,
-        "queryImpressions": 101
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/stripchat",
-      "title": "Stripchat Review: Tokens, Pricing & Features",
-      "cluster": "pricing/tokens",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 1,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.29,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 437,
-        "headings": 5,
-        "links": 7,
-        "queryImpressions": 12
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/vrporn",
-      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
-      "cluster": "mobile/device",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.19,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 374,
-        "headings": 5,
-        "links": 0,
-        "queryImpressions": 44
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/best-live-cam-sites",
-      "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
-      "cluster": "best cam sites",
-      "score": 66,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 1,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 2,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 751,
-        "headings": 7,
-        "links": 5,
-        "queryImpressions": 11
+        "queryImpressions": 129
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1050,11 +1050,11 @@
       "route": "/stripchat-vs-chaturbate",
       "title": "Stripchat vs Chaturbate: Tokens & Access",
       "cluster": "platform-vs-platform",
-      "score": 64,
+      "score": 68,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 1,
+        "keywordOpportunity": 2,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.31,
@@ -1066,9 +1066,34 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 13
+        "queryImpressions": 18
       },
       "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/sexlikereal",
+      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
+      "cluster": "mobile/device",
+      "score": 68,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 4,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.33,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 364,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 37
+      },
+      "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
     },
     {
@@ -1091,35 +1116,10 @@
         "wordCount": 292,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 15
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "needs editorial review"
-    },
-    {
-      "route": "/sexlikereal",
-      "title": "SexLikeReal Review: VR Library, Playback & Device Considerations",
-      "cluster": "mobile/device",
-      "score": 60,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 2,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.33,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 364,
-        "headings": 5,
-        "links": 0,
         "queryImpressions": 19
       },
       "candidateType": "update data-driven review",
-      "qualityGate": "review-ready"
+      "qualityGate": "needs editorial review"
     },
     {
       "route": "/about",
@@ -1191,7 +1191,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 9
+        "queryImpressions": 10
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1241,7 +1241,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 5
+        "queryImpressions": 6
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1266,7 +1266,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 11
+        "queryImpressions": 13
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1366,7 +1366,7 @@
         "wordCount": 786,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1
+        "queryImpressions": 3
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
