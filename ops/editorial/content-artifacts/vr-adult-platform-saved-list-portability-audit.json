@@ -1,0 +1,114 @@
+{
+  "backlogId": "vr-adult-platform-saved-list-portability-audit",
+  "slug": "vr-adult-platform-saved-list-portability-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Whether Saved Lists and Viewing Notes Can Move With You",
+  "description": "Before building a VR adult library, check whether favorites, playlists, and personal notes can be exported, recovered, or retained if you change devices or platforms.",
+  "excerpt": "A library can be easy to browse yet difficult to take with you. Use this guide to assess saved-item tools, export options, and practical continuity before investing time in a VR platform.",
+  "keyTakeaways": [
+    "Separate platform-owned favorites from lists or notes you can keep independently.",
+    "Look for clear export, backup, and account-recovery documentation before curating a large library.",
+    "Test whether saved items remain useful across headset, browser, and other supported access routes.",
+    "Avoid recording sensitive titles in shared documents or unprotected device notes.",
+    "Treat a saved list as a finding aid, not proof that an item will remain available."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what continuity means for your library",
+      "paragraphs": [
+        "A saved item can mean a favorite button, a playlist, a viewing queue, a bookmark, or a note you made outside the platform. These are not interchangeable. A favorite may only help you find something again while your account is active; a playlist may depend on platform features; a personal note might be portable but reveal more than you intended if stored in a shared account.",
+        "Before comparing services, define what you want to preserve. Some people need only a short list of titles to revisit. Others want collection groupings, metadata, or notes about format and playback. Naming the requirement first makes it easier to distinguish a useful continuity feature from a vague claim that an account can save favorites."
+      ]
+    },
+    {
+      "heading": "Check what the platform actually lets you save",
+      "paragraphs": [
+        "Inspect the interface and help pages for the types of saved items available. Check whether you can organize them, rename lists, add notes, or distinguish items you have watched from those you want to revisit. A single undifferentiated favorite list may be enough for casual browsing but frustrating if you rely on categories or want to compare a shortlist.",
+        "Look for limitations as well as features: list-size restrictions, whether items can be removed in batches, and whether saved entries show identifying information on the headset screen. Do not infer that a platform supports playlists or personal annotations simply because it has a favorite icon. Verify each feature with a free preview or account page if available, without committing sensitive notes first."
+      ]
+    },
+    {
+      "heading": "Assess export and backup options before curating",
+      "paragraphs": [
+        "Find out whether the platform offers a way to export saved items or account data, and what the export contains. A downloadable account archive may not include favorites, custom list names, or useful identifiers. If the documentation is unclear, ask support a specific question: can saved lists be exported in a readable format, and can the export be used outside the service? Keep the answer and date for later reference.",
+        "If there is no export, consider whether you are comfortable recreating a small shortlist manually. Record only the minimum details you need, such as a title or a non-sensitive identifier, and store it in a location you control. Avoid screenshots or shared notes when they might expose titles through device galleries, cloud synchronization, notifications, or household accounts."
+      ],
+      "table": {
+        "caption": "A practical saved-list continuity comparison",
+        "headers": [
+          "Check",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Saved-item types",
+            "Favorites, queues, playlists, or notes",
+            "Shows whether the tool matches your organization needs"
+          ],
+          [
+            "Export",
+            "Whether lists appear in a readable account export",
+            "An export may omit saved items or their context"
+          ],
+          [
+            "Device access",
+            "Whether saved items appear on your intended access routes",
+            "Helps prevent a list that works only in one interface"
+          ],
+          [
+            "Availability changes",
+            "How unavailable entries are displayed",
+            "A saved link may not guarantee continued access"
+          ],
+          [
+            "Privacy",
+            "Where list names and titles appear",
+            "Lists can reveal viewing interests on shared devices"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test access across devices and account states",
+      "paragraphs": [
+        "If you use more than one supported access route, test the same saved item in each one. Confirm that the list is visible, that labels remain understandable, and that selecting an entry does not require a different account or an extra setup step. A phone or desktop may be easier for organizing, while a headset may be the main playback device; make sure the workflow works in both directions if that matters to you.",
+        "Also review what happens after signing out, changing a password, or using account recovery. Avoid testing by deleting an account or canceling a paid plan unless you understand the consequences. Look for official explanations of retention and access, and do not treat a saved-item screen as a substitute for a backup when the data matters to you."
+      ]
+    },
+    {
+      "heading": "Use a low-risk curation workflow",
+      "paragraphs": [
+        "Start with a small, non-sensitive test list. Add a few entries, organize them, sign out and back in if appropriate, and check whether the list is still available on your normal devices. Record what works and what does not before spending time building a detailed catalog. This also reveals whether navigation makes saved items practical to use rather than merely present.",
+        "Keep personal notes separate from the platform when portability is important, but protect them as sensitive information. Use a private device profile or secure storage where appropriate, and review cloud-sync settings before saving identifying titles. If you leave a service, remove local copies from shared devices and check whether account deletion or data-export steps are described."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a favorite button mean my saved list can be exported?",
+      "answer": "No. A favorite button confirms only that the interface offers a way to mark an item. Export, download, and portability are separate capabilities. Check the platform’s account-data documentation and confirm whether saved entries, list names, and useful identifiers are included."
+    },
+    {
+      "question": "Should I keep a separate document of VR titles?",
+      "answer": "Only if the convenience is worth the privacy and maintenance trade-off. A private, minimal list can help you rebuild a shortlist, but titles in notes, screenshots, or synced documents may be visible on shared devices or accounts. Choose a storage method appropriate to your circumstances."
+    },
+    {
+      "question": "Will a saved item remain playable if it disappears from a library?",
+      "answer": "Not necessarily. A saved list is typically a way to find an entry, not a guarantee of continuing access. Review the platform’s terms and notices about catalog changes, and avoid assuming that a bookmark preserves playback rights."
+    },
+    {
+      "question": "What is a quick test before I build a large list?",
+      "answer": "Create a small test list, check that it remains available after a normal sign-in cycle, and look for it on the devices or access routes you plan to use. Then verify whether the platform explains export or account-data access. Do not use sensitive notes in the test."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
