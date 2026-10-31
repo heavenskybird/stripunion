@@ -1,0 +1,139 @@
+export default {
+  "slug": "adult-games-dlc-episode-completeness-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Episodes, DLC, and Base-Game Requirements Before Buying",
+  "description": "Learn how to compare adult game listings when stories are episodic or add-ons are sold separately, including version requirements, bundle contents, and update notes.",
+  "excerpt": "A storefront title may represent a complete release, one episode, or a base game that depends on separately listed content. Use this checklist to understand what a purchase actually includes.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Distinguish the base game, episode, expansion, soundtrack, and cosmetic add-ons in a listing.",
+    "Check whether an add-on requires a specific base game, edition, or release version.",
+    "Read bundle contents individually instead of assuming a bundle includes every related item.",
+    "Use update notes and release history to distinguish planned content from content already available.",
+    "Keep a simple purchase record so you can track what you own and what remains optional."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the product type behind the listing",
+      "paragraphs": [
+        "A game storefront can place several related products near one another: a base game, an episodic chapter, an expansion, a soundtrack, artwork, or a bundle. Similar names and cover art can make these listings look interchangeable even when they provide different access. Start with the product type and the exact included items, not the promotional image or the title alone.",
+        "Look for a concise description of what launches after purchase. Does it identify a complete game, a specific episode, or an add-on that extends something already owned? If the listing is unclear, check its itemized contents and the storefront's product-type label. Treat words such as complete, season, edition, or collection as prompts to verify details rather than as substitutes for them."
+      ],
+      "table": {
+        "caption": "Questions to ask for common game listing types",
+        "headers": [
+          "Listing type",
+          "Evidence to verify"
+        ],
+        "rows": [
+          [
+            "Base game",
+            "Whether the listed product is playable on its own and which version it is"
+          ],
+          [
+            "Episode or chapter",
+            "Which installment is included and whether earlier chapters are required"
+          ],
+          [
+            "Expansion or add-on",
+            "Which base game or edition it requires"
+          ],
+          [
+            "Bundle",
+            "Every included item, duplicate ownership rules, and missing related items"
+          ],
+          [
+            "Soundtrack or art pack",
+            "Whether it is a separate extra rather than playable game content"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Map prerequisites and version dependencies",
+      "paragraphs": [
+        "An add-on can require a particular base game, edition, platform version, or storefront release. Check the requirements section and compare it with the exact product in your library or cart. A familiar franchise name is not enough to establish compatibility: similarly titled releases may be separate products, and an expansion may not work with every edition.",
+        "For episodic releases, establish the intended order and whether a later chapter stands alone. Store pages may describe a season or collection in ways that require closer reading. Look for episode numbers, included chapter lists, prerequisite notices, and references to earlier releases. If essential information is missing, contact the storefront or publisher before buying rather than assuming a later item includes earlier material."
+      ],
+      "bullets": [
+        "Record the exact title and edition of the base game you need.",
+        "Check whether an add-on requires a specific release or platform.",
+        "Confirm episode order and whether earlier chapters are included.",
+        "Do not infer compatibility from artwork, franchise names, or similar titles."
+      ]
+    },
+    {
+      "heading": "Read bundle contents as an inventory",
+      "paragraphs": [
+        "Bundles can simplify a purchase, but their names do not always tell you what is inside. Expand the itemized list and compare it with the products you already own and the content you want. Check for duplicate items, excluded episodes, optional extras, or a base game that is not part of the bundle. The list of contents is more useful than a broad label such as collection or ultimate edition.",
+        "If a bundle is presented as a complete package, verify whether that means all currently released chapters, a particular edition, or only the products listed at that moment. A bundle can also change over time. Save a copy of the itemized contents and purchase confirmation for your records. That makes it easier to check later whether a missing item was excluded or simply listed separately."
+      ]
+    },
+    {
+      "heading": "Separate available content from future plans",
+      "paragraphs": [
+        "A development roadmap, announcement, or store description may discuss content that is not yet available. Treat those statements differently from a release listing that identifies playable content now. Look for dates, version numbers, changelog entries, and explicit statements that an update has been released. A promise or target date is not evidence that an item is already included in a purchase.",
+        "Update history can help clarify whether a game is maintained and how its content is organized, but it does not guarantee a particular release schedule. Check the date and scope of individual notes: a maintenance update may not add a new chapter, and a planned chapter may not have a firm delivery date. If your decision depends on unfinished content, decide whether the currently available product is worthwhile on its own."
+      ],
+      "bullets": [
+        "Distinguish released content from announced or planned content.",
+        "Check the date and stated scope of update notes.",
+        "Do not treat a roadmap as a delivery guarantee.",
+        "Consider whether the available version meets your needs without future additions."
+      ]
+    },
+    {
+      "heading": "Build a purchase map before checkout",
+      "paragraphs": [
+        "Before buying several related products, write down the smallest set that gives you the experience you want. Separate required purchases from optional extras. This avoids paying for overlapping editions or purchasing an add-on before its prerequisite. If the storefront offers a bundle, compare its itemized contents with that map rather than assuming the bundle is automatically more complete.",
+        "Keep records of the product name, edition, included chapters, purchase date, and any stated prerequisites. Save receipts and relevant listing details where permitted. This is useful if a library later displays a confusing title or an add-on appears unavailable. Storefront policies determine refunds, access, and ownership rights; the purchase map is a planning tool, not a promise that access can be transferred or refunded."
+      ],
+      "table": {
+        "caption": "A simple purchase map for related releases",
+        "headers": [
+          "Need",
+          "Listing evidence",
+          "Decision"
+        ],
+        "rows": [
+          [
+            "Playable starting point",
+            "Base-game or first-episode description",
+            "Required or not required"
+          ],
+          [
+            "Later story content",
+            "Episode list and prerequisites",
+            "Buy now, defer, or not needed"
+          ],
+          [
+            "Extras",
+            "Separate soundtrack, art, or optional add-on listing",
+            "Optional"
+          ],
+          [
+            "Bundle value to your library",
+            "Itemized contents checked against owned items",
+            "Useful only if needed items are included"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does buying a season or collection guarantee every related episode?",
+      "answer": "No title alone establishes what is included. Check the itemized contents, episode list, and product description. If the listing does not clearly identify included chapters, treat the scope as unresolved and ask the seller or publisher before purchasing."
+    },
+    {
+      "question": "How can I tell whether DLC needs the base game?",
+      "answer": "Read the product's requirements and compatibility notes, then match them to the exact base-game edition in your library. If the requirement is unclear, do not assume that a similarly named game or another edition will work."
+    },
+    {
+      "question": "Should I buy a game based on a planned update?",
+      "answer": "Base the decision on the content that is available now unless you are comfortable with uncertainty. Roadmaps and announcements can change. Check dated release notes for evidence that an update has actually shipped, and avoid treating plans as guaranteed delivery."
+    }
+  ]
+};
