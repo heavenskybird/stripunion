@@ -1,0 +1,115 @@
+export default {
+  "slug": "webmaster-affiliate-document-conflict-resolution",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Terms Conflict: Reconcile Contracts, Dashboards and Support Replies",
+  "description": "A practical workflow for resolving conflicting affiliate program terms across agreements, dashboards, help pages and support responses.",
+  "excerpt": "When program materials disagree, record the conflict, identify the controlling terms and get a specific written clarification before changing traffic or relying on a commission rule.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Record the exact wording, source and date for each conflicting statement.",
+    "Distinguish contractual terms from dashboard labels, help pages and informal support replies.",
+    "Ask a narrow question that names the campaign, event or traffic method at issue.",
+    "Do not treat a dashboard display or verbal assurance as a contract amendment.",
+    "Save the resolution and update internal promotion and reporting notes."
+  ],
+  "sections": [
+    {
+      "heading": "Treat conflicting program information as an operational risk",
+      "paragraphs": [
+        "Affiliate programs can communicate rules in several places: an agreement, a policy page, application materials, a dashboard, email notices or support replies. Those sources may be written at different times or for different situations. If they describe attribution, eligible traffic, commission qualifications or restrictions differently, acting on the most convenient version can create avoidable financial and compliance risk.",
+        "The first step is not to guess which statement is correct. Pause the affected decision, capture the wording and identify the practical question it creates. For example, does a dashboard label define an eligible conversion, or does a signed agreement define a narrower condition? A clear record makes it easier to request a useful answer and protects your team from relying on an untraceable recollection."
+      ]
+    },
+    {
+      "heading": "Build a source and wording record",
+      "paragraphs": [
+        "For every conflict, record the source, date accessed, relevant section or screen, and exact wording. Save a copy or screenshot where permitted and retain the surrounding text so a short phrase is not taken out of context. Include the program account, site or campaign involved, but avoid storing unnecessary personal or visitor information.",
+        "Then classify each source. A signed agreement or formally incorporated policy may have a different status from a promotional page, an onboarding email or a support message. Do not assume a universal hierarchy: the program’s agreement may specify which documents apply and how updates take effect. Read those provisions and ask the program to identify the applicable rule when the hierarchy remains unclear."
+      ],
+      "table": {
+        "caption": "Use a conflict log to keep evidence and next steps organized",
+        "headers": [
+          "Record field",
+          "What to capture",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Issue",
+            "The rule or decision in question",
+            "Keeps the investigation specific"
+          ],
+          [
+            "Sources",
+            "Document, page or screen and date",
+            "Shows where each version came from"
+          ],
+          [
+            "Exact wording",
+            "Relevant text with nearby context",
+            "Avoids paraphrase disputes"
+          ],
+          [
+            "Resolution",
+            "Written answer and any named policy",
+            "Provides a reference for future operations"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate binding terms from explanatory material",
+      "paragraphs": [
+        "A dashboard can be useful for monitoring, but a displayed status may not explain the underlying qualification rule. A help article may summarize a process without changing an agreement. A support reply can clarify how staff interpret a term, but it may not amend the contract unless the program’s process says that it does. The relevant documents and their incorporation rules matter.",
+        "Read the agreement for its definitions, incorporated policies, update mechanism and conflict provisions. Check whether policy changes require notice, whether continued use indicates acceptance, and which version applies to activity already sent. If you cannot determine the relationship among documents, write down that uncertainty and request clarification from an authorized program contact rather than silently choosing a preferred source."
+      ],
+      "bullets": [
+        "Find the agreement’s definitions and document-incorporation language.",
+        "Check how policy updates are delivered and when they take effect.",
+        "Distinguish a dashboard observation from a rule defining eligibility."
+      ]
+    },
+    {
+      "heading": "Ask a question that can be answered precisely",
+      "paragraphs": [
+        "A broad message such as “What are the current terms?” may produce another general link rather than resolving the conflict. Identify the two statements that disagree, quote their source and ask which rule applies to a specific action or event. Include the relevant campaign type and dates where needed, but avoid sending sensitive visitor data unless it is necessary and permitted.",
+        "Request the answer in writing and ask the contact to point to the controlling agreement section or current policy. If the answer is conditional, ask what facts would change the result. Avoid treating an ambiguous reply as approval. A useful clarification says what is allowed, under which conditions, and where that rule is documented."
+      ],
+      "bullets": [
+        "Quote both conflicting statements and identify their dates.",
+        "Describe the exact traffic method, conversion event or campaign decision.",
+        "Ask which policy governs and request the applicable section or document."
+      ]
+    },
+    {
+      "heading": "Limit exposure while the question is unresolved",
+      "paragraphs": [
+        "If the conflict affects whether traffic is permitted, whether a claim is accurate, or whether a conversion qualifies, avoid scaling or expanding the affected activity until the rule is clear. Where practical, pause only the specific campaign or placement in question rather than making an unrelated site-wide change. Keep a note of what was paused and when.",
+        "If a decision cannot wait, assess the least risky reversible option and document the reason for taking it. Do not promise visitors a benefit, access condition or commission-related outcome based on an unresolved interpretation. This is an operational risk-management approach, not a guarantee that a program will approve the choice or pay a commission."
+      ]
+    },
+    {
+      "heading": "Close the loop in your records and workflows",
+      "paragraphs": [
+        "When you receive a clear written resolution, add it to the conflict log with the date, sender, relevant policy reference and scope. Note whether the answer applies only to one campaign or to the program generally. Save the original materials as well as the resolution so the decision can be reconstructed later if terms or staff change.",
+        "Finally, update the systems that depend on the rule: campaign notes, link labels, content claims, traffic restrictions and reporting assumptions. Assign an owner to recheck the issue when the program publishes a relevant change. A recorded answer is useful only if the people who operate the site can find it and know what it does—and does not—authorize."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which affiliate program document always overrides the others?",
+      "answer": "There is no universal answer. The agreement may specify which policies are incorporated, how updates work and what happens if documents conflict. Check those provisions and ask the program to identify the controlling rule when the relationship remains unclear."
+    },
+    {
+      "question": "Is a support email enough to change a written agreement?",
+      "answer": "Not necessarily. A support reply may clarify how a rule is interpreted, but whether it changes an agreement depends on the program’s terms and authorized process. Ask for the governing document or formal confirmation and preserve the response."
+    },
+    {
+      "question": "Should I stop all affiliate traffic while I investigate a conflict?",
+      "answer": "Not automatically. Identify the affected campaign or activity and limit that exposure where practical. If the conflict concerns permitted traffic or a material claim, avoid expanding the uncertain activity until you have a sufficiently clear answer."
+    }
+  ]
+};

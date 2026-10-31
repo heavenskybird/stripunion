@@ -1,0 +1,115 @@
+export default {
+  "slug": "premium-video-membership-model-scope-comparison",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Memberships: Compare All-Access, Publisher-Specific and Title-Based Models",
+  "description": "Compare premium video membership models by catalog scope, access period, renewal terms and the titles you actually expect to watch.",
+  "excerpt": "A membership can mean access to a broad library, a publisher’s catalog, or selected titles. Use this framework to compare what each model includes before paying.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Identify whether a plan covers a broad service library, a defined publisher collection, or access to particular titles.",
+    "Check whether access lasts only while a membership is active or continues after a separate purchase.",
+    "Compare a short list of titles you care about rather than relying on broad catalog-size language.",
+    "Record renewal, cancellation and access-end terms alongside the catalog scope.",
+    "Treat previews and catalog pages as evidence of availability, not proof that every listed item is included."
+  ],
+  "sections": [
+    {
+      "heading": "Start by identifying what the membership actually covers",
+      "paragraphs": [
+        "Premium video services can use different access models, even when each describes itself as a subscription. One membership may cover a broad service library; another may focus on a publisher’s collection; a third may provide access to selected items under separate purchase or rental terms. The label alone does not tell you which model applies.",
+        "Before comparing plans, find the terms that define the catalog covered by the recurring charge. Look for language about included titles, excluded items, add-ons, rentals, purchase access and any limits attached to the membership. If the service’s marketing page and checkout summary differ, keep a note of both and use the more specific checkout and account terms as questions to resolve before committing."
+      ],
+      "bullets": [
+        "Does the recurring membership cover a service-wide library or a narrower collection?",
+        "Are some titles listed in the catalog but available only through another transaction?",
+        "Does access to included material stop when the membership ends?"
+      ]
+    },
+    {
+      "heading": "Match the model to the library you would use",
+      "paragraphs": [
+        "A broad catalog is not automatically a better fit than a focused one. The useful comparison is how much of the available library overlaps with your own viewing interests and whether the service makes those items easy to identify. Make a small list of representative titles, creators, formats or categories that matter to you, then check each item’s access label directly.",
+        "This method reduces the risk of choosing on a headline catalog claim that does not reflect your priorities. Note whether each shortlist item appears to be included, separately sold, temporarily available, or unclear. If the listing does not show its access status until checkout, treat that uncertainty as a comparison cost rather than assuming inclusion."
+      ],
+      "table": {
+        "caption": "A practical way to distinguish access models before comparing plans",
+        "headers": [
+          "Model to investigate",
+          "Questions to answer",
+          "Useful evidence"
+        ],
+        "rows": [
+          [
+            "Broad service library",
+            "Which titles are included, and what is excluded?",
+            "Title-level access labels and membership terms"
+          ],
+          [
+            "Publisher-focused collection",
+            "Which publisher or collection is covered, and are other catalogs separate?",
+            "Collection description and the plan’s inclusion terms"
+          ],
+          [
+            "Title-based purchase or rental",
+            "Does access apply to one item, and for how long?",
+            "Item-level checkout terms and access duration"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare access duration, not just the payment pattern",
+      "paragraphs": [
+        "Recurring billing and one-time payment describe how you pay, not necessarily how long you can view a title. Membership access may depend on keeping the account active. A separately purchased item may have different access conditions, and a rental may be limited to a stated period. Avoid assuming that a title remains available simply because it appeared in your account before.",
+        "For each candidate model, write down the event that ends access: membership cancellation, membership expiry, a rental window closing, or a separate account or service condition. Check whether the terms explain what happens to saved items, viewing progress and purchase records at that point. These distinctions matter when you are deciding whether recurring access or item-by-item access better suits your habits."
+      ],
+      "bullets": [
+        "Record the stated access period for each kind of transaction.",
+        "Check whether ending a membership also ends access to previously included items.",
+        "Keep purchase confirmations or membership summaries where you can retrieve them."
+      ]
+    },
+    {
+      "heading": "Evaluate the full renewal and cancellation commitment",
+      "paragraphs": [
+        "A plan’s catalog scope is only one part of its value. Review the billing interval, renewal behavior, any initial term, and the steps required to stop future renewals. Confirm whether cancellation takes effect immediately or at the end of a paid period, and whether the terms distinguish cancelling renewal from closing an account.",
+        "Compare plans over the same period. For example, use the length of time you realistically expect to keep access, then account for renewals and any separate charges that are necessary to reach the titles you want. Do not infer a plan’s total cost from the word “membership” or from a promotional summary; use the stated checkout terms and note any unresolved charges or conditions."
+      ]
+    },
+    {
+      "heading": "Use previews and catalog pages carefully",
+      "paragraphs": [
+        "A preview can help you assess presentation, navigation and whether a title is relevant to your shortlist. It does not necessarily establish the quality of every full-length item, the availability of every format, or whether the title is included in a particular plan. Check the preview’s own labels and compare them with the plan’s access terms.",
+        "Catalog pages can also change or use different labels for included, separately sold and temporarily available items. Before joining, capture the title name and the access label you relied on, along with the date you checked it. This creates a simple record for comparing options and helps you ask a precise support question if the wording is unclear."
+      ]
+    },
+    {
+      "heading": "Build a like-for-like comparison before choosing",
+      "paragraphs": [
+        "A useful comparison sheet separates catalog fit from payment and access conditions. Give each candidate the same shortlist and record whether each item is included, excluded, separately charged or uncertain. Then compare renewal terms, access after cancellation, playback options relevant to your devices, and how easily you can inspect the catalog before paying.",
+        "Avoid giving a plan extra credit for a large stated library if you cannot verify the items that matter to you. Conversely, a focused collection may meet your needs if the terms clearly define its coverage and the relevant titles are available. The aim is not to find a universal winner; it is to understand the trade-offs well enough to choose a model that fits your intended use."
+      ],
+      "bullets": [
+        "Use the same shortlist and comparison period for every option.",
+        "Mark missing information as unknown instead of filling gaps with assumptions.",
+        "Recheck item-level access status immediately before checkout."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a video subscription always include every title shown on the service?",
+      "answer": "No. A catalog may include titles with different access conditions, including items that are separate from the recurring membership. Check the item-level label and the membership terms before assuming a title is included."
+    },
+    {
+      "question": "How can I compare a broad library with a focused collection?",
+      "answer": "Create a representative shortlist of titles or catalog features you care about. Check the access status of the same shortlist for each option, then compare renewal terms and how long access lasts. This is more useful than comparing broad catalog descriptions alone."
+    },
+    {
+      "question": "If I cancel a membership, do I keep access to the titles I watched?",
+      "answer": "That depends on the service’s terms and whether the titles were included through membership or obtained under separate purchase conditions. Check what cancellation changes and when access ends; do not assume that watch history or a saved title means continued viewing rights."
+    }
+  ]
+};

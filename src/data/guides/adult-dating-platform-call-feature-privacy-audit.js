@@ -1,0 +1,110 @@
+export default {
+  "slug": "adult-dating-platform-call-feature-privacy-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Voice and Video Call Features Before Connecting",
+  "description": "Evaluate dating-platform voice and video calls by access rules, privacy exposure, permissions, blocking tools and alternatives to sharing contact details.",
+  "excerpt": "Before moving a conversation to a call, check how the feature works, what account details may be visible and which controls let you decline or end contact.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Check whether calls stay within the platform or require exchanging another contact method.",
+    "Review microphone, camera and notification permissions before starting a call.",
+    "Find the decline, end, block and report controls before you need them.",
+    "Consider screen background, visible notifications and account identifiers during a call.",
+    "Do not interpret a call feature as proof of identity or trustworthiness."
+  ],
+  "sections": [
+    {
+      "heading": "Find out how calls are initiated and connected",
+      "paragraphs": [
+        "Dating platforms may handle voice and video communication in different ways. A call may take place inside the service, use an external communications tool, or require users to exchange contact details. These arrangements can expose different information and give the platform different roles in the connection. Confirm the process before accepting an invitation or sharing a phone number, email address or social account.",
+        "Check who can initiate a call, whether both people must consent, and whether a call request can arrive unexpectedly while you are browsing. Look for a clear preview of the caller or request and a way to decline without entering the call. If the description is vague, ask what information is shared and whether the service records call metadata or content."
+      ],
+      "bullets": [
+        "Does the call remain inside the dating service?",
+        "Are contact details shared with the other person?",
+        "Can you decline without opening the call?"
+      ]
+    },
+    {
+      "heading": "Review permissions and information visible during a call",
+      "paragraphs": [
+        "Voice calls usually need microphone access, while video calls may also use a camera. Grant permissions only when you understand why they are needed, and review your device’s permission controls afterward. If the service provides an in-app option to turn off audio or video, find it before connecting rather than relying on locating it under pressure.",
+        "A call can reveal more than what is spoken or shown. Your display name, profile image, notification previews, room background, nearby items or other people may become visible or audible. Before starting, choose a neutral display name if the service allows it, silence sensitive notifications and check the frame. These precautions reduce incidental exposure but cannot prevent another participant from recording or remembering what they see."
+      ],
+      "table": {
+        "caption": "Pre-call privacy check",
+        "headers": [
+          "Area",
+          "Check before connecting",
+          "Practical action"
+        ],
+        "rows": [
+          [
+            "Account identity",
+            "Which name and profile image appear?",
+            "Review profile display settings"
+          ],
+          [
+            "Device permissions",
+            "Does the feature request camera or microphone access?",
+            "Grant only the permissions needed for the call"
+          ],
+          [
+            "Notifications",
+            "Could messages or account details appear on screen?",
+            "Use a suitable notification setting"
+          ],
+          [
+            "Call controls",
+            "Can you mute, turn off video, decline or end?",
+            "Locate controls before accepting"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Locate safety controls before you need them",
+      "paragraphs": [
+        "Find how to end a call, block an account and report behavior that violates the service’s rules. Check whether blocking can be done from the call screen or whether you must return to a profile. If the call becomes uncomfortable, you do not need to continue it while searching through menus for a control.",
+        "Read the platform’s reporting guidance so you know what information may be useful, such as the account name, approximate time and a description of the issue. Do not assume that every service retains call content or can review a call afterward. Use the channel the service documents and avoid sharing additional private details simply because someone asks for them."
+      ]
+    },
+    {
+      "heading": "Set boundaries for moving off-platform",
+      "paragraphs": [
+        "A request to switch to a personal phone number or external app can change what the platform can moderate and what identity information the other person receives. You can choose to keep communication within the service, delay a call, or decline without explaining more than you want. A person’s reaction to a reasonable boundary can help you decide whether to continue communicating, but it is not definitive evidence of identity or intent.",
+        "If you do choose an external service, review its account name, privacy settings and contact-discovery options first. Avoid linking profiles that expose your full name, workplace or other identifying details if that is not information you intend to share. Make the choice deliberately rather than disclosing details just to satisfy pressure or keep a conversation going."
+      ]
+    },
+    {
+      "heading": "Test the feature without oversharing",
+      "paragraphs": [
+        "Before scheduling or accepting a call, inspect the help page and account settings for call eligibility, request handling, privacy and any applicable membership restrictions. If the platform allows a low-information test of the interface, use it to locate controls and understand the layout without revealing unnecessary personal information. Do not treat a successful connection as proof that the other person has been verified.",
+        "Check whether call requests can trigger email or push notifications and whether those notifications display message content. On a shared device, review sign-in persistence and notification previews. If a call is not necessary for your decision, continuing through text may be a simpler option while you assess comfort and compatibility."
+      ]
+    },
+    {
+      "heading": "Choose a communication option that fits your comfort level",
+      "paragraphs": [
+        "Compare the available options by privacy, convenience and your own boundaries. An in-platform call may avoid sharing a personal number, but it does not eliminate all exposure. An external call may offer controls you prefer, while also connecting the conversation to another account or provider. Text communication can provide more time to assess a request and decide what to disclose.",
+        "Make a short personal checklist: what information you are comfortable showing, whether you want audio or video, how you will end the call, and what you will do if the other person pressures you. You can revise these choices at any time. A useful feature is one whose access rules and controls are clear enough for you to use on your own terms."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an in-app call keep my phone number private?",
+      "answer": "It may avoid exchanging phone numbers, but that depends on how the platform implements calls. Check whether the feature stays within the service, what account details appear and whether the other person can access any contact information."
+    },
+    {
+      "question": "Should I accept a video call to verify someone’s identity?",
+      "answer": "A live call can provide additional context, but it does not prove identity or guarantee that information is truthful. Use the call only if you are comfortable, keep personal details private, and do not treat video as a substitute for sound judgment."
+    },
+    {
+      "question": "What should I do if a call becomes uncomfortable?",
+      "answer": "End the call if you want to, then use the platform’s block or report tools if appropriate. You do not need to remain connected while explaining your decision. Check the service’s reporting instructions for what information it requests."
+    }
+  ]
+};
