@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-shop-discreet-packaging-claim-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Discreet Packaging Claims Before Ordering",
+  "description": "Learn how to evaluate an adult shop’s packaging and shipping privacy information, from outer labels and paperwork to return addresses and support answers.",
+  "excerpt": "“Discreet shipping” can mean different things to different retailers. Use this checklist to find out what a shop actually says about outer packaging, shipping labels, paperwork, and returns before you order.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Look for specific explanations of packaging and labels rather than relying on a general “discreet” claim.",
+    "Check whether invoices, packing slips, or product names may be visible in or on the parcel.",
+    "Consider what a carrier label and return address reveal, even when the outer box is plain.",
+    "Ask customer support a narrow, non-sensitive question if a detail is unclear, and save the answer.",
+    "Review the privacy implications of delivery and return options together, not just the parcel’s appearance."
+  ],
+  "sections": [
+    {
+      "heading": "Translate “discreet” into checkable details",
+      "paragraphs": [
+        "Retailers may use “discreet” as a broad description, but the word alone does not tell you what a parcel looks like or what information appears on it. One shop might be referring only to plain outer packaging. Another may also explain whether product names, branded tape, promotional inserts, or an itemized document are included. Treat the claim as a prompt to inspect the retailer’s actual shipping information, not as a guarantee about every part of the delivery.",
+        "Make a short list of the details that matter to your situation. For example, you may want to know whether the parcel exterior identifies the retailer, whether contents are described on a packing document, or whether the return address uses a recognizable trading name. Separate what the shop states explicitly from what you are inferring. This keeps a general marketing phrase from standing in for information the shop has not provided."
+      ],
+      "bullets": [
+        "Find the retailer’s packaging or delivery FAQ and note its wording.",
+        "Distinguish outer packaging, shipping label, paperwork, and return address.",
+        "Record unanswered questions rather than assuming the most private interpretation."
+      ]
+    },
+    {
+      "heading": "Inspect the parcel exterior and shipping label information",
+      "paragraphs": [
+        "Start with the outside of the shipment. Check whether the retailer describes the type of packaging, such as a plain box or mailing bag, and whether it says anything about logos, branded tape, or exterior product descriptions. A photograph or clear written explanation may answer more than a short privacy slogan, but do not assume an example image represents every order or carrier method unless the shop says so.",
+        "The carrier label is a separate privacy surface. Retailer information might not appear on the package itself but could appear in the sender name or return address. If the site does not specify what sender details are used, note that as unknown. Also consider whether a delivery method could leave a parcel with a building desk, household member, or collection point. The retailer controls some information; the carrier and delivery setting may introduce other visibility."
+      ],
+      "table": {
+        "caption": "A practical packaging-privacy review",
+        "headers": [
+          "Parcel detail",
+          "What to check",
+          "What remains uncertain if unstated"
+        ],
+        "rows": [
+          [
+            "Outer packaging",
+            "Plain packaging description; logos or branded tape",
+            "Whether the description applies to every order"
+          ],
+          [
+            "Shipping label",
+            "Sender name and visible address details",
+            "Which name appears for a particular carrier"
+          ],
+          [
+            "Documents inside",
+            "Invoice, packing slip, product descriptions",
+            "Whether paperwork is included or itemized"
+          ],
+          [
+            "Return information",
+            "Return address and sender details",
+            "Whether the return label differs from outbound shipping"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check paperwork and communications separately",
+      "paragraphs": [
+        "A parcel can be plain on the outside while still containing a document that identifies the retailer or describes the order. Look for a shipping FAQ or checkout explanation that says whether receipts, invoices, packing slips, or promotional materials are included. Do not assume that an electronic receipt means there will be no paper document, or that a paper document will list product-level details; ask when the published policy does not answer that specific question.",
+        "Order communications deserve a separate look. Confirmation emails, dispatch notices, and tracking messages may appear on a shared device or inbox. That is different from packaging, but it can affect the same privacy decision. Check whether you can choose communication preferences or limit optional marketing messages. You do not need to provide extra personal details when asking about packaging; keep the question general and focused on the shop’s process."
+      ],
+      "bullets": [
+        "Check whether paperwork is included and whether it itemizes products.",
+        "Review what sender name appears in order emails and tracking communications, if stated.",
+        "Use a private email address or device only if that fits your own security needs."
+      ]
+    },
+    {
+      "heading": "Consider returns before you place the order",
+      "paragraphs": [
+        "Outbound packaging is only one part of the transaction. If you might need to return an eligible item, the returns process can involve a different address, label, or communication trail. Review the return instructions alongside the retailer’s packaging information. Confirm whether the retailer explains how a return is identified, what documents are required, and whether you must contact support before sending anything back. Do not infer return privacy from an outbound-shipping claim.",
+        "Think through where a return parcel would be prepared and handed over, and whether a carrier receipt or email notification might be visible to someone else. These are practical considerations, not reasons to avoid a return you are entitled to make. The goal is to understand the process in advance so you can choose a retailer and delivery method with information that matches your needs."
+      ],
+      "bullets": [
+        "Read the return procedure before ordering, not only after a problem occurs.",
+        "Check for separate return-address or label instructions.",
+        "Keep order records somewhere appropriate and accessible if you need support."
+      ]
+    },
+    {
+      "heading": "Ask a precise question and keep a record",
+      "paragraphs": [
+        "If the policy leaves a gap, ask customer support one concrete question at a time. For example: “Does the outside of the parcel show the shop name?” or “Is an itemized packing slip included?” A specific question is easier to answer than asking whether an order is completely private. Avoid sending sensitive personal information unless it is genuinely needed to resolve the inquiry.",
+        "Save the relevant policy text and the support response with the date, especially if the answer affects your decision. Policies and fulfillment arrangements can change, so recheck current information at checkout rather than treating an old response as permanent. If the retailer cannot clarify a detail that matters to you, compare another shop’s published information or choose a delivery arrangement that reduces the uncertainty you identified."
+      ],
+      "bullets": [
+        "Ask about the exact packaging detail you need clarified.",
+        "Save a copy or note of the current policy and support response.",
+        "Base the decision on documented details, not assumptions about what “discreet” must mean."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does “discreet shipping” always mean the retailer name is hidden?",
+      "answer": "No. The phrase is not enough to establish what appears on a parcel or carrier label. Check the retailer’s specific explanation for sender details, branding, and return information."
+    },
+    {
+      "question": "Should I ask customer support whether a parcel is discreet?",
+      "answer": "A more useful question names the detail you want to know, such as whether the parcel exterior shows a logo or whether paperwork lists products. This makes the answer easier to assess."
+    },
+    {
+      "question": "Can plain packaging guarantee that nobody will know what I ordered?",
+      "answer": "No. A plain exterior does not control who can access delivery notifications, order emails, payment records, or paperwork inside. Review each information source separately."
+    }
+  ]
+};

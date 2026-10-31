@@ -1,0 +1,131 @@
+{
+  "backlogId": "webmaster-affiliate-conversion-event-definition-audit",
+  "slug": "webmaster-affiliate-conversion-event-definition-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Verify What Each Conversion Event Actually Means",
+  "description": "Before integrating an affiliate program, map its conversion events to the actions they represent, the reporting statuses attached, and the terms that determine eligibility.",
+  "excerpt": "A dashboard label such as “sale” or “lead” is only useful if you know what action it represents. Build a conversion-event map before choosing tracking, designing reports, or comparing program terms.",
+  "keyTakeaways": [
+    "Distinguish a tracked event from an approved, commissionable event.",
+    "Ask what actions trigger each event label and whether multiple events can describe one customer journey.",
+    "Map event names, statuses, and term definitions side by side before using program data.",
+    "Check whether reports distinguish pending, approved, rejected, or adjusted outcomes, where applicable.",
+    "Record unresolved definitions and obtain clarification before treating an event count as an earnings measure."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the event from its commercial outcome",
+      "paragraphs": [
+        "Affiliate reporting often uses short labels for a sequence of actions. A click may be followed by a registration, lead, trial, order, or other event, but the label alone does not explain what happened or whether the event qualifies for compensation. A tracking system can record an action without establishing that it meets the program’s contractual conditions. Treat event capture, review status, and commission eligibility as separate concepts until the program documentation connects them.",
+        "This distinction matters when comparing programs or evaluating a report. If one program calls a completed registration a conversion and another uses that word for a completed purchase, their totals are not directly comparable. Build a plain-language definition for each event before using it in a dashboard, forecast, or performance summary. Avoid inferring financial outcomes from event counts when the program has not documented that relationship."
+      ],
+      "bullets": [
+        "List every event label used in the program’s terms and reports.",
+        "Mark which actions are trackable, reviewable, and potentially commissionable.",
+        "Do not equate a recorded event with an approved payment."
+      ]
+    },
+    {
+      "heading": "Build a conversion-event map from primary documents",
+      "paragraphs": [
+        "Collect the documents that define the program’s tracking and commercial terms: the affiliate agreement, program help pages, dashboard field descriptions, and any current integration notes. Put the exact label beside the clearest written definition you can find. If documents use different language, do not silently choose the most favorable interpretation. Record the conflict and ask the program contact to explain which definition controls.",
+        "A useful map includes the triggering action, the report label, the event status, the applicable eligibility rule, and the document that supports your interpretation. It also records whether the event is deduplicated, whether it can be corrected, and whether a later review can change its status—only where the program documents those details. Unknown fields should remain marked unknown. That makes gaps visible before development or reporting decisions depend on them."
+      ],
+      "table": {
+        "caption": "Conversion-event definition worksheet",
+        "headers": [
+          "Field",
+          "Question to answer",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Event trigger",
+            "What action causes the event to be recorded?",
+            "Written event definition or tracking notes"
+          ],
+          [
+            "Report label",
+            "What name appears in the dashboard or export?",
+            "Field description and example report"
+          ],
+          [
+            "Status",
+            "Can the event be pending, approved, rejected, or changed?",
+            "Status definitions and update rules"
+          ],
+          [
+            "Eligibility",
+            "What term determines whether it can earn commission?",
+            "Agreement clause or program rule"
+          ],
+          [
+            "Relationship",
+            "Can multiple event types refer to one journey?",
+            "Documented funnel or deduplication explanation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how events relate across a customer journey",
+      "paragraphs": [
+        "Some programs describe a sequence of events rather than one final outcome. A visitor could be counted at an initial action and later at a separate action, or an early event might be replaced or supplemented by a later one. Do not assume that each label represents a unique person, a unique transaction, or a separate commission. Ask how the program handles repeated actions, duplicate records, and movement from one event stage to another if those details affect your integration.",
+        "Use a simple example when seeking clarification. Describe a hypothetical journey in neutral terms—such as click, registration, and later purchase—and ask which events the report would show and which, if any, are considered for commission. The goal is not to obtain a performance promise; it is to understand the data model. Keep the response with the relevant term version so your team can revisit the rationale if labels change."
+      ],
+      "bullets": [
+        "Ask whether event stages are additive, replacements, or separate records.",
+        "Check how repeat actions and duplicate records are described.",
+        "Keep examples hypothetical and focused on event meaning."
+      ]
+    },
+    {
+      "heading": "Align your tracking and reporting fields",
+      "paragraphs": [
+        "Once definitions are clear, choose internal field names that preserve the distinction between an event and its status. For instance, an internal report can store the program’s exact event label alongside your own plain-language description, timestamp, source identifier, and reported status. Do not rename a program event in a way that makes it appear more certain or financially final than the source data supports.",
+        "When importing reports or building a dashboard, preserve the original value as well as any normalized category you create. Document your mapping so another team member can understand why a program-specific term appears under an internal heading. If the program changes a label or definition, update the map and any dependent report logic. Keep a record of the date and documentation version used; this is a practical control, not a substitute for the program’s current terms."
+      ],
+      "bullets": [
+        "Preserve source labels and statuses in imported data.",
+        "Document every internal normalization or category mapping.",
+        "Update reports when source definitions change."
+      ]
+    },
+    {
+      "heading": "Resolve ambiguity before relying on a comparison",
+      "paragraphs": [
+        "When a definition is missing, ask the program a focused question and identify the document or field you are asking about. Request clarification on the event trigger, status changes, and relationship to eligibility as separate points. If the response is informal or appears inconsistent with written terms, retain it and seek a clear explanation of which source governs. Avoid presenting an uncertain interpretation as a confirmed program feature in your own comparisons.",
+        "A final review should make it possible to answer three questions for every event: What action does it represent? What status does the report show? What documented rule connects it to commission eligibility? If one answer is missing, label the gap and account for it in your decision. A program can still suit your operations with incomplete documentation, but the uncertainty should be visible rather than hidden inside a conversion metric."
+      ],
+      "bullets": [
+        "Keep a dated event glossary with links or references to source documents.",
+        "Flag definitions that remain unresolved instead of guessing.",
+        "Compare programs only after aligning event meanings, not just their headline labels."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is every conversion in an affiliate dashboard commissionable?",
+      "answer": "Not necessarily. A dashboard may record an event before eligibility is determined. Check the program’s definitions and status rules rather than treating every event count as an approved commission."
+    },
+    {
+      "question": "What should I do if the agreement and dashboard use different event names?",
+      "answer": "Record the difference and ask the program to explain how the labels correspond and which written definition controls. Preserve the response and the relevant document versions."
+    },
+    {
+      "question": "Why keep the original event label if I normalize the report?",
+      "answer": "The source label lets you trace your internal category back to the program’s wording. Keeping both makes later audits and definition changes easier to understand."
+    }
+  ],
+  "wordCount": 790,
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

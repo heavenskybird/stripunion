@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T05:38:33.162Z",
+  "generatedAt": "2026-10-31T07:01:33.444Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-payment-method-privacy-fit.json",
-    "ops/editorial/content-artifacts/adult-anime-digital-access-rights-check.json",
-    "ops/editorial/content-artifacts/vr-adult-headset-power-planning-check.json",
-    "ops/editorial/content-artifacts/free-video-content-source-context-check.json",
-    "ops/editorial/content-artifacts/adult-game-update-history-evidence-check.json"
+    "ops/editorial/content-artifacts/adult-shop-discreet-packaging-claim-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-off-platform-contact-transition-plan.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-conversion-event-definition-audit.json",
+    "ops/editorial/content-artifacts/live-cam-language-accessibility-fit-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-collaborator-access-permissions-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-payment-method-privacy-fit.js",
-    "src/data/guides/adult-anime-digital-access-rights-check.js",
-    "src/data/guides/vr-adult-headset-power-planning-check.js",
-    "src/data/guides/free-video-content-source-context-check.js",
-    "src/data/guides/adult-game-update-history-evidence-check.js"
+    "src/data/guides/adult-shop-discreet-packaging-claim-audit.js",
+    "src/data/guides/adult-dating-off-platform-contact-transition-plan.js",
+    "src/data/guides/webmaster-affiliate-conversion-event-definition-audit.js",
+    "src/data/guides/live-cam-language-accessibility-fit-audit.js",
+    "src/data/guides/creator-platform-collaborator-access-permissions-audit.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games"
+    "adult-shops",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "live-cams",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-platform-payment-method-privacy-fit",
-    "adult-anime-digital-access-rights-check",
-    "vr-adult-headset-power-planning-check",
-    "free-video-content-source-context-check",
-    "adult-game-update-history-evidence-check"
+    "adult-shop-discreet-packaging-claim-audit",
+    "adult-dating-off-platform-contact-transition-plan",
+    "webmaster-affiliate-conversion-event-definition-audit",
+    "live-cam-language-accessibility-fit-audit",
+    "creator-platform-collaborator-access-permissions-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41173246092",
-  "phase": "closed"
+  "r1CycleId": "41178761815"
 }
