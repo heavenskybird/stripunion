@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T14:06:08.371Z",
+  "generatedAt": "2026-10-31T15:03:50.263Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-shared-device-browser-trace-review.json",
-    "ops/editorial/content-artifacts/adult-games-dlc-episode-completeness-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-prepurchase-customer-support-evidence-check.json",
-    "ops/editorial/content-artifacts/adult-anime-language-edition-availability-audit.json",
-    "ops/editorial/content-artifacts/live-cam-mobile-interface-usability-preflight.json"
+    "ops/editorial/content-artifacts/premium-video-offline-access-entitlement-planning.json",
+    "ops/editorial/content-artifacts/adult-platform-managed-device-use-decision-checklist.json",
+    "ops/editorial/content-artifacts/creator-platform-platform-license-scope-review.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-image-reuse-risk-check.json",
+    "ops/editorial/content-artifacts/affiliate-referral-url-personal-data-leakage-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-shared-device-browser-trace-review.js",
-    "src/data/guides/adult-games-dlc-episode-completeness-audit.js",
-    "src/data/guides/adult-shop-prepurchase-customer-support-evidence-check.js",
-    "src/data/guides/adult-anime-language-edition-availability-audit.js",
-    "src/data/guides/live-cam-mobile-interface-usability-preflight.js"
+    "src/data/guides/premium-video-offline-access-entitlement-planning.js",
+    "src/data/guides/adult-platform-managed-device-use-decision-checklist.js",
+    "src/data/guides/creator-platform-platform-license-scope-review.js",
+    "src/data/guides/adult-dating-profile-image-reuse-risk-check.js",
+    "src/data/guides/affiliate-referral-url-personal-data-leakage-audit.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "live-cams"
+    "premium-videos",
+    "privacy-safety-payment",
+    "creator-platforms",
+    "dating-hookups",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "free-video-shared-device-browser-trace-review",
-    "adult-games-dlc-episode-completeness-audit",
-    "adult-shop-prepurchase-customer-support-evidence-check",
-    "adult-anime-language-edition-availability-audit",
-    "live-cam-mobile-interface-usability-preflight"
+    "premium-video-offline-access-entitlement-planning",
+    "adult-platform-managed-device-use-decision-checklist",
+    "creator-platform-platform-license-scope-review",
+    "adult-dating-profile-image-reuse-risk-check",
+    "affiliate-referral-url-personal-data-leakage-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41208386130",
-  "phase": "closed"
+  "r1CycleId": "41212814995"
 }

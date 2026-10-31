@@ -1,0 +1,120 @@
+export default {
+  "slug": "adult-platform-managed-device-use-decision-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms on Work or School Devices: A Privacy Decision Checklist",
+  "description": "Decide whether to use an adult platform on a managed device by checking device policies, monitoring, account separation and practical privacy limits.",
+  "excerpt": "Private browsing does not make a managed device private. Before using an adult platform on a work or school device, assess who controls the device, what monitoring may apply and what safer alternatives exist.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "A managed device may be subject to policies and controls that private browsing cannot disable.",
+    "Device ownership, management software and network access are separate privacy questions.",
+    "Avoid entering personal account credentials on a device you do not control.",
+    "Do not attempt to bypass organizational monitoring or security controls.",
+    "When the device’s status is uncertain, use a personally controlled device and connection instead."
+  ],
+  "sections": [
+    {
+      "heading": "Start with ownership and policy, not browser mode",
+      "paragraphs": [
+        "A work, school or shared organization device is not equivalent to a personal device merely because it lets you open a browser. The organization may set acceptable-use rules, install management software, restrict applications or retain operational logs. The exact arrangements vary, and a user should not assume that a familiar browser feature changes them. Review the device-use policy and ask the organization’s IT or privacy contact if the wording is unclear.",
+        "Separate two questions: whether a particular use is permitted and what information the organization may collect. A policy can prohibit personal use even if the organization does not routinely inspect browsing content. Conversely, technical controls may collect device or network information even where personal use is allowed. Do not infer one answer from the other, and do not use the device for a sensitive account until both are understood."
+      ],
+      "bullets": [
+        "Who owns the device, and who can administer it?",
+        "Does a written policy address personal browsing or adult-content access?",
+        "Is there an official contact who can clarify monitoring and acceptable use?"
+      ]
+    },
+    {
+      "heading": "Identify the device and network control layers",
+      "paragraphs": [
+        "Managed-device privacy can involve several layers: the operating system, installed management tools, browser settings, endpoint security, account sign-in and network access. A network administrator may see connection or filtering information, while device management may provide a different set of controls. The details depend on the organization and configuration; this guide cannot establish what a particular employer or school records.",
+        "Look for clear signs that the device is managed, such as organization enrollment, required work or school profiles, administrative restrictions or a management notice. Do not remove profiles, disable security tools or try to evade filters. Those actions may violate policy and can create additional account or device risks. If you cannot determine how the device is managed, treat it as organization-controlled rather than private."
+      ],
+      "table": {
+        "caption": "A practical distinction between privacy questions",
+        "headers": [
+          "Layer",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Device ownership",
+            "Who can administer, inspect or reset the device?"
+          ],
+          [
+            "Organization policy",
+            "What personal use is permitted, and what uses are prohibited?"
+          ],
+          [
+            "Device management",
+            "Are profiles, security tools or restrictions installed by an organization?"
+          ],
+          [
+            "Network access",
+            "Does the connection apply filtering or produce administrative logs?"
+          ],
+          [
+            "Account sign-in",
+            "Could saved credentials, autofill or account synchronization expose personal details?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect personal accounts from managed-device persistence",
+      "paragraphs": [
+        "Entering credentials on a device you do not control can leave more than a visible browser tab. The browser may save a password, autofill an email address, synchronize history, retain a session, or offer to save payment details. A managed device may also have restrictions that prevent users from changing these settings. Avoid signing into a personal account when you cannot control the browser and device state.",
+        "If you have already signed in, use the platform’s account controls from a personally controlled device to review active sessions and sign out the managed device where that option exists. Change a password if you believe it was saved or exposed, and check whether multi-factor authentication is enabled. These steps reduce ongoing access risk but do not erase records held by the organization or guarantee that previously collected information is removed."
+      ],
+      "bullets": [
+        "Do not save passwords, payment information or recovery details on organization-managed devices.",
+        "Avoid linking a personal browser profile or cloud account to a managed device.",
+        "If you used an account, review its active sessions and sign out where possible."
+      ]
+    },
+    {
+      "heading": "Choose a safer device and connection deliberately",
+      "paragraphs": [
+        "For personal adult-platform use, a device that you own and administer offers more control over installed software, saved credentials and account sessions. A personal device does not remove every privacy risk: websites, payment providers, network operators and other people with access to the device may still have information. It does, however, avoid adding an organization’s device-management rules to the situation.",
+        "Use a connection you are authorized to use and understand. A personal cellular connection may separate use from an organization’s network, but it does not make browsing anonymous or defeat records created by the service or device. Avoid using a work account, organization email address or shared cloud profile for a personal platform account. Keep each account’s purpose and recovery route distinct."
+      ]
+    },
+    {
+      "heading": "Avoid workarounds that create new risks",
+      "paragraphs": [
+        "Do not try to bypass organizational filters, install unauthorized software, change management settings or route traffic around controls. Apart from policy concerns, these workarounds can expose credentials, cause security alerts or undermine the protections intended for the device. A privacy concern is a reason to choose a different device, not to defeat controls on one that belongs to someone else.",
+        "If you need to understand a monitoring notice, ask the designated administrator or privacy contact rather than testing the controls with sensitive browsing. Keep the question factual: what categories of device or network activity are collected, who can access them, how long they are retained, and where the policy is documented. Do not assume a verbal answer replaces the organization’s written policy."
+      ]
+    },
+    {
+      "heading": "Use a simple go-or-no-go decision",
+      "paragraphs": [
+        "If the device belongs to an employer, school or another organization, the use is prohibited, or the monitoring conditions are unclear, the prudent decision is not to use it for personal adult-platform accounts. If personal use is permitted and you understand the controls, still consider whether the device is appropriate for a sensitive account. A policy that allows browsing does not necessarily promise confidentiality.",
+        "For a device you already used, focus on account security and future separation rather than trying to erase every possible trace. Sign out, remove any saved credentials you control, check account sessions and follow the organization’s process for policy questions. Keep expectations realistic: a user may control local browser data without controlling organizational logs, backups or monitoring records."
+      ],
+      "bullets": [
+        "No clear permission or unclear management status: do not use the device for the account.",
+        "Known managed device: follow its policy and do not bypass its controls.",
+        "Personal device available: use a personally controlled account, browser and connection.",
+        "Already signed in: secure the account and review active sessions from a trusted device."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from an employer or school?",
+      "answer": "No. Private browsing mainly limits some information saved in the local browser session. It does not establish what device-management tools, network controls, platform logs or organizational policies may apply."
+    },
+    {
+      "question": "Can I use a work device if personal browsing is allowed?",
+      "answer": "Permission to browse personally does not necessarily mean the activity is confidential or that every site is permitted. Check the acceptable-use policy and monitoring notice, then decide whether a managed device is appropriate for a sensitive personal account."
+    },
+    {
+      "question": "What should I do if I already signed in on a managed device?",
+      "answer": "From a personally controlled device, review account sessions and sign out the managed device if possible. Remove saved credentials where you have authority to do so, change a password if it may have been retained, and follow the organization’s policy rather than trying to bypass its controls."
+    }
+  ]
+};
