@@ -1,0 +1,110 @@
+{
+  "backlogId": "adult-platform-app-store-purchase-history-privacy-audit",
+  "slug": "adult-platform-app-store-purchase-history-privacy-audit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Subscriptions Through App Stores: Check Purchase History and Sharing Exposure",
+  "description": "Before subscribing through an app store, check where purchase records may appear, which account controls billing, and what sharing settings could reveal.",
+  "excerpt": "An app-store subscription can place purchase records in more than one account interface. Use this checklist to understand billing control, household sharing, receipts, and cancellation before you subscribe.",
+  "keyTakeaways": [
+    "Identify which account and provider will manage the subscription before starting checkout.",
+    "Review purchase-history visibility and household or family-sharing settings on the account used to pay.",
+    "Check where receipts and renewal notices are sent, including shared inboxes and device notifications.",
+    "Confirm how cancellation works and which account must be used to manage the subscription.",
+    "Save only the records you need, and store them somewhere other account users cannot casually access."
+  ],
+  "sections": [
+    {
+      "heading": "Map the accounts involved before checkout",
+      "paragraphs": [
+        "A subscription started through an app-store billing flow may involve several distinct accounts: the adult platform login, the app-store account, the device profile, and the email address that receives receipts. The platform may provide access, while a separate store account handles payment and subscription management. Do not assume that signing out of one account ends or hides the records held by another.",
+        "Before confirming payment, identify the account shown in the purchase sheet and make sure it is the account you intend to use. Check whether that account is personal, shared with a household, or signed in on devices other people can access. If you cannot tell which account controls billing, pause and look for the store’s subscription-management instructions rather than starting a subscription you may have difficulty locating later."
+      ],
+      "bullets": [
+        "Record which account authorizes the purchase and which account provides platform access.",
+        "Check whether the billing account is signed in on shared devices.",
+        "Do not treat app deletion or platform sign-out as subscription cancellation."
+      ]
+    },
+    {
+      "heading": "Review purchase-history and sharing surfaces",
+      "paragraphs": [
+        "Purchase records can be visible in places other than a bank statement. Depending on the account and its settings, relevant surfaces may include an app-store purchase history, subscription list, receipt email, device notification, or a shared household purchase interface. The exact visibility rules vary, so inspect the account settings and current help information rather than relying on assumptions about how family or household sharing works.",
+        "Pay particular attention to who can use the device profile and who can access the account’s email. A person who cannot open the adult platform may still see a notification or receipt on a shared device or inbox. Consider whether lock-screen previews, shared mailboxes, or a household purchase-sharing arrangement could expose a transaction or subscription name."
+      ],
+      "bullets": [
+        "Check purchase-history access and household purchase-sharing settings.",
+        "Review lock-screen notification previews and the email account receiving receipts.",
+        "Avoid changing shared-account settings without understanding how those changes affect other users."
+      ]
+    },
+    {
+      "heading": "Understand who controls billing and cancellation",
+      "paragraphs": [
+        "The account that supplies access is not always the account that controls renewal. If billing runs through an app store, cancellation may need to be completed through that store’s account settings; cancelling only on the platform may not end a store-managed renewal. Conversely, a subscription billed directly by the platform may have different management steps. Verify the payment route shown during checkout and use the corresponding account’s official subscription-management page.",
+        "Before subscribing, locate the cancellation route while you still have access to the relevant account. Check when a cancellation takes effect, whether access continues through a paid period, and whether a confirmation is provided. These are terms to verify, not guarantees. Keep a dated note or confirmation in a private place so you can distinguish a completed cancellation from merely removing an app or turning off notifications."
+      ]
+    },
+    {
+      "heading": "Reduce incidental exposure on devices and inboxes",
+      "paragraphs": [
+        "A private platform password does not protect records displayed by a shared device or email account. Consider disabling sensitive lock-screen previews, using a device profile that other household members do not use, and keeping the billing inbox separate from shared mail. These steps reduce casual exposure but cannot erase records already held by a store, platform, payment provider, or account administrator.",
+        "Avoid forwarding receipts to a shared address or saving them to a shared photo library or notes account. If you need a record for budgeting or support, store the minimum necessary information in a location protected by an account only you control. Do not delete a useful confirmation until you have checked that renewal is stopped and any relevant payment issue is resolved."
+      ]
+    },
+    {
+      "heading": "Use a pre-purchase decision checklist",
+      "paragraphs": [
+        "Treat checkout as a decision point: if the account arrangement is unclear, do not rely on changing it later. Compare the practical privacy of available payment routes, but do not assume that one route creates anonymity. Store records and payment providers may retain information according to their own terms, and an account administrator may have visibility that the platform itself does not control.",
+        "After purchase, verify that the subscription appears in the expected management interface and that the receipt went to the intended inbox. If it appears under an unexpected account, use the relevant provider’s support channel. Keep the response factual and share only the details required to locate the transaction; avoid sending unrelated personal information."
+      ],
+      "table": {
+        "caption": "Questions to answer before using app-store billing",
+        "headers": [
+          "Check",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Which account authorizes payment?",
+            "That account may hold the purchase history and subscription controls."
+          ],
+          [
+            "Who can access its email or devices?",
+            "Receipts and notifications may appear outside the platform."
+          ],
+          [
+            "Where is cancellation managed?",
+            "Removing the app or logging out may not stop renewal."
+          ],
+          [
+            "What does household sharing expose?",
+            "Shared-account settings can affect who sees purchases or notices."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does deleting an app cancel its subscription?",
+      "answer": "Do not assume so. App removal and subscription cancellation are separate actions in many billing arrangements. Check the account that processed the payment and confirm the subscription status there."
+    },
+    {
+      "question": "Will a family or household account always reveal the purchase?",
+      "answer": "Visibility depends on the provider’s current settings and account arrangement. Review the relevant purchase-sharing and history controls directly; do not infer privacy from the fact that other household members lack the platform login."
+    },
+    {
+      "question": "Should I delete the receipt after subscribing?",
+      "answer": "That is a personal recordkeeping choice. If you may need proof of payment or cancellation, keep the necessary confirmation in a private location. Deleting a receipt does not remove records held by the store, platform, or payment provider."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
