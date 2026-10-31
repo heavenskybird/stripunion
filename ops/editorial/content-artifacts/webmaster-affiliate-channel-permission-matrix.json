@@ -1,0 +1,115 @@
+{
+  "backlogId": "webmaster-affiliate-channel-permission-matrix",
+  "slug": "webmaster-affiliate-channel-permission-matrix",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map Allowed Email, Social and Editorial Promotion",
+  "description": "Build a channel-by-channel permission matrix before promoting an affiliate program through email, social media, editorial pages, paid placements or other traffic sources.",
+  "excerpt": "A referral link that works on a website is not automatically permitted in every channel. Turn program terms into a practical approval matrix before publishing.",
+  "keyTakeaways": [
+    "Evaluate each promotional channel separately; permission for a website does not establish permission for email, social or paid traffic.",
+    "Record the controlling source, exact rule, date checked and any approval required for each channel.",
+    "Distinguish a prohibited channel from a permitted channel with conditions such as disclosure, creative approval or destination limits.",
+    "Treat unclear or conflicting language as unresolved until the program clarifies it in writing.",
+    "Keep a dated copy of the rules and revisit the matrix when terms, accounts or campaign formats change."
+  ],
+  "sections": [
+    {
+      "heading": "Translate broad terms into specific channels",
+      "paragraphs": [
+        "Affiliate terms may use broad labels such as promotional methods, advertising or traffic sources. Those phrases can be hard to apply to a real campaign. List the channels you actually operate: editorial pages, email newsletters, social posts, creator partnerships, paid search, display placements, messaging groups or other sources. The list should reflect your planned activity, not a generic checklist copied from another publisher.",
+        "For each channel, identify the precise activity. A public social post, a paid social placement and a direct message are not necessarily treated alike. Similarly, an editorial link inside a review may face different rules from a banner placed beside it. Describe where the link appears, how visitors encounter it and whether you control the page or placement."
+      ],
+      "bullets": [
+        "Name each channel and format in plain language.",
+        "Separate organic promotion from paid distribution.",
+        "Record whether a third party, contractor or partner will publish or distribute the material."
+      ]
+    },
+    {
+      "heading": "Build a permission matrix with evidence",
+      "paragraphs": [
+        "A useful matrix makes uncertainty visible. For every channel, record whether the program terms say permitted, prohibited, conditionally permitted or unclear. Add the wording or a concise quotation, the document location, the date reviewed and the person responsible for checking. This creates an operational record that can be updated without relying on memory or a vague note such as “social approved.”",
+        "A permission may apply only to a particular account, creative, audience, geography or landing page. Capture those limits beside the channel status. If the program requires prior approval, distinguish that requirement from permission already granted. An application or unanswered support ticket should not be treated as approval."
+      ],
+      "table": {
+        "caption": "Example structure for a channel permission matrix",
+        "headers": [
+          "Channel",
+          "Rule status",
+          "Conditions or evidence to record"
+        ],
+        "rows": [
+          [
+            "Editorial website",
+            "Permitted, restricted or unclear",
+            "Approved domain, page type, disclosure and link placement"
+          ],
+          [
+            "Email newsletter",
+            "Permitted, restricted or unclear",
+            "List source, message format, required disclosures and approval"
+          ],
+          [
+            "Organic social post",
+            "Permitted, restricted or unclear",
+            "Named account, allowed creative and any brand-use limits"
+          ],
+          [
+            "Paid placement",
+            "Permitted, restricted or unclear",
+            "Ad network, targeting method, landing page and pre-approval"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check audience, claims and destination rules",
+      "paragraphs": [
+        "Channel permission is only one layer. Check whether a program restricts audience targeting, geographic delivery, page content, brand terms, creative formats or the destination reached through the referral link. A channel may be allowed while a particular message, image, claim or landing page is not. Keep those checks separate so a broad “approved” label does not conceal a material restriction.",
+        "Review how your content presents the offer. Avoid implying guarantees or benefits that the program has not substantiated. Confirm required disclosures and place them so visitors can understand the commercial relationship before acting. If a partner supplies creative material, verify its approved use and whether it has an expiration or replacement requirement. Preserve the approved version and its source."
+      ]
+    },
+    {
+      "heading": "Resolve ambiguity before the campaign goes live",
+      "paragraphs": [
+        "When terms do not clearly answer a channel question, ask a specific, bounded question. Describe the proposed placement, account or property, audience, format, destination and whether distribution is paid. Ask the program to identify the applicable rule and whether written approval is required. A precise question is easier to document than a broad request to “approve our marketing.”",
+        "If the answer conflicts with a contract, dashboard notice or published policy, record the conflict and pause the affected channel until it is resolved. Save the relevant documents and response with dates. Do not assume an informal response overrides formal terms unless the program confirms how the approval applies and who has authority to grant it."
+      ],
+      "bullets": [
+        "Use one question per channel or campaign format.",
+        "Ask whether approval applies to a specific asset, account, property or continuing activity.",
+        "Keep unresolved channels marked as pending rather than approved."
+      ]
+    },
+    {
+      "heading": "Set a review and change-control routine",
+      "paragraphs": [
+        "A permission matrix is a working control, not a one-time compliance exercise. Assign an owner to check program notices and terms before launching a new channel, changing a landing page or handing work to an outside publisher. Record the date and reason for each change. If a campaign expands from editorial placement to paid distribution, review it as a new activity rather than assuming the original permission carries over.",
+        "When a restriction changes, identify the affected links and placements, then decide whether to pause, update or remove them. Keep an archive of prior versions so your records show what rule was applied at the time. This process supports consistent operations, but it does not replace legal advice or any obligations that apply to your business."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program approves my website, can I use the same link in an email?",
+      "answer": "Do not assume so. Website and email activity can be governed by different terms or conditions. Check the program’s current rules for email promotion and obtain any required approval before sending."
+    },
+    {
+      "question": "Is a support reply enough to document channel permission?",
+      "answer": "It can be useful evidence, but clarify what the reply covers, who issued it and whether it is consistent with the program agreement. Save the response with the question, date and campaign details; unresolved conflicts should remain unresolved in your matrix."
+    },
+    {
+      "question": "How often should I review the channel matrix?",
+      "answer": "Review it before adding a channel, changing campaign format, using a new property or materially changing the destination. Also check for program notices or updated terms on a schedule appropriate to your operations."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
