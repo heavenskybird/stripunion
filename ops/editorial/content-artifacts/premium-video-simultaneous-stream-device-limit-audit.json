@@ -1,0 +1,127 @@
+{
+  "backlogId": "premium-video-simultaneous-stream-device-limit-audit",
+  "slug": "premium-video-simultaneous-stream-device-limit-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Check Device and Simultaneous-Stream Limits",
+  "description": "A checklist for verifying supported devices, registered-device rules, concurrent streams, sign-in limits, and access terms before choosing a premium video membership.",
+  "excerpt": "A subscription that works on one screen may have different rules for other devices or concurrent viewing. Check device support and account limits before relying on a plan.",
+  "keyTakeaways": [
+    "Separate device compatibility from rules about how many devices may be registered or used at once.",
+    "Check whether the terms define simultaneous streams, active sessions, or household use separately.",
+    "Confirm where purchase and cancellation are managed if access is billed through another provider.",
+    "Test the devices you expect to use during any available preview or trial period.",
+    "Keep a record of the terms that applied when you subscribed."
+  ],
+  "sections": [
+    {
+      "heading": "Treat device support and device limits as different questions",
+      "paragraphs": [
+        "A platform may support a device type while limiting how accounts use it. Compatibility asks whether playback is available on a browser, phone, tablet, television, or other supported device. A device limit may instead describe how many devices can be registered, how many sessions can remain active, or how many streams can play at the same time.",
+        "Do not treat a general statement such as watch on multiple devices as a complete answer. Look for definitions of registered devices, active sessions, concurrent streams, and account sharing. These terms may have different effects, so record the exact wording rather than reducing them to a single number or assumption."
+      ]
+    },
+    {
+      "heading": "Find the controlling terms before subscribing",
+      "paragraphs": [
+        "Check the membership page, help documentation, and any checkout summary for restrictions. If those sources differ, identify which document applies to the plan you are considering and whether the terms are dated. For an unclear rule, ask support a specific question: for example, whether one account can be used on two supported devices at different times or whether multiple streams can run simultaneously.",
+        "A subscription obtained through a separate billing provider may have distinct account or cancellation steps. Confirm which account manages access, where renewal information appears, and which party handles billing records. This avoids mistaking a device restriction for a payment or sign-in issue."
+      ],
+      "table": {
+        "caption": "Questions to distinguish common device and session rules",
+        "headers": [
+          "Rule type",
+          "What to look for",
+          "Why it is separate"
+        ],
+        "rows": [
+          [
+            "Supported device",
+            "A list of compatible browsers, apps, or device categories",
+            "Compatibility does not state how many devices can be used"
+          ],
+          [
+            "Registered devices",
+            "Rules for adding, removing, or replacing devices",
+            "Registration may differ from active playback"
+          ],
+          [
+            "Concurrent streams",
+            "Whether playback can run on more than one screen at once",
+            "This concerns simultaneous viewing, not device compatibility"
+          ],
+          [
+            "Active sessions",
+            "Whether a signed-in session remains active or needs reauthentication",
+            "A login can persist without a stream playing"
+          ],
+          [
+            "Account sharing",
+            "Who is permitted to use the account and under what conditions",
+            "Sharing terms may apply independently of device limits"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Map the devices you actually plan to use",
+      "paragraphs": [
+        "List the devices you expect to use, including the browser or app where that information is available. Confirm that each device is supported in your region and on your current software version. A broad device category may not confirm support for every model or browser configuration.",
+        "If you switch between personal devices, consider how sign-in, verification, and device removal work. Check whether the service explains how to review active sessions or remove a device you no longer control. Avoid assuming that uninstalling an app automatically ends an account session or removes a registered device."
+      ],
+      "bullets": [
+        "List the screens and browsers you expect to use.",
+        "Check support for the specific device category or application.",
+        "Confirm how to remove a lost, replaced, or retired device.",
+        "Find out whether a new sign-in requires an extra verification step."
+      ]
+    },
+    {
+      "heading": "Evaluate shared use without assuming household rules",
+      "paragraphs": [
+        "A plan's device policy does not automatically explain who may use an account. Read any household, sharing, or account-ownership terms separately. If other people can access a device or account, consider profile visibility, viewing history, saved information, and who can change payment or sign-in settings.",
+        "If shared use is not clearly addressed, do not infer permission from the fact that playback technically works on multiple screens. Ask the provider for clarification or choose an arrangement whose written terms fit the intended users. Keeping the question specific can help support distinguish a technical limit from an account-use policy."
+      ]
+    },
+    {
+      "heading": "Use a preview to test the workflow, not just playback",
+      "paragraphs": [
+        "Where a preview or trial is available, test sign-in and playback on the devices you expect to use. Confirm how playback behaves when switching screens and whether the service presents a message when a session or device limit is reached. Do not assume a preview has the same limits as a paid membership; check whether its terms differ.",
+        "Use the evaluation period to inspect the account controls as well as the player. Locate device management, session review, plan details, and support documentation. A platform can play successfully in a quick test while leaving important account-control questions unanswered."
+      ]
+    },
+    {
+      "heading": "Keep a decision record and revisit it when circumstances change",
+      "paragraphs": [
+        "Save the relevant plan description, device requirements, and account-use terms with the date you checked them. This creates a useful reference if the terms change or a device is replaced. A record also helps you ask a precise support question rather than relying on memory.",
+        "Review the device map when you change phones, browsers, or televisions, or when you move from private to shared use. If access is interrupted, identify whether the issue is compatibility, a registered-device cap, an active session, or an account rule before changing settings or buying another plan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does support for several devices mean I can stream on several screens at once?",
+      "answer": "Not necessarily. Device support, device registration, active sessions, and simultaneous streams are different rules. Check the membership terms for an explicit statement about concurrent playback."
+    },
+    {
+      "question": "What should I do if the terms do not explain device limits clearly?",
+      "answer": "Ask support a narrowly framed question about the exact use case, such as switching between two devices or playing on two screens at the same time. Keep the written reply and compare it with the plan terms before subscribing."
+    },
+    {
+      "question": "Does removing an app sign me out everywhere?",
+      "answer": "Do not assume so. App removal and account-session management are separate actions. Look for account controls that review active sessions, remove devices, or change sign-in credentials."
+    },
+    {
+      "question": "Should I test device access during a trial?",
+      "answer": "If a trial or preview is available, it can help confirm basic compatibility and account workflows. Check whether its rules differ from paid membership terms, and do not treat a successful test as proof of every plan limit."
+    }
+  ],
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
