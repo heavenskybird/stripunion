@@ -1,0 +1,123 @@
+export default {
+  "slug": "adult-affiliate-payout-method-compatibility-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Payout Method Compatibility Before Joining",
+  "description": "Compare affiliate payout methods by eligibility, fees, identity requirements, currency handling, documentation and account-control needs before applying.",
+  "excerpt": "A commission arrangement is only operationally useful if you can receive and reconcile payments under the program’s rules. Check the payout route alongside the headline commercial terms.",
+  "publishedAt": "2026-10-31",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Verify that your location, account type and legal name meet the program’s payment requirements.",
+    "Check fees, currency conversion, minimums and transfer timing in the current written terms.",
+    "Understand what identity or tax documentation the program and payment provider request.",
+    "Confirm who controls payout-method changes and how those changes are verified.",
+    "Keep statements and payment records that let you reconcile receipts with program reporting."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with eligibility, not convenience",
+      "paragraphs": [
+        "A payout method is only a practical option if both the affiliate program and the payment provider support your circumstances. Before applying, confirm eligibility for your country or region, the account type you plan to use and the identity information that must match. A method that appears in a general list may not be available to every participant or business structure.",
+        "Use current program documentation and, where necessary, written support clarification. Ask whether the method is available for your location, whether business accounts are accepted and whether the receiving account must be held in a particular name. Do not send sensitive documents through an unverified contact channel; use the application or account process identified by the program."
+      ],
+      "bullets": [
+        "Check regional and account-type eligibility in current terms.",
+        "Confirm name-matching requirements before submitting an application.",
+        "Identify which organization will request and process verification documents."
+      ]
+    },
+    {
+      "heading": "Map the complete cost and transfer path",
+      "paragraphs": [
+        "Do not compare payout methods only by the label attached to them. Identify possible costs at each stage: a program-side processing charge, a payment-provider fee, an intermediary charge or a currency-conversion cost. The applicable terms may differ by location, currency or account type. Verify the current written details rather than assuming that a listed method is free or that one party covers every charge.",
+        "Trace the payment from the program’s payable balance to the account where you can use the funds. Note the settlement currency, any conversion point, the party that determines the conversion terms and any minimum amount or timing conditions. If documentation does not explain a cost or timing detail, record it as unknown before relying on the payout method for business planning."
+      ],
+      "table": {
+        "caption": "Payout method comparison worksheet",
+        "headers": [
+          "Factor",
+          "Question to verify",
+          "Record for comparison"
+        ],
+        "rows": [
+          [
+            "Eligibility",
+            "Is the method available for your location and account type?",
+            "Eligible / ineligible / unclear, with source"
+          ],
+          [
+            "Identity",
+            "Which names and documents must match?",
+            "Required details and verification channel"
+          ],
+          [
+            "Fees",
+            "Which parties may deduct or charge fees?",
+            "Fee source, amount basis or unresolved question"
+          ],
+          [
+            "Currency",
+            "Where does conversion occur and under whose terms?",
+            "Settlement and receiving currencies"
+          ],
+          [
+            "Timing",
+            "What conditions or processing stages affect transfer?",
+            "Written schedule and any qualification conditions"
+          ],
+          [
+            "Records",
+            "Which statements or confirmations can you retain?",
+            "Available documents and retention plan"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check verification and account-change controls",
+      "paragraphs": [
+        "Payment onboarding may involve identity, business or tax information, depending on the program and payment provider. Review what each party requests, why it requests it and how to submit it securely. Distinguish requirements imposed by the affiliate program from those imposed by the payment service; the same document request may have different handling and support channels.",
+        "Also check what happens if you need to change the receiving account. Find out whether the account owner can make the change, whether confirmation is sent through a separate channel and whether a change can delay processing. These are operational controls to verify, not features to assume. Restrict account access to people who need it and protect the email or sign-in method used to approve payout changes."
+      ]
+    },
+    {
+      "heading": "Plan for bookkeeping and reconciliation",
+      "paragraphs": [
+        "A payment record should let you connect a received transfer to the relevant program statement and reporting period. Keep the program’s earning or payable record, payment confirmation, receiving-account statement and any fee or conversion detail that is available. Record the date and currency shown on each document; the program’s reporting period and the receiving institution’s posting date may not be identical.",
+        "Use a consistent process for filing records without putting account credentials or unnecessary personal data into an exposed spreadsheet. If a transfer does not match the expected amount, compare the source documents and contact the appropriate organization through a verified support channel. Preserve the relevant report and transaction reference so the question can be investigated."
+      ],
+      "bullets": [
+        "Save program statements and transfer confirmations together by period.",
+        "Record currency and dates as shown on each source document.",
+        "Note fees or conversions separately when the documentation identifies them.",
+        "Use verified support channels for payment questions."
+      ]
+    },
+    {
+      "heading": "Choose for operational fit, then verify the written terms",
+      "paragraphs": [
+        "The most suitable method is not necessarily the one with the shortest label or fewest setup steps. Compare eligibility, total costs, currency handling, documentation, account security and the work required to reconcile payments. A method that is easy to receive may be difficult to document; a method with familiar records may involve requirements that do not fit your business structure.",
+        "Before committing, save the current program terms and the payment provider’s relevant conditions, noting the date and any details that remain unresolved. Recheck them when you change location, legal entity, receiving account or program arrangement. This is a decision aid, not a promise about payment availability or timing; the program and payment provider control their applicable terms."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the payout method listed in a program automatically available in my country?",
+      "answer": "No. Availability can depend on location, account type and other conditions. Confirm eligibility in current program documentation before relying on a method."
+    },
+    {
+      "question": "Who may charge fees on an affiliate payout?",
+      "answer": "The program, payment provider or another institution involved in the transfer may have separate terms. Check each relevant source and note where the documentation leaves a cost unclear."
+    },
+    {
+      "question": "Should the receiving account use the same name as my affiliate account?",
+      "answer": "That depends on the program and payment provider’s requirements. Verify name-matching and business-account rules before applying or changing the receiving details."
+    },
+    {
+      "question": "What records should I retain for each payment?",
+      "answer": "Keep the program statement, payment confirmation, receiving-account record and any available fee or currency-conversion details. Store them securely and retain only the information needed for your business records."
+    }
+  ]
+};
