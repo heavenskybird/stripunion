@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T10:02:45.103Z",
+  "generatedAt": "2026-10-31T12:02:34.877Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-profile-location-clue-audit.json",
-    "ops/editorial/content-artifacts/premium-video-household-profile-visibility-audit.json",
-    "ops/editorial/content-artifacts/live-cam-scheduled-listing-time-fit-check.json",
-    "ops/editorial/content-artifacts/adult-anime-mobile-browser-app-workflow-comparison.json",
-    "ops/editorial/content-artifacts/free-video-public-profile-contribution-visibility-audit.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-search-and-filter-evaluation.json",
+    "ops/editorial/content-artifacts/adult-games-license-and-launcher-dependency-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-product-material-disclosure-review.json",
+    "ops/editorial/content-artifacts/live-cam-credit-expiry-and-refund-policy-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-account-deletion-and-deactivation-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-profile-location-clue-audit.js",
-    "src/data/guides/premium-video-household-profile-visibility-audit.js",
-    "src/data/guides/live-cam-scheduled-listing-time-fit-check.js",
-    "src/data/guides/adult-anime-mobile-browser-app-workflow-comparison.js",
-    "src/data/guides/free-video-public-profile-contribution-visibility-audit.js"
+    "src/data/guides/vr-adult-platform-search-and-filter-evaluation.js",
+    "src/data/guides/adult-games-license-and-launcher-dependency-audit.js",
+    "src/data/guides/adult-shop-product-material-disclosure-review.js",
+    "src/data/guides/live-cam-credit-expiry-and-refund-policy-audit.js",
+    "src/data/guides/adult-dating-account-deletion-and-deactivation-audit.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "premium-videos",
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
     "live-cams",
-    "hentai-anime",
-    "free-videos"
+    "dating-hookups"
   ],
   "backlogIds": [
-    "adult-platform-profile-location-clue-audit",
-    "premium-video-household-profile-visibility-audit",
-    "live-cam-scheduled-listing-time-fit-check",
-    "adult-anime-mobile-browser-app-workflow-comparison",
-    "free-video-public-profile-contribution-visibility-audit"
+    "vr-adult-platform-search-and-filter-evaluation",
+    "adult-games-license-and-launcher-dependency-audit",
+    "adult-shop-product-material-disclosure-review",
+    "live-cam-credit-expiry-and-refund-policy-audit",
+    "adult-dating-account-deletion-and-deactivation-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41190936915",
-  "phase": "closed"
+  "r1CycleId": "41199159754"
 }
