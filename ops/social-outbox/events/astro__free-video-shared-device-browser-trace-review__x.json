@@ -10,7 +10,7 @@
   "url": "https://stripunion.com/guides/free-video-shared-device-browser-trace-review",
   "channel": "x",
   "provider": "buffer",
-  "state": "scheduled",
+  "state": "delivered",
   "desired_at": "2026-10-31T14:08:45.326Z",
   "attempt_count": 1,
   "last_attempt_at": "2026-10-31T17:11:41.792Z",
@@ -19,7 +19,7 @@
   "provider_message_id": "6ae6214ef0984eef331f4ea0",
   "provider_due_at": "2026-11-01T05:20:00.000Z",
   "created_at": "2026-10-31T14:08:45.326Z",
-  "updated_at": "2026-11-01T05:00:28.851Z",
+  "updated_at": "2026-11-01T06:00:28.163Z",
   "metadata": {
     "historical_reconciliation_required": false,
     "enqueued_by": "editorial_hourly_producer",
@@ -32,7 +32,7 @@
     "cadence_outstanding_before_enqueue": 2,
     "cadence_pressure_before_enqueue": 16,
     "reconciled_by": "buffer_posts_query",
-    "buffer_status": "scheduled",
+    "buffer_status": "sent",
     "buffer_match_count": 1
   }
 }
