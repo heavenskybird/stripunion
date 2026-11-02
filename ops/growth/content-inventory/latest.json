@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-01T07:41:32.852Z",
+  "generatedAt": "2026-11-02T07:49:12.872Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-11-01T07:38:30.511Z",
-    "bing": "2026-11-01T07:38:47.804Z",
+    "gsc": "2026-11-02T07:45:55.359Z",
+    "bing": "2026-11-02T07:46:15.749Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,11 +37,37 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 149
+        "queryImpressions": 157
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 1
+    },
+    {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 85,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.29,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 45
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 2
     },
     {
       "route": "/index",
@@ -67,7 +93,7 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 2
+      "rank": 3
     },
     {
       "route": "/stripchat-pricing",
@@ -89,11 +115,11 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 195
+        "queryImpressions": 229
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 3
+      "rank": 4
     },
     {
       "route": "/stripchat-alternatives",
@@ -115,11 +141,11 @@
         "wordCount": 639,
         "headings": 7,
         "links": 4,
-        "queryImpressions": 324
+        "queryImpressions": 364
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 4
+      "rank": 5
     },
     {
       "route": "/xhamster",
@@ -141,11 +167,11 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 113
+        "queryImpressions": 126
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
-      "rank": 5
+      "rank": 6
     },
     {
       "route": "/chaturbate-alternatives",
@@ -167,36 +193,10 @@
         "wordCount": 232,
         "headings": 4,
         "links": 4,
-        "queryImpressions": 230
+        "queryImpressions": 289
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 6
-    },
-    {
-      "route": "/stripchat",
-      "title": "Stripchat Review: Tokens, Pricing & Features",
-      "cluster": "pricing/tokens",
-      "score": 81,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.29,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 437,
-        "headings": 5,
-        "links": 7,
-        "queryImpressions": 42
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready",
       "rank": 7
     },
     {
@@ -219,11 +219,63 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 112
+        "queryImpressions": 121
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 8
+    },
+    {
+      "route": "/stripchat-vs-chaturbate",
+      "title": "Stripchat vs Chaturbate: Tokens & Access",
+      "cluster": "platform-vs-platform",
+      "score": 80,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 725,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 66
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 9
+    },
+    {
+      "route": "/stripchat-vs-livejasmin",
+      "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
+      "cluster": "platform-vs-platform",
+      "score": 79,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.39,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 283,
+        "headings": 5,
+        "links": 3,
+        "queryImpressions": 46
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review",
+      "rank": 10
     },
     {
       "route": "/best-free-live-cam-sites",
@@ -249,69 +301,17 @@
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 9
-    },
-    {
-      "route": "/stripchat-vs-chaturbate",
-      "title": "Stripchat vs Chaturbate: Tokens & Access",
-      "cluster": "platform-vs-platform",
-      "score": 76,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 725,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 43
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 10
-    },
-    {
-      "route": "/stripchat-vs-livejasmin",
-      "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
-      "cluster": "platform-vs-platform",
-      "score": 75,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.39,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 283,
-        "headings": 5,
-        "links": 3,
-        "queryImpressions": 43
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review",
       "rank": 11
     },
     {
       "route": "/best-live-cam-sites",
       "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
       "cluster": "best cam sites",
-      "score": 74,
+      "score": 78,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 3,
+        "keywordOpportunity": 4,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.31,
@@ -323,11 +323,37 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 32
+        "queryImpressions": 44
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 12
+    },
+    {
+      "route": "/livejasmin",
+      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
+      "cluster": "creator/model referral",
+      "score": 75,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.28,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 292,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 45
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "needs editorial review",
+      "rank": 13
     },
     {
       "route": "/vrporn",
@@ -353,7 +379,7 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
-      "rank": 13
+      "rank": 14
     },
     {
       "route": "/sexlikereal",
@@ -375,36 +401,10 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 53
+        "queryImpressions": 60
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
-      "rank": 14
-    },
-    {
-      "route": "/livejasmin",
-      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
-      "cluster": "creator/model referral",
-      "score": 71,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.28,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 292,
-        "headings": 4,
-        "links": 3,
-        "queryImpressions": 37
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "needs editorial review",
       "rank": 15
     },
     {
@@ -427,7 +427,7 @@
         "wordCount": 397,
         "headings": 6,
         "links": 3,
-        "queryImpressions": 183
+        "queryImpressions": 202
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -505,7 +505,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 20
+        "queryImpressions": 23
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -564,6 +564,32 @@
       "rank": 21
     },
     {
+      "route": "/avcams",
+      "title": "AVCams: Explore Live Cam Rooms",
+      "cluster": "guides",
+      "score": 53,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 1,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.16,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 317,
+        "headings": 6,
+        "links": 7,
+        "queryImpressions": 5
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 22
+    },
+    {
       "route": "/live-cams",
       "title": "{category.title}",
       "cluster": "guides",
@@ -583,11 +609,11 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 10
+        "queryImpressions": 12
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 22
+      "rank": 23
     },
     {
       "route": "/adultfriendfinder",
@@ -613,7 +639,7 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
-      "rank": 23
+      "rank": 24
     },
     {
       "route": "/become-a-cam-model",
@@ -636,32 +662,6 @@
         "headings": 7,
         "links": 3,
         "queryImpressions": 5
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 24
-    },
-    {
-      "route": "/avcams",
-      "title": "AVCams: Explore Live Cam Rooms",
-      "cluster": "guides",
-      "score": 49,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.16,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 317,
-        "headings": 6,
-        "links": 7,
-        "queryImpressions": 4
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -741,9 +741,34 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 149
+        "queryImpressions": 157
       },
       "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/stripchat",
+      "title": "Stripchat Review: Tokens, Pricing & Features",
+      "cluster": "pricing/tokens",
+      "score": 85,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.29,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 437,
+        "headings": 5,
+        "links": 7,
+        "queryImpressions": 45
+      },
+      "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
     },
     {
@@ -791,7 +816,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 195
+        "queryImpressions": 229
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +841,7 @@
         "wordCount": 639,
         "headings": 7,
         "links": 4,
-        "queryImpressions": 324
+        "queryImpressions": 364
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -841,7 +866,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 113
+        "queryImpressions": 126
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,35 +891,10 @@
         "wordCount": 232,
         "headings": 4,
         "links": 4,
-        "queryImpressions": 230
+        "queryImpressions": 289
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
-    },
-    {
-      "route": "/stripchat",
-      "title": "Stripchat Review: Tokens, Pricing & Features",
-      "cluster": "pricing/tokens",
-      "score": 81,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.29,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 437,
-        "headings": 5,
-        "links": 7,
-        "queryImpressions": 42
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready"
     },
     {
       "route": "/stripchat-private-shows",
@@ -916,10 +916,60 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 112
+        "queryImpressions": 121
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
+    },
+    {
+      "route": "/stripchat-vs-chaturbate",
+      "title": "Stripchat vs Chaturbate: Tokens & Access",
+      "cluster": "platform-vs-platform",
+      "score": 80,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 725,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 66
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/stripchat-vs-livejasmin",
+      "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
+      "cluster": "platform-vs-platform",
+      "score": 79,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 3,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.39,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 283,
+        "headings": 5,
+        "links": 3,
+        "queryImpressions": 46
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "needs editorial review"
     },
     {
       "route": "/best-free-live-cam-sites",
@@ -947,64 +997,14 @@
       "qualityGate": "needs editorial review"
     },
     {
-      "route": "/stripchat-vs-chaturbate",
-      "title": "Stripchat vs Chaturbate: Tokens & Access",
-      "cluster": "platform-vs-platform",
-      "score": 76,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 725,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 43
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/stripchat-vs-livejasmin",
-      "title": "Stripchat vs LiveJasmin: Public Rooms vs Premium Interaction",
-      "cluster": "platform-vs-platform",
-      "score": 75,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 3,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.39,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 283,
-        "headings": 5,
-        "links": 3,
-        "queryImpressions": 43
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "needs editorial review"
-    },
-    {
       "route": "/best-live-cam-sites",
       "title": "Best Live Cam Sites in 2026: Compare the Main Platform Models",
       "cluster": "best cam sites",
-      "score": 74,
+      "score": 78,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 3,
+        "keywordOpportunity": 4,
         "uniqueness": 3,
         "freshnessSignal": 4,
         "overlapRisk": 0.31,
@@ -1016,10 +1016,35 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 32
+        "queryImpressions": 44
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
+    },
+    {
+      "route": "/livejasmin",
+      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
+      "cluster": "creator/model referral",
+      "score": 75,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.28,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 292,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 45
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "needs editorial review"
     },
     {
       "route": "/vrporn",
@@ -1066,35 +1091,10 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 53
+        "queryImpressions": 60
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
-    },
-    {
-      "route": "/livejasmin",
-      "title": "LiveJasmin Review: Premium Live-Cam Model Explained",
-      "cluster": "creator/model referral",
-      "score": 71,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.28,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 292,
-        "headings": 4,
-        "links": 3,
-        "queryImpressions": 37
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "needs editorial review"
     },
     {
       "route": "/stripchat-app",
@@ -1116,7 +1116,7 @@
         "wordCount": 397,
         "headings": 6,
         "links": 3,
-        "queryImpressions": 183
+        "queryImpressions": 202
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1191,7 +1191,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 20
+        "queryImpressions": 23
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1247,6 +1247,31 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/avcams",
+      "title": "AVCams: Explore Live Cam Rooms",
+      "cluster": "guides",
+      "score": 53,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 1,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.16,
+        "internalLinkPotential": 3,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 317,
+        "headings": 6,
+        "links": 7,
+        "queryImpressions": 5
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/live-cams",
       "title": "{category.title}",
       "cluster": "guides",
@@ -1266,7 +1291,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 10
+        "queryImpressions": 12
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1317,31 +1342,6 @@
         "headings": 7,
         "links": 3,
         "queryImpressions": 5
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/avcams",
-      "title": "AVCams: Explore Live Cam Rooms",
-      "cluster": "guides",
-      "score": 49,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 0,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.16,
-        "internalLinkPotential": 3,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 317,
-        "headings": 6,
-        "links": 7,
-        "queryImpressions": 4
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
