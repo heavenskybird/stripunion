@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-02T07:49:13.044Z",
+  "generatedAt": "2026-11-03T08:02:18.587Z",
   "sources": {
-    "gsc": "2026-10-31",
-    "gscBlog": "2026-10-31",
+    "gsc": "2026-11-01",
+    "gscBlog": "2026-11-01",
     "gscOpportunityScope": "domain",
-    "bing": "2026-11-01",
-    "ga4": "2026-11-01",
-    "clarity": "2026-11-02",
-    "attribution": "2026-11-01",
-    "stripcash": "2026-11-01",
-    "competitorSnapshot": "2026-11-02",
-    "competitorDiff": "2026-11-02",
+    "bing": "2026-11-02",
+    "ga4": "2026-11-02",
+    "clarity": "2026-11-03",
+    "attribution": "2026-11-02",
+    "stripcash": "2026-11-02",
+    "competitorSnapshot": "2026-11-03",
+    "competitorDiff": "2026-11-03",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft listing tool or repository draft export is available in this workflow."
@@ -18,7 +18,7 @@
   },
   "monetization": {
     "connected": true,
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "scope": "StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.",
     "signups": 0,
     "verifiedSignups": 0,
@@ -31,7 +31,7 @@
   },
   "queryHygiene": {
     "droppedSyntheticPromptQueries": 11,
-    "droppedIrrelevantKeywordExpansion": 114,
+    "droppedIrrelevantKeywordExpansion": 122,
     "canonicalClusteringEnabled": true,
     "purpose": "Prevent malformed, off-topic, over-broad and synthetic prompt-like rows from crowding the ranked growth queue."
   },
@@ -61,12 +61,12 @@
     ],
     "rows": [
       {
-        "query": "xhampster",
+        "query": "xhamster .com",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 546096,
+        "impressions": 231813,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -74,42 +74,14 @@
         "topicState": "review",
         "existingPage": "/xhamster",
         "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamster.com",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 263994,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "chaterbate",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 223369,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "page",
-        "existingPage": "/chaturbate-alternatives",
-        "recommendedUse": "refresh_existing:/chaturbate-alternatives"
       },
       {
         "query": "hamster porn",
         "seeds": [
+          "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 98476,
+        "impressions": 196952,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -136,7 +108,7 @@
       {
         "query": "xhamster live",
         "seeds": [
-          "xhamster review"
+          "xhamster reviews"
         ],
         "impressions": 39305,
         "source": "Bing Webmaster Keyword Research",
@@ -150,7 +122,7 @@
       {
         "query": "xhamster porn",
         "seeds": [
-          "xhamster review"
+          "xhamster reviews"
         ],
         "impressions": 39208,
         "source": "Bing Webmaster Keyword Research",
@@ -177,32 +149,19 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamsters",
+        "query": "hamster xxx",
         "seeds": [
+          "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 25344,
+        "impressions": 27448,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "specific_seed_overlap"
+          "adult_domain_signal"
         ],
         "topicState": "review",
         "existingPage": "/xhamster",
         "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "live cams",
-        "seeds": [
-          "live cam sites"
-        ],
-        "impressions": 23640,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "canonical_live_cam_variant"
-        ],
-        "topicState": "page",
-        "existingPage": "/best-live-cam-sites",
-        "recommendedUse": "refresh_existing:/best-live-cam-sites"
       },
       {
         "query": "live porn",
@@ -217,21 +176,6 @@
         "topicState": "new",
         "existingPage": null,
         "recommendedUse": "new_content_candidate"
-      },
-      {
-        "query": "xxxhamster",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 21606,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "specific_seed_overlap"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
       },
       {
         "query": "www.xhamster.com",
@@ -249,41 +193,11 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamter",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 14922,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
         "query": "xhamster'",
         "seeds": [
-          "xhamster review",
-          "xhamster reviews"
+          "xhamster review"
         ],
-        "impressions": 13886,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "hamster xxx",
-        "seeds": [
-          "xhamster reviews"
-        ],
-        "impressions": 13724,
+        "impressions": 11817,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -307,11 +221,39 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
+        "query": "xxxhamster",
+        "seeds": [
+          "xhamster review"
+        ],
+        "impressions": 10803,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "specific_seed_overlap"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
         "query": "porn xhamster",
         "seeds": [
           "xhamster review"
         ],
         "impressions": 9019,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamter",
+        "seeds": [
+          "xhamster review"
+        ],
+        "impressions": 7461,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -333,20 +275,6 @@
         "topicState": "new",
         "existingPage": null,
         "recommendedUse": "new_content_candidate"
-      },
-      {
-        "query": "chaturbate male",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 6496,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
         "query": "xhamster xxx",
@@ -377,27 +305,12 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "xhamster sex",
+        "query": "xhamster free",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 5866,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamster history",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 5494,
+        "impressions": 5546,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -436,11 +349,69 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
+        "query": "chaturbate'",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 4080,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
         "query": "chaturbate couples",
         "seeds": [
           "chaturbate alternatives"
         ],
         "impressions": 3882,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "xhamster2",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 3754,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "specific_seed_overlap"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamster free porn",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 3750,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "chaturbate gay",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 3702,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -465,21 +436,6 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamster video",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 3566,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
         "query": "chaturbate webcam",
         "seeds": [
           "chaturbate alternatives"
@@ -494,12 +450,41 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "at xhamster",
+        "query": "xhamster mature",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 3244,
+        "impressions": 3154,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamster categories",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 3028,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamster sex",
+        "seeds": [
+          "xhamster review"
+        ],
+        "impressions": 2933,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -523,21 +508,6 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "xhamster tube",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 2804,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
         "query": "shop xhamster",
         "seeds": [
           "xhamster review",
@@ -553,11 +523,11 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamster free",
+        "query": "xhamster history",
         "seeds": [
-          "xhamster reviews"
+          "xhamster review"
         ],
-        "impressions": 2773,
+        "impressions": 2747,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -569,7 +539,7 @@
       {
         "query": "site xhamster.com xhamster",
         "seeds": [
-          "xhamster review"
+          "xhamster reviews"
         ],
         "impressions": 2352,
         "source": "Bing Webmaster Keyword Research",
@@ -581,11 +551,11 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "chaturbate porn",
+        "query": "chaturbate log",
         "seeds": [
           "chaturbate alternatives"
         ],
-        "impressions": 2191,
+        "impressions": 2305,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -623,18 +593,46 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "xxx xhamster",
+        "query": "chaturbate women",
         "seeds": [
-          "xhamster review"
+          "chaturbate alternatives"
         ],
-        "impressions": 1995,
+        "impressions": 1978,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
         ],
         "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate mature",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1948,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate log-in",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 1929,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
       }
     ]
   },
@@ -666,7 +664,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "apps like stripchat",
           "impressions": 1,
           "clicks": 1,
@@ -674,7 +672,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 12,
           "clicks": 1,
@@ -682,7 +680,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat application",
           "impressions": 1,
           "clicks": 1,
@@ -690,7 +688,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 6,
           "clicks": 1,
@@ -698,7 +696,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 14,
           "clicks": 1,
@@ -706,7 +704,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat apps",
           "impressions": 1,
           "clicks": 0,
@@ -714,7 +712,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 18,
           "clicks": 0,
@@ -722,7 +720,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "app stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -730,7 +728,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 10,
           "clicks": 0,
@@ -738,7 +736,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat mobile app",
           "impressions": 1,
           "clicks": 0,
@@ -746,7 +744,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 10,
           "clicks": 0,
@@ -754,7 +752,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app.",
           "impressions": 1,
           "clicks": 0,
@@ -762,7 +760,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat mobile app",
           "impressions": 1,
           "clicks": 0,
@@ -770,7 +768,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "apps like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -778,7 +776,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat app",
           "impressions": 8,
           "clicks": 0,
@@ -810,7 +808,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 2,
           "clicks": 1,
@@ -818,7 +816,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative a stripchat",
           "impressions": 1,
           "clicks": 1,
@@ -826,7 +824,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -834,7 +832,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 4,
           "clicks": 0,
@@ -842,7 +840,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best stripchat alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -850,7 +848,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 9,
           "clicks": 0,
@@ -858,7 +856,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 3,
           "clicks": 0,
@@ -866,7 +864,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative to stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -874,7 +872,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -882,7 +880,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 8,
           "clicks": 0,
@@ -890,7 +888,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 7,
           "clicks": 0,
@@ -898,7 +896,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -906,7 +904,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 14,
           "clicks": 0,
@@ -914,7 +912,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 10,
           "clicks": 0,
@@ -922,7 +920,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -930,7 +928,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 16,
           "clicks": 0,
@@ -938,7 +936,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 6,
           "clicks": 0,
@@ -946,7 +944,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 3,
           "clicks": 0,
@@ -954,7 +952,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 11,
           "clicks": 0,
@@ -962,7 +960,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative site",
           "impressions": 1,
           "clicks": 0,
@@ -970,7 +968,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 6,
           "clicks": 0,
@@ -978,7 +976,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -986,7 +984,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 12,
           "clicks": 0,
@@ -994,7 +992,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 8,
           "clicks": 0,
@@ -1002,7 +1000,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -1010,7 +1008,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternative",
           "impressions": 10,
           "clicks": 0,
@@ -1018,7 +1016,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternatives",
           "impressions": 6,
           "clicks": 0,
@@ -1050,7 +1048,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 3,
           "clicks": 1,
@@ -1058,7 +1056,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 16,
           "clicks": 1,
@@ -1066,7 +1064,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 12,
           "clicks": 1,
@@ -1074,7 +1072,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 8,
           "clicks": 0,
@@ -1082,7 +1080,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 7,
           "clicks": 0,
@@ -1090,7 +1088,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vrporn",
           "impressions": 2,
           "clicks": 0,
@@ -1122,7 +1120,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 6,
           "clicks": 1,
@@ -1130,7 +1128,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 2,
           "clicks": 0,
@@ -1138,7 +1136,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 6,
           "clicks": 0,
@@ -1146,7 +1144,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 6,
           "clicks": 0,
@@ -1154,7 +1152,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 9,
           "clicks": 0,
@@ -1162,7 +1160,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 4,
           "clicks": 0,
@@ -1170,7 +1168,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 2,
           "clicks": 0,
@@ -1178,7 +1176,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "freelivecam",
           "impressions": 4,
           "clicks": 0,
@@ -1210,7 +1208,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamsterreview",
           "impressions": 6,
           "clicks": 1,
@@ -1218,7 +1216,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster review",
           "impressions": 2,
           "clicks": 1,
@@ -1226,7 +1224,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 1,
           "clicks": 0,
@@ -1234,7 +1232,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster adult video sharing official website",
           "impressions": 1,
           "clicks": 0,
@@ -1242,7 +1240,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website company overview 2026",
           "impressions": 1,
           "clicks": 0,
@@ -1250,7 +1248,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 1,
           "clicks": 0,
@@ -1258,7 +1256,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website overview",
           "impressions": 1,
           "clicks": 0,
@@ -1266,7 +1264,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 2,
           "clicks": 0,
@@ -1274,7 +1272,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is xhamster",
           "impressions": 1,
           "clicks": 0,
@@ -1282,7 +1280,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster review",
           "impressions": 1,
           "clicks": 0,
@@ -1290,7 +1288,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website company overview 2026",
           "impressions": 4,
           "clicks": 0,
@@ -1298,7 +1296,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamter",
           "impressions": 1,
           "clicks": 0,
@@ -1306,7 +1304,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 4,
           "clicks": 0,
@@ -1314,7 +1312,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is xhamster",
           "impressions": 2,
           "clicks": 0,
@@ -1322,7 +1320,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website company overview 2026",
           "impressions": 2,
           "clicks": 0,
@@ -1330,7 +1328,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free?",
           "impressions": 1,
           "clicks": 0,
@@ -1338,7 +1336,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is xhamster",
           "impressions": 1,
           "clicks": 0,
@@ -1346,7 +1344,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster adult video sharing official website",
           "impressions": 1,
           "clicks": 0,
@@ -1354,7 +1352,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster subscription",
           "impressions": 2,
           "clicks": 0,
@@ -1362,7 +1360,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website company adult video platform",
           "impressions": 1,
           "clicks": 0,
@@ -1370,7 +1368,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website overview",
           "impressions": 1,
           "clicks": 0,
@@ -1378,7 +1376,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamsterreview",
           "impressions": 1,
           "clicks": 0,
@@ -1386,7 +1384,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 1,
           "clicks": 0,
@@ -1394,7 +1392,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster adult video sharing official website",
           "impressions": 1,
           "clicks": 0,
@@ -1402,7 +1400,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster alternative",
           "impressions": 1,
           "clicks": 0,
@@ -1410,7 +1408,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster reviews",
           "impressions": 1,
           "clicks": 0,
@@ -1418,7 +1416,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster working site",
           "impressions": 1,
           "clicks": 0,
@@ -1426,7 +1424,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster adult video sharing official website",
           "impressions": 1,
           "clicks": 0,
@@ -1434,7 +1432,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website company overview 2026",
           "impressions": 1,
           "clicks": 0,
@@ -1442,7 +1440,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free",
           "impressions": 3,
           "clicks": 0,
@@ -1450,7 +1448,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is xhamster free?",
           "impressions": 3,
           "clicks": 0,
@@ -1458,7 +1456,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster adult video sharing official website",
           "impressions": 2,
           "clicks": 0,
@@ -1466,7 +1464,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "xhamster website overview",
           "impressions": 1,
           "clicks": 0,
@@ -1683,18 +1681,18 @@
         {
           "source": "Bing",
           "date": "/Date(1787270400000)/",
-          "query": "should a person be leary about xhamster site?",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 10
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1787270400000)/",
           "query": "xhamster#R##N#review",
           "impressions": 1,
           "clicks": 0,
           "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1787270400000)/",
+          "query": "should a person be leary about xhamster site?",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 10
         },
         {
           "source": "Bing",
@@ -1707,7 +1705,7 @@
         {
           "source": "Bing",
           "date": "/Date(1788480000000)/",
-          "query": "xhasters reviews",
+          "query": "xhamster  review",
           "impressions": 1,
           "clicks": 0,
           "position": 9
@@ -1715,7 +1713,7 @@
         {
           "source": "Bing",
           "date": "/Date(1788480000000)/",
-          "query": "xhamster  review",
+          "query": "xhasters reviews",
           "impressions": 1,
           "clicks": 0,
           "position": 9
@@ -1731,10 +1729,10 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamster reviews",
+          "query": "xhamter.com review",
           "impressions": 1,
           "clicks": 0,
-          "position": 8
+          "position": 5
         },
         {
           "source": "Bing",
@@ -1747,10 +1745,10 @@
         {
           "source": "Bing",
           "date": "/Date(1789689600000)/",
-          "query": "xhamter.com review",
+          "query": "xhamster reviews",
           "impressions": 1,
           "clicks": 0,
-          "position": 5
+          "position": 8
         },
         {
           "source": "Bing",
@@ -1795,18 +1793,18 @@
         {
           "source": "Bing",
           "date": "/Date(1792108800000)/",
-          "query": "complete guide to hamster com x",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 9
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1792108800000)/",
           "query": "is xhamster a porn website?",
           "impressions": 1,
           "clicks": 0,
           "position": 6
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1792108800000)/",
+          "query": "complete guide to hamster com x",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 9
         },
         {
           "source": "Bing",
@@ -1850,7 +1848,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1858,7 +1856,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 1,
           "clicks": 0,
@@ -1866,7 +1864,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 7,
           "clicks": 0,
@@ -1874,7 +1872,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 3,
           "clicks": 0,
@@ -1882,7 +1880,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites like adultfriendfinder",
           "impressions": 3,
           "clicks": 0,
@@ -1890,7 +1888,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1898,7 +1896,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 1,
           "clicks": 0,
@@ -1906,7 +1904,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1914,7 +1912,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 2,
           "clicks": 0,
@@ -1922,7 +1920,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1930,7 +1928,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 2,
           "clicks": 0,
@@ -1938,7 +1936,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1946,7 +1944,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 1,
           "clicks": 0,
@@ -1954,7 +1952,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1962,7 +1960,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 2,
           "clicks": 0,
@@ -1970,7 +1968,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -1978,7 +1976,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adultfriendfinder alternatives",
           "impressions": 1,
           "clicks": 0,
@@ -1986,7 +1984,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like adultfriendfinder",
           "impressions": 1,
           "clicks": 0,
@@ -2018,7 +2016,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2026,7 +2024,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2034,7 +2032,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
           "impressions": 2,
           "clicks": 0,
@@ -2042,7 +2040,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
           "impressions": 3,
           "clicks": 0,
@@ -2050,7 +2048,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2058,7 +2056,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is it evaluate the webcam modeling platforms company stripchat on couples cams",
           "impressions": 1,
           "clicks": 0,
@@ -2066,7 +2064,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is it evaluate the webcam modeling platforms company stripchat on live milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2074,7 +2072,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
           "impressions": 2,
           "clicks": 0,
@@ -2082,7 +2080,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony cams",
           "impressions": 2,
           "clicks": 0,
@@ -2090,7 +2088,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2098,7 +2096,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is it evaluate the webcam modeling platforms company chaturbate on ebony live cams",
           "impressions": 1,
           "clicks": 0,
@@ -2106,7 +2104,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "live webcam model platforms review",
           "impressions": 1,
           "clicks": 0,
@@ -2114,7 +2112,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
           "impressions": 1,
           "clicks": 0,
@@ -2122,7 +2120,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "live webcam model platforms review",
           "impressions": 1,
           "clicks": 0,
@@ -2130,7 +2128,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on asian live cams",
           "impressions": 1,
           "clicks": 0,
@@ -2138,7 +2136,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2146,7 +2144,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on asian live cams",
           "impressions": 1,
           "clicks": 0,
@@ -2154,7 +2152,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2162,7 +2160,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony cams",
           "impressions": 2,
           "clicks": 0,
@@ -2170,7 +2168,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
           "impressions": 2,
           "clicks": 0,
@@ -2178,7 +2176,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony xxx cams",
           "impressions": 1,
           "clicks": 0,
@@ -2186,7 +2184,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to become a gay webcam model",
           "impressions": 1,
           "clicks": 0,
@@ -2194,7 +2192,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "live webcam model platforms review",
           "impressions": 1,
           "clicks": 0,
@@ -2202,7 +2200,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on ebony live cams",
           "impressions": 1,
           "clicks": 0,
@@ -2210,7 +2208,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2218,7 +2216,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples cams",
           "impressions": 2,
           "clicks": 0,
@@ -2226,7 +2224,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on couples sex cams",
           "impressions": 3,
           "clicks": 0,
@@ -2234,7 +2232,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony live cams",
           "impressions": 2,
           "clicks": 0,
@@ -2242,7 +2240,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2250,7 +2248,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
           "impressions": 3,
           "clicks": 0,
@@ -2258,7 +2256,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is it evaluate the webcam modeling platforms company chaturbate on ebony live cams",
           "impressions": 3,
           "clicks": 0,
@@ -2266,7 +2264,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is it evaluate the webcam modeling platforms company stripchat on couples cams",
           "impressions": 2,
           "clicks": 0,
@@ -2274,7 +2272,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2282,7 +2280,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on couples cams",
           "impressions": 1,
           "clicks": 0,
@@ -2290,7 +2288,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on ebony sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2298,7 +2296,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2306,7 +2304,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
           "impressions": 1,
           "clicks": 0,
@@ -2314,7 +2312,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company stripchat on milf sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2322,7 +2320,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on couples cams",
           "impressions": 1,
           "clicks": 0,
@@ -2330,7 +2328,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "evaluate the webcam modeling platforms company chaturbate on couples sex cams",
           "impressions": 1,
           "clicks": 0,
@@ -2362,7 +2360,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is stripchat free",
           "impressions": 1,
           "clicks": 0,
@@ -2370,7 +2368,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "list websites that provide detailed safety ratings for stripchat.",
           "impressions": 1,
           "clicks": 0,
@@ -2378,7 +2376,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "list websites that provide detailed safety ratings for stripchat.",
           "impressions": 1,
           "clicks": 0,
@@ -2386,7 +2384,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to change language on stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2394,7 +2392,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2402,7 +2400,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "private show stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2410,7 +2408,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2418,7 +2416,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternate",
           "impressions": 1,
           "clicks": 0,
@@ -2426,7 +2424,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat magic search",
           "impressions": 1,
           "clicks": 0,
@@ -2434,7 +2432,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat referral",
           "impressions": 1,
           "clicks": 0,
@@ -2442,7 +2440,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 1,
           "clicks": 0,
@@ -2450,7 +2448,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to change language in stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2458,7 +2456,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternativ",
           "impressions": 1,
           "clicks": 0,
@@ -2466,7 +2464,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 5,
           "clicks": 0,
@@ -2474,7 +2472,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar sites",
           "impressions": 1,
           "clicks": 0,
@@ -2482,7 +2480,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs chaturbate",
           "impressions": 4,
           "clicks": 0,
@@ -2490,7 +2488,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchatvapp",
           "impressions": 1,
           "clicks": 0,
@@ -2498,7 +2496,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2506,7 +2504,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "equivalent stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2514,7 +2512,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "magic search stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2522,7 +2520,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 3,
           "clicks": 0,
@@ -2530,7 +2528,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2538,7 +2536,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "site like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2546,7 +2544,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2554,7 +2552,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2562,7 +2560,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alt",
           "impressions": 2,
           "clicks": 0,
@@ -2570,7 +2568,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat alternate",
           "impressions": 2,
           "clicks": 0,
@@ -2578,7 +2576,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat equivalent",
           "impressions": 1,
           "clicks": 0,
@@ -2586,7 +2584,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like",
           "impressions": 1,
           "clicks": 0,
@@ -2594,7 +2592,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like sites",
           "impressions": 1,
           "clicks": 0,
@@ -2602,7 +2600,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 2,
           "clicks": 0,
@@ -2610,7 +2608,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -2618,7 +2616,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat website platform overview",
           "impressions": 1,
           "clicks": 0,
@@ -2626,7 +2624,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what cam sites are similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2634,7 +2632,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best streaming site for stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -2642,7 +2640,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to delete stripchat account",
           "impressions": 1,
           "clicks": 0,
@@ -2650,7 +2648,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to watch stripchat private show for free",
           "impressions": 1,
           "clicks": 0,
@@ -2658,7 +2656,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is stripchat free",
           "impressions": 1,
           "clicks": 0,
@@ -2666,7 +2664,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2674,7 +2672,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "other sites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -2682,7 +2680,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 4,
           "clicks": 0,
@@ -2690,7 +2688,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2698,7 +2696,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -2706,7 +2704,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2714,7 +2712,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat affiliate",
           "impressions": 1,
           "clicks": 0,
@@ -2722,7 +2720,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat change language",
           "impressions": 1,
           "clicks": 0,
@@ -2730,7 +2728,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like",
           "impressions": 2,
           "clicks": 0,
@@ -2738,7 +2736,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like websites",
           "impressions": 1,
           "clicks": 0,
@@ -2746,7 +2744,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat refund",
           "impressions": 1,
           "clicks": 0,
@@ -2754,7 +2752,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 3,
           "clicks": 0,
@@ -2762,7 +2760,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar cams",
           "impressions": 3,
           "clicks": 0,
@@ -2770,7 +2768,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs",
           "impressions": 1,
           "clicks": 0,
@@ -2778,7 +2776,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "website like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2786,7 +2784,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -2794,7 +2792,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2802,7 +2800,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "other sites like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2810,7 +2808,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like",
           "impressions": 1,
           "clicks": 0,
@@ -2818,7 +2816,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat preview",
           "impressions": 1,
           "clicks": 0,
@@ -2826,7 +2824,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat qpp",
           "impressions": 1,
           "clicks": 0,
@@ -2834,7 +2832,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 6,
           "clicks": 0,
@@ -2842,7 +2840,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -2850,7 +2848,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2858,7 +2856,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what cam sites are similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2866,7 +2864,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is \"stripchat.com\" -site:stripchat.com",
           "impressions": 5,
           "clicks": 0,
@@ -2874,7 +2872,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "list websites that provide detailed safety ratings for stripchat.",
           "impressions": 1,
           "clicks": 0,
@@ -2882,7 +2880,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2890,7 +2888,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2898,7 +2896,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat casino",
           "impressions": 2,
           "clicks": 0,
@@ -2906,7 +2904,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat magic search",
           "impressions": 1,
           "clicks": 0,
@@ -2914,7 +2912,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 4,
           "clicks": 0,
@@ -2922,7 +2920,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat spk",
           "impressions": 5,
           "clicks": 0,
@@ -2930,7 +2928,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs",
           "impressions": 1,
           "clicks": 0,
@@ -2938,7 +2936,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat website platform overview",
           "impressions": 1,
           "clicks": 0,
@@ -2946,7 +2944,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites like stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -2954,7 +2952,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is \"stripchat.com\" -site:stripchat.com",
           "impressions": 3,
           "clicks": 0,
@@ -2962,7 +2960,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what venues host a stripchat ticket show?",
           "impressions": 1,
           "clicks": 0,
@@ -2970,7 +2968,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to permanently delete stripchat account",
           "impressions": 2,
           "clicks": 0,
@@ -2978,7 +2976,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is stripchat free",
           "impressions": 2,
           "clicks": 0,
@@ -2986,7 +2984,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "list websites that provide detailed safety ratings for stripchat.",
           "impressions": 1,
           "clicks": 0,
@@ -2994,7 +2992,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3002,7 +3000,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -3010,7 +3008,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "source: stripchat – free live cams community",
           "impressions": 1,
           "clicks": 0,
@@ -3018,7 +3016,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like sites",
           "impressions": 1,
           "clicks": 0,
@@ -3026,7 +3024,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat other",
           "impressions": 1,
           "clicks": 0,
@@ -3034,7 +3032,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat private show",
           "impressions": 3,
           "clicks": 0,
@@ -3042,7 +3040,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3050,7 +3048,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what cam sites are similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3058,7 +3056,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is \"stripchat.com\" -site:stripchat.com",
           "impressions": 3,
           "clicks": 0,
@@ -3066,7 +3064,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is included in a standard stripchat ticket show package?",
           "impressions": 2,
           "clicks": 0,
@@ -3074,7 +3072,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what venues host a stripchat ticket show?",
           "impressions": 2,
           "clicks": 0,
@@ -3082,7 +3080,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "other sites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -3090,7 +3088,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3098,7 +3096,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3106,7 +3104,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "source: stripchat – free live cams community",
           "impressions": 1,
           "clicks": 0,
@@ -3114,7 +3112,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat like sites",
           "impressions": 1,
           "clicks": 0,
@@ -3122,7 +3120,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar",
           "impressions": 5,
           "clicks": 0,
@@ -3130,7 +3128,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar cams",
           "impressions": 1,
           "clicks": 0,
@@ -3138,7 +3136,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat similar site",
           "impressions": 1,
           "clicks": 0,
@@ -3146,7 +3144,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat ticket",
           "impressions": 1,
           "clicks": 0,
@@ -3154,7 +3152,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs",
           "impressions": 1,
           "clicks": 0,
@@ -3162,7 +3160,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat vs chaturbate",
           "impressions": 5,
           "clicks": 0,
@@ -3170,7 +3168,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat watch history",
           "impressions": 1,
           "clicks": 0,
@@ -3178,7 +3176,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites like stripchat",
           "impressions": 2,
           "clicks": 0,
@@ -3186,7 +3184,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what cam sites are similar to stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -3226,7 +3224,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3234,7 +3232,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3242,7 +3240,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3250,7 +3248,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3258,7 +3256,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 2,
           "clicks": 0,
@@ -3266,7 +3264,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3274,7 +3272,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 2,
           "clicks": 0,
@@ -3282,7 +3280,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best paid hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -3314,7 +3312,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin,livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3322,7 +3320,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin,livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3330,7 +3328,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3338,7 +3336,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin review",
           "impressions": 2,
           "clicks": 0,
@@ -3346,7 +3344,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin",
           "impressions": 2,
           "clicks": 0,
@@ -3354,7 +3352,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin review",
           "impressions": 1,
           "clicks": 0,
@@ -3362,7 +3360,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin",
           "impressions": 5,
           "clicks": 0,
@@ -3370,7 +3368,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin review",
           "impressions": 1,
           "clicks": 0,
@@ -3378,7 +3376,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin,livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3386,7 +3384,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin",
           "impressions": 2,
           "clicks": 0,
@@ -3394,7 +3392,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin cost",
           "impressions": 2,
           "clicks": 0,
@@ -3402,7 +3400,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin",
           "impressions": 5,
           "clicks": 0,
@@ -3410,7 +3408,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "livejasmin,livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3418,7 +3416,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "what is livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3450,7 +3448,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 3,
           "clicks": 0,
@@ -3458,7 +3456,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 6,
           "clicks": 0,
@@ -3466,7 +3464,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 4,
           "clicks": 0,
@@ -3474,7 +3472,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 4,
           "clicks": 0,
@@ -3482,7 +3480,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 1,
           "clicks": 0,
@@ -3490,7 +3488,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 3,
           "clicks": 0,
@@ -3498,7 +3496,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 1,
           "clicks": 0,
@@ -3506,7 +3504,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime sex games",
           "impressions": 2,
           "clicks": 0,
@@ -3538,7 +3536,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "apps like chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3546,7 +3544,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competition",
           "impressions": 1,
           "clicks": 0,
@@ -3554,7 +3552,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 2,
           "clicks": 0,
@@ -3562,7 +3560,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 3,
           "clicks": 0,
@@ -3570,7 +3568,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternativas a chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3578,7 +3576,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3586,7 +3584,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3594,7 +3592,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 1,
           "clicks": 0,
@@ -3602,7 +3600,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate membership",
           "impressions": 1,
           "clicks": 0,
@@ -3610,7 +3608,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 5,
           "clicks": 0,
@@ -3618,7 +3616,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3626,7 +3624,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative chaturbate",
           "impressions": 4,
           "clicks": 0,
@@ -3634,7 +3632,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative to chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3642,7 +3640,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative zu chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3650,7 +3648,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3658,7 +3656,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "better than chaturbate",
           "impressions": 6,
           "clicks": 0,
@@ -3666,7 +3664,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 4,
           "clicks": 0,
@@ -3674,7 +3672,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativen",
           "impressions": 2,
           "clicks": 0,
@@ -3682,7 +3680,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternatives",
           "impressions": 2,
           "clicks": 0,
@@ -3690,7 +3688,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate premium",
           "impressions": 2,
           "clicks": 0,
@@ -3698,7 +3696,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate similar",
           "impressions": 1,
           "clicks": 0,
@@ -3706,7 +3704,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 6,
           "clicks": 0,
@@ -3714,7 +3712,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs livejasmin",
           "impressions": 1,
           "clicks": 0,
@@ -3722,7 +3720,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "like chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3730,7 +3728,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative chaturbate",
           "impressions": 3,
           "clicks": 0,
@@ -3738,7 +3736,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative to chaturbate",
           "impressions": 3,
           "clicks": 0,
@@ -3746,7 +3744,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to chaturbate",
           "impressions": 5,
           "clicks": 0,
@@ -3754,7 +3752,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "app like chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3762,7 +3760,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "apps like chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3770,7 +3768,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "better than chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3778,7 +3776,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 5,
           "clicks": 0,
@@ -3786,7 +3784,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativen",
           "impressions": 1,
           "clicks": 0,
@@ -3794,7 +3792,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternatives",
           "impressions": 6,
           "clicks": 0,
@@ -3802,7 +3800,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competitor",
           "impressions": 2,
           "clicks": 0,
@@ -3810,7 +3808,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competitors",
           "impressions": 2,
           "clicks": 0,
@@ -3818,7 +3816,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 5,
           "clicks": 0,
@@ -3826,7 +3824,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to chaturbate",
           "impressions": 5,
           "clicks": 0,
@@ -3834,7 +3832,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3842,7 +3840,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3850,7 +3848,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative chaturbate",
           "impressions": 7,
           "clicks": 0,
@@ -3858,7 +3856,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative to chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3866,7 +3864,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3874,7 +3872,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "app like chaturbate",
           "impressions": 3,
           "clicks": 0,
@@ -3882,7 +3880,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best chaturbate alternative",
           "impressions": 1,
           "clicks": 0,
@@ -3890,7 +3888,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best chaturbate alternatives",
           "impressions": 1,
           "clicks": 0,
@@ -3898,7 +3896,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "better than chaturbate",
           "impressions": 4,
           "clicks": 0,
@@ -3906,7 +3904,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate altanative",
           "impressions": 1,
           "clicks": 0,
@@ -3914,7 +3912,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate altenative",
           "impressions": 1,
           "clicks": 0,
@@ -3922,7 +3920,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 13,
           "clicks": 0,
@@ -3930,7 +3928,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativen",
           "impressions": 3,
           "clicks": 0,
@@ -3938,7 +3936,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternatives",
           "impressions": 7,
           "clicks": 0,
@@ -3946,7 +3944,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competitors",
           "impressions": 1,
           "clicks": 0,
@@ -3954,7 +3952,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate like websites",
           "impressions": 1,
           "clicks": 0,
@@ -3962,7 +3960,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 9,
           "clicks": 0,
@@ -3970,7 +3968,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "is chaturbate free",
           "impressions": 1,
           "clicks": 0,
@@ -3978,7 +3976,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -3986,7 +3984,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -3994,7 +3992,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -4002,7 +4000,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative to chaturbate",
           "impressions": 2,
           "clicks": 0,
@@ -4010,7 +4008,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternative zu chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4018,7 +4016,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "alternatives to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4026,7 +4024,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate altenative",
           "impressions": 2,
           "clicks": 0,
@@ -4034,7 +4032,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativ",
           "impressions": 1,
           "clicks": 0,
@@ -4042,7 +4040,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 10,
           "clicks": 0,
@@ -4050,7 +4048,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativen",
           "impressions": 2,
           "clicks": 0,
@@ -4058,7 +4056,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternatives",
           "impressions": 11,
           "clicks": 0,
@@ -4066,7 +4064,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competition",
           "impressions": 1,
           "clicks": 0,
@@ -4074,7 +4072,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate competitors",
           "impressions": 1,
           "clicks": 0,
@@ -4082,7 +4080,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 1,
           "clicks": 0,
@@ -4090,7 +4088,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4098,7 +4096,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites like chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4106,7 +4104,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "better than chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4114,7 +4112,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternative",
           "impressions": 22,
           "clicks": 0,
@@ -4122,7 +4120,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternativen",
           "impressions": 2,
           "clicks": 0,
@@ -4130,7 +4128,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate alternatives",
           "impressions": 14,
           "clicks": 0,
@@ -4138,7 +4136,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate similar",
           "impressions": 2,
           "clicks": 0,
@@ -4146,7 +4144,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "chaturbate vs",
           "impressions": 6,
           "clicks": 0,
@@ -4154,7 +4152,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4162,7 +4160,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sites better than chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4170,7 +4168,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "websites similar to chaturbate",
           "impressions": 1,
           "clicks": 0,
@@ -4202,7 +4200,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat token cost",
           "impressions": 1,
           "clicks": 0,
@@ -4210,7 +4208,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat tokens",
           "impressions": 1,
           "clicks": 0,
@@ -4218,7 +4216,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "token stripchat",
           "impressions": 1,
           "clicks": 0,
@@ -4226,7 +4224,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat token",
           "impressions": 1,
           "clicks": 0,
@@ -4234,7 +4232,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat tokens",
           "impressions": 3,
           "clicks": 0,
@@ -4242,7 +4240,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "compare the different ways to acquire stripchat tokens mentioned online.",
           "impressions": 1,
           "clicks": 0,
@@ -4250,7 +4248,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat pricing",
           "impressions": 2,
           "clicks": 0,
@@ -4258,7 +4256,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat token prices",
           "impressions": 1,
           "clicks": 0,
@@ -4266,7 +4264,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat cost",
           "impressions": 1,
           "clicks": 0,
@@ -4274,7 +4272,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "stripchat token prices",
           "impressions": 1,
           "clicks": 0,
@@ -4306,7 +4304,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 3,
           "clicks": 0,
@@ -4314,7 +4312,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal review",
           "impressions": 2,
           "clicks": 0,
@@ -4322,7 +4320,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 1,
           "clicks": 0,
@@ -4330,7 +4328,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 4,
           "clicks": 0,
@@ -4338,7 +4336,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal logo",
           "impressions": 1,
           "clicks": 0,
@@ -4346,7 +4344,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal review",
           "impressions": 1,
           "clicks": 0,
@@ -4354,7 +4352,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal test",
           "impressions": 1,
           "clicks": 0,
@@ -4362,7 +4360,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 3,
           "clicks": 0,
@@ -4370,7 +4368,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal test",
           "impressions": 1,
           "clicks": 0,
@@ -4378,7 +4376,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 1,
           "clicks": 0,
@@ -4386,7 +4384,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal review",
           "impressions": 4,
           "clicks": 0,
@@ -4394,7 +4392,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sexlikereal",
           "impressions": 4,
           "clicks": 0,
@@ -4426,7 +4424,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 1,
           "clicks": 0,
@@ -4434,7 +4432,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 14,
           "clicks": 0,
@@ -4442,7 +4440,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 1,
           "clicks": 0,
@@ -4450,7 +4448,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 2,
           "clicks": 0,
@@ -4458,7 +4456,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 5,
           "clicks": 0,
@@ -4466,7 +4464,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "are cam sites safe",
           "impressions": 2,
           "clicks": 0,
@@ -4498,7 +4496,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 3,
           "clicks": 2,
@@ -4506,7 +4504,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 1,
           "clicks": 1,
@@ -4514,7 +4512,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 2,
           "clicks": 0,
@@ -4522,7 +4520,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 1,
           "clicks": 0,
@@ -4530,7 +4528,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 3,
           "clicks": 0,
@@ -4538,7 +4536,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 2,
           "clicks": 0,
@@ -4546,7 +4544,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult anime app",
           "impressions": 1,
           "clicks": 0,
@@ -4578,7 +4576,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 1,
           "clicks": 0,
@@ -4586,7 +4584,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 1,
           "clicks": 0,
@@ -4594,7 +4592,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 1,
           "clicks": 0,
@@ -4602,7 +4600,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 3,
           "clicks": 0,
@@ -4610,7 +4608,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 1,
           "clicks": 0,
@@ -4618,7 +4616,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 1,
           "clicks": 0,
@@ -4626,7 +4624,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "best hentai streaming sites",
           "impressions": 2,
           "clicks": 0,
@@ -4658,7 +4656,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4666,7 +4664,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4674,7 +4672,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "pornhub autoplay",
           "impressions": 1,
           "clicks": 0,
@@ -4682,7 +4680,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4690,7 +4688,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4698,7 +4696,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4706,7 +4704,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4714,7 +4712,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "refund pornhub premium",
           "impressions": 1,
           "clicks": 0,
@@ -4746,7 +4744,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 3,
           "clicks": 0,
@@ -4754,7 +4752,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 3,
           "clicks": 0,
@@ -4762,7 +4760,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 1,
           "clicks": 0,
@@ -4770,7 +4768,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 1,
           "clicks": 0,
@@ -4778,7 +4776,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 2,
           "clicks": 0,
@@ -4786,7 +4784,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 2,
           "clicks": 0,
@@ -4794,7 +4792,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "vr adult",
           "impressions": 1,
           "clicks": 0,
@@ -4826,7 +4824,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 4,
           "clicks": 1,
@@ -4834,7 +4832,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 6,
           "clicks": 1,
@@ -4842,7 +4840,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 3,
           "clicks": 1,
@@ -4850,7 +4848,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 2,
           "clicks": 0,
@@ -4858,7 +4856,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 3,
           "clicks": 0,
@@ -4866,7 +4864,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming",
           "impressions": 1,
           "clicks": 0,
@@ -4899,18 +4897,18 @@
         {
           "source": "Bing",
           "date": "/Date(1781827200000)/",
-          "query": "f95zone reviews",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 5
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1781827200000)/",
           "query": "world of dominion f95zone review",
           "impressions": 1,
           "clicks": 0,
           "position": 7
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1781827200000)/",
+          "query": "f95zone reviews",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 5
         },
         {
           "source": "Bing",
@@ -4923,18 +4921,18 @@
         {
           "source": "Bing",
           "date": "/Date(1786665600000)/",
-          "query": "f95zone make a review",
-          "impressions": 1,
-          "clicks": 0,
-          "position": 7
-        },
-        {
-          "source": "Bing",
-          "date": "/Date(1786665600000)/",
           "query": "f95zone reivew",
           "impressions": 1,
           "clicks": 0,
           "position": 5
+        },
+        {
+          "source": "Bing",
+          "date": "/Date(1786665600000)/",
+          "query": "f95zone make a review",
+          "impressions": 1,
+          "clicks": 0,
+          "position": 7
         }
       ],
       "targetKeyword": "F95Zone review",
@@ -4962,7 +4960,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -4970,7 +4968,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -4978,7 +4976,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -4986,7 +4984,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -4994,7 +4992,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -5002,7 +5000,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -5010,7 +5008,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 1,
           "clicks": 0,
@@ -5018,7 +5016,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "iphone hentai sites",
           "impressions": 2,
           "clicks": 0,
@@ -5050,7 +5048,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 3,
           "clicks": 0,
@@ -5058,7 +5056,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 1,
           "clicks": 0,
@@ -5066,7 +5064,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 1,
           "clicks": 0,
@@ -5074,7 +5072,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 1,
           "clicks": 0,
@@ -5082,7 +5080,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 1,
           "clicks": 0,
@@ -5090,7 +5088,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 1,
           "clicks": 0,
@@ -5098,7 +5096,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "anime online sex games",
           "impressions": 2,
           "clicks": 0,
@@ -5130,7 +5128,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 1,
           "clicks": 0,
@@ -5138,7 +5136,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 4,
           "clicks": 0,
@@ -5146,7 +5144,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 4,
           "clicks": 0,
@@ -5154,7 +5152,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 2,
           "clicks": 0,
@@ -5162,7 +5160,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 4,
           "clicks": 0,
@@ -5170,7 +5168,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "fan club platform for creators",
           "impressions": 2,
           "clicks": 0,
@@ -5202,7 +5200,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 1,
           "clicks": 0,
@@ -5210,7 +5208,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 2,
           "clicks": 0,
@@ -5218,7 +5216,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 1,
           "clicks": 0,
@@ -5226,7 +5224,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 1,
           "clicks": 0,
@@ -5234,7 +5232,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 1,
           "clicks": 0,
@@ -5242,7 +5240,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 1,
           "clicks": 0,
@@ -5250,7 +5248,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "adult vr",
           "impressions": 4,
           "clicks": 0,
@@ -5282,7 +5280,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 1,
           "clicks": 0,
@@ -5290,7 +5288,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 1,
           "clicks": 0,
@@ -5298,7 +5296,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 1,
           "clicks": 0,
@@ -5306,7 +5304,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 1,
           "clicks": 0,
@@ -5314,7 +5312,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 2,
           "clicks": 0,
@@ -5322,7 +5320,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "salesflare affiliate program brand bidding policy",
           "impressions": 3,
           "clicks": 0,
@@ -5354,7 +5352,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 3,
           "clicks": 1,
@@ -5362,7 +5360,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 2,
           "clicks": 0,
@@ -5370,7 +5368,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 3,
           "clicks": 0,
@@ -5378,7 +5376,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 4,
           "clicks": 0,
@@ -5386,7 +5384,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 2,
           "clicks": 0,
@@ -5394,7 +5392,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "hentai streaming sites",
           "impressions": 5,
           "clicks": 0,
@@ -5426,7 +5424,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 3,
           "clicks": 0,
@@ -5434,7 +5432,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 1,
           "clicks": 0,
@@ -5442,7 +5440,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 2,
           "clicks": 0,
@@ -5450,7 +5448,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 1,
           "clicks": 0,
@@ -5458,7 +5456,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 2,
           "clicks": 0,
@@ -5466,7 +5464,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "how to pause visibility on seeking profile",
           "impressions": 1,
           "clicks": 0,
@@ -5498,7 +5496,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 1,
           "clicks": 0,
@@ -5506,7 +5504,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 1,
           "clicks": 0,
@@ -5514,7 +5512,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 2,
           "clicks": 0,
@@ -5522,7 +5520,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 1,
           "clicks": 0,
@@ -5530,7 +5528,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 4,
           "clicks": 0,
@@ -5538,7 +5536,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 2,
           "clicks": 0,
@@ -5546,7 +5544,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "subscription billing for adult sites",
           "impressions": 1,
           "clicks": 0,
@@ -5578,7 +5576,7 @@
       "sourceEvidence": [
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5586,7 +5584,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5594,7 +5592,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5602,7 +5600,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5610,7 +5608,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5618,7 +5616,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 1,
           "clicks": 0,
@@ -5626,7 +5624,7 @@
         },
         {
           "source": "GSC",
-          "date": "2026-10-31",
+          "date": "2026-11-01",
           "query": "sex anime game",
           "impressions": 2,
           "clicks": 0,
