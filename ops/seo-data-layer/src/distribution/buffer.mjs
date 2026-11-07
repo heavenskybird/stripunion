@@ -18,6 +18,7 @@ export async function createBufferPost({ text, mode = 'addToQueue', dueAt }) {
             id
             text
             dueAt
+            status
             channelId
           }
         }

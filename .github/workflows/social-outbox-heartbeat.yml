@@ -1,0 +1,41 @@
+name: Social outbox heartbeat
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Editorial heartbeat bridge', 'Social outbox heartbeat bridge', 'Ecosystem public health', 'Editorial production snapshot']
+    types: [completed]
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: native-social-outbox
+  cancel-in-progress: false
+jobs:
+  wake:
+    if: >-
+      vars.SOCIAL_OUTBOX_HEARTBEAT_ENABLED == 'true' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'workflow_dispatch' ||
+       (github.event.workflow_run.head_repository.full_name == github.repository &&
+        github.event.workflow_run.conclusion == 'success' &&
+        ((github.event.workflow_run.head_branch == 'main' && github.event.workflow_run.event != 'pull_request') ||
+         (github.event.workflow_run.name == 'Editorial heartbeat bridge' &&
+          github.event.workflow_run.head_branch == 'bot/stripunion-heartbeat-kicks' &&
+          github.event.workflow_run.event == 'push') ||
+         (github.event.workflow_run.name == 'Social outbox heartbeat bridge' &&
+          github.event.workflow_run.head_branch == 'bot/stripunion-social-heartbeat-kicks' &&
+          github.event.workflow_run.event == 'push'))))
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Dispatch only if stale with no active writer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/social-outbox-wakeup.mjs

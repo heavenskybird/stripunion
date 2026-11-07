@@ -79,7 +79,9 @@ export async function publishTelegramEvent(event) {
   }
 
   const text = buildTelegramText(event);
-  const image = await discoverImage(event.url);
+  // A timeout after sendPhoto may mean it was accepted. The durable outbox
+  // uses one provider call and never falls back to a second irreversible send.
+  const image = event.source === 'social_outbox' ? null : await discoverImage(event.url);
   let result;
 
   const sendText = () => telegram('sendMessage', {
