@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-11-09T08:09:33.779Z
+Generated: 2026-11-10T08:31:57.401Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -11,12 +11,12 @@ Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHar
 - **UPDATE** · 100 · Stripchat mobile experience · eligible=true · risk=low · confidence=low · refresh existing /stripchat-app landing page using clustered search evidence
 - **CREATE** · 100 · hentai streaming sites · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 100 · freelivecam · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **UPDATE** · 100 · LiveJasmin review · eligible=true · risk=low · confidence=low · refresh existing /livejasmin landing page using clustered search evidence
 - **UPDATE** · 100 · Stripchat alternatives · eligible=true · risk=low · confidence=medium · refresh existing /stripchat-alternatives landing page using clustered search evidence
-- **CREATE** · 99 · hentai streaming · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **UPDATE** · 99 · xHamster review · eligible=true · risk=low · confidence=low · refresh existing /xhamster landing page using clustered search evidence
-- **UPDATE** · 98 · Stripchat review · eligible=true · risk=low · confidence=low · refresh existing /stripchat landing page using clustered search evidence
-- **UPDATE** · 98 · Chaturbate review · eligible=true · risk=low · confidence=medium · refresh existing /chaturbate landing page using clustered search evidence
-- **UPDATE** · 97 · LiveJasmin review · eligible=true · risk=low · confidence=low · refresh existing /livejasmin landing page using clustered search evidence
+- **CREATE** · 96 · hentai streaming · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **UPDATE** · 96 · xHamster review · eligible=true · risk=low · confidence=low · refresh existing /xhamster landing page using clustered search evidence
+- **UPDATE** · 95 · Stripchat review · eligible=true · risk=low · confidence=low · refresh existing /stripchat landing page using clustered search evidence
+- **UPDATE** · 95 · Chaturbate review · eligible=true · risk=low · confidence=medium · refresh existing /chaturbate landing page using clustered search evidence
 - **UPDATE** · 91 · SexLikeReal review · eligible=true · risk=low · confidence=low · refresh existing /sexlikereal landing page using clustered search evidence
 - **CREATE** · 86 · are cam sites safe · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **UPDATE** · 83 · AdultFriendFinder review · eligible=true · risk=low · confidence=low · refresh existing /adultfriendfinder landing page using clustered search evidence
@@ -35,6 +35,6 @@ Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHar
 - **HOLD** · 42 · best paid hentai sites · eligible=false · risk=high · confidence=low · validate audience fit and an official monetization relationship before adding a commercial CTA
 - **CREATE** · 38 · adult vr · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **MIGRATE** · 33 · Pornhub review · eligible=true · risk=medium · confidence=low · migrate pending /pornhub review into a substantive indexable page before adding any commercial CTA
-- **CREATE** · 23 · sex anime games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 24 · sex anime games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **HOLD** · 12 · best hentai streaming sites · eligible=false · risk=high · confidence=low · validate audience fit and an official monetization relationship before adding a commercial CTA
 - **HOLD** · 0 · salesflare affiliate program brand bidding policy · eligible=false · risk=high · confidence=low · validate audience fit and an official monetization relationship before adding a commercial CTA
