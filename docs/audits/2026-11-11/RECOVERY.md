@@ -76,7 +76,15 @@ Scheduler 的 schedule、workflow_run、手动 wake 共用 `editorial-producer-s
 
 **锁覆盖范围不等于整个系统 exactly-once。** `editorial-batch-publish`、历史 backfill、editorial-distribution、WordPress publisher 仍是不同代码路径；它们和 native outbox / social-distribution / telegram-evergreen 的写入或发送不全共享R1锁。尤其 social-distribution 直接 Buffer + Telegram、evergreen 直接 Telegram；cap/journal集中化前不得当作备用发送路径。历史 workflow 的存在不证明它正在执行，分页窗口未观察到这些旧 publisher 的运行，是否仍有外部 WordPress webhook 调用未知。
 
-#164 是离线 Keyword Intelligence + 历史审计，当前范围不合并。#165 的4提交/31文件混合 outbox、布局、遥测等，仍Draft；只读元数据确认未合并。其具体 diff/CAS/五条旧route切换尚未完成逐行审查，不能声称本次已验收或直接合并。
+#164 是17个新增文件的离线 Keyword Intelligence + 历史审计；已检查文件清单和 engine 的 provenance、scope、dedup、scoring 代码，没有生产workflow入口变更。当前恢复范围不合并，也不复用其旧404判断。
+
+#165 的4提交/31文件混合 outbox、布局、遥测等，仍Draft。已fetch其固定head `5249c42b`，审查worker、reconciler、CAS journal及legacy route guards的diff。可复用思路是先CAS持久化attempt再send、未知结果隔离、同锁停用旧发送路径、cap校验、明确provider identity对账；不是立即可合并的当前故障修复：
+
+- **P0：前置Buffer对账仍未隔离。** workflow只给worker增加两个env，没有改变reconcile失败会跳过worker的依赖；月窗口429仍会阻塞Telegram。worker还在有Buffer配置时无条件要求10分钟内的Buffer reconciliation文件，即使只有Telegram候选也可能被阻塞。
+- **P1：没有月窗口预算/跨运行冷却。** reconciler仍每次查询channel和最多12页历史，新增heartbeat不能解决月额度，不能靠加wake恢复。
+- **P1：隔离journal的未知receipt没有闭环。** deliverOnce只要store.state存在就hold；reconciler仅更新main事件，没有更新isolated journal。若provider成功但journal确认失败，后续必须证明provider身份并同时修复journal，不能把main事件改pending再发。
+- legacy routes只在SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED=true时停用，而新worker在其false时拒绝发送。需要排空、provision runtime branch、逐route切换验证和rollback，不能直接merge期待恢复。
+- 其余布局/视觉/遥测文件不属于本次P0最小修复；没有在当前main逐项重验。保留Draft，拆分并重新测试。
 
 ## 本 PR 修复、验证和回滚
 
