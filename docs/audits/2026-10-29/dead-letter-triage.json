@@ -1,0 +1,706 @@
+[
+  {
+    "run_id": 40826513177,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40826513177",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Production probe transport errors; deployment unavailable",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "live-cam-private-interaction-options-fit-audit",
+        "published_at": "2026-10-29T07:04:37.555Z",
+        "verified_at": "2026-10-29T07:04:37.555Z",
+        "state": null
+      },
+      {
+        "slug": "creator-platform-fan-messaging-boundary-controls-audit",
+        "published_at": "2026-10-29T07:04:38.403Z",
+        "verified_at": "2026-10-29T07:04:38.403Z",
+        "state": null
+      },
+      {
+        "slug": "webmaster-affiliate-feed-integration-readiness-audit",
+        "published_at": "2026-10-29T07:04:39.282Z",
+        "verified_at": "2026-10-29T07:04:39.282Z",
+        "state": null
+      },
+      {
+        "slug": "adult-platform-password-manager-autofill-privacy-audit",
+        "published_at": "2026-10-29T07:04:40.139Z",
+        "verified_at": "2026-10-29T07:04:40.139Z",
+        "state": null
+      },
+      {
+        "slug": "adult-anime-manga-reading-progress-continuity-audit",
+        "published_at": "2026-10-29T07:04:40.983Z",
+        "verified_at": "2026-10-29T07:04:40.983Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40790332479,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40790332479",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40646870620,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40646870620",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Production access denied during live verification",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "free-video-platform-ad-interruption-pattern-comparison",
+        "published_at": "2026-10-28T07:32:31.125Z",
+        "verified_at": "2026-10-28T07:32:31.125Z",
+        "state": null
+      },
+      {
+        "slug": "adult-games-content-settings-choice-checklist",
+        "published_at": "2026-10-28T07:32:32.214Z",
+        "verified_at": "2026-10-28T07:32:32.214Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-package-handoff-and-tracking-privacy-checklist",
+        "published_at": "2026-10-28T07:32:33.327Z",
+        "verified_at": "2026-10-28T07:32:33.327Z",
+        "state": null
+      },
+      {
+        "slug": "adult-anime-manga-reading-mode-and-navigation-comparison",
+        "published_at": "2026-10-28T07:32:34.378Z",
+        "verified_at": "2026-10-28T07:32:34.378Z",
+        "state": null
+      },
+      {
+        "slug": "vr-adult-platform-stream-resolution-disclosure-audit",
+        "published_at": "2026-10-28T07:32:35.515Z",
+        "verified_at": "2026-10-28T07:32:35.515Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40383049603,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40383049603",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40167349041,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40167349041",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "creator-platform-collaboration-publishing-rights-workflow",
+        "published_at": "2026-10-25T06:13:44.743Z",
+        "verified_at": "2026-10-25T06:13:44.743Z",
+        "state": null
+      },
+      {
+        "slug": "adult-affiliate-email-newsletter-terms-and-operations",
+        "published_at": "2026-10-25T06:13:45.448Z",
+        "verified_at": "2026-10-25T06:13:45.448Z",
+        "state": null
+      },
+      {
+        "slug": "dating-platform-paid-visibility-feature-evaluation",
+        "published_at": "2026-10-25T06:13:46.097Z",
+        "verified_at": "2026-10-25T06:13:46.097Z",
+        "state": null
+      },
+      {
+        "slug": "adult-platform-account-deletion-data-retention-workflow",
+        "published_at": "2026-10-25T06:13:46.728Z",
+        "verified_at": "2026-10-25T06:13:46.728Z",
+        "state": null
+      },
+      {
+        "slug": "vr-platform-region-relocation-account-continuity-plan",
+        "published_at": "2026-10-25T06:13:47.345Z",
+        "verified_at": "2026-10-25T06:13:47.345Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40160349037,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40160349037",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "vr-platform-compatibility-evidence-workflow",
+        "published_at": "2026-10-25T04:41:44.811Z",
+        "verified_at": "2026-10-25T04:41:44.811Z",
+        "state": null
+      },
+      {
+        "slug": "free-video-metered-mobile-data-planning",
+        "published_at": "2026-10-25T04:41:45.265Z",
+        "verified_at": "2026-10-25T04:41:45.265Z",
+        "state": null
+      },
+      {
+        "slug": "adult-anime-game-save-portability-check",
+        "published_at": "2026-10-25T04:41:45.717Z",
+        "verified_at": "2026-10-25T04:41:45.717Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-playback-watermark-visibility-audit",
+        "published_at": "2026-10-25T04:41:46.170Z",
+        "verified_at": "2026-10-25T04:41:46.170Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-session-recording-policy-review",
+        "published_at": "2026-10-25T04:41:46.620Z",
+        "verified_at": "2026-10-25T04:41:46.620Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40096241165,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40096241165",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "free-video-platform-domain-authenticity-checklist",
+        "published_at": "2026-10-24T13:41:10.321Z",
+        "verified_at": "2026-10-24T13:41:10.321Z",
+        "state": null
+      },
+      {
+        "slug": "adult-games-offline-play-and-service-dependency-check",
+        "published_at": "2026-10-24T13:41:11.109Z",
+        "verified_at": "2026-10-24T13:41:11.109Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-backorders-and-substitutions-checklist",
+        "published_at": "2026-10-24T13:41:11.902Z",
+        "verified_at": "2026-10-24T13:41:11.902Z",
+        "state": null
+      },
+      {
+        "slug": "affiliate-program-inactivity-and-dormant-account-terms",
+        "published_at": "2026-10-24T13:41:12.683Z",
+        "verified_at": "2026-10-24T13:41:12.683Z",
+        "state": null
+      },
+      {
+        "slug": "creator-platform-fan-interaction-boundary-controls-guide",
+        "published_at": "2026-10-24T13:41:13.519Z",
+        "verified_at": "2026-10-24T13:41:13.519Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40074795165,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40074795165",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "adult-game-system-requirements-fit-audit",
+        "published_at": "2026-10-24T11:03:54.258Z",
+        "verified_at": "2026-10-24T11:03:54.258Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-warranty-and-defect-policy-review",
+        "published_at": "2026-10-24T11:03:54.747Z",
+        "verified_at": "2026-10-24T11:03:54.747Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-visual-interface-accessibility-audit",
+        "published_at": "2026-10-24T11:03:55.266Z",
+        "verified_at": "2026-10-24T11:03:55.266Z",
+        "state": null
+      },
+      {
+        "slug": "adult-account-password-manager-autofill-safety-check",
+        "published_at": "2026-10-24T11:03:55.760Z",
+        "verified_at": "2026-10-24T11:03:55.760Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-moderation-and-reporting-readiness-check",
+        "published_at": "2026-10-24T11:03:56.270Z",
+        "verified_at": "2026-10-24T11:03:56.270Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40072514154,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40072514154",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "adult-game-system-requirements-fit-audit",
+        "published_at": "2026-10-24T11:03:54.258Z",
+        "verified_at": "2026-10-24T11:03:54.258Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-warranty-and-defect-policy-review",
+        "published_at": "2026-10-24T11:03:54.747Z",
+        "verified_at": "2026-10-24T11:03:54.747Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-visual-interface-accessibility-audit",
+        "published_at": "2026-10-24T11:03:55.266Z",
+        "verified_at": "2026-10-24T11:03:55.266Z",
+        "state": null
+      },
+      {
+        "slug": "adult-account-password-manager-autofill-safety-check",
+        "published_at": "2026-10-24T11:03:55.760Z",
+        "verified_at": "2026-10-24T11:03:55.760Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-moderation-and-reporting-readiness-check",
+        "published_at": "2026-10-24T11:03:56.270Z",
+        "verified_at": "2026-10-24T11:03:56.270Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40070537865,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40070537865",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "adult-game-system-requirements-fit-audit",
+        "published_at": "2026-10-24T11:03:54.258Z",
+        "verified_at": "2026-10-24T11:03:54.258Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-warranty-and-defect-policy-review",
+        "published_at": "2026-10-24T11:03:54.747Z",
+        "verified_at": "2026-10-24T11:03:54.747Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-visual-interface-accessibility-audit",
+        "published_at": "2026-10-24T11:03:55.266Z",
+        "verified_at": "2026-10-24T11:03:55.266Z",
+        "state": null
+      },
+      {
+        "slug": "adult-account-password-manager-autofill-safety-check",
+        "published_at": "2026-10-24T11:03:55.760Z",
+        "verified_at": "2026-10-24T11:03:55.760Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-moderation-and-reporting-readiness-check",
+        "published_at": "2026-10-24T11:03:56.270Z",
+        "verified_at": "2026-10-24T11:03:56.270Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 40064321347,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/40064321347",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "live-cam-private-session-commitment-map",
+        "published_at": "2026-10-24T05:16:25.897Z",
+        "verified_at": "2026-10-24T05:16:25.897Z",
+        "state": null
+      },
+      {
+        "slug": "adult-platform-profile-identity-boundaries",
+        "published_at": "2026-10-24T05:16:26.525Z",
+        "verified_at": "2026-10-24T05:16:26.525Z",
+        "state": null
+      },
+      {
+        "slug": "vr-adult-prescription-glasses-headset-fit-check",
+        "published_at": "2026-10-24T05:16:27.145Z",
+        "verified_at": "2026-10-24T05:16:27.145Z",
+        "state": null
+      },
+      {
+        "slug": "adult-anime-platform-localization-language-audit",
+        "published_at": "2026-10-24T05:16:27.776Z",
+        "verified_at": "2026-10-24T05:16:27.776Z",
+        "state": null
+      },
+      {
+        "slug": "free-video-cookie-and-site-data-controls-review",
+        "published_at": "2026-10-24T05:16:28.396Z",
+        "verified_at": "2026-10-24T05:16:28.396Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 39723177213,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/39723177213",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 39627920276,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/39627920276",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Five URLs not deployed and/or deployment fingerprint stale within deadline",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "creator-platform-team-permissions-workflow",
+        "published_at": "2026-10-21T17:42:11.266Z",
+        "verified_at": "2026-10-21T17:42:11.266Z",
+        "state": null
+      },
+      {
+        "slug": "affiliate-program-creative-feed-operations-audit",
+        "published_at": "2026-10-21T17:42:11.578Z",
+        "verified_at": "2026-10-21T17:42:11.578Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-playback-preference-persistence-check",
+        "published_at": "2026-10-21T17:42:11.891Z",
+        "verified_at": "2026-10-21T17:42:11.891Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-room-interaction-cost-boundary-review",
+        "published_at": "2026-10-21T17:42:12.206Z",
+        "verified_at": "2026-10-21T17:42:12.206Z",
+        "state": null
+      },
+      {
+        "slug": "adult-product-discreet-shipping-billing-checklist",
+        "published_at": "2026-10-21T17:42:12.523Z",
+        "verified_at": "2026-10-21T17:42:12.523Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38857789955,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38857789955",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38853515146,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38853515146",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38850741342,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38850741342",
+    "failed_stage": "Validate backlog and only this hourly batch",
+    "cause": "Compiler rejected an unsupported privacy guarantee",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38826043541,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38826043541",
+    "failed_stage": "Plan hourly batch and generate only the deficit",
+    "cause": "Generator rejected a non-unique or invalid five-item batch",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38513374908,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38513374908",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Production probe transport errors; deployment unavailable",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "premium-video-unstable-connection-playback-check",
+        "published_at": "2026-10-14T06:46:36.148Z",
+        "verified_at": "2026-10-14T06:46:36.148Z",
+        "state": null
+      },
+      {
+        "slug": "adult-subscription-payment-alert-privacy-checklist",
+        "published_at": "2026-10-14T06:46:36.576Z",
+        "verified_at": "2026-10-14T06:46:36.576Z",
+        "state": null
+      },
+      {
+        "slug": "free-video-caption-usability-comparison",
+        "published_at": "2026-10-14T06:46:36.974Z",
+        "verified_at": "2026-10-14T06:46:36.974Z",
+        "state": null
+      },
+      {
+        "slug": "adult-game-demo-install-compatibility-check",
+        "published_at": "2026-10-14T06:46:37.392Z",
+        "verified_at": "2026-10-14T06:46:37.392Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-discreet-delivery-policy-check",
+        "published_at": "2026-10-14T06:46:37.819Z",
+        "verified_at": "2026-10-14T06:46:37.819Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38185785306,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38185785306",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Production probe transport errors; deployment unavailable",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "adult-shop-delivery-returns-preflight",
+        "published_at": "2026-10-12T00:07:49.170Z",
+        "verified_at": "2026-10-12T00:07:49.170Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-safety-concern-reporting-workflow",
+        "published_at": "2026-10-12T00:07:49.413Z",
+        "verified_at": "2026-10-12T00:07:49.413Z",
+        "state": null
+      },
+      {
+        "slug": "adult-site-recurring-payment-preflight",
+        "published_at": "2026-10-12T00:07:49.666Z",
+        "verified_at": "2026-10-12T00:07:49.666Z",
+        "state": null
+      },
+      {
+        "slug": "webmaster-affiliate-disclosure-placement-audit",
+        "published_at": "2026-10-12T00:07:49.915Z",
+        "verified_at": "2026-10-12T00:07:49.915Z",
+        "state": null
+      },
+      {
+        "slug": "creator-platform-discovery-model-fit-guide",
+        "published_at": "2026-10-12T00:07:50.176Z",
+        "verified_at": "2026-10-12T00:07:50.176Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 38093278768,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/38093278768",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Production access denied during live verification",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "adult-games-storefront-license-and-update-checklist",
+        "published_at": "2026-10-11T01:27:40.963Z",
+        "verified_at": "2026-10-11T01:27:40.963Z",
+        "state": null
+      },
+      {
+        "slug": "adult-shop-total-order-cost-comparison",
+        "published_at": "2026-10-11T01:27:41.318Z",
+        "verified_at": "2026-10-11T01:27:41.318Z",
+        "state": null
+      },
+      {
+        "slug": "webmaster-affiliate-report-reconciliation-workflow",
+        "published_at": "2026-10-11T01:27:41.666Z",
+        "verified_at": "2026-10-11T01:27:41.666Z",
+        "state": null
+      },
+      {
+        "slug": "premium-video-subscription-plan-fit-audit",
+        "published_at": "2026-10-11T01:27:42.053Z",
+        "verified_at": "2026-10-11T01:27:42.053Z",
+        "state": null
+      },
+      {
+        "slug": "live-cam-room-discovery-filter-evaluation",
+        "published_at": "2026-10-11T01:27:42.403Z",
+        "verified_at": "2026-10-11T01:27:42.403Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37580145281,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37580145281",
+    "failed_stage": "Wait for production and enqueue native social outbox",
+    "cause": "Publication/distribution verification failure; retained log needs full stage evidence",
+    "url_count_in_retained_signals": 5,
+    "current_ledger_records": [
+      {
+        "slug": "premium-video-preview-entitlement-audit",
+        "published_at": "2026-10-07T07:12:28.508Z",
+        "verified_at": "2026-10-07T07:12:28.508Z",
+        "state": null
+      },
+      {
+        "slug": "adult-platform-shared-device-privacy-plan",
+        "published_at": "2026-10-07T07:12:28.574Z",
+        "verified_at": "2026-10-07T07:12:28.574Z",
+        "state": null
+      },
+      {
+        "slug": "affiliate-campaign-naming-link-inventory",
+        "published_at": "2026-10-07T07:12:28.638Z",
+        "verified_at": "2026-10-07T07:12:28.638Z",
+        "state": null
+      },
+      {
+        "slug": "creator-platform-content-license-terms-checklist",
+        "published_at": "2026-10-07T07:12:28.700Z",
+        "verified_at": "2026-10-07T07:12:28.700Z",
+        "state": null
+      },
+      {
+        "slug": "vr-shared-headset-account-privacy-checklist",
+        "published_at": "2026-10-07T07:12:28.765Z",
+        "verified_at": "2026-10-07T07:12:28.765Z",
+        "state": null
+      }
+    ],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37552939687,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37552939687",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37530121675,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37530121675",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37503395933,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37503395933",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37491159157,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37491159157",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37452132836,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37452132836",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37408500650,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37408500650",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37398323587,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37398323587",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37385474990,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37385474990",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  },
+  {
+    "run_id": 37345640817,
+    "url": "https://github.com/heavenskybird/stripunion/actions/runs/37345640817",
+    "failed_stage": "Wait for production and distribute all five guides",
+    "cause": "Buffer free queue limit (10 scheduled posts); publication/distribution were coupled",
+    "url_count_in_retained_signals": 0,
+    "current_ledger_records": [],
+    "resolution": "OPEN: no database mutation; current ledger is corroboration, not proof of historical-cycle completion"
+  }
+]

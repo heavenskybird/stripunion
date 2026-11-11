@@ -1,0 +1,21 @@
+name: Social outbox heartbeat bridge
+on:
+  push:
+    branches: [bot/stripunion-social-heartbeat-kicks]
+    paths: ['ops/control-plane/social-outbox-kick.json']
+permissions:
+  contents: read
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Verify isolated signal branch
+        env:
+          CURRENT_REF: ${{ github.ref }}
+          CURRENT_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          test "$CURRENT_REPOSITORY" = 'heavenskybird/stripunion'
+          test "$CURRENT_REF" = 'refs/heads/bot/stripunion-social-heartbeat-kicks'
+          echo 'SOCIAL_OUTBOX_HEARTBEAT_BRIDGE_OK'

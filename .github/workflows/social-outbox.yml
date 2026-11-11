@@ -47,6 +47,8 @@ jobs:
 
       - name: Process safe pending deliveries
         env:
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          GH_TOKEN: ${{ github.token }}
           SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'true' }}
           SOCIAL_OUTBOX_BATCH_SIZE: '5'
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
