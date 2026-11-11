@@ -1,0 +1,273 @@
+{
+  "schema_version": 0,
+  "mode": "offline-historical-example",
+  "limitations": [
+    "Historical observations; not current rankings or production readiness.",
+    "Blog prefix excluded when Domain data exists. No totals across engines or overlapping dates.",
+    "NULL means unknown. Monthly volumes, organic difficulty, competitor ranks and query revenue unavailable.",
+    "Opportunity scoring requires explicit evidence-backed inputs; omitted for these uncalibrated observations."
+  ],
+  "records": [
+    {
+      "search_intent": null,
+      "topic_cluster": null,
+      "category": null,
+      "estimated_monthly_search_volume": null,
+      "volume_history": null,
+      "volume_trend": null,
+      "volume_source": null,
+      "data_confidence": null,
+      "competitor_domains": null,
+      "competitor_rankings": null,
+      "seo_difficulty_estimate": null,
+      "backlinks": null,
+      "referring_domains": null,
+      "content_gap": null,
+      "cannibalization_risk": null,
+      "affiliate_relevance": null,
+      "opportunity_score": null,
+      "keyword": "stripxuat",
+      "normalized_keyword": "stripxuat",
+      "language": null,
+      "country": null,
+      "search_engine": "google",
+      "property": "sc-domain:stripunion.com",
+      "our_rank": 7,
+      "our_ranking_url": "https://stripunion.com/",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "observed_at": "2026-10-24T05:59:31.887Z",
+      "source_updated_at": null,
+      "evidence": [
+        {
+          "source": "google-search-console",
+          "property": "sc-domain:stripunion.com",
+          "observed_at": "2026-10-24T05:59:31.887Z",
+          "source_updated_at": null,
+          "country": null,
+          "language": null,
+          "period": {
+            "start": "2026-09-30",
+            "end": "2026-09-30"
+          },
+          "kind": "first_party_measured",
+          "limitations": [
+            "GSC impression-weighted average position, not a current SERP rank.",
+            "Query anonymization/row limits omit some demand; country and language unknown.",
+            "Date is measurement date; provider update timestamp is unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "search_intent": null,
+      "topic_cluster": null,
+      "category": null,
+      "estimated_monthly_search_volume": null,
+      "volume_history": null,
+      "volume_trend": null,
+      "volume_source": null,
+      "data_confidence": null,
+      "competitor_domains": null,
+      "competitor_rankings": null,
+      "seo_difficulty_estimate": null,
+      "backlinks": null,
+      "referring_domains": null,
+      "content_gap": null,
+      "cannibalization_risk": null,
+      "affiliate_relevance": null,
+      "opportunity_score": null,
+      "keyword": "evaluate the webcam modeling platforms company stripchat on milf cams",
+      "normalized_keyword": "evaluate the webcam modeling platforms company stripchat on milf cams",
+      "language": null,
+      "country": null,
+      "search_engine": "google",
+      "property": "sc-domain:stripunion.com",
+      "our_rank": 4,
+      "our_ranking_url": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison/",
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "observed_at": "2026-10-24T05:59:31.887Z",
+      "source_updated_at": null,
+      "evidence": [
+        {
+          "source": "google-search-console",
+          "property": "sc-domain:stripunion.com",
+          "observed_at": "2026-10-24T05:59:31.887Z",
+          "source_updated_at": null,
+          "country": null,
+          "language": null,
+          "period": {
+            "start": "2026-10-21",
+            "end": "2026-10-21"
+          },
+          "kind": "first_party_measured",
+          "limitations": [
+            "GSC impression-weighted average position, not a current SERP rank.",
+            "Query anonymization/row limits omit some demand; country and language unknown.",
+            "Date is measurement date; provider update timestamp is unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "search_intent": null,
+      "topic_cluster": null,
+      "category": null,
+      "estimated_monthly_search_volume": null,
+      "volume_history": null,
+      "volume_trend": null,
+      "volume_source": null,
+      "data_confidence": null,
+      "competitor_domains": null,
+      "competitor_rankings": null,
+      "seo_difficulty_estimate": null,
+      "backlinks": null,
+      "referring_domains": null,
+      "content_gap": null,
+      "cannibalization_risk": null,
+      "affiliate_relevance": null,
+      "opportunity_score": null,
+      "keyword": "xhasters reviews",
+      "normalized_keyword": "xhasters reviews",
+      "language": null,
+      "country": null,
+      "search_engine": "bing",
+      "property": "https://stripunion.com/",
+      "our_rank": 9,
+      "our_ranking_url": null,
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "observed_at": "2026-10-24T05:59:48.971Z",
+      "source_updated_at": null,
+      "evidence": [
+        {
+          "source": "bing-webmaster-json-http",
+          "property": "https://stripunion.com/",
+          "observed_at": "2026-10-24T05:59:48.971Z",
+          "source_updated_at": null,
+          "country": null,
+          "language": null,
+          "period": {
+            "start": "2026-09-04",
+            "end": "2026-09-04"
+          },
+          "kind": "first_party_measured",
+          "limitations": [
+            "Query-level observation has no query-to-page join; page is UNKNOWN.",
+            "Bing average impression position; weekly source cadence; locale unknown.",
+            "Research impressions are not monthly search volume."
+          ]
+        }
+      ]
+    },
+    {
+      "search_intent": null,
+      "topic_cluster": null,
+      "category": null,
+      "estimated_monthly_search_volume": null,
+      "volume_history": null,
+      "volume_trend": null,
+      "volume_source": null,
+      "data_confidence": null,
+      "competitor_domains": null,
+      "competitor_rankings": null,
+      "seo_difficulty_estimate": null,
+      "backlinks": null,
+      "referring_domains": null,
+      "content_gap": null,
+      "cannibalization_risk": null,
+      "affiliate_relevance": null,
+      "opportunity_score": null,
+      "keyword": "f95zone reivew",
+      "normalized_keyword": "f95zone reivew",
+      "language": null,
+      "country": null,
+      "search_engine": "bing",
+      "property": "https://stripunion.com/",
+      "our_rank": 5,
+      "our_ranking_url": null,
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "observed_at": "2026-10-24T05:59:48.971Z",
+      "source_updated_at": null,
+      "evidence": [
+        {
+          "source": "bing-webmaster-json-http",
+          "property": "https://stripunion.com/",
+          "observed_at": "2026-10-24T05:59:48.971Z",
+          "source_updated_at": null,
+          "country": null,
+          "language": null,
+          "period": {
+            "start": "2026-08-14",
+            "end": "2026-08-14"
+          },
+          "kind": "first_party_measured",
+          "limitations": [
+            "Query-level observation has no query-to-page join; page is UNKNOWN.",
+            "Bing average impression position; weekly source cadence; locale unknown.",
+            "Research impressions are not monthly search volume."
+          ]
+        }
+      ]
+    },
+    {
+      "search_intent": null,
+      "topic_cluster": null,
+      "category": null,
+      "estimated_monthly_search_volume": null,
+      "volume_history": null,
+      "volume_trend": null,
+      "volume_source": null,
+      "data_confidence": null,
+      "competitor_domains": null,
+      "competitor_rankings": null,
+      "seo_difficulty_estimate": null,
+      "backlinks": null,
+      "referring_domains": null,
+      "content_gap": null,
+      "cannibalization_risk": null,
+      "affiliate_relevance": null,
+      "opportunity_score": null,
+      "keyword": "should a person be leary about xhamster site?",
+      "normalized_keyword": "should a person be leary about xhamster site?",
+      "language": null,
+      "country": null,
+      "search_engine": "bing",
+      "property": "https://stripunion.com/",
+      "our_rank": 10,
+      "our_ranking_url": null,
+      "impressions": 1,
+      "clicks": 0,
+      "ctr": 0,
+      "observed_at": "2026-10-24T05:59:48.971Z",
+      "source_updated_at": null,
+      "evidence": [
+        {
+          "source": "bing-webmaster-json-http",
+          "property": "https://stripunion.com/",
+          "observed_at": "2026-10-24T05:59:48.971Z",
+          "source_updated_at": null,
+          "country": null,
+          "language": null,
+          "period": {
+            "start": "2026-08-21",
+            "end": "2026-08-21"
+          },
+          "kind": "first_party_measured",
+          "limitations": [
+            "Query-level observation has no query-to-page join; page is UNKNOWN.",
+            "Bing average impression position; weekly source cadence; locale unknown.",
+            "Research impressions are not monthly search volume."
+          ]
+        }
+      ]
+    }
+  ],
+  "sample_of_records": 100
+}
