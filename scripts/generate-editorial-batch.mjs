@@ -3,6 +3,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { categories } from '../src/data/categories.js';
 import { findUnsupportedEditorialClaim } from './editorial-generator-guards.mjs';
+import { editorialResponse } from './editorial-provider-response.mjs';
 
 const apiKey = process.env.OPENAI_API_KEY;
 const model = process.env.EDITORIAL_MODEL || 'gpt-6-luna';
@@ -332,6 +333,7 @@ for (const { data } of carryovers) {
 }
 
 const existingTitleContext = existingGuides
+  .filter((guide) => selectedCategories.some((category) => category.slug === guide.categorySlug))
   .slice(-180)
   .map((guide) => ({ slug: guide.slug, categorySlug: guide.categorySlug, title: guide.title }));
 
@@ -452,6 +454,14 @@ const blockedRecentIdentifiers = [
     .slice(-60)
     .map((row) => ({ id: row.data.backlogId, slug: row.data.slug, intent: row.data.title }))
 ];
+// Alphabetical file tails are not a recent inventory. Include every occupied
+// identifier in these categories so older collisions are visible to the worker.
+// Full-inventory validation below remains authoritative.
+const occupiedIdentifiers = [...new Set([
+  ...(backlog.queue || []).filter((item) => selectedCategories.some((category) => category.name === item.category)).map((item) => item.id),
+  ...existingGuides.filter((guide) => selectedCategories.some((category) => category.slug === guide.categorySlug)).map((guide) => guide.slug),
+  ...allArtifacts.filter((row) => selectedCategories.some((category) => category.slug === row.data.categorySlug)).flatMap((row) => [row.data.slug, row.data.backlogId])
+].filter(Boolean))].sort();
 let lastErrors = [];
 const rejectedIdentifiers = new Set();
 let accepted = [];
@@ -492,6 +502,8 @@ if (generationCount > 0) {
       '',
       'Already-used or rejected identifiers: never reuse an ID, slug, or underlying topic; choose genuinely different reader intent:',
       JSON.stringify({ recent: blockedRecentIdentifiers, rejectedThisRun: [...rejectedIdentifiers] }, null, 2),
+      'Complete occupied identifiers for the selected categories (do not reuse):',
+      JSON.stringify(occupiedIdentifiers),
       'Do not simply append a number to camouflage duplicate editorial intent.',
       '',
       'Required JSON shape:',
@@ -517,6 +529,7 @@ if (generationCount > 0) {
         'Authorization': 'Bearer ' + apiKey,
         'Content-Type': 'application/json'
       },
+      signal: AbortSignal.timeout(240_000),
       body: JSON.stringify({
         model,
         instructions: systemPrompt,
@@ -526,12 +539,7 @@ if (generationCount > 0) {
       })
     });
 
-    if (!response.ok) {
-      const body = await response.text();
-      throw new Error('OpenAI Responses API failed: ' + response.status + ' ' + body.slice(0, 1200));
-    }
-
-    const data = await response.json();
+    const data = await editorialResponse(response);
     const outputText = extractOutputText(data);
     if (!outputText) {
       lastErrors = ['Model returned no output text.'];
