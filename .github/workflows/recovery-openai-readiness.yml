@@ -1,0 +1,37 @@
+name: Recovery OpenAI readiness
+
+# Explicitly authorized one-request verification. Only branch creation can run;
+# subsequent evidence commits, PR updates, main merges and reruns cannot call API.
+on:
+  push:
+    branches: [codex/recovery-integration-20261111]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: recovery-openai-readiness-20261111
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.event.created == true && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: One low-token request with existing production credential and model
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EDITORIAL_MODEL: ${{ vars.EDITORIAL_MODEL || 'gpt-6-luna' }}
+        run: node scripts/openai-readiness-probe.mjs
+      - name: Preserve sanitized evidence only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: openai-readiness-${{ github.run_id }}
+          path: work/recovery/openai-readiness.json
+          retention-days: 14
