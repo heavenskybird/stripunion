@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { categories } from '../src/data/categories.js';
-import { findUnsupportedEditorialClaim } from './editorial-generator-guards.mjs';
+import { findUnsupportedEditorialClaim, occupiedEditorialIdentifiers } from './editorial-generator-guards.mjs';
 import { editorialResponse } from './editorial-provider-response.mjs';
 
 const apiKey = process.env.OPENAI_API_KEY;
@@ -457,11 +457,7 @@ const blockedRecentIdentifiers = [
 // Alphabetical file tails are not a recent inventory. Include every occupied
 // identifier in these categories so older collisions are visible to the worker.
 // Full-inventory validation below remains authoritative.
-const occupiedIdentifiers = [...new Set([
-  ...(backlog.queue || []).filter((item) => selectedCategories.some((category) => category.name === item.category)).map((item) => item.id),
-  ...existingGuides.filter((guide) => selectedCategories.some((category) => category.slug === guide.categorySlug)).map((guide) => guide.slug),
-  ...allArtifacts.filter((row) => selectedCategories.some((category) => category.slug === row.data.categorySlug)).flatMap((row) => [row.data.slug, row.data.backlogId])
-].filter(Boolean))].sort();
+const occupiedIdentifiers = occupiedEditorialIdentifiers({ backlog, existingGuides, allArtifacts, selectedCategories });
 let lastErrors = [];
 const rejectedIdentifiers = new Set();
 let accepted = [];

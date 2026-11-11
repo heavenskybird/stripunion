@@ -25,8 +25,8 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
-      - name: Test R1 reliability without external calls
-        run: node --test scripts/test/reliability-r1.test.mjs scripts/test/editorial-generator-guards.test.mjs scripts/test/editorial-provider-response.test.mjs
+      - name: Test recovery reliability without external calls
+        run: node --test scripts/test/*.test.mjs
       - name: Validate Hostinger read-only checker
         run: |
           node --check scripts/hostinger-readonly-check.mjs
@@ -113,5 +113,5 @@ jobs:
         run: |
           npm run check:prod-seo
           node scripts/check-ga4-artifact.mjs
-      - name: Test isolated social delivery reliability
-        run: node --test scripts/test/social-outbox-*.test.mjs scripts/test/buffer-request-budget.test.mjs
+      - name: Test attribution correctness without provider events
+        run: npm test --prefix services/live-models-worker

@@ -1,0 +1,244 @@
+{
+  "openai": {
+    "version": 1,
+    "runId": "43050374954",
+    "checkedAt": "2026-11-11T15:38:35.450Z",
+    "model": "gpt-6-luna",
+    "requests": 1,
+    "httpStatus": 200,
+    "classification": "READY",
+    "maxOutputTokens": 128,
+    "store": false,
+    "effectiveAccountAccess": true,
+    "organizationHeaderPresent": true,
+    "projectHeaderPresent": true,
+    "responseStatus": "completed",
+    "inputTokens": 11,
+    "outputTokens": 5
+  },
+  "production": {
+    "version": 1,
+    "runId": "43050698532",
+    "checkedAt": "2026-11-11T15:40:35.131Z",
+    "readOnly": true,
+    "scheduler": {
+      "httpStatus": 200,
+      "state": "disabled_manually"
+    },
+    "receipt": {
+      "httpStatus": 200,
+      "blobSha": "8f204ec0fe1477f9c3627b75d3d692506e47d4e4",
+      "status": "failure",
+      "cycleId": "41254032304",
+      "runId": "41260561057",
+      "attempts": 3,
+      "startedAt": "2026-11-01T01:18:58.404Z",
+      "finishedAt": "2026-11-01T01:19:24.918Z",
+      "recentRunIdsCount": 200,
+      "historyHash": "faaa7f0f8df0035b699717d352b51f923a7dd2a656b891039456945d1e801e48"
+    },
+    "mainActiveRuns": [
+      {
+        "id": 37655528917,
+        "name": "Visual QA",
+        "status": "queued"
+      },
+      {
+        "id": 37655513979,
+        "name": "Control plane authority promotion",
+        "status": "queued"
+      }
+    ],
+    "activeInventoryComplete": true,
+    "nativeSend": {
+      "variable": "false",
+      "disabled": true,
+      "singleWriter": "UNSET"
+    },
+    "manifest": {
+      "cycleId": "41249384691",
+      "phase": "closed",
+      "count": 5
+    },
+    "publication": {
+      "guides": [
+        {
+          "url": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow",
+          "finalUrl": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow/",
+          "redirects": [
+            {
+              "status": 301,
+              "path": "/guides/creator-platform-payout-statement-reconciliation-workflow/"
+            }
+          ],
+          "status": 200,
+          "classification": "live",
+          "ok": true
+        },
+        {
+          "url": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit",
+          "finalUrl": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit/",
+          "redirects": [
+            {
+              "status": 301,
+              "path": "/guides/live-cam-platform-account-suspension-appeal-terms-audit/"
+            }
+          ],
+          "status": 200,
+          "classification": "live",
+          "ok": true
+        },
+        {
+          "url": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide",
+          "finalUrl": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide/",
+          "redirects": [
+            {
+              "status": 301,
+              "path": "/guides/adult-dating-first-meeting-safety-planning-guide/"
+            }
+          ],
+          "status": 200,
+          "classification": "live",
+          "ok": true
+        },
+        {
+          "url": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist",
+          "finalUrl": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist/",
+          "redirects": [
+            {
+              "status": 301,
+              "path": "/guides/adult-anime-game-purchase-model-cost-checklist/"
+            }
+          ],
+          "status": 200,
+          "classification": "live",
+          "ok": true
+        },
+        {
+          "url": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist",
+          "finalUrl": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist/",
+          "redirects": [
+            {
+              "status": 301,
+              "path": "/guides/free-video-age-assurance-data-minimization-checklist/"
+            }
+          ],
+          "status": 200,
+          "classification": "live",
+          "ok": true
+        }
+      ],
+      "deployment": {
+        "ok": true,
+        "status": 200,
+        "classification": "deployment-matched"
+      }
+    },
+    "health": [
+      {
+        "host": "stripunion.com",
+        "path": "/",
+        "status": 200,
+        "error": null,
+        "finalHost": "stripunion.com",
+        "ga4MeasurementIds": [],
+        "gtagScriptPresent": false,
+        "consentDefaultDenied": true,
+        "canonical": "https://stripunion.com/"
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/robots.txt",
+        "status": 200,
+        "error": null,
+        "finalHost": "stripunion.com"
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/sitemap.xml",
+        "status": 200,
+        "error": null,
+        "finalHost": "stripunion.com"
+      },
+      {
+        "host": "blog.stripunion.com",
+        "path": "/",
+        "status": 200,
+        "error": null,
+        "finalHost": "blog.stripunion.com",
+        "ga4MeasurementIds": [],
+        "gtagScriptPresent": true,
+        "consentDefaultDenied": true,
+        "canonical": "https://blog.stripunion.com/"
+      },
+      {
+        "host": "blog.stripunion.com",
+        "path": "/robots.txt",
+        "status": 200,
+        "error": null,
+        "finalHost": "blog.stripunion.com"
+      },
+      {
+        "host": "blog.stripunion.com",
+        "path": "/sitemap_index.xml",
+        "status": 200,
+        "error": null,
+        "finalHost": "blog.stripunion.com"
+      },
+      {
+        "host": "avcams.online",
+        "path": "/",
+        "status": 406,
+        "error": null,
+        "finalHost": "avcams.online"
+      },
+      {
+        "host": "avcams.online",
+        "path": "/robots.txt",
+        "status": 200,
+        "error": null,
+        "finalHost": "avcams.online"
+      },
+      {
+        "host": "avcams.online",
+        "path": "/sitemap.xml",
+        "status": 404,
+        "error": null,
+        "finalHost": "avcams.online"
+      }
+    ],
+    "hostinger": {
+      "configured": true,
+      "websitesHttp": 200,
+      "mainFound": true,
+      "envHttp": 200,
+      "buildsHttp": 200,
+      "ga4VariablePresent": false,
+      "ga4PublicValue": null,
+      "latestBuild": {
+        "state": "completed",
+        "createdAt": "2026-11-11T07:52:46Z",
+        "sha": null
+      },
+      "logEvidence": {
+        "httpStatus": 200,
+        "lineCount": 1750,
+        "errorCount": 0,
+        "warningCount": 2
+      }
+    },
+    "attribution": {
+      "configured": true,
+      "httpStatus": 200,
+      "totalClicks": 42,
+      "totalPostbacks": 13,
+      "matchedPostbacks": 1,
+      "unmatchedPostbacks": 12,
+      "duplicatePostbacks": 0,
+      "revenueByCurrency": {
+        "UNKNOWN": 224.25000000000003
+      },
+      "diagnostics": null
+    }
+  }
+}

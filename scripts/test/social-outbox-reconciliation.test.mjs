@@ -11,10 +11,22 @@ const page=posts=>({edges:posts.map(node=>({node})),pageInfo:{hasNextPage:false,
 async function reconcile(events,result){
  const dir=await fs.mkdtemp(path.join(os.tmpdir(),'su-reconcile-'));const out=path.join(dir,'ops/social-outbox/events');await fs.mkdir(out,{recursive:true});
  for(const[i,e]of events.entries())await fs.writeFile(path.join(out,`${i}.json`),JSON.stringify(e));
- const preload=path.join(dir,'mock.mjs');await fs.writeFile(preload,`globalThis.fetch=async(_url,opts)=>{const body=JSON.parse(opts.body);return Response.json({data:body.query.includes('query Channel')?{channel:{id:'test',organizationId:'test-org'}}:{posts:${JSON.stringify(result)}}});};`);
+ const preload=path.join(dir,'mock.mjs');await fs.writeFile(preload,`const files=new Map();let version=0;
+ globalThis.fetch=async(raw,opts={})=>{
+  const url=new URL(raw);const body=opts.body?JSON.parse(opts.body):null;
+  if(url.hostname==='api.github.com'){
+   if(url.pathname.includes('/branches/'))return Response.json({name:'runtime'});
+   if(url.pathname.includes('/contents/')){
+    if(!opts.method||opts.method==='GET')return files.has(url.pathname)?Response.json(files.get(url.pathname)):new Response('',{status:404});
+    const content={sha:String(++version),content:body.content};files.set(url.pathname,content);return Response.json({content});
+   }
+  }
+  if(url.hostname!=='api.buffer.com')throw Error('Unexpected network request blocked');
+  return Response.json({data:body.query.includes('query Channel')?{channel:{id:'test',organizationId:'test-org'}}:{posts:${JSON.stringify(result)}}});
+ };`);
  const snapshot=path.join(dir,'snapshot.json');let error=null;
  try{
-  try{execFileSync(process.execPath,['--import',preload,script],{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe'],env:{...process.env,BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot}});}catch(e){error=e;}
+  try{execFileSync(process.execPath,['--import',preload,script],{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe'],env:{...process.env,BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',GITHUB_REPOSITORY:'heavenskybird/stripunion',GH_TOKEN:'test-only',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot}});}catch(e){error=e;}
   return{error,events:await Promise.all(events.map((_,i)=>fs.readFile(path.join(out,`${i}.json`),'utf8').then(JSON.parse))),snapshot:await fs.stat(snapshot).then(()=>true).catch(()=>false)};
  }finally{await fs.rm(dir,{recursive:true,force:true});}
 }

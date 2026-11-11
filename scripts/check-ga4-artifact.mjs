@@ -1,12 +1,13 @@
 import fs from 'node:fs';
+import { resolveGa4MeasurementId } from '../src/config/analytics.mjs';
 
 const home = fs.readFileSync('dist/index.html', 'utf8');
-const expectedGa4Id = process.env.PUBLIC_GA4_MEASUREMENT_ID || '';
+const expectedGa4Id = resolveGa4MeasurementId(process.env.PUBLIC_GA4_MEASUREMENT_ID);
 const expectedClarityId = (process.env.PUBLIC_CLARITY_PROJECT_ID || 'ysuowheiiz').toLowerCase();
 
 const checks = [
   ['indexing enabled for production analytics acceptance', process.env.PUBLIC_ALLOW_INDEXING === 'true'],
-  ['valid GA4 test measurement id supplied', /^G-[A-Z0-9]{4,20}$/i.test(expectedGa4Id)],
+  ['valid GA4 measurement id resolved', /^G-[A-Z0-9]{4,20}$/i.test(expectedGa4Id)],
   ['GA4 loader present', home.includes('googletagmanager.com/gtag/js')],
   ['GA4 measurement id present', home.includes(expectedGa4Id)],
   ['GA4 config call present', home.includes(`gtag/js?id=${expectedGa4Id}`) && home.includes("window.gtag('config', ga4MeasurementId)")],

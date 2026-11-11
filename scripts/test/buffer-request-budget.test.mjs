@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { reserveBufferRequest, budgetedBufferFetch } from '../buffer-request-budget.mjs';
+import { reserveBufferRequest, budgetedBufferFetch, bufferFetch } from '../buffer-request-budget.mjs';
 const now = Date.parse('2026-11-11T10:00:00Z');
 const store = () => ({ state: null, async write(value) { this.state = value; } });
 
@@ -32,4 +32,13 @@ test('GraphQL HTTP200 quota error is also a cooldown, not a successful request',
   const db = store();
   await budgetedBufferFetch('https://api.buffer.com', {}, { store: db, fetchImpl: async () => Response.json({ errors: [{ extensions: { code: 'RATE_LIMIT_EXCEEDED', window: '30d' } }] }), now: () => now });
   assert.equal(db.state.blockedUntil, now + 30 * 86_400_000);
+});
+
+test('unprovisioned runtime cannot fall back to unbudgeted provider requests', () => {
+  const previous = process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED;
+  const before = globalThis.fetch; let calls = 0;
+  delete process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED;
+  globalThis.fetch = () => { calls++; };
+  try { assert.throws(() => bufferFetch('https://api.buffer.com', {}), /BUFFER_RUNTIME_NOT_ACCEPTED/); assert.equal(calls, 0); }
+  finally { globalThis.fetch = before; if (previous === undefined) delete process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED; else process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED = previous; }
 });

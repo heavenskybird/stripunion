@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
 
 const outputPath = process.argv[2] || 'ops/health/public-health-oracle.json';
 const timeoutMs = 15_000;
@@ -36,35 +37,37 @@ async function sleep(ms) {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function request(url, accept = 'text/html,*/*') {
+export function safeTransportError(error) {
+  const allowed = new Set(['ETIMEDOUT','ENETUNREACH','ECONNRESET','ECONNREFUSED','ENOTFOUND','EAI_AGAIN','UND_ERR_CONNECT_TIMEOUT','UND_ERR_SOCKET','TimeoutError','AbortError']);
+  const code = value => allowed.has(value?.code) ? value.code : allowed.has(value?.name) ? value.name : 'TRANSPORT_ERROR';
+  return { code: code(error?.cause || error), causeCodes: (error?.cause?.errors || []).map(code).slice(0, 8), attempts: error?.probeAttempts || [] };
+}
+export async function request(url, accept = 'text/html,*/*', { fetchImpl = fetch, sleepImpl = sleep } = {}) {
   let lastError;
+  const attempts = [];
   for (let attempt = 1; attempt <= 5; attempt += 1) {
+    const started = Date.now();
     try {
-      const response = await fetch(url, {
-        method: 'GET',
-        redirect: 'follow',
-        headers: {
-          accept,
-          'user-agent': 'StripUnion-Public-Health-Oracle/1.0'
-        },
+      const response = await fetchImpl(url, {
+        method: 'GET', redirect: 'follow',
+        headers: { accept, 'user-agent': 'StripUnion-Public-Health-Oracle/1.0' },
         signal: AbortSignal.timeout(timeoutMs)
       });
+      attempts.push({ attempt, status: response.status, elapsedMs: Date.now() - started });
       if (!retryable.has(response.status) || attempt === 5) {
         const body = await response.text();
-        return {
-          status: response.status,
-          final_url: response.url,
-          content_type: response.headers.get('content-type') || '',
-          body
-        };
+        return { status: response.status, final_url: response.url, content_type: response.headers.get('content-type') || '', body, attempts };
       }
+      // Release a retry response before opening another connection.
+      await response.body?.cancel();
     } catch (error) {
       lastError = error;
-      if (attempt === 5) throw error;
+      attempts.push({ attempt, status: 0, elapsedMs: Date.now() - started, error: safeTransportError(error).code });
+      if (attempt === 5) { error.probeAttempts = attempts; throw error; }
     }
-    await sleep(attempt * 1000);
+    await sleepImpl(attempt * 1000);
   }
-  throw lastError || new Error(`request failed: ${url}`);
+  throw lastError || new Error('Public health transport failed.');
 }
 
 function canonicalFrom(html) {
@@ -106,7 +109,8 @@ async function checkSite(site) {
       status: home.status,
       final_url: home.final_url,
       canonical: canonicalFrom(home.body),
-      noindex: hasNoindex(home.body)
+      noindex: hasNoindex(home.body),
+      attempts: home.attempts
     };
 
     if (home.status < 200 || home.status >= 400) result.required_failures.push(`homepage_http_${home.status}`);
@@ -131,19 +135,19 @@ async function checkSite(site) {
     if (result.home.noindex && !site.requireIndexable) result.warnings.push('homepage_noindex_observed');
   } catch (error) {
     result.required_failures.push('homepage_fetch_failed');
-    result.home_error = error instanceof Error ? error.message : String(error);
+    result.home_error = safeTransportError(error);
   }
 
   try {
     const robots = await request(site.origin + '/robots.txt', 'text/plain,*/*');
-    result.robots = { status: robots.status, blocks_all: robotsBlocksAll(robots.body) };
+    result.robots = { status: robots.status, blocks_all: robotsBlocksAll(robots.body), attempts: robots.attempts };
     if (site.robotsRequired && robots.status !== 200) result.required_failures.push(`robots_http_${robots.status}`);
     if (site.robotsRequired && result.robots.blocks_all) result.required_failures.push('robots_blocks_all');
     if (!site.robotsRequired && robots.status !== 200) result.warnings.push(`robots_http_${robots.status}`);
   } catch (error) {
     if (site.robotsRequired) result.required_failures.push('robots_fetch_failed');
     else result.warnings.push('robots_fetch_failed');
-    result.robots_error = error instanceof Error ? error.message : String(error);
+    result.robots_error = safeTransportError(error);
   }
 
   let sitemapOk = false;
@@ -151,14 +155,14 @@ async function checkSite(site) {
   for (const candidate of site.sitemapCandidates) {
     try {
       const response = await request(site.origin + candidate, 'application/xml,text/xml,*/*');
-      const observation = { path: candidate, status: response.status, valid_xml_root: validSitemap(response.body) };
+      const observation = { path: candidate, status: response.status, valid_xml_root: validSitemap(response.body), attempts: response.attempts };
       sitemapObservations.push(observation);
       if (response.status === 200 && observation.valid_xml_root) {
         sitemapOk = true;
         break;
       }
     } catch (error) {
-      sitemapObservations.push({ path: candidate, error: error instanceof Error ? error.message : String(error) });
+      sitemapObservations.push({ path: candidate, error: safeTransportError(error) });
     }
   }
   result.sitemaps = sitemapObservations;
@@ -169,6 +173,7 @@ async function checkSite(site) {
   return result;
 }
 
+async function main() {
 const report = {
   version: 1,
   generated_at: new Date().toISOString(),
@@ -191,3 +196,6 @@ for (const site of report.sites) {
 console.log(`PUBLIC_HEALTH_ORACLE ${report.ok ? 'PASS' : 'FAIL'} output=${outputPath}`);
 
 if (!report.ok) process.exitCode = 1;
+
+}
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await main();

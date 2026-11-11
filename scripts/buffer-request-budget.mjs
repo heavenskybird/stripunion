@@ -42,8 +42,8 @@ export async function budgetedBufferFetch(url, options, { store, fetchImpl = fet
 }
 
 export function bufferFetch(url, options) {
-  // Dormant until the coordinated single-writer cutover; legacy behavior remains
-  // reviewable separately. Every native sender/collector is wired to this gate.
-  return process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true'
-    ? budgetedBufferFetch(url, options) : fetch(url, { ...options, signal: options?.signal || AbortSignal.timeout(15_000) });
+  // No unbudgeted fallback before cutover: a missing accepted runtime holds reads
+  // as well as writes. Other sources/channels continue independently.
+  if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED !== 'true') throw new Error('BUFFER_RUNTIME_NOT_ACCEPTED; no provider request made.');
+  return budgetedBufferFetch(url, options);
 }

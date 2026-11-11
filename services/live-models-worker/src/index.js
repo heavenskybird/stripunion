@@ -439,6 +439,8 @@ export class AttributionStore {
 
     const key = `click:${click.memberId}`;
     const existing = await this.state.storage.get(key);
+    // A retried click must not change attribution after its counters were added.
+    if (existing) return { ok: true, duplicate: true };
     await this.state.storage.put(key, click);
 
     if (!existing) {
@@ -501,6 +503,14 @@ export class AttributionStore {
     summary.totalPostbacks += 1;
     if (click) summary.matchedPostbacks += 1;
     else summary.unmatchedPostbacks += 1;
+    const suppliedMemberId = pickAlias(input, ['memberId', 'member_id', 'memberid']);
+    const joinStatus = click ? 'matched' : !suppliedMemberId ? 'missing_member_id' : !postback.memberId ? 'invalid_member_id' : 'click_not_found';
+    // New-window diagnostics only; never reconstruct causes for historical data.
+    summary.diagnostics ||= { version: 1, since: new Date().toISOString(), observedPostbacks: 0, joinStatus: {}, unknownCurrency: 0, missingTransactionId: 0 };
+    summary.diagnostics.observedPostbacks += 1;
+    incrementNumber(summary.diagnostics.joinStatus, joinStatus);
+    if (postback.currency === 'UNKNOWN') summary.diagnostics.unknownCurrency += 1;
+    if (!postback.transactionId) summary.diagnostics.missingTransactionId += 1;
     incrementNumber(summary.eventCounts, postback.eventType);
     incrementRevenue(summary.revenueByCurrency, postback.currency, postback.revenue);
 
@@ -531,6 +541,7 @@ export class AttributionStore {
       revenue: postback.revenue,
       currency: postback.currency,
       matched: Boolean(click),
+      joinStatus,
       p1: click?.p1 || null,
       affiliateSource: click?.affiliateSource || null,
       experimentId: click?.experimentId || null,

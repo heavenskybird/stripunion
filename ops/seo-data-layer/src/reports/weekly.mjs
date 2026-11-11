@@ -278,6 +278,11 @@ const summary = {
     reportScope: attributionSummary.reportScope || null,
     receiverConnected: attributionSummary.receiverConnected === true,
     postbackJoinReady: attributionSummary.postbackJoinReady === true,
+    joinQuality: Number(attributionSummary.totalPostbacks || 0) > 0 ? {
+      matchedShare: Number(attributionSummary.matchedPostbacks || 0) / Number(attributionSummary.totalPostbacks),
+      status: Number(attributionSummary.unmatchedPostbacks || 0) > 0 ? 'incomplete' : 'fully_matched',
+      diagnostics: attributionSummary.diagnostics || null
+    } : { status: 'no_observations', matchedShare: null, diagnostics: null },
     totalClicks: Number(attributionSummary.totalClicks || 0),
     totalPostbacks: Number(attributionSummary.totalPostbacks || 0),
     matchedPostbacks: Number(attributionSummary.matchedPostbacks || 0),
@@ -350,7 +355,7 @@ const md = [
   '## Revenue / Affiliate Attribution',
   `- ${summary.ga4.siteSegmentationAvailable ? `Main affiliate_click: ${summary.ga4.sites.main.affiliateClick}; Blog affiliate_click: ${summary.ga4.sites.blog.affiliateClick}.` : 'Site-level affiliate_click attribution needs a fresh host-segmented GA4 snapshot.'}`,
   `- ${stripcash ? `StripCash aggregate scope: signups **${stripcashMetrics.signup || 0}** · verified **${stripcashMetrics.verifiedSignup || 0}** · new customers **${stripcashMetrics.newCustomersCount || 0}** · purchases **${stripcashMetrics.purchasesCount || 0}** · purchase earnings **${stripcashMetrics.purchaseEarnings || 0}** · total earnings **${stripcashMetrics.totalEarnings || 0}**.` : 'STRIPCASH AGGREGATE REVENUE NOT CONNECTED.'}`,
-  `- ${attribution ? `First-party attribution receiver **connected** · click→postback join **ready** · clicks **${attributionSummary.totalClicks || 0}** · postbacks **${attributionSummary.totalPostbacks || 0}** · matched **${attributionSummary.matchedPostbacks || 0}** · unmatched **${attributionSummary.unmatchedPostbacks || 0}** · events ${JSON.stringify(attributionSummary.eventCounts || {})} · revenue by currency ${JSON.stringify(attributionSummary.revenueByCurrency || {})}.` : 'First-party click storage is deployed; StripCash postback secret/setup is still pending.'}`,
+  `- ${attribution ? `First-party attribution receiver **connected** · click→postback transport **ready** · matching **${summary.attribution.joinQuality.status}** · clicks **${attributionSummary.totalClicks || 0}** · postbacks **${attributionSummary.totalPostbacks || 0}** · matched **${attributionSummary.matchedPostbacks || 0}** · unmatched **${attributionSummary.unmatchedPostbacks || 0}** · events ${JSON.stringify(attributionSummary.eventCounts || {})} · revenue by currency ${JSON.stringify(attributionSummary.revenueByCurrency || {})}.` : 'First-party click storage is deployed; StripCash postback secret/setup is still pending.'}`,
   ...topAttributionP1.map((row) => `- Attribution ${row.key}: ${row.clicks || 0} clicks · ${row.postbacks || 0} postbacks · events ${JSON.stringify(row.eventCounts || {})}.`),
   `- ${stripcash ? (attribution ? 'Aggregate StripCash statistics and first-party attribution are both connected.' : 'Aggregate StripCash statistics are connected; postback joining is the remaining attribution step.') : 'Postback and Statistics attribution remain disconnected.'}`, '',
   '## Warnings / Missing Data',

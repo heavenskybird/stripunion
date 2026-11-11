@@ -73,6 +73,7 @@ async function telegram(method, payload) {
 }
 
 export async function publishTelegramEvent(event) {
+  if (String(process.env.SOCIAL_OUTBOX_SEND_ENABLED).toLowerCase() === 'false') throw new Error('Social sends disabled by operator.');
   if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true' &&
       (event.source !== 'social_outbox' || process.env.GITHUB_WORKFLOW !== 'Native social outbox' || process.env.GITHUB_REF !== 'refs/heads/main' || process.env.GITHUB_RUN_ATTEMPT !== '1')) {
     throw new Error('Direct Telegram sends refused after single-writer cutover.');
