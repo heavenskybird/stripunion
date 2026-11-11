@@ -1,3 +1,4 @@
+import { bufferFetch } from '../../../../scripts/buffer-request-budget.mjs';
 import { daysAgo, writeSnapshot } from '../lib/io.mjs';
 
 const apiKey = process.env.BUFFER_API_KEY;
@@ -8,7 +9,7 @@ if (!apiKey) {
 }
 
 async function graphql(query) {
-  const response = await fetch('https://api.buffer.com', {
+  const response = await bufferFetch('https://api.buffer.com', {
     method: 'POST',
     headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({ query })

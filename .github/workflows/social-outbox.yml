@@ -40,13 +40,20 @@ jobs:
         run: npm run social:outbox:sync
 
       - name: Reconcile historical Buffer deliveries
+        id: reconcile_buffer
+        continue-on-error: true
         env:
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: npm run social:outbox:reconcile:buffer
 
       - name: Process safe pending deliveries
         env:
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          BUFFER_RECONCILIATION_OUTCOME: ${{ steps.reconcile_buffer.outcome }}
+          GH_TOKEN: ${{ github.token }}
           SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'true' }}
           SOCIAL_OUTBOX_BATCH_SIZE: '5'
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
@@ -60,9 +67,11 @@ jobs:
         run: npm run social:outbox:worker
 
       - name: Report outbox state
+        if: always()
         run: npm run social:outbox:report
 
       - name: Persist native outbox state
+        if: always()
         shell: bash
         run: |
           set -euo pipefail
@@ -84,4 +93,10 @@ jobs:
           done
 
           echo "Failed to persist social outbox state after retries." >&2
+          exit 1
+
+      - name: Retain visible reconciliation failure after safe channel processing
+        if: always() && steps.reconcile_buffer.outcome == 'failure'
+        run: |
+          echo "::error::Buffer reconciliation failed or is cooling down. X sends held; safe channel results were persisted."
           exit 1

@@ -1,3 +1,5 @@
+import { bufferFetch } from './buffer-request-budget.mjs';
+import { journal, confirmProviderReceipt } from './social-outbox-safety.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
@@ -7,7 +9,7 @@ const apiUrl = 'https://api.buffer.com';
 const outboxDir = 'ops/social-outbox/events';
 
 async function gql(query, variables) {
-  const response = await fetch(apiUrl, {
+  const response = await bufferFetch(apiUrl, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
@@ -17,7 +19,7 @@ async function gql(query, variables) {
   });
   const payload = await response.json();
   if (!response.ok || payload.errors?.length) {
-    throw new Error(`Buffer query failed: ${response.status} ${JSON.stringify(payload.errors || payload)}`);
+    throw new Error(`Buffer reconciliation query failed (${response.status}); provider payload withheld.`);
   }
   return payload.data;
 }
@@ -28,6 +30,7 @@ function extractSlugs(text = '') {
   for (const raw of urls) {
     try {
       const url = new URL(raw);
+      if (!['stripunion.com', 'blog.stripunion.com'].includes(url.hostname)) continue;
       const utm = url.searchParams.get('utm_content');
       if (utm) slugs.add(utm);
       const parts = url.pathname.split('/').filter(Boolean);
@@ -83,6 +86,7 @@ const postsQuery = `
 `;
 
 const postsBySlug = new Map();
+const providerPosts = [];
 let after = null;
 for (let page = 0; page < 12; page += 1) {
   const data = await gql(postsQuery, {
@@ -99,9 +103,11 @@ for (let page = 0; page < 12; page += 1) {
   });
 
   const result = data?.posts;
+  if (!Array.isArray(result?.edges) || typeof result?.pageInfo?.hasNextPage !== 'boolean' || (result.pageInfo.hasNextPage && !result.pageInfo.endCursor)) throw new Error('Incomplete Buffer provider evidence; sends blocked.');
   for (const edge of result?.edges || []) {
     const post = edge?.node;
-    if (!post?.id) continue;
+    if (!post?.id || post.channelId !== channelId || !['scheduled', 'sent'].includes(post.status)) throw new Error('Invalid Buffer provider row; sends blocked.');
+    providerPosts.push(post);
     for (const slug of extractSlugs(post.text || '')) {
       const rows = postsBySlug.get(slug) || [];
       rows.push(post);
@@ -110,8 +116,12 @@ for (let page = 0; page < 12; page += 1) {
   }
 
   if (!result?.pageInfo?.hasNextPage || !result.pageInfo.endCursor) break;
+  if (page === 11) throw new Error('Truncated Buffer evidence; sends blocked.');
+  if (result.pageInfo.endCursor === after) throw new Error('Repeated Buffer cursor; sends blocked.');
   after = result.pageInfo.endCursor;
 }
+
+await fs.writeFile(process.env.SOCIAL_OUTBOX_RECONCILIATION_FILE || '/tmp/stripunion-buffer-reconciliation.json', JSON.stringify({ checked_at: new Date().toISOString(), channel_id: channelId, posts: providerPosts }));
 
 let matched = 0;
 let unmatched = 0;
@@ -127,7 +137,15 @@ for (const name of await listJson(outboxDir)) {
     continue;
   }
 
-  const post = matches[0];
+  const post = event.provider_message_id
+    ? matches.find((row) => row.id === event.provider_message_id)
+    : matches.length === 1 ? matches[0] : null;
+  // Ambiguous slug matches cannot establish which delivery belongs to this event.
+  if (!post) { unmatched += 1; continue; }
+  if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true') {
+    const store = await journal(event);
+    if (!await confirmProviderReceipt(store, post)) { unmatched += 1; continue; }
+  }
   event.state = post.status === 'sent' ? 'delivered' : 'scheduled';
   event.provider_message_id = post.id;
   event.provider_due_at = post.dueAt || post.sentAt || null;

@@ -113,4 +113,5 @@ jobs:
         run: |
           npm run check:prod-seo
           node scripts/check-ga4-artifact.mjs
-
+      - name: Test isolated social delivery reliability
+        run: node --test scripts/test/social-outbox-*.test.mjs scripts/test/buffer-request-budget.test.mjs
