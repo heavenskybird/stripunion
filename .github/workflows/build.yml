@@ -98,6 +98,8 @@ jobs:
           npm run report:editorial-production > /tmp/editorial-production.json
       - name: Run migration quality gate
         run: npm run check
+      - name: Test first-party data correctness without external calls
+        run: npm test --prefix ops/seo-data-layer
       - name: Build staging-safe site
         run: |
           PUBLIC_ALLOW_INDEXING=false npm run build

@@ -47,6 +47,9 @@ jobs:
         working-directory: ops/seo-data-layer
         run: npm install --no-audit --no-fund
 
+      - name: Record collection start
+        run: echo "COLLECTION_STARTED_AT=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_ENV"
+
       - name: Collect Google Search Console
         id: collect_gsc
         continue-on-error: true
@@ -172,6 +175,25 @@ jobs:
           REQUIRE_CLARITY: 'true'
         run: node scripts/blog-health-check.mjs
 
+      - name: Record per-source collection status
+        working-directory: ops/seo-data-layer
+        env:
+          GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
+          GSC_BLOG_OUTCOME: ${{ steps.collect_gsc_blog.outcome }}
+          GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
+          GA4_ADMIN_OUTCOME: ${{ steps.collect_ga4_admin.outcome }}
+          CLARITY_OUTCOME: ${{ steps.collect_clarity.outcome }}
+          CLARITY_CONFIGURED: ${{ steps.collect_clarity.outputs.configured }}
+          BLOG_ANALYTICS_STATUS: ${{ steps.two_site_health.outputs.analytics_status }}
+          BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
+          BING_OUTCOME: ${{ steps.collect_bing.outcome }}
+          BING_ACCEPTANCE_OUTCOME: ${{ steps.bing_acceptance.outcome }}
+          BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
+          STRIPCASH_OUTCOME: ${{ steps.collect_stripcash.outcome }}
+          ATTRIBUTION_OUTCOME: ${{ steps.collect_attribution.outcome }}
+          BLOG_HEALTH_OUTCOME: ${{ steps.two_site_health.outcome }}
+        run: node src/reports/collection-status.mjs
+
       - name: Refresh growth report from latest snapshots
         working-directory: ops/seo-data-layer
         run: node src/reports/weekly.mjs
@@ -224,80 +246,9 @@ jobs:
 
       - name: Summarize collection outcomes
         if: always()
-        shell: bash
         id: summarize
-        env:
-          GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
-          GSC_BLOG_OUTCOME: ${{ steps.collect_gsc_blog.outcome }}
-          GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
-          GA4_ADMIN_OUTCOME: ${{ steps.collect_ga4_admin.outcome }}
-          CLARITY_OUTCOME: ${{ steps.collect_clarity.outcome }}
-          CLARITY_CONFIGURED: ${{ steps.collect_clarity.outputs.configured }}
-          BLOG_ANALYTICS_STATUS: ${{ steps.two_site_health.outputs.analytics_status }}
-          BLOG_ANALYTICS_ACCEPTED: ${{ steps.two_site_health.outputs.analytics_accepted }}
-          BING_OUTCOME: ${{ steps.collect_bing.outcome }}
-          BING_ACCEPTANCE_OUTCOME: ${{ steps.bing_acceptance.outcome }}
-          BUFFER_OUTCOME: ${{ steps.collect_buffer.outcome }}
-          STRIPCASH_OUTCOME: ${{ steps.collect_stripcash.outcome }}
-          ATTRIBUTION_OUTCOME: ${{ steps.collect_attribution.outcome }}
-          BLOG_HEALTH_OUTCOME: ${{ steps.two_site_health.outcome }}
-        run: |
-          failed=0
-          for source in gsc ga4 bing buffer stripcash; do
-            case "$source" in
-              gsc) outcome="$GSC_OUTCOME" ;;
-              ga4) outcome="$GA4_OUTCOME" ;;
-              bing) outcome="$BING_OUTCOME" ;;
-              buffer) outcome="$BUFFER_OUTCOME" ;;
-              stripcash) outcome="$STRIPCASH_OUTCOME" ;;
-            esac
-            if [ "$outcome" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/$source.json" > /dev/null; then
-              echo "$source: collection succeeded and snapshot exists"
-            else
-              echo "$source: collection failed or snapshot is missing"
-              failed=1
-            fi
-          done
-          if [ "$GSC_BLOG_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/gsc-blog.json" > /dev/null; then
-            echo "gsc blog: URL-prefix collection succeeded and isolated snapshot exists"
-          else
-            echo "gsc blog: URL-prefix API authorization or collection failed"
-            failed=1
-          fi
-          if [ "$GA4_ADMIN_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/ga4-admin.json" > /dev/null; then
-            echo "ga4 admin: stream metadata discovery succeeded and snapshot exists"
-          else
-            echo "ga4 admin: discovery failed; any previous valid snapshot remains on disk"
-          fi
-          if [ "$CLARITY_CONFIGURED" = true ]; then
-            if [ "$CLARITY_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/clarity.json" > /dev/null; then
-              echo "clarity: behavior export succeeded and snapshot exists"
-            else
-              echo "clarity: token is configured but collection failed or snapshot is missing"
-              failed=1
-            fi
-          else
-            echo "clarity: Data Export token not configured yet; tracking can still run in-browser"
-          fi
-          if [ "$BING_ACCEPTANCE_OUTCOME" = success ]; then
-            echo "bing intelligence: verification, sitemap, backlink and keyword acceptance passed"
-          else
-            echo "bing intelligence: acceptance failed"
-            failed=1
-          fi
-          if [ "$ATTRIBUTION_OUTCOME" = success ] && compgen -G "ops/seo-data-layer/data/raw/*/attribution.json" > /dev/null; then
-            echo "first-party attribution: collection succeeded and snapshot exists"
-          else
-            echo "first-party attribution: unavailable until STRIPCASH_POSTBACK_SECRET and StripCash postback are configured"
-          fi
-          if [ "$BLOG_HEALTH_OUTCOME" = success ]; then
-            echo "blog public health: succeeded"
-          else
-            echo "blog public health: failed"
-            failed=1
-          fi
-          echo "Blog GA4 analytics acceptance: ${BLOG_ANALYTICS_STATUS:-UNKNOWN} (accepted: ${BLOG_ANALYTICS_ACCEPTED:-false})"
-          echo "failed=$failed" >> "$GITHUB_OUTPUT"
+        working-directory: ops/seo-data-layer
+        run: node src/reports/collection-status.mjs --summarize
       - name: Dispatch traffic and opportunity intelligence
         if: always() && steps.persist.outcome == 'success'
         env:
