@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T22:44:52.584Z",
+  "generatedAt": "2026-11-12T04:01:16.312Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-payout-statement-reconciliation-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-account-suspension-appeal-terms-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-first-meeting-safety-planning-guide.json",
-    "ops/editorial/content-artifacts/adult-anime-game-purchase-model-cost-checklist.json",
-    "ops/editorial/content-artifacts/free-video-age-assurance-data-minimization-checklist.json"
+    "ops/editorial/content-artifacts/vr-adult-managed-headset-policy-and-account-separation.json",
+    "ops/editorial/content-artifacts/adult-games-age-check-data-review-before-browsing.json",
+    "ops/editorial/content-artifacts/adult-shop-age-check-data-transparency-review.json",
+    "ops/editorial/content-artifacts/live-cam-platform-operator-and-access-verification.json",
+    "ops/editorial/content-artifacts/adult-dating-account-login-security-and-recovery-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-payout-statement-reconciliation-workflow.js",
-    "src/data/guides/live-cam-platform-account-suspension-appeal-terms-audit.js",
-    "src/data/guides/adult-dating-first-meeting-safety-planning-guide.js",
-    "src/data/guides/adult-anime-game-purchase-model-cost-checklist.js",
-    "src/data/guides/free-video-age-assurance-data-minimization-checklist.js"
+    "src/data/guides/vr-adult-managed-headset-policy-and-account-separation.js",
+    "src/data/guides/adult-games-age-check-data-review-before-browsing.js",
+    "src/data/guides/adult-shop-age-check-data-transparency-review.js",
+    "src/data/guides/live-cam-platform-operator-and-access-verification.js",
+    "src/data/guides/adult-dating-account-login-security-and-recovery-review.js"
   ],
   "categories": [
-    "creator-platforms",
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
     "live-cams",
-    "dating-hookups",
-    "hentai-anime",
-    "free-videos"
+    "dating-hookups"
   ],
   "backlogIds": [
-    "creator-platform-payout-statement-reconciliation-workflow",
-    "live-cam-platform-account-suspension-appeal-terms-audit",
-    "adult-dating-first-meeting-safety-planning-guide",
-    "adult-anime-game-purchase-model-cost-checklist",
-    "free-video-age-assurance-data-minimization-checklist"
+    "vr-adult-managed-headset-policy-and-account-separation",
+    "adult-games-age-check-data-review-before-browsing",
+    "adult-shop-age-check-data-transparency-review",
+    "live-cam-platform-operator-and-access-verification",
+    "adult-dating-account-login-security-and-recovery-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41249384691",
-  "phase": "closed"
+  "r1CycleId": "41254032304"
 }

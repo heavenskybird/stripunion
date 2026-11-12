@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-games-age-check-data-review-before-browsing",
+  "slug": "adult-games-age-check-data-review-before-browsing",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Age-Verification Data Requests Before Browsing or Buying",
+  "description": "Assess an adult game storefront’s age checks before creating an account or making a purchase. Review what information is requested, why, and how to find its privacy terms.",
+  "excerpt": "Age checks can differ between storefronts and may appear at account creation, browsing, download, or checkout. This guide helps you understand the request and decide whether to continue without guessing what a service collects.",
+  "keyTakeaways": [
+    "Separate an age declaration from a request for identity documents, biometric information, or payment details; they are different kinds of data requests.",
+    "Find the storefront’s explanation of why an age check is required, what data is collected, and whether another provider handles the check.",
+    "Check whether browsing, demos, account creation, downloads, and purchases have different age gates.",
+    "Do not upload sensitive documents through an unverified page or an unexpected link.",
+    "If the purpose, recipient, retention, or deletion process is unclear, pause and decide whether the storefront is worth the disclosure."
+  ],
+  "sections": [
+    {
+      "heading": "Map where an age check appears",
+      "paragraphs": [
+        "A storefront may ask about age at more than one point: when opening a page, creating an account, downloading a game, or completing a purchase. The question may be a simple declaration, or it may require additional evidence. These steps should not be treated as equivalent. A basic confirmation communicates less information than an identity document or a third-party verification process, and a payment-card prompt can disclose financial details without necessarily explaining the age-check process.",
+        "Map the exact point where the request occurs before sharing anything. Note whether you can view general store information without an account, whether game pages have separate gates, and whether a demo or download triggers a new prompt. This helps you distinguish a necessary purchase step from a request that appears earlier than expected. It also prevents the assumption that one check covers every part of the storefront or that browsing without a prompt means no age-related information is processed."
+      ],
+      "bullets": [
+        "Identify the action that triggers the check: viewing, account creation, download, or purchase.",
+        "Record the type of information requested, not just the fact that a gate appeared.",
+        "Stop if a request arrives through an unexpected message or external link."
+      ]
+    },
+    {
+      "heading": "Identify the data and the recipient",
+      "paragraphs": [
+        "Read the wording on the age-check screen and the storefront’s privacy notice. Look for the specific data requested, such as a date of birth, identity document, facial image, or payment detail. Then check who receives it: the storefront, a separate verification provider, or another party described in the notice. If a third party is involved, find the notice that explains its role and how it handles information. Do not assume a storefront never sees sensitive data simply because a vendor is mentioned.",
+        "Pay attention to whether the explanation is concrete. A useful notice identifies the purpose of the check and the categories of information involved. Vague language that only says “verification” may not answer what you need to know. If the page provides no clear route to a privacy notice or recipient information, you cannot make a well-informed disclosure decision. Consider leaving the process rather than entering data just to see what happens next."
+      ],
+      "bullets": [
+        "Who collects the data, and who else may receive it?",
+        "Does the notice name data categories and explain the reason for the check?",
+        "Can you review the terms before submitting information?"
+      ]
+    },
+    {
+      "heading": "Check storage, retention, and account linkage",
+      "paragraphs": [
+        "A central privacy question is whether the information is used only to make an age decision or is stored alongside an account. Look for statements about retention, deletion, and linkage to purchase or browsing records. The terms may distinguish raw evidence from a result or status, but do not assume that an image or document is immediately deleted unless the policy says so. If the storefront uses an outside provider, check whether the provider has a separate notice covering retention and deletion.",
+        "Also consider how the check relates to your game account. A verification result could be attached to an account, required again later, or associated with a transaction. The policy may not explain every operational detail; in that case, treat the uncertainty as unresolved. You do not need to determine technical implementation beyond what is disclosed. You do need enough information to decide whether the requested data is acceptable for the access you want."
+      ],
+      "bullets": [
+        "Look for retention periods, deletion procedures, and any account-linkage explanation.",
+        "Distinguish stored evidence from a verification result if the notice makes that distinction.",
+        "Do not rely on assumptions about how long a provider keeps data."
+      ]
+    },
+    {
+      "heading": "Verify the page and avoid risky workarounds",
+      "paragraphs": [
+        "Before submitting sensitive information, verify that you are on the storefront’s genuine website or app and that the age-check step belongs to the expected process. Check the address carefully, use a route you navigated to yourself, and be cautious of links sent in unsolicited messages. A logo or familiar design is not enough to establish that a page is legitimate. Do not send identity documents through ordinary chat, email, or a file-sharing link unless the storefront’s documented process clearly instructs you to do so and you have verified the destination.",
+        "Avoid attempts to evade age gates or provide false information. A workaround can expose data to an unknown party, violate the service’s terms, or lead to account problems. If a check fails, use the documented help route to understand the issue rather than repeatedly uploading documents or using unrelated credentials. If no trustworthy support process is available, stop."
+      ],
+      "bullets": [
+        "Navigate to the storefront directly instead of following an unsolicited verification link.",
+        "Use only a documented process on a verified site or app.",
+        "Do not falsify age details or use another person’s identity."
+      ]
+    },
+    {
+      "heading": "Decide whether the access is worth the disclosure",
+      "paragraphs": [
+        "A data request is a trade-off, not a routine step you must accept. Ask what you gain by proceeding: access to general listings, a demo, a download, or a paid game. Then compare that benefit with the sensitivity and amount of information requested, the clarity of the stated purpose, and the available retention and deletion information. If the storefront offers a lower-disclosure way to inspect its model or policies, use that before deciding whether to create an account.",
+        "Use a consistent threshold: continue only when you understand what is requested, why it is needed, who handles it, and what the stated data practices are. A storefront may provide a legitimate explanation for a check, but you can still decide that the disclosure is not worthwhile. Keep a note of the relevant terms and the date you reviewed them, especially if you later need to contact support about an account or verification issue."
+      ],
+      "table": {
+        "caption": "Age-check decision worksheet for an adult game storefront",
+        "headers": [
+          "Check",
+          "What to establish",
+          "Reason to pause"
+        ],
+        "rows": [
+          [
+            "Trigger",
+            "Which action makes the check appear?",
+            "The prompt is unexpected or unrelated to the action."
+          ],
+          [
+            "Data",
+            "What exact information is requested?",
+            "The request is broader than the screen explains."
+          ],
+          [
+            "Recipient",
+            "Which organization receives the information?",
+            "The recipient or verification provider is unclear."
+          ],
+          [
+            "Retention",
+            "What does the policy say about storage and deletion?",
+            "No useful retention or deletion information is available."
+          ],
+          [
+            "Access value",
+            "What access do you receive after completing the check?",
+            "The disclosure is substantial but the benefit is unclear."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an age declaration the same as identity verification?",
+      "answer": "No. A declaration asks you to state your age, while identity verification can request additional evidence such as a document or other personal information. Check the actual prompt and privacy terms rather than treating all age gates as the same."
+    },
+    {
+      "question": "Should I provide an identity document to a game storefront?",
+      "answer": "That is a personal decision. Before doing so, verify the site, identify the recipient, read the explanation of purpose, and review retention and deletion information. If those details are not clear or the request seems unexpected, do not submit the document."
+    },
+    {
+      "question": "Can I browse a storefront without completing its age check?",
+      "answer": "Access rules vary by storefront and by activity. A page may allow general information while gating account creation, downloads, or purchases, or it may restrict browsing earlier. Check the actual access flow and terms; do not bypass a gate."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
