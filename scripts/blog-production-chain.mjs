@@ -73,9 +73,10 @@ export function validateBlogReview({ artifact, review, inventory, now = Date.now
 }
 
 export async function publishReviewedBlog({ artifact, review, inventory, store, publisher, verifier,
-  inventoryCheckedAt, enabled = false, now = Date.now(), clock = () => Date.now() }) {
+  inventoryCheckedAt, authorizeReviewer, enabled = false, now = Date.now(), clock = () => Date.now() }) {
   // Check operator stop before provider configuration, journal API reads, or writes.
   if (enabled !== true) return { state: 'PAUSED_BY_OPERATOR', externalRequests: 0, published: false };
+  if (typeof authorizeReviewer !== 'function' || await authorizeReviewer(review) !== true) throw new Error('BLOG_TRUSTED_REVIEWER_REQUIRED');
   const checked = validateBlogReview({ artifact, review, inventory: [], now });
   const slug = checked.payload.slug;
   const expectedUrl = `https://blog.stripunion.com/${slug}/`;

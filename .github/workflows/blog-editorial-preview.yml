@@ -15,6 +15,10 @@ on:
         description: Provider draft JSON in the repository (outside live WordPress queue)
         required: false
         type: string
+      inventory_path:
+        description: Fresh complete precomputed read-only inventory snapshot for prepare
+        required: false
+        type: string
       artifact_path:
         description: Exact reviewed draft artifact wrapper JSON (publish mode)
         required: false
@@ -35,14 +39,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Prepare only; no publisher credentials are passed to a publishing step
+      - name: Prepare from snapshot without publisher credentials
         env:
           BRIEF_PATH: ${{ inputs.brief_path }}
           DRAFT_PATH: ${{ inputs.draft_path }}
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          INVENTORY_PATH: ${{ inputs.inventory_path }}
           BLOG_PUBLISH_ENABLED: 'false'
-        run: node scripts/blog-production-cli.mjs prepare --brief "$BRIEF_PATH" --draft "$DRAFT_PATH"
+        run: node scripts/blog-production-cli.mjs prepare --brief "$BRIEF_PATH" --draft "$DRAFT_PATH" --inventory "$INVENTORY_PATH"
       - uses: actions/upload-artifact@v4
         with:
           name: blog-draft-review-${{ github.run_id }}
@@ -70,6 +73,7 @@ jobs:
           ARTIFACT_PATH: ${{ inputs.artifact_path }}
           REVIEW_PATH: ${{ inputs.review_path }}
           BLOG_PUBLISH_ENABLED: ${{ vars.BLOG_PUBLISH_ENABLED || 'false' }}
+          BLOG_AUTHORIZED_REVIEWERS: ${{ vars.BLOG_AUTHORIZED_REVIEWERS || '' }}
           WP_SITE_URL: https://blog.stripunion.com
           WP_USERNAME: ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}

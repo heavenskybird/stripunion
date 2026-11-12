@@ -5,6 +5,16 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 const execute = promisify(execFile);
 
+export function authorizeBlogOperator(review, env = process.env) {
+  const actor = String(env.GITHUB_ACTOR || '').toLowerCase();
+  const allowed = String(env.BLOG_AUTHORIZED_REVIEWERS || '').split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+  if (env.GITHUB_ACTIONS !== 'true' || env.GITHUB_REPOSITORY !== 'heavenskybird/stripunion' ||
+      env.GITHUB_REF !== 'refs/heads/main' || env.GITHUB_EVENT_NAME !== 'workflow_dispatch' ||
+      env.GITHUB_RUN_ATTEMPT !== '1' || !actor || !allowed.includes(actor) ||
+      String(review?.reviewer || '').toLowerCase() !== actor) throw new Error('BLOG_TRUSTED_OPERATOR_AUTHORIZATION_REQUIRED');
+  return true;
+}
+
 // Explicitly provision this isolated branch/file before enabling real publishing.
 // Never auto-create a branch, erase a corrupt journal, or fall back to main.
 export function githubBlogJournal({ token, fetchImpl = fetch }) {

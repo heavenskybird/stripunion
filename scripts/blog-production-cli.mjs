@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { produceBlogDraft, publishReviewedBlog, proposeFromBlogGsc } from './blog-production-chain.mjs';
-import { githubBlogJournal, existingWordpressPublisher, wordpressLiveVerifier } from './blog-production-adapters.mjs';
+import { githubBlogJournal, existingWordpressPublisher, wordpressLiveVerifier, authorizeBlogOperator } from './blog-production-adapters.mjs';
 
 const load = async file => JSON.parse(await fs.readFile(file, 'utf8'));
 function option(name) { const i = process.argv.indexOf(name); return i >= 0 ? process.argv[i + 1] : null; }
@@ -46,7 +46,8 @@ async function main() {
   if (command === 'propose') {
     const snapshot = await load(sourcePath(option('--gsc')));
     const inventoryFile = option('--inventory');
-    const inventory = inventoryFile ? await load(sourcePath(inventoryFile)) : await currentBlogInventory();
+    if (!inventoryFile) throw new Error('BLOG_READ_ONLY_INVENTORY_SNAPSHOT_REQUIRED');
+    const inventory = await load(sourcePath(inventoryFile));
     if (inventory.complete !== true || !Array.isArray(inventory.rows) || Date.now() - Date.parse(inventory.checkedAt) > 3600000 ||
         !Number.isFinite(Date.parse(inventory.checkedAt)) || Date.parse(inventory.checkedAt) > Date.now()) throw new Error('BLOG_INVENTORY_NOT_FRESH');
     const proposals = proposeFromBlogGsc({ snapshot, inventory: inventory.rows });
@@ -60,7 +61,8 @@ async function main() {
     const brief = await load(sourcePath(option('--brief')));
     const draft = await load(sourcePath(option('--draft')));
     const inventoryFile = option('--inventory');
-    const snapshot = inventoryFile ? await load(sourcePath(inventoryFile)) : await currentBlogInventory();
+    if (!inventoryFile) throw new Error('BLOG_READ_ONLY_INVENTORY_SNAPSHOT_REQUIRED');
+    const snapshot = await load(sourcePath(inventoryFile));
     if (snapshot.complete !== true || !Array.isArray(snapshot.rows)) throw new Error('BLOG_INVENTORY_NOT_COMPLETE');
     const result = await produceBlogDraft({ brief, inventory: snapshot.rows, inventoryCheckedAt: snapshot.checkedAt,
       provider: { generateDraft: async () => draft } });
@@ -76,10 +78,11 @@ async function main() {
     }
     const source = await load(sourcePath(option('--artifact')));
     const review = await load(sourcePath(option('--review')));
+    authorizeBlogOperator(review);
     const snapshot = await currentBlogInventory();
     const result = await publishReviewedBlog({ artifact: source.artifact, review, inventory: snapshot.rows,
       inventoryCheckedAt: snapshot.checkedAt, enabled: true, store: githubBlogJournal({ token: process.env.GH_TOKEN }),
-      publisher: existingWordpressPublisher(), verifier: wordpressLiveVerifier() });
+      publisher: existingWordpressPublisher(), verifier: wordpressLiveVerifier(), authorizeReviewer: r => authorizeBlogOperator(r) });
     // Journal confirmation precedes the derived ledger mirror. A failed mirror
     // can be repaired from the same confirmed receipt without another provider call.
     if (result.published && result.receipt?.state === 'confirmed') {

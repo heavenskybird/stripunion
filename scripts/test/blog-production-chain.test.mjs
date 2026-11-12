@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { blogHash, produceBlogDraft, publishReviewedBlog, proposeFromBlogGsc } from '../blog-production-chain.mjs';
-import { githubBlogJournal, wordpressLiveVerifier, existingWordpressPublisher } from '../blog-production-adapters.mjs';
+import { githubBlogJournal, wordpressLiveVerifier, existingWordpressPublisher, authorizeBlogOperator } from '../blog-production-adapters.mjs';
 
 const now = Date.parse('2026-11-12T10:00:00Z');
 const checkedAt = new Date(now).toISOString();
@@ -34,7 +34,7 @@ function store() {
 }
 const verification = slug => ({ status: 200, url: `https://blog.stripunion.com/${slug}/`, canonical: `https://blog.stripunion.com/${slug}/`, indexable: true, sitemapContainsUrl: true });
 function args(bundle, journal, overrides = {}) {
-  return { ...bundle, store: journal, now, clock: () => now + 1000, enabled: true, inventory: [], inventoryCheckedAt: checkedAt,
+  return { ...bundle, store: journal, now, clock: () => now + 1000, enabled: true, inventory: [], inventoryCheckedAt: checkedAt, authorizeReviewer: async () => true,
     publisher: { publish: async payload => ({ id: 100, status: 'publish', slug: payload.slug, link: verification(payload.slug).url }) },
     verifier: { verify: async () => verification(bundle.artifact.payload.slug) }, ...overrides };
 }
@@ -113,4 +113,22 @@ test('actual live verifier requires exact sitemap URL and respects noindex heade
 });
 test('existing publisher adapter refuses false operator flag before subprocess or credentials', async () => {
   await assert.rejects(existingWordpressPublisher({ env: { BLOG_PUBLISH_ENABLED: 'false' } }).publish({}, { authorizationHash: blogHash({}) }), /OPERATOR_GATE/);
+});
+test('free-text approval cannot authorize publishing without trusted actor provenance', async () => {
+  const bundle = await artifact();
+  const input = args(bundle, { read: () => { throw new Error('journal must not be read'); } }, { authorizeReviewer: undefined });
+  await assert.rejects(publishReviewedBlog(input), /TRUSTED_REVIEWER/);
+  const env = { GITHUB_ACTIONS: 'true', GITHUB_REPOSITORY: 'heavenskybird/stripunion', GITHUB_REF: 'refs/heads/main',
+    GITHUB_EVENT_NAME: 'workflow_dispatch', GITHUB_RUN_ATTEMPT: '1', GITHUB_ACTOR: 'fixture-reviewer', BLOG_AUTHORIZED_REVIEWERS: 'fixture-reviewer' };
+  assert.equal(authorizeBlogOperator(bundle.review, env), true);
+  for (const change of [{ BLOG_AUTHORIZED_REVIEWERS: '' }, { GITHUB_ACTOR: 'untrusted' }, { GITHUB_REF: 'refs/heads/branch' }, { GITHUB_RUN_ATTEMPT: '2' }]) {
+    assert.throws(() => authorizeBlogOperator(bundle.review, { ...env, ...change }), /TRUSTED_OPERATOR/);
+  }
+});
+test('prepare workflow never receives publisher credentials', async () => {
+  const fs = await import('node:fs/promises');
+  const yaml = await fs.readFile('.github/workflows/blog-editorial-preview.yml', 'utf8');
+  const prepare = yaml.split('  reviewed-publish:')[0];
+  assert.ok(!prepare.includes('secrets.WP_'));
+  assert.ok(prepare.includes('--inventory'));
 });
