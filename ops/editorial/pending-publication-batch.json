@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T08:52:55.200Z",
+  "generatedAt": "2026-11-12T09:49:33.764Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-community-information-source-check.json",
-    "ops/editorial/content-artifacts/adult-shop-shared-device-browsing-privacy-check.json",
-    "ops/editorial/content-artifacts/adult-anime-streaming-playback-controls-evaluation.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-cross-device-stream-continuity-check.json",
-    "ops/editorial/content-artifacts/live-cam-off-platform-payment-request-safety-check.json"
+    "ops/editorial/content-artifacts/adult-platform-photo-library-sharing-preflight.json",
+    "ops/editorial/content-artifacts/creator-platform-content-review-downtime-plan.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-prompt-disclosure-planning.json",
+    "ops/editorial/content-artifacts/affiliate-qr-offline-referral-measurement-plan.json",
+    "ops/editorial/content-artifacts/adult-anime-app-selection-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-community-information-source-check.js",
-    "src/data/guides/adult-shop-shared-device-browsing-privacy-check.js",
-    "src/data/guides/adult-anime-streaming-playback-controls-evaluation.js",
-    "src/data/guides/vr-adult-platform-cross-device-stream-continuity-check.js",
-    "src/data/guides/live-cam-off-platform-payment-request-safety-check.js"
+    "src/data/guides/adult-platform-photo-library-sharing-preflight.js",
+    "src/data/guides/creator-platform-content-review-downtime-plan.js",
+    "src/data/guides/adult-dating-profile-prompt-disclosure-planning.js",
+    "src/data/guides/affiliate-qr-offline-referral-measurement-plan.js",
+    "src/data/guides/adult-anime-app-selection-preflight.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "vr-ar",
-    "live-cams"
+    "privacy-safety-payment",
+    "creator-platforms",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "premium-videos"
   ],
   "backlogIds": [
-    "adult-games-community-information-source-check",
-    "adult-shop-shared-device-browsing-privacy-check",
-    "adult-anime-streaming-playback-controls-evaluation",
-    "vr-adult-platform-cross-device-stream-continuity-check",
-    "live-cam-off-platform-payment-request-safety-check"
+    "adult-platform-photo-library-sharing-preflight",
+    "creator-platform-content-review-downtime-plan",
+    "adult-dating-profile-prompt-disclosure-planning",
+    "affiliate-qr-offline-referral-measurement-plan",
+    "adult-anime-app-selection-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43186274604",
-  "phase": "closed"
+  "r1CycleId": "43194534112"
 }

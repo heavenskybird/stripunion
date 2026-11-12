@@ -1,0 +1,100 @@
+{
+  "backlogId": "adult-platform-photo-library-sharing-preflight",
+  "slug": "adult-platform-photo-library-sharing-preflight",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Before Uploading to an Adult Platform: Check Shared Photo Library Exposure",
+  "description": "Use this checklist to review shared albums, photo-picker access, backups and account settings before selecting or uploading images to an adult platform.",
+  "excerpt": "An image can reveal more than its visible content. Check where it is stored, who can see the library, and what the platform receives before uploading.",
+  "keyTakeaways": [
+    "A photo picker may show images stored across more than one album or account; check the selected file and its source before uploading.",
+    "Shared albums and shared cloud accounts can expose images to other people even when your platform profile is private.",
+    "Grant the narrowest photo-library permission available, and review it again after uploading.",
+    "Keep an unedited original in a private location if you need it, but avoid unnecessary copies in shared folders, automatic backups or messaging threads.",
+    "Removing an image from a platform does not necessarily remove copies already saved elsewhere; account for platform, device and cloud storage separately."
+  ],
+  "sections": [
+    {
+      "heading": "Map the image’s path before you select it",
+      "paragraphs": [
+        "Before uploading a photo to an adult platform, trace its likely path: camera or download folder, photo library, cloud backup, shared album, editing app, platform upload and any messages or posts where you might reuse it. This is not a claim that every app accesses every location. It is a practical way to notice which copies and accounts are involved in your own setup.",
+        "Start by identifying the account currently used for device backups and photo syncing. If a device or photo library is shared with family, a partner, a work account or another person, do not assume that a private platform profile makes the original file private. A separate platform username does not change who can see a shared photo library."
+      ],
+      "bullets": [
+        "Check whether the image is in a shared album, shared folder or synced device account.",
+        "Confirm which account is active in the photo library and backup settings.",
+        "Distinguish the original image from edited, downloaded and messaging-app copies."
+      ]
+    },
+    {
+      "heading": "Review what the photo picker can show",
+      "paragraphs": [
+        "A phone or computer may offer a broad photo-picker view, a selected-album view or a permission that allows access to a larger library. The exact options differ by operating system and app version, so inspect the permission prompt and device settings rather than assuming the default is limited. If a limited-selection option is available, select only the specific file needed for the task.",
+        "Also inspect the picker before tapping an image. Nearby thumbnails, album names, dates or other visual details may appear on-screen while someone else is nearby. This is a device-screen privacy issue, not proof that the platform receives every visible thumbnail. The selected file is the item to verify before confirming an upload."
+      ],
+      "bullets": [
+        "Prefer selecting specific images over granting broad library access when that option is available.",
+        "Check the filename or thumbnail again on the platform’s confirmation screen.",
+        "Revisit app permissions after the task; remove access that is no longer needed."
+      ]
+    },
+    {
+      "heading": "Separate private copies from shared storage",
+      "paragraphs": [
+        "If you want to keep a working copy, choose a storage location you control and understand. A shared device account or automatically synced folder may make a copy visible to others. Review shared-album membership, cloud-sharing settings and backup destinations before moving an image there. If you cannot tell who has access, avoid placing sensitive material in that location.",
+        "Avoid creating extra copies without a reason. Edits, exports, downloads and attachments can leave separate files that are easy to overlook. A private folder is only useful if the account, device lock and sync settings around it are also private. If you use a third-party editing app, consider what access it has and whether it creates a new copy in a default folder."
+      ],
+      "bullets": [
+        "Check the destination folder before saving an edited export.",
+        "Review who can access any shared album or cloud folder involved.",
+        "Remove accidental duplicates from shared locations, then check whether they remain in a recently deleted area or backup."
+      ]
+    },
+    {
+      "heading": "Treat image details and platform access as separate questions",
+      "paragraphs": [
+        "A photo may contain visible clues such as a distinctive room, personal objects, workplace identifiers or reflections. Separately, some image files can contain embedded details, depending on how they were created, edited and transferred. Neither should be treated as automatically present or automatically removed. Review the image itself and the platform’s upload or privacy information; where practical, use a copy with unnecessary identifying details removed.",
+        "Then review the platform’s own handling information. Look for settings or policy language about public visibility, profile access, content removal, backups and retention. A platform’s removal control addresses its service; it does not erase a copy already downloaded, saved to a device or stored in another account. Avoid promising yourself that a single setting will eliminate every copy."
+      ],
+      "bullets": [
+        "Inspect the image for identifying background details before uploading.",
+        "Check any available visibility and removal controls for the specific post or file.",
+        "Keep a note of where copies were placed so you can review them later."
+      ]
+    },
+    {
+      "heading": "Use a short pre-upload and post-upload routine",
+      "paragraphs": [
+        "A repeatable routine reduces mistakes when uploading from a personal device. Before selection, check the active photo account, shared-library status and app permissions. Before confirmation, inspect the selected file and the platform’s audience or visibility setting. Afterward, verify that the image appears where intended and that no unwanted copy was saved to a shared folder or messaging app.",
+        "If you decide to remove the upload, use the platform’s available removal process and separately review local copies, shared albums and backups. Preserve only the records you genuinely need. If you are using a device or account managed by someone else, or cannot determine who can access the library, the safer decision may be not to use that device or account for the upload."
+      ],
+      "bullets": [
+        "Before: check account, library sharing, app permission and image details.",
+        "During: confirm the selected file and intended audience.",
+        "After: review platform visibility and any local or synced copies."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does granting photo access mean the platform can see every image in my library?",
+      "answer": "Not necessarily. The scope depends on the device, operating system, permission selected and app behavior. Read the permission prompt and check device settings. If a limited-selection option is available, it can reduce what you authorize, but do not assume that every device offers the same controls."
+    },
+    {
+      "question": "If I delete an uploaded image, are all copies gone?",
+      "answer": "You cannot assume that. Deletion from a platform, a device, a shared album and a backup are separate actions. Review each place where a copy may exist, and consult the platform’s retention information for what happens to material removed from its service."
+    },
+    {
+      "question": "Should I turn off cloud backups before uploading?",
+      "answer": "There is no universal answer: backups can be useful for recovery, but a shared account or destination may expose files to other people. Check which account receives backups, who can access it and whether you can manage selected folders. Choose settings based on the access you actually want."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
