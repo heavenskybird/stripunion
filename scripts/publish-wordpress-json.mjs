@@ -58,6 +58,10 @@ async function wp(pathname, options = {}, { allowFailure = false } = {}) {
       break;
     }
 
+    if (!['GET', 'HEAD'].includes(originalMethod.toUpperCase())) {
+      throw new Error('WORDPRESS_WRITE_REDIRECT_AMBIGUOUS_NO_REPOST');
+    }
+
     const location = response.headers.get('location');
     if (!location) {
       break;
