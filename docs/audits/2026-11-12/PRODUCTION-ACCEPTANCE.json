@@ -1,0 +1,195 @@
+{
+  "production": {
+    "runId": "43150236889",
+    "source": {
+      "mainSha": "208eb5804b15610903ee2da00ad609f1f9927bda",
+      "mergeSha": "9883f05bc11fb65a7c6e12f00000eeb79c9b67cb",
+      "mergeTime": "2026-11-12T03:04:37Z",
+      "contains170": true
+    },
+    "gates": {
+      "GA4_TAG_VERIFIED": true,
+      "ROBOTS_SITEMAP_VERIFIED": true,
+      "PREVIOUS_FIVE_VERIFIED": true,
+      "PRODUCTION_BUILD_VERIFIED": true,
+      "WORKER_VERIFIED": true,
+      "SCHEDULER_DISABLED": true,
+      "SOCIAL_SEND_DISABLED": true,
+      "PRODUCTION_DEPLOYMENT_VERIFIED": true
+    },
+    "productionBuild": {
+      "id": "01a1cdd9-010e-703f-8e49-db66e746dc53",
+      "state": "completed",
+      "createdAt": "2026-11-12T03:41:53Z",
+      "sha": null
+    },
+    "mainHtml": {
+      "host": "stripunion.com",
+      "path": "/",
+      "status": 200,
+      "error": null,
+      "finalHost": "stripunion.com",
+      "ga4MeasurementIds": [
+        "G-K57BRX69X1"
+      ],
+      "gtagScriptPresent": true,
+      "clarityPresent": true,
+      "htmlSha256": "5e9090401748c84b38b1517303e31ef7645f2b8b11a6c9476146517ba701b5b4",
+      "consentDefaultDenied": true,
+      "canonical": "https://stripunion.com/"
+    },
+    "staging": {
+      "origin": "https://staging.stripunion.com",
+      "status": 200,
+      "noindex": true,
+      "usedForProductionAcceptance": false
+    }
+  },
+  "rearm": {
+    "checkedAt": "2026-11-12T03:45:27.648Z",
+    "runId": "43150236889",
+    "mainSha": "208eb5804b15610903ee2da00ad609f1f9927bda",
+    "productionBuild": {
+      "id": "01a1cdd9-010e-703f-8e49-db66e746dc53",
+      "state": "completed",
+      "createdAt": "2026-11-12T03:41:53Z",
+      "sha": null
+    },
+    "writersDrained": true,
+    "writerAudit": [
+      {
+        "id": 37655528917,
+        "name": "Visual QA",
+        "status": "queued",
+        "jobCount": 0,
+        "staleZeroJob": true,
+        "readOnly": true
+      },
+      {
+        "id": 37655513979,
+        "name": "Control plane authority promotion",
+        "status": "queued",
+        "jobCount": 0,
+        "staleZeroJob": true,
+        "readOnly": false
+      }
+    ],
+    "receiptBeforeSha": "8f204ec0fe1477f9c3627b75d3d692506e47d4e4",
+    "receiptAfterSha": "d94193e68382bf31ad19ca1be4f3ab6701f3cd24",
+    "receiptRearmed": true,
+    "schedulerEnabled": true,
+    "cycleId": "41254032304",
+    "preservedHistoryHash": "89b0207b6bad372a15e1ebda20a2cc6f95fdb9b6cbcce2fc929e8cd5fed39407",
+    "limits": {
+      "requestsPerGeneration": 3,
+      "outputTokensPerRequest": 20000,
+      "extraAdmittedAttempts": 2,
+      "remainingCredit": "NOT_EXPOSED_TO_PROJECT_KEY",
+      "dollarEstimate": "UNAVAILABLE_WITHOUT_VERIFIED_MODEL_PRICING",
+      "note": "Each five-guide batch is bounded; no paid retry of historical runs. Responses API usage will be recorded."
+    },
+    "receiptCommitSha": "f54331787020cf22ebbae1bc9b1ca18f07f4f319"
+  },
+  "previousFive": {
+    "guides": [
+      {
+        "url": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow",
+        "finalUrl": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/creator-platform-payout-statement-reconciliation-workflow/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit",
+        "finalUrl": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/live-cam-platform-account-suspension-appeal-terms-audit/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide",
+        "finalUrl": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/adult-dating-first-meeting-safety-planning-guide/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist",
+        "finalUrl": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/adult-anime-game-purchase-model-cost-checklist/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist",
+        "finalUrl": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/free-video-age-assurance-data-minimization-checklist/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      }
+    ],
+    "deployment": {
+      "ok": true,
+      "status": 200,
+      "classification": "deployment-matched"
+    }
+  },
+  "worker": {
+    "flag": "true",
+    "mergeTriggersDeployment": true,
+    "script": "stripunion-live-models",
+    "credentialsPresent": true,
+    "deploymentsHttp": 200,
+    "rollbackBaseline": {
+      "deploymentId": "a155a945-f3ea-4a45-8340-0a26808d2b54",
+      "createdOn": "2026-11-12T03:05:06.154569Z",
+      "versions": [
+        {
+          "versionId": "80c34a62-6d81-43fc-81fe-1d2b3462fc33",
+          "percentage": 100
+        }
+      ]
+    }
+  },
+  "rollback": {
+    "hostingerBuildId": "01a1c998-5885-7345-836f-7f9179b7b10d",
+    "workerVersion": "b3effa9a-721c-4d0b-b641-2416e9fc55e8",
+    "procedure": "Pause scheduler and drain actual jobs; preserve runtime/content/ledger history; use completed Hostinger build or versioned Worker rollback without weakening operator/consent/CAS controls."
+  },
+  "observation": {
+    "runId": 43150426975,
+    "status": "IN_PROGRESS",
+    "firstFivePublished": false,
+    "threeCyclesAccepted": false
+  }
+}
