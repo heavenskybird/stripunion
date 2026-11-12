@@ -1,0 +1,37 @@
+name: Recovery schedule evidence
+on:
+  push:
+    branches: [codex/recovery-r1-rearm-20261112]
+    paths: [.github/workflows/recovery-schedule-evidence.yml]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read workflow states and latest genuine scheduled events, no wake or dispatch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node --input-type=module <<'NODE'
+          const base = 'https://api.github.com/repos/heavenskybird/stripunion/';
+          async function get(path) {
+            const r = await fetch(base + path, { headers: { authorization: `Bearer ${process.env.GH_TOKEN}` }, signal: AbortSignal.timeout(15000) });
+            if (!r.ok) throw new Error(`Schedule evidence HTTP${r.status}`);
+            return r.json();
+          }
+          const files = ['editorial-producer-scheduler.yml', 'social-outbox.yml', 'editorial-production-snapshot.yml', 'visual-qa.yml', 'editorial-heartbeat-bridge.yml'];
+          const workflows = [];
+          for (const file of files) {
+            const w = await get('actions/workflows/' + file);
+            const r = await get('actions/workflows/' + file + '/runs?event=schedule&per_page=1');
+            const last = r.workflow_runs[0];
+            workflows.push({ path: file, state: w.state, latestScheduledRun: last ? { id: last.id, status: last.status, conclusion: last.conclusion, createdAt: last.created_at } : null });
+          }
+          console.log('SCHEDULE_EVIDENCE ' + JSON.stringify({ checkedAt: new Date().toISOString(), workflows }));
+          NODE
