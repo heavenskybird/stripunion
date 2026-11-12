@@ -18,6 +18,7 @@ jobs:
           node-version: 22
       - run: npm install && npm --prefix ops/seo-data-layer install
       - name: Official aligned GSC windows (read only)
+        continue-on-error: true
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: node scripts/collect-search-growth.mjs
