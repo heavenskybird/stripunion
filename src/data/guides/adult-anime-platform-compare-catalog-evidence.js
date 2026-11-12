@@ -1,0 +1,149 @@
+export default {
+  "slug": "adult-anime-platform-compare-catalog-evidence",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Compare Catalog Evidence Before Choosing a Library",
+  "description": "Use a repeatable method to compare adult anime streaming, manga, or game catalogs by title evidence, edition details, and visible gaps.",
+  "excerpt": "A catalog-comparison workflow for readers and viewers who want to judge what a platform actually documents—not just what its headline library claims imply.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "A large catalog claim does not establish that the titles or editions you want are available to you.",
+    "Compare a small, relevant sample of titles using the same evidence fields across each platform.",
+    "Distinguish a title’s presence from edition, language, completeness, and access details.",
+    "Record missing information as unknown rather than assuming that a listing represents the full work or current availability.",
+    "Recheck evidence before making a commitment because catalogs and access terms can change."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with your own shortlist, not a headline count",
+      "paragraphs": [
+        "Platform comparisons become more useful when they start with the kinds of titles and formats you actually want to find. Build a small shortlist that reflects your interests in streaming, manga, or games, and include a few examples with different characteristics: a known title, a series, and a format you might use less often. This is a decision aid, not a popularity survey or a substitute for checking each platform directly.",
+        "Headline library totals rarely answer the practical question: whether the relevant title is listed in the edition, language, or access form you need. A service may organize content differently from another, and a number on a promotional page may not explain how titles are counted. Compare specific evidence before relying on broad totals."
+      ],
+      "bullets": [
+        "Create a shortlist of titles or series that matter to you.",
+        "Separate streaming, manga, and game interests instead of treating them as one catalog.",
+        "Use the same sample across every platform you compare.",
+        "Treat broad counts as context, not proof of title-level availability."
+      ]
+    },
+    {
+      "heading": "Use consistent evidence fields for every title",
+      "paragraphs": [
+        "For each shortlist item, record what the listing actually identifies: title, alternate title if relevant, format, edition or release information, language details, series or volume context, and the page that supports the claim. If you cannot verify a field, mark it unknown. This prevents a neat-looking comparison from hiding gaps behind guesses.",
+        "A simple evidence table is often more informative than a score. Include the date you checked and whether the detail came from a title page, catalog search, help page, or another official platform source. Keep observations factual: “a listing was visible” is different from “the complete series is available,” and neither statement guarantees that access will remain unchanged."
+      ],
+      "table": {
+        "caption": "A repeatable title-level catalog comparison",
+        "headers": [
+          "Field",
+          "What to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Title identity",
+            "Displayed title and any clearly linked alternate title",
+            "Reduces confusion between similarly named works or editions."
+          ],
+          [
+            "Format",
+            "Streaming, manga, or game listing",
+            "Shows whether the platform serves the format you want."
+          ],
+          [
+            "Edition and language",
+            "Visible edition, subtitle, dub, or translation details",
+            "Separates basic title presence from a usable version."
+          ],
+          [
+            "Series context",
+            "Season, chapter, volume, or release information shown",
+            "Helps identify obvious gaps without assuming completeness."
+          ],
+          [
+            "Access details",
+            "Visible account, preview, or purchase requirement",
+            "Clarifies what the listing establishes about access."
+          ],
+          [
+            "Evidence date and source",
+            "Date checked and page or document consulted",
+            "Makes the comparison auditable and easier to revisit."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish title presence from a usable edition",
+      "paragraphs": [
+        "Finding a title in search is only the first step. Check whether the result points to the format you want and whether its edition information is specific enough for your decision. A title may have multiple versions, translations, or release groupings; a catalog result that omits these details should not be treated as proof that the version you want is included.",
+        "For series, look for the platform’s own structure: linked seasons, volumes, chapters, or related entries. Do not infer that an entire series is present because one entry appears. If the listing does not explain whether a sequence is complete, record that uncertainty and use a focused completeness check before relying on the catalog."
+      ],
+      "bullets": [
+        "Confirm that the result is the intended format and edition.",
+        "Check visible language and release details rather than inferring them from a title alone.",
+        "For a series, inspect the linked sequence and note missing or unclear parts.",
+        "Keep “listed” and “complete” as separate judgments."
+      ]
+    },
+    {
+      "heading": "Check whether search and navigation expose useful evidence",
+      "paragraphs": [
+        "Catalog organization affects how confidently you can compare platforms. Try the same kinds of searches on each service: a title search, a series or creator search where available, and navigation through relevant format or category pages. Note whether filters and page labels help you narrow results, or whether you have to guess which listing corresponds to the intended edition.",
+        "Do not confuse easy discovery with catalog breadth. A platform may have clear navigation but a limited relevant selection, while a broad catalog may be hard to inspect. Your comparison should keep those dimensions distinct. Record whether a result was easy to locate and whether the listing contained enough information to judge it; these are separate observations."
+      ],
+      "bullets": [
+        "Use the same search approach on each platform.",
+        "Record both discovery effort and title-level information quality.",
+        "Note when a filter or category label is unclear.",
+        "Do not equate a convenient interface with a complete catalog."
+      ]
+    },
+    {
+      "heading": "Interpret gaps, duplicates, and uncertainty carefully",
+      "paragraphs": [
+        "An absent search result is evidence about what you could locate, not definitive proof that a platform never carries a title. Search aliases, catalog structure, regional availability, or account gates may affect what appears. If a title matters, use the platform’s available official help or title information to resolve the gap before deciding. Avoid repeatedly expanding searches with unverified spellings until the comparison becomes impossible to reproduce.",
+        "Duplicates also need care. Two entries with similar names may represent different editions, formats, or parts of a series; they are not necessarily duplicate listings. Compare the visible metadata and keep both entries distinct until the platform provides a reason to merge them. If evidence remains ambiguous, mark the item unresolved instead of awarding a platform an unsupported advantage."
+      ],
+      "bullets": [
+        "Record a failed search as “not located,” not automatically “unavailable.”",
+        "Check official information if an important result is unclear or gated.",
+        "Treat similar entries as separate until their edition or format is established.",
+        "Keep unresolved items visible in your comparison."
+      ]
+    },
+    {
+      "heading": "Turn the evidence into a decision that can be updated",
+      "paragraphs": [
+        "A useful shortlist weighs the parts that matter to you: relevant title coverage, confidence in edition details, format, access requirements, and how much uncertainty remains. You do not need a universal score or a single winner. One platform may better document a format while another makes a particular series easier to inspect. The right choice depends on your use case and the evidence you could verify.",
+        "Keep the comparison dated and revisit it before committing or relying on a particular title. Catalogs, terms, and presentation can change. Save the method and fields, not just the conclusion, so you can repeat the check consistently. If a platform does not provide enough information to answer a key question, treat transparency itself as a decision factor rather than filling the gap with assumptions."
+      ],
+      "bullets": [
+        "Prioritize the title and format details that matter to you.",
+        "Keep catalog breadth, navigation, and metadata quality as separate factors.",
+        "Date the comparison and recheck important entries before relying on them.",
+        "Use unknowns as decision evidence; do not turn them into assumed positives."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform’s catalog count tell me whether a specific title is available?",
+      "answer": "No. A headline count does not establish title-level availability, edition, language, or access details. Check the specific listing and record what it actually confirms."
+    },
+    {
+      "question": "If search does not find a title, should I assume it is unavailable?",
+      "answer": "Not immediately. The listing may use another title, appear under a different format, or require a different search path. Record that you could not locate it and consult official information if the title is important to your choice."
+    },
+    {
+      "question": "How many titles should I compare?",
+      "answer": "There is no required number. Use a small sample that represents your real interests and apply the same checks to each platform. A focused, repeatable comparison is more useful than an arbitrary count."
+    },
+    {
+      "question": "Should I rank platforms by catalog breadth alone?",
+      "answer": "Usually not. Title relevance, edition detail, format, access requirements, and the clarity of catalog information may matter just as much. Keep those factors separate and choose according to your needs."
+    }
+  ]
+};

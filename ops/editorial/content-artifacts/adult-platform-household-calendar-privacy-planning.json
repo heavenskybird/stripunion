@@ -1,0 +1,133 @@
+{
+  "backlogId": "adult-platform-household-calendar-privacy-planning",
+  "slug": "adult-platform-household-calendar-privacy-planning",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Privacy: Check Shared Calendar and Reminder Exposure Before Scheduling",
+  "description": "Before adding adult-platform renewals or reminders to a shared calendar, check account access, event visibility, sync destinations, and notification previews.",
+  "excerpt": "A private reminder can become visible through a shared calendar, connected account, or lock-screen alert. Use this checklist to keep useful dates without exposing more detail than necessary.",
+  "keyTakeaways": [
+    "Check who can view or edit a calendar before adding a sensitive reminder.",
+    "Review calendar sharing, connected accounts, device sync, and lock-screen notification previews as separate exposure paths.",
+    "Use neutral event wording and minimal detail when a reminder does not need to identify a platform or service.",
+    "Keep renewal records useful without copying sensitive account or payment information into calendar notes.",
+    "Recheck settings after changing devices, accounts, or household sharing arrangements."
+  ],
+  "sections": [
+    {
+      "heading": "Identify where a calendar entry can travel",
+      "paragraphs": [
+        "A calendar event may be visible in more places than the device where it was created. It could sync to another signed-in device, appear in a shared calendar, be visible to someone with account access, or trigger a notification on a screen others can see. The exact routes depend on your calendar service, account settings, devices, and household arrangements. Do not assume that a calendar is private simply because the device is personal.",
+        "Before creating a reminder connected to an adult platform, identify the calendar account that will store it and the devices that sync with that account. Check whether another person has viewing or editing access, whether the calendar is shared with a group, and whether a family or work account is involved. If you cannot confidently identify the audience, choose a different reminder method or reduce the detail in the event."
+      ],
+      "bullets": [
+        "Check the calendar account shown when creating an event.",
+        "Review shared calendars and account-level sharing permissions.",
+        "Identify phones, computers, watches, or other devices that receive synced events.",
+        "Do not use a workplace or institution-managed calendar for personal reminders."
+      ]
+    },
+    {
+      "heading": "Use the minimum detail needed for the reminder",
+      "paragraphs": [
+        "A calendar reminder usually needs a date and an action, not a full description of the service, account, or payment method. Consider whether neutral wording would still help you act. Avoid putting login credentials, complete payment details, account recovery information, or sensitive correspondence in event titles or notes. Event details can be exposed to people who can view the calendar and may also appear in notification previews or connected services.",
+        "Neutral wording does not make a shared calendar private. It is a data-minimization step that reduces what an accidental glance might reveal. If the date itself is sensitive, or if even a generic reminder would create an unwanted disclosure, a calendar event may not be the right tool. Choose an alternative whose storage and access controls you understand, and ensure it does not automatically sync to a shared destination."
+      ],
+      "table": {
+        "caption": "Review each exposure path independently before adding a reminder.",
+        "headers": [
+          "Exposure path",
+          "What to check",
+          "Possible privacy-conscious adjustment"
+        ],
+        "rows": [
+          [
+            "Shared calendar",
+            "Who can view, edit, or invite others?",
+            "Use a calendar with access you control, if appropriate."
+          ],
+          [
+            "Account sync",
+            "Which signed-in devices receive events?",
+            "Remove unneeded devices or review account access."
+          ],
+          [
+            "Notifications",
+            "Can event titles appear on a lock screen or wearable?",
+            "Reduce preview detail or change notification display settings."
+          ],
+          [
+            "Event notes",
+            "Does the entry include account or payment details?",
+            "Keep only the date and action necessary."
+          ],
+          [
+            "Connected services",
+            "Can an assistant or another app read calendar data?",
+            "Review permissions and linked-account settings."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review notifications and screen visibility",
+      "paragraphs": [
+        "Calendar notifications can appear on lock screens, watches, vehicle displays, desktop pop-ups, or other connected screens. Check the relevant notification settings on each device you use. Some systems allow you to hide previews while retaining an alert; others may offer per-app or per-account controls. Confirm the actual setting rather than assuming that a general device privacy option covers every calendar account or screen.",
+        "Think about timing as well as wording. An alert that appears while another person is using a shared device or looking at a nearby screen may reveal the event even when the calendar itself is not open. If you share a device, review profiles and sign-in state, and avoid leaving the calendar open. Notification controls reduce accidental visibility but do not prevent an authorized calendar user from opening the event."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Choose a reminder method that fits the sensitivity",
+      "paragraphs": [
+        "For some people, a generic personal reminder is sufficient. Others may prefer a private task list, a reminder stored only on a device they control, or a renewal-tracking method that does not sync to household accounts. Compare the actual storage, backup, sharing, and notification behavior of the alternative; a different app is not automatically more private. A paper note may avoid cloud syncing but can be seen or misplaced. The right option depends on who can access the device and where its records are stored.",
+        "Keep a separate record of cancellation or renewal actions when you need one, but avoid duplicating unnecessary details across calendars, email, and notes. If you retain confirmation messages, consider where those messages are synchronized and who can access the inbox. The aim is to preserve enough information to manage the account while minimizing copies that could surface through shared access."
+      ],
+      "bullets": [
+        "Choose a reminder channel based on who can access its account and devices.",
+        "Check whether an alternative app syncs or shares entries by default.",
+        "Keep confirmation records only where they are useful and access is understood.",
+        "Avoid storing passwords, full card details, or recovery codes in a reminder."
+      ]
+    },
+    {
+      "heading": "Recheck after household or device changes",
+      "paragraphs": [
+        "Calendar privacy can change when a device is replaced, a new account is added, family sharing is enabled, or a watch or voice assistant is connected. Review the event’s calendar and notification route after a major change. If you no longer need the reminder, delete it from the calendar and check whether the service keeps deleted events in a trash or archive area. Also consider whether synced copies remain on other devices.",
+        "If another person may already have seen an event, deleting it cannot undo that disclosure. Focus on limiting future access: review sharing permissions, remove accounts or devices you no longer control, and change notification previews where appropriate. Keep the response proportionate. This is a practical privacy check, not a guarantee that every copy or prior notification can be recovered or erased."
+      ],
+      "bullets": [
+        "Review sharing after adding or removing household members or devices.",
+        "Check that an event was created on the intended calendar.",
+        "Remove obsolete reminders and review any trash or archive feature.",
+        "If access changed unexpectedly, secure the calendar account and connected devices."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a calendar reminder private if I use a neutral title?",
+      "answer": "Not necessarily. Neutral wording can reduce what a passerby learns, but shared users may still see the event and linked devices may display it. Check sharing, sync, and notification settings as well."
+    },
+    {
+      "question": "Can I safely add a renewal date to a family calendar?",
+      "answer": "Only if you are comfortable with the people who can access that calendar seeing the event. Review who can view and edit it, and consider whether a private reminder method is more appropriate."
+    },
+    {
+      "question": "Do lock-screen notification settings hide calendar events everywhere?",
+      "answer": "Not always. Settings may differ across a phone, watch, computer, or connected display. Review the devices and accounts that receive the event and test the preview behavior where practical."
+    },
+    {
+      "question": "Should I put cancellation confirmation details in a calendar note?",
+      "answer": "Usually, a reminder needs only the date and action. Keep confirmation details in an appropriate records location with access controls you understand, and avoid adding credentials or full payment information to calendar notes."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

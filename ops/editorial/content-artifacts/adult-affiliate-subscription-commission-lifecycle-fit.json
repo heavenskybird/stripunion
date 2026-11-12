@@ -1,0 +1,137 @@
+{
+  "backlogId": "adult-affiliate-subscription-commission-lifecycle-fit",
+  "slug": "adult-affiliate-subscription-commission-lifecycle-fit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map Recurring Commissions Across a Customer’s Subscription Lifecycle",
+  "description": "Assess recurring affiliate commission terms by mapping what happens at signup, renewal, cancellation, reactivation, and account changes before forecasting earnings.",
+  "excerpt": "A recurring commission label does not explain which customer events qualify or how long credit can continue. Map the lifecycle and its exclusions before building a forecast or selecting an offer.",
+  "keyTakeaways": [
+    "Separate the event that creates an initial commission from later events that may or may not qualify.",
+    "Check how renewals, cancellations, refunds, reactivations, and plan changes are treated in the written terms.",
+    "Do not assume recurring credit continues indefinitely just because a program describes commissions as recurring.",
+    "Build forecasts from documented qualification rules and clearly labeled assumptions, not from a headline commission description.",
+    "Keep a record of the applicable terms and ask the program to clarify ambiguous lifecycle cases in writing."
+  ],
+  "sections": [
+    {
+      "heading": "Translate a recurring commission claim into events",
+      "paragraphs": [
+        "A description such as recurring commission is not a complete payout rule. It does not, by itself, tell a webmaster which customer action qualifies, whether later billing events count, or when credit stops. Begin by translating the claim into a lifecycle: visitor clicks, customer signs up, initial payment is processed, a renewal occurs, the plan changes, a payment fails, the customer cancels, and possibly the account later reactivates. The program’s terms may handle each event differently.",
+        "Keep attribution and commission qualification distinct. Attribution determines which referral is credited under the tracking rules. Qualification determines whether an attributed action becomes payable under the program’s commission rules. A renewal may be associated with an earlier referral but still be subject to exclusions or timing conditions. Conversely, a program may describe recurring commissions but require a particular initial conversion or customer status. Do not infer the answer to one question from the other."
+      ],
+      "bullets": [
+        "Write down each customer event that could affect commission eligibility.",
+        "Mark which events are described in the program terms and which are not.",
+        "Keep tracking credit separate from the rule that makes a commission payable."
+      ]
+    },
+    {
+      "heading": "Build a lifecycle map before forecasting",
+      "paragraphs": [
+        "A simple event map makes missing details visible. For each stage, record the stated qualification rule, the source document, and any unresolved question. The map is not a prediction that every customer will follow the same path; it is a way to avoid treating a single signup as evidence of a continuing revenue stream. Include failure and reversal cases, not only the successful path described in promotional material.",
+        "Use the map to make conservative planning scenarios. Do not insert assumed renewal behavior, commission rates, or payment timing that the program has not verified. If you use hypothetical examples for internal planning, label them as assumptions rather than program facts. The goal is to see how sensitive your business plan is to unanswered terms, not to manufacture an earnings estimate."
+      ],
+      "table": {
+        "caption": "Lifecycle questions to resolve from current program documentation.",
+        "headers": [
+          "Lifecycle event",
+          "Question to answer",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Initial signup",
+            "Which action qualifies and what must be true of the customer?",
+            "Definition of the qualifying conversion."
+          ],
+          [
+            "First renewal",
+            "Does a renewal create a new commission or continue an earlier one?",
+            "Renewal rule and any relevant time condition."
+          ],
+          [
+            "Failed or reversed payment",
+            "How are failed payments, refunds, or reversals handled?",
+            "Exclusions and adjustment language."
+          ],
+          [
+            "Cancellation",
+            "Does cancellation stop future credit, and when?",
+            "End-of-credit rule."
+          ],
+          [
+            "Reactivation",
+            "Can a returning customer qualify again, and under what conditions?",
+            "Reactivation and duplicate-customer rules."
+          ],
+          [
+            "Plan change",
+            "How are upgrades, downgrades, or billing changes treated?",
+            "Plan-change qualification rule."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read for limits on duration and customer eligibility",
+      "paragraphs": [
+        "Terms should clarify whether recurring credit applies for a defined period, while a specified customer remains eligible, or under another condition. Do not assume that a commission repeats for the lifetime of an account unless the governing terms state that clearly. Look for language about attribution expiry, customer status, renewals, cancellations, account closure, and other events that may end or alter eligibility. Check whether an existing customer, a returning customer, or an account with a previous subscription is treated differently from a new customer.",
+        "Definitions matter. A conversion could refer to a completed signup, an accepted payment, or another event. A renewal could be counted by billing cycle, transaction date, or account status. If the language uses terms that are not defined, note the ambiguity and request clarification. A support response may help interpret a rule, but preserve the written terms that apply and ask how the response relates to them."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Make the forecast show uncertainty instead of hiding it",
+      "paragraphs": [
+        "A usable forecast separates verified rules from assumptions. For example, you can note that initial conversion eligibility is described while reactivation treatment is unknown. You can then prepare a scenario that excludes reactivations rather than treating them as certain income. Do not fill gaps with an industry norm or another program’s terms; program rules differ, and there is no universal recurring-commission lifecycle.",
+        "Include operational effects in the model. If reports show initial conversions but do not clearly identify later renewals, you may be unable to reconcile the expected lifecycle. Check what reporting fields are available and whether statuses distinguish pending, approved, reversed, or paid events. This article does not estimate earnings; it helps identify whether the program’s information is detailed enough to support your own planning."
+      ],
+      "bullets": [
+        "Label every forecast input as documented, observed, or assumed.",
+        "Create a conservative case for unanswered renewal or reactivation rules.",
+        "Check whether reporting can distinguish lifecycle events and commission status.",
+        "Avoid presenting a conditional model as a guaranteed or expected payout."
+      ]
+    },
+    {
+      "heading": "Document the terms and revisit them when they change",
+      "paragraphs": [
+        "Before publishing links or depending on recurring income, retain the current program agreement, commission schedule, and relevant help pages. Record the date and the version or source where available. If terms conflict, ask which document controls and whether the clarification applies to your account and traffic. Do not rely on an old promotional page if the current agreement states a different rule.",
+        "Recheck the lifecycle map when the program announces changes, your account status changes, or reports begin showing unfamiliar adjustments. A small, versioned record of questions, answers, and evidence makes it easier to update forecasts without confusing historical assumptions with current rules. This is especially important when a business has several offers with different definitions of renewals and returning customers."
+      ],
+      "bullets": [
+        "Keep the agreement and commission schedule that applied when you started.",
+        "Record written answers to questions about ambiguous events.",
+        "Review the map when terms, reporting, or account conditions change.",
+        "Treat unclear duration or qualification rules as a program-fit risk."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does recurring commission mean credit continues for as long as a customer subscribes?",
+      "answer": "Not necessarily. The term alone does not establish duration, customer eligibility, or exclusions. Check the current agreement for the event rules and any condition that ends commission eligibility."
+    },
+    {
+      "question": "Are renewals automatically the same as new conversions?",
+      "answer": "No. A renewal can be treated differently from an initial signup, and the program may report or qualify it under separate rules. Verify both the terms and the available reporting fields."
+    },
+    {
+      "question": "What should I do if the dashboard and agreement describe renewals differently?",
+      "answer": "Save the relevant documents and ask the program which rule applies to your account and the specific event. Keep the written response and do not assume a dashboard label replaces the governing terms."
+    },
+    {
+      "question": "Can I forecast recurring affiliate income without renewal data?",
+      "answer": "You can model hypothetical scenarios, but label them clearly as assumptions and avoid presenting them as expected or guaranteed income. If renewal qualification is central to your plan, treat missing data or rules as a material uncertainty."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
