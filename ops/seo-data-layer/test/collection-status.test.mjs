@@ -16,6 +16,12 @@ test('partial source failure preserves other current sources and never accepts o
     }
     const now = Date.parse('2026-11-11T01:05:00Z');
     assert.equal((await collectionStatus(root, env, now)).status, 'healthy');
+    env.SEARCH_GROWTH_OUTCOME = 'failure';
+    const searchPartial = await collectionStatus(root, env, now);
+    assert.equal(searchPartial.status, 'degraded');
+    assert.equal(searchPartial.sources['search-growth'].status, 'failed');
+    assert.equal(searchPartial.sources.gsc.status, 'ok');
+    delete env.SEARCH_GROWTH_OUTCOME;
     env.BUFFER_OUTCOME = 'failure';
     const partial = await collectionStatus(root, env, now);
     assert.equal(partial.status, 'degraded');
