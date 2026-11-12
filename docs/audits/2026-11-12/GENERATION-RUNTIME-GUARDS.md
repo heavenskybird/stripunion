@@ -33,3 +33,19 @@ writer/CAS acceptance and24h/72h reliability evidence. Integrating into the live
 Producer is a separate controlled change. Rollback keeps the journal and unknown
 reservations, disables the optional adapter, and removes only its future callsite;
 never refund ambiguous spend or reset R1 history. This Draft is not deployed.
+
+Six-cycle accounting refresh: observed8 requests /2 generation retries /
+241,930 input +88,980 output =330,910 tokens. Sixth request evidence is job
+131198904335, not a reconstructed invoice. Public logs contain usage for both
+calls but not the rejected intermediate artifacts or validation errors; the
+sixth retry's exact cause is UNKNOWN, so do not label it a proven duplicate.
+The adapter regression now rejects duplicate generated identities, retains the
+charged token totals, and blocks the same journaled request from being charged
+again. This does not remove a first invalid-output cost or enable live guards.
+
+Before a production callsite proposal, require an actual-provider model-specific
+official price and scoped operator credit/usage evidence; validate tokenizer
+upper bounds against observed input, provision the isolated journal once, run
+CAS/unknown-result rehearsals without paid calls, then independently review the
+exact callsite. No failure path may fall back to unreserved paid generation.
+Do not roll this mandatory guard into the current R1 stability observation.

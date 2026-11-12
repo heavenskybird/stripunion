@@ -169,3 +169,15 @@ test('offline executable preflight defaults to pause without reading input files
   assert.equal((await reviewedPreflightCommand([],async()=>{reads++;throw new Error();})).state,'PAUSED_BY_DEFAULT');
   assert.equal(reads,0);
 });
+
+test('duplicate generated identities retain charged tokens and cannot repeat the same request', async () => {
+  const f=fixtureStore();let calls=0;
+  const provider=async()=>{calls++;return response([candidate,{...candidate}]);};
+  const input={...request(f.store),expectedCount:2,provider};
+  await assert.rejects(guardedEditorialGeneration(input),/ISOLATED_BATCH_REQUIRED_USAGE_RETAINED/);
+  assert.equal(f.state.entries[0].status,'completed');
+  assert.equal(f.state.entries[0].actualInputTokens,20_000);
+  assert.equal(f.state.entries[0].actualOutputTokens,10_000);
+  await assert.rejects(guardedEditorialGeneration(input),/ALREADY_JOURNALED/);
+  assert.equal(calls,1);
+});
