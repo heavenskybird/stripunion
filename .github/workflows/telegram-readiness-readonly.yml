@@ -1,0 +1,26 @@
+name: Telegram read-only channel acceptance
+on:
+  push:
+    branches: [codex/recovery-c-channel-runtime]
+    paths: [scripts/telegram-readiness-readonly.mjs, .github/workflows/telegram-readiness-readonly.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read bot/channel rights; never send
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+        run: node scripts/telegram-readiness-readonly.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: telegram-readiness-${{ github.run_id }}
+          path: artifacts/telegram-readiness
