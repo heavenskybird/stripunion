@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "models": {
+    "gpt-6-luna": {
+      "verified": false,
+      "sourceUrl": "https://openai.com/api/pricing/",
+      "verifiedAt": null,
+      "expiresAt": null,
+      "inputUsdPerMillion": null,
+      "outputUsdPerMillion": null,
+      "status": "UNKNOWN",
+      "reason": "No verified model-specific pricing evidence available in this audit. A URL alone is not price verification."
+    }
+  }
+}
