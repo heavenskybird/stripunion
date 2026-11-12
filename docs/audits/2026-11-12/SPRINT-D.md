@@ -49,6 +49,11 @@ Verified usage from existing production evidence:
 | --- | ---: | ---: | ---: | ---: | ---: |
 | 43151510253 | 2 | 60,740 | 22,733 | 83,473 | 1 |
 | 43172741943 | 1 | 29,933 | 12,785 | 42,718 | 0 |
+| 43186274604 | 1 | 30,660 | 10,928 | 41,588 | 0 |
+
+These three runs total 121,333 input + 46,446 output = 167,779 Tokens,
+four completed requests and one generation retry. The third run's values were
+read directly from job `131074097702`, not inferred from its green conclusion.
 
 Sources are the `EDITORIAL_PROVIDER_USAGE` lines in the respective GitHub Actions
 logs and publication-verification artifacts. These are recorded tokens, not
