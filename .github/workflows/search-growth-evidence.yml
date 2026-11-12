@@ -42,7 +42,7 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Local five-hub responsive regression
         env:
-          VISUAL_TARGETS_JSON: '["/stripchat-alternatives/","/stripchat-app/","/livejasmin/","/chaturbate-alternatives/","/xhamster/"]'
+          VISUAL_TARGETS_JSON: '["/stripchat-alternatives","/stripchat-app","/livejasmin","/chaturbate-alternatives","/xhamster"]'
         run: |
           npx astro preview --host 127.0.0.1 --port 4321 > /tmp/search-preview.log 2>&1 &
           for attempt in {1..30}; do curl -fsS http://127.0.0.1:4321/ >/dev/null && break; sleep 1; done
