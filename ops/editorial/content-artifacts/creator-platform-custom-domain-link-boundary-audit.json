@@ -1,0 +1,136 @@
+{
+  "backlogId": "creator-platform-custom-domain-link-boundary-audit",
+  "slug": "creator-platform-custom-domain-link-boundary-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Audit Custom Domains and Branded Links Before You Use Them",
+  "description": "Evaluate custom domains, profile links, redirects, and account separation before using a creator platform’s links in public promotions.",
+  "excerpt": "A branded link can simplify audience navigation, but it also creates questions about control, identity exposure, redirects, portability, and account security.",
+  "keyTakeaways": [
+    "Confirm who controls a custom domain, link, or redirect and what happens if the platform account closes.",
+    "Check whether a public link reveals a legal name, account email, or other information you intend to keep private.",
+    "Test the complete destination path, including redirects and logged-out views, before sharing a link widely.",
+    "Keep domain registration, renewal records, and recovery access organized separately from public-facing branding.",
+    "Do not assume that a platform-hosted link or custom domain is portable simply because it can be shared."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what problem a branded link should solve",
+      "paragraphs": [
+        "A creator may consider a custom domain or branded link to make navigation simpler, keep promotional destinations consistent, or separate public-facing identity from administrative accounts. Those goals are not identical. A link that is memorable may reveal more about a creator’s identity, while a redirect that is convenient may make the destination less obvious to a fan. Define the purpose before changing a profile or campaign.",
+        "Write down which audience-facing names and destinations are intended to be public, and which account, billing, or registration details should remain private. This gives you a practical standard for evaluating links. Do not assume that a platform feature has a particular privacy or portability behavior until you have checked its current terms and settings."
+      ],
+      "bullets": [
+        "What should a fan recognize from the link?",
+        "Which legal, billing, or recovery details must remain private?",
+        "Who needs access to edit or renew the link?",
+        "What should happen if the platform or account becomes unavailable?"
+      ]
+    },
+    {
+      "heading": "Map control and ownership before publishing",
+      "paragraphs": [
+        "A link can involve more than one controller: the creator, a domain registrar, a website host, a link-management service, and the creator platform itself. Record which party controls each part and where renewal, recovery, and support responsibilities sit. If the service hosts the public profile or redirect, check whether you can change the destination, export settings, or retain the link after leaving.",
+        "Review the applicable terms instead of treating a display label as proof of ownership. Distinguish ownership of a domain from permission to use a platform-generated profile URL. Check renewal dates, account recovery routes, and what occurs if a payment, account, or service relationship ends. If the terms do not answer a critical question, note the uncertainty before making the link part of printed or long-lived promotion."
+      ],
+      "table": {
+        "caption": "Map each link component to the person or service that controls it",
+        "headers": [
+          "Component",
+          "Control question",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "Custom domain",
+            "Who registers and renews it?",
+            "Registrar account, renewal date, and recovery method"
+          ],
+          [
+            "Redirect or link page",
+            "Who can edit the destination and view its settings?",
+            "Terms, access list, and a record of the intended destination"
+          ],
+          [
+            "Creator profile URL",
+            "Can it be changed, exported, or retained after account exit?",
+            "Platform documentation and current profile settings"
+          ],
+          [
+            "Public branding",
+            "Does the link reveal an identity or account detail?",
+            "Logged-out preview and privacy review"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check identity separation from both directions",
+      "paragraphs": [
+        "Identity separation is not just about hiding a legal name from a public page. A custom domain may be registered through an account that uses identifying information, while a public profile may display a name or contact route that points back to a personal identity. Review both the administrative side and the audience-facing side. Use the platform’s settings and the registrar’s privacy information to understand what is collected, displayed, or shared.",
+        "Open the link while logged out and inspect every visible page, page title, contact option, and redirect destination. Check whether the public view exposes an email address, social profile, or other account you did not intend to connect. Avoid putting confidential information in domain registration fields or public page copy unless you have decided that disclosure is acceptable under the relevant terms and applicable requirements."
+      ]
+    },
+    {
+      "heading": "Test the whole audience journey before promotion",
+      "paragraphs": [
+        "A link’s first page is only one part of the experience. Follow the complete route from the place where a fan sees the link to the final destination. Note unexpected redirects, confusing page names, broken routes, sign-in prompts, and any step that makes the destination unclear. Test on a phone and a desktop browser if those are part of your audience’s likely use, and check that the link does not depend on your own logged-in session.",
+        "Use a controlled review rather than sending a new link everywhere at once. Share it with a trusted reviewer if appropriate, then verify that the displayed identity and destination match your intent. Keep a copy of the destination URL and the date of the check. This makes it easier to identify whether a later problem came from a platform change, a domain setting, or an outdated promotional asset."
+      ],
+      "bullets": [
+        "Open the link in a logged-out browser session.",
+        "Follow each redirect and compare the final destination with your intended one.",
+        "Check mobile layout, page title, and visible account names.",
+        "Confirm that the link works without your administrative login.",
+        "Save the current destination and review date for future checks."
+      ]
+    },
+    {
+      "heading": "Plan for changes, access loss, and exit",
+      "paragraphs": [
+        "Public links can become operational dependencies. A printed card, saved message, or existing profile may continue to circulate after you change platforms. Before using a link widely, plan how you would update its destination, communicate a change, and preserve access to the domain or redirect. Do not assume that fans will automatically receive notice when a profile or destination changes.",
+        "Protect the accounts that control the link with strong, distinct credentials and recovery details you can access. Limit editing permissions to people who need them and review access when collaborators leave. Keep a private inventory of active links, ownership, renewal dates, recovery methods, and connected destinations. That record supports continuity without requiring you to publish administrative details."
+      ]
+    },
+    {
+      "heading": "Use a go-or-revise checklist",
+      "paragraphs": [
+        "A branded link is ready to use when you can explain who controls it, what information it reveals, where it leads, and how you would change it. If any of those answers is missing, keep the link in a limited test phase rather than using it across every public channel. A short delay is preferable to discovering that an old or identifying destination has become difficult to replace.",
+        "Revisit the link when the platform changes its terms, you change your public identity, an administrator or collaborator loses access, or you plan to leave the service. The review is about operational clarity, not a guarantee that a link will remain available or that a platform will preserve every setting. Keep claims to fans accurate and avoid describing a destination as permanent unless you control that outcome."
+      ],
+      "bullets": [
+        "Control and renewal responsibility are clear.",
+        "The public destination does not expose unintended identity details.",
+        "Redirect behavior has been checked while logged out and on mobile.",
+        "Recovery and exit steps are documented privately.",
+        "Promotional materials can be updated if the destination changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a custom domain guarantee that my legal identity is private?",
+      "answer": "No. Privacy depends on registration arrangements, public page content, connected accounts, platform settings, and applicable terms. Review both the domain’s administrative records and the logged-out public destination."
+    },
+    {
+      "question": "Is a platform-generated profile link the same as owning a domain?",
+      "answer": "Not necessarily. A profile URL may be controlled under platform terms rather than registered by you. Check the service’s documentation for change, export, and account-exit rules."
+    },
+    {
+      "question": "Should I put a new link on all promotional materials immediately?",
+      "answer": "First test the full route, logged-out view, and mobile presentation. Keep the first rollout limited enough that you can correct a confusing or unintended destination before it is widely reused."
+    },
+    {
+      "question": "What records should I keep privately?",
+      "answer": "Keep the control account, renewal date, recovery route, destination, relevant terms, and review date. Store those operational details securely rather than placing them in public-facing copy."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
