@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T08:28:57.456Z",
+  "generatedAt": "2026-11-12T14:09:55.262Z",
   "sources": {
     "gsc": "2026-11-10",
     "gscBlog": "2026-11-10",
@@ -31,7 +31,7 @@
   },
   "queryHygiene": {
     "droppedSyntheticPromptQueries": 20,
-    "droppedIrrelevantKeywordExpansion": 138,
+    "droppedIrrelevantKeywordExpansion": 142,
     "canonicalClusteringEnabled": true,
     "purpose": "Prevent malformed, off-topic, over-broad and synthetic prompt-like rows from crowding the ranked growth queue."
   },
@@ -61,13 +61,12 @@
     ],
     "rows": [
       {
-        "query": "xhamster'",
+        "query": "xhamster",
         "seeds": [
-          "xhamster review",
           "xhamster site overview",
           "xhamster reviews"
         ],
-        "impressions": 3619262,
+        "impressions": 3617121,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -79,10 +78,9 @@
       {
         "query": "xhampster",
         "seeds": [
-          "xhamster review",
           "xhamster site overview"
         ],
-        "impressions": 549444,
+        "impressions": 274722,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -92,28 +90,13 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamster.com",
-        "seeds": [
-          "xhamster site overview",
-          "xhamster reviews"
-        ],
-        "impressions": 529426,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "hamster porn",
+        "query": "xhamster .com",
         "seeds": [
           "xhamster review",
           "xhamster site overview",
           "xhamster reviews"
         ],
-        "impressions": 297534,
+        "impressions": 267445,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -137,6 +120,21 @@
         "recommendedUse": "refresh_existing:/chaturbate-alternatives"
       },
       {
+        "query": "hamster porn",
+        "seeds": [
+          "xhamster review",
+          "xhamster site overview"
+        ],
+        "impressions": 198356,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
         "query": "amateur porn",
         "seeds": [
           "xhamster site overview"
@@ -153,8 +151,8 @@
       {
         "query": "xhamster porn",
         "seeds": [
-          "xhamster site overview",
-          "xhamster reviews"
+          "xhamster review",
+          "xhamster site overview"
         ],
         "impressions": 78298,
         "source": "Bing Webmaster Keyword Research",
@@ -168,7 +166,7 @@
       {
         "query": "xhamster live",
         "seeds": [
-          "xhamster reviews"
+          "xhamster review"
         ],
         "impressions": 39536,
         "source": "Bing Webmaster Keyword Research",
@@ -180,43 +178,15 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "hamster xxx",
+        "query": "xxx hamster",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 27292,
+        "impressions": 23606,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamster gay",
-        "seeds": [
-          "xhamster review"
-        ],
-        "impressions": 26438,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamsters",
-        "seeds": [
-          "xhamster reviews"
-        ],
-        "impressions": 25644,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "specific_seed_overlap"
         ],
         "topicState": "review",
         "existingPage": "/xhamster",
@@ -237,15 +207,30 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "xhamsters videos",
+        "query": "xxxhamster",
         "seeds": [
-          "xhamster site overview",
+          "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 20984,
+        "impressions": 21894,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "specific_seed_overlap"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamter",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 14850,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
         ],
         "topicState": "review",
         "existingPage": "/xhamster",
@@ -266,12 +251,11 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamster xxx",
+        "query": "hamster xxx",
         "seeds": [
-          "xhamster site overview",
           "xhamster reviews"
         ],
-        "impressions": 12864,
+        "impressions": 13646,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -281,25 +265,27 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "chaturbate men",
+        "query": "xhamster videos",
         "seeds": [
-          "chaturbate alternatives"
+          "xhamster review",
+          "xhamster reviews"
         ],
-        "impressions": 12601,
+        "impressions": 13216,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
         ],
         "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xxx hamster",
+        "query": "xhamster xxx",
         "seeds": [
-          "xhamster review"
+          "xhamster site overview",
+          "xhamster reviews"
         ],
-        "impressions": 11803,
+        "impressions": 12864,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -323,14 +309,14 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "www.xhamster.com",
+        "query": "xhamsters videos",
         "seeds": [
-          "xhamster review"
+          "xhamster site overview"
         ],
-        "impressions": 10534,
+        "impressions": 10492,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
-          "adult_domain_signal"
+          "specific_seed_overlap"
         ],
         "topicState": "review",
         "existingPage": "/xhamster",
@@ -365,11 +351,12 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "xhamter",
+        "query": "xhamster sex",
         "seeds": [
+          "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 7425,
+        "impressions": 5794,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -379,11 +366,12 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "xhamster videos",
+        "query": "xhamster history",
         "seeds": [
-          "xhamster review"
+          "xhamster review",
+          "xhamster reviews"
         ],
-        "impressions": 6608,
+        "impressions": 5628,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -391,20 +379,6 @@
         "topicState": "review",
         "existingPage": "/xhamster",
         "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "chaturbate male",
-        "seeds": [
-          "chaturbate alternatives"
-        ],
-        "impressions": 6367,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/chaturbate",
-        "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
         "query": "free amateur porn",
@@ -421,11 +395,11 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "chaturbate female",
+        "query": "chaturbate'",
         "seeds": [
           "chaturbate alternatives"
         ],
-        "impressions": 5147,
+        "impressions": 4107,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -435,11 +409,40 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
+        "query": "xxx xhamster",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 4006,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
         "query": "chaturbate couples",
         "seeds": [
           "chaturbate alternatives"
         ],
         "impressions": 3838,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
+        "query": "chaturbate exhibitionist",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 3758,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -464,6 +467,20 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
+        "query": "chaturbate gay",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 3683,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
+      },
+      {
         "query": "chaturbate webcam",
         "seeds": [
           "chaturbate alternatives"
@@ -476,21 +493,6 @@
         "topicState": "review",
         "existingPage": "/chaturbate",
         "recommendedUse": "refresh_existing:/chaturbate"
-      },
-      {
-        "query": "xhamster2",
-        "seeds": [
-          "xhamster review",
-          "xhamster reviews"
-        ],
-        "impressions": 3626,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "specific_seed_overlap"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
       },
       {
         "query": "nude amateur",
@@ -521,12 +523,12 @@
         "recommendedUse": "refresh_existing:/xhamster"
       },
       {
-        "query": "at xhamster",
+        "query": "xhamster categories",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 3264,
+        "impressions": 3102,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -550,40 +552,12 @@
         "recommendedUse": "new_content_candidate"
       },
       {
-        "query": "xhamster mature",
+        "query": "gay porn xhamster",
         "seeds": [
           "xhamster review",
           "xhamster reviews"
         ],
-        "impressions": 3048,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamster sex",
-        "seeds": [
-          "xhamster reviews"
-        ],
-        "impressions": 2897,
-        "source": "Bing Webmaster Keyword Research",
-        "relevanceReasons": [
-          "adult_domain_signal"
-        ],
-        "topicState": "review",
-        "existingPage": "/xhamster",
-        "recommendedUse": "refresh_existing:/xhamster"
-      },
-      {
-        "query": "xhamster history",
-        "seeds": [
-          "xhamster reviews"
-        ],
-        "impressions": 2814,
+        "impressions": 2720,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -607,11 +581,12 @@
         "recommendedUse": "refresh_existing:/chaturbate"
       },
       {
-        "query": "xhamster free",
+        "query": "xhamster lesbian",
         "seeds": [
-          "xhamster review"
+          "xhamster review",
+          "xhamster reviews"
         ],
-        "impressions": 2698,
+        "impressions": 2578,
         "source": "Bing Webmaster Keyword Research",
         "relevanceReasons": [
           "adult_domain_signal"
@@ -623,7 +598,7 @@
       {
         "query": "site xhamster.com xhamster",
         "seeds": [
-          "xhamster reviews"
+          "xhamster review"
         ],
         "impressions": 2481,
         "source": "Bing Webmaster Keyword Research",
@@ -633,6 +608,35 @@
         "topicState": "review",
         "existingPage": "/xhamster",
         "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "xhamster downloader",
+        "seeds": [
+          "xhamster review",
+          "xhamster reviews"
+        ],
+        "impressions": 2342,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/xhamster",
+        "recommendedUse": "refresh_existing:/xhamster"
+      },
+      {
+        "query": "chaturbate trans",
+        "seeds": [
+          "chaturbate alternatives"
+        ],
+        "impressions": 2181,
+        "source": "Bing Webmaster Keyword Research",
+        "relevanceReasons": [
+          "adult_domain_signal"
+        ],
+        "topicState": "review",
+        "existingPage": "/chaturbate",
+        "recommendedUse": "refresh_existing:/chaturbate"
       }
     ]
   },
@@ -2857,10 +2861,10 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "complete guide to hamster com x",
+          "query": "xhamster#N##N#review",
           "impressions": 1,
           "clicks": 0,
-          "position": 10
+          "position": 7
         },
         {
           "source": "Bing",
@@ -2873,10 +2877,10 @@
         {
           "source": "Bing",
           "date": "/Date(1784851200000)/",
-          "query": "xhamster#N##N#review",
+          "query": "complete guide to hamster com x",
           "impressions": 1,
           "clicks": 0,
-          "position": 7
+          "position": 10
         },
         {
           "source": "Bing",
@@ -2993,7 +2997,7 @@
         {
           "source": "Bing",
           "date": "/Date(1788480000000)/",
-          "query": "xhasters reviews",
+          "query": "xhamster  review",
           "impressions": 1,
           "clicks": 0,
           "position": 9
@@ -3001,7 +3005,7 @@
         {
           "source": "Bing",
           "date": "/Date(1788480000000)/",
-          "query": "xhamster  review",
+          "query": "xhasters reviews",
           "impressions": 1,
           "clicks": 0,
           "position": 9
