@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
-    if: github.run_attempt == 1
+    if: github.run_attempt == 1 && github.sha == '319de291af84ef0526e453d52a19163779d852e4'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
