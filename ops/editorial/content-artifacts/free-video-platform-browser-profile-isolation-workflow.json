@@ -1,0 +1,116 @@
+{
+  "backlogId": "free-video-platform-browser-profile-isolation-workflow",
+  "slug": "free-video-platform-browser-profile-isolation-workflow",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites: Use a Separate Browser Profile to Reduce Accidental Account Mixing",
+  "description": "Learn how separate browser profiles can reduce accidental mixing of adult browsing with personal accounts, saved passwords, and shared-device activity.",
+  "excerpt": "A separate browser profile is a practical way to keep browsing contexts from blending together. It is not a promise of anonymity, but it can make account, history, and tab boundaries easier to manage.",
+  "keyTakeaways": [
+    "A separate browser profile can separate some local history, cookies, and sign-ins from your everyday profile, depending on the browser.",
+    "A separate profile does not hide activity from a website, network operator, device administrator, or other parties covered by the browser’s policies.",
+    "Do not rely on private browsing or profile separation to remove platform-side account records.",
+    "Avoid syncing the separate profile to a shared account if that would expose bookmarks, history, or saved passwords.",
+    "Use a consistent start-and-finish routine to avoid leaving tabs or sessions open."
+  ],
+  "sections": [
+    {
+      "heading": "What a separate browser profile is—and is not",
+      "paragraphs": [
+        "A browser profile is a distinct browsing workspace. Depending on the browser, it can keep cookies, saved logins, bookmarks, extensions, and history apart from another profile on the same device. That makes it useful when you want to avoid mixing an adult-video account with personal email, shopping, or shared household browsing. The exact separation varies by browser, so inspect the settings rather than assuming every profile behaves the same way.",
+        "A profile is not a universal privacy shield. A video platform may still associate activity with an account you use there. A network or device administrator may have visibility governed by their systems and policies. Syncing can also move data to a cloud account. Treat a separate profile as a way to organize local browsing boundaries—not as a guarantee that nobody can observe or retain activity."
+      ],
+      "bullets": [
+        "Use the browser’s own documentation to confirm what profiles separate.",
+        "Check whether bookmarks, passwords, and history sync to an account.",
+        "Do not use a profile as a reason to bypass workplace, school, or household rules.",
+        "Keep expectations realistic: local separation is not the same as anonymity."
+      ]
+    },
+    {
+      "heading": "Set up the profile without importing personal data",
+      "paragraphs": [
+        "Create the separate profile through the browser’s standard controls. Avoid importing your everyday browsing history, saved passwords, or personal bookmarks if your purpose is separation. Consider whether to sign in to a browser sync account at all; if syncing is useful, review which categories of data it will synchronize and whether that account is shared. A profile name that is neutral and not visible to other users may also reduce accidental disclosure on a shared device.",
+        "Install only extensions you trust and need. Extensions can have access to browsing information depending on their permissions, and adding them without review can undermine the boundary you are trying to create. Do not accept a permission prompt simply to make a video play. If an extension or download is requested unexpectedly, close the prompt and use the platform’s ordinary website controls instead."
+      ],
+      "table": {
+        "caption": "A profile setup checklist",
+        "headers": [
+          "Setting",
+          "Practical check"
+        ],
+        "rows": [
+          [
+            "Import",
+            "Leave personal history, passwords, and bookmarks out unless there is a clear reason."
+          ],
+          [
+            "Sync",
+            "Review which data categories will sync and whether the account is shared."
+          ],
+          [
+            "Passwords",
+            "Do not save credentials on a device used by other people."
+          ],
+          [
+            "Extensions",
+            "Review publisher and permissions; avoid unnecessary additions."
+          ],
+          [
+            "Profile label",
+            "Choose a neutral name if other people can see the profile chooser."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep account and search activity boundaries clear",
+      "paragraphs": [
+        "Browser-profile separation does not prevent a video platform from associating activity with an account that is signed in. If you use a personal email address, social sign-in, or an existing account, the platform’s own account and privacy controls remain relevant. Consider what information you provide, whether the account is shared, and how the service describes history retention. A separate profile can reduce accidental cross-sign-in, but it cannot change a platform’s data practices.",
+        "Search queries can remain in browser history or in the signed-in platform account, depending on the settings and service. Before searching, confirm which profile and platform account are active. Afterward, use the platform’s available history controls where appropriate and understand that account-side deletion options may not act instantly or erase every related record. Avoid saving sensitive searches as bookmarks or pasting them into a shared notes application."
+      ]
+    },
+    {
+      "heading": "Use a repeatable routine on shared devices",
+      "paragraphs": [
+        "On a shared computer, the profile chooser itself may reveal that another profile exists, and an open browser window may be visible to the next person. Before starting, confirm that you are using a device and profile you are permitted to use. Avoid leaving the browser open when stepping away. Set a reminder to sign out of the video platform and close the relevant windows when finished, particularly if the device automatically restores previous sessions.",
+        "When you finish, do not delete the entire browser profile unless it is yours and you know what else it contains. A shared profile may store other people’s passwords, bookmarks, or work. Close your own tabs, sign out of your own account, and use only cleanup tools that apply to your own data. If separation cannot be maintained without disturbing someone else’s information, do not use that shared device for the activity."
+      ],
+      "bullets": [
+        "Confirm the profile icon and active account before browsing.",
+        "Do not leave a logged-in tab open for the next device user.",
+        "Sign out of your account and close your own windows when finished.",
+        "Do not remove or reset data belonging to other users."
+      ]
+    },
+    {
+      "heading": "Know when profile separation is not enough",
+      "paragraphs": [
+        "A separate profile is a poor fit if the device is managed, the browser is locked down, profiles are synchronized to a shared account, or the owner can inspect browsing activity. It is also not a solution for a situation where another person has access to your platform credentials. In those cases, choose a device and account you control, or do not sign in. Privacy tools cannot override authorization, device policy, or another person’s ownership.",
+        "Review the platform’s account controls separately from the browser. Check available sign-out, history, and data-deletion options, and read the relevant notice to understand what the service says it retains. Keep a note of the controls you actually used rather than assuming a browser setting performed a platform action. This small distinction helps prevent false confidence and makes your routine more reliable."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate browser profile make adult video browsing anonymous?",
+      "answer": "No. It may separate some browser data from another profile, but it does not guarantee anonymity or prevent a platform, network, or device administrator from processing activity under its applicable policies."
+    },
+    {
+      "question": "Is a browser profile the same as private browsing?",
+      "answer": "No. They are different browser features and can handle local data differently. Check the browser’s explanation of each feature. Neither should be treated as a guarantee that websites or account providers do not retain records."
+    },
+    {
+      "question": "Should I sync a separate profile?",
+      "answer": "Only after reviewing what will sync and which account controls that sync. If the account is shared or syncing would copy history, passwords, or bookmarks to another device, leave sync off or choose a device you control."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
