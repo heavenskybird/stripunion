@@ -160,3 +160,44 @@ test('reconcile failure remains held, unproven post ID and unbounded read settin
   const snap=await journal.read();snap.state.entries[0].providerReceiptVerified=false;await journal.write(snap.state,snap.sha);
   await assert.rejects(reconcileReviewedBlog(args(bundle,journal)),/NOT_PROVEN/);
 });
+
+test('lost CAS acknowledgement after one POST never permits a second POST', async () => {
+  for (const persisted of [false, true]) {
+    const bundle = await artifact(), durable = store(); let writes = 0, posts = 0;
+    const journal = { read: durable.read, write: async (state, sha) => {
+      writes++;
+      if (writes === 2) {
+        if (persisted) await durable.write(state, sha);
+        throw new Error('ambiguous network acknowledgement');
+      }
+      return durable.write(state, sha);
+    } };
+    const input = args(bundle, journal, { publisher: { publish: async p => {
+      posts++; return { id: 79, status: 'publish', slug:p.slug, link:verification(p.slug).url };
+    } } });
+    await assert.rejects(publishReviewedBlog(input), /UNCERTAIN/);
+    await assert.rejects(publishReviewedBlog(input), /HOLD/);
+    assert.equal(posts, 1);
+    const held = (await durable.read()).state.entries[0];
+    assert.ok(['verifying','reconcile_required'].includes(held.state));
+    assert.equal(held.postId,79);
+    assert.equal((await reconcileReviewedBlog(args(bundle,durable))).state,'CONFIRMED');
+    assert.equal(posts,1);
+  }
+});
+
+test('two publishers racing a single snapshot produce only one external POST', async () => {
+  const bundle = await artifact(), durable = store(); let arrivals=0, release;
+  const barrier = new Promise(resolve => { release=resolve; });
+  const journal = { read: async () => {
+    const snap = await durable.read(); arrivals++; if(arrivals===2) release(); await barrier; return snap;
+  }, write:durable.write };
+  let posts=0;
+  const input = args(bundle,journal,{publisher:{publish:async p=>{
+    posts++;return{id:80,status:'publish',slug:p.slug,link:verification(p.slug).url};
+  }}});
+  const results=await Promise.allSettled([publishReviewedBlog(input),publishReviewedBlog(input)]);
+  assert.equal(results.filter(r=>r.status==='fulfilled').length,1);
+  assert.equal(posts,1);
+  assert.equal((await durable.read()).state.entries[0].state,'confirmed');
+});

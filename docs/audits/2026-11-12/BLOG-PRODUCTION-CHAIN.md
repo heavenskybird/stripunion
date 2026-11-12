@@ -55,3 +55,42 @@ Rollback first disables BLOG_PUBLISH_ENABLED, drains the Blog writer and preserv
 all journal/unknown evidence. Revert only the reviewed chain callsite through a
 scoped PR; do not delete posts, replay old payloads, or turn ambiguous writes into
 success. No merge/deploy or runtime branch provisioning performed in this task.
+
+## Controlled acceptance preparation — not authorization
+
+Regression additions cover a successful POST followed by an ambiguous CAS
+acknowledgement (both persisted and unpersisted cases), plus two concurrent
+publishers reading the same journal SHA. Exactly one POST occurs; only the same
+proven post receipt may later reconcile. 21 Blog-specific tests now pass.
+
+Inventory provenance remains a deployment gate: JSON `complete=true` is not
+proof of a trusted producer. Before prepare, obtain a complete private WordPress
+inventory from an independently reviewed GET-only collector with a dedicated
+least-privilege read identity (including drafts/private posts), merge it with
+Astro inventory, and retain collector code SHA, trusted run/actor, collection
+UTC, page/total counts and artifact SHA256. An anonymous public-post list cannot
+prove draft absence. Reject altered/stale/future/incomplete snapshots; prepare
+receives only the verified file, never publisher credentials. This trusted
+collector/credential is not provisioned by this PR.
+
+The isolated `codex/blog-publication-runtime` journal must be reviewed and
+explicitly provisioned once, without touching R1, and its initial commit/blob SHA
+recorded. Missing/corrupt state, CAS conflict or ambiguous write blocks publish.
+Do not auto-create or reset it. BLOG_PUBLISH_ENABLED remains unset/default false.
+
+Two proposed real acceptance subjects (not reviewed content or ready drafts):
+1. Reader privacy: how to inventory and assess an adult account data export.
+2. Creator operations: organizing proof of media usage permissions and expiry.
+These require fresh Blog/Astro intent collision checks and verified primary
+sources before drafting; replace a candidate if inventory shows overlap. Each
+needs a separate exact-hash artifact/review by the trusted allowlisted actor.
+No paid generation, POST, publication authorization or historical replay here.
+
+Cutover order: independent review and rollback approval; explicitly stop the
+legacy Publisher; verify zero active Blog writers; verify trusted snapshot and
+journal SHA; authorize one reviewed post only. Accept actual provider post ID,
+HTTP 200, exact canonical, indexability, sitemap and monotonic ledger. If sitemap
+lags, run bounded GET-only reconciliation of that ID, never publish again.
+Only after first closure authorize the second distinct post. On any uncertain
+outcome stop, preserve intent/post ID and report reconcile_required; rollback
+means closing the operator flag and draining, not deleting posts or journals.
