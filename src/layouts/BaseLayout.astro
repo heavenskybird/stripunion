@@ -317,16 +317,6 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
           }
         };
 
-        let acquisition = 'unknown';
-        try {
-          acquisition =
-            sessionStorage.getItem('su_acquisition') ||
-            detectAcquisition();
-          sessionStorage.setItem('su_acquisition', acquisition);
-        } catch {
-          acquisition = detectAcquisition();
-        }
-
         const createMemberId = () => {
           try {
             if (typeof crypto?.randomUUID === 'function') {
@@ -344,6 +334,25 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
             return false;
           }
         };
+        const optionalMeasurementAllowed = () => analyticsConsentGranted() &&
+          ['stripunion.com', 'www.stripunion.com'].includes(window.location.hostname);
+
+        // This preference gates optional first-party attribution measurement,
+        // not navigation or the partner's own processing of an outbound link.
+        const acquisitionForClick = () => {
+          const detected = detectAcquisition();
+          if (!optionalMeasurementAllowed()) return detected;
+          try {
+            const value = sessionStorage.getItem('su_acquisition') || detected;
+            sessionStorage.setItem('su_acquisition', value);
+            return value;
+          } catch { return detected; }
+        };
+        window.addEventListener('stripunion:consent', (event) => {
+          if (event?.detail?.analytics_storage !== 'granted') {
+            try { sessionStorage.removeItem('su_acquisition'); } catch {}
+          }
+        });
 
         const experimentSessionId = () => {
           try {
@@ -361,7 +370,7 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
         };
 
         const activateExperiments = () => {
-          if (!analyticsConsentGranted()) return;
+          if (!optionalMeasurementAllowed()) return;
 
           const links = [...document.querySelectorAll('a[data-experiment-id]')]
             .filter((link) => link instanceof HTMLAnchorElement);
@@ -442,6 +451,9 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
           if (!(link instanceof HTMLAnchorElement)) return;
 
           const outbound = new URL(link.href);
+          // Re-read on every click so revocation and unreadable storage fail closed.
+          const measurementAllowed = optionalMeasurementAllowed();
+          const acquisition = acquisitionForClick();
           const partner = link.getAttribute('data-affiliate-partner') || 'avcams';
           const isAvcams = partner === 'avcams';
           const isStaging = window.location.hostname === 'staging.stripunion.com' || window.location.hostname.endsWith('.hostingersite.com');
@@ -478,7 +490,7 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
             outbound_url: link.href
           };
 
-          if (isAvcams && memberId) {
+          if (measurementAllowed && isAvcams && memberId) {
             const firstPartyClick = {
               memberId,
               occurredAt: Date.now(),
@@ -508,6 +520,7 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
             } catch {}
           }
 
+          if (!measurementAllowed) return;
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'affiliate_click', analyticsPayload);
           } else {

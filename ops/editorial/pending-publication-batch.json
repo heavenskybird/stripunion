@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T09:49:33.764Z",
+  "generatedAt": "2026-11-12T13:03:22.483Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-photo-library-sharing-preflight.json",
-    "ops/editorial/content-artifacts/creator-platform-content-review-downtime-plan.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-prompt-disclosure-planning.json",
-    "ops/editorial/content-artifacts/affiliate-qr-offline-referral-measurement-plan.json",
-    "ops/editorial/content-artifacts/adult-anime-app-selection-preflight.json"
+    "ops/editorial/content-artifacts/premium-video-shortlist-routine-test.json",
+    "ops/editorial/content-artifacts/live-cam-credit-ledger-reconciliation.json",
+    "ops/editorial/content-artifacts/creator-platform-fan-refund-communications-workflow.json",
+    "ops/editorial/content-artifacts/adult-dating-block-shared-community-effects-check.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-commission-reversal-cause-map.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-photo-library-sharing-preflight.js",
-    "src/data/guides/creator-platform-content-review-downtime-plan.js",
-    "src/data/guides/adult-dating-profile-prompt-disclosure-planning.js",
-    "src/data/guides/affiliate-qr-offline-referral-measurement-plan.js",
-    "src/data/guides/adult-anime-app-selection-preflight.js"
+    "src/data/guides/premium-video-shortlist-routine-test.js",
+    "src/data/guides/live-cam-credit-ledger-reconciliation.js",
+    "src/data/guides/creator-platform-fan-refund-communications-workflow.js",
+    "src/data/guides/adult-dating-block-shared-community-effects-check.js",
+    "src/data/guides/webmaster-affiliate-commission-reversal-cause-map.js"
   ],
   "categories": [
-    "privacy-safety-payment",
+    "premium-videos",
+    "live-cams",
     "creator-platforms",
     "dating-hookups",
-    "webmaster-affiliate",
-    "premium-videos"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "adult-platform-photo-library-sharing-preflight",
-    "creator-platform-content-review-downtime-plan",
-    "adult-dating-profile-prompt-disclosure-planning",
-    "affiliate-qr-offline-referral-measurement-plan",
-    "adult-anime-app-selection-preflight"
+    "premium-video-shortlist-routine-test",
+    "live-cam-credit-ledger-reconciliation",
+    "creator-platform-fan-refund-communications-workflow",
+    "adult-dating-block-shared-community-effects-check",
+    "webmaster-affiliate-commission-reversal-cause-map"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,6 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43194534112",
+  "r1CycleId": "43222962612",
   "phase": "closed"
 }

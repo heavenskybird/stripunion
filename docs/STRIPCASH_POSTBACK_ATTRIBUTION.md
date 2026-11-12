@@ -1,6 +1,6 @@
 # StripUnion first-party click-to-postback attribution
 
-Updated: 2026-10-03
+Updated: 2026-11-12 (consent behavior; provider macro guidance below was recorded 2026-10-03)
 
 ## Objective
 
@@ -14,7 +14,10 @@ This closes the measurement path:
 
 ### Browser click ingestion
 
-Every AVCams affiliate click generates a unique `memberId` and sends a privacy-minimized first-party event to:
+AVCams affiliate links retain a unique `memberId` for the configured partner
+tracking contract. On the production hostname, **only when the visitor's readable
+analytics preference is granted**, clicking also sends an optional first-party
+measurement event to:
 
 `https://stripunion-live-models.stripunion.workers.dev/events/click`
 
@@ -29,6 +32,16 @@ Stored click fields are limited to attribution metadata:
 - AVCams target domain and destination path
 
 No email, account credential, message content, payment card data, or model API secret is accepted by the click normalizer.
+
+Rejecting analytics, revoking a grant, or unreadable preference storage stops new
+first-party click measurement and `affiliate_click` analytics events. Optional
+acquisition session storage is created only after grant and cleared on revocation.
+Navigation, existing affiliate destinations, campaign fields and the partner's
+`memberId` parameter remain available. This is the product policy for optional
+StripUnion measurement, not a determination of the legal basis of every partner
+or operational metric. The destination's processing is governed separately.
+Consequently a provider postback without a consented first-party click may remain
+unmatched by design; never invent a historic click to close that gap.
 
 ### Attribution storage
 
