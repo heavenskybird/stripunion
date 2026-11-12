@@ -1,0 +1,12 @@
+{
+  "phase": "post",
+  "expectedMergeSha": "38e781f4a69db9a00fdfe121d2d1e42190aba72d",
+  "rollbackBuild": {
+    "id": "01a1cfa2-a4ce-71b8-8fd2-5564c8753286",
+    "state": "completed",
+    "createdAt": "2026-11-12T12:01:45Z",
+    "sha": null
+  },
+  "preflightRunId": "43219793460",
+  "preflightReceiptSha": "09121e372eef24e2b96e8b9efd536282782538d0"
+}

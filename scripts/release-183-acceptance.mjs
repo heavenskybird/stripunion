@@ -13,6 +13,9 @@ async function github(endpoint) {
 }
 const head = await github('commits/main');
 report.mainSha = head.sha;
+let checkpoint = null;
+try { checkpoint = JSON.parse(await fs.readFile('../audit/docs/audits/2026-11-12/release-183-checkpoint.json', 'utf8')); }
+catch (error) { if (error.code !== 'ENOENT') throw error; }
 report.frozenSwitches = Object.fromEntries(['SOCIAL_OUTBOX_SEND_ENABLED', 'SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED',
   'SOCIAL_OUTBOX_X_SEND_ENABLED', 'SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED', 'BLOG_PUBLISH_ENABLED'].map(k => [k, process.env[k] || 'UNSET']));
 const closures = ['c4bb08d16bf8722d112c4cf7862c691e97506480','a05a7bef3b2ae27ac3181bfe9f0254cbe2261345',
@@ -49,7 +52,17 @@ if (process.env.HOSTINGER_API_TOKEN) {
       if (r.ok) {
         const detail = await r.json();
         const d = detail.data || detail;
-        report.hostinger.providerCommitCandidates = Object.entries(d).filter(([k,v]) => /commit|revision|sha/i.test(k) && typeof v === 'string' && /^[a-f0-9]{40}$/.test(v)).map(([field,sha]) => ({ field, sha }));
+        const candidates = [];
+        function collect(value, prefix = '') {
+          if (!value || typeof value !== 'object') return;
+          for (const [k,v] of Object.entries(value)) {
+            const field = prefix + k;
+            if (/commit|revision|sha/i.test(k) && typeof v === 'string' && /^[a-f0-9]{40}$/.test(v)) candidates.push({ field, sha:v });
+            else if (v && typeof v === 'object') collect(v, field+'.');
+          }
+        }
+        collect(d);
+        report.hostinger.providerCommitCandidates = candidates;
         report.hostinger.detailFields = Object.keys(d).filter(k => /^[\w-]{1,80}$/.test(k));
       }
     }
@@ -68,8 +81,18 @@ report.gates = {
   recoveryGuides: files.size===25 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
 };
 report.mainHtmlSha256 = main?.htmlSha256 || null;
+report.phase = checkpoint?.phase || 'pre';
+if (checkpoint?.phase === 'post') {
+  const merge = await github(`commits/${checkpoint.expectedMergeSha}`);
+  const ancestry = await github(`compare/${checkpoint.expectedMergeSha}...main`);
+  report.release = { mergeSha: checkpoint.expectedMergeSha, mergeTime: merge.commit.committer.date, rollbackBuild: checkpoint.rollbackBuild,
+    providerExactCommitKnown: report.hostinger.providerCommitCandidates?.length > 0 };
+  report.gates.postMergeMainAncestry = ['ahead','identical'].includes(ancestry.status);
+  report.gates.newProductionBuild = report.hostinger.latestBuild?.id !== checkpoint.rollbackBuild.id &&
+    Date.parse(report.hostinger.latestBuild?.createdAt) >= Date.parse(merge.commit.committer.date);
+}
 await fs.writeFile('work/recovery/release-183.json', JSON.stringify(report,null,2)+'\n');
-console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checkedAt:report.checkedAt,mainSha:report.mainSha,gates:report.gates,
+console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checkedAt:report.checkedAt,phase:report.phase,release:report.release,mainSha:report.mainSha,gates:report.gates,
   switches:report.frozenSwitches,receipt:report.receipt,hostinger:report.hostinger,guideCount:files.size,
   guideEvidenceSha256:createHash('sha256').update(JSON.stringify(expected)).digest('hex'),mainHtmlSha256:report.mainHtmlSha256 }));
 if (!Object.values(report.gates).every(Boolean)) process.exitCode=1;
