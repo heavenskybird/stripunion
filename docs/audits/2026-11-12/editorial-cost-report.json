@@ -1,13 +1,14 @@
 {
   "version": 1,
-  "scope": "Eight evidenced completed requests from six recovery runs; not a complete daily bill",
+  "scope": "Nine evidenced completed requests from seven recovery runs; not a complete daily bill",
   "sourceRuns": [
     "https://github.com/heavenskybird/stripunion/actions/runs/43151510253",
     "https://github.com/heavenskybird/stripunion/actions/runs/43172741943",
     "https://github.com/heavenskybird/stripunion/actions/runs/43186274604",
     "https://github.com/heavenskybird/stripunion/actions/runs/43194534112",
     "https://github.com/heavenskybird/stripunion/actions/runs/43213236095",
-    "https://github.com/heavenskybird/stripunion/actions/runs/43222962612"
+    "https://github.com/heavenskybird/stripunion/actions/runs/43222962612",
+    "https://github.com/heavenskybird/stripunion/actions/runs/43234015115"
   ],
   "requests": [
     {
@@ -57,15 +58,21 @@
       "attempt": 2,
       "inputTokens": 30152,
       "outputTokens": 10484
+    },
+    {
+      "runId": "43234015115",
+      "attempt": 1,
+      "inputTokens": 30585,
+      "outputTokens": 10075
     }
   ],
   "accounting": {
-    "requests": 8,
-    "runs": 6,
+    "requests": 9,
+    "runs": 7,
     "retries": 2,
-    "inputTokens": 241930,
-    "outputTokens": 88980,
-    "totalTokens": 330910,
+    "inputTokens": 272515,
+    "outputTokens": 99055,
+    "totalTokens": 371570,
     "usageStatus": "RECORDED",
     "estimatedUsd": null,
     "costStatus": "UNKNOWN",
@@ -78,6 +85,7 @@
     "sixthJob": "https://github.com/heavenskybird/stripunion/actions/runs/43222962612/job/131198904335",
     "providerReturnedPrice": false,
     "balanceStatus": "NOT_EXPOSED_TO_PROJECT_KEY",
-    "retryRootCause": "UNKNOWN: rejected intermediate output is not retained in public logs; duplicate identifier is not proven for sixth attempt"
+    "retryRootCause": "UNKNOWN: rejected intermediate output is not retained in public logs; duplicate identifier is not proven for sixth attempt",
+    "seventhJob": "https://github.com/heavenskybird/stripunion/actions/runs/43234015115/job/131236455057"
   }
 }
