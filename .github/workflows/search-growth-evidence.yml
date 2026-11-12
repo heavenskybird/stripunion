@@ -22,6 +22,15 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: node scripts/collect-search-growth.mjs
+      - name: Validate primary search scope and expose partial outcomes
+        if: always()
+        run: |
+          node --input-type=module - <<'JS'
+          import fs from 'node:fs/promises';
+          const d=JSON.parse(await fs.readFile('ops/seo-data-layer/data/search-growth/latest.json','utf8'));
+          if(!d.reports.some(r=>r.status==='ok'&&r.snapshot.siteUrl==='sc-domain:stripunion.com'))throw new Error('DOMAIN_GSC_EVIDENCE_MISSING');
+          for(const r of d.reports.filter(r=>r.status!=='ok'))console.log('::warning::Separate GSC scope failed: '+r.siteUrl+' '+r.error);
+          JS
       - name: Official URL Inspection and Bing evidence without submission
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
