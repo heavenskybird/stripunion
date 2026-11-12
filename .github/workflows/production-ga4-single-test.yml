@@ -1,0 +1,69 @@
+name: Authorized single GA4 consent test
+on:
+  push:
+    branches: [codex/release-183-acceptance]
+    paths: [docs/audits/2026-11-12/ga4-single-event-authorization.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ga4-single-authorized-test
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: audit
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: canonical
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify separate authorization and already accepted release
+        working-directory: canonical
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node -e "const a=require('../audit/docs/audits/2026-11-12/ga4-single-event-authorization.json');if(a.authorized!==true||a.maxEvents!==1||a.releaseSha!=='9a0b79a1341e150f2a3398c50c9a812a3f29e3cf'||!a.productionAcceptanceRun)process.exit(1)"
+          node --input-type=module - <<'JS'
+          import fs from 'node:fs/promises';
+          const a=JSON.parse(await fs.readFile('../audit/docs/audits/2026-11-12/ga4-single-event-authorization.json','utf8'));
+          const r=await fetch('https://api.github.com/repos/heavenskybird/stripunion/actions/runs/'+a.productionAcceptanceRun,{headers:{authorization:'Bearer '+process.env.GH_TOKEN}});
+          const d=await r.json();if(!r.ok||d.conclusion!=='success'||d.name!=='Controlled release production acceptance')throw new Error('PRODUCTION_ACCEPTANCE_NOT_PROVEN');
+          JS
+          mkdir -p work/recovery
+      - name: Verify actual production GA4 property and stream before sending
+        working-directory: canonical
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          npm --prefix ops/seo-data-layer install
+          cp ../audit/scripts/release-ga4-check-property.mjs scripts/release-ga4-check-property.mjs
+          node scripts/release-ga4-check-property.mjs
+      - name: Send only one explicitly consented diagnostic event, intercept all business writes
+        working-directory: canonical
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+          cp ../audit/scripts/release-ga4-single-event.mjs scripts/release-ga4-single-event.mjs
+          node scripts/release-ga4-single-event.mjs
+      - name: Read GA4 actual property realtime event count
+        working-directory: canonical
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          npm --prefix ops/seo-data-layer install
+          cp ../audit/scripts/release-ga4-read-realtime.mjs scripts/release-ga4-read-realtime.mjs
+          node scripts/release-ga4-read-realtime.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ga4-single-event-${{ github.run_id }}
+          path: canonical/work/recovery/*.json
+          retention-days: 14
