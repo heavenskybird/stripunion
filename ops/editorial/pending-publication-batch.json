@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T21:00:15.354Z",
+  "generatedAt": "2026-11-12T22:16:34.116Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-platform-fit-decision-workbook.json",
-    "ops/editorial/content-artifacts/adult-platform-subscription-renewal-calendar-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-room-information-comparison-workflow.json",
-    "ops/editorial/content-artifacts/adult-anime-app-access-continuity-planner.json",
-    "ops/editorial/content-artifacts/free-video-account-feature-value-test.json"
+    "ops/editorial/content-artifacts/vr-platform-session-interruption-fit-review.json",
+    "ops/editorial/content-artifacts/adult-games-short-session-fit-planner.json",
+    "ops/editorial/content-artifacts/adult-shop-product-testing-documentation-check.json",
+    "ops/editorial/content-artifacts/adult-affiliate-subscription-commission-lifecycle-fit.json",
+    "ops/editorial/content-artifacts/adult-platform-household-calendar-privacy-planning.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-platform-fit-decision-workbook.js",
-    "src/data/guides/adult-platform-subscription-renewal-calendar-workflow.js",
-    "src/data/guides/live-cam-room-information-comparison-workflow.js",
-    "src/data/guides/adult-anime-app-access-continuity-planner.js",
-    "src/data/guides/free-video-account-feature-value-test.js"
+    "src/data/guides/vr-platform-session-interruption-fit-review.js",
+    "src/data/guides/adult-games-short-session-fit-planner.js",
+    "src/data/guides/adult-shop-product-testing-documentation-check.js",
+    "src/data/guides/adult-affiliate-subscription-commission-lifecycle-fit.js",
+    "src/data/guides/adult-platform-household-calendar-privacy-planning.js"
   ],
   "categories": [
-    "dating-hookups",
-    "privacy-safety-payment",
-    "live-cams",
-    "hentai-anime",
-    "free-videos"
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
+    "webmaster-affiliate",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "adult-dating-platform-fit-decision-workbook",
-    "adult-platform-subscription-renewal-calendar-workflow",
-    "live-cam-room-information-comparison-workflow",
-    "adult-anime-app-access-continuity-planner",
-    "free-video-account-feature-value-test"
+    "vr-platform-session-interruption-fit-review",
+    "adult-games-short-session-fit-planner",
+    "adult-shop-product-testing-documentation-check",
+    "adult-affiliate-subscription-commission-lifecycle-fit",
+    "adult-platform-household-calendar-privacy-planning"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43305524343",
-  "phase": "closed"
+  "r1CycleId": "43318047154"
 }

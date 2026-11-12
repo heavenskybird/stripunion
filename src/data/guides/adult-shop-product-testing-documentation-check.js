@@ -1,0 +1,125 @@
+export default {
+  "slug": "adult-shop-product-testing-documentation-check",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Product Testing Documents Before Trusting Safety Claims",
+  "description": "Learn how to evaluate adult-shop product testing and safety documentation, including who issued it, what it covers, and whether it applies to the exact item listed.",
+  "excerpt": "A retailer’s product page may make claims that sound like formal verification without showing what was tested or who verified it. This guide helps shoppers assess the evidence behind a safety or testing claim.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "Separate a product description from an actual test report, certificate, or other supporting document.",
+    "Check which organization issued the document, what product or component it covers, and whether the document is current and traceable.",
+    "Do not assume that a test of one model, material, or component applies to every variation in a listing.",
+    "Treat vague badges and unsupported phrases as claims to clarify, not as proof of a product’s safety or suitability.",
+    "Ask the retailer or manufacturer specific, neutral questions when the evidence is incomplete."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the claim from its supporting evidence",
+      "paragraphs": [
+        "Product pages sometimes use terms such as tested, certified, or quality checked without describing the process. These words do not all mean the same thing, and a phrase alone does not tell you who performed a check, what was examined, or what standard was used. Start by identifying the exact claim the retailer makes. Is it about a material, an electrical component, a manufacturing process, or a finished product? A document that supports one kind of claim may say little about another.",
+        "Look for a document that can be examined, not only a graphic badge or a line of marketing copy. A useful document should identify its issuer and scope, and should provide enough information to connect it to the product you are considering. If the retailer links to a manufacturer page, check whether the page names the same model or item variation. If no supporting information is provided, do not infer that a test occurred merely because the claim appears on a product page."
+      ],
+      "bullets": [
+        "Copy the exact wording of the claim before evaluating it.",
+        "Identify whether it refers to a finished item, a component, or a material.",
+        "Look for a document or a clear explanation of the testing process."
+      ]
+    },
+    {
+      "heading": "Check who issued the document and what it covers",
+      "paragraphs": [
+        "A document’s value depends on its scope and source. Read the issuer’s name, the date, and the description of the item tested. Check whether the document describes a particular model, component, production sample, or batch. If a page lists several versions, colors, accessories, or bundles, do not assume one document automatically covers every option. Ask whether the document applies to the exact item selected in the cart.",
+        "Also distinguish independent assessment from a manufacturer’s own statement. A manufacturer declaration can still provide useful information, but it is not the same thing as a report from an independent laboratory or certification body. Do not assume that a named organization is independent or qualified based only on a logo. Where the issuer’s role is unclear, seek an explanation from the retailer or the organization named on the document."
+      ],
+      "table": {
+        "caption": "Questions that help interpret product testing and certification information.",
+        "headers": [
+          "Evidence detail",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Issuer",
+            "Who prepared or issued the document?",
+            "The source helps explain what type of evidence it represents."
+          ],
+          [
+            "Scope",
+            "Which model, material, part, or process is covered?",
+            "A narrow assessment may not cover the entire listed product."
+          ],
+          [
+            "Date or version",
+            "When was it issued, and does it reference a product revision?",
+            "A document may relate to an earlier design or specification."
+          ],
+          [
+            "Traceability",
+            "Can the document be matched to the listing or manufacturer?",
+            "A connection to the exact item reduces ambiguity."
+          ],
+          [
+            "Claim wording",
+            "What specific result or requirement does it address?",
+            "A document cannot support claims beyond its stated scope."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Match the evidence to the exact product listing",
+      "paragraphs": [
+        "Retail listings can group several variations under one page. A single product page might offer different sizes, colors, bundles, or revisions. Before relying on a document, compare its model number or product description with the selected variation. If the retailer does not display a model identifier, check manufacturer documentation or ask support how the document maps to the item being sold. Do not treat visual similarity as proof that two versions are identical.",
+        "For products with electrical components, check whether the document addresses the relevant component and configuration rather than a different accessory or charger. For material claims, establish which part of the item the statement covers and whether it describes the product as sold. This is not a substitute for professional technical advice; it is a way to avoid extending a narrow document into a broad conclusion it does not support."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Treat badges and broad assurances cautiously",
+      "paragraphs": [
+        "A badge can be a useful route to more information, but a badge on its own is not an explanation. Check whether it links to a named program, a document, or a description of criteria. A retailer may repeat a supplier’s claim, summarize a manufacturer statement, or use a term informally. Those arrangements are not necessarily deceptive, but they are different evidence types. Keep them distinct in your notes.",
+        "Avoid turning a missing document into a claim about the product itself. It means that the page has not given you enough information to verify the stated assurance; it does not establish that a product failed testing. Likewise, a document that appears formal does not automatically establish every safety property you might care about. Use the wording and scope actually provided, and seek clarification rather than drawing conclusions beyond the evidence."
+      ],
+      "bullets": [
+        "Can you open the source behind a badge?",
+        "Does the source define the standard or criteria?",
+        "Does the document identify the exact item or component?",
+        "Are broad statements on the listing more extensive than the document’s scope?"
+      ]
+    },
+    {
+      "heading": "Ask focused questions and keep a record",
+      "paragraphs": [
+        "If the evidence remains unclear, contact the retailer before ordering and ask a specific question that can be answered without guesswork. For example, ask whether a named document applies to a particular model number or selected variation, or who issued it and what it covers. A focused question is more likely to produce a useful answer than a general request for reassurance. If the retailer cannot answer, consider contacting the manufacturer using a contact route you can independently verify.",
+        "Keep a copy or note of the listing, document link, selected item variation, and any response that matters to your decision. Product pages and documents can change, so a dated record helps you remember what you relied on. This does not guarantee a product outcome or replace professional guidance. It gives you a clear basis for deciding whether the evidence is adequate for your own purchase."
+      ],
+      "bullets": [
+        "Record the listing title and model or variation identifier.",
+        "Save the document title, issuer, date, and scope.",
+        "Keep support replies that clarify whether the document applies to the item.",
+        "If a key question remains unanswered, treat that as an unresolved purchase risk."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a certification logo prove that the entire product was independently tested?",
+      "answer": "Not by itself. Check the program, issuer, document, and scope. A logo may relate to a particular component, material, or process rather than the entire product."
+    },
+    {
+      "question": "Is a manufacturer document useless if it is not independent?",
+      "answer": "No. It can still explain product specifications or the manufacturer’s own declarations. However, identify it accurately and do not describe it as an independent assessment unless the document supports that description."
+    },
+    {
+      "question": "What if a retailer cannot provide the report?",
+      "answer": "Ask what evidence supports the claim, who issued it, and whether it applies to the exact item listed. If the answer remains unclear, decide whether that uncertainty is acceptable before ordering."
+    },
+    {
+      "question": "Can I use a report for one product variation to assess another?",
+      "answer": "Only if the document or a reliable source clearly establishes that its scope covers both variations. Similar appearance or a shared listing page is not enough to confirm that."
+    }
+  ]
+};
