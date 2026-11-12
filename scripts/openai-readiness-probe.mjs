@@ -25,9 +25,10 @@ export function classifyOpenAI(status, payload) {
 }
 
 async function main() {
-  if (process.env.GITHUB_REPOSITORY !== 'heavenskybird/stripunion' ||
-      process.env.GITHUB_REF !== 'refs/heads/codex/recovery-integration-20261111' ||
-      process.env.GITHUB_RUN_ATTEMPT !== '1' || process.env.GITHUB_WORKFLOW !== 'Recovery OpenAI readiness') throw new Error('Readiness probe authorization refused.');
+  const authorized = (process.env.GITHUB_REF === 'refs/heads/codex/recovery-integration-20261111' && process.env.GITHUB_WORKFLOW === 'Recovery OpenAI readiness') ||
+    (process.env.GITHUB_REF === 'refs/heads/codex/recovery-production-acceptance-20261112' && process.env.GITHUB_WORKFLOW === 'Recovery funded credential verification');
+  if (process.env.GITHUB_REPOSITORY !== 'heavenskybird/stripunion' || !authorized ||
+      process.env.GITHUB_RUN_ATTEMPT !== '1') throw new Error('Readiness probe authorization refused.');
   const model = process.env.EDITORIAL_MODEL || 'gpt-6-luna';
   const report = { version: 1, runId: process.env.GITHUB_RUN_ID, checkedAt: new Date().toISOString(),
     model: /^[a-zA-Z0-9_.:-]{1,100}$/.test(model) ? model : 'invalid', requests: 0, httpStatus: 0,

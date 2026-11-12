@@ -89,12 +89,20 @@ for (const host of ['stripunion.com','blog.stripunion.com','avcams.online']) {
     if (pathname === '/' && result.status === 200) {
       row.ga4MeasurementIds = [...new Set((result.body || '').match(/\bG-[A-Z0-9]{6,20}\b/g) || [])];
       row.gtagScriptPresent = /googletagmanager\.com\/gtag\/js/.test(result.body || '');
+      row.clarityPresent = /clarity\.ms\/tag\//.test(result.body || '') && (result.body || '').includes('ysuowheiiz');
+      row.htmlSha256 = createHash('sha256').update(result.body || '').digest('hex');
       row.consentDefaultDenied = /consent[\s\S]{0,180}default[\s\S]{0,300}analytics_storage[\s\S]{0,35}denied/.test(result.body || '');
       row.canonical = (result.body || '').match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)/i)?.[1]?.split(/[?#]/)[0] || null;
     }
+    if (pathname === '/robots.txt') row.blocksAll = /^\s*Disallow:\s*\/\s*$/im.test(result.body || '');
+    if (pathname.includes('sitemap')) row.validXml = /<(?:[\w.-]+:)?(?:urlset|sitemapindex)\b/i.test(result.body || '');
     report.health.push(row);
   }
 }
+const stagingHome = await request('https://staging.stripunion.com/');
+report.staging = { origin: 'https://staging.stripunion.com', status: stagingHome.status,
+  noindex: /<meta[^>]+(?:name=["']robots["'][^>]+content=["'][^"']*noindex|content=["'][^"']*noindex[^>]+name=["']robots)/i.test(stagingHome.body || ''),
+  usedForProductionAcceptance: false };
 report.hostinger = { configured: Boolean(process.env.HOSTINGER_API_TOKEN) };
 if (process.env.HOSTINGER_API_TOKEN) {
   const hostBase = 'https://developers.hostinger.com/api/hosting/v1';
