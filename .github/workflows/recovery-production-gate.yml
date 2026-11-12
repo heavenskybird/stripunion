@@ -1,0 +1,40 @@
+name: Recovery production gate
+on:
+  push:
+    branches: [codex/recovery-production-acceptance-20261112]
+    paths:
+      - .github/workflows/recovery-production-gate.yml
+      - scripts/recovery-production-gate.mjs
+      - scripts/recovery-readonly-evidence.mjs
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: recovery-production-gate
+  cancel-in-progress: false
+jobs:
+  production-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify production separately from staging without mutations
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' }}
+          LIVE_MODELS_WORKER_DEPLOY_ENABLED: ${{ vars.LIVE_MODELS_WORKER_DEPLOY_ENABLED || 'UNSET' }}
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          STRIPCASH_POSTBACK_SECRET: ${{ secrets.STRIPCASH_POSTBACK_SECRET }}
+        run: node scripts/recovery-production-gate.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: recovery-production-gate-${{ github.run_id }}
+          path: work/recovery/*.json
+          retention-days: 14
