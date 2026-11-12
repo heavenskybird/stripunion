@@ -8,7 +8,7 @@ import { collectionStatus } from '../src/reports/collection-status.mjs';
 test('partial source failure preserves other current sources and never accepts old snapshots as current', async () => {
   const root = await fs.mkdtemp(path.join(os.tmpdir(), 'seo-status-'));
   try {
-    const env = { GITHUB_RUN_ID: '123', COLLECTION_STARTED_AT: '2026-11-11T01:00:00Z', CLARITY_CONFIGURED: 'true', BING_ACCEPTANCE_OUTCOME: 'success', BLOG_HEALTH_OUTCOME: 'success' };
+    const env = { GITHUB_RUN_ID: '123', COLLECTION_STARTED_AT: '2026-11-11T01:00:00Z', CLARITY_CONFIGURED: 'true', BING_ACCEPTANCE_OUTCOME: 'success', BLOG_HEALTH_OUTCOME: 'success', SOCIAL_OUTBOX_SEND_ENABLED: 'false' };
     await fs.mkdir(path.join(root, '2026-11-09'));
     for (const [name, key] of [['gsc','GSC'],['gsc-blog','GSC_BLOG'],['ga4','GA4'],['ga4-admin','GA4_ADMIN'],['clarity','CLARITY'],['bing','BING'],['buffer','BUFFER'],['stripcash','STRIPCASH'],['attribution','ATTRIBUTION']]) {
       env[`${key}_OUTCOME`] = 'success';

@@ -51,6 +51,29 @@ report.activeInventoryComplete = active.every(r => r.status === 200 && r.data.to
 report.nativeSend = { variable: process.env.SOCIAL_OUTBOX_SEND_ENABLED || 'UNSET',
   disabled: String(process.env.SOCIAL_OUTBOX_SEND_ENABLED).toLowerCase() === 'false',
   singleWriter: process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' };
+const deployFlag = String(process.env.LIVE_MODELS_WORKER_DEPLOY_ENABLED || 'UNSET').toLowerCase();
+report.workerDeployment = { flag: ['true','false'].includes(deployFlag) ? deployFlag : 'UNSET',
+  mergeTriggersDeployment: deployFlag === 'true', script: 'stripunion-live-models',
+  credentialsPresent: Boolean(process.env.CLOUDFLARE_ACCOUNT_ID && process.env.CLOUDFLARE_API_TOKEN) };
+if (report.workerDeployment.credentialsPresent) {
+  const result = await api(`https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(process.env.CLOUDFLARE_ACCOUNT_ID)}/workers/scripts/stripunion-live-models/deployments`, process.env.CLOUDFLARE_API_TOKEN);
+  report.workerDeployment.deploymentsHttp = result.status;
+  const items = result.data?.result?.deployments || result.data?.result || [];
+  const latest = Array.isArray(items) ? items[0] : null;
+  report.workerDeployment.rollbackBaseline = latest ? {
+    deploymentId: /^[a-f0-9-]{20,50}$/i.test(latest.id || '') ? latest.id : null,
+    createdOn: latest.created_on || null,
+    versions: (latest.versions || []).map(v => ({ versionId: /^[a-f0-9-]{20,50}$/i.test(v.version_id || '') ? v.version_id : null, percentage: typeof v.percentage === 'number' ? v.percentage : null }))
+  } : null;
+}
+report.queueReview = [];
+for (const id of [37655513979,37655528917,43131310344]) {
+  const [run, jobs] = await Promise.all([github(`actions/runs/${id}`), github(`actions/runs/${id}/jobs?per_page=100`)]);
+  report.queueReview.push({ id, runHttp: run.status, status: run.data?.status || null, conclusion: run.data?.conclusion || null,
+    createdAt: run.data?.created_at || null, updatedAt: run.data?.updated_at || null, headSha: run.data?.head_sha || null,
+    jobsHttp: jobs.status, jobCount: jobs.data?.total_count ?? null,
+    jobs: (jobs.data?.jobs || []).map(j => ({ id: j.id, status: j.status, conclusion: j.conclusion })) });
+}
 const manifest = JSON.parse(await fs.readFile('ops/editorial/pending-publication-batch.json', 'utf8'));
 report.manifest = { cycleId: manifest.r1CycleId, phase: manifest.phase, count: manifest.count };
 const expected = await guideFingerprints(manifest.guideFiles);
@@ -82,9 +105,18 @@ if (process.env.HOSTINGER_API_TOKEN) {
   report.hostinger.mainFound = Boolean(website);
   if (website?.username) {
     const prefix = `accounts/${encodeURIComponent(website.username)}/websites/${encodeURIComponent(website.domain)}`;
-    const [env, builds] = await Promise.all([hostApi(`${prefix}/nodejs/builds/settings/env`), hostApi(`${prefix}/nodejs/builds?per_page=100`)]);
+    const [env, builds, settings, git] = await Promise.all([hostApi(`${prefix}/nodejs/builds/settings/env`), hostApi(`${prefix}/nodejs/builds?per_page=100`), hostApi(`${prefix}/nodejs/builds/settings`), hostApi(`${prefix}/git/auto-deployments/settings`)]);
     report.hostinger.envHttp = env.status;
     report.hostinger.buildsHttp = builds.status;
+    const config = settings.data?.data || settings.data || {};
+    const gitConfig = git.data?.data || git.data || {};
+    report.hostinger.settingsHttp = settings.status;
+    report.hostinger.gitSettingsHttp = git.status;
+    report.hostinger.settingsFields = Object.keys(config).filter(k => /^\w{1,80}$/.test(k));
+    report.hostinger.gitFields = Object.keys(gitConfig).filter(k => /^\w{1,80}$/.test(k));
+    report.hostinger.branch = config.branch || config.branch_name || config.source_options?.branch || gitConfig.branch || gitConfig.branch_name || null;
+    const auto = [config.auto_deploy, config.auto_deploy_enabled, config.auto_deployment_enabled, gitConfig.is_enabled, gitConfig.isEnabled, gitConfig.auto_deploy].find(v => typeof v === 'boolean');
+    report.hostinger.autoDeploymentEnabled = auto ?? null;
     const ga = getRecords(env.data).find(v => (v.name || v.key) === 'PUBLIC_GA4_MEASUREMENT_ID');
     report.hostinger.ga4VariablePresent = Boolean(ga);
     report.hostinger.ga4PublicValue = /^G-[A-Z0-9]{6,20}$/.test(ga?.value || '') ? ga.value : ga ? 'MASKED_OR_INVALID' : null;

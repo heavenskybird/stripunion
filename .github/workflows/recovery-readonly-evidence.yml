@@ -27,6 +27,9 @@ jobs:
           SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' }}
           HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
           STRIPCASH_POSTBACK_SECRET: ${{ secrets.STRIPCASH_POSTBACK_SECRET }}
+          LIVE_MODELS_WORKER_DEPLOY_ENABLED: ${{ vars.LIVE_MODELS_WORKER_DEPLOY_ENABLED || 'UNSET' }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: node scripts/recovery-readonly-evidence.mjs
       - uses: actions/upload-artifact@v4
         if: always()
