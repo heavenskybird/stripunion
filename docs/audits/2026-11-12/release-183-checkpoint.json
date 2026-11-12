@@ -1,14 +1,14 @@
 {
-  "phase": "pre",
+  "phase": "post",
   "releaseNumber": 189,
-  "expectedMergeSha": "9a0b79a1341e150f2a3398c50c9a812a3f29e3cf",
+  "expectedMergeSha": "db41398ce90d0ebdfea4fcd9de973614b86bc1c6",
   "rollbackBuild": {
-    "id": "01a1cfdf-4b66-70f0-91b7-ddd9de80b647",
+    "id": "01a1d0ae-73ab-722c-be1c-0e756af7e6f2",
     "state": "completed",
-    "createdAt": "2026-11-12T13:07:59Z",
+    "createdAt": "2026-11-12T16:54:16Z",
     "sha": null
   },
-  "preflightRunId": "43232980026",
+  "preflightRunId": "43265124524",
   "preflightReceiptSha": "5cf0418520694fd4b0e4b9dfa5b8de6569227c5f",
   "expectedCandidateHead": "458d3b2ef52b053bb8bfa6c4fbda94bc6d728606",
   "observedPendingProductionBuild": "01a1d01b-1b92-722f-9e9c-7e9aeea76a93",

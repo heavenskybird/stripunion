@@ -104,7 +104,7 @@ if (checkpoint?.phase === 'post') {
       const url = 'https://stripunion.com/'+slug+'/';
       const response = await fetch(url,{signal:AbortSignal.timeout(15000)});
       const html = await response.text();
-      report.searchHubChecks.push({slug,status:response.status,canonicalMatched:html.includes('rel="canonical" href="'+url+'"'),intentNavigation:html.includes('Choose the guide for your question'),appDisclosure:slug!=='stripchat-app'||html.includes('separate affiliate browsing route')});
+      report.searchHubChecks.push({slug,status:response.status,htmlSha256:createHash('sha256').update(html).digest('hex'),canonicalMatched:html.includes('rel="canonical" href="'+url+'"'),intentNavigation:html.includes('Choose the guide for your question'),appDisclosure:slug!=='stripchat-app'||html.includes('separate affiliate browsing route')});
     }
     const r=await fetch('https://stripunion.com/sitemap.xml',{signal:AbortSignal.timeout(15000)});const xml=await r.text();
     report.gates.searchHubs = report.searchHubChecks.every(x=>x.status===200&&x.canonicalMatched&&x.intentNavigation&&x.appDisclosure);
@@ -118,7 +118,7 @@ if (checkpoint?.phase === 'post') {
 }
 await fs.writeFile('work/recovery/release-183.json', JSON.stringify(report,null,2)+'\n');
 console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checkedAt:report.checkedAt,releaseNumber:report.releaseNumber,phase:report.phase,release:report.release,mainSha:report.mainSha,gates:report.gates,
-  switches:report.frozenSwitches,receipt:report.receipt,hostinger:report.hostinger,guideCount:files.size,
+  searchHubChecks:report.searchHubChecks,switches:report.frozenSwitches,receipt:report.receipt,hostinger:report.hostinger,guideCount:files.size,
   guideEvidenceSha256:createHash('sha256').update(JSON.stringify(expected)).digest('hex'),mainHtmlSha256:report.mainHtmlSha256 }));
 // Natural production is allowed to continue after the merge. Receipt/writer
 // assertions remain visible but are pre-merge admission gates, not evidence
