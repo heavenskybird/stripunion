@@ -1,6 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 
 const stop = new Set('a an the and or for to of in on with before after from your you is are be it this that as by at not can may should adult platform platforms site sites guide review check practical using use'.split(' '));
 const flatten = value => typeof value === 'string' ? value : Array.isArray(value) ? value.map(flatten).join(' ') : value && typeof value === 'object' ? Object.values(value).map(flatten).join(' ') : '';
@@ -57,7 +59,11 @@ export function gateCandidate(candidate, corpus) {
 export async function auditCorpus({ root = '.', limit = 500 } = {}) {
   const dir = path.resolve(root, 'src/data/guides');
   const docs = [];
+  const corpusHash = createHash('sha256');
+  let auditedCommit = 'UNKNOWN';
+  try { auditedCommit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim(); } catch {}
   for (const file of (await fs.readdir(dir)).filter(f => f.endsWith('.js')).sort()) {
+    corpusHash.update(file).update('\0').update(await fs.readFile(path.join(dir, file))).update('\0');
     const doc = (await import(pathToFileURL(path.join(dir, file)).href)).default;
     docs.push(profile(doc));
   }
@@ -76,7 +82,9 @@ export async function auditCorpus({ root = '.', limit = 500 } = {}) {
   const incident = flagged.find(p => [p.left, p.right].includes('adult-games-age-check-data-review-before-browsing') && [p.left, p.right].includes('adult-shop-age-check-data-transparency-review'));
   const perGuide = {};
   for (const p of flagged) for (const slug of [p.left, p.right]) perGuide[slug] ??= { counterpart: slug === p.left ? p.right : p.left, score: p.score };
-  return { version: 1, corpusSource: 'All canonical src/data/guides modules; not a fresh HTTP acceptance of every URL',
+  return { version: 1, auditedCommit, corpusSourceSha256: corpusHash.digest('hex'),
+    snapshotScope: 'Time-bounded source snapshot; subsequent production commits are outside this audit.',
+    corpusSource: 'All canonical src/data/guides modules; not a fresh HTTP acceptance of every URL',
     generatedAt: new Date().toISOString(), guides: docs.length, consideredPairs: docs.length * (docs.length - 1) / 2,
     comparedPairs: reviewed, flaggedPairs: flagged.length, reportedPairs: Math.min(limit, flagged.length),
     reportLimit: limit, truncated: flagged.length > limit, knownIncident: incident || null,
