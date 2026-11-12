@@ -1,6 +1,6 @@
 {
   "source": "microsoft-clarity-data-export",
-  "collectedAt": "2026-11-12T03:05:15.503Z",
+  "collectedAt": "2026-11-12T08:26:06.121Z",
   "projectId": "ysuowheiiz",
   "numOfDays": 3,
   "dimension1": "URL",
@@ -20,7 +20,15 @@
       "metricName": "DeadClickCount",
       "information": [
         {
-          "sessionsCount": 17,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -76,7 +84,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -92,7 +108,7 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -117,11 +133,11 @@
         },
         {
           "sessionsCount": 3,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "sessionsWithMetricPercentage": 33.33,
+          "sessionsWithoutMetricPercentage": 66.67,
+          "pagesViews": 1,
+          "subTotal": 3,
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -132,9 +148,9 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
-          "sessionsWithMetricPercentage": 7.14,
-          "sessionsWithoutMetricPercentage": 92.86,
+          "sessionsCount": 13,
+          "sessionsWithMetricPercentage": 7.69,
+          "sessionsWithoutMetricPercentage": 92.31,
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
@@ -188,20 +204,20 @@
           "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-planning/"
         },
         {
-          "sessionsCount": 4,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/sexlikereal/"
-        },
-        {
           "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/before-buying-vr-headset-check-adult-platform-compatibility/"
+        },
+        {
+          "sessionsCount": 4,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/sexlikereal/"
         },
         {
           "sessionsCount": 1,
@@ -220,15 +236,7 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 12,
-          "sessionsWithMetricPercentage": 25,
-          "sessionsWithoutMetricPercentage": 75,
-          "pagesViews": 3,
-          "subTotal": 15,
-          "Url": "https://www.stripunion.com/hentai-anime/"
-        },
-        {
-          "sessionsCount": 2,
+          "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -236,20 +244,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "sessionsCount": 12,
-          "sessionsWithMetricPercentage": 8.33,
-          "sessionsWithoutMetricPercentage": 91.67,
-          "pagesViews": 1,
-          "subTotal": 3,
-          "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 50,
-          "sessionsWithoutMetricPercentage": 50,
-          "pagesViews": 1,
-          "subTotal": 1,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
+          "sessionsCount": 14,
+          "sessionsWithMetricPercentage": 21.43,
+          "sessionsWithoutMetricPercentage": 78.57,
+          "pagesViews": 3,
+          "subTotal": 15,
+          "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
           "sessionsCount": 2,
@@ -258,6 +258,14 @@
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
+        },
+        {
+          "sessionsCount": 14,
+          "sessionsWithMetricPercentage": 7.14,
+          "sessionsWithoutMetricPercentage": 92.86,
+          "pagesViews": 1,
+          "subTotal": 3,
+          "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
         },
         {
           "sessionsCount": 4,
@@ -292,6 +300,14 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -309,6 +325,14 @@
         },
         {
           "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 50,
+          "sessionsWithoutMetricPercentage": 50,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -332,12 +356,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -380,12 +412,20 @@
           "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
-          "sessionsCount": 16,
-          "sessionsWithMetricPercentage": 6.25,
-          "sessionsWithoutMetricPercentage": 93.75,
-          "pagesViews": 1,
-          "subTotal": 2,
+          "sessionsCount": 9,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -396,20 +436,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-game-listing-evidence-audit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
-        },
-        {
           "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-platform-home-wifi-visibility-review/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
         },
         {
           "sessionsCount": 2,
@@ -428,7 +468,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -444,20 +484,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 9,
+          "sessionsWithMetricPercentage": 11.11,
+          "sessionsWithoutMetricPercentage": 88.89,
+          "pagesViews": 1,
+          "subTotal": 2,
+          "Url": "https://stripunion.com/adult-games/"
+        },
+        {
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
-        },
-        {
-          "sessionsCount": 7,
-          "sessionsWithMetricPercentage": 14.29,
-          "sessionsWithoutMetricPercentage": 85.71000000000001,
-          "pagesViews": 1,
-          "subTotal": 2,
-          "Url": "https://stripunion.com/adult-games/"
         },
         {
           "sessionsCount": 2,
@@ -466,14 +506,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -505,7 +537,15 @@
       "metricName": "ExcessiveScroll",
       "information": [
         {
-          "sessionsCount": 17,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -561,7 +601,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -577,7 +625,7 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -606,7 +654,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -617,7 +665,7 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
+          "sessionsCount": 13,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -705,7 +753,15 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 4,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
+        },
+        {
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -718,31 +774,15 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
+          "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
         },
         {
           "sessionsCount": 4,
@@ -761,6 +801,14 @@
           "Url": "https://stripunion.com/stripchat-pricing/"
         },
         {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+        },
+        {
           "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -769,12 +817,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+          "Url": "https://stripunion.com/creator-platforms/"
         },
         {
           "sessionsCount": 5,
@@ -798,6 +846,14 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -817,12 +873,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -865,12 +929,20 @@
           "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
-          "sessionsCount": 16,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -881,20 +953,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-game-listing-evidence-audit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
-        },
-        {
           "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-platform-home-wifi-visibility-review/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
         },
         {
           "sessionsCount": 2,
@@ -913,7 +985,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -929,7 +1001,7 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 7,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -937,7 +1009,7 @@
           "Url": "https://stripunion.com/adult-games/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -951,14 +1023,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -990,12 +1054,12 @@
       "metricName": "RageClickCount",
       "information": [
         {
-          "sessionsCount": 17,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/stripchat-alternatives/"
+          "Url": "https://stripunion.com/"
         },
         {
           "sessionsCount": 2,
@@ -1004,6 +1068,14 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-app/"
+        },
+        {
+          "sessionsCount": 14,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-alternatives/"
         },
         {
           "sessionsCount": 2,
@@ -1046,7 +1118,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1062,7 +1142,7 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1091,7 +1171,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -1102,7 +1182,7 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
+          "sessionsCount": 13,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1190,15 +1270,7 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
-        },
-        {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1206,15 +1278,15 @@
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
+          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1246,6 +1318,14 @@
           "Url": "https://stripunion.com/stripchat-pricing/"
         },
         {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+        },
+        {
           "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -1254,12 +1334,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+          "Url": "https://stripunion.com/creator-platforms/"
         },
         {
           "sessionsCount": 5,
@@ -1283,6 +1363,14 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -1302,12 +1390,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -1350,12 +1446,20 @@
           "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
-          "sessionsCount": 16,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -1398,7 +1502,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1414,20 +1518,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 5,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
-        },
-        {
-          "sessionsCount": 7,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/adult-games/"
+        },
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
           "sessionsCount": 2,
@@ -1436,14 +1540,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -1475,12 +1571,12 @@
       "metricName": "QuickbackClick",
       "information": [
         {
-          "sessionsCount": 17,
-          "sessionsWithMetricPercentage": 17.65,
-          "sessionsWithoutMetricPercentage": 82.35,
-          "pagesViews": 3,
-          "subTotal": 3,
-          "Url": "https://stripunion.com/stripchat-alternatives/"
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
         },
         {
           "sessionsCount": 2,
@@ -1489,6 +1585,14 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-app/"
+        },
+        {
+          "sessionsCount": 14,
+          "sessionsWithMetricPercentage": 7.14,
+          "sessionsWithoutMetricPercentage": 92.86,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/stripchat-alternatives/"
         },
         {
           "sessionsCount": 2,
@@ -1531,9 +1635,17 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
-          "sessionsWithMetricPercentage": 33.33,
-          "sessionsWithoutMetricPercentage": 66.67,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
+          "sessionsWithMetricPercentage": 20,
+          "sessionsWithoutMetricPercentage": 80,
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://www.stripunion.com/categories/"
@@ -1547,11 +1659,11 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 33.33,
           "sessionsWithoutMetricPercentage": 66.67,
-          "pagesViews": 1,
-          "subTotal": 1,
+          "pagesViews": 3,
+          "subTotal": 3,
           "Url": "https://stripunion.com/categories/"
         },
         {
@@ -1572,11 +1684,11 @@
         },
         {
           "sessionsCount": 3,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "sessionsWithMetricPercentage": 33.33,
+          "sessionsWithoutMetricPercentage": 66.67,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -1587,11 +1699,11 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
-          "sessionsWithMetricPercentage": 14.29,
-          "sessionsWithoutMetricPercentage": 85.71000000000001,
-          "pagesViews": 2,
-          "subTotal": 2,
+          "sessionsCount": 13,
+          "sessionsWithMetricPercentage": 7.69,
+          "sessionsWithoutMetricPercentage": 92.31,
+          "pagesViews": 1,
+          "subTotal": 1,
           "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
         },
         {
@@ -1643,20 +1755,20 @@
           "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-planning/"
         },
         {
-          "sessionsCount": 1,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/before-buying-vr-headset-check-adult-platform-compatibility/"
-        },
-        {
           "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/sexlikereal/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/before-buying-vr-headset-check-adult-platform-compatibility/"
         },
         {
           "sessionsCount": 1,
@@ -1675,15 +1787,7 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
-        },
-        {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1691,15 +1795,15 @@
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
+          "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1747,6 +1851,14 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -1768,6 +1880,14 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
+          "sessionsWithMetricPercentage": 16.67,
+          "sessionsWithoutMetricPercentage": 83.33,
+          "pagesViews": 1,
+          "subTotal": 1,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -1787,12 +1907,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 50,
-          "sessionsWithoutMetricPercentage": 50,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 100,
+          "sessionsWithoutMetricPercentage": 0,
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -1824,7 +1952,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
+          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
           "sessionsCount": 2,
@@ -1832,15 +1960,23 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
+          "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
         },
         {
-          "sessionsCount": 16,
-          "sessionsWithMetricPercentage": 6.25,
-          "sessionsWithoutMetricPercentage": 93.75,
+          "sessionsCount": 9,
+          "sessionsWithMetricPercentage": 11.11,
+          "sessionsWithoutMetricPercentage": 88.89,
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 100,
+          "sessionsWithoutMetricPercentage": 0,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -1883,7 +2019,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -1899,20 +2035,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 5,
-          "sessionsWithMetricPercentage": 20,
-          "sessionsWithoutMetricPercentage": 80,
-          "pagesViews": 1,
-          "subTotal": 1,
-          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
-        },
-        {
-          "sessionsCount": 7,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/adult-games/"
+        },
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 33.33,
+          "sessionsWithoutMetricPercentage": 66.67,
+          "pagesViews": 1,
+          "subTotal": 1,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
           "sessionsCount": 2,
@@ -1921,14 +2057,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -1960,7 +2088,15 @@
       "metricName": "ScriptErrorCount",
       "information": [
         {
-          "sessionsCount": 17,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2016,7 +2152,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2032,7 +2176,7 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2061,7 +2205,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -2072,7 +2216,7 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
+          "sessionsCount": 13,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2160,15 +2304,15 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 12,
-          "sessionsWithMetricPercentage": 8.33,
-          "sessionsWithoutMetricPercentage": 91.67,
+          "sessionsCount": 14,
+          "sessionsWithMetricPercentage": 7.14,
+          "sessionsWithoutMetricPercentage": 92.86,
           "pagesViews": 1,
           "subTotal": 1,
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2176,20 +2320,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
         },
         {
           "sessionsCount": 2,
@@ -2216,6 +2352,14 @@
           "Url": "https://stripunion.com/stripchat-pricing/"
         },
         {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+        },
+        {
           "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -2224,12 +2368,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
-          "sessionsCount": 1,
+          "sessionsCount": 2,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
+          "Url": "https://stripunion.com/creator-platforms/"
         },
         {
           "sessionsCount": 5,
@@ -2253,6 +2397,14 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -2272,12 +2424,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -2309,7 +2469,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
+          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
           "sessionsCount": 2,
@@ -2317,15 +2477,23 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
+          "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
         },
         {
-          "sessionsCount": 16,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -2336,20 +2504,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-game-listing-evidence-audit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
-        },
-        {
           "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-platform-home-wifi-visibility-review/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
         },
         {
           "sessionsCount": 2,
@@ -2368,7 +2536,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2384,7 +2552,7 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2392,7 +2560,7 @@
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
-          "sessionsCount": 7,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2406,14 +2574,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -2445,7 +2605,15 @@
       "metricName": "ErrorClickCount",
       "information": [
         {
-          "sessionsCount": 17,
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2501,7 +2669,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2517,7 +2693,7 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "sessionsCount": 3,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2546,7 +2722,7 @@
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "sessionsCount": 2,
@@ -2557,7 +2733,7 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "sessionsCount": 14,
+          "sessionsCount": 13,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2645,7 +2821,7 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2653,7 +2829,7 @@
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 4,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2661,20 +2837,12 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "sessionsCount": 12,
+          "sessionsCount": 14,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
         },
         {
           "sessionsCount": 2,
@@ -2717,6 +2885,14 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "sessionsCount": 5,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
@@ -2734,6 +2910,14 @@
         },
         {
           "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "sessionsCount": 6,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2757,12 +2941,20 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "sessionsCount": 2,
+          "sessionsCount": 1,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "sessionsCount": 1,
@@ -2805,12 +2997,20 @@
           "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
         },
         {
-          "sessionsCount": 16,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "sessionsCount": 1,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "sessionsCount": 2,
@@ -2821,20 +3021,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-game-listing-evidence-audit/"
         },
         {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
-        },
-        {
           "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/guides/adult-platform-home-wifi-visibility-review/"
+        },
+        {
+          "sessionsCount": 2,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://www.stripunion.com/guides/adult-anime-digital-access-rights-check/"
         },
         {
           "sessionsCount": 2,
@@ -2853,7 +3053,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "sessionsCount": 5,
+          "sessionsCount": 3,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
@@ -2869,20 +3069,20 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "sessionsCount": 5,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
-        },
-        {
-          "sessionsCount": 7,
+          "sessionsCount": 9,
           "sessionsWithMetricPercentage": 0,
           "sessionsWithoutMetricPercentage": 100,
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://stripunion.com/adult-games/"
+        },
+        {
+          "sessionsCount": 3,
+          "sessionsWithMetricPercentage": 0,
+          "sessionsWithoutMetricPercentage": 100,
+          "pagesViews": 0,
+          "subTotal": 0,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
           "sessionsCount": 2,
@@ -2891,14 +3091,6 @@
           "pagesViews": 0,
           "subTotal": 0,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "sessionsCount": 2,
-          "sessionsWithMetricPercentage": 0,
-          "sessionsWithoutMetricPercentage": 100,
-          "pagesViews": 0,
-          "subTotal": 0,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "sessionsCount": 2,
@@ -2930,12 +3122,16 @@
       "metricName": "ScrollDepth",
       "information": [
         {
-          "averageScrollDepth": 16,
-          "Url": "https://www.stripunion.com/stripchat-app/"
+          "averageScrollDepth": 6.25,
+          "Url": "https://stripunion.com/"
         },
         {
-          "averageScrollDepth": 27.41,
+          "averageScrollDepth": 30.21,
           "Url": "https://stripunion.com/stripchat-alternatives/"
+        },
+        {
+          "averageScrollDepth": 16,
+          "Url": "https://www.stripunion.com/stripchat-app/"
         },
         {
           "averageScrollDepth": 37.5,
@@ -2958,11 +3154,15 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "averageScrollDepth": 31.33,
+          "averageScrollDepth": 54,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "averageScrollDepth": 42,
           "Url": "https://www.stripunion.com/categories/"
         },
         {
-          "averageScrollDepth": 28,
+          "averageScrollDepth": 37.2,
           "Url": "https://stripunion.com/categories/"
         },
         {
@@ -2974,15 +3174,15 @@
           "Url": "https://stripunion.com/guides/premium-video-access-model-entitlement-comparison/"
         },
         {
-          "averageScrollDepth": 27.33,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "averageScrollDepth": 48.33,
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "averageScrollDepth": 6,
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "averageScrollDepth": 17.64,
+          "averageScrollDepth": 25.38,
           "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
         },
         {
@@ -3010,12 +3210,12 @@
           "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-planning/"
         },
         {
-          "averageScrollDepth": 10,
-          "Url": "https://www.stripunion.com/sexlikereal/"
-        },
-        {
           "averageScrollDepth": 61,
           "Url": "https://stripunion.com/guides/before-buying-vr-headset-check-adult-platform-compatibility/"
+        },
+        {
+          "averageScrollDepth": 10,
+          "Url": "https://www.stripunion.com/sexlikereal/"
         },
         {
           "averageScrollDepth": 59,
@@ -3026,24 +3226,20 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "averageScrollDepth": 2.77,
-          "Url": "https://www.stripunion.com/hentai-anime/"
-        },
-        {
-          "averageScrollDepth": 13.5,
+          "averageScrollDepth": 14.75,
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
         {
-          "averageScrollDepth": 23.17,
+          "averageScrollDepth": 3.07,
+          "Url": "https://www.stripunion.com/hentai-anime/"
+        },
+        {
+          "averageScrollDepth": 21.8,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
         },
         {
           "averageScrollDepth": 15.5,
           "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
-        },
-        {
-          "averageScrollDepth": 37.5,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
         },
         {
           "averageScrollDepth": 1,
@@ -3062,6 +3258,10 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check/"
         },
         {
+          "averageScrollDepth": 1,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "averageScrollDepth": 17.8,
           "Url": "https://www.stripunion.com/avcams/"
         },
@@ -3070,7 +3270,11 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow/"
         },
         {
-          "averageScrollDepth": 28.5,
+          "averageScrollDepth": 2,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "averageScrollDepth": 21.33,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -3082,8 +3286,12 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "averageScrollDepth": 50,
+          "averageScrollDepth": 86,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "averageScrollDepth": 40,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "averageScrollDepth": 23,
@@ -3098,16 +3306,20 @@
           "Url": "https://stripunion.com/guides/adult-game-content-warnings-and-narrative-fit-checklist/"
         },
         {
-          "averageScrollDepth": 20,
-          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
-        },
-        {
           "averageScrollDepth": 14,
           "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
         },
         {
-          "averageScrollDepth": 2.62,
+          "averageScrollDepth": 20,
+          "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
+        },
+        {
+          "averageScrollDepth": 2.33,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "averageScrollDepth": 51,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "averageScrollDepth": 10,
@@ -3130,7 +3342,7 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "averageScrollDepth": 3.6,
+          "averageScrollDepth": 3.33,
           "Url": "https://stripunion.com/premium-videos/"
         },
         {
@@ -3138,20 +3350,16 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "averageScrollDepth": 3.86,
-          "Url": "https://stripunion.com/adult-games/"
+          "averageScrollDepth": 13.67,
+          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
-          "averageScrollDepth": 14,
-          "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
+          "averageScrollDepth": 14.56,
+          "Url": "https://stripunion.com/adult-games/"
         },
         {
           "averageScrollDepth": 16,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "averageScrollDepth": 18,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "averageScrollDepth": 8,
@@ -3171,17 +3379,17 @@
       "metricName": "Traffic",
       "information": [
         {
-          "totalSessionCount": 0,
-          "totalBotSessionCount": 131,
-          "distinctUserCount": 0,
-          "pagesPerSessionPercentage": null,
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 148,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 3.5,
           "Url": "https://stripunion.com/"
         },
         {
-          "totalSessionCount": 17,
+          "totalSessionCount": 14,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 14,
-          "pagesPerSessionPercentage": 1.3529411764705883,
+          "distinctUserCount": 13,
+          "pagesPerSessionPercentage": 1.2142857142857142,
           "Url": "https://stripunion.com/stripchat-alternatives/"
         },
         {
@@ -3199,11 +3407,11 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-content-labels-rating-review/"
         },
         {
-          "totalSessionCount": 2,
-          "totalBotSessionCount": 0,
-          "distinctUserCount": 2,
-          "pagesPerSessionPercentage": 1,
-          "Url": "https://www.stripunion.com/guides/free-adult-video-browser-versus-app-privacy-checklist/"
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/vr-adult-managed-headset-policy-and-account-separation"
         },
         {
           "totalSessionCount": 1,
@@ -3211,6 +3419,13 @@
           "distinctUserCount": 1,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/adult-game-download-source-update-save-checklist/"
+        },
+        {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 1,
+          "Url": "https://www.stripunion.com/guides/free-adult-video-browser-versus-app-privacy-checklist/"
         },
         {
           "totalSessionCount": 2,
@@ -3234,10 +3449,17 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "totalSessionCount": 3,
+          "totalSessionCount": 1,
           "totalBotSessionCount": 0,
           "distinctUserCount": 1,
-          "pagesPerSessionPercentage": 2.6666666666666665,
+          "pagesPerSessionPercentage": 5,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "totalSessionCount": 5,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 3,
+          "pagesPerSessionPercentage": 2,
           "Url": "https://www.stripunion.com/categories/"
         },
         {
@@ -3248,15 +3470,15 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "totalSessionCount": 3,
+          "totalSessionCount": 9,
           "totalBotSessionCount": 1,
-          "distinctUserCount": 1,
-          "pagesPerSessionPercentage": 2,
+          "distinctUserCount": 4,
+          "pagesPerSessionPercentage": 2.4444444444444446,
           "Url": "https://stripunion.com/categories/"
         },
         {
           "totalSessionCount": 2,
-          "totalBotSessionCount": 56,
+          "totalBotSessionCount": 63,
           "distinctUserCount": 2,
           "pagesPerSessionPercentage": 1,
           "Url": "https://blog.stripunion.com/"
@@ -3269,11 +3491,18 @@
           "Url": "https://stripunion.com/guides/premium-video-access-model-entitlement-comparison/"
         },
         {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/live-cam-platform-operator-and-access-verification"
+        },
+        {
           "totalSessionCount": 3,
-          "totalBotSessionCount": 0,
-          "distinctUserCount": 3,
-          "pagesPerSessionPercentage": 1,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "totalBotSessionCount": 1,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 2.3333333333333335,
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "totalSessionCount": 2,
@@ -3297,10 +3526,10 @@
           "Url": "https://www.stripunion.com/"
         },
         {
-          "totalSessionCount": 14,
+          "totalSessionCount": 13,
           "totalBotSessionCount": 0,
           "distinctUserCount": 12,
-          "pagesPerSessionPercentage": 1.2857142857142858,
+          "pagesPerSessionPercentage": 1.1538461538461537,
           "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
         },
         {
@@ -3346,6 +3575,13 @@
           "Url": "https://www.stripunion.com/stripchat-vs-chaturbate/"
         },
         {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/premium-video-session-expiry-preflight"
+        },
+        {
           "totalSessionCount": 5,
           "totalBotSessionCount": 0,
           "distinctUserCount": 5,
@@ -3358,6 +3594,13 @@
           "distinctUserCount": 2,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/guides/premium-video-offline-access-entitlement-planning/"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-dating-account-login-security-and-recovery-review"
         },
         {
           "totalSessionCount": 4,
@@ -3381,6 +3624,13 @@
           "Url": "https://stripunion.com/chaturbate-alternatives/"
         },
         {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/affiliate-conversion-status-lifecycle-review"
+        },
+        {
           "totalSessionCount": 7,
           "totalBotSessionCount": 0,
           "distinctUserCount": 5,
@@ -3388,16 +3638,16 @@
           "Url": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/"
         },
         {
-          "totalSessionCount": 12,
+          "totalSessionCount": 14,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 8,
-          "pagesPerSessionPercentage": 1.6666666666666667,
+          "distinctUserCount": 10,
+          "pagesPerSessionPercentage": 1.5714285714285714,
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "totalSessionCount": 2,
+          "totalSessionCount": 4,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 2,
+          "distinctUserCount": 4,
           "pagesPerSessionPercentage": 1,
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
@@ -3416,17 +3666,10 @@
           "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
         },
         {
-          "totalSessionCount": 2,
+          "totalSessionCount": 14,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 2,
-          "pagesPerSessionPercentage": 1,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
-        },
-        {
-          "totalSessionCount": 12,
-          "totalBotSessionCount": 0,
-          "distinctUserCount": 6,
-          "pagesPerSessionPercentage": 1,
+          "distinctUserCount": 7,
+          "pagesPerSessionPercentage": 1.1428571428571428,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
         },
         {
@@ -3466,7 +3709,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 112,
+          "totalBotSessionCount": 126,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/"
@@ -3486,6 +3729,13 @@
           "Url": "https://stripunion.com/guides/"
         },
         {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 3,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "totalSessionCount": 5,
           "totalBotSessionCount": 0,
           "distinctUserCount": 5,
@@ -3494,14 +3744,21 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 2,
+          "totalBotSessionCount": 14,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
-          "Url": "https://www.stripunion.com/stripchat-alternatives/"
+          "Url": "http://127.0.0.1:4321/guides/adult-animation-app-installation-preflight"
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 112,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/creator-platform-multilingual-audience-fit-audit"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 126,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/"
@@ -3514,6 +3771,13 @@
           "Url": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow/"
         },
         {
+          "totalSessionCount": 2,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 4,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
           "totalSessionCount": 0,
           "totalBotSessionCount": 1,
           "distinctUserCount": 0,
@@ -3521,10 +3785,17 @@
           "Url": "https://stripunion.com/guides/adult-platform-email-aliases-inbox-privacy-account-recovery/"
         },
         {
-          "totalSessionCount": 2,
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-cam-site-safety-preflight"
+        },
+        {
+          "totalSessionCount": 6,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 2,
-          "pagesPerSessionPercentage": 1,
+          "distinctUserCount": 5,
+          "pagesPerSessionPercentage": 2,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -3542,11 +3813,18 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 2,
+          "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
           "totalSessionCount": 2,
           "totalBotSessionCount": 0,
           "distinctUserCount": 1,
-          "pagesPerSessionPercentage": 2.5,
-          "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+          "pagesPerSessionPercentage": 3,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "totalSessionCount": 1,
@@ -3584,11 +3862,18 @@
           "Url": "https://stripunion.com/guides/adult-platform-private-browsing-limits-trace-audit/"
         },
         {
-          "totalSessionCount": 16,
+          "totalSessionCount": 9,
           "totalBotSessionCount": 1,
-          "distinctUserCount": 11,
-          "pagesPerSessionPercentage": 1.5,
+          "distinctUserCount": 5,
+          "pagesPerSessionPercentage": 1.6666666666666667,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "totalSessionCount": 1,
+          "totalBotSessionCount": 0,
+          "distinctUserCount": 1,
+          "pagesPerSessionPercentage": 5,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "totalSessionCount": 2,
@@ -3633,9 +3918,9 @@
           "Url": "https://stripunion.com/guides/adult-platform-age-verification-privacy-checklist/"
         },
         {
-          "totalSessionCount": 5,
+          "totalSessionCount": 3,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 5,
+          "distinctUserCount": 3,
           "pagesPerSessionPercentage": 1,
           "Url": "https://stripunion.com/premium-videos/"
         },
@@ -3647,17 +3932,17 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "totalSessionCount": 7,
+          "totalSessionCount": 9,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 7,
-          "pagesPerSessionPercentage": 1.1428571428571428,
+          "distinctUserCount": 8,
+          "pagesPerSessionPercentage": 1.7777777777777777,
           "Url": "https://stripunion.com/adult-games/"
         },
         {
-          "totalSessionCount": 5,
+          "totalSessionCount": 3,
           "totalBotSessionCount": 0,
-          "distinctUserCount": 3,
-          "pagesPerSessionPercentage": 2,
+          "distinctUserCount": 2,
+          "pagesPerSessionPercentage": 1.6666666666666667,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
@@ -3689,11 +3974,18 @@
           "Url": "https://stripunion.com/ashley-madison/"
         },
         {
-          "totalSessionCount": 2,
-          "totalBotSessionCount": 0,
-          "distinctUserCount": 2,
-          "pagesPerSessionPercentage": 1,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-games-age-check-data-review-before-browsing"
+        },
+        {
+          "totalSessionCount": 0,
+          "totalBotSessionCount": 14,
+          "distinctUserCount": 0,
+          "pagesPerSessionPercentage": null,
+          "Url": "http://127.0.0.1:4321/guides/adult-shop-age-check-data-transparency-review"
         },
         {
           "totalSessionCount": 2,
@@ -3718,7 +4010,7 @@
         },
         {
           "totalSessionCount": 0,
-          "totalBotSessionCount": 112,
+          "totalBotSessionCount": 126,
           "distinctUserCount": 0,
           "pagesPerSessionPercentage": null,
           "Url": "https://stripunion.com/guides/adult-site-payment-privacy-billing-guide/"
@@ -3729,7 +4021,12 @@
       "metricName": "EngagementTime",
       "information": [
         {
-          "totalTime": 104,
+          "totalTime": 3,
+          "activeTime": 3,
+          "Url": "https://stripunion.com/"
+        },
+        {
+          "totalTime": 125,
           "activeTime": 5,
           "Url": "https://stripunion.com/stripchat-alternatives/"
         },
@@ -3764,7 +4061,12 @@
           "Url": "https://www.stripunion.com/guides/adult-dating-location-precision-exposure-check/"
         },
         {
-          "totalTime": 1,
+          "totalTime": 6,
+          "activeTime": 6,
+          "Url": "https://stripunion.com/guides/vr-adult-managed-headset-policy-and-account-separation/?utm_source=chatgpt.com"
+        },
+        {
+          "totalTime": 2,
           "activeTime": 1,
           "Url": "https://www.stripunion.com/categories/"
         },
@@ -3774,8 +4076,8 @@
           "Url": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/"
         },
         {
-          "totalTime": 2,
-          "activeTime": 2,
+          "totalTime": 3,
+          "activeTime": 3,
           "Url": "https://stripunion.com/categories/"
         },
         {
@@ -3789,9 +4091,9 @@
           "Url": "https://stripunion.com/guides/premium-video-access-model-entitlement-comparison/"
         },
         {
-          "totalTime": 2,
-          "activeTime": 2,
-          "Url": "https://stripunion.com/guides/adult-anime-content-labels-rating-review/"
+          "totalTime": 8,
+          "activeTime": 8,
+          "Url": "https://stripunion.com/live-cams/"
         },
         {
           "totalTime": 0,
@@ -3799,7 +4101,7 @@
           "Url": "https://www.stripunion.com/guides/vr-adult-video-format-labels-compatibility-guide/?utm_source=chatgpt.com"
         },
         {
-          "totalTime": 5,
+          "totalTime": 3,
           "activeTime": 3,
           "Url": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/"
         },
@@ -3859,7 +4161,7 @@
           "Url": "https://www.stripunion.com/hentai-anime/"
         },
         {
-          "totalTime": 2,
+          "totalTime": 6,
           "activeTime": 2,
           "Url": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/"
         },
@@ -3869,12 +4171,7 @@
           "Url": "https://www.stripunion.com/how-stripchat-tokens-work/"
         },
         {
-          "totalTime": 5,
-          "activeTime": 5,
-          "Url": "https://stripunion.com/guides/vr-adult-platform-library-depth-audit/"
-        },
-        {
-          "totalTime": 158,
+          "totalTime": 157,
           "activeTime": 2,
           "Url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/"
         },
@@ -3899,6 +4196,11 @@
           "Url": "https://stripunion.com/guides/premium-video-catalog-removal-access-planning/"
         },
         {
+          "totalTime": 3,
+          "activeTime": 3,
+          "Url": "https://stripunion.com/creator-platforms/"
+        },
+        {
           "totalTime": 5,
           "activeTime": 0,
           "Url": "https://www.stripunion.com/avcams/"
@@ -3911,6 +4213,11 @@
         {
           "totalTime": 6,
           "activeTime": 6,
+          "Url": "https://stripunion.com/dating-hookups/"
+        },
+        {
+          "totalTime": 3,
+          "activeTime": 3,
           "Url": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide/"
         },
         {
@@ -3924,9 +4231,14 @@
           "Url": "https://stripunion.com/best-live-cam-sites/"
         },
         {
-          "totalTime": 6,
-          "activeTime": 4,
+          "totalTime": 13,
+          "activeTime": 9,
           "Url": "https://stripunion.com/stripchat-vs-livejasmin/"
+        },
+        {
+          "totalTime": 6,
+          "activeTime": 6,
+          "Url": "https://stripunion.com/stripchat/"
         },
         {
           "totalTime": 12,
@@ -3954,9 +4266,14 @@
           "Url": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/"
         },
         {
-          "totalTime": 4,
-          "activeTime": 4,
+          "totalTime": 3,
+          "activeTime": 3,
           "Url": "https://stripunion.com/hentai-anime/"
+        },
+        {
+          "totalTime": 12,
+          "activeTime": 12,
+          "Url": "https://stripunion.com/guides/adult-games-age-check-data-review-before-browsing/?utm_source=chatgpt.com"
         },
         {
           "totalTime": 2,
@@ -3984,8 +4301,8 @@
           "Url": "https://www.stripunion.com/livejasmin/"
         },
         {
-          "totalTime": 6,
-          "activeTime": 6,
+          "totalTime": 5,
+          "activeTime": 5,
           "Url": "https://stripunion.com/premium-videos/"
         },
         {
@@ -3994,24 +4311,19 @@
           "Url": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/"
         },
         {
-          "totalTime": 19,
-          "activeTime": 19,
+          "totalTime": 16,
+          "activeTime": 16,
           "Url": "https://stripunion.com/adult-games/"
         },
         {
-          "totalTime": 102,
-          "activeTime": 3,
+          "totalTime": 5,
+          "activeTime": 2,
           "Url": "https://stripunion.com/stripchat-vs-chaturbate/"
         },
         {
           "totalTime": 2,
           "activeTime": 2,
           "Url": "https://www.stripunion.com/stripchat-private-shows/"
-        },
-        {
-          "totalTime": 1,
-          "activeTime": 1,
-          "Url": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/"
         },
         {
           "totalTime": 2,

@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "runId": "43145721117",
-  "startedAt": "2026-11-12T03:04:52Z",
-  "generatedAt": "2026-11-12T03:05:31.871Z",
+  "runId": "43182769566",
+  "startedAt": "2026-11-12T08:25:23Z",
+  "generatedAt": "2026-11-12T08:26:26.403Z",
   "status": "degraded",
   "sources": {
     "gsc": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:04:54.758Z",
+      "collectedAt": "2026-11-12T08:25:25.650Z",
       "snapshotDate": "2026-11-10",
       "startDate": "2026-10-11",
       "endDate": "2026-11-10",
@@ -19,7 +19,7 @@
     "gsc-blog": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:09.897Z",
+      "collectedAt": "2026-11-12T08:26:01.590Z",
       "snapshotDate": "2026-11-10",
       "startDate": "2026-10-11",
       "endDate": "2026-11-10",
@@ -30,7 +30,7 @@
     "ga4": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:12.561Z",
+      "collectedAt": "2026-11-12T08:26:04.060Z",
       "snapshotDate": "2026-11-11",
       "startDate": "2026-10-12",
       "endDate": "2026-11-11",
@@ -41,7 +41,7 @@
     "ga4-admin": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:13.519Z",
+      "collectedAt": "2026-11-12T08:26:05.172Z",
       "snapshotDate": "2026-11-12",
       "startDate": null,
       "endDate": null,
@@ -52,7 +52,7 @@
     "clarity": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:15.503Z",
+      "collectedAt": "2026-11-12T08:26:06.121Z",
       "snapshotDate": "2026-11-12",
       "startDate": null,
       "endDate": null,
@@ -63,7 +63,7 @@
     "bing": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:26.829Z",
+      "collectedAt": "2026-11-12T08:26:20.590Z",
       "snapshotDate": "2026-11-11",
       "startDate": null,
       "endDate": null,
@@ -85,7 +85,7 @@
     "stripcash": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:30.339Z",
+      "collectedAt": "2026-11-12T08:26:24.309Z",
       "snapshotDate": "2026-11-11",
       "startDate": null,
       "endDate": null,
@@ -96,7 +96,7 @@
     "attribution": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-12T03:05:30.711Z",
+      "collectedAt": "2026-11-12T08:26:24.620Z",
       "snapshotDate": "2026-11-11",
       "startDate": null,
       "endDate": null,

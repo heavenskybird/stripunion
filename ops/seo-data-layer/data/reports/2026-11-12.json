@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T03:08:44.399Z",
+  "generatedAt": "2026-11-12T08:26:26.961Z",
   "sourceDates": {
     "gsc": "2026-11-10",
     "gscBlog": "2026-11-10",
@@ -52,15 +52,15 @@
       "ctr": 0.024390243902439025,
       "note": "Independent Blog URL-prefix signal; do not add to main Domain property totals."
     },
-    "clicks": 77,
-    "impressions": 2254,
-    "ctr": 0.034161490683229816,
-    "averagePosition": 13.758207630878438,
+    "clicks": 96,
+    "impressions": 2850,
+    "ctr": 0.03368421052631579,
+    "averagePosition": 13.872631578947368,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
-        "clicks": 239,
-        "impressions": 10537
+        "clicks": 258,
+        "impressions": 11161
       },
       "blog": {
         "clicks": 1,
@@ -137,20 +137,20 @@
         "position": 5.411764705882353
       },
       {
+        "date": "2026-11-10",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 17,
+        "ctr": 0,
+        "position": 6.352941176470588
+      },
+      {
         "date": "2026-11-08",
         "query": "livejasmin",
         "clicks": 2,
         "impressions": 16,
         "ctr": 0.125,
         "position": 16.4375
-      },
-      {
-        "date": "2026-11-07",
-        "query": "chaturbate alternatives",
-        "clicks": 1,
-        "impressions": 16,
-        "ctr": 0.0625,
-        "position": 6.875
       }
     ],
     "highImpressionWeakCtr": [
@@ -211,6 +211,14 @@
         "position": 5.411764705882353
       },
       {
+        "date": "2026-11-10",
+        "query": "stripchat alternative",
+        "clicks": 0,
+        "impressions": 17,
+        "ctr": 0,
+        "position": 6.352941176470588
+      },
+      {
         "date": "2026-10-28",
         "query": "stripchat alternative",
         "clicks": 0,
@@ -225,56 +233,48 @@
         "impressions": 16,
         "ctr": 0,
         "position": 6.8125
-      },
-      {
-        "date": "2026-11-02",
-        "query": "chaturbate alternative",
-        "clicks": 0,
-        "impressions": 15,
-        "ctr": 0,
-        "position": 10.066666666666666
       }
     ],
     "topPagesByImpressions": [
       {
         "key": "https://www.stripunion.com/stripchat-alternatives",
-        "value": 544
+        "value": 549
       },
       {
         "key": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
-        "value": 310
+        "value": 333
       },
       {
         "key": "https://www.stripunion.com/stripchat-app",
-        "value": 280
+        "value": 305
       },
       {
         "key": "https://www.stripunion.com/chaturbate-alternatives",
-        "value": 278
+        "value": 292
+      },
+      {
+        "key": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow",
+        "value": 288
+      },
+      {
+        "key": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+        "value": 274
       },
       {
         "key": "https://www.stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
         "value": 268
       },
       {
-        "key": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow",
-        "value": 267
-      },
-      {
-        "key": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
-        "value": 255
-      },
-      {
         "key": "https://www.stripunion.com/stripchat-pricing",
-        "value": 250
+        "value": 258
       },
       {
         "key": "https://stripunion.com/chaturbate-alternatives",
-        "value": 214
+        "value": 216
       },
       {
-        "key": "https://www.stripunion.com/stripchat-alternatives/",
-        "value": 182
+        "key": "https://stripunion.com/stripchat-alternatives/",
+        "value": 197
       }
     ]
   },
@@ -2051,13 +2051,6 @@
           "BroadImpressions": 28602432,
           "Impressions": 9003436,
           "Query": "porn",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 28602432,
-          "Impressions": 9003436,
-          "Query": "porn",
           "seed": "xhamster site overview"
         },
         {
@@ -2066,6 +2059,13 @@
           "Impressions": 3356067,
           "Query": "xhamster",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 2411869,
+          "Impressions": 1862849,
+          "Query": "free porn",
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2107,14 +2107,14 @@
           "BroadImpressions": 274722,
           "Impressions": 274444,
           "Query": "xhampster",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 274722,
           "Impressions": 274444,
           "Query": "xhampster",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2125,16 +2125,23 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 183988,
-          "Impressions": 24539,
-          "Query": "amsterdam",
+          "BroadImpressions": 232400,
+          "Impressions": 221829,
+          "Query": "xhamster.com",
           "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 108821,
-          "Impressions": 92477,
-          "Query": "x hamster",
+          "BroadImpressions": 223707,
+          "Impressions": 220932,
+          "Query": "chaterbate",
+          "seed": "chaturbate alternatives"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 183988,
+          "Impressions": 24539,
+          "Query": "amsterdam",
           "seed": "xhamster review"
         },
         {
@@ -2146,17 +2153,17 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 108821,
-          "Impressions": 92477,
-          "Query": "x hamster",
-          "seed": "xhamster reviews"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 103737,
           "Impressions": 69196,
           "Query": "adult videos",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 99178,
+          "Impressions": 86919,
+          "Query": "hamster porn",
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2178,13 +2185,6 @@
           "Impressions": 46547,
           "Query": "amateur porn",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 84539,
-          "Impressions": 4627,
-          "Query": "affiliate",
-          "seed": "adult affiliate program"
         }
       ]
     }
@@ -2277,7 +2277,7 @@
       "EngagementTime"
     ],
     "metricGroups": 9,
-    "informationRows": 558
+    "informationRows": 602
   },
   "buffer": {
     "status": "stale_or_invalid",
@@ -2329,18 +2329,27 @@
     "receiverConnected": true,
     "postbackJoinReady": true,
     "joinQuality": {
-      "matchedShare": 0.07692307692307693,
+      "matchedShare": 0.2,
       "status": "incomplete",
-      "diagnostics": null
+      "diagnostics": {
+        "version": 1,
+        "since": "2026-11-12T05:23:11.967Z",
+        "observedPostbacks": 2,
+        "joinStatus": {
+          "matched": 2
+        },
+        "unknownCurrency": 2,
+        "missingTransactionId": 2
+      }
     },
-    "totalClicks": 44,
-    "totalPostbacks": 13,
-    "matchedPostbacks": 1,
+    "totalClicks": 45,
+    "totalPostbacks": 15,
+    "matchedPostbacks": 3,
     "unmatchedPostbacks": 12,
     "duplicatePostbacks": 0,
     "eventCounts": {
-      "member_registration": 2,
-      "age_verification": 2,
+      "member_registration": 3,
+      "age_verification": 3,
       "purchase": 7,
       "first_purchase": 1,
       "member_verification": 1
@@ -2350,6 +2359,17 @@
     },
     "topP1": [
       {
+        "key": "stripchat-alternatives",
+        "clicks": 11,
+        "postbacks": 2,
+        "matchedPostbacks": 2,
+        "eventCounts": {
+          "member_registration": 1,
+          "age_verification": 1
+        },
+        "revenueByCurrency": {}
+      },
+      {
         "key": "stripchat_alternatives",
         "clicks": 5,
         "postbacks": 1,
@@ -2357,14 +2377,6 @@
         "eventCounts": {
           "age_verification": 1
         },
-        "revenueByCurrency": {}
-      },
-      {
-        "key": "stripchat-alternatives",
-        "clicks": 10,
-        "postbacks": 0,
-        "matchedPostbacks": 0,
-        "eventCounts": {},
         "revenueByCurrency": {}
       },
       {
@@ -2404,8 +2416,8 @@
     },
     "qualifiedSessions": 1,
     "outboundAffiliateCtr": 0,
-    "organicImpressions": 2254,
-    "organicClicks": 77,
+    "organicImpressions": 2850,
+    "organicClicks": 96,
     "indexedPages": 57,
     "publishedContentCount": {
       "astroCommercialPages": 20,
@@ -2441,13 +2453,13 @@
       "webmasterReferralEarnings": 0
     },
     "firstPartyAttribution": {
-      "clicks": 44,
-      "postbacks": 13,
-      "matchedPostbacks": 1,
+      "clicks": 45,
+      "postbacks": 15,
+      "matchedPostbacks": 3,
       "unmatchedPostbacks": 12,
       "eventCounts": {
-        "member_registration": 2,
-        "age_verification": 2,
+        "member_registration": 3,
+        "age_verification": 3,
         "purchase": 7,
         "first_purchase": 1,
         "member_verification": 1
