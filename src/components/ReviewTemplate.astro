@@ -1,5 +1,6 @@
 ---
 import SearchIntentNavigation from './SearchIntentNavigation.astro';
+import { searchCanonical } from '../config/search-canonical.mjs';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from './AffiliateButton.astro';
 import { SITE, updatedLabel } from '../config/site.js';
@@ -17,7 +18,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url },
     { '@type': 'ListItem', position: 2, name: review.category, item: new URL(`/${review.categorySlug}`, SITE.url).toString() },
-    { '@type': 'ListItem', position: 3, name: review.name, item: new URL(`/${review.slug}`, SITE.url).toString() }
+    { '@type': 'ListItem', position: 3, name: review.name, item: new URL(searchCanonical(`/${review.slug}`), SITE.url).toString() }
   ]
 };
 

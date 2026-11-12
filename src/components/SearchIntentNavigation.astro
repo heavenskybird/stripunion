@@ -1,4 +1,5 @@
 ---
+import { searchCanonical } from '../config/search-canonical.mjs';
 const { brand = 'Stripchat' } = Astro.props;
 const links = brand === 'xHamster'
   ? [['Video browsing', '/free-videos'], ['Live interaction instead', '/best-live-cam-sites']]
@@ -7,5 +8,5 @@ const links = brand === 'xHamster'
 <aside class="take-box" aria-label={`${brand} related decisions`}>
   <h2>Choose the guide for your question</h2>
   <p>A review, an alternatives comparison and an app guide answer different questions. Start with the decision you need to make.</p>
-  <ul>{links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
+  <ul>{links.map(([label, href]) => <li><a href={searchCanonical(href)}>{label}</a></li>)}</ul>
 </aside>
