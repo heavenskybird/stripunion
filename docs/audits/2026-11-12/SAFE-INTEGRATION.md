@@ -1,5 +1,30 @@
 # Reviewed offline recovery integration
 
+## Current release refresh
+
+After the first integration, refreshed without conflicts to current production
+main386faf7a7cb18e6fa1471ecef1dcce7aefce2a28 (fifth batch closure). Joint105
+reliability tests, staging and production builds, robots, SEO and GA4/Clarity
+Consent artifact checks reran successfully. No production runtime paths changed
+relative to that main. Release source audit now covers1,600 guides/1,279,200 pairs,
+3,625 heuristic warnings, at source tree recorded in the temporary refreshed
+report. Older counts below are historical acceptance snapshots, not live totals.
+
+Fifth real run43213236095 is event=schedule, started11:55:10.046Z and finished
+12:01:46.825Z. Quality/visual steps, five final200+source fingerprints and all
+five monotonic Ledger records independently reread. This is25 published guides,
+not proof of timely Cron: fifth admission was75m49s after its eligibility time.
+Its30,707 input+12,556 output Tokens update total to250,577, six requests/one
+retry across five runs; price/invoice/credit remain UNKNOWN.
+
+Existing hourly observer binding confirmed enabled and pinned to immutable
+6768aed9. Its post-binding external observation19:55Asia/Shanghai executed
+the adapter and CLI against fresh actual connector data, classified WRITER_ACTIVE
+for the fifth run and notify=false. Task metadata recorded last_run_time11:55Z,
+but run_details identity/delivery are unavailable: no claim of alert delivery or
+cross-executor cache persistence. Compensation remains disabled. The pinned
+tool code is unchanged by this main/source refresh.
+
 Base main: `74c772e3d2ec70c808b7e7af322426f95edffaf5` (fourth real batch
 closure). Exact reviewed heads merged with `--no-ff`, no conflicts:
 
