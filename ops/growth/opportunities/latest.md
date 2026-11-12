@@ -2,7 +2,7 @@
 
 Sources: GSC 2026-11-10 · Bing 2026-11-11 · GA4 2026-11-11 · Clarity 2026-11-12 · Attribution 2026-11-11 · StripCash 2026-11-11 · competitor snapshot 2026-11-12 · diff 2026-11-12.
 
-Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 18 · off-topic/broad Bing expansion rows dropped: 144.
+Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 20 · off-topic/broad Bing expansion rows dropped: 138.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -10,21 +10,21 @@ StripCash aggregate funnel connected: 0 signups · 0 verified · 0 purchases · 
 
 ## Keyword expansion from Bing
 
-1. **xhamster'** — 3622058 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-2. **xhampster** — 549444 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-3. **xhamster .com** — 266079 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-4. **hamster porn** — 198356 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-5. **amateur porn** — 88963 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: new_content_candidate.
-6. **xhamster porn** — 78298 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-7. **chaturbate.com** — 76899 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
-8. **xhamster live** — 39536 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
-9. **xhamster gay** — 26438 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
-10. **xhamster xxx** — 19296 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-11. **porn xhamster** — 17804 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
-12. **xhamter** — 14850 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
-13. **xhamsters.com** — 14767 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
-14. **hamster xxx** — 13646 Bing keyword-research impressions signal; seed(s): xhamster reviews; use: refresh_existing:/xhamster.
-15. **chaturbate men** — 12601 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
+1. **xhamster'** — 3619262 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+2. **xhampster** — 549444 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
+3. **xhamster.com** — 529426 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+4. **hamster porn** — 297534 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+5. **chaterbate** — 223707 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate-alternatives.
+6. **amateur porn** — 88963 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: new_content_candidate.
+7. **xhamster porn** — 78298 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+8. **xhamster live** — 39536 Bing keyword-research impressions signal; seed(s): xhamster reviews; use: refresh_existing:/xhamster.
+9. **hamster xxx** — 27292 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+10. **xhamster gay** — 26438 Bing keyword-research impressions signal; seed(s): xhamster review; use: refresh_existing:/xhamster.
+11. **xhamsters** — 25644 Bing keyword-research impressions signal; seed(s): xhamster reviews; use: refresh_existing:/xhamster.
+12. **live porn** — 22489 Bing keyword-research impressions signal; seed(s): live cam sites; use: new_content_candidate.
+13. **xhamsters videos** — 20984 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+14. **xhamsters.com** — 14767 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+15. **xhamster xxx** — 12864 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
 
 ## Rising keyword signals
 
@@ -47,32 +47,32 @@ No actionable Clarity friction signals were found in the latest export.
 ## Ranked evidence-backed opportunities
 
 1. **adult anime app** — evaluate a new on-site guide against the content inventory; 15 clustered impressions, 4 clicks, best position 8, 9 query variant(s); intent unknown; route none; confidence low; risk low.
-2. **LiveJasmin review** — refresh existing /livejasmin landing page using clustered search evidence; 108 clustered impressions, 5 clicks, best position 2, 36 query variant(s); intent unknown; route none; confidence low; risk low.
-3. **Stripchat mobile experience** — refresh existing /stripchat-app landing page using clustered search evidence; 133 clustered impressions, 6 clicks, best position 5, 34 query variant(s); intent unknown; route avcams-viewer; confidence low; risk low.
-4. **Stripchat alternatives** — refresh existing /stripchat-alternatives landing page using clustered search evidence; 389 clustered impressions, 8 clicks, best position 3, 60 query variant(s); intent approved AVCams/StripCash intent; route avcams-viewer; confidence medium; risk low.
+2. **LiveJasmin review** — refresh existing /livejasmin landing page using clustered search evidence; 122 clustered impressions, 5 clicks, best position 2, 38 query variant(s); intent unknown; route none; confidence low; risk low.
+3. **Stripchat mobile experience** — refresh existing /stripchat-app landing page using clustered search evidence; 141 clustered impressions, 6 clicks, best position 5, 38 query variant(s); intent unknown; route avcams-viewer; confidence low; risk low.
+4. **Stripchat alternatives** — refresh existing /stripchat-alternatives landing page using clustered search evidence; 412 clustered impressions, 8 clicks, best position 3, 62 query variant(s); intent approved AVCams/StripCash intent; route avcams-viewer; confidence medium; risk low.
 5. **VRPorn review** — refresh existing /vrporn landing page using clustered search evidence; 50 clustered impressions, 3 clicks, best position 42, 7 query variant(s); intent unknown; route none; confidence low; risk low.
-6. **freelivecam** — evaluate a new on-site guide against the content inventory; 79 clustered impressions, 2 clicks, best position 7.75, 17 query variant(s); intent unknown; route none; confidence low; risk low.
-7. **hentai streaming** — evaluate a new on-site guide against the content inventory; 33 clustered impressions, 4 clicks, best position 22, 11 query variant(s); intent unknown; route none; confidence low; risk low.
-8. **xHamster review** — refresh existing /xhamster landing page using clustered search evidence; 165 clustered impressions, 3 clicks, best position 1, 99 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
-9. **hentai streaming sites** — evaluate a new on-site guide against the content inventory; 31 clustered impressions, 1 clicks, best position 15, 11 query variant(s); intent unknown; route none; confidence low; risk low.
-10. **Chaturbate review** — refresh existing /chaturbate landing page using clustered search evidence; 604 clustered impressions, 3 clicks, best position 2, 182 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence medium; risk low.
-11. **Stripchat review** — refresh existing /stripchat landing page using clustered search evidence; 394 clustered impressions, 7 clicks, best position 1, 237 query variant(s); intent unknown; route avcams-viewer; confidence low; risk low.
-12. **vr adult** — evaluate a new on-site guide against the content inventory; 28 clustered impressions, 1 clicks, best position 55.5, 16 query variant(s); intent unknown; route none; confidence low; risk low.
-13. **SexLikeReal review** — refresh existing /sexlikereal landing page using clustered search evidence; 73 clustered impressions, 1 clicks, best position 8.5, 29 query variant(s); intent unknown; route none; confidence low; risk low.
-14. **anime sex games** — evaluate a new on-site guide against the content inventory; 50 clustered impressions, 1 clicks, best position 33, 17 query variant(s); intent unknown; route none; confidence low; risk low.
-15. **are cam sites safe** — evaluate a new on-site guide against the content inventory; 42 clustered impressions, 0 clicks, best position 11, 15 query variant(s); intent unknown; route none; confidence low; risk low.
-16. **AdultFriendFinder review** — refresh existing /adultfriendfinder landing page using clustered search evidence; 38 clustered impressions, 0 clicks, best position 16, 18 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
-17. **Become a cam model** — refresh existing /become-a-cam-model landing page using clustered search evidence; 135 clustered impressions, 0 clicks, best position 1, 102 query variant(s); intent approved creator-referral intent; route avcams-model-signup; confidence low; risk low.
-18. **best paid hentai sites** — validate audience fit and an official monetization relationship before adding a commercial CTA; 14 clustered impressions, 0 clicks, best position 4, 12 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
-19. **anime online sex games** — evaluate a new on-site guide against the content inventory; 19 clustered impressions, 0 clicks, best position 42, 16 query variant(s); intent unknown; route none; confidence low; risk low.
-20. **anime sex game** — evaluate a new on-site guide against the content inventory; 27 clustered impressions, 0 clicks, best position 43, 15 query variant(s); intent unknown; route none; confidence low; risk low.
-21. **creator fan platform** — evaluate a new on-site guide against the content inventory; 14 clustered impressions, 0 clicks, best position 41.5, 9 query variant(s); intent unknown; route none; confidence low; risk low.
-22. **hentai streaming websites** — evaluate a new on-site guide against the content inventory; 11 clustered impressions, 0 clicks, best position 18, 10 query variant(s); intent unknown; route none; confidence low; risk low.
-23. **iphone hentai sites** — evaluate a new on-site guide against the content inventory; 12 clustered impressions, 0 clicks, best position 10, 10 query variant(s); intent unknown; route none; confidence low; risk low.
-24. **sex anime game** — evaluate a new on-site guide against the content inventory; 17 clustered impressions, 0 clicks, best position 39, 15 query variant(s); intent unknown; route none; confidence low; risk low.
-25. **Stripchat pricing / tokens** — refresh existing /stripchat-pricing landing page using clustered search evidence; 23 clustered impressions, 0 clicks, best position 1, 20 query variant(s); intent approved AVCams/StripCash intent; route avcams-viewer; confidence low; risk low.
-26. **adult video search** — evaluate a new on-site guide against the content inventory; 15 clustered impressions, 0 clicks, best position 10.5, 8 query variant(s); intent unknown; route none; confidence low; risk low.
-27. **adult vr** — evaluate a new on-site guide against the content inventory; 28 clustered impressions, 0 clicks, best position 67.33333333333333, 16 query variant(s); intent unknown; route none; confidence low; risk low.
-28. **best hentai streaming sites** — validate audience fit and an official monetization relationship before adding a commercial CTA; 14 clustered impressions, 0 clicks, best position 8, 10 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
-29. **hentai browser** — evaluate a new on-site guide against the content inventory; 10 clustered impressions, 0 clicks, best position 5, 10 query variant(s); intent unknown; route none; confidence low; risk low.
-30. **Pornhub review** — migrate pending /pornhub review into a substantive indexable page before adding any commercial CTA; 17 clustered impressions, 0 clicks, best position 8, 12 query variant(s); intent unknown; route none; confidence low; risk medium.
+6. **freelivecam** — evaluate a new on-site guide against the content inventory; 86 clustered impressions, 2 clicks, best position 7.75, 18 query variant(s); intent unknown; route none; confidence low; risk low.
+7. **hentai streaming** — evaluate a new on-site guide against the content inventory; 38 clustered impressions, 4 clicks, best position 22, 12 query variant(s); intent unknown; route none; confidence low; risk low.
+8. **xHamster review** — refresh existing /xhamster landing page using clustered search evidence; 167 clustered impressions, 3 clicks, best position 1, 101 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
+9. **hentai streaming sites** — evaluate a new on-site guide against the content inventory; 35 clustered impressions, 1 clicks, best position 15, 12 query variant(s); intent unknown; route none; confidence low; risk low.
+10. **Chaturbate review** — refresh existing /chaturbate landing page using clustered search evidence; 630 clustered impressions, 3 clicks, best position 2, 191 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence medium; risk low.
+11. **Stripchat review** — refresh existing /stripchat landing page using clustered search evidence; 428 clustered impressions, 8 clicks, best position 1, 257 query variant(s); intent unknown; route avcams-viewer; confidence low; risk low.
+12. **vr adult** — evaluate a new on-site guide against the content inventory; 29 clustered impressions, 1 clicks, best position 55.5, 17 query variant(s); intent unknown; route none; confidence low; risk low.
+13. **avcams** — evaluate an AVCams-conversion guide against the current content inventory; 9 clustered impressions, 2 clicks, best position 1, 8 query variant(s); intent unknown; route avcams-viewer; confidence low; risk low.
+14. **SexLikeReal review** — refresh existing /sexlikereal landing page using clustered search evidence; 85 clustered impressions, 2 clicks, best position 8.5, 33 query variant(s); intent unknown; route none; confidence low; risk low.
+15. **anime sex games** — evaluate a new on-site guide against the content inventory; 53 clustered impressions, 1 clicks, best position 33, 18 query variant(s); intent unknown; route none; confidence low; risk low.
+16. **are cam sites safe** — evaluate a new on-site guide against the content inventory; 42 clustered impressions, 0 clicks, best position 11, 15 query variant(s); intent unknown; route none; confidence low; risk low.
+17. **AdultFriendFinder review** — refresh existing /adultfriendfinder landing page using clustered search evidence; 38 clustered impressions, 0 clicks, best position 16, 18 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
+18. **Become a cam model** — refresh existing /become-a-cam-model landing page using clustered search evidence; 164 clustered impressions, 0 clicks, best position 1, 118 query variant(s); intent approved creator-referral intent; route avcams-model-signup; confidence low; risk low.
+19. **best paid hentai sites** — validate audience fit and an official monetization relationship before adding a commercial CTA; 14 clustered impressions, 0 clicks, best position 4, 12 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
+20. **anime online sex games** — evaluate a new on-site guide against the content inventory; 20 clustered impressions, 0 clicks, best position 42, 17 query variant(s); intent unknown; route none; confidence low; risk low.
+21. **anime sex game** — evaluate a new on-site guide against the content inventory; 30 clustered impressions, 0 clicks, best position 43, 16 query variant(s); intent unknown; route none; confidence low; risk low.
+22. **creator fan platform** — evaluate a new on-site guide against the content inventory; 14 clustered impressions, 0 clicks, best position 41.5, 9 query variant(s); intent unknown; route none; confidence low; risk low.
+23. **hentai streaming websites** — evaluate a new on-site guide against the content inventory; 12 clustered impressions, 0 clicks, best position 10, 11 query variant(s); intent unknown; route none; confidence low; risk low.
+24. **iphone hentai sites** — evaluate a new on-site guide against the content inventory; 12 clustered impressions, 0 clicks, best position 10, 10 query variant(s); intent unknown; route none; confidence low; risk low.
+25. **sex anime game** — evaluate a new on-site guide against the content inventory; 18 clustered impressions, 0 clicks, best position 39, 16 query variant(s); intent unknown; route none; confidence low; risk low.
+26. **Stripchat pricing / tokens** — refresh existing /stripchat-pricing landing page using clustered search evidence; 24 clustered impressions, 0 clicks, best position 1, 21 query variant(s); intent approved AVCams/StripCash intent; route avcams-viewer; confidence low; risk low.
+27. **adult video search** — evaluate a new on-site guide against the content inventory; 18 clustered impressions, 0 clicks, best position 10.5, 9 query variant(s); intent unknown; route none; confidence low; risk low.
+28. **adult vr** — evaluate a new on-site guide against the content inventory; 29 clustered impressions, 0 clicks, best position 67.33333333333333, 17 query variant(s); intent unknown; route none; confidence low; risk low.
+29. **best hentai streaming sites** — validate audience fit and an official monetization relationship before adding a commercial CTA; 14 clustered impressions, 0 clicks, best position 8, 10 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
+30. **hentai browser** — evaluate a new on-site guide against the content inventory; 11 clustered impressions, 0 clicks, best position 5, 11 query variant(s); intent unknown; route none; confidence low; risk low.
