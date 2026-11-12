@@ -99,8 +99,11 @@ the operator kill-switch gap.
   from click arrival/retention gaps without collecting PII.
 - Main still lists queued Visual QA37655528917 and Control plane authority
   promotion37655513979, both from10/08 Beijing and old SHA71027613. No active
-  Producer was observed, but the old queued authority writer prevents claiming a
-  completely drained writer set. No old run was rerun, canceled or deleted.
+  Producer was observed. The subsequent November12 review found zero jobs for
+  both old queued records and a successful newer authority run43131310344.
+  Old queued status alone does not prove a held writer lock. See the final
+  review correction in ../2026-11-12/FINAL-REVIEW.md. No old run was rerun,
+  canceled or deleted.
 - Historical social state:28 X +45 Telegram reconcile_required. A bounded offline
   comparison against the last successful first-party Buffer snapshot found zero
   matching sent-post candidates. See social-reconciliation-candidates.json.
@@ -137,8 +140,10 @@ or sends. No dependency, paid service or content batch was added.
    verify new main GA4 loader/consent configuration separately, and record actual
    main/build revision. Public guide fingerprints alone do not identify layout code.
 3. Reinventory active **and queued** writer jobs across Scheduler/manual Producer,
-   old publishers, Outbox and authority promotion. Resolve the old queued authority
-   run through the account owner before asserting drain. Do not blind-rerun it.
+   old publishers, Outbox and authority promotion. Inspect actual jobs and lock
+   groups, not merely historical queued records. Cancellation of verified obsolete
+   zero-job entries is optional hygiene, not a proven R1 unlock requirement.
+   Do not blind-rerun them; see the November12 final review.
 4. Read latest isolated receipt and its current file SHA immediately before any
    mutation. Compare exact failure cycle, history digest and closed old manifest.
    Any change invalidates this proposal; reread evidence rather than forcing CAS.

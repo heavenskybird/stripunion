@@ -114,6 +114,7 @@ if (process.env.HOSTINGER_API_TOKEN) {
     report.hostinger.gitSettingsHttp = git.status;
     report.hostinger.settingsFields = Object.keys(config).filter(k => /^\w{1,80}$/.test(k));
     report.hostinger.gitFields = Object.keys(gitConfig).filter(k => /^\w{1,80}$/.test(k));
+    report.hostinger.canonicalRepository = gitConfig.owner === 'heavenskybird' && (gitConfig.repository === 'stripunion' || gitConfig.repository?.name === 'stripunion');
     report.hostinger.branch = config.branch || config.branch_name || config.source_options?.branch || gitConfig.branch || gitConfig.branch_name || null;
     const auto = [config.auto_deploy, config.auto_deploy_enabled, config.auto_deployment_enabled, gitConfig.is_enabled, gitConfig.isEnabled, gitConfig.auto_deploy].find(v => typeof v === 'boolean');
     report.hostinger.autoDeploymentEnabled = auto ?? null;
@@ -121,7 +122,8 @@ if (process.env.HOSTINGER_API_TOKEN) {
     report.hostinger.ga4VariablePresent = Boolean(ga);
     report.hostinger.ga4PublicValue = /^G-[A-Z0-9]{6,20}$/.test(ga?.value || '') ? ga.value : ga ? 'MASKED_OR_INVALID' : null;
     const latest = newestFirst(getRecords(builds.data))[0];
-    report.hostinger.latestBuild = latest ? { state: latest.state || latest.status || null, createdAt: latest.created_at || null,
+    report.hostinger.latestBuild = latest ? { id: /^[a-z0-9-]{3,80}$/i.test(String(latest.uuid || latest.id || '')) ? String(latest.uuid || latest.id) : null,
+      state: latest.state || latest.status || null, createdAt: latest.created_at || null,
       sha: /^[a-f0-9]{40}$/.test(latest.commit_sha || '') ? latest.commit_sha : null } : null;
     if (latest?.uuid || latest?.id) {
       const logs = await hostApi(`${prefix}/nodejs/builds/${encodeURIComponent(latest.uuid || latest.id)}/logs?from_line=0`);
