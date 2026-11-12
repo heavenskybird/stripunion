@@ -10,5 +10,7 @@
   },
   "preflightRunId": "43232980026",
   "preflightReceiptSha": "5cf0418520694fd4b0e4b9dfa5b8de6569227c5f",
-  "expectedCandidateHead": "65b9b6b19ba7d888144f939a6dafe5f409ebf2e2"
+  "expectedCandidateHead": "65b9b6b19ba7d888144f939a6dafe5f409ebf2e2",
+  "observedPendingProductionBuild": "01a1d01b-1b92-722f-9e9c-7e9aeea76a93",
+  "priorPostAcceptanceRun": "43234408929"
 }
