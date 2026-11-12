@@ -3,8 +3,11 @@
   "maxEvents": 1,
   "eventName": "recovery_consent_check",
   "releaseSha": "9a0b79a1341e150f2a3398c50c9a812a3f29e3cf",
-  "productionAcceptanceRun": "43235565973",
+  "productionAcceptanceRun": "43235846760",
   "seventhPublicationRun": "43234015115",
   "authorization": "Explicit user reply authorizes the described single diagnostic event after production acceptance; no business writes or real affiliate navigation",
-  "noAutomaticReplay": true
+  "noAutomaticReplay": true,
+  "priorTestRun": "43236495893",
+  "priorEventsActuallySent": 0,
+  "retryBound": "One further harness attempt; cumulative real diagnostic event maximum remains one"
 }
