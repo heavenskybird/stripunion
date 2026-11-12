@@ -4,6 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { categories } from '../src/data/categories.js';
 import { findUnsupportedEditorialClaim, occupiedEditorialIdentifiers } from './editorial-generator-guards.mjs';
 import { editorialResponse } from './editorial-provider-response.mjs';
+import { providerUsage, recordProviderUsage } from './editorial-provider-usage.mjs';
 
 const apiKey = process.env.OPENAI_API_KEY;
 const model = process.env.EDITORIAL_MODEL || 'gpt-6-luna';
@@ -535,7 +536,12 @@ if (generationCount > 0) {
       })
     });
 
-    const data = await editorialResponse(response);
+    let data;
+    try { data = await editorialResponse(response); }
+    finally {
+      await recordProviderUsage(providerUsage({ attempt, httpStatus: response.status,
+        payload: data, inputCharacters: systemPrompt.length + userPrompt.length }));
+    }
     const outputText = extractOutputText(data);
     if (!outputText) {
       lastErrors = ['Model returned no output text.'];
