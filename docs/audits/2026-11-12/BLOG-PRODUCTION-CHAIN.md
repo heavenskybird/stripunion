@@ -27,6 +27,16 @@ single-writer drain and explicit operator decision. Then two real Blog cycles
 with live REST/HTTP/canonical/sitemap/Ledger evidence are needed. Astro output
 does not count as Blog recovery. Keep social sends false.
 
+Review-blocker correction: prepare/propose now require a fresh complete precomputed
+inventory snapshot via --inventory and never receive WordPress secrets. Only the
+publish path may read authenticated private inventory. Publication also requires
+an authenticated first-attempt canonical-main workflow_dispatch actor present in
+the separately configured BLOG_AUTHORIZED_REVIEWERS variable, matching the bound
+reviewer; an empty allowlist fails closed. The core publisher requires an explicit
+trusted authorization callback before journal access. Free-text JSON approval
+alone cannot authorize publication. No allowlist or production variable was set.
+117 combined tests cover these boundaries and credential-free preparation.
+
 Rollback first disables BLOG_PUBLISH_ENABLED, drains the Blog writer and preserves
 all journal/unknown evidence. Revert only the reviewed chain callsite through a
 scoped PR; do not delete posts, replay old payloads, or turn ambiguous writes into
