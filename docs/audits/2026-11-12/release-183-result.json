@@ -1,0 +1,198 @@
+{
+  "mergeSha": "38e781f4a69db9a00fdfe121d2d1e42190aba72d",
+  "preflight": {
+    "runId": "43219793460",
+    "checkedAt": "2026-11-12T12:38:54.310Z",
+    "mainSha": "386faf7a7cb18e6fa1471ecef1dcce7aefce2a28",
+    "gates": {
+      "sendsPaused": true,
+      "receiptSuccessful": true,
+      "noMainActiveWriters": true,
+      "productionBuildComplete": true,
+      "productionHtml": true,
+      "robotsSitemap": true,
+      "recoveryGuides": true
+    },
+    "switches": {
+      "SOCIAL_OUTBOX_SEND_ENABLED": "false",
+      "SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED": "UNSET",
+      "SOCIAL_OUTBOX_X_SEND_ENABLED": "UNSET",
+      "SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED": "UNSET",
+      "BLOG_PUBLISH_ENABLED": "UNSET"
+    },
+    "receipt": {
+      "httpStatus": 200,
+      "blobSha": "09121e372eef24e2b96e8b9efd536282782538d0",
+      "status": "success",
+      "cycleId": "43213236095",
+      "runId": "43213236095",
+      "attempts": 1,
+      "startedAt": "2026-11-12T11:55:10.046Z",
+      "finishedAt": "2026-11-12T12:01:46.825Z",
+      "recentRunIdsCount": 200,
+      "historyHash": "13e582c9c773bd6de8d091f3358a080dd9d367102d5efa8086a63f0d48323921"
+    },
+    "hostinger": {
+      "configured": true,
+      "websitesHttp": 200,
+      "mainFound": true,
+      "envHttp": 200,
+      "buildsHttp": 200,
+      "settingsHttp": 200,
+      "gitSettingsHttp": 200,
+      "settingsFields": [
+        "node_version",
+        "app_type",
+        "root_directory",
+        "output_directory",
+        "build_script",
+        "entry_file",
+        "package_manager"
+      ],
+      "gitFields": [
+        "installation_uuid",
+        "is_enabled",
+        "owner",
+        "repository",
+        "branch",
+        "directory"
+      ],
+      "canonicalRepository": true,
+      "branch": "main",
+      "autoDeploymentEnabled": true,
+      "ga4VariablePresent": false,
+      "ga4PublicValue": null,
+      "latestBuild": {
+        "id": "01a1cfa2-a4ce-71b8-8fd2-5564c8753286",
+        "state": "completed",
+        "createdAt": "2026-11-12T12:01:45Z",
+        "sha": null
+      },
+      "logEvidence": {
+        "httpStatus": 200,
+        "lineCount": 1775,
+        "errorCount": 0,
+        "warningCount": 2
+      },
+      "detailHttp": 200,
+      "providerCommitCandidates": [],
+      "detailFields": [
+        "uuid",
+        "state",
+        "options",
+        "created_at",
+        "updated_at"
+      ]
+    },
+    "guideCount": 25,
+    "guideEvidenceSha256": "b8e47570100f66abb5b900545a02a4e72c68ffdae808859a197e42de432a31d6",
+    "mainHtmlSha256": "5e9090401748c84b38b1517303e31ef7645f2b8b11a6c9476146517ba701b5b4"
+  },
+  "postAcceptance": {
+    "runId": "43220634628",
+    "checkedAt": "2026-11-12T12:44:24.156Z",
+    "phase": "post",
+    "release": {
+      "mergeSha": "38e781f4a69db9a00fdfe121d2d1e42190aba72d",
+      "mergeTime": "2026-11-12T12:40:20Z",
+      "rollbackBuild": {
+        "id": "01a1cfa2-a4ce-71b8-8fd2-5564c8753286",
+        "state": "completed",
+        "createdAt": "2026-11-12T12:01:45Z",
+        "sha": null
+      },
+      "providerExactCommitKnown": false
+    },
+    "mainSha": "38e781f4a69db9a00fdfe121d2d1e42190aba72d",
+    "gates": {
+      "sendsPaused": true,
+      "receiptSuccessful": true,
+      "noMainActiveWriters": true,
+      "productionBuildComplete": true,
+      "productionHtml": true,
+      "robotsSitemap": true,
+      "recoveryGuides": true,
+      "postMergeMainAncestry": true,
+      "newProductionBuild": true
+    },
+    "switches": {
+      "SOCIAL_OUTBOX_SEND_ENABLED": "false",
+      "SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED": "UNSET",
+      "SOCIAL_OUTBOX_X_SEND_ENABLED": "UNSET",
+      "SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED": "UNSET",
+      "BLOG_PUBLISH_ENABLED": "UNSET"
+    },
+    "receipt": {
+      "httpStatus": 200,
+      "blobSha": "09121e372eef24e2b96e8b9efd536282782538d0",
+      "status": "success",
+      "cycleId": "43213236095",
+      "runId": "43213236095",
+      "attempts": 1,
+      "startedAt": "2026-11-12T11:55:10.046Z",
+      "finishedAt": "2026-11-12T12:01:46.825Z",
+      "recentRunIdsCount": 200,
+      "historyHash": "13e582c9c773bd6de8d091f3358a080dd9d367102d5efa8086a63f0d48323921"
+    },
+    "hostinger": {
+      "configured": true,
+      "websitesHttp": 200,
+      "mainFound": true,
+      "envHttp": 200,
+      "buildsHttp": 200,
+      "settingsHttp": 200,
+      "gitSettingsHttp": 200,
+      "settingsFields": [
+        "node_version",
+        "app_type",
+        "root_directory",
+        "output_directory",
+        "build_script",
+        "entry_file",
+        "package_manager"
+      ],
+      "gitFields": [
+        "installation_uuid",
+        "is_enabled",
+        "owner",
+        "repository",
+        "branch",
+        "directory"
+      ],
+      "canonicalRepository": true,
+      "branch": "main",
+      "autoDeploymentEnabled": true,
+      "ga4VariablePresent": false,
+      "ga4PublicValue": null,
+      "latestBuild": {
+        "id": "01a1cfc6-16b8-73e7-aecb-242d6fa0ebc4",
+        "state": "completed",
+        "createdAt": "2026-11-12T12:40:28Z",
+        "sha": null
+      },
+      "logEvidence": {
+        "httpStatus": 200,
+        "lineCount": 1775,
+        "errorCount": 0,
+        "warningCount": 2
+      },
+      "detailHttp": 200,
+      "providerCommitCandidates": [],
+      "detailFields": [
+        "uuid",
+        "state",
+        "options",
+        "created_at",
+        "updated_at"
+      ]
+    },
+    "guideCount": 25,
+    "guideEvidenceSha256": "b8e47570100f66abb5b900545a02a4e72c68ffdae808859a197e42de432a31d6",
+    "mainHtmlSha256": "5e9090401748c84b38b1517303e31ef7645f2b8b11a6c9476146517ba701b5b4"
+  },
+  "limitations": [
+    "Hostinger API did not expose an exact source commit SHA. Evidence combines canonical main auto-deploy configuration, a new completed production build after merge, main ancestry and real production HTML/content fingerprints.",
+    "First post-merge probe observed the new build still running; it was not called deployment success. Final probe confirms completed.",
+    "Read-only external observer execution observed; anomaly delivery and cross-executor notification dedup remain unaccepted."
+  ]
+}
