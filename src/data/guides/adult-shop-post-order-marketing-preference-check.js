@@ -1,0 +1,117 @@
+export default {
+  "slug": "adult-shop-post-order-marketing-preference-check",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Accounts: Check Marketing Emails and Contact Preferences Before Ordering",
+  "description": "Before placing an adult shop order, review marketing opt-ins, account contact settings, order updates, and unsubscribe controls to manage unwanted messages.",
+  "excerpt": "Order confirmations and delivery notices are different from promotional messages. Check how a retailer handles each type of contact before creating an account or completing checkout.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "Separate essential order and service messages from promotional email, text, or account notifications.",
+    "Look for optional marketing consent and avoid treating it as a required step unless the checkout clearly explains otherwise.",
+    "Check account preferences and unsubscribe instructions before relying on them.",
+    "Use an email address you control and consider whether its lock-screen or shared-device notifications could reveal order details.",
+    "Keep order records you need while avoiding unnecessary account or marketing subscriptions."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish service messages from marketing",
+      "paragraphs": [
+        "An order can generate several kinds of communication: a receipt, a dispatch notice, a delivery update, a support reply, or a promotional message. These messages serve different purposes, and a retailer may manage them through different settings. Before ordering, check whether checkout offers a separate marketing opt-in and whether it applies to email, text messages, or both. A checkbox for promotions should not be confused with permission to receive the basic communications needed to manage an order.",
+        "Read the wording beside each option rather than inferring its meaning from the checkbox position or color. If a preference is preselected, decide whether you want it and change it if appropriate. If it is unclear whether a selection is optional, check the retailer’s privacy notice or ask support before proceeding. Do not assume that a single unsubscribe action will also stop necessary service messages or, conversely, that disabling marketing will prevent an order confirmation."
+      ],
+      "bullets": [
+        "Identify which contacts are described as promotions and which are order-related.",
+        "Review each channel separately: email, text, push alerts, or account messages.",
+        "Do not provide marketing consent merely to move quickly through checkout.",
+        "Save a copy of the preference wording if it is important to your decision."
+      ]
+    },
+    {
+      "heading": "Check preferences before creating an account",
+      "paragraphs": [
+        "Some retailers expose contact preferences during signup; others place them in account settings or a privacy page. Before making an account, look for information about promotional messages, partner marketing, and preference changes. Check whether the retailer explains how to opt out and whether the settings are available without contacting support. If the policy is vague, decide whether you are comfortable creating an account before sharing contact details.",
+        "Use contact information that you can access and control. Avoid using another person’s email address or phone number for an order, and do not enter a shared address if messages could disclose private information. A dedicated email address can help separate shopping correspondence from personal mail, but it does not make the retailer’s handling of that address anonymous. Use a strong, unique password and do not save credentials on a shared device."
+      ],
+      "table": {
+        "caption": "Contact types to review before checkout",
+        "headers": [
+          "Message type",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Order confirmation",
+            "Will this be sent to the contact address provided at checkout?"
+          ],
+          [
+            "Delivery or dispatch update",
+            "Can the message show a retailer name or order details on a lock screen?"
+          ],
+          [
+            "Promotional email",
+            "Is consent optional, and how can the preference be changed?"
+          ],
+          [
+            "Text or push message",
+            "Is this a separate choice from email marketing?"
+          ],
+          [
+            "Partner communication",
+            "Does the policy explain whether contact details are shared for marketing?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review how to change or withdraw a preference",
+      "paragraphs": [
+        "A useful preference process should explain where to change settings and what happens after a change. Look for an account preference page, clear unsubscribe instructions, or a contact route for privacy questions. The retailer’s notice may describe that changes take time to take effect or that some operational messages remain necessary. Read the explanation rather than assuming an unsubscribe link immediately changes every channel or every system.",
+        "If you choose to opt out, keep a record of the action and date. If messages continue, first check whether they are service communications, whether another account or address is involved, and whether the opt-out request applied to the channel you are receiving. Use the retailer’s stated contact route for unresolved issues. Do not click suspicious links in an unexpected message; navigate to the retailer using a trusted route and review preferences from the account or official contact details."
+      ]
+    },
+    {
+      "heading": "Reduce accidental exposure through device notifications",
+      "paragraphs": [
+        "Even a message you want to receive can appear somewhere inconvenient. Email previews may display on a lock screen, shared tablet, smartwatch, or connected computer. Before ordering, consider whether the device is shared and whether notification previews show sender names or subject lines. Adjust settings on devices and accounts you control. Do not assume that a retailer’s discreet communication preferences can control how your email provider or operating system displays a notification.",
+        "If several people use the same inbox or phone, an order message can reach someone who has not agreed to receive it. Choose contact details that belong to you and review forwarding rules, account sharing, and notification destinations. Avoid forwarding receipts to a shared mailbox without considering what information they contain. These steps concern the path messages take after the retailer sends them; they are separate from the retailer’s packaging or delivery practices."
+      ],
+      "bullets": [
+        "Check lock-screen previews and connected-device notifications.",
+        "Review whether email forwarding sends messages to a shared account.",
+        "Use contact details you control and can access for order support.",
+        "Keep order messages where needed, but avoid unnecessary sharing."
+      ]
+    },
+    {
+      "heading": "Make a pre-order contact checklist",
+      "paragraphs": [
+        "A quick checklist makes contact settings easier to compare across retailers without relying on assumptions. Record the channels offered, whether promotional consent is optional, where preferences can be changed, and how the policy distinguishes order messages from marketing. If a retailer does not explain these points, mark them unknown rather than concluding that messages will be limited or that your data will never be used for promotion.",
+        "Use the checklist alongside the retailer’s checkout and privacy information. Do not treat it as a legal determination or a guarantee about delivery, privacy, or future communications. It is a practical way to decide whether you are comfortable sharing contact details and whether the available controls fit your needs. If not, consider whether guest checkout or another retailer provides clearer information, while checking the relevant terms directly."
+      ],
+      "bullets": [
+        "Which contact channels are requested?",
+        "Is promotional consent presented separately from order communications?",
+        "Can preferences be changed in account settings or through a clear opt-out route?",
+        "Does the notice explain partner marketing or data sharing?",
+        "Could device previews or a shared inbox expose messages?",
+        "Do you have a way to keep receipts without sharing an account?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I opt out of marketing and still receive order updates?",
+      "answer": "A retailer may distinguish promotional messages from operational order messages, but practices vary. Check the wording at checkout and in its contact preferences. Do not assume that disabling marketing will stop or preserve every message type."
+    },
+    {
+      "question": "Does unsubscribing remove my contact details from a retailer’s records?",
+      "answer": "Not necessarily. An unsubscribe control typically concerns promotional contact preferences; it does not by itself establish what account or transaction records the retailer retains. Review the privacy notice and the available account or data controls."
+    },
+    {
+      "question": "How can I avoid order messages appearing on a shared screen?",
+      "answer": "Use an email address and phone you control, review forwarding and account sharing, and adjust notification previews on your devices. A retailer’s email settings cannot control every display or notification setting outside its service."
+    }
+  ]
+};

@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-games-release-state-and-completion-risk-planner",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Assess Release Status and Completion Risk Before Building a Library",
+  "description": "Use release labels, project updates, and version notes to assess whether an adult game is complete, episodic, or still changing before you buy.",
+  "excerpt": "A game’s current release state affects what a buyer can reasonably expect. This guide helps distinguish a finished release from a project that is still unfolding, without treating update promises as guarantees.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "Separate the game’s current playable state from plans for future chapters, features, or revisions.",
+    "Look for dated version notes and clear statements about what is included in the current build.",
+    "Treat roadmaps and developer estimates as plans, not guaranteed delivery dates.",
+    "Check whether progress, saves, or access may be affected by updates before relying on a long-running project.",
+    "Choose based on the content available now if an unfinished project would not suit your needs."
+  ],
+  "sections": [
+    {
+      "heading": "Define what “complete” means for your purchase",
+      "paragraphs": [
+        "Release labels can describe different things. A title may be available to play while its story, routes, levels, or other planned elements remain unfinished. Conversely, a creator may consider a release complete while continuing to issue fixes or optional updates. Before deciding, define what matters to you: a finished narrative, a stable playable build, a specific set of features, or simply access to the current version. The seller’s label alone may not answer every one of those questions.",
+        "Read the current product description alongside its release notes. Look for plain statements that distinguish material already included from work planned for later. If the page uses terms such as “in development,” “episodic,” or “early access,” ask what those labels mean for the build available today. Do not infer that a title is complete because it is for sale, or unfinished because its creator still publishes maintenance updates."
+      ],
+      "bullets": [
+        "Write down the features or story scope you expect at purchase.",
+        "Identify which parts are available now and which are described as future work.",
+        "Treat vague labels as a reason to seek clarification, not as evidence of completion.",
+        "Decide whether the current release is useful to you even if no further updates arrive."
+      ]
+    },
+    {
+      "heading": "Read project status evidence in date order",
+      "paragraphs": [
+        "A project page, announcement, or community post is most useful when it has a date, a version identifier, and a description of what changed. Review several updates in order rather than relying on a single headline. A clear history can show whether communication distinguishes released content from planned content and whether the developer explains changes in scope. It cannot guarantee that future work will appear, but it gives you a more grounded picture of the project’s current state.",
+        "Be cautious about treating an old roadmap as a current commitment. Plans may change, pause, or be replaced, and estimates can be revised. Prefer recent statements that explicitly identify what has shipped and what remains unresolved. If updates are scattered across a storefront and a community page, keep their dates and version numbers straight. A post about intentions is not the same evidence as a downloadable, documented release."
+      ],
+      "table": {
+        "caption": "How to interpret common project signals",
+        "headers": [
+          "Evidence",
+          "What it can help establish",
+          "What it cannot establish"
+        ],
+        "rows": [
+          [
+            "Current version notes",
+            "Changes described for a named build",
+            "Whether every future feature will arrive"
+          ],
+          [
+            "Dated roadmap",
+            "The creator’s stated plan at that time",
+            "A guaranteed delivery schedule"
+          ],
+          [
+            "Storefront release label",
+            "How the seller categorizes the release",
+            "A complete account of remaining scope"
+          ],
+          [
+            "Community announcement",
+            "Context or clarification from the creator",
+            "That a feature is already present in the game"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the current build, not only the promise",
+      "paragraphs": [
+        "When a demo or preview is available, compare it with the product description and look for a clear explanation of what the preview represents. A demo might show only an opening segment or an older build; it may not demonstrate the complete project. Check whether the seller identifies any major differences between the preview and the paid release. If there is no preview, focus on specific descriptions of current content rather than inferring scope from promotional language.",
+        "A version number by itself is not a measure of completeness. More useful information includes a change summary, the date of the build, and whether the release notes identify known limitations. If the project is changing frequently, check whether updates could alter saves or require a new start. These are practical questions for a buyer; they do not require guessing at the developer’s intentions or making assumptions about the quality of the title."
+      ]
+    },
+    {
+      "heading": "Plan for updates without depending on them",
+      "paragraphs": [
+        "For an episodic or evolving project, make your decision around the available release rather than an imagined future version. Consider whether you would still value the purchase if the next planned chapter were delayed or the scope changed. This is especially important when an unfinished state would frustrate you or when you want a story with a clear ending. A roadmap may explain direction, but it cannot remove uncertainty about timing or delivery.",
+        "If you already own a game that receives updates, check whether the developer documents save compatibility, installation steps, and version changes. Keep your own lawful backups only where platform terms and the game’s instructions allow them. Do not assume that an update will preserve every setting or save. If access, licensing, or reinstallation depends on a storefront or launcher, review those terms separately from the project’s release status."
+      ],
+      "bullets": [
+        "Choose based on the current build if future delivery is uncertain.",
+        "Check for save-compatibility notes before installing a major update.",
+        "Keep a record of the version you evaluated and the date you reviewed it.",
+        "Review access and reinstall terms separately from development plans."
+      ]
+    },
+    {
+      "heading": "Use a simple release-status scorecard",
+      "paragraphs": [
+        "A short scorecard can keep a purchase decision from turning into guesswork. Record the current release label, the latest dated update, what the current build includes, what the developer says remains, and whether a preview supports those claims. Mark unknowns as unknown instead of filling them with optimistic assumptions. If important information is missing, decide whether that uncertainty is acceptable to you or whether you would rather wait for a clearer release.",
+        "The purpose is not to predict a project’s future or rate its creator. It is to match your expectations to available evidence. A person who enjoys following an evolving project may be comfortable with an incomplete state; another buyer may prefer a finished title. Neither preference needs a universal ranking. A transparent decision record lets you explain why the release fits—or does not fit—your own requirements."
+      ],
+      "bullets": [
+        "Current release label and version:",
+        "Date and scope of the latest update:",
+        "Content confirmed as available now:",
+        "Future work described but not yet available:",
+        "Unanswered questions that affect the purchase:",
+        "Would the current build still suit you if no further update arrived?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a game marked as released have to be complete?",
+      "answer": "Not necessarily. A released build can be playable while the creator continues work on planned content. Check the product description and current version notes to determine what is included now."
+    },
+    {
+      "question": "Can a roadmap tell me when an unfinished game will be completed?",
+      "answer": "It can show a creator’s stated plan at the time it was published, but it is not a guarantee. Check for dated updates and treat future timing as uncertain unless the seller clearly defines its commitment."
+    },
+    {
+      "question": "Should I wait for a project to be finished?",
+      "answer": "That depends on whether the available build meets your needs. If you would only be satisfied by a complete story or feature set, waiting for a clearly described final release may reduce uncertainty. If the current build is enough for you, assess it on that basis."
+    }
+  ]
+};
