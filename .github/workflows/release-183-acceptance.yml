@@ -43,6 +43,15 @@ jobs:
         run: |
           cp ../audit/scripts/release-183-acceptance.mjs scripts/release-183-acceptance.mjs
           node scripts/release-183-acceptance.mjs
+      - name: Inspect deployed Consent behavior with all browser writes intercepted
+        working-directory: canonical
+        run: |
+          if node -e "const c=require('../audit/docs/audits/2026-11-12/release-183-checkpoint.json');process.exit(c.phase==='post'&&c.releaseNumber===182?0:1)"; then
+            npm install
+            npx playwright install --with-deps chromium
+            cp ../audit/scripts/release-consent-browser.mjs scripts/release-consent-browser.mjs
+            node scripts/release-consent-browser.mjs
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
