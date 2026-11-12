@@ -15,12 +15,14 @@ try {
   for (const scenario of ['deny-grant-revoke', 'unreadable-choice', 'staging']) {
     const context = await browser.newContext({serviceWorkers:'block'});
     const firstParty = [];
+    const experimentEvents = [];
     let interceptedRequests = 0;
     await context.route('**/*', async route => {
       interceptedRequests++;
       const url = new URL(route.request().url());
       if (url.hostname === 'stripunion-live-models.stripunion.workers.dev') {
         if (url.pathname === '/events/click') firstParty.push(route.request().postDataJSON());
+        if (url.pathname === '/events/experiment') experimentEvents.push(route.request().postDataJSON());
         await route.fulfill({status:200,contentType:'application/json',body:'{"ok":true,"test":true}'});
         return;
       }
@@ -51,11 +53,16 @@ try {
     const link = page.locator('a[data-affiliate-source][data-affiliate-partner="avcams"]').first();
     assert.equal(await link.count(), 1);
     const before = new URL(await link.getAttribute('href'));
+    await link.evaluate(element => {
+      element.setAttribute('data-experiment-id', 'consent-regression-fixture');
+      element.setAttribute('data-experiment-treatment-label', 'Reviewed fixture CTA');
+    });
     const gaCount = () => page.evaluate(() => (window.dataLayer || []).filter(row => row[0]==='event' && row[1]==='affiliate_click').length);
     const click = async () => { await link.evaluate(element=>element.click()); await page.waitForTimeout(80); };
     await click();
     assert.equal(firstParty.length,0,'default denied must not send first-party click');
     assert.equal(await gaCount(),0,'default denied must not emit optional affiliate analytics');
+    assert.equal(experimentEvents.length,0,'default denied must not emit experimental telemetry');
     assert.equal(await page.evaluate(()=>sessionStorage.getItem('su_acquisition')).catch(()=>null),null);
     const deniedLink = new URL(await link.getAttribute('href'));
     for (const key of ['userId','campaignId','creativeId','sourceId','p1','p2','targetDomain','path']) {
@@ -69,6 +76,7 @@ try {
     const expected = scenario==='deny-grant-revoke' ? 1 : 0;
     assert.equal(firstParty.length,expected,'only readable grant on production hostname permits telemetry');
     assert.equal(await gaCount(),expected);
+    assert.equal(experimentEvents.length > 0,expected === 1,'experiment telemetry uses the same readable-grant and production-host gate');
     if (expected) {
       assert.equal(firstParty[0].memberId,new URL(await link.getAttribute('href')).searchParams.get('memberId'));
       assert.equal(firstParty[0].pagePath,'/');
@@ -76,13 +84,17 @@ try {
       await page.locator('[data-consent-open]').first().evaluate(element=>element.click());
       await page.locator('[data-consent-choice="denied"]').evaluate(element=>element.click());
       await click();
+      const experimentCount = experimentEvents.length;
+      await page.evaluate(() => window.dispatchEvent(new CustomEvent('stripunion:consent', {detail:{analytics_storage:'granted'}})));
+      await page.waitForTimeout(80);
+      assert.equal(experimentEvents.length,experimentCount,'a stale event cannot bypass current denied storage');
       assert.equal(firstParty.length,1,'revocation must stop subsequent first-party events');
       assert.equal(await gaCount(),1,'revocation must stop subsequent affiliate GA events');
       assert.equal(await page.evaluate(()=>sessionStorage.getItem('su_acquisition')),null);
     }
     assert.deepEqual(errors,[]);
     results.push({scenario,firstPartyEvents:firstParty.length,affiliateGaEvents:await gaCount(),
-      interceptedRequests,externalNetworkRequests:0,commercialParametersPreserved:true});
+      experimentEvents:experimentEvents.length,interceptedRequests,externalNetworkRequests:0,commercialParametersPreserved:true});
     await context.close();
   }
 } finally { await browser.close(); }

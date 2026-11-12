@@ -334,12 +334,14 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
             return false;
           }
         };
+        const optionalMeasurementAllowed = () => analyticsConsentGranted() &&
+          ['stripunion.com', 'www.stripunion.com'].includes(window.location.hostname);
 
         // This preference gates optional first-party attribution measurement,
         // not navigation or the partner's own processing of an outbound link.
         const acquisitionForClick = () => {
           const detected = detectAcquisition();
-          if (!analyticsConsentGranted()) return detected;
+          if (!optionalMeasurementAllowed()) return detected;
           try {
             const value = sessionStorage.getItem('su_acquisition') || detected;
             sessionStorage.setItem('su_acquisition', value);
@@ -368,7 +370,7 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
         };
 
         const activateExperiments = () => {
-          if (!analyticsConsentGranted()) return;
+          if (!optionalMeasurementAllowed()) return;
 
           const links = [...document.querySelectorAll('a[data-experiment-id]')]
             .filter((link) => link instanceof HTMLAnchorElement);
@@ -450,8 +452,7 @@ const loadClarity = SITE.allowIndexing && validClarityProjectId;
 
           const outbound = new URL(link.href);
           // Re-read on every click so revocation and unreadable storage fail closed.
-          const measurementAllowed = analyticsConsentGranted() &&
-            ['stripunion.com', 'www.stripunion.com'].includes(window.location.hostname);
+          const measurementAllowed = optionalMeasurementAllowed();
           const acquisition = acquisitionForClick();
           const partner = link.getAttribute('data-affiliate-partner') || 'avcams';
           const isAvcams = partner === 'avcams';
