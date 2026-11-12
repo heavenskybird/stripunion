@@ -9,7 +9,7 @@ for(const siteUrl of ['sc-domain:stripunion.com','https://blog.stripunion.com/']
  for(const dimensions of [['date'],['date','query','page']]){
   const out=[];let complete=false;
   for(let page=0;page<10;page++){
-   const r=await client.searchanalytics.query({siteUrl,requestBody:{startDate,endDate,dimensions,type:'web',aggregationType:dimensions.includes('page')?'byPage':'byProperty',dataState:'final',rowLimit:25000,startRow:page*25000}},{timeout:20000}).catch(e=>{throw new Error('GSC_QUERY_REFUSED_'+(Number(e.response?.status)||Number(e.code)||'UNKNOWN'));});
+   const r=await client.searchanalytics.query({siteUrl,requestBody:{startDate,endDate,dimensions,type:'web',aggregationType:dimensions.includes('page')?'byPage':'byProperty',dataState:'final',rowLimit:25000,startRow:page*25000}},{timeout:20000}).catch(e=>{throw new Error('GSC_QUERY_REFUSED_'+(Number(e.response?.status)||Number(e.code)||(/permission|access|forbidden/i.test(e.message)?'PERMISSION':/invalid|aggregation|parameter/i.test(e.message)?'INVALID_QUERY':/network|fetch|socket|certificate|timeout/i.test(e.message)?'TRANSPORT':'UNKNOWN')));});
    const rows=r.data.rows||[];out.push(...rows.map(row=>({...Object.fromEntries(dimensions.map((k,i)=>[k,row.keys[i]])),clicks:row.clicks,impressions:row.impressions,ctr:row.ctr,position:row.position})));
    if(rows.length<25000){complete=true;break;}
   }
