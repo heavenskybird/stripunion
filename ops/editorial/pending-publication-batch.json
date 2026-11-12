@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T22:16:34.116Z",
+  "generatedAt": "2026-11-12T23:43:18.533Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-session-interruption-fit-review.json",
-    "ops/editorial/content-artifacts/adult-games-short-session-fit-planner.json",
-    "ops/editorial/content-artifacts/adult-shop-product-testing-documentation-check.json",
-    "ops/editorial/content-artifacts/adult-affiliate-subscription-commission-lifecycle-fit.json",
-    "ops/editorial/content-artifacts/adult-platform-household-calendar-privacy-planning.json"
+    "ops/editorial/content-artifacts/live-cam-managed-device-use-policy-review.json",
+    "ops/editorial/content-artifacts/premium-video-home-region-library-fit-check.json",
+    "ops/editorial/content-artifacts/creator-platform-custom-domain-link-boundary-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-social-link-identity-correlation-check.json",
+    "ops/editorial/content-artifacts/free-video-private-browsing-privacy-boundaries.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-session-interruption-fit-review.js",
-    "src/data/guides/adult-games-short-session-fit-planner.js",
-    "src/data/guides/adult-shop-product-testing-documentation-check.js",
-    "src/data/guides/adult-affiliate-subscription-commission-lifecycle-fit.js",
-    "src/data/guides/adult-platform-household-calendar-privacy-planning.js"
+    "src/data/guides/live-cam-managed-device-use-policy-review.js",
+    "src/data/guides/premium-video-home-region-library-fit-check.js",
+    "src/data/guides/creator-platform-custom-domain-link-boundary-audit.js",
+    "src/data/guides/adult-dating-social-link-identity-correlation-check.js",
+    "src/data/guides/free-video-private-browsing-privacy-boundaries.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "webmaster-affiliate",
-    "privacy-safety-payment"
+    "live-cams",
+    "premium-videos",
+    "creator-platforms",
+    "dating-hookups",
+    "free-videos"
   ],
   "backlogIds": [
-    "vr-platform-session-interruption-fit-review",
-    "adult-games-short-session-fit-planner",
-    "adult-shop-product-testing-documentation-check",
-    "adult-affiliate-subscription-commission-lifecycle-fit",
-    "adult-platform-household-calendar-privacy-planning"
+    "live-cam-managed-device-use-policy-review",
+    "premium-video-home-region-library-fit-check",
+    "creator-platform-custom-domain-link-boundary-audit",
+    "adult-dating-social-link-identity-correlation-check",
+    "free-video-private-browsing-privacy-boundaries"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43318047154",
-  "phase": "closed"
+  "r1CycleId": "43330892194"
 }
