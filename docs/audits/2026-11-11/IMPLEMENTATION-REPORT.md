@@ -121,8 +121,9 @@ or sends. No dependency, paid service or content batch was added.
 
 ## Merge assessment
 
-- #167 and #168 passed their latest individual CI and have no identified code
-  blocker for reviewed merge. Neither activates production or closes acceptance.
+- #167 and #168 passed their individual CI as component baselines. The November12
+  review requires single integrated delivery through170, not separate merges of
+  167–169. Neither CI result establishes production acceptance.
 - #169 requires the integration's extra operator-stop and no-unbudgeted-fallback
   review before claiming safe pre-cutover behavior. Its original CI alone is
   insufficient. Do not activate its runtime or sending switch on merge.

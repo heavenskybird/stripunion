@@ -1,0 +1,309 @@
+{
+  "version": 1,
+  "runId": "43144689227",
+  "checkedAt": "2026-11-12T02:55:33.252Z",
+  "readOnly": true,
+  "scheduler": {
+    "httpStatus": 200,
+    "state": "disabled_manually"
+  },
+  "receipt": {
+    "httpStatus": 200,
+    "blobSha": "8f204ec0fe1477f9c3627b75d3d692506e47d4e4",
+    "status": "failure",
+    "cycleId": "41254032304",
+    "runId": "41260561057",
+    "attempts": 3,
+    "startedAt": "2026-11-01T01:18:58.404Z",
+    "finishedAt": "2026-11-01T01:19:24.918Z",
+    "recentRunIdsCount": 200,
+    "historyHash": "faaa7f0f8df0035b699717d352b51f923a7dd2a656b891039456945d1e801e48"
+  },
+  "mainActiveRuns": [
+    {
+      "id": 37655528917,
+      "name": "Visual QA",
+      "status": "queued"
+    },
+    {
+      "id": 37655513979,
+      "name": "Control plane authority promotion",
+      "status": "queued"
+    }
+  ],
+  "activeInventoryComplete": true,
+  "nativeSend": {
+    "variable": "false",
+    "disabled": true,
+    "singleWriter": "UNSET"
+  },
+  "workerDeployment": {
+    "flag": "true",
+    "mergeTriggersDeployment": true,
+    "script": "stripunion-live-models",
+    "credentialsPresent": true,
+    "deploymentsHttp": 200,
+    "rollbackBaseline": {
+      "deploymentId": "76ce21f8-26f3-4830-b908-be7a069cab09",
+      "createdOn": "2026-10-05T16:32:22.889037Z",
+      "versions": [
+        {
+          "versionId": "b3effa9a-721c-4d0b-b641-2416e9fc55e8",
+          "percentage": 100
+        }
+      ]
+    }
+  },
+  "queueReview": [
+    {
+      "id": 37655513979,
+      "runHttp": 200,
+      "status": "queued",
+      "conclusion": null,
+      "createdAt": "2026-10-07T16:54:15Z",
+      "updatedAt": "2026-10-07T16:54:15Z",
+      "headSha": "710276134f67023864e4e83992cf46080a1c43d8",
+      "jobsHttp": 200,
+      "jobCount": 0,
+      "jobs": []
+    },
+    {
+      "id": 37655528917,
+      "runHttp": 200,
+      "status": "queued",
+      "conclusion": null,
+      "createdAt": "2026-10-07T16:56:43Z",
+      "updatedAt": "2026-10-07T16:56:43Z",
+      "headSha": "710276134f67023864e4e83992cf46080a1c43d8",
+      "jobsHttp": 200,
+      "jobCount": 0,
+      "jobs": []
+    },
+    {
+      "id": 43131310344,
+      "runHttp": 200,
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-11-12T00:59:34Z",
+      "updatedAt": "2026-11-12T00:59:50Z",
+      "headSha": "0e10ce79f8bfebbab74a7937101163b00d1062fd",
+      "jobsHttp": 200,
+      "jobCount": 1,
+      "jobs": [
+        {
+          "id": 130895861123,
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "manifest": {
+    "cycleId": "41249384691",
+    "phase": "closed",
+    "count": 5
+  },
+  "publication": {
+    "guides": [
+      {
+        "url": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow",
+        "finalUrl": "https://stripunion.com/guides/creator-platform-payout-statement-reconciliation-workflow/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/creator-platform-payout-statement-reconciliation-workflow/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit",
+        "finalUrl": "https://stripunion.com/guides/live-cam-platform-account-suspension-appeal-terms-audit/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/live-cam-platform-account-suspension-appeal-terms-audit/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide",
+        "finalUrl": "https://stripunion.com/guides/adult-dating-first-meeting-safety-planning-guide/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/adult-dating-first-meeting-safety-planning-guide/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist",
+        "finalUrl": "https://stripunion.com/guides/adult-anime-game-purchase-model-cost-checklist/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/adult-anime-game-purchase-model-cost-checklist/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      },
+      {
+        "url": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist",
+        "finalUrl": "https://stripunion.com/guides/free-video-age-assurance-data-minimization-checklist/",
+        "redirects": [
+          {
+            "status": 301,
+            "path": "/guides/free-video-age-assurance-data-minimization-checklist/"
+          }
+        ],
+        "status": 200,
+        "classification": "live",
+        "ok": true
+      }
+    ],
+    "deployment": {
+      "ok": true,
+      "status": 200,
+      "classification": "deployment-matched"
+    }
+  },
+  "health": [
+    {
+      "host": "stripunion.com",
+      "path": "/",
+      "status": 200,
+      "error": null,
+      "finalHost": "stripunion.com",
+      "ga4MeasurementIds": [],
+      "gtagScriptPresent": false,
+      "consentDefaultDenied": true,
+      "canonical": "https://stripunion.com/"
+    },
+    {
+      "host": "stripunion.com",
+      "path": "/robots.txt",
+      "status": 200,
+      "error": null,
+      "finalHost": "stripunion.com"
+    },
+    {
+      "host": "stripunion.com",
+      "path": "/sitemap.xml",
+      "status": 200,
+      "error": null,
+      "finalHost": "stripunion.com"
+    },
+    {
+      "host": "blog.stripunion.com",
+      "path": "/",
+      "status": 200,
+      "error": null,
+      "finalHost": "blog.stripunion.com",
+      "ga4MeasurementIds": [],
+      "gtagScriptPresent": true,
+      "consentDefaultDenied": true,
+      "canonical": "https://blog.stripunion.com/"
+    },
+    {
+      "host": "blog.stripunion.com",
+      "path": "/robots.txt",
+      "status": 200,
+      "error": null,
+      "finalHost": "blog.stripunion.com"
+    },
+    {
+      "host": "blog.stripunion.com",
+      "path": "/sitemap_index.xml",
+      "status": 200,
+      "error": null,
+      "finalHost": "blog.stripunion.com"
+    },
+    {
+      "host": "avcams.online",
+      "path": "/",
+      "status": 406,
+      "error": null,
+      "finalHost": "avcams.online"
+    },
+    {
+      "host": "avcams.online",
+      "path": "/robots.txt",
+      "status": 200,
+      "error": null,
+      "finalHost": "avcams.online"
+    },
+    {
+      "host": "avcams.online",
+      "path": "/sitemap.xml",
+      "status": 404,
+      "error": null,
+      "finalHost": "avcams.online"
+    }
+  ],
+  "hostinger": {
+    "configured": true,
+    "websitesHttp": 200,
+    "mainFound": true,
+    "envHttp": 200,
+    "buildsHttp": 200,
+    "settingsHttp": 200,
+    "gitSettingsHttp": 200,
+    "settingsFields": [
+      "node_version",
+      "app_type",
+      "root_directory",
+      "output_directory",
+      "build_script",
+      "entry_file",
+      "package_manager"
+    ],
+    "gitFields": [
+      "installation_uuid",
+      "is_enabled",
+      "owner",
+      "repository",
+      "branch",
+      "directory"
+    ],
+    "canonicalRepository": true,
+    "branch": "main",
+    "autoDeploymentEnabled": true,
+    "ga4VariablePresent": false,
+    "ga4PublicValue": null,
+    "latestBuild": {
+      "id": "01a1c998-5885-7345-836f-7f9179b7b10d",
+      "state": "completed",
+      "createdAt": "2026-11-11T07:52:46Z",
+      "sha": null
+    },
+    "logEvidence": {
+      "httpStatus": 200,
+      "lineCount": 1750,
+      "errorCount": 0,
+      "warningCount": 2
+    }
+  },
+  "attribution": {
+    "configured": true,
+    "httpStatus": 200,
+    "totalClicks": 44,
+    "totalPostbacks": 13,
+    "matchedPostbacks": 1,
+    "unmatchedPostbacks": 12,
+    "duplicatePostbacks": 0,
+    "revenueByCurrency": {
+      "UNKNOWN": 224.25000000000003
+    },
+    "diagnostics": null
+  }
+}
