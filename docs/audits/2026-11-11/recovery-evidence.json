@@ -1,0 +1,191 @@
+{
+  "canonicalMain": "0e10ce79f8bfebbab74a7937101163b00d1062fd",
+  "window": {
+    "oldest": "2026-10-27T14:28:22Z",
+    "newest": "2026-11-11T13:54:54Z",
+    "pages": 10,
+    "runCount": 1000
+  },
+  "runtimeReceipt": {
+    "version": 1,
+    "runId": "41260561057",
+    "startedAt": "2026-11-01T01:18:58.404Z",
+    "status": "failure",
+    "cycleId": "41254032304",
+    "attempts": 3,
+    "finishedAt": "2026-11-01T01:19:24.918Z",
+    "blobSha": "8f204ec0fe1477f9c3627b75d3d692506e47d4e4"
+  },
+  "workflows": [
+    {
+      "name": "Editorial producer scheduler",
+      "lastSuccess": {
+        "id": 41249384691,
+        "createdAt": "2026-10-31T22:42:31Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 43033462000,
+        "createdAt": "2026-11-11T13:54:54Z",
+        "conclusion": "failure",
+        "event": "schedule"
+      }
+    },
+    {
+      "name": "Native social outbox",
+      "lastSuccess": {
+        "id": 41755681572,
+        "createdAt": "2026-11-04T01:40:40Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 43023930891,
+        "createdAt": "2026-11-11T12:51:14Z",
+        "conclusion": "failure",
+        "event": "schedule"
+      }
+    },
+    {
+      "name": "Ecosystem public health",
+      "lastSuccess": {
+        "id": 42948635193,
+        "createdAt": "2026-11-11T02:49:38Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 43007239882,
+        "createdAt": "2026-11-11T10:52:29Z",
+        "conclusion": "failure",
+        "event": "schedule"
+      }
+    },
+    {
+      "name": "Control plane authority promotion",
+      "lastSuccess": {
+        "id": 42998582501,
+        "createdAt": "2026-11-11T09:50:43Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": null
+    },
+    {
+      "name": "Visual QA",
+      "lastSuccess": {
+        "id": 42986725523,
+        "createdAt": "2026-11-11T08:24:02Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 40895418741,
+        "createdAt": "2026-10-29T14:49:59Z",
+        "conclusion": "failure",
+        "event": "pull_request"
+      }
+    },
+    {
+      "name": "Weekly growth report",
+      "lastSuccess": {
+        "id": 42982661311,
+        "createdAt": "2026-11-11T07:52:23Z",
+        "conclusion": "success",
+        "event": "workflow_dispatch"
+      },
+      "lastFailure": null
+    },
+    {
+      "name": "Traffic and competitor intelligence",
+      "lastSuccess": {
+        "id": 42982291891,
+        "createdAt": "2026-11-11T07:49:16Z",
+        "conclusion": "success",
+        "event": "workflow_dispatch"
+      },
+      "lastFailure": null
+    },
+    {
+      "name": "SEO data daily",
+      "lastSuccess": {
+        "id": 41793123027,
+        "createdAt": "2026-11-04T07:33:43Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 42982170466,
+        "createdAt": "2026-11-11T07:48:16Z",
+        "conclusion": "failure",
+        "event": "schedule"
+      }
+    },
+    {
+      "name": "Editorial production snapshot",
+      "lastSuccess": {
+        "id": 42975178390,
+        "createdAt": "2026-11-11T06:50:01Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": null
+    },
+    {
+      "name": "Telegram evergreen distribution",
+      "lastSuccess": {
+        "id": 42970397330,
+        "createdAt": "2026-11-11T06:09:01Z",
+        "conclusion": "success",
+        "event": "schedule"
+      },
+      "lastFailure": {
+        "id": 41865507125,
+        "createdAt": "2026-11-04T16:16:06Z",
+        "conclusion": "failure",
+        "event": "schedule"
+      }
+    },
+    {
+      "name": "Editorial heartbeat bridge",
+      "lastSuccess": {
+        "id": 41222602339,
+        "createdAt": "2026-10-31T17:02:59Z",
+        "conclusion": "success",
+        "event": "push"
+      },
+      "lastFailure": null
+    },
+    {
+      "name": "Build",
+      "lastSuccess": {
+        "id": 40896540312,
+        "createdAt": "2026-10-29T14:56:43Z",
+        "conclusion": "success",
+        "event": "pull_request"
+      },
+      "lastFailure": null
+    }
+  ],
+  "productionFailures": [
+    {
+      "run": 41254032304,
+      "job": 124693285881,
+      "step": "Plan hourly batch and generate only the deficit",
+      "cause": "Duplicate slug and backlogId: adult-games-save-data-portability-audit"
+    },
+    {
+      "run": 41257256944,
+      "job": 124702962132,
+      "step": "Plan hourly batch and generate only the deficit",
+      "cause": "HTTP 429 insufficient_quota / credit_balance_exhausted"
+    },
+    {
+      "run": 41260561057,
+      "job": 124712775317,
+      "step": "Plan hourly batch and generate only the deficit",
+      "cause": "HTTP 429 insufficient_quota / credit_balance_exhausted"
+    }
+  ]
+}

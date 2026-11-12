@@ -73,13 +73,20 @@ async function telegram(method, payload) {
 }
 
 export async function publishTelegramEvent(event) {
+  if (String(process.env.SOCIAL_OUTBOX_SEND_ENABLED).toLowerCase() === 'false') throw new Error('Social sends disabled by operator.');
+  if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true' &&
+      (event.source !== 'social_outbox' || process.env.GITHUB_WORKFLOW !== 'Native social outbox' || process.env.GITHUB_REF !== 'refs/heads/main' || process.env.GITHUB_RUN_ATTEMPT !== '1')) {
+    throw new Error('Direct Telegram sends refused after single-writer cutover.');
+  }
   if (!token || !chatId) {
     console.log('Telegram distribution skipped: TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID is not configured.');
     return { skipped: true };
   }
 
   const text = buildTelegramText(event);
-  const image = await discoverImage(event.url);
+  // A timeout after sendPhoto may mean it was accepted. The durable outbox
+  // uses one provider call and never falls back to a second irreversible send.
+  const image = event.source === 'social_outbox' ? null : await discoverImage(event.url);
   let result;
 
   const sendText = () => telegram('sendMessage', {

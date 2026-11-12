@@ -1,3 +1,4 @@
+import { bufferFetch } from '../../../../scripts/buffer-request-budget.mjs';
 const BUFFER_API_URL = 'https://api.buffer.com';
 
 function required(name) {
@@ -7,6 +8,11 @@ function required(name) {
 }
 
 export async function createBufferPost({ text, mode = 'addToQueue', dueAt }) {
+  if (String(process.env.SOCIAL_OUTBOX_SEND_ENABLED).toLowerCase() === 'false') throw new Error('Social sends disabled by operator.');
+  if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true' &&
+      (process.env.GITHUB_WORKFLOW !== 'Native social outbox' || process.env.GITHUB_REF !== 'refs/heads/main' || process.env.GITHUB_RUN_ATTEMPT !== '1')) {
+    throw new Error('Direct Buffer sends refused after single-writer cutover.');
+  }
   const apiKey = required('BUFFER_API_KEY');
   const channelId = required('BUFFER_CHANNEL_ID');
 
@@ -18,6 +24,7 @@ export async function createBufferPost({ text, mode = 'addToQueue', dueAt }) {
             id
             text
             dueAt
+            status
             channelId
           }
         }
@@ -40,7 +47,7 @@ export async function createBufferPost({ text, mode = 'addToQueue', dueAt }) {
     input.dueAt = dueAt;
   }
 
-  const response = await fetch(BUFFER_API_URL, {
+  const response = await bufferFetch(BUFFER_API_URL, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
@@ -52,16 +59,16 @@ export async function createBufferPost({ text, mode = 'addToQueue', dueAt }) {
   const payload = await response.json();
 
   if (!response.ok) {
-    throw new Error(`Buffer HTTP ${response.status}: ${JSON.stringify(payload)}`);
+    throw new Error(`Buffer HTTP ${response.status}; provider payload withheld`);
   }
 
   if (payload.errors?.length) {
-    throw new Error(`Buffer GraphQL error: ${JSON.stringify(payload.errors)}`);
+    throw new Error('Buffer GraphQL request failed; provider payload withheld');
   }
 
   const result = payload.data?.createPost;
   if (!result?.post?.id) {
-    throw new Error(`Buffer rejected post: ${JSON.stringify(result)}`);
+    throw new Error('Buffer acceptance unconfirmed; reconciliation required');
   }
 
   return result.post;

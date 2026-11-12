@@ -38,6 +38,7 @@ const normalized = {
   collectedAt: new Date().toISOString(),
   receiverConnected: true,
   postbackJoinReady: true,
+  diagnostics: summary.diagnostics && typeof summary.diagnostics === 'object' ? summary.diagnostics : null,
   reportScope: 'first-party AVCams click/postback attribution',
   totalClicks: Number(summary.totalClicks || 0),
   totalPostbacks: Number(summary.totalPostbacks || 0),

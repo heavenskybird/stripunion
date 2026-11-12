@@ -18,3 +18,13 @@ export function findUnsupportedEditorialClaim(artifact) {
   const text = textParts(artifact).toLowerCase();
   return UNSUPPORTED_EDITORIAL_CLAIMS.find((phrase) => text.includes(phrase)) || null;
 }
+
+export function occupiedEditorialIdentifiers({ backlog, existingGuides, allArtifacts, selectedCategories }) {
+  const labels = new Set(selectedCategories.map(c => c.name));
+  const slugs = new Set(selectedCategories.map(c => c.slug));
+  return [...new Set([
+    ...(backlog.queue || []).filter(item => labels.has(item.category)).map(item => item.id),
+    ...existingGuides.filter(guide => slugs.has(guide.categorySlug)).map(guide => guide.slug),
+    ...allArtifacts.filter(row => slugs.has(row.data.categorySlug)).flatMap(row => [row.data.slug, row.data.backlogId])
+  ].filter(Boolean))].sort();
+}

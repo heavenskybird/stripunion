@@ -25,8 +25,8 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
-      - name: Test R1 reliability without external calls
-        run: node --test scripts/test/reliability-r1.test.mjs scripts/test/editorial-generator-guards.test.mjs
+      - name: Test recovery reliability without external calls
+        run: node --test scripts/test/*.test.mjs
       - name: Validate Hostinger read-only checker
         run: |
           node --check scripts/hostinger-readonly-check.mjs
@@ -98,6 +98,8 @@ jobs:
           npm run report:editorial-production > /tmp/editorial-production.json
       - name: Run migration quality gate
         run: npm run check
+      - name: Test first-party data correctness without external calls
+        run: npm test --prefix ops/seo-data-layer
       - name: Build staging-safe site
         run: |
           PUBLIC_ALLOW_INDEXING=false npm run build
@@ -111,4 +113,5 @@ jobs:
         run: |
           npm run check:prod-seo
           node scripts/check-ga4-artifact.mjs
-
+      - name: Test attribution correctness without provider events
+        run: npm test --prefix services/live-models-worker

@@ -1,0 +1,596 @@
+{
+  "snapshotCollectedAt": "2026-11-04T07:34:18.108Z",
+  "source": "tracked first-party Buffer historical snapshot; not a new provider query",
+  "uncertainEvents": 73,
+  "xEvents": 28,
+  "telegramEvents": 45,
+  "xUniqueCandidates": 0,
+  "xAmbiguousCandidates": 0,
+  "rows": [
+    {
+      "idempotency_key": "astro:free-video-keyboard-screen-reader-usability-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-video-keyboard-screen-reader-usability-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-demo-and-early-access-purchase-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-demo-and-early-access-purchase-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-adult-video-accessibility-playback-controls-checklist:x",
+      "channel": "x",
+      "slug": "free-adult-video-accessibility-playback-controls-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-platform-series-completeness-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-platform-series-completeness-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-adult-video-moderation-and-discovery-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-adult-video-moderation-and-discovery-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-language-metadata-accessibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-language-metadata-accessibility-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-exit-content-portability-plan:x",
+      "channel": "x",
+      "slug": "creator-platform-exit-content-portability-plan",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-community-participation-privacy-and-spoiler-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-community-participation-privacy-and-spoiler-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-platform-moderation-assessment:x",
+      "channel": "x",
+      "slug": "live-cam-platform-moderation-assessment",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-search-filter-practical-guide:x",
+      "channel": "x",
+      "slug": "dating-platform-search-filter-practical-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-content-labels-and-source-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-content-labels-and-source-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-room-discovery-before-joining-guide:x",
+      "channel": "x",
+      "slug": "live-cam-room-discovery-before-joining-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-adult-video-accessibility-playback-controls-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-adult-video-accessibility-playback-controls-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-video-playback-and-ad-interruption-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-video-playback-and-ad-interruption-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-notification-and-inbox-privacy-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-notification-and-inbox-privacy-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-demo-and-early-access-purchase-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-demo-and-early-access-purchase-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-account-recovery-access-continuity:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-account-recovery-access-continuity",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-stream-connection-compatibility-checklist:x",
+      "channel": "x",
+      "slug": "live-cam-stream-connection-compatibility-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-content-warnings-and-narrative-fit-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-content-warnings-and-narrative-fit-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-save-data-and-progress-portability-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-save-data-and-progress-portability-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-discovery-dependence-audit:x",
+      "channel": "x",
+      "slug": "creator-platform-discovery-dependence-audit",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-search-filter-practical-guide:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-search-filter-practical-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-chat-to-first-meeting-plan:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-chat-to-first-meeting-plan",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-community-participation-privacy-and-spoiler-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-community-participation-privacy-and-spoiler-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-platform-membership-vs-one-time-access:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-membership-vs-one-time-access",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-library-discovery-workflow:x",
+      "channel": "x",
+      "slug": "vr-adult-library-discovery-workflow",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-access-model-and-entitlement-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-access-model-and-entitlement-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-adult-video-moderation-and-discovery-checklist:x",
+      "channel": "x",
+      "slug": "free-adult-video-moderation-and-discovery-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-platform-series-completeness-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-platform-series-completeness-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-language-metadata-accessibility-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-language-metadata-accessibility-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-chat-to-first-meeting-plan:x",
+      "channel": "x",
+      "slug": "dating-platform-chat-to-first-meeting-plan",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-platform-moderation-assessment:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-platform-moderation-assessment",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-room-discovery-before-joining-guide:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-room-discovery-before-joining-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-profile-authenticity-scam-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-profile-authenticity-scam-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-platform-preview-fit-checklist:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-preview-fit-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-content-warnings-and-narrative-fit-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-content-warnings-and-narrative-fit-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-community-quality-assessment:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-community-quality-assessment",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-cancellation-account-closure-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-cancellation-account-closure-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-content-labels-and-source-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-content-labels-and-source-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-video-keyboard-screen-reader-usability-checklist:x",
+      "channel": "x",
+      "slug": "free-video-keyboard-screen-reader-usability-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-shop-product-listing-comparison-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-product-listing-comparison-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-platform-accessibility-and-comfort-checklist:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-accessibility-and-comfort-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-shop-gift-purchase-planning:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-gift-purchase-planning",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-account-recovery-access-continuity:x",
+      "channel": "x",
+      "slug": "creator-platform-account-recovery-access-continuity",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:dating-platform-profile-authenticity-scam-checklist:x",
+      "channel": "x",
+      "slug": "dating-platform-profile-authenticity-scam-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-mobile-usability-comparison:x",
+      "channel": "x",
+      "slug": "live-cam-mobile-usability-comparison",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:premium-video-library-discovery-workflow:telegram",
+      "channel": "telegram",
+      "slug": "premium-video-library-discovery-workflow",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-video-deceptive-buttons-redirect-safety-guide:telegram",
+      "channel": "telegram",
+      "slug": "free-video-deceptive-buttons-redirect-safety-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-platform-accessibility-and-comfort-checklist:x",
+      "channel": "x",
+      "slug": "vr-adult-platform-accessibility-and-comfort-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-shop-total-cost-transparency-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-total-cost-transparency-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-library-discovery-workflow:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-library-discovery-workflow",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-discovery-dependence-audit:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-discovery-dependence-audit",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-site-account-data-minimization:telegram",
+      "channel": "telegram",
+      "slug": "adult-site-account-data-minimization",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:vr-adult-platform-trial-fit-scorecard:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-trial-fit-scorecard",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-reader-navigation-mobile-usability:x",
+      "channel": "x",
+      "slug": "adult-anime-reader-navigation-mobile-usability",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-mobile-usability-comparison:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-mobile-usability-comparison",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-earnings-statement-recordkeeping-checklist:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-earnings-statement-recordkeeping-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-shop-shipping-policy-comparison:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-shipping-policy-comparison",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-build-source-provenance-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-build-source-provenance-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-game-build-source-provenance-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-build-source-provenance-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:premium-video-library-discovery-workflow:x",
+      "channel": "x",
+      "slug": "premium-video-library-discovery-workflow",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-public-private-interaction-options-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-public-private-interaction-options-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-reader-navigation-mobile-usability:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-reader-navigation-mobile-usability",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-anime-access-model-and-entitlement-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-access-model-and-entitlement-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-platform-accessibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-platform-accessibility-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:live-cam-stream-connection-compatibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-stream-connection-compatibility-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-fan-tier-and-offer-planning:x",
+      "channel": "x",
+      "slug": "creator-platform-fan-tier-and-offer-planning",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-affiliate-payout-reconciliation-workflow:telegram",
+      "channel": "telegram",
+      "slug": "adult-affiliate-payout-reconciliation-workflow",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-fan-tier-and-offer-planning:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-fan-tier-and-offer-planning",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:creator-platform-exit-content-portability-plan:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-exit-content-portability-plan",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-site-account-data-minimization:x",
+      "channel": "x",
+      "slug": "adult-site-account-data-minimization",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:free-video-deceptive-buttons-redirect-safety-guide:x",
+      "channel": "x",
+      "slug": "free-video-deceptive-buttons-redirect-safety-guide",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    },
+    {
+      "idempotency_key": "astro:adult-shop-product-documentation-and-care-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-product-documentation-and-care-checklist",
+      "storedProviderId": null,
+      "candidateProviderIds": [],
+      "candidateCount": 0
+    }
+  ],
+  "productionStateModified": false
+}

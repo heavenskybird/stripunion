@@ -5,27 +5,35 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, codex/recovery-integration-20261111]
     paths:
       - 'ops/editorial/publication-ledger/astro/*.json'
       - 'ops/control-plane/social-outbox-kick.json'
+      - '.github/workflows/social-outbox.yml'
+      - 'scripts/social-outbox-admission.mjs'
 
 permissions:
   contents: write
 
 concurrency:
-  group: native-social-outbox
+  group: ${{ github.ref == 'refs/heads/main' && 'native-social-outbox' || 'native-social-outbox-paused-preflight' }}
   cancel-in-progress: false
 
 jobs:
   reconcile-and-deliver:
+    # The integration branch may exercise only the explicitly paused path.
+    if: >-
+      github.repository == 'heavenskybird/stripunion' &&
+      (github.ref == 'refs/heads/main' ||
+       (github.ref == 'refs/heads/codex/recovery-integration-20261111' &&
+        vars.SOCIAL_OUTBOX_SEND_ENABLED == 'false'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Checkout canonical main
+      - name: Checkout canonical main or isolated paused preflight
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.ref == 'refs/heads/main' && 'main' || github.sha }}
           fetch-depth: 0
 
       - name: Use Node.js 22
@@ -33,21 +41,38 @@ jobs:
         with:
           node-version: 22
 
+      - name: Respect operator sending switch
+        id: operator
+        env:
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+        run: node scripts/social-outbox-admission.mjs
+
       - name: Install dependencies
+        if: steps.operator.outputs.send_enabled == 'true'
         run: npm install
 
       - name: Sync publication ledger into native outbox
+        if: steps.operator.outputs.send_enabled == 'true'
         run: npm run social:outbox:sync
 
       - name: Reconcile historical Buffer deliveries
+        if: steps.operator.outputs.send_enabled == 'true'
+        id: reconcile_buffer
+        continue-on-error: true
         env:
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: npm run social:outbox:reconcile:buffer
 
       - name: Process safe pending deliveries
+        if: steps.operator.outputs.send_enabled == 'true'
         env:
-          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'true' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          BUFFER_RECONCILIATION_OUTCOME: ${{ steps.reconcile_buffer.outcome }}
+          GH_TOKEN: ${{ github.token }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
           SOCIAL_OUTBOX_BATCH_SIZE: '5'
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
           SOCIAL_OUTBOX_X_DAILY_CAP: '20'
@@ -60,9 +85,11 @@ jobs:
         run: npm run social:outbox:worker
 
       - name: Report outbox state
+        if: always() && steps.operator.outputs.send_enabled == 'true'
         run: npm run social:outbox:report
 
       - name: Persist native outbox state
+        if: always() && steps.operator.outputs.send_enabled == 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -84,4 +111,10 @@ jobs:
           done
 
           echo "Failed to persist social outbox state after retries." >&2
+          exit 1
+
+      - name: Retain visible reconciliation failure after safe channel processing
+        if: always() && steps.operator.outputs.send_enabled == 'true' && steps.reconcile_buffer.outcome == 'failure'
+        run: |
+          echo "::error::Buffer reconciliation failed or is cooling down. X sends held; safe channel results were persisted."
           exit 1

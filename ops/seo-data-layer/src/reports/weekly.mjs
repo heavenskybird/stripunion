@@ -41,7 +41,9 @@ const ga4 = await latestSnapshot('ga4.json');
 const ga4Admin = await latestSnapshot('ga4-admin.json');
 const clarity = await latestSnapshot('clarity.json');
 const bing = await latestSnapshot('bing.json');
-const buffer = await latestSnapshot('buffer.json');
+const observedBuffer = await latestSnapshot('buffer.json');
+const buffer = freshSnapshot(observedBuffer);
+const bufferStatus = buffer ? 'available' : observedBuffer ? 'stale_or_invalid' : 'missing';
 const stripcash = await latestSnapshot('stripcash.json');
 const attribution = await latestSnapshot('attribution.json');
 const growthOpportunities = await readRepoJson('ops/growth/opportunities/latest.json');
@@ -195,6 +197,7 @@ const summary = {
   generatedAt: new Date().toISOString(),
   sourceDates: { gsc: gsc?.date || null, gscBlog: gscBlog?.date || null, ga4: ga4?.date || null, clarity: clarity?.date || null, bing: bing?.date || null, buffer: buffer?.date || null, stripcash: stripcash?.date || null, attribution: attribution?.date || null },
   sources: { gsc: Boolean(gsc), gscBlog: Boolean(gscBlog), ga4: Boolean(ga4), clarity: Boolean(clarity), bing: Boolean(bing), buffer: Boolean(buffer), stripcash: Boolean(stripcash), attribution: Boolean(attribution) },
+  sourceFreshness: { buffer: { status: bufferStatus, lastCollectedAt: observedBuffer?.data?.collectedAt || null, maxAgeHours: 72 } },
   ga4Admin: ga4Admin ? { date: ga4Admin.date, propertyId: ga4Admin.data.propertyId || null, topology: ga4Admin.data.topology || 'UNKNOWN / MULTIPLE', unifiedFunnelCandidate: ga4Admin.data.unifiedFunnelCandidate || null, streams: ga4Admin.data.streams || [] } : null,
   google: {
     blogUrlPrefix: gscBlog ? {
@@ -258,13 +261,14 @@ const summary = {
     metricGroups: (clarity.data.metrics || []).length,
     informationRows: (clarity.data.metrics || []).reduce((total, metric) => total + (metric.information || []).length, 0)
   } : null,
-  buffer: {
+  buffer: buffer ? {
+    status: bufferStatus,
     channel: buffer?.data?.channel || null, sentPostCount: sentPosts.length, scheduledPostCount: scheduledPosts.length,
     impressions: sum(sentPosts.map((post) => post.metrics || {}), 'impressions'), clicks: sum(sentPosts.map((post) => post.metrics || {}), 'clicks'),
     engagement: { reactions: sum(sentPosts.map((post) => post.metrics || {}), 'reactions'), comments: sum(sentPosts.map((post) => post.metrics || {}), 'comments'), reposts: sum(sentPosts.map((post) => post.metrics || {}), 'reposts'), reach: sum(sentPosts.map((post) => post.metrics || {}), 'reach') },
     metricsUpdatedAt: sentPosts.map((post) => post.metricsUpdatedAt).filter(Boolean).sort().at(-1) || null,
     highestPerformingPosts: highPerformingPosts.slice(0, 3).map((post) => ({ id: post.id || null, sentAt: post.sentAt || null, metrics: post.metrics || {} }))
-  },
+  } : { status: bufferStatus, channel: null, sentPostCount: null, scheduledPostCount: null, impressions: null, clicks: null, engagement: null, metricsUpdatedAt: null, highestPerformingPosts: [] },
   stripcash: stripcash ? {
     reportScope: stripcash.data.reportScope || null,
     reportStatus: stripcash.data.reportStatus || null,
@@ -274,6 +278,11 @@ const summary = {
     reportScope: attributionSummary.reportScope || null,
     receiverConnected: attributionSummary.receiverConnected === true,
     postbackJoinReady: attributionSummary.postbackJoinReady === true,
+    joinQuality: Number(attributionSummary.totalPostbacks || 0) > 0 ? {
+      matchedShare: Number(attributionSummary.matchedPostbacks || 0) / Number(attributionSummary.totalPostbacks),
+      status: Number(attributionSummary.unmatchedPostbacks || 0) > 0 ? 'incomplete' : 'fully_matched',
+      diagnostics: attributionSummary.diagnostics || null
+    } : { status: 'no_observations', matchedShare: null, diagnostics: null },
     totalClicks: Number(attributionSummary.totalClicks || 0),
     totalPostbacks: Number(attributionSummary.totalPostbacks || 0),
     matchedPostbacks: Number(attributionSummary.matchedPostbacks || 0),
@@ -342,11 +351,11 @@ const md = [
       ? rankingOpportunities.slice(0, 5).map((row) => `- ${row.query}: position ${Number(row.position).toFixed(1)}, ${row.impressions} impressions`)
       : ['- No current query rows available.']),
   '',
-  '## Distribution', `- Buffer: ${sentPosts.length} sent posts · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks.`, '',
+  '## Distribution', buffer ? `- Buffer: ${sentPosts.length} sent posts · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks (snapshot ${buffer.date}).` : `- Buffer: UNAVAILABLE (${bufferStatus}); last collected ${observedBuffer?.data?.collectedAt || 'unknown'}. Do not interpret as zero or current performance.`, '',
   '## Revenue / Affiliate Attribution',
   `- ${summary.ga4.siteSegmentationAvailable ? `Main affiliate_click: ${summary.ga4.sites.main.affiliateClick}; Blog affiliate_click: ${summary.ga4.sites.blog.affiliateClick}.` : 'Site-level affiliate_click attribution needs a fresh host-segmented GA4 snapshot.'}`,
   `- ${stripcash ? `StripCash aggregate scope: signups **${stripcashMetrics.signup || 0}** · verified **${stripcashMetrics.verifiedSignup || 0}** · new customers **${stripcashMetrics.newCustomersCount || 0}** · purchases **${stripcashMetrics.purchasesCount || 0}** · purchase earnings **${stripcashMetrics.purchaseEarnings || 0}** · total earnings **${stripcashMetrics.totalEarnings || 0}**.` : 'STRIPCASH AGGREGATE REVENUE NOT CONNECTED.'}`,
-  `- ${attribution ? `First-party attribution receiver **connected** · click→postback join **ready** · clicks **${attributionSummary.totalClicks || 0}** · postbacks **${attributionSummary.totalPostbacks || 0}** · matched **${attributionSummary.matchedPostbacks || 0}** · unmatched **${attributionSummary.unmatchedPostbacks || 0}** · events ${JSON.stringify(attributionSummary.eventCounts || {})} · revenue by currency ${JSON.stringify(attributionSummary.revenueByCurrency || {})}.` : 'First-party click storage is deployed; StripCash postback secret/setup is still pending.'}`,
+  `- ${attribution ? `First-party attribution receiver **connected** · click→postback transport **ready** · matching **${summary.attribution.joinQuality.status}** · clicks **${attributionSummary.totalClicks || 0}** · postbacks **${attributionSummary.totalPostbacks || 0}** · matched **${attributionSummary.matchedPostbacks || 0}** · unmatched **${attributionSummary.unmatchedPostbacks || 0}** · events ${JSON.stringify(attributionSummary.eventCounts || {})} · revenue by currency ${JSON.stringify(attributionSummary.revenueByCurrency || {})}.` : 'First-party click storage is deployed; StripCash postback secret/setup is still pending.'}`,
   ...topAttributionP1.map((row) => `- Attribution ${row.key}: ${row.clicks || 0} clicks · ${row.postbacks || 0} postbacks · events ${JSON.stringify(row.eventCounts || {})}.`),
   `- ${stripcash ? (attribution ? 'Aggregate StripCash statistics and first-party attribution are both connected.' : 'Aggregate StripCash statistics are connected; postback joining is the remaining attribution step.') : 'Postback and Statistics attribution remain disconnected.'}`, '',
   '## Warnings / Missing Data',
@@ -377,7 +386,7 @@ const md = [
     return latest;
   }, {})).map((row) => `- ${row.site}: latest ${row.CrawlErrors || 0} crawl errors; ${row.InIndex ?? 'unknown'} indexed`), '',
   '## Acquisition Snapshot', `- GA4 combined: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged (${pct(summary.ga4.engagementRate)}) · affiliate_click **${affiliateClicks}** · revenue ${summary.ga4.revenue || 'not connected'}.`, '',
-  '## Distribution Detail', `- Buffer/X: ${sentPosts.length} sent · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks.`,
+  '## Distribution Detail', buffer ? `- Buffer/X: ${sentPosts.length} sent · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks (snapshot ${buffer.date}).` : `- Buffer/X: UNAVAILABLE (${bufferStatus}); historical snapshot retained.`,
   ...highPerformingPosts.slice(0, 3).map((post) => `- Post ${post.id || '(unknown id)'}: ${post.metrics?.impressions ?? 'n/a'} impressions, ${post.metrics?.clicks ?? 'n/a'} clicks`), ''
 ];
 
