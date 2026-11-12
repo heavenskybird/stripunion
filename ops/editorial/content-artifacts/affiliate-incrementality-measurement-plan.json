@@ -1,0 +1,119 @@
+{
+  "backlogId": "affiliate-incrementality-measurement-plan",
+  "slug": "affiliate-incrementality-measurement-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Marketing Tests: Separate Attributed Conversions from Incremental Impact",
+  "description": "Build a cautious affiliate measurement plan that distinguishes tracked referrals from conversions that may have happened anyway, without treating attribution reports as proof of lift.",
+  "excerpt": "An affiliate dashboard can report credited conversions, but that does not by itself show how many were caused by a promotion. Define the question, comparison, and limits before interpreting results.",
+  "keyTakeaways": [
+    "A credited conversion and an incremental conversion answer different questions.",
+    "Define the test outcome and comparison method before changing a campaign.",
+    "Avoid treating unrandomized channel comparisons as causal proof.",
+    "Record changes in offer, audience, placement, and tracking conditions during the test.",
+    "Use small, reversible tests and report uncertainty rather than overstating a result."
+  ],
+  "sections": [
+    {
+      "heading": "Separate credit assignment from causal impact",
+      "paragraphs": [
+        "Affiliate reporting commonly answers a crediting question: which tracked referral, link, or interaction received credit under the program's rules? Incrementality asks a different question: how many outcomes occurred because a promotion was shown, compared with what might have happened without it? A tracking record can be useful for operations while still being insufficient to answer the causal question.",
+        "This distinction matters when comparing campaigns. One placement may receive more attributed conversions because it reaches people already close to making a decision, because its tracking path is more complete, or because its rules assign credit differently. Those possibilities are not interchangeable with proof that the placement created additional demand. State clearly whether a report is describing credited activity, observed change, or an estimate of incremental impact."
+      ]
+    },
+    {
+      "heading": "Write a test question that can be answered",
+      "paragraphs": [
+        "Begin with a narrow decision, such as whether to keep a particular placement, change its prominence, or allocate editorial work elsewhere. Specify the audience, page or placement, date range, and outcome you will observe. If you change several elements at once, a later difference may not tell you which change mattered. A narrow test is easier to interpret and easier to reverse if it produces an unwanted result.",
+        "Choose an outcome that is available and defined consistently. Confirm what the program calls a click, conversion, or qualified event, and whether the relevant report uses the same time period and attribution rules throughout the test. If the reporting definition changes or the data is delayed, record that limitation. Do not substitute a convenient metric for the actual decision question merely because it is easier to export."
+      ],
+      "bullets": [
+        "Write one sentence describing the decision the test should inform.",
+        "Name the placement, audience, outcome, and observation period before launch.",
+        "List factors that could change during the test, including content or offer changes."
+      ]
+    },
+    {
+      "heading": "Choose a comparison that fits your evidence",
+      "paragraphs": [
+        "A comparison group can help distinguish a campaign effect from general changes over time, but it must be chosen thoughtfully. Depending on the site and available controls, a webmaster might compare similar pages, alternate eligible exposure, or examine a before-and-after period. Each approach has limitations. Similar pages may attract different visitors, and before-and-after results can be affected by seasonality, editorial changes, or broader demand shifts.",
+        "A randomized holdout can provide stronger causal evidence when it is lawful, permitted by program terms, technically feasible, and respectful of visitor choice. Do not assume every affiliate program or site setup allows such a test. If randomization is not appropriate, describe the comparison as observational and avoid claims that it proves causation. When no credible comparison is possible, the honest conclusion may be that the available data supports monitoring, not a definitive lift estimate."
+      ],
+      "table": {
+        "caption": "Common comparison approaches and their interpretation limits",
+        "headers": [
+          "Approach",
+          "Potential use",
+          "Important limitation"
+        ],
+        "rows": [
+          [
+            "Before-and-after observation",
+            "Notice a change around a documented campaign update",
+            "Other changes over time may explain the difference"
+          ],
+          [
+            "Compare similar pages or placements",
+            "Explore whether outcomes differ across comparable contexts",
+            "The pages or audiences may not be truly comparable"
+          ],
+          [
+            "Randomized exposure or holdout",
+            "Estimate a difference under a defined and permitted test design",
+            "Requires careful implementation, sufficient data, and appropriate consent"
+          ],
+          [
+            "Attributed program report alone",
+            "Track credited referrals and operational outcomes",
+            "Does not establish what would have happened without promotion"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep implementation and traffic rules in view",
+      "paragraphs": [
+        "Before testing, confirm that the promotion method, placement, and measurement approach comply with the program's current terms and your site's own privacy and disclosure obligations. A measurement idea is not permission to use a restricted traffic source, collect additional personal data, or change referral handling. Where a rule is unclear, seek written clarification before introducing the test.",
+        "Keep the test as limited as possible. Avoid adding unnecessary identifiers to referral links or collecting user-level information solely to improve a comparison. Use aggregated reporting where it can answer the question, respect visitor consent choices, and document any data that is excluded. If a test depends on a tracking method that visitors can block or decline, note that the observed results may represent only the measurable portion of activity."
+      ]
+    },
+    {
+      "heading": "Record changes and report uncertainty",
+      "paragraphs": [
+        "Maintain a simple test log that captures the start and end dates, page version, placement, traffic method, program terms consulted, and any unusual changes. Export or save the relevant reports while available, but keep only records needed for analysis and business administration. Document report definitions and data gaps so a future review does not mistake a changed measurement process for a changed audience response.",
+        "When presenting a result, separate the observation from its interpretation. You can say that a tracked count changed during a period; you should not describe that as incremental lift unless the design supports the conclusion. Include the comparison method, material limitations, and whether the result was stable enough to inform a decision. If evidence is weak or mixed, continue monitoring or run a better-controlled test rather than turning ambiguity into a performance claim."
+      ],
+      "bullets": [
+        "Keep a dated record of campaign changes and the program rules checked.",
+        "Label dashboard counts as attributed or tracked unless a suitable design supports more.",
+        "Include uncertainty and alternative explanations in internal summaries."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate conversion report show incremental sales?",
+      "answer": "Not by itself. It generally reflects conversions credited according to the program's tracking and attribution rules. Estimating what happened because of promotion requires a suitable comparison with a plausible alternative outcome."
+    },
+    {
+      "question": "Can I use a before-and-after comparison?",
+      "answer": "It can help describe what changed around a campaign update, but it cannot automatically rule out other explanations such as seasonality, content changes, or shifts in audience. Label it as an observational comparison unless the design supports a causal conclusion."
+    },
+    {
+      "question": "Should I test with individual visitor identifiers?",
+      "answer": "Do not collect or add personal data simply because it might make analysis easier. First determine whether an aggregate, privacy-respecting method can answer the question, and check applicable consent requirements and program rules before using any tracking approach."
+    },
+    {
+      "question": "What if the program does not provide the data I need?",
+      "answer": "Record the limitation and narrow the decision to what the available information can support. Ask the program for definitions or permissible reporting options if needed. Do not present an attribution count as proof of incremental impact."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
