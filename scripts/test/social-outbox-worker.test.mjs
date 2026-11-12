@@ -28,6 +28,7 @@ async function scenario(rows, extra={}) {
   }
   if(url.hostname==='api.telegram.org'){
    calls++;await fs.writeFile(${JSON.stringify(path.join(dir,'calls.json'))},JSON.stringify({calls}));
+   if(process.env.TEST_TELEGRAM_PROVIDER_FAILURE==='true')throw Error('Mock provider timeout after possible acceptance');
    return Response.json({ok:true,result:{message_id:calls}});
   }
   throw Error('Unexpected request blocked by test');
@@ -80,4 +81,16 @@ test('Buffer reconciliation failure holds X while Telegram can deliver exactly o
 test('Telegram-only processing does not read Buffer evidence', async()=>{
  const result=await scenario([event(0)],{SOCIAL_OUTBOX_RECONCILIATION_FILE:'/tmp/absent-buffer-evidence-for-test'});
  assert.equal(result.calls,1);assert.equal(result.after[0].state,'delivered');
+});
+
+test('Telegram provider failure is quarantined while Buffer failure cannot trigger a second irreversible call', async()=>{
+ const rows=[{...event(0),channel:'x',provider:'buffer'},event(1)];
+ const result=await scenario(rows,{BUFFER_RECONCILIATION_OUTCOME:'failure',TEST_TELEGRAM_PROVIDER_FAILURE:'true'});
+ assert.equal(result.calls,1);
+ assert.equal(result.after[0].state,'pending');
+ assert.equal(result.after[1].state,'reconcile_required');
+ assert.match(result.after[1].last_error,/reconciliation/);
+ const held=await scenario(result.after,{BUFFER_RECONCILIATION_OUTCOME:'failure',TEST_TELEGRAM_PROVIDER_FAILURE:'true'});
+ assert.equal(held.calls,0);
+ assert.equal(held.after[1].state,'reconcile_required');
 });
