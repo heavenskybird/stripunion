@@ -12,34 +12,37 @@ async function scenario(rows, extra={}) {
  const snapshot=path.join(dir,'provider.json');await fs.writeFile(snapshot,JSON.stringify({checked_at:new Date().toISOString(),channel_id:'test',posts:[]}));
  const preload=path.join(dir,'mock.mjs');
  await fs.writeFile(preload,`import fs from 'node:fs/promises';
- const receipts=new Map();let calls=0;
+ const receipts=new Map();let calls=0,bufferCalls=0,telegramCalls=0,githubCalls=0;
+ const save=()=>fs.writeFile(${JSON.stringify(path.join(dir,'calls.json'))},JSON.stringify({calls,bufferCalls,telegramCalls,githubCalls}));
  globalThis.fetch=async(raw,opts={})=>{
   const url=new URL(raw);const body=opts.body?JSON.parse(opts.body):null;
   if(url.hostname==='api.github.com'){
+   githubCalls++;await save();
    if(url.pathname.includes('/branches/'))return Response.json({name:'test'});
    if(url.pathname.includes('/contents/')){
-    if(!opts.method||opts.method==='GET')return new Response('',{status:404});
+    if(!opts.method||opts.method==='GET')return receipts.has(url.pathname)?Response.json({content:receipts.get(url.pathname).content,sha:String(receipts.size)}):new Response('',{status:404});
     receipts.set(url.pathname,body);return Response.json({content:{sha:String(receipts.size)}});
    }
   }
   if(url.hostname==='api.buffer.com'){
-   calls++;await fs.writeFile(${JSON.stringify(path.join(dir,'calls.json'))},JSON.stringify({calls}));
+   calls++;bufferCalls++;await save();
    return Response.json({data:{createPost:{post:{id:'provider-test',dueAt:body.variables.input.dueAt,status:'scheduled'}}}});
   }
   if(url.hostname==='api.telegram.org'){
-   calls++;await fs.writeFile(${JSON.stringify(path.join(dir,'calls.json'))},JSON.stringify({calls}));
+   calls++;telegramCalls++;await save();
    return Response.json({ok:true,result:{message_id:calls}});
   }
   throw Error('Unexpected request blocked by test');
  };`);
  try {
-  execFileSync(process.execPath,['--import',preload,worker],{cwd:dir,encoding:'utf8',env:{...process.env,
+  let error=null,stdout='';
+  try{stdout=execFileSync(process.execPath,['--import',preload,worker],{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe'],env:{...process.env,
    GITHUB_REPOSITORY:'heavenskybird/stripunion',GITHUB_REF:'refs/heads/main',GITHUB_RUN_ATTEMPT:'1',GITHUB_WORKFLOW:'Native social outbox',GH_TOKEN:'test-only',
-   SOCIAL_OUTBOX_SEND_ENABLED:'true',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',SOCIAL_OUTBOX_BATCH_SIZE:'5',TELEGRAM_BOT_TOKEN:'test-only',TELEGRAM_CHANNEL_ID:'@test',
-   BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot,...extra}});
+   SOCIAL_OUTBOX_SEND_ENABLED:'true',SOCIAL_OUTBOX_X_SEND_ENABLED:'true',SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:'true',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',SOCIAL_OUTBOX_BATCH_SIZE:'5',TELEGRAM_BOT_TOKEN:'test-only',TELEGRAM_CHANNEL_ID:'@test',
+   BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot,...extra}});}catch(e){error=e;}
   const after=await Promise.all(rows.map((_,i)=>fs.readFile(path.join(events,`${i}.json`),'utf8').then(JSON.parse)));
-  const calls=await fs.readFile(path.join(dir,'calls.json'),'utf8').then(JSON.parse).catch(()=>({calls:0}));
-  return{after,...calls};
+  const calls=await fs.readFile(path.join(dir,'calls.json'),'utf8').then(JSON.parse).catch(()=>({calls:0,bufferCalls:0,telegramCalls:0,githubCalls:0}));
+  return{after,error,stdout,...calls};
  } finally {await fs.rm(dir,{recursive:true,force:true});}
 }
 const event=(i,state='pending')=>({state,idempotency_key:`test:${i}`,channel:'telegram',provider:'telegram',slug:`test-${i}`,title:'Test',url:`https://stripunion.com/test-${i}`,attempt_count:0,last_attempt_at:state==='delivered'?new Date().toISOString():null});
@@ -80,4 +83,53 @@ test('Buffer reconciliation failure holds X while Telegram can deliver exactly o
 test('Telegram-only processing does not read Buffer evidence', async()=>{
  const result=await scenario([event(0)],{SOCIAL_OUTBOX_RECONCILIATION_FILE:'/tmp/absent-buffer-evidence-for-test'});
  assert.equal(result.calls,1);assert.equal(result.after[0].state,'delivered');
+});
+
+test('actual worker defaults both channels off even with the global switch enabled', async()=>{
+ const rows=[{...event(0),channel:'x',provider:'buffer'},event(1)];
+ const result=await scenario(rows,{SOCIAL_OUTBOX_X_SEND_ENABLED:'',SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:''});
+ // Empty values are malformed, not authorization to send.
+ assert.ok(result.error);assert.equal(result.calls,0);assert.deepEqual(result.after,rows);
+ const unset=await scenario(rows,{SOCIAL_OUTBOX_X_SEND_ENABLED:'false',SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:'false'});
+ assert.equal(unset.error,null);assert.equal(unset.calls,0);assert.equal(unset.githubCalls,0);assert.deepEqual(unset.after,rows);
+ const absent=await scenario(rows,{SOCIAL_OUTBOX_X_SEND_ENABLED:undefined,SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:undefined});
+ assert.equal(absent.error,null);assert.equal(absent.calls,0);assert.equal(absent.githubCalls,0);assert.deepEqual(absent.after,rows);
+});
+
+test('Telegram-only runtime sends one new event with zero Buffer credentials, calls or reconciliation dependency', async()=>{
+ const rows=[{...event(0),channel:'x',provider:'buffer'},event(1)];
+ const result=await scenario(rows,{SOCIAL_OUTBOX_X_SEND_ENABLED:'false',BUFFER_API_KEY:'',BUFFER_CHANNEL_ID:'',
+  BUFFER_RECONCILIATION_OUTCOME:'failure',SOCIAL_OUTBOX_RECONCILIATION_FILE:'/tmp/never-read-buffer-evidence'});
+ assert.equal(result.error,null);assert.equal(result.bufferCalls,0);assert.equal(result.telegramCalls,1);
+ assert.deepEqual(result.after[0],rows[0]);assert.equal(result.after[1].state,'delivered');
+});
+
+test('global operator pause blocks both channels and every GitHub/provider request', async()=>{
+ const rows=[{...event(0),channel:'x',provider:'buffer'},event(1)];
+ for(const x of ['true','false'])for(const telegram of ['true','false']){
+  const result=await scenario(rows,{SOCIAL_OUTBOX_SEND_ENABLED:'false',SOCIAL_OUTBOX_X_SEND_ENABLED:x,SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:telegram});
+  assert.equal(result.error,null);assert.equal(result.calls,0);assert.equal(result.githubCalls,0);assert.deepEqual(result.after,rows);
+ }
+});
+
+test('X enabled but Buffer reconciliation cooling down holds X while Telegram proceeds independently', async()=>{
+ const result=await scenario([{...event(0),channel:'x',provider:'buffer'},event(1)],{BUFFER_RECONCILIATION_OUTCOME:'failure'});
+ assert.equal(result.bufferCalls,0);assert.equal(result.telegramCalls,1);assert.equal(result.after[0].state,'pending');
+});
+
+test('unaccepted writer and historical retry context cannot make any provider or journal request', async()=>{
+ for(const extra of [{SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'false'},{GITHUB_RUN_ATTEMPT:'2'},{GITHUB_WORKFLOW:'Telegram evergreen distribution'}]){
+  const result=await scenario([event(0)],extra);assert.ok(result.error);assert.equal(result.calls,0);assert.equal(result.githubCalls,0);
+ }
+});
+
+test('all 73 legacy unknowns remain byte-equivalent objects and never consume capacity or provider calls', async()=>{
+ const rows=Array.from({length:73},(_,i)=>({...event(i,'reconcile_required'),channel:i<28?'x':'telegram',provider:i<28?'buffer':'telegram'}));
+ const result=await scenario(rows);assert.equal(result.error,null);assert.equal(result.calls,0);assert.equal(result.githubCalls,0);assert.deepEqual(result.after,rows);
+});
+
+test('duplicate pending identities cannot send twice within the accepted native writer', async()=>{
+ const row=event(0);
+ const result=await scenario([row,{...row}]);assert.equal(result.error,null);assert.equal(result.telegramCalls,1);
+ assert.equal(result.after[0].provider_message_id,result.after[1].provider_message_id);
 });

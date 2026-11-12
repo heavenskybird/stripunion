@@ -15,10 +15,12 @@ concurrency:
 
 jobs:
   backfill:
-    if: vars.SOCIAL_OUTBOX_SEND_ENABLED == 'true' && vars.SOCIAL_LEGACY_REPLAY_ENABLED == 'true' && vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
+    if: vars.SOCIAL_OUTBOX_SEND_ENABLED == 'true' && (vars.SOCIAL_OUTBOX_X_SEND_ENABLED == 'true' || vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED == 'true') && vars.SOCIAL_LEGACY_REPLAY_ENABLED == 'true' && vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
     runs-on: ubuntu-latest
     env:
       SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+      SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+      SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
     timeout-minutes: 12
     steps:
       - name: Checkout
@@ -67,8 +69,10 @@ jobs:
               exit 1
             fi
 
-            if [[ "$mode" == "both" ]]; then
+            if [[ "$mode" == "both" && "$SOCIAL_OUTBOX_X_SEND_ENABLED" == "true" ]]; then
               SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/social-event.mjs
             fi
-            SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
+            if [[ "$SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED" == "true" ]]; then
+              SOCIAL_EVENT_JSON="$event" node ops/seo-data-layer/src/distribution/telegram.mjs
+            fi
           done
