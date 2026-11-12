@@ -42,3 +42,10 @@ test('unprovisioned runtime cannot fall back to unbudgeted provider requests', (
   try { assert.throws(() => bufferFetch('https://api.buffer.com', {}), /BUFFER_RUNTIME_NOT_ACCEPTED/); assert.equal(calls, 0); }
   finally { globalThis.fetch = before; if (previous === undefined) delete process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED; else process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED = previous; }
 });
+
+test('analytics cannot consume final delivery reserve in shared local request window',async()=>{
+ const db=store();await reserveBufferRequest(db,now);db.state.used=20;db.state.dailyUsed=0;let calls=0;
+ const options={store:db,now:()=>now,fetchImpl:async()=>{calls++;return new Response('{}');}};
+ await assert.rejects(budgetedBufferFetch('https://api.buffer.com',{}, {...options,purpose:'analytics'}),/ceiling/);
+ await budgetedBufferFetch('https://api.buffer.com',{},options);assert.equal(calls,1);
+});

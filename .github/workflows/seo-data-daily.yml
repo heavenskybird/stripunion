@@ -131,6 +131,7 @@ jobs:
         env:
           SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
           GH_TOKEN: ${{ github.token }}
+          BUFFER_ANALYTICS_ENABLED: ${{ vars.BUFFER_ANALYTICS_ENABLED || 'false' }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: |
