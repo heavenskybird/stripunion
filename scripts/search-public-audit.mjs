@@ -1,9 +1,6 @@
 import fs from 'node:fs/promises';import {hubs} from './search-growth-decisions.mjs';
-const rows=[];
-for(const slug of ['',...hubs])for(const host of ['stripunion.com','www.stripunion.com']){
- const path=slug?'/'+slug+'/':'/';const r=await fetch('https://'+host+path,{redirect:'manual',signal:AbortSignal.timeout(15000)});const html=r.status===200?await r.text():'';
- rows.push({host,path,status:r.status,location:r.headers.get('location'),canonical:html.match(/rel="canonical"[^>]+href="([^"]+)/)?.[1]||null,noindex:/<meta[^>]+name="robots"[^>]+noindex/.test(html)});
-}
-const r=await fetch('https://stripunion.com/sitemap.xml',{signal:AbortSignal.timeout(15000)});const xml=await r.text();
-const result={checkedAt:new Date().toISOString(),rows,sitemap:{http:r.status,urlCount:[...xml.matchAll(/<loc>/g)].length,indexPercentage:null,reason:'Sitemap URLs, GSC indexing samples, Bing indexed pages and publication jobs have different scopes; not a site-wide index percentage'}};
+const rows=[],targets=['',...hubs].flatMap(slug=>['stripunion.com','www.stripunion.com'].map(host=>({host,path:slug?'/'+slug+'/':'/'})));
+for(let i=0;i<targets.length;i+=3)await Promise.all(targets.slice(i,i+3).map(async({host,path})=>{try{const r=await fetch('https://'+host+path,{redirect:'manual',signal:AbortSignal.timeout(8000)});const html=r.status===200?await r.text():'';rows.push({host,path,status:r.status,location:r.headers.get('location'),canonical:html.match(/rel="canonical"[^>]+href="([^"]+)/)?.[1]||null,noindex:/<meta[^>]+name="robots"[^>]+noindex/.test(html)});}catch{rows.push({host,path,status:0,classification:'WEB_FETCH_LIMITATION',convergence:'UNKNOWN'});}}));
+let sitemap={http:0,urlCount:null,indexPercentage:null};try{const r=await fetch('https://stripunion.com/sitemap.xml',{signal:AbortSignal.timeout(15000)});const xml=await r.text();sitemap={http:r.status,urlCount:[...xml.matchAll(/<loc>/g)].length,indexPercentage:null};}catch{sitemap.classification='WEB_FETCH_LIMITATION';}
+const result={checkedAt:new Date().toISOString(),rows,sitemap,note:'Sitemap URLs, sampled GSC indexing, Bing indexed pages and publication jobs differ in scope. No site-wide index percentage. Transport failure is not proof of production downtime.'};
 await fs.mkdir('artifacts/search-growth',{recursive:true});await fs.writeFile('artifacts/search-growth/public-health.json',JSON.stringify(result,null,2)+'\n');console.log('SEARCH_PUBLIC_AUDIT '+JSON.stringify(result));
