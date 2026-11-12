@@ -37,6 +37,20 @@ trusted authorization callback before journal access. Free-text JSON approval
 alone cannot authorize publication. No allowlist or production variable was set.
 117 combined tests cover these boundaries and credential-free preparation.
 
+Sitemap propagation reconciliation: after a verified WordPress POST response,
+persist postId/url/providerReceiptVerified with the original intent before any
+public read verification. Verification performs at most3 read-only attempts
+(configurable1–5, delay0–30s; each real request already has a timeout). It never
+re-enters publisher.publish. If still unconfirmed, retain reconcile_required,
+the intent key and post ID and raise a fixed alert.
+
+Manual `reconcile --artifact FILE --review FILE` mode has no publisher dependency
+and receives no WordPress credentials. It reads only the persisted proven post
+receipt and public HTTP/canonical/indexability/sitemap, then CAS-confirms the same
+entry. The existing ledger mirror runs only after confirmation. Missing/unproven
+post IDs, changed artifact/review, failed reads or CAS loss remain held; no POST,
+deletion or old draft replay. Trusted operator and default-off gates still apply.
+
 Rollback first disables BLOG_PUBLISH_ENABLED, drains the Blog writer and preserves
 all journal/unknown evidence. Revert only the reviewed chain callsite through a
 scoped PR; do not delete posts, replay old payloads, or turn ambiguous writes into

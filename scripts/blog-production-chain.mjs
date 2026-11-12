@@ -5,6 +5,21 @@ import { findUnsupportedEditorialClaim } from './editorial-generator-guards.mjs'
 export const blogHash = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const validDate = value => Number.isFinite(Date.parse(value));
 
+export async function verifyBlogReadOnly({ verifier, url, maxAttempts = 3, delayMs = 2000,
+  sleep = ms => new Promise(resolve => setTimeout(resolve, ms)) }) {
+  if (!Number.isInteger(maxAttempts) || maxAttempts < 1 || maxAttempts > 5 ||
+      !Number.isInteger(delayMs) || delayMs < 0 || delayMs > 30_000) throw new Error('BLOG_VERIFICATION_BOUNDS_REQUIRED');
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const evidence = await verifier.verify(url);
+      if (evidence.status === 200 && evidence.url === url && evidence.canonical === url &&
+          evidence.indexable === true && evidence.sitemapContainsUrl === true) return { ...evidence, readOnlyAttempts: attempt };
+    } catch { /* read failure never authorizes another POST */ }
+    if (attempt < maxAttempts) await sleep(delayMs);
+  }
+  throw new Error('BLOG_READ_ONLY_VERIFICATION_EXHAUSTED_RECONCILE_REQUIRED');
+}
+
 export function proposeFromBlogGsc({ snapshot, inventory, now = Date.now() }) {
   if (snapshot.source !== 'google-search-console' || snapshot.siteUrl !== 'https://blog.stripunion.com/' ||
       !validDate(snapshot.collectedAt) || now - Date.parse(snapshot.collectedAt) < 0 ||
@@ -73,7 +88,7 @@ export function validateBlogReview({ artifact, review, inventory, now = Date.now
 }
 
 export async function publishReviewedBlog({ artifact, review, inventory, store, publisher, verifier,
-  inventoryCheckedAt, authorizeReviewer, enabled = false, now = Date.now(), clock = () => Date.now() }) {
+  inventoryCheckedAt, authorizeReviewer, verificationOptions = {}, enabled = false, now = Date.now(), clock = () => Date.now() }) {
   // Check operator stop before provider configuration, journal API reads, or writes.
   if (enabled !== true) return { state: 'PAUSED_BY_OPERATOR', externalRequests: 0, published: false };
   if (typeof authorizeReviewer !== 'function' || await authorizeReviewer(review) !== true) throw new Error('BLOG_TRUSTED_REVIEWER_REQUIRED');
@@ -96,25 +111,63 @@ export async function publishReviewedBlog({ artifact, review, inventory, store, 
   const claimSha = await store.write(claimed, snapshot.sha);
   if (!claimSha) throw new Error('BLOG_JOURNAL_CAS_FAILED');
   let post;
+  let providerReceiptVerified = false;
+  let latestSha = claimSha;
+  let latestState = claimed;
   try {
     post = await publisher.publish(checked.payload, { authorizationHash: blogHash(checked.payload) });
     if (!Number.isSafeInteger(post.id) || post.id <= 0 || post.status !== 'publish' || post.slug !== slug || post.link !== expectedUrl) throw new Error('BLOG_PROVIDER_RECEIPT_MISMATCH');
-    const evidence = await verifier.verify(expectedUrl);
-    if (evidence.status !== 200 || evidence.url !== expectedUrl || evidence.canonical !== expectedUrl ||
-        evidence.indexable !== true || evidence.sitemapContainsUrl !== true) throw new Error('BLOG_LIVE_VERIFICATION_INCOMPLETE');
+    providerReceiptVerified = true;
+    const verifying = { ...pending, state: 'verifying', postId: post.id, url: expectedUrl, providerReceiptVerified: true };
+    latestState = { ...claimed, entries: claimed.entries.map(row => row.key === key ? verifying : row) };
+    const verifyingSha = await store.write(latestState, latestSha);
+    if (!verifyingSha) throw new Error('BLOG_POST_ID_CAS_CONFIRMATION_UNKNOWN');
+    latestSha = verifyingSha;
+    const evidence = await verifyBlogReadOnly({ ...verificationOptions, verifier, url: expectedUrl });
     const completedAt = clock();
     if (!Number.isFinite(completedAt) || completedAt < now) throw new Error('BLOG_COMPLETION_TIMESTAMP_REGRESSION');
-    const finished = { ...pending, state: 'confirmed', postId: post.id, url: expectedUrl,
+    const finished = { ...verifying, state: 'confirmed', postId: post.id, url: expectedUrl,
       verifiedAt: new Date(completedAt).toISOString(), evidence };
-    const finalState = { ...claimed, entries: claimed.entries.map(row => row.key === key ? finished : row) };
-    const finalSha = await store.write(finalState, claimSha);
+    const finalState = { ...latestState, entries: latestState.entries.map(row => row.key === key ? finished : row) };
+    const finalSha = await store.write(finalState, latestSha);
     if (!finalSha) throw new Error('BLOG_CONFIRMATION_CAS_FAILED');
     return { state: 'CONFIRMED', published: true, receipt: finished, journalSha: finalSha, post, providerCalls: 1 };
   } catch {
     // Keep durable intent when this write fails: both forms prohibit replay.
-    const held = { ...claimed, entries: claimed.entries.map(row => row.key === key
-      ? { ...row, state: 'reconcile_required', postId: post?.id || null, reason: 'PROVIDER_OR_VERIFICATION_UNCERTAIN' } : row) };
-    try { await store.write(held, claimSha); } catch { /* original intent is still authoritative */ }
+    const held = { ...latestState, entries: latestState.entries.map(row => row.key === key
+      ? { ...row, state: 'reconcile_required', postId: providerReceiptVerified ? post.id : null,
+        providerReceiptVerified, ...(providerReceiptVerified ? { url: expectedUrl } : {}), reason: 'PROVIDER_OR_VERIFICATION_UNCERTAIN' } : row) };
+    try { await store.write(held, latestSha); } catch { /* original intent is still authoritative */ }
     throw new Error('BLOG_PUBLICATION_UNCERTAIN_RECONCILE_BEFORE_RETRY');
+  }
+}
+
+// Reconciliation has no publisher dependency and cannot POST a WordPress article.
+export async function reconcileReviewedBlog({ artifact, review, store, verifier, authorizeReviewer,
+  enabled = false, verificationOptions = {}, now = Date.now(), clock = () => Date.now() }) {
+  if (enabled !== true) return { state: 'PAUSED_BY_OPERATOR', published: false, providerCalls: 0 };
+  if (typeof authorizeReviewer !== 'function' || await authorizeReviewer(review) !== true) throw new Error('BLOG_TRUSTED_REVIEWER_REQUIRED');
+  const checked = validateBlogReview({ artifact, review, inventory: [], now });
+  const snapshot = await store.read();
+  const key = blogHash({ destination: artifact.destination, slug: checked.payload.slug, artifactHash: checked.artifactHash });
+  const prior = snapshot.state?.entries?.find(row => row.key === key);
+  if (!prior || prior.artifactHash !== checked.artifactHash || prior.reviewHash !== checked.reviewHash ||
+      !Number.isSafeInteger(prior.postId) || prior.postId <= 0 || prior.providerReceiptVerified !== true ||
+      prior.url !== `https://blog.stripunion.com/${checked.payload.slug}/` || !validDate(prior.startedAt)) throw new Error('BLOG_RECONCILIATION_POST_RECEIPT_NOT_PROVEN');
+  if (prior.state === 'confirmed') return { state: 'ALREADY_CONFIRMED', published: true, receipt: prior, providerCalls: 0 };
+  if (!['verifying','reconcile_required'].includes(prior.state)) throw new Error('BLOG_RECONCILIATION_STATE_REFUSED');
+  try {
+    const evidence = await verifyBlogReadOnly({ ...verificationOptions, verifier, url: prior.url });
+    const time = clock();
+    if (!Number.isFinite(time) || time < Date.parse(prior.startedAt)) throw new Error('BLOG_COMPLETION_TIMESTAMP_REGRESSION');
+    const finished = { ...prior, state: 'confirmed', evidence, verifiedAt: new Date(time).toISOString() };
+    const next = { ...snapshot.state, entries: snapshot.state.entries.map(row => row.key === key ? finished : row) };
+    const journalSha = await store.write(next, snapshot.sha);
+    if (!journalSha) throw new Error('BLOG_CONFIRMATION_CAS_FAILED');
+    return { state: 'CONFIRMED', published: true, receipt: finished, journalSha, providerCalls: 0 };
+  } catch {
+    const next = { ...snapshot.state, entries: snapshot.state.entries.map(row => row.key === key ? { ...row, state: 'reconcile_required', reason: 'READ_ONLY_VERIFICATION_UNCONFIRMED' } : row) };
+    try { await store.write(next, snapshot.sha); } catch {}
+    throw new Error('BLOG_RECONCILIATION_UNCONFIRMED_ALERT_NO_REPOST');
   }
 }

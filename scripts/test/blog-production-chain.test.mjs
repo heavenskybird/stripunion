@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { blogHash, produceBlogDraft, publishReviewedBlog, proposeFromBlogGsc } from '../blog-production-chain.mjs';
+import { blogHash, produceBlogDraft, publishReviewedBlog, reconcileReviewedBlog, verifyBlogReadOnly, proposeFromBlogGsc } from '../blog-production-chain.mjs';
 import { githubBlogJournal, wordpressLiveVerifier, existingWordpressPublisher, authorizeBlogOperator } from '../blog-production-adapters.mjs';
 
 const now = Date.parse('2026-11-12T10:00:00Z');
@@ -34,7 +34,7 @@ function store() {
 }
 const verification = slug => ({ status: 200, url: `https://blog.stripunion.com/${slug}/`, canonical: `https://blog.stripunion.com/${slug}/`, indexable: true, sitemapContainsUrl: true });
 function args(bundle, journal, overrides = {}) {
-  return { ...bundle, store: journal, now, clock: () => now + 1000, enabled: true, inventory: [], inventoryCheckedAt: checkedAt, authorizeReviewer: async () => true,
+  return { ...bundle, store: journal, now, clock: () => now + 1000, enabled: true, inventory: [], inventoryCheckedAt: checkedAt, authorizeReviewer: async () => true, verificationOptions: {delayMs:0},
     publisher: { publish: async payload => ({ id: 100, status: 'publish', slug: payload.slug, link: verification(payload.slug).url }) },
     verifier: { verify: async () => verification(bundle.artifact.payload.slug) }, ...overrides };
 }
@@ -131,4 +131,32 @@ test('prepare workflow never receives publisher credentials', async () => {
   const prepare = yaml.split('  reviewed-publish:')[0];
   assert.ok(!prepare.includes('secrets.WP_'));
   assert.ok(prepare.includes('--inventory'));
+});
+test('late sitemap uses bounded reads after one POST and retains provider ID before verification', async () => {
+  const bundle = await artifact(), journal = store(); let posts = 0, reads = 0;
+  const input = args(bundle,journal,{publisher:{publish:async p=>{posts++;return{id:77,status:'publish',slug:p.slug,link:verification(p.slug).url};}},
+    verifier:{verify:async()=>{reads++;const row=(await journal.read()).state.entries[0];assert.equal(row.postId,77);assert.equal(row.state,'verifying');return{...verification(bundle.artifact.payload.slug),sitemapContainsUrl:reads>=2};}}});
+  const result = await publishReviewedBlog(input);
+  assert.equal(posts,1);assert.equal(reads,2);assert.equal(result.receipt.evidence.readOnlyAttempts,2);
+});
+test('exhausted verification preserves intent and ID, later reconcile closes with zero further POST', async () => {
+  const bundle = await artifact(), journal = store();let posts=0,reads=0;
+  const input=args(bundle,journal,{publisher:{publish:async p=>{posts++;return{id:78,status:'publish',slug:p.slug,link:verification(p.slug).url};}},
+    verifier:{verify:async()=>{reads++;return{...verification(bundle.artifact.payload.slug),sitemapContainsUrl:false};}}});
+  await assert.rejects(publishReviewedBlog(input),/UNCERTAIN/);
+  assert.equal(reads,3);assert.equal(posts,1);
+  const prior=(await journal.read()).state.entries[0];assert.equal(prior.state,'reconcile_required');assert.equal(prior.postId,78);
+  await assert.rejects(publishReviewedBlog(input),/HOLD/);assert.equal(posts,1);
+  const result=await reconcileReviewedBlog({...input,publisher:{publish:()=>{throw new Error('never POST');}},verifier:{verify:async()=>verification(bundle.artifact.payload.slug)}});
+  assert.equal(result.providerCalls,0);assert.equal(result.receipt.postId,78);assert.equal(result.receipt.key,prior.key);assert.equal(result.state,'CONFIRMED');assert.equal(posts,1);
+  assert.equal((await reconcileReviewedBlog(input)).state,'ALREADY_CONFIRMED');
+});
+test('reconcile failure remains held, unproven post ID and unbounded read settings refused', async()=>{
+  await assert.rejects(verifyBlogReadOnly({verifier:{},url:'https://blog.stripunion.com/x/',maxAttempts:6}),/BOUNDS/);
+  const bundle=await artifact(),journal=store();
+  await assert.rejects(publishReviewedBlog(args(bundle,journal,{verifier:{verify:async()=>({...verification(bundle.artifact.payload.slug),sitemapContainsUrl:false})}})),/UNCERTAIN/);
+  await assert.rejects(reconcileReviewedBlog(args(bundle,journal,{verifier:{verify:async()=>{throw new Error('read timeout');}}})),/ALERT_NO_REPOST/);
+  assert.equal((await journal.read()).state.entries[0].state,'reconcile_required');
+  const snap=await journal.read();snap.state.entries[0].providerReceiptVerified=false;await journal.write(snap.state,snap.sha);
+  await assert.rejects(reconcileReviewedBlog(args(bundle,journal)),/NOT_PROVEN/);
 });

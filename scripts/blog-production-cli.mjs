@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { produceBlogDraft, publishReviewedBlog, proposeFromBlogGsc } from './blog-production-chain.mjs';
+import { produceBlogDraft, publishReviewedBlog, reconcileReviewedBlog, proposeFromBlogGsc } from './blog-production-chain.mjs';
 import { githubBlogJournal, existingWordpressPublisher, wordpressLiveVerifier, authorizeBlogOperator } from './blog-production-adapters.mjs';
 
 const load = async file => JSON.parse(await fs.readFile(file, 'utf8'));
@@ -71,7 +71,7 @@ async function main() {
     await fs.writeFile(path.join(output, result.artifact.payload.slug + '.json'), JSON.stringify(result, null, 2) + '\n');
     console.log(JSON.stringify({ state: 'DRAFT_REVIEW_REQUIRED', slug: result.artifact.payload.slug,
       artifactHash: result.artifactHash, published: false, outputDirectory: 'artifacts/blog-recovery' }));
-  } else if (command === 'publish') {
+  } else if (command === 'publish' || command === 'reconcile') {
     if (process.env.BLOG_PUBLISH_ENABLED !== 'true') {
       console.log(JSON.stringify({ state: 'PAUSED_BY_OPERATOR', published: false, externalRequests: 0 }));
       return;
@@ -79,10 +79,14 @@ async function main() {
     const source = await load(sourcePath(option('--artifact')));
     const review = await load(sourcePath(option('--review')));
     authorizeBlogOperator(review);
-    const snapshot = await currentBlogInventory();
-    const result = await publishReviewedBlog({ artifact: source.artifact, review, inventory: snapshot.rows,
-      inventoryCheckedAt: snapshot.checkedAt, enabled: true, store: githubBlogJournal({ token: process.env.GH_TOKEN }),
-      publisher: existingWordpressPublisher(), verifier: wordpressLiveVerifier(), authorizeReviewer: r => authorizeBlogOperator(r) });
+    const common = { artifact: source.artifact, review, enabled: true, store: githubBlogJournal({ token: process.env.GH_TOKEN }),
+      verifier: wordpressLiveVerifier(), authorizeReviewer: r => authorizeBlogOperator(r) };
+    let result;
+    if (command === 'reconcile') result = await reconcileReviewedBlog(common);
+    else {
+      const snapshot = await currentBlogInventory();
+      result = await publishReviewedBlog({ ...common, inventory: snapshot.rows, inventoryCheckedAt: snapshot.checkedAt, publisher: existingWordpressPublisher() });
+    }
     // Journal confirmation precedes the derived ledger mirror. A failed mirror
     // can be repaired from the same confirmed receipt without another provider call.
     if (result.published && result.receipt?.state === 'confirmed') {

@@ -5,7 +5,7 @@ on:
       mode:
         description: Prepare artifacts by default; publish requires separate operator flag and exact review
         type: choice
-        options: [prepare, publish]
+        options: [prepare, publish, reconcile]
         default: prepare
       brief_path:
         description: Reviewed proposal brief JSON in the repository (outside live WordPress queue)
@@ -53,7 +53,7 @@ jobs:
           retention-days: 14
   reviewed-publish:
     if: >-
-      inputs.mode == 'publish' && vars.BLOG_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main' && github.run_attempt == 1
+      (inputs.mode == 'publish' || inputs.mode == 'reconcile') && vars.BLOG_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main' && github.run_attempt == 1
     permissions:
       contents: write
     concurrency:
@@ -72,13 +72,14 @@ jobs:
         env:
           ARTIFACT_PATH: ${{ inputs.artifact_path }}
           REVIEW_PATH: ${{ inputs.review_path }}
+          MODE: ${{ inputs.mode }}
           BLOG_PUBLISH_ENABLED: ${{ vars.BLOG_PUBLISH_ENABLED || 'false' }}
           BLOG_AUTHORIZED_REVIEWERS: ${{ vars.BLOG_AUTHORIZED_REVIEWERS || '' }}
           WP_SITE_URL: https://blog.stripunion.com
-          WP_USERNAME: ${{ secrets.WP_USERNAME }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+          WP_USERNAME: ${{ inputs.mode == 'publish' && secrets.WP_USERNAME || '' }}
+          WP_APP_PASSWORD: ${{ inputs.mode == 'publish' && secrets.WP_APP_PASSWORD || '' }}
           GH_TOKEN: ${{ github.token }}
-        run: node scripts/blog-production-cli.mjs publish --artifact "$ARTIFACT_PATH" --review "$REVIEW_PATH"
+        run: node scripts/blog-production-cli.mjs "$MODE" --artifact "$ARTIFACT_PATH" --review "$REVIEW_PATH"
       - name: Persist verified ledger mirror
         run: |
           git config user.name stripunion-blog-publisher
