@@ -30,6 +30,9 @@ test('only exact inspected historical zero-job metadata is ignored', () => {
   assert.deepEqual(d.ignoredHistoricalRunIds, ['37655513979']);
   const p = planCompensation(f, d, { expectedReceiptSha: f.receiptSha, durableCasReservationVerified: true });
   assert.equal(p.execute, false); assert.equal(p.eligibleForFutureReview, true);
+  f.activeRuns[0].status = 'in_progress';
+  assert.equal(planCompensation(f, d, { expectedReceiptSha: f.receiptSha, durableCasReservationVerified: true }).reason, 'QUEUE_NOT_DRAINED');
+  f.activeRuns[0].status = 'queued';
   f.activeRuns[0].jobCount = 1;
   assert.equal(planCompensation(f, d, { expectedReceiptSha: f.receiptSha, durableCasReservationVerified: true }).reason, 'QUEUE_NOT_DRAINED');
 });

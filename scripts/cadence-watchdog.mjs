@@ -8,7 +8,7 @@ const LEGACY_SHA = '710276134f67023864e4e83992cf46080a1c43d8';
 const PRODUCERS = new Set(['Editorial producer scheduler', 'Editorial hourly producer']);
 const EXTERNAL_CLOCKS = new Set(['chatgpt-automation', 'external-local-clock']);
 export function historicalMetadata(run) {
-  return STALE_METADATA.has(String(run.id)) && run.headSha === LEGACY_SHA && run.jobCount === 0;
+  return run.status === 'queued' && STALE_METADATA.has(String(run.id)) && run.headSha === LEGACY_SHA && run.jobCount === 0;
 }
 
 // No network, dispatch, receipt writes or stateful retries. Decisions retain unknowns.
