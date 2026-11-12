@@ -1,0 +1,42 @@
+name: Search growth official evidence
+on:
+  push:
+    branches: [codex/search-first-growth-20261112]
+  pull_request:
+    paths: [src/components/SearchIntentNavigation.astro, scripts/search-growth-decisions.mjs]
+permissions:
+  contents: read
+jobs:
+  evidence:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install && npm --prefix ops/seo-data-layer install
+      - name: Official aligned GSC windows (read only)
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/collect-search-growth.mjs
+      - name: Actual canonical host and sitemap reads
+        run: node scripts/search-public-audit.mjs
+      - run: PUBLIC_ALLOW_INDEXING=true npm run build && npm run check:prod-seo
+      - run: npx playwright install --with-deps chromium
+      - name: Local five-hub responsive regression
+        env:
+          VISUAL_TARGETS_JSON: '["/stripchat-alternatives/","/stripchat-app/","/livejasmin/","/chaturbate-alternatives/","/xhamster/"]'
+        run: |
+          npx astro preview --host 127.0.0.1 --port 4321 > /tmp/search-preview.log 2>&1 &
+          for attempt in {1..30}; do curl -fsS http://127.0.0.1:4321/ >/dev/null && break; sleep 1; done
+          node scripts/visual-regression.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: search-growth-evidence-${{ github.run_id }}
+          path: |
+            artifacts/
+            ops/seo-data-layer/data/search-growth/
+          retention-days: 30

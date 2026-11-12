@@ -1,4 +1,5 @@
 ---
+import SearchIntentNavigation from './SearchIntentNavigation.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from './AffiliateButton.astro';
 import { SITE, updatedLabel } from '../config/site.js';
@@ -43,6 +44,7 @@ const faqSchema = {
     {review.partner ? <AffiliateButton source={firstCtaSource} /> : <div class="alternative-cta"><AffiliateButton source={`${review.slug}_alternative_top`} /></div>}
   </DiscoveryHero>
   <section class="section shell narrow">
+    {['livejasmin', 'xhamster'].includes(review.slug) && <SearchIntentNavigation brand={review.name} />}
     <div class="decision-grid">
       <div><span>Best for</span><strong>{review.bestFor}</strong></div>
       <div><span>Access model</span><strong>{review.access}</strong></div>

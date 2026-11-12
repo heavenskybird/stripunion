@@ -177,9 +177,17 @@ jobs:
           REQUIRE_CLARITY: 'true'
         run: node scripts/blog-health-check.mjs
 
+      - name: Collect aligned search growth windows independently
+        id: search_growth
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/collect-search-growth.mjs
+
       - name: Record per-source collection status
         working-directory: ops/seo-data-layer
         env:
+          SEARCH_GROWTH_OUTCOME: ${{ steps.search_growth.outcome }}
           GSC_OUTCOME: ${{ steps.collect_gsc.outcome }}
           GSC_BLOG_OUTCOME: ${{ steps.collect_gsc_blog.outcome }}
           GA4_OUTCOME: ${{ steps.collect_ga4.outcome }}
