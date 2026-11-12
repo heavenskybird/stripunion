@@ -88,7 +88,7 @@ export const reviews = {
     name: 'LiveJasmin',
     category: 'Live Cams',
     categorySlug: 'live-cams',
-    title: 'LiveJasmin Review: Premium Live-Cam Model Explained',
+    title: 'LiveJasmin Review: Credits, Private Interaction & Alternatives',
     description: 'A practical LiveJasmin review covering its premium positioning, credit-based interaction model and user-experience trade-offs.',
     dek: 'LiveJasmin is positioned around a more premium live-cam experience, with private interaction playing a larger role than on public-room-first platforms.',
     verdict: 'LiveJasmin may fit users who prefer a more premium presentation and are comfortable with paid interaction, while price-sensitive users may prefer public-room-first alternatives.',

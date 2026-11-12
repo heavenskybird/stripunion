@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { searchCanonical } from '../config/search-canonical.mjs';
 import { SITE } from '../config/site.js';
 import { resolveGa4MeasurementId } from '../config/analytics.mjs';
 
@@ -15,7 +16,7 @@ const {
 
 const safeTitle = title || SITE.name;
 const fullTitle = safeTitle.includes('StripUnion') ? safeTitle : `${safeTitle} | StripUnion`;
-const canonicalUrl = new URL(canonical, SITE.url).toString();
+const canonicalUrl = new URL(searchCanonical(canonical), SITE.url).toString();
 const imageUrl = image ? new URL(image, SITE.url).toString() : null;
 
 const organizationSchema = {
