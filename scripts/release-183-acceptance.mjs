@@ -19,7 +19,7 @@ catch (error) { if (error.code !== 'ENOENT') throw error; }
 report.frozenSwitches = Object.fromEntries(['SOCIAL_OUTBOX_SEND_ENABLED', 'SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED',
   'SOCIAL_OUTBOX_X_SEND_ENABLED', 'SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED', 'BLOG_PUBLISH_ENABLED'].map(k => [k, process.env[k] || 'UNSET']));
 const closures = ['c4bb08d16bf8722d112c4cf7862c691e97506480','a05a7bef3b2ae27ac3181bfe9f0254cbe2261345',
-  'ab0f925823cc82dfbd5a653de3c5172945c074ad','74c772e3d2ec70c808b7e7af322426f95edffaf5','386faf7a7cb18e6fa1471ecef1dcce7aefce2a28'];
+  'ab0f925823cc82dfbd5a653de3c5172945c074ad','74c772e3d2ec70c808b7e7af322426f95edffaf5','386faf7a7cb18e6fa1471ecef1dcce7aefce2a28','7a201921306e8e1d2f0538a2e6c43eac83f00337'];
 const files = new Set();
 report.recoveryBatches = [];
 for (const sha of closures) {
@@ -79,7 +79,7 @@ report.gates = {
   productionBuildComplete: report.hostinger.mainFound && report.hostinger.canonicalRepository && report.hostinger.branch === 'main' && report.hostinger.latestBuild?.state === 'completed',
   productionHtml: main?.status===200 && main.finalHost==='stripunion.com' && main.ga4MeasurementIds.includes('G-K57BRX69X1') && main.gtagScriptPresent && main.consentDefaultDenied && main.clarityPresent && main.canonical==='https://stripunion.com/',
   robotsSitemap: robots?.status===200 && robots.blocksAll===false && sitemap?.status===200 && sitemap.validXml,
-  recoveryGuides: files.size===25 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
+  recoveryGuides: files.size===30 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
 };
 report.mainHtmlSha256 = main?.htmlSha256 || null;
 report.phase = checkpoint?.phase || 'pre';
