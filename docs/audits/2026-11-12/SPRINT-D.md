@@ -71,7 +71,8 @@ numeric rates before setting `verified=true`. Tests use an explicitly fictitious
 
 The proposed guard fails closed for unknown/stale prices, missing token budgets,
 missing dollar/credit evidence, batch request/output caps and daily request/token
-or dollar overflow. A successful pure result is **not** a reservation or a
+or dollar overflow. Daily spend must belong to the current UTC day; credit
+evidence must be at most fifteen minutes old and never future dated. A successful pure result is **not** a reservation or a
 lease. Future integration must atomically CAS-reserve worst-case requests,
 input/output tokens and dollars across all writers before each request; commit
 observed usage after response; retain uncertain reservations after timeouts;

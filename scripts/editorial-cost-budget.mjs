@@ -34,17 +34,20 @@ export function accountRequests(requests, { config, model, now } = {}) {
     priceSource: price?.sourceUrl || null, priceVerifiedAt: price?.verifiedAt || null,
     remainingCredit: 'UNKNOWN', actualInvoiceUsd: null };
 }
-export function assessBudget({ config, model, now, limits, spent, reservation }) {
+export function assessBudget({ config, model, now = Date.now(), limits, spent, reservation }) {
   const deny = reason => ({ allowed: false, reason, providerCallsAllowed: 0 });
   if (!limits || !spent || !reservation || ![limits.batchRequests, limits.batchOutputTokens, limits.dailyRequests, limits.dailyTokens,
     spent.batchRequests, spent.batchOutputTokens, spent.dailyRequests, spent.dailyTokens,
     reservation.requests, reservation.inputTokens, reservation.outputTokens].every(integer)) return deny('BUDGET_EVIDENCE_UNKNOWN');
+  if (!Number.isFinite(now) || spent.dayUtc !== new Date(now).toISOString().slice(0, 10)) return deny('DAILY_WINDOW_UNKNOWN_OR_STALE');
   if (reservation.requests < 1) return deny('INVALID_RESERVATION');
   if (spent.batchRequests + reservation.requests > limits.batchRequests || spent.batchOutputTokens + reservation.outputTokens > limits.batchOutputTokens) return deny('BATCH_TOKEN_OR_REQUEST_LIMIT');
   if (spent.dailyRequests + reservation.requests > limits.dailyRequests || spent.dailyTokens + reservation.inputTokens + reservation.outputTokens > limits.dailyTokens) return deny('DAILY_TOKEN_OR_REQUEST_LIMIT');
   const price = verifiedPrice(config, model, now);
   if (!price) return deny('VERIFIED_PRICE_UNKNOWN');
   if (![limits.batchUsd, limits.dailyUsd, spent.batchUsd, spent.dailyUsd, spent.availableCreditUsd].every(n => Number.isFinite(n) && n >= 0)) return deny('DOLLAR_OR_CREDIT_EVIDENCE_UNKNOWN');
+  const creditAge = now - Date.parse(spent.creditVerifiedAt);
+  if (!Number.isFinite(creditAge) || creditAge < 0 || creditAge > 15 * 60_000) return deny('CREDIT_EVIDENCE_UNKNOWN_OR_STALE');
   const reserveUsd = (reservation.inputTokens * price.inputUsdPerMillion + reservation.outputTokens * price.outputUsdPerMillion) / 1e6;
   if (spent.batchUsd + reserveUsd > limits.batchUsd || spent.dailyUsd + reserveUsd > limits.dailyUsd || reserveUsd > spent.availableCreditUsd) return deny('DOLLAR_OR_CREDIT_LIMIT');
   return { allowed: true, reason: 'BOUNDED_RESERVATION_REQUIRED', providerCallsAllowed: reservation.requests,
