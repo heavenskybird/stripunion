@@ -1,0 +1,115 @@
+export default {
+  "slug": "creator-platform-low-risk-pilot-before-migration",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Run a Low-Risk Pilot Before Moving Your Audience",
+  "description": "Test a creator platform’s publishing, access, discovery, and operating workflows with a limited pilot before committing your audience or archive.",
+  "excerpt": "A staged evaluation plan for creators who want practical evidence about a platform’s fit without making an immediate, all-at-once business move.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "A pilot is a bounded test of real workflows, not a promise that a platform will suit every future business need.",
+    "Set a written scope, time limit, and stop conditions before publishing or directing fans anywhere.",
+    "Test the parts that matter to your operation: setup, publishing, account controls, fan access, discovery, records, and exit options.",
+    "Keep original content, audience communications, and business records under your own organized control during the test.",
+    "Do not describe a pilot as a permanent move until you have reviewed commercial terms, payout documentation, content rights, and portability."
+  ],
+  "sections": [
+    {
+      "heading": "Define the question before opening a pilot account",
+      "paragraphs": [
+        "A platform pilot is useful when the decision is specific. Instead of asking whether a service is “good,” ask whether its workflows fit a defined task: publishing a particular type of update, organizing paid access, supporting a certain audience relationship, or reducing a known operational bottleneck. A narrow question makes it easier to separate evidence from first impressions.",
+        "Write down what success and failure would look like before you start. For example, you might need to confirm that you can explain access clearly, manage account settings, retrieve records, or export material you would need later. Do not invent a target based on another creator’s experience; set criteria that match your own business and capacity."
+      ],
+      "bullets": [
+        "State the decision the pilot is meant to inform.",
+        "Choose a small, representative workflow rather than testing every feature at once.",
+        "Set a review date and decide what evidence you need to collect.",
+        "Identify reasons to stop, such as unclear terms or an unworkable access process."
+      ]
+    },
+    {
+      "heading": "Limit the pilot’s scope and audience exposure",
+      "paragraphs": [
+        "Keep the test small enough that you can support it without disrupting existing work. A pilot could involve a limited publishing workflow or a clearly described trial offer, but the exact format depends on your business and the platform’s rules. Do not promise a permanent home, exclusive access, or uninterrupted service while you are still evaluating basic operations.",
+        "Tell any participating fans what is being tested and what is not. Explain where updates will appear, what access is included, and how you will communicate if the test ends. Avoid creating uncertainty by sending people to multiple places without a clear purpose. If you do not want to involve fans during the first test, evaluate setup and account controls before making anything public."
+      ],
+      "bullets": [
+        "Use a limited, clearly described scope.",
+        "Do not imply that a trial is a permanent move or guaranteed service.",
+        "Keep existing communication routes available while the pilot is underway.",
+        "Check the platform’s rules before testing any offer or promotion."
+      ]
+    },
+    {
+      "heading": "Test the complete publishing-to-access path",
+      "paragraphs": [
+        "A post that looks correct in an editor may not appear as expected to a visitor or member. Review the full path from publishing to audience access: what a logged-out visitor can see, what account or payment steps are required, how benefits are described, and what happens when someone changes or ends access. The purpose is to identify friction or ambiguity before a larger audience depends on the workflow.",
+        "Also test the creator-side routine. Check how you draft, revise, schedule if available, correct an error, and locate the final published version. Record what you could verify directly and what remains uncertain. Do not assume that a feature exists because a menu label suggests it; confirm the relevant workflow in the platform’s current documentation or account interface."
+      ],
+      "bullets": [
+        "Review the public-facing view as well as the creator interface.",
+        "Check how access is described before someone commits.",
+        "Confirm how corrections, removals, and access changes are handled.",
+        "Record limitations instead of filling gaps with assumptions."
+      ]
+    },
+    {
+      "heading": "Review discovery and audience fit without mistaking exposure for stability",
+      "paragraphs": [
+        "A pilot may show whether the platform provides discovery features that are relevant to your audience, but visibility is not the same as dependable reach. Notice what tools are available, how your profile or posts are presented, and what information you can control. Treat any early attention as an observation about the test period, not a forecast of future outcomes.",
+        "Consider how much the workflow depends on the platform bringing people to you versus your existing channels directing people there. That distinction affects how much control you retain over audience relationships and how costly a future change might be. Keep the language neutral in your notes: “this discovery path was available” is more useful than declaring that the platform will reliably find an audience for you."
+      ],
+      "bullets": [
+        "List the discovery paths you can actually confirm.",
+        "Separate platform-provided discovery from audience you direct yourself.",
+        "Note which profile and account details are visible to visitors.",
+        "Avoid treating short-term pilot observations as a performance forecast."
+      ]
+    },
+    {
+      "heading": "Protect records, rights, and exit options during the test",
+      "paragraphs": [
+        "A limited pilot still involves business records and content rights. Before publishing, review the platform’s current commercial terms, content license, payout documentation, and rules for account closure or content removal. The practical question is not simply whether you can leave, but what you would need to preserve, what can be retrieved, and what happens to published material or audience access afterward.",
+        "Keep your own copies of original work and maintain a simple log of what you publish, when you publish it, and where it appears. Save relevant terms and policy versions for your records. Do not interpret a platform feature that permits downloading or exporting as a guarantee that every item, comment, or audience record will be portable."
+      ],
+      "bullets": [
+        "Review commercial terms and content rights before uploading.",
+        "Keep independent copies of original work and business records.",
+        "Document what the pilot contains and how it could be wound down.",
+        "Confirm the platform’s stated exit and data procedures instead of inferring them."
+      ]
+    },
+    {
+      "heading": "Make a decision from evidence, not sunk effort",
+      "paragraphs": [
+        "At the review point, compare what you learned with the criteria you set in advance. Note what worked, what failed, and what you could not verify. A “not enough evidence yet” result is legitimate; it may mean you need a longer test or more documentation before making a decision. If a key term is unclear, ask the platform through its published support route and keep the answer with your notes.",
+        "Choose among continuing the limited test, changing the test, or stopping it. If you continue, define the next scope and who will manage it. If you stop, communicate access changes clearly and follow the platform’s rules for account closure and content handling. Do not scale up simply because setup took time or because a few people have already joined."
+      ],
+      "bullets": [
+        "Compare observations against prewritten criteria.",
+        "Mark unknowns separately from positive or negative findings.",
+        "Make a follow-up plan for unresolved terms or workflows.",
+        "Communicate any end date or access change plainly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long should a creator platform pilot last?",
+      "answer": "There is no universal duration. Choose a period long enough to exercise the workflows that matter to you, and set the review point in advance. If the key steps have not occurred by then, record the result as incomplete rather than treating it as proof of fit."
+    },
+    {
+      "question": "Should I move my existing audience during the pilot?",
+      "answer": "Not by default. Keep the test limited and explain its scope if you invite anyone to participate. A broader move should wait until you have reviewed the workflows, commercial terms, rights, records, and exit plan relevant to your business."
+    },
+    {
+      "question": "Can a small pilot predict future platform discovery or revenue?",
+      "answer": "No. A pilot can help you observe available tools and operational fit, but a short test does not establish future reach or earnings. Avoid turning limited observations into promises or forecasts."
+    },
+    {
+      "question": "What if a platform feature or term is unclear?",
+      "answer": "Record the uncertainty and seek clarification through an official support or documentation route. Do not publish or make a business commitment that depends on an assumption you have not verified."
+    }
+  ]
+};
