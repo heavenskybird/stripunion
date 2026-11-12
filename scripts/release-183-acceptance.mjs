@@ -18,7 +18,7 @@ catch (error) { if (error.code !== 'ENOENT') throw error; }
 report.frozenSwitches = Object.fromEntries(['SOCIAL_OUTBOX_SEND_ENABLED', 'SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED',
   'SOCIAL_OUTBOX_X_SEND_ENABLED', 'SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED', 'BLOG_PUBLISH_ENABLED'].map(k => [k, process.env[k] || 'UNSET']));
 const closures = ['c4bb08d16bf8722d112c4cf7862c691e97506480','a05a7bef3b2ae27ac3181bfe9f0254cbe2261345',
-  'ab0f925823cc82dfbd5a653de3c5172945c074ad','74c772e3d2ec70c808b7e7af322426f95edffaf5','386faf7a7cb18e6fa1471ecef1dcce7aefce2a28','7a201921306e8e1d2f0538a2e6c43eac83f00337'];
+  'ab0f925823cc82dfbd5a653de3c5172945c074ad','74c772e3d2ec70c808b7e7af322426f95edffaf5','386faf7a7cb18e6fa1471ecef1dcce7aefce2a28','7a201921306e8e1d2f0538a2e6c43eac83f00337','8188a2e491eeb1c235fdf247173d416b3adfa7f6'];
 const files = new Set();
 report.recoveryBatches = [];
 for (const sha of [...closures, head.sha]) {
@@ -98,6 +98,18 @@ if (checkpoint?.phase === 'post') {
   report.gates.postMergeMainAncestry = ['ahead','identical'].includes(ancestry.status);
   report.gates.newProductionBuild = report.hostinger.latestBuild?.id !== checkpoint.rollbackBuild.id &&
     Date.parse(report.hostinger.latestBuild?.createdAt) >= Date.parse(merge.commit.committer.date);
+  if (report.releaseNumber === 189) {
+    report.searchHubChecks = [];
+    for (const slug of ['stripchat-alternatives','stripchat-app','livejasmin','chaturbate-alternatives','xhamster']) {
+      const url = 'https://stripunion.com/'+slug+'/';
+      const response = await fetch(url,{signal:AbortSignal.timeout(15000)});
+      const html = await response.text();
+      report.searchHubChecks.push({slug,status:response.status,canonicalMatched:html.includes('rel="canonical" href="'+url+'"'),intentNavigation:html.includes('Choose the guide for your question'),appDisclosure:slug!=='stripchat-app'||html.includes('separate affiliate browsing route')});
+    }
+    const r=await fetch('https://stripunion.com/sitemap.xml',{signal:AbortSignal.timeout(15000)});const xml=await r.text();
+    report.gates.searchHubs = report.searchHubChecks.every(x=>x.status===200&&x.canonicalMatched&&x.intentNavigation&&x.appDisclosure);
+    report.gates.hubSitemap = r.status===200&&report.searchHubChecks.every(x=>xml.includes('<loc>https://stripunion.com/'+x.slug+'/</loc>'));
+  }
   if (report.releaseNumber === 182) {
     const r = await fetch('https://stripunion.com/privacy-policy/', { signal: AbortSignal.timeout(15000) });
     const html = await r.text();
@@ -115,4 +127,5 @@ const required = report.phase === 'post'
   ? ['sendsPaused','productionBuildComplete','productionHtml','robotsSitemap','recoveryGuides','postMergeMainAncestry','newProductionBuild']
   : Object.keys(report.gates);
 if (report.phase === 'post' && report.releaseNumber === 182) required.push('consentReleaseMarker');
+if (report.phase === 'post' && report.releaseNumber === 189) required.push('searchHubs','hubSitemap');
 if (!required.every(k => report.gates[k] === true)) process.exitCode=1;
