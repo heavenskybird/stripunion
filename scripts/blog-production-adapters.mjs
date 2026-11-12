@@ -66,11 +66,24 @@ export function wordpressLiveVerifier({ fetchImpl = fetch } = {}) {
     const blockedMeta = /<meta[^>]+(?:name=["']robots["'][^>]+content=["'][^"']*noindex|content=["'][^"']*noindex[^>]+name=["']robots)/i.test(html);
     const blockedHeader = /noindex/i.test(response.headers.get('x-robots-tag') || '');
     let sitemapContainsUrl = false;
-    for (const pathname of ['/post-sitemap.xml', '/wp-sitemap-posts-post-1.xml']) {
-      const sitemap = await fetchImpl(expected.origin + pathname, { redirect: 'manual', signal: AbortSignal.timeout(15000) });
+    // Follow bounded same-origin sitemap indexes, including paginated post maps.
+    // This verifier never receives publisher credentials and never performs POST.
+    const pending = ['/sitemap_index.xml', '/wp-sitemap.xml', '/post-sitemap.xml', '/wp-sitemap-posts-post-1.xml'];
+    const seen = new Set();
+    while (pending.length && seen.size < 12) {
+      const next = new URL(pending.shift(), expected.origin);
+      if (next.origin !== expected.origin || next.search || next.hash || seen.has(next.href)) continue;
+      seen.add(next.href);
+      const sitemap = await fetchImpl(next.href, { method: 'GET', redirect: 'manual', signal: AbortSignal.timeout(15000) });
       if (sitemap.status !== 200) continue;
       const xml = await sitemap.text();
-      if ([...xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/g)].some(match => match[1].trim() === url)) { sitemapContainsUrl = true; break; }
+      const locations = [...xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/g)].map(match => match[1].trim().replaceAll('&amp;', '&'));
+      if (/<(?:\w+:)?urlset[\s>]/i.test(xml) && locations.includes(url)) { sitemapContainsUrl = true; break; }
+      if (/<(?:\w+:)?sitemapindex[\s>]/i.test(xml)) {
+        for (const location of locations.slice(0, 100)) {
+          try { const child = new URL(location); if (child.origin === expected.origin && !child.search && !child.hash && /\.xml$/.test(child.pathname)) pending.push(child.href); } catch {}
+        }
+      }
     }
     return { status: response.status, url, canonical, indexable: !blockedMeta && !blockedHeader, sitemapContainsUrl };
   } };

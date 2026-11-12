@@ -201,3 +201,18 @@ test('two publishers racing a single snapshot produce only one external POST', a
   assert.equal(posts,1);
   assert.equal((await durable.read()).state.entries[0].state,'confirmed');
 });
+
+test('live verifier finds post in paginated sitemap without foreign fetches or writes', async () => {
+  const url = 'https://blog.stripunion.com/approved-new-post/';
+  const requests = [];
+  const result = await wordpressLiveVerifier({fetchImpl: async (request, options={}) => {
+    requests.push({request,method:options.method||'GET'});
+    if(request===url)return new Response(`<link rel="canonical" href="${url}">`);
+    if(request.endsWith('/sitemap_index.xml'))return new Response('<sitemapindex><sitemap><loc>https://blog.stripunion.com/post-sitemap2.xml</loc></sitemap><sitemap><loc>https://foreign.invalid/posts.xml</loc></sitemap></sitemapindex>');
+    if(request.endsWith('/post-sitemap2.xml'))return new Response(`<urlset><url><loc>${url}</loc></url></urlset>`);
+    return new Response('',{status:404});
+  }}).verify(url);
+  assert.equal(result.sitemapContainsUrl,true);
+  assert.ok(requests.every(r=>r.method==='GET' && r.request.startsWith('https://blog.stripunion.com/')));
+  assert.ok(requests.length<=13);
+});
