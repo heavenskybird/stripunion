@@ -146,3 +146,11 @@ test('Telegram provider failure is quarantined while Buffer failure cannot trigg
  assert.equal(held.calls,0);
  assert.equal(held.after[1].state,'reconcile_required');
 });
+
+test('exact one-new-event trial selector cannot send older pending or unknown entries',async()=>{
+ const rows=[event(0),event(1),event(2,'reconcile_required')];
+ const r=await scenario(rows,{SOCIAL_OUTBOX_X_SEND_ENABLED:'false',SOCIAL_OUTBOX_TRIAL_EVENT_KEY:'test:1',SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP:'1',SOCIAL_OUTBOX_BATCH_SIZE:'1'});
+ assert.equal(r.error,null);assert.equal(r.telegramCalls,1);assert.equal(r.bufferCalls,0);assert.deepEqual(r.after[0],rows[0]);assert.equal(r.after[1].state,'delivered');assert.deepEqual(r.after[2],rows[2]);
+ const next=await scenario(r.after,{SOCIAL_OUTBOX_X_SEND_ENABLED:'false',SOCIAL_OUTBOX_TRIAL_EVENT_KEY:'test:1',SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP:'1',SOCIAL_OUTBOX_BATCH_SIZE:'1'});assert.equal(next.calls,0);
+ const missing=await scenario(rows,{SOCIAL_OUTBOX_TRIAL_EVENT_KEY:'absent:approved'});assert.equal(missing.calls,0);assert.deepEqual(missing.after,rows);
+});

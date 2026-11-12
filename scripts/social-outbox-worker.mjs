@@ -115,7 +115,10 @@ let latestXAttemptMs = rows
   .filter(Number.isFinite)
   .reduce((max, value) => Math.max(max, value), 0);
 
-const candidates = rows.filter(({ event }) => ready(event) && channels[event.channel] === true);
+const trialKey = String(process.env.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '').trim();
+if (sendEnabled && trialKey && !/^[a-zA-Z0-9:_-]{1,200}$/.test(trialKey)) throw new Error('Invalid exact trial event key.');
+const candidates = rows.filter(({ event }) => ready(event) && channels[event.channel] === true &&
+  (!trialKey || event.idempotency_key === trialKey && event.state === 'pending' && Number(event.attempt_count || 0) === 0));
 let providerPosts = [];
 let xEvidenceAvailable = false;
 if (sendEnabled && candidates.some(({event}) => event.channel === 'x') && process.env.BUFFER_API_KEY && process.env.BUFFER_CHANNEL_ID &&
