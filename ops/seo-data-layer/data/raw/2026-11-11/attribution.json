@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-12T08:26:24.620Z",
+  "collectedAt": "2026-11-12T14:07:04.163Z",
   "receiverConnected": true,
   "postbackJoinReady": true,
   "diagnostics": {
@@ -13,7 +13,7 @@
     "missingTransactionId": 2
   },
   "reportScope": "first-party AVCams click/postback attribution",
-  "totalClicks": 45,
+  "totalClicks": 46,
   "totalPostbacks": 15,
   "matchedPostbacks": 3,
   "unmatchedPostbacks": 12,
@@ -58,7 +58,7 @@
       "revenueByCurrency": {}
     },
     "stripchat_alternatives": {
-      "clicks": 5,
+      "clicks": 6,
       "postbacks": 1,
       "matchedPostbacks": 1,
       "eventCounts": {
@@ -156,7 +156,7 @@
       "revenueByCurrency": {}
     },
     "stripchat_alternatives_live_now": {
-      "clicks": 5,
+      "clicks": 6,
       "postbacks": 1,
       "matchedPostbacks": 1,
       "eventCounts": {
@@ -239,5 +239,5 @@
     }
   },
   "byExperiment": {},
-  "updatedAt": "2026-11-12T05:26:07.437Z"
+  "updatedAt": "2026-11-12T13:57:07.684Z"
 }
