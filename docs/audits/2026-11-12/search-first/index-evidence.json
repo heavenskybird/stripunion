@@ -1,0 +1,376 @@
+{
+  "sourceRun": "43252762665",
+  "sourceArtifact": "13960296384",
+  "checkedAt": "2026-11-12T15:54:31.972Z",
+  "scope": {
+    "hubURLVariants": 10,
+    "requested": 45,
+    "restoredUrls": 35,
+    "observed": 45,
+    "indexPercentage": null,
+    "note": "URL Inspection samples/current provider state; not a site-wide index total. Bing market research is never site impressions."
+  },
+  "googleExactUrlCoverage": {
+    "Submitted and indexed": 3,
+    "URL is unknown to Google": 33,
+    "Discovered - currently not indexed": 8,
+    "Page with redirect": 1
+  },
+  "hubVariants": [
+    {
+      "url": "https://stripunion.com/stripchat-alternatives",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-11-06T01:25:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://stripunion.com/stripchat-alternatives",
+      "userCanonical": "https://stripunion.com/stripchat-alternatives"
+    },
+    {
+      "url": "https://stripunion.com/stripchat-alternatives/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-11-06T01:25:16Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://stripunion.com/stripchat-alternatives/",
+      "userCanonical": "https://stripunion.com/stripchat-alternatives"
+    },
+    {
+      "url": "https://stripunion.com/stripchat-app",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "url": "https://stripunion.com/livejasmin",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "url": "https://stripunion.com/livejasmin/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "url": "https://stripunion.com/stripchat-app/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "url": "https://stripunion.com/chaturbate-alternatives/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-28T07:47:53Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://stripunion.com/chaturbate-alternatives/",
+      "userCanonical": "https://stripunion.com/chaturbate-alternatives"
+    },
+    {
+      "url": "https://stripunion.com/chaturbate-alternatives",
+      "verdict": "NEUTRAL",
+      "coverageState": "Page with redirect",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-10-31T21:04:44Z",
+      "pageFetchState": "SUCCESSFUL",
+      "googleCanonical": "https://stripunion.com/chaturbate-alternatives/",
+      "userCanonical": "https://stripunion.com/chaturbate-alternatives"
+    },
+    {
+      "url": "https://stripunion.com/xhamster",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    },
+    {
+      "url": "https://stripunion.com/xhamster/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "googleCanonical": null,
+      "userCanonical": null
+    }
+  ],
+  "googleSitemaps": [
+    {
+      "path": "https://stripunion.com/sitemap.xml",
+      "lastSubmitted": "2026-09-30T03:47:48.598Z",
+      "isPending": false,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-11-12T09:46:04.622Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "1632",
+          "indexed": "0"
+        }
+      ]
+    },
+    {
+      "path": "https://blog.stripunion.com/sitemap_index.xml",
+      "lastSubmitted": "2026-09-30T03:47:48.444Z",
+      "isPending": false,
+      "isSitemapsIndex": true,
+      "lastDownloaded": "2026-11-12T13:20:30.673Z",
+      "warnings": "0",
+      "errors": "0",
+      "contents": [
+        {
+          "type": "web",
+          "submitted": "27",
+          "indexed": "0"
+        },
+        {
+          "type": "image",
+          "submitted": "16",
+          "indexed": "0"
+        }
+      ]
+    }
+  ],
+  "publicHTTP": {
+    "checkedAt": "2026-11-12T15:56:13.757Z",
+    "rows": [
+      {
+        "host": "www.stripunion.com",
+        "path": "/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/stripchat-alternatives/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/stripchat-alternatives",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/",
+        "noindex": false
+      },
+      {
+        "host": "www.stripunion.com",
+        "path": "/stripchat-alternatives/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/stripchat-alternatives",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/stripchat-app/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/stripchat-app",
+        "noindex": false
+      },
+      {
+        "host": "www.stripunion.com",
+        "path": "/stripchat-app/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/stripchat-app",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/livejasmin/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/livejasmin",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/chaturbate-alternatives/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/chaturbate-alternatives",
+        "noindex": false
+      },
+      {
+        "host": "www.stripunion.com",
+        "path": "/livejasmin/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/livejasmin",
+        "noindex": false
+      },
+      {
+        "host": "www.stripunion.com",
+        "path": "/chaturbate-alternatives/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/chaturbate-alternatives",
+        "noindex": false
+      },
+      {
+        "host": "www.stripunion.com",
+        "path": "/xhamster/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/xhamster",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/xhamster/",
+        "status": 200,
+        "location": null,
+        "canonical": "https://stripunion.com/xhamster",
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/stripchat-alternatives",
+        "status": 301,
+        "location": "https://stripunion.com/stripchat-alternatives/",
+        "canonical": null,
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/stripchat-app",
+        "status": 301,
+        "location": "https://stripunion.com/stripchat-app/",
+        "canonical": null,
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/livejasmin",
+        "status": 301,
+        "location": "https://stripunion.com/livejasmin/",
+        "canonical": null,
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/xhamster",
+        "status": 301,
+        "location": "https://stripunion.com/xhamster/",
+        "canonical": null,
+        "noindex": false
+      },
+      {
+        "host": "stripunion.com",
+        "path": "/chaturbate-alternatives",
+        "status": 301,
+        "location": "https://stripunion.com/chaturbate-alternatives/",
+        "canonical": null,
+        "noindex": false
+      }
+    ],
+    "sitemap": {
+      "http": 200,
+      "urlCount": 1652,
+      "indexPercentage": null
+    },
+    "note": "Sitemap URLs, sampled GSC indexing, Bing indexed pages and publication jobs differ in scope. No site-wide index percentage. Transport failure is not proof of production downtime."
+  },
+  "bingSiteDateScope": "Native provider buckets, not collection time",
+  "bingMarketDemand": [
+    {
+      "query": "stripchat alternatives",
+      "scope": "MARKET_DEMAND_NOT_SITE_IMPRESSIONS",
+      "country": "us",
+      "language": "en-US",
+      "nativeBuckets": 0,
+      "nativeStart": null,
+      "nativeEnd": null,
+      "returnedImpressions": 0,
+      "notSiteImpressions": true
+    },
+    {
+      "query": "stripchat app",
+      "scope": "MARKET_DEMAND_NOT_SITE_IMPRESSIONS",
+      "country": "us",
+      "language": "en-US",
+      "nativeBuckets": 25,
+      "nativeStart": "2026-05-16T00:00:00+00:00",
+      "nativeEnd": "2026-11-07T00:00:00+00:00",
+      "returnedImpressions": 297,
+      "notSiteImpressions": true
+    },
+    {
+      "query": "livejasmin",
+      "scope": "MARKET_DEMAND_NOT_SITE_IMPRESSIONS",
+      "country": "us",
+      "language": "en-US",
+      "nativeBuckets": 25,
+      "nativeStart": "2026-05-16T00:00:00+00:00",
+      "nativeEnd": "2026-11-07T00:00:00+00:00",
+      "returnedImpressions": 101466,
+      "notSiteImpressions": true
+    },
+    {
+      "query": "chaturbate alternatives",
+      "scope": "MARKET_DEMAND_NOT_SITE_IMPRESSIONS",
+      "country": "us",
+      "language": "en-US",
+      "nativeBuckets": 15,
+      "nativeStart": "2026-05-23T00:00:00+00:00",
+      "nativeEnd": "2026-11-07T00:00:00+00:00",
+      "returnedImpressions": 248,
+      "notSiteImpressions": true
+    },
+    {
+      "query": "xhamster",
+      "scope": "MARKET_DEMAND_NOT_SITE_IMPRESSIONS",
+      "country": "us",
+      "language": "en-US",
+      "nativeBuckets": 25,
+      "nativeStart": "2026-05-16T00:00:00+00:00",
+      "nativeEnd": "2026-11-07T00:00:00+00:00",
+      "returnedImpressions": 6860614,
+      "notSiteImpressions": true
+    }
+  ]
+}

@@ -12,7 +12,7 @@ export async function collectionStatus(rawRoot, env, now = Date.now()) {
   if (!Number.isFinite(started) || started > now || !/^\d+$/.test(env.GITHUB_RUN_ID || '')) throw new Error('Missing current collection identity.');
   const dirs = (await fs.readdir(rawRoot, { withFileTypes: true })).filter(d => d.isDirectory());
   const sources = {};
-  for (const [name, key] of definitions) {
+  for (const [name, key] of [...definitions, ...(env.SEARCH_GROWTH_OUTCOME ? [['search-growth','SEARCH_GROWTH']] : [])]) {
     let latest = null;
     let corrupt = false;
     for (const dir of dirs) {
@@ -29,7 +29,7 @@ export async function collectionStatus(rawRoot, env, now = Date.now()) {
     sources[name] = { status, outcome, collectedAt: latest?.collectedAt || null,
       snapshotDate: latest?.snapshotDate || null, startDate: latest?.startDate || null, endDate: latest?.endDate || null,
       currentRunSnapshot: Boolean(current), corruptSnapshotObserved: corrupt,
-      critical: !['buffer', 'ga4-admin'].includes(name) && configured };
+      critical: !['buffer', 'ga4-admin', 'search-growth'].includes(name) && configured };
   }
   for (const [name, key] of [['bing-acceptance', 'BING_ACCEPTANCE'], ['blog-health', 'BLOG_HEALTH']]) {
     sources[name] = { status: env[`${key}_OUTCOME`] === 'success' ? 'ok' : 'failed', outcome: env[`${key}_OUTCOME`] || 'unknown', critical: true };

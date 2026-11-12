@@ -1,0 +1,36 @@
+name: Affiliate consent browser regression
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - src/layouts/BaseLayout.astro
+      - src/pages/privacy-policy.astro
+      - scripts/test-affiliate-consent-browser.mjs
+      - .github/workflows/affiliate-consent-regression.yml
+  push:
+    branches: [codex/recovery-b-consent-runtime]
+permissions:
+  contents: read
+jobs:
+  consent-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The canonical repository does not track a root package-lock.json.
+      # Match the existing Build/Visual QA dependency installation path.
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - run: PUBLIC_ALLOW_INDEXING=true npm run build
+      - name: Actual built HTML, all requests intercepted, zero external sends
+        run: node scripts/test-affiliate-consent-browser.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: affiliate-consent-browser-${{ github.run_id }}
+          path: artifacts/affiliate-consent/report.json
+          if-no-files-found: warn
+          retention-days: 14
