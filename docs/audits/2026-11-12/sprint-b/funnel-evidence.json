@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "readOnly": true,
+  "ga4": {
+    "collectedAt": "2026-11-12T08:26:04.060Z",
+    "startDate": "2026-10-12",
+    "endDate": "2026-11-11",
+    "coverage": "TIMEZONE_UNKNOWN",
+    "propertyTimeZone": "UNKNOWN",
+    "sites": {
+      "main": {
+        "sessions": 0,
+        "affiliateClicks": 0
+      },
+      "blog": {
+        "sessions": 12,
+        "affiliateClicks": 0
+      }
+    },
+    "hostSegmentationAvailable": true,
+    "zeroProvesNoClicks": false,
+    "consentGrantedProductionTest": "NOT_PERFORMED"
+  },
+  "attribution": {
+    "collectedAt": "2026-11-12T08:26:24.620Z",
+    "scope": "first-party AVCams click/postback attribution",
+    "totalClicks": 45,
+    "totalPostbacks": 15,
+    "matchedPostbacks": 3,
+    "unmatchedPostbacks": 12,
+    "diagnosticsSince": "2026-11-12T05:23:11.967Z",
+    "newWindowUnmatched": 0,
+    "unmatchedOutsideDiagnosticCoverage": 12,
+    "legacyUnmatchedCause": "UNKNOWN_WITHOUT_EVENT_LEVEL_EVIDENCE",
+    "revenueByCurrency": {
+      "UNKNOWN": 224.25000000000003
+    },
+    "comparableToGa4Period": false,
+    "note": "Cumulative first-party AVCams summary is not period-aligned GA4 affiliate_click data."
+  },
+  "blockers": [
+    "NEED_CONSENT_GRANTED_PRODUCTION_TRACE",
+    "NEED_PROVIDER_PARAMETER_CONTRACT_AND_REDACTED_EVENT_EVIDENCE"
+  ],
+  "noSyntheticConversions": true
+}
