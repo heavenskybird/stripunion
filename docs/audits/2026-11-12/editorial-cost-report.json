@@ -1,11 +1,12 @@
 {
   "version": 1,
-  "scope": "Five evidenced completed requests from four recovery runs; not a complete daily bill",
+  "scope": "Six evidenced completed requests from five recovery runs; not a complete daily bill",
   "sourceRuns": [
     "https://github.com/heavenskybird/stripunion/actions/runs/43151510253",
     "https://github.com/heavenskybird/stripunion/actions/runs/43172741943",
     "https://github.com/heavenskybird/stripunion/actions/runs/43186274604",
-    "https://github.com/heavenskybird/stripunion/actions/runs/43194534112"
+    "https://github.com/heavenskybird/stripunion/actions/runs/43194534112",
+    "https://github.com/heavenskybird/stripunion/actions/runs/43213236095"
   ],
   "requests": [
     {
@@ -37,15 +38,21 @@
       "attempt": 1,
       "inputTokens": 29730,
       "outputTokens": 9805
+    },
+    {
+      "runId": "43213236095",
+      "attempt": 1,
+      "inputTokens": 30707,
+      "outputTokens": 12556
     }
   ],
   "accounting": {
-    "requests": 5,
-    "runs": 4,
+    "requests": 6,
+    "runs": 5,
     "retries": 1,
-    "inputTokens": 151063,
-    "outputTokens": 56251,
-    "totalTokens": 207314,
+    "inputTokens": 181770,
+    "outputTokens": 68807,
+    "totalTokens": 250577,
     "usageStatus": "RECORDED",
     "estimatedUsd": null,
     "costStatus": "UNKNOWN",
