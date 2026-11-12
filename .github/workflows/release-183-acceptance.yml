@@ -1,4 +1,4 @@
-name: Release 183 production acceptance
+name: Controlled release production acceptance
 on:
   push:
     branches: [codex/release-183-acceptance]

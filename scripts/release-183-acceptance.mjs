@@ -83,6 +83,7 @@ report.gates = {
 };
 report.mainHtmlSha256 = main?.htmlSha256 || null;
 report.phase = checkpoint?.phase || 'pre';
+report.releaseNumber = checkpoint?.releaseNumber || 183;
 if (checkpoint?.phase === 'post') {
   const merge = await github(`commits/${checkpoint.expectedMergeSha}`);
   const ancestry = await github(`compare/${checkpoint.expectedMergeSha}...main`);
@@ -91,9 +92,14 @@ if (checkpoint?.phase === 'post') {
   report.gates.postMergeMainAncestry = ['ahead','identical'].includes(ancestry.status);
   report.gates.newProductionBuild = report.hostinger.latestBuild?.id !== checkpoint.rollbackBuild.id &&
     Date.parse(report.hostinger.latestBuild?.createdAt) >= Date.parse(merge.commit.committer.date);
+  if (report.releaseNumber === 182) {
+    const r = await fetch('https://stripunion.com/privacy-policy/', { signal: AbortSignal.timeout(15000) });
+    const html = await r.text();
+    report.gates.consentReleaseMarker = r.status === 200 && html.includes('Rejecting analytics or withdrawing that choice stops new optional first-party click events');
+  }
 }
 await fs.writeFile('work/recovery/release-183.json', JSON.stringify(report,null,2)+'\n');
-console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checkedAt:report.checkedAt,phase:report.phase,release:report.release,mainSha:report.mainSha,gates:report.gates,
+console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checkedAt:report.checkedAt,releaseNumber:report.releaseNumber,phase:report.phase,release:report.release,mainSha:report.mainSha,gates:report.gates,
   switches:report.frozenSwitches,receipt:report.receipt,hostinger:report.hostinger,guideCount:files.size,
   guideEvidenceSha256:createHash('sha256').update(JSON.stringify(expected)).digest('hex'),mainHtmlSha256:report.mainHtmlSha256 }));
 // Natural production is allowed to continue after the merge. Receipt/writer
@@ -102,4 +108,5 @@ console.log('RELEASE_183_ACCEPTANCE '+JSON.stringify({ runId:report.runId,checke
 const required = report.phase === 'post'
   ? ['sendsPaused','productionBuildComplete','productionHtml','robotsSitemap','recoveryGuides','postMergeMainAncestry','newProductionBuild']
   : Object.keys(report.gates);
+if (report.phase === 'post' && report.releaseNumber === 182) required.push('consentReleaseMarker');
 if (!required.every(k => report.gates[k] === true)) process.exitCode=1;
