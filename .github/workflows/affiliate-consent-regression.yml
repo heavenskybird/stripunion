@@ -20,7 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm ci
+      # The canonical repository does not track a root package-lock.json.
+      # Match the existing Build/Visual QA dependency installation path.
+      - run: npm install
       - run: npx playwright install --with-deps chromium
       - run: PUBLIC_ALLOW_INDEXING=true npm run build
       - name: Actual built HTML, all requests intercepted, zero external sends
