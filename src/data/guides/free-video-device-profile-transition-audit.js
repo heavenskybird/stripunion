@@ -1,0 +1,111 @@
+export default {
+  "slug": "free-video-device-profile-transition-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check What Carries Over When You Switch Devices or Profiles",
+  "description": "Before signing in on another device, compare free video platform session behavior, saved activity, browser profiles, and privacy controls to avoid mixing accounts or leaving traces behind.",
+  "excerpt": "Using a different device or browser profile can change what a free video platform remembers and what remains visible. Check whether sign-in, watch activity, saved lists, and recommendations travel with the account—or stay in the local browser—before switching contexts.",
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "keyTakeaways": [
+    "A signed-in account and a browser’s local records are separate sources of activity and may behave differently.",
+    "Check what synchronizes across devices before assuming history or saved items remain private or portable.",
+    "Switching browser profiles can prevent accidental account mixing, but it does not erase records already stored elsewhere.",
+    "Sign out deliberately and review the active device or session controls provided by the platform."
+  ],
+  "sections": [
+    {
+      "heading": "Map account activity versus local browser activity",
+      "paragraphs": [
+        "A free video platform may associate some activity with a signed-in account while other traces remain in the browser or on the device. Watch history, saved items, recommendations, search entries, cookies, and autocomplete can each have different storage and sync behavior. A second device may show some account-linked activity but not local history; a shared browser profile may also retain traces after a user signs out.",
+        "Before switching devices, identify what you are trying to keep separate. If the goal is to avoid mixing a personal account with another browsing context, check the active account and browser profile first. If the goal is to avoid leaving a local trace, account sign-out alone may not address browser history, downloads, or saved form data. Treat platform controls and device controls as separate layers."
+      ],
+      "table": {
+        "caption": "Where activity may be stored",
+        "headers": [
+          "Activity type",
+          "Where to check"
+        ],
+        "rows": [
+          [
+            "Signed-in history or saved items",
+            "Platform account settings and the account view on another device"
+          ],
+          [
+            "Search and browsing history",
+            "Platform history controls and the local browser history"
+          ],
+          [
+            "Sign-in state",
+            "Platform profile menu, browser profile, and active session controls"
+          ],
+          [
+            "Autofill and suggestions",
+            "Browser settings and device keyboard or account sync settings"
+          ],
+          [
+            "Downloads or cached files",
+            "Device storage, browser downloads, and any configured backup service"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test synchronization before relying on it",
+      "paragraphs": [
+        "Do not infer synchronization from the fact that a platform lets you sign in on multiple devices. Review its current help pages to learn which features are account-linked and which are device-specific. If the behavior is unclear, use a non-sensitive test action—such as checking whether a neutral saved item appears on the other device—rather than experimenting with private activity. Follow the platform’s own instructions and remove the test item afterward if you do not want it retained.",
+        "Check how history controls work before switching. A pause, delete, or clear option may apply to one account, one device, or a limited history type. Some platform controls may not remove browser-level history or cached information. Conversely, clearing the local browser may not remove activity associated with a signed-in platform account. Read the description of each control and verify the result in the relevant place."
+      ],
+      "bullets": [
+        "Identify the account currently signed in before opening another device.",
+        "Check the platform’s description of sync and history controls.",
+        "Keep local browser cleanup separate from platform-account history changes.",
+        "Avoid assuming that private browsing or sign-out removes all records."
+      ]
+    },
+    {
+      "heading": "Prevent accidental account and profile mixing",
+      "paragraphs": [
+        "For a browser that syncs across devices, inspect the sync settings for history, open tabs, passwords, and form data. A profile boundary may be weakened if browsing data is deliberately synchronized into another account. Decide whether sync fits your intended separation before enabling it."
+      ]
+    },
+    {
+      "heading": "Review active sessions and saved-device access",
+      "paragraphs": [
+        "Platforms may offer a way to view active sessions or sign out of other devices; availability and naming vary. Check the platform’s account-security or session settings rather than assuming that closing a tab ends every session. If you used a device temporarily, sign out of the platform, close the browser, and review whether the browser saved the login or password. If the device was shared, use its normal account-switching and data-cleanup controls without deleting another user’s information.",
+        "Also check visible surfaces outside the platform: browser suggestions, home-screen shortcuts, open tabs, downloads, and notifications. These are device-level concerns, not necessarily account features. You can reduce accidental exposure by closing tabs, avoiding credential saving, and keeping downloads in a location that other users cannot browse casually. Make choices consistent with the device owner’s rules and your own authority over its settings."
+      ],
+      "bullets": [
+        "Confirm the platform account is signed out on a device you no longer control.",
+        "Review any active-session list the platform provides.",
+        "Check browser password saving and sync settings.",
+        "Close tabs and inspect downloads or shortcuts where appropriate."
+      ]
+    },
+    {
+      "heading": "Use a repeatable device-switch checklist",
+      "paragraphs": [
+        "Before switching, note the active platform account, browser profile, and device owner. Decide whether you need account-linked continuity or separation. If continuity matters, verify that the platform syncs the specific feature you need. If separation matters, use an appropriate profile and avoid logging into an account on a device where other users can access it. These are different goals; choosing one without considering the other can lead to lost saved activity or unexpected visibility.",
+        "After the switch, confirm the expected state: correct account, correct profile, and only the activity you intend to carry over. When finished, sign out where appropriate and review account sessions and local browser controls. If you discover unexpected synchronization, use the platform’s history or saved-item settings and the browser’s controls separately. Keep a short note of which settings you changed so you can reverse them without disrupting unrelated accounts."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I sign out, does a free video platform remove everything from the device?",
+      "answer": "Not necessarily. Signing out usually addresses the account session, but local browser history, downloads, cached data, or saved credentials may remain. Check platform and device controls separately."
+    },
+    {
+      "question": "Will my watch history automatically appear on another device?",
+      "answer": "That depends on the platform’s current account and synchronization behavior. Check its help and history settings, and do not assume all activity either syncs or stays local."
+    },
+    {
+      "question": "Does using a separate browser profile guarantee privacy?",
+      "answer": "No. It can reduce accidental mixing of browser sign-ins and data, but it does not control every device, network, or platform record. Review sync, session, and device access as separate layers."
+    },
+    {
+      "question": "What should I do after using a borrowed device?",
+      "answer": "Sign out of the platform, avoid saving credentials, review active sessions if available, and use the browser’s normal controls for local history or downloads. Do not change settings or delete data beyond your authority."
+    }
+  ]
+};
