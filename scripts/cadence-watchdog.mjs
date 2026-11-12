@@ -16,7 +16,9 @@ export function assessCadence(evidence, { now = Date.now(), graceMinutes = 15 } 
   const result = { version: 1, checkedAt: Number.isFinite(now) ? new Date(now).toISOString() : null,
     classification: 'EVIDENCE_UNKNOWN', alert: true, readOnly: true, failoverEnabled: false,
     receiptSha: evidence?.receiptSha || null, runId: evidence?.receipt?.runId || null,
-    cycleId: evidence?.receipt?.cycleId || null, dueAt: null, overdueMinutes: null };
+    cycleId: evidence?.receipt?.cycleId || null, dueAt: null, overdueMinutes: null,
+    lastAdmission: evidence?.admissions?.at(-1) || null,
+    evidenceGaps: !['active', 'disabled_manually', 'disabled_inactivity'].includes(evidence?.workflowState) ? ['WORKFLOW_STATE_UNAVAILABLE'] : [] };
   const finish = (classification, alert = true) => ({ ...result, classification, alert });
   if (!Number.isFinite(now) || !Number.isFinite(graceMinutes) || graceMinutes < 0 || graceMinutes > 60 ||
       !EXTERNAL_CLOCKS.has(evidence?.clockSource) || evidence?.repository !== 'heavenskybird/stripunion' ||
@@ -27,7 +29,7 @@ export function assessCadence(evidence, { now = Date.now(), graceMinutes = 15 } 
     return finish('PAUSED_BY_OPERATOR');
   }
   if (evidence.workflowState === 'disabled_inactivity') return finish('WORKFLOW_INACTIVE');
-  if (evidence.workflowState !== 'active' || !evidence.inventoryComplete || !Array.isArray(evidence.activeRuns)) return finish('EVIDENCE_UNKNOWN');
+  if (!evidence.inventoryComplete || !Array.isArray(evidence.activeRuns)) return finish('EVIDENCE_UNKNOWN');
   const state = evidence.receipt;
   if (!/^[a-f0-9]{40}$/.test(evidence.receiptSha || '') || !state || state.version !== 1 ||
       !['success', 'failure', 'running'].includes(state.status) || !Number.isInteger(state.attempts) || state.attempts < 1 ||
@@ -44,12 +46,18 @@ export function assessCadence(evidence, { now = Date.now(), graceMinutes = 15 } 
   if (state.status === 'failure') return finish('PRODUCER_FAILURE');
   if (now < due) return finish('ADMISSION_BACKOFF', false);
   if (state.status === 'running') return finish('PRODUCER_INCOMPLETE');
+  if (evidence.workflowState !== 'active') return finish('EVIDENCE_UNKNOWN');
   if (result.overdueMinutes <= graceMinutes) return finish('DUE_WITHIN_GRACE', false);
   const schedules = (evidence.schedulerRuns || []).filter(r => r.event === 'schedule' && Date.parse(r.createdAt) >= due && Date.parse(r.createdAt) <= now);
   const wakeups = (evidence.schedulerRuns || []).filter(r => Date.parse(r.createdAt) >= due && Date.parse(r.createdAt) <= now);
   result.postDueScheduleRunIds = schedules.map(r => String(r.id));
   result.postDueWakeRunIds = wakeups.map(r => String(r.id));
   if (!wakeups.length) return finish('SCHEDULE_MISSING');
+  const skipped = (evidence.admissions || []).find(a => a.action === 'skip' && wakeups.some(r => String(r.id) === String(a.runId)));
+  if (skipped) {
+    result.lastAdmission = skipped;
+    return finish('ADMISSION_SKIPPED', !['backoff', 'duplicate-run'].includes(skipped.reason));
+  }
   // A wake is evidence of delivery only, never of a five-guide publication.
   return finish('WAKE_SUPPRESSED_OR_UNADMITTED');
 }
