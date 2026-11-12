@@ -1,3 +1,10 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {collectionPolicy} from '../buffer-collection-policy.mjs';
 test('pause, provider cooldown and fresh cache all make zero requests; scope is not posting quota',()=>{const now=Date.parse('2026-11-12T15:00:00Z');for(const opts of [{},{enabled:true,cooldownUntil:'2026-11-25T00:00:00Z'},{enabled:true,lastCollectedAt:'2026-11-11T00:00:00Z'}])assert.equal(collectionPolicy({now,...opts}).providerRequests,0);});
 test('weekly collection bounded at six requests and seven days; no per-post metrics',()=>{const p=collectionPolicy({enabled:true});assert.equal(p.maximumRequests,6);assert.equal(p.metrics,false);assert.throws(()=>collectionPolicy({enabled:true,maxPages:3}),/BOUNDS/);assert.throws(()=>collectionPolicy({enabled:true,lookbackDays:90}),/BOUNDS/);});
+
+test('actual collector pause and known provider cooldown stop before every fetch',async()=>{
+ const {mkdtemp,writeFile,access,rm}=await import('node:fs/promises');const {tmpdir}=await import('node:os');const {join}=await import('node:path');const {spawnSync}=await import('node:child_process');
+ const dir=await mkdtemp(join(tmpdir(),'buffer-collector-zero-'));const marker=join(dir,'network');const preload=join(dir,'preload.mjs');
+ await writeFile(preload,`import fs from 'node:fs';Date.now=()=>Date.parse('2026-11-12T15:00:00Z');globalThis.fetch=()=>{fs.writeFileSync(${JSON.stringify(marker)},'called');throw new Error('no external calls permitted');};`);
+ try{for(const enabled of ['false','true']){const r=spawnSync(process.execPath,['--import',preload,'ops/seo-data-layer/src/collectors/buffer.mjs'],{env:{...process.env,BUFFER_API_KEY:'fixture-not-real',BUFFER_ANALYTICS_ENABLED:enabled,SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true'},encoding:'utf8'});assert.equal(r.status,1);assert.match(r.stderr,enabled==='true'?/BUFFER_PROVIDER_COOLDOWN/:/BUFFER_ANALYTICS_PAUSED/);await assert.rejects(access(marker));}}finally{await rm(dir,{recursive:true,force:true});}
+});
