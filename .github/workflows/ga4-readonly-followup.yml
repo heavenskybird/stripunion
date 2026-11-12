@@ -1,0 +1,50 @@
+name: GA4 diagnostic read-only follow-up
+on:
+  push:
+    branches: [codex/release-183-acceptance]
+    paths: [.github/workflows/ga4-readonly-followup.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: audit
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: canonical
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read filters and settled realtime only; no browser or event sender
+        working-directory: canonical
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          npm --prefix ops/seo-data-layer install
+          mkdir -p work/recovery
+          cp ../audit/scripts/release-ga4-read-realtime.mjs scripts/release-ga4-read-realtime.mjs
+          node --input-type=module - <<'JS'
+          import fs from 'node:fs/promises';
+          import {createRequire} from 'node:module';
+          import {googleCredentials} from './ops/seo-data-layer/src/lib/google-auth.mjs';
+          const require=createRequire(new URL('./ops/seo-data-layer/package.json',import.meta.url));
+          const {google}=require('googleapis');
+          const auth=new google.auth.GoogleAuth({credentials:googleCredentials(),scopes:['https://www.googleapis.com/auth/analytics.readonly']});
+          let filters=[],errorCode=null;
+          try{const r=await google.analyticsadmin({version:'v1alpha',auth}).properties.dataFilters.list({parent:'properties/530171093'});filters=(r.data.dataFilters||[]).map(x=>({state:x.state,filterType:x.filterType,developerTrafficFilter:!!x.developerTrafficFilter,internalTrafficFilter:!!x.internalTrafficFilter}));}catch(e){errorCode=Number.isInteger(e.code)?e.code:'UNKNOWN';}
+          const report={checkedAt:new Date().toISOString(),filters,errorCode};
+          await fs.writeFile('work/recovery/ga4-filters.json',JSON.stringify(report,null,2)+'\n');console.log('GA4_FILTERS '+JSON.stringify(report));
+          await new Promise(resolve=>setTimeout(resolve,60000));
+          JS
+          node scripts/release-ga4-read-realtime.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ga4-readonly-followup-${{ github.run_id }}
+          path: canonical/work/recovery/*.json
+          retention-days: 14
