@@ -51,6 +51,7 @@ jobs:
         run: |
           npm install
           npx playwright install --with-deps chromium
+          cp ../audit/scripts/ga4-single-event-filter.mjs scripts/ga4-single-event-filter.mjs
           cp ../audit/scripts/release-ga4-single-event.mjs scripts/release-ga4-single-event.mjs
           node scripts/release-ga4-single-event.mjs
       - name: Read GA4 actual property realtime event count

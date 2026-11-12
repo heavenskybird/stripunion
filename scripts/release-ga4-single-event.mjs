@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {chromium} from 'playwright';
+import {diagnosticRequest} from './ga4-single-event-filter.mjs';
 const authorization=JSON.parse(await fs.readFile('../audit/docs/audits/2026-11-12/ga4-single-event-authorization.json','utf8'));
 const checkpoint={ga4SingleEventAuthorized:authorization.authorized===true&&authorization.maxEvents===1,expectedMergeSha:authorization.releaseSha};
 if(process.env.GITHUB_RUN_ATTEMPT!=='1'||process.env.GITHUB_EVENT_NAME!=='push')throw new Error('NO_RERUN_OR_MANUAL_GA4_REPLAY');
@@ -20,15 +21,16 @@ try{
    const bodyParams=new URLSearchParams(body);
    const event=params.get('en')||bodyParams.get('en');
    const names=[...body.matchAll(/(?:^|[&\n])en=([^&\n]+)/g)].map(m=>decodeURIComponent(m[1]));
-   if(event==='recovery_consent_check'&&(params.get('tid')||bodyParams.get('tid'))==='G-K57BRX69X1'&&names.every(n=>n===event)&&names.length<=1&&sent.length===0){
-    sent.push({event,measurementId:'G-K57BRX69X1',at:new Date().toISOString()});return route.continue();
+   const diagnostic=diagnosticRequest(req.url(),body);
+   if(diagnostic&&sent.length===0){
+    sent.push({event:'recovery_consent_check',measurementId:'G-K57BRX69X1',at:new Date().toISOString()});return route.continue({postData:diagnostic.postData});
    }
   }
   if(/google/.test(u.hostname)&&blockedGoogle.length<20)blockedGoogle.push({host:u.hostname,path:u.pathname,event:u.searchParams.get('en')||new URLSearchParams(req.postData()||'').get('en'),measurementId:u.searchParams.get('tid'),batchedEvents:[...(req.postData()||'').matchAll(/(?:^|[&\n])en=([^&\n]+)/g)].map(m=>decodeURIComponent(m[1])).slice(0,10)});
   blocked++;return route.fulfill({status:200,contentType:'application/javascript',body:''});
  });
  const page=await context.newPage();
- page.on('response',r=>{try{const u=new URL(r.url());if(/(^|\.)google-analytics\.com$|(^|\.)analytics\.google\.com$/.test(u.hostname)&&u.pathname==='/g/collect'&&(u.searchParams.get('en')||new URLSearchParams(r.request().postData()||'').get('en'))==='recovery_consent_check')statuses.push(r.status());}catch{}});
+ page.on('response',r=>{try{const u=new URL(r.url());if(/(^|\.)google-analytics\.com$|(^|\.)analytics\.google\.com$/.test(u.hostname)&&u.pathname==='/g/collect'&&sent.length===1)statuses.push(r.status());}catch{}});
  await page.goto('https://stripunion.com/');
  await page.waitForFunction(()=>!!window.google_tag_manager,{},{timeout:30000});
  await page.waitForTimeout(3000);

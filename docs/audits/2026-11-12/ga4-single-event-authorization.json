@@ -9,9 +9,10 @@
   "noAutomaticReplay": true,
   "priorTestRun": "43236495893",
   "priorEventsActuallySent": 0,
-  "retryBound": "Final third harness attempt after verified zero transmissions; cumulative real diagnostic event maximum remains one",
+  "retryBound": "One final batch-filtered transmission; all three previous harnesses proved zero transmissions; cumulative event maximum remains one",
   "priorTestRuns": [
     "43236495893",
-    "43237043609"
+    "43237043609",
+    "43237609298"
   ]
 }
