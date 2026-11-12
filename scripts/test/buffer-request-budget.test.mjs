@@ -49,3 +49,12 @@ test('analytics cannot consume final delivery reserve in shared local request wi
  await assert.rejects(budgetedBufferFetch('https://api.buffer.com',{}, {...options,purpose:'analytics'}),/ceiling/);
  await budgetedBufferFetch('https://api.buffer.com',{},options);assert.equal(calls,1);
 });
+
+test('lost provider response still consumes the shared request budget, without an automatic retry', async () => {
+  const db = store(); let calls = 0;
+  await assert.rejects(budgetedBufferFetch('https://api.buffer.com', {}, { store: db,
+    fetchImpl: async () => { calls++; throw Error('network lost after request'); }, now: () => now }));
+  assert.equal(db.state.used, 1);
+  assert.equal(db.state.dailyUsed, 1);
+  assert.equal(calls, 1);
+});

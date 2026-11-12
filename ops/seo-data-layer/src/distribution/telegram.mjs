@@ -1,10 +1,11 @@
 import { fileURLToPath } from 'node:url';
 import { assertNativeChannel } from '../../../../scripts/social-channel-switches.mjs';
 const token = process.env.TELEGRAM_BOT_TOKEN;
-const rawChatId = String(process.env.TELEGRAM_CHANNEL_ID || '').trim();
-const chatId = rawChatId && !rawChatId.startsWith('@') && !/^-?\\d+$/.test(rawChatId)
-  ? `@${rawChatId}`
-  : rawChatId;
+export function normalizeTelegramChatId(value) {
+  const raw = String(value || '').trim();
+  return raw && !raw.startsWith('@') && !/^-?\d+$/.test(raw) ? `@${raw}` : raw;
+}
+const chatId = normalizeTelegramChatId(process.env.TELEGRAM_CHANNEL_ID);
 
 function stripHtml(value = '') {
   return String(value)
