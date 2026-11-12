@@ -1,0 +1,48 @@
+name: Recovery controlled R1 rearm
+on:
+  push:
+    branches: [codex/recovery-r1-rearm-20261112]
+    paths: [.github/workflows/recovery-controlled-r1-rearm.yml]
+permissions:
+  contents: write
+  actions: write
+jobs:
+  rearm:
+    if: >-
+      github.run_attempt == 1 && github.event.head_commit.message == 'ops: execute SHA-protected R1 rearm after production acceptance'
+    concurrency:
+      group: editorial-hourly-producer
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'UNSET' }}
+      SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' }}
+      LIVE_MODELS_WORKER_DEPLOY_ENABLED: ${{ vars.LIVE_MODELS_WORKER_DEPLOY_ENABLED || 'UNSET' }}
+      HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      STRIPCASH_POSTBACK_SECRET: ${{ secrets.STRIPCASH_POSTBACK_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify operational code is unchanged from tested parent
+        run: |
+          git diff --exit-code HEAD^ HEAD -- scripts
+          node --test scripts/test/recovery-r1-rearm.test.mjs
+          gh api /repos/heavenskybird/stripunion/actions/runs/43150106351 --jq '.conclusion == "success"' | grep -x true
+      - name: Fresh Gate A and frozen controls, with no mutation
+        run: node scripts/recovery-production-gate.mjs
+      - name: Gate B then one CAS rearm and scheduler enable, no dispatch
+        run: node scripts/recovery-r1-rearm.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: controlled-r1-rearm-${{ github.run_id }}
+          path: work/recovery/*.json
+          retention-days: 14
