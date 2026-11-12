@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "runId": "43145721117",
+  "startedAt": "2026-11-12T03:04:52Z",
+  "generatedAt": "2026-11-12T03:05:31.871Z",
+  "status": "degraded",
+  "sources": {
+    "gsc": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:04:54.758Z",
+      "snapshotDate": "2026-11-10",
+      "startDate": "2026-10-11",
+      "endDate": "2026-11-10",
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "gsc-blog": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:09.897Z",
+      "snapshotDate": "2026-11-10",
+      "startDate": "2026-10-11",
+      "endDate": "2026-11-10",
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "ga4": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:12.561Z",
+      "snapshotDate": "2026-11-11",
+      "startDate": "2026-10-12",
+      "endDate": "2026-11-11",
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "ga4-admin": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:13.519Z",
+      "snapshotDate": "2026-11-12",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": false
+    },
+    "clarity": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:15.503Z",
+      "snapshotDate": "2026-11-12",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "bing": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:26.829Z",
+      "snapshotDate": "2026-11-11",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "buffer": {
+      "status": "failed",
+      "outcome": "failure",
+      "collectedAt": "2026-11-04T07:34:18.108Z",
+      "snapshotDate": "2026-11-03",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": false,
+      "corruptSnapshotObserved": false,
+      "critical": false
+    },
+    "stripcash": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:30.339Z",
+      "snapshotDate": "2026-11-11",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "attribution": {
+      "status": "ok",
+      "outcome": "success",
+      "collectedAt": "2026-11-12T03:05:30.711Z",
+      "snapshotDate": "2026-11-11",
+      "startDate": null,
+      "endDate": null,
+      "currentRunSnapshot": true,
+      "corruptSnapshotObserved": false,
+      "critical": true
+    },
+    "bing-acceptance": {
+      "status": "ok",
+      "outcome": "success",
+      "critical": true
+    },
+    "blog-health": {
+      "status": "ok",
+      "outcome": "success",
+      "critical": true
+    }
+  }
+}
