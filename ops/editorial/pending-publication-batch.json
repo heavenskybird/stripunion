@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T04:01:16.312Z",
+  "generatedAt": "2026-11-12T07:08:40.245Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-managed-headset-policy-and-account-separation.json",
-    "ops/editorial/content-artifacts/adult-games-age-check-data-review-before-browsing.json",
-    "ops/editorial/content-artifacts/adult-shop-age-check-data-transparency-review.json",
-    "ops/editorial/content-artifacts/live-cam-platform-operator-and-access-verification.json",
-    "ops/editorial/content-artifacts/adult-dating-account-login-security-and-recovery-review.json"
+    "ops/editorial/content-artifacts/premium-video-session-expiry-preflight.json",
+    "ops/editorial/content-artifacts/adult-cam-site-safety-preflight.json",
+    "ops/editorial/content-artifacts/affiliate-conversion-status-lifecycle-review.json",
+    "ops/editorial/content-artifacts/creator-platform-multilingual-audience-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-animation-app-installation-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-managed-headset-policy-and-account-separation.js",
-    "src/data/guides/adult-games-age-check-data-review-before-browsing.js",
-    "src/data/guides/adult-shop-age-check-data-transparency-review.js",
-    "src/data/guides/live-cam-platform-operator-and-access-verification.js",
-    "src/data/guides/adult-dating-account-login-security-and-recovery-review.js"
+    "src/data/guides/premium-video-session-expiry-preflight.js",
+    "src/data/guides/adult-cam-site-safety-preflight.js",
+    "src/data/guides/affiliate-conversion-status-lifecycle-review.js",
+    "src/data/guides/creator-platform-multilingual-audience-fit-audit.js",
+    "src/data/guides/adult-animation-app-installation-preflight.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "live-cams",
-    "dating-hookups"
+    "premium-videos",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "creator-platforms",
+    "free-videos"
   ],
   "backlogIds": [
-    "vr-adult-managed-headset-policy-and-account-separation",
-    "adult-games-age-check-data-review-before-browsing",
-    "adult-shop-age-check-data-transparency-review",
-    "live-cam-platform-operator-and-access-verification",
-    "adult-dating-account-login-security-and-recovery-review"
+    "premium-video-session-expiry-preflight",
+    "adult-cam-site-safety-preflight",
+    "affiliate-conversion-status-lifecycle-review",
+    "creator-platform-multilingual-audience-fit-audit",
+    "adult-animation-app-installation-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "41254032304",
-  "phase": "closed"
+  "r1CycleId": "43172741943"
 }
