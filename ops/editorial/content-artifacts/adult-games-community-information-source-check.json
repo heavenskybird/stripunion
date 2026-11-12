@@ -1,0 +1,120 @@
+{
+  "backlogId": "adult-games-community-information-source-check",
+  "slug": "adult-games-community-information-source-check",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Communities: Check Whether Advice and Announcements Are Current",
+  "description": "A practical way to assess adult game community posts, distinguish official updates from user commentary, and verify whether advice still applies.",
+  "excerpt": "Community posts can help answer questions that a store listing cannot—but old guides, reposted announcements, and unclear authorship can mislead. Use this checklist to identify the source, date, scope, and limits of information before acting on it.",
+  "keyTakeaways": [
+    "Treat a community post as a lead, not proof, until you can identify its author, date, and subject.",
+    "Separate developer or publisher announcements from player interpretation, fan-maintained guides, and automated reposts.",
+    "Check whether advice refers to the current version, a specific storefront, or a particular operating environment.",
+    "Use spoiler controls and avoid copying sensitive account details into public troubleshooting threads.",
+    "When information conflicts, prefer the most direct, dated source and record what remains unverified."
+  ],
+  "sections": [
+    {
+      "heading": "Start by identifying what kind of post you are reading",
+      "paragraphs": [
+        "A community space can contain several kinds of information side by side: official release notes, developer replies, player guides, reviews, moderation notices, and links copied from elsewhere. These sources have different purposes and levels of authority. A player explaining a workaround may be describing one setup, while an official announcement may state the intended behavior without addressing every user's experience.",
+        "Before relying on a post, look for the author's role and the context in which it appeared. Check whether the author is clearly identified as a developer, moderator, publisher representative, or community member. A badge or username alone may not establish that a statement is official; look for a corresponding announcement or author profile connected to the project. If that link is absent, label the claim as unconfirmed rather than treating it as a commitment."
+      ],
+      "bullets": [
+        "Identify whether the post is an announcement, a guide, a personal report, or a discussion.",
+        "Check for a named author, a date, and a direct link to the information being summarized.",
+        "Do not assume that a repost or screenshot preserves the original context."
+      ]
+    },
+    {
+      "heading": "Check date, version, and scope before applying advice",
+      "paragraphs": [
+        "Community advice can become outdated when a game changes, a storefront changes its tools, or a third-party service is revised. A guide that worked for an earlier release may no longer match current menus or requirements. Look for a version number, update date, or explicit statement about the conditions under which the steps were checked. If the post lacks those details, its usefulness is uncertain even if it sounds confident.",
+        "Scope matters as much as age. A post may address one particular operating system, storefront edition, controller, or save setup. Do not generalize it to every copy of a game. If your situation differs, ask a narrow follow-up without sharing private information, or seek a source that explicitly addresses your configuration. Mark the scope in your own notes so you do not later mistake a one-person workaround for a universal rule."
+      ],
+      "table": {
+        "caption": "Quick checks for common community information",
+        "headers": [
+          "Information type",
+          "What to verify",
+          "Practical interpretation"
+        ],
+        "rows": [
+          [
+            "Release or update announcement",
+            "Author identity, date, and stated version",
+            "Use as a dated statement; check for later corrections."
+          ],
+          [
+            "Player guide",
+            "Environment, edition, and steps actually covered",
+            "Treat as a user-tested report, not a guarantee for every setup."
+          ],
+          [
+            "Troubleshooting reply",
+            "Whether the solution matches your exact issue",
+            "Try only applicable, reversible steps and protect account details."
+          ],
+          [
+            "Reposted image or quote",
+            "Original source and surrounding context",
+            "Do not rely on a clipped excerpt as the complete policy or update."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish confirmed updates from plans and speculation",
+      "paragraphs": [
+        "Community discussions often mix completed changes with proposals, hopes, and predictions. A developer saying that an idea is being considered is not the same as confirming a feature or release date. Likewise, a community poll shows expressed interest among participants, not a binding product decision. Read the wording closely: terms such as planned, exploring, testing, and released describe different levels of certainty.",
+        "When a decision depends on an announced change, look for a later statement confirming that it shipped and describing its availability. A planned update may be delayed, revised, or limited to a subset of users. Keep decisions reversible until the change is documented in a current source. For purchases or setup choices, avoid treating future promises as present capabilities unless the relevant details are already available and clear."
+      ],
+      "bullets": [
+        "Separate current behavior from proposed or anticipated behavior.",
+        "Check for follow-up posts that confirm whether a stated change was released.",
+        "Do not infer a deadline, feature, or commitment from informal discussion."
+      ]
+    },
+    {
+      "heading": "Use community questions without exposing private information",
+      "paragraphs": [
+        "Public troubleshooting can be useful, but a post may remain searchable or be copied beyond its original discussion. Describe the technical issue in general terms. Avoid including account email addresses, order records, payment details, private messages, unique recovery information, or screenshots that reveal notifications and unrelated tabs. If a support request requires identifying details, use the platform's documented private support route rather than a public thread.",
+        "Consider spoiler and content controls before opening or sharing a discussion. A title, preview image, or quoted passage may reveal narrative information even when the post itself is marked. If you want to ask for help without spoilers, say so plainly and keep the question focused on the relevant technical or purchasing issue. Respect the community's rules about tagging, quoting, and linking; a useful answer should not require exposing someone else's private conversation."
+      ]
+    },
+    {
+      "heading": "Resolve conflicting claims with a simple evidence record",
+      "paragraphs": [
+        "When posts disagree, compare their dates and sources before deciding that one is wrong. A more recent user report may describe a real exception, while an older official note may still accurately explain the intended policy. Record the exact question you need answered, the strongest source you found, its date and scope, and any unresolved point. This keeps a repeated claim from seeming more reliable merely because it appears in multiple copied posts.",
+        "For a decision with financial or account consequences, verify essential terms on the relevant storefront or official project page before acting. Community members may be sincere but cannot necessarily authorize a refund, guarantee future support, or resolve account access. If no authoritative answer is available, treat the uncertainty as part of the decision and avoid relying on the claim. This approach makes community participation more useful without asking any one post to prove more than it can."
+      ],
+      "bullets": [
+        "Write down the decision and the precise claim that affects it.",
+        "Save the original source and date, not only a screenshot or summary.",
+        "Mark unresolved claims as unknown and avoid turning them into assumptions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a developer reply in a community automatically an official commitment?",
+      "answer": "Not necessarily. Confirm the author's role and read the wording in context. A reply may describe a possibility, a current investigation, or an intention rather than a firm commitment. Look for a later, dated statement that confirms what actually changed."
+    },
+    {
+      "question": "How can I tell whether a community guide is still useful?",
+      "answer": "Check its last update, the game version and environment it covers, and whether recent replies report changes. If those details are missing, treat the guide as an unverified starting point. Avoid applying steps that could affect account access or files unless you understand their effect."
+    },
+    {
+      "question": "What should I leave out of a public help request?",
+      "answer": "Do not post passwords, recovery codes, payment details, order identifiers, private support messages, or screenshots that expose personal notifications or account information. Share only the minimum technical context needed, and use a documented private support channel for account-specific issues."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

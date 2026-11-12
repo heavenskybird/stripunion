@@ -1,0 +1,115 @@
+{
+  "backlogId": "vr-adult-platform-cross-device-stream-continuity-check",
+  "slug": "vr-adult-platform-cross-device-stream-continuity-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Stream Continuity When Switching Devices",
+  "description": "A checklist for testing how VR adult platforms handle playback when moving between a headset, computer, or browser, including resume behavior and account limits.",
+  "excerpt": "A platform that works in a headset may not carry the same playback state to another device. Check access routes, resume behavior, and account rules before relying on a device switch as a seamless handoff.",
+  "keyTakeaways": [
+    "Confirm that each device route is supported rather than assuming a shared account guarantees identical access.",
+    "Test whether a stream can resume on another device and note what position or quality is preserved.",
+    "Check whether simultaneous sessions or device limits affect a handoff.",
+    "Keep device-specific playback, app installation, and account authorization as separate compatibility questions.",
+    "Avoid leaving a signed-in account active on a shared or borrowed device."
+  ],
+  "sections": [
+    {
+      "heading": "Separate device access from playback continuity",
+      "paragraphs": [
+        "Being able to open a platform on two devices does not necessarily mean that playback state transfers between them. A headset browser, a desktop browser, and a dedicated app may have different interfaces or supported controls. First verify that each route is documented or available for your devices. Then test the separate question of whether a paused stream can be resumed elsewhere.",
+        "Make a small device map before committing: list the headset and any computer or phone you might use, the route you would use on each, and whether the same account is required. Record uncertainties rather than assuming compatibility from a general statement that a service is accessible on multiple devices. A platform may support more than one device category while still having route-specific requirements."
+      ],
+      "bullets": [
+        "List each device and its intended access route.",
+        "Check whether the route is supported for your specific headset or browser.",
+        "Treat sign-in, playback support, and progress synchronization as separate checks."
+      ]
+    },
+    {
+      "heading": "Test a handoff with a low-stakes playback session",
+      "paragraphs": [
+        "If a preview or other appropriate low-commitment content is available, start playback on one device, pause, and then check whether the second device can open the same item. Observe whether it resumes at the same point, starts from the beginning, or offers a choice. Note whether you were signed in on both devices and whether you used the same account. A test under different account conditions may produce a different result.",
+        "Keep the test limited to behavior you can observe without changing account settings or making an unwanted purchase. A short test does not prove that every title or format behaves identically. Record the title or sample, device pair, browser or app route, and date. If the platform does not expose a resume option, do not infer that a manual handoff is supported simply because the item opens on both devices."
+      ],
+      "table": {
+        "caption": "A simple cross-device handoff record",
+        "headers": [
+          "Check",
+          "Record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Access route",
+            "Device, browser or app, and account state",
+            "Different routes may have different support."
+          ],
+          [
+            "Resume point",
+            "Same position, beginning, manual choice, or unknown",
+            "Shows what continuity actually means in practice."
+          ],
+          [
+            "Session behavior",
+            "Whether the first device stays active or is signed out",
+            "May reveal device or simultaneous-session constraints."
+          ],
+          [
+            "Content scope",
+            "Preview or title tested and any format label",
+            "One test may not represent every library item."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check simultaneous-session and sign-in rules",
+      "paragraphs": [
+        "A handoff can fail because the first device still has an active session, even when the second device can sign in. Review terms or help information for simultaneous playback, device registration, and session limits. These rules are distinct from the number of devices on which an account can be installed or used. If the wording is unclear, ask support a narrow question before relying on a particular workflow.",
+        "When testing, avoid repeated sign-ins that could trigger account security checks or make access harder to recover. Keep the account email and recovery method current, and do not share credentials to make a handoff work. If you test on a borrowed device, sign out afterward and verify that the account is no longer active. A successful handoff is not worth leaving an account available to the next user."
+      ]
+    },
+    {
+      "heading": "Compare playback settings across headset and non-headset routes",
+      "paragraphs": [
+        "The same item may expose different controls depending on whether it is played in a headset, desktop browser, or another supported route. Compare only the settings that affect your routine: pause and resume, captions, seeking, orientation or display options, and quality controls where disclosed. Do not assume that a setting selected on one device automatically follows the account to another.",
+        "Write down whether a setting appears to be account-wide, device-specific, or unclear. For example, a preference that remains after closing one player might be stored by the browser rather than the platform account. This distinction matters when replacing a device, clearing browser data, or using a different access route. Avoid relying on an undocumented setting transfer if it is important to your setup."
+      ]
+    },
+    {
+      "heading": "Plan for interruptions and account privacy",
+      "paragraphs": [
+        "A practical continuity plan should include what you will do if playback stops, the headset battery runs low, or the second device does not restore the position. Check whether the player offers a manual resume option, whether progress can be noted privately, and how to exit the active session. Do not assume a stream will remain available indefinitely after an interruption; access rules and session state may vary.",
+        "Cross-device convenience can create additional exposure. Each signed-in device may retain a session, recent page, or locally stored data. Review which devices you use, avoid enabling persistent sign-in on shared hardware, and remove access from a device you no longer control using available account tools. These steps do not guarantee deletion of every service record, but they reduce the risk of leaving an account open on a device."
+      ],
+      "bullets": [
+        "Know how to pause and exit on each device before beginning.",
+        "Avoid persistent sign-in on borrowed or shared hardware.",
+        "After a device change, check account sessions and saved playback state."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a platform supports my headset and computer, will it sync my playback position?",
+      "answer": "Not automatically. Device support and progress synchronization are separate capabilities. Check the service's documentation and, where appropriate, test a handoff with a low-commitment session on the exact routes you intend to use."
+    },
+    {
+      "question": "Can I use the same account on two devices at once?",
+      "answer": "That depends on the platform's account and session terms. Check whether the rules distinguish registered devices from simultaneous playback. If the wording is unclear, ask support before depending on concurrent access."
+    },
+    {
+      "question": "What should I do after testing on a shared device?",
+      "answer": "Sign out of the platform, close relevant tabs or apps, and review available account-session controls. Also check the device's own browser or app data if you are authorized to manage it. Do not assume signing out removes every local record."
+    }
+  ],
+  "publishedAt": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

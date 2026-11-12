@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T07:08:40.245Z",
+  "generatedAt": "2026-11-12T08:52:55.200Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-session-expiry-preflight.json",
-    "ops/editorial/content-artifacts/adult-cam-site-safety-preflight.json",
-    "ops/editorial/content-artifacts/affiliate-conversion-status-lifecycle-review.json",
-    "ops/editorial/content-artifacts/creator-platform-multilingual-audience-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-animation-app-installation-preflight.json"
+    "ops/editorial/content-artifacts/adult-games-community-information-source-check.json",
+    "ops/editorial/content-artifacts/adult-shop-shared-device-browsing-privacy-check.json",
+    "ops/editorial/content-artifacts/adult-anime-streaming-playback-controls-evaluation.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-cross-device-stream-continuity-check.json",
+    "ops/editorial/content-artifacts/live-cam-off-platform-payment-request-safety-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-session-expiry-preflight.js",
-    "src/data/guides/adult-cam-site-safety-preflight.js",
-    "src/data/guides/affiliate-conversion-status-lifecycle-review.js",
-    "src/data/guides/creator-platform-multilingual-audience-fit-audit.js",
-    "src/data/guides/adult-animation-app-installation-preflight.js"
+    "src/data/guides/adult-games-community-information-source-check.js",
+    "src/data/guides/adult-shop-shared-device-browsing-privacy-check.js",
+    "src/data/guides/adult-anime-streaming-playback-controls-evaluation.js",
+    "src/data/guides/vr-adult-platform-cross-device-stream-continuity-check.js",
+    "src/data/guides/live-cam-off-platform-payment-request-safety-check.js"
   ],
   "categories": [
-    "premium-videos",
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "free-videos"
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "vr-ar",
+    "live-cams"
   ],
   "backlogIds": [
-    "premium-video-session-expiry-preflight",
-    "adult-cam-site-safety-preflight",
-    "affiliate-conversion-status-lifecycle-review",
-    "creator-platform-multilingual-audience-fit-audit",
-    "adult-animation-app-installation-preflight"
+    "adult-games-community-information-source-check",
+    "adult-shop-shared-device-browsing-privacy-check",
+    "adult-anime-streaming-playback-controls-evaluation",
+    "vr-adult-platform-cross-device-stream-continuity-check",
+    "live-cam-off-platform-payment-request-safety-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43172741943",
-  "phase": "closed"
+  "r1CycleId": "43186274604"
 }
