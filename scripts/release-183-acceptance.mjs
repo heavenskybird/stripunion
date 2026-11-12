@@ -1,7 +1,6 @@
 import fs from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import './recovery-readonly-evidence.mjs';
-import { guideFingerprints } from './publication-deployment.mjs';
 import { probeUrl, probeDeployment } from './check-live-publications.mjs';
 
 const report = JSON.parse(await fs.readFile('work/recovery/readonly-evidence.json', 'utf8'));
@@ -31,12 +30,17 @@ for (const sha of [...closures, head.sha]) {
   report.recoveryBatches.push({ closureSha: sha, cycleId: manifest.r1CycleId, guideFiles: manifest.guideFiles, backlogIds: manifest.backlogIds });
   for (const file of manifest.guideFiles) files.add(file);
 }
-const expected = await guideFingerprints([...files]);
+const expected = Object.fromEntries(await Promise.all([...files].map(async file => {
+  if (!/^src\/data\/guides\/[a-z0-9-]+\.js$/.test(file)) throw new Error('RELEASE_GUIDE_PATH_INVALID');
+  const blob = await github(`contents/${file}?ref=${head.sha}`);
+  return [file.split('/').pop().replace(/\.js$/, ''), createHash('sha256').update(Buffer.from(blob.content, 'base64')).digest('hex')];
+})));
 report.allRecovery = { count: files.size, expected,
   urls: await Promise.all(Object.keys(expected).map(slug => probeUrl(`https://stripunion.com/guides/${slug}`, 15_000))),
   deployment: await probeDeployment(expected, 15_000, fetch), ledger: [] };
 for (const slug of Object.keys(expected)) {
-  const row = JSON.parse(await fs.readFile(`ops/editorial/publication-ledger/astro/${slug}.json`, 'utf8'));
+  const blob = await github(`contents/ops/editorial/publication-ledger/astro/${slug}.json?ref=${head.sha}`);
+  const row = JSON.parse(Buffer.from(blob.content, 'base64').toString('utf8'));
   report.allRecovery.ledger.push({ slug, publishedAt: row.published_at, verifiedAt: row.verified_at,
     monotonic: Date.parse(row.verified_at) >= Date.parse(row.published_at) });
 }
