@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "kind": "buffer-request-budget",
+  "idempotency_key": "provider:buffer:request-budget:v1",
+  "windowStartedAt": 1794503308388,
+  "used": 0,
+  "day": "2026-11-12",
+  "dailyUsed": 0,
+  "blockedUntil": 1795590311000,
+  "providerRemaining30d": 0,
+  "providerEvidenceObservedAt": "2026-11-12T14:49:17+00:00",
+  "providerEvidenceSource": "https://github.com/heavenskybird/stripunion/issues/175",
+  "counterScope": "Local cooperating admissions since this new provisioning; not provider plan usage. Provider denial controls blockedUntil."
+}
