@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-13T00:15:00.555Z",
-  "sourceGeneratedAt": "2026-11-13T00:15:00.508Z",
+  "generatedAt": "2026-11-13T01:48:13.180Z",
+  "sourceGeneratedAt": "2026-11-13T01:48:13.133Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -43,7 +43,7 @@
     "safeCreateCount": 17,
     "updateCount": 11,
     "experimentCount": 0,
-    "totalDecisions": 32
+    "totalDecisions": 34
   },
   "decisions": [
     {
@@ -2542,10 +2542,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "complete guide to hamster com x",
+            "query": "xhamster#N##N#review",
             "impressions": 1,
             "clicks": 0,
-            "position": 10
+            "position": 7
           },
           {
             "source": "Bing",
@@ -2558,10 +2558,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster#N##N#review",
+            "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
-            "position": 7
+            "position": 10
           },
           {
             "source": "Bing",
@@ -2758,18 +2758,18 @@
           {
             "source": "Bing",
             "date": "/Date(1792108800000)/",
-            "query": "is xhamster a porn website?",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 6
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1792108800000)/",
             "query": "complete guide to hamster com x",
             "impressions": 1,
             "clicks": 0,
             "position": 9
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1792108800000)/",
+            "query": "is xhamster a porn website?",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 6
           },
           {
             "source": "Bing",
@@ -9576,6 +9576,46 @@
         "risk": "low",
         "experimentWindow": "14 days",
         "rank": 26
+      }
+    },
+    {
+      "id": "analytics:blog.stripunion.com",
+      "kind": "analytics",
+      "action": "OBSERVE",
+      "priority": 45,
+      "eligible": false,
+      "subject": "blog.stripunion.com",
+      "surface": null,
+      "risk": "low",
+      "confidence": "observed",
+      "rationale": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.",
+      "evidence": {
+        "host": "blog.stripunion.com",
+        "action": "OBSERVE",
+        "sessions": 14,
+        "affiliateClickEvents": 0,
+        "sourceCollectedAt": "2026-11-13T01:45:26.110Z",
+        "reason": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority."
+      }
+    },
+    {
+      "id": "analytics:stripunion.com",
+      "kind": "analytics",
+      "action": "OBSERVE",
+      "priority": 45,
+      "eligible": false,
+      "subject": "stripunion.com",
+      "surface": null,
+      "risk": "low",
+      "confidence": "observed",
+      "rationale": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.",
+      "evidence": {
+        "host": "stripunion.com",
+        "action": "OBSERVE",
+        "sessions": 8,
+        "affiliateClickEvents": 1,
+        "sourceCollectedAt": "2026-11-13T01:45:26.110Z",
+        "reason": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority."
       }
     },
     {
