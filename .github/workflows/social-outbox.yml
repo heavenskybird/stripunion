@@ -45,7 +45,20 @@ jobs:
         id: operator
         env:
           SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
         run: node scripts/social-outbox-admission.mjs
+
+      - name: Verify accepted isolated runtime before any event synchronization
+        if: steps.operator.outputs.send_enabled == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+        run: node scripts/social-outbox-runtime-preflight.mjs
 
       - name: Install dependencies
         if: steps.operator.outputs.send_enabled == 'true'
@@ -56,11 +69,14 @@ jobs:
         run: npm run social:outbox:sync
 
       - name: Reconcile historical Buffer deliveries
-        if: steps.operator.outputs.send_enabled == 'true'
+        if: steps.operator.outputs.send_enabled == 'true' && steps.operator.outputs.x_send_enabled == 'true'
         id: reconcile_buffer
         continue-on-error: true
         env:
           SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
           GH_TOKEN: ${{ github.token }}
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
@@ -73,15 +89,18 @@ jobs:
           BUFFER_RECONCILIATION_OUTCOME: ${{ steps.reconcile_buffer.outcome }}
           GH_TOKEN: ${{ github.token }}
           SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
-          SOCIAL_OUTBOX_BATCH_SIZE: '5'
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
+          SOCIAL_OUTBOX_TRIAL_EVENT_KEY: ${{ vars.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '' }}
+          SOCIAL_OUTBOX_BATCH_SIZE: ${{ vars.SOCIAL_OUTBOX_BATCH_SIZE || '1' }}
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
-          SOCIAL_OUTBOX_X_DAILY_CAP: '20'
+          SOCIAL_OUTBOX_X_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_X_DAILY_CAP || '20' }}
           SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES: '45'
-          SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: '100'
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-          BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+          SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP || '100' }}
+          BUFFER_API_KEY: ${{ steps.operator.outputs.x_send_enabled == 'true' && secrets.BUFFER_API_KEY || '' }}
+          BUFFER_CHANNEL_ID: ${{ steps.operator.outputs.x_send_enabled == 'true' && vars.BUFFER_CHANNEL_ID || '' }}
+          TELEGRAM_BOT_TOKEN: ${{ steps.operator.outputs.telegram_send_enabled == 'true' && secrets.TELEGRAM_BOT_TOKEN || '' }}
+          TELEGRAM_CHANNEL_ID: ${{ steps.operator.outputs.telegram_send_enabled == 'true' && vars.TELEGRAM_CHANNEL_ID || '' }}
         run: npm run social:outbox:worker
 
       - name: Report outbox state
@@ -114,7 +133,7 @@ jobs:
           exit 1
 
       - name: Retain visible reconciliation failure after safe channel processing
-        if: always() && steps.operator.outputs.send_enabled == 'true' && steps.reconcile_buffer.outcome == 'failure'
+        if: always() && steps.operator.outputs.send_enabled == 'true' && steps.operator.outputs.x_send_enabled == 'true' && steps.reconcile_buffer.outcome == 'failure'
         run: |
           echo "::error::Buffer reconciliation failed or is cooling down. X sends held; safe channel results were persisted."
           exit 1

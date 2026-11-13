@@ -1,0 +1,1059 @@
+{
+  "version": 1,
+  "readOnly": true,
+  "externalRequests": 0,
+  "stateChanges": 0,
+  "archiveCoverage": "PARTIAL_NOT_PROOF_OF_NONDELIVERY",
+  "latestArchiveCollectedAt": "2026-11-04T07:34:18.108Z",
+  "eventInventorySha256": "07ae023520d6d00adb5b8df264daf21dde61cef89d385dd7f6bb9bf27707194b",
+  "archivedUniqueBufferPosts": 339,
+  "unknownCount": 73,
+  "byChannel": {
+    "telegram": 45,
+    "x": 28
+  },
+  "byClassification": {
+    "NO_MATCH_IN_PARTIAL_ARCHIVE": 28,
+    "NO_PROVIDER_ARCHIVE": 45
+  },
+  "archiveFiles": [
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-25/buffer.json",
+      "sha256": "b85161d67084c5b2a5c73004289280adc89fd7473414a098fbc9ce73c2812700"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-26/buffer.json",
+      "sha256": "af9272da341f9e532fb085b277c534c36928722e340a9a7a184e3b598daa100f"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-27/buffer.json",
+      "sha256": "cd32f4e56d9cece949c7a782fb24e0f66fd6bc5c7a416ee62ee4c46753bbe934"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-28/buffer.json",
+      "sha256": "52b3bac6b58aeec4bf65118c5492155845d104f07e7aab3359d4130b85b6a4f6"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-29/buffer.json",
+      "sha256": "69ba3862d9e100b789e34c2ce044c7a39a8a6202ec855c70e9ea9eb4d2910f24"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-09-30/buffer.json",
+      "sha256": "5792de55d3518b255b0f6f083c66fcabfaac629e39ca3192d269577b2e63e7d2"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-01/buffer.json",
+      "sha256": "f973b5fdd8ee00d28eec27275bc8cff2d08e79c30d799bb0b3a20b8f2491d5d5"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-02/buffer.json",
+      "sha256": "942f7a238076587e8a61739466633c2a3b940e26216c3eddbe5e3d5afc78df24"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-03/buffer.json",
+      "sha256": "fc0450c7cb2f0c45b975e5c8a95a00af57ea58ecfce732fc4b0597b1f04d2e0f"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-04/buffer.json",
+      "sha256": "41a44ca2f6ac997a7fd056604103168050e76df91cba8cd4c06e169bde3db089"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-05/buffer.json",
+      "sha256": "940cb43f53b86e3554ddcf61534e081706ade2db0e48bdf5ae90d320a186ee92"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-06/buffer.json",
+      "sha256": "eb77879732704fdcea30943190d5645004d3b4809e86f43ea67dec0cd76bf7f3"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-07/buffer.json",
+      "sha256": "101230c915e57b6eadf2543bb73e66d0cb23ac9b619e1a7b3137a6d08dbdffad"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-08/buffer.json",
+      "sha256": "556656743468f44c416d95268cfd9b080b2657afea27052c4ace240c62501fd8"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-09/buffer.json",
+      "sha256": "1dd7eee9ad62233353e980d18f804bc4d4536a64b5bebf2f2c8d07674dc6b922"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-10/buffer.json",
+      "sha256": "2f0f7d6c900f210b28e00708ac890d818fa46543b92558bbdc56818e8f47dccd"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-11/buffer.json",
+      "sha256": "bcbc0c586b3e02aa671143fb0f46b960d57157922423d0f3b7c5409caef9a08c"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-12/buffer.json",
+      "sha256": "fd7ef516f5e134f1f22f66d71fd2d21b5916793ba53d8768b6d17245d3084aaf"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-13/buffer.json",
+      "sha256": "d18850b7af694ce59221ca8242b2a0245b74acaa4b55d7242c6a9838a6441fd0"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-14/buffer.json",
+      "sha256": "e459cb03d91ee6f98e391e9d26c6e6beec00209ef81bab34fd41b394f9074bc0"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-15/buffer.json",
+      "sha256": "d766d92e66e1f462267bccf0f44fed37d26864d31dc92a1cf4a1d73b284d1908"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-16/buffer.json",
+      "sha256": "6825fb38b04a6dcac2a66b7888ff36ff50cd186d48d70cb8ca64ab01272906df"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-17/buffer.json",
+      "sha256": "acfea9a38653707516c2a588dde0258499d013a0cd3242516ef0071e1208362f"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-18/buffer.json",
+      "sha256": "1a22ac66be0af1374e3fe945aec3fb31ee40f781d4d0c08863d5de0d5d4b888b"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-19/buffer.json",
+      "sha256": "cf68f9e9e5397f1a5bf9de3ade62c5da69aba044d45798093b8b4eae049f026d"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-20/buffer.json",
+      "sha256": "39f0657168abc5c6ea93f334516a8de29e0951c293e8d4b858556114f09182d1"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-21/buffer.json",
+      "sha256": "0322be93c4b2694d6e8cc26ef78d7082a3c442c3abe94cab708c6d31b588329c"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-22/buffer.json",
+      "sha256": "a9f43f1f5905948bfa69374ca27a1fd1b059f3029362693bf6d55a4ff8c0d3e3"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-23/buffer.json",
+      "sha256": "bd124928b66c3bad8825672af3755e22b5faded0f4fbe1dc281fc466241f0a1c"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-24/buffer.json",
+      "sha256": "14f9de86a15278f7c03b1ba34e4bec427e01d2aa5bab838e7b9430812de32aa1"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-25/buffer.json",
+      "sha256": "5345d8e590d65f39c27578e67ea405343b3ce3882a0522b676266be6bcd42223"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-26/buffer.json",
+      "sha256": "2aec48abce26665fbe6e30dde3ce84d59ed3e0aff256f55877f6e2a25f85d0f1"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-27/buffer.json",
+      "sha256": "a913898568ee0d2fde5467c87965a7d73c5a893983b93a908b3a9319bc20337c"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-28/buffer.json",
+      "sha256": "40824462d6dbd76603c5e801c06d2b82d5e2572b833d10656ec339d7daecf3c1"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-29/buffer.json",
+      "sha256": "0e61a62a2f7277744185bc26e15325970c343d4c3261c445f9752d750e874dde"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-30/buffer.json",
+      "sha256": "0fdb01ece2c1a94ed1ebd78463cda77ba974387ce1dab4e5d8fc6ed0668d0c7a"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-10-31/buffer.json",
+      "sha256": "2854843699e5405887be5a18caeccaddd73733bfa0dacb1530ae95a0cfec2f44"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-11-01/buffer.json",
+      "sha256": "fbe95eab75678647c623bd9e21a448114f2e8a98a0a5e6ded282d906f1447f20"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-11-02/buffer.json",
+      "sha256": "958be71f8b5504a100751f3b5aefd95e174d63c8ac733940ff151a38a48bee52"
+    },
+    {
+      "path": "ops/seo-data-layer/data/raw/2026-11-03/buffer.json",
+      "sha256": "e27401cb178b5b9cae2e504708642f78862a395e8de8dffe8fa4c162e2ed2d2f"
+    }
+  ],
+  "rows": [
+    {
+      "idempotencyKey": "astro:adult-affiliate-payout-reconciliation-workflow:telegram",
+      "channel": "telegram",
+      "slug": "adult-affiliate-payout-reconciliation-workflow",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-access-model-and-entitlement-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-access-model-and-entitlement-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-access-model-and-entitlement-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-access-model-and-entitlement-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-content-labels-and-source-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-content-labels-and-source-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-content-labels-and-source-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-content-labels-and-source-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-language-metadata-accessibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-language-metadata-accessibility-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-language-metadata-accessibility-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-language-metadata-accessibility-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-platform-series-completeness-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-platform-series-completeness-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-platform-series-completeness-checklist:x",
+      "channel": "x",
+      "slug": "adult-anime-platform-series-completeness-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-reader-navigation-mobile-usability:telegram",
+      "channel": "telegram",
+      "slug": "adult-anime-reader-navigation-mobile-usability",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-anime-reader-navigation-mobile-usability:x",
+      "channel": "x",
+      "slug": "adult-anime-reader-navigation-mobile-usability",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-build-source-provenance-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-build-source-provenance-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-build-source-provenance-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-build-source-provenance-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-community-participation-privacy-and-spoiler-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-community-participation-privacy-and-spoiler-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-community-participation-privacy-and-spoiler-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-community-participation-privacy-and-spoiler-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-content-warnings-and-narrative-fit-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-content-warnings-and-narrative-fit-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-content-warnings-and-narrative-fit-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-content-warnings-and-narrative-fit-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-demo-and-early-access-purchase-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-demo-and-early-access-purchase-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-demo-and-early-access-purchase-checklist:x",
+      "channel": "x",
+      "slug": "adult-game-demo-and-early-access-purchase-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-game-save-data-and-progress-portability-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-game-save-data-and-progress-portability-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-shop-gift-purchase-planning:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-gift-purchase-planning",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-shop-product-documentation-and-care-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-product-documentation-and-care-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-shop-product-listing-comparison-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-product-listing-comparison-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-shop-shipping-policy-comparison:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-shipping-policy-comparison",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-shop-total-cost-transparency-checklist:telegram",
+      "channel": "telegram",
+      "slug": "adult-shop-total-cost-transparency-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-site-account-data-minimization:telegram",
+      "channel": "telegram",
+      "slug": "adult-site-account-data-minimization",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:adult-site-account-data-minimization:x",
+      "channel": "x",
+      "slug": "adult-site-account-data-minimization",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-account-recovery-access-continuity:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-account-recovery-access-continuity",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-account-recovery-access-continuity:x",
+      "channel": "x",
+      "slug": "creator-platform-account-recovery-access-continuity",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-discovery-dependence-audit:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-discovery-dependence-audit",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-discovery-dependence-audit:x",
+      "channel": "x",
+      "slug": "creator-platform-discovery-dependence-audit",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-earnings-statement-recordkeeping-checklist:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-earnings-statement-recordkeeping-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-exit-content-portability-plan:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-exit-content-portability-plan",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-exit-content-portability-plan:x",
+      "channel": "x",
+      "slug": "creator-platform-exit-content-portability-plan",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-fan-tier-and-offer-planning:telegram",
+      "channel": "telegram",
+      "slug": "creator-platform-fan-tier-and-offer-planning",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:creator-platform-fan-tier-and-offer-planning:x",
+      "channel": "x",
+      "slug": "creator-platform-fan-tier-and-offer-planning",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-cancellation-account-closure-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-cancellation-account-closure-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-chat-to-first-meeting-plan:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-chat-to-first-meeting-plan",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-chat-to-first-meeting-plan:x",
+      "channel": "x",
+      "slug": "dating-platform-chat-to-first-meeting-plan",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-community-quality-assessment:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-community-quality-assessment",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-notification-and-inbox-privacy-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-notification-and-inbox-privacy-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-profile-authenticity-scam-checklist:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-profile-authenticity-scam-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-profile-authenticity-scam-checklist:x",
+      "channel": "x",
+      "slug": "dating-platform-profile-authenticity-scam-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-search-filter-practical-guide:telegram",
+      "channel": "telegram",
+      "slug": "dating-platform-search-filter-practical-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:dating-platform-search-filter-practical-guide:x",
+      "channel": "x",
+      "slug": "dating-platform-search-filter-practical-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-adult-video-accessibility-playback-controls-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-adult-video-accessibility-playback-controls-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-adult-video-accessibility-playback-controls-checklist:x",
+      "channel": "x",
+      "slug": "free-adult-video-accessibility-playback-controls-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-adult-video-moderation-and-discovery-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-adult-video-moderation-and-discovery-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-adult-video-moderation-and-discovery-checklist:x",
+      "channel": "x",
+      "slug": "free-adult-video-moderation-and-discovery-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-video-deceptive-buttons-redirect-safety-guide:telegram",
+      "channel": "telegram",
+      "slug": "free-video-deceptive-buttons-redirect-safety-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-video-deceptive-buttons-redirect-safety-guide:x",
+      "channel": "x",
+      "slug": "free-video-deceptive-buttons-redirect-safety-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-video-keyboard-screen-reader-usability-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-video-keyboard-screen-reader-usability-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-video-keyboard-screen-reader-usability-checklist:x",
+      "channel": "x",
+      "slug": "free-video-keyboard-screen-reader-usability-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:free-video-playback-and-ad-interruption-checklist:telegram",
+      "channel": "telegram",
+      "slug": "free-video-playback-and-ad-interruption-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-mobile-usability-comparison:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-mobile-usability-comparison",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-mobile-usability-comparison:x",
+      "channel": "x",
+      "slug": "live-cam-mobile-usability-comparison",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-platform-accessibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-platform-accessibility-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-platform-moderation-assessment:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-platform-moderation-assessment",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-platform-moderation-assessment:x",
+      "channel": "x",
+      "slug": "live-cam-platform-moderation-assessment",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-public-private-interaction-options-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-public-private-interaction-options-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-room-discovery-before-joining-guide:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-room-discovery-before-joining-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-room-discovery-before-joining-guide:x",
+      "channel": "x",
+      "slug": "live-cam-room-discovery-before-joining-guide",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-stream-connection-compatibility-checklist:telegram",
+      "channel": "telegram",
+      "slug": "live-cam-stream-connection-compatibility-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:live-cam-stream-connection-compatibility-checklist:x",
+      "channel": "x",
+      "slug": "live-cam-stream-connection-compatibility-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:premium-video-library-discovery-workflow:telegram",
+      "channel": "telegram",
+      "slug": "premium-video-library-discovery-workflow",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:premium-video-library-discovery-workflow:x",
+      "channel": "x",
+      "slug": "premium-video-library-discovery-workflow",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-library-discovery-workflow:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-library-discovery-workflow",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-library-discovery-workflow:x",
+      "channel": "x",
+      "slug": "vr-adult-library-discovery-workflow",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-platform-accessibility-and-comfort-checklist:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-accessibility-and-comfort-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-platform-accessibility-and-comfort-checklist:x",
+      "channel": "x",
+      "slug": "vr-adult-platform-accessibility-and-comfort-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_MATCH_IN_PARTIAL_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-platform-membership-vs-one-time-access:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-membership-vs-one-time-access",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-platform-preview-fit-checklist:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-preview-fit-checklist",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    },
+    {
+      "idempotencyKey": "astro:vr-adult-platform-trial-fit-scorecard:telegram",
+      "channel": "telegram",
+      "slug": "vr-adult-platform-trial-fit-scorecard",
+      "originalState": "reconcile_required",
+      "action": "QUARANTINE_NO_REPLAY",
+      "retryEligible": false,
+      "classification": "NO_PROVIDER_ARCHIVE",
+      "candidateProviderIds": [],
+      "proofLevel": "UNCONFIRMED",
+      "archiveAbsenceProvesNotSent": false
+    }
+  ]
+}
