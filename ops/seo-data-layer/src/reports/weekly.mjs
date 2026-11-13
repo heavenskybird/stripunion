@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { bingCrawlEvidence, bingDate } from '../lib/bing-crawl-evidence.mjs';
 import { freshSnapshot } from '../../../growth/snapshot-freshness.mjs';
 
 const packageRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -218,8 +219,9 @@ const summary = {
     clicks: sum(bingQueries, 'Clicks'), impressions: sum(bingQueries, 'Impressions'),
     siteCoverage: bingSiteCoverage,
     highImpressionZeroClickQueries: bingZeroClickQueries, highImpressionZeroClickPages: bingZeroClickPages,
-    crawlErrors: bingCrawl.map((row) => ({ site: row.site, date: row.Date, errors: Number(row.CrawlErrors || 0), http4xx: Number(row.Code4xx || 0), http5xx: Number(row.Code5xx || 0) })),
+    crawlErrors: bingCrawl.map((row) => ({ site: row.site, date: bingDate(row.Date), providerRawDate: row.Date, errors: Number(row.CrawlErrors || 0), http4xx: Number(row.Code4xx || 0), http5xx: Number(row.Code5xx || 0) })),
     crawlIssues: bingErrors,
+    crawlEvidence: bingSites.map(site => bingCrawlEvidence(site, bing?.data?.collectedAt)),
     indexChanges,
     backlinks: {
       targetPageCount: bingBacklinkPages.length,
@@ -380,11 +382,7 @@ const md = [
   ...(summary.bing.keywordResearch
     ? [`- Keyword intelligence: ${summary.bing.keywordResearch.seeds.length} seed(s) · ${summary.bing.keywordResearch.relatedKeywordRows} related-keyword rows · locale ${summary.bing.keywordResearch.country}/${summary.bing.keywordResearch.language}.`]
     : ['- Keyword intelligence: no snapshot available yet.']),
-  ...Object.values(bingCrawl.reduce((latest, row) => {
-    const date = String(row.Date || '');
-    if (!latest[row.site] || date > String(latest[row.site].Date || '')) latest[row.site] = row;
-    return latest;
-  }, {})).map((row) => `- ${row.site}: latest ${row.CrawlErrors || 0} crawl errors; ${row.InIndex ?? 'unknown'} indexed`), '',
+  ...summary.bing.crawlEvidence.map(row => `- ${row.site}: provider data as of ${row.providerDataAsOf || 'UNKNOWN'} (${row.ageDays ?? 'UNKNOWN'} days old); aggregate crawl errors ${row.aggregateCrawlErrors ?? 'UNKNOWN'}; indexed ${row.indexedPages ?? 'UNKNOWN'}; HTTP 4xx/5xx ${row.http4xx ?? 'UNKNOWN'}/${row.http5xx ?? 'UNKNOWN'}; URL details ${row.issueDetailStatus} (${row.issueUrls ?? 'UNKNOWN'}). Collected ${row.collectedAt || 'UNKNOWN'}. Historical counts do not identify current broken URLs.`), '',
   '## Acquisition Snapshot', `- GA4 combined: **${summary.ga4.sessions}** sessions · **${summary.ga4.engagedSessions}** engaged (${pct(summary.ga4.engagementRate)}) · affiliate_click **${affiliateClicks}** · revenue ${summary.ga4.revenue || 'not connected'}.`, '',
   '## Distribution Detail', buffer ? `- Buffer/X: ${sentPosts.length} sent · ${scheduledPosts.length} scheduled · ${summary.buffer.impressions} impressions · ${summary.buffer.clicks} clicks (snapshot ${buffer.date}).` : `- Buffer/X: UNAVAILABLE (${bufferStatus}); historical snapshot retained.`,
   ...highPerformingPosts.slice(0, 3).map((post) => `- Post ${post.id || '(unknown id)'}: ${post.metrics?.impressions ?? 'n/a'} impressions, ${post.metrics?.clicks ?? 'n/a'} clicks`), ''

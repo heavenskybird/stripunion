@@ -1,0 +1,15 @@
+{
+  "decision": "UPDATE_EXISTING_BLOG",
+  "postId": 122,
+  "slug": "live-cam-site-safety",
+  "expectedStatus": "publish",
+  "expectedModifiedGmt": "2026-10-03T04:06:04",
+  "expectedSourceSha256": "6e5f93920e70a9903cca656bc08245161c9559a43b62506858f4bd984dcfaf51",
+  "draftSha256": "a54348f327212ba59283ff127d550a4f6b3db89b949c5610ee5b8eb2ecdb6b24",
+  "wordCount": 746,
+  "preservedAffiliateLinks": 1,
+  "reviewStatus": "TRUSTED_REVIEW_REQUIRED",
+  "publishAuthorized": false,
+  "executable": false,
+  "reason": "Existing published search landing page; do not create a duplicate URL or use create-only Publisher."
+}

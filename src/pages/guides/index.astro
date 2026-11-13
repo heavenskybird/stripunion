@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchIntentNavigation from '../../components/SearchIntentNavigation.astro';
 import { guides } from '../../lib/guides.js';
 ---
 <BaseLayout
@@ -16,6 +17,7 @@ import { guides } from '../../lib/guides.js';
   </section>
 
   <section class="section shell">
+    <SearchIntentNavigation />
     <div class="section-head">
       <span class="kicker">Latest guides</span>
       <h2>Broader coverage than a single adult niche</h2>
