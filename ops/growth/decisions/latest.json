@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-13T02:09:08.935Z",
-  "sourceGeneratedAt": "2026-11-13T02:09:08.872Z",
+  "generatedAt": "2026-11-13T08:11:14.800Z",
+  "sourceGeneratedAt": "2026-11-13T08:11:14.755Z",
   "objective": "maximize durable traffic, affiliate conversion and attributable revenue without lowering editorial or policy quality",
   "governor": {
     "authorityMode": "shadow",
@@ -2542,10 +2542,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "xhamster#N##N#review",
+            "query": "https+thefapguide+com+review+xhamster",
             "impressions": 1,
             "clicks": 0,
-            "position": 7
+            "position": 10
           },
           {
             "source": "Bing",
@@ -2558,10 +2558,10 @@
           {
             "source": "Bing",
             "date": "/Date(1784851200000)/",
-            "query": "https+thefapguide+com+review+xhamster",
+            "query": "xhamster#N##N#review",
             "impressions": 1,
             "clicks": 0,
-            "position": 10
+            "position": 7
           },
           {
             "source": "Bing",
@@ -2694,14 +2694,6 @@
           {
             "source": "Bing",
             "date": "/Date(1789689600000)/",
-            "query": "xhamster reviews",
-            "impressions": 1,
-            "clicks": 0,
-            "position": 8
-          },
-          {
-            "source": "Bing",
-            "date": "/Date(1789689600000)/",
             "query": "xhamter.com review",
             "impressions": 1,
             "clicks": 0,
@@ -2714,6 +2706,14 @@
             "impressions": 1,
             "clicks": 0,
             "position": 5
+          },
+          {
+            "source": "Bing",
+            "date": "/Date(1789689600000)/",
+            "query": "xhamster reviews",
+            "impressions": 1,
+            "clicks": 0,
+            "position": 8
           },
           {
             "source": "Bing",
@@ -9594,7 +9594,7 @@
         "action": "OBSERVE",
         "sessions": 14,
         "affiliateClickEvents": 0,
-        "sourceCollectedAt": "2026-11-13T02:06:30.073Z",
+        "sourceCollectedAt": "2026-11-13T08:08:25.114Z",
         "reason": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority."
       }
     },
@@ -9614,7 +9614,7 @@
         "action": "OBSERVE",
         "sessions": 8,
         "affiliateClickEvents": 1,
-        "sourceCollectedAt": "2026-11-13T02:06:30.073Z",
+        "sourceCollectedAt": "2026-11-13T08:08:25.114Z",
         "reason": "Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority."
       }
     },
