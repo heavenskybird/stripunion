@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "kind": "non-executable-existing-blog-enhancement-proposal",
+  "decision": "UPDATE_EXISTING_BLOG",
+  "target": {
+    "postId": 110,
+    "slug": "are-live-cam-sites-free",
+    "url": "https://blog.stripunion.com/are-live-cam-sites-free/"
+  },
+  "intent": "free-viewing-versus-paid-feature-decision",
+  "demand": {
+    "source": "official-blog-gsc",
+    "queries": [
+      "is stripchat free",
+      "do you have to pay for those"
+    ],
+    "note": "Observed query-to-existing-page evidence; never infer a need for a duplicate URL."
+  },
+  "source": {
+    "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+    "checkedDate": "2026-11-13",
+    "primary": true
+  },
+  "proposedHeading": "Read the conditions behind a free offer",
+  "proposedSectionHtml": "<h2>Read the conditions behind a free offer</h2><p>Separate the action you want to take from the word free on a landing page. Write down whether you are evaluating browsing, an account feature, a credit purchase or an optional subscription. Then check the provider's current feature description for that specific action. Do not assume that access to one part of a website establishes the price or conditions of every other feature.</p><h3>Questions to resolve before entering payment details</h3><ul><li>What exactly does the displayed offer include, and which optional actions require a separate purchase?</li><li>Is the payment one-time, or does the offer describe a trial or recurring charge?</li><li>If a promotion ends, where are the later amount, timing and cancellation instructions explained?</li><li>Can you find the provider's official account and support instructions without following an unsolicited message?</li></ul><p>The FTC's consumer guidance advises reading trial and renewal conditions and checking how cancellation works before providing payment details. It describes general consumer risks; it does not verify the terms of a particular adult platform. Prices, eligible features and local payment conditions should therefore be checked directly with the provider at the time of use.</p><p>For context, compare the existing StripUnion pricing and platform guides, then return to the official provider information before deciding. No amount or universal free-feature promise is quoted here. Keep commercial links and their existing disclosures distinct from the explanation, and do not present an optional affiliate alternative as an official download or account requirement. Adults18+ only.</p>",
+  "contentSha256": "4c67af559c5d1b23dbf8e8a2a7bdda9c6ac6c90faa452f7b4b49462b04fa1c0a",
+  "reviewStatus": "TRUSTED_REVIEW_REQUIRED",
+  "publishAuthorized": false,
+  "publishEnabled": false,
+  "remainingGates": [
+    "Fresh authenticated full inventory",
+    "Read actual current post content/modified version; preserve all affiliate links",
+    "Review exact assembled article and bind target post ID + before/after hash",
+    "Separately review idempotent existing-post update path; create-only publisher must not run this proposal",
+    "Trusted operator publication authorization and CAS intent before any WordPress mutation",
+    "HTTP200/canonical/sitemap and ledger closure; no new duplicate slug"
+  ]
+}

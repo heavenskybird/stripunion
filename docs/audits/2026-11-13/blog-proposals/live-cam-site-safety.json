@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "kind": "non-executable-existing-blog-enhancement-proposal",
+  "decision": "UPDATE_EXISTING_BLOG",
+  "target": {
+    "postId": 122,
+    "slug": "live-cam-site-safety",
+    "url": "https://blog.stripunion.com/live-cam-site-safety/"
+  },
+  "intent": "camera-and-microphone-permission-safety",
+  "demand": {
+    "source": "official-blog-gsc",
+    "queries": [
+      "are cam sites safe",
+      "is cam to cam safe",
+      "are cam sites discreet"
+    ],
+    "note": "Observed query-to-existing-page evidence; never infer a need for a duplicate URL."
+  },
+  "source": {
+    "url": "https://support.google.com/chrome/answer/2693767",
+    "checkedDate": "2026-11-13",
+    "primary": true
+  },
+  "proposedHeading": "Separate browser permissions from platform privacy",
+  "proposedSectionHtml": "<h2>Separate browser permissions from platform privacy</h2><p>Before using a camera-based feature, check the browser's camera and microphone permissions separately. A browser permission is a device-access choice; it is not a general certificate that a platform or another person is trustworthy. Review what you intend to share before granting access, and avoid enabling features you do not plan to use.</p><p>Chrome's official help explains how to review allowed and blocked sites under Privacy and security, Site settings, and Camera or Microphone. The available controls can depend on the device and browser version. On a managed work or school device, an administrator may control these settings. Use the current instructions for your own device rather than assuming a screenshot from another browser applies.</p><h3>A practical session checklist</h3><ul><li>Before starting, review the requested device permissions and the identity visible in your account or profile.</li><li>During the session, keep private documents, notifications and other people outside anything you choose to share.</li><li>Afterward, review permissions you no longer need and use the platform's own account and privacy controls where relevant.</li></ul><p>Revoking a browser permission does not establish what happened to information previously shared. For account retention, reporting and deletion questions, check the platform's current official policies. This checklist is for adults18+ and does not replace those policies or promise anonymity.</p>",
+  "contentSha256": "05a070308993f20a39b8b36c1d80d45c86569a8056e446f38423c4e1d2a16be6",
+  "reviewStatus": "TRUSTED_REVIEW_REQUIRED",
+  "publishAuthorized": false,
+  "publishEnabled": false,
+  "remainingGates": [
+    "Fresh authenticated full inventory",
+    "Read actual current post content/modified version; preserve all affiliate links",
+    "Review exact assembled article and bind target post ID + before/after hash",
+    "Separately review idempotent existing-post update path; create-only publisher must not run this proposal",
+    "Trusted operator publication authorization and CAS intent before any WordPress mutation",
+    "HTTP200/canonical/sitemap and ledger closure; no new duplicate slug"
+  ]
+}
