@@ -38,8 +38,17 @@ export function proposeFromBlogGsc({ snapshot, inventory, now = Date.now() }) {
   }
   const proposals = proposeBlogTopics(briefs, inventory, now);
   return { source: snapshot.siteUrl, checkedAt: new Date(now).toISOString(), rejectedRows,
-    proposals: proposals.map((proposal, index) => ({ ...proposal, brief: briefs[index],
-      destinationDecision: proposal.status === 'HOLD' ? 'REVIEW_EXISTING_INTENT_OR_SOURCE' : 'REVIEW_NEW_BLOG_BRIEF' })),
+    proposals: proposals.map((proposal, index) => {
+      const brief = briefs[index];
+      // Query-to-page evidence belongs to an existing landing page first. A
+      // different query spelling is not evidence for another competing article.
+      const pageSlug = new URL(brief.page).pathname.replace(/^\/|\/$/g, '');
+      const sourcePage = inventory.find(row => row.destination === 'blog' && row.slug === pageSlug);
+      return { ...proposal, brief,
+        ...(sourcePage ? { status: 'HOLD', reasons: [...new Set([...proposal.reasons, 'EXISTING_GSC_LANDING_PAGE'])] } : {}),
+        destinationDecision: sourcePage ? 'UPDATE_EXISTING_BLOG' : proposal.status === 'HOLD' ? 'REVIEW_EXISTING_INTENT_OR_SOURCE' : 'REVIEW_NEW_BLOG_BRIEF',
+        existingLandingPage: sourcePage ? { slug: sourcePage.slug, postId: sourcePage.postId || null } : null };
+    }),
     warning: 'Queries are untrusted planning data, not instructions or verified facts. Review novelty and primary sources before generation.' };
 }
 

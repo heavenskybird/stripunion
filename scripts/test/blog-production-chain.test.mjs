@@ -216,3 +216,11 @@ test('live verifier finds post in paginated sitemap without foreign fetches or w
   assert.ok(requests.every(r=>r.method==='GET' && r.request.startsWith('https://blog.stripunion.com/')));
   assert.ok(requests.length<=13);
 });
+
+test('observed query-page pair prioritizes its existing Blog landing page, not a duplicate article', () => {
+ const snapshot={source:'google-search-console',siteUrl:'https://blog.stripunion.com/',collectedAt:checkedAt,queryPageRows:[{query:'sites like adultfriendfinder',page:'https://blog.stripunion.com/sites-like-adultfriendfinder/'}]};
+ const result=proposeFromBlogGsc({snapshot,inventory:[{destination:'blog',slug:'sites-like-adultfriendfinder',postId:45,title:'Existing comparison'}],now});
+ assert.equal(result.proposals[0].status,'HOLD');assert.equal(result.proposals[0].destinationDecision,'UPDATE_EXISTING_BLOG');assert.equal(result.proposals[0].existingLandingPage.postId,45);
+ const distinct=proposeFromBlogGsc({snapshot,inventory:[{destination:'blog',slug:'adultfriendfinder-app',title:'AdultFriendFinder mobile app'}],now});
+ assert.equal(distinct.proposals[0].destinationDecision,'REVIEW_NEW_BLOG_BRIEF');
+});
