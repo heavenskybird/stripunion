@@ -2,5 +2,7 @@
   "phase": "pre",
   "releaseNumber": 191,
   "authorization": "Standing Telegram-only per Issue175; global stillfalse until gates",
-  "knownRecoveryGuideCount": 70
+  "knownRecoveryGuideCount": 70,
+  "recheckAt": "2026-11-13T01:39:45Z",
+  "preflightScope": "default-off Blog186 infrastructure and Telegram191 source release, no activation"
 }
