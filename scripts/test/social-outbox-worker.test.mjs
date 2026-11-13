@@ -28,6 +28,7 @@ async function scenario(rows, extra={}) {
    calls++;bufferCalls++;await save();
    return Response.json({data:{createPost:{post:{id:'provider-test',dueAt:body.variables.input.dueAt,status:'scheduled'}}}});
   }
+  if(url.hostname==='stripunion.com'||url.hostname==='www.stripunion.com')return new Response('<link rel="canonical" href="'+url.origin+url.pathname+'">');
   if(url.hostname==='api.telegram.org'){
    calls++;telegramCalls++;await save();
    if(process.env.TEST_TELEGRAM_PROVIDER_FAILURE==='true')throw Error('Mock provider timeout after possible acceptance');

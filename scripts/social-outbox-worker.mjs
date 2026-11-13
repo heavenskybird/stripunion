@@ -4,7 +4,7 @@ import path from 'node:path';
 import { createBufferPost } from '../ops/seo-data-layer/src/distribution/buffer.mjs';
 import { publishTelegramEvent } from '../ops/seo-data-layer/src/distribution/telegram.mjs';
 import {buildTelegramText} from '../ops/seo-data-layer/src/distribution/telegram.mjs';
-import {REGISTRY_ID,contentIdentity,manualEntries,contentConflict,registryEntries,reserveContent,confirmContent,validateTelegramPolicy} from './telegram-autonomy-policy.mjs';
+import {REGISTRY_ID,canonicalSocialUrl,contentIdentity,manualEntries,contentConflict,registryEntries,reserveContent,confirmContent,validateTelegramPolicy} from './telegram-autonomy-policy.mjs';
 import { socialChannelSwitches } from './social-channel-switches.mjs';
 
 const outboxDir = 'ops/social-outbox/events';
@@ -187,6 +187,9 @@ for (const { file, event } of candidates) {
     identity=contentIdentity(event);
     const age=Date.now()-Date.parse(event.selection_checked_at);
     if (!Number.isFinite(age)||age<0||age>policy.selectionMaxAgeHours*3600000||contentConflict(identity,historicalContent)) {deferredByCadence++;continue;}
+    const target=await fetch(event.url,{redirect:'manual',signal:AbortSignal.timeout(15000)});
+    const targetHtml=await target.text();const targetCanonical=targetHtml.match(/rel="canonical" href="([^"]+)"/)?.[1];
+    if(target.status!==200||!targetCanonical||canonicalSocialUrl(targetCanonical)!==identity.url||/noindex/i.test(target.headers.get('x-robots-tag')||'')||/name="robots" content="[^"]*noindex/.test(targetHtml)){deferredByCadence++;continue;}
     const priorBudget=await journal({idempotency_key:'social-delivery-budget:telegram'});
     const old=priorBudget.state;
     if(old && ((old.days?.[today]||0)>=effectiveTelegramCap || Date.now()-old.lastAttemptedAt<policy.minIntervalMinutes*60000)){deferredByCadence++;continue;}
