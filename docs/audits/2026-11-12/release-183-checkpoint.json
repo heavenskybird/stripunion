@@ -1,5 +1,12 @@
 {
-  "phase": "pre",
-  "releaseNumber": 190,
-  "expectedCandidateHead": "ea2159f5c1b6f52ac3c4f92d9920202f7ebb9061"
+  "phase": "post",
+  "releaseNumber": 184,
+  "expectedMergeSha": "74a4181a3905700f3d64e9f10264d37ca5ecf75d",
+  "rollbackBuild": {
+    "id": "01a1d227-8dd9-70cf-b421-af7996155f86",
+    "state": "completed",
+    "createdAt": "2026-11-12T23:46:10Z",
+    "sha": null
+  },
+  "preflightRunId": "43333786464"
 }
