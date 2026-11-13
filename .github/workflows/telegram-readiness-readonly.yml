@@ -1,7 +1,7 @@
 name: Telegram read-only channel acceptance
 on:
   push:
-    branches: [codex/recovery-c-channel-runtime]
+    branches: [codex/recovery-c-channel-runtime, codex/telegram-autonomy-20261113]
     paths: [scripts/telegram-readiness-readonly.mjs, .github/workflows/telegram-readiness-readonly.yml]
 permissions:
   contents: read

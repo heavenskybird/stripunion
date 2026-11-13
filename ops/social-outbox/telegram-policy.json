@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "channel": "@StripUnion",
+  "maxDaily": 3,
+  "minIntervalMinutes": 240,
+  "selectionMaxAgeHours": 48,
+  "manualSuppressions": [{
+    "state": "MANUAL_ALREADY_SENT_UNVERIFIED_PROVIDER_ID",
+    "url": "https://stripunion.com/stripchat-app/",
+    "topic": "stripchat-mobile-app",
+    "text": "Stripchat on mobile: browser access, home-screen shortcuts, and what to check before installing an app. Independent guide for adults 18+.",
+    "reportedLocalDate": "2026-11-13",
+    "timezone": "Asia/Shanghai",
+    "publishedAt": null,
+    "providerMessageId": null,
+    "provenance": "Operator statement in Issue175 2026-11-13; exact provider receipt UNKNOWN"
+  }]
+}

@@ -31,7 +31,7 @@ async function scenario(rows, extra={}) {
   if(url.hostname==='api.telegram.org'){
    calls++;telegramCalls++;await save();
    if(process.env.TEST_TELEGRAM_PROVIDER_FAILURE==='true')throw Error('Mock provider timeout after possible acceptance');
-   return Response.json({ok:true,result:{message_id:calls}});
+   return Response.json({ok:true,result:{message_id:calls,chat:{username:'StripUnion'}}});
   }
   throw Error('Unexpected request blocked by test');
  };`);
@@ -153,4 +153,17 @@ test('exact one-new-event trial selector cannot send older pending or unknown en
  assert.equal(r.error,null);assert.equal(r.telegramCalls,1);assert.equal(r.bufferCalls,0);assert.deepEqual(r.after[0],rows[0]);assert.equal(r.after[1].state,'delivered');assert.deepEqual(r.after[2],rows[2]);
  const next=await scenario(r.after,{SOCIAL_OUTBOX_X_SEND_ENABLED:'false',SOCIAL_OUTBOX_TRIAL_EVENT_KEY:'test:1',SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP:'1',SOCIAL_OUTBOX_BATCH_SIZE:'1'});assert.equal(next.calls,0);
  const missing=await scenario(rows,{SOCIAL_OUTBOX_TRIAL_EVENT_KEY:'absent:approved'});assert.equal(missing.calls,0);assert.deepEqual(missing.after,rows);
+});
+
+test('autonomous worker suppresses manual URL and historic unknown, spaces distinct new posts with zero Buffer calls',async()=>{
+ const selected=(i,title,url)=>({...event(i),title,url,selection_source:'official-search-demand',selection_checked_at:new Date().toISOString()});
+ const manual=selected(301,'Stripchat mobile browser shortcut guide','https://www.stripunion.com/stripchat-app/?utm_source=other');
+ const unknown={...event(302,'reconcile_required'),url:'https://stripunion.com/livejasmin/',title:'LiveJasmin private rooms and credit model'};
+ const copy=selected(303,'LiveJasmin private rooms and credit model','https://stripunion.com/livejasmin/');
+ const fresh=selected(304,'Chaturbate alternatives compared by public room and private interaction','https://stripunion.com/chaturbate-alternatives/');
+ const later=selected(305,'xHamster platform category and browsing alternatives','https://stripunion.com/xhamster/');
+ const result=await scenario([manual,unknown,copy,fresh,later],{TELEGRAM_AUTONOMY_ENABLED:'true',TELEGRAM_CHANNEL_ID:'@StripUnion',SOCIAL_OUTBOX_X_SEND_ENABLED:'false'});
+ assert.equal(result.error,null);assert.equal(result.telegramCalls,1,result.stdout+JSON.stringify(result.after.slice(3)));assert.equal(result.bufferCalls,0);
+ assert.deepEqual(result.after[1],unknown);assert.equal(result.after[0].state,'pending');assert.equal(result.after[2].state,'pending');assert.equal(result.after[4].state,'pending');
+ assert.equal(result.after[3].state,'delivered');assert.equal(result.after[3].delivery_evidence.provider_message_url,'https://t.me/StripUnion/1');assert.match(result.after[3].delivery_evidence.content_hash,/^[a-f0-9]{64}$/);
 });
