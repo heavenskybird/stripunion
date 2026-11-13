@@ -44,8 +44,10 @@ const expected = Object.fromEntries(await Promise.all([...files].map(async file 
   const blob = await github(`contents/${file}?ref=${head.sha}`);
   return [file.split('/').pop().replace(/\.js$/, ''), createHash('sha256').update(Buffer.from(blob.content, 'base64')).digest('hex')];
 })));
+const boundedUrls=[];const recoverySlugs=Object.keys(expected);
+for(let offset=0;offset<recoverySlugs.length;offset+=8)boundedUrls.push(...await Promise.all(recoverySlugs.slice(offset,offset+8).map(slug=>probeUrl(`https://stripunion.com/guides/${slug}`,15_000))));
 report.allRecovery = { count: files.size, expected,
-  urls: await Promise.all(Object.keys(expected).map(slug => probeUrl(`https://stripunion.com/guides/${slug}`, 15_000))),
+  urls: boundedUrls,
   deployment: await probeDeployment(expected, 15_000, fetch), ledger: [] };
 for (const slug of Object.keys(expected)) {
   const blob = await github(`contents/ops/editorial/publication-ledger/astro/${slug}.json?ref=${head.sha}`);
