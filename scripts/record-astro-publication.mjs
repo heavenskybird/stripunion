@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { searchCanonical } from '../src/config/search-canonical.mjs';
 import { pathToFileURL } from 'node:url';
 
 const guideFile = process.argv[2];
@@ -43,7 +44,7 @@ const entry = {
   url: `https://stripunion.com/guides/${guide.slug}`,
   published_at: existing?.published_at || now,
   verified_at: now,
-  canonical_expected: `https://stripunion.com/guides/${guide.slug}`,
+  canonical_expected: `https://stripunion.com${searchCanonical(`/guides/${guide.slug}`)}`,
   indexable_expected: true,
   distribution_state: distributionState,
   source: 'github_editorial'
