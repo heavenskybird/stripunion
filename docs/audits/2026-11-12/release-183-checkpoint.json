@@ -1,8 +1,14 @@
 {
-  "phase": "pre",
+  "phase": "post",
   "releaseNumber": 191,
-  "authorization": "Standing Telegram-only per Issue175; global stillfalse until gates",
-  "knownRecoveryGuideCount": 70,
-  "recheckAt": "2026-11-13T01:39:45Z",
-  "preflightScope": "default-off Blog186 infrastructure and Telegram191 source release, no activation"
+  "expectedMergeSha": "96c4947d1fa711925f502e4c7f72aae16ee1f5c5",
+  "rollbackBuild": {
+    "id": "01a1d262-cc3f-71a3-a77a-70faf5f1c9b2",
+    "state": "completed",
+    "createdAt": "2026-11-13T00:50:52Z",
+    "sha": null
+  },
+  "preflightRunId": "43346617793",
+  "preflightReceiptSha": "fee195bf4077f9ae9796ef9f888e9c3f0d5fa137",
+  "note": "Source deployed with sender stillpaused; standing Telegram authorization does not fabricate variable access."
 }
