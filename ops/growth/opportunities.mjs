@@ -740,6 +740,7 @@ const result = {
     rows: keywordExpansion
   },
   authorityOpportunities,
+  analyticsRecommendations: (ga4?.data?.funnel||[]).map(row=>({host:row.host,action:row.sessions===null?'MEASUREMENT_REVIEW':row.sessions>=20&&row.affiliateClickEvents===0?'REVIEW_EXISTING_CTA':'OBSERVE',sessions:row.sessions,affiliateClickEvents:row.affiliateClickEvents,sourceCollectedAt:ga4?.data?.collectedAt,reason:'Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.'})),
   ctaOpportunities,
   behaviorOpportunities,
   opportunities,

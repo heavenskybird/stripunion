@@ -4,6 +4,9 @@ on:
     branches: [codex/search-first-growth-20261112, codex/index-recovery-20261113, codex/telegram-autonomy-20261113]
   pull_request:
     paths: [src/components/SearchIntentNavigation.astro, scripts/search-growth-decisions.mjs]
+concurrency:
+  group: official-growth-evidence-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
