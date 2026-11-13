@@ -30,6 +30,15 @@ for (const sha of [...closures, head.sha]) {
   report.recoveryBatches.push({ closureSha: sha, cycleId: manifest.r1CycleId, guideFiles: manifest.guideFiles, backlogIds: manifest.backlogIds });
   for (const file of manifest.guideFiles) files.add(file);
 }
+// Include every recovery ledger on the checked-out canonical main, not only a
+// stale hard-coded list of historical manifests plus the latest batch.
+for (const name of (await fs.readdir('ops/editorial/publication-ledger/astro')).filter(n=>n.endsWith('.json'))) {
+  const row=JSON.parse(await fs.readFile('ops/editorial/publication-ledger/astro/'+name,'utf8'));
+  if (Date.parse(row.published_at)>=Date.parse('2026-11-12T03:56:44Z')) {
+    if (!/^[a-z0-9-]+$/.test(row.slug)) throw new Error('RECOVERY_LEDGER_SLUG_INVALID');
+    files.add('src/data/guides/'+row.slug+'.js');
+  }
+}
 const expected = Object.fromEntries(await Promise.all([...files].map(async file => {
   if (!/^src\/data\/guides\/[a-z0-9-]+\.js$/.test(file)) throw new Error('RELEASE_GUIDE_PATH_INVALID');
   const blob = await github(`contents/${file}?ref=${head.sha}`);
@@ -85,7 +94,7 @@ report.gates = {
   productionBuildComplete: report.hostinger.mainFound && report.hostinger.canonicalRepository && report.hostinger.branch === 'main' && report.hostinger.latestBuild?.state === 'completed',
   productionHtml: main?.status===200 && main.finalHost==='stripunion.com' && main.ga4MeasurementIds.includes('G-K57BRX69X1') && main.gtagScriptPresent && main.consentDefaultDenied && main.clarityPresent && main.canonical==='https://stripunion.com/',
   robotsSitemap: robots?.status===200 && robots.blocksAll===false && sitemap?.status===200 && sitemap.validXml,
-  recoveryGuides: files.size===report.recoveryBatches.length*5 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
+  recoveryGuides: files.size>=report.recoveryBatches.length*5 && files.size%5===0 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
 };
 report.mainHtmlSha256 = main?.htmlSha256 || null;
 report.phase = checkpoint?.phase || 'pre';
