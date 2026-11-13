@@ -8,5 +8,6 @@
     "createdAt": "2026-11-12T23:46:10Z",
     "sha": null
   },
-  "preflightRunId": "43333786464"
+  "preflightRunId": "43333786464",
+  "recheckReason": "First read correctly held: SEO snapshot commit started a newer Hostinger build between wait and evidence. Refresh actual state; do not reuse a green earlier build."
 }
