@@ -1,7 +1,7 @@
 name: Search growth official evidence
 on:
   push:
-    branches: [codex/search-first-growth-20261112]
+    branches: [codex/search-first-growth-20261112, codex/index-recovery-20261113]
   pull_request:
     paths: [src/components/SearchIntentNavigation.astro, scripts/search-growth-decisions.mjs]
 permissions:
