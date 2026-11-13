@@ -96,6 +96,21 @@ report.gates = {
   robotsSitemap: robots?.status===200 && robots.blocksAll===false && sitemap?.status===200 && sitemap.validXml,
   recoveryGuides: files.size>=report.recoveryBatches.length*5 && files.size%5===0 && report.allRecovery.urls.every(p=>p.status===200) && report.allRecovery.deployment.ok && report.allRecovery.ledger.every(r=>r.monotonic)
 };
+if (checkpoint?.phase === 'post' && checkpoint.releaseNumber === 190) {
+  const sitemapXml=await (await fetch('https://stripunion.com/sitemap.xml',{signal:AbortSignal.timeout(20000)})).text();
+  report.guideDiscoveryChecks=[];
+  const slugs=Object.keys(expected);
+  for(let offset=0;offset<slugs.length;offset+=8) {
+    const batch=await Promise.all(slugs.slice(offset,offset+8).map(async slug=>{
+      const url='https://stripunion.com/guides/'+slug+'/';
+      const response=await fetch(url,{redirect:'manual',signal:AbortSignal.timeout(20000)});
+      const html=await response.text();
+      return {slug,status:response.status,canonicalMatched:html.includes('rel="canonical" href="'+url+'"'),schemaMatched:html.includes('"@id":"'+url+'"'),sitemapMatched:sitemapXml.includes('<loc>'+url+'</loc><lastmod>'),htmlSha256:createHash('sha256').update(html).digest('hex')};
+    }));
+    report.guideDiscoveryChecks.push(...batch);
+  }
+  report.gates.guideDiscovery=report.guideDiscoveryChecks.length===files.size && report.guideDiscoveryChecks.every(x=>x.status===200&&x.canonicalMatched&&x.schemaMatched&&x.sitemapMatched);
+}
 report.mainHtmlSha256 = main?.htmlSha256 || null;
 report.phase = checkpoint?.phase || 'pre';
 report.releaseNumber = checkpoint?.releaseNumber || 183;
@@ -137,4 +152,5 @@ const required = report.phase === 'post'
   : Object.keys(report.gates);
 if (report.phase === 'post' && report.releaseNumber === 182) required.push('consentReleaseMarker');
 if (report.phase === 'post' && report.releaseNumber === 189) required.push('searchHubs','hubSitemap');
+if (report.phase === 'post' && report.releaseNumber === 190) required.push('guideDiscovery');
 if (!required.every(k => report.gates[k] === true)) process.exitCode=1;
