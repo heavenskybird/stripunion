@@ -26,7 +26,7 @@ async function reconcile(events,result){
  };`);
  const snapshot=path.join(dir,'snapshot.json');let error=null;
  try{
-  try{execFileSync(process.execPath,['--import',preload,script],{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe'],env:{...process.env,BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',GITHUB_REPOSITORY:'heavenskybird/stripunion',GH_TOKEN:'test-only',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot}});}catch(e){error=e;}
+  try{execFileSync(process.execPath,['--import',preload,script],{cwd:dir,encoding:'utf8',stdio:['pipe','pipe','pipe'],env:{...process.env,BUFFER_API_KEY:'test-only',BUFFER_CHANNEL_ID:'test',SOCIAL_OUTBOX_SEND_ENABLED:'true',SOCIAL_OUTBOX_X_SEND_ENABLED:'true',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',GITHUB_REPOSITORY:'heavenskybird/stripunion',GITHUB_REF:'refs/heads/main',GITHUB_WORKFLOW:'Native social outbox',GITHUB_RUN_ATTEMPT:'1',GH_TOKEN:'test-only',SOCIAL_OUTBOX_RECONCILIATION_FILE:snapshot}});}catch(e){error=e;}
   return{error,events:await Promise.all(events.map((_,i)=>fs.readFile(path.join(out,`${i}.json`),'utf8').then(JSON.parse))),snapshot:await fs.stat(snapshot).then(()=>true).catch(()=>false)};
  }finally{await fs.rm(dir,{recursive:true,force:true});}
 }

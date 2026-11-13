@@ -20,11 +20,11 @@ export async function reserveBufferRequest(store, now = Date.now(), { daily = 12
   await store.write({ ...state, used: state.used + 1, dailyUsed: state.dailyUsed + 1 });
 }
 
-export async function budgetedBufferFetch(url, options, { store, fetchImpl = fetch, now = Date.now } = {}) {
+export async function budgetedBufferFetch(url, options, { store, fetchImpl = fetch, now = Date.now, purpose = 'delivery' } = {}) {
   store ||= await journal({ idempotency_key: identity });
   await reserveBufferRequest(store, now(), {
-    daily: Number(process.env.BUFFER_REQUEST_DAILY_BUDGET ?? 12),
-    monthly: Number(process.env.BUFFER_REQUEST_30D_BUDGET ?? 30)
+    daily: Math.min(Number(process.env.BUFFER_REQUEST_DAILY_BUDGET ?? 12), purpose === 'analytics' ? 6 : 12),
+    monthly: Math.min(Number(process.env.BUFFER_REQUEST_30D_BUDGET ?? 30), purpose === 'analytics' ? 20 : 100)
   });
   const response = await fetchImpl(url, { ...options, signal: options?.signal || AbortSignal.timeout(15_000) });
   // A quota denial stops all cooperating callers. No retries and no paid upgrade.
@@ -41,9 +41,9 @@ export async function budgetedBufferFetch(url, options, { store, fetchImpl = fet
   return response;
 }
 
-export function bufferFetch(url, options) {
+export function bufferFetch(url, options, policy = {}) {
   // No unbudgeted fallback before cutover: a missing accepted runtime holds reads
   // as well as writes. Other sources/channels continue independently.
   if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED !== 'true') throw new Error('BUFFER_RUNTIME_NOT_ACCEPTED; no provider request made.');
-  return budgetedBufferFetch(url, options);
+  return budgetedBufferFetch(url, options, policy);
 }

@@ -2,6 +2,7 @@ import { bufferFetch } from './buffer-request-budget.mjs';
 import { journal, confirmProviderReceipt } from './social-outbox-safety.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { socialChannelSwitches, assertNativeChannel } from './social-channel-switches.mjs';
 
 const apiKey = process.env.BUFFER_API_KEY;
 const channelId = process.env.BUFFER_CHANNEL_ID;
@@ -59,6 +60,14 @@ if (process.argv.includes('--self-test')) {
   await selfTest();
   process.exit(0);
 }
+
+// Telegram-only operation must not spend even one Buffer read request.
+const channels = socialChannelSwitches();
+if (!channels.x) {
+  console.log('SOCIAL_OUTBOX_BUFFER_RECONCILE_PAUSED ' + JSON.stringify({ state: channels.globalEnabled ? 'X_DISABLED_BY_OPERATOR' : 'PAUSED_BY_OPERATOR', providerRequests: 0 }));
+  process.exit(0);
+}
+assertNativeChannel('x');
 
 if (!apiKey || !channelId) {
   console.log('SOCIAL_OUTBOX_BUFFER_RECONCILE_SKIP missing BUFFER_API_KEY or BUFFER_CHANNEL_ID');
