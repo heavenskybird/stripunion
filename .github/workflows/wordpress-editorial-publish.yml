@@ -24,7 +24,7 @@ jobs:
   publish:
     # New content must use the review-bound chain; legacy queue entries cannot
     # become active simply by enabling this flag (publisher also binds a hash).
-    if: vars.BLOG_PUBLISH_ENABLED == 'true'
+    if: ${{ false }} # Retired: reviewed native chain is the sole publisher.
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

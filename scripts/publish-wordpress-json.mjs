@@ -337,7 +337,10 @@ if (featuredMedia && featuredMedia !== post.featured_media) {
   post = updated.data;
 }
 
-const yoast = await tryYoastMeta(post.id, payload.seo || {});
+// Return the proven create receipt before any optional post-publication write.
+const yoast = process.env.BLOG_CREATE_ONLY === 'true'
+  ? { attempted: false, writable: false, reason: 'reviewed_create_only_no_secondary_mutation' }
+  : await tryYoastMeta(post.id, payload.seo || {});
 
 const result = {
   ok: true,
