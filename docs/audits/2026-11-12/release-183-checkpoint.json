@@ -1,13 +1,6 @@
 {
-  "phase": "post",
-  "releaseNumber": 190,
-  "expectedMergeSha": "83e670df3c30c62ecb90fd07eedbdcdaea779ce6",
-  "rollbackBuild": {
-    "id": "01a1d23c-c326-70e4-ac4e-17cc256db2b0",
-    "state": "completed",
-    "createdAt": "2026-11-13T00:09:19Z",
-    "sha": null
-  },
-  "preflightRunId": "43334946067",
-  "preflightReceiptSha": "d70d809ed20af60eb7a2823ee5176663a17a85cf"
+  "phase": "pre",
+  "releaseNumber": 191,
+  "authorization": "Standing Telegram-only per Issue175; global stillfalse until gates",
+  "knownRecoveryGuideCount": 70
 }
