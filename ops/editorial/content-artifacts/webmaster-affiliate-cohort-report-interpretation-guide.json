@@ -1,0 +1,130 @@
+{
+  "backlogId": "webmaster-affiliate-cohort-report-interpretation-guide",
+  "slug": "webmaster-affiliate-cohort-report-interpretation-guide",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reports: Compare Campaign Cohorts Without Overreading Early Results",
+  "description": "A webmaster guide to grouping affiliate campaign results consistently, accounting for reporting delays and attribution limits, and making cautious decisions from incomplete cohort data.",
+  "excerpt": "A report can look persuasive while mixing different launch dates, sources, and conversion windows. Use a consistent cohort method to compare campaigns, document uncertainty, and avoid turning incomplete attribution into a performance claim.",
+  "keyTakeaways": [
+    "Define a cohort using a consistent starting event, such as the date a campaign or landing page first went live.",
+    "Keep traffic source, landing-page version, geography, and campaign period distinct when those differences could affect interpretation.",
+    "Allow for the program’s stated conversion and reporting delays before treating an early cohort as final.",
+    "Do not assume tracked conversions equal incremental impact, unique people, or settled commissions.",
+    "Preserve the definitions and caveats beside each export so later comparisons use the same rules."
+  ],
+  "sections": [
+    {
+      "heading": "Why cohort comparisons need consistent definitions",
+      "paragraphs": [
+        "A campaign cohort is a group of activity defined by a shared time or event, such as visitors arriving during a specified launch period. The method can help a webmaster compare campaigns over time, but it is easy to create a misleading comparison by mixing different sources or measurement rules. One campaign may have had more time to mature, use a different landing page, or be reported under a different attribution window. A neat table does not remove those differences.",
+        "Start by writing down what enters the cohort and what outcome you intend to examine. A click cohort can group referral clicks by date; a landing-page cohort can group visitors exposed to a page version; a conversion cohort can group reported outcomes by the date the program assigns. These are not interchangeable. Use the program’s documented definitions where available, and record uncertainty where definitions are unclear. This is operational analysis, not proof of causation."
+      ],
+      "table": {
+        "caption": "Keep campaign cohorts comparable",
+        "headers": [
+          "Dimension",
+          "Record consistently",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Cohort start",
+            "Click date, launch date, or another explicit event",
+            "Different starting events create different comparison groups"
+          ],
+          [
+            "Traffic source",
+            "Channel and campaign label",
+            "Mixed sources can hide materially different visitor intent"
+          ],
+          [
+            "Destination",
+            "Landing-page URL and version",
+            "Page changes can affect what visitors see"
+          ],
+          [
+            "Measurement period",
+            "Start, end, and reporting date",
+            "Unequal observation periods can distort early comparisons"
+          ],
+          [
+            "Outcome definition",
+            "Program-defined event and status",
+            "A reported event may not mean a settled or incremental outcome"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a cohort sheet before reviewing results",
+      "paragraphs": [
+        "Use a simple spreadsheet or reporting system with a stable set of fields: cohort identifier, start and end dates, source, campaign label, destination, page version, the program’s event definition, export date, and any known reporting delay. Include a notes field for changes to the offer, link, creative, or traffic mix. Keep the schema small enough that you can maintain it; a detailed file that is inconsistently completed is less useful than a modest, repeatable record.",
+        "Avoid putting personal information into campaign tags or sub-identifiers. Use neutral labels that identify the campaign without encoding email addresses, account names, or other visitor data. If you use several affiliate programs, preserve each program’s separate event and attribution definitions instead of forcing them into a single assumed standard. Keep original exports in a controlled location and record when you downloaded them, because a later dashboard view may not match an earlier snapshot."
+      ],
+      "bullets": [
+        "Choose a consistent naming pattern before launching a campaign.",
+        "Record landing-page changes and traffic-source changes on the date they occur.",
+        "Keep the program’s definitions alongside the data, not only in memory."
+      ]
+    },
+    {
+      "heading": "Allow for reporting delay and status changes",
+      "paragraphs": [
+        "Affiliate reports may update after the date activity occurred, and reported events may move through statuses. Before comparing cohorts, find the program’s documented reporting timing and status meanings. If those are not clear, ask the program contact for the definitions and retain the response. Do not treat a recent cohort as complete merely because a dashboard currently shows a number; the observation window may still be open and later adjustments may occur.",
+        "Use a consistent maturity rule for comparisons. For example, compare each cohort only after the same elapsed observation period, if the available reporting terms support that approach. If that is not possible, label the newest group as preliminary and keep it out of conclusions that depend on complete outcomes. Do not invent a standard delay or assume every program updates reports in the same way. The relevant timing is the one documented for the program and event you are analyzing."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Separate attribution from incremental effect",
+      "paragraphs": [
+        "A tracked conversion is a recorded event attributed under a program’s rules. It does not, by itself, establish that the referral caused an otherwise absent purchase, represent a unique person, or equal an amount that will ultimately be paid. The visitor may have encountered other marketing, used another device, or interacted with other referrals. Tracking can also be affected by consent choices, browser behavior, and technical limitations. A cohort comparison describes the data you have; it does not answer every causal question.",
+        "When making an operational decision, keep the statement proportionate to the evidence. You might say that one labeled cohort had more program-reported events during a defined observation period, subject to the listed status and attribution caveats. Avoid turning that into a guaranteed return, a forecast, or a claim about typical results. If you need to assess incremental impact, use a separately designed measurement approach with suitable controls, rather than treating dashboard attribution as a causal test."
+      ],
+      "bullets": [
+        "Use the program’s event and status definitions verbatim in internal notes.",
+        "Label preliminary, adjusted, or unsettled data clearly.",
+        "Do not present attributed events as guaranteed earnings or causal proof."
+      ]
+    },
+    {
+      "heading": "Make a comparison that supports a real decision",
+      "paragraphs": [
+        "A cohort report is most useful when linked to a specific operational question: did a page revision change the path visitors take, did a permitted traffic source produce reportable activity, or did a technical change coincide with a tracking shift? Keep the question narrow. Compare groups that are similar in date range, source, destination, and measurement maturity, and flag differences that remain. If several variables changed at once, the report may show a change but not identify its cause.",
+        "Before acting, check tracking implementation and destination behavior, confirm that the traffic source was permitted, and reconcile the report period with its time zone and date boundaries. If results appear inconsistent, document the discrepancy and seek clarification before scaling. Keep an audit trail of the cohort definition, query or export, interpretation, and decision. This makes later reviews more useful and helps prevent a changing definition from making an old comparison appear stronger than it was."
+      ],
+      "bullets": [
+        "Write the decision question before choosing comparison groups.",
+        "Show observation dates and caveats with any chart or summary.",
+        "Revisit the analysis when later data changes the interpretation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a cohort based on click date the same as one based on conversion date?",
+      "answer": "No. A click-date cohort groups referrals by when the click occurred, while a conversion-date cohort groups reported outcomes by the date assigned to the outcome. A conversion may occur after the original click. State which date defines the cohort and use that definition consistently."
+    },
+    {
+      "question": "How long should I wait before comparing affiliate cohorts?",
+      "answer": "Use the program’s documented reporting and conversion timing for the relevant event. If the timing is not documented, ask for clarification and mark recent results as preliminary rather than inventing a universal waiting period."
+    },
+    {
+      "question": "Can a campaign cohort prove that my affiliate traffic caused sales?",
+      "answer": "No. A cohort comparison can describe program-reported activity under attribution rules, but it does not by itself establish incremental causation. A causal question requires a separate measurement design suited to that purpose."
+    },
+    {
+      "question": "What should I do if a dashboard changes older results?",
+      "answer": "Save dated exports where permitted, note the export date and report definitions, and compare the changed values with the program’s status and adjustment documentation. Ask for an explanation when the change affects a business decision, and preserve the response with the relevant cohort record."
+    }
+  ],
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

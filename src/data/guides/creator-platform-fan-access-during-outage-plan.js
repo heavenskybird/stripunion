@@ -1,0 +1,123 @@
+export default {
+  "slug": "creator-platform-fan-access-during-outage-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Plan for Fan Access During a Service Outage",
+  "description": "A practical continuity plan for creators: identify what fans may be unable to access during a platform outage, prepare clear updates, and avoid promising recovery timelines you cannot control.",
+  "excerpt": "A service interruption can disrupt access even when a creator has prepared content and communicated a schedule. Map which parts of your fan experience depend on the platform, then prepare a calm, accurate response plan.",
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "keyTakeaways": [
+    "Separate platform functions that may be affected, such as profile access, paid posts, messaging, and account controls.",
+    "Use only communication channels you are permitted to use and can access independently of the affected service.",
+    "Prepare a short status message that distinguishes confirmed facts from assumptions and avoids unsupported restoration estimates.",
+    "Keep an independent, appropriately secured archive of your own work and operational records, subject to applicable rights and platform terms.",
+    "After service resumes, verify access and outstanding questions before telling fans that every issue is resolved."
+  ],
+  "sections": [
+    {
+      "heading": "Map the parts of your service that depend on the platform",
+      "paragraphs": [
+        "A service outage is not just a website that will not load. It can affect separate parts of a creator business in different ways: a public profile may be unavailable while payment records remain accessible, or a post may load while messaging or account controls do not. The details vary by service and incident. A continuity plan begins by listing the functions fans rely on and the operational tasks you need to perform, without assuming that every interruption has the same cause or duration.",
+        "Make a simple dependency map before there is a problem. Include publishing, access to existing posts, membership management, fan communication, payout and statement access, and support contact routes. Note which functions are controlled by the platform and which records or communication channels you can reach independently. Do not treat another channel as an automatic substitute: platform rules, privacy expectations, and the audience’s consent still apply."
+      ],
+      "table": {
+        "caption": "A basic creator continuity map",
+        "headers": [
+          "Function",
+          "Dependency to identify",
+          "Question for your plan"
+        ],
+        "rows": [
+          [
+            "Published content",
+            "Platform access and account status",
+            "Can fans reach existing material if the service is unavailable?"
+          ],
+          [
+            "Membership access",
+            "Platform entitlement and billing records",
+            "What can you verify before answering an access question?"
+          ],
+          [
+            "Fan communication",
+            "Platform inbox or an allowed independent channel",
+            "Which channel may you use without exposing private contact details?"
+          ],
+          [
+            "Business records",
+            "Statements, receipts, and saved documentation",
+            "What essential records are available outside the service?"
+          ],
+          [
+            "Support escalation",
+            "Platform help or incident channel",
+            "Where can you check official updates and submit a report?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Prepare a message that stays accurate under uncertainty",
+      "paragraphs": [
+        "An outage often creates pressure to reassure people quickly. A useful update is factual and modest: identify the part of the service you have observed is unavailable, say whether you are checking for an official notice, and explain when you expect to provide another update if you can commit to that check-in. Do not claim that a platform has confirmed a cause or recovery time unless you have reliable confirmation. Do not invent a workaround or imply that a fan should pay again to restore access.",
+        "Draft a brief template in advance, but leave incident-specific details blank. For example: “I’m aware that [specific function] is currently unavailable to me. I’m checking the platform’s status and will share an update when I have verified information. Please avoid sending payment details in messages.” Tailor it to the facts, the rules of your communication channel, and your normal audience boundaries. A small, clear statement can reduce confusion without creating promises you cannot keep."
+      ],
+      "bullets": [
+        "State what you personally observed, not what you cannot verify.",
+        "Do not ask fans to share passwords, full card details, or private account screenshots.",
+        "Do not promise a refund, replacement access, or outage duration unless you have authority and accurate terms."
+      ]
+    },
+    {
+      "heading": "Choose a communication route before you need it",
+      "paragraphs": [
+        "If the main platform is unavailable, an update posted only on that platform may not reach people. Consider in advance whether you have an independent channel that is permitted by platform rules and appropriate for your audience. That could be a public status page or an opted-in communication channel, but the right choice depends on your actual setup and permissions. Do not scrape or export fan contact details to build a backup mailing list without a valid basis and clear consent.",
+        "Keep the message low in personal data. A public update should not reveal a fan’s membership status, private message, account name, or payment issue. If a fan contacts you through another channel, redirect sensitive account questions to the platform’s official support route where appropriate. A creator can explain what they know and set expectations, but may not be able to inspect or change a platform-controlled account or transaction."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Protect records and content without creating a second risk",
+      "paragraphs": [
+        "Maintain a secure archive of original materials and essential business records where you have the right to retain them. Keep access limited, use strong account protection, and choose storage that fits the sensitivity of the material. An archive can help you preserve your own work and document operational history, but it does not mean you may republish content elsewhere or ignore platform agreements, collaborator permissions, or other rights.",
+        "For an outage response, save only evidence that is useful: dates and times, the text of an official notice, relevant support correspondence, and a concise list of functions you could not access. Avoid collecting more fan data than necessary. If a screenshot includes personal information, store it securely and redact unnecessary details before sharing it. Keep operational records separate from public updates and do not post private correspondence as proof unless you have considered the privacy and rights implications."
+      ],
+      "bullets": [
+        "Keep creator-owned archives separate from fan account data.",
+        "Restrict access to sensitive records and review who can reach them.",
+        "Preserve official notices and support responses without publishing private details."
+      ]
+    },
+    {
+      "heading": "Verify recovery before closing the incident",
+      "paragraphs": [
+        "When service appears to return, check the relevant functions rather than relying on the home page alone. Confirm whether you can access your account, whether published material appears as expected, and whether the fan-facing functions that caused concern are working for you. A creator’s view may differ from a fan’s view, so avoid claiming that every account is restored unless you can substantiate that statement.",
+        "Close the loop with a brief update distinguishing what is confirmed from what remains unresolved. If an individual fan still has an access or billing issue, direct them to an appropriate support process and respond within your normal boundaries. Record any recurring operational gap and revise the plan afterward. The purpose is not to guarantee uninterrupted service; it is to make communication and recordkeeping more dependable when a platform-controlled function is interrupted."
+      ],
+      "bullets": [
+        "Check official incident updates before describing the cause or resolution.",
+        "Do not ask fans to repurchase access as an improvised fix.",
+        "Review what worked and update the plan after the incident."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I promise fans a specific time when access will return?",
+      "answer": "Only if you have reliable, current information and authority to make that commitment. Otherwise, describe what you know, identify what remains unconfirmed, and give a realistic time for your next update rather than a recovery estimate."
+    },
+    {
+      "question": "Should I move fan conversations to a personal messaging account during an outage?",
+      "answer": "Do not assume that moving conversations is allowed or appropriate. Check platform rules, respect each person’s consent and privacy, and avoid exposing personal contact details. For account, access, or payment problems, an official support route may be more appropriate."
+    },
+    {
+      "question": "What records are useful to keep during an outage?",
+      "answer": "Keep a concise incident timeline, relevant official notices, support correspondence, and notes about which functions were unavailable to you. Store records securely, minimize personal data, and avoid publishing screenshots that expose fan information."
+    },
+    {
+      "question": "Does an independent content archive let me repost content elsewhere?",
+      "answer": "No. Keeping a secure copy for continuity does not itself grant permission to republish. Review applicable platform terms, ownership and licensing rights, and any collaborator permissions before moving or reusing material."
+    }
+  ]
+};
