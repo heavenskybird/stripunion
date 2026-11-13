@@ -61,7 +61,7 @@ export async function deliverOnce(event, send, store, now = Date.now()) {
   if (store.state) return { held: true, receipt: store.state };
   // Legacy retryable attempts may already exist at the provider.
   if (Number(event.attempt_count || 0) > 0) return { held: true };
-  const receipt = { version: 1, idempotency_key: event.idempotency_key, status: 'reconcile_required', attempted_at: new Date(now).toISOString() };
+  const receipt = { version: 1, idempotency_key: event.idempotency_key, status: 'reconcile_required', attempted_at: new Date(now).toISOString(), ...(event.expected_delivery_evidence?{evidence:event.expected_delivery_evidence}:{}) };
   // CAS must succeed remotely BEFORE the irreversible provider call.
   await store.write(receipt);
   let result;

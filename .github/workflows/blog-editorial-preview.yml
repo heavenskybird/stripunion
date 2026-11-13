@@ -1,0 +1,94 @@
+name: Blog editorial reviewed preview
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Prepare artifacts by default; publish requires separate operator flag and exact review
+        type: choice
+        options: [prepare, publish, reconcile]
+        default: prepare
+      brief_path:
+        description: Reviewed proposal brief JSON in the repository (outside live WordPress queue)
+        required: false
+        type: string
+      draft_path:
+        description: Provider draft JSON in the repository (outside live WordPress queue)
+        required: false
+        type: string
+      inventory_path:
+        description: Fresh complete precomputed read-only inventory snapshot for prepare
+        required: false
+        type: string
+      artifact_path:
+        description: Exact reviewed draft artifact wrapper JSON (publish mode)
+        required: false
+        type: string
+      review_path:
+        description: Reviewer approval bound to the exact artifact SHA256 (publish mode)
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  prepare:
+    if: inputs.mode == 'prepare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Prepare from snapshot without publisher credentials
+        env:
+          BRIEF_PATH: ${{ inputs.brief_path }}
+          DRAFT_PATH: ${{ inputs.draft_path }}
+          INVENTORY_PATH: ${{ inputs.inventory_path }}
+          BLOG_PUBLISH_ENABLED: 'false'
+        run: node scripts/blog-production-cli.mjs prepare --brief "$BRIEF_PATH" --draft "$DRAFT_PATH" --inventory "$INVENTORY_PATH"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: blog-draft-review-${{ github.run_id }}
+          path: artifacts/blog-recovery
+          retention-days: 14
+  reviewed-publish:
+    if: >-
+      (inputs.mode == 'publish' || inputs.mode == 'reconcile') && vars.BLOG_PUBLISH_ENABLED == 'true' && github.ref == 'refs/heads/main' && github.run_attempt == 1
+    permissions:
+      contents: write
+    concurrency:
+      group: wordpress-editorial-publish
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Publish only reviewed artifact with durable intent before WordPress
+        env:
+          ARTIFACT_PATH: ${{ inputs.artifact_path }}
+          REVIEW_PATH: ${{ inputs.review_path }}
+          MODE: ${{ inputs.mode }}
+          BLOG_PUBLISH_ENABLED: ${{ vars.BLOG_PUBLISH_ENABLED || 'false' }}
+          BLOG_AUTHORIZED_REVIEWERS: ${{ vars.BLOG_AUTHORIZED_REVIEWERS || '' }}
+          WP_SITE_URL: https://blog.stripunion.com
+          WP_USERNAME: ${{ inputs.mode == 'publish' && secrets.WP_USERNAME || '' }}
+          WP_APP_PASSWORD: ${{ inputs.mode == 'publish' && secrets.WP_APP_PASSWORD || '' }}
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/blog-production-cli.mjs "$MODE" --artifact "$ARTIFACT_PATH" --review "$REVIEW_PATH"
+      - name: Persist verified ledger mirror
+        run: |
+          git config user.name stripunion-blog-publisher
+          git config user.email actions@users.noreply.github.com
+          git add ops/editorial/publication-ledger/wordpress
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "report: close reviewed WordPress Blog publication [skip ci]"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            git pull --rebase origin main
+          done
+          exit 1

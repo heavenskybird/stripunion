@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { generateEditorialCoverPng } from './wordpress-cover.mjs';
 
 const contentPath = process.argv[2];
@@ -17,6 +18,10 @@ if (!siteUrl || !username || !appPassword) {
 
 const absolute = path.resolve(contentPath);
 const payload = JSON.parse(await fs.readFile(absolute, 'utf8'));
+if (process.env.BLOG_PUBLISH_ENABLED !== 'true' || process.env.BLOG_REVIEW_HASH !==
+    createHash('sha256').update(JSON.stringify(payload)).digest('hex')) {
+  throw new Error('BLOG_PUBLICATION_DISABLED_OR_UNREVIEWED: use the reviewed Blog production chain');
+}
 
 for (const field of ['title', 'slug', 'content', 'excerpt']) {
   if (!payload[field] || typeof payload[field] !== 'string') {
@@ -51,6 +56,10 @@ async function wp(pathname, options = {}, { allowFailure = false } = {}) {
 
     if (![301, 302, 307, 308].includes(response.status)) {
       break;
+    }
+
+    if (!['GET', 'HEAD'].includes(originalMethod.toUpperCase())) {
+      throw new Error('WORDPRESS_WRITE_REDIRECT_AMBIGUOUS_NO_REPOST');
     }
 
     const location = response.headers.get('location');
@@ -282,6 +291,9 @@ const content = ensureCrossSiteLinks(payload.content, payload.related_links);
 
 const existingResponse = await wp('/wp-json/wp/v2/posts?slug=' + encodeURIComponent(payload.slug) + '&context=edit&per_page=1&status=any');
 const existing = Array.isArray(existingResponse.data) ? existingResponse.data[0] : null;
+if (existing?.id && process.env.BLOG_CREATE_ONLY === 'true') {
+  throw new Error('BLOG_EXISTING_SLUG_REQUIRES_RECONCILIATION: no historical draft replay or update');
+}
 
 const body = {
   title: payload.title,
@@ -325,7 +337,10 @@ if (featuredMedia && featuredMedia !== post.featured_media) {
   post = updated.data;
 }
 
-const yoast = await tryYoastMeta(post.id, payload.seo || {});
+// Return the proven create receipt before any optional post-publication write.
+const yoast = process.env.BLOG_CREATE_ONLY === 'true'
+  ? { attempted: false, writable: false, reason: 'reviewed_create_only_no_secondary_mutation' }
+  : await tryYoastMeta(post.id, payload.seo || {});
 
 const result = {
   ok: true,

@@ -1,0 +1,23 @@
+name: Blog public REST inventory acceptance
+on:
+  push:
+    branches: [codex/recovery-blog-production-chain]
+    paths: [scripts/blog-public-inventory.mjs, .github/workflows/blog-readonly-inventory.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Public GET snapshot; no WordPress credentials or publishing gate
+        run: node scripts/blog-public-inventory.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: blog-readonly-inventory-${{ github.run_id }}
+          path: artifacts/blog-recovery

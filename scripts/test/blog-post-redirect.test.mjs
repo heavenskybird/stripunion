@@ -1,0 +1,16 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';import {createHash} from 'node:crypto';import {spawnSync} from 'node:child_process';
+test('real WordPress helper cannot repeat a POST after same-origin redirect',async()=>{
+ const dir=await fs.mkdtemp(path.join(os.tmpdir(),'blog-write-redirect-'));const counter=path.join(dir,'writes.json');
+ const payload={title:'Fixture only',slug:'fixture-only',content:'<p>Fixture editorial text only.</p>',excerpt:'Fixture'};
+ const file=path.join(dir,'payload.json');await fs.writeFile(file,JSON.stringify(payload));
+ const preload=path.join(dir,'mock.mjs');await fs.writeFile(preload,`import fs from 'node:fs';let n=0;globalThis.fetch=async(url,options={})=>{if((options.method||'GET')==='GET')return Response.json([]);fs.writeFileSync(${JSON.stringify(counter)},JSON.stringify(++n));return new Response('',{status:301,headers:{location:'https://blog.stripunion.com/wp-json/wp/v2/posts/'}});};`);
+ try{const r=spawnSync(process.execPath,['--import',preload,'scripts/publish-wordpress-json.mjs',file],{encoding:'utf8',env:{...process.env,WP_SITE_URL:'https://blog.stripunion.com',WP_USERNAME:'fixture',WP_APP_PASSWORD:'fixture',BLOG_PUBLISH_ENABLED:'true',BLOG_CREATE_ONLY:'true',BLOG_REVIEW_HASH:createHash('sha256').update(JSON.stringify(payload)).digest('hex')}});assert.equal(r.status,1);assert.match(r.stderr,/WRITE_REDIRECT_AMBIGUOUS_NO_REPOST/);assert.equal(JSON.parse(await fs.readFile(counter,'utf8')),1);}finally{await fs.rm(dir,{recursive:true,force:true});}
+});
+
+test('reviewed create exposes provider ID after exactly one POST even with optional SEO fields',async()=>{
+ const dir=await fs.mkdtemp(path.join(os.tmpdir(),'blog-create-receipt-'));const counter=path.join(dir,'writes.json');
+ const payload={title:'Fixture only',slug:'fixture-only',content:'<p>Fixture editorial text only.</p>',excerpt:'Fixture',featured_image:false,seo:{title:'Fixture SEO'}};
+ const file=path.join(dir,'payload.json');await fs.writeFile(file,JSON.stringify(payload));
+ const preload=path.join(dir,'mock.mjs');await fs.writeFile(preload,`import fs from 'node:fs';let n=0;globalThis.fetch=async(url,options={})=>{if((options.method||'GET')==='GET')return Response.json([]);fs.writeFileSync(${JSON.stringify(counter)},JSON.stringify(++n));return Response.json({id:401,slug:'fixture-only',status:'publish',link:'https://blog.stripunion.com/fixture-only/',featured_media:0});};`);
+ try{const r=spawnSync(process.execPath,['--import',preload,'scripts/publish-wordpress-json.mjs',file],{encoding:'utf8',env:{...process.env,GITHUB_OUTPUT:'',WP_SITE_URL:'https://blog.stripunion.com',WP_USERNAME:'fixture',WP_APP_PASSWORD:'fixture',BLOG_PUBLISH_ENABLED:'true',BLOG_CREATE_ONLY:'true',BLOG_REVIEW_HASH:createHash('sha256').update(JSON.stringify(payload)).digest('hex')}});assert.equal(r.status,0,r.stderr);assert.equal(JSON.parse(r.stdout).id,401);assert.equal(JSON.parse(await fs.readFile(counter,'utf8')),1);}finally{await fs.rm(dir,{recursive:true,force:true});}
+});
