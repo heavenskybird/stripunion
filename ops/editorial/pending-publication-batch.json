@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T15:24:36.532Z",
+  "generatedAt": "2026-11-13T16:20:24.079Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-language-and-translation-fit.json",
-    "ops/editorial/content-artifacts/affiliate-report-data-freshness-backfill-audit.json",
-    "ops/editorial/content-artifacts/free-video-browser-device-compatibility-check.json",
-    "ops/editorial/content-artifacts/adult-games-display-comfort-settings-review.json",
-    "ops/editorial/content-artifacts/adult-shop-product-variant-label-comparison.json"
+    "ops/editorial/content-artifacts/hentai-streaming-site-shortlist-evaluation.json",
+    "ops/editorial/content-artifacts/vr-adult-streaming-travel-setup-fit.json",
+    "ops/editorial/content-artifacts/adult-platform-recurring-card-replacement-plan.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-campaign-ownership-handover.json",
+    "ops/editorial/content-artifacts/creator-platform-incapacity-and-business-continuity-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-language-and-translation-fit.js",
-    "src/data/guides/affiliate-report-data-freshness-backfill-audit.js",
-    "src/data/guides/free-video-browser-device-compatibility-check.js",
-    "src/data/guides/adult-games-display-comfort-settings-review.js",
-    "src/data/guides/adult-shop-product-variant-label-comparison.js"
+    "src/data/guides/hentai-streaming-site-shortlist-evaluation.js",
+    "src/data/guides/vr-adult-streaming-travel-setup-fit.js",
+    "src/data/guides/adult-platform-recurring-card-replacement-plan.js",
+    "src/data/guides/webmaster-affiliate-campaign-ownership-handover.js",
+    "src/data/guides/creator-platform-incapacity-and-business-continuity-plan.js"
   ],
   "categories": [
-    "dating-hookups",
+    "hentai-anime",
+    "vr-ar",
+    "privacy-safety-payment",
     "webmaster-affiliate",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-dating-language-and-translation-fit",
-    "affiliate-report-data-freshness-backfill-audit",
-    "free-video-browser-device-compatibility-check",
-    "adult-games-display-comfort-settings-review",
-    "adult-shop-product-variant-label-comparison"
+    "hentai-streaming-site-shortlist-evaluation",
+    "vr-adult-streaming-travel-setup-fit",
+    "adult-platform-recurring-card-replacement-plan",
+    "webmaster-affiliate-campaign-ownership-handover",
+    "creator-platform-incapacity-and-business-continuity-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43451933171",
-  "phase": "closed"
+  "r1CycleId": "43461244150"
 }

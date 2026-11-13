@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-platform-recurring-card-replacement-plan",
+  "slug": "adult-platform-recurring-card-replacement-plan",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Replacing a Payment Card? Review Adult Platform Subscriptions and Account Records",
+  "description": "A practical checklist for reviewing recurring adult-platform payments after a card replacement, including account access, billing records, payment controls, and cancellation evidence.",
+  "excerpt": "A new card can affect recurring payments and the records you rely on. Use this workflow to check subscriptions deliberately, protect account access, and keep the information you need.",
+  "keyTakeaways": [
+    "Make a private inventory of recurring services before changing or updating payment details.",
+    "Use each account’s own billing page to verify payment status and renewal conditions.",
+    "Do not assume that a replaced or expired card automatically cancels a subscription.",
+    "Keep confirmation records securely, but limit how much sensitive information you retain.",
+    "If a charge is unclear, check both the platform’s records and the payment provider’s available transaction information."
+  ],
+  "sections": [
+    {
+      "heading": "Build a subscription inventory before updating anything",
+      "paragraphs": [
+        "Replacing a card can create uncertainty about which recurring payments will continue, fail, or require new details. Start with an inventory rather than changing payment information on every account at once. Record the service name, the account email or username you use, the next renewal information shown, and whether you intend to keep or end the access. Store this inventory somewhere private and protected.",
+        "Review the records you already control: account billing pages, email confirmations, payment statements, and any subscription list maintained by a payment provider or device storefront. These sources may show different parts of the transaction. A statement entry can help identify a payment, while the platform’s account page may explain which subscription or account it belongs to.",
+        "Avoid including full card numbers, passwords, or unnecessary personal details in your inventory. The purpose is to remember what needs attention, not to create a second repository of sensitive information. If you keep notes digitally, use a protected location and remove outdated notes when you no longer need them."
+      ],
+      "bullets": [
+        "List services, account identifiers, renewal details, and your keep-or-cancel decision.",
+        "Check both platform billing pages and payment records where available.",
+        "Do not store full payment credentials or account passwords in the inventory."
+      ]
+    },
+    {
+      "heading": "Understand what card replacement does and does not do",
+      "paragraphs": [
+        "A card replacement does not necessarily end a recurring agreement. Depending on the payment arrangement and provider, a recurring payment may stop, be declined, or continue through an account-updater process. The exact behavior is not something to infer from the fact that the old card is no longer in your wallet.",
+        "If you want a subscription to end, use the platform’s stated cancellation route and look for a confirmation. Do not treat a failed payment, a closed browser tab, or the arrival of a replacement card as proof of cancellation. If you intend to keep access, check the account’s billing page before adding new payment details so you can confirm that you are updating the right account and understand the next renewal terms.",
+        "When you are unsure how a payment provider handles recurring transactions after a card change, consult that provider’s current information. Do not rely on an assumption that a bank or card issuer will block a specific merchant or subscription without confirmation."
+      ],
+      "table": {
+        "caption": "Separate the action you want from the evidence you need",
+        "headers": [
+          "Your goal",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Keep access",
+            "Current plan details and confirmation that the intended account has a valid payment method"
+          ],
+          [
+            "End recurring access",
+            "Platform cancellation confirmation and the effective end date shown"
+          ],
+          [
+            "Identify an unclear transaction",
+            "Account billing history and payment-provider transaction details"
+          ],
+          [
+            "Prevent an unwanted future payment",
+            "Documented cancellation or payment control confirmed through the relevant provider"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Update payment details through the correct account",
+      "paragraphs": [
+        "Before entering a replacement payment method, confirm that you are signed into the correct service account and are using the service’s intended billing page. Check the site address and avoid following payment links from unsolicited messages. If a page asks for information that does not match the task, stop and reach the account through its normal sign-in route.",
+        "Review the amount, billing interval, renewal date, and any plan change presented before confirming an update. This is especially important if the account presents multiple access options or asks you to change plans as part of the payment step. Preserve a confirmation of the payment-method update or subscription change, but do not take screenshots that expose full card details or other unnecessary information.",
+        "Use account protections that fit your situation, including a unique password and available sign-in safeguards. If your email or recovery method has changed, update it through the account’s normal security settings before relying on it for billing alerts. A replacement-card task is a useful time to verify that you can still recover the account if a payment or sign-in issue occurs."
+      ]
+    },
+    {
+      "heading": "Review billing privacy and transaction alerts",
+      "paragraphs": [
+        "A payment may create several records: a platform receipt, an email, a payment-provider entry, and alerts on a phone or wearable. Review where those records appear and who can access those accounts or devices. A billing descriptor may not match the public-facing service name, so do not rely on a guessed descriptor as the only way to identify a transaction.",
+        "Check notification previews and payment alerts on devices that may be visible to someone else. You can decide whether to change lock-screen previews, email notifications, or transaction alert settings, while retaining the financial alerts you need. Do not disable important security notices without considering what protection you would lose.",
+        "If you use a shared payment account, consider who can view statements, receipts, or transaction alerts. Account privacy is not controlled by the platform alone. The payment provider, email account, device, and household access arrangements may each expose a different record."
+      ],
+      "bullets": [
+        "Check the platform receipt, email inbox, payment record, and device notification surfaces.",
+        "Review transaction alerts without disabling necessary account-security warnings.",
+        "Consider access to shared payment statements and email accounts."
+      ]
+    },
+    {
+      "heading": "Keep cancellation and payment records proportionately",
+      "paragraphs": [
+        "Retain the records needed to resolve an issue: the date you made a change, the platform’s confirmation, relevant transaction details, and any support reference. Keep them in a private location. You usually do not need to preserve every page view or copy all account information to prove a simple update.",
+        "If a charge remains unclear, compare the platform’s billing history with the payment provider’s transaction record. Note dates, amounts, and any reference identifiers shown, while avoiding unnecessary sharing of screenshots that reveal unrelated purchases or account details. Contact the relevant provider through a verified support route if the records do not match.",
+        "Once the card-replacement task is complete, remove temporary notes that are no longer needed. If you canceled a subscription, verify the recorded status and keep the confirmation for an appropriate period based on your own recordkeeping needs. This workflow helps organize evidence; it cannot guarantee how a platform or payment provider will resolve a dispute."
+      ]
+    },
+    {
+      "heading": "Use a calm sequence when a payment fails",
+      "paragraphs": [
+        "A declined or pending payment can have several causes, and repeatedly submitting a payment may make it harder to understand what happened. Check the platform’s billing page and the payment provider’s account for a final status before retrying. Distinguish a pending authorization from a completed charge when the provider makes that distinction.",
+        "If the platform says payment failed but the provider shows a transaction, record the date and status and contact the appropriate support channel. Avoid sending full card details by email or chat. Use only the secure information fields the provider requests, and share the minimum information needed to locate the transaction.",
+        "If you no longer want the subscription, cancel through the platform rather than relying on a payment failure to end future billing. Then keep the confirmation and check the account status later if the platform provides an updated billing page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will replacing my card automatically cancel an adult platform subscription?",
+      "answer": "Not necessarily. Recurring payment behavior can depend on the payment arrangement and provider. If your intention is to cancel, use the platform’s cancellation process and keep its confirmation rather than assuming the old card’s status ends the subscription."
+    },
+    {
+      "question": "Should I update every subscription as soon as I receive a new card?",
+      "answer": "First identify which accounts you intend to keep. Review their current billing details and update only the intended accounts through their normal billing pages. This reduces the chance of renewing an account you meant to end or updating the wrong account."
+    },
+    {
+      "question": "What records should I keep after canceling?",
+      "answer": "Keep a cancellation confirmation, the effective end date if shown, and enough transaction information to identify a later billing question. Store those records privately and avoid retaining full payment credentials or unrelated account information."
+    },
+    {
+      "question": "What if the payment statement uses an unfamiliar descriptor?",
+      "answer": "Compare the transaction date and other available details with the platform’s billing history and the payment provider’s record. Do not assume a descriptor based on a guess. If it remains unclear, contact the provider through a verified support route."
+    }
+  ],
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
