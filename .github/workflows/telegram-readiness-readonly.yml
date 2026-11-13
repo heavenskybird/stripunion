@@ -1,7 +1,7 @@
 name: Telegram read-only channel acceptance
 on:
   push:
-    branches: [codex/recovery-c-channel-runtime]
+    branches: [codex/recovery-c-channel-runtime, codex/telegram-autonomy-20261113]
     paths: [scripts/telegram-readiness-readonly.mjs, .github/workflows/telegram-readiness-readonly.yml]
 permissions:
   contents: read
@@ -19,8 +19,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
         run: node scripts/telegram-readiness-readonly.mjs
+      - name: Preview exactly one new candidate against real runtime; no enqueue or send
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/telegram-autonomy-plan.mjs --preview
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: telegram-readiness-${{ github.run_id }}
-          path: artifacts/telegram-readiness
+          path: |
+            artifacts/telegram-readiness
+            artifacts/telegram-autonomy

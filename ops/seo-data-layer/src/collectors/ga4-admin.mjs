@@ -49,7 +49,12 @@ async function main() {
       return ['stripunion.com', 'blog.stripunion.com'].includes(new URL(stream.defaultUri).hostname.toLowerCase().replace(/^www\./, ''));
     } catch { return false; }
   });
-  const snapshot = {
+  const configuration={dataFilters:{visibility:'UI_ONLY',internalTrafficState:'UNKNOWN',developerTrafficState:'UNKNOWN',checkedAt:new Date().toISOString(),source:'https://developers.google.com/analytics/devguides/config/admin/v1/rest',note:'Public v1alpha/v1beta expose subpropertyEventFilters, not Internal/Developer data filters. Do not conflate them.'}};
+  for(const [name,request]of [['property',()=>client.properties.get({name:`properties/${propertyId}`})],['keyEvents',()=>client.properties.keyEvents.list({parent:`properties/${propertyId}`,pageSize:200})]]){
+    try{const r=await request();configuration[name]={status:'ok',data:r.data};}catch(e){configuration[name]={status:'UNKNOWN',httpStatus:Number(e.response?.status)||null};}
+  }
+  const snapshot = { configuration,
+
     source: 'google-analytics-admin',
     propertyId,
     collectedAt: new Date().toISOString(),

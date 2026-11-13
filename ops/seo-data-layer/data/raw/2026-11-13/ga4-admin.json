@@ -1,7 +1,62 @@
 {
+  "configuration": {
+    "dataFilters": {
+      "visibility": "UI_ONLY",
+      "internalTrafficState": "UNKNOWN",
+      "developerTrafficState": "UNKNOWN",
+      "checkedAt": "2026-11-13T01:45:27.192Z",
+      "source": "https://developers.google.com/analytics/devguides/config/admin/v1/rest",
+      "note": "Public v1alpha/v1beta expose subpropertyEventFilters, not Internal/Developer data filters. Do not conflate them."
+    },
+    "property": {
+      "status": "ok",
+      "data": {
+        "name": "properties/530171093",
+        "parent": "accounts/389030904",
+        "createTime": "2026-03-27T08:46:33.468Z",
+        "updateTime": "2026-03-27T08:46:33.468Z",
+        "displayName": "StripUnion-Media1",
+        "industryCategory": "ARTS_AND_ENTERTAINMENT",
+        "timeZone": "Asia/Singapore",
+        "currencyCode": "USD",
+        "serviceLevel": "GOOGLE_ANALYTICS_STANDARD",
+        "account": "accounts/389030904",
+        "propertyType": "PROPERTY_TYPE_ORDINARY"
+      }
+    },
+    "keyEvents": {
+      "status": "ok",
+      "data": {
+        "keyEvents": [
+          {
+            "name": "properties/530171093/keyEvents/14247320030",
+            "eventName": "purchase",
+            "createTime": "2026-03-27T08:50:48.572565Z",
+            "countingMethod": "ONCE_PER_EVENT"
+          },
+          {
+            "name": "properties/530171093/keyEvents/14247387080",
+            "eventName": "close_convert_lead",
+            "createTime": "2026-03-27T08:46:33.758670Z",
+            "deletable": true,
+            "custom": true,
+            "countingMethod": "ONCE_PER_EVENT"
+          },
+          {
+            "name": "properties/530171093/keyEvents/14247387081",
+            "eventName": "qualify_lead",
+            "createTime": "2026-03-27T08:46:33.758670Z",
+            "deletable": true,
+            "custom": true,
+            "countingMethod": "ONCE_PER_EVENT"
+          }
+        ]
+      }
+    }
+  },
   "source": "google-analytics-admin",
   "propertyId": "530171093",
-  "collectedAt": "2026-11-13T00:12:46.323Z",
+  "collectedAt": "2026-11-13T01:45:27.480Z",
   "topology": "MAIN STREAM",
   "unifiedFunnelCandidate": "G-K57BRX69X1",
   "streams": [
