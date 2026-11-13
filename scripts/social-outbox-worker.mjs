@@ -3,10 +3,12 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createBufferPost } from '../ops/seo-data-layer/src/distribution/buffer.mjs';
 import { publishTelegramEvent } from '../ops/seo-data-layer/src/distribution/telegram.mjs';
+import { socialChannelSwitches } from './social-channel-switches.mjs';
 
 const outboxDir = 'ops/social-outbox/events';
 const limit = validateCap(process.env.SOCIAL_OUTBOX_BATCH_SIZE ?? 5, 5);
-const sendEnabled = String(process.env.SOCIAL_OUTBOX_SEND_ENABLED || 'false').toLowerCase() === 'true';
+const channels = socialChannelSwitches();
+const sendEnabled = channels.globalEnabled && (channels.x || channels.telegram);
 const timezone = process.env.SOCIAL_OUTBOX_TIMEZONE || 'Asia/Shanghai';
 const xDailyCap = validateCap(process.env.SOCIAL_OUTBOX_X_DAILY_CAP ?? 20, 20);
 const telegramDailyCap = validateCap(process.env.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP ?? 100, 100);
@@ -113,7 +115,10 @@ let latestXAttemptMs = rows
   .filter(Number.isFinite)
   .reduce((max, value) => Math.max(max, value), 0);
 
-const candidates = rows.filter(({ event }) => ready(event));
+const trialKey = String(process.env.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '').trim();
+if (sendEnabled && trialKey && !/^[a-zA-Z0-9:_-]{1,200}$/.test(trialKey)) throw new Error('Invalid exact trial event key.');
+const candidates = rows.filter(({ event }) => ready(event) && channels[event.channel] === true &&
+  (!trialKey || event.idempotency_key === trialKey && event.state === 'pending' && Number(event.attempt_count || 0) === 0));
 let providerPosts = [];
 let xEvidenceAvailable = false;
 if (sendEnabled && candidates.some(({event}) => event.channel === 'x') && process.env.BUFFER_API_KEY && process.env.BUFFER_CHANNEL_ID &&

@@ -1,9 +1,11 @@
 import { fileURLToPath } from 'node:url';
+import { assertNativeChannel } from '../../../../scripts/social-channel-switches.mjs';
 const token = process.env.TELEGRAM_BOT_TOKEN;
-const rawChatId = String(process.env.TELEGRAM_CHANNEL_ID || '').trim();
-const chatId = rawChatId && !rawChatId.startsWith('@') && !/^-?\\d+$/.test(rawChatId)
-  ? `@${rawChatId}`
-  : rawChatId;
+export function normalizeTelegramChatId(value) {
+  const raw = String(value || '').trim();
+  return raw && !raw.startsWith('@') && !/^-?\d+$/.test(raw) ? `@${raw}` : raw;
+}
+const chatId = normalizeTelegramChatId(process.env.TELEGRAM_CHANNEL_ID);
 
 function stripHtml(value = '') {
   return String(value)
@@ -73,11 +75,8 @@ async function telegram(method, payload) {
 }
 
 export async function publishTelegramEvent(event) {
-  if (String(process.env.SOCIAL_OUTBOX_SEND_ENABLED).toLowerCase() === 'false') throw new Error('Social sends disabled by operator.');
-  if (process.env.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED === 'true' &&
-      (event.source !== 'social_outbox' || process.env.GITHUB_WORKFLOW !== 'Native social outbox' || process.env.GITHUB_REF !== 'refs/heads/main' || process.env.GITHUB_RUN_ATTEMPT !== '1')) {
-    throw new Error('Direct Telegram sends refused after single-writer cutover.');
-  }
+  assertNativeChannel('telegram');
+  if (event.source !== 'social_outbox') throw new Error('Direct Telegram sends refused; Native Outbox event required.');
   if (!token || !chatId) {
     console.log('Telegram distribution skipped: TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID is not configured.');
     return { skipped: true };

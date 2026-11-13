@@ -51,12 +51,15 @@ test('legacy attempts held without new provider call',async()=>{
 test('outbox Telegram timeout makes exactly one irreversible call', async()=>{
  const before=globalThis.fetch;const token=process.env.TELEGRAM_BOT_TOKEN;const channel=process.env.TELEGRAM_CHANNEL_ID;
  process.env.TELEGRAM_BOT_TOKEN='test-only';process.env.TELEGRAM_CHANNEL_ID='@test-only';
+ const names=['SOCIAL_OUTBOX_SEND_ENABLED','SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED','SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED','GITHUB_REPOSITORY','GITHUB_REF','GITHUB_WORKFLOW','GITHUB_RUN_ATTEMPT'];
+ const previous=Object.fromEntries(names.map(name=>[name,process.env[name]]));
+ Object.assign(process.env,{SOCIAL_OUTBOX_SEND_ENABLED:'true',SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED:'true',SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED:'true',GITHUB_REPOSITORY:'heavenskybird/stripunion',GITHUB_REF:'refs/heads/main',GITHUB_WORKFLOW:'Native social outbox',GITHUB_RUN_ATTEMPT:'1'});
  let calls=0;globalThis.fetch=async()=>{calls++;throw Error('timeout after acceptance');};
  try {
   const {publishTelegramEvent}=await import('../../ops/seo-data-layer/src/distribution/telegram.mjs?outbox-test');
   await assert.rejects(publishTelegramEvent({source:'social_outbox',title:'Test',url:'https://stripunion.com/test'}));
   assert.equal(calls,1);
- } finally {globalThis.fetch=before;if(token===undefined)delete process.env.TELEGRAM_BOT_TOKEN;else process.env.TELEGRAM_BOT_TOKEN=token;if(channel===undefined)delete process.env.TELEGRAM_CHANNEL_ID;else process.env.TELEGRAM_CHANNEL_ID=channel;}
+ } finally {for(const name of names){if(previous[name]===undefined)delete process.env[name];else process.env[name]=previous[name];}globalThis.fetch=before;if(token===undefined)delete process.env.TELEGRAM_BOT_TOKEN;else process.env.TELEGRAM_BOT_TOKEN=token;if(channel===undefined)delete process.env.TELEGRAM_CHANNEL_ID;else process.env.TELEGRAM_CHANNEL_ID=channel;}
 });
 
 test('X cap uses the union of provider and local receipts, without double counting',()=>{

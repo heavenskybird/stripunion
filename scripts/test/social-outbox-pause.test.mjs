@@ -11,7 +11,9 @@ test('operator pause is explicit; enable requires canonical main and valid confi
   for (const flag of ['false', 'FALSE', undefined]) assert.deepEqual(outboxAdmission(flag), { state: 'PAUSED_BY_OPERATOR', sendEnabled: false });
   assert.throws(() => outboxAdmission('true', { repository: 'heavenskybird/stripunion', ref: 'refs/heads/codex/recovery-integration-20261111' }), /canonical main/);
   assert.throws(() => outboxAdmission('invalid'), /Invalid/);
-  assert.equal(outboxAdmission('true', { repository: 'heavenskybird/stripunion', ref: 'refs/heads/main' }).sendEnabled, true);
+  assert.equal(outboxAdmission('true', { repository: 'heavenskybird/stripunion', ref: 'refs/heads/main' }).state, 'PAUSED_NO_CHANNELS');
+  assert.throws(() => outboxAdmission('true', { repository: 'heavenskybird/stripunion', ref: 'refs/heads/main', telegramSendEnabled: 'true' }), /Single-writer/);
+  assert.equal(outboxAdmission('true', { repository: 'heavenskybird/stripunion', ref: 'refs/heads/main', singleWriterEnabled: 'true', telegramSendEnabled: 'true' }).sendEnabled, true);
 });
 test('actual paused CLI emits summary/output with zero network or provider work', async () => {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), 'outbox-paused-'));

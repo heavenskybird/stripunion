@@ -34,10 +34,12 @@ concurrency:
 
 jobs:
   queue-social-post:
-    if: vars.SOCIAL_OUTBOX_SEND_ENABLED == 'true' && vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
+    if: vars.SOCIAL_OUTBOX_SEND_ENABLED == 'true' && (vars.SOCIAL_OUTBOX_X_SEND_ENABLED == 'true' || vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED == 'true') && vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED != 'true'
     runs-on: ubuntu-latest
     env:
       SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'false' }}
+      SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'false' }}
+      SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
     timeout-minutes: 5
     steps:
       - name: Checkout
@@ -49,6 +51,7 @@ jobs:
           node-version: 22
 
       - name: Queue post in Buffer
+        if: vars.SOCIAL_OUTBOX_X_SEND_ENABLED == 'true'
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
@@ -57,6 +60,7 @@ jobs:
         run: node ops/seo-data-layer/src/distribution/social-event.mjs
 
       - name: Publish to Telegram when configured
+        if: always() && vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
