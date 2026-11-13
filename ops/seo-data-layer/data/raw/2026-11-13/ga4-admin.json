@@ -4,7 +4,7 @@
       "visibility": "UI_ONLY",
       "internalTrafficState": "UNKNOWN",
       "developerTrafficState": "UNKNOWN",
-      "checkedAt": "2026-11-13T02:06:30.855Z",
+      "checkedAt": "2026-11-13T08:08:26.310Z",
       "source": "https://developers.google.com/analytics/devguides/config/admin/v1/rest",
       "note": "Public v1alpha/v1beta expose subpropertyEventFilters, not Internal/Developer data filters. Do not conflate them."
     },
@@ -56,7 +56,7 @@
   },
   "source": "google-analytics-admin",
   "propertyId": "530171093",
-  "collectedAt": "2026-11-13T02:06:31.027Z",
+  "collectedAt": "2026-11-13T08:08:26.610Z",
   "topology": "MAIN STREAM",
   "unifiedFunnelCandidate": "G-K57BRX69X1",
   "streams": [

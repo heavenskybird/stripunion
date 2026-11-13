@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T02:09:49.697Z",
+  "generatedAt": "2026-11-13T08:08:49.926Z",
   "sourceDates": {
     "gsc": "2026-11-11",
     "gscBlog": "2026-11-11",
@@ -373,11 +373,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 5,
+        "AvgImpressionPosition": 7,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "f95zone reviews",
+        "Query": "xhamster site review",
         "site": "stripunion.com"
       },
       {
@@ -393,11 +393,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 7,
+        "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "xhamster site review",
+        "Query": "f95zone reviews",
         "site": "stripunion.com"
       },
       {
@@ -1740,6 +1740,13 @@
       },
       {
         "site": "stripunion.com",
+        "date": "/Date(1793923200000)/",
+        "errors": 2,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "stripunion.com",
         "date": "/Date(1794009600000)/",
         "errors": 5,
         "http4xx": 0,
@@ -1978,6 +1985,13 @@
       },
       {
         "site": "blog.stripunion.com",
+        "date": "/Date(1793923200000)/",
+        "errors": 0,
+        "http4xx": 0,
+        "http5xx": 0
+      },
+      {
+        "site": "blog.stripunion.com",
         "date": "/Date(1794009600000)/",
         "errors": 1,
         "http4xx": 0,
@@ -2086,6 +2100,13 @@
           "BroadImpressions": 28602432,
           "Impressions": 9003436,
           "Query": "porn",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 28602432,
+          "Impressions": 9003436,
+          "Query": "porn",
           "seed": "xhamster site overview"
         },
         {
@@ -2100,21 +2121,7 @@
           "BroadImpressions": 2411869,
           "Impressions": 1862849,
           "Query": "free porn",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 2411869,
-          "Impressions": 1862849,
-          "Query": "free porn",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 2411869,
-          "Impressions": 1862849,
-          "Query": "free porn",
-          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2170,21 +2177,14 @@
           "BroadImpressions": 232400,
           "Impressions": 221829,
           "Query": "xhamster.com",
-          "seed": "xhamster review"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 232400,
           "Impressions": 221829,
           "Query": "xhamster.com",
-          "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 223707,
-          "Impressions": 220932,
-          "Query": "chaterbate",
-          "seed": "chaturbate alternatives"
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2195,17 +2195,17 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 108821,
-          "Impressions": 92477,
-          "Query": "x hamster",
-          "seed": "xhamster site overview"
+          "BroadImpressions": 183988,
+          "Impressions": 24539,
+          "Query": "amsterdam",
+          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 108821,
           "Impressions": 92477,
           "Query": "x hamster",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2220,6 +2220,20 @@
           "Impressions": 86919,
           "Query": "hamster porn",
           "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 99178,
+          "Impressions": 86919,
+          "Query": "hamster porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 99178,
+          "Impressions": 86919,
+          "Query": "hamster porn",
+          "seed": "xhamster reviews"
         }
       ]
     }
@@ -2356,7 +2370,7 @@
       "EngagementTime"
     ],
     "metricGroups": 9,
-    "informationRows": 694
+    "informationRows": 773
   },
   "buffer": {
     "status": "stale_or_invalid",
@@ -2421,7 +2435,7 @@
         "missingTransactionId": 2
       }
     },
-    "totalClicks": 47,
+    "totalClicks": 49,
     "totalPostbacks": 15,
     "matchedPostbacks": 3,
     "unmatchedPostbacks": 12,
@@ -2556,7 +2570,7 @@
       "webmasterReferralEarnings": 0
     },
     "firstPartyAttribution": {
-      "clicks": 47,
+      "clicks": 49,
       "postbacks": 15,
       "matchedPostbacks": 3,
       "unmatchedPostbacks": 12,

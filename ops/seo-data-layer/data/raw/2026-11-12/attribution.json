@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-13T02:06:45.911Z",
+  "collectedAt": "2026-11-13T08:08:42.403Z",
   "receiverConnected": true,
   "postbackJoinReady": true,
   "diagnostics": {
@@ -13,7 +13,7 @@
     "missingTransactionId": 2
   },
   "reportScope": "first-party AVCams click/postback attribution",
-  "totalClicks": 47,
+  "totalClicks": 49,
   "totalPostbacks": 15,
   "matchedPostbacks": 3,
   "unmatchedPostbacks": 12,
@@ -30,7 +30,7 @@
   },
   "byP1": {
     "avcams": {
-      "clicks": 2,
+      "clicks": 3,
       "postbacks": 0,
       "matchedPostbacks": 0,
       "eventCounts": {},
@@ -119,6 +119,13 @@
       "revenueByCurrency": {}
     },
     "best_live_cam_sites": {
+      "clicks": 1,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "avcams_live_now": {
       "clicks": 1,
       "postbacks": 0,
       "matchedPostbacks": 0,
@@ -238,6 +245,13 @@
       "revenueByCurrency": {}
     },
     "avcams_hero": {
+      "clicks": 2,
+      "postbacks": 0,
+      "matchedPostbacks": 0,
+      "eventCounts": {},
+      "revenueByCurrency": {}
+    },
+    "avcams_live_models": {
       "clicks": 1,
       "postbacks": 0,
       "matchedPostbacks": 0,
@@ -246,5 +260,5 @@
     }
   },
   "byExperiment": {},
-  "updatedAt": "2026-11-13T00:10:10.087Z"
+  "updatedAt": "2026-11-13T07:35:19.874Z"
 }
