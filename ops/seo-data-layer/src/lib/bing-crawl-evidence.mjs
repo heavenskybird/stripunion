@@ -15,10 +15,10 @@ export function bingCrawlEvidence(site, collectedAt, observedAt = new Date().toI
     site: site.site, collectedAt: collectedAt || null,
     providerDataAsOf: latest?.date || null,
     ageDays: latest && Number.isFinite(Date.parse(observedAt)) ? Math.max(0, Math.floor((Date.parse(observedAt) - Date.parse(latest.date)) / 86400000)) : null,
-    aggregateCrawlErrors: latest ? Number(latest.row.CrawlErrors || 0) : null,
-    indexedPages: latest ? Number(latest.row.InIndex ?? 0) : null,
-    http4xx: latest ? Number(latest.row.Code4xx || 0) : null,
-    http5xx: latest ? Number(latest.row.Code5xx || 0) : null,
+    aggregateCrawlErrors: latest?.row.CrawlErrors != null ? Number(latest.row.CrawlErrors) : null,
+    indexedPages: latest?.row.InIndex != null ? Number(latest.row.InIndex) : null,
+    http4xx: latest?.row.Code4xx != null ? Number(latest.row.Code4xx) : null,
+    http5xx: latest?.row.Code5xx != null ? Number(latest.row.Code5xx) : null,
     issueUrls, issueDetailStatus: !issuesReadable ? 'UNKNOWN' : issueUrls ? 'URL_DETAILS_RETURNED' : 'NO_URL_DETAILS_RETURNED',
     note: 'Aggregate crawl errors are historical provider counts, not identified current broken URLs; an empty issue list does not prove errors resolved.'
   };

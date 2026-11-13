@@ -20,3 +20,10 @@ test('missing API evidence and invalid dates remain unknown', () => {
   assert.equal(result.issueUrls, null);
   assert.equal(result.issueDetailStatus, 'UNKNOWN');
 });
+
+test('a date without metric fields cannot turn unavailable metrics into zero', () => {
+  const result = bingCrawlEvidence({ crawlStats: [{ Date: '2026-11-07' }] });
+  assert.equal(result.aggregateCrawlErrors, null);
+  assert.equal(result.indexedPages, null);
+  assert.equal(result.http4xx, null);
+});
