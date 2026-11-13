@@ -1,9 +1,12 @@
 name: Search growth official evidence
 on:
   push:
-    branches: [codex/search-first-growth-20261112, codex/index-recovery-20261113]
+    branches: [codex/search-first-growth-20261112, codex/index-recovery-20261113, codex/telegram-autonomy-20261113]
   pull_request:
     paths: [src/components/SearchIntentNavigation.astro, scripts/search-growth-decisions.mjs]
+concurrency:
+  group: official-growth-evidence-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -43,6 +46,12 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: node scripts/ga4-existing-diagnostic-readonly.mjs
+      - name: Official GA4 daily-host and event funnel plus Admin configuration
+        if: always()
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY_ID: '530171093'
+        run: npm --prefix ops/seo-data-layer run collect:ga4 && npm --prefix ops/seo-data-layer run collect:ga4-admin
       - name: Actual canonical host and sitemap reads
         if: always()
         run: node scripts/search-public-audit.mjs
@@ -62,4 +71,6 @@ jobs:
           path: |
             artifacts/
             ops/seo-data-layer/data/search-growth/
+            ops/seo-data-layer/data/raw/**/ga4.json
+            ops/seo-data-layer/data/raw/**/ga4-admin.json
           retention-days: 30

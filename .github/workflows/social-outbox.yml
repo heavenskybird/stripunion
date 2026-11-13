@@ -64,6 +64,19 @@ jobs:
         if: steps.operator.outputs.send_enabled == 'true'
         run: npm install
 
+      - name: Verify exact Telegram channel identity and bot permission
+        if: steps.operator.outputs.send_enabled == 'true' && steps.operator.outputs.telegram_send_enabled == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ vars.TELEGRAM_CHANNEL_ID }}
+        run: node scripts/telegram-readiness-readonly.mjs
+
+      - name: Plan one distinct demand-backed Telegram post
+        if: steps.operator.outputs.send_enabled == 'true' && steps.operator.outputs.telegram_send_enabled == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/telegram-autonomy-plan.mjs
+
       - name: Sync publication ledger into native outbox
         if: steps.operator.outputs.send_enabled == 'true'
         run: npm run social:outbox:sync
@@ -93,10 +106,11 @@ jobs:
           SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'false' }}
           SOCIAL_OUTBOX_TRIAL_EVENT_KEY: ${{ vars.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '' }}
           SOCIAL_OUTBOX_BATCH_SIZE: ${{ vars.SOCIAL_OUTBOX_BATCH_SIZE || '1' }}
+          TELEGRAM_AUTONOMY_ENABLED: 'true'
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
           SOCIAL_OUTBOX_X_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_X_DAILY_CAP || '20' }}
           SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES: '45'
-          SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP || '100' }}
+          SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP || '3' }}
           BUFFER_API_KEY: ${{ steps.operator.outputs.x_send_enabled == 'true' && secrets.BUFFER_API_KEY || '' }}
           BUFFER_CHANNEL_ID: ${{ steps.operator.outputs.x_send_enabled == 'true' && vars.BUFFER_CHANNEL_ID || '' }}
           TELEGRAM_BOT_TOKEN: ${{ steps.operator.outputs.telegram_send_enabled == 'true' && secrets.TELEGRAM_BOT_TOKEN || '' }}

@@ -3,6 +3,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createBufferPost } from '../ops/seo-data-layer/src/distribution/buffer.mjs';
 import { publishTelegramEvent } from '../ops/seo-data-layer/src/distribution/telegram.mjs';
+import {buildTelegramText} from '../ops/seo-data-layer/src/distribution/telegram.mjs';
+import {REGISTRY_ID,canonicalSocialUrl,contentIdentity,manualEntries,contentConflict,registryEntries,reserveContent,confirmContent,validateTelegramPolicy} from './telegram-autonomy-policy.mjs';
 import { socialChannelSwitches } from './social-channel-switches.mjs';
 
 const outboxDir = 'ops/social-outbox/events';
@@ -96,6 +98,8 @@ for (const name of await listJson(outboxDir)) {
   rows.push({ file, event });
 }
 
+const autonomous = process.env.TELEGRAM_AUTONOMY_ENABLED === 'true';
+const policy = autonomous ? validateTelegramPolicy(JSON.parse(await fs.readFile(new URL('../ops/social-outbox/telegram-policy.json',import.meta.url),'utf8'))) : null;
 const today = dayKey(new Date().toISOString());
 let xUsedToday = rows.filter(({ event }) =>
   event.channel === 'x' &&
@@ -109,6 +113,8 @@ let telegramUsedToday = rows.filter(({ event }) =>
   dayKey(event.last_attempt_at || event.updated_at) === today
 ).length;
 
+if (autonomous) telegramUsedToday += policy.manualSuppressions.filter(s=>s.reportedLocalDate===today).length;
+const effectiveTelegramCap = autonomous ? Math.min(telegramDailyCap,policy.maxDaily) : telegramDailyCap;
 let latestXAttemptMs = rows
   .filter(({ event }) => event.channel === 'x' && ['scheduled', 'delivered', 'reconcile_required'].includes(event.state))
   .map(({ event }) => new Date(event.last_attempt_at || event.updated_at || 0).getTime())
@@ -118,6 +124,7 @@ let latestXAttemptMs = rows
 const trialKey = String(process.env.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '').trim();
 if (sendEnabled && trialKey && !/^[a-zA-Z0-9:_-]{1,200}$/.test(trialKey)) throw new Error('Invalid exact trial event key.');
 const candidates = rows.filter(({ event }) => ready(event) && channels[event.channel] === true &&
+  (!autonomous || event.channel !== 'telegram' || event.selection_source === 'official-search-demand') &&
   (!trialKey || event.idempotency_key === trialKey && event.state === 'pending' && Number(event.attempt_count || 0) === 0));
 let providerPosts = [];
 let xEvidenceAvailable = false;
@@ -142,6 +149,12 @@ if (!sendEnabled) {
   process.exit(0);
 }
 
+let registry=null, historicalContent=[];
+if (autonomous && channels.telegram) {
+ registry=await journal({idempotency_key:REGISTRY_ID});
+ historicalContent=rows.filter(r=>r.event.channel==='telegram'&&['delivered','reconcile_required'].includes(r.event.state)).map(r=>contentIdentity(r.event));
+ historicalContent.push(...manualEntries(policy),...registryEntries(registry));
+}
 let processed = 0;
 let delivered = 0;
 let scheduled = 0;
@@ -164,11 +177,23 @@ for (const { file, event } of candidates) {
     }
   }
 
-  if (event.channel === 'telegram' && telegramUsedToday >= telegramDailyCap) {
+  if (event.channel === 'telegram' && telegramUsedToday >= effectiveTelegramCap) {
     deferredByCadence += 1;
     continue;
   }
 
+  let identity=null;
+  if (autonomous && event.channel==='telegram') {
+    identity=contentIdentity(event);
+    const age=Date.now()-Date.parse(event.selection_checked_at);
+    if (!Number.isFinite(age)||age<0||age>policy.selectionMaxAgeHours*3600000||contentConflict(identity,historicalContent)) {deferredByCadence++;continue;}
+    const target=await fetch(event.url,{redirect:'manual',signal:AbortSignal.timeout(15000)});
+    const targetHtml=await target.text();const targetCanonical=targetHtml.match(/rel="canonical" href="([^"]+)"/)?.[1];
+    if(target.status!==200||!targetCanonical||canonicalSocialUrl(targetCanonical)!==identity.url||/noindex/i.test(target.headers.get('x-robots-tag')||'')||/name="robots" content="[^"]*noindex/.test(targetHtml)){deferredByCadence++;continue;}
+    const priorBudget=await journal({idempotency_key:'social-delivery-budget:telegram'});
+    const old=priorBudget.state;
+    if(old && ((old.days?.[today]||0)>=effectiveTelegramCap || Date.now()-old.lastAttemptedAt<policy.minIntervalMinutes*60000)){deferredByCadence++;continue;}
+  }
   processed += 1;
   event.last_attempt_at = new Date().toISOString();
   event.last_error = null;
@@ -179,14 +204,15 @@ for (const { file, event } of candidates) {
   if (event.channel === 'telegram' && (!process.env.TELEGRAM_BOT_TOKEN || !process.env.TELEGRAM_CHANNEL_ID)) throw new Error('Missing Telegram configuration; no provider attempt made.');
   const store = await journal(event);
   const outcome = await deliverOnce(event, async () => {
-    const identity = `social-delivery-budget:${event.channel}`;
-    const deliveryBudget = await journal({ idempotency_key: identity });
+    const budgetIdentity = `social-delivery-budget:${event.channel}`;
+    const deliveryBudget = await journal({ idempotency_key: budgetIdentity });
     const dueDay = event.channel === 'x' ? dayKey(new Date(Date.now() + 10 * 60_000).toISOString()) : today;
     const baseline = { [today]: event.channel === 'x' ? xUsedToday : telegramUsedToday };
     if (event.channel === 'x') baseline[dueDay] = Math.max(baseline[dueDay] || 0, providerDayUsage(providerPosts, rows.map(row => row.event), dueDay, dayKey));
-    await reserveDelivery(deliveryBudget, { identity, days: [today, dueDay], baseline,
-      cap: event.channel === 'x' ? xDailyCap : telegramDailyCap,
-      spacingMs: event.channel === 'x' ? xMinIntervalMinutes * 60_000 : 0 });
+    await reserveDelivery(deliveryBudget, { identity: budgetIdentity, days: [today, dueDay], baseline,
+      cap: event.channel === 'x' ? xDailyCap : effectiveTelegramCap,
+      spacingMs: event.channel === 'x' ? xMinIntervalMinutes * 60_000 : autonomous ? policy.minIntervalMinutes*60000 : 0 });
+    if(identity)await reserveContent(registry,identity,policy);
     event.attempt_count = Number(event.attempt_count || 0) + 1;
     if (event.channel === 'x' && event.provider === 'buffer') {
       const post = await createBufferPost({ text: buildXCopy(event), mode: 'customScheduled', dueAt: new Date(Date.now() + 10 * 60_000).toISOString() });
@@ -195,19 +221,25 @@ for (const { file, event } of candidates) {
     if (event.channel === 'telegram' && event.provider === 'telegram') {
       const result = await publishTelegramEvent({ title: event.title, excerpt: event.excerpt,
         url: trackedUrl(event.url, event.slug, 'telegram'), post_id: event.publication_id, source: 'social_outbox' });
-      return { id: result?.result?.message_id, state: result?.skipped === false ? 'delivered' : null };
+      const id=result?.result?.message_id;
+      const providerUrl=String(result?.result?.chat?.username||'').toLowerCase()==='stripunion' && Number.isSafeInteger(id) ? 'https://t.me/StripUnion/'+id : null;
+      if(autonomous && !providerUrl)throw Error('TELEGRAM_RESULT_CHANNEL_UNPROVEN');
+      if(identity)await confirmContent(registry,identity,id,providerUrl);
+      return { id, state: result?.skipped === false ? 'delivered' : null,
+        evidence:identity?{provider_message_url:providerUrl,content_hash:identity.contentHash,canonical_url:identity.url,utm_url:trackedUrl(event.url,event.slug,'telegram'),topic_key:identity.topic}:null };
     }
     throw new Error('Unsupported social route.');
   }, store);
   const receipt = outcome.receipt;
   event.state = ['scheduled', 'delivered'].includes(receipt?.status) ? receipt.status : 'reconcile_required';
   event.provider_message_id = receipt?.provider_message_id || event.provider_message_id || null;
+  if(receipt?.evidence){event.delivery_evidence=receipt.evidence;}
   event.provider_due_at = receipt?.provider_due_at || event.provider_due_at || null;
   event.last_attempt_at = receipt?.attempted_at || event.last_attempt_at;
   event.next_attempt_at = null;
   event.last_error = ['scheduled', 'delivered'].includes(event.state) ? null : 'Provider acceptance requires reconciliation; automatic replay prohibited.';
   if (event.channel === 'x') { xUsedToday += 1; latestXAttemptMs = Date.now(); }
-  else if (event.channel === 'telegram') telegramUsedToday += 1;
+  else if (event.channel === 'telegram') {telegramUsedToday += 1;if(identity)historicalContent.push(identity);}
   if (event.state === 'delivered') delivered += 1;
   if (event.state === 'scheduled') scheduled += 1;
 

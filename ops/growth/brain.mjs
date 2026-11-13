@@ -131,6 +131,9 @@ for (const opportunity of growth?.opportunities || []) {
   });
 }
 
+for (const row of growth?.analyticsRecommendations || []) {
+ decisions.push({id:'analytics:'+row.host,kind:'analytics',action:row.action,priority:row.action==='MEASUREMENT_REVIEW'?65:45,eligible:row.action!=='OBSERVE',subject:row.host,surface:null,risk:'low',confidence:'observed',rationale:row.reason,evidence:row});
+}
 for (const row of growth?.ctaOpportunities || []) {
   decisions.push({
     id: 'cta:' + String(row.host || 'unknown') + ':' + String(row.page || '/'),

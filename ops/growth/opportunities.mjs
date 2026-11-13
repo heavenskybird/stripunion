@@ -600,6 +600,8 @@ const ctaOpportunities = [...gaLandingMap.entries()]
       ...row,
       affiliateClicks,
       affiliateCtr,
+      rateScope: 'Affiliate click events on a page divided by landing sessions for that page; not a user conversion rate',
+      dataQuality: ga4?.data?.dataQuality || null,
       engagementRate: row.sessions ? row.engagedSessions / row.sessions : null,
       recommendedAction: 'Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.',
       evidenceThreshold: 'Requires at least 20 sessions in the collected GA4 window.'
@@ -738,6 +740,7 @@ const result = {
     rows: keywordExpansion
   },
   authorityOpportunities,
+  analyticsRecommendations: (ga4?.data?.funnel||[]).map(row=>({host:row.host,action:row.sessions===null?'MEASUREMENT_REVIEW':row.sessions>=20&&row.affiliateClickEvents===0?'REVIEW_EXISTING_CTA':'OBSERVE',sessions:row.sessions,affiliateClickEvents:row.affiliateClickEvents,sourceCollectedAt:ga4?.data?.collectedAt,reason:'Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.'})),
   ctaOpportunities,
   behaviorOpportunities,
   opportunities,

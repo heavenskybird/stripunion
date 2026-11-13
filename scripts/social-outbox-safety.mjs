@@ -68,7 +68,7 @@ export async function deliverOnce(event, send, store, now = Date.now()) {
   try { result = await send(); }
   catch { return { held: true, receipt }; }
   if (!result?.id || !['scheduled', 'delivered'].includes(result.state)) return { held: true, receipt };
-  const confirmed = { ...receipt, status: result.state, provider_message_id: String(result.id), provider_due_at: result.dueAt || null };
+  const confirmed = { ...receipt, status: result.state, provider_message_id: String(result.id), provider_due_at: result.dueAt || null, ...(result.evidence?{evidence:result.evidence}:{}) };
   await store.write(confirmed);
   return { held: false, receipt: confirmed };
 }
