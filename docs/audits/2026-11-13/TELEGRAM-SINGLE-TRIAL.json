@@ -1,0 +1,10 @@
+{
+  "state": "REVIEW_REQUIRED_NOT_ENQUEUED",
+  "execute": false,
+  "channel": "telegram",
+  "proposedEventKey": "telegram__recovery-trial-20261113-stripchat-mobile",
+  "message": "Stripchat on mobile: browser access, home-screen shortcuts, and what to check before installing an app. Independent guide for adults 18+.\n\nhttps://stripunion.com/stripchat-app/?utm_source=telegram&utm_medium=social&utm_campaign=recovery_trial_20261113",
+  "scope": "Exactly one new pending event with zero attempts; no X, Buffer, purchase or postback; never reuse historical UNKNOWN records.",
+  "authorization": "Not granted. Global and channel sends remain disabled. Explicit exact-message approval and controlled temporary Telegram-only configuration are required before enqueue or send.",
+  "preflight": ["Refresh getMe/getChat/getChatMember read-only readiness", "Verify isolated runtime journal and single writer/legacy entry guards", "Recheck current history and exact event identity", "X remains false, cap one, exact trial selector", "Save rollback flags and verify final provider message_id and public message URL", "Restore paused configuration after single accepted send or uncertainty; reconcile without replay"]
+}
