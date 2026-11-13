@@ -1,14 +1,7 @@
 {
-  "phase": "post",
-  "releaseNumber": 191,
-  "expectedMergeSha": "96c4947d1fa711925f502e4c7f72aae16ee1f5c5",
-  "rollbackBuild": {
-    "id": "01a1d262-cc3f-71a3-a77a-70faf5f1c9b2",
-    "state": "completed",
-    "createdAt": "2026-11-13T00:50:52Z",
-    "sha": null
-  },
-  "preflightRunId": "43346617793",
-  "preflightReceiptSha": "fee195bf4077f9ae9796ef9f888e9c3f0d5fa137",
-  "note": "Source deployed with sender stillpaused; standing Telegram authorization does not fabricate variable access."
+  "phase": "pre",
+  "releaseNumber": 186,
+  "expectedCandidateHead": "2ec003a6e6c93c300b49607c36d37406d29325ab",
+  "knownRecoveryGuideCount": 75,
+  "scope": "Blog infrastructure only; BLOG_PUBLISH_ENABLED remainsfalse; Telegram standing authorization separate"
 }
