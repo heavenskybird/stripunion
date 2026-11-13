@@ -1,103 +1,17 @@
-import { BetaAnalyticsDataClient } from '@google-analytics/data';
-import { googleCredentials } from '../lib/google-auth.mjs';
-import { daysAgo, writeSnapshot } from '../lib/io.mjs';
-
-const propertyId = process.env.GA4_PROPERTY_ID || '530171093';
-const endDate = process.env.SEO_END_DATE || daysAgo(1);
-const startDate = process.env.SEO_START_DATE || daysAgo(31);
-
-const client = new BetaAnalyticsDataClient({
-  credentials: googleCredentials()
-});
-
-function normalizeReport(response) {
-  const dimensionNames = response.dimensionHeaders?.map((h) => h.name) || [];
-  const metricNames = response.metricHeaders?.map((h) => h.name) || [];
-
-  return (response.rows || []).map((row) => {
-    const item = {};
-    dimensionNames.forEach((name, index) => {
-      item[name] = row.dimensionValues?.[index]?.value ?? null;
-    });
-    metricNames.forEach((name, index) => {
-      const raw = row.metricValues?.[index]?.value ?? '0';
-      item[name] = Number(raw);
-    });
-    return item;
-  });
-}
-
-const [landingResponse] = await client.runReport({
-  property: `properties/${propertyId}`,
-  dateRanges: [{ startDate, endDate }],
-  dimensions: [
-    { name: 'date' },
-    { name: 'hostName' },
-    { name: 'landingPagePlusQueryString' },
-    { name: 'sessionSourceMedium' },
-    { name: 'country' },
-    { name: 'deviceCategory' }
-  ],
-  metrics: [
-    { name: 'sessions' },
-    { name: 'activeUsers' },
-    { name: 'engagedSessions' },
-    { name: 'keyEvents' },
-    { name: 'totalRevenue' }
-  ],
-  limit: 100000
-});
-
-const [marketResponse] = await client.runReport({
-  property: `properties/${propertyId}`,
-  dateRanges: [{ startDate, endDate }],
-  dimensions: [
-    { name: 'date' },
-    { name: 'hostName' },
-    { name: 'country' },
-    { name: 'language' },
-    { name: 'deviceCategory' }
-  ],
-  metrics: [
-    { name: 'sessions' },
-    { name: 'activeUsers' },
-    { name: 'engagedSessions' },
-    { name: 'keyEvents' },
-    { name: 'totalRevenue' }
-  ],
-  limit: 100000
-});
-
-const [eventResponse] = await client.runReport({
-  property: `properties/${propertyId}`,
-  dateRanges: [{ startDate, endDate }],
-  dimensions: [
-    { name: 'date' },
-    { name: 'eventName' },
-    { name: 'hostName' },
-    { name: 'pagePath' }
-  ],
-  metrics: [
-    { name: 'eventCount' },
-    { name: 'totalUsers' }
-  ],
-  limit: 100000
-});
-
-const rows = normalizeReport(landingResponse);
-const marketRows = normalizeReport(marketResponse);
-const eventRows = normalizeReport(eventResponse);
-
-await writeSnapshot('ga4', endDate, {
-  source: 'google-analytics-4',
-  propertyId,
-  startDate,
-  endDate,
-  collectedAt: new Date().toISOString(),
-  rowCount: rows.length,
-  marketRowCount: marketRows.length,
-  eventRowCount: eventRows.length,
-  rows,
-  marketRows,
-  eventRows
-});
+import {BetaAnalyticsDataClient}from'@google-analytics/data';import{googleCredentials}from'../lib/google-auth.mjs';import{daysAgo,writeSnapshot}from'../lib/io.mjs';import{readGa4Report,hostFunnel}from'../lib/ga4-reports.mjs';
+const propertyId=process.env.GA4_PROPERTY_ID||'530171093',endDate=process.env.SEO_END_DATE||daysAgo(1),startDate=process.env.SEO_START_DATE||daysAgo(31);
+const client=new BetaAnalyticsDataClient({credentials:googleCredentials()});
+const common={property:`properties/${propertyId}`,dateRanges:[{startDate,endDate}]};
+const dims=names=>names.map(name=>({name})),metrics=dims;
+const sessionMetrics=['sessions','activeUsers','totalUsers','engagedSessions','keyEvents','screenPageViews','userEngagementDuration'];
+const landing=await readGa4Report(client,{...common,dimensions:dims(['date','hostName','landingPagePlusQueryString','sessionSourceMedium','sessionDefaultChannelGroup','country','deviceCategory']),metrics:metrics(sessionMetrics)});
+const market=await readGa4Report(client,{...common,dimensions:dims(['date','hostName','country','language','deviceCategory']),metrics:metrics(sessionMetrics)});
+const events=await readGa4Report(client,{...common,dimensions:dims(['date','eventName','hostName','pagePath','sessionSourceMedium','sessionCampaignName','sessionManualAdContent']),metrics:metrics(['eventCount','totalUsers'])});
+const daily=await readGa4Report(client,{...common,dimensions:dims(['date','hostName']),metrics:metrics(sessionMetrics)});
+const diagnostic=await readGa4Report(client,{...common,dimensions:dims(['date','eventName','hostName']),metrics:metrics(['eventCount']),dimensionFilter:{filter:{fieldName:'eventName',stringFilter:{matchType:'EXACT',value:'recovery_consent_check'}}}});
+const reports={landing,market,events,daily,diagnostic};
+const snapshot={source:'google-analytics-4',propertyId,startDate,endDate,collectedAt:new Date().toISOString(),propertyTimeZone:daily.metadata.timeZone,rowCount:landing.rows.length,marketRowCount:market.rows.length,eventRowCount:events.rows.length,rows:landing.rows,marketRows:market.rows,eventRows:events.rows,dailyHostRows:daily.rows,
+ dataQuality:{complete:Object.values(reports).every(r=>r.complete),recentDates:'PROVISIONAL_PROVIDER_PROCESSING_LAG',consentCoverage:'Only measured consent-respecting traffic; unobserved visits cannot be inferred',users:'Non-additive across dates/dimensions; do not sum as unique people',reports:Object.fromEntries(Object.entries(reports).map(([k,r])=>[k,{rowCount:r.rowCount,complete:r.complete,...r.metadata}]))},
+ funnel:hostFunnel(daily.rows,events.rows),diagnostic:{newEventsSent:0,eventName:'recovery_consent_check',rows:diagnostic.rows,status:diagnostic.rows.length?'EXISTING_EVENT_OBSERVED':'INGESTION_UNCONFIRMED'},telegramPerformance:landing.rows.filter(r=>/^telegram\s*\//i.test(r.sessionSourceMedium||'')),
+ scope:'GA4 property calendar dates. GSC uses Pacific dates; Bing/provider windows differ. Report stage counts separately; never invent end-to-end person-level matching.'};
+await writeSnapshot('ga4',endDate,snapshot);console.log('GA4_OFFICIAL_ACCEPTANCE '+JSON.stringify({propertyId,propertyTimeZone:snapshot.propertyTimeZone,startDate,endDate,funnel:snapshot.funnel,complete:snapshot.dataQuality.complete,diagnostic:snapshot.diagnostic.status,newEventsSent:0}));

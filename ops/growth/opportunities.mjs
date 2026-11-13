@@ -600,6 +600,8 @@ const ctaOpportunities = [...gaLandingMap.entries()]
       ...row,
       affiliateClicks,
       affiliateCtr,
+      rateScope: 'Affiliate click events on a page divided by landing sessions for that page; not a user conversion rate',
+      dataQuality: ga4?.data?.dataQuality || null,
       engagementRate: row.sessions ? row.engagedSessions / row.sessions : null,
       recommendedAction: 'Review CTA visibility, internal-link context and offer alignment; change only through a measured 14-day experiment.',
       evidenceThreshold: 'Requires at least 20 sessions in the collected GA4 window.'
