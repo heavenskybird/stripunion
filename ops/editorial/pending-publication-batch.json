@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T01:47:52.453Z",
+  "generatedAt": "2026-11-13T03:05:28.557Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-temporary-travel-discovery-plan.json",
-    "ops/editorial/content-artifacts/creator-platform-planned-break-continuity-workflow.json",
-    "ops/editorial/content-artifacts/adult-platform-smart-speaker-voice-privacy-review.json",
-    "ops/editorial/content-artifacts/premium-video-library-depth-sampling-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-entry-stage-comparison.json"
+    "ops/editorial/content-artifacts/adult-anime-library-edition-note-workflow.json",
+    "ops/editorial/content-artifacts/free-video-address-bar-autocomplete-privacy-check.json",
+    "ops/editorial/content-artifacts/adult-games-runtime-prerequisites-install-check.json",
+    "ops/editorial/content-artifacts/adult-shop-return-photo-request-privacy-check.json",
+    "ops/editorial/content-artifacts/vr-adult-companion-device-interruption-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-temporary-travel-discovery-plan.js",
-    "src/data/guides/creator-platform-planned-break-continuity-workflow.js",
-    "src/data/guides/adult-platform-smart-speaker-voice-privacy-review.js",
-    "src/data/guides/premium-video-library-depth-sampling-workflow.js",
-    "src/data/guides/live-cam-platform-entry-stage-comparison.js"
+    "src/data/guides/adult-anime-library-edition-note-workflow.js",
+    "src/data/guides/free-video-address-bar-autocomplete-privacy-check.js",
+    "src/data/guides/adult-games-runtime-prerequisites-install-check.js",
+    "src/data/guides/adult-shop-return-photo-request-privacy-check.js",
+    "src/data/guides/vr-adult-companion-device-interruption-preflight.js"
   ],
   "categories": [
-    "dating-hookups",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "premium-videos",
-    "live-cams"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-platform-temporary-travel-discovery-plan",
-    "creator-platform-planned-break-continuity-workflow",
-    "adult-platform-smart-speaker-voice-privacy-review",
-    "premium-video-library-depth-sampling-workflow",
-    "live-cam-platform-entry-stage-comparison"
+    "adult-anime-library-edition-note-workflow",
+    "free-video-address-bar-autocomplete-privacy-check",
+    "adult-games-runtime-prerequisites-install-check",
+    "adult-shop-return-photo-request-privacy-check",
+    "vr-adult-companion-device-interruption-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43347233099",
-  "phase": "closed"
+  "r1CycleId": "43356308374"
 }

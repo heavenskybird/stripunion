@@ -1,0 +1,124 @@
+{
+  "backlogId": "vr-adult-companion-device-interruption-preflight",
+  "slug": "vr-adult-companion-device-interruption-preflight",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Companion-Device Interruptions Before Use",
+  "description": "Check how a companion phone, notifications, calls, and device handoffs may interrupt a VR session before choosing a platform or setup.",
+  "excerpt": "A headset experience can depend on more than the headset itself. Use this practical preflight to consider companion-device alerts, account prompts, and interruption recovery without assuming every platform behaves alike.",
+  "keyTakeaways": [
+    "Identify whether your planned setup uses a companion phone, browser, or account prompt during access or playback.",
+    "Check headset and phone notification settings separately; changing one device may not silence the other.",
+    "Consider who can see incoming call, message, or account alerts on a shared screen or nearby device.",
+    "Test ordinary, non-sensitive notifications and interruption controls before relying on a setup.",
+    "Do not assume that a paused stream, closed headset view, or phone screen lock ends every account session."
+  ],
+  "sections": [
+    {
+      "heading": "Map the devices involved in your setup",
+      "paragraphs": [
+        "A VR viewing setup may include a headset, a phone used for account access or setup, a browser, and possibly a computer or casting device. Which devices matter depends on the platform and the way you access it. Before choosing a library or subscription, write down the devices you expect to use and the role each one plays. A phone may be needed only for initial setup, or it may remain involved for authentication, controls, or account notices; do not assume either arrangement without checking.",
+        "This is an interruption and privacy preflight, not a claim that a particular service supports a particular workflow. Look at current platform instructions and your device settings. If the setup requires switching repeatedly between headset and phone, consider whether that fits your routine and whether a phone preview could expose sensitive account information to someone nearby. The goal is to discover dependencies before you make an access decision."
+      ],
+      "bullets": [
+        "List the headset, companion device, browser, and any casting or computer device involved.",
+        "Identify which device displays account, billing, or sign-in prompts.",
+        "Check whether the devices are personal, shared, or managed."
+      ]
+    },
+    {
+      "heading": "Review alerts on both headset and companion device",
+      "paragraphs": [
+        "Notification controls are often device-specific. A headset may have its own system alerts, while a phone can show message previews, calls, account emails, or authentication prompts. Muting the headset does not necessarily change the phone, and silencing the phone may affect calls or security messages you still want to receive. Review the relevant settings on each device and decide which alerts should be delayed, hidden, or allowed for your circumstances.",
+        "Pay attention to where a notification appears. A lock-screen preview can reveal message text, while a banner may be visible to someone in the room or reflected on another display. If the headset is shared, check its active profile and the notification controls available to that profile. Avoid making broad changes that could interfere with urgent alerts or another person's settings. A short test with ordinary, non-sensitive notifications can help you understand the display behavior before use."
+      ],
+      "table": {
+        "caption": "Companion-device interruption points to check",
+        "headers": [
+          "Device or event",
+          "What to inspect",
+          "Decision to make"
+        ],
+        "rows": [
+          [
+            "Headset system alerts",
+            "Banners, overlays, and notification previews",
+            "Which alerts should appear while the headset is in use?"
+          ],
+          [
+            "Phone lock screen",
+            "Message text, account notices, and authentication prompts",
+            "Should previews be hidden or delayed?"
+          ],
+          [
+            "Incoming calls",
+            "Whether the call interrupts playback or appears on another screen",
+            "Do you want calls allowed, muted, or routed differently?"
+          ],
+          [
+            "Account sign-in",
+            "Where codes or approval requests are displayed",
+            "Can you complete sign-in without exposing a shared device?"
+          ],
+          [
+            "Casting or handoff",
+            "Which screen becomes visible and whether the session remains active",
+            "Can you stop or end the session clearly?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Plan for calls and other interruptions",
+      "paragraphs": [
+        "Consider what you want to happen when a call, message, or account prompt arrives. Some people prefer to pause and respond; others may choose to delay non-urgent alerts. The available controls depend on the operating system, headset, and platform, so verify them in the current device settings rather than assuming a general focus mode affects every component. If you rely on an alert for safety or accessibility, account for that before silencing notifications.",
+        "Check whether you can pause or leave the platform quickly and whether the headset makes the control easy to reach. A phone alert can lead you to remove the headset or look at another screen; decide whether that transition might expose the session to someone nearby. If you share a room or device, choose a setup that permits a clear pause and exit. Do not rely on a platform preserving a private state after an interruption unless its current documentation says how that works."
+      ]
+    },
+    {
+      "heading": "Separate sign-in and account prompts from playback",
+      "paragraphs": [
+        "Authentication prompts and account notices may arrive through a companion device even when content is viewed in a headset. Before signing in, consider whether the phone is already unlocked, whether notifications appear on its lock screen, and whether the account is shared with another person. Keep passwords and one-time codes private, and avoid approving an unexpected sign-in request. If a service asks you to connect a third-party account, read what account is being linked and what information may be shared before proceeding.",
+        "Once signed in, check whether the headset or phone retains a session after you leave the viewing screen. Pausing, closing a browser tab, removing the headset, and signing out are different actions. The exact behavior varies, so look for the platform's account and session controls. On a borrowed or shared device, do not assume that closing the app ends access; sign out when appropriate and follow the device owner's rules."
+      ]
+    },
+    {
+      "heading": "Run a low-risk preflight and make a repeatable routine",
+      "paragraphs": [
+        "Before depending on a new configuration, test it with ordinary content and non-sensitive notifications. Confirm which device shows banners, whether a call interrupts the headset, and how to pause, return to the home environment, or end the session. Test only settings you are authorized to change, especially on managed devices. If the behavior is confusing, check the headset and phone documentation or the platform's help material before using a setup that could expose account information.",
+        "A simple routine might include checking the active headset profile, adjusting appropriate notification previews, confirming the phone's lock-screen behavior, and making sure the exit control is easy to reach. Review the routine again after a device or operating-system update because settings and prompts can change. No checklist can guarantee that every interruption stays private. It can, however, help you make an informed choice about device fit, reduce accidental exposure, and avoid discovering a disruptive dependency only after you have committed to a platform."
+      ],
+      "bullets": [
+        "Test interruption behavior before using a shared or visible space.",
+        "Keep essential alerts available if muting them would create a safety or accessibility problem.",
+        "Recheck settings after changing devices, profiles, or operating-system versions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does silencing headset notifications also silence my phone?",
+      "answer": "Not necessarily. Headsets and phones generally have separate notification controls. Check both devices and test the behavior with ordinary alerts before relying on a configuration."
+    },
+    {
+      "question": "Will locking my companion phone end a VR platform session?",
+      "answer": "Not automatically in every setup. Locking a phone, closing an app, pausing playback, and signing out are different actions. Check the platform and device controls rather than assuming one action ends the others."
+    },
+    {
+      "question": "Should I turn off all notifications before using a headset?",
+      "answer": "That depends on your needs. Consider which alerts should remain available, including urgent or accessibility-related notifications, and adjust previews or interruptions selectively where the device allows."
+    },
+    {
+      "question": "How can I check interruption behavior without exposing personal activity?",
+      "answer": "Use ordinary, non-sensitive alerts and test the setup before relying on it. Review where banners appear, how sign-in prompts are handled, and whether you can pause or exit clearly."
+    }
+  ],
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
