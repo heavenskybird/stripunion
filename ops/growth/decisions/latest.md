@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-11-13T00:15:00.555Z
+Generated: 2026-11-13T01:48:13.180Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -32,6 +32,8 @@ Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHar
 - **CREATE** · 51 · iphone hentai sites · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 48 · creator fan platform · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **UPDATE** · 46 · Stripchat pricing / tokens · eligible=true · risk=low · confidence=low · refresh existing /stripchat-pricing landing page using clustered search evidence
+- **OBSERVE** · 45 · blog.stripunion.com · eligible=false · risk=low · confidence=observed · Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.
+- **OBSERVE** · 45 · stripunion.com · eligible=false · risk=low · confidence=observed · Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.
 - **CREATE** · 44 · adult video search · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 40 · sex anime game · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **HOLD** · 37 · best paid hentai sites · eligible=false · risk=high · confidence=low · validate audience fit and an official monetization relationship before adding a commercial CTA

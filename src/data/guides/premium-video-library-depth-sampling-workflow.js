@@ -1,0 +1,121 @@
+export default {
+  "slug": "premium-video-library-depth-sampling-workflow",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "How to Judge Premium Video Library Depth, Not Just Its Headline Size",
+  "description": "Use a repeatable sampling method to compare premium video libraries by relevant coverage, title detail, organization, and access terms—not headline counts alone.",
+  "excerpt": "A large catalog number does not show whether a library contains the titles, collections, or usable details you care about. Sample a consistent set of searches before choosing a subscription.",
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "keyTakeaways": [
+    "Headline catalog size is not a substitute for checking coverage of your own viewing interests.",
+    "Use the same search prompts and recording method across platforms to make a fair comparison.",
+    "Record access status, title details, and organization—not only whether a result appears.",
+    "Distinguish a broad assortment from depth within a specific subject or collection.",
+    "Recheck membership terms for sampled titles; search visibility does not prove that a title is included."
+  ],
+  "sections": [
+    {
+      "heading": "Define what library depth means for you",
+      "paragraphs": [
+        "A catalog can be broad across many topics but shallow in the areas a particular viewer wants. Conversely, a smaller library may have more useful organization or continuity for a focused interest. Before comparing services, write down the kinds of titles, creators, collections, or other non-explicit metadata that matter to you. Keep the list specific enough to test but not so narrow that it measures only one title.",
+        "Separate breadth from depth. Breadth asks how many different areas the library covers. Depth asks whether it has enough relevant material within a selected area to support continued use. Organization asks whether you can identify collections, related entries, or sequence information. These are separate observations; do not collapse them into a single impression of “large” or “good.”",
+        "Set a practical decision threshold in advance. For example, you might require several relevant entries with clear metadata and usable access terms in each of your priority areas. The threshold is personal, not a universal score. Establishing it first makes it less likely that a striking front page or a single appealing result will decide the comparison."
+      ],
+      "bullets": [
+        "Choose a few priority areas and define what counts as relevant.",
+        "Score breadth, depth, and organization separately.",
+        "Decide what evidence would make a library useful before browsing."
+      ]
+    },
+    {
+      "heading": "Build a repeatable sample instead of browsing at random",
+      "paragraphs": [
+        "Use the same small set of search prompts for every library. Include one broad query, a couple of narrower queries, and a collection or series term if that kind of organization matters to you. Do not use explicit or identifying personal information in the prompts. The aim is to compare how each catalog responds to equivalent searches, not to exhaustively audit every title.",
+        "Record the date, whether you were logged in, the search terms used, and the visible result count only if the interface provides one. Counts may change, include duplicates, or reflect results that are not part of membership access. Treat them as observations from that moment, not as fixed catalog facts or a guarantee of future availability.",
+        "For each search, inspect a consistent number of results or stop after a defined amount of time. This prevents one platform’s interface from consuming far more effort than another’s. If you cannot inspect a result’s details without an account or payment, mark that limitation rather than guessing what the title includes."
+      ],
+      "table": {
+        "caption": "A simple library-depth sampling worksheet",
+        "headers": [
+          "Sample element",
+          "What to note",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Priority area",
+            "Relevant, partly relevant, or no useful result.",
+            "Separates personal fit from catalog size."
+          ],
+          [
+            "Result detail",
+            "Visible metadata and collection information.",
+            "Shows whether a result can be evaluated before access."
+          ],
+          [
+            "Organization",
+            "Series, collections, or related-title navigation, if present.",
+            "Indicates whether finding related material is practical."
+          ],
+          [
+            "Access status",
+            "Included, separately sold, unclear, or unavailable to verify.",
+            "Prevents search results being mistaken for membership access."
+          ],
+          [
+            "Review date",
+            "When and under what access conditions you checked.",
+            "Makes later comparisons interpretable."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check relevance and metadata, not just result volume",
+      "paragraphs": [
+        "A result may match a search term without matching the underlying interest. Open title details where available and check the information that matters to you: publisher or creator attribution, format, date, collection name, runtime, language, or other descriptive metadata. Do not assume that a label, thumbnail, or short snippet tells the full story.",
+        "Note missing information as missing, not as evidence of a particular content quality. A platform may provide sparse details for some titles or display them only after login. That reduces your ability to assess fit before paying, even if the library could contain relevant material. Record the limitation clearly and compare what can actually be verified at the stage you are evaluating.",
+        "Look for duplication and near-duplication. Multiple entries may represent different versions, parts of one collection, or repeated listings. A raw count can therefore overstate the variety available. When the platform provides enough information, group related entries and note whether they add distinct options or mainly repeat the same item."
+      ],
+      "bullets": [
+        "Inspect title-level details where available.",
+        "Mark missing or inaccessible information explicitly.",
+        "Avoid counting apparent duplicates as independent depth without evidence."
+      ]
+    },
+    {
+      "heading": "Separate catalog presence from membership entitlement",
+      "paragraphs": [
+        "Keep your notes focused on the purchase decision. There is no need to record sensitive viewing history or build a detailed personal profile. A short, local worksheet can compare what is available, what is verifiable, and what remains uncertain without creating an unnecessary record of individual viewing activity."
+      ]
+    },
+    {
+      "heading": "Turn your sample into a decision, not a score contest",
+      "paragraphs": [
+        "Review the results against your original threshold. A library with many results may still fail your priority needs if the relevant titles are hard to find, poorly described, or outside the membership entitlement. A smaller catalog may be a better fit if its verified selection aligns with your intended use. The point is not to crown a universal winner but to identify which trade-offs matter to you.",
+        "Use a short decision summary: strongest fit, weakest fit, unresolved question, and a reason to wait. If a key uncertainty concerns access or terms, seek the provider’s documented answer before subscribing. If you cannot resolve it, treat that uncertainty as part of the decision rather than filling the gap with an assumption.",
+        "Repeat the same sample if you compare another service later. Keep the prompts stable and record the date, since catalogs and labels can change. Do not mistake a one-time snapshot for a permanent statement about a platform’s library."
+      ],
+      "bullets": [
+        "Compare each library against your own threshold, not a universal ranking.",
+        "List unresolved access or metadata questions before paying.",
+        "Date your observations and repeat the same sample for later comparisons."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a larger video catalog always better value?",
+      "answer": "No. A headline count does not show how much of the catalog matches your interests, whether entries are duplicates, or whether titles are included in the plan. Sample relevant areas and verify access terms."
+    },
+    {
+      "question": "How many searches should I use?",
+      "answer": "Use enough to cover your priority interests while keeping the method comparable across services. A few broad and narrow prompts are usually more useful than browsing randomly for different lengths of time."
+    },
+    {
+      "question": "Can I trust search results to show what a subscription includes?",
+      "answer": "Not by themselves. Check the access label and membership terms for titles that matter to you. A search result may be a preview, a separate purchase, or otherwise outside the plan."
+    }
+  ]
+};
