@@ -1,0 +1,108 @@
+export default {
+  "slug": "affiliate-report-data-freshness-backfill-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reports: Check Data Freshness, Delays, and Backfills Before You Rely on Them",
+  "description": "A practical checklist for evaluating affiliate dashboard update timing, delayed conversions, historical corrections, and report reliability before building operations around the data.",
+  "excerpt": "A dashboard number is only useful when you understand when it updates and whether older records can change. Check report freshness, late-arriving events, and correction practices before using affiliate data for decisions.",
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "keyTakeaways": [
+    "Distinguish the reporting period from the time a dashboard last refreshed.",
+    "Ask how delayed events and later corrections are represented in reports.",
+    "Record the report’s extraction time when comparing results across systems.",
+    "Avoid treating recent incomplete periods as final performance evidence.",
+    "Keep a repeatable reconciliation process for material changes and unexplained gaps."
+  ],
+  "sections": [
+    {
+      "heading": "Separate event time from report update time",
+      "paragraphs": [
+        "Affiliate dashboards can present dates that refer to different moments: when a click occurred, when a conversion was recorded, when a status changed, or when a report was refreshed. Those timestamps answer different questions. A date filter alone may not tell you whether the data includes all events that belong in that period. Before comparing totals, find the definitions for the date field, reporting time zone, and update schedule.",
+        "Make a small documentation note for each report you depend on. Include the report name, selected date range, time zone if stated, filters, and the time you exported or viewed it. If the dashboard gives a last-updated indicator, record that too. These details help explain why two snapshots differ without jumping to the conclusion that tracking failed or that a program changed its accounting."
+      ]
+    },
+    {
+      "heading": "Ask how late-arriving events are handled",
+      "paragraphs": [
+        "A conversion may not appear in a report at the same time as the visit that led to it. Processing, validation, customer action, or program-specific review can create a delay. The important operational question is not to guess a universal delay, but to learn how the program describes its own data timing. Look for a stated reporting cadence, definitions of provisional records, and guidance about when a reporting period should be considered settled.",
+        "When timing is undocumented, ask the program a narrow question: whether reports can receive late events for a past date range and how those additions are labeled. Save the response with its date and source. Do not convert a single observation into a general rule. A quiet dashboard shortly after activity is not necessarily proof that a referral was lost, and an early total should not be treated as a settled figure."
+      ],
+      "bullets": [
+        "Check for a last-updated timestamp or report-generation time.",
+        "Ask whether late events are added to their original event date or the processing date.",
+        "Note whether late additions are distinguishable from records present in an earlier snapshot."
+      ]
+    },
+    {
+      "heading": "Understand corrections and backfills",
+      "paragraphs": [
+        "A backfill is a later change to previously reported data. It may add missing records, revise a status, or correct a classification. Programs may handle such changes differently, so do not assume that a dashboard is immutable after an initial display. Find out whether historical reports can change, how the change is documented, and whether exports provide enough information to compare one version with another.",
+        "If a correction affects an important decision, preserve the earlier export and obtain the newer one rather than overwriting your only copy. Compare the same date range, filters, and definitions. Record what changed and any explanation supplied. This creates an evidence trail for ordinary reconciliation and makes it easier to distinguish a genuine historical adjustment from a difference caused by a different time zone, filter, or reporting view."
+      ],
+      "table": {
+        "caption": "A lightweight way to document report snapshots",
+        "headers": [
+          "Record",
+          "Why to capture it"
+        ],
+        "rows": [
+          [
+            "Report name and selected dates",
+            "Makes the scope of each comparison reproducible."
+          ],
+          [
+            "Time zone and date-field definition",
+            "Helps explain date-boundary differences."
+          ],
+          [
+            "Export or viewing timestamp",
+            "Shows which snapshot was available at the time."
+          ],
+          [
+            "Filters and status selections",
+            "Prevents comparing different slices of data."
+          ],
+          [
+            "Correction notes or support response",
+            "Preserves context for later changes or questions."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a calm comparison workflow",
+      "paragraphs": [
+        "Use consistent intervals and definitions when checking reports. Compare like with like: the same date range, time zone, event definition, status selection, and traffic identifiers. If you maintain your own click records, keep them separate from the program’s conversion records and avoid assuming that a one-to-one relationship must appear in every report. Differences can have multiple causes, and the fields available may not be equivalent.",
+        "For a discrepancy, start with the least ambiguous checks: confirm filters, date boundaries, status definitions, and the report’s update time. Then compare snapshots and ask the program a specific question about the affected records or period. Keep communication factual and avoid sending unnecessary personal data or visitor-level information. If the issue remains unresolved, your consistent records will make follow-up clearer."
+      ]
+    },
+    {
+      "heading": "Set decision rules for provisional data",
+      "paragraphs": [
+        "Decide in advance how you will treat recent periods that may still be changing. For example, label them provisional in internal reports, separate them from completed periods, and avoid using them as the sole basis for a major operational choice. The exact waiting period should come from the program’s documented reporting behavior and your own tolerance for uncertainty, not from a generic industry assumption.",
+        "A clear internal label prevents tentative figures from becoming accepted facts through repetition. If a later backfill changes a total, update the record with a note rather than silently replacing the old value. This is especially useful when multiple people use dashboard exports or when figures feed forecasts, reconciliation, or content decisions. The objective is traceability, not false precision."
+      ],
+      "bullets": [
+        "Mark incomplete periods as provisional in working reports.",
+        "Preserve snapshots when historical data changes materially.",
+        "Use the same date range, filters, and definitions for comparisons.",
+        "Escalate with a concise description of the report, period, and discrepancy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a dashboard has no recent conversions, does that prove tracking is broken?",
+      "answer": "No. Reporting delay, event definitions, filters, and the absence of qualifying activity can all affect what appears. Verify the report scope and update information before drawing a conclusion."
+    },
+    {
+      "question": "Should I overwrite an older report export after a correction?",
+      "answer": "Keep both versions when the change matters. Record when each was captured and what changed so you can trace decisions and discuss the correction accurately."
+    },
+    {
+      "question": "What should I ask a program about report timing?",
+      "answer": "Ask when reports refresh, which event date a report uses, whether late events can appear in prior periods, and how historical corrections are identified. Save the answer and its source."
+    }
+  ]
+};
