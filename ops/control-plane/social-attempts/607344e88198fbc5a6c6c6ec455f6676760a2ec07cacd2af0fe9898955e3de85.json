@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "kind": "telegram-content-registry",
+  "idempotency_key": "social-content-registry:telegram:stripunion",
+  "channel": "@StripUnion",
+  "provisionedAt": "2026-11-13T01:34:32.013Z",
+  "entries": [
+    {
+      "url": "https://stripunion.com/stripchat-app",
+      "topic": "stripchat-mobile-app",
+      "text": "stripchat on mobile browser access home screen shortcuts and what to check before installing an app independent guide for adults 18",
+      "contentHash": "4a140e800874f64d3ba6300fa9f4ca23d9619b6f65fc7107a466130d6937f7a3",
+      "state": "MANUAL_ALREADY_SENT_UNVERIFIED_PROVIDER_ID",
+      "providerMessageId": null,
+      "reportedLocalDate": "2026-11-13"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-affiliate-payout-reconciliation-workflow",
+      "topic": "https://stripunion.com/guides/adult-affiliate-payout-reconciliation-workflow",
+      "text": "affiliate payout reconciliation a webmaster s monthly recordkeeping workflow",
+      "contentHash": "0027994faffa980a00aec86c6ac3290fce6b195aa49febc134dd377805f2eb24",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-affiliate-payout-reconciliation-workflow:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-anime-access-model-and-entitlement-checklist",
+      "topic": "https://stripunion.com/guides/adult-anime-access-model-and-entitlement-checklist",
+      "text": "adult anime platforms check what free and paid access includes",
+      "contentHash": "cace04f515664d6b263c16e75c373262c5eab925a51bef1704aae11a1c202b59",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-anime-access-model-and-entitlement-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-anime-content-labels-and-source-checklist",
+      "topic": "https://stripunion.com/guides/adult-anime-content-labels-and-source-checklist",
+      "text": "adult anime platforms check content labels age boundaries and sources",
+      "contentHash": "406356badb904cb36ccb508bf6ad722b63f43a7d1660b4ed74ed7f29c11ce6fd",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-anime-content-labels-and-source-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-anime-language-metadata-accessibility-checklist",
+      "topic": "https://stripunion.com/guides/adult-anime-language-metadata-accessibility-checklist",
+      "text": "how to check language subtitles and metadata on adult anime platforms",
+      "contentHash": "2cc8b705a1c2f581a1d56a65f595c1600c35768c1a3f90cbcd7b0bc2a5219c68",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-anime-language-metadata-accessibility-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-anime-platform-series-completeness-checklist",
+      "topic": "https://stripunion.com/guides/adult-anime-platform-series-completeness-checklist",
+      "text": "adult anime libraries check series completeness before choosing a platform",
+      "contentHash": "2db2bdba0da75de9d3579f65480389ad50840ab46e2e80211db40f7c3be8abe5",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-anime-platform-series-completeness-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-anime-reader-navigation-mobile-usability",
+      "topic": "https://stripunion.com/guides/adult-anime-reader-navigation-mobile-usability",
+      "text": "adult manga readers check mobile navigation and reading controls",
+      "contentHash": "6e997ff65d71862219153f53273458104700491eee79fe92fbd1084053e5c732",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-anime-reader-navigation-mobile-usability:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-game-build-source-provenance-checklist",
+      "topic": "https://stripunion.com/guides/adult-game-build-source-provenance-checklist",
+      "text": "adult games verify a storefront s build source and version details",
+      "contentHash": "28fe54e6ba43f3847f6883b5371e7858072b6e0407c6b4bf583624b47d77d200",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-game-build-source-provenance-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-game-community-participation-privacy-and-spoiler-checklist",
+      "topic": "https://stripunion.com/guides/adult-game-community-participation-privacy-and-spoiler-checklist",
+      "text": "adult game communities check privacy spoilers and participation rules",
+      "contentHash": "05cabb6d5ee82e7b81bfeae11be2567b5a5bfbacf954dd42032b6f56a7b71220",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-game-community-participation-privacy-and-spoiler-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-game-content-warnings-and-narrative-fit-checklist",
+      "topic": "https://stripunion.com/guides/adult-game-content-warnings-and-narrative-fit-checklist",
+      "text": "adult games check content warnings and story fit before choosing",
+      "contentHash": "16a6657384e6efde0c6f6d064fb2e812240156211a6a38022bff19fbd6395e77",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-game-content-warnings-and-narrative-fit-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-game-demo-and-early-access-purchase-checklist",
+      "topic": "https://stripunion.com/guides/adult-game-demo-and-early-access-purchase-checklist",
+      "text": "adult game demos and early access what to check before you buy",
+      "contentHash": "88559ffaae2a715a51b128574eaa97a2a334d2db003c5c88d07cdb9a78e13c9e",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-game-demo-and-early-access-purchase-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-game-save-data-and-progress-portability-checklist",
+      "topic": "https://stripunion.com/guides/adult-game-save-data-and-progress-portability-checklist",
+      "text": "adult game save data check progress backups and portability",
+      "contentHash": "b9adbd659e30389472af5b811873697ac5c1d54b66dfe3b944d3a50868dfc5f4",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-game-save-data-and-progress-portability-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-shop-gift-purchase-planning",
+      "topic": "https://stripunion.com/guides/adult-shop-gift-purchase-planning",
+      "text": "buying an adult product as a gift a practical shop and recipient checklist",
+      "contentHash": "b233df795a70a7272ac893005aeed3fe52e1e30308cc659805366b60a3077ccf",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-shop-gift-purchase-planning:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-shop-product-documentation-and-care-checklist",
+      "topic": "https://stripunion.com/guides/adult-shop-product-documentation-and-care-checklist",
+      "text": "adult shop product documentation check materials care and power details",
+      "contentHash": "76f5d6e1c66dc83b501f99a6ab6c6e57a61435cd843e32aa0dab8118a4e15d3b",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-shop-product-documentation-and-care-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-shop-product-listing-comparison-checklist",
+      "topic": "https://stripunion.com/guides/adult-shop-product-listing-comparison-checklist",
+      "text": "how to compare adult shop product listings before you buy",
+      "contentHash": "a78db33c79485c98bb8598cee305906832da3c06dc2006e33d429bb84656771a",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-shop-product-listing-comparison-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-shop-shipping-policy-comparison",
+      "topic": "https://stripunion.com/guides/adult-shop-shipping-policy-comparison",
+      "text": "how to compare adult shop shipping policies before checkout",
+      "contentHash": "b02b81d03c13f094698c1e8212af57827488a59604497f2a73fa27efd75a3d70",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-shop-shipping-policy-comparison:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-shop-total-cost-transparency-checklist",
+      "topic": "https://stripunion.com/guides/adult-shop-total-cost-transparency-checklist",
+      "text": "adult shop price transparency compare the full cost before checkout",
+      "contentHash": "c53688cb8ef33af4ce705f77013602311beed8ce355eb629570c75b7f00180ae",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-shop-total-cost-transparency-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/adult-site-account-data-minimization",
+      "topic": "https://stripunion.com/guides/adult-site-account-data-minimization",
+      "text": "adult site account privacy a data minimization checklist",
+      "contentHash": "1b739d6f2aa9eb3e3e6d0f06ee510b88186614e66b9da62fbb26f6a28b9ba299",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:adult-site-account-data-minimization:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/creator-platform-account-recovery-access-continuity",
+      "topic": "https://stripunion.com/guides/creator-platform-account-recovery-access-continuity",
+      "text": "creator platform account recovery build a secure access continuity plan",
+      "contentHash": "af43ec1c3328e49f27bbbbdaa92902f48be7785b0cbac6c587b3042fd6675294",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:creator-platform-account-recovery-access-continuity:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/creator-platform-discovery-dependence-audit",
+      "topic": "https://stripunion.com/guides/creator-platform-discovery-dependence-audit",
+      "text": "creator platforms audit discovery dependence before building an audience",
+      "contentHash": "fc22ee27317c1ba668526be031aa18548a303cbca64aa19225cfe6491b52a0a9",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:creator-platform-discovery-dependence-audit:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/creator-platform-earnings-statement-recordkeeping-checklist",
+      "topic": "https://stripunion.com/guides/creator-platform-earnings-statement-recordkeeping-checklist",
+      "text": "creator platform earnings statements a practical monthly review checklist",
+      "contentHash": "d8c8ab84289936206ee5dd8310b71a7b42a27cdb044032997bea767c80c80f4a",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:creator-platform-earnings-statement-recordkeeping-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/creator-platform-exit-content-portability-plan",
+      "topic": "https://stripunion.com/guides/creator-platform-exit-content-portability-plan",
+      "text": "creator platform exit planning protect your content and business records",
+      "contentHash": "d0b327f6b857362b4c365f0f78134be4bbc168d940d5bca2478ac032d8d96712",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:creator-platform-exit-content-portability-plan:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/creator-platform-fan-tier-and-offer-planning",
+      "topic": "https://stripunion.com/guides/creator-platform-fan-tier-and-offer-planning",
+      "text": "plan creator subscription tiers around audience fit and workload",
+      "contentHash": "2e80dec4d7b4516a5dd601ffcef5811e5d4522f08a6dff9b2afc1e176a0db4ae",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:creator-platform-fan-tier-and-offer-planning:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-cancellation-account-closure-checklist",
+      "topic": "https://stripunion.com/guides/dating-platform-cancellation-account-closure-checklist",
+      "text": "dating platform cancellation stop billing and close your account carefully",
+      "contentHash": "d4c3733e52c2288341c98db65208c76398c47e97a81b426721024c6f21103a8b",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-cancellation-account-closure-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-chat-to-first-meeting-plan",
+      "topic": "https://stripunion.com/guides/dating-platform-chat-to-first-meeting-plan",
+      "text": "dating platforms plan a safer move from chat to a first meeting",
+      "contentHash": "71fa2fa63d3871ea99a0266c30068fc000b0a271271ad63a45bf9070a405142b",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-chat-to-first-meeting-plan:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-community-quality-assessment",
+      "topic": "https://stripunion.com/guides/dating-platform-community-quality-assessment",
+      "text": "how to assess a dating platform s community before investing time",
+      "contentHash": "1cb3940dad691b761b5edbb99636e17b942b3b49a504cb897ad2b37061b249ff",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-community-quality-assessment:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-notification-and-inbox-privacy-checklist",
+      "topic": "https://stripunion.com/guides/dating-platform-notification-and-inbox-privacy-checklist",
+      "text": "dating platform notifications reduce lock screen exposure and set inbox boundaries",
+      "contentHash": "e2711b5f94e6cc9a161e3a417a05e3a2e0d0a04de73b101c1a6304be69c777e2",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-notification-and-inbox-privacy-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-profile-authenticity-scam-checklist",
+      "topic": "https://stripunion.com/guides/dating-platform-profile-authenticity-scam-checklist",
+      "text": "dating platform profiles check authenticity and spot scam pressure",
+      "contentHash": "f2c942b834e32a19430d1fbe2e4662707cf6eba7826548a9acd92f2fbc3aaf0a",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-profile-authenticity-scam-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/dating-platform-search-filter-practical-guide",
+      "topic": "https://stripunion.com/guides/dating-platform-search-filter-practical-guide",
+      "text": "dating platform search filters set useful criteria without losing options",
+      "contentHash": "e64d656714c4a604d716d776aeb4ce0f86b2b3e17171625b1003cae393e04574",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:dating-platform-search-filter-practical-guide:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/free-adult-video-accessibility-playback-controls-checklist",
+      "topic": "https://stripunion.com/guides/free-adult-video-accessibility-playback-controls-checklist",
+      "text": "free video platforms check captions and playback accessibility before browsing",
+      "contentHash": "2914e6071440fc809d105bd8ba7017f2fcb4ee421e588a00d484f42a19f37695",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:free-adult-video-accessibility-playback-controls-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/free-adult-video-moderation-and-discovery-checklist",
+      "topic": "https://stripunion.com/guides/free-adult-video-moderation-and-discovery-checklist",
+      "text": "how to assess moderation and discovery on free video platforms",
+      "contentHash": "a407f5a953cb4b1298b0eded4fbd610c9b06c0a4b98b86b6b17d7c68d77ea8ba",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:free-adult-video-moderation-and-discovery-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/free-video-deceptive-buttons-redirect-safety-guide",
+      "topic": "https://stripunion.com/guides/free-video-deceptive-buttons-redirect-safety-guide",
+      "text": "free video sites avoid deceptive buttons and risky redirects",
+      "contentHash": "e6cc013a3c17392914d7abdb7697cc8c5a75675c8d2902e4cba9b213bced978a",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:free-video-deceptive-buttons-redirect-safety-guide:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/free-video-keyboard-screen-reader-usability-checklist",
+      "topic": "https://stripunion.com/guides/free-video-keyboard-screen-reader-usability-checklist",
+      "text": "free video platforms test keyboard and screen reader usability",
+      "contentHash": "afc6a1583a3ae378f892a4f9c96c742ca5e8774fcba1119abfd628cf4798d30d",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:free-video-keyboard-screen-reader-usability-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/free-video-playback-and-ad-interruption-checklist",
+      "topic": "https://stripunion.com/guides/free-video-playback-and-ad-interruption-checklist",
+      "text": "free adult video playback check controls ads and interruptions",
+      "contentHash": "d9d6525d98c0b08d761fb45c70249b581cc6fba165879beef4591216629adf2e",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:free-video-playback-and-ad-interruption-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-mobile-usability-comparison",
+      "topic": "https://stripunion.com/guides/live-cam-mobile-usability-comparison",
+      "text": "how to compare live cam sites for mobile usability",
+      "contentHash": "d3a25ad29815f64f71e6c88dbb1093672b7362f61b1f9c744376537271c129ef",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-mobile-usability-comparison:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-platform-accessibility-checklist",
+      "topic": "https://stripunion.com/guides/live-cam-platform-accessibility-checklist",
+      "text": "live cam platform accessibility check keyboard screen reader and viewing controls",
+      "contentHash": "edca2666bbdceb45da5102a8203b3c8648eb7f08d79dbfcf9c4ee65c707aee1f",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-platform-accessibility-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-platform-moderation-assessment",
+      "topic": "https://stripunion.com/guides/live-cam-platform-moderation-assessment",
+      "text": "how to assess live cam platform safety and moderation",
+      "contentHash": "586003c58e6df3004c9cf870d36f2bf2bf359a639fc0e4628591b791c66d0e0c",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-platform-moderation-assessment:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-public-private-interaction-options-checklist",
+      "topic": "https://stripunion.com/guides/live-cam-public-private-interaction-options-checklist",
+      "text": "live cam interaction options compare public and private access before joining",
+      "contentHash": "1e46af0f2ef0dde3a377f2bdb08334cbdf57a03b024e06b160cea264278fd420",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-public-private-interaction-options-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-room-discovery-before-joining-guide",
+      "topic": "https://stripunion.com/guides/live-cam-room-discovery-before-joining-guide",
+      "text": "how to browse live cam rooms before joining or spending",
+      "contentHash": "12117cc3b45c09402775dc4bddc8375de6cccf54c7f7adb086459fa746be06e2",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-room-discovery-before-joining-guide:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/live-cam-stream-connection-compatibility-checklist",
+      "topic": "https://stripunion.com/guides/live-cam-stream-connection-compatibility-checklist",
+      "text": "before joining a live cam stream check device and connection fit",
+      "contentHash": "640462c3fe95cb95c867d37246990317380a91422c89e4bc4fbb1d012e49773f",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:live-cam-stream-connection-compatibility-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/premium-video-library-discovery-workflow",
+      "topic": "https://stripunion.com/guides/premium-video-library-discovery-workflow",
+      "text": "how to search a premium video library efficiently",
+      "contentHash": "03031b9978fbe545ac7e7bdaf11528aaa2399bb7aaf9b957ee5231658a1d9031",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:premium-video-library-discovery-workflow:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/vr-adult-library-discovery-workflow",
+      "topic": "https://stripunion.com/guides/vr-adult-library-discovery-workflow",
+      "text": "how to find content in a large vr adult library",
+      "contentHash": "ed5336b5a43c87278c5fcd634337459fe6e4e1aaff8315865e2bd237aa23de12",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:vr-adult-library-discovery-workflow:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/vr-adult-platform-accessibility-and-comfort-checklist",
+      "topic": "https://stripunion.com/guides/vr-adult-platform-accessibility-and-comfort-checklist",
+      "text": "vr adult platforms check accessibility and viewing comfort before joining",
+      "contentHash": "e9310225521a6ce91cace2272064becb1cbb9a51327e01668a91146c56c21993",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:vr-adult-platform-accessibility-and-comfort-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/vr-adult-platform-membership-vs-one-time-access",
+      "topic": "https://stripunion.com/guides/vr-adult-platform-membership-vs-one-time-access",
+      "text": "vr adult content compare memberships with one time access before choosing",
+      "contentHash": "c34d240acf36ad2e9831e7641df433db2dd9ffa3e7ca6e70a1ba559193156fb8",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:vr-adult-platform-membership-vs-one-time-access:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/vr-adult-platform-preview-fit-checklist",
+      "topic": "https://stripunion.com/guides/vr-adult-platform-preview-fit-checklist",
+      "text": "how to judge a vr adult platform preview before committing",
+      "contentHash": "0f0ed0d3442bcf54fb13778307586911577f7a7ee368a2098b637f9c05a36616",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:vr-adult-platform-preview-fit-checklist:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/vr-adult-platform-trial-fit-scorecard",
+      "topic": "https://stripunion.com/guides/vr-adult-platform-trial-fit-scorecard",
+      "text": "how to evaluate a vr adult platform before subscribing",
+      "contentHash": "78231e5003e5fd265e1787dd531bfd52c7374d2029c3bef20bea16cd8a295e4e",
+      "state": "reconcile_required",
+      "sourceEventKey": "astro:vr-adult-platform-trial-fit-scorecard:telegram",
+      "providerMessageId": null,
+      "provenance": "Historical unknown quarantine; never replay"
+    }
+  ]
+}
