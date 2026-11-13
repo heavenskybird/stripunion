@@ -1,0 +1,106 @@
+export default {
+  "slug": "adult-dating-conversation-history-exit-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check What Happens to Conversations When You Unmatch",
+  "description": "Before unmatching or closing a conversation, check how the platform handles messages, access and records so you can make an informed privacy decision.",
+  "excerpt": "Unmatching may change what you can see without clarifying what happens to message records. This guide helps you check the platform’s stated behavior and save only the information you actually need.",
+  "publishedAt": "2026-11-13",
+  "updatedAt": "2026-11-13",
+  "keyTakeaways": [
+    "Do not assume unmatching deletes messages, removes the other person’s copy or erases platform-held records.",
+    "Check help materials for the difference between hiding a chat, unmatching, blocking and deleting an account.",
+    "If you need a record for your own reference or a report, consider what to preserve before changing the conversation state.",
+    "Avoid saving unnecessary intimate or identifying information to an insecure device or shared account.",
+    "Use the platform’s report and support paths for safety concerns; an unmatch alone may not notify moderators."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish the actions before choosing one",
+      "paragraphs": [
+        "Dating apps and sites may offer several actions that look similar in a conversation screen. Hiding or archiving a chat can change what appears in your inbox. Unmatching can change whether the parties can continue communicating. Blocking may affect future contact or visibility, while account deletion concerns the account itself. The exact effects depend on the platform’s rules and interface, so do not assume one action performs all the others.",
+        "Before acting, locate the platform’s explanation for each control. Note whether the action is reversible, whether it removes the conversation from your view, and whether it affects the other person’s access. If the help material does not say whether messages are retained, treat that point as unknown rather than concluding that unmatching erases them. This distinction helps you choose the action that fits your immediate goal."
+      ],
+      "bullets": [
+        "Identify the exact control you are about to use.",
+        "Check what it changes for your account and what the platform says about the other account.",
+        "Do not equate disappearance from your inbox with deletion from all records."
+      ]
+    },
+    {
+      "heading": "Check the platform’s message-retention explanation",
+      "paragraphs": [
+        "Look for the privacy notice, help centre and conversation controls for information about message storage and deletion. These sources may explain different things: a button can describe the visible interface, while a privacy notice can describe data handling more broadly. Read the applicable information together. Pay attention to whether the platform distinguishes messages you can no longer access from records it may retain under its stated policies.",
+        "If the explanation is incomplete, record the gap. Do not infer a fixed retention period or guarantee from a general statement about account deletion. Retention can depend on the platform’s terms and circumstances described in its notice. If the answer matters to your decision, ask the platform through its published support or privacy contact route and keep a copy of the response."
+      ],
+      "table": {
+        "caption": "Conversation actions are not necessarily interchangeable",
+        "headers": [
+          "Action",
+          "Question to check",
+          "Cautious interpretation"
+        ],
+        "rows": [
+          [
+            "Hide or archive",
+            "Does the chat remain available elsewhere in the account?",
+            "May change the inbox view only"
+          ],
+          [
+            "Unmatch",
+            "Can either person still access or send messages?",
+            "May end matching without erasing records"
+          ],
+          [
+            "Block",
+            "What contact or visibility does the control restrict?",
+            "Check scope and any exceptions"
+          ],
+          [
+            "Delete account",
+            "What happens to messages and retained records?",
+            "Read the stated deletion and retention terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Decide whether you need a record first",
+      "paragraphs": [
+        "You may not need to retain a conversation at all. If the issue is simply that you do not wish to continue contact, use the available controls that match that goal and avoid creating extra copies of sensitive material. Think through the reason for preserving anything before doing so: what information is needed, for how long, and who could access it?"
+      ]
+    },
+    {
+      "heading": "Check what the other person may still see",
+      "paragraphs": [
+        "An action on your side does not automatically tell you what changes on the other person’s side. The platform may explain whether a conversation disappears, becomes inaccessible or remains in some form. If it does not, do not promise yourself that unmatching removes the other person’s copy or prevents screenshots they already made. The practical privacy boundary is that information shared in a conversation may already have been copied or recorded outside your control.",
+        "For future conversations, share identifying details gradually and only when you are comfortable with the risk that they could be retained. Use in-platform controls and reporting tools where appropriate, but understand their stated scope. If you need to stop contact immediately, prioritize a control designed for that purpose rather than relying on a message disappearing from one screen."
+      ],
+      "bullets": [
+        "Check what the platform states about both sides of the conversation.",
+        "Assume previously shared content may have been copied outside the service.",
+        "Use blocking or reporting where those controls fit the situation."
+      ]
+    },
+    {
+      "heading": "Make a deliberate exit and verify the result",
+      "paragraphs": [
+        "The goal is not to preserve every conversation or to assume the platform can remove every copy. It is to understand the controls, make a choice that matches your immediate need, and limit further exposure. A short, private note of what you did and when can help you follow up without keeping an unnecessary archive of the conversation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does unmatching delete the conversation for both people?",
+      "answer": "Do not assume so. Check the platform’s explanation for what unmatching changes and whether it addresses each person’s access. If the information is not disclosed, treat it as unknown."
+    },
+    {
+      "question": "Should I save a copy before reporting a concern?",
+      "answer": "Check the platform’s reporting instructions first. If you preserve anything for your own records, keep only what is necessary and store it privately. Use the platform’s reporting process for the concern itself."
+    },
+    {
+      "question": "Is deleting my account the same as deleting messages?",
+      "answer": "Not necessarily. Account deletion, conversation visibility and retained records may be handled under different controls and terms. Review the platform’s specific privacy and deletion information."
+    }
+  ]
+};
