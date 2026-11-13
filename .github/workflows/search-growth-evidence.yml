@@ -36,6 +36,11 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
         run: node scripts/collect-search-index-evidence.mjs
+      - name: Read previously authorized GA4 diagnostic, never resend
+        continue-on-error: true
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/ga4-existing-diagnostic-readonly.mjs
       - name: Actual canonical host and sitemap reads
         run: node scripts/search-public-audit.mjs
       - run: PUBLIC_ALLOW_INDEXING=true npm run build && npm run check:prod-seo
