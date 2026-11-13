@@ -3,270 +3,331 @@
   "propertyId": "530171093",
   "startDate": "2026-10-13",
   "endDate": "2026-11-12",
-  "collectedAt": "2026-11-13T00:12:45.327Z",
+  "collectedAt": "2026-11-13T01:45:26.110Z",
+  "propertyTimeZone": "Asia/Singapore",
   "rowCount": 20,
   "marketRowCount": 18,
-  "eventRowCount": 82,
+  "eventRowCount": 87,
   "rows": [
     {
       "date": "20261109",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "Netherlands",
       "deviceCategory": "desktop",
       "sessions": 2,
       "activeUsers": 2,
+      "totalUsers": 2,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261112",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "Netherlands",
       "deviceCategory": "desktop",
       "sessions": 2,
       "activeUsers": 2,
+      "totalUsers": 2,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261013",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/live-streaming-platform-comparison/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "Singapore",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261021",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/are-live-cam-sites-free/",
       "sessionSourceMedium": "search.google.com / referral",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Japan",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 12
     },
     {
       "date": "20261027",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/adult-shop-privacy-packaging-billing-delivery/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "Singapore",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261028",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/live-cam-token-pricing-guide/",
       "sessionSourceMedium": "yandex.com.tr / referral",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Türkiye",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261029",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionDefaultChannelGroup": "AI Assistant",
       "country": "Singapore",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261029",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/how-live-cam-sites-work/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "United States",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261103",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "United States",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261105",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "search.google.com / referral",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Japan",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 14
     },
     {
       "date": "20261107",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/live-streaming-platform-comparison/",
       "sessionSourceMedium": "google / organic",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Canada",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 175
     },
     {
       "date": "20261109",
       "hostName": "blog.stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "United States",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 2
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "",
       "sessionSourceMedium": "search.google.com / referral",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Japan",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 0,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 0,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "United States",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 4
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/guides/adult-site-account-security-password-recovery-checklist/",
       "sessionSourceMedium": "google / organic",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "India",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 3,
+      "userEngagementDuration": 28
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/guides/hentai-anime-streaming-manga-games-guide/",
       "sessionSourceMedium": "google / organic",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Denmark",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/guides/hentai-anime-streaming-manga-games-guide/",
       "sessionSourceMedium": "search.google.com / referral",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Japan",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 0,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
       "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionDefaultChannelGroup": "AI Assistant",
       "country": "Japan",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 4,
+      "userEngagementDuration": 29
     },
     {
       "date": "20261112",
       "hostName": "stripunion.com",
       "landingPagePlusQueryString": "/stripchat-alternatives/",
       "sessionSourceMedium": "(direct) / (none)",
+      "sessionDefaultChannelGroup": "Direct",
       "country": "United Kingdom",
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261112",
       "hostName": "www.stripunion.com",
       "landingPagePlusQueryString": "/guides/adult-games-storefront-community-review-evidence-checklist/",
       "sessionSourceMedium": "google / organic",
+      "sessionDefaultChannelGroup": "Organic Search",
       "country": "Hungary",
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 10
     }
   ],
   "marketRows": [
@@ -278,9 +339,11 @@
       "deviceCategory": "desktop",
       "sessions": 3,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 5,
+      "userEngagementDuration": 29
     },
     {
       "date": "20261109",
@@ -290,9 +353,11 @@
       "deviceCategory": "desktop",
       "sessions": 2,
       "activeUsers": 2,
+      "totalUsers": 2,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261112",
@@ -302,9 +367,11 @@
       "deviceCategory": "desktop",
       "sessions": 2,
       "activeUsers": 2,
+      "totalUsers": 2,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261013",
@@ -314,9 +381,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261021",
@@ -326,9 +395,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 12
     },
     {
       "date": "20261027",
@@ -338,9 +409,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261028",
@@ -350,9 +423,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261029",
@@ -362,9 +437,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261029",
@@ -374,9 +451,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
     },
     {
       "date": "20261103",
@@ -386,9 +465,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261105",
@@ -398,9 +479,11 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 14
     },
     {
       "date": "20261107",
@@ -410,9 +493,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 175
     },
     {
       "date": "20261109",
@@ -422,9 +507,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 0,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 2
     },
     {
       "date": "20261112",
@@ -434,9 +521,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 8
     },
     {
       "date": "20261112",
@@ -446,9 +535,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 3,
+      "userEngagementDuration": 28
     },
     {
       "date": "20261112",
@@ -458,9 +549,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 1,
+      "userEngagementDuration": 7
     },
     {
       "date": "20261112",
@@ -470,9 +563,11 @@
       "deviceCategory": "mobile",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 4
     },
     {
       "date": "20261112",
@@ -482,25 +577,22 @@
       "deviceCategory": "desktop",
       "sessions": 1,
       "activeUsers": 1,
+      "totalUsers": 1,
       "engagedSessions": 1,
       "keyEvents": 0,
-      "totalRevenue": 0
+      "screenPageViews": 2,
+      "userEngagementDuration": 10
     }
   ],
   "eventRows": [
     {
-      "date": "20261112",
-      "eventName": "user_engagement",
-      "hostName": "stripunion.com",
-      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
-      "eventCount": 4,
-      "totalUsers": 2
-    },
-    {
       "date": "20261109",
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 3,
       "totalUsers": 3
     },
@@ -509,6 +601,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 3,
       "totalUsers": 3
     },
@@ -517,6 +612,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 3,
       "totalUsers": 3
     },
@@ -525,30 +623,20 @@
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 3,
       "totalUsers": 3
     },
     {
-      "date": "20261112",
-      "eventName": "page_view",
-      "hostName": "stripunion.com",
-      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
-      "eventCount": 3,
-      "totalUsers": 2
-    },
-    {
-      "date": "20261112",
-      "eventName": "session_start",
-      "hostName": "stripunion.com",
-      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
-      "eventCount": 3,
-      "totalUsers": 2
-    },
-    {
       "date": "20261105",
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -557,6 +645,9 @@
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -565,6 +656,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -573,6 +667,9 @@
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -581,6 +678,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 2
     },
@@ -589,6 +689,9 @@
       "eventName": "live_models_loaded",
       "hostName": "stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -597,6 +700,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 2
     },
@@ -605,6 +711,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -613,14 +722,31 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 2
+    },
+    {
+      "date": "20261112",
+      "eventName": "session_start",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "",
+      "eventCount": 2,
+      "totalUsers": 1
     },
     {
       "date": "20261112",
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 2
     },
@@ -629,6 +755,9 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/adult-games/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -637,6 +766,20 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-site-account-security-password-recovery-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
+      "eventCount": 2,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "user_engagement",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 2,
       "totalUsers": 1
     },
@@ -645,6 +788,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -653,6 +799,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -661,6 +810,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -669,6 +821,9 @@
       "eventName": "click",
       "hostName": "blog.stripunion.com",
       "pagePath": "/are-live-cam-sites-free/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -677,6 +832,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/are-live-cam-sites-free/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -685,6 +843,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/are-live-cam-sites-free/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -693,6 +854,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/are-live-cam-sites-free/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -701,6 +865,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/adult-shop-privacy-packaging-billing-delivery/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -709,6 +876,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/adult-shop-privacy-packaging-billing-delivery/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -717,6 +887,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/adult-shop-privacy-packaging-billing-delivery/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -725,6 +898,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-cam-token-pricing-guide/",
+      "sessionSourceMedium": "yandex.com.tr / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -733,6 +909,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-cam-token-pricing-guide/",
+      "sessionSourceMedium": "yandex.com.tr / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -741,6 +920,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-cam-token-pricing-guide/",
+      "sessionSourceMedium": "yandex.com.tr / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -749,6 +931,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/how-live-cam-sites-work/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -757,6 +942,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -765,6 +953,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/how-live-cam-sites-work/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -773,6 +964,9 @@
       "eventName": "scroll",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -781,6 +975,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -789,6 +986,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/how-live-cam-sites-work/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -797,6 +997,9 @@
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -805,6 +1008,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -813,6 +1019,9 @@
       "eventName": "page_view",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -821,6 +1030,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -829,6 +1041,9 @@
       "eventName": "user_engagement",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -837,6 +1052,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -845,6 +1063,9 @@
       "eventName": "scroll",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -853,6 +1074,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -861,6 +1085,9 @@
       "eventName": "click",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -869,6 +1096,9 @@
       "eventName": "first_visit",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -877,6 +1107,9 @@
       "eventName": "session_start",
       "hostName": "blog.stripunion.com",
       "pagePath": "/live-streaming-platform-comparison/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "(not set)",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -885,6 +1118,9 @@
       "eventName": "affiliate_click",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -893,6 +1129,9 @@
       "eventName": "click",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -901,6 +1140,9 @@
       "eventName": "first_visit",
       "hostName": "stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -909,6 +1151,9 @@
       "eventName": "first_visit",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-site-account-security-password-recovery-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -917,6 +1162,9 @@
       "eventName": "first_visit",
       "hostName": "stripunion.com",
       "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -925,6 +1173,9 @@
       "eventName": "first_visit",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -933,6 +1184,9 @@
       "eventName": "first_visit",
       "hostName": "www.stripunion.com",
       "pagePath": "/guides/adult-games-storefront-community-review-evidence-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -941,6 +1195,9 @@
       "eventName": "live_models_loaded",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -949,6 +1206,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/adult-games/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -957,6 +1217,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/categories/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -965,6 +1228,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-games-age-check-data-review-before-browsing/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -973,6 +1239,42 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-site-account-security-password-recovery-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "page_view",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "page_view",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "page_view",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -981,6 +1283,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -989,6 +1294,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/privacy-safety-payment/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -997,6 +1305,9 @@
       "eventName": "page_view",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1005,6 +1316,9 @@
       "eventName": "page_view",
       "hostName": "www.stripunion.com",
       "pagePath": "/guides/adult-games-storefront-community-review-evidence-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1013,6 +1327,9 @@
       "eventName": "page_view",
       "hostName": "www.stripunion.com",
       "pagePath": "/stripchat-vs-chaturbate/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1021,6 +1338,9 @@
       "eventName": "scroll",
       "hostName": "stripunion.com",
       "pagePath": "/adult-games/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1029,6 +1349,9 @@
       "eventName": "scroll",
       "hostName": "stripunion.com",
       "pagePath": "/categories/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1037,6 +1360,9 @@
       "eventName": "scroll",
       "hostName": "stripunion.com",
       "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1045,6 +1371,9 @@
       "eventName": "scroll",
       "hostName": "stripunion.com",
       "pagePath": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1053,6 +1382,9 @@
       "eventName": "scroll",
       "hostName": "www.stripunion.com",
       "pagePath": "/stripchat-vs-chaturbate/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1061,6 +1393,9 @@
       "eventName": "session_start",
       "hostName": "stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1069,6 +1404,20 @@
       "eventName": "session_start",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-site-account-security-password-recovery-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "session_start",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1077,6 +1426,9 @@
       "eventName": "session_start",
       "hostName": "stripunion.com",
       "pagePath": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1085,6 +1437,9 @@
       "eventName": "session_start",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1093,6 +1448,9 @@
       "eventName": "session_start",
       "hostName": "www.stripunion.com",
       "pagePath": "/guides/adult-games-storefront-community-review-evidence-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1101,6 +1459,9 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1109,6 +1470,31 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/guides/adult-games-age-check-data-review-before-browsing/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "user_engagement",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "chatgpt.com / ai-assistant",
+      "sessionCampaignName": "(ai-assistant)",
+      "sessionManualAdContent": "",
+      "eventCount": 1,
+      "totalUsers": 1
+    },
+    {
+      "date": "20261112",
+      "eventName": "user_engagement",
+      "hostName": "stripunion.com",
+      "pagePath": "/guides/hentai-anime-streaming-manga-games-guide/",
+      "sessionSourceMedium": "search.google.com / referral",
+      "sessionCampaignName": "(referral)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1117,6 +1503,9 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/privacy-safety-payment/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1125,6 +1514,9 @@
       "eventName": "user_engagement",
       "hostName": "stripunion.com",
       "pagePath": "/stripchat-alternatives/",
+      "sessionSourceMedium": "(direct) / (none)",
+      "sessionCampaignName": "(direct)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1133,6 +1525,9 @@
       "eventName": "user_engagement",
       "hostName": "www.stripunion.com",
       "pagePath": "/guides/adult-games-storefront-community-review-evidence-checklist/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     },
@@ -1141,8 +1536,322 @@
       "eventName": "user_engagement",
       "hostName": "www.stripunion.com",
       "pagePath": "/stripchat-vs-chaturbate/",
+      "sessionSourceMedium": "google / organic",
+      "sessionCampaignName": "(organic)",
+      "sessionManualAdContent": "",
       "eventCount": 1,
       "totalUsers": 1
     }
-  ]
+  ],
+  "dailyHostRows": [
+    {
+      "date": "20261112",
+      "hostName": "stripunion.com",
+      "sessions": 7,
+      "activeUsers": 5,
+      "totalUsers": 5,
+      "engagedSessions": 5,
+      "keyEvents": 0,
+      "screenPageViews": 12,
+      "userEngagementDuration": 76
+    },
+    {
+      "date": "20261109",
+      "hostName": "blog.stripunion.com",
+      "sessions": 3,
+      "activeUsers": 3,
+      "totalUsers": 3,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 3,
+      "userEngagementDuration": 9
+    },
+    {
+      "date": "20261029",
+      "hostName": "blog.stripunion.com",
+      "sessions": 2,
+      "activeUsers": 2,
+      "totalUsers": 2,
+      "engagedSessions": 1,
+      "keyEvents": 0,
+      "screenPageViews": 2,
+      "userEngagementDuration": 8
+    },
+    {
+      "date": "20261112",
+      "hostName": "blog.stripunion.com",
+      "sessions": 2,
+      "activeUsers": 2,
+      "totalUsers": 2,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 2,
+      "userEngagementDuration": 8
+    },
+    {
+      "date": "20261013",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
+    },
+    {
+      "date": "20261021",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "keyEvents": 0,
+      "screenPageViews": 1,
+      "userEngagementDuration": 12
+    },
+    {
+      "date": "20261027",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
+    },
+    {
+      "date": "20261028",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 1,
+      "userEngagementDuration": 0
+    },
+    {
+      "date": "20261103",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "keyEvents": 0,
+      "screenPageViews": 1,
+      "userEngagementDuration": 7
+    },
+    {
+      "date": "20261105",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "keyEvents": 0,
+      "screenPageViews": 2,
+      "userEngagementDuration": 14
+    },
+    {
+      "date": "20261107",
+      "hostName": "blog.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "keyEvents": 0,
+      "screenPageViews": 2,
+      "userEngagementDuration": 175
+    },
+    {
+      "date": "20261112",
+      "hostName": "www.stripunion.com",
+      "sessions": 1,
+      "activeUsers": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "keyEvents": 0,
+      "screenPageViews": 2,
+      "userEngagementDuration": 10
+    }
+  ],
+  "dataQuality": {
+    "complete": true,
+    "recentDates": "PROVISIONAL_PROVIDER_PROCESSING_LAG",
+    "consentCoverage": "Only measured consent-respecting traffic; unobserved visits cannot be inferred",
+    "users": "Non-additive across dates/dimensions; do not sum as unique people",
+    "reports": {
+      "landing": {
+        "rowCount": 20,
+        "complete": true,
+        "timeZone": "Asia/Singapore",
+        "subjectToThresholding": null,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": []
+      },
+      "market": {
+        "rowCount": 18,
+        "complete": true,
+        "timeZone": "Asia/Singapore",
+        "subjectToThresholding": null,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": []
+      },
+      "events": {
+        "rowCount": 87,
+        "complete": true,
+        "timeZone": "Asia/Singapore",
+        "subjectToThresholding": null,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": []
+      },
+      "daily": {
+        "rowCount": 12,
+        "complete": true,
+        "timeZone": "Asia/Singapore",
+        "subjectToThresholding": null,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": []
+      },
+      "diagnostic": {
+        "rowCount": 0,
+        "complete": true,
+        "timeZone": "Asia/Singapore",
+        "subjectToThresholding": null,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": []
+      }
+    }
+  },
+  "funnel": [
+    {
+      "host": "stripunion.com",
+      "observedDays": 2,
+      "sessions": 8,
+      "engagedSessions": 6,
+      "pageViews": 14,
+      "affiliateClickEvents": 1,
+      "users": "NON_ADDITIVE_USE_DAILY_HOST_ROWS",
+      "interpretation": "Aggregate stages, not a consent-bypassing user join or conversion rate; absent host rows mean UNKNOWN, not zero."
+    },
+    {
+      "host": "blog.stripunion.com",
+      "observedDays": 10,
+      "sessions": 14,
+      "engagedSessions": 4,
+      "pageViews": 16,
+      "affiliateClickEvents": 0,
+      "users": "NON_ADDITIVE_USE_DAILY_HOST_ROWS",
+      "interpretation": "Aggregate stages, not a consent-bypassing user join or conversion rate; absent host rows mean UNKNOWN, not zero."
+    }
+  ],
+  "latestDayFunnel": [
+    {
+      "host": "stripunion.com",
+      "observedDays": 2,
+      "sessions": 8,
+      "engagedSessions": 6,
+      "pageViews": 14,
+      "affiliateClickEvents": 1,
+      "users": "NON_ADDITIVE_USE_DAILY_HOST_ROWS",
+      "interpretation": "Aggregate stages, not a consent-bypassing user join or conversion rate; absent host rows mean UNKNOWN, not zero."
+    },
+    {
+      "host": "blog.stripunion.com",
+      "observedDays": 1,
+      "sessions": 2,
+      "engagedSessions": 0,
+      "pageViews": 2,
+      "affiliateClickEvents": 0,
+      "users": "NON_ADDITIVE_USE_DAILY_HOST_ROWS",
+      "interpretation": "Aggregate stages, not a consent-bypassing user join or conversion rate; absent host rows mean UNKNOWN, not zero."
+    }
+  ],
+  "diagnostic": {
+    "newEventsSent": 0,
+    "eventName": "recovery_consent_check",
+    "rows": [],
+    "status": "INGESTION_UNCONFIRMED"
+  },
+  "telegramPerformance": [],
+  "scope": "GA4 property calendar dates. GSC uses Pacific dates; Bing/provider windows differ. Report stage counts separately; never invent end-to-end person-level matching.",
+  "searchFunnel": {
+    "status": "AGGREGATE_STAGES_ONLY",
+    "gscProperty": "sc-domain:stripunion.com",
+    "gscTimeZone": "America/Los_Angeles",
+    "ga4TimeZone": "Asia/Singapore",
+    "personLevelJoin": false,
+    "consent": "Unmeasured visitors are not reconstructed",
+    "windows": [
+      {
+        "days": 7,
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-11",
+        "google": {
+          "scope": "PROPERTY_TOTAL_BY_DATE",
+          "observedDays": 6,
+          "clicks": 110,
+          "impressions": 3355
+        },
+        "ga4": [
+          {
+            "host": "stripunion.com",
+            "observedDays": 0,
+            "sessions": null,
+            "affiliateClickEvents": 0
+          },
+          {
+            "host": "blog.stripunion.com",
+            "observedDays": 3,
+            "sessions": 5,
+            "affiliateClickEvents": 0
+          }
+        ],
+        "conversionRate": null,
+        "note": "Same calendar labels, different property timezones and processing lag. No exact search-to-user conversion inference."
+      },
+      {
+        "days": 28,
+        "startDate": "2026-10-15",
+        "endDate": "2026-11-11",
+        "google": {
+          "scope": "PROPERTY_TOTAL_BY_DATE",
+          "observedDays": 27,
+          "clicks": 257,
+          "impressions": 10424
+        },
+        "ga4": [
+          {
+            "host": "stripunion.com",
+            "observedDays": 0,
+            "sessions": null,
+            "affiliateClickEvents": 0
+          },
+          {
+            "host": "blog.stripunion.com",
+            "observedDays": 8,
+            "sessions": 11,
+            "affiliateClickEvents": 0
+          }
+        ],
+        "conversionRate": null,
+        "note": "Same calendar labels, different property timezones and processing lag. No exact search-to-user conversion inference."
+      }
+    ],
+    "bing": {
+      "status": "SEPARATE_PROVIDER_WINDOW",
+      "note": "Bing weekly query rows are not daily/property totals; market keyword demand is never own-site impressions."
+    },
+    "partner": {
+      "scope": "first-party AVCams click/postback attribution",
+      "collectedAt": "2026-11-13T00:13:01.049Z",
+      "totalClicks": 47,
+      "totalPostbacks": 15,
+      "matchedPostbacks": 3,
+      "unmatchedPostbacks": 12,
+      "comparableWindow": false
+    }
+  }
 }
