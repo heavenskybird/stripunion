@@ -166,5 +166,5 @@ test('autonomous worker suppresses manual URL and historic unknown, spaces disti
  const result=await scenario([manual,unknown,copy,fresh,later],{TELEGRAM_AUTONOMY_ENABLED:'true',TELEGRAM_CHANNEL_ID:'@StripUnion',SOCIAL_OUTBOX_X_SEND_ENABLED:'false'});
  assert.equal(result.error,null);assert.equal(result.telegramCalls,1,result.stdout+JSON.stringify(result.after.slice(3)));assert.equal(result.bufferCalls,0);
  assert.deepEqual(result.after[1],unknown);assert.equal(result.after[0].state,'pending');assert.equal(result.after[2].state,'pending');assert.equal(result.after[4].state,'pending');
- assert.equal(result.after[3].state,'delivered');assert.equal(result.after[3].delivery_evidence.provider_message_url,'https://t.me/StripUnion/1');assert.match(result.after[3].delivery_evidence.content_hash,/^[a-f0-9]{64}$/);
+ assert.equal(result.after[3].state,'delivered');assert.equal(result.after[3].delivery_evidence.provider_message_url,'https://t.me/StripUnion/1');assert.match(result.after[3].delivery_evidence.content_hash,/^[a-f0-9]{64}$/);assert.match(result.after[3].delivery_evidence.message_text_sha256,/^[a-f0-9]{64}$/);assert.equal(result.after[3].expected_delivery_evidence.message_text_sha256,result.after[3].delivery_evidence.message_text_sha256);
 });

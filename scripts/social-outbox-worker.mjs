@@ -1,5 +1,6 @@
 import { journal, deliverOnce, validateCap, providerDayUsage, reserveDelivery } from './social-outbox-safety.mjs';
 import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
 import path from 'node:path';
 import { createBufferPost } from '../ops/seo-data-layer/src/distribution/buffer.mjs';
 import { publishTelegramEvent } from '../ops/seo-data-layer/src/distribution/telegram.mjs';
@@ -202,6 +203,7 @@ for (const { file, event } of candidates) {
   // Unknown provider acceptance is held for reconciliation, never retried blindly.
   if (event.channel === 'x' && (!process.env.BUFFER_API_KEY || !process.env.BUFFER_CHANNEL_ID)) throw new Error('Missing Buffer configuration; no provider attempt made.');
   if (event.channel === 'telegram' && (!process.env.TELEGRAM_BOT_TOKEN || !process.env.TELEGRAM_CHANNEL_ID)) throw new Error('Missing Telegram configuration; no provider attempt made.');
+  if(identity){const utm=trackedUrl(event.url,event.slug,'telegram');event.expected_delivery_evidence={content_hash:identity.contentHash,message_text_sha256:createHash('sha256').update(buildTelegramText({title:event.title,excerpt:event.excerpt,url:utm})).digest('hex'),canonical_url:identity.url,utm_url:utm,topic_key:identity.topic,channel:'@StripUnion'};}
   const store = await journal(event);
   const outcome = await deliverOnce(event, async () => {
     const budgetIdentity = `social-delivery-budget:${event.channel}`;
@@ -226,7 +228,7 @@ for (const { file, event } of candidates) {
       if(autonomous && !providerUrl)throw Error('TELEGRAM_RESULT_CHANNEL_UNPROVEN');
       if(identity)await confirmContent(registry,identity,id,providerUrl);
       return { id, state: result?.skipped === false ? 'delivered' : null,
-        evidence:identity?{provider_message_url:providerUrl,content_hash:identity.contentHash,canonical_url:identity.url,utm_url:trackedUrl(event.url,event.slug,'telegram'),topic_key:identity.topic}:null };
+        evidence:identity?{...event.expected_delivery_evidence,provider_message_url:providerUrl}:null };
     }
     throw new Error('Unsupported social route.');
   }, store);
