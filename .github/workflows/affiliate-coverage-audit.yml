@@ -19,9 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
       - name: Install existing dependencies
-        run: npm ci --no-audit --no-fund
+        run: npm install --no-audit --no-fund
       - name: Offline read-only affiliate coverage audit tests
         run: node --test scripts/test/affiliate-coverage-audit.test.mjs
       - name: Build real indexable HTML for accurate article scope
