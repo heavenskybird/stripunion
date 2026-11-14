@@ -3,7 +3,6 @@
   "kind": "telegram-content-registry",
   "idempotency_key": "social-content-registry:telegram:stripunion",
   "channel": "@StripUnion",
-  "provisionedAt": "2026-11-13T01:34:32.013Z",
   "entries": [
     {
       "url": "https://stripunion.com/stripchat-app",
@@ -463,6 +462,14 @@
       "sourceEventKey": "astro:vr-adult-platform-trial-fit-scorecard:telegram",
       "providerMessageId": null,
       "provenance": "Historical unknown quarantine; never replay"
+    },
+    {
+      "url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide",
+      "topic": "guides-hentai-anime-streaming-manga-games-guide",
+      "text": "hentai sites explained streaming vs manga vs adult games adults 18 independent editorial guide affiliate links disclosed",
+      "contentHash": "a589acbe9b3ac0c6e4cebf93e54a219b051a2a5a93943976ab0313cd2fa045f4",
+      "state": "reconcile_required",
+      "attemptedAt": "2026-11-14T13:44:55.525Z"
     }
   ]
 }
