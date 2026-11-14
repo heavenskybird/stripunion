@@ -1,0 +1,87 @@
+export default {
+  "slug": "adult-platform-task-switcher-and-window-preview-privacy",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Privacy: Check App Switcher and Window Previews on Your Device",
+  "description": "Reduce accidental exposure from recent-app screens, window previews, browser tabs, and screen sharing when using an adult platform on a personal device.",
+  "excerpt": "Private browsing does not prevent every on-device glimpse. Use this practical check to see what recent-app views, window previews, and screen-sharing tools might reveal—and adjust settings that suit your device and privacy needs.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "Check what appears in your device’s recent-app, task-switcher, or window-preview view after opening an adult platform.",
+    "Understand that private browsing usually does not hide an open page from someone looking at the unlocked device.",
+    "Review screen-sharing and presentation settings before sharing a screen or switching apps.",
+    "Use device-level privacy options where available, but verify their behavior rather than assuming they work.",
+    "Balance concealment with safe sign-out, account recovery, and the ability to use your device normally."
+  ],
+  "sections": [
+    {
+      "heading": "Know the difference between browser privacy and on-screen privacy",
+      "paragraphs": [
+        "A private browser window is designed for a different purpose from hiding an open page in the device interface. Even if browsing history is not retained in the usual way after a private session ends, a page may remain visible while it is open, appear in a recent-app card, or show in a window preview. The exact behavior depends on the browser, operating system, and settings, so check the device you actually use.",
+        "Think of this as an on-device visibility question: what could someone see if they briefly looked at an unlocked screen, opened the app switcher, or saw a shared display? It is not a guarantee that another person can access the device. The aim is to identify accidental display surfaces and decide which settings or habits reduce exposure without creating a false sense of security."
+      ]
+    },
+    {
+      "heading": "Inspect recent-app and window-preview behavior",
+      "paragraphs": [
+        "On your own device, open a non-sensitive page first and learn how the app switcher or recent-window view works. Then consider whether the same interface could show a page title, image, or other recognizable content from an adult platform. Some devices or apps may display a reduced snapshot; others may show only an icon or generic window. Do not assume that closing a tab and removing a recent-app card are the same action.",
+        "If your device offers a setting to obscure app previews, hide sensitive content, or use a secure window, review the setting description and test it with a harmless page. Names and availability vary across systems. Some controls apply only to notifications or lock screens, not app-switcher snapshots. A setting that reduces one kind of preview may not affect browser tabs, connected displays, or screenshots already taken."
+      ]
+    },
+    {
+      "heading": "Plan for screen sharing and external displays",
+      "paragraphs": [
+        "Screen sharing, casting, recording, and presentation tools can expose more than the window you intended to show. Before starting a meeting, support session, or screen recording, check which display or app will be shared and whether switching windows will reveal other open pages. If practical, close unrelated tabs and apps, or share a single intended window rather than the whole desktop. Confirm the share has stopped before returning to other activity.",
+        "Do not rely on a device’s private-browsing mode to conceal content from a live screen share. The person or software receiving the shared display may see what is currently rendered, even if that page is not intended to be saved in browser history. Review any persistent recording or meeting options and the audience receiving the feed. If an unexpected share indicator appears, stop sharing first, then review the active application and destination."
+      ]
+    },
+    {
+      "heading": "Set a routine that does not interfere with account safety",
+      "paragraphs": [
+        "A practical routine can be simple: avoid leaving a sensitive page displayed when handing over an unlocked device; close or navigate away from the page before sharing a screen; and check the app switcher afterward if your device preserves previews. If the device supports separate browser profiles or app locks, evaluate their setup and recovery implications before relying on them. A control that is easy to forget or impossible to recover may not fit your situation.",
+        "Do not disable essential device security or remove recovery options to make a screen less revealing. Keep a strong device passcode and protect account credentials. If you share a device, consider whether a separate user profile is available and appropriate. Remember that people with access to the unlocked device may still see current pages, saved files, or account notifications that the preview control does not cover."
+      ]
+    },
+    {
+      "heading": "Check notification and tab surfaces separately",
+      "paragraphs": [
+        "App-switcher previews are only one visibility surface. Browser tabs may display titles or favicons; notifications can show account or page details; and a connected display can mirror the device. Review each separately rather than expecting one privacy setting to address every exposure. If you use notifications for account security, you may prefer to keep security alerts while limiting message previews or other sensitive text on the lock screen.",
+        "Test with neutral content and inspect the results from the perspective of someone glancing at the device. Where settings offer different choices, select the least revealing option that still lets you receive important account or security information. Avoid sharing account credentials or recovery codes during screen-sharing sessions. If you need assistance, use the platform’s official support channel and share only the information required to resolve the issue."
+      ]
+    },
+    {
+      "heading": "A quick device check before sharing or handing over a screen",
+      "paragraphs": [
+        "This checklist is intended for your own devices and accounts. It cannot guarantee that content is invisible to every person or system, and it does not replace secure account practices. Device behavior changes after software updates, so repeat the check if a menu, browser, or operating system changes how previews work.",
+        "Keep your privacy routine proportional to the situation. A quick app-switcher check may be enough before handing an unlocked device to someone; a planned screen share deserves a more complete review of windows, notifications, and recording. If you use a managed or shared device, follow its applicable policies and avoid assuming that you control all retention or monitoring settings."
+      ],
+      "bullets": [
+        "Learn how recent apps or windows display active pages on your device.",
+        "Review available preview-obscuring settings and test them with non-sensitive content.",
+        "Check browser tabs, lock-screen notices, and app notifications as separate surfaces.",
+        "Before screen sharing, confirm the selected window, recipient, and recording state.",
+        "Stop sharing before reopening or switching to unrelated sensitive content.",
+        "Keep device locks, account recovery, and security notifications effective while adjusting privacy settings."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide an adult platform from the app switcher?",
+      "answer": "Not necessarily. Private browsing generally concerns browser data handling, not every on-screen preview. Check your browser and device behavior directly, and review any separate settings for recent-app snapshots or secure windows."
+    },
+    {
+      "question": "Can I prevent all screen previews on my phone or computer?",
+      "answer": "There is no universal setting that guarantees this across devices and apps. Some systems offer preview controls, but their scope varies. Test the settings you have and separately consider tabs, notifications, external displays, and screen sharing."
+    },
+    {
+      "question": "Should I turn off all notifications for privacy?",
+      "answer": "Not automatically. Security and account-recovery alerts can be useful. Review whether your device lets you hide message details while keeping important alerts, and choose settings that balance privacy with account security."
+    },
+    {
+      "question": "What is the safest step before sharing my screen?",
+      "answer": "Confirm exactly what is being shared, close unrelated windows or tabs, check notification previews, and verify whether recording is active. Stop sharing before switching back to other sensitive pages."
+    }
+  ]
+};

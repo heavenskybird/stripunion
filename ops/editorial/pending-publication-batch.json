@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T15:03:56.180Z",
+  "generatedAt": "2026-11-14T16:42:09.992Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-room-queue-and-waiting-model-comparison.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-deep-link-and-destination-control-review.json",
-    "ops/editorial/content-artifacts/free-video-playback-session-resume-behavior-review.json",
-    "ops/editorial/content-artifacts/adult-games-content-discovery-filter-precision-review.json",
-    "ops/editorial/content-artifacts/adult-shop-warranty-and-remedy-comparison-workflow.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-demo-to-membership-boundary-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-content-origin-and-format-verification.json",
+    "ops/editorial/content-artifacts/affiliate-program-terms-evidence-version-control-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-catalog-replacement-and-membership-expectations.json",
+    "ops/editorial/content-artifacts/adult-platform-task-switcher-and-window-preview-privacy.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-room-queue-and-waiting-model-comparison.js",
-    "src/data/guides/webmaster-affiliate-program-deep-link-and-destination-control-review.js",
-    "src/data/guides/free-video-playback-session-resume-behavior-review.js",
-    "src/data/guides/adult-games-content-discovery-filter-precision-review.js",
-    "src/data/guides/adult-shop-warranty-and-remedy-comparison-workflow.js"
+    "src/data/guides/vr-adult-platform-demo-to-membership-boundary-audit.js",
+    "src/data/guides/adult-anime-platform-content-origin-and-format-verification.js",
+    "src/data/guides/affiliate-program-terms-evidence-version-control-workflow.js",
+    "src/data/guides/premium-video-catalog-replacement-and-membership-expectations.js",
+    "src/data/guides/adult-platform-task-switcher-and-window-preview-privacy.js"
   ],
   "categories": [
-    "live-cams",
+    "vr-ar",
+    "hentai-anime",
     "webmaster-affiliate",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "live-cam-room-queue-and-waiting-model-comparison",
-    "webmaster-affiliate-program-deep-link-and-destination-control-review",
-    "free-video-playback-session-resume-behavior-review",
-    "adult-games-content-discovery-filter-precision-review",
-    "adult-shop-warranty-and-remedy-comparison-workflow"
+    "vr-adult-platform-demo-to-membership-boundary-audit",
+    "adult-anime-platform-content-origin-and-format-verification",
+    "affiliate-program-terms-evidence-version-control-workflow",
+    "premium-video-catalog-replacement-and-membership-expectations",
+    "adult-platform-task-switcher-and-window-preview-privacy"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43607741303",
-  "phase": "closed"
+  "r1CycleId": "43616833955"
 }
