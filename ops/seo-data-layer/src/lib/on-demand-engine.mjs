@@ -40,6 +40,8 @@ export async function readGscWindow(client, q, window, budget) {
   return { status:'ok', window, daily, totals:aggregateSearch(daily), dailyAggregation:dailyResponse.data.responseAggregationType || dailyBody.aggregationType,
     dailyMetadata:dailyResponse.data.metadata || null, observedDateRange:daily.length ? { start:daily.map(r=>r.date).sort()[0], end:daily.map(r=>r.date).sort().at(-1) } : null,
     detail:{ ...sanitized, rowCount:rows.length, paginationComplete:complete, populationComplete:false, chunks:metadata },
+    monthlyPropertyTrend:[...new Set(daily.map(r=>r.date.slice(0,7)))].sort().map(month=>({month,...aggregateSearch(daily.filter(r=>r.date.startsWith(month)))})),
+    monthlyIntentTrend:[...groups.values()].flatMap(g=>[...new Set(g.rows.map(r=>r.date.slice(0,7)))].sort().map(month=>({month,brand:g.brand,intent:g.intent,...aggregateSearch(g.rows.filter(r=>r.date.startsWith(month)))}))),
     intentTrends:[...groups.values()].map(g=>({ brand:g.brand, intent:g.intent, ...aggregateSearch(g.rows) })),
     limitations:['GSC dates use America/Los_Angeles; dataState=final. Missing daily dates are not fabricated as zero.', 'Query/page rows are top rows with anonymized queries omitted, not property totals. Pagination completion does not prove population completeness.', 'API maximum 25,000 rows/request; provider top-row limits including daily search-type limits still apply. 31-day chunks, 100,000 detail rows/window local bound.'] };
 }
@@ -50,6 +52,7 @@ export async function readGa4Window(client, q, window, budget) {
   for (const [name,dims,metrics,affiliate] of [
     ['totals',[],['sessions','engagedSessions','engagementRate','userEngagementDuration'],false],
     ['daily',['date'],['sessions','engagedSessions','engagementRate','userEngagementDuration'],false],
+    ['pages',['hostName','landingPage'],['sessions','engagedSessions','engagementRate','userEngagementDuration'],false],
     ['landing',dimensions,['sessions','engagedSessions','engagementRate','userEngagementDuration'],false],
     ['affiliate',dimensions,['eventCount'],true]
   ]) {
@@ -89,7 +92,8 @@ export function bingContext(snapshot, q) {
 export async function queryAnalytics({q,gscClient,ga4Client,bingSnapshot,propertyInfo,now=new Date().toISOString()}) {
   const budget=requestBudget(), report={ version:1,kind:'stripunion-on-demand-readonly',collectedAt:now,query:q,queryHash:hash(q),
     properties:{gsc:q.gscProperty,ga4:q.ga4Property,measurementId:'G-K57BRX69X1',ga4Admin:propertyInfo || {status:'UNKNOWN'}},
-    scope:{gsc:'Domain includes Blog: do not add Domain and Blog totals',ga4:'One property; default Domain scope includes main/www/Blog, blog scope includes Blog only',
+    scope:{gsc:'Domain includes Blog: do not add Domain and Blog totals',ga4:'One property; default Domain scope includes main/www/Blog, blog scope includes Blog only. GSC Domain can include other subdomains; use explicit host filters for closer alignment',
+      unappliedFilters:{gsc:['sourceMedium','campaign','adContent','countryGa4'].filter(k=>q[k]),ga4:['keyword','countryGsc'].filter(k=>q[k])},
       filterApplicability:{gsc:['keyword','page contains','countryGsc','device','hostname'],ga4:['page exact landing','countryGa4','device','hostname','sourceMedium','campaign','adContent']},
       comparison:'Same number of inclusive calendar days, same property and filters. GSC and GA4 have distinct timezone boundaries; stages are not matched people.'},
     gsc:{status:'NOT_REQUESTED'},ga4:{status:'NOT_REQUESTED'},bing:bingContext(bingSnapshot,q),productionWrites:0,newEventsSent:0 };
@@ -101,7 +105,7 @@ export async function queryAnalytics({q,gscClient,ga4Client,bingSnapshot,propert
       try {result[label]=await read(client,q,window,budget);}
       catch(e) { result[label]={status:'failed',error:errorClass(e)};result.status=label==='current'?'failed':'partial'; if(label==='current')break; }
     }
-    if (['current','previous'].some(w=>result[w]?.detail?.paginationComplete===false || ['totals','daily','landing','affiliate'].some(k=>result[w]?.[k]?.paginationComplete===false))) result.status='partial';
+    if (['current','previous'].some(w=>result[w]?.detail?.paginationComplete===false || ['totals','daily','pages','landing','affiliate'].some(k=>result[w]?.[k]?.paginationComplete===false))) result.status='partial';
     report[name]=result;
   }
   report.decisions=decisions(report.gsc,report.ga4);
@@ -114,6 +118,7 @@ export function compactReport(report) {
     sources:Object.fromEntries(['gsc','ga4'].map(name=>[name,{status:report[name].status,...Object.fromEntries(['current','previous'].map(w=>[w,{status:report[name][w]?.status,
       window:report[name][w]?.window,error:report[name][w]?.error,reason:report[name][w]?.reason,
       totals:name==='gsc'?report[name][w]?.totals:report[name][w]?.totals?.rows,
+      monthlyTrend:name==='gsc'?report[name][w]?.monthlyPropertyTrend:undefined,intentTrends:name==='gsc'?report[name][w]?.intentTrends:undefined,
       paginationComplete:name==='gsc'?report[name][w]?.detail?.paginationComplete:report[name][w]?.landing?.paginationComplete}]))}])),
     bing:report.bing,decisions:report.decisions.slice(0,10),requests:report.requests,productionWrites:0,newEventsSent:0,
     limitations:['Top/query rows and privacy thresholds do not reveal all visits or all searches.','Default GA4 Domain host scope includes Blog. Do not add Blog to Domain.','No person-level attribution or proven SEO uplift. See report.json for source-specific timezone, sampling, thresholding and quota metadata.'] };

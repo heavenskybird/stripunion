@@ -52,7 +52,7 @@ export function parseQuery(raw, now = Date.now()) {
 }
 export function gscFilters(q) {
   const filters = [];
-  for (const [key, dimension] of [['keyword','query'],['page','page'],['countryGsc','country'],['device','device']]) if (q[key]) filters.push({ dimension, operator: ['keyword','page'].includes(key) ? 'contains' : 'equals', expression: q[key] });
+  for (const [key, dimension] of [['keyword','query'],['page','page'],['countryGsc','country'],['device','device']]) if (q[key]) filters.push({ dimension, operator: ['keyword','page'].includes(key) ? 'contains' : 'equals', expression: key === 'device' ? q[key].toUpperCase() : q[key] });
   if (q.hostname) filters.push({ dimension: 'page', operator: 'contains', expression: 'https://' + q.hostname + '/' });
   return filters.length ? { dimensionFilterGroups: [{ groupType: 'and', filters }] } : {};
 }
@@ -98,10 +98,11 @@ export function decisions(gsc, ga4) {
     if (metrics.impressions >= 30 && metrics.position >= 4 && metrics.position <= 20 && metrics.ctr < .02) { action = 'UPDATE_EXISTING'; reason = 'Review title and search-intent match for observed high-impression, low-CTR queries. This 2% rule is a triage heuristic, not a position CTR benchmark.'; }
     else if (before?.clicks >= 3 && metrics.clicks < before.clicks * .7) { action = 'AUDIT_EXISTING'; reason = 'Matched query-row clicks declined; inspect the same queries, canonical and indexing before editing.'; }
     actions.push({ url, action, reason, metrics, previous: before, trend: comparable ? 'MATCHED_QUERY_ROW_WINDOWS_TOP_ROWS_ONLY' : 'UNKNOWN', clusters,
+      change: before ? {clicks:metrics.clicks-before.clicks,impressions:metrics.impressions-before.impressions,ctrPoints:metrics.ctr!==null&&before.ctr!==null?(metrics.ctr-before.ctr)*100:null,position:metrics.position!==null&&before.position!==null?metrics.position-before.position:null} : null,
       topQueries: [...rows].sort((a,b)=>b.impressions-a.impressions).slice(0,5).map(r=>({query:r.query,country:r.country,device:r.device,impressions:r.impressions,clicks:r.clicks})), priority: metrics.impressions });
   }
   const totals = ga4?.current?.totals?.rows?.[0];
-  for (const row of ga4?.current?.landing?.rows || []) {
+  for (const row of ga4?.current?.pages?.rows || []) {
     if (row.sessions < 10 || row.landingPage === '[REDACTED]') continue;
     if (row.engagedSessions / row.sessions < .3) actions.push({ url: 'https://' + row.hostName + row.landingPage, action: 'REVIEW_LANDING_UX', reason: 'Measured landing cohort has at least 10 sessions and engagement below 30%; review intent, mobile UX and CTA clarity. Cohort evidence is not user-level attribution.', metrics: row, priority: row.sessions });
   }

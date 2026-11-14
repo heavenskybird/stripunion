@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseQuery,gscFilters,ga4Filter,safeText,safePath,chunks,aggregateSearch,intent,decisions} from '../src/lib/on-demand-query.mjs';
+import {parseQuery,gscFilters,ga4Filter,safeText,safePath,chunks,aggregateSearch,intent,decisions,hash} from '../src/lib/on-demand-query.mjs';
 import {readGscWindow,queryAnalytics,requestBudget,bingContext,compactReport} from '../src/lib/on-demand-engine.mjs';
 const now=Date.parse('2026-11-14T12:00:00Z');
 const query = changes=>parseQuery(JSON.stringify(changes || {}),now);
@@ -47,6 +47,7 @@ test('privacy removes query strings, emails, phone IDs and account URLs',()=>{
 test('GSC chunks and pagination are bounded, preserve aggregation, never claim all queries',async()=>{
   assert.equal(chunks({startDate:'2026-01-01',endDate:'2026-04-01'}).length,3);
   const result=await readGscWindow(gsc(),query(),window,requestBudget());
+  assert.equal(result.monthlyPropertyTrend[0].month,'2026-11');assert(result.monthlyIntentTrend.some(r=>r.brand==='chaturbate'));
   assert.equal(result.dailyAggregation,'byProperty');assert.equal(result.detail.populationComplete,false);assert.equal(result.detail.paginationComplete,true);
   const capped=await readGscWindow(gsc({full:true}),query(),window,requestBudget());
   assert.equal(capped.detail.rows.length,100000);assert.equal(capped.detail.paginationComplete,false);
@@ -63,6 +64,10 @@ test('actual report preserves GA4 quota/threshold/sampling, UTM and independent 
   assert.equal(result.ga4.current.daily.metadata[0].timeZone,'Asia/Singapore');
   assert(result.decisions.some(d=>d.action==='UPDATE_EXISTING'));
   assert.equal(compactReport(result).productionWrites,0);
+  assert.equal(result.ga4.current.pages.rows[0].sessions,20);
+  const compact=compactReport(result), encoded=Buffer.from(JSON.stringify(compact)).toString('base64url');
+  assert(!encoded.includes('='));assert.deepEqual(JSON.parse(Buffer.from(encoded,'base64url')),JSON.parse(JSON.stringify(compact)));
+  assert.equal(hash(JSON.parse(Buffer.from(encoded,'base64url'))),hash(compact));
 });
 test('one provider failure cannot delete another provider result or leak errors',async()=>{
   const result=await queryAnalytics({q:query(),gscClient:gsc({fail:true}),ga4Client:ga4()});
@@ -87,4 +92,10 @@ test('Bing is dated context, never fabricated matching-window data',()=>{
 });
 test('local request budget fails closed before extra API work',async()=>{
   const budget=requestBudget(1);let calls=0;await budget.call(()=>calls++);await assert.rejects(()=>budget.call(()=>calls++),/REQUEST_BUDGET/);assert.equal(calls,1);
+});
+
+test('local GA4 pagination cap produces partial status, not a complete report',async()=>{
+  const base=ga4();const client={async runReport(r){const [result]=await base.runReport(r);if(r.dimensions.some(d=>d.name==='sessionCampaignName'))result.rowCount=100000;return [result];}};
+  const result=await queryAnalytics({q:query({sources:'ga4'}),ga4Client:client});
+  assert.equal(result.status,'PARTIAL');assert.equal(result.ga4.current.landing.paginationComplete,false);assert.equal(result.ga4.current.totals.rows[0].sessions,20);
 });

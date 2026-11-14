@@ -3,7 +3,7 @@ import path from 'node:path';
 import { google } from 'googleapis';
 import { BetaAnalyticsDataClient } from '@google-analytics/data';
 import { googleCredentials, googleAuth } from '../lib/google-auth.mjs';
-import { parseQuery } from '../lib/on-demand-query.mjs';
+import { hash, parseQuery } from '../lib/on-demand-query.mjs';
 import { queryAnalytics, compactReport, errorClass } from '../lib/on-demand-engine.mjs';
 const reportName=process.env.ANALYTICS_REPORT_NAME || 'query';
 if(!/^[a-z0-9-]{1,40}$/.test(reportName)) throw Error('INVALID_REPORT_NAME');
@@ -39,7 +39,8 @@ try {
   await fs.writeFile(path.join(output,'report.md'),md);
   if(process.env.GITHUB_STEP_SUMMARY)await fs.appendFile(process.env.GITHUB_STEP_SUMMARY,md);
   // Base64 avoids GitHub secret-mask collisions on JSON braces. This contains only the sanitized aggregate summary.
-  console.log('REPORT_JSON_BASE64 '+Buffer.from(JSON.stringify(compact)).toString('base64'));
+  console.log('REPORT_JSON_BASE64URL '+Buffer.from(JSON.stringify(compact)).toString('base64url'));
+  console.log('REPORT_JSON_SHA256 '+hash(compact));
   console.log('REPORT_READY '+JSON.stringify({reportName,status:report.status,runUrl:report.runUrl,sourceSha:report.sourceSha,queryHash:report.queryHash,artifact:'analytics-on-demand-'+process.env.GITHUB_RUN_ID,productionWrites:0,newEventsSent:0}));
   if(report.status!=='READY')process.exitCode=1;
 } catch(e) {
