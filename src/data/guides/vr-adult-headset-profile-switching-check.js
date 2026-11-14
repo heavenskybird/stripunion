@@ -1,0 +1,145 @@
+export default {
+  "slug": "vr-adult-headset-profile-switching-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Profile Switching and Session Handoffs on a Headset",
+  "description": "Before using a VR adult platform on a shared or multi-profile headset, check account switching, sign-in persistence and what remains visible after a handoff.",
+  "excerpt": "A headset can keep an account signed in after someone else takes over the device. Check profile switching and session handoffs before relying on shared-device boundaries.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "A headset profile and an adult-platform account are separate layers; switching one may not sign out of the other.",
+    "Test what remains open after pausing, leaving an app or changing headset profiles.",
+    "Check whether account switching requires a password, device code or other reauthentication before exposing a session.",
+    "Review saved sign-ins, notifications and recent-app views that may reveal account presence to the next headset user.",
+    "If reliable separation cannot be verified, avoid using the platform account on a shared headset."
+  ],
+  "sections": [
+    {
+      "heading": "Map the headset and platform account layers",
+      "paragraphs": [
+        "A multi-user headset may offer device profiles, while a VR platform may maintain its own separate account session. Those layers can behave independently. Switching the headset's active profile does not necessarily sign out of an app, close an account session or remove a saved credential. Before relying on a device handoff as a privacy boundary, map which account is active at each layer and what action actually ends the session.",
+        "Write down the normal sequence for your setup: wake the headset, choose its profile, open the browser or app, sign in, then leave or hand off the device. Identify every step where an account name, saved login or recently used app might remain visible. If the headset is borrowed, managed by an organization or shared with household members, check relevant policies and do not bypass device controls."
+      ],
+      "bullets": [
+        "Identify the headset profile and the platform account separately.",
+        "Note whether access happens in a browser, installed app or both.",
+        "Check device ownership and applicable usage policies before signing in."
+      ]
+    },
+    {
+      "heading": "Test what happens during a handoff",
+      "paragraphs": [
+        "Use a non-sensitive test account or a low-risk session if you need to inspect the process. Check what happens when you pause playback, return to the app menu, close the app, switch headset profiles and restart the headset. At each step, note whether the platform account remains signed in, whether the next user can reopen the app and whether a prompt appears before account access. Do not assume that closing a window or putting the headset to sleep ends the session.",
+        "The test should cover ordinary transitions, not only the best-case sign-out path. Some apps may keep a session active for convenience, while a browser may retain cookies or saved credentials. Record the behavior you actually observe and the software version or settings where practical. The result applies to that setup at that time, not to all headsets or future updates."
+      ],
+      "table": {
+        "caption": "Handoff checks to perform before sharing a headset",
+        "headers": [
+          "Transition",
+          "What to check",
+          "Safer interpretation"
+        ],
+        "rows": [
+          [
+            "Pause or suspend",
+            "Does the account or content remain available when resumed?",
+            "Sleep is not necessarily sign-out"
+          ],
+          [
+            "Close the app",
+            "Can it reopen without authentication?",
+            "App closure may preserve a session"
+          ],
+          [
+            "Switch headset profile",
+            "Does the platform account change too?",
+            "Device profiles may not isolate app accounts"
+          ],
+          [
+            "Restart headset",
+            "Are saved sessions or notifications still present?",
+            "A restart may preserve sign-in state"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review sign-in persistence and recovery controls",
+      "paragraphs": [
+        "Check whether the app or browser offers a clear sign-out control and whether it is easy to reach with the headset interface. Review saved-password settings, persistent login choices and account recovery options before using a shared device. A device that keeps credentials for convenience may be unsuitable if other people can access the same profile. If sign-out is available, confirm that it ends the session rather than merely returning to a landing screen.",
+        "Think through account recovery as part of the handoff plan. A private email account or recovery method that remains signed in on the headset can undermine a platform sign-out. Do not store credentials in a shared browser profile unless you understand who can access them. If multiple accounts must coexist, use separate device profiles only after verifying that the platform app and browser maintain the intended separation."
+      ],
+      "bullets": [
+        "Find and test the platform's explicit sign-out option.",
+        "Review persistent-login and password-saving settings.",
+        "Check whether recovery email or verification prompts are accessible to other users.",
+        "Do not rely on a headset profile alone as proof of account separation."
+      ]
+    },
+    {
+      "heading": "Reduce visible traces between sessions",
+      "paragraphs": [
+        "Account separation includes more than the active playback screen. Look for account names, recent applications, notification previews, browser history and saved media or cache that could appear after a handoff. Review headset and app notification settings, and close or clear local items only through the platform's normal controls. Avoid deleting data in ways that could affect another user's account or device settings.",
+        "A predictable handoff routine can reduce mistakes: exit the session, sign out if appropriate, close the app, check notifications and return the headset to its normal shared state. Keep the routine short enough to follow consistently. If a headset offers no way to protect a signed-in app from the next user, treat that as a meaningful limitation rather than trying to compensate with an uncertain sequence."
+      ],
+      "bullets": [
+        "Check recent-app and notification surfaces after leaving the session.",
+        "Remove saved sign-in details only from the account or profile you control.",
+        "Use a consistent exit checklist and confirm the screen shown after exit.",
+        "Do not change another person's account or device settings without permission."
+      ]
+    },
+    {
+      "heading": "Decide whether the setup is suitable",
+      "paragraphs": [
+        "Compare your observations with your privacy requirements. A shared headset may be suitable only if you can reliably keep the relevant app account separate, sign out and prevent access to recovery credentials. If you cannot verify those conditions, choose a personal device or do not sign in. Convenience should not outweigh an unclear account boundary, especially where the next user is not someone you want to share account activity with.",
+        "Recheck the process after headset, app or browser updates, or after a settings change. Keep a simple note of the tested steps and any unresolved behavior. This is not a security guarantee; it is a practical assessment of the specific device arrangement. If the headset is managed by a workplace, school or other organization, follow its policies and avoid using it for personal adult-platform access."
+      ],
+      "table": {
+        "caption": "Decision record for shared-headset use",
+        "headers": [
+          "Requirement",
+          "Evidence to confirm",
+          "Decision if unresolved"
+        ],
+        "rows": [
+          [
+            "Separate platform sign-in",
+            "Profile switch and sign-out test",
+            "Do not use a shared profile for the account"
+          ],
+          [
+            "Protect recovery access",
+            "Recovery route is not open to the next user",
+            "Use another device or avoid sign-in"
+          ],
+          [
+            "Clear session traces",
+            "Recent apps and notifications checked",
+            "Treat the handoff as not private"
+          ],
+          [
+            "Respect device rules",
+            "Ownership and policy reviewed",
+            "Do not use if prohibited"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does switching the headset user profile sign out of an adult platform?",
+      "answer": "Not necessarily. The headset profile and the platform's app or browser session can be separate. Test the specific setup and use the platform's explicit sign-out control where appropriate."
+    },
+    {
+      "question": "Is restarting the headset enough to end a session?",
+      "answer": "A restart may leave saved credentials or app sessions intact. Check what happens after restart and do not treat it as a reliable sign-out unless you have verified the behavior."
+    },
+    {
+      "question": "What if the headset is managed by work or school?",
+      "answer": "Review the applicable device policy and do not bypass restrictions. If personal adult-platform use is prohibited or unclear, use a personal device instead."
+    }
+  ]
+};

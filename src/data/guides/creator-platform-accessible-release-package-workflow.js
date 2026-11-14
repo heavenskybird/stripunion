@@ -1,0 +1,145 @@
+export default {
+  "slug": "creator-platform-accessible-release-package-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Plan Captions, Transcripts and Accessible Post Details",
+  "description": "A practical workflow for creators comparing platform tools and preparing captions, transcripts and clear post details for subscribers.",
+  "excerpt": "Accessibility is more than a platform feature. Use this workflow to check what the publishing tools support and make each release easier for subscribers to understand and use.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "Check the publishing workflow itself: platform support for text, captions or transcripts may vary by post format and should be verified before adopting a routine.",
+    "Prepare accessible text as part of production, rather than treating it as an afterthought after a release is scheduled.",
+    "Use clear labels and consistent placement so subscribers can tell whether an accessible text version is available.",
+    "Keep a copy of captions, transcripts and post descriptions in your own content archive, subject to your rights and privacy practices.",
+    "Test the finished post from a subscriber view, including on a phone and with the controls your audience may use."
+  ],
+  "sections": [
+    {
+      "heading": "Treat accessibility as part of platform fit",
+      "paragraphs": [
+        "Creator-platform comparisons often emphasize audience fit, discovery, account controls and commercial terms. Publishing accessibility belongs in that decision too. A platform may offer a useful audience or business model, but the practical question is whether its editor and post formats let you deliver the text alternatives your work needs. Check the actual workflow instead of assuming that a general accessibility statement applies equally to every format.",
+        "Start with the kinds of material you expect to publish: video, audio, image-led posts, written updates or a combination. For each format, note what you can add directly, what requires a separate post, and what might be hidden behind a membership gate. This avoids promising a caption or transcript as a standard benefit when the platform's tools or your workflow cannot reliably support it."
+      ],
+      "bullets": [
+        "List the post formats you publish or plan to publish.",
+        "Check whether text alternatives can be attached to the relevant format or need a separate entry.",
+        "Record any editor limitations that affect your normal publishing process."
+      ]
+    },
+    {
+      "heading": "Build a repeatable text-production workflow",
+      "paragraphs": [
+        "A reliable process begins with a source document. Draft a transcript, caption file or descriptive text while preparing the original material, then review it against the final version before publishing. Editing a video after writing captions can introduce mismatches; a final comparison catches changed wording, omitted sections and timing that no longer fits. For audio, a readable transcript may be more useful than a brief summary alone, while a summary can still help readers decide whether to open the full text.",
+        "Choose a workflow that fits your capacity. If you work with an editor or assistant, define who prepares the text, who checks it and who has permission to publish it. Avoid putting private production notes, collaborator contact details or unreleased information into public post fields. If a platform accepts uploads or attachments, verify the format and presentation in a draft or test post before making the process routine."
+      ],
+      "table": {
+        "caption": "Release workflow checkpoints for accessible text",
+        "headers": [
+          "Stage",
+          "Check",
+          "Keep in your own records"
+        ],
+        "rows": [
+          [
+            "Prepare",
+            "Create the transcript, captions or description from the intended final source.",
+            "Working text and version date"
+          ],
+          [
+            "Review",
+            "Check accuracy, readability and alignment with the finished post.",
+            "Review notes and corrected version"
+          ],
+          [
+            "Publish",
+            "Confirm the text is attached, visible and labeled clearly.",
+            "Published text copy and post reference"
+          ],
+          [
+            "After release",
+            "Correct material changes and explain what changed where appropriate.",
+            "Correction note and updated copy"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make access and expectations clear to subscribers",
+      "paragraphs": [
+        "Consistency helps subscribers find text alternatives without having to ask. Use a stable label in a predictable place, and distinguish a transcript from a short synopsis, caption set or image description. Do not imply that a text alternative is complete if it covers only a portion of a post. If a format cannot carry the text directly, explain where the companion text appears and whether it is included in the same access level, without suggesting that every platform will handle linked material identically.",
+        "Consider whether accessibility information is visible before a subscriber opens or purchases access to a post. A concise format note can set expectations without revealing private details. Make sure the note itself is readable on a small screen and does not rely only on color, an icon or an image. If a post is edited later, update the label or companion text so the description remains accurate."
+      ],
+      "bullets": [
+        "Use plain labels such as “transcript,” “captions,” or “image description” only when they accurately describe what is provided.",
+        "Place the label and companion text in a predictable location.",
+        "State clearly when a text alternative is partial or unavailable.",
+        "Review access settings so the text is available to the same intended audience as the post."
+      ]
+    },
+    {
+      "heading": "Compare platform tools without assuming uniform support",
+      "paragraphs": [
+        "During platform selection, make a short evidence sheet for each candidate. Review current help materials and account-level previews, then test the editor where possible. Separate confirmed features from unanswered questions: a platform's general accessibility page is not proof that every creator post type supports captions, screen-reader-friendly text or accessible attachments. If an answer affects your workflow, ask support a specific question and retain the response for your decision record.",
+        "A comparison should consider both platform functionality and your independent workflow. A platform may lack a convenient built-in feature while still allowing a separate text post; that could be workable, but it may add steps or make access less obvious. Conversely, a built-in field is not useful if it is difficult to find, cannot be edited reliably or is not included in the subscriber view you intend. Score the practical outcome, not just the presence of a feature name."
+      ],
+      "table": {
+        "caption": "Evidence to capture when comparing publishing tools",
+        "headers": [
+          "Question",
+          "Evidence to seek",
+          "Decision implication"
+        ],
+        "rows": [
+          [
+            "Can text accompany this post format?",
+            "Editor fields, help documentation or a test post.",
+            "Whether your release process needs a companion post"
+          ],
+          [
+            "Can subscribers find it?",
+            "Subscriber-view preview and post layout.",
+            "Whether labeling or linking needs a workaround"
+          ],
+          [
+            "Can it be corrected?",
+            "Edit controls and published-post behavior.",
+            "How you will handle updates after release"
+          ],
+          [
+            "Can you retain a copy?",
+            "Export options or your own archive process.",
+            "How to preserve records outside the platform"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a final subscriber-view quality check",
+      "paragraphs": [
+        "Before release, review the post as a subscriber rather than relying only on the creator dashboard. Confirm that the text appears where expected, that headings and line breaks make it readable on mobile, and that any attachments open without unnecessary steps. If you use a separate text post, verify its access setting and cross-reference. Consider whether keyboard navigation or assistive technology can reach the relevant controls if you can test those tools; do not claim universal compatibility from a single check.",
+        "Keep a lightweight record of what was tested and when. Platforms can change editors, post layouts or access rules, so a brief recheck after a major workflow change is more useful than assuming old results remain true. This record also helps you distinguish a platform limitation from a publishing mistake and gives you a concrete basis for revising your process."
+      ],
+      "bullets": [
+        "Preview the post in the intended subscriber view.",
+        "Check text placement, labels, links and access permissions.",
+        "Review the post on a small screen and with available accessibility tools.",
+        "Record unresolved platform limitations and avoid promising unsupported formats."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should every post include both captions and a transcript?",
+      "answer": "Not necessarily. The useful format depends on the material and your production capacity. Decide which text alternative is appropriate for each post type, describe it accurately, and avoid presenting a partial summary as a complete transcript."
+    },
+    {
+      "question": "How can I compare platform accessibility if I cannot publish a public test?",
+      "answer": "Use current platform documentation, account previews or a private draft if available. Ask focused support questions about the exact post format and subscriber view you need. Mark anything not demonstrated as unverified rather than treating a general feature claim as proof."
+    },
+    {
+      "question": "Should I keep copies of captions and transcripts outside the platform?",
+      "answer": "Keeping your own working copies can support corrections, continuity and migration planning. Store them securely, limit access to collaborators who need them, and follow your rights and recordkeeping obligations."
+    }
+  ]
+};
