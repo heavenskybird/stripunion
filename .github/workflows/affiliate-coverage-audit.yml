@@ -1,0 +1,37 @@
+name: Read-only affiliate coverage audit
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/affiliate-coverage-audit.yml'
+      - 'scripts/affiliate-coverage-audit.mjs'
+      - 'scripts/test/affiliate-coverage-audit.test.mjs'
+      - 'src/components/GuideTemplate.astro'
+      - 'src/data/guides/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compiled-guide-coverage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install existing dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Offline read-only affiliate coverage audit tests
+        run: node --test scripts/test/affiliate-coverage-audit.test.mjs
+      - name: Build real indexable HTML for accurate article scope
+        env:
+          PUBLIC_ALLOW_INDEXING: 'true'
+        run: npm run build
+      - name: Inventory contextual affiliate exits, no provider calls
+        run: node scripts/affiliate-coverage-audit.mjs > affiliate-coverage.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: affiliate-coverage-${{ github.run_id }}
+          path: affiliate-coverage.json
+          retention-days: 7
