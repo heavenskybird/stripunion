@@ -1,7 +1,7 @@
 {
   "version": 1,
   "idempotency_key": "telegram-autonomy:2412aaf8f76f9e87b8a73ff9746e1e879e99e8ae1825ba0cab78b16f4a4e90b9",
-  "status": "reconcile_required",
+  "status": "delivered",
   "attempted_at": "2026-11-14T19:26:26.075Z",
   "evidence": {
     "content_hash": "916ff5ddd41ebd7ef7c4010b05cfc8769e86313b5b75029de5a874753b8e3918",
@@ -9,6 +9,9 @@
     "canonical_url": "https://stripunion.com/chaturbate-alternatives",
     "utm_url": "https://stripunion.com/chaturbate-alternatives/?utm_source=telegram&utm_medium=social&utm_campaign=social_outbox&utm_content=chaturbate-alternatives",
     "topic_key": "chaturbate-alternatives",
-    "channel": "@StripUnion"
-  }
+    "channel": "@StripUnion",
+    "provider_message_url": "https://t.me/StripUnion/1604"
+  },
+  "provider_message_id": "1604",
+  "provider_due_at": null
 }
