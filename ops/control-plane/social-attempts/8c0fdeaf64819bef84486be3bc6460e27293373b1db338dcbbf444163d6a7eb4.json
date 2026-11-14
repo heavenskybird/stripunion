@@ -3,8 +3,8 @@
   "kind": "social-delivery-budget",
   "idempotency_key": "social-delivery-budget:telegram",
   "days": {
-    "2026-11-13": 1
+    "2026-11-13": 1,
+    "2026-11-14": 1
   },
-  "lastAttemptedAt": 0,
-  "provenance": "One operator-reported manual post on2026-11-13 Asia/Shanghai; time and provider receipt UNKNOWN; no automated provider attempt yet"
+  "lastAttemptedAt": 1794663894744
 }
