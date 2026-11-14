@@ -32,6 +32,17 @@ test('actual paused CLI emits summary/output with zero network or provider work'
     await assert.rejects(fs.access(path.join(dir, 'ops')), { code: 'ENOENT' });
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 });
+test('native social has trusted main-only producer completion fallback when cron does not arrive', async () => {
+  const workflow = await fs.readFile(new URL('../../.github/workflows/social-outbox.yml', import.meta.url), 'utf8');
+  assert.match(workflow, /workflow_run:\s*\n\s*workflows: \['Editorial producer scheduler'\]/);
+  assert.match(workflow, /types: \[completed\]/);
+  assert.match(workflow, /github\.event\.workflow_run\.head_branch == 'main'/);
+  assert.match(workflow, /github\.event\.workflow_run\.conclusion == 'success'/);
+  assert.match(workflow, /concurrency:[\s\S]*?native-social-outbox/);
+  assert.match(workflow, /SOCIAL_OUTBOX_X_SEND_ENABLED: \$\{\{ vars\.SOCIAL_OUTBOX_X_SEND_ENABLED \|\| 'false' \}\}/);
+  assert.match(workflow, /SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: \$\{\{ vars\.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED \|\| 'false' \}\}/);
+});
+
 test('scheduled workflow gates every operational step, while enabled failures and SEO degradation stay visible', async () => {
   const workflow = await fs.readFile(new URL('../../.github/workflows/social-outbox.yml', import.meta.url), 'utf8');
   const steps = workflow.split('      - name: ');
