@@ -384,3 +384,8 @@ Minimum acceptance:
 - failure of one source does not break all collectors
 
 If these pass, StripUnion can defer the GSC Wizard subscription and continue building first-party capability.
+
+
+## On-demand first-party analytics
+
+Use [ANALYTICS-ON-DEMAND.md](ANALYTICS-ON-DEMAND.md) for the bounded read-only `analytics-on-demand.yml` manual workflow: dated GSC/GA4 filters, long-range comparisons, page decisions, sanitized artifacts and GitHub connector retrieval. It reuses the existing Google secret and does not change this daily collector or any production writer.
