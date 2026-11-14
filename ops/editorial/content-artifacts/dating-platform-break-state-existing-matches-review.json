@@ -1,0 +1,110 @@
+{
+  "backlogId": "dating-platform-break-state-existing-matches-review",
+  "slug": "dating-platform-break-state-existing-matches-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check What a Profile Break Means for Existing Matches",
+  "description": "Before pausing, hiding, or deactivating an adult dating profile, check how each account state may affect existing matches, messages, and future discovery.",
+  "excerpt": "Taking a break is not always the same as leaving. Compare the available account states against the specific things you want to pause—new discovery, notifications, messaging, or the profile itself—before you make a change.",
+  "keyTakeaways": [
+    "Separate the goal of avoiding new discovery from the goal of stopping messages or closing an account; one control may not do all three.",
+    "Check how each available state affects existing matches and conversations, not only whether your profile appears in search.",
+    "Save essential account and cancellation information before changing a state, while minimizing records you do not need.",
+    "Test whether the state can be reversed and what sign-in or confirmation steps reactivation requires.",
+    "Do not assume that hidden, paused, deactivated, and deleted have consistent meanings across platforms."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you want a break to change",
+      "paragraphs": [
+        "A break can mean different things: fewer new profile views, no new matches, less messaging, fewer notifications, or no access to the account for a while. Write down which outcome matters most. If the main goal is to stop new discovery while keeping existing conversations, look for controls that address profile visibility specifically. If you want a clean exit, account closure and deletion information may be more relevant than a temporary state.",
+        "Avoid treating a label such as “pause” or “invisible” as a complete explanation. A platform may use its own terms for whether a profile remains available to current matches, whether old conversations remain accessible, and whether the account can still receive messages. Read the explanation shown at the point of action and any linked help text. If a control’s meaning is unclear, do not assume it matches another service you have used."
+      ]
+    },
+    {
+      "heading": "Map each state against existing connections",
+      "paragraphs": [
+        "Before choosing, consider the effect on people already connected with you. Could existing matches still see your profile or message you? Can you still open conversation history? Does the platform distinguish new discovery from existing conversations? These practical questions can matter more than whether a profile is broadly described as hidden. Record the answer from current platform documentation or the confirmation screen, rather than relying on memory.",
+        "A comparison table can make trade-offs easier to see. Fill it in from the service’s own explanation, and mark unclear answers as unverified. This is especially useful if you have active conversations, a paid membership, or an upcoming renewal, since changing profile visibility may be separate from changing billing or membership status."
+      ],
+      "table": {
+        "caption": "Questions for comparing a dating account’s break options",
+        "headers": [
+          "Account state to investigate",
+          "Existing matches and conversations",
+          "New discovery",
+          "Reversibility and billing"
+        ],
+        "rows": [
+          [
+            "Pause or temporary break",
+            "Can existing contacts still see or message you?",
+            "Are you excluded from new recommendations or search?",
+            "How do you return, and does membership billing continue?"
+          ],
+          [
+            "Hide or limit visibility",
+            "Does hiding affect only new viewers or also current matches?",
+            "Which search, recommendation, or nearby surfaces are affected?",
+            "Can you restore visibility without rebuilding the profile?"
+          ],
+          [
+            "Deactivate",
+            "What remains available to you and to existing contacts?",
+            "Is the profile removed from new discovery?",
+            "What data or access is retained, and how is reactivation handled?"
+          ],
+          [
+            "Delete or close",
+            "What happens to conversations and profile information?",
+            "Is the profile removed, and is the change reversible?",
+            "Does deletion separately cancel any paid membership?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check conversations, not just the profile",
+      "paragraphs": [
+        "If you want to preserve a conversation, verify what happens to it before changing the account state. Some platforms may handle chat access separately from profile visibility. You may be able to see an existing conversation while being absent from new discovery, or the account change may affect both. Avoid copying private messages to another device or service unless you have a clear reason and can protect that information.",
+        "If you do need to continue a conversation elsewhere, decide what information you are comfortable sharing and whether the other person has agreed to that transition. A break from the platform does not require you to share personal contact details. If you prefer not to continue a conversation, use the service’s available conversation and safety controls rather than assuming a profile pause communicates your decision."
+      ]
+    },
+    {
+      "heading": "Separate visibility changes from membership billing",
+      "paragraphs": [
+        "A profile setting and a paid membership are different decisions. Before changing account visibility, check whether any subscription continues to renew and where it is managed. The billing manager may be the platform or another purchase channel, depending on how you signed up. Look for a clear cancellation confirmation if you intend to stop a paid plan; a hidden profile alone is not proof that billing has ended.",
+        "Also check whether a temporary state changes access to paid features or affects a renewal date. Avoid making multiple changes at once if you cannot tell which action caused an effect. Keep a dated note of the choice and any confirmation, stored in a private place. That creates a useful reference if you later need to restore the profile or clarify membership status."
+      ]
+    },
+    {
+      "heading": "Make a low-risk return plan",
+      "paragraphs": [
+        "If you expect to return, learn how the platform restores the account before you leave it. Check whether reactivation uses the same login, whether you must confirm an email or phone number, and whether preferences or profile details remain as they were. These are platform-specific questions; do not assume that a paused account will preserve every setting indefinitely.",
+        "Choose a reminder only if one is useful and private. A calendar label, lock-screen preview, or shared reminder may expose more than intended. When you return, review visibility and notification settings before resuming ordinary use. If you decide not to return, follow the platform’s closure and membership steps separately, and keep only the confirmation records you need."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does pausing a dating profile hide it from current matches?",
+      "answer": "There is no universal rule. Check the service’s explanation for the specific state you plan to use, especially whether it affects existing matches, conversations, and new discovery separately."
+    },
+    {
+      "question": "Will hiding my profile cancel a paid membership?",
+      "answer": "Do not assume so. Profile visibility and billing are separate controls on many services. Check the membership terms and the place where the subscription is managed, and retain a cancellation confirmation if you cancel."
+    },
+    {
+      "question": "Should I delete my account if I only want a short break?",
+      "answer": "That depends on whether you want reversibility, continued access to existing conversations, or removal of account information. Compare the platform’s pause, hide, deactivation, and deletion explanations before choosing. If any consequence is unclear, seek clarification before taking an irreversible step."
+    }
+  ],
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

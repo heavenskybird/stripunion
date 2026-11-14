@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T20:44:49.978Z",
+  "generatedAt": "2026-11-14T23:14:03.982Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-social-sign-in-permissions-review.json",
-    "ops/editorial/content-artifacts/adult-games-audio-output-privacy-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-wishlist-privacy-controls-check.json",
-    "ops/editorial/content-artifacts/live-cam-casting-display-handoff-privacy-check.json",
-    "ops/editorial/content-artifacts/affiliate-referral-link-parameter-data-minimization-review.json"
+    "ops/editorial/content-artifacts/creator-platform-published-post-correction-workflow.json",
+    "ops/editorial/content-artifacts/dating-platform-break-state-existing-matches-review.json",
+    "ops/editorial/content-artifacts/adult-platform-shared-budget-dashboard-privacy-check.json",
+    "ops/editorial/content-artifacts/premium-video-series-project-access-window-check.json",
+    "ops/editorial/content-artifacts/free-video-comments-account-value-boundaries.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-social-sign-in-permissions-review.js",
-    "src/data/guides/adult-games-audio-output-privacy-preflight.js",
-    "src/data/guides/adult-shop-wishlist-privacy-controls-check.js",
-    "src/data/guides/live-cam-casting-display-handoff-privacy-check.js",
-    "src/data/guides/affiliate-referral-link-parameter-data-minimization-review.js"
+    "src/data/guides/creator-platform-published-post-correction-workflow.js",
+    "src/data/guides/dating-platform-break-state-existing-matches-review.js",
+    "src/data/guides/adult-platform-shared-budget-dashboard-privacy-check.js",
+    "src/data/guides/premium-video-series-project-access-window-check.js",
+    "src/data/guides/free-video-comments-account-value-boundaries.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "live-cams",
-    "webmaster-affiliate"
+    "creator-platforms",
+    "dating-hookups",
+    "privacy-safety-payment",
+    "premium-videos",
+    "free-videos"
   ],
   "backlogIds": [
-    "free-video-social-sign-in-permissions-review",
-    "adult-games-audio-output-privacy-preflight",
-    "adult-shop-wishlist-privacy-controls-check",
-    "live-cam-casting-display-handoff-privacy-check",
-    "affiliate-referral-link-parameter-data-minimization-review"
+    "creator-platform-published-post-correction-workflow",
+    "dating-platform-break-state-existing-matches-review",
+    "adult-platform-shared-budget-dashboard-privacy-check",
+    "premium-video-series-project-access-window-check",
+    "free-video-comments-account-value-boundaries"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43638938090",
-  "phase": "closed"
+  "r1CycleId": "43651970859"
 }

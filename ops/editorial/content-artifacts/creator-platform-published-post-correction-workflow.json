@@ -1,0 +1,115 @@
+{
+  "backlogId": "creator-platform-published-post-correction-workflow",
+  "slug": "creator-platform-published-post-correction-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Plan a Clear Correction When a Published Post Needs Replacing",
+  "description": "Build a practical correction workflow for replacing or updating a creator-platform post, preserving accurate access information, and communicating changes clearly to subscribers.",
+  "excerpt": "A published post can need a correction for many ordinary reasons: a file is incomplete, details are inaccurate, or an update is needed. A repeatable process helps creators fix the issue without confusing subscribers or losing track of what changed.",
+  "keyTakeaways": [
+    "Decide what needs correcting before changing a post: the file, its description, its access terms, or more than one of these.",
+    "Keep an independent record of the original post details and the correction, since platform history and visibility controls can differ.",
+    "Check whether editing, replacing, removing, or reposting changes access for existing subscribers before choosing an action.",
+    "Communicate the practical effect of a correction: what changed, where to find the current version, and whether any access step is needed.",
+    "Avoid promising that a replacement will be available to every past or current subscriber until you have verified the platform’s entitlement rules."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the problem, not the button",
+      "paragraphs": [
+        "When a post needs attention, the first decision is what is actually wrong. A broken or incomplete file calls for a different response from an inaccurate title, a missing detail, or a mistaken access description. Write down the problem in plain language before opening the publishing controls. This keeps a rushed edit from accidentally changing unrelated details such as the post’s audience, visibility, or offer.",
+        "Then identify the smallest useful correction. A text clarification may be enough if the underlying file and access are correct. A replacement file may be necessary if the content itself is incomplete. Removing and reposting can be appropriate in some cases, but it may create a new post with different visibility or access behavior. Treat each option as a different operational action, not as an interchangeable way to edit."
+      ],
+      "bullets": [
+        "Record the post’s current title, publication date, visibility, and access terms.",
+        "Identify whether the correction concerns the file, description, audience, or entitlement.",
+        "Note any deadline or subscriber question that makes prompt communication important."
+      ]
+    },
+    {
+      "heading": "Check what each correction method changes",
+      "paragraphs": [
+        "Before acting, inspect the platform’s current controls and help information. An edit may preserve an existing post address and its audience, while a replacement or repost may create a separate entry. A removal may affect discovery, saved links, or access. These are questions to verify, not behaviors to assume: platform interfaces and rules vary, and a button label does not necessarily explain every downstream effect.",
+        "If the platform offers a preview or draft state, use it to check the corrected file and description before publishing. Verify that the intended audience can see the updated information and that the access boundary still matches your plan. If the interface does not make an important consequence clear, pause and consult platform documentation or support rather than making multiple speculative changes."
+      ],
+      "table": {
+        "caption": "Correction options to assess before changing a published post",
+        "headers": [
+          "Action",
+          "What to verify first",
+          "Possible communication need"
+        ],
+        "rows": [
+          [
+            "Edit text or details",
+            "Whether the existing post and audience remain the same",
+            "Explain any corrected facts or access instructions"
+          ],
+          [
+            "Replace a file",
+            "Whether existing viewers retain access to the revised file",
+            "Say what was replaced and where the current file appears"
+          ],
+          [
+            "Remove and repost",
+            "Whether the new post has different visibility or entitlement",
+            "Point subscribers to the current post and explain any access step"
+          ],
+          [
+            "Remove without reposting",
+            "What happens to existing access and saved links",
+            "Explain whether the post is unavailable and what happens next"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve a simple change record",
+      "paragraphs": [
+        "Keep a brief internal record before and after the correction. Include the date, the original issue, the action taken, and the final state you verified. If you replace a file, identify it by a neutral version label or filename rather than relying on memory. Keep only information needed to manage the correction, and store records in a location with appropriate access controls.",
+        "A change record is useful when a subscriber asks what happened, when you need to undo an accidental change, or when you later review the post. It also helps distinguish a genuine correction from a new release. Do not assume the platform will preserve a complete edit history or make that history visible to subscribers. Your own concise record can fill that operational gap without requiring a complicated system."
+      ]
+    },
+    {
+      "heading": "Tell subscribers what changed and what did not",
+      "paragraphs": [
+        "A correction note should be direct, factual, and proportionate. Say that an update was made, identify the part that changed, and provide the current location or access instructions. If the correction does not change the offer or access, say so only after verifying that this is true. If the post is temporarily unavailable, give a realistic next update point rather than an unsupported promise about when access will return.",
+        "Use the communication channel that reaches the people affected, while respecting the platform’s rules and your own privacy boundaries. Avoid sending repeated messages to everyone when only a subset is affected, if the platform provides a reliable way to target that subset. Do not include unnecessary sensitive details in a public post. A neutral explanation can resolve confusion without disclosing private production, account, or subscriber information."
+      ]
+    },
+    {
+      "heading": "Verify the result and close the loop",
+      "paragraphs": [
+        "After publishing the correction, check the post from the relevant viewing context if you can do so safely and within the platform’s rules. Confirm that the corrected text or file appears, the visibility is intended, and any link or access instruction works. Check that an obsolete version is not still presented as current in another post, pinned message, or linked page. If the platform has no suitable preview, record that limitation and avoid claiming a verification you did not perform.",
+        "Finally, close the loop in your records: note what you checked, when you checked it, and whether any subscriber follow-up remains. If someone reports that access still fails, ask for only the information needed to troubleshoot and avoid requesting passwords or payment credentials. A repeatable close-out step turns an isolated fix into a manageable publishing process."
+      ],
+      "bullets": [
+        "Confirm the current version is visible to the intended audience.",
+        "Check related links, pinned posts, and access instructions for stale details.",
+        "Record unresolved access reports and a next action without promising an outcome you cannot control."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I delete a post and upload it again to correct a mistake?",
+      "answer": "Not automatically. First compare the consequences of editing, replacing, and reposting. A new post may have a different address, audience, or access state. Check the platform’s current rules and controls, then choose the least disruptive option that actually fixes the issue."
+    },
+    {
+      "question": "What should a subscriber correction notice include?",
+      "answer": "Include a concise description of what changed, where to find the current version, and whether the subscriber needs to take an action. Do not claim that access or other terms are unchanged unless you have checked them."
+    },
+    {
+      "question": "Do I need to keep a copy of the original post?",
+      "answer": "Keep only records you have a legitimate operational reason to retain, and protect them appropriately. A brief note about the issue and the change is often more useful than keeping unnecessary copies. Follow applicable platform rules and your own retention practices."
+    }
+  ],
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,108 @@
+export default {
+  "slug": "premium-video-series-project-access-window-check",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Memberships: Check Access Timing for a Planned Viewing Project",
+  "description": "Before joining a premium video service for a planned series or collection, compare access windows, renewal timing, title availability, and cancellation steps.",
+  "excerpt": "A planned viewing project may be short, but access and billing terms can extend beyond it. Use this worksheet to check whether the titles you want are included, when access begins and ends, and how to avoid relying on an unverified cutoff date.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "List the specific titles or collections you want to watch and verify that each is currently included in the plan you are considering.",
+    "Separate membership access dates from billing dates; a cancellation request may not immediately end access or stop a charge already due.",
+    "Check renewal timing, cancellation steps, and any applicable access cutoff before starting a viewing window.",
+    "Treat catalog availability as changeable unless the service provides a clear commitment for the titles you need.",
+    "Record the information you checked and reassess if your plan or the service’s terms change."
+  ],
+  "sections": [
+    {
+      "heading": "Turn a viewing project into a title checklist",
+      "paragraphs": [
+        "A short viewing project is easier to assess when it is specific. List the titles, collections, or episodes you hope to access, then check each one in the service’s catalog before subscribing. A headline about library size or a general category page is not enough to confirm that a particular title is included in the plan you intend to buy. Look for the title’s own access label and any plan restrictions, and note when you checked.",
+        "Separate essential titles from optional ones. If a required title is unavailable, the membership may not fit the project even if the rest of the catalog looks useful. If only optional titles are missing, decide whether the remaining selection still meets your goal. This turns a vague expectation into a decision you can revisit without depending on a broad marketing description."
+      ],
+      "bullets": [
+        "List must-watch titles separately from optional titles.",
+        "Check each title’s inclusion and any separate access condition.",
+        "Record the date of the check, since catalog information can change."
+      ]
+    },
+    {
+      "heading": "Map access dates against billing dates",
+      "paragraphs": [
+        "A membership’s access period and billing cycle are related but not necessarily identical in the way you expect. Before joining, find the start date, renewal date, billing frequency, and cancellation process in the checkout and account terms. If a trial or introductory period is offered, verify the end date and what happens after it; do not assume that deleting an app, signing out, or changing a profile ends a recurring payment.",
+        "Create a calendar note for the dates that matter to your plan, using a label that does not reveal private details if the calendar is shared. Include time to cancel before the next renewal if you do not want continued billing. Keep the actual confirmation after cancellation, and check the account or billing channel to verify the status. A reminder is a planning aid, not a substitute for completing and confirming the cancellation steps."
+      ]
+    },
+    {
+      "heading": "Check whether titles are likely to remain available",
+      "paragraphs": [
+        "If the project depends on finishing a particular series or collection, investigate how the service communicates catalog changes and whether it states any access period for those titles. A catalog listing is evidence of current availability, not necessarily a promise that access will continue through a future date. If no clear notice or commitment is available, treat the schedule as uncertain and consider whether your plan can accommodate a title becoming unavailable.",
+        "Build a little flexibility into the project. Prioritize the titles that matter most, avoid leaving every essential item until the end of a long access window, and keep a note of any announced removal date. Do not make a purchase decision based on an assumed catalog guarantee. If the service’s information is unclear, ask its support team a focused question and retain the answer without treating it as a binding promise unless the service explicitly says so."
+      ]
+    },
+    {
+      "heading": "Compare access models and cancellation consequences",
+      "paragraphs": [
+        "Some services may combine memberships with other access models, such as title-level purchases or rentals. Check whether your intended titles are part of the membership or require a separate transaction. Also determine what happens to access when a membership ends and whether any separately acquired title has different terms. This matters for a finite viewing project because one payment can cover different kinds of access with different end conditions.",
+        "Cancellation can mean different things for future billing and current viewing access. Read the stated cancellation timing and cutoff rule before subscribing. If access continues through a paid period after cancellation, record the stated date and confirm it in your account. If the cutoff is immediate or unclear, include that uncertainty in your plan. Never infer continued access solely from the fact that you have already paid."
+      ],
+      "table": {
+        "caption": "A planning worksheet for a time-limited viewing project",
+        "headers": [
+          "Decision point",
+          "Evidence to check",
+          "Record for your plan"
+        ],
+        "rows": [
+          [
+            "Title fit",
+            "Title page and plan inclusion details",
+            "Must-watch titles confirmed or missing"
+          ],
+          [
+            "Access timing",
+            "Membership start, renewal, and cutoff terms",
+            "Key dates and reminder date"
+          ],
+          [
+            "Catalog continuity",
+            "Removal notices or stated availability terms",
+            "Known risks and flexible alternatives"
+          ],
+          [
+            "Cancellation",
+            "Where and how cancellation is completed",
+            "Billing manager and confirmation location"
+          ],
+          [
+            "Separate purchases",
+            "Whether an item requires an additional transaction",
+            "Any distinct access period or condition"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose a realistic schedule and review it",
+      "paragraphs": [
+        "Estimate the time you can actually devote to the project rather than planning around an ideal week. If your schedule changes, reassess whether the membership still serves its purpose before renewal. Avoid paying for an extended period solely because you assume you will catch up later. Conversely, do not rush a decision if you have not verified the essential titles, terms, and cancellation route.",
+        "Once you begin, check the account page for renewal information and any relevant catalog notices. If you change plans or billing channels, verify the new terms and who now handles cancellation. Keep a concise record of the plan selected, dates checked, and any cancellation confirmation. This makes it easier to compare what you expected with what the account actually shows."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume a title will stay in a premium library until I finish it?",
+      "answer": "No. A title’s presence today does not by itself guarantee future availability. Check for clear catalog notices or stated access terms, and plan around uncertainty if the service does not provide a commitment."
+    },
+    {
+      "question": "Does canceling a membership usually end viewing access immediately?",
+      "answer": "The timing depends on the service and the billing arrangement. Read the cancellation terms and check the account confirmation for the stated access cutoff. Do not rely on a general rule from another service."
+    },
+    {
+      "question": "How can I tell whether a title is included in the membership?",
+      "answer": "Check the title’s own access information while signed out or in the account context available to you, and compare it with the plan terms. Look for separate purchase, rental, or upgrade requirements rather than assuming every catalog listing is included."
+    }
+  ]
+};
