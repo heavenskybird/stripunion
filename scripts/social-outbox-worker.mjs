@@ -13,9 +13,9 @@ const limit = validateCap(process.env.SOCIAL_OUTBOX_BATCH_SIZE ?? 5, 5);
 const channels = socialChannelSwitches();
 const sendEnabled = channels.globalEnabled && (channels.x || channels.telegram);
 const timezone = process.env.SOCIAL_OUTBOX_TIMEZONE || 'Asia/Shanghai';
-const xDailyCap = validateCap(process.env.SOCIAL_OUTBOX_X_DAILY_CAP ?? 20, 20);
+const xDailyCap = validateCap(process.env.SOCIAL_OUTBOX_X_DAILY_CAP ?? 1, 20);
 const telegramDailyCap = validateCap(process.env.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP ?? 100, 100);
-const xMinIntervalMinutes = Number(process.env.SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES ?? 45);
+const xMinIntervalMinutes = Number(process.env.SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES ?? 2880);
 if (!Number.isFinite(xMinIntervalMinutes) || xMinIntervalMinutes < 45) throw new Error('X spacing must be at least 45 minutes.');
 
 async function listJson(dir) {

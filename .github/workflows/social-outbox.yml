@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+  # Secondary wake when GitHub cron delivery is delayed: only a completed
+  # successful canonical editorial workflow may cause native social admission.
+  # All existing provider/CAS/channel/operator gates still apply.
+  workflow_run:
+    workflows: ['Editorial producer scheduler']
+    types: [completed]
   push:
     branches: [main, codex/recovery-integration-20261111]
     paths:
@@ -24,6 +30,9 @@ jobs:
     # The integration branch may exercise only the explicitly paused path.
     if: >-
       github.repository == 'heavenskybird/stripunion' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.conclusion == 'success')) &&
       (github.ref == 'refs/heads/main' ||
        (github.ref == 'refs/heads/codex/recovery-integration-20261111' &&
         vars.SOCIAL_OUTBOX_SEND_ENABLED == 'false'))
@@ -108,8 +117,8 @@ jobs:
           SOCIAL_OUTBOX_BATCH_SIZE: ${{ vars.SOCIAL_OUTBOX_BATCH_SIZE || '1' }}
           TELEGRAM_AUTONOMY_ENABLED: 'true'
           SOCIAL_OUTBOX_TIMEZONE: Asia/Shanghai
-          SOCIAL_OUTBOX_X_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_X_DAILY_CAP || '20' }}
-          SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES: '45'
+          SOCIAL_OUTBOX_X_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_X_DAILY_CAP || '1' }}
+          SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES: '2880'
           SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_DAILY_CAP || '3' }}
           BUFFER_API_KEY: ${{ steps.operator.outputs.x_send_enabled == 'true' && secrets.BUFFER_API_KEY || '' }}
           BUFFER_CHANNEL_ID: ${{ steps.operator.outputs.x_send_enabled == 'true' && vars.BUFFER_CHANNEL_ID || '' }}
