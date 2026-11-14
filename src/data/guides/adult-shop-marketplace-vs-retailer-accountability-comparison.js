@@ -1,0 +1,103 @@
+export default {
+  "slug": "adult-shop-marketplace-vs-retailer-accountability-comparison",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare Direct Retailers and Marketplace Sellers",
+  "description": "Learn how to evaluate who lists, sells, ships, and supports an adult-shop order when a retailer operates as a marketplace or hosts third-party sellers.",
+  "excerpt": "A familiar storefront may not be the seller responsible for every listing. Check seller identity, fulfillment, returns, and support before placing an order.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "Identify the seller of record for the specific item, not just the storefront brand.",
+    "Check who ships the order and which returns policy applies to that seller.",
+    "Look for clear product, delivery, and support information tied to the listing.",
+    "Confirm how to reach the seller or platform if an order is missing or incorrect.",
+    "Treat seller identity and fulfillment details as part of the purchase decision."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish the storefront from the seller",
+      "paragraphs": [
+        "Some online shops sell items directly; others may host listings from more than one seller. The visual design of a storefront does not tell you which arrangement applies to a particular product. Check the item page and checkout for the seller's name and any statement that another business supplies or fulfills the order. The relevant answer can vary by listing, so inspect each item rather than assuming the whole catalog follows one model.",
+        "This distinction matters because responsibility can be divided. A storefront may provide the website, while a seller manages stock, dispatch, or product questions. Another arrangement may place some of those tasks with the storefront. Before ordering, identify who is named as the seller and who appears responsible for the next steps. If the information is absent or difficult to reconcile, treat that uncertainty as a reason to pause rather than infer the arrangement."
+      ],
+      "bullets": [
+        "Check the seller name on the product page and at checkout.",
+        "Look for separate statements about who fulfills or ships the item.",
+        "Save the listing details needed to identify the seller if you place an order."
+      ]
+    },
+    {
+      "heading": "Compare listing evidence, not only catalog size",
+      "paragraphs": [
+        "A broad catalog is not necessarily a well-documented catalog. Review whether the listing describes the selected item, included components, relevant specifications, and seller identity clearly enough for you to make a decision. Where several sellers offer similar-looking listings, compare the evidence attached to each listing rather than treating them as interchangeable. A vague product page can make it harder to resolve a mismatch later, even if the storefront itself is recognizable.",
+        "Look for information that is specific to the seller and the item: stock status, handling or dispatch notes, product documentation, and the route for questions. Do not treat a seller badge or a polished page as proof of product quality or service. A sound comparison records what the listing states and what remains unanswered. If a missing detail affects fit, delivery, or return eligibility, seek clarification through an official contact route before paying."
+      ],
+      "table": {
+        "caption": "Compare the responsibilities shown on a product listing",
+        "headers": [
+          "Purchase detail",
+          "What to verify",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Seller",
+            "Business or seller named for the item",
+            "Who is selling this specific product?"
+          ],
+          [
+            "Fulfillment",
+            "Dispatch and shipping responsibility",
+            "Who handles packing and delivery updates?"
+          ],
+          [
+            "Returns",
+            "Policy and contact route linked to the listing",
+            "Whose return conditions apply?"
+          ],
+          [
+            "Support",
+            "Official seller or platform contact path",
+            "Who handles an order or product problem?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read shipping and return terms for the actual seller",
+      "paragraphs": [
+        "A general shipping or returns page may not cover every listing if a platform hosts outside sellers. Check whether the policy names exceptions or directs marketplace orders to seller-specific terms. Confirm the information that matters to your order, including who dispatches it, what the stated delivery information means, and where to start if a parcel does not arrive. Avoid assuming that a platform-wide statement overrides details attached to the seller's listing.",
+        "For returns, look for eligibility conditions, time limits, and the process for requesting a return or remedy. The rules can vary by product and seller, so do not rely on a broad site slogan. Check whether the listing links to the applicable terms and whether those terms identify the party that receives the request. Keep a copy of the relevant policy or note its location at purchase time, so you can find the same conditions if the item page later changes."
+      ]
+    },
+    {
+      "heading": "Evaluate customer support and escalation routes",
+      "paragraphs": [
+        "Before ordering, confirm that you can identify where to ask about a product and where to report an order problem. A platform may provide a general contact form, while a third-party seller may have a separate support route. Check whether the instructions say to contact the seller first, contact the platform, or use a specified order page. Clear instructions reduce the chance of sending private order information to the wrong recipient.",
+        "A useful support route explains how to identify the order, what evidence may be requested, and how to follow up. Do not provide passwords, payment security codes, or unrelated identity information to resolve an ordinary product question. If the seller's contact method is not clear or the platform offers no understandable escalation path, consider whether that gap is acceptable for the item and your circumstances. Support clarity is part of the buying experience, not an afterthought."
+      ]
+    },
+    {
+      "heading": "Make a listing-level decision and keep a simple record",
+      "paragraphs": [
+        "A seller comparison is most useful when it ends in a practical choice. For each listing you are considering, note the seller, fulfillment party, applicable return terms, and support route. Then mark any unresolved question that could change your decision. This approach is more reliable than comparing storefront names alone because it accounts for differences between sellers and individual items.",
+        "After ordering, keep the order confirmation and the policy information relevant to the transaction in a private place. The confirmation can help you identify the seller and order if you need support, while the policy reference can clarify which process applies. Avoid keeping unnecessary copies of personal or payment data. If the order involves multiple sellers, preserve enough information to distinguish which item belongs to which seller without collecting more information than you need."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a marketplace storefront always handle returns?",
+      "answer": "Not necessarily. Responsibilities can depend on the listing and seller. Check the specific item's return terms and the official instructions for starting a request."
+    },
+    {
+      "question": "What if the seller name differs between the listing and checkout?",
+      "answer": "Pause and verify the change through the storefront's official information or support route before paying. Do not assume the difference is harmless or enter payment details until the seller is clear."
+    },
+    {
+      "question": "Should I trust a seller because the platform hosts the listing?",
+      "answer": "A hosted listing alone does not establish the seller's product quality or service. Review seller identity, listing details, fulfillment terms, applicable policies, and support routes separately."
+    }
+  ]
+};
