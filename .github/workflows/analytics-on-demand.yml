@@ -1,5 +1,8 @@
 name: First-party analytics on demand
 on:
+  # Refresh canonical main + Blog 28-day decisions daily, without a manual Run workflow.
+  schedule:
+    - cron: '17 4 * * *'
   workflow_dispatch:
     inputs:
       query_json:
@@ -23,7 +26,8 @@ jobs:
   query:
     if: >-
       github.repository == 'heavenskybird/stripunion' &&
-      ((github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      ((github.event_name == 'schedule' && github.ref == 'refs/heads/main') ||
+       (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
        (github.event_name == 'push' && github.ref == 'refs/heads/codex/analytics-on-demand-20261114'))
     runs-on: ubuntu-latest
     timeout-minutes: 15
@@ -41,6 +45,13 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           ANALYTICS_QUERY_JSON: ${{ inputs.query_json || '{}' }}
+        run: node ops/seo-data-layer/src/queries/on-demand.mjs
+      - name: Scheduled Blog Search Console and GA4 28-day review
+        if: github.event_name == 'schedule'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ANALYTICS_QUERY_JSON: '{"property":"blog","days":28}'
+          ANALYTICS_REPORT_NAME: blog-daily
         run: node ops/seo-data-layer/src/queries/on-demand.mjs
       - name: Live bounded acceptance of 7/90/365-day filtered queries
         if: github.event_name == 'push'

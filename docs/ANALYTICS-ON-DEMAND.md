@@ -2,6 +2,29 @@
 
 This is a bounded read-only report tool for StripUnion, using the existing `GOOGLE_SERVICE_ACCOUNT_JSON`. No new Google credentials or services are needed. It never commits data, changes Google configuration, sends events, modifies Producer receipts, switches social channels, or invokes Buffer. No model API is used.
 
+## Autonomous first-party search decisions
+
+The same bounded read-only workflow also runs on the canonical main branch once
+daily at 04:17 UTC (GitHub schedule timing may be delayed). It independently
+writes **two reports** into the same 14-day Actions artifact:
+
+- `query/` — Domain GSC + aggregate GA4, latest conservative 28-day window vs
+  the equal preceding 28 days, including main and Blog traffic (do not sum).
+- `blog-daily/` — Blog URL-prefix GSC and Blog-host GA4, same 28-day windows.
+
+Both use existing Google Service Account credentials and generate only reviewable
+UPDATE_EXISTING / AUDIT_EXISTING / REVIEW_LANDING_UX suggestions. No source
+snapshot commit, Google event send, WordPress publish, affiliate event, Blogger
+post, producer run or paid model call occurs. This **is an autonomous analytics
+feedback report, not an autonomous content rewrite/publish permission**.
+Mainstream high-impression intents remain eligible for updates; a shared brand
+keyword is never a reason to switch to obscure topics.
+
+If Github Cron fails to dispatch, the existing daily `SEO data daily` first-party
+snapshot still runs separately; missing scheduled artifacts must be surfaced as
+a monitoring gap, never fabricated as zero demand. Owners retain manual
+`workflow_dispatch` for ad hoc queries.
+
 ## Run a query
 
 GitHub → Actions → **First-party analytics on demand** → Run workflow → branch **main**. Enter one `query_json` object, or leave `{}` for the latest 28 calendar days ending three UTC days ago and an equally long preceding window. The three-day default is conservative; recent data can still be incomplete. Explicit dates are inclusive and must end before today. Requests are limited to 480 days and GSC's rolling 16-month retention. Use 7, 28, 90, 180, 365 or another integer up to 480. A previous GSC window outside retention is `UNAVAILABLE`, never zero or fabricated backfill.
