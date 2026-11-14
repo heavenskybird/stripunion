@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T13:00:16.758Z",
+  "generatedAt": "2026-11-14T16:39:12.486Z",
   "sourceDates": {
     "gsc": "2026-11-12",
     "gscBlog": "2026-11-12",
@@ -52,15 +52,15 @@
       "ctr": 0,
       "note": "Independent Blog URL-prefix signal; do not add to main Domain property totals."
     },
-    "clicks": 66,
-    "impressions": 1727,
-    "ctr": 0.03821656050955414,
-    "averagePosition": 13.95946728430805,
+    "clicks": 85,
+    "impressions": 2252,
+    "ctr": 0.03774422735346359,
+    "averagePosition": 13.513321492007105,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
-        "clicks": 258,
-        "impressions": 11160
+        "clicks": 277,
+        "impressions": 11729
       },
       "blog": {
         "clicks": 1,
@@ -238,27 +238,27 @@
     "topPagesByImpressions": [
       {
         "key": "https://www.stripunion.com/stripchat-alternatives",
-        "value": 549
+        "value": 551
       },
       {
         "key": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
-        "value": 333
+        "value": 349
       },
       {
         "key": "https://www.stripunion.com/stripchat-app",
-        "value": 305
-      },
-      {
-        "key": "https://www.stripunion.com/chaturbate-alternatives",
-        "value": 292
+        "value": 341
       },
       {
         "key": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow",
-        "value": 288
+        "value": 303
+      },
+      {
+        "key": "https://www.stripunion.com/chaturbate-alternatives",
+        "value": 303
       },
       {
         "key": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
-        "value": 274
+        "value": 287
       },
       {
         "key": "https://www.stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
@@ -269,12 +269,12 @@
         "value": 258
       },
       {
-        "key": "https://stripunion.com/chaturbate-alternatives",
-        "value": 216
+        "key": "https://stripunion.com/stripchat-alternatives/",
+        "value": 233
       },
       {
-        "key": "https://stripunion.com/stripchat-alternatives/",
-        "value": 197
+        "key": "https://stripunion.com/chaturbate-alternatives",
+        "value": 219
       }
     ]
   },
@@ -373,11 +373,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 5,
+        "AvgImpressionPosition": 7,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "f95zone reviews",
+        "Query": "world of dominion f95zone review",
         "site": "stripunion.com"
       },
       {
@@ -393,11 +393,11 @@
       {
         "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
         "AvgClickPosition": -1,
-        "AvgImpressionPosition": 7,
+        "AvgImpressionPosition": 5,
         "Clicks": 0,
         "Date": "/Date(1781827200000)/",
         "Impressions": 1,
-        "Query": "world of dominion f95zone review",
+        "Query": "f95zone reviews",
         "site": "stripunion.com"
       },
       {
@@ -2235,7 +2235,7 @@
     "crawlEvidence": [
       {
         "site": "stripunion.com",
-        "collectedAt": "2026-11-14T12:56:47.293Z",
+        "collectedAt": "2026-11-14T16:39:03.496Z",
         "providerDataAsOf": "2026-11-09T00:00:00.000Z",
         "ageDays": 5,
         "aggregateCrawlErrors": 5,
@@ -2248,7 +2248,7 @@
       },
       {
         "site": "blog.stripunion.com",
-        "collectedAt": "2026-11-14T12:56:47.293Z",
+        "collectedAt": "2026-11-14T16:39:03.496Z",
         "providerDataAsOf": "2026-11-09T00:00:00.000Z",
         "ageDays": 5,
         "aggregateCrawlErrors": 0,
@@ -2308,19 +2308,19 @@
         "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
         "Compressed": false,
         "FileSize": 0,
-        "LastCrawled": "/Date(1793836471000)/",
-        "Status": "Success",
+        "LastCrawled": "/Date(1793933265000)/",
+        "Status": "Failed",
         "Submitted": "/Date(1792735562412)/",
         "Type": "Sitemap",
         "Url": "https://stripunion.com/sitemap.xml",
-        "UrlCount": 1617,
+        "UrlCount": 0,
         "site": "stripunion.com"
       },
       {
         "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
         "Compressed": false,
         "FileSize": 0,
-        "LastCrawled": "/Date(1793855027000)/",
+        "LastCrawled": "/Date(1794034251000)/",
         "Status": "Success",
         "Submitted": "/Date(-11644473600000)/",
         "Type": "Sitemap Index",
@@ -2332,7 +2332,7 @@
         "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
         "Compressed": false,
         "FileSize": 0,
-        "LastCrawled": "/Date(1793855027000)/",
+        "LastCrawled": "/Date(1794034251000)/",
         "Status": "Success",
         "Submitted": "/Date(1791185960538)/",
         "Type": "Sitemap Index",
@@ -2372,6 +2372,13 @@
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 26061412,
+          "Impressions": 8196865,
+          "Query": "porn",
+          "seed": "xhamster reviews"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 3297254,
           "Impressions": 3076038,
           "Query": "xhamster",
@@ -2382,14 +2389,14 @@
           "BroadImpressions": 2202372,
           "Impressions": 1701594,
           "Query": "free porn",
-          "seed": "xhamster site overview"
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
           "BroadImpressions": 2202372,
           "Impressions": 1701594,
           "Query": "free porn",
-          "seed": "xhamster reviews"
+          "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2397,20 +2404,6 @@
           "Impressions": 215303,
           "Query": "porn videos",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 357857,
-          "Impressions": 23747,
-          "Query": "hamster",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 320426,
-          "Impressions": 308554,
-          "Query": "freeporn",
-          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2445,14 +2438,21 @@
           "BroadImpressions": 212721,
           "Impressions": 203045,
           "Query": "xhamster.com",
+          "seed": "xhamster review"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 212721,
+          "Impressions": 203045,
+          "Query": "xhamster.com",
           "seed": "xhamster site overview"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 204630,
-          "Impressions": 202175,
-          "Query": "chaterbate",
-          "seed": "chaturbate alternatives"
+          "BroadImpressions": 168301,
+          "Impressions": 22305,
+          "Query": "amsterdam",
+          "seed": "xhamster review"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2466,21 +2466,7 @@
           "BroadImpressions": 99517,
           "Impressions": 84704,
           "Query": "x hamster",
-          "seed": "xhamster review"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 99517,
-          "Impressions": 84704,
-          "Query": "x hamster",
           "seed": "xhamster site overview"
-        },
-        {
-          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
-          "BroadImpressions": 99517,
-          "Impressions": 84704,
-          "Query": "x hamster",
-          "seed": "xhamster reviews"
         },
         {
           "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
@@ -2495,23 +2481,37 @@
           "Impressions": 79562,
           "Query": "hamster porn",
           "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 81005,
+          "Impressions": 42671,
+          "Query": "amateur porn",
+          "seed": "xhamster site overview"
+        },
+        {
+          "__type": "Keyword:#Microsoft.Bing.Webmaster.Api",
+          "BroadImpressions": 76860,
+          "Impressions": 4207,
+          "Query": "affiliate",
+          "seed": "adult affiliate program"
         }
       ]
     }
   },
   "ga4": {
-    "sessions": 24,
-    "engagedSessions": 15,
+    "sessions": 14,
+    "engagedSessions": 9,
     "siteSegmentationAvailable": true,
     "sites": {
       "main": {
-        "sessions": 16,
-        "engagedSessions": 14,
-        "affiliateClick": 4,
+        "sessions": 8,
+        "engagedSessions": 8,
+        "affiliateClick": 3,
         "revenue": 0
       },
       "blog": {
-        "sessions": 8,
+        "sessions": 6,
         "engagedSessions": 1,
         "affiliateClick": 1,
         "revenue": 0
@@ -2524,26 +2524,22 @@
       }
     },
     "otherHosts": [],
-    "engagementRate": 0.625,
+    "engagementRate": 0.6428571428571429,
     "acquisitionSources": [
       {
         "key": "(direct) / (none)",
-        "value": 10
-      },
-      {
-        "key": "google / organic",
-        "value": 5
+        "value": 6
       },
       {
         "key": "chatgpt.com / ai-assistant",
-        "value": 4
-      },
-      {
-        "key": "search.google.com / referral",
-        "value": 2
+        "value": 3
       },
       {
         "key": "(not set)",
+        "value": 2
+      },
+      {
+        "key": "google / organic",
         "value": 2
       },
       {
@@ -2554,31 +2550,7 @@
     "landingPages": [
       {
         "key": "/",
-        "value": 9
-      },
-      {
-        "key": "/guides/hentai-anime-streaming-manga-games-guide/",
-        "value": 2
-      },
-      {
-        "key": "(not set)",
-        "value": 1
-      },
-      {
-        "key": "/guides/adult-site-account-security-password-recovery-checklist/",
-        "value": 1
-      },
-      {
-        "key": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
-        "value": 1
-      },
-      {
-        "key": "/stripchat-alternatives/",
-        "value": 1
-      },
-      {
-        "key": "/guides/adult-games-storefront-community-review-evidence-checklist/",
-        "value": 1
+        "value": 6
       },
       {
         "key": "/guides/adult-anime-games-device-compatibility-and-install-checklist/",
@@ -2591,43 +2563,63 @@
       {
         "key": "/guides/adult-anime-mobile-format-account-fit/",
         "value": 1
+      },
+      {
+        "key": "/guides/adult-dating-platform-call-feature-privacy-audit/",
+        "value": 1
+      },
+      {
+        "key": "/guides/adult-dating-profile-authenticity-evidence-workflow/",
+        "value": 1
+      },
+      {
+        "key": "/guides/free-adult-video-metered-data-autoplay-quality-controls/",
+        "value": 1
+      },
+      {
+        "key": "/guides/free-adult-video-sites-privacy-usability-guide/",
+        "value": 1
+      },
+      {
+        "key": "/xhamster/",
+        "value": 1
       }
     ],
-    "affiliateClick": 5,
+    "affiliateClick": 4,
     "conversions": null,
     "revenue": 0,
     "events": [
       {
         "key": "user_engagement",
-        "value": 53
+        "value": 37
       },
       {
         "key": "page_view",
-        "value": 49
-      },
-      {
-        "key": "session_start",
-        "value": 22
+        "value": 33
       },
       {
         "key": "first_visit",
-        "value": 19
+        "value": 12
+      },
+      {
+        "key": "session_start",
+        "value": 12
       },
       {
         "key": "scroll",
-        "value": 17
-      },
-      {
-        "key": "live_models_loaded",
-        "value": 5
+        "value": 12
       },
       {
         "key": "affiliate_click",
-        "value": 5
+        "value": 4
       },
       {
         "key": "click",
-        "value": 5
+        "value": 4
+      },
+      {
+        "key": "live_models_loaded",
+        "value": 2
       },
       {
         "key": "outbound_link_click",
@@ -2651,7 +2643,7 @@
       "EngagementTime"
     ],
     "metricGroups": 9,
-    "informationRows": 797
+    "informationRows": 823
   },
   "buffer": {
     "status": "stale_or_invalid",
@@ -2781,17 +2773,17 @@
   },
   "trafficControlPlane": {
     "acquisitionSessions": {
-      "organic": 5,
+      "organic": 2,
       "social": 1,
-      "communityReferral": 2,
+      "communityReferral": 0,
       "paid": 0,
-      "total": 24,
-      "unclassified": 16
+      "total": 14,
+      "unclassified": 11
     },
-    "qualifiedSessions": 15,
-    "outboundAffiliateCtr": 0.20833333333333334,
-    "organicImpressions": 1727,
-    "organicClicks": 66,
+    "qualifiedSessions": 9,
+    "outboundAffiliateCtr": 0.2857142857142857,
+    "organicImpressions": 2252,
+    "organicClicks": 85,
     "indexedPages": 62,
     "publishedContentCount": {
       "astroCommercialPages": 20,
@@ -2808,31 +2800,7 @@
     "topAcquisitionLandingPages": [
       {
         "key": "/",
-        "value": 9
-      },
-      {
-        "key": "/guides/hentai-anime-streaming-manga-games-guide/",
-        "value": 2
-      },
-      {
-        "key": "(not set)",
-        "value": 1
-      },
-      {
-        "key": "/guides/adult-site-account-security-password-recovery-checklist/",
-        "value": 1
-      },
-      {
-        "key": "/guides/vr-adult-managed-headset-policy-and-account-separation/",
-        "value": 1
-      },
-      {
-        "key": "/stripchat-alternatives/",
-        "value": 1
-      },
-      {
-        "key": "/guides/adult-games-storefront-community-review-evidence-checklist/",
-        "value": 1
+        "value": 6
       },
       {
         "key": "/guides/adult-anime-games-device-compatibility-and-install-checklist/",
@@ -2844,6 +2812,26 @@
       },
       {
         "key": "/guides/adult-anime-mobile-format-account-fit/",
+        "value": 1
+      },
+      {
+        "key": "/guides/adult-dating-platform-call-feature-privacy-audit/",
+        "value": 1
+      },
+      {
+        "key": "/guides/adult-dating-profile-authenticity-evidence-workflow/",
+        "value": 1
+      },
+      {
+        "key": "/guides/free-adult-video-metered-data-autoplay-quality-controls/",
+        "value": 1
+      },
+      {
+        "key": "/guides/free-adult-video-sites-privacy-usability-guide/",
+        "value": 1
+      },
+      {
+        "key": "/xhamster/",
         "value": 1
       }
     ],

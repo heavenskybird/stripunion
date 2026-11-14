@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "runId": "43597217142",
-  "startedAt": "2026-11-14T12:56:17Z",
-  "generatedAt": "2026-11-14T12:56:53.929Z",
+  "runId": "43616703877",
+  "startedAt": "2026-11-14T16:38:38Z",
+  "generatedAt": "2026-11-14T16:39:11.879Z",
   "status": "degraded",
   "sources": {
     "gsc": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:24.036Z",
+      "collectedAt": "2026-11-14T16:38:39.762Z",
       "snapshotDate": "2026-11-12",
       "startDate": "2026-10-13",
       "endDate": "2026-11-12",
@@ -19,7 +19,7 @@
     "gsc-blog": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:25.415Z",
+      "collectedAt": "2026-11-14T16:38:41.212Z",
       "snapshotDate": "2026-11-12",
       "startDate": "2026-10-13",
       "endDate": "2026-11-12",
@@ -30,7 +30,7 @@
     "ga4": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:31.372Z",
+      "collectedAt": "2026-11-14T16:38:47.592Z",
       "snapshotDate": "2026-11-13",
       "startDate": "2026-10-14",
       "endDate": "2026-11-13",
@@ -41,7 +41,7 @@
     "ga4-admin": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:33.069Z",
+      "collectedAt": "2026-11-14T16:38:49.627Z",
       "snapshotDate": "2026-11-14",
       "startDate": null,
       "endDate": null,
@@ -52,7 +52,7 @@
     "clarity": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:34.378Z",
+      "collectedAt": "2026-11-14T16:38:50.935Z",
       "snapshotDate": "2026-11-14",
       "startDate": null,
       "endDate": null,
@@ -63,7 +63,7 @@
     "bing": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:47.293Z",
+      "collectedAt": "2026-11-14T16:39:03.496Z",
       "snapshotDate": "2026-11-13",
       "startDate": null,
       "endDate": null,
@@ -85,7 +85,7 @@
     "stripcash": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:49.724Z",
+      "collectedAt": "2026-11-14T16:39:06.058Z",
       "snapshotDate": "2026-11-13",
       "startDate": null,
       "endDate": null,
@@ -96,7 +96,7 @@
     "attribution": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:50.134Z",
+      "collectedAt": "2026-11-14T16:39:06.574Z",
       "snapshotDate": "2026-11-13",
       "startDate": null,
       "endDate": null,
@@ -107,7 +107,7 @@
     "search-growth": {
       "status": "ok",
       "outcome": "success",
-      "collectedAt": "2026-11-14T12:56:53.849Z",
+      "collectedAt": "2026-11-14T16:39:11.802Z",
       "snapshotDate": "2026-11-12",
       "startDate": "2026-09-18",
       "endDate": "2026-11-12",

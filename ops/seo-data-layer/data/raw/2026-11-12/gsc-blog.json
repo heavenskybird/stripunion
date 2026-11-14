@@ -3,8 +3,8 @@
   "siteUrl": "https://blog.stripunion.com/",
   "startDate": "2026-10-13",
   "endDate": "2026-11-12",
-  "collectedAt": "2026-11-14T12:56:25.415Z",
-  "dailyRowCount": 29,
+  "collectedAt": "2026-11-14T16:38:41.212Z",
+  "dailyRowCount": 30,
   "pageRowCount": 127,
   "queryRowCount": 59,
   "queryPageRowCount": 59,
@@ -211,6 +211,13 @@
     },
     {
       "date": "2026-11-10",
+      "clicks": 0,
+      "impressions": 0,
+      "ctr": 0,
+      "position": null
+    },
+    {
+      "date": "2026-11-11",
       "clicks": 0,
       "impressions": 0,
       "ctr": 0,
