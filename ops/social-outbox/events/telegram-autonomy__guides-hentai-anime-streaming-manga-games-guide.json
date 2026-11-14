@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "event_id": "telegram-autonomy:e4d413022c0789fefe32e2ad3da1271aad8429d39bfdd763698fad6b9585f4ad",
+  "idempotency_key": "telegram-autonomy:e4d413022c0789fefe32e2ad3da1271aad8429d39bfdd763698fad6b9585f4ad",
+  "publication_id": "hub:guides-hentai-anime-streaming-manga-games-guide",
+  "source": "telegram-autonomy",
+  "slug": "guides-hentai-anime-streaming-manga-games-guide",
+  "title": "Hentai Sites Explained: Streaming vs Manga vs Adult Games",
+  "excerpt": "Adults 18+ · independent editorial guide · affiliate links disclosed.",
+  "url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+  "topic_key": "guides-hentai-anime-streaming-manga-games-guide",
+  "channel": "telegram",
+  "provider": "telegram",
+  "state": "delivered",
+  "attempt_count": 1,
+  "desired_at": "2026-11-14T13:44:51.053Z",
+  "created_at": "2026-11-14T13:44:51.053Z",
+  "updated_at": "2026-11-14T13:44:58.710Z",
+  "selection_source": "official-search-demand",
+  "selection_checked_at": "2026-11-14T12:56:53.849Z",
+  "selection_evidence": {
+    "impressions": 64,
+    "clicks": 0,
+    "measuredSessions": 2,
+    "analyticsStatus": "OBSERVED",
+    "window": "2026-11-12"
+  },
+  "last_attempt_at": "2026-11-14T13:44:53.511Z",
+  "last_error": null,
+  "expected_delivery_evidence": {
+    "content_hash": "a589acbe9b3ac0c6e4cebf93e54a219b051a2a5a93943976ab0313cd2fa045f4",
+    "message_text_sha256": "865ea0a49de711c56f4b872d2f0b012f7b0321f4a437873ad78c4092ef280abf",
+    "canonical_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide",
+    "utm_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/?utm_source=telegram&utm_medium=social&utm_campaign=social_outbox&utm_content=guides-hentai-anime-streaming-manga-games-guide",
+    "topic_key": "guides-hentai-anime-streaming-manga-games-guide",
+    "channel": "@StripUnion"
+  },
+  "provider_message_id": "1603",
+  "delivery_evidence": {
+    "content_hash": "a589acbe9b3ac0c6e4cebf93e54a219b051a2a5a93943976ab0313cd2fa045f4",
+    "message_text_sha256": "865ea0a49de711c56f4b872d2f0b012f7b0321f4a437873ad78c4092ef280abf",
+    "canonical_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide",
+    "utm_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/?utm_source=telegram&utm_medium=social&utm_campaign=social_outbox&utm_content=guides-hentai-anime-streaming-manga-games-guide",
+    "topic_key": "guides-hentai-anime-streaming-manga-games-guide",
+    "channel": "@StripUnion",
+    "provider_message_url": "https://t.me/StripUnion/1603"
+  },
+  "provider_due_at": null,
+  "next_attempt_at": null
+}
