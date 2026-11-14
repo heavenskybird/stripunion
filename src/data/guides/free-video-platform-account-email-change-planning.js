@@ -1,0 +1,103 @@
+export default {
+  "slug": "free-video-platform-account-email-change-planning",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check What Happens When You Change Your Account Email",
+  "description": "Before changing an email on a free video account, check verification steps, sign-in dependencies, notifications, and recovery options to avoid losing access.",
+  "excerpt": "Changing an account email can affect sign-in, recovery, and notifications. Use this checklist to understand the change before replacing an address.",
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "keyTakeaways": [
+    "Check whether the email is used for sign-in, account recovery, or both.",
+    "Confirm how the platform verifies a new address and whether the old address is notified.",
+    "Review third-party sign-in dependencies before changing contact details.",
+    "Update recovery details only through the platform's official account settings.",
+    "Make the change from a device and inbox you control, then confirm the new address works."
+  ],
+  "sections": [
+    {
+      "heading": "Map what the current email does",
+      "paragraphs": [
+        "An email address may be a username, a recovery route, a place for receipts, or simply a contact address. These functions are not interchangeable. Before changing it, check the account settings and sign-in instructions to see whether the current address is required for login or for security checks. If you use a password manager, review the saved login entry too; a remembered address can otherwise make it harder to tell which account you are updating.",
+        "Consider the wider privacy context. A shared inbox, old school or work account, or address accessible on a family device may no longer be suitable for private account notices. At the same time, changing an address to one you rarely check can make recovery more difficult. Choose an address you control, can access securely, and expect to retain. Do not use an address belonging to another person or an organization that may later disable it."
+      ],
+      "bullets": [
+        "Check whether the address is the username, recovery contact, or both.",
+        "Confirm you can still access the current inbox before starting.",
+        "Choose a replacement inbox you control and regularly monitor."
+      ]
+    },
+    {
+      "heading": "Check verification and sign-in dependencies",
+      "paragraphs": [
+        "Find the platform's documented email-change steps before beginning. Some account changes require a confirmation link, a code, or a fresh sign-in; the exact process varies. Check whether confirmation goes to the old address, the new address, or both. Knowing this in advance prevents a failed change from becoming an account-access problem if the old inbox is already unavailable.",
+        "If you created the account using a third-party sign-in service, determine whether that service controls authentication separately from the email shown in the profile. Changing a contact email may not change the sign-in identity. Do not remove an existing sign-in method until you have verified that another working route is available and that the platform supports the change. Follow the platform's own instructions rather than inferring account behavior from the email field."
+      ]
+    },
+    {
+      "heading": "Review notifications and account notices",
+      "paragraphs": [
+        "An email change can affect where security alerts, receipts, renewal notices, and account messages arrive. Check notification settings and account terms for the kinds of messages the platform sends. You may not be able to opt out of important security or transaction notices, and changing promotional preferences may be a separate setting. Make a note of any messages you need to keep receiving so the address change does not silently leave you without useful account information.",
+        "Think about notification exposure on devices as well as in the inbox. A new address may be connected to a phone that shows message previews on its lock screen or to an email account shared across devices. Review those settings if the subject line itself could reveal private account activity. This is separate from the platform's email-change process, but it is a practical part of changing where account communication appears."
+      ],
+      "table": {
+        "caption": "Before-and-after checks for an account email change",
+        "headers": [
+          "Stage",
+          "Check",
+          "Good evidence"
+        ],
+        "rows": [
+          [
+            "Before",
+            "Current sign-in and recovery routes",
+            "You can access the inbox and any linked sign-in method"
+          ],
+          [
+            "During",
+            "Verification destination and required steps",
+            "Instructions shown in official account settings"
+          ],
+          [
+            "After",
+            "New address and sign-in confirmation",
+            "A successful sign-in and a verified contact address"
+          ],
+          [
+            "After",
+            "Message and notification routing",
+            "A test or expected account notice reaches the intended inbox"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make the change without exposing credentials",
+      "paragraphs": [
+        "Use the service's official website or app settings, reached directly through a route you trust. Avoid following an unexpected email link that asks you to sign in or supply a verification code. If a message prompted the change, open the account independently and check for an alert there. A real-looking email can still be a reason to pause and verify rather than a safe route to enter credentials.",
+        "Never share a password or one-time code with someone claiming to help. If support is needed, find the contact route from the platform itself. After the change, sign out and back in only if the platform's instructions call for it, and confirm the updated address is shown correctly. If a change fails, avoid repeated attempts through unfamiliar pages; use the official recovery or support process."
+      ]
+    },
+    {
+      "heading": "Keep a recovery plan for the new address",
+      "paragraphs": [
+        "A changed email only improves account continuity if the replacement inbox remains accessible. Protect it with a unique password and available security controls, and keep its recovery options current. If you rely on an authenticator or other sign-in method, make sure you know how to recover that method too. Avoid storing recovery codes in the same inbox they are meant to protect.",
+        "If the platform provides a confirmation or account-change notice, retain it only as long as useful and store it where other people cannot casually see it. You do not need to keep an entire inbox forever just to prove a change. A small note of the date, the account affected, and the recovery route can be enough for personal organization. Recheck the account later if you stop receiving expected security or transaction notices."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I change my account email if I can no longer access the old inbox?",
+      "answer": "Possibly, but the required steps depend on the platform. Check its official account-recovery instructions and avoid unofficial services or people asking for your password or verification codes."
+    },
+    {
+      "question": "Will changing the email change how I sign in?",
+      "answer": "Not always. A contact address and a third-party sign-in identity can be separate. Check the account's sign-in settings and verify a replacement method before removing an existing one."
+    },
+    {
+      "question": "Should I delete the old inbox right after changing the address?",
+      "answer": "Not until you have confirmed the new address works and checked whether the platform sends security notices to the previous inbox. Keep access only as long as it remains necessary and safe for recovery."
+    }
+  ]
+};

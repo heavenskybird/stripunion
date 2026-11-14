@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T10:54:33.573Z",
+  "generatedAt": "2026-11-14T10:21:42.156Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-headset-update-window-planning.json",
-    "ops/editorial/content-artifacts/adult-platform-public-profile-search-index-check.json",
-    "ops/editorial/content-artifacts/premium-video-playback-speed-choice-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-interaction-disconnect-charge-review.json",
-    "ops/editorial/content-artifacts/creator-platform-third-party-integration-permission-audit.json"
+    "ops/editorial/content-artifacts/live-cam-external-links-and-embed-boundaries.json",
+    "ops/editorial/content-artifacts/vr-adult-accessibility-setup-environment-check.json",
+    "ops/editorial/content-artifacts/free-video-download-permission-and-file-destination-review.json",
+    "ops/editorial/content-artifacts/adult-games-narrative-systems-fit-guide.json",
+    "ops/editorial/content-artifacts/adult-shop-sale-terms-and-discount-comparison.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-headset-update-window-planning.js",
-    "src/data/guides/adult-platform-public-profile-search-index-check.js",
-    "src/data/guides/premium-video-playback-speed-choice-workflow.js",
-    "src/data/guides/live-cam-platform-interaction-disconnect-charge-review.js",
-    "src/data/guides/creator-platform-third-party-integration-permission-audit.js"
+    "src/data/guides/live-cam-external-links-and-embed-boundaries.js",
+    "src/data/guides/vr-adult-accessibility-setup-environment-check.js",
+    "src/data/guides/free-video-download-permission-and-file-destination-review.js",
+    "src/data/guides/adult-games-narrative-systems-fit-guide.js",
+    "src/data/guides/adult-shop-sale-terms-and-discount-comparison.js"
   ],
   "categories": [
-    "vr-ar",
-    "privacy-safety-payment",
-    "premium-videos",
     "live-cams",
-    "creator-platforms"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "vr-adult-headset-update-window-planning",
-    "adult-platform-public-profile-search-index-check",
-    "premium-video-playback-speed-choice-workflow",
-    "live-cam-platform-interaction-disconnect-charge-review",
-    "creator-platform-third-party-integration-permission-audit"
+    "live-cam-external-links-and-embed-boundaries",
+    "vr-adult-accessibility-setup-environment-check",
+    "free-video-download-permission-and-file-destination-review",
+    "adult-games-narrative-systems-fit-guide",
+    "adult-shop-sale-terms-and-discount-comparison"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,6 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43412476523",
+  "r1CycleId": "43584734310",
   "phase": "closed"
 }
