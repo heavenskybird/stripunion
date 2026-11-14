@@ -1,0 +1,9 @@
+# Existing Blog landing-page review package
+
+These are two full replacement drafts for existing published posts, not publication authorization and not new-URL proposals. Official Blog GSC query-to-page evidence and the earlier proposals are in `../blog-proposals/`. Post 122 covers permissions/privacy; Post 110 covers free access versus charging and renewal terms. They do not duplicate the main site's brand-comparison purpose.
+
+Read-only WordPress REST inspection on 2026-11-13 confirmed both are published and unchanged since 2026-10-03. The review JSON records source HTML SHA256, modified_gmt and final draft SHA256. Original affiliate anchors and commission parameters are preserved verbatim. Existing unsupported brand-safety rankings are removed rather than reinforced. Primary references are Chrome's camera/microphone help and the FTC's trial/renewal guidance, not evidence of a particular platform's contractual terms.
+
+Before any update: a trusted Blog reviewer must approve the exact final content hash; refresh the complete trusted inventory; re-read post ID, slug, status, modified_gmt and source hash; preserve the original revision; claim an independent CAS journal intent; verify the update transport's concurrency behavior. The merged create-only publisher intentionally refuses existing slugs, so these drafts must NOT be passed to it or published under another slug. A protected existing-post update path still needs independent implementation/review and runtime acceptance. BLOG_PUBLISH_ENABLED remains false/unset.
+
+After one authorized update, preserve its proven Post ID and reconcile HTTP 200, canonical, content and sitemap with bounded GET-only retries. An uncertain result remains reconcile_required; do not issue another write to make acceptance green. The second post is a separate acceptance, not permission for an automatic queue. No WordPress writes were performed when preparing this package.

@@ -1,0 +1,42 @@
+name: Growth release read-only readiness
+on:
+  push:
+    branches: [codex/production-growth-followup-20261113, main]
+    paths:
+      - .github/workflows/growth-release-readiness.yml
+      - scripts/growth-release-readiness.mjs
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: growth-release-readiness-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read production, runtime and exact Blog source bindings without writes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_TRIAL_EVENT_KEY: ${{ vars.SOCIAL_OUTBOX_TRIAL_EVENT_KEY || '' }}
+          BLOG_PUBLISH_ENABLED: ${{ vars.BLOG_PUBLISH_ENABLED || 'UNSET' }}
+          BLOG_AUTHORIZED_REVIEWERS: ${{ vars.BLOG_AUTHORIZED_REVIEWERS || '' }}
+          WP_USERNAME: ${{ secrets.WP_USERNAME }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: node scripts/growth-release-readiness.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: growth-release-readiness-${{ github.run_id }}
+          path: work/recovery/*.json
+          retention-days: 14
