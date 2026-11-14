@@ -1,5 +1,12 @@
 # StripUnion project instructions
 
+## Commercial growth continuity (mandatory)
+- After inspecting canonical Git state, also read `docs/GROWTH-MISSION-CONTINUITY.md` before planning growth, SEO, affiliate CTAs, social distribution, WordPress publishing or revenue attribution.
+- Start every substantial growth session with current Issues #197–#200, #196, #188, #174, #163 and #173 plus latest PR, workflow and source-as-of evidence; do not infer completion from a previous chat, historical report, closed issue or green Build alone.
+- Evaluate `DISCOVERED → EVALUATED → APPROVED → IMPLEMENTED → DEPLOYED → MEASURED` against real business outcomes. Report unshipped opportunities, unverified affiliate offers, missing monetizable contextual exits and user-only actions. Priority is partner-confirmed USD affiliate revenue, not article count.
+- Do not add unrelated monetization links to noncommercial safety content or imply ordinary unapproved vendor links pay commission. External recruitment and publishing must remain compliant, consent-based and inside existing authorization gates.
+
+
 ## Source of truth and scope
 - Treat the current Git checkout, tracked files, and repository documentation as project truth. Inspect `git status`, the current branch, and recent history before making changes; do not infer state from old chat, generated reports, or stale status notes.
 - Read `README.md` and the relevant material in `docs/` before changing site behavior. For analytics or automation work, read `docs/SEO-DATA-LAYER.md`, `docs/AUTOMATION-SETUP.md`, the applicable workflow files, and the relevant integration README/source.
