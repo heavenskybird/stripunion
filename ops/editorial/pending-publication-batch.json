@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T10:21:42.156Z",
+  "generatedAt": "2026-11-14T13:47:47.142Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-external-links-and-embed-boundaries.json",
-    "ops/editorial/content-artifacts/vr-adult-accessibility-setup-environment-check.json",
-    "ops/editorial/content-artifacts/free-video-download-permission-and-file-destination-review.json",
-    "ops/editorial/content-artifacts/adult-games-narrative-systems-fit-guide.json",
-    "ops/editorial/content-artifacts/adult-shop-sale-terms-and-discount-comparison.json"
+    "ops/editorial/content-artifacts/adult-anime-keyboard-navigation-accessibility-review.json",
+    "ops/editorial/content-artifacts/dating-platform-message-draft-privacy-check.json",
+    "ops/editorial/content-artifacts/adult-platform-personal-hotspot-privacy-check.json",
+    "ops/editorial/content-artifacts/creator-platform-support-case-evidence-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-release-alert-control-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-external-links-and-embed-boundaries.js",
-    "src/data/guides/vr-adult-accessibility-setup-environment-check.js",
-    "src/data/guides/free-video-download-permission-and-file-destination-review.js",
-    "src/data/guides/adult-games-narrative-systems-fit-guide.js",
-    "src/data/guides/adult-shop-sale-terms-and-discount-comparison.js"
+    "src/data/guides/adult-anime-keyboard-navigation-accessibility-review.js",
+    "src/data/guides/dating-platform-message-draft-privacy-check.js",
+    "src/data/guides/adult-platform-personal-hotspot-privacy-check.js",
+    "src/data/guides/creator-platform-support-case-evidence-workflow.js",
+    "src/data/guides/premium-video-release-alert-control-workflow.js"
   ],
   "categories": [
-    "live-cams",
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "hentai-anime",
+    "dating-hookups",
+    "privacy-safety-payment",
+    "creator-platforms",
+    "premium-videos"
   ],
   "backlogIds": [
-    "live-cam-external-links-and-embed-boundaries",
-    "vr-adult-accessibility-setup-environment-check",
-    "free-video-download-permission-and-file-destination-review",
-    "adult-games-narrative-systems-fit-guide",
-    "adult-shop-sale-terms-and-discount-comparison"
+    "adult-anime-keyboard-navigation-accessibility-review",
+    "dating-platform-message-draft-privacy-check",
+    "adult-platform-personal-hotspot-privacy-check",
+    "creator-platform-support-case-evidence-workflow",
+    "premium-video-release-alert-control-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43584734310",
-  "phase": "closed"
+  "r1CycleId": "43601323888"
 }
