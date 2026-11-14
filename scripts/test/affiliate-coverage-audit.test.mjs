@@ -16,6 +16,7 @@ async function run(html) {
     await fs.mkdir(path.join(root, 'dist/guides/test-page'), { recursive: true });
     await fs.writeFile(path.join(root, 'src/data/guides/test-page.js'), 'export default {"slug":"test-page","categorySlug":"adult-games"};');
     await fs.writeFile(path.join(root, 'src/components/GuideTemplate.astro'), '<article class="guide-body"></article>');
+    await fs.writeFile(path.join(root, 'dist/guides/index.html'), '<main><a href="/guides/test-page">Guide index</a></main>');
     await fs.writeFile(path.join(root, 'dist/guides/test-page/index.html'), html);
     const r = spawnSync(process.execPath, [script, '--root=' + root], { encoding: 'utf8' });
     assert.equal(r.status, 0, r.stderr);
@@ -28,6 +29,7 @@ async function run(html) {
 test('footer or generic sitewide links are not contextual affiliate links', async () => {
   const r = await run('<article class="guide-body"><a href="/guides">More</a></article><footer><a data-affiliate-partner="avcams">go</a></footer>');
   assert.equal(r.contextualAffiliatePresent, 0);
+  assert.equal(r.compiledGuidePages, 1); // exclude /guides index listing
   assert.equal(r.byCategory[0].category, 'adult-games');
 });
 
