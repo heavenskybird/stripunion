@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T13:47:47.142Z",
+  "generatedAt": "2026-11-14T15:03:56.180Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-keyboard-navigation-accessibility-review.json",
-    "ops/editorial/content-artifacts/dating-platform-message-draft-privacy-check.json",
-    "ops/editorial/content-artifacts/adult-platform-personal-hotspot-privacy-check.json",
-    "ops/editorial/content-artifacts/creator-platform-support-case-evidence-workflow.json",
-    "ops/editorial/content-artifacts/premium-video-release-alert-control-workflow.json"
+    "ops/editorial/content-artifacts/live-cam-room-queue-and-waiting-model-comparison.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-deep-link-and-destination-control-review.json",
+    "ops/editorial/content-artifacts/free-video-playback-session-resume-behavior-review.json",
+    "ops/editorial/content-artifacts/adult-games-content-discovery-filter-precision-review.json",
+    "ops/editorial/content-artifacts/adult-shop-warranty-and-remedy-comparison-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-keyboard-navigation-accessibility-review.js",
-    "src/data/guides/dating-platform-message-draft-privacy-check.js",
-    "src/data/guides/adult-platform-personal-hotspot-privacy-check.js",
-    "src/data/guides/creator-platform-support-case-evidence-workflow.js",
-    "src/data/guides/premium-video-release-alert-control-workflow.js"
+    "src/data/guides/live-cam-room-queue-and-waiting-model-comparison.js",
+    "src/data/guides/webmaster-affiliate-program-deep-link-and-destination-control-review.js",
+    "src/data/guides/free-video-playback-session-resume-behavior-review.js",
+    "src/data/guides/adult-games-content-discovery-filter-precision-review.js",
+    "src/data/guides/adult-shop-warranty-and-remedy-comparison-workflow.js"
   ],
   "categories": [
-    "hentai-anime",
-    "dating-hookups",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "premium-videos"
+    "live-cams",
+    "webmaster-affiliate",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-anime-keyboard-navigation-accessibility-review",
-    "dating-platform-message-draft-privacy-check",
-    "adult-platform-personal-hotspot-privacy-check",
-    "creator-platform-support-case-evidence-workflow",
-    "premium-video-release-alert-control-workflow"
+    "live-cam-room-queue-and-waiting-model-comparison",
+    "webmaster-affiliate-program-deep-link-and-destination-control-review",
+    "free-video-playback-session-resume-behavior-review",
+    "adult-games-content-discovery-filter-precision-review",
+    "adult-shop-warranty-and-remedy-comparison-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43601323888",
-  "phase": "closed"
+  "r1CycleId": "43607741303"
 }
