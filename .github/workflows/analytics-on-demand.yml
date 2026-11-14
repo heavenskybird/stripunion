@@ -1,0 +1,65 @@
+name: First-party analytics on demand
+on:
+  workflow_dispatch:
+    inputs:
+      query_json:
+        description: Typed JSON filters; see docs/ANALYTICS-ON-DEMAND.md. Default 28 days with equal prior period.
+        required: false
+        type: string
+        default: '{}'
+  push:
+    branches: [codex/analytics-on-demand-20261114]
+    paths:
+      - '.github/workflows/analytics-on-demand.yml'
+      - 'ops/seo-data-layer/src/lib/on-demand-*.mjs'
+      - 'ops/seo-data-layer/src/queries/on-demand.mjs'
+      - 'ops/seo-data-layer/test/on-demand*.test.mjs'
+permissions:
+  contents: read
+concurrency:
+  group: first-party-analytics-on-demand
+  cancel-in-progress: false
+jobs:
+  query:
+    if: >-
+      github.repository == 'heavenskybird/stripunion' &&
+      ((github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+       (github.event_name == 'push' && github.ref == 'refs/heads/codex/analytics-on-demand-20261114'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm --prefix ops/seo-data-layer install --no-audit --no-fund
+      - name: Test bounds, filters, privacy, pagination and decisions offline
+        run: npm --prefix ops/seo-data-layer test
+      - name: Query existing official credentials read-only
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ANALYTICS_QUERY_JSON: ${{ inputs.query_json || '{}' }}
+        run: node ops/seo-data-layer/src/queries/on-demand.mjs
+      - name: Live bounded acceptance of 7/90/365-day filtered queries
+        if: github.event_name == 'push'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node ops/seo-data-layer/src/queries/accept-on-demand.mjs
+      - name: Verify tracked sources were not modified
+        if: always()
+        run: git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        id: artifact
+        if: always()
+        with:
+          name: analytics-on-demand-${{ github.run_id }}
+          path: artifacts/analytics-on-demand/
+          retention-days: 14
+      - name: Link immutable artifact
+        if: always()
+        env:
+          ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
+        run: |
+          echo "Artifact: $ARTIFACT_URL" >> "$GITHUB_STEP_SUMMARY"
