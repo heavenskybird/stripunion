@@ -1,4 +1,5 @@
 import test from 'node:test';
+import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 import {parseQuery,gscFilters,ga4Filter,safeText,safePath,chunks,aggregateSearch,intent,decisions,hash} from '../src/lib/on-demand-query.mjs';
 import {readGscWindow,queryAnalytics,requestBudget,bingContext,compactReport} from '../src/lib/on-demand-engine.mjs';
@@ -98,4 +99,15 @@ test('local GA4 pagination cap produces partial status, not a complete report',a
   const base=ga4();const client={async runReport(r){const [result]=await base.runReport(r);if(r.dimensions.some(d=>d.name==='sessionCampaignName'))result.rowCount=100000;return [result];}};
   const result=await queryAnalytics({q:query({sources:'ga4'}),ga4Client:client});
   assert.equal(result.status,'PARTIAL');assert.equal(result.ga4.current.landing.paginationComplete,false);assert.equal(result.ga4.current.totals.rows[0].sessions,20);
+});
+
+test('canonical scheduled analysis runs Domain and Blog independently without any production writer', () => {
+  const workflow=readFileSync(new URL('../../../.github/workflows/analytics-on-demand.yml',import.meta.url),'utf8');
+  assert.match(workflow,/schedule:\s*\n\s*- cron: '17 4 \* \* \*'/);
+  assert.match(workflow,/github\.event_name == 'schedule' && github\.ref == 'refs\/heads\/main'/);
+  assert.match(workflow,/ANALYTICS_QUERY_JSON: '\{"property":"blog","days":28\}'/);
+  assert.match(workflow,/ANALYTICS_REPORT_NAME: blog-daily/);
+  assert.match(workflow,/permissions:\s*\n\s*contents: read/);
+  assert.doesNotMatch(workflow,/contents: write/);
+  assert.doesNotMatch(workflow,/BLOG_PUBLISH_ENABLED|SOCIAL_OUTBOX_SEND_ENABLED|OPENAI_API_KEY/);
 });
