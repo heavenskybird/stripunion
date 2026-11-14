@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T03:40:48.892Z",
+  "generatedAt": "2026-11-14T06:18:35.949Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-membership-value-per-viewing-pattern.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-traffic-source-classification-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-purchase-path-prelaunch-qa.json",
-    "ops/editorial/content-artifacts/adult-platform-account-recovery-code-storage-plan.json",
-    "ops/editorial/content-artifacts/live-cam-interaction-boundary-expectations-checklist.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-household-audio-routing-planner.json",
+    "ops/editorial/content-artifacts/free-video-platform-guest-browsing-session-boundaries.json",
+    "ops/editorial/content-artifacts/adult-game-community-feature-dependency-check.json",
+    "ops/editorial/content-artifacts/adult-shop-address-change-cutoff-planner.json",
+    "ops/editorial/content-artifacts/adult-anime-app-release-notice-source-comparison.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-membership-value-per-viewing-pattern.js",
-    "src/data/guides/webmaster-affiliate-traffic-source-classification-audit.js",
-    "src/data/guides/creator-platform-fan-purchase-path-prelaunch-qa.js",
-    "src/data/guides/adult-platform-account-recovery-code-storage-plan.js",
-    "src/data/guides/live-cam-interaction-boundary-expectations-checklist.js"
+    "src/data/guides/vr-adult-platform-household-audio-routing-planner.js",
+    "src/data/guides/free-video-platform-guest-browsing-session-boundaries.js",
+    "src/data/guides/adult-game-community-feature-dependency-check.js",
+    "src/data/guides/adult-shop-address-change-cutoff-planner.js",
+    "src/data/guides/adult-anime-app-release-notice-source-comparison.js"
   ],
   "categories": [
-    "premium-videos",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "privacy-safety-payment",
-    "live-cams"
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "premium-video-membership-value-per-viewing-pattern",
-    "webmaster-affiliate-traffic-source-classification-audit",
-    "creator-platform-fan-purchase-path-prelaunch-qa",
-    "adult-platform-account-recovery-code-storage-plan",
-    "live-cam-interaction-boundary-expectations-checklist"
+    "vr-adult-platform-household-audio-routing-planner",
+    "free-video-platform-guest-browsing-session-boundaries",
+    "adult-game-community-feature-dependency-check",
+    "adult-shop-address-change-cutoff-planner",
+    "adult-anime-app-release-notice-source-comparison"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43552563908",
-  "phase": "closed"
+  "r1CycleId": "43565477466"
 }
