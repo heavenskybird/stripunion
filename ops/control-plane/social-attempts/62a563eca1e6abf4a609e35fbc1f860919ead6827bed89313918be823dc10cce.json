@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "idempotency_key": "telegram-autonomy:e4d413022c0789fefe32e2ad3da1271aad8429d39bfdd763698fad6b9585f4ad",
+  "status": "reconcile_required",
+  "attempted_at": "2026-11-14T13:44:53.511Z",
+  "evidence": {
+    "content_hash": "a589acbe9b3ac0c6e4cebf93e54a219b051a2a5a93943976ab0313cd2fa045f4",
+    "message_text_sha256": "865ea0a49de711c56f4b872d2f0b012f7b0321f4a437873ad78c4092ef280abf",
+    "canonical_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide",
+    "utm_url": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/?utm_source=telegram&utm_medium=social&utm_campaign=social_outbox&utm_content=guides-hentai-anime-streaming-manga-games-guide",
+    "topic_key": "guides-hentai-anime-streaming-manga-games-guide",
+    "channel": "@StripUnion"
+  }
+}
