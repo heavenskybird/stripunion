@@ -48,7 +48,9 @@ for (const source of sourceFiles) {
 }
 const template = await fs.readFile(path.join(root, 'src/components/GuideTemplate.astro'), 'utf8').catch(() => '');
 const templateHasDirectCta = /<(?:AffiliateButton|StripCashReferralButton)\b|data-affiliate-partner\s*=/.test(template);
-const compiled = (await files(path.join(root, 'dist/guides'), '.html')).filter((f) => path.basename(f) === 'index.html');
+const compiled = (await files(path.join(root, 'dist/guides'), '.html')).filter((f) =>
+  path.basename(f) === 'index.html' && path.relative(path.join(root, 'dist/guides'), f).split(path.sep).length > 1
+);
 const mode = compiled.length ? 'compiled_article_html' : 'source_template_inference';
 const rows = [];
 
