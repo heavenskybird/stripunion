@@ -3,7 +3,7 @@
   "propertyId": "530171093",
   "startDate": "2026-10-14",
   "endDate": "2026-11-13",
-  "collectedAt": "2026-11-14T07:39:41.461Z",
+  "collectedAt": "2026-11-14T10:43:28.959Z",
   "propertyTimeZone": "Asia/Singapore",
   "rowCount": 30,
   "marketRowCount": 27,
@@ -3134,25 +3134,25 @@
     "windows": [
       {
         "days": 7,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-11",
+        "startDate": "2026-11-06",
+        "endDate": "2026-11-12",
         "google": {
           "scope": "PROPERTY_TOTAL_BY_DATE",
-          "observedDays": 6,
-          "clicks": 110,
-          "impressions": 3355
+          "observedDays": 5,
+          "clicks": 96,
+          "impressions": 2850
         },
         "ga4": [
           {
             "host": "stripunion.com",
-            "observedDays": 0,
-            "sessions": null,
-            "affiliateClickEvents": 0
+            "observedDays": 1,
+            "sessions": 8,
+            "affiliateClickEvents": 1
           },
           {
             "host": "blog.stripunion.com",
             "observedDays": 3,
-            "sessions": 5,
+            "sessions": 6,
             "affiliateClickEvents": 0
           }
         ],
@@ -3161,25 +3161,25 @@
       },
       {
         "days": 28,
-        "startDate": "2026-10-15",
-        "endDate": "2026-11-11",
+        "startDate": "2026-10-16",
+        "endDate": "2026-11-12",
         "google": {
           "scope": "PROPERTY_TOTAL_BY_DATE",
-          "observedDays": 27,
+          "observedDays": 26,
           "clicks": 257,
-          "impressions": 10424
+          "impressions": 10415
         },
         "ga4": [
           {
             "host": "stripunion.com",
-            "observedDays": 0,
-            "sessions": null,
-            "affiliateClickEvents": 0
+            "observedDays": 1,
+            "sessions": 8,
+            "affiliateClickEvents": 1
           },
           {
             "host": "blog.stripunion.com",
-            "observedDays": 8,
-            "sessions": 11,
+            "observedDays": 9,
+            "sessions": 13,
             "affiliateClickEvents": 0
           }
         ],
@@ -3193,8 +3193,8 @@
     },
     "partner": {
       "scope": "first-party AVCams click/postback attribution",
-      "collectedAt": "2026-11-13T08:08:42.403Z",
-      "totalClicks": 49,
+      "collectedAt": "2026-11-14T07:39:57.523Z",
+      "totalClicks": 50,
       "totalPostbacks": 15,
       "matchedPostbacks": 3,
       "unmatchedPostbacks": 12,
