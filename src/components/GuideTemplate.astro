@@ -1,6 +1,7 @@
 ---
 import { searchCanonical } from '../config/search-canonical.mjs';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import StripCashReferralButton from './StripCashReferralButton.astro';
 
 const { guide } = Astro.props;
 const cover = '/editorial-covers/' + guide.categorySlug + '.svg';
@@ -29,6 +30,15 @@ const faqSchema = guide.faqs?.length ? {
 } : null;
 
 const schemas = faqSchema ? [articleSchema, faqSchema] : [articleSchema];
+// Limited, reversible commercial pilot. These are explicitly webmaster-intent guides.
+// Never promote a cam viewing offer on unrelated gaming/anime/privacy pages.
+const stripcashReferralTrialSlugs = new Set([
+  'adult-affiliate-webmaster-program-evaluation-guide',
+  'adult-affiliate-program-business-model-structure-comparison',
+  'adult-affiliate-program-application-readiness'
+]);
+const showStripCashReferralTrial =
+  guide.categorySlug === 'webmaster-affiliate' && stripcashReferralTrialSlugs.has(guide.slug);
 ---
 <BaseLayout
   title={guide.title}
@@ -85,6 +95,28 @@ const schemas = faqSchema ? [articleSchema, faqSchema] : [articleSchema];
           )}
         </section>
       ))}
+
+      {showStripCashReferralTrial && (
+        <section class="money-card guide-affiliate-pilot" aria-label="Paid referral opportunity">
+          <span class="kicker">Paid referral · Verified operator program</span>
+          <h2>Review an official adult webcam affiliate program</h2>
+          <p>
+            StripCash is a first-party affiliate program for Stripchat traffic. Compare its current
+            allowed traffic sources, referral terms, tracking and payout policies with other programs
+            before applying. It will not be suitable for every adult-content audience.
+          </p>
+          <div class="hero-actions">
+            <StripCashReferralButton
+              source={'guide_webmaster_' + guide.slug}
+              label="Review StripCash affiliate terms →"
+            />
+          </div>
+          <p class="commercial-disclosure">
+            Paid referral: StripUnion may receive a commission if you join through this link and
+            meet the program's applicable conditions. No earnings are guaranteed.
+          </p>
+        </section>
+      )}
 
       {guide.faqs?.length && (
         <section class="faq">
@@ -143,6 +175,10 @@ const schemas = faqSchema ? [articleSchema, faqSchema] : [articleSchema];
     .guide-summary li { color: #eee7f2; }
     .guide-summary ul { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
     .guide-body { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+    .guide-affiliate-pilot { margin: 28px 0; padding: 24px; display: grid; gap: 14px; }
+    .guide-affiliate-pilot p { margin: 0; }
+    .guide-affiliate-pilot .commercial-disclosure { font-size: .86rem; opacity: .85; }
+
     .guide-body section { min-width: 0; max-width: 100%; scroll-margin-top: 100px; }
     .guide-body h2, .guide-body p, .guide-body li { overflow-wrap: anywhere; }
     .guide-body ul { padding-left: 22px; }
