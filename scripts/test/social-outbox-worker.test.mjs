@@ -68,9 +68,24 @@ test('actual worker caps X at 20 and enforces spacing',async()=>{
  const old=new Date(Date.now()-60*60000).toISOString();
  const rows=Array.from({length:19},(_,i)=>({...event(i,'delivered'),channel:'x',provider:'buffer',provider_message_id:String(i),provider_due_at:new Date().toISOString(),last_attempt_at:old}));
  rows.push(...[19,20,21].map(i=>({...event(i),channel:'x',provider:'buffer'})));
- const result=await scenario(rows);assert.equal(result.calls,1);
+ const result=await scenario(rows,{SOCIAL_OUTBOX_X_DAILY_CAP:'20',SOCIAL_OUTBOX_X_MIN_INTERVAL_MINUTES:'45'});assert.equal(result.calls,1);
  assert.equal(result.after.filter(r=>r.state==='scheduled').length,1);
  assert.equal(result.after.filter(r=>r.state==='pending').length,2);
+});
+
+test('Buffer Free defaults limit native X to one per day and defer posts for 48 hours',async()=>{
+ const recent=new Date(Date.now()-60*60000).toISOString();
+ const one={...event(0,'delivered'),channel:'x',provider:'buffer',provider_message_id:'past-x',provider_due_at:recent,last_attempt_at:recent};
+ const pending={...event(1),channel:'x',provider:'buffer'};
+ const paused=await scenario([one,pending]);
+ assert.equal(paused.error,null);
+ assert.equal(paused.bufferCalls,0);
+ assert.equal(paused.after[1].state,'pending');
+ const fresh=await scenario([{...event(2),channel:'x',provider:'buffer'}, {...event(3),channel:'x',provider:'buffer'}]);
+ assert.equal(fresh.error,null);
+ assert.equal(fresh.bufferCalls,1);
+ assert.equal(fresh.after.filter(r=>r.state==='scheduled').length,1);
+ assert.equal(fresh.after.filter(r=>r.state==='pending').length,1);
 });
 
 test('Buffer reconciliation failure holds X while Telegram can deliver exactly once', async()=>{
