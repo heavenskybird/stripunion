@@ -29,6 +29,9 @@ jobs:
         run: npm run build
       - name: Inventory contextual affiliate exits, no provider calls
         run: node scripts/affiliate-coverage-audit.mjs > affiliate-coverage.json
+      - name: Show business coverage summary without sensitive partner identifiers
+        run: |
+          node -e 'const r=require("./affiliate-coverage.json"); console.log("AFFILIATE_COVERAGE_SUMMARY " + JSON.stringify({source:r.source,sourceGuideFiles:r.sourceGuideFiles,compiledGuidePages:r.compiledGuidePages,contextualAffiliatePresent:r.contextualAffiliatePresent,missingOrUnknown:r.missingOrUnknown,byCategory:r.byCategory}));'
       - uses: actions/upload-artifact@v4
         with:
           name: affiliate-coverage-${{ github.run_id }}
