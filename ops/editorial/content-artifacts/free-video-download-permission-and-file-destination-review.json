@@ -1,0 +1,134 @@
+{
+  "backlogId": "free-video-download-permission-and-file-destination-review",
+  "slug": "free-video-download-permission-and-file-destination-review",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites: Check Download Prompts, File Types, and Save Locations",
+  "description": "A safety-minded checklist for assessing download prompts on free video platforms, including file types, permissions, browser behavior, and where saved files go.",
+  "excerpt": "A download button can lead to a file, an ad, or another site. Learn how to inspect the prompt and destination before saving anything to a shared or personal device.",
+  "keyTakeaways": [
+    "A download prompt is not necessarily a platform-provided video file; check the destination and file type first.",
+    "Video playback should not normally require installing an unrelated executable or granting broad device permissions.",
+    "Choose a save location intentionally, especially on a shared device, and review the file afterward.",
+    "If a button opens redirects or unexpected prompts, close the page rather than continuing through each new request.",
+    "Check the platform’s terms and applicable rights information before saving or redistributing content."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a download as a separate decision from playback",
+      "paragraphs": [
+        "A free video site may offer playback without offering a file download. Buttons labeled “download,” “save,” or “offline” can lead to different outcomes: a platform feature, a third-party destination, an advertisement, or an unrelated file prompt. The label alone does not explain who supplies the file, what it contains, or whether it is safe to open.",
+        "Before choosing a download, ask whether you need a local copy at all. Streaming avoids storing a new file on the device, although it still involves a network connection and may have its own privacy considerations. If you do need an offline copy, use a clearly explained platform function where available, and read the terms governing storage and use. Do not infer permission to redistribute or republish content from the mere presence of a button."
+      ],
+      "bullets": [
+        "Identify whether the option belongs to the platform or leads elsewhere.",
+        "Read any explanation of offline access, file format, and permitted use.",
+        "Cancel if the prompt’s purpose is unclear."
+      ]
+    },
+    {
+      "heading": "Inspect the destination and file type",
+      "paragraphs": [
+        "Check the address bar and destination domain when a button opens a new page or tab. A sudden change in domain is not proof of misconduct, but it means a different service may be involved. Confirm the new service independently before entering account credentials or payment information. Be especially cautious when multiple redirects make it hard to tell which page is offering the file.",
+        "Pay attention to the file extension and the browser’s description. A video file should not require you to run a program or install a browser extension just to view it. If a supposed video arrives as an executable, script, archive, or installer, do not open it simply because the button used familiar wording. Close the prompt and use the browser’s normal download controls to remove an unwanted file."
+      ],
+      "bullets": [
+        "Check the domain before following a new tab or redirect.",
+        "Confirm that the file type matches what the prompt claims to provide.",
+        "Do not run software or enable macros to access a video."
+      ]
+    },
+    {
+      "heading": "Review permission requests and browser behavior",
+      "paragraphs": [
+        "A website may request notifications, access to storage, or other browser permissions. Consider whether the request is necessary for the task. A page asking for notifications to play a video, for example, deserves scrutiny because the permission is separate from basic playback. Deny permissions you do not understand or need; you can revisit browser settings later if you decide otherwise.",
+        "Repeated redirects, fake system warnings, pop-ups that imitate browser controls, or buttons that trigger unexpected files are reasons to stop. Do not install an unfamiliar extension to remove a problem created by the same page. Use the browser’s standard close, download-management, and site-permission controls. If the page becomes difficult to control, close the tab and review the browser’s recent downloads before opening anything."
+      ],
+      "bullets": [
+        "Grant only permissions that have a clear connection to the feature you want.",
+        "Use browser settings to review or revoke permissions later.",
+        "Do not call a number, install a tool, or enter credentials in response to a browser-style warning on a webpage."
+      ]
+    },
+    {
+      "heading": "Choose the save location with privacy in mind",
+      "paragraphs": [
+        "If a legitimate file is being saved, choose a location that fits the device and its users. A default downloads folder may be visible to other device users, included in backups, indexed by search, or synchronized to another account. On a shared computer, consider whether you should save the file at all. Removing a file later may not erase copies in backups, recent-file lists, or synchronization services.",
+        "Use clear file-management practices without creating unnecessary sensitive records. Avoid giving a file an identifying name, and do not place it in a shared media library unless that is intentional. If you no longer need a local copy, delete it through the device’s normal file controls and review the relevant recycle-bin or trash folder. This does not guarantee removal from every backup or service, so check the device and account settings that govern synchronization."
+      ],
+      "bullets": [
+        "Review the download folder and automatic-sync settings before saving.",
+        "Do not store private files in a shared or public folder by accident.",
+        "Check recent files, trash, and backups if you later remove a download."
+      ]
+    },
+    {
+      "heading": "Use a stop-and-check workflow",
+      "paragraphs": [
+        "A repeatable workflow can prevent an impulsive click from turning into a device or privacy problem. First, confirm that the download is needed and that the platform explains the feature. Next, inspect the domain, the file type, and any permissions. Finally, decide where the file would be stored and who can access that location. If any step is confusing, stop and return to ordinary playback rather than trying to work around the prompt.",
+        "Keep the checks proportional. A clearly described file offered by a service you already trust still deserves a destination and file-type check, but it does not require elaborate investigation. A chain of redirects, a request for an installer, or a demand for unrelated personal information calls for a stronger response: close the page, avoid the file, and use the platform’s official reporting or support route if appropriate."
+      ],
+      "table": {
+        "caption": "Download prompt decision check",
+        "headers": [
+          "Prompt or behavior",
+          "What to verify",
+          "Safer next step"
+        ],
+        "rows": [
+          [
+            "New tab or redirect",
+            "Destination domain and operator",
+            "Pause before sharing data"
+          ],
+          [
+            "Unexpected file type",
+            "Whether the file matches the stated purpose",
+            "Do not open executables or scripts"
+          ],
+          [
+            "Permission request",
+            "Why the feature needs that permission",
+            "Deny if unnecessary or unclear"
+          ],
+          [
+            "Shared-device save",
+            "Folder visibility and synchronization",
+            "Avoid saving or choose a private location"
+          ],
+          [
+            "Repeated pop-ups",
+            "Whether browser controls remain reliable",
+            "Close the tab and inspect downloads"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a download button proof that a video file is safe?",
+      "answer": "No. Check the destination, file type, and service explanation. If the prompt offers software or requests unrelated permissions rather than a video file, do not continue on the assumption that the label is reliable."
+    },
+    {
+      "question": "Should I install an extension to download a video?",
+      "answer": "Do not install an unfamiliar extension merely because a page says it is required. Check whether the platform documents the feature and whether the extension comes from a trustworthy source. If the purpose or permissions are unclear, cancel."
+    },
+    {
+      "question": "Can deleting a downloaded file remove every copy?",
+      "answer": "Not necessarily. The file may also appear in trash, backups, synchronization services, or recent-file lists. Review the device and account settings relevant to where the file was stored."
+    },
+    {
+      "question": "Does a download option mean I can redistribute the content?",
+      "answer": "No. Access to a file does not by itself establish permission to repost, share, or redistribute it. Check the platform’s terms and the relevant rights information before using the file beyond personal access."
+    }
+  ],
+  "publishedAt": "2026-11-14",
+  "updatedAt": "2026-11-14",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
