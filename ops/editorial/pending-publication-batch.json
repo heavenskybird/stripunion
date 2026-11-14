@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T06:18:35.949Z",
+  "generatedAt": "2026-11-14T08:09:09.359Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-household-audio-routing-planner.json",
-    "ops/editorial/content-artifacts/free-video-platform-guest-browsing-session-boundaries.json",
-    "ops/editorial/content-artifacts/adult-game-community-feature-dependency-check.json",
-    "ops/editorial/content-artifacts/adult-shop-address-change-cutoff-planner.json",
-    "ops/editorial/content-artifacts/adult-anime-app-release-notice-source-comparison.json"
+    "ops/editorial/content-artifacts/adult-dating-platform-identity-field-minimization-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-tier-benefit-delivery-operations-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-landing-page-expectation-audit.json",
+    "ops/editorial/content-artifacts/premium-video-household-privacy-preflight-workflow.json",
+    "ops/editorial/content-artifacts/adult-platform-session-end-device-trace-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-household-audio-routing-planner.js",
-    "src/data/guides/free-video-platform-guest-browsing-session-boundaries.js",
-    "src/data/guides/adult-game-community-feature-dependency-check.js",
-    "src/data/guides/adult-shop-address-change-cutoff-planner.js",
-    "src/data/guides/adult-anime-app-release-notice-source-comparison.js"
+    "src/data/guides/adult-dating-platform-identity-field-minimization-audit.js",
+    "src/data/guides/creator-platform-tier-benefit-delivery-operations-audit.js",
+    "src/data/guides/webmaster-affiliate-landing-page-expectation-audit.js",
+    "src/data/guides/premium-video-household-privacy-preflight-workflow.js",
+    "src/data/guides/adult-platform-session-end-device-trace-checklist.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime"
+    "dating-hookups",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "vr-adult-platform-household-audio-routing-planner",
-    "free-video-platform-guest-browsing-session-boundaries",
-    "adult-game-community-feature-dependency-check",
-    "adult-shop-address-change-cutoff-planner",
-    "adult-anime-app-release-notice-source-comparison"
+    "adult-dating-platform-identity-field-minimization-audit",
+    "creator-platform-tier-benefit-delivery-operations-audit",
+    "webmaster-affiliate-landing-page-expectation-audit",
+    "premium-video-household-privacy-preflight-workflow",
+    "adult-platform-session-end-device-trace-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43565477466",
-  "phase": "closed"
+  "r1CycleId": "43574221991"
 }
