@@ -10,7 +10,7 @@ on:
   schedule:
     - cron: '34 * * * *'
   push:
-    branches: [codex/trends-radar-20261115]
+    branches: [main, codex/trends-radar-20261115]
     paths:
       - .github/workflows/trends-radar.yml
       - ops/growth/trends/**
