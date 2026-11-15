@@ -1,0 +1,56 @@
+name: Commercial post-release proof
+on:
+  push:
+    branches: [codex/growth-production-evidence-20261115, main]
+    paths:
+      - .github/workflows/commercial-postrelease.yml
+      - scripts/commercial-hostinger-readonly.mjs
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: commercial-postrelease-proof
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: PUBLIC_ALLOW_INDEXING=true npm run build && npm run check:prod-seo
+      - name: Verify five actual commercial guide contracts
+        run: node scripts/commercial-live-readonly.mjs --require-candidate
+      - name: Verify actual model page and referral route without signup
+        run: |
+          node scripts/model-referral-audit.mjs
+          node --input-type=module - <<'JS'
+          import fs from 'node:fs';
+          const r=JSON.parse(fs.readFileSync('artifacts/model-referral/report.json'));
+          if(r.production?.http!==200 || r.production.modelCtas!==3 || !r.production.candidateDeployed || !r.production.paidReferral ||
+             r.production.links.some(l=>l.campaignId!=='su_model_referral'||l.mode!=='model-referral'||!l.sponsored) ||
+             r.liveTrackedRoute?.state!=='OFFICIAL_MODEL_ROUTE_200'||r.liveTrackedRoute.referralIdInFinalUrl!==true)throw Error('LIVE_MODEL_CONTRACT_NOT_ACCEPTED');
+          console.log('LIVE_MODEL_CONTRACT_ACCEPTED; provider paid credit/country eligibility still unproven');
+          JS
+      - name: Read completed canonical production build independently of staging
+        if: always()
+        env:
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+        run: node scripts/commercial-hostinger-readonly.mjs
+      - name: Validate opportunity lifecycle and unchanged tracked state
+        if: always()
+        run: node ops/growth/opportunity-registry.mjs && git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: commercial-postrelease-${{ github.run_id }}
+          path: |
+            artifacts/commercial/
+            artifacts/model-referral/
+            artifacts/trends-radar/opportunity-registry-report.json
+          retention-days: 30
