@@ -85,6 +85,7 @@ console.log(JSON.stringify({
   contextualAffiliatePresent: rows.filter((r) => r.state === 'contextual_affiliate_present').length,
   missingOrUnknown: rows.filter((r) => r.state !== 'contextual_affiliate_present').length,
   byCategory: [...byCategory.values()].sort((a, b) => b.total - a.total || a.category.localeCompare(b.category)),
+  ...(process.argv.includes('--details') ? { rows } : {}),
   examples: rows.filter((r) => r.state !== 'contextual_affiliate_present').slice(0, 12),
   caveat: 'Audit lead only: many neutral guides should not have unrelated affiliate links. Confirm topical relevance, exact approved partner and commission attribution. Source inference is not a live deployment test.'
 }, null, 2));

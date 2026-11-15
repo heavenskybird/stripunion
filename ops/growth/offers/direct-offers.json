@@ -10,7 +10,9 @@
     "creator_model_strategy": "AVCams-first model referral; do not promote studio signup because it has no affiliate commission.",
     "whitelabel_strategy": "AVCams is the active StripCash/Stripchat white-label conversion destination. StripUnion and its blog acquire traffic; viewer/model traffic should route to AVCams through StripCash's official tracking layer.",
     "affiliate_referral_strategy": "StripCash affiliate referral is active at https://stripcash.com/sign-up/stripunion and pays 5% of referred affiliates' earnings for life, per account-specific user confirmation.",
-    "partner_network_strategy": "Prefer upstream-native viewer, model/creator, and webmaster/affiliate referral economics before any StripUnion-funded payout program. Keep the funnels distinct and verify current official terms before promotion."
+    "partner_network_strategy": "Prefer upstream-native viewer, model/creator, and webmaster/affiliate referral economics before any StripUnion-funded payout program. Keep the funnels distinct and verify current official terms before promotion.",
+    "approval_audit_as_of": "2026-11-15",
+    "new_offer_activation_rule": "Only approved_active offers with user-approved tracking and contextual fit may render. Targets, pending applications and non-cash programs stay off."
   },
   "offers": [
     {
@@ -27,7 +29,9 @@
       "affiliate_tracking": "StripCash userId + memberId + campaignId/sourceId/p1/p2/p3",
       "viewer_default_path": "/girls",
       "model_signup_path": "/signup/model",
-      "strategic_role": "primary conversion destination for StripUnion and blog traffic"
+      "strategic_role": "primary conversion destination for StripUnion and blog traffic",
+      "approval_status": "approved_active",
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
     },
     {
       "id": "stripchat",
@@ -43,7 +47,9 @@
       "whitelabel_domain": "avcams.online",
       "standard_revshare_observed": "20%",
       "model_referral_route": "/signup/model",
-      "commercial_destination": "avcams"
+      "commercial_destination": "avcams",
+      "approval_status": "approved_via_avcams_only",
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
     },
     {
       "id": "chaturbate",
@@ -51,7 +57,9 @@
       "brand": "Chaturbate",
       "status": "target",
       "official_url": "https://chaturbate.com/affiliates/",
-      "relationship": "direct_brand_program"
+      "relationship": "direct_brand_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "bongacams",
@@ -68,7 +76,9 @@
       "affiliate_referral_payout_verified": "5% of referred affiliates' earnings for life",
       "model_referral_terms_verified": "Current BongaCash terms: country-tiered one-time bonus up to $100 after the referred model reaches the applicable minimum earnings threshold",
       "studio_referral_policy": "do_not_promote",
-      "strategic_role": "Second active direct cam offer plus upstream-native webmaster and individual-model referral routes; keep viewer, model, and affiliate funnels separate"
+      "strategic_role": "Second active direct cam offer plus upstream-native webmaster and individual-model referral routes; keep viewer, model, and affiliate funnels separate",
+      "approval_status": "approved_active",
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
     },
     {
       "id": "livejasmin",
@@ -77,7 +87,9 @@
       "operator_program": "A.W. Empire",
       "status": "target",
       "official_url": "https://www.awempire.com/",
-      "relationship": "official_operator_affiliate_platform"
+      "relationship": "official_operator_affiliate_platform",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "camsoda",
@@ -85,7 +97,9 @@
       "brand": "CamSoda",
       "status": "target",
       "official_url": "https://www.camsoda.com/affiliates",
-      "relationship": "direct_brand_program"
+      "relationship": "direct_brand_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "adultfriendfinder",
@@ -94,7 +108,9 @@
       "operator_program": "FriendFinder Networks",
       "status": "target",
       "official_url": "https://adultfriendfinder.com/p/partners/main.cgi",
-      "relationship": "first_party_brand_portfolio"
+      "relationship": "first_party_brand_portfolio",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "fansly",
@@ -102,7 +118,9 @@
       "brand": "Fansly",
       "status": "target",
       "official_url": "https://fansly.com/",
-      "relationship": "direct_referral_program"
+      "relationship": "direct_referral_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "lovense",
@@ -110,7 +128,9 @@
       "brand": "Lovense",
       "status": "target",
       "official_url": "https://www.lovense.com/sextoys/affiliate",
-      "relationship": "direct_brand_program"
+      "relationship": "direct_brand_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "lovehoney",
@@ -119,7 +139,10 @@
       "operator_program": "Lovehoney Group",
       "status": "target",
       "official_url": "https://www.lovehoneygroup.com/affiliates",
-      "relationship": "first_party_group_program"
+      "relationship": "first_party_group_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification.",
+      "network_relationship": "Official brand-managed program via Impact; country-specific approval, not an approved StripUnion offer."
     },
     {
       "id": "kiiroo",
@@ -127,7 +150,9 @@
       "brand": "Kiiroo",
       "status": "target",
       "official_url": "https://www.kiiroo.com/pages/influencer-community",
-      "relationship": "direct_brand_program"
+      "relationship": "direct_brand_program",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "streamate-cambuilder",
@@ -147,7 +172,9 @@
         "$30 Per Join + 30% Lifetime Revenue Share"
       ],
       "domain_ownership_note": "Standalone 35% lifetime revenue-share white labels do not require transfer of domain ownership; other payout programs require transferring the domain to CamBuilder before payouts.",
-      "strategic_role": "candidate second whitelabel to diversify cam inventory and test premium/private-show traffic economics"
+      "strategic_role": "candidate second whitelabel to diversify cam inventory and test premium/private-show traffic economics",
+      "approval_status": "pending_application",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
     },
     {
       "id": "stripcash-affiliate-referral",
@@ -157,7 +184,50 @@
       "official_url": "https://stripcash.com/sign-up/stripunion",
       "relationship": "direct_affiliate_referral",
       "payout": "5% of referred affiliates' earnings for life",
-      "strategic_role": "webmaster/affiliate-intent monetization; separate from viewer and model funnels"
+      "strategic_role": "webmaster/affiliate-intent monetization; separate from viewer and model funnels",
+      "approval_status": "approved_active",
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
+    },
+    {
+      "id": "dlsite",
+      "category": "hentai_anime_games",
+      "brand": "DLsite",
+      "status": "target",
+      "approval_status": "pending_application",
+      "official_url": "https://www.dlsite.com/home/guide/affiliate",
+      "relationship": "official_program_unapproved",
+      "rate_note": "2025 promotional 30% period expired; no current rate or USD settlement claimed.",
+      "eligibility_verification": "Country, payout currency and account approval remain unverified."
+    },
+    {
+      "id": "erolabs",
+      "category": "adult_games",
+      "brand": "EROLABS",
+      "status": "ineligible_non_cash",
+      "approval_status": "affiliate_unavailable",
+      "official_url": "https://www.ero-labs.com/en/promotion_info.html",
+      "relationship": "non_cash_rewards",
+      "eligibility_verification": "Issue198 official-source review identifies Bonus ECoins, not verified withdrawable USD commission. No commercial CTA."
+    },
+    {
+      "id": "nutaku",
+      "category": "adult_games",
+      "brand": "Nutaku",
+      "status": "research_pending",
+      "approval_status": "unknown",
+      "official_url": "https://www.nutaku.net/",
+      "relationship": "program_unverified",
+      "eligibility_verification": "No independently verified approved USD offer; no tracking URL invented."
+    },
+    {
+      "id": "fakku",
+      "category": "hentai_anime",
+      "brand": "FAKKU",
+      "status": "research_pending",
+      "approval_status": "unknown",
+      "official_url": "https://www.fakku.net/",
+      "relationship": "program_unverified",
+      "eligibility_verification": "No independently verified approved USD offer; no tracking URL invented."
     }
   ]
 }

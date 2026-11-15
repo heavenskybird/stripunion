@@ -2,6 +2,8 @@
 import { searchCanonical } from '../config/search-canonical.mjs';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import StripCashReferralButton from './StripCashReferralButton.astro';
+import AffiliateButton from './AffiliateButton.astro';
+import { guideCommercialOffer } from '../config/guide-commercial-policy.mjs';
 
 const { guide } = Astro.props;
 const cover = '/editorial-covers/' + guide.categorySlug + '.svg';
@@ -30,15 +32,8 @@ const faqSchema = guide.faqs?.length ? {
 } : null;
 
 const schemas = faqSchema ? [articleSchema, faqSchema] : [articleSchema];
-// Limited, reversible commercial pilot. These are explicitly webmaster-intent guides.
-// Never promote a cam viewing offer on unrelated gaming/anime/privacy pages.
-const stripcashReferralTrialSlugs = new Set([
-  'adult-affiliate-webmaster-program-evaluation-guide',
-  'adult-affiliate-program-business-model-structure-comparison',
-  'adult-affiliate-program-application-readiness'
-]);
-const showStripCashReferralTrial =
-  guide.categorySlug === 'webmaster-affiliate' && stripcashReferralTrialSlugs.has(guide.slug);
+const commercialOffer = guideCommercialOffer(guide);
+const showStripCashReferralTrial = commercialOffer === 'stripcash-affiliate-referral';
 ---
 <BaseLayout
   title={guide.title}
@@ -115,6 +110,22 @@ const showStripCashReferralTrial =
             Paid referral: StripUnion may receive a commission if you join through this link and
             meet the program's applicable conditions. No earnings are guaranteed.
           </p>
+        </section>
+      )}
+
+      {commercialOffer === 'avcams' && (
+        <section class="money-card guide-affiliate-pilot" aria-label="Optional paid live-cam comparison">
+          <span class="kicker">Optional next step · Adults 18+</span>
+          <h2>Compare a live-cam browsing option</h2>
+          <p>AVCams is StripUnion's Stripchat-powered browsing destination. Review the room labels,
+            current charges and access conditions before choosing whether to participate.
+            A private-room label is not a promise of anonymity, safety or recording prevention.</p>
+          <div class="hero-actions">
+            <AffiliateButton source={'guide_viewer_' + guide.slug} label="Compare rooms on AVCams →" />
+            <span class="paid-link-label">Paid link</span>
+          </div>
+          <p class="commercial-disclosure">StripUnion may earn a commission from eligible activity.
+            Browsing this guide does not require a purchase. This is a viewer link, not model registration.</p>
         </section>
       )}
 
