@@ -1,0 +1,116 @@
+export default {
+  "slug": "adult-budget-app-transaction-data-privacy-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Payments: Check Transaction Privacy Before Linking a Budget App",
+  "description": "Before connecting financial accounts to a budgeting tool, understand what transaction details may be imported, where they may appear, and how to limit unnecessary exposure.",
+  "excerpt": "Budgeting tools can make it easier to review spending, but linked transactions may travel beyond a bank statement. Check the data path, sharing settings, and record-retention choices first.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Identify which accounts and transaction fields a budgeting tool requests before authorizing access.",
+    "Check whether transaction descriptions, merchant names, notes, or categories may appear on shared dashboards or exported reports.",
+    "Review the tool’s access, sharing, and data-deletion controls, as well as the financial institution’s connection settings where available.",
+    "Use manual entry or a separate private record if linking creates more exposure than the budgeting benefit is worth.",
+    "Revisit access after changing tools, closing an account, or deciding that automatic import is no longer useful."
+  ],
+  "sections": [
+    {
+      "heading": "A budgeting connection creates a second place to review",
+      "paragraphs": [
+        "A bank or card statement is not always the only place where a purchase can be seen. When a financial account is linked to a budgeting tool, transaction details may also appear in that tool’s dashboard, notifications, reports, exports, or shared household view. The exact data and controls depend on the services involved, so do not assume a connection is limited to a private monthly summary.",
+        "This guide is about assessing that data path before you link accounts. It does not endorse a particular budgeting service or promise that a particular transaction will be hidden, renamed, or handled in a specific way. The practical question is whether you can understand what information moves, who can view it, and how to disconnect or remove it if your needs change."
+      ],
+      "bullets": [
+        "Review the budgeting tool’s permissions and privacy information before authorizing a connection.",
+        "Consider whether the account or dashboard is shared with anyone else."
+      ]
+    },
+    {
+      "heading": "Map the information that could appear",
+      "paragraphs": [
+        "Start with the fields the tool requests or displays. These may include transaction date, amount, merchant description, account name, category, or user-added notes; the available fields vary. Look at sample screens, help documentation, and export options if provided. If the service does not explain what is imported or shown, treat that as an unanswered question rather than assuming sensitive details are omitted.",
+        "Then follow the information to places beyond the main dashboard. A transaction could be reflected in a monthly report, a search result, a notification, an emailed digest, or a downloaded file. If another person can access a shared budget, they may see more detail than the account owner expects. Check household sharing and collaborator settings before connecting any account used for private purchases."
+      ],
+      "table": {
+        "caption": "Map the transaction information before you link an account",
+        "headers": [
+          "Data location",
+          "What to inspect",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Main dashboard",
+            "Merchant, date, amount, and category fields",
+            "Who can open this view?"
+          ],
+          [
+            "Shared budget or household view",
+            "Collaborators, roles, and visibility by account",
+            "Can another user see individual transactions or only totals?"
+          ],
+          [
+            "Notifications and email",
+            "Alerts, summaries, and lock-screen previews",
+            "Could a message reveal a merchant or purchase detail?"
+          ],
+          [
+            "Reports and exports",
+            "Downloaded or emailed records and included fields",
+            "Where will exported files be stored or synchronized?"
+          ],
+          [
+            "Connected-account settings",
+            "Permission scope and disconnect instructions",
+            "How can access be withdrawn if you stop using the tool?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare account linking with lower-data alternatives",
+      "paragraphs": [
+        "Automatic importing can reduce manual work, but it is not the only way to track a budget. A user can compare it with entering a broad category total manually, maintaining a private local record, or reviewing a statement without connecting it to another service. These alternatives require different effort and may not provide the same detail. The best fit depends on whether automation is worth the additional data locations and access controls involved.",
+        "If you choose manual tracking, avoid putting unnecessary identifying details in notes or filenames. If you choose automatic import, consider whether the tool lets you limit which accounts are connected or how transactions are categorized. Do not rely on a category setting to remove the underlying merchant detail unless the service clearly says it does. A display preference may change presentation without changing what the tool stores."
+      ],
+      "bullets": [
+        "List the budgeting benefit you need before choosing a data-sharing method.",
+        "Prefer connecting only the account or accounts needed for that purpose, if the service supports it.",
+        "Do not enter payment credentials into a link or page unless you have verified it belongs to the intended service."
+      ]
+    },
+    {
+      "heading": "Review sharing, alerts, and device exposure",
+      "paragraphs": [
+        "For a shared household budget, agree on what information is being shared before linking an account. A shared financial goal does not necessarily require every participant to view every individual purchase. Check whether the tool offers account-level visibility or summary-only sharing; do not assume such a control exists."
+      ]
+    },
+    {
+      "heading": "Disconnect carefully and keep a limited record",
+      "paragraphs": [
+        "If you stop using a budgeting tool, review both the tool’s instructions and the financial institution’s connected-app settings, where available. Disconnecting a link may stop future imports but may not delete transaction history already stored by the budgeting service. Look for a separate deletion or data-retention process and follow it if you want to request removal. Keep a short note of the date and confirmation for your own records, without retaining unnecessary exports or screenshots.",
+        "Before deleting data, consider whether you still need records for personal budgeting, account reconciliation, or a pending support inquiry. Keep only what is useful and store it securely. If you see an unexpected transaction or believe account access was not authorized, contact the financial institution and the budgeting tool through their official channels. Do not share one-time codes, full card details, or account passwords in an unsolicited message."
+      ],
+      "bullets": [
+        "Check whether disconnecting and deleting stored data are separate steps.",
+        "Review connected-app access periodically, especially after changing budgeting tools.",
+        "Retain only the confirmation and financial records needed for your own purposes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will a budgeting app hide the merchant name on imported transactions?",
+      "answer": "Do not assume so. Display and storage behavior varies. Review the tool’s documentation and screens for the fields it imports, and ask the provider if the information is unclear."
+    },
+    {
+      "question": "Does disconnecting a bank account delete previously imported transactions?",
+      "answer": "Not necessarily. Disconnecting may stop future access while stored history remains. Check the tool’s data-deletion and retention process separately."
+    },
+    {
+      "question": "Is manual budgeting always more private than linking an account?",
+      "answer": "It can reduce automatic data sharing, but the privacy of manual records depends on where they are stored and who can access them. Compare the data path and effort of each option before deciding."
+    }
+  ]
+};
