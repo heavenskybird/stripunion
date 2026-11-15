@@ -56,7 +56,7 @@
     },
     {
       "id": "webmaster-referral-three-page-pilot",
-      "status": "IMPLEMENTED",
+      "status": "DEPLOYED",
       "origin": {
         "issue": 198,
         "url": "https://github.com/heavenskybird/stripunion/issues/198",
@@ -73,10 +73,16 @@
           "url": "https://github.com/heavenskybird/stripunion/pull/202",
           "asOf": "2026-11-15",
           "kind": "merged_code_not_live_proof"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/43671270663",
+          "asOf": "2026-11-15T03:12:37Z",
+          "kind": "production_http",
+          "proof": "3servedHTTP200/articleCTA/referralURL/disclosure/canonical contracts and signupLanding200; no signup or revenue proof"
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
-      "nextAction": "Independently verify exact served HTTP/CTA/disclosure and same-window referral outcomes; CI alone is not deployment.",
+      "lastEvidenceAt": "2026-11-15T03:12:37Z",
+      "nextAction": "Collect matched7/28 GSC and consent-safe affiliate events plus provider-confirmed affiliate referral outcomes; page delivery is proved, credit/earnings are not.",
       "ownerAction": null,
       "history": [
         {
@@ -88,23 +94,30 @@
         {
           "from": "DISCOVERED",
           "to": "EVALUATED",
-          "at": "2026-11-15T03:14:54.961824Z",
+          "at": "2026-11-15T03:20:44.789700Z",
           "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
-          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+          "backfillObservedAt": "2026-11-15T03:20:44.789700Z"
         },
         {
           "from": "EVALUATED",
           "to": "APPROVED",
-          "at": "2026-11-15T03:14:54.961824Z",
+          "at": "2026-11-15T03:20:44.789700Z",
           "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
-          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+          "backfillObservedAt": "2026-11-15T03:20:44.789700Z"
         },
         {
           "from": "APPROVED",
           "to": "IMPLEMENTED",
-          "at": "2026-11-15T03:14:54.961824Z",
+          "at": "2026-11-15T03:20:44.789700Z",
           "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
-          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+          "backfillObservedAt": "2026-11-15T03:20:44.789700Z"
+        },
+        {
+          "from": "IMPLEMENTED",
+          "to": "DEPLOYED",
+          "at": "2026-11-15T03:20:44.789700Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/actions/runs/43671270663",
+          "backfillObservedAt": "2026-11-15T03:20:44.789700Z"
         }
       ],
       "evaluation": {
@@ -116,13 +129,20 @@
           "qualified_affiliate_clicks",
           "partner_confirmed_USD_earnings"
         ],
-        "status": "NOT_YET_MEASURED"
+        "status": "NOT_YET_MEASURED",
+        "windowStart": "2026-11-15",
+        "dueAt": "2026-11-22T03:12:37Z"
       },
-      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times.",
+      "productionUrls": [
+        "https://stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/",
+        "https://stripunion.com/guides/adult-affiliate-program-business-model-structure-comparison/",
+        "https://stripunion.com/guides/adult-affiliate-program-application-readiness/"
+      ]
     },
     {
       "id": "revenue-usd-and-unmatched-postbacks",
-      "status": "EVALUATED",
+      "status": "IMPLEMENTED",
       "origin": {
         "issue": 174,
         "url": "https://github.com/heavenskybird/stripunion/issues/174",
@@ -139,11 +159,21 @@
           "url": "https://github.com/heavenskybird/stripunion/issues/174",
           "asOf": "2026-11-15",
           "kind": "issue_and_source_audit"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/206",
+          "asOf": "2026-11-15T03:20:01.004327Z",
+          "kind": "implemented_branch_not_deployed"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/43671541510/artifacts/14144920084",
+          "asOf": "2026-11-15T03:15:45Z",
+          "kind": "read_only_attribution_scope_proof"
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
-      "nextAction": "Separate confirmed/pending/unknown scope; inspect 12 historical unmatched events without creating retroactive joins.",
-      "ownerAction": "Provide authenticated provider same-window payout/commission export only if existing API lacks required fields.",
+      "lastEvidenceAt": "2026-11-15T03:20:01.004327Z",
+      "nextAction": "Review PR206 page-level conversion/revenue logic; retain UNKNOWN224.25 as unknown reported amount, not USD commission. Obtain exact provider same-window financial scope before confirmation.",
+      "ownerAction": "One consolidated sanitized authenticated7/28 Statistics + Payout History export with exact dates/timezone/geo/campaign/SubID/netUSD/paid-approved status and postback amount/currency/transaction macro semantics; no secrets or artificial conversions.",
       "history": [
         {
           "from": null,
@@ -157,6 +187,19 @@
           "at": "2026-11-15T03:14:54.961824Z",
           "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/174",
           "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "APPROVED",
+          "at": "2026-11-15T03:20:01.004327Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/206",
+          "approvalScope": "implementation_only_not_production_or_provider_financial_approval"
+        },
+        {
+          "from": "APPROVED",
+          "to": "IMPLEMENTED",
+          "at": "2026-11-15T03:20:01.004327Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/206"
         }
       ],
       "evaluation": {
@@ -170,7 +213,14 @@
         ],
         "status": "NOT_YET_MEASURED"
       },
-      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times.",
+      "aliases": [
+        "revenue-scoped-usd-reconciliation"
+      ],
+      "blockingEvidence": [
+        "Authenticated provider net financial scope and amount macro semantics are not verified.",
+        "All12unmatched historical causes remain unproven; diagnostics cover2matched events only."
+      ]
     },
     {
       "id": "approved-product-applications",
