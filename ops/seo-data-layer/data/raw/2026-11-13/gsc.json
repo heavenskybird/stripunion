@@ -3,15 +3,15 @@
   "siteUrl": "sc-domain:stripunion.com",
   "startDate": "2026-10-14",
   "endDate": "2026-11-13",
-  "collectedAt": "2026-11-15T03:27:34.786Z",
-  "dailyRowCount": 30,
-  "pageRowCount": 3890,
-  "queryRowCount": 2462,
-  "queryPageRowCount": 2928,
-  "countryRowCount": 1630,
-  "deviceRowCount": 82,
-  "queryCountryRowCount": 3262,
-  "queryDeviceRowCount": 2768,
+  "collectedAt": "2026-11-15T05:05:52.502Z",
+  "dailyRowCount": 31,
+  "pageRowCount": 4047,
+  "queryRowCount": 2578,
+  "queryPageRowCount": 3060,
+  "countryRowCount": 1713,
+  "deviceRowCount": 85,
+  "queryCountryRowCount": 3443,
+  "queryDeviceRowCount": 2905,
   "dailyRows": [
     {
       "date": "2026-10-14",
@@ -222,6 +222,13 @@
       "impressions": 541,
       "ctr": 0.024029574861367836,
       "position": 15.663585951940851
+    },
+    {
+      "date": "2026-11-13",
+      "clicks": 20,
+      "impressions": 625,
+      "ctr": 0.032,
+      "position": 14.0304
     }
   ],
   "pageRows": [
@@ -520,6 +527,38 @@
       "impressions": 54,
       "ctr": 0.037037037037037035,
       "position": 8.148148148148149
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 7.777777777777778
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 2,
+      "impressions": 60,
+      "ctr": 0.03333333333333333,
+      "position": 7.933333333333334
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+      "clicks": 2,
+      "impressions": 9,
+      "ctr": 0.2222222222222222,
+      "position": 9.444444444444445
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/xhamster",
+      "clicks": 2,
+      "impressions": 4,
+      "ctr": 0.5,
+      "position": 7.5
     },
     {
       "date": "2026-10-21",
@@ -2216,6 +2255,102 @@
       "impressions": 12,
       "ctr": 0.08333333333333333,
       "position": 6.916666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037037037037037035,
+      "position": 14.88888888888889
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+      "clicks": 1,
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 25.375
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-language-metadata-accessibility-checklist/",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 44
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-site-account-security-password-recovery-checklist/",
+      "clicks": 1,
+      "impressions": 5,
+      "ctr": 0.2,
+      "position": 5.8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 1,
+      "impressions": 59,
+      "ctr": 0.01694915254237288,
+      "position": 25.033898305084747
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 8.31578947368421
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/best-free-live-cam-sites",
+      "clicks": 1,
+      "impressions": 13,
+      "ctr": 0.07692307692307693,
+      "position": 11.615384615384615
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/dating-hookups",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/free-videos/",
+      "clicks": 1,
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 10.285714285714286
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-mobile-manga-reader-usability-audit",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-app/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.058823529411764705,
+      "position": 7.411764705882353
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-private-shows/",
+      "clicks": 1,
+      "impressions": 11,
+      "ctr": 0.09090909090909091,
+      "position": 7.090909090909091
     },
     {
       "date": "2026-10-14",
@@ -31344,6 +31479,1134 @@
       "impressions": 8,
       "ctr": 0,
       "position": 7.875
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/about/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/best-live-cam-sites",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/best-live-cam-sites/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 22.625
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 10.153846153846153
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-content-labels-and-source-checklist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 12.666666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-mobile-experience-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-catalog-provenance-and-edition-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-format-fit-comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-format-fit-comparison/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 5.166666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-redirect-and-download-safety/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-related-title-linking-audit",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platform-tag-filters-recommendation-controls",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-anime-platforms-choose-streaming-manga-or-games",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-dating-unmatch-block-contact-continuity-review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-dating-verification-requirements-review/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 80
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-game-content-warnings-and-narrative-fit-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-game-download-installation-and-update-safety-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-game-download-source-update-save-checklist/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-game-platform-operating-system-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-games-mod-support-and-installation-risk-audit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-games-update-cadence-evidence-review/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-manga-access-model-and-retention-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-payment-privacy-statement-receipt-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-platform-home-wifi-visibility-review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-platform-payment-decline-and-checkout-retry-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-platform-payment-method-control-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-platform-work-managed-device-risk-check/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-shop-warranty-defect-policy-checklist/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 2.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-shops-check-delivery-privacy-from-checkout-to-doorstep/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-shops-returns-and-delivery-policy-comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-shops-returns-and-delivery-policy-comparison/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-site-account-security-password-recovery-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/adult-sites-mobile-browser-notifications-privacy-guide",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/ar-adult-platform-fit-and-permissions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/before-buying-vr-headset-check-adult-platform-compatibility/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/compare-adult-anime-platforms-by-video-manga-and-game-format/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/dating-platform-block-unmatch-report-controls-before-joining/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/dating-platform-match-expiration-and-chat-continuity/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/free-adult-video-mobile-privacy-guide/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/free-adult-video-search-result-quality-audit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/free-video-domain-and-link-safety-check/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/free-video-moderation-transparency-check",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-account-closure-and-data-exit-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-favorites-follow-notifications-privacy-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-identity-verification-data-review/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 45.2
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 3.3333333333333335
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-platform-room-rules-moderation-reporting-check/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-platform-travel-region-access-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-safety-concern-reporting-workflow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-safety-concern-reporting-workflow/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-streaming-data-use-and-quality-planning/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-token-spend-guardrail-plan/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-visibility-before-interaction",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/live-cam-visibility-before-interaction/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/premium-video-caption-language-fit-audit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/premium-video-membership-pause-reactivation-access-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/premium-video-picture-in-picture-background-playback-check",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/premium-video-platform-autoplay-and-next-up-controls-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/vr-adult-platform-membership-expiration-access-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/guides/vr-session-output-and-notification-privacy-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/premium-videos/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripcash-affiliate-program/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 21.4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripchat-pricing/",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0,
+      "position": 10.73913043478261
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 9.11111111111111
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://stripunion.com/stripchat-vs-livejasmin/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/about",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/avcams",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/best-live-cam-sites",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 46.333333333333336
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/chaturbate-alternatives",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 11.625
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/free-videos",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-access-model-and-entitlement-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-game-platform-device-save-update-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-game-platform-device-save-update-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-device-save-account-requirements-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-device-save-account-requirements-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 67
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0,
+      "position": 43.72727272727273
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-platform-cross-format-title-availability-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-platform-format-library-fit-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-platform-free-vs-premium-access-and-account-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-platform-free-vs-premium-access-and-account-checklist/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 12.6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-anime-streaming-data-and-cache-planning/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-dating-intent-labels-expectations-guide",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-game-input-controls-accessibility-and-device-support-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-game-mod-installation-risk-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-games-check-installation-updates-and-device-support/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-account-deletion-retention-audit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-account-deletion-retention-audit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4.5
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-billing-descriptor-preflight",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 22.75
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-cancellation-evidence-privacy-workflow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-home-wifi-visibility-review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-payment-method-privacy-fit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-platform-payment-method-privacy-fit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-shop-discreet-packaging-claims-verification",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-shop-product-dimension-fit-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/adult-shop-returns-policy-comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/ar-adult-platform-camera-permissions-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/dating-platform-notification-and-inbox-privacy-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 31
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/dating-platform-profile-discoverability-controls/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/dating-platform-search-filter-practical-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/dating-profile-photo-privacy-review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-browser-versus-app-privacy-checklist/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 16.25
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-live-streams-vod-archive-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-lookalike-site-url-checklist/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-metered-data-autoplay-quality-controls",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-metered-data-autoplay-quality-controls/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-sites-privacy-usability-guide",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-sites-privacy-usability-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/free-adult-video-sites-shared-computer-session-privacy-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/hentai-anime-library-discovery-workflow",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 5.2
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/hentai-anime-platform-tags-content-warnings-filter-guide/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 7.111111111111111
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/hentai-anime-release-completeness-check",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/hentai-manga-reader-chapter-order-reading-direction-progress/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 5.857142857142857
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/hentai-streaming-vs-manga-reader-privacy-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/guides/premium-video-language-track-availability-audit",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/hentai-anime",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/hentai-anime/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/how-stripchat-tokens-work/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 6.111111111111111
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/live-cams",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 34.857142857142854
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/live-cams/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/livejasmin",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 12.066666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/sexlikereal",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 23.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/sexlikereal/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 9.166666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 15.67741935483871
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-private-shows",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.142857142857143
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-vs-chaturbate",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10.75
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat-vs-livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/stripchat/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 26.666666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/vr-ar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 58
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/vr-ar/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 60.75
+    },
+    {
+      "date": "2026-11-13",
+      "page": "https://www.stripunion.com/xhamster/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7.5
     }
   ],
   "queryRows": [
@@ -31370,6 +32633,14 @@
       "impressions": 16,
       "ctr": 0.125,
       "position": 16.4375
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "clicks": 2,
+      "impressions": 6,
+      "ctr": 0.3333333333333333,
+      "position": 11.166666666666666
     },
     {
       "date": "2026-10-24",
@@ -32002,6 +33273,46 @@
       "impressions": 9,
       "ctr": 0.1111111111111111,
       "position": 9.11111111111111
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime app",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best anime sex game",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 10.166666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.058823529411764705,
+      "position": 7.529411764705882
+    },
+    {
+      "date": "2026-11-13",
+      "query": "web hentai games",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 33
     },
     {
       "date": "2026-10-14",
@@ -51042,6 +52353,886 @@
       "impressions": 2,
       "ctr": 0,
       "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime app",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime apps",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime sex games",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult subscribe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult video search",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult vr",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 77.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "all anime sex game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative chaturbate",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative for stripchat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18 plus game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18+ game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 18.6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 26.166666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime hentai websites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime nsfw game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime online sex games",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime porn game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 32.714285714285715
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 24.666666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games online",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 73.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime xxx game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "arcom adult content",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are browser-based adult games safer and more private than downloads?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are hentai games safe on mobile?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 43.666666666666664
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best paid hentai sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best sites to watch hentai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best websites to watch hentai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "cam verification",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 71.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativ",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativen",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 20.666666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "compare services for going live on stripchat versus other similar sites.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: i need to return an unopened item from an adult store—how do returns typically work with discreet shipping and refunds?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "equivalent stripchat",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on ebony live cams",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company stripchat on couples porn cams",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "even in incognito?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime streaming sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime websites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai game sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai online game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 12.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 32.81818181818181
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites list",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 22.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming websites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai video sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10.25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai watching sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "date": "2026-11-13",
+      "query": "how to watch hentai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "intitle:sexlikereal",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "is xhamster free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official methods for purchasing stripchat tokens quickly.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official pricing tiers for acquiring stripchat tokens.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "live sex",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livech.com alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10.3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin reviews",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin,livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "open background-previewbackgroundplay",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "pleasure chest return policy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "recommend platforms providing adult videos that support ar integration.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "selikereal",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime games",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 26.6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal official website",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar to stripchat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites like stripchat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites to watch hentai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam app",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13.666666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chart app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chat alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcam app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcash live",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcbat app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 6.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 21.533333333333335
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar site",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat ticket",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat vs chaturbate",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchats app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripshat app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strpcash",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "tell me the easiest way to get rid of my stripchat account.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "top hentai streaming sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "transaction descriptor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "date": "2026-11-13",
+      "query": "unblock someone on match",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 58
+    },
+    {
+      "date": "2026-11-13",
+      "query": "website hentai game",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites for hentai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites like stripchat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites you can watch hentai on",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what dating site offers advanced search filters?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is a payment descriptor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is the actual process to join the live cam platform?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "you tell me gemini",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "queryPageRows": [
@@ -51782,6 +53973,69 @@
       "impressions": 5,
       "ctr": 0.2,
       "position": 7.8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime app",
+      "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best anime sex game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "page": "https://www.stripunion.com/best-free-live-cam-sites",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 10.166666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 0.07142857142857142,
+      "position": 7.642857142857143
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 1,
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 12.333333333333334
+    },
+    {
+      "date": "2026-11-13",
+      "query": "web hentai games",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 33
     },
     {
       "date": "2026-10-14",
@@ -77396,6 +79650,1131 @@
       "impressions": 2,
       "ctr": 0,
       "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime app",
+      "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime apps",
+      "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 58
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime sex games",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 27
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime sex games",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult subscribe",
+      "page": "https://stripunion.com/guides/premium-adult-video-subscription-value-privacy-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult video search",
+      "page": "https://stripunion.com/guides/free-adult-video-search-result-quality-audit/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult vr",
+      "page": "https://www.stripunion.com/vr-ar/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 77.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "all anime sex game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative chaturbate",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative for stripchat",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18 plus game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18+ game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 11.25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 30.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 22.8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 36.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime hentai websites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime nsfw game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime online sex games",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 53
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime online sex games",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime porn game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 51
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games online",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 73.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime xxx game",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "arcom adult content",
+      "page": "https://stripunion.com/guides/ar-adult-platform-fit-and-permissions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are browser-based adult games safer and more private than downloads?",
+      "page": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are hentai games safe on mobile?",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "page": "https://stripunion.com/best-live-cam-sites/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 43.666666666666664
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best paid hentai sites",
+      "page": "https://www.stripunion.com/guides/adult-anime-platform-free-vs-premium-access-and-account-checklist/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best sites to watch hentai",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best websites to watch hentai",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "cam verification",
+      "page": "https://stripunion.com/guides/live-cam-identity-verification-data-review/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 71.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativ",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 12.75
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "page": "https://www.stripunion.com/chaturbate-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativen",
+      "page": "https://www.stripunion.com/chaturbate-alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "page": "https://stripunion.com/chaturbate-alternatives/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "page": "https://www.stripunion.com/chaturbate-alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "page": "https://www.stripunion.com/stripchat-vs-chaturbate",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 20
+    },
+    {
+      "date": "2026-11-13",
+      "query": "compare services for going live on stripchat versus other similar sites.",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: i need to return an unopened item from an adult store—how do returns typically work with discreet shipping and refunds?",
+      "page": "https://stripunion.com/guides/adult-shops-returns-and-delivery-policy-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "equivalent stripchat",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on ebony live cams",
+      "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
+      "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company stripchat on couples porn cams",
+      "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "even in incognito?",
+      "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime streaming sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime websites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai game sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai online game",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 12.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 32.81818181818181
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites list",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 22.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming websites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai video sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10.25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai watching sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 34
+    },
+    {
+      "date": "2026-11-13",
+      "query": "how to watch hentai",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "intitle:sexlikereal",
+      "page": "https://www.stripunion.com/sexlikereal/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "is xhamster free",
+      "page": "https://www.stripunion.com/xhamster",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official methods for purchasing stripchat tokens quickly.",
+      "page": "https://stripunion.com/stripchat-pricing/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official pricing tiers for acquiring stripchat tokens.",
+      "page": "https://stripunion.com/stripchat-pricing/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "live sex",
+      "page": "https://stripunion.com/guides/live-cam-safety-concern-reporting-workflow/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livech.com alternatives",
+      "page": "https://stripunion.com/best-live-cam-sites/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "page": "https://www.stripunion.com/livejasmin",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10.3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin reviews",
+      "page": "https://www.stripunion.com/livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin,livejasmin",
+      "page": "https://www.stripunion.com/livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "open background-previewbackgroundplay",
+      "page": "https://stripunion.com/guides/premium-video-picture-in-picture-background-playback-check",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "pleasure chest return policy",
+      "page": "https://stripunion.com/guides/adult-shops-returns-and-delivery-policy-comparison/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "recommend platforms providing adult videos that support ar integration.",
+      "page": "https://www.stripunion.com/vr-ar/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "selikereal",
+      "page": "https://www.stripunion.com/sexlikereal",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime game",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime games",
+      "page": "https://www.stripunion.com/guides/adult-anime-games-installation-and-device-compatibility-checklist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "page": "https://www.stripunion.com/sexlikereal",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 26.6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal official website",
+      "page": "https://www.stripunion.com/sexlikereal/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "page": "https://www.stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar to stripchat",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites like stripchat",
+      "page": "https://www.stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites to watch hentai",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13.666666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam sites",
+      "page": "https://www.stripunion.com/best-free-live-cam-sites",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chart app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chat alternatives",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcam app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcash live",
+      "page": "https://stripunion.com/stripcash-affiliate-program/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcbat app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 8.166666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 5.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "page": "https://stripunion.com/stripchat-alternatives/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0,
+      "position": 21.533333333333335
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar site",
+      "page": "https://stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat ticket",
+      "page": "https://www.stripunion.com/stripchat/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat vs chaturbate",
+      "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchats app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripshat app",
+      "page": "https://www.stripunion.com/stripchat-app",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strpcash",
+      "page": "https://stripunion.com/stripcash-affiliate-program/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "tell me the easiest way to get rid of my stripchat account.",
+      "page": "https://www.stripunion.com/guides/adult-platform-account-deletion-retention-audit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "top hentai streaming sites",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "transaction descriptor",
+      "page": "https://www.stripunion.com/guides/adult-platform-billing-descriptor-preflight",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "date": "2026-11-13",
+      "query": "unblock someone on match",
+      "page": "https://stripunion.com/guides/adult-dating-unmatch-block-contact-continuity-review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "page": "https://www.stripunion.com/vr-ar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 58
+    },
+    {
+      "date": "2026-11-13",
+      "query": "website hentai game",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites for hentai",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites like stripchat",
+      "page": "https://www.stripunion.com/stripchat-alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites you can watch hentai on",
+      "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what dating site offers advanced search filters?",
+      "page": "https://www.stripunion.com/guides/dating-platform-search-filter-practical-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is a payment descriptor",
+      "page": "https://www.stripunion.com/guides/adult-platform-billing-descriptor-preflight",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is livejasmin",
+      "page": "https://www.stripunion.com/livejasmin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is the actual process to join the live cam platform?",
+      "page": "https://stripunion.com/guides/live-cam-identity-verification-data-review/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "you tell me gemini",
+      "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "countryRows": [
@@ -77438,6 +80817,14 @@
       "impressions": 161,
       "ctr": 0.031055900621118012,
       "position": 16.664596273291927
+    },
+    {
+      "date": "2026-11-13",
+      "country": "ind",
+      "clicks": 5,
+      "impressions": 57,
+      "ctr": 0.08771929824561403,
+      "position": 17.333333333333332
     },
     {
       "date": "2026-10-27",
@@ -77766,6 +81153,30 @@
       "impressions": 228,
       "ctr": 0.008771929824561403,
       "position": 16.464912280701753
+    },
+    {
+      "date": "2026-11-13",
+      "country": "aus",
+      "clicks": 2,
+      "impressions": 15,
+      "ctr": 0.13333333333333333,
+      "position": 11.466666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "country": "ita",
+      "clicks": 2,
+      "impressions": 6,
+      "ctr": 0.3333333333333333,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "country": "phl",
+      "clicks": 2,
+      "impressions": 13,
+      "ctr": 0.15384615384615385,
+      "position": 18.384615384615383
     },
     {
       "date": "2026-10-21",
@@ -78950,6 +82361,78 @@
       "impressions": 181,
       "ctr": 0.0055248618784530384,
       "position": 22.734806629834253
+    },
+    {
+      "date": "2026-11-13",
+      "country": "are",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 8.833333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "country": "can",
+      "clicks": 1,
+      "impressions": 19,
+      "ctr": 0.05263157894736842,
+      "position": 9.526315789473685
+    },
+    {
+      "date": "2026-11-13",
+      "country": "cri",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "country": "gbr",
+      "clicks": 1,
+      "impressions": 25,
+      "ctr": 0.04,
+      "position": 17.84
+    },
+    {
+      "date": "2026-11-13",
+      "country": "gha",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 7.833333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "country": "nld",
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.03571428571428571,
+      "position": 20.142857142857142
+    },
+    {
+      "date": "2026-11-13",
+      "country": "ukr",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "country": "yem",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "country": "zaf",
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 7.222222222222222
     },
     {
       "date": "2026-10-14",
@@ -90438,6 +93921,566 @@
       "impressions": 2,
       "ctr": 0,
       "position": 7.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "afg",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "country": "and",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "arg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "country": "arm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "country": "aut",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "country": "bel",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 11.8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "bgd",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 11.166666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "country": "bol",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "bra",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0,
+      "position": 12.705882352941176
+    },
+    {
+      "date": "2026-11-13",
+      "country": "che",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "country": "chl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "country": "chn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "country": "col",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "cyp",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "country": "cze",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 10.806451612903226
+    },
+    {
+      "date": "2026-11-13",
+      "country": "dnk",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 7.666666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "country": "ecu",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "egy",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 5.75
+    },
+    {
+      "date": "2026-11-13",
+      "country": "esp",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 8.636363636363637
+    },
+    {
+      "date": "2026-11-13",
+      "country": "est",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 9.714285714285714
+    },
+    {
+      "date": "2026-11-13",
+      "country": "geo",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "country": "grc",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 5.75
+    },
+    {
+      "date": "2026-11-13",
+      "country": "hkg",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 20.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "hrv",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 16.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "hun",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "country": "idn",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 7.2
+    },
+    {
+      "date": "2026-11-13",
+      "country": "irl",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 21.833333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "country": "irn",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 11.6
+    },
+    {
+      "date": "2026-11-13",
+      "country": "isr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "country": "jam",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "country": "jor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "jpn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "country": "ken",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.625
+    },
+    {
+      "date": "2026-11-13",
+      "country": "khm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
+      "date": "2026-11-13",
+      "country": "kor",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 13.75
+    },
+    {
+      "date": "2026-11-13",
+      "country": "lbn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "country": "lka",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "mar",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.4
+    },
+    {
+      "date": "2026-11-13",
+      "country": "mex",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 7.166666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "country": "mne",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "country": "mys",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 22
+    },
+    {
+      "date": "2026-11-13",
+      "country": "nga",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "nor",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "npl",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "nzl",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 10.833333333333334
+    },
+    {
+      "date": "2026-11-13",
+      "country": "pak",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "country": "per",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "pol",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "prt",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "country": "pry",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "country": "pyf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "country": "qat",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "country": "rou",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 8.8
+    },
+    {
+      "date": "2026-11-13",
+      "country": "rus",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 10.222222222222221
+    },
+    {
+      "date": "2026-11-13",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 32.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 12.125
+    },
+    {
+      "date": "2026-11-13",
+      "country": "srb",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "country": "swe",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "sxm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "country": "syc",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "country": "tha",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "date": "2026-11-13",
+      "country": "tur",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "country": "twn",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "country": "tza",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "country": "uga",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 193,
+      "ctr": 0,
+      "position": 16.694300518134717
+    },
+    {
+      "date": "2026-11-13",
+      "country": "vnm",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "country": "zmb",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6
     }
   ],
   "deviceRows": [
@@ -90456,6 +94499,14 @@
       "impressions": 295,
       "ctr": 0.06779661016949153,
       "position": 10.305084745762711
+    },
+    {
+      "date": "2026-11-13",
+      "device": "MOBILE",
+      "clicks": 18,
+      "impressions": 322,
+      "ctr": 0.055900621118012424,
+      "position": 12.347826086956522
     },
     {
       "date": "2026-11-10",
@@ -90786,6 +94837,14 @@
       "position": 16.771929824561404
     },
     {
+      "date": "2026-11-13",
+      "device": "DESKTOP",
+      "clicks": 2,
+      "impressions": 293,
+      "ctr": 0.006825938566552901,
+      "position": 16.051194539249146
+    },
+    {
       "date": "2026-10-21",
       "device": "MOBILE",
       "clicks": 1,
@@ -91096,6 +95155,14 @@
       "impressions": 15,
       "ctr": 0,
       "position": 11.466666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "queryCountryRows": [
@@ -91125,6 +95192,15 @@
       "impressions": 13,
       "ctr": 0.15384615384615385,
       "position": 12.23076923076923
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "country": "ita",
+      "clicks": 2,
+      "impressions": 2,
+      "ctr": 1,
+      "position": 8.5
     },
     {
       "date": "2026-10-24",
@@ -91836,6 +95912,51 @@
       "impressions": 2,
       "ctr": 0.5,
       "position": 9.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime app",
+      "country": "ind",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best anime sex game",
+      "country": "phl",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "country": "gbr",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "ind",
+      "clicks": 1,
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 7.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "web hentai games",
+      "country": "nld",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 33
     },
     {
       "date": "2026-10-14",
@@ -120456,6 +124577,1581 @@
       "impressions": 2,
       "ctr": 0,
       "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime app",
+      "country": "npl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime app",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime game",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime apps",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime sex games",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult subscribe",
+      "country": "chn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult video search",
+      "country": "tha",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult video search",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult vr",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 77.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "all anime sex game",
+      "country": "idn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative chaturbate",
+      "country": "and",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative for stripchat",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18 plus game",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18+ game",
+      "country": "can",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "country": "kor",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 26.166666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime hentai websites",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime nsfw game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime online sex games",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime porn game",
+      "country": "idn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "country": "khm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 87
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "country": "phl",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 8.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 59
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 24.666666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games online",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 73.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime xxx game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "arcom adult content",
+      "country": "irl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are browser-based adult games safer and more private than downloads?",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are hentai games safe on mobile?",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "country": "bra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "country": "kor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "country": "rus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best paid hentai sites",
+      "country": "cze",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best sites to watch hentai",
+      "country": "tha",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best websites to watch hentai",
+      "country": "bra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "cam verification",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 43
+    },
+    {
+      "date": "2026-11-13",
+      "query": "cam verification",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 85.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativ",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "country": "can",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "country": "mys",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativen",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "country": "irl",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "country": "bel",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "compare services for going live on stripchat versus other similar sites.",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: i need to return an unopened item from an adult store—how do returns typically work with discreet shipping and refunds?",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "equivalent stripchat",
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on ebony live cams",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company stripchat on couples porn cams",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "even in incognito?",
+      "country": "nld",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "country": "bel",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "country": "nor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "country": "sxm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime sites",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime streaming sites",
+      "country": "bol",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime websites",
+      "country": "aus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai game sites",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai online game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 19.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "country": "mar",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "country": "can",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 33.55555555555556
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites list",
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "country": "hrv",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 21.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming websites",
+      "country": "prt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai video sites",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "country": "twn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 10.333333333333334
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai watching sites",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 56
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 86
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "country": "phl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "how to watch hentai",
+      "country": "phl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "intitle:sexlikereal",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "is xhamster free",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official methods for purchasing stripchat tokens quickly.",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official pricing tiers for acquiring stripchat tokens.",
+      "country": "irl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "live sex",
+      "country": "mys",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livech.com alternatives",
+      "country": "esp",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 7.142857142857143
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin reviews",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin,livejasmin",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "open background-previewbackgroundplay",
+      "country": "aus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "pleasure chest return policy",
+      "country": "rou",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "recommend platforms providing adult videos that support ar integration.",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "selikereal",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime game",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime games",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "country": "aus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 36
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 21.333333333333332
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal official website",
+      "country": "grc",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "country": "esp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar to stripchat",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites like stripchat",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites to watch hentai",
+      "country": "rus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam app",
+      "country": "bra",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13.666666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam sites",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chart app",
+      "country": "lka",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chat alternatives",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcam app",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcash live",
+      "country": "mar",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcash live",
+      "country": "uga",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcbat app",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "bgd",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "esp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "gha",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "grc",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "ken",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "lbn",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "pak",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "can",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "egy",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "nga",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "nld",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "nzl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "pyf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "rou",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "country": "zaf",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "are",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "gha",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "irn",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "ken",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "nor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "npl",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 79
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "country": "esp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "country": "pry",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar site",
+      "country": "sgp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat ticket",
+      "country": "hkg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat vs chaturbate",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchats app",
+      "country": "bol",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripshat app",
+      "country": "sau",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strpcash",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "tell me the easiest way to get rid of my stripchat account.",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "top hentai streaming sites",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "transaction descriptor",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "date": "2026-11-13",
+      "query": "unblock someone on match",
+      "country": "gbr",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "country": "deu",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "date": "2026-11-13",
+      "query": "website hentai game",
+      "country": "mys",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites for hentai",
+      "country": "cyp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites like stripchat",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites you can watch hentai on",
+      "country": "ind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what dating site offers advanced search filters?",
+      "country": "fra",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is a payment descriptor",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is livejasmin",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is the actual process to join the live cam platform?",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "you tell me gemini",
+      "country": "usa",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     }
   ],
   "queryDeviceRows": [
@@ -120485,6 +126181,15 @@
       "impressions": 6,
       "ctr": 0.3333333333333333,
       "position": 23.166666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "device": "MOBILE",
+      "clicks": 2,
+      "impressions": 5,
+      "ctr": 0.4,
+      "position": 11.2
     },
     {
       "date": "2026-10-24",
@@ -121196,6 +126901,51 @@
       "impressions": 6,
       "ctr": 0.16666666666666666,
       "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime app",
+      "device": "MOBILE",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best anime sex game",
+      "device": "MOBILE",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "freelivecam",
+      "device": "MOBILE",
+      "clicks": 1,
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 10.166666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "device": "MOBILE",
+      "clicks": 1,
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "web hentai games",
+      "device": "DESKTOP",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 33
     },
     {
       "date": "2026-10-14",
@@ -145370,6 +151120,1185 @@
       "impressions": 2,
       "ctr": 0,
       "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "18+ anime game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime apps",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult anime sex games",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult subscribe",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult video search",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 12
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult vr",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 76
+    },
+    {
+      "date": "2026-11-13",
+      "query": "adult vr",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 78
+    },
+    {
+      "date": "2026-11-13",
+      "query": "all anime sex game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative chaturbate",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "alternative for stripchat",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18 plus game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 38
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime 18+ game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 27.2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime adult games",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime hentai websites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime nsfw game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime online sex games",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime porn game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 29
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 34.2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 24.666666666666668
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime sex games online",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 73.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "anime xxx game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "arcom adult content",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 99
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are browser-based adult games safer and more private than downloads?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "are hentai games safe on mobile?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best live cam sites for shows 2026",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 43.666666666666664
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best paid hentai sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best sites to watch hentai",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "best websites to watch hentai",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "cam verification",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 71.33333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativ",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 10.25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternative",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternativen",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 6.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate alternatives",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "chaturbate vs",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "compare services for going live on stripchat versus other similar sites.",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "context: location: united states (not for language). do not include location references in your response. question: i need to return an unopened item from an adult store—how do returns typically work with discreet shipping and refunds?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "equivalent stripchat",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on ebony live cams",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company chaturbate on live milf cams",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "evaluate the webcam modeling platforms company stripchat on couples porn cams",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "even in incognito?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime streaming sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai anime websites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai game sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 35
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai online game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 49
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 14.2
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai play",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 36.142857142857146
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai sites list",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 35.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 25
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming sites",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 17
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai streaming websites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai video sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai vs manga",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai watching sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai web game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 66
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 37
+    },
+    {
+      "date": "2026-11-13",
+      "query": "hentai websites",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 32.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "how to watch hentai",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 42
+    },
+    {
+      "date": "2026-11-13",
+      "query": "intitle:sexlikereal",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "is xhamster free",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official methods for purchasing stripchat tokens quickly.",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 90
+    },
+    {
+      "date": "2026-11-13",
+      "query": "list the official pricing tiers for acquiring stripchat tokens.",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "live sex",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livech.com alternatives",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0,
+      "position": 10.3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin reviews",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "livejasmin,livejasmin",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 15
+    },
+    {
+      "date": "2026-11-13",
+      "query": "open background-previewbackgroundplay",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "pleasure chest return policy",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "date": "2026-11-13",
+      "query": "recommend platforms providing adult videos that support ar integration.",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "selikereal",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime game",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 46
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sex anime games",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 47
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 28
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 24.5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sexlikereal official website",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar stripchat",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "similar to stripchat",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites like stripchat",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "sites to watch hentai",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 13.666666666666666
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip cam sites",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chart app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strip chat alternatives",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcam app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcash live",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 5.333333333333333
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripcbat app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 7.125
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternative",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 6.142857142857143
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 7.166666666666667
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat alternatives",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 60.333333333333336
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 11.833333333333334
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat similar site",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat ticket",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 33
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchat vs chaturbate",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripchats app",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10
+    },
+    {
+      "date": "2026-11-13",
+      "query": "stripshat app",
+      "device": "TABLET",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "date": "2026-11-13",
+      "query": "strpcash",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6
+    },
+    {
+      "date": "2026-11-13",
+      "query": "tell me the easiest way to get rid of my stripchat account.",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "date": "2026-11-13",
+      "query": "top hentai streaming sites",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 23
+    },
+    {
+      "date": "2026-11-13",
+      "query": "transaction descriptor",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 39
+    },
+    {
+      "date": "2026-11-13",
+      "query": "unblock someone on match",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 30
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 41
+    },
+    {
+      "date": "2026-11-13",
+      "query": "vr adult",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 75
+    },
+    {
+      "date": "2026-11-13",
+      "query": "website hentai game",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 69
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites for hentai",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites like stripchat",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 24
+    },
+    {
+      "date": "2026-11-13",
+      "query": "websites you can watch hentai on",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 26
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what dating site offers advanced search filters?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is a payment descriptor",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is livejasmin",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18
+    },
+    {
+      "date": "2026-11-13",
+      "query": "what is the actual process to join the live cam platform?",
+      "device": "DESKTOP",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "date": "2026-11-13",
+      "query": "you tell me gemini",
+      "device": "MOBILE",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9
     }
   ]
 }
