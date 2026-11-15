@@ -1,0 +1,134 @@
+{
+  "backlogId": "premium-video-subscription-profile-playback-personalization-controls",
+  "slug": "premium-video-subscription-profile-playback-personalization-controls",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Profile and Playback Personalization Controls Before Joining",
+  "description": "A checklist for evaluating how premium video profiles, recommendations, playback history and personalization settings work before choosing a subscription.",
+  "excerpt": "Personalization can make a library easier to navigate, but it can also affect recommendations and activity visibility. Check what can be separated, changed or reset before subscribing.",
+  "keyTakeaways": [
+    "Determine whether profiles are separate identities or simply viewing preferences within one account.",
+    "Check what viewing activity and recommendations are visible to other account users.",
+    "Find controls for history, recommendations and profile changes before building a viewing routine.",
+    "Test whether settings are account-wide or profile-specific instead of assuming separation.",
+    "Include the cost and practical limits of managing multiple profiles in your platform comparison."
+  ],
+  "sections": [
+    {
+      "heading": "Why personalization belongs in a subscription comparison",
+      "paragraphs": [
+        "A video service can use profiles, viewing history or recommendation controls to shape what appears in a library. These features may affect convenience, privacy on a shared device and the relevance of future suggestions. The important task is to determine what the service actually separates and what remains attached to the overall account. Do not infer privacy boundaries from a profile name or avatar.",
+        "This guide evaluates account and playback personalization, not the breadth or quality of any library. Before subscribing, inspect the available settings and help material. If the service does not explain how profile activity is handled, mark that uncertainty clearly. A profile may organize playback without preventing other account users from seeing activity, and this varies by service."
+      ],
+      "bullets": [
+        "Decide whether you will use the account alone or with others.",
+        "List what you want separated: playback progress, recommendations, watch history or preferences.",
+        "Check whether sharing is allowed under the service’s terms before planning for multiple users."
+      ]
+    },
+    {
+      "heading": "Map account-level and profile-level settings",
+      "paragraphs": [
+        "Begin by separating settings into three groups: account-wide controls, profile-specific controls and device-level controls. Account-wide settings may affect everyone using the account; profile controls may change only one viewing area; device controls may apply only on the current browser or application. Read the labels and instructions rather than assuming the setting’s scope from where it appears in a menu.",
+        "Look for controls related to language, autoplay, recommendations, viewing history and saved lists. For each, note whether it applies to the current profile, the whole account or a single device. If an option has no clear scope, avoid using it as a privacy safeguard until you obtain a reliable explanation. A simple settings map prevents a change intended for one viewer from unexpectedly changing another viewer’s experience."
+      ],
+      "table": {
+        "caption": "Personalization settings to map before joining",
+        "headers": [
+          "Setting",
+          "Scope to verify",
+          "Practical question"
+        ],
+        "rows": [
+          [
+            "Viewing history",
+            "Account, profile or device",
+            "Who can see or use it?"
+          ],
+          [
+            "Recommendations",
+            "Account or profile",
+            "Can one viewer’s activity influence another’s suggestions?"
+          ],
+          [
+            "Playback preferences",
+            "Profile or device",
+            "Will settings persist when switching devices?"
+          ],
+          [
+            "Saved lists",
+            "Account or profile",
+            "Can another user view or change them?"
+          ],
+          [
+            "Autoplay",
+            "Account, profile or device",
+            "Does the control persist across sessions?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check activity visibility on shared devices",
+      "paragraphs": [
+        "Do not rely on a profile lock or an account setting unless you have confirmed what it protects. It may restrict access to a profile without hiding the profile’s existence or its activity from the account owner. Treat access control and activity privacy as separate questions."
+      ]
+    },
+    {
+      "heading": "Evaluate recommendation and history controls",
+      "paragraphs": [
+        "Check whether the service lets you view, clear or pause viewing history and whether those actions affect recommendations. Some interfaces may offer different controls for history and personalization, so do not assume deleting a record also resets suggested titles. Read the explanation attached to each setting and note whether changes take effect immediately or apply going forward.",
+        "For a fair test, observe a setting before and after changing it using only content and account access you are entitled to use. Do not change another person’s settings without permission. If you cannot test a feature before subscribing, rely on written documentation and mark the result as unverified. Your comparison should distinguish “documented,” “observed” and “unknown” so a promising setting does not become an unsupported privacy claim."
+      ],
+      "bullets": [
+        "Record the exact setting name and stated effect.",
+        "Check whether clearing history also affects saved progress or lists.",
+        "Avoid changing shared-account settings without agreement from other account users."
+      ]
+    },
+    {
+      "heading": "Test profile switching and playback continuity",
+      "paragraphs": [
+        "Include the effort of managing profiles in your decision. A complex setup may not be worthwhile if you are the only viewer, while a service with unclear switching behavior may be unsuitable for a shared account. Fit depends on the actual use case, not the number of profile features advertised."
+      ]
+    },
+    {
+      "heading": "Make a privacy-aware platform decision",
+      "paragraphs": [
+        "Compare platforms on profile separation, activity visibility, history controls, recommendation controls, playback continuity and the clarity of explanations. State what you verified and what you could not verify. If privacy between account users is essential, do not assume that a separate profile provides it. Choose a service only when its documented controls meet your needs or when you can avoid the shared-account scenario altogether.",
+        "Before joining, save a private checklist of the settings you plan to review and the date you checked them. Revisit the controls if the service changes its interface or if your account use changes. For a shared setup, agree in advance on profile ownership, account access and whether anyone may change global settings. These practical boundaries can prevent confusion without relying on undocumented behavior."
+      ],
+      "bullets": [
+        "Treat profile organization, account security and activity privacy as separate criteria.",
+        "Do not use a shared account if its visibility boundaries do not meet your needs.",
+        "Recheck settings after a major interface or account change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate profile keep my viewing activity private from the account owner?",
+      "answer": "Not necessarily. A profile may separate recommendations or progress without hiding activity from the account owner. Check the service’s written explanation and inspect the interface before relying on it."
+    },
+    {
+      "question": "Will clearing viewing history reset recommendations?",
+      "answer": "That depends on the service and the specific controls offered. Check whether history and personalization are separate settings, and do not assume one action changes both."
+    },
+    {
+      "question": "Are playback settings always tied to a profile?",
+      "answer": "No. A setting may apply to an account, a profile or a device. Read its scope and test it where possible before building a routine around it."
+    },
+    {
+      "question": "What should I compare if I plan to share an account?",
+      "answer": "Check the service’s sharing terms, profile boundaries, activity visibility, access controls and the effect of account-wide settings. If the privacy boundaries remain unclear, do not assume profiles provide separation."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

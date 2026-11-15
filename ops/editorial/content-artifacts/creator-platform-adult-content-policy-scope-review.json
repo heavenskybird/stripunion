@@ -1,0 +1,136 @@
+{
+  "backlogId": "creator-platform-adult-content-policy-scope-review",
+  "slug": "creator-platform-adult-content-policy-scope-review",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check How Content Rules Apply Across Posts, Previews and Promotion",
+  "description": "A creator-focused checklist for comparing how a platform’s content policies apply to public profiles, previews, paid posts, messages and off-platform promotion.",
+  "excerpt": "A platform may describe its content rules in several places. Map where each rule applies before building a publishing plan, especially when public previews and paid areas are treated differently.",
+  "keyTakeaways": [
+    "Compare the terms, content policy, feature-specific rules and enforcement guidance rather than relying on one summary page.",
+    "Map rules to each surface: profile, preview, paid post, message, livestream or external promotion.",
+    "Check how policy changes are announced and where the current version is available.",
+    "Separate what is explicitly allowed from what is unclear, conditional or prohibited.",
+    "Build a pre-publication review and a change-response process that can be followed consistently."
+  ],
+  "sections": [
+    {
+      "heading": "Why policy scope matters to a creator",
+      "paragraphs": [
+        "A creator platform can have different rules for different parts of the same account. A profile visible to visitors, a preview used to explain a membership, a paid post and a private message may not be governed by identical feature rules. External promotion can have separate conditions as well. The practical decision is whether the platform’s policy map is clear enough for the creator’s planned publishing workflow.",
+        "This guide is a policy-reading and operations method, not a judgment about what any particular service permits. Do not infer permission from the fact that a feature exists or that another account appears to use it. Read the current written rules, note the surface and context they address, and seek clarification when important terms are ambiguous."
+      ],
+      "bullets": [
+        "List the kinds of surfaces you intend to use before reviewing a platform.",
+        "Record the policy version and date consulted.",
+        "Do not treat a general content label as a substitute for feature-specific rules."
+      ]
+    },
+    {
+      "heading": "Build a surface-by-surface policy map",
+      "paragraphs": [
+        "Start with the account’s public-facing areas, then work inward. Review profile images and text, public previews, membership descriptions, paid posts, direct communications, live features if relevant, and any external links or promotional channels. For each surface, note whether the policy has a distinct rule, an example, a visibility condition or an approval step. If the language refers broadly to “content,” record that as broad wording rather than assuming it resolves every feature case.",
+        "A useful map helps reveal gaps. For instance, the policy may describe paid material but say little about a preview image, or it may allow a type of post while placing separate limits on how it is promoted. Capture the exact question that remains unresolved. This is more useful than a vague note such as “check policy,” because it gives support staff or an internal reviewer something concrete to answer."
+      ],
+      "table": {
+        "caption": "A practical policy-scope worksheet",
+        "headers": [
+          "Surface",
+          "What to inspect",
+          "Unresolved question"
+        ],
+        "rows": [
+          [
+            "Public profile",
+            "Text, images, links and visibility",
+            "Does a profile-specific rule apply?"
+          ],
+          [
+            "Preview",
+            "Sample content and promotional copy",
+            "Are preview rules different from paid-post rules?"
+          ],
+          [
+            "Paid area",
+            "Posts, descriptions and access terms",
+            "What conditions attach to this feature?"
+          ],
+          [
+            "Messages or live features",
+            "Feature-specific policy and controls",
+            "Are additional restrictions or limits stated?"
+          ],
+          [
+            "External promotion",
+            "Link, brand and traffic rules",
+            "What is permitted outside the platform?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read policy language for boundaries, not just examples",
+      "paragraphs": [
+        "Creators should also distinguish platform permission from other obligations, such as rights to material, collaborator agreements or applicable disclosure rules. A platform rule does not establish that a creator has every permission needed for a post. Keep those checks in their own workflow rather than treating platform acceptance as comprehensive clearance."
+      ]
+    },
+    {
+      "heading": "Evaluate enforcement and policy-change communication",
+      "paragraphs": [
+        "Policy wording is only part of operational fit. Find out how the platform describes notices, removal, restrictions, appeals and review. The goal is not to predict the outcome of any case; it is to know what records the creator should preserve and what steps are described if a post or account action is disputed. Check whether the platform explains where a notice appears, whether the affected content is identified, and how a creator can submit relevant context.",
+        "Review the platform’s method for announcing policy updates and the date or version attached to the current text. Decide who on the creator’s team checks for changes and how updates reach people who prepare posts or promotional material. A durable workflow records what changed, what surfaces are affected and whether scheduled materials need review. Do not assume an old screenshot or saved copy remains current."
+      ],
+      "bullets": [
+        "Save a dated reference to the relevant policy pages.",
+        "Keep a log of questions, answers and resulting workflow changes.",
+        "Route a policy notice to the person responsible for publication decisions."
+      ]
+    },
+    {
+      "heading": "Create a pre-publication review that fits real work",
+      "paragraphs": [
+        "A practical checklist should be short enough to use on every relevant release. Confirm the intended surface, visibility, access terms, policy version and any feature-specific conditions. Check that the post description and preview accurately represent the destination. Verify that permissions and any required collaborator approvals are handled separately. If the policy classification is unclear, pause that use while the question is resolved rather than relying on an informal assumption.",
+        "For a team, name the person who can approve an exception or halt publication. Keep a record of the decision and its source, but avoid storing more sensitive material than needed. A review record can identify the post or campaign by an internal reference and point to the policy question without reproducing private content in an unrestricted document."
+      ],
+      "bullets": [
+        "Identify the surface and audience for each item.",
+        "Check the current rule and any relevant feature-specific terms.",
+        "Document uncertain cases and the decision-maker’s resolution.",
+        "Recheck scheduled content when a relevant policy changes."
+      ]
+    },
+    {
+      "heading": "Compare platforms using evidence and uncertainty",
+      "paragraphs": [
+        "When comparing platforms, assess policy clarity, coverage across features, change notices, enforcement explanations and practical support paths as separate criteria. Give credit for clear written boundaries; do not fill gaps with assumptions about how another service works. The comparison should show what was verified, what remains unknown and what operational work each option would require.",
+        "A platform with an unclear rule may still be usable for a different publishing plan, but it is a poor fit for a workflow that depends on the unresolved feature. Make the decision conditional on the creator’s actual surfaces and publishing cadence. Revisit the map before adding a new feature, launching a new promotion channel or materially changing the kinds of content offered."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I rely on a platform’s examples as the complete rule?",
+      "answer": "Not without checking the surrounding policy text. Examples may illustrate a rule without covering every case. Record the relevant wording and ask a specific question if your planned use is not addressed."
+    },
+    {
+      "question": "Does a platform allowing a post mean I have all the necessary rights?",
+      "answer": "No. Platform policy and rights clearance are separate questions. Creators should independently confirm that they have the permissions and approvals needed for the material and any collaborators involved."
+    },
+    {
+      "question": "What should I do when two policy pages appear inconsistent?",
+      "answer": "Save dated references to both, describe the exact feature and use you are evaluating, and ask the platform which rule applies. Until clarified, mark the use as uncertain rather than choosing whichever wording is more convenient."
+    },
+    {
+      "question": "How often should a creator review content policies?",
+      "answer": "Review them before using a new feature, when a relevant notice arrives and as part of a routine policy check. Record the version or date reviewed so scheduled work can be reconsidered if rules change."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
