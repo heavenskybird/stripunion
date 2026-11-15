@@ -1,0 +1,27 @@
+name: Read-only category platform inventory
+on:
+  pull_request:
+    paths:
+      - 'scripts/platform-mention-inventory.mjs'
+      - '.github/workflows/platform-mention-inventory.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '15 03 * * 1'  # Monday weekly, read-only source inventory
+permissions:
+  contents: read
+jobs:
+  source-mention-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate brand mentions from all source guides
+        run: node scripts/platform-mention-inventory.mjs | tee platform-mention-inventory.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-platform-mentions
+          path: platform-mention-inventory.txt
+          retention-days: 7
