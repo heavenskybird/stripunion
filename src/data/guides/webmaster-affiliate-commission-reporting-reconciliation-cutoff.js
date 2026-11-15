@@ -1,0 +1,116 @@
+export default {
+  "slug": "webmaster-affiliate-commission-reporting-reconciliation-cutoff",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Reconcile Commission Reports at Month-End Without Mixing Periods",
+  "description": "A practical month-end workflow for comparing affiliate dashboards, statements and internal records while accounting for reporting cutoffs and later adjustments.",
+  "excerpt": "Month-end figures can disagree because they describe different time periods or stages of settlement. Use a consistent cutoff, preserve source records, and separate reported commissions from cash received.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Define the reporting period and the date field you use before comparing program totals.",
+    "Keep pending, approved, adjusted and paid amounts distinct rather than adding them into one earnings figure.",
+    "Save dated reports and statements so later corrections can be compared with the original record.",
+    "Reconcile each program separately before combining totals for internal planning.",
+    "Record unresolved differences with their source, period and next review step instead of silently changing past figures."
+  ],
+  "sections": [
+    {
+      "heading": "Why month-end affiliate totals can disagree",
+      "paragraphs": [
+        "A dashboard total, a monthly statement and a bank deposit are not necessarily three views of the same number. A dashboard may show activity attributed during a selected period; a statement may group approved amounts by a settlement period; a deposit records money actually received. Treating those figures as interchangeable can lead to incorrect revenue summaries and confusing records.",
+        "Differences can also arise from timing. A conversion may be recorded on one date, become eligible on another, and appear on a statement later. Adjustments can be made after an initial report is downloaded. These possibilities do not establish that a particular program uses any specific schedule; they are reasons to identify each report's own definitions and date fields."
+      ],
+      "bullets": [
+        "Write down the reporting period and time zone shown in each source.",
+        "Note whether a figure means activity, approved commission, statement total or paid amount.",
+        "Keep the original report even if a later version appears to replace it."
+      ]
+    },
+    {
+      "heading": "Set a consistent cutoff and comparison basis",
+      "paragraphs": [
+        "Choose a repeatable month-end cutoff for your internal books, then document how you map each program's reporting periods to it. If one report is organized by transaction date and another by approval date, those totals cannot be compared as if they share the same basis. Preserve the program's labels rather than renaming every date as a generic reporting date.",
+        "When a report covers a period that does not line up with your internal month, record the mismatch explicitly. You can maintain an internal schedule that notes the covered dates and the date the report was exported. Avoid forcing an apparent match by moving an amount between months without a documented reason."
+      ],
+      "table": {
+        "caption": "A useful month-end reconciliation map",
+        "headers": [
+          "Record",
+          "What to identify",
+          "How to use it"
+        ],
+        "rows": [
+          [
+            "Dashboard export",
+            "Selected period, date field, status labels and export date",
+            "Compare activity using the dashboard's stated basis"
+          ],
+          [
+            "Program statement",
+            "Statement period, adjustments and amount due",
+            "Track the program's reported settlement figure"
+          ],
+          [
+            "Payment record",
+            "Receipt date, currency and amount received",
+            "Confirm cash received; do not assume it equals a dashboard total"
+          ],
+          [
+            "Internal ledger",
+            "Your chosen cutoff and source references",
+            "Preserve a consistent accounting trail"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep commission statuses separate",
+      "paragraphs": [
+        "A reliable reconciliation distinguishes the state of an amount. For example, a report may label activity as pending or approved, while a separate record may show a payment as issued or completed. These labels have meaning only as the program defines them, so capture the available definitions instead of assuming that similar wording means the same thing across programs.",
+        "Keep a status-level view for each reporting period. Do not add pending activity to paid amounts and label the combined sum as revenue received. If a value changes status after month-end, retain the earlier snapshot and record the later update as a change. This makes it possible to explain why a report differs from the number used in an earlier close."
+      ],
+      "bullets": [
+        "Record the status exactly as displayed and note its source.",
+        "Track adjustments as separate entries with dates and references.",
+        "Distinguish reported earnings from money received.",
+        "Avoid treating an unfinalized figure as settled income."
+      ]
+    },
+    {
+      "heading": "Build an evidence file that can be reviewed later",
+      "paragraphs": [
+        "Save each export or statement with a clear filename that includes the program, period, source type and export date. Retain the original file rather than overwriting it with a corrected download. Where the dashboard does not offer a durable export, keep a dated record of the visible totals and the selected filters, while following applicable privacy and recordkeeping requirements.",
+        "For every difference, maintain a short issue log: the amounts being compared, the periods and definitions involved, what evidence you checked, and whether the discrepancy is resolved. This is more useful than a note saying only that the numbers do not match. If you contact program support, attach or reference the relevant period and report labels without sending unnecessary visitor data."
+      ]
+    },
+    {
+      "heading": "Use a repeatable close procedure",
+      "paragraphs": [
+        "A consistent close can be simple: export the period report, capture the statement if available, compare statuses and periods, record payments received, and list unresolved differences. Repeat the same sequence each month. The aim is not to make all sources agree at any cost; it is to make the relationship between them understandable and traceable.",
+        "Before consolidating totals across programs, confirm that each line uses the same kind of measure. If one figure is a statement amount and another is a cash receipt, keep them in separate columns. A short, transparent report is safer for decision-making than a single total whose definition changes from program to program."
+      ],
+      "bullets": [
+        "Export and archive source records.",
+        "Document period boundaries, date fields and currency.",
+        "Separate activity, approved amounts, statements and receipts.",
+        "Log differences and follow-up dates.",
+        "Review later adjustments without deleting the original close."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a dashboard total match a payment received?",
+      "answer": "Not necessarily. A dashboard, statement and payment record can represent different stages or periods. Compare each source using its own date range, status definitions and payment information before deciding whether a difference needs follow-up."
+    },
+    {
+      "question": "What should I do when a report changes after month-end?",
+      "answer": "Keep the earlier dated version, save the later version, and record what changed and when. Do not silently rewrite a closed period; note whether the change affects activity, approval, adjustment or payment records."
+    },
+    {
+      "question": "Can I combine all programs into one monthly earnings figure?",
+      "answer": "You can summarize figures for internal use, but only after defining the measure. Keep amounts that refer to different stages or periods in separate categories, and retain a program-by-program source trail behind any consolidated total."
+    }
+  ]
+};
