@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T22:01:40.812Z",
+  "generatedAt": "2026-11-15T23:03:17.238Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/webmaster-affiliate-postback-recovery-and-deduplication-check.json",
-    "ops/editorial/content-artifacts/creator-platform-adult-content-policy-scope-review.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-profile-audience-fit-workbook.json",
-    "ops/editorial/content-artifacts/live-cam-platform-room-visit-workflow-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-profile-playback-personalization-controls.json"
+    "ops/editorial/content-artifacts/free-video-platform-ad-choice-and-playback-audit.json",
+    "ops/editorial/content-artifacts/adult-games-episodic-release-planning-check.json",
+    "ops/editorial/content-artifacts/adult-shop-in-store-vs-online-shopping-fit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-networked-access-fit.json",
+    "ops/editorial/content-artifacts/adult-anime-series-format-availability-planner.json"
   ],
   "guideFiles": [
-    "src/data/guides/webmaster-affiliate-postback-recovery-and-deduplication-check.js",
-    "src/data/guides/creator-platform-adult-content-policy-scope-review.js",
-    "src/data/guides/adult-dating-platform-profile-audience-fit-workbook.js",
-    "src/data/guides/live-cam-platform-room-visit-workflow-comparison.js",
-    "src/data/guides/premium-video-subscription-profile-playback-personalization-controls.js"
+    "src/data/guides/free-video-platform-ad-choice-and-playback-audit.js",
+    "src/data/guides/adult-games-episodic-release-planning-check.js",
+    "src/data/guides/adult-shop-in-store-vs-online-shopping-fit.js",
+    "src/data/guides/vr-adult-platform-networked-access-fit.js",
+    "src/data/guides/adult-anime-series-format-availability-planner.js"
   ],
   "categories": [
-    "webmaster-affiliate",
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams",
-    "premium-videos"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar",
+    "hentai-anime"
   ],
   "backlogIds": [
-    "webmaster-affiliate-postback-recovery-and-deduplication-check",
-    "creator-platform-adult-content-policy-scope-review",
-    "adult-dating-platform-profile-audience-fit-workbook",
-    "live-cam-platform-room-visit-workflow-comparison",
-    "premium-video-subscription-profile-playback-personalization-controls"
+    "free-video-platform-ad-choice-and-playback-audit",
+    "adult-games-episodic-release-planning-check",
+    "adult-shop-in-store-vs-online-shopping-fit",
+    "vr-adult-platform-networked-access-fit",
+    "adult-anime-series-format-availability-planner"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43766691009",
-  "phase": "closed"
+  "r1CycleId": "43772412702"
 }

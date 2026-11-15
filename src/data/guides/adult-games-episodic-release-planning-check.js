@@ -1,0 +1,121 @@
+export default {
+  "slug": "adult-games-episodic-release-planning-check",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games Released in Episodes: Check the Update Plan Before You Start",
+  "description": "Learn how to assess an episodic adult game’s release information, current scope, update evidence, and purchase boundaries before investing time or money.",
+  "excerpt": "An episodic game may be playable before its story or feature set is complete. Check what is available now, what is only planned, and how clearly the developer describes future updates.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Separate currently playable content from roadmap items and developer intentions.",
+    "Look for dated release notes or version history, but treat past update patterns as evidence—not a guarantee.",
+    "Check whether a purchase covers the current build, later episodes, or a separately sold release.",
+    "Confirm which storefront or developer channel is the source of authoritative update information.",
+    "Decide in advance how much unfinished content, waiting, or changing scope you are comfortable with."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what “episodic” means for this particular game",
+      "paragraphs": [
+        "An episodic release can refer to a story delivered in installments, a game that receives substantial updates over time, or a project that is still being built toward a larger release. Those arrangements can feel similar in a short listing, but they create different expectations. A story may have a playable first installment and a planned continuation; another project may label frequent builds as episodes while changing features as development proceeds. Before deciding, translate the description into a practical question: what can I actually play now, and what remains unfinished or planned?",
+        "Use the current store page and the developer’s own release information as separate pieces of evidence. A storefront description may summarize the product and access terms, while a developer update may explain a particular build or planned next step. If those sources disagree, do not assume that the more optimistic statement controls. Save the exact wording and date you reviewed, especially if the purchase decision depends on future episodes or features."
+      ],
+      "bullets": [
+        "Write down the current playable build or episode, if identified.",
+        "Mark any roadmap item as planned rather than included.",
+        "Check whether the listing describes a complete installment, an early build, or a continuing project."
+      ]
+    },
+    {
+      "heading": "Build a now-versus-later scope table",
+      "paragraphs": [
+        "A compact scope table is more useful than a vague impression that a game is “mostly complete.” Create one column for features or story content described as available now, one for items explicitly described as in development, and one for details that are unclear. Include practical items such as the number or names of available chapters, supported languages, and whether the game’s ending is described as complete. Do not fill gaps by guessing from screenshots, community speculation, or an old promotional announcement.",
+        "This method also clarifies what a purchase is buying. A store listing might present a current episode as a standalone release, or it might describe access to a continuing project. The exact terms depend on the listing. Check whether future updates are stated to be included, whether separate editions or add-ons exist, and whether access is tied to a particular store account. If the wording does not answer your question, treat that as an unresolved decision point rather than assuming that every future addition will be available at no extra cost."
+      ],
+      "table": {
+        "caption": "Separate current evidence from future expectations",
+        "headers": [
+          "Information",
+          "Evidence to look for",
+          "How to record it"
+        ],
+        "rows": [
+          [
+            "Available now",
+            "Current listing, build description, or recent release notes",
+            "State what the page says is playable today"
+          ],
+          [
+            "Planned next",
+            "Dated roadmap or developer announcement",
+            "Label as a plan, not a delivered feature"
+          ],
+          [
+            "Purchase scope",
+            "Storefront entitlement and edition details",
+            "Record what the purchase explicitly includes"
+          ],
+          [
+            "Completion status",
+            "Developer statement about episode or project status",
+            "Note whether completion is confirmed, ongoing, or unclear"
+          ],
+          [
+            "Unanswered details",
+            "Conflicting or missing information",
+            "Keep as an open question before buying"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read update history as evidence, not a promise",
+      "paragraphs": [
+        "A project’s update history can help you understand whether releases are communicated with version details, dates, and explanations. It cannot prove that future updates will arrive on a particular schedule. Look at whether posts are attributable to the developer, whether they identify a specific build, and whether a post describes a released update or merely an intention. Avoid turning a small set of past dates into a prediction such as “the next episode will arrive every few months.”",
+        "Check whether recent notes describe meaningful changes or only announce that work is continuing. You do not need to judge the artistic quality of every update to make a purchase decision; you need to understand how the project reports progress and whether the information is concrete enough for your needs. If update communication is central to your decision, use a cautious threshold: proceed only if the current game is worthwhile to you on its own, rather than relying on an uncertain future schedule."
+      ],
+      "paragraphs2": [
+        "It can also help to compare the date of the store listing with the date of the newest developer update. A page that has not been refreshed may still be accurate, but it gives you less confidence about current scope. Record the discrepancy and look for a more recent first-party statement. If none is available, treat the project status as uncertain."
+      ]
+    },
+    {
+      "heading": "Check editions, updates, and the purchase boundary",
+      "paragraphs": [
+        "Before purchasing, distinguish an update to a build you already own from a new edition, add-on, or separate product. Storefronts may present these differently, and the entitlement terms determine what you receive. Read the description of the specific edition in your cart, not only a general developer post. Look for statements about included episodes, bonus material, updates, and any separately listed components. Do not infer inclusion simply because two items share a title or appear on the same developer page.",
+        "Keep a record of the listing and the purchase confirmation for your own reference. This is particularly useful when product scope is evolving: it helps you remember whether you bought a specific episode, a bundle, or an access entitlement described in a particular way. If the terms are unclear, consult the storefront’s help route before purchase. A decision-support checklist is not a substitute for the actual entitlement or refund terms."
+      ],
+      "bullets": [
+        "Confirm the exact edition selected at checkout.",
+        "Check whether the store page distinguishes updates from paid add-ons or separate episodes.",
+        "Use the storefront’s published refund and access terms for purchase questions."
+      ]
+    },
+    {
+      "heading": "Decide whether the project’s state suits your preferences",
+      "paragraphs": [
+        "Some players are comfortable starting a story that is still being released; others prefer a finished experience with a known endpoint. Neither preference is inherently better. The key is to avoid treating a roadmap as part of the game you already own unless the purchase terms say so. If waiting would make the experience frustrating, consider postponing the decision until the project’s completion status is clearer. If the current installment stands on its own for you, assess it on the information available now.",
+        "A practical decision rule is to assign three labels: acceptable now, acceptable only if complete, or not enough information. Apply them to the content scope, release status, update communication, and purchase boundary. This creates a decision you can explain to yourself later, rather than one driven by an optimistic prediction or an old community post. Recheck the official sources before acting if a meaningful amount of time has passed."
+      ],
+      "bullets": [
+        "Ask whether the currently available build is worth your time without future episodes.",
+        "Choose a waiting threshold if you prefer complete releases.",
+        "Do not treat community predictions or projected dates as confirmed delivery."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a roadmap mean the listed features are included in the game now?",
+      "answer": "No. A roadmap describes intentions or plans unless the source explicitly says the items have shipped. Check the current build description or dated release notes to establish what is available."
+    },
+    {
+      "question": "Can past update frequency predict the next episode date?",
+      "answer": "Past updates show how a project has communicated and released work so far; they do not guarantee a future schedule. Treat timing as uncertain unless a current, explicit commitment and applicable terms say otherwise."
+    },
+    {
+      "question": "What should I do if the store page and developer updates differ?",
+      "answer": "Note the discrepancy and seek a current clarification through an official developer or storefront support route. Do not assume that a general update overrides the purchase terms for the edition you are considering."
+    }
+  ]
+};
