@@ -1,0 +1,106 @@
+export default {
+  "slug": "adult-dating-platform-screenshot-exposure-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Assess Screenshot and Screen-Recording Exposure",
+  "description": "A privacy checklist for understanding whether profiles, messages, and other dating-app screens can be captured or shared outside the platform.",
+  "excerpt": "Privacy settings cannot control every camera or capture method. Consider what could be retained or redistributed before adding sensitive details to a dating profile or conversation.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Do not assume that a platform’s capture warning or setting prevents every screenshot or recording.",
+    "Review what personal details, images, and conversation content would be exposed if captured.",
+    "Check platform help pages for capture-related notices, but treat them as limited signals rather than guarantees.",
+    "Use device and account privacy practices to reduce exposure, and avoid sharing information you would not want copied."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the limits of in-app privacy",
+      "paragraphs": [
+        "A profile may be visible only to selected users, and a conversation may feel private because it is inside an account. Neither condition guarantees that the other person cannot retain what appears on their screen. A person may use an ordinary screenshot, screen recording, another device’s camera, or a later recollection of information. Some platforms may provide capture-related controls or notices, but their availability and behavior can vary.",
+        "A useful privacy review therefore asks two separate questions: what does the platform control, and what can another person do outside that control? The first may be answered by current help pages or account settings. The second is why it is prudent to limit identifying or sensitive details, even when a feature is described as private, disappearing, or restricted. Avoid treating any interface label as a guarantee against copying."
+      ],
+      "bullets": [
+        "Check current help material rather than relying on a feature description from an old post.",
+        "Assume that any visible content could be retained by someone who can view it.",
+        "Do not test capture controls with another person’s private information."
+      ]
+    },
+    {
+      "heading": "Map what a captured screen could reveal",
+      "paragraphs": [
+        "List the information shown together on a profile, message, or account screen. A single item may seem ordinary, but a combination of a face, workplace reference, neighborhood clue, username, and social link can make identification easier. Consider not only text but also background details in images, notification banners, timestamps, and account labels visible around the content.",
+        "Then decide what you would be comfortable having copied without your control. This is not a reason to avoid all participation; it is a practical way to choose what to disclose and when. You can keep a profile concise, avoid linking accounts that use a different identity, and delay sensitive details until trust has developed. A setting that hides one profile field does not remove information already shared elsewhere."
+      ],
+      "table": {
+        "caption": "Capture-risk review by screen type",
+        "headers": [
+          "Screen",
+          "Details to review"
+        ],
+        "rows": [
+          [
+            "Profile",
+            "Name, image, location clues, workplace or linked accounts"
+          ],
+          [
+            "Conversation",
+            "Personal disclosures, plans, contact details, and attachments"
+          ],
+          [
+            "Notifications",
+            "Message previews, sender names, and timing on a device screen"
+          ],
+          [
+            "Account settings",
+            "Email address, linked identity, or other account context shown nearby"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Look for platform controls without overreading them",
+      "paragraphs": [
+        "Review the platform’s current privacy controls and support documentation for language about screenshots, recordings, disappearing content, or image access. Note whether the documentation describes a notification, a prevention measure, a restriction within one feature, or merely a recommendation. These are not interchangeable. A notice that someone captured content, if offered, would not necessarily prevent the capture or stop a copy from being shared elsewhere.",
+        "If the information is unclear, ask support a narrowly framed question: which screen types are covered, what action triggers a notice, and what limitations should users understand? Do not infer protection from a missing warning or from an interface that hides a capture button. Use a simple confidence label in your notes—documented, unclear, or not documented—rather than describing the platform as screenshot-proof."
+      ],
+      "bullets": [
+        "Save the date and source of any platform explanation.",
+        "Separate a detection notice from a prevention claim.",
+        "Treat feature behavior as changeable unless the current documentation says otherwise."
+      ]
+    },
+    {
+      "heading": "Reduce avoidable exposure on your own device",
+      "paragraphs": [
+        "If you discover that content has been shared without your consent, preserve relevant evidence safely, use available reporting tools, and consider support from trusted people or appropriate services. Avoid escalating contact with the person involved if doing so could increase risk. The right response depends on the situation; this guide does not promise that a platform can remove every copy."
+      ]
+    },
+    {
+      "heading": "Make a practical sharing decision",
+      "paragraphs": [
+        "Before posting a photo or sending a message, pause to consider whether it contains details that could identify you, someone else, or a place you regularly visit. Remove unnecessary identifiers and ask permission before sharing another person’s information. If you are unsure whether a detail is safe, leave it out or share it later through a channel you have assessed more carefully.",
+        "A useful personal rule is to share progressively: start with information that is low consequence if copied, then decide whether to share more as context and trust develop. Revisit the decision when the conversation moves off-platform or when someone asks for images or details you did not intend to provide. The goal is informed choice, not a false promise of total privacy. Record which settings you changed and review them again after app updates or account changes."
+      ],
+      "bullets": [
+        "Keep a short list of profile details you choose not to publish.",
+        "Review notification previews and shared-device behavior.",
+        "Use the platform’s block and report processes when another user violates boundaries."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a dating platform guarantee that nobody will screenshot my profile?",
+      "answer": "Do not assume so. Platform controls may vary by feature and cannot necessarily prevent a person from photographing a screen with another device. Check current documentation and plan around the possibility of copying."
+    },
+    {
+      "question": "Does a screenshot notification prevent someone from sharing what they captured?",
+      "answer": "A notification, where available, is different from prevention or removal. It may provide information about an event but cannot by itself control what happens to a copy outside the service."
+    },
+    {
+      "question": "Should I avoid sending any personal information?",
+      "answer": "That is a personal decision. A practical approach is to share only what you are comfortable having retained, reduce unnecessary identifying clues, and disclose more gradually when appropriate."
+    }
+  ]
+};

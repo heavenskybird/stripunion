@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T15:00:38.759Z",
+  "generatedAt": "2026-11-15T17:08:02.486Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-split-shipment-tracking-planner.json",
-    "ops/editorial/content-artifacts/adult-anime-adult-only-policy-screening.json",
-    "ops/editorial/content-artifacts/premium-video-plan-change-collection-continuity.json",
-    "ops/editorial/content-artifacts/live-cam-listing-availability-wording-check.json",
-    "ops/editorial/content-artifacts/adult-budget-app-transaction-data-privacy-check.json"
+    "ops/editorial/content-artifacts/affiliate-program-liability-terms-review.json",
+    "ops/editorial/content-artifacts/creator-platform-price-display-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-screenshot-exposure-review.json",
+    "ops/editorial/content-artifacts/adult-anime-app-home-screen-privacy-check.json",
+    "ops/editorial/content-artifacts/vr-adult-membership-cancellation-evidence-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-split-shipment-tracking-planner.js",
-    "src/data/guides/adult-anime-adult-only-policy-screening.js",
-    "src/data/guides/premium-video-plan-change-collection-continuity.js",
-    "src/data/guides/live-cam-listing-availability-wording-check.js",
-    "src/data/guides/adult-budget-app-transaction-data-privacy-check.js"
+    "src/data/guides/affiliate-program-liability-terms-review.js",
+    "src/data/guides/creator-platform-price-display-audit.js",
+    "src/data/guides/adult-dating-platform-screenshot-exposure-review.js",
+    "src/data/guides/adult-anime-app-home-screen-privacy-check.js",
+    "src/data/guides/vr-adult-membership-cancellation-evidence-workflow.js"
   ],
   "categories": [
-    "adult-shops",
+    "webmaster-affiliate",
+    "creator-platforms",
+    "dating-hookups",
     "hentai-anime",
-    "premium-videos",
-    "live-cams",
-    "privacy-safety-payment"
+    "vr-ar"
   ],
   "backlogIds": [
-    "adult-shop-split-shipment-tracking-planner",
-    "adult-anime-adult-only-policy-screening",
-    "premium-video-plan-change-collection-continuity",
-    "live-cam-listing-availability-wording-check",
-    "adult-budget-app-transaction-data-privacy-check"
+    "affiliate-program-liability-terms-review",
+    "creator-platform-price-display-audit",
+    "adult-dating-platform-screenshot-exposure-review",
+    "adult-anime-app-home-screen-privacy-check",
+    "vr-adult-membership-cancellation-evidence-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43727221212",
-  "phase": "closed"
+  "r1CycleId": "43739141321"
 }

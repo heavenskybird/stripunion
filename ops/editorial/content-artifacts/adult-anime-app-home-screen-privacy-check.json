@@ -1,0 +1,113 @@
+{
+  "backlogId": "adult-anime-app-home-screen-privacy-check",
+  "slug": "adult-anime-app-home-screen-privacy-check",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Apps: Check Home-Screen and App-Switcher Privacy",
+  "description": "Review app icons, widgets, recent-app previews, and visible library details to reduce unwanted exposure when using an adult anime app on a shared device.",
+  "excerpt": "Privacy risks can show up outside the app itself. Check the icon, widgets, recent-app card, and device sharing settings before relying on an adult anime app discreetly.",
+  "keyTakeaways": [
+    "Inspect the app’s name, icon, widgets, and any visible title imagery on your device.",
+    "Check what remains visible in the app switcher after leaving a screen.",
+    "Review notifications separately; a quiet app icon does not necessarily mean previews are hidden.",
+    "Use device access controls and test the workflow without exposing another person’s information."
+  ],
+  "sections": [
+    {
+      "heading": "Look beyond the app’s main screen",
+      "paragraphs": [
+        "An app can feel private while it is open and still reveal information in the surrounding device interface. An icon may identify the app, a widget may display recently viewed material, or a recent-app card may preserve a library screen as a preview. These behaviors depend on the app, device operating system, and settings, so do not assume a particular app exposes or hides a specific detail without checking it on your own setup.",
+        "This guide focuses on what may be visible when the app is not in the foreground. It is distinct from reviewing an app’s permissions or download source: the question here is what another person might see during ordinary device use, such as picking up a phone, glancing at a tablet home screen, or switching between open apps. The review can be done without signing in on a shared device or opening content you do not want others to see."
+      ],
+      "bullets": [
+        "Use a device you control for the privacy check.",
+        "Avoid showing sensitive screens while asking someone else to help test.",
+        "Note the device model and software version for your own records."
+      ]
+    },
+    {
+      "heading": "Inspect icons, folders, and widgets",
+      "paragraphs": [
+        "Start with the home screen and app library. Check the app’s displayed name and icon, including how they appear in a folder or search result. If your device supports widgets or shortcuts, see whether any display titles, thumbnails, or recent activity. Do not infer that a neutral icon means all other surfaces are neutral; a search suggestion or widget can expose information in a different way.",
+        "Decide whether the app should be placed on a private device profile, a less visible home-screen page, or another arrangement supported by your device. These choices reduce casual visibility but are not concealment guarantees. If someone else has access to the device or account, they may still find installed apps through settings, search, or account records. Choose a setup that fits your household and device-sharing boundaries rather than relying on a hidden folder alone."
+      ],
+      "table": {
+        "caption": "Device surfaces to inspect during a privacy check",
+        "headers": [
+          "Surface",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "Home screen",
+            "App name, icon, shortcuts, or visible badge"
+          ],
+          [
+            "Widgets",
+            "Recent titles, thumbnails, or activity summaries"
+          ],
+          [
+            "App switcher",
+            "A saved preview of the last screen or library"
+          ],
+          [
+            "Search and app library",
+            "App listing, suggestions, or recently used indicators"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the recent-app preview",
+      "paragraphs": [
+        "Do not use another person’s account or content as a test case. If the device is managed by an employer, school, or household administrator, follow the relevant device rules and do not attempt to bypass them. A privacy setup should respect both your boundaries and the legitimate controls on the device."
+      ]
+    },
+    {
+      "heading": "Review notification and lock-screen surfaces separately",
+      "paragraphs": [
+        "App-switcher privacy does not cover notifications. Check whether the app or operating system can display notification text, images, or sender information while the device is locked or in use. If notifications are enabled, examine the available preview controls and decide whether you want to silence, limit, or disable them. Menu names and options vary, so verify the effect rather than relying on a setting label alone.",
+        "Also consider badges and notification history. A number on an app icon may attract attention even when message content is hidden, and a notification center may retain items after they disappear from the lock screen. Test the setup with a harmless notification if the app provides one, or review the device’s documentation. Do not create or trigger sensitive notifications simply to test privacy. The aim is to reduce accidental display without assuming the app has a particular notification feature."
+      ],
+      "bullets": [
+        "Check lock-screen previews and in-use banners separately.",
+        "Review badges and notification history if your device provides them.",
+        "Recheck after changing app notification permissions."
+      ]
+    },
+    {
+      "heading": "Make a device-sharing plan",
+      "paragraphs": [
+        "If other people use the same device, decide whether a separate operating-system profile or a dedicated device is practical and supported. Check who can unlock the device, whether app installations are visible to other profiles, and whether cloud account sharing can expose app activity. A separate profile may help organize access, but it does not automatically separate every backup, purchase record, or network-level detail.",
+        "Use a short pre-handoff routine: exit the app, inspect the recent-app view, clear any visible sensitive preview using supported controls, and lock the device. This is a precaution, not a guarantee that all history has been removed. Keep account passwords private and avoid saving credentials where another person can access them. Revisit the routine after operating-system updates, app redesigns, or a change in who uses the device. Document what you verified so that your decision is based on the actual setup."
+      ],
+      "bullets": [
+        "Set a device lock that is not shared casually.",
+        "Use separate user profiles where available and appropriate.",
+        "Repeat the check after updates or a device handoff."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does closing the app remove its recent-app preview?",
+      "answer": "Behavior varies by app and device. Check the app switcher after closing or leaving the app and repeat the test after changing settings. Do not assume that closing an app erases all activity records."
+    },
+    {
+      "question": "Is hiding an app icon enough to protect privacy?",
+      "answer": "No single home-screen change covers every surface. Search results, app libraries, widgets, notifications, recent-app previews, and shared accounts may expose different information."
+    },
+    {
+      "question": "Should I use a shared device for an adult anime app?",
+      "answer": "That depends on your privacy needs and the device’s account setup. Review who can access the device, which activity can be seen by other users, and whether a separate profile or device is a better fit."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

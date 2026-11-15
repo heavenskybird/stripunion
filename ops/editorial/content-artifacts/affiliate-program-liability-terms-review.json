@@ -1,0 +1,113 @@
+{
+  "backlogId": "affiliate-program-liability-terms-review",
+  "slug": "affiliate-program-liability-terms-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Review Liability and Indemnity Terms Before Promoting",
+  "description": "A practical review framework for affiliate liability, indemnity, claims, and dispute terms before you publish referral links or build a campaign.",
+  "excerpt": "Commission terms matter, but so do the obligations that apply when a campaign goes wrong. Use this checklist to identify liability language that needs clarification before launch.",
+  "keyTakeaways": [
+    "Separate ordinary operating duties from obligations that could require you to cover another party’s losses.",
+    "Look for how the agreement defines covered claims, costs, fault, and notice requirements.",
+    "Check whether liability limits apply equally to both parties and whether important exceptions are listed.",
+    "Record unresolved questions and obtain written clarification before relying on an informal interpretation."
+  ],
+  "sections": [
+    {
+      "heading": "Why liability language belongs in a program comparison",
+      "paragraphs": [
+        "An affiliate agreement is more than a description of tracking and commissions. It can also allocate responsibility for claims connected to promotion, content, data handling, intellectual property, or a breach of program rules. Those provisions can matter even when a campaign is small: a webmaster may have limited staff and little capacity to handle a dispute or unexpected legal expense.",
+        "This is a practical reading aid, not legal advice or a conclusion about what any clause means under a particular law. Contract language and enforceability depend on the agreement and relevant circumstances. The useful decision is whether you understand the obligation well enough to proceed, need clarification, or should ask a qualified professional to review it."
+      ],
+      "bullets": [
+        "Save the agreement version you reviewed and note the date.",
+        "Identify the party you would contact about contract interpretation.",
+        "Pause before launch if an important obligation is unclear or materially broader than you expected."
+      ]
+    },
+    {
+      "heading": "Map the kinds of responsibility described",
+      "paragraphs": [
+        "Start by highlighting language that assigns responsibility for claims, losses, costs, damages, or expenses. Do not assume similar-sounding terms have identical meanings. Some provisions concern claims made by third parties; others may address a direct dispute between the affiliate and program operator. Note who is protected, what events activate the obligation, and whether the text distinguishes between your actions and the actions of others.",
+        "Then list the activities that could trigger the language. For example, ask whether it refers to your own promotional copy, materials supplied by the program, a visitor’s complaint, data collected through a campaign, or alleged misuse of a brand. The point is not to predict a dispute, but to connect contract wording to real campaign tasks so that no important responsibility remains abstract."
+      ],
+      "table": {
+        "caption": "A working map for reviewing responsibility clauses",
+        "headers": [
+          "Question",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Who is covered?",
+            "Affiliate, program operator, related entities, or another named party"
+          ],
+          [
+            "What triggers the duty?",
+            "Specific acts, omissions, rule breaches, or broad categories of claims"
+          ],
+          [
+            "Which costs are included?",
+            "Claims, legal expenses, losses, or other defined amounts"
+          ],
+          [
+            "What must happen first?",
+            "Notice, cooperation, control of response, or another stated process"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read indemnity duties alongside fault and control",
+      "paragraphs": [
+        "If an agreement uses indemnity language, do not reduce it to a vague idea of “taking responsibility.” Identify whose conduct is covered and whether the wording addresses negligence, intentional conduct, inaccurate claims, or alleged violations. Check for language about shared responsibility. A clause that appears straightforward in isolation may operate differently when paired with another section on liability limits or dispute handling.",
+        "Ask who controls the response if a covered claim is made. The agreement may describe notice deadlines, cooperation, choice of counsel, settlement approval, or restrictions on admissions. These details affect the practical workload and your ability to protect your own interests. If the process is unclear, write down the exact scenario you are asking about and request a specific written explanation instead of relying on a general assurance."
+      ],
+      "bullets": [
+        "Mark any unusually short notice period or strict procedure.",
+        "Check whether settlement decisions require your consent or consultation.",
+        "Record whether the text explains how shared fault is handled."
+      ]
+    },
+    {
+      "heading": "Compare caps, exclusions, and exceptions",
+      "paragraphs": [
+        "If two sections appear inconsistent, do not silently choose the interpretation that seems most favorable. Keep the wording together, note the conflict, and ask the program contact to identify which clause governs. If the answer changes your potential exposure, consider obtaining independent advice before accepting the terms."
+      ]
+    },
+    {
+      "heading": "Turn the review into a launch decision",
+      "paragraphs": [
+        "A review is most useful when it ends with a decision, owner, and next step. Make a short register of each material clause, the campaign activity it affects, the evidence you have, and any open question. Give each issue a status such as understood, clarification requested, or professional review needed. Avoid treating a dashboard summary or sales conversation as a substitute for the agreement unless the contract says that summary controls.",
+        "Before publishing, confirm that your planned content, traffic sources, and data practices fit the obligations you have identified. Share the relevant findings with anyone who writes copy, manages links, or approves campaigns. If the agreement changes, revisit the register rather than assuming the old review remains valid. The goal is not to eliminate all risk; it is to avoid accepting a responsibility you have not noticed or cannot operationally manage."
+      ],
+      "bullets": [
+        "Keep the contract, written answers, and decision notes in one dated file.",
+        "Assign an owner to monitor material term changes.",
+        "Do not launch a campaign whose central compliance obligation remains unresolved."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does this checklist tell me whether an indemnity clause is enforceable?",
+      "answer": "No. Enforceability and interpretation depend on the wording, applicable law, and circumstances. This checklist helps identify issues to clarify and questions to take to a qualified legal professional."
+    },
+    {
+      "question": "Is an email from a program contact enough to change the agreement?",
+      "answer": "Not necessarily. Check the agreement’s rules for amendments and authoritative notices. Keep the email as evidence, but do not assume it overrides signed terms unless the agreement supports that conclusion."
+    },
+    {
+      "question": "Should a small site review liability terms too?",
+      "answer": "Yes. A smaller operation may have fewer resources to respond to a dispute, which makes it useful to understand the obligations before building a campaign around a program."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

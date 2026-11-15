@@ -1,0 +1,113 @@
+{
+  "backlogId": "creator-platform-price-display-audit",
+  "slug": "creator-platform-price-display-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check How Membership Prices and Benefits Appear to Fans",
+  "description": "Before promoting a creator membership, review how prices, renewal terms, included benefits, and access limits are displayed across the fan journey.",
+  "excerpt": "A membership offer can be clear to the creator but confusing to a potential subscriber. Audit the actual fan-facing screens and wording before sending people to sign up.",
+  "keyTakeaways": [
+    "Review the offer from the fan’s viewpoint, not only from creator-side settings.",
+    "Make sure the displayed price, renewal basis, and access period are easy to distinguish.",
+    "Check that benefits are described in concrete terms and match what you can deliver.",
+    "Recheck the purchase path on mobile and after any change to tiers, copy, or platform settings."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the offer page as part of the product",
+      "paragraphs": [
+        "A membership page is often the first place a prospective fan learns what they are buying. If the amount, billing interval, renewal condition, or included benefits are difficult to interpret, a technically correct offer can still create confusion. This is especially important when the creator’s own promotional post uses shorter language than the platform’s checkout or membership screen.",
+        "The audit should not assume that every platform uses the same layout or terminology. Instead, follow the actual path a fan sees: a public profile, tier selection, checkout, and any confirmation or access explanation. Capture the wording and screen state during review, because an offer can look different when viewed while signed in, logged out, or on a smaller display."
+      ],
+      "bullets": [
+        "Use a test view or another appropriate preview path where available.",
+        "Record the date and device or browser used for the review.",
+        "Avoid entering a real purchase unless you understand the resulting billing and cancellation terms."
+      ]
+    },
+    {
+      "heading": "Make price and renewal language legible",
+      "paragraphs": [
+        "Check whether a fan can tell the amount due now from the period covered by that payment. Look for wording that explains whether membership renews, what interval applies, and where a fan can find the next billing details. Do not infer a renewal pattern from a tier name, a creator’s post, or a familiar convention on another service. Use the platform’s displayed terms and verify that your promotional description does not contradict them.",
+        "Compare the offer wherever it appears. The profile card, tier detail, checkout screen, and creator’s own link text may use different labels or omit details. Differences are not automatically a problem, but they should be intentional and understandable. If the platform controls a checkout phrase you cannot edit, avoid making a stronger claim elsewhere than the screen supports. Ask support or consult the platform’s help material if a key billing point is missing."
+      ],
+      "table": {
+        "caption": "Fan-facing membership details to compare across the journey",
+        "headers": [
+          "Detail",
+          "Check for clarity"
+        ],
+        "rows": [
+          [
+            "Amount",
+            "Can the fan identify the amount shown for the selected option?"
+          ],
+          [
+            "Billing interval",
+            "Is the period or renewal basis stated clearly on the relevant screen?"
+          ],
+          [
+            "Access period",
+            "Can the fan tell when access begins and what the purchase covers?"
+          ],
+          [
+            "Cancellation",
+            "Can the fan find the route and timing information without relying on a creator’s guess?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Describe benefits as deliverables, not implications",
+      "paragraphs": [
+        "Review each tier description as a promise. Replace broad language such as “exclusive access” with a specific, accurate description of what the fan should expect, when that expectation applies, and any meaningful limitation. A benefit may be recurring, one-time, or dependent on a creator’s schedule; the wording should not leave those distinctions for a fan to discover after joining.",
+        "Check that the listed benefits match current operations. If you cannot reliably provide a benefit at the stated frequency, adjust the description or the workflow before promoting it. Avoid implying that a tier includes access to every past or future item unless that is actually supported by the platform terms and your own publishing plan. A clear offer protects both fan expectations and the creator’s ability to deliver without overcommitting."
+      ],
+      "bullets": [
+        "Use concrete nouns and time frames where you can verify them.",
+        "Label exceptions or limited availability where relevant.",
+        "Remove benefits that are no longer offered instead of leaving stale copy in place."
+      ]
+    },
+    {
+      "heading": "Test the full path on mobile and desktop",
+      "paragraphs": [
+        "Keep the test focused on clarity rather than aesthetics alone. A polished page can still omit essential context, while a plain page may be perfectly understandable. Note exactly where a user might reasonably misread the offer and decide whether to edit your copy, change the tier description, or request platform clarification."
+      ]
+    },
+    {
+      "heading": "Set a maintenance routine for offer changes",
+      "paragraphs": [
+        "Membership pages can become inconsistent when creators add a tier, revise a benefit, change a link, or pause an offer. Maintain a single source of truth for each active tier: its current wording, included deliverables, intended audience, and the date it was last checked. Use that record when updating social posts, email copy, pinned messages, and profile links so old descriptions do not continue circulating.",
+        "Recheck the fan journey after material changes and periodically when you rely on the offer for ongoing promotion. If the platform changes a screen or term outside your control, review what a new subscriber sees before resuming promotion. Keep an evidence file with screenshots or notes, but avoid collecting unnecessary fan information. The result is a more dependable buying experience without assuming that a platform’s interface or commercial terms will remain unchanged."
+      ],
+      "bullets": [
+        "Assign one person to approve offer wording if several people manage the account.",
+        "Date each review and list the screens checked.",
+        "Retire promotional links or copy that no longer describes an available offer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should the creator’s promotional post repeat every checkout detail?",
+      "answer": "Not necessarily, but it should not contradict or obscure material terms. Keep the promotion concise while directing fans to a clear, current offer page for the complete details."
+    },
+    {
+      "question": "What if the platform controls the wording on the payment screen?",
+      "answer": "Do not guess at the intended meaning. Ask the platform for clarification, keep your own copy accurate, and avoid making claims that the displayed terms do not support."
+    },
+    {
+      "question": "How often should I repeat this audit?",
+      "answer": "Repeat it after meaningful changes to a tier, benefit, link, or platform checkout flow, and periodically if you continue promoting the offer. A dated checklist helps identify what changed."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

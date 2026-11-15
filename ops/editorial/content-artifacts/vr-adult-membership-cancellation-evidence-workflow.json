@@ -1,0 +1,113 @@
+{
+  "backlogId": "vr-adult-membership-cancellation-evidence-workflow",
+  "slug": "vr-adult-membership-cancellation-evidence-workflow",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platform Memberships: Verify Cancellation and Keep a Clear Record",
+  "description": "A practical checklist for finding the correct cancellation route, confirming a membership change, and preserving evidence without assuming access ends immediately.",
+  "excerpt": "A cancellation button is only one part of leaving a membership. Check who handles billing, what confirmation you receive, and how to document the result for your own records.",
+  "keyTakeaways": [
+    "Identify which account or storefront controls the recurring membership before starting.",
+    "Read the stated cancellation steps and any timing or access notes on the relevant billing route.",
+    "Keep a dated confirmation or support reference without storing unnecessary account data.",
+    "Verify the membership state after cancellation; do not infer success from a button press alone."
+  ],
+  "sections": [
+    {
+      "heading": "Find the account that controls billing",
+      "paragraphs": [
+        "A VR adult platform membership may be managed through the service itself or through another account or storefront involved in the purchase. The correct cancellation route depends on the arrangement, so begin by checking the receipt, account page, and current help information. A membership visible in a platform profile is not proof that the same profile controls billing, and a device’s uninstall option is not a cancellation method.",
+        "Make a simple map before taking action: the platform account used for access, the account charged, and any device or storefront account involved. Record only what you need to identify the route, such as the account label or receipt reference. Do not include full payment details in personal notes. If you cannot determine who manages the recurring charge, ask the relevant support channel before assuming that a cancellation request has reached the billing owner."
+      ],
+      "bullets": [
+        "Check the original confirmation or receipt for the billing party.",
+        "Use current account and help pages to identify the cancellation route.",
+        "Do not rely on deleting an app or logging out to end a recurring membership."
+      ]
+    },
+    {
+      "heading": "Read the cancellation terms before confirming",
+      "paragraphs": [
+        "Before submitting a cancellation, check the instructions for when the change takes effect and whether the membership remains active for any stated period. Do not assume that cancellation immediately ends access, or that access continuing means the cancellation failed. The service’s displayed terms should explain the relevant timing; if they do not, ask support to clarify the specific account and plan state.",
+        "Look for any stated difference between turning off renewal, closing an account, and removing access. These actions can have different consequences. If you want to stop future billing while retaining access through a period already covered, verify whether the offered action matches that goal. If you want the account closed as well, identify whether that is a separate request. Avoid taking a more destructive step before understanding what records or access may be affected."
+      ],
+      "table": {
+        "caption": "Distinguish common membership actions",
+        "headers": [
+          "Action",
+          "Question to verify"
+        ],
+        "rows": [
+          [
+            "Turn off renewal",
+            "Does the instruction say recurring billing will stop?"
+          ],
+          [
+            "End membership",
+            "When does the membership state change, and what access remains?"
+          ],
+          [
+            "Close account",
+            "Does account closure affect records or access separately from billing?"
+          ],
+          [
+            "Remove app",
+            "Does uninstalling affect billing? Do not assume that it does."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Save evidence of the request and result",
+      "paragraphs": [
+        "After following the official route, preserve a dated confirmation that identifies the action without exposing more data than necessary. This might be an on-screen confirmation, an email, or a reference number, depending on what the service provides. Keep the original message or a secure copy and note the date, time, and account route you used. Do not edit evidence in a way that removes context if you may need it later.",
+        "If no confirmation appears, do not repeatedly submit requests without understanding the state. Check the account page and follow the service’s support process with a concise description: the account identifier appropriate for support, the action taken, and the date. Avoid sending full card numbers or unrelated personal information in ordinary email. Keep a log of contact attempts and replies so you can explain the sequence clearly if you need further help."
+      ],
+      "bullets": [
+        "Record the confirmation date and reference, if provided.",
+        "Keep screenshots only in a secure place you control.",
+        "Redact unrelated personal or payment information before sharing evidence."
+      ]
+    },
+    {
+      "heading": "Verify the membership state without guessing",
+      "paragraphs": [
+        "Do not post account screenshots publicly to seek help. They may reveal names, email addresses, transaction identifiers, or device information. Use official support channels and share only what is needed to locate the membership."
+      ]
+    },
+    {
+      "heading": "Plan for access, device, and renewal changes",
+      "paragraphs": [
+        "Cancellation may affect access differently from local device data or saved settings. Before removing the app or resetting a headset, check whether you need to preserve non-sensitive account records or confirm what content remains accessible under the stated terms. Do not assume that content available through a membership is permanently retained or transferable. If you are leaving because you no longer want the account, separate the billing step from any account-closure or data request.",
+        "Add a reminder to verify the status before any relevant renewal date shown in your account, but treat the account’s current terms as authoritative. Keep the cancellation evidence with the purchase record and note which account controlled the billing. If you later resubscribe, confirm the new terms rather than assuming your previous state or settings carry over. This small recordkeeping routine reduces confusion without making claims about a platform’s billing or support capabilities."
+      ],
+      "bullets": [
+        "Keep billing cancellation separate from account deletion or device cleanup.",
+        "Use the service’s displayed terms for access timing.",
+        "Review membership status again if the account, storefront, or billing route changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does uninstalling a VR app cancel a membership?",
+      "answer": "Do not assume that it does. Identify the account or storefront responsible for billing and follow its stated cancellation process. Keep confirmation of the resulting change."
+    },
+    {
+      "question": "If I can still access the library, did cancellation fail?",
+      "answer": "Not necessarily. Some services may state that access continues for a period after renewal is stopped. Check the account’s cancellation status and current terms rather than using library access alone as proof."
+    },
+    {
+      "question": "What should I do if I cannot find the cancellation control?",
+      "answer": "Check current official help information and identify who manages billing from your receipt or account details. Contact the responsible support channel with a concise request and retain the response."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
