@@ -1,0 +1,49 @@
+name: Model referral read-only acceptance
+on:
+  push:
+    branches: [codex/model-referral-20261115]
+    paths:
+      - '.github/workflows/model-referral-readonly.yml'
+      - 'scripts/model-referral-audit.mjs'
+      - 'scripts/test/model-referral.test.mjs'
+      - 'src/pages/become-a-cam-model.astro'
+      - 'src/pages/avcams.astro'
+      - 'src/lib/affiliate.js'
+      - 'src/components/AffiliateButton.astro'
+permissions:
+  contents: read
+concurrency:
+  group: model-referral-readonly
+  cancel-in-progress: false
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-audit --no-fund
+      - run: node --test scripts/test/model-referral.test.mjs
+      - run: npm run check && PUBLIC_ALLOW_INDEXING=true npm run build && npm run check:prod-seo
+      - name: Observe live model paths without signup or click receiver
+        run: node scripts/model-referral-audit.mjs
+      - run: npx playwright install --with-deps chromium
+      - name: Verify creator and AVCams responsive UI
+        env:
+          VISUAL_TARGETS_JSON: '["/become-a-cam-model","/avcams","/creator-platforms"]'
+        run: |
+          npx astro preview --host 127.0.0.1 --port 4321 > /tmp/model-preview.log 2>&1 &
+          for attempt in {1..30}; do curl -fsS http://127.0.0.1:4321/ >/dev/null && break; sleep 1; done
+          node scripts/visual-regression.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: model-referral-${{ github.run_id }}
+          path: |
+            artifacts/model-referral
+            artifacts/visual-qa
+          retention-days: 14
