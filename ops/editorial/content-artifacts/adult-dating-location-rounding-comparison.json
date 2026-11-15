@@ -1,0 +1,125 @@
+{
+  "backlogId": "adult-dating-location-rounding-comparison",
+  "slug": "adult-dating-location-rounding-comparison",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check How Location Distance Is Displayed and Rounded",
+  "description": "Compare dating platform location displays by checking distance rounding, update behavior, location permissions, and the privacy trade-offs of discovery settings.",
+  "excerpt": "A distance label can look precise even when its meaning is unclear. Check how location information is collected, displayed, updated, and controlled before relying on it.",
+  "keyTakeaways": [
+    "Treat displayed distance as an estimate unless the platform explains how it is calculated and updated.",
+    "Separate device location permissions from profile-level location, search radius, and travel or discovery settings.",
+    "Check whether distance changes over time and whether the platform explains its rounding or location precision.",
+    "Avoid using a distance display to infer someone’s exact address, routine, or identity."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what a distance label can and cannot tell you",
+      "paragraphs": [
+        "A displayed distance may be rounded, approximate, delayed, or based on a location other than a person’s current position. The label alone does not establish how a platform calculates it. It should not be treated as a reliable measurement of someone’s address, travel route, or daily routine. For platform selection, the useful question is what the service explains and what controls it gives you, not whether a number appears precise.",
+        "Before comparing platforms, write down what you need distance information for. You may want a broad sense of whether a discovery pool is local, or you may prefer not to share location information at all. Those are different requirements. A label that is useful for broad sorting may be too revealing for your comfort; conversely, a deliberately coarse display may be insufficient for a search preference. Decide where your boundary sits before enabling location access."
+      ],
+      "bullets": [
+        "Treat distance as an interface estimate, not an address or route.",
+        "Do not infer exact whereabouts from repeated observations of another person’s distance.",
+        "Decide whether you need a broad local/nonlocal signal or a more detailed discovery control."
+      ]
+    },
+    {
+      "heading": "Check the source and precision of location information",
+      "paragraphs": [
+        "Location can be connected to device permissions, profile details entered by a user, or settings that affect search and discovery. The controls differ, so inspect them separately. A device permission may govern whether an app can access location data, while a profile field or search setting may govern what is displayed or which people appear. Turning off one setting may not erase previously supplied profile information.",
+        "Look for plain-language explanations of when location is collected, whether it is required, and whether a user can select a broader area instead. If the service does not explain the precision or update behavior, mark that as unknown. Avoid assuming that selecting a large search radius changes how your own location is shown; search scope and display precision can be separate choices."
+      ],
+      "table": {
+        "caption": "Location questions to compare before joining",
+        "headers": [
+          "Area",
+          "What to inspect",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Device permission",
+            "Whether access is required and when it is requested",
+            "Affects what the app may read from the device"
+          ],
+          [
+            "Profile location",
+            "Whether a location is entered or displayed on the profile",
+            "May remain visible separately from device permission"
+          ],
+          [
+            "Distance display",
+            "Whether labels are rounded, approximate, or explained",
+            "Helps prevent over-interpreting a number"
+          ],
+          [
+            "Search radius",
+            "Whether you can broaden or narrow discovery",
+            "Controls the pool you browse, not necessarily your displayed precision"
+          ],
+          [
+            "Update behavior",
+            "Whether the platform explains when location changes",
+            "Helps you understand stale or changing labels"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Evaluate permission timing and alternatives",
+      "paragraphs": [
+        "A platform may request device access during setup or when you first use a location-related feature. Read the prompt and decide whether the requested access is necessary for the function you want. If you decline, check whether the service offers a manual location choice or a limited browsing mode. Do not assume every feature will work without permission, and do not grant access simply because a prompt appears during onboarding.",
+        "If you use a manual location option, consider whether the value you enter is shown on your profile, used only for discovery, or retained in account settings. Those details matter more than the label attached to the control. When documentation is unclear, make a conservative choice and avoid entering a precise location unless you understand why it is needed and how it is used."
+      ],
+      "bullets": [
+        "Review permissions in both the app and device settings.",
+        "Check whether a manual or coarse location option is available before granting device access.",
+        "Do not enter an exact address as a substitute for a general location unless the service explicitly requires it and you accept that disclosure."
+      ]
+    },
+    {
+      "heading": "Check update behavior without trying to pinpoint anyone",
+      "paragraphs": []
+    },
+    {
+      "heading": "Make a choice and revisit settings later",
+      "paragraphs": [
+        "Compare location features alongside membership, messaging, cancellation, privacy controls, and community features. If a platform does not explain the precision or update rules that matter to you, treat that uncertainty as a decision factor. You may prefer a service with less location detail, a choice to browse without precise access, or a clear way to reduce profile visibility. Do not trade away a privacy boundary just to make discovery feel more specific.",
+        "After joining, review permissions again and check your profile from the perspective available to other users, if the service offers that option. Revisit location settings when you travel, change devices, or alter discovery preferences. Keep in mind that settings reduce exposure only within their stated scope; they cannot guarantee that other users will not make guesses or that a platform will never change its interface."
+      ],
+      "bullets": [
+        "Choose the least precise location setting that still supports your intended use.",
+        "Recheck app permissions and profile visibility after device or account changes.",
+        "Use the platform’s own controls to pause or limit discovery when you do not want location-based browsing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a rounded distance reveal someone’s exact location?",
+      "answer": "A rounded label is not an exact address, and it may be approximate or delayed. Do not combine repeated readings with other clues to try to locate someone. Use distance only as the broad discovery information the platform intends to display."
+    },
+    {
+      "question": "If I deny location permission, is my profile location hidden?",
+      "answer": "Not necessarily. A manually entered profile location or another account setting may still be visible. Check device permissions, profile fields, and discovery settings separately."
+    },
+    {
+      "question": "Why might a distance label change?",
+      "answer": "The platform’s update rules may differ, and the label could reflect rounding, a changed search context, delayed data, or other factors. Unless the service explains the method, do not infer a specific movement or location from a change."
+    },
+    {
+      "question": "What should I do if the platform does not explain its location precision?",
+      "answer": "Treat the precision and update behavior as unknown. Consider whether the other privacy controls and discovery options are sufficient for you, and avoid granting precise location access unless you understand and accept the request."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
