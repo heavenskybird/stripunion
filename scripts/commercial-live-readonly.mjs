@@ -31,10 +31,12 @@ for(const slug of ['live-cam-platform-model-fit-comparison','live-cam-private-in
   const anchor=(article.match(/<a\b[^>]*>/g)||[]).find(a=>a.includes('data-affiliate-source="guide_viewer_'+slug+'"'))||'';
   const raw=anchor.match(/href="([^"]+)"/)?.[1]?.replaceAll('&amp;','&');const target=raw?new URL(raw):null;
   const source='guide_viewer_'+slug;
+  const canonical=html.match(/rel="canonical" href="([^"]+)"/)?.[1];
+  const indexable=!/noindex/i.test(r.headers.get('x-robots-tag')||'')&&!/name="robots" content="[^"]*noindex/i.test(html);
   const tracked=target?.hostname==='go.whitetrafsa.com'&&target.searchParams.get('targetDomain')==='avcams.online'&&target.searchParams.get('path')==='/girls'&&target.searchParams.get('p2')===source&&!!target.searchParams.get('p1')&&!!target.searchParams.get('userId');
   const disclosure=/Paid link/.test(article)&&/may earn a commission/.test(article)&&/not model registration/.test(article);
   const sponsored=/rel="[^"]*\bsponsored\b/.test(anchor);
-  candidateRows.push({slug,url,status:r.status,cta:!!anchor,tracked:!!tracked,disclosure,sponsored,source,ctaContractSha256:hash([slug,raw,source,sponsored,disclosure].join('|')),ok:r.status===200&&!!tracked&&disclosure&&sponsored});
+  candidateRows.push({slug,url,status:r.status,canonical,indexable,cta:!!anchor,tracked:!!tracked,disclosure,sponsored,source,ctaContractSha256:hash([slug,raw,source,sponsored,disclosure].join('|')),ok:r.status===200&&canonical===url&&indexable&&!!tracked&&disclosure&&sponsored});
  }catch{candidateRows.push({slug,url,ok:false,classification:'CANDIDATE_GET_UNVERIFIED'});}
 }
 const report={checkedAt:new Date().toISOString(),sourceSha:process.env.GITHUB_SHA||'LOCAL',rows,candidateRows,candidateReleaseRequired:process.argv.includes('--require-candidate'),partner,productionWrites:0,paidConversionsGenerated:0,proof:'HTTP + served article/CTA contract fingerprint; provider Git commit SHA and actual commission are not inferred.'};
