@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T06:27:10.749Z",
+  "generatedAt": "2026-11-15T07:42:18.729Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-password-manager-autofill-privacy.json",
-    "ops/editorial/content-artifacts/affiliate-program-campaign-approval-dependency-map.json",
-    "ops/editorial/content-artifacts/creator-platform-benefit-delivery-proof-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-device-permission-minimization.json",
-    "ops/editorial/content-artifacts/premium-video-screen-reader-playback-navigation-workflow.json"
+    "ops/editorial/content-artifacts/adult-platform-vpn-privacy-boundaries.json",
+    "ops/editorial/content-artifacts/adult-anime-app-selection-checklist.json",
+    "ops/editorial/content-artifacts/adult-games-community-time-boundary-fit.json",
+    "ops/editorial/content-artifacts/adult-shop-price-match-policy-comparison.json",
+    "ops/editorial/content-artifacts/adult-vr-platform-content-accessibility-transparency-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-password-manager-autofill-privacy.js",
-    "src/data/guides/affiliate-program-campaign-approval-dependency-map.js",
-    "src/data/guides/creator-platform-benefit-delivery-proof-workflow.js",
-    "src/data/guides/live-cam-device-permission-minimization.js",
-    "src/data/guides/premium-video-screen-reader-playback-navigation-workflow.js"
+    "src/data/guides/adult-platform-vpn-privacy-boundaries.js",
+    "src/data/guides/adult-anime-app-selection-checklist.js",
+    "src/data/guides/adult-games-community-time-boundary-fit.js",
+    "src/data/guides/adult-shop-price-match-policy-comparison.js",
+    "src/data/guides/adult-vr-platform-content-accessibility-transparency-review.js"
   ],
   "categories": [
-    "dating-hookups",
-    "webmaster-affiliate",
-    "creator-platforms",
-    "live-cams",
-    "premium-videos"
+    "privacy-safety-payment",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-platform-password-manager-autofill-privacy",
-    "affiliate-program-campaign-approval-dependency-map",
-    "creator-platform-benefit-delivery-proof-workflow",
-    "live-cam-device-permission-minimization",
-    "premium-video-screen-reader-playback-navigation-workflow"
+    "adult-platform-vpn-privacy-boundaries",
+    "adult-anime-app-selection-checklist",
+    "adult-games-community-time-boundary-fit",
+    "adult-shop-price-match-policy-comparison",
+    "adult-vr-platform-content-accessibility-transparency-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43685225483",
-  "phase": "closed"
+  "r1CycleId": "43690916436"
 }
