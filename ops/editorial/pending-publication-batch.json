@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T20:10:31.326Z",
+  "generatedAt": "2026-11-15T21:04:19.969Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-spoiler-safe-catalog-browsing.json",
-    "ops/editorial/content-artifacts/adult-platform-cross-device-notification-mirroring-review.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-report-escalation-workflow.json",
-    "ops/editorial/content-artifacts/adult-dating-location-rounding-comparison.json",
-    "ops/editorial/content-artifacts/adult-anime-preview-media-exposure-check.json"
+    "ops/editorial/content-artifacts/free-video-playlist-portability-planning.json",
+    "ops/editorial/content-artifacts/adult-games-demo-completion-boundary-check.json",
+    "ops/editorial/content-artifacts/adult-shop-order-subscription-commitment-review.json",
+    "ops/editorial/content-artifacts/vr-adult-lens-distortion-and-focus-comparison.json",
+    "ops/editorial/content-artifacts/adult-platform-payment-method-reversal-control-planner.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-spoiler-safe-catalog-browsing.js",
-    "src/data/guides/adult-platform-cross-device-notification-mirroring-review.js",
-    "src/data/guides/creator-platform-fan-report-escalation-workflow.js",
-    "src/data/guides/adult-dating-location-rounding-comparison.js",
-    "src/data/guides/adult-anime-preview-media-exposure-check.js"
+    "src/data/guides/free-video-playlist-portability-planning.js",
+    "src/data/guides/adult-games-demo-completion-boundary-check.js",
+    "src/data/guides/adult-shop-order-subscription-commitment-review.js",
+    "src/data/guides/vr-adult-lens-distortion-and-focus-comparison.js",
+    "src/data/guides/adult-platform-payment-method-reversal-control-planner.js"
   ],
   "categories": [
-    "premium-videos",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "dating-hookups",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "vr-ar",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "premium-video-spoiler-safe-catalog-browsing",
-    "adult-platform-cross-device-notification-mirroring-review",
-    "creator-platform-fan-report-escalation-workflow",
-    "adult-dating-location-rounding-comparison",
-    "adult-anime-preview-media-exposure-check"
+    "free-video-playlist-portability-planning",
+    "adult-games-demo-completion-boundary-check",
+    "adult-shop-order-subscription-commitment-review",
+    "vr-adult-lens-distortion-and-focus-comparison",
+    "adult-platform-payment-method-reversal-control-planner"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43756363588",
-  "phase": "closed"
+  "r1CycleId": "43761353338"
 }

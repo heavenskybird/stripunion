@@ -1,0 +1,111 @@
+export default {
+  "slug": "free-video-playlist-portability-planning",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Whether Playlists and Saved Lists Can Move With You",
+  "description": "Compare how free video platforms handle playlists, saved items, and links if you switch services or lose access to an account.",
+  "excerpt": "A playlist can be useful without being portable. This guide helps you check what a free video platform lets you save, export, and recover before you build a long-term viewing list.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Treat a saved list, a playlist, and a bookmark as different things: platforms may give each different controls and access conditions.",
+    "Check whether you can export item titles, URLs, or other list details; do not assume a list can be transferred just because it can be shared.",
+    "Test how a saved item behaves if a listing is unavailable, removed, or changed. A list may preserve a reference without preserving access.",
+    "For a list you would regret losing, keep a privacy-conscious backup of non-sensitive titles or links that you are permitted to retain."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what kind of list you need",
+      "paragraphs": [
+        "Free video platforms may offer several ways to keep track of content: a personal saved-items list, a playlist, a watch-later queue, or a link copied into your own notes. Those labels do not guarantee the same behavior. A playlist may be designed for sharing, while saved items may depend on an account, and a queue may only organize items for a current browsing session. Identify which task matters to you before comparing platforms.",
+        "Portability matters most when a list has taken time to build, when you might close an account, or when you want to change services without starting from zero. Make a short test list using ordinary, non-sensitive examples. Check whether each item remains available after signing out and back in, whether the list has a clear name, and whether the platform offers a documented way to retrieve or export it."
+      ],
+      "bullets": [
+        "Write down the feature name used for each type of list.",
+        "Check whether saving requires an account and whether the list is private by default.",
+        "Separate personal organization from public or shareable playlists."
+      ]
+    },
+    {
+      "heading": "Inspect export and sharing options separately",
+      "paragraphs": [
+        "A share button is not the same as an export tool. Sharing may create a link that other people can open, while exporting might produce a copy of list information for your own records. Before relying on either option, read what the control says it will share and who can access the result. If a link can be forwarded, treat it as a disclosure rather than a private backup.",
+        "Look for a clearly described export format and its limits. Does it include item titles and links, or only a playlist address? Can you retrieve the information without keeping the account active? If the platform does not explain these points, record that uncertainty in your comparison rather than assuming that a workaround will be supported. Avoid third-party browser extensions or services that ask for account credentials just to copy a list."
+      ],
+      "table": {
+        "caption": "Questions to distinguish list tools before relying on them",
+        "headers": [
+          "List feature",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Saved items",
+            "Does it require sign-in, and can you retrieve it after signing in on another device?"
+          ],
+          [
+            "Playlist",
+            "Is it private, unlisted, or public, and can its items be copied or exported?"
+          ],
+          [
+            "Watch-later queue",
+            "Does it persist between sessions, or is it temporary?"
+          ],
+          [
+            "Shared link",
+            "Can anyone with the link view it, and can you revoke or change access?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Plan for unavailable or changed listings",
+      "paragraphs": [
+        "A list usually stores references to items rather than guaranteeing that those items will remain available. A listing may be removed, restricted, renamed, or otherwise changed. Check whether the platform makes unavailable items visible in the list, hides them, or replaces their details with a notice. This affects how useful the list is as a record: a blank entry is harder to understand later than an entry that clearly indicates the item cannot currently be opened.",
+        "Do not treat a saved link as proof that an item is still available or that its description remains accurate. If you keep a personal record, note only details useful for recognizing the item, and avoid copying sensitive browsing information into a shared document or cloud account. Keep creator, source, and context information only when it is available and relevant; do not use a backup to bypass access controls or preserve material you do not have permission to keep."
+      ],
+      "bullets": [
+        "Check what happens to a list entry when a page becomes unavailable.",
+        "Record whether links continue to open the current listing or an error page.",
+        "Avoid assuming an old saved item is still accurate or accessible."
+      ]
+    },
+    {
+      "heading": "Assess account closure and recovery implications",
+      "paragraphs": [
+        "A list tied to an account may disappear from your view if you close the account, lose access, or cannot complete recovery. Before building a large collection, review the platform’s account-closure and recovery explanations. Look for whether closing an account deletes saved lists, whether any export is available first, and whether the platform describes how long account data may remain. These are separate questions: account closure does not necessarily mean every record is erased immediately.",
+        "If the account is important to your list, use a unique password and a recovery method you control. Do not reuse a personal username in a public playlist if you want your viewing identity kept separate. If you decide to keep a backup, choose a location with access controls appropriate to the information and delete it when it is no longer useful. A backup can reduce dependence on one service, but it can also create a new privacy record."
+      ],
+      "paragraphs2": [
+        "For a low-stakes list, the simplest choice may be to use whichever built-in feature is easiest and accept that it is service-dependent. For a list you intend to keep, favor a platform that explains its controls plainly and offers a useful way to retrieve your own list information. If no platform provides that, make a small, careful backup rather than assuming portability."
+      ]
+    },
+    {
+      "heading": "Use a short portability test before committing",
+      "paragraphs": [
+        "Compare platforms with the same small set of test items and the same questions. Add an item, sign out, return later, and inspect the list on another device only if doing so is safe and appropriate for your account. Try the documented export or sharing controls and note exactly what they produce. Do not submit credentials to an unofficial transfer tool or grant an extension broad access to browsing data for a convenience feature.",
+        "A useful comparison records not only whether a feature exists but also what it costs in privacy, effort, and dependence on the service. A service with a private saved list and no export may suit someone who wants temporary organization. Someone who values long-term continuity may prefer a documented export or may keep a separate, limited record. Neither choice is universally best; the important point is to understand what you would lose before your list becomes difficult to recreate."
+      ],
+      "bullets": [
+        "Test one item in each relevant list type.",
+        "Check privacy settings before sharing or exporting.",
+        "Write down what happens to unavailable entries and closed-account lists.",
+        "Choose a backup method only if its privacy trade-off is acceptable."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a shared playlist a reliable backup of my saved items?",
+      "answer": "Not necessarily. A shared playlist may expose its contents to other people, omit private saved items, or preserve only links to listings. Check what is included and who can open the playlist before treating it as a backup."
+    },
+    {
+      "question": "Can I assume my saved list will transfer if I change platforms?",
+      "answer": "No. Transfer depends on whether the platform offers an export and whether the new service accepts that information. Even when a list can be exported, links may not match listings on another service."
+    },
+    {
+      "question": "What is the safest way to keep a list I do not want to lose?",
+      "answer": "First use any documented platform export. If you keep a separate record, limit it to information you need, store it somewhere access-controlled, and avoid putting sensitive links in a shared account or public document."
+    }
+  ]
+};
