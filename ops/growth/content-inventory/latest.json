@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-14T16:41:29.556Z",
+  "generatedAt": "2026-11-15T03:26:24.078Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-11-14T16:38:39.762Z",
-    "bing": "2026-11-14T16:39:03.496Z",
+    "gsc": "2026-11-15T03:23:20.576Z",
+    "bing": "2026-11-15T03:23:41.266Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 269
+        "queryImpressions": 281
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -63,7 +63,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 1111
+        "queryImpressions": 1187
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -80,7 +80,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.35,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -89,7 +89,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 786
+        "queryImpressions": 812
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -115,7 +115,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 90
+        "queryImpressions": 99
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -167,7 +167,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 493
+        "queryImpressions": 533
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -184,7 +184,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -193,7 +193,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 121
+        "queryImpressions": 136
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -219,7 +219,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 231
+        "queryImpressions": 250
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -245,7 +245,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 281
+        "queryImpressions": 296
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -271,7 +271,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 188
+        "queryImpressions": 198
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -297,7 +297,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 121
+        "queryImpressions": 128
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -323,7 +323,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 129
+        "queryImpressions": 135
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -349,7 +349,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 203
+        "queryImpressions": 223
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
@@ -401,7 +401,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 179
+        "queryImpressions": 184
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -427,11 +427,37 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 509
+        "queryImpressions": 546
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 16
+    },
+    {
+      "route": "/chaturbate",
+      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
+      "cluster": "pricing/tokens",
+      "score": 67,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 4,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 352,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 36
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
+      "rank": 17
     },
     {
       "route": "/live-cams",
@@ -453,11 +479,11 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 37
+        "queryImpressions": 39
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 17
+      "rank": 18
     },
     {
       "route": "/stripcash-affiliate-program",
@@ -470,7 +496,7 @@
         "keywordOpportunity": 4,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.25,
+        "overlapRisk": 0.24,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -479,35 +505,9 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 40
+        "queryImpressions": 41
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 18
-    },
-    {
-      "route": "/chaturbate",
-      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
-      "cluster": "pricing/tokens",
-      "score": 63,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 3,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 352,
-        "headings": 4,
-        "links": 3,
-        "queryImpressions": 33
-      },
-      "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
       "rank": 19
     },
@@ -531,7 +531,7 @@
         "wordCount": 150,
         "headings": 3,
         "links": 0,
-        "queryImpressions": 7
+        "queryImpressions": 8
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -557,7 +557,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 19
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -580,10 +580,10 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 317,
+        "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 19
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -616,6 +616,32 @@
       "rank": 23
     },
     {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
+      "cluster": "creator/model referral",
+      "score": 54,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 1,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 929,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 11
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 24
+    },
+    {
       "route": "/adultfriendfinder",
       "title": "AdultFriendFinder Review: Membership, Features & Trade-Offs",
       "cluster": "features",
@@ -639,32 +665,6 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
-      "rank": 24
-    },
-    {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model on AVCams: Creator Signup Guide",
-      "cluster": "creator/model referral",
-      "score": 50,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 1,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.23,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 786,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 10
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
       "rank": 25
     },
     {
@@ -741,7 +741,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 269
+        "queryImpressions": 281
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -766,7 +766,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 1111
+        "queryImpressions": 1187
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -782,7 +782,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.36,
+        "overlapRisk": 0.35,
         "internalLinkPotential": 4,
         "affiliateRelevance": 5,
         "contentCompleteness": 4
@@ -791,7 +791,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 786
+        "queryImpressions": 812
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +816,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 90
+        "queryImpressions": 99
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,7 +866,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 493
+        "queryImpressions": 533
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -882,7 +882,7 @@
         "keywordOpportunity": 5,
         "uniqueness": 3,
         "freshnessSignal": 4,
-        "overlapRisk": 0.31,
+        "overlapRisk": 0.3,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -891,7 +891,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 121
+        "queryImpressions": 136
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -916,7 +916,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 231
+        "queryImpressions": 250
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -941,7 +941,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 281
+        "queryImpressions": 296
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -966,7 +966,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 188
+        "queryImpressions": 198
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -991,7 +991,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 121
+        "queryImpressions": 128
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1016,7 +1016,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 129
+        "queryImpressions": 135
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1041,7 +1041,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 203
+        "queryImpressions": 223
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
@@ -1091,7 +1091,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 179
+        "queryImpressions": 184
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1116,9 +1116,34 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 509
+        "queryImpressions": 546
       },
       "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/chaturbate",
+      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
+      "cluster": "pricing/tokens",
+      "score": 67,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 4,
+        "uniqueness": 3,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.31,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 352,
+        "headings": 4,
+        "links": 3,
+        "queryImpressions": 36
+      },
+      "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
     },
     {
@@ -1141,7 +1166,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 37
+        "queryImpressions": 39
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1157,7 +1182,7 @@
         "keywordOpportunity": 4,
         "uniqueness": 4,
         "freshnessSignal": 2,
-        "overlapRisk": 0.25,
+        "overlapRisk": 0.24,
         "internalLinkPotential": 2,
         "affiliateRelevance": 5,
         "contentCompleteness": 5
@@ -1166,34 +1191,9 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 40
+        "queryImpressions": 41
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/chaturbate",
-      "title": "Chaturbate Review: Free Access, Tokens & Private Shows",
-      "cluster": "pricing/tokens",
-      "score": 63,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 3,
-        "uniqueness": 3,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.31,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 352,
-        "headings": 4,
-        "links": 3,
-        "queryImpressions": 33
-      },
-      "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
     },
     {
@@ -1216,7 +1216,7 @@
         "wordCount": 150,
         "headings": 3,
         "links": 0,
-        "queryImpressions": 7
+        "queryImpressions": 8
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1241,7 +1241,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 19
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1263,10 +1263,10 @@
         "contentCompleteness": 4
       },
       "signals": {
-        "wordCount": 317,
+        "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 19
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1297,6 +1297,31 @@
       "qualityGate": "review-ready"
     },
     {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
+      "cluster": "creator/model referral",
+      "score": 54,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 1,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 929,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 11
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready"
+    },
+    {
       "route": "/adultfriendfinder",
       "title": "AdultFriendFinder Review: Membership, Features & Trade-Offs",
       "cluster": "features",
@@ -1320,31 +1345,6 @@
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
-    },
-    {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model on AVCams: Creator Signup Guide",
-      "cluster": "creator/model referral",
-      "score": 50,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 1,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.23,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 786,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 10
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
     },
     {
       "route": "/categories",
