@@ -1,0 +1,582 @@
+{
+  "version": 1,
+  "policy": "Source-backed opportunity lifecycle; status must not imply production or measured revenue without proof.",
+  "opportunities": [
+    {
+      "id": "guide-contextual-commission-coverage",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 198,
+        "url": "https://github.com/heavenskybird/stripunion/issues/198",
+        "discoveredAt": "2026-11-14T16:16:05Z"
+      },
+      "hypothesis": "High-intent existing guides lack an approved relevant monetizable exit; tiny contextual pilots may improve qualified referrals.",
+      "priority": 1,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/198",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Audit current compiled/GSC inventory; test approved viewer exit on one eligible comparison guide. Hold anime/games without a proper product.",
+      "ownerAction": null,
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T16:16:05Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "webmaster-referral-three-page-pilot",
+      "status": "IMPLEMENTED",
+      "origin": {
+        "issue": 198,
+        "url": "https://github.com/heavenskybird/stripunion/issues/198",
+        "discoveredAt": "2026-11-14T16:16:05Z"
+      },
+      "hypothesis": "Three allowlisted webmaster guides can route qualified affiliates to the existing approved StripCash referral.",
+      "priority": 2,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/202",
+          "asOf": "2026-11-15",
+          "kind": "merged_code_not_live_proof"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Independently verify exact served HTTP/CTA/disclosure and same-window referral outcomes; CI alone is not deployment.",
+      "ownerAction": null,
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T16:16:05Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "APPROVED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "APPROVED",
+          "to": "IMPLEMENTED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "revenue-usd-and-unmatched-postbacks",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 174,
+        "url": "https://github.com/heavenskybird/stripunion/issues/174",
+        "discoveredAt": "2026-11-12T05:53:36Z"
+      },
+      "hypothesis": "Verified provider USD and page-level joins can prioritize revenue rather than content counts.",
+      "priority": 1,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/174",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Separate confirmed/pending/unknown scope; inspect 12 historical unmatched events without creating retroactive joins.",
+      "ownerAction": "Provide authenticated provider same-window payout/commission export only if existing API lacks required fields.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-12T05:53:36Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/174"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/174",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "approved-product-applications",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 198,
+        "url": "https://github.com/heavenskybird/stripunion/issues/198",
+        "discoveredAt": "2026-11-14T16:16:05Z"
+      },
+      "hypothesis": "Relevant toys/manga/game partner approvals can monetize currently unsuitable categories without cam bait-and-switch.",
+      "priority": 3,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/198",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Prioritize Lovense, Lovehoney and DLsite official eligibility; leave targets disabled and EROLABS non-cash rewards ineligible.",
+      "ownerAction": "Owner applies to selected official programs, accepts terms and supplies sanitized approved tracking link; no login secrets.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T16:16:05Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/198",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "model-referral-onboarding-proof",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 199,
+        "url": "https://github.com/heavenskybird/stripunion/issues/199",
+        "discoveredAt": "2026-11-14T16:16:07Z"
+      },
+      "hypothesis": "Transparent adult creator referrals may qualify for operator country-tier rewards after real eligibility milestones.",
+      "priority": 3,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/199",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Verify existing /signup/model redirect, account tracking and country terms; prepare opt-in copy, never fake signup.",
+      "ownerAction": "Only platform account owner can independently prove actual credited qualified model referral when one legitimately occurs.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T16:16:07Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/199"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/199",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "official-trends-rss-radar",
+      "status": "IMPLEMENTED",
+      "origin": {
+        "issue": 200,
+        "url": "https://github.com/heavenskybird/stripunion/issues/200",
+        "discoveredAt": "2026-11-14T16:16:09Z"
+      },
+      "hypothesis": "Timestamped official RSS snapshots can find timely relevant updates when matched to first-party demand and an approved offer.",
+      "priority": 4,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/200",
+          "asOf": "2026-11-15",
+          "kind": "implemented_branch_not_deployed"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Review collector PR and real official feed artifact; cache sufficient observations before claiming 4h/24h/48h/7d coverage.",
+      "ownerAction": null,
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T16:16:09Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/200"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/200",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "APPROVED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/200",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "APPROVED",
+          "to": "IMPLEMENTED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/200",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "google-trends-alpha-access",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 196,
+        "url": "https://github.com/heavenskybird/stripunion/issues/196",
+        "discoveredAt": "2026-11-14T15:27:08Z"
+      },
+      "hypothesis": "Official Alpha may enable consistent long-range demand comparisons if access is granted.",
+      "priority": 6,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/196",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Retain NOT_GRANTED until real official entitlement is independently confirmed; no unofficial scraping.",
+      "ownerAction": "Owner may submit/complete official Alpha application; approval is external and not a prerequisite for RSS.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-14T15:27:08Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/196"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/196",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/196",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "www-apex-host-canonical",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 188,
+        "url": "https://github.com/heavenskybird/stripunion/issues/188",
+        "discoveredAt": "2026-11-12T14:47:45Z"
+      },
+      "hypothesis": "A proven host-only redirect may reduce duplicate host discovery without damaging paths/UTMs.",
+      "priority": 2,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/188",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Preserve Hostinger DNS/CDN; prove supported deployment-level host rule before controlled change.",
+      "ownerAction": "Ask Hostinger for exact host-only www301 capability preserving path/query; do not change generic root forwarding.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-12T14:47:45Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/188"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/188",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/188",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "blog-controlled-editorial-update",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 163,
+        "url": "https://github.com/heavenskybird/stripunion/issues/163",
+        "discoveredAt": "2026-10-22T03:11:27Z"
+      },
+      "hypothesis": "Reviewed distinct Blog updates may restore useful search landing performance without duplicate Astro pages.",
+      "priority": 3,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/163",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Complete reviewed before/after-bound update transaction or genuinely distinct new content; do not reuse create-only pipeline.",
+      "ownerAction": "One exact Blog-specific content approval after safe update mechanism is reviewable; no blanket enable.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-10-22T03:11:27Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/163"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/163",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/163",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "scheduler-independent-cadence-evidence",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 173,
+        "url": "https://github.com/heavenskybird/stripunion/issues/173",
+        "discoveredAt": "2026-11-12T05:53:34Z"
+      },
+      "hypothesis": "Independent cadence evidence prevents blind writer kicks and duplicate production.",
+      "priority": 5,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "source-backed-gap-not-measured-uplift",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/173",
+          "asOf": "2026-11-15",
+          "kind": "issue_and_source_audit"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
+      "nextAction": "Continue existing read-only observer classification; do not add writer or reset Receipt.",
+      "ownerAction": null,
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-12T05:53:34Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/173"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:14:54.961824Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/173",
+          "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Official Trends RSS radar
+on:
+  workflow_dispatch:
+    inputs:
+      geo:
+        type: choice
+        description: One official RSS region per run
+        options: [US, GB, CA, AU]
+        default: US
+  schedule:
+    - cron: '34 * * * *'
+  push:
+    branches: [codex/trends-radar-20261115]
+    paths:
+      - .github/workflows/trends-radar.yml
+      - ops/growth/trends/**
+      - scripts/test/trends-radar.test.mjs
+permissions:
+  contents: read
+concurrency:
+  group: official-trends-rss-radar
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: >-
+      github.repository == 'heavenskybird/stripunion' &&
+      (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/codex/trends-radar-20261115')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      TRENDS_GEO: ${{ inputs.geo || 'US' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test strict RSS parsing, temporal coverage and review-only matching
+        run: node --test scripts/test/trends-radar.test.mjs scripts/test/growth-opportunity-registry.test.mjs
+      - uses: actions/cache/restore@v4
+        id: history
+        with:
+          path: .cache/trends-radar
+          key: trends-radar-v1-${{ inputs.geo || 'US' }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            trends-radar-v1-${{ inputs.geo || 'US' }}-
+      - name: Read official RSS once; retain independent source dates and honest history
+        run: node ops/growth/trends/collect.mjs
+      - name: Validate canonical opportunity registry and emit blind-spot report
+        if: always()
+        run: node ops/growth/opportunity-registry.mjs
+      - name: Verify no tracked source or production state was mutated
+        if: always()
+        run: git diff --exit-code
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache/trends-radar
+          key: trends-radar-v1-${{ inputs.geo || 'US' }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: trends-radar-${{ github.run_id }}
+          path: artifacts/trends-radar/
+          retention-days: 14
