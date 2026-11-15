@@ -1,0 +1,124 @@
+{
+  "backlogId": "premium-video-profile-lock-and-account-protection-audit",
+  "slug": "premium-video-profile-lock-and-account-protection-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Accounts: Check Profile and Sign-In Protections Before Sharing a Device",
+  "description": "A practical checklist for assessing sign-in security, profile separation, and device access before using a premium video account on a shared screen.",
+  "excerpt": "Profile separation and account security are not the same thing. Review sign-in controls, device access, and what each profile can expose before deciding whether an account is suitable for a shared device.",
+  "keyTakeaways": [
+    "A separate profile may organize viewing without providing a separate sign-in or strong privacy boundary.",
+    "Check which account controls protect access, including sign-in recovery and active-device management.",
+    "Review what profile names, watch activity, and recommendations are visible to other users of the device or account.",
+    "Do not assume a profile PIN, lock, or access restriction exists; verify the controls in current account settings.",
+    "If you cannot create a privacy boundary that meets your needs, use a separate account or avoid the shared-device setup."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish profile separation from account security",
+      "paragraphs": [
+        "A video account may let one account holder create multiple profiles, but profiles are not automatically separate accounts. They may have distinct watchlists or recommendations while still sharing one sign-in, billing relationship, or account recovery channel. The owner of the main account may retain access to account-level information and settings. Treat profiles as an organizational feature unless the service clearly explains additional privacy controls.",
+        "Before sharing a device or account, identify the boundary you need. Is the goal to keep recommendations separate, prevent another device user from opening a profile, protect the main account from unauthorized access, or limit disclosure of viewing activity? Each goal requires different evidence. A profile selector may help with organization but may not prevent another person from switching profiles or viewing account settings.",
+        "Read the account’s help material and settings rather than inferring protections from interface labels. Terms such as “profile,” “private,” or “locked” can be used differently across services. Confirm what a control restricts, who can change it, and whether it applies on every device where the account is signed in."
+      ],
+      "bullets": [
+        "List the information you want to keep separate or protected.",
+        "Check whether the control applies to an individual profile, the full account, or one device.",
+        "Record anything that depends on the primary account holder’s access."
+      ]
+    },
+    {
+      "heading": "Review sign-in and recovery protections",
+      "paragraphs": [
+        "Account security begins with the sign-in method and its recovery path. Check whether the account supports a unique password, additional authentication steps, sign-in alerts, or a way to review active sessions. Do not assume any specific feature is available. Look for clear instructions on how to change credentials, recover access, and respond if a device remains signed in after someone stops using it.",
+        "Recovery information can create a privacy connection between the account and an email address or phone number. Consider whether other users of the device can access that inbox, see one-time codes, or receive reset messages. Use an email account and authentication method that you control, and avoid saving sign-in credentials on a device you do not manage. A device-level passcode can help protect the device but does not replace account-level security.",
+        "Check whether there is a session or device list and whether you can sign out a device remotely. If the service does not explain how access is managed, note that uncertainty. When using a borrowed or shared screen, sign out when finished and verify that the account is no longer open. Do not rely on closing a tab as proof that a session ended."
+      ]
+    },
+    {
+      "heading": "Map what other profile users can see",
+      "paragraphs": [
+        "Make a visibility map before adding profiles or using an existing one. Consider profile names, icons, watchlists, recent activity, recommendations, and any public-facing account details. Check which information appears when switching profiles and which information is available in account settings. A profile may affect recommendations without hiding the fact that it exists or preventing the account owner from inspecting it.",
+        "Look for controls governing profile creation, removal, access restrictions, and activity visibility. Verify who can change those controls. If the account owner can reset or override a profile boundary, that distinction matters when deciding whether the setup offers privacy or merely convenience. Avoid placing identifying or sensitive details in profile names or icons when other users may see them.",
+        "Test only on an account and device you are authorized to use. Navigate through the normal profile-selection and settings screens, taking care not to expose another person’s information. If a feature requires a paid change, a new account, or additional personal details, assess whether that requirement is worth it before proceeding. Do not assume a profile feature is available simply because another platform has one."
+      ],
+      "table": {
+        "caption": "Questions to answer when assessing shared-account boundaries",
+        "headers": [
+          "Area",
+          "Question to verify",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Profile visibility",
+            "Can other account users see the profile name or icon?",
+            "What appears in the profile selector"
+          ],
+          [
+            "Activity",
+            "Can another user see watchlists or recent activity?",
+            "Which screens expose activity"
+          ],
+          [
+            "Access restriction",
+            "Is there a profile-specific access control, and who can change it?",
+            "The control’s stated scope and override rules"
+          ],
+          [
+            "Account access",
+            "Can the account owner inspect settings or active sessions?",
+            "Available account and device controls"
+          ],
+          [
+            "Sign-out",
+            "Can a device session be ended and verified?",
+            "Sign-out path and confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check device behavior, not just account settings",
+      "paragraphs": [
+        "A shared television, tablet, or browser can retain an account session even after a person leaves the room. Review whether the device offers separate user accounts, a screen lock, or a way to remove saved credentials. Check whether app launch returns directly to a profile, whether the device remembers the last-used account, and whether account information appears in a home-screen preview. These details affect privacy independently of the video service’s profile settings.",
+        "Consider casting and external displays as part of the same boundary assessment. A device may show playback controls, account names, or recent items on a screen visible to others. If you use a browser, check whether saved passwords, autofill, history, or open tabs are accessible to other device users. On a device you do not control, avoid saving credentials and sign out rather than relying on the owner to preserve your preferred settings.",
+        "Keep a short record of the specific device tested and the result. An app update, operating-system change, or account setting change may alter what is remembered. Recheck after updates or after changing who can access the device, especially when your decision depends on a sign-in remaining private."
+      ]
+    },
+    {
+      "heading": "Choose a sharing arrangement that matches the boundary",
+      "paragraphs": [
+        "Once you have checked the controls, compare the arrangement with your actual need. Separate profiles may be enough when the goal is to keep recommendations and watchlists organized among people who already share an account. They may not be sufficient when you need to prevent the account owner or another device user from seeing profile activity. A separate account or personal device may offer a clearer boundary, subject to the service’s current terms and available options.",
+        "Do not share passwords to solve a profile-organization problem. Password sharing can expose recovery information, payment settings, and other account controls. If another person needs access, review the service’s current account and device rules and choose an allowed arrangement. Avoid making assumptions based on a plan name or promotional description; inspect the terms that apply to your account.",
+        "A good decision record is simple: state the privacy goal, the controls verified, the limits discovered, and the arrangement selected. If key details are unavailable, mark them as unknown. That is a reason to avoid relying on the account for a sensitive use, not a reason to assume the strongest interpretation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate profile make viewing activity private from the account owner?",
+      "answer": "Not necessarily. Profiles may organize recommendations or lists without hiding activity from the primary account holder. Check the service’s current explanation and account settings for the specific information visible to other users."
+    },
+    {
+      "question": "Is a profile lock the same as securing the whole account?",
+      "answer": "No. A profile-specific control, if available, may restrict access to one area while leaving account settings, billing, or recovery information accessible elsewhere. Verify the control’s exact scope."
+    },
+    {
+      "question": "What should I check on a shared television?",
+      "answer": "Check whether the app remains signed in, whether profiles are visible at launch, whether activity or account details appear on screen, and how to sign out. Also consider the television’s own user and screen-lock settings."
+    },
+    {
+      "question": "Should I use a shared account if its privacy boundary is unclear?",
+      "answer": "If the boundary is important and the available information does not answer your questions, do not rely on that setup for privacy. Consider an account or device you control, or avoid using the shared device."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,118 @@
+export default {
+  "slug": "webmaster-affiliate-dashboard-outage-operational-continuity-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Dashboard Unavailable? Build an Operations Continuity Plan",
+  "description": "Prepare for an affiliate dashboard outage with a practical plan for preserving evidence, protecting links, and avoiding unsupported tracking changes.",
+  "excerpt": "A dashboard outage can interrupt reporting and routine campaign work. Plan in advance what to preserve, which site changes to pause, and how to resume operations without treating missing data as confirmed performance.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Separate a dashboard display problem from a tracking, destination, or payout problem before changing campaigns.",
+    "Keep dated exports and local records where permitted, but do not collect visitor data beyond what is necessary and allowed.",
+    "Document outage timing, affected tools, and support communications without presenting estimates as verified conversions.",
+    "Pause risky changes to tracking links until you understand whether the issue is reporting-only or affects attribution.",
+    "Define a careful recovery check before resuming normal reporting or making performance decisions."
+  ],
+  "sections": [
+    {
+      "heading": "Define the failure before responding",
+      "paragraphs": [
+        "An unavailable dashboard does not automatically mean that referral links are broken, tracking has stopped, conversions are missing, or a payment is delayed. It could be a login issue, a report page error, a delayed data refresh, or an actual service interruption. Treat these as separate possibilities and avoid making a campaign change until you know which function is affected.",
+        "Start with a timestamped incident note. Record when the problem began, which account or report views are affected, the page or feature that failed, and the exact message shown. Note whether existing referral links still resolve to their expected destination using a controlled, non-conversion test. Do not generate artificial clicks or conversions to test attribution unless the program’s rules expressly permit the method.",
+        "Check the program’s official status or support information if available, but distinguish a confirmed notice from an assumption. If no status information is available, state that the cause is unknown. This prevents a temporary display issue from becoming an unsupported claim about commissions or tracking."
+      ],
+      "bullets": [
+        "Record the date, time, time zone, browser, and affected dashboard area.",
+        "Separate observed errors from suspected causes.",
+        "Do not use self-referrals, fabricated transactions, or unapproved test traffic."
+      ]
+    },
+    {
+      "heading": "Protect the records you already have",
+      "paragraphs": [
+        "Before an incident, identify which records you can export and what the program permits you to retain. Useful records may include dated reports, campaign identifiers, link inventories, approved creative versions, and relevant program communications. Keep only information necessary for operations and follow the program’s data terms and your own privacy obligations. A continuity plan is not permission to store sensitive visitor-level information unnecessarily.",
+        "During an outage, preserve the last available report with its reporting period, export time, and any filters used. Do not silently replace an older file with a later download that has different date boundaries. Use clear filenames and maintain a small incident log describing what is known, what remains unavailable, and when you will check again.",
+        "If the dashboard allows no export or the data is inaccessible, document that limitation. Do not reconstruct missing conversions from server logs, click counts, or other incomplete sources and present them as the program’s confirmed figures. Those records may help identify a discrepancy later, but they do not establish the program’s final attribution or commission calculation."
+      ],
+      "table": {
+        "caption": "Continuity records to prepare and how to use them",
+        "headers": [
+          "Record",
+          "Why it helps",
+          "Caution"
+        ],
+        "rows": [
+          [
+            "Dated report export",
+            "Preserves the last visible reporting snapshot",
+            "Retain its date range and export time"
+          ],
+          [
+            "Referral-link inventory",
+            "Identifies links and destinations used on site",
+            "Do not change tracking parameters during an outage without a reason"
+          ],
+          [
+            "Incident log",
+            "Keeps a chronological record of observations and actions",
+            "Label hypotheses as unconfirmed"
+          ],
+          [
+            "Program support messages",
+            "Preserves instructions or status updates",
+            "Record the source and date of each message"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Decide what campaign work can continue",
+      "paragraphs": [
+        "Some work may be safe to continue while reporting is unavailable: maintaining editorial content, checking that public pages render, or updating non-tracking material that does not change referral destinations. Other work should wait: replacing links, changing attribution parameters, altering redirects, or scaling traffic based on current conversion assumptions. Make the decision based on the possible impact of the change, not on the desire to keep every task moving.",
+        "Use a change freeze for high-impact tracking edits unless the issue itself requires a correction. If a link appears to be broken, capture the problem and compare it with your approved link record. Do not replace it with a guessed URL or remove parameters merely to make the link look cleaner. Changes made during an outage can make later reconciliation harder because the before-and-after states may be unclear.",
+        "If your site has multiple placements, note which pages contain affected links and whether they are part of an active campaign. Avoid redirecting visitors to an alternative offer unless that destination is approved and the substitution is clearly suitable. If no approved fallback exists, temporarily removing a link may be safer than sending visitors somewhere unexpected."
+      ],
+      "bullets": [
+        "Continue low-risk editorial and site-maintenance tasks that do not alter referral tracking.",
+        "Pause unneeded tracking, redirect, and attribution changes.",
+        "Use only documented, approved fallback destinations.",
+        "Make any necessary correction with a dated record of the old and new state."
+      ]
+    },
+    {
+      "heading": "Communicate with the program using a concise evidence file",
+      "paragraphs": [
+        "When contacting support, provide enough detail for the issue to be located without sending unnecessary personal or visitor information. Include the account or campaign reference that the program requests, the affected dashboard section, the time and time zone, the visible error, and steps already taken. Attach a relevant screenshot only after removing unrelated account or personal details.",
+        "Ask a focused question: is the incident limited to dashboard access, does it affect reporting updates, or is there confirmed impact to tracking or referral destinations? Ask when to check for an update and whether the program has guidance for preserving records or testing links. Avoid asking support to confirm a conclusion that the evidence does not establish.",
+        "Save the reply with its date and source. If support provides instructions, distinguish those instructions from general program terms and confirm their scope. A support message may resolve the immediate incident without changing the written program rules; retain both records and note any difference that needs clarification."
+      ]
+    },
+    {
+      "heading": "Resume with a controlled recovery check",
+      "paragraphs": [
+        "When access returns, do not assume that every report has backfilled or that an empty period means no activity occurred. Check the dashboard’s stated reporting delay, period boundaries, and update timestamps. Compare the recovered view with the last saved export, using matching dates and filters. Record differences as observed discrepancies until the program explains or resolves them.",
+        "Verify link destinations and tracking setup against your approved link inventory. If you changed a link during the incident, confirm which version is live on each relevant page and document the restoration or replacement. Where the program provides an approved test method, use it; otherwise, do not manufacture test traffic that could violate program rules or distort reports.",
+        "Resume decisions in stages. First confirm the dashboard is accessible and the reporting period is understood. Then assess whether the program has clarified any tracking impact. Only after those checks should you update forecasts or campaign budgets, and even then distinguish confirmed figures from provisional data. Keep the incident record with the affected campaign documentation so future reporting reviews retain the necessary context."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a dashboard outage prove that referral tracking has stopped?",
+      "answer": "No. A dashboard display problem and a tracking interruption are different possibilities. Record what you can observe and seek program guidance before concluding that attribution has stopped."
+    },
+    {
+      "question": "Should I replace links while reports are unavailable?",
+      "answer": "Avoid unnecessary changes. If a destination is demonstrably broken, use only a documented and approved correction or fallback, and preserve a dated record of the change."
+    },
+    {
+      "question": "Can I estimate missing commissions from my own click logs?",
+      "answer": "Your own records may help identify a question, but they do not establish the program’s credited conversions or final commission. Label any internal estimate as an estimate and do not treat it as a confirmed payout."
+    },
+    {
+      "question": "What should I send to support?",
+      "answer": "Send a concise description of the affected dashboard area, the time and time zone, the visible error, and the steps already taken. Avoid including unnecessary visitor data or unrelated personal information."
+    }
+  ]
+};

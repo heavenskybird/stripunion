@@ -1,0 +1,124 @@
+{
+  "backlogId": "live-cam-browser-notification-exposure-review",
+  "slug": "live-cam-browser-notification-exposure-review",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Sites: Check Browser Notification Privacy Before Allowing Alerts",
+  "description": "Learn how to assess browser notification prompts, account alerts, and lock-screen exposure before enabling live cam site notifications.",
+  "excerpt": "Browser alerts can surface a site name or message on a device screen at an unexpected time. Use this checklist to assess notification settings and decide whether alerts fit your privacy needs.",
+  "keyTakeaways": [
+    "A browser permission and an account notification preference are separate controls; review both.",
+    "Check what an alert displays, where it may appear, and whether it can be disabled later.",
+    "Test notification behavior on the device you actually use, including its lock screen and shared-user settings.",
+    "Decline permission when the alert’s purpose or information content is unclear; browsing and notifications are separate choices.",
+    "Do not assume that turning off alerts in one place revokes every related permission."
+  ],
+  "sections": [
+    {
+      "heading": "Understand which notification system is asking",
+      "paragraphs": [
+        "A notification request may come from the browser, an installed app, or an account preference page. These are different layers. A site may ask a browser to show alerts, while its account settings may separately offer email or other notices. An operating-system setting can also control whether notifications appear on the lock screen, make a sound, or show a preview. Treat each layer as a separate decision rather than accepting a prompt because it appears during browsing.",
+        "Before enabling anything, read the prompt and identify the permission it requests. If the request is vague, dismiss it and look for an explanation in the site’s help or notification settings. Do not infer that alerts are required to view a public page or use basic browsing. A notification permission grants a channel for messages; it is not a general measure of whether the site is safe or trustworthy.",
+        "Write down which control you changed and where. For example, note whether you allowed browser notifications, enabled account email updates, or changed the device’s lock-screen preview behavior. This simple inventory makes it easier to reverse the choice later and prevents confusing a site-level preference with a device-level permission."
+      ],
+      "bullets": [
+        "Identify the requesting app or browser before responding.",
+        "Check whether the permission is optional and what types of alerts it covers.",
+        "Avoid enabling notifications on a shared device unless you understand who can see them."
+      ]
+    },
+    {
+      "heading": "Inspect the information an alert could reveal",
+      "paragraphs": [
+        "Notification privacy depends on both content and display context. An alert might show a site name, a generic message, or a preview. The actual presentation can vary by browser, device, operating system, and user settings, so do not rely on assumptions based on another device. Consider who might see the screen while it is locked, mirrored, connected to a shared display, or used by another person.",
+        "Look for controls that affect previews, sounds, badges, and the time an alert remains visible. Some devices allow notifications to appear without revealing full message text; others offer per-app controls or broad lock-screen settings. Check what your own device supports in its current configuration. If the message content cannot be understood before opting in, choose the more private setting or leave the permission disabled.",
+        "Think beyond the lock screen. Browser alerts may appear while another application is open, and notification history may remain available after an alert disappears. If your device has a notification center or history view, review its behavior. Also consider whether your device is connected to a watch, car display, or other accessory that can surface notifications independently."
+      ],
+      "table": {
+        "caption": "Notification privacy checks by control layer",
+        "headers": [
+          "Layer",
+          "What to inspect",
+          "Practical decision"
+        ],
+        "rows": [
+          [
+            "Site or account settings",
+            "Alert types, message detail, and any separate email choices",
+            "Enable only the specific notices you want"
+          ],
+          [
+            "Browser permission",
+            "Whether the site is allowed to send notifications",
+            "Allow only if the permission and purpose are clear"
+          ],
+          [
+            "Device settings",
+            "Lock-screen previews, sounds, badges, and notification history",
+            "Reduce visible detail if the device is shared or exposed"
+          ],
+          [
+            "Connected displays or accessories",
+            "Whether alerts appear on another screen or device",
+            "Disable or adjust the relevant handoff if needed"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test the setup without relying on guesses",
+      "paragraphs": [
+        "If you choose to enable alerts, test them at a time and place where a visible notification will not create a problem. Use the available settings to select the least revealing preview level first. If the site offers a test notice or a routine alert you can observe, check what actually appears. Do not use a work, school, family, or otherwise managed device to experiment unless its rules allow the activity and the device is private enough for your needs.",
+        "Observe the alert across the contexts that matter to you: screen locked, browser in the background, another app open, and any connected device you normally use. Verify whether the displayed text includes a recognizable site name or personal detail. A setting that looks discreet in one context may present differently elsewhere. If you cannot safely test an alert, keep the permission off.",
+        "After testing, check whether the browser or account has a notification log or preference summary. Record the result in plain language: for example, whether the alert showed a site identity, whether a preview was visible, and which setting changed it. This record is useful if a browser update or device change resets your preferred behavior."
+      ]
+    },
+    {
+      "heading": "Review and revoke permissions when circumstances change",
+      "paragraphs": [
+        "A notification choice that made sense on a personal device may not suit a device later shared with a household member or used in a more public setting. Revisit permissions after changing browsers, moving to a new device, enabling a connected watch, or altering lock-screen settings. Browser permissions can persist independently from site account preferences, so a site-level opt-out may not revoke browser access.",
+        "To stop alerts, check both the site’s notification preferences and the browser’s permissions list. If the site provides separate controls for different alert types, disable only the ones you no longer want. Then review device settings and clear any notification history that you do not want retained, using the controls available on that device. Menu names vary, so follow the browser and operating-system instructions for your specific version.",
+        "If alerts continue after you change settings, check whether another browser profile, app, or account is responsible. Avoid repeatedly accepting prompts to make them disappear. Confirm the source, change the relevant permission, and test that the alert has stopped. If the controls remain unclear, keeping notifications disabled is a reasonable privacy choice."
+      ],
+      "bullets": [
+        "Review browser permissions separately from account preferences.",
+        "Check every browser profile or installed app that may be signed in.",
+        "Reassess settings after device, browser, or shared-screen changes."
+      ]
+    },
+    {
+      "heading": "Use a simple notification decision rule",
+      "paragraphs": [
+        "Decide whether an alert is worth the privacy tradeoff before opting in. Ask what useful task it serves, whether the same information is available when you open the site, and what the notification might reveal to someone nearby. If the benefit is minor and the alert identifies the site, leaving notifications off may be the better fit. There is no need to enable alerts simply because a prompt appears.",
+        "If you do want alerts, minimize what they reveal. Prefer the narrowest available notification category, avoid message previews where possible, and ensure that the browser and device both reflect your preference. Do not treat a generic-looking alert as anonymous without testing it; icons, sender labels, or notification history may still disclose context.",
+        "A useful platform comparison should include clarity and reversibility, not just whether notifications exist. Note whether the platform explains its alert categories, gives understandable controls, and lets you change preferences without confusion. These observations help you compare practical privacy information without assuming that any service offers a particular control."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does denying browser notifications prevent ordinary browsing?",
+      "answer": "A notification permission is separate from basic browser access in many situations, but site designs vary. If a page claims permission is required, review its explanation and decide whether the request is necessary for the function you want. You can choose not to grant a permission you do not understand."
+    },
+    {
+      "question": "If I turn off site notifications, will account emails stop too?",
+      "answer": "Not necessarily. Browser notifications and email preferences may be managed separately. Review the account’s communication settings and your browser’s permission list independently."
+    },
+    {
+      "question": "Can a notification reveal the site even if message previews are hidden?",
+      "answer": "It may. An icon, sender label, app name, or notification history could still reveal context. Check the actual behavior on your device rather than relying only on preview settings."
+    },
+    {
+      "question": "What should I do if I already allowed notifications?",
+      "answer": "Review the site or account preferences, revoke the browser permission if desired, and check device-level display settings and notification history. The steps depend on your browser and device, so use their current permission menus."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

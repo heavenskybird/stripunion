@@ -1,0 +1,122 @@
+export default {
+  "slug": "adult-dating-event-rsvp-visibility-privacy-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Events: Check RSVP Visibility and Attendance Privacy",
+  "description": "Before joining an event through an adult dating platform, check who can see your RSVP, attendance status, profile, and related activity.",
+  "excerpt": "Event tools can make it easier to find people with shared interests, but participation may reveal information beyond an ordinary profile view. Use this checklist to understand RSVP visibility before signing up.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "An event listing, RSVP, attendee list, and attendance record may each have different visibility rules.",
+    "Check whether your profile details appear to other attendees, the event organizer, or a wider platform audience.",
+    "Review what happens when you cancel an RSVP and whether past participation remains visible.",
+    "Do not assume that an event is private because it is invitation-only or shown inside a dating account.",
+    "If visibility terms are unclear, ask for clarification or avoid sharing information you would not want exposed."
+  ],
+  "sections": [
+    {
+      "heading": "Map the event’s different visibility stages",
+      "paragraphs": [
+        "Event participation is not a single action. A platform may show a listing to browsing users, let members save an event, collect an RSVP, display an attendee list, and later record attendance. Each stage can expose different details. Before taking part, identify which step you are considering and what information becomes visible at that point.",
+        "Start with the event page and any available participation explanation. Look for statements about whether the event is public, limited to a group, restricted to invited users, or visible only to the people organizing it. These labels are not interchangeable. An invitation requirement may restrict who can join while still allowing organizers or attendees to see participant names or profiles.",
+        "If the platform does not explain visibility, do not infer privacy from a small attendee count, a private-looking interface, or the fact that access requires an account. Note what is unknown and decide whether the event is still appropriate for you. A platform’s privacy notice may explain general data handling, while event-specific controls determine who can see participation."
+      ],
+      "bullets": [
+        "Separate listing visibility from RSVP and attendance visibility.",
+        "Identify who can see each stage: other members, attendees, organizers, or the broader public.",
+        "Record what is clearly stated and what remains uncertain."
+      ]
+    },
+    {
+      "heading": "Check what an RSVP reveals about your profile",
+      "paragraphs": [
+        "An RSVP may display more than a name. Check whether it links to your dating profile, profile photo, age range, location information, relationship preferences, or other fields. Even if the RSVP itself shows limited details, selecting it may make your profile discoverable to a new audience. Consider whether those people are within the visibility scope you intended when you created your profile.",
+        "Look for controls that let you limit profile details, hide an RSVP, or participate without linking to a full profile. Do not assume these options exist; confirm them in the event flow before submitting. If the platform offers a profile preview, check it as an attendee might see it, while respecting the service’s rules and other users’ privacy.",
+        "Review the wording on the final confirmation screen. It may explain whether your response appears in an attendee list, is shared with an organizer, or triggers a notification. If the platform uses broad terms such as “members” without defining who qualifies, treat the audience as unclear. Avoid adding extra personal details in optional RSVP fields unless they are necessary and you understand who will receive them."
+      ],
+      "table": {
+        "caption": "Event participation privacy questions",
+        "headers": [
+          "Stage",
+          "What to verify",
+          "Potential exposure"
+        ],
+        "rows": [
+          [
+            "Event discovery",
+            "Who can open or search the listing?",
+            "Interest in an event may be visible through activity or saved items"
+          ],
+          [
+            "RSVP",
+            "Who sees your response and profile link?",
+            "Other attendees or organizers may identify your account"
+          ],
+          [
+            "Organizer communication",
+            "What details are shared to coordinate attendance?",
+            "Contact or profile information may be used beyond the listing"
+          ],
+          [
+            "Attendance",
+            "Is attendance recorded or displayed after the event?",
+            "Participation may remain visible after the event ends"
+          ],
+          [
+            "Cancellation",
+            "Does withdrawing remove the RSVP or only change status?",
+            "A past response may remain accessible or be retained"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand organizer and attendee access",
+      "paragraphs": [
+        "The event organizer may have different access from ordinary attendees. Check whether organizers can view RSVP details, contact participants, export lists, or change event visibility. These are practical questions about platform operation, not accusations about a particular organizer. Use the platform’s published information and any event-specific rules to understand the roles involved.",
+        "Also consider whether attendees can see one another before the event, during it, or afterward. A list that is visible only after RSVP can still reveal participation to a substantial group. If the platform explains the attendee audience only in a help page or confirmation message, make sure you review it before confirming.",
+        "If participation includes off-platform communication, assess that separately. An event RSVP does not mean you must provide a personal phone number, social account, workplace, or home address. Use platform-provided communication routes when available and appropriate, and decline requests for information you do not want to share. Do not treat an organizer’s request as proof that the platform requires the information."
+      ]
+    },
+    {
+      "heading": "Review cancellation, retention, and follow-up",
+      "paragraphs": [
+        "Find out what happens when you cancel or change an RSVP. The interface may immediately remove your name from an attendee list, but that does not establish whether event organizers or the platform retain a record. Check whether the help material explains retention, whether the event page stays available afterward, and whether past participation can remain in activity history.",
+        "Review follow-up settings as well. An event may generate reminders, messages, or notifications, and those may be governed by controls separate from the RSVP. Consider whether notifications could appear on a lock screen or shared device. If you do not want follow-up, look for event-specific options and separately review platform notification settings.",
+        "If you decide not to attend, use the platform’s documented cancellation path and retain a confirmation if one is provided. If the RSVP still appears afterward, distinguish a display delay from a failed cancellation before taking further steps. Avoid deleting your whole dating account just to remove one event response unless you have reviewed the wider consequences."
+      ],
+      "bullets": [
+        "Check whether cancellation removes the RSVP from visible lists.",
+        "Review whether event reminders and organizer messages have separate controls.",
+        "Keep a confirmation of any change if the platform provides one."
+      ]
+    },
+    {
+      "heading": "Make an event decision with a privacy threshold",
+      "paragraphs": [
+        "Set a simple threshold before you RSVP: which people may see your participation, what profile details may be linked, and whether you are comfortable with any record remaining afterward. Compare those requirements with the information the platform provides. If a key answer is missing, ask the organizer or platform through a suitable support channel, without sharing additional sensitive details unnecessarily.",
+        "An event can still be a poor fit even when it is technically limited to members. Conversely, a clearly described event with a visible attendee list may be acceptable if you are comfortable with that audience. Focus on the actual visibility and control details rather than relying on labels such as “community” or “private.”",
+        "Before participating, review your profile for information you do not want event attendees to see, confirm your communication and notification preferences, and decide how you will handle requests to move conversations elsewhere. You can decline, cancel, or leave an event when its visibility no longer suits you. The goal is informed participation, not assuming that every event feature is either fully public or fully private."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an invitation-only event guarantee that my RSVP is private?",
+      "answer": "No. Invitation limits may control who can join without hiding an RSVP from organizers or other invitees. Check the event’s specific visibility explanation before responding."
+    },
+    {
+      "question": "If I cancel, is my attendance history deleted?",
+      "answer": "Not necessarily. A cancellation may change what other users see without deleting records held by the platform or organizer. Check the platform’s cancellation and data-retention information."
+    },
+    {
+      "question": "Can event organizers see my full dating profile?",
+      "answer": "That depends on the platform’s design and event settings. Verify whether an RSVP links to your profile and what profile fields are visible to organizers or attendees."
+    },
+    {
+      "question": "What if the event page does not explain who can see participants?",
+      "answer": "Treat that as an unresolved privacy question. Ask for clarification before submitting an RSVP, or skip the event if the audience could include people you do not want to identify your participation."
+    }
+  ]
+};
