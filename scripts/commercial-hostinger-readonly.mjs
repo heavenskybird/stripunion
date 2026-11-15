@@ -11,8 +11,10 @@ try{
  const list=await get('websites?per_page=100');const website=getRecords(list).find(w=>w.domain==='stripunion.com');
  if(!website?.username)throw Error('CANONICAL_PRODUCTION_WEBSITE_NOT_FOUND');
  const prefix='accounts/'+encodeURIComponent(website.username)+'/websites/stripunion.com/';
- const build=newestFirst(getRecords(await get(prefix+'nodejs/builds?per_page=100')))[0];
+ const builds=newestFirst(getRecords(await get(prefix+'nodejs/builds?per_page=100')));
+ const build=builds[0], completed=builds.find(b=>['completed','success','succeeded'].includes(String(b.state||b.status).toLowerCase()));
  report={...report,status:'READ_VERIFIED',build:build?{id:build.uuid||build.id,state:build.state||build.status,createdAt:build.created_at||build.createdAt,providerCommitSha:build.commit_sha||build.commitSha||null}:null,
+ latestCompletedBuild:completed?{id:completed.uuid||completed.id,state:completed.state||completed.status,createdAt:completed.created_at||completed.createdAt,providerCommitSha:completed.commit_sha||completed.commitSha||null}:null,
  note:'Production domain metadata, separate from staging. Null provider commit is UNKNOWN; served CTA contract fingerprints provide separate content proof. No deployment or config API called.'};
 }catch{report.reason='PRODUCTION_BUILD_METADATA_UNVERIFIED';}
 await fs.mkdir('artifacts/commercial',{recursive:true});await fs.writeFile('artifacts/commercial/production-hostinger.json',JSON.stringify(report,null,2)+'\n');console.log('COMMERCIAL_HOSTINGER '+JSON.stringify(report));

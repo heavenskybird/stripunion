@@ -1,6 +1,6 @@
 # StripUnion: Commercial-Growth Continuity Contract
 
-**Status:** Draft PR; this contract must not be mistaken for live deployment or measured commercial uplift.
+**Status:** Contract merged in PR #201. Track individual workstreams in `ops/growth/opportunity-registry.json`; this contract does not itself prove deployment or measured commercial uplift.
 
 ## North star
 **Verified USD affiliate revenue and profit**, from consent-safe, adult 18+ qualified traffic. A green Build, more AI content, raw clicks, postbacks with unknown currencies, or estimated SEO demand are not revenue. Preserve audience trust, upstream affiliate agreements, lawful recruitment and attribution.
