@@ -13,12 +13,13 @@ const archive=path.join(cache,'archive');try{const files=(await fs.readdir(archi
 const offers=JSON.parse(await fs.readFile('ops/growth/offers/direct-offers.json')).offers;
 const search=JSON.parse(await fs.readFile('ops/seo-data-layer/data/search-growth/latest.json'));
 const domain=search.reports.find(r=>r.status==='ok'&&r.snapshot?.siteUrl==='sc-domain:stripunion.com');
-const gscRows=domain?.snapshot?.queryPageRows||[];
+const searchWindow=domain?.decisions?.find(w=>w.name==='current28');
+const gscRows=(domain?.snapshot?.queryPageRows||[]).filter(r=>searchWindow&&r.date>=searchWindow.startDate&&r.date<=searchWindow.endDate);
 let bing=null;for(const day of (await fs.readdir('ops/seo-data-layer/data/raw')).sort().reverse()){try{bing=JSON.parse(await fs.readFile('ops/seo-data-layer/data/raw/'+day+'/bing.json'));break;}catch(e){if(e.code!=='ENOENT')throw e;}}
 const existingPaths=new Set();for(const f of await fs.readdir('src/pages'))if(f.endsWith('.astro'))existingPaths.add('/'+f.replace(/\.astro$/,''));for(const f of await fs.readdir('src/data/guides'))if(f.endsWith('.js'))existingPaths.add('/guides/'+f.replace(/\.js$/,''));
 const report=reportFor(outcome.state,{offers,gscRows,bingRows:bing?.sites?.flatMap(s=>s.queryStats||[])||[],existingPaths});
 report.collection={status:outcome.status,requests:outcome.requests,cacheReason:outcome.cacheReason||null};
-report.context={gsc:{property:'sc-domain:stripunion.com',collectedAt:search.collectedAt,startDate:domain?.snapshot?.startDate||null,endDate:domain?.snapshot?.endDate||null,scope:'Query-page observations; not property totals'},bing:{collectedAt:bing?.collectedAt||null,scope:'Stored own-site provider rows; not matched RSS interval'},offers:{source:'ops/growth/offers/direct-offers.json',rule:'Only previously active contextual offers qualify; targets remain HOLD'}};
+report.context={gsc:{property:'sc-domain:stripunion.com',collectedAt:search.collectedAt,startDate:searchWindow?.startDate||null,endDate:searchWindow?.endDate||null,scope:'Query-page observations; not property totals'},bing:{collectedAt:bing?.collectedAt||null,scope:'Stored own-site provider rows; not matched RSS interval'},offers:{source:'ops/growth/offers/direct-offers.json',rule:'Only previously active contextual offers qualify; targets remain HOLD'}};
 report.sourceSha=process.env.GITHUB_SHA||'LOCAL_UNCOMMITTED';report.productionWrites=0;report.sends=0;report.opportunityProposals=report.candidates.filter(c=>c.decision!=='HOLD').map(c=>({id:'trend-'+c.id,status:'DISCOVERED',query:c.query,geo,firstSeenAt:c.firstSeenAt,evidence:report.sourceUrl,nextAction:'Review existing page and factual offer suitability; no queue/send',targetUrl:c.targetUrl}));
 await fs.writeFile(path.join(output,'report.json'),JSON.stringify(report,null,2)+'\n');await fs.writeFile(path.join(output,'cache-state.json'),JSON.stringify(outcome.state,null,2)+'\n');
 await fs.writeFile(path.join(output,'opportunity-proposals.json'),JSON.stringify(report.opportunityProposals,null,2)+'\n');

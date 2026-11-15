@@ -28,13 +28,14 @@ export function parseRss(xml){
   if(!stack.length){if(rootSeen||name!=='rss')throw Error('RSS_ROOT_REQUIRED');rootSeen=true;}
   if(name==='channel'&&stack.at(-1)==='rss')channelSeen=true;
   if(name==='item'){if(stack.at(-1)!=='channel'||item)throw Error('RSS_ITEM_POSITION');item={};}
-  if(!self)stack.push(name);
+  if(!self)stack.push(name);else if(name==='item'){items.push(item);item=null;}
  }
  if(stack.length||!rootSeen||!channelSeen)throw Error('RSS_MALFORMED');
  return items.slice(0,200).map(r=>({query:String(r.title||'').trim().slice(0,200),providerPublishedAt:timestamp(r.pubDate),approxTrafficLabel:String(r['ht:approx_traffic']||'').trim().slice(0,30),providerLink:String(r.link||'').trim()})).filter(r=>r.query);
 }
 export function emptyState(geo){if(!REGIONS.includes(geo))throw Error('REGION_NOT_ALLOWED');return {version:1,geo,observations:[],items:[],lastAttemptAt:null,lastSuccessAt:null,nextFetchAt:null,failures:0,etag:null,lastModified:null,bodyHash:null};}
-export function validateState(state,geo){if(!state||state.version!==1||state.geo!==geo||!Array.isArray(state.observations)||!Array.isArray(state.items)||state.observations.length>500||state.items.length>5000)throw Error('TRENDS_CACHE_INVALID');return state;}
+export function validateState(state,geo){if(!state||state.version!==1||state.geo!==geo||!Array.isArray(state.observations)||!Array.isArray(state.items)||state.observations.length>500||state.items.length>5000)throw Error('TRENDS_CACHE_INVALID');
+ if(!Number.isInteger(state.failures)||state.failures<0||state.observations.some(t=>!timestamp(t))||['lastAttemptAt','lastSuccessAt','nextFetchAt'].some(k=>state[k]!==null&&!timestamp(state[k]))||state.items.some(r=>r.geo!==geo||r.id!==digest(geo+':'+normalizeQuery(r.query))||r.normalizedQuery!==normalizeQuery(r.query)||!timestamp(r.firstSeenAt)||!timestamp(r.lastSeenAt)||Date.parse(r.firstSeenAt)>Date.parse(r.lastSeenAt)))throw Error('TRENDS_CACHE_INVALID');return state;}
 export function cacheDecision(state,now=Date.now()){
  if(state.nextFetchAt&&Date.parse(state.nextFetchAt)>now)return {fetch:false,reason:'BACKOFF',until:state.nextFetchAt};
  if(state.lastSuccessAt&&now-Date.parse(state.lastSuccessAt)<10*60000)return {fetch:false,reason:'MIN_INTERVAL_10_MINUTES'};
@@ -72,17 +73,17 @@ export function rankCandidate(item,{offers=[],gscRows=[],bingRows=[],existingPat
 export function reportFor(state,context={},now=Date.now()){
  const candidates=state.items.filter(r=>Date.parse(r.lastSeenAt)===Date.parse(state.lastSuccessAt)).map(r=>rankCandidate(r,{...context,now})).sort((a,b)=>b.priority-a.priority);
  const eligible=candidates.filter(r=>r.decision!=='HOLD');
- return {version:1,collectedAt:new Date(now).toISOString(),geo:state.geo,sourceUrl:`https://trends.google.com/trending/rss?geo=${state.geo}`,alphaApi:{status:'NOT_GRANTED',queried:false},sourceMode:'OFFICIAL_PUBLIC_RSS_CURRENT_SNAPSHOT',cache:{lastSuccessAt:state.lastSuccessAt,nextFetchAt:state.nextFetchAt,bodyHash:state.bodyHash},windows:WINDOWS.map(h=>windowCoverage(state,h,now)),candidateCount:candidates.length,eligibleCount:eligible.length,
+ return {version:1,reportGeneratedAt:new Date(now).toISOString(),collectedAt:state.lastSuccessAt,geo:state.geo,sourceUrl:`https://trends.google.com/trending/rss?geo=${state.geo}`,alphaApi:{status:'NOT_GRANTED',queried:false},sourceMode:'OFFICIAL_PUBLIC_RSS_CURRENT_SNAPSHOT',cache:{lastSuccessAt:state.lastSuccessAt,nextFetchAt:state.nextFetchAt,bodyHash:state.bodyHash},windows:WINDOWS.map(h=>windowCoverage(state,h,now)),candidateCount:candidates.length,eligibleCount:eligible.length,
   candidates,reviewCandidate:eligible[0]?{...eligible[0],draft:`Adults 18+ only. Our existing ${eligible[0].brand} guide addresses platform fit and alternatives. Review current official terms before choosing a service. Independent information; paid referrals are disclosed. ${eligible[0].targetUrl||''}`,state:'REVIEW_REQUIRED_NOT_QUEUED'}:null,
   outcome:eligible.length?'REVIEW_SUPPORTED_EXISTING_PAGE_FIRST':'NO_SUPPORTED_TIMELY_CANDIDATE',limitations:['RSS may filter explicit queries and omit evergreen adult demand. Absence is not zero demand.','Approximate RSS traffic labels are provider labels, not site impressions or absolute monthly volume.','First-seen means first collector observation, never an invented provider start time.','No content published, no social enqueue/send, no affiliate registration or conversion created.']};
 }
 export async function collectRss({geo,state=emptyState(geo),now=Date.now(),fetchImpl=fetch}){
- validateState(state,geo);const decision=cacheDecision(state,now);if(!decision.fetch)return {state,status:'CACHE_ONLY',cacheReason:decision.reason,requests:0};
+ validateState(state,geo);if(state.lastSuccessAt&&Date.parse(state.lastSuccessAt)>now)throw Error('TRENDS_CLOCK_REGRESSION');const decision=cacheDecision(state,now);if(!decision.fetch)return {state,status:'CACHE_ONLY',cacheReason:decision.reason,requests:0};
  const at=new Date(now).toISOString();let response;
  try{response=await fetchImpl(`https://trends.google.com/trending/rss?geo=${geo}`,{redirect:'manual',signal:AbortSignal.timeout(15000),headers:{accept:'application/rss+xml, application/xml, text/xml',...(state.etag?{'if-none-match':state.etag}:{}),...(state.lastModified?{'if-modified-since':state.lastModified}:{})}});
   if(response.status===304&&state.lastSuccessAt){const rows=state.items.filter(r=>r.lastSeenAt===state.lastSuccessAt);return {state:updateHistory(state,rows,at),status:'NOT_MODIFIED',requests:1,xml:null};}
   if(response.status!==200){const status=response.status;const retry=Number(response.headers.get('retry-after'));const backoff=[401,403].includes(status)?6*HOUR:status===429?Math.min(24*HOUR,Math.max(HOUR,Number.isFinite(retry)?retry*1000:0)):15*60000;return {state:{...state,lastAttemptAt:at,failures:state.failures+1,nextFetchAt:new Date(now+backoff).toISOString()},status:`HTTP_${status}`,requests:1};}
-  const size=Number(response.headers.get('content-length')||0);if(size>MAX_BYTES)throw Error('RSS_TOO_LARGE');const bytes=await response.arrayBuffer();if(bytes.byteLength>MAX_BYTES)throw Error('RSS_TOO_LARGE');const xml=Buffer.from(bytes).toString('utf8');const rows=parseRss(xml);const updated=updateHistory(state,rows,at);
+  const size=Number(response.headers.get('content-length')||0);if(size>MAX_BYTES)throw Error('RSS_TOO_LARGE');let bytes;if(response.body?.getReader){const reader=response.body.getReader(),parts=[];let total=0;for(;;){const chunk=await reader.read();if(chunk.done)break;total+=chunk.value.byteLength;if(total>MAX_BYTES){await reader.cancel();throw Error('RSS_TOO_LARGE');}parts.push(Buffer.from(chunk.value));}bytes=Buffer.concat(parts);}else{bytes=await response.arrayBuffer();if(bytes.byteLength>MAX_BYTES)throw Error('RSS_TOO_LARGE');}const xml=Buffer.from(bytes).toString('utf8');const rows=parseRss(xml);const updated=updateHistory(state,rows,at);
   return {state:{...updated,etag:response.headers.get('etag'),lastModified:response.headers.get('last-modified'),bodyHash:digest(xml)},status:'OK',requests:1,xml};
  }catch(e){return {state:{...state,lastAttemptAt:at,failures:state.failures+1,nextFetchAt:new Date(now+15*60000).toISOString()},status:/^(?:RSS_|XML_)/.test(e.message)?'INVALID_RSS':'TRANSPORT_FAILURE',requests:1};}
 }

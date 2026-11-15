@@ -8,9 +8,9 @@ export function validateRegistry(registry){
  for(const row of registry.opportunities){
   if(!/^[a-z0-9-]{3,100}$/.test(row.id||'')||ids.has(row.id)||!STATUSES.includes(row.status))throw Error('REGISTRY_ID_OR_STATUS_INVALID');ids.add(row.id);
   if(!row.origin?.url?.startsWith('https://github.com/heavenskybird/stripunion/issues/')||!validTime(row.origin.discoveredAt)||!row.hypothesis||!row.owner||!row.nextAction||!validTime(row.lastEvidenceAt)||!Array.isArray(row.dependencies)||!Array.isArray(row.evidence)||!row.evidence.length||!Array.isArray(row.history)||!row.history.length)throw Error('REGISTRY_PROVENANCE_REQUIRED');
-  let previous=null,previousTime=0;
+  let previous=null,previousTime=0,lastNormal=-1;
   for(const entry of row.history){const at=Date.parse(entry.at);if(!STATUSES.includes(entry.to)||entry.from!==previous||!Number.isFinite(at)||at<previousTime||!entry.evidenceUrl?.startsWith('https://'))throw Error('REGISTRY_HISTORY_INVALID');
-   if(previous&&NORMAL.includes(previous)&&NORMAL.includes(entry.to)&&NORMAL.indexOf(entry.to)!==NORMAL.indexOf(previous)+1)throw Error('REGISTRY_STAGE_SKIPPED');
+   if(NORMAL.includes(entry.to)){const stage=NORMAL.indexOf(entry.to);if(stage!==lastNormal+1&&!(stage===lastNormal&&!NORMAL.includes(previous)))throw Error('REGISTRY_STAGE_SKIPPED');lastNormal=stage;}else if(previous===null)throw Error('REGISTRY_INITIAL_DISCOVERY_REQUIRED');
    previous=entry.to;previousTime=at;
   }
   if(previous!==row.status)throw Error('REGISTRY_STATUS_NOT_BOUND_TO_HISTORY');

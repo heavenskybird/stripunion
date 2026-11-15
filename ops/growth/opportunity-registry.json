@@ -233,7 +233,7 @@
     },
     {
       "id": "model-referral-onboarding-proof",
-      "status": "EVALUATED",
+      "status": "IMPLEMENTED",
       "origin": {
         "issue": 199,
         "url": "https://github.com/heavenskybird/stripunion/issues/199",
@@ -250,10 +250,20 @@
           "url": "https://github.com/heavenskybird/stripunion/issues/199",
           "asOf": "2026-11-15",
           "kind": "issue_and_source_audit"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/204",
+          "asOf": "2026-11-15T03:18:00.914249Z",
+          "kind": "implemented_branch_not_deployed"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/43671430414",
+          "asOf": "2026-11-15T03:18:00.914249Z",
+          "kind": "read_only_existing_route_proof_not_referral_credit"
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
-      "nextAction": "Verify existing /signup/model redirect, account tracking and country terms; prepare opt-in copy, never fake signup.",
+      "lastEvidenceAt": "2026-11-15T03:18:00.914249Z",
+      "nextAction": "Review PR204 corrected model campaign/disclosure. Existing tracked route302\u2192Stripchat200 preserves referral ID, but drops campaign/placements; bare AVCams406, country/account eligibility and real credited reward UNKNOWN.",
       "ownerAction": "Only platform account owner can independently prove actual credited qualified model referral when one legitimately occurs.",
       "history": [
         {
@@ -268,6 +278,20 @@
           "at": "2026-11-15T03:14:54.961824Z",
           "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/199",
           "backfillObservedAt": "2026-11-15T03:14:54.961824Z"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "APPROVED",
+          "at": "2026-11-15T03:18:00.914249Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/204",
+          "backfillObservedAt": "2026-11-15T03:18:00.914249Z"
+        },
+        {
+          "from": "APPROVED",
+          "to": "IMPLEMENTED",
+          "at": "2026-11-15T03:18:00.914249Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/204",
+          "backfillObservedAt": "2026-11-15T03:18:00.914249Z"
         }
       ],
       "evaluation": {
@@ -302,10 +326,20 @@
           "url": "https://github.com/heavenskybird/stripunion/issues/200",
           "asOf": "2026-11-15",
           "kind": "implemented_branch_not_deployed"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/205",
+          "asOf": "2026-11-15",
+          "kind": "implemented_branch_not_deployed"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/43671485131/artifacts/14144775822",
+          "asOf": "2026-11-15T03:15:10Z",
+          "kind": "official_rss_snapshot"
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
-      "nextAction": "Review collector PR and real official feed artifact; cache sufficient observations before claiming 4h/24h/48h/7d coverage.",
+      "lastEvidenceAt": "2026-11-15T03:18:00.914249Z",
+      "nextAction": "Review PR205, then accumulate hourly RSS snapshots before claiming historical coverage; actual first US fetch had10items/0eligible and all windows insufficient.",
       "ownerAction": null,
       "history": [
         {
@@ -577,6 +611,65 @@
         "status": "NOT_YET_MEASURED"
       },
       "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "model-opt-in-community-campaign",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 199,
+        "url": "https://github.com/heavenskybird/stripunion/issues/199",
+        "discoveredAt": "2026-11-14T16:14:50Z"
+      },
+      "hypothesis": "Transparent opt-in adult creator information may attract qualified referrals if community rules and platform eligibility permit.",
+      "priority": 4,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [
+        "model-referral-onboarding-proof"
+      ],
+      "confidence": "review-only-no-placement-permission",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/204",
+          "asOf": "2026-11-15T03:18:00.914249Z",
+          "kind": "review_copy_not_published"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-15T03:18:00.914249Z",
+      "nextAction": "Review three prepared factual18+ variants and actual community permission; no scraped contacts, DMs, salary guarantees or automatic sends.",
+      "ownerAction": "Owner approves exact permitted placement only after source/community policy and account eligibility checks.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-15T03:18:00.914249Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/199"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-15T03:18:00.914249Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/204"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-15T03:18:00.914249Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/pull/204"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "qualified_creator_signup_clicks",
+          "provider_eligible_referral_milestone",
+          "partner_confirmed_USD_referral"
+        ],
+        "status": "NOT_YET_MEASURED"
+      }
     }
   ]
 }
