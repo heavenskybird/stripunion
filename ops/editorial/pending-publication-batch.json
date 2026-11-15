@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T17:08:02.486Z",
+  "generatedAt": "2026-11-15T18:06:02.516Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/affiliate-program-liability-terms-review.json",
-    "ops/editorial/content-artifacts/creator-platform-price-display-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-screenshot-exposure-review.json",
-    "ops/editorial/content-artifacts/adult-anime-app-home-screen-privacy-check.json",
-    "ops/editorial/content-artifacts/vr-adult-membership-cancellation-evidence-workflow.json"
+    "ops/editorial/content-artifacts/free-video-browser-extension-permission-review.json",
+    "ops/editorial/content-artifacts/adult-games-player-support-workflow-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-support-contact-verification-workflow.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-maintenance-workload-fit.json",
+    "ops/editorial/content-artifacts/live-cam-platform-session-exit-control-evaluation.json"
   ],
   "guideFiles": [
-    "src/data/guides/affiliate-program-liability-terms-review.js",
-    "src/data/guides/creator-platform-price-display-audit.js",
-    "src/data/guides/adult-dating-platform-screenshot-exposure-review.js",
-    "src/data/guides/adult-anime-app-home-screen-privacy-check.js",
-    "src/data/guides/vr-adult-membership-cancellation-evidence-workflow.js"
+    "src/data/guides/free-video-browser-extension-permission-review.js",
+    "src/data/guides/adult-games-player-support-workflow-fit-audit.js",
+    "src/data/guides/adult-shop-support-contact-verification-workflow.js",
+    "src/data/guides/webmaster-affiliate-program-maintenance-workload-fit.js",
+    "src/data/guides/live-cam-platform-session-exit-control-evaluation.js"
   ],
   "categories": [
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "webmaster-affiliate",
-    "creator-platforms",
-    "dating-hookups",
-    "hentai-anime",
-    "vr-ar"
+    "live-cams"
   ],
   "backlogIds": [
-    "affiliate-program-liability-terms-review",
-    "creator-platform-price-display-audit",
-    "adult-dating-platform-screenshot-exposure-review",
-    "adult-anime-app-home-screen-privacy-check",
-    "vr-adult-membership-cancellation-evidence-workflow"
+    "free-video-browser-extension-permission-review",
+    "adult-games-player-support-workflow-fit-audit",
+    "adult-shop-support-contact-verification-workflow",
+    "webmaster-affiliate-program-maintenance-workload-fit",
+    "live-cam-platform-session-exit-control-evaluation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43739141321",
-  "phase": "closed"
+  "r1CycleId": "43744119928"
 }
