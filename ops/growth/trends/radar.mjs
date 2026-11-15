@@ -54,7 +54,7 @@ export function windowCoverage(state,hours,now=Date.now()){
  return {hours,start:new Date(start).toISOString(),end:new Date(now).toISOString(),status:preceding===undefined?'INSUFFICIENT_HISTORY':!fresh||gaps.some(g=>g>90*60000)?'OBSERVATION_GAPS':'OBSERVED_SNAPSHOT_HISTORY',observations:inside.length,earliestObservedAt:times.length?new Date(times[0]).toISOString():null,maxGapMinutes:gaps.length?Math.max(...gaps)/60000:null,interpretation:'Coverage of archived current RSS snapshots, not exhaustive historic trends or Explore history.'};
 }
 export function rankCandidate(item,{offers=[],gscRows=[],bingRows=[],existingPaths=new Set(),now=Date.now()}={}){
- const q=item.normalizedQuery,brand=/stripchat/.test(q)?'stripchat':/chaturbate/.test(q)?'chaturbate':/livejasmin|live jasmin/.test(q)?'livejasmin':/bongacams/.test(q)?'bongacams':/lovense/.test(q)?'lovense':/nutaku/.test(q)?'nutaku':/dlsite/.test(q)?'dlsite':null;
+ const q=item.normalizedQuery,brand=/stripcash/.test(q)?'stripcash':/stripchat/.test(q)?'stripchat':/chaturbate/.test(q)?'chaturbate':/livejasmin|live jasmin/.test(q)?'livejasmin':/bongacams/.test(q)?'bongacams':/lovense/.test(q)?'lovense':/nutaku/.test(q)?'nutaku':/dlsite/.test(q)?'dlsite':null;
  const unsafe=/\b(?:child|children|teen|underage|minor|schoolgirl|leak|leaked|nonconsensual)\b/.test(q);
  const comparison=/alternatives?|compare|comparison|\bvs\b/.test(q),affiliate=/affiliate|webmaster|commission/.test(q);
  const offerId=affiliate&&/stripcash|stripchat/.test(q)?'stripcash-affiliate-referral':brand==='stripchat'||comparison&&['chaturbate','livejasmin'].includes(brand)?'avcams':brand;
@@ -62,7 +62,7 @@ export function rankCandidate(item,{offers=[],gscRows=[],bingRows=[],existingPat
  const matches=gscRows.filter(r=>brand&&normalizeQuery(r.query||'').includes(brand));
  const impressions=matches.reduce((n,r)=>n+Number(r.impressions||0),0),clicks=matches.reduce((n,r)=>n+Number(r.clicks||0),0);
  const paths={stripchat:comparison?'/stripchat-alternatives/':/app|mobile/.test(q)?'/stripchat-app/':'/stripchat/',chaturbate:comparison?'/chaturbate-alternatives/':'/chaturbate/',livejasmin:'/livejasmin/',bongacams:'/bongacams/'};
- const target=paths[brand]||null;const exists=target&&existingPaths.has(target.replace(/\/$/,''));
+ const target=affiliate&&['stripcash','stripchat'].includes(brand)?'/stripcash-affiliate-program':paths[brand]||null;const exists=target&&existingPaths.has(target.replace(/\/$/,''));
  const recent=item.providerPublishedAt&&now-Date.parse(item.providerPublishedAt)>=0&&now-Date.parse(item.providerPublishedAt)<=24*HOUR;
  let reason=unsafe?'UNSAFE_OR_AGE_AMBIGUOUS_QUERY':!brand?'NO_RELEVANT_ADULT_COMMERCIAL_INTENT':!approved?'NO_APPROVED_CONTEXTUAL_OFFER':!recent?'NO_RECENT_PROVIDER_TIMESTAMP':null;
  return {id:item.id,query:item.query,geo:item.geo,firstSeenAt:item.firstSeenAt,lastSeenAt:item.lastSeenAt,providerPublishedAt:item.providerPublishedAt,source:'OFFICIAL_TRENDING_NOW_RSS',brand,offerId:approved?.id||null,
