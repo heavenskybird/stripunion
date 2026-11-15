@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { daysAgo, writeSnapshot } from '../lib/io.mjs';
 
 const API_URL = 'https://api.stripcash.com/external/v1/user/statistics';
@@ -54,6 +54,7 @@ function pickNumericMetrics(row) {
   const metrics = {};
   for (const key of allowedMetricFields) {
     if (!Object.hasOwn(row, key)) continue;
+    if (row[key] == null || row[key] === '' || typeof row[key] === 'boolean') throw new Error(`StripCash field ${key} was not a reported numeric value.`);
     const value = Number(row[key]);
     if (!Number.isFinite(value)) throw new Error(`StripCash field ${key} was not numeric.`);
     metrics[key] = value;
@@ -87,6 +88,11 @@ export function normalizeStripCashPayload(payload) {
     source: 'stripcash-statistics-api',
     collectedAt: new Date().toISOString(),
     reportScope: 'StripCash API default aggregate scope; date-window semantics are not documented in the supplied API reference.',
+    businessBaseCurrency: 'USD',
+    businessCurrencyEvidence: 'Owner confirmation in Issue174 on 2026-11-14; does not repair historical postbacks',
+    reportingPeriod: null,
+    reportingPeriodStatus: 'UNKNOWN_DEFAULT_SCOPE',
+    monetaryStatus: 'PROVIDER_REPORTED_NOT_RECONCILED_FINANCIAL_STATEMENT',
     reportStatus: typeof statistics.status === 'string' ? statistics.status : null,
     rowCount: rows.length,
     metrics
@@ -149,7 +155,7 @@ async function main() {
   console.log(`StripCash aggregate snapshot collected with ${Object.keys(normalized.metrics).length} approved metrics.`);
 }
 
-main().catch((error) => {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch((error) => {
   console.error(error instanceof Error ? error.message : String(error));
   process.exitCode = 1;
 });
