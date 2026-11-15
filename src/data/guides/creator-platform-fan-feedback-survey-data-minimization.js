@@ -1,0 +1,125 @@
+export default {
+  "slug": "creator-platform-fan-feedback-survey-data-minimization",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Collect Useful Fan Feedback Without Over-Collecting Data",
+  "description": "Design a focused creator-platform feedback survey that supports decisions while limiting unnecessary personal details, sensitive responses, and data-retention risk.",
+  "excerpt": "A feedback form should answer a business question, not become a general-purpose collection of fan information. Define the decision first, ask only what helps, and plan how responses will be handled.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "Write down the decision the survey is meant to inform before choosing questions or a form tool.",
+    "Prefer optional, narrowly framed questions over requests for identifying or sensitive details that are not needed.",
+    "Tell respondents who will see answers, how they may be used, and whether responses are anonymous or linked to an account.",
+    "Limit access to raw responses, set a retention plan, and avoid promising anonymity unless the collection method supports it.",
+    "Use a small pilot to find confusing questions and operational risks before inviting a wider audience."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with one decision, not a form",
+      "paragraphs": [
+        "A useful fan survey begins with a decision the creator can realistically make. Examples include whether to adjust the format of a release, clarify a membership benefit, or improve how instructions are presented. State the question in one sentence and list the kinds of evidence that would change the decision. If no plausible response would lead to a different action, the survey may not be worth sending. This discipline keeps the form short and makes its purpose easier to explain.",
+        "Separate feedback from requests for personal information. A question about whether a post was easy to navigate may need no name, account handle, or contact detail. If follow-up is genuinely useful, make it a separate optional field and explain why it is requested. Do not ask for legal names, addresses, private contact details, payment information, or sensitive personal history merely because a form tool offers a field for them."
+      ],
+      "bullets": [
+        "Write the intended decision before drafting questions.",
+        "For each proposed field, ask what decision it supports and whether a less identifying answer would work.",
+        "Remove questions that are interesting but do not affect a practical action."
+      ]
+    },
+    {
+      "heading": "Choose question formats that limit ambiguity",
+      "paragraphs": [
+        "Use plain language and one idea per question. Avoid prompts that combine several issues, such as asking whether a release was timely, clear, and valuable in a single rating. A low score on a compound question does not reveal which part needs attention. Offer response choices that cover realistic possibilities, include a neutral or unsure option when appropriate, and allow respondents to skip questions that do not fit their experience.",
+        "Open-text fields can reveal issues you did not anticipate, but they may also invite people to disclose personal information or identify themselves indirectly. Keep open-ended prompts specific and include a brief instruction not to submit private account, payment, or contact details. For routine operational feedback, a short structured response plus one optional comment often gives a clearer signal than a long essay box."
+      ],
+      "bullets": [
+        "Avoid leading questions that imply the answer you want.",
+        "Make sensitive or personal questions optional, and omit them unless essential.",
+        "Use neutral wording and a clearly defined time period when asking about past experience."
+      ]
+    },
+    {
+      "heading": "Explain collection, visibility, and limits honestly",
+      "paragraphs": [
+        "Before sharing a survey, tell fans who is collecting responses, why, who can access them, and how the results may be used. If the form is linked to a platform account, do not describe it as anonymous. If a tool stores technical or account information, review its settings and documentation instead of assuming that hiding a name field removes all links to identity. A creator should describe what they know and avoid promises about systems they do not control.",
+        "Set expectations for how comments may be quoted or summarized. If you might use a response publicly, say so in advance and ask for separate permission before attributing it to a person. Make clear that completing a survey is optional and does not change access or benefits unless there is a specific, clearly described reason. Do not solicit information in a way that pressures fans to disclose more than they want."
+      ],
+      "bullets": [
+        "Describe whether responses are linked to a platform profile or collected without direct identifiers.",
+        "Separate permission to participate from permission to quote or identify a respondent.",
+        "Do not promise confidentiality, anonymity, or deletion beyond what you can verify."
+      ]
+    },
+    {
+      "heading": "Control access, exports, and retention",
+      "paragraphs": [
+        "Decide where responses will be stored and who needs access before launch. Restrict the form and its exports to people who have a clear operational role. Avoid copying raw responses into shared chat rooms, personal notes, or spreadsheets with broad access. If collaborators help analyze results, provide only the detail necessary for their task and establish how they should handle any exported copy.",
+        "Choose a retention period based on the decision, not on an assumption that every response should be kept indefinitely. Keep an aggregate summary when it is useful, and remove raw responses when they are no longer needed, subject to any applicable recordkeeping obligations. Check whether the tool has separate locations for deleted responses, exports, or backups; do not claim complete erasure unless you can confirm the relevant behavior. When in doubt, collect less at the outset."
+      ],
+      "table": {
+        "caption": "Survey design review: what to collect and what to avoid",
+        "headers": [
+          "Survey element",
+          "Safer design choice"
+        ],
+        "rows": [
+          [
+            "Purpose",
+            "Name one decision and the evidence that would affect it."
+          ],
+          [
+            "Identity",
+            "Do not request a handle or name unless follow-up requires it."
+          ],
+          [
+            "Free text",
+            "Make it optional and ask respondents not to include private details."
+          ],
+          [
+            "Access",
+            "Limit raw-response access to people who need it for analysis."
+          ],
+          [
+            "Retention",
+            "Set a review or deletion point and explain any limits honestly."
+          ],
+          [
+            "Public use",
+            "Get separate permission before quoting or attributing an answer."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Pilot, analyze, and close the loop",
+      "paragraphs": [
+        "Test the form with a small group or on your own devices before sending it broadly. Check that the purpose is clear, each question works on a phone, optional questions are visibly optional, and the submission confirmation does not expose responses to other respondents. Ask testers where wording feels intrusive or confusing. A pilot is not proof of privacy or security, but it can catch basic design errors before more people submit information.",
+        "Analyze answers in relation to the original decision. Report patterns in aggregate when that is sufficient, and avoid publishing small-group details that could identify an individual. Tell fans what you learned and what will change, or explain why a requested change is not practical. Close the loop without implying that every suggestion will be adopted. Then review whether the form collected anything unnecessary and adjust the next survey accordingly."
+      ],
+      "bullets": [
+        "Test the form on a mobile screen and review the submit and confirmation steps.",
+        "Summarize results without revealing individual respondents unless they have agreed.",
+        "Record the decision and follow-up action, not more raw personal data than needed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I call a creator-platform survey anonymous if it does not ask for names?",
+      "answer": "Only if you have verified that the collection process does not link responses to accounts or other identifying information. A missing name field alone may not establish anonymity. If you cannot confirm the details, describe the form more cautiously and explain what information you know it collects."
+    },
+    {
+      "question": "Should I offer a reward for completing a fan survey?",
+      "answer": "If you do, explain the conditions clearly and avoid making the reward depend on a particular answer. Consider whether the incentive encourages people to provide more personal information than the survey needs. Do not promise a benefit you cannot reliably deliver."
+    },
+    {
+      "question": "How long should raw survey responses be kept?",
+      "answer": "Keep them only as long as they are useful for the stated decision or required for a legitimate recordkeeping purpose. Decide this before collection, review the form tool’s deletion behavior, and retain an aggregate summary if that is enough for future reference."
+    },
+    {
+      "question": "What should I do if a fan submits sensitive personal information anyway?",
+      "answer": "Do not repeat it publicly or circulate it unnecessarily. Restrict access, assess whether it is needed for the stated purpose, and remove it where you can do so safely and consistently with applicable obligations. Update the form instructions if the submission suggests people misunderstood what was being requested."
+    }
+  ]
+};

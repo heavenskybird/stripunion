@@ -1,0 +1,128 @@
+{
+  "backlogId": "adult-platform-device-repair-privacy-plan",
+  "slug": "adult-platform-device-repair-privacy-plan",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Taking a Device for Repair? Protect Adult Platform Accounts and Local Privacy",
+  "description": "Prepare a phone, computer, or headset for repair without overlooking saved sessions, notifications, backups, browser data, or account recovery.",
+  "excerpt": "A repair appointment can expose more than the device’s hardware. Use this practical handoff plan to reduce access to adult-platform accounts and personal data while preserving what you need for diagnosis.",
+  "keyTakeaways": [
+    "Find out what the repair requires before handing over a device; a narrow hardware problem may not require an unlocked device or access to personal accounts.",
+    "Sign out of adult-platform sessions and remove locally stored sensitive material when doing so will not interfere with diagnosis or data recovery.",
+    "Check cloud backups, notification previews, browser profiles, saved credentials, and connected devices, not just the visible screen.",
+    "Back up essential personal files using a method you control, then verify the backup before considering a reset.",
+    "Ask for the repair shop’s handling, access, and data-retention procedures; avoid assuming that a password or screen lock makes every kind of access impossible."
+  ],
+  "sections": [
+    {
+      "heading": "Start by narrowing the repair task",
+      "paragraphs": [
+        "Before handing over a phone, computer, or headset, describe the fault and ask what access is actually required. A cracked display, battery problem, or port issue may have different diagnostic needs from a software fault or data-recovery request. Ask whether technicians need the device unlocked, whether they will test it using a temporary account, and whether they expect to access personal files. Keep the explanation focused on the hardware or software problem; you do not need to volunteer details about adult-platform use.",
+        "Get the shop’s relevant procedures in writing if practical: what access it requests, how technicians handle customer data, whether a device may be sent elsewhere, and how long any copied data is retained. Policies and practices differ, so treat answers as information to assess, not as a guarantee. If the requested access seems broader than the repair requires, ask whether there is a lower-access option, a supervised diagnostic, or a repair that does not require personal-account sign-in."
+      ],
+      "bullets": [
+        "Record the device model, fault description, and any serial or service number needed for the repair.",
+        "Ask whether the repair can be completed without your unlock code or account password.",
+        "Do not give a technician your adult-platform password or one-time sign-in code."
+      ]
+    },
+    {
+      "heading": "Reduce account access before the handoff",
+      "paragraphs": [
+        "If the device still works, review adult-platform sessions and sign out where appropriate. Some services offer a way to review active sessions or revoke a device; check the account’s own controls rather than relying on a universal sign-out behavior. Also consider accounts connected through a browser, app store, email provider, or password manager. Removing access from the device can reduce risk if it is handled by someone else, but make sure you can still sign in from a trusted device before you make changes that could trigger recovery checks.",
+        "Review saved passwords, autofill, and browser profiles. A locked screen is useful protection, but it is not a substitute for controlling access to accounts, especially if you are asked to unlock the device. If the device has a separate work, guest, or repair profile, ask whether that option is suitable and test it yourself. Avoid creating a new password or sharing a recovery code in response to an unexpected repair message; verify requests using a contact method you already trust."
+      ],
+      "bullets": [
+        "Sign out of accounts not needed for diagnosis and revoke sessions when available.",
+        "Remove saved credentials only after confirming you can recover the accounts elsewhere.",
+        "Keep authentication codes and recovery details private, including during support calls."
+      ]
+    },
+    {
+      "heading": "Check what remains visible or synchronized",
+      "paragraphs": [
+        "Local browsing data is only one exposure point. Adult-platform notifications may appear on a lock screen, in a desktop notification center, or on a linked watch or tablet. Disable previews or temporarily turn off notifications if you can do so without disrupting a necessary diagnostic. Review browser profiles, open tabs, recent files, downloads, and any shared clipboard or cross-device sync features. These steps are about reducing accidental exposure; they cannot establish that every trace has been erased from every device or service.",
+        "Look at cloud backup and synchronization settings too. A device may sync photos, documents, browser data, or app information to an account that remains signed in elsewhere. Do not delete cloud data blindly: some deletion actions can remove items from other devices or make recovery harder. First identify what is local, what is synchronized, and what you actually need to preserve. If you are unsure, use the service’s documentation or support channel before changing settings."
+      ],
+      "bullets": [
+        "Check lock-screen previews, notification centers, paired devices, and browser sync.",
+        "Review downloads and local files without opening or sharing material that is not needed for repair.",
+        "Avoid wiping synchronized data until you understand how deletion propagates."
+      ]
+    },
+    {
+      "heading": "Back up carefully and choose a handoff level",
+      "paragraphs": [
+        "If a reset is possible or the device may be replaced, make a backup of essential files to storage or an account you control. Confirm that the backup completed and that you can access the items you need before deleting local data. A backup can itself create another privacy location, so use an account protected by a unique password and appropriate sign-in controls. Do not put private material into a shop-provided transfer service unless you understand its terms and can verify who can access the copy.",
+        "Choose the least disruptive handoff that meets the repair need. Options may include staying present during a diagnostic, using a temporary profile, removing a memory card, signing out of sensitive accounts, or erasing the device after a verified backup. Not every option works for every fault, and erasing a device may make some repairs or data recovery impossible. If the device cannot be secured or the data is especially sensitive, pause and ask the provider to explain alternatives before proceeding."
+      ],
+      "table": {
+        "caption": "Device-repair privacy decisions to make before the appointment",
+        "headers": [
+          "Question",
+          "Practical check"
+        ],
+        "rows": [
+          [
+            "Does diagnosis require an unlocked device?",
+            "Ask what test needs access and whether a restricted or temporary profile is acceptable."
+          ],
+          [
+            "Could the device be reset or replaced?",
+            "Back up essential items and verify the backup before authorizing destructive work."
+          ],
+          [
+            "Are account sessions still active?",
+            "Sign out or revoke access where available; confirm you can recover the accounts elsewhere."
+          ],
+          [
+            "Could notifications or synced data appear?",
+            "Review previews, paired devices, browser profiles, and cloud synchronization."
+          ],
+          [
+            "Will the repair involve another provider?",
+            "Ask who may handle the device and how access or copied data is managed."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Document the handoff and check the device afterward",
+      "paragraphs": [
+        "Before leaving the device, note its condition and what you authorized. Keep the repair receipt or service record, but store it somewhere private if it includes identifying details. Do not write account passwords or verification codes on the work order. If a provider insists on credentials, ask why they are needed and whether you can enter them yourself for a specific test, then change them afterward if you believe they were exposed.",
+        "When you get the device back, check whether it was reset, whether unfamiliar accounts or apps were added, and whether settings or sessions changed. From a trusted device, review important account sessions and recovery details. Re-enable notifications or synchronization selectively, rather than restoring every setting without review. If something looks wrong, secure the relevant account using its official recovery process and contact the repair provider through a known channel. A careful post-repair review helps you catch unexpected changes without assuming misconduct."
+      ],
+      "bullets": [
+        "Keep the service record separate from passwords and recovery codes.",
+        "Review account sessions and recovery settings after the device is returned.",
+        "Restore only the notifications, files, and synchronization you want to use."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I erase my device before every repair?",
+      "answer": "Not automatically. A reset may reduce local exposure, but it can also remove diagnostic information or make data recovery impossible. Ask what the repair requires, back up essential files, verify the backup, and choose the least-access option that suits the job."
+    },
+    {
+      "question": "Is it safe to give a repair technician my unlock code?",
+      "answer": "Avoid sharing a device code unless you understand why it is needed and have considered alternatives. Ask whether a temporary or restricted profile, supervised test, or other procedure will work. Never provide an adult-platform password, recovery code, or one-time sign-in code as a general repair credential."
+    },
+    {
+      "question": "Does signing out remove adult-platform information from a device?",
+      "answer": "Signing out can end an account session, but it does not necessarily delete browser history, cached files, notifications, downloads, or synchronized copies. Review each relevant area separately and check the platform and device documentation for the controls available."
+    },
+    {
+      "question": "What if the device is already broken and I cannot change its settings?",
+      "answer": "Tell the repair provider what access is unavailable and ask how it handles locked devices. Use another trusted device to review important account sessions or revoke access if the platform provides that control. Avoid sending passwords or codes in messages, and document what the provider says it needs."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
