@@ -1,0 +1,115 @@
+{
+  "backlogId": "affiliate-program-campaign-approval-dependency-map",
+  "slug": "affiliate-program-campaign-approval-dependency-map",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map Approval Dependencies Before Launching a Campaign",
+  "description": "Build a practical launch map for affiliate campaigns by checking which approvals, assets, destinations and tracking steps must be in place before publication.",
+  "excerpt": "A campaign can be technically ready yet still depend on a missing approval, final destination or permitted-traffic decision. Map the launch sequence, identify owners and record evidence before publishing referral links.",
+  "keyTakeaways": [
+    "Separate program admission from approval of a specific site, placement, creative, channel or campaign; they may be different steps.",
+    "Treat uncertain permissions as unresolved dependencies, not as approval inferred from silence or a working link.",
+    "Record each dependency’s owner, evidence source, status and the campaign action blocked until it is resolved.",
+    "Test links and tracking only in ways allowed by the program, and distinguish technical validation from promotional authorization.",
+    "Keep a launch decision record so future edits, handoffs or terms changes do not silently invalidate the original review."
+  ],
+  "sections": [
+    {
+      "heading": "Why launch readiness is more than a working link",
+      "paragraphs": [
+        "An affiliate link can resolve correctly and still be unsuitable for a campaign that has not cleared its required reviews. A program may have separate processes for enrolling a publisher, approving a website or account, permitting a traffic source, authorizing creative use, and reviewing the wording or placement of an offer. Which steps apply depends on the program’s own terms and operating process, so do not infer permission from a dashboard button or a functioning tracking URL.",
+        "A dependency map makes these distinctions visible. It is a compact record of what must be true before a campaign goes live, who is responsible for verifying it and what evidence supports the decision. The map is useful for a single placement as well as a larger launch because it helps prevent a late approval, a changed destination or an undocumented assumption from being lost between teams."
+      ]
+    },
+    {
+      "heading": "List the decisions that can block publication",
+      "paragraphs": [
+        "Start with the campaign itself: its audience, website or account, placement, traffic channel, destination, creative and any tracking method. Compare each element with the program’s current terms and instructions. If a term is unclear, record the question and seek clarification through an appropriate program contact. Do not treat a general approval as proof that every later change is allowed.",
+        "Give each decision a clear status: confirmed, pending, not applicable or blocked. A pending item should not disappear into a general notes field. Name the person who owns it and the action needed to resolve it. If the program cannot confirm a required permission, choose a different route or hold the campaign rather than publishing first and hoping the issue will be accepted later."
+      ],
+      "table": {
+        "caption": "Example campaign dependency map to adapt to the program’s actual rules",
+        "headers": [
+          "Dependency",
+          "Evidence to record",
+          "Owner and release condition"
+        ],
+        "rows": [
+          [
+            "Publisher or property approval",
+            "Approval message or applicable program record",
+            "Publisher lead; do not publish until required approval is confirmed"
+          ],
+          [
+            "Traffic source permission",
+            "Relevant current term or written clarification",
+            "Channel owner; confirm the planned source is permitted"
+          ],
+          [
+            "Creative and claims",
+            "Approved asset or documented review outcome",
+            "Editor; use only materials and claims cleared for this use"
+          ],
+          [
+            "Link and destination",
+            "Test record and final destination review",
+            "Technical owner; verify expected routing without assuming permission"
+          ],
+          [
+            "Tracking and reporting",
+            "Documented test method and field definitions",
+            "Analyst; validate within allowed testing boundaries"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set an order that prevents rework",
+      "paragraphs": [
+        "Dependencies often have a practical sequence. Confirm the relevant program and property requirements before spending time adapting creative. Establish whether the proposed traffic source is eligible before building a campaign around it. Confirm which destination is allowed before finalizing copy that promises a particular page or action. Then prepare tracking and reporting checks that match the approved plan.",
+        "Some tasks can run in parallel, but mark those that rely on unresolved decisions. For example, a designer may prepare a draft asset while a channel permission is pending, provided the draft is not published or represented as approved. Make the boundary explicit: draft work can proceed; campaign activation cannot. This reduces duplicated work without turning a tentative assumption into a public promotion."
+      ]
+    },
+    {
+      "heading": "Distinguish technical checks from policy decisions",
+      "paragraphs": [
+        "Technical checks answer questions such as whether a link loads, whether a redirect reaches the expected destination and whether a report shows the expected test event. They do not establish that the source, placement, creative or claim is permitted. Likewise, a dashboard’s ability to generate a link does not establish approval for every website, account or campaign where that link might appear.",
+        "Define a test procedure before running it. Use only test activity allowed by the program; avoid generating misleading clicks or conversions, and do not use real users as unapproved test traffic. Record the time, test environment, link version and observed result. If tracking does not behave as expected, pause launch and investigate without inflating metrics or drawing conclusions from an unverified test."
+      ],
+      "bullets": [
+        "Label technical validation and promotional authorization as separate checklist items.",
+        "Preserve the exact link and destination reviewed for the campaign.",
+        "Record unresolved questions rather than converting them into informal assumptions."
+      ]
+    },
+    {
+      "heading": "Keep the map current after approval",
+      "paragraphs": [
+        "Approval is tied to the scope that was reviewed. A new traffic channel, changed destination, different creative, altered audience or new placement may require another check under the program’s rules. When any campaign element changes, compare it with the dependency map and identify whether the previous evidence still applies. Do not assume that an old approval covers a materially different use.",
+        "Store the final map with the campaign record, alongside the dated terms or messages relied on and the person who made the release decision. Set a review trigger for relevant program updates, destination changes and ownership handoffs. When a dependency changes, update its status and pause affected placements if necessary. This creates a usable audit trail without claiming that the map itself guarantees compliance."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does affiliate program approval mean every campaign is approved?",
+      "answer": "Not necessarily. Program enrollment, property approval, traffic-source permission, creative review and campaign-specific conditions can be separate. Check the program’s actual process and terms for the campaign you plan to run."
+    },
+    {
+      "question": "What should I do if a permission is unclear?",
+      "answer": "Record the uncertainty, identify the exact placement or traffic source involved and request clarification from an appropriate program contact. Hold the affected campaign activity until you have a sufficiently clear basis to proceed."
+    },
+    {
+      "question": "Can a successful tracking test prove a campaign is allowed?",
+      "answer": "No. A test may show that a link or report works technically. It does not establish that the promotional method, creative, claims or placement is authorized."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "backlogId": "premium-video-screen-reader-playback-navigation-workflow",
+  "slug": "premium-video-screen-reader-playback-navigation-workflow",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Test Screen-Reader Navigation from Search to Playback",
+  "description": "A step-by-step workflow for evaluating screen-reader and keyboard navigation across a premium video platform’s browsing, sign-in and playback journey.",
+  "excerpt": "A platform can offer a library that appears suitable yet still be difficult to use if search results, account controls or player buttons are hard to navigate. Test a complete task flow before committing.",
+  "keyTakeaways": [
+    "Test a real sequence of tasks rather than judging accessibility from a single homepage or feature statement.",
+    "Check both screen-reader output and keyboard operation; success with one does not establish success with the other.",
+    "Include search, title selection, sign-in, playback controls and exiting the player in the evaluation.",
+    "Record the device, browser, assistive technology and specific obstacle so the result is reproducible.",
+    "Treat unclear or inaccessible steps as decision evidence and seek clarification before relying on the platform."
+  ],
+  "sections": [
+    {
+      "heading": "Define the viewing tasks before testing",
+      "paragraphs": [
+        "A useful accessibility check follows the tasks you expect to perform. For a premium video platform, that may include opening the service, finding a title, reading its details, signing in or locating a membership prompt, starting playback, using player controls and returning to the library. A homepage that is announced clearly does not tell you whether search results, dialogs or the video player are equally usable.",
+        "Choose a short test plan before beginning so that each candidate is evaluated on comparable steps. You do not need to assess every page or claim to represent every user’s experience. The goal is to identify practical barriers that affect your own device, assistive technology and intended use, and to ask focused questions about anything you could not verify."
+      ],
+      "bullets": [
+        "Write down the task you want to complete and the expected end point.",
+        "Note your device, operating system, browser and assistive technology.",
+        "Use the same task sequence when comparing platforms."
+      ]
+    },
+    {
+      "heading": "Evaluate discovery and title information",
+      "paragraphs": [
+        "Start with the route from the landing page to a relevant title. Check whether navigation landmarks, headings, search fields and filters have understandable names. With a screen reader, listen for whether focus moves in a logical order and whether results are announced in a way that helps distinguish one item from another. With a keyboard, verify that you can reach search and filter controls without being trapped or forced to use a pointer.",
+        "Open a title and inspect the information needed to decide whether it fits: name, duration or format details where shown, access status and any clearly presented language or content information. Check whether controls are labelled rather than announced only as generic buttons. If you cannot determine what an element does without visual context, record the exact step and whether another navigation method provides the information."
+      ]
+    },
+    {
+      "heading": "Test account gates and playback transitions",
+      "paragraphs": [
+        "A service may allow some browsing before sign-in and require an account or membership for other actions. When a gate appears, check whether its text and available controls are announced, whether the focus remains in a sensible place and whether you can return to the previous screen. Do not enter payment details simply to test accessibility. Use information the platform provides before purchase and ask support a specific question if a required step cannot be checked without committing.",
+        "If you can access a permitted preview or playback test, evaluate the transition into the player. Look for an announced player name, a clear play or pause control, understandable volume and caption controls where offered, and a usable route back to the page. Test keyboard operation separately. A control that can be announced may still be difficult to activate, while a visible control may be unavailable to a keyboard-only user."
+      ],
+      "table": {
+        "caption": "Record observations by task and input method",
+        "headers": [
+          "Task",
+          "Screen-reader check",
+          "Keyboard check"
+        ],
+        "rows": [
+          [
+            "Search",
+            "Field name and result announcements are understandable",
+            "Search and result controls can be reached and activated"
+          ],
+          [
+            "Title details",
+            "Key information and actions are announced in context",
+            "Focus reaches details and available actions in a logical order"
+          ],
+          [
+            "Access prompt",
+            "Prompt and choices are identified clearly",
+            "Focus reaches choices and can return to the prior page"
+          ],
+          [
+            "Playback",
+            "Player and controls have useful names and states",
+            "Playback controls can be operated without a pointer"
+          ],
+          [
+            "Exit player",
+            "Return route is announced and discoverable",
+            "Focus can leave the player and reach library navigation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use repeatable notes instead of broad labels",
+      "paragraphs": [
+        "Record what happened, not just a verdict such as “accessible” or “inaccessible.” Note the page, task, control, input method and point at which progress stopped. For example, distinguish a search field that cannot be found from results that appear but are not announced clearly. Those are different problems and may have different workarounds. A concise record helps you compare platforms without implying a formal audit.",
+        "Include the version context: device, browser, assistive technology and approximate test date. Interface changes can affect results, so preserve enough detail to repeat the check later. Avoid recording private account or payment information in your notes. If you contact support, describe the task and obstacle in neutral terms and ask whether there is an alternative route or a documented limitation."
+      ]
+    },
+    {
+      "heading": "Make the result part of the subscription decision",
+      "paragraphs": [
+        "Accessibility affects whether you can reliably find, start and control the content you are considering. Give extra weight to barriers in tasks you expect to repeat, such as finding titles or operating playback. A one-time difficulty on an optional promotional page may matter less than an inaccessible control required every session. Decide which tasks are essential for you and what degree of workaround, if any, is acceptable.",
+        "Do not treat a platform’s general accessibility statement as proof that every feature works with your setup. Equally, a single obstacle on one device does not establish how it behaves for everyone. Base your decision on the tasks you tested, information the service supplies and answers to any unresolved questions. If essential steps remain uncertain, delay a commitment until you can evaluate them or choose an option whose workflow you can use with confidence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a screen-reader test enough to evaluate accessibility?",
+      "answer": "It is useful but not complete. Keyboard navigation, visible focus, player operation and the specific device or assistive technology you use can reveal separate issues. Test the tasks that matter to you."
+    },
+    {
+      "question": "Should I test accessibility by subscribing first?",
+      "answer": "Not automatically. Check what can be evaluated before joining and avoid entering payment details solely to test a feature. If an essential step is behind an access gate, ask the service whether it can explain or demonstrate that workflow."
+    },
+    {
+      "question": "How should I compare two platforms fairly?",
+      "answer": "Use the same device and task sequence where possible, and record the input method and point of difficulty for each. Compare how reliably you can complete your own essential tasks rather than relying on a single broad accessibility label."
+    }
+  ],
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
