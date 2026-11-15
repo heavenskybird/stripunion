@@ -5,6 +5,7 @@ on:
     paths:
       - scripts/commercial-live-readonly.mjs
       - scripts/commercial-coverage-priority.mjs
+      - scripts/commercial-hostinger-readonly.mjs
       - src/config/guide-commercial-policy.mjs
       - src/components/GuideTemplate.astro
       - .github/workflows/commercial-conversion-evidence.yml
@@ -36,6 +37,11 @@ jobs:
           REQUIRE_CANDIDATE: ${{ github.ref == 'refs/heads/main' && 'true' || 'false' }}
         run: |
           if [ "$REQUIRE_CANDIDATE" = true ]; then node scripts/commercial-live-readonly.mjs --require-candidate; else node scripts/commercial-live-readonly.mjs; fi
+      - name: Inspect canonical production Hostinger build metadata without deployment
+        if: always()
+        env:
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+        run: node scripts/commercial-hostinger-readonly.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
