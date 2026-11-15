@@ -5,6 +5,8 @@ on:
       - 'scripts/platform-mention-inventory.mjs'
       - '.github/workflows/platform-mention-inventory.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '15 03 * * 1'  # Monday weekly, read-only source inventory
 permissions:
   contents: read
 jobs:
