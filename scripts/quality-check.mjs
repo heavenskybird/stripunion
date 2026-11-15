@@ -235,7 +235,7 @@ for (const required of ['StripCash affiliate-referral guide', '5% lifetime share
 }
 
 const creatorPage = fs.readFileSync('src/pages/become-a-cam-model.astro', 'utf8');
-for (const required of ['Build your live creator presence on AVCams', 'destinationPath="/signup/model"', 'Earnings are variable and never guaranteed', 'No studio signup promoted']) {
+for (const required of ['Review official Stripchat model registration via AVCams', 'destinationPath="/signup/model"', 'Earnings are variable and never guaranteed', 'No studio signup promoted', 'Paid referral', 'AVCams does not register models itself']) {
   if (!creatorPage.includes(required)) {
     failed = true;
     console.error(`FAIL: creator acquisition page is missing required content: ${required}`);

@@ -2,8 +2,8 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AffiliateButton from '../components/AffiliateButton.astro';
 
-const title = 'Become a Cam Model on AVCams: Creator Signup Guide';
-const description = 'Want to become a cam model? See how AVCams creator registration works, what to prepare, how earnings can vary, and how to start. Adults 18+ only.';
+const title = 'Become a Cam Model: Official Stripchat Registration via AVCams';
+const description = 'An independent 18+ guide to the AVCams referral route to official Stripchat model registration, platform verification, privacy and variable earnings.';
 
 const faq = [
   ['Is this a job offer from StripUnion?', 'No. StripUnion is a referral and information site. Registration, verification, creator terms, account approval and payouts are handled by the platform.'],
@@ -11,7 +11,9 @@ const faq = [
   ['Do I need to join a studio?', 'No studio route is promoted here. This page sends prospective creators to the dedicated model registration flow.'],
   ['How much can I earn?', 'There is no guaranteed income. Earnings depend on factors such as activity, audience response, paid interactions, pricing and retention. Review the current creator terms and payout information during registration.'],
   ['Will I need age and identity verification?', 'Yes. Adult creator platforms require age and identity checks. Follow the current verification steps shown during registration and never submit documents anywhere except the official platform flow.'],
-  ['Where do I start?', 'Use the model registration button on this page to open the current AVCams creator signup flow.']
+  ['Where do I register?', 'AVCams is a discovery site, not the model onboarding provider. Its model referral route should take you to official Stripchat registration. Check the destination hostname before entering personal information.'],
+  ['Is every country eligible?', 'Availability, verification, payout methods and referral eligibility can vary. Review the current official platform terms for your country. This guide does not certify eligibility for every location.'],
+  ['Does StripUnion receive a referral fee?', 'StripUnion may receive a qualifying referral commission. It is not a payment to you, a guaranteed reward, or an employment offer. Studio acquisition is not promoted as a paid referral.']
 ];
 
 const faqSchema = {
@@ -25,7 +27,7 @@ const faqSchema = {
 };
 
 const steps = [
-  ['1', 'Create your creator account', 'Open the dedicated model registration route and start with accurate account information.'],
+  ['1', 'Create your creator account', 'Open the dedicated model referral route, verify that it reaches official Stripchat registration, and review current local eligibility before entering accurate account information.'],
   ['2', 'Complete verification', 'Follow the platform’s current age, identity and account-verification requirements.'],
   ['3', 'Build your profile', 'Choose a clear profile identity, presentation and room positioning that match the audience you want to attract.'],
   ['4', 'Go live and improve', 'Start broadcasting, review your results and refine your presentation, schedule and audience strategy over time.']
@@ -41,16 +43,17 @@ const growthFactors = [
 ];
 ---
 <BaseLayout title={title} description={description} pageType="Article" extraSchemas={[faqSchema]}>
-  <section class="page-hero creator-hero">
+  <section class="page-hero creator-hero" data-model-referral-version="2026-11-15">
     <div class="shell narrow">
       <nav class="breadcrumbs"><a href="/">Home</a><span>/</span><a href="/avcams">AVCams</a><span>/</span><span>Become a Model</span></nav>
       <span class="kicker">Creator opportunity · Adults 18+</span>
-      <h1>Build your live creator presence on AVCams</h1>
-      <p class="lead">If you want to broadcast rather than watch, use the dedicated creator route. Set up your profile, complete the required verification, go live and improve from real audience response. Earnings are variable and never guaranteed.</p>
+      <h1>Review official Stripchat model registration via AVCams</h1>
+      <p class="lead">If you are 18+ and considering broadcasting, this independent guide explains the creator referral route. AVCams does not register models itself: onboarding, age and identity checks, creator terms and payouts are handled by Stripchat. Earnings are variable and never guaranteed.</p>
       <div class="hero-actions">
         <AffiliateButton source="become_model_hero" label="Start Model Registration →" destinationPath="/signup/model" />
         <a class="button button-secondary" href="#how-it-works">See how it works</a>
       </div>
+      <p class="creator-referral-disclosure"><small>Paid referral: StripUnion may receive a qualifying referral commission. This is not a job offer or a guaranteed payment to you.</small></p>
       <div class="creator-trust" aria-label="Creator route highlights">
         <div><strong>18+ only</strong><span>Age and identity verification required</span></div>
         <div><strong>Direct creator route</strong><span>No studio signup promoted</span></div>
@@ -91,10 +94,10 @@ const growthFactors = [
       <div class="conversion-strip">
         <div>
           <span class="kicker">Ready to begin?</span>
-          <h2>Open the creator registration flow</h2>
-          <p>You can review the current requirements before deciding whether to complete the application.</p>
+          <h2>Review the official platform application</h2>
+          <p>Review the official Stripchat destination and current requirements before deciding whether to apply. Do not submit identity documents to StripUnion or community contacts.</p>
         </div>
-        <AffiliateButton source="become_model_steps" label="Open Model Signup →" destinationPath="/signup/model" />
+        <div><AffiliateButton source="become_model_steps" label="Open Official Model Signup →" destinationPath="/signup/model" /><p><small>Paid referral · platform eligibility applies</small></p></div>
       </div>
     </div>
   </section>
@@ -136,14 +139,15 @@ const growthFactors = [
       <div>
         <span class="kicker">Creator signup · 18+</span>
         <h2>Ready to see the current registration requirements?</h2>
-        <p>Open the official creator flow, review the terms and decide whether AVCams fits the way you want to broadcast.</p>
+        <p>Continue through the AVCams referral route to official Stripchat onboarding. Check the destination, country eligibility, privacy controls and terms before deciding. No account or income outcome is promised.</p>
       </div>
-      <AffiliateButton source="become_model_bottom" label="Start Model Registration →" destinationPath="/signup/model" />
+      <div><AffiliateButton source="become_model_bottom" label="Review Model Registration →" destinationPath="/signup/model" /><p><small>Paid referral · adults 18+ only</small></p></div>
     </section>
   </section>
 
   <style>
     .creator-hero .lead { max-width: 760px; }
+    .creator-referral-disclosure { color: var(--muted); max-width: 760px; }
     .creator-trust {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));

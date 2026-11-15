@@ -13,9 +13,10 @@ export function buildAvcamsUrl({
 }) {
   const url = new URL(STRIPCASH_TRACKING_URL);
   const pageKey = pagePathToKey(pagePath);
-  const campaignId = classifyCampaign(pageKey);
   const creativeId = sanitizeTrackingValue(label || 'explore_avcams');
   const normalizedDestinationPath = normalizeAvcamsPath(destinationPath);
+  const isModelReferral = normalizedDestinationPath === '/signup/model';
+  const campaignId = isModelReferral ? 'su_model_referral' : classifyCampaign(pageKey);
 
   url.searchParams.set('userId', STRIPCASH_USER_ID);
   url.searchParams.set('campaignId', campaignId);
@@ -32,6 +33,7 @@ export function buildAvcamsUrl({
   return {
     url: url.toString(),
     campaignId,
+    program: isModelReferral ? 'model-referral' : 'viewer',
     creativeId,
     pageKey,
     placement: sanitizeTrackingValue(placement || 'unknown'),

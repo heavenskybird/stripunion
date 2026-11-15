@@ -1,12 +1,15 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildRevenueTruth, revenueBrainDecisions } from './lib/revenue-truth.mjs';
+import { latestRevenueInput, knownRevenuePageRoutes } from './lib/revenue-inputs.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const opportunitiesPath = path.join(root, 'ops/growth/opportunities/latest.json');
 const offersPath = path.join(root, 'ops/growth/offers/direct-offers.json');
 const experimentStatePath = path.join(root, 'ops/growth/experiments/state.json');
-const outDir = path.join(root, 'ops/growth/decisions');
+const outDir = process.env.GROWTH_BRAIN_OUTPUT_DIR || path.join(root, 'ops/growth/decisions');
+const revenueRawRoot = process.env.GROWTH_REVENUE_RAW_ROOT || path.join(root, 'ops/seo-data-layer/data/raw');
 
 async function readJson(file, fallback = null) {
   try {
@@ -83,10 +86,12 @@ if (process.argv.includes('--self-test')) {
   process.exit(0);
 }
 
-const [growth, offers, experimentState] = await Promise.all([
+const [growth, offers, experimentState, attributionRaw, stripcashRaw] = await Promise.all([
   readJson(opportunitiesPath, {}),
   readJson(offersPath, { offers: [] }),
-  readJson(experimentStatePath, { experiments: [] })
+  readJson(experimentStatePath, { experiments: [] }),
+  latestRevenueInput(revenueRawRoot, 'attribution'),
+  latestRevenueInput(revenueRawRoot, 'stripcash')
 ]);
 
 const validatedLearnings = (experimentState.experiments || [])
@@ -104,7 +109,8 @@ const validatedLearnings = (experimentState.experiments || [])
   .sort((a, b) => String(b.endedAt || '').localeCompare(String(a.endedAt || '')));
 
 const generatedAt = new Date().toISOString();
-const decisions = [];
+const revenueTruth = buildRevenueTruth({attribution:attributionRaw?.data,partner:stripcashRaw?.data,pageRoutes:await knownRevenuePageRoutes(root)});
+const decisions = revenueBrainDecisions(revenueTruth);
 
 for (const opportunity of growth?.opportunities || []) {
   const action = actionFor(opportunity);
@@ -226,6 +232,7 @@ const result = {
   },
   commercialState: {
     activeOfferIds: safeOfferIds(offers),
+    revenueTruth,
     aggregateMonetization: growth?.monetization || null,
     attributionSource: growth?.sources?.attribution || null
   },
@@ -248,6 +255,8 @@ const lines = [
   'Generated: ' + generatedAt,
   '',
   'Governor: ' + JSON.stringify(result.governor),
+  '',
+  'Revenue: business reporting USD (owner confirmed); confirmed scoped USD commission=' + (revenueTruth.confirmedUsd.amount ?? 'UNKNOWN') + '; unresolved historical unmatched=' + (revenueTruth.unmatched.unexplainedUnmatched ?? 'UNKNOWN') + '. Partner aggregate, cumulative postbacks and GA4 are not a matched financial window.',
   '',
   '## Ranked decisions',
   ''

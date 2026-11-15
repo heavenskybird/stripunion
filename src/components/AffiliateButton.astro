@@ -41,6 +41,7 @@ const effectiveLabel = rolloutLabel || label;
     rel={AFFILIATE_REL}
     data-affiliate-partner="avcams"
     data-affiliate-source={source}
+    data-affiliate-mode={tracking.program === 'model-referral' ? 'model-referral' : 'avcams-tracked'}
     data-stripcash-campaign-id={tracking.campaignId}
     data-stripcash-creative-id={tracking.creativeId}
     data-stripcash-source-id={STRIPCASH_SOURCE_ID}
