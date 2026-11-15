@@ -1,6 +1,6 @@
 {
   "policy": {
-    "updated": "2026-10-04",
+    "updated": "2026-11-15",
     "rule": "Prefer official first-party brand/operator affiliate or referral programs. Do not add generic third-party affiliate-network offers without explicit approval.",
     "approved_existing": [
       "avcams",
@@ -12,7 +12,8 @@
     "affiliate_referral_strategy": "StripCash affiliate referral is active at https://stripcash.com/sign-up/stripunion and pays 5% of referred affiliates' earnings for life, per account-specific user confirmation.",
     "partner_network_strategy": "Prefer upstream-native viewer, model/creator, and webmaster/affiliate referral economics before any StripUnion-funded payout program. Keep the funnels distinct and verify current official terms before promotion.",
     "approval_audit_as_of": "2026-11-15",
-    "new_offer_activation_rule": "Only approved_active offers with user-approved tracking and contextual fit may render. Targets, pending applications and non-cash programs stay off."
+    "new_offer_activation_rule": "Only approved_active offers with user-approved tracking and contextual fit may render. Targets, pending applications and non-cash programs stay off.",
+    "operator_link_verification_note": "User-provided current links are recorded without implying provider-confirmed credited USD revenue. Activation must pass offer fit, account eligibility and tracking checks."
   },
   "offers": [
     {
@@ -31,7 +32,10 @@
       "model_signup_path": "/signup/model",
       "strategic_role": "primary conversion destination for StripUnion and blog traffic",
       "approval_status": "approved_active",
-      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility.",
+      "model_direct_tracking_url": "https://go.mavrtracktor.com/signup/model?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2",
+      "model_whitelabel_navigation_url": "https://avcams.online/signup/model",
+      "model_whitelabel_route_note": "Owner confirms side-navigation model signup and fixed direct tracker both attribute to StripCash account; no false payroll claims."
     },
     {
       "id": "stripchat",
@@ -49,7 +53,9 @@
       "model_referral_route": "/signup/model",
       "commercial_destination": "avcams",
       "approval_status": "approved_via_avcams_only",
-      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility."
+      "eligibility_verification": "Existing operator approval recorded; validate current territory/device/account terms before claiming eligibility.",
+      "model_direct_tracking_url": "https://go.mavrtracktor.com/signup/model?userId=103b9c78aec8b8b06d334ded4b9d5ae3c0c8add13eea35b59fc519455ece9fe2",
+      "model_direct_route_source": "owner confirmed both direct and AVCams side navigation routes commissionable on 2026-11-15; final credited reward not independently observed"
     },
     {
       "id": "chaturbate",
@@ -58,8 +64,12 @@
       "status": "target",
       "official_url": "https://chaturbate.com/affiliates/",
       "relationship": "direct_brand_program",
-      "approval_status": "pending_application",
-      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
+      "approval_status": "user_provided_tracking_link_terms_review_pending",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification.",
+      "viewer_tracking_url": "https://chaturbate.com/in/?tour=LQps&campaign=TuCku&track=default&room=stripunion",
+      "registration_status": "owner_link_received_previously",
+      "official_whitelabel_url": "https://chaturbate.com/affiliates/whitelabels/add/",
+      "offer_activation_note": "Existing target remains off until operator account approval and exact linkcode plan validated."
     },
     {
       "id": "bongacams",
@@ -129,8 +139,12 @@
       "status": "target",
       "official_url": "https://www.lovense.com/sextoys/affiliate",
       "relationship": "direct_brand_program",
-      "approval_status": "pending_application",
-      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification."
+      "approval_status": "user_registered_link_provided_terms_review_pending",
+      "eligibility_verification": "Not approved; geography, payout, terms and account tracking require verification.",
+      "affiliate_homepage_tracking_url": "https://www.lovense.com/r/gjxapf",
+      "registration_status": "owner_registered_with_tracking_url_2026-11-15",
+      "tracking_url_source": "user-provided",
+      "offer_activation_note": "Do not auto-render until permitted geography, official payment/commission terms and destination reviewed; current target remains unchanged."
     },
     {
       "id": "lovehoney",
