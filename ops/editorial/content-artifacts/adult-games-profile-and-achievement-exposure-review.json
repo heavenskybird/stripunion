@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-games-profile-and-achievement-exposure-review",
+  "slug": "adult-games-profile-and-achievement-exposure-review",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Profile and Achievement Exposure Before You Play",
+  "description": "Learn how to inspect profile visibility, activity sharing, achievements, and launcher notifications before adding an adult game to a shared account.",
+  "excerpt": "A game can be installed privately but still appear in a public profile, activity feed, or notification. This checklist helps you map the visible surfaces before you play.",
+  "keyTakeaways": [
+    "A private installation does not automatically make a game title or play activity private.",
+    "Check storefront profiles, activity feeds, achievements, friend notifications, and launcher overlays as separate exposure points.",
+    "Test settings before launching a title, because some activity can be shared immediately.",
+    "Use a separate operating-system or platform profile only after checking what that separation does and does not isolate.",
+    "Recheck visibility after updates, account changes, or joining a community feature."
+  ],
+  "sections": [
+    {
+      "heading": "Map where game activity can appear",
+      "paragraphs": [
+        "Before choosing a storefront or community platform, list the places where a title or session could become visible. A profile library may show owned games; an activity feed may show recent launches; achievements may reveal a title or milestone; a friends feature may display presence; and a launcher overlay may show notifications on screen. These are different surfaces, so changing one privacy setting may not control all of them.",
+        "The relevant question is not simply whether a platform has a “private” option. Find out what that setting covers, whether it applies to the whole account or individual games, and whether it hides past activity as well as future activity. If an explanation is ambiguous, do not assume the narrowest or broadest interpretation. Test a low-risk setting or ask support before relying on it.",
+        "Also consider the device environment. A shared computer can show a recent-app list, desktop shortcut, download folder, or operating-system notification even if the platform profile is private. This guide focuses on platform and profile exposure, but an account-level setting cannot erase every local trace."
+      ],
+      "bullets": [
+        "Identify the profile library, activity feed, achievements, presence state, and notifications.",
+        "Check whether visibility controls apply to one game, one feature, or the whole account.",
+        "Consider shared-device traces separately from platform profile settings."
+      ]
+    },
+    {
+      "heading": "Inspect settings before launching the game",
+      "paragraphs": [
+        "Review the account's profile and privacy controls before installing or launching. Look for settings that govern owned titles, play history, current activity, friend visibility, and achievement sharing. Read the setting descriptions and record the default state rather than assuming that an account is private by default. When the interface offers a preview of how others see a profile, use it, but remember that a preview may not represent every audience or notification route.",
+        "Check whether visibility can be limited to selected contacts or whether the choices are broader, such as public, friends, or private. A narrow audience is not the same as no audience: friends may share screenshots or see notifications. If a platform has separate community pages or discussion hubs, their visibility controls may differ from account settings.",
+        "When possible, turn off optional activity sharing before the first launch. If settings are spread across a storefront, launcher, and game itself, check each layer. A title may also offer its own achievement, overlay, or online-profile options. Do not assume that a setting in one layer overrides another."
+      ],
+      "table": {
+        "caption": "Exposure surfaces to review before adding a game",
+        "headers": [
+          "Surface",
+          "What to inspect",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Profile library",
+            "Whether owned titles can be seen and by whom",
+            "Setting name and audience"
+          ],
+          [
+            "Activity feed",
+            "Whether launches or play sessions are shown",
+            "Whether future activity can be disabled"
+          ],
+          [
+            "Achievements",
+            "Whether title names or progress appear to others",
+            "Per-game and account-wide controls"
+          ],
+          [
+            "Presence and notifications",
+            "Whether friends see an active session or launch alert",
+            "Relevant platform and launcher settings"
+          ],
+          [
+            "Community page",
+            "Whether posts, reviews, or profile participation are public",
+            "Separate community visibility rules"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand the limits of profile separation",
+      "paragraphs": [
+        "A separate platform profile may reduce the connection between a title and a primary profile, but it can create another set of credentials, recovery details, and settings to maintain. It may not separate operating-system notifications, shared payment records, installed files, or the device's recent-activity history. Treat profile separation as one control among several, not as a complete privacy guarantee.",
+        "A separate operating-system user account can help keep local shortcuts and session state apart on a shared computer, but its effectiveness depends on how that computer is configured. Shared administrator access, synchronized folders, or a common launcher account can weaken the boundary. If you cannot manage those settings, avoid assuming that another desktop login creates complete separation.",
+        "Keep account recovery practical. If you create a separate profile, use a secure recovery method you can access and protect it with a unique password. Avoid using a shared email inbox or storing credentials where other users of the device can retrieve them. The privacy benefit is not useful if you later lose control of the account."
+      ],
+      "bullets": [
+        "Write down which layers a separate profile actually isolates.",
+        "Check whether launcher, operating-system, and payment activity remain shared.",
+        "Keep recovery details secure and accessible only to the account owner."
+      ]
+    },
+    {
+      "heading": "Check notifications and overlays during a controlled test",
+      "paragraphs": [
+        "After adjusting settings, test the result before using a shared screen or joining a voice or community session. Use a non-sensitive title if available, or review platform help pages and settings previews instead of generating visible activity. Check desktop banners, launcher overlays, friend alerts, and any connected device that may mirror notifications. A phone or tablet linked to the same account can expose information even when the game is running on a private screen.",
+        "Pay attention to screenshots and recordings. A platform may allow users to capture a game screen, and an overlay may show a title or account name. Decide whether capture tools should be disabled or whether a different screen-sharing layout is needed. This is especially relevant when a computer is used for work calls, streaming, or remote support.",
+        "Do not use another person's account to test visibility without permission. A better test is a settings preview, a clearly agreed test profile, or a support question that does not reveal unnecessary personal information. Save a brief note about the settings you changed so you can restore them deliberately."
+      ]
+    },
+    {
+      "heading": "Revisit exposure when the setup changes",
+      "paragraphs": [
+        "Privacy settings can be affected by platform redesigns, account changes, new launcher features, or a shift from one device to another. Recheck the relevant settings when you install a different client, enable a community feature, connect a mobile companion app, or change the audience on your profile. A setting that hides a library may not hide a public review or a newly enabled activity feed.",
+        "Before sharing a device or account, inspect active sessions and sign out where appropriate. Remove saved credentials from a shared browser or launcher only if doing so will not disrupt another person's account. If you are handing over a device, separately review local shortcuts, recent files, notification previews, and account access.",
+        "Build a small pre-launch routine instead of trying to remember every setting from scratch. Keep a short checklist of the few surfaces that matter in your environment. The goal is not to eliminate every possible trace; it is to understand the boundaries you can control and avoid unexpected sharing."
+      ],
+      "bullets": [
+        "Recheck privacy controls after a platform, account, or device change.",
+        "Review connected devices and active sessions before sharing equipment.",
+        "Keep a brief, neutral record of settings that need to be restored."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does setting a game profile to private hide all game activity?",
+      "answer": "Not necessarily. A profile setting may control library visibility while achievements, presence, notifications, community posts, or local device history use separate controls. Check each surface and read the description of the specific setting."
+    },
+    {
+      "question": "Will a separate operating-system account hide a game from a shared computer?",
+      "answer": "It can separate some local user data, but it does not automatically isolate shared launcher accounts, synchronized folders, administrator access, payment records, or device-level notifications. Review the computer's actual configuration before relying on that boundary."
+    },
+    {
+      "question": "What should I check before a game launch on a shared screen?",
+      "answer": "Review profile and activity visibility, presence, achievement sharing, launcher overlays, and notifications mirrored to other devices. Also check whether screen sharing or capture tools might reveal the title or account name."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

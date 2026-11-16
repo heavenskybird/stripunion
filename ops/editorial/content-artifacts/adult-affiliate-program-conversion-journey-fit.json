@@ -1,0 +1,130 @@
+{
+  "backlogId": "adult-affiliate-program-conversion-journey-fit",
+  "slug": "adult-affiliate-program-conversion-journey-fit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map the Visitor Journey Before Comparing Conversion Models",
+  "description": "A webmaster framework for matching affiliate program conversion definitions to the visitor journey, content format, and reporting evidence your site can actually support.",
+  "excerpt": "A program's conversion label is not enough to tell you what event earns credit. Map each step from click to qualifying action and identify the evidence you can observe before comparing offers.",
+  "keyTakeaways": [
+    "Compare programs by the event that qualifies, not by a broad label such as sale, lead, or signup.",
+    "Map the visitor's steps and identify which ones are controlled by your site versus the program.",
+    "Check how cancellations, duplicate actions, existing customers, and incomplete applications affect qualification.",
+    "Use reporting definitions and written terms together; dashboard labels alone may omit important conditions.",
+    "Do not forecast from a conversion event until you understand its status changes and exclusions."
+  ],
+  "sections": [
+    {
+      "heading": "Draw the journey from referral click to credited event",
+      "paragraphs": [
+        "Begin with the journey a visitor actually takes: the editorial page, referral link, destination page, any account or eligibility step, and the action the program considers qualifying. Your site controls only part of that journey. The program may control registration, verification, billing, or later approval. A comparison is incomplete if it treats the click and the final credited event as one step.",
+        "Write each step as an observable event and mark who controls it. For example, your analytics may record a referral click while the program reports a submitted form or an approved purchase. These records describe different stages. A click count cannot establish that a later qualifying event occurred, and a program's reported event may not explain every intermediate step.",
+        "This map helps expose operational fit. If your content sends visitors to compare options, a program that credits only a later completed transaction may require different reporting and expectations from one that credits a completed registration. Do not assume one model is better in general; ask whether the event aligns with your content and what you can verify."
+      ],
+      "bullets": [
+        "List every meaningful step between referral click and the reported conversion.",
+        "Mark which party controls each step.",
+        "Separate events you can measure from events only the program can confirm."
+      ]
+    },
+    {
+      "heading": "Read the event definition beyond its headline",
+      "paragraphs": [
+        "A label such as “lead,” “sale,” or “registration” can hide conditions. Check whether the event must be completed, approved, paid, or retained for a period. Look for exclusions involving duplicate submissions, existing customers, incomplete details, cancellations, or rejected applications. Confirm how the program distinguishes a conversion that is pending from one that is final.",
+        "Use the agreement, program documentation, and dashboard field descriptions as separate evidence sources. A dashboard may show a concise status while the governing terms define qualification in more detail. If the documents conflict or do not explain an important condition, record the uncertainty and ask for clarification in writing before building forecasts or making a public claim.",
+        "Ask what happens when an event changes status. A pending action might later be approved, reversed, or excluded. Understand the sequence and whether the report shows those changes with enough detail to reconcile them. The purpose is not to infer a likely outcome but to know how the program defines and reports each stage."
+      ],
+      "table": {
+        "caption": "Questions that reveal what a program's conversion label means",
+        "headers": [
+          "Journey stage",
+          "Question to resolve",
+          "Evidence to compare"
+        ],
+        "rows": [
+          [
+            "Initial action",
+            "What must the visitor complete?",
+            "Event definition and destination flow"
+          ],
+          [
+            "Qualification",
+            "Is review, payment, or approval required?",
+            "Agreement and status descriptions"
+          ],
+          [
+            "Exclusions",
+            "Which actions do not qualify?",
+            "Terms on duplicates, eligibility, and cancellations"
+          ],
+          [
+            "Status change",
+            "Can a reported event later be reversed?",
+            "Reporting fields and adjustment rules"
+          ],
+          [
+            "Attribution",
+            "How is the action linked to the referral?",
+            "Tracking explanation and attribution terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Match event visibility to your reporting capacity",
+      "paragraphs": [
+        "Your own analytics may confirm that a visitor clicked a referral link, but it generally cannot verify private actions completed on another service unless the program provides a suitable report or tracking integration. Decide what evidence you need to operate responsibly: clicks, pending events, approved events, reversals, or a useful combination. Do not promise a level of verification your data cannot support.",
+        "Check whether reports use stable event identifiers, meaningful status names, and a clear distinction between event date and status-update date. These details matter if you compare campaigns or reconcile a later change. If the dashboard only provides aggregate totals, ask whether detailed exports or other reporting views are available before depending on event-level analysis.",
+        "Consider the maintenance cost of the reporting model. A program with several status stages may require periodic reconciliation; a simpler report may be easier to operate but less informative. Choose based on your capacity and decision needs, not on the assumption that more fields always produce better evidence."
+      ]
+    },
+    {
+      "heading": "Evaluate visitor expectations and editorial fit",
+      "paragraphs": [
+        "Your page should describe the action a visitor is being invited to take without overstating what happens afterward. If the program requires extra eligibility, verification, or approval steps, consider whether the destination explains them clearly. A mismatch between your page's promise and the destination can erode trust even when the referral link tracks correctly.",
+        "Review the entire journey on a test or public-facing path, without entering unnecessary personal data. Note where the visitor sees the relevant terms and whether the program's next step is consistent with the link label. If you cannot inspect a later stage safely or without creating an account, record that limitation rather than assuming it behaves as expected.",
+        "The conversion model should fit the content's role. An informational comparison page may set expectations and refer a visitor onward, while a tutorial may prepare a visitor for a particular action. Check whether your content makes the program's qualification conditions understandable and whether the program permits the way you plan to describe it."
+      ],
+      "bullets": [
+        "Check that link labels and surrounding copy match the destination's next step.",
+        "Identify qualification conditions a visitor may not see until later.",
+        "Avoid describing an unverified event as guaranteed or automatic."
+      ]
+    },
+    {
+      "heading": "Create a comparison record before selecting a program",
+      "paragraphs": [
+        "Build a short record for each candidate: the qualifying event, required conditions, exclusions, status changes, attribution explanation, available reports, and unresolved questions. Keep direct references to the relevant terms or documentation so you can update the record if the program changes. This is different from a generic feature comparison because it ties the model to your own content and reporting workflow.",
+        "Score operational fit separately from commercial terms. For example, a clear event definition and useful status reporting can be valuable even if the model does not suit your audience. Likewise, an apparently simple event label is not operationally simple if the terms contain several exclusions. Avoid using a single headline metric to stand in for the full journey.",
+        "Revisit the map when your page format, referral route, or program terms change. If a previously qualifying action becomes conditional, update your content and forecasts. A written event map helps prevent old assumptions from persisting after a program changes how it handles attribution or qualification."
+      ],
+      "bullets": [
+        "Record qualifying events, exclusions, status changes, and attribution details.",
+        "Keep unresolved questions visible and seek written clarification.",
+        "Update the comparison when terms or the visitor journey changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a reported signup always a qualifying conversion?",
+      "answer": "No. A program may require additional steps such as approval, payment, eligibility checks, or a completed application. Read the event definition and exclusions to understand what qualifies and whether a reported status can change."
+    },
+    {
+      "question": "Can my own analytics verify a conversion on a partner site?",
+      "answer": "Your analytics may show the referral click, but it may not independently verify a later action on another service. Check what the program reports and avoid presenting click data as proof of a completed or approved conversion."
+    },
+    {
+      "question": "What if the dashboard and program terms use different event descriptions?",
+      "answer": "Record the discrepancy and ask the program for written clarification before relying on the event in a forecast or public claim. Keep the relevant documentation so you can identify whether the explanation or terms later change."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
