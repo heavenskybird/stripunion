@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T01:57:38.513Z",
+  "generatedAt": "2026-11-16T02:58:28.282Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-custom-request-scope-workflow.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-spatial-audio-claims-audit.json",
-    "ops/editorial/content-artifacts/free-video-moderation-report-transparency-comparison.json",
-    "ops/editorial/content-artifacts/adult-games-spatial-audio-disclosure-review.json",
-    "ops/editorial/content-artifacts/adult-shop-product-colour-photo-evidence-check.json"
+    "ops/editorial/content-artifacts/adult-anime-app-install-or-browser-decision.json",
+    "ops/editorial/content-artifacts/premium-video-catalog-metadata-confidence-check.json",
+    "ops/editorial/content-artifacts/live-cam-room-rule-clarity-comparison.json",
+    "ops/editorial/content-artifacts/adult-platform-checkout-save-payment-credential-review.json",
+    "ops/editorial/content-artifacts/affiliate-program-negative-balance-and-hold-terms-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-custom-request-scope-workflow.js",
-    "src/data/guides/vr-adult-platform-spatial-audio-claims-audit.js",
-    "src/data/guides/free-video-moderation-report-transparency-comparison.js",
-    "src/data/guides/adult-games-spatial-audio-disclosure-review.js",
-    "src/data/guides/adult-shop-product-colour-photo-evidence-check.js"
+    "src/data/guides/adult-anime-app-install-or-browser-decision.js",
+    "src/data/guides/premium-video-catalog-metadata-confidence-check.js",
+    "src/data/guides/live-cam-room-rule-clarity-comparison.js",
+    "src/data/guides/adult-platform-checkout-save-payment-credential-review.js",
+    "src/data/guides/affiliate-program-negative-balance-and-hold-terms-review.js"
   ],
   "categories": [
-    "creator-platforms",
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "hentai-anime",
+    "premium-videos",
+    "live-cams",
+    "privacy-safety-payment",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "creator-platform-custom-request-scope-workflow",
-    "vr-adult-platform-spatial-audio-claims-audit",
-    "free-video-moderation-report-transparency-comparison",
-    "adult-games-spatial-audio-disclosure-review",
-    "adult-shop-product-colour-photo-evidence-check"
+    "adult-anime-app-install-or-browser-decision",
+    "premium-video-catalog-metadata-confidence-check",
+    "live-cam-room-rule-clarity-comparison",
+    "adult-platform-checkout-save-payment-credential-review",
+    "affiliate-program-negative-balance-and-hold-terms-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43789006707",
-  "phase": "closed"
+  "r1CycleId": "43794900820"
 }
