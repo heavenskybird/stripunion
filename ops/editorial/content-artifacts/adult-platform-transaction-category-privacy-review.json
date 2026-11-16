@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-platform-transaction-category-privacy-review",
+  "slug": "adult-platform-transaction-category-privacy-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Payments: Check Transaction Categories and Shared Finance Views",
+  "description": "Learn how to review transaction categorization and shared finance access before linking an adult platform payment to a budget, banking, or household finance tool.",
+  "excerpt": "A charge may appear in more places than a card statement. Check how your banking, budgeting, and shared finance tools display transaction details before connecting accounts or granting access.",
+  "keyTakeaways": [
+    "A transaction may be visible through linked finance tools as well as the original payment account.",
+    "Review category, merchant, memo, and notification fields before sharing a finance view.",
+    "Do not assume that a private label in one app changes the underlying statement or records.",
+    "If you change a label, preserve accurate records and avoid altering information needed for reconciliation."
+  ],
+  "sections": [
+    {
+      "heading": "Map where a payment record can appear",
+      "paragraphs": [
+        "A payment record can be displayed in a bank or card account, a budgeting application, a shared household dashboard, a downloadable statement, or a notification. Each view may show different fields, and access to one view may be shared with someone who cannot see another. Before linking a payment account or inviting another person to a finance tool, map the places where transactions could be displayed.",
+        "Start with the accounts and services you actually use. Check whether any household member has delegated access, whether a budgeting tool imports transactions, and whether bank alerts appear on a shared device. You do not need to disclose the purpose of every transaction to conduct this review. The goal is to understand what information is visible and to whom, so you can choose a suitable payment and account setup."
+      ],
+      "bullets": [
+        "List the payment account, finance apps, and shared dashboards connected to it.",
+        "Identify who can view each account or report.",
+        "Include email, push alerts, exports, and recurring summaries in the review."
+      ]
+    },
+    {
+      "heading": "Inspect category and description fields",
+      "paragraphs": [
+        "Finance tools may show a merchant or transaction description alongside a category, memo, tag, or note. Some fields may be supplied by the payment processor or financial institution, while others may be editable in the app. Do not assume that changing a category or label alters the original record or every connected view. Check which information is imported and which is only a local display choice.",
+        "Review a representative transaction from an account you control before connecting or sharing a larger set of records. Note the wording and fields shown in the account’s normal view, any notification, and any export. If an entry is unfamiliar, verify it through the appropriate account channel rather than making a hasty edit. Accurate records matter for understanding spending and resolving errors, even when privacy is a concern."
+      ],
+      "table": {
+        "caption": "Transaction visibility checklist for connected finance tools",
+        "headers": [
+          "Record or view",
+          "What to check",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Bank or card activity",
+            "Merchant wording, date, and transaction status",
+            "Who can sign in or receive an alert?"
+          ],
+          [
+            "Budget dashboard",
+            "Imported description, category, tags, and notes",
+            "Can another person view or export this entry?"
+          ],
+          [
+            "Email or device alert",
+            "Preview text, account name, and lock-screen display",
+            "Could the alert be seen on a shared screen?"
+          ],
+          [
+            "Statement or export",
+            "Fields included in downloaded or shared records",
+            "Who can access the file or destination folder?"
+          ],
+          [
+            "Linked account permissions",
+            "Connected services and access scope",
+            "Can access be limited or revoked through the provider?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand the limits of categories and private labels",
+      "paragraphs": [
+        "A category such as entertainment, shopping, or another broad label may make a budgeting view easier to scan, but it does not necessarily change the merchant description shown elsewhere. If a tool allows custom labels, find out whether those labels are visible only to you or to everyone with access to the shared account. Read the app’s help information before relying on a setting as a privacy control.",
+        "Do not use a relabeling feature to make financial records misleading. A private bookkeeping label can help organize spending, but receipts, official statements, and transaction histories should remain accurate. If you need discretion, focus on controlling access to the records and notifications rather than assuming a category will conceal the underlying transaction from a cardholder or account administrator."
+      ]
+    },
+    {
+      "heading": "Review sharing and linked-account permissions",
+      "paragraphs": [
+        "Before linking a payment account to a budgeting service, read what data the service requests and what account access it receives. Check whether permissions include transaction history, balances, or ongoing updates, and whether you can disconnect the service later. Use only tools you understand and trust; avoid sharing account credentials or exporting more information than the task requires.",
+        "For a shared household view, confirm whether access is account-wide or limited to selected categories, accounts, or reports. Do not assume that an individual transaction can be hidden from another authorized account holder. If you cannot determine who can see the imported records, pause before linking the account. A finance tool is not a privacy boundary simply because it presents a customized dashboard."
+      ]
+    },
+    {
+      "heading": "Choose an alert and record setup that fits your needs",
+      "paragraphs": [
+        "Transaction alerts can help you notice errors, but previews may expose information on a lock screen or a device used by other people. Review the alert settings in both the financial institution and the device. Consider whether you can reduce message detail in previews while retaining notifications that help you monitor account activity. Check mirrored alerts on watches, tablets, and other connected devices as well.",
+        "Keep essential records in a location you control and can access later. If you need documentation for a charge question, preserve the relevant transaction details and correspondence without forwarding sensitive account records to a shared inbox. Do not delete records simply to remove a visible entry if doing so could make it harder to reconcile spending or address an error."
+      ]
+    },
+    {
+      "heading": "Make changes carefully and verify what changed",
+      "paragraphs": [
+        "If you decide to disconnect a budgeting service, remove its access through the appropriate account or provider controls and check whether the service retains previously imported data. If you change a category or notification setting, view the result in each relevant place rather than assuming one change applies everywhere. Save a note of the settings you changed if you may need to restore them later.",
+        "For a transaction you do not recognize, verify the date, amount, and account through the financial institution’s official channel. Keep communication factual and share only the information needed to investigate. A privacy concern does not require you to ignore an error, and an error investigation does not require you to reveal unrelated account activity. Choose a response that protects both accurate records and appropriate privacy."
+      ],
+      "bullets": [
+        "Check permissions before connecting a finance app.",
+        "Review who can see shared dashboards and exported records.",
+        "Use device settings to review notification previews and mirrored alerts.",
+        "Keep accurate transaction records while limiting unnecessary access."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will changing a transaction category hide the merchant description?",
+      "answer": "Not necessarily. A category may change only how an entry is organized in one finance tool. Check whether the original description remains visible in the bank account, exports, notifications, or other connected views."
+    },
+    {
+      "question": "Can a budgeting app show transactions to other household members?",
+      "answer": "That depends on the app’s account and sharing setup. Review its access permissions, shared dashboards, and export options before linking an account or inviting another person. If visibility is unclear, do not assume a transaction can be hidden."
+    },
+    {
+      "question": "Should I delete a transaction record to protect privacy?",
+      "answer": "Avoid deleting records you may need to reconcile spending or resolve a payment issue. Instead, review who can access the account and its notifications, and store any necessary documentation in a location you control."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

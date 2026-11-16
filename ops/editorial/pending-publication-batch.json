@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T18:31:27.118Z",
+  "generatedAt": "2026-11-16T19:33:39.915Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-platform-session-queue-planning.json",
-    "ops/editorial/content-artifacts/adult-games-profile-and-achievement-exposure-review.json",
-    "ops/editorial/content-artifacts/adult-shop-electronics-end-of-life-planning.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-multi-user-device-boundary-review.json",
-    "ops/editorial/content-artifacts/adult-affiliate-program-conversion-journey-fit.json"
+    "ops/editorial/content-artifacts/adult-dating-asynchronous-communication-fit.json",
+    "ops/editorial/content-artifacts/live-cam-live-caption-accessibility-evaluation.json",
+    "ops/editorial/content-artifacts/creator-platform-international-fan-payment-fit.json",
+    "ops/editorial/content-artifacts/premium-video-library-series-completion-planning.json",
+    "ops/editorial/content-artifacts/adult-platform-transaction-category-privacy-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-platform-session-queue-planning.js",
-    "src/data/guides/adult-games-profile-and-achievement-exposure-review.js",
-    "src/data/guides/adult-shop-electronics-end-of-life-planning.js",
-    "src/data/guides/vr-adult-platform-multi-user-device-boundary-review.js",
-    "src/data/guides/adult-affiliate-program-conversion-journey-fit.js"
+    "src/data/guides/adult-dating-asynchronous-communication-fit.js",
+    "src/data/guides/live-cam-live-caption-accessibility-evaluation.js",
+    "src/data/guides/creator-platform-international-fan-payment-fit.js",
+    "src/data/guides/premium-video-library-series-completion-planning.js",
+    "src/data/guides/adult-platform-transaction-category-privacy-review.js"
   ],
   "categories": [
-    "hentai-anime",
-    "adult-games",
-    "adult-shops",
-    "vr-ar",
-    "webmaster-affiliate"
+    "dating-hookups",
+    "live-cams",
+    "creator-platforms",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "adult-anime-platform-session-queue-planning",
-    "adult-games-profile-and-achievement-exposure-review",
-    "adult-shop-electronics-end-of-life-planning",
-    "vr-adult-platform-multi-user-device-boundary-review",
-    "adult-affiliate-program-conversion-journey-fit"
+    "adult-dating-asynchronous-communication-fit",
+    "live-cam-live-caption-accessibility-evaluation",
+    "creator-platform-international-fan-payment-fit",
+    "premium-video-library-series-completion-planning",
+    "adult-platform-transaction-category-privacy-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43929239127",
-  "phase": "closed"
+  "r1CycleId": "43940105751"
 }
