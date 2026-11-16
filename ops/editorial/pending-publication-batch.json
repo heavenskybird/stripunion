@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T04:33:03.605Z",
+  "generatedAt": "2026-11-16T06:24:12.661Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-photo-license-and-retention-review.json",
-    "ops/editorial/content-artifacts/creator-platform-creator-workload-break-even-planner.json",
-    "ops/editorial/content-artifacts/free-video-interface-language-fit-check.json",
-    "ops/editorial/content-artifacts/adult-games-limited-bandwidth-access-planner.json",
-    "ops/editorial/content-artifacts/adult-shop-product-comparison-evidence-workbook.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-evaluate-comfort-break-policy.json",
+    "ops/editorial/content-artifacts/adult-anime-platform-comment-community-fit-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-sponsor-disclosure-workflow.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-account-multiple-profile-consistency.json",
+    "ops/editorial/content-artifacts/adult-platform-payment-shared-cardholder-visibility-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-photo-license-and-retention-review.js",
-    "src/data/guides/creator-platform-creator-workload-break-even-planner.js",
-    "src/data/guides/free-video-interface-language-fit-check.js",
-    "src/data/guides/adult-games-limited-bandwidth-access-planner.js",
-    "src/data/guides/adult-shop-product-comparison-evidence-workbook.js"
+    "src/data/guides/vr-adult-platform-evaluate-comfort-break-policy.js",
+    "src/data/guides/adult-anime-platform-comment-community-fit-audit.js",
+    "src/data/guides/creator-platform-sponsor-disclosure-workflow.js",
+    "src/data/guides/adult-dating-platform-account-multiple-profile-consistency.js",
+    "src/data/guides/adult-platform-payment-shared-cardholder-visibility-plan.js"
   ],
   "categories": [
-    "dating-hookups",
+    "vr-ar",
+    "hentai-anime",
     "creator-platforms",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "dating-hookups",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "dating-platform-photo-license-and-retention-review",
-    "creator-platform-creator-workload-break-even-planner",
-    "free-video-interface-language-fit-check",
-    "adult-games-limited-bandwidth-access-planner",
-    "adult-shop-product-comparison-evidence-workbook"
+    "vr-adult-platform-evaluate-comfort-break-policy",
+    "adult-anime-platform-comment-community-fit-audit",
+    "creator-platform-sponsor-disclosure-workflow",
+    "adult-dating-platform-account-multiple-profile-consistency",
+    "adult-platform-payment-shared-cardholder-visibility-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43804523325",
-  "phase": "closed"
+  "r1CycleId": "43816239348"
 }
