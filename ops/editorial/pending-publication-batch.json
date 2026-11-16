@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T09:05:01.829Z",
+  "generatedAt": "2026-11-16T11:51:28.004Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-membership-fit-for-irregular-viewers.json",
-    "ops/editorial/content-artifacts/live-cam-public-room-readiness-for-observers.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-creative-reuse-rights-review.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-first-use-handoff-planning.json",
-    "ops/editorial/content-artifacts/adult-anime-app-storefront-and-browser-choice.json"
+    "ops/editorial/content-artifacts/free-video-ad-supported-choice-workflow.json",
+    "ops/editorial/content-artifacts/adult-game-branching-replay-value-assessment.json",
+    "ops/editorial/content-artifacts/adult-shop-product-selection-information-journey.json",
+    "ops/editorial/content-artifacts/premium-video-subscription-library-fit-sampling.json",
+    "ops/editorial/content-artifacts/live-cam-platform-public-room-observation-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-membership-fit-for-irregular-viewers.js",
-    "src/data/guides/live-cam-public-room-readiness-for-observers.js",
-    "src/data/guides/webmaster-affiliate-creative-reuse-rights-review.js",
-    "src/data/guides/vr-adult-platform-first-use-handoff-planning.js",
-    "src/data/guides/adult-anime-app-storefront-and-browser-choice.js"
+    "src/data/guides/free-video-ad-supported-choice-workflow.js",
+    "src/data/guides/adult-game-branching-replay-value-assessment.js",
+    "src/data/guides/adult-shop-product-selection-information-journey.js",
+    "src/data/guides/premium-video-subscription-library-fit-sampling.js",
+    "src/data/guides/live-cam-platform-public-room-observation-fit.js"
   ],
   "categories": [
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "premium-videos",
-    "live-cams",
-    "webmaster-affiliate",
-    "vr-ar",
-    "hentai-anime"
+    "live-cams"
   ],
   "backlogIds": [
-    "premium-video-membership-fit-for-irregular-viewers",
-    "live-cam-public-room-readiness-for-observers",
-    "webmaster-affiliate-creative-reuse-rights-review",
-    "vr-adult-platform-first-use-handoff-planning",
-    "adult-anime-app-storefront-and-browser-choice"
+    "free-video-ad-supported-choice-workflow",
+    "adult-game-branching-replay-value-assessment",
+    "adult-shop-product-selection-information-journey",
+    "premium-video-subscription-library-fit-sampling",
+    "live-cam-platform-public-room-observation-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43836142708",
-  "phase": "closed"
+  "r1CycleId": "43861030555"
 }
