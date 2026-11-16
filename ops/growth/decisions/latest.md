@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-11-15T07:58:21.846Z
+Generated: 2026-11-16T08:11:49.490Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -13,20 +13,20 @@ Revenue: business reporting USD (owner confirmed); confirmed scoped USD commissi
 - **UPDATE** · 100 · Stripchat review · eligible=true · risk=low · confidence=low · refresh existing /stripchat landing page using clustered search evidence
 - **UPDATE** · 100 · Stripchat mobile experience · eligible=true · risk=low · confidence=low · refresh existing /stripchat-app landing page using clustered search evidence
 - **CREATE** · 100 · freelivecam · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **UPDATE** · 100 · LiveJasmin review · eligible=true · risk=low · confidence=low · refresh existing /livejasmin landing page using clustered search evidence
+- **UPDATE** · 100 · LiveJasmin review · eligible=true · risk=low · confidence=medium · refresh existing /livejasmin landing page using clustered search evidence
 - **UPDATE** · 100 · Stripchat alternatives · eligible=true · risk=low · confidence=medium · refresh existing /stripchat-alternatives landing page using clustered search evidence
-- **CREATE** · 98 · hentai streaming sites · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **CREATE** · 94 · hentai streaming · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 99 · hentai streaming sites · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 95 · hentai streaming · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **UPDATE** · 93 · xHamster review · eligible=true · risk=low · confidence=low · refresh existing /xhamster landing page using clustered search evidence
-- **UPDATE** · 92 · Chaturbate review · eligible=true · risk=low · confidence=medium · refresh existing /chaturbate landing page using clustered search evidence
-- **UPDATE** · 88 · SexLikeReal review · eligible=true · risk=low · confidence=low · refresh existing /sexlikereal landing page using clustered search evidence
+- **CREATE** · 89 · anime +18 game · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **UPDATE** · 89 · Chaturbate review · eligible=true · risk=low · confidence=medium · refresh existing /chaturbate landing page using clustered search evidence
+- **UPDATE** · 85 · SexLikeReal review · eligible=true · risk=low · confidence=low · refresh existing /sexlikereal landing page using clustered search evidence
 - **HOLD** · 84 · confirmed USD affiliate commission · eligible=false · risk=medium · confidence=source-observed · Reconcile authenticated provider periods and commission semantics before revenue-based expansion; do not optimize fabricated EPC.
-- **CREATE** · 81 · avcams · eligible=true · risk=low · confidence=low · evaluate an AVCams-conversion guide against the current content inventory
-- **CREATE** · 81 · vr adult · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **CREATE** · 81 · anime sex game · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 82 · anime sex games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **HOLD** · 80 · unexplained historical postbacks · eligible=false · risk=medium · confidence=observed-unknown · Retain unmatched history and request source evidence; deployed diagnostics do not explain uncovered historical events.
-- **CREATE** · 77 · are cam sites safe · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
-- **CREATE** · 75 · anime sex games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 78 · avcams · eligible=true · risk=low · confidence=low · evaluate an AVCams-conversion guide against the current content inventory
+- **CREATE** · 78 · vr adult · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
+- **CREATE** · 78 · anime sex game · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **UPDATE** · 74 · stripchat-alternatives · eligible=true · risk=low · confidence=joined-event-observed · Preserve and review this existing page-key funnel with joined partner events; do not create a duplicate page or claim paid revenue. URL mapping and commercial fit require review.
 - **UPDATE** · 74 · AdultFriendFinder review · eligible=true · risk=low · confidence=low · refresh existing /adultfriendfinder landing page using clustered search evidence
 - **UPDATE** · 71 · Become a cam model · eligible=true · risk=low · confidence=low · refresh existing /become-a-cam-model landing page using clustered search evidence
