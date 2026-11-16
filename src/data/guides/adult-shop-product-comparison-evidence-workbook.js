@@ -1,0 +1,102 @@
+export default {
+  "slug": "adult-shop-product-comparison-evidence-workbook",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare Product Listings With an Evidence Workbook",
+  "description": "Compare adult-shop listings using consistent evidence for specifications, included items, care details, and policy terms. A practical workbook for avoiding assumptions at purchase time.",
+  "excerpt": "When product pages use different wording or omit details, a side-by-side evidence workbook can reveal what is actually documented and what remains uncertain before you order.",
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "keyTakeaways": [
+    "Compare like with like by recording the exact listing and variant, not just a product name.",
+    "Separate stated specifications from marketing language and unanswered questions.",
+    "Check included items, care information, and relevant compatibility details independently.",
+    "Treat missing information as unknown rather than assuming one listing matches another.",
+    "Save dated records of the listing and policies that informed your decision."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a consistent comparison record",
+      "paragraphs": [
+        "Product pages can use different labels, layouts, and levels of detail, so a side-by-side record helps prevent an attractive headline from standing in for evidence. For each option, capture the retailer, exact product name, selected variant, page date, and the source of the information. If the page links to a separate specification or instruction document, record that too. This is especially useful when product names are similar or several options appear in one listing.",
+        "Do not assume two listings describe the same item because their photos or names look alike. Compare the variant and any model identifier that the retailer provides. If the information cannot be matched, mark it as uncertain. A comparison is useful only when it preserves the distinction between what is explicitly stated, what is inferred, and what has not been answered."
+      ],
+      "table": {
+        "caption": "A compact product-listing evidence workbook",
+        "headers": [
+          "Field",
+          "Record for each listing"
+        ],
+        "rows": [
+          [
+            "Product identity",
+            "Exact name, variant, and any listed model identifier"
+          ],
+          [
+            "Specifications",
+            "Dimensions, materials, and other stated details relevant to your choice"
+          ],
+          [
+            "Package contents",
+            "Items explicitly included and items described as optional"
+          ],
+          [
+            "Care information",
+            "Instructions and limitations provided by the retailer or manufacturer"
+          ],
+          [
+            "Open questions",
+            "Details absent, contradictory, or requiring confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate specifications from promotional wording",
+      "paragraphs": [
+        "A listing may combine concrete information with broad descriptions. Treat a measurable or clearly defined specification differently from phrases that express a general impression. Record the exact wording when a claim affects your choice, then look for supporting detail elsewhere on the page or in linked documentation. If the claim remains vague, do not convert it into a specific performance expectation.",
+        "Check whether important details appear consistently across the listing, product images, and documentation. If the page gives conflicting values or different names for the same feature, note the conflict rather than selecting whichever version seems most favorable. You can ask the retailer for clarification through its published support channel. A clear answer should identify the item or variant it refers to."
+      ]
+    },
+    {
+      "heading": "Verify variant and package contents",
+      "paragraphs": [
+        "A product page may offer multiple sizes, colors, bundles, or accessory options. Make sure the selected option shown at checkout matches the option you evaluated. Then check which items are explicitly included in the package and which are shown only as compatible add-ons. Images can illustrate possible arrangements without establishing that every displayed item is part of the order.",
+        "If a bundle is involved, compare its item list with the individual product pages rather than relying on a bundle title alone. Record missing components and any uncertainty about compatibility. This can prevent a mismatch between your expectations and what the listing says will be supplied. Keep the comparison focused on verifiable package contents, not a claim that a retailer’s description guarantees future availability."
+      ],
+      "bullets": [
+        "Confirm the selected variant before adding the item to your order.",
+        "List included and optional items separately.",
+        "Check compatibility claims against the exact product or accessory variant."
+      ]
+    },
+    {
+      "heading": "Check care and compatibility information as separate evidence",
+      "paragraphs": [
+        "Care instructions and compatibility details answer different questions from materials or dimensions. Look for clear, product-specific instructions and note whether they come from the retailer or another identified source. If instructions are missing or too general to apply confidently, treat that as an information gap. Do not extrapolate a care method from a different product merely because the materials appear similar.",
+        "Where compatibility matters, record the stated requirements and compare them with the item you intend to use. Terms such as compatible, suitable, or works with may need more precise explanation. Ask the retailer to identify the exact combination or limitation if the listing does not. This is a purchasing decision check, not a substitute for instructions provided with the product."
+      ]
+    },
+    {
+      "heading": "Turn the comparison into a decision, not a score contest",
+      "paragraphs": [
+        "A workbook does not need an overall numerical winner. Mark each detail as documented, unclear, or not relevant to your decision. Then identify which unanswered questions would change your choice. One option may offer more complete documentation, while another may better match your requirements; the purpose is to make that trade-off visible rather than imply that the longest listing is automatically the best.",
+        "Before ordering, revisit the retailer’s current page, selected variant, and applicable policies. Save only the information you need, such as a dated page record or support clarification, and avoid keeping unnecessary personal details. If a material fact is still unresolved, delay the purchase or select an option with clearer documentation. Record why you chose it so that the decision remains understandable if you compare alternatives later."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I choose the product listing with the most details?",
+      "answer": "More detail can help, but length alone is not proof of accuracy. Check whether the information is specific to the selected variant, internally consistent, and relevant to your requirements."
+    },
+    {
+      "question": "What should I do when two parts of a listing disagree?",
+      "answer": "Record the discrepancy and ask the retailer to clarify which information applies to the exact variant. Avoid treating the more favorable statement as correct without confirmation."
+    },
+    {
+      "question": "Why keep a dated record of a product page?",
+      "answer": "Listings and policies can change. A dated record helps you remember what information informed your decision and gives customer support a clearer reference if you need to ask about the order."
+    }
+  ]
+};
