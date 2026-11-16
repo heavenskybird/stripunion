@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "hourly_target": 5,
   "rolling_24h_target": 120,
   "blocker_taxonomy": [
@@ -23553,7 +23553,7 @@
       "intent": "Adult Platforms and Family Safety Software: Check What Your Device May Record",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -23566,7 +23566,7 @@
       "intent": "Adult Dating Platforms: Check Profile Visibility After Matching or Messaging",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -23579,7 +23579,7 @@
       "intent": "Affiliate Campaign Pauses: Plan How to Stop and Resume Promotion Safely",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -23592,7 +23592,7 @@
       "intent": "Premium Video Platforms: Check Whether Content Labels Stay Consistent Across the Library",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -23605,7 +23605,7 @@
       "intent": "Live Cam Listings: Verify Live, Scheduled, and Replay Status Before You Choose",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
