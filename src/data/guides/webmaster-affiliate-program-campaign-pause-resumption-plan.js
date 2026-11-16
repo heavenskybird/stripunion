@@ -1,0 +1,113 @@
+export default {
+  "slug": "webmaster-affiliate-program-campaign-pause-resumption-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Campaign Pauses: Plan How to Stop and Resume Promotion Safely",
+  "description": "A webmaster workflow for pausing affiliate promotion without losing link context, policy checks, or the information needed to restart responsibly.",
+  "excerpt": "A campaign pause is more than switching off a link. Preserve the decision, check what remains live, and verify program terms and destinations before restarting.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "A pause should stop or clearly label promotion without destroying the records needed to explain the decision.",
+    "Inventory placements, scheduled messages, redirects, and cached assets before declaring a campaign inactive.",
+    "Record whether a pause is temporary, policy-driven, technical, or strategic.",
+    "Recheck current permissions, destination behavior, and creative eligibility before resuming.",
+    "Do not assume that an old approval or link remains valid indefinitely."
+  ],
+  "sections": [
+    {
+      "heading": "Define what a campaign pause means operationally",
+      "paragraphs": [
+        "A webmaster may pause a campaign because a destination is unavailable, a program term needs review, a creative is outdated, a page is being revised, or the business no longer wants to send visitors to that offer. These reasons call for different actions. A pause caused by an unresolved policy question should not be treated like a routine seasonal break, and a technical outage should not silently become a permanent campaign without a recorded decision.",
+        "Set a clear scope: which program, tracking links, site pages, placements, and promotional channels are included. Decide whether the pause stops new referrals only or also removes existing links from public pages. If a link must remain for an archive or record, determine whether it should be disabled, replaced with a neutral notice, or removed according to the applicable program rules.",
+        "Write down the pause reason, date, owner, and review condition. A condition can be a documented destination fix, clarified program permission, or completion of a content review. Avoid setting an automatic restart date unless someone is responsible for checking the conditions first."
+      ]
+    },
+    {
+      "heading": "Inventory every place the campaign can still appear",
+      "paragraphs": [
+        "A campaign is not necessarily paused when its main landing page has been edited. Referral links may also appear in older articles, navigation, newsletters, social posts, QR codes, partner materials, scheduled campaigns, or cached creative files. Create a placement inventory before making changes so the pause is deliberate and the remaining exposure is visible.",
+        "For each placement, record the page or channel, link identifier, destination, and action taken. If there are multiple tracking tags, preserve the mapping between each tag and its placement. This makes it possible to tell which materials were removed, redirected, or left unchanged and reduces the risk of restoring an obsolete link during later maintenance.",
+        "Check operational dependencies too. A link may be inserted by a content-management plugin, product feed, template, or campaign scheduler. Confirm the change at the point where it is generated, not only in a preview. If a third party controls a placement, contact its owner and record the requested action rather than assuming it has been completed."
+      ],
+      "table": {
+        "caption": "A campaign pause inventory",
+        "headers": [
+          "Placement",
+          "What to check",
+          "Pause record"
+        ],
+        "rows": [
+          [
+            "Editorial pages",
+            "Links, banners, and embedded creative",
+            "URL, page, owner, removal or replacement"
+          ],
+          [
+            "Scheduled promotion",
+            "Queued email or social material",
+            "Schedule status and person confirming it"
+          ],
+          [
+            "Templates or feeds",
+            "Automatically generated links and assets",
+            "Source system and change made"
+          ],
+          [
+            "External placements",
+            "Partner-controlled pages or materials",
+            "Contact, request date, and confirmation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep records without confusing them with current permissions",
+      "paragraphs": [
+        "Retain the campaign materials needed to understand the pause: the relevant link mapping, dated creative, approved placement notes if available, and the specific policy or technical issue. Store only what the team needs, limit access to appropriate staff, and follow your organization’s retention practices. Avoid collecting unnecessary visitor-level data simply because a campaign is being reviewed.",
+        "Separate historical evidence from current authorization. A screenshot, old email, or prior approval can explain what was done at a past date; it does not establish that the same campaign is permitted now. Preserve the source and date of each key record, and identify the unresolved question rather than treating a historical document as a blanket approval.",
+        "Where the pause involves a possible tracking or payment discrepancy, keep a focused record of the relevant time period and campaign identifiers. Do not edit source files in a way that erases the original context. Make corrections in a traceable way so the team can distinguish the initial state from the later change."
+      ],
+      "bullets": [
+        "Keep a dated pause note with scope, reason, owner, and review condition.",
+        "Label archived assets as historical rather than ready for publication.",
+        "Limit retained records to operationally necessary material."
+      ]
+    },
+    {
+      "heading": "Set a restart gate rather than restarting by habit",
+      "paragraphs": [
+        "Before resuming, verify that the program still accepts the intended traffic source and placement. Recheck current program terms, creative-use rules, destination behavior, geographic eligibility where relevant, and any approval requirements. The original reason for the pause may have become irrelevant, but a separate policy or destination change could have occurred during the break.",
+        "Run a small prepublication check: confirm that the link resolves as expected, the landing page matches the published description, tracking tags are intentional, and no paused placements remain active. Check mobile and desktop layouts if the campaign appears on both. Do not infer that a dashboard click proves the entire visitor path is functioning or compliant.",
+        "Assign one person to approve the restart and another to confirm the changed placements when team size allows. For a solo webmaster, use a written checklist and a second review session rather than relying on memory. Record the restart date and the evidence checked so a later audit can distinguish a deliberate restart from an accidental link reactivation."
+      ]
+    },
+    {
+      "heading": "Use a pause log that supports future decisions",
+      "paragraphs": [
+        "A pause log can be a simple table with campaign name, start date, reason, affected placements, current status, owner, and next review. Add links to the current terms or technical evidence that informed the decision. Avoid including passwords, private customer details, or unnecessary personal information in the log.",
+        "Review paused campaigns on a schedule that fits the issue. A broken destination may need prompt rechecking; a campaign paused because the site no longer serves that audience may need no restart review at all. A logged decision can explicitly say ‘retired’ so an old campaign is not revived merely because its assets remain in a folder.",
+        "This approach helps preserve continuity without promising that links, approvals, or economics will remain unchanged. The goal is a clear chain of operational decisions: what stopped, why it stopped, what was verified, and what must be true before promotion starts again."
+      ],
+      "bullets": [
+        "Mark campaigns as paused, under review, retired, or approved to resume.",
+        "Set an owner and a condition for every campaign that remains paused.",
+        "Do not restore an archived creative or link without a current check."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I remove every affiliate link when I pause a campaign?",
+      "answer": "That depends on the reason for the pause, the placement, and applicable program terms. Inventory every location first, then decide whether to remove, disable, or replace each placement. A clear pause record is better than assuming one page edit stopped all promotion."
+    },
+    {
+      "question": "Can I rely on an old approval when restarting?",
+      "answer": "Treat an old approval as historical evidence, not automatic current authorization. Recheck current terms, placement rules, destination behavior, and any approval requirements before resuming."
+    },
+    {
+      "question": "What should I record if a campaign is paused for a technical problem?",
+      "answer": "Record the affected placement and link, the observed problem, the date and time, the action taken, and the condition for a restart. Preserve relevant evidence without collecting unnecessary visitor data, then verify the full visitor path before republishing."
+    }
+  ]
+};

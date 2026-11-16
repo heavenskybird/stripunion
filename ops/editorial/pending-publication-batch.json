@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T23:03:17.238Z",
+  "generatedAt": "2026-11-15T23:59:29.740Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-platform-ad-choice-and-playback-audit.json",
-    "ops/editorial/content-artifacts/adult-games-episodic-release-planning-check.json",
-    "ops/editorial/content-artifacts/adult-shop-in-store-vs-online-shopping-fit.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-networked-access-fit.json",
-    "ops/editorial/content-artifacts/adult-anime-series-format-availability-planner.json"
+    "ops/editorial/content-artifacts/adult-platform-family-safety-software-privacy-review.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-visibility-after-mutual-contact.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-campaign-pause-resumption-plan.json",
+    "ops/editorial/content-artifacts/premium-video-content-label-consistency-audit.json",
+    "ops/editorial/content-artifacts/live-cam-room-live-status-evidence-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-ad-choice-and-playback-audit.js",
-    "src/data/guides/adult-games-episodic-release-planning-check.js",
-    "src/data/guides/adult-shop-in-store-vs-online-shopping-fit.js",
-    "src/data/guides/vr-adult-platform-networked-access-fit.js",
-    "src/data/guides/adult-anime-series-format-availability-planner.js"
+    "src/data/guides/adult-platform-family-safety-software-privacy-review.js",
+    "src/data/guides/adult-dating-profile-visibility-after-mutual-contact.js",
+    "src/data/guides/webmaster-affiliate-program-campaign-pause-resumption-plan.js",
+    "src/data/guides/premium-video-content-label-consistency-audit.js",
+    "src/data/guides/live-cam-room-live-status-evidence-check.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "vr-ar",
-    "hentai-anime"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "premium-videos",
+    "live-cams"
   ],
   "backlogIds": [
-    "free-video-platform-ad-choice-and-playback-audit",
-    "adult-games-episodic-release-planning-check",
-    "adult-shop-in-store-vs-online-shopping-fit",
-    "vr-adult-platform-networked-access-fit",
-    "adult-anime-series-format-availability-planner"
+    "adult-platform-family-safety-software-privacy-review",
+    "adult-dating-profile-visibility-after-mutual-contact",
+    "webmaster-affiliate-program-campaign-pause-resumption-plan",
+    "premium-video-content-label-consistency-audit",
+    "live-cam-room-live-status-evidence-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43772412702",
-  "phase": "closed"
+  "r1CycleId": "43777550995"
 }

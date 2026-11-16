@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-platform-family-safety-software-privacy-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platforms and Family Safety Software: Check What Your Device May Record",
+  "description": "A practical checklist for reviewing family safety, parental-control, and device-monitoring software before using an adult platform on a personal device.",
+  "excerpt": "A personal device can still share activity with a family safety account, monitoring dashboard, or administrator. Check the software’s scope and control the risk before signing in.",
+  "publishedAt": "2026-11-15",
+  "updatedAt": "2026-11-15",
+  "keyTakeaways": [
+    "A device you own may still report activity to a family safety account or administrator.",
+    "Monitoring tools can collect different kinds of information; do not assume that one setting disables every form of reporting.",
+    "Review who controls the monitoring account, which devices it covers, and what records are visible.",
+    "Avoid changing settings on a device you are not authorized to manage.",
+    "If you cannot establish what is monitored, choose a device and account arrangement you can verify."
+  ],
+  "sections": [
+    {
+      "heading": "Why device ownership does not answer the privacy question",
+      "paragraphs": [
+        "A phone or computer can be personally owned and still be enrolled in a family safety service, parental-control system, device-management profile, or household account. The device may send activity or status information to a dashboard controlled by someone else. That does not mean every tool records every action, but it does mean ownership alone is not proof that an activity stays local.",
+        "Monitoring arrangements vary. Some focus on screen-time limits, app access, or web categories. Others may provide location, device status, browsing-related reports, or alerts. The names of features are not reliable evidence of what is collected or who can see it. Check the actual product documentation and settings available to the account holder.",
+        "This guide is for assessing your own privacy and account arrangement. Do not bypass restrictions on a device belonging to another person or an organization. If a device is managed by a school, employer, guardian, or other administrator, follow its rules and use an appropriately private device for personal activity."
+      ],
+      "bullets": [
+        "Identify every safety, monitoring, or management app installed on the device.",
+        "Check whether the device is linked to a shared family account or administrator profile.",
+        "Distinguish settings you control from settings controlled by an account owner."
+      ]
+    },
+    {
+      "heading": "Map the people, accounts, and devices involved",
+      "paragraphs": [
+        "Start by drawing a simple map: the device, its operating-system account, any family group, any safety app, and the people with administrator access. A family group may contain multiple devices or accounts, so a setting on one device may not describe the whole arrangement. Make a note of who can sign in to each dashboard and whether another person can reset the account or change its settings.",
+        "Check whether monitoring is installed as an ordinary app, a device-management profile, a browser extension, or a feature tied to a shared operating-system account. These mechanisms can have different permissions. If you are uncertain what a profile or app does, consult the device maker’s documentation or the service’s help materials rather than guessing from its name.",
+        "Do not share passwords or attempt to access another person’s dashboard to investigate. If someone else controls the account, ask them what data is collected and who can view it, if it is safe and appropriate to do so. When that is not possible, treat the scope as unknown rather than assuming it is harmless."
+      ],
+      "table": {
+        "caption": "A quick map for assessing device-monitoring exposure",
+        "headers": [
+          "Item to identify",
+          "Question to answer",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Device account",
+            "Is the sign-in personal or shared?",
+            "Account owner and recovery contact"
+          ],
+          [
+            "Safety or monitoring service",
+            "Who administers its settings?",
+            "Service name and administrator"
+          ],
+          [
+            "Management profile",
+            "Is the device marked as managed?",
+            "Where the profile is documented"
+          ],
+          [
+            "Family or household group",
+            "Which devices and members are included?",
+            "Devices covered and authorized viewers"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the reporting and alert settings closely",
+      "paragraphs": [
+        "Review the service’s descriptions of activity reports, content filtering, app limits, location features, alerts, and data retention. Look for the difference between blocking a site and reporting that a site was visited. A filter can prevent access without producing the same record as a monitoring report, and turning off one alert may leave other records or summaries available.",
+        "Check whether reports are immediate, periodic, or only visible when an administrator opens the dashboard. Review what notifications are sent to the account owner and whether they identify a category, application, device, or specific event. Do not infer privacy from the absence of a notification on your own screen; reporting may be delivered elsewhere.",
+        "Look for help pages explaining what happens when monitoring is paused, removed, or disconnected. Disabling a feature may create an alert, affect another person’s access, or violate an agreed device arrangement. Make changes only when authorized and when you understand their effects. If the documentation is unclear, record that uncertainty as part of your decision."
+      ],
+      "bullets": [
+        "Read both the collection description and the administrator-facing reporting description.",
+        "Check notification recipients, report timing, and available history.",
+        "Confirm whether a setting affects collection, filtering, alerts, or only display."
+      ]
+    },
+    {
+      "heading": "Choose a device and account arrangement you can verify",
+      "paragraphs": [
+        "If privacy depends on a setting you cannot inspect, do not treat that setting as a guarantee. Consider using a personally controlled device that is not enrolled in a household monitoring arrangement, provided doing so complies with relevant rules and agreements. Use a separate account only when you can manage its sign-in, recovery, and security without taking control of someone else’s device or information.",
+        "A private browser window is not a substitute for checking device monitoring. It may limit certain local browser records, but it does not necessarily change what an app, device profile, family account, network administrator, or service can observe. Similarly, deleting a local history does not establish that a dashboard or service log was never created.",
+        "If a household arrangement is based on transparency, agree on boundaries in advance. For example, clarify which devices are monitored, what data is visible, who receives alerts, and how changes are made. A clear agreement is more dependable than guessing from a device icon or a general description such as ‘screen time.’"
+      ]
+    },
+    {
+      "heading": "Keep a low-risk review record",
+      "paragraphs": [
+        "Record the device model, relevant account owner, monitoring tools identified, and the official documentation you consulted. Avoid saving sensitive screenshots, browsing records, or account credentials in a shared folder. The purpose of a review note is to remember what you verified, not to create another sensitive record that others may discover.",
+        "If the device is not yours to administer, do not remove software, change a family account, or conceal activity. Use an authorized device and seek help from the device owner or administrator if you need to understand its configuration. If you find a tool you do not recognize, verify it through trusted device settings and support information rather than installing a second monitoring app to investigate.",
+        "Revisit the assessment when a device changes hands, a family group changes, or a monitoring service is updated. Privacy depends on the current configuration, not on an old assumption. A short, factual review can help you make a deliberate choice without claiming certainty that the available information does not support."
+      ],
+      "bullets": [
+        "Document only the settings and policies you are authorized to inspect.",
+        "Keep review notes outside shared family or cloud folders when appropriate.",
+        "Recheck after account, device, or administrator changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from family safety software?",
+      "answer": "Not necessarily. Private browsing mainly changes some local browser storage and history behavior. It does not establish what an installed app, management profile, family account, or administrator can observe. Check the relevant service’s documentation and settings."
+    },
+    {
+      "question": "Can a monitoring app report activity without showing an alert on my device?",
+      "answer": "It may be possible, depending on the service and its configuration. Alerts and dashboard reports are separate features in some systems. Check who receives notifications, what the administrator dashboard displays, and how long records may remain available."
+    },
+    {
+      "question": "Should I remove a family safety app if I do not know what it collects?",
+      "answer": "Do not remove or disable software on a device you do not own or have permission to manage. If you are authorized, first consult the service’s documentation and understand whether removal affects other users or sends a notice. When control is unclear, choose an authorized device arrangement you can verify."
+    }
+  ]
+};
