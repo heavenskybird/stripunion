@@ -1,0 +1,120 @@
+{
+  "backlogId": "vr-adult-platform-preview-sample-representativeness",
+  "slug": "vr-adult-platform-preview-sample-representativeness-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platform Previews: Check Whether Samples Represent the Library",
+  "description": "A structured way to judge whether VR previews show the formats, playback conditions, and device experience you need to evaluate before choosing a platform.",
+  "excerpt": "A preview can demonstrate one part of a platform without representing every title, format, or playback path. Use a consistent sample-evaluation checklist to understand what a preview can and cannot tell you.",
+  "keyTakeaways": [
+    "Treat a preview as evidence about the specific sample and conditions shown, not as proof of the whole library’s quality or compatibility.",
+    "Check whether the sample is available on your intended headset and through the same browser, app, or playback route you expect to use.",
+    "Compare what the preview reveals about format labels, controls, and catalog information, while recording anything it does not disclose.",
+    "A short sample may not establish long-session stability, offline access, or the experience of other titles; those require separate evidence.",
+    "Do not enter payment details or install unverified software merely to access a preview whose access requirements are unclear."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you need a preview to prove",
+      "paragraphs": [
+        "A preview is most useful when it answers a specific question. You may want to know whether a headset can open the player, whether the interface is legible, whether a format label is explained, or whether the navigation makes sense with your controls. Those are separate checks. A sample that demonstrates one does not automatically establish the others, and one title cannot represent every item in a platform’s catalog.",
+        "Before opening a preview, write down your decision criteria. For example, you may need to confirm a supported access route, understand the difference between a standard and a spatial format, or see whether the sample has enough information to compare it with another service. This helps prevent a persuasive clip or polished landing page from substituting for the evidence you actually need."
+      ]
+    },
+    {
+      "heading": "Match the preview conditions to your intended setup",
+      "paragraphs": [
+        "Use the device and access path you expect to rely on when possible. If you plan to use a standalone headset, a desktop browser preview may not answer whether the headset’s own browser or app will work. If the preview uses a separate player, note that dependency. Check the platform’s compatibility statements and distinguish a preview that loads from evidence that the full service supports your configuration.",
+        "Record any conditions that could affect the comparison: browser or app, network connection, signed-in or guest state, headset model category, and whether the sample is streamed or downloaded. You do not need to test every combination. Focus on the one that matters to your purchase or membership decision. If the platform does not disclose a condition, mark it as unknown rather than assuming the preview matches your setup."
+      ],
+      "table": {
+        "caption": "What a preview can establish—and what it cannot establish alone",
+        "headers": [
+          "Observation",
+          "Reasonable conclusion",
+          "Not established by that observation"
+        ],
+        "rows": [
+          [
+            "A sample opens on one device",
+            "That specific route loaded at that time",
+            "Support for every headset or access method"
+          ],
+          [
+            "A format label is displayed",
+            "The listing uses that label",
+            "The precise technical meaning unless explained"
+          ],
+          [
+            "Controls appear in the player",
+            "Those controls are visible in that sample",
+            "That every title or player offers them"
+          ],
+          [
+            "One sample plays continuously",
+            "The sample played under those conditions",
+            "Long-session reliability or offline availability"
+          ],
+          [
+            "A catalog thumbnail is shown",
+            "A listing is presented",
+            "That the full item is included in a plan"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect the information around the sample",
+      "paragraphs": [
+        "A preview is more interpretable when its listing states what is being shown. Look for title and format details, whether the sample is a teaser or a section of the full item, the access route, and any stated requirements. Compare those details with the platform’s catalog and membership terms. If the listing is vague, the preview may still help with interface fit, but it is weak evidence about content entitlement or technical specifications.",
+        "Do not infer library breadth from a hand-picked sample. A preview page may highlight a particular title, device path, or feature. Check whether the platform provides representative catalog information elsewhere and whether the sample is available without a purchase. If access is gated, read the terms before providing payment details. A preview that cannot be inspected without a commitment may be a poor fit for a shopper who needs evidence first."
+      ],
+      "bullets": [
+        "Note whether the sample is full, partial, or described only as a preview.",
+        "Check device and playback requirements before installing anything.",
+        "Verify that a sample’s access status is not being confused with a membership entitlement.",
+        "Treat undisclosed details as unknown."
+      ]
+    },
+    {
+      "heading": "Compare samples using the same scorecard",
+      "paragraphs": [
+        "When comparing more than one platform, use the same questions for each sample. Did it open through the intended device path? Were the format and access conditions described? Could you locate basic player controls and return to the catalog? Did the sample provide enough information to make a fair comparison? Consistency makes the result more useful than comparing one platform’s detailed listing with another’s promotional page.",
+        "Keep the scorecard focused on observable facts. “Preview loaded in the headset browser” is a clear observation. “The entire library will work just as well” is an unsupported extrapolation. You can separately record platform claims, your own test results, and unanswered questions. This distinction is useful if you later revisit the choice or ask a support channel to clarify a missing compatibility detail."
+      ]
+    },
+    {
+      "heading": "Know when a preview is insufficient",
+      "paragraphs": [
+        "A short sample cannot tell you everything about long-term access, catalog changes, membership terms, or every title’s technical presentation. It may not reveal how streaming behaves on a different network or whether downloads are available. Those questions require separate documentation or appropriately scoped tests. If a decision depends on a feature that the preview does not show, do not treat a favorable sample as a substitute for that missing evidence.",
+        "A practical decision rule is to continue only when the preview and written information together answer your essential questions. If a key uncertainty remains—such as whether your device is supported, whether the sample represents a format you want, or whether a purchase is required—pause and seek a clear statement before committing. The purpose of a preview is to reduce uncertainty, not to remove the need to examine access terms and platform requirements."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a VR preview prove the entire library will work on my headset?",
+      "answer": "No. It shows what happened with that sample, device, and playback route. Check the platform’s compatibility information and verify any device requirement that matters to your decision."
+    },
+    {
+      "question": "Can I judge a subscription library from one preview?",
+      "answer": "One preview can help assess a specific title or interface, but it cannot establish library breadth, entitlement, or how every item is presented. Compare the preview with catalog details and access terms."
+    },
+    {
+      "question": "What if the preview is available only after signing up?",
+      "answer": "Check what information the account requires and whether the preview access creates a commitment. If the terms are unclear or a payment method is requested, do not proceed until you understand the conditions."
+    },
+    {
+      "question": "Should I test a preview on a different device from the one I plan to use?",
+      "answer": "You can, but record the difference. A successful desktop or phone preview does not establish that the headset’s browser, app, or player will behave the same way."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
