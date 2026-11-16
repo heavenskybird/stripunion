@@ -1,0 +1,128 @@
+export default {
+  "slug": "webmaster-affiliate-referral-tier-attribution-edge-case-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Referral Tiers: Check Edge Cases Before Building a Sub-Affiliate Channel",
+  "description": "A practical checklist for understanding how referral tiers, attribution and account relationships work when an affiliate program allows sub-affiliates.",
+  "excerpt": "A referral tier can look straightforward until people use different links, change accounts or promote through several properties. Map the attribution and relationship rules before recruiting others or promising how their activity will be credited.",
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "keyTakeaways": [
+    "Separate the direct referral relationship from the underlying customer conversion attribution.",
+    "Ask how the program handles overlapping referrals, account changes and missing tracking data.",
+    "Confirm whether referral relationships are permanent, time-limited or conditional rather than assuming.",
+    "Document what reports expose about sub-affiliate activity and what remains unavailable.",
+    "Avoid recruiting or making compensation promises until the tier rules are clear and permitted."
+  ],
+  "sections": [
+    {
+      "heading": "A referral tier creates more than one attribution question",
+      "paragraphs": [
+        "A sub-affiliate arrangement introduces at least two distinct relationships: the relationship between a program and its direct affiliate, and the relationship between that affiliate and a referred publisher. A customer conversion may create a third tracking question. These relationships can be governed by different rules, so a single statement such as “the referral is credited” may not explain who receives what, when the credit is counted, or whether it can later change.",
+        "This guide is about checking edge cases before you build a recruitment or referral workflow. It is not a forecast of earnings and does not assume that a particular program offers tiers, recurring referrals, or any specific compensation model. Read the actual agreement and current program documentation. If the program does not clearly permit a sub-affiliate arrangement, do not infer permission from a dashboard feature or another publisher’s description.",
+        "Treat every unclear rule as an operational dependency. If the answer would affect what you promise a referred publisher, how you label a referral link, or how you report results, resolve it before launch. A small pre-launch review is easier than trying to untangle disputed relationships after multiple sites have promoted."
+      ]
+    },
+    {
+      "heading": "Map each relationship and event separately",
+      "paragraphs": [
+        "Draw a simple relationship map before discussing terms. Identify the program operator, the primary affiliate account, each sub-affiliate account, the property or channel associated with each account, and the visitor or customer events tracked. Then mark which link or identifier is expected to connect each step. If the documentation uses terms such as “referral,” “partner,” “sub-account” or “downline,” record the program’s definition rather than substituting your own.",
+        "Next, distinguish referral enrollment from customer conversion. A publisher joining under your referral may create one kind of record; a later visitor purchase or subscription may create another. Ask whether each is visible in reporting, whether both have separate statuses, and which event triggers any tier credit. This avoids confusing a successful registration with an approved or payable commission.",
+        "Document the normal path and the exceptions. The goal is not to predict every technical failure, but to identify cases that could change the credited relationship or make a report difficult to interpret."
+      ],
+      "table": {
+        "caption": "Questions to resolve at each layer of a referral-tier arrangement",
+        "headers": [
+          "Layer",
+          "Decision to clarify",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Publisher referral",
+            "What action establishes the relationship and when does it take effect?",
+            "Program wording, enrollment confirmation and account identifier"
+          ],
+          [
+            "Customer attribution",
+            "Which link, account or event determines the referring publisher?",
+            "Attribution definitions and documented test results"
+          ],
+          [
+            "Tier credit",
+            "What event qualifies a referred publisher’s activity for tier treatment?",
+            "Tier terms, exclusions and relevant reporting fields"
+          ],
+          [
+            "Status changes",
+            "Can a relationship be changed, rejected, suspended or removed?",
+            "Change notices, support replies and dated account records"
+          ],
+          [
+            "Reporting",
+            "Which party can see which referral and activity details?",
+            "Dashboard field definitions and export examples"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test overlapping and interrupted referral paths",
+      "paragraphs": [
+        "Ask what happens if a publisher first encounters the program through one referral route and later registers through another. Do not assume that the earliest click, latest click, account identifier or a manually assigned relationship always wins. The program’s definitions may treat these situations differently. If the terms do not explain the rule, request clarification in writing before relying on a particular interpretation.",
+        "Consider whether the referred publisher might already have an account, use multiple devices, change email addresses, or manage several sites. These are ordinary operational situations that can make account and referral records harder to match. Ask whether a relationship attaches to a person, an account, a property or another identifier, and whether the publisher can see or correct that association.",
+        "Also examine interrupted paths: a tracking link is copied incorrectly, a browser blocks storage, a visitor returns later through a different route, or the reporting system records a conversion without the expected referral. These are not reasons to promise that tracking will work in every circumstance. They are reasons to learn what evidence the program uses and what its process is for investigating discrepancies."
+      ]
+    },
+    {
+      "heading": "Read the terms for limits and eligibility",
+      "paragraphs": [
+        "Referral tiers may be subject to conditions such as account approval, geographic eligibility, permitted traffic sources, content restrictions or account standing. Identify which conditions apply to the primary affiliate and which apply to a referred publisher. A restriction on one party may affect the relationship differently from a restriction on another. Do not assume that a general approval for your own site automatically covers every publisher you recruit.",
+        "Look for language on self-referrals, related accounts, duplicate accounts, incentives, promotional claims and prohibited traffic. These terms can affect whether a relationship is valid, but the definitions and consequences vary. Preserve the relevant version of the terms and note the date you reviewed it. If a policy is ambiguous, seek a written interpretation from the program rather than testing a questionable method in live traffic.",
+        "Recruitment itself may carry responsibilities. Check whether you may describe the program, use its marks, provide creatives, offer incentives, or make claims about potential outcomes. Do not imply that referral credit or earnings are guaranteed. Explain uncertainty plainly and tell prospective publishers to read the governing terms directly."
+      ]
+    },
+    {
+      "heading": "Evaluate what reporting will let you reconcile",
+      "paragraphs": [
+        "Before recruitment, inspect available reporting fields or ask for an example with sensitive information removed. You need to know whether the report distinguishes referred publishers from customer conversions, whether statuses are defined, and whether date or time boundaries are explained. A total that combines several event types may be insufficient for operational review, even if it looks convenient.",
+        "Check who can access the report and whether the primary affiliate can see identifiable information about a sub-affiliate’s traffic or customers. Use only the data needed to administer the relationship. Do not collect unnecessary visitor-level information in your own records just because the program does not provide a convenient summary.",
+        "Plan a reconciliation process that compares what the program reports with the events your own approved systems can lawfully and appropriately observe. Do not attempt to identify individual customers or circumvent tracking limits. A discrepancy should be recorded with dates, identifiers and a concise description, then raised through the program’s stated support route."
+      ]
+    },
+    {
+      "heading": "Set expectations before inviting another publisher",
+      "paragraphs": [
+        "A responsible invitation explains the relationship without overstating it. Describe what you know from the written terms, what information is uncertain, and where the publisher can find the authoritative program rules. Do not promise a fixed result, a guaranteed tier status or a particular attribution outcome unless the program’s current terms explicitly support that statement and you are permitted to repeat it.",
+        "Use a short onboarding checklist: confirm eligibility, record the referral identifier, confirm the publisher’s approved properties and traffic methods, explain reporting visibility, and agree on how policy updates will be communicated. Keep the onboarding record limited to what is necessary. Assign a person to monitor changes and pause promotion if a material term becomes unclear.",
+        "If the relationship ends, check what happens to existing referrals, pending activity, reporting access and future attribution. A referral tier can have separate exit rules from a primary affiliate account. Make sure both parties understand those rules before either party depends on the arrangement."
+      ],
+      "bullets": [
+        "Confirm written permission for the proposed sub-affiliate activity.",
+        "Define the referral event separately from customer conversion events.",
+        "Identify how overlapping or changed account relationships are handled.",
+        "Check traffic permissions and property eligibility for each publisher.",
+        "Review which reporting data each party can access.",
+        "Document a support and dispute process without promising a particular outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a sub-affiliate referral automatically mean a share of every later conversion?",
+      "answer": "No universal rule applies. The program’s terms determine whether a referral relationship is recognized, what events qualify, how attribution is assigned and whether any conditions or exclusions apply. Verify the actual wording before describing the arrangement."
+    },
+    {
+      "question": "Should I recruit publishers before I can see their reporting?",
+      "answer": "First establish what information is available and what privacy limits apply. You may not need identifiable or detailed data, but you should understand how referral status and relevant activity can be checked. If reporting is too limited to administer the relationship responsibly, resolve that before recruitment."
+    },
+    {
+      "question": "What should I do if two referral routes appear to claim the same publisher?",
+      "answer": "Preserve the relevant account identifiers and dated evidence, avoid altering records or sending additional traffic to force a result, and use the program’s stated support process. Ask for the governing attribution rule in writing and do not promise either party a particular resolution."
+    },
+    {
+      "question": "Can a program dashboard feature prove that sub-affiliate promotion is allowed?",
+      "answer": "Not necessarily. A dashboard feature may support account administration without defining permitted promotion, traffic sources or claims. Check the current agreement and program policies, and request clarification if the permission is not explicit."
+    }
+  ]
+};
