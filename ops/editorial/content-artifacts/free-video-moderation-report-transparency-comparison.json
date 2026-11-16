@@ -1,0 +1,151 @@
+{
+  "backlogId": "free-video-moderation-report-transparency-comparison",
+  "slug": "free-video-moderation-report-transparency-comparison",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Compare Moderation Reports and Policy Evidence",
+  "description": "A practical framework for assessing free video platforms’ moderation disclosures, report handling explanations, policy scope, and evidence of follow-up without assuming results.",
+  "excerpt": "A published rule is not the same as a clear account of how moderation works. Use this comparison framework to evaluate what a free video platform documents, what remains unclear, and what you can verify before relying on it.",
+  "keyTakeaways": [
+    "Separate written policies from evidence about how moderation processes operate.",
+    "Check whether a disclosure identifies scope, dates, definitions, and limitations.",
+    "Look for a clear route to report content and information about what happens next.",
+    "Treat missing or ambiguous details as unknown rather than proof of good or poor practice.",
+    "Compare evidence consistently and revisit it when policies or reporting pages change."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the difference between policy and evidence",
+      "paragraphs": [
+        "A platform policy explains the rules it says apply. A transparency page, report, or help article may describe how those rules are handled. These sources answer different questions: the policy tells you what is prohibited or restricted; an operational disclosure may explain reporting routes, review steps, or aggregate outcomes. A rule page alone does not show how consistently it is applied.",
+        "When reviewing a platform, record each source separately and note the date you accessed it. Avoid treating a polished policy page as proof of effective enforcement or treating the absence of a public report as proof that no moderation occurs. The goal is to understand what the platform makes verifiable, not to make unsupported claims about its internal operation."
+      ],
+      "bullets": [
+        "Record policy documents separately from process explanations or reports.",
+        "Note the publication or update date when available.",
+        "Distinguish stated commitments from information about implementation.",
+        "Do not infer internal outcomes from a missing public disclosure."
+      ]
+    },
+    {
+      "heading": "Check whether disclosures explain their scope",
+      "paragraphs": [
+        "A number or summary is difficult to interpret without a definition. If a platform publishes moderation figures, check the period covered, what actions count, whether reports or items are counted, and whether the data includes all relevant parts of the service. Look for explanations of exclusions and changes in methodology. Without that context, comparisons between platforms can create false precision.",
+        "Qualitative disclosures can also have scope limits. A help page may describe one reporting route but not another; a policy may apply to uploads but not comments, profiles, or external links. Make a short map of what each document covers. If the platform does not specify whether a policy applies to a feature you care about, list that as an open question."
+      ],
+      "table": {
+        "caption": "A consistent evidence log for moderation disclosures",
+        "headers": [
+          "Evidence field",
+          "What to check",
+          "How to record uncertainty"
+        ],
+        "rows": [
+          [
+            "Policy scope",
+            "Which content and features are covered?",
+            "Name omitted or unclear areas"
+          ],
+          [
+            "Reporting route",
+            "Where can a user submit a report?",
+            "Note steps or eligibility not explained"
+          ],
+          [
+            "Process description",
+            "Are review and follow-up steps described?",
+            "Separate stated process from verified outcome"
+          ],
+          [
+            "Report or data period",
+            "What dates and definitions apply?",
+            "Flag missing definitions or method changes"
+          ],
+          [
+            "Appeal or follow-up",
+            "Is a next step described?",
+            "Record whether access or timing is unspecified"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Evaluate reporting routes as a user would encounter them",
+      "paragraphs": [
+        "A meaningful reporting route should be findable and understandable. Check whether the platform identifies what information a report should include, whether a user can report without unnecessary exposure, and whether the route is available from the relevant part of the service. Do not submit a test report about real material unless there is a genuine reason to report it; the point is to inspect the instructions, not to burden a review process.",
+        "Read what the platform says will happen after submission. Some services may explain only that a report will be reviewed, while others may describe a status update or a way to add information. Do not assume a particular response time or outcome unless the platform states one. Keep your comparison to the published process and distinguish it from your own experience, if any."
+      ],
+      "bullets": [
+        "Find the reporting instructions from the relevant content or help area.",
+        "Check what details are requested and whether they appear necessary.",
+        "Look for an explanation of follow-up, status, or appeal options.",
+        "Do not fabricate a report to test response speed or outcomes."
+      ]
+    },
+    {
+      "heading": "Look for meaningful changes over time",
+      "paragraphs": [
+        "A single policy snapshot may not show whether a platform explains changes to its approach. Check for dates, version notes, or an archive of prior reports when available. A dated update can help you understand whether definitions or scope changed, but it does not by itself prove that a policy is more effective. Treat it as context for interpreting current materials.",
+        "If the platform publishes periodic reports, compare like with like. A change in totals might reflect a changed definition, a different reporting period, or a change in volume; do not assign a cause without evidence. Write down what the platform itself attributes to a change and separate that statement from your own interpretation."
+      ],
+      "bullets": [
+        "Check report dates, policy update notes, and methodology changes.",
+        "Compare equivalent periods and definitions where possible.",
+        "Avoid drawing causal conclusions from changing totals alone.",
+        "Keep your own notes on what changed and when."
+      ]
+    },
+    {
+      "heading": "Build a fair platform comparison",
+      "paragraphs": [
+        "Use a small set of fields for every platform: policy scope, discoverability of reporting instructions, clarity of process, transparency about limitations, and availability of follow-up information. Record a source for each field. If evidence is absent, use “not found” or “not disclosed,” not a numerical score that implies certainty. This produces a more honest comparison than ranking services on a single appealing statement.",
+        "Your decision should reflect the kind of use that matters to you. A clear reporting route may be important if you expect to participate, while scope and policy detail may matter more if you want to understand platform accountability before browsing. No public disclosure can establish every internal practice. Use it to decide what you can reasonably rely on and what remains unresolved."
+      ],
+      "bullets": [
+        "Use the same comparison fields for each service.",
+        "Link or note the source behind every finding.",
+        "Use “unclear” where disclosure does not support a conclusion.",
+        "Choose criteria based on your intended use, not a generic score."
+      ]
+    },
+    {
+      "heading": "Revisit evidence without overclaiming",
+      "paragraphs": [
+        "Policies and help pages can change, so recheck the source when a decision depends on a particular rule or reporting route. Prefer the platform’s own current documents and note when they were reviewed. If you share your comparison with someone else, label observations as published claims, documented process details, or personal experience. These categories should not be blended.",
+        "A careful review can identify unanswered questions and make platform choices more informed, but it cannot certify moderation quality. If you encounter content that appears unlawful, non-consensual, or otherwise harmful, use an appropriate reporting route and seek relevant support rather than relying on an editorial comparison as a substitute for action."
+      ],
+      "bullets": [
+        "Recheck sources before relying on a specific policy.",
+        "Label platform statements and personal observations separately.",
+        "Avoid claims about effectiveness that the evidence cannot establish.",
+        "Use appropriate reporting channels for actual concerns."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a public moderation report prove a platform enforces its rules effectively?",
+      "answer": "No. It can provide useful information about what the platform discloses, but effectiveness depends on details that a report may not establish. Check the report’s scope, definitions, limitations, and period."
+    },
+    {
+      "question": "Is the absence of a transparency report evidence that a platform does not moderate?",
+      "answer": "No. It means you did not find that particular public disclosure. The platform may describe processes elsewhere, or may not publish them. Record what is and is not disclosed without inferring internal practice."
+    },
+    {
+      "question": "Can I compare moderation totals across platforms?",
+      "answer": "Only cautiously. The services may count different things or use different periods and definitions. Compare like-for-like information where it is available and avoid treating raw totals as a quality ranking."
+    },
+    {
+      "question": "What should I do if a reporting route is unclear?",
+      "answer": "Check the platform’s current help or policy pages for a relevant contact route. For an actual concern, use an available official reporting channel and keep a factual record of what you submitted."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

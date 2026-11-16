@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T23:59:29.740Z",
+  "generatedAt": "2026-11-16T01:57:38.513Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-family-safety-software-privacy-review.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-visibility-after-mutual-contact.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-campaign-pause-resumption-plan.json",
-    "ops/editorial/content-artifacts/premium-video-content-label-consistency-audit.json",
-    "ops/editorial/content-artifacts/live-cam-room-live-status-evidence-check.json"
+    "ops/editorial/content-artifacts/creator-platform-custom-request-scope-workflow.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-spatial-audio-claims-audit.json",
+    "ops/editorial/content-artifacts/free-video-moderation-report-transparency-comparison.json",
+    "ops/editorial/content-artifacts/adult-games-spatial-audio-disclosure-review.json",
+    "ops/editorial/content-artifacts/adult-shop-product-colour-photo-evidence-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-family-safety-software-privacy-review.js",
-    "src/data/guides/adult-dating-profile-visibility-after-mutual-contact.js",
-    "src/data/guides/webmaster-affiliate-program-campaign-pause-resumption-plan.js",
-    "src/data/guides/premium-video-content-label-consistency-audit.js",
-    "src/data/guides/live-cam-room-live-status-evidence-check.js"
+    "src/data/guides/creator-platform-custom-request-scope-workflow.js",
+    "src/data/guides/vr-adult-platform-spatial-audio-claims-audit.js",
+    "src/data/guides/free-video-moderation-report-transparency-comparison.js",
+    "src/data/guides/adult-games-spatial-audio-disclosure-review.js",
+    "src/data/guides/adult-shop-product-colour-photo-evidence-check.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "dating-hookups",
-    "webmaster-affiliate",
-    "premium-videos",
-    "live-cams"
+    "creator-platforms",
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-platform-family-safety-software-privacy-review",
-    "adult-dating-profile-visibility-after-mutual-contact",
-    "webmaster-affiliate-program-campaign-pause-resumption-plan",
-    "premium-video-content-label-consistency-audit",
-    "live-cam-room-live-status-evidence-check"
+    "creator-platform-custom-request-scope-workflow",
+    "vr-adult-platform-spatial-audio-claims-audit",
+    "free-video-moderation-report-transparency-comparison",
+    "adult-games-spatial-audio-disclosure-review",
+    "adult-shop-product-colour-photo-evidence-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43777550995",
-  "phase": "closed"
+  "r1CycleId": "43789006707"
 }
