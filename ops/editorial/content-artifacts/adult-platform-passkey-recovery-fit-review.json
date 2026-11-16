@@ -1,0 +1,114 @@
+{
+  "backlogId": "adult-platform-passkey-recovery-fit-review",
+  "slug": "adult-platform-passkey-recovery-fit-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Review Passkey Sign-In and Recovery Before Switching",
+  "description": "Assess passkey sign-in for an adult platform account by checking device access, synchronization, recovery options, and the consequences of losing a device.",
+  "excerpt": "A passkey can change how you sign in, but your recovery plan still matters. Check where credentials are stored and how you would regain account access.",
+  "keyTakeaways": [
+    "Find out which devices or account systems can access a passkey before making it your only sign-in route.",
+    "Review the platform’s recovery process separately; a passkey does not explain how a locked or replaced device affects account access.",
+    "Protect devices and linked accounts that can manage or synchronize sign-in credentials.",
+    "Keep a secure, current record of recovery options without storing passwords or recovery information in an exposed note."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what decision you are making",
+      "paragraphs": [
+        "A passkey is a sign-in credential managed through a supported device or credential system. It is different from simply saving a password in a browser, but the details of storage, synchronization, and recovery depend on the services and devices involved. Before enabling one for an adult platform account, identify the sign-in method currently in use and the exact change the account interface offers.",
+        "The decision is not just whether passkey sign-in is convenient. Ask what happens if the phone is lost, a computer is replaced, a device is reset, or access to a credential-synchronization account is interrupted. Also consider whether the device is personal, shared, or managed by someone else. These questions help determine whether a passkey fits your account and privacy boundaries."
+      ]
+    },
+    {
+      "heading": "Map where the credential can be used",
+      "paragraphs": [
+        "Read the sign-in and credential prompts carefully before confirming. Identify which device or credential manager is involved and which other devices, if any, could have access through synchronization. Review the security of those devices and linked accounts, including screen locks and account recovery. A credential that is easy to use across devices may also make the security of those devices and the synchronization account more important.",
+        "If you use separate devices for personal and adult-platform activity, decide whether connecting them through one credential system would weaken that separation. Avoid adding sign-in credentials to a shared or managed device without understanding its access controls. If the prompt does not make the credential’s storage or intended use clear, pause and consult current documentation before changing the account."
+      ],
+      "table": {
+        "caption": "Passkey decision points to verify before enabling or relying on one",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "Your record"
+        ],
+        "rows": [
+          [
+            "Which device or account manages the credential?",
+            "That device or account may become part of the sign-in security boundary.",
+            "Record the credential location and who controls it."
+          ],
+          [
+            "Can the credential be used on another device?",
+            "Additional access routes may affect separation and recovery planning.",
+            "List only routes confirmed by the sign-in interface or documentation."
+          ],
+          [
+            "What is the platform recovery route?",
+            "The recovery process may be separate from passkey synchronization.",
+            "Save the current official recovery steps securely."
+          ],
+          [
+            "What if a device is lost or reset?",
+            "You may need to secure the device, credential account, and platform account.",
+            "Write down the order of actions and contact routes."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check recovery independently from sign-in",
+      "paragraphs": [
+        "Do not assume that a passkey automatically restores access after device loss. Locate the platform’s recovery instructions and determine which email address, phone number, backup method, or verification step is required. Confirm that those recovery channels are current and controlled by you. If access to the recovery inbox depends on the same lost device, address that dependency before making the passkey your only practical route.",
+        "Recovery may also require information that is sensitive or difficult to replace. Understand what the service asks for and how it describes identity checks or account review. Store any recovery instructions in a secure place you can reach without the primary device. Avoid keeping a full set of credentials together in an unprotected file, message thread, or shared document."
+      ]
+    },
+    {
+      "heading": "Protect the linked device and credential account",
+      "paragraphs": [
+        "A strong sign-in method cannot compensate for an unlocked device or a compromised account that manages credentials. Use a screen lock appropriate to your situation, review who can access the device, and secure the email or account used for synchronization. Check for old devices that remain signed in and remove access you no longer recognize or need, following the relevant service’s instructions.",
+        "Think about notifications and device displays as well. Account recovery alerts, sign-in prompts, or security messages may appear on a lock screen or another linked device. Review those settings if you share a space or device. Do not share a device unlock code or credential account simply because someone needs temporary access to a different function."
+      ],
+      "bullets": [
+        "Confirm the recovery email and other account-recovery methods are accessible.",
+        "Review devices and accounts that can manage or synchronize credentials.",
+        "Check whether security notices appear on shared screens or lock screens.",
+        "Keep recovery guidance separate from an exposed or shared note."
+      ]
+    },
+    {
+      "heading": "Switch gradually and document the fallback",
+      "paragraphs": [
+        "If you decide to use a passkey, make the change when you have time to test sign-in and verify the recovery route. Follow the platform’s current instructions rather than removing an existing method before confirming that the new one works. If the service offers more than one authorized recovery option, understand each one and keep only methods you can protect and maintain.",
+        "Create a short recovery plan: which device or account to secure first, how to reach the platform’s official recovery process, and where you can find the instructions if your phone is unavailable. Revisit the plan when you replace a device, change your primary email, or alter synchronization settings. The goal is not to eliminate every risk, but to avoid discovering an access dependency during an emergency."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does enabling a passkey mean I can no longer use a password?",
+      "answer": "That depends on the platform’s current sign-in options and how your account is configured. Check the account interface and current help information before changing or removing any existing sign-in method."
+    },
+    {
+      "question": "Will a passkey always be available on my replacement phone?",
+      "answer": "Availability depends on the credential system, device setup, and synchronization or recovery arrangements in use. Verify the specific process for your devices and keep the platform’s own recovery route accessible."
+    },
+    {
+      "question": "Should I use a passkey on a shared device?",
+      "answer": "First establish who controls the device and its credential accounts. If other people can unlock or administer it, adding a private account credential may undermine your intended separation. Use only devices and accounts you are authorized to control."
+    },
+    {
+      "question": "What should I do if I lose a device that can access the account?",
+      "answer": "Use the device and credential provider’s current security guidance, secure linked accounts as appropriate, and follow the platform’s official account-recovery steps. The correct order depends on the services involved, so keep a current plan rather than relying on a generic sequence."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
