@@ -1,0 +1,123 @@
+export default {
+  "slug": "webmaster-affiliate-creative-reuse-rights-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Creatives: Check Reuse Rights Before Repurposing Assets",
+  "description": "A webmaster checklist for checking whether affiliate banners, logos, copy, and other supplied assets may be resized, edited, archived, or reused across placements.",
+  "excerpt": "An asset that is available in an affiliate dashboard is not automatically cleared for every reuse. Map the permitted edits, placements, and retention rules before adapting creative for your site.",
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "keyTakeaways": [
+    "Treat access to an asset as distinct from permission to modify, redistribute, or retain it.",
+    "Check the written terms for allowed placements, edits, required attribution, and expiration or withdrawal conditions.",
+    "Keep the original asset and your adapted versions identifiable in an internal asset register.",
+    "Ask for clarification when an asset's license or permitted use is ambiguous; retain the response with the relevant version of the terms.",
+    "Remove or replace assets when permission ends, and review cached, archived, and scheduled placements as part of the change process."
+  ],
+  "sections": [
+    {
+      "heading": "Separate downloading an asset from having reuse permission",
+      "paragraphs": [
+        "Affiliate dashboards may provide banners, logos, text, product images, or other promotional material. The fact that an asset can be downloaded does not by itself establish that you may edit it, place it anywhere, or keep it indefinitely. Before deployment, identify the terms that govern the particular material. Look for who owns or controls it, which partner is granting permission, and whether the terms apply to the asset itself or only to a defined promotion.",
+        "Make a clear inventory of what you plan to use. A logo placed in an editorial comparison, a supplied banner in a sidebar, and a short approved description in a listing are different placements. Do not presume that permission for one format covers another. If a program provides no asset-specific terms, consult the applicable agreement and program instructions. If the documents do not resolve the question, seek written clarification rather than relying on a dashboard label or informal assumption."
+      ],
+      "bullets": [
+        "Record the asset name, source, version, and date obtained.",
+        "Identify the applicable agreement, creative rules, or approval notes.",
+        "List every page, channel, and placement where you intend to use the asset."
+      ]
+    },
+    {
+      "heading": "Review what kinds of edits are allowed",
+      "paragraphs": [
+        "Common publishing tasks such as resizing, cropping, adding text, changing colors, translating copy, or combining assets can change the supplied creative. Check whether these changes are allowed and whether prior approval is required. Even a seemingly small edit may alter a logo, qualification, or promotional claim. If the program supplies exact copy or a required disclaimer, preserve it as directed; do not make an adaptation that changes the meaning or omits a condition.",
+        "Separate technical changes from editorial changes in your review. A technical adjustment may be necessary for a responsive layout, while rewriting a claim or changing a visual may require separate permission. Where approval is needed, preserve the submitted version, the approving response, and the final published version. If you cannot establish that an edit is permitted, use the asset as supplied only if that use is clearly authorized—or choose a different, properly cleared presentation."
+      ],
+      "table": {
+        "caption": "A pre-publication rights check for supplied creative",
+        "headers": [
+          "Use or change",
+          "Question to resolve",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Resize or crop",
+            "Are proportional resizing and cropping permitted?",
+            "Original and final dimensions, plus applicable terms"
+          ],
+          [
+            "Translate or rewrite copy",
+            "Is translation or adaptation allowed and does it require approval?",
+            "Source copy, translated text, and approval if required"
+          ],
+          [
+            "Add a logo or disclosure",
+            "Are overlays permitted without obscuring required material?",
+            "Rendered preview and placement notes"
+          ],
+          [
+            "Reuse on another property",
+            "Does permission extend to this domain, channel, or page type?",
+            "Approved property and placement list"
+          ],
+          [
+            "Retain after a campaign ends",
+            "Does permission expire or can the asset remain published?",
+            "End date, removal instruction, and completion record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check placement and channel scope",
+      "paragraphs": [
+        "Permission can be limited to particular websites, page types, promotional methods, or channels. Verify that the property using the asset is covered and that the content surrounding it complies with program rules. Do not assume approval for an editorial page grants permission for email, social posts, paid placements, or another site. Make a placement matrix so that the creative, destination, and approved channel can be checked together before publishing.",
+        "For a team or portfolio of sites, record which property is approved to use which asset. An asset moved during a redesign or copied into a new template may appear on a page that was never reviewed. Include embedded blocks, reusable components, and scheduled content in your checks. If your publication process permits reuse across domains, add a deliberate rights check at the point of reuse instead of treating a previous approval as universally transferable."
+      ],
+      "bullets": [
+        "Match each asset to an approved property and channel.",
+        "Review templates and embedded components, not just individual articles.",
+        "Reconfirm scope when a placement, domain, or promotional method changes."
+      ]
+    },
+    {
+      "heading": "Build a versioned asset register",
+      "paragraphs": [
+        "A simple register helps prevent expired or superseded material from staying live. Track the asset identifier, source, date obtained, version, approved placements, applicable conditions, and any stated end date. Link the record to the written terms or approval evidence that supports the use. Keep the original file separate from edited variants so that a future reviewer can tell what was supplied and what was changed.",
+        "Versioning matters when programs update their creative or revise usage instructions. Label each replacement and identify which pages use it. Avoid overwriting the only copy of an older file if you need to understand what appeared on a page at an earlier time. Store records in a controlled location and give access only to people who need them. This is an operational recordkeeping method, not a claim that every program provides a complete asset history."
+      ],
+      "bullets": [
+        "Maintain one source of truth for creative versions and placements.",
+        "Link each published variant to the permission or approval that supports it.",
+        "Keep a record of when an asset is replaced or removed."
+      ]
+    },
+    {
+      "heading": "Plan removal and reuse when permission changes",
+      "paragraphs": [
+        "Terms, campaign status, or creative instructions may change. Establish a review process for program notices and define who can pause publication, replace an asset, and verify removal. Check the visible page, reusable templates, scheduled posts, and any other placements in your own control. If the asset was supplied to another party or embedded elsewhere, review the relevant agreement and take reasonable steps within your control to address that placement.",
+        "Do not treat taking a banner off the main page as proof that all copies have been removed. Search your own asset library and page inventory for the relevant filename, identifier, or creative reference. Document the change date and affected placements. If you are uncertain whether an archived or cached copy is covered by the terms, check the governing instructions and ask the program for clarification. An orderly process makes it easier to respond without making unsupported assumptions about rights or obligations."
+      ],
+      "bullets": [
+        "Assign an owner for notices, asset replacement, and removal verification.",
+        "Check live, scheduled, templated, and archived placements that you control.",
+        "Record the decision, evidence, and completion date for each material change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If an affiliate program supplies a banner, may I resize it?",
+      "answer": "Do not assume so. Check the applicable creative terms for resizing, cropping, overlays, or other modifications. If the terms are silent or unclear, ask the program for written clarification before publishing an altered version."
+    },
+    {
+      "question": "Does permission to use a creative on one website extend to my other sites?",
+      "answer": "Not necessarily. Program terms may define approved properties, placements, or channels. Check the scope for each site and record which asset is authorized for which placement."
+    },
+    {
+      "question": "How long should I keep a creative after a promotion ends?",
+      "answer": "Follow the applicable agreement and any specific end-date or removal instructions. Keep the records needed to understand past use, but distinguish record retention from continued publication. If the permitted retention or archival use is unclear, ask the program before leaving the asset live."
+    }
+  ]
+};

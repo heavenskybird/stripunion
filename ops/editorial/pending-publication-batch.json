@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T06:24:12.661Z",
+  "generatedAt": "2026-11-16T09:05:01.829Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-evaluate-comfort-break-policy.json",
-    "ops/editorial/content-artifacts/adult-anime-platform-comment-community-fit-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-sponsor-disclosure-workflow.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-account-multiple-profile-consistency.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-shared-cardholder-visibility-plan.json"
+    "ops/editorial/content-artifacts/premium-video-membership-fit-for-irregular-viewers.json",
+    "ops/editorial/content-artifacts/live-cam-public-room-readiness-for-observers.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-creative-reuse-rights-review.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-first-use-handoff-planning.json",
+    "ops/editorial/content-artifacts/adult-anime-app-storefront-and-browser-choice.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-evaluate-comfort-break-policy.js",
-    "src/data/guides/adult-anime-platform-comment-community-fit-audit.js",
-    "src/data/guides/creator-platform-sponsor-disclosure-workflow.js",
-    "src/data/guides/adult-dating-platform-account-multiple-profile-consistency.js",
-    "src/data/guides/adult-platform-payment-shared-cardholder-visibility-plan.js"
+    "src/data/guides/premium-video-membership-fit-for-irregular-viewers.js",
+    "src/data/guides/live-cam-public-room-readiness-for-observers.js",
+    "src/data/guides/webmaster-affiliate-creative-reuse-rights-review.js",
+    "src/data/guides/vr-adult-platform-first-use-handoff-planning.js",
+    "src/data/guides/adult-anime-app-storefront-and-browser-choice.js"
   ],
   "categories": [
+    "premium-videos",
+    "live-cams",
+    "webmaster-affiliate",
     "vr-ar",
-    "hentai-anime",
-    "creator-platforms",
-    "dating-hookups",
-    "privacy-safety-payment"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "vr-adult-platform-evaluate-comfort-break-policy",
-    "adult-anime-platform-comment-community-fit-audit",
-    "creator-platform-sponsor-disclosure-workflow",
-    "adult-dating-platform-account-multiple-profile-consistency",
-    "adult-platform-payment-shared-cardholder-visibility-plan"
+    "premium-video-membership-fit-for-irregular-viewers",
+    "live-cam-public-room-readiness-for-observers",
+    "webmaster-affiliate-creative-reuse-rights-review",
+    "vr-adult-platform-first-use-handoff-planning",
+    "adult-anime-app-storefront-and-browser-choice"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "43816239348",
-  "phase": "closed"
+  "r1CycleId": "43836142708"
 }

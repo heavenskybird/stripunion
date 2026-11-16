@@ -1,0 +1,125 @@
+{
+  "backlogId": "vr-adult-platform-first-use-handoff-planning",
+  "slug": "vr-adult-platform-first-use-handoff-planning",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Plan a Clean Handoff Between Headset and Companion Device",
+  "description": "A practical checklist for evaluating how a VR adult platform moves between headset and companion-device use, including sign-in, browsing continuity, notifications, and safe session handoff.",
+  "excerpt": "Some platforms involve more than one screen during setup or browsing. Before relying on that workflow, check what carries over, what remains visible, and how to return control to a private session.",
+  "keyTakeaways": [
+    "Identify which tasks require the headset and which, if any, can be completed on another device.",
+    "Check whether sign-in, browsing state, and saved items persist across devices rather than assuming continuity.",
+    "Review notifications, casting, and account-name visibility on each device involved in the handoff.",
+    "Test a low-stakes workflow before relying on a companion device for a time-sensitive session.",
+    "Sign out or end access on devices you do not control, and verify that the headset returns to the expected account state."
+  ],
+  "sections": [
+    {
+      "heading": "Map the devices involved in your actual workflow",
+      "paragraphs": [
+        "A VR viewing workflow may involve a headset plus a phone, computer, or browser—for example, for account management, catalog browsing, or device setup. Do not assume that a companion device is required or that its controls duplicate the headset interface. Start by listing the devices you might use and the task each one is expected to handle. Then verify those steps through the platform's own instructions and account screens.",
+        "This map helps separate compatibility questions from convenience questions. A service might support a headset for playback while using a separate device for another account task; that does not establish that the two devices share a session or browsing state. Record what you can verify and leave unknown behavior marked as unknown. Avoid downloading software or entering credentials through an unverified link just because a device prompts you to continue."
+      ],
+      "bullets": [
+        "List every device and browser you expect to use in setup or access.",
+        "For each task, verify whether it is available on the headset, another device, or both.",
+        "Use official access instructions rather than search-result links or unexpected prompts."
+      ]
+    },
+    {
+      "heading": "Check sign-in and session boundaries across devices",
+      "paragraphs": [
+        "Before a cross-device workflow, find out whether each device uses a separate sign-in, a linked account, or an active session that persists after you close the app. A remembered session can be convenient on a personal device and inappropriate on a shared one. Check the account name displayed at each stage, whether signing out on one device affects another, and what steps are available to revoke access if a device is lost or handed to someone else.",
+        "Test the transition deliberately. Sign in only on devices you control, note what state is preserved, and then sign out using the available controls. Do not infer that closing a browser tab or removing a headset from view ends a session. Where the platform does not describe cross-device behavior clearly, treat continuity as unverified and avoid depending on it for privacy-sensitive handoffs."
+      ],
+      "table": {
+        "caption": "Cross-device handoff questions to verify",
+        "headers": [
+          "Workflow point",
+          "What to check",
+          "Practical response"
+        ],
+        "rows": [
+          [
+            "Before sign-in",
+            "Which account and device will hold the active session?",
+            "Use a device you control and verify the displayed account"
+          ],
+          [
+            "During browsing",
+            "Does the other device show the same page, queue, or account state?",
+            "Do not assume synchronization; confirm before relying on it"
+          ],
+          [
+            "At playback",
+            "Does a handoff affect playback, casting, or notifications?",
+            "Check device and display controls before starting"
+          ],
+          [
+            "After use",
+            "Does sign-out end access on all devices or only one?",
+            "Review session controls and verify each device separately"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect what appears on the companion screen",
+      "paragraphs": [
+        "A phone or computer may reveal information through notifications, recent apps, browser history, saved passwords, or a screen left open. Review the operating-system notification settings and app-switcher behavior on the device you plan to use. Consider whether a device is shared, visible to others, or signed in to an account that displays a personal name. A privacy-conscious workflow can reduce visible traces, but it cannot promise that every record is removed or that every platform handles history the same way.",
+        "Check casting and display handoffs separately. If you use a shared screen, television, or headset casting feature, identify which display is active and how to stop it. Verify that a companion device has not left the session mirrored or accessible to another user. If you cannot confirm the display state, do not begin a session that depends on a private handoff. The goal is to know the current output and account state before proceeding."
+      ],
+      "bullets": [
+        "Review notification previews and recent-app visibility on companion devices.",
+        "Check the active casting or display destination before and after a handoff.",
+        "Avoid saving credentials on devices that other people can access."
+      ]
+    },
+    {
+      "heading": "Evaluate browsing and saved-state continuity",
+      "paragraphs": [
+        "Browsing on a larger or more familiar screen can make it easier to assess listings, but a platform may not carry a search, queue, or saved item into the headset. Check which state is synchronized and which remains local to a device. If the platform offers saved lists, verify that the same account is active and that the item appears where you expect before building a workflow around it. Do not assume a bookmarked web page is equivalent to a saved item inside an app.",
+        "A simple test can reveal practical friction without requiring a full session: open a public listing or account page where available, perform a harmless navigation step, then check whether the expected state appears on the other device. Avoid interpreting one successful test as a guarantee of permanent synchronization. Record the result and repeat the check after sign-out or a software update if continuity is important to you."
+      ],
+      "bullets": [
+        "Test one low-stakes transition from companion browsing to headset use.",
+        "Confirm whether saved items, not just sign-in, carry across devices.",
+        "Keep a separate note of items you need if the platform does not provide dependable continuity."
+      ]
+    },
+    {
+      "heading": "Create a safe end-of-use handoff",
+      "paragraphs": [
+        "A clean handoff includes both the headset and the companion device. Close or sign out of account pages where appropriate, end casting, and verify that the headset is no longer showing the prior account or session. On shared hardware, check the platform's account controls and the device's user-profile settings rather than assuming that switching screens changes accounts. If a device is borrowed or shared, avoid leaving credentials or session data behind.",
+        "Decide what to do if a handoff fails. You may need to stop playback, return to a known home screen, confirm the active account, or revoke an access session. Write down the platform's documented recovery path before you depend on the workflow. If the account state is uncertain, pause and resolve it rather than repeatedly entering credentials or authorizing unexpected prompts. This small preflight is especially valuable when more than one device is in use."
+      ],
+      "bullets": [
+        "End casting and verify the output device is no longer receiving the session.",
+        "Check account state on both devices before handing either to someone else.",
+        "Use documented sign-out or session-revocation controls if the state is uncertain."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will my headset and phone automatically share a browsing session?",
+      "answer": "Do not assume that they will. Sign-in, saved items, and browsing state can be separate. Check the platform's instructions and test a low-stakes transition before relying on cross-device continuity."
+    },
+    {
+      "question": "Is closing a companion-device browser enough to sign out?",
+      "answer": "Not necessarily. A session may persist after a tab or app is closed. Use the available sign-out or session controls and verify the result, especially on a shared device."
+    },
+    {
+      "question": "What is the safest way to hand off a headset after using a companion device?",
+      "answer": "End any casting or display handoff, confirm the active account and session state on both devices, and sign out or revoke access where appropriate. Follow the platform's documented controls rather than assuming one action ends every session."
+    }
+  ],
+  "publishedAt": "2026-11-16",
+  "updatedAt": "2026-11-16",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
