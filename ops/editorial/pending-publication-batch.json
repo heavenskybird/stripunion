@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T07:52:59.802Z",
+  "generatedAt": "2026-11-17T11:09:16.080Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-mobile-browser-versus-app-workflow.json",
-    "ops/editorial/content-artifacts/creator-platform-scheduled-post-time-zone-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-notification-history-retention-check.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-recenter-control-preflight.json",
-    "ops/editorial/content-artifacts/adult-anime-app-background-task-behavior-check.json"
+    "ops/editorial/content-artifacts/free-video-platform-tag-vocabulary-audit.json",
+    "ops/editorial/content-artifacts/adult-games-replacement-part-support-review.json",
+    "ops/editorial/content-artifacts/adult-shop-replacement-part-continuity-check.json",
+    "ops/editorial/content-artifacts/adult-platform-shared-password-vault-access-review.json",
+    "ops/editorial/content-artifacts/premium-video-subscription-household-signout-separation.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-mobile-browser-versus-app-workflow.js",
-    "src/data/guides/creator-platform-scheduled-post-time-zone-audit.js",
-    "src/data/guides/adult-platform-notification-history-retention-check.js",
-    "src/data/guides/vr-adult-platform-recenter-control-preflight.js",
-    "src/data/guides/adult-anime-app-background-task-behavior-check.js"
+    "src/data/guides/free-video-platform-tag-vocabulary-audit.js",
+    "src/data/guides/adult-games-replacement-part-support-review.js",
+    "src/data/guides/adult-shop-replacement-part-continuity-check.js",
+    "src/data/guides/adult-platform-shared-password-vault-access-review.js",
+    "src/data/guides/premium-video-subscription-household-signout-separation.js"
   ],
   "categories": [
-    "premium-videos",
-    "creator-platforms",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "privacy-safety-payment",
-    "vr-ar",
-    "hentai-anime"
+    "premium-videos"
   ],
   "backlogIds": [
-    "premium-video-mobile-browser-versus-app-workflow",
-    "creator-platform-scheduled-post-time-zone-audit",
-    "adult-platform-notification-history-retention-check",
-    "vr-adult-platform-recenter-control-preflight",
-    "adult-anime-app-background-task-behavior-check"
+    "free-video-platform-tag-vocabulary-audit",
+    "adult-games-replacement-part-support-review",
+    "adult-shop-replacement-part-continuity-check",
+    "adult-platform-shared-password-vault-access-review",
+    "premium-video-subscription-household-signout-separation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44041837644",
-  "phase": "closed"
+  "r1CycleId": "44070971242"
 }

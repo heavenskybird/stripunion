@@ -1,0 +1,132 @@
+export default {
+  "slug": "premium-video-subscription-household-signout-separation",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Accounts: Check Household Sign-Out and Access Separation",
+  "description": "Before sharing a device or ending a viewing session, check how a premium video account signs out, separates profiles, and handles access across household devices.",
+  "excerpt": "Profiles can separate recommendations, but they do not necessarily separate account access. Use this workflow to check sign-out behavior and decide what account boundaries a shared device needs.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "A profile switch is not the same as signing out of the account or removing account access from a device.",
+    "Check whether the service offers a clear device sign-out or session-management option and understand its stated scope.",
+    "Review profile selection, saved credentials, and device-level user accounts as separate privacy layers.",
+    "Do not assume that signing out on one device ends sessions on other devices.",
+    "Test the sign-out path with a non-sensitive session before relying on it for a shared-device routine."
+  ],
+  "sections": [
+    {
+      "heading": "Separate profiles, accounts, and device sessions",
+      "paragraphs": [
+        "A premium video service may offer profiles within one account, but profiles and account access solve different problems. A profile can help organize viewing preferences or lists; it does not necessarily prevent another person who can access the account from switching profiles, changing settings, or viewing account-level information. A device can also retain a signed-in session even after someone returns to a profile-selection screen.",
+        "This guide focuses on the handoff between household users and the account session left on a device. It is distinct from choosing a household plan, evaluating profile features, or deciding whether account sharing is allowed. The practical question is whether the sign-in state and sign-out controls match the way you use a shared television, tablet, or computer.",
+        "Before relying on a feature, identify the device’s own user account, the service account, and the selected profile. Each layer may preserve different information. A device profile might remain signed in to a service, while a service profile switch might leave the account active. Treat these as separate controls unless the service clearly documents otherwise."
+      ],
+      "bullets": [
+        "Account access controls who can enter the service account; profiles organize activity within it.",
+        "A profile-selection screen does not prove that the account has been signed out.",
+        "Include device-level sign-in and saved browser credentials in the handoff review."
+      ]
+    },
+    {
+      "heading": "Find the service’s sign-out and session controls",
+      "paragraphs": [
+        "Look in account settings and the service’s help information for controls described as sign out, remove device, manage sessions, or sign out of all devices. Similar labels can have different effects. A local sign-out may only end the session on the current device; a remote control may apply to other devices as well, possibly with a delay or conditions described by the service. Read the stated scope rather than inferring it from the button name.",
+        "If the account is billed or managed through another channel, keep that separate from device access. Ending a viewing session does not necessarily cancel a subscription, change billing, or close the account. Likewise, cancelling membership does not necessarily sign a device out immediately. Treat account access, membership status, and billing as distinct tasks.",
+        "When settings are unclear, test the available controls using a device you can access and a session that does not contain sensitive account information. Note what the screen confirms and what remains unknown. Do not claim a universal sign-out effect when the service does not state one."
+      ],
+      "table": {
+        "caption": "Household session handoff checks",
+        "headers": [
+          "Layer",
+          "What to inspect",
+          "What not to assume"
+        ],
+        "rows": [
+          [
+            "Service profile",
+            "Which profile is selected and what it controls",
+            "That profiles prevent account-level access."
+          ],
+          [
+            "Service session",
+            "Local sign-out or session-management controls",
+            "That one sign-out ends every other session."
+          ],
+          [
+            "Device account",
+            "Device user, browser profile, or app login",
+            "That signing out of the service signs out of the device."
+          ],
+          [
+            "Saved credentials",
+            "Remembered password or automatic sign-in settings",
+            "That closing the app removes saved credentials."
+          ],
+          [
+            "Membership and billing",
+            "Subscription status and billing manager",
+            "That ending a viewing session changes billing."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the actual handoff sequence",
+      "paragraphs": [
+        "Use the device as a household member would: open the service, confirm which profile appears, and inspect the route to sign out or switch users. Then close and reopen the app or browser as appropriate to see whether it returns to an account session, a profile choice, or a sign-in screen. This is a limited usability check; it does not establish what happens on every device or after every software update.",
+        "If the device has separate user accounts, check whether each user sees a distinct app or browser state. If it is a shared browser profile, saved passwords and browsing state may remain available even after a service sign-out. On a television, a visible profile picker may still be inside a signed-in account. Make a note of what the screen actually shows rather than interpreting the icon or menu label as proof of privacy.",
+        "Test a single handoff at a time. For example, sign out of the service and then reopen it, or switch the device user and check the service state. This helps identify which layer is doing the work. Avoid testing with account details displayed in a room where others can see them, and do not leave a screen recording or screenshot that captures private information."
+      ],
+      "bullets": [
+        "Observe the screen after closing and reopening the service.",
+        "Check whether a device user change also changes the service session.",
+        "Keep the test limited to controls you can safely verify."
+      ]
+    },
+    {
+      "heading": "Choose a routine for shared devices",
+      "paragraphs": [
+        "A useful routine depends on who uses the device and what access boundary you need. On a device used only by you, a persistent session may be convenient. On a household device, separate device users and a clear service sign-out may provide a more understandable handoff. If the service has no sign-out control that meets your needs, avoid relying on profile switching as a substitute and consider whether using a different device or browser context is more appropriate.",
+        "A routine should be simple enough to repeat. For example: select the intended device user, open the service, use the appropriate profile, sign out when finished if required, then confirm that the next opening shows the expected state. Do not add steps that you cannot verify or that create a false impression that other account access has been removed.",
+        "If multiple people share the account under the service’s terms, agree on how profiles and sign-out are used. If you do not want other account users to access your profile or settings, a profile may not provide the boundary you need. Check the service’s documented account controls and terms before treating a shared account as private."
+      ],
+      "bullets": [
+        "Use the smallest routine that gives you a verified handoff.",
+        "Do not treat profile switching as a replacement for sign-out when account access matters.",
+        "Choose a different device or account arrangement if the available controls do not fit your boundary."
+      ]
+    },
+    {
+      "heading": "Recheck when the device or account changes",
+      "paragraphs": [
+        "Sign-out behavior can differ between a television app, mobile app, and browser. A routine tested on one device should not be assumed to apply to another. Recheck after changing the app, device user, browser profile, or account recovery settings, and when the service changes its menus. You do not need to repeat the check on a fixed schedule; do it when a relevant change affects your use.",
+        "If a device is lost, sold, returned, or passed to another household member, use the service’s documented account and device controls. If you can no longer access the device, check whether the service provides remote session or device management. Do not assume that changing a password immediately removes every existing session unless the service says so.",
+        "Keep your notes focused on the control path and its limits. A private note such as “local sign-out confirmed on this device; other sessions not checked” is more useful than a vague claim that the account is fully private. That record helps you make an informed choice without overclaiming what a test established."
+      ],
+      "bullets": [
+        "Verify behavior separately on devices with different apps or user-account systems.",
+        "Use documented remote controls if a device is no longer in your possession.",
+        "Record what you checked and what you did not check."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does switching profiles sign a premium video account out?",
+      "answer": "Not necessarily. A profile switch commonly changes the selected profile within an account, while sign-out ends a session on a device. Check the service’s controls and confirm what the interface shows."
+    },
+    {
+      "question": "Will signing out on one device sign out every household device?",
+      "answer": "Do not assume so. A local sign-out may apply only to that device. Use the service’s documentation to understand any remote or all-device session control."
+    },
+    {
+      "question": "Does cancelling a subscription automatically sign out a television?",
+      "answer": "Not necessarily. Membership status, billing, and device sessions are separate. Check the service’s stated cancellation and device-access behavior independently."
+    },
+    {
+      "question": "What should I test on a shared device?",
+      "answer": "Check the selected profile, the service’s sign-out path, and what appears after you close and reopen the app or browser. Also consider device user accounts and saved credentials, which are separate from the service session."
+    }
+  ]
+};
