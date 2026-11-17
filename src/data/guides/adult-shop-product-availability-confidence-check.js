@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-shop-product-availability-confidence-check",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Stock Status and Fulfilment Wording Before Ordering",
+  "description": "A practical guide to interpreting adult shop stock labels, backorder notes, and dispatch estimates before placing an order.",
+  "excerpt": "A product marked available may still have a fulfilment condition or an uncertain dispatch window. Learn which listing details to check and what to clarify before checkout.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Distinguish an in-stock statement from a dispatch estimate, delivery estimate, or backorder note.",
+    "Check availability for the exact size, color, edition, or other variant you plan to order.",
+    "Look for wording about partial shipments, substitutions, and what happens if stock changes.",
+    "Treat an estimate as an estimate unless the retailer clearly states a firm commitment.",
+    "Save the listing and order terms that matter, while avoiding unnecessary personal information in your notes."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the difference between stock and delivery",
+      "paragraphs": [
+        "A product page can present several different timing signals: stock status, processing time, dispatch estimate, carrier transit estimate, and a delivery window. These are not interchangeable. A statement that an item is available does not necessarily say when it will leave the retailer. A dispatch estimate does not establish when a carrier will deliver it. Reading each phrase separately can prevent a checkout date from being mistaken for a guarantee.",
+        "Retailers may use different labels, so compare the wording rather than assuming every shop means the same thing by 'in stock' or 'ready to ship.' Look for a definition, policy note, or help page explaining the label. If the site does not define it, treat the status as an indication rather than a firm promise and decide whether the uncertainty is acceptable for your plans."
+      ],
+      "bullets": [
+        "Stock status describes the retailer's stated availability for an item.",
+        "Processing time concerns preparation before dispatch.",
+        "Dispatch information concerns handoff from the retailer to a carrier.",
+        "Delivery estimates concern a later stage and may depend on the carrier."
+      ]
+    },
+    {
+      "heading": "Verify the exact variant before checkout",
+      "paragraphs": [
+        "Availability can differ between variants of the same product. Check the selected size, color, model, or bundle rather than relying on the default page view. A product may show a general availability label while the selected option has a different status. Confirm the variant again in the cart, since the cart summary is often the last place to catch a mismatch before payment.",
+        "If you are comparing several products, record the exact variant and the status shown at the time. Avoid copying a general product URL into your notes and assuming it represents the option you selected. When the page is unclear, ask the retailer a specific question about that variant and whether the displayed timing is for dispatch or delivery. You do not need to share payment details to ask about stock wording."
+      ],
+      "table": {
+        "caption": "How to read common fulfilment information without conflating it",
+        "headers": [
+          "Information",
+          "What it can tell you",
+          "What it does not establish by itself"
+        ],
+        "rows": [
+          [
+            "Stock label",
+            "The retailer's stated availability category",
+            "A guaranteed dispatch or arrival date"
+          ],
+          [
+            "Processing estimate",
+            "Expected preparation time before dispatch",
+            "Carrier transit time"
+          ],
+          [
+            "Dispatch estimate",
+            "Expected handoff timing if stated",
+            "The date a parcel will arrive"
+          ],
+          [
+            "Delivery window",
+            "A stated arrival estimate or range",
+            "That every item in a multi-item order will travel together"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read backorder and substitution terms",
+      "paragraphs": [
+        "If a page mentions a backorder, preorder, delayed stock, or supplier fulfilment, look for the associated terms. Check whether the retailer gives an estimated timeframe, whether that estimate can change, and how you will be notified if it does. Read the policy for what happens if only part of an order is available. A delayed item may be held, shipped later, or handled according to another stated process; do not assume the retailer will choose the option you prefer.",
+        "Look for substitution wording as well. Check whether a retailer may replace an unavailable item, whether it will seek your approval, and what happens if you decline a proposed alternative. If the policy does not answer these questions, ask before ordering when the answer could affect your choice. Keep any response and the relevant policy wording together with the order confirmation."
+      ]
+    },
+    {
+      "heading": "Compare estimates with your actual timing needs",
+      "paragraphs": [
+        "A dispatch or delivery estimate is useful only in relation to your own deadline. If you need an order by a particular date, check the language carefully for whether the retailer describes a target, a range, or a firm commitment. Note any conditions, such as processing after payment confirmation or different timing for items from different locations. Do not rely on a best-case estimate when missing the date would create a problem.",
+        "Consider whether the order contains multiple items with different availability labels. A single cart can result in a single shipment or more than one shipment, depending on the retailer's process and stated policy. Check whether split fulfilment affects timing, tracking, shipping charges, or communication. If the page does not explain it, treat the shipment arrangement as unresolved and ask before placing an order."
+      ]
+    },
+    {
+      "heading": "Check what happens if availability changes",
+      "paragraphs": [
+        "Stock information can change between viewing a product and completing checkout. Review the final cart summary for the chosen variant, status, and any delivery or dispatch wording. Save the order confirmation after purchase and compare it with the listing if a delay or discrepancy arises. A dated record makes it easier to explain which information you relied on without making assumptions about what the retailer promised.",
+        "Read the retailer's policy for delayed, unavailable, or cancelled items. Check how it describes notification, order changes, cancellation, and any applicable refund process. This is not a reason to expect a particular outcome; it is a way to understand the options the retailer states. If a status changes after checkout, contact support through a verified route and provide only the order information needed to resolve the issue."
+      ]
+    },
+    {
+      "heading": "Use a concise pre-order checklist",
+      "paragraphs": [
+        "Before placing the order, verify the selected variant, the exact stock wording, and whether the page gives a separate processing or dispatch estimate. Review the retailer's backorder and substitution terms if any item is not currently available. If the timing is important, ask a focused question and keep the answer. These steps can take less time than trying to interpret a vague status after an order has already been placed.",
+        "Keep your notes proportionate. Record the product identifier, variant, date checked, and relevant availability wording. Avoid storing full payment details or unrelated personal information alongside the note. If you later need help, use the retailer's verified support route and refer to the order number or product detail requested. Clear records support a practical conversation without turning a basic stock check into unnecessary data collection."
+      ],
+      "bullets": [
+        "Confirm the exact variant in both the product page and cart.",
+        "Separate stock status from dispatch and delivery estimates.",
+        "Read backorder, split-shipment, and substitution terms where relevant.",
+        "Ask about unresolved timing or approval questions before ordering.",
+        "Retain the order confirmation and relevant status wording."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does 'in stock' mean an order will arrive by a particular date?",
+      "answer": "Not by itself. Stock status, processing, dispatch, and delivery are separate stages. Look for a distinct delivery estimate and any conditions attached to it."
+    },
+    {
+      "question": "What should I do if the product page and cart show different availability?",
+      "answer": "Pause before payment and check the selected variant and the wording in both places. If the difference remains unclear, ask the retailer which status applies to the exact item in your cart."
+    },
+    {
+      "question": "Should I assume a retailer will ask before substituting an unavailable item?",
+      "answer": "No. Check the retailer's stated substitution policy. If it does not explain whether approval is required, ask before ordering or choose an option whose terms you understand."
+    }
+  ]
+};
