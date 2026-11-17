@@ -1,0 +1,117 @@
+{
+  "backlogId": "premium-video-membership-pause-versus-cancellation-decision",
+  "slug": "premium-video-membership-pause-versus-cancellation-decision",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Pause or Cancel a Premium Video Membership? Compare Access Before Choosing",
+  "description": "A decision guide to comparing pause and cancellation terms for premium video memberships, including billing, access, saved information, and reactivation.",
+  "excerpt": "Pausing and canceling are not interchangeable. Before choosing, check what happens to billing, viewing access, saved lists, and the steps required to return. This guide helps you compare the options using the terms shown by the service that manages your membership.",
+  "keyTakeaways": [
+    "Confirm whether a pause actually stops billing and whether it has a defined duration.",
+    "Check what access remains during a pause and when access ends after cancellation.",
+    "Identify whether the membership can be restarted with the same plan and account settings.",
+    "Save any terms that matter to your decision, including the effective date and billing manager.",
+    "Do not assume that pausing, canceling, and deleting an account have the same effect."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the three actions",
+      "paragraphs": [
+        "A pause, a cancellation, and account deletion can have different effects. A pause may temporarily suspend a membership, while cancellation may end future renewals but leave access active until a stated date. Account deletion is a separate action that may affect profile information or saved items. Services can define these terms differently, so begin with the wording shown in the account’s membership controls rather than relying on a general assumption.",
+        "Also establish who manages the membership. The service itself may handle billing, or a separate app marketplace or payment provider may control the recurring charge. If the subscription was started through a third party, the service’s account page may explain access but not provide the control needed to pause or cancel. Identify the billing route first so you know where to verify the applicable terms and where to make the change."
+      ],
+      "bullets": [
+        "Write down whether the available option is pause, cancellation, or account deletion.",
+        "Identify the organization or store that manages recurring billing.",
+        "Check whether the action applies immediately or at the end of a billing period."
+      ]
+    },
+    {
+      "heading": "Compare billing and access dates",
+      "paragraphs": [
+        "The most important practical difference is often timing. For a pause, check its start date, end date, duration, and what happens when that period ends. The membership might resume automatically, require manual reactivation, or follow another process specified in the terms. Do not assume that selecting a pause prevents every future charge unless the service clearly states how billing works.",
+        "For cancellation, look for the confirmation of when renewal stops and when membership access ends. These can be different dates. If access continues until the end of a paid period, save that date; if access ends sooner, take that into account before making the change. A confirmation page or email is useful evidence of the action and its effective date, but it does not replace the terms that explain the next billing event."
+      ],
+      "table": {
+        "caption": "Compare the actions using the service’s current terms",
+        "headers": [
+          "Question",
+          "Pause",
+          "Cancellation"
+        ],
+        "rows": [
+          [
+            "Does billing stop?",
+            "Check whether charges are suspended and for how long.",
+            "Check whether future renewal is disabled."
+          ],
+          [
+            "When does access change?",
+            "Find the pause start and end dates and any access limits.",
+            "Find the stated access cutoff date."
+          ],
+          [
+            "What happens next?",
+            "Check whether membership restarts automatically or needs action.",
+            "Check whether you must rejoin to regain access."
+          ],
+          [
+            "Who controls the action?",
+            "Verify the billing manager and where the setting lives.",
+            "Use the cancellation route for the actual billing channel."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Account for saved lists and preferences",
+      "paragraphs": [
+        "A change in membership status does not necessarily erase the account, but saved lists, history, preferences, or profile details may be handled differently across services. If keeping those items matters, check whether the terms distinguish membership cancellation from account closure. Look for information on how long the account remains available, whether saved items persist, and whether access to them requires an active membership.",
+        "Make a short record before changing status. Note the current plan name, next renewal date if displayed, saved-list information you may want to retain, and any relevant support instructions. Avoid storing sensitive details in a document that other people can access. The purpose is to preserve the practical information you need—not to create an unnecessary archive of viewing activity."
+      ],
+      "bullets": [
+        "Check whether saved lists remain available without an active membership.",
+        "Save the plan and renewal details needed to verify the change.",
+        "Keep account deletion separate from a membership-status change."
+      ]
+    },
+    {
+      "heading": "Understand reactivation before pausing",
+      "paragraphs": []
+    },
+    {
+      "heading": "Use a decision record and confirm the result",
+      "paragraphs": [
+        "Before acting, summarize the choice in one sentence: “I want billing to stop now, and I am comfortable with access ending on the date shown,” or “I want a temporary break, and I understand when billing or access may resume.” If the service’s terms do not let you complete that sentence confidently, inspect the help information or contact the stated support route before proceeding.",
+        "After you make the change, check for a confirmation screen or message and verify the account status through the billing manager. Keep the confirmation until you have checked the next relevant billing date or access transition. If a third party manages billing, check its subscription controls as well; an account-level status can differ from the status of the recurring payment. A brief follow-up check is a practical way to catch misunderstandings early."
+      ],
+      "bullets": [
+        "Record the action, date, and confirmation reference.",
+        "Check the billing manager’s status after changing the membership.",
+        "Use the stated support channel if the displayed status conflicts with the confirmation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does pausing always stop a premium video subscription charge?",
+      "answer": "Not necessarily. The service’s pause terms should state whether billing is suspended, how long the pause lasts, and whether the membership restarts automatically. Verify those details before choosing that option."
+    },
+    {
+      "question": "If I cancel, will I lose access immediately?",
+      "answer": "That depends on the terms and the effective date shown for your membership. Check whether access ends when you cancel or remains available until a later date, and save the confirmation."
+    },
+    {
+      "question": "Should I delete my account when I only want to stop renewal?",
+      "answer": "Do not assume deletion is required. Membership cancellation and account deletion can be separate processes with different effects on access and saved information. Check the service’s instructions for each action."
+    }
+  ],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
