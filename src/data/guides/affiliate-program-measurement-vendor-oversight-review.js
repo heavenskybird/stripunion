@@ -1,0 +1,118 @@
+export default {
+  "slug": "affiliate-program-measurement-vendor-oversight-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Who Operates the Tracking and Reporting Systems",
+  "description": "A webmaster checklist for understanding affiliate tracking vendors, data access, reporting responsibilities, outage escalation, and record continuity before integrating a program.",
+  "excerpt": "A program's tracking and reporting may involve more than the visible dashboard. Map the operators, data flows, support responsibilities, and evidence you can retain before building operations around them.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Distinguish the affiliate program operator from any vendor or service that may provide tracking, reporting, or account tools.",
+    "Ask what data each party receives, which party controls access, and where operational support begins and ends.",
+    "Verify how tracking incidents are reported and what evidence remains available if a dashboard or vendor changes.",
+    "Do not assume vendor involvement changes attribution rules, data rights, or the program's contractual responsibility.",
+    "Document unresolved points and avoid integrating sensitive or unnecessary data until the permitted use is clear."
+  ],
+  "sections": [
+    {
+      "heading": "Map the parties behind the dashboard",
+      "paragraphs": [
+        "An affiliate dashboard is an interface, not a complete description of the systems behind it. A program operator may use its own tools or rely on a third-party service for tracking, reporting, link generation, or account management. Do not assume that any particular vendor is involved. Instead, check the program's documentation, agreement, privacy information, and support materials for references to other parties and their roles.",
+        "Create a simple map of who does what. Record the contracting program operator, the party that issues links or account credentials, the party that handles support, and any disclosed service provider involved in measurement or reporting. If one party's role is unclear, ask a specific question. Knowing which organization controls a setting or holds a record can help you direct an operational issue to the right place without assuming that a vendor and program operator have identical obligations."
+      ],
+      "bullets": [
+        "List the program operator and any disclosed service providers.",
+        "Identify who issues tracking links and who handles account access.",
+        "Mark unclear responsibilities as open questions."
+      ]
+    },
+    {
+      "heading": "Ask what data moves through the system",
+      "paragraphs": [
+        "Review what your site sends when a visitor follows a link and what the tracking and reporting tools may return to you. Relevant elements can include click identifiers, campaign labels, conversion events, timestamps, or other fields described in the documentation. This is not a reason to collect every available field. Keep the data flow limited to what is necessary for the approved measurement and reporting purpose.",
+        "Check whether the program explains who can access reports and how information is retained or shared. Ask whether account-level or visitor-level data is exposed, how access can be restricted, and whether exports or integrations have additional terms. Do not treat a vendor's technical documentation as permission to use data beyond the program agreement or applicable requirements. If definitions or data access remain unclear, avoid building a workflow that depends on an unverified field."
+      ],
+      "bullets": [
+        "Inventory link parameters, reporting fields, and any integrations you plan to use.",
+        "Check the program's privacy and data-access explanations.",
+        "Use only fields needed for the stated operational purpose."
+      ]
+    },
+    {
+      "heading": "Separate tracking mechanics from program terms",
+      "paragraphs": [
+        "A tracking provider may implement or display information, but that does not by itself explain the program's attribution rules. Review the program's own terms for how referrals are credited, what events qualify, how exclusions work, and which document governs if descriptions differ. Do not infer a crediting rule from a dashboard label or a vendor feature name.",
+        "When the agreement and the technical interface appear inconsistent, preserve the question and request clarification from the program operator. Ask which rule applies and where the authoritative version is maintained. Keep the response with the relevant terms and date, but do not treat an informal technical description as an amendment unless the program says it is authoritative. This separation helps avoid mistaking an implementation detail for a commercial promise."
+      ],
+      "bullets": [
+        "Use program terms to assess eligibility and attribution rules.",
+        "Use technical documentation to understand implementation, not to invent commercial terms.",
+        "Ask the program operator to resolve material conflicts in writing."
+      ]
+    },
+    {
+      "heading": "Plan reporting and incident escalation",
+      "paragraphs": [
+        "Before launch, find the support route for tracking failures, reporting discrepancies, and account-access problems. Establish whether the program operator or a service provider receives each type of request, and whether a webmaster can contact the provider directly. If only the operator can escalate an issue, record that path. A clear escalation route matters because a technical failure and a commission question may require different evidence and different teams.",
+        "Define a lightweight incident record: time observed, affected link or campaign label, what you expected, what the report displayed, and any relevant status notice. Keep a copy of reports you are permitted to retain. Avoid collecting personal visitor data as a substitute for system logs or attribution records. If the dashboard is unavailable, pause changes that could obscure the original link setup and follow the program's published reporting process."
+      ],
+      "bullets": [
+        "Record support contacts and the distinction between technical and commercial issues.",
+        "Retain permitted reports and relevant link configuration records.",
+        "Document incidents without adding unnecessary visitor-level information."
+      ]
+    },
+    {
+      "heading": "Protect continuity if the system changes",
+      "paragraphs": [
+        "Programs and service providers can change tools, interfaces, or access arrangements. Before integration, check what notice the program gives for material operational changes, whether reporting history remains accessible, and how you can retrieve records if an account or service is replaced. These are questions to verify, not capabilities to assume. Consider whether you can preserve the business records needed for reconciliation without copying data you are not permitted to retain.",
+        "Keep an implementation note with the approved link format, relevant account owner, documentation references, and change contact. Review it when the program announces a migration or you alter your site. If a change affects link behavior or reporting fields, test the revised path according to the program's instructions before relying on it. A small, dated record makes it easier to distinguish an integration problem from a later change in the service."
+      ],
+      "table": {
+        "caption": "Questions to resolve before relying on a tracking or reporting system",
+        "headers": [
+          "Area",
+          "Question to ask",
+          "Useful record"
+        ],
+        "rows": [
+          [
+            "Operators",
+            "Which parties provide and support the relevant tools?",
+            "Role map and support contacts"
+          ],
+          [
+            "Data",
+            "What fields are collected, shared, or exposed?",
+            "Data-flow notes and governing documentation"
+          ],
+          [
+            "Attribution",
+            "Which program terms define credit and qualification?",
+            "Dated copy or reference to authoritative terms"
+          ],
+          [
+            "Continuity",
+            "How are incidents, migrations, and historical reports handled?",
+            "Incident route and permitted records plan"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a tracking vendor determine an affiliate program's commission rules?",
+      "answer": "Do not assume so. The program agreement and other designated governing terms are the appropriate place to verify commercial rules. Technical tools may implement or display tracking information, but a feature label alone does not establish a commission entitlement."
+    },
+    {
+      "question": "Should a webmaster contact a tracking vendor directly about a missing referral?",
+      "answer": "Follow the program's stated escalation process. The program may require requests to go through its own support team or may provide a separate technical route. Keep the inquiry factual and include only the account and campaign information needed to investigate."
+    },
+    {
+      "question": "What should I keep if the reporting system changes?",
+      "answer": "Retain records that the program permits and that are useful for business operations, such as dated terms references, link configuration notes, permitted report exports, and change notices. Check the program's data terms before copying or retaining visitor-level information."
+    }
+  ]
+};

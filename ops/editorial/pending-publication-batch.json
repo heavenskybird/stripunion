@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T11:09:16.080Z",
+  "generatedAt": "2026-11-17T13:22:00.162Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-platform-tag-vocabulary-audit.json",
-    "ops/editorial/content-artifacts/adult-games-replacement-part-support-review.json",
-    "ops/editorial/content-artifacts/adult-shop-replacement-part-continuity-check.json",
-    "ops/editorial/content-artifacts/adult-platform-shared-password-vault-access-review.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-household-signout-separation.json"
+    "ops/editorial/content-artifacts/creator-platform-fan-invite-tool-readiness.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-first-week-privacy-setup.json",
+    "ops/editorial/content-artifacts/live-cam-platform-session-interruption-preflight.json",
+    "ops/editorial/content-artifacts/affiliate-program-measurement-vendor-oversight-review.json",
+    "ops/editorial/content-artifacts/adult-anime-app-platform-fit-checklist.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-platform-tag-vocabulary-audit.js",
-    "src/data/guides/adult-games-replacement-part-support-review.js",
-    "src/data/guides/adult-shop-replacement-part-continuity-check.js",
-    "src/data/guides/adult-platform-shared-password-vault-access-review.js",
-    "src/data/guides/premium-video-subscription-household-signout-separation.js"
+    "src/data/guides/creator-platform-fan-invite-tool-readiness.js",
+    "src/data/guides/adult-dating-platform-first-week-privacy-setup.js",
+    "src/data/guides/live-cam-platform-session-interruption-preflight.js",
+    "src/data/guides/affiliate-program-measurement-vendor-oversight-review.js",
+    "src/data/guides/adult-anime-app-platform-fit-checklist.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "privacy-safety-payment",
-    "premium-videos"
+    "creator-platforms",
+    "dating-hookups",
+    "live-cams",
+    "webmaster-affiliate",
+    "adult-games"
   ],
   "backlogIds": [
-    "free-video-platform-tag-vocabulary-audit",
-    "adult-games-replacement-part-support-review",
-    "adult-shop-replacement-part-continuity-check",
-    "adult-platform-shared-password-vault-access-review",
-    "premium-video-subscription-household-signout-separation"
+    "creator-platform-fan-invite-tool-readiness",
+    "adult-dating-platform-first-week-privacy-setup",
+    "live-cam-platform-session-interruption-preflight",
+    "affiliate-program-measurement-vendor-oversight-review",
+    "adult-anime-app-platform-fit-checklist"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44070971242",
-  "phase": "closed"
+  "r1CycleId": "44091558075"
 }

@@ -1,0 +1,118 @@
+export default {
+  "slug": "adult-dating-platform-first-week-privacy-setup",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Set Your Privacy Boundaries During the First Week",
+  "description": "A first-week setup workflow for adult dating accounts: review profile visibility, contact permissions, notifications, messaging boundaries, and account exit options.",
+  "excerpt": "New dating accounts often expose settings in several different places. Use a first-week privacy pass to decide what is visible, what alerts reach your device, and how to stop or change account activity.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Treat initial setup as a sequence of separate decisions rather than accepting every default at once.",
+    "Review profile audience and discovery settings before adding identifying details or photos.",
+    "Grant contact, location, and notification permissions only when they are necessary for a feature you choose to use.",
+    "Decide in advance how you will handle unwanted contact, off-platform requests, and account pauses.",
+    "Check how the platform describes deactivation, deletion, and subscription cancellation; they may be separate actions."
+  ],
+  "sections": [
+    {
+      "heading": "Make a short boundary plan before filling in the profile",
+      "paragraphs": [
+        "Before completing a dating profile, decide what information you are comfortable making discoverable. Consider your public name, photos, biography details, workplace clues, routine, and the kinds of contact you are willing to receive. A boundary plan does not need to be elaborate: list what you will share, what you will leave out, and what you will discuss only after trust develops. This gives you a basis for reviewing settings instead of reacting to each prompt as it appears.",
+        "Distinguish account-required information from information that is optional or intended for other users. A field displayed during registration is not automatically a requirement to publish that field on a profile. Check whether the service offers separate controls for the account record and the public-facing profile. If the difference is unclear, avoid adding sensitive detail until you can understand where it may appear and who may be able to access it."
+      ],
+      "bullets": [
+        "Write down information you do not want visible to other members.",
+        "Identify details that could reveal your workplace, home area, or routine.",
+        "Check whether account fields and profile fields have different visibility."
+      ]
+    },
+    {
+      "heading": "Review discovery and profile visibility before uploading media",
+      "paragraphs": [
+        "Look for controls that affect whether a profile can be discovered, who can view it, and whether it is shown broadly or only in particular contexts. Read the description of each setting, including whether a change affects existing conversations or only future discovery. Do not infer that a hidden or paused state has a particular effect unless the platform explains it. Record the setting you selected so that you can later tell whether the account behaves as expected.",
+        "Before adding a photograph, check its intended audience and any available preview. Images can contain contextual clues even when they do not show a name or address, so assess the full image and its background. Also read the platform's terms and controls relating to profile images rather than assuming that removing a photo removes every copy or cached view. If you are uncertain about audience scope, begin with less identifying information and reassess after learning how the controls work."
+      ],
+      "bullets": [
+        "Use the profile preview or visibility explanation where available.",
+        "Check what pausing, hiding, or changing discovery settings actually does.",
+        "Review image backgrounds and visible details before uploading."
+      ]
+    },
+    {
+      "heading": "Treat device permissions as separate choices",
+      "paragraphs": [
+        "A dating service may request access to contacts, location, notifications, or other device functions. Decide permission by permission, based on the feature you intend to use. If a feature can be tried without granting access, consider doing so first. A permission prompt is not the same as a full explanation of how associated data is handled, so consult the platform's privacy information for collection, use, retention, and sharing details.",
+        "Contact access deserves particular care because it can involve information about people who never chose to use the service. If you do not want to use a contact-based function, decline the permission and check whether the platform offers a manual alternative. For location, consider whether approximate or manual settings meet your needs. Revisit device settings if you change your mind; removing a permission may stop future access but does not necessarily explain what was previously collected."
+      ],
+      "bullets": [
+        "Grant a permission only for a feature you understand and want to use.",
+        "Check device-level permissions as well as in-app settings.",
+        "Do not assume revoking access automatically removes previously collected information."
+      ]
+    },
+    {
+      "heading": "Set communication and notification boundaries",
+      "paragraphs": [
+        "Before messaging, review controls for unwanted contact, blocking, and reporting. Find them before you need them and understand what each action is described to do. Consider what kinds of personal information you will not share in early conversations, such as a private phone number, workplace schedule, or account used for unrelated parts of your life. You can keep a conversation within the platform while you decide whether and when another channel is appropriate.",
+        "Notifications can reveal account activity on a lock screen, shared computer, or connected device. Review email, push, and browser alert settings, including previews and message content. Choose the least revealing option that still helps you use the service. If you share a device, sign out when appropriate and avoid leaving a profile or conversation open where others can see it. These practical steps do not replace the platform's privacy controls, but they reduce avoidable exposure in your surroundings."
+      ],
+      "bullets": [
+        "Locate block and report tools before beginning conversations.",
+        "Review message previews and notification channels on each device.",
+        "Decide what contact information stays private during early conversations."
+      ]
+    },
+    {
+      "heading": "Know how to pause, cancel, or leave",
+      "paragraphs": [
+        "Account controls may distinguish between hiding a profile, pausing discovery, deactivating an account, deleting account data, and canceling a paid membership. Read the current instructions for each action and note any dependencies, such as billing managed through a separate channel. Do not assume that removing an app cancels a subscription or closes an account. If you decide to leave, follow the relevant process and retain confirmation where appropriate.",
+        "A useful first-week setup ends with an exit check, not just a privacy check. Find the account help page, subscription settings, and data or deletion information while the account is easy to navigate. Confirm how you can change your mind about visibility and where to seek help if controls do not work as described. A small note with the paths to these settings can save time later, especially if you use the service on more than one device."
+      ],
+      "table": {
+        "caption": "First-week account setup checklist",
+        "headers": [
+          "Area",
+          "Decision to make",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Profile",
+            "What details can other members see?",
+            "Preview and audience controls"
+          ],
+          [
+            "Permissions",
+            "Which device access is necessary?",
+            "In-app and operating-system settings"
+          ],
+          [
+            "Notifications",
+            "What can appear on a shared screen?",
+            "Preview and delivery controls"
+          ],
+          [
+            "Exit",
+            "How do pause, cancel, and delete differ?",
+            "Current account and billing instructions"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I accept every permission request during sign-up?",
+      "answer": "No. Consider each permission separately and decide whether the feature is useful enough to justify access. Check whether there is a manual or lower-access alternative, and review the privacy information for how related data is handled."
+    },
+    {
+      "question": "Does hiding a dating profile delete my account?",
+      "answer": "Not necessarily. Platforms may distinguish hiding, pausing, deactivation, and deletion. Read the current account instructions and confirm the status shown after taking an action. Also check billing separately if you have a paid membership."
+    },
+    {
+      "question": "What should I do if a notification reveals more than I want?",
+      "answer": "Review the platform's notification settings and your device's lock-screen, email, and browser controls. Turn off message previews or choose a less revealing alert if available. Check each device where the account is signed in, since settings may not be shared."
+    }
+  ]
+};
