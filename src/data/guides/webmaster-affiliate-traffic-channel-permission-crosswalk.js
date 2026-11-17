@@ -1,0 +1,118 @@
+export default {
+  "slug": "webmaster-affiliate-traffic-channel-permission-crosswalk",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Match Traffic Channels to Written Permissions",
+  "description": "Build a practical crosswalk for affiliate traffic rules before a campaign goes live. Compare owned editorial, email, social, paid, and partner channels against written program permissions.",
+  "excerpt": "A channel that works for one program may be restricted by another. Map each intended traffic source to the program’s written rules, required approvals, and evidence before publishing links or buying placements.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Evaluate permissions by channel and program rather than treating “affiliate traffic” as one category.",
+    "Check both the traffic source and the specific promotion method, including paid placement, email, social, and partner distribution.",
+    "Separate explicit permission from silence; an unspecified channel is a question to resolve, not automatic approval.",
+    "Record any approval, its scope, and the version of the terms it applies to.",
+    "Build a pre-launch stop condition for channels whose permissions or required disclosures remain unclear."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a map of where visitors will come from",
+      "paragraphs": [
+        "Before comparing programs, list the channels you actually operate or plan to test. A webmaster might use editorial pages, newsletters, social accounts, paid search, display placements, communities, or traffic from another publisher. These are operationally different sources, and a program’s rules may distinguish among them. A general statement that a program accepts affiliates does not tell you whether every channel or placement is allowed.",
+        "Describe each channel precisely enough that a reviewer could understand it. “Social” might mean an organic post on an owned account, an influencer placement, or a paid promotion. “Email” might mean a newsletter to subscribers or a one-to-one message. Those distinctions can matter for program terms, user consent, disclosure, and creative approval. A clear inventory makes questions easier to answer and helps your team avoid using an approved channel in an unapproved way."
+      ],
+      "bullets": [
+        "List each website, social property, newsletter, paid-media account, and external publisher involved.",
+        "Describe whether the placement is editorial, paid, incentivized, or distributed by a partner.",
+        "Note the destination page and the audience that will encounter the promotion."
+      ]
+    },
+    {
+      "heading": "Build a permission crosswalk before launch",
+      "paragraphs": [
+        "A crosswalk turns scattered program rules into a usable decision tool. For every program and channel, capture the relevant term, the source where it appears, any approval requirement, and the person responsible for checking it. Use clear statuses such as permitted, prohibited, approval required, or unresolved. Avoid relying on a checkmark with no source attached; the point is to preserve the reasoning behind the decision.",
+        "Read the actual terms and any channel-specific policies that are incorporated into them. If a dashboard, application form, or creative guide adds detail, record it too and note any conflict. Where instructions disagree, do not choose the most convenient version without clarification. Ask the program contact for a written answer that identifies the channel and method you intend to use."
+      ],
+      "table": {
+        "caption": "Example structure for a program-by-channel permission crosswalk",
+        "headers": [
+          "Channel or method",
+          "What to verify",
+          "Launch status"
+        ],
+        "rows": [
+          [
+            "Owned editorial page",
+            "Eligible page content, link placement rules, and disclosure expectations",
+            "Allowed, restricted, or unresolved"
+          ],
+          [
+            "Newsletter or email",
+            "Subscriber-consent practices, approved creative, and sending restrictions",
+            "Allowed, approval required, or unresolved"
+          ],
+          [
+            "Organic social post",
+            "Permitted accounts, brand-use limits, and required link format",
+            "Allowed, restricted, or unresolved"
+          ],
+          [
+            "Paid search or other paid media",
+            "Brand bidding, ad copy, landing pages, and placement restrictions",
+            "Allowed, prohibited, or approval required"
+          ],
+          [
+            "Third-party publisher",
+            "Whether delegated or syndicated promotion is allowed and who is accountable",
+            "Allowed with oversight, approval required, or unresolved"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Interpret missing and conditional language carefully",
+      "paragraphs": [
+        "A policy may name some channels and omit others. Silence does not establish permission. If the program explains organic social but says nothing about paid social, do not assume the same rule applies. Similarly, permission to place a link on your own site may not cover a third-party publisher, a coupon placement, or an ad campaign. Ask about the precise method and keep the answer alongside the term that prompted the question.",
+        "Conditional approval also needs boundaries. Find out whether approval applies to a specific domain, campaign, creative, audience, or period. If a program asks to review an example, provide a representative version of the proposed placement rather than a vague description. Record any conditions, such as required disclosure language or restrictions on modifying creative, and assign someone to verify them before publication."
+      ]
+    },
+    {
+      "heading": "Connect channel permissions to day-to-day controls",
+      "paragraphs": [
+        "Permissions are useful only if your publishing workflow can enforce them. Label links by program and channel in your internal inventory, and keep a copy of the approval or rule that governs each placement. Before a campaign is scheduled, have a reviewer compare the planned source, creative, destination, and disclosure with the crosswalk. This makes it easier to catch a change in channel or format that invalidates an earlier approval.",
+        "For external publishers or contractors, pass along the relevant restrictions in writing and confirm who will monitor compliance. Do not assume a partner has read your program terms. Establish how changes, corrections, and takedowns will be handled, and who can pause the placement. Keep the process proportionate: a small campaign can use a simple checklist, while a broader operation may need documented ownership and review history."
+      ],
+      "bullets": [
+        "Assign one owner for each channel and a separate reviewer where practical.",
+        "Keep approval evidence with the campaign record.",
+        "Recheck rules when changing the source, format, creative, or destination.",
+        "Pause a channel if its status changes to prohibited or unresolved."
+      ]
+    },
+    {
+      "heading": "Keep the crosswalk current without overcomplicating it",
+      "paragraphs": [
+        "Program rules and your own traffic mix can change. Set a review trigger for a revised contract, a policy notice, a new channel, a new paid-media tactic, or a campaign handoff. Update the crosswalk with the date and source rather than silently replacing the old entry. A short change history helps explain why a placement was allowed at one time and later paused.",
+        "The crosswalk is an operational aid, not a substitute for the agreement or legal advice. If a term is ambiguous or conflicts with another requirement, ask the program for clarification and consult an appropriate professional when needed. Do not launch merely because a deadline is close. A documented unresolved issue is safer than an undocumented assumption that could put the account or campaign at risk."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program does not mention a channel, can I use it?",
+      "answer": "Do not treat silence as approval. Ask the program to confirm the specific channel and promotion method in writing, and record any conditions attached to that permission."
+    },
+    {
+      "question": "Does permission for an organic social post cover paid social advertising?",
+      "answer": "Not necessarily. Paid promotion can have separate rules, including limits on targeting, brand use, creative, or destinations. Check the written terms for that exact method."
+    },
+    {
+      "question": "What should I save as proof of approval?",
+      "answer": "Keep the relevant policy or agreement version, the question you asked, the written response, the channel and campaign described, and any conditions. Note the date and who reviewed the decision."
+    },
+    {
+      "question": "How often should a traffic crosswalk be reviewed?",
+      "answer": "Review it when terms change, when you add or alter a channel, or when campaign ownership changes. A scheduled periodic check can supplement those event-based reviews."
+    }
+  ]
+};
