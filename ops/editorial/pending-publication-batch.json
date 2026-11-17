@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T04:49:32.232Z",
+  "generatedAt": "2026-11-17T07:52:59.802Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-platform-software-change-continuity-plan.json",
-    "ops/editorial/content-artifacts/adult-anime-editorial-curation-discovery-comparison.json",
-    "ops/editorial/content-artifacts/adult-dating-mutual-connection-discovery-privacy.json",
-    "ops/editorial/content-artifacts/live-cam-sponsored-listing-transparency-check.json",
-    "ops/editorial/content-artifacts/affiliate-program-commission-change-effective-date-audit.json"
+    "ops/editorial/content-artifacts/premium-video-mobile-browser-versus-app-workflow.json",
+    "ops/editorial/content-artifacts/creator-platform-scheduled-post-time-zone-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-notification-history-retention-check.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-recenter-control-preflight.json",
+    "ops/editorial/content-artifacts/adult-anime-app-background-task-behavior-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-platform-software-change-continuity-plan.js",
-    "src/data/guides/adult-anime-editorial-curation-discovery-comparison.js",
-    "src/data/guides/adult-dating-mutual-connection-discovery-privacy.js",
-    "src/data/guides/live-cam-sponsored-listing-transparency-check.js",
-    "src/data/guides/affiliate-program-commission-change-effective-date-audit.js"
+    "src/data/guides/premium-video-mobile-browser-versus-app-workflow.js",
+    "src/data/guides/creator-platform-scheduled-post-time-zone-audit.js",
+    "src/data/guides/adult-platform-notification-history-retention-check.js",
+    "src/data/guides/vr-adult-platform-recenter-control-preflight.js",
+    "src/data/guides/adult-anime-app-background-task-behavior-check.js"
   ],
   "categories": [
+    "premium-videos",
+    "creator-platforms",
+    "privacy-safety-payment",
     "vr-ar",
-    "hentai-anime",
-    "dating-hookups",
-    "live-cams",
-    "webmaster-affiliate"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "vr-platform-software-change-continuity-plan",
-    "adult-anime-editorial-curation-discovery-comparison",
-    "adult-dating-mutual-connection-discovery-privacy",
-    "live-cam-sponsored-listing-transparency-check",
-    "affiliate-program-commission-change-effective-date-audit"
+    "premium-video-mobile-browser-versus-app-workflow",
+    "creator-platform-scheduled-post-time-zone-audit",
+    "adult-platform-notification-history-retention-check",
+    "vr-adult-platform-recenter-control-preflight",
+    "adult-anime-app-background-task-behavior-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44019549683",
-  "phase": "closed"
+  "r1CycleId": "44041837644"
 }
