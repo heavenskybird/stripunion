@@ -1,0 +1,115 @@
+{
+  "backlogId": "webmaster-affiliate-creative-rotation-and-archive-workflow",
+  "slug": "webmaster-affiliate-creative-rotation-and-archive-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Creatives: Build a Rotation and Archive Workflow for Webmaster Sites",
+  "description": "Create a practical affiliate creative rotation process: record asset versions, check current permissions, replace outdated materials, and preserve a clear publication history.",
+  "excerpt": "A banner or referral asset can remain live long after its context changes. Use a simple inventory and review cycle to keep creative versions, permissions, and placements understandable.",
+  "keyTakeaways": [
+    "Keep an inventory of creative assets, versions, source, placements, and any known end date or usage condition.",
+    "Confirm current program permission before reusing or rotating an asset; a previous approval may not cover every use.",
+    "Use a controlled replacement process so outdated creative does not remain in templates, cached pages, or secondary properties.",
+    "Do not treat a rotation as evidence of improved performance unless you have a valid measurement design and supporting data.",
+    "Archive enough information to explain what was published and when without retaining unnecessary personal data."
+  ],
+  "sections": [
+    {
+      "heading": "Why a creative inventory helps beyond campaign reporting",
+      "paragraphs": [
+        "Affiliate assets often appear in more places than a webmaster initially remembers: an article, a sidebar, a reusable template, a newsletter archive, or a page maintained by another editor. When a campaign changes, an asset may be removed from the main landing page while remaining live elsewhere. A simple inventory makes placements visible and gives the team a reliable basis for updates.",
+        "The inventory is an operational record, not a claim that one creative is more effective than another. It should answer basic questions: what is the asset, where did it come from, where is it used, what permission applies, and who is responsible for reviewing it? This reduces avoidable confusion when a program changes its supplied materials or when a site redesign moves components between pages."
+      ],
+      "table": {
+        "caption": "Useful fields for a webmaster creative inventory",
+        "headers": [
+          "Field",
+          "Purpose",
+          "Example of a useful record"
+        ],
+        "rows": [
+          [
+            "Asset identifier and version",
+            "Distinguishes similar files or copy",
+            "Internal name plus the supplied version label"
+          ],
+          [
+            "Source and permission",
+            "Shows where the material came from and what use is allowed",
+            "Program source, approval reference, and usage scope"
+          ],
+          [
+            "Placement",
+            "Makes live locations findable",
+            "Page, template, email, or other channel"
+          ],
+          [
+            "Review trigger",
+            "Prompts a later check",
+            "Policy notice, stated expiry, or scheduled review date"
+          ],
+          [
+            "Replacement record",
+            "Documents what changed",
+            "Date, new version, and pages checked"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Confirm permission before rotating or adapting assets",
+      "paragraphs": [
+        "Before using an asset, read the current program instructions and any relevant agreement. Check whether permission is limited by time, placement, format, channel, territory, branding rules, or required linking behavior. A creative provided for a website may not automatically be cleared for email, social promotion, or a different property. Approval of one version should not be assumed to authorize an altered version.",
+        "Keep a copy or reference to the permission that applies, and note when it was checked. If a term is unclear, ask the program through an official channel before deploying the asset. A rotation plan should never be used to disguise a prohibited placement, bypass an approval requirement, or make a claim that the destination page does not support."
+      ],
+      "bullets": [
+        "Check the permitted channel and placement for each asset.",
+        "Confirm whether cropping, resizing, translating, or rewriting changes the approval status.",
+        "Record whether the asset has an expiry date or must be withdrawn after a notice."
+      ]
+    },
+    {
+      "heading": "Plan a rotation as controlled maintenance",
+      "paragraphs": [
+        "A rotation calendar can help teams review assets consistently, but the schedule itself does not establish that an asset is still approved. Set review triggers based on the program’s stated conditions and your own site-maintenance needs. For example, a new terms notice or a broken destination link should prompt a review even if the usual calendar date has not arrived.",
+        "When a change is needed, define the pages and components in scope before editing. Replace the material in templates, manually maintained pages, and any scheduled or archived communications where practical and permitted. Record the old and new versions, the date of the update, and any locations that could not be changed. Avoid describing a rotation as a test or performance improvement unless it was designed and measured as one."
+      ]
+    },
+    {
+      "heading": "Remove stale assets without losing operational context",
+      "paragraphs": [
+        "Retiring an asset should include a check for copies that are easy to miss: content management system blocks, responsive variants, cached pages, and drafts scheduled for later publication. If the program supplies a replacement or withdrawal notice, follow its instructions and note any unresolved locations. Use an ordinary page review or site search to confirm the change, but do not assume that one browser view proves every cache has updated.",
+        "Archive the old file and its basic metadata in a restricted working location if retention is allowed and useful. Preserve enough to explain the timeline, such as an asset identifier, permission reference, and removal date. Do not keep sensitive visitor information merely because it was collected during a campaign. If a file is no longer needed and there is no operational reason to retain it, remove it according to your own retention practice."
+      ]
+    },
+    {
+      "heading": "Review accuracy, disclosure, and visitor expectations",
+      "paragraphs": [
+        "A creative may contain text, imagery, or a destination that no longer matches the page where it appears. Check both the asset and the surrounding editorial context. The link label should help a visitor understand where it leads, and any affiliate disclosure should remain clear at the placement where a recommendation appears. A technically active image is not enough if its wording creates a misleading expectation.",
+        "Assign one person or role to own the inventory, even if several people can publish. A short review log can show which pages were checked, what was changed, and what still needs attention. This is especially helpful during staff handoffs or redesigns. Review the workflow periodically and simplify fields that no one uses, while keeping the information needed to verify permission and locate live placements."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should affiliate creatives be rotated?",
+      "answer": "There is no universal interval. Follow any program-specific expiry or withdrawal instructions, and set a maintenance schedule appropriate to your publishing workflow. New notices, broken destinations, or changed permissions should trigger a review outside the ordinary schedule."
+    },
+    {
+      "question": "Does changing an image size or wording count as a new creative?",
+      "answer": "It may affect the permission or approval that applies. Check the program’s current instructions before adapting an asset, and ask for clarification if the rules do not say whether that alteration is allowed."
+    },
+    {
+      "question": "Should old creative files be kept after removal?",
+      "answer": "Keep only what is useful and permitted for operational records, such as a version reference and removal date. Store it appropriately, avoid unnecessary visitor data, and follow any applicable retention or deletion requirements."
+    }
+  ],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

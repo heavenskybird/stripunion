@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T19:51:02.390Z",
+  "generatedAt": "2026-11-17T22:07:42.511Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-region-payment-method-fit.json",
-    "ops/editorial/content-artifacts/adult-anime-episode-sequence-and-release-state-check.json",
-    "ops/editorial/content-artifacts/free-video-platform-browser-privacy-signal-check.json",
-    "ops/editorial/content-artifacts/adult-games-release-completeness-evidence-check.json",
-    "ops/editorial/content-artifacts/adult-shop-product-recall-identification-workflow.json"
+    "ops/editorial/content-artifacts/live-cam-account-closure-credit-balance-outcome-guide.json",
+    "ops/editorial/content-artifacts/creator-platform-ai-assisted-content-policy-preflight.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-creative-rotation-and-archive-workflow.json",
+    "ops/editorial/content-artifacts/premium-video-player-caption-customization-readability-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-download-os-search-indexing-privacy-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-region-payment-method-fit.js",
-    "src/data/guides/adult-anime-episode-sequence-and-release-state-check.js",
-    "src/data/guides/free-video-platform-browser-privacy-signal-check.js",
-    "src/data/guides/adult-games-release-completeness-evidence-check.js",
-    "src/data/guides/adult-shop-product-recall-identification-workflow.js"
+    "src/data/guides/live-cam-account-closure-credit-balance-outcome-guide.js",
+    "src/data/guides/creator-platform-ai-assisted-content-policy-preflight.js",
+    "src/data/guides/webmaster-affiliate-creative-rotation-and-archive-workflow.js",
+    "src/data/guides/premium-video-player-caption-customization-readability-audit.js",
+    "src/data/guides/adult-platform-download-os-search-indexing-privacy-check.js"
   ],
   "categories": [
-    "vr-ar",
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "live-cams",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "vr-adult-platform-region-payment-method-fit",
-    "adult-anime-episode-sequence-and-release-state-check",
-    "free-video-platform-browser-privacy-signal-check",
-    "adult-games-release-completeness-evidence-check",
-    "adult-shop-product-recall-identification-workflow"
+    "live-cam-account-closure-credit-balance-outcome-guide",
+    "creator-platform-ai-assisted-content-policy-preflight",
+    "webmaster-affiliate-creative-rotation-and-archive-workflow",
+    "premium-video-player-caption-customization-readability-audit",
+    "adult-platform-download-os-search-indexing-privacy-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44162604795",
-  "phase": "closed"
+  "r1CycleId": "44186495492"
 }
