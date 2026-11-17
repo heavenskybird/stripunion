@@ -1,0 +1,146 @@
+export default {
+  "slug": "adult-dating-mutual-connection-discovery-privacy",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Mutual-Connection Discovery Before Joining",
+  "description": "Assess whether an adult dating platform uses social connections or shared networks in discovery, and review the controls before creating a profile.",
+  "excerpt": "Some people value discovering connections through familiar networks; others prefer to keep dating activity separate. Use this checklist to examine what a platform says about social discovery, contact access, and visibility before signing up.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Distinguish address-book matching, social-network linking, mutual-contact suggestions, and ordinary profile recommendations.",
+    "Read the permission prompt and privacy information before granting contact or account access.",
+    "Check whether discovery controls are opt-in, how they can be changed, and what they do not guarantee.",
+    "Avoid assuming that a block, hide, or contact-matching feature makes an account invisible to everyone.",
+    "Use the smallest amount of personal information needed to evaluate the platform."
+  ],
+  "sections": [
+    {
+      "heading": "Decide whether network-based discovery fits your privacy needs",
+      "paragraphs": [
+        "Dating platforms can offer discovery features that draw on contact lists, linked accounts, shared communities, or other connection signals. These tools can affect who appears in your suggestions and may affect how your own profile is surfaced. The specific details differ, so do not assume that a platform uses a particular system just because it offers a feature described as finding people you know.",
+        "Before joining, decide what you want from discovery. You might value suggestions based on shared connections, or you might prefer a separate pool that does not depend on your address book or social accounts. Either preference is reasonable. The practical task is to find out what data a feature requires, whether it is optional, and what visibility limits the platform actually describes."
+      ],
+      "bullets": [
+        "Identify the discovery feature before granting a permission.",
+        "Separate suggestions about other people from controls on your own visibility.",
+        "Treat privacy controls as limited settings, not a promise of complete invisibility."
+      ]
+    },
+    {
+      "heading": "Separate the different connection mechanisms",
+      "paragraphs": [
+        "A platform may use several mechanisms that sound similar but are not interchangeable. Contact matching may compare information from an address book. A linked social account may share profile details or connection signals. Mutual-connection suggestions may rely on a network relationship, while ordinary recommendations may use profile preferences or activity. Ask which mechanism a platform means before deciding what access to grant.",
+        "Read the wording on the permission screen and in the relevant privacy information. Note what information is requested, what the platform says it uses it for, whether it is retained, and whether the feature can be used without granting access. If an explanation is missing or broad, mark the point as unresolved rather than filling in the gap with an assumption."
+      ],
+      "table": {
+        "caption": "Questions to ask about connection-based discovery",
+        "headers": [
+          "Feature type",
+          "Information to clarify",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Address-book matching",
+            "Whether contacts are accessed or uploaded",
+            "Can I use discovery without granting contact access?"
+          ],
+          [
+            "Linked social account",
+            "Which account details or connections are used",
+            "Can I disconnect it later, and what data remains?"
+          ],
+          [
+            "Mutual-connection suggestions",
+            "What qualifies as a shared connection",
+            "Does the platform explain how suggestions are generated?"
+          ],
+          [
+            "General recommendations",
+            "Whether profile details or activity influence results",
+            "Can I adjust personalization or related history?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read permissions and privacy terms before granting access",
+      "paragraphs": [
+        "If an app asks to access contacts or link another account, pause before accepting. Check whether the permission is necessary for the feature you want, whether a less revealing route exists, and whether you can decline without losing all basic access. A permission prompt shows what the device is asking to allow; it does not, on its own, explain every downstream use or retention practice. Read the platform’s own explanation as well.",
+        "Look for information about collection, use, storage, deletion, and withdrawal of linked data. Also check whether the platform explains what happens after you disconnect an account or revoke permission through your device settings. If the answer is unclear, do not grant access merely to move through setup faster. You can decide whether the feature is worth the data trade-off once you have a clearer account of what is involved."
+      ],
+      "bullets": [
+        "Review the permission at the moment it is requested.",
+        "Check the platform’s privacy explanation for use and retention details.",
+        "Find out how to revoke access and whether revocation affects stored data.",
+        "Decline optional access if you are not comfortable with the stated terms."
+      ]
+    },
+    {
+      "heading": "Understand the limits of hiding and blocking tools",
+      "paragraphs": [
+        "A platform may offer blocking, contact exclusion, profile hiding, or other visibility settings. These controls can have different scopes. Blocking a known account may not prevent discovery by someone using another account or information the platform does not match. Hiding a profile may change its appearance in some discovery areas without removing all account records. Read each control’s explanation instead of treating similar labels as equivalent.",
+        "Check whether a visibility setting is available before profile creation or only after setup, and whether it can be changed later. If you must make a profile visible in order to find a setting, consider whether that temporary exposure is acceptable. Keep expectations realistic: platform controls reduce or alter certain forms of exposure as described by the service; they cannot guarantee that no person will recognize or learn about an account."
+      ]
+    },
+    {
+      "heading": "Build a low-exposure test plan",
+      "paragraphs": [
+        "You can assess the platform using the least sensitive information possible. Begin with public help pages and account-free previews, if available. If setup is required, use only the information needed at that stage, review each permission separately, and postpone optional social linking until you understand it. Avoid uploading contact data or connecting a personal account just to see whether the platform has mutual connections.",
+        "Before joining, write down the privacy settings you want to use and the evidence you found for each. Confirm how to locate visibility and connection controls, how to remove a linked account, and where to ask questions. This plan is not a guarantee against exposure; it helps prevent rushed decisions and makes it easier to notice when a feature works differently from your expectation."
+      ],
+      "table": {
+        "caption": "Pre-signup mutual-connection privacy checklist",
+        "headers": [
+          "Check",
+          "Record",
+          "Stop-and-review point"
+        ],
+        "rows": [
+          [
+            "Feature definition",
+            "What the platform says the feature uses",
+            "The explanation does not identify the data source"
+          ],
+          [
+            "Permission requirement",
+            "Whether the feature is optional",
+            "The app requests broad access without a clear reason"
+          ],
+          [
+            "Visibility control",
+            "Where the setting is and what it changes",
+            "The setting’s scope is not explained"
+          ],
+          [
+            "Disconnect and deletion",
+            "How to revoke access and manage stored data",
+            "No clear instructions are available"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare platform fit using your own boundaries",
+      "paragraphs": [
+        "For each platform, classify what you found as clear, partly explained, or unknown. Then compare whether the discovery feature aligns with your priorities. Someone who wants network-based suggestions may value understandable connection controls. Someone who wants separation may prefer a route that does not require contacts or a linked social account. Neither preference establishes that one platform is safer in every respect.",
+        "Revisit the terms before enabling a feature because settings and product descriptions can change. If you later decide to link or unlink an account, follow the platform’s instructions and review the connected services’ permissions as well. Make the choice based on the stated information and your comfort level, not on an assumption that mutual connections, blocks, or hidden modes guarantee confidentiality."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does declining contact access prevent all mutual-connection suggestions?",
+      "answer": "Not necessarily. A platform may use other information or offer different forms of recommendations. Check the feature description and permission requirements rather than assuming that one device setting controls every discovery method."
+    },
+    {
+      "question": "Will blocking someone keep them from finding my dating profile?",
+      "answer": "A block may limit interactions or visibility in ways described by the platform, but it is not a guarantee against recognition or discovery through other accounts or information. Read the specific block and visibility terms and set expectations accordingly."
+    },
+    {
+      "question": "Can I remove a linked social account after signup?",
+      "answer": "That depends on the platform’s account design. Before linking, look for instructions on disconnecting the account and managing data already shared. If the steps are unclear, ask support or avoid linking until you understand the consequences."
+    }
+  ]
+};

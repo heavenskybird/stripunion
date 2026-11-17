@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T03:51:57.918Z",
+  "generatedAt": "2026-11-17T04:49:32.232Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-platform-timezone-schedule-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-membership-pause-versus-cancellation-decision.json",
-    "ops/editorial/content-artifacts/free-video-search-date-and-sort-verification.json",
-    "ops/editorial/content-artifacts/adult-games-save-cloud-sync-device-transfer-check.json",
-    "ops/editorial/content-artifacts/adult-shop-pickup-delivery-destination-fit.json"
+    "ops/editorial/content-artifacts/vr-platform-software-change-continuity-plan.json",
+    "ops/editorial/content-artifacts/adult-anime-editorial-curation-discovery-comparison.json",
+    "ops/editorial/content-artifacts/adult-dating-mutual-connection-discovery-privacy.json",
+    "ops/editorial/content-artifacts/live-cam-sponsored-listing-transparency-check.json",
+    "ops/editorial/content-artifacts/affiliate-program-commission-change-effective-date-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-platform-timezone-schedule-comparison.js",
-    "src/data/guides/premium-video-membership-pause-versus-cancellation-decision.js",
-    "src/data/guides/free-video-search-date-and-sort-verification.js",
-    "src/data/guides/adult-games-save-cloud-sync-device-transfer-check.js",
-    "src/data/guides/adult-shop-pickup-delivery-destination-fit.js"
+    "src/data/guides/vr-platform-software-change-continuity-plan.js",
+    "src/data/guides/adult-anime-editorial-curation-discovery-comparison.js",
+    "src/data/guides/adult-dating-mutual-connection-discovery-privacy.js",
+    "src/data/guides/live-cam-sponsored-listing-transparency-check.js",
+    "src/data/guides/affiliate-program-commission-change-effective-date-audit.js"
   ],
   "categories": [
+    "vr-ar",
+    "hentai-anime",
+    "dating-hookups",
     "live-cams",
-    "premium-videos",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "live-cam-platform-timezone-schedule-comparison",
-    "premium-video-membership-pause-versus-cancellation-decision",
-    "free-video-search-date-and-sort-verification",
-    "adult-games-save-cloud-sync-device-transfer-check",
-    "adult-shop-pickup-delivery-destination-fit"
+    "vr-platform-software-change-continuity-plan",
+    "adult-anime-editorial-curation-discovery-comparison",
+    "adult-dating-mutual-connection-discovery-privacy",
+    "live-cam-sponsored-listing-transparency-check",
+    "affiliate-program-commission-change-effective-date-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44012913016",
-  "phase": "closed"
+  "r1CycleId": "44019549683"
 }

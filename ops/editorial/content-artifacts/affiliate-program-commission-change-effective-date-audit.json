@@ -1,0 +1,158 @@
+{
+  "backlogId": "affiliate-program-commission-change-effective-date-audit",
+  "slug": "affiliate-program-commission-change-effective-date-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check When Commission Changes Apply to Referrals",
+  "description": "Build a practical checklist for determining whether affiliate commission changes apply to existing referrals, new conversions, or a different period.",
+  "excerpt": "A commission notice is not enough to forecast its effect. Review effective dates, referral cohorts, pending conversions, and the governing terms before changing your affiliate assumptions.",
+  "keyTakeaways": [
+    "Separate the notice date, effective date, referral date, conversion date, and reporting period.",
+    "Do not assume a change applies only to new referrals—or to all existing referrals—unless the terms say so.",
+    "Check how pending, recurring, reversed, or later-qualified conversions are handled.",
+    "Save the notice and applicable terms with dates so your records show which rule you relied on.",
+    "Update forecasts only after defining the affected cohort and any unresolved interpretation."
+  ],
+  "sections": [
+    {
+      "heading": "Why the effective date needs more than a headline",
+      "paragraphs": [
+        "An affiliate program may announce a commission change without making its practical scope immediately clear. The announcement date, the date a new rule takes effect, the date a visitor was referred, and the date a conversion is recorded can all differ. A program may also use qualification or reporting rules that affect when a conversion becomes eligible. These dates should not be collapsed into one assumption.",
+        "This guide does not assume a particular program’s policy or commission structure. It gives webmasters a way to find and document the applicable rule before revising forecasts, reporting, or site operations. The key question is not simply “what changed?” It is “which referrals and conversion events are covered, from what date, under which written terms?”"
+      ],
+      "bullets": [
+        "Treat every date in a notice as potentially distinct.",
+        "Identify the event the program uses to apply a new rule.",
+        "Leave scope unresolved if the documents do not answer it."
+      ]
+    },
+    {
+      "heading": "Map the dates and events separately",
+      "paragraphs": [
+        "Begin by recording when you received or found the announcement and the effective date stated in it. Then identify the referral event the program uses for attribution and the conversion event that may generate commission. If conversion qualification happens later, record that separately as well. A report date or payment date may be different again and should not be used as a substitute for the commission rule’s trigger.",
+        "Make a simple event timeline for a hypothetical referral, using dates only where the program’s documents define them. If a visitor clicks before the effective date but completes an eligible action after it, the written terms need to explain which rule applies. Do not fill that gap with common practice from another program. Ask the program for clarification and keep the response with the relevant notice."
+      ],
+      "table": {
+        "caption": "Dates to distinguish when reviewing a program change",
+        "headers": [
+          "Date or event",
+          "What to record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Notice date",
+            "When the program communicated the change",
+            "Shows when you learned of the rule"
+          ],
+          [
+            "Effective date",
+            "The stated start date for the new terms",
+            "May define the transition point"
+          ],
+          [
+            "Referral date",
+            "The attribution event identified in the terms",
+            "May help determine which rule applies to a referred visitor"
+          ],
+          [
+            "Conversion or qualification date",
+            "When an action occurs and when it becomes eligible",
+            "May differ from the referral and report dates"
+          ],
+          [
+            "Reporting or settlement date",
+            "The period in which an item appears in records",
+            "Should not be mistaken automatically for the effective date"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Determine which referrals and conversions are affected",
+      "paragraphs": [
+        "Look for wording that defines the change’s scope. Does it name new referrals, all qualifying conversions after a date, an existing customer cohort, or a different category? Does it mention pending conversions, recurring events, or reversals? A brief notice may point to updated terms rather than spelling out every case. Review the linked terms and any program-specific policy documents before deciding how to classify your traffic.",
+        "Use a small scenario matrix to list cases that matter to your operation. For example, note a referral before the effective date with a conversion afterward, a referral after the date, or a conversion that is pending when the change begins. Mark each case as stated, not stated, or requiring confirmation. This makes ambiguity visible and gives support a precise question to answer."
+      ],
+      "bullets": [
+        "Check whether the change is tied to a referral, conversion, qualification, or account date.",
+        "Look for treatment of pending and recurring conversions.",
+        "Identify whether exclusions or reversals interact with the change.",
+        "Do not transfer a rule from another program or another commission type."
+      ]
+    },
+    {
+      "heading": "Reconcile the announcement with governing documents",
+      "paragraphs": [
+        "Programs may communicate changes through an email, dashboard notice, updated terms, or support reply. Keep a record of each source and its date. If sources differ, do not silently choose the most favorable interpretation. Identify the conflict, ask which document governs, and record the answer. A dashboard display may summarize a rule without explaining every transition case; written terms may provide more detail, but they also need to be checked for currency.",
+        "When you ask for clarification, include the exact scenario and dates, avoiding vague questions such as “which commission applies?” Ask which effective rule covers a referral made before the change and a qualifying conversion recorded afterward, if that is the case you need to resolve. Keep the response in the same evidence file as the announcement and relevant terms. A support answer can aid your understanding, but note whether it is an explanation or a formal amendment."
+      ]
+    },
+    {
+      "heading": "Update forecasts without overstating certainty",
+      "paragraphs": [
+        "Once the scope is sufficiently clear, divide your forecast or analysis into affected and unaffected cohorts. State the rule and source used for each group, and identify any unresolved cases separately. If you cannot determine how the program treats a cohort, do not assign it a definite commission outcome. You can show a range or scenario for internal planning, clearly labeled as an assumption rather than a program promise.",
+        "Keep the change analysis separate from historic reporting. A new rule does not automatically explain earlier adjustments or reconcile a statement. Use the program’s reporting definitions and records for those tasks. The purpose here is to prevent a forward-looking forecast from mixing referrals or conversions governed by different terms, not to predict earnings or guarantee that a program will process any particular event."
+      ],
+      "table": {
+        "caption": "A transition-case worksheet",
+        "headers": [
+          "Scenario",
+          "What the documents say",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Referral before the effective date; conversion after",
+            "Quote or reference the applicable rule",
+            "Stated, unclear, or ask program"
+          ],
+          [
+            "Referral after the effective date",
+            "Record the current commission rule and source",
+            "Stated, unclear, or ask program"
+          ],
+          [
+            "Conversion pending on the change date",
+            "Record any pending-event language",
+            "Stated, unclear, or ask program"
+          ],
+          [
+            "Recurring or later-qualified event",
+            "Record how the rule defines eligible events",
+            "Stated, unclear, or ask program"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep a dated change record",
+      "paragraphs": [
+        "Save the notice, the terms in force before and after the change, relevant dashboard information, and any written clarification. Note where each item came from and when you captured it. If the program offers a document version or effective date, record that too. This creates a useful history for internal decisions without claiming that archived copies override the program’s current terms.",
+        "Finally, update your operational assumptions: cohort labels, forecasts, editorial claims about commissions, and any internal tracking notes that rely on the old rule. Assign someone to verify that updates are completed and to review the next notice. A concise change record helps prevent stale assumptions from persisting after a commission policy changes and makes future questions more precise."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an effective date automatically apply to conversions recorded after that date?",
+      "answer": "Not necessarily. The applicable event may be a referral, conversion, qualification, or another date defined in the program’s terms. Read the exact transition language and ask the program about cases it does not address."
+    },
+    {
+      "question": "Should I assume that existing referrals keep their old commission terms?",
+      "answer": "No. Do not assume either grandfathering or retroactive application without written support. Identify the affected referral and conversion dates, review the governing terms, and request clarification for ambiguous cases."
+    },
+    {
+      "question": "What should I save when a commission rule changes?",
+      "answer": "Keep the notice, the relevant terms and their dates, any available dashboard explanation, and written clarification. Record which source you used for each interpretation and note unresolved transition cases separately."
+    }
+  ],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
