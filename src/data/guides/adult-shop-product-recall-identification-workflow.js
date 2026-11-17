@@ -1,0 +1,108 @@
+export default {
+  "slug": "adult-shop-product-recall-identification-workflow",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Check Product Recall Information Before and After Buying",
+  "description": "A practical workflow for finding and interpreting adult-shop product safety notices, matching model details, and keeping a clear record if a notice applies to an item you own.",
+  "excerpt": "A product name alone may not identify the exact version covered by a safety notice. Learn how to match model numbers and variants, and where to look for official follow-up instructions.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Check the exact brand, model, variant, and production identifier shown on the product or packaging; similar names can refer to different items.",
+    "Prefer a notice from the manufacturer, retailer, or relevant official authority over an unverified repost or search snippet.",
+    "Read what action the notice actually requests and whom it instructs you to contact; do not assume every notice means the same remedy.",
+    "Keep purchase and product identifiers in a private, accessible place so you can compare them with later notices."
+  ],
+  "sections": [
+    {
+      "heading": "Know what information identifies the product",
+      "paragraphs": [
+        "A product’s short name may be shared by multiple variants or revisions. When checking a safety notice, compare the exact brand and model, plus any variant, batch, serial, or production identifier named in the notice. Use the product page, packaging, label, or supplied documentation to find the corresponding details. Do not conclude that a notice applies—or does not apply—based only on a similar-looking photograph or a partial name.",
+        "Before ordering, check whether the shop’s listing provides enough identifying information to tell which item is being sold. If the notice or listing uses a model number that the product page does not show, ask the retailer or manufacturer to clarify the identifier for the item you are considering. Keep the response with your private purchase records. The goal is to establish a match, not to diagnose a product or make a technical judgment from a listing photo."
+      ],
+      "bullets": [
+        "Record the product name, brand, model, variant, and any visible identifier.",
+        "Compare the exact identifiers in a notice with the item’s label or packaging.",
+        "Ask for clarification if the listing omits an identifier needed to distinguish variants.",
+        "Keep purchase records somewhere private but easy for you to find."
+      ]
+    },
+    {
+      "heading": "Prefer sources that can confirm the notice",
+      "paragraphs": [
+        "Start with the manufacturer or brand’s official safety or support information, then check the retailer that sold the item. Depending on the product and your location, a relevant public safety authority may also publish notices. Confirm that the page is an official source and that the notice names the product or identifier you are checking. Search-engine snippets, forum posts, social media reposts, and copied images can help you locate a notice, but they may be outdated or missing important qualifications.",
+        "Check the date and any later update. A notice can be revised to clarify which batches are included, change contact instructions, or explain a remedy. Save the source and date you consulted. If two credible sources differ, contact the manufacturer or responsible authority for clarification rather than choosing one interpretation based on a headline. A source that does not identify the affected model clearly may not answer your question."
+      ],
+      "table": {
+        "caption": "How to evaluate a product safety notice",
+        "headers": [
+          "Check",
+          "What to look for",
+          "Decision value"
+        ],
+        "rows": [
+          [
+            "Source",
+            "Manufacturer, retailer, or relevant official authority",
+            "Helps establish whether the notice is accountable and current."
+          ],
+          [
+            "Product identity",
+            "Brand, exact model, variant, or batch details",
+            "Shows whether the notice may apply to your item."
+          ],
+          [
+            "Date and updates",
+            "Publication date and any revised instructions",
+            "Helps avoid acting on superseded information."
+          ],
+          [
+            "Requested action",
+            "The instructions stated in the notice",
+            "Clarifies what the responsible source asks owners to do."
+          ],
+          [
+            "Contact route",
+            "A verifiable support or official contact path",
+            "Provides a route for questions about an uncertain match."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the requested action instead of guessing",
+      "paragraphs": [
+        "Safety notices can ask for different actions. Read the full notice for the stated next step and any restrictions. Do not infer that a product is safe or unsafe from a short headline alone, and do not invent a remedy that the responsible source did not offer. If the notice applies to your exact identifier but the requested action is unclear, pause use as directed by the notice and contact its named responsible source for clarification.",
+        "Be careful with unofficial claims that a product has been “fixed,” “cleared,” or “replaced.” Look for a dated statement from the manufacturer, retailer, or relevant authority that explains the change and identifies the affected version. A new listing photo or a changed product title does not, by itself, establish that the item differs from the one named in an earlier notice. Keep the question narrow: does this specific identifier match the notice, and what does the responsible source advise?"
+      ]
+    },
+    {
+      "heading": "Check retailer support and documentation before purchase",
+      "paragraphs": [
+        "A retailer’s product page and support route can help you verify identification, but a shop may not be the party that issues the notice or determines its scope. Before buying, check whether the listing names a manufacturer and model, whether its contact page gives a usable route for product questions, and whether order records will show the item clearly. If the shop cannot distinguish the offered variant, treat that as a purchase-information gap.",
+        "Avoid sending unnecessary personal details when asking a general product-identification question. You can often begin with the listing URL, model name, and the specific identifier you cannot reconcile. If an order number is needed later, provide it through a contact route you have independently verified. Save the reply and any case reference privately so you do not need to repeat the same explanation if the question requires follow-up."
+      ]
+    },
+    {
+      "heading": "Keep a useful record without overcollecting data",
+      "paragraphs": [
+        "For an item you own, a concise private record can contain the purchase date, shop, product name, model or batch identifier, and the official notice you checked. Keep only the information that helps establish whether a notice applies or resolve a support issue. A record does not need to include sensitive browsing details or unrelated account information. Store it in a place you control and consider whether notifications or shared cloud access could reveal the record to someone else.",
+        "Recheck official information when you receive a relevant retailer or manufacturer notice, or when a specific question arises. There is no need to repeatedly search vague rumors. If a notice does apply, follow its stated instructions and use the responsible contact route. If it does not clearly match your item, preserve the uncertainty and ask for confirmation rather than treating a near-match as proof either way."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a similar product name mean my item is covered by a recall notice?",
+      "answer": "Not on its own. Compare the exact brand, model, variant, and any batch or production identifier named in the notice with the details on your item. Ask the responsible source if the match remains unclear."
+    },
+    {
+      "question": "Should I rely on a social media post about a product notice?",
+      "answer": "Use a repost as a pointer, not as the final source. Confirm the notice and its current instructions through the manufacturer, retailer, or relevant official authority."
+    },
+    {
+      "question": "What if the notice does not explain what owners should do?",
+      "answer": "Do not invent an action. Contact the source responsible for the notice using a verified route and ask what instructions apply to your specific identifier. If the notice gives an interim instruction, follow it while seeking clarification."
+    }
+  ]
+};
