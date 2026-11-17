@@ -1,0 +1,111 @@
+export default {
+  "slug": "webmaster-affiliate-commission-model-fit-by-customer-lifecycle",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Match Commission Models to the Customer Lifecycle",
+  "description": "Compare affiliate commission structures by customer journey, qualification rules, attribution, reversals and reporting before deciding whether a program fits your site.",
+  "excerpt": "A commission headline does not tell you how earnings behave over time. Map each model to the visitor journey and the rules that determine whether a referral qualifies, persists or is reversed.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Separate the advertised commission structure from the event that actually triggers a payable referral.",
+    "Model one-time, recurring and staged commissions against the customer lifecycle without assuming any future customer behavior.",
+    "Check attribution, eligibility, reversals and reporting definitions before comparing expected outcomes.",
+    "Use written program terms and a small, clearly labeled comparison worksheet rather than an unsupported earnings forecast."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the event that earns a commission",
+      "paragraphs": [
+        "Before comparing commission models, identify the exact event that may create a commission. A referral click, account registration, completed purchase, paid renewal, or other qualified action can each represent a different point in a customer journey. The program’s terminology may distinguish between a tracked action, an approved conversion, and a commission that has become payable. Treat those as separate stages until the written rules show otherwise.",
+        "Build a simple journey for the offer you are considering: visitor clicks, reaches the destination, takes an action, and—if relevant—continues as a customer. For every step, ask what evidence the program records, what eligibility conditions apply, and when a reported amount can still be changed. This prevents a common comparison error: treating a tracked event as though it were automatically a final, payable commission."
+      ],
+      "bullets": [
+        "Write down the qualifying event in the program’s own terms.",
+        "Mark which events are provisional, approved, reversed, or payable.",
+        "Record the source document and date for each rule you use."
+      ]
+    },
+    {
+      "heading": "Compare structures by lifecycle, not by label",
+      "paragraphs": [
+        "A one-time commission is generally described as compensation associated with a qualifying initial action. A recurring structure may depend on later customer activity, continued eligibility, or other terms. A staged structure may treat different actions or milestones differently. These labels alone do not establish the payment amount, duration, qualification conditions, or likelihood that a referral will remain eligible; those details must come from the program’s current written terms.",
+        "Use a hypothetical referral timeline to expose the differences without pretending to know customer behavior. Ask what happens at initial qualification, a later renewal, a plan or product change, cancellation, refund, or account reactivation. If the program does not explain a scenario, list it as unknown rather than filling the gap with an assumption. This makes a comparison useful even when neither program provides enough evidence for a responsible revenue forecast."
+      ],
+      "table": {
+        "caption": "A neutral worksheet for comparing commission structures",
+        "headers": [
+          "Lifecycle point",
+          "Question to verify",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Initial action",
+            "What event qualifies?",
+            "Written definition and exclusions"
+          ],
+          [
+            "Later activity",
+            "Can later activity create additional credit?",
+            "Duration and eligibility rules"
+          ],
+          [
+            "Change or cancellation",
+            "What changes or ends qualification?",
+            "Reversal, cancellation, and reactivation terms"
+          ],
+          [
+            "Final settlement",
+            "When is the amount considered payable?",
+            "Approval and payment conditions"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Trace attribution and qualification together",
+      "paragraphs": [
+        "A commission model cannot be evaluated in isolation from attribution. Check how a referral is credited when a visitor returns later, uses another device, follows another referral, or arrives through a different route. The program’s terms may specify a crediting rule, but a phrase such as “last referral” or “tracked click” needs a precise definition: which event counts, how conflicts are resolved, and whether any exceptions apply.",
+        "Then compare those attribution rules with qualification rules. A referral might be attributed to a source but fail a separate condition, or be initially recorded and later adjusted under the program’s terms. Ask whether the reporting interface distinguishes those states and whether a reason is available for a change. Do not infer that a missing conversion proves a tracking fault, or that a recorded conversion proves final eligibility; preserve the distinction in your analysis."
+      ],
+      "bullets": [
+        "Check attribution windows and competing-referral rules.",
+        "Find exclusions that can apply after an event is tracked.",
+        "Ask how the program labels provisional and finalized records."
+      ]
+    },
+    {
+      "heading": "Read reversals and timing before estimating value",
+      "paragraphs": [
+        "If the terms are unclear, send a narrowly framed written question. For example: “If a referred customer cancels and later returns, does the original referral remain eligible, and which clause governs that outcome?” Save the reply with the applicable terms, but do not treat an informal response as overriding a written agreement unless the program confirms how conflicting guidance is handled."
+      ]
+    },
+    {
+      "heading": "Build a decision sheet that separates facts from assumptions",
+      "paragraphs": [
+        "A useful comparison sheet has three columns: confirmed facts, unanswered questions, and working assumptions. Put only documented terms in the first column. Questions that could materially change your decision—such as whether later customer activity qualifies or how reversals are treated—belong in the second. Keep any illustrative scenarios in the third, clearly labeled as examples rather than predictions.",
+        "Score operational fit as well as possible economics. A structure that requires detailed reconciliation may be a poor fit if the reporting does not expose the needed status or event detail. Conversely, a simpler structure is not automatically preferable if its qualification rules do not suit the visitors your site serves. Decide what evidence would change your choice, set a review date, and avoid scaling based only on an early, incomplete reporting period."
+      ],
+      "bullets": [
+        "Compare only programs using the same hypothetical journey.",
+        "Keep observed facts separate from projected or assumed outcomes.",
+        "Revisit the worksheet when written terms or reporting definitions change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a recurring commission always more valuable than a one-time commission?",
+      "answer": "No. The label does not reveal qualification, duration, reversals, attribution, or payment conditions. Compare the complete written rules and avoid assuming that a referred customer will continue qualifying."
+    },
+    {
+      "question": "Should I treat a dashboard conversion as final?",
+      "answer": "Not unless the program’s documentation defines that status as final and payable. Check whether the report distinguishes tracked, pending, approved, reversed, and payable records."
+    },
+    {
+      "question": "What should I do when terms do not explain a customer cancellation or return?",
+      "answer": "Record the scenario as unresolved and ask the program for written clarification that identifies the governing rule. Do not build a forecast on an answer you have not verified."
+    }
+  ]
+};

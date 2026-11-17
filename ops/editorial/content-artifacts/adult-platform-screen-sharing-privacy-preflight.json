@@ -1,0 +1,117 @@
+{
+  "backlogId": "adult-platform-screen-sharing-privacy-preflight",
+  "slug": "adult-platform-screen-sharing-privacy-preflight",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Screen Sharing While Signed In to an Adult Platform: A Privacy Preflight",
+  "description": "Before sharing a screen during a meeting, support session or demonstration, check browser tabs, notifications, account details and display choices that may reveal adult-platform activity.",
+  "excerpt": "Screen sharing can expose more than the active page. Use this preflight to reduce accidental disclosure of account details, notifications and browser context before presenting your screen.",
+  "keyTakeaways": [
+    "Choose a sharing mode that exposes only the intended window or application, and verify what viewers can see.",
+    "Close or hide unrelated tabs, account menus, saved items and notifications before sharing.",
+    "Use a separate work or presentation context where appropriate, but do not assume it removes all traces or account links.",
+    "Stop sharing promptly and review what was visible if an unexpected detail appeared."
+  ],
+  "sections": [
+    {
+      "heading": "Decide whether screen sharing is necessary",
+      "paragraphs": [
+        "Before opening a sharing control, decide what the other person actually needs to see. A screenshot, a cropped image with private details removed, a written explanation, or a demonstration using non-sensitive sample material may be sufficient. Sharing a live screen can expose account identity, messages, saved content, browser history suggestions, or notifications that are unrelated to the task.",
+        "If a live demonstration is necessary, define the smallest useful scope. Identify the page or application, the specific action to demonstrate, and what must remain hidden. This is especially important during remote support or a meeting where the audience may change, a recording may be enabled, or a participant may take a screenshot. Do not treat a trusted audience as a substitute for limiting what is shared."
+      ],
+      "bullets": [
+        "Ask whether a non-live alternative will meet the need.",
+        "Decide which page and controls must be shown.",
+        "Check whether the session will be recorded or captured."
+      ]
+    },
+    {
+      "heading": "Prepare the screen and sharing scope",
+      "paragraphs": [
+        "Check the visible surroundings too. Desktop notifications, task-switcher previews, bookmarks, open downloads, and browser autocomplete can reveal information even when the adult-platform page is not the focus. Disable or clear only the items you can safely manage, and avoid changing essential security settings just to make a presentation look tidy."
+      ]
+    },
+    {
+      "heading": "Control notifications and account identity",
+      "paragraphs": [
+        "Notifications can appear over a shared window or on another display, and they may show sender names, message previews, account names, or subject lines. Before sharing, review operating-system and browser notification settings for the duration of the session. Consider pausing notifications or using a focus mode if available, then verify that it has taken effect by checking the presentation preview or asking a trusted colleague to confirm the shared view.",
+        "Account identity may appear in less obvious places: a profile avatar, email address, username, browser title, saved login prompt, or support conversation. Inspect the page at the exact zoom and window size that participants will see. If you use a separate browser profile for work, check that it is not signed into the same account or syncing identifying information. Profile separation can help organize activity, but settings and sync behavior vary; verify the actual state rather than relying on the label."
+      ],
+      "table": {
+        "caption": "Screen-sharing preflight checklist",
+        "headers": [
+          "Exposure point",
+          "Check before sharing",
+          "Safer action"
+        ],
+        "rows": [
+          [
+            "Sharing scope",
+            "Is the full display or only a window selected?",
+            "Use and verify the narrowest workable scope"
+          ],
+          [
+            "Tabs and applications",
+            "Are unrelated pages or messages open?",
+            "Close or move them out of the shared context"
+          ],
+          [
+            "Notifications",
+            "Can previews appear during the session?",
+            "Pause them and test the visible result"
+          ],
+          [
+            "Account details",
+            "Is a name, email, avatar or saved item visible?",
+            "Navigate away, sign out, or use a verified separate context"
+          ],
+          [
+            "Recording",
+            "Can the meeting be recorded or captured?",
+            "Confirm expectations and share only necessary information"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Run a short test and keep control during the session",
+      "paragraphs": [
+        "Use the meeting preview or a brief test with a trusted participant before showing sensitive material. Check the exact shared image, including the top bar, sidebar, browser title and notifications. If no preview is available, begin by sharing a neutral page and confirm with the audience that they see only the intended window. A test is useful because the host’s local display may not match the audience’s view.",
+        "During the session, keep the demonstration narrow and narrate before switching pages. Stop sharing when the task is complete rather than leaving the screen open while discussing another topic. If a prompt, notification, or unexpected tab appears, stop the share first; then decide whether the session should continue. Do not rush to explain a sensitive detail while it remains visible to viewers."
+      ],
+      "bullets": [
+        "Confirm the audience view before opening the relevant page.",
+        "Stop sharing before changing to unrelated work.",
+        "If the wrong screen appears, end the share before troubleshooting."
+      ]
+    },
+    {
+      "heading": "Respond calmly if something was exposed",
+      "paragraphs": [
+        "After the meeting, stop sharing, close the relevant page, and check whether a recording or shared file was created. Follow the meeting organizer’s or workplace’s established process for handling recordings, especially if the material was captured unexpectedly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is sharing a browser tab always private from other tabs?",
+      "answer": "No sharing mode should be assumed to work a particular way without checking its preview and behavior. Select the narrowest available scope, test it, and watch for notifications or windows that may appear over it."
+    },
+    {
+      "question": "Does a separate browser profile guarantee that my account activity stays separate?",
+      "answer": "No. Profiles can help organize sessions, but sign-in, sync, extensions, and notifications may still expose information. Verify the actual account and sync state before presenting."
+    },
+    {
+      "question": "What should I do if an adult-platform account detail appears during a call?",
+      "answer": "Stop sharing first. Then assess what was visible, whether the session was recorded, and whether the information requires a security response. Make a brief factual record and adjust the preflight for next time."
+    }
+  ],
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

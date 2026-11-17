@@ -1,0 +1,105 @@
+export default {
+  "slug": "premium-video-subscription-content-complementary-materials-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Libraries: Check Whether a Subscription Includes Extra Materials",
+  "description": "Learn how to verify whether a premium video membership includes behind-the-scenes features, interviews, alternate editions or other extras—and whether those items are included or separately sold.",
+  "excerpt": "A title listing may not tell you whether accompanying materials are included, available to members, or offered separately. Use a focused audit to verify extras before subscribing or building a shortlist.",
+  "publishedAt": "2026-11-17",
+  "updatedAt": "2026-11-17",
+  "keyTakeaways": [
+    "Treat a title page, a collection page and a membership description as different evidence sources.",
+    "Identify which extra materials matter to you before comparing libraries.",
+    "Verify whether each item is included in the membership, separately available, or only referenced in metadata.",
+    "Record uncertainty and confirm access through a representative preview or the platform’s written terms when possible."
+  ],
+  "sections": [
+    {
+      "heading": "Define the extras you actually want",
+      "paragraphs": [
+        "“Extra materials” can refer to very different things: interviews, production notes, commentary, alternate editions, additional scenes, image galleries, or related editorial pages. A platform may use broad labels that do not specify which of these are present. Start by listing the particular formats that matter to your decision instead of treating the word “extras” as a single feature.",
+        "This makes the research more efficient and less prone to misleading comparisons. If you care about interviews, a general bonus-content label is not enough evidence. If you only want a particular edition, check whether the library identifies that edition separately. Avoid assuming that every title includes the same kinds of additional material or that an item appearing in a search result is part of the membership."
+      ],
+      "bullets": [
+        "Name the material types that would affect your choice.",
+        "Separate essential extras from items that would merely be a bonus.",
+        "Use the same list when assessing every platform."
+      ]
+    },
+    {
+      "heading": "Read listing language as evidence, not a guarantee",
+      "paragraphs": [
+        "Examine the title page, membership description, collection page and any help material available before joining. Note exactly what each source says and whether it refers to a specific title, a broader collection, or the service generally. A listing may describe a title without establishing that all related material is included in a membership; a promotional description may also use terms that require clarification.",
+        "For each claim, record the page and date you checked it. Look for explicit access wording: included with membership, available to purchase separately, viewable as a preview, or accessible only under another condition. If the language does not identify the access path, leave the status unconfirmed. A useful audit favors precise, title-level evidence over assumptions based on a site-wide label."
+      ],
+      "table": {
+        "caption": "Evidence worksheet for a title and its accompanying materials",
+        "headers": [
+          "Evidence source",
+          "What to check",
+          "What it can establish"
+        ],
+        "rows": [
+          [
+            "Title listing",
+            "Named formats and access wording",
+            "Whether a specific extra is described"
+          ],
+          [
+            "Membership terms",
+            "Included and excluded access categories",
+            "How the plan defines entitlement"
+          ],
+          [
+            "Preview or sample",
+            "Visible navigation and available sample items",
+            "What can be inspected before joining"
+          ],
+          [
+            "Help or support response",
+            "Clarification for a specific title and plan",
+            "How the service describes an unresolved case"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate availability from membership entitlement",
+      "paragraphs": [
+        "If the service provides a preview, check whether it represents the actual extra or only a promotional clip or description. The preview can establish that some material is visible before joining, but it cannot establish that every promised format is available to members or that access will remain unchanged. Keep the conclusion limited to what you observed."
+      ]
+    },
+    {
+      "heading": "Check title-level consistency and navigation",
+      "paragraphs": [
+        "A collection may contain several titles with different accompanying materials, formats or access labels. Sample more than one relevant listing and check whether the same terms are used consistently. Look for navigation that distinguishes the main title from related content, and whether search or filters make the additional material discoverable. If the structure is unclear, note the exact title and label rather than generalizing from one page to the whole library.",
+        "For a series or related set, check whether extras are attached to each title, collected in a separate section, or only described on one page. A membership decision based on a specific viewing project should use the exact titles and material types in that project. This approach is distinct from judging overall catalog size: it answers whether the particular complementary items you care about can be located and accessed under the plan."
+      ],
+      "bullets": [
+        "Compare more than one relevant title if consistency matters.",
+        "Check whether extras are searchable or only linked from a title page.",
+        "Record the exact item name and access label."
+      ]
+    },
+    {
+      "heading": "Resolve ambiguity before you rely on it",
+      "paragraphs": [
+        "Finally, distinguish an extra that is included now from one that may be added later. Unless a written policy commits to future materials, do not treat a possible update as part of the present value of a subscription."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a title page mentions an interview, does that mean it is included?",
+      "answer": "Not by itself. Check whether the page states that the interview is available under the membership or identifies another access condition. If it remains unclear, ask about the specific title and plan."
+    },
+    {
+      "question": "Can a preview confirm that all related materials are included?",
+      "answer": "No. A preview can show what is available to inspect before joining, but it does not establish entitlement to every related item or future availability."
+    },
+    {
+      "question": "How should I compare libraries when some listings are unclear?",
+      "answer": "Use explicit statuses such as confirmed included, separate access, preview only, not found, or unclear. Compare the evidence you have and do not count ambiguous items as confirmed membership benefits."
+    }
+  ]
+};
