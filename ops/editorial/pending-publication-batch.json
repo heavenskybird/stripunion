@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T13:22:00.162Z",
+  "generatedAt": "2026-11-17T14:45:12.734Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-fan-invite-tool-readiness.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-first-week-privacy-setup.json",
-    "ops/editorial/content-artifacts/live-cam-platform-session-interruption-preflight.json",
-    "ops/editorial/content-artifacts/affiliate-program-measurement-vendor-oversight-review.json",
-    "ops/editorial/content-artifacts/adult-anime-app-platform-fit-checklist.json"
+    "ops/editorial/content-artifacts/adult-anime-game-demo-scope-check.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-membership-household-use-boundary.json",
+    "ops/editorial/content-artifacts/free-video-browser-tab-exposure-check.json",
+    "ops/editorial/content-artifacts/adult-shop-return-shipping-method-comparison.json",
+    "ops/editorial/content-artifacts/live-cam-private-session-confirmation-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-fan-invite-tool-readiness.js",
-    "src/data/guides/adult-dating-platform-first-week-privacy-setup.js",
-    "src/data/guides/live-cam-platform-session-interruption-preflight.js",
-    "src/data/guides/affiliate-program-measurement-vendor-oversight-review.js",
-    "src/data/guides/adult-anime-app-platform-fit-checklist.js"
+    "src/data/guides/adult-anime-game-demo-scope-check.js",
+    "src/data/guides/vr-adult-platform-membership-household-use-boundary.js",
+    "src/data/guides/free-video-browser-tab-exposure-check.js",
+    "src/data/guides/adult-shop-return-shipping-method-comparison.js",
+    "src/data/guides/live-cam-private-session-confirmation-review.js"
   ],
   "categories": [
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams",
-    "webmaster-affiliate",
-    "adult-games"
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-shops",
+    "live-cams"
   ],
   "backlogIds": [
-    "creator-platform-fan-invite-tool-readiness",
-    "adult-dating-platform-first-week-privacy-setup",
-    "live-cam-platform-session-interruption-preflight",
-    "affiliate-program-measurement-vendor-oversight-review",
-    "adult-anime-app-platform-fit-checklist"
+    "adult-anime-game-demo-scope-check",
+    "vr-adult-platform-membership-household-use-boundary",
+    "free-video-browser-tab-exposure-check",
+    "adult-shop-return-shipping-method-comparison",
+    "live-cam-private-session-confirmation-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44091558075",
-  "phase": "closed"
+  "r1CycleId": "44106145839"
 }
