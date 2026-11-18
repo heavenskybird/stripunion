@@ -1,0 +1,129 @@
+{
+  "backlogId": "creator-platform-creator-data-breach-response-plan",
+  "slug": "creator-platform-creator-data-breach-response-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Prepare a Response Plan for Account or Data Exposure",
+  "description": "A creator-focused incident checklist for securing access, preserving evidence, limiting further exposure, and communicating carefully after a suspected account or data incident.",
+  "excerpt": "A suspected account compromise can disrupt publishing and expose private information. Prepare a measured response workflow before an incident so urgent steps do not become improvised decisions.",
+  "keyTakeaways": [
+    "Prepare contact routes and recovery information before an incident, and store them separately from public creator materials.",
+    "Secure the email account and other recovery points that control access to the creator platform.",
+    "Preserve relevant evidence without forwarding private fan data or publishing sensitive screenshots.",
+    "Use official platform support and distinguish confirmed facts from assumptions when asking for help.",
+    "Plan communications around what is known, what action fans should take, and what remains unverified."
+  ],
+  "sections": [
+    {
+      "heading": "Prepare before anything goes wrong",
+      "paragraphs": [
+        "Creators often depend on one account for publishing, audience communication, and business records. A suspected compromise can therefore affect more than the ability to log in. A short response plan helps separate urgent security actions from routine business tasks and reduces the chance of making rushed public claims. It also makes it easier to identify who needs to be contacted if the primary account becomes unavailable.",
+        "Create a secure record of official support routes, recovery options, and the platform’s account-security guidance. Note which email address or authenticator method controls recovery, how to revoke access for trusted team members, and where to report suspicious activity. Do not put passwords, identity documents, or recovery codes in the same file as a public-facing business plan."
+      ],
+      "bullets": [
+        "Record official support and account-recovery routes in a secure location.",
+        "Identify the email and authentication methods that can reset platform access.",
+        "List any authorized team members and the process for removing access."
+      ]
+    },
+    {
+      "heading": "Triage the situation without amplifying it",
+      "paragraphs": [
+        "Start by distinguishing a login problem from evidence of account access by someone else. An unexpected password reset, unfamiliar login notice, changed payout setting, or post you did not publish may each require different action. Preserve the original notification or record the event details, but do not assume that every unusual message is genuine; verify it through the platform’s official account interface or support channel.",
+        "If you can still access the account, review active sessions, sign-in methods, recovery details, and connected applications. Change credentials through the official site and secure the email account used for recovery. If access is lost, use the published recovery process rather than links in unsolicited messages. Avoid posting a detailed incident description publicly while you are still determining what happened."
+      ],
+      "bullets": [
+        "Record when the issue began, what changed, and which account controls were affected.",
+        "Verify alerts through official channels instead of clicking unfamiliar links.",
+        "Secure recovery email and authentication accounts as well as the creator account."
+      ]
+    },
+    {
+      "heading": "Preserve useful evidence and protect private data",
+      "paragraphs": [
+        "A useful incident record is concise and factual: dates, screenshots of relevant notices, support case numbers, and a list of actions taken. Store it securely and keep a copy that does not depend on access to the affected account. Avoid collecting or sharing more personal information than needed to explain the issue to support. Fan messages, names, payment details, and private conversation content should not be copied into a general incident file without a clear reason.",
+        "Evidence should help resolve the incident, not create a second exposure. Use a restricted folder, limit access to people who need it, and remove unnecessary sensitive material when it is no longer needed. If you suspect that private fan information has been accessed, do not independently publish that data to demonstrate the problem. Ask the platform how it handles incident reports and what information it needs."
+      ],
+      "table": {
+        "caption": "Incident notes: preserve the minimum useful record",
+        "headers": [
+          "Record",
+          "Why it helps",
+          "Privacy boundary"
+        ],
+        "rows": [
+          [
+            "Time and event description",
+            "Creates a sequence for support and internal decisions",
+            "Avoid speculation about who caused the event"
+          ],
+          [
+            "Official notices and case numbers",
+            "Helps connect actions to platform support",
+            "Remove unrelated personal or fan information"
+          ],
+          [
+            "Account changes made",
+            "Shows what recovery steps were already attempted",
+            "Do not include passwords or recovery codes"
+          ],
+          [
+            "Potentially affected business functions",
+            "Helps plan publishing and audience communication",
+            "Describe categories rather than exposing individual fan records"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Limit business disruption while access is uncertain",
+      "paragraphs": [
+        "Identify which work depends on the account and what can safely continue elsewhere. You may be able to prepare unpublished materials, update an owned website, or pause scheduled promotion without making changes to the affected account. Avoid asking fans to follow unfamiliar replacement links until you can verify their destination and ownership. A rushed substitute account can create confusion or expose the audience to impersonation.",
+        "If a team has access, use the agreed permission process to pause or revoke access where appropriate. Keep a record of each change, who authorized it, and why. Do not share a single password through informal channels as a quick fix. Once access is restored, review team permissions and connected services before resuming normal operations."
+      ],
+      "bullets": [
+        "Separate activities that can continue safely from those that depend on the affected account.",
+        "Verify any alternate communication channel before directing fans to it.",
+        "Use named access and documented permission changes rather than shared passwords."
+      ]
+    },
+    {
+      "heading": "Communicate with care and close the incident deliberately",
+      "paragraphs": [
+        "A public update should say only what you can substantiate, identify any practical steps readers should take, and avoid promising a resolution date you cannot control. If the platform is investigating, say that the issue has been reported rather than implying a confirmed cause. Share updates through channels you control and do not ask fans to provide passwords, payment details, or identity documents in response to an incident notice.",
+        "After the immediate issue is resolved, review what happened and update the response plan. Confirm that recovery information is current, remove temporary access that is no longer needed, and check that scheduled content or account settings were not altered. A brief after-action record can identify process improvements without retaining unnecessary private data."
+      ],
+      "bullets": [
+        "State confirmed facts and clearly label what is still unknown.",
+        "Never request sensitive fan account or payment information in a public incident update.",
+        "Review permissions, recovery methods, and connected services after access is restored."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I immediately announce that my creator account was hacked?",
+      "answer": "First verify the event through the platform’s official account or support channels. If you need to warn fans about a confirmed risk, communicate only what is known and provide practical guidance. Avoid describing an unverified cause or sharing sensitive account details."
+    },
+    {
+      "question": "What information should I send to platform support?",
+      "answer": "Provide a concise timeline, the account identifier requested by the official support process, relevant notices, and a description of the changes you observed. Do not send passwords, recovery codes, or unrelated fan data. Follow the platform’s secure instructions for any identity or account verification it requires."
+    },
+    {
+      "question": "Can I ask fans to message me their details to check whether they were affected?",
+      "answer": "Avoid collecting sensitive details through public messages or informal channels. Ask the platform what information affected users should receive and use a communication method that does not expose private data. Never ask fans for passwords or payment credentials."
+    },
+    {
+      "question": "What should I do after the platform restores access?",
+      "answer": "Review sign-in sessions, recovery details, connected applications, publishing settings, and team permissions. Check for unauthorized changes, document what you confirmed, remove temporary access, and update the response plan based on lessons from the incident."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

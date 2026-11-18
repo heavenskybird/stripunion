@@ -1,0 +1,129 @@
+{
+  "backlogId": "premium-video-dormant-account-access-policy-check",
+  "slug": "premium-video-dormant-account-access-policy-check",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Accounts: Check What Inactivity Means for Membership Access",
+  "description": "Learn how to assess premium video account inactivity policies, renewal status, access recovery, and saved-account data before leaving a membership unused.",
+  "excerpt": "An account you stop using may still renew, retain saved data, or require a recovery step later. Check the platform’s inactivity and membership rules before leaving it dormant.",
+  "keyTakeaways": [
+    "An unused account and a cancelled membership are not necessarily the same state.",
+    "Check renewal, access, and account-retention terms separately before leaving an account idle.",
+    "Save the account recovery route and keep relevant billing records accessible.",
+    "Review saved profiles, watchlists, and viewing history if another person may use the device.",
+    "Do not assume that inactivity automatically deletes account data or stops recurring charges."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish inactivity from cancellation",
+      "paragraphs": [
+        "Stopping playback or signing out does not necessarily change a membership’s billing state. A subscription may continue renewing even when an account is unused, while a cancelled membership may leave the underlying account and its saved information in place. These are separate questions: whether billing continues, whether viewing access remains, and whether account data is retained.",
+        "Before leaving a service unused, identify the state you actually want. If you want to stop recurring billing, follow the stated cancellation route and save confirmation. If you want to keep the account for later, check whether it can remain dormant without a membership and what sign-in or recovery steps may apply when you return. Record the answer rather than relying on an assumption that no activity means no account obligations."
+      ],
+      "bullets": [
+        "Check billing status separately from account sign-in status.",
+        "Confirm cancellation through the channel that manages the membership.",
+        "Save confirmation and note any stated access end date."
+      ]
+    },
+    {
+      "heading": "Read the account inactivity and retention information",
+      "paragraphs": [
+        "Look for terms or help material describing dormant accounts, account closure, data retention, and deletion. A platform may use inactivity language for different purposes, such as sign-in security, account cleanup, or maintaining stored preferences. Do not infer that an account will be deleted simply because the platform describes it as inactive. Check whether the policy says what data is retained, what action triggers a change, and whether the user receives notice.",
+        "If the documentation is silent or vague, make a note of the uncertainty and contact the platform through an official support route. Ask a narrow question, such as whether an account that is not used for a defined period can be closed or whether a membership continues to renew. A precise question is easier to resolve than a general request for an explanation of every account policy."
+      ],
+      "bullets": [
+        "Search for terms about inactivity, account closure, data retention, and membership renewal.",
+        "Note whether the policy describes a trigger, notice, and user action.",
+        "Treat missing information as unresolved rather than assuming a default."
+      ]
+    },
+    {
+      "heading": "Protect recovery and billing records",
+      "paragraphs": [
+        "Dormant accounts can be harder to recover if the associated email address or payment channel has changed. Before stepping away, confirm that you can access the email used for sign-in and that recovery details are current. Store recovery information securely, not in an unprotected note or a shared device’s visible files. If you use a password manager, check that the account entry identifies the correct site and login address.",
+        "Keep receipts or membership confirmations you may need to identify a charge later. You do not need to preserve every message or screenshot indefinitely; retain the minimum records that help you manage billing and recover access. If the membership was billed through another provider, save the route for managing it there as well as the video platform’s support information."
+      ],
+      "table": {
+        "caption": "Dormant-account preflight: separate the questions that matter",
+        "headers": [
+          "Account area",
+          "Question to check",
+          "Useful record"
+        ],
+        "rows": [
+          [
+            "Membership",
+            "Is renewal active, and where is it managed?",
+            "Billing channel and cancellation confirmation if applicable"
+          ],
+          [
+            "Access",
+            "What happens to viewing access after cancellation or inactivity?",
+            "Terms page or support response with date checked"
+          ],
+          [
+            "Recovery",
+            "Can you still access the sign-in and recovery email?",
+            "Secure recovery method and password-manager entry"
+          ],
+          [
+            "Saved data",
+            "Are watchlists, profiles, or history retained or visible?",
+            "Notes on privacy controls or data-retention terms"
+          ],
+          [
+            "Return plan",
+            "What steps are needed to sign in again?",
+            "Official account-recovery route"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Consider privacy on devices you may share",
+      "paragraphs": [
+        "Leaving an account signed in on a shared device can expose more than the fact that a membership exists. Other users may encounter saved profiles, recommendations, watch history, or account settings. If you will stop using the device or allow someone else to use it, sign out and check whether the browser or application stored credentials. Where the platform offers separate profiles or privacy controls, verify what those controls actually hide.",
+        "Deleting browser history is not the same as signing out, cancelling billing, or deleting a platform account. Handle each action separately. If you use a personal device that will be stored for a while, consider whether it has an active session, whether notifications reveal account activity, and whether recovery information remains protected."
+      ],
+      "bullets": [
+        "Sign out on devices that other people may use.",
+        "Check saved credentials and account notifications separately from browser history.",
+        "Use available profile controls only after confirming what they conceal."
+      ]
+    },
+    {
+      "heading": "Plan a deliberate return or exit",
+      "paragraphs": [
+        "If you expect to return, keep a short note of the account’s status, renewal date if relevant, and official recovery route. Recheck current terms before restarting a membership because account and billing policies can change. If you no longer want the account, follow the platform’s account-closure process and review any consequences for saved data or access before confirming.",
+        "A dormant-account plan should end with a clear choice: maintain the account, cancel the membership, or request account closure. After acting, verify the outcome in the account or billing channel and retain a dated record. This avoids mistaking silence, lack of playback, or an old sign-in session for a completed cancellation or deletion."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will an unused premium video account automatically stop renewing?",
+      "answer": "Do not assume so. Membership renewal and account activity are separate. Check the billing status and the channel that manages renewal, and follow the stated cancellation process if you want recurring billing to end."
+    },
+    {
+      "question": "Does signing out delete my watch history or saved account data?",
+      "answer": "Signing out usually changes the session on that device; it should not be treated as account deletion or data removal. Check the platform’s account and privacy controls for options concerning history, profiles, watchlists, and account closure."
+    },
+    {
+      "question": "How can I find out what happens to a dormant account?",
+      "answer": "Review current account terms and support information for inactivity, retention, and closure policies. If they do not answer your question, contact the platform through an official route and keep the dated response with your account records."
+    },
+    {
+      "question": "What should I save before leaving an account unused?",
+      "answer": "Keep only useful records: membership status, billing-channel details, cancellation confirmation if relevant, and the official recovery route. Store them securely and avoid retaining unnecessary personal or viewing information."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
