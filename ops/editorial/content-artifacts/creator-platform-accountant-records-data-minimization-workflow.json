@@ -1,0 +1,128 @@
+{
+  "backlogId": "creator-platform-accountant-records-data-minimization-workflow",
+  "slug": "creator-platform-accountant-records-data-minimization-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Prepare Financial Records for an Accountant Without Oversharing Fan Data",
+  "description": "A privacy-conscious workflow for organizing creator-platform earnings records for an accountant while limiting unnecessary fan identifiers and sensitive account details.",
+  "excerpt": "Creator business records may combine financial details with information about individual supporters. This workflow helps you prepare useful summaries, keep source documents traceable and share only what the recipient needs for the agreed task.",
+  "keyTakeaways": [
+    "Ask the accountant what records and fields are needed for the specific engagement before exporting or sharing a full account history.",
+    "Keep an unaltered source copy in a controlled location and create a separate working copy for redaction or summarization.",
+    "Separate financial totals and transaction references from fan names, handles, messages and other unnecessary personal details when feasible.",
+    "Label reporting periods, currencies, adjustments and export dates so summaries can be traced back to source documents.",
+    "Use a secure, agreed transfer method and establish who may access the files, how long they will be retained and how corrections will be handled."
+  ],
+  "sections": [
+    {
+      "heading": "Define the task before exporting records",
+      "paragraphs": [
+        "A creator may need help organizing income records, reconciling platform statements or preparing materials for an accountant. The information required depends on the task and the accountant’s process. Start by asking what reporting periods, statement types, payment records and supporting documents are needed, and whether transaction-level details are necessary. Do not assume that a complete fan ledger or message history is required simply because it is available in an account export.",
+        "Agree on the purpose and boundaries of the handoff. An accountant may need totals, dates, fees, adjustments, currency information or traceable transaction references; fan names, profile links and conversation contents may not be relevant to a particular task. This is a data-minimization decision, not a substitute for professional advice. If a required record includes identifiers, ask whether a limited field set or separate supporting file can meet the need while reducing exposure."
+      ],
+      "bullets": [
+        "Confirm the task, period and records needed before downloading an export.",
+        "Ask which identifiers are required and why.",
+        "Agree how questions, corrections and follow-up requests will be handled."
+      ]
+    },
+    {
+      "heading": "Build a source-to-summary record trail",
+      "paragraphs": [
+        "Keep the original platform statement or export unchanged as the source record, then create a separate working copy for organization. Record the export date, reporting period, currency shown, file name and the account or platform context needed to identify it later. Store these notes with restricted access. Do not overwrite the source file while sorting, filtering or removing fields; a clean source copy makes it possible to explain where figures came from and to correct a summary if a discrepancy appears.",
+        "Create a summary with clearly named fields such as period, gross amount shown, platform deductions shown, adjustments, net amount shown, payout reference and currency, using the labels actually provided by the source. Do not infer what a number means if the statement does not define it. Mark unknowns for clarification rather than silently recategorizing them. If multiple platforms or currencies are involved, keep them distinguishable so that an accountant can trace each subtotal to its original record."
+      ],
+      "table": {
+        "caption": "A minimal handoff can remain useful when each figure is traceable.",
+        "headers": [
+          "Record element",
+          "Include when relevant",
+          "Data-minimizing practice"
+        ],
+        "rows": [
+          [
+            "Statement period and export date",
+            "Needed to identify coverage and timing",
+            "Use a reporting window and file date; do not add unrelated account history."
+          ],
+          [
+            "Amounts and currency",
+            "Needed for reconciliation or reporting",
+            "Preserve source labels and currency; avoid unsupported conversions."
+          ],
+          [
+            "Fees or adjustments",
+            "Needed if shown and relevant to the task",
+            "Keep categories as the source defines them; flag unclear entries."
+          ],
+          [
+            "Payout reference",
+            "Useful for matching statements to receipts or bank records",
+            "Share a reference or limited identifier when full account details are unnecessary."
+          ],
+          [
+            "Fan identity or message content",
+            "Only if the agreed task specifically requires it",
+            "Exclude or mask fields not needed for the work."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate financial detail from fan identity",
+      "paragraphs": [
+        "If the accountant needs a sample transaction to investigate a difference, start with the least identifying evidence that can answer the question. A date, amount, source label and appropriately limited reference may be enough for initial review, but confirm the recipient’s actual requirements. Share additional details only when there is a clear reason and a secure handling plan. Document what you provided, when you provided it and which version of the file was shared."
+      ]
+    },
+    {
+      "heading": "Secure the handoff and control access",
+      "paragraphs": [
+        "Use a transfer method agreed with the accountant rather than sending sensitive files through an unfamiliar link or an unverified email request. Confirm the recipient and destination through a known contact route, especially if instructions arrive unexpectedly or the requested data seems broader than the agreed task. Apply access restrictions where available, and avoid sharing files through a folder that grants access to an entire team or household when only one person needs them.",
+        "Agree who will access the records, whether they may be passed to another professional, how long the files will be retained and how deletion or return will be handled. Keep your own access limited to people who need it for the business task. If a shared business drive is used, review its membership and link settings. Keep a simple handoff log with the file name, date, recipient, purpose and any limitations or redactions."
+      ],
+      "bullets": [
+        "Verify an unexpected data request through a known contact method.",
+        "Use access-limited transfer and storage where available.",
+        "Record what was shared and the agreed retention or deletion plan."
+      ]
+    },
+    {
+      "heading": "Reconcile, correct and retain responsibly",
+      "paragraphs": [
+        "After the accountant reviews the records, compare questions and requested changes against the source documents. Correct a working summary transparently: retain the previous version or note the change, explain the source of the correction and avoid silently editing original exports. If a statement is incomplete or a platform’s labels are unclear, mark the issue and seek clarification rather than guessing. The goal is a useful audit trail, not a more elaborate spreadsheet than the task requires.",
+        "Keep records according to the requirements that apply to your business and the accountant’s advice; this guide does not set a retention period or determine tax obligations. At the same time, do not keep unnecessary fan-identifying exports indefinitely just because storage is available. Review copies, temporary links and access permissions after the task ends. Dispose of working files through a method appropriate to the device and storage service, while retaining source financial records that you have a reason and obligation to keep."
+      ],
+      "bullets": [
+        "Keep source records distinct from edited working copies.",
+        "Log corrections and preserve the reason for a change.",
+        "Review temporary files, shared links and access permissions after completion."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I remove every fan identifier from an earnings export?",
+      "answer": "Not automatically. First ask the accountant which fields are needed for the agreed task. Exclude or mask information that is not necessary, but do not remove details that are required for a valid reconciliation without discussing an alternative. Keep an unaltered source copy separately."
+    },
+    {
+      "question": "Can I send a spreadsheet summary instead of a full platform export?",
+      "answer": "Ask the accountant whether a summary is sufficient. A summary can reduce unrelated data, but it needs clear periods, source labels, currencies and a traceable path to supporting records. Requirements vary by task, so do not assume a summary replaces documents that are specifically needed."
+    },
+    {
+      "question": "Is this workflow tax advice?",
+      "answer": "No. It is a records-organization and data-minimization workflow. It does not determine income categories, filing obligations, retention periods or required documentation. Ask a qualified professional about your specific business and jurisdiction."
+    },
+    {
+      "question": "What should I do if an accountant asks for messages or full fan profiles?",
+      "answer": "Ask why those fields are necessary for the task and whether a limited reference, redacted record or summary would work instead. Verify the request and agree on secure transfer, access and retention before sharing sensitive fan information."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

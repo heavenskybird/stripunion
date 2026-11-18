@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T04:38:30.572Z",
+  "generatedAt": "2026-11-18T07:25:22.649Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-headset-fit-over-session.json",
-    "ops/editorial/content-artifacts/free-video-cross-site-identity-separation.json",
-    "ops/editorial/content-artifacts/live-cam-auto-reload-spend-control-audit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-link-destination-change-alerts.json",
-    "ops/editorial/content-artifacts/premium-video-renewal-date-and-access-cycle-planning.json"
+    "ops/editorial/content-artifacts/adult-dating-browse-first-profile-activation-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-translation-service-data-boundary-review.json",
+    "ops/editorial/content-artifacts/creator-platform-accountant-records-data-minimization-workflow.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-color-contrast-interface-evaluation.json",
+    "ops/editorial/content-artifacts/adult-anime-game-post-install-update-and-storage-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-headset-fit-over-session.js",
-    "src/data/guides/free-video-cross-site-identity-separation.js",
-    "src/data/guides/live-cam-auto-reload-spend-control-audit.js",
-    "src/data/guides/webmaster-affiliate-link-destination-change-alerts.js",
-    "src/data/guides/premium-video-renewal-date-and-access-cycle-planning.js"
+    "src/data/guides/adult-dating-browse-first-profile-activation-audit.js",
+    "src/data/guides/adult-platform-translation-service-data-boundary-review.js",
+    "src/data/guides/creator-platform-accountant-records-data-minimization-workflow.js",
+    "src/data/guides/vr-adult-platform-color-contrast-interface-evaluation.js",
+    "src/data/guides/adult-anime-game-post-install-update-and-storage-plan.js"
   ],
   "categories": [
+    "dating-hookups",
+    "privacy-safety-payment",
+    "creator-platforms",
     "vr-ar",
-    "free-videos",
-    "live-cams",
-    "webmaster-affiliate",
-    "premium-videos"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "vr-adult-platform-headset-fit-over-session",
-    "free-video-cross-site-identity-separation",
-    "live-cam-auto-reload-spend-control-audit",
-    "webmaster-affiliate-link-destination-change-alerts",
-    "premium-video-renewal-date-and-access-cycle-planning"
+    "adult-dating-browse-first-profile-activation-audit",
+    "adult-platform-translation-service-data-boundary-review",
+    "creator-platform-accountant-records-data-minimization-workflow",
+    "vr-adult-platform-color-contrast-interface-evaluation",
+    "adult-anime-game-post-install-update-and-storage-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44238444912",
-  "phase": "closed"
+  "r1CycleId": "44258341379"
 }

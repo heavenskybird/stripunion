@@ -1,0 +1,122 @@
+export default {
+  "slug": "adult-platform-translation-service-data-boundary-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Privacy: Check What Browser Translation May Send Elsewhere",
+  "description": "Learn how to assess browser translation on adult sites, including what page content may be processed, which settings to inspect and safer alternatives for private use.",
+  "excerpt": "A browser’s translation button can feel like a local convenience, but the processing path may depend on the browser and its settings. This guide helps you check the data boundary before translating account pages, messages or other sensitive content.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "Do not assume page translation happens only on your device; inspect the current browser and translation-service documentation for its processing path.",
+    "Treat private account pages and messages as more sensitive than general public text, and avoid translating them through a service you have not assessed.",
+    "Check whether translation is automatic, whether it applies to future visits, and whether the browser stores language preferences or activity.",
+    "Prefer a workflow that avoids sending sensitive text to an unfamiliar third party; use manual, minimal translation when appropriate.",
+    "Recheck browser extensions and permissions because a separate translation add-on may have access beyond the page text you intend to translate."
+  ],
+  "sections": [
+    {
+      "heading": "Why translation is a privacy decision",
+      "paragraphs": [
+        "Translation tools can make an unfamiliar interface easier to understand, but the word “translate” does not explain where text is processed. Depending on the browser, tool and settings, a translation feature may process text locally, send content to a remote service, or use a combination of methods. This guide does not assume a single behavior across browsers. The relevant question is whether the specific feature you plan to use sends page content or related information outside your device.",
+        "Adult-platform pages can contain account identifiers, private messages, profile details, search terms, billing explanations or other information that may be sensitive. A translation request involving public help text has a different privacy profile from a request involving a private inbox or account page. Before enabling translation, identify the type of page and the least data-intensive way to understand it. If the content is especially sensitive, avoiding automated translation may be the more suitable choice."
+      ],
+      "bullets": [
+        "Classify the page as public, account-related, private communication or payment-related.",
+        "Identify the exact browser feature or extension that will translate it.",
+        "Do not rely on a privacy label without checking what the feature says it processes."
+      ]
+    },
+    {
+      "heading": "Trace the translation path before use",
+      "paragraphs": [
+        "Start with the browser’s current help and privacy information for its built-in translation feature. Look for whether page text is transmitted to a service, whether processing can occur locally, what settings control that behavior and how long related data may be retained. Product behavior can change, so consult current documentation rather than relying on a general claim about all browsers. If the explanation does not clearly cover sensitive pages, treat the processing route as unknown.",
+        "Then check whether the translation is built into the browser or provided by an extension, website widget or operating-system service. An extension may request access to pages you visit, which can be broader than the single page you want translated. Review its permissions, publisher information and update source. Avoid installing a tool from an unexpected download prompt or granting broad access without a clear reason. A convenient interface is not evidence that the access scope is limited."
+      ],
+      "table": {
+        "caption": "Use this review to identify the data boundary before translating.",
+        "headers": [
+          "Check",
+          "Question to answer",
+          "Safer decision if unclear"
+        ],
+        "rows": [
+          [
+            "Processing location",
+            "Does the feature process text locally, remotely or through both paths?",
+            "Do not use it on private page content until the route is understood."
+          ],
+          [
+            "Page access",
+            "Can the tool read only selected text or the full page?",
+            "Avoid extensions with broader access than the task requires."
+          ],
+          [
+            "Automatic behavior",
+            "Does translation apply automatically on future visits?",
+            "Turn off automatic translation if you cannot predict where it will run."
+          ],
+          [
+            "Retention and settings",
+            "Does documentation explain handling of submitted text and related activity?",
+            "Use another way to understand sensitive content if the answer is missing."
+          ],
+          [
+            "Account context",
+            "Could text include messages, identifiers or payment information?",
+            "Do not submit that text to an unassessed service."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate public text from private account content",
+      "paragraphs": [
+        "A practical workflow begins with page classification. Public help pages, terms and general interface labels may be lower sensitivity than a private conversation, account recovery screen or payment record, but “lower sensitivity” does not mean consequence-free. Even a public page can reveal what service you use if the URL, browser history or synced tabs are visible to another person. Consider the full context: the text, the page address, browser account sync and the device’s shared access.",
+        "For private content, avoid translating full pages or conversations through a remote tool unless you have verified the relevant processing and are comfortable with it. If you need help understanding a small label, translate only the minimum text that is not identifying or confidential, when the tool offers that option. Do not paste private messages into a general translation website or chatbot as a workaround without assessing its data handling. Removing names may not remove other identifying details from a conversation."
+      ],
+      "bullets": [
+        "Use the smallest text sample necessary to answer the question.",
+        "Do not include usernames, payment details, recovery codes or private messages in a translation request.",
+        "If a page includes mixed public and private information, treat the whole page cautiously."
+      ]
+    },
+    {
+      "heading": "Review settings, extensions and device traces",
+      "paragraphs": [
+        "If you use an extension, inspect the permissions in the browser’s own extension manager rather than relying only on the extension’s marketing description. Review whether permissions cover all websites, browsing activity or data entry. Revisit permissions after updates if the browser presents a change notice. Keep the extension only if its access is proportionate to the task and its source is trustworthy to you."
+      ]
+    },
+    {
+      "heading": "Choose a lower-exposure translation workflow",
+      "paragraphs": [
+        "A lower-exposure option depends on what you need to understand. For a general interface, you may be able to change the site’s own language setting, consult its public help pages or use a browser’s documented local-processing option if one is available. For one short label, a small manual translation request without account details may be sufficient. These choices do not guarantee privacy, but they can reduce the amount of sensitive material involved.",
+        "If you cannot establish where text goes, skip automated translation for private pages. Use a dictionary or translation resource only with generic wording, or ask a trusted person about a non-identifying interface label without sharing the account or page. Keep the original and translated text separate from records that identify you. When translation is essential for access, compare the privacy boundary against the practical need and choose the tool whose current documentation and permissions you can understand."
+      ],
+      "bullets": [
+        "Prefer a site-provided language option when it meets the need.",
+        "Use documented local processing only after confirming the feature and setting in your browser.",
+        "Avoid pasting sensitive text into unfamiliar online tools.",
+        "Review the decision if browser behavior or extension permissions change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does browser translation always send the page to a remote service?",
+      "answer": "No single answer applies to every browser or translation feature. Processing can differ by product, version, setting and page. Check the current documentation for the exact feature you plan to use; if the processing route is unclear, treat it as unknown for sensitive content."
+    },
+    {
+      "question": "Is built-in translation safer than a translation extension?",
+      "answer": "Not automatically. A built-in feature and an extension can have different data paths and access scopes. Compare current processing disclosures, permissions, automatic behavior and retention information rather than assuming one type is private by default."
+    },
+    {
+      "question": "Can I translate a private message by removing the sender’s name?",
+      "answer": "Removing a name may not remove identifying details, context or account information. Do not submit a private message to an unassessed service. If translation is necessary, use the smallest non-identifying excerpt and a tool whose processing you have reviewed."
+    },
+    {
+      "question": "Does private browsing stop translation services from receiving page text?",
+      "answer": "No. Private browsing does not necessarily change how a translation feature processes content. It mainly changes some local browser storage behavior. Review the translation feature, its permissions and its data handling separately."
+    }
+  ]
+};
