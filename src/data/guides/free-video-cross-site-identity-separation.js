@@ -1,0 +1,133 @@
+export default {
+  "slug": "free-video-cross-site-identity-separation",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites: Check Cross-Site Sign-In and Identity Links",
+  "description": "Learn how to assess third-party sign-in prompts, linked accounts, and identity separation when comparing free video platforms.",
+  "excerpt": "A free video site may offer several ways to sign in or connect accounts. Check what a link-up means before using it, especially on a shared or personal device.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "A third-party sign-in option can reduce the number of passwords you manage, but it also creates a relationship between accounts that you should understand.",
+    "Review the permissions requested at the point of connection instead of relying on a button label.",
+    "Use a separate sign-in identity when keeping activity distinct matters to you, and check how account recovery will work.",
+    "Disconnecting a linked account may not delete the account or data held by either service.",
+    "If a prompt is unclear or unexpected, do not proceed until you can confirm which service receives which information."
+  ],
+  "sections": [
+    {
+      "heading": "Understand the choice behind a sign-in button",
+      "paragraphs": [
+        "Free video platforms may present sign-in choices that include an email-and-password account, a third-party identity provider, or a browser-mediated sign-in flow. These options can look interchangeable on a page, but they may create different account relationships. A third-party option may allow one service to confirm your identity to another, while an account connection can request additional information or permissions. The exact arrangement depends on the services and the consent screen presented.",
+        "Before choosing, identify the service that will receive the sign-in request and the account you are using. Do not infer what is shared from a familiar logo or a short button label. Read the prompt and note the account name shown. If the screen does not clearly identify the receiving service or requested access, cancel and revisit the platform through its official address rather than continuing through an unexplained pop-up."
+      ],
+      "bullets": [
+        "Check the destination address before entering credentials.",
+        "Read the permission or account-access prompt before approving it.",
+        "Do not enter a password into a page reached from an unexpected message or pop-up."
+      ]
+    },
+    {
+      "heading": "Compare convenience with separation",
+      "paragraphs": [
+        "Using an existing sign-in can make account creation simpler, but it may tie the video account to an identity you use elsewhere. That may be acceptable for some people and undesirable for others. Consider whether the account name, email address, profile image, or other details could appear in the video service’s account settings or communications. Also ask whether you want account recovery for both services to depend on the same email or identity provider.",
+        "A separate account can provide clearer boundaries, but it also creates separate credentials and recovery responsibilities. If you choose that route, use a strong, unique password and a recovery method you control. Avoid making a decision based only on the word “private” or “anonymous” in a sign-in prompt. Those labels do not establish what the service collects, what appears in your account, or what information may be shared under its terms."
+      ],
+      "table": {
+        "caption": "Questions to ask about each sign-in route",
+        "headers": [
+          "Route",
+          "Check before choosing"
+        ],
+        "rows": [
+          [
+            "Separate platform account",
+            "What contact details are requested, and how will recovery work?"
+          ],
+          [
+            "Third-party sign-in",
+            "Which account is used, what information is requested, and can access be limited?"
+          ],
+          [
+            "Existing linked account",
+            "What connection already exists, and where can it be reviewed or removed?"
+          ],
+          [
+            "No-account browsing",
+            "Which features require an account, and what browser data may still be stored?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read permissions as a specific request",
+      "paragraphs": [
+        "A consent screen is more useful than a general statement that a site supports a sign-in provider. Look for the named information or actions requested. The prompt may describe access to basic profile details, an email address, or other capabilities; do not assume the list is the same for every service. Ask whether each requested permission is necessary for the feature you want. If an account connection asks for access that seems unrelated, stop and seek a clearer explanation.",
+        "Save a record of the service name, sign-in route, and permissions you accepted if you expect to manage several connected accounts. This can make later review easier without requiring you to keep a record of viewing activity. Avoid capturing or storing sensitive screenshots where other people can access them. A brief note in a private password manager or account inventory can be enough to remind you where to review the connection."
+      ],
+      "bullets": [
+        "Identify the receiving service and the account provider.",
+        "Check what information or permissions the prompt names.",
+        "Decline access you do not understand, then see whether another sign-in route is available."
+      ]
+    },
+    {
+      "heading": "Plan for shared devices and account recovery",
+      "paragraphs": [
+        "On a shared device, sign-in choice is only one part of separation. Check whether the browser or operating system keeps the identity provider signed in, whether another person can reopen the video account, and whether account names appear in notifications or autofill. Use device profiles or browser profiles only when you can protect them with the device’s normal access controls. Signing out of one service may not sign you out of the other.",
+        "Recovery links and password-reset messages can also expose account relationships. Consider which inbox receives them and whether anyone else with access to that inbox could see service names in notification previews. If you disconnect a sign-in provider later, first confirm that you can still access the video account another way. Removing a connection can affect future sign-in, but it should not be treated as proof that historical data has been erased."
+      ],
+      "bullets": [
+        "Check whether the identity provider remains signed in after you leave the video site.",
+        "Review notification previews and saved credentials on shared devices.",
+        "Confirm an alternative sign-in method before removing a link you rely on."
+      ]
+    },
+    {
+      "heading": "Review and unwind account links deliberately",
+      "paragraphs": [
+        "Account links are usually managed from one or both services’ account settings. Look for connected applications, authorized services, or sign-in methods. Review the permissions and the date or service name where available. If you no longer use a connection, identify whether to revoke access at the identity provider, remove the sign-in method from the video account, or close an account entirely. Those actions can have different effects.",
+        "Before making changes, confirm which account will remain accessible afterward and whether account closure has separate steps. Revoking a connection is not the same as deleting information already held by a service. If the platform’s controls do not explain the result, ask its support channel for a specific account-level answer. Keep the inquiry general and avoid sharing passwords or unnecessary personal details."
+      ],
+      "table": {
+        "caption": "A cautious account-link review",
+        "headers": [
+          "Action",
+          "What it does not automatically mean"
+        ],
+        "rows": [
+          [
+            "Sign out",
+            "Does not necessarily revoke an account connection or remove saved credentials."
+          ],
+          [
+            "Revoke provider access",
+            "Does not necessarily close the video account or delete its stored information."
+          ],
+          [
+            "Remove a sign-in method",
+            "May change how you log in; confirm another working method first."
+          ],
+          [
+            "Close an account",
+            "May require separate steps to address linked services or retained records."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does third-party sign-in mean the provider can see what I watch?",
+      "answer": "Do not assume either way. The sign-in prompt and each service’s privacy information describe the relevant data relationship. Check what access is requested and what the services say they share; a sign-in button alone does not answer that question."
+    },
+    {
+      "question": "If I disconnect an account, is my video-site account deleted?",
+      "answer": "Not necessarily. Disconnecting a sign-in method, revoking provider access, and closing the platform account are different actions. Check the platform’s account controls and confirm you have another sign-in route before removing a connection."
+    },
+    {
+      "question": "Is a separate account always more private?",
+      "answer": "Not automatically. A separate account may make identity boundaries easier to manage, but it still involves the information requested by the platform and the device or browser you use. Review both account settings and privacy information."
+    }
+  ]
+};
