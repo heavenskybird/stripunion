@@ -1,0 +1,128 @@
+{
+  "backlogId": "vr-adult-platform-subtitle-default-and-persistence-check",
+  "slug": "vr-adult-platform-subtitle-default-and-persistence-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Subtitle Defaults and Persistence Before Choosing",
+  "description": "Compare how VR adult platforms expose subtitle controls, remember preferences, and display text across sessions before committing to a library.",
+  "excerpt": "Subtitle availability is only part of the experience. Check where controls appear, whether settings persist, and how readable text is in your headset before choosing a platform.",
+  "keyTakeaways": [
+    "Check subtitles on the specific content and playback route you expect to use; a platform-wide setting may not apply everywhere.",
+    "Test whether subtitle preferences persist after leaving a player, changing content, or restarting the app.",
+    "Evaluate readability and placement in the actual headset, not only on a desktop page.",
+    "Distinguish subtitles, captions, and translated text when a platform describes them; do not assume they provide the same information.",
+    "Treat missing or unclear language and subtitle disclosures as unknowns and ask for clarification before relying on them."
+  ],
+  "sections": [
+    {
+      "heading": "Why subtitle behavior deserves a separate check",
+      "paragraphs": [
+        "A platform can list subtitle or caption support without explaining whether it applies to every item, every player, or every headset access route. Text might be embedded in a video, offered as a selectable track, or controlled through a player menu. Those arrangements have different practical consequences, especially when using a headset where menus and text placement may be harder to inspect than on a conventional screen.",
+        "The question is not simply “Are subtitles available?” It is also whether they can be found, read, adjusted, and kept consistent. A preference that resets whenever a player closes can add friction. A menu that is difficult to reach can make an otherwise useful setting impractical. For viewers who rely on captions or translated text, ambiguity about scope can be a deciding factor.",
+        "This guide focuses on evaluating subtitle and caption controls, not on judging any particular platform’s current features. Product behavior can vary by content item, device, browser, app, and software version. Verify the exact route you plan to use and avoid treating a general claim as proof that every title supports the same options."
+      ]
+    },
+    {
+      "heading": "Clarify what the platform means by text support",
+      "paragraphs": [
+        "Look for distinctions in the platform’s wording. Subtitles commonly represent spoken dialogue as text, while captions may also include information about other audio cues; translated subtitles involve an additional language layer. Platforms do not always use these terms consistently, so ask what is actually provided rather than relying on labels alone.",
+        "Check whether support is described at the platform level, the individual title level, or the player level. A broad feature page may not establish that a particular item includes a selectable track. If the catalogue has item details, note whether language availability is shown there and whether the information identifies the text type. Do not assume a subtitle track can be selected simply because a title description mentions a language.",
+        "Make a small evidence record for the titles or formats that matter to you: exact language listed, whether it is selectable, where the control appears, and what remains unconfirmed. This prevents a broad site statement from being mistaken for a promise about every item."
+      ],
+      "bullets": [
+        "Record whether the claim refers to subtitles, captions, translation, or an unspecified text option.",
+        "Check whether availability is stated for the platform, player, or individual title.",
+        "Do not infer language coverage for unlisted content."
+      ]
+    },
+    {
+      "heading": "Test whether settings persist through common transitions",
+      "paragraphs": [
+        "A setting can work during one playback session but fail to carry over. If the platform offers a preview or a way to test controls without purchasing access, use it to check what happens when you open another item, leave and reopen the player, or return after signing out and back in. Only test behaviors available through legitimate access; do not use unofficial tools to bypass account or access restrictions.",
+        "Note whether a choice appears to be saved at the account, device, browser, app, or individual-player level. If the platform does not say, describe what you observed without claiming to know where the preference is stored. A change that persists within one session is not necessarily a lasting account preference.",
+        "Also test what happens after routine interruptions, such as switching to another item or returning to the library. The useful question is whether the setting is easy to restore if it does not persist, and whether the platform explains its behavior. Avoid making a purchase solely on the assumption that a preference will remain set."
+      ]
+    },
+    {
+      "heading": "Judge readability and placement inside the headset",
+      "paragraphs": [
+        "A text track can technically appear but still be difficult to use. When a legitimate preview is available, inspect it in the headset and note whether the text is legible, whether its placement obscures important interface elements, and whether the player provides relevant adjustments. The ideal presentation depends on the viewer and device; the purpose of the test is to determine personal fit rather than declare one universal standard.",
+        "Check basic controls such as turning text on or off, selecting a listed language, changing size if that option exists, and repositioning text if supported. Do not assume these controls exist. If adjustment options are absent or unclear, record that as a limitation and decide whether it matters for your use.",
+        "Where possible, compare the headset route with a browser or desktop route using the same account and content access. This can help reveal whether a setting is specific to one player. Do not assume that a setting changed on one device will transfer to another unless the platform documents or you verify that behavior."
+      ],
+      "table": {
+        "caption": "A subtitle-control test for comparing VR platforms",
+        "headers": [
+          "Check",
+          "Evidence to record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Availability",
+            "Exact wording and whether it applies to the title or platform",
+            "Avoids assuming every item has text support"
+          ],
+          [
+            "Control location",
+            "Player menu, account setting, device setting, or unknown",
+            "Shows how easily the option can be found"
+          ],
+          [
+            "Persistence",
+            "Whether it remains after changing items or reopening playback",
+            "Clarifies whether repeated setup may be needed"
+          ],
+          [
+            "Language choice",
+            "Languages explicitly listed for the content tested",
+            "Prevents assuming an unlisted translation exists"
+          ],
+          [
+            "Headset readability",
+            "Legibility and available adjustments in the intended headset",
+            "Tests practical fit rather than a desktop-only claim"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare previews and catalogue information carefully",
+      "paragraphs": [
+        "A preview is useful only for the parts it lets you inspect. It may demonstrate a player menu but not show whether every title has the same text options. It may show a language track without making clear whether that track is included with the access model you are considering. Treat preview observations as evidence about that specific sample and route, not a guarantee for the whole library.",
+        "Look for title-level details that identify text availability and access conditions. If the catalogue does not provide these details, contact support with a narrow question: whether a named item or format offers a specific text option, and whether it works on your intended device route. Keep the answer and date, but understand that catalogue information may change.",
+        "Compare platforms on the transparency of their disclosures as well as the number of claims. A clear statement that support varies by title can be more useful than a broad, unexplained feature label. If text access is essential, make confirmed availability a requirement rather than relying on general marketing language."
+      ]
+    },
+    {
+      "heading": "Include subtitle controls in your platform shortlist",
+      "paragraphs": [
+        "Use a simple shortlist with three evidence states: confirmed in your intended route, stated but not tested, and unknown. Do not turn “not tested” into “not supported,” or “mentioned somewhere on the platform” into “confirmed for the whole catalogue.” This keeps the comparison honest and makes it easier to identify the one question that still needs an answer.",
+        "Consider how the platform’s access model affects testing. If you cannot inspect the player or catalogue details without creating an account or paying, weigh that limitation alongside the available account-free information and any applicable cancellation terms. This is not a recommendation to subscribe; it is a reminder to check what you can evaluate before committing.",
+        "Recheck the settings after app, browser, or headset changes that could affect the player. If a preference stops working, note the device route and software context before contacting support. Clear records help distinguish a product limitation from a one-time setup issue without making assumptions about the cause."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform-wide subtitle claim mean every VR item has subtitles?",
+      "answer": "Not necessarily. The claim may apply only to some content, a particular player, or a specific access route. Check title-level information and confirm the option in the headset route you intend to use before relying on it."
+    },
+    {
+      "question": "Why might subtitle settings reset between items or sessions?",
+      "answer": "Preferences may be handled at different levels, such as an individual player, device, app, or account, and the platform may not disclose which applies. Record what you observe and ask support if persistence is important. Do not assume a setting is permanently saved after one successful test."
+    },
+    {
+      "question": "Are captions and subtitles interchangeable?",
+      "answer": "Not always. Their intended information can differ, and platforms may use the terms inconsistently. Check the platform’s explanation of the specific option and test the content where possible rather than assuming a label describes a particular text format."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
