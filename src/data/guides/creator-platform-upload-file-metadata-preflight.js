@@ -1,0 +1,119 @@
+export default {
+  "slug": "creator-platform-upload-file-metadata-preflight",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check File Metadata Before Uploading Content",
+  "description": "A privacy workflow for creators to review image, video, and document metadata before uploading, while separating file cleanup from platform privacy settings.",
+  "excerpt": "A public post can reveal details carried inside its original file, even when the visible content does not. Build a repeatable metadata check before uploading, and keep platform preview and account settings as separate checks.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "Check source files for embedded metadata that could reveal location, device, author, or editing details before publishing.",
+    "Use a copy of the original when cleaning or exporting files, so you retain a private source archive if needed.",
+    "Review images, videos, and documents separately because metadata fields and removal options vary by format and tool.",
+    "Do not assume a platform removes metadata unless its documentation clearly describes that behavior and scope.",
+    "After upload, inspect the public-facing result and account controls; a clean file does not resolve every privacy risk."
+  ],
+  "sections": [
+    {
+      "heading": "Why file metadata deserves a separate check",
+      "paragraphs": [
+        "The visible part of an image, video, or document is not the whole file. Some formats can include embedded details such as capture time, device or software information, author fields, or location data. Whether those fields exist depends on the file and how it was created or edited. A creator who focuses only on the preview may miss information attached to the underlying upload.",
+        "Metadata review is a distinct step from checking a platform’s public profile, post visibility, or preview presentation. A platform might transform uploaded files, but you should not assume that it removes every embedded field or does so consistently across formats. The safest workflow is to check a prepared copy before upload and then inspect the published result through the platform’s available controls."
+      ],
+      "bullets": [
+        "Treat images, video files, and documents as separate file types in the workflow.",
+        "Check both the visible content and the file properties; either can expose information.",
+        "Keep platform privacy settings and file-level metadata checks as separate checklist items."
+      ]
+    },
+    {
+      "heading": "Create a safe pre-upload copy",
+      "paragraphs": [
+        "Begin with a working copy rather than editing the only source file. Store the original in a private location with access controls appropriate to your needs, and create a separate copy for publishing. Use a reputable tool or the operating system’s file-information features to inspect properties. If a field is present and unnecessary for publication, use a documented export or metadata-removal function and verify the resulting copy rather than assuming the change worked.",
+        "The goal is not to strip every useful piece of information from every file. Some fields may support your own organization or production records. Decide what the public file needs to contain, and keep internal records separate from publication copies. Avoid uploading a file to an unfamiliar online “cleaner” merely to remove metadata; that can create a new disclosure risk if the service stores or reuses the file."
+      ],
+      "table": {
+        "caption": "Metadata preflight by file type",
+        "headers": [
+          "File type",
+          "Fields to review",
+          "Verification step"
+        ],
+        "rows": [
+          [
+            "Image",
+            "Location, capture time, device, author or software fields",
+            "Inspect the exported copy’s properties"
+          ],
+          [
+            "Video",
+            "Creation details, location-related fields, authoring software",
+            "Review a fresh export and test the published download if available"
+          ],
+          [
+            "Document",
+            "Author, comments, revision history, embedded properties",
+            "Use the document’s inspection or export tools before sharing"
+          ],
+          [
+            "Thumbnail or preview",
+            "Whether it comes from the intended cleaned file",
+            "Check the public-facing preview after upload"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a repeatable inspection workflow",
+      "paragraphs": [
+        "For each upload, record the file type, the tool used to inspect it, and whether you made a new export. Check the properties before and after cleanup. If the tool offers a preview or a report of removed fields, save a minimal record of the process without copying sensitive values into a shared log. Repeating the same steps helps catch process drift when you change devices, editing software, or export settings.",
+        "If you work with a team, decide who checks files and how the approved copy is identified. Use clear, non-sensitive file names that distinguish working originals from publication versions. Avoid placing personal names, private locations, or account identifiers in filenames if those details may be exposed through a link or shared workspace. Restrict access to originals and remove unnecessary copies from shared folders according to your own retention plan."
+      ],
+      "bullets": [
+        "Inspect the working copy before upload.",
+        "Export or clean the publication copy using a documented local tool where possible.",
+        "Reinspect the publication copy to confirm the intended change.",
+        "Keep originals and public copies clearly separated and access-controlled."
+      ]
+    },
+    {
+      "heading": "Separate metadata from other privacy exposures",
+      "paragraphs": [
+        "Metadata checks cannot identify every privacy issue in a file. A visible reflection, background detail, document comment, watermark, or distinctive setting can reveal information even if embedded fields are removed. Likewise, a platform may expose the account name, post time, public profile, or uploaded preview independently of file metadata. Review both layers without treating a clean metadata report as proof of complete anonymity.",
+        "The platform’s upload and preview workflow also matters. Check who can view a draft, whether a preview is public before publication, and what controls apply to the final post. Those settings are separate from file properties. If a post is intended for a limited audience, verify the actual audience control before publishing and consider testing with a low-risk draft if the platform permits it."
+      ],
+      "bullets": [
+        "Inspect visible backgrounds, reflections, text, and document comments independently of metadata.",
+        "Review draft and preview visibility before posting.",
+        "Confirm account identity and audience settings separately from the file-cleaning process."
+      ]
+    },
+    {
+      "heading": "Verify the published version and maintain records",
+      "paragraphs": [
+        "After upload, use the platform’s own view or download options, if available, to check what is actually presented. A platform may resize, transcode, or generate a preview, and the behavior can differ by format or upload path. If you cannot inspect the served file, record that as an unknown rather than claiming that the platform stripped metadata. Rely on what you verified, not on assumptions about how a service processes files.",
+        "Keep a simple record of the date, file version, inspection method, and result. Avoid recording sensitive metadata values unless you have a specific operational need and a secure place to store them. If you discover an unwanted field after publication, use the platform’s documented editing or removal process and assess whether replacing the file is sufficient. For ongoing creator operations, make metadata review part of the normal publishing checklist rather than a one-time setup task."
+      ],
+      "bullets": [
+        "Mark results as verified, not verified, or unknown.",
+        "Store a minimal log in a private location and limit access to source files.",
+        "If a privacy issue is found after publication, follow the platform’s documented correction or removal route and verify the outcome."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a creator platform automatically remove image metadata?",
+      "answer": "Do not assume that it does. Processing can vary by platform, file type, and upload route. Check the platform’s own documentation and, where possible, inspect the published file or preview."
+    },
+    {
+      "question": "Can metadata removal make a post anonymous?",
+      "answer": "No. It addresses only embedded file details. Visible background information, account identity, post timing, and platform settings can still reveal information."
+    },
+    {
+      "question": "Should I delete the original after making a cleaned copy?",
+      "answer": "That depends on your recordkeeping needs and security plan. If you retain originals, store them privately with appropriate access limits and keep them separate from publication copies."
+    }
+  ]
+};

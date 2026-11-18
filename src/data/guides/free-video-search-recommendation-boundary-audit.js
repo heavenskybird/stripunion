@@ -1,0 +1,118 @@
+export default {
+  "slug": "free-video-search-recommendation-boundary-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Compare Search Results with Personalized Recommendations",
+  "description": "A practical framework for checking how free video platforms separate search results from recommendations, and which controls may influence each discovery route.",
+  "excerpt": "Search results and recommendations can follow different rules. Use this comparison to understand where results come from, how personalization may shape them, and what to check before relying on either route.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "Treat a search result and a recommendation as different discovery routes, even when they show similar listings.",
+    "Check whether the platform explains how each route is generated and what account or activity signals may influence it.",
+    "Compare results for a consistent set of neutral queries rather than judging a platform from one screen.",
+    "Record what controls are available for recommendations separately from search filters and sorting.",
+    "Avoid assuming that hiding a recommendation removes an item from search or changes the underlying account data."
+  ],
+  "sections": [
+    {
+      "heading": "Why separate search from recommendations",
+      "paragraphs": [
+        "A search tool is usually meant to respond to a query, while a recommendation area may draw on browsing activity, account settings, popularity signals, or editorial choices. The interface does not always make that distinction obvious. A page labeled “related,” “suggested,” or “for you” may look like a continuation of search even when it follows a different process.",
+        "This matters when comparing free video platforms because the same listing can appear in multiple places for different reasons. Search can be useful for targeted discovery; recommendations can be useful for browsing, but may be less predictable. Separating the two makes it easier to judge usability and privacy without treating a personalized feed as evidence that a search result is complete or representative."
+      ],
+      "bullets": [
+        "Mark each discovery surface you evaluate: query results, trending pages, suggested items, and editorial collections.",
+        "Note whether each surface is available without signing in and whether the page identifies it as personalized.",
+        "Do not infer the platform’s recommendation logic from a single result or one browsing session."
+      ]
+    },
+    {
+      "heading": "Build a repeatable comparison",
+      "paragraphs": [
+        "Use the same small set of neutral queries on each platform. Choose terms that reflect broad categories or format attributes rather than sensitive personal information. Record whether the results appear to match the query, whether filters or sorting are available, and whether unrelated items are mixed in. The aim is not to declare a platform’s search universally good or bad; it is to see whether it supports your own discovery task with understandable controls.",
+        "Then inspect recommendation surfaces separately. Note where they appear, whether they change after ordinary browsing, and whether the platform offers a way to dismiss, reset, or reduce them. A comparison is more useful if you keep the device, browser state, and sign-in status as consistent as possible. If you test both signed-in and signed-out use, label those observations separately rather than combining them."
+      ],
+      "table": {
+        "caption": "A simple worksheet for comparing discovery routes",
+        "headers": [
+          "Surface",
+          "What to record",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Search results",
+            "Query, filters, sorting, visible context",
+            "Can I tell why these items match the query?"
+          ],
+          [
+            "Recommendations",
+            "Placement, labels, available controls",
+            "Is this presented as personalized or editorial?"
+          ],
+          [
+            "Trending or popular areas",
+            "Time context, category, explanation",
+            "Does the page explain what “trending” means?"
+          ],
+          [
+            "Collections",
+            "Who curates them, update information",
+            "Is there evidence of an editorial or thematic purpose?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what may influence recommendations",
+      "paragraphs": [
+        "Look for a settings area or help page that describes recommendation controls. A platform may offer controls for history, personalization, or activity visibility, but their scope should be read carefully. A setting that changes future recommendations may not erase past activity, and clearing activity may not affect other data held by the service. Keep those questions distinct rather than assuming one control covers every use of account information.",
+        "If a platform provides no explanation, record that as an information gap rather than guessing how the system works. You can still assess observable behavior: whether recommendations are shown while signed out, whether they change after browsing, whether dismissal options persist, and whether the interface identifies a reason for an item appearing. Avoid entering sensitive queries just to probe personalization; ordinary, non-sensitive test queries are enough to compare basic behavior."
+      ],
+      "bullets": [
+        "Find the stated scope of controls for viewing history, recommendations, and personalization.",
+        "Check whether controls require an account and whether the platform explains what changes after using them.",
+        "Treat an unclear or unavailable control as unknown, not as proof that tracking does or does not occur."
+      ]
+    },
+    {
+      "heading": "Understand the privacy and usability trade-off",
+      "paragraphs": [
+        "Recommendations can reduce the effort of finding related material, while personalization can make a browsing experience more tied to account activity. A platform may provide controls to limit some personalization, but those controls can affect only a particular surface or data source. Before using an account for convenience, check what the service says about activity, recommendations, and deletion or reset options. Do not assume that private browsing prevents a signed-in service from associating activity with the account.",
+        "Search can also expose query terms in browser history, account history, or other records depending on how the service and device work. If privacy is important, use non-sensitive test terms when comparing discovery tools, review browser and account settings, and avoid signing in on a shared device unless you understand the resulting activity and session controls. These are general precautions, not guarantees about what any one platform stores."
+      ],
+      "bullets": [
+        "Use a private device profile where appropriate, while remembering that private browsing is not a full anonymity tool.",
+        "Keep account-history controls separate from browser-history controls in your notes.",
+        "Check whether clicking a result opens a third-party destination and assess that destination independently."
+      ]
+    },
+    {
+      "heading": "Choose a discovery route that fits the task",
+      "paragraphs": [
+        "For a specific search task, prioritize query relevance, useful sorting, and clear listing context. For open-ended browsing, assess whether recommendation labels are understandable and whether controls let you dismiss or reduce items you do not want. If the platform offers curated collections, examine whether they identify a theme or editorial source rather than assuming every collection is algorithmic.",
+        "A concise scorecard helps prevent a prominent homepage feed from dominating the decision. Rate each route against the task you actually have: find a particular type of listing, browse without an account, or limit personalization. A platform can be suitable for one task and inconvenient for another. Revisit the comparison if the interface or control descriptions change; discovery features are operational details that can evolve."
+      ],
+      "bullets": [
+        "Choose search when query matching and filters matter most.",
+        "Choose recommendations only when their labels and controls are clear enough for your comfort.",
+        "Prefer platforms where you can distinguish search, editorial collections, and personalized surfaces without guesswork."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are recommendations the same as search results?",
+      "answer": "Not necessarily. Search generally responds to a query, while recommendations may use other signals or editorial selection. Check how the platform labels each surface and avoid treating one as a substitute for the other."
+    },
+    {
+      "question": "Does turning off recommendations delete viewing history?",
+      "answer": "Not automatically. A control may affect future recommendations without deleting stored activity. Read the stated scope of each setting and look for separate history and deletion controls."
+    },
+    {
+      "question": "How can I compare discovery without sharing sensitive information?",
+      "answer": "Use a small set of neutral, non-sensitive queries and compare the same surfaces under consistent conditions. Record sign-in status and device context, and do not use personal searches as an experiment."
+    }
+  ]
+};

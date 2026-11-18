@@ -1,0 +1,132 @@
+{
+  "backlogId": "adult-shop-installment-payment-terms-audit",
+  "slug": "adult-shop-installment-payment-terms-audit",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Checkout: Review Installment Payment Terms Before Ordering",
+  "description": "A checklist for understanding installment payment terms at adult shops, including total cost, billing schedule, privacy, missed-payment procedures, and who handles support.",
+  "excerpt": "A split payment can change the timing and handling of a purchase. Before selecting an installment option, check the full amount, schedule, data sharing, and support route—not just the first amount shown at checkout.",
+  "keyTakeaways": [
+    "Compare the complete amount due under the installment option with the ordinary checkout total, including any stated fees or taxes.",
+    "Confirm the payment dates, automatic-charge rules, and what happens if a charge cannot be collected.",
+    "Identify which company processes the installments and which party handles order questions or payment disputes.",
+    "Review what information is shared with a payment provider and what appears on statements or account records.",
+    "Save the terms shown at checkout so the offer can be compared with later receipts and account activity."
+  ],
+  "sections": [
+    {
+      "heading": "Look beyond the first payment shown",
+      "paragraphs": [
+        "An installment option can make the first checkout amount appear smaller while dividing the remaining obligation across later dates. That first figure does not, by itself, explain the complete cost or commitment. Before choosing it, identify the total amount due, the number and timing of charges, any disclosed service or late fees, and whether taxes or delivery charges are included in the displayed schedule.",
+        "Compare the installment terms with the ordinary payment option using the same basket and destination. A fair comparison includes the order total, payment schedule, and any costs that may apply only under one method. If the final terms are not visible until a provider page or confirmation step, read that page before authorizing payment. Do not assume a later charge will match the initial display unless the terms state that clearly."
+      ],
+      "table": {
+        "caption": "Checkout details to compare before choosing installments",
+        "headers": [
+          "Detail",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Total obligation",
+            "All scheduled payments and disclosed fees",
+            "Shows the amount you are agreeing to pay"
+          ],
+          [
+            "Schedule",
+            "Dates, interval, and number of charges",
+            "Helps prevent surprises and missed dates"
+          ],
+          [
+            "Automatic collection",
+            "Whether later charges are taken automatically",
+            "Clarifies what action, if any, is required"
+          ],
+          [
+            "Order charges",
+            "Shipping, tax, or other checkout components",
+            "Avoids comparing incomplete totals"
+          ],
+          [
+            "Support route",
+            "Retailer versus payment-provider responsibility",
+            "Helps direct questions to the right party"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand the payment provider’s role",
+      "paragraphs": [
+        "The shop and the installment provider may have different responsibilities. The retailer may manage stock, dispatch, returns, or product questions, while a separate provider may manage the payment schedule and payment-account questions. Read the checkout disclosures and help pages to identify the parties, their roles, and the channel for each type of issue. If the documentation is unclear, pause before submitting payment rather than assuming the retailer handles every part of the transaction.",
+        "Check whether choosing installments requires creating or accessing a separate account, supplying additional details, or accepting a separate set of terms. The information required can vary, and you should rely on the actual checkout disclosures rather than assumptions about a particular payment method. Give only information requested through the legitimate flow, and confirm that you are on the intended retailer or provider page before entering account or payment details."
+      ],
+      "bullets": [
+        "Identify the merchant and any separate payment provider by name in the checkout disclosures.",
+        "Separate order support, return support, and payment-schedule support in your notes.",
+        "Do not follow an unsolicited message asking for payment credentials; use a verified route from the retailer or provider."
+      ]
+    },
+    {
+      "heading": "Assess privacy and billing records",
+      "paragraphs": [
+        "An installment selection may involve sharing transaction or identity details with a payment provider. Check the provider’s privacy information for the categories of data collected, how information is used, and whether the provider describes sharing with the retailer or other parties. The purpose is not to infer hidden practices; it is to understand the stated data flow and decide whether it fits your comfort level.",
+        "Also consider what may appear in your own records. Review the checkout wording about statements, receipts, account notifications, and order emails. If privacy on a shared device or mailbox matters, use account and device arrangements you control, and avoid leaving payment pages open. A payment descriptor or email subject can reveal information to someone with access to those records, so inspect available explanations before paying where possible."
+      ],
+      "bullets": [
+        "Read both the shop’s and the payment provider’s privacy explanations when they are separate.",
+        "Check what appears in confirmation messages and payment records, without assuming the display will be discreet.",
+        "Use a private, secure email account and device if shared access could expose order records."
+      ]
+    },
+    {
+      "heading": "Check missed-payment, cancellation, and return terms",
+      "paragraphs": [
+        "Installment agreements may explain what happens when a payment method expires, a charge is declined, or a scheduled payment is late. Read those terms before accepting the schedule. Look for stated retries, notices, fees, account restrictions, or escalation routes, and distinguish documented terms from anything you are unsure about. If the terms are not easy to locate, that is a practical reason to seek clarification or choose another payment method.",
+        "A return or cancellation does not necessarily explain how the payment schedule is adjusted. Review the shop’s return and order-cancellation rules, then check the payment provider’s process for refunds or balance changes. Do not assume that returning an item automatically cancels every scheduled charge, or that contacting only one party resolves both the order and payment records. Keep receipts and written confirmations until the retailer and provider records agree."
+      ],
+      "bullets": [
+        "Find the policy for failed or late scheduled payments before authorizing the plan.",
+        "Check whether order cancellation, returns, and refunds are handled by one party or more than one.",
+        "Save confirmation of any approved refund or schedule adjustment and compare it with account records."
+      ]
+    },
+    {
+      "heading": "Use a decision checklist at checkout",
+      "paragraphs": [
+        "Choose installments only if the schedule, full obligation, privacy disclosures, and support responsibilities are clear enough for you to manage. A payment option is not automatically a better fit because it splits a charge. Consider whether the future dates work for your own budgeting, whether the account requirements are acceptable, and whether you can keep track of the obligation without relying on an uncertain reminder.",
+        "If you proceed, retain the terms and confirmation in a secure place. Record the planned payment dates in a personal calendar if that is useful, but do not put sensitive product details in a shared calendar. If any displayed figure conflicts with the terms or later receipt, contact the relevant party through its verified support route and keep the written response. This approach helps resolve a mismatch without oversharing information."
+      ],
+      "bullets": [
+        "I can identify the complete amount and every scheduled charge.",
+        "I understand who handles payment questions and who handles the order.",
+        "I have reviewed data-use and billing-record disclosures.",
+        "I know what the terms say about missed payments, returns, and refunds.",
+        "I can safely store the confirmation and track the schedule."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the first installment the total price?",
+      "answer": "No. Treat it as one part of a scheduled obligation. Confirm the total amount, later charges, and any disclosed fees before authorizing payment."
+    },
+    {
+      "question": "Does returning an order automatically stop future installments?",
+      "answer": "Do not assume so. Check the retailer’s return process and the payment provider’s terms, and obtain confirmation that the order and payment schedule were both adjusted."
+    },
+    {
+      "question": "Who should I contact about an installment problem?",
+      "answer": "Use the documented route for the specific issue. The retailer may handle an order or return, while a separate provider may manage scheduled charges. Keep records of contact with each party when both are involved."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

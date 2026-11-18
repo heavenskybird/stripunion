@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T07:25:22.649Z",
+  "generatedAt": "2026-11-18T10:04:55.369Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-browse-first-profile-activation-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-translation-service-data-boundary-review.json",
-    "ops/editorial/content-artifacts/creator-platform-accountant-records-data-minimization-workflow.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-color-contrast-interface-evaluation.json",
-    "ops/editorial/content-artifacts/adult-anime-game-post-install-update-and-storage-plan.json"
+    "ops/editorial/content-artifacts/free-video-search-recommendation-boundary-audit.json",
+    "ops/editorial/content-artifacts/adult-games-controller-remapping-persistence-check.json",
+    "ops/editorial/content-artifacts/adult-shop-installment-payment-terms-audit.json",
+    "ops/editorial/content-artifacts/premium-video-playback-session-exit-privacy-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-upload-file-metadata-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-browse-first-profile-activation-audit.js",
-    "src/data/guides/adult-platform-translation-service-data-boundary-review.js",
-    "src/data/guides/creator-platform-accountant-records-data-minimization-workflow.js",
-    "src/data/guides/vr-adult-platform-color-contrast-interface-evaluation.js",
-    "src/data/guides/adult-anime-game-post-install-update-and-storage-plan.js"
+    "src/data/guides/free-video-search-recommendation-boundary-audit.js",
+    "src/data/guides/adult-games-controller-remapping-persistence-check.js",
+    "src/data/guides/adult-shop-installment-payment-terms-audit.js",
+    "src/data/guides/premium-video-playback-session-exit-privacy-audit.js",
+    "src/data/guides/creator-platform-upload-file-metadata-preflight.js"
   ],
   "categories": [
-    "dating-hookups",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "vr-ar",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "premium-videos",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-dating-browse-first-profile-activation-audit",
-    "adult-platform-translation-service-data-boundary-review",
-    "creator-platform-accountant-records-data-minimization-workflow",
-    "vr-adult-platform-color-contrast-interface-evaluation",
-    "adult-anime-game-post-install-update-and-storage-plan"
+    "free-video-search-recommendation-boundary-audit",
+    "adult-games-controller-remapping-persistence-check",
+    "adult-shop-installment-payment-terms-audit",
+    "premium-video-playback-session-exit-privacy-audit",
+    "creator-platform-upload-file-metadata-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44258341379",
-  "phase": "closed"
+  "r1CycleId": "44281502780"
 }
