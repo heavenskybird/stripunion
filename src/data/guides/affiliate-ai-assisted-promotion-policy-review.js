@@ -1,0 +1,120 @@
+export default {
+  "slug": "affiliate-ai-assisted-promotion-policy-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Rules for AI-Assisted Promotional Content",
+  "description": "Before using AI-assisted copy, images, or automation in affiliate promotion, check the program's written rules, disclosure requirements, and review process with this operational checklist.",
+  "excerpt": "Affiliate terms may address automation, generated assets, brand use, or content standards in different places. Build a documented approval check before publishing AI-assisted promotions.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "Do not assume that a program's general approval of affiliate promotion covers AI-assisted copy, imagery, video, or automated publishing.",
+    "Check current written terms, creative rules, brand permissions, and any channel-specific policy; ask for written clarification when rules are unclear.",
+    "Keep human review for factual claims, disclosures, links, audience suitability, and rights to any assets used.",
+    "Record which tools and source materials contributed to a promotion, while avoiding unnecessary retention of personal or confidential data.",
+    "Treat a program's response as guidance for the stated use case, not a blanket approval for every asset, channel, or future campaign."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the content type from the way it was made",
+      "paragraphs": [
+        "A promotional page can combine several elements: original editorial text, generated draft language, edited images, templates, and automated publishing. Program terms may treat these elements differently. A broad rule about acceptable websites may not answer whether an automatically generated review, a synthetic image, or a mass-produced social post is permitted. The practical question is not simply whether AI is allowed; it is what the program permits for each asset and channel you intend to use.",
+        "Start by listing the proposed use in plain language. For example, distinguish an internal drafting aid from text published with little review, and distinguish an original illustration from an altered program logo or a generated image that resembles a real person. This precision helps you locate relevant rules and seek a useful answer. Do not rely on vague assurances that a tool or technique is generally acceptable."
+      ],
+      "bullets": [
+        "List each asset type: copy, image, video, audio, translation, or automated feed.",
+        "Note where the material will appear: editorial page, email, social post, or another channel.",
+        "Describe the level of human review and any automated publishing involved.",
+        "Identify any program name, logo, offer claim, or other brand element included."
+      ]
+    },
+    {
+      "heading": "Find the controlling rules before production",
+      "paragraphs": [
+        "Review the current program agreement and any linked policies covering promotion methods, creative use, brand representation, disclosure, and prohibited content. Terms may be distributed across a contract, dashboard, help center, or creative instructions. Check dates and versions so the decision is based on the rules currently presented to you, not an old copied excerpt or an informal discussion that no longer reflects the program's requirements.",
+        "If two documents appear to conflict, do not resolve the difference by choosing the more permissive wording. Note the conflict and ask the program contact which rule controls for the exact use. Save the response with the relevant policy version. Written clarification is particularly useful when the question involves scale, automated publication, synthetic likenesses, or claims about a product or service."
+      ],
+      "table": {
+        "caption": "Policy questions to resolve before using AI-assisted assets",
+        "headers": [
+          "Use case",
+          "What to check",
+          "Evidence to retain"
+        ],
+        "rows": [
+          [
+            "AI-assisted editorial copy",
+            "Content standards, factual claims, disclosure, and review expectations",
+            "Relevant policy version and a note of editorial review"
+          ],
+          [
+            "Generated or altered imagery",
+            "Creative permissions, likeness concerns, and brand restrictions",
+            "Asset source, edits made, and any written approval"
+          ],
+          [
+            "Automated publishing",
+            "Automation, scraping, feed, and channel rules",
+            "Workflow description and the program's response"
+          ],
+          [
+            "Translation or localization",
+            "Rules for claims, translated brand material, and regional placement",
+            "Reviewed final copy and the applicable guidance"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Ask a narrow, answerable question",
+      "paragraphs": [
+        "A useful policy request describes the specific workflow rather than asking, “Is AI allowed?” State what the tool will produce, whether a person will review it, where it will be published, whether program-provided assets or marks will appear, and how disclosures will be handled. Ask which written rule applies and whether approval is needed before publication. Avoid sending unpublished business plans or user data that are not needed to answer the question.",
+        "Keep the response with the campaign record and note its scope. A reply about one text format or website does not automatically cover paid advertising, email, social media, another program, or a different asset. If the program changes its terms or the workflow changes materially, repeat the review rather than treating old approval as permanent."
+      ],
+      "bullets": [
+        "Describe the asset, channel, review process, and scale in concrete terms.",
+        "Ask whether the use is allowed, restricted, or requires advance approval.",
+        "Request the applicable policy section or a written clarification of conflicting rules.",
+        "Record the date and scope of the response."
+      ]
+    },
+    {
+      "heading": "Build human review into the workflow",
+      "paragraphs": [
+        "Even when a program permits a particular production method, the publisher remains responsible for checking the material they publish. Review every factual statement against a reliable source. Confirm that claims about membership, access, features, or terms are accurate and current. Check that affiliate disclosures are clear and placed where readers can notice them. Inspect every link and creative asset before it goes live; generated text can invent details, and automated systems can preserve an outdated offer or destination.",
+        "Review tone and presentation as well as factual accuracy. Remove misleading certainty, fabricated testimonials, unsupported comparisons, and material that suggests an endorsement the program has not granted. Confirm that images and other assets have an appropriate source and that the rights permit the intended use. If content is translated, have someone who can assess the final language check for changes in meaning, disclosures, and claims."
+      ],
+      "bullets": [
+        "Verify claims and offers independently; do not publish generated specifics without evidence.",
+        "Check disclosure placement, destination links, brand treatment, and asset permissions.",
+        "Use a defined reviewer and approval step before automated publication.",
+        "Recheck material after changes to program terms, landing pages, or creative assets."
+      ]
+    },
+    {
+      "heading": "Keep records without creating a new data risk",
+      "paragraphs": [
+        "A lean record can show how a promotion was produced and why it was approved: the asset version, policy version, reviewer, source materials, and any program clarification. You usually do not need to retain every prompt, private conversation, or sensitive source document indefinitely. Set a retention period that suits your operational and contractual needs, and restrict access to people who need the records.",
+        "If a program questions an asset, pause or revise the promotion while you compare it with the relevant rule and your approval record. Preserve the exact published version and the program's notice, then document the corrective action. Avoid replacing disputed material without noting what changed; a clear change history helps resolve the issue and prevents the same workflow from producing the same problem again."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program does not mention AI, does that mean AI-assisted promotions are allowed?",
+      "answer": "Not necessarily. Other rules about content quality, automation, brand use, claims, or channels may apply. Identify the exact workflow and ask the program for written clarification if the applicable terms do not answer it."
+    },
+    {
+      "question": "Does approval of one AI-assisted page cover all future content?",
+      "answer": "Do not assume so. Approval may relate only to a specific asset, channel, site, or version. Keep the scope of the response and seek updated guidance if the method, content, or placement changes materially."
+    },
+    {
+      "question": "What should a publisher review before publishing generated copy?",
+      "answer": "Check factual claims, disclosures, links, brand representation, audience suitability, and rights to any assets. Remove unsupported comparisons or invented specifics, and have a responsible human reviewer approve the final version."
+    },
+    {
+      "question": "Should I keep every prompt and draft as evidence?",
+      "answer": "Usually a focused operational record is more useful: final asset versions, relevant policy versions, review notes, and written approvals. Avoid retaining unnecessary confidential or personal information, and follow your own retention and access-control procedures."
+    }
+  ]
+};
