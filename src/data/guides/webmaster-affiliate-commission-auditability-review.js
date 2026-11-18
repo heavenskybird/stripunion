@@ -1,0 +1,116 @@
+export default {
+  "slug": "webmaster-affiliate-commission-auditability-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Can You Audit How Reported Commissions Were Calculated?",
+  "description": "Compare affiliate programs by how clearly they explain commission calculations, adjustments, and the records a webmaster can use to check a statement.",
+  "excerpt": "A commission figure is difficult to rely on when its calculation cannot be understood. Use this review framework to check whether program rules, reports, and statements let you trace reported earnings.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "A displayed commission total is more useful when the program explains the events and rules that produced it.",
+    "Separate attribution evidence, commission eligibility, adjustments, and payment settlement; they answer different questions.",
+    "Check whether reports preserve enough detail to explain changes between an initial figure and a final statement.",
+    "Save dated copies of applicable terms, reports, statements, and support explanations.",
+    "Treat unresolved calculation gaps as operational uncertainty, not proof of an error or misconduct."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you need to verify",
+      "paragraphs": [
+        "When comparing affiliate programs, webmasters often look first at the stated commission model. But a model is only one part of the decision. You also need to know whether you can understand how an individual reported conversion becomes an eligible commission, how that commission may be adjusted, and how the final payable amount is calculated. The useful question is not simply whether a dashboard shows earnings. It is whether the available rules and records let you follow the calculation from event to statement.",
+        "Keep four stages distinct. Attribution concerns whether a referral is credited to your account. Qualification concerns whether the credited event meets program rules. Adjustments may change a previously reported amount or status. Settlement concerns how an approved balance is carried into a statement or payment. A program may document one stage well and leave another unclear, so assess each stage separately rather than treating a single dashboard total as full evidence."
+      ],
+      "bullets": [
+        "Can you identify the rule that determines whether a credited event qualifies?",
+        "Can a report distinguish pending, approved, adjusted, and excluded amounts?",
+        "Can you explain how the statement total relates to the detailed report?"
+      ]
+    },
+    {
+      "heading": "Read the calculation rules as a sequence",
+      "paragraphs": [
+        "Start with the program’s written terms and any accompanying commission schedule. Look for the defined event, the basis on which commission is calculated, the conditions that can change eligibility, and the process for corrections. The wording should tell you what information is relevant, not merely provide a headline rate or a general statement that commissions are subject to review. If rules are spread across an agreement, dashboard, and help pages, note which documents apply and when each was accessed.",
+        "Next, check whether the documents explain how those rules are reflected in the reporting interface. For example, if a program can revise an event status, determine whether it describes the statuses, the reason categories, or the timing of changes. Do not infer that an unexplained label means a particular outcome. Record the label as displayed and ask for its definition. A clear answer should identify the applicable rule or report field without requiring you to guess."
+      ],
+      "table": {
+        "caption": "Separate the questions a commission review should answer",
+        "headers": [
+          "Stage",
+          "What to verify",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Attribution",
+            "Whether the referral is recorded for the relevant account or campaign",
+            "Dated referral and campaign reports"
+          ],
+          [
+            "Qualification",
+            "Which written conditions determine eligibility",
+            "Terms and applicable commission schedule"
+          ],
+          [
+            "Adjustment",
+            "What can change a reported amount or status",
+            "Status history, adjustment detail, and explanations"
+          ],
+          [
+            "Settlement",
+            "How approved amounts appear in a statement",
+            "Statement, balance report, and payment record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assess report detail without assuming access",
+      "paragraphs": [
+        "A useful report does not have to expose personal information about referred customers. It should, however, provide enough permitted detail for a publisher to understand the accounting. Depending on the program, relevant fields may include a date or reporting period, campaign identifier, event status, commission amount, adjustment category, and a stable reference that helps relate an item in one report to an item in another. The precise fields vary; evaluate the actual documentation rather than expecting a particular dashboard design.",
+        "Check what happens to detail over time. A report that shows only a current balance may not explain why the balance changed. Look for an accessible history, downloadable statements, or a documented way to request an explanation. Confirm whether totals can be filtered by property or campaign if you operate more than one placement. Do not assume that a field shown in an initial report will remain available later, or that an export contains the same detail as the online view. Record limitations before relying on the data for forecasting or reconciliation."
+      ],
+      "bullets": [
+        "Write down field names and definitions, not just screenshots of totals.",
+        "Note whether the report shows a status history or only the current status.",
+        "Check how report periods, campaign labels, and statement totals correspond.",
+        "Avoid collecting or storing personal referral data that is not necessary for review."
+      ]
+    },
+    {
+      "heading": "Test a report-to-statement walkthrough",
+      "paragraphs": [
+        "Before scaling promotion, use a small, permitted test or an existing documented example to walk through the reporting path. Choose a report period, note the amount and status shown, and then compare it with the later statement for the same period. The purpose is to understand the process, not to manufacture activity or assume that a test event will qualify for payment. Follow program rules and do not create artificial referrals to test a system.",
+        "When a line item changes or a total differs, identify which stage could explain it. Was the referral not attributed, was an eligibility condition applied, was an adjustment made, or was the statement prepared on a different cutoff? Ask a narrowly framed question that includes the reporting period, the relevant reference, and the specific definition or calculation you need. Preserve the response with the version of the terms that applied. If no explanation is available, record the uncertainty and consider whether your operations can tolerate it."
+      ]
+    },
+    {
+      "heading": "Use an evidence file to support decisions",
+      "paragraphs": [
+        "A compact evidence file makes periodic review more reliable. Keep dated copies of agreements, commission schedules, reporting definitions, statement records, and relevant support replies. For each reporting period, record the figures you reviewed, any adjustments, and questions that remain open. Use consistent names for files and avoid mixing reporting periods. The goal is to make your own decision history understandable, not to build an unnecessarily large archive of visitor-level data.",
+        "Set a review point before you depend on a program for a material part of your publishing operation. Revisit the evidence if the program changes its terms, report fields, status definitions, or statement format. A useful comparison score can distinguish clear documentation, partial documentation, and unresolved questions for each calculation stage. This does not establish that any program is more accurate than another. It gives you a consistent basis for deciding which uncertainty you can accept and what clarification you need before committing more resources."
+      ]
+    },
+    {
+      "heading": "Make the comparison decision explicit",
+      "paragraphs": [
+        "At the end of the review, summarize what you can trace and what you cannot. For example, you may be able to connect an approved report amount to a statement but not to see the reason for an earlier status change. That is more informative than marking the whole program simply transparent or opaque. Put unresolved questions next to their operational consequence: extra manual reconciliation, limited forecasting confidence, or a need to retain more records.",
+        "Do not mistake a detailed-looking dashboard for a contractual guarantee, and do not treat an unclear report as evidence that a specific payment is wrong. The decision-support value is in matching the available documentation to your own requirements. If a calculation rule is material and remains ambiguous after a written question, seek appropriate professional advice where needed and avoid building forecasts on assumptions that the program has not confirmed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a detailed dashboard prove that a commission was calculated correctly?",
+      "answer": "No. A dashboard can help you trace reported figures, but correctness depends on the applicable rules and the underlying process. Compare the definitions, statuses, adjustments, and statement records, and ask about material gaps."
+    },
+    {
+      "question": "What should I do if a statement total differs from a report?",
+      "answer": "First compare the reporting periods, status definitions, and any listed adjustments. Then send a focused written question identifying the period and the discrepancy you can document. Keep the response with the relevant terms and statement."
+    },
+    {
+      "question": "Should I save detailed records about referred visitors?",
+      "answer": "Keep only information that is necessary and permitted for your review. Prefer program reports and reference identifiers over collecting personal visitor data, and follow applicable privacy obligations and the program’s terms."
+    }
+  ]
+};
