@@ -1,0 +1,115 @@
+{
+  "backlogId": "adult-platform-smart-tv-session-privacy-workflow",
+  "slug": "adult-platform-smart-tv-session-privacy-workflow",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Using an Adult Platform on a Smart TV: Check Account and Voice Privacy",
+  "description": "Before signing in on a smart TV, review shared profiles, voice controls, account persistence and screen visibility with this practical privacy checklist.",
+  "excerpt": "A television can make account access convenient, but it may also be shared, voice-enabled or left signed in. Check the device and room context before using an adult account on it.",
+  "keyTakeaways": [
+    "Treat the television, its remote, linked accounts and the room as separate privacy surfaces.",
+    "Check who can use the TV profile and whether account activity may be visible to other household members.",
+    "Review voice-assistant and microphone settings rather than assuming a mute button changes every device behavior.",
+    "Confirm how to sign out and remove account access before beginning a session.",
+    "Avoid displaying private account information where screens, reflections or connected devices may expose it."
+  ],
+  "sections": [
+    {
+      "heading": "Map the television setup before signing in",
+      "paragraphs": [
+        "A smart television is not always a single-user device. It may be used by household members, guests or visitors, and it may connect to separate TV profiles, streaming accounts, voice assistants or casting devices. Before using an adult platform, identify which people can operate the television and which profile or account will be active.",
+        "Consider the physical setup as well as the software. A screen may be visible from a doorway or shared room, while a remote may be accessible to anyone nearby. A connected phone or tablet might also control playback or display account notifications. The useful question is not whether the television is generally private, but who can see, hear or operate it in the setting where you plan to use it.",
+        "Make a short device map: television profile, platform account, voice assistant, linked phone, casting route and other household users. If you cannot tell which account is connected or who can access it, pause before signing in and resolve that uncertainty first."
+      ]
+    },
+    {
+      "heading": "Understand profiles, persistence and account switching",
+      "paragraphs": [
+        "Check whether the television keeps a signed-in platform session after the screen is turned off, the app is closed or another TV profile is selected. Different devices and apps behave differently, so do not assume that switching a TV profile also signs out of every service. Look for account controls within the platform itself and note where they are located.",
+        "If the television supports separate user profiles, determine what each profile separates and what it does not. A profile may change recommendations or interface settings without protecting the underlying account from someone who can open the app. Do not treat a profile switch as equivalent to a password, sign-out or access boundary unless the device or service clearly explains that behavior.",
+        "Before a session, know how to end access: sign out of the platform, close the app, switch to a non-sensitive TV profile if appropriate, and check whether an account remains available from the app launcher. If you are uncertain, use a device you control instead of experimenting on a shared screen."
+      ]
+    },
+    {
+      "heading": "Review microphones, voice assistants and linked devices",
+      "paragraphs": [
+        "Smart televisions and remotes may include voice controls, while a separate assistant or connected device may respond to voice commands. Review the television's own privacy settings and the settings for any linked assistant. Find out which microphone controls apply to the TV, remote or nearby speaker; one control may not govern every microphone in the room.",
+        "Do not infer from a microphone icon alone that voice activity is never processed or stored. Read the device's available privacy information and adjust voice activation, history or retention options according to your preferences. Where the device offers a physical mute or disconnect control, understand which component it affects and whether the status is clearly indicated.",
+        "A voice command can also reveal activity to other people within hearing range. If you use voice controls, consider whether spoken requests or confirmations could be overheard. You can choose on-screen navigation instead, or disable voice features for the session if the device supports a clear and reliable control."
+      ],
+      "table": {
+        "caption": "Smart TV privacy surfaces to check before a session",
+        "headers": [
+          "Surface",
+          "Question to resolve",
+          "Practical check"
+        ],
+        "rows": [
+          [
+            "TV profile",
+            "Who can open or switch this profile?",
+            "Review profile selection and any local access controls"
+          ],
+          [
+            "Platform app",
+            "Does sign-in persist after closing or changing profiles?",
+            "Locate sign-out and verify the app's account state"
+          ],
+          [
+            "Voice features",
+            "Which microphones or assistants may respond?",
+            "Review device and assistant controls separately"
+          ],
+          [
+            "Casting or remote control",
+            "Can a linked phone display or control the session?",
+            "Check linked-device access and disconnect routes"
+          ],
+          [
+            "Room and screen",
+            "Who can see or hear the display?",
+            "Choose a private viewing position and suitable audio route"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reduce accidental exposure on the screen",
+      "paragraphs": [
+        "Think through what may appear before, during and after use: app tiles, account names, search history, recommendations, recent apps, notification banners and playback screens. Other people may see these surfaces even if they do not have account access. Where available, turn off sensitive previews or notifications on the television and any linked device, but verify the relevant setting instead of relying on assumptions.",
+        "Check the screen's position and reflections. A display facing a common area, visible through glass, or mirrored to another screen may expose more than the direct viewer. Pause before casting or using an external display, because selecting a device can make the destination visible to others or send playback to the wrong screen.",
+        "Keep account details out of view when entering credentials. If a password manager or phone-based sign-in is used, consider whether its prompts may appear on a shared device or be visible to someone nearby. Avoid saving login information to a television profile that other people can access."
+      ]
+    },
+    {
+      "heading": "Plan sign-out and check the result",
+      "paragraphs": [
+        "Before you begin, identify the sign-out route and decide what completion looks like. A closed app is not always a signed-out account. After ending use, sign out where possible, exit the app and confirm that reopening it does not immediately reveal the account or recent activity. If another person may use the television next, make the account boundary explicit rather than leaving it to chance.",
+        "If you used casting, a linked phone or a voice assistant, check those connections too. Stop casting, clear the relevant connection where appropriate, and review whether the phone or TV displays a recent-device or app history. The goal is a predictable return to the normal shared-device state, not an exhaustive attempt to erase system records that you cannot control.",
+        "For a television you do not own or administer, do not change settings in a way that affects other users without permission. If you cannot sign out safely or establish who controls the account, choose a personal device instead. A convenient screen is not worth creating an account-access problem for the next person who uses it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does changing the TV profile sign me out of an adult platform?",
+      "answer": "Not necessarily. A television profile and an app's signed-in account may be separate. Check the platform's account state directly and use its sign-out control if you need to end access."
+    },
+    {
+      "question": "Is muting the TV microphone enough?",
+      "answer": "It depends on the setup. A remote, separate voice assistant or another connected device may have its own microphone and settings. Identify each active component and review its controls separately."
+    },
+    {
+      "question": "What if I cannot tell whether the account remains signed in?",
+      "answer": "Avoid leaving the account on a shared television. Find the platform's sign-out instructions, verify the state using a safe test, or use a device you control instead."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

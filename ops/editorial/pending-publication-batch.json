@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T02:00:50.397Z",
+  "generatedAt": "2026-11-18T03:47:46.105Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-product-question-privacy-planner.json",
-    "ops/editorial/content-artifacts/creator-platform-seasonal-publishing-fit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-discontinued-offer-response-plan.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-message-tone-clarity.json",
-    "ops/editorial/content-artifacts/live-cam-platform-audio-output-privacy-planning.json"
+    "ops/editorial/content-artifacts/premium-video-subscription-accessibility-workflow-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-smart-tv-session-privacy-workflow.json",
+    "ops/editorial/content-artifacts/adult-games-cloud-streaming-vs-download-fit.json",
+    "ops/editorial/content-artifacts/adult-shop-warranty-manufacturer-retailer-route.json",
+    "ops/editorial/content-artifacts/adult-anime-subtitle-language-selection-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-product-question-privacy-planner.js",
-    "src/data/guides/creator-platform-seasonal-publishing-fit.js",
-    "src/data/guides/webmaster-affiliate-discontinued-offer-response-plan.js",
-    "src/data/guides/adult-dating-platform-message-tone-clarity.js",
-    "src/data/guides/live-cam-platform-audio-output-privacy-planning.js"
+    "src/data/guides/premium-video-subscription-accessibility-workflow-audit.js",
+    "src/data/guides/adult-platform-smart-tv-session-privacy-workflow.js",
+    "src/data/guides/adult-games-cloud-streaming-vs-download-fit.js",
+    "src/data/guides/adult-shop-warranty-manufacturer-retailer-route.js",
+    "src/data/guides/adult-anime-subtitle-language-selection-audit.js"
   ],
   "categories": [
+    "premium-videos",
+    "privacy-safety-payment",
+    "adult-games",
     "adult-shops",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "dating-hookups",
-    "live-cams"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-shop-product-question-privacy-planner",
-    "creator-platform-seasonal-publishing-fit",
-    "webmaster-affiliate-discontinued-offer-response-plan",
-    "adult-dating-platform-message-tone-clarity",
-    "live-cam-platform-audio-output-privacy-planning"
+    "premium-video-subscription-accessibility-workflow-audit",
+    "adult-platform-smart-tv-session-privacy-workflow",
+    "adult-games-cloud-streaming-vs-download-fit",
+    "adult-shop-warranty-manufacturer-retailer-route",
+    "adult-anime-subtitle-language-selection-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44219715765",
-  "phase": "closed"
+  "r1CycleId": "44232199140"
 }
