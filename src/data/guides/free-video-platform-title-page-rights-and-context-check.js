@@ -1,0 +1,123 @@
+export default {
+  "slug": "free-video-platform-title-page-rights-and-context-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Title-Page Context Before Trusting a Listing",
+  "description": "Use a title-page review checklist to assess uploader identity, source details, dates, labels and reporting routes on free video platforms.",
+  "excerpt": "A search result is only a starting point. Check the surrounding listing information and the platform’s reporting route before treating a video page as well-contextualized.",
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "keyTakeaways": [
+    "A title, thumbnail or tag alone does not establish who uploaded a video or whether the listing is complete and accurate.",
+    "Compare the listing’s uploader, description, date, labels and related context instead of relying on one signal.",
+    "Treat missing or contradictory details as uncertainty, not proof of misconduct or proof that a listing is reliable.",
+    "Locate the platform’s report or rights-contact route before relying on it to resolve a concern.",
+    "Do not download, repost or share a listing merely because it appears on a free platform."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the listing, not the thumbnail",
+      "paragraphs": [
+        "Free video platforms often place a thumbnail and title in front of the fuller context available on a video page. That first impression is designed for quick discovery, not necessarily for verifying a listing. A title may be shortened, tags may be broad, and a thumbnail may not show the source or circumstances of the upload. Before deciding whether a result fits your purpose, open the listing details in a way that does not expose you to unwanted previews or autoplay.",
+        "The task here is to assess the information provided, not to pronounce a video legitimate based on appearance. Platform layouts vary, and a field may be absent for reasons unrelated to the underlying content. Look for a coherent set of details: uploader identity or account context, a description, dates where available, content labels, and links to relevant platform policies. If those details do not resolve a question, keep the result unverified."
+      ],
+      "bullets": [
+        "Do not treat the thumbnail, title or tag as source evidence on its own.",
+        "Check the full listing page for context beyond the search-result card.",
+        "Keep separate notes about what the page states and what remains unknown."
+      ]
+    },
+    {
+      "heading": "Compare details for consistency",
+      "paragraphs": [
+        "Read the title, description, uploader information and visible date together. Ask whether they appear to refer to the same item and whether the description provides context rather than simply repeating a search phrase. A date may refer to a posting or update, not necessarily to when the underlying material was created. Likewise, an uploader label can identify an account without proving that account created or is authorized to share the material.",
+        "Look for contradictions: one part of a listing may describe a clip while another describes a full-length item; the account name may not match the stated source; a date may differ between the page and a linked collection. Contradictions are a reason to avoid relying on that listing until clarified. They are not, by themselves, evidence of a particular violation. Avoid making conclusions about people or rights from incomplete metadata."
+      ],
+      "bullets": [
+        "Separate upload date, update date and any stated creation date.",
+        "Compare the uploader and description with the collection or source context linked from the page.",
+        "Treat inconsistencies as questions to resolve, not as a verdict."
+      ]
+    },
+    {
+      "heading": "Assess labels and content warnings as clues, not guarantees",
+      "paragraphs": [
+        "Categories, tags and warnings can help explain how a platform organizes a listing, but their meaning may not be consistent across sites or accounts. A tag may be user-submitted, automatically generated, or selected by an uploader; the interface may not disclose which. Read the platform’s explanation where available. If the service does not explain how labels are assigned, use them as navigation aids rather than verified statements about a video.",
+        "Consider whether the page gives a way to flag a mismatched label or report material. Check whether reporting is available directly on the item, through an account menu, or through a separate help process. Know which information the form asks you to provide and whether you can report without public participation. Never submit another person’s private information unnecessarily. A usable reporting route should be findable and describe what kinds of concern it handles."
+      ],
+      "bullets": [
+        "Check whether tags are uploader-selected, community-supplied or platform-assigned, if disclosed.",
+        "Look for warnings and label controls without treating them as a guarantee of accuracy.",
+        "Identify the reporting route and the platform’s explanation of its scope."
+      ]
+    },
+    {
+      "heading": "Understand source and rights information cautiously",
+      "paragraphs": [
+        "A platform’s title page may show an account, studio or channel, but a name displayed on a page does not necessarily prove who made or controls the material. Source links, publisher notes or account verification indicators can add context, yet each has a limited meaning. Verify what the platform says a badge represents before interpreting it as a rights check. If a listing claims an external source, follow only links that appear safe and relevant; do not enter account credentials on an unexpected site reached from a video page.",
+        "If you have a concern about unauthorized material, use the platform’s stated reporting or rights process rather than reposting the listing or trying to investigate a person yourself. Preserve only the information needed to describe the concern, such as the page URL and the relevant visible listing details. Follow platform instructions and applicable rules. This guide cannot determine ownership or provide a legal judgment about a specific video."
+      ],
+      "bullets": [
+        "Distinguish an uploader account from a verified creator or rights holder unless the platform clearly defines the relationship.",
+        "Do not treat a badge or external link as proof beyond what its documentation states.",
+        "Use the platform’s reporting process for concerns; avoid redistributing the material."
+      ]
+    },
+    {
+      "heading": "Build a consistent title-page review routine",
+      "paragraphs": [
+        "A compact review routine makes browsing decisions more reliable without turning every result into an investigation. Check the same fields in the same order, record uncertainties, and move on if the listing does not provide enough context for your decision. Do not let a polished description or a large number of comments substitute for source information. User activity can be noisy and may not establish accuracy, authorization or current status.",
+        "For platform comparisons, assess whether each service makes context easy to find, whether labels are explained, and whether the reporting route is visible. Do not infer that a platform has stronger moderation simply because its pages show more fields. A useful comparison describes what a user can inspect and what remains unavailable. This keeps the decision grounded in observable interface and policy information rather than unsupported claims about service quality."
+      ],
+      "table": {
+        "caption": "A neutral checklist for reviewing a free-video title page",
+        "headers": [
+          "Listing element",
+          "Question to ask",
+          "How to interpret gaps"
+        ],
+        "rows": [
+          [
+            "Title and description",
+            "Do the details describe the same item and provide useful context?",
+            "A vague or mismatched description leaves the listing uncertain."
+          ],
+          [
+            "Uploader and source",
+            "Does the page explain who operates the account or link to a stated source?",
+            "An account name alone does not establish authorship or rights."
+          ],
+          [
+            "Dates",
+            "Does the interface say what each date represents?",
+            "Do not equate an upload or update date with a creation date."
+          ],
+          [
+            "Labels and warnings",
+            "Does the platform explain who supplies the tags or warnings?",
+            "Treat unexplained labels as navigation aids, not guarantees."
+          ],
+          [
+            "Report route",
+            "Can you find instructions for reporting a listing concern?",
+            "A missing or unclear route limits what you can verify about follow-up."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a verified uploader badge prove that a video is authorized?",
+      "answer": "Not automatically. A badge may confirm only a particular account status. Read the platform’s explanation of what it verifies, and do not infer rights verification unless the service clearly says it performs that check."
+    },
+    {
+      "question": "Is an old upload date a sign that a listing is inaccurate?",
+      "answer": "Not by itself. A date may refer to upload, reposting or a later edit. Compare it with other page details and treat unclear date labels as an uncertainty."
+    },
+    {
+      "question": "What should I do if a video page has conflicting details?",
+      "answer": "Avoid relying on the listing until the inconsistency is clarified. If the issue concerns a platform rule or rights process, use the service’s stated report route and provide only relevant information."
+    }
+  ]
+};
