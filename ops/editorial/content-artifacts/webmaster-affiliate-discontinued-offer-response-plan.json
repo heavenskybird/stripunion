@@ -1,0 +1,198 @@
+{
+  "backlogId": "webmaster-affiliate-discontinued-offer-response-plan",
+  "slug": "webmaster-affiliate-discontinued-offer-response-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Offers Discontinued? A Webmaster Plan for Pages, Links and Records",
+  "description": "Prepare for an affiliate offer or destination becoming unavailable with a practical plan for finding affected pages, updating links and preserving an accurate record.",
+  "excerpt": "An offer can change while old links remain published across a site. Build a response process that protects visitor expectations, reduces broken journeys and records what changed.",
+  "keyTakeaways": [
+    "Keep a searchable inventory connecting each affiliate destination to the pages and placements that use it.",
+    "Define how you will identify a discontinued, materially changed or unavailable offer before deciding what to replace.",
+    "Do not redirect visitors to a different offer unless it is relevant, permitted and clearly represented.",
+    "Record the change, affected placements, decision and validation so that future reviews have an evidence trail."
+  ],
+  "sections": [
+    {
+      "heading": "Define the events that trigger a review",
+      "paragraphs": [
+        "A response plan needs a clear trigger. An offer may be removed from a program, a destination may stop resolving, a product or service may change materially, or the program may restrict a traffic source that previously applied. These events are not interchangeable. A temporary technical failure does not necessarily mean an offer is permanently discontinued, and a replacement destination is not automatically an equivalent offer. Define which observations trigger an immediate check and which require confirmation from the program.",
+        "Use authoritative signals where possible: current program communications, an accessible dashboard notice, written terms, or a confirmed destination change. Keep a date and source for the observation. A browser error seen once may be a transient fault; a public page change may reflect a product update rather than termination. Avoid silently drawing a conclusion from a single failed click. If the status is uncertain, pause the affected placement or use a clearly neutral notice while verifying, according to your program terms and editorial policy."
+      ],
+      "bullets": [
+        "Distinguish temporary failure from a confirmed offer change.",
+        "Record the source, date and exact observation that triggered review.",
+        "Check current program terms before changing traffic or destinations.",
+        "Escalate ambiguous status instead of inventing a replacement."
+      ]
+    },
+    {
+      "heading": "Maintain an offer-to-page inventory",
+      "paragraphs": [
+        "A discontinued offer is difficult to handle when referral URLs are scattered across old articles, comparison tables, newsletters and reusable components. Maintain a simple inventory that maps each program offer or destination identifier to every site location where it appears. Include the page owner, placement type and last validation date. The inventory does not need to store visitor-level information; it is an editorial and operations record.",
+        "Use stable internal labels rather than relying only on a long referral URL. A label can identify the partner, offer and campaign without exposing unnecessary data in the document. Keep the actual destination in a controlled field or link-management system if your workflow uses one. The key requirement is traceability: from the program notice, you should be able to find affected placements and from a page, you should be able to identify which current program rule governs its referral link."
+      ],
+      "table": {
+        "caption": "Minimum fields for an offer inventory",
+        "headers": [
+          "Field",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "Internal offer label",
+            "Recognize the offer without interpreting a raw URL"
+          ],
+          [
+            "Program source and current status",
+            "Record where status was confirmed and when"
+          ],
+          [
+            "Affected pages and placements",
+            "Find links, buttons, tables and reused blocks to update"
+          ],
+          [
+            "Traffic or promotion permission note",
+            "Connect the placement to the relevant written rule"
+          ],
+          [
+            "Last checked and next review",
+            "Avoid treating an old validation as current"
+          ],
+          [
+            "Change owner and decision record",
+            "Make responsibility and rationale clear"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose a visitor-safe response",
+      "paragraphs": [
+        "When an offer is confirmed unavailable, choose a response that preserves the meaning of the page and the visitor's expectation. Options may include removing the referral link, replacing it with a factual availability notice, updating the page to cover a genuinely relevant alternative, or temporarily taking down a section while you revise it. Which option is appropriate depends on the page's purpose and the program's rules. A different destination should not be presented as if it were the original offer.",
+        "Check the surrounding copy as well as the link. A heading, comparison row, image or call to action may still imply that an unavailable option can be purchased or joined. If you substitute an option, reevaluate the claims, comparison criteria and disclosure so that the revised page remains accurate. If no suitable alternative exists, a clear note or removal is better than a misleading redirect. Maintain a dated snapshot or change note so an editor can understand why the placement changed."
+      ],
+      "bullets": [
+        "Remove or qualify claims that imply the unavailable offer is still active.",
+        "Do not substitute an unrelated destination merely to preserve a referral link.",
+        "Check images, tables and calls to action as well as hyperlinks.",
+        "Reassess disclosure and visitor expectations after any replacement."
+      ]
+    },
+    {
+      "heading": "Coordinate link changes with program restrictions",
+      "paragraphs": [
+        "A technically working link is not necessarily a permitted link. Before replacing or rerouting a referral destination, check whether the program permits the new placement, traffic source, destination format and promotional wording. A program may have specific rules for deep links, redirects, brand use, email promotion or content context. Do not assume an old approval automatically extends to a changed offer or a different campaign.",
+        "Make changes in a controlled sequence. Identify the relevant pages, check the intended destination, update the link and its surrounding copy, then verify the live page in a normal browser. If a link-management system is used, confirm that the published page points to the correct managed entry and that the final destination is still the one you intended. Keep a rollback note or previous version where practical, but do not restore a destination that is confirmed inactive or no longer permitted."
+      ],
+      "table": {
+        "caption": "Change-control steps for a discontinued offer",
+        "headers": [
+          "Step",
+          "Check"
+        ],
+        "rows": [
+          [
+            "Confirm",
+            "Verify the offer status from a current, identifiable source"
+          ],
+          [
+            "Scope",
+            "Find all affected pages, placements and reusable components"
+          ],
+          [
+            "Review",
+            "Check whether any proposed replacement is relevant and permitted"
+          ],
+          [
+            "Edit",
+            "Update links, claims, disclosures and page context together"
+          ],
+          [
+            "Validate",
+            "Test the rendered page and destination without assuming success"
+          ],
+          [
+            "Record",
+            "Save the date, evidence, decision and remaining follow-up"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve reporting and decision evidence",
+      "paragraphs": [
+        "Keep records that explain what happened without collecting unnecessary data. Useful evidence may include the dated program notice, the affected internal offer label, a list of changed pages, and a note of how you validated the result. If reports later show a change in clicks or conversions, these records can help distinguish a content change from a tracking or program issue. Preserve the program's relevant documentation according to your normal records schedule and any applicable obligations.",
+        "Do not treat a drop in reported activity as proof that the offer was discontinued, or a live destination as proof that commissions remain eligible. Those are different questions. Record status, tracking and commercial eligibility separately. Where a program statement conflicts with a dashboard or support response, retain the source and seek clarification rather than rewriting your record to match the most convenient interpretation."
+      ],
+      "bullets": [
+        "Separate offer availability, link function and commission eligibility in your notes.",
+        "Keep dated evidence for decisions that affect many pages.",
+        "Use internal offer labels consistently across content and reports.",
+        "Avoid storing visitor-level data that is not needed for the operational review."
+      ]
+    },
+    {
+      "heading": "Test the plan with a tabletop exercise",
+      "paragraphs": [
+        "A plan that has never been used may omit important dependencies. Run a short exercise using a hypothetical notice that one offer is no longer available. Ask a second editor to locate the affected placements from the inventory, identify the governing program rule, propose a visitor-safe edit and describe how the change will be validated. Note where the process depends on one person, an inaccessible dashboard or an undocumented redirect.",
+        "Use the exercise to improve the inventory and define ownership, not to claim that an offer is currently unavailable. Set a review interval that suits your publishing operations and revisit the process after a real program change. The practical goal is a consistent, auditable response that keeps page claims accurate and avoids sending visitors through a stale or misleading journey."
+      ],
+      "table": {
+        "caption": "Tabletop exercise review",
+        "headers": [
+          "Prompt",
+          "Pass condition"
+        ],
+        "rows": [
+          [
+            "Can the editor find every placement?",
+            "The inventory leads to pages and reusable components"
+          ],
+          [
+            "Can status be verified?",
+            "The source and date are recorded, or uncertainty is explicitly noted"
+          ],
+          [
+            "Is the proposed substitute appropriate?",
+            "It is relevant, permitted and described accurately"
+          ],
+          [
+            "Can changes be validated?",
+            "The editor checks the published placement and destination"
+          ],
+          [
+            "Can another person understand the decision?",
+            "The record explains what changed and why"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I automatically redirect a discontinued offer to another one?",
+      "answer": "No. A replacement should be relevant to the page, permitted by the program and described accurately. If those conditions are not met, remove the link or use a clear availability notice while revising the page."
+    },
+    {
+      "question": "How can I tell a temporary outage from a discontinued offer?",
+      "answer": "Check more than one appropriate source and record when and where you checked. A single failed request may indicate a temporary problem; confirmation from current program communications or support can clarify status."
+    },
+    {
+      "question": "What should I record when changing a referral link?",
+      "answer": "Record the trigger and source, affected placements, the policy or permission checked, the edit made, validation results and any unresolved question. Avoid retaining unnecessary visitor-level information."
+    },
+    {
+      "question": "Does an offer still being online mean commissions are eligible?",
+      "answer": "Not necessarily. Destination availability, tracking function and commercial eligibility are separate issues. Verify each against current program information rather than treating one as proof of another."
+    }
+  ],
+  "publishedAt": "2026-11-18",
+  "updatedAt": "2026-11-18",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
