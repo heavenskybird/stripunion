@@ -1,0 +1,128 @@
+{
+  "backlogId": "adult-platform-renewal-reminder-separation",
+  "slug": "adult-platform-renewal-reminder-separation",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Renewals: Set Reminders Without Exposing Shared Calendars",
+  "description": "Plan renewal and cancellation reminders for adult platform subscriptions while avoiding accidental disclosure through shared calendars, family accounts, and synced notifications.",
+  "excerpt": "A reminder can prevent a missed renewal, but a shared calendar or synced lock screen may reveal more than intended. Use this workflow to choose a private reminder location, neutral wording, and a record-keeping plan that fits your devices.",
+  "keyTakeaways": [
+    "Check who can view, edit, search, or receive notifications from the calendar or reminder service before adding an entry.",
+    "Use neutral wording that is useful to you but does not unnecessarily identify a platform or subscription.",
+    "Review calendar sharing, device sync, notification previews, and voice-assistant access as separate exposure paths.",
+    "Set a reminder early enough to review cancellation terms and confirmation records without assuming that a reminder cancels a subscription.",
+    "Keep only the records you need and store cancellation evidence somewhere you control."
+  ],
+  "sections": [
+    {
+      "heading": "Why renewal reminders can create a privacy problem",
+      "paragraphs": [
+        "A renewal reminder is a useful planning tool, but the calendar where you put it may be shared with household members, synced to several devices, or displayed on a lock screen. Some calendars allow other people to view event names, while others expose details through shared notifications or connected assistants. A reminder can therefore reveal the existence of an adult platform account even if you keep the platform login private.",
+        "The risk is not limited to a shared family calendar. Work and personal accounts may sync to the same phone; a wearable may mirror alerts; a smart display may announce an event; or a notification preview may appear while someone else can see the screen. The right approach is to map where the reminder will appear before creating it. This is a practical privacy check, not a guarantee that a device or service stores no data."
+      ],
+      "bullets": [
+        "Identify the calendar account and all devices that receive its alerts.",
+        "Check whether anyone else can see calendar details, not just availability.",
+        "Treat event titles, notification previews, and synced widgets as separate exposure points."
+      ]
+    },
+    {
+      "heading": "Choose a reminder location and timing",
+      "paragraphs": [
+        "Start by deciding what action the reminder is meant to prompt. It may be a cue to review renewal terms, check the account’s cancellation route, or verify whether you still want the service. A reminder is not itself a cancellation mechanism, and it does not change the renewal date or payment authorization. Set it early enough to leave time to read the current terms and complete any required steps, rather than relying on a last-minute alert.",
+        "Choose a location that is under your control and not automatically visible to others. A personal calendar may be appropriate if it is not shared and its notifications are private. A local reminder app may reduce calendar sharing exposure, but check whether it syncs through a shared cloud account. A written note may avoid a notification, but it can be visible to anyone who can access the notebook or device. No single option is universally private; compare the access paths that apply to your setup."
+      ],
+      "table": {
+        "caption": "Compare reminder locations by who may see them and how they are synchronized.",
+        "headers": [
+          "Location",
+          "Questions to check",
+          "Potential exposure to consider"
+        ],
+        "rows": [
+          [
+            "Shared calendar",
+            "Can collaborators view event titles or details?",
+            "Other members, shared-device alerts, calendar search"
+          ],
+          [
+            "Personal cloud calendar",
+            "Which account is signed in and what devices sync?",
+            "Family account access, widgets, lock-screen previews"
+          ],
+          [
+            "Local reminder app",
+            "Does it sync or use a shared device profile?",
+            "Device access, backups, notification history"
+          ],
+          [
+            "Paper note",
+            "Where is it stored and who can reach it?",
+            "Household access, visible labels, disposal"
+          ],
+          [
+            "Password manager note",
+            "Who can access the vault and its recovery route?",
+            "Shared vault access and account recovery exposure"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use neutral wording without losing usefulness",
+      "paragraphs": [
+        "A reminder can be actionable without naming an adult platform. A neutral title such as “review subscription settings” may be enough if you know what it refers to. Avoid putting account credentials, payment details, or sensitive browsing information in the event description. If the reminder must distinguish between several subscriptions, use a private shorthand that makes sense to you but is not meaningful to someone who sees a notification.",
+        "Neutral wording is a layer of discretion, not a substitute for access control. Anyone who can open the calendar may still see the event time and its surrounding context. Check whether the notification shows the title, notes, or account name on a locked screen. Consider whether the event will appear in a shared agenda, device search, or voice-assistant response. If you cannot control those surfaces, choose a different reminder method rather than relying on an obscure title alone."
+      ],
+      "bullets": [
+        "Keep the reminder brief and avoid adding account or payment credentials.",
+        "Check previews on the devices that actually receive calendar notifications.",
+        "Use shorthand only if it remains clear enough for you to take the intended action."
+      ]
+    },
+    {
+      "heading": "Connect the reminder to a safe cancellation workflow",
+      "paragraphs": [
+        "When the reminder arrives, go directly to the platform through a route you trust and review the current renewal and cancellation information. Do not assume that deleting a calendar event cancels a service, or that removing an app changes a subscription. Follow the platform’s stated cancellation process and check for an on-screen confirmation, message, or account status that records the result. Terms and interfaces can change, so use the information available at the time rather than relying on an old note.",
+        "Keep a minimal record of what you did. Depending on your needs, that might be a confirmation date, a reference number, or a copy of the relevant message. Store it in a private location and avoid forwarding it to a shared inbox or calendar. If you need evidence of a cancellation, preserve enough information to identify the action without retaining unrelated browsing details. A reminder helps you plan; a confirmation record helps you verify that the requested change was completed."
+      ],
+      "paragraphs2": [
+        "If the platform’s cancellation flow is unclear, avoid repeatedly clicking through steps that may have different effects. Read the instructions, take a note of the status shown, and use a published support channel if needed. Do not send passwords or full payment credentials to support. If there is uncertainty about a renewal, check the account and payment records directly rather than inferring from a calendar entry."
+      ]
+    },
+    {
+      "heading": "Audit sync and notification exposure periodically",
+      "paragraphs": [
+        "Review the reminder setup when you add a new device, join a shared calendar, change cloud accounts, or enable a wearable or smart assistant. A setting that was private on one phone may behave differently after synchronization. Check calendar sharing permissions, notification previews, lock-screen privacy, voice announcements, and device activity history. These settings are managed in different places, so changing one does not necessarily change the others.",
+        "A simple audit can be brief: confirm the reminder is in the intended account, confirm the title is appropriate for its audience, check which devices receive it, and verify who can access the calendar. Remove obsolete reminders when they no longer serve a purpose, but do not mistake deleting a reminder for deleting platform records or canceling a subscription. If the reminder itself is sensitive, keep the access path narrow and revisit it after major account or device changes."
+      ],
+      "bullets": [
+        "Review access when calendar sharing or device sync changes.",
+        "Do not place sensitive account details in event notes or assistant-accessible text.",
+        "Keep cancellation evidence separately from reminders and shared household planning."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will deleting a renewal reminder cancel an adult platform subscription?",
+      "answer": "No. A calendar entry is only a reminder. Use the platform’s stated cancellation process and check for a confirmation or account-status change. Deleting the reminder does not itself change a subscription."
+    },
+    {
+      "question": "Is a neutral calendar title enough to protect privacy?",
+      "answer": "Not by itself. Other people may still see event timing, account access, or notification details, and synced devices may display the reminder. Check sharing permissions and previews as well as the wording."
+    },
+    {
+      "question": "What should I keep as proof after cancellation?",
+      "answer": "Keep a minimal record that helps you verify the action, such as a confirmation message or reference and its date. Store it somewhere you control, and avoid placing sensitive account or payment details in shared calendar notes."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

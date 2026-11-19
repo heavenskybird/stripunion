@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T08:15:02.697Z",
+  "generatedAt": "2026-11-19T10:03:46.367Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-room-choice-boundary-workbook.json",
-    "ops/editorial/content-artifacts/adult-dating-membership-add-on-separation-guide.json",
-    "ops/editorial/content-artifacts/premium-video-library-access-bundling-map.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-control-fit-matrix.json",
-    "ops/editorial/content-artifacts/vr-platform-controller-input-alternatives-fit.json"
+    "ops/editorial/content-artifacts/adult-anime-listing-format-verification.json",
+    "ops/editorial/content-artifacts/free-video-recommendation-reset-check.json",
+    "ops/editorial/content-artifacts/adult-games-release-channel-evidence.json",
+    "ops/editorial/content-artifacts/adult-shop-checkout-accessibility-preflight.json",
+    "ops/editorial/content-artifacts/adult-platform-renewal-reminder-separation.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-room-choice-boundary-workbook.js",
-    "src/data/guides/adult-dating-membership-add-on-separation-guide.js",
-    "src/data/guides/premium-video-library-access-bundling-map.js",
-    "src/data/guides/adult-platform-payment-control-fit-matrix.js",
-    "src/data/guides/vr-platform-controller-input-alternatives-fit.js"
+    "src/data/guides/adult-anime-listing-format-verification.js",
+    "src/data/guides/free-video-recommendation-reset-check.js",
+    "src/data/guides/adult-games-release-channel-evidence.js",
+    "src/data/guides/adult-shop-checkout-accessibility-preflight.js",
+    "src/data/guides/adult-platform-renewal-reminder-separation.js"
   ],
   "categories": [
-    "live-cams",
-    "dating-hookups",
-    "premium-videos",
-    "privacy-safety-payment",
-    "vr-ar"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "live-cam-room-choice-boundary-workbook",
-    "adult-dating-membership-add-on-separation-guide",
-    "premium-video-library-access-bundling-map",
-    "adult-platform-payment-control-fit-matrix",
-    "vr-platform-controller-input-alternatives-fit"
+    "adult-anime-listing-format-verification",
+    "free-video-recommendation-reset-check",
+    "adult-games-release-channel-evidence",
+    "adult-shop-checkout-accessibility-preflight",
+    "adult-platform-renewal-reminder-separation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44478757722",
-  "phase": "closed"
+  "r1CycleId": "44501669982"
 }
