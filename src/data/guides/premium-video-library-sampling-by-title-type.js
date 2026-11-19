@@ -1,0 +1,121 @@
+export default {
+  "slug": "premium-video-library-sampling-by-title-type",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "How to Sample a Premium Video Library Across Different Title Types",
+  "description": "Use a repeatable sampling plan to compare premium video libraries across formats, runtimes, and catalog sections instead of judging by a few prominent titles.",
+  "excerpt": "A useful preview is more than a handful of featured titles. Sample different parts of a library, record what you can verify, and compare how well each catalog fits your intended viewing.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Choose sample titles that reflect the variety of content you expect to use, rather than sampling only the platform’s most visible items.",
+    "Record whether the title is actually included in membership, available only as a preview, or subject to a separate access path.",
+    "Separate evidence about a few sampled titles from conclusions about the full catalog; a sample can reveal fit but cannot prove total breadth.",
+    "Compare catalog structure and useful title information as well as the number of results returned.",
+    "Use the same sample plan for every service on your shortlist so the comparison is fair and repeatable."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a sample that reflects your real use",
+      "paragraphs": [
+        "A library can look large while still being a poor fit for a particular viewer. The practical question is not simply how many listings appear; it is whether the available range resembles what you would choose to watch. Before comparing services, write down a few broad title types you care about. These might include different runtimes, formats, series and standalone titles, or newer and older catalog entries. Keep the categories general and personal to your own viewing habits.",
+        "Build a small, consistent sample for each candidate library. For example, choose a few titles from each of several relevant categories, then use the same categories across every service. Avoid picking only from a homepage carousel or a single prominent collection, because those placements may not represent the rest of the catalog. A consistent plan limits the influence of marketing presentation and makes differences easier to explain."
+      ],
+      "bullets": [
+        "List the title types that matter to you before opening a catalog.",
+        "Use comparable categories across every platform in your shortlist.",
+        "Record the date of your check, since catalogs and access terms can change."
+      ]
+    },
+    {
+      "heading": "Check access status title by title",
+      "paragraphs": [
+        "A listing is not proof that membership includes the full title. While sampling, note whether the page indicates that it is included, available as a limited preview, or presented through a separate purchase or access route. If that distinction is unclear, mark it as unknown rather than assuming that a visible listing is part of the subscription. This prevents a catalog count from overstating the content you could actually watch under the membership being evaluated.",
+        "Also note what happens when you follow the listing toward playback, without completing a purchase or confirming a charge. The goal is to verify the access path, not to test checkout by accident. Look for clear language about membership inclusion and any separate terms. If a title’s access status changes between search results and its detail page, preserve that discrepancy in your notes and treat it as a point requiring clarification."
+      ],
+      "bullets": [
+        "Mark each sampled title as included, preview-only, separately accessed, or unclear.",
+        "Do not infer inclusion from a thumbnail, search result, or collection placement.",
+        "Stop before confirming any purchase or paid upgrade during a comparison."
+      ]
+    },
+    {
+      "heading": "Sample beyond the homepage and featured shelves",
+      "paragraphs": [
+        "Prominent placement can help a viewer discover content, but it is not a neutral sample of a full library. Browse at least one other route, such as a category page, series page, or search result, if those routes are available without subscribing. Notice whether browsing exposes a broader selection or repeatedly returns the same small group of featured items. This helps distinguish a catalog that is easy to explore from one whose visible first impression may be narrow.",
+        "When you compare different sections, avoid treating navigation labels as definitive proof of content type. A category name may be broad, inconsistent, or used differently across services. Check a selection of individual listings to see whether titles actually match the category’s stated purpose. Record examples rather than making a sweeping claim from a label alone. The result is a more useful picture of both catalog variety and organization."
+      ],
+      "bullets": [
+        "Sample from more than one catalog area when public browsing permits.",
+        "Check whether a category’s examples match its label.",
+        "Distinguish repeated featured items from genuinely different sample entries."
+      ]
+    },
+    {
+      "heading": "Evaluate title information and series context",
+      "paragraphs": [
+        "Catalog fit depends partly on whether a viewer can tell what a title is before choosing it. For sampled entries, check whether the listing provides useful identifying information such as a title name, release or publication details, runtime, format, and series or collection context where applicable. Compare the completeness and consistency of those details across entries. Missing information does not prove the underlying content is unsuitable, but it can make browsing and selection less dependable.",
+        "For series or related collections, note whether the sampled titles make their relationship clear. A viewer may need to know whether an entry is part of a series, whether the order is apparent, or whether the catalog shows a complete set. This check is about the quality of the sample and its surrounding information—not a guarantee that every related title is available. If completeness matters, record it as a separate question to verify through the service’s own current information."
+      ],
+      "bullets": [
+        "Record title details that help you identify what is included.",
+        "Check series context where it matters to your sample.",
+        "Do not treat missing metadata as evidence that a title or collection does not exist."
+      ]
+    },
+    {
+      "heading": "Compare results without overclaiming",
+      "paragraphs": [
+        "A small sample is a decision aid, not a full catalog census. Summarize what you found by category and access status, then compare the services on the same basis. For example, you can say that one candidate provided clearer access information in the titles checked, or that your sample found more entries matching a particular category. Avoid turning those observations into unsupported claims about overall size, quality, or completeness.",
+        "Use an uncertainty column in your notes. A result might be unclear because a preview page did not state whether membership includes the title, or because only a limited portion of the catalog was available to browse. Keeping uncertainty visible helps prevent an attractive homepage or a handful of matching titles from dominating the decision. If the unresolved point is important, check official membership terms or ask the provider before joining."
+      ],
+      "table": {
+        "caption": "A repeatable library sample record",
+        "headers": [
+          "What to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Sample category and selection method",
+            "Shows whether candidates were checked on comparable terms."
+          ],
+          [
+            "Title listing and date checked",
+            "Keeps a reference point for a catalog that can change."
+          ],
+          [
+            "Access status",
+            "Separates included content from previews or other access routes."
+          ],
+          [
+            "Useful title information",
+            "Shows whether a viewer can identify and compare entries."
+          ],
+          [
+            "Uncertainty or follow-up question",
+            "Stops an unclear result from being mistaken for a confirmed fact."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many titles should I sample before choosing a premium video membership?",
+      "answer": "There is no universal number that proves a library is suitable. Choose enough examples to cover the title types that matter to you, and use the same plan for each candidate. Treat the result as a structured sample, not a count of the entire catalog."
+    },
+    {
+      "question": "Can a platform’s homepage tell me how broad its library is?",
+      "answer": "A homepage can show how the service presents selected content, but featured items may not represent the full catalog. Check other available catalog areas and individual listings, and distinguish what you directly observed from what remains unknown."
+    },
+    {
+      "question": "What should I do if a title appears in the catalog but membership inclusion is unclear?",
+      "answer": "Mark the access status as unclear. Check current membership terms or seek clarification through the platform’s official information before subscribing. Do not assume that a listing or preview means the full title is included."
+    },
+    {
+      "question": "Does a larger sample guarantee that the catalog will stay suitable?",
+      "answer": "No. A sample describes what you could verify at a particular time, and catalogs can change. Record when you checked and review current terms if continued access to particular titles is important."
+    }
+  ]
+};

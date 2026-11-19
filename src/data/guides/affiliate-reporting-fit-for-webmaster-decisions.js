@@ -1,0 +1,121 @@
+export default {
+  "slug": "affiliate-reporting-fit-for-webmaster-decisions",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reporting for Webmasters: Check Whether Reports Answer Your Real Questions",
+  "description": "Evaluate affiliate reporting by mapping your webmaster decisions to the fields, definitions, and export options a program actually provides.",
+  "excerpt": "A dashboard can contain many metrics and still leave important questions unanswered. Start with the decisions you need to make, then check whether the program’s reporting can support them clearly.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "List the operational decisions you need reports to support before comparing dashboards.",
+    "Check metric definitions and status meanings; a label alone may not explain how a reported figure is calculated.",
+    "Separate summary views from records needed to investigate a specific campaign or referral.",
+    "Confirm whether reporting can distinguish the sources or placements you intend to compare, using permitted tracking methods.",
+    "Treat missing, delayed, or ambiguous data as a limitation to document, not as proof of a program’s underlying performance."
+  ],
+  "sections": [
+    {
+      "heading": "Begin with decisions, not dashboard screenshots",
+      "paragraphs": [
+        "Affiliate dashboards are easiest to assess when you know what you need to decide. A webmaster might need to decide whether to keep a link placement, compare two permitted promotional locations, investigate a gap between clicks and attributed actions, or reconcile a period’s report with a statement. Those are different jobs. Write down the decisions that matter to your operation before looking at a dashboard, then identify what evidence each decision would require.",
+        "This approach avoids being impressed by a long list of metrics that may not answer your actual questions. A report can be visually polished but too aggregated for campaign management. Another may offer fewer views but define the available fields clearly. Evaluate the reporting against your workflow rather than treating the number of charts or columns as a proxy for usefulness."
+      ],
+      "bullets": [
+        "List the decisions you expect to make from reporting.",
+        "For each decision, name the information you would need to see.",
+        "Separate essential reporting needs from useful extras."
+      ]
+    },
+    {
+      "heading": "Check definitions behind the field names",
+      "paragraphs": [
+        "A label such as click, conversion, qualified action, or commission is not a complete definition. Before relying on a field, look for documentation explaining what event it represents, when it is counted, and whether its status can later change. If the program uses multiple stages, clarify how a record moves from an initial event to a final reportable outcome. This is especially important when comparing a dashboard with a separate statement or your own link logs.",
+        "Record the definition source and its date. Definitions may appear in program terms, help materials, dashboard notes, or support correspondence. If two sources appear inconsistent, do not resolve the conflict by choosing whichever label seems more convenient. Keep the wording, date, and source together and seek clarification. A field whose meaning cannot be established should be treated as ambiguous in your decision process."
+      ],
+      "bullets": [
+        "Write down the program’s definition of every important report field.",
+        "Check whether figures are preliminary, final, or subject to later status changes.",
+        "Keep dated evidence when documentation or support clarifies a definition."
+      ]
+    },
+    {
+      "heading": "Test whether the report can distinguish your sources",
+      "paragraphs": [
+        "A useful report must distinguish the categories you plan to compare. If you need to compare editorial placements, campaigns, or properties, check whether the program supports a permitted method for tagging or separating those sources. Verify how the report displays that information and whether the distinction survives through the reporting stages you care about. Do not assume that a tracking parameter is accepted, preserved, or shown merely because it can be added to a link.",
+        "Keep the test small and compliant. Use only tracking options the program permits, and confirm that your labels are understandable to anyone else who may maintain the site. A report that collapses all activity into a single total may be adequate for a simple operation but insufficient for a webmaster who needs source-level decisions. The right fit depends on the distinctions you actually need, not on a universal reporting standard."
+      ],
+      "bullets": [
+        "Map each intended comparison to a field or approved source label.",
+        "Confirm that the program permits the tracking method you plan to use.",
+        "Check whether the resulting report retains the distinction you need."
+      ]
+    },
+    {
+      "heading": "Assess detail, history, and export options",
+      "paragraphs": [
+        "Consider the difference between a summary and the underlying detail you may need to explain an unexpected result. Can the available view be narrowed by a relevant date range or source? Does it provide enough context to distinguish individual reporting periods or campaign groups? Can you retain the information in a format your normal bookkeeping or analysis process can use? These are questions to verify in the program’s current documentation or account interface, not capabilities to presume.",
+        "Also consider how you will preserve records independently of an online dashboard. A program may change its interface, limit older views, or revise documentation. Where allowed, retain dated reports and definitions in a controlled business record system. Store only the information needed for reconciliation and follow applicable privacy and security practices. The point is continuity: a decision made today should be explainable later without relying solely on a dashboard that may no longer show the same view."
+      ],
+      "bullets": [
+        "Check the smallest useful reporting level for your decisions.",
+        "Confirm available export and historical-access options rather than assuming them.",
+        "Save dated definitions and relevant reports in a controlled records workflow."
+      ]
+    },
+    {
+      "heading": "Use a comparison matrix and identify blockers",
+      "paragraphs": [
+        "Compare candidate programs with a simple matrix. For each decision, note the required field, its definition, the source distinction available, any time or status qualification, and the evidence you have. Mark a capability as confirmed only when you have a current, authoritative basis for doing so. Use unknown where documentation is missing, and blocker where the gap prevents a decision you consider essential.",
+        "A matrix makes trade-offs visible without inventing a rating or predicting results. It also helps you ask focused questions before joining or expanding activity. For example, you can ask what a specific report field means, how a status is updated, or how the program supports a permitted source comparison. Keep the question narrow and retain the response. If reporting remains too ambiguous for the decision at hand, consider limiting reliance on that report rather than making assumptions."
+      ],
+      "table": {
+        "caption": "Reporting fit worksheet",
+        "headers": [
+          "Decision you need to make",
+          "Evidence to verify"
+        ],
+        "rows": [
+          [
+            "Compare two permitted placements",
+            "A supported source distinction and a clear definition of the reported event."
+          ],
+          [
+            "Investigate a reporting discrepancy",
+            "Relevant detail, status definitions, and a documented way to raise the question."
+          ],
+          [
+            "Reconcile a reporting period",
+            "Clear date boundaries and information suitable for comparison with records."
+          ],
+          [
+            "Review activity over time",
+            "Historical access or a permitted process for retaining dated reports."
+          ],
+          [
+            "Share analysis with a teammate",
+            "Understandable field names and a secure, controlled records process."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a dashboard with more metrics always better?",
+      "answer": "No. More metrics do not necessarily answer the questions a webmaster needs to resolve. Check whether the essential fields are defined, appropriately detailed, and relevant to your actual decisions."
+    },
+    {
+      "question": "Can I rely on a field name to understand what a commission or conversion means?",
+      "answer": "Not by itself. Look for a definition that explains the event, reporting stage, and any later status changes. If sources conflict or the definition is missing, mark it as uncertain and request clarification."
+    },
+    {
+      "question": "Should I build my own tracking labels for every campaign?",
+      "answer": "Only use tracking methods the program permits, and choose labels that match distinctions you genuinely need to analyze. Confirm that the report preserves those distinctions before relying on them."
+    },
+    {
+      "question": "What if a report does not show the detail I need?",
+      "answer": "Document the gap and ask whether an approved view or export provides the missing context. If the gap remains, avoid drawing conclusions the available report cannot support and limit decisions that depend on that evidence."
+    }
+  ]
+};
