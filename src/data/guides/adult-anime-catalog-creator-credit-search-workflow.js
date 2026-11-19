@@ -1,0 +1,114 @@
+export default {
+  "slug": "adult-anime-catalog-creator-credit-search-workflow",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Catalogs: Search by Creator Credit Without Trusting Tags Alone",
+  "description": "Learn how to search adult anime catalogs by creator or publisher while checking aliases, edition details, and attribution before building a shortlist.",
+  "excerpt": "Creator names can appear in different forms across catalog listings. This workflow helps you compare search terms, verify credits against item details, and keep uncertain matches out of your shortlist.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Treat a creator-name search as a starting point, not proof that a listing is correctly attributed.",
+    "Search plausible name variants separately and record which form returned each result.",
+    "Compare credits on the item page with edition, publisher, or source details where available.",
+    "Separate confirmed matches from possible matches instead of silently combining them.",
+    "Avoid downloading files or signing in merely to inspect a result when the catalog provides enough public information to decide."
+  ],
+  "sections": [
+    {
+      "heading": "Start with a narrow, testable search question",
+      "paragraphs": [
+        "Searching by creator is useful when you already know a credited name and want to find related catalog entries. It can also be unreliable: names may have alternate spellings, transliterations, abbreviations, collective credits, or differences in how catalog editors divide given and family names. Tags may reflect user submissions rather than an authoritative credit.",
+        "Before searching, write down what you are trying to confirm. Are you looking for works credited to a particular person, releases from a publisher, or entries associated with a studio name? These are different relationships. A creator, publisher, translator, studio, and distributor should not be treated as interchangeable just because a catalog places them in one tag area."
+      ],
+      "bullets": [
+        "Record the name exactly as you know it.",
+        "Note whether you expect a person, group, studio, or publisher credit.",
+        "Decide what evidence would count as a confirmed match before browsing."
+      ]
+    },
+    {
+      "heading": "Search name variants without merging them prematurely",
+      "paragraphs": [
+        "Run one spelling or name form at a time. If a catalog supports quotation marks, category filters, or exact-match controls, test how those controls change the results rather than assuming their behavior. A broader query can reveal alternate spellings, but it can also return unrelated entries with similar text.",
+        "Keep a small search log: query, filters, date, and a few result titles or listing identifiers. This prevents a common error in which results from different spellings are remembered as one confirmed group. If a name has a known alternate form, record the reason you consider it equivalent; if you are unsure, mark it as a candidate rather than a fact."
+      ],
+      "table": {
+        "caption": "A simple evidence record for creator-name searches",
+        "headers": [
+          "Field",
+          "What to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Query",
+            "Exact spelling or name form entered",
+            "Shows which term produced a result"
+          ],
+          [
+            "Listing",
+            "Title or stable catalog identifier",
+            "Avoids confusing similarly named entries"
+          ],
+          [
+            "Displayed credit",
+            "Role and name shown on the item page",
+            "Distinguishes creator from publisher or translator"
+          ],
+          [
+            "Supporting detail",
+            "Edition, source, or publisher information shown",
+            "Adds context without treating tags as proof"
+          ],
+          [
+            "Confidence",
+            "Confirmed, possible, or unresolved",
+            "Keeps uncertainty visible when comparing results"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the item page, not just the result tag",
+      "paragraphs": [
+        "Open the listing details and inspect how the name is presented. A distinct credit field is more informative than a tag that appears alongside unrelated labels, though neither is automatically conclusive. Look for role wording: a person credited for translation or editing is not necessarily the original creator, and a publisher name does not establish individual authorship.",
+        "Compare the listing’s title and edition information with any public catalog or publisher details available without risky downloads. If those details conflict, record the mismatch. Do not resolve an unclear credit by assuming that the most prominent name on a page is the creator. The aim is a defensible shortlist, not a forced answer."
+      ]
+    },
+    {
+      "heading": "Use a shortlist that preserves uncertainty",
+      "paragraphs": [
+        "Create separate groups for confirmed matches, plausible matches, and entries that need more evidence. For each item, retain the listing identifier, displayed credit, and reason for your confidence level. This helps if the catalog changes its tags or a listing is replaced, and it prevents a questionable association from spreading into future searches.",
+        "Keep the shortlist focused on the decision you need to make. If you want to compare titles from a particular publisher, record publisher attribution rather than treating it as creator evidence. If your interest is a particular artist or writer, prioritize listings that actually describe that role. A short, well-supported list is usually more useful than a long set of tag matches."
+      ],
+      "bullets": [
+        "Confirmed: credit is explicit and consistent across the available listing details.",
+        "Possible: a name variant or related source suggests a match, but the role or identity is not established.",
+        "Unresolved: credits conflict, are missing, or appear only in an unverified tag.",
+        "Exclude: result is clearly unrelated or depends on unsafe access to verify."
+      ]
+    },
+    {
+      "heading": "Keep catalog exploration low-risk",
+      "paragraphs": [
+        "A search result should not require you to install an unknown app, open a suspicious file, or provide unnecessary account information simply to confirm a name. Use public listing information first. If the page redirects repeatedly, demands unusual permissions, or disguises a download as a catalog detail, stop and reassess rather than treating the prompt as part of normal search.",
+        "If you choose to create an account for a legitimate catalog feature, use a distinct password and review what profile or activity information may be visible. Do not post private questions about a creator search from an identifiable account unless you are comfortable with the account’s community and visibility settings. Keep your notes locally in a way that suits your privacy needs."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are catalog tags reliable evidence of authorship?",
+      "answer": "They are useful discovery clues, but a tag alone may not identify the credited role or establish that the association is accurate. Check the item details and preserve uncertainty where the credit is unclear."
+    },
+    {
+      "question": "What if the same name appears with different spellings?",
+      "answer": "Search each spelling separately and record which entries appear under each form. Treat the forms as equivalent only when the catalog or other available evidence supports that connection."
+    },
+    {
+      "question": "Should I use a third-party download to verify a credit?",
+      "answer": "Not as a default verification step. First see whether the catalog’s public item details provide enough context. Avoid unknown downloads or installation prompts when the purpose is only to inspect metadata."
+    }
+  ]
+};

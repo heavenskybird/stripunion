@@ -1,0 +1,115 @@
+export default {
+  "slug": "adult-games-community-required-play-dependency-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Whether Community Features Are Optional or Required",
+  "description": "Before choosing an adult game platform, find out whether community accounts, online services, or user-generated content are optional extras or part of ordinary play.",
+  "excerpt": "A storefront, launcher, or game may present community tools alongside access to the game. This checklist helps separate optional social features from account, update, or play dependencies.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Distinguish a storefront account needed to obtain a game from optional community participation.",
+    "Check whether first launch, updates, saves, or core features require an online service or separate community profile.",
+    "Review visibility and moderation controls before posting, following users, or linking accounts.",
+    "Look for official documentation and in-game prompts that explain what happens when community features are disabled.",
+    "Record any unresolved dependency and test permitted settings before buying or installing."
+  ],
+  "sections": [
+    {
+      "heading": "Separate game access from community participation",
+      "paragraphs": [
+        "Game platforms often place a title listing, discussion area, user reviews, creator posts, and community tools close together. Their proximity does not establish that all of them are required to play. A platform account may be needed for purchase or installation, while posting, following groups, or maintaining a public profile may be optional. A separate launcher or online service can introduce another dependency altogether.",
+        "Write down the task you need to support: purchase, installation, first launch, offline play, updates, cloud saves, multiplayer, or community discussion. Then assess each one separately. This prevents a vague “account required” statement from obscuring whether the requirement is for basic access or only for a particular connected feature."
+      ],
+      "bullets": [
+        "Identify the account used for purchase or ownership records.",
+        "Identify any separate game, launcher, or community account.",
+        "List the features you actually plan to use.",
+        "Mark which requirements are confirmed and which still need verification."
+      ]
+    },
+    {
+      "heading": "Map the dependencies before committing",
+      "paragraphs": [
+        "Use the store listing, developer documentation, launcher prompts, and game settings to build a dependency map. Look for requirements at installation and first launch, not only in the marketing description. A game may run locally but still use an online account for a save feature, or it may need an online connection for updates while allowing some play without community participation.",
+        "Do not infer offline support from a download button, or infer mandatory community use from the presence of a discussion hub. If documentation is unclear, treat the answer as unresolved. Ask a narrowly framed support question through an official route, such as whether a community profile is required for first launch or whether a specific feature can be disabled."
+      ],
+      "table": {
+        "caption": "A dependency map for deciding whether social tools are optional",
+        "headers": [
+          "Activity",
+          "What to verify",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Purchase and installation",
+            "Which account or storefront controls access to the download",
+            "Store listing and account requirements"
+          ],
+          [
+            "First launch",
+            "Whether a separate login or online check is required",
+            "Setup screen or official support explanation"
+          ],
+          [
+            "Core play",
+            "Whether community participation is needed for ordinary game features",
+            "Game settings and documented requirements"
+          ],
+          [
+            "Saves and updates",
+            "Whether local saves or updates depend on connected services",
+            "Save and update documentation"
+          ],
+          [
+            "Posting and groups",
+            "Whether public profile or moderation settings can be adjusted",
+            "Community settings and rules"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect community controls before using them",
+      "paragraphs": [
+        "If you intend to use discussions or community groups, review who can see your profile, posts, play activity, or library details. Check whether the platform offers controls for comments, messages, following, and content visibility. Controls can vary by feature, so do not assume that setting a profile to private hides every activity surface.",
+        "Read the community rules and moderation route before participating. Useful signals include clear rules, an accessible reporting mechanism, and an explanation of how moderators handle reports. These details do not guarantee a particular outcome, but they help you decide whether the space suits your boundaries. Avoid sharing identifying information simply to ask a game question."
+      ]
+    },
+    {
+      "heading": "Test optionality with a low-risk workflow",
+      "paragraphs": [
+        "When possible, inspect public documentation and settings before creating an additional profile. If you already own the game, use the platform’s ordinary controls to test whether the community area can remain unused. Avoid creating public posts or linking social accounts just to discover whether they are necessary. A private or low-visibility test may still create account records, so check the settings first.",
+        "Record what you tested, including the account state and any feature that failed without a connection. This makes the conclusion specific: for example, “discussion tools appear optional for the tested single-player launch path” is more useful than “the game is offline.” Do not generalize one successful start into a claim about saves, updates, or future launches."
+      ],
+      "bullets": [
+        "Confirm the supported operating system and access path separately from community features.",
+        "Test the settings available without posting personal details.",
+        "Note whether a connection is needed for launch, play, updates, or saves.",
+        "If a prompt is ambiguous, pause rather than granting broad account permissions."
+      ]
+    },
+    {
+      "heading": "Choose based on the access model you actually want",
+      "paragraphs": [
+        "A storefront with an active community can be useful if you value discussion, update notes, or player-created guides. A more minimal access route may be a better fit if you want to avoid public profiles or social features. Neither model is inherently better; the decision depends on whether the game’s required accounts and services fit your preferences.",
+        "Before purchase or installation, keep a compact record of the account chain, community requirements, and unresolved questions. Revisit it if the game changes its launcher, online services, or community settings. This avoids assuming that a one-time setup choice will remain identical after updates or account changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a storefront account mean I must use its community features?",
+      "answer": "Not automatically. An account may be required for purchase or installation while community tools remain optional. Verify the requirements for the specific activities you plan to use."
+    },
+    {
+      "question": "How can I tell whether a community feature is truly optional?",
+      "answer": "Check official requirements, setup prompts, and settings for the relevant path—such as first launch, saves, or updates. If the answer is unclear, record it as unresolved rather than assuming."
+    },
+    {
+      "question": "Should I link a personal social account to a game community?",
+      "answer": "Only if you understand the link and want the resulting account connection. Review permissions and visibility first; linking is not a necessary step unless the service documents it as a requirement for a feature you want."
+    }
+  ]
+};
