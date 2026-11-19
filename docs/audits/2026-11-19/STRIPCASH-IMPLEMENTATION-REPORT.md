@@ -71,6 +71,7 @@ This is bounded snapshot verification, not an instantaneous online guarantee. A 
 - `services/live-models-worker/test/catalog-lifecycle.test.mjs`: failures, persistence, cooldown, concurrency, removal, geobans and retention regressions.
 - `services/live-models-worker/test/live-grid.test.mjs`: executes the actual inline script in a controlled DOM fixture; stale rejection, card removal and tracked routing.
 - `scripts/test-live-models-browser.mjs`: reproducible Chromium test against built HTML with synthetic responses, including dynamic click tracking.
+- `.github/workflows/deploy-live-models-worker.yml`: strengthens existing deployment smoke to require no-store, fresh non-stale timestamps and public HTTPS-image cards; a valid empty eligible catalog is accepted. No deployment gate/settings change.
 - `docs/STRIPCASH_MODELS_API.md`: current architecture, lifecycle, caveats and test instructions.
 - This report.
 

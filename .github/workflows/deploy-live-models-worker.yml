@@ -80,6 +80,12 @@ jobs:
               exit 1
             fi
 
+            if ! tr -d '\r' < "$headers_file" | grep -Eiq '^cache-control:.*no-store'; then
+              echo "Models endpoint must not cache inventory"
+              rm -f "$headers_file" "$models_file"
+              exit 1
+            fi
+
             expected_cors="access-control-allow-origin: $origin"
             if ! tr -d '\r' < "$headers_file" | grep -Fiq "$expected_cors"; then
               echo "Missing expected CORS header for $origin"
@@ -89,14 +95,21 @@ jobs:
 
             node -e '
               const data = JSON.parse(process.argv[1]);
-              if (data.ok !== true || !Array.isArray(data.models)) {
+              if (data.ok !== true || data.stale !== false || !Array.isArray(data.models)) {
                 throw new Error("Unexpected /models payload");
               }
-              if (data.models.length < 1 || data.models.length > 3) {
+              const refreshedAt = Date.parse(data.refreshedAt);
+              const validUntil = Date.parse(data.validUntil);
+              if (!Number.isFinite(refreshedAt) || !Number.isFinite(validUntil) ||
+                  refreshedAt > Date.now() || validUntil <= Date.now() ||
+                  validUntil - refreshedAt !== 10000) {
+                throw new Error("Catalog freshness contract failed");
+              }
+              if (data.count !== data.models.length || data.models.length > 3) {
                 throw new Error("Unexpected model count");
               }
               for (const model of data.models) {
-                if (!model.id || !model.username || !model.snapshotUrl) {
+                if (!model.id || !model.username || model.status !== "public" || !model.snapshotUrl?.startsWith("https://")) {
                   throw new Error("Missing safe public model fields");
                 }
                 if ("geobans" in model || "clickUrl" in model) {
