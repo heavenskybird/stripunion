@@ -26218,7 +26218,7 @@
       "intent": "Adult Anime Platforms: Tell Full Releases, Previews, and Compilations Apart",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -26231,7 +26231,7 @@
       "intent": "Free Video Platforms: Test Whether Recommendations Can Be Reset or Separated",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -26244,7 +26244,7 @@
       "intent": "Adult Games: Check Whether Update Notes Describe a Real Release Change",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -26257,7 +26257,7 @@
       "intent": "Adult Shops: Test Checkout Accessibility Before Placing an Order",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
@@ -26270,7 +26270,7 @@
       "intent": "Adult Platform Renewals: Set Reminders Without Exposing Shared Calendars",
       "surface": "main",
       "priority": 95,
-      "status": "publishing",
+      "status": "published",
       "source_requirements": [
         "evergreen claims only; official/stable sources required before adding future volatile platform-specific claims"
       ],
