@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T22:21:49.666Z",
+  "generatedAt": "2026-11-19T23:43:53.231Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-local-stock-visit-planner.json",
-    "ops/editorial/content-artifacts/premium-video-library-search-zero-results-workflow.json",
-    "ops/editorial/content-artifacts/creator-platform-collaborative-account-ownership-planner.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-incremental-launch-dependency-map.json",
-    "ops/editorial/content-artifacts/adult-dating-conversation-endpoint-fit-check.json"
+    "ops/editorial/content-artifacts/live-cam-platform-reward-credit-terms-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-support-request-data-minimization-plan.json",
+    "ops/editorial/content-artifacts/adult-anime-app-install-source-and-update-review.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-membership-access-manager-check.json",
+    "ops/editorial/content-artifacts/free-video-platform-ad-context-and-consent-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-local-stock-visit-planner.js",
-    "src/data/guides/premium-video-library-search-zero-results-workflow.js",
-    "src/data/guides/creator-platform-collaborative-account-ownership-planner.js",
-    "src/data/guides/webmaster-affiliate-incremental-launch-dependency-map.js",
-    "src/data/guides/adult-dating-conversation-endpoint-fit-check.js"
+    "src/data/guides/live-cam-platform-reward-credit-terms-audit.js",
+    "src/data/guides/adult-platform-support-request-data-minimization-plan.js",
+    "src/data/guides/adult-anime-app-install-source-and-update-review.js",
+    "src/data/guides/vr-adult-platform-membership-access-manager-check.js",
+    "src/data/guides/free-video-platform-ad-context-and-consent-review.js"
   ],
   "categories": [
-    "adult-shops",
-    "premium-videos",
-    "creator-platforms",
-    "webmaster-affiliate",
-    "dating-hookups"
+    "live-cams",
+    "privacy-safety-payment",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-local-stock-visit-planner",
-    "premium-video-library-search-zero-results-workflow",
-    "creator-platform-collaborative-account-ownership-planner",
-    "webmaster-affiliate-incremental-launch-dependency-map",
-    "adult-dating-conversation-endpoint-fit-check"
+    "live-cam-platform-reward-credit-terms-audit",
+    "adult-platform-support-request-data-minimization-plan",
+    "adult-anime-app-install-source-and-update-review",
+    "vr-adult-platform-membership-access-manager-check",
+    "free-video-platform-ad-context-and-consent-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44627515451",
-  "phase": "closed"
+  "r1CycleId": "44639774472"
 }

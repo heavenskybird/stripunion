@@ -1,0 +1,129 @@
+{
+  "backlogId": "vr-adult-platform-membership-access-manager-check",
+  "slug": "vr-adult-platform-membership-access-manager-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Memberships: Check Which Account Controls Billing and Access",
+  "description": "A decision checklist for identifying whether a VR adult platform membership is managed by the service, a device storefront or another billing account—and what to verify before changing it.",
+  "excerpt": "A headset may connect several accounts and access routes. Identify which one controls a membership before subscribing, changing a plan or trying to cancel.",
+  "keyTakeaways": [
+    "Separate the account used to view content from the account that authorizes or manages payment.",
+    "Check the checkout receipt and membership settings to identify the billing authority before making changes.",
+    "Do not assume cancelling through one account, app or storefront changes a separate subscription.",
+    "Keep confirmation records and use the identified billing route for plan changes or cancellation."
+  ],
+  "sections": [
+    {
+      "heading": "Map the accounts involved before checkout",
+      "paragraphs": [
+        "A VR viewing setup can involve a platform account, a headset or device account, a browser session and a payment provider. These may be connected, but they are not automatically the same account or the same control point. Before subscribing, note which account you will use to sign in, which page or storefront presents the checkout, and which account is identified in the final payment confirmation.",
+        "Look for wording that identifies the seller, billing provider or subscription manager. Read the confirmation screen before authorizing payment and keep a copy of the receipt. If the checkout does not make clear who will manage renewals, plan changes and cancellation, pause and seek an explanation through the relevant official help route. Avoid assuming the headset brand, app name or payment card alone identifies the party that controls the subscription."
+      ],
+      "bullets": [
+        "Record the sign-in account, checkout route and named billing party separately.",
+        "Read the final authorization and confirmation screens before approving payment.",
+        "Pause if the renewal and cancellation authority is not clear."
+      ]
+    },
+    {
+      "heading": "Distinguish access from payment control",
+      "paragraphs": [
+        "Being able to open a library on a headset does not establish where the membership is managed. A service may authenticate a user while another account or storefront handles payment; an external payment provider may also appear in the transaction record. Identify each role from the account settings and transaction documents rather than inferring it from the player or headset interface.",
+        "This distinction matters when a membership does not appear in the place you expected. Check the signed-in account, the receipt, the relevant subscription settings and any stated storefront connection. Do not repeatedly start a new subscription to solve an access problem: that can create confusion about whether an existing plan is active. If the records disagree, ask support a focused question about the specific transaction and account route."
+      ],
+      "table": {
+        "caption": "Membership control map",
+        "headers": [
+          "Question",
+          "Evidence to check",
+          "What it helps establish"
+        ],
+        "rows": [
+          [
+            "Where do I sign in?",
+            "Account page or sign-in method used for viewing",
+            "Which identity grants access"
+          ],
+          [
+            "Where was checkout completed?",
+            "Checkout screen and transaction confirmation",
+            "Which route initiated the purchase"
+          ],
+          [
+            "Who manages renewal?",
+            "Membership settings and receipt language",
+            "Where to inspect recurring terms"
+          ],
+          [
+            "Where can I change or cancel?",
+            "Account or storefront instructions",
+            "Which control path applies to this plan"
+          ],
+          [
+            "What proves the action?",
+            "Confirmation screen, email or transaction record",
+            "Whether a change was accepted"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify renewal and cancellation controls on the right route",
+      "paragraphs": [
+        "Once the billing authority is identified, find the renewal date or cycle, the process for changing a plan and the stated cancellation steps. Look for whether a change takes effect immediately or at a later point, and what confirmation the system provides. Do not assume that signing out, uninstalling an app or removing a payment method cancels a recurring membership.",
+        "If you purchased through a device storefront or another billing route, follow the instructions for that route rather than relying only on the viewing platform’s account page. If the page directs you elsewhere, navigate to that account independently and confirm the same membership is listed there. Keep the confirmation and note the date you completed the action; do not treat a button click alone as proof if the system provides a separate final confirmation."
+      ],
+      "bullets": [
+        "Use the route identified in the transaction record for membership changes.",
+        "Check for an explicit cancellation confirmation and save it.",
+        "Treat uninstalling, signing out and removing a payment method as separate actions unless the terms say otherwise."
+      ]
+    },
+    {
+      "heading": "Protect account boundaries on a headset",
+      "paragraphs": [
+        "Before linking accounts, consider whether the headset is shared, managed by another person or connected to a payment profile used for other purchases. Check which account names and purchase prompts can appear in the headset interface. Use separate sign-in profiles where appropriate and do not store credentials in a profile another person can access. The person who can unlock a device or account may have access to more than the media library.",
+        "If a third-party sign-in or storefront connection is involved, review what authorization is being granted and whether it is required for the membership. Avoid approving a prompt you do not understand. If you later remove a link, verify whether doing so affects access, billing or account recovery; unlinking an identity should not be assumed to cancel a membership."
+      ],
+      "bullets": [
+        "Check who can access the headset profile and its payment settings.",
+        "Review account-linking prompts before approving them.",
+        "Treat account unlinking and membership cancellation as distinct operations."
+      ]
+    },
+    {
+      "heading": "Keep a compact record for future changes",
+      "paragraphs": [
+        "A small record of the controlling route can save time if you switch devices, forget where you subscribed or need to challenge an unfamiliar renewal. Keep the membership name as displayed, the relevant account or storefront, the receipt date, the renewal terms and any cancellation confirmation. Store the note privately and avoid copying full payment credentials into it.",
+        "Review the record when changing headsets, sign-in accounts or payment methods. A device change may not change the billing authority, while a new checkout route may create a separate membership. Confirm the active status from the account that manages the charge before assuming access or billing has ended. Platform processes can change, so rely on current account screens and terms when taking action."
+      ],
+      "bullets": [
+        "Keep receipts and cancellation evidence in a private, accessible place.",
+        "Re-check the billing authority after changing devices or checkout routes.",
+        "Use current account settings rather than relying on an old assumption."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does signing out of a VR platform cancel its membership?",
+      "answer": "Do not assume that it does. Sign-out ends a session, while membership cancellation is a separate account or billing action. Follow the instructions associated with the transaction’s billing authority."
+    },
+    {
+      "question": "What if the membership is not visible in the platform account?",
+      "answer": "Check the receipt and the account or storefront used at checkout. Confirm that you are signed in to the same account and use the official help route if the records still do not match. Avoid creating another subscription while the first is unresolved."
+    },
+    {
+      "question": "Does removing a payment method stop future renewals?",
+      "answer": "Not necessarily. A payment method change and subscription cancellation may be separate actions. Check the current membership terms and obtain the platform’s cancellation confirmation if you want the plan to end."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

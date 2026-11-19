@@ -1,0 +1,122 @@
+export default {
+  "slug": "live-cam-platform-reward-credit-terms-audit",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Platform Rewards: Check Bonus Credit Terms Before You Count Them",
+  "description": "A practical way to evaluate live cam platform rewards, bonus credits, eligibility rules, expiration terms and spending conditions without confusing a promotion with usable value.",
+  "excerpt": "Promotional credits can look simple while carrying separate rules. Use this checklist to understand how rewards are earned, applied and tracked before relying on them.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Treat promotional credits as a separate balance until the platform explains how they differ from purchased credits.",
+    "Check eligibility, minimum activity, time limits and exclusions before assuming a reward is available to use.",
+    "Record the reward terms and resulting balance so a later account history can be understood.",
+    "Do not spend more than intended to qualify for a promotion; compare the required activity with your own budget first."
+  ],
+  "sections": [
+    {
+      "heading": "Separate a promotion from an ordinary credit balance",
+      "paragraphs": [
+        "A reward banner may mention bonus credits, a welcome offer, a loyalty benefit or another incentive. Those labels do not establish that the balance works like credits you purchased. It may have its own eligibility conditions, use restrictions, expiration date or display location. Before including a reward in your spending plan, find the terms linked from the offer and identify exactly what is being granted.",
+        "Look for the platform’s definition of each balance type in its help pages, checkout screens and account ledger. Note whether a reward is shown separately, whether it can be combined with a purchased balance, and whether the platform explains which balance is used first. If the rules are unclear, plan using only the amount you have independently decided to spend—not the promotional amount."
+      ],
+      "bullets": [
+        "Write down the reward name and the exact terms shown when you qualify.",
+        "Check whether the balance is promotional, purchased or a mixture of both.",
+        "Look for a clear explanation of how the platform applies different balances."
+      ]
+    },
+    {
+      "heading": "Check what earns the reward—and what does not",
+      "paragraphs": [
+        "Offers can be conditional on actions such as making a qualifying purchase, reaching an activity threshold or completing an account step. Read the entire eligibility description, including exclusions, deadlines and any reference to selected regions or account types. A headline may be brief while the linked rules set the conditions that matter. Do not assume that merely seeing an offer means your account qualifies.",
+        "Separate the action required to earn a reward from the action required to use it. For example, the offer may describe an earning threshold while the account page describes when a reward becomes available. If you need to make a purchase to qualify, decide on your spending limit first. The incentive should not become a reason to exceed that limit."
+      ],
+      "bullets": [
+        "Identify the qualifying action, deadline and account eligibility conditions.",
+        "Check whether the reward is immediate or becomes available only after another step.",
+        "Compare the required purchase or activity with a budget you set without the offer."
+      ]
+    },
+    {
+      "heading": "Read expiration, exclusions and use conditions together",
+      "paragraphs": [
+        "An expiration date is useful only when you know which balance it applies to and when the period begins. Check whether the terms describe an expiry date, a time window after the reward is issued or a deadline to complete a qualifying step. If the time zone or start date is not clear, avoid assuming the most favorable interpretation. Save a copy of the terms while the promotion is visible.",
+        "Look for exclusions that affect the reward’s practical value. The terms may limit where or how promotional credits can be applied, whether they can be combined with other offers, or what happens if an account is closed. Do not infer that a promotional balance can be refunded, transferred or converted to cash unless the platform states that directly."
+      ],
+      "bullets": [
+        "Record the issue date and any expiry language.",
+        "Check restrictions on eligible interactions or other account activity without assuming they are universal.",
+        "Look for rules covering returns, refunds, account closure and unused reward balances."
+      ]
+    },
+    {
+      "heading": "Keep a small ledger that makes balances understandable",
+      "paragraphs": [
+        "A basic record can prevent confusion when an account shows more than one balance type. Note the date, the offer name, the qualifying action, the amount or unit described, and any deadline. After the reward appears, record what the account page says and keep the relevant confirmation. Avoid including account passwords, full payment details or unnecessary personal information in your notes.",
+        "When a balance changes, compare the platform’s transaction history with your own record. A difference does not by itself prove an error: the platform may apply a balance in a particular order or list a pending reward separately. If the figures remain unclear, ask support a narrow question about the balance and the applicable terms, and include only the account details needed to identify the issue."
+      ],
+      "table": {
+        "caption": "Reward terms to record before relying on a promotion",
+        "headers": [
+          "Check",
+          "What to note",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Eligibility",
+            "Required action, account conditions and deadline",
+            "Shows whether the offer applies to your account"
+          ],
+          [
+            "Availability",
+            "When the reward appears and where it is displayed",
+            "Distinguishes an announced offer from a usable balance"
+          ],
+          [
+            "Restrictions",
+            "Permitted use and any exclusions",
+            "Avoids assuming rewards work like purchased credits"
+          ],
+          [
+            "Expiration",
+            "Date or time window and when it starts",
+            "Helps prevent reliance on an expired balance"
+          ],
+          [
+            "Records",
+            "Offer copy, confirmation and account ledger entry",
+            "Provides a clear reference if the balance is unclear"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make the decision without letting the offer set your budget",
+      "paragraphs": [
+        "A promotion is worth considering only in the context of your own spending boundary. Decide what, if anything, you are willing to spend without counting a reward. Then see whether the published conditions fit that decision. If eligibility requires more spending than you planned, declining the offer may be the more useful choice. An advertised bonus does not change the cost or risk of the qualifying purchase.",
+        "Before accepting a reward, ask whether it requires account settings, recurring activity or notifications you do not want. If the offer is not clear, pause rather than relying on a support representative’s informal summary alone. The relevant terms should be accessible and specific enough for you to understand what the platform says it will provide."
+      ],
+      "bullets": [
+        "Set a maximum spend before opening a promotion or checkout page.",
+        "Do not make an unplanned purchase solely to unlock a reward.",
+        "Keep the option to decline, ignore or leave an unclear offer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are promotional credits the same as purchased credits?",
+      "answer": "Not necessarily. The platform may assign different rules to promotional and purchased balances. Check the terms and account ledger for how each type is identified, applied and treated if unused."
+    },
+    {
+      "question": "What should I save when I accept an offer?",
+      "answer": "Keep the offer wording, the date you accepted or qualified, any confirmation, and the account entry showing the reward. Store only the information needed to understand the transaction, and protect the record as you would other private account information."
+    },
+    {
+      "question": "Should I spend more to qualify for a bonus?",
+      "answer": "Only if the purchase independently fits your budget and the terms are clear. A reward should not determine your spending limit or make an otherwise unwanted purchase seem necessary."
+    }
+  ]
+};
