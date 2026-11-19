@@ -1,0 +1,144 @@
+{
+  "backlogId": "adult-dating-platform-acquaintance-discovery-privacy",
+  "slug": "adult-dating-platform-acquaintance-discovery-privacy",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Reduce Discovery by People You Know Before Joining",
+  "description": "A privacy checklist for assessing whether contacts, phone numbers, social links, profile clues, and search visibility could help acquaintances find an adult dating profile.",
+  "excerpt": "No single setting can guarantee that acquaintances will not find a dating profile. Check discovery routes, account identifiers, profile details, and visibility controls before you become active.",
+  "keyTakeaways": [
+    "Treat discoverability settings as risk reduction, not a guarantee of invisibility.",
+    "Check whether the service uses contacts, phone numbers, social links, or other account identifiers for discovery.",
+    "Use a separate email and a non-identifying username where practical, without misrepresenting yourself.",
+    "Review profile text and images for clues that link the account to your usual identity or routines.",
+    "Revisit settings after app updates, account changes, travel, or a change in who can access your devices."
+  ],
+  "sections": [
+    {
+      "heading": "Map the ways an acquaintance could find you",
+      "paragraphs": [
+        "People may encounter a profile through more than one route: recommendations, search filters, shared contact information, social connections, a recognizable username, or details in the profile itself. Which routes exist varies by service, so do not assume every platform uses the same methods. Begin by reading its privacy and discovery explanations and noting which controls you can actually change before creating or activating a profile.",
+        "The goal is not to promise that nobody you know can find you. Another user may already have an account, recognize a photo or detail, or encounter a profile through a route the service does not let you disable. Instead, reduce avoidable links between your dating account and your everyday identity, then decide whether the remaining exposure is acceptable."
+      ],
+      "bullets": [
+        "List the identifiers you expect to use: email, phone, username, photos, and social accounts.",
+        "Note which discovery settings are optional and which are required for access.",
+        "Treat undocumented discovery behavior as unknown."
+      ]
+    },
+    {
+      "heading": "Review contact and identifier matching",
+      "paragraphs": [
+        "Before granting access to your address book, check what the platform says it will do with contacts, whether matching is one-way or mutual, whether contacts are uploaded, and whether you can remove synced data later. A permission prompt alone may not explain the full data flow. If contact syncing is optional and you do not want it, deny it; if the platform makes it necessary, weigh that requirement before proceeding.",
+        "Consider whether your phone number or email is already known to people who might use the service. Check whether either can be used to locate, recommend, or verify an account, and whether the platform offers a control that limits that use. A separate email can reduce linkage, but it does not erase every connection and should not be treated as a guarantee. Avoid signing in through a social account if you do not want that identity connected."
+      ],
+      "paragraphs2": [
+        "Review account recovery as well as discovery. A private account can still create unwanted exposure if shared-device notifications show a sign-in code, profile name, or message preview. Use a secure recovery method and a device lock that fit your circumstances."
+      ]
+    },
+    {
+      "heading": "Audit profile clues before making it visible",
+      "paragraphs": [
+        "A profile can identify someone through a combination of ordinary details even when it contains no full name. A workplace reference, neighborhood, regular venue, uncommon hobby, routine, or recognizable writing style can narrow the possibilities. Before publishing, read the profile as if an acquaintance were trying to connect it to you. Remove details that are not needed to communicate what you are looking for, and avoid giving precise routine or location information.",
+        "Images can also connect accounts through faces, backgrounds, uniforms, landmarks, or repeated pictures used elsewhere. Consider whether a photo has appeared on public social profiles or can be recognized by its setting. Do not upload another person’s image or imply an identity that is not yours. A privacy choice should preserve honest representation while limiting unnecessary identifying detail."
+      ],
+      "table": {
+        "caption": "A pre-activation check for common discovery links",
+        "headers": [
+          "Discovery route",
+          "What to inspect",
+          "Possible risk-reduction step"
+        ],
+        "rows": [
+          [
+            "Contacts",
+            "Sync permission, matching explanation, deletion route",
+            "Decline optional sync and check for removal controls."
+          ],
+          [
+            "Email or phone",
+            "Lookup and recommendation settings",
+            "Use a separate contact address where practical; review lookup controls."
+          ],
+          [
+            "Photos",
+            "Recognizable image, background, prior public use",
+            "Choose images thoughtfully and remove identifying surroundings."
+          ],
+          [
+            "Profile text",
+            "Work, location, routine, distinctive details",
+            "Share only details needed for clear expectations."
+          ],
+          [
+            "Social sign-in",
+            "Connected account permissions and visible links",
+            "Avoid linking accounts unless the connection is acceptable."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand what visibility controls do and do not do",
+      "paragraphs": [
+        "Some platforms offer options to hide a profile, limit who can see it, or reduce discovery in particular contexts. Read the control description and check whether it applies to search, recommendations, existing matches, or only one part of the service. A control may have exceptions, such as people you have already interacted with or users who meet a specific condition. Do not interpret a setting label as broader protection than its explanation supports.",
+        "If a setting is unclear, test it before completing a detailed profile where the service allows browsing without activation. Verify the resulting state from the platform’s own interface, and look for a confirmation that the profile is hidden or inactive. If no clear confirmation exists, treat the effect as uncertain. Take care not to create a second account to test visibility if the platform’s rules prohibit multiple accounts."
+      ],
+      "bullets": [
+        "Read each control’s scope and exceptions.",
+        "Check whether hiding a profile affects existing conversations or matches.",
+        "Record the setting name and date if you may need to verify it later."
+      ]
+    },
+    {
+      "heading": "Choose a cautious account and device setup",
+      "paragraphs": [
+        "Use a unique password and keep account recovery details secure. On a shared device, avoid saved credentials or browser autofill that another person can access, and sign out when appropriate. Review lock-screen notifications, email previews, and app badges so that a message or verification code does not appear unexpectedly. These device controls do not change the platform’s discovery system, but they can prevent a different kind of exposure.",
+        "Separate identity where reasonable without creating misleading information. A distinct username and contact address can reduce accidental cross-linking, while accurate profile claims and respectful interaction remain important. Do not use another person’s contact details or impersonate someone to avoid discovery. If keeping the account private would require behavior that violates the platform’s rules, reconsider whether the service fits your needs."
+      ],
+      "paragraphs2": [
+        "For higher privacy needs, make a plan for what you will do if someone recognizes the profile. Review the platform’s block, report, and account pause controls in advance, and consider what information might remain visible in existing conversations or screenshots. No platform setting can control what another user independently remembers or saves."
+      ]
+    },
+    {
+      "heading": "Recheck after changes and make an informed choice",
+      "paragraphs": [
+        "Privacy settings and product interfaces can change. Revisit contact permissions, profile visibility, linked accounts, and notification behavior after a significant app update or account change. If you switch phone numbers, share a device, connect a social account, or travel, review whether the new circumstance changes your exposure. A periodic check is more practical than assuming that the first setup remains correct indefinitely.",
+        "Use a simple decision rule before becoming active: proceed only if you understand the discovery routes that matter most, have reduced avoidable identity links, and accept the residual risk. If you cannot determine how a platform uses contacts or whether a profile can be hidden, delay adding identifying details or choose a service whose controls are clearer. This is a personal risk decision, not a guarantee of privacy."
+      ],
+      "bullets": [
+        "Contact and lookup settings reviewed",
+        "Social account connections considered",
+        "Profile text and images checked for identifying clues",
+        "Visibility state confirmed as far as the service permits",
+        "Block, pause, and exit options located"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I guarantee that acquaintances will not see my profile?",
+      "answer": "No setting can guarantee that. Someone may recognize a photo or detail, or the service may have discovery routes that are not fully controllable. You can reduce avoidable links and decide whether the remaining risk is acceptable."
+    },
+    {
+      "question": "Should I let a dating platform access my contacts?",
+      "answer": "Only if you understand the purpose, data handling, and removal options and are comfortable with them. If syncing is optional and you prefer not to share contacts, decline the permission and review whether the service remains usable."
+    },
+    {
+      "question": "Does using a different username make my account anonymous?",
+      "answer": "No. A distinct username may reduce one link, but photos, phone or email matching, profile details, social connections, and other users’ recognition can still identify you."
+    },
+    {
+      "question": "What should I do if I cannot find a clear profile-visibility setting?",
+      "answer": "Treat the visibility behavior as uncertain. Avoid adding identifying details or activating the profile until you can understand the platform’s controls, and contact support with a specific question if needed."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

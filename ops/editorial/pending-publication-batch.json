@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T22:59:27.349Z",
+  "generatedAt": "2026-11-19T00:53:28.074Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-fan-notification-controls-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-search-result-freshness-audit.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-subtitle-default-and-persistence-check.json",
-    "ops/editorial/content-artifacts/free-video-search-filter-reset-and-state-check.json",
-    "ops/editorial/content-artifacts/adult-games-launcher-account-dependency-map.json"
+    "ops/editorial/content-artifacts/adult-shop-cart-price-change-audit.json",
+    "ops/editorial/content-artifacts/adult-anime-app-casting-screen-privacy-fit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-failed-payment-recovery-plan.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-acquaintance-discovery-privacy.json",
+    "ops/editorial/content-artifacts/live-cam-free-listing-claim-verification.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-fan-notification-controls-audit.js",
-    "src/data/guides/adult-dating-platform-search-result-freshness-audit.js",
-    "src/data/guides/vr-adult-platform-subtitle-default-and-persistence-check.js",
-    "src/data/guides/free-video-search-filter-reset-and-state-check.js",
-    "src/data/guides/adult-games-launcher-account-dependency-map.js"
+    "src/data/guides/adult-shop-cart-price-change-audit.js",
+    "src/data/guides/adult-anime-app-casting-screen-privacy-fit.js",
+    "src/data/guides/webmaster-affiliate-failed-payment-recovery-plan.js",
+    "src/data/guides/adult-dating-platform-acquaintance-discovery-privacy.js",
+    "src/data/guides/live-cam-free-listing-claim-verification.js"
   ],
   "categories": [
-    "creator-platforms",
+    "adult-shops",
+    "hentai-anime",
+    "webmaster-affiliate",
     "dating-hookups",
-    "vr-ar",
-    "free-videos",
-    "adult-games"
+    "live-cams"
   ],
   "backlogIds": [
-    "creator-platform-fan-notification-controls-audit",
-    "adult-dating-platform-search-result-freshness-audit",
-    "vr-adult-platform-subtitle-default-and-persistence-check",
-    "free-video-search-filter-reset-and-state-check",
-    "adult-games-launcher-account-dependency-map"
+    "adult-shop-cart-price-change-audit",
+    "adult-anime-app-casting-screen-privacy-fit",
+    "webmaster-affiliate-failed-payment-recovery-plan",
+    "adult-dating-platform-acquaintance-discovery-privacy",
+    "live-cam-free-listing-claim-verification"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44416270180",
-  "phase": "closed"
+  "r1CycleId": "44432323735"
 }
