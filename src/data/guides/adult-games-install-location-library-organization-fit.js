@@ -1,0 +1,127 @@
+export default {
+  "slug": "adult-games-install-location-library-organization-fit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check Install Locations and Library Organization Before Choosing a Storefront",
+  "description": "Compare how adult game storefronts handle install locations, library organization, and storage decisions before setting up a collection.",
+  "excerpt": "A storefront may be easy to browse but awkward to manage if its install and library options do not match your devices or storage plan. Use this guide to check the practical organization questions before downloading or buying a game.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Separate storefront library organization from the game’s own save-file location and settings.",
+    "Check whether you can choose or change an install location before committing storage to a large collection.",
+    "Plan a naming and folder convention that does not expose private information on shared screens or devices.",
+    "Do not treat moving an install as the same thing as transferring a license, save, or account entitlement.",
+    "Confirm how a storefront handles missing, moved, or disconnected library folders before relying on its organization tools."
+  ],
+  "sections": [
+    {
+      "heading": "Why library organization is a platform-fit question",
+      "paragraphs": [
+        "Choosing where to obtain a game is not only about discovery or whether access is free or paid. The storefront’s library and install workflow can affect how easily you locate, update, and remove games later. A person with one device and a small collection may need little organization. Someone managing multiple drives or devices may care much more about install destinations, library filters, and how the storefront represents a moved game.",
+        "Keep three concepts separate while comparing options: the storefront library is the record of games associated with an account; an installation is the local game data on a device; and saved progress may be stored in a different place again. A visible library entry does not establish that files are installed, that the game can launch offline, or that saved progress is included in a move. Verify each point independently."
+      ],
+      "bullets": [
+        "List the devices and storage locations you expect to use.",
+        "Decide whether you need one simple library view or organization by collection, device, or folder.",
+        "Record which questions concern the storefront and which concern the game itself."
+      ]
+    },
+    {
+      "heading": "Check install-location choices before a download",
+      "paragraphs": [
+        "Before installing, look for the storefront’s documented options for choosing an install folder or storage volume. Confirm whether the choice applies to a single game, future installations, or both. If you already have games installed, check whether the platform provides a documented move process and whether that process preserves its library record. Do not assume that dragging a folder to another drive is equivalent to a supported move.",
+        "Think through the practical environment as well as capacity. A removable drive may be disconnected, renamed, or mounted differently on another device. A shared device may have multiple user accounts, each with different permissions. An install path that works for one account may not be accessible to another. The relevant question is not whether a particular drive is best in general, but whether your planned location remains available to the account and device that need it."
+      ],
+      "table": {
+        "caption": "Separate the tasks before reorganizing a game library",
+        "headers": [
+          "Task",
+          "What it changes",
+          "What to verify separately"
+        ],
+        "rows": [
+          [
+            "Change install folder",
+            "Where local game files are stored",
+            "Whether the storefront recognizes the new location"
+          ],
+          [
+            "Move to another drive",
+            "Physical or logical file location",
+            "Supported transfer steps and relaunch behavior"
+          ],
+          [
+            "Move to another device",
+            "The device holding the local installation",
+            "Account access, compatibility, and reinstall requirements"
+          ],
+          [
+            "Transfer saved progress",
+            "Where progress data is available",
+            "Whether the game or platform documents save transfer or sync"
+          ],
+          [
+            "Reorganize library view",
+            "How entries are grouped or filtered",
+            "Whether organization is account-specific or device-specific"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a private, understandable naming scheme",
+      "paragraphs": [
+        "Library labels and folder names can appear in file browsers, recent-item views, screen shares, or household device interfaces. Choose a simple naming convention that helps you recognize a game without placing personal details in folder names. Avoid including real names, private notes, or account information in paths that may be visible to other users or support tools.",
+        "If you use labels, categories, or collections in a storefront, check whether those are private and whether they are attached to the account or only to a local installation. A well-organized private library can make games easier to find, but a public profile or shared screen may expose more than expected. Review visibility before creating public lists or posting screenshots of your library."
+      ],
+      "bullets": [
+        "Use neutral, consistent folder names rather than identifying personal labels.",
+        "Check whether collection names or library activity can be seen by other account users.",
+        "Avoid sharing screenshots that reveal account details, installed titles, or local folder paths unintentionally."
+      ]
+    },
+    {
+      "heading": "Understand what a move does not guarantee",
+      "paragraphs": [
+        "Moving files does not necessarily move a license, account entitlement, save data, settings, or add-ons. Those elements may have separate rules and locations. Before changing a library structure, check the storefront’s instructions and the game’s own documentation. If the instructions are unclear, pause before deleting the original files; an unsupported move can leave you with a library entry that no longer points to a usable installation.",
+        "Likewise, a storefront recognizing a folder does not prove that every file is complete or current. Updates, verification steps, and required launcher components may still apply. Keep a record of the original location and any steps taken, particularly if you manage more than one drive. That record is useful for reversing a change without relying on memory."
+      ],
+      "bullets": [
+        "Do not delete the original installation until the new location is recognized and the game launches as expected.",
+        "Check save-data handling separately from installation handling.",
+        "Keep a brief dated note of moves, drive names, and storefront instructions used."
+      ]
+    },
+    {
+      "heading": "Choose a storefront using a small practical test",
+      "paragraphs": [
+        "Use a low-stakes test to assess the organization workflow before depending on it for a large library. Review the settings and help pages first; if you already own an appropriate game, observe whether the install destination is visible and whether the library distinguishes installed from uninstalled entries. Do not buy a game solely to test a platform feature. You can often identify the important unknowns from the platform’s documentation or by asking support.",
+        "Compare storefronts against your own routine, not an assumed universal standard. If you rarely move files, a basic library may be sufficient. If you manage multiple locations, unclear move instructions may matter more than an attractive discovery page. Record what was confirmed and what remains unknown, and revisit the decision if you change devices, drives, or account setup."
+      ],
+      "bullets": [
+        "Score install-location choice, move instructions, library clarity, and privacy separately.",
+        "Prefer documented steps over improvised file transfers.",
+        "Keep the storefront library, local installation, and saves as distinct items in your checklist."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a storefront shows a game in my library, is it installed?",
+      "answer": "Not necessarily. The library can list games associated with an account even when their files are not installed on the current device. Look for a separate installed status or local file location."
+    },
+    {
+      "question": "Does moving a game folder move its saved progress too?",
+      "answer": "Not automatically. Saved progress may use a separate location or system. Check the game and storefront documentation for save transfer or synchronization details before moving or deleting files."
+    },
+    {
+      "question": "Can I install one library on a removable drive?",
+      "answer": "That depends on the storefront, device, drive format, permissions, and the game’s requirements. Check documented support and consider what happens if the drive is disconnected or assigned a different location."
+    },
+    {
+      "question": "What should I do before reorganizing an existing library?",
+      "answer": "Read the supported move instructions, record the original locations, and avoid deleting the original files until the storefront recognizes the new location and the game launches as expected."
+    }
+  ]
+};

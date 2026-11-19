@@ -1,0 +1,129 @@
+{
+  "backlogId": "creator-platform-fan-restriction-response-workflow",
+  "slug": "creator-platform-fan-restriction-response-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Plan a Clear Workflow for Blocking or Restricting Fan Accounts",
+  "description": "A practical workflow for creators to review account controls, record moderation decisions, and communicate boundaries when restricting fan access.",
+  "excerpt": "Blocking or restricting an account can involve safety, privacy, and business choices. Prepare a calm process in advance: understand the available controls, decide what evidence to retain, and avoid promising a platform action will remove every route of contact.",
+  "keyTakeaways": [
+    "Learn the difference between muting, restricting, blocking, and reporting from the platform’s current help information.",
+    "Decide in advance what conduct triggers a restriction and what evidence you may need to preserve.",
+    "Use the least intrusive control that addresses the situation, while prioritizing safety when contact is threatening or persistent.",
+    "Do not assume a restriction erases prior messages, removes copied material, or blocks contact through other services.",
+    "Keep notes minimal, factual, and stored securely; avoid retaining unnecessary fan personal information."
+  ],
+  "sections": [
+    {
+      "heading": "Make the workflow before a difficult interaction",
+      "paragraphs": [
+        "Creators may need to set boundaries when a fan’s contact becomes unwanted, disruptive, or concerning. Making decisions in the moment can be stressful, especially when platform controls use similar labels for different actions. A short written workflow can clarify what you will do, what information you will preserve, and when you will ask the platform for help. This is operational preparation, not a substitute for emergency or professional support when there is an immediate threat.",
+        "Start by reviewing the platform’s own descriptions of muting, restricting, blocking, and reporting. Do not assume these controls have identical effects. One might change what you see; another might affect what the other account can view or send; a report may begin a separate review. Feature behavior can change, so confirm it in current help materials before relying on it."
+      ],
+      "bullets": [
+        "Identify the controls available and the platform’s explanation of each one.",
+        "Choose a private place to keep a short moderation decision log, if a log is needed.",
+        "Decide who on your team is allowed to apply restrictions or respond to reports."
+      ]
+    },
+    {
+      "heading": "Use observable criteria, not improvised rules",
+      "paragraphs": [
+        "A consistent boundary policy can reduce uncertainty. Define actions by observable behavior—such as repeated contact after a clear request to stop—rather than by assumptions about a person’s identity or motive. The purpose is not to create a complex enforcement code. It is to help you respond consistently and explain decisions to collaborators who may share account access.",
+        "A boundary can be set without a long debate. When it is safe and appropriate, one concise statement may clarify the limit; repeated explanations are not always helpful. If you decide not to respond, you can still use account controls. For threatening, coercive, or persistent behavior, prioritize safety, preserve relevant evidence where practical, and use available reporting or support channels rather than attempting to negotiate alone."
+      ],
+      "table": {
+        "caption": "Match the response to the situation and the control",
+        "headers": [
+          "Situation",
+          "Possible next step",
+          "Check before relying on it"
+        ],
+        "rows": [
+          [
+            "Unwanted but non-persistent contact",
+            "Review privacy or interaction settings",
+            "Whether the setting changes future contact or only visibility"
+          ],
+          [
+            "Repeated contact after a boundary",
+            "Consider restricting or blocking and documenting the pattern",
+            "What the control does to existing messages and future contact"
+          ],
+          [
+            "Content or conduct that may violate platform rules",
+            "Use the platform’s reporting route",
+            "What evidence the report form requests and how follow-up works"
+          ],
+          [
+            "Immediate safety concern",
+            "Use appropriate urgent support and avoid engaging alone",
+            "Whether platform reporting is additional to, not a replacement for, urgent help"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Preserve only useful, relevant evidence",
+      "paragraphs": [
+        "If a situation may need a platform review, preserve the minimum information that shows what happened: relevant messages, dates, account identifiers visible in the service, and any steps already taken. Follow platform guidance on reporting and evidence. Avoid collecting unrelated personal details, sharing screenshots broadly, or making public accusations while you are still assessing the situation. A small, factual record can be more useful than a large archive of private conversation.",
+        "Store evidence in a location with limited access. If collaborators help manage the account, define who can view the material and how long it should be retained. Do not forward sensitive messages to a team chat or shared drive without considering who can access it. If a report is submitted, record the date and reference information the platform provides, but do not treat the existence of a report as confirmation of a particular outcome."
+      ],
+      "bullets": [
+        "Keep dates, relevant content, and the action taken; leave out speculation.",
+        "Limit access to evidence to people who need it for moderation or support.",
+        "Follow platform guidance on formats, redaction, and report follow-up."
+      ]
+    },
+    {
+      "heading": "Set realistic expectations about controls",
+      "paragraphs": [
+        "Account controls may not affect every copy of a message or every route of contact. A block may not remove content already captured elsewhere, and a restriction may not alter what has already been delivered. Do not promise collaborators that a control prevents all further contact. Check the platform’s current description and plan what you will do if the behavior continues through another account or channel.",
+        "Also distinguish a platform restriction from a formal platform enforcement decision. You may be able to control your own interactions without the service confirming a rule violation. Conversely, a report may be reviewed under processes you do not control. Keep records factual, avoid retaliatory behavior, and use the platform’s escalation route if you need clarification about what a control or report status means."
+      ],
+      "bullets": [
+        "Check the effect on existing messages, future messages, and visibility separately.",
+        "Plan for continued contact without assuming a particular platform response.",
+        "Do not publish private information in an attempt to enforce a boundary."
+      ]
+    },
+    {
+      "heading": "Review the process with collaborators and over time",
+      "paragraphs": [
+        "For a creator business with helpers, a restriction workflow should cover access and handoffs. Agree who can apply a control, who can communicate externally, and where to record a moderation decision. Avoid sharing account passwords as a substitute for permission controls. If access changes, review who can still see stored evidence and whether the person’s role still requires it.",
+        "Revisit the workflow when platform controls or team responsibilities change. A brief review can identify vague instructions, missing escalation contacts, or records that no longer need to be retained. The goal is a repeatable, proportionate response that protects boundaries and limits unnecessary exposure—not a promise that every interaction can be controlled."
+      ],
+      "bullets": [
+        "Document who owns the decision and who handles platform follow-up.",
+        "Use account roles and permissions where available rather than informal password sharing.",
+        "Review the workflow after a platform policy or team-access change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I warn someone before blocking or restricting them?",
+      "answer": "There is no universal requirement to send a warning. Consider the behavior, your existing boundary, and your safety. A concise notice may be appropriate in some non-threatening situations, but you do not have to continue a conversation that feels unsafe."
+    },
+    {
+      "question": "Does blocking remove messages already received?",
+      "answer": "Do not assume so. The effect on existing messages can vary by platform and control. Check the platform’s current help information and preserve relevant evidence before changing access if you may need it for a report."
+    },
+    {
+      "question": "Should I keep screenshots of every difficult interaction?",
+      "answer": "No. Retain only relevant information that supports a moderation or safety need, store it securely, and limit who can access it. Follow the platform’s reporting guidance and avoid collecting unrelated personal data."
+    },
+    {
+      "question": "What if the person contacts me through another account?",
+      "answer": "Do not assume one account control covers every route. Record relevant repeated behavior, use the platform’s reporting or escalation options, review your privacy settings, and seek appropriate support if there is a safety concern."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

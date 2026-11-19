@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T02:02:45.908Z",
+  "generatedAt": "2026-11-19T03:25:27.271Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-public-search-indexing-audit.json",
-    "ops/editorial/content-artifacts/premium-video-membership-episode-release-state-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-authorization-amount-review.json",
-    "ops/editorial/content-artifacts/vr-adult-device-account-switch-boundary-planner.json",
-    "ops/editorial/content-artifacts/hentai-streaming-player-source-and-domain-check.json"
+    "ops/editorial/content-artifacts/free-video-regional-catalog-access-check.json",
+    "ops/editorial/content-artifacts/adult-games-install-location-library-organization-fit.json",
+    "ops/editorial/content-artifacts/adult-shop-postpurchase-product-document-access-check.json",
+    "ops/editorial/content-artifacts/creator-platform-fan-restriction-response-workflow.json",
+    "ops/editorial/content-artifacts/affiliate-dashboard-accessibility-reporting-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-public-search-indexing-audit.js",
-    "src/data/guides/premium-video-membership-episode-release-state-audit.js",
-    "src/data/guides/adult-platform-payment-authorization-amount-review.js",
-    "src/data/guides/vr-adult-device-account-switch-boundary-planner.js",
-    "src/data/guides/hentai-streaming-player-source-and-domain-check.js"
+    "src/data/guides/free-video-regional-catalog-access-check.js",
+    "src/data/guides/adult-games-install-location-library-organization-fit.js",
+    "src/data/guides/adult-shop-postpurchase-product-document-access-check.js",
+    "src/data/guides/creator-platform-fan-restriction-response-workflow.js",
+    "src/data/guides/affiliate-dashboard-accessibility-reporting-fit.js"
   ],
   "categories": [
+    "free-videos",
+    "adult-games",
+    "adult-shops",
     "creator-platforms",
-    "premium-videos",
-    "privacy-safety-payment",
-    "vr-ar",
-    "hentai-anime"
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "creator-platform-public-search-indexing-audit",
-    "premium-video-membership-episode-release-state-audit",
-    "adult-platform-payment-authorization-amount-review",
-    "vr-adult-device-account-switch-boundary-planner",
-    "hentai-streaming-player-source-and-domain-check"
+    "free-video-regional-catalog-access-check",
+    "adult-games-install-location-library-organization-fit",
+    "adult-shop-postpurchase-product-document-access-check",
+    "creator-platform-fan-restriction-response-workflow",
+    "affiliate-dashboard-accessibility-reporting-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44441080666",
-  "phase": "closed"
+  "r1CycleId": "44451022334"
 }

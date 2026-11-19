@@ -1,0 +1,127 @@
+export default {
+  "slug": "affiliate-dashboard-accessibility-reporting-fit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reporting: Check Dashboard Accessibility Before You Depend on a Program",
+  "description": "Assess whether an affiliate dashboard’s reports are usable for your routine, team, and assistive technology before making it part of your workflow.",
+  "excerpt": "Reporting is useful only when the people responsible for decisions can access and interpret it. Use this checklist to evaluate dashboard navigation, report clarity, export options, and support routes without assuming every program offers the same tools.",
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "keyTakeaways": [
+    "Test the reporting workflow using the tools and access needs your team actually relies on.",
+    "Separate visual accessibility, report definitions, and data completeness; success in one area does not establish the others.",
+    "Check whether important reports can be exported or reviewed without relying on a single dashboard view.",
+    "Record unresolved accessibility barriers and ask a specific, evidence-based support question before depending on the reporting process.",
+    "Do not infer a program’s reporting quality from a polished dashboard or from a single successful test."
+  ],
+  "sections": [
+    {
+      "heading": "Why reporting access is an operational requirement",
+      "paragraphs": [
+        "An affiliate dashboard can contain relevant information yet still be difficult for a team member to use. Navigation barriers, unclear labels, inaccessible charts, or time-sensitive controls may slow routine review and increase the chance that important changes go unnoticed. Before integrating a program into regular operations, assess whether the reporting process works for the people who will actually review and reconcile it.",
+        "Accessibility is not the same as data accuracy. A dashboard may be easy to navigate while leaving conversion definitions unclear; a detailed report may still be difficult to access with a keyboard or screen reader. Evaluate these as separate questions. This guide is about reporting usability and access, not a claim that a particular platform meets a technical standard or legal requirement."
+      ],
+      "bullets": [
+        "List who needs to review reports and what assistive or alternative tools they use.",
+        "Identify the specific recurring tasks: open a report, set a date range, inspect statuses, export data, or follow up on an exception.",
+        "Keep usability findings separate from questions about attribution, commission eligibility, and data completeness."
+      ]
+    },
+    {
+      "heading": "Test representative reporting tasks",
+      "paragraphs": [
+        "Use a small, repeatable set of tasks rather than judging a dashboard by its home page. Can the reviewer find the right report, understand the date-range controls, identify the report’s time zone, distinguish labels, and locate an export action? If the interface includes charts, determine whether the same information is available as text or in a usable table. A task that cannot be completed independently is an important operational finding.",
+        "Test with the tools the intended reviewer actually uses, in an appropriate account and without creating artificial traffic or transactions. Do not share login credentials across a team merely to run a test. If a test account is unavailable, ask the program whether it can provide documentation, screenshots, or a demonstration of the relevant workflow."
+      ],
+      "table": {
+        "caption": "Reporting dashboard accessibility test plan",
+        "headers": [
+          "Task",
+          "Evidence to record",
+          "Separate question to resolve"
+        ],
+        "rows": [
+          [
+            "Navigate to a report",
+            "Whether labels and controls are identifiable",
+            "Does the report use the definitions your business needs?"
+          ],
+          [
+            "Change a date range",
+            "Whether the control can be operated and its state is clear",
+            "What time zone and date boundaries apply?"
+          ],
+          [
+            "Read a chart or status",
+            "Whether equivalent information is available in text or a table",
+            "What does each status mean for commission eligibility?"
+          ],
+          [
+            "Export or save a report",
+            "Whether the action is discoverable and produces a usable file",
+            "How long are exports and historical data retained?"
+          ],
+          [
+            "Ask for help",
+            "Whether a suitable support route exists",
+            "What response or escalation process is documented?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check report structure, not just visual appearance",
+      "paragraphs": [
+        "A report should make its fields and statuses understandable to the person responsible for decisions. Look for clear names, explanations, and distinctions between clicks, referrals, conversions, and final commission states. A table that looks orderly can still be ambiguous if two similar statuses have different meanings. Likewise, a chart that cannot be interpreted without color alone may be difficult for some users even when the data is otherwise sound.",
+        "Where possible, check whether the information can be reviewed in a format that supports your workflow, such as a table or export. Confirm that exported columns retain useful labels and that the file can be used with the tools your team relies on. An export does not guarantee that the underlying data is complete or that its definitions match your accounting records; it only provides another way to access the reported information."
+      ],
+      "bullets": [
+        "Ask for definitions of fields and statuses that affect decisions.",
+        "Check whether charts have text equivalents and whether color is the only distinction.",
+        "Review whether exported data is understandable outside the dashboard."
+      ]
+    },
+    {
+      "heading": "Ask support focused questions and keep evidence",
+      "paragraphs": [
+        "When you encounter a barrier, describe the task and the point where it fails. For example, ask how to access a particular report using keyboard navigation, whether a chart’s values are available in a table, or whether a report can be supplied in another format. Specific questions make it easier for support to answer than a broad request to confirm that a dashboard is accessible.",
+        "Keep a dated note of the task, browser or assistive technology used if relevant, and the response received. Avoid including unnecessary personal or fan data in a support request. A support answer may clarify the current workflow, but it should not be treated as proof of universal accessibility or an assurance that the interface will never change. Re-test important tasks after significant dashboard updates."
+      ],
+      "bullets": [
+        "Describe the task, observed barrier, and format needed.",
+        "Record the response and date without storing unrelated account data.",
+        "Ask how users will be notified if a key reporting workflow changes."
+      ]
+    },
+    {
+      "heading": "Decide whether the workflow is dependable for your team",
+      "paragraphs": [
+        "Make the decision against your actual operating requirements. A dashboard that requires occasional assistance may still work for a small team if the support and alternative-reporting process is clear. A business that depends on frequent independent checks may need stronger access and export options. Consider whether a barrier creates a missed deadline, delays reconciliation, or prevents a team member from verifying a report—not just whether the interface feels inconvenient.",
+        "Document any workaround and its owner. A workaround should not rely on one person’s private credentials, an unsupported browser extension, or manual transcription of sensitive data without appropriate controls. If the workflow remains inaccessible or unclear for a critical task, do not assume it will improve after launch; seek clarification and compare operational fit before relying on it."
+      ],
+      "bullets": [
+        "Mark each task as usable, usable with a documented workaround, or unresolved.",
+        "Assign an owner and review date for any workaround.",
+        "Reassess after dashboard redesigns, reporting changes, or team access changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an accessible dashboard mean its reports are accurate?",
+      "answer": "No. Accessibility and data accuracy are separate issues. You still need to understand report definitions, attribution rules, time boundaries, and how reported amounts are reconciled."
+    },
+    {
+      "question": "What if I cannot test a dashboard before joining?",
+      "answer": "Ask for documentation or a demonstration of the reporting tasks you need. Record what remains unverified and consider whether that uncertainty is acceptable for your planned workflow."
+    },
+    {
+      "question": "Is an export a complete substitute for the dashboard?",
+      "answer": "Not necessarily. It may offer another way to review information, but it can omit context, controls, or status details. Check the export’s fields and definitions as well as whether it works with your tools."
+    },
+    {
+      "question": "What should I include when reporting an accessibility barrier?",
+      "answer": "Describe the specific task, the step where access fails, the tool or interaction method involved if relevant, and the alternative format or route that would help. Avoid including unrelated personal or visitor data."
+    }
+  ]
+};
