@@ -177,7 +177,7 @@ if (liveModelsComponent.includes('STRIPCASH_MODELS_API_KEY')) {
 }
 
 const liveModelsWorker = fs.readFileSync('services/live-models-worker/src/index.js', 'utf8');
-for (const required of ['ModelsCatalog', 'AttributionStore', '/events/click', '/postback/stripcash', '/analytics/summary', 'MIN_UPSTREAM_INTERVAL_MS = 10_000', 'ATTRIBUTION_RETENTION_MS', 'blockedCountries', 'blockedRegions', 'blockedLanguages', 'setAlarm', 'MAX_STORED_MODELS = 500']) {
+for (const required of ['ModelsCatalog', 'AttributionStore', '/events/click', '/postback/stripcash', '/analytics/summary', 'MIN_UPSTREAM_INTERVAL_MS = 60_000', 'CATALOG_VALIDITY_MS = 90_000', 'ATTRIBUTION_RETENTION_MS', 'blockedCountries', 'blockedRegions', 'blockedLanguages', 'setAlarm', 'MAX_STORED_MODELS = 500']) {
   if (!liveModelsWorker.includes(required)) {
     failed = true;
     console.error(`FAIL: live models worker is missing a required compliance/control marker: ${required}`);

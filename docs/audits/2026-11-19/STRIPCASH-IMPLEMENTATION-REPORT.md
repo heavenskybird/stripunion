@@ -142,7 +142,7 @@ Continued existing draft PR #211 from GitHub-confirmed head `d70d0f7c82ecf86c1f6
 - Analytics: emit loaded/unavailable only on availability transitions, not every poll, repeated failure, viewport callback or cached response.
 - Existing geobans, direct upstream image URLs, API credentials/configuration, affiliate destinations and viewer/model referral routes remain unchanged. No player, new API/database/workflow/service or infrastructure was introduced.
 
-Focused files changed in this optimization: `src/components/LiveModelsGrid.astro`, `services/live-models-worker/src/index.js`, existing `test/live-grid.test.mjs` and `test/catalog-lifecycle.test.mjs` under that Worker, `scripts/test-live-models-browser.mjs`, the existing deployment smoke in `.github/workflows/deploy-live-models-worker.yml`, `docs/STRIPCASH_MODELS_API.md`, and this report.
+Focused files changed in this optimization: `src/components/LiveModelsGrid.astro`, `services/live-models-worker/src/index.js`, existing `test/live-grid.test.mjs` and `test/catalog-lifecycle.test.mjs` under that Worker, `scripts/test-live-models-browser.mjs`, the existing timing-marker guard in `scripts/quality-check.mjs`, the existing deployment smoke in `.github/workflows/deploy-live-models-worker.yml`, `docs/STRIPCASH_MODELS_API.md`, and this report.
 
 Synthetic validation:
 
@@ -153,3 +153,6 @@ Synthetic validation:
 Official-rule boundary: the repository records a maximum frequency of one API request per five seconds, not a required five-second polling cadence. Official API documentation was opened again at https://stripcash.com/documentation/api/?tab=models_api_for_aggregators but returned no readable content. The accessible official Help Center explains online inventory/privacy metadata but does not establish a maximum allowed cache age. No evidence retrieved proves the requested 60/90 policy unsuitable; authenticated partner-specific requirements remain unverified, rather than being represented as confirmed approval. No integration expansion is warranted on that basis.
 
 Production boundary: this branch remains undeployed. No actual production behavior or partner credit is established by these synthetic tests or by PR CI. The earlier Worker-access limitation remains; current live payload eligibility, production latency and authenticated maximum-age obligations require post-deployment/account evidence. No production settings, credentials or approved commercial routes were changed.
+
+
+Initial optimization commit `9f3739ea1411777f2a5d5b00c4aba7c4481b55eb` failed PR Build 44566827190 because the existing migration quality gate still hard-coded `MIN_UPSTREAM_INTERVAL_MS = 10_000`. The initial local quality invocation also failed with that marker; it must not be counted as a pass. The guard now explicitly requires `MIN_UPSTREAM_INTERVAL_MS = 60_000` and `CATALOG_VALIDITY_MS = 90_000`, preserving timing validation under the new policy. Delivery checks must refer to the corrected new head.
