@@ -1,5 +1,6 @@
 const STRIPCASH_MODELS_URL = 'https://go.whitetrafsa.com/app/models-ext/models';
-const MIN_UPSTREAM_INTERVAL_MS = 10_000;
+const MIN_UPSTREAM_INTERVAL_MS = 60_000;
+const CATALOG_VALIDITY_MS = 90_000;
 const CATALOG_RETENTION_MS = 24 * 60 * 60 * 1000;
 const MAX_STORED_MODELS = 500;
 const DEFAULT_LIMIT = 12;
@@ -705,7 +706,7 @@ export class ModelsCatalog {
       return json({
         ok: true,
         refreshedAt: new Date(fetchedAt).toISOString(),
-        validUntil: new Date(fetchedAt + MIN_UPSTREAM_INTERVAL_MS).toISOString(),
+        validUntil: new Date(fetchedAt + CATALOG_VALIDITY_MS).toISOString(),
         stale,
         count: models.length,
         models

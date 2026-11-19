@@ -1,6 +1,6 @@
 # StripCash Models API — StripUnion
 
-Updated: 2026-11-19
+Updated: 2026-11-20
 
 ## Purpose
 
@@ -85,7 +85,7 @@ The repository now contains `services/live-models-worker/`, a Cloudflare Worker 
 Why this shape:
 - the StripCash key stays server-side;
 - one Durable Object serializes upstream refreshes globally;
-- upstream refresh attempts are separated by at least 10 seconds, stricter than the documented 5-second limit;
+- upstream refresh attempts are separated by at least 60 seconds, stricter than the documented 5-second limit;
 - only a bounded top-500 public catalog is retained;
 - each response applies country, region and Accept-Language geobans before returning cards;
 - unknown location is handled conservatively for geographically restricted models;
@@ -120,7 +120,7 @@ https://stripcash.com/documentation/player-guide?tab=player_guide%7Cplayer_guide
 The guide page returned no readable content during this audit; do not infer its
 current embed parameters from old Help Center examples of external HLS players.
 
-The catalog is eligible for display for at most 10 seconds after a successful
+The catalog is eligible for display for at most 90 seconds after a successful
 refresh. Failed HTTP/network/JSON/schema refreshes erase catalog/fetchedAt and
 return 503; cooldown never serves expired data. Successful empty feeds replace
 previous inventory. `validUntil` describes display eligibility, separate from the
@@ -128,13 +128,15 @@ previous inventory. `validUntil` describes display eligibility, separate from th
 converted into unrestricted models. Unknown geography, region or language hides
 models when the applicable restriction cannot be evaluated.
 
-Browser responses use `no-store`. The grid polls every 5 seconds while visible,
+Browser responses use `no-store`. The grid waits for viewport entry, then polls 60 seconds after each completed request while in the viewport and on a focused, visible, online page. It
 rejects stale/unverifiable/non-public cards, expires cards at the original refresh
-deadline, and clears them on failed requests, offline events and tab hiding.
-The single global Durable Object still enforces a minimum 10-second upstream
+deadline, and clears them on failed requests, offline events, tab hiding, loss of focus or viewport exit. Inactive requests are aborted and late responses ignored. Unchanged inventory keeps its existing image elements; loaded/unavailable analytics fire only on availability transitions.
+The single global Durable Object still enforces a minimum 60-second upstream
 interval (browser polling is not upstream polling); requests join an active refresh.
 There is no instantaneous online guarantee between snapshots. Client clock skew
 may conservatively hide cards; the tracked generic AVCams fallback remains usable.
+
+The 60-second refresh interval and separate 90-second display deadline reduce API use while allowing healthy revalidation before expiry. An older shared snapshot can trigger necessary revalidation at expiry before the next regular poll. Browsers without IntersectionObserver use the same activity checks without viewport gating. The deadline is never extended by reusing cached responses, and a failed revalidation hides cards immediately even inside the 90-second window. The documented five-second limit is a minimum request interval, not evidence of a required five-second refresh. Current authenticated documentation was not readable during this audit; no claim of partner approval for the 90-second window is made.
 
 Catalog replacement drops absent/offline/deleted models on the next successful
 refresh; failure hides and erases inventory, and idle storage expires in 24 hours.

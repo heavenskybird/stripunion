@@ -25,16 +25,19 @@ test('catalog failure, cooldown, replacement, single-flight and retention', asyn
   assert.equal(calls, 1);
   const fresh = await results[0].json();
   assert.equal(fresh.models.length, 1);
-  assert.equal(Date.parse(fresh.validUntil) - Date.parse(fresh.refreshedAt), 10_000);
+  assert.equal(Date.parse(fresh.validUntil) - Date.parse(fresh.refreshedAt), 90_000);
   assert.equal(results[0].headers.get('cache-control'), 'no-store');
   assert.equal(data.get('alarm'), 1_000_000 + 86_400_000);
-  t.mock.method(Date, 'now', () => 1_010_000);
+  t.mock.method(Date, 'now', () => 1_059_999);
+  assert.equal((await store.fetch(req())).status, 200);
+  assert.equal(calls, 1, 'requests within 60 seconds reuse the verified catalog');
+  t.mock.method(Date, 'now', () => 1_060_000);
   response = () => new Response('', {status: 429});
   assert.equal((await store.fetch(req())).status, 503);
   assert.equal(data.has('catalog'), false);
   assert.equal((await store.fetch(req())).status, 503);
   assert.equal(calls, 2);
-  t.mock.method(Date, 'now', () => 1_020_000);
+  t.mock.method(Date, 'now', () => 1_120_000);
   response = () => Response.json({ models: [] });
   const empty = await (await store.fetch(req())).json();
   assert.deepEqual(empty.models, []);
@@ -48,7 +51,7 @@ for (const [name, response] of [
   ['invalid schema', () => Response.json({ count: 1 })]
 ]) test(`${name} cannot expose expired catalog`, async t => {
   t.mock.method(globalThis, 'fetch', async () => response());
-  const { data, store } = fixture({ catalog: [model], fetchedAt: Date.now() - 20_000 });
+  const { data, store } = fixture({ catalog: [model], fetchedAt: Date.now() - 60_001 });
   const result = await store.fetch(req());
   assert.equal(result.status, 503);
   assert.equal((await result.json()).models, undefined);

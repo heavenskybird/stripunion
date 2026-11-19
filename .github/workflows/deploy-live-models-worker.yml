@@ -102,7 +102,7 @@ jobs:
               const validUntil = Date.parse(data.validUntil);
               if (!Number.isFinite(refreshedAt) || !Number.isFinite(validUntil) ||
                   refreshedAt > Date.now() || validUntil <= Date.now() ||
-                  validUntil - refreshedAt !== 10000) {
+                  validUntil - refreshedAt !== 90000) {
                 throw new Error("Catalog freshness contract failed");
               }
               if (data.count !== data.models.length || data.models.length > 3) {

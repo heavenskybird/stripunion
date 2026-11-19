@@ -1,5 +1,7 @@
 # Stripcash discovery compliance — Implementation Report
 
+**Current policy (November 20, 2026, Asia/Shanghai):** the 60-second browser/upstream cadence and 90-second maximum display validity below supersede the earlier 5/10-second acceptance snapshots. Historical test results remain labelled by their original SHA.
+
 Date: November 19, 2026 (Asia/Shanghai). Status: IMPLEMENTED, awaiting PR validation and deployment; not DEPLOYED or MEASURED.
 
 ## Outcome and scope
@@ -126,3 +128,28 @@ A new deterministic regression executes the actual inline script with a cached-s
 Only the demonstrated scheduling defect, its focused test and this evidence addendum were changed. The previous completed broad test/visual results remain historical evidence for the original head; the new head requires its own CI gate. No merge or deployment was performed.
 
 Targeted validation after the correction: all 27 Worker/frontend tests passed; the new timing regression failed against the original exact-head script (expected red) and passed with the fix. Quality check, production-indexable build and production SEO check passed after the code change. No unchanged project/data-layer/visual suites were manually repeated.
+
+
+## Editorial-cost optimization — November 20, 2026
+
+Business scope is editorial SEO and affiliate referrals, not real-time streaming.
+Continued existing draft PR #211 from GitHub-confirmed head `d70d0f7c82ecf86c1f6439032853f7da70153019` without merging or changing production settings.
+
+- Browser revalidation: **60 seconds after each completed request**, only when the component intersects the viewport and the page is focused, visible and online. Initial offscreen components make no inventory request. Pending requests are aborted on suspension and late responses cannot restore cards.
+- Worker: **60-second minimum upstream interval**, still enforced by the existing single global Durable Object and persisted attempt timestamp. A separate constant sets **90-second maximum display validity**; this is not permission to serve a failed refresh. If a shared snapshot is already old when a visitor arrives, expiry can initiate one necessary early renewal instead of waiting for the next regular poll. A synthetic 59-second-old shared snapshot renewed with only its 280 ms response delay, not a multi-second polling gap.
+- Failure: unsuccessful HTTP/network/JSON/schema revalidation immediately removes inventory, including cards otherwise within their 90-second deadline. Expired/offline/non-public inventory remains hidden. The original server deadline is never extended by reading the same cached catalog.
+- Healthy renewals: retain the identical card/image DOM when inventory is unchanged. Completion-based scheduling plus the 30-second eligibility margin prevents the prior polling-boundary gap under the synthetic healthy-delay scenarios tested. No guarantee of uninterrupted real-time availability is made.
+- Analytics: emit loaded/unavailable only on availability transitions, not every poll, repeated failure, viewport callback or cached response.
+- Existing geobans, direct upstream image URLs, API credentials/configuration, affiliate destinations and viewer/model referral routes remain unchanged. No player, new API/database/workflow/service or infrastructure was introduced.
+
+Focused files changed in this optimization: `src/components/LiveModelsGrid.astro`, `services/live-models-worker/src/index.js`, existing `test/live-grid.test.mjs` and `test/catalog-lifecycle.test.mjs` under that Worker, `scripts/test-live-models-browser.mjs`, the existing deployment smoke in `.github/workflows/deploy-live-models-worker.yml`, `docs/STRIPCASH_MODELS_API.md`, and this report.
+
+Synthetic validation:
+
+- **33 Worker/frontend tests passed**, including 60-second cache reuse/rate-limit/cooldown, 90-second deadline, healthy delayed renewals with no empty-card transition, unchanged card identity, immediate failed-refresh removal, no offscreen/hidden/unfocused/offline polling, aborted-response suppression, deduplicated analytics and existing attribution/geoban regressions.
+- Updated existing Chromium test against actual built HTML passed with a virtual clock: no request before viewport entry, no poll at 59,999 ms, one healthy renewal at 60 seconds with the same card DOM, one loaded event, preserved click-time affiliate parameters, responsive overflow checks and failed revalidation removal. Requests were intercepted locally; no production/partner event was sent. Virtual-clock evidence is not production wall-clock/network measurement.
+- Quality check, production-indexable build and production SEO check passed locally. Deployment workflow YAML/shell and extracted 90-second smoke contract are checked locally. Exact new-head GitHub Build and Visual QA are required and linked in the PR delivery record; the old head's green checks do not validate this optimization.
+
+Official-rule boundary: the repository records a maximum frequency of one API request per five seconds, not a required five-second polling cadence. Official API documentation was opened again at https://stripcash.com/documentation/api/?tab=models_api_for_aggregators but returned no readable content. The accessible official Help Center explains online inventory/privacy metadata but does not establish a maximum allowed cache age. No evidence retrieved proves the requested 60/90 policy unsuitable; authenticated partner-specific requirements remain unverified, rather than being represented as confirmed approval. No integration expansion is warranted on that basis.
+
+Production boundary: this branch remains undeployed. No actual production behavior or partner credit is established by these synthetic tests or by PR CI. The earlier Worker-access limitation remains; current live payload eligibility, production latency and authenticated maximum-age obligations require post-deployment/account evidence. No production settings, credentials or approved commercial routes were changed.
