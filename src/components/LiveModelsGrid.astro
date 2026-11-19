@@ -76,6 +76,7 @@ const endpoint =
     };
 
     const showFallback = (message = 'Live previews unavailable') => {
+      grid?.replaceChildren();
       if (status) status.textContent = message;
       if (fallback instanceof HTMLElement) fallback.hidden = false;
       emit('live_models_unavailable', { live_models_status: message });
@@ -173,27 +174,65 @@ const endpoint =
     const liveEndpoint = new URL(endpoint);
     liveEndpoint.searchParams.set('limit', String(liveLimit));
 
-    fetch(liveEndpoint.toString(), {
-      headers: { accept: 'application/json' },
-      credentials: 'omit'
-    })
-      .then((response) => {
+    let expiryTimer;
+    let inFlight = false;
+    const refresh = async () => {
+      if (inFlight || document.hidden) return;
+      inFlight = true;
+      try {
+        const response = await fetch(liveEndpoint.toString(), {
+          headers: { accept: 'application/json' },
+          credentials: 'omit',
+          cache: 'no-store',
+          signal: AbortSignal.timeout(8_000)
+        });
         if (!response.ok) throw new Error('live-models-http');
-        return response.json();
-      })
-      .then((payload) => {
-        const models = Array.isArray(payload?.models) ? payload.models : [];
+        const payload = await response.json();
+        if (document.hidden || (typeof navigator !== 'undefined' && navigator.onLine === false)) {
+          showFallback();
+          return;
+        }
+        const now = Date.now();
+        const refreshedAt = Date.parse(payload?.refreshedAt);
+        // Accept the old worker response during rollout only within the same 10s budget.
+        const validUntil = Math.min(Date.parse(payload?.validUntil || payload?.refreshedAt) +
+          (payload?.validUntil ? 0 : 10_000), refreshedAt + 10_000);
+        if (payload?.ok !== true || payload?.stale !== false ||
+            !Number.isFinite(refreshedAt) || refreshedAt > now ||
+            !Number.isFinite(validUntil) || validUntil <= now) throw new Error('live-models-stale');
+        const models = Array.isArray(payload.models) ? payload.models.filter((model) =>
+          model?.status === 'public' && model.id && model.username &&
+          typeof model.snapshotUrl === 'string' && model.snapshotUrl.startsWith('https://')
+        ).slice(0, liveLimit) : [];
+        clearTimeout(expiryTimer);
         if (!models.length) {
           showFallback('No eligible previews right now');
           return;
         }
         grid.replaceChildren(...models.map(modelCard));
+        if (fallback instanceof HTMLElement) fallback.hidden = true;
         if (status) status.textContent = `${models.length} live previews`;
-        emit('live_models_loaded', {
-          live_models_count: models.length,
-          live_models_stale: Boolean(payload?.stale)
-        });
-      })
-      .catch(() => showFallback());
+        expiryTimer = setTimeout(() => showFallback(), validUntil - Date.now());
+        emit('live_models_loaded', { live_models_count: models.length, live_models_stale: false });
+      } catch {
+        clearTimeout(expiryTimer);
+        showFallback();
+      } finally {
+        inFlight = false;
+      }
+    };
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) {
+        clearTimeout(expiryTimer);
+        showFallback();
+      } else refresh();
+    });
+    window.addEventListener('offline', () => {
+      clearTimeout(expiryTimer);
+      showFallback();
+    });
+    window.addEventListener('online', refresh);
+    setInterval(refresh, 5_000);
+    refresh();
   })();
 </script>

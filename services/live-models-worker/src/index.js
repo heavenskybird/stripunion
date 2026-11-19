@@ -10,7 +10,7 @@ const ATTRIBUTION_CLEANUP_INTERVAL_MS = 6 * 60 * 60 * 1000;
 function json(data, init = {}) {
   const headers = new Headers(init.headers || {});
   headers.set('content-type', 'application/json; charset=utf-8');
-  headers.set('cache-control', 'private, max-age=5');
+  headers.set('cache-control', headers.get('cache-control') || 'private, max-age=5');
   return new Response(JSON.stringify(data), { ...init, headers });
 }
 
@@ -31,7 +31,17 @@ function languageCodes(value = '') {
     });
 }
 
+function validGeobans(value) {
+  const stringList = (items) => Array.isArray(items) && items.every(item =>
+    typeof item === 'string' && item.trim().length > 0);
+  return value && typeof value === 'object' &&
+    stringList(value.blockedCountries) && stringList(value.blockedLanguages) &&
+    value.blockedRegions && typeof value.blockedRegions === 'object' &&
+    !Array.isArray(value.blockedRegions) && Object.values(value.blockedRegions).every(stringList);
+}
+
 export function isModelAllowed(model, geo = {}) {
+  if (!validGeobans(model?.geobans)) return false;
   const geobans = model?.geobans || {};
   const blockedCountries = normalizeList(geobans.blockedCountries);
   const blockedLanguages = normalizeList(geobans.blockedLanguages);
@@ -39,10 +49,12 @@ export function isModelAllowed(model, geo = {}) {
     ? geobans.blockedRegions
     : {};
 
-  const country = String(geo.country || '').trim().toLowerCase();
+  const countryCode = String(geo.country || '').trim().toLowerCase();
+  const country = /^[a-z]{2}$/.test(countryCode) && countryCode !== 'xx' ? countryCode : '';
   const region = String(geo.region || '').trim().toLowerCase();
   const languages = languageCodes(geo.languages || '');
 
+  if (blockedLanguages.length && (!languages.length || languages.includes('*'))) return false;
   if (blockedLanguages.some((blocked) => languages.includes(blocked))) return false;
 
   if (!country) {
@@ -54,11 +66,9 @@ export function isModelAllowed(model, geo = {}) {
 
   if (blockedCountries.includes(country)) return false;
 
-  const countryRegions = normalizeList(
-    blockedRegions[country] ??
-    blockedRegions[country.toUpperCase()] ??
-    []
-  );
+  const countryRegions = Object.entries(blockedRegions)
+    .filter(([key]) => key.trim().toLowerCase() === country)
+    .flatMap(([, regions]) => normalizeList(regions));
 
   if (countryRegions.length) {
     if (!region) return false;
@@ -105,11 +115,14 @@ function publicModel(model) {
 }
 
 export function prepareCatalog(payload) {
-  const models = Array.isArray(payload?.models) ? payload.models : [];
+  if (!Array.isArray(payload?.models)) throw new Error('Invalid models payload.');
+  const models = payload.models;
   return models
     .filter((model) => String(model?.status || '').toLowerCase() === 'public')
+    .filter((model) => validGeobans(model?.geobans))
     .map(publicModel)
-    .filter((model) => model.id && model.username && model.snapshotUrl)
+    .filter((model) => Number.isSafeInteger(model.id) && model.id > 0 &&
+      model.username && model.snapshotUrl.startsWith('https://'))
     .sort((a, b) =>
       b.viewersCount - a.viewersCount ||
       b.favoritedCount - a.favoritedCount ||
@@ -595,7 +608,7 @@ export class ModelsCatalog {
     await this.state.storage.deleteAll();
   }
 
-  async refreshCatalog(existingCatalog, existingFetchedAt) {
+  async refreshCatalog() {
     const token = String(this.env.STRIPCASH_MODELS_API_KEY || '').trim();
     const userId = String(this.env.STRIPCASH_USER_ID || '').trim();
     if (!token || !userId) throw new Error('StripCash Models API worker is not configured.');
@@ -614,15 +627,13 @@ export class ModelsCatalog {
           origin: 'https://stripunion.com',
           referer: 'https://stripunion.com/',
           'user-agent': 'StripUnion-LiveModels/1.0'
-        }
+        },
+        signal: AbortSignal.timeout(8_000)
       });
 
       if (!response.ok) {
         const diagnostic = `upstream_http_${response.status}`;
         console.error(`StripCash Models API diagnostic: ${diagnostic}`);
-        if (Array.isArray(existingCatalog)) {
-          return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
-        }
         const error = new Error('StripCash Models API upstream request failed.');
         error.code = diagnostic;
         throw error;
@@ -641,9 +652,7 @@ export class ModelsCatalog {
 
       return { catalog: prepared, fetchedAt: refreshedAt, stale: false };
     } catch (error) {
-      if (Array.isArray(existingCatalog)) {
-        return { catalog: existingCatalog, fetchedAt: existingFetchedAt, stale: true };
-      }
+      await this.state.storage.delete(['catalog', 'fetchedAt']);
       if (!error?.code) {
         error.code = 'upstream_fetch_error';
         console.error('StripCash Models API diagnostic: upstream_fetch_error');
@@ -653,6 +662,7 @@ export class ModelsCatalog {
   }
 
   async loadCatalog() {
+    if (this.refreshPromise) return this.refreshPromise;
     const now = Date.now();
     const stored = await this.state.storage.get(['catalog', 'fetchedAt', 'attemptedAt']);
     const catalog = stored.get('catalog');
@@ -660,17 +670,18 @@ export class ModelsCatalog {
     const attemptedAt = Number(stored.get('attemptedAt') || 0);
     const newestAttempt = Math.max(fetchedAt, attemptedAt);
 
-    if (Array.isArray(catalog) && now - fetchedAt < MIN_UPSTREAM_INTERVAL_MS) {
+    if (Array.isArray(catalog) && fetchedAt > 0 && now >= fetchedAt && now - fetchedAt < MIN_UPSTREAM_INTERVAL_MS) {
       return { catalog, fetchedAt, stale: false };
     }
 
+    if (this.refreshPromise) return this.refreshPromise;
+
     if (now - newestAttempt < MIN_UPSTREAM_INTERVAL_MS) {
-      if (Array.isArray(catalog)) return { catalog, fetchedAt, stale: true };
       throw new Error('StripCash Models API refresh is cooling down.');
     }
 
     if (!this.refreshPromise) {
-      this.refreshPromise = this.refreshCatalog(catalog, fetchedAt)
+      this.refreshPromise = this.refreshCatalog()
         .finally(() => {
           this.refreshPromise = null;
         });
@@ -694,12 +705,13 @@ export class ModelsCatalog {
       return json({
         ok: true,
         refreshedAt: new Date(fetchedAt).toISOString(),
+        validUntil: new Date(fetchedAt + MIN_UPSTREAM_INTERVAL_MS).toISOString(),
         stale,
         count: models.length,
         models
-      });
+      }, { headers: { 'cache-control': 'no-store' } });
     } catch {
-      return json({ ok: false, error: 'models_unavailable' }, { status: 503 });
+      return json({ ok: false, error: 'models_unavailable' }, { status: 503, headers: { 'cache-control': 'no-store' } });
     }
   }
 }

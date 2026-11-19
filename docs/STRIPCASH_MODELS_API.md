@@ -1,6 +1,6 @@
 # StripCash Models API — StripUnion
 
-Updated: 2026-10-03
+Updated: 2026-11-19
 
 ## Purpose
 
@@ -107,3 +107,52 @@ Required GitHub configuration:
 - existing secret: `STRIPCASH_MODELS_API_KEY`
 
 After the worker is deployed, use its public `/models` endpoint as `PUBLIC_LIVE_MODELS_API_URL` for the main-site build, or commit the final public worker URL as the default once verified.
+
+
+## Current image-only compliance contract (2026-11-19)
+
+`LiveModelsGrid.astro` uses direct upstream HTTPS preview images and tracked AVCams
+search routing. It does not consume `stream`, load an HLS library, embed a player,
+or proxy media. Keep that architecture: the November 30, 2026 legacy HLS shutdown
+requires the official Stripcash Player only if playback is deliberately introduced.
+Official notice: https://t.me/s/stripcashnews ; guide:
+https://stripcash.com/documentation/player-guide?tab=player_guide%7Cplayer_guide_for_aggregators .
+The guide page returned no readable content during this audit; do not infer its
+current embed parameters from old Help Center examples of external HLS players.
+
+The catalog is eligible for display for at most 10 seconds after a successful
+refresh. Failed HTTP/network/JSON/schema refreshes erase catalog/fetchedAt and
+return 503; cooldown never serves expired data. Successful empty feeds replace
+previous inventory. `validUntil` describes display eligibility, separate from the
+24-hour storage cleanup alarm. Missing/malformed geobans are excluded rather than
+converted into unrestricted models. Unknown geography, region or language hides
+models when the applicable restriction cannot be evaluated.
+
+Browser responses use `no-store`. The grid polls every 5 seconds while visible,
+rejects stale/unverifiable/non-public cards, expires cards at the original refresh
+deadline, and clears them on failed requests, offline events and tab hiding.
+The single global Durable Object still enforces a minimum 10-second upstream
+interval (browser polling is not upstream polling); requests join an active refresh.
+There is no instantaneous online guarantee between snapshots. Client clock skew
+may conservatively hide cards; the tracked generic AVCams fallback remains usable.
+
+Catalog replacement drops absent/offline/deleted models on the next successful
+refresh; failure hides and erases inventory, and idle storage expires in 24 hours.
+No persistent model profile, snapshot archive or rehosted preview is introduced.
+Stripcash also announces a Deleted Models endpoint. Its current authenticated
+schema and account-specific obligations remain to be confirmed before integrating
+it; do not invent an endpoint or add another API poller. The manual schema probe
+uses the same credential independently of the Durable Object, so avoid running it
+concurrently with live refreshes until provider rate-limit scope is confirmed.
+
+Regression checks:
+
+```sh
+npm test --prefix services/live-models-worker
+ASTRO_TELEMETRY_DISABLED=1 PUBLIC_ALLOW_INDEXING=true npm run build
+node scripts/test-live-models-browser.mjs
+```
+
+Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` when using a system Chromium.
+Detailed findings, deployment gates and evidence:
+`docs/audits/2026-11-19/STRIPCASH-IMPLEMENTATION-REPORT.md`.
