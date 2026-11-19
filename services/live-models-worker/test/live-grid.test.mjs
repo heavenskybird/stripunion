@@ -13,13 +13,13 @@ function fixture(payload) {
   const root=new Element(), grid=new Element(), status=new Element(), fallback=new Element();
   root.dataset={endpoint:'https://api.example.invalid/models',userId:'fixture',trackingBase:'https://go.whitetrafsa.com/'};
   root.querySelector=s=>({'[data-live-grid]':grid,'[data-live-status]':status,'[data-live-fallback]':fallback})[s];
-  const events={}, docEvents={}, timers=new Map();let poll, next=1, fail=false;
+  const events={}, docEvents={}, timers=new Map();let poll, next=1, fail=false, fetchCalls=0;
   const document={hidden:false,querySelector:()=>root,createElement:()=>new Element(),addEventListener:(n,f)=>docEvents[n]=f};
   const window={location:{pathname:'/avcams'},addEventListener:(n,f)=>events[n]=f};
   vm.runInNewContext(source,{HTMLElement:Element,document,window,URL,AbortSignal,Date,
-    fetch:async()=>{if(fail)throw Error('network');return {ok:true,json:async()=>payload};},
+    fetch:async()=>{fetchCalls++;if(fail)throw Error('network');return {ok:true,json:async()=>typeof payload === 'function' ? payload() : payload};},
     setInterval:f=>poll=f,setTimeout:f=>{const id=next++;timers.set(id,f);return id;},clearTimeout:id=>timers.delete(id)});
-  return {grid,fallback,events,docEvents,document,timers,poll:()=>poll(),fail:()=>fail=true};
+  return {grid,fallback,events,docEvents,document,timers,poll:()=>poll(),calls:()=>fetchCalls,fail:()=>fail=true};
 }
 const model={id:1,username:'fixture',status:'public',snapshotUrl:'https://cdn.example.invalid/image.jpg'};
 const fresh=()=>({ok:true,stale:false,refreshedAt:new Date().toISOString(),models:[model]});
@@ -42,4 +42,36 @@ test('grid retains image-only tracked routing and clears on expiry, offline, fai
     if(trigger==='hidden'){f.document.hidden=true;f.docEvents.visibilitychange();}
     assert.equal(f.grid.children.length,0);assert.equal(f.fallback.hidden,false);
   }
+});
+
+test('snapshot expiry revalidates immediately when the preceding poll reused cached inventory', async t => {
+  let now = 1_000_000;
+  t.mock.method(Date, 'now', () => now);
+  let refreshedAt = now;
+  let upstreamCalls = 0;
+  const f = fixture(() => {
+    // Simulate the real ten-second Worker cache with its initial refresh offset
+    // from the browser interval. The 5s/10s polls both reuse the first snapshot.
+    if (!upstreamCalls || now - refreshedAt >= 10_000) {
+      refreshedAt = now;
+      upstreamCalls++;
+    }
+    return {ok:true, stale:false, refreshedAt:new Date(refreshedAt).toISOString(),
+      validUntil:new Date(refreshedAt + 10_000).toISOString(), models:[model]};
+  });
+  await settle();
+  now += 4_800;
+  await f.poll();
+  now += 5_000;
+  await f.poll();
+  assert.equal(upstreamCalls, 1);
+  const callsBeforeExpiry = f.calls();
+  now += 200;
+  [...f.timers.values()][0]();
+  assert.equal(f.grid.children.length, 0, 'expired cards are still removed immediately');
+  await settle();
+  assert.equal(f.calls(), callsBeforeExpiry + 1, 'expiry requests a new snapshot without waiting five seconds');
+  assert.equal(upstreamCalls, 2);
+  assert.equal(f.grid.children.length, 1);
+  assert.equal(f.fallback.hidden, true);
 });

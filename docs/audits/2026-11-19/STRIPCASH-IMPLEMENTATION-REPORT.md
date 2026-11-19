@@ -108,3 +108,21 @@ Initial local build failed because Astro telemetry attempted an unavailable home
 4. Real partner credit, model/affiliate referral commissions and incremental confirmed USD revenue require scoped provider evidence and existing #174 reconciliation. This repair's business value is preventing unavailable/non-permitted discovery inventory while preserving qualified conversion routes; no uplift or payout is claimed.
 
 Next autonomous action is exact-head PR check inspection and review of any failures. No merge or production change is authorized by this report.
+
+## Remaining-acceptance review of e1a013558bb773e01437daac36533d3ea43e1ea9
+
+Reviewed the exact requested head; GitHub confirmed both Build runs 44546010033/44545993142 and Visual QA 44546009985 passed. Those completed checks were not rerun merely for acceptance.
+
+**Demonstrated defect:** fixed 5-second polling can straddle a 10-second Worker cache deadline. With a 200 ms upstream delay and 80 ms Worker-to-browser delay, the initial snapshot was still fresh at the 10-second poll; it expired just afterward and the browser waited until the 15-second poll. A Chromium run executing the exact inline script against the actual `ModelsCatalog` class measured a **5,056 ms empty-card interval** despite healthy synthetic upstream responses. Therefore the original requested SHA was not ready for merge on timing acceptance.
+
+**Focused correction:** the expiry callback still removes expired cards immediately, then requests revalidation immediately. No Worker interval/freshness change, stale-data grace period, player, Deleted Models integration or infrastructure change. The matching 22-second Chromium run measured two renewal gaps of **288 ms and 287 ms**, consistent with the configured request latency, instead of waiting another polling cycle. There were three upstream fetches over the run, at least ten seconds apart. This removes the demonstrated multi-second scheduling stall; it does not promise zero flicker. A brief fail-closed absence at a freshness boundary, or a longer absence under a slow/unavailable upstream, remains intentional. Production latency and resulting visual acceptability cannot be established from this environment.
+
+A new deterministic regression executes the actual inline script with a cached-snapshot fixture: polls just before expiry reuse the first snapshot; expiry must remove cards and immediately request/repopulate a new snapshot without waiting five seconds. Existing failure/offline/hidden-tab removal tests remain in the focused suite.
+
+**Production access:** direct read-only `/health` and `/models?limit=3` requests with approved Origin and Accept-Language headers failed with tunnel HTTP 403; chat web retrieval also could not access those endpoints. This is WEB_FETCH_LIMITATION, not a demonstrated production outage. No real Worker HTTP payload, live model eligibility, upstream status distribution or live network timings were obtained. Synthetic fixtures use an unrestricted public model; they are not evidence of any real model's eligibility.
+
+**Affiliate preservation:** comparison against canonical pre-PR main and the reviewed head shows no changes to `src/config/site.js`, `src/lib/affiliate.js`, `AffiliateButton.astro`, `BaseLayout.astro`, `avcams.astro` or `become-a-cam-model.astro`. The LiveModelsGrid tracking builder/card code is unchanged by this acceptance fix. Viewer targetDomain/path and userId/campaignId/creativeId/sourceId/p1/p2 remain intact; existing delegated click-time p3/memberId and official model-referral routing are untouched. No partner click, signup, conversion or production setting was submitted during acceptance.
+
+Only the demonstrated scheduling defect, its focused test and this evidence addendum were changed. The previous completed broad test/visual results remain historical evidence for the original head; the new head requires its own CI gate. No merge or deployment was performed.
+
+Targeted validation after the correction: all 27 Worker/frontend tests passed; the new timing regression failed against the original exact-head script (expected red) and passed with the fix. Quality check, production-indexable build and production SEO check passed after the code change. No unchanged project/data-layer/visual suites were manually repeated.

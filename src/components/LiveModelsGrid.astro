@@ -212,7 +212,12 @@ const endpoint =
         grid.replaceChildren(...models.map(modelCard));
         if (fallback instanceof HTMLElement) fallback.hidden = true;
         if (status) status.textContent = `${models.length} live previews`;
-        expiryTimer = setTimeout(() => showFallback(), validUntil - Date.now());
+        expiryTimer = setTimeout(() => {
+          showFallback();
+          // A poll just before expiry may reuse the old snapshot. Revalidate now
+          // instead of leaving the grid empty until the next 5-second poll.
+          refresh();
+        }, validUntil - Date.now());
         emit('live_models_loaded', { live_models_count: models.length, live_models_stale: false });
       } catch {
         clearTimeout(expiryTimer);
