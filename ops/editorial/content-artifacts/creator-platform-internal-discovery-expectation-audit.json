@@ -1,0 +1,123 @@
+{
+  "backlogId": "creator-platform-internal-discovery-expectation-audit",
+  "slug": "creator-platform-internal-discovery-expectation-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Set Realistic Expectations for Built-In Fan Discovery",
+  "description": "Learn how creators can evaluate a platform’s own discovery surfaces without assuming that a public page, search feature, or recommendation feed will reliably bring an audience.",
+  "excerpt": "A creator page being public does not automatically mean the platform will surface it to prospective fans. This guide separates discoverability claims from observable evidence and helps creators decide how much to rely on built-in discovery.",
+  "keyTakeaways": [
+    "Distinguish a public creator page from active placement in internal search, recommendations, or category browsing.",
+    "Look for observable discovery routes and documented eligibility conditions rather than assuming all accounts receive equal exposure.",
+    "Plan a small, privacy-conscious evaluation before making platform selection or migration decisions.",
+    "Treat platform discovery as one possible audience route, not a substitute for a resilient promotion plan."
+  ],
+  "sections": [
+    {
+      "heading": "Define what you mean by discovery",
+      "paragraphs": [
+        "Creators often use “discovery” to mean several different things: a page that anyone can open, a result that appears when someone searches a name, placement in a category, a recommendation to a prospective fan, or promotion through a platform-operated feature. Those are not interchangeable. A public page may be reachable through a direct link without being meaningfully surfaced to people who do not already know the creator.",
+        "Before comparing platforms, write down the discovery outcome you actually need. For example, you might want new visitors to find a page by topic, or you might only need an accessible landing page for people arriving from your own channels. The right platform fit depends on that distinction. Avoid treating the existence of a directory or search box as evidence of reach, placement frequency, or audience growth."
+      ],
+      "bullets": [
+        "Name the discovery route you care about: direct link, internal search, category browsing, recommendations, or external search.",
+        "Separate platform features that exist from outcomes the platform does not promise."
+      ]
+    },
+    {
+      "heading": "Inspect the routes a prospective fan can actually use",
+      "paragraphs": [
+        "Review the platform’s publicly available descriptions and, where possible, its logged-out pages to identify how a new visitor could navigate to a creator. Check whether the platform documents search, categories, featured placements, or recommendation features, and whether access depends on eligibility, profile completeness, account status, or other conditions. Do not infer a universal rule from a single page or a promotional description.",
+        "If you can observe a discovery surface without creating an account, document what it shows, what filters are available, and what information a visitor needs to reach a profile. If access requires an account, note that boundary. The goal is not to conduct a popularity contest from a brief browse; it is to understand whether the route fits your intended audience and what evidence is missing."
+      ],
+      "table": {
+        "caption": "Separate discovery evidence from assumptions",
+        "headers": [
+          "Observation",
+          "What it supports",
+          "What it does not establish"
+        ],
+        "rows": [
+          [
+            "A public creator page loads by direct link",
+            "The page can be reached by someone with the link",
+            "That new visitors will find it through platform browsing"
+          ],
+          [
+            "A platform describes internal search",
+            "A search route is documented",
+            "How often any creator appears or what results they receive"
+          ],
+          [
+            "A category or recommendation feature is described",
+            "A discovery mechanism may exist",
+            "Guaranteed placement, audience size, or conversion"
+          ],
+          [
+            "Eligibility rules are stated",
+            "Some conditions affect access to a feature",
+            "Whether meeting them will produce a particular outcome"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check eligibility and control points",
+      "paragraphs": [
+        "For each discovery route, find out what the platform says a creator must do to qualify and whether the platform can change, limit, or remove access. Relevant terms may appear in help materials, creator rules, account settings, or the feature description itself. Capture the date you reviewed the information so a future comparison can distinguish current evidence from an older note.",
+        "Also consider which aspects are under your control. You may be able to write clear page information or organize public material, but you may not control the ranking logic, audience filters, or feature placement. Separate creator-controlled work from platform-controlled distribution. This helps prevent a plan from depending on a benefit that you cannot verify or influence."
+      ],
+      "bullets": [
+        "Record stated prerequisites, account restrictions, and any review or approval steps.",
+        "Mark each factor as creator-controlled, platform-controlled, or not explained."
+      ]
+    },
+    {
+      "heading": "Run a limited evaluation without overcommitting",
+      "paragraphs": [
+        "If a platform permits a low-risk trial of its public-facing creator tools, decide in advance what you will observe and what would count as useful evidence. For instance, you may check whether your public page can be understood by a first-time visitor, whether navigation makes its purpose clear, or whether the platform documents how a listing is found. Do not use a short observation period to make broad claims about likely reach; results can depend on account state, visitor context, and platform systems you cannot inspect.",
+        "Keep the evaluation narrow and avoid moving an established audience or exclusive material just to test an unverified discovery promise. Preserve copies of your own descriptions and records, and consider whether the test would expose a public identity or business information you prefer to keep separate. A modest evaluation should answer a specific decision question, not create a new dependency."
+      ],
+      "bullets": [
+        "Choose one decision question and a stop condition before testing.",
+        "Avoid migrating content or directing fans until the terms, access model, and exit options are understood."
+      ]
+    },
+    {
+      "heading": "Compare discovery reliance with audience resilience",
+      "paragraphs": [
+        "A platform may offer useful internal discovery while still leaving a creator dependent on its rules and systems. Compare that benefit with what would happen if search placement changed, a feature became unavailable, or a page could no longer be reached. A resilient plan does not require every creator to operate multiple channels; it does require understanding which audience routes are controlled by the creator and which depend on a platform.",
+        "Consider whether you can maintain a lawful, consent-respecting way to tell interested fans where to find updates, within the platform’s terms and your own privacy boundaries. Avoid collecting more fan information than needed or assuming that a platform permits exporting or contacting users outside its tools. Check those rules before building a plan around portability or direct communication."
+      ]
+    },
+    {
+      "heading": "Choose a platform based on evidence and fit",
+      "paragraphs": [
+        "Use a comparison sheet with columns for the discovery route, eligibility, public evidence, creator control, dependency risk, and unresolved questions. Weight these factors according to your business: a creator with an existing audience may value straightforward page access more than internal recommendations, while a new creator may place greater importance on a documented way to be found. Neither choice is universal.",
+        "Base the decision on what you can verify, not on implied outcomes. If a platform’s documentation is limited, describe that as uncertainty rather than assuming the feature works or does not work. Revisit the decision if policies or features change, especially before relying on discovery for a major launch. This approach supports a grounded platform choice without inventing audience forecasts or treating promotional language as a guarantee."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a public creator page mean the platform will recommend it to new fans?",
+      "answer": "No. Public accessibility and recommendation placement are different. Check whether a recommendation feature is documented, what conditions apply, and what the platform does not promise."
+    },
+    {
+      "question": "Can I judge discovery from one search or browse session?",
+      "answer": "A brief session can show how a route is presented at that moment, but it cannot establish consistent placement or future audience outcomes. Record it as a limited observation, not proof of performance."
+    },
+    {
+      "question": "Should a creator choose a platform mainly for internal discovery?",
+      "answer": "That depends on the creator’s goals and alternatives. Compare the documented discovery routes with audience fit, account controls, commercial terms, and how much your plan would depend on platform-controlled distribution."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
