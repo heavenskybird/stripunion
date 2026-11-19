@@ -1,0 +1,150 @@
+{
+  "backlogId": "premium-video-library-search-zero-results-workflow",
+  "slug": "premium-video-library-search-zero-results-workflow",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Search: Investigate Missing Titles Before Choosing a Subscription",
+  "description": "Learn how to check whether a missing premium-video title is absent, listed under another name, restricted, or available through a different access route.",
+  "excerpt": "A failed search does not always prove that a title is absent from a video service. Before choosing a membership, use a repeatable search process to check alternate titles, editions, series pages, access labels, and account or region limitations.",
+  "keyTakeaways": [
+    "Search several identifying details rather than relying on one exact title phrase.",
+    "Distinguish a missing search result from a title that is listed but unavailable under the plan you are evaluating.",
+    "Check series, collection, publisher, and edition pages when a direct title search is inconclusive.",
+    "Record the wording and access labels you see so that comparisons between services are consistent.",
+    "Treat unclear availability as unresolved rather than assuming that a title is included or permanently absent."
+  ],
+  "sections": [
+    {
+      "heading": "Define the title you are trying to find",
+      "paragraphs": [
+        "Before comparing libraries, identify the item as precisely as you can. A title may have an alternate spelling, a subtitle, a translated name, a series label, or more than one edition. Write down any known details that distinguish it, such as the credited publisher, release year, episode number, or collection name. These details help you search in a controlled way instead of treating every similar result as a match.",
+        "Separate a must-find title from general browsing interests. A title that is essential to your decision deserves a more careful search than a broad category you might explore later. Decide in advance what would count as a valid match: the exact edition, any version from a specific series, or simply a clearly identified entry. That definition reduces the risk of mistaking a related listing for the item you meant."
+      ],
+      "bullets": [
+        "Write down the exact title and known alternate wording.",
+        "Note the publisher, series, edition, or episode details if available.",
+        "Decide whether a related edition would meet your requirement."
+      ]
+    },
+    {
+      "heading": "Use a consistent search sequence",
+      "paragraphs": [
+        "Begin with the exact title, then try distinctive words from it. Search without punctuation or subtitles if the interface may treat those as literal terms. If the service exposes filters, use them one at a time and note whether they narrow the results in a useful way. Changing several filters simultaneously can hide the cause of a zero-result page.",
+        "Next, search by a known series, collection, publisher, or creator credit if those details are available. Browse the relevant series or collection page and check adjacent entries, but verify each result’s identity. A result sharing a name or category is not necessarily the same edition. Where the service offers a separate catalog or membership preview, use the labels shown there to determine what the listing represents."
+      ],
+      "table": {
+        "caption": "A repeatable sequence for investigating an unsuccessful search",
+        "headers": [
+          "Search step",
+          "What to try",
+          "What to note"
+        ],
+        "rows": [
+          [
+            "Exact phrase",
+            "The title as you know it",
+            "Whether any result appears"
+          ],
+          [
+            "Title variants",
+            "Subtitle, alternate spelling, or distinctive words",
+            "Whether a result appears to be the same edition"
+          ],
+          [
+            "Related grouping",
+            "Series, collection, publisher, or episode details",
+            "Whether the item is listed under a group page"
+          ],
+          [
+            "Access labels",
+            "Plan, rental, purchase, preview, or other visible status",
+            "Whether the listing appears usable under the option being compared"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate search visibility from access entitlement",
+      "paragraphs": [
+        "Search results answer a discovery question, not always an entitlement question. A title may appear in a catalog but carry an access label that indicates a separate purchase, a different membership, a preview-only state, or another condition. Conversely, a service may not show some information until you sign in. Do not count a title as included merely because a thumbnail or search result exists.",
+        "Read the listing’s accompanying text and any membership explanation. Look for a clear statement about what the option you are considering includes and what requires another payment or account state. If the wording is ambiguous, record the uncertainty and consult the service’s own help information before using that title to judge subscription value. The purpose of the search is to improve your decision, not to infer promises from incomplete interface cues."
+      ],
+      "bullets": [
+        "Record whether the title is absent, listed, previewed, or marked with a different access condition.",
+        "Check whether the access label changes after selecting a membership option, if you can do so without committing.",
+        "Do not treat a search result alone as proof that viewing is included."
+      ]
+    },
+    {
+      "heading": "Check whether account, location, or interface state affects results",
+      "paragraphs": [
+        "Some catalog views can differ depending on whether you are signed in, which interface you use, or what region is associated with the account. The important point is not to presume that any one of these factors explains a missing result; it is to notice which conditions you have actually checked. Record whether the search took place before sign-in or within an account and whether the service displayed any location-related notice.",
+        "If the title remains missing, consult the platform’s published help material or ask support a narrow question: whether the title is listed for the relevant location and access option, and whether it is searchable under another name. Avoid sending unnecessary personal details when a title name and the general access question should be sufficient. A clear answer may resolve the question; an unclear reply should remain an uncertainty in your comparison."
+      ],
+      "bullets": [
+        "Note whether you searched while signed in or signed out.",
+        "Record any location or access notices shown by the service.",
+        "Ask support about title identification and access status, not unrelated account information."
+      ]
+    },
+    {
+      "heading": "Turn search results into a fair platform comparison",
+      "paragraphs": [
+        "Use the same title list and search sequence for each service you are comparing. For every item, record the search terms used, whether you found a likely match, how confidently you identified it, and what access label appeared. This avoids giving one library credit for a vague result while demanding a perfect match from another.",
+        "Keep separate columns for confirmed matches, uncertain matches, and not found. An uncertain entry should not be added to a confirmed catalog count. If a title is central to your choice and remains unresolved, use that uncertainty as a reason to seek clarification or to postpone a decision. A transparent comparison can be more useful than a larger but less reliable list."
+      ],
+      "table": {
+        "caption": "A simple record for comparing title-search evidence",
+        "headers": [
+          "Status",
+          "Evidence",
+          "How to use it"
+        ],
+        "rows": [
+          [
+            "Confirmed match",
+            "Distinctive details align and access terms are clear",
+            "Include it as a verified candidate for the relevant option"
+          ],
+          [
+            "Possible match",
+            "Some details align, but edition or identity is uncertain",
+            "Keep separate until the identity is clarified"
+          ],
+          [
+            "Listed with a different access condition",
+            "A result appears but its label indicates a different route or entitlement",
+            "Do not count it as included without checking the terms"
+          ],
+          [
+            "Not found after the search sequence",
+            "Exact and alternate searches did not identify a match",
+            "Record as not found in this check, not proof of permanent absence"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a title does not appear in search, is it definitely absent?",
+      "answer": "No. It may use another title, appear within a series or collection, or be affected by the catalog view you searched. Record that it was not found using your search steps, then check plausible alternate identifiers and any relevant access information."
+    },
+    {
+      "question": "Should a title shown in a catalog count as included in a subscription?",
+      "answer": "Only when the service’s terms or listing clearly establish that the option you are considering includes it. A visible result may have a different access condition, so check the label and any related membership explanation."
+    },
+    {
+      "question": "What if the platform’s help pages do not answer my question?",
+      "answer": "Ask support a specific question using the title and relevant access option. Keep a record of the response and note whether it directly confirms availability. If the answer remains ambiguous, keep the entry marked as uncertain rather than relying on an assumption."
+    }
+  ],
+  "publishedAt": "2026-11-19",
+  "updatedAt": "2026-11-19",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

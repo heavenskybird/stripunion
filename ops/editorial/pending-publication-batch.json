@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-19T21:01:13.218Z",
+  "generatedAt": "2026-11-19T22:21:49.666Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-dating-support-message-authenticity-check.json",
-    "ops/editorial/content-artifacts/adult-anime-catalog-creator-credit-search-workflow.json",
-    "ops/editorial/content-artifacts/vr-adult-session-bookmark-continuity-planner.json",
-    "ops/editorial/content-artifacts/free-video-adult-content-household-profile-boundary-check.json",
-    "ops/editorial/content-artifacts/adult-games-community-required-play-dependency-audit.json"
+    "ops/editorial/content-artifacts/adult-shop-local-stock-visit-planner.json",
+    "ops/editorial/content-artifacts/premium-video-library-search-zero-results-workflow.json",
+    "ops/editorial/content-artifacts/creator-platform-collaborative-account-ownership-planner.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-incremental-launch-dependency-map.json",
+    "ops/editorial/content-artifacts/adult-dating-conversation-endpoint-fit-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-dating-support-message-authenticity-check.js",
-    "src/data/guides/adult-anime-catalog-creator-credit-search-workflow.js",
-    "src/data/guides/vr-adult-session-bookmark-continuity-planner.js",
-    "src/data/guides/free-video-adult-content-household-profile-boundary-check.js",
-    "src/data/guides/adult-games-community-required-play-dependency-audit.js"
+    "src/data/guides/adult-shop-local-stock-visit-planner.js",
+    "src/data/guides/premium-video-library-search-zero-results-workflow.js",
+    "src/data/guides/creator-platform-collaborative-account-ownership-planner.js",
+    "src/data/guides/webmaster-affiliate-incremental-launch-dependency-map.js",
+    "src/data/guides/adult-dating-conversation-endpoint-fit-check.js"
   ],
   "categories": [
-    "dating-hookups",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games"
+    "adult-shops",
+    "premium-videos",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "adult-dating-support-message-authenticity-check",
-    "adult-anime-catalog-creator-credit-search-workflow",
-    "vr-adult-session-bookmark-continuity-planner",
-    "free-video-adult-content-household-profile-boundary-check",
-    "adult-games-community-required-play-dependency-audit"
+    "adult-shop-local-stock-visit-planner",
+    "premium-video-library-search-zero-results-workflow",
+    "creator-platform-collaborative-account-ownership-planner",
+    "webmaster-affiliate-incremental-launch-dependency-map",
+    "adult-dating-conversation-endpoint-fit-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44614100192",
-  "phase": "closed"
+  "r1CycleId": "44627515451"
 }
