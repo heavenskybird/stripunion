@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/webmaster-affiliate-monetization-stack-compatibility-audit.json",
     "ops/editorial/content-artifacts/premium-video-preview-account-exposure-choice.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44692791943"
+  "r1CycleId": "44692791943",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
