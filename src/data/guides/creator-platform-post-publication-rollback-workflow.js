@@ -1,0 +1,125 @@
+export default {
+  "slug": "creator-platform-post-publication-rollback-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Prepare a Rollback Plan for a Post Published Too Early",
+  "description": "Build a practical creator-platform workflow for handling a post that goes live before it is ready, including access checks, corrections, records, and fan communication.",
+  "excerpt": "A mistaken publication is easier to handle when the response is planned in advance. Decide what you can hide, correct, or communicate before a live post creates confusion.",
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "keyTakeaways": [
+    "Write a short response sequence for an accidental or premature publication before you rely on scheduled-post tools.",
+    "Know which controls change visibility, remove access, edit a post, or merely hide it from a particular feed.",
+    "Check how tiers, direct links, notifications, and downloads may affect who has already seen or received the post.",
+    "Preserve a minimal incident record and avoid deleting evidence needed to resolve a platform support issue.",
+    "Use a calm, accurate update for affected fans and do not promise access restoration or deletion beyond what you can verify."
+  ],
+  "sections": [
+    {
+      "heading": "Define what counts as a publication incident",
+      "paragraphs": [
+        "A post can go live too early for several reasons: an incorrect schedule, a mistaken visibility setting, an incomplete upload, or a draft published instead of a finished version. The first step is to distinguish the problem. Is the material itself incorrect, is it visible to the wrong audience, is the post missing an intended attachment, or did it simply appear before its planned time? Different problems call for different actions, and removing a post may not undo a notification or access that already occurred.",
+        "Create a short incident definition that fits your workflow. For example, any publication with the wrong audience, unfinished content, missing context, or an unintended time can trigger a review. The definition should guide action without treating every minor typo as an emergency. A consistent threshold helps collaborators respond promptly and prevents conflicting edits while you are still determining what happened."
+      ],
+      "bullets": [
+        "Wrong visibility or tier access",
+        "Incomplete or incorrect attachment",
+        "Premature timing that affects an announced release",
+        "A post with missing context or a material error",
+        "A platform notification or link sent before the post was ready"
+      ]
+    },
+    {
+      "heading": "Map the platform controls before an incident",
+      "paragraphs": [
+        "During a live mistake, it is easy to confuse editing, unpublishing, deleting, archiving, and changing access. Review the platform's current help information and, where appropriate, test non-sensitive controls in a draft. Record what each action appears to do: does it change public visibility, remove a post from a feed, revoke access, or permanently delete the item? Do not assume that one action reverses every earlier step.",
+        "Check adjacent systems too. A platform may have separate settings for tier visibility, scheduled publication, direct messages, comments, or notifications. A post can be hidden from a profile while a direct link still behaves differently, or a notification may already have been sent. Treat each surface as a separate check and make no guarantee that recipients have not seen or retained something."
+      ],
+      "table": {
+        "caption": "Response controls to understand before publishing",
+        "headers": [
+          "Control or surface",
+          "What to verify",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Edit",
+            "Which fields can be changed after publication?",
+            "A correction may fix text without changing who can access the post."
+          ],
+          [
+            "Visibility or access",
+            "Does changing it affect existing viewers and links?",
+            "A feed change may not equal access revocation."
+          ],
+          [
+            "Delete or archive",
+            "Is the action reversible, and what remains visible?",
+            "Deletion may affect records or still leave prior notifications."
+          ],
+          [
+            "Schedule",
+            "Can a scheduled item be paused or rescheduled?",
+            "A queue may have its own controls apart from the post itself."
+          ],
+          [
+            "Notifications",
+            "Can a published alert be corrected or recalled?",
+            "A post change may not retract a message already delivered."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a calm first-response sequence",
+      "paragraphs": [
+        "If the issue involves personal information, collaborator material, or a safety concern, prioritize limiting further exposure and use the platform's reporting or support process as appropriate. Keep the incident record factual. Avoid putting sensitive details into a public explanation when a brief correction can resolve the issue."
+      ]
+    },
+    {
+      "heading": "Decide what fans need to know",
+      "paragraphs": [
+        "Not every early post needs a broad announcement. If the item was visible briefly to a limited audience and no action is needed from fans, a public explanation could draw more attention than necessary. If subscribers received a confusing notification, the post is unavailable, or a promised release has changed, a concise update can reduce uncertainty. Explain only what you know: that an item appeared before it was ready, whether it is currently accessible, and when you expect to provide another update if you can responsibly give one.",
+        "Use clear language rather than blaming a platform or collaborator before the cause is known. Do not claim that no one saw or saved the post unless you have reliable evidence. If an access change affects a benefit, explain the current status and the route for questions. Keep the tone neutral and avoid suggesting that followers are responsible for noticing or reporting the error."
+      ],
+      "bullets": [
+        "State the practical change, not unnecessary incident detail.",
+        "Distinguish confirmed facts from what is still being checked.",
+        "Give a next update only if you can meet that commitment.",
+        "Use a private support route for account-specific questions."
+      ]
+    },
+    {
+      "heading": "Preserve a minimal record and review the process",
+      "paragraphs": [
+        "A useful record captures what happened and what you did without turning an operational mistake into an unnecessary data archive. Note the post reference, intended and actual settings, time discovered, actions taken, support case reference if any, and the final status you could verify. Store it where only appropriate team members can access it. Avoid saving fan messages, screenshots, or personal information unless they are genuinely needed to resolve the issue.",
+        "After the incident, look for a process change rather than relying only on greater care next time. Options might include a pre-publication checklist, a draft-only staging period, a second-person review for selected posts, clearer filenames, or separating announcement timing from access timing. Choose the smallest control that addresses the cause. Test the revised workflow on a low-risk draft and update the rollback notes if platform controls have changed."
+      ],
+      "bullets": [
+        "Confirm the intended audience before publication.",
+        "Check attachments and post copy in the final preview.",
+        "Review queued posts after schedule changes.",
+        "Define who may make visibility or deletion decisions during an incident."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I delete a post immediately if it went live early?",
+      "answer": "First identify the problem and the available controls. Deletion may be appropriate in some cases, but it may not retract notifications or remove access everywhere. If the content raises a safety or privacy concern, prioritize limiting further exposure and use the platform's appropriate support route."
+    },
+    {
+      "question": "Can I tell fans nobody saw the post if I remove it quickly?",
+      "answer": "Only if you have reliable evidence for that statement. A removal action does not establish who received a notification, opened a link, or retained a copy. Describe what you can verify and avoid claims about other people's access."
+    },
+    {
+      "question": "Should every publication mistake get a public explanation?",
+      "answer": "No. Consider whether fans need to take action or are likely to be confused by a notification or access change. A targeted, factual message may be more useful than a broad announcement for a minor issue."
+    },
+    {
+      "question": "What should a rollback plan contain?",
+      "answer": "List the controls to check, the order of actions, the records to preserve, who can approve visibility changes, how to contact support, and when a fan update is appropriate. Revisit the plan when platform tools or your publishing process changes."
+    }
+  ]
+};
