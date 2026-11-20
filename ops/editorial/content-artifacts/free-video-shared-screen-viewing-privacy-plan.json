@@ -1,0 +1,125 @@
+{
+  "backlogId": "free-video-shared-screen-viewing-privacy-plan",
+  "slug": "free-video-shared-screen-viewing-privacy-plan",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms on Shared Screens: Plan for Private Browsing and Playback",
+  "description": "A practical checklist for using free video platforms on shared computers and displays, including profile separation, previews, history, and a clean exit.",
+  "excerpt": "A private browser window alone may not prevent adult browsing from appearing in shared profiles, device history, or on-screen previews. Use this workflow to identify exposure points before playback.",
+  "keyTakeaways": [
+    "Check which browser, operating-system, and streaming accounts are active before opening a video platform; activity may be associated with a profile beyond the platform itself.",
+    "Avoid using a shared browser profile for searches, saved lists, or account sign-in if other people can access its history or suggestions.",
+    "Review what appears on a shared display before casting or connecting: notifications, tabs, search suggestions, and the current browser window can all be visible.",
+    "Treat private browsing as a limited local-history measure, not a guarantee that a platform, network, or other account will not retain activity.",
+    "Plan an exit that includes closing the tab, checking the active profile, and reviewing any shared-device history or saved state you meant to clear."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the screen and account you are actually using",
+      "paragraphs": [
+        "A shared computer or television can expose activity through several layers at once. The video platform may have its own account or saved state, while the browser, operating system, search service, or casting device may be signed into a different profile. Before browsing, identify those layers rather than assuming that signing out of one service makes the whole session private.",
+        "On a household computer, check the browser profile icon and the operating-system account. On a shared television or streaming device, check which household profile is active and whether the screen is currently mirrored from another device. If you cannot confirm who can access a profile or its activity, choose a device and account you control or postpone sign-in."
+      ],
+      "bullets": [
+        "Confirm the browser or device profile before typing a search.",
+        "Check whether another person can access the same account, history, or saved lists.",
+        "Do not assume that a private window changes the active account on other services."
+      ]
+    },
+    {
+      "heading": "Reduce exposure before search and playback",
+      "paragraphs": [
+        "Search suggestions can reveal previous queries before a video is opened. They may come from the platform, browser, keyboard, search provider, or a shared account. If suggestions appear as you type, pause and consider whether the current profile is appropriate. Avoid entering sensitive searches into a profile whose suggestions or history other household members may see.",
+        "Preview images and autoplay can also appear in search results, home screens, or recommendation rows. If a display is visible to others, navigate first to a neutral page or use a personal screen rather than opening a platform directly on the shared display. Keep in mind that closing a tab later will not undo a preview someone has already seen."
+      ],
+      "bullets": [
+        "Check the home screen and recommendation area before browsing in a visible room.",
+        "Turn off or avoid autoplay when the platform offers a control you can verify.",
+        "Keep searches and account sign-in out of shared profiles when separation matters."
+      ]
+    },
+    {
+      "heading": "Understand what private browsing does—and does not do",
+      "paragraphs": [
+        "Private or incognito browsing can reduce some traces stored in the browser after a window is closed. The exact behavior depends on the browser and its settings, and it does not automatically sign you out of a platform or other account. It also does not prevent a site, network operator, or service provider from processing activity under its own policies.",
+        "A private window is therefore one layer, not a complete privacy plan. Downloads, bookmarks, screenshots, account activity, or notifications can remain outside the private window. Before relying on the feature, check the browser's own explanation and consider whether the device itself is managed by an employer, school, hotel, or other administrator."
+      ],
+      "table": {
+        "caption": "Shared-screen privacy checks by exposure point",
+        "headers": [
+          "Exposure point",
+          "What to check",
+          "Practical response"
+        ],
+        "rows": [
+          [
+            "Browser profile",
+            "Is the profile shared or signed into a sync account?",
+            "Use a separate profile or avoid sensitive browsing in the shared one."
+          ],
+          [
+            "Platform page",
+            "Are recommendations, history, or saved items visible?",
+            "Review available controls and avoid saving items to a shared account."
+          ],
+          [
+            "Display or casting",
+            "Can someone nearby see tabs, previews, or notifications?",
+            "Use a private screen and check the display before connecting."
+          ],
+          [
+            "Device management",
+            "Is the device controlled by an organization or another person?",
+            "Do not treat a private window as protection from device administration."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat casting and notifications as separate disclosure points",
+      "paragraphs": [
+        "Casting, screen mirroring, and connecting a browser to a television can change what other people see. A notification may appear on the source device while the video is on the larger screen; a browser tab switch may also reveal unrelated pages. Before connecting, check both the display and the device that controls it, and avoid leaving unrelated tabs open where they may be shown accidentally.",
+        "Some devices preserve recently used apps or show continue-watching rows on a home screen. Those surfaces may be visible later, even after a playback session ends. Where controls are available, review notification previews, recent items, and shared-profile activity. Do not presume that deleting a browser tab removes records created by a television, casting service, or platform account."
+      ],
+      "bullets": [
+        "Check notification previews on the device used to cast.",
+        "Confirm what is displayed on the television before starting playback.",
+        "Afterward, review recent-app or continue-watching surfaces if the device is shared."
+      ]
+    },
+    {
+      "heading": "Use a deliberate exit and check what remains",
+      "paragraphs": [
+        "A clean exit is more than closing the player. Pause playback, leave the platform page, and check whether the browser returned to a signed-in profile or a page with visible recommendations. If you used a shared account, review whether the platform offers separate controls for watch history, saved items, or account sign-out. These controls vary, so verify the result rather than assuming a single button removes every trace.",
+        "Finally, consider the device's own state: close the relevant tab, disconnect casting, and return the display to a neutral screen. If the device is managed or you do not control its history, avoid trying to defeat administrative controls; choose a personal device for private browsing instead. A short exit routine makes exposure less dependent on memory."
+      ],
+      "bullets": [
+        "Stop casting and return the shared screen to a neutral page.",
+        "Sign out only when appropriate, and check whether other services remain signed in.",
+        "Do not promise yourself that every record is removable; plan around the device's actual controls."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide adult video activity from everyone who uses the device?",
+      "answer": "No. It may limit some browser history stored locally after the private window closes, but it does not necessarily hide activity from platform accounts, network operators, device administrators, downloads, or other signed-in services. Check the browser's explanation and the device context."
+    },
+    {
+      "question": "Will signing out of a video platform clear what appeared on a shared screen?",
+      "answer": "Not necessarily. Sign-out may affect platform access, but it does not automatically clear browser suggestions, casting history, device notifications, or activity stored by other accounts. Review each relevant layer separately."
+    },
+    {
+      "question": "What is the safest approach on a shared television?",
+      "answer": "Use a profile and device you control, avoid signing into shared accounts, and check what the television home screen and notifications may reveal. If you cannot establish a private viewing context, use a personal screen instead."
+    }
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

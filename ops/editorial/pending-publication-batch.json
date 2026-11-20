@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T11:35:42.266Z",
+  "generatedAt": "2026-11-20T13:23:42.335Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-business-entity-fit-preflight.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-conversation-continuity-planner.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-campaign-claims-evidence-workflow.json",
-    "ops/editorial/content-artifacts/adult-platform-billing-alert-household-boundary-planner.json",
-    "ops/editorial/content-artifacts/premium-video-membership-title-access-proof-check.json"
+    "ops/editorial/content-artifacts/free-video-shared-screen-viewing-privacy-plan.json",
+    "ops/editorial/content-artifacts/adult-games-managed-device-policy-preflight.json",
+    "ops/editorial/content-artifacts/adult-shop-parcel-delivery-fallback-planner.json",
+    "ops/editorial/content-artifacts/adult-anime-version-differences-before-starting.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-preview-navigation-evaluation.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-business-entity-fit-preflight.js",
-    "src/data/guides/adult-dating-platform-conversation-continuity-planner.js",
-    "src/data/guides/webmaster-affiliate-campaign-claims-evidence-workflow.js",
-    "src/data/guides/adult-platform-billing-alert-household-boundary-planner.js",
-    "src/data/guides/premium-video-membership-title-access-proof-check.js"
+    "src/data/guides/free-video-shared-screen-viewing-privacy-plan.js",
+    "src/data/guides/adult-games-managed-device-policy-preflight.js",
+    "src/data/guides/adult-shop-parcel-delivery-fallback-planner.js",
+    "src/data/guides/adult-anime-version-differences-before-starting.js",
+    "src/data/guides/vr-adult-platform-preview-navigation-evaluation.js"
   ],
   "categories": [
-    "creator-platforms",
-    "dating-hookups",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "premium-videos"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "vr-ar"
   ],
   "backlogIds": [
-    "creator-platform-business-entity-fit-preflight",
-    "adult-dating-platform-conversation-continuity-planner",
-    "webmaster-affiliate-campaign-claims-evidence-workflow",
-    "adult-platform-billing-alert-household-boundary-planner",
-    "premium-video-membership-title-access-proof-check"
+    "free-video-shared-screen-viewing-privacy-plan",
+    "adult-games-managed-device-policy-preflight",
+    "adult-shop-parcel-delivery-fallback-planner",
+    "adult-anime-version-differences-before-starting",
+    "vr-adult-platform-preview-navigation-evaluation"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44728278486",
-  "phase": "closed"
+  "r1CycleId": "44743049713"
 }
