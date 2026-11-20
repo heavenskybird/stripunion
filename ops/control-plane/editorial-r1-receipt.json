@@ -2,7 +2,7 @@
   "version": 1,
   "runId": "44819602690",
   "startedAt": "2026-11-20T21:21:38.735Z",
-  "status": "running",
+  "status": "success",
   "cycleId": "44819602690",
   "attempts": 1,
   "recentRunIds": [
@@ -206,5 +206,6 @@
     "44796534342",
     "44808954591",
     "44819602690"
-  ]
+  ],
+  "finishedAt": "2026-11-20T21:27:09.881Z"
 }
