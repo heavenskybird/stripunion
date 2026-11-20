@@ -1,0 +1,126 @@
+{
+  "backlogId": "adult-platform-messaging-link-preview-privacy-check",
+  "slug": "adult-platform-messaging-link-preview-privacy-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Sharing Adult-Platform Links: Check Messaging-App Previews Before You Send",
+  "description": "A practical checklist for reducing unwanted exposure when sharing adult-platform links through messaging apps, including link previews, notifications, and recipient context.",
+  "excerpt": "A link can reveal more than its destination when a messaging app generates a preview. Check what may appear, who can see it, and whether sharing the link is necessary.",
+  "keyTakeaways": [
+    "A link preview may display page information before a recipient opens the link; inspect the messaging app’s behavior rather than assuming it is hidden.",
+    "Consider both the visible message and the sender or recipient’s lock-screen and device-preview settings.",
+    "Avoid sharing account-specific or tracking-bearing links when a public, non-personalized link will do.",
+    "Use the app’s preview controls where available, but do not treat them as a guarantee that no information is processed.",
+    "If the message is not necessary, not sending the link is the simplest way to avoid preview exposure."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what a link preview can expose",
+      "paragraphs": [
+        "Many messaging services can turn a pasted URL into a card with a title, image, description, or domain. The exact behavior depends on the messaging service, device, settings, and link. A preview may expose the subject of a page in a conversation even when the recipient has not chosen to open it.",
+        "A link can also contain information in its address. A long URL may include a campaign tag, referral code, account identifier, or other parameter. Those details may not be prominent in the preview, but they can still be part of the shared link. Before sending, inspect the address and use a clean public URL when that is appropriate and supported.",
+        "Do not assume that deleting the message later removes every copy of its contents. Recipients may have notifications, backups, synced devices, or screenshots. The practical goal is to make a deliberate decision before sending, not to rely on recovering control afterward."
+      ],
+      "bullets": [
+        "Does the link reveal a recognizable page title or image?",
+        "Does its address contain personal or campaign-specific parameters?",
+        "Will the recipient see the message on a shared or visible screen?",
+        "Is a link needed to answer the question or complete the task?"
+      ]
+    },
+    {
+      "heading": "Check the message and device context",
+      "paragraphs": [
+        "Start with the conversation itself. Consider whether the recipient is someone who needs the link and whether the conversation may be visible to other people using the account or device. Group chats, shared accounts, and forwarded messages can expand the audience beyond the person you initially had in mind.",
+        "Then consider notifications. A message preview can appear on a lock screen, desktop notification, smartwatch, or other paired device depending on the recipient’s settings. You usually cannot control those settings from your own account. If an unexpected preview would create a problem, choose a lower-exposure way to communicate or do not send the link.",
+        "Keep the message text neutral when the link’s subject is private. The displayed text can be as revealing as the link card. Avoid adding unnecessary context, names, or personal details that would make a notification more identifying."
+      ],
+      "table": {
+        "caption": "Pre-send review of common exposure points",
+        "headers": [
+          "Exposure point",
+          "What to inspect",
+          "Lower-exposure choice"
+        ],
+        "rows": [
+          [
+            "Link preview",
+            "Title, image, description, and domain",
+            "Disable the preview if the app offers that control, or omit the link"
+          ],
+          [
+            "URL itself",
+            "Identifiers and tracking parameters",
+            "Use an appropriate clean public URL"
+          ],
+          [
+            "Message notification",
+            "Text visible outside the conversation",
+            "Keep the message minimal or choose another channel"
+          ],
+          [
+            "Conversation audience",
+            "Shared devices, group membership, and forwarding",
+            "Send only to an intended recipient who needs the information"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a cautious link-checking routine",
+      "paragraphs": [
+        "Before pasting a link, decide whether it is public and intended for sharing. Links copied from a logged-in session can sometimes contain account-specific information or lead directly to private account areas. Do not assume that a URL is safe to share simply because it can be copied from a browser.",
+        "When you need to share a public page, navigate to that page without using personal account details if practical, then copy its public address. Review the full URL before sending. Remove unnecessary tracking parameters only when doing so will not break the link or change its destination.",
+        "If you are unsure how an app handles previews, do not test using a sensitive link in a conversation where an accidental preview would matter. Use a non-sensitive example or consult the app’s current settings and help information. An app’s preview toggle may affect what appears in the conversation, but it does not necessarily describe every technical process used to fetch page information."
+      ],
+      "bullets": [
+        "Confirm that the destination is meant to be public.",
+        "Check that the link does not expose an account or private access token.",
+        "Review the preview and message wording before sending.",
+        "Use a different communication method if the recipient’s device context is unknown."
+      ]
+    },
+    {
+      "heading": "Choose the communication method for the need",
+      "paragraphs": [
+        "Sometimes a link is unnecessary. If the recipient only needs a general explanation, a short neutral message may solve the problem without exposing a page title or image. If a link is required, describe what it is in restrained language and send it through a channel appropriate to the recipient and context.",
+        "For work involving shared accounts or team operations, establish a simple rule for approved links. Use public, non-personalized destinations and avoid sending creator or customer account links in broad channels. Limit access to people who have a legitimate need, and do not include private account credentials in messages.",
+        "A separate browser or messaging profile can help organize accounts, but it does not make link sharing anonymous or prevent recipients from seeing the content. Treat it as one layer of device organization, not a substitute for checking the message itself."
+      ]
+    },
+    {
+      "heading": "Respond calmly if a preview was sent by mistake",
+      "paragraphs": [
+        "If you discover an unexpected preview, use the messaging service’s available delete or unsend option promptly, while recognizing that the recipient may already have seen or saved it. Avoid sending multiple follow-up messages that repeat the same private subject in visible notifications.",
+        "If the link contained account-specific information, review whether the service provides a way to revoke or replace that link and whether account access needs attention. Do not make assumptions about what a recipient can access from the address alone; check the relevant account controls and contact official support through a verified route if needed.",
+        "For future sharing, make one operational change that reduces the chance of recurrence: use a public link, turn off a preview where appropriate, or adopt a rule not to send sensitive URLs through that channel. A small, repeatable process is more useful than relying on memory during every message."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off link previews stop the messaging app from processing a URL?",
+      "answer": "Not necessarily. A preview control may change what is displayed, but the app’s technical handling can vary. Review the service’s current settings and privacy information, and avoid sharing a sensitive link if you are unsure."
+    },
+    {
+      "question": "Can a link reveal my account name?",
+      "answer": "It depends on the link and service. Inspect the full address and avoid sharing links copied from private account areas unless you have confirmed that the destination is intended for public sharing."
+    },
+    {
+      "question": "Is deleting a message enough to remove the exposure?",
+      "answer": "It may remove the message from a conversation under the service’s rules, but it cannot guarantee that nobody saw or saved it. Notifications, screenshots, and synced devices may retain information."
+    },
+    {
+      "question": "What is the safest option if I do not know the recipient’s device settings?",
+      "answer": "Do not send a sensitive link through a channel where a visible preview would cause a problem. Share only what is necessary, use an appropriate alternative, or ask the recipient to choose a suitable channel."
+    }
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

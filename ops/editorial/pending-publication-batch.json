@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T13:23:42.335Z",
+  "generatedAt": "2026-11-20T16:58:20.038Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-shared-screen-viewing-privacy-plan.json",
-    "ops/editorial/content-artifacts/adult-games-managed-device-policy-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-parcel-delivery-fallback-planner.json",
-    "ops/editorial/content-artifacts/adult-anime-version-differences-before-starting.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-preview-navigation-evaluation.json"
+    "ops/editorial/content-artifacts/creator-platform-free-follow-versus-paid-access-planner.json",
+    "ops/editorial/content-artifacts/adult-platform-messaging-link-preview-privacy-check.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-event-attendance-fit.json",
+    "ops/editorial/content-artifacts/live-cam-platform-viewer-control-discovery-check.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-promotional-claim-review-cycle.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-shared-screen-viewing-privacy-plan.js",
-    "src/data/guides/adult-games-managed-device-policy-preflight.js",
-    "src/data/guides/adult-shop-parcel-delivery-fallback-planner.js",
-    "src/data/guides/adult-anime-version-differences-before-starting.js",
-    "src/data/guides/vr-adult-platform-preview-navigation-evaluation.js"
+    "src/data/guides/creator-platform-free-follow-versus-paid-access-planner.js",
+    "src/data/guides/adult-platform-messaging-link-preview-privacy-check.js",
+    "src/data/guides/adult-dating-platform-event-attendance-fit.js",
+    "src/data/guides/live-cam-platform-viewer-control-discovery-check.js",
+    "src/data/guides/webmaster-affiliate-promotional-claim-review-cycle.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "vr-ar"
+    "creator-platforms",
+    "privacy-safety-payment",
+    "dating-hookups",
+    "live-cams",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "free-video-shared-screen-viewing-privacy-plan",
-    "adult-games-managed-device-policy-preflight",
-    "adult-shop-parcel-delivery-fallback-planner",
-    "adult-anime-version-differences-before-starting",
-    "vr-adult-platform-preview-navigation-evaluation"
+    "creator-platform-free-follow-versus-paid-access-planner",
+    "adult-platform-messaging-link-preview-privacy-check",
+    "adult-dating-platform-event-attendance-fit",
+    "live-cam-platform-viewer-control-discovery-check",
+    "webmaster-affiliate-promotional-claim-review-cycle"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44743049713",
-  "phase": "closed"
+  "r1CycleId": "44778252800"
 }
