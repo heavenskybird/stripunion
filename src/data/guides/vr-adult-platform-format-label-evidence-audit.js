@@ -1,0 +1,133 @@
+export default {
+  "slug": "vr-adult-platform-format-label-evidence-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Verify What a “VR” Format Label Actually Means",
+  "description": "Use a format-label checklist to compare VR adult platform listings, confirm headset and playback requirements, and avoid treating broad labels as compatibility evidence.",
+  "excerpt": "A “VR” label can leave important questions unanswered. Check how a platform describes format, viewing requirements, playback route, and sample evidence before choosing a library or subscription.",
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "keyTakeaways": [
+    "Treat format labels as starting points, not proof that a specific headset or player will work.",
+    "Check whether a listing explains the capture or viewing format, playback route, and any device or software requirements.",
+    "Compare item-level details with platform-wide claims; a library may contain more than one format or access path.",
+    "Use previews or test access only to verify the specific conditions they demonstrate, not every item in a catalog.",
+    "Record unclear labels and ask targeted compatibility questions before paying or building a large library."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the format label from the playback promise",
+      "paragraphs": [
+        "A listing may use a broad format term without explaining exactly what the viewer will see or how the item is delivered. The label could describe a general category, a capture style, a player mode, or an intended device experience. These meanings are not interchangeable. Read the item description and help material for concrete details rather than assuming that a short badge establishes a particular level of immersion, viewpoint, or compatibility.",
+        "Likewise, a format label does not necessarily guarantee a smooth playback path on every headset. The file or stream, player, browser or app, and device software can all affect whether an item opens as expected. Keep the questions separate: what format is the item, what software plays it, and which devices does the platform say are supported? Clear answers to all three are more useful than a single broad label."
+      ],
+      "bullets": [
+        "Write down the exact format term used on the listing.",
+        "Look for a definition of the term in the platform’s help or format documentation.",
+        "Separate content format claims from device compatibility and playback requirements."
+      ]
+    },
+    {
+      "heading": "Look for evidence at the item level",
+      "paragraphs": [
+        "A platform-wide statement may describe a catalog generally, while individual listings can differ in format, resolution, access method, or other relevant attributes. Check a sample of the actual items you might use and compare the listing fields. If information appears only on a general landing page, do not automatically apply it to every item. An item-level description, technical details page, or preview can provide more specific evidence, though each has limits.",
+        "When details are missing, record the gap rather than filling it with assumptions. For example, a preview may confirm that one sample plays through a certain route, but it does not prove that every catalog item uses that route. A title or thumbnail can also be an unreliable substitute for a technical description. Your comparison should distinguish stated facts, observed behaviour in a limited sample, and unanswered questions."
+      ],
+      "bullets": [
+        "Compare item pages for consistent fields and definitions.",
+        "Note whether the evidence is a written specification, a preview, or a general marketing description.",
+        "Do not treat one tested item as proof about a whole library."
+      ]
+    },
+    {
+      "heading": "Verify the device and software path",
+      "paragraphs": [
+        "Before relying on a format claim, trace the intended playback route: headset, browser or application, player, and any companion device or account needed. Check the platform’s published compatibility information for the device category and software version it names. If the page refers only to a format without specifying a supported access route, ask whether that format is available through the method you plan to use.",
+        "Compatibility can depend on more than a headset model. A platform may require a particular browser, player, network connection, or software feature, and those conditions can change. Confirm the current documentation close to the decision point. Avoid installing unofficial software or sharing credentials with an unverified tool just to test a format claim. Use official access routes and stop if the platform’s instructions are unclear or inconsistent."
+      ],
+      "bullets": [
+        "Match the stated device requirements to the headset and access method you actually use.",
+        "Check whether a browser, app, player, or companion device is required.",
+        "Verify that download or streaming instructions come from an official platform source."
+      ]
+    },
+    {
+      "heading": "Use previews as limited tests, not catalog guarantees",
+      "paragraphs": [
+        "A preview can help answer a narrow question: does this particular sample show the format or playback behaviour the platform describes? It may not reveal the full version, every device requirement, or the behavior of other items. Check whether the preview is available through the same route you expect to use after joining. If it opens in a different player or on a different device, it may offer only partial evidence about your intended setup.",
+        "Write down the test conditions when evaluating a preview: item, device, software route, and any access limitation shown. This makes it easier to compare platforms fairly. If a sample fails, the issue may involve a temporary connection or local setup rather than the format claim itself, so avoid broad conclusions from one unsuccessful attempt. If repeated tests or documentation still leave a material compatibility question unresolved, treat that as uncertainty before committing."
+      ],
+      "bullets": [
+        "Test more than one representative item when the platform allows it.",
+        "Record the device and player used, and whether the preview had access restrictions.",
+        "Do not infer full-library compatibility from a single successful sample."
+      ]
+    },
+    {
+      "heading": "Compare library descriptions consistently",
+      "paragraphs": [
+        "A useful comparison starts with a small, repeatable checklist. For each candidate platform, note the format terms it uses, whether those terms are defined, where item-level details appear, and how device support is documented. Also record whether the platform distinguishes standard video from headset-oriented formats and whether a listing explains what access method is required. This helps prevent a vague catalog label from outweighing concrete compatibility evidence.",
+        "Library breadth and format clarity are separate considerations. A broad catalog description cannot establish that the items you care about are offered in the format you want, while a clear specification for a few items does not show that the overall selection is broad. Build a shortlist from individual listings and mark uncertain items explicitly. The goal is a library you can evaluate, not an impressive-sounding label."
+      ],
+      "bullets": [
+        "Use the same questions for every platform in your shortlist.",
+        "Count only listings whose format and access route are explained well enough for your needs.",
+        "Keep “not stated” distinct from “not supported.”"
+      ]
+    },
+    {
+      "heading": "A format-label evidence worksheet",
+      "paragraphs": [
+        "Before paying, summarize what you know and what remains unresolved. A simple worksheet can keep technical claims, observed tests, and assumptions from blending together. Save the source of each answer, such as an item page or official compatibility guide, and note when you checked it. This is especially useful if a platform uses several overlapping labels or if a listing’s description does not match the help documentation.",
+        "If you need an answer from support, ask a specific question about the exact item and playback route rather than asking only whether the service “supports VR.” For instance, identify the headset category, the platform’s stated format label, and whether you plan to stream or download. Do not provide account passwords or unrelated personal information. Clear, bounded questions make the resulting answer more useful for your own decision."
+      ],
+      "table": {
+        "caption": "Assess each format claim with evidence, not shorthand",
+        "headers": [
+          "Check",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Meaning of the label",
+            "A platform definition or item-level explanation of the format."
+          ],
+          [
+            "Item coverage",
+            "Specific listings that use the format, not only a broad catalog claim."
+          ],
+          [
+            "Playback route",
+            "Required headset, app, browser, player, or companion device."
+          ],
+          [
+            "Preview evidence",
+            "What the sample demonstrated and what it did not establish."
+          ],
+          [
+            "Unresolved point",
+            "A specific compatibility or access question to confirm before committing."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a VR label guarantee headset compatibility?",
+      "answer": "No. A format label and device compatibility are separate claims. Check the platform’s current compatibility documentation for the exact headset and playback route you intend to use, and verify item-level details where possible."
+    },
+    {
+      "question": "Can one preview prove that the whole library is compatible?",
+      "answer": "No. A preview can show how one sample behaves under particular test conditions. Other items may use different formats, playback routes, or access requirements. Treat the preview as limited evidence, not a guarantee about the catalog."
+    },
+    {
+      "question": "What should I ask support if a format description is unclear?",
+      "answer": "Ask about the specific listing, the meaning of its format label, the required headset and player route, and whether the answer applies to streaming, downloads, or both. Avoid sharing passwords or unnecessary personal information."
+    },
+    {
+      "question": "Should I treat an unspecified format as unsupported?",
+      "answer": "Not necessarily. “Not stated” is not the same as “unsupported.” Record the uncertainty and seek clarification from an official source before relying on the item or choosing a paid plan."
+    }
+  ]
+};

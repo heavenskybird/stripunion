@@ -1,0 +1,133 @@
+export default {
+  "slug": "affiliate-programs-creator-content-rights-and-reuse-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check Who Owns and Can Reuse Your Promotional Content",
+  "description": "Before joining an affiliate program, review how its terms treat your original articles, images, and promotional material, including licenses, reuse, editing, and post-exit rights.",
+  "excerpt": "Affiliate terms may cover more than tracking and commissions. Use this review to distinguish program-provided creative assets from content your team creates, and to spot rights and reuse questions before publication.",
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "keyTakeaways": [
+    "Separate program-provided banners or copy from original content created by your business; their rights may be governed differently.",
+    "Look for license language covering purpose, duration, territory, editing, sublicensing, and post-termination use.",
+    "Check whether the program can reuse your content or materials, and whether attribution or approval is addressed.",
+    "Review rules for trademarks, screenshots, reviews, and claims rather than assuming a referral relationship grants broad permission.",
+    "Keep a dated copy of the applicable terms and obtain written clarification when a clause is unclear."
+  ],
+  "sections": [
+    {
+      "heading": "Separate supplied assets from your own work",
+      "paragraphs": [
+        "An affiliate relationship can involve two different content flows. The program may provide banners, product images, logos, or approved copy for your use. Your business may separately create reviews, comparison tables, screenshots, landing pages, or explanatory text. Do not assume that permissions for one flow automatically cover the other. A program’s creative-asset rules may let you use a supplied banner while saying little about whether the program can reuse your original article.",
+        "Make an inventory of the material you expect to publish and identify its source. For each item, record whether it is program-supplied, created by your team, licensed from another party, or assembled from multiple sources. Then compare that inventory with the agreement, brand guidelines, and any content or intellectual-property policy. The distinction matters if a program ends, asks you to remove an asset, or wants to republish a page you created."
+      ],
+      "bullets": [
+        "List original editorial work separately from program-provided creative assets.",
+        "Identify any third-party images, quotations, screenshots, or data in your planned content.",
+        "Do not treat access to an affiliate dashboard as permission to reuse every available asset."
+      ]
+    },
+    {
+      "heading": "Read the license scope, not only the ownership label",
+      "paragraphs": [
+        "Terms may use words such as “license,” “permission,” “content,” or “materials” in ways that have different practical effects. Look for the scope of any grant: which party receives it, what it can do, where it applies, how long it lasts, and whether it can be transferred or sublicensed. A clause allowing a program to display a logo for campaign administration is different from a broad right to edit, publish, or distribute your complete editorial page.",
+        "Also examine whether a license survives account closure or program termination. Some permissions may be intended to continue for records or already distributed material; others may be limited to the active relationship. Do not assume the answer from a short summary or from the fact that you can remove a link. Note the exact clause and ask for clarification if the text does not make the duration or permitted uses clear."
+      ],
+      "bullets": [
+        "Check the permitted actions: display, copy, adapt, distribute, archive, or sublicense.",
+        "Check duration, territory, termination effects, and any attribution requirement.",
+        "Look for rights granted to you separately from rights granted to the program."
+      ]
+    },
+    {
+      "heading": "Check whether edits or reuse need approval",
+      "paragraphs": [
+        "A program may reserve the ability to review promotional content, ask for changes, or restrict how claims and marks appear. Those rules can affect your editorial workflow even if your team owns its own material. Identify whether approval is required before publication, whether a change request can apply after publication, and how quickly you are expected to respond. Keep editorial independence and program compliance distinct: ownership does not necessarily remove contractual content restrictions.",
+        "If the program can reuse or adapt your work, check whether the terms specify an approval process, attribution, context, or limits on edits. Your original comparison could be presented differently when excerpted or republished. If the agreement does not address these points, do not infer that reuse is either permitted or prohibited; ask a narrow written question about the intended use and retain the answer with the agreement version."
+      ],
+      "bullets": [
+        "Map approval steps to your publishing calendar and review process.",
+        "Check whether post-publication edits or takedown requests are described.",
+        "Ask specifically about reuse, excerpting, attribution, and editing of your original work."
+      ]
+    },
+    {
+      "heading": "Protect third-party and audience material",
+      "paragraphs": [
+        "Your affiliate page may include material that is not owned by either you or the program. Examples can include licensed photography, quotations, user-submitted comments, or data from an external source. A program license cannot necessarily grant rights that your business does not have. Review your own permissions and ensure that the program’s proposed reuse, if any, would not exceed the rights you received from the original source.",
+        "Be cautious with audience-submitted content and private communications. A person’s comment or message is not automatically available for promotional reuse simply because it appeared on a public page or was sent to your business. Keep permissions, source information, and publication context with your editorial records. If a program asks for materials that include third-party content, confirm that you can lawfully and contractually provide them before transferring or uploading anything."
+      ],
+      "bullets": [
+        "Track source and permission status for third-party material in each page or asset.",
+        "Avoid sending private messages or audience data as promotional content without a clear basis and permission.",
+        "Check whether submitted material contains information you should remove or minimize."
+      ]
+    },
+    {
+      "heading": "Build a practical terms and content record",
+      "paragraphs": [
+        "Store the program agreement, content policies, brand guidelines, and written clarifications together with a record of their effective dates. For each published page, note which original work is yours, which program assets it uses, and any required approvals. This makes later changes easier to assess without relying on memory or an old dashboard message. It also helps distinguish a program update from a general editorial decision to revise your page.",
+        "When terms change, compare the new language with your content inventory. Ask whether a new license applies to previously published material, whether existing use needs approval, and whether you can remove or replace assets if you decline a change. Avoid editing a page based only on a verbal interpretation when the contract or policy text controls the relationship. Preserve the written answer and identify which version it clarifies."
+      ],
+      "bullets": [
+        "Save dated versions of agreements, creative guidelines, and support answers.",
+        "Maintain a page-to-asset list showing ownership, source, license, and approval status.",
+        "Record actions taken when terms change, including removals or replacements."
+      ]
+    },
+    {
+      "heading": "A rights review before publishing",
+      "paragraphs": [
+        "Use a consistent review before adding a new affiliate program or publishing material under an existing one. The review is not a substitute for qualified legal advice where the stakes are significant; it is an operational way to spot unanswered questions early. If a clause could affect your editorial archive, business assets, or third-party permissions, pause and seek clarification before relying on an assumption.",
+        "A good outcome is not necessarily a perfect contract. It is a clear understanding of which material you can use, what you are granting, what the program may request, and what happens when the relationship ends. If those points remain unclear, compare that uncertainty with the value and operational demands of the program rather than treating a tracking link as the whole decision."
+      ],
+      "table": {
+        "caption": "Review content rights by material type",
+        "headers": [
+          "Material type",
+          "Questions to resolve"
+        ],
+        "rows": [
+          [
+            "Program-supplied creative",
+            "Where it may appear, permitted edits, expiry, and removal requirements."
+          ],
+          [
+            "Your original editorial content",
+            "Whether the program can copy, excerpt, adapt, or republish it."
+          ],
+          [
+            "Third-party material",
+            "Whether your existing license permits the intended affiliate use or transfer."
+          ],
+          [
+            "Audience-submitted material",
+            "Whether there is documented permission and what identifying details remain."
+          ],
+          [
+            "Archived pages after exit",
+            "What permissions continue, what must be removed, and what records may be retained."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an affiliate program automatically own my review or comparison page?",
+      "answer": "Do not assume ownership either way. Read the agreement’s definitions and rights clauses, especially any language about content, materials, licenses, and reuse. If the terms are unclear, ask the program to explain the specific rights it claims or needs in writing."
+    },
+    {
+      "question": "Can I use program-provided images after leaving the program?",
+      "answer": "That depends on the applicable asset terms and any termination or removal requirements. Check the asset license, brand guidelines, and agreement before keeping material live after the relationship ends. Replace or remove assets when required by the terms."
+    },
+    {
+      "question": "What if a program asks to repost my article?",
+      "answer": "Review whether the agreement permits that use and whether the proposed context, edits, attribution, and distribution match the permission. If they do not, ask for the scope in writing and decide whether you are comfortable granting it before sending or approving the material."
+    },
+    {
+      "question": "Should I keep copies of old affiliate terms?",
+      "answer": "Yes, maintain dated versions of the agreement and related content policies that applied when you made decisions. Keep them securely with relevant approvals and written clarifications so you can identify which terms governed a particular publication or use."
+    }
+  ]
+};

@@ -1,0 +1,140 @@
+{
+  "backlogId": "adult-platform-payment-recipient-map",
+  "slug": "adult-platform-checkout-payment-recipient-map",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Checkout: Map Who Receives Your Payment Information",
+  "description": "Before paying for an adult platform, map which parties may handle payment details, transaction records, receipts, and support requests, then compare the privacy implications.",
+  "excerpt": "A checkout may involve more than the platform and your bank. This practical recipient map helps you identify where payment information and transaction records may travel before you confirm a purchase.",
+  "keyTakeaways": [
+    "Identify the parties named in checkout and payment notices instead of assuming the platform alone processes a transaction.",
+    "Distinguish payment credentials from transaction details, receipts, and account records; different parties may handle different data.",
+    "Review the privacy notice and payment terms for stated recipients, purposes, retention, and support routes.",
+    "Check whether a wallet, app store, payment processor, or financial institution creates a separate account or purchase record.",
+    "Do not treat a payment method as anonymous; evaluate the records visible to each service and to anyone with access to your accounts."
+  ],
+  "sections": [
+    {
+      "heading": "Draw the checkout path before entering details",
+      "paragraphs": [
+        "A purchase can involve several distinct roles: the platform providing access, a checkout service, a payment processor, a card issuer or bank, and possibly a digital wallet or app marketplace. The exact arrangement varies, so do not assume every checkout uses all of these parties or that one party can see everything. Start by recording the names and roles that are actually presented during the transaction. Look at the checkout page, linked payment terms, privacy notice, and receipt information.",
+        "Make this a simple flow: where you start, where the payment form is hosted, which service confirms the charge, and where a receipt or account notification is sent. A page can be branded by the platform while payment handling is described in separate terms. Conversely, an external payment interface does not automatically mean the platform receives no transaction information. The goal is to understand the stated handoffs, not to infer data access from logos or visual design."
+      ],
+      "bullets": [
+        "Record the platform name and any separate payment-service or wallet name shown at checkout.",
+        "Check whether payment entry stays on the platform page or moves to another service.",
+        "Note which party appears on the receipt, confirmation screen, or billing support instructions."
+      ]
+    },
+    {
+      "heading": "Separate credentials from transaction records",
+      "paragraphs": [
+        "Payment credentials and transaction records are different categories. A card number or wallet authorization may be handled by one party, while the platform may receive a confirmation, transaction reference, plan selection, or account association. A bank or card issuer may separately record the amount, date, and merchant information. A receipt service may send a message containing account or purchase details. Read the relevant notices to understand what each party says it receives and why.",
+        "Avoid the misleading question, “Who sees my card?” Ask instead which parties may receive or retain payment credentials, a payment token, transaction status, purchase amount, account identifier, or receipt details. Public documentation may not answer every technical question, and a general privacy statement may describe categories rather than a single purchase. Mark uncertainty plainly. If a detail matters to your decision, ask the relevant support channel before paying, without sending full payment credentials in a message."
+      ],
+      "bullets": [
+        "Create separate rows for credentials, transaction status, purchase amount, account association, and receipt data.",
+        "Look for statements about payment processors, service providers, fraud prevention, and record retention.",
+        "Do not send full card details or sensitive identity information through ordinary support messages."
+      ]
+    },
+    {
+      "heading": "Check account and receipt links",
+      "paragraphs": [
+        "A checkout may associate a payment with an existing platform account or require a new one. A wallet or app marketplace may also have its own login and purchase history. That can create multiple records even when the payment itself appears straightforward. Check where confirmation emails are sent, whether the purchase appears in a wallet or marketplace history, and whether account settings allow you to manage receipts or billing notices. These are separate controls and may be managed by different services.",
+        "Consider who else can access those linked accounts or devices. A shared inbox, family payment account, joint wallet, or device with visible purchase history can expose information even if the platform profile is private. Do not assume a separate sign-in hides a transaction from the owner of the payment account. Make a practical account-access map: who can view the platform login, inbox, payment account, device notifications, and any shared statements."
+      ],
+      "bullets": [
+        "Check where receipts and renewal messages will be delivered before checkout.",
+        "Review purchase-history visibility in any wallet or app marketplace you use.",
+        "Consider shared inboxes, payment accounts, and devices as separate exposure points."
+      ]
+    },
+    {
+      "heading": "Use privacy notices as a recipient checklist",
+      "paragraphs": [
+        "Privacy notices often describe categories of recipients rather than mapping a specific payment. Search for sections about payment processing, service providers, legal obligations, security, fraud prevention, and data retention. Note whether the notice distinguishes processors acting on instructions from other recipients, and whether it says transaction information may be combined with account information. The aim is not to translate legal language into guarantees, but to identify the questions the notice answers and leaves open.",
+        "A useful comparison records the date you reviewed the notice and the exact point you relied on, such as a named payment processor or a stated receipt practice. Terms and notices can change, so avoid treating an old screenshot or a general statement as a permanent promise. If the checkout refers to another company’s terms, review those too where they explain payment handling. If the documents conflict or do not clarify a material question, pause rather than guessing."
+      ],
+      "bullets": [
+        "Record the notice or terms page you reviewed and the date.",
+        "Identify statements about data recipients, purpose, retention, and account linkage.",
+        "Keep unresolved questions separate from confirmed information."
+      ]
+    },
+    {
+      "heading": "Choose a payment route by control and record visibility",
+      "paragraphs": [
+        "Different payment routes can change which account holds the transaction record and which controls are available. A card, wallet, prepaid instrument, or app-store purchase may differ in spending controls, dispute handling, receipt location, and account history. None should be described as automatically private or untraceable. Compare the record surfaces and practical controls you can actually use: transaction alerts, purchase history, recurring-charge management, and the process for reviewing or disputing an unfamiliar charge.",
+        "Before confirming a recurring purchase, identify where cancellation is managed. A subscription obtained through a marketplace or wallet may have a different cancellation path from one billed directly by a platform. Note who can stop future charges, who can confirm cancellation, and what records you need to keep. A more controlled method is useful only if you understand its limits and can access the account needed to manage it."
+      ],
+      "bullets": [
+        "Confirm which service manages recurring billing and cancellation.",
+        "Check whether the chosen payment route provides alerts or spending controls you want.",
+        "Do not select a route based only on a claim that it is discreet; verify its actual records and controls."
+      ]
+    },
+    {
+      "heading": "A pre-payment recipient map",
+      "paragraphs": [
+        "Complete a small table before checkout when payment privacy is important to you. Use only information displayed in the platform’s own flow and linked notices. The map can reveal when one party manages billing while another manages access, or when a receipt creates an additional record. It also gives you focused questions to ask support without sharing unnecessary personal or financial information.",
+        "If the flow is too unclear to map, that is useful decision information. You can delay the purchase, seek clarification, or choose a service whose payment and account responsibilities are easier to understand. Keep any notes securely and avoid storing full payment credentials alongside them. The purpose is informed choice, not a promise that every record can be hidden or removed."
+      ],
+      "table": {
+        "caption": "Record the roles and records visible in the checkout path",
+        "headers": [
+          "Party or account",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Platform account",
+            "Whether purchase status or plan details are linked to your profile."
+          ],
+          [
+            "Checkout or processor",
+            "Which payment fields and transaction details its terms describe."
+          ],
+          [
+            "Bank, issuer, or payment account",
+            "What transaction history, alerts, or statement records are available."
+          ],
+          [
+            "Wallet or marketplace",
+            "Whether it stores receipts, subscriptions, or purchase history."
+          ],
+          [
+            "Email and devices",
+            "Where receipts or alerts appear and who can access those surfaces."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a platform promise that a payment is private?",
+      "answer": "A broad claim is not enough to understand exposure. Ask which parties handle credentials and transaction information, where receipts are sent, what records appear in linked accounts, and what the privacy notice says about recipients and retention. No payment route should be assumed to erase ordinary financial records."
+    },
+    {
+      "question": "Does using a digital wallet mean the platform cannot see that I paid?",
+      "answer": "Not necessarily. The platform may receive confirmation or account-related transaction details even if a wallet handles the payment credentials. Check the platform’s payment terms and the wallet’s own purchase-history and privacy information."
+    },
+    {
+      "question": "Should I send payment details to support to clarify the recipient map?",
+      "answer": "No. Ask a general question about payment handling without sending a full card number, security code, password, or other unnecessary sensitive data. Use the support channel named in the service’s official account or payment documentation."
+    },
+    {
+      "question": "What records should I keep after a purchase?",
+      "answer": "Keep only records you may need to manage billing, confirm cancellation, or resolve a transaction issue. Store them in a place appropriate to your privacy needs, and avoid retaining unnecessary copies of payment credentials or detailed receipts."
+    }
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
