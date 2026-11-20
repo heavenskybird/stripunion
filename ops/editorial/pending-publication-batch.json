@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T20:12:50.201Z",
+  "generatedAt": "2026-11-20T21:23:43.572Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-connected-product-app-dependency-review.json",
-    "ops/editorial/content-artifacts/live-cam-audio-only-format-fit-check.json",
-    "ops/editorial/content-artifacts/creator-platform-support-responsibility-boundary-map.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-prompt-answerability-planner.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-geo-redirect-consent-audit.json"
+    "ops/editorial/content-artifacts/premium-video-chapter-navigation-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-invoice-identity-disclosure-review.json",
+    "ops/editorial/content-artifacts/free-video-subtitle-provenance-check.json",
+    "ops/editorial/content-artifacts/adult-games-third-party-key-seller-check.json",
+    "ops/editorial/content-artifacts/adult-shop-stock-alert-privacy-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-connected-product-app-dependency-review.js",
-    "src/data/guides/live-cam-audio-only-format-fit-check.js",
-    "src/data/guides/creator-platform-support-responsibility-boundary-map.js",
-    "src/data/guides/adult-dating-profile-prompt-answerability-planner.js",
-    "src/data/guides/webmaster-affiliate-geo-redirect-consent-audit.js"
+    "src/data/guides/premium-video-chapter-navigation-audit.js",
+    "src/data/guides/adult-platform-invoice-identity-disclosure-review.js",
+    "src/data/guides/free-video-subtitle-provenance-check.js",
+    "src/data/guides/adult-games-third-party-key-seller-check.js",
+    "src/data/guides/adult-shop-stock-alert-privacy-check.js"
   ],
   "categories": [
-    "adult-shops",
-    "live-cams",
-    "creator-platforms",
-    "dating-hookups",
-    "webmaster-affiliate"
+    "premium-videos",
+    "privacy-safety-payment",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-shop-connected-product-app-dependency-review",
-    "live-cam-audio-only-format-fit-check",
-    "creator-platform-support-responsibility-boundary-map",
-    "adult-dating-profile-prompt-answerability-planner",
-    "webmaster-affiliate-geo-redirect-consent-audit"
+    "premium-video-chapter-navigation-audit",
+    "adult-platform-invoice-identity-disclosure-review",
+    "free-video-subtitle-provenance-check",
+    "adult-games-third-party-key-seller-check",
+    "adult-shop-stock-alert-privacy-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44808954591",
-  "phase": "closed"
+  "r1CycleId": "44819602690"
 }
