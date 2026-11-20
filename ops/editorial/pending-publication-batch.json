@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T16:58:20.038Z",
+  "generatedAt": "2026-11-20T18:52:26.336Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-free-follow-versus-paid-access-planner.json",
-    "ops/editorial/content-artifacts/adult-platform-messaging-link-preview-privacy-check.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-event-attendance-fit.json",
-    "ops/editorial/content-artifacts/live-cam-platform-viewer-control-discovery-check.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-promotional-claim-review-cycle.json"
+    "ops/editorial/content-artifacts/premium-video-multiple-library-overlap-decision-workbook.json",
+    "ops/editorial/content-artifacts/adult-anime-app-content-exposure-first-run-check.json",
+    "ops/editorial/content-artifacts/free-video-platform-upload-source-accountability-check.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-quick-session-entry-fit.json",
+    "ops/editorial/content-artifacts/adult-games-gameplay-loop-and-session-structure-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-free-follow-versus-paid-access-planner.js",
-    "src/data/guides/adult-platform-messaging-link-preview-privacy-check.js",
-    "src/data/guides/adult-dating-platform-event-attendance-fit.js",
-    "src/data/guides/live-cam-platform-viewer-control-discovery-check.js",
-    "src/data/guides/webmaster-affiliate-promotional-claim-review-cycle.js"
+    "src/data/guides/premium-video-multiple-library-overlap-decision-workbook.js",
+    "src/data/guides/adult-anime-app-content-exposure-first-run-check.js",
+    "src/data/guides/free-video-platform-upload-source-accountability-check.js",
+    "src/data/guides/vr-adult-platform-quick-session-entry-fit.js",
+    "src/data/guides/adult-games-gameplay-loop-and-session-structure-fit.js"
   ],
   "categories": [
-    "creator-platforms",
-    "privacy-safety-payment",
-    "dating-hookups",
-    "live-cams",
-    "webmaster-affiliate"
+    "premium-videos",
+    "hentai-anime",
+    "free-videos",
+    "vr-ar",
+    "adult-games"
   ],
   "backlogIds": [
-    "creator-platform-free-follow-versus-paid-access-planner",
-    "adult-platform-messaging-link-preview-privacy-check",
-    "adult-dating-platform-event-attendance-fit",
-    "live-cam-platform-viewer-control-discovery-check",
-    "webmaster-affiliate-promotional-claim-review-cycle"
+    "premium-video-multiple-library-overlap-decision-workbook",
+    "adult-anime-app-content-exposure-first-run-check",
+    "free-video-platform-upload-source-accountability-check",
+    "vr-adult-platform-quick-session-entry-fit",
+    "adult-games-gameplay-loop-and-session-structure-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44778252800",
-  "phase": "closed"
+  "r1CycleId": "44796534342"
 }
