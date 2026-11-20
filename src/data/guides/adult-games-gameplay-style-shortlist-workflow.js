@@ -1,0 +1,110 @@
+export default {
+  "slug": "adult-games-gameplay-style-shortlist-workflow",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Choose a Gameplay Style Before Comparing Storefronts",
+  "description": "A practical way to shortlist adult games by interaction style, time commitment, and preferred mechanics before comparing editions or storefronts.",
+  "excerpt": "Store listings can make different kinds of games look interchangeable. Start with the gameplay you want—reading, exploration, strategy, simulation, or puzzles—then use a shortlist to compare candidates on relevant terms.",
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "keyTakeaways": [
+    "Identify the interaction you want before using genre labels or storefront categories as a shortcut.",
+    "Separate narrative format, core mechanics, and session demands; a game can combine several styles.",
+    "Check whether the description explains what the player repeatedly does, not only the setting or broad theme.",
+    "Use demos, screenshots, controls descriptions, and version-specific reviews as evidence, while noting what each source cannot establish.",
+    "Keep content warnings and personal boundaries as independent selection criteria rather than treating a gameplay label as a safety signal."
+  ],
+  "sections": [
+    {
+      "heading": "Define the play experience you are looking for",
+      "paragraphs": [
+        "When searching for adult games, start with the activity you want to spend time doing. You may prefer a mostly text-led experience, exploration, decision-making, resource management, puzzles, tactical encounters, or a mix. This is more actionable than beginning with a broad genre label, because stores and creators may use the same label for games with very different mechanics. Write down two or three preferred activities and one activity you would rather avoid.",
+        "Also decide how much attention and time you can give a session. A game that relies on long uninterrupted scenes or complex systems may not suit someone who wants short, easily paused sessions. This is not a judgment about quality; it is a fit question. A clear preference helps narrow a large catalog and gives you concrete questions to answer when the listing is incomplete."
+      ]
+    },
+    {
+      "heading": "Separate narrative format from game mechanics",
+      "paragraphs": [
+        "Narrative format describes how information is delivered; mechanics describe what the player does. A visual-novel-style presentation may focus on reading and choices, while also including branching routes, resource systems, or exploration. A role-playing label could refer to character progression, turn-based encounters, dialogue choices, or several of these. Do not assume a label tells you the balance between reading, navigation, and interactive systems.",
+        "Look for specific verbs in the description: choose, investigate, manage, build, solve, explore, or compete. These words provide clues, but they are still claims to verify. Screenshots, control descriptions, gameplay clips, and demos can clarify the loop. If a listing only describes characters, themes, or story premise, it may not provide enough evidence to judge the play style. Record that uncertainty rather than filling it in from the genre name."
+      ]
+    },
+    {
+      "heading": "Compare the repeated gameplay loop",
+      "paragraphs": [
+        "A game’s repeated loop is the pattern that structures most of the time spent playing. It might involve reading and selecting dialogue, exploring locations, managing resources, solving puzzles, or planning encounters. Ask what a typical ten-minute segment involves, and look for evidence in the listing, a demo, or a creator’s description. This question makes comparisons more useful than broad claims such as “story-driven” or “simulation” on their own.",
+        "Consider how much the loop changes over time. Some titles introduce new systems or choices; others repeat a familiar activity with additional story context. If variety matters to you, check whether available information describes progression, route structure, or mechanical changes. Avoid treating a large number of scenes, chapters, or features as proof of gameplay variety; quantity and interaction quality are different questions."
+      ]
+    },
+    {
+      "heading": "Use demos and previews for the question they can answer",
+      "paragraphs": [
+        "A demo can help you inspect controls, pacing, interface readability, and whether the core activity appeals to you. It cannot necessarily establish the quality or completeness of the full release, the scope of later content, or how future updates will work. Before installing a demo, verify the source and device requirements, and decide whether its permissions and file handling are acceptable. If no demo exists, use the best available evidence and lower your confidence accordingly.",
+        "Treat screenshots and clips as samples rather than a complete representation. They may show a selected moment, not the normal balance of reading, exploration, or system interaction. Reviews can add context, but check their date, version, and stated play conditions. A review of an earlier build may not describe the current one. Keep a simple evidence note—what you saw, where it came from, and what remains unverified—to avoid turning impressions into certainty."
+      ]
+    },
+    {
+      "heading": "Add boundaries, warnings, and session fit",
+      "paragraphs": [
+        "Gameplay preference and content preference are separate axes. A puzzle-focused game may still contain themes you do not want, while a narrative-heavy game may have mechanics you enjoy. Read available content labels and warnings independently from genre descriptions. If labels are vague, missing, or inconsistent, treat that as an information gap. Do not assume that a storefront category or rating explains every theme or interaction in a title.",
+        "Check whether the game can be paused, saved, and resumed in the way you need. Session fit can depend on save points, chapter length, interruptions, and whether the game requires an ongoing connection. These practical details can matter as much as genre. A title may look like a fit on paper but be inconvenient if it requires long uninterrupted sessions or has unclear save behavior. Verify these requirements from platform information or a demo when possible."
+      ]
+    },
+    {
+      "heading": "Build a shortlist that makes the trade-offs visible",
+      "paragraphs": [
+        "Compare a few candidates against the same criteria instead of trying to rank every title in a category. Note the core loop, narrative balance, typical session fit, evidence available, content-warning clarity, and unresolved questions. Mark each point as confirmed, partially supported, or unknown. This creates a shortlist based on your priorities rather than a storefront’s promotional order or an unsupported genre label.",
+        "Only after the gameplay fit is clear should you compare storefront-specific terms such as platform support, account requirements, edition contents, update information, refund rules, and access rights. Those are important purchase checks, but they do not answer whether you will enjoy the game’s mechanics. Keeping the stages separate prevents a convenient store or attractive package from substituting for a real understanding of the play experience."
+      ],
+      "table": {
+        "caption": "Gameplay-style shortlist for adult games",
+        "headers": [
+          "Decision factor",
+          "Evidence to look for",
+          "Useful question"
+        ],
+        "rows": [
+          [
+            "Core loop",
+            "Gameplay description, demo, controls, or footage",
+            "What does the player do repeatedly?"
+          ],
+          [
+            "Narrative balance",
+            "Sample, chapter structure, or detailed description",
+            "How much time is spent reading versus interacting?"
+          ],
+          [
+            "Session fit",
+            "Save information, demo, or platform requirements",
+            "Can play be paused and resumed conveniently?"
+          ],
+          [
+            "Content boundaries",
+            "Content labels and warnings",
+            "Are relevant themes described clearly enough for me?"
+          ],
+          [
+            "Confidence",
+            "Source, date, and version of evidence",
+            "What remains uncertain before I buy?"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are genre labels reliable enough to choose an adult game?",
+      "answer": "They are useful starting points, not full descriptions. Labels can be applied differently across stores and creators. Check the repeated gameplay loop, controls, and available sample evidence to understand what you will actually do."
+    },
+    {
+      "question": "What can a demo tell me about a game?",
+      "answer": "A demo can help you assess controls, interface, pacing, and a portion of the core loop. It may not show the full release’s content, later systems, completeness, or future update plans. Treat the demo as limited evidence."
+    },
+    {
+      "question": "Should content warnings be part of a gameplay-style comparison?",
+      "answer": "Yes, but keep them as a separate criterion. Gameplay mechanics do not reliably indicate a title’s themes. Review labels and warnings independently, and treat missing or vague information as unresolved rather than assuming it is absent."
+    }
+  ]
+};
