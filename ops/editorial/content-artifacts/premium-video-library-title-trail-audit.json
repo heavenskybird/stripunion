@@ -1,0 +1,125 @@
+{
+  "backlogId": "premium-video-library-title-trail-audit",
+  "slug": "premium-video-library-title-trail-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Libraries: Trace a Title from Search Result to Playback",
+  "description": "A step-by-step audit for confirming that a premium video listing leads to the intended title, version, and playback access before subscribing.",
+  "excerpt": "A search result can look like the title you want without proving which version it is or whether it plays under the access you plan to buy. Trace the listing through to its access details.",
+  "keyTakeaways": [
+    "Use stable title details, not a thumbnail alone, to identify the intended listing.",
+    "Follow the path from search result to title page to access terms and playback entry.",
+    "Distinguish title identity from version, collection, and membership entitlement.",
+    "Keep unresolved listing or access details visible before making a subscription decision."
+  ],
+  "sections": [
+    {
+      "heading": "Define the title you are trying to verify",
+      "paragraphs": [
+        "Before searching a premium video library, write down the details that distinguish the title you mean: its displayed name, creator or publisher if known, release or edition information, and whether you are looking for a standalone item or a collection entry. This reduces the chance of treating a similar title, reissue, preview, or compilation as the same item. A thumbnail can support recognition, but it is not enough evidence to establish title identity.",
+        "If you have only a partial title, keep the uncertainty explicit. Search results may use alternate wording, punctuation, abbreviated names, or descriptive labels. Record the exact result text and any identifying details shown on its page. Avoid assuming that a familiar image or matching phrase proves the result is the intended release, especially when the library contains related versions or grouped material."
+      ]
+    },
+    {
+      "heading": "Follow the listing beyond the search screen",
+      "paragraphs": [
+        "A search result is a route to information, not the information itself. Open the title page and compare the name, description, listed duration or chapter information where provided, and any publisher or edition details. Check whether the page identifies a full program, a preview, a trailer, or a collection. If the result opens a different page than expected, note the redirect and verify the final title rather than relying on the search snippet.",
+        "Use the same sequence for each candidate platform: search, open the listing, inspect its details, locate the access statement, and identify the playback button or route. If a result is unavailable, region-restricted, or requires a different plan, that should appear in your notes. The goal is a traceable chain from the item you searched for to the item the service says you can play."
+      ],
+      "bullets": [
+        "Record the exact title-page name rather than only the search snippet.",
+        "Check whether the listing is a full item, preview, trailer, or collection.",
+        "Note any redirects, access prompts, or title-page differences."
+      ]
+    },
+    {
+      "heading": "Separate title identity from version and collection details",
+      "paragraphs": [
+        "A matching title does not necessarily mean a matching version. Libraries may distinguish editions, cuts, language versions, remasters, or collection entries, but the amount of detail varies. Check the page for edition labels, version notes, included segments, and any indication that the item is grouped with other material. If the platform does not identify the version clearly, mark it as unverified instead of inferring that the first result is the one you intended.",
+        "Collections create another ambiguity: a result may refer to one title, a series page, or a bundle of related items. Determine whether selecting the result opens a playable item or a navigation page. If the access description is vague, find out whether membership covers the specific entry or whether the page points to separate access. That distinction can matter more than how many search results appear."
+      ],
+      "table": {
+        "caption": "Evidence to record when tracing a title",
+        "headers": [
+          "Step",
+          "Evidence to capture",
+          "What remains a separate question"
+        ],
+        "rows": [
+          [
+            "Search result",
+            "Displayed name and result type",
+            "Does the title page match the intended release?"
+          ],
+          [
+            "Title page",
+            "Edition, publisher, and collection details shown",
+            "Is this the exact version or a related entry?"
+          ],
+          [
+            "Access statement",
+            "Membership, purchase, or other access wording",
+            "Does the wording cover this specific title?"
+          ],
+          [
+            "Playback entry",
+            "Where the play action leads",
+            "Does playback begin for the account and plan being considered?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify the access statement for that specific item",
+      "paragraphs": [
+        "Do not infer access from a catalog page’s appearance or from the name of a plan. Find the statement that explains how the specific title is accessed, and check whether it is included, offered separately, or restricted in another way. If a membership page describes broad library access, confirm that the title page uses wording consistent with it. A platform-wide membership description may not answer whether every listing follows the same terms.",
+        "Previews and playback samples also need interpretation. Check whether the preview is a separate item, a limited sample, or a demonstration of the player. A working preview does not by itself establish that the full title is included in a membership. Keep the access question separate from the identity question: you may have found the right title but still not know whether your intended plan covers it."
+      ]
+    },
+    {
+      "heading": "Check playback information without overreading claims",
+      "paragraphs": [
+        "Playback labels can describe a maximum, an available option, or a setting that depends on your device and connection. If quality matters, look for what the service says about playback options and how to select them. Do not treat a resolution badge or format label as proof that the same experience will be available on every screen. The title’s access and the player’s behavior are different parts of the trace.",
+        "Where possible, test navigation with a permitted preview or account-free sample before committing. Observe whether the play control leads directly to playback or to another sign-in, purchase, or app step. This reveals friction in the access path without requiring an unsupported claim about quality. If a test is not available, note that you have not verified playback and decide whether that uncertainty is acceptable."
+      ]
+    },
+    {
+      "heading": "Keep a compact title-verification record",
+      "paragraphs": [
+        "A short record prevents repeated searches from blurring similar entries together. Save the search phrase, title-page wording, version or collection notes, access statement, and the date you checked them. Use a status such as confirmed, uncertain, or unavailable for each field. If the title disappears or its page changes later, you will know what you originally verified and which detail needs rechecking.",
+        "This method is useful when comparing several libraries, but it is not a substitute for current terms. Catalogs and access rules can change, so revisit the title page and membership information before purchase. If the service cannot establish title identity or entitlement clearly, do not fill the gap with a guess based on a thumbnail, search rank, or general marketing language. A transparent uncertainty is a better basis for a decision than a false confirmation."
+      ],
+      "bullets": [
+        "Keep one record per title rather than combining similar listings.",
+        "Use a date and a clear confidence label for each important detail.",
+        "Recheck the title page and access wording before committing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a title appearing in search mean it is included in a subscription?",
+      "answer": "No. Search visibility and membership entitlement are separate. Check the title page and its specific access wording, then compare that with the current plan terms."
+    },
+    {
+      "question": "Is a preview enough to confirm the full title is available?",
+      "answer": "Not necessarily. A preview may be a limited sample or a separate listing. Verify the full item’s identity and access conditions independently."
+    },
+    {
+      "question": "What if two listings have nearly identical names?",
+      "answer": "Compare the detail pages for edition, publisher, collection, and other identifying information. If the platform does not distinguish them, record the version as uncertain rather than selecting by thumbnail alone."
+    },
+    {
+      "question": "When should I repeat a title check?",
+      "answer": "Recheck before committing if time has passed, the plan has changed, or the listing now redirects or uses different access wording. Catalog and entitlement information can change."
+    }
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

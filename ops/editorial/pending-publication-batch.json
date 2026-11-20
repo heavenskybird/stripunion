@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T21:23:43.572Z",
+  "generatedAt": "2026-11-20T22:42:56.684Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-chapter-navigation-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-invoice-identity-disclosure-review.json",
-    "ops/editorial/content-artifacts/free-video-subtitle-provenance-check.json",
-    "ops/editorial/content-artifacts/adult-games-third-party-key-seller-check.json",
-    "ops/editorial/content-artifacts/adult-shop-stock-alert-privacy-check.json"
+    "ops/editorial/content-artifacts/adult-anime-game-activity-visibility-planner.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-ownership-cost-map.json",
+    "ops/editorial/content-artifacts/live-cam-platform-listing-evidence-workbook.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-browse-interface-fit.json",
+    "ops/editorial/content-artifacts/premium-video-library-title-trail-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-chapter-navigation-audit.js",
-    "src/data/guides/adult-platform-invoice-identity-disclosure-review.js",
-    "src/data/guides/free-video-subtitle-provenance-check.js",
-    "src/data/guides/adult-games-third-party-key-seller-check.js",
-    "src/data/guides/adult-shop-stock-alert-privacy-check.js"
+    "src/data/guides/adult-anime-game-activity-visibility-planner.js",
+    "src/data/guides/vr-adult-platform-ownership-cost-map.js",
+    "src/data/guides/live-cam-platform-listing-evidence-workbook.js",
+    "src/data/guides/adult-dating-platform-browse-interface-fit.js",
+    "src/data/guides/premium-video-library-title-trail-audit.js"
   ],
   "categories": [
-    "premium-videos",
-    "privacy-safety-payment",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "hentai-anime",
+    "vr-ar",
+    "live-cams",
+    "dating-hookups",
+    "premium-videos"
   ],
   "backlogIds": [
-    "premium-video-chapter-navigation-audit",
-    "adult-platform-invoice-identity-disclosure-review",
-    "free-video-subtitle-provenance-check",
-    "adult-games-third-party-key-seller-check",
-    "adult-shop-stock-alert-privacy-check"
+    "adult-anime-game-activity-visibility-planner",
+    "vr-adult-platform-ownership-cost-map",
+    "live-cam-platform-listing-evidence-workbook",
+    "adult-dating-platform-browse-interface-fit",
+    "premium-video-library-title-trail-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44819602690",
-  "phase": "closed"
+  "r1CycleId": "44830894393"
 }
