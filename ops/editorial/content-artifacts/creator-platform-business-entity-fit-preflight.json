@@ -1,0 +1,139 @@
+{
+  "backlogId": "creator-platform-business-entity-fit-preflight",
+  "slug": "creator-platform-business-entity-fit-preflight",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Business-Entity Fit Before Opening an Account",
+  "description": "Before choosing a creator platform, map account ownership, payee identity, team access and business records to your operating structure.",
+  "excerpt": "A creator account can affect more than publishing: it may connect the public-facing brand to account ownership, payment setup and business records. Use this preflight to check whether a platform’s documented account and payee rules fit the way you operate.",
+  "keyTakeaways": [
+    "Distinguish the public creator name from the legal person or entity that will own the account and receive payments.",
+    "Check whether platform rules allow the account structure you plan to use; do not assume a brand name can be the account holder or payee.",
+    "Map who can publish, change account settings and manage payment details before inviting collaborators.",
+    "Keep copies of the applicable terms and onboarding instructions so you can explain the basis for your decision later.",
+    "Treat unresolved account ownership, identity or payee requirements as a reason to ask support before onboarding, not as a detail to improvise."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the account you intend to operate",
+      "paragraphs": [
+        "A solo creator, a registered business and a team publishing under a shared brand may have different needs, even if they use the same kind of fan-subscription service. The important first question is not whether a platform uses the word “creator” or “studio.” It is which person or entity its agreement recognizes as the account holder, who may control the account and what information the platform requires during setup.",
+        "Write down your intended arrangement before comparing services: who will own the account, who will appear publicly, who will create or publish material, and who will receive platform payments. These roles may belong to one person or several. Listing them separately exposes mismatches early—for example, a brand may be managed by a team while the platform’s account agreement is accepted by an individual."
+      ],
+      "bullets": [
+        "Account owner: the person or entity that accepts the platform agreement.",
+        "Public identity: the name fans see on the profile and communications.",
+        "Operators: people permitted to prepare, review or publish material.",
+        "Payee: the person or entity the platform’s payment process recognizes.",
+        "Records contact: the person responsible for retaining statements and notices."
+      ]
+    },
+    {
+      "heading": "Read the rules for account ownership and transfer",
+      "paragraphs": [
+        "Look for the platform’s actual rules about account ownership, transfers, changes of control and using a business name. Do not infer that an account can be transferred from an individual to a company—or between collaborators—because a settings page has an edit button. Account access and legal ownership are different questions, and a practical login arrangement does not establish that a transfer is allowed.",
+        "Record the relevant source and date when you review it: agreement section, help article, onboarding screen or written support response. If official materials appear inconsistent, pause and request clarification through a verified support channel. A clear written answer is more useful than a verbal assumption, particularly if your planned structure depends on a transfer or on a particular party retaining control."
+      ],
+      "table": {
+        "caption": "A working map for testing business-entity fit",
+        "headers": [
+          "Question",
+          "What to verify",
+          "Decision signal"
+        ],
+        "rows": [
+          [
+            "Who accepts the agreement?",
+            "Whether an individual, company or other entity can be the contracting account holder.",
+            "The permitted holder matches the planned operator, or the rules are clarified before signup."
+          ],
+          [
+            "Who receives payments?",
+            "Whether payee details must match the account holder and what documents are requested.",
+            "The payee arrangement is understood and can be supported with accurate records."
+          ],
+          [
+            "Who can access the account?",
+            "Whether team access is available and what actions each role can perform.",
+            "Access can be limited to the duties each person needs."
+          ],
+          [
+            "Can control change later?",
+            "Whether ownership or account transfers are permitted and how to request them.",
+            "A future change has a documented route—or the account is not built on an assumed transfer."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate public branding from account and payment identity",
+      "paragraphs": [
+        "A public display name can be different from a legal account or payment identity, but the exact options depend on the service and the relevant onboarding process. Do not enter inaccurate details to make the public brand appear separate. Instead, identify which fields are public, which are visible only to the platform or payment provider, and which may appear in statements, tax records or customer support correspondence.",
+        "Check the full path: profile setup, account verification, payment onboarding, receipts or statements, and any public-facing profile preview. Save screenshots or notes only where appropriate and store them securely. If the platform cannot explain which identity is shown in each context, treat that uncertainty as a decision factor rather than assuming that a public alias controls every record."
+      ],
+      "bullets": [
+        "Mark each requested identity field as public, platform-only, payment-related or unclear.",
+        "Check whether the business name can appear publicly without changing the legal account holder.",
+        "Confirm whether payment and tax documents use the same name as the public profile.",
+        "Ask how to correct a legitimate change in business or payee details."
+      ]
+    },
+    {
+      "heading": "Plan team roles without sharing unnecessary control",
+      "paragraphs": [
+        "The plan should also address continuity. If the primary account holder is unavailable, decide who can communicate with the platform, where essential account records are stored and what actions the backup person is authorized to take. Avoid collecting or retaining more personal information about team members than the work requires. Documenting the boundary is useful even for a small operation."
+      ]
+    },
+    {
+      "heading": "Check payment and recordkeeping fit before launch",
+      "paragraphs": [
+        "Platform payment onboarding may ask for information that differs from public profile details. Review what the platform requires, who submits it and how the payee will reconcile statements. The purpose is operational readiness, not a promise about tax treatment or legal compliance: requirements vary by jurisdiction and account arrangement, so consult an appropriate professional when you need advice about your circumstances.",
+        "Decide where agreements, payment statements, notices and support correspondence will be retained. Assign a responsible person and use a controlled storage location rather than leaving records scattered across personal inboxes. If more than one person needs access, grant it according to their role and keep a record of who has access. Do not place fan data in a general finance folder just because it is convenient."
+      ],
+      "bullets": [
+        "Confirm who can download and retain account statements.",
+        "Choose a secure location for agreements, onboarding evidence and account notices.",
+        "Set a review date for terms that affect ownership, payment setup or team access.",
+        "Keep creator-business records separate from unrelated personal records where practical."
+      ]
+    },
+    {
+      "heading": "Use a go, pause or no-go decision",
+      "paragraphs": [
+        "A useful comparison ends with a decision, not a pile of unchecked terms. Mark each requirement as confirmed, unresolved or incompatible. Confirmed means you found a clear rule or verified answer; unresolved means the evidence is missing or contradictory; incompatible means a stated rule conflicts with the structure you need. This avoids treating a platform’s general marketing language as proof that a specific business arrangement is allowed.",
+        "Proceed only when the core account holder, public identity, operator permissions and payee arrangement are understood. Pause if a material rule is unclear and seek a direct answer. Choose another model if the account structure fundamentally conflicts with your needs. Revisit the map when the business changes: adding a partner, forming an entity, changing payees or transferring operations may alter the original fit."
+      ],
+      "bullets": [
+        "Go: account ownership and payment responsibilities are documented and workable.",
+        "Pause: a material answer is missing, unclear or inconsistent across official sources.",
+        "No-go: a stated account or transfer rule conflicts with the structure you require."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator use a public brand name while a business operates the account?",
+      "answer": "Possibly, but do not assume that the public name determines who owns the account. Check the platform’s rules for the contracting account holder, public display name and payment identity separately. Use accurate onboarding information and ask the platform to clarify any arrangement that depends on a distinction between the brand and the legal account holder."
+    },
+    {
+      "question": "Should a team share one creator login?",
+      "answer": "Do not assume shared access is permitted or appropriate. Check whether the platform provides individual roles and what each role can change. If access is shared, establish clear authorization, secure credential handling and a prompt removal process; where possible, prefer role-based access that can be revoked person by person."
+    },
+    {
+      "question": "What should a creator do if the platform’s business-account rules are unclear?",
+      "answer": "Save the relevant official terms or help materials, identify the exact question, and ask support through a verified channel before submitting information or accepting an arrangement. Keep the answer with your decision records. If the response does not resolve a material ownership or payee issue, pause onboarding or seek qualified professional advice."
+    },
+    {
+      "question": "Does this checklist determine which business structure a creator should use?",
+      "answer": "No. It helps compare platform requirements with an operating plan; it is not legal, tax or accounting advice and does not recommend a particular business structure. For decisions about formation, liability, tax reporting or contracts, consult a qualified professional in the relevant jurisdiction."
+    }
+  ],
+  "publishedAt": "2026-11-20",
+  "updatedAt": "2026-11-20",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

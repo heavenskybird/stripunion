@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T10:32:54.060Z",
+  "generatedAt": "2026-11-20T11:35:42.266Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/hentai-manga-reading-direction-spread-display-fit.json",
-    "ops/editorial/content-artifacts/free-video-browser-profile-isolation-workflow.json",
-    "ops/editorial/content-artifacts/adult-games-gameplay-style-shortlist-workflow.json",
-    "ops/editorial/content-artifacts/adult-shop-variant-selection-cart-verification.json",
-    "ops/editorial/content-artifacts/live-cam-session-cost-comparison-units-and-duration.json"
+    "ops/editorial/content-artifacts/creator-platform-business-entity-fit-preflight.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-conversation-continuity-planner.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-campaign-claims-evidence-workflow.json",
+    "ops/editorial/content-artifacts/adult-platform-billing-alert-household-boundary-planner.json",
+    "ops/editorial/content-artifacts/premium-video-membership-title-access-proof-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/hentai-manga-reading-direction-spread-display-fit.js",
-    "src/data/guides/free-video-browser-profile-isolation-workflow.js",
-    "src/data/guides/adult-games-gameplay-style-shortlist-workflow.js",
-    "src/data/guides/adult-shop-variant-selection-cart-verification.js",
-    "src/data/guides/live-cam-session-cost-comparison-units-and-duration.js"
+    "src/data/guides/creator-platform-business-entity-fit-preflight.js",
+    "src/data/guides/adult-dating-platform-conversation-continuity-planner.js",
+    "src/data/guides/webmaster-affiliate-campaign-claims-evidence-workflow.js",
+    "src/data/guides/adult-platform-billing-alert-household-boundary-planner.js",
+    "src/data/guides/premium-video-membership-title-access-proof-check.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "live-cams"
+    "creator-platforms",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "premium-videos"
   ],
   "backlogIds": [
-    "hentai-manga-reading-direction-spread-display-fit",
-    "free-video-browser-profile-isolation-workflow",
-    "adult-games-gameplay-style-shortlist-workflow",
-    "adult-shop-variant-selection-cart-verification",
-    "live-cam-session-cost-comparison-units-and-duration"
+    "creator-platform-business-entity-fit-preflight",
+    "adult-dating-platform-conversation-continuity-planner",
+    "webmaster-affiliate-campaign-claims-evidence-workflow",
+    "adult-platform-billing-alert-household-boundary-planner",
+    "premium-video-membership-title-access-proof-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44719804319",
-  "phase": "closed"
+  "r1CycleId": "44728278486"
 }
