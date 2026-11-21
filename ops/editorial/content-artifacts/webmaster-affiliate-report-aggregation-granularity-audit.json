@@ -1,0 +1,128 @@
+{
+  "backlogId": "webmaster-affiliate-report-aggregation-granularity-audit",
+  "slug": "webmaster-affiliate-report-aggregation-granularity-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Reports: Check Whether Aggregated Data Is Detailed Enough for Your Site",
+  "description": "Assess whether an affiliate dashboard’s reporting detail supports your webmaster decisions without assuming that every program exposes the same data.",
+  "excerpt": "A dashboard can report totals while hiding the distinctions you need to manage placements. This guide helps webmasters identify whether reports are aggregated by date, campaign, property, or another documented dimension.",
+  "keyTakeaways": [
+    "Define the operational decisions your reporting must support before comparing dashboards.",
+    "Check which report dimensions are available and which values are combined into summary totals.",
+    "Separate documented data fields from assumptions about what a dashboard might track behind the scenes.",
+    "Use a small set of questions to assess whether reports support placement review without seeking unnecessary visitor-level data.",
+    "Treat missing report detail as a limitation to plan around, not as proof that performance was absent."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the decision, not the dashboard",
+      "paragraphs": [
+        "Affiliate reporting is useful only when it helps answer a real operating question. A webmaster may need to decide whether to keep a placement, compare a content section, investigate a change, or prepare a monthly internal summary. If you begin with a list of dashboard fields instead, it is easy to collect columns that do not affect any decision or to discover too late that an important distinction is missing.",
+        "Write down the questions you actually need answered. For example, you may want to know whether reports separate one approved campaign from another, whether date ranges can be applied consistently, or whether a property can be distinguished from other properties in the same account. Keep these needs proportionate. Do not assume that more granular data is always preferable: additional detail may create privacy, access, or recordkeeping responsibilities without improving the decision."
+      ],
+      "bullets": [
+        "List the decisions the report should support, such as placement review or campaign troubleshooting.",
+        "Identify the minimum grouping needed to make each decision.",
+        "Avoid requesting personally identifying or visitor-level data when aggregate reporting is sufficient."
+      ]
+    },
+    {
+      "heading": "Inventory the dimensions the program documents",
+      "paragraphs": [
+        "Review the dashboard, reporting documentation, and applicable program terms to see which dimensions are explicitly available. These may include a reporting period, campaign label, referral identifier, property, or conversion status, but availability varies. Do not infer that a dimension exists because a tracking link accepts a parameter, or because another program offers a similar field. Record what you can verify in the program’s materials or account interface.",
+        "For every useful dimension, check what it means and whether it can be combined with other dimensions in a report. A campaign label may be a value supplied by the webmaster rather than a verified description of where a visitor came from. A date grouping may refer to a click date or a conversion date. If the documentation does not define a field, note the ambiguity instead of building a decision around a guessed definition."
+      ],
+      "table": {
+        "caption": "A reporting-detail worksheet for comparing documented fields",
+        "headers": [
+          "Dimension to check",
+          "Question to answer",
+          "Decision it may support"
+        ],
+        "rows": [
+          [
+            "Time period",
+            "What event determines the report date?",
+            "Compare periods without mixing date meanings"
+          ],
+          [
+            "Campaign or referral label",
+            "Can the label be filtered or grouped in reports?",
+            "Review separate approved placements"
+          ],
+          [
+            "Property or site",
+            "Can activity be separated by approved property?",
+            "Reconcile a multi-site account"
+          ],
+          [
+            "Status",
+            "Are pending and finalized records distinguishable?",
+            "Avoid treating preliminary totals as final"
+          ],
+          [
+            "Export",
+            "Can the required breakdown be retained for review?",
+            "Support repeatable internal recordkeeping"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find where aggregation removes useful distinctions",
+      "paragraphs": [
+        "A report may display a single total that combines multiple placements, labels, or dates. That total may still be useful for a high-level summary, but it cannot answer a question about which component changed. Check whether the interface offers filters, separate reports, or a documented export that preserves the necessary grouping. If it does not, write down the limitation before making a comparison that depends on the missing distinction.",
+        "Consider whether the available granularity is stable over time. If campaign labels must be entered manually, inconsistent naming can make one placement appear as several entries or combine separate tests under a reused label. Establish a controlled naming convention on your side and document how it maps to actual site placements. This is an operational safeguard, not a claim that the program’s dashboard validates every label or attributes each event independently."
+      ]
+    },
+    {
+      "heading": "Test the report with questions you can answer",
+      "paragraphs": [
+        "Before relying on a reporting view, choose a limited set of questions and see whether the available interface can answer them in a repeatable way. Can you select the same period twice? Can you isolate the campaign or site you intend to review? Can you tell whether the displayed statuses have changed since an earlier export? Record the steps and any unresolved definitions. This checks usability without making assumptions about the program’s underlying tracking.",
+        "If a legitimate referral test is appropriate under the program’s rules, keep the test within the permitted traffic and measurement terms. Do not create artificial conversions, generate misleading activity, or use a test to claim that a report proves more than it does. A controlled report review can show whether fields are present and understandable; it cannot by itself establish a program’s overall tracking accuracy or explain every difference between a webmaster’s analytics and the affiliate dashboard."
+      ],
+      "bullets": [
+        "Repeat the same date-range selection and note whether the report is presented consistently.",
+        "Check whether filters change totals as the interface says they should.",
+        "Record field definitions, export format, and any limits disclosed in the documentation.",
+        "Keep test activity compliant with the program’s written rules."
+      ]
+    },
+    {
+      "heading": "Match report detail to your internal workflow",
+      "paragraphs": [
+        "Reporting detail has to fit the records you maintain. Decide how you will name placements, who will review reports, and where dated exports or summaries will be stored. If the dashboard only presents a combined total, your internal records may need to document what was active during each period. That context cannot recreate data the program does not provide, but it can prevent you from misinterpreting a total after a site redesign or campaign change.",
+        "Check how historical reports are accessed and whether the program documents export or retention limits. Do not assume that a dashboard will retain every breakdown indefinitely. If you need records for accounting or routine reconciliation, establish a suitable process and follow the program’s terms and your own data-handling requirements. Retain only what supports a real business purpose, and restrict access to the people who need those records."
+      ]
+    },
+    {
+      "heading": "Use missing granularity as a program-fit factor",
+      "paragraphs": [
+        "A program’s reporting may be perfectly adequate for a simple placement and insufficient for a complex portfolio. Compare it against the minimum decision requirements you wrote down. Mark each item as documented and available, available but undefined, or unavailable. This simple status system is more useful than a vague judgment that a dashboard is detailed or limited, and it avoids inventing capabilities not supported by first-party information.",
+        "If an important distinction is missing, consider whether you can operate responsibly without it. You might simplify the campaign structure, keep separate internal placement records, ask the program for a written explanation, or decide the uncertainty is not acceptable for the planned use. Do not promise external readers or stakeholders that a report proves a specific placement generated a result unless the available evidence supports that conclusion. Reporting should inform decisions, not create unsupported certainty."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a dashboard with more fields always better?",
+      "answer": "No. More fields can add complexity or create data-handling responsibilities without helping a webmaster make a better decision. Start with the decisions you need to support, then check whether the available fields answer them."
+    },
+    {
+      "question": "Can a tracking parameter guarantee that a report will show a separate campaign?",
+      "answer": "No. A parameter in a referral link does not prove that the dashboard supports it as a report dimension. Confirm the field’s use in the program’s documentation or account interface."
+    },
+    {
+      "question": "What should I do when a report combines placements?",
+      "answer": "Record the aggregation limit, check for documented filters or exports, and decide whether your internal placement records can supply enough context. If the missing distinction is essential, ask for clarification or reconsider the program’s fit."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
