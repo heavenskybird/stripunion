@@ -1,0 +1,140 @@
+{
+  "backlogId": "creator-platform-fan-access-promise-validation",
+  "slug": "creator-platform-fan-access-promise-validation",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Test Fan Access Promises Before Publishing a Paid Offer",
+  "description": "A practical launch check for verifying that a creator platform’s visible offer, access rules, and delivered benefits match what prospective and paying fans can actually see.",
+  "excerpt": "A clear offer is only useful if the access path works as described. Validate the public-facing promise and the delivered experience before announcing a paid benefit.",
+  "keyTakeaways": [
+    "Translate each offer promise into a testable access condition, such as what a logged-out visitor can see and what an eligible member can open.",
+    "Use a test account or platform preview where available, and avoid testing with a real fan’s credentials or payment details.",
+    "Check the full path from public offer description through enrollment, access, and any later change in eligibility.",
+    "Keep a record of screenshots, test conditions, and the date, since platform interfaces and settings can change.",
+    "Correct unclear or mismatched claims before promotion rather than relying on support messages to explain them later."
+  ],
+  "sections": [
+    {
+      "heading": "Turn an offer into a set of observable claims",
+      "paragraphs": [
+        "An offer can combine several distinct promises: a particular post or archive is included, access begins at a defined point, a benefit is delivered on a schedule, or a member can use a feature while eligible. Before publishing, rewrite each promise as something you can verify from the fan’s point of view. “Members get the archive” is less testable than identifying which items are included and what account state is required to open them.",
+        "This exercise catches ambiguity early. A creator may intend a benefit to cover only future posts while a reader reasonably interprets it as including older material. A description may say “monthly” without making clear whether that means a new release, a recurring interaction, or simply continued access. Do not assume that internal setup matches a fan’s interpretation; test both the language and the access settings."
+      ],
+      "bullets": [
+        "List each benefit and the content, timing, or feature it refers to.",
+        "Define the account state required to access each item.",
+        "Flag words such as “all,” “ongoing,” or “included” if their scope is not precise."
+      ]
+    },
+    {
+      "heading": "Check what a prospective fan sees",
+      "paragraphs": [
+        "Start from a logged-out or public view, using a preview or test environment if the platform provides one. Confirm that the offer description, visible price or terms presented by the platform, and any access explanation are understandable together. Check whether a visitor can distinguish a preview from a full benefit and whether important limitations appear before a decision to join.",
+        "The public view should not expose material meant only for members. Review thumbnails, captions, filenames, excerpts, and automatically generated previews as well as the text of the offer. If the platform lets you control public previews or post visibility, verify the actual result rather than relying on the setting label alone. A screenshot of the public view can help you compare the intended presentation with the live one."
+      ],
+      "bullets": [
+        "Review the offer on a logged-out view or approved preview mode.",
+        "Check titles, preview images, excerpts, and access labels together.",
+        "Confirm that public-facing information does not contradict the benefit description."
+      ]
+    },
+    {
+      "heading": "Test the member access path without involving a fan",
+      "paragraphs": [
+        "Use a platform-approved test account, preview feature, or another non-customer method where available. Do not ask a fan to share a password or payment information so you can reproduce an access problem. If no safe test route exists, keep the test to non-sensitive views and ask the platform how creators can verify access without using another person’s account.",
+        "Test each meaningful access state separately: a visitor who has not joined, an eligible member, and—if relevant to the offer—a person whose eligibility has ended. Check whether the right content appears and whether unrelated content remains restricted. Be careful to record the test’s assumptions, such as the account tier and the date, because a result from one setup may not apply to every tier or account state."
+      ],
+      "bullets": [
+        "Use only a permitted, non-customer test method.",
+        "Check the intended access states separately rather than inferring one from another.",
+        "Record the tier, setting, date, and result for each test."
+      ]
+    },
+    {
+      "heading": "Verify delivery, timing, and access changes",
+      "paragraphs": [
+        "A benefit may be described accurately but fail operationally if the creator’s publishing routine does not deliver it when expected. For scheduled or recurring benefits, verify the intended cadence, time zone where relevant, and the point at which eligible members can see the item. Make sure the creator workflow includes a check that catches a post accidentally marked public, restricted, or scheduled for the wrong audience.",
+        "Also test what happens when an offer changes. If a member’s access ends, a tier is revised, or a benefit is removed, the creator should understand what the platform says will happen and communicate the change clearly. Do not imply that access will continue indefinitely unless the terms and platform settings support that expectation. Keep the explanation aligned with the actual access model."
+      ],
+      "bullets": [
+        "Check publishing and access settings before announcing a scheduled benefit.",
+        "Review how eligibility changes affect the promised content or feature.",
+        "Explain changes in plain language and avoid implying permanent access without evidence."
+      ]
+    },
+    {
+      "heading": "Fix mismatches and preserve a launch record",
+      "paragraphs": [
+        "If a test reveals a mismatch, pause promotion until you know whether the issue is wording, configuration, or platform behavior. Correct the relevant offer description or access setting, then repeat the test from the same perspective. If a platform support question is needed, provide the narrow facts of the mismatch and avoid sharing fan data that is not necessary to diagnose it.",
+        "Keep a lightweight launch record: the final public offer, relevant access settings, test date, test method, screenshots or notes, and any unresolved limitations. This record supports later maintenance when a platform changes its interface or the creator revises the benefit. It is not proof that every future access event will work; it is a traceable record of what was checked at launch."
+      ],
+      "bullets": [
+        "Pause promotion if the public promise and delivered access disagree.",
+        "Retest after correcting wording or configuration.",
+        "Keep dated evidence and note limitations that remain unresolved."
+      ]
+    },
+    {
+      "heading": "A fan-access validation checklist",
+      "paragraphs": [
+        "Use a short checklist for each distinct offer rather than relying on memory. The goal is not to test every possible edge case, but to verify the claims that would most affect a fan’s decision and experience. Keep the checklist proportionate to the number and complexity of benefits.",
+        "When a feature cannot be tested independently, mark it as unverified instead of treating an assumption as a confirmed capability. This makes the boundary visible to the creator and helps keep public claims accurate."
+      ],
+      "table": {
+        "caption": "Offer validation points before a creator-platform launch",
+        "headers": [
+          "Check",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Public description",
+            "Dated view of the logged-out offer and benefit wording"
+          ],
+          [
+            "Preview boundary",
+            "What a visitor can see versus what requires eligibility"
+          ],
+          [
+            "Member access",
+            "Test result for the intended account state and benefit"
+          ],
+          [
+            "Delivery timing",
+            "Publishing schedule and the setting used for access"
+          ],
+          [
+            "Exit or change",
+            "Known behavior when eligibility or offer terms change"
+          ],
+          [
+            "Open question",
+            "Unverified behavior and any platform clarification requested"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I test a paid benefit using a fan’s account?",
+      "answer": "Do not ask a fan to share login or payment details for testing. Use a platform-approved preview or test method where available. If one is not available, ask the platform how to verify the access path safely."
+    },
+    {
+      "question": "What should I do if the offer text and access settings do not match?",
+      "answer": "Pause promotion, determine whether the mismatch is in the wording or configuration, correct it, and test again. Do not depend on a later support reply to clarify an offer that fans are already seeing."
+    },
+    {
+      "question": "How often should I repeat the check?",
+      "answer": "Repeat it when a benefit, tier, access setting, or public description changes, and after material platform changes that could affect the fan view. Keep a dated record so you know what was verified and when."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

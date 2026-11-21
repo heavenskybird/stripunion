@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-20T22:42:56.684Z",
+  "generatedAt": "2026-11-21T00:59:14.941Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-game-activity-visibility-planner.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-ownership-cost-map.json",
-    "ops/editorial/content-artifacts/live-cam-platform-listing-evidence-workbook.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-browse-interface-fit.json",
-    "ops/editorial/content-artifacts/premium-video-library-title-trail-audit.json"
+    "ops/editorial/content-artifacts/adult-platform-travel-session-privacy-plan.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-policy-exception-evidence-workflow.json",
+    "ops/editorial/content-artifacts/creator-platform-fan-access-promise-validation.json",
+    "ops/editorial/content-artifacts/adult-anime-game-demo-scope-evaluation.json",
+    "ops/editorial/content-artifacts/free-video-accessibility-caption-reliability-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-game-activity-visibility-planner.js",
-    "src/data/guides/vr-adult-platform-ownership-cost-map.js",
-    "src/data/guides/live-cam-platform-listing-evidence-workbook.js",
-    "src/data/guides/adult-dating-platform-browse-interface-fit.js",
-    "src/data/guides/premium-video-library-title-trail-audit.js"
+    "src/data/guides/adult-platform-travel-session-privacy-plan.js",
+    "src/data/guides/webmaster-affiliate-policy-exception-evidence-workflow.js",
+    "src/data/guides/creator-platform-fan-access-promise-validation.js",
+    "src/data/guides/adult-anime-game-demo-scope-evaluation.js",
+    "src/data/guides/free-video-accessibility-caption-reliability-audit.js"
   ],
   "categories": [
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "creator-platforms",
     "hentai-anime",
-    "vr-ar",
-    "live-cams",
-    "dating-hookups",
-    "premium-videos"
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-anime-game-activity-visibility-planner",
-    "vr-adult-platform-ownership-cost-map",
-    "live-cam-platform-listing-evidence-workbook",
-    "adult-dating-platform-browse-interface-fit",
-    "premium-video-library-title-trail-audit"
+    "adult-platform-travel-session-privacy-plan",
+    "webmaster-affiliate-policy-exception-evidence-workflow",
+    "creator-platform-fan-access-promise-validation",
+    "adult-anime-game-demo-scope-evaluation",
+    "free-video-accessibility-caption-reliability-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44830894393",
-  "phase": "closed"
+  "r1CycleId": "44847159613"
 }
