@@ -1,0 +1,129 @@
+export default {
+  "slug": "adult-shop-product-question-prepurchase-planner",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Ask Product Questions Before Ordering Without Sharing More Than Needed",
+  "description": "A practical guide to asking an adult retailer for product details before checkout, choosing a useful contact route, and keeping a clear record without oversharing.",
+  "excerpt": "A retailer’s answer can help resolve an important product detail before purchase. Prepare a focused question, choose a suitable contact channel, and keep only the information needed to make your decision.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Decide exactly which missing product fact could change your purchase before contacting support.",
+    "Use public listing information and help pages first, then ask a concise question about what remains unclear.",
+    "Do not include payment details, account passwords, intimate personal information, or unrelated background in a product inquiry.",
+    "Check whether the answer is specific to the item and variant you intend to order, rather than treating a general reply as a guarantee.",
+    "Keep a minimal record of the question, response, and relevant listing details so you can compare options consistently."
+  ],
+  "sections": [
+    {
+      "heading": "Turn uncertainty into a specific question",
+      "paragraphs": [
+        "Before contacting an adult shop, write down the decision you are trying to make. You may need to confirm whether a listed accessory is included, whether a product variant has a particular feature, or where to find the manufacturer’s care instructions. A narrow question is more likely to produce an answer you can use than a broad request for a recommendation.",
+        "Separate facts that are already available from facts that are missing. Review the product page, variant selector, included-items list, specification section, and policy pages. Then state the unresolved point in ordinary, neutral language. Avoid sending a long account of your personal circumstances when a product specification or policy clarification is enough."
+      ],
+      "bullets": [
+        "Record the item name or product code and the exact variant, if available.",
+        "Ask one main question at a time; add a second only if it depends on the first answer.",
+        "If you need a document, ask where it can be accessed and whether it applies to the listed version."
+      ]
+    },
+    {
+      "heading": "Choose a contact route that fits the question",
+      "paragraphs": [
+        "Retailers may provide a help centre, email form, live chat, telephone contact, or product-page question feature. The best route is not necessarily the fastest-looking one: consider whether it allows a clear written answer, whether you need to attach a screenshot, and whether you are comfortable leaving a contact record. Review the retailer’s own privacy notice and support information before submitting details.",
+        "A public product question can be useful when the answer would help other shoppers, but it may appear alongside the listing or under a profile name. A private support route is more appropriate when the question requires order-specific information. If no contact route is clear, do not assume that a social-media account or an unofficial message address is a secure substitute; verify contact details through the retailer’s own site."
+      ],
+      "bullets": [
+        "Use a written channel when you want to preserve the exact wording of an answer.",
+        "Before posting publicly, check what name or account information will be displayed.",
+        "For a question before purchase, do not supply an order number unless you already have an order and the issue requires it."
+      ]
+    },
+    {
+      "heading": "Share the minimum information needed",
+      "paragraphs": [
+        "A product question usually needs the product identifier, the selected variant, and a brief description of what is unclear. It normally does not require a full name, payment-card number, password, identity document, or detailed personal history. If a support form asks for information that seems unrelated to a pre-purchase question, check whether the field is optional or whether another route is available.",
+        "If a screenshot would help, crop it to the relevant listing detail. Remove browser tabs, account names, saved addresses, notification banners, and other unrelated information. Do not attach a payment statement or identity document to answer an ordinary product-specification question. If support asks for sensitive information, pause and verify why it is needed through a trusted contact route."
+      ],
+      "bullets": [
+        "Use a separate email address only if it is one you can reliably access for follow-up.",
+        "Do not share login credentials or one-time sign-in codes with support.",
+        "Keep screenshots limited to the question; check the image before sending."
+      ]
+    },
+    {
+      "heading": "Judge the reply against the decision you need to make",
+      "paragraphs": [
+        "A useful answer should address the specific item and version you asked about. If the response repeats promotional copy, links to a general page, or speaks only about products in a broad category, it may not resolve your question. Ask a short follow-up that identifies the gap: for example, whether the answer applies to the exact variant shown on the listing.",
+        "Distinguish a retailer’s statement from a manufacturer document or product label. Support may be able to explain what the listing says, but an answer is not automatically a warranty, safety assessment, or promise about every future batch. When information is material to your purchase and remains uncertain, compare another retailer’s documentation or choose not to proceed until the detail is clear."
+      ],
+      "bullets": [
+        "Save the date and wording of a relevant reply, along with the listing version or product code.",
+        "Mark unanswered points as unresolved rather than filling gaps with assumptions.",
+        "Treat conflicting answers as a reason to seek clarification or compare another option."
+      ]
+    },
+    {
+      "heading": "Use answers consistently when comparing shops",
+      "paragraphs": [
+        "A simple comparison record prevents polished language from outweighing useful evidence. For each retailer, note the question asked, the specificity of the response, whether the answer linked to supporting documentation, and whether the information matched the product page. A clear answer about one concrete detail can be more useful than a long generic message.",
+        "Keep the record proportionate. Store only the correspondence needed to make the decision or resolve a later issue, and avoid copying personal information into a general shopping spreadsheet. If you decide not to buy, you can remove unnecessary screenshots or drafts from devices and cloud folders according to your own retention preferences."
+      ],
+      "table": {
+        "caption": "A practical way to evaluate pre-purchase replies",
+        "headers": [
+          "What you need to know",
+          "Useful evidence",
+          "Decision signal"
+        ],
+        "rows": [
+          [
+            "Whether an item is included",
+            "Itemized listing or clear answer tied to the variant",
+            "Compare the answer with the checkout or bundle details"
+          ],
+          [
+            "Which version a specification describes",
+            "Product code, variant name, or manufacturer document",
+            "Do not assume a general answer applies to every version"
+          ],
+          [
+            "Where to find care information",
+            "Specific document location or direct reference",
+            "Check that the document matches the product"
+          ],
+          [
+            "Whether a policy covers your question",
+            "Relevant policy wording and scope",
+            "Ask for clarification if the reply is only general"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Make the purchase decision without pressure",
+      "paragraphs": [
+        "Support can clarify information, but it should not pressure you to buy before you are ready. A countdown, repeated follow-up, or insistence that you disclose unrelated personal details does not make an answer more reliable. Take time to compare the product page, policies, and written response against the criteria that matter to you.",
+        "If you cannot get a dependable answer about a detail that affects suitability, compatibility, delivery expectations, or after-sales support, treat that uncertainty as part of the decision. You can choose a better-documented listing, contact another retailer, or wait. A pre-purchase question is useful precisely because it can help you decide not to proceed as well as help you complete an order."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What information should I include when asking an adult shop about a product?",
+      "answer": "Usually the product name or code, the selected variant, and the specific missing detail are enough. Add an order number only for an existing order when the question requires it. Avoid sharing payment details, passwords, identity documents, or unrelated personal information."
+    },
+    {
+      "question": "Should I rely on a customer-support answer if it differs from the product page?",
+      "answer": "Treat the discrepancy as unresolved. Ask which information applies to the exact item and variant, and request a relevant document or listing reference. If the answer remains unclear, compare another source or choose not to order rather than assuming the more reassuring statement is correct."
+    },
+    {
+      "question": "Is a public product question private?",
+      "answer": "Not necessarily. A question and the account name associated with it may be visible to other visitors, depending on the retailer’s design. Check how public questions are displayed, and use a verified private support route if the question needs account-specific information."
+    },
+    {
+      "question": "How long should I keep a pre-purchase support reply?",
+      "answer": "Keep the minimum record that helps you make the decision or resolve a related order issue. If you do not buy and no follow-up is needed, you may not need to retain screenshots or personal drafts. Consider where saved messages and files sync before keeping them."
+    }
+  ]
+};

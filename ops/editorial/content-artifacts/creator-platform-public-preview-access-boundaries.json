@@ -1,0 +1,134 @@
+{
+  "backlogId": "creator-platform-public-preview-access-boundaries",
+  "slug": "creator-platform-public-preview-access-boundaries",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Test Public Previews Against Paid-Access Boundaries",
+  "description": "A creator-side workflow for checking what visitors can see before subscribing, preventing confusing previews, and confirming that paid content is clearly separated.",
+  "excerpt": "A preview should help prospective fans understand an offer without accidentally exposing material intended for members. Test the logged-out view, check each access boundary, and keep a record of what a visitor can actually see.",
+  "keyTakeaways": [
+    "Review the creator page as a logged-out visitor, not only from the account that publishes it.",
+    "Check images, captions, links, attached files, and post excerpts as well as the main preview text.",
+    "Make the promised access level explicit and confirm it matches the actual post or membership tier.",
+    "Test public links on a separate, authorized account or browser session without exposing private credentials.",
+    "Recheck previews after edits, tier changes, and platform interface updates."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the public preview as part of the offer",
+      "paragraphs": [
+        "A creator page can be visible in more than one state: to the creator, a logged-in fan, a prospective subscriber, and a visitor who is not signed in. These views may not display the same material. A preview that appears concise inside the creator dashboard might show a longer excerpt, image, or attachment to visitors. Testing the public-facing view is therefore a content-access check, not just a copy-editing step.",
+        "Start by writing down what the preview is intended to communicate: the type of membership, the general kind of content, any posting expectations, and where access begins. Keep the public description accurate and bounded. Avoid implying that a specific item is included if it is actually a separate offer or restricted to another tier. Clear expectations reduce confusion for visitors and make the paid boundary easier to verify."
+      ],
+      "bullets": [
+        "List each public-facing element: title, description, image, excerpt, link, and attached media.",
+        "State whether a preview is illustrative, complete, or only a description of member access.",
+        "Check that public claims about access match the current offer rather than an older plan."
+      ]
+    },
+    {
+      "heading": "Test the visitor view systematically",
+      "paragraphs": [
+        "Use the platform’s supported preview or public-page tools where available. If you use a separate browser session or test account, ensure you can distinguish it from your creator session and avoid sharing sign-in credentials. Check the page from more than one relevant state if the platform provides distinct logged-out and logged-in views. Record what is visible, not just what you intended to publish.",
+        "Inspect the entire path a visitor follows: profile page, pinned or featured posts, preview cards, links, and the point at which a membership prompt appears. Look for information that might appear through an image thumbnail, excerpt, cached page element, or attachment label even when the full post is restricted. A boundary can fail through a small page element, not only through the main post body."
+      ],
+      "bullets": [
+        "Check public pages from a clean session to avoid relying on creator permissions.",
+        "Verify every public link and preview card, including older pinned material.",
+        "Do not use a real fan’s account or private messages as a test environment without permission."
+      ]
+    },
+    {
+      "heading": "Match preview wording to the actual entitlement",
+      "paragraphs": [
+        "Access descriptions need to distinguish what is available publicly, what comes with a particular paid level, and what requires a separate purchase or action. Terms such as “included,” “member access,” or “exclusive” can be interpreted differently by visitors. Pair them with a plain explanation of the access boundary, and verify that the platform’s tier or post settings implement the same distinction.",
+        "If a benefit has conditions, make those conditions visible before purchase. For example, if access depends on the selected tier, a separate purchase, or a stated release schedule, describe that rather than relying on a visitor to infer it. Keep wording factual and avoid promising an individual response, delivery date, or ongoing availability unless you can operationally support it."
+      ],
+      "bullets": [
+        "Compare every offer statement with the current tier and post permissions.",
+        "Explain separate purchases or tier-specific access before the purchase decision.",
+        "Use concrete descriptions of what the visitor can expect, without implying a guarantee you cannot control."
+      ]
+    },
+    {
+      "heading": "Prevent accidental disclosure during publishing",
+      "paragraphs": [
+        "Previews can change when a creator edits a post, changes a tier, or moves content between public and restricted states. Before publishing, check the selected audience, attached files, thumbnails, and any automatically generated excerpt. A draft may be safer than editing a live post when the platform’s preview behavior is uncertain. Keep a small pre-publication checklist so the same checks are not left to memory.",
+        "Plan for corrections as well as prevention. If a preview exposes more than intended, remove or restrict the item using the platform’s available controls, then inspect the logged-out view again. Avoid assuming that changing the post setting removes copies, notifications, or information already seen by visitors. If a problem involves sensitive material, follow the platform’s reporting or support route and share only the information needed to explain the issue."
+      ],
+      "bullets": [
+        "Confirm audience and tier settings before publishing or changing access.",
+        "Review thumbnails and excerpts after edits, not only the post body.",
+        "If a mistake occurs, restrict the content, verify the new public view, and document the corrective action."
+      ]
+    },
+    {
+      "heading": "Keep a lightweight preview audit",
+      "paragraphs": [
+        "A preview audit can be simple: record the page or post, the date checked, the visitor state used, visible elements, and any action needed. This is useful when a creator has multiple tiers or revises offers frequently. It also helps distinguish a platform display change from an intentional content change. Avoid turning the record into an unnecessary archive of sensitive material; note access settings and observations rather than duplicating restricted files.",
+        "Repeat the audit whenever a membership benefit changes, a post is moved, a public link is updated, or the platform changes its page layout. A public preview is part of the purchase path and may be the only view a prospective fan sees before deciding. Consistency between description, preview, and actual access is more useful than promotional language that cannot be verified."
+      ],
+      "table": {
+        "caption": "Public-preview review checklist for creators",
+        "headers": [
+          "Check",
+          "Question",
+          "Pass condition"
+        ],
+        "rows": [
+          [
+            "Audience state",
+            "What can a logged-out visitor see?",
+            "Visible elements are intentional and appropriate"
+          ],
+          [
+            "Offer wording",
+            "Does the preview match the current paid offer?",
+            "No benefit is described as included if it is not"
+          ],
+          [
+            "Attachments",
+            "Can a file, thumbnail, or excerpt reveal restricted material?",
+            "Each element follows the intended access setting"
+          ],
+          [
+            "Navigation",
+            "Do links lead to the correct page or tier?",
+            "The visitor path is clear and accurate"
+          ],
+          [
+            "Recheck",
+            "Was the preview retested after a change?",
+            "The current public view matches the creator’s intent"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why should a creator check a page while logged out?",
+      "answer": "A creator account may show controls or content that a visitor cannot see, and it may hide elements that appear publicly. A logged-out check helps confirm the actual visitor experience, including excerpts, thumbnails, links, and prompts."
+    },
+    {
+      "question": "Does a restricted post setting guarantee that no information is visible?",
+      "answer": "Not necessarily. Titles, previews, thumbnails, notifications, or excerpts may have separate display behavior. Check each element in the visitor view and avoid relying on the setting label alone."
+    },
+    {
+      "question": "How often should public previews be reviewed?",
+      "answer": "Review them before launch and after changes to post access, tiers, descriptions, attachments, or public links. A periodic check is also sensible when a platform changes its interface or preview behavior."
+    },
+    {
+      "question": "What should a creator do if a preview shows more than intended?",
+      "answer": "Use the platform’s available controls to restrict or remove the material, then test the public view again. Keep a concise record of what changed. Do not assume that a setting change recalls information already viewed, copied, or delivered in a notification."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
