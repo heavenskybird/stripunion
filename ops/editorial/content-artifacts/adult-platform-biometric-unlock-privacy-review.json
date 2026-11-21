@@ -1,0 +1,119 @@
+{
+  "backlogId": "adult-platform-biometric-unlock-privacy-review",
+  "slug": "adult-platform-biometric-unlock-privacy-review",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Review Biometric Unlock on a Shared Device",
+  "description": "Decide whether fingerprint or face unlock fits your adult-platform account on a shared device by checking device ownership, fallback access, notifications, and removal steps.",
+  "excerpt": "Biometric unlock can reduce routine password entry, but it is a device-level choice. Check who controls the device, what fallback methods exist, and how to remove access cleanly.",
+  "keyTakeaways": [
+    "Biometric unlock is usually managed at the device or operating-system level; confirm what the account service actually supports before changing settings.",
+    "A shared device may allow other enrolled users or device administrators to affect access, depending on its configuration.",
+    "Check the fallback sign-in method and account recovery route before relying on biometrics.",
+    "Review lock-screen notifications, saved sessions, and account sign-out separately; biometric unlock does not automatically control those exposures.",
+    "Know how to remove the account session and, if appropriate, the biometric enrollment or device access before handing the device to someone else."
+  ],
+  "sections": [
+    {
+      "heading": "Separate account authentication from device unlocking",
+      "paragraphs": [
+        "Fingerprint and face recognition can feel like account sign-in, but there may be two different mechanisms involved. A device may unlock locally using an enrolled biometric, while an adult platform separately uses a password, passkey, or another sign-in method. Some services may offer a device-level convenience option; others may not. Do not assume that a biometric prompt means the platform receives or stores your fingerprint or face data. Check the device and service documentation to understand where the feature is managed and what the stated data boundary is.",
+        "This distinction matters on shared devices. The question is not only whether the device recognizes you; it is who can unlock the device, who can add or change enrolled users, and whether your platform session remains active after the device unlocks. Treat account access, device access, and the visibility of notifications or saved activity as separate controls. A biometric setting alone does not answer all three questions."
+      ],
+      "bullets": [
+        "Identify whether the prompt is from the device, operating system, browser, or platform.",
+        "Read the device and platform explanations instead of inferring where biometric data is processed.",
+        "Review account sign-in and device-unlock settings separately."
+      ]
+    },
+    {
+      "heading": "Assess who controls the device and enrolled users",
+      "paragraphs": [
+        "On a personal device used only by you, the main considerations may be fallback access, recovery, and what happens if the device is lost or replaced. On a household-shared device, consider whether other people can unlock it, change its settings, or add a biometric enrollment. On a work-managed or institution-managed device, an administrator may control policies or access in ways you cannot change. Check the applicable rules before signing into an adult account; a biometric convenience feature does not make a managed device private.",
+        "Do not rely on a device label such as “private” or “personal” without checking how it is actually used. A tablet kept in a shared room may be accessible to others even if it is registered to one person. If you cannot control who can unlock it or manage its enrolled identities, avoid keeping a sensitive account session signed in. Use a device and account arrangement that you are permitted to use and can secure."
+      ],
+      "table": {
+        "caption": "Questions to ask before enabling biometric unlock",
+        "headers": [
+          "Device situation",
+          "Questions to check",
+          "Safer decision point"
+        ],
+        "rows": [
+          [
+            "Personally controlled device",
+            "Who can unlock it? Can you remove access if it is lost?",
+            "Use only if fallback and recovery are understood."
+          ],
+          [
+            "Household-shared device",
+            "Can another user unlock, add enrollment, or see an active session?",
+            "Do not leave a sensitive account session open if access is shared."
+          ],
+          [
+            "Work- or school-managed device",
+            "What do device rules and administrator controls allow?",
+            "Avoid personal adult accounts if policy or privacy boundaries are unclear."
+          ],
+          [
+            "Borrowed or temporary device",
+            "Can you sign out and clear the session afterward?",
+            "Prefer not to enroll a biometric or save credentials on it."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the fallback and recovery path first",
+      "paragraphs": [
+        "Think through loss and replacement before relying on the feature. If a device is lost, use the device maker’s official account controls to secure or remove access where available, then review the platform’s active sessions and sign out of sessions you do not recognize. The exact controls depend on the service and device; do not assume one action removes every saved session."
+      ]
+    },
+    {
+      "heading": "Review notification and session exposure separately",
+      "paragraphs": [
+        "Biometric unlock does not prevent a notification from appearing on a lock screen, nor does it guarantee that an adult platform will sign out when you close a browser or app. Review notification previews, email alerts, browser session restoration, and account sign-out settings as separate parts of your privacy plan. On a shared device, an unlocked screen or notification preview may reveal information without anyone needing to open the platform itself.",
+        "After use, check whether the platform session remains active and whether the browser or app offers an explicit sign-out. If you do not control the device, avoid saving a password or choosing a persistent sign-in option. Review recent account activity if the service offers it, but do not assume that a session list includes every device or form of cached data. These checks reduce reliance on a single lock-screen control."
+      ],
+      "bullets": [
+        "Hide sensitive notification previews where the device allows it.",
+        "Check whether the app or browser keeps the session active after closing.",
+        "Do not treat biometric unlock as a substitute for signing out on a shared device."
+      ]
+    },
+    {
+      "heading": "Plan removal, handoff, and account changes",
+      "paragraphs": [
+        "Before lending, repairing, selling, or returning a device, decide what to remove. Sign out of the platform, remove saved credentials if present, review active sessions through the service’s official account controls, and follow the device maker’s recommended preparation steps. If other people’s biometrics are enrolled on the device, remember that changing your account password alone may not prevent them from unlocking the device itself. Likewise, removing an enrollment may not automatically end an already active platform session.",
+        "If you decide not to use biometric unlocking, disable the relevant device or app setting through its official controls and verify the fallback sign-in still works. If the device is shared, consider whether separate operating-system profiles are available and permitted, but do not assume profiles provide complete separation without checking their behavior. The practical endpoint is a setup where you understand who can unlock the device, what remains signed in, and how to revoke access if circumstances change."
+      ],
+      "bullets": [
+        "Test the fallback route before removing a biometric sign-in option.",
+        "After a handoff, review both device access and platform sessions.",
+        "Use official device and account instructions; avoid unverified cleanup utilities."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform receive my fingerprint or face data when I use biometric unlock?",
+      "answer": "Not necessarily. The prompt may be handled locally by the device or operating system, but the exact design depends on the feature. Check the device and platform documentation for where biometric data is processed and what information, if any, the service receives."
+    },
+    {
+      "question": "Is biometric unlock safe on a family-shared phone?",
+      "answer": "It depends on who can unlock the phone, who can manage enrolled users, and whether the platform session stays signed in. If you cannot control those conditions, do not rely on biometric unlock to keep an adult account private; avoid a persistent account session on that device."
+    },
+    {
+      "question": "If I remove a fingerprint or face enrollment, does that sign me out of the platform?",
+      "answer": "Do not assume so. Device enrollment and platform sessions are separate controls. Sign out through the platform, review active sessions if available, and follow the device maker’s instructions for removing biometric access."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
