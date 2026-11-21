@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-program-campaign-handoff-continuity",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Campaign Handoffs: Keep Tracking and Program Rules Intact",
+  "description": "Plan an affiliate campaign handoff with clear ownership of links, permissions, reporting routines, program terms, and unresolved questions.",
+  "excerpt": "When a webmaster or team member steps away, referral links and program knowledge can become fragile. A handoff checklist makes ownership and open risks visible.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Assign an accountable owner and a named backup for each active program.",
+    "Keep the current program rules, traffic approvals, and link inventory together.",
+    "Document how to access reports without sharing personal credentials.",
+    "Identify links or claims that need review before a new owner changes them.",
+    "Record unresolved questions instead of treating silence as approval."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the handoff as an operational change",
+      "paragraphs": [
+        "An affiliate campaign depends on more than a referral URL. It may also depend on approved traffic sources, current terms, creative permissions, reporting conventions, and the person who knows why a page was configured a particular way. When ownership changes without those details, a successor can unintentionally use an outdated link, overlook a restriction, or misread a report. A handoff is therefore a continuity task, not simply a transfer of passwords.",
+        "This guide is for a webmaster, editor, or small team preparing to change who operates a campaign. It does not assume that any particular program offers team accounts, a particular export, or a standard transition process. Document what exists, verify it against current first-party program information, and flag gaps that cannot be resolved from the materials you have."
+      ]
+    },
+    {
+      "heading": "Establish responsibility and access boundaries",
+      "paragraphs": [
+        "Name one person responsible for program-level decisions and one backup who can identify urgent issues. State which tasks each person may perform: updating site links, reviewing terms, responding to a program contact, or reconciling a report. Keep account ownership and access decisions aligned with the program’s rules and your organization’s security practices. Avoid placing shared passwords or recovery codes in a general handoff document.",
+        "If a program supports separate team permissions, record the roles actually assigned and who is authorized to change them. If it does not, note the limitation and the approved internal route for handling access. The goal is continuity without informal credential sharing. For a departing operator, make a specific checklist of access to remove or transfer, and confirm that another accountable person can still perform essential work."
+      ],
+      "bullets": [
+        "Record the primary owner, backup, and escalation contact.",
+        "Use an approved password manager or access-management process, not a plain-text shared document.",
+        "Identify account recovery responsibility and the authorized person for payout or profile changes."
+      ]
+    },
+    {
+      "heading": "Create a campaign record that explains the setup",
+      "paragraphs": [
+        "Build an inventory of active pages, referral links, campaign identifiers, and destinations. For each entry, record its location, purpose, last checked date, and the person responsible for maintenance. Add the traffic source and any written approval relevant to that placement. A link inventory is more useful when it explains the intended use rather than merely listing URLs.",
+        "Keep a concise evidence trail for important decisions: the version of the program terms reviewed, the date, and any written clarification received. If a rule is ambiguous, record the question and the status of the response. Do not turn an old email or an informal conversation into blanket permission for other placements. A successor should be able to distinguish documented approval from an assumption."
+      ],
+      "table": {
+        "caption": "Fields for an affiliate campaign handoff record",
+        "headers": [
+          "Record",
+          "What to include",
+          "Handoff check"
+        ],
+        "rows": [
+          [
+            "Program and account",
+            "Program identity, responsible owner, and approved account access",
+            "Confirm the successor can use their authorized access route"
+          ],
+          [
+            "Link inventory",
+            "Page location, destination, identifier, and intended campaign",
+            "Check that active links have a named maintainer"
+          ],
+          [
+            "Traffic permissions",
+            "Current written rules and any specific approvals",
+            "Mark unclear or unconfirmed placements for review"
+          ],
+          [
+            "Reporting routine",
+            "Report fields, time period conventions, and reconciliation notes",
+            "Explain how to reproduce the existing review"
+          ],
+          [
+            "Open questions",
+            "Question, person contacted, evidence, and next step",
+            "Do not label a question approved until the evidence supports it"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Transfer reporting knowledge, not just report files",
+      "paragraphs": [
+        "A report can be misleading to a new operator if the team has not documented its definitions and timing. Note which date range is used, how campaign labels are interpreted, and which report fields are relevant to the site’s decisions. If the program’s reporting definitions are unclear, say so explicitly. Do not silently substitute your own interpretation for an upstream definition.",
+        "Explain the existing review routine: how the operator checks that links still resolve, compares reported activity with the webmaster’s own records, and escalates discrepancies. Preserve supporting records according to your organization’s retention practices and any applicable requirements. Make clear which comparisons are directional rather than exact, particularly when different systems use different definitions or reporting periods."
+      ]
+    },
+    {
+      "heading": "Protect visitors while links and pages change hands",
+      "paragraphs": [
+        "Before the successor edits a page, ask them to verify that the destination still matches the page’s description and that required disclosures remain present. Check whether a referral link has changed, been disabled, or been assigned a new destination. Do not replace a link with a different offer merely because an old destination no longer works. Pause the affected placement if the appropriate replacement or permission is uncertain.",
+        "Also document which claims on a page depend on current program details. Give the successor a way to find the supporting source and a reminder to recheck claims before republishing them. A handoff is a good time to remove unsupported language, but it is not permission to invent new statements about commissions, eligibility, or program performance."
+      ]
+    },
+    {
+      "heading": "Use a staged transfer and close the loop",
+      "paragraphs": [
+        "A staged transfer reduces ambiguity. First give the successor access to approved documentation and walk through the inventory. Next have them confirm that they can locate current terms, understand reporting notes, and identify unresolved questions. Then transfer operational responsibility and record the date. If a task cannot be verified, assign an owner and a due point rather than assuming it will happen.",
+        "After the change, review the first routine campaign checks with the new owner. Confirm that important links still lead to the intended destination, that any required page disclosures remain in place, and that reporting access works. Close the handoff record only when access ownership, open issues, and maintenance responsibility are clear. Keep the record available to the people who need it, with personal or sensitive account information stored separately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should a handoff document contain account passwords?",
+      "answer": "No. Keep credentials and recovery information in an approved secure access system. The handoff document should state who is authorized and how to request access, not expose secrets to everyone who can read the file."
+    },
+    {
+      "question": "What if the new operator cannot find written approval for a traffic source?",
+      "answer": "Mark the placement as unconfirmed and seek clarification through an appropriate program contact before relying on it. An undocumented assumption should not be presented as permission."
+    },
+    {
+      "question": "Should all referral links be changed when ownership changes?",
+      "answer": "Not automatically. Inventory and verify the links first. Change only what needs to change, preserve a record of the reason, and check the destination and applicable rules before publishing an update."
+    },
+    {
+      "question": "How long should the handoff record be retained?",
+      "answer": "Use a retention period suited to your organization’s recordkeeping needs and applicable obligations. Keep the record secure and avoid retaining unnecessary personal or account data."
+    }
+  ]
+};
