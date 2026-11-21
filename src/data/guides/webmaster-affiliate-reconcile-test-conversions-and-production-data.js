@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-reconcile-test-conversions-and-production-data",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Testing: Keep Test Conversions Separate From Production Reporting",
+  "description": "A webmaster workflow for distinguishing test activity from live referrals, documenting test limits, and preventing test records from distorting affiliate analysis.",
+  "excerpt": "Test clicks and conversions can complicate reporting if they are mixed with real campaign activity. Set a clear test boundary, record what you changed, and reconcile the results before drawing conclusions.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Confirm in writing whether the program permits test clicks, test accounts, or test conversions before running them.",
+    "Use a distinct, documented test identifier or environment when the program supports one; do not assume a tag prevents a commission event.",
+    "Record the time, link, destination, test purpose, and expected report fields for each test.",
+    "Keep test activity out of production performance calculations unless its status is clearly identified.",
+    "Do not create artificial purchases or use someone else’s account to force a conversion for testing."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the question from the test action",
+      "paragraphs": [
+        "Affiliate testing can answer practical questions: does a referral link resolve, does the intended destination load, and does reporting show the expected click information? But a test click may be recorded like ordinary traffic, and a test transaction may be treated as a real event under program rules. Before touching a live referral path, define exactly what needs to be verified and which actions could create a billable or commissionable event.",
+        "Start by reading the program’s current rules and asking for clarification if test activity is not addressed. Distinguish a link check from a conversion test. A link check may only confirm that a URL opens; a conversion test might require actions that create a customer record, payment attempt, or other tracked event. Do not assume that adding a tracking tag, using a private browser window, or labeling a click as internal makes the activity exempt."
+      ],
+      "bullets": [
+        "Write down the specific behavior you need to verify.",
+        "Classify the planned test as link-only, reporting, or conversion-related.",
+        "Get approval before any action that may create a customer or commission event."
+      ]
+    },
+    {
+      "heading": "Establish a clean test boundary",
+      "paragraphs": [
+        "If a program offers a sandbox, test account, approved test code, or non-production tracking route, use the documented option and follow its limits. If no separate environment exists, ask whether the program can identify or exclude test activity and what evidence is needed. A partner’s verbal assurance may be difficult to use later; preserve the applicable written guidance and note when it was received.",
+        "Where the program permits test tags or sub-identifiers, choose a clear value that cannot be confused with a live campaign. Use the same convention in your link inventory and test log. A label is an organizational aid, not proof that the program will ignore the event. Confirm what the label changes, whether it appears in reporting, and whether it affects attribution or payout calculations."
+      ],
+      "table": {
+        "caption": "Test boundary planning record",
+        "headers": [
+          "Field",
+          "What to record",
+          "Reason"
+        ],
+        "rows": [
+          [
+            "Approval",
+            "Rule or written permission for the test",
+            "Shows whether the activity was allowed"
+          ],
+          [
+            "Test identifier",
+            "Approved test tag or environment",
+            "Separates records where supported"
+          ],
+          [
+            "Action scope",
+            "Exact click or event being checked",
+            "Prevents accidental expansion into a live conversion"
+          ],
+          [
+            "Expected evidence",
+            "Fields, status, or redirect to confirm",
+            "Makes the outcome testable"
+          ],
+          [
+            "Cleanup",
+            "Who removes test data or links, and when",
+            "Limits confusion after testing"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Design a test that avoids artificial transactions",
+      "paragraphs": [
+        "A useful test does not need to manufacture a customer purchase. First confirm link behavior, destination, and click reporting with actions that do not submit forms, create accounts, or trigger payment. If conversion behavior truly needs to be checked, ask the program operator for an approved method. It may be possible to verify a test event through a controlled environment or documented support process, but never presume that such a route exists.",
+        "Do not make a real purchase solely to test attribution unless the program has explicitly explained how that action is handled and you accept the consequences. Do not recruit another person to make a test purchase without their informed agreement and the program’s approval. A conversion test can create personal data, charges, refunds, or a disputed commission record. If the permitted method is unclear, pause the test rather than improvising."
+      ],
+      "bullets": [
+        "Prefer destination and click checks that do not generate customer activity.",
+        "Avoid fake identities, unauthorized purchases, or transactions made just to generate a report row.",
+        "Ask the operator how any test event will be labeled, excluded, or corrected."
+      ]
+    },
+    {
+      "heading": "Log the test and reconcile the report",
+      "paragraphs": [
+        "A timestamped log is useful when the dashboard updates later or uses a different reporting time zone. Record the date and time with time zone, test link, identifier, device or environment, expected destination, action taken, and result. Save only the evidence you need, and avoid recording unnecessary personal data. If a report row appears, capture its status and identifier without treating it as a normal conversion.",
+        "Compare the observed event with the program’s definitions and reporting delay. A missing row does not by itself prove that tracking failed; an event may be delayed, filtered, or visible only in another report. Similarly, a row does not establish commission eligibility. Keep test activity in a separate worksheet or clearly marked segment until the program confirms how to treat it. Do not include test data in campaign conclusions without a documented reason."
+      ],
+      "bullets": [
+        "Use consistent timestamps and note the reporting time zone if known.",
+        "Keep test records separate from live campaign summaries.",
+        "Ask for correction or removal through the program’s documented support route if a test created an unintended record."
+      ]
+    },
+    {
+      "heading": "Close the loop before returning to live promotion",
+      "paragraphs": [
+        "After the test, confirm that temporary links, tags, or settings have been removed or returned to the intended production state. Check the live link from the site without repeating a conversion action. Update the link inventory and note what was learned, what remains uncertain, and who approved the test. If the program’s terms or dashboard definitions change, do not reuse old test assumptions without checking that they remain valid.",
+        "A well-documented test should produce a modest conclusion: a particular link resolved to a particular destination and a particular report field appeared under a specified setup. It should not be presented as proof of broader attribution accuracy, payout treatment, or future performance. Those questions require evidence specific to the relevant program rules and reporting definitions."
+      ],
+      "paragraphsExtra": []
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use my own account to test a referral conversion?",
+      "answer": "Do not assume that this is allowed. It may create a real customer or commission event and could conflict with program rules. Ask the program operator for an approved test method before taking any conversion-related action."
+    },
+    {
+      "question": "Does a test sub-ID automatically exclude an event from commission reporting?",
+      "answer": "No. A sub-ID may help identify traffic, but it does not necessarily change eligibility, attribution, or reporting treatment. Confirm its function and permitted use in the program’s documentation or in writing."
+    },
+    {
+      "question": "What should I do if a test appears as a production conversion?",
+      "answer": "Keep the test log and report details, stop further testing, and contact the program through its documented support route. Explain what was approved and what action occurred. Do not quietly alter records or include the event in live analysis as if it were an ordinary referral."
+    }
+  ]
+};

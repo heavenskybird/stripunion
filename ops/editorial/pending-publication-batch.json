@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T21:41:25.805Z",
+  "generatedAt": "2026-11-21T23:13:46.157Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-small-business-procurement-preflight.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-left-handed-input-fit-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-household-budget-record-boundary-plan.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-media-reuse-boundary-review.json",
-    "ops/editorial/content-artifacts/creator-platform-content-claim-clearance-ledger.json"
+    "ops/editorial/content-artifacts/premium-video-accessibility-visual-scaling-review.json",
+    "ops/editorial/content-artifacts/live-cam-room-audio-output-device-routing-check.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-conversion-test-reconciliation.json",
+    "ops/editorial/content-artifacts/vr-adult-session-controller-battery-planning.json",
+    "ops/editorial/content-artifacts/adult-anime-game-branch-route-planning.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-small-business-procurement-preflight.js",
-    "src/data/guides/vr-adult-platform-left-handed-input-fit-audit.js",
-    "src/data/guides/adult-platform-household-budget-record-boundary-plan.js",
-    "src/data/guides/adult-dating-profile-media-reuse-boundary-review.js",
-    "src/data/guides/creator-platform-content-claim-clearance-ledger.js"
+    "src/data/guides/premium-video-platforms-visual-scaling-accessibility-check.js",
+    "src/data/guides/live-cam-platforms-check-audio-output-and-device-routing.js",
+    "src/data/guides/webmaster-affiliate-reconcile-test-conversions-and-production-data.js",
+    "src/data/guides/vr-adult-platforms-plan-controller-battery-and-session-continuity.js",
+    "src/data/guides/adult-anime-games-check-route-and-ending-structure-before-starting.js"
   ],
   "categories": [
-    "adult-shops",
+    "premium-videos",
+    "live-cams",
+    "webmaster-affiliate",
     "vr-ar",
-    "privacy-safety-payment",
-    "dating-hookups",
-    "creator-platforms"
+    "hentai-anime"
   ],
   "backlogIds": [
-    "adult-shop-small-business-procurement-preflight",
-    "vr-adult-platform-left-handed-input-fit-audit",
-    "adult-platform-household-budget-record-boundary-plan",
-    "adult-dating-profile-media-reuse-boundary-review",
-    "creator-platform-content-claim-clearance-ledger"
+    "premium-video-accessibility-visual-scaling-review",
+    "live-cam-room-audio-output-device-routing-check",
+    "webmaster-affiliate-conversion-test-reconciliation",
+    "vr-adult-session-controller-battery-planning",
+    "adult-anime-game-branch-route-planning"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44952605588",
-  "phase": "closed"
+  "r1CycleId": "44960568794"
 }
