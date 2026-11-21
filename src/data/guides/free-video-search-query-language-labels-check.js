@@ -1,0 +1,108 @@
+export default {
+  "slug": "free-video-search-query-language-labels-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Language and Translation Labels in Search",
+  "description": "Compare language labels on free video platforms by checking audio, subtitles, metadata, and search filters instead of trusting a tag alone.",
+  "excerpt": "Language tags can describe spoken audio, subtitles, title text, or uploader metadata. Use this guide to verify what a label means before relying on search results.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "A language label may refer to audio, subtitles, interface language, title text, or tags; identify which one the platform means.",
+    "Search filters can narrow results without proving that a specific video has the language feature you want.",
+    "Check the individual listing and playback controls for evidence, rather than treating a tag as a guarantee.",
+    "Compare the platform's wording across search results, title pages, and player controls to spot inconsistent labels.",
+    "Do not download files or install add-ons just to test a language option; use visible, documented controls first."
+  ],
+  "sections": [
+    {
+      "heading": "Find out what a language label describes",
+      "paragraphs": [
+        "A search result marked with a language may be describing several different things. It could refer to spoken audio, subtitles, a title or description written in that language, the uploader's selected metadata, or the site's interface. These are not interchangeable. A result may be easy to find using a language tag while offering no subtitle or audio track in that language.",
+        "Before relying on a platform's language filter, look for a definition in its help material or in the filter labels themselves. If the wording is not clear, treat the filter as a discovery aid rather than proof of playback support. Notice whether the same term appears next to a video, a channel, a subtitle control, or a site-wide setting. The location of a label can help explain what it is meant to describe, but verify the item you plan to watch separately."
+      ],
+      "bullets": [
+        "Distinguish audio language, subtitle language, title language, and site-interface language.",
+        "Check whether the language label applies to the result, the uploader, or a playback track.",
+        "Treat undefined language tags as clues, not guarantees."
+      ]
+    },
+    {
+      "heading": "Use search filters as a shortlist tool",
+      "paragraphs": [
+        "Language filters can reduce a large result set and help surface listings that may match a preference. Their value depends on how consistently the platform applies them and how specific the options are. A broad label may combine multiple languages, while a filter may search only the title or tags rather than the media itself. Keep the query and filter settings visible as you compare results so you can tell what influenced the shortlist.",
+        "If a filter produces few results, do not assume the platform has no relevant material. The catalog may use a different language name, alternate spelling, or an uploader-selected label. Try a small number of clear variants and compare the results, while avoiding repeated searches that disclose personal details. Search terms are sent to the platform and may be stored as part of account or browser activity, so keep queries focused on the content attribute you need."
+      ],
+      "table": {
+        "caption": "How to interpret common language signals",
+        "headers": [
+          "Signal",
+          "What it may indicate",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Language search filter",
+            "Results were categorized or tagged with a language",
+            "Whether it filters audio, subtitles, or only metadata"
+          ],
+          [
+            "Subtitle menu",
+            "A player offers a named subtitle option",
+            "Whether the option can be selected and appears during playback"
+          ],
+          [
+            "Audio-track menu",
+            "A player may offer alternate audio",
+            "Whether the listing identifies the track and the control works"
+          ],
+          [
+            "Title or description language",
+            "The text is written or translated into a language",
+            "Whether that language is also available in audio or subtitles"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify the listing and player separately",
+      "paragraphs": [
+        "Open a result page and inspect its own details. Look for explicit information about audio tracks and subtitles, not just a language tag in search. If a player has track controls, note whether they are visible before playback and whether their labels are understandable. A control can be absent, unavailable, or inconsistent with the listing description, so do not assume that a label on one screen carries through to the player.",
+        "When practical, test playback using a brief, non-sensitive preview or ordinary content that does not require creating an account. Check whether the language option is selectable, whether subtitles remain enabled after seeking or restarting, and whether the selected track is actually present. Avoid making claims about translation quality based only on a language label. A platform may identify a track without providing enough information to judge its accuracy or completeness."
+      ]
+    },
+    {
+      "heading": "Watch for tag and metadata mismatches",
+      "paragraphs": [
+        "Search tags can be entered by uploaders, generated by a platform, or inherited from a broader category. A mismatch between a tag and the actual available tracks may result from incomplete metadata, an old listing, or an incorrect label. Compare the search snippet, title page, and player rather than relying on whichever representation is easiest to see. If the platform lets users report metadata errors, consider using that route when a discrepancy is clear.",
+        "Be cautious about third-party browser extensions or external player prompts that claim to add language support. They may request access to browsing activity, change playback behavior, or direct you to an unfamiliar site. A platform's visible player controls and documented accessibility features are a safer first place to check. If language access is essential and the evidence is unclear, choose a listing with explicit track details rather than trying to install an unverified tool."
+      ]
+    },
+    {
+      "heading": "Compare platforms with a repeatable checklist",
+      "paragraphs": [
+        "A fair platform comparison uses the same test on each candidate. Choose a few ordinary listings, apply the same search filter, and record whether language refers to metadata, subtitles, or audio. Then inspect the title page and player controls. This avoids judging one service from its search screen and another from a full playback test. Keep the comparison to features you can observe; do not infer catalog size, translation quality, or moderation effectiveness from a small sample.",
+        "If you use an account, check whether search history or viewing history can be controlled, and whether language preferences persist across sessions. On a shared device, consider notification and browser-history exposure before testing. Record uncertain results as uncertain. A useful decision is not always the platform with the most labels; it is the one whose language information is understandable enough for your needs and whose controls let you verify the specific feature you intend to use."
+      ],
+      "bullets": [
+        "For each service, note what language labels mean and where they appear.",
+        "Check at least one listing's player controls rather than relying on the search tag alone.",
+        "Record missing or unclear track information as an uncertainty, not a confirmed feature."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a language filter mean a video has subtitles in that language?",
+      "answer": "Not necessarily. It may describe audio, subtitles, title text, metadata, or a category tag. Check the platform's explanation and the individual listing's player controls before relying on it."
+    },
+    {
+      "question": "Can I judge translation quality from a subtitle label?",
+      "answer": "No. A label may show that a subtitle option is identified, but it does not establish accuracy, completeness, or synchronization. Those qualities require separate evidence and may vary by listing."
+    },
+    {
+      "question": "Should I install a browser extension if the player has no language controls?",
+      "answer": "Do not install an unfamiliar extension just to test a language feature. Review its source and permissions carefully, and prefer documented platform controls. If the available language evidence is insufficient, choose a listing with clearer information."
+    }
+  ]
+};

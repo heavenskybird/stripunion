@@ -1,0 +1,115 @@
+{
+  "backlogId": "vr-adult-headset-browser-history-autofill-privacy-check",
+  "slug": "vr-adult-headset-browser-history-autofill-privacy-check",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Headset Browser History and Autofill Privacy",
+  "description": "Before using a headset browser for adult media, review history, saved sign-ins, autocomplete, sync, and shared-profile settings with this practical checklist.",
+  "excerpt": "A headset browser can retain more than a page in an open tab. Check what it saves, where that information syncs, and how to remove traces without disrupting account recovery.",
+  "keyTakeaways": [
+    "Browser history, saved passwords, autocomplete, downloads, and synced data are separate records; clearing one does not necessarily clear the others.",
+    "A headset's browser profile may be connected to a device account or cloud sync, so check those boundaries before browsing.",
+    "Private-browsing modes can reduce local history but should not be treated as a guarantee that nothing is recorded elsewhere.",
+    "On shared headsets, review sign-in persistence and whether another user can open the browser profile or saved account details.",
+    "Test the cleanup and sign-out steps with non-sensitive pages before relying on them for private browsing."
+  ],
+  "sections": [
+    {
+      "heading": "Map what the browser may keep",
+      "paragraphs": [
+        "Using a headset browser can leave several kinds of information behind: visited-page history, cookies, cached files, downloads, search suggestions, saved passwords, autofill entries, open tabs, and account sessions. These records may have different controls and different retention behavior. Closing a tab is not the same as signing out; signing out is not the same as deleting history; and clearing history may not remove saved credentials or data synced to another device.",
+        "Begin with the headset's browser settings and identify each relevant control. Look for history, site data, saved passwords, autofill, downloads, open tabs, and account synchronization. Record which settings are local to the browser and which are associated with a device or browser account. This inventory is more useful than relying on a single privacy-mode label because the exact behavior can vary by browser and configuration."
+      ],
+      "bullets": [
+        "Check browser history, cookies or site data, downloads, saved passwords, and autocomplete separately.",
+        "Identify whether browser data syncs to another device or account.",
+        "Check whether the browser reopens previous tabs after the headset sleeps or restarts."
+      ]
+    },
+    {
+      "heading": "Understand shared-device and profile boundaries",
+      "paragraphs": [
+        "A headset can be shared even when its browser is not intended to be. Determine whether each person has a separate operating-system profile, a separate browser profile, or only a shared browser session. If the browser remains signed in, another user may encounter saved accounts, suggestions, or open tabs. A separate device profile can help organize access, but it is not a guarantee that every application or account is isolated.",
+        "Check what happens when you switch profiles and return to the browser. Does it reopen a prior session? Are bookmarks, downloads, or autofill suggestions visible across profiles? Can another profile access the same browser account? Test these questions without entering sensitive credentials. If the headset cannot provide a boundary you trust, use a device and browser profile that you control rather than assuming that a menu switch removed prior data."
+      ],
+      "table": {
+        "caption": "Different browser records need different checks",
+        "headers": [
+          "Record or setting",
+          "What to check",
+          "Why one cleanup action may not be enough"
+        ],
+        "rows": [
+          [
+            "History and open tabs",
+            "Whether pages or previous sessions reappear after closing the browser",
+            "Closing a tab may not remove stored history or synced records"
+          ],
+          [
+            "Cookies and site data",
+            "Whether an account remains signed in after browsing ends",
+            "History deletion may leave active sessions intact"
+          ],
+          [
+            "Saved passwords and autofill",
+            "Whether account names appear in sign-in fields",
+            "Deleting visited-page history may not remove saved credentials"
+          ],
+          [
+            "Downloads and cached files",
+            "Where files are stored and whether the headset exposes a file view",
+            "Clearing browser history may leave files or cached data behind"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use private browsing with realistic expectations",
+      "paragraphs": [
+        "A private or guest browsing mode can be useful when you want the browser to avoid keeping some local history after a session. Read the browser's explanation of what is not saved and what still may be retained. Private mode generally should not be assumed to hide activity from a site, account provider, network operator, device administrator, or any service that receives information during browsing. Downloads, bookmarks, account sign-ins, and synced activity may also behave differently from ordinary history.",
+        "Treat private browsing as one layer in a broader routine. Do not sign into a personal browser account if your goal is to avoid syncing that session, unless you have confirmed how the browser handles it. Avoid saving passwords or adding bookmarks on a shared profile. When a session ends, close the private window and check whether the browser returns to an ordinary profile with previously open tabs. If the labels are unclear, test the behavior using harmless pages first."
+      ]
+    },
+    {
+      "heading": "Check sign-in, autocomplete, and notification exposure",
+      "paragraphs": [
+        "The most visible trace may be a suggestion rather than a history entry. Address-bar autocomplete can reveal a previous site when someone begins typing. Autofill can expose an account name, and a password manager may display saved logins. Browser sync can make these items available on another device. Review these controls before browsing, especially if the headset is used by family, roommates, guests, or colleagues.",
+        "Also check system notifications and account prompts. A browser may display a sign-in reminder or download notice in a shared view, while a headset can show messages from other applications during use. Consider disabling unnecessary notifications or previews through settings you understand, and sign out of accounts you do not want left accessible. Avoid changing device-wide controls if you do not own or administer the headset; instead, follow the device owner's rules or use a personal device."
+      ],
+      "bullets": [
+        "Look for saved usernames, password suggestions, and address-bar autocomplete.",
+        "Check whether browser or device notifications can appear during use.",
+        "Do not save a password to a shared browser profile just to make future sign-in quicker."
+      ]
+    },
+    {
+      "heading": "Test a cleanup routine before depending on it",
+      "paragraphs": [
+        "A dependable routine should specify what you do before, during, and after browsing. Before starting, choose the correct browser profile and decide whether sync is appropriate. During use, avoid saving credentials or leaving sensitive pages open. At the end, sign out where necessary, close tabs, remove downloads you intentionally created, and use the browser's specific controls for history and site data. Confirm whether the browser has a separate control for saved passwords and autocomplete.",
+        "Test the routine with ordinary websites and then inspect the browser as another user might: reopen it, check tabs and suggestions, and verify whether the profile remains signed in. Do not use a cleanup shortcut that deletes recovery information you still need or disrupts another person's data. If a trace remains and you cannot identify its storage location, stop using that shared profile for private browsing until you understand the controls. Clear, verifiable boundaries are more useful than an assumption that a single button removes every record."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing on a VR headset hide activity from the network?",
+      "answer": "Do not assume so. Private browsing can affect some local browser records, but sites, account providers, network operators, and device administrators may still receive or retain information. Check the browser's own description and the network or device context."
+    },
+    {
+      "question": "If I clear headset browser history, are saved passwords removed too?",
+      "answer": "Not necessarily. History, cookies, saved passwords, autofill, downloads, and synced data can have separate controls. Review each category in the browser settings and verify the result rather than treating history deletion as a complete reset."
+    },
+    {
+      "question": "What should I do if I use a shared headset?",
+      "answer": "Check whether the headset and browser have separate profiles, whether browser data syncs, and whether tabs or accounts persist after switching users. Avoid saving credentials in a shared profile, and use a device you control if the available separation does not meet your privacy needs."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
