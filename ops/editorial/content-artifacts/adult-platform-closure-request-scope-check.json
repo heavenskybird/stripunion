@@ -1,0 +1,133 @@
+{
+  "backlogId": "adult-platform-closure-request-scope-check",
+  "slug": "adult-platform-closure-request-scope-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Account Closure: Check What Your Request Actually Covers",
+  "description": "Before closing an adult platform account, distinguish sign-in deactivation, subscription cancellation, data deletion, and retained transaction records, then document each action.",
+  "excerpt": "“Close account” can describe several different actions. Use this guide to identify which account, billing, and data steps you need—and keep only the evidence needed to confirm them.",
+  "keyTakeaways": [
+    "Account closure, subscription cancellation, and data deletion may be separate processes.",
+    "Find the platform’s explanation of what happens to access, billing, and records before submitting a request.",
+    "Identify which account or payment provider controls each subscription or purchase.",
+    "Keep a minimal confirmation record in a location you control, without retaining unnecessary sensitive detail.",
+    "Verify the outcome rather than assuming that a submitted request completed every related action."
+  ],
+  "sections": [
+    {
+      "heading": "Define the outcome you want before starting",
+      "paragraphs": [
+        "People use “delete my account” to mean several things: stop future billing, end sign-in access, remove profile information, or erase data. Those goals may involve different controls and different responsible parties. A platform account may also be distinct from an app-store account, payment provider, or device-store account. Closing one does not automatically close the others.",
+        "Write down the outcomes you need before opening settings or contacting support. For example, you may want to cancel a recurring plan, prevent future access, remove optional profile details, and understand what records remain. This list makes it easier to notice if a confirmation covers only one action. It also reduces the chance of closing an account before retrieving a receipt or handling a pending support issue."
+      ],
+      "bullets": [
+        "List billing, access, profile-data, and record-retention questions separately.",
+        "Identify who controls each charge or access entitlement."
+      ]
+    },
+    {
+      "heading": "Map the account and billing relationships",
+      "paragraphs": [
+        "Start by checking where the subscription or purchase was initiated and which account manages it. The service that displays content may not control every recurring payment. A device store, external checkout provider, or other account may handle a charge. Review the relevant account’s subscription screen and receipts to identify the responsible route; do not rely on a single platform’s sign-in page to reveal every billing relationship.",
+        "Make a simple map: platform login, subscription manager, payment method, and any linked sign-in account. For each, record the action required and its confirmation source. If you cannot identify the billing controller, check the terms or transaction details before closing the platform account. Losing sign-in access first may make it harder to confirm or manage a separate recurring agreement."
+      ],
+      "table": {
+        "caption": "Separate the actions involved in leaving a service",
+        "headers": [
+          "Action",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Cancel billing",
+            "Which account or provider controls renewal?"
+          ],
+          [
+            "Close sign-in account",
+            "Will access end immediately or after a stated period?"
+          ],
+          [
+            "Request data deletion",
+            "Which data and systems are covered by the stated process?"
+          ],
+          [
+            "Retain a receipt",
+            "What minimal proof may be needed for a billing question?"
+          ],
+          [
+            "Remove linked access",
+            "Are social sign-in or device-store connections handled separately?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the closure terms for scope and timing",
+      "paragraphs": [
+        "Before submitting a request, read the platform’s current explanation of what closure changes. Look for timing, any waiting or recovery period, whether access ends at once, and what the platform says about transaction or security records. Distinguish explicit statements from assumptions. If the notice says some records may be retained, do not interpret account closure as a promise that every record disappears.",
+        "If a key point is missing, ask a focused question that names the action you are considering. For example, ask whether closing sign-in access also cancels a specific subscription, or whether billing must be canceled through another account. Avoid sending more personal information than support needs to identify the issue. Keep the question and any reply only as long as useful for confirming the outcome."
+      ],
+      "bullets": [
+        "Note stated timing and any reversibility or recovery period.",
+        "Do not treat a closure screen as proof that billing has also stopped."
+      ]
+    },
+    {
+      "heading": "Cancel recurring access and confirm it separately",
+      "paragraphs": [
+        "If a recurring plan is involved, follow its designated cancellation route before relying on account closure. Save the displayed confirmation or message that shows the cancellation status and any stated end date. Then check the relevant subscription manager or transaction record to make sure you are looking at the account that actually controls the charge.",
+        "Do not confuse canceling future renewal with reversing a past payment or removing transaction history. These are different questions and may use different processes. If a charge is still pending or a billing issue is unresolved, retain enough evidence to follow up before removing your ability to sign in. Keep expectations grounded in the service’s stated terms rather than assuming a cancellation takes effect in a particular way."
+      ],
+      "bullets": [
+        "Record the cancellation date and confirmation reference, if provided.",
+        "Check the controlling billing account rather than relying only on a service-page message.",
+        "Keep cancellation proof separate from routine screenshots or shared-device folders."
+      ]
+    },
+    {
+      "heading": "Request data deletion with a clear scope",
+      "paragraphs": [
+        "If you want data removed, use the platform’s stated privacy or data-request process and specify the account involved. Check whether the process distinguishes profile information, optional preferences, user-provided content, and transaction or security records. A platform may describe different treatment for different data types, so a general account-closure control should not be read as a complete inventory of deletion outcomes.",
+        "Provide only the information necessary to authenticate and process the request through the official channel. Keep a record of the request date, reference number, and the response explaining its scope. If a response is unclear, ask what categories are covered and whether the service requires additional steps. Avoid sending copies of identity documents or payment details unless the official process explains why they are necessary and how they will be handled."
+      ],
+      "bullets": [
+        "Use the official account or privacy contact route you can verify.",
+        "Ask for the scope and status of the request, not an unsupported guarantee of total erasure."
+      ]
+    },
+    {
+      "heading": "Keep a small, useful closure record",
+      "paragraphs": [
+        "A minimal record can help if access, billing, or a deletion request is disputed. Keep the date of cancellation or closure, confirmation references, and the relevant response. Avoid retaining more than needed, such as extensive screenshots containing unrelated account details. Choose a private storage location and consider whether it synchronizes to shared devices or appears in notifications.",
+        "After completing the actions, verify what you reasonably can: sign-in status, subscription status, and any response to a data request. If one result is pending, note its expected follow-up point rather than repeatedly submitting the same request. Account closure is a process with several possible owners; a short, organized record helps you see which step is complete and which remains unresolved."
+      ],
+      "bullets": [
+        "Make a checklist of completed, pending, and unverified actions.",
+        "Store only evidence needed to establish the actions you took.",
+        "Remove local copies when they no longer serve a practical purpose, while considering any unresolved billing or support need."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does closing an account automatically cancel a subscription?",
+      "answer": "Do not assume so. Billing may be managed separately. Identify the account or provider that controls renewal and confirm cancellation through that route."
+    },
+    {
+      "question": "Will account closure delete all transaction records?",
+      "answer": "Not necessarily. Platforms may handle transaction, security, or other records differently from profile information. Check the platform’s stated retention information and keep expectations limited to what it says."
+    },
+    {
+      "question": "What should I keep as proof after canceling?",
+      "answer": "Usually a small record of the date, confirmation, and any reference number is more useful than a large collection of screenshots. Store it privately and retain it only as long as it serves a practical purpose."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

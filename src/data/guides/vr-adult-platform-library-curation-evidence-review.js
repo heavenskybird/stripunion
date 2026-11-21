@@ -1,0 +1,122 @@
+export default {
+  "slug": "vr-adult-platform-library-curation-evidence-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check How Library Curation Affects Discovery",
+  "description": "Compare how VR adult platforms organize and explain their libraries, from editorial collections to search-led catalogs, before choosing where to browse.",
+  "excerpt": "A platform’s library can be large yet difficult to navigate. Use this guide to assess how its organization, labels, and collection pages help you find relevant titles without relying on promotional claims.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Separate catalog size claims from the actual organization and usefulness of the listings.",
+    "Check whether collection pages explain their selection criteria and link to complete item details.",
+    "Test search and filters with a few realistic browsing questions rather than judging the homepage alone.",
+    "Treat editorial features as discovery aids, not proof that a listing is complete, current, or included in a plan.",
+    "Record unclear labels and missing details as comparison evidence instead of guessing what they mean."
+  ],
+  "sections": [
+    {
+      "heading": "Why library organization is a separate decision",
+      "paragraphs": [
+        "Two VR platforms can list similar kinds of material while offering very different ways to find it. One may foreground editorial collections or featured lists; another may rely mostly on categories, tags, and search. The useful question is not simply which interface looks attractive. It is whether you can move from a browsing question to enough reliable listing information to make a decision.",
+        "This matters before joining because library organization influences how much effort discovery takes and how confidently you can compare options. A prominent collection may be a curated selection, a promotional display, or simply a grouping by label. Do not assume that placement means an item is included in a membership, represents the whole catalog, or will remain available."
+      ],
+      "bullets": [
+        "Write down three ordinary browsing questions you expect to ask, such as finding a format, collection, or playback type.",
+        "Keep a note of what the platform actually lets you confirm and what remains ambiguous."
+      ]
+    },
+    {
+      "heading": "Identify the platform’s discovery model",
+      "paragraphs": [
+        "Start by describing what you see, not by accepting a platform’s description of itself. Does discovery begin with a search box, browsable categories, collections, recommendations, or a combination? Check whether the interface explains what those groups mean. A collection with a clear scope is more useful than one whose title alone leaves you guessing.",
+        "Look for the relationship between editorial selections and the underlying catalog. Can you open an individual listing from a collection? Can you find the same item through search or another category? If a collection page is only a showcase, make a note of that boundary. A curated page can help narrow choices, but it should not stand in for checking the listing itself."
+      ],
+      "table": {
+        "caption": "A practical way to describe library organization during comparison",
+        "headers": [
+          "Discovery element",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Search",
+            "Which terms return useful, clearly labeled results?"
+          ],
+          [
+            "Categories or tags",
+            "Are labels explained, and can you browse them directly?"
+          ],
+          [
+            "Collections",
+            "Is the selection scope or editorial basis stated?"
+          ],
+          [
+            "Individual listings",
+            "Can you inspect format and access details from a collection?"
+          ],
+          [
+            "Recommendations",
+            "Can you tell whether they are optional suggestions or the main route?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether labels help you make decisions",
+      "paragraphs": [
+        "A category name is only useful when its meaning is understandable. Check whether labels distinguish format, series, subject, and access status, or whether a single tag appears to combine unlike things. Pay attention to vague terms that could describe a visual style, a player feature, or a membership benefit. If a label affects your decision, find a listing or help page that clarifies it.",
+        "Use a small set of test terms rather than trying to exhaust the library. Search for one format, one collection type, and one feature you care about. Note whether results are easy to interpret, whether filters can be combined, and whether removing a filter is straightforward. This gives you a grounded comparison without mistaking a quick browse for a full catalog audit."
+      ],
+      "bullets": [
+        "Try a search from the platform’s own wording, then a plain-language synonym.",
+        "Check whether a filter changes the displayed results in a way you can understand.",
+        "Do not infer that an unlisted filter value means the platform has no matching content."
+      ]
+    },
+    {
+      "heading": "Evaluate editorial collections without overreading them",
+      "paragraphs": [
+        "Collections can reduce browsing effort when they explain their purpose and point to individual details. Check whether the collection identifies a theme, format, publisher, or other selection basis. If no basis is given, treat the grouping as a navigation convenience rather than a quality assessment. Promotional placement should not be confused with an independent recommendation.",
+        "Compare a collection page with the relevant item listings. The listing is where you should look for concrete details such as format labels and access conditions. If collection tiles omit those details, note the extra steps needed to check them. A useful curation system gives you a shortlist; it does not remove the need to verify what each item is and whether your chosen access route covers it."
+      ]
+    },
+    {
+      "heading": "Distinguish a useful catalog from a persuasive display",
+      "paragraphs": [
+        "A homepage is designed to direct attention, so it is a weak substitute for testing the library’s full discovery route. Look for access to broader browsing pages, search, and any available help explaining catalog labels. If you can only inspect a small featured selection before creating an account, record that as a preview limitation, not evidence that the rest of the library is similar.",
+        "Where possible, compare the same few listing details across platforms. Use a simple worksheet: capture the listing title or identifier, displayed format, collection or category, access information, and any unresolved question. Avoid relying on screenshots or marketing language alone if those details can change; revisit the platform’s current terms and listings before committing."
+      ],
+      "bullets": [
+        "Mark each comparison point as confirmed, unclear, or unavailable in the preview.",
+        "Keep platform claims separate from what you personally verified in the accessible catalog."
+      ]
+    },
+    {
+      "heading": "Turn observations into a platform shortlist",
+      "paragraphs": [
+        "Choose the discovery model that fits how you browse. A collection-led catalog may suit someone who prefers guided shortlists; a search-and-filter approach may suit someone who already knows what details matter. Neither structure is automatically better. Judge whether it makes the decisions you care about easier while keeping essential listing information visible.",
+        "Before you decide, revisit your original browsing questions. Can you answer them from the interface without making assumptions? Are collection boundaries and access details clear enough? Does the platform make it possible to reach individual listings from browse pages? The best comparison is a documented fit with your own needs, not a ranking based on which site has the most prominent display."
+      ],
+      "bullets": [
+        "Score organization, label clarity, listing detail, and preview access separately.",
+        "Give more weight to information you can verify than to broad claims about breadth or quality.",
+        "If a key question remains unanswered, treat that as a reason to seek clarification or defer commitment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a large featured collection mean a platform has a broad library?",
+      "answer": "Not necessarily. A featured collection is a displayed selection, and its size or scope may not represent the full catalog. Check how the collection is defined and whether you can browse beyond it."
+    },
+    {
+      "question": "Should I treat curated collections as recommendations?",
+      "answer": "Treat them first as a navigation feature. Unless the platform explains its selection method, a collection’s presence does not establish that items were independently reviewed or selected using a particular standard."
+    },
+    {
+      "question": "What if I cannot inspect the full catalog before signing up?",
+      "answer": "Record the preview boundary and compare only details you can verify. Decide whether the accessible information is enough for your needs; do not assume unseen listings match the visible examples."
+    }
+  ]
+};
