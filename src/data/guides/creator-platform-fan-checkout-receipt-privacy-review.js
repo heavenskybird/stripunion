@@ -1,0 +1,123 @@
+export default {
+  "slug": "creator-platform-fan-checkout-receipt-privacy-review",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Review Fan Checkout and Receipt Privacy Before Launch",
+  "description": "Assess what fans may see during checkout and in receipts, account records, and support messages before choosing a creator platform.",
+  "excerpt": "A checkout can expose information beyond the creator’s public page. Use this workflow to examine fan-facing payment steps, receipts, and support records without assuming that privacy controls work the same way everywhere.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Map the complete fan purchase journey, from the first payment screen through confirmation and later account history.",
+    "Separate information shown to the fan from information shared with the creator, platform, payment processor, or support team.",
+    "Check whether a receipt or transaction record can display a public creator name, legal identity, platform name, or other identifying details.",
+    "Use documented platform explanations and low-risk test steps rather than guessing from a checkout button or marketing copy.",
+    "Record unresolved questions and decide whether the remaining exposure is acceptable before promoting a paid offer."
+  ],
+  "sections": [
+    {
+      "heading": "Treat checkout as part of the platform decision",
+      "paragraphs": [
+        "Creator-platform comparisons often focus on audience fit, discovery, fees, and publishing tools. Fan checkout deserves its own review because it is where a supporter encounters payment instructions, account requirements, confirmation screens, and potentially a lasting transaction record. These details affect whether the purchase path feels understandable and whether a fan can make an informed privacy decision.",
+        "Do not assume that a platform’s public-facing brand is the only name a purchaser will see. The checkout page, payment confirmation, account history, emailed receipt, and card or bank statement may present different labels. Which details appear can depend on the platform’s workflow and the payment method. Your task is to identify what is documented, what can be inspected safely, and what remains unclear."
+      ],
+      "bullets": [
+        "Draw the journey: offer page, checkout, payment confirmation, receipt, account history, and support contact.",
+        "Keep the fan-facing transaction record distinct from the creator’s payout statement and tax documents."
+      ]
+    },
+    {
+      "heading": "Build an exposure map for each stage",
+      "paragraphs": [
+        "Make a simple inventory of the information visible at each step. For example, note whether checkout requires an account, asks for an email address, displays a creator or business name, or explains how to get a receipt. Record only information you can verify through current documentation or an appropriate, non-sensitive test. Avoid entering real payment information or personal data just to answer an editorial question.",
+        "For each item, identify who can see it. A fan may see a confirmation page, while a creator might see a transaction entry and a platform or payment service may process additional details. The purpose is not to collect unnecessary data or infer hidden processing. It is to understand the stated boundary and ask a focused question when the boundary is not explained."
+      ],
+      "table": {
+        "caption": "A practical map for reviewing fan-facing checkout exposure",
+        "headers": [
+          "Journey stage",
+          "What to verify",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Offer page",
+            "What purchase terms and seller identity are shown before payment?",
+            "Current page capture and date checked"
+          ],
+          [
+            "Checkout",
+            "What account, contact, and payment fields are required?",
+            "Documented field list or safe test notes"
+          ],
+          [
+            "Confirmation",
+            "What name, item description, and next steps are displayed?",
+            "Help-page explanation or test capture"
+          ],
+          [
+            "Receipt and history",
+            "Which records are available, and where are they delivered?",
+            "Receipt guidance and account-history description"
+          ],
+          [
+            "Support",
+            "What information is requested when resolving a purchase question?",
+            "Support instructions and your minimum-data plan"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish public branding from transaction labels",
+      "paragraphs": [
+        "A display name on a creator page does not establish what a fan will see in a receipt or payment record. Likewise, a checkout page that uses platform branding does not by itself explain how a card statement will be labelled. Treat these as separate questions and look for explicit, current explanations for each one. If the platform does not describe a particular record, mark it as unknown rather than presenting a guess as a guarantee.",
+        "Creators who operate under a public brand may want to understand whether business or personal details could appear to supporters. That is a reason to review the relevant account and payment documentation carefully, not a reason to enter misleading information. Use accurate account details where required, and get qualified advice if the choice of business identity or payment setup has legal or tax implications."
+      ],
+      "bullets": [
+        "Record separately the public creator name, checkout seller label, receipt label, and statement descriptor if each is documented.",
+        "Do not claim a purchase is anonymous or discreet unless the relevant steps and records support that precise claim."
+      ]
+    },
+    {
+      "heading": "Check the receipt and support path",
+      "paragraphs": [
+        "A useful review continues after the payment confirmation. Find out whether a fan can retrieve a receipt later, whether receipts are sent by email, and whether purchase history remains visible in an account. Check the platform’s help information for the process used when a fan cannot locate a purchase. These details help creators explain the purchase journey without promising more privacy or record control than they can verify.",
+        "Support can be a separate exposure point. A fan asking for help may be told to provide an order reference or account email. Look for instructions that explain what information is actually needed. If you handle fan questions yourself, ask for only the minimum information needed to route the issue and direct payment disputes to the appropriate official channel. Never request full card details, passwords, or one-time sign-in codes."
+      ]
+    },
+    {
+      "heading": "Use a safe verification and decision workflow",
+      "paragraphs": [
+        "Start with current platform terms, checkout explanations, receipt guidance, and payment help pages. Save the document title, URL, and date reviewed so you can distinguish evidence from memory. If public documentation does not answer a consequential question, send support a narrow written inquiry that describes the record or stage you mean. Keep the reply with your decision notes and recheck it if the checkout flow or terms change.",
+        "If a permitted test is available, use a non-sensitive setup and follow the platform’s rules. Do not create a fake identity, make a charge you cannot responsibly authorize, or use another person’s payment information. A test can confirm what a particular interface displayed at one moment; it cannot establish what every payment method, location, or future version will show."
+      ],
+      "bullets": [
+        "Mark each item verified, documented but not tested, unclear, or unacceptable.",
+        "Pause promotion if an unresolved disclosure would change a fan’s decision or create a material identity concern.",
+        "Revisit the checklist when payment flows, account settings, or terms are updated."
+      ]
+    },
+    {
+      "heading": "Turn findings into accurate fan communication",
+      "paragraphs": [
+        "Once you understand the available evidence, write a short, factual explanation of what fans can expect before paying. State where purchase terms and support instructions are available. Avoid broad assurances such as “no one will know” or “nothing will appear on a statement”; those claims may exceed what a creator can verify and can create avoidable trust problems.",
+        "The final platform choice should reflect both the checkout experience and the limits of your knowledge. If a record type is not explained, you can treat that uncertainty as a selection factor, request clarification, or choose a different workflow. Keep the decision proportional: the goal is a clear, manageable transaction process, not an impossible promise that no purchase record exists."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator know exactly what a fan’s bank statement will show?",
+      "answer": "Only if reliable, current information specifically explains the relevant payment method and descriptor. A creator page or checkout label alone does not prove what a bank or card statement will display. Treat undocumented details as unknown and avoid promising a particular statement label."
+    },
+    {
+      "question": "Should creators ask fans to send payment screenshots for support?",
+      "answer": "Not as a default. First check the platform’s official support process and ask for the least sensitive reference that can identify the issue. Screenshots may include unrelated personal or financial information, so fans should be told to redact unnecessary details if an image is genuinely needed."
+    },
+    {
+      "question": "How often should a checkout privacy review be repeated?",
+      "answer": "Repeat it after a meaningful change to checkout, account requirements, receipt delivery, payment documentation, or relevant terms. Keep the date of each review so old observations are not mistaken for current evidence."
+    }
+  ]
+};
