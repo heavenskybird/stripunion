@@ -75,10 +75,20 @@ const endpoint =
       }
     };
 
+    let availability = '';
+    let renderedModels = '';
+    const clearCards = () => {
+      grid?.replaceChildren();
+      renderedModels = '';
+    };
     const showFallback = (message = 'Live previews unavailable') => {
+      clearCards();
       if (status) status.textContent = message;
       if (fallback instanceof HTMLElement) fallback.hidden = false;
-      emit('live_models_unavailable', { live_models_status: message });
+      if (availability !== 'unavailable') {
+        emit('live_models_unavailable', { live_models_status: message });
+      }
+      availability = 'unavailable';
     };
 
     if (!endpoint || !(grid instanceof HTMLElement)) {
@@ -173,27 +183,111 @@ const endpoint =
     const liveEndpoint = new URL(endpoint);
     liveEndpoint.searchParams.set('limit', String(liveLimit));
 
-    fetch(liveEndpoint.toString(), {
-      headers: { accept: 'application/json' },
-      credentials: 'omit'
-    })
-      .then((response) => {
+    const POLL_INTERVAL_MS = 60_000;
+    const MAX_VALIDITY_MS = 90_000;
+    let expiryTimer;
+    let pollTimer;
+    let controller;
+    let requestId = 0;
+    let inViewport = !('IntersectionObserver' in window);
+    let pageActive = !document.hidden && document.hasFocus();
+    const active = () => inViewport && pageActive && !document.hidden && navigator.onLine !== false;
+    const refresh = async () => {
+      if (controller || !active()) return;
+      clearTimeout(pollTimer);
+      const id = ++requestId;
+      const currentController = new AbortController();
+      controller = currentController;
+      try {
+        const response = await fetch(liveEndpoint.toString(), {
+          headers: { accept: 'application/json' },
+          credentials: 'omit',
+          cache: 'no-store',
+          signal: AbortSignal.any([currentController.signal, AbortSignal.timeout(8_000)])
+        });
         if (!response.ok) throw new Error('live-models-http');
-        return response.json();
-      })
-      .then((payload) => {
-        const models = Array.isArray(payload?.models) ? payload.models : [];
+        const payload = await response.json();
+        if (id !== requestId || !active()) return;
+        const now = Date.now();
+        const refreshedAt = Date.parse(payload?.refreshedAt);
+        // Never extend the server deadline, including during a staged rollout.
+        const validUntil = Math.min(Date.parse(payload?.validUntil), refreshedAt + MAX_VALIDITY_MS);
+        if (payload?.ok !== true || payload?.stale !== false ||
+            !Number.isFinite(refreshedAt) || refreshedAt > now ||
+            !Number.isFinite(validUntil) || validUntil <= now) throw new Error('live-models-stale');
+        const models = Array.isArray(payload.models) ? payload.models.filter((model) =>
+          model?.status === 'public' && model.id && model.username &&
+          typeof model.snapshotUrl === 'string' && model.snapshotUrl.startsWith('https://')
+        ).slice(0, liveLimit) : [];
+        clearTimeout(expiryTimer);
         if (!models.length) {
           showFallback('No eligible previews right now');
           return;
         }
-        grid.replaceChildren(...models.map(modelCard));
+        const signature = JSON.stringify(models);
+        if (signature !== renderedModels) {
+          grid.replaceChildren(...models.map(modelCard));
+          renderedModels = signature;
+        }
+        if (fallback instanceof HTMLElement) fallback.hidden = true;
         if (status) status.textContent = `${models.length} live previews`;
-        emit('live_models_loaded', {
-          live_models_count: models.length,
-          live_models_stale: Boolean(payload?.stale)
-        });
-      })
-      .catch(() => showFallback());
+        expiryTimer = setTimeout(() => {
+          showFallback();
+          refresh();
+        }, validUntil - Date.now());
+        if (availability !== 'live') {
+          emit('live_models_loaded', { live_models_count: models.length, live_models_stale: false });
+        }
+        availability = 'live';
+      } catch {
+        if (id === requestId && active()) {
+          clearTimeout(expiryTimer);
+          showFallback();
+        }
+      } finally {
+        if (id === requestId) {
+          controller = null;
+          // Schedule after completion so network latency cannot make every other
+          // poll arrive just before the Worker's minimum refresh interval.
+          if (active()) pollTimer = setTimeout(refresh, POLL_INTERVAL_MS);
+        }
+      }
+    };
+    const syncActivity = () => {
+      if (active()) {
+        refresh();
+      } else {
+        ++requestId;
+        controller?.abort();
+        controller = null;
+        clearTimeout(pollTimer);
+        clearTimeout(expiryTimer);
+        clearCards();
+        if (status) status.textContent = 'Live previews paused';
+        if (fallback instanceof HTMLElement) fallback.hidden = false;
+      }
+    };
+    document.addEventListener('visibilitychange', () => {
+      pageActive = !document.hidden && document.hasFocus();
+      syncActivity();
+    });
+    window.addEventListener('blur', () => { pageActive = false; syncActivity(); });
+    window.addEventListener('focus', () => { pageActive = !document.hidden; syncActivity(); });
+    window.addEventListener('offline', () => {
+      syncActivity();
+      showFallback();
+    });
+    window.addEventListener('online', syncActivity);
+    if ('IntersectionObserver' in window) {
+      const observer = new window.IntersectionObserver((entries) => {
+        const visible = entries.some((entry) => entry.isIntersecting);
+        if (visible !== inViewport) {
+          inViewport = visible;
+          syncActivity();
+        }
+      });
+      observer.observe(root);
+    }
+    syncActivity();
   })();
 </script>
