@@ -1,0 +1,126 @@
+{
+  "backlogId": "adult-platform-household-budget-record-boundary-plan",
+  "slug": "adult-platform-household-budget-record-boundary-plan",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Spending in a Shared Budget: Set Privacy and Recordkeeping Boundaries",
+  "description": "A practical plan for managing adult-platform transactions when household budgeting or expense tools are shared, including access, categorization, alerts, and record retention.",
+  "excerpt": "Shared budgeting can reveal more than the amount spent. Decide what information a shared ledger should contain, who can see it, and how to handle alerts and supporting records without losing useful financial oversight.",
+  "keyTakeaways": [
+    "Identify every place a transaction may appear: statements, bank feeds, shared dashboards, email, and notifications.",
+    "Choose a recordkeeping approach that meets your budgeting needs without copying unnecessary item-level details into shared tools.",
+    "Do not alter or misclassify transactions in ways that make records misleading; use accurate, policy-compliant categories.",
+    "Review who can see merchant names, notes, attachments, and alerts before linking an account to a shared service.",
+    "Keep any more detailed private records in a secure, access-controlled location and follow relevant financial and legal requirements."
+  ],
+  "sections": [
+    {
+      "heading": "Map the records before choosing a workflow",
+      "paragraphs": [
+        "A transaction can appear in several places beyond a bank statement. A connected budgeting app may import a merchant name, date, amount, and category; a shared spreadsheet may include a note or receipt; email and lock-screen alerts may expose a merchant or payment notification. Start by listing the systems involved and who can view each one.",
+        "Separate the transaction itself from any supporting record. The financial account may need to retain an accurate transaction history, while a shared household dashboard may only need a total or a broader budget category. Whether that separation is possible depends on the services and account settings involved. Do not assume a note can be hidden from other linked users simply because the dashboard is private on your device."
+      ],
+      "table": {
+        "caption": "Map where adult-platform spending details may appear",
+        "headers": [
+          "Record surface",
+          "Details to check",
+          "Access question"
+        ],
+        "rows": [
+          [
+            "Bank or card statement",
+            "Merchant descriptor, amount, date",
+            "Who receives statements or has account access?"
+          ],
+          [
+            "Budgeting tool",
+            "Imported merchant, category, notes, attachments",
+            "Are records visible to every linked household member?"
+          ],
+          [
+            "Email and app alerts",
+            "Receipt subject, charge notice, merchant name",
+            "Which inboxes and devices receive alerts?"
+          ],
+          [
+            "Shared spreadsheet",
+            "Manual labels, receipt links, comments",
+            "Who can open, edit, or export the file?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Agree on what the shared budget needs to show",
+      "paragraphs": [
+        "A shared budget is for shared financial decisions, but the appropriate level of detail depends on the household’s arrangement. Before adding a transaction to a joint dashboard, decide whether that system needs the merchant name, an itemized receipt, or only an accurate amount in an agreed category. Use the same transparent principles for recurring personal expenses rather than inventing a special category designed to disguise a transaction.",
+        "If you and another account holder share financial responsibility, respect the account’s ownership and the expectations attached to it. Do not hide, alter, or misrepresent a transaction to avoid a conversation or defeat an agreed budget. Privacy boundaries should be established honestly and should not interfere with another person’s access to a jointly controlled account or records they are entitled to review."
+      ],
+      "bullets": [
+        "Agree in advance which expenses are shared and which remain personal.",
+        "Decide whether shared reporting needs totals, categories, or item-level detail.",
+        "Use accurate records and categories consistent with household agreements and applicable rules."
+      ]
+    },
+    {
+      "heading": "Review linked-account permissions and exports",
+      "paragraphs": [
+        "Avoid putting sensitive transaction details in a shared calendar, group chat, or file that is broadly accessible. If a receipt must be retained for a legitimate financial purpose, store it in an appropriate controlled location and share only what the relevant person needs. Apply the same care to downloaded statements and backups, which may persist beyond the original app."
+      ]
+    },
+    {
+      "heading": "Manage alerts and device previews",
+      "paragraphs": [
+        "Payment notifications can expose information at a moment when another person can see the device. Check whether a bank, card, email, or budgeting app shows the merchant name on a lock screen, smartwatch, shared tablet, or desktop notification. You may be able to adjust notification previews or delivery channels, but do not disable an alert that you rely on for account security or fraud monitoring without an alternative plan.",
+        "Review cross-device mirroring as well as the primary phone. A notification silenced on one device may still appear on a watch or computer. If your financial account is jointly controlled, maintain the alerts and access required by the account arrangement. Where a privacy adjustment is appropriate, make it specific to sensitive previews rather than broadly turning off all payment or security notices."
+      ],
+      "bullets": [
+        "Check lock-screen preview settings on every device that receives alerts.",
+        "Confirm whether email receipts go to a private or shared inbox.",
+        "Keep essential fraud and account-security monitoring in place."
+      ]
+    },
+    {
+      "heading": "Keep records accurate and access-limited",
+      "paragraphs": [
+        "For personal recordkeeping, retain the transaction evidence needed to understand your own spending and resolve a payment issue. Keep it in a secure account or location with a strong sign-in method, and avoid unnecessary duplication. If a receipt includes more detail than you need for a personal budget, consider whether a minimal private note is sufficient, while preserving any complete record required for legitimate accounting or dispute purposes.",
+        "If you use a shared expense process, follow its rules. A reimbursement request, tax record, or business expense has different requirements from a personal household budget. Do not omit required information or describe a personal purchase as a business expense. When obligations are unclear, ask the responsible finance professional or seek qualified advice rather than guessing."
+      ],
+      "bullets": [
+        "Retain only the records needed for the purpose and duration required.",
+        "Limit access to statements, receipts, downloaded files, and backups.",
+        "Keep personal, household, and business records distinct where their rules differ."
+      ]
+    },
+    {
+      "heading": "Revisit the arrangement when accounts or relationships change",
+      "paragraphs": [
+        "Shared access can change when someone closes an account, leaves a household, or changes financial responsibilities. Review linked budgeting permissions, saved passwords, shared folders, and notification destinations at that point. If a card or bank account is jointly owned, follow the institution’s procedures; removing a budgeting-app connection is not the same as changing legal access to the financial account.",
+        "A simple written agreement can prevent confusion: what the shared budget records, who can view it, how personal expenses are represented, and how supporting documentation is handled. Revisit it when a new app is added or an existing service changes its sharing options. The goal is not secrecy at any cost; it is a deliberate, accurate balance between financial transparency and appropriate personal privacy."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I remove a transaction from a shared budgeting app without removing it from my bank statement?",
+      "answer": "Some services let users hide or exclude a transaction from a particular view, but the feature and its effects vary. Check the service’s documentation and account permissions. Do not assume that hiding an entry deletes imported data or changes what other account holders can see at the financial institution."
+    },
+    {
+      "question": "Should I rename a merchant transaction to conceal it?",
+      "answer": "Avoid changing records in a way that makes them misleading or violates a household or account agreement. If a shared budget does not need item-level detail, discuss an accurate, consistent reporting approach for personal expenses rather than disguising a transaction."
+    },
+    {
+      "question": "Is it safe to unlink a shared budgeting app after using it?",
+      "answer": "Unlinking may stop future access, but it may not erase data the service already imported, information another user exported, or records required for the account. Review the service’s deletion and access controls, and consider any shared-account obligations before changing access."
+    }
+  ],
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

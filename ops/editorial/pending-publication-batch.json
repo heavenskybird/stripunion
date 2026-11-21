@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T18:46:39.491Z",
+  "generatedAt": "2026-11-21T21:41:25.805Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/live-cam-mobile-touch-target-risk-review.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-campaign-handoff-continuity.json",
-    "ops/editorial/content-artifacts/adult-anime-app-search-and-catalog-fit.json",
-    "ops/editorial/content-artifacts/free-video-player-control-consistency-test.json",
-    "ops/editorial/content-artifacts/adult-games-ending-and-completion-evidence-planner.json"
+    "ops/editorial/content-artifacts/adult-shop-small-business-procurement-preflight.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-left-handed-input-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-household-budget-record-boundary-plan.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-media-reuse-boundary-review.json",
+    "ops/editorial/content-artifacts/creator-platform-content-claim-clearance-ledger.json"
   ],
   "guideFiles": [
-    "src/data/guides/live-cam-mobile-touch-target-risk-review.js",
-    "src/data/guides/webmaster-affiliate-program-campaign-handoff-continuity.js",
-    "src/data/guides/adult-anime-app-search-and-catalog-fit.js",
-    "src/data/guides/free-video-player-control-consistency-test.js",
-    "src/data/guides/adult-games-ending-and-completion-evidence-planner.js"
+    "src/data/guides/adult-shop-small-business-procurement-preflight.js",
+    "src/data/guides/vr-adult-platform-left-handed-input-fit-audit.js",
+    "src/data/guides/adult-platform-household-budget-record-boundary-plan.js",
+    "src/data/guides/adult-dating-profile-media-reuse-boundary-review.js",
+    "src/data/guides/creator-platform-content-claim-clearance-ledger.js"
   ],
   "categories": [
-    "live-cams",
-    "webmaster-affiliate",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "adult-shops",
+    "vr-ar",
+    "privacy-safety-payment",
+    "dating-hookups",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "live-cam-mobile-touch-target-risk-review",
-    "webmaster-affiliate-program-campaign-handoff-continuity",
-    "adult-anime-app-search-and-catalog-fit",
-    "free-video-player-control-consistency-test",
-    "adult-games-ending-and-completion-evidence-planner"
+    "adult-shop-small-business-procurement-preflight",
+    "vr-adult-platform-left-handed-input-fit-audit",
+    "adult-platform-household-budget-record-boundary-plan",
+    "adult-dating-profile-media-reuse-boundary-review",
+    "creator-platform-content-claim-clearance-ledger"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44937149886",
-  "phase": "closed"
+  "r1CycleId": "44952605588"
 }
