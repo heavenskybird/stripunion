@@ -1,0 +1,115 @@
+export default {
+  "slug": "creator-platform-bulk-content-accessibility-review",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Accessibility Before Publishing a Content Batch",
+  "description": "A creator workflow for checking captions, text alternatives, readable formatting, and fan access before publishing a batch of posts or membership updates.",
+  "excerpt": "Accessibility is easier to plan before a release than to retrofit under pressure. Use this workflow to review content formats, platform tools, and fan-facing descriptions as one publishing operation.",
+  "publishedAt": "2026-11-21",
+  "updatedAt": "2026-11-21",
+  "keyTakeaways": [
+    "Define the accessibility features a content batch needs before choosing a publishing date.",
+    "Check platform support for captions, text alternatives, readable formatting, and accessible navigation rather than assuming tools exist.",
+    "Test the published result in the fan-facing view, not only in the creator editor.",
+    "Describe access limitations plainly and avoid promising accommodations the platform cannot deliver.",
+    "Build an update path for correcting missing or inaccurate accessibility information."
+  ],
+  "sections": [
+    {
+      "heading": "Plan accessibility as part of the release",
+      "paragraphs": [
+        "A creator may prepare a group of posts that use different media and formats. If accessibility checks happen only after publication, missing captions, unclear descriptions, or hard-to-read formatting can create avoidable rework. Start by listing the formats in the batch and the access information each format needs. The purpose is not to claim that every platform supports every accommodation; it is to find out what the chosen platform allows and plan honestly around its limits.",
+        "Separate platform capabilities from creator decisions. A platform may supply some presentation controls while the creator remains responsible for the information included with a post. Conversely, a creator may prepare a thoughtful description that becomes difficult to find in the fan interface. The review should consider both sides: what you can prepare and what the platform actually displays to a fan using common navigation."
+      ],
+      "bullets": [
+        "Inventory each media format and its accompanying text.",
+        "Identify required captions, transcripts, descriptions, or formatting checks.",
+        "Mark any platform capability that needs confirmation before release."
+      ]
+    },
+    {
+      "heading": "Check the tools and their limits",
+      "paragraphs": [
+        "Look for current platform documentation describing captions, text alternatives, formatting controls, keyboard navigation, and screen-reader support. Confirm whether a feature applies to the specific post type you use. A tool available in one publishing area may not be available in another, and an editor’s label does not by itself confirm that the result is accessible in the fan view. If a feature is not documented, ask a focused support question or test a non-sensitive sample.",
+        "Avoid turning a tool’s presence into a blanket promise. For example, a caption field does not establish that every media format accepts captions, that captions can be edited after publication, or that they appear to all fans in the same way. Document the exact scope you verified. This gives you a reliable basis for choosing a format and explaining any access limitations without implying capabilities that may not exist."
+      ],
+      "table": {
+        "caption": "A batch-level accessibility review",
+        "headers": [
+          "Content element",
+          "Check before release",
+          "Fan-facing verification"
+        ],
+        "rows": [
+          [
+            "Video or audio",
+            "Whether captions or a text equivalent can be provided",
+            "Confirm the information is visible and associated with the item"
+          ],
+          [
+            "Images",
+            "Whether meaningful text alternatives can be added",
+            "Check that the alternative describes relevant information"
+          ],
+          [
+            "Long text",
+            "Headings, short paragraphs, and clear link labels",
+            "Review reading order and link purpose in the published view"
+          ],
+          [
+            "Membership instructions",
+            "Whether access steps are clear and not format-dependent",
+            "Check that a fan can locate the promised material"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review captions and text alternatives for accuracy",
+      "paragraphs": [
+        "Captions and transcripts should convey the information that matters to the post rather than merely exist as a field. Review automatic or draft text for omissions, speaker attribution problems, timing issues, and errors in names or terminology. If the content contains no meaningful speech, consider whether other sounds or context need to be conveyed. The appropriate approach depends on the material, the platform’s tools, and the audience’s needs.",
+        "For image descriptions, describe relevant visual information in a concise, useful way. Avoid adding details that disclose private information or introduce claims not supported by the image. Decorative imagery may need a different treatment from an image that communicates instructions or information. If the publishing interface cannot attach a text alternative, consider whether explanatory text nearby is workable and whether the platform’s rendering preserves the relationship."
+      ],
+      "bullets": [
+        "Review generated text manually before publishing.",
+        "Keep descriptions connected to the content they explain.",
+        "Use consistent terminology across a batch so fans can follow related updates.",
+        "Check whether edits to accessibility text are possible after release."
+      ]
+    },
+    {
+      "heading": "Test the fan-facing path, not just the editor",
+      "paragraphs": [
+        "A creator-side preview can differ from the view a fan receives. Use a test account or permitted preview mode to check whether descriptions, captions, headings, and access instructions are visible where expected. Where possible, review the page with keyboard navigation or assistive technology, and note any parts of the workflow that cannot be tested. Do not assume that a visually complete editor proves the published item is understandable to every fan.",
+        "Check the whole path from the membership page to the post. A fan may need to identify the correct level, find a release, understand its format, and use available controls. If instructions are split across several locations, make the sequence explicit. Test links and labels in context, and avoid relying only on color, placement, or an icon to explain what an action does."
+      ]
+    },
+    {
+      "heading": "Set a correction and communication process",
+      "paragraphs": [
+        "Accessibility details may need correction after publication. Decide who can edit the post, how an updated version will be identified, and how affected fans will be informed. Keep a record of the batch, the issue found, the correction, and the date it was made. This is useful for operational continuity and reduces the chance of quietly replacing information while leaving fans unsure which version they received.",
+        "If the platform cannot support a particular format or accommodation, state the limitation in plain language and avoid implying that every fan will have the same experience. Offer only alternatives you can actually provide and maintain. Consider whether postponing a post, using another supported format, or changing the release scope is preferable. A realistic access description is more useful than an unsupported promise."
+      ],
+      "bullets": [
+        "Keep a version note for material corrections.",
+        "Make access instructions easy to locate before a fan pays or joins.",
+        "Use a consistent route for reporting an accessibility problem.",
+        "Recheck the workflow when platform tools or post formats change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform’s caption tool guarantee that my post is accessible?",
+      "answer": "No. The tool’s existence does not establish that it works with every format or that the resulting captions are accurate and available in the fan-facing view. Check the relevant workflow and review the content before release."
+    },
+    {
+      "question": "Should I publish a batch if one item lacks an accessible alternative?",
+      "answer": "That depends on the importance of the item, the alternatives you can provide, and your audience commitments. Consider delaying or changing the format if the gap would prevent fans from understanding essential information. Describe any limitation honestly."
+    },
+    {
+      "question": "How can I verify an accessibility feature without exposing paid content?",
+      "answer": "Use a non-sensitive sample, a permitted preview, or platform documentation. Test only within the account permissions and access rules available to you, and avoid sharing private material with third parties merely to test a workflow."
+    }
+  ]
+};
