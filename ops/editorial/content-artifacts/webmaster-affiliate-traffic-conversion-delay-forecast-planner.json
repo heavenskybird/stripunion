@@ -1,0 +1,111 @@
+{
+  "backlogId": "webmaster-affiliate-traffic-conversion-delay-forecast-planner",
+  "slug": "webmaster-affiliate-traffic-conversion-delay-forecast-planner",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Forecasting: Account for Delays Between Clicks and Reported Conversions",
+  "description": "A webmaster planning method for separating traffic dates, conversion dates, reporting updates, and settlement timing when evaluating affiliate results.",
+  "excerpt": "A short reporting period can make a campaign look weaker or stronger than it is. Build a forecast that distinguishes when a visitor clicked, when a conversion may occur, when it is reported, and when the program finalizes the record.",
+  "keyTakeaways": [
+    "Do not compare a recent click cohort with a mature cohort as if both had equal time to convert.",
+    "Separate click date, conversion date, report update date, and payment timing.",
+    "Use explicit maturity windows based on program documentation rather than invented universal durations.",
+    "Show incomplete data as provisional and update forecasts when records mature.",
+    "Maintain conservative, central, and optimistic scenarios without presenting them as guaranteed outcomes."
+  ],
+  "sections": [
+    {
+      "heading": "Keep the timeline fields separate",
+      "paragraphs": [
+        "Affiliate reporting often involves several different dates. The click may occur on one day, the visitor may take an eligible action later, the dashboard may receive or display that conversion after another delay, and the program may apply review or settlement steps separately. These are not interchangeable timestamps. A forecast that collapses them into one period can misstate both campaign performance and expected cash timing.",
+        "Begin by listing the dates and statuses the program defines. Use the official description for each field and record any uncertainty. If a report uses labels such as pending, approved, or finalized, preserve those distinctions in your own records. Do not treat a pending conversion as equivalent to a settled amount, or a late report update as proof that the original event happened late."
+      ],
+      "table": {
+        "caption": "Separate the stages before building a forecast",
+        "headers": [
+          "Stage",
+          "Question to answer",
+          "Forecast treatment"
+        ],
+        "rows": [
+          [
+            "Click",
+            "When was the referral recorded?",
+            "Group traffic into a consistent click cohort"
+          ],
+          [
+            "Conversion",
+            "What event qualifies and when is it dated?",
+            "Use the program’s definition, not an assumed proxy"
+          ],
+          [
+            "Reporting",
+            "When can the dashboard display or revise the event?",
+            "Mark recent figures as provisional when needed"
+          ],
+          [
+            "Settlement",
+            "When does an approved amount become payable under the terms?",
+            "Keep cash planning separate from conversion analysis"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare cohorts with equal observation time",
+      "paragraphs": [
+        "A cohort is a group of referrals collected over the same period, such as clicks from a particular campaign week. A recent cohort has had less time to produce and report later actions than an older cohort. Comparing their raw conversion totals without noting that difference can make the newest group appear artificially weak. It can also make partial results look conclusive when they are not.",
+        "Choose an observation window that follows the program’s documented reporting and conversion behavior, if that information is available. If it is not, do not manufacture a precise universal window. Instead, label the period as provisional, track how the cohort changes over successive report checks, and explain the uncertainty. Keep the cohort definition stable so you are not changing the measurement basis to fit the result."
+      ]
+    },
+    {
+      "heading": "Build scenarios instead of a single confident estimate",
+      "paragraphs": [
+        "A practical forecast can show a conservative, central, and optimistic case. The cases should reflect assumptions about how much of a cohort may still be unreported or unresolved, not invented claims about typical program performance. Use your own historical records only when the periods and program rules are sufficiently comparable, and disclose when the sample is small or conditions have changed.",
+        "Write each assumption beside the scenario. For example, a conservative case might exclude unresolved records from expected revenue, while another case may include a clearly identified portion as provisional. Keep cash timing out of the conversion-rate calculation unless the question is specifically about cash planning. This makes it easier to see which uncertainty drives the range and prevents a favorable assumption from disappearing into a single number."
+      ],
+      "bullets": [
+        "Name the cohort and observation period.",
+        "State which statuses are included in each scenario.",
+        "Identify unobserved or unresolved data separately.",
+        "Avoid describing a scenario as a promised or expected payout."
+      ]
+    },
+    {
+      "heading": "Use reporting documentation to define cutoffs",
+      "paragraphs": [
+        "Before selecting a reporting cutoff, review how the program defines conversion dates, status changes, report updates, and any correction process. A dashboard date filter may refer to when an event occurred, when it was recorded, or another rule. If the documentation does not make the field meaning clear, ask a targeted question and retain the response with the version of the terms you used.",
+        "Use the same cutoff rule when comparing campaigns. Save an export or dated snapshot where permitted, then note the retrieval date and the data fields included. Later corrections should be recorded as revisions rather than silently replacing the earlier view. This creates a traceable history of how the forecast changed and helps explain why two reports taken at different times may not match."
+      ]
+    },
+    {
+      "heading": "Turn forecast updates into a decision routine",
+      "paragraphs": [
+        "Set a regular review cadence that fits your business operations, then update each cohort as records mature. The purpose is not to refresh numbers constantly; it is to avoid making a major traffic or budget decision from an incomplete slice of data. If the reporting interface provides no reliable way to distinguish provisional from finalized records, make that limitation visible in the decision note.",
+        "When a result changes, identify whether the change came from new clicks, newly reported conversions, a status revision, or a change in program terms. Those causes imply different actions. Keep the actual traffic decision separate from the accounting record and preserve the assumptions that supported it. A forecast should help you reason under uncertainty, not disguise uncertainty with precise-looking totals."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How long should I wait before judging an affiliate campaign?",
+      "answer": "There is no universal waiting period. Use the program’s documented conversion and reporting definitions, compare cohorts with similar observation time, and label recent data as provisional when it may still change."
+    },
+    {
+      "question": "Should pending conversions be included in revenue forecasts?",
+      "answer": "They can be shown as a separate provisional category if that helps planning, but they should not be presented as finalized earnings. Keep assumptions visible and distinguish conversion analysis from cash-flow planning."
+    },
+    {
+      "question": "What if the dashboard changes older figures?",
+      "answer": "Record the retrieval date, relevant report fields, and the revised status or value. Treat the change as an update to the evidence trail, and check the program’s documentation for what kinds of corrections are possible."
+    }
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

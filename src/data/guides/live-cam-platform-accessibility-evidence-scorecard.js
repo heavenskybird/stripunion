@@ -1,0 +1,135 @@
+export default {
+  "slug": "live-cam-platform-accessibility-evidence-scorecard",
+  "categorySlug": "live-cams",
+  "categoryLabel": "Live Cams",
+  "title": "Live Cam Platforms: Compare Accessibility Evidence Before You Choose",
+  "description": "A practical way to assess whether a live cam platform explains keyboard, screen-reader, caption, and interface accessibility well enough for your needs.",
+  "excerpt": "Accessibility is more than a feature label. Use a repeatable evidence check to see whether a live cam platform documents the tasks you need to complete, from finding a room to adjusting playback and leaving.",
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "keyTakeaways": [
+    "Assess accessibility by task, not by a general claim that a site is accessible.",
+    "Check whether important controls have clear names, visible focus, and usable keyboard paths.",
+    "Treat captions and language options as separate questions; one does not establish the other.",
+    "A public help page can describe intended behavior, but a practical test on your own device can reveal gaps.",
+    "Record what works, what is unclear, and what is essential before comparing platforms."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the tasks that matter to you",
+      "paragraphs": [
+        "A useful accessibility comparison begins with a personal task list. For example, you may need to navigate with a keyboard, enlarge text, use a screen reader, understand room labels without relying on color, or find playback and exit controls without precision pointing. These are different requirements. A platform that works well for one task may still make another difficult, so avoid turning accessibility into a single yes-or-no score.",
+        "Write down the actions you expect to take, in order. A short path might be: open the site, find a category, inspect a room listing, start a stream, locate chat controls, and leave. Include account creation or payment steps only if you expect to use them. This keeps your comparison grounded in actual use rather than a long feature list that may not reflect your priorities."
+      ],
+      "bullets": [
+        "Which input methods do you rely on?",
+        "Which controls must be easy to locate?",
+        "Are captions, text resizing, or reduced motion important to your use?",
+        "Which task would make a platform unusable if it failed?"
+      ]
+    },
+    {
+      "heading": "Read accessibility information as evidence, not a guarantee",
+      "paragraphs": [
+        "Look for documentation that names specific interface areas and behaviors. A useful description might explain keyboard focus, form labels, heading structure, or how a user can reach the player controls. Broad statements such as accessible, inclusive, or compatible do not tell you which tasks were considered, what devices were involved, or whether limitations remain.",
+        "Keep documentation and observed behavior in separate notes. Documentation tells you what the platform says it supports; your own check tells you what happens in the conditions you tested. Neither proves that every page, device, or future redesign will behave the same way. If the help information is incomplete, treat that as uncertainty to investigate rather than proof that a feature is absent."
+      ],
+      "table": {
+        "caption": "A simple way to classify accessibility evidence",
+        "headers": [
+          "Evidence type",
+          "What it can tell you",
+          "What remains uncertain"
+        ],
+        "rows": [
+          [
+            "Detailed help article",
+            "Which behaviors the platform documents",
+            "Whether the behavior works on your device and current interface"
+          ],
+          [
+            "General accessibility statement",
+            "That accessibility is mentioned as a platform concern",
+            "Which controls, pages, or assistive technologies are addressed"
+          ],
+          [
+            "Your task-based check",
+            "What you could complete under your test conditions",
+            "How other devices, updates, or user needs will behave"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check navigation and control identification",
+      "paragraphs": [
+        "For keyboard use, check whether you can move through the main interface in a predictable order and whether the current focus is visible. Look for controls that can be activated without a mouse and for a way to leave menus or dialogs. A focus indicator that is difficult to distinguish can make a technically reachable control hard to use. Note whether repeated navigation becomes confusing or traps you in a section.",
+        "For screen-reader use, consider whether controls have understandable names and whether page structure helps you move between headings, lists, and forms. A button announced only as a generic control may be harder to interpret than one with a clear purpose. Do not infer screen-reader support from a page appearing visually tidy. If you use assistive technology, test the smallest set of high-priority tasks and note your software and browser so the observation has context."
+      ],
+      "bullets": [
+        "Can you identify the current keyboard focus?",
+        "Can you reach and activate the controls you need without pointing?",
+        "Do menus and dialogs offer a clear way to close or return?",
+        "Are key controls described in a way you can understand?"
+      ]
+    },
+    {
+      "heading": "Separate visual access, captions, and language support",
+      "paragraphs": [
+        "Visual adjustments and caption availability answer different questions. Text resizing, contrast, and layout readability may affect whether you can use the interface; captions concern the accessibility of audio information. A translated interface is not automatically captioned, and captions do not necessarily explain every sound or spoken element. Check each requirement independently and avoid assuming that a setting exists because a related one does.",
+        "When evaluating visual readability, check the pages you actually need, not only the homepage. Search results, account forms, room details, overlays, and player controls can use different layouts. If a page changes when opened on a phone or at higher zoom, note whether essential controls remain visible and usable. When a feature is important but its availability is unclear, seek a specific answer before relying on it."
+      ]
+    },
+    {
+      "heading": "Use a repeatable comparison record",
+      "paragraphs": [
+        "A compact record makes platform comparisons more useful and less dependent on memory. For each task, note the device and input method, what you attempted, whether you completed it, and any workaround. Mark findings as documented, observed, unclear, or not tested. These labels prevent an assumption or marketing statement from being mistaken for a direct observation.",
+        "Weight the results by importance. A minor inconvenience may be acceptable if your essential tasks are reliable, while a single inaccessible control may be decisive if it blocks a task you need. If you contact support, describe the task and interface area rather than sharing unnecessary personal information. Keep the reply with your notes and recheck critical workflows after a significant interface change."
+      ],
+      "table": {
+        "caption": "Accessibility comparison worksheet",
+        "headers": [
+          "Task",
+          "Evidence to record",
+          "Decision note"
+        ],
+        "rows": [
+          [
+            "Find a room",
+            "Keyboard path, labels, and filter readability",
+            "Essential, helpful, or not needed"
+          ],
+          [
+            "Use the player",
+            "Control names, focus visibility, and adjustment access",
+            "Works, workaround, unclear, or blocked"
+          ],
+          [
+            "Understand audio information",
+            "Caption or other documented access options",
+            "Meets need, partial, or unknown"
+          ],
+          [
+            "Leave or close a panel",
+            "Exit path and return behavior",
+            "Predictable, confusing, or not tested"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an accessibility statement prove that every part of a live cam platform is accessible?",
+      "answer": "No. A statement may describe goals or selected areas, but it does not establish that every page, control, device, or assistive-technology combination works. Look for specific documentation and check the tasks that matter to you."
+    },
+    {
+      "question": "Should I rely on a platform’s general accessibility label?",
+      "answer": "Treat it as a starting point, not a complete assessment. Ask what behaviors the label covers, whether limitations are documented, and whether the relevant workflow is usable with your input method."
+    },
+    {
+      "question": "How can I compare platforms if I cannot test every feature?",
+      "answer": "Choose a small set of essential tasks and use the same test conditions for each platform. Mark untested items as unknown rather than assuming they work or fail, then prioritize follow-up questions around the gaps that would affect your decision."
+    }
+  ]
+};

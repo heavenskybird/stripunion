@@ -1,0 +1,112 @@
+{
+  "backlogId": "creator-platform-fan-notification-operations-plan",
+  "slug": "creator-platform-fan-notification-operations-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Plan Fan Notifications Before a Publishing Push",
+  "description": "A creator-focused workflow for checking notification controls, audience expectations, and message timing before publishing a batch of posts or offers.",
+  "excerpt": "A publishing plan can affect more than the content feed. Before a release push, map which platform actions may notify fans, what controls exist, and how to avoid sending messages that are confusing or difficult to manage.",
+  "keyTakeaways": [
+    "Map the actions that may generate fan notifications before scheduling a batch.",
+    "Distinguish platform alerts from messages you write and send yourself.",
+    "Check audience controls without assuming every fan uses the same notification settings.",
+    "Use a small, reviewable release plan when the notification behavior is uncertain.",
+    "Keep a record of the settings and wording used for important announcements."
+  ],
+  "sections": [
+    {
+      "heading": "Map the notification path before publishing",
+      "paragraphs": [
+        "A post can be delivered through more than one route: it may appear in a feed, generate a platform alert, trigger an email or push notification, or be accompanied by a creator-written message. The exact routes depend on the platform and the user’s settings, so a creator should verify what is documented rather than assume that publishing means only adding an item to a page.",
+        "Start by listing the actions in the planned release: publishing a post, changing an access level, sending a direct announcement, editing an existing item, or removing content. For each action, note whether the platform explains who may be notified and whether a creator can control that behavior. If the documentation is silent, record the behavior as unknown and avoid promising fans that they will receive or will not receive a particular alert."
+      ],
+      "bullets": [
+        "Which publishing actions are part of the planned release?",
+        "Which actions may create an alert, email, or direct message?",
+        "Can the creator preview the message before it is sent?",
+        "Does the platform describe how fan notification preferences affect delivery?"
+      ]
+    },
+    {
+      "heading": "Separate platform alerts from creator-written messages",
+      "paragraphs": [
+        "A platform-generated notice and a message written by the creator are not interchangeable. The platform may control the timing, destination, and formatting of an automatic alert, while the creator controls the wording and audience of a direct announcement. Treating both as one channel can lead to duplicate notices, unclear expectations, or a mistaken belief that a fan has seen information.",
+        "Build a simple communication map. For every announcement, decide whether the post itself is sufficient, whether a separate message is needed, and what the message should clarify. Avoid using a private or direct channel for information that should be available to the whole intended audience. If the platform cannot clearly show the audience for a message, pause and resolve that uncertainty before sending."
+      ],
+      "table": {
+        "caption": "Notification planning map",
+        "headers": [
+          "Communication route",
+          "Creator should verify",
+          "Common planning question"
+        ],
+        "rows": [
+          [
+            "Published post",
+            "Who can access it and whether it is surfaced in a feed",
+            "Does the post explain the offer or update clearly on its own?"
+          ],
+          [
+            "Platform-generated alert",
+            "Whether the action may trigger an alert and what controls exist",
+            "Could the same action create an unexpected second notice?"
+          ],
+          [
+            "Creator-written message",
+            "Audience selection, preview, and send controls",
+            "Is this message necessary and directed to the right group?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set expectations without promising delivery",
+      "paragraphs": [
+        "Creators can explain where information will be posted, but should be careful about guaranteeing that every fan will see it. Fans may have different notification preferences, may not use a particular device, or may not check the platform during the relevant period. A clear announcement tells people where to find the update and what action, if any, is required without implying that a notification is proof of receipt.",
+        "Use plain wording that distinguishes publication from delivery. For instance, say that an update is available in a named area rather than claiming that everyone has been alerted. If a deadline matters, state it in the post itself and consider whether fans who do not receive an alert can still find the information in time. This improves clarity without depending on undocumented notification behavior."
+      ]
+    },
+    {
+      "heading": "Test the workflow at a manageable scale",
+      "paragraphs": [
+        "When platform behavior is unclear, avoid making a large release the first test. A smaller, low-consequence publishing step can help reveal the creator-side interface: whether a notification option appears, whether audience selection is visible, and whether the action can be reviewed before completion. Do not use fans as unwitting test recipients or send unnecessary messages merely to learn how a control works.",
+        "If a platform provides a preview or draft mode, use it to inspect wording and audience settings. Keep the test focused on the control you need to understand, and record what the interface actually showed. A test made under one account or device may not represent every fan’s experience, so treat it as evidence about the creator workflow rather than proof of universal delivery."
+      ],
+      "bullets": [
+        "Check the draft or preview before sending.",
+        "Confirm the selected audience and the action that will trigger a message.",
+        "Avoid using a real fan announcement as a test if a safer preview is available.",
+        "Record uncertainty where the interface does not explain the outcome."
+      ]
+    },
+    {
+      "heading": "Create a review and recovery plan",
+      "paragraphs": [
+        "Before publishing a batch, identify who can pause the sequence if a setting, audience, or message is wrong. Keep the release list in order and include the planned destination, intended audience, and the communication route for each item. This makes it easier to stop before the next step compounds a mistake. The plan need not be elaborate; its purpose is to make the next action visible.",
+        "After publishing, review the public-facing post and any available creator-side delivery record. Do not infer that a missing record means a fan did not see something, or that a sent status means it reached every device. If a mistake occurs, correct the source information and communicate the correction through a proportionate, clear route. Save the final wording and relevant settings so future releases can improve without collecting unnecessary fan data."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator know whether every fan received a platform notification?",
+      "answer": "Usually, a creator should not assume that a platform status proves delivery or that every fan has the same notification settings. Check what the platform documents, and communicate essential information in the post or another clearly identified location."
+    },
+    {
+      "question": "Should every new post be accompanied by a direct message?",
+      "answer": "Not necessarily. A second message can add clarity when an update needs attention, but repeated or unnecessary messages can create confusion and increase operational work. Decide based on the importance of the update and the platform’s documented notification behavior."
+    },
+    {
+      "question": "What should I do if the notification controls are unclear?",
+      "answer": "Do not make a delivery promise based on an assumption. Use a preview or low-consequence test if available, consult the platform’s documentation, and keep the uncertainty explicit in your release plan until you have a reliable answer."
+    }
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
