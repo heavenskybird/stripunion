@@ -1,0 +1,123 @@
+{
+  "backlogId": "adult-shop-delivery-address-data-minimization",
+  "slug": "adult-shop-delivery-address-data-minimization",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Checkout: Minimize Address Data Without Risking Delivery",
+  "description": "Choose an accurate, practical delivery address for an adult shop order while checking saved-address exposure, carrier requirements, and order-change limits.",
+  "excerpt": "A delivery address is both a fulfillment detail and personal information. This checklist helps you choose an address that can receive the parcel while avoiding unnecessary address-book and account exposure.",
+  "keyTakeaways": [
+    "Use an address you are authorized to use and where a delivery can actually be received; inaccurate details can create delays or failed delivery.",
+    "Check whether the retailer saves addresses to your account and whether you can remove or edit them later.",
+    "Verify carrier, collection-point, signature, and address-change rules before relying on an alternative destination.",
+    "Do not assume that a delivery option conceals the retailer, recipient, or order from everyone involved in receiving a parcel.",
+    "Keep order and tracking records in a suitable account, and review address autocomplete and shared-account settings after checkout."
+  ],
+  "sections": [
+    {
+      "heading": "Choose for reliable receipt, not just fewer visible details",
+      "paragraphs": [
+        "The best delivery address is one you are permitted to use and can reliably access. A workplace, shared household, collection location, or alternate address may have different rules and practical risks. Before entering anything, confirm who can accept the parcel, whether the delivery service supports the location, and whether the recipient name must match an identification document or account record.",
+        "Do not use a false address to avoid revealing information. An incomplete or inaccurate address can route a package incorrectly, make a delivery attempt fail, or complicate a return or order query. Instead, choose among legitimate delivery options that the retailer and carrier actually support. If the checkout does not explain a key requirement, check the retailer's delivery policy before placing the order.",
+        "Think through the whole route: checkout, retailer fulfillment, carrier handoff, delivery notice, and final collection. A location that seems private at checkout may be visible to other authorized users of a household account, a building reception desk, or anyone who receives carrier alerts. Decide which exposure matters most to you and what practical trade-off you can accept."
+      ],
+      "bullets": [
+        "Confirm you can receive the parcel at the address and are authorized to use it.",
+        "Check any recipient-name, signature, or identification requirements.",
+        "Consider who may see delivery notices or accept the package at the destination."
+      ]
+    },
+    {
+      "heading": "Review saved addresses and checkout defaults",
+      "paragraphs": [
+        "Many retail accounts can retain a delivery address for later use. Before checkout, inspect whether the address is being saved to your profile, selected as a default, or copied into an address book shared across services. If you use a guest checkout, check whether the retailer still offers to remember your details in a browser or payment account. The exact behavior varies, so look at the controls shown in the flow rather than assuming that guest checkout prevents retention.",
+        "Autofill can make it easy to choose an old, shared, or unintended address. Review every address line before confirming, including apartment or unit information and delivery instructions. If the page fills a previous address automatically, verify that it is still appropriate for this order. A carefully checked address is safer than relying on a form's remembered selection.",
+        "After checkout, review the account's saved-address page and remove entries you no longer need if the retailer provides that control. Check whether the browser, device, or password manager also stores address details. Clearing one saved address does not necessarily remove copies held by another service, so treat those as separate settings."
+      ],
+      "table": {
+        "caption": "Check each address location instead of assuming checkout has only one copy.",
+        "headers": [
+          "Location",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Retailer account",
+            "Whether the address is saved, defaulted, editable, or removable."
+          ],
+          [
+            "Checkout form",
+            "Whether autofill selected an old or unintended destination."
+          ],
+          [
+            "Browser or device",
+            "Whether address details are stored for future autofill."
+          ],
+          [
+            "Carrier account",
+            "Whether tracking or delivery preferences expose a saved destination."
+          ],
+          [
+            "Shared household account",
+            "Who can view orders, delivery notices, and stored addresses."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether an alternative destination is genuinely supported",
+      "paragraphs": [
+        "A pickup point, parcel locker, staffed collection desk, or other destination can be useful only if the retailer and carrier support it for that shipment. Check the order's delivery choices and the carrier's requirements before placing the order. Some destinations may have size limits, time limits, identification requirements, or restrictions on what can be delivered. Do not infer availability from a location appearing in a map or search result.",
+        "Confirm how you will learn that the parcel is ready and how long you have to collect it. If the notice will go to a shared email address or phone, consider whether its sender, subject line, or preview could reveal order activity. If collection requires a code or identification, store the code in a place that is both accessible to you and appropriately protected.",
+        "Also plan for a failed delivery or missed pickup. Check the retailer's and carrier's procedures for redelivery, return to sender, or collection by another person. A delivery arrangement that depends on a single narrow window may not be a good fit if you cannot reliably attend."
+      ],
+      "bullets": [
+        "Verify destination support with the retailer or carrier before ordering.",
+        "Check collection deadlines, identification rules, and alternate-collector requirements.",
+        "Plan what to do if a delivery attempt fails or a pickup window is missed."
+      ]
+    },
+    {
+      "heading": "Understand address changes and order timing",
+      "paragraphs": [
+        "An address may be difficult to change once an order is being prepared or handed to a carrier. Before submitting payment, check the retailer's order-change policy and identify the point after which a destination edit may no longer be available. If you notice an error, use the retailer's official account or support route promptly; do not assume that editing a saved address will update an order already placed.",
+        "If the carrier offers delivery changes, confirm whether those controls apply to this shipment and whether they can redirect it to the destination you need. A carrier's general feature description may not apply to every retailer, package type, or delivery stage. Keep the order confirmation and tracking reference until the parcel is received or the issue is resolved.",
+        "When asking for help, provide the order identifier and the minimum address details needed to locate the shipment through an official support channel. Avoid sending a full account password, payment credentials, or identity documents unless a clearly documented, necessary process requires them. Verify the support destination before sharing order information."
+      ]
+    },
+    {
+      "heading": "Limit exposure after delivery",
+      "paragraphs": [
+        "After the parcel arrives, consider where the shipping label, order email, and tracking notices will remain. Packaging and labels may contain a name, address, barcode, or tracking number. Dispose of them in a way that fits your privacy needs, and do not leave a label visible in a shared recycling or delivery area. Keep any paperwork required for a return or support issue, but store it somewhere appropriate.",
+        "Check whether the retailer sent marketing messages or a request for feedback that you do not want in a shared inbox. Review account communication preferences using the retailer's own controls. If you used a shared device, sign out where appropriate and remove any unnecessary address autofill or order-page residue using ordinary device settings.",
+        "Address privacy is not achieved by one checkout setting. It depends on the retailer account, browser, carrier, destination, notification route, and household arrangements. A short post-delivery review helps you remove stale information without deleting records you may still need for a return, warranty, or delivery problem."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a collection point instead of my home address?",
+      "answer": "Only if the retailer and carrier offer that destination for the specific order and you can meet its collection and identification requirements. Confirm the option before placing the order."
+    },
+    {
+      "question": "Does guest checkout mean the retailer will not retain my address?",
+      "answer": "Not necessarily. The retailer may need address information to fulfill the order and may offer to save it. Read the checkout choices and privacy information, then check any account or browser settings that could retain the details."
+    },
+    {
+      "question": "Can I change the delivery address after ordering?",
+      "answer": "That depends on the retailer's order stage and the carrier's options. Check the relevant policies and contact the retailer promptly through an official route if the address is wrong."
+    },
+    {
+      "question": "Should I delete all delivery records after the parcel arrives?",
+      "answer": "Not automatically. Keep records needed for a return, warranty, or unresolved delivery issue. Remove unnecessary copies and stale saved addresses while retaining the information you have a practical reason to keep."
+    }
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
