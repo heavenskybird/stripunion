@@ -1,0 +1,141 @@
+{
+  "backlogId": "webmaster-affiliate-program-site-ownership-transition-plan",
+  "slug": "webmaster-affiliate-program-site-ownership-transition-plan",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Plan for a Website Ownership or Operator Change",
+  "description": "A continuity checklist for webmasters preparing to transfer a site, change operators, or reorganize ownership without losing control of affiliate records and obligations.",
+  "excerpt": "A website handover affects more than its domain and content. Map program accounts, referral links, approvals, access rights, and outstanding records before ownership or operations change.",
+  "keyTakeaways": [
+    "Inventory each affiliate account, associated property, named payee, and person authorized to manage it before a handover.",
+    "Check program terms for transfer, account ownership, notice, and reapproval requirements instead of assuming an account follows the website.",
+    "Preserve a dated record of live links, approvals, program terms, and outstanding commissions or reports.",
+    "Plan access removal and credential changes alongside technical migration so former operators do not retain unnecessary account access."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a site handover as a program dependency",
+      "paragraphs": [
+        "A change in who owns or operates a website can affect referral links, account authority, program approval, reporting access, and payment administration. These may be controlled by different parties or governed by different documents. A domain transfer alone does not establish that an affiliate account or its permissions can be transferred with it.",
+        "Start by identifying the exact change: a sale, a transfer between related businesses, a change of operating agency, a staff departure, or a shift in account administration. Those scenarios may have different consequences under a program’s rules and under the parties’ agreements. The goal is not to assume a single transfer process, but to find the requirements that apply before the site’s ownership or operating structure changes."
+      ],
+      "bullets": [
+        "Name the current legal owner, site operator, account owner, and payee separately.",
+        "List which properties and campaigns depend on each account.",
+        "Identify the proposed effective date and the people who must approve the change."
+      ]
+    },
+    {
+      "heading": "Build a complete inventory before changing access",
+      "paragraphs": [
+        "Create a handover register that connects every affiliate relationship to the website activity it supports. Include the program account, approved property or domain, referral-link locations, tracking identifiers, creative assets, dashboard users, and the person responsible for records. Note any account that is shared across more than one site, because a change to one property may not be isolated to that property.",
+        "Also capture the documents that explain the arrangement. A current program agreement, written approval, dashboard notice, and support response may not all say the same thing. Record the source and date of each item rather than relying on a remembered conversation. If you encounter conflicting instructions, resolve them through an official written channel before transferring control."
+      ],
+      "table": {
+        "caption": "Website handover register",
+        "headers": [
+          "Item",
+          "Record before transition",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Account and property",
+            "Account owner, approved domain, and associated site",
+            "Shows which relationship is affected"
+          ],
+          [
+            "Referral assets",
+            "Live links, tracking labels, and placements",
+            "Makes migration and replacement work traceable"
+          ],
+          [
+            "Permissions",
+            "Written approvals and relevant terms versions",
+            "Helps verify whether use can continue"
+          ],
+          [
+            "Access",
+            "Users, roles, recovery contacts, and access owner",
+            "Supports orderly transfer and removal"
+          ],
+          [
+            "Open records",
+            "Unsettled reporting periods and correspondence",
+            "Preserves context for later reconciliation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check transfer, notice, and reapproval rules",
+      "paragraphs": [
+        "Read the current program terms for provisions about assignment, account transfer, changes in ownership, changes in payee, changes in business entity, or the use of an approved property by a new operator. The relevant rule may appear in an agreement, an account policy, or a documented approval process. Do not assume that permission to keep operating the website also permits a new party to use the old account or its credentials.",
+        "If the terms are unclear, ask the program administrator a narrow question that describes the planned change and asks what approval or account action is required. Keep the question and reply with your handover records. Avoid promising a buyer or new operator that links, commissions, or account status will transfer until the responsible program has confirmed the applicable process."
+      ],
+      "bullets": [
+        "Check whether a new application, property review, or payee update is required.",
+        "Ask whether links remain valid during a transfer and who can authorize continued use.",
+        "Keep the response with the relevant agreement and date."
+      ]
+    },
+    {
+      "heading": "Preserve tracking and reporting context",
+      "paragraphs": [
+        "Before a transition, export or otherwise preserve the reports and records you are entitled to retain under the program’s terms and applicable obligations. Make a dated list of active tracking identifiers and where they appear on the site. This makes it easier to identify which reporting period belongs to the previous operator and which begins under the new operating arrangement.",
+        "Do not mix historical records with the new operator’s activity without a clear explanation. If identifiers or accounts must change, document the cutover date and the link replacement process. A handover can create gaps in reporting or confusion about who should investigate a discrepancy. A simple transition log can show which links were changed, when they were changed, and which account was responsible at that point."
+      ],
+      "bullets": [
+        "Preserve records before access or account changes, subject to program rules.",
+        "Document the cutover date and the status of each affected link.",
+        "Keep historical reporting separate from new activity where the account structure changes."
+      ]
+    },
+    {
+      "heading": "Transfer access without sharing unnecessary credentials",
+      "paragraphs": [
+        "A handover should use authorized user invitations and role changes where the program offers them. Sharing a password may violate account rules and makes it difficult to establish who performed an action. Identify which users need administrative access, which need read-only access if available, and which should lose access once their work is complete.",
+        "Review recovery email addresses, authentication methods, and payment-account authority as part of the same process. The former operator should not remain the only recovery contact for an account that the new operator is expected to manage. Conversely, a former employee or agency should not retain access after its responsibilities end. Record who approved each change and verify access through the official account controls."
+      ],
+      "bullets": [
+        "Use named accounts and least-necessary permissions where available.",
+        "Update authorized recovery contacts through the official process.",
+        "Remove former access after the new arrangement is confirmed, not by informal password sharing."
+      ]
+    },
+    {
+      "heading": "Use a staged handover and a closeout record",
+      "paragraphs": [
+        "A staged plan reduces the chance that a technical site change will happen before program permissions are settled. First, inventory the relationships and check the terms. Next, obtain any required approval or new account setup. Then plan link changes, reporting continuity, and access transfer. Finally, confirm the new operator can manage the approved activity and close out the prior operator’s tasks.",
+        "Finish with a dated record of what was transferred, what remains unresolved, and who owns each follow-up. Keep an explicit list of pending commissions, reporting questions, or account requests without assuming a particular outcome. This record is valuable even when the handover is straightforward because it gives both sides the same account of the transition and provides a place to record later corrections."
+      ],
+      "bullets": [
+        "Do not move links ahead of required program approval.",
+        "Assign an owner and due date to each unresolved item.",
+        "Record completion and retain the handover file according to appropriate business practices."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can an affiliate account automatically transfer when a website is sold?",
+      "answer": "Do not assume so. Account ownership, property approval, and permitted use may be addressed separately in program rules. Check the current terms and get the program’s instructions for the specific transaction."
+    },
+    {
+      "question": "Should the new operator use the previous operator’s login?",
+      "answer": "Avoid informal credential sharing. Use the program’s authorized user or ownership-change process where available, and confirm who controls recovery and administrative access after the handover."
+    },
+    {
+      "question": "What records should be retained during a site transition?",
+      "answer": "Keep a dated inventory of affected accounts, properties, live links, tracking identifiers, approvals, relevant terms, correspondence, access changes, and unresolved reporting items, subject to applicable rules and obligations."
+    }
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
