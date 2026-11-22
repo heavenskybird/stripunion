@@ -1,0 +1,124 @@
+export default {
+  "slug": "adult-dating-notification-timing-controls-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Compare Notification Timing, Quiet Hours, and Delivery Controls",
+  "description": "A decision guide for checking dating-app notification schedules, quiet-hour settings, message previews, and delivery options before relying on alerts.",
+  "excerpt": "Notifications can make a dating platform easier to use, but timing and visibility matter. Check which alerts can be controlled, whether quiet hours are available, and how to avoid exposing message details on a lock screen.",
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "keyTakeaways": [
+    "Separate notification timing from notification content and lock-screen visibility.",
+    "Check whether quiet hours, per-category controls, or device-level settings are available.",
+    "Test settings with a low-risk alert before relying on them for time-sensitive messages.",
+    "Do not assume that disabling push alerts changes in-app status or message delivery.",
+    "Choose settings that match your routine while protecting privacy on shared devices."
+  ],
+  "sections": [
+    {
+      "heading": "Decide which alerts are useful before enabling them",
+      "paragraphs": [
+        "Dating platforms may use alerts for new messages, matches, account notices, promotional reminders, or activity prompts. Those categories serve different purposes, so a single on/off choice may not fit your needs. Before joining or changing settings, list which alerts are useful, which can wait until you open the platform, and which you do not want. This makes the settings screen easier to evaluate than toggling every option by habit.",
+        "Look for controls at both the platform and device levels. The platform may offer categories or schedules, while the operating system may control banners, sounds, previews, and delivery during quiet periods. One layer may not replace the other. Record what each setting appears to control, and do not assume a setting affects other people’s ability to see your activity or message status."
+      ],
+      "bullets": [
+        "Separate message, match, promotional, and account-security alerts.",
+        "Decide whether you need immediate alerts or only periodic checks.",
+        "Review platform settings and device notification settings independently."
+      ]
+    },
+    {
+      "heading": "Check timing and quiet-hour behavior",
+      "paragraphs": [
+        "If quiet hours matter, look for a clearly described schedule and whether it follows the device’s local time. Check whether schedules apply to every notification category or only selected alerts. Some services may offer no built-in schedule, leaving timing to device-level controls. The important decision is not whether a feature is common; it is whether the available controls meet your routine and are understandable.",
+        "Test the result instead of relying on a label. If possible, change one setting at a time and observe a non-sensitive notification or system-level indication. Note whether an alert is silenced, delayed, grouped, or merely hidden from the screen. Avoid sending yourself real personal content as a test. If you cannot determine what “quiet” means in practice, assume only the behavior you have observed."
+      ],
+      "table": {
+        "caption": "Compare notification settings by the behavior they actually control.",
+        "headers": [
+          "Control area",
+          "Question to check",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Schedule or quiet hours",
+            "When are alerts silenced, and in which time zone?",
+            "Displayed schedule and observed behavior"
+          ],
+          [
+            "Alert category",
+            "Can messages and promotions be managed separately?",
+            "Available category toggles"
+          ],
+          [
+            "Lock-screen preview",
+            "Does the alert show content or only a generic notice?",
+            "Preview setting at device level"
+          ],
+          [
+            "Sound and banner",
+            "Can these be changed independently?",
+            "Selected sound, banner, or silent state"
+          ],
+          [
+            "In-app status",
+            "Does changing alerts affect online or read indicators?",
+            "What the platform explains; do not infer"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Protect message content on lock screens and shared devices",
+      "paragraphs": [
+        "A notification can reveal more than the fact that an alert arrived. Depending on device settings, it may show a sender name, message preview, or other account information. Review the preview option on the device itself, particularly if notifications appear on a shared tablet, computer, or watch. A platform’s in-app privacy controls may not govern the operating system’s lock-screen display.",
+        "Consider connected devices as part of the notification path. A watch, desktop companion, or shared browser session might display alerts even when the phone does not. Check which devices are paired and whether alerts are mirrored. If you cannot verify the destination of an alert, disable the relevant mirroring or use a more general preview setting. Avoid testing sensitive alerts in a public or shared setting."
+      ],
+      "bullets": [
+        "Use generic lock-screen previews if message content should remain private.",
+        "Review notification mirroring on watches, desktops, and other connected devices.",
+        "Check paired devices before enabling alerts on a shared account or screen."
+      ]
+    },
+    {
+      "heading": "Understand what notification settings do not change",
+      "paragraphs": [
+        "Muting alerts usually concerns how your device notifies you; it does not necessarily change whether a message arrives, whether a profile is discoverable, or whether the platform shows an online or read indicator. Those are separate features and should be checked in their own settings or policy descriptions. Do not interpret a quiet notification setting as a general privacy mode.",
+        "Likewise, delayed or disabled push notifications do not necessarily delete messages or pause an account. If you want to stop appearing in discovery, pause profile activity, or close an account, look for the platform’s distinct controls. Keeping these functions separate prevents a misleading sense of privacy and helps you choose only the changes that fit your aim."
+      ],
+      "bullets": [
+        "Check profile visibility and online-status settings separately.",
+        "Do not assume notification changes pause, hide, or delete an account.",
+        "If you need a break, review the platform’s explicit pause or account-state options."
+      ]
+    },
+    {
+      "heading": "Choose and revisit a notification setup",
+      "paragraphs": [
+        "A useful setup balances timely communication with predictable privacy. You might allow account-security alerts, silence promotional prompts, use generic lock-screen previews, and check messages on a schedule that suits you. Those are examples, not universal recommendations; choose settings based on your own device and circumstances. Write down the configuration that works so you can restore it after an app update or device change.",
+        "Recheck after switching phones, enabling a wearable, reinstalling an app, or changing operating-system settings. Updates can alter where controls appear or how permissions are presented. If an alert behaves unexpectedly, disable the relevant category while you investigate rather than assuming the setting is still effective. A brief periodic review is more useful than enabling everything once and forgetting it."
+      ],
+      "bullets": [
+        "Keep only the alert categories you find useful.",
+        "Use device-level previews and sounds to match your privacy needs.",
+        "Review settings after device, app, or account changes.",
+        "Confirm the actual behavior before relying on an alert for a time-sensitive conversation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If I turn off dating-app notifications, will messages still arrive?",
+      "answer": "Notification delivery and message delivery are distinct functions. Muting alerts usually changes how your device notifies you, but check the platform’s explanation for the exact effect rather than assuming messages are stopped or deleted."
+    },
+    {
+      "question": "Can I hide message previews without disabling all alerts?",
+      "answer": "That may be possible through device-level notification settings, but controls vary. Check both the platform and operating-system settings, then verify the displayed behavior using a non-sensitive alert."
+    },
+    {
+      "question": "Do quiet hours hide my profile or online status?",
+      "answer": "Do not assume they do. Quiet hours generally concern alert timing. Profile discoverability, activity indicators, and read status are separate controls that should be reviewed independently."
+    }
+  ]
+};
