@@ -1,0 +1,119 @@
+export default {
+  "slug": "webmaster-affiliate-term-interpretation-evidence-workflow",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Terms: Build an Evidence Trail for Ambiguous Rules",
+  "description": "When affiliate program rules are unclear, record the exact wording, source, date, and written clarification before acting. A practical workflow helps webmasters distinguish confirmed permissions from assumptions.",
+  "excerpt": "Ambiguous terms can make a planned placement or workflow hard to assess. Preserve the exact rule and request a narrow written clarification before relying on an interpretation.",
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "keyTakeaways": [
+    "Capture the exact clause, its source, version or date, and the activity it appears to govern.",
+    "Separate a direct written permission from an informal assumption or an answer that does not address the question.",
+    "Ask one specific scenario-based question at a time and retain the response with the relevant program terms.",
+    "Do not treat silence, dashboard behavior, or another publisher’s practice as approval.",
+    "Pause the affected activity if the uncertainty could create a material compliance or payment risk."
+  ],
+  "sections": [
+    {
+      "heading": "Why ambiguity deserves a repeatable process",
+      "paragraphs": [
+        "Affiliate program rules may be spread across an agreement, program policy, dashboard notice, help page, and support replies. A sentence can appear clear in isolation yet leave open questions about the placement, traffic source, or content type you actually plan to use. Acting on a guess can create avoidable operational risk, especially when a rule affects eligibility, permitted promotion, or commissions.",
+        "This workflow is not legal advice and cannot determine how a contract will be interpreted. Its purpose is narrower: create a reliable record of what you read, what you asked, and what response you received. That record can help you make an informed operational decision or seek qualified advice when the issue has legal or financial consequences."
+      ]
+    },
+    {
+      "heading": "Capture the rule in context",
+      "paragraphs": [
+        "Start with the exact text rather than a paraphrase. Save the clause or policy passage, the page or document where it appears, any version or effective date shown, and the date you accessed it. Include enough surrounding context to avoid separating a condition from its exception. If the language is available only inside an account, record the relevant section without collecting unrelated personal or confidential information.",
+        "Next, describe the activity you want to evaluate in concrete terms. Include the traffic channel, placement, audience, page type, geography if relevant, and whether a link, promotion, or incentive is involved. Avoid a broad question such as “Is this allowed?” when the real uncertainty concerns one particular scenario. A precise scenario gives the program contact a better chance to answer the question you need resolved."
+      ]
+    },
+    {
+      "heading": "Separate facts, interpretations, and assumptions",
+      "paragraphs": [
+        "A useful evidence file labels each item by its status. “The policy says” should refer to exact wording. “Support confirmed” should identify the written response and the scenario described. “Our interpretation” should be marked as an interpretation, not presented as a program decision. “Unknown” should remain unknown until you receive enough information to resolve it.",
+        "This distinction matters when different documents appear to conflict. Do not silently choose the most convenient version or assume that a newer-looking dashboard notice overrides an agreement. Record both sources, their dates, and the specific difference. Then ask which source governs the activity and whether the response applies to your account and proposed use. Keep the question and answer together so a future reviewer can see exactly what was asked."
+      ],
+      "table": {
+        "caption": "A compact ambiguity record for each rule question",
+        "headers": [
+          "Record field",
+          "What to capture",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Rule source",
+            "Document or page, section, and surrounding context",
+            "Makes the wording traceable"
+          ],
+          [
+            "Version and date",
+            "Displayed effective date and date accessed",
+            "Shows which version you reviewed"
+          ],
+          [
+            "Planned activity",
+            "Channel, placement, page type, and relevant conditions",
+            "Defines the scenario being assessed"
+          ],
+          [
+            "Uncertainty",
+            "The precise phrase or conflict that is unclear",
+            "Keeps the question focused"
+          ],
+          [
+            "Written response",
+            "Date, channel, respondent role if known, and exact answer",
+            "Preserves what was actually confirmed"
+          ],
+          [
+            "Decision and owner",
+            "Action taken, responsible person, and review date",
+            "Makes follow-up and change monitoring manageable"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Ask a narrow, answerable question",
+      "paragraphs": [
+        "Send the question through an official program contact route where possible. Quote the relevant wording and describe the intended activity without adding unrelated scenarios. Ask for a direct clarification, such as whether a specified placement on a specified page is permitted under the current terms. If the answer depends on a condition, ask what condition must be met and whether the response is specific to your account.",
+        "Avoid wording that invites a general reassurance but leaves the key detail unanswered. For example, a broad “Can I use social media?” may not establish whether a particular account, content format, paid promotion method, or link type is permitted. Keep copies of the message and response, and note any limitations or qualifications. If the response directs you to a policy page, save that page and compare it with the question you asked."
+      ]
+    },
+    {
+      "heading": "Handle conflicting or incomplete answers",
+      "paragraphs": [
+        "A reply can be incomplete without being contradictory. It may address one part of a scenario but not another, or point to a general policy without explaining how it applies. Mark each unresolved point and follow up with a concise question. Do not expand a limited answer into approval for other channels, pages, or campaign methods.",
+        "If two sources genuinely conflict, preserve both and ask which rule controls, including the relevant dates and the activity at issue. Until the conflict is resolved, consider pausing the affected campaign or using a clearly permitted alternative. The right response depends on the potential consequences and your circumstances; for material contractual, regulatory, or financial questions, seek qualified professional advice rather than relying solely on a support message."
+      ]
+    },
+    {
+      "heading": "Maintain the record after a decision",
+      "paragraphs": [
+        "Once you decide how to proceed, note the decision, who approved it internally, which evidence supports it, and when the interpretation should be reviewed. A permission may depend on stated conditions or a version of the rules. If the terms change, revisit the affected activity rather than carrying forward an old answer without checking its scope.",
+        "Store the file where the people responsible for publishing or managing links can find it, with access limited to those who need it. Keep the record focused on program rules and operational evidence; do not add sensitive visitor information that is not necessary. A concise, dated trail is more useful than a large collection of unlabelled screenshots or informal messages."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a support reply override the written agreement?",
+      "answer": "Do not assume that it does. Preserve the reply and the relevant agreement text, ask how the response relates to the governing terms, and seek qualified advice if the issue has material legal or financial consequences."
+    },
+    {
+      "question": "Is a dashboard feature proof that a promotion method is allowed?",
+      "answer": "No. A tool being available does not necessarily establish that every use of it is permitted. Check the written rules and obtain clarification for the specific activity if needed."
+    },
+    {
+      "question": "What if the program does not answer my question?",
+      "answer": "Treat the point as unresolved. Follow up through an appropriate contact route, consider pausing the affected activity, and avoid presenting silence as approval."
+    },
+    {
+      "question": "How much should I save in an evidence file?",
+      "answer": "Keep the exact rule, source and date, the activity you asked about, the written response, and the decision made. Avoid collecting unrelated personal or confidential information."
+    }
+  ]
+};
