@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T16:17:13.569Z",
+  "generatedAt": "2026-11-22T17:54:39.826Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-game-session-resume-audit.json",
-    "ops/editorial/content-artifacts/adult-dating-sms-login-continuity-check.json",
-    "ops/editorial/content-artifacts/creator-platform-external-link-tracking-disclosure-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-room-autoplay-sound-exposure-check.json",
-    "ops/editorial/content-artifacts/premium-video-browser-session-continuity-check.json"
+    "ops/editorial/content-artifacts/webmaster-affiliate-direct-network-accountability-map.json",
+    "ops/editorial/content-artifacts/privacy-safety-payment-adult-platform-calendar-reminder-boundaries.json",
+    "ops/editorial/content-artifacts/vr-platform-visual-access-adjustment-evidence-check.json",
+    "ops/editorial/content-artifacts/free-video-external-search-snippet-privacy-context-check.json",
+    "ops/editorial/content-artifacts/adult-games-anime-game-format-expectation-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-game-session-resume-audit.js",
-    "src/data/guides/adult-dating-sms-login-continuity-check.js",
-    "src/data/guides/creator-platform-external-link-tracking-disclosure-workflow.js",
-    "src/data/guides/live-cam-room-autoplay-sound-exposure-check.js",
-    "src/data/guides/premium-video-browser-session-continuity-check.js"
+    "src/data/guides/webmaster-affiliate-direct-program-vs-network-accountability-map.js",
+    "src/data/guides/adult-platform-renewal-reminder-calendar-privacy-boundaries.js",
+    "src/data/guides/vr-adult-platform-visual-adjustment-accessibility-check.js",
+    "src/data/guides/free-video-platform-external-search-snippet-privacy-context-check.js",
+    "src/data/guides/adult-anime-games-format-and-interactivity-check.js"
   ],
   "categories": [
-    "hentai-anime",
-    "dating-hookups",
-    "creator-platforms",
-    "live-cams",
-    "premium-videos"
+    "webmaster-affiliate",
+    "privacy-safety-payment",
+    "vr-ar",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "adult-anime-game-session-resume-audit",
-    "adult-dating-sms-login-continuity-check",
-    "creator-platform-external-link-tracking-disclosure-workflow",
-    "live-cam-room-autoplay-sound-exposure-check",
-    "premium-video-browser-session-continuity-check"
+    "webmaster-affiliate-direct-network-accountability-map",
+    "privacy-safety-payment-adult-platform-calendar-reminder-boundaries",
+    "vr-platform-visual-access-adjustment-evidence-check",
+    "free-video-external-search-snippet-privacy-context-check",
+    "adult-games-anime-game-format-expectation-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45042720017",
-  "phase": "closed"
+  "r1CycleId": "45051825343"
 }
