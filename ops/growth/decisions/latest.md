@@ -1,6 +1,6 @@
 # Growth Brain v2 — Decision Plan
 
-Generated: 2026-11-21T08:24:29.416Z
+Generated: 2026-11-22T08:11:27.135Z
 
 Governor: {"authorityMode":"shadow","publicationTargetPerHour":5,"publicationHardMaxPerHour":5,"minimumAcceptedPublicationsPerHour":1,"maxConcurrentExperiments":1,"minimumEditorialWords":700,"duplicateSimilarityBlockThreshold":0.42,"highRiskActionsAutoImplemented":false,"fillerContentAllowed":false,"qualityGateCanReduceOutput":true,"rule":"Targets are ceilings/objectives, never permission to ship thin, duplicative, unsupported or cannibalizing content."}
 
@@ -36,7 +36,7 @@ Revenue: business reporting USD (owner confirmed); confirmed scoped USD commissi
 - **BUILD_AUTHORITY** · 62 · blog.stripunion.com · eligible=true · risk=low · confidence=medium · Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
 - **BUILD_AUTHORITY** · 62 · stripunion.com · eligible=true · risk=low · confidence=medium · Create link-worthy research/comparison assets and pursue legitimate partner/editorial citations; do not use paid link farms or bulk directory spam.
 - **UPDATE** · 53 · Become a cam model · eligible=true · risk=low · confidence=low · refresh existing /become-a-cam-model landing page using clustered search evidence
-- **UPDATE** · 52 · AdultFriendFinder review · eligible=true · risk=low · confidence=low · refresh existing /adultfriendfinder landing page using clustered search evidence
+- **UPDATE** · 51 · AdultFriendFinder review · eligible=true · risk=low · confidence=low · refresh existing /adultfriendfinder landing page using clustered search evidence
 - **CREATE** · 49 · anime adult games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **CREATE** · 46 · anime online sex games · eligible=true · risk=low · confidence=low · evaluate a new on-site guide against the content inventory
 - **OBSERVE** · 45 · blog.stripunion.com · eligible=false · risk=low · confidence=observed · Official consent-respecting GA4 host stages; no invented user join or automatic publishing authority.

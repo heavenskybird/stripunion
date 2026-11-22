@@ -1,8 +1,8 @@
-# Daily Growth Opportunities — 2026-11-21
+# Daily Growth Opportunities — 2026-11-22
 
-Sources: GSC 2026-11-19 · Bing 2026-11-20 · GA4 2026-11-20 · Clarity 2026-11-21 · Attribution 2026-11-20 · StripCash 2026-11-20 · competitor snapshot 2026-11-21 · diff 2026-11-21.
+Sources: GSC 2026-11-20 · Bing 2026-11-21 · GA4 2026-11-21 · Clarity 2026-11-22 · Attribution 2026-11-21 · StripCash 2026-11-21 · competitor snapshot 2026-11-22 · diff 2026-11-22.
 
-Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 34 · off-topic/broad Bing expansion rows dropped: 137.
+Query hygiene: canonical clustering enabled · synthetic/prompt-like rows dropped: 34 · off-topic/broad Bing expansion rows dropped: 141.
 
 WordPress draft inventory: unavailable in this run; no draft rows or publish-ready count are inferred.
 
@@ -10,21 +10,21 @@ StripCash aggregate funnel connected: 2 signups · 0 verified · 0 purchases · 
 
 ## Keyword expansion from Bing
 
-1. **xhamster'** — 3627851 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-2. **chaturbate** — 1933289 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
-3. **xhampster** — 827580 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-4. **xhamster .com** — 764995 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-5. **hamster porn** — 198186 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-6. **xhamster porn** — 117120 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+1. **xhamster.** — 3625629 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+2. **chaturbate** — 1929055 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
+3. **xhamster .com** — 531991 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+4. **hamster porn** — 297279 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+5. **xhampster** — 275860 Bing keyword-research impressions signal; seed(s): xhamster reviews; use: refresh_existing:/xhamster.
+6. **chaterbate** — 224498 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate-alternatives.
 7. **amateur porn** — 88553 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: new_content_candidate.
-8. **xhamster live** — 79612 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+8. **chaturbate com** — 77281 Bing keyword-research impressions signal; seed(s): chaturbate alternatives; use: refresh_existing:/chaturbate.
 9. **xhamster gay** — 52142 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
-10. **xhamsters** — 51404 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-11. **hamster xxx** — 27004 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
-12. **live cams** — 22909 Bing keyword-research impressions signal; seed(s): live cam sites; use: refresh_existing:/best-live-cam-sites.
-13. **live porn** — 22404 Bing keyword-research impressions signal; seed(s): live cam sites; use: new_content_candidate.
-14. **xhamsters videos** — 21068 Bing keyword-research impressions signal; seed(s): xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
-15. **xhamsters.com** — 14645 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+10. **xhamsters** — 51404 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview; use: refresh_existing:/xhamster.
+11. **hamster xxx** — 40506 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster site overview, xhamster reviews; use: refresh_existing:/xhamster.
+12. **xhamster porn** — 39040 Bing keyword-research impressions signal; seed(s): xhamster site overview; use: refresh_existing:/xhamster.
+13. **xxx hamster** — 24194 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
+14. **live porn** — 22404 Bing keyword-research impressions signal; seed(s): live cam sites; use: new_content_candidate.
+15. **exhamster** — 21480 Bing keyword-research impressions signal; seed(s): xhamster review, xhamster reviews; use: refresh_existing:/xhamster.
 
 ## Rising keyword signals
 
@@ -69,8 +69,8 @@ No actionable Clarity friction signals were found in the latest export.
 21. **anime sex games** — evaluate a new on-site guide against the content inventory; 79 clustered impressions, 3 clicks, best position 6.5, 27 query variant(s); intent unknown; route none; confidence low; risk low.
 22. **anime adult games** — evaluate a new on-site guide against the content inventory; 18 clustered impressions, 1 clicks, best position 3, 9 query variant(s); intent unknown; route none; confidence low; risk low.
 23. **hentai sites** — evaluate a new on-site guide against the content inventory; 113 clustered impressions, 2 clicks, best position 12.5, 19 query variant(s); intent unknown; route none; confidence medium; risk low.
-24. **AdultFriendFinder review** — refresh existing /adultfriendfinder landing page using clustered search evidence; 16 clustered impressions, 0 clicks, best position 9, 10 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
-25. **Become a cam model** — refresh existing /become-a-cam-model landing page using clustered search evidence; 218 clustered impressions, 0 clicks, best position 1, 158 query variant(s); intent approved creator-referral intent; route avcams-model-signup; confidence low; risk low.
+24. **AdultFriendFinder review** — refresh existing /adultfriendfinder landing page using clustered search evidence; 12 clustered impressions, 0 clicks, best position 9, 8 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk low.
+25. **Become a cam model** — refresh existing /become-a-cam-model landing page using clustered search evidence; 210 clustered impressions, 0 clicks, best position 1, 153 query variant(s); intent approved creator-referral intent; route avcams-model-signup; confidence low; risk low.
 26. **best paid hentai sites** — validate audience fit and an official monetization relationship before adding a commercial CTA; 21 clustered impressions, 0 clicks, best position 3, 18 query variant(s); intent commercial/review intent; monetization relationship not approved; route none; confidence low; risk high.
 27. **anime online sex games** — evaluate a new on-site guide against the content inventory; 28 clustered impressions, 0 clicks, best position 5, 24 query variant(s); intent unknown; route none; confidence low; risk low.
 28. **creator fan platform** — evaluate a new on-site guide against the content inventory; 14 clustered impressions, 0 clicks, best position 41.5, 9 query variant(s); intent unknown; route none; confidence low; risk low.
