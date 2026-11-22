@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T23:13:46.157Z",
+  "generatedAt": "2026-11-22T00:37:58.308Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-accessibility-visual-scaling-review.json",
-    "ops/editorial/content-artifacts/live-cam-room-audio-output-device-routing-check.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-conversion-test-reconciliation.json",
-    "ops/editorial/content-artifacts/vr-adult-session-controller-battery-planning.json",
-    "ops/editorial/content-artifacts/adult-anime-game-branch-route-planning.json"
+    "ops/editorial/content-artifacts/free-video-location-permission-decision.json",
+    "ops/editorial/content-artifacts/adult-games-accessible-demo-session-planner.json",
+    "ops/editorial/content-artifacts/adult-shop-gift-receipt-privacy-planner.json",
+    "ops/editorial/content-artifacts/adult-platform-shared-tax-records-boundary-plan.json",
+    "ops/editorial/content-artifacts/creator-platform-trial-to-launch-readiness.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-platforms-visual-scaling-accessibility-check.js",
-    "src/data/guides/live-cam-platforms-check-audio-output-and-device-routing.js",
-    "src/data/guides/webmaster-affiliate-reconcile-test-conversions-and-production-data.js",
-    "src/data/guides/vr-adult-platforms-plan-controller-battery-and-session-continuity.js",
-    "src/data/guides/adult-anime-games-check-route-and-ending-structure-before-starting.js"
+    "src/data/guides/free-video-site-location-permission-decision-guide.js",
+    "src/data/guides/adult-games-demo-session-planning-guide.js",
+    "src/data/guides/adult-shop-gift-receipt-privacy-planning-guide.js",
+    "src/data/guides/adult-platform-tax-record-sharing-boundaries-guide.js",
+    "src/data/guides/creator-platform-trial-to-launch-readiness-checklist.js"
   ],
   "categories": [
-    "premium-videos",
-    "live-cams",
-    "webmaster-affiliate",
-    "vr-ar",
-    "hentai-anime"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "privacy-safety-payment",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "premium-video-accessibility-visual-scaling-review",
-    "live-cam-room-audio-output-device-routing-check",
-    "webmaster-affiliate-conversion-test-reconciliation",
-    "vr-adult-session-controller-battery-planning",
-    "adult-anime-game-branch-route-planning"
+    "free-video-location-permission-decision",
+    "adult-games-accessible-demo-session-planner",
+    "adult-shop-gift-receipt-privacy-planner",
+    "adult-platform-shared-tax-records-boundary-plan",
+    "creator-platform-trial-to-launch-readiness"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "44960568794",
-  "phase": "closed"
+  "r1CycleId": "44967016251"
 }
