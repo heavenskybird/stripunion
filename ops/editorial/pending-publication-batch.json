@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-22T21:47:14.486Z",
+  "generatedAt": "2026-11-22T23:02:12.096Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-pricing-change-test-plan.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-dispute-record-minimization.json",
-    "ops/editorial/content-artifacts/adult-dating-first-message-initiation-rules-audit.json",
-    "ops/editorial/content-artifacts/vr-platform-text-entry-navigation-fit-review.json",
-    "ops/editorial/content-artifacts/free-video-result-context-preclick-review.json"
+    "ops/editorial/content-artifacts/hentai-anime-platform-discovery-by-format-workflow.json",
+    "ops/editorial/content-artifacts/adult-games-community-model-fit-check.json",
+    "ops/editorial/content-artifacts/adult-shop-order-policy-sequence-planner.json",
+    "ops/editorial/content-artifacts/premium-video-session-budget-fit-check.json",
+    "ops/editorial/content-artifacts/adult-platform-paper-record-minimization-plan.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-pricing-change-test-plan.js",
-    "src/data/guides/adult-platform-payment-dispute-record-minimization.js",
-    "src/data/guides/adult-dating-first-message-initiation-rules-audit.js",
-    "src/data/guides/vr-platform-text-entry-navigation-fit-review.js",
-    "src/data/guides/free-video-result-context-preclick-review.js"
+    "src/data/guides/hentai-anime-platform-discovery-by-format-workflow.js",
+    "src/data/guides/adult-games-community-model-fit-check.js",
+    "src/data/guides/adult-shop-order-policy-sequence-planner.js",
+    "src/data/guides/premium-video-session-budget-fit-check.js",
+    "src/data/guides/adult-platform-paper-record-minimization-plan.js"
   ],
   "categories": [
-    "creator-platforms",
-    "privacy-safety-payment",
-    "dating-hookups",
-    "vr-ar",
-    "free-videos"
+    "hentai-anime",
+    "adult-games",
+    "adult-shops",
+    "premium-videos",
+    "privacy-safety-payment"
   ],
   "backlogIds": [
-    "creator-platform-pricing-change-test-plan",
-    "adult-platform-payment-dispute-record-minimization",
-    "adult-dating-first-message-initiation-rules-audit",
-    "vr-platform-text-entry-navigation-fit-review",
-    "free-video-result-context-preclick-review"
+    "hentai-anime-platform-discovery-by-format-workflow",
+    "adult-games-community-model-fit-check",
+    "adult-shop-order-policy-sequence-planner",
+    "premium-video-session-budget-fit-check",
+    "adult-platform-paper-record-minimization-plan"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45073826912",
-  "phase": "closed"
+  "r1CycleId": "45080778791"
 }
