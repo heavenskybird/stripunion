@@ -1,0 +1,119 @@
+{
+  "backlogId": "vr-platform-text-entry-navigation-fit-review",
+  "slug": "vr-platform-text-entry-navigation-fit-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Search and Text Entry Before Choosing a Library",
+  "description": "Assess how a VR platform handles search, text entry, and navigation on your actual headset before investing in a library or membership.",
+  "excerpt": "A large catalog is less useful if finding a title requires awkward text entry or repeated device switching. Test the search path on the setup you plan to use.",
+  "keyTakeaways": [
+    "Test the complete search path on the intended headset, not just on a desktop preview.",
+    "Check whether search can be completed with your available input method and whether text remains legible.",
+    "Notice how the interface handles corrections, filters, and moving between results and details.",
+    "Verify whether a companion device is required rather than assuming it is optional.",
+    "Record the steps and friction points consistently so platform comparisons are based on the same task."
+  ],
+  "sections": [
+    {
+      "heading": "Test a real task, not a feature label",
+      "paragraphs": [
+        "A platform may advertise search or browsing, but that label does not tell you how many steps the task takes in a headset. Test a representative path: open the library, enter a query or choose a filter, review results, open an item’s details, and return to the results. Use only lawful, non-sensitive sample terms for the test and avoid saving account information on a device you do not control.",
+        "Run the task on the headset and access route you intend to use. A desktop page may be easier to operate than an in-headset browser, and a companion phone or computer may change the experience. Record whether the task can be finished without leaving the headset, whether you need to switch devices, and how easy it is to recover if you select the wrong result."
+      ],
+      "bullets": [
+        "Start from the platform’s normal entry point.",
+        "Complete one search and one filter or sort action.",
+        "Open a result, inspect its information, then return to the list.",
+        "Note any point where a second device or different access route is required."
+      ]
+    },
+    {
+      "heading": "Check text entry and correction effort",
+      "paragraphs": [
+        "Text entry can be a meaningful part of repeated browsing. Try the input method available to you, whether that is a virtual keyboard, controller interaction, voice input, or a companion device, if the platform offers it. Do not assume every method is supported. Check how the keyboard appears, whether the text field remains visible, and whether you can correct a typo without restarting the whole search.",
+        "Consider privacy as well as convenience when evaluating an input route. Voice input may involve microphone permissions or an external service; a companion device may show a search query on a notification or shared screen. Review the relevant permissions and device context before enabling optional inputs. The right choice depends on your setup and comfort, not merely the fewest taps."
+      ],
+      "table": {
+        "caption": "A repeatable headset search check",
+        "headers": [
+          "Task",
+          "What to observe",
+          "Record"
+        ],
+        "rows": [
+          [
+            "Open search",
+            "How many steps and whether the control is easy to locate",
+            "Entry route and any confusing labels"
+          ],
+          [
+            "Enter a query",
+            "Input method, legibility, and correction effort",
+            "Whether a typo can be fixed in place"
+          ],
+          [
+            "Use a filter",
+            "Whether selected criteria are visible and reversible",
+            "Filter state before and after returning"
+          ],
+          [
+            "Open a result",
+            "Whether useful details are readable in-headset",
+            "Any required device switch"
+          ],
+          [
+            "Return to results",
+            "Whether the query and position are retained",
+            "What state was preserved or lost"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Evaluate result navigation and state retention",
+      "paragraphs": [
+        "Search is a sequence, not just a text box. Check whether result cards make key distinctions visible before opening them and whether the platform provides a clear way back. If the interface loses your query, filter, or position after viewing a detail page, repeated evaluation may become laborious. Record what actually happens in your test; do not infer that a feature is absent based on one unexplained error.",
+        "Try a small set of different searches using comparable steps. Notice whether the interface communicates that a filter is active, whether clearing it is straightforward, and whether the results change in an understandable way. A useful search interface makes state visible, so you can tell what criteria are shaping results and remove a constraint when it no longer fits."
+      ],
+      "bullets": [
+        "Check whether the active query and filters are visible.",
+        "Confirm whether Back returns to the same list position.",
+        "Look for a clear reset or remove-filter action.",
+        "Note any unclear or inconsistent result labels."
+      ]
+    },
+    {
+      "heading": "Separate device limitations from platform limitations",
+      "paragraphs": []
+    },
+    {
+      "heading": "Use the test to decide whether browsing fits your routine",
+      "paragraphs": [
+        "The most important question is whether the search path is workable for your intended use. A platform may have a library that interests you but require more device switching than you want. Another may be straightforward for quick searches but less convenient for detailed filtering. Evaluate the workflow you expect to repeat, rather than choosing from a feature list alone.",
+        "Before joining or buying access, write down the minimum acceptable conditions: readable text, an input method you can use, understandable filters, and a return path that does not make browsing feel like starting over. If any condition cannot be verified before payment, mark it unknown and consider whether that uncertainty is acceptable. Recheck the path after major interface or device changes, since software updates can alter navigation."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I evaluate VR search from a desktop browser?",
+      "answer": "A desktop preview can help you understand the general layout, but it cannot establish how text entry and navigation work in a headset. If headset use is important, test the intended headset and access route when possible."
+    },
+    {
+      "question": "Should I enable voice input to make search easier?",
+      "answer": "Only if it suits your privacy and accessibility preferences. Check microphone permissions and how the input is processed or handled where that information is available. A virtual keyboard or companion device may be preferable for some users."
+    },
+    {
+      "question": "What if a search test fails once?",
+      "answer": "Record the conditions and, if practical, repeat the task to distinguish a persistent workflow issue from a temporary problem. Note the device, access route, and network context without assuming the cause."
+    }
+  ],
+  "publishedAt": "2026-11-22",
+  "updatedAt": "2026-11-22",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
