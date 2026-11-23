@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T03:43:06.638Z",
+  "generatedAt": "2026-11-23T05:19:21.340Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-title-shortlist-for-franchise-switchers.json",
-    "ops/editorial/content-artifacts/free-video-ad-session-comparison-log.json",
-    "ops/editorial/content-artifacts/adult-games-release-channel-update-compare.json",
-    "ops/editorial/content-artifacts/adult-shop-product-care-information-compare.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-discovery-source-expectations.json"
+    "ops/editorial/content-artifacts/premium-anime-animation-library-fit.json",
+    "ops/editorial/content-artifacts/adult-platform-security-alert-channel-fit.json",
+    "ops/editorial/content-artifacts/live-cam-room-connection-recovery-fit.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-expectation-clarity.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-creative-localization-readiness.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-title-shortlist-for-franchise-switchers.js",
-    "src/data/guides/free-video-ad-session-comparison-log.js",
-    "src/data/guides/adult-games-release-channel-update-compare.js",
-    "src/data/guides/adult-shop-product-care-information-compare.js",
-    "src/data/guides/creator-platform-fan-discovery-source-expectations.js"
+    "src/data/guides/premium-anime-animation-library-fit.js",
+    "src/data/guides/adult-platform-security-alert-channel-fit.js",
+    "src/data/guides/live-cam-room-connection-recovery-fit.js",
+    "src/data/guides/adult-dating-profile-expectation-clarity.js",
+    "src/data/guides/webmaster-affiliate-creative-localization-readiness.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "creator-platforms"
+    "premium-videos",
+    "privacy-safety-payment",
+    "live-cams",
+    "dating-hookups",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "adult-anime-title-shortlist-for-franchise-switchers",
-    "free-video-ad-session-comparison-log",
-    "adult-games-release-channel-update-compare",
-    "adult-shop-product-care-information-compare",
-    "creator-platform-fan-discovery-source-expectations"
+    "premium-anime-animation-library-fit",
+    "adult-platform-security-alert-channel-fit",
+    "live-cam-room-connection-recovery-fit",
+    "adult-dating-profile-expectation-clarity",
+    "webmaster-affiliate-creative-localization-readiness"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45107395966",
-  "phase": "closed"
+  "r1CycleId": "45116529409"
 }

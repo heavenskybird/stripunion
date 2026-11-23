@@ -1,0 +1,121 @@
+export default {
+  "slug": "adult-platform-security-alert-channel-fit",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Security Alerts: Choose a Safer Email, SMS or Push Setup",
+  "description": "Decide how to receive essential account-security alerts without exposing more adult-platform activity than necessary across inboxes, phones and lock screens.",
+  "excerpt": "Security alerts can help you spot account changes, but their delivery channel may expose details on shared devices or accounts. Separate essential alerts from promotional messages and choose a setup that fits your privacy boundaries.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Identify which messages are essential for account security and which are optional marketing or activity notices.",
+    "Compare email, SMS and push delivery against who can access each inbox, device, lock screen and synced account.",
+    "Check whether alert previews disclose a service name, account detail, or sensitive action before enabling them.",
+    "Keep a private route to the inbox or number used for recovery, and test that you can still receive important account notices."
+  ],
+  "sections": [
+    {
+      "heading": "Separate security messages from promotional notices",
+      "paragraphs": [
+        "Notification settings often combine different kinds of messages: sign-in alerts, password or recovery changes, billing notices, product updates and promotional activity. These do not all have the same value or privacy impact. Before choosing a delivery setup, list the messages you consider important for detecting account access or protecting recovery. Separately list messages you can safely disable, such as optional recommendations or marketing, if the service offers those controls.",
+        "Do not assume that turning off marketing also turns off important account notices, or that every service provides separate controls. Read the labels and descriptions carefully. If the settings are unclear, look for a current help explanation or ask support a narrow question without sending unnecessary personal information. The aim is not to maximize notifications; it is to preserve the messages that matter while reducing avoidable exposure."
+      ],
+      "bullets": [
+        "Mark security and recovery alerts as essential only when they help you act on account changes.",
+        "Treat promotional and routine activity messages as optional unless you have a specific reason to receive them.",
+        "Check whether each setting applies to email, SMS, browser push, or more than one channel."
+      ]
+    },
+    {
+      "heading": "Map who can see each delivery channel",
+      "paragraphs": [
+        "An alert is visible wherever its channel is accessible. A shared email inbox may expose messages to other people, while a work or family phone plan may make text-message previews or records visible in ways you do not control. Push notifications may appear on a lock screen, desktop, connected watch or another device signed into the same account. Consider actual access to the channel, not only whether the platform says it sends a private message.",
+        "Make a quick inventory of the devices and accounts that receive or mirror alerts. Check whether email forwarding, shared mailboxes, notification mirroring, lock-screen previews or desktop browser permissions could reveal the sender or message text. These settings are managed in different places: some on the platform, some in the operating system, and some in the email or phone account. A platform preference alone may not control every copy or preview."
+      ],
+      "table": {
+        "caption": "Compare alert channels against the places other people may access.",
+        "headers": [
+          "Channel",
+          "Check before enabling",
+          "Privacy question"
+        ],
+        "rows": [
+          [
+            "Email",
+            "Inbox access, forwarding, shared devices",
+            "Who can open the inbox or see its notifications?"
+          ],
+          [
+            "SMS",
+            "Phone access, message previews, account access",
+            "Can another person view texts or carrier account records?"
+          ],
+          [
+            "Browser or app push",
+            "Lock-screen text, desktop prompts, synced devices",
+            "Where can a notification appear without opening the service?"
+          ],
+          [
+            "No optional alerts",
+            "A separate recovery route and sign-in access",
+            "Can you still respond to important account changes?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reduce what appears in previews",
+      "paragraphs": [
+        "A useful compromise may be to receive an alert while limiting what appears before you unlock a device. Check the operating system’s lock-screen and notification-preview settings, and inspect the notification from a test or low-sensitivity message if one is available. The service may control the wording of a message, but the device determines whether its contents are shown immediately. Browser push permissions and desktop notifications may need separate review from mobile settings.",
+        "If a channel is shared, changing preview visibility may reduce casual exposure but does not make the account or message inaccessible to other people with access to that channel. Do not rely on a hidden preview as a substitute for control over the inbox, phone number or device itself. Choose a channel you can access privately, and be realistic about who else can manage or recover it."
+      ],
+      "bullets": [
+        "Review lock-screen previews and notification display on every device that receives alerts.",
+        "Check browser and desktop notification permissions separately from mobile settings.",
+        "Do not send sensitive account details to a channel you do not control."
+      ]
+    },
+    {
+      "heading": "Preserve account access when limiting notifications",
+      "paragraphs": [
+        "Reducing alerts should not make it impossible to secure or recover your account. Confirm which email address or phone number is used for sign-in and recovery, whether you can access it reliably, and what happens if the address or number changes. If a platform requires a particular channel for essential notices, weigh that requirement before joining or changing settings. Avoid using an inbox or number that may soon be lost, cancelled or inaccessible to you.",
+        "If you use separate email accounts or aliases, make sure the recovery route remains available and that you understand how the platform verifies changes. Keep recovery information in a secure place that is not exposed to other users of a shared device. When changing a delivery channel, complete the platform’s verification steps and check that the new channel works before removing the old one, if the platform allows that sequence."
+      ],
+      "bullets": [
+        "Confirm that the account’s recovery channel is current and under your control.",
+        "Test access to the inbox or number before relying on it for security notices.",
+        "Do not disable a channel until you understand whether it is required for account recovery."
+      ]
+    },
+    {
+      "heading": "Review and document the final setup",
+      "paragraphs": [
+        "Once you have adjusted settings, verify the outcome on the actual devices and accounts involved. Check the platform’s notification preferences, your email or messaging account, and each operating system’s preview and mirroring controls. If alerts arrive in multiple places, identify which copies are expected and disable only those you do not need. Keep a brief, non-sensitive note of where you changed settings so you can review them later without saving message contents or account secrets.",
+        "Revisit the setup after changing phones, email providers, shared-device arrangements or account-recovery details. Notifications are not a one-time privacy decision: a new connected device or forwarding rule may change who can see them. A useful setup balances timely warning of important account changes with a delivery path that you can access privately and consistently."
+      ],
+      "bullets": [
+        "Check the platform, inbox or messaging app, and operating-system settings.",
+        "Record setting locations, not passwords, security codes or message contents.",
+        "Repeat the review after a device, inbox, phone number or sharing arrangement changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I turn off all adult-platform notifications?",
+      "answer": "Not automatically. You may want to retain important sign-in or recovery alerts while disabling optional notices. Check which message types the platform separates and make sure you can still access essential account information."
+    },
+    {
+      "question": "Are SMS alerts private if my phone is locked?",
+      "answer": "A locked phone does not guarantee privacy. Previews, shared phone access, account management arrangements and connected devices can affect who sees messages. Review the actual settings and access boundaries for your phone and number."
+    },
+    {
+      "question": "Can hiding a lock-screen preview prevent all exposure?",
+      "answer": "No. It can reduce what appears on the lock screen, but it does not control access to the inbox, phone, browser account or synced devices. Treat it as one setting within a broader channel review."
+    },
+    {
+      "question": "What if a platform only offers one alert channel?",
+      "answer": "Check whether you can limit message content at the device or inbox level, and whether that channel is one you control. If the required channel creates an unacceptable privacy or access problem, consider that limitation before creating or using the account."
+    }
+  ]
+};

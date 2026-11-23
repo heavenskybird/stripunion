@@ -1,0 +1,126 @@
+export default {
+  "slug": "webmaster-affiliate-creative-localization-readiness",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Creatives: Check Localization and Translation Rights Before Republishing",
+  "description": "A webmaster checklist for verifying whether affiliate banners, copy and other promotional assets may be translated or adapted for a different language or audience.",
+  "excerpt": "A banner or approved paragraph is not automatically approved for translation. Check permission, review requirements, link behavior and claim consistency before adapting affiliate creative for another language.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Check written program terms for whether translation, editing or localization of supplied creative is allowed.",
+    "Preserve the meaning and limits of claims; do not add guarantees, prices or product details that the original asset did not substantiate.",
+    "Confirm whether translated creative needs approval and retain the relevant approval with the asset version.",
+    "Test that localized links, disclosures and destination language match what visitors are promised."
+  ],
+  "sections": [
+    {
+      "heading": "Treat translation as an adaptation that needs permission",
+      "paragraphs": [
+        "A supplied banner, text link, email snippet or other creative may come with limits on editing and reuse. Translation can change meaning, tone or legal significance even when the intention is simply to make the material understandable to another audience. Before adapting an asset, check the current program agreement, creative guidance and any written approval requirements. Do not assume that permission to publish the original also permits translation, cropping, reformatting or rewriting.",
+        "If the rules are unclear, ask the program contact a specific question: may this asset be translated into a named language, what edits are permitted, and does the translated version require review before publication? Keep the answer with the asset record. A general statement such as “localization is fine” may leave important details unresolved, including whether the permitted change extends to claims, calls to action, visual elements or destination URLs."
+      ],
+      "bullets": [
+        "Identify the exact asset and proposed language when requesting permission.",
+        "Check whether edits beyond direct translation are allowed.",
+        "Keep a copy of the applicable written rule or approval with the creative version."
+      ]
+    },
+    {
+      "heading": "Protect the meaning of claims and qualifications",
+      "paragraphs": [
+        "Translation is not a reason to strengthen a marketing statement. Preserve conditions, limitations and qualifications that appear in the original. If a phrase has no clear equivalent in the target language, do not silently replace it with a more persuasive promise. Ask for approved wording or submit a proposed translation for review. Avoid adding price, availability, payout, performance or product claims unless the program has supplied current support and expressly permits their use.",
+        "Review the asset in context, not just as isolated copy. A headline, button, image and nearby disclosure can combine to make an impression that differs from the individual words. Have a competent speaker review the target-language wording for clarity and unintended implication, and then compare it with the authorized source. Translation review supports accuracy; it does not create evidence for claims that were unsupported in the original."
+      ],
+      "table": {
+        "caption": "A localization review keeps permission, claims and visitor expectations connected.",
+        "headers": [
+          "Review area",
+          "What to verify",
+          "Record to retain"
+        ],
+        "rows": [
+          [
+            "Permission",
+            "Translation, editing and format changes are allowed",
+            "Terms section or written approval"
+          ],
+          [
+            "Claims",
+            "Meaning, conditions and qualifications remain intact",
+            "Source and reviewed target copy"
+          ],
+          [
+            "Disclosure",
+            "Required commercial relationship language remains clear",
+            "Placement screenshot or page capture"
+          ],
+          [
+            "Destination",
+            "Link and landing-page language support the creative promise",
+            "Test URL and destination check"
+          ],
+          [
+            "Versioning",
+            "Published file matches the approved version",
+            "Asset name, date and approval reference"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check disclosures and destination consistency",
+      "paragraphs": [
+        "A translated promotional asset should not make the visitor-facing disclosure harder to understand or separate it from the promotion. Check the applicable disclosure rules and program instructions for the placement, then ensure the target-language treatment is clear in the actual layout. A disclosure embedded in an image may be difficult to read or may not appear consistently on mobile. Where the format allows, use a readable text disclosure close to the referral link and check the rendered page at common screen sizes.",
+        "Follow the visitor through the link. Does the destination use a language the visitor can understand? Does the landing page deliver the service or information described by the translated creative? A language mismatch can create a confusing experience even if the link technically loads. Do not promise a localized offer or experience unless you can verify that it exists and the program permits you to describe it that way. If the destination changes by location or device, check the behavior and explain uncertainty rather than making a blanket promise."
+      ],
+      "bullets": [
+        "Check disclosure visibility in the final placement, including mobile rendering.",
+        "Test the destination from the placement and confirm that it supports the message.",
+        "Do not describe a language option or offer you cannot verify."
+      ]
+    },
+    {
+      "heading": "Set a review and approval workflow",
+      "paragraphs": [
+        "A repeatable workflow reduces the risk that an unreviewed translation reaches multiple pages. Keep the original asset, proposed translation, reviewer, program approval status, publication location and review date together. If the program requires preapproval, do not publish while approval is pending. If it permits translation without submission, retain evidence of that rule and use a consistent internal review so the translated claim remains faithful and understandable.",
+        "Assign clear responsibilities if more than one person edits the material. A translator can focus on linguistic accuracy, an editor can check clarity and claims, and an operator can verify links and rendering. No role should assume another person checked program permission. Establish a version name that distinguishes the source asset from localized variants, and replace or remove an old version if the program changes the creative or withdraws permission."
+      ],
+      "bullets": [
+        "Track source asset, language, reviewer, permission and publication location.",
+        "Do not treat a language review as program approval when approval is required.",
+        "Keep versions distinct so an outdated creative is not reused accidentally."
+      ]
+    },
+    {
+      "heading": "Monitor localized assets after publication",
+      "paragraphs": [
+        "Localization does not end at launch. Recheck the source creative and the program’s current rules when terms, destination pages or claims change. If the original asset expires or is withdrawn, review translated variants as well; they may contain the same outdated message. Check links periodically and remove or correct assets that no longer lead to a destination consistent with the visitor-facing language.",
+        "Use a small audit record rather than relying on memory: asset identifier, language, page or placement, permission reference, last review and next action. This record helps a webmaster update a site efficiently without copying claims into new pages from an unverified old translation. If permission is revoked or the creative becomes inaccurate, pause the affected placement until a permitted replacement is available."
+      ],
+      "bullets": [
+        "Recheck localized versions when source creative or program rules change.",
+        "Maintain an inventory of where each language variant appears.",
+        "Pause or update assets that are no longer authorized or accurate."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is direct translation of an affiliate banner always allowed?",
+      "answer": "No. Permission depends on the program’s terms and creative rules. Check whether translation, editing and format changes are allowed, and ask for written clarification when the rules are ambiguous."
+    },
+    {
+      "question": "Can a translated version make a claim more specific than the original?",
+      "answer": "It should not. Preserve the source claim’s meaning and qualifications, and do not add unsupported details. If a phrase cannot be translated clearly, seek approved wording rather than strengthening it."
+    },
+    {
+      "question": "Does a translated disclosure need to be placed differently?",
+      "answer": "It must remain clear in the final layout and comply with applicable requirements and program instructions. Review how it appears beside the referral placement, including on mobile, rather than assuming the original layout transfers unchanged."
+    },
+    {
+      "question": "What records should a webmaster keep for localized creative?",
+      "answer": "Keep the source asset, applicable permission or approval, target-language version, review record, publication locations and last-check date. This makes it easier to identify and update affected placements if the source or rules change."
+    }
+  ]
+};
