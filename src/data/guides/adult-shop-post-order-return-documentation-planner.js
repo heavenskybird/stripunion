@@ -1,0 +1,104 @@
+export default {
+  "slug": "adult-shop-post-order-return-documentation-planner",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Orders: Keep Return Records Without Oversharing",
+  "description": "A practical way to organize order, delivery, and return evidence while limiting unnecessary personal details in support messages and saved records.",
+  "excerpt": "If an order needs attention, a concise record can make the next step easier. Keep the order facts, relevant policy, and delivery evidence together, but avoid sending more personal information than the retailer needs.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Save the order confirmation and relevant policy version in a secure place you control.",
+    "Record dates, order references, and the issue without adding unrelated personal details.",
+    "Ask support which evidence is required before sending identity documents or sensitive photographs.",
+    "Separate delivery evidence from product or packaging images and review each for identifying details.",
+    "Use the retailer's stated contact route and keep a copy of important correspondence."
+  ],
+  "sections": [
+    {
+      "heading": "Create a small order record at checkout",
+      "paragraphs": [
+        "A useful record begins with documents you already receive: the order confirmation, item description, stated delivery estimate, and the policies shown at the time of purchase. Keep them together in a location that is not casually visible to other users of your device. If you use email, consider whether the account is shared or displays message previews on a lock screen. The purpose is to retain the details needed to resolve an order issue without creating a large archive of sensitive information.",
+        "Record only what helps identify the transaction and explain the issue. An order number, purchase date, item description, and expected delivery window are usually more useful than a narrative containing unrelated personal circumstances. Do not assume that a retailer needs a copy of every checkout screen or a full identity document. If a future request seems broader than the issue, ask what specific fact the additional information is meant to verify."
+      ],
+      "bullets": [
+        "Order reference and purchase date.",
+        "Relevant item description and selected variant.",
+        "Delivery estimate and applicable cancellation, return, or warranty terms.",
+        "The support contact route shown by the retailer."
+      ]
+    },
+    {
+      "heading": "Document the problem with only relevant evidence",
+      "paragraphs": [
+        "For a delay, damage, missing parcel, or other order issue, write a short timeline: when the order was placed, what the retailer promised, what happened, and when you contacted support. Keep carrier tracking information in the same record if it is relevant. For product concerns, describe the issue plainly and distinguish what you observed from what you infer. This gives support a focused account and reduces the temptation to send a long message that includes unnecessary personal information.",
+        "Before sending an image, inspect it for details outside the issue: shipping labels, faces, room features, account screens, or other visible information. Crop or retake an image only if doing so preserves the evidence the retailer requested. Do not alter an image in a way that could make the issue unclear. If the retailer asks for a specific document or photograph, ask whether a redacted version is acceptable and confirm the required format through an official support channel."
+      ],
+      "table": {
+        "caption": "Match the record to the type of order issue",
+        "headers": [
+          "Issue",
+          "Potentially relevant record",
+          "Limit unnecessary detail"
+        ],
+        "rows": [
+          [
+            "Late or missing delivery",
+            "Order date, tracking status, delivery address confirmation",
+            "Avoid sharing unrelated account or household details"
+          ],
+          [
+            "Damaged parcel",
+            "Delivery date and clear images of the relevant damage",
+            "Check images for labels and background information"
+          ],
+          [
+            "Return eligibility question",
+            "Item, purchase date, and applicable return terms",
+            "Ask which condition or seal information is needed"
+          ],
+          [
+            "Billing question",
+            "Order reference and relevant payment entry",
+            "Do not send a full card number or security code"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify the support route before sending records",
+      "paragraphs": [
+        "Use the contact details provided by the retailer through its official site or order correspondence. Be cautious if a message asks you to move the discussion to an unrelated channel, open an unfamiliar file, or provide a payment credential to process a refund. A legitimate support process may need transaction details, but you should not send a full payment-card number, password, or one-time sign-in code. If a request is unclear, contact the retailer through a route you independently navigate to.",
+        "Keep a copy of the messages you send and receive, including the date and any case reference. A concise log prevents repeated explanations and helps you understand what was requested. Avoid creating multiple copies across shared cloud folders, personal email, and device downloads if one secure record is enough. Where possible, remove unnecessary attachments from a draft before sending it, and confirm the recipient address carefully."
+      ]
+    },
+    {
+      "heading": "Understand return conditions before packing anything",
+      "paragraphs": [
+        "Return eligibility can depend on the product, condition, packaging, timing, and the retailer’s stated policy. Read the terms that apply to your specific order rather than relying on a general return statement. If the product is sealed, opened, damaged, or missing components, do not guess how that affects eligibility. Ask the retailer what steps to follow before sending it back, especially if a return authorization, particular carrier, or packaging instruction is required.",
+        "Do not send an item to an address found in an unverified message or make an assumption about postage responsibility. Confirm the approved return route, the deadline, and how the retailer defines receipt or dispatch within that deadline. Keep a copy of the return instructions and any tracking reference. A clear record helps you show that you followed the stated process without retaining more sensitive material than you need."
+      ]
+    },
+    {
+      "heading": "Store and remove records deliberately",
+      "paragraphs": [
+        "Order records may contain names, addresses, account identifiers, and product details. Choose a private storage location and review who can access it. If the device is shared, avoid leaving documents in a public downloads folder or on a desktop. If you print a label or form, dispose of it securely when it is no longer needed. Do not store payment credentials in the same file as the order record.",
+        "Keep only records that have a practical purpose, such as an open support case, return, warranty request, or transaction history you need. Once the issue is resolved and any relevant obligations or personal recordkeeping needs have been considered, remove duplicate drafts and unnecessary images. This is not a promise that the retailer will delete its own records; review its privacy information separately to understand its retention practices."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I send a retailer a photo of the whole parcel?",
+      "answer": "Only if it is relevant and requested. Check whether the image shows a shipping label, address, or unrelated background details, and ask whether a narrower image is sufficient."
+    },
+    {
+      "question": "Can I redact personal details from a document before sending it?",
+      "answer": "Ask the retailer which details are necessary and whether redaction is acceptable. Do not obscure information needed to verify the specific transaction or issue."
+    },
+    {
+      "question": "How long should I keep order and return records?",
+      "answer": "Keep records for as long as they serve a practical purpose, such as resolving an open issue or maintaining your own transaction history. Avoid unnecessary duplicate copies and review the retailer’s separate retention policy."
+    }
+  ]
+};

@@ -1,0 +1,117 @@
+{
+  "backlogId": "free-video-platform-advertising-boundary-choice",
+  "slug": "free-video-platform-advertising-boundary-choice",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Decide Which Advertising Trade-Offs You Accept",
+  "description": "Compare free video platforms by separating ad frequency, placement, redirects, personalization, and playback interruption before choosing where to browse.",
+  "excerpt": "“Free” does not describe the whole viewing experience. Use a repeatable, low-risk comparison to understand how advertising affects navigation and privacy without relying on guesses or a single visit.",
+  "keyTakeaways": [
+    "Compare ad placement, interruption, and redirect behavior as separate usability factors.",
+    "Keep privacy and ad frequency distinct: one is about data practices, the other about the browsing experience.",
+    "Test ordinary browsing and playback with the same steps on each site.",
+    "Treat an unexpected new tab, permission prompt, or download prompt as a reason to stop and reassess.",
+    "Record the date and conditions of a comparison because advertising experiences can change."
+  ],
+  "sections": [
+    {
+      "heading": "Define the advertising experience you are comparing",
+      "paragraphs": [
+        "An ad-supported site can place promotions in several parts of the experience: around search results, on a title page, before playback, during playback, or in a separate window. These placements affect different tasks. A banner may make a page harder to scan; a playback interruption may break continuity; a redirect may move you away from the intended site. Avoid reducing all of these to one label such as “lots of ads.” Describe the specific friction you encounter.",
+        "Set a modest comparison scope before browsing. Choose a few ordinary actions, such as opening a landing page, running a search, viewing a listing, and starting a short playback test if appropriate. Use the same device and browser for each candidate. Do not click a promotion just to see where it leads, submit personal information, or install anything as part of the test. The purpose is to observe normal site behavior while limiting unnecessary exposure."
+      ],
+      "bullets": [
+        "Placement: where promotions appear in relation to search, listing, or playback.",
+        "Interruption: whether an ad pauses or delays the task you are performing.",
+        "Navigation: whether a click opens a new page, tab, or unexpected destination.",
+        "Privacy: what information and controls the site describes for advertising."
+      ]
+    },
+    {
+      "heading": "Use a consistent browsing and playback test",
+      "paragraphs": [
+        "A useful comparison needs comparable conditions. Record the device, browser, whether you are signed in, and the time of the test. Then complete the same steps on each platform. Note how many times an ad interrupts the task, whether an overlay obscures controls, and whether the page remains usable when you dismiss an ad. Avoid turning a single session into a universal claim: ad delivery can vary by location, time, browser settings, and other factors.",
+        "Make the test about your own decision criteria. If you mainly use search, page clutter and deceptive-looking controls may matter more than mid-playback interruptions. If you tend to watch longer items, whether a player pauses or loses its place may be more important. Record what you observed without assuming that an ad-free moment proves the site never shows ads. A small log turns vague impressions into a comparison you can revisit."
+      ],
+      "table": {
+        "caption": "A compact log for comparing ad-supported browsing",
+        "headers": [
+          "Task",
+          "What to observe",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Open a landing page",
+            "Promotional blocks and overlays",
+            "Whether they obstruct navigation"
+          ],
+          [
+            "Run a search",
+            "Promoted results and labels",
+            "How clearly placements are distinguished"
+          ],
+          [
+            "Open a listing",
+            "Redirects or extra prompts",
+            "Whether the expected page remains in focus"
+          ],
+          [
+            "Test playback",
+            "Interruptions and player response",
+            "Whether controls remain usable"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Recognize when advertising becomes a safety issue",
+      "paragraphs": [
+        "Advertising can be more than an inconvenience when a page presents unclear controls or unexpected actions. Pause if a close button is difficult to distinguish from a promotion, if a click opens an unfamiliar domain, or if a page asks you to enable notifications or download a file to continue. Do not treat an unfamiliar prompt as a required part of video playback. Close the tab if you cannot tell which control belongs to the player or the site.",
+        "Keep browser and device protections enabled, and avoid installing extensions or applications promoted by a page without independently assessing their source and permissions. A platform’s promotional layer may be served by parties other than the site itself, so a familiar site name alone does not establish that every pop-up or destination is trustworthy. If you already opened an unexpected destination, close it and review the browser’s active tabs and recent downloads rather than interacting further."
+      ],
+      "bullets": [
+        "Stop before accepting a notification request that is unrelated to the task.",
+        "Do not follow a download prompt that you did not intentionally request.",
+        "Check the address bar after a redirect instead of assuming the new page is part of the original site.",
+        "Do not enter account or payment details on an unexpected page."
+      ]
+    },
+    {
+      "heading": "Evaluate privacy separately from ad disruption",
+      "paragraphs": [
+        "A site can be relatively unobtrusive while still using advertising or analytics practices you do not want. Conversely, a page can have noticeable ads while providing some controls over personalization. Review the privacy notice and any available advertising or cookie settings to understand what the site says it collects and how controls work. Look for practical details: can you reject optional tracking, change a choice later, or browse without creating an account?",
+        "Do not infer privacy from the presence or absence of personalized promotions. A non-personalized ad can still involve technical delivery data, and a personalized-looking promotion does not by itself reveal the full data flow. Base your decision on disclosed practices, settings you can verify, and your own tolerance for account creation and tracking. If the policy is difficult to locate or unclear about the relevant data, treat that uncertainty as a decision factor rather than guessing."
+      ]
+    },
+    {
+      "heading": "Choose by task fit and keep notes current",
+      "paragraphs": [
+        "A useful choice depends on which friction matters most to you. A platform with occasional visual clutter might still be acceptable for quick search, while a site with confusing redirects may be a poor fit regardless of how rarely interruptions occur. Rank your own needs: predictable navigation, fewer playback interruptions, understandable ad controls, account-free access, or clear privacy information. There is no universal winner based on a short observation.",
+        "Keep the comparison brief and dated. Recheck a platform if its layout changes, if an ad behaves differently, or if you are considering signing in. Avoid publishing broad claims from a personal sample; describe the conditions and limits of what you observed. The resulting notes help you compare sites without trusting a vague reputation, clicking unknown promotions, or confusing a temporary experience with a permanent platform feature."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I determine how many ads a platform always shows?",
+      "answer": "A short personal test cannot establish a permanent or universal ad rate. Ad delivery can vary, so record the date, device, browser, account state, and specific observations instead."
+    },
+    {
+      "question": "Does an ad-free session prove that a site does not use advertising?",
+      "answer": "No. Ads may vary by session, location, or other conditions. Check the platform’s disclosures and treat a single visit as a limited observation."
+    },
+    {
+      "question": "What should I do if a video page opens an unexpected tab?",
+      "answer": "Avoid interacting with the new page. Close it, check that the original tab remains open, and do not enter credentials or install anything from an unexpected destination."
+    }
+  ],
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
