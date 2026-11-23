@@ -1,0 +1,117 @@
+export default {
+  "slug": "creator-platform-release-time-zone-precision-check",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Verify Scheduled Release Times Across Time Zones",
+  "description": "A workflow for creators to check scheduled publishing time zones, preview timestamps, daylight-saving changes, and audience-facing release expectations before setting a post live.",
+  "excerpt": "A scheduled release can be correct in your dashboard but confusing to an audience elsewhere. Verify the time zone, preview, and fallback plan before relying on a publishing schedule.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Confirm which time zone the publishing interface uses and whether it is tied to the account, device, or a selectable setting.",
+    "Preview the scheduled time from the audience-facing view where possible; do not rely only on the creator dashboard timestamp.",
+    "Account for daylight-saving transitions and regional date changes when planning recurring releases.",
+    "Keep a release log with the intended local time, dashboard time, and final publication state.",
+    "Use a clear fan-facing time reference and have a manual fallback if scheduling behavior is uncertain."
+  ],
+  "sections": [
+    {
+      "heading": "Identify the time zone behind the schedule",
+      "paragraphs": [
+        "Before scheduling content, determine what the platform means by the time displayed in its publishing interface. It may use an account setting, a device setting, a selected time zone, or another convention. Do not infer the rule from the time shown on your phone or computer. Check the platform’s instructions and the schedule screen, then make a small non-critical test if the interface allows one.",
+        "Record the reference time zone you intend to use for your release calendar. A schedule such as “Friday at 8” is incomplete unless the time zone is clear. This is especially important when collaborators work in different regions or when a release is intended for an audience in a particular location. State the time zone in internal notes, and use an unambiguous label in any fan-facing announcement."
+      ],
+      "bullets": [
+        "Check the account and device time-zone settings before scheduling.",
+        "Write the intended time with its time zone and calendar date.",
+        "Confirm whether the schedule shows a future local time or a converted time."
+      ]
+    },
+    {
+      "heading": "Test the full path from draft to audience view",
+      "paragraphs": [
+        "A dashboard can show a planned timestamp without demonstrating how that time will appear to fans. Before depending on a schedule, examine the post preview, scheduled-post list, and any audience-facing display available to you. Check the date as well as the hour: a conversion across time zones can move a release to the previous or following calendar day. If the platform does not offer a way to preview the audience view, note that limitation and avoid making a precise promise you cannot verify.",
+        "Use a low-risk test, such as a non-sensitive announcement or a draft workflow, if the platform supports it. Confirm the scheduled state, the final publication time, and whether edits preserve or reset the schedule. Do not test with material that should not be visible to the audience. If you cannot safely test the actual publishing path, treat the schedule behavior as unverified and leave enough time for a manual review."
+      ],
+      "table": {
+        "caption": "Use the same fields for every scheduled release check.",
+        "headers": [
+          "Field to record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Intended release date and time zone",
+            "Prevents an ambiguous instruction such as “Friday evening.”"
+          ],
+          [
+            "Dashboard timestamp",
+            "Shows the platform’s scheduled value."
+          ],
+          [
+            "Audience-facing timestamp",
+            "Checks whether the displayed date or time differs."
+          ],
+          [
+            "Final publication state",
+            "Confirms whether the item published, stayed scheduled, or needs intervention."
+          ],
+          [
+            "Fallback owner and action",
+            "Clarifies who checks or publishes if automation does not behave as expected."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Plan around daylight-saving and calendar changes",
+      "paragraphs": [
+        "Recurring schedules can become confusing when a region changes its clock. A release set at a fixed local hour may shift relative to another region, while a fixed offset may no longer match the intended local time. The platform’s treatment can vary, so do not assume that a recurring schedule will preserve the same audience-facing time throughout the year. Review schedules ahead of known clock changes and confirm the interface’s displayed date and zone.",
+        "Cross-region releases also need a date check. A time late in one region can correspond to the next calendar day elsewhere. If fans are told that content arrives on a particular date, specify the reference zone or use wording that does not imply a universal local date. For important releases, schedule a human review around the publication window rather than treating the calendar entry as proof that delivery occurred."
+      ],
+      "bullets": [
+        "Review recurring schedules before clock changes in the relevant region.",
+        "Check whether the platform preserves local clock time or a fixed offset.",
+        "Clarify the reference zone when announcing a date to an international audience."
+      ]
+    },
+    {
+      "heading": "Set expectations and keep an operational record",
+      "paragraphs": [
+        "A release calendar is more useful when it separates intended timing from verified publication. Keep a compact record of the post identifier or neutral title, intended time and zone, schedule entry, and final status. Avoid putting sensitive content descriptions into a calendar that collaborators or unrelated team members can see. Give collaborators access only to the information and account functions needed for their role.",
+        "For audience communication, avoid promising a specific minute unless the workflow has been tested and you can respond if it fails. If a schedule changes, update the relevant announcement through the same channel and record the change. This gives fans a clearer expectation and helps a creator identify whether a missed release came from a schedule setting, an edit, a time-zone conversion, or a manual publishing step."
+      ],
+      "bullets": [
+        "Use a neutral internal post label when a calendar is shared.",
+        "Record schedule changes and who approved them.",
+        "Communicate delays clearly rather than leaving an outdated release time in place."
+      ]
+    },
+    {
+      "heading": "Create a fallback for uncertainty or failed scheduling",
+      "paragraphs": [
+        "A reliable workflow includes a fallback that does not depend on guessing. Decide who checks the scheduled queue, when that check happens, and what action is allowed if a post appears delayed or missing. A fallback might be a manual review of the publishing status or a revised audience notice; choose it based on the platform’s documented controls. Do not assume that repeatedly editing or rescheduling a post is harmless, since each action may change the saved time or state.",
+        "If a scheduled release does not appear as expected, verify the post’s status before creating a duplicate. Check the dashboard, the audience-facing view, and any official status or support route available. Keep a concise record of what you checked and when. This reduces duplicate publication risk and makes later troubleshooting more factual. Revisit the workflow after interface or account-setting changes that could affect scheduling."
+      ],
+      "bullets": [
+        "Assign a named owner for checking important releases.",
+        "Verify status before manually publishing a possibly delayed post.",
+        "After any schedule change, recheck the displayed date, time, and time zone."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I schedule posts using my local time or my audience’s time?",
+      "answer": "Choose a clear reference zone that fits your workflow and state it in your release notes. If the audience is in multiple regions, avoid implying that one calendar date means the same local date for everyone."
+    },
+    {
+      "question": "Can I assume a recurring schedule will handle daylight-saving changes correctly?",
+      "answer": "No. Check the platform’s documented behavior and review recurring schedules ahead of clock changes. Confirm the intended time and date in the interface rather than relying on a prior schedule."
+    },
+    {
+      "question": "What should I do if a scheduled post appears late?",
+      "answer": "Check its status in the publishing interface and, where possible, the audience-facing view. Verify that it has not already published before creating a duplicate, then follow your preplanned fallback and record the outcome."
+    }
+  ]
+};

@@ -1,0 +1,124 @@
+{
+  "backlogId": "adult-dating-search-result-preview-decision",
+  "slug": "adult-dating-search-result-preview-decision",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check What Search Results Reveal Before Opening a Profile",
+  "description": "A decision guide to comparing dating-platform search previews, including what profile details appear in results, what requires a profile visit, and how to assess privacy and browsing fit.",
+  "excerpt": "Search cards can expose different profile details than full profiles. Compare the preview itself before deciding whether a platform’s discovery style suits your privacy and browsing preferences.",
+  "keyTakeaways": [
+    "Inspect the information shown in search results separately from the information shown on a full profile.",
+    "Check whether profile photos, distance, activity cues, or identifying details appear before you choose to open a result.",
+    "Use a consistent test account or public-facing sample where available; do not collect or redistribute other users’ personal information.",
+    "A result preview is part of the platform’s discovery design, not merely a shortcut to the profile.",
+    "Choose a platform whose preview detail supports your decision-making without exposing more information than you are comfortable viewing or sharing."
+  ],
+  "sections": [
+    {
+      "heading": "Treat the search card as its own privacy surface",
+      "paragraphs": [
+        "A dating-platform search result often gives a quick impression before a person opens a full profile. That preview may contain a photo, display name, approximate location, short profile text, or activity information. Which details are shown depends on the service and its settings; do not assume that hiding a field on a full profile also hides it in a search card. Review the preview as a separate surface when comparing platforms.",
+        "This matters for both sides of discovery. As a browser, you may want enough context to decide whether a profile is relevant without opening many profiles. As a profile owner, you may want to understand what other users can see at a glance. Compare the preview before creating a detailed profile or uploading photos. If you cannot inspect the result experience without exposing another person’s information, use only the platform’s own help material or a suitable account you control."
+      ],
+      "bullets": [
+        "List the fields visible in a result card before opening the full profile.",
+        "Check whether a result can display photos or location cues without additional interaction.",
+        "Separate what the platform documents from what you personally observe."
+      ]
+    },
+    {
+      "heading": "Compare preview fields by their decision value",
+      "paragraphs": [
+        "Not every field in a preview helps a user make a better choice. A short description may clarify intent, while a precise location cue or activity indicator may reveal more than is needed for an initial decision. Consider each field in two ways: does it help you decide whether to open a profile, and would you be comfortable with that field appearing about you in the same context? This approach avoids equating more visible detail with a better experience.",
+        "Look for ambiguity as well as exposure. A distance label may be approximate, an activity marker may have a limited meaning, and a cropped image may omit context. Do not infer identity, availability, or intent from a short card alone. A useful platform should make clear enough distinctions that users can decide whether to view more, without presenting a preview as a complete account of the person."
+      ],
+      "table": {
+        "caption": "A practical way to evaluate common search-preview fields.",
+        "headers": [
+          "Preview field",
+          "Decision question"
+        ],
+        "rows": [
+          [
+            "Photo or thumbnail",
+            "Can you assess relevance without exposing an image you would not want shown at a glance?"
+          ],
+          [
+            "Display name",
+            "Does it reveal more identity information than a pseudonymous label would?"
+          ],
+          [
+            "Distance or location cue",
+            "Is the precision appropriate for an initial search result?"
+          ],
+          [
+            "Short profile text",
+            "Does the excerpt communicate useful context without suggesting the full profile is visible?"
+          ],
+          [
+            "Activity indicator",
+            "Does the platform explain what the indicator means and how current it is?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how settings affect results, not just profiles",
+      "paragraphs": [
+        "Privacy settings can have different effects on profile pages, search cards, recommendations, and other discovery surfaces. When the platform offers audience or visibility controls, check the setting description and determine which surfaces it covers. A control that hides a profile from broad discovery might not remove a result already opened, and a control for photos may not affect text or location cues. Avoid assuming one toggle governs every route to a profile.",
+        "If the platform lets users hide, pause, or limit discoverability, look for a clear explanation of the resulting state. Does the profile disappear from new searches, remain visible to existing connections, or continue to appear in some contexts? These are separate outcomes. Save the wording of relevant settings while you decide, and revisit it after changes. Settings and interface labels can evolve, so a prior impression is not evidence of current behavior."
+      ],
+      "bullets": [
+        "Test each relevant setting against the specific search surface it claims to control.",
+        "Check whether existing connections or previously viewed profiles are treated differently.",
+        "Do not rely on a single visibility switch without reading its scope."
+      ]
+    },
+    {
+      "heading": "Build a fair comparison without collecting other people’s data",
+      "paragraphs": [
+        "A useful platform comparison does not require cataloguing profiles. Create a short checklist and assess only the platform interface, its published help information, and any account you are authorized to use. Avoid saving profile screenshots, copying identifying details, or using another person’s account to inspect hidden content. The goal is to understand the product’s result-preview behavior, not to build a dataset about its members.",
+        "Record observations in neutral terms: for example, “search cards show a distance label” or “photo visibility depends on account settings.” Note whether each point comes from documentation, an account setting, or a direct interface check. If a behavior is uncertain, mark it as uncertain rather than generalizing from one screen. This makes the comparison more reliable and helps you avoid treating a temporary test or single profile as a universal platform rule."
+      ],
+      "bullets": [
+        "Use a field checklist rather than saving profiles or images.",
+        "Label claims as documented, observed, or unverified.",
+        "Compare equivalent account states and settings where possible."
+      ]
+    },
+    {
+      "heading": "Choose the discovery experience that fits your boundaries",
+      "paragraphs": [
+        "A good fit depends on the balance you want between quick screening and limited exposure. A detailed preview can reduce the need to open many profiles, but it can also reveal more about members before they choose to engage. A sparse preview may provide less context and require additional profile visits. Decide which trade-off matters to you, then compare platforms using the same criteria rather than assuming one preview style is best for everyone.",
+        "Before committing to a full profile, check the platform’s account controls, how previews relate to visibility settings, and whether you can revise or remove profile information later. If you are uncertain about a field, omit it until you understand its audience. For existing users, review your own result card periodically after editing profile details or changing privacy settings. The central question is not whether a search card looks polished; it is whether its visible information matches your intended boundaries."
+      ],
+      "bullets": [
+        "Set a personal maximum for what you are comfortable showing in an initial result.",
+        "Recheck your own preview after profile edits or visibility changes.",
+        "Prefer clear explanations over assumptions about how a field is displayed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a dating-platform search preview the same as a full profile?",
+      "answer": "Not necessarily. A result card may show a selected set of fields, and a full profile may expose additional information. Check the platform’s preview and settings separately rather than assuming one view represents the other."
+    },
+    {
+      "question": "Can I compare search previews without saving other users’ details?",
+      "answer": "Yes. Compare interface fields and published explanations, and use an account you control where appropriate. You do not need to copy profile text, retain images, or build a record of individual users."
+    },
+    {
+      "question": "Does hiding a profile guarantee it will not appear anywhere?",
+      "answer": "Do not assume so. Visibility controls may apply differently to new searches, recommendations, existing connections, or other surfaces. Read the control’s scope and ask support if the wording is unclear."
+    }
+  ],
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

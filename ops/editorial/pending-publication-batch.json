@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T07:32:52.548Z",
+  "generatedAt": "2026-11-23T13:44:48.311Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-compare-local-and-cloud-library-workflows.json",
-    "ops/editorial/content-artifacts/free-video-platform-advertising-boundary-choice.json",
-    "ops/editorial/content-artifacts/adult-games-screen-share-and-presentation-preflight.json",
-    "ops/editorial/content-artifacts/adult-shop-post-order-return-documentation-planner.json",
-    "ops/editorial/content-artifacts/hentai-anime-streaming-device-handoff-planner.json"
+    "ops/editorial/content-artifacts/adult-platform-recurring-card-authorization-check.json",
+    "ops/editorial/content-artifacts/adult-dating-search-result-preview-decision.json",
+    "ops/editorial/content-artifacts/creator-platform-release-time-zone-precision-check.json",
+    "ops/editorial/content-artifacts/affiliate-referral-eligibility-milestone-map.json",
+    "ops/editorial/content-artifacts/live-cam-registration-gate-comparison.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-compare-local-and-cloud-library-workflows.js",
-    "src/data/guides/free-video-platform-advertising-boundary-choice.js",
-    "src/data/guides/adult-games-screen-share-and-presentation-preflight.js",
-    "src/data/guides/adult-shop-post-order-return-documentation-planner.js",
-    "src/data/guides/hentai-anime-streaming-device-handoff-planner.js"
+    "src/data/guides/adult-platform-recurring-card-authorization-check.js",
+    "src/data/guides/adult-dating-search-result-preview-decision.js",
+    "src/data/guides/creator-platform-release-time-zone-precision-check.js",
+    "src/data/guides/affiliate-referral-eligibility-milestone-map.js",
+    "src/data/guides/live-cam-registration-gate-comparison.js"
   ],
   "categories": [
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "live-cams"
   ],
   "backlogIds": [
-    "vr-adult-platform-compare-local-and-cloud-library-workflows",
-    "free-video-platform-advertising-boundary-choice",
-    "adult-games-screen-share-and-presentation-preflight",
-    "adult-shop-post-order-return-documentation-planner",
-    "hentai-anime-streaming-device-handoff-planner"
+    "adult-platform-recurring-card-authorization-check",
+    "adult-dating-search-result-preview-decision",
+    "creator-platform-release-time-zone-precision-check",
+    "affiliate-referral-eligibility-milestone-map",
+    "live-cam-registration-gate-comparison"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45131592692",
-  "phase": "closed"
+  "r1CycleId": "45186540540"
 }
