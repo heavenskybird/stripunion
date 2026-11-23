@@ -1,0 +1,130 @@
+export default {
+  "slug": "vr-adult-platform-input-requirements-planner",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Input Requirements Before Choosing a Library",
+  "description": "Assess how a VR platform handles controllers, hand input, text entry, and basic navigation before relying on a headset library.",
+  "excerpt": "A compatible headset does not guarantee that every interaction will suit your setup. Use this input-focused checklist to test menus, search, playback, and recovery before choosing a VR platform.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Separate headset compatibility from the input methods needed to navigate the service.",
+    "Test essential tasks such as opening menus, entering a search, and returning from playback.",
+    "Check whether listed input options work throughout the interface or only in selected screens.",
+    "Record alternatives and workarounds without assuming they will remain supported.",
+    "Avoid installing unofficial tools or changing device settings just to overcome unclear platform requirements."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility includes more than connecting a headset",
+      "paragraphs": [
+        "A platform can appear compatible with a headset yet still be difficult to use if its menus depend on a particular controller, text-entry method, or gesture. “Works on this device” and “supports the input I can use comfortably” are different claims. Before choosing a library, identify the interactions required for ordinary use.",
+        "Start with tasks rather than hardware labels. Can you open the library, move through listings, select a title, change playback settings, pause, and exit? If search matters, can you enter and correct text without an impractical sequence of inputs? These questions often reveal more than a general compatibility statement.",
+        "The goal is to assess practical fit, not to establish that one input method is universally better. Different users have different mobility, dexterity, posture, and comfort needs. A useful comparison describes which tasks work with which inputs and where alternatives are missing."
+      ],
+      "bullets": [
+        "Write down the headset and controllers you actually plan to use.",
+        "List any input methods you prefer or cannot reliably use.",
+        "Choose three to five tasks that are essential for your normal session."
+      ]
+    },
+    {
+      "heading": "Map the required input at each stage",
+      "paragraphs": [
+        "Input needs can change between browsing, account setup, search, and playback. A controller might work for selecting a title but not for entering an email address. A headset keyboard may allow text entry but make corrections slow. A menu could support one method while a playback overlay uses another.",
+        "Build a small task map. For each step, note the input method that is required, the alternatives shown, and whether you could complete the step in a preview or other permitted non-purchase environment. If a step cannot be tested, mark it unknown. This avoids treating a single successful interaction as proof that the whole service fits.",
+        "Look for clear documentation that names the supported input method and where it applies. Broad statements such as “intuitive controls” or “hands-free navigation” do not tell you whether you can search, dismiss a dialog, or recover from an accidental selection."
+      ],
+      "table": {
+        "caption": "Input-fit worksheet for a VR platform",
+        "headers": [
+          "Task",
+          "Input to verify",
+          "Question to record"
+        ],
+        "rows": [
+          [
+            "Browse the library",
+            "Controller, hand input, or another documented method",
+            "Can you move, select, and return consistently?"
+          ],
+          [
+            "Search",
+            "Text entry and correction method",
+            "Can you enter, edit, and clear a query?"
+          ],
+          [
+            "Change playback settings",
+            "Menu and confirmation controls",
+            "Can you find a setting and tell whether it changed?"
+          ],
+          [
+            "Pause and exit",
+            "Playback and system navigation",
+            "Can you stop playback and leave the interface predictably?"
+          ],
+          [
+            "Recover from an error",
+            "Back, cancel, or dismissal control",
+            "Can you close a dialog or return to a known screen?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether input options are consistent",
+      "paragraphs": [
+        "An input option may be advertised but only work in part of the experience. Test whether it is available in library browsing, search, account screens, and playback controls. If you cannot test every area, use support documentation to establish the boundary and record the remaining uncertainty.",
+        "Consistency matters because frequent switching can add friction and may make a platform less practical for a particular user. Note whether the service asks you to reach for another controller, use a companion device, or switch into a system menu for common tasks. A workaround is not automatically unsuitable, but it should be visible in the comparison.",
+        "Pay attention to the difference between a supported input and a merely possible input. A gesture that happens to trigger an action is not evidence of reliable support. Prefer documented controls and repeatable behavior over guesses based on hardware capabilities."
+      ]
+    },
+    {
+      "heading": "Evaluate text entry without overcommitting",
+      "paragraphs": [
+        "Text entry is often a separate challenge from pointing and selecting. Search, account access, or support forms may require typing, editing, and correcting a query. Check whether the interface offers a headset keyboard, voice input, companion-device entry, or another documented route, and determine whether that route is optional or required.",
+        "Consider privacy before enabling voice input or using another device. A microphone permission should match the task, and a companion device may display account information or search terms. Do not enable a permission simply because a platform mentions it as a convenience. Check the available controls and choose the least intrusive method that meets your needs.",
+        "If you can test search before joining, use a harmless sample query and confirm that you can correct a typo, clear the field, and return to browsing. If you cannot test it, ask a targeted question rather than relying on a general statement about headset compatibility."
+      ]
+    },
+    {
+      "heading": "Treat accessibility and safety controls as part of input fit",
+      "paragraphs": [
+        "Input fit includes whether you can reach controls that help you manage the experience. Check whether captions, volume, pause, exit, and any available comfort settings can be operated using your preferred method. A service may provide a setting but make it difficult to reach from the interface you use.",
+        "For hand or controller-based navigation, check whether the interface provides visible feedback when an item is selected and whether a mistaken action can be reversed. A clear focus indicator and a predictable back action reduce guesswork. If a control is difficult to reach or its effect is uncertain, note that as a practical limitation.",
+        "Do not rely on unofficial modifications or unverified downloads to provide an input option. Such tools can create security, account, or compatibility risks. If required interactions depend on an unsupported workaround, it may be safer to choose a different access route or platform."
+      ],
+      "bullets": [
+        "Confirm that pause, exit, and essential playback controls are reachable.",
+        "Check whether selections provide visible or audible confirmation.",
+        "Prefer documented input routes over unofficial software or unexplained permissions."
+      ]
+    },
+    {
+      "heading": "Turn the test into a device-fit decision",
+      "paragraphs": [
+        "Compare platforms by task coverage, not by the number of input methods they advertise. A platform with fewer documented options may still fit your setup if it handles your essential tasks clearly. A platform listing several methods may not fit if the method you need is absent from search or playback.",
+        "Keep a record with four labels: confirmed, partially confirmed, unknown, and not supported. Add the screen or task where you observed the result. This keeps the decision honest and makes it easier to revisit if the interface or your headset setup changes.",
+        "Finally, consider the entire access route: headset, software, account requirements, and any companion device. Confirm that the routine does not depend on equipment you do not have or permissions you do not want to grant. If the evidence is incomplete, treat that as a decision factor rather than filling the gap with assumptions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does headset compatibility mean I can use every menu?",
+      "answer": "Not necessarily. Compatibility can refer to basic access while particular menus, search fields, or playback controls may require different input. Verify the tasks you need rather than relying on the device label alone."
+    },
+    {
+      "question": "How can I assess input options before subscribing?",
+      "answer": "Look for a permitted preview, public interface documentation, or a support answer to a specific task-based question. If you cannot test a step, record it as unknown instead of assuming it works."
+    },
+    {
+      "question": "Should I enable microphone access to make navigation easier?",
+      "answer": "Only if you choose to use a voice feature and understand the permission request. Check whether another documented input method is available and review the device’s microphone controls before enabling access."
+    },
+    {
+      "question": "What if a platform supports my controller but text entry is awkward?",
+      "answer": "Decide whether search and account tasks are essential to your use. Check for documented alternatives, such as another text-entry route, and weigh any extra device or privacy implications before choosing."
+    }
+  ]
+};

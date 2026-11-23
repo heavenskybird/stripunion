@@ -1,0 +1,125 @@
+export default {
+  "slug": "free-video-browser-autoplay-surface-review",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Where Autoplay Can Start Before Browsing",
+  "description": "Review autoplay and automatic-preview behavior on free video platforms to reduce unexpected playback, audio, and screen exposure.",
+  "excerpt": "Automatic previews may begin in more places than the player itself. Use this practical review to identify autoplay surfaces, check available controls, and choose a browsing setup that fits your privacy needs.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Check autoplay in the homepage, search results, title pages, and the player rather than assuming one setting controls them all.",
+    "Distinguish motion previews from full playback and from an automatic next item.",
+    "Use a low-risk, non-sensitive test to see whether controls persist across navigation.",
+    "Check audio, notification, casting, and shared-screen boundaries before browsing.",
+    "Do not assume browser settings or account preferences will work identically across devices."
+  ],
+  "sections": [
+    {
+      "heading": "Autoplay can happen outside the main player",
+      "paragraphs": [
+        "People often use “autoplay” to describe several different behaviors: a moving preview in a listing, playback that starts when a title page opens, a next item that begins after the current video, or audio that continues after navigating elsewhere. These behaviors can have different controls and may appear on different parts of a platform.",
+        "Before browsing, identify the surfaces where unexpected playback would matter. A thumbnail preview on a results page may be visible to someone nearby even if you never open the player. A next-item feature may keep running after you intend to stop. Audio may become noticeable even when the screen is not in view.",
+        "A quick review is especially useful on a shared device or screen. The purpose is not to make assumptions about a particular site; it is to find out which behaviors exist in the version you are using and whether you can control them."
+      ],
+      "bullets": [
+        "Consider whether motion, sound, or an automatically opened page is the main concern.",
+        "Check the homepage, search results, title pages, and player separately.",
+        "Choose a safe test item or neutral page where possible."
+      ]
+    },
+    {
+      "heading": "Separate the different kinds of automatic playback",
+      "paragraphs": [
+        "A moving preview may begin without opening a full video. An automatic next item may start after you finish or pause a video. Background audio may continue after a window is minimized. Treat these as separate behaviors when recording what you observe, because a control that disables one may not affect the others.",
+        "Look for labels near the relevant control, such as preview, autoplay, next item, or sound. If the label is unclear, test one setting at a time and note what changes. Avoid toggling several settings together; otherwise, you may not know which control affected the result.",
+        "If there is no obvious setting, check the platform’s help material and your browser or device controls. A browser setting may limit some behavior without changing the platform’s own preference. Record which layer you used so you do not assume the result will carry over to another browser or device."
+      ],
+      "table": {
+        "caption": "Autoplay behaviors to check independently",
+        "headers": [
+          "Behavior",
+          "Where to look",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Motion preview",
+            "Homepage and search results",
+            "Whether previews start automatically and whether they can be paused or disabled"
+          ],
+          [
+            "Title-page playback",
+            "A listing or detail page",
+            "Whether opening the page starts media or sound"
+          ],
+          [
+            "Next-item playback",
+            "End of a video or a queue",
+            "Whether another item begins and how to stop the transition"
+          ],
+          [
+            "Background audio",
+            "After changing tabs or minimizing a window",
+            "Whether sound continues and which control stops it"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Run a repeatable, low-risk check",
+      "paragraphs": [
+        "Use a neutral page or a harmless test item if the platform offers one. Begin with the sound muted and avoid casting to another display. Observe whether a preview starts as you move through results, whether opening a title page starts playback, and whether a next item begins after the test ends.",
+        "Then change one setting, repeat the same steps, and record the result. Check whether the change remains after navigating away or opening a fresh session. Do not infer that a preference is permanent from one successful test; it may be temporary, browser-specific, or tied to an account.",
+        "Keep the observation narrow. You are testing behavior, not judging the platform’s full moderation or privacy practices. A short written log with the page, setting, device, and result is enough to make a later comparison more reliable."
+      ],
+      "bullets": [
+        "Test one autoplay behavior at a time.",
+        "Keep casting and unnecessary permissions off during the check.",
+        "Record device, browser, page, and whether the setting persisted."
+      ]
+    },
+    {
+      "heading": "Plan for shared screens, sound, and notifications",
+      "paragraphs": [
+        "Autoplay is not only a playback preference; it can affect what appears on a screen and what others nearby hear. Before browsing on a shared television or display, check the current output route and whether a cast or connected-device session is active. Do not assume that a private browser window prevents a stream from appearing on a shared display.",
+        "Consider system sounds and notifications as well as media audio. A notification can reveal that a site or browser is active even when the video is paused. If privacy matters in your setting, review lock-screen and browser notification behavior before starting, and silence or disable alerts only through controls you understand.",
+        "On a shared device, sign out when appropriate and avoid leaving an open title page or browser tab visible. These steps do not guarantee privacy, but they reduce simple forms of accidental exposure. Choose a private browsing context only with a realistic understanding of what it does and does not retain."
+      ]
+    },
+    {
+      "heading": "Compare controls by clarity and reachability",
+      "paragraphs": [
+        "A control is more useful when its label matches its effect and it is easy to find before playback starts. Check whether the setting is in the player, account preferences, browser, or device menu. Note whether the control is a switch, a one-time pause, or an option that affects only the current page.",
+        "If the platform offers no clear control, record that accurately. Do not rely on repeated clicking of unfamiliar buttons or on extensions that request broad permissions without understanding their purpose. If you use a browser tool to change media behavior, review the tool’s permission scope and source before installing it.",
+        "When comparing services, distinguish between control availability and control reliability. A visible setting may not persist, while a setting that works once may affect only previews. The relevant question is whether you can predictably stop the behavior you care about in the context where you browse."
+      ]
+    },
+    {
+      "heading": "Choose a browsing routine that fits your device",
+      "paragraphs": [
+        "After testing, make a small routine for the device you use most. That might mean opening the site with audio muted, checking that casting is inactive, disabling a specific preview control, or stopping a next item before navigating away. Keep the routine simple enough to remember and revisit it if the platform changes.",
+        "Do not assume that the same settings apply on a phone, desktop browser, or smart display. Repeat the short check on any device where accidental playback would have different consequences. If you cannot test a setting on a device, treat its behavior as unknown rather than transferring your conclusion from another device.",
+        "The goal is practical control, not perfect certainty. If you cannot determine how an important behavior works, choose a safer browsing context or avoid the action that could expose the screen or sound. That is a reasonable decision even when the platform provides limited information."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off autoplay stop every kind of automatic preview?",
+      "answer": "Not necessarily. A setting may apply only to the next item or only to the player. Check previews, title-page playback, and next-item behavior separately."
+    },
+    {
+      "question": "Can private browsing prevent autoplay from appearing on a shared screen?",
+      "answer": "No. Private browsing does not prevent a connected display or active casting session from showing playback. Check the output route and casting state separately."
+    },
+    {
+      "question": "How do I know whether a control will persist?",
+      "answer": "Repeat the same check after navigating away or opening a new session, and record the device and browser. A single successful change does not establish that the preference is permanent or synchronized."
+    },
+    {
+      "question": "Should I install an extension to stop previews?",
+      "answer": "Only after checking its source, purpose, and permission requests. A browser or platform control may be sufficient; avoid granting broad access to an extension you do not understand."
+    }
+  ]
+};

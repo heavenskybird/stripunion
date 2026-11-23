@@ -1,0 +1,125 @@
+export default {
+  "slug": "premium-video-membership-accessibility-evidence-workbook",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Memberships: Verify Accessibility Features Before You Subscribe",
+  "description": "Use a practical evidence checklist to compare accessibility features across premium video platforms, including captions, navigation, and settings persistence.",
+  "excerpt": "Accessibility claims can be hard to compare from a feature list alone. This guide helps you check which controls are available, where they work, and whether they remain usable through browsing and playback.",
+  "publishedAt": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "keyTakeaways": [
+    "Separate a platform’s accessibility claims from controls you can verify in its actual interface.",
+    "Check features in both catalog browsing and playback; support in one area does not establish support everywhere.",
+    "Test captions, keyboard navigation, screen-reader labels, and control persistence against your own requirements.",
+    "Record limitations and unresolved questions before comparing membership terms.",
+    "Treat a preview as evidence about the preview experience, not automatic proof of full-library accessibility."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the tasks you need to complete",
+      "paragraphs": [
+        "Accessibility is not a single platform feature. It is the collection of steps that lets you find a title, understand its details, start playback, adjust the experience, and stop or resume without unnecessary barriers. A feature list may name captions or keyboard support while leaving out whether those features work on the pages and devices you actually use.",
+        "Before comparing memberships, write down a small set of tasks that matter to you. For example, you might need to reach search without a pointer, identify a control by its spoken label, change caption appearance, or keep a setting after moving to another title. This turns a broad question—“Is the platform accessible?”—into checks that can produce useful evidence.",
+        "Keep personal requirements separate from nice-to-have features. A missing essential control can make a service unsuitable even if it performs well on other dimensions. Conversely, a feature you do not need should not outweigh a membership’s other relevant terms."
+      ],
+      "bullets": [
+        "List the devices and browsers you expect to use.",
+        "Name the tasks that are essential, rather than relying only on feature names.",
+        "Mark which needs are deal-breakers and which are preferences."
+      ]
+    },
+    {
+      "heading": "Check the full path from discovery to playback",
+      "paragraphs": [
+        "A title page and a video player can have different controls, labels, and navigation behavior. Test the path through both. Can you reach search, filters, title details, and playback controls in a predictable order? If you use a keyboard or assistive technology, note where focus goes after opening a menu, changing a filter, or returning from a player.",
+        "For screen-reader use, check whether buttons and fields have meaningful names and whether status changes are announced. A control that is visually present may be difficult to identify if it has no useful label. For keyboard use, check whether you can reach interactive items, recognize the current focus, and leave menus or dialogs without getting stuck.",
+        "Do not assume that one successful test proves every page works. A homepage, account form, title page, and playback screen may behave differently. A short, repeatable test across those stages makes comparisons more credible and reveals exactly where a platform falls short."
+      ],
+      "table": {
+        "caption": "A task-based way to compare accessibility evidence",
+        "headers": [
+          "Area",
+          "What to check",
+          "Useful evidence to record"
+        ],
+        "rows": [
+          [
+            "Catalog browsing",
+            "Can you reach search, filters, and title details using your preferred input method?",
+            "The page and control where navigation succeeds or fails"
+          ],
+          [
+            "Playback",
+            "Can you identify and operate play, pause, volume, and caption controls?",
+            "Control labels, focus order, and any required workaround"
+          ],
+          [
+            "Account settings",
+            "Can you find and understand accessibility-related settings?",
+            "The setting location and whether its label is clear"
+          ],
+          [
+            "Setting persistence",
+            "Does a chosen preference remain after a title or session changes?",
+            "Which transition was tested and whether the setting remained"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify captions and visual adjustments on representative material",
+      "paragraphs": [
+        "Caption availability, caption accuracy, and caption customization are separate questions. Check whether captions are offered for the material you plan to watch, whether the text is understandable, and whether display options such as size or contrast meet your needs. A platform-level statement may not establish that every title has captions or that every device offers the same controls.",
+        "If there is a legitimate preview or other permitted sample, use it to inspect caption presentation and playback controls. Note the limits of the sample: it may not represent the title types, languages, or playback paths you care about. Avoid treating a single example as proof of library-wide coverage.",
+        "Visual adjustments can also be split between the device, browser, and service. If a platform offers a setting, check whether it applies only to the player or changes other interface text as well. Record which layer controls the adjustment so you know whether it will be available on another device."
+      ]
+    },
+    {
+      "heading": "Assess whether settings survive normal use",
+      "paragraphs": [
+        "A setting is only useful if it can be found, changed, and retained in the circumstances you expect. Test whether caption preferences or other playback choices persist after navigating away, starting another item, or returning in a later session. Do not assume persistence based on a saved toggle or a general help-page statement; verify the behavior where possible.",
+        "Separate account-level preferences from device-level preferences. A browser may remember a setting that does not follow you to a phone, while a platform account may synchronize some choices and not others. This distinction matters if you switch devices or use a shared screen. It can also affect privacy: the settings menu may show a preference to someone else using the same account.",
+        "When you cannot test a behavior before subscribing, mark it as unknown rather than guessing. A clear unknown is more useful than an unsupported claim. You can then decide whether to ask support a specific question, wait for better documentation, or choose a different service."
+      ],
+      "bullets": [
+        "Record whether a preference is controlled by the platform, browser, or device.",
+        "Check what happens after changing titles, signing out, or switching devices when those tests are available.",
+        "Keep a list of unanswered questions separate from confirmed limitations."
+      ]
+    },
+    {
+      "heading": "Compare evidence without turning it into a vague score",
+      "paragraphs": [
+        "A simple score can conceal important distinctions. One platform may have excellent keyboard access in browsing but unclear player labels; another may offer useful caption controls but limited documentation. Preserve these differences in a comparison sheet instead of collapsing them into a single number too early.",
+        "For each requirement, record whether it is confirmed, partially confirmed, unavailable, or unknown. Add the device or page used for the check and the date, since interfaces can change. If two services have comparable membership terms, this evidence can help you identify the one that better fits your actual use.",
+        "Do not infer that a platform is unusable merely because public documentation is incomplete. Equally, do not assume that a feature exists because a marketing page uses broad language. The decision should reflect the requirements that matter to you and the evidence you can verify."
+      ]
+    },
+    {
+      "heading": "Make the membership decision with accessibility in view",
+      "paragraphs": [
+        "Once you have a practical picture of the interface, compare it with the membership terms you would otherwise consider: what access is included, when renewal occurs, and how cancellation works. Accessibility should be part of the decision before payment, not a question postponed until after a commitment. If a feature is essential and cannot be verified, account for that uncertainty explicitly.",
+        "Keep the comparison proportionate. You do not need to test every title or every device. A few carefully chosen tasks across discovery, playback, and settings can reveal meaningful differences. The purpose is not to certify a platform but to avoid relying on unsupported assumptions.",
+        "A strong decision record can be brief: essential needs, confirmed controls, known gaps, unresolved questions, and the membership term you reviewed. That record makes it easier to revisit the choice if the service, your device setup, or your requirements change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a platform claim accessibility without providing details about every title?",
+      "answer": "Yes, but a general claim does not establish that each title has captions or that every feature works across all devices. Treat platform-wide statements as a starting point, then check the specific titles, pages, and devices that matter to you."
+    },
+    {
+      "question": "What is the most useful accessibility test before joining?",
+      "answer": "Test a task that is essential for your use, such as finding a title and operating the player with your preferred input method. Include both catalog browsing and playback, since success in one area does not prove success in the other."
+    },
+    {
+      "question": "Should unknown features count as unavailable?",
+      "answer": "Not automatically. Record them as unknown and decide whether that uncertainty is acceptable. If the feature is essential, ask a specific question or avoid committing until you have enough evidence."
+    },
+    {
+      "question": "Does a free preview prove the paid experience is accessible?",
+      "answer": "No. A preview can reveal some interface and playback behavior, but it may not represent every title, account page, or device. Use it as limited evidence and note what it did not let you test."
+    }
+  ]
+};
