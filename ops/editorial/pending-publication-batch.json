@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T20:12:35.550Z",
+  "generatedAt": "2026-11-24T01:16:40.064Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-shared-finance-export-boundary-planner.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-availability-language-fit.json",
-    "ops/editorial/content-artifacts/adult-anime-game-session-length-fit-planner.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-external-player-dependency-map.json",
-    "ops/editorial/content-artifacts/free-video-guest-vs-signed-in-discovery-comparison.json"
+    "ops/editorial/content-artifacts/adult-games-community-evidence-before-account.json",
+    "ops/editorial/content-artifacts/adult-shop-order-substitution-approval-plan.json",
+    "ops/editorial/content-artifacts/live-cam-room-language-uncertainty-plan.json",
+    "ops/editorial/content-artifacts/creator-platform-live-scheduled-workflow-fit.json",
+    "ops/editorial/content-artifacts/premium-video-viewer-profile-switching-decision.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-shared-finance-export-boundary-planner.js",
-    "src/data/guides/adult-dating-platform-availability-language-fit.js",
-    "src/data/guides/adult-anime-game-session-length-fit-planner.js",
-    "src/data/guides/vr-adult-platform-external-player-dependency-map.js",
-    "src/data/guides/free-video-guest-vs-signed-in-discovery-comparison.js"
+    "src/data/guides/adult-games-community-evidence-before-account.js",
+    "src/data/guides/adult-shop-order-substitution-approval-plan.js",
+    "src/data/guides/live-cam-room-language-uncertainty-plan.js",
+    "src/data/guides/creator-platform-live-scheduled-workflow-fit.js",
+    "src/data/guides/premium-video-viewer-profile-switching-decision.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "dating-hookups",
-    "hentai-anime",
-    "vr-ar",
-    "free-videos"
+    "adult-games",
+    "adult-shops",
+    "live-cams",
+    "creator-platforms",
+    "premium-videos"
   ],
   "backlogIds": [
-    "adult-platform-shared-finance-export-boundary-planner",
-    "adult-dating-platform-availability-language-fit",
-    "adult-anime-game-session-length-fit-planner",
-    "vr-adult-platform-external-player-dependency-map",
-    "free-video-guest-vs-signed-in-discovery-comparison"
+    "adult-games-community-evidence-before-account",
+    "adult-shop-order-substitution-approval-plan",
+    "live-cam-room-language-uncertainty-plan",
+    "creator-platform-live-scheduled-workflow-fit",
+    "premium-video-viewer-profile-switching-decision"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45256478921",
-  "phase": "closed"
+  "r1CycleId": "45303481318"
 }

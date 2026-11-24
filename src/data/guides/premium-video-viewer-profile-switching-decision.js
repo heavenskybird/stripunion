@@ -1,0 +1,143 @@
+export default {
+  "slug": "premium-video-viewer-profile-switching-decision",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check Whether Profile Switching Fits Your Viewing Setup",
+  "description": "Before choosing a premium video subscription, test how profile switching works on your devices and whether it keeps household viewing preferences and activity appropriately separated.",
+  "excerpt": "A profile switcher may simplify shared-device use, but its labels and controls do not by themselves tell you what other viewers can see. Check the actual account, playback and sign-in path before relying on profiles.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "Distinguish separate viewing profiles from separate accounts and separate billing responsibilities.",
+    "Test the profile-selection path on the devices where you expect to watch.",
+    "Check whether watch history, recommendations, saved lists and account settings are separated or shared.",
+    "Review sign-in persistence, profile locks and visible profile names on shared screens.",
+    "Choose a separate account or device workflow if profile controls do not meet your privacy or access needs."
+  ],
+  "sections": [
+    {
+      "heading": "Decide what profile separation needs to accomplish",
+      "paragraphs": [
+        "A viewing profile can be useful for keeping preferences, saved lists or recommendations organized. It may not create a fully separate account, independent billing relationship or privacy boundary. Begin by listing what you want to separate: viewing history, recommendations, saved items, profile name, playback settings, or access to account and payment controls. Those are distinct outcomes and may be handled differently by a platform.",
+        "Then consider who uses the device and what they need to access. A shared household screen may display profiles at launch, reveal recently used profiles or retain a signed-in session. A profile switcher does not automatically prevent another person from selecting a profile or opening account settings. Your decision should reflect the actual household setup rather than the assumption that multiple profile icons equal private, independent spaces."
+      ],
+      "bullets": [
+        "Write down which viewing and account details need separation.",
+        "Distinguish profile organization from account security and payment separation.",
+        "Consider what appears on the shared device before and after playback."
+      ]
+    },
+    {
+      "heading": "Test the entire profile-selection path",
+      "paragraphs": [
+        "Do not evaluate profile switching only from an account settings page. Test the sequence you will actually use: launch the service, select a profile, switch to another profile, return to the home screen and sign out if that is part of your routine. Observe profile names, avatars, recent activity and prompts that may be visible to another person. If a device is shared, consider testing at a time when you can inspect its normal screens without exposing private information.",
+        "Repeat the check on each important device type where practical. A browser, television app and mobile interface may present different profile selectors or sign-in behavior. Do not assume a control available in one environment will appear identically elsewhere. Record which devices you tested and what you could not verify. That creates a useful fit assessment without making unsupported claims about every platform or device."
+      ],
+      "bullets": [
+        "Check profile selection, switching, return-to-home and sign-out behavior.",
+        "Inspect the screen before playback as well as the player and home screen afterward.",
+        "Repeat on the devices you actually plan to use.",
+        "Record untested devices or settings as unknowns."
+      ]
+    },
+    {
+      "heading": "Check what profile data is shared or separated",
+      "paragraphs": [
+        "Look for platform documentation that explains how profiles affect watch history, recommendations, saved lists and playback preferences. If the platform does not state the boundary clearly, do not infer separation from the existence of separate profile names. Some account-level settings may remain common even when viewing preferences are separated. Check whether an account owner can inspect or manage other profiles and whether any activity is visible in shared recommendations or recent items.",
+        "Where a privacy control is available, test what it changes and what it does not. A profile lock, if offered, may protect entry into a profile without separating billing or account ownership. A viewing-history control may affect recommendations but not all account records. Keep a simple map of the boundary: separated, shared, or not explained. This is more useful than a general label such as “private profile.”"
+      ],
+      "table": {
+        "caption": "Profile separation questions to verify",
+        "headers": [
+          "Area",
+          "What to check",
+          "How to interpret an unclear answer"
+        ],
+        "rows": [
+          [
+            "Watch history",
+            "Whether history is per profile or visible at account level",
+            "Treat separation as unverified."
+          ],
+          [
+            "Recommendations",
+            "Whether profiles maintain distinct suggestions",
+            "Check whether shared viewing can still influence recommendations."
+          ],
+          [
+            "Saved lists",
+            "Whether lists are profile-specific and who can access them",
+            "Do not assume a separate list is inaccessible to the account owner."
+          ],
+          [
+            "Account controls",
+            "Who can change email, billing or security settings",
+            "These may remain account-level rather than profile-level."
+          ],
+          [
+            "Profile access",
+            "Whether a lock or selection control exists and how it works",
+            "A selection control is not necessarily a strong security boundary."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review visible identity and shared-device behavior",
+      "paragraphs": [
+        "Profile names and images may be visible to anyone who opens the service on a shared screen. Choose labels that do not reveal more than you intend, and check whether the interface shows a recently used profile or last-viewed information. Also consider device-level notifications, browser history and saved passwords. A service profile cannot control every trace created by the operating system, browser or other household user.",
+        "Sign-out and session behavior matter too. Determine whether leaving the player returns to a profile home screen, the account selector or a still-active session. If you share a device, use a sign-out or device-lock routine that fits your circumstances. Avoid saving credentials on a device others can access unless you have assessed the device’s own account controls. These steps reduce accidental exposure but do not promise complete privacy."
+      ],
+      "bullets": [
+        "Use a profile name and image appropriate for a shared display.",
+        "Check whether recent-profile or last-viewed information appears on screen.",
+        "Review browser history, saved sign-in and device notifications separately from platform profiles.",
+        "Sign out or lock the device when your shared-use routine calls for it."
+      ]
+    },
+    {
+      "heading": "Compare profiles with separate accounts or separate devices",
+      "paragraphs": [
+        "Profiles may be convenient when the goal is organizing recommendations and viewing preferences within one household account. Separate accounts or devices may be more appropriate when users need independent billing, sign-in credentials or account-level controls. Do not assume a platform permits account sharing or multiple accounts under every plan; check the current terms and any relevant limits before deciding.",
+        "A separate account can introduce its own management burden, including another sign-in, billing arrangement and renewal record. A separate device can reduce some shared-screen exposure but may not resolve account or network-level visibility. Compare the practical trade-offs against your stated needs. The right choice is not necessarily the most complicated one; it is the option whose limits you understand and accept."
+      ],
+      "bullets": [
+        "Use profiles when preference organization is the main requirement and their limits are clear.",
+        "Check account-sharing and plan terms before creating or sharing accounts.",
+        "Consider device-level access and sign-in controls alongside platform features.",
+        "Do not treat a profile as an independent billing or legal account unless terms say so."
+      ]
+    },
+    {
+      "heading": "Make a documented choice and revisit it when the setup changes",
+      "paragraphs": [
+        "Use a short decision record: intended viewers, devices tested, data you verified as separated, controls you found, and unresolved questions. Choose profiles only if the tested behavior meets the boundary you need. If not, consider a different account or device arrangement, or avoid using a shared screen for viewing that you want kept separate. There is no need to test sensitive content to evaluate the profile flow; the account and interface controls can be checked without doing so.",
+        "Revisit the decision if the platform changes its interface or terms, a new device is added, household access changes or you notice unexpected recommendations or profile visibility. Keep the record factual and date it. A clear, limited conclusion—such as “profiles separated the saved list in the browser test, but account-level access remains unclear”—is more dependable than a blanket assumption that all activity is private."
+      ],
+      "bullets": [
+        "Record which devices and profile behaviors you tested.",
+        "State verified boundaries separately from unknowns.",
+        "Recheck when household access, devices, settings or service terms change.",
+        "Choose a workflow that does not depend on controls you could not verify."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a separate profile mean other household members cannot see my viewing activity?",
+      "answer": "Not necessarily. Profiles may separate some viewing preferences or lists while leaving account-level access, profile names or device screens visible. Check the platform’s explanation and test the shared-device path. Treat any boundary the platform does not explain as unknown."
+    },
+    {
+      "question": "Is a profile lock the same as a separate account?",
+      "answer": "No. A profile lock, where available, is a profile-access control. It does not automatically create separate billing, independent ownership or separate account security. Review what the control protects and what remains managed at the account level."
+    },
+    {
+      "question": "Should I test profiles on every device?",
+      "answer": "Test the devices that matter to your routine. Interfaces and sign-in behavior can vary, so a successful check on one device does not establish how another device behaves. Record what you tested and avoid assuming untested behavior is identical."
+    },
+    {
+      "question": "What if a platform does not explain whether profile history is shared?",
+      "answer": "Treat that separation as unverified. You can look for a current help explanation or ask support a narrow question without sharing sensitive details. If the boundary is important and remains unclear, choose a different account or device workflow rather than relying on an assumption."
+    }
+  ]
+};
