@@ -1,0 +1,131 @@
+export default {
+  "slug": "adult-dating-profile-message-boundary-planner",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Profiles: Set Clear Messaging Boundaries Before You Match",
+  "description": "A practical guide to choosing and communicating dating-app message boundaries, including response pace, topics, contact sharing, and respectful ways to pause a conversation.",
+  "excerpt": "A profile can invite connection without promising immediate replies or unlimited access. Plan what you are comfortable discussing, when you want to move to another channel, and how you will state a boundary clearly.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "Decide which communication expectations matter to you before writing or revising a profile.",
+    "Use clear, neutral language about response pace and preferred conversation style.",
+    "Treat a boundary as information, not a demand that every other member must accept.",
+    "Avoid putting sensitive contact details or identifying information in a public profile.",
+    "Use platform controls and block or report routes when someone ignores boundaries or behaves abusively."
+  ],
+  "sections": [
+    {
+      "heading": "Choose the boundaries that affect your experience",
+      "paragraphs": [
+        "Messaging boundaries are practical expectations about how and when conversation happens. They can cover reply pace, preferred conversation topics, whether you want to exchange contact details, and whether you are comfortable with calls or voice notes. Thinking these through in advance helps you distinguish a genuine preference from pressure you may feel after a match.",
+        "Start with the boundary that would most improve your experience. For one person it may be keeping conversation inside the platform until trust develops; for another it may be saying that replies are not immediate. You do not need to publish a complete rulebook. A few clear preferences are easier to understand and less likely to be mistaken for a demand that others communicate on your schedule."
+      ],
+      "bullets": [
+        "What response pace feels manageable for you?",
+        "Which topics are you comfortable discussing early?",
+        "Do you want to keep contact inside the platform at first?",
+        "What would make you end or pause a conversation?"
+      ]
+    },
+    {
+      "heading": "Write expectations as first-person preferences",
+      "paragraphs": [
+        "First-person wording communicates what you will do without trying to control another person. For example, “I usually reply when I have time” describes your pace, while a long list of rules about how others must behave can sound like a test. Keep wording direct, calm, and specific enough that a reader can decide whether the communication style suits them.",
+        "Avoid implying that a match owes you attention, personal details, or a rapid reply. A profile is an introduction, not a contract. If a preference is essential to your comfort, state it plainly; if it is flexible, you can leave room for conversation. Review the wording from the perspective of someone who does not know you yet and ask whether it reads as an invitation, a boundary, or an ultimatum."
+      ],
+      "bullets": [
+        "Describe your own choices rather than prescribing another person’s behavior.",
+        "Use ordinary language instead of coded or ambiguous demands.",
+        "Avoid listing private contact information in a public-facing profile.",
+        "Revisit wording if people repeatedly interpret it differently than intended."
+      ]
+    },
+    {
+      "heading": "Keep boundaries compatible with platform features",
+      "paragraphs": [
+        "The platform’s messaging tools affect what is practical. A service might limit who can initiate a conversation, provide message requests, or offer controls for blocking and reporting. Check the actual feature descriptions and privacy settings rather than assuming that a profile statement can replace them. If a platform allows contact from people you have not matched with, consider whether its filtering and safety tools fit your boundaries.",
+        "Also consider message visibility and retention. A conversation can contain details you would not want copied into screenshots, forwarded, or kept indefinitely. Keep early messages focused on what you are comfortable sharing, and do not treat an app’s existence as a guarantee that messages are private. If you are unsure how a feature works, test it with non-sensitive information or consult the platform’s help materials before relying on it."
+      ],
+      "bullets": [
+        "Check who can message you and how requests are filtered.",
+        "Review block and report controls before a problem arises.",
+        "Do not share identifying or financial details to prove trust.",
+        "Assume messages could be retained or copied beyond your control."
+      ]
+    },
+    {
+      "heading": "Plan how to handle contact requests and boundary changes",
+      "paragraphs": [
+        "You may be comfortable with in-app conversation at first and later decide to exchange another contact method. You can make that decision case by case without promising it in a profile. A simple response such as “I prefer to keep chatting here for now” states a limit without needing to justify it. If the other person pushes after you have answered, that behavior is relevant information about compatibility and respect.",
+        "Boundaries can change as circumstances change. You might need to pause a chat, stop replying, or use a platform control even when a conversation began positively. Decide in advance what you will do if someone repeatedly contacts you after you ask them to stop. You do not owe prolonged debate. Use the available block or report process when appropriate, and preserve only the information needed to make a report."
+      ],
+      "bullets": [
+        "Prepare a short response for requests you do not want to accept.",
+        "Do not feel required to explain or negotiate a firm boundary.",
+        "Use platform controls if someone continues unwanted contact.",
+        "Share only the evidence needed for a report, through the intended route."
+      ]
+    },
+    {
+      "heading": "Use a fit checklist rather than judging one profile line",
+      "paragraphs": [
+        "A person’s ability to state a preference clearly can help you decide whether to start a conversation, but it cannot establish their character or guarantee future behavior. Consider the broader context: whether the wording is respectful, whether expectations seem reciprocal, and whether the platform gives you enough control over contact. A mismatch is a reason to move on, not a reason to pressure someone to change their boundary.",
+        "You can also use a short review checklist for your own profile. Read it on a small screen, where long passages may be harder to scan. Remove details that reveal a workplace, routine, or other identifying information if you do not want them public. Make sure the text communicates an expectation rather than an assumption about what others owe you. Then leave room for conversation to develop naturally."
+      ],
+      "table": {
+        "caption": "Profile messaging-boundary review",
+        "headers": [
+          "Review question",
+          "Clearer approach",
+          "Potential issue to avoid"
+        ],
+        "rows": [
+          [
+            "Is the response pace understandable?",
+            "Describe your typical availability in your own terms",
+            "Demanding replies on a fixed schedule"
+          ],
+          [
+            "Are contact preferences stated?",
+            "Say whether you prefer in-app chat initially",
+            "Posting a personal phone number publicly"
+          ],
+          [
+            "Is the tone respectful?",
+            "Frame the statement as a preference or limit",
+            "Insults, threats, or tests aimed at other members"
+          ],
+          [
+            "Is the wording concise?",
+            "Use one or two scannable sentences",
+            "A long set of rules that obscures your intent"
+          ],
+          [
+            "Is there a safety plan?",
+            "Know where block and report controls are",
+            "Assuming profile wording prevents unwanted contact"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I put all my dating boundaries in my profile?",
+      "answer": "No. State the few preferences that are most important for initial compatibility. Keep more personal or situational boundaries for a conversation when and if you choose to discuss them."
+    },
+    {
+      "question": "How can I decline a request to move off the platform?",
+      "answer": "A brief first-person statement is enough, such as saying you prefer to keep chatting in the app for now. You do not need to provide a detailed justification, and you can stop engaging if the person keeps pressuring you."
+    },
+    {
+      "question": "Does clear profile wording guarantee respectful messages?",
+      "answer": "No. Clear wording helps communicate expectations but cannot control how others behave. Review platform safety controls and use them if someone crosses a boundary."
+    },
+    {
+      "question": "Is it rude to reply slowly or pause a conversation?",
+      "answer": "People have different availability and communication preferences. You can state your pace honestly and pause a conversation when needed. A match does not create an obligation to be continuously available."
+    }
+  ]
+};
