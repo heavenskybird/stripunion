@@ -1,0 +1,130 @@
+{
+  "backlogId": "creator-platform-policy-change-operations-log",
+  "slug": "creator-platform-policy-change-operations-log",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Build a Policy-Change Log for Business Decisions",
+  "description": "A practical workflow for recording creator-platform policy changes, identifying affected operations, and deciding what to review without relying on assumptions.",
+  "excerpt": "Policy updates can affect publishing, account controls, commercial terms, or fan expectations. A structured change log helps creators identify what changed and what needs follow-up.",
+  "keyTakeaways": [
+    "Record the source, date reviewed, and specific language of a policy change rather than relying on a notification headline.",
+    "Separate confirmed changes from interpretations and unresolved questions.",
+    "Map each change to the workflows, content, or audience commitments it may affect.",
+    "Check the effective date and whether the platform explains transition arrangements.",
+    "Use a review cadence that fits your operation, and do not mistake a log for legal or platform-specific advice."
+  ],
+  "sections": [
+    {
+      "heading": "Why a change log is useful",
+      "paragraphs": [
+        "Creator work can depend on platform rules for publishing, account access, payments, content rights, moderation, and communication. When a platform updates terms or guidance, the practical issue is not simply whether a document changed. It is whether the change affects something you do, something you promised to fans, or a record you rely on to run the business.",
+        "A change log creates a clear path from the source document to an operational decision. Without one, it is easy to remember a notification but forget its effective date, confuse a summary with the actual text, or assume that a policy change applies to an old workflow in the same way it applies to a new one.",
+        "The log is not a prediction tool and cannot settle legal questions. Its purpose is narrower: preserve the evidence you reviewed, note the possible operational impact, and identify what requires clarification or a decision. That makes later reviews more consistent and reduces reliance on memory."
+      ]
+    },
+    {
+      "heading": "Capture the change with enough context",
+      "paragraphs": [
+        "For each update, record the platform area involved, the date you found or reviewed the change, the source document, and any effective date stated by the platform. If the platform provides a version date or update notice, preserve that reference. Keep the exact relevant wording or a precise excerpt alongside your plain-language summary so you can distinguish the source from your interpretation.",
+        "Record whether the update is a formal term, help page, product announcement, or support response. These sources may answer different questions. A general announcement may describe intent without supplying all operational detail, while a support response may address only the question asked. Note any mismatch instead of treating one source as a complete replacement for another.",
+        "Keep the record focused. You do not need to copy an entire policy when the relevant section and source location will do. Store records in a place with appropriate access controls, especially if they contain account details, business information, or private correspondence. Avoid pasting sensitive fan data into a policy log."
+      ],
+      "bullets": [
+        "Source title or page, link or reference, and the date reviewed.",
+        "Relevant section or exact wording, with a distinction between quotation and summary.",
+        "Stated effective date, transition information, and any uncertainty about timing.",
+        "Your operational question, without presenting a guess as a platform fact."
+      ]
+    },
+    {
+      "heading": "Map the possible operational impact",
+      "paragraphs": [
+        "Translate the change into a set of questions about your own workflow. A publishing-related update might prompt a review of what you upload or how you prepare a post. A commercial-terms change may warrant checking the documents you use to understand deductions or account responsibilities. A moderation update may prompt a review of how you document decisions or where you find the appeal route. These are examples of review areas, not claims that any particular platform changed those rules.",
+        "Use an impact map that connects the affected policy area to the operation it could touch. Include the potential audience or fan effect where relevant: could an access promise, release schedule, membership description, or communication plan need clarification? If no current workflow appears affected, record that conclusion and the reason, rather than leaving the item unresolved.",
+        "Classify the impact as confirmed, possible, or unknown. A change in wording may be clear while its effect on your particular workflow is not. This distinction helps prevent overreaction while ensuring an uncertain question is not quietly treated as settled."
+      ],
+      "table": {
+        "caption": "A policy-change log template",
+        "headers": [
+          "Field",
+          "What to record",
+          "Example of useful wording"
+        ],
+        "rows": [
+          [
+            "Source",
+            "Document or notice reviewed",
+            "Platform terms page; section title; reviewed date"
+          ],
+          [
+            "Change",
+            "What the source explicitly says",
+            "“This section now states…”"
+          ],
+          [
+            "Effective timing",
+            "Dates or transition details stated",
+            "“Effective date stated; transition not described”"
+          ],
+          [
+            "Operations affected",
+            "Your relevant workflow or commitment",
+            "“Review scheduled-post checklist”"
+          ],
+          [
+            "Status",
+            "Confirmed, possible, or unknown",
+            "“Potential impact; needs clarification”"
+          ],
+          [
+            "Next action",
+            "Owner, question, or review date",
+            "“Check source again before next release”"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set a decision and follow-up path",
+      "paragraphs": [
+        "Not every update requires the same response. Some may only need to be recorded; others may call for a workflow change, a fan-facing explanation, a support question, or a pause while you assess the implications. Decide who will review the item, what evidence they need, and what would count as resolving the question.",
+        "If you contact platform support, ask a specific question tied to the cited section and keep the response with the log. Avoid treating a brief answer as a definitive interpretation of every related scenario. If the consequences are significant or involve legal, financial, or rights questions, consider obtaining qualified advice appropriate to your circumstances instead of relying only on a support exchange.",
+        "Where fans could be affected, review the wording of any relevant offer or announcement before changing it. Distinguish what is confirmed from what you are still checking. Avoid promising that access, delivery, or account treatment will remain unchanged unless you have a reliable basis for that statement."
+      ]
+    },
+    {
+      "heading": "Keep the log current without creating busywork",
+      "paragraphs": [
+        "Choose a review routine that suits the scale of your operation. You might review notices when they arrive, before a major workflow change, or during a regular business review. The point is to make important updates findable, not to create a daily administrative task that does not improve decisions.",
+        "Close each entry with a status: no action required, workflow updated, clarification requested, or review scheduled. If an item is superseded, link the newer source while retaining enough history to explain why the earlier decision was made. Do not erase the distinction between what the platform said at one time and what a later document says.",
+        "Periodically check that the log itself is accessible to the people who need it and protected from those who do not. Use consistent naming and dates. A simple spreadsheet or document can be enough if it captures evidence, impact, and follow-up clearly; more tooling does not make an uncertain interpretation more reliable."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I save a full copy of every platform policy?",
+      "answer": "Not always. Retain the relevant source, section, review date, and any version or effective-date details needed to understand your decision. Follow your own recordkeeping and privacy needs, and avoid storing unrelated sensitive information."
+    },
+    {
+      "question": "How do I tell a confirmed change from a possible impact?",
+      "answer": "Quote or summarize what the source explicitly says, then separately describe how it may affect your operation. Label the latter as confirmed, possible, or unknown based on the evidence you have."
+    },
+    {
+      "question": "Is a support reply enough to settle a policy question?",
+      "answer": "It can help clarify a specific point, but its scope may be limited to the question asked. Keep the reply with the relevant source and seek appropriate professional advice when the issue has significant legal or financial consequences."
+    },
+    {
+      "question": "How often should I review the log?",
+      "answer": "Use a cadence that matches your work and the importance of the decisions involved. Review relevant entries when a notice arrives, before changing an affected workflow, and when a prior question needs follow-up."
+    }
+  ],
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
