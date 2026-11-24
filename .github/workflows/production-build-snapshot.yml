@@ -1,0 +1,26 @@
+name: Production build snapshot GET only
+on:
+  push:
+    branches: [codex/release-183-acceptance]
+    paths: [.github/workflows/production-build-snapshot.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read exact production build states
+        env:
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+        run: |
+          node --input-type=module - <<'JS'
+          const base='https://developers.hostinger.com/api/hosting/v1/';
+          async function get(p){const r=await fetch(base+p,{headers:{authorization:'Bearer '+process.env.HOSTINGER_API_TOKEN},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new Error('HOSTINGER_HTTP'+r.status);const d=await r.json();return d.data??d;}
+          const websites=await get('websites?per_page=100');const site=websites.find(x=>x.domain==='stripunion.com');if(!site?.username)throw new Error('NO_EXACT_PRODUCTION_SITE');
+          const rows=await get('accounts/'+encodeURIComponent(site.username)+'/websites/stripunion.com/nodejs/builds?per_page=100');
+          console.log('PRODUCTION_BUILD_SNAPSHOT '+JSON.stringify({checkedAt:new Date().toISOString(),domain:'stripunion.com',builds:rows.sort((a,b)=>Date.parse(b.created_at)-Date.parse(a.created_at)).slice(0,3).map(x=>({id:x.uuid??x.id,state:x.state,createdAt:x.created_at,updatedAt:x.updated_at}))}));
+          JS

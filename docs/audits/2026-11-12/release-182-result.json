@@ -1,0 +1,104 @@
+{
+  "runId": "43235846760",
+  "checkedAt": "2026-11-12T14:21:55.467Z",
+  "releaseNumber": 182,
+  "phase": "post",
+  "release": {
+    "mergeSha": "9a0b79a1341e150f2a3398c50c9a812a3f29e3cf",
+    "mergeTime": "2026-11-12T14:06:20Z",
+    "rollbackBuild": {
+      "id": "01a1cfdf-4b66-70f0-91b7-ddd9de80b647",
+      "state": "completed",
+      "createdAt": "2026-11-12T13:07:59Z",
+      "sha": null
+    },
+    "providerExactCommitKnown": false
+  },
+  "mainSha": "8188a2e491eeb1c235fdf247173d416b3adfa7f6",
+  "gates": {
+    "sendsPaused": true,
+    "receiptSuccessful": true,
+    "noMainActiveWriters": true,
+    "productionBuildComplete": true,
+    "productionHtml": true,
+    "robotsSitemap": true,
+    "recoveryGuides": true,
+    "postMergeMainAncestry": true,
+    "newProductionBuild": true,
+    "consentReleaseMarker": true
+  },
+  "switches": {
+    "SOCIAL_OUTBOX_SEND_ENABLED": "false",
+    "SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED": "UNSET",
+    "SOCIAL_OUTBOX_X_SEND_ENABLED": "UNSET",
+    "SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED": "UNSET",
+    "BLOG_PUBLISH_ENABLED": "UNSET"
+  },
+  "receipt": {
+    "httpStatus": 200,
+    "blobSha": "7f288306a8af9feaba9b91cd26c7f2974eb7f499",
+    "status": "success",
+    "cycleId": "43234015115",
+    "runId": "43234015115",
+    "attempts": 1,
+    "startedAt": "2026-11-12T14:08:07.575Z",
+    "finishedAt": "2026-11-12T14:20:46.882Z",
+    "recentRunIdsCount": 200,
+    "historyHash": "3e19a0491b0e9af8e197d3c97f4d270f557ec60996d67483a066bfa91114c77c"
+  },
+  "hostinger": {
+    "configured": true,
+    "websitesHttp": 200,
+    "mainFound": true,
+    "envHttp": 200,
+    "buildsHttp": 200,
+    "settingsHttp": 200,
+    "gitSettingsHttp": 200,
+    "settingsFields": [
+      "node_version",
+      "app_type",
+      "root_directory",
+      "output_directory",
+      "build_script",
+      "entry_file",
+      "package_manager"
+    ],
+    "gitFields": [
+      "installation_uuid",
+      "is_enabled",
+      "owner",
+      "repository",
+      "branch",
+      "directory"
+    ],
+    "canonicalRepository": true,
+    "branch": "main",
+    "autoDeploymentEnabled": true,
+    "ga4VariablePresent": false,
+    "ga4PublicValue": null,
+    "latestBuild": {
+      "id": "01a1d01d-762a-7014-8445-ea166501d020",
+      "state": "completed",
+      "createdAt": "2026-11-12T14:15:54Z",
+      "sha": null
+    },
+    "logEvidence": {
+      "httpStatus": 200,
+      "lineCount": 1785,
+      "errorCount": 0,
+      "warningCount": 2
+    },
+    "detailHttp": 200,
+    "providerCommitCandidates": [],
+    "detailFields": [
+      "uuid",
+      "state",
+      "options",
+      "created_at",
+      "updated_at"
+    ]
+  },
+  "guideCount": 35,
+  "guideEvidenceSha256": "4a8cd2b911f397925cc7ca27b10c58caf6a612c840926047af0d8d00e2e1d9e1",
+  "mainHtmlSha256": "f628fb3a80c81e39d30296b2b2261c05cc5771045bdf558102ea232ab15419e6"
+}

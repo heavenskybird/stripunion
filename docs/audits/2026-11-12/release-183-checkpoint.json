@@ -1,0 +1,14 @@
+{
+  "phase": "post",
+  "releaseNumber": 186,
+  "expectedMergeSha": "8353b7d8728707307bb8848f9d45c925a05f6b84",
+  "rollbackBuild": {
+    "id": "01a1d29b-23f3-70dd-aa8f-3b1a8bff4172",
+    "state": "completed",
+    "createdAt": "2026-11-13T01:52:25Z",
+    "sha": null
+  },
+  "preflightRunId": "43349413369",
+  "preflightReceiptSha": "8a6b73994dfa23d0d128d522fec06bcffc3e9f4c",
+  "note": "Blog infrastructure merged but publishing remainsfalse. Includes official GA4 host correctness and exact Telegram payload intent hash."
+}

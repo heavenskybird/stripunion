@@ -1,0 +1,65 @@
+name: Controlled release production acceptance
+on:
+  push:
+    branches: [codex/release-183-acceptance]
+    paths:
+      - .github/workflows/release-183-acceptance.yml
+      - scripts/release-183-acceptance.mjs
+      - docs/audits/2026-11-12/release-183-checkpoint.json
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: release-183-readonly-acceptance
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: canonical
+      - uses: actions/checkout@v4
+        with:
+          path: audit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait boundedly for production build (GET only)
+        working-directory: canonical
+        env:
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+        run: node ../audit/scripts/release-wait-production.mjs
+      - name: Read production settings, provider build and all recovery fingerprints
+        working-directory: canonical
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOCIAL_OUTBOX_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED: ${{ vars.SOCIAL_OUTBOX_SINGLE_WRITER_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_X_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_X_SEND_ENABLED || 'UNSET' }}
+          SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED: ${{ vars.SOCIAL_OUTBOX_TELEGRAM_SEND_ENABLED || 'UNSET' }}
+          BLOG_PUBLISH_ENABLED: ${{ vars.BLOG_PUBLISH_ENABLED || 'UNSET' }}
+          HOSTINGER_API_TOKEN: ${{ secrets.HOSTINGER_API_TOKEN }}
+          LIVE_MODELS_WORKER_DEPLOY_ENABLED: ${{ vars.LIVE_MODELS_WORKER_DEPLOY_ENABLED || 'UNSET' }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          cp ../audit/scripts/release-183-acceptance.mjs scripts/release-183-acceptance.mjs
+          node scripts/release-183-acceptance.mjs
+      - name: Inspect deployed Consent behavior with all browser writes intercepted
+        working-directory: canonical
+        run: |
+          if node -e "const c=require('../audit/docs/audits/2026-11-12/release-183-checkpoint.json');process.exit(c.phase==='post'&&c.releaseNumber===182?0:1)"; then
+            npm install
+            npx playwright install --with-deps chromium
+            cp ../audit/scripts/release-consent-browser.mjs scripts/release-consent-browser.mjs
+            node scripts/release-consent-browser.mjs
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: release-183-acceptance-${{ github.run_id }}
+          path: canonical/work/recovery/*.json
+          retention-days: 14

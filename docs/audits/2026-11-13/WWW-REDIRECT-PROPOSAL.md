@@ -1,0 +1,11 @@
+# www -> apex: minimal controlled proposal, NOT APPLIED
+
+Observed public www HTTPS currently serves200 with apex canonical. #189/#190 repaired canonical/discovery signals, not a server301. This is an alias normalization gap, not proof of robots/noindex outage or sole cause of Google's unindexed states.
+
+Prefer one exact-host HTTP301 redirect at the already-authoritative serving layer: www.stripunion.com -> https://stripunion.com with unchanged path AND query. Do not match blog.stripunion.com, staging, avcams or apex itself. Do not use a destination root-only redirect which discards a path or affiliate/UTM parameters.
+
+Cloudflare official example: https://developers.cloudflare.com/rules/url-forwarding/examples/redirect-all-different-hostname/ . Exact condition http.host eq "www.stripunion.com", dynamic destination concat("https://stripunion.com", http.request.uri.path), status301, preserve_query_string=true. Only applicable if current www traffic is already proxied through that zone and existing token/operator has Redirect Rules rights. Do NOT turn on proxy/DNS or alter WAF to make the rule work. Read existing rules and save rollback first. Rollback disables/removes only this newly identified rule.
+
+If Hostinger currently serves the alias directly, use the supported Node.js-site/domain redirect facility after checking hPanel's actual options/support. Do not deploy Apache .htaccess or VPS Nginx instructions against this managed static Astro Node.js service, and do not confuse the legacy AI Builder WWW toggle with this app. Official reference: https://www.hostinger.com/support/how-to-connect-a-custom-domain-to-a-node-js-application/ . A claim that an arbitrary Hostinger redirects endpoint is supported would be unverified.
+
+Acceptance: no-follow GET www homepage, one guide, all5hubs, robots and sitemap; each301 Location preserves complete path/query and stays HTTPS/apex. Follow to final200 with correct canonical. Verify www?q=... and /stripchat-app/?utm_source=telegram&utm_medium=social preserve attribution, no loop, and staging retains noindex. Snapshot all70recovery source fingerprints and rollback baseline. No DNS, WAF, SSL or routing rule changed by this proposal.
