@@ -1,0 +1,111 @@
+export default {
+  "slug": "adult-dating-profile-name-choice-review",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Adult Dating Platforms: Check Display-Name Rules Before Creating a Profile",
+  "description": "Review dating-platform display-name rules, profile visibility, and account recovery requirements before choosing how your identity appears to other members.",
+  "excerpt": "A dating platform may show one name to other members and require different identity details for account access. Find out what is public, what is required, and what can be changed before signing up.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "Distinguish the name shown to members from account, billing, and identity-verification details.",
+    "Check whether the platform requires a legal name, permits a chosen display name, or limits later changes.",
+    "Consider whether a display name could reveal an identity through workplace, social, or search-engine links.",
+    "Use accurate account information where required, and do not assume a pseudonym is permitted or private."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the different meanings of “name”",
+      "paragraphs": [
+        "A profile name is not always the same as the name used to register, pay, verify an account, or receive support. Before signing up, map the fields the platform uses and identify which information is visible to other members, which is held for account administration, and which may be supplied to a payment or verification provider. Read the relevant privacy and account documentation rather than assuming that one profile setting controls every record.",
+        "This distinction matters whether you prefer to use your everyday name or a chosen display name. A platform may allow a display name but still require accurate information for another purpose. Conversely, a registration form may ask for an email or phone number that is not shown on a public profile. Do not enter false information into fields that require accurate details; instead, find out which fields are optional and what the platform says about display and data use."
+      ],
+      "bullets": [
+        "List every name-related field you encounter before completing registration.",
+        "Mark each field as public, member-visible, account-only, or unclear based on platform documentation.",
+        "Keep display-name choices separate from billing and identity-verification information."
+      ]
+    },
+    {
+      "heading": "Check the platform’s rules and change process",
+      "paragraphs": [
+        "Look for the platform’s current rules about display names, profile fields, and permitted characters. Some services may restrict impersonation, contact details, or names that violate their policies. Review the consequences of changing a display name later: the platform may limit how often it can be changed, retain previous values internally, or require support assistance. Do not treat an editable profile field as proof that every past version disappears from all records.",
+        "If the policy is unclear, ask a narrow question before creating a profile: which name is visible to other members, whether a display name may be changed, and whether the platform retains prior versions. Save the response with the date and the applicable policy page. A support answer can clarify how the service describes its process, but it is not a substitute for reading the platform’s terms and privacy notice. If a name rule is a deal-breaker, resolve it before investing time in profile creation."
+      ],
+      "table": {
+        "caption": "Display-name review before registration",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "What to confirm"
+        ],
+        "rows": [
+          [
+            "Which name is visible to members?",
+            "Registration and profile fields may serve different purposes.",
+            "The public or member-facing field and its visibility settings."
+          ],
+          [
+            "Are chosen display names permitted?",
+            "Rules may restrict certain names or require a particular format.",
+            "Current profile-name policy and any prohibited information."
+          ],
+          [
+            "Can the name be changed later?",
+            "A change may be limited or require support.",
+            "The steps, limits, and whether previous values may be retained."
+          ],
+          [
+            "What name appears in account or payment records?",
+            "Private account records can be different from the profile shown to others.",
+            "Relevant privacy and billing disclosures; do not assume profile settings apply."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assess whether a name could identify you indirectly",
+      "paragraphs": [
+        "Use the minimum amount of profile information needed to participate while following the platform’s rules. If a field is optional and you are unsure about its audience, leave it blank until you understand the setting. If the platform requires information you are not comfortable providing, compare alternatives or do not proceed. A display-name decision is most useful when it is made alongside a review of profile visibility, linked accounts, and recovery options."
+      ]
+    },
+    {
+      "heading": "Protect account access without confusing privacy choices",
+      "paragraphs": [
+        "A display name should not be your password or a substitute for secure account recovery. Use a unique password and review the platform’s sign-in and recovery options before relying on the account. If an email address or phone number is required, consider whether you can reliably retain access to it and whether the platform explains its use. Privacy choices should not leave you unable to recover an account you want to keep.",
+        "Check whether the platform permits changes to the name associated with the profile without changing the login identifier. Also note what happens if you need to contact support: support staff may ask for account details that are not displayed publicly. Use official support channels, and share only information needed to resolve the issue. Do not send identity documents or sensitive account information through an unverified message or link."
+      ],
+      "bullets": [
+        "Use a unique password and a recovery method you can maintain.",
+        "Read which contact details are required and how the platform says it uses them.",
+        "Contact support through a route you can verify from the platform itself."
+      ]
+    },
+    {
+      "heading": "Make a decision before investing in a profile",
+      "paragraphs": [
+        "Before registration, make a short decision record: which name will be visible, what the platform requires privately, whether changes are possible, and what remains unknown. If you cannot establish the audience for a name or whether it can be changed, treat that as an unresolved issue rather than assuming a favorable outcome. You can ask support, review the policy, or select a platform whose rules are clearer. Avoid creating multiple profiles to test name rules unless the platform explicitly permits that behavior.",
+        "After creating a profile, revisit its visibility when you change names, photos, or linked accounts. A display name that felt sufficiently separate at sign-up may become identifying when combined with new profile details. If you decide to leave, use the platform’s stated account-closure process and review what happens to profile information. Changing the visible name is not necessarily the same as deactivating or deleting an account."
+      ],
+      "bullets": [
+        "Do not rely on a display-name change as an account-deletion method.",
+        "Recheck profile visibility after meaningful edits or account-link changes.",
+        "Keep a note of unresolved policy questions before deciding whether to register."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a pseudonym on an adult dating platform?",
+      "answer": "That depends on the platform’s rules and which field you mean. Check whether chosen display names are allowed and separately review any registration or verification fields that require accurate information."
+    },
+    {
+      "question": "Does changing my profile name remove the old one?",
+      "answer": "Not necessarily. The platform may limit changes or retain earlier account information. Check its policy and ask support if retention or visibility of prior names affects your decision."
+    },
+    {
+      "question": "Is a display name enough to keep my profile private?",
+      "answer": "No. Photos, profile text, linked accounts, location settings, and other clues may also identify you. Review the profile as a whole and use the platform’s audience controls carefully."
+    }
+  ]
+};

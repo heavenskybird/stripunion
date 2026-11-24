@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T02:27:31.017Z",
+  "generatedAt": "2026-11-24T04:50:32.056Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-gift-subscription-privacy-fit.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-browser-attribution-test-plan.json",
-    "ops/editorial/content-artifacts/adult-dating-profile-message-boundary-planner.json",
-    "ops/editorial/content-artifacts/adult-anime-reading-session-accessibility-fit.json",
-    "ops/editorial/content-artifacts/free-video-platform-metadata-disclosure-compare.json"
+    "ops/editorial/content-artifacts/vr-adult-platform-device-transition-planning.json",
+    "ops/editorial/content-artifacts/adult-games-session-reset-and-return-planner.json",
+    "ops/editorial/content-artifacts/adult-shop-product-range-gap-check.json",
+    "ops/editorial/content-artifacts/premium-video-collection-navigation-fit-audit.json",
+    "ops/editorial/content-artifacts/adult-dating-profile-name-choice-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-gift-subscription-privacy-fit.js",
-    "src/data/guides/webmaster-affiliate-browser-attribution-test-plan.js",
-    "src/data/guides/adult-dating-profile-message-boundary-planner.js",
-    "src/data/guides/adult-anime-reading-session-accessibility-fit.js",
-    "src/data/guides/free-video-platform-metadata-disclosure-compare.js"
+    "src/data/guides/vr-adult-platform-device-transition-planning.js",
+    "src/data/guides/adult-games-session-reset-and-return-planner.js",
+    "src/data/guides/adult-shop-product-range-gap-check.js",
+    "src/data/guides/premium-video-collection-navigation-fit-audit.js",
+    "src/data/guides/adult-dating-profile-name-choice-review.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "dating-hookups",
-    "hentai-anime",
-    "free-videos"
+    "vr-ar",
+    "adult-games",
+    "adult-shops",
+    "premium-videos",
+    "dating-hookups"
   ],
   "backlogIds": [
-    "adult-platform-gift-subscription-privacy-fit",
-    "webmaster-affiliate-browser-attribution-test-plan",
-    "adult-dating-profile-message-boundary-planner",
-    "adult-anime-reading-session-accessibility-fit",
-    "free-video-platform-metadata-disclosure-compare"
+    "vr-adult-platform-device-transition-planning",
+    "adult-games-session-reset-and-return-planner",
+    "adult-shop-product-range-gap-check",
+    "premium-video-collection-navigation-fit-audit",
+    "adult-dating-profile-name-choice-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45312230090",
-  "phase": "closed"
+  "r1CycleId": "45328666974"
 }
