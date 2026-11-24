@@ -4,10 +4,19 @@ import offersRegistry from '../../ops/growth/offers/direct-offers.json';
 
 const { source, label = 'Explore BongaCams →', className = '' } = Astro.props;
 const offer = (offersRegistry.offers || []).find((item) => item?.id === 'bongacams');
-const approved = offer?.status === 'active' &&
-  offer?.approval_status === 'approved_active' &&
-  typeof offer?.viewer_campaign_url === 'string' &&
-  offer.viewer_campaign_url.startsWith('https://bongacams4.com/track?c=');
+const approved = (() => {
+  if (offer?.status !== 'active' || offer?.approval_status !== 'approved_active' ||
+      typeof offer?.viewer_campaign_url !== 'string') return false;
+  try {
+    const target = new URL(offer.viewer_campaign_url);
+    return target.protocol === 'https:' &&
+      target.hostname === 'bongacams4.com' &&
+      target.pathname === '/track' &&
+      target.searchParams.get('c') === '843651';
+  } catch {
+    return false;
+  }
+})();
 ---
 {approved && (
   <span class="affiliate-cta">
