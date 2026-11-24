@@ -929,10 +929,28 @@
           "asOf": "2026-11-24T11:06:07.718Z",
           "kind": "first_party_pagekey_attribution_evidence",
           "proof": "Exact pageKey stripchat-alternatives: 16 clicks, 2 postbacks, events member_registration=1 and age_verification=1; no confirmed purchase or revenue. Similar underscore key is kept separate; no fuzzy merge."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/45380915910",
+          "asOf": "2026-11-24T11:06:13.451Z",
+          "kind": "aligned_gsc_search_growth_windows",
+          "proof": "Successful production collector run #45380915910: /stripchat-alternatives current7 (2026-11-16..22) 514 impressions/19 clicks vs previous7 356/17; current28 (2026-10-26..11-22) 1,437/44 vs previous28 (2026-09-28..10-25) 33/2. /stripchat-app current7 214/6 vs 154/3; current28 556/16 vs 19/1. Windows are complete and independent; no revenue inferred."
+        },
+        {
+          "url": "https://bongacash.com/faq",
+          "asOf": "2026-11-25",
+          "kind": "official_approved_bongacash_program_terms",
+          "proof": "Official BongaCash FAQ currently advertises up to 25% lifetime RevShare, up to $4.50 country-tiered confirmed signup, $40 first purchase plus 15% after $375 for the PPS+RevShare option, 5% affiliate referral, and up to $100 individual-model referral. StripUnion's account-specific viewer RevShare was 20% in the 2026-10-04 account UI; do not replace it with the public ceiling."
+        },
+        {
+          "url": "https://fetishaura.com/best/stripchat-alternatives",
+          "asOf": "2026-11-25",
+          "kind": "competitor_serp_comparison_pattern",
+          "proof": "A currently indexed competitor comparison includes BongaCams among five named Stripchat alternatives and presents a decision table with platform, best-for, price and free-tier fields. This supports inclusion in the comparison set, not the competitor's exact pricing claims."
         }
       ],
-      "lastEvidenceAt": "2026-11-24T11:06:13.376Z",
-      "nextAction": "Inspect current production-indexable title/meta, query-to-heading alignment, comparison usefulness, first-fold and closing CTA/disclosure, plus exact pageKey-to-URL mapping. Prepare at most one reversible UPDATE_EXISTING Draft PR after checking the latest query×page×country rows; evaluate matched 7d/28d CTR, qualified clicks and partner-confirmed net USD.",
+      "lastEvidenceAt": "2026-11-24T11:06:13.451Z",
+      "nextAction": "UPDATE_EXISTING /stripchat-alternatives/: review query×page×country rows and add a clearly secondary BongaCams option using only the exact approved viewer_campaign_url from direct-offers.json, with consent-gated GA4 partner/source tracking and no invented sub-ID. Keep AVCams as the primary route; measure 7d/28d BongaCams clicks, provider-reported referrals/net USD, GSC CTR and any AVCams cannibalization before changing prominence.",
       "ownerAction": null,
       "history": [
         {
@@ -954,10 +972,10 @@
           28
         ],
         "metrics": [
-          "GSC_query_page_impressions_clicks_CTR_position",
-          "GA4_landing_sessions",
-          "consented_qualified_affiliate_clicks",
-          "partner_confirmed_USD_earnings"
+          "GSC_query_page_country_impressions_clicks_CTR_position",
+          "GA4_consent_granted_BongaCams_affiliate_click",
+          "BongaCash_provider_confirmed_referrals_and_net_USD",
+          "AVCams_clicks_and_confirmed_USD_cannibalization"
         ],
         "status": "NOT_YET_MEASURED",
         "windowStart": "2026-11-24"
