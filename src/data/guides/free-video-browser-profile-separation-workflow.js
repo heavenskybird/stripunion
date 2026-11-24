@@ -1,0 +1,120 @@
+export default {
+  "slug": "free-video-browser-profile-separation-workflow",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites on Shared Browsers: Separate Profiles and Check What Syncs",
+  "description": "A practical browser-profile workflow for reducing accidental account, history, and recommendation crossover when using free video sites on a device shared with others.",
+  "excerpt": "Private browsing does not necessarily separate every account or synced setting. Check browser profiles, site sign-ins, and history controls before using a shared device.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "A separate browser profile can help separate local browser state, but it does not automatically separate a signed-in site account or network records.",
+    "Check browser sync, saved passwords, history, and open-tab behavior before relying on profile separation.",
+    "Use a deliberate sign-out and close-down routine on shared devices rather than assuming a closed tab clears traces.",
+    "Avoid changing shared-device settings without permission, and follow workplace, school, or household device rules."
+  ],
+  "sections": [
+    {
+      "heading": "Understand what a browser profile separates",
+      "paragraphs": [
+        "A browser profile is a separate browser environment intended to keep some local data, such as history, bookmarks, and sign-in state, distinct from another profile. What it separates depends on the browser’s settings and how the profile is configured. A profile does not make browsing anonymous, prevent a network operator from seeing all connection metadata, or necessarily disconnect a website account that you sign into within it.",
+        "Before using a shared device, check whether the browser already has separate profiles and who controls them. Do not create or alter profiles on a managed device without permission. If you are allowed to use a separate profile, confirm that it is not signed into another person’s browser account and that sync settings are understood. A profile label alone is not proof that data is isolated."
+      ],
+      "bullets": [
+        "Use only a profile you are authorized to use.",
+        "Check whether browser sync is enabled and which account controls it.",
+        "Do not assume a new profile hides activity from a device owner or network administrator."
+      ]
+    },
+    {
+      "heading": "Map the possible places information can persist",
+      "paragraphs": [
+        "A shared-device privacy check should include more than the browser’s history page. Site sign-ins, saved passwords, downloads, cached data, autofill, open tabs, and account-level recommendations may all behave differently. Browser sync can also carry some browser data to other devices associated with the same account. The exact categories depend on the browser and its current settings, so inspect the controls rather than relying on a general privacy label.",
+        "Separate browser records from website records. Clearing a browser history may not remove activity saved by a signed-in site account. Signing out of a site may not delete browser autofill or downloads. A useful review records each layer separately and identifies which account or device setting controls it. This prevents a common mistake: treating one cleanup action as a complete reset."
+      ],
+      "table": {
+        "caption": "Shared-browser privacy layers to check",
+        "headers": [
+          "Layer",
+          "What to inspect",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Browser profile",
+            "Profile identity and sync status",
+            "Is this profile associated with someone else’s browser account?"
+          ],
+          [
+            "Browser storage",
+            "History, cookies, cache, and autofill controls",
+            "What can remain on this device after the session?"
+          ],
+          [
+            "Website account",
+            "Sign-in and account-level history settings",
+            "Does activity attach to a site account? What controls it?"
+          ],
+          [
+            "Device downloads",
+            "Download destination and recent-file views",
+            "Could a file or notification remain visible outside the browser?"
+          ],
+          [
+            "Open sessions",
+            "Tabs, restore behavior, and saved passwords",
+            "Could another user reopen a page or account session?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use a planned sign-in and sign-out routine",
+      "paragraphs": [
+        "Before signing in, verify the profile name and check that saved-password prompts will not store credentials in a shared profile. Use a unique password and an appropriate sign-in method for the account; do not let a browser remember credentials if other people can access that profile. If the site offers account-level session controls, understand what signing out does and whether other sessions remain active.",
+        "At the end, sign out of the site if you signed in, close the relevant tabs, and review whether the browser offers a restore-last-session feature. Do not assume closing a window ends every site session. If you used a shared or managed device, follow its rules for clearing personal data and do not erase records that an organization requires to remain. A consistent routine is more reliable than trying to remember what you clicked after the fact."
+      ],
+      "bullets": [
+        "Confirm the active browser profile before entering account details.",
+        "Avoid saving credentials in a profile available to other people.",
+        "Sign out of the site and review open-tab or session-restore behavior."
+      ]
+    },
+    {
+      "heading": "Decide whether private browsing is appropriate",
+      "paragraphs": [
+        "Do not use private browsing to bypass an organization’s access restrictions or monitoring policies. If the device is not yours or the rules are unclear, use an approved device and follow the applicable policy. Privacy decisions should not create account or security risks for someone else who shares the browser."
+      ]
+    },
+    {
+      "heading": "Make the workflow repeatable and proportionate",
+      "paragraphs": [
+        "You do not need an elaborate cleanup ritual. Use a short checklist that fits your device: confirm the profile, check whether sync is active, avoid storing credentials, sign out where appropriate, close tabs, and review any browser restore behavior. If you downloaded a file, handle it according to the device owner’s rules rather than leaving it in a shared location or deleting someone else’s data.",
+        "For a device you use regularly, periodically review browser and website account settings, because defaults can change when an account is added or software is updated. Keep the review focused on settings that control your actual exposure. The objective is clear separation of permitted personal use—not a claim that one browser feature can guarantee privacy across a shared device, a website, and a network."
+      ],
+      "bullets": [
+        "Keep personal activity out of another person’s signed-in browser profile.",
+        "Check account-level history separately from browser history.",
+        "Use the least complicated workflow that meets your privacy needs and device rules."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide activity from a website?",
+      "answer": "No. It may change what the browser stores locally after the private window closes, but a website can still receive connection information and may associate activity with an account if you sign in. Network and device policies may also apply."
+    },
+    {
+      "question": "Will a separate browser profile prevent account crossover?",
+      "answer": "It can help separate some browser data, but only if the profile is configured appropriately. A signed-in website account, browser sync, downloads, or shared device settings may create other connections. Check each layer independently."
+    },
+    {
+      "question": "Is clearing browser history enough on a shared device?",
+      "answer": "Not necessarily. Site accounts, saved passwords, downloads, autofill, cached data, and open sessions may be controlled separately. Review the browser and website settings relevant to your use, and follow the device owner’s rules."
+    },
+    {
+      "question": "What if the device is managed by an employer or school?",
+      "answer": "Follow the device policy and do not attempt to bypass monitoring, restrictions, or data-retention requirements. If personal browsing is not permitted or the rules are unclear, use an appropriate personal device instead."
+    }
+  ]
+};
