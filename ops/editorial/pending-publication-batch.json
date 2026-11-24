@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T11:06:25.787Z",
+  "generatedAt": "2026-11-24T12:52:25.951Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-headset-fit-adjustment-workflow.json",
-    "ops/editorial/content-artifacts/adult-anime-app-operating-system-permission-review.json",
-    "ops/editorial/content-artifacts/adult-games-wishlist-alert-noise-control-review.json",
-    "ops/editorial/content-artifacts/adult-shop-battery-shipping-restriction-preflight.json",
-    "ops/editorial/content-artifacts/live-cam-private-session-duration-commitment-check.json"
+    "ops/editorial/content-artifacts/dating-message-edit-unsend-policy-check.json",
+    "ops/editorial/content-artifacts/adult-platform-rewards-portal-privacy-review.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-referral-link-messaging-app-context-check.json",
+    "ops/editorial/content-artifacts/premium-video-subtitle-search-discovery-audit.json",
+    "ops/editorial/content-artifacts/creator-platform-announcement-audience-separation-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-headset-fit-adjustment-workflow.js",
-    "src/data/guides/adult-anime-app-operating-system-permission-review.js",
-    "src/data/guides/adult-games-wishlist-alert-noise-control-review.js",
-    "src/data/guides/adult-shop-battery-shipping-restriction-preflight.js",
-    "src/data/guides/live-cam-private-session-duration-commitment-check.js"
+    "src/data/guides/dating-platform-message-edit-and-unsend-policy-check.js",
+    "src/data/guides/adult-platform-cashback-and-rewards-portal-privacy-check.js",
+    "src/data/guides/affiliate-referral-links-in-messaging-apps-context-and-policy-check.js",
+    "src/data/guides/premium-video-platform-subtitle-search-discovery-check.js",
+    "src/data/guides/creator-platform-public-announcement-and-member-post-boundary-check.js"
   ],
   "categories": [
-    "vr-ar",
-    "hentai-anime",
-    "adult-games",
-    "adult-shops",
-    "live-cams"
+    "dating-hookups",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "premium-videos",
+    "creator-platforms"
   ],
   "backlogIds": [
-    "vr-adult-platform-headset-fit-adjustment-workflow",
-    "adult-anime-app-operating-system-permission-review",
-    "adult-games-wishlist-alert-noise-control-review",
-    "adult-shop-battery-shipping-restriction-preflight",
-    "live-cam-private-session-duration-commitment-check"
+    "dating-message-edit-unsend-policy-check",
+    "adult-platform-rewards-portal-privacy-review",
+    "webmaster-affiliate-referral-link-messaging-app-context-check",
+    "premium-video-subtitle-search-discovery-audit",
+    "creator-platform-announcement-audience-separation-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45380656016",
-  "phase": "closed"
+  "r1CycleId": "45397206527"
 }

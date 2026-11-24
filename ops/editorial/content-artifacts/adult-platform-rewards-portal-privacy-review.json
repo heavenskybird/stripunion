@@ -1,0 +1,118 @@
+{
+  "backlogId": "adult-platform-rewards-portal-privacy-review",
+  "slug": "adult-platform-cashback-and-rewards-portal-privacy-check",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Before Using a Cashback Portal for an Adult Platform, Check the Data Trail",
+  "description": "A privacy checklist for deciding whether to use a cashback or rewards portal for an adult-platform purchase, including tracking, account linkage, records, and shared-device considerations.",
+  "excerpt": "A rewards portal can add another account and tracking path between you and a merchant. Before routing a sensitive purchase through one, identify what gets recorded and whether the benefit is worth that extra data trail.",
+  "keyTakeaways": [
+    "Map which accounts and services may be involved before activating a rewards link.",
+    "Read the portal’s own privacy and tracking explanations rather than assuming the merchant controls the full journey.",
+    "Consider what may appear in browser history, email, account activity, and payment records.",
+    "Do not assume a reward is guaranteed or that a tracking click will be attributed successfully.",
+    "If the privacy trade-off is unclear, compare the direct purchase route or skip the portal."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a rewards link as an extra service, not just a discount button",
+      "paragraphs": [
+        "Cashback, points, or rewards portals may sit between a shopper and a merchant. Using one can create an additional account relationship and an additional step in the browsing path. The exact data involved varies by service, so do not assume that the portal sees only a click or that it receives the same information as the merchant. Read the portal’s privacy notice, tracking explanation, and account terms before deciding.",
+        "For a purchase you prefer to keep discreet, the decision is not only whether a reward is offered. It is whether the possible benefit justifies another service recording activity connected to a sensitive merchant. This article does not make claims about any particular portal’s systems or rewards. It provides a way to identify questions and make a deliberate choice."
+      ],
+      "bullets": [
+        "List every service you would sign into or pass through.",
+        "Check whether the portal describes cookies, browser extensions, app permissions, or purchase tracking.",
+        "Avoid treating a displayed reward estimate as a promise of payment."
+      ]
+    },
+    {
+      "heading": "Trace the journey from account to receipt",
+      "paragraphs": [
+        "Sketch the route you would take: portal account, tracked link or tool, merchant site, checkout, and any confirmation emails. For each step, note what information you provide and what record could remain. The portal may have its own account history or click history; the merchant may have order records; the browser may retain a visited page; and email or payment services may create separate notices. Which of these records exist depends on the services and settings involved, so verify rather than presume.",
+        "Pay particular attention to whether you must install a browser extension, enable an app permission, or link another account. An extension or linked account may introduce a broader permission boundary than a one-time link. Read the requested access in context. If the explanation is too vague to understand, do not grant access just to pursue a possible reward."
+      ],
+      "table": {
+        "caption": "Privacy questions for each step in a rewards purchase",
+        "headers": [
+          "Journey step",
+          "Questions to answer"
+        ],
+        "rows": [
+          [
+            "Portal account",
+            "What identity, contact, and activity details does the portal request?"
+          ],
+          [
+            "Tracking step",
+            "Does it require a link, extension, app, cookie setting, or account connection?"
+          ],
+          [
+            "Merchant visit",
+            "Can the visit remain in browser history or appear in other synced activity?"
+          ],
+          [
+            "Checkout and receipt",
+            "Which merchant and payment records will be created, and where are notifications sent?"
+          ],
+          [
+            "After purchase",
+            "Can portal activity be reviewed or deleted, and what retention terms are stated?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Review records on shared devices and shared accounts",
+      "paragraphs": [
+        "If you choose not to use the portal, that avoids the portal-specific account and tracking step, but it does not remove the records created by a direct merchant visit or payment. Make the choice based on the full path that matters to you, not on the assumption that one route leaves no trace."
+      ]
+    },
+    {
+      "heading": "Understand reward uncertainty and tracking requirements",
+      "paragraphs": [
+        "A rewards portal may set conditions for whether an activity qualifies, how it is tracked, and what happens when a browser blocks or interrupts tracking. Review those rules before relying on a reward. A purchase may not be reflected as expected if a tracking step fails or another route changes the journey; this is a general possibility to check in the service’s terms, not a claim about any particular portal. Keep the privacy decision separate from the reward calculation: a potential reward does not make an unclear tracking requirement safer or more private.",
+        "Look for the process for checking activity, reporting a missing record, and closing an account. Consider what proof a portal might request if you ask it to investigate. Do not send more sensitive material than necessary. If the portal’s process asks for detailed merchant or payment records, weigh that disclosure before enrolling."
+      ],
+      "bullets": [
+        "Read qualification and tracking terms before activating a route.",
+        "Check whether a browser extension or account link is optional or required.",
+        "Consider what information a missing-reward inquiry might require you to disclose."
+      ]
+    },
+    {
+      "heading": "Choose a route with a clear privacy boundary",
+      "paragraphs": [
+        "Use a simple decision rule: proceed through a rewards portal only if you understand the extra accounts, tracking, and records well enough to accept them. If you cannot tell what a required extension accesses, how activity is recorded, or how to close the account, skip that step or seek clarification. A direct checkout may reduce the number of services involved, though it still creates merchant and payment records.",
+        "After deciding, check the settings that match your route: notification recipients, browser history sync, extension permissions, account-link permissions, and email retention. Keep a minimal note of the decision if you need to remember it, but do not create an unnecessary record containing sensitive purchase details. Revisit the choice if the portal changes its terms, requests a new permission, or changes how it handles account activity."
+      ],
+      "bullets": [
+        "Use a direct route when the extra tracking relationship is not worth the uncertainty.",
+        "Review privacy notices and permissions at the point of use, not only when signing up.",
+        "Make notification and shared-device choices before checkout, when possible."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a cashback portal necessarily see the details of an adult-platform purchase?",
+      "answer": "Do not assume either way. The information available depends on the portal, its tracking method, and its terms. Review its privacy and tracking explanations and ask for clarification if the answer matters to you."
+    },
+    {
+      "question": "Will using private browsing prevent a rewards portal from recording activity?",
+      "answer": "Private browsing is not a guarantee against services recording activity during a session. It also does not remove records held by accounts, merchants, email providers, or payment services."
+    },
+    {
+      "question": "Is using a rewards portal always less private than buying directly?",
+      "answer": "A portal can add another service and tracking step, but the full comparison depends on the specific route and services involved. Map the records each route creates and choose based on the trade-off you can accept."
+    }
+  ],
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
