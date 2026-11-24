@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T15:57:24.339Z",
+  "generatedAt": "2026-11-24T19:31:21.256Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/free-video-mobile-battery-playback-fit.json",
-    "ops/editorial/content-artifacts/adult-games-roadmap-included-content-budget.json",
-    "ops/editorial/content-artifacts/adult-shop-payment-authorization-and-refund-path.json",
-    "ops/editorial/content-artifacts/hentai-anime-reader-panel-display-fit.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-content-boundary-mapping.json"
+    "ops/editorial/content-artifacts/adult-platform-device-transfer-privacy-checklist.json",
+    "ops/editorial/content-artifacts/dating-platform-relocation-account-region-fit.json",
+    "ops/editorial/content-artifacts/creator-platform-category-change-transition-plan.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-cdn-cache-attribution-integrity-audit.json",
+    "ops/editorial/content-artifacts/premium-video-audio-loudness-consistency-audit.json"
   ],
   "guideFiles": [
-    "src/data/guides/free-video-mobile-battery-playback-fit.js",
-    "src/data/guides/adult-games-roadmap-included-content-budget.js",
-    "src/data/guides/adult-shop-payment-authorization-and-refund-path.js",
-    "src/data/guides/hentai-anime-reader-panel-display-fit.js",
-    "src/data/guides/vr-adult-platform-content-boundary-mapping.js"
+    "src/data/guides/adult-platform-device-transfer-privacy-checklist.js",
+    "src/data/guides/dating-platform-relocation-account-region-fit.js",
+    "src/data/guides/creator-platform-category-change-transition-plan.js",
+    "src/data/guides/webmaster-affiliate-cdn-cache-attribution-integrity-audit.js",
+    "src/data/guides/premium-video-audio-loudness-consistency-audit.js"
   ],
   "categories": [
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "hentai-anime",
-    "vr-ar"
+    "privacy-safety-payment",
+    "dating-hookups",
+    "creator-platforms",
+    "webmaster-affiliate",
+    "premium-videos"
   ],
   "backlogIds": [
-    "free-video-mobile-battery-playback-fit",
-    "adult-games-roadmap-included-content-budget",
-    "adult-shop-payment-authorization-and-refund-path",
-    "hentai-anime-reader-panel-display-fit",
-    "vr-adult-platform-content-boundary-mapping"
+    "adult-platform-device-transfer-privacy-checklist",
+    "dating-platform-relocation-account-region-fit",
+    "creator-platform-category-change-transition-plan",
+    "webmaster-affiliate-cdn-cache-attribution-integrity-audit",
+    "premium-video-audio-loudness-consistency-audit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45430297769",
-  "phase": "closed"
+  "r1CycleId": "45470678791"
 }

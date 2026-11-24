@@ -1,0 +1,112 @@
+export default {
+  "slug": "adult-platform-device-transfer-privacy-checklist",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Before Selling or Recycling a Device: Remove Adult Platform Traces Safely",
+  "description": "A practical checklist for preparing a phone, tablet, or computer for sale, recycling, or handoff after using adult platforms, including account sessions, synced data, and reset verification.",
+  "excerpt": "A factory reset is only one part of a device handoff. Check account sessions, synced browser data, removable storage, backups, and the reset itself before a device leaves your control.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "Sign out of adult-platform accounts and review active sessions before wiping the device; a local reset does not necessarily end sessions on other devices.",
+    "Check browser and cloud synchronization separately, because clearing local history may not remove synced records elsewhere.",
+    "Remove SIM cards, memory cards, and other removable storage before handing off a device.",
+    "Use the device maker’s documented reset process, then verify that the device starts in its initial setup state.",
+    "Keep only the records you genuinely need, and store them separately from the device being transferred."
+  ],
+  "sections": [
+    {
+      "heading": "Treat a device handoff as several separate privacy tasks",
+      "paragraphs": [
+        "Selling, recycling, or giving away a phone or computer creates a different privacy problem from ordinary browsing cleanup. The next person may have physical access to the device, while account providers, cloud services, and browser sync systems may retain information outside it. A reset addresses the device’s local contents; it does not automatically close accounts, revoke every session, or remove cloud copies.",
+        "Start by deciding what is leaving your control and what remains yours. List the device, removable storage, connected accessories, and accounts used on it. Then distinguish local material—such as downloaded files, saved logins, and browser data—from records held by services. This simple inventory helps prevent the common mistake of treating one button, such as “clear history,” as a complete handoff procedure."
+      ],
+      "bullets": [
+        "Identify the device and any memory cards, external drives, or SIM cards that will be transferred.",
+        "List the account categories used on it: platform accounts, email, browser sync, cloud storage, and device-maker accounts.",
+        "Decide which receipts or records must be retained before deleting local copies."
+      ]
+    },
+    {
+      "heading": "Close account access before erasing local data",
+      "paragraphs": [
+        "Sign out of adult-platform accounts while the device is still available, then review each service’s account-security area for active sessions or remembered devices. If a service offers session revocation, use its documented controls for sessions you no longer want active. The wording and scope of these controls differ, so do not assume that signing out of one browser ends access on every device.",
+        "Protect the email account used for password resets as well. If the device is being transferred permanently, remove the email account from the device and check whether it is still connected to a mail app, browser profile, or system account. Keep the email account itself if needed; the goal is to remove its access from the outgoing device, not to jeopardize account recovery. If you changed passwords during preparation, confirm that recovery options remain under your control."
+      ],
+      "bullets": [
+        "Sign out of platform accounts and review active-session controls.",
+        "Remove saved sign-in details from browsers and password managers on the device.",
+        "Check that account recovery still works from a device you will keep."
+      ]
+    },
+    {
+      "heading": "Check browsers, sync, and downloaded material",
+      "paragraphs": [
+        "Browser data can include history, cookies, saved forms, bookmarks, downloads, and open tabs. Review every browser profile on the device, not just the one you normally use. A separate browser profile may have its own sync account or saved credentials. Remove profiles that should not accompany the device and review whether data has synchronized to another computer, phone, or cloud account you control.",
+        "Inspect the downloads folder and other locations where files may have been saved, including desktop folders, photo libraries, and application-specific storage. If an item is important, move it to a private location first and check that the transfer completed. If it is not needed, remove it before the final reset. Also consider operating-system search indexes and recently opened items: a file can be surfaced through more than one interface even after it is removed from a browser’s visible history."
+      ],
+      "bullets": [
+        "Review all browser profiles, saved credentials, and sync settings.",
+        "Check downloads, photos, desktop folders, and removable storage.",
+        "Separate necessary records from files that should be removed."
+      ]
+    },
+    {
+      "heading": "Separate local cleanup from cloud and backup decisions",
+      "paragraphs": [
+        "A device may have uploaded data to a backup or synchronization service before you begin cleanup. A factory reset generally concerns the device, not every copy in a cloud account. Review the backup service’s own account controls if you intend to delete a backup, and make sure you understand whether that action affects other devices. Avoid deleting an entire account merely to remove one device’s data.",
+        "Before transferring the device, remove it from any device list or account association where the service provides a way to do so. This can help prevent confusion about which devices remain yours and may be necessary to complete a clean handoff. Keep a brief record of what you changed, but avoid writing sensitive account details into a note stored on the device itself."
+      ],
+      "table": {
+        "caption": "What a device reset does—and does not necessarily do",
+        "headers": [
+          "Area",
+          "Handoff check"
+        ],
+        "rows": [
+          [
+            "Local files and settings",
+            "Use the maker’s documented reset process; verify the device returns to initial setup."
+          ],
+          [
+            "Platform sessions",
+            "Review account security controls and revoke sessions if the service provides them."
+          ],
+          [
+            "Browser synchronization",
+            "Check the browser account and other synced devices separately."
+          ],
+          [
+            "Cloud backups",
+            "Review the backup service’s controls; do not assume a device reset deletes cloud copies."
+          ],
+          [
+            "Removable storage",
+            "Remove cards and external media, or prepare them separately for transfer or disposal."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reset, verify, and document the handoff",
+      "paragraphs": [
+        "Follow the device maker’s current instructions for signing out of device-linked accounts and performing a reset. If encryption or reset requirements are unclear, consult the maker’s support documentation rather than improvising a sequence. The important practical check is the result: after reset, the device should present its initial setup flow rather than your account, home screen, or personal files.",
+        "After verification, do not sign back into personal accounts simply to test the device. Keep any retained records in a location you control and note the date of transfer if that helps with your own inventory. If a device is being recycled, use an established electronics-recycling route and follow its accepted-device instructions. A clear, repeatable process reduces the chance of leaving behind access or sensitive files without creating unnecessary copies of private records."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a factory reset end every adult-platform session?",
+      "answer": "Not necessarily. A reset affects the device’s local state, while a service may maintain sessions associated with other browsers or devices. Review the platform’s account-security controls and revoke sessions there if that option is available."
+    },
+    {
+      "question": "If I clear browser history, is synced history also removed?",
+      "answer": "Not always. Browser sync behavior varies by account and settings. Review the browser’s sync controls and any other devices using that account rather than assuming local deletion removes every synchronized copy."
+    },
+    {
+      "question": "Should I delete my entire cloud account before transferring a device?",
+      "answer": "Usually that is more than the handoff requires. Check device removal, backup, and synchronization controls individually. Before deleting any cloud data, confirm whether it is shared with or needed by other devices."
+    }
+  ]
+};

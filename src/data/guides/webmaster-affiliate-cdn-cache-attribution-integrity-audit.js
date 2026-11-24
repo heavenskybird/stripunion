@@ -1,0 +1,107 @@
+export default {
+  "slug": "webmaster-affiliate-cdn-cache-attribution-integrity-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Tracking and CDN Caches: Check That Campaign Links Stay Intact",
+  "description": "A technical checklist for webmasters using caching, redirects, or edge delivery to verify that affiliate parameters survive page delivery without exposing visitor data or corrupting attribution.",
+  "excerpt": "Caching can speed up a site, but a misconfigured cache or redirect can strip, reuse, or mishandle affiliate parameters. Test the full visitor path before relying on tracked links.",
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "keyTakeaways": [
+    "Test the rendered affiliate link and final destination, not just the link stored in a content editor.",
+    "Check whether cache keys, redirects, or URL normalization remove or mistakenly reuse campaign parameters.",
+    "Use controlled test identifiers and keep test traffic separate from production reporting.",
+    "Do not cache personalized tracking responses in a way that can expose one visitor’s parameters to another.",
+    "Document the tested page, configuration, date, and expected result so later site changes can be checked."
+  ],
+  "sections": [
+    {
+      "heading": "Why caching belongs in affiliate tracking QA",
+      "paragraphs": [
+        "A content delivery network or page cache can change the path between a visitor and an affiliate destination. The issue is not that caching always breaks tracking; it is that caches, redirects, templates, and URL rules can interact in ways that are invisible when a webmaster checks only the source content. A link may look correct in the editor but render differently on a cached page, or a redirect may omit parameters that the program uses for attribution.",
+        "The goal is to verify the complete route from page view to outbound click and final landing page. This includes the rendered link, any site-owned redirect, edge or cache behavior, and the receiving page’s URL. A repeatable test is more useful than assuming that a recently working link remains correct after a theme update, cache-rule change, or content migration."
+      ]
+    },
+    {
+      "heading": "Inventory the route before testing",
+      "paragraphs": [
+        "Choose a small set of representative pages and record how each affiliate link is constructed. Note whether links point directly to a program destination or pass through a site-owned redirect. Record the expected parameters and which system is responsible for adding them. If there are multiple templates or language versions, include examples from each relevant path rather than assuming one page represents the whole site.",
+        "Confirm the affiliate program’s documented link format and traffic rules before changing implementation. Do not invent parameters or assume that an unknown query value is harmless. If the program provides testing guidance, use it. A clear inventory also helps distinguish a tracking problem from an ordinary destination change or a temporary reporting delay."
+      ],
+      "bullets": [
+        "Record the page URL, rendered link, redirect path, and expected destination.",
+        "Identify cache layers and any rules that normalize or rewrite query strings.",
+        "Use test identifiers that cannot be confused with live campaign identifiers."
+      ]
+    },
+    {
+      "heading": "Check cache keys and parameter handling",
+      "paragraphs": [
+        "A cache key determines which requests can reuse a stored response. Review whether the site’s cache configuration treats relevant query parameters consistently with the page or redirect logic. If tracking parameters are meant to affect an outbound link, ensure the cached page does not serve a link built for a different campaign or page context. Conversely, avoid varying an entire page cache on every arbitrary query string when that is unnecessary and could create operational or privacy problems.",
+        "Pay special attention to redirects. A redirect rule may preserve, drop, reorder, or replace query parameters. Test the actual response chain using a controlled browser or a suitable diagnostic tool. Compare the original link, each redirect response, and the final URL. If a parameter disappears, identify which layer removed it before changing program links or campaign settings."
+      ],
+      "table": {
+        "caption": "Where a parameter can change during a cached visitor path",
+        "headers": [
+          "Layer",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Content template",
+            "The page renders the intended affiliate link and campaign identifier."
+          ],
+          [
+            "Page or edge cache",
+            "A cached response does not reuse another campaign’s personalized link."
+          ],
+          [
+            "Site redirect",
+            "Required query parameters are preserved according to documented rules."
+          ],
+          [
+            "Browser navigation",
+            "The link opens the expected route without an unintended intermediate destination."
+          ],
+          [
+            "Affiliate destination",
+            "The final URL contains only expected tracking information."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test safely without contaminating reporting",
+      "paragraphs": [
+        "Use a test plan that separates technical validation from production results. Follow the program’s instructions for test clicks or test accounts, if provided, and do not generate fake purchases or other events that could be mistaken for real activity. Keep the test window, page, link, and identifier in a private log. If the program does not document a safe testing method, ask before sending test traffic that could be treated as invalid.",
+        "Run the same route through a fresh request and a cache-hit request where your tools allow that distinction. Compare the rendered link and redirect behavior. Repeat after purging or warming the relevant cache, but do not assume a manual cache purge represents ordinary visitor behavior. The useful outcome is a documented comparison of expected and observed paths, not a claim that tracking is guaranteed."
+      ],
+      "bullets": [
+        "Do not use real customer details or create false conversion events for testing.",
+        "Keep test identifiers distinct from live campaign tags.",
+        "Record whether the test used a fresh response or a cached response."
+      ]
+    },
+    {
+      "heading": "Protect visitor privacy and maintain the fix",
+      "paragraphs": [
+        "Affiliate URLs can contain identifiers that reveal campaign, page, or visitor-related information. Use only the data needed for attribution and avoid placing personal information in query parameters. Review logs and monitoring tools so that link tests do not retain more data than necessary. A cache configuration should not cause one visitor to receive another visitor’s unique tracking value or expose private query details in shared page content.",
+        "When a test finds a problem, change one layer at a time and rerun the route. Save a concise record of the configuration changed, the affected pages, and the verification result. Include affiliate-link checks in deployment and migration reviews, because cache rules and redirect behavior can change independently of editorial content. Revisit the program’s terms and link specifications when they change; a technically preserved parameter is not useful if it is no longer permitted or defined."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a CDN cache remove affiliate tracking parameters?",
+      "answer": "It can happen through cache-key rules, URL normalization, or redirects, but it is not inevitable. Inspect the rendered link and each redirect response to find whether a parameter is being changed or removed."
+    },
+    {
+      "question": "Should every query parameter be included in the cache key?",
+      "answer": "Not automatically. The right behavior depends on what the parameter changes and how the site is configured. Review the cache design so required link context is preserved without creating unnecessary cache variants or sharing personalized responses."
+    },
+    {
+      "question": "How can I test without creating false conversions?",
+      "answer": "Follow the program’s documented testing process, use distinct test identifiers, and avoid submitting fabricated transactions. If safe test-click handling is unclear, ask the program before generating traffic that could affect reporting."
+    }
+  ]
+};

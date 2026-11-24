@@ -1,0 +1,109 @@
+{
+  "backlogId": "creator-platform-category-change-transition-plan",
+  "slug": "creator-platform-category-change-transition-plan",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Changing Your Creator Content Focus? Plan the Subscriber Transition",
+  "description": "A practical workflow for creators changing content focus on a subscription platform, covering audience expectations, existing paid access, profile presentation, and clear transition communication.",
+  "excerpt": "A change in creative direction can affect what existing members expect from a subscription. Plan the transition around clear descriptions, current access promises, and a measured update to your public profile.",
+  "keyTakeaways": [
+    "Distinguish a change in future content from a change to benefits already promised or paid for.",
+    "Review profile copy, tiers, pinned posts, and promotional materials for outdated expectations.",
+    "Explain what is changing, when it changes, and what remains available without implying guaranteed future output.",
+    "Check platform rules and account controls before changing content labels or removing older posts.",
+    "Use member feedback as one input, but do not promise an unsustainable schedule to preserve every preference."
+  ],
+  "sections": [
+    {
+      "heading": "Define the change before announcing it",
+      "paragraphs": [
+        "A creator may shift subject matter, format, release style, or the balance between public and member-only posts. These are not identical changes. A new format may leave existing membership benefits intact, while a change in subject or access structure may alter what members reasonably expect from the page. Write down what is changing and what is not before editing public descriptions.",
+        "Separate completed commitments from future plans. A post already included in a tier or a benefit described as ongoing deserves a different review from an idea you have not promised. Check the platform’s terms, your current tier descriptions, pinned posts, welcome messages, and any active promotion. The aim is to identify the actual promises members can see—not to make assumptions based on what you intended privately."
+      ],
+      "bullets": [
+        "Describe the content or format that is changing.",
+        "List existing paid benefits and any unfinished commitments.",
+        "Identify language that could imply a fixed cadence or guaranteed format."
+      ]
+    },
+    {
+      "heading": "Audit the member-facing promise",
+      "paragraphs": [
+        "Review every place a new visitor or current member might encounter an explanation of your page. That can include the profile introduction, tier labels, benefit lists, pinned updates, welcome messages, and recurring promotional copy. Inconsistent language is a common source of confusion: one description may promise a certain theme while a newer post describes a different direction.",
+        "For each statement, classify it as a current fact, a past offer, or an intention for the future. Remove or revise outdated statements only after checking whether members rely on them for access they already purchased. Keep a record of the wording you changed and the date. This is useful for your own operations and helps you answer questions consistently, without overstating what the platform will preserve or how long old material will remain accessible."
+      ],
+      "table": {
+        "caption": "A simple review of public and member-facing descriptions",
+        "headers": [
+          "Material",
+          "Transition check"
+        ],
+        "rows": [
+          [
+            "Profile introduction",
+            "Does it accurately describe the direction members will encounter now?"
+          ],
+          [
+            "Tier or benefit descriptions",
+            "Does the change affect anything a member is currently paying to receive?"
+          ],
+          [
+            "Pinned posts and welcome messages",
+            "Do they still explain the page and access terms accurately?"
+          ],
+          [
+            "Older promotional copy",
+            "Could it still be visible or relied on as a current offer?"
+          ],
+          [
+            "Planned schedule",
+            "Is it an intention, or does the wording sound like a guarantee?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Communicate scope, timing, and continuity",
+      "paragraphs": [
+        "A useful transition notice states the broad direction, when the change takes effect, and what members should expect from existing access. Be specific about practical consequences, such as whether a tier description is changing or whether an older post will remain available, but avoid promising continued access unless you have verified the platform’s controls and your own rights to provide it.",
+        "Give members a way to understand the change without requiring them to interpret a vague announcement. If the change is gradual, describe the transition period in plain language. If you do not know whether a platform setting affects an existing membership, say that you are checking it rather than guessing. Clear uncertainty is more useful than a confident statement that later proves inaccurate."
+      ]
+    },
+    {
+      "heading": "Check platform rules and access controls",
+      "paragraphs": [
+        "Content categories, labels, and account rules can affect how material is reviewed or displayed. Before changing labels or reorganizing posts, review the platform’s current policies and the specific account controls available to you. Do not assume that a category change automatically updates older posts or that deleting a post also changes an existing member’s access history.",
+        "If older material will be hidden, removed, or reorganized, verify what the platform says about access and retention first. Make a private inventory of relevant posts and any legitimate records you need for business operations. Avoid exporting more member information than necessary. If you need support, ask a focused question through an authenticated support route and retain the response needed to guide the change."
+      ]
+    },
+    {
+      "heading": "Roll out the change without overcommitting",
+      "paragraphs": [
+        "A transition can be managed in stages: first correct outdated descriptions, then publish a clear notice, and finally review member questions after the change takes effect. A staged approach makes it easier to notice whether members are confused about access, timing, or tier language. It also reduces the risk of making several changes simultaneously and losing track of what caused a support issue.",
+        "Set boundaries around feedback. A member poll or message can help identify confusion, but it does not obligate you to adopt every preference or promise a production schedule you cannot maintain. Decide what you can reliably deliver and describe that scope accurately. After launch, keep a short decision log with the changed wording, effective date, and unresolved questions. That creates a practical reference for future updates without turning the transition into a permanent promise."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to keep making the content members originally joined for?",
+      "answer": "That depends on what your current membership descriptions and offers promise, as well as the platform’s terms. Review active benefits and unfinished commitments before deciding what can change. Do not rely on an informal assumption when paid access is involved."
+    },
+    {
+      "question": "Should I delete older posts when changing my content focus?",
+      "answer": "Not automatically. First check whether members expect access to those posts, what platform controls do, and whether you have a legitimate operational reason to retain or remove them. Explain material changes clearly and avoid claiming that deletion removes every copy or record."
+    },
+    {
+      "question": "How much notice should I give members?",
+      "answer": "There is no universal notice period that fits every platform or change. Check applicable platform rules and any commitments you made. As a practical matter, explain the scope and effective timing before the change affects a member-facing benefit, whenever that is feasible."
+    }
+  ],
+  "publishedAt": "2026-11-24",
+  "updatedAt": "2026-11-24",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
