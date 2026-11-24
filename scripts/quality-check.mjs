@@ -21,6 +21,8 @@ const allowedExternalPrefixes = [
   'https://stripunion.com',
   'https://blog.stripunion.com',
   'https://avcams.online',
+  // Exact owner-approved BongaCams viewer campaign URL prefix (Issue #188).
+  'https://bongacams4.com/track?c=843651',
   'https://go.whitetrafsa.com',
   'https://stripcash.com',
   'https://stripunion-live-models.stripunion.workers.dev',
