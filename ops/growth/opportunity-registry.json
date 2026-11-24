@@ -79,10 +79,22 @@
           "asOf": "2026-11-15T03:12:37Z",
           "kind": "production_http",
           "proof": "3servedHTTP200/articleCTA/referralURL/disclosure/canonical contracts and signupLanding200; no signup or revenue proof"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-24.md",
+          "asOf": "2026-11-24T11:06:13.376Z",
+          "kind": "fresh_aggregate_search_and_analytics_snapshot",
+          "proof": "Latest collector: GSC Domain aggregate 160 clicks/4,836 impressions; GA4 main 71 sessions/13 affiliate_click; Blog GA4 1 session/0 affiliate_click and Blog URL-prefix GSC 0/0. These are aggregate scopes, not the three-guide cohort; no page-level provider credit or confirmed USD is established."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/attribution.json",
+          "asOf": "2026-11-24T11:06:07.718Z",
+          "kind": "fresh_first_party_attribution_snapshot",
+          "proof": "Cumulative first-party scope 76 clicks, 16 postbacks, 4 matched, 12 unmatched; no exact per-pilot guide join or provider-confirmed net USD. Do not infer pilot uplift."
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:12:37Z",
-      "nextAction": "Collect matched7/28 GSC and consent-safe affiliate events plus provider-confirmed affiliate referral outcomes; page delivery is proved, credit/earnings are not.",
+      "lastEvidenceAt": "2026-11-24T11:06:13.376Z",
+      "nextAction": "The 7-day due date has passed. Produce exact per-guide matched 7d/28d GSC Query×Page×Country, GA4 landing-page affiliate_click, and provider-credited referral outcomes for the three productionUrls. Current aggregate snapshots cannot establish the pilot result.",
       "ownerAction": null,
       "history": [
         {
@@ -175,10 +187,22 @@
           "asOf": "2026-11-15T03:26:24Z",
           "kind": "production_http",
           "proof": "Canonical automated Brain output contains revenueTruth, confirmedUSDnull and12unexplained; deployment of analysis is not earned commission."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/stripcash.json",
+          "asOf": "2026-11-24T11:06:07.203Z",
+          "kind": "fresh_provider_default_scope_snapshot",
+          "proof": "StripCash API report succeeded but period is UNKNOWN_DEFAULT_SCOPE; signup 1, verified signup 0, first purchases 0, purchases 0, purchase earnings 0, total earnings 0. This is not a dated financial statement or payout confirmation."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/attribution.json",
+          "asOf": "2026-11-24T11:06:07.718Z",
+          "kind": "fresh_first_party_attribution_snapshot",
+          "proof": "76 cumulative clicks, 16 postbacks, 4 matched, 12 unmatched; revenueByCurrency UNKNOWN=224.25; diagnostic observed 3 postbacks with missing transaction ID and UNKNOWN currency. No historical causes are proven and no amount is confirmed USD."
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:36:07Z",
-      "nextAction": "Keep deployed Brain classifications truthful; reconcile owner-sanitized scoped statement/macro evidence before confirmed USD or historical-cause attribution.",
+      "lastEvidenceAt": "2026-11-24T11:06:07.718Z",
+      "nextAction": "Use an authenticated date-bounded Statistics + Payout History export with transaction semantics, refunds/chargebacks, geo/campaign/SubID and paid/approved status. Keep confirmedUsd null and UNKNOWN 224.25 unconverted until provider reconciliation.",
       "ownerAction": "One consolidated sanitized authenticated7/28 Statistics + Payout History export with exact dates/timezone/geo/campaign/SubID/netUSD/paid-approved status and postback amount/currency/transaction macro semantics; no secrets or artificial conversions.",
       "history": [
         {
@@ -332,10 +356,16 @@
           "asOf": "2026-11-15T03:35:04Z",
           "kind": "production_http",
           "proof": "Actual200servednewmodelmarker/3paidCTAs/su_model_referral; tracked3redirects reachStripchat200/referraluserId preserved. Finalcampaign/p1/p2lost, no signup/credit proof."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/attribution.json",
+          "asOf": "2026-11-24T11:06:07.718Z",
+          "kind": "fresh_model_referral_source_snapshot",
+          "proof": "The exact affiliate source avcams_model_signup shows 1 click and 0 postbacks in the cumulative first-party summary. No legitimate qualified model signup or provider credit is established."
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:36:07Z",
-      "nextAction": "Measure consented model-route clicks and legitimate platform-qualified referrals; verify country/account terms and reconcile provider credit before promoting external communities.",
+      "lastEvidenceAt": "2026-11-24T11:06:07.718Z",
+      "nextAction": "Keep recruitment referral-only. Verify the fixed direct model tracker and white-label route using provider-supported parameters; require a genuine opt-in adult model referral and provider-confirmed qualification before claiming credit. No synthetic signup or unsolicited outreach.",
       "ownerAction": "Only platform account owner can independently prove actual credited qualified model referral when one legitimately occurs.",
       "history": [
         {
@@ -424,10 +454,22 @@
           "asOf": "2026-11-15T03:27:58Z",
           "kind": "production_http",
           "proof": "ActualmaincoldcacheUSRSS200/10items/0eligible; persistedmaincache/19tests, hourlyreadonlyclock. AllhistorywindowsINSUFFICIENT, AlphaNOT_GRANTED."
+        },
+        {
+          "url": "https://trends.google.com/trending?geo=US&hours=4",
+          "asOf": "2026-11-24T23:06:56Z",
+          "kind": "official_trending_now_ui_partial",
+          "proof": "US Past 4 hours page loaded; first 25 of 111 visible rows contained no explicit adult/porn/sex/Stripchat terms. This is a partial UI page, not a complete 111-row export or RSS archive."
+        },
+        {
+          "url": "https://trends.google.com/trending?geo=US&hours=24",
+          "asOf": "2026-11-24T23:06:56Z",
+          "kind": "official_trending_now_ui_partial",
+          "proof": "US Past 24 hours page loaded; first 25 of 508 visible rows contained no explicit adult/porn/sex/Stripchat terms. This is not a complete 508-row export or Explore comparison."
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:36:07Z",
-      "nextAction": "Accumulate main-scope snapshots naturally; report actual gaps and cold-cache resets; only review genuinely relevant candidates. No forced publication or Alpha assertion.",
+      "lastEvidenceAt": "2026-11-24T23:06:56Z",
+      "nextAction": "Keep RSS and Explore evidence distinct. Obtain timestamped official RSS snapshots and accessible official 48h/7d plus GB/CA/AU exports; current reader only verified partial US 4h/24h pages. Do not infer zero market demand or publish unrelated trends.",
       "ownerAction": null,
       "history": [
         {
@@ -860,6 +902,145 @@
         "status": "NOT_YET_MEASURED"
       },
       "historyInterpretation": "Backfill records review observation time, not invented original approval or deployment timestamps. Existing approved product and merged PR203 are authority; no new partner approval."
+    },
+    {
+      "id": "stripchat-alternatives-existing-hub-search-to-affiliate",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 188,
+        "url": "https://github.com/heavenskybird/stripunion/issues/188",
+        "discoveredAt": "2026-11-24T23:06:56Z"
+      },
+      "hypothesis": "Refresh the existing /stripchat-alternatives/ hub because the latest first-party report shows 859 clustered impressions across 110 query variants with best position 3, 11 GA4 landing sessions, and an exact first-party pageKey with 16 clicks/2 postbacks including one member_registration and one age_verification. A focused UPDATE_EXISTING test may improve qualified organic conversion without creating a competing URL.",
+      "priority": 1,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "first_party_search_and_click_signal_not_confirmed_revenue",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-24.md",
+          "asOf": "2026-11-24T11:06:13.376Z",
+          "kind": "gsc_ga4_existing_hub_evidence",
+          "proof": "Search Opportunities: Stripchat alternatives 859 clustered impressions across 110 variants, best position 3; GA4 top acquisition landing /stripchat-alternatives/ has 11 sessions. Domain GSC aggregate is 160 clicks/4,836 impressions; this aggregate is not page-level."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/attribution.json",
+          "asOf": "2026-11-24T11:06:07.718Z",
+          "kind": "first_party_pagekey_attribution_evidence",
+          "proof": "Exact pageKey stripchat-alternatives: 16 clicks, 2 postbacks, events member_registration=1 and age_verification=1; no confirmed purchase or revenue. Similar underscore key is kept separate; no fuzzy merge."
+        }
+      ],
+      "lastEvidenceAt": "2026-11-24T11:06:13.376Z",
+      "nextAction": "Inspect current production-indexable title/meta, query-to-heading alignment, comparison usefulness, first-fold and closing CTA/disclosure, plus exact pageKey-to-URL mapping. Prepare at most one reversible UPDATE_EXISTING Draft PR after checking the latest query×page×country rows; evaluate matched 7d/28d CTR, qualified clicks and partner-confirmed net USD.",
+      "ownerAction": null,
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-24T23:06:56Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-24.md"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-24T23:06:56Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-23/attribution.json"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "GSC_query_page_impressions_clicks_CTR_position",
+          "GA4_landing_sessions",
+          "consented_qualified_affiliate_clicks",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED",
+        "windowStart": "2026-11-24"
+      },
+      "productionUrls": [
+        "https://stripunion.com/stripchat-alternatives/"
+      ]
+    },
+    {
+      "id": "candy-ai-affiliate-domain-eligibility-gate",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 210,
+        "url": "https://github.com/heavenskybird/stripunion/issues/210",
+        "discoveredAt": "2026-11-24T23:06:56Z"
+      },
+      "hypothesis": "Candy.ai's official affiliate program could monetize AI-companion subscription/token intent, but domain-wide content restrictions, country eligibility and account-specific network terms must be cleared before application or activation.",
+      "priority": 2,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "official_program_and_terms_verified_account_and_domain_eligibility_unknown",
+      "evidence": [
+        {
+          "url": "https://candy.ai/affiliate-program",
+          "asOf": "2026-11-24",
+          "kind": "official_affiliate_program_page",
+          "proof": "Public page advertises up to 40% lifetime RevShare or up to $70 CPA, subscriptions/renewals/token packs, 90-day cookie, monthly Net-7 and $250 minimum. These are public ceilings/terms, not an approved StripUnion account rate."
+        },
+        {
+          "url": "https://candy.ai/affiliate-terms/firstpromoter",
+          "asOf": "2026-11-24",
+          "kind": "official_affiliate_terms_revision_2026_11_06",
+          "proof": "Terms revised 2026-11-06: §5 prohibits promotion on websites containing terms associated with sexualizing minors (examples include pre-teen/lolita), restricts UK websites with choking/strangulation/suffocation imagery, and bans spam, incentivized/fake signups and brand bidding. FirstPromoter terms specify Net-15 and $100 minimum, differing from the public page; actual account contract governs."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/issues/210",
+          "asOf": "2026-11-24",
+          "kind": "existing_candidate_issue",
+          "proof": "Candidate remains unapproved with no account-approved tracking URL; Candy Shorts purchase eligibility and applicable network contract remain unconfirmed."
+        }
+      ],
+      "lastEvidenceAt": "2026-11-24T23:06:56Z",
+      "nextAction": "Before any application or CTA, audit the entire canonical main + Blog published inventory and country availability against the exact current terms; request written confirmation from Candy.ai that the existing domain/category mix is eligible. Only after approval and account-specific signed terms may a tracked link be added. Do not infer that StripUnion currently violates these terms; eligibility is simply unproven.",
+      "ownerAction": "Owner completes the official account application and confirms the actual FirstPromoter/Everflow agreement and eligible geographies after the compliance audit; no credentials in GitHub or chat.",
+      "blockingEvidence": [
+        "Domain-wide content and geography eligibility under Candy.ai §5 has not been established.",
+        "Public program payout terms differ from the FirstPromoter terms; applicable account network/contract is unknown.",
+        "No approved StripUnion tracking URL; Candy Shorts paid-episode eligibility is unconfirmed."
+      ],
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-24T23:06:56Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/210"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-24T23:06:56Z",
+          "evidenceUrl": "https://candy.ai/affiliate-terms/firstpromoter"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-24T23:06:56Z",
+          "evidenceUrl": "https://candy.ai/affiliate-terms/firstpromoter"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "account_approval",
+          "eligible_geo_confirmation",
+          "approved_tracking_link",
+          "partner_confirmed_USD_earnings"
+        ],
+        "status": "NOT_YET_MEASURED"
+      }
     }
   ]
 }
