@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T12:52:25.951Z",
+  "generatedAt": "2026-11-24T15:57:24.339Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-message-edit-unsend-policy-check.json",
-    "ops/editorial/content-artifacts/adult-platform-rewards-portal-privacy-review.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-referral-link-messaging-app-context-check.json",
-    "ops/editorial/content-artifacts/premium-video-subtitle-search-discovery-audit.json",
-    "ops/editorial/content-artifacts/creator-platform-announcement-audience-separation-review.json"
+    "ops/editorial/content-artifacts/free-video-mobile-battery-playback-fit.json",
+    "ops/editorial/content-artifacts/adult-games-roadmap-included-content-budget.json",
+    "ops/editorial/content-artifacts/adult-shop-payment-authorization-and-refund-path.json",
+    "ops/editorial/content-artifacts/hentai-anime-reader-panel-display-fit.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-content-boundary-mapping.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-message-edit-and-unsend-policy-check.js",
-    "src/data/guides/adult-platform-cashback-and-rewards-portal-privacy-check.js",
-    "src/data/guides/affiliate-referral-links-in-messaging-apps-context-and-policy-check.js",
-    "src/data/guides/premium-video-platform-subtitle-search-discovery-check.js",
-    "src/data/guides/creator-platform-public-announcement-and-member-post-boundary-check.js"
+    "src/data/guides/free-video-mobile-battery-playback-fit.js",
+    "src/data/guides/adult-games-roadmap-included-content-budget.js",
+    "src/data/guides/adult-shop-payment-authorization-and-refund-path.js",
+    "src/data/guides/hentai-anime-reader-panel-display-fit.js",
+    "src/data/guides/vr-adult-platform-content-boundary-mapping.js"
   ],
   "categories": [
-    "dating-hookups",
-    "privacy-safety-payment",
-    "webmaster-affiliate",
-    "premium-videos",
-    "creator-platforms"
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "hentai-anime",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-message-edit-unsend-policy-check",
-    "adult-platform-rewards-portal-privacy-review",
-    "webmaster-affiliate-referral-link-messaging-app-context-check",
-    "premium-video-subtitle-search-discovery-audit",
-    "creator-platform-announcement-audience-separation-review"
+    "free-video-mobile-battery-playback-fit",
+    "adult-games-roadmap-included-content-budget",
+    "adult-shop-payment-authorization-and-refund-path",
+    "hentai-anime-reader-panel-display-fit",
+    "vr-adult-platform-content-boundary-mapping"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45397206527",
-  "phase": "closed"
+  "r1CycleId": "45430297769"
 }
