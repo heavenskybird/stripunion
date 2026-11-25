@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T23:02:07.990Z",
+  "generatedAt": "2026-11-25T00:43:11.513Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-shop-repeat-order-identity-check.json",
-    "ops/editorial/content-artifacts/live-cam-platform-text-chat-privacy-boundary.json",
-    "ops/editorial/content-artifacts/dating-platform-low-visibility-search-fit.json",
-    "ops/editorial/content-artifacts/creator-platform-policy-change-operations-log.json",
-    "ops/editorial/content-artifacts/adult-platform-renewal-notice-record-reconciliation.json"
+    "ops/editorial/content-artifacts/premium-video-display-crop-fit-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-statement-line-item-review.json",
+    "ops/editorial/content-artifacts/adult-anime-game-install-source-choice.json",
+    "ops/editorial/content-artifacts/vr-adult-player-recenter-control-review.json",
+    "ops/editorial/content-artifacts/free-video-thumbnail-context-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-shop-repeat-order-identity-check.js",
-    "src/data/guides/live-cam-platform-text-chat-privacy-boundary.js",
-    "src/data/guides/dating-platform-low-visibility-search-fit.js",
-    "src/data/guides/creator-platform-policy-change-operations-log.js",
-    "src/data/guides/adult-platform-renewal-notice-record-reconciliation.js"
+    "src/data/guides/premium-video-display-crop-fit-audit.js",
+    "src/data/guides/webmaster-affiliate-statement-line-item-review.js",
+    "src/data/guides/adult-anime-game-install-source-choice.js",
+    "src/data/guides/vr-adult-player-recenter-control-review.js",
+    "src/data/guides/free-video-thumbnail-context-review.js"
   ],
   "categories": [
-    "adult-shops",
-    "live-cams",
-    "dating-hookups",
-    "creator-platforms",
-    "privacy-safety-payment"
+    "premium-videos",
+    "webmaster-affiliate",
+    "hentai-anime",
+    "vr-ar",
+    "free-videos"
   ],
   "backlogIds": [
-    "adult-shop-repeat-order-identity-check",
-    "live-cam-platform-text-chat-privacy-boundary",
-    "dating-platform-low-visibility-search-fit",
-    "creator-platform-policy-change-operations-log",
-    "adult-platform-renewal-notice-record-reconciliation"
+    "premium-video-display-crop-fit-audit",
+    "webmaster-affiliate-statement-line-item-review",
+    "adult-anime-game-install-source-choice",
+    "vr-adult-player-recenter-control-review",
+    "free-video-thumbnail-context-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45506076058",
-  "phase": "closed"
+  "r1CycleId": "45519977928"
 }

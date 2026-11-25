@@ -1,0 +1,161 @@
+{
+  "backlogId": "vr-adult-player-recenter-control-review",
+  "slug": "vr-adult-player-recenter-control-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Recenter Controls Before Choosing a Player",
+  "description": "A practical VR player comparison focused on recentering: check how the viewing position is set, restored, and explained before relying on a platform during use.",
+  "excerpt": "Recenter behavior can determine whether a VR player feels predictable. Compare the control’s location, response, and recovery behavior without assuming every headset or player uses the same method.",
+  "keyTakeaways": [
+    "Distinguish headset-level recentering from controls provided inside a video player.",
+    "Check how to locate and activate the control before relying on it during playback.",
+    "Observe whether recentering changes the view, the player interface, or both.",
+    "Test whether the view can be restored after an accidental input or device movement.",
+    "Document headset, player, and control path together because behavior may differ across setups."
+  ],
+  "sections": [
+    {
+      "heading": "Why recentering deserves a separate check",
+      "paragraphs": [
+        "In VR, “recenter” can refer to more than one action. A headset may provide a system-level command that resets the user’s orientation, while a player may offer an in-app control that changes the viewing position relative to its content. The labels and behavior are not guaranteed to match. If you rely on a particular position, it is useful to know which layer controls it and how to return to a comfortable view.",
+        "This is a device-fit and navigation question rather than a claim about the quality of a platform. A control may be available through a headset menu, a controller shortcut, an on-screen player button, or another documented route. The practical concern is discoverability and predictability: can you identify the intended action, understand what it will affect, and recover if the result is not what you expected? Test only in a safe, stationary setup and follow the headset maker’s general use guidance."
+      ],
+      "bullets": [
+        "Record the headset model and player or access route used for the check.",
+        "Identify whether the action is described as system-level or player-level.",
+        "Do not assume that similarly named controls have the same effect."
+      ]
+    },
+    {
+      "heading": "Map the control before starting playback",
+      "paragraphs": [
+        "Find the player’s navigation help or control legend before you begin. Look for an explicit recenter instruction and any distinction between orientation reset, position reset, and view adjustment. If documentation is missing, note that absence rather than trying unknown shortcuts while wearing the headset. A control that is easy to find in a setup guide may be harder to locate once an interface is in view.",
+        "Check how the control is reached: controller button, menu, gaze or pointer selection, keyboard, or a headset-level interface. The goal is not to test every possible input method; it is to confirm the route you actually plan to use. If the instructions depend on a controller configuration, verify that your device has the required control available. Do not infer compatibility from a general headset logo or a broad statement that a platform supports VR."
+      ],
+      "table": {
+        "caption": "A recenter-control evidence sheet.",
+        "headers": [
+          "Evidence item",
+          "What to record",
+          "Decision relevance"
+        ],
+        "rows": [
+          [
+            "Control location",
+            "System menu, player menu, or documented input",
+            "Shows whether the action is easy to find"
+          ],
+          [
+            "Control meaning",
+            "Exact wording and described effect",
+            "Helps distinguish orientation from player adjustment"
+          ],
+          [
+            "Input required",
+            "Controller, pointer, or other route",
+            "Checks fit with your setup"
+          ],
+          [
+            "Recovery route",
+            "How to undo or repeat the action",
+            "Reduces uncertainty after an unintended change"
+          ],
+          [
+            "Compatibility evidence",
+            "Headset and access method named in documentation",
+            "Avoids relying on vague support claims"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check what changes when you recenter",
+      "paragraphs": [
+        "If instructions are clear and the setup is appropriate, test the action while stationary. Notice whether the headset view changes, whether the player interface shifts, and whether the content itself appears to move relative to the interface. Do not treat a change in one layer as proof that the other layer reset. The purpose is to understand the behavior of that specific setup, not to compare physical comfort or make a medical assessment.",
+        "Repeat the observation once only if doing so is safe and useful. If the effect is unclear, stop and consult the documentation rather than experimenting with undocumented button combinations. Write down the sequence that worked and the visible outcome in neutral terms. For example, note “player menu returned to center” or “view orientation reset,” not an assumed technical explanation. This keeps your comparison grounded in what you observed."
+      ],
+      "bullets": [
+        "Test while seated or otherwise stationary if that is appropriate for your setup.",
+        "Keep the player interface visible long enough to observe what changed.",
+        "Stop if a control produces an unexpected or disorienting result.",
+        "Do not repeatedly trigger an unclear control to force a result."
+      ]
+    },
+    {
+      "heading": "Evaluate recovery and control discoverability",
+      "paragraphs": [
+        "A useful control is not only one that works once; it should also be understandable when you need it again. Check whether the control remains accessible during playback, whether the player explains how to return to the previous arrangement, and whether an accidental activation is easy to recognize. If recovery steps are not provided, record that as a limitation in the evaluation rather than improvising a sequence and treating it as official behavior.",
+        "Consider interruption and re-entry as part of the check. If you leave the player or open a headset menu, does the system explain how to resume and restore the view? Do not assume the last position will persist after leaving playback or changing applications. When the platform and headset both provide controls, use the documented route for each separately and avoid rapidly alternating between them. That makes it easier to identify which layer caused a change."
+      ],
+      "table": {
+        "caption": "How to assess recenter usability.",
+        "headers": [
+          "Question",
+          "Clear evidence",
+          "Uncertainty to record"
+        ],
+        "rows": [
+          [
+            "Can you find it?",
+            "Instructions name a visible menu or documented input",
+            "Control location is not explained"
+          ],
+          [
+            "Can you tell what it affects?",
+            "Documentation distinguishes headset and player behavior",
+            "Only a generic “recenter” label appears"
+          ],
+          [
+            "Can you recover?",
+            "A documented repeat, reset, or return path exists",
+            "No reversal or recovery guidance is available"
+          ],
+          [
+            "Does it fit your setup?",
+            "Your headset and input route are specified",
+            "Support is described only in broad terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use findings to compare platforms responsibly",
+      "paragraphs": [
+        "Compare platforms using the same headset and a consistent access route whenever possible. A different headset, controller arrangement, or player version can change the result. Keep the evidence specific: what documentation says, where the control appears, what input activates it, and what you observed. If you cannot test a feature, classify it as unverified rather than assuming it is absent or present.",
+        "Give the control an importance score based on your own use. If you rarely need to change orientation, a clear help page may be enough. If predictable repositioning is important to your workflow, make in-player access and recovery more influential. Neither outcome establishes that a platform is universally better. A short comparison sheet can make the trade-off visible and help you ask a precise support question before committing to an account or subscription."
+      ],
+      "bullets": [
+        "Keep unverified behavior separate from confirmed observations.",
+        "Include the headset and control route in every comparison note.",
+        "Prefer documented, reversible controls over undocumented shortcuts.",
+        "Recheck after a substantial headset or player update if the control behavior changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a headset recenter command the same as a player recenter control?",
+      "answer": "Not necessarily. A headset command may affect the system view, while a player control may adjust the player’s layout or viewing position. Check documentation and observe the result for your setup."
+    },
+    {
+      "question": "Can I test recentering while standing?",
+      "answer": "Use a stationary, safe setup and follow the headset maker’s instructions. If you are unsure how the control behaves, avoid testing while moving and consult the documentation first."
+    },
+    {
+      "question": "What if I cannot find a recenter control in the player?",
+      "answer": "Check the player’s help and the headset’s documentation to see whether the action is system-level. If the route remains unclear, record it as unverified and ask support rather than trying undocumented shortcuts."
+    },
+    {
+      "question": "Should I expect the viewing position to persist between sessions?",
+      "answer": "Do not assume persistence. It may depend on the headset, player, account, or session. Look for an explicit explanation and test only where the documented controls make that appropriate."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

@@ -1,0 +1,154 @@
+export default {
+  "slug": "webmaster-affiliate-statement-line-item-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Statements: Check Whether Each Line Item Has a Clear Meaning",
+  "description": "A practical review for webmasters who need to interpret affiliate statements. Check labels, status changes, adjustments, and documentation before using statement data in business records.",
+  "excerpt": "A total alone may not explain how an affiliate statement was assembled. Use this line-item review to identify unclear labels, unexplained adjustments, and questions worth resolving before you rely on the report.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Distinguish a statement’s summary total from the transactions or adjustments that make it up.",
+    "Record the exact label, date range, status, and currency shown before interpreting an unfamiliar line item.",
+    "Ask for definitions when terms such as pending, qualified, adjusted, or payable are not explained in the program materials.",
+    "Keep unresolved differences separate from confirmed figures in bookkeeping and forecasts.",
+    "Use the program’s documented terms and written clarifications rather than guessing what a dashboard label means."
+  ],
+  "sections": [
+    {
+      "heading": "Why line-item clarity matters",
+      "paragraphs": [
+        "Affiliate dashboards and payment statements may display both summary figures and individual rows. A summary can help with a quick overview, but it may not explain why a total changed or what event a particular row represents. For a webmaster, unclear labels create practical problems: a report may be difficult to reconcile, a forecast may rely on the wrong status, or a record may be impossible to explain later.",
+        "This guide is about interpreting the structure of a statement, not estimating what a particular program will pay. Labels and report layouts vary. Treat each field as a claim that needs a definition from the relevant program documentation or support channel. If a statement does not show enough detail to answer your question, record the gap rather than filling it with an assumption."
+      ],
+      "bullets": [
+        "Save a copy of the statement or export you reviewed, with its reporting period visible.",
+        "Keep the report’s own terminology in your notes before translating it into your accounting categories.",
+        "Do not treat a dashboard total and a payment record as interchangeable evidence."
+      ]
+    },
+    {
+      "heading": "Inventory the fields before explaining the numbers",
+      "paragraphs": [
+        "Start by listing the fields available on the statement: date, referral or transaction identifier, campaign or sub-ID, event type, status, amount, currency, and any adjustment description. Some statements will not provide all of these. The absence of a field is itself useful to record because it tells you what cannot be verified from that document alone. Preserve the original wording and note whether the field comes from a dashboard, export, email, or separate payment document.",
+        "Next, identify the period the statement covers and the date convention it uses, if stated. A row may refer to the date an event occurred, the date it was reported, or the date its status changed. These are not automatically the same. Avoid combining rows from different periods until you know what date each one represents. If the time zone or reporting cutoff is not documented, add it to your question list rather than inventing a rule."
+      ],
+      "table": {
+        "caption": "A field-by-field reading worksheet.",
+        "headers": [
+          "Field or label",
+          "What to record",
+          "Question to resolve if unclear"
+        ],
+        "rows": [
+          [
+            "Reporting period",
+            "Start, end, and any stated time zone",
+            "Which date determines inclusion in this period?"
+          ],
+          [
+            "Status",
+            "Exact status text and date observed",
+            "What event changes this status?"
+          ],
+          [
+            "Amount",
+            "Value, currency, sign, and row type",
+            "Is this a transaction, adjustment, or summary?"
+          ],
+          [
+            "Reference",
+            "ID, campaign, or sub-ID if present",
+            "Can the row be traced to a referral or activity?"
+          ],
+          [
+            "Description",
+            "Exact text for a correction or reversal",
+            "What rule or event explains the change?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate events, statuses, and adjustments",
+      "paragraphs": [
+        "A status label describes a state according to the program’s own system; it does not define itself. For example, a term that sounds final may have a specific meaning in the agreement or reporting help. Find the official definition and note which source provides it. If two official sources use different language, preserve both versions and request clarification instead of choosing the one that feels more intuitive.",
+        "Treat adjustment rows with particular care. A negative amount, correction, reversal, or carry-forward may relate to a different event or period than the surrounding rows. Check whether the statement provides a reference, reason, or link to an earlier entry. If it does not, ask whether the adjustment is associated with a specific transaction, a broader account-level change, or a reporting correction. This is a request for traceability, not an accusation that the statement is wrong."
+      ],
+      "bullets": [
+        "Do not classify an unexplained adjustment as a chargeback, fee, or correction without documentation.",
+        "Look for a link between a changed status and the row or event it changes.",
+        "Record whether an amount is included in a summary total, excluded, or displayed separately.",
+        "Keep a neutral “unexplained” category until the program provides a definition."
+      ]
+    },
+    {
+      "heading": "Compare documents without blending their roles",
+      "paragraphs": [
+        "A dashboard report, a statement, an agreement, a support reply, and a payment record serve different purposes. The agreement may define eligibility; the report may show current statuses; a statement may summarize activity for a period; and a payment record may document a transfer. One document may not answer every question. Make a small source map showing which document defines the rule and which document shows the reported event.",
+        "When figures differ, check whether they cover the same period, currency, status set, and cutoff before treating the difference as a discrepancy. A report captured before a correction may naturally differ from a later statement, but do not assume that is what happened. Record the capture date and ask for the reason. Keep copies of the relevant materials and written answers so your future reconciliation is based on the same version of the evidence."
+      ],
+      "table": {
+        "caption": "Use the right document for the question.",
+        "headers": [
+          "Question",
+          "Most relevant evidence to consult",
+          "What not to infer automatically"
+        ],
+        "rows": [
+          [
+            "What does a status mean?",
+            "Program terms or formal reporting definitions",
+            "That familiar wording has its everyday meaning"
+          ],
+          [
+            "What was reported for a period?",
+            "Dated report or statement",
+            "That the displayed total is a payment"
+          ],
+          [
+            "Was money transferred?",
+            "Payment record or account evidence",
+            "That every statement row was included"
+          ],
+          [
+            "Why did a row change?",
+            "Row reference, correction note, or written clarification",
+            "That a change is a routine reversal"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build an escalation note that can be answered",
+      "paragraphs": [
+        "If you need clarification, send a focused request. Include the reporting period, exact row label, relevant reference ID, date observed, and the specific field you cannot interpret. State the comparison you made and the difference you observed, without asserting a cause. Ask what the line represents, which rule applies, and whether the report has a version or correction history. A concise question is easier to answer than a broad request to explain an entire statement.",
+        "Keep an issue log with the question, date sent, response, source, and any follow-up. If a reply clarifies a term but does not explain a particular row, keep those as separate issues. Update your internal mapping only when you have a reliable definition, and retain the original label for auditability. This approach helps your team avoid repeating the same investigation and prevents a temporary interpretation from becoming an undocumented bookkeeping rule."
+      ],
+      "bullets": [
+        "Include one or a few rows per support request rather than sending an unstructured list.",
+        "Ask whether a report can be corrected or restated if the answer indicates a data change.",
+        "Mark the issue unresolved until the explanation matches the row and period in question.",
+        "Keep program-specific interpretations distinct from general accounting categories."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a statement’s total as proof that a payment was made?",
+      "answer": "Not by itself. A statement may summarize reported activity, while a separate payment record shows a transfer. Keep each document for the purpose it supports."
+    },
+    {
+      "question": "What if the program does not define a status label?",
+      "answer": "Preserve the exact label and ask the program for its written definition and the event that changes the status. Do not assign a familiar meaning based only on the wording."
+    },
+    {
+      "question": "Should I remove rows that look like duplicates?",
+      "answer": "Do not delete or combine them until you understand their identifiers and roles. They may represent separate events, a correction, or a repeated display. Record the apparent duplication and seek clarification."
+    },
+    {
+      "question": "How do I handle a report that changes after I saved it?",
+      "answer": "Retain the earlier copy with its capture date, save the later version, and note the changed rows. Ask whether the report was updated and what caused the change."
+    }
+  ]
+};
