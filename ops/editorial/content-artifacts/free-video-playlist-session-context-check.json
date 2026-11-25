@@ -1,0 +1,124 @@
+{
+  "backlogId": "free-video-playlist-session-context-check",
+  "slug": "free-video-playlist-session-context-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Playlist Context Before You Press Play",
+  "description": "Learn how to inspect playlist order, surrounding titles, and session behavior on free video platforms before playing or sharing a list.",
+  "excerpt": "A playlist can reveal more than one video title. Check its source, order, and surrounding context before you play it, add it to an account, or share it.",
+  "keyTakeaways": [
+    "Check who created or maintains a playlist and whether its purpose is clear.",
+    "Review the titles before starting playback, especially when autoplay or next-up controls may continue the sequence.",
+    "Distinguish a platform-generated collection from an uploader-created list or a third-party embed.",
+    "Check whether saving or sharing a playlist exposes your profile or activity.",
+    "Use the player’s available controls to stop, clear, or leave a queue when its contents are not what you expected."
+  ],
+  "sections": [
+    {
+      "heading": "Identify what kind of playlist you are viewing",
+      "paragraphs": [
+        "A list of videos may be created by an uploader, assembled by the platform, embedded by another site, or generated from a temporary queue. Those formats can look similar while offering different levels of context and control. Before playing, look for the list’s creator, title, description, and the site or account responsible for it. If those details are missing, treat the playlist as unverified rather than assuming that every item belongs together or comes from the same source.",
+        "Check whether the page is hosted by the video platform itself or embedded elsewhere. An external page may add its own controls, advertising, or links, while the player may still load from a separate host. Avoid entering account details on a page just because it contains a familiar-looking player. Confirm the web address and decide whether you trust the page before signing in, saving a list, or following outbound links."
+      ],
+      "bullets": [
+        "Identify the host, playlist creator, and purpose where available.",
+        "Treat unclear ownership or context as uncertainty, not proof of wrongdoing.",
+        "Check the address bar before signing in or following links."
+      ]
+    },
+    {
+      "heading": "Review order and surrounding titles first",
+      "paragraphs": [
+        "A playlist’s sequence can change the viewing experience. Scan the titles and any visible descriptions before starting, rather than assuming the first item represents the whole list. Look for repeated entries, unexpected changes in topic, or items that seem unrelated to the stated purpose. These are practical cues to pause and inspect, not definitive judgments about legitimacy. If the platform offers a list of all items, reviewing it in advance can help you choose where to start and when to stop.",
+        "Pay attention to automatic continuation. Some players may offer autoplay, next-up previews, or a queue that continues after the selected item. Their availability and settings vary, so locate the controls before playback if unwanted continuation matters. If you cannot see what comes next, consider turning off autoplay where possible or starting with a single item rather than the full list. Do not assume that closing a tab clears account history, saved queues, or recommendations."
+      ],
+      "table": {
+        "caption": "Pre-play playlist check",
+        "headers": [
+          "Check",
+          "Useful question"
+        ],
+        "rows": [
+          [
+            "Creator and source",
+            "Who assembled this list, and does the page identify that source?"
+          ],
+          [
+            "Order and titles",
+            "Can I inspect the sequence before playback begins?"
+          ],
+          [
+            "Continuation controls",
+            "Can I stop autoplay, next-up, or queue continuation?"
+          ],
+          [
+            "Account visibility",
+            "Would saving, liking, or sharing reveal profile activity?"
+          ],
+          [
+            "External links",
+            "Does the page lead to another site or request unexpected information?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Understand what saving or sharing may reveal",
+      "paragraphs": [
+        "Saving a playlist can connect it to an account, profile, or activity history. Before using a save, favorite, or follow control, check whether the platform describes that action as public, private, or visible to followers. If the setting is unclear, do not rely on an assumption that the action is private. A shared link may reveal the list itself, your profile name, or other context depending on how the platform constructs it.",
+        "When sharing a playlist, inspect the destination and the information included in the link. A public list may be visible to anyone with the address, while a profile page may reveal additional saved items or activity. If you only intend to share one video, a single-item link may expose less than a whole playlist, but verify the result before sending it. Use a private message only if you are comfortable with the recipient retaining or forwarding the link."
+      ],
+      "bullets": [
+        "Check visibility before saving or following a playlist.",
+        "Preview a shared link in a logged-out or separate browser context when practical.",
+        "Share only the list or item needed for your purpose."
+      ]
+    },
+    {
+      "heading": "Keep playback and browsing under control",
+      "paragraphs": [
+        "Before playback, locate the controls for pause, stop, volume, captions if needed, and autoplay. If the player is embedded, some controls may be managed by the host site and others by the platform. Avoid clicking prominent buttons or overlays without checking whether they control playback or open an advertisement or external page. If a click leads somewhere unexpected, close the new page and return to the verified platform rather than continuing through unfamiliar prompts.",
+        "Consider what the browser may retain after the session. History, open tabs, downloads, account activity, and saved lists are separate things; removing one does not necessarily remove the others. On a device you share, sign out when appropriate and review whether the browser restores tabs or syncs activity to another profile. These steps do not guarantee invisibility, but they help you make an informed choice about the traces you control."
+      ],
+      "bullets": [
+        "Locate stop and autoplay controls before starting a playlist.",
+        "Treat unexpected redirects or prompts as a reason to pause and verify the destination.",
+        "Review browser and account controls separately after viewing."
+      ]
+    },
+    {
+      "heading": "Use playlist context as one part of a platform decision",
+      "paragraphs": [
+        "Playlist quality is only one part of a free platform’s usefulness. Compare how easily you can tell who created a list, inspect its contents, control continuation, and leave or clear a queue. If a platform’s list structure makes those tasks difficult, note the specific friction rather than calling the entire service good or bad. A short checklist from a few real browsing sessions can help you compare platforms based on your own needs without relying on promotional descriptions.",
+        "Do not treat a playlist title, thumbnail, or ordering as proof that every item is accurate, current, or suitable. Check individual listing details and source context when those facts matter. If you encounter a misleading or concerning listing, use the platform’s available report route and avoid redistributing it. The goal is not to investigate every item exhaustively; it is to maintain enough context and control to decide whether to continue."
+      ],
+      "bullets": [
+        "Compare observable controls and context, not platform reputation alone.",
+        "Record specific friction such as unclear authorship or difficult queue controls.",
+        "Use reporting tools for relevant concerns and avoid spreading questionable links."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does saving a playlist make it public?",
+      "answer": "Not necessarily, but visibility depends on the platform and account settings. Check the platform’s current description of saved-list privacy before using the control, and do not assume that a save is private."
+    },
+    {
+      "question": "Can I tell whether a playlist is platform-curated or user-created?",
+      "answer": "Look for labels identifying the creator, source, or collection type. If the page does not make that clear, treat the origin as unknown and review the individual titles before playing."
+    },
+    {
+      "question": "Does closing a playlist page erase my viewing activity?",
+      "answer": "Not necessarily. Browser history, platform history, saved lists, and recommendations are separate records. Review the relevant browser and account controls rather than assuming one action clears all activity."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

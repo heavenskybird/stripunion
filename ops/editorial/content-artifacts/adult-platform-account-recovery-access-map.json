@@ -1,0 +1,124 @@
+{
+  "backlogId": "adult-platform-account-recovery-access-map",
+  "slug": "adult-platform-account-recovery-access-map",
+  "categorySlug": "privacy-safety-payment",
+  "categoryLabel": "Privacy / Safety / Payment",
+  "title": "Adult Platform Accounts: Map Recovery Access Before You Need It",
+  "description": "A practical account-recovery map for adult platforms: identify trusted recovery channels, protect codes, and avoid losing access when a device or inbox changes.",
+  "excerpt": "Account recovery can depend on an email, phone, or device you no longer control. Map the recovery path now, while you can still verify the settings calmly.",
+  "keyTakeaways": [
+    "List every recovery route currently attached to the account and confirm you can access it.",
+    "Use unique credentials and protect recovery codes separately from ordinary notes.",
+    "Review whether recovery notifications can appear on a shared device or inbox.",
+    "Update recovery details before losing access to an old email address or phone number.",
+    "Do not give one-time codes or reset links to someone who contacts you unexpectedly."
+  ],
+  "sections": [
+    {
+      "heading": "Draw the recovery path from sign-in to control",
+      "paragraphs": [
+        "Begin by listing how you normally sign in and what the platform would use if you were locked out. This may include an email address, phone number, authenticator, passkey, backup code, or an identity check. The exact options vary, so use the account’s current security settings rather than a general assumption. For each route, note whether you can still access it, whether it is shared, and whether it depends on a device that might be unavailable.",
+        "A recovery map should show dependencies. For example, an email account may itself require a phone you plan to replace. If the platform sends reset links to that email, losing access to the inbox could block recovery even when you know the account password. Identify these chains before changing a phone, closing an inbox, or wiping a device. Do not include actual passwords or codes in the map; record only where the protected recovery method is stored."
+      ],
+      "bullets": [
+        "List sign-in methods and separate recovery methods.",
+        "Mark routes that depend on a shared inbox, old number, or single device.",
+        "Keep secrets out of an ordinary checklist."
+      ]
+    },
+    {
+      "heading": "Secure the channels that can reset access",
+      "paragraphs": [
+        "A recovery channel can be as sensitive as the account password because it may allow a reset. Protect the email account used for recovery with a unique password and its own security controls. If a phone number is used, consider who can see its messages and whether you will retain the number. Keep account recovery notices from appearing on a lock screen if that exposure matters to you, and check which devices receive mirrored notifications.",
+        "Do not assume that having a private platform account makes the recovery inbox private. Email providers, device notifications, and shared account settings have separate controls. Review those settings directly. If you use a password manager or another secure credential tool, check that the recovery method for that tool is also available when needed. A carefully protected account can still become inaccessible if the only recovery route is lost."
+      ],
+      "table": {
+        "caption": "Recovery map fields",
+        "headers": [
+          "Item",
+          "What to record without exposing secrets"
+        ],
+        "rows": [
+          [
+            "Recovery email",
+            "Address label or account nickname, access status, and whether it is shared"
+          ],
+          [
+            "Phone or authenticator",
+            "Whether it is current, who controls the device, and replacement plan"
+          ],
+          [
+            "Backup codes",
+            "Where they are stored securely and when access was last confirmed"
+          ],
+          [
+            "Trusted devices",
+            "Which devices can approve sign-in and how to revoke a lost device"
+          ],
+          [
+            "Support route",
+            "Official route to begin recovery, checked from the platform’s account help"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Store backup codes and reset information safely",
+      "paragraphs": [
+        "If the platform provides backup codes, follow its instructions for storing them. Keep them somewhere separate from the device or password store they are meant to help recover, but still protected from casual access. A screenshot saved to a cloud photo library may sync to other devices; a plain note may be exposed through shared backups. Choose storage based on your own device and household setup, and confirm you can retrieve the codes when you need them.",
+        "Do not send a code, reset link, or password to someone who claims to be platform support. Start support contact through the account’s official help route, not a link in an unexpected message. If you receive a surprise reset notice, avoid clicking it until you have checked the account directly. An unsolicited message can be misleading, and a legitimate reset email does not require you to disclose a code to another person."
+      ],
+      "bullets": [
+        "Store recovery codes in a protected place separate from ordinary notes or images.",
+        "Check whether the storage location syncs to shared devices or accounts.",
+        "Reach support through a route you navigate to yourself."
+      ]
+    },
+    {
+      "heading": "Plan changes to your phone, inbox, or device",
+      "paragraphs": [
+        "Before changing a phone number, switching email providers, selling a device, or closing an old account, update the recovery details while you still control the old route. Verify the new route using the platform’s confirmation process, then test that you can sign in without relying on a method you are about to remove. If the service requires a waiting period or review, account for that possibility before making the old channel unavailable.",
+        "When replacing a device, check for active sessions and sign-in approvals that depend on it. Use the platform’s available session controls to remove access from a lost or transferred device. Then review your password manager, authenticator, and notification settings on the replacement device. Avoid rushing through recovery changes during checkout or while responding to a threatening message. A calm, documented sequence reduces the chance of locking yourself out or exposing codes."
+      ],
+      "bullets": [
+        "Update and verify new recovery routes before retiring old ones.",
+        "Review trusted devices and active sessions after a device change.",
+        "Keep proof of account changes only where it can be stored privately."
+      ]
+    },
+    {
+      "heading": "Make the map maintainable and useful",
+      "paragraphs": [
+        "A recovery map becomes stale when an email, number, device, or security setting changes. Review it after those events and occasionally confirm that the listed routes still work. The document should be concise enough to use under stress: account name, verified recovery methods, safe storage locations for codes, official support route, and actions to take after losing a device. Keep it separate from public profiles and avoid including sensitive account details that a helper does not need.",
+        "If you rely on another person for emergency assistance, decide what they may do and what remains private. They may be able to help locate an official support page without receiving your password or codes. If account access is compromised, use the platform’s official recovery and security process, then review linked email and devices. Do not assume one password change resolves every exposed recovery route."
+      ],
+      "bullets": [
+        "Review the map when a recovery channel changes.",
+        "Keep instructions and secrets in appropriately separate places.",
+        "After a security concern, check the platform account and the recovery channels connected to it."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I keep a screenshot of my recovery codes?",
+      "answer": "Only if you understand where the screenshot is stored and whether it syncs to other devices or shared accounts. Follow the platform’s storage guidance and use a protected method rather than assuming a photo is private."
+    },
+    {
+      "question": "What should I do if I lose the phone used for account recovery?",
+      "answer": "Use the platform’s official recovery route and secure any linked email or authenticator accounts. Review active sessions and trusted devices when access is restored. Do not share reset codes with anyone who contacts you."
+    },
+    {
+      "question": "Can I change recovery details after losing access to the old email or number?",
+      "answer": "The process depends on the platform’s current rules and the evidence it requests. Use its official support or recovery path and provide only the information it requires. Keeping recovery details current beforehand can reduce this risk."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
