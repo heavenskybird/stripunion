@@ -1,0 +1,121 @@
+{
+  "backlogId": "premium-video-third-party-signin-dependency-audit",
+  "slug": "premium-video-third-party-signin-dependency-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Subscriptions: Check Third-Party Sign-In Dependencies Before Joining",
+  "description": "A practical checklist for assessing whether a premium video account depends on an external sign-in, how recovery works, and what happens if access to that sign-in changes.",
+  "excerpt": "A subscription can depend on more than its video provider. Check the sign-in route, recovery options, and account-management boundaries before connecting an external identity.",
+  "keyTakeaways": [
+    "Identify whether an account can be created with a direct login or requires an external identity provider.",
+    "Check which organization handles password resets and account recovery for each sign-in route.",
+    "Confirm whether billing, cancellation, and subscription support remain with the video service or move elsewhere.",
+    "Use a sign-in method you can recover without depending on a device, inbox, or account you may lose.",
+    "Record the account route and recovery steps in a secure place before you need them."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the video membership from the sign-in method",
+      "paragraphs": [
+        "A premium video service may let you register directly, use an external sign-in provider, or enter through a bundle or another account relationship. These routes can look similar during ordinary use, but they may send password recovery, identity checks, and account changes to different places. Before paying, map the service you want to watch from against the account that proves you are allowed to enter.",
+        "Do not assume that choosing an external sign-in changes the subscription itself, or that it does not. The arrangement may affect how you manage access, where billing appears, or which support team can help. The relevant details are the current account and membership terms, not the button label. Write down the service name, sign-in route, and payment manager separately."
+      ],
+      "bullets": [
+        "Can you create a direct username and password, or is an external account required?",
+        "Does the membership attach to the video account, an app-store account, a bundle, or another provider?",
+        "Which account must remain accessible for sign-in after a password reset or device change?"
+      ]
+    },
+    {
+      "heading": "Trace recovery before you need it",
+      "paragraphs": [
+        "A useful recovery plan starts with the account that controls the login. If the video service handles the password, check its recovery email and any additional verification options. If an external provider handles sign-in, learn how that provider restores access and whether the video service can help when the external account is unavailable. These are separate questions; a video subscription support team may not be able to reset credentials controlled elsewhere.",
+        "Consider common changes: losing a phone, changing an email address, replacing a device, or losing access to an external account. Check whether recovery requires an old phone number or inbox. Update recovery routes while you still have working access. Keep recovery codes, if offered, in a secure location that is not the same device or inbox used to sign in."
+      ],
+      "table": {
+        "caption": "A simple account-dependency map to complete before subscribing",
+        "headers": [
+          "Question",
+          "What to record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Who authenticates me?",
+            "Video service, external provider, app store, or bundle",
+            "Identifies where sign-in problems must be resolved"
+          ],
+          [
+            "Who can reset access?",
+            "Recovery page and required email, phone, or code",
+            "Shows whether you can regain access after a device or inbox change"
+          ],
+          [
+            "Who manages membership?",
+            "Account or billing channel shown in the terms",
+            "Clarifies where to review renewal and cancellation"
+          ],
+          [
+            "What if the link is removed?",
+            "Any stated process for changing sign-in or unlinking",
+            "Highlights whether access depends on another account remaining active"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check account linking and unlinking rules",
+      "paragraphs": [
+        "A connected account can make sign-in convenient, but convenience is only one part of the decision. Review whether linking shares account details, whether a linked account can be changed, and whether removing the connection affects access. Do not infer these rules from a general privacy notice or from the fact that a service offers a link button. Look for instructions specifically about connected accounts and account recovery.",
+        "If you already use the video service, check whether its existing membership can be attached to a different sign-in. Avoid experimenting with account linking while a renewal or payment issue is unresolved. If the service has a support route for changing account connections, save the instructions and ask for clarification before making a change that could interrupt access."
+      ],
+      "bullets": [
+        "Find the service’s help or account settings information about connected sign-ins.",
+        "Check whether unlinking affects membership, watch history, saved items, or account access.",
+        "Do not create a second account to solve a sign-in problem until you know whether memberships or records can be transferred."
+      ]
+    },
+    {
+      "heading": "Keep billing and cancellation routes clear",
+      "paragraphs": [
+        "Authentication and billing are not always handled by the same organization. A person may sign in through one account while paying the video service directly, or the membership may be managed through a separate billing channel. Confirm which route applies to your account. The membership receipt, account page, and terms can help you identify where renewal settings and cancellation controls are located.",
+        "Before subscribing, find the cancellation instructions while you are still deciding. Check whether cancellation occurs in the video service account or through the account that manages billing. Save a confirmation if you later cancel, but avoid storing unnecessary sensitive information with it. If sign-in access is lost, know which support channel handles billing and what account details it asks you to provide."
+      ]
+    },
+    {
+      "heading": "Make a go-or-pause decision",
+      "paragraphs": [
+        "A sign-in arrangement is a poor fit when you cannot explain which account controls access, how you would recover it, and where you would cancel. That does not automatically make an external sign-in unsafe; it means the dependency is not yet clear enough to rely on. Use the service’s written account information to answer the questions, and do not provide credentials to a person or page that is not part of the official sign-in flow.",
+        "Proceed when you understand the account relationship and can maintain access to the required recovery channels. Pause when the provider’s instructions conflict, the sign-in account is shared, or the recovery path depends on a device or inbox you expect to lose. If the terms do not explain a critical dependency, ask support before payment and keep the reply with your account notes."
+      ],
+      "bullets": [
+        "Proceed: the sign-in owner, recovery route, and membership manager are all clear.",
+        "Pause: a linked account is shared or controlled by someone else.",
+        "Ask first: the service does not explain whether unlinking or recovery changes membership access.",
+        "Keep a concise note of the sign-in method, recovery page, and cancellation route."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using an external sign-in mean that provider can see what I watch?",
+      "answer": "The sign-in choice alone does not establish what viewing information is shared. Review the privacy information for both services and the permissions shown during linking. If it is unclear which data is exchanged, ask the providers before connecting the accounts."
+    },
+    {
+      "question": "Can I cancel if I lose access to the account used to sign in?",
+      "answer": "It depends on the account and billing arrangement. Identify the membership manager and its cancellation route before subscribing. If access is already lost, contact the official billing or support channel and follow its stated verification process."
+    },
+    {
+      "question": "Should I use a shared external account for a private membership?",
+      "answer": "A shared sign-in can expose account access or account-management activity to other users of that sign-in. Consider using an account you control, and check the video service’s rules and the external provider’s account-sharing arrangements."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

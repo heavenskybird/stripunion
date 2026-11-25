@@ -1,0 +1,116 @@
+{
+  "backlogId": "webmaster-affiliate-commission-hold-negative-balance-terms-review",
+  "slug": "webmaster-affiliate-commission-hold-negative-balance-terms-review",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Commission Holds: Review Negative-Balance and Recovery Terms",
+  "description": "A webmaster worksheet for understanding commission holds, negative balances, later adjustments, and the records needed to assess program exposure.",
+  "excerpt": "A reported commission is not always the final payable amount. Map hold, reversal, and negative-balance terms before building cash-flow assumptions.",
+  "keyTakeaways": [
+    "Separate reported, approved, held, adjusted, and payable amounts in your program notes.",
+    "Find out whether a negative balance can carry forward or offset later commissions.",
+    "Identify the events that can trigger a hold, reversal, or balance adjustment.",
+    "Check whether the program explains how adjustments appear in reports and statements.",
+    "Build forecasts around documented rules, not an assumption that every reported amount will be paid."
+  ],
+  "sections": [
+    {
+      "heading": "Distinguish a hold from a final adjustment",
+      "paragraphs": [
+        "Affiliate dashboards may show amounts at different stages, and a temporary hold is not the same thing as a final decision that a commission is invalid. The program’s language should explain what each status means, whether funds remain under review, and what event moves a commission into a different state. Record the exact status labels and definitions rather than combining them into one informal “earned” total.",
+        "Review the agreement and relevant program documentation for the mechanics of review, correction, and payment. Check whether the stated reasons include customer refunds, charge reversals, suspected invalid traffic, duplicate events, or account review. These are examples to investigate, not assumptions about what a particular program does. If a term uses a broad phrase such as “adjustment,” ask what it means operationally and where the result will be shown."
+      ],
+      "table": {
+        "caption": "Separate commission stages when reviewing a dashboard",
+        "headers": [
+          "Stage",
+          "What to verify",
+          "Record to keep"
+        ],
+        "rows": [
+          [
+            "Reported",
+            "Does the figure include pending or estimated events?",
+            "Dated dashboard export or screenshot"
+          ],
+          [
+            "Approved",
+            "What review or qualification conditions have been met?",
+            "Status definition and reporting period"
+          ],
+          [
+            "Held",
+            "Why is payment delayed, and what can release it?",
+            "Hold reason, date, and stated next step"
+          ],
+          [
+            "Adjusted or reversed",
+            "Which event changed the amount and how is it represented?",
+            "Original and updated records with the explanation"
+          ],
+          [
+            "Payable",
+            "Are thresholds, payment timing, and other conditions satisfied?",
+            "Statement and payment record"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Read the negative-balance mechanics",
+      "paragraphs": [
+        "A negative balance can arise when the program records adjustments that exceed the amount currently available for payment. The practical question is what the agreement permits next. It may describe carrying the balance forward, offsetting future commissions, requesting repayment, or another treatment. Do not assume one approach from industry convention; confirm what the actual written terms say and whether different situations have different rules.",
+        "Look for the sequence of events: how an adjustment is calculated, when it becomes effective, whether you receive notice, and what happens if your account is inactive or closed. Check whether the program distinguishes a provisional balance from an amount it considers due. If the agreement does not say, ask the program to clarify in writing before relying on a forecast or changing how you operate."
+      ]
+    },
+    {
+      "heading": "Check how decisions are explained and challenged",
+      "paragraphs": [
+        "A workable program should make it possible to understand a material adjustment from its records. Look for information about whether reports show a reason code, affected date range, campaign identifier, or reference to the underlying event. More detail is not automatically available in every program, but the process should be understandable enough for you to distinguish a correction from a reporting error.",
+        "Review any stated notification, inquiry, or dispute window. Note what evidence the program requests, where to submit it, and whether the account owner can export the relevant report. Keep your own dated campaign and reporting records so you are not dependent on a dashboard that may later change. Avoid collecting visitor-level personal information unless it is necessary and permitted; aggregate campaign records and program-generated identifiers are often more appropriate for routine reconciliation."
+      ],
+      "bullets": [
+        "Save the term version and status definitions in effect when you began promoting.",
+        "Record the reporting date, date range, campaign identifier, and adjustment explanation.",
+        "Ask focused questions about an unexplained change and preserve the written reply.",
+        "Keep test activity separate from production reporting."
+      ]
+    },
+    {
+      "heading": "Model exposure without treating estimates as income",
+      "paragraphs": [
+        "For planning, maintain separate totals for reported, approved, held, adjusted, and paid amounts. A basic scenario worksheet can show how a delayed payment or a possible adjustment would affect operating cash without predicting that either event will happen. Use the program’s stated conditions and your own actual records. Do not turn a dashboard estimate into a guaranteed receivable or treat an example scenario as an expected outcome.",
+        "Stress-test the arrangement with questions rather than invented rates: Could a long review period leave you short of operating funds? Could future commissions be offset? Would a negative balance remain after you stop sending traffic? Is the amount large enough to justify keeping a reserve? If a term makes these answers impossible to determine, label the exposure unknown and avoid depending on that program for a commitment you cannot cover."
+      ]
+    },
+    {
+      "heading": "Create a compact terms-and-evidence file",
+      "paragraphs": [
+        "A concise file makes later reconciliation much easier. Keep the signed or accepted agreement, amendments, program explanations, dated reports, statements, and your questions and replies together. Note which version of a term applies and when you last checked it. Use access controls appropriate for business records, and do not include passwords, unnecessary customer data, or payment credentials in the same folder.",
+        "Review the file when a program changes its terms, introduces a new report status, or makes an adjustment you cannot explain. If documents conflict, identify the precise clause and ask the program which document governs, keeping the answer and date. For material disputes or contract questions, consider qualified professional advice. The goal is not to assume bad faith; it is to understand the financial mechanics before you scale activity or depend on an uncertain balance."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a dashboard commission total mean the amount is payable?",
+      "answer": "Not necessarily. Check how the program defines each status and whether additional review, qualification, threshold, or payment conditions apply. Track reported and payable amounts separately."
+    },
+    {
+      "question": "Can an affiliate program carry a negative balance forward?",
+      "answer": "That depends on the agreement and program terms. Look for explicit language about offsets, repayment, account closure, and notice. Ask for clarification if the terms do not explain the outcome."
+    },
+    {
+      "question": "What records help when an adjustment is unclear?",
+      "answer": "Keep dated reports, status definitions, relevant agreement versions, campaign identifiers, statements, and written program explanations. Avoid collecting personal visitor data that is not needed or permitted."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

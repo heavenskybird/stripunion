@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T04:10:46.656Z",
+  "generatedAt": "2026-11-25T05:21:29.929Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-games-shortlist-content-boundaries-workflow.json",
-    "ops/editorial/content-artifacts/adult-shop-missed-delivery-resolution-workflow.json",
-    "ops/editorial/content-artifacts/creator-platform-promotion-link-destination-check.json",
-    "ops/editorial/content-artifacts/dating-platform-match-continuity-after-membership-change.json",
-    "ops/editorial/content-artifacts/live-cam-membership-renewal-wallet-separation-audit.json"
+    "ops/editorial/content-artifacts/premium-video-third-party-signin-dependency-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-phone-number-requirement-privacy-review.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-commission-hold-negative-balance-terms-review.json",
+    "ops/editorial/content-artifacts/free-video-auto-quality-switching-control-review.json",
+    "ops/editorial/content-artifacts/adult-games-review-version-relevance-decision-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-games-shortlist-content-boundaries-workflow.js",
-    "src/data/guides/adult-shop-missed-delivery-resolution-workflow.js",
-    "src/data/guides/creator-platform-promotion-link-destination-check.js",
-    "src/data/guides/dating-platform-match-continuity-after-membership-change.js",
-    "src/data/guides/live-cam-membership-renewal-wallet-separation-audit.js"
+    "src/data/guides/premium-video-third-party-signin-dependency-audit.js",
+    "src/data/guides/adult-platform-phone-number-requirement-privacy-review.js",
+    "src/data/guides/webmaster-affiliate-commission-hold-negative-balance-terms-review.js",
+    "src/data/guides/free-video-auto-quality-switching-control-review.js",
+    "src/data/guides/adult-games-review-version-relevance-decision-workflow.js"
   ],
   "categories": [
-    "adult-games",
-    "adult-shops",
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams"
+    "premium-videos",
+    "privacy-safety-payment",
+    "webmaster-affiliate",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "adult-games-shortlist-content-boundaries-workflow",
-    "adult-shop-missed-delivery-resolution-workflow",
-    "creator-platform-promotion-link-destination-check",
-    "dating-platform-match-continuity-after-membership-change",
-    "live-cam-membership-renewal-wallet-separation-audit"
+    "premium-video-third-party-signin-dependency-audit",
+    "adult-platform-phone-number-requirement-privacy-review",
+    "webmaster-affiliate-commission-hold-negative-balance-terms-review",
+    "free-video-auto-quality-switching-control-review",
+    "adult-games-review-version-relevance-decision-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45544748333",
-  "phase": "closed"
+  "r1CycleId": "45552587457"
 }
