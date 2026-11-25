@@ -298,3 +298,7 @@ code{overflow-wrap:anywhere}
 .consent-banner-actions .button{min-height:42px;padding:9px 14px;font-size:13px}
 .consent-banner-actions a{font-size:12px;color:var(--accent)}
 @media(max-width:680px){.consent-banner{align-items:stretch;flex-direction:column}.consent-banner-actions{justify-content:stretch}.consent-banner-actions .button{flex:1 1 145px}}
+
+
+/* Compact paid-link disclosure adjacent to selected high-intent affiliate CTAs. */
+.affiliate-cta-disclosure{display:inline-flex;flex-direction:column;align-items:center;gap:4px;vertical-align:top}.affiliate-cta-disclosure .paid-link-label{color:var(--muted);font-size:.75rem;line-height:1.2}
