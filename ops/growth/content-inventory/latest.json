@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-24T11:09:13.083Z",
+  "generatedAt": "2026-11-25T09:58:34.246Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-11-24T11:05:39.270Z",
-    "bing": "2026-11-24T11:06:04.808Z",
+    "gsc": "2026-11-25T09:55:15.863Z",
+    "bing": "2026-11-25T09:55:36.251Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 446
+        "queryImpressions": 537
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -63,7 +63,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 2649
+        "queryImpressions": 2839
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -89,7 +89,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1277
+        "queryImpressions": 1353
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -115,7 +115,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 184
+        "queryImpressions": 207
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -167,7 +167,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 975
+        "queryImpressions": 1026
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -193,7 +193,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 266
+        "queryImpressions": 281
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -219,7 +219,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 403
+        "queryImpressions": 423
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -245,7 +245,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 529
+        "queryImpressions": 549
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -271,7 +271,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 394
+        "queryImpressions": 423
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -297,7 +297,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 231
+        "queryImpressions": 239
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -323,7 +323,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 238
+        "queryImpressions": 257
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -349,7 +349,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 429
+        "queryImpressions": 447
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
@@ -375,7 +375,7 @@
         "wordCount": 374,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 62
+        "queryImpressions": 63
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -401,7 +401,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 328
+        "queryImpressions": 345
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -453,7 +453,7 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1219
+        "queryImpressions": 1371
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -479,7 +479,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 98
+        "queryImpressions": 105
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -505,7 +505,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 92
+        "queryImpressions": 100
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -531,7 +531,7 @@
         "wordCount": 929,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 40
+        "queryImpressions": 43
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -583,7 +583,7 @@
         "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 32
+        "queryImpressions": 31
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -609,7 +609,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 20
+        "queryImpressions": 21
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -741,7 +741,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 446
+        "queryImpressions": 537
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -766,7 +766,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 2649
+        "queryImpressions": 2839
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -791,7 +791,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1277
+        "queryImpressions": 1353
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +816,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 184
+        "queryImpressions": 207
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,7 +866,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 975
+        "queryImpressions": 1026
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -891,7 +891,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 266
+        "queryImpressions": 281
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -916,7 +916,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 403
+        "queryImpressions": 423
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -941,7 +941,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 529
+        "queryImpressions": 549
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -966,7 +966,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 394
+        "queryImpressions": 423
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -991,7 +991,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 231
+        "queryImpressions": 239
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1016,7 +1016,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 238
+        "queryImpressions": 257
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1041,7 +1041,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 429
+        "queryImpressions": 447
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
@@ -1066,7 +1066,7 @@
         "wordCount": 374,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 62
+        "queryImpressions": 63
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1091,7 +1091,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 328
+        "queryImpressions": 345
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1141,7 +1141,7 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1219
+        "queryImpressions": 1371
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1166,7 +1166,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 98
+        "queryImpressions": 105
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1191,7 +1191,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 92
+        "queryImpressions": 100
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1216,7 +1216,7 @@
         "wordCount": 929,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 40
+        "queryImpressions": 43
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1266,7 +1266,7 @@
         "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 32
+        "queryImpressions": 31
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1291,7 +1291,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 20
+        "queryImpressions": 21
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
