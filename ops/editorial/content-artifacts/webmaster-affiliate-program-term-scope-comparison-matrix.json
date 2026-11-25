@@ -1,0 +1,156 @@
+{
+  "backlogId": "webmaster-affiliate-program-term-scope-comparison-matrix",
+  "slug": "webmaster-affiliate-program-term-scope-comparison-matrix",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Program Terms: Compare Rule Scope Before You Apply",
+  "description": "Build a practical comparison matrix for affiliate restrictions, including which sites, placements, traffic sources, and actions each written rule covers.",
+  "excerpt": "Affiliate terms can use similar words while applying to different parts of a webmaster operation. Map each restriction to the property, channel, content, and action it actually names before deciding whether your planned promotion fits.",
+  "keyTakeaways": [
+    "Compare written rules by their scope: property, channel, placement, content, audience, and action may be treated separately.",
+    "Do not treat a broad restriction as permission for anything it does not mention, or treat silence as approval.",
+    "Keep the exact wording, source, and date of each rule beside your interpretation.",
+    "Ask for written clarification about a specific planned use when the terms leave a material gap.",
+    "Use the matrix again when your site, placement, or promotional method changes; a prior interpretation may not fit the new use."
+  ],
+  "sections": [
+    {
+      "heading": "Why comparing scope is different from checking a traffic list",
+      "paragraphs": [
+        "A webmaster may already have checked whether a program allows a particular source such as editorial referrals, email, or paid search. A separate problem remains: the scope of a rule. A restriction may apply to a specific website, a category of pages, a promotional channel, a link placement, or a particular use of program materials. Reading only the headline or a short summary can blur those boundaries and produce a decision that does not match the written terms.",
+        "This comparison method is intended for evaluating program rules before applying or changing a promotion. It does not interpret any specific agreement, establish legal meaning, or guarantee approval. The task is narrower: extract what each source expressly says, identify the operational area it appears to cover, and mark unresolved questions. If a rule’s scope is unclear and the answer affects whether you can promote, ask the program through an official route before relying on an assumption."
+      ]
+    },
+    {
+      "heading": "Break each rule into scope fields",
+      "paragraphs": [
+        "For every restriction, capture the exact wording and break it into practical fields. Identify the property or account it applies to, the page or placement involved, the traffic channel, the content type, the audience, and the action that is restricted or required. A statement about one domain may not clearly answer whether another owned property is included. A rule about a traffic source may not explain whether the same source is allowed on every page. Keep these differences visible rather than compressing them into a single allowed or prohibited label.",
+        "Add the source and date. Terms, program guides, dashboards, and support replies may not have the same status or cover the same subject. Do not silently merge them. If one document appears broader than another, record the conflict and request clarification. Your notes should distinguish a direct quotation from your own interpretation. That makes it easier to revisit the decision if the program changes its wording or your promotional plan changes."
+      ],
+      "table": {
+        "caption": "Scope fields for a program-rule comparison",
+        "headers": [
+          "Field",
+          "Question to record",
+          "Example of an open issue"
+        ],
+        "rows": [
+          [
+            "Property",
+            "Which site, domain, account, or owned property is covered?",
+            "Does this wording include a second site under the same operator?"
+          ],
+          [
+            "Placement",
+            "Does the rule name editorial pages, banners, navigation, or another location?",
+            "Does a restriction on a landing page also apply to a resource page?"
+          ],
+          [
+            "Channel",
+            "Which source of visitors or promotion is named?",
+            "Does the rule address a channel used only for a small test?"
+          ],
+          [
+            "Content",
+            "Does the wording identify a topic, format, claim, or asset?",
+            "Does it cover a page that discusses the program without using its creative assets?"
+          ],
+          [
+            "Action",
+            "What must not be done, or what approval is required?",
+            "Is the issue publication, link placement, brand use, or targeting?"
+          ],
+          [
+            "Source and date",
+            "Where did the wording appear, and when was it checked?",
+            "Is the dashboard note current and consistent with the agreement?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate a rule from an interpretation",
+      "paragraphs": [
+        "Create one row for the rule as written and another for your working interpretation. For example, the source might prohibit a named action in a named context. Your interpretation may be that a planned page has the same context, but that is an inference. Label it as such. Avoid upgrading a likely interpretation into a confirmed permission or prohibition unless the program has clearly stated that application.",
+        "Use four useful statuses: explicit, ambiguous, silent, and conflicting. Explicit means the wording directly addresses the planned use. Ambiguous means it addresses the topic but leaves a material boundary unclear. Silent means the sources checked do not address the planned use. Conflicting means two sources appear to say different things. These statuses help teams decide what needs a question, rather than forcing every uncertain case into a binary answer."
+      ],
+      "bullets": [
+        "Quote only the relevant wording and retain its source location.",
+        "Mark your interpretation separately from the program’s statement.",
+        "Record the precise planned placement or action being evaluated.",
+        "Flag silent and conflicting cases for clarification instead of assuming approval.",
+        "Keep a note of who reviewed the rule and when the decision was made."
+      ]
+    },
+    {
+      "heading": "Ask a bounded clarification question",
+      "paragraphs": [
+        "A useful question describes the actual operation you intend to run. Identify the property, page type, traffic channel, and action, then ask whether the cited rule applies to that use. Avoid vague questions such as whether a site is allowed if the program needs to distinguish multiple domains or placements. Include the clause or guide section that prompted the question so the response can address the same wording.",
+        "Request a written response through an official program contact and preserve it with the rule version you reviewed. A response may clarify a particular scenario without rewriting all program terms, so keep its scope narrow in your records. If the reply is still conditional or unclear, ask a follow-up rather than applying it to other pages or channels by analogy. Do not publish a claim that the program approved a broader use than the response actually describes."
+      ]
+    },
+    {
+      "heading": "Use the matrix as a change-control tool",
+      "paragraphs": [
+        "The comparison is not only a pre-application task. Revisit it when you add a site, change a page’s purpose, begin a new channel, alter a placement, or use a different creative asset. A rule that fit one use may not answer another. Keep the current decision linked to the relevant rule, page, and promotional plan so a team member can see what was approved, what was merely inferred, and what remains to be checked.",
+        "Before launching, review the high-impact rows: property coverage, channel permission, placement restrictions, content limitations, and approval requirements. Confirm that the page and link use match the plan you described in any clarification request. If they do not, ask again. This method cannot guarantee acceptance, attribution, or commission treatment; it helps reduce avoidable mismatches between written restrictions and the webmaster’s actual operation."
+      ],
+      "table": {
+        "caption": "Decision statuses for a terms matrix",
+        "headers": [
+          "Status",
+          "Use when",
+          "Next step"
+        ],
+        "rows": [
+          [
+            "Explicit",
+            "The written source directly covers the planned use.",
+            "Record the exact scope and follow the stated conditions."
+          ],
+          [
+            "Ambiguous",
+            "The source names the subject but leaves a material boundary open.",
+            "Ask a specific question describing the planned use."
+          ],
+          [
+            "Silent",
+            "No reviewed source addresses the planned use.",
+            "Do not treat silence as permission; seek clarification if material."
+          ],
+          [
+            "Conflicting",
+            "Two sources appear to differ in wording or scope.",
+            "Preserve both versions and request an authoritative clarification."
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a program does not mention my placement, does that mean it is allowed?",
+      "answer": "No. Silence is an information gap, not confirmation. Record the gap and ask the program about the exact property, page, channel, and action you intend to use."
+    },
+    {
+      "question": "Should I rely on a support reply if it differs from the written terms?",
+      "answer": "Do not silently choose one source. Keep the wording and reply, note the apparent conflict, and ask the program to clarify which instruction applies to your specific use."
+    },
+    {
+      "question": "How much detail should I include in a clarification request?",
+      "answer": "Include enough operational detail to distinguish your case: the property, page or placement, channel, relevant content, and planned action. Avoid asking a broad question that could be interpreted in several ways."
+    },
+    {
+      "question": "When should I rebuild the comparison matrix?",
+      "answer": "Review it whenever the program’s wording changes or your operation changes materially, such as adding a site, channel, placement, or new use of program assets. Retain the earlier version so the decision history remains understandable."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
