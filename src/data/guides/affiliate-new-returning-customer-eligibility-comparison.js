@@ -1,0 +1,114 @@
+export default {
+  "slug": "affiliate-new-returning-customer-eligibility-comparison",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Compare New, Returning, and Reactivated Customer Rules",
+  "description": "A webmaster checklist for comparing how affiliate programs define new, returning, and reactivated customers before forecasting referral credit.",
+  "excerpt": "A conversion may be recorded without qualifying for a particular customer category. Compare the program’s written definitions, exclusions, and evidence before building expectations into a campaign.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Do not assume a recorded conversion is eligible for the same commission treatment as every other conversion.",
+    "Find the written definitions of new, existing, returning, and reactivated customers before estimating program fit.",
+    "Check how prior accounts, prior purchases, cancellations, and reactivation periods are treated.",
+    "Ask which data source determines customer status and whether the program explains how status can be corrected.",
+    "Keep eligibility assumptions separate from revenue forecasts until the program’s terms provide a clear basis."
+  ],
+  "sections": [
+    {
+      "heading": "Why customer status can change an affiliate decision",
+      "paragraphs": [
+        "Affiliate terms may distinguish people who are new to a service from existing customers or people who return after an inactive period. Those labels can affect whether a referral qualifies, which commercial rule applies, or how a report is interpreted. The exact effect depends on the written program terms. A click followed by a reported conversion does not, by itself, establish which customer category applies.",
+        "This matters before a webmaster commits editorial space, builds a forecast, or compares programs. If one program defines a new customer narrowly and another uses broader language, headline commission descriptions may not be directly comparable. The useful task is to map the definition and its evidence requirements—not to infer likely outcomes from a small number of reported referrals."
+      ]
+    },
+    {
+      "heading": "Build a vocabulary map from the written terms",
+      "paragraphs": [
+        "Start by collecting the agreement, program rules, help material, and relevant dashboard definitions. Search for terms such as new customer, existing customer, returning customer, reactivation, first purchase, first subscription, and eligible transaction. Record the exact wording and where it appears. If different documents use different terms, do not silently treat them as synonyms.",
+        "For each label, note the event that appears to establish it and the events that may disqualify it. A prior account registration may matter even when there was no purchase; a former customer may be treated differently from someone who never joined. If the documents do not explain the boundary, mark it as unresolved and request clarification in writing before using the assumption in a forecast."
+      ],
+      "table": {
+        "caption": "A customer-status comparison matrix for program review",
+        "headers": [
+          "Term to investigate",
+          "Definition to locate",
+          "Unresolved question"
+        ],
+        "rows": [
+          [
+            "New customer",
+            "What prior account or purchase history is excluded?",
+            "Does registration alone count as prior status?"
+          ],
+          [
+            "Existing customer",
+            "Which relationship or activity makes a person existing?",
+            "Does inactivity change the classification?"
+          ],
+          [
+            "Returning customer",
+            "What qualifies as a return after prior activity?",
+            "Is a previous cancellation relevant?"
+          ],
+          [
+            "Reactivated customer",
+            "Is there a stated inactivity or reactivation condition?",
+            "Which event and date establish reactivation?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check how customer history is assessed",
+      "paragraphs": [
+        "Ask what source determines customer status: an account record, prior transaction, subscription history, or another program-defined signal. The program may not disclose every internal method, but it should be clear enough for you to understand the written eligibility rule. Do not assume that a new browser, email address, or device changes a person’s underlying customer status; do not encourage visitors to create duplicate accounts to affect classification.",
+        "Review whether the terms mention household, account, payment, or prior-relationship exclusions. Pay attention to the time frame, if one is stated, and whether the rule applies across offers or properties. Where no period or scope is specified, record that gap. A useful clarification request asks what event counts, what lookback applies, and where the result appears in reporting."
+      ],
+      "bullets": [
+        "Capture exact wording instead of paraphrasing a definition as broader than it is.",
+        "Note the term version and review date in your program file.",
+        "Do not suggest account duplication or other workarounds to visitors."
+      ]
+    },
+    {
+      "heading": "Compare reporting with the eligibility rule",
+      "paragraphs": [
+        "A dashboard may show a conversion, a status, or a commission amount without explaining the customer category behind it. Compare the available report fields with the terms. Can you tell whether a referral was rejected because of customer history, another eligibility condition, or a reporting delay? If not, the reporting may be insufficient for diagnosing the category rule, even if it is useful for other operational questions.",
+        "Keep the language in your own records precise: “reported conversion,” “pending status,” and “eligible commission” are different states unless the program defines them otherwise. Track the date you checked the report and the period it covers. Avoid treating an early status as final if the terms or reporting documentation allow later review or adjustment."
+      ]
+    },
+    {
+      "heading": "Use unresolved terms responsibly in forecasts and content",
+      "paragraphs": [
+        "A forecast should state which customer-status assumptions it uses. If the program’s definition is unclear, model that uncertainty as an open question rather than inventing a qualification rate or assuming every referral is a new customer. Do not publish unsupported claims about typical approval, customer mix, or expected earnings. A transparent internal note can prevent an uncertain interpretation from becoming an apparently factual public promise.",
+        "For editorial pages, describe only what the written rules support and make clear when terms are ambiguous. If a program confirms an interpretation through support, preserve the dated response with the relevant term version. Revisit the decision if the agreement changes, the reporting fields change, or the program’s support explanation conflicts with the formal rules."
+      ]
+    },
+    {
+      "heading": "Decide whether the program is operationally clear enough",
+      "paragraphs": [
+        "The decision is not simply whether a program has a new-customer rule. The practical question is whether you can understand the rule well enough to promote responsibly, maintain accurate records, and interpret reports. A program may remain workable when definitions are clear but reporting is limited, provided you account for that limitation. It is harder to rely on a forecast when both the eligibility definition and the source of customer status are unclear.",
+        "Use a short decision record: the definition found, the event that appears to determine status, the exclusions, the reporting fields, and any written clarification. Note remaining uncertainty and decide whether it affects the placement or forecast. This creates a reusable comparison without inventing a universal rule that may not apply to another program."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a reported conversion prove that the referral is commission-eligible?",
+      "answer": "Not necessarily. A report may record an event before eligibility is finalized, or the program may distinguish conversions by customer status. Check the written terms and the report’s definitions."
+    },
+    {
+      "question": "What should I ask a program when “new customer” is unclear?",
+      "answer": "Ask what prior account or purchase history is considered, what event determines status, whether a time period applies, and how the classification appears in reporting. Request the answer in writing and retain the relevant terms version."
+    },
+    {
+      "question": "Can a person become a new customer by using a different email address?",
+      "answer": "Do not assume that changing an identifier changes customer status, and do not advise visitors to create duplicate accounts to influence eligibility. Follow the program’s definitions and any applicable account rules."
+    },
+    {
+      "question": "How should unclear customer-status rules appear in a forecast?",
+      "answer": "Identify the rule as unresolved and keep it separate from confirmed assumptions. Do not invent a qualification rate or present an uncertain interpretation as expected income."
+    }
+  ]
+};
