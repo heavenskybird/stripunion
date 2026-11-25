@@ -1,0 +1,118 @@
+{
+  "backlogId": "adult-games-shortlist-content-boundaries-workflow",
+  "slug": "adult-games-shortlist-content-boundaries-workflow",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Build a Shortlist Around Content Boundaries, Not Just Tags",
+  "description": "A practical way to compare adult games against your content preferences, play style, platform needs, and tolerance for uncertain or incomplete information.",
+  "excerpt": "Tags can help you find adult games, but they rarely answer every important question. Use a shortlisting workflow to distinguish confirmed details from assumptions and decide what you need to verify before choosing.",
+  "keyTakeaways": [
+    "Write down your must-haves and exclusions before browsing, so attractive presentation does not quietly change your criteria.",
+    "Treat tags as navigation clues rather than complete descriptions or guarantees.",
+    "Separate confirmed listing information, developer statements, and unresolved questions in your notes.",
+    "Compare projects on the same practical criteria, including platform support, access model, and release status.",
+    "Pause a decision when a missing detail is essential to your comfort or ability to play."
+  ],
+  "sections": [
+    {
+      "heading": "Start with your own decision criteria",
+      "paragraphs": [
+        "A useful shortlist begins with the question, “What would make this a poor fit for me?” rather than with a broad search for popular titles. List the content boundaries, gameplay features, device requirements, and access conditions that matter to you. Keep the list personal and practical: a preference can be a positive requirement, while a boundary can be a reason to remove a candidate from consideration.",
+        "Separate non-negotiables from preferences. For example, a supported operating system or a clear content description may be essential, while a particular control option or narrative format may simply be desirable. This distinction helps prevent a long list of minor preferences from obscuring one critical uncertainty. You do not need to justify a boundary to a storefront or to other users; it is a decision aid for you."
+      ],
+      "bullets": [
+        "Must-have: a requirement that rules a title in or out.",
+        "Preference: a feature that improves fit but is not essential.",
+        "Boundary: a content or interaction condition that makes a title unsuitable.",
+        "Unknown: a question that requires better evidence before you decide."
+      ]
+    },
+    {
+      "heading": "Read tags as signals, not as a full specification",
+      "paragraphs": [
+        "Tags are designed to support browsing. Their meaning can vary between storefronts, projects, and community contributors, and a tag may summarize only one part of a game. A tag can point you toward a candidate, but it does not necessarily explain how often a theme appears, how the game presents it, or whether it is optional. Avoid treating a tag’s presence or absence as proof of a detailed content boundary.",
+        "Move from broad labels to the most direct available evidence. Look for a content note, a developer’s description, a settings explanation, or a clearly scoped FAQ. When those sources disagree, record the conflict rather than choosing the most reassuring interpretation. If a specific detail is important and the available description does not answer it, consider asking through an official support route or choosing a better-documented option."
+      ],
+      "table": {
+        "caption": "A quick evidence ladder for evaluating a game listing",
+        "headers": [
+          "Evidence type",
+          "How to use it",
+          "What it cannot establish by itself"
+        ],
+        "rows": [
+          [
+            "Storefront tag",
+            "Find possible candidates",
+            "Exact content scope or frequency"
+          ],
+          [
+            "Game description",
+            "Understand the project’s stated premise and features",
+            "That every listed feature is available in every build"
+          ],
+          [
+            "Developer content note or FAQ",
+            "Check a specific question against a direct explanation",
+            "Details the statement does not address"
+          ],
+          [
+            "Recent version notes",
+            "Check whether a stated feature or change is current",
+            "Whether the project will follow a future plan"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare candidates using a consistent record",
+      "paragraphs": [
+        "When every candidate is described differently, it is easy to remember the clearest listing as the best fit. Use the same short record for each game. Note the source and date of each important statement, then distinguish what is confirmed from what remains unclear. This is especially helpful when listings have promotional language, community tags, or updates that could change the context of older information.",
+        "Keep the record focused on decisions rather than collecting every detail. A useful comparison might include content-description quality, platform requirements, access format, current release state, and answers to your must-have questions. If you cannot answer a field, mark it unknown. Do not silently convert missing information into a positive assumption. A well-documented candidate may be a better practical choice than one that appears compelling but leaves essential questions unanswered."
+      ],
+      "bullets": [
+        "Candidate and storefront or source.",
+        "Must-haves met, not met, or unknown.",
+        "Content information and where it came from.",
+        "Platform or device requirements to verify.",
+        "Release status and any unresolved questions."
+      ]
+    },
+    {
+      "heading": "Check that your shortlist is playable in practice",
+      "paragraphs": [
+        "A content fit does not automatically make a game a usable choice. Check whether the listing explains the relevant operating system, input method, account requirement, and download or browser access. Requirements can differ across builds, and a project page may describe planned support alongside current support. Look for language that distinguishes what is available now from what is intended for later.",
+        "Consider the conditions under which you would actually play. If you need a particular control setting, a reliable save-and-return path, or a specific language, verify that detail using the most direct available source. Do not assume that a feature mentioned in a community discussion is maintained by the developer. If the available evidence is incomplete, decide whether that uncertainty is acceptable before installing or paying."
+      ]
+    },
+    {
+      "heading": "Make the final choice without pressure",
+      "paragraphs": [
+        "A shortlist is useful only if it supports a decision you are comfortable making. Remove candidates that clearly conflict with your must-haves. For the remaining options, compare the quality of evidence as well as the features themselves. You can choose the best-documented fit, wait for an answer, or keep looking; uncertainty does not create an obligation to proceed.",
+        "Revisit your notes if a listing changes or a new build is released. Use the date and source you recorded to identify information that may have become stale. Avoid turning a personal shortlist into a universal ranking: another player may have different boundaries, devices, and priorities. The goal is a transparent, repeatable choice process that leaves you in control."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I rely on a storefront tag to confirm that a game fits my boundaries?",
+      "answer": "Use tags to discover possible candidates, not as a complete content guarantee. Check the project description and any direct content notes for the specific details that matter to you. If an essential question remains unanswered, keep it marked as unknown."
+    },
+    {
+      "question": "What should I do when the listing and community comments disagree?",
+      "answer": "Record the disagreement and give greater weight to current, direct information from the storefront or project team for claims about the present build. Community comments can identify questions worth checking, but they may refer to older versions or individual experiences."
+    },
+    {
+      "question": "How many games should I put on a shortlist?",
+      "answer": "There is no required number. Include enough candidates to compare meaningful alternatives, but remove titles that fail a non-negotiable requirement. A small, well-supported shortlist is often easier to evaluate than a large collection of uncertain options."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
