@@ -1,0 +1,128 @@
+export default {
+  "slug": "premium-video-managed-device-policy-and-privacy-preflight",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video on a Work-Managed Device: Check Policy and Privacy Boundaries First",
+  "description": "Before signing in to a premium video service on a work-managed device, check device rules, browser controls, account separation, and what local activity may remain.",
+  "excerpt": "A personal subscription does not make a managed device private or personally controlled. Use this preflight to decide whether to watch elsewhere and what to verify before signing in.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "A managed device may be subject to organizational rules that differ from the rules on a personal device; check the applicable policy before using it for personal viewing.",
+    "Private-browsing modes do not necessarily conceal activity from device-management software, network administrators, or the service itself.",
+    "Signing out, clearing browser data, and separating personal accounts reduce some local exposure but do not erase every record or change device oversight.",
+    "Do not install an app, profile, extension, or configuration to bypass a restriction on a managed device.",
+    "If policy or monitoring is unclear, use a personally controlled device and network rather than guessing."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the device owner, not the streaming service",
+      "paragraphs": [
+        "A premium video membership answers a narrow question: what access the service provides under its terms. It does not answer who controls the device, what use is permitted on it, or what information its management software can collect. A work-managed phone or laptop may be subject to an acceptable-use policy, installed security tools, browser restrictions, or network controls. Those conditions can apply even when you are using your own account and paying personally.",
+        "First identify who owns or administers the device. A device supplied by an employer, school, contractor, or other organization should be treated as managed unless the administrator or written policy says otherwise. Read the relevant policy for personal use, streaming, app installation, and network access. If it is unclear, ask the appropriate administrator a neutral question about permitted personal use rather than trying to infer the answer from a device setting."
+      ],
+      "bullets": [
+        "Is the device personally owned, organization-owned, or enrolled in a management program?",
+        "Does the policy address personal streaming, adult-content services, or personal account sign-in?",
+        "Are app installation, browser extensions, or alternate browsers restricted?",
+        "Can you use a personal device without changing or bypassing the managed device?"
+      ]
+    },
+    {
+      "heading": "Understand which privacy boundary you are trying to protect",
+      "paragraphs": [
+        "There is no single switch that makes viewing private from every party. A service may associate activity with the account you use. A browser can retain site data or sign-in state. A network administrator may have visibility into network connections, depending on the network and its controls. Device-management software may apply additional monitoring or restrictions. These are separate boundaries, so a step that reduces one kind of exposure may do little for another.",
+        "Private or incognito browsing is mainly a local-browser feature. It is not a promise that an organization cannot observe network use, that the streaming service cannot associate activity with an account, or that device-management records disappear. Likewise, deleting history can remove a local browser record without changing service-side records, network logs, billing records, or administrative records. Avoid treating a privacy feature as a guarantee beyond the scope the browser or device administrator describes."
+      ],
+      "table": {
+        "caption": "A practical map of common viewing records and their boundaries",
+        "headers": [
+          "Possible record",
+          "Where it may exist",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Signed-in viewing activity",
+            "Streaming account or service",
+            "Review the service's account and history controls"
+          ],
+          [
+            "Cookies, cached files, or browser history",
+            "Browser or device",
+            "Check what the browser stores and what clearing data removes"
+          ],
+          [
+            "Network connection information",
+            "Network or organization systems",
+            "Check the applicable network-use policy; do not assume private browsing hides it"
+          ],
+          [
+            "Management or security events",
+            "Device-management systems",
+            "Ask the device administrator what is collected and what personal use is allowed"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Keep personal and managed accounts separate",
+      "paragraphs": [
+        "If a policy permits personal browsing, avoid signing into a personal video account through a work-managed browser profile that also contains work email, bookmarks, saved passwords, or synchronized activity. Account separation can reduce accidental mixing, but it does not make the device personally controlled. A separate browser profile may still be subject to the same device rules and management tools.",
+        "Do not add a personal account to organization-wide synchronization or authentication settings merely to make streaming convenient. Before signing in, check whether the browser is managed, whether it synchronizes history, and whether the sign-in screen is actually for the video service rather than a shared organizational identity provider. If you cannot tell which account or profile is active, stop and resolve that uncertainty before entering credentials."
+      ],
+      "bullets": [
+        "Confirm the browser profile and account shown before entering a password.",
+        "Avoid saving personal credentials in a browser profile used for work.",
+        "Do not disable security settings or install tools to conceal activity.",
+        "Use a unique password and appropriate account security, but do not confuse account security with device privacy."
+      ]
+    },
+    {
+      "heading": "Check playback and app choices without changing device controls",
+      "paragraphs": [
+        "A platform may offer a browser player, a mobile app, or other access paths, but availability varies and should be checked directly. On a managed device, do not assume that installing an app is acceptable just because an app store displays it. Review installation rules first. A browser route is not automatically permitted either; the organization's policy may apply to personal web use regardless of the playback method.",
+        "If you are permitted to use the service, keep the test narrow. Confirm that the device can play a preview or other permitted sample, that controls work, and that signing out returns the browser to an expected state. Do not change management profiles, network settings, certificates, or security controls to make playback work. If the service is blocked or the device displays an administrative notice, treat that as a boundary rather than a technical puzzle to defeat."
+      ]
+    },
+    {
+      "heading": "Use a decision rule that favors a personally controlled alternative",
+      "paragraphs": [
+        "The simplest decision rule is to proceed only when both the policy and the privacy boundary are acceptable to you. If policy permits personal use but you do not want personal account activity associated with a managed device, choose a personal device instead. If the policy is unclear, avoid signing in until you have a reliable answer. If the device is shared or its management status is uncertain, assume that another administrator or user may be able to access some device-level information.",
+        "A personal device is not automatically private in every circumstance, and a home or public network has its own considerations. Still, choosing a device you control removes one important uncertainty: an employer or school is not administering that device. Keep software updated, use a screen lock, and sign out when appropriate. The goal is not to promise invisibility; it is to make a deliberate choice about the account, device, and network involved."
+      ]
+    },
+    {
+      "heading": "A short preflight before any sign-in",
+      "paragraphs": [
+        "Use this checklist as a stop-or-go screen, not as a way to evade monitoring. If any answer is unknown, postpone sign-in or use a device you control. Record only the policy detail you need; avoid saving sensitive browsing information in a work document or asking colleagues to inspect your personal account.",
+        "After viewing, sign out of the service if that is consistent with your account-security needs, close the relevant session, and review only the local browser controls that you are permitted to manage. Do not expect cleanup to erase service-side or administrative records. If you need stronger separation, the safer solution is to use a separate personal device rather than repeatedly attempting to scrub a managed one."
+      ],
+      "bullets": [
+        "I know who administers this device and what personal use is allowed.",
+        "I know whether personal app installation and streaming are permitted.",
+        "I understand that private browsing is not a guarantee against network or device monitoring.",
+        "I can identify the browser profile and account before entering credentials.",
+        "I have a personal-device alternative if the rules or privacy boundaries are unclear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does private browsing hide premium video use from an employer?",
+      "answer": "Not necessarily. Private browsing generally limits some records saved in the local browser session. It does not promise to hide network activity from an administrator, remove device-management records, or prevent a signed-in service from associating activity with your account. Check the organization's policy and use a personally controlled device if you need a clearer boundary."
+    },
+    {
+      "question": "Can I sign in with my personal account if the device belongs to my employer?",
+      "answer": "That depends on the device policy and your own privacy preferences. A personal account does not make personal use permitted, and permission to browse does not mean the device is outside organizational oversight. Verify the policy first; if it is unclear, do not sign in on that device."
+    },
+    {
+      "question": "Does signing out remove every trace of a viewing session?",
+      "answer": "No. Signing out can end the service session in that browser, but it does not necessarily remove local files, network records, service-side account history, billing records, or administrative records. Check the relevant controls and avoid relying on cleanup as a guarantee."
+    },
+    {
+      "question": "Is using the browser safer than installing an app on a managed device?",
+      "answer": "Neither route is automatically permitted or private. App installation may be restricted, while browser use may still be covered by device and network policies. Check the policy before choosing an access method, and do not alter management controls to bypass a restriction."
+    }
+  ]
+};
