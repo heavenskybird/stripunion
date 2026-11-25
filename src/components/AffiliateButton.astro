@@ -8,7 +8,8 @@ const {
   source,
   label = 'Explore AVCams →',
   className = '',
-  destinationPath = AVCAMS.defaultPath
+  destinationPath = AVCAMS.defaultPath,
+  showPaidLabel = false
 } = Astro.props;
 
 const tracking = buildAvcamsUrl({
@@ -54,4 +55,13 @@ const effectiveLabel = rolloutLabel || label;
   >
     {effectiveLabel}
   </a>
+  {showPaidLabel && <small class="affiliate-paid-label">Paid link</small>}
 </span>
+
+<style>
+.affiliate-paid-label {
+  color: var(--muted);
+  font-size: .75rem;
+  line-height: 1.2;
+}
+</style>
