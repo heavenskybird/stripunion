@@ -1,0 +1,113 @@
+export default {
+  "slug": "adult-dating-intent-discovery-consistency-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check Whether Relationship-Intent Labels Work in Discovery",
+  "description": "A practical way to compare how dating platforms define relationship-intent labels, expose them in search, and let members use them to assess compatibility before connecting.",
+  "excerpt": "A profile label is useful only if you can understand what it means and see how discovery uses it. This audit helps you check intent definitions and search behavior without treating a label as a guarantee about another person.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Read the platform’s definitions for relationship-intent fields rather than assuming familiar labels mean the same thing everywhere.",
+    "Check whether intent can be used as a search or discovery filter, and whether the platform explains how that filter behaves.",
+    "Distinguish a member’s stated preference from an assurance about future behavior or compatibility.",
+    "Review what the intent field reveals on a profile and whether you can edit or remove it before building your profile."
+  ],
+  "sections": [
+    {
+      "heading": "Treat intent labels as information, not guarantees",
+      "paragraphs": [
+        "Dating platforms may offer fields about relationship goals, connection preferences, or what a member is seeking. The words can look familiar, yet their definitions and placement can differ. A label may describe a current preference, a broad aspiration, or a choice from a limited menu. It should not be treated as proof that two people understand a term in exactly the same way.",
+        "This comparison focuses on whether the platform makes its intent fields understandable and usable during discovery. It does not evaluate individual members or promise that a label predicts compatibility. Your aim is to decide whether the platform gives you enough context to express your own preferences and interpret what other people have chosen without relying on assumptions."
+      ]
+    },
+    {
+      "heading": "Read the field definitions before comparing labels",
+      "paragraphs": [
+        "Start with the platform’s help text, onboarding explanation, or profile-field description. Note whether the field is optional, whether more than one choice is allowed, and whether the wording is defined with examples. If the platform offers no explanation, record that limitation. Do not import a definition from another service simply because the labels appear similar.",
+        "Also check whether a choice refers to present intent, a preferred relationship structure, a timeline, or another kind of preference. These can be different questions presented in similar language. If a field combines several ideas, look for a way to express nuance elsewhere without disclosing more personal information than you want to share. A concise, accurate choice is better than selecting a label that you do not understand."
+      ]
+    },
+    {
+      "heading": "Test how discovery uses the field",
+      "paragraphs": [
+        "If the platform offers search or discovery filters for intent, check the filter description and the choices it provides. Determine whether selecting a filter narrows results, changes recommendations, or simply highlights a field on profiles. The interface may not explain whether matching is mutual, one-sided, or based on a broader ranking system. Record what the platform explicitly states, not what you infer from a changed result list.",
+        "Use a limited, non-identifying test if you can do so without publishing a profile or changing your visibility unintentionally. Review whether the field appears on profile cards, full profiles, or only after a connection. If browsing requires an account, check signup and privacy terms first. Do not create a public profile just to inspect a filter if the platform does not offer a low-visibility way to do so."
+      ]
+    },
+    {
+      "heading": "Compare platform behavior with a checklist",
+      "paragraphs": [
+        "A checklist makes the comparison concrete. For each platform, note the field definition, selection limits, visibility, filter availability, and editing controls. A platform may provide clear definitions but no intent-based filter, or a filter without much explanation. Those are different tradeoffs; neither automatically makes the service a better or worse fit for everyone.",
+        "Keep “not stated” separate from “not available.” If you cannot find an explanation, record that you could not verify it rather than claiming the feature does not exist. Check current help material and account settings if the issue matters to your decision. Save only the notes you need, especially if your comparison includes personal preferences that you would not want exposed in shared documents."
+      ],
+      "table": {
+        "caption": "Compare the intent field’s meaning, visibility, and role in discovery.",
+        "headers": [
+          "Check",
+          "Evidence to record",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Definition",
+            "Platform wording and examples, if provided",
+            "Prevents importing assumptions from another service"
+          ],
+          [
+            "Choice structure",
+            "Single choice, multiple choices, or optional field",
+            "Shows how much nuance the profile can express"
+          ],
+          [
+            "Discovery use",
+            "Filter description and any stated matching logic",
+            "Clarifies whether intent affects search or recommendations"
+          ],
+          [
+            "Profile visibility",
+            "Where the field appears and to whom, according to platform settings",
+            "Helps you decide what you are comfortable disclosing"
+          ],
+          [
+            "Edit controls",
+            "Whether and where the choice can be changed or removed",
+            "Supports accurate profile upkeep over time"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Decide how much to disclose",
+      "paragraphs": [
+        "Before selecting an intent field, consider whether the information is necessary for the kind of connection you want to explore and how comfortable you are displaying it. Check whether the platform lets you leave it blank, limit profile visibility, or update it later. Avoid adding sensitive details solely because a field is available; share only what reflects your current preference and what you are willing to make visible under the platform’s stated settings.",
+        "A profile label can help set context, but it cannot replace a conversation about expectations. If a connection develops, clarify what each person means in a respectful, direct way. The platform’s terminology is a starting point, not a substitute for mutual understanding. You are not obliged to continue a conversation if the other person’s expectations do not fit yours."
+      ]
+    },
+    {
+      "heading": "Use findings to choose a better-fit discovery model",
+      "paragraphs": [
+        "A useful conclusion names the platform behavior you observed: for example, whether definitions were clear, whether filters existed, and where the field appeared. It does not claim that all members use the field consistently or that a filter guarantees a compatible match. This keeps your comparison accurate and useful to someone with a different preference.",
+        "Before joining, review the membership gates around discovery features, account visibility controls, and cancellation. If a filter or profile field is available only after payment, decide whether the platform’s terms justify that commitment for you. Keep the intent audit separate from pricing and cancellation checks so you can see which decision each piece of evidence supports."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a relationship-intent label confirm someone’s expectations?",
+      "answer": "No. It is a statement displayed through the platform’s field. People may interpret terms differently, so clarify expectations directly when appropriate."
+    },
+    {
+      "question": "How can I tell whether intent affects search results?",
+      "answer": "Check the platform’s filter description or help text and note exactly what it says. Do not assume that a profile field is also used as a search filter."
+    },
+    {
+      "question": "Should I complete an intent field if it is optional?",
+      "answer": "That depends on your comfort and goals. Review who can see it, whether you can edit it, and whether leaving it blank affects discovery in a way the platform explains."
+    },
+    {
+      "question": "Can I compare these features without creating a profile?",
+      "answer": "Sometimes public help pages describe fields and filters; other platforms may require an account. Check signup and visibility conditions before creating a profile, and do not publish information merely to inspect a feature."
+    }
+  ]
+};

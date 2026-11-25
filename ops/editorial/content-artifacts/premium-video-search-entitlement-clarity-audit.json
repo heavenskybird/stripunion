@@ -1,0 +1,115 @@
+{
+  "backlogId": "premium-video-search-entitlement-clarity-audit",
+  "slug": "premium-video-search-entitlement-clarity-audit",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Check What Search Results Actually Include",
+  "description": "Use a repeatable search-results audit to see whether a premium video platform distinguishes membership access, previews, and separately restricted titles before you subscribe.",
+  "excerpt": "A search result can look like a catalog match without making clear what a membership unlocks. This guide helps you verify access labels and make a better-informed shortlist before checkout.",
+  "keyTakeaways": [
+    "Check whether search results distinguish included titles from previews, locked items, or access that requires a different plan or purchase.",
+    "Compare results from the same searches across platforms; record labels and access steps rather than relying on thumbnail counts.",
+    "Treat unclear access language as an unresolved question, not evidence that a title is included.",
+    "Include sign-in requirements and any access-stage prompts in your comparison, while avoiding a paid commitment just to test an assumption."
+  ],
+  "sections": [
+    {
+      "heading": "Why search-result access labels matter",
+      "paragraphs": [
+        "A platform’s search can help you find titles, but the result page may not tell you what access is attached to each one. A title might appear in a catalog while its page, preview, or playback path reveals additional conditions. If you compare platforms by result counts alone, you may mistake discoverability for membership value.",
+        "This audit answers a narrow question: can you tell, before committing, which results are included in the membership you are considering? It is not a general catalog-breadth test or a promise that search results will remain unchanged. Focus on visible labels, the steps needed to confirm access, and any points where the platform asks you to choose a different plan or transaction."
+      ]
+    },
+    {
+      "heading": "Set up a comparable search",
+      "paragraphs": [
+        "Start with a short list of terms that represent what you actually want to find: a few specific title names, a type of production, or a publisher or performer name. Use equivalent terms on each platform, and note when a search feature does not support a comparable query. Avoid using a large, arbitrary set of terms; the aim is a fair comparison, not a claim about every result in a library.",
+        "For each search, record the date, whether you were signed in, the plan or membership context shown, and whether filters were applied. Search results can be personalized or affected by account state, so separating the conditions makes your notes more useful. Do not create a paid account just to complete a comparison if the access conditions are not acceptable to you."
+      ]
+    },
+    {
+      "heading": "Follow the result to its access explanation",
+      "paragraphs": [
+        "Open a result only as far as you can do so without triggering a purchase or starting an unwanted renewal. Look for a clear statement near the title page or playback control explaining whether the item is included, available as a preview, restricted to another entitlement, or unavailable without a separate transaction. Capture the wording in your notes rather than translating an ambiguous badge into a confident conclusion.",
+        "If the site presents a sign-in or plan-selection gate, record that limitation. It may be impossible to confirm the precise entitlement without an account, and that uncertainty belongs in the comparison. A locked icon by itself may not explain whether the cause is membership level, region, account state, or a separate purchase. Treat that as unresolved until the platform’s own current terms clarify it."
+      ]
+    },
+    {
+      "heading": "Use a simple comparison table",
+      "paragraphs": [
+        "Keep the comparison small enough to revisit. A useful table records what you observed, what remains unclear, and what evidence would settle the question. It prevents a remembered impression—such as “the title was there”—from becoming a mistaken assumption that playback was part of the membership.",
+        "Use consistent labels in your notes. “Confirmed included” should mean the platform’s displayed information clearly identifies access under the membership being assessed. “Preview only” means the available sample is not the same as full member access. “Unclear” is a valid result, not a failure of the method. Recheck important entries close to signup because catalogs and access terms can change."
+      ],
+      "table": {
+        "caption": "Record access evidence without confusing search visibility with membership entitlement.",
+        "headers": [
+          "Observation",
+          "What to record",
+          "Decision use"
+        ],
+        "rows": [
+          [
+            "Included label is explicit",
+            "Exact label and membership context",
+            "Treat as stronger evidence, then verify current terms"
+          ],
+          [
+            "Preview is offered",
+            "Whether the page distinguishes preview from full access",
+            "Do not count a preview as confirmation of full access"
+          ],
+          [
+            "Access requires another step",
+            "Prompt wording and where it appears",
+            "Identify a possible plan, purchase, or account gate"
+          ],
+          [
+            "No explanation is visible",
+            "Search term, result, and point where access becomes unclear",
+            "Keep the item unresolved; do not infer inclusion"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Score evidence, not just search convenience",
+      "paragraphs": [
+        "A platform can have useful search controls but weak entitlement explanations, or the reverse. Score those dimensions separately. Search convenience concerns how easily you locate relevant results; access clarity concerns how reliably you can determine what a membership provides. Keeping them separate makes the shortlist more meaningful than a single overall impression.",
+        "For a personal decision, choose the criteria that matter most: certainty before payment, ease of finding titles, or the amount of sign-in friction you are willing to accept. Do not assign a platform a factual ranking based on a small sample. Your result set is a practical check for your needs, not a measurement of total library size or a guarantee about future access."
+      ]
+    },
+    {
+      "heading": "Make a decision and preserve your notes",
+      "paragraphs": [
+        "Before subscribing, review the unresolved rows. If an important title is unclear, look for current membership terms or ask support a specific question: does this title play under the named membership without an additional purchase? Keep the question narrow enough to receive an answer you can use. Save the relevant terms or response with the date, without retaining unnecessary personal information.",
+        "After joining, confirm that the selected account and plan match what you intended. If the platform’s current information differs from your pre-signup notes, rely on the terms shown at the time of purchase and the account’s actual access state; do not treat an old search result as a binding promise. Keep renewal and cancellation terms in your separate subscription records."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does appearing in search mean a title is included?",
+      "answer": "No. A search result establishes that the platform surfaced the title for that query; it does not by itself establish that a particular membership includes playback. Check the access explanation and current terms."
+    },
+    {
+      "question": "Should I sign up just to verify a result?",
+      "answer": "Not unless you are comfortable with the account, payment, renewal, and cancellation terms. If verification is gated, record the uncertainty and seek clarification before deciding whether to proceed."
+    },
+    {
+      "question": "How many searches should I compare?",
+      "answer": "Use a small, relevant set that reflects your intended use. Consistent queries and careful notes are more useful for your decision than a large sample that you cannot interpret."
+    },
+    {
+      "question": "How often should I repeat the audit?",
+      "answer": "Repeat it when making a new membership decision or when an important title’s access status changes. Treat older notes as dated observations, not a guarantee of current catalog access."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
