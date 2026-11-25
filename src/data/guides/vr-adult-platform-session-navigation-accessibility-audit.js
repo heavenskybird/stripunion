@@ -1,0 +1,149 @@
+export default {
+  "slug": "vr-adult-platform-session-navigation-accessibility-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Menu Navigation Without Relying on One Input Method",
+  "description": "Evaluate VR adult platform navigation by testing whether search, menus, and playback controls work with the input methods you can comfortably use.",
+  "excerpt": "A platform may advertise headset compatibility but still present navigation barriers for a particular controller or input method. Map the tasks you need to complete and verify them before committing to an account or library.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Test the whole navigation path, from opening the catalog to choosing settings and leaving playback.",
+    "Distinguish hardware compatibility from practical access to search, menus, and account controls.",
+    "Check whether essential tasks can be completed with your available input method and any accessibility options you require.",
+    "Use a preview or documented interface evidence where available, and mark unverified actions as open questions.",
+    "Recheck navigation after significant software or device changes because the interface path may change."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility does not guarantee navigable access",
+      "paragraphs": [
+        "A headset may be compatible with a platform while the platform’s interface remains difficult to use with a particular controller, hand input, gaze input, or seated setup. The word 'supported' can refer to the ability to open a site or player rather than to every task being usable. Search, text entry, settings, account management, and exit controls each need to be considered separately.",
+        "This guide focuses on navigation tasks rather than general headset fit or format quality. The goal is to identify whether you can reach and operate the parts of a platform that matter to you. A playback screen that opens successfully does not answer whether you can change settings, locate another item, or leave the session without switching to a separate device."
+      ],
+      "bullets": [
+        "List the tasks you need to perform, not just the headset you own.",
+        "Separate opening the platform from using its menus and controls.",
+        "Treat unconfirmed tasks as unknown rather than assuming compatibility covers them."
+      ]
+    },
+    {
+      "heading": "Map the route from catalog to exit",
+      "paragraphs": [
+        "Write down a short task path: open the platform, reach the catalog, search or browse, select an item, adjust any needed settings, pause or return, and exit. Include account-related steps only if you expect to use them in the headset. This path gives you a consistent way to compare platforms without relying on a general impression of whether the interface feels easy.",
+        "At each step, note the required input and the consequence of an error. A small menu item may be difficult to select with one method, while a long text field may require a different approach. Pay attention to whether the interface offers a back action, a visible home or catalog route, and a clear way to close a menu. Do not test in a public or otherwise unsuitable environment if the content or device context would be inappropriate."
+      ],
+      "table": {
+        "caption": "Navigation task map",
+        "headers": [
+          "Task",
+          "What to verify",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Open catalog",
+            "Can you reach it with your available setup?",
+            "Input method and any required handoff"
+          ],
+          [
+            "Search or browse",
+            "Can you enter terms or use filters?",
+            "Text-entry route and visible alternatives"
+          ],
+          [
+            "Open settings",
+            "Can you find and adjust the controls you need?",
+            "Menu path and setting availability"
+          ],
+          [
+            "Return or pause",
+            "Can you regain the catalog or pause reliably?",
+            "Control location and behavior"
+          ],
+          [
+            "Exit",
+            "Can you leave without guessing or relying on another device?",
+            "Exit route and any account or device prompt"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Evaluate input methods against actual tasks",
+      "paragraphs": [
+        "Record the difference between 'possible' and 'practical.' An action may technically work but require repeated precision, uncomfortable reach, or an extra device you do not plan to use. You do not need to judge the platform against anyone else’s preferences; judge it against the routine and input setup you can realistically use."
+      ]
+    },
+    {
+      "heading": "Inspect search, text entry, and menu clarity",
+      "paragraphs": [
+        "Search can be a distinct barrier from browsing. Check whether text entry appears in the headset, uses a system keyboard, or depends on a companion device. Look for a clear way to cancel or correct a search and return to browse results. If you use filters or categories, verify that their controls can be opened, changed, and reset with your chosen input method.",
+        "Menu clarity matters when labels are similar or when a control’s effect is not obvious. During a preview or documented walkthrough, note whether you can tell which item is selected, whether focus remains visible, and whether a back action returns to the expected screen. These are observable interface questions, not claims about a platform’s overall quality. If the platform does not offer a preview, ask support a concise, specific question about the task rather than relying on an assumption."
+      ],
+      "bullets": [
+        "Check whether search can be completed in-headset or needs another device.",
+        "Test correction, cancellation, and return-to-results actions.",
+        "Confirm that focus or selection is visible enough for your use.",
+        "Record any action that requires an additional input device."
+      ]
+    },
+    {
+      "heading": "Test settings and session controls separately",
+      "paragraphs": [
+        "For a fair test, repeat the same small set of tasks for each option. Avoid changing several device or software settings at once, because that can make it hard to identify which change improved or worsened navigation. If a headset or platform update changes the interface, repeat the essential checks before relying on an old note."
+      ]
+    },
+    {
+      "heading": "Turn findings into a usable comparison",
+      "paragraphs": [
+        "Use a simple status for each task: confirmed, partly confirmed, unverified, or unavailable. Add a short note describing what you observed and which input method you used. This prevents a broad compatibility claim from being counted as proof that search, settings, and exit all work. It also makes it easier to ask a focused support question if the evidence is incomplete.",
+        "Give essential tasks more weight than optional conveniences. If you cannot reliably perform an action you consider necessary, treat that as a meaningful mismatch even if other parts of the platform work well. If the task is optional, you may decide the extra device or alternate route is acceptable. The decision depends on your own requirements, not on an invented score or ranking."
+      ],
+      "table": {
+        "caption": "Navigation fit decision record",
+        "headers": [
+          "Status",
+          "Meaning",
+          "Possible next step"
+        ],
+        "rows": [
+          [
+            "Confirmed",
+            "Observed or described clearly for the relevant setup",
+            "Keep the evidence and move to the next task"
+          ],
+          [
+            "Partly confirmed",
+            "Works in some screens or only with an extra device",
+            "Decide whether the limitation matters"
+          ],
+          [
+            "Unverified",
+            "No dependable evidence yet",
+            "Use a preview or ask a specific support question"
+          ],
+          [
+            "Unavailable",
+            "Evidence indicates the task cannot be done as needed",
+            "Consider another access route or option"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does headset compatibility mean every platform menu will work?",
+      "answer": "No. Compatibility may mean that the platform can open or play on a device. Search, text entry, settings, account management, and exit controls should be checked as separate tasks."
+    },
+    {
+      "question": "What if I cannot access a preview?",
+      "answer": "Use current documentation or ask support a specific question about the task and input method you need. If the answer is unavailable, mark that feature unverified and decide whether the uncertainty is acceptable."
+    },
+    {
+      "question": "Should I test every input method the headset supports?",
+      "answer": "No. Focus on the method you can and expect to use, plus any alternative you need for a particular task. The useful comparison is whether your required route works, not whether every possible method is available."
+    }
+  ]
+};

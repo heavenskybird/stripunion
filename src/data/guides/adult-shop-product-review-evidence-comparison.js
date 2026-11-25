@@ -1,0 +1,162 @@
+export default {
+  "slug": "adult-shop-product-review-evidence-comparison",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Judge Product Reviews by Evidence, Context, and Disclosure",
+  "description": "A practical framework for evaluating adult-shop product reviews: look for specific use context, verified-purchase labels, disclosure, and consistent details.",
+  "excerpt": "Star scores alone do not explain whether a review is useful for your decision. Compare the evidence, context, and disclosures behind reviews, then separate firsthand observations from claims that need independent confirmation.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Treat an average rating as a summary, not proof that a product will suit your needs.",
+    "Give more weight to reviews that describe specific, decision-relevant observations and the conditions behind them.",
+    "Check what a 'verified purchase' label means on that retailer instead of treating the label as a universal guarantee.",
+    "Look for disclosure and incentives, including gifts, discounts, or other benefits connected to a review.",
+    "Use reviews to identify questions and compare experiences, then verify specifications and policies using product documentation and retailer terms."
+  ],
+  "sections": [
+    {
+      "heading": "What a review can and cannot establish",
+      "paragraphs": [
+        "Customer reviews can help you learn what people noticed after ordering or using a product, but they are not a substitute for specifications, product instructions, or retailer policies. A short rating may indicate satisfaction or dissatisfaction without explaining the reviewer’s expectations, experience, or the exact version they received. It also cannot independently establish that a technical, safety, or performance claim is accurate.",
+        "The useful question is not simply whether reviews are positive or negative. Ask whether the review contains an observation that applies to your decision. For example, a detailed note about the clarity of instructions may help someone comparing product information, while a general statement that an item is 'great' may offer little practical evidence. Keep preference-based opinions separate from verifiable facts."
+      ],
+      "bullets": [
+        "Use reviews to surface questions, not to replace product specifications.",
+        "Separate firsthand observations from claims that require documentation.",
+        "Avoid treating a high score or a small set of comments as a representative sample."
+      ]
+    },
+    {
+      "heading": "Look for specific context and observable details",
+      "paragraphs": [
+        "A review is more useful when it explains what the person evaluated and why that matters. Relevant context may include which product version was purchased, what information was available on the listing, whether the item matched the description, or how clear the instructions and customer-service response were. The review does not need personal or intimate detail; practical, non-graphic observations are enough to help another shopper.",
+        "Specificity also makes it easier to compare comments. If several independent reviews mention the same concrete issue, that may justify checking the relevant specification or contacting the retailer. If comments are vague or contradictory, treat them as a prompt for further verification rather than as a decisive verdict. Do not infer that a reviewer’s individual experience will predict yours."
+      ],
+      "table": {
+        "caption": "A review evidence checklist",
+        "headers": [
+          "Review signal",
+          "What to check",
+          "How to use it"
+        ],
+        "rows": [
+          [
+            "Specific observation",
+            "Does it describe a feature, listing detail, or service interaction?",
+            "Use it to identify a relevant question"
+          ],
+          [
+            "Product identity",
+            "Is the version or variant clear?",
+            "Check whether the comment applies to the item you are considering"
+          ],
+          [
+            "Context",
+            "Does the reviewer explain what they were assessing?",
+            "Judge relevance to your own decision"
+          ],
+          [
+            "Disclosure",
+            "Is a gift, incentive, or other relationship stated?",
+            "Account for a possible conflict of interest"
+          ],
+          [
+            "Consistency",
+            "Do separate reviews describe the same concrete issue?",
+            "Verify the issue with documentation or the retailer"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Interpret verified-purchase labels cautiously",
+      "paragraphs": [
+        "When a review mentions a different size, color, package, revision, or seller, do not transfer its conclusions automatically. Retailer listings can group variants together, and reviews may refer to different versions over time. Check whether the product page identifies the version clearly and whether the retailer explains how reviews are attached to variants. If that information is absent, treat variant relevance as uncertain."
+      ]
+    },
+    {
+      "heading": "Check for incentives, conflicts, and moderation context",
+      "paragraphs": [
+        "Look for a disclosure that the reviewer received a product, discount, store credit, contest entry, or another benefit. Incentives do not prove that a review is false, but they are relevant context when weighing an opinion. A clear disclosure helps you understand the conditions under which the review was written. If no disclosure is shown, do not conclude that none existed; the review page may not provide complete information.",
+        "Retailers may moderate, sort, or display reviews according to their own processes. A page may show featured comments first, combine ratings across variants, or omit certain material under published rules. Check for a review policy or sorting controls if the page provides them. Use those details to understand what you are seeing, not as proof that every included review has been independently audited."
+      ],
+      "bullets": [
+        "Look for an incentive or relationship disclosure.",
+        "Check whether ratings combine different variants or product versions.",
+        "Notice whether the page is sorted by relevance, recency, or another stated method.",
+        "Treat missing disclosure information as unknown, not as proof of independence."
+      ]
+    },
+    {
+      "heading": "Cross-check review claims against first-party information",
+      "paragraphs": [
+        "Use reviews to formulate a short list of questions, then compare those questions with the product listing, manufacturer documentation, care instructions, and retailer policies. If reviewers disagree about dimensions, materials, compatibility, included items, or warranty handling, rely on specific documentation or ask the retailer for clarification. A review is not an authoritative replacement for those sources.",
+        "For a policy question such as returns or warranty support, check the current policy that applies to the order rather than relying on an old review. A reviewer may describe a past process, a different location, or an unusual case. Keep a dated note or copy of the relevant policy if you need it for a purchasing decision; this helps distinguish current terms from an anecdote posted earlier."
+      ],
+      "table": {
+        "caption": "Match each question to the right evidence",
+        "headers": [
+          "Decision question",
+          "Best evidence to seek",
+          "Role of reviews"
+        ],
+        "rows": [
+          [
+            "What is included?",
+            "Current listing and package contents",
+            "Flag possible listing confusion"
+          ],
+          [
+            "What are the care instructions?",
+            "Product documentation",
+            "Identify whether instructions are clear or hard to find"
+          ],
+          [
+            "How are returns handled?",
+            "Current retailer policy",
+            "Provide examples of past service, not a guarantee"
+          ],
+          [
+            "Does a feature meet a specification?",
+            "Technical documentation or retailer confirmation",
+            "Suggest which specification to verify"
+          ],
+          [
+            "Is a recurring complaint relevant?",
+            "Multiple contextual reviews plus first-party evidence",
+            "Show a pattern worth investigating"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Build a review-based shortlist without overclaiming",
+      "paragraphs": [
+        "For each item under consideration, record the review detail that matters, its source, and what still needs confirmation. Keep the summary balanced: 'Several comments describe unclear instructions' is more defensible than 'the instructions are always poor.' Note whether comments are recent, tied to the relevant variant, and supported by product information. Avoid turning a few anecdotes into a general claim about every customer’s experience.",
+        "If a retailer’s review section does not provide enough context, that is a limitation of the evidence, not necessarily evidence that the product or shop is poor. You can compare another source, request clarification, or decide that the available information is not sufficient for your purchase. The decision remains yours; the goal is to reduce uncertainty without pretending that reviews can eliminate it."
+      ],
+      "bullets": [
+        "Record the exact product and variant being reviewed.",
+        "Summarize concrete observations, not just sentiment.",
+        "Mark the source and date when you compare comments.",
+        "Separate confirmed details from questions that still need an answer.",
+        "Do not treat review volume, ratings, or badges as proof of quality."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a verified-purchase review automatically trustworthy?",
+      "answer": "No. The label may show a relationship to an order according to that retailer’s process, but it does not establish that the review is unbiased, detailed, or relevant to the exact variant you are considering."
+    },
+    {
+      "question": "Should I avoid reviews that mention an incentive?",
+      "answer": "Not automatically. A disclosure provides useful context. Evaluate the review’s specificity, relevance, and evidence, and compare its claims with product documentation and current retailer policies."
+    },
+    {
+      "question": "What should I do when reviews conflict with the product listing?",
+      "answer": "Treat the disagreement as an unresolved question. Check current product documentation and the listing, confirm that the reviews refer to the same version, and contact the retailer if a material detail remains unclear."
+    }
+  ]
+};

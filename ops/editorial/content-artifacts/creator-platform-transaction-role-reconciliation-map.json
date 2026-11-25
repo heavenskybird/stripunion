@@ -1,0 +1,163 @@
+{
+  "backlogId": "creator-platform-transaction-role-reconciliation-map",
+  "slug": "creator-platform-transaction-role-reconciliation-map",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Map Who Handles Fan Payments, Refunds, and Records",
+  "description": "Before choosing a creator platform, map the roles of the platform, payment processor, and creator for checkout, refunds, statements, and support.",
+  "excerpt": "A creator’s public page may not tell you who processes a fan’s payment, issues a receipt, or handles a transaction question. Map those roles from current terms and checkout documentation before building operations around an assumption.",
+  "keyTakeaways": [
+    "Distinguish the creator-facing platform from the entity that processes a fan payment or provides a receipt.",
+    "Verify who handles checkout questions, refunds, payment disputes, and transaction records rather than assuming one party covers everything.",
+    "Use current platform terms and payment documentation as evidence; labels such as 'platform' or 'processor' alone may not answer operational questions.",
+    "Record the source and date of each answer so you can revisit the map if terms or workflows change.",
+    "Do not promise fans a specific payment or refund outcome until the responsible route and applicable terms are clear."
+  ],
+  "sections": [
+    {
+      "heading": "Why transaction roles affect creator operations",
+      "paragraphs": [
+        "A creator may publish through one service while checkout, payment processing, receipts, and transaction support involve additional parties. The names and responsibilities can vary by service and transaction type. If a fan asks about a charge or refund, the creator needs to know whether to direct the question to platform support, a payment processor, or another stated route. Guessing can send the fan in circles or create expectations the creator cannot meet.",
+        "Mapping these roles is different from comparing fees or estimating earnings. It is an operational exercise: identify who does what, which records are available to the creator, and which questions the creator should not try to resolve independently. The map can also inform fan-facing explanations, internal bookkeeping, and the evidence kept for support cases."
+      ],
+      "bullets": [
+        "Identify the parties named in current checkout, payment, and support documentation.",
+        "Separate customer-facing responsibilities from creator-facing reporting.",
+        "Do not infer responsibility from a logo or brand displayed at checkout."
+      ]
+    },
+    {
+      "heading": "Trace a transaction from offer to receipt",
+      "paragraphs": [
+        "Start with the fan’s route: discover an offer, reach checkout, submit payment, receive confirmation, and later view a receipt or account record. For each step, note the party named in the relevant documentation and the account or support channel involved. A platform may own the offer page while another named entity appears in payment terms or transaction records; only the current documentation can clarify the arrangement.",
+        "Check the receipt and checkout descriptions where available. Record what name appears, which account stores the transaction record, and where a fan is instructed to ask about a charge. Do not attempt a real transaction just to investigate if a preview or official explanation is available. If the documentation is ambiguous, ask the platform a narrowly framed question and keep its response with the date."
+      ],
+      "table": {
+        "caption": "Transaction role mapping worksheet",
+        "headers": [
+          "Transaction stage",
+          "Question to verify",
+          "Evidence to save"
+        ],
+        "rows": [
+          [
+            "Offer and checkout",
+            "Who presents the offer and checkout terms?",
+            "Current offer and checkout documentation"
+          ],
+          [
+            "Payment submission",
+            "Which party is identified for processing or payment support?",
+            "Payment terms and checkout disclosures"
+          ],
+          [
+            "Receipt and records",
+            "Who issues or stores the fan-facing record?",
+            "Receipt example or account-record instructions"
+          ],
+          [
+            "Refund or dispute",
+            "What route is specified for the request?",
+            "Current refund and dispute terms"
+          ],
+          [
+            "Creator reporting",
+            "Which statements or transaction records are available to the creator?",
+            "Creator dashboard or reporting documentation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Distinguish support routes for different questions",
+      "paragraphs": [
+        "Creators should define a boundary for their own inbox: what information they can safely help with, what should go to official support, and what information they will never request. A fan asking about a transaction should not be asked to send full card details, security codes, or other unnecessary sensitive payment information. Keep requests limited to the information the official route requires and recommends."
+      ]
+    },
+    {
+      "heading": "Check what the creator can document and reconcile",
+      "paragraphs": [
+        "On the creator side, determine which transaction summaries, statements, or exports are available and what each field means. A dashboard label may represent a sale, adjustment, refund, or another event; do not treat a figure as a settled payout without checking the platform’s definitions. If a report omits information needed to match a fan-facing event to a creator record, note that limitation and ask support what documentation is available.",
+        "Keep records that support routine reconciliation without collecting more fan data than necessary. For example, a creator may need dates, reference numbers, and documented adjustments, while not needing to store a fan’s full payment credentials. Follow the platform’s instructions for retaining or exporting records, and use secure storage appropriate to your business. This is an operational recordkeeping practice, not a claim about tax or legal treatment."
+      ],
+      "bullets": [
+        "Record the definition of each transaction or adjustment field.",
+        "Identify available statement periods and export formats from documentation.",
+        "Keep support references and relevant records without copying unnecessary payment data.",
+        "Mark gaps between fan-facing receipts and creator-facing reports for follow-up."
+      ]
+    },
+    {
+      "heading": "Build a fan-facing explanation without overpromising",
+      "paragraphs": [
+        "Once you have verified the roles, write a short explanation that tells fans where to find transaction help and where to ask about content access. Use the current names of the support routes and link to the official instructions when permitted. Avoid saying that a creator can directly reverse a charge or guarantee an outcome if the platform’s process places that decision elsewhere.",
+        "Keep the explanation easy to update. Store the link, the date checked, and the wording used in a simple operations note. If checkout language, support instructions, or terms change, revisit the fan-facing message before directing new questions. This reduces the risk of a stale instruction becoming part of a creator’s routine."
+      ],
+      "table": {
+        "caption": "Use careful wording for common questions",
+        "headers": [
+          "Fan question",
+          "Creator action",
+          "Avoid promising"
+        ],
+        "rows": [
+          [
+            "I cannot access an item",
+            "Check the stated content-support route and explain the offer’s documented scope",
+            "A payment refund or access change without confirmation"
+          ],
+          [
+            "I do not recognize a charge",
+            "Direct the fan to the official transaction-support instructions",
+            "That the creator can identify or reverse the charge"
+          ],
+          [
+            "I need a receipt",
+            "Point to the documented receipt or account-record route",
+            "That the creator can issue a replacement receipt"
+          ],
+          [
+            "I want to dispute a transaction",
+            "Share the platform’s stated process without collecting payment credentials",
+            "A particular dispute outcome"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Revisit the map when operations change",
+      "paragraphs": [
+        "A transaction-role map is useful only while its sources remain current. Recheck it when a platform changes checkout wording, support instructions, statement fields, or refund terms, and before making a new promise to fans. A change log with the date, old route, new route, and source makes it easier to update templates and train collaborators who help answer messages.",
+        "Use the map as a decision aid rather than as a substitute for the platform’s formal terms. If a role is unclear, keep it marked as unresolved and ask the responsible service for clarification. Do not publish an unsupported assertion about who acts as seller, processor, or decision-maker. Clear uncertainty is more useful than confident but unverified wording."
+      ],
+      "bullets": [
+        "Keep a copy or link to each source and the date reviewed.",
+        "Mark uncertain responsibilities explicitly instead of filling gaps with assumptions.",
+        "Update saved replies and creator-side procedures when a verified route changes.",
+        "Escalate account-specific or payment-specific questions through the documented support channel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the creator always the party responsible for a fan’s payment question?",
+      "answer": "Not necessarily. The route depends on the platform’s current checkout and support arrangements. Verify who handles each type of question, such as access, receipts, refunds, or payment processing, rather than assuming one party is responsible for all of them."
+    },
+    {
+      "question": "Should a creator collect a fan’s card details to help investigate a charge?",
+      "answer": "No. Do not request full card details, security codes, or other unnecessary sensitive payment information in creator messages. Direct the fan to the official transaction-support route and follow its instructions."
+    },
+    {
+      "question": "How often should a transaction-role map be reviewed?",
+      "answer": "Review it when payment terms, checkout wording, support routes, or creator reporting change, and before relying on it for new fan-facing instructions. Keep dates and source links so outdated information is easy to identify."
+    }
+  ],
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
