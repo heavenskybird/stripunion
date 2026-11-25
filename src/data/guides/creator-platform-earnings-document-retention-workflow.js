@@ -1,0 +1,126 @@
+export default {
+  "slug": "creator-platform-earnings-document-retention-workflow",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Build an Earnings Document Retention Workflow",
+  "description": "A practical system for creators to organize platform earnings statements, payment records and supporting documents without relying on a dashboard as an archive.",
+  "excerpt": "Creator business records can be spread across dashboards, email, payment accounts and downloaded statements. Set up a repeatable workflow for saving, reconciling and protecting the documents you may need later.",
+  "publishedAt": "2026-11-25",
+  "updatedAt": "2026-11-25",
+  "keyTakeaways": [
+    "Identify which records are available to download and which are only visible in a platform dashboard.",
+    "Save a consistent set of dated records and keep notes about what each document represents.",
+    "Reconcile platform statements with payment records while preserving differences rather than forcing an unexplained match.",
+    "Store sensitive business records with limited access and a clear backup approach; this is operational recordkeeping, not tax or legal advice."
+  ],
+  "sections": [
+    {
+      "heading": "Separate a dashboard view from a durable record",
+      "paragraphs": [
+        "A creator platform dashboard can be useful for reviewing activity, but it may not be the same thing as an exportable business record. Information can be shown in summary form, separated across different pages or updated after a transaction. Before relying on any service as the home for your records, find out what documents it makes available, how those documents can be retrieved and whether the platform describes any limits on access. Do not assume that a screen you can view today will remain available in the same form indefinitely.",
+        "This workflow is about building an organized record set, not predicting which documents any particular creator will need for accounting, reporting or a dispute. Requirements vary by location and individual circumstances. Use platform documents as source material, preserve their context and consult a qualified adviser when you need guidance about formal obligations. The practical goal is simpler: reduce the risk of losing track of what a statement shows, what payment it relates to and where supporting evidence is stored."
+      ],
+      "bullets": [
+        "Find the platform’s statement, transaction-history and download options before depending on them.",
+        "Record the date a document was retrieved and the period it covers.",
+        "Keep a separate note for documents that are visible but not exportable."
+      ]
+    },
+    {
+      "heading": "Choose a minimum record set",
+      "paragraphs": [
+        "Start with a small set of records that can be collected consistently. Depending on what the platform provides, this may include earnings statements, transaction summaries, payout confirmations, relevant payment-account records and notices about adjustments. These are examples to consider, not a claim that every platform provides every item or that each item is required for every creator. Write down which source produced each document and what date range it covers. That makes it easier to see whether a record is missing rather than discover the gap much later.",
+        "Use a repeatable naming convention that does not expose sensitive details unnecessarily. For example, a filename can identify the platform, record type and covered period without including full account numbers or personal identifiers. Keep the original file unaltered when possible; if you add notes or annotations, save them separately. If the platform allows several formats, choose a form that is readable and easy to preserve, and retain a second format only when it serves a clear purpose."
+      ],
+      "table": {
+        "caption": "A starter inventory. Include only records that are available and relevant to your workflow.",
+        "headers": [
+          "Record type",
+          "What to note",
+          "Why keep context"
+        ],
+        "rows": [
+          [
+            "Earnings statement",
+            "Source, covered period and retrieval date",
+            "A later review needs to know which activity the summary represents."
+          ],
+          [
+            "Transaction history",
+            "Date range, displayed categories and export format",
+            "A transaction list may not explain every statement total by itself."
+          ],
+          [
+            "Payment record",
+            "Date, amount shown and receiving account reference kept securely",
+            "Helps compare a platform record with a separate payment record."
+          ],
+          [
+            "Adjustment or dispute notice",
+            "Notice date, stated reason and related transaction reference",
+            "Preserves the explanation attached to a change."
+          ],
+          [
+            "Terms or policy notice",
+            "Effective date or date viewed and the relevant subject",
+            "Can clarify which stated terms applied during a period."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Reconcile records without inventing a match",
+      "paragraphs": [
+        "A reconciliation is a comparison, not an exercise in making every number look identical. Record the platform’s displayed amount, the relevant payment record and any stated adjustment or timing difference. If two figures do not align, preserve both and note what you know: for example, that the dates differ or a document describes an adjustment. Do not manufacture a reason for a discrepancy just to complete a spreadsheet. If a material difference remains unexplained, use the platform’s documented support route or consult an appropriate professional.",
+        "A simple log can include the record period, statement total as shown, payment record as shown, date received or posted, stated adjustments and a status such as “matched,” “timing difference noted” or “needs follow-up.” Use the same labels consistently. Keep a copy of the underlying documents so the log is an index rather than a substitute for source records. That makes it easier to revisit a question without relying on memory or a summary number entered months earlier."
+      ],
+      "bullets": [
+        "Compare like periods and record when each source was produced.",
+        "Keep unexplained differences visible until they are resolved or understood.",
+        "Do not treat a dashboard estimate, a statement and a payment record as interchangeable documents."
+      ]
+    },
+    {
+      "heading": "Protect records and limit unnecessary access",
+      "paragraphs": [
+        "Earnings records may contain sensitive business or identity information. Store them in a location with access limited to people who need it for a defined task. If other people help with bookkeeping or operations, consider whether they need the original document, a summary or only a specific field. Use secure sign-in practices on the accounts and devices where records are kept, and avoid sending complete statements through an informal channel when a narrower, safer method is available.",
+        "Backups matter, but keeping multiple copies in uncontrolled locations can create unnecessary exposure. Decide which files are essential, where the primary copy lives and how you will maintain a separate backup. Periodically confirm that the backup can be opened. Avoid leaving sensitive documents in a public or shared folder because it is convenient. If you later change a storage system, check that copies in the old location are handled deliberately rather than forgotten."
+      ],
+      "bullets": [
+        "Restrict access according to task and need, not convenience alone.",
+        "Avoid putting account credentials or full identity details into filenames or tracking notes.",
+        "Choose a backup location and test that important files remain readable."
+      ]
+    },
+    {
+      "heading": "Make the workflow routine and portable",
+      "paragraphs": [
+        "A regular collection schedule is more useful than a complicated system used once. Choose a cadence that fits the platform’s document availability and your own operations. At each review, retrieve new records, label them consistently, update the index and note any unavailable exports or unresolved questions. If the service changes its dashboard or document layout, record the change and check whether your method still captures the information you rely on.",
+        "Keep the index portable. A simple spreadsheet or structured folder can help you find a period, record type or open question without tying your entire process to a single platform dashboard. Avoid collecting fan information that is not needed for earnings reconciliation. If a record includes information about other people, keep it only as necessary for the business task and protect it accordingly. Review your process periodically, and ask an accountant or other qualified adviser what records are appropriate for your circumstances."
+      ],
+      "bullets": [
+        "Use a consistent schedule and filename pattern that is easy to repeat.",
+        "Keep an index of records, not unnecessary copies of sensitive personal data.",
+        "Review the process when platform documentation or your business workflow changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use a creator platform dashboard as my only earnings record?",
+      "answer": "A dashboard may be useful, but do not assume it is a durable archive or that every displayed figure is downloadable. Check which statements and transaction records can be saved, and maintain a record set appropriate to your business needs."
+    },
+    {
+      "question": "What should I do if a statement and a payment record do not match?",
+      "answer": "Keep both source records, note their dates and periods, and record any adjustment the platform actually explains. Do not invent a reason for the difference. Follow up through the documented support route or seek qualified advice if the issue is material."
+    },
+    {
+      "question": "How long should a creator keep earnings documents?",
+      "answer": "That depends on applicable requirements and individual circumstances. This workflow does not set a retention period. Ask a qualified adviser what applies to you, then use a documented schedule and protect the records while you retain them."
+    },
+    {
+      "question": "Should collaborators have access to the full records folder?",
+      "answer": "Only if they need that access for a defined task. Consider sharing a limited document or summary instead, and review access when a person’s responsibilities change."
+    }
+  ]
+};
