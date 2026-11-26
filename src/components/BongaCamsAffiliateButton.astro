@@ -1,0 +1,36 @@
+---
+import { AFFILIATE_REL } from '../config/site.js';
+import offersRegistry from '../../ops/growth/offers/direct-offers.json';
+
+const { source, label = 'Explore BongaCams →', className = '' } = Astro.props;
+const offer = (offersRegistry.offers || []).find((item) => item?.id === 'bongacams');
+const approved = (() => {
+  if (offer?.status !== 'active' || offer?.approval_status !== 'approved_active' ||
+      typeof offer?.viewer_campaign_url !== 'string') return false;
+  try {
+    const target = new URL(offer.viewer_campaign_url);
+    return target.protocol === 'https:' &&
+      target.hostname === 'bongacams4.com' &&
+      target.pathname === '/track' &&
+      target.searchParams.get('c') === '843651';
+  } catch {
+    return false;
+  }
+})();
+---
+{approved && (
+  <span class="affiliate-cta">
+    <a
+      class:list={['button', 'button-secondary', className]}
+      href={offer.viewer_campaign_url}
+      target="_blank"
+      rel={AFFILIATE_REL}
+      data-affiliate-partner="bongacams"
+      data-affiliate-source={source}
+      data-affiliate-mode="bongacash-viewer"
+    >
+      {label}
+    </a>
+    <small class="paid-link-label">Paid link</small>
+  </span>
+)}
