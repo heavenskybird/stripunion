@@ -1,0 +1,120 @@
+{
+  "backlogId": "creator-platform-cancellation-access-journey-map",
+  "slug": "creator-platform-cancellation-access-journey-map",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Map Fan Access Before and After a Subscription Ends",
+  "description": "Creators can use this checklist to understand what fans may retain, lose, or still access after a subscription ends, then communicate those boundaries clearly.",
+  "excerpt": "A subscription ending can affect posts, archives, renewals, and support expectations in different ways. Map the platform’s stated access rules before describing what fans will keep.",
+  "keyTakeaways": [
+    "Distinguish cancellation, expiry, refund, account closure, and content removal; these events may not have identical access outcomes.",
+    "Check the platform’s written rules for existing posts, archives, downloads, renewals, and any remaining billing period.",
+    "Describe access expectations in plain language and avoid promising that fans will retain content unless the platform’s terms support that claim.",
+    "Keep a dated record of the relevant terms and any changes that could affect existing members.",
+    "Plan a respectful support response for access questions without collecting unnecessary fan payment or account information."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the events that can end access",
+      "paragraphs": [
+        "“Cancel” can refer to more than one event in a fan’s experience. A fan may turn off renewal, reach the end of a paid period, receive a refund, close an account, or lose access after a creator removes or archives a post. Those events can have different consequences. Before setting expectations, separate them instead of using a single phrase such as “cancellation ends access” without explaining what it means.",
+        "Start with the platform’s current documentation for each event. Look for what happens to access immediately after a renewal is disabled, at the end of a billing period, after a refund, and when an account itself is closed. If the documentation does not explain a situation, mark it as unknown. Do not fill gaps with assumptions based on a different platform or on how subscriptions work in another industry."
+      ],
+      "bullets": [
+        "List the event: renewal disabled, paid period ends, refund, account closure, or post removal.",
+        "Record whether the platform describes an immediate change or a change at a later point.",
+        "Do not promise a fan a particular outcome until the relevant platform rule is clear."
+      ]
+    },
+    {
+      "heading": "Map what happens to different kinds of content",
+      "paragraphs": [
+        "Access to a subscription does not necessarily answer every question about content. A fan may ask whether older posts remain visible, whether an archive is included, whether a post can be downloaded, or whether material stays available after a creator changes a tier. These are separate questions. Check the platform’s rules and the creator’s own published offer before describing any post as permanently available or transferable.",
+        "Use a simple content-by-event map. For each content type, note whether access is stated to continue, end, or depend on another condition. Distinguish the platform’s general access rules from your own decisions about deleting, editing, or moving content. A platform may control the subscription mechanism while a creator controls publication choices; identify the boundary rather than implying that either party controls every outcome."
+      ],
+      "table": {
+        "caption": "A creator’s access map for common subscription changes",
+        "headers": [
+          "Event",
+          "Questions to verify",
+          "What to communicate carefully"
+        ],
+        "rows": [
+          [
+            "Renewal disabled",
+            "Does access continue through the already-paid period?",
+            "Explain the distinction between stopping renewal and access ending"
+          ],
+          [
+            "Paid period ends",
+            "Which posts, archives, or benefits are still available afterward?",
+            "State only what the platform documentation confirms"
+          ],
+          [
+            "Refund issued",
+            "Does the platform describe a change to access or billing status?",
+            "Direct account-specific questions to the platform’s support route"
+          ],
+          [
+            "Post edited or removed",
+            "What happens to existing member access and saved references?",
+            "Avoid promising that a previous version remains available"
+          ],
+          [
+            "Account closed",
+            "What access or records are affected, and by whom?",
+            "Do not conflate account closure with subscription cancellation"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Write an access promise that matches the evidence",
+      "paragraphs": [
+        "Review access language when you change tiers, reorganize posts, or update a platform setting. A promise that was accurate for one offer may become misleading after a change to benefits or platform rules. Keep dated copies of the exact terms and offer description you relied on, but store them securely and do not include fan personal data in the record."
+      ]
+    },
+    {
+      "heading": "Prepare for questions without becoming a payment intermediary",
+      "paragraphs": [
+        "Fans may ask why access changed, whether a renewal has stopped, or how to resolve an account-specific issue. Prepare a short response that distinguishes creator-controlled content decisions from platform-controlled billing or account processing. Direct account-specific billing, refunds, or login problems to the platform’s official support route when that is the appropriate channel. Do not request passwords, full payment information, or screenshots that expose unrelated personal details.",
+        "If you need information to identify a content issue, ask for the minimum necessary, such as the post title or approximate date, and give the fan a private support route. Avoid moving sensitive account conversations into public comments. Make clear that you cannot see or change information the platform does not provide to creators. A consistent boundary protects both the fan and the creator from unnecessary data handling."
+      ],
+      "bullets": [
+        "Use a prepared reply that separates content access questions from billing or account support.",
+        "Never request a fan’s password or complete payment credentials.",
+        "Keep private support records limited to information needed to resolve the stated issue."
+      ]
+    },
+    {
+      "heading": "Build a small review routine for changing rules",
+      "paragraphs": [
+        "Platform rules and settings can change. A lightweight review process helps creators notice when an old access description no longer matches current documentation. Set a reminder to check the relevant help pages before launching a new offer or making a major change, and review again when the platform announces a policy or access update. Record the date, the page or notice reviewed, and any change to your public wording.",
+        "If a rule is unclear, ask the platform through its official support route and avoid making a stronger promise while waiting for clarification. If you discover that an existing description was inaccurate, correct it in the places fans are likely to see and explain the change without implying that every past access outcome can be reversed. The goal is not to predict every case; it is to communicate clearly within the information you can verify.",
+        "A clear access map can also inform platform selection. If a platform cannot explain what happens to subscriptions, archives, or posts when access ends, that uncertainty may affect how you structure benefits and what you promise. Document the unknowns before launch, then decide whether the platform’s model fits your operational needs and your ability to support fans accurately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does turning off renewal always end a fan’s access immediately?",
+      "answer": "Not necessarily. Disabling renewal and reaching the end of a paid period may be different events. Check the platform’s current documentation and describe only the outcome it confirms."
+    },
+    {
+      "question": "Can a creator promise that subscribers keep access to archived posts after leaving?",
+      "answer": "Only if the platform’s rules and the creator’s offer support that promise. Verify how access works after expiry, refund, account closure, and content changes. If the result is unclear, state the uncertainty instead of guaranteeing permanent access."
+    },
+    {
+      "question": "Should creators handle a fan’s refund or account problem directly?",
+      "answer": "Creators should understand their role and the platform’s role, then direct account-specific billing or login issues to the appropriate official support route. Do not ask fans for passwords or complete payment details."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
