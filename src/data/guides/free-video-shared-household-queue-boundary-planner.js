@@ -1,0 +1,114 @@
+export default {
+  "slug": "free-video-shared-household-queue-boundary-planner",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Keep Viewing Queues Separate in Shared Households",
+  "description": "A practical guide to separating saved videos, browser profiles, and recommendations when a device or account is shared.",
+  "excerpt": "Saved lists and recommendations can cross paths with other people’s viewing on a shared device. Learn how to compare queue options and set boundaries before saving anything.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Find out whether a saved list belongs to a platform account, browser profile, or device.",
+    "Check whether other household members can open, edit, or see the same queue.",
+    "Do not assume a guest session or separate browser window creates a separate account history.",
+    "Use the platform's current visibility and history settings where available.",
+    "Choose a workflow that fits the shared device rather than relying on an unverified privacy assumption."
+  ],
+  "sections": [
+    {
+      "heading": "Treat saved queues as a visibility decision",
+      "paragraphs": [
+        "A saved list is useful for returning to a video, but it can also create a record that appears on a shared device or account. The visibility depends on how the platform and browser handle saved items. A queue might be connected to a signed-in profile, stored locally, synchronized across devices, or unavailable outside a particular session. Check the actual controls before using a list for material you do not want other household members to encounter.",
+        "Begin by identifying what is shared: the platform account, the browser profile, the device login, or only the physical screen. These are different boundaries. A separate browser window does not necessarily separate account activity, and using a different device login does not necessarily separate a platform account that remains signed in. Your goal is to understand which layer controls the list before adding items."
+      ],
+      "bullets": [
+        "Identify who can sign in to the platform account.",
+        "Check whether the browser profile itself is shared or synchronized.",
+        "Consider whether saved items could appear in a visible home screen or menu."
+      ]
+    },
+    {
+      "heading": "Compare where the queue is stored",
+      "paragraphs": [
+        "Look for account settings, list labels, and help information that explain whether saved items follow a login. If the service has separate profiles, verify whether the list and recommendations are actually separated by profile rather than assuming that the profile name alone creates isolation. If the platform does not describe storage or visibility clearly, mark the behavior as unknown and avoid placing sensitive material in that queue.",
+        "Browser bookmarks are not automatically private either. They may sync to another device, appear in autocomplete, or be visible to anyone using the same browser profile. A paper note or a private list stored elsewhere may create different risks, but it also may be easier to misplace. Compare the actual storage and access path, not just the name of the feature."
+      ],
+      "table": {
+        "caption": "Shared-household queue options to evaluate",
+        "headers": [
+          "Option",
+          "Check",
+          "Possible concern"
+        ],
+        "rows": [
+          [
+            "Platform saved list",
+            "Is it account-specific or profile-specific?",
+            "Another signed-in user may see the same list."
+          ],
+          [
+            "Browser bookmark",
+            "Does the browser synchronize bookmarks?",
+            "Bookmarks may appear on another device."
+          ],
+          [
+            "Guest or signed-out session",
+            "Are saved items or history retained locally?",
+            "A guest label may not mean no local record."
+          ],
+          [
+            "Separate device profile",
+            "Does it also use a separate platform account?",
+            "A shared account can still connect activity."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check recommendations and history separately",
+      "paragraphs": [
+        "A queue is not the only place a viewing choice can reappear. Recent items, homepage suggestions, search history, and continue-watching panels may be controlled separately. Review the service's current settings for each feature rather than assuming that clearing one list removes every related record. Also check whether an account has multiple profiles and whether recommendations are shared, personalized, or otherwise described by the service.",
+        "If there is no clear setting for a particular surface, do not promise yourself that a different queue will prevent recommendations from changing. Consider a guest workflow only after checking what it retains, and sign out when appropriate on a device that others use. Avoid changing another person's account settings without permission; household access arrangements should be agreed rather than silently altered."
+      ],
+      "bullets": [
+        "Review saved lists, recent history, and recommendations as separate controls.",
+        "Check the active account and profile before browsing.",
+        "Use only settings you are authorized to change."
+      ]
+    },
+    {
+      "heading": "Build a household-friendly viewing workflow",
+      "paragraphs": [
+        "A simple workflow starts before opening the platform. Confirm the device user, browser profile, and platform account; decide whether you need to save an item; and check who can later access that storage location. If the device is shared, avoid leaving a signed-in session open when you finish. Where the platform provides a sign-out option, use it, then verify that the next person will not land in your account by default.",
+        "For ongoing use, agree on a practical boundary with other people who share the device. You might reserve separate operating-system or browser profiles, use separate platform accounts where permitted, or avoid saved queues on a shared profile. No option is automatically private: sync settings, account sharing, and device permissions matter. Use the arrangement that you can maintain consistently, not one that depends on remembering an obscure cleanup step every time."
+      ]
+    },
+    {
+      "heading": "Use a comparison checklist before saving",
+      "paragraphs": [
+        "When comparing free video platforms, test the queue workflow with ordinary, non-sensitive material first. Observe whether a saved item appears on another profile or device you control, whether signing out changes access, and whether the platform explains how the list is stored. Do not test by exposing private account details to another household member or by accessing a device or account without permission.",
+        "Keep a brief record of what the service says, what you verified, and what remains uncertain. This turns a vague sense of privacy into a decision: use the platform's queue, choose a separate storage method, or do not save items on that shared setup. Revisit the decision if the account, browser sync, device, or platform settings change."
+      ],
+      "bullets": [
+        "Is the list tied to the account, profile, browser, or device?",
+        "Can other household members see or edit it?",
+        "Are history and recommendations handled separately?",
+        "Can you end the session without leaving the account open?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a private browser window separate a saved video list?",
+      "answer": "Not necessarily. A private window may affect some local browser records, but it does not automatically create a separate platform account or guarantee that a service will not retain account activity. Check the platform's own settings and explanation."
+    },
+    {
+      "question": "Are browser bookmarks more private than a platform queue?",
+      "answer": "Not by default. Bookmarks may be visible to anyone using the same browser profile or may synchronize to other devices. Compare who can access the storage location and whether syncing is enabled."
+    },
+    {
+      "question": "What is the safest approach when I cannot tell who can see a queue?",
+      "answer": "Treat visibility as unknown. Avoid saving sensitive items there until you can confirm how the list works, or use a different workflow that better matches your household's access boundaries."
+    }
+  ]
+};

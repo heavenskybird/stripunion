@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T16:42:49.992Z",
+  "generatedAt": "2026-11-26T18:28:40.392Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-draft-visibility-boundary-audit.json",
-    "ops/editorial/content-artifacts/dating-platform-profile-edit-propagation-review.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-commission-status-finality-review.json",
-    "ops/editorial/content-artifacts/adult-platform-os-search-history-privacy-check.json",
-    "ops/editorial/content-artifacts/premium-video-release-rhythm-membership-decision.json"
+    "ops/editorial/content-artifacts/live-cam-account-recovery-contact-minimization-guide.json",
+    "ops/editorial/content-artifacts/adult-anime-offline-library-access-planner.json",
+    "ops/editorial/content-artifacts/free-video-shared-household-queue-boundary-planner.json",
+    "ops/editorial/content-artifacts/adult-games-desktop-notification-privacy-profile-planner.json",
+    "ops/editorial/content-artifacts/adult-shop-address-book-retention-and-checkout-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-draft-visibility-boundary-audit.js",
-    "src/data/guides/dating-platform-profile-edit-propagation-review.js",
-    "src/data/guides/webmaster-affiliate-commission-status-finality-review.js",
-    "src/data/guides/adult-platform-os-search-history-privacy-check.js",
-    "src/data/guides/premium-video-release-rhythm-membership-decision.js"
+    "src/data/guides/live-cam-account-recovery-contact-minimization-guide.js",
+    "src/data/guides/adult-anime-offline-library-access-planner.js",
+    "src/data/guides/free-video-shared-household-queue-boundary-planner.js",
+    "src/data/guides/adult-games-desktop-notification-privacy-profile-planner.js",
+    "src/data/guides/adult-shop-address-book-retention-and-checkout-review.js"
   ],
   "categories": [
-    "creator-platforms",
-    "dating-hookups",
-    "webmaster-affiliate",
-    "privacy-safety-payment",
-    "premium-videos"
+    "live-cams",
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "creator-platform-draft-visibility-boundary-audit",
-    "dating-platform-profile-edit-propagation-review",
-    "webmaster-affiliate-commission-status-finality-review",
-    "adult-platform-os-search-history-privacy-check",
-    "premium-video-release-rhythm-membership-decision"
+    "live-cam-account-recovery-contact-minimization-guide",
+    "adult-anime-offline-library-access-planner",
+    "free-video-shared-household-queue-boundary-planner",
+    "adult-games-desktop-notification-privacy-profile-planner",
+    "adult-shop-address-book-retention-and-checkout-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45860699721",
-  "phase": "closed"
+  "r1CycleId": "45875564707"
 }
