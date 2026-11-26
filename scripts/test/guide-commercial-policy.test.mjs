@@ -2,7 +2,7 @@ import test from 'node:test';import assert from 'node:assert/strict';import fs f
 import {guideCommercialOffer,webmasterPilot,viewerPilot} from '../../src/config/guide-commercial-policy.mjs';
 test('exact five-guide pilot uses only existing approved products',()=>{
  const offers=JSON.parse(fs.readFileSync('ops/growth/offers/direct-offers.json')).offers;
- assert.equal(webmasterPilot.size,3);assert.equal(viewerPilot.size,2);
+ assert.equal(webmasterPilot.size,4);assert.equal(viewerPilot.size,2);
  for(const slug of webmasterPilot)assert.equal(guideCommercialOffer({slug,categorySlug:'webmaster-affiliate'}),'stripcash-affiliate-referral');
  for(const slug of viewerPilot)assert.equal(guideCommercialOffer({slug,categorySlug:'live-cams'}),'avcams');
  for(const id of ['avcams','stripcash-affiliate-referral'])assert.equal(offers.find(o=>o.id===id).approval_status,'approved_active');

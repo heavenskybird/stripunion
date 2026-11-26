@@ -2,7 +2,8 @@
 export const webmasterPilot = new Set([
   'adult-affiliate-webmaster-program-evaluation-guide',
   'adult-affiliate-program-business-model-structure-comparison',
-  'adult-affiliate-program-application-readiness'
+  'adult-affiliate-program-application-readiness',
+  'webmaster-affiliate-program-traffic-placement-boundary-map'
 ]);
 export const viewerPilot = new Set([
   'live-cam-platform-model-fit-comparison',
