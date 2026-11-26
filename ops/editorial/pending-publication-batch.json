@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T20:21:12.580Z",
+  "generatedAt": "2026-11-26T22:21:18.808Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-compare-library-discovery-workflows.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-method-receipt-detail-choice.json",
-    "ops/editorial/content-artifacts/creator-platform-fan-accessibility-information-workflow.json",
-    "ops/editorial/content-artifacts/adult-dating-platform-conversation-pacing-fit.json",
-    "ops/editorial/content-artifacts/live-cam-platform-content-filter-precision-review.json"
+    "ops/editorial/content-artifacts/premium-video-device-handoff-preflight.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-program-traffic-placement-boundary-map.json",
+    "ops/editorial/content-artifacts/hentai-anime-cross-format-discovery-task-test.json",
+    "ops/editorial/content-artifacts/free-video-embedded-player-host-boundary-check.json",
+    "ops/editorial/content-artifacts/adult-games-community-feature-dependency-preflight.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-compare-library-discovery-workflows.js",
-    "src/data/guides/adult-platform-payment-method-receipt-detail-choice.js",
-    "src/data/guides/creator-platform-fan-accessibility-information-workflow.js",
-    "src/data/guides/adult-dating-platform-conversation-pacing-fit.js",
-    "src/data/guides/live-cam-platform-content-filter-precision-review.js"
+    "src/data/guides/premium-video-device-handoff-preflight.js",
+    "src/data/guides/webmaster-affiliate-program-traffic-placement-boundary-map.js",
+    "src/data/guides/hentai-anime-cross-format-discovery-task-test.js",
+    "src/data/guides/free-video-embedded-player-host-boundary-check.js",
+    "src/data/guides/adult-games-community-feature-dependency-preflight.js"
   ],
   "categories": [
-    "vr-ar",
-    "privacy-safety-payment",
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams"
+    "premium-videos",
+    "webmaster-affiliate",
+    "hentai-anime",
+    "free-videos",
+    "adult-games"
   ],
   "backlogIds": [
-    "vr-adult-platform-compare-library-discovery-workflows",
-    "adult-platform-payment-method-receipt-detail-choice",
-    "creator-platform-fan-accessibility-information-workflow",
-    "adult-dating-platform-conversation-pacing-fit",
-    "live-cam-platform-content-filter-precision-review"
+    "premium-video-device-handoff-preflight",
+    "webmaster-affiliate-program-traffic-placement-boundary-map",
+    "hentai-anime-cross-format-discovery-task-test",
+    "free-video-embedded-player-host-boundary-check",
+    "adult-games-community-feature-dependency-preflight"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45890178187",
-  "phase": "closed"
+  "r1CycleId": "45904040268"
 }
