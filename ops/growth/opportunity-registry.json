@@ -21,11 +21,17 @@
           "url": "https://github.com/heavenskybird/stripunion/issues/198",
           "asOf": "2026-11-15",
           "kind": "issue_and_source_audit"
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/45913473454",
+          "asOf": "2026-11-26T23:53:02Z",
+          "kind": "compiled_guide_affiliate_coverage_audit",
+          "proof": "Read-only audit of compiled PR #216 HTML: 2,445 guide pages assessed; 6 contextual affiliate placements (4 webmaster-affiliate, 2 live-cams); 2,439 missing/unknown. This is an audit lead, not a blanket defect: neutral guides must not receive unrelated CTAs. The four webmaster placements are the three existing production pilot pages plus the one new guide in PR #216's unmerged branch."
         }
       ],
-      "lastEvidenceAt": "2026-11-15T03:14:54.961824Z",
-      "nextAction": "Audit current compiled/GSC inventory; test approved viewer exit on one eligible comparison guide. Hold anime/games without a proper product.",
-      "ownerAction": null,
+      "lastEvidenceAt": "2026-11-26T23:55:16.844Z",
+      "nextAction": "Use the compiled audit only to identify high-intent candidate pages. Keep the three existing production webmaster pilot pages distinct from the fourth PR #216 branch-only page; review each remaining candidate for topical fit and an approved offer. Never blanket-insert links or infer revenue from CTA presence; measure 7/28-day clicks and provider-confirmed USD only after approved deployment.",
+      "ownerAction": "Owner reviews the next small high-intent shortlist only; no category-wide monetization or automatic CTA rollout.",
       "history": [
         {
           "from": null,
@@ -328,12 +334,18 @@
           "asOf": "2026-11-26T23:47:24Z",
           "kind": "draft_cta_implementation",
           "proof": "Draft PR #216 adds only this exact slug to the webmaster pilot allowlist, uses the existing referral button and source-specific tracking, adds an adjacent Paid link label and links official guidance. Build was still in progress at this audit point; no deployment."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/45913473454",
+          "asOf": "2026-11-26T23:53:02Z",
+          "kind": "compiled_html_cta_presence",
+          "proof": "The compiled PR #216 branch audit counts four webmaster-affiliate pages with contextual paid CTAs, consistent with the three existing pilot pages plus this exact new slug. This proves branch HTML presence only, not production deployment or conversion."
         }
       ],
       "expectedImpact": "Potential qualified webmaster affiliate referrals from a directly relevant existing article; no traffic or revenue forecast assigned.",
       "risk": "low",
       "experimentWindow": "7/28 days",
-      "nextAction": "Review PR #216 Build/test results and the exact page diff. After human review and approved merge/deploy, measure 7/28-day guide sessions, consent-safe affiliate_click by source guide_webmaster_<slug>, provider-qualified affiliate referrals and confirmed net USD. Do not roll out category-wide.",
+      "nextAction": "Build, Visual QA and read-only coverage audit now pass on PR #216. Review the exact diff, then merge/deploy only with owner approval. After production verification, measure 7/28-day guide sessions, source-specific affiliate clicks, qualified referrals and provider-confirmed net USD.",
       "ownerAction": null,
       "history": [
         {
@@ -365,7 +377,7 @@
       "productionUrls": [
         "https://stripunion.com/guides/webmaster-affiliate-program-traffic-placement-boundary-map/"
       ],
-      "lastEvidenceAt": "2026-11-26T23:52:47.798Z"
+      "lastEvidenceAt": "2026-11-26T23:55:16.844Z"
     },
     {
       "id": "bongacash-model-referral-alternative",
@@ -663,10 +675,16 @@
           "asOf": "2026-11-26T09:40:23Z",
           "kind": "latest_aggregate_not_page_joined",
           "proof": "Latest GA4 aggregate is 75 sessions/16 affiliate_click across main+Blog. It does not provide the exact three-guide cohort join; do not infer pilot uplift from the aggregate."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/45913473454",
+          "asOf": "2026-11-26T23:53:02Z",
+          "kind": "compiled_pilot_coverage_audit",
+          "proof": "Compiled PR #216 audit reports 4 webmaster-affiliate pages with contextual paid CTAs. The current production pilot remains 3 pages; the fourth is the unmerged PR #216 guide. Keep cohorts separate until deployment."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Produce exact per-guide 7d/28d GSC Query×Page×Country, GA4 landing-page sessions and consent-safe affiliate_click source joins, then provider-credited referral outcomes for the three production URLs. The new 2026-11-26 webmaster guide is registered separately; current aggregate data does not measure either cohort.",
+      "lastEvidenceAt": "2026-11-26T23:55:16.844Z",
+      "nextAction": "Maintain the three production pages as the current baseline. Treat the fourth webmaster page in PR #216 as draft-only until merge/deploy; then start its own 7/28-day cohort. Do not combine aggregate sessions or CTA counts across cohorts.",
       "ownerAction": null,
       "history": [
         {
