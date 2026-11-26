@@ -1,0 +1,103 @@
+export default {
+  "slug": "creator-platform-draft-visibility-boundary-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Who Can See Drafts Before You Publish",
+  "description": "A practical audit for checking who can access creator drafts, scheduled posts, previews and files before choosing or relying on a platform workflow.",
+  "excerpt": "A draft is not necessarily private just because it has not been published. Map which people and systems can access work in progress, then use a low-risk test to confirm what your account controls actually do.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Separate draft visibility from published-post visibility; an unpublished item may still be accessible to account collaborators or platform systems.",
+    "Check whether saved drafts, scheduled items, uploads and preview links have different access rules.",
+    "Review team roles and integrations, not just the creator-facing publishing screen.",
+    "Use a harmless test item to verify assumptions before putting sensitive or time-sensitive work into a workflow.",
+    "Record what you can confirm, what remains unclear and what alternative process you will use."
+  ],
+  "sections": [
+    {
+      "heading": "Treat draft privacy as a workflow question",
+      "paragraphs": [
+        "Creators often treat a draft as a private workspace. That assumption can be wrong: the draft may be stored in a shared account, visible to delegated users, or processed by tools connected to publishing. A platform’s general privacy statement may not answer the practical question of who can open a particular unpublished item.",
+        "Start by defining the material you need to protect. A draft might be a text post, an uploaded media file, a caption, a scheduled release, a thumbnail, or a preview link. These pieces can follow different paths. Check each one separately rather than assuming that one setting governs the entire publishing workflow.",
+        "This is a decision-support check, not a claim that every platform gives creators the same controls. If the information available to you does not state who can access drafts, treat that as an unresolved operational risk and ask the platform for clarification before relying on the feature."
+      ]
+    },
+    {
+      "heading": "Map the people and systems in the path",
+      "paragraphs": [
+        "List the account owner, any assistants or collaborators, and any connected services that can create, edit, schedule or publish material. For each role, ask whether it can see drafts, change them, publish them, or only manage a limited part of the account. Permission labels can be broad, so look for the actual actions granted rather than relying on a role name alone.",
+        "Then trace the item itself: does it remain in the platform’s editor, move to a media library, get copied into a scheduling tool, or produce a link that can be opened outside the account? A workflow that crosses account or product boundaries may have its own sharing settings, retention practices and sign-in requirements.",
+        "Keep the map simple enough to maintain. A three-column record—person or system, access needed, access confirmed—can reveal unnecessary permissions quickly. Where access cannot be limited or verified, decide whether the convenience is worth the exposure and whether a separate, controlled drafting process is more appropriate."
+      ],
+      "table": {
+        "caption": "Draft-access map to complete for each publishing workflow",
+        "headers": [
+          "Item or workflow step",
+          "Who may access it?",
+          "What to verify"
+        ],
+        "rows": [
+          [
+            "Text or caption draft",
+            "Owner, delegated users, connected tools",
+            "View, edit, copy and publish permissions"
+          ],
+          [
+            "Uploaded file or media library item",
+            "Account roles and storage integrations",
+            "Whether the item is shared separately from its post"
+          ],
+          [
+            "Scheduled post",
+            "People with scheduling or publishing access",
+            "Who can change timing, audience or content"
+          ],
+          [
+            "Preview link",
+            "Anyone with the link, signed-in users, or a limited audience",
+            "Expiry, forwarding behavior and access boundary"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test controls with a low-risk item",
+      "paragraphs": [
+        "Before using drafts for confidential planning, create a clearly harmless test item. Check its visibility from the account owner view, from any delegated account you already control, and from a logged-out or separate browser session where that test is safe and permitted. Do not share real unpublished material with another person merely to test access.",
+        "Test the transitions, not only the initial save. Save a draft, edit it, schedule it, cancel the schedule, and remove the test item if the platform permits. Observe whether the item appears in a shared library, whether a preview can be reached without the expected account, and whether the platform distinguishes edit access from publish access.",
+        "Avoid treating a successful test as proof of every possible boundary. A test can confirm the behavior you observed on that date and configuration; it cannot establish how every staff role, integration, backup or future product change works. Keep the result tied to the exact account setup and test steps."
+      ]
+    },
+    {
+      "heading": "Reduce access without breaking operations",
+      "paragraphs": [
+        "If the audit reveals more access than your workflow needs, remove unused integrations, narrow collaborator roles where possible, and review access after a team change. Use separate accounts for individual collaborators when the service supports them; shared credentials make it harder to identify who had access and to remove one person without disrupting everyone.",
+        "For material that should not enter a shared publishing system yet, keep an independent working copy in a location with deliberate access controls. Avoid copying drafts into personal messaging, shared cloud folders or unreviewed automation tools as a workaround: that may simply move the visibility problem elsewhere. Decide where the authoritative version lives and how it reaches the platform when approved.",
+        "Write a short fallback procedure for sensitive or embargoed work. It can specify who may prepare it, when it may be uploaded, who gives final approval, and what to do if an item appears in a shared area earlier than intended. A clear sequence is more useful than a vague instruction to be careful."
+      ]
+    },
+    {
+      "heading": "Make a decision from evidence, not labels",
+      "paragraphs": [
+        "A platform can still fit your needs when draft access is broad, provided the workflow and content are suitable for that exposure. Conversely, a prominent privacy label does not settle whether a particular collaborator or linked tool can view an unpublished item. Compare the verified access boundary with the level of control your work requires.",
+        "Keep a compact decision record: date checked, account roles involved, integrations reviewed, test performed, observed result and unanswered questions. Recheck after changing roles, connecting a new publishing tool, or noticing a change to the editor. This record helps prevent old assumptions from silently carrying into a different setup.",
+        "If access rules are unclear and the consequence of exposure would be serious, do not put that material into the uncertain workflow until you have a satisfactory answer or a different process. The aim is not to eliminate every platform-side risk; it is to make the boundary visible enough to choose deliberately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does an unpublished draft automatically stay private?",
+      "answer": "No general assumption is safe. Access can depend on account roles, connected tools, preview settings and the platform’s own handling. Check the relevant terms and controls, then test the specific workflow with a harmless item."
+    },
+    {
+      "question": "Should I use a collaborator’s login to test draft visibility?",
+      "answer": "Avoid sharing credentials. If you need to verify collaborator access, use separate authorized accounts and the platform’s role controls where available. If the platform does not support a safe test, ask support for the access model instead."
+    },
+    {
+      "question": "How often should I repeat the audit?",
+      "answer": "Repeat it when you add an integration, change collaborator access, alter the publishing workflow or notice a product change that could affect drafts. A periodic review can also catch access that is no longer needed."
+    }
+  ]
+};
