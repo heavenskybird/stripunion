@@ -364,7 +364,8 @@
       },
       "productionUrls": [
         "https://stripunion.com/guides/webmaster-affiliate-program-traffic-placement-boundary-map/"
-      ]
+      ],
+      "lastEvidenceAt": "2026-11-26T23:52:47.798Z"
     },
     {
       "id": "bongacash-model-referral-alternative",
@@ -407,6 +408,12 @@
           "asOf": "2026-11-26T23:45:58Z",
           "kind": "draft_model_referral_cta_implementation",
           "proof": "Draft PR #213 adds a separate BongaCams model option and official terms disclosure. Exact-head Build #45912847162 and Visual QA #45912847154 passed local regression; production regression was skipped. Not merged or deployed."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/growth/competitors/data/diffs/2026-11-26.json",
+          "asOf": "2026-11-26",
+          "kind": "latest_competitor_spanish_market_diff",
+          "proof": "Latest tracked competitor diff has 0 new URLs for all five competitors. The prior 2026-11-25 Spanish-language expansion remains landscape context only; no first-party Spanish GSC demand or 2026-11-26 new-page signal was established, so do not create Spanish content from competitor activity alone."
         }
       ],
       "expectedImpact": "Potential additional qualified individual-adult-model referrals; no model signup, provider credit or USD revenue is claimed.",
@@ -442,7 +449,8 @@
       },
       "productionUrls": [
         "https://stripunion.com/become-a-cam-model/"
-      ]
+      ],
+      "lastEvidenceAt": "2026-11-26T23:52:47.798Z"
     },
     {
       "id": "candy-ai-affiliate-domain-eligibility-gate",
@@ -808,13 +816,19 @@
           "kind": "issue_and_source_audit"
         },
         {
+          "url": "https://www.lovense.com/sextoys/affiliate",
+          "asOf": "2026-11-26",
+          "kind": "official_lovense_affiliate_program_terms",
+          "proof": "Lovense's official affiliate page advertises up to 20% commission on referred sales. This is a public ceiling, not an approved StripUnion account rate."
+        },
+        {
           "url": "https://www.lovense.com/affiliate/become-an-affiliate",
           "asOf": "2026-11-26",
-          "kind": "official_lovense_affiliate_program_page",
-          "proof": "Lovense's official affiliate page advertises up to 20% commission, but StripUnion's registry still marks the account terms/approval as pending. No Lovense tracking link or CTA is activated."
+          "kind": "official_lovense_application_and_traffic_rules",
+          "proof": "The official application page requires manual review of affiliate websites before the first payment and explicitly prohibits direct or indirect search-engine PPC traffic. StripUnion account approval/terms remain pending; no Lovense link or CTA is activated."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
+      "lastEvidenceAt": "2026-11-26T23:52:47.798Z",
       "nextAction": "Keep Lovense, Chaturbate, LiveJasmin, Lovehoney and DLsite disabled until account-specific approval, exact traffic rules, geography, payout terms and approved tracking URLs are confirmed. The public Lovense 20% ceiling is not an approved StripUnion rate.",
       "ownerAction": "Owner applies to selected official programs, accepts terms and supplies sanitized approved tracking link; no login secrets.",
       "history": [
@@ -1145,9 +1159,15 @@
           "asOf": "2026-11-26T20:29:56Z",
           "kind": "latest_official_trending_now_rss_snapshot",
           "proof": "Production Official Trends RSS radar succeeded with 10 US RSS items and 0 eligible commercial candidates. Collector windows 4h/24h/48h/168h still have observation gaps; this is not a complete historical export and does not establish zero adult-market demand. Trends Alpha remains NOT_GRANTED."
+        },
+        {
+          "url": "https://support.google.com/trends/answer/3076011",
+          "asOf": "2026-11-26",
+          "kind": "official_google_trends_window_and_export_semantics",
+          "proof": "Google's official help confirms Trending Now windows of 4h, 24h, 48h and 7d, average refresh about every 10 minutes, grouped related queries, search-volume buckets and RSS export. Trending Now chart is exact-match while Explore is broad-match; do not conflate the two."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
+      "lastEvidenceAt": "2026-11-26T23:52:47.798Z",
       "nextAction": "Continue timestamped official RSS snapshots and keep RSS distinct from Explore. Do not claim 48h/7d history from the current samples; obtain accessible official 48h/7d and relevant geo evidence when available. Publish only a genuinely relevant candidate mapped to an existing URL and approved offer; no Alpha or unofficial scraping.",
       "ownerAction": null,
       "history": [
