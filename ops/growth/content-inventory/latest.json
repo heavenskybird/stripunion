@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-25T09:58:34.246Z",
+  "generatedAt": "2026-11-26T09:42:51.593Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-11-25T09:55:15.863Z",
-    "bing": "2026-11-25T09:55:36.251Z",
+    "gsc": "2026-11-26T09:39:21.048Z",
+    "bing": "2026-11-26T09:40:06.483Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 537
+        "queryImpressions": 618
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -63,7 +63,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 2839
+        "queryImpressions": 3038
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -89,7 +89,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1353
+        "queryImpressions": 1413
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -115,7 +115,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 207
+        "queryImpressions": 214
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -167,7 +167,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 1026
+        "queryImpressions": 1096
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -193,7 +193,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 281
+        "queryImpressions": 288
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -219,7 +219,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 423
+        "queryImpressions": 440
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -245,7 +245,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 549
+        "queryImpressions": 565
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -271,7 +271,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 423
+        "queryImpressions": 467
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -297,7 +297,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 239
+        "queryImpressions": 240
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -323,7 +323,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 257
+        "queryImpressions": 265
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -349,7 +349,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 447
+        "queryImpressions": 464
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
@@ -375,7 +375,7 @@
         "wordCount": 374,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 63
+        "queryImpressions": 60
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -401,7 +401,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 345
+        "queryImpressions": 372
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -427,11 +427,37 @@
         "wordCount": 352,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 60
+        "queryImpressions": 65
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
       "rank": 16
+    },
+    {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
+      "cluster": "creator/model referral",
+      "score": 70,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 929,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 50
+      },
+      "candidateType": "update existing Astro page",
+      "qualityGate": "review-ready",
+      "rank": 17
     },
     {
       "route": "/stripchat-app",
@@ -453,11 +479,11 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1371
+        "queryImpressions": 1490
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 17
+      "rank": 18
     },
     {
       "route": "/live-cams",
@@ -479,11 +505,11 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 105
+        "queryImpressions": 118
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 18
+      "rank": 19
     },
     {
       "route": "/stripcash-affiliate-program",
@@ -505,33 +531,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 100
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready",
-      "rank": 19
-    },
-    {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
-      "cluster": "creator/model referral",
-      "score": 66,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.23,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 929,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 43
+        "queryImpressions": 107
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -609,7 +609,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 21
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -661,7 +661,7 @@
         "wordCount": 245,
         "headings": 4,
         "links": 0,
-        "queryImpressions": 5
+        "queryImpressions": 6
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
@@ -741,7 +741,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 537
+        "queryImpressions": 618
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -766,7 +766,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 2839
+        "queryImpressions": 3038
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -791,7 +791,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1353
+        "queryImpressions": 1413
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +816,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 207
+        "queryImpressions": 214
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,7 +866,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 1026
+        "queryImpressions": 1096
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -891,7 +891,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 281
+        "queryImpressions": 288
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -916,7 +916,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 423
+        "queryImpressions": 440
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -941,7 +941,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 549
+        "queryImpressions": 565
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -966,7 +966,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 423
+        "queryImpressions": 467
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -991,7 +991,7 @@
         "wordCount": 283,
         "headings": 5,
         "links": 3,
-        "queryImpressions": 239
+        "queryImpressions": 240
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1016,7 +1016,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 257
+        "queryImpressions": 265
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1041,7 +1041,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 447
+        "queryImpressions": 464
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
@@ -1066,7 +1066,7 @@
         "wordCount": 374,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 63
+        "queryImpressions": 60
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1091,7 +1091,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 345
+        "queryImpressions": 372
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1116,9 +1116,34 @@
         "wordCount": 352,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 60
+        "queryImpressions": 65
       },
       "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
+    },
+    {
+      "route": "/become-a-cam-model",
+      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
+      "cluster": "creator/model referral",
+      "score": 70,
+      "contentSource": "astro-page",
+      "scorecard": {
+        "commercialIntent": 2,
+        "keywordOpportunity": 5,
+        "uniqueness": 4,
+        "freshnessSignal": 4,
+        "overlapRisk": 0.23,
+        "internalLinkPotential": 1,
+        "affiliateRelevance": 5,
+        "contentCompleteness": 5
+      },
+      "signals": {
+        "wordCount": 929,
+        "headings": 7,
+        "links": 3,
+        "queryImpressions": 50
+      },
+      "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
     },
     {
@@ -1141,7 +1166,7 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1371
+        "queryImpressions": 1490
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1166,7 +1191,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 105
+        "queryImpressions": 118
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1191,32 +1216,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 100
-      },
-      "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/become-a-cam-model",
-      "title": "Become a Cam Model: Official Stripchat Registration via AVCams",
-      "cluster": "creator/model referral",
-      "score": 66,
-      "contentSource": "astro-page",
-      "scorecard": {
-        "commercialIntent": 2,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 4,
-        "overlapRisk": 0.23,
-        "internalLinkPotential": 1,
-        "affiliateRelevance": 5,
-        "contentCompleteness": 5
-      },
-      "signals": {
-        "wordCount": 929,
-        "headings": 7,
-        "links": 3,
-        "queryImpressions": 43
+        "queryImpressions": 107
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1291,7 +1291,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 21
+        "queryImpressions": 20
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1341,7 +1341,7 @@
         "wordCount": 245,
         "headings": 4,
         "links": 0,
-        "queryImpressions": 5
+        "queryImpressions": 6
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"

@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T09:58:34.636Z",
-  "sourceGeneratedAt": "2026-11-25T09:58:34.475Z",
-  "attributionDate": "2026-11-24",
+  "generatedAt": "2026-11-26T09:42:52.103Z",
+  "sourceGeneratedAt": "2026-11-26T09:42:51.892Z",
+  "attributionDate": "2026-11-25",
   "observations": [
     {
-      "observationId": "5e962da57fb332487d67d94c36d287da",
-      "observedAt": "2026-11-25T09:58:34.475Z",
+      "observationId": "adb960267807bb222fd742fa6e41048b",
+      "observedAt": "2026-11-26T09:42:51.892Z",
       "source": "bing",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -25,8 +25,8 @@
       }
     },
     {
-      "observationId": "cc9c8ea1a9fae03b18e91dc38999d96c",
-      "observedAt": "2026-11-25T09:58:34.475Z",
+      "observationId": "e87113308e73df905b2ebb93a0d6f6c0",
+      "observedAt": "2026-11-26T09:42:51.892Z",
       "source": "bing",
       "entityType": "site",
       "entityId": "blog.stripunion.com",
@@ -45,22 +45,22 @@
       }
     },
     {
-      "observationId": "bc2aa548bd9d5cb32ab4c83c52e3a1cb",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "60b9535cdc01d3226c0903d95c825613",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
       "metric": "total_clicks",
-      "valueNumeric": 80,
+      "valueNumeric": 87,
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "370eea56e371e5dadc85dc3694c4febb",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "3bd9bfbde372d48ce2b633b36d5e0fda",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -69,12 +69,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "0c345fae4ace1448ffddad96db0ab31f",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "5db9ed2e6f076be87652b5a025253c9e",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -83,12 +83,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "e9b0c9fd320cf7f23bd02628f52b49d1",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "23b3a89515002a4ee286137069aa4c40",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -97,12 +97,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "3db1e8dfecb0f21f7335d2612f5a00cb",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "ff87f07bf8e7654167a4283f54080e37",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -111,12 +111,12 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "21200bbd0cb81a1e00cedef30dcd709e",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "5d2c313fe2e236336a117c29dee15935",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "site",
       "entityId": "stripunion.com",
@@ -127,12 +127,12 @@
         "currency": "UNKNOWN"
       },
       "payload": {
-        "attributionDate": "2026-11-24"
+        "attributionDate": "2026-11-25"
       }
     },
     {
-      "observationId": "449883b92e0db5b9c4fea6186814ad63",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "402534daeb76050fcfc9e9247be2d16d",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -149,8 +149,8 @@
       }
     },
     {
-      "observationId": "369b1cd2f32f694cc00dfc4fc44d0207",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "b830135a3196d2c6e57ad23148dd94f3",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -167,8 +167,8 @@
       }
     },
     {
-      "observationId": "935b7ab8e6db42487b26894fae824b80",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "0711bc245e7810501ad6a6919f3269de",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams",
@@ -185,8 +185,8 @@
       }
     },
     {
-      "observationId": "d6aed96627a1eecd560f17edc3cd0529",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "8569fce8894827e9b85d69d8cd409454",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -203,8 +203,8 @@
       }
     },
     {
-      "observationId": "5b3093b848113f0a287c58e9df2ec747",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "68a7c5f0ca6a96205756e302a535c8dd",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -221,8 +221,8 @@
       }
     },
     {
-      "observationId": "8e88f8bb472ec7eb6a4846037a6cfc18",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "d74f990f46ad25332ff0493374accc12",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "homepage",
@@ -239,17 +239,17 @@
       }
     },
     {
-      "observationId": "e30ccb25b3340df1516491fed0ae5bc1",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "f1e6ff8b8d070e642dd0c56582d73b26",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",
       "metric": "clicks",
-      "valueNumeric": 6,
+      "valueNumeric": 7,
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "clicks": 6,
+        "clicks": 7,
         "postbacks": 0,
         "matchedPostbacks": 0,
         "eventCounts": {},
@@ -257,8 +257,8 @@
       }
     },
     {
-      "observationId": "7358ff43804d407250f4e4e42533b998",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "e6fee86da8b092eed5252ed01c80f7c0",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",
@@ -267,7 +267,7 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "clicks": 6,
+        "clicks": 7,
         "postbacks": 0,
         "matchedPostbacks": 0,
         "eventCounts": {},
@@ -275,8 +275,8 @@
       }
     },
     {
-      "observationId": "76e31ba24f71c30d812479320a553233",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "b555a959ef0529f74a7788e1acd50ca4",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "how-stripchat-tokens-work",
@@ -285,7 +285,7 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "clicks": 6,
+        "clicks": 7,
         "postbacks": 0,
         "matchedPostbacks": 0,
         "eventCounts": {},
@@ -293,71 +293,71 @@
       }
     },
     {
-      "observationId": "c1ac858d19272019b7f2a8590cf82cd5",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "03b08fb4e3a333dcca2101ce8b4f2993",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-vs-chaturbate",
-      "metric": "clicks",
-      "valueNumeric": 5,
-      "valueText": null,
-      "dimensions": {},
-      "payload": {
-        "clicks": 5,
-        "postbacks": 0,
-        "matchedPostbacks": 0,
-        "eventCounts": {},
-        "revenueByCurrency": {}
-      }
-    },
-    {
-      "observationId": "7db964b521c75c8313da1cd44ac9e86e",
-      "observedAt": "2026-11-25T09:55:39.792Z",
-      "source": "first_party_attribution",
-      "entityType": "page_key",
-      "entityId": "stripchat-vs-chaturbate",
-      "metric": "postbacks",
-      "valueNumeric": 0,
-      "valueText": null,
-      "dimensions": {},
-      "payload": {
-        "clicks": 5,
-        "postbacks": 0,
-        "matchedPostbacks": 0,
-        "eventCounts": {},
-        "revenueByCurrency": {}
-      }
-    },
-    {
-      "observationId": "39a98290bb31bf187a44965cb4465d19",
-      "observedAt": "2026-11-25T09:55:39.792Z",
-      "source": "first_party_attribution",
-      "entityType": "page_key",
-      "entityId": "stripchat-vs-chaturbate",
-      "metric": "matched_postbacks",
-      "valueNumeric": 0,
-      "valueText": null,
-      "dimensions": {},
-      "payload": {
-        "clicks": 5,
-        "postbacks": 0,
-        "matchedPostbacks": 0,
-        "eventCounts": {},
-        "revenueByCurrency": {}
-      }
-    },
-    {
-      "observationId": "64196ce28337ccb6e262db43e7729d79",
-      "observedAt": "2026-11-25T09:55:39.792Z",
-      "source": "first_party_attribution",
-      "entityType": "page_key",
-      "entityId": "stripchat_alternatives",
       "metric": "clicks",
       "valueNumeric": 8,
       "valueText": null,
       "dimensions": {},
       "payload": {
         "clicks": 8,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "e36408b6a071e8a2309ba08d94a7eb49",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat-vs-chaturbate",
+      "metric": "postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 8,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "230c39073b1d0abc52a10c53b0092bc5",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat-vs-chaturbate",
+      "metric": "matched_postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 8,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "7c5f17c611836ef57f4f0a144b58771b",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat_alternatives",
+      "metric": "clicks",
+      "valueNumeric": 9,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 9,
         "postbacks": 1,
         "matchedPostbacks": 1,
         "eventCounts": {
@@ -367,8 +367,8 @@
       }
     },
     {
-      "observationId": "e8b124e31b0ff702a3e82b19e52f3328",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "f8053910a8593b2b7158ba11318e7d09",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat_alternatives",
@@ -377,7 +377,7 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "clicks": 8,
+        "clicks": 9,
         "postbacks": 1,
         "matchedPostbacks": 1,
         "eventCounts": {
@@ -387,8 +387,8 @@
       }
     },
     {
-      "observationId": "13f82db413957c97dfaa87eb38adf614",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "8a6c849e148a944e4329472959ba2ed9",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat_alternatives",
@@ -397,7 +397,7 @@
       "valueText": null,
       "dimensions": {},
       "payload": {
-        "clicks": 8,
+        "clicks": 9,
         "postbacks": 1,
         "matchedPostbacks": 1,
         "eventCounts": {
@@ -407,8 +407,8 @@
       }
     },
     {
-      "observationId": "7d1fa1acb8d38e6f2ee7a447fb7f129f",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "37dffbb2cb50242cb446fc9c34e0c200",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat_pricing",
@@ -425,8 +425,8 @@
       }
     },
     {
-      "observationId": "593a13662ed85746a434bdd92c877911",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "defcf1fb2c83502af252f2170f3fa4db",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat_pricing",
@@ -443,8 +443,8 @@
       }
     },
     {
-      "observationId": "b01a0f87534c294ad2b08dc00e5983aa",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "6a46d44df52113328a830f68e4c7768c",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat_pricing",
@@ -461,8 +461,8 @@
       }
     },
     {
-      "observationId": "f1e85bb18572a6096c2d80035a2ac277",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "660f1927bfa9473e2738febda29cab2f",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-alternatives",
@@ -482,8 +482,8 @@
       }
     },
     {
-      "observationId": "6de3f1eace2d408ece6fa3a76ad04d10",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "ea41b17d2afec6a80ad78e1b40ea6e89",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-alternatives",
@@ -503,8 +503,8 @@
       }
     },
     {
-      "observationId": "5a1f55ec78531da9ca06b9b65b614b5e",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "58f9320f717e58f60b8209c94c5277be",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-alternatives",
@@ -524,8 +524,8 @@
       }
     },
     {
-      "observationId": "4e74442ba215ccb42d461b32c9945c74",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "197409fa2f1889730d62e5ef77b820b7",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-vs-livejasmin",
@@ -542,8 +542,8 @@
       }
     },
     {
-      "observationId": "08c96e6228a231d98ab8291965cff1b7",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "8bec3caab9350c23f51b32d2e06b4ccb",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-vs-livejasmin",
@@ -560,8 +560,8 @@
       }
     },
     {
-      "observationId": "9d318ec1502f9da05484629b2c87451c",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "f1de0d5d72e9c9072d96efed89576998",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-vs-livejasmin",
@@ -578,8 +578,8 @@
       }
     },
     {
-      "observationId": "60ef7230e3862ed7e5f163efe32595ad",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "15c667d1cd09adbdafa585c7c28bf3c5",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-app",
@@ -596,8 +596,8 @@
       }
     },
     {
-      "observationId": "db70a7e5f6955387fdbc58382b8b28fe",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "ed85ead629c4ea0f51884d8420e896d7",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-app",
@@ -614,8 +614,8 @@
       }
     },
     {
-      "observationId": "cb94a19c773ca89a764cd2318c082d39",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "e8a588cc3acb77622316c350eeda32f1",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-app",
@@ -632,8 +632,8 @@
       }
     },
     {
-      "observationId": "2d7d31abb6b2a159af764256f5db3425",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "bbf3f8771541208197e7241382ca7c67",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_free_live_cam_sites",
@@ -650,8 +650,8 @@
       }
     },
     {
-      "observationId": "49c3bb2c6aac3e63c1fb5b7d493b9182",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "c3cb11adc844cada42e3a9a2b3a4d330",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_free_live_cam_sites",
@@ -668,8 +668,8 @@
       }
     },
     {
-      "observationId": "3a9855baf750fdaae73b8a810d96c260",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "1f202f110541df417603649c688cf7cf",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_free_live_cam_sites",
@@ -686,8 +686,8 @@
       }
     },
     {
-      "observationId": "c396c0b41e4e59f35922ce2d73d5305b",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "fe04370163599ea1ec7b5d9e17ba1142",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "chaturbate-alternatives",
@@ -704,8 +704,8 @@
       }
     },
     {
-      "observationId": "7d7f794a91755e32199704408fe7fa76",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "2a451785dfae24c206540e96c12d0977",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "chaturbate-alternatives",
@@ -722,8 +722,8 @@
       }
     },
     {
-      "observationId": "3baeba8894faa2cd49c1c4527c344e3a",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "58ab957fdd5a33c84affe093b4b091e4",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "chaturbate-alternatives",
@@ -740,8 +740,8 @@
       }
     },
     {
-      "observationId": "ee35a27df4ba0f6980b3cefa4a99bdc4",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "1fabaa2f2db518daf5385fda4c82623d",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-live-cam-sites",
@@ -758,8 +758,8 @@
       }
     },
     {
-      "observationId": "dea0c8dce067f8afda7db57a5fece097",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "51a2d45752131f6d2981091f459a5bad",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-live-cam-sites",
@@ -776,8 +776,8 @@
       }
     },
     {
-      "observationId": "71e119922272c177cc60de8edd8bb53b",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "dcfad0a1a36bb4cbefe9ebfb9a7d0ba1",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-live-cam-sites",
@@ -794,8 +794,8 @@
       }
     },
     {
-      "observationId": "674a0b517858845b4d424e4ad75b064b",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "1b77fd5d401aadab7217eb5c49c83463",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_live_cam_sites",
@@ -812,8 +812,8 @@
       }
     },
     {
-      "observationId": "30ee8b60cc61be0a3bf5dcb49b979039",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "889042ae293f6a4c9c3a176432bef219",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_live_cam_sites",
@@ -830,8 +830,8 @@
       }
     },
     {
-      "observationId": "600700c2d6e96369f7115b458ed81225",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "fb7039d9ccf577e72436bd12e4d57679",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best_live_cam_sites",
@@ -848,8 +848,8 @@
       }
     },
     {
-      "observationId": "f54b6cdeec1578d5377b30e04b07d417",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "bbc49bcd8c851f819a88aedbb85a0e65",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams_live_now",
@@ -866,8 +866,8 @@
       }
     },
     {
-      "observationId": "254a3569b3e34ee519f412f64ddf1c35",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "02238c7af39608a6fa2e6fda45acd5d6",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams_live_now",
@@ -884,8 +884,8 @@
       }
     },
     {
-      "observationId": "fc35bddc0c35e2e0e4db2ac62f05b53b",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "d855706e7196b889da7356b522feddec",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "avcams_live_now",
@@ -902,8 +902,8 @@
       }
     },
     {
-      "observationId": "f6ef74f60f7714062fae5f551a0520ef",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "c1a3d77f0ecea952ad26e1c1307cf1a4",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "live-cams",
@@ -922,8 +922,8 @@
       }
     },
     {
-      "observationId": "fe74c74aa2781f158f4a57daa6eac21e",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "011b4f1ded93152a5d07c8ee2d6ffaa0",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "live-cams",
@@ -942,8 +942,8 @@
       }
     },
     {
-      "observationId": "84673efcd2b5d6e4c68408cb2c079ca9",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "a92f377d8910882ee271d44c01525945",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "live-cams",
@@ -962,8 +962,8 @@
       }
     },
     {
-      "observationId": "4d833f24ed66c98d34d63726c246ab91",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "429ba7afd5ccc5b9bfb1d3cace2baacc",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-pricing",
@@ -980,8 +980,8 @@
       }
     },
     {
-      "observationId": "ef280a3010a66b61c72e292409f9b7f0",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "22d2f1766dd96b420549bb327c966928",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-pricing",
@@ -998,8 +998,8 @@
       }
     },
     {
-      "observationId": "dd4f79132ed604b70847897b37dbe9af",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "ef6563d582f0a26d2c8434a9880302e5",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "stripchat-pricing",
@@ -1016,8 +1016,8 @@
       }
     },
     {
-      "observationId": "ebfe52aa003157203dc486b546857b7e",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "ccc982ac004b8e5693e15c2daf4d9015",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-free-live-cam-sites",
@@ -1034,8 +1034,8 @@
       }
     },
     {
-      "observationId": "a612a76ec220ee5533c681866f049716",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "1c3c1fb1e84e322bcddc916edb5393ed",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-free-live-cam-sites",
@@ -1052,11 +1052,119 @@
       }
     },
     {
-      "observationId": "09081b2cec66024a880567fd77df50ea",
-      "observedAt": "2026-11-25T09:55:39.792Z",
+      "observationId": "b64182be72e165542a66806bd5b3d195",
+      "observedAt": "2026-11-26T09:40:09.265Z",
       "source": "first_party_attribution",
       "entityType": "page_key",
       "entityId": "best-free-live-cam-sites",
+      "metric": "matched_postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "2e19acd8150b8ad682a4b36afc934b9d",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat-private-shows",
+      "metric": "clicks",
+      "valueNumeric": 1,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "5c053f43d68291aca8e3c06fd6cb1181",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat-private-shows",
+      "metric": "postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "5c8842199c004bf1938f3c191a38eea1",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "stripchat-private-shows",
+      "metric": "matched_postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "1ba0e579cffdb54e9fa32a98cd4a31a9",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "xhamster",
+      "metric": "clicks",
+      "valueNumeric": 1,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "68bb049e65b9f824db63e896ffc6e991",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "xhamster",
+      "metric": "postbacks",
+      "valueNumeric": 0,
+      "valueText": null,
+      "dimensions": {},
+      "payload": {
+        "clicks": 1,
+        "postbacks": 0,
+        "matchedPostbacks": 0,
+        "eventCounts": {},
+        "revenueByCurrency": {}
+      }
+    },
+    {
+      "observationId": "77640c1b953d477d1aaf6d1c9f58c539",
+      "observedAt": "2026-11-26T09:40:09.265Z",
+      "source": "first_party_attribution",
+      "entityType": "page_key",
+      "entityId": "xhamster",
       "metric": "matched_postbacks",
       "valueNumeric": 0,
       "valueText": null,
