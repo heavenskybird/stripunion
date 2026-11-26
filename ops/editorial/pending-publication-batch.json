@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T00:22:31.223Z",
+  "generatedAt": "2026-11-26T01:54:42.701Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-cancellation-authority-route-map.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-tracking-identifier-scope-review.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-first-frame-quality-check.json",
-    "ops/editorial/content-artifacts/adult-anime-platform-release-language-status-check.json",
-    "ops/editorial/content-artifacts/free-video-platform-session-route-consistency-check.json"
+    "ops/editorial/content-artifacts/adult-games-recommendation-control-preflight.json",
+    "ops/editorial/content-artifacts/adult-shop-post-purchase-price-adjustment-policy-check.json",
+    "ops/editorial/content-artifacts/premium-video-saved-list-capacity-and-behavior-audit.json",
+    "ops/editorial/content-artifacts/adult-platform-two-factor-recovery-choice.json",
+    "ops/editorial/content-artifacts/creator-platform-post-revision-history-operations-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-cancellation-authority-route-map.js",
-    "src/data/guides/webmaster-affiliate-tracking-identifier-scope-review.js",
-    "src/data/guides/vr-adult-platform-first-frame-quality-check.js",
-    "src/data/guides/adult-anime-platform-release-language-status-check.js",
-    "src/data/guides/free-video-platform-session-route-consistency-check.js"
+    "src/data/guides/adult-games-recommendation-control-preflight.js",
+    "src/data/guides/adult-shop-post-purchase-price-adjustment-policy-check.js",
+    "src/data/guides/premium-video-saved-list-capacity-and-behavior-audit.js",
+    "src/data/guides/adult-platform-two-factor-recovery-choice.js",
+    "src/data/guides/creator-platform-post-revision-history-operations-check.js"
   ],
   "categories": [
+    "adult-games",
+    "adult-shops",
+    "premium-videos",
     "privacy-safety-payment",
-    "webmaster-affiliate",
-    "vr-ar",
-    "hentai-anime",
-    "free-videos"
+    "creator-platforms"
   ],
   "backlogIds": [
-    "adult-platform-cancellation-authority-route-map",
-    "webmaster-affiliate-tracking-identifier-scope-review",
-    "vr-adult-platform-first-frame-quality-check",
-    "adult-anime-platform-release-language-status-check",
-    "free-video-platform-session-route-consistency-check"
+    "adult-games-recommendation-control-preflight",
+    "adult-shop-post-purchase-price-adjustment-policy-check",
+    "premium-video-saved-list-capacity-and-behavior-audit",
+    "adult-platform-two-factor-recovery-choice",
+    "creator-platform-post-revision-history-operations-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45728024970",
-  "phase": "closed"
+  "r1CycleId": "45738657617"
 }
