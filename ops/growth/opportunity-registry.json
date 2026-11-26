@@ -915,11 +915,29 @@
           "asOf": "2026-11-26T09:40:23Z",
           "kind": "latest_blog_acquisition_snapshot",
           "proof": "Blog GA4: 1 session, 0 engaged, 0 affiliate_click; separate Blog URL-prefix GSC: 0 clicks/0 impressions. Main-domain Blog path rows show 1 click/201 impressions; do not add separate property totals."
+        },
+        {
+          "url": "https://blog.stripunion.com/live-cam-token-pricing-guide/",
+          "asOf": "2026-11-26",
+          "kind": "live_wordpress_paid_cta_audit",
+          "proof": "Published WordPress post #401 contains one direct AVCams tracked CTA with rel=sponsored nofollow noopener, a GA4 affiliate_click event and source p1=token-pricing-guide/p2=bottom_cta. It has a general site disclosure at the bottom but no compact Paid link label adjacent to the CTA."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/raw/2026-11-25/attribution.json",
+          "asOf": "2026-11-26T09:40:09.265Z",
+          "kind": "blog_cta_attribution_join",
+          "proof": "Latest first-party attribution snapshot has no token-pricing-guide p1 key; Blog GA4 has 1 session and 0 affiliate_click in the latest report. The direct CTA is present but no current click/conversion is evidenced."
+        },
+        {
+          "url": "https://blog.stripunion.com/adult-shop-privacy-packaging-billing-delivery/",
+          "asOf": "2026-11-26",
+          "kind": "no_unrelated_affiliate_link_check",
+          "proof": "Latest WordPress post #460 is an adult-shop privacy checklist with only internal links and no affiliate CTA. This is appropriate while no approved adult-shop offer is active; do not insert an unrelated cam-platform link."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Keep WordPress publishing gated. Select one existing post only after a source-backed before/after update plan, confirm the exact CTA is relevant and approved, and use the reviewed update transaction; do not use the create-only pipeline or publish automatically.",
-      "ownerAction": "One exact Blog-specific content approval after safe update mechanism is reviewable; no blanket enable.",
+      "lastEvidenceAt": "2026-11-26T23:56:41.951Z",
+      "nextAction": "Keep WordPress publishing off. The existing live-cam token-pricing post #401 has one approved direct AVCams CTA with correct sponsored rel and GA4 event, but lacks an adjacent Paid link label and has no current p1 click evidence. After explicit owner approval, update this existing post only: add the compact label next to the existing CTA, preserve its exact tracked destination and event parameters, and retain the general disclosure. Do not create/publish a new post. Leave the adult-shop privacy post #460 without an unrelated CTA until an adult-shop offer is actually approved.",
+      "ownerAction": "Owner approval is required before editing the live WordPress post. No edit or publish was made in this run.",
       "history": [
         {
           "from": null,
