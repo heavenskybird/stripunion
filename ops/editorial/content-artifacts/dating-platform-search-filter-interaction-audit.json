@@ -1,0 +1,120 @@
+{
+  "backlogId": "dating-platform-search-filter-interaction-audit",
+  "slug": "dating-platform-search-filter-interaction-audit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check Whether Search Filters Work Together as Expected",
+  "description": "A practical method for comparing dating-platform search filters, including combinations, unavailable options, result changes, and privacy implications.",
+  "excerpt": "A filter list can look comprehensive while combinations behave unpredictably. Use this check to see how a dating platform's search controls affect the results you actually get.",
+  "keyTakeaways": [
+    "Test one filter at a time before testing combinations; otherwise it is difficult to tell which control changed the results.",
+    "Record whether a filter is optional, required, paid, or unavailable until you complete another account step.",
+    "Check what happens when two preferences conflict or produce no results instead of assuming the platform will explain the conflict.",
+    "Treat search settings as separate from visibility controls: filtering profiles does not necessarily limit who can find yours.",
+    "Recheck saved preferences after changing them, because a displayed setting and an applied search are not always the same thing."
+  ],
+  "sections": [
+    {
+      "heading": "Why filter combinations deserve their own comparison",
+      "paragraphs": [
+        "Dating platforms may offer controls for distance, age range, interests, relationship preferences, or other profile fields. The presence of those controls does not show how they interact. One platform may allow several filters to be combined, while another may apply only some of them, reserve particular options for a membership tier, or treat a preference as a suggestion rather than a strict condition. Those distinctions can affect whether browsing feels manageable and whether the results match your intended boundaries.",
+        "This guide focuses on the behavior of search filters when used together. It is not a guide to choosing a relationship structure, hiding a profile, or deciding which people to contact. Those are separate decisions. Here the practical question is narrower: can you understand what your chosen filters do, verify that they remain applied, and recognize what the platform does when your choices yield few or no results?"
+      ],
+      "bullets": [
+        "Do not infer a platform’s search logic from a feature list alone.",
+        "Distinguish a strict exclusion from a preference that may allow exceptions.",
+        "Keep a note of which settings you tested and what changed."
+      ]
+    },
+    {
+      "heading": "Build a small, controlled filter test",
+      "paragraphs": [
+        "Start with the smallest search the platform makes available. Note the starting result state, then change one filter and observe whether the result set, result count, or explanatory text changes. If you change several controls at once, you may not be able to tell whether a filter was ignored, whether another setting narrowed the pool, or whether the result display simply did not refresh. A controlled sequence is more useful than an informal browse because it gives you evidence you can compare across platforms.",
+        "Next, test a pair of filters that matter to your use case. Look for explicit indications that both are active, such as selected controls or a visible summary of applied criteria. If the platform offers a reset button, determine whether it clears all settings or only the last adjustment. Do not treat sample results as representative of a community; the purpose is to understand interface behavior, not to draw conclusions about how many suitable people use a service."
+      ],
+      "table": {
+        "caption": "A simple test log separates interface behavior from assumptions about the member pool.",
+        "headers": [
+          "Test",
+          "What to record",
+          "What the result can tell you"
+        ],
+        "rows": [
+          [
+            "One filter enabled",
+            "Selected value and visible result change",
+            "Whether the control appears to apply"
+          ],
+          [
+            "Two filters combined",
+            "Both selected values and any status message",
+            "Whether the interface acknowledges both criteria"
+          ],
+          [
+            "Very narrow combination",
+            "Empty-state message and available next steps",
+            "Whether the platform explains limited results"
+          ],
+          [
+            "Settings changed and revisited",
+            "Whether the values remain selected",
+            "Whether search state persists or resets"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check strictness, empty results, and paid gates",
+      "paragraphs": [
+        "A filter label does not always reveal how strictly it is applied. If the interface describes a setting as a preference, do not assume every result will meet it. Where a platform explains its logic, note that explanation; where it does not, mark the behavior as unclear rather than guessing. An empty result screen is also worth inspecting. It may tell you to broaden a setting, offer an alternative search, or provide no explanation at all. That difference matters when you are trying to decide whether to adjust your criteria or whether the control is functioning as intended.",
+        "Check whether any filter appears disabled, marked as a membership feature, or hidden behind a prompt. A prompt may describe an upgrade without making clear whether it affects the filter itself, the number of searches, or the visibility of results. Record the exact boundary rather than assuming what access includes. Avoid entering payment details just to test a feature. If the platform does not explain the boundary before asking for commitment, treat that uncertainty as a meaningful comparison finding."
+      ],
+      "bullets": [
+        "Label unclear filter behavior as unknown, not as a confirmed limitation or capability.",
+        "Record the text shown beside locked or unavailable controls.",
+        "Do not infer that more results mean better fit; quantity and relevance are different questions."
+      ]
+    },
+    {
+      "heading": "Separate search criteria from your own visibility",
+      "paragraphs": [
+        "A search filter generally describes what you want to see. It does not, by itself, control who can see your profile. Those settings may live in another menu and may use different terms. If limiting exposure is important, look for controls that specifically explain profile audience, discovery, or visibility. Test those separately, because a filter that narrows your outgoing search may have no effect on incoming views.",
+        "Also note whether changing a search preference alters a profile field or public-facing label. A platform may reuse profile information to power search, but that does not mean the search control is private. Before saving a preference that could reveal something you would rather not display, check whether the interface says the setting appears on your profile or is used only for filtering. When the explanation is missing, avoid treating a private-search assumption as confirmed."
+      ]
+    },
+    {
+      "heading": "Compare platforms using evidence, not feature counts",
+      "paragraphs": [
+        "Use the same short test plan on each platform you are considering. Compare whether controls are easy to locate, whether combined settings are visible, whether empty results are explained, and whether a reset or edit is straightforward. A platform with fewer filters may still be easier to use if it clearly shows which criteria are active. Conversely, a long list of options is not useful if the interface leaves their combined behavior ambiguous.",
+        "Keep the comparison focused on your own must-haves. Identify which controls are essential, which are conveniences, and which would be unacceptable to leave unclear. A useful decision note might say that one platform makes selected criteria easy to verify but does not explain how a narrow search is handled. That is more actionable than a vague overall score. Revisit the settings if the platform changes its interface or if you alter your own preferences."
+      ],
+      "bullets": [
+        "Compare filter behavior, not the number of filter labels.",
+        "Keep screenshots or notes only if doing so is safe on your device and consistent with your privacy needs.",
+        "If a setting’s meaning is unclear, avoid relying on it for a sensitive decision."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "If a dating platform has a filter, does that mean every result will match it?",
+      "answer": "Not necessarily. The platform may describe a control as a preference rather than a strict condition, and it may not explain how exceptions are handled. Check the wording and test the interface where possible; do not assume a label guarantees a particular result."
+    },
+    {
+      "question": "What should I do when combined filters return no results?",
+      "answer": "First confirm that the settings you intended are selected and that the search has refreshed. Then adjust one criterion at a time if you choose to broaden the search. An empty result screen does not establish whether the platform has few members, whether your filters conflict, or whether a feature is unavailable."
+    },
+    {
+      "question": "Do search filters change who can see my dating profile?",
+      "answer": "Usually, search criteria and profile-visibility controls are separate settings, but platform designs vary. Look for controls that explicitly describe profile audience or discoverability. Do not rely on outgoing search filters to limit incoming visibility."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

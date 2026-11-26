@@ -1,0 +1,108 @@
+export default {
+  "slug": "webmaster-affiliate-referral-credit-source-comparison",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Compare How Referral Credit Is Assigned Across Traffic Sources",
+  "description": "A webmaster worksheet for comparing how affiliate programs document referral sources, attribution rules, traffic classifications, and reporting limits.",
+  "excerpt": "A referral link can identify a campaign without explaining how every visit or conversion is credited. Compare the program’s written rules with its reporting before relying on source-level conclusions.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Separate the link identifier, the program’s traffic classification, and the rule that assigns conversion credit.",
+    "Check whether attribution rules differ by source or whether some sources need prior approval.",
+    "Verify what source-level fields are actually available in reports before building a measurement plan.",
+    "Treat missing or aggregated data as a limitation, not evidence that a source performed well or poorly.",
+    "Keep a dated record of written rules and reporting definitions so later changes can be distinguished from earlier terms."
+  ],
+  "sections": [
+    {
+      "heading": "Three different questions often get collapsed into one",
+      "paragraphs": [
+        "Webmasters often use “tracking” to describe several separate steps. A link may carry a campaign identifier; a program may classify the resulting visit as a particular traffic source; and a separate attribution rule may determine which referral receives credit for a conversion. These steps are related, but they are not interchangeable. A link that appears to retain a tag does not establish how the program classifies the visit or whether a later conversion qualifies under the program’s rules.",
+        "This guide helps you compare those layers without assuming that every program uses the same terms or measurement method. It does not promise a particular reporting capability or describe any specific program. The decision task is to determine what the written rules say, which source distinctions the program actually exposes, and which questions remain unanswered. This is especially useful when a webmaster publishes across multiple channels or needs to distinguish editorial placements from other promotion."
+      ]
+    },
+    {
+      "heading": "Build a source-to-credit map",
+      "paragraphs": [
+        "List the traffic sources you intend to use, such as an editorial page, a newsletter, or a social placement. For each source, note the referral link or campaign label you plan to use, the program’s rules for that source, and the report fields that would let you check its classification. Keep the list tied to real planned placements rather than speculative channels. This makes it easier to identify a source that needs written approval before launch.",
+        "Then trace the path from visit to reported result using the program’s own documentation. Look for definitions of a qualifying referral, the attribution method, any exclusions, and the meaning of source or campaign fields. Where a term is not defined, record the question and seek clarification before depending on it. Do not infer that a sub-ID or link parameter automatically controls commission credit; it may serve only as a reporting label, depending on the program."
+      ],
+      "table": {
+        "caption": "Use one row per planned source to distinguish what you can identify from what the program decides.",
+        "headers": [
+          "Comparison field",
+          "What to capture",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Traffic source",
+            "The actual placement and channel",
+            "Prevents different promotion types being grouped together"
+          ],
+          [
+            "Link label",
+            "The campaign or sub-ID structure you intend to use",
+            "Shows what the referral link can identify"
+          ],
+          [
+            "Program permission",
+            "The written rule or approval for that placement",
+            "Separates allowed traffic from merely trackable traffic"
+          ],
+          [
+            "Attribution rule",
+            "How competing or later referrals are treated",
+            "Explains how credit may be assigned"
+          ],
+          [
+            "Report evidence",
+            "Fields and definitions available for review",
+            "Shows whether source-level conclusions can be checked"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check permission and classification separately",
+      "paragraphs": [
+        "A program can be technically capable of recording a visit without permitting the way it was generated. Conversely, a permitted placement may not be distinguishable in the available report. For each source, check the written traffic rules and any required approval separately from link setup. If the rules prohibit or restrict a placement, do not treat a successful test click as approval. Keep the applicable policy location, version or date, and any written response with your campaign notes.",
+        "Next, check how the program defines traffic-source labels. A dashboard label may group several channels under one category, use a program-specific definition, or reflect information that is not directly visible to you. Do not map a label to your own analytics categories without confirming what it means. If the program provides no definition, document the limitation and avoid claiming a level of source precision that the report cannot support."
+      ],
+      "bullets": [
+        "A link being accepted by the platform does not confirm that its placement is permitted.",
+        "Do not assume that your own campaign naming convention is visible in the program’s report.",
+        "Ask for clarification where the rule and dashboard wording appear inconsistent."
+      ]
+    },
+    {
+      "heading": "Evaluate whether reporting can answer your question",
+      "paragraphs": [
+        "Decide what you need to know before launching. You may need to compare clicks by placement, inspect conversion status, or reconcile a campaign label to a statement. Check that the relevant field exists and that the program defines it. A report that provides only an aggregate total may not support a source-by-source comparison, even if the referral links contain different labels. Likewise, a field without a definition may not mean what its name suggests.",
+        "Note the reporting period and whether the program says records can be revised, delayed, or aggregated. This article does not offer performance benchmarks. Its purpose is to prevent overreading incomplete data. If two channels are combined in a single report category, you cannot reliably attribute the combined outcome to either one without additional evidence. Make that limitation part of the decision, rather than filling gaps with assumptions."
+      ]
+    },
+    {
+      "heading": "Keep evidence useful after the campaign starts",
+      "paragraphs": [
+        "Before publishing, preserve the relevant program terms, written permissions, link structure, and dashboard definitions. Record the date you checked them and the source of each item. When you later inspect reports, keep raw observations separate from your interpretation. For example, “the dashboard groups these placements together” is an observation; “one placement caused the reported result” is a conclusion that the data may not support.",
+        "Review the map when you add a channel, change a placement, or see a revised policy. If attribution or source labels change, update your documentation rather than quietly reusing an old assumption. This workflow is useful even for a small site: it makes it easier to explain which facts support a comparison, identify questions for the program, and avoid making visitor-facing claims that exceed the evidence."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does using a unique link label guarantee that a program will credit a conversion to that source?",
+      "answer": "No. A label may help identify a link or appear in a report, but credit depends on the program’s attribution rules and eligibility terms. Check the documentation for both, and do not treat link tagging as proof of commission credit."
+    },
+    {
+      "question": "If a program report groups two channels together, can I compare them?",
+      "answer": "Not reliably from that grouped field alone. You may need another documented source of evidence, or you may need to accept that the program’s reporting does not support the distinction. Avoid assigning an aggregate result to one channel without evidence."
+    },
+    {
+      "question": "Should I test a traffic source before getting permission?",
+      "answer": "If the program’s terms make permission or approval unclear, seek clarification before sending real traffic. A test that works technically does not establish that the placement is allowed or that resulting referrals qualify."
+    }
+  ]
+};
