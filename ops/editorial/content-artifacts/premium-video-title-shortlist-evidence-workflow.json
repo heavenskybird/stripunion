@@ -1,0 +1,114 @@
+{
+  "backlogId": "premium-video-title-shortlist-evidence-workflow",
+  "slug": "premium-video-title-shortlist-evidence-workflow",
+  "categorySlug": "premium-videos",
+  "categoryLabel": "Premium Videos",
+  "title": "Premium Video Platforms: Build a Title Shortlist Before Comparing Memberships",
+  "description": "A title-first method for comparing premium video memberships. Verify availability, access conditions, and useful details before deciding whether a library suits your shortlist.",
+  "excerpt": "A large-sounding catalog is not useful if the titles you want are hard to verify. Build a small, evidence-based shortlist before comparing membership terms.",
+  "keyTakeaways": [
+    "Start with specific titles or content types that matter to you instead of relying on broad library claims.",
+    "Record whether each result is included, separately purchased, preview-only, or unclear.",
+    "Check title details and access wording on the platform itself before treating a search result as proof of membership access.",
+    "Compare platforms using the same shortlist and evidence standard.",
+    "Treat missing or ambiguous information as a question to resolve, not as confirmation that a title is included."
+  ],
+  "sections": [
+    {
+      "heading": "Define what the shortlist needs to answer",
+      "paragraphs": [
+        "A title-first comparison begins with the viewer’s real decision: whether a membership provides enough relevant, accessible content to justify joining. Start by listing a manageable set of specific titles, series, production labels, or other content characteristics that matter. Include more than one type if your viewing preferences are varied, but avoid making the list so large that verification becomes busywork.",
+        "For each entry, write down what would count as a match. A title may need to be the correct edition, part of the intended series, available in a preferred language, or accessible under the membership rather than through a separate transaction. Defining these criteria first prevents a broad catalog page from being mistaken for evidence that a particular viewing need is met."
+      ],
+      "bullets": [
+        "Choose a mix of must-have titles and useful substitutes.",
+        "Record any essential version, language, or series-completion requirement.",
+        "Decide in advance what evidence is strong enough to mark a title as available."
+      ]
+    },
+    {
+      "heading": "Search consistently across platforms",
+      "paragraphs": [
+        "Use the same search terms and shortlist for each platform. Search exact titles first, then try a known alternate title or a clearly relevant series name if the exact query fails. A single failed search does not prove that a library lacks the content; titles may be indexed under another name or organized in a collection. At the same time, do not count a vague or loosely related result as a confirmed match.",
+        "When possible, use the platform’s own title page or membership information rather than relying only on general promotional copy. Save the result location, date checked, and relevant wording. A simple record makes it easier to compare platforms without depending on memory, especially when a search result leads to a page with incomplete access details."
+      ],
+      "table": {
+        "caption": "Evidence levels for a title-first comparison",
+        "headers": [
+          "Evidence observed",
+          "How to record it"
+        ],
+        "rows": [
+          [
+            "Title page explicitly says the title is included with the membership",
+            "Confirmed inclusion, with the wording and date checked"
+          ],
+          [
+            "Title appears in search but access type is not stated",
+            "Found; entitlement unclear"
+          ],
+          [
+            "Page offers a separate purchase or rental route",
+            "Separate access route; do not count as included membership access"
+          ],
+          [
+            "Only a preview or promotional mention is visible",
+            "Preview or mention found; full access not established"
+          ],
+          [
+            "No relevant result appears after consistent searches",
+            "Not found in the checked search path; avoid claiming definitive absence"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify access, not just presence",
+      "paragraphs": [
+        "Avoid assuming that search-result snippets, thumbnail labels, or a broad membership description settle the question. They can be useful clues, but the title’s access conditions should be checked in the context where the viewer would actually select it. If access details cannot be established without creating an account, note that limitation rather than implying that the title has been confirmed."
+      ]
+    },
+    {
+      "heading": "Compare breadth without counting misleading matches",
+      "paragraphs": [
+        "A raw count of search results can exaggerate library fit. Several results may be duplicates, alternate listings, trailers, or related items rather than distinct titles that meet your criteria. Count only matches that satisfy the rules you set at the beginning. Keep separate totals or notes for confirmed inclusions, unclear results, and possible substitutes, so uncertainty does not disappear inside a single number.",
+        "The quality of the match can matter more than the count. A platform with a smaller number of confirmed items may fit better if it has the specific titles or series you care about. Another library may have many related results but little evidence about access conditions. Use the shortlist to describe fit, not to make an unsupported ranking or general claim about the total size of any catalog."
+      ],
+      "bullets": [
+        "Remove duplicate listings before summarizing results.",
+        "Separate confirmed matches from uncertain and substitute results.",
+        "Explain which shortlist items were most important to the decision.",
+        "Do not extrapolate from a small sample to a total-library claim."
+      ]
+    },
+    {
+      "heading": "Turn the evidence into a membership decision",
+      "paragraphs": [
+        "After checking the shortlist, compare the verified content against the membership terms that matter to you: what the plan includes, how access is described, and what happens if you stop subscribing. The shortlist cannot answer every billing or cancellation question, but it can show whether the library appears relevant enough to investigate those terms further. Keep title evidence and subscription evidence in separate columns so that one does not stand in for the other.",
+        "Revisit uncertain entries before making a decision. Look for clearer platform wording or use an available support channel to ask a narrow question about the title and access route. Record the answer and when it was received, but treat informal replies as evidence of what was said rather than as a replacement for current membership terms. If a must-have title remains unverified, factor that uncertainty into the decision rather than assuming it will be available later."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How many titles should I put on a shortlist?",
+      "answer": "There is no universal number. Use enough entries to represent your actual preferences, including essential titles and a few meaningful substitutes, but keep the list small enough to verify carefully. A short, relevant sample is usually more decision-useful than a large list assembled without clear criteria."
+    },
+    {
+      "question": "Does a title appearing in search prove it is included in a membership?",
+      "answer": "No. Search establishes that a result was found, not necessarily what access it provides. Check the title page and the membership wording for a distinction between included access, separate purchase, rental, preview, or another route."
+    },
+    {
+      "question": "Can I use my shortlist to compare total library size?",
+      "answer": "Not reliably. A shortlist can help assess fit for your needs, but it is not a census of a platform’s full catalog. Describe the sample and its limits, and avoid using it to claim a total-library count or overall catalog ranking."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

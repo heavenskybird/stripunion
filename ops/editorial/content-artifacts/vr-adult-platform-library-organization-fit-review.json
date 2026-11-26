@@ -1,0 +1,117 @@
+{
+  "backlogId": "vr-adult-platform-library-organization-fit-review",
+  "slug": "vr-adult-platform-library-organization-fit-review",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Whether Library Organization Works in a Headset",
+  "description": "Evaluate how a VR adult platform organizes its library in the headset. Check category labels, browsing steps, result details, and whether the same structure works across access routes.",
+  "excerpt": "A catalog can look organized on a desktop but feel difficult to browse in a headset. Test the library’s structure in the environment where you expect to use it.",
+  "keyTakeaways": [
+    "Check library organization in the headset or access route you plan to use, not only on a desktop browser.",
+    "Test whether category names, collections, and listing details help you make a decision before opening an item.",
+    "Notice how many steps it takes to move from a broad library view to a relevant result and back.",
+    "Keep navigation structure separate from content availability and playback compatibility.",
+    "Record labels or paths that are ambiguous so you can compare platforms using concrete evidence."
+  ],
+  "sections": [
+    {
+      "heading": "Test the library where you intend to browse",
+      "paragraphs": [
+        "Library organization is part of device fit. A desktop catalog may expose filters, descriptions, or navigation that are harder to reach in a headset. If you expect to browse primarily in VR, inspect the library using that access route before choosing a platform. If headset access is not available before joining, note the limitation instead of assuming the desktop experience will translate directly.",
+        "Begin with a simple task: open the library, locate a relevant category or collection, inspect a listing, and return to the broader catalog. Record where the interface asks for text entry, whether labels are readable from your normal viewing position, and whether back or close controls are easy to find. This is a navigation test, not a judgment about the content itself."
+      ],
+      "bullets": [
+        "Use the headset or access route that matters to your intended use.",
+        "Write down the task before comparing platforms so you repeat it consistently.",
+        "Note any part of the flow you could not test before joining."
+      ]
+    },
+    {
+      "heading": "Check category labels and collection structure",
+      "paragraphs": [
+        "Category names and collection groupings help viewers predict what they will find. Check whether labels are specific enough to guide browsing and whether related items are grouped consistently. If a category is broad or unclear, open a few listings to see whether their details clarify the organization. Do not assume that a label guarantees a particular format, feature, or access condition.",
+        "Look for repeated or overlapping categories that make it difficult to understand where an item belongs. A collection may serve as a useful shortcut, but it should not be mistaken for proof that every item in it is included with a membership or compatible with the viewer’s device. Keep those questions separate in your notes: library structure tells you how content is presented, while entitlement and compatibility require their own evidence."
+      ],
+      "table": {
+        "caption": "Library-organization checks for headset browsing",
+        "headers": [
+          "Area",
+          "What to observe"
+        ],
+        "rows": [
+          [
+            "Category labels",
+            "Are names understandable and distinct enough to support browsing?"
+          ],
+          [
+            "Collections",
+            "Can you tell whether a collection is a curated grouping, a series, or another kind of list?"
+          ],
+          [
+            "Listing details",
+            "Can you identify relevant information before opening the item?"
+          ],
+          [
+            "Navigation depth",
+            "How many steps does it take to reach a useful result and return?"
+          ],
+          [
+            "Back and exit route",
+            "Can you leave a listing and recover the previous library view?"
+          ],
+          [
+            "Access route",
+            "Were these observations made in the headset, browser, or another route?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Measure the browsing path, not just its appearance",
+      "paragraphs": [
+        "If search or filters are available, test them as an additional route rather than as a substitute for understanding the library structure. Search may help locate a known item but may not help a viewer decide where to begin. Conversely, categories may support exploration but be less useful for finding a specific title. Note what each route helps you do."
+      ]
+    },
+    {
+      "heading": "Separate organization from compatibility and access",
+      "paragraphs": [
+        "A well-organized library does not establish that its items will play on a specific headset, that a given format is included, or that downloads are available. Those are separate decision points. When a listing includes device or format information, treat the wording as a claim to verify through the platform’s own compatibility and access details. Do not infer support simply because an item appears in a headset-facing catalog.",
+        "Keep a comparison record with distinct fields for navigation, listing detail, access route, device compatibility, and membership entitlement. This prevents a strong score in one area from masking an unanswered question in another. If a platform’s organization makes it difficult to locate the information needed to verify access, note that as a discovery limitation rather than concluding that the content is unavailable."
+      ],
+      "bullets": [
+        "Record navigation separately from headset compatibility.",
+        "Verify access conditions separately from a title’s presence in the catalog.",
+        "Mark untested device routes as unknown rather than assuming they work the same way."
+      ]
+    },
+    {
+      "heading": "Build a useful platform comparison from observations",
+      "paragraphs": [
+        "Compare platforms using the same browsing task and the same questions. A concise record might include the tested device or route, category clarity, listing detail, number of navigation steps, ability to return, and unresolved questions. This produces a more actionable comparison than a general impression such as “easy to use,” because it shows what was actually examined and what the viewer could expect to repeat.",
+        "Before relying on the comparison, retest after meaningful interface or library changes. Navigation labels and collection structures can change, and a result observed in one route may not appear in another. Keep the description bounded to the evidence: explain that a particular path was clear or confusing in the tested environment, rather than claiming that every user or device will have the same experience."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I evaluate a VR library from a desktop browser?",
+      "answer": "A desktop browser can help you inspect categories and listing details, but it cannot establish how the library will feel to navigate in a headset. If headset browsing matters to your decision, test that route where possible or clearly record that it was not available to evaluate."
+    },
+    {
+      "question": "Does clear library organization mean the content will work on my headset?",
+      "answer": "No. Organization concerns how a catalog is arranged and browsed. Headset compatibility, playback format, and membership access are separate questions that need their own evidence."
+    },
+    {
+      "question": "What should I do if a category label is unclear?",
+      "answer": "Record the label and inspect the associated listings for more context. If it remains ambiguous, mark it as unclear rather than assuming what the category includes. You can then compare that uncertainty with the clarity of other platforms’ library structures."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

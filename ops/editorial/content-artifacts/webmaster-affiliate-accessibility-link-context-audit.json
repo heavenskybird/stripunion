@@ -1,0 +1,110 @@
+{
+  "backlogId": "webmaster-affiliate-accessibility-link-context-audit",
+  "slug": "webmaster-affiliate-accessibility-link-context-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Links for Screen Readers: Audit Link Context and Keyboard Access",
+  "description": "A practical accessibility audit for affiliate links: check descriptive labels, surrounding context, keyboard access, disclosure placement, and how to fix unclear calls to action.",
+  "excerpt": "Affiliate links should make sense when heard out of context, reached by keyboard, or encountered alongside a disclosure. Use this audit to catch friction before publishing.",
+  "keyTakeaways": [
+    "Write link labels that identify the destination or action rather than relying on vague wording such as “click here.”",
+    "Check whether a screen-reader user can understand why a link is on the page and whether it is commercial.",
+    "Test keyboard focus and activation for links in text, buttons, menus, and comparison tables.",
+    "Treat accessibility as part of the visitor’s decision path, not as a cosmetic check after affiliate links are added.",
+    "Keep the disclosure close enough to affiliate recommendations that visitors can connect the commercial relationship to the content."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the visitor’s decision path",
+      "paragraphs": [
+        "An affiliate link is part of a decision, not merely a destination. A visitor may need to understand what an offer is, what happens after selecting it, and whether the recommendation is commercially connected to the publisher. That information should remain understandable when someone navigates without seeing the page visually or reads only the links in a screen-reader links list.",
+        "Review the page from the visitor’s point of view: arriving at the content, comparing options, encountering a recommendation, and activating a link. Note every place where meaning depends on color, position, an icon, or nearby visual styling. Those cues may help some visitors, but they should not be the only way to identify the link’s purpose."
+      ],
+      "bullets": [
+        "Identify each affiliate link and the sentence or interface element that introduces it.",
+        "Ask whether the link’s destination or action is clear when its text is read by itself.",
+        "Check whether commercial disclosure is present before or near the recommendation, rather than hidden in a distant footer."
+      ]
+    },
+    {
+      "heading": "Make link names descriptive outside their paragraph",
+      "paragraphs": [
+        "A common accessibility problem is a page with many links called “learn more,” “visit,” or “get started.” Those labels can be ambiguous when encountered in sequence or outside the surrounding paragraph. Prefer concise wording that identifies the relevant offer, comparison, or destination. Do not promise a specific result unless the page can substantiate it.",
+        "Avoid making a whole sentence a link if the sentence contains several ideas. A focused label is easier to scan, easier to understand when announced, and less likely to suggest that every word leads to the same destination. If a visual button contains a short phrase, ensure its accessible name communicates the same purpose rather than an unrelated decorative label."
+      ],
+      "table": {
+        "caption": "A quick way to improve affiliate-link context",
+        "headers": [
+          "Less helpful pattern",
+          "More informative approach"
+        ],
+        "rows": [
+          [
+            "“Click here” repeated for several offers",
+            "Name the offer or action in each link label"
+          ],
+          [
+            "A logo is the only link content",
+            "Provide an accessible name that identifies the destination"
+          ],
+          [
+            "A button says “Go” beside multiple options",
+            "Include the relevant option or destination in the button name"
+          ],
+          [
+            "A link promises an outcome not established on the page",
+            "Describe the action or destination without implying a guaranteed result"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check keyboard access and visible focus",
+      "paragraphs": [
+        "A link that looks usable with a pointer may still be difficult to reach or activate by keyboard. Tab through the page in order and check that every affiliate link receives a visible focus indicator. The focus order should follow the page’s reading and decision sequence, not jump unpredictably between unrelated blocks.",
+        "Test links placed in comparison tables, mobile menus, accordions, and custom button components. Confirm that keyboard users can reach and activate them using standard controls, and that opening a destination does not unexpectedly trap focus or make the original page difficult to return to. If a component is built from custom code, verify its behavior rather than assuming it behaves like a native link."
+      ],
+      "bullets": [
+        "Tab through the page without using a mouse or touch screen.",
+        "Confirm that focus is visible against the surrounding background.",
+        "Check that each focusable control has a sensible order and can be activated.",
+        "Repeat the check at a narrow viewport, where menus and comparison tables may behave differently."
+      ]
+    },
+    {
+      "heading": "Keep disclosure and recommendation meaning connected",
+      "paragraphs": [
+        "Be careful with disclosures embedded in long blocks of text or placed after a visitor has already reached the recommendation. A screen-reader user may navigate by headings or links and miss a notice that is visually separated from the relevant content. Test the actual reading order, including how the disclosure is announced relative to the link and recommendation."
+      ]
+    },
+    {
+      "heading": "Record fixes and test the published page",
+      "paragraphs": [
+        "Maintain a small audit record for each page template: page or component checked, date, devices or assistive technology used, issue found, fix made, and retest result. This helps catch regressions when a CMS template, button style, navigation menu, or affiliate-link component changes. Recheck representative pages after redesigns instead of assuming that an earlier test remains valid.",
+        "Prioritize barriers that prevent visitors from identifying or activating an important link. Then review lower-severity clarity issues, such as repeated generic labels or inconsistent wording. When a problem depends on the affiliate destination or the nature of the offer, confirm the destination before editing the label. Accessibility improvements should clarify the real action, not make a link sound more attractive than the evidence supports."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should every affiliate link say “affiliate” in its link text?",
+      "answer": "Not necessarily. Link text should identify its destination or action clearly. The commercial relationship should also be disclosed in understandable language where visitors can associate it with the recommendation. A disclosure and a descriptive link label serve related but different purposes."
+    },
+    {
+      "question": "Are descriptive link labels enough to make a page accessible?",
+      "answer": "No. They are one part of the review. Also check keyboard access, visible focus, logical navigation order, accessible names for linked images or buttons, and whether the disclosure and surrounding recommendation make sense when read by assistive technology."
+    },
+    {
+      "question": "How often should a webmaster repeat this audit?",
+      "answer": "Retest when a page template, navigation, comparison table, link component, or disclosure placement changes. Also sample published pages periodically, since content edits can introduce vague link labels or move a disclosure away from the recommendation."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
