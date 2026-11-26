@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T22:21:18.808Z",
+  "generatedAt": "2026-11-26T23:57:08.215Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-device-handoff-preflight.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-traffic-placement-boundary-map.json",
-    "ops/editorial/content-artifacts/hentai-anime-cross-format-discovery-task-test.json",
-    "ops/editorial/content-artifacts/free-video-embedded-player-host-boundary-check.json",
-    "ops/editorial/content-artifacts/adult-games-community-feature-dependency-preflight.json"
+    "ops/editorial/content-artifacts/adult-shop-final-order-review-workflow.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-headset-session-setup-sequence.json",
+    "ops/editorial/content-artifacts/live-cam-platform-session-interruption-recovery-comparison.json",
+    "ops/editorial/content-artifacts/adult-platform-privacy-device-notification-quiet-hours-plan.json",
+    "ops/editorial/content-artifacts/premium-video-series-completion-access-fit-workbook.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-device-handoff-preflight.js",
-    "src/data/guides/webmaster-affiliate-program-traffic-placement-boundary-map.js",
-    "src/data/guides/hentai-anime-cross-format-discovery-task-test.js",
-    "src/data/guides/free-video-embedded-player-host-boundary-check.js",
-    "src/data/guides/adult-games-community-feature-dependency-preflight.js"
+    "src/data/guides/adult-shop-final-order-review-workflow.js",
+    "src/data/guides/vr-adult-platform-headset-session-setup-sequence.js",
+    "src/data/guides/live-cam-platform-session-interruption-recovery-comparison.js",
+    "src/data/guides/adult-platform-privacy-device-notification-quiet-hours-plan.js",
+    "src/data/guides/premium-video-series-completion-access-fit-workbook.js"
   ],
   "categories": [
-    "premium-videos",
-    "webmaster-affiliate",
-    "hentai-anime",
-    "free-videos",
-    "adult-games"
+    "adult-shops",
+    "vr-ar",
+    "live-cams",
+    "privacy-safety-payment",
+    "premium-videos"
   ],
   "backlogIds": [
-    "premium-video-device-handoff-preflight",
-    "webmaster-affiliate-program-traffic-placement-boundary-map",
-    "hentai-anime-cross-format-discovery-task-test",
-    "free-video-embedded-player-host-boundary-check",
-    "adult-games-community-feature-dependency-preflight"
+    "adult-shop-final-order-review-workflow",
+    "vr-adult-platform-headset-session-setup-sequence",
+    "live-cam-platform-session-interruption-recovery-comparison",
+    "adult-platform-privacy-device-notification-quiet-hours-plan",
+    "premium-video-series-completion-access-fit-workbook"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45904040268",
-  "phase": "closed"
+  "r1CycleId": "45913747428"
 }
