@@ -1,0 +1,111 @@
+{
+  "backlogId": "adult-dating-platform-group-event-boundary-fit",
+  "slug": "adult-dating-platform-group-event-boundary-fit",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check Privacy Boundaries Before Joining Groups or Events",
+  "description": "Compare dating-platform groups and events by visibility, participation, and communication boundaries before using community features alongside profile-based discovery.",
+  "excerpt": "Groups and events can change who sees your activity and how people contact you. Check audience, participation, and exit controls before adding community features to your dating routine.",
+  "keyTakeaways": [
+    "Review who can see event attendance, group membership, and activity before joining.",
+    "Check whether participation is optional and separate from your profile's general visibility.",
+    "Understand how members can contact you and what block or report tools apply in community spaces.",
+    "Confirm whether an RSVP, post, or comment creates a lasting record or notification.",
+    "Choose community features that fit your boundaries rather than joining because they appear alongside discovery."
+  ],
+  "sections": [
+    {
+      "heading": "Treat community features as a separate decision",
+      "paragraphs": [
+        "Dating platforms may combine profile discovery with groups, events, or other community spaces. These features can help people find shared interests, but they may also expose different information from a standard profile or match flow. Before joining, separate the decision to use the platform for dating from the decision to participate in a community area. One does not automatically require the other.",
+        "Start with the basic audience question: who can see that you joined, viewed, RSVP'd, posted, or commented? The answer may differ for group members, event organizers, matches, or people outside the group. Look for current explanations in the platform's privacy and feature settings. If the audience is not clear, assume that your activity may be visible to more people than you intended until you can verify otherwise."
+      ]
+    },
+    {
+      "heading": "Compare visibility before participation",
+      "paragraphs": [
+        "Read the event or group information before tapping join or RSVP. Check whether attendance is public to all users, limited to participants, or visible on your profile. Look for previews that show what other people can see, and check whether a privacy setting applies to the community feature or only to ordinary profile discovery. A profile visibility control may not govern event participation.",
+        "Also consider indirect visibility. A group title, event location, date, or attendance list could reveal interests or routines even if your full profile is not displayed. Avoid sharing precise personal details in public-facing posts, and do not assume that changing a profile setting retroactively hides past participation. If visibility cannot be established before joining, consider leaving the feature unused or asking the platform for clarification."
+      ],
+      "table": {
+        "caption": "Community-feature questions to answer before joining",
+        "headers": [
+          "Activity",
+          "Visibility question",
+          "Boundary to check"
+        ],
+        "rows": [
+          [
+            "Join a group",
+            "Who can see group membership?",
+            "Can you leave or hide membership later?"
+          ],
+          [
+            "RSVP to an event",
+            "Who can view attendance or RSVP status?",
+            "Can you change or withdraw the RSVP?"
+          ],
+          [
+            "Post or comment",
+            "Who can read the content and replies?",
+            "Can you edit, remove, block, or report?"
+          ],
+          [
+            "Contact another participant",
+            "Can people message you without a match?",
+            "Can messaging be limited or declined?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check communication and moderation boundaries",
+      "paragraphs": [
+        "Community spaces can create contact routes that differ from match-based messaging. Confirm whether group members can send direct messages, reply publicly, or mention your account. Check whether message controls and block tools apply consistently across events, groups, and profiles. If you prefer to keep conversations within a mutual-match context, make sure participation does not automatically open a different channel.",
+        "Review how to report unwanted conduct in the specific space. A platform may provide reporting tools, but the route and evidence needed can differ between a profile, a message, and an event post. Before joining, know how to find the relevant controls and whether you can leave a group or event without notifying other members. You do not need to test a risky interaction to learn where the safety controls are located."
+      ]
+    },
+    {
+      "heading": "Understand RSVPs, notifications, and records",
+      "paragraphs": [
+        "An RSVP can generate notifications or appear in activity feeds. Check whether the platform explains these effects and whether event-related alerts can be managed separately. If notifications could appear on a shared screen or device, review their previews and delivery settings before participating. Consider whether a calendar invitation or email confirmation might reveal the event name to someone with access to those accounts.",
+        "Check whether posts, comments, and participation records can be edited or removed, and whether leaving a community affects older activity. Do not assume that deleting a post removes copies in notifications, screenshots, or messages. Keep participation low-disclosure: share only the details needed for the event or group, and use the platform's controls rather than moving to an unfamiliar channel because another member requests it."
+      ]
+    },
+    {
+      "heading": "Choose a participation level that fits your boundaries",
+      "paragraphs": [
+        "Community participation is not all-or-nothing. You might browse descriptions without joining, attend an event without posting, or use groups only after confirming their audience and contact rules. Choose the lowest level of exposure that still serves your purpose. If the feature requires visibility you are uncomfortable with, it is reasonable to skip it and use the platform's other discovery tools instead.",
+        "Before committing, make a short decision record: what the feature offers, who can see your activity, how people can contact you, what controls are available, and what you would do if you wanted to leave. Revisit that record if the platform changes its feature settings or if your own boundaries change. The goal is not to avoid every community function; it is to participate deliberately, with a clear understanding of what the action may reveal."
+      ],
+      "bullets": [
+        "Check audience and contact rules before joining or RSVPing.",
+        "Use a separate boundary for community participation and profile discovery.",
+        "Review notification previews and connected calendar or email behavior.",
+        "Know how to leave, block, and report before you need those controls."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does hiding my dating profile also hide group membership or event attendance?",
+      "answer": "Do not assume so. Profile visibility controls may not apply to community features. Check the platform's explanation for group membership, RSVP visibility, and event activity separately before participating."
+    },
+    {
+      "question": "Can people in a group message me even if we have not matched?",
+      "answer": "That depends on the platform's communication rules and settings. Check whether community membership creates a separate contact route and whether you can limit, decline, or block messages."
+    },
+    {
+      "question": "What should I check before RSVPing to an event?",
+      "answer": "Confirm who can see your RSVP, whether event details appear in notifications or connected calendars, whether attendance can be changed, and how to leave or report a concern. If a detail is unclear, avoid sharing more information than necessary."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

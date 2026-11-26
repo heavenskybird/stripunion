@@ -1,0 +1,116 @@
+{
+  "backlogId": "webmaster-affiliate-attribution-evidence-appeal-readiness",
+  "slug": "webmaster-affiliate-attribution-evidence-appeal-readiness",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check the Evidence Process for Attribution Questions",
+  "description": "Before relying on an affiliate program, check how you can raise attribution questions, what supporting records are useful, and how to keep your investigation organized.",
+  "excerpt": "A tracking question is easier to investigate when you know what evidence exists and how support reviews it. Map the process before a reporting discrepancy becomes urgent.",
+  "keyTakeaways": [
+    "Distinguish a reporting discrepancy from a confirmed tracking failure before drawing conclusions.",
+    "Check which evidence the program can review and which records you can retain from your own site.",
+    "Use a small, privacy-conscious incident log with dates, campaign references, and observed symptoms.",
+    "Ask support specific questions about the review process, not for unsupported promises about outcomes.",
+    "Keep program records and visitor-level data separate; avoid collecting unnecessary personal information."
+  ],
+  "sections": [
+    {
+      "heading": "Define the question before collecting evidence",
+      "paragraphs": [
+        "When a referral appears missing or a report looks unexpected, first describe the issue in a way that can be checked. “The program is not tracking” is a conclusion. “A tagged link returned an error at a particular time, and the dashboard later showed no corresponding click” is an observation. Separate what you directly saw from what you suspect. This keeps an investigation useful even when the cause is not yet known.",
+        "Make a short incident record with the date and time, the campaign or placement reference, the link destination, the browser or device context if relevant, and the exact symptom. Avoid recording a visitor’s name, email address, or other personal details unless a documented, appropriate process requires it. Use internal campaign identifiers rather than creating a dossier of individual visitors. The objective is to make the event reproducible without expanding data collection unnecessarily."
+      ],
+      "bullets": [
+        "Write observations separately from interpretations.",
+        "Use a campaign or placement identifier instead of personal visitor details.",
+        "Note whether the issue was reproduced and under what conditions."
+      ]
+    },
+    {
+      "heading": "Map the evidence available to each party",
+      "paragraphs": [
+        "An affiliate publisher and a program operator may see different parts of a referral journey. You may be able to confirm that a link was present, correctly configured, and receiving requests on your site. The program may have records of its own redirects, click events, conversion events, or later adjustments. Neither side should assume that the other can see every step. Before relying on the program, find out which records are available and what level of detail can be shared.",
+        "Review the program documentation for reporting fields, support procedures, and any stated retention limits. If a term is unclear, ask what evidence is considered when a publisher questions a missing or changed event. Do not assume that a dashboard export is a complete audit trail. A report can be useful for monitoring while still omitting the technical detail needed to explain an individual discrepancy."
+      ],
+      "table": {
+        "caption": "Match a tracking question to evidence that may help investigate it",
+        "headers": [
+          "Question",
+          "Publisher-side evidence",
+          "Program-side question"
+        ],
+        "rows": [
+          [
+            "Did the link appear correctly?",
+            "Saved placement, destination, and link configuration",
+            "Was the received link processed as expected?"
+          ],
+          [
+            "Did a redirect behave unexpectedly?",
+            "Time, test context, and observed destination",
+            "Are redirect or error records available for that interval?"
+          ],
+          [
+            "Did a report change?",
+            "Dated report exports and campaign identifiers",
+            "What event or adjustment explains the change?"
+          ],
+          [
+            "Can the issue be reproduced?",
+            "Repeatable steps using a controlled test where permitted",
+            "Is there a documented test or escalation route?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check the reporting and correction process",
+      "paragraphs": [
+        "Look for definitions of the reporting states you will use: click, conversion, pending, approved, adjusted, or other labels. A mismatch may come from different meanings or reporting periods rather than a tracking defect. Check whether reports can be revised, how changes are displayed, and whether the program specifies a way to question a record. These are process details to verify in current program materials, not features to assume.",
+        "Ask practical questions before sending meaningful traffic: Which report or reference should be attached to a question? Is there a stated period for reporting an issue? Does the program provide an inquiry reference or written response? What information should not be sent through ordinary email? Clear answers help you plan recordkeeping and reduce the temptation to share excessive data when a problem occurs."
+      ]
+    },
+    {
+      "heading": "Create a privacy-conscious evidence file",
+      "paragraphs": [
+        "Keep evidence focused and access-controlled. A useful file might contain dated exports, screenshots with unrelated account details removed, a copy of the relevant link configuration, and correspondence about the issue. Preserve original files when possible and note when a copy has been edited to hide irrelevant information. Do not place sensitive credentials, full payment details, or raw visitor records in a general campaign folder.",
+        "Set a practical retention rule. Keep records for the period needed to reconcile reporting, handle a question, and meet your own business-record obligations; then review whether they still need to be retained. The right period depends on the program's terms and your circumstances. If the program requests data you do not normally collect, ask why it is needed and whether a less identifying alternative is acceptable."
+      ]
+    },
+    {
+      "heading": "Run a controlled test and escalate clearly",
+      "paragraphs": [
+        "If the program permits testing, use a controlled method that cannot be mistaken for a real visitor conversion or ordinary campaign performance. Check its written rules first. Record the test identifier, time, steps, and expected observation. Keep test activity separate from production reporting, and label it clearly. If testing is not permitted or its effect on reporting is unclear, ask before proceeding.",
+        "When escalating, send a concise timeline, the relevant campaign reference, the observed symptom, and the evidence that supports it. State what you want clarified—for example, whether a particular event reached the reporting system or why a report entry changed. Avoid asserting a cause that the evidence cannot establish. Keep the response with the incident record, and update your own link or reporting workflow only after you understand the finding."
+      ],
+      "bullets": [
+        "Confirm that testing is allowed before creating a test event.",
+        "Include dates, relevant identifiers, and a plain-language description of the discrepancy.",
+        "Remove unrelated personal or financial information from attachments.",
+        "Record the resolution and any operational change that follows."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What evidence proves an affiliate conversion was missed?",
+      "answer": "There may be no single item that proves the cause. A publisher can document link configuration, timing, and observed behavior, while the program may have records of its own tracking events. Use those facts to request a review rather than presenting a hypothesis as proof."
+    },
+    {
+      "question": "Should I send visitor-level data to affiliate support?",
+      "answer": "Do not send personal or sensitive data by default. First check the program’s instructions, explain the issue using campaign identifiers where possible, and ask whether a less identifying record is sufficient. Follow applicable privacy and contractual requirements."
+    },
+    {
+      "question": "Can I create a test conversion to investigate a discrepancy?",
+      "answer": "Only if the program’s rules allow it and you understand how the event will be recorded. Ask for a documented test procedure when in doubt, and keep any permitted test activity distinct from ordinary production reporting."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
