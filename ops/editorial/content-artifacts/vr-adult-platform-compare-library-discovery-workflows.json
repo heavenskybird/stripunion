@@ -1,0 +1,134 @@
+{
+  "backlogId": "vr-adult-platform-compare-library-discovery-workflows",
+  "slug": "vr-adult-platform-compare-library-discovery-workflows",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Compare Library Discovery Before You Choose",
+  "description": "A practical way to evaluate how VR adult platforms help you find relevant titles, understand listings, and move from browsing to playback.",
+  "excerpt": "A large catalog is only useful if you can navigate it. Compare discovery tools with a short, repeatable test that looks beyond the number of listings.",
+  "keyTakeaways": [
+    "Treat catalog size and catalog findability as separate questions; a broad library can still be difficult to use.",
+    "Test the same search and browsing tasks on each platform, using only features available before you commit.",
+    "Check whether filters are specific, understandable, and easy to clear or change.",
+    "Record gaps between what a listing promises and what you can confirm before playback.",
+    "Use your own priority list rather than relying on a platform’s featured or recommended items."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the titles and attributes you actually care about",
+      "paragraphs": [
+        "Platform discovery is easier to compare when you begin with a defined task. Before opening any catalog, write down a small set of content attributes that matter to you. These might include format, language, length, creator or publisher, release period, or whether a listing is described as headset-ready. Keep the list non-explicit and specific enough that you can apply it consistently.",
+        "This prevents a common comparison error: judging one platform by its polished front page and another by its search results. Choose several test queries that reflect your actual browsing habits, then use the same queries on each candidate. If you do not know what you want yet, test broad browsing and category navigation instead of pretending that search results answer every question."
+      ],
+      "bullets": [
+        "Choose three to five representative search or browsing tasks.",
+        "Note which attributes are essential and which are optional.",
+        "Separate a format label shown in a listing from compatibility confirmed elsewhere."
+      ]
+    },
+    {
+      "heading": "Compare the discovery route, not just the result list",
+      "paragraphs": [
+        "A useful discovery route has several stages: entering a query or category, narrowing results, opening a listing, checking the information provided, and returning to the results without losing your place. Evaluate the whole route. A platform may return relevant results but make it hard to refine them; another may have fewer visible categories but clearer navigation and better listing details.",
+        "Check whether filters can be combined and whether their effect is apparent. If a filter makes the list empty, can you remove just that filter or reset the whole search? Do category labels have clear meanings? Does the interface show when a result set is limited? These details matter in a headset, where repeated backtracking or text entry can make ordinary catalog exploration cumbersome."
+      ],
+      "table": {
+        "caption": "A repeatable discovery comparison",
+        "headers": [
+          "Task",
+          "What to observe",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Find a known title or creator",
+            "Whether search finds a clear match and how results are labeled",
+            "Query, result wording, and any ambiguity"
+          ],
+          [
+            "Narrow a broad category",
+            "Whether filters combine and can be undone",
+            "Available filters and steps to clear them"
+          ],
+          [
+            "Check a listing",
+            "Whether format and access details are easy to locate",
+            "What is stated and what remains unclear"
+          ],
+          [
+            "Return to results",
+            "Whether the list and selected filters persist",
+            "What changed after opening a listing"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect listing quality and uncertainty",
+      "paragraphs": [
+        "Search results are only as useful as the information attached to them. Open representative listings and look for consistent metadata: a clear title, format description, creator or publisher attribution where provided, and a plain explanation of the access route. Do not assume that a thumbnail, category badge, or promotional description proves that an item will play in your intended setup.",
+        "When a listing leaves a question unanswered, mark it as unknown rather than filling the gap with an assumption. For example, a platform might describe an item as immersive without clarifying whether it is designed for headset playback. Your comparison should distinguish confirmed details from claims that need further verification. A simple confidence label—confirmed, stated but unverified, or unclear—helps keep your shortlist honest."
+      ],
+      "bullets": [
+        "Record the exact wording of relevant format and access labels.",
+        "Flag missing details instead of treating them as a negative or a positive.",
+        "Check whether similar listings use consistent terminology."
+      ]
+    },
+    {
+      "heading": "Evaluate recommendations without letting them set your priorities",
+      "paragraphs": [
+        "Featured shelves and recommendation panels can make browsing feel effortless, but their prominence does not establish that they are the best match for your needs. Compare the recommendations with results from your own searches. If the interface offers explanations for why an item appears, note whether those explanations are specific enough to be useful. If it does not, treat the panel as a starting point, not a complete catalog map.",
+        "Consider whether the service lets you control or dismiss recommendations, especially if you want to keep browsing separate from a personalized history. Discovery controls are also relevant to privacy: learn what the service says about viewing history and recommendations before you create an account. This article’s focus is catalog usability, but the browsing experience can be shaped by stored account data."
+      ],
+      "paragraphs2": []
+    },
+    {
+      "heading": "Build a shortlist with a simple scorecard",
+      "paragraphs": [
+        "A scorecard makes the result actionable. Give each candidate platform a separate rating for search, filtering, listing clarity, and headset usability. Use a scale such as strong, adequate, weak, or not verified. Do not collapse these measures into a single score unless you have decided how much each factor matters to you; a poor score on a must-have requirement should not be hidden by several minor conveniences.",
+        "Use the scorecard to identify what to verify next. If a candidate appears easy to browse but its format information is unclear, look for an official help page or a preview that can answer that specific question. If a platform requires account creation before you can inspect the catalog, mark that access limitation in your notes and decide whether it changes your willingness to evaluate it. Keep notes neutral and avoid storing sensitive details in a shared document."
+      ],
+      "bullets": [
+        "Search: Were your test queries useful?",
+        "Filtering: Could you narrow and reset results predictably?",
+        "Listing clarity: Were key details easy to find?",
+        "Headset use: Could you complete the browsing route comfortably?",
+        "Confidence: Which conclusions are verified, and which remain uncertain?"
+      ]
+    },
+    {
+      "heading": "Turn the comparison into a decision",
+      "paragraphs": [
+        "Choose the platform that best supports your actual discovery tasks, not the one with the most persuasive presentation. If two options are close, revisit the requirements you marked essential and verify those first. A small difference in visual design may matter less than whether you can reliably identify access conditions or find the types of listings you seek.",
+        "Finally, preserve your notes as a decision record rather than a permanent catalog. Libraries, interfaces, and labels can change. Include the date of your comparison and the pages or screens you reviewed. Recheck the specific claims that determined your choice before making a purchase or starting a recurring membership. This approach gives you a useful comparison without claiming that any one platform is universally superior."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is a larger VR library always easier to use?",
+      "answer": "No. Library size describes the amount of content, not how effectively a platform helps you find and evaluate it. Search, filters, categories, listing detail, and headset navigation all affect usability."
+    },
+    {
+      "question": "What should I do when a listing does not explain its format clearly?",
+      "answer": "Mark the detail as unclear and look for an official explanation or a representative preview. Do not infer headset compatibility from a promotional image or a broad format label."
+    },
+    {
+      "question": "Can I compare platforms without signing up?",
+      "answer": "That depends on what each service makes visible before registration. Record any account gate as a limitation of your evaluation, and avoid creating an account until you have reviewed its sign-up and privacy information."
+    },
+    {
+      "question": "How often should I revisit my discovery notes?",
+      "answer": "Recheck details that influenced your decision before purchase or renewal, and update your notes if the service changes its catalog labels, search tools, or access terms."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
