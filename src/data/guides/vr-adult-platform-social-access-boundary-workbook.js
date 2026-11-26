@@ -1,0 +1,150 @@
+export default {
+  "slug": "vr-adult-platform-social-access-boundary-workbook",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Whether Social Features Are Optional Before Joining",
+  "description": "A decision workbook for checking whether VR adult platform features involve other users, shared spaces, profiles or communication before choosing an access plan.",
+  "excerpt": "A VR library may be described alongside social or community features, but that does not tell you whether those features are optional or how they work. Map the boundaries before creating an account.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Separate private playback, public profiles, shared spaces and direct communication; they are different kinds of participation.",
+    "Check whether social features are required for discovery, access, support or account setup, rather than assuming they are optional.",
+    "Review what other users can see, what interactions are possible and which controls are available before joining.",
+    "Use platform documentation and account settings as evidence; do not treat marketing language or a feature label as a complete explanation.",
+    "If the platform does not clarify an important boundary, treat that as an unresolved decision point and avoid sharing information until you understand it."
+  ],
+  "sections": [
+    {
+      "heading": "Separate content access from social participation",
+      "paragraphs": [
+        "A VR adult platform may combine a catalog or playback service with community elements, profiles, shared spaces, comments or communication tools. These functions can have different audiences and privacy implications. A platform that offers social features does not necessarily require them, and a platform that describes an experience as private may still expose account details through profiles, activity indicators or support interactions. Identify each feature separately before deciding whether the service fits your boundaries.",
+        "Start with your own minimum requirements. You might want a library without public profile activity, or you may be comfortable with community discovery but not direct messages. Write down which types of participation you do and do not want. Then compare those requirements with the platform’s actual settings and instructions. This turns a vague question—“Is it social?”—into concrete checks about access, visibility, communication and control."
+      ],
+      "table": {
+        "caption": "Map each feature to its audience and control",
+        "headers": [
+          "Feature area",
+          "What to check",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Playback or library access",
+            "Does access work without posting or joining a shared space?",
+            "Access instructions and account requirements"
+          ],
+          [
+            "Profile and activity",
+            "Can others find the profile or see activity?",
+            "Visibility settings and profile help pages"
+          ],
+          [
+            "Shared spaces",
+            "Who can enter, observe or interact?",
+            "Participation rules and entry controls"
+          ],
+          [
+            "Messaging or comments",
+            "Can you disable, restrict or leave communication?",
+            "Messaging settings, community rules and block controls"
+          ],
+          [
+            "Discovery and recommendations",
+            "Does participation affect what is shown?",
+            "Preference controls and explanations of recommendations"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Find out what is required for basic access",
+      "paragraphs": [
+        "Before signing up, determine whether account creation, catalog browsing, previews or playback depend on community participation. Check the registration flow and official help information for requirements such as a profile, public handle, community membership or posting. A feature may be described as optional in general but be needed for a particular access route. Verify the route you intend to use rather than extrapolating from a homepage or promotional description.",
+        "If you can browse without an account, use that opportunity to inspect the service’s access explanations before sharing personal information. If sign-in is required, read the account and privacy settings before joining community areas. Record which steps are mandatory and which are choices you can decline. When instructions are missing, do not assume a social interaction is required or harmless; ask a narrow support question or choose a platform whose boundaries are clearer."
+      ],
+      "bullets": [
+        "Identify the minimum steps needed to view the library or use a preview.",
+        "Check whether a profile or public handle is mandatory.",
+        "Confirm whether community membership is separate from paid or account access."
+      ]
+    },
+    {
+      "heading": "Audit profile and activity visibility",
+      "paragraphs": [
+        "A profile can reveal more than a display name. Depending on the platform and settings, it may include an avatar, biography, saved items, activity, public comments or a list of followed accounts. Check the profile preview as another user would see it if the platform provides that option. Look for separate controls for profile discovery, activity status and saved-item visibility; one privacy toggle may not govern all of them.",
+        "Do not assume that a private profile hides every action. Comments, group participation or activity indicators may have separate audiences, and settings can differ between the headset interface and a companion website. Review the control’s wording and test it with low-risk information if the platform permits. Avoid adding identifying details while you are still learning how visibility works. If the platform cannot explain the audience for a field, leave it blank when optional."
+      ],
+      "paragraphs2": [
+        "Make a short record of settings you change and where you changed them. This is useful if you later use another device or the platform updates its interface. The record should contain setting names and your chosen state, not screenshots of sensitive profiles or private conversations. Recheck the settings if you change accounts, devices or participation modes."
+      ]
+    },
+    {
+      "heading": "Evaluate shared spaces and communication controls",
+      "paragraphs": [
+        "If a platform offers shared rooms, group areas, comments or direct communication, inspect the rules before entering. Find out whether participation is live or asynchronous, how people can contact you, and whether you can mute, block, report or leave. Check whether these controls are available from the headset and whether leaving a space removes you from it immediately or only changes future discovery. Do not infer moderation quality or response times without evidence.",
+        "Set a boundary for what you will share before using communication features. For example, decide whether you will use a separate display name, avoid linking outside accounts or keep conversations within the platform. These are personal choices, not guarantees of anonymity. A profile or message may still be retained or visible under the platform’s rules. If a feature does not provide the controls you need, leave it unused rather than treating it as a necessary part of the catalog experience."
+      ],
+      "bullets": [
+        "Read community rules and available reporting instructions before participating.",
+        "Check controls for muting, blocking, leaving and limiting contact.",
+        "Do not connect personal social accounts unless you understand the information shared."
+      ]
+    },
+    {
+      "heading": "Use a boundary scorecard before joining",
+      "paragraphs": [
+        "Compare platforms using evidence rather than the number of social features they advertise. A compact scorecard can record whether a feature exists, whether it is required, what information is visible, what controls you found and what remains uncertain. Use simple labels such as clear, partly clear and unknown. This helps distinguish a genuine platform fit from a feature list that looks comprehensive but does not explain audience or control.",
+        "Give more weight to decision-critical uncertainties than to optional conveniences. If private library access is essential, uncertainty about whether a public profile is required should stop the decision until clarified. If a community feature is optional and you do not plan to use it, its presence may be less important—provided you can avoid it and it does not affect basic access. Revisit the scorecard after signup, before enabling optional features, and when platform settings or terms change."
+      ],
+      "table": {
+        "caption": "Example decision scorecard",
+        "headers": [
+          "Question",
+          "Clear",
+          "Unclear or follow-up"
+        ],
+        "rows": [
+          [
+            "Can basic access work without community participation?",
+            "Official instructions show the required steps",
+            "Ask whether a profile, group or post is mandatory"
+          ],
+          [
+            "Who can see profile activity?",
+            "Audience and settings are described",
+            "Leave activity features disabled where possible"
+          ],
+          [
+            "Can communication be restricted?",
+            "Controls and their effects are explained",
+            "Do not start conversations until controls are understood"
+          ],
+          [
+            "Can I leave or report a space?",
+            "Exit and reporting routes are documented",
+            "Find the official support route or avoid the space"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform with social features require me to use them?",
+      "answer": "Not always. The answer depends on the platform and the access route. Check whether browsing, previews, playback or account setup require profile creation or community participation. Verify official instructions for the specific features you plan to use rather than assuming all social functions are either mandatory or optional."
+    },
+    {
+      "question": "Is a private profile enough to prevent others seeing my activity?",
+      "answer": "Not necessarily. Profile visibility, activity indicators, comments, saved items and group participation may have separate controls. Review each setting and its stated audience. If the platform does not explain a particular activity surface, treat it as uncertain and avoid sharing information there until clarified."
+    },
+    {
+      "question": "What should I check before entering a shared VR space?",
+      "answer": "Review who can enter, what interaction is possible, whether you can leave promptly, and how to mute, block or report someone. Read the space’s rules and avoid sharing identifying information. Do not rely on a feature label alone to establish privacy or moderation practices."
+    },
+    {
+      "question": "Should I use the same identity for a platform profile and other social accounts?",
+      "answer": "Only if you understand the linking and visibility consequences and are comfortable with them. Connecting accounts can make identities easier to associate. Check what information is shared, whether the link is public and whether it can be removed. A separate display name can reduce casual linkage but does not guarantee anonymity."
+    }
+  ]
+};

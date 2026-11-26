@@ -1,0 +1,145 @@
+export default {
+  "slug": "dating-platform-new-member-pool-evidence-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check How New Members Enter Your Discovery Pool",
+  "description": "Before investing in a dating profile, assess how a platform describes discovery eligibility, profile freshness and the way new members may appear in your search or recommendations.",
+  "excerpt": "A large catalog or busy interface does not tell you whether discovery matches your preferences or whether profiles are current. Use this evidence checklist to inspect how new members enter your pool.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Distinguish the size of a visible pool from the number of profiles that meet your chosen filters and are currently discoverable.",
+    "Look for explanations of how new profiles become eligible for search, recommendations or nearby discovery.",
+    "Check whether freshness indicators describe recent activity, profile creation or something else; do not treat them as interchangeable.",
+    "Test discovery settings with a small, reversible setup before completing a detailed profile or paying for access.",
+    "Treat missing explanations as uncertainty, not proof that a platform has an active or inactive local community."
+  ],
+  "sections": [
+    {
+      "heading": "Define the discovery question you need answered",
+      "paragraphs": [
+        "Before joining a dating or casual-connection platform, it is useful to know how profiles enter the set you can actually browse. A headline count, an active-looking feed or a stream of new recommendations may not explain who is eligible to appear, how filters are applied or how inactive profiles are handled. Your practical question is narrower: does the platform provide a discovery route that can show profiles fitting your chosen area, preferences and participation boundaries?",
+        "Separate three concepts in your notes: the total profile pool described by the service, the subset visible under your filters and the profiles with evidence of recent activity. These are not equivalent. A platform may display a broad pool while your chosen settings return few results, or it may show profiles without making their recent activity clear. Avoid treating a search result count as a measure of current community activity unless the platform explains what that count means."
+      ],
+      "table": {
+        "caption": "Three different discovery signals to keep separate",
+        "headers": [
+          "Signal",
+          "What it may describe",
+          "Question to ask"
+        ],
+        "rows": [
+          [
+            "Pool size",
+            "Profiles held or represented by a service",
+            "Does this include inactive, hidden or out-of-area profiles?"
+          ],
+          [
+            "Search results",
+            "Profiles meeting the current settings",
+            "Which filters are applied, and are they combined as expected?"
+          ],
+          [
+            "Freshness or activity",
+            "A profile date, presence indicator or recent action",
+            "What specific event does the label represent, and when was it recorded?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect how a profile becomes discoverable",
+      "paragraphs": [
+        "Look for platform explanations of whether a new profile appears immediately, only after completing certain fields, or after a review or activation step. A profile may also be hidden until the owner opts into discovery. These details can affect what you see when browsing and what other people may see about you. Read the platform’s help pages and settings rather than assuming that registration alone makes an account visible.",
+        "Check for distinct states such as draft, paused, hidden, active or under review if the platform documents them. A status label should not be treated as a guarantee about visibility unless its effect is described. If you are testing a platform, use the least identifying profile setup that still lets you inspect the discovery experience. Before adding photos or detailed personal information, determine whether you can preview the audience and change visibility without losing access to account settings."
+      ],
+      "bullets": [
+        "Find the platform’s explanation of discovery eligibility and profile activation.",
+        "Check whether visibility can be changed independently of account deletion.",
+        "Understand whether profile review or completion affects discovery, if documented."
+      ]
+    },
+    {
+      "heading": "Evaluate freshness labels without guessing",
+      "paragraphs": [
+        "Platforms may use words such as new, active, recently seen or recently joined. These labels can refer to different events. A profile creation date does not establish recent use, and an activity indicator does not establish that a person is currently available to connect. Check the platform’s definitions, if provided, and avoid using an ambiguous badge as the sole basis for deciding whether a profile is current.",
+        "If the platform provides no definition, record the label as unexplained. Do not infer a hidden activity history from changes in search results, because ranking and filters may also affect what appears. Where possible, compare the same settings at different times without collecting or sharing identifiable profile information. The purpose is to understand the interface’s behavior, not to monitor individual users."
+      ],
+      "paragraphs2": [
+        "Freshness information also has privacy implications. Some people may not want their activity or recency exposed. Review your own visibility settings before enabling status indicators, read receipts or similar features. Consider whether you can browse without broadcasting presence, and whether those controls are separate from profile discoverability. The platform’s exact options should be verified in its settings and help material."
+      ]
+    },
+    {
+      "heading": "Test filters and entry routes with a low-risk setup",
+      "paragraphs": [
+        "A small discovery test can reveal whether the platform’s controls match your needs before you build a full profile. Start with the minimum required account information, then inspect which filters are available, whether they can be combined and what happens when you adjust one at a time. If the platform allows browsing before full profile completion, use that route to understand the interface. Avoid inventing a false identity or supplying details that violate the service’s rules simply to test it.",
+        "Record the filter values and what the interface says they do. Check whether location, distance, age range, relationship intent or other important preferences are mandatory, optional or absent. A filter may reduce a pool, but the result does not demonstrate that every matching profile is active or suitable. If a control’s effect is unclear, mark it for follow-up rather than drawing a conclusion from one search screen."
+      ],
+      "bullets": [
+        "Use one filter change at a time to understand the interface.",
+        "Avoid uploading identifying media during an initial discovery test.",
+        "Do not use another person’s details or bypass the platform’s rules."
+      ]
+    },
+    {
+      "heading": "Decide whether the evidence supports a commitment",
+      "paragraphs": [
+        "Use a simple evidence table to compare what the platform documents, what you observed and what remains unknown. Keep separate notes for discovery mechanics, visibility controls, freshness definitions and cancellation or profile-pause options. The evidence does not need to prove that a pool is large or active; it needs to show whether the platform’s discovery process is understandable and compatible with your preferences. If your key requirement cannot be assessed without paying or exposing personal details, account for that risk before proceeding.",
+        "Set a clear decision threshold. You might continue only if you can understand how to hide your profile, control the search area and interpret freshness labels. You might decide that unclear activity signals are acceptable if the rest of the service fits. Either outcome is valid. Avoid allowing repeated browsing or a prominent recommendation feed to substitute for evidence about who is actually eligible to appear and how the platform defines its signals."
+      ],
+      "table": {
+        "caption": "A practical platform comparison record",
+        "headers": [
+          "Check",
+          "Evidence to note",
+          "Decision use"
+        ],
+        "rows": [
+          [
+            "Discovery eligibility",
+            "Documented activation or visibility steps",
+            "Shows when a new profile may enter search"
+          ],
+          [
+            "Filter behavior",
+            "Available filters and explanations",
+            "Shows whether discovery can be narrowed as needed"
+          ],
+          [
+            "Freshness meaning",
+            "Definition of status or recency labels",
+            "Prevents treating unlike signals as the same"
+          ],
+          [
+            "Visibility controls",
+            "How to pause, hide or limit an audience",
+            "Helps manage exposure while testing"
+          ],
+          [
+            "Unresolved items",
+            "Questions the service does not answer",
+            "Identifies whether uncertainty is acceptable"
+          ]
+        ]
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a large number of profiles mean the local discovery pool is active?",
+      "answer": "No. A total profile count may include people outside your filters, people who are hidden or profiles whose activity is unclear. Check what the count represents and distinguish it from the results shown under your settings. Do not treat a headline number as proof of current local activity."
+    },
+    {
+      "question": "What does a “recently active” label prove?",
+      "answer": "Only what the platform’s own definition says it means. It may refer to a particular action or time window, and it may not indicate current availability. If there is no definition, mark the label as ambiguous rather than assuming it describes a live or current presence."
+    },
+    {
+      "question": "Can I inspect discovery before completing a profile?",
+      "answer": "Some platforms permit browsing or partial setup, while others require more information. Check the registration flow and official help pages. If you test the service, provide only what is required and allowed, and review visibility controls before adding identifying details."
+    },
+    {
+      "question": "What if I cannot tell whether a new profile becomes public immediately?",
+      "answer": "Treat the visibility state as unresolved. Look for official documentation or ask support a specific question about activation and audience. Avoid adding sensitive profile details until you understand the setting, and choose another service if that uncertainty conflicts with your privacy needs."
+    }
+  ]
+};

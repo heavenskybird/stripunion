@@ -1,0 +1,127 @@
+{
+  "backlogId": "adult-games-search-result-labels-shortlist-audit",
+  "slug": "adult-games-search-result-labels-shortlist-audit",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Game Storefronts: Check Search Result Labels Before Building a Shortlist",
+  "description": "A practical way to inspect adult game storefront search results for clear titles, versions, access types and content labels before you shortlist or buy.",
+  "excerpt": "Search results can look similar while describing different releases, access routes or content boundaries. Use this checklist to decide whether a listing gives enough evidence to compare games fairly.",
+  "keyTakeaways": [
+    "Treat a search result as an entry point, not as proof that two similarly named listings are the same game or release.",
+    "Check whether titles, editions, versions and access types are distinguished in both the result card and its linked detail page.",
+    "Look for filters and labels that explain their scope; a tag is useful only when you can tell what it means and how it is applied.",
+    "Record unresolved questions in a shortlist so uncertainty does not disappear when you move between tabs or devices.",
+    "If a listing remains ambiguous, pause the purchase decision rather than assuming missing details from neighboring results."
+  ],
+  "sections": [
+    {
+      "heading": "Why search-result clarity matters",
+      "paragraphs": [
+        "Adult game storefronts and discovery communities may present many listings in a compact space. A result can include a title, thumbnail, short description, tags and a link, but that small amount of information may not establish which release is being shown or what access it offers. Similar titles can refer to separate projects, editions, sequels or versions. A shortlist built from the card alone can therefore mix items that are not meaningfully comparable.",
+        "The practical goal is not to demand identical catalog design from every platform. It is to identify what the interface makes clear, what it leaves uncertain and where the platform expects you to verify details. This is especially useful when moving from a broad query to a purchase page, because the title or labels may be abbreviated in search and expanded elsewhere. Keep claims tied to the page where you saw them, rather than treating a result card as a complete product record."
+      ],
+      "bullets": [
+        "Note the exact displayed title and any edition or version wording.",
+        "Separate facts shown in the result from details confirmed only after opening the listing.",
+        "Do not infer that a tag means the same thing across different storefronts."
+      ]
+    },
+    {
+      "heading": "Read titles, editions and release identity as separate fields",
+      "paragraphs": [
+        "Start by checking whether a result provides enough identifying information to tell it apart from similar entries. A title may be clear while the edition, release status or platform-specific version is not. Look for an explicit developer or publisher attribution when available, and compare that information with the listing page. If the storefront shows a version number or release label, record it; do not assume the newest-looking title is the latest build or the complete release.",
+        "When two results appear related, open each in a separate tab and compare their identifiers before adding either to a shortlist. Check whether one is a demo, an early-access build, a sequel, an add-on or a separately sold edition. These distinctions affect what the listing represents, but a search result may not have room to explain them. Mark missing information as unknown instead of filling it in from a name, image or community comment."
+      ],
+      "table": {
+        "caption": "A simple evidence log for comparing search results",
+        "headers": [
+          "Field",
+          "What to record",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Displayed title",
+            "Exact wording, including subtitles",
+            "Prevents mix-ups between similarly named entries"
+          ],
+          [
+            "Release identity",
+            "Developer, publisher, edition or version if shown",
+            "Helps distinguish separate releases or packages"
+          ],
+          [
+            "Access type",
+            "Demo, full release, add-on, subscription listing or unclear",
+            "Keeps unlike access options out of the same comparison"
+          ],
+          [
+            "Evidence location",
+            "Result card, detail page, official help page or unresolved",
+            "Shows where a claim came from and what still needs checking"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Check whether labels explain their scope",
+      "paragraphs": [
+        "Tags and filters can improve discovery, but their labels may be broad, overlapping or platform-specific. Before relying on one, look for a definition or visible examples of what it includes. A filter called a format, genre, theme or content label may be describing different things; do not assume the interface uses these categories interchangeably. If a label is important to your decision, verify it on the game’s own listing and note any limits in the description.",
+        "Pay attention to whether a filter is inclusive or exclusive, whether multiple selections combine as alternatives or as requirements, and whether the result count changes when you apply it. If the interface does not explain its logic, use the filter as a browsing aid rather than as a guarantee. Avoid making assumptions about a title based on a single tag, especially when the listing’s text or screenshots do not provide corroborating context."
+      ],
+      "bullets": [
+        "Look for a short definition or help text for unfamiliar filters.",
+        "Test one filter at a time so you can see what changes.",
+        "Record whether a label is self-described, platform-assigned or not explained."
+      ]
+    },
+    {
+      "heading": "Follow the listing from discovery to decision",
+      "paragraphs": [
+        "Once a result seems relevant, inspect its detail page for information that a card cannot carry: supported devices, access requirements, release state, included content and links to official updates or support. The goal is to follow the same item from discovery through evaluation without silently switching to a similarly named listing. A stable link, publisher attribution or other consistent identifier can help; if these are absent, keep the uncertainty visible in your notes.",
+        "Compare claims only when you know they refer to the same release and access route. For instance, a result may lead to a demo while a separate page describes a full release, or a storefront may list an add-on beside a base game. Save the exact page title and the date you checked it if you expect to revisit the decision later. This creates a useful audit trail without requiring you to preserve sensitive browsing details in a shared document."
+      ],
+      "paragraphs2": [
+        "A quick second check is worthwhile when the result card and detail page use different wording. Look for an explanation of the difference rather than selecting the interpretation that seems most convenient. If the storefront provides no clarification, ask support through a channel you are comfortable using or leave the item off a high-confidence shortlist. A lack of evidence is a reason to mark a question unresolved, not evidence that the listing includes a particular feature."
+      ]
+    },
+    {
+      "heading": "Build a shortlist that preserves uncertainty",
+      "paragraphs": [
+        "A good shortlist makes comparisons easier without pretending every listing has been verified. Use a few consistent fields for each candidate: exact title, release identity, access type, platform support evidence, label clarity and open questions. A simple status such as confirmed, partly confirmed or unclear is more honest than a star score when the evidence differs between entries. Include the source of each important detail so you can revisit it without relying on memory.",
+        "Set a stopping rule before browsing further. For example, decide that you will not purchase until the release identity and access type are clear, or that you will exclude listings with unsupported device claims. A stopping rule prevents repeated exposure to incomplete listings from making them feel more certain than they are. It also keeps the shortlist focused on your actual requirements rather than on whichever result is most prominently displayed."
+      ],
+      "bullets": [
+        "Keep confirmed facts separate from questions and impressions.",
+        "Use the same comparison fields for every candidate.",
+        "Remove or defer an item when a decision-critical detail cannot be verified."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I rely on a storefront tag to describe every part of a game?",
+      "answer": "Not without checking what the tag means on that platform and whether the listing provides supporting detail. Tags can be useful for discovery, but they may summarize one aspect of a release or use categories that differ between services. Treat a tag as a lead to verify, not as a complete description."
+    },
+    {
+      "question": "What should I do when two results have nearly identical titles?",
+      "answer": "Compare the exact title, publisher or developer attribution, edition, release state and access type on each detail page. Keep them separate until you have evidence they refer to the same release. If the platform does not provide a distinguishing identifier, mark the relationship as unresolved rather than guessing."
+    },
+    {
+      "question": "Is a search result enough to decide whether a listing is a full release?",
+      "answer": "Often it is not. Search cards are compact and may omit release status or package details. Open the listing and look for explicit wording about demos, early access, add-ons or included access. If it remains unclear, defer the decision or seek clarification from an official support route."
+    },
+    {
+      "question": "How much information should a shortlist contain?",
+      "answer": "Enough to distinguish candidates and show the basis for important claims: exact title, release identity, access type, relevant platform evidence and any open questions. You do not need to copy an entire page. Keep only decision-useful notes and avoid placing private browsing details in a shared file."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
