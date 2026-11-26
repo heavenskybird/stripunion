@@ -1,0 +1,115 @@
+export default {
+  "slug": "hentai-anime-release-type-label-check",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Catalogs: Verify Whether a Listing Is an Episode, Special, or Compilation",
+  "description": "Check release-type labels and listing context to distinguish episodes, specials, short releases, and compilations before building a viewing shortlist.",
+  "excerpt": "A numbered result may be an episode, a special, a short, or a collection assembled from multiple items. This guide shows how to verify release type and avoid treating inconsistent catalog labels as a reliable sequence.",
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "keyTakeaways": [
+    "Do not infer release type from numbering alone; catalog conventions vary.",
+    "Compare the listing’s title, description, runtime information, and surrounding series context.",
+    "Distinguish an individual release from a compilation or collection entry.",
+    "Record conflicting labels and verify them against a consistent source where possible.",
+    "Build a shortlist around confirmed format and sequence, not just search-result order."
+  ],
+  "sections": [
+    {
+      "heading": "Why release-type labels matter",
+      "paragraphs": [
+        "Catalogs can group different kinds of releases under one series or search result. A numbered entry may refer to an installment, an extra, a special, or a collection that groups multiple items. A short release can also appear beside longer entries without an obvious indication that it follows a different format. Treating every result as an episode can create a misleading watch order or an incomplete shortlist.",
+        "The goal is not to establish a universal naming convention. There may be no single convention across catalogs. Instead, check what the particular listing says and look for corroborating context. If a platform omits the release type, mark it as unclear rather than filling in the gap from a number, thumbnail, or placement in search results."
+      ],
+      "bullets": [
+        "Episode or installment: a distinct entry in an identified sequence.",
+        "Special or extra: a separately labeled release that may sit outside a main sequence.",
+        "Compilation or collection: a grouped listing that may include multiple releases.",
+        "Short or standalone entry: a listing whose length or format differs from the surrounding catalog."
+      ]
+    },
+    {
+      "heading": "Read the full listing, not just the result card",
+      "paragraphs": [
+        "Open the title or detail page where safe and practical, then compare the title, description, listed format, and any episode or collection fields. Search cards often shorten titles and may omit explanatory labels. The detail page may offer a clearer distinction, but it can also repeat an ambiguous title without resolving it, so consider the evidence rather than assuming more text means greater certainty.",
+        "Check whether a listing identifies a sequence, volume, part, special, or collection in plain language. Note if the site uses a generic label such as “video” for several release types. If runtime or item count is shown, it can help identify that a listing is a compilation, but runtime alone does not establish the exact contents or sequence."
+      ],
+      "table": {
+        "caption": "Clues for identifying catalog release type",
+        "headers": [
+          "Clue",
+          "What it may indicate",
+          "Caution"
+        ],
+        "rows": [
+          [
+            "Explicit “special,” “extra,” or similar label",
+            "A release outside the main installment sequence",
+            "Confirm the label belongs to this listing, not a neighboring item"
+          ],
+          [
+            "Collection name or item count",
+            "A grouped or compiled entry",
+            "A count does not show which items are included"
+          ],
+          [
+            "Part or episode number plus series context",
+            "A possible sequence position",
+            "Numbering may be local to a platform or edition"
+          ],
+          [
+            "Short title or brief listing",
+            "A short or standalone format may be possible",
+            "A short title alone is not proof of a distinct format"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Cross-check sequence and collection context",
+      "paragraphs": []
+    },
+    {
+      "heading": "Spot compilation and duplicate-listing traps",
+      "paragraphs": [
+        "A compilation may be listed alongside its component entries, creating apparent duplicates. Before adding several results to a shortlist, check whether one listing describes a group of items while another describes an individual release. The platform may not state the relationship clearly, so look for a collection label, an item count, or a description that identifies bundled material.",
+        "Duplicate-looking listings can also represent separate editions, alternate packaging, or a re-upload rather than the same release. This article’s task is to identify release type, not to assume equivalence. Record differences in titles and metadata, and avoid selecting a sequence based solely on which result appears first or has the most complete-looking title."
+      ],
+      "bullets": [
+        "Write down the exact listing title and its stated release type.",
+        "Flag a result as “possible compilation” if the page suggests multiple items but does not enumerate them.",
+        "Keep ambiguous entries separate until their relationship is clear."
+      ]
+    },
+    {
+      "heading": "Create a reliable shortlist",
+      "paragraphs": [
+        "Use a small table with one row per listing: title as displayed, stated release type, sequence label, collection status, source, and confidence. A confidence note can be simple: confirmed by an explicit label, supported by multiple consistent details, or unresolved. This makes it easier to compare catalogs without turning an uncertain inference into a fact.",
+        "Decide what you need from the catalog. If you want a specific sequence, prioritize entries with clear series and installment information. If you are exploring standalone releases, avoid relying on series numbering. Revisit unresolved entries only when the distinction affects your choice. This keeps browsing focused and makes the limits of the available catalog information visible."
+      ],
+      "bullets": [
+        "Use “confirmed” only when the listing states the release type clearly.",
+        "Use “probable” when several details align but the platform does not label it directly.",
+        "Use “unknown” when numbering, title, and context conflict or are absent."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I use the number in a title to determine whether an entry is an episode?",
+      "answer": "Not reliably. Numbering can refer to a sequence, a part, a platform-specific label, or something else. Look for explicit release-type and series context, and record uncertainty when the catalog does not explain it."
+    },
+    {
+      "question": "How can I tell whether a listing is a compilation?",
+      "answer": "Look for a collection label, item count, or description that says it groups multiple releases. If the page does not identify its contents clearly, mark it as a possible compilation rather than assuming what it contains."
+    },
+    {
+      "question": "Should search-result order be treated as watch order?",
+      "answer": "No. Search order may reflect relevance, freshness, or other platform choices. Use explicit sequence information and consistent source context instead."
+    },
+    {
+      "question": "What if two platforms label the same-looking item differently?",
+      "answer": "Record both labels and compare the listing details and source attribution. The difference may reflect catalog conventions or a distinct release; do not assume the entries are identical without supporting evidence."
+    }
+  ]
+};

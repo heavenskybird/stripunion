@@ -1,0 +1,121 @@
+{
+  "backlogId": "adult-shop-local-pickup-fit-planner",
+  "slug": "adult-shop-local-pickup-fit-planner",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shops: Compare Local Pickup With Home Delivery Before Ordering",
+  "description": "Assess whether local pickup is genuinely available and suitable by checking location, timing, identity requirements, parcel handling, and fallback terms.",
+  "excerpt": "Pickup can change the privacy and logistics of an order, but the option may depend on location, stock, collection windows, or identification rules. Use this checklist to compare pickup with delivery before you place an order.",
+  "keyTakeaways": [
+    "Confirm whether pickup applies to the exact item and location, not just the retailer generally.",
+    "Check collection hours, readiness notices, identification rules, and the deadline to collect.",
+    "Find out what happens if an order is delayed, split, or not collected.",
+    "Compare the privacy trade-offs of a collection point with those of delivery to your address.",
+    "Keep a record of the selected option and the terms shown at checkout."
+  ],
+  "sections": [
+    {
+      "heading": "Confirm pickup is a real option for this order",
+      "paragraphs": [
+        "A retailer may describe pickup as a service while availability varies by location, item, or fulfillment route. Check the product page and checkout for the specific destination or collection point you would use. Confirm whether the item is marked available for pickup, whether the order must be transferred from another location, and whether the option remains selectable after entering the relevant details.",
+        "Do not treat a general store locator or a pickup icon as confirmation that your chosen item can be collected. If the checkout does not make availability clear, pause before paying and look for a written explanation or contact the retailer through a verified support route. Record the wording shown, since availability and estimated readiness can change."
+      ],
+      "bullets": [
+        "Is pickup offered for this exact item and collection location?",
+        "Does the listing distinguish local stock from stock that must be transferred?",
+        "Can the order include items with different fulfillment methods?"
+      ]
+    },
+    {
+      "heading": "Check the collection process and time window",
+      "paragraphs": [
+        "Before choosing pickup, find out how the retailer tells you that an order is ready and how long the collection window lasts. A checkout estimate is not necessarily a ready-for-collection notice. Check whether the retailer requires you to wait for a separate confirmation and what steps to follow if the notice does not arrive.",
+        "Review the collection hours, the deadline, and any identity or order-reference requirements. If someone else may collect the order, check whether the retailer permits that and what authorization is required. Avoid assuming that a digital receipt alone will be accepted. These details matter most when travel time, work hours, or a limited collection window makes a missed pickup costly."
+      ],
+      "table": {
+        "caption": "Pickup questions to resolve before checkout",
+        "headers": [
+          "Question",
+          "Why it matters",
+          "Evidence to save"
+        ],
+        "rows": [
+          [
+            "When is an order considered ready?",
+            "An estimated date may not permit collection",
+            "Readiness notice or stated process"
+          ],
+          [
+            "How long is the collection window?",
+            "A missed deadline may change fulfillment or cancel the order",
+            "Collection deadline and location hours"
+          ],
+          [
+            "What must the collector show?",
+            "Requirements may include identification or an order reference",
+            "Published pickup instructions"
+          ],
+          [
+            "What happens if the item is delayed?",
+            "A delay can affect travel and the chosen fulfillment method",
+            "Delay, cancellation, or support terms"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare privacy at the handoff",
+      "paragraphs": [
+        "Pickup avoids a parcel arriving at a home address, but it creates a different handoff. Consider who can see the collection, what information may appear on a notification or receipt, and whether the location provides a suitable way to collect a personal order. These are practical questions, not a guarantee that any method is completely private.",
+        "Home delivery has its own considerations, including who can accept a parcel and what delivery notifications display. Compare the actual options presented by the retailer rather than relying on a generic claim about discretion. If the retailer does not explain packaging or collection procedures, mark that point as unknown and decide whether the remaining uncertainty is acceptable."
+      ],
+      "bullets": [
+        "Check what information appears in pickup emails, texts, or app notifications.",
+        "Consider whether the collection location is convenient and appropriate for you.",
+        "Review the retailer’s stated parcel and order-record practices for delivery."
+      ]
+    },
+    {
+      "heading": "Plan for split orders, delays, and missed collection",
+      "paragraphs": []
+    },
+    {
+      "heading": "Make the choice using your constraints",
+      "paragraphs": [
+        "Pickup may suit someone who can reach the location during its opening hours and prefers not to receive a parcel at home. Delivery may be more practical if travel is difficult, collection timing is narrow, or the retailer’s pickup process is unclear. Neither option is inherently more discreet or reliable in every situation; the useful comparison is the one grounded in the retailer’s terms and your circumstances.",
+        "Before checkout, compare the total order terms, the handoff, and the fallback route side by side. Confirm the final method selected, save the policy details that affect your decision, and check the order confirmation afterward. If the confirmation differs from checkout, contact the retailer promptly through a verified channel and retain the response."
+      ],
+      "bullets": [
+        "Choose pickup when location, timing, and collection requirements are clear and workable.",
+        "Choose delivery when pickup logistics add more uncertainty than they remove.",
+        "Pause if the retailer’s terms do not explain a consequence that matters to you."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a pickup option mean an item is in stock at that location?",
+      "answer": "Not necessarily. Check the exact item and collection location in the listing and checkout. The item may need to be transferred, or pickup may not apply to every product."
+    },
+    {
+      "question": "Can someone else collect an order for me?",
+      "answer": "That depends on the retailer’s rules. Check the published instructions for authorization, identification, and order references before asking another person to collect it."
+    },
+    {
+      "question": "What if the pickup notice does not arrive?",
+      "answer": "Check the order status through the retailer’s verified account or support route and follow its stated process. Do not make a trip based only on an estimate unless the retailer says that is sufficient."
+    },
+    {
+      "question": "Is pickup always more private than home delivery?",
+      "answer": "No. The two options create different information and handoff points. Compare notification content, collection requirements, parcel handling, and your own circumstances rather than assuming one is universally more private."
+    }
+  ],
+  "publishedAt": "2026-11-26",
+  "updatedAt": "2026-11-26",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
