@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T12:52:44.140Z",
+  "generatedAt": "2026-11-27T14:23:55.531Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/hentai-anime-catalog-title-list-migration-workflow.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-browser-library-device-handoff.json",
-    "ops/editorial/content-artifacts/free-video-advertising-destination-safety-audit.json",
-    "ops/editorial/content-artifacts/adult-games-controller-profile-per-game-settings-audit.json",
-    "ops/editorial/content-artifacts/adult-shop-product-shelf-life-storage-information-check.json"
+    "ops/editorial/content-artifacts/creator-platform-membership-renewal-notice-audit.json",
+    "ops/editorial/content-artifacts/dating-platform-language-and-translation-expectations-check.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-mobile-dashboard-operations-fit.json",
+    "ops/editorial/content-artifacts/live-cam-session-notification-interruption-preflight.json",
+    "ops/editorial/content-artifacts/premium-video-library-language-settings-discovery-fit.json"
   ],
   "guideFiles": [
-    "src/data/guides/hentai-anime-catalog-title-list-migration-workflow.js",
-    "src/data/guides/vr-adult-platform-browser-library-device-handoff.js",
-    "src/data/guides/free-video-advertising-destination-safety-audit.js",
-    "src/data/guides/adult-games-controller-profile-per-game-settings-audit.js",
-    "src/data/guides/adult-shop-product-shelf-life-storage-information-check.js"
+    "src/data/guides/creator-platform-membership-renewal-notice-audit.js",
+    "src/data/guides/dating-platform-language-and-translation-expectations-check.js",
+    "src/data/guides/webmaster-affiliate-mobile-dashboard-operations-fit.js",
+    "src/data/guides/live-cam-session-notification-interruption-preflight.js",
+    "src/data/guides/premium-video-library-language-settings-discovery-fit.js"
   ],
   "categories": [
-    "hentai-anime",
-    "vr-ar",
-    "free-videos",
-    "adult-games",
-    "adult-shops"
+    "creator-platforms",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "live-cams",
+    "premium-videos"
   ],
   "backlogIds": [
-    "hentai-anime-catalog-title-list-migration-workflow",
-    "vr-adult-platform-browser-library-device-handoff",
-    "free-video-advertising-destination-safety-audit",
-    "adult-games-controller-profile-per-game-settings-audit",
-    "adult-shop-product-shelf-life-storage-information-check"
+    "creator-platform-membership-renewal-notice-audit",
+    "dating-platform-language-and-translation-expectations-check",
+    "webmaster-affiliate-mobile-dashboard-operations-fit",
+    "live-cam-session-notification-interruption-preflight",
+    "premium-video-library-language-settings-discovery-fit"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "46002080270",
-  "phase": "closed"
+  "r1CycleId": "46015244130"
 }
