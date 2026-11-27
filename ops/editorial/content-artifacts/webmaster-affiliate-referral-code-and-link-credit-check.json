@@ -1,0 +1,141 @@
+{
+  "backlogId": "webmaster-affiliate-referral-code-and-link-credit-check",
+  "slug": "webmaster-affiliate-referral-code-and-link-credit-check",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Check How Referral Codes and Tracking Links Interact",
+  "description": "Before combining a referral code with an affiliate link, verify how a program assigns credit, handles conflicting identifiers, and reports code-based activity.",
+  "excerpt": "A code and a tracked link may be treated as separate referral signals. Map the program’s written rules and reporting behavior before publishing both together or promising visitors how credit works.",
+  "keyTakeaways": [
+    "Do not assume a referral code and tracking link stack, override one another, or receive shared credit.",
+    "Check written rules for code eligibility, attribution precedence, exclusions, and permitted placements.",
+    "Separate test activity from production reporting and label each test clearly.",
+    "Compare the program’s documentation with what its reports actually show, without inferring unreported credit.",
+    "Explain codes and links accurately to visitors and keep a dated record of the rules you relied on."
+  ],
+  "sections": [
+    {
+      "heading": "Define the two referral mechanisms",
+      "paragraphs": [
+        "A tracking link can carry an identifier that records a click or referral path. A promotional or referral code can be entered separately during a transaction or signup. Programs may define these mechanisms differently, and one may be unavailable in a given campaign. The presence of both on a page does not establish that both will be credited, that they will combine, or that a code will preserve the link’s attribution.",
+        "Start by writing down the intended journey: where the visitor sees the link, where the code appears, when the code is entered, and which conversion the program says it may qualify. Keep the visitor-facing instructions separate from your assumption about reporting. For instance, a visitor might be able to enter a code even when the program does not describe code entry as a referral-credit signal. Only written program terms or a clear documented answer can resolve that distinction."
+      ],
+      "bullets": [
+        "Describe the link and code as separate mechanisms until terms establish a relationship.",
+        "Map where each appears and when a visitor uses it.",
+        "Avoid promising that both forms of referral credit will apply."
+      ]
+    },
+    {
+      "heading": "Read rules for precedence and eligibility",
+      "paragraphs": [
+        "Look for specific language about attribution precedence, code eligibility, last-click or other crediting rules, exclusions, and whether a code must be assigned to a particular publisher. Check whether the rules differ between campaigns or conversion types. A general statement that a program offers codes may not answer whether a code can be used alongside a tracking link or how reports classify the resulting event.",
+        "If the terms are ambiguous, ask the program contact a focused question and retain the written response. Ask what happens when a visitor clicks your link and later enters a code, when the visitor has another referral identifier, and whether a code-only visit is reportable. Avoid treating a dashboard label or an informal verbal reply as a complete policy. If program documents conflict, record the conflict and resolve it before making a visitor-facing claim."
+      ],
+      "bullets": [
+        "Search for precedence, eligibility, exclusions, code ownership, and conversion definitions.",
+        "Ask about concrete visitor paths rather than abstract “stacking.”",
+        "Save the applicable rule version and written clarification."
+      ]
+    },
+    {
+      "heading": "Design a clean test without contaminating production",
+      "paragraphs": [
+        "If the program allows testing, define a small test plan before creating test activity. Use the program’s approved test process or a clearly separated test identifier where available. Keep test clicks and conversions out of ordinary campaign records, and do not generate artificial transactions that could violate program rules. If a real transaction is needed for validation, obtain explicit written instructions first and follow the program’s requirements.",
+        "Test one path at a time: link only, code only if permitted, and link plus code if the program explicitly allows it. Record the date, campaign, browser or device context where relevant, and the exact action taken. Wait for the program’s stated reporting interval before concluding that an event was missing. This is a process check, not proof that all future referrals will be credited in the same way."
+      ],
+      "table": {
+        "caption": "Keep referral-code tests narrow, authorized, and interpretable.",
+        "headers": [
+          "Test path",
+          "Precondition",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Tracked link only",
+            "Program permits the link and test method",
+            "Identifier used, click time, and reported event status."
+          ],
+          [
+            "Code only",
+            "Program says code-only referrals may be tested",
+            "Code source, permitted test steps, and report classification."
+          ],
+          [
+            "Link plus code",
+            "Written terms or support confirm this path is allowed",
+            "Link identifier, code, event status, and any precedence explanation."
+          ],
+          [
+            "Competing referral signal",
+            "Only if program documentation permits a test",
+            "Documented rule and the program’s reported outcome."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Interpret reports conservatively",
+      "paragraphs": [
+        "A report may show clicks, code redemptions, conversions, or commission statuses in different fields. Confirm the meaning of each field before drawing conclusions. A code redemption is not automatically evidence that a particular affiliate received credit; a tracked click is not automatically evidence that a later conversion qualified. Check the program’s definitions and any reporting delay or status changes described in its terms.",
+        "Compare the test record with the relevant report after the stated update period. If the report does not expose the relationship between code and link, mark the attribution as unresolved rather than guessing. Ask the program how to reconcile the event and what evidence it can provide. Preserve the minimal necessary record, such as the test identifier and timestamp, and avoid sending visitor personal data unless the program’s documented process requires it and you are authorized to share it."
+      ],
+      "bullets": [
+        "Confirm field definitions before interpreting a dashboard label.",
+        "Allow for documented reporting delays or status changes.",
+        "Treat missing detail as uncertainty, not proof of credit or non-credit."
+      ]
+    },
+    {
+      "heading": "Write visitor instructions that match the evidence",
+      "paragraphs": [
+        "A visitor-facing page should say what the visitor needs to do, not claim a tracking outcome you cannot verify. If a code is optional, state that clearly only when the program’s instructions support it. If a code must be entered in a specific field or a link must be followed first, explain the steps accurately and avoid implying guaranteed savings or referral treatment unless verified facts support those claims.",
+        "Disclose your commercial relationship in a clear, appropriate place and label both links and codes so visitors understand their purpose. Do not hide a code in ambiguous text or imply it is required when it is not. If the program changes its rules, update the instructions and review any old pages, email templates, or social posts that mention how the code and link work."
+      ],
+      "bullets": [
+        "Describe required visitor actions using current written instructions.",
+        "Avoid guarantees about attribution or outcomes that the program does not confirm.",
+        "Make commercial relationships and link or code purpose clear."
+      ]
+    },
+    {
+      "heading": "Keep a decision record for future changes",
+      "paragraphs": [
+        "A compact decision record should contain the program and campaign, the rule version or date reviewed, the paths you tested, the reports consulted, and any unresolved questions. Add the name or role of the contact who clarified the rule, plus the date and exact scope of the answer. This record helps a future operator distinguish confirmed behavior from a guess inherited from an old campaign.",
+        "Review the record whenever a code changes, a campaign is replaced, terms are updated, or reporting fields are renamed. Do not assume an earlier test applies to a new code or promotion. If terms are unclear, leave the interaction unpublished or describe it neutrally until you have an answer. A conservative, well-documented workflow protects both visitor expectations and the integrity of your own reporting."
+      ],
+      "bullets": [
+        "Date the rules and clarification you rely on.",
+        "Retest only when authorized and when a meaningful change occurs.",
+        "Keep unresolved behavior visible in your records and editorial review."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will an affiliate tracking link and a referral code both receive credit?",
+      "answer": "There is no universal rule. The program’s terms or a clear written explanation must establish whether they can be combined and how competing referral signals are handled."
+    },
+    {
+      "question": "Can I test a code by placing a real order?",
+      "answer": "Do so only if the program permits that test and provides instructions. Unapproved test transactions may create reporting problems or breach program rules. Keep any authorized test separate from production activity."
+    },
+    {
+      "question": "Does a code redemption in a report prove that I received referral credit?",
+      "answer": "Not necessarily. A redemption field and an affiliate-credit field can represent different events. Check the program’s report definitions and ask how the specific event is classified."
+    },
+    {
+      "question": "What should I tell visitors if the interaction is unclear?",
+      "answer": "Give only verified instructions and avoid promising that the link and code will combine or guarantee credit. If the required steps are uncertain, clarify the program’s rules before publishing definitive guidance."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

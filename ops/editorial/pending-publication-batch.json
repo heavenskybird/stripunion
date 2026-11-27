@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T22:21:18.808Z",
+  "generatedAt": "2026-11-27T22:11:37.902Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/premium-video-device-handoff-preflight.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-program-traffic-placement-boundary-map.json",
-    "ops/editorial/content-artifacts/hentai-anime-cross-format-discovery-task-test.json",
-    "ops/editorial/content-artifacts/free-video-embedded-player-host-boundary-check.json",
-    "ops/editorial/content-artifacts/adult-games-community-feature-dependency-preflight.json"
+    "ops/editorial/content-artifacts/adult-platform-subscription-spend-boundary-plan.json",
+    "ops/editorial/content-artifacts/dating-platform-referral-link-privacy-review.json",
+    "ops/editorial/content-artifacts/free-video-platform-category-label-context-audit.json",
+    "ops/editorial/content-artifacts/adult-games-story-route-endpoint-evidence-check.json",
+    "ops/editorial/content-artifacts/adult-shop-order-edit-window-verification.json"
   ],
   "guideFiles": [
-    "src/data/guides/premium-video-device-handoff-preflight.js",
-    "src/data/guides/webmaster-affiliate-program-traffic-placement-boundary-map.js",
-    "src/data/guides/hentai-anime-cross-format-discovery-task-test.js",
-    "src/data/guides/free-video-embedded-player-host-boundary-check.js",
-    "src/data/guides/adult-games-community-feature-dependency-preflight.js"
+    "src/data/guides/adult-platform-subscription-spend-boundary-plan.js",
+    "src/data/guides/dating-platform-referral-link-privacy-review.js",
+    "src/data/guides/free-video-platform-category-label-context-audit.js",
+    "src/data/guides/adult-games-story-route-endpoint-evidence-check.js",
+    "src/data/guides/adult-shop-order-edit-window-verification.js"
   ],
   "categories": [
-    "premium-videos",
-    "webmaster-affiliate",
-    "hentai-anime",
+    "privacy-safety-payment",
+    "dating-hookups",
     "free-videos",
-    "adult-games"
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "premium-video-device-handoff-preflight",
-    "webmaster-affiliate-program-traffic-placement-boundary-map",
-    "hentai-anime-cross-format-discovery-task-test",
-    "free-video-embedded-player-host-boundary-check",
-    "adult-games-community-feature-dependency-preflight"
+    "adult-platform-subscription-spend-boundary-plan",
+    "dating-platform-referral-link-privacy-review",
+    "free-video-platform-category-label-context-audit",
+    "adult-games-story-route-endpoint-evidence-check",
+    "adult-shop-order-edit-window-verification"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,6 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45904040268",
+  "r1CycleId": "46074894294",
   "phase": "closed"
 }

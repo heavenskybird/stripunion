@@ -1,0 +1,131 @@
+{
+  "backlogId": "free-video-advertising-destination-safety-audit",
+  "slug": "free-video-advertising-destination-safety-audit",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Sites: Check Where an Advertisement Leads Before You Click",
+  "description": "A practical checklist for assessing advertising links, redirects, and permission prompts on free video platforms without assuming an ad or destination is trustworthy.",
+  "excerpt": "Advertising can change the browsing route, not just interrupt playback. Learn how to pause, inspect the destination, and avoid granting permissions that are not needed for viewing.",
+  "keyTakeaways": [
+    "Treat an advertisement’s destination as a separate site that needs its own assessment.",
+    "Pause before accepting notification, location, download, or account prompts that are unrelated to the task you intended.",
+    "Use browser controls and visible address information to notice unexpected redirects or new tabs.",
+    "If a page’s purpose or operator is unclear, leave rather than trying to work through confusing prompts."
+  ],
+  "sections": [
+    {
+      "heading": "Advertising changes the route through a site",
+      "paragraphs": [
+        "On a free video site, advertising may appear around a listing, during a visit, or after an interaction. The relevant safety question is not simply whether ads exist; it is where a click takes you and what the destination asks you to do. An ad can open a new tab, redirect the current page, or present a permission prompt. Those actions involve a different site and different data choices than the video page you meant to visit.",
+        "Before clicking, consider whether the action matches your intent. A control labeled as a play button may be near an advertisement, while a prompt may encourage you to install something or allow notifications. If the destination is unexpected, do not continue just because the original page led you there. You can close the new tab or return to the page you recognize. A deliberate pause is often enough to avoid confusing an advertisement with a platform feature."
+      ],
+      "bullets": [
+        "Use the browser’s visible address area to check whether a new page or domain opened.",
+        "Do not assume that a button is part of the video player merely because it appears nearby.",
+        "Close unexpected tabs instead of following a chain of prompts."
+      ]
+    },
+    {
+      "heading": "Recognize permission requests that do not fit the task",
+      "paragraphs": [
+        "A website may ask for browser permissions such as notifications or location. Ask why the permission would be needed for the action you chose. If your goal is to read a listing or start a video, a request that is unrelated to that task deserves scrutiny. Declining a permission is a reasonable choice when its purpose is unclear. You can also review or revoke site permissions through your browser’s settings later.",
+        "Be cautious with prompts that imitate system messages or imply that a required update is available. A browser or operating system normally provides its own interface for managing updates and permissions; an unfamiliar page asking you to download a file is not the same thing. Do not run an installer just because an ad or redirect says it is necessary. If you already downloaded a file by mistake, avoid opening it and use your device’s normal file-management or security process to remove or assess it."
+      ],
+      "table": {
+        "caption": "A quick decision guide for common advertising prompts",
+        "headers": [
+          "Prompt or event",
+          "Pause and ask",
+          "Safer next step"
+        ],
+        "rows": [
+          [
+            "Notification request",
+            "Do I need alerts from this site?",
+            "Decline if the purpose is unclear or unnecessary"
+          ],
+          [
+            "Location request",
+            "Does this task depend on location?",
+            "Do not grant access without a clear reason"
+          ],
+          [
+            "Download or update prompt",
+            "Is this an official, expected route?",
+            "Do not open an unexpected file or installer"
+          ],
+          [
+            "New tab or redirect",
+            "Did I intend to leave the video site?",
+            "Check the address and close it if unexpected"
+          ],
+          [
+            "Account prompt",
+            "Is an account actually required for this action?",
+            "Review the platform’s stated access boundaries"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use browser behavior as a practical warning signal",
+      "paragraphs": [
+        "Pay attention to what happens after a click. Repeated pop-ups, unexpected tabs, forced redirects, or a page that makes it difficult to return to the previous screen can indicate that you are no longer on the route you intended. These signs do not establish who operates a page or whether it is malicious, but they are reasons to stop and reassess. Do not keep clicking simply to make the prompt disappear.",
+        "Keep the browser’s back, close-tab, and site-permission controls familiar. If the page has taken over the screen or repeatedly opens new tabs, close the affected tab or browser window using the device’s normal controls. Avoid entering personal details while you are unsure which site is open. If an advertisement asks you to sign in, provide payment information, or install software, independently check whether that action is actually necessary for the service you intended to use."
+      ],
+      "bullets": [
+        "Stop if a click produces a route you did not expect.",
+        "Do not enter credentials or payment details on a page whose identity you cannot verify.",
+        "Use browser controls rather than buttons displayed in a confusing pop-up.",
+        "Review downloads before opening them."
+      ]
+    },
+    {
+      "heading": "Separate platform controls from advertising controls",
+      "paragraphs": [
+        "A platform’s own search, playback, privacy, or account controls should be distinguishable from advertising content. When the page is crowded, take time to identify labels and boundaries before acting. If you cannot tell whether a control belongs to the player or an ad, avoid clicking it until you can inspect the link target or understand its context. On mobile, a small screen can make this distinction harder, so scrolling carefully and avoiding rushed taps can reduce mistakes.",
+        "Browser settings can help limit the impact of unwanted prompts. Review which sites have permission to send notifications, check whether pop-ups are allowed, and consider whether the browser profile you are using is appropriate for private browsing. These are general device controls, not guarantees that an ad or destination is safe. They help you stay in control if a page asks for more than the task requires."
+      ],
+      "bullets": [
+        "Look for clear labels that distinguish ads from site navigation.",
+        "Use browser permission settings to review or revoke access you do not want.",
+        "Avoid tapping quickly near adjacent player and advertisement controls."
+      ]
+    },
+    {
+      "heading": "Create a simple exit and follow-up routine",
+      "paragraphs": [
+        "If you encounter an unexpected redirect, leave the destination without trying to complete its request. Close tabs you did not intend to open, then confirm that you are back on the page you recognize. If you granted a permission accidentally, review the browser’s site settings and revoke it if you do not want it. If you downloaded a file, do not open it simply to see what it is; use your device’s normal security guidance.",
+        "A short note can help you spot repeated patterns without keeping a detailed record of sensitive browsing. You might record only that a page repeatedly opened a new tab or asked for an unrelated permission. Avoid saving private URLs or identifying details in a shared note. If a platform provides a way to report misleading ads, use its official reporting route when practical, but do not assume that submitting a report guarantees an outcome."
+      ],
+      "bullets": [
+        "Close unexpected pages and return to a known route.",
+        "Revoke browser permissions you did not intend to grant.",
+        "Avoid opening unexpected downloads.",
+        "Use an official reporting route if one is available and you choose to report the issue."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is every redirect unsafe?",
+      "answer": "No. Some links intentionally open another service. Still, treat the destination as a separate site: check where you landed, whether the action matches your intent, and what information it requests."
+    },
+    {
+      "question": "Should I allow notifications to continue watching?",
+      "answer": "Only if the permission’s purpose is clear and you want the alerts. If it appears unrelated to your intended task, decline it and check the platform’s own access information."
+    },
+    {
+      "question": "What if I clicked an ad and a file downloaded?",
+      "answer": "Do not open the file just to inspect it. Use your device’s normal security and file-management guidance, and remove it if you do not want it. If you entered account details on an unfamiliar destination, consider changing the relevant password through the official service."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

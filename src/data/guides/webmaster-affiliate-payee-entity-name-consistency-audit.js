@@ -1,0 +1,108 @@
+export default {
+  "slug": "webmaster-affiliate-payee-entity-name-consistency-audit",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Match Payee Names Across Applications and Payment Records",
+  "description": "Build a consistency check for affiliate program applications, contracting details, tax records, and payee information without exposing unnecessary identity data.",
+  "excerpt": "A website operator may use a personal name, business name, or more than one legal entity across program, tax, and payment records. Map which name belongs in each field before applying or changing account details.",
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "keyTakeaways": [
+    "Distinguish the account operator, contracting party, tax-reporting person or entity, and payment recipient.",
+    "Use the program’s own definitions for applicant, publisher, payee, and tax identity rather than assuming the labels are equivalent.",
+    "Resolve name mismatches before relying on an application or expecting a payment to process.",
+    "Keep supporting records in a restricted, organized location and share only what the program requests through its official process.",
+    "Ask the program for written clarification when its instructions conflict or do not explain a name-field requirement."
+  ],
+  "sections": [
+    {
+      "heading": "Separate the roles before entering information",
+      "paragraphs": [
+        "Affiliate account details can involve several roles that are easy to conflate. The person who operates a website may not be the contracting party. A business may own the site while an individual manages the account. The tax identity requested by a program may be different from the display name shown in a dashboard, and the payment recipient may have its own verification requirements.",
+        "Create a role map before applying or editing an established account. For every name or entity field, identify the purpose stated by the program and the source record that supports the entry. Avoid entering a business name in a personal-identity field, or a personal name in a legal-entity field, just because that value appears elsewhere in the account. When the field’s meaning is unclear, pause and request clarification instead of trying multiple combinations."
+      ]
+    },
+    {
+      "heading": "Build a field-by-field consistency matrix",
+      "paragraphs": [
+        "A matrix helps reveal mismatches before they become an administrative problem. Include the application, program agreement, tax documentation, payment profile, and any account-ownership record. For each, note the exact field label, the stated role, the name entered, and the document or instruction that supports it. The purpose is not to collect every identity document in one place; it is to know which source is relevant and where an authorized copy is stored.",
+        "Keep the matrix limited to operational facts. Avoid copying tax identifiers, bank details, or other sensitive values into a general spreadsheet. A reference such as “verified against approved tax record, stored in restricted folder” is usually safer than duplicating the full number. Follow the program’s own secure submission process for sensitive documents."
+      ],
+      "table": {
+        "caption": "Payee and entity consistency review",
+        "headers": [
+          "Record or field",
+          "Role to identify",
+          "Consistency question"
+        ],
+        "rows": [
+          [
+            "Program application",
+            "Applicant or publisher",
+            "Does the field describe the person applying or the operating business?"
+          ],
+          [
+            "Program agreement",
+            "Contracting party",
+            "Does the named party match the entity that accepted the terms?"
+          ],
+          [
+            "Tax form or record",
+            "Tax-reporting person or entity",
+            "Does the requested identity match the program’s stated tax instructions?"
+          ],
+          [
+            "Payment profile",
+            "Payee or payment recipient",
+            "Is the recipient name supported by the program’s payment requirements?"
+          ],
+          [
+            "Internal business record",
+            "Site owner or account operator",
+            "Can the team explain who controls the property and account?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Resolve mismatches before changing account details",
+      "paragraphs": [
+        "Common mismatches include a shortened trade name in one system, a legal name in another, an account created by a former operator, or a payment profile that no longer reflects the business arrangement. A mismatch is not automatically evidence of wrongdoing, but it can create questions about authority, reporting, or payment processing. Document the discrepancy and determine whether it is a formatting difference, a role difference, or a substantive change in ownership or payee.",
+        "For a genuine change—such as moving from an individual operation to a business entity—check the program’s instructions before editing the account. Ask whether the program requires a new application, an amendment, new documentation, or another procedure. Do not assume a dashboard edit changes the party to an agreement or updates tax records automatically. Keep the request and the response together with the effective date of any approved change."
+      ]
+    },
+    {
+      "heading": "Protect sensitive documents and access",
+      "paragraphs": [
+        "Identity and tax documents are sensitive business records. Limit access to people who need them for a defined task, use the program’s official submission route, and avoid sending full documents through informal channels unless the program directs you to do so securely. If someone asks for information unexpectedly, verify the request through a known official account or support channel before responding.",
+        "Store a minimal record of what was submitted, when, to whom, and for which purpose. Avoid retaining extra copies merely because they are convenient. If the program offers a way to update or replace documents, follow its published process and maintain a brief record of the action. This is an organizational practice, not a guarantee of compliance with every tax or data-handling rule that may apply to a business."
+      ],
+      "bullets": [
+        "Restrict access to identity and payment records.",
+        "Do not put full tax or payment identifiers in a general tracking sheet.",
+        "Verify unexpected document requests through an official channel."
+      ]
+    },
+    {
+      "heading": "Create an evidence trail for future changes",
+      "paragraphs": [
+        "A concise change log can prevent repeated confusion when a program account changes hands or a business structure changes. Record the date, affected field, reason for the change, source of the instruction, person who made the update, and any confirmation received. Keep copies of relevant written guidance, but do not treat an informal response as overriding a signed agreement unless the program confirms that in writing.",
+        "Review the map during routine account administration and before year-end record preparation. The goal is to catch inconsistencies early, not to promise a particular payment or tax outcome. If the program’s instructions conflict with your records or are not clear about which party should be named, ask a qualified adviser about your situation and request program clarification before submitting inaccurate information."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should the website owner and payee always have the same name?",
+      "answer": "Not necessarily. Their roles can differ, and a program may define each field separately. Follow the program’s current instructions and keep a clear record of who owns the site, who accepted the agreement, and who is authorized to receive payment."
+    },
+    {
+      "question": "What if the program’s application and tax instructions use different terms?",
+      "answer": "Do not assume the terms mean the same thing. Note the exact field labels, request written clarification through an official channel, and retain the response with your account records."
+    },
+    {
+      "question": "Can I store tax and payment information in the consistency matrix?",
+      "answer": "Prefer storing only references to restricted records, not full sensitive identifiers. Limit access, use an appropriate secure location, and submit documents only through the program’s official process."
+    }
+  ]
+};

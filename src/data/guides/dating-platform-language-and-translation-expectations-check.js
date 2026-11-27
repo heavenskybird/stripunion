@@ -1,0 +1,113 @@
+export default {
+  "slug": "dating-platform-language-and-translation-expectations-check",
+  "categorySlug": "dating-hookups",
+  "categoryLabel": "Dating / Hookups",
+  "title": "Dating Platforms: Check Language and Translation Expectations Before Messaging",
+  "description": "Compare dating platforms by the language information profiles provide, how translation is presented, and what users should verify before relying on it.",
+  "excerpt": "Language labels and translation tools can shape how people interpret profiles and messages. Use this guide to assess what a platform makes clear and where to avoid assumptions.",
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "keyTakeaways": [
+    "Check whether language information is optional, required, or absent in the profile and discovery flow.",
+    "Treat a translation label as a prompt to verify meaning, not as proof that tone or nuance has been preserved.",
+    "Compare what the platform documents with what you can actually see in profile and messaging screens.",
+    "Use a simple confirmation question when a translated detail affects a boundary, plan, or important expectation.",
+    "Choose a platform whose language information supports your intended communication without requiring you to disclose more than you want."
+  ],
+  "sections": [
+    {
+      "heading": "Language fit is more than a profile field",
+      "paragraphs": [
+        "A language field can help people identify a possible communication fit, but its presence alone says little about how useful it is. The field may describe fluency, preference, or a language someone is willing to use; those meanings are not interchangeable. Before comparing platforms, decide what information would help you start a conversation and what you would rather discuss directly.",
+        "The same distinction applies to translation. A platform may provide translated text, may offer no translation, or may leave translation to a device or another service. Do not infer a feature from a translated-looking message or a generic help page. Inspect the current interface and the platform's explanation, and mark anything you cannot verify."
+      ],
+      "bullets": [
+        "Define whether you need language discovery, translated messages, or simply a clear way to state communication preferences.",
+        "Check whether profile fields describe fluency, preferred language, or another category.",
+        "Avoid treating a language label as a guarantee that two people will understand each other equally well."
+      ]
+    },
+    {
+      "heading": "Compare the language information users can control",
+      "paragraphs": [
+        "Look at the profile setup and edit flow. Can a person choose which language information to share? Is the field displayed to everyone, only in certain contexts, or not visibly connected to discovery? A useful comparison also notes whether the field can be updated easily when someone's preference changes. Do not assume that a field is private simply because it was optional to fill in.",
+        "Next, inspect how the information appears in search or recommendations. A label may be visible on a profile but not usable as a filter, or a filter may exist without explaining how results are affected. These are different product behaviors. Record what you observe instead of turning a single screen into a broad claim about the entire service."
+      ],
+      "table": {
+        "caption": "Language-fit questions for a platform shortlist",
+        "headers": [
+          "Area",
+          "What to inspect",
+          "Decision signal"
+        ],
+        "rows": [
+          [
+            "Profile setup",
+            "Available language fields and their explanations",
+            "Can you state a preference without overstating fluency?"
+          ],
+          [
+            "Discovery",
+            "Whether language information affects filters or profile previews",
+            "Does it help you find relevant profiles or only describe them?"
+          ],
+          [
+            "Messaging",
+            "Whether translation is described and how translated text is identified",
+            "Can you tell what is original and what may have been transformed?"
+          ],
+          [
+            "Privacy",
+            "Who can see language and communication details",
+            "Can you share only the information you intend to make visible?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set realistic expectations for translated messages",
+      "paragraphs": [
+        "Translation can help readers understand the general subject of a message, but it may not preserve humor, idioms, politeness, or emotional tone. A short phrase can also have different meanings in different contexts. When a detail matters to a decision, ask a concise follow-up rather than treating a translated sentence as conclusive evidence of intent.",
+        "This is especially important for practical details: what someone is comfortable discussing, whether a suggestion is welcome, or what a plan actually means. If something is unclear, slow down and ask the other person to restate it in a way you both understand. Respect a person's choice not to continue or to use a different communication method."
+      ],
+      "bullets": [
+        "Confirm meaning when a message affects a boundary, expectation, or proposed plan.",
+        "Avoid using automated translation to make assumptions about a person's character or intent.",
+        "Do not send sensitive personal information merely to make a translation or communication tool work."
+      ]
+    },
+    {
+      "heading": "Assess privacy and data handling separately",
+      "paragraphs": [
+        "Language and translation features can involve profile details or message text, so review what the platform says about processing and retention. Check whether its information explains who can access translated content, whether a separate service is involved, and whether relevant controls are available. If the documentation does not answer a question, treat the point as unknown rather than filling the gap with an assumption.",
+        "You can limit unnecessary exposure by sharing only the language details that help your experience and keeping sensitive identifying information out of early conversations. Use the platform's privacy controls where available, but do not assume that a control changes the handling of every message or profile field. The platform's current notices are the appropriate source for those specifics."
+      ]
+    },
+    {
+      "heading": "Use a short, repeatable evaluation",
+      "paragraphs": [
+        "Compare a small set of platforms using the same questions. Review profile setup, discovery, messaging, and privacy information in that order. Write down an observation and its source for each item; use 'not found' or 'not verified' when needed. This prevents a polished feature description from overshadowing a missing explanation about visibility or limitations.",
+        "Then judge fit against your actual communication needs. Someone comfortable writing in a shared language may care most about accurate profile labels. Someone who expects to communicate across languages may place more weight on transparent translation behavior and the ability to clarify meaning. Neither preference is universal. The useful outcome is a decision based on what you can verify and a conversation style that leaves room to ask questions."
+      ],
+      "bullets": [
+        "Use the same profile and messaging questions for every platform on your shortlist.",
+        "Separate verified interface behavior from claims in help pages or promotional descriptions.",
+        "Make a note of the questions you would need answered before sharing sensitive details."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a language listed on a profile prove fluency?",
+      "answer": "No. A field can represent different things, such as preference or willingness to communicate. Check the platform's definition and ask the person directly when the distinction matters."
+    },
+    {
+      "question": "Can I rely on translation for an important conversation?",
+      "answer": "Use it as an aid, not a guarantee of tone or nuance. Confirm important details in clear language and give the other person a chance to correct a misunderstanding."
+    },
+    {
+      "question": "What if the platform does not explain how translation works?",
+      "answer": "Mark the feature as unverified and avoid sending sensitive information through it until you understand the relevant handling. You can also choose a communication approach that does not depend on that feature."
+    }
+  ]
+};
