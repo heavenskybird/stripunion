@@ -42,7 +42,7 @@ const faqSchema = {
     <nav class="breadcrumbs" aria-label="Breadcrumb">
       <a href="/">Home</a><span>/</span><a href={`/${review.categorySlug}`}>{review.category}</a><span>/</span><span>{review.name}</span>
     </nav>
-    {review.partner ? <AffiliateButton source={firstCtaSource} /> : <div class="alternative-cta"><AffiliateButton source={`${review.slug}_alternative_top`} /></div>}
+    {review.partner ? <span class="affiliate-cta-disclosure"><AffiliateButton source={firstCtaSource} /><small class="paid-link-label">Paid link</small></span> : <div class="alternative-cta"><span class="affiliate-cta-disclosure"><AffiliateButton source={`${review.slug}_alternative_top`} /><small class="paid-link-label">Paid link</small></span></div>}
   </DiscoveryHero>
   <section class="section shell narrow">
     {['livejasmin', 'xhamster'].includes(review.slug) && <SearchIntentNavigation brand={review.name} />}
@@ -71,7 +71,7 @@ const faqSchema = {
         <h2>Want to explore live models now?</h2>
         <p>{`After reading about ${review.name}, continue your comparison on AVCams and browse the current live rooms.`}</p>
       </div>
-      <AffiliateButton source={review.partner ? `${review.slug}_mid` : `${review.slug}_alternative_mid`} />
+      <span class="affiliate-cta-disclosure"><AffiliateButton source={review.partner ? `${review.slug}_mid` : `${review.slug}_alternative_mid`} /><small class="paid-link-label">Paid link</small></span>
     </section>
 
     {review.relatedLinks?.length > 0 && (
@@ -101,7 +101,7 @@ const faqSchema = {
         <h2>Ready to explore AVCams?</h2>
         <p>Open AVCams if a live-cam experience matches what you want after this comparison.</p>
       </div>
-      <AffiliateButton source={review.partner ? bottomCtaSource : `${review.slug}_alternative_bottom`} />
+      <span class="affiliate-cta-disclosure"><AffiliateButton source={review.partner ? bottomCtaSource : `${review.slug}_alternative_bottom`} /><small class="paid-link-label">Paid link</small></span>
     </section>
   </section>
 </BaseLayout>

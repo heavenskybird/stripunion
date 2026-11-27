@@ -301,4 +301,4 @@ code{overflow-wrap:anywhere}
 
 
 /* Compact paid-link disclosure adjacent to selected high-intent affiliate CTAs. */
-.affiliate-cta .paid-link-label{color:var(--muted);font-size:.75rem;line-height:1.2}
+.affiliate-cta-disclosure{display:inline-flex;flex-direction:column;align-items:center;gap:4px;vertical-align:top}.affiliate-cta-disclosure .paid-link-label{color:var(--muted);font-size:.75rem;line-height:1.2}
