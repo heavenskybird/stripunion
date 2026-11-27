@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T08:24:18.096Z",
+  "generatedAt": "2026-11-27T12:52:44.140Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-platform-card-issuer-merchant-controls-review.json",
-    "ops/editorial/content-artifacts/creator-platform-refund-access-offer-design-workbook.json",
-    "ops/editorial/content-artifacts/dating-platform-paid-read-receipt-decision-workbook.json",
-    "ops/editorial/content-artifacts/live-cam-wallet-session-spend-display-comparison.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-gift-recipient-privacy-review.json"
+    "ops/editorial/content-artifacts/hentai-anime-catalog-title-list-migration-workflow.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-browser-library-device-handoff.json",
+    "ops/editorial/content-artifacts/free-video-advertising-destination-safety-audit.json",
+    "ops/editorial/content-artifacts/adult-games-controller-profile-per-game-settings-audit.json",
+    "ops/editorial/content-artifacts/adult-shop-product-shelf-life-storage-information-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-platform-card-issuer-merchant-controls-review.js",
-    "src/data/guides/creator-platform-refund-access-offer-design-workbook.js",
-    "src/data/guides/dating-platform-paid-read-receipt-decision-workbook.js",
-    "src/data/guides/live-cam-wallet-session-spend-display-comparison.js",
-    "src/data/guides/premium-video-subscription-gift-recipient-privacy-review.js"
+    "src/data/guides/hentai-anime-catalog-title-list-migration-workflow.js",
+    "src/data/guides/vr-adult-platform-browser-library-device-handoff.js",
+    "src/data/guides/free-video-advertising-destination-safety-audit.js",
+    "src/data/guides/adult-games-controller-profile-per-game-settings-audit.js",
+    "src/data/guides/adult-shop-product-shelf-life-storage-information-check.js"
   ],
   "categories": [
-    "privacy-safety-payment",
-    "creator-platforms",
-    "dating-hookups",
-    "live-cams",
-    "premium-videos"
+    "hentai-anime",
+    "vr-ar",
+    "free-videos",
+    "adult-games",
+    "adult-shops"
   ],
   "backlogIds": [
-    "adult-platform-card-issuer-merchant-controls-review",
-    "creator-platform-refund-access-offer-design-workbook",
-    "dating-platform-paid-read-receipt-decision-workbook",
-    "live-cam-wallet-session-spend-display-comparison",
-    "premium-video-subscription-gift-recipient-privacy-review"
+    "hentai-anime-catalog-title-list-migration-workflow",
+    "vr-adult-platform-browser-library-device-handoff",
+    "free-video-advertising-destination-safety-audit",
+    "adult-games-controller-profile-per-game-settings-audit",
+    "adult-shop-product-shelf-life-storage-information-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45965117580",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "46002080270"
 }
