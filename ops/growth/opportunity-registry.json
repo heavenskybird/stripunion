@@ -541,6 +541,93 @@
       }
     },
     {
+      "id": "livejasmin-awe-affiliate-program-application",
+      "status": "BLOCKED",
+      "origin": {
+        "issue": 198,
+        "url": "https://github.com/heavenskybird/stripunion/issues/198",
+        "discoveredAt": "2026-11-27T00:00:34.107Z"
+      },
+      "hypothesis": "The existing /livejasmin comparison page already has high-intent search demand, and A.W. Empire publishes a primary LiveJasmin affiliate offer with PPL/PPLR, PPS and RevShare options. The current StripUnion offer registry is still terms_review_pending, so the commercial route is not approved and no CTA may be added yet.",
+      "priority": 2,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [
+        "A.W. Empire account-specific application approval",
+        "Exact approved tracking URL and plan",
+        "Written traffic-source, GEO, cookie and payout terms"
+      ],
+      "confidence": "first_party_search_demand_plus_official_offer_not_account_approved",
+      "evidence": [
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-26.md",
+          "asOf": "2026-11-26T09:40:23Z",
+          "kind": "existing_livejasmin_search_demand",
+          "proof": "The existing /livejasmin landing page has 299 clustered GSC impressions across 86 query variants, best position 2. This is first-party demand for the existing page, not a new-page hypothesis."
+        },
+        {
+          "url": "https://stripunion.com/livejasmin/",
+          "asOf": "2026-11-27T00:00:34.107Z",
+          "kind": "existing_comparison_landing_page",
+          "proof": "The relevant comparison page already exists. Keep it as UPDATE_EXISTING; do not create a near-duplicate page."
+        },
+        {
+          "url": "https://www.awempire.com/offer/livejasmin-unbeatable-conversion/",
+          "asOf": "2026-11-26",
+          "kind": "official_awempire_livejasmin_offer",
+          "proof": "Official AWE page lists PPL/PPLR country tiers, PPS up to $300 and REVS up to 45% headline; its detailed REVS table shows 20–30% by credit volume. PPL/PPLR applications are reviewed. Do not treat any public maximum as the user's approved account rate."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/growth/offers/direct-offers.json",
+          "asOf": "2026-11-27T00:00:34.107Z",
+          "kind": "current_account_approval_gate",
+          "proof": "The current central offer registry still marks LiveJasmin as terms_review_pending and has no approved direct tracking URL. No CTA or link insertion is allowed until account-specific approval."
+        }
+      ],
+      "expectedImpact": "Potential monetization of an already-ranking LiveJasmin comparison page with a relevant official offer; no revenue forecast assigned.",
+      "risk": "medium",
+      "experimentWindow": "7/28 days",
+      "nextAction": "Owner applies to A.W. Empire using actual site, traffic sources and GEOs; obtains written approval and current plan/rate/terms. Only then add a registry-gated direct CTA to the existing /livejasmin page and measure qualified clicks, purchases and net USD. No unapproved link or claim of 45% account commission.",
+      "ownerAction": "Owner to complete the AWEmpire application and confirm account-specific approval, permitted traffic, eligible GEOs, cookie/first-cookie rules, payout minimum and exact tracking URL.",
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-27T00:00:34.107Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-26.md"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-27T00:00:35.107Z",
+          "evidenceUrl": "https://www.awempire.com/offer/livejasmin-unbeatable-conversion/"
+        },
+        {
+          "from": "EVALUATED",
+          "to": "BLOCKED",
+          "at": "2026-11-27T00:00:36.107Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/blob/main/ops/growth/offers/direct-offers.json"
+        }
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "livejasmin_GSC_page_query_country",
+          "GA4_landing_sessions",
+          "approved_AWE_affiliate_clicks",
+          "provider_confirmed_purchases",
+          "provider_confirmed_net_USD"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "productionUrls": [
+        "https://stripunion.com/livejasmin/"
+      ]
+    },
+    {
       "id": "viewer-comparison-two-page-pilot",
       "status": "DEPLOYED",
       "origin": {
@@ -844,10 +931,16 @@
           "asOf": "2026-11-26",
           "kind": "official_lovense_application_and_traffic_rules",
           "proof": "The official application page requires manual review of affiliate websites before the first payment and explicitly prohibits direct or indirect search-engine PPC traffic. StripUnion account approval/terms remain pending; no Lovense link or CTA is activated."
+        },
+        {
+          "url": "https://www.awempire.com/offer/livejasmin-unbeatable-conversion/",
+          "asOf": "2026-11-26",
+          "kind": "official_awempire_livejasmin_offer_terms",
+          "proof": "A.W. Empire's official LiveJasmin offer page lists PPL/PPLR, PPS up to $300 and REVS up to 45% headline; detailed REVS tiers shown are 20–30% by credit volume, with 14-day cookies (30 days for PPS). The PPL/PPLR application is reviewed by AWE; this is public offer information, not an approved StripUnion rate."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:52:47.798Z",
-      "nextAction": "Keep Lovense, Chaturbate, LiveJasmin, Lovehoney and DLsite disabled until account-specific approval, exact traffic rules, geography, payout terms and approved tracking URLs are confirmed. The public Lovense 20% ceiling is not an approved StripUnion rate.",
+      "lastEvidenceAt": "2026-11-27T00:00:34.107Z",
+      "nextAction": "Prioritize a manual AWEmpire application for LiveJasmin because /livejasmin already has high-intent GSC demand. Obtain account-specific approval, exact rate plan, cookie/first-cookie rules, GEO eligibility, prohibited traffic sources, payout threshold and tracking URL before any CTA. Keep Lovense and Chaturbate disabled until their own account approvals.",
       "ownerAction": "Owner applies to selected official programs, accepts terms and supplies sanitized approved tracking link; no login secrets.",
       "history": [
         {
