@@ -1,0 +1,130 @@
+{
+  "backlogId": "hentai-anime-catalog-title-list-migration-workflow",
+  "slug": "hentai-anime-catalog-title-list-migration-workflow",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Moving an Adult Anime Watch or Reading List? Check What Each Platform Can Preserve",
+  "description": "A practical workflow for comparing how adult anime platforms handle saved titles, reading or viewing progress, notes, and list export before you move services.",
+  "excerpt": "A saved list is more than a set of titles: it may hold progress, edition notes, and personal organization. Use this checklist to see what a platform can actually preserve before rebuilding your library.",
+  "keyTakeaways": [
+    "Separate the information in your current list into titles, editions, progress, notes, and personal tags before you evaluate a new service.",
+    "Do not assume that a title match means a saved item will link to the same edition, release, or format on another platform.",
+    "Check what can be exported, copied, or recovered without granting unnecessary account permissions or sharing a full list publicly.",
+    "Test a small, non-sensitive sample before investing time in moving or recreating a larger library."
+  ],
+  "sections": [
+    {
+      "heading": "Start by deciding what “moving a list” means to you",
+      "paragraphs": [
+        "People often describe a watchlist or reading list as if it were one thing. In practice, it can contain several kinds of information: a title, the edition or release selected, a progress marker, a note about where you stopped, and tags you added for your own organization. A new platform may preserve one of these while offering no way to carry over the others. Before comparing services, write down which elements you would actually miss.",
+        "Make a simple inventory using generic labels rather than sensitive title details if you plan to share it. For example, record the number of saved entries, whether you have progress markers, and whether you rely on personal notes. This makes the comparison more useful than asking whether a platform has a vague “favorites” feature. It also helps you avoid handing a prospective service a full list just to find out whether it can meet your needs."
+      ],
+      "bullets": [
+        "List the data you want to keep: titles, selected edition, format, progress, notes, tags, and ordering.",
+        "Mark each item as essential, useful, or optional.",
+        "Keep any private working list in a location you control while evaluating services."
+      ]
+    },
+    {
+      "heading": "Check the difference between a match and a true continuation",
+      "paragraphs": [
+        "A platform may display a title that appears to match an entry in your old list, yet still represent a different release, edition, language version, or format. Treat a title match as a prompt to verify details, not proof that your saved progress can continue. Compare the platform’s available identifying information—such as release labels, chapter or episode information, and edition notes—against the details you already have.",
+        "Progress is especially easy to misread. A saved marker might mean “started,” “finished,” “last opened,” or simply “added to favorites.” Ask what the status actually represents and whether it can be edited. If you cannot tell whether the destination item is the same release, preserve your old marker separately rather than letting an uncertain match overwrite it."
+      ],
+      "table": {
+        "caption": "A simple way to assess what a platform preserves",
+        "headers": [
+          "List element",
+          "Question to answer",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Title",
+            "Can I identify the same work?",
+            "A stable title or useful alternate-title details"
+          ],
+          [
+            "Edition or format",
+            "Does this point to the version I used?",
+            "Edition, release, language, or format labels"
+          ],
+          [
+            "Progress",
+            "Can I continue from a meaningful point?",
+            "A clear definition of the saved status or marker"
+          ],
+          [
+            "Notes and tags",
+            "Can my private organization be retained?",
+            "Editable personal fields or a documented export"
+          ],
+          [
+            "Order",
+            "Can I preserve my own sequence?",
+            "A way to sort or reproduce a custom order"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect export and import paths before you build around them",
+      "paragraphs": [
+        "Look for the exact scope of an export, not just the word itself. Does the available file contain only titles, or does it include progress, dates, and personal notes? Is it readable if you later leave the service? A feature that exports a list but omits the details you rely on may still be useful, but it should not be mistaken for a complete backup.",
+        "When evaluating an import, check how the service handles entries it cannot match. A careful workflow should leave ambiguous items available for review rather than silently connecting them to a near-match. If the process requires account linking, review which account is being connected and what permissions are requested. Do not provide a password for one service to another site as a shortcut. If no clear, safe transfer route exists, a small manual list may be less risky than an opaque bulk-import tool."
+      ],
+      "bullets": [
+        "Read the export description and sample format before relying on it.",
+        "Check whether an import offers a review step for uncertain matches.",
+        "Avoid third-party transfer tools that ask for credentials or broad access without a clear explanation.",
+        "Keep a copy of any export somewhere private and protected."
+      ]
+    },
+    {
+      "heading": "Test a small transfer with low-stakes entries",
+      "paragraphs": [
+        "Before moving a large collection, test the workflow using a few entries that are easy to verify and not personally revealing. Confirm that the destination shows the expected work and format, and check how it stores progress or notes. If the destination changes your ordering, drops fields, or merges similar entries, you can learn that before the problem affects your whole list.",
+        "Record the outcome in a short comparison sheet: what transferred, what needed manual review, what was omitted, and how long the process took. This is more useful than relying on a feature label or a general claim that data can be moved. If the platform has no transfer option, treat manual rebuilding as a separate choice and estimate the effort using a small sample rather than assuming it will be quick."
+      ],
+      "bullets": [
+        "Choose a small sample that includes more than one format only if you need those formats.",
+        "Compare each result with the source entry, including release details and progress.",
+        "Keep the source list unchanged until you are satisfied with the results."
+      ]
+    },
+    {
+      "heading": "Make the decision around control, not just convenience",
+      "paragraphs": [
+        "A platform that makes it easy to save items may still leave you dependent on its account, interface, or continued service. Consider what happens to your list if you close the account, lose access, or decide to use another service later. You do not need to assume that every platform will offer deletion or export; verify the specific controls that are presented to you and keep your own records where appropriate.",
+        "The best fit depends on what your list does for you. If you mostly need a quick set of bookmarks, a basic favorites feature may be enough. If you depend on edition-specific notes or progress, favor clarity and control over a slick-looking import button. A little preparation keeps a platform decision from becoming an unexpected data-migration project."
+      ],
+      "bullets": [
+        "Choose a service based on the information you need it to preserve.",
+        "Prefer explicit controls and understandable export details over ambiguous transfer claims.",
+        "Review privacy and account settings before adding a personal list."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I assume that two platforms will recognize the same title?",
+      "answer": "No. Similar titles can refer to different editions, release versions, or formats. Check the details available on each platform and retain your source information when the match is uncertain."
+    },
+    {
+      "question": "Should I use a third-party service to copy my saved list?",
+      "answer": "Only consider a tool if its operator, requested access, and data handling are clear and acceptable to you. Avoid sharing account passwords. A small manual transfer can be safer than granting unclear permissions."
+    },
+    {
+      "question": "What is the most important thing to test first?",
+      "answer": "Test the element you rely on most. If progress matters, verify how a saved status or position works. If edition identity matters, confirm that the destination points to the intended release before transferring more entries."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

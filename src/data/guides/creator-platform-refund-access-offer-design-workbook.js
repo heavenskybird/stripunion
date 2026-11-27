@@ -1,0 +1,122 @@
+export default {
+  "slug": "creator-platform-refund-access-offer-design-workbook",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Align Refund Terms With Member Access Before Launch",
+  "description": "A practical planning workflow for creators to compare platform refund rules, access changes, and support responsibilities before describing a paid offer to members.",
+  "excerpt": "Refunds affect more than a transaction: they can change what a member expects to access and what support questions the creator must answer. Map those outcomes before publishing an offer.",
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "keyTakeaways": [
+    "Separate platform-level refund decisions from the creator's own communication and access responsibilities.",
+    "Map what happens to access after a refund, payment reversal, or disputed transaction using the platform's documented terms.",
+    "Avoid promising a refund outcome that the creator cannot authorize or control.",
+    "Prepare neutral response templates that explain the route and evidence needed without requesting unnecessary payment data.",
+    "Revisit offer copy when platform terms or access behavior change."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the roles, not the promise",
+      "paragraphs": [
+        "Creators often describe the value of a membership, but the platform may control checkout, payment processing, refund decisions, account access, or some combination of those tasks. The exact division varies by service and by transaction. Before launch, determine which actions the creator can take directly and which must go through platform support. The goal is not to make a prediction about every case; it is to avoid writing an offer that promises an outcome outside the creator's authority.",
+        "Create a responsibility map for the main events a member might ask about: a mistaken purchase, a billing question, a refund request, a payment dispute, and a change in access. For each one, identify the documented first contact route and what information is appropriate to share. If the terms do not make a responsibility clear, do not fill the gap with an assumption. Describe the known route and ask the platform for clarification before publishing a firm promise."
+      ],
+      "bullets": [
+        "Identify who receives payment and who handles support for each event.",
+        "Mark which account controls member access and whether the creator can change it.",
+        "Use the platform's written terms as the source for claims about refunds."
+      ]
+    },
+    {
+      "heading": "Build an event-to-access map",
+      "paragraphs": [
+        "Refund, reversal, and cancellation are not necessarily the same event. A member may stop a future renewal while retaining access through a stated period; a refund may have a different effect; a payment dispute may trigger a separate review. Do not assume a single rule applies to all three. Review the platform's terms and help material, then record what they say about access, timing, and notifications for each event. If a detail is not stated, label it unknown rather than presenting it as guaranteed.",
+        "A compact map helps creators make accurate membership descriptions and support replies. Record the trigger, the party responsible, the access consequence, and any uncertainty. This also helps identify phrases that need qualification, such as claims that a member will always keep access after a refund or that access always ends immediately. Neither should be used unless supported by current written terms for the relevant situation."
+      ],
+      "table": {
+        "caption": "Use this map to separate events that members may conflate",
+        "headers": [
+          "Event",
+          "Question to verify",
+          "Creator communication boundary"
+        ],
+        "rows": [
+          [
+            "Future renewal stopped",
+            "When does renewal stop, and what access remains?",
+            "Explain where the member can manage renewal; avoid promising a refund."
+          ],
+          [
+            "Refund request",
+            "Who reviews it, and how is access affected?",
+            "Direct the request to the documented route; do not imply approval."
+          ],
+          [
+            "Payment dispute or reversal",
+            "Who communicates status and what happens during review?",
+            "Avoid asking for full payment credentials or speculating about an outcome."
+          ],
+          [
+            "Membership benefit question",
+            "Which benefits are included and for what period?",
+            "Refer to the offer terms and correct unclear copy."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Write offer language that survives edge cases",
+      "paragraphs": [
+        "Offer copy should clearly describe what a paid member receives, how long the offer is intended to apply, and where billing or account actions are managed. Keep benefit promises separate from refund promises. A creator can explain the content or service they intend to provide without claiming authority over a platform's financial decisions. If the platform defines specific access timing, use that wording accurately and avoid broad statements that erase exceptions.",
+        "Review the copy from the perspective of a member who needs to stop renewal, cannot see a benefit, or wants to ask about a charge. Can they find the relevant account route? Does the wording make clear which information belongs in platform support rather than a public comment or direct message? A concise, accurate boundary can prevent unnecessary disclosure and reduce repeated misunderstandings."
+      ],
+      "bullets": [
+        "Name the included benefits in plain language.",
+        "Point billing and refund questions to the documented support route.",
+        "Do not guarantee a refund, access extension, or dispute result without authority and evidence."
+      ]
+    },
+    {
+      "heading": "Design a privacy-conscious support workflow",
+      "paragraphs": [
+        "Refund-related messages can contain account identifiers, transaction references, or financial details. Use the platform's approved support or case channel for sensitive information, and do not ask members to send full card numbers, security codes, passwords, or identity documents through creator messages. Ask only for information necessary to locate the issue, such as a platform username or a case reference when the official process supports it. Keep public replies general and move sensitive troubleshooting into an appropriate private channel.",
+        "Prepare a short response that acknowledges the question, explains the correct route, and states what the creator can verify. For example, a creator may be able to confirm which benefit was advertised or whether a post was published, while the platform may handle the transaction itself. Avoid promising a timeline unless the platform publishes one. If a case escalates, preserve relevant messages and records according to the platform's rules and the creator's own retention needs."
+      ],
+      "bullets": [
+        "Use approved support channels for account or transaction details.",
+        "Never request passwords or complete payment credentials.",
+        "Separate factual benefit-delivery evidence from speculation about a refund decision."
+      ]
+    },
+    {
+      "heading": "Review the map when terms or offers change",
+      "paragraphs": [
+        "A useful refund-and-access workflow is maintained, not written once and forgotten. Recheck the platform's terms before introducing a new tier, changing benefits, running a limited-time offer, or revising renewal language. A platform change can affect who handles requests or what access follows a transaction. Keep a dated internal note of what changed, the source reviewed, and which offer copy or support template was updated.",
+        "If older members joined under different terms, do not assume a new description automatically applies to them. Check the platform's rules and any commitments made at the time of purchase. When uncertainty remains, communicate only what is established and ask the platform for clarification. A careful correction is preferable to silently changing expectations or making a blanket promise that creates avoidable confusion."
+      ],
+      "bullets": [
+        "Set a review trigger for material offer or terms changes.",
+        "Keep dated copies of offer language and relevant platform documentation.",
+        "When a term is unclear, identify the uncertainty and seek clarification before making a broad claim."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator promise that every member will receive a refund?",
+      "answer": "Only if the creator has authority to make that commitment and the promise is consistent with the platform's terms and applicable obligations. In many cases the platform controls the payment decision. Avoid guaranteeing an outcome you cannot control."
+    },
+    {
+      "question": "Does stopping renewal automatically remove access?",
+      "answer": "Not necessarily. Renewal status and access timing may be treated separately, and the rules can differ by platform or transaction. Verify the documented access terms before explaining what a member should expect."
+    },
+    {
+      "question": "What should creators request when helping with a billing question?",
+      "answer": "Use the platform's approved support process and request only the minimum information it calls for. A case reference or platform account identifier may be enough in some workflows. Never ask for a password, full card number, or security code."
+    },
+    {
+      "question": "How should a creator respond when the platform's terms are unclear?",
+      "answer": "State what is known, avoid predicting the result, and direct the member to the documented platform support route. Ask the platform for clarification before updating offer copy or making a general promise."
+    }
+  ]
+};

@@ -1,0 +1,122 @@
+{
+  "backlogId": "vr-adult-platform-headset-account-privacy-handoff",
+  "slug": "vr-adult-platform-headset-account-privacy-handoff",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Using Someone Else’s VR Headset? Check Account Boundaries Before Signing In",
+  "description": "A privacy-first checklist for using an adult VR platform on a borrowed headset, covering account sign-in, saved sessions, downloads, casting, and cleanup limits.",
+  "excerpt": "A borrowed headset can expose account details through saved sessions, recent activity, or shared device settings. Check ownership and account boundaries before signing in, and plan a clean exit before starting.",
+  "keyTakeaways": [
+    "Get the device owner’s permission and understand who administers the headset and its linked accounts.",
+    "Check whether the platform requires a device-level account, a separate app account, or both.",
+    "Avoid saving credentials or downloads on a device you do not control unless the owner has agreed and the access terms allow it.",
+    "Review casting, notifications, recent activity, and sign-out behavior before beginning a session.",
+    "Do not assume that signing out removes every local file, activity record, or synced trace."
+  ],
+  "sections": [
+    {
+      "heading": "Establish who controls the headset and its accounts",
+      "paragraphs": [
+        "A borrowed headset may have more than one account boundary: the operating-system profile, a store or device account, a companion phone app, and the adult platform’s own login. The person who lends the headset may control some of these settings, while another person may manage a shared app or network. Ask the owner which account is active and what device use is permitted before entering credentials. Do not change account ownership, remove a profile, or alter shared settings without authorization.",
+        "Read the platform’s current sign-in instructions for the headset and any companion app. Confirm whether the service uses its own credentials or relies on a linked account, and whether a browser session remains signed in after closing the app. These details vary by setup. If you cannot tell which account would receive a purchase, store a password, or retain activity, stop and clarify before signing in."
+      ],
+      "bullets": [
+        "Ask whether the headset is personally owned, shared, or managed by an organization.",
+        "Identify the device profile, app account, and platform account that would be involved.",
+        "Confirm permission before changing settings, installing software, or saving account information."
+      ]
+    },
+    {
+      "heading": "Check the sign-in path and avoid leaving credentials behind",
+      "paragraphs": [
+        "Account sign-in and purchase authority are separate. Check which account would control a subscription or charge before continuing. If the purchase path is not clear, do not proceed with checkout on a borrowed device. Use a device and account arrangement you control, or ask the platform’s official support channel for clarification."
+      ]
+    },
+    {
+      "heading": "Review headset output and session visibility",
+      "paragraphs": [
+        "Before playback, check whether the headset can cast or mirror its display to a television, phone, or other screen. Casting may be managed at the device level rather than inside the platform, so inspect the headset’s current output settings and nearby connected devices. Confirm that the display is private and that nobody else is connected to a shared output. Also check notification previews, voice-assistant behavior, and any system-level pop-ups that could appear while the headset is in use.",
+        "Consider whether the platform or headset shows recent apps, recent activity, or a continue-watching area to other people using the same profile. The precise surfaces differ. Do not treat an empty home screen as proof that no activity is retained. If the headset owner cannot explain the shared-profile behavior, avoid creating account activity there. This is a device privacy decision, not a judgment about the owner; shared hardware simply makes boundaries harder to verify."
+      ],
+      "table": {
+        "caption": "Borrowed-headset preflight",
+        "headers": [
+          "Area",
+          "Check before use",
+          "Decision if unclear"
+        ],
+        "rows": [
+          [
+            "Device profile",
+            "Who controls the active profile and its saved settings?",
+            "Do not change it or enter credentials until clarified."
+          ],
+          [
+            "Platform access",
+            "Which account signs in and controls any purchase?",
+            "Stop before checkout or account linking."
+          ],
+          [
+            "Output",
+            "Are casting, mirroring, or shared displays active?",
+            "Turn them off only with permission; otherwise do not begin."
+          ],
+          [
+            "Local data",
+            "Could history, files, or credentials remain on the device?",
+            "Avoid saving data and plan an authorized cleanup."
+          ],
+          [
+            "Notifications",
+            "Could alerts or previews appear in view?",
+            "Review system and app settings before signing in."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Treat downloads, saved items, and sign-out as separate issues",
+      "paragraphs": [
+        "Streaming, saved lists, and downloads have different privacy and access consequences. A saved title may remain in an account even if the headset is returned; a local download may remain on the device; and signing out may end access without deleting all app data. Check the platform’s guidance and the headset’s settings for each kind of data. Do not download files onto borrowed storage unless the owner has agreed, the platform permits the method, and you have a clear plan for removal.",
+        "Before starting, decide what you will avoid saving and how you will sign out. If the platform offers a session sign-out control, use it as directed. Then check whether the device profile, app, or browser retains a session or recent item. Do not delete another person’s files or alter shared storage as a cleanup shortcut. If removal requires owner access, ask the owner to handle it or choose a setup that does not create the data in the first place."
+      ],
+      "bullets": [
+        "Do not save credentials to the headset or browser without explicit permission.",
+        "Avoid downloads and account-linked purchases unless ownership and removal are clear.",
+        "Check platform sign-out separately from device-profile sign-out."
+      ]
+    },
+    {
+      "heading": "Make a return-and-cleanup plan before you begin",
+      "paragraphs": [
+        "When privacy depends on settings you cannot inspect or control, the practical choice may be not to use that headset for a private account. A borrowed device is convenient only when its account boundaries, access route, and cleanup responsibilities are clear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is signing out of the platform enough on a borrowed headset?",
+      "answer": "Not always. A device profile, browser, app, saved list, or download may retain separate information. Follow the platform’s sign-out instructions and check device-level behavior with the owner’s permission."
+    },
+    {
+      "question": "Can I use a guest profile to keep my activity private?",
+      "answer": "Only if the headset actually supports one and its behavior is documented or understood. A guest profile may not isolate every app, purchase route, or network record. Confirm the boundaries before relying on it."
+    },
+    {
+      "question": "Should I delete files from the borrowed headset before returning it?",
+      "answer": "Do not remove or alter shared data without the owner’s permission. Avoid creating downloads in the first place; if data was saved, coordinate an authorized cleanup and follow the platform’s instructions."
+    },
+    {
+      "question": "What if I cannot tell which account controls a purchase?",
+      "answer": "Do not proceed with checkout. Identify the account and payment route first through the headset’s authorized settings or official platform guidance, or use a device and account you control."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

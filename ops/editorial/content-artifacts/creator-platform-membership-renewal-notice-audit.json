@@ -1,0 +1,120 @@
+{
+  "backlogId": "creator-platform-membership-renewal-notice-audit",
+  "slug": "creator-platform-membership-renewal-notice-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check How Membership Renewals Are Communicated",
+  "description": "Assess how a creator platform communicates renewal dates, membership changes, and access transitions before you choose an offer structure.",
+  "excerpt": "Renewal communication affects both fan expectations and creator workload. Use this checklist to examine what members can see, what creators can control, and how to plan for transitions.",
+  "keyTakeaways": [
+    "Separate platform-generated billing notices from messages a creator is expected to send.",
+    "Check how clearly a member can identify renewal timing, plan changes, and the next action available to them.",
+    "Map what happens to access when a membership renews, changes, or ends rather than assuming every platform handles it the same way.",
+    "Treat renewal notices as an operational dependency: record who is responsible for updates and what evidence confirms they were sent.",
+    "Use a small test scenario to find confusing wording before building a larger membership campaign."
+  ],
+  "sections": [
+    {
+      "heading": "Why renewal communication belongs in platform selection",
+      "paragraphs": [
+        "A membership offer is not only a price and a set of benefits. It creates a recurring decision point for the member and an ongoing expectation for the creator. If renewal timing or access changes are hard to understand, the result may be avoidable questions, mistaken assumptions, or extra support work. Comparing renewal communication before launch helps you choose an operating model that fits your capacity.",
+        "This is not a test of whether a platform uses a particular notice format. The useful question is whether the member can understand the next billing or access event from information available to them, and whether the creator can explain the offer consistently. Evaluate documented behavior and visible account screens; do not infer a capability from a marketing phrase."
+      ],
+      "bullets": [
+        "Write down the member's likely questions: When does access renew? What changes? What happens if the member takes no action?",
+        "Distinguish platform-controlled notices from creator-authored posts, email, or support replies.",
+        "Record any unanswered questions as unknowns to resolve before publishing an offer."
+      ]
+    },
+    {
+      "heading": "Trace the member journey around a renewal",
+      "paragraphs": [
+        "Walk through a simple timeline: a person joins, receives access, approaches a renewal point, and either continues or changes their membership. At each step, note what the member is told and where the information appears. Consider whether the information is available before a decision is due, whether it remains accessible afterward, and whether the wording distinguishes a billing event from an access event.",
+        "Do not assume that a reminder, receipt, membership status label, and cancellation confirmation all communicate the same thing. They may serve different purposes. A useful comparison records each item separately and notes which parts are controlled by the platform and which depend on the creator's own communication."
+      ],
+      "table": {
+        "caption": "A practical map for comparing renewal communication",
+        "headers": [
+          "Journey point",
+          "Question to answer",
+          "Evidence to record"
+        ],
+        "rows": [
+          [
+            "Before joining",
+            "Can a prospective member understand that the offer renews and what is included?",
+            "Offer description and displayed terms"
+          ],
+          [
+            "After joining",
+            "Can a member identify their current membership and next relevant date?",
+            "Account screen or documented member instructions"
+          ],
+          [
+            "Before a change",
+            "Is the member told what action is needed and when?",
+            "Notice wording, timing description, and available controls"
+          ],
+          [
+            "After a change or end",
+            "Can the member understand the resulting access state?",
+            "Confirmation screen, account status, or written platform guidance"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate platform notices from creator obligations",
+      "paragraphs": [
+        "A platform may handle some administrative communication while leaving the creator responsible for explaining benefits, release plans, or changes to an offer. Define that boundary instead of treating every notice as a platform feature. If the distinction is unclear, ask for written clarification and preserve the response alongside the relevant terms.",
+        "For creator-authored communication, decide what belongs in an offer page, a recurring reminder, and a support response. Repeating essential terms in a clear, consistent way can reduce ambiguity, but it should not contradict the platform's displayed terms. Establish an owner for reviewing wording whenever the offer or the underlying platform process changes."
+      ],
+      "bullets": [
+        "Label every communication as platform-generated, creator-authored, or not yet verified.",
+        "Keep a current, plain-language explanation of the offer and the access state it promises.",
+        "Avoid promising a specific notice, delivery time, or account outcome unless you have verified it."
+      ]
+    },
+    {
+      "heading": "Test scenarios, not just the ideal path",
+      "paragraphs": [
+        "A comparison based only on a successful, unchanged membership can miss the cases that generate the most confusion. Consider a member who changes plans, cancels close to a renewal date, has a payment issue, or asks whether access continues after taking an action. The goal is not to predict every outcome. It is to discover which outcomes are documented, which are visible in the interface, and which require support.",
+        "Use a test account only where permitted and avoid creating real charges or misleading support requests. If a safe test is unavailable, use public documentation and clearly label conclusions as unverified. The record should distinguish observed behavior from an assumption or a support representative's general explanation."
+      ],
+      "bullets": [
+        "Test whether membership status and access status are explained separately.",
+        "Check whether a member can find the next step without relying on an old announcement.",
+        "Record the date and source of each observation so later changes can be detected."
+      ]
+    },
+    {
+      "heading": "Turn findings into an operating decision",
+      "paragraphs": [
+        "Choose a platform and offer structure that you can explain accurately and support consistently. A feature-rich arrangement may be a poor fit if it creates communication work you cannot maintain. Conversely, a simpler structure may suit a creator who values predictable member expectations more than multiple offer variations. The right decision depends on the documented workflow and your ability to operate it.",
+        "Before launch, keep a short renewal communication record: the offer version, the platform terms consulted, the member-facing wording, the responsible person, and any unresolved question. Review it when terms change or when members repeatedly ask the same question. This is a practical quality check, not a promise that communication will prevent every dispute."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a platform-generated renewal notice replace a creator's own explanation?",
+      "answer": "Not necessarily. Notices and creator-authored explanations can serve different purposes. Verify what the platform says it handles, then make sure your offer description accurately explains the benefits and access conditions you control."
+    },
+    {
+      "question": "What should I record when comparing platforms?",
+      "answer": "Record the source and date of the terms, the member-facing wording you can verify, the controls available to members, and any unanswered questions. Keep observed facts separate from assumptions."
+    },
+    {
+      "question": "Should I promise members that they will receive a reminder?",
+      "answer": "Only if you have verified the applicable platform behavior and are prepared to keep that promise current. Otherwise, explain the renewal terms without guaranteeing a particular notice or delivery time."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

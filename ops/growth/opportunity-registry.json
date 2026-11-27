@@ -27,10 +27,16 @@
           "asOf": "2026-11-26T23:53:02Z",
           "kind": "compiled_guide_affiliate_coverage_audit",
           "proof": "Read-only audit of compiled PR #216 HTML: 2,445 guide pages assessed; 6 contextual affiliate placements (4 webmaster-affiliate, 2 live-cams); 2,439 missing/unknown. This is an audit lead, not a blanket defect: neutral guides must not receive unrelated CTAs. The four webmaster placements are the three existing production pilot pages plus the one new guide in PR #216's unmerged branch."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/46082274835",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "pr_branch_compiled_guide_coverage_audit",
+          "proof": "Current PR #216 branch-only audit: 2,500 compiled guide pages and 5 contextual affiliate placements (3 webmaster, 2 live-cam). 2,495 pages without contextual exits are not blanket defects; this is not production coverage."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:55:16.844Z",
-      "nextAction": "Use the compiled audit only to identify high-intent candidate pages. Keep the three existing production webmaster pilot pages distinct from the fourth PR #216 branch-only page; review each remaining candidate for topical fit and an approved offer. Never blanket-insert links or infer revenue from CTA presence; measure 7/28-day clicks and provider-confirmed USD only after approved deployment.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Use compiled coverage only to find high-intent candidate pages. Current PR #216 audit is branch-only: 2,500 pages, 5 contextual placements (3 webmaster, 2 live-cam). Do not blanket-insert links; assess topic fit and approved offer per page, then measure 7/28-day page sessions, source-specific clicks and provider-confirmed USD.",
       "ownerAction": "Owner reviews the next small high-intent shortlist only; no category-wide monetization or automatic CTA rollout.",
       "history": [
         {
@@ -125,10 +131,16 @@
           "asOf": "2026-11-26T09:40:08.788Z",
           "kind": "latest_stripcash_default_scope_api",
           "proof": "Provider API succeeded, business base currency is owner-confirmed USD, but reportingPeriod is null and reportingPeriodStatus is UNKNOWN_DEFAULT_SCOPE. signup=0, verifiedSignup=0, purchases=0, purchaseEarnings=0, totalEarnings=0. This is not a payout statement."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-27.json",
+          "asOf": "2026-11-27T09:48:00Z",
+          "kind": "latest_revenue_and_attribution_snapshot",
+          "proof": "GA4 79 sessions / 50 engaged / 17 affiliate_click. StripCash default period: 1 signup, 0 verified, 0 purchases, $0 total earnings with reportingPeriod=null. First-party attribution: 89 clicks, 16 postbacks, 4 matched, 12 unmatched, UNKNOWN=224.25; confirmedUsd.amount remains null."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Obtain one authenticated, date-bounded StripCash Statistics + Payout History export for matching 7/28-day windows, including timezone, geo, campaign/SubID, transaction ID, amount/currency semantics, approved/paid status, refunds and chargebacks. Reconcile the 12 unmatched events and UNKNOWN 224.25; keep confirmed USD null until provider evidence closes the join.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Keep confirmed USD null. Obtain one dated StripCash Statistics + Payout History export with matching timezone, GEO, campaign/SubID, transaction IDs, amount/currency semantics, approved/paid status, refunds and chargebacks. Reconcile all 12 unmatched events and UNKNOWN 224.25 before any historical USD classification.",
       "ownerAction": "One consolidated sanitized authenticated7/28 Statistics + Payout History export with exact dates/timezone/geo/campaign/SubID/netUSD/paid-approved status and postback amount/currency/transaction macro semantics; no secrets or artificial conversions.",
       "history": [
         {
@@ -250,10 +262,16 @@
           "asOf": "2026-11-26T23:45:59Z",
           "kind": "draft_secondary_viewer_cta_implementation",
           "proof": "PR #214 adds a registry-gated secondary BongaCams viewer option to the existing /stripchat-alternatives/ hub using only the approved viewer_campaign_url. Exact-head Build #45912849967 and Visual QA #45912849985 passed; PR remains Draft and is not deployed."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-27.json",
+          "asOf": "2026-11-27T09:48:00Z",
+          "kind": "current_gsc_existing_page_demand",
+          "proof": "GSC query cluster /stripchat-alternatives/ has 984 impressions across 120 query variants; /stripchat-app/ has 558 across 111. PR #214 is 6 commits ahead / 27 behind current main and remains Draft; its previous exact-head checks are stale after main advanced."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "PR #214 now contains a secondary BongaCams viewer CTA on this existing high-intent hub; exact-head Build and Visual QA pass, but it remains Draft and is not deployed. Review before merge, then measure matched 7d/28d page×query×country GSC, consent-safe BongaCams clicks, provider-confirmed referrals/net USD and any AVCams cannibalization. Keep AVCams primary and do not change prominence before measured outcomes.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Prioritize UPDATE_EXISTING on the live Stripchat Alternatives and App pages. PR #214's BongaCams secondary CTA remains Draft and stale (6 ahead / 27 behind); synchronize and re-run exact-head checks before review. Preserve AVCams as primary, and measure matched page×query×country GSC, BongaCams clicks, partner-confirmed referrals and any AVCams cannibalization.",
       "ownerAction": null,
       "history": [
         {
@@ -340,12 +358,18 @@
           "asOf": "2026-11-26T23:53:02Z",
           "kind": "compiled_html_cta_presence",
           "proof": "The compiled PR #216 branch audit counts four webmaster-affiliate pages with contextual paid CTAs, consistent with the three existing pilot pages plus this exact new slug. This proves branch HTML presence only, not production deployment or conversion."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/216",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "current_draft_pr_and_exact_head_ci",
+          "proof": "PR #216 is now reconciled with main (3 ahead / 0 behind), 4 files. Exact-head Build #46082274843 passed; read-only Affiliate Coverage Audit #46082274835 passed; Visual QA #46082274928 was still in progress at last check. The PR remains Draft and is not deployed."
         }
       ],
       "expectedImpact": "Potential qualified webmaster affiliate referrals from a directly relevant existing article; no traffic or revenue forecast assigned.",
       "risk": "low",
       "experimentWindow": "7/28 days",
-      "nextAction": "Build, Visual QA and read-only coverage audit now pass on PR #216. Review the exact diff, then merge/deploy only with owner approval. After production verification, measure 7/28-day guide sessions, source-specific affiliate clicks, qualified referrals and provider-confirmed net USD.",
+      "nextAction": "PR #216 now targets only the three live Webmaster/Affiliate guide URLs and changes disclosure/copy, not the approved destination. Build and coverage audit pass; await Visual QA, then owner review. Keep Draft and do not claim deployment or revenue. After approved production deployment, measure 7/28-day sessions, source-specific clicks, qualified referrals and provider-confirmed USD.",
       "ownerAction": null,
       "history": [
         {
@@ -377,7 +401,7 @@
       "productionUrls": [
         "https://stripunion.com/guides/webmaster-affiliate-program-traffic-placement-boundary-map/"
       ],
-      "lastEvidenceAt": "2026-11-26T23:55:16.844Z"
+      "lastEvidenceAt": "2026-11-27T23:24:00Z"
     },
     {
       "id": "bongacash-model-referral-alternative",
@@ -426,12 +450,18 @@
           "asOf": "2026-11-26",
           "kind": "latest_competitor_spanish_market_diff",
           "proof": "Latest tracked competitor diff has 0 new URLs for all five competitors. The prior 2026-11-25 Spanish-language expansion remains landscape context only; no first-party Spanish GSC demand or 2026-11-26 new-page signal was established, so do not create Spanish content from competitor activity alone."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/pull/213",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "current_draft_pr_divergence",
+          "proof": "PR #213 remains Draft and is 3 commits ahead / 27 behind current main; prior Build/Visual QA results are from its old head and are not current validation."
         }
       ],
       "expectedImpact": "Potential additional qualified individual-adult-model referrals; no model signup, provider credit or USD revenue is claimed.",
       "risk": "medium",
       "experimentWindow": "7/28 days",
-      "nextAction": "Review PR #213 and verify the model-referral route and country tier before merge. If deployed, measure source-specific CTA clicks, genuine new adult-model qualification and provider-confirmed reward. Do not promote Studio acquisition, mass outreach, guaranteed income or collect identity documents.",
+      "nextAction": "Keep the existing approved BongaCash model-referral offer separate from StripCash and AWE. Synchronize PR #213 with current main without force push, review the exact model route and country tier, then rerun Build/Visual QA. Do not promote Studio acquisition, mass outreach, guaranteed income or collect identity documents.",
       "ownerAction": "Account owner to verify country-specific referral eligibility and later provider-confirmed credit from a genuine adult opt-in referral; no credentials or identity documents are needed for this review.",
       "history": [
         {
@@ -462,7 +492,7 @@
       "productionUrls": [
         "https://stripunion.com/become-a-cam-model/"
       ],
-      "lastEvidenceAt": "2026-11-26T23:52:47.798Z"
+      "lastEvidenceAt": "2026-11-27T23:24:00Z"
     },
     {
       "id": "candy-ai-affiliate-domain-eligibility-gate",
@@ -588,12 +618,18 @@
           "asOf": "2026-09",
           "kind": "official_awempire_terms_and_traffic_restrictions",
           "proof": "Official AWE terms last updated September 2026: individual offer programs require manual approval; traffic from social networking sites including Telegram, WhatsApp, Discord, Facebook and TikTok may be treated as unauthorized; spam/unsolicited messages and search-engine spam are prohibited; brand bidding on AWE/LiveJasmin PPC is non-commissionable; promotional materials outside AWE tools require written approval; Google link-scheme compliance is mandatory. Keep this offer SEO-only until written traffic-source approval; no Telegram/X/Buffer distribution."
+        },
+        {
+          "url": "https://www.awempire.com/offer/livejasmin-unbeatable-conversion/",
+          "asOf": "2026-11-27",
+          "kind": "official_awempire_model_referral_and_geo_tiers",
+          "proof": "Official LiveJasmin/AWE page publishes up to 10% of referred-model income for one year in eligible GEOs, with lower 7% and 5% tiers and some 0% territories. These are public rates, not this account's approved rate; manual program approval and written traffic-source/placement approval remain prerequisites."
         }
       ],
       "expectedImpact": "Potential monetization of an already-ranking LiveJasmin comparison page with a relevant official offer; no revenue forecast assigned.",
       "risk": "high",
       "experimentWindow": "7/28 days",
-      "nextAction": "Owner applies to A.W. Empire and obtains written approval for the exact LiveJasmin plan, GEOs, organic SEO traffic and any proposed distribution sources. AWE's September 2026 terms explicitly identify Telegram/WhatsApp/Discord and social-network traffic as potentially unauthorized, prohibit spam and brand PPC, and require written approval for non-AWE promotional materials. Until written approval, no LiveJasmin link or social distribution; after approval, add a registry-gated CTA only to the existing /livejasmin page and measure provider-confirmed outcomes.",
+      "nextAction": "Owner applies to A.W. Empire and obtains written approval for the exact LiveJasmin plan, model-referral GEOs, StripUnion organic SEO placement and any other traffic sources. Keep all links disabled until account-specific approval and written terms are recorded.",
       "ownerAction": "Owner to submit the AWEmpire application and obtain written approval for StripUnion's actual organic SEO traffic and any non-search channels. Do not send AWE traffic through Telegram, X, Buffer, WhatsApp or Discord unless the account manager explicitly approves in writing.",
       "history": [
         {
@@ -632,7 +668,7 @@
       "productionUrls": [
         "https://stripunion.com/livejasmin/"
       ],
-      "lastEvidenceAt": "2026-11-27T00:01:29.644Z"
+      "lastEvidenceAt": "2026-11-27T23:24:00Z"
     },
     {
       "id": "viewer-comparison-two-page-pilot",
@@ -775,10 +811,16 @@
           "asOf": "2026-11-26T23:53:02Z",
           "kind": "compiled_pilot_coverage_audit",
           "proof": "Compiled PR #216 audit reports 4 webmaster-affiliate pages with contextual paid CTAs. The current production pilot remains 3 pages; the fourth is the unmerged PR #216 guide. Keep cohorts separate until deployment."
+        },
+        {
+          "url": "https://www.stripunion.com/guides/adult-affiliate-webmaster-program-evaluation-guide/",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "production_page_and_source_verification",
+          "proof": "The three live Webmaster/Affiliate guides already render the approved StripCash referral CTA through STRIPCASH_AFFILIATE_REFERRAL_URL (https://stripcash.com/sign-up/stripunion), AFFILIATE_REL=sponsored nofollow noopener noreferrer and guide_webmaster_<slug> source. The missing item is the compact adjacent Paid link label, not the commission destination."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:55:16.844Z",
-      "nextAction": "Maintain the three production pages as the current baseline. Treat the fourth webmaster page in PR #216 as draft-only until merge/deploy; then start its own 7/28-day cohort. Do not combine aggregate sessions or CTA counts across cohorts.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Maintain the three live pages as the production baseline. PR #216 now adds only an adjacent Paid link label and official-help reference; it remains Draft. After approved deployment, measure 7/28-day guide sessions, source-specific affiliate_click, qualified referred-affiliate registrations and provider-confirmed net USD.",
       "ownerAction": null,
       "history": [
         {
@@ -867,10 +909,16 @@
           "asOf": "2026-11-26T23:50:55.346Z",
           "kind": "live_apex_host_probe",
           "proof": "The apex host separately served the same page. This confirms both hostnames are live in the reader; it is not a header-level 301 trace. No DNS/CDN setting was changed."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-27.json",
+          "asOf": "2026-11-27T09:48:00Z",
+          "kind": "current_gsc_host_variant_evidence",
+          "proof": "Current GSC top-page rows include both www and apex URLs for the same high-intent surfaces. Direct page reads show both host forms load, but this pass did not verify HTTP Location headers or Google-selected canonical."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Obtain a real GET/HEAD Location-header trace for both hosts and GSC-selected canonical evidence. Ask Hostinger to confirm a host-only www→apex 301 that preserves path/query and persists through the current CDN; do not modify DNS or generic root forwarding.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Obtain real GET/HEAD Location and Google-selected canonical evidence for root and deep paths/query strings; ask Hostinger for host-only 301 support preserving path/query. Do not change DNS, CDN or generic root forwarding.",
       "ownerAction": "Ask Hostinger for exact host-only www301 capability preserving path/query; do not change generic root forwarding.",
       "history": [
         {
@@ -950,10 +998,16 @@
           "asOf": "2026-09",
           "kind": "official_awempire_traffic_source_gate",
           "proof": "AWE's current terms require manual program approval, prohibit spam and brand PPC, require Google link-scheme compliance, and treat social-network sources including Telegram/WhatsApp/Discord as potentially unauthorized. No account-specific approval is present in StripUnion's registry."
+        },
+        {
+          "url": "https://chaturbate.com/terms/appendix-b/",
+          "asOf": "2026-11-27",
+          "kind": "official_chaturbate_competitive_site_restriction",
+          "proof": "Chaturbate Appendix B §2(ii) prohibits using the Platform name in association with a similar or competing website/service. StripUnion is an adult-platform comparison site; the owner-supplied Chaturbate link must remain pending until written exception/approval for the exact property and placement. §8 excludes Studio accounts from the $50 Independent Broadcaster referral."
         }
       ],
-      "lastEvidenceAt": "2026-11-27T00:01:29.644Z",
-      "nextAction": "Keep LiveJasmin/AWE, Lovense and Chaturbate disabled until account-specific approval and written traffic-source/GEO/payout terms are recorded. For AWE specifically, no Telegram/X/Buffer or other social-network distribution without explicit written permission; do not infer approval from the public offer page.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Keep Chaturbate pending until written approval covers the StripUnion comparison-site placement. Keep AWE/Lovense pending until account-specific terms and GEO/traffic approvals are recorded. CamBuilder may be evaluated only on standalone 35% Lifetime RevShare if approved; do not transfer stripunion.com for other payout plans.",
       "ownerAction": "Owner applies to selected official programs, accepts terms and supplies sanitized approved tracking link; no login secrets.",
       "history": [
         {
@@ -1039,10 +1093,16 @@
           "asOf": "2026-11-26",
           "kind": "no_unrelated_affiliate_link_check",
           "proof": "Latest WordPress post #460 is an adult-shop privacy checklist with only internal links and no affiliate CTA. This is appropriate while no approved adult-shop offer is active; do not insert an unrelated cam-platform link."
+        },
+        {
+          "url": "https://blog.stripunion.com/live-cam-token-pricing-guide/",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "authenticated_wordpress_existing_post_audit",
+          "proof": "WPVibe read-only confirms Post 401 still has its approved AVCams tracked URL, sponsored nofollow noopener and GA4 affiliate_click, but no adjacent Paid link label. Latest published Post 460 remains dated 2026-10-04. Blog GA4: 1 session / 0 affiliate_click; Blog URL-prefix GSC: 0/0. No WP write or publish."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:56:41.951Z",
-      "nextAction": "Keep WordPress publishing off. The existing live-cam token-pricing post #401 has one approved direct AVCams CTA with correct sponsored rel and GA4 event, but lacks an adjacent Paid link label and has no current p1 click evidence. After explicit owner approval, update this existing post only: add the compact label next to the existing CTA, preserve its exact tracked destination and event parameters, and retain the general disclosure. Do not create/publish a new post. Leave the adult-shop privacy post #460 without an unrelated CTA until an adult-shop offer is actually approved.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Keep WordPress publishing off. Prepare a narrow before/after update for Post 401 only: add the compact Paid link label, preserve the exact tracked destination and event parameters, retain the general disclosure. Wait for explicit owner approval before applying. Leave Post 460 without an unrelated CTA.",
       "ownerAction": "Owner approval is required before editing the live WordPress post. No edit or publish was made in this run.",
       "history": [
         {
@@ -1132,10 +1192,16 @@
           "asOf": "2026-09-10",
           "kind": "official_stripcash_model_referral_rule",
           "proof": "StripCash Support says white-labels have no dedicated model onboarding page and referrals must be redirected to the main site; model rewards are country-tiered and Studio acquisition has no commission. The final live destination still needs proof."
+        },
+        {
+          "url": "https://help.stripcash.com/hc/en-us/articles/30212048997532-Can-I-recruit-models-studios-or-new-affiliates-through-my-white-label",
+          "asOf": "2026-09-10",
+          "kind": "official_stripcash_white_label_model_and_affiliate_referral_rules",
+          "proof": "Official help confirms white-label onboarding goes to the main Stripchat site, individual model referrals pay $75/$50/$25 only after the referred model reaches $200 revenue, affiliate referrals pay 5% of invited partners' revenue, and Studio has no referral commission."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Verify the final white-label model route in a normal browser/network trace without submitting any data: it must reach the main official Stripchat model-registration flow and preserve the account referral. If not, use the approved direct model tracker already recorded in the offer registry. Exclude the diagnostic navigation from conversion analysis; do not promote Studio or send unsolicited recruitment.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Preserve the official main-site onboarding redirect for white-label model registration. Keep Studio at zero referral commission. Measure only genuine adult opt-in referrals and provider-confirmed qualification; no unsolicited recruitment or KYC collection.",
       "ownerAction": "Account owner to confirm the final main-site destination and, when a genuine adult opt-in referral occurs, provider-credited qualification. No credentials or identity documents are needed for this check.",
       "history": [
         {
@@ -1307,10 +1373,16 @@
           "asOf": "2026-11-26",
           "kind": "official_google_trends_window_and_export_semantics",
           "proof": "Google's official help confirms Trending Now windows of 4h, 24h, 48h and 7d, average refresh about every 10 minutes, grouped related queries, search-volume buckets and RSS export. Trending Now chart is exact-match while Explore is broad-match; do not conflate the two."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/46075693301",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "production_official_trends_rss_snapshot",
+          "proof": "Official US RSS run: 10 items, 0 eligible adult-commercial candidates; archived observation counts 4h=1, 24h=3, 48h=6, 168h=20, all with observation gaps. Alpha API remains NOT_GRANTED. RSS is distinct from Trending Now UI and Explore."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:52:47.798Z",
-      "nextAction": "Continue timestamped official RSS snapshots and keep RSS distinct from Explore. Do not claim 48h/7d history from the current samples; obtain accessible official 48h/7d and relevant geo evidence when available. Publish only a genuinely relevant candidate mapped to an existing URL and approved offer; no Alpha or unofficial scraping.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Continue natural timestamped official RSS snapshots and report gaps. No Alpha or unofficial scraping; publish only a dated, geo-specific, adult-relevant candidate mapped to an existing URL and approved offer. Do not infer 48h/7d continuous history from sparse observations.",
       "ownerAction": null,
       "history": [
         {
@@ -1389,10 +1461,16 @@
           "asOf": "2026-11-26T22:39:49Z",
           "kind": "latest_editorial_scheduler_admission",
           "proof": "Latest scheduler run completed its observer path but the R1 admission was skipped by backoff; no new writer cycle was started. The prior successful producer cycle #45904040268 closed five Astro guides, which is publication output, not business impact."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/actions/runs/46042170395",
+          "asOf": "2026-11-27T23:24:00Z",
+          "kind": "production_schedule_gap_observation",
+          "proof": "Latest observed schedule event for Editorial producer scheduler was #46042170395 at 17:28:57Z. Later scheduler runs through 23:00Z were workflow_run wakeups; latest #46079961794 was an admission/backoff skip, not a scheduled production cycle. No root cause is proven."
         }
       ],
-      "lastEvidenceAt": "2026-11-26T23:50:55.346Z",
-      "nextAction": "Preserve the single R1 writer and current scheduler backoff/receipt; do not add another writer or reset cadence state. Evaluate new guides only through indexed impressions, engaged landing sessions, relevant CTA clicks and provider-confirmed revenue.",
+      "lastEvidenceAt": "2026-11-27T23:24:00Z",
+      "nextAction": "Keep the existing independent read-only observer and single R1 writer. Investigate missing natural schedule wakeups from Actions event history and scheduler logs; do not manual-dispatch, reset receipts or add another writer.",
       "ownerAction": null,
       "history": [
         {
@@ -1480,6 +1558,82 @@
         "status": "NOT_YET_MEASURED"
       },
       "historyInterpretation": "Initial discovery uses issue creation time. Later backfill entries record when existing source states were observed; they do not invent original approval/deployment times."
+    },
+    {
+      "id": "age-assurance-regulatory-refresh",
+      "status": "EVALUATED",
+      "origin": {
+        "issue": 197,
+        "url": "https://github.com/heavenskybird/stripunion/issues/197",
+        "discoveredAt": "2026-11-27T23:24:00Z"
+      },
+      "hypothesis": "Refreshing the existing adult-platform age-verification privacy guide with current official UK and EU age-assurance guidance can improve compliance relevance and trust without creating a near-duplicate page or adding an affiliate CTA.",
+      "priority": 3,
+      "owner": "StripUnion repository operator",
+      "cost": "existing-free-stack",
+      "dependencies": [],
+      "confidence": "official_regulatory_sources_existing_live_url_no_query_spike_confirmed",
+      "evidence": [
+        {
+          "url": "https://www.stripunion.com/guides/adult-platform-age-verification-privacy-checklist/",
+          "asOf": "2026-11-27",
+          "kind": "existing_production_guide",
+          "proof": "The existing live guide was last updated 2026-10-07. Keep this URL and update it; do not create another age-verification page."
+        },
+        {
+          "url": "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+          "asOf": "2026-11-16",
+          "kind": "official_uk_age_assurance_guidance",
+          "proof": "Ofcom page last updated 2026-11-16; distinguishes Part 3 and Part 5 services and describes highly effective age assurance, applicable placement and record-keeping/privacy duties."
+        },
+        {
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/eu-age-verification",
+          "asOf": "2026-09",
+          "kind": "official_eu_age_verification_blueprint",
+          "proof": "European Commission states the privacy-preserving 18+ proof solution became feature-ready 2026-04-15; the September 2026 EU KIDS ACT is a proposal and Member State rollout recommendations are not proof of platform adoption."
+        },
+        {
+          "url": "https://github.com/heavenskybird/stripunion/blob/main/ops/seo-data-layer/data/reports/2026-11-27.json",
+          "asOf": "2026-11-27T09:48:00Z",
+          "kind": "search_demand_caveat",
+          "proof": "The current report's top query clusters do not establish a specific age-assurance query spike. Treat this as regulatory freshness/long-tail relevance, not a traffic or revenue forecast."
+        }
+      ],
+      "nextAction": "Update the existing adult-platform-age-verification-privacy-checklist guide only: add a concise UK Part 3/Part 5 distinction and the EU privacy-preserving proof-of-age blueprint; link only the official Ofcom and European Commission sources; explain that requirements depend on service role and jurisdiction, the EU blueprint is not universal platform adoption, and the page is not legal advice. Do not create a new URL, affiliate CTA, bypass instructions or under-18 sexual content. Measure 7/28-day age-assurance query impressions, organic sessions and engagement.",
+      "ownerAction": null,
+      "expectedImpact": "Regulatory freshness and privacy-trust relevance for an existing adult-platform guide; no revenue forecast assigned.",
+      "risk": "medium; jurisdictional scope must remain precise and non-legal-advice",
+      "experimentWindow": "7/28 days",
+      "productionUrls": [
+        "https://www.stripunion.com/guides/adult-platform-age-verification-privacy-checklist/"
+      ],
+      "evaluation": {
+        "windowsDays": [
+          7,
+          28
+        ],
+        "metrics": [
+          "age_assurance_query_impressions",
+          "organic_landing_sessions",
+          "engaged_sessions"
+        ],
+        "status": "NOT_YET_MEASURED"
+      },
+      "history": [
+        {
+          "from": null,
+          "to": "DISCOVERED",
+          "at": "2026-11-27T23:24:00Z",
+          "evidenceUrl": "https://github.com/heavenskybird/stripunion/issues/197"
+        },
+        {
+          "from": "DISCOVERED",
+          "to": "EVALUATED",
+          "at": "2026-11-27T23:24:01Z",
+          "evidenceUrl": "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance"
+        }
+      ],
+      "lastEvidenceAt": "2026-11-27T23:24:00Z"
     }
   ]
 }

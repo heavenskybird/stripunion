@@ -1,0 +1,125 @@
+{
+  "backlogId": "creator-platform-separate-operations-and-public-identity",
+  "slug": "creator-platform-public-and-business-identity-boundaries",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Separate Public Identity From Business Operations",
+  "description": "Plan how a creator platform’s public-facing profile, account administration, and business records relate before setting up a creator presence or delegating work.",
+  "excerpt": "A public creator name, an account’s administrative identity, and the information used for business records may serve different purposes. Map what each audience can see and who needs access before building routines around an account.",
+  "keyTakeaways": [
+    "List public-facing identity, account ownership, payment administration, and business records as separate functions.",
+    "Check which profile fields, notifications, and messages are visible to fans, collaborators, or staff.",
+    "Use role-based access only where the platform supports it, and avoid sharing a primary login as a substitute.",
+    "Keep records that explain account ownership and delegated responsibilities without collecting unnecessary personal data.",
+    "Revisit the map when adding a collaborator, changing a public name, or updating account administration."
+  ],
+  "sections": [
+    {
+      "heading": "Map the identities involved before opening or reorganizing an account",
+      "paragraphs": [
+        "Creator businesses can involve several identities that are easy to blur together: a public-facing creator name, the person or entity that controls the account, the contact details used for administration, and the payee information required for business records. These roles may be held by one person or divided among people, but they are not automatically interchangeable. A fan may need to recognize the public brand, while a finance or support process may need different information.",
+        "Start with a simple identity map. For each role, write down its purpose, who needs to see it, and where the platform asks for it. Do not assume that entering a detail in one place keeps it private everywhere else. Review the platform’s own settings and documentation to determine whether a field is public, shown to members, used only for account administration, or unclear. If the boundary is unclear, do not rely on guesswork."
+      ],
+      "table": {
+        "caption": "Separate account functions before deciding who should see each detail",
+        "headers": [
+          "Function",
+          "Typical audience to check",
+          "Question to answer"
+        ],
+        "rows": [
+          [
+            "Public creator identity",
+            "Visitors and members",
+            "Which profile elements are displayed publicly?"
+          ],
+          [
+            "Account administration",
+            "Account owner and authorized operators",
+            "Who receives security or account notices?"
+          ],
+          [
+            "Payment administration",
+            "Account owner and relevant finance staff",
+            "Which details appear in statements or records?"
+          ],
+          [
+            "Business records",
+            "Creator or authorized recordkeeper",
+            "What must be retained for reconciliation?"
+          ],
+          [
+            "Collaborator access",
+            "Named collaborators, if supported",
+            "Can access be limited to a specific task?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Inspect profile and contact details from the visitor’s perspective",
+      "paragraphs": [
+        "A profile can reveal more than its display name. Depending on the service and settings, visitors may encounter a biography, linked accounts, location or schedule details, public posts, or contact options. Check the logged-out view as well as any member-facing view available to you. A field that appears harmless in an administrator screen may become visible when published, while a profile preview may not show every route by which visitors can reach related information.",
+        "Separate brand consistency from personal disclosure. A creator can decide that a public name and brand description are useful while keeping unrelated contact details out of public copy. Review links and embedded contact methods as part of the same boundary: a profile can expose an identity indirectly if it points to an account or site used for another purpose. Keep a record of what you chose to publish and the settings you relied on, so changes can be reviewed rather than reconstructed from memory."
+      ],
+      "bullets": [
+        "Check the public profile while signed out, where possible.",
+        "Review profile links and contact routes as well as visible text.",
+        "Avoid publishing personal details simply to make a profile look complete."
+      ]
+    },
+    {
+      "heading": "Give collaborators access by task, not by convenience",
+      "paragraphs": [
+        "If another person helps with publishing, moderation, accounting, or support, distinguish the task from account ownership. Some services may offer separate roles or permission settings; others may provide limited or no delegation controls. Verify the available options in current account documentation. If there is no suitable role, decide whether the work can be done without handing over the primary credentials. A shared login can make it difficult to tell who made a change and may complicate account recovery.",
+        "Before granting access, define the scope, start date, review date, and removal process. Explain which actions require approval, such as changing account details, publishing public material, or altering payment settings. Do not treat a verbal understanding as a durable record for a business-critical relationship. Keep the record proportionate: note the person, role, authorization, and date, but avoid storing passwords or unnecessary personal information in an ordinary operations document."
+      ],
+      "bullets": [
+        "Name the task and minimum access required.",
+        "Confirm whether access can be revoked without disrupting account ownership.",
+        "Record approval boundaries and a handover method before work begins."
+      ]
+    },
+    {
+      "heading": "Keep business records useful without mixing them into public identity",
+      "paragraphs": [
+        "Business records help a creator understand account activity and reconcile administrative events. They may include platform statements, receipts, correspondence about account changes, or notes about who was authorized to perform a task. These records have a different purpose from a public profile. Store them in a controlled location and use clear file names that make the account, period, and document type easy to identify without putting sensitive details in a shared filename.",
+        "When a platform provides downloadable records, check what the file contains before distributing it. A document intended for an accountant or business partner may include information that should not be forwarded to a collaborator who only needs publishing access. Keep a simple access rule for records: who may retrieve them, who may receive copies, and when a copy is no longer needed. Retention obligations can depend on circumstances, so use appropriate professional advice for questions that require jurisdiction-specific guidance."
+      ],
+      "bullets": [
+        "Separate public profile material from administrative and financial records.",
+        "Share only the records needed for the recipient’s task.",
+        "Keep a dated note when account ownership or authorization changes."
+      ]
+    },
+    {
+      "heading": "Build a review routine for identity-boundary changes",
+      "paragraphs": [
+        "Identity boundaries can change when a creator adopts a new public name, adds a team member, changes a contact method, or shifts from personal to business administration. A small review routine prevents a change in one place from creating an unintended disclosure elsewhere. Check the profile, links, account contacts, recovery methods, collaborator permissions, and record-sharing arrangements as a group. Make the review part of the change itself rather than leaving it until an issue appears.",
+        "Use a short decision log with the change, the affected surfaces, the person who approved it, and any unresolved question. Avoid storing secrets in the log. If the platform’s interface does not make a setting clear, record that uncertainty and seek clarification through an official support or documentation route. A deliberate boundary is more reliable than assuming that a public name, account email, and payment identity will remain separate automatically."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a creator use one name publicly and a different identity for administration?",
+      "answer": "The available setup depends on the service and its requirements. Before relying on separation, check the platform’s account, profile, and payment documentation to see which details are public, which are administrative, and which may appear in records."
+    },
+    {
+      "question": "Should a collaborator use the creator’s primary login?",
+      "answer": "Do not assume a shared login is the safest or best-supported option. Check whether the service offers limited roles. If it does not, consider whether the task can be handled another way and document authorization, access, and removal steps."
+    },
+    {
+      "question": "What should an identity-boundary review include?",
+      "answer": "Review public profile fields, outbound links, administrative contacts, recovery options, collaborator permissions, and access to business records. Repeat the review after material account or team changes."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
