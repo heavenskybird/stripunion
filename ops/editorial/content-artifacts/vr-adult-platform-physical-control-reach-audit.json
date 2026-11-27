@@ -1,0 +1,149 @@
+{
+  "backlogId": "vr-adult-platform-physical-control-reach-audit",
+  "slug": "vr-adult-platform-physical-control-reach-audit",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "VR Adult Platforms: Check Physical Control Reach Before Choosing",
+  "description": "Use a practical, non-content test to assess whether a VR adult platform’s menus and playback controls are reachable and usable with your setup.",
+  "excerpt": "A headset may be compatible while its controls remain awkward to reach from your preferred seated or standing position. This checklist helps you assess physical access to common platform actions before relying on a library.",
+  "keyTakeaways": [
+    "Treat device compatibility and comfortable control reach as separate questions.",
+    "Check whether essential actions are reachable from your intended position without stretching or changing posture unexpectedly.",
+    "Evaluate the platform’s actual menus and playback controls, not just product descriptions.",
+    "Note whether controls depend on a specific hand, controller, or repeated movement.",
+    "Use a brief test that does not require opening adult content, and stop if setup becomes uncomfortable."
+  ],
+  "sections": [
+    {
+      "heading": "Compatibility does not guarantee comfortable access",
+      "paragraphs": [
+        "A platform can work with a headset and still be inconvenient to operate. Menus may place important actions outside an easy reach, require repeated controller movements, or assume a position that does not match how you plan to use the headset. These are practical usability questions rather than questions of content availability. Checking them separately helps prevent a compatibility label from answering more than it actually says.",
+        "Start by writing down your intended position and setup: seated, standing, or another supported arrangement; which controller or input method you expect to use; and which actions matter most. The goal is not to decide whether an interface is universally good. It is to find out whether you can reach the controls you need with your own equipment and preferred posture."
+      ],
+      "bullets": [
+        "Choose the position you expect to use most often.",
+        "List essential actions such as opening a menu, pausing, changing volume, and exiting.",
+        "Identify the controller or input method you plan to use."
+      ]
+    },
+    {
+      "heading": "Use a short, non-content control test",
+      "paragraphs": [
+        "When an official preview, settings page, or other non-content interface is available, use it to test basic interaction. Look for ways to open and close menus, move focus, select an item, go back, and exit. If no suitable preview is available, do not install unverified software or grant unnecessary permissions just to run a test. Record that reach remains unverified instead.",
+        "Keep the test short and controlled. Sit or stand in the position you chose, use the controls at a normal pace, and avoid forcing an arm or wrist into an uncomfortable position to reach a menu. Check whether a pause or exit action is easy to find and repeat. The aim is to assess access, not to complete a lengthy session or push through discomfort."
+      ],
+      "table": {
+        "caption": "Actions to include in a brief control-reach check",
+        "headers": [
+          "Action",
+          "What to observe",
+          "Why it matters"
+        ],
+        "rows": [
+          [
+            "Open and close a menu",
+            "Whether the action is easy to locate and repeat",
+            "Tests basic access without navigating the full library"
+          ],
+          [
+            "Move and select focus",
+            "Whether selection requires awkward reach or precision",
+            "Shows how routine browsing may feel"
+          ],
+          [
+            "Pause or return",
+            "Whether a clear route is available from the current screen",
+            "Tests recovery from an unexpected screen or action"
+          ],
+          [
+            "Exit the interface",
+            "Whether you can identify a straightforward way out",
+            "Helps you retain control of the session"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Measure reach against your real setup",
+      "paragraphs": [
+        "A control can appear reachable in a demonstration but be awkward with your own chair, controller position, or available space. Test the position you will actually use, keeping clear of furniture and other obstacles. Notice whether you need to lean, twist, repeatedly lift an arm, or change posture to complete a basic task. These observations can be more useful than a general comfort rating because they identify what makes the task difficult.",
+        "Do not assume that a platform offers configurable control placement or alternative bindings unless you can verify those options in its current interface or documentation. If you find an adjustment, test it and note what it changes. If the setting is unavailable, unclear, or only described in promotional language, treat that as an unknown. A careful comparison records observable behavior rather than promising a solution the platform may not provide."
+      ],
+      "bullets": [
+        "Use your normal chair or standing area rather than an idealized demo position.",
+        "Keep the space around you clear enough to move safely.",
+        "Record any reaching, twisting, or repeated movement needed for an essential action."
+      ]
+    },
+    {
+      "heading": "Check input dependence and task repetition",
+      "paragraphs": [
+        "Some interfaces make a particular action easy with one controller but cumbersome with another input method. Where a second supported method is clearly documented and available to test, compare the same tasks using each method. Do not assume that an alternative input method exists because a headset supports it in other applications. The platform’s own interface and current documentation are the relevant evidence.",
+        "Repeat each essential task a few times. A control that works once may still be difficult to locate consistently, or may require a sequence that is hard to remember. Note whether the interface provides a visible indication of the selected item and whether the action has an understandable result. Avoid turning this into a speed test: predictable access and a clear way to recover are more useful than shaving seconds off a menu task."
+      ],
+      "table": {
+        "caption": "Compare input methods only where platform support is verified",
+        "headers": [
+          "Check",
+          "Input method A",
+          "Input method B"
+        ],
+        "rows": [
+          [
+            "Open and close the menu",
+            "Record the observed steps",
+            "Record steps only if this method is supported"
+          ],
+          [
+            "Select and return",
+            "Note reach and clarity",
+            "Compare the same task, if testable"
+          ],
+          [
+            "Pause and exit",
+            "Record whether the route is easy to find",
+            "Note unavailable or unverified options"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Turn the test into a decision record",
+      "paragraphs": [
+        "A useful record distinguishes what you tested from what you inferred. Include headset and controller setup, the tested position, interface or preview used, actions completed, and any adjustments you verified. Mark unsupported or untested input methods plainly. This makes it easier to compare platforms later without turning one brief test into a broad claim about every menu or content item.",
+        "Use your priorities to decide what constitutes a deal-breaker. If a reliable pause or exit route is essential, give that more weight than a cosmetic menu preference. If reaching a control requires an uncomfortable movement, do not treat repeated practice as a substitute for a suitable setup. You can instead leave the platform unchosen until you have clearer evidence or a different setup to evaluate. A compatibility claim is only one part of a practical headset decision."
+      ],
+      "bullets": [
+        "Record observed facts separately from assumptions.",
+        "Give essential pause, return, and exit actions higher priority than optional convenience.",
+        "Leave unresolved controls marked as unknown rather than assuming they will work for you."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I judge control reach from a platform’s compatibility list?",
+      "answer": "Not reliably. A compatibility list may indicate that a device or access route is supported, but it does not show whether menus are comfortable for your posture or controller placement. Test the actual interface where a safe, official preview is available."
+    },
+    {
+      "question": "Should I test every menu before choosing?",
+      "answer": "No. A short test of essential actions—opening a menu, selecting, returning, pausing, and exiting—can reveal basic access issues. Record the limits of that test rather than assuming it represents every screen."
+    },
+    {
+      "question": "What if I cannot test the platform before creating an account?",
+      "answer": "Mark control reach as unverified and assess what current documentation actually states. Avoid giving unnecessary data or installing files from unverified sources just to test a feature."
+    },
+    {
+      "question": "What should I do if a control requires an uncomfortable movement?",
+      "answer": "Stop the test rather than forcing the movement. Record the control and position involved, then consider whether another verified setup or input method is available. Do not assume an untested adjustment will solve it."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}

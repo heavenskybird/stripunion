@@ -1,0 +1,154 @@
+{
+  "backlogId": "creator-platform-member-archive-findability-audit",
+  "slug": "creator-platform-member-archive-findability-audit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Test Whether Members Can Find Older Posts",
+  "description": "A practical audit for creators comparing how a platform organizes older member posts, communicates archive structure, and helps subscribers locate material over time.",
+  "excerpt": "A growing membership archive can become hard to use even when posts remain available. Test how a new or returning member finds older material before choosing a creator platform or designing a publishing workflow.",
+  "keyTakeaways": [
+    "Test archive navigation from the perspective of a member who does not already know where a post is.",
+    "Check whether dates, series, labels, and post types are presented consistently.",
+    "Separate the platform’s available navigation tools from the organization a creator must supply.",
+    "Consider how the archive behaves on mobile as well as on a larger screen.",
+    "Do not promise that old posts are easy to find until you have tested the member-facing route."
+  ],
+  "sections": [
+    {
+      "heading": "Treat archive findability as a member task",
+      "paragraphs": [
+        "A creator may know exactly where an older post lives because they remember its publication date or title. A member arriving later may not. Archive findability is the work required to move from a broad question—such as “where is the earlier installment?”—to the relevant post. Testing that journey can reveal friction that a creator-side dashboard does not show.",
+        "Start with a few realistic tasks rather than a vague judgment about whether an archive looks organized. Ask a test user, or simulate the path without relying on private creator knowledge, to locate an earlier post by date, series, topic label, or format. Record what the member can see and what requires outside instructions. The purpose is to evaluate the platform’s member-facing structure, not the quality of the content itself."
+      ],
+      "bullets": [
+        "Write down three common member questions about older posts.",
+        "Use a logged-out or ordinary member view when that is available and appropriate.",
+        "Record each step needed to reach the post, including any dead ends."
+      ]
+    },
+    {
+      "heading": "Compare navigation features with creator-controlled organization",
+      "paragraphs": [
+        "Some archive structure may come from the platform, while some depends on titles, tags, pinned posts, or collections created by the creator. Keep these responsibilities separate. If a platform offers search or filters, test what members can actually access. If no such feature is verified, do not assume that tags or categories automatically make old posts searchable.",
+        "Create a small sample archive or review a permitted preview to see whether a member can distinguish chronological browsing from grouped material. Check whether a post’s title and date are visible in the archive view, and whether a member can return to a previous result without losing their place. Record platform functions separately from the creator’s proposed naming convention; a platform can support organization without supplying it automatically."
+      ],
+      "table": {
+        "caption": "Separate platform tools from creator-maintained structure",
+        "headers": [
+          "Area",
+          "Platform question",
+          "Creator workflow question"
+        ],
+        "rows": [
+          [
+            "Search and filtering",
+            "What can a member search or filter in the current interface?",
+            "Are titles and labels consistent enough to be useful?"
+          ],
+          [
+            "Series or collections",
+            "Can members see grouped items from their view?",
+            "Who maintains order and updates links?"
+          ],
+          [
+            "Chronology",
+            "Can members browse by date or sequence?",
+            "Are dates or installment labels included in posts?"
+          ],
+          [
+            "Mobile archive",
+            "Can members navigate the same structure on a phone?",
+            "Does the organization remain readable on a small screen?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test a new member’s route without insider knowledge",
+      "paragraphs": [
+        "Use a task-based walkthrough. Start from the member landing page or archive entry point, then attempt to find an older item using only information the member can see. Note whether the route relies on a pinned post, a menu, a search field, a sequence label, or a link in a newer post. Record the number and kind of decisions required, but avoid treating a simple step count as a universal measure of quality.",
+        "Repeat the task on mobile if the platform is likely to be used that way. A compact layout may hide navigation, truncate titles, or place archive controls behind menus. Check whether the member can distinguish a post’s date and series at a glance. If the test requires creator-only access or a special account state, note that limitation rather than assuming the public or member view is identical."
+      ],
+      "bullets": [
+        "Test finding an older post by at least two different clues, such as date and series.",
+        "Note whether a member needs a link supplied elsewhere to complete the task.",
+        "Repeat the route on a phone-sized display where feasible."
+      ]
+    },
+    {
+      "heading": "Plan for changes as the archive grows",
+      "paragraphs": [
+        "An organization method that works for a handful of posts may become confusing later. Before choosing a platform, sketch how you would title recurring installments, identify updates, and distinguish different post types. Then test whether those labels remain visible in the member archive. The goal is to choose a workflow you can maintain, not to build an elaborate taxonomy that requires constant manual correction.",
+        "Consider what happens when a post is edited, moved, or no longer offered to a particular member. Check the platform’s current documentation and member-facing view for what the archive communicates. Do not promise a permanent route or access outcome unless the relevant terms and behavior are clear. The archive test should surface dependencies that need a separate policy or access review, not replace that review."
+      ],
+      "table": {
+        "caption": "A maintainable archive naming checklist",
+        "headers": [
+          "Element",
+          "Example of a clear convention",
+          "Test question"
+        ],
+        "rows": [
+          [
+            "Series marker",
+            "A consistent series name or number",
+            "Can a member recognize related posts?"
+          ],
+          [
+            "Post title",
+            "A short, descriptive title",
+            "Does it remain readable in a list view?"
+          ],
+          [
+            "Date or sequence",
+            "A consistent date or installment label",
+            "Can a member infer order without guessing?"
+          ],
+          [
+            "Post type",
+            "A clear label when formats differ",
+            "Can a member distinguish the kind of post before opening it?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Use the audit to compare platforms fairly",
+      "paragraphs": [
+        "For each platform, keep a record of the same tasks, device type, and account view. Note whether the test used a sample archive, a live member-facing view, or documentation only. This prevents a platform with a richer preview from being compared as though it were tested under the same conditions as one with little preview access. If you cannot verify a feature, mark it as unknown.",
+        "A useful decision weighs member effort against creator workload. A platform may provide helpful archive controls but still require consistent post titles and labels. Another workflow may depend more heavily on creator-maintained links. Neither is automatically better; the right fit depends on how frequently you publish, how much archive organization you can sustain, and what members need to retrieve. Revisit the audit when your posting pattern or archive size changes."
+      ],
+      "bullets": [
+        "Compare the same member tasks across platforms.",
+        "Record what was directly tested and what came only from documentation.",
+        "Choose an organization method you can maintain consistently."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should creators organize every post with many tags?",
+      "answer": "Not automatically. A small, consistent set of labels that members can understand may be more useful than a large set applied inconsistently. First verify how those labels appear and whether members can use them in the platform’s current interface."
+    },
+    {
+      "question": "Does a pinned archive post solve findability?",
+      "answer": "It can help if members can locate it and its links remain maintained. Test the route from the member’s normal starting point, and consider how you will update the index as the archive grows."
+    },
+    {
+      "question": "Can I assess archive navigation from a creator dashboard?",
+      "answer": "A dashboard can show posting and management tools, but it may not reflect the member’s view. Test the member-facing route where possible and label any unverified behavior clearly."
+    },
+    {
+      "question": "How often should I repeat the audit?",
+      "answer": "Repeat it when your archive structure changes materially, when you change publishing conventions, or when the platform changes its interface. The audit is a usability check, not a guarantee that every member will navigate in the same way."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
