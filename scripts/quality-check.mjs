@@ -21,6 +21,9 @@ const allowedExternalPrefixes = [
   'https://stripunion.com',
   'https://blog.stripunion.com',
   'https://avcams.online',
+  // Narrow owner-approved BongaCash model referral and official terms URLs (Issue #199).
+  'https://bongacash.com/model-ref?c=843655',
+  'https://bongacash.com/faq',
   'https://go.whitetrafsa.com',
   'https://stripcash.com',
   'https://stripunion-live-models.stripunion.workers.dev',
