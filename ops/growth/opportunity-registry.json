@@ -582,13 +582,19 @@
           "asOf": "2026-11-27T00:00:34.107Z",
           "kind": "current_account_approval_gate",
           "proof": "The current central offer registry still marks LiveJasmin as terms_review_pending and has no approved direct tracking URL. No CTA or link insertion is allowed until account-specific approval."
+        },
+        {
+          "url": "https://www.awempire.com/terms-of-service/",
+          "asOf": "2026-09",
+          "kind": "official_awempire_terms_and_traffic_restrictions",
+          "proof": "Official AWE terms last updated September 2026: individual offer programs require manual approval; traffic from social networking sites including Telegram, WhatsApp, Discord, Facebook and TikTok may be treated as unauthorized; spam/unsolicited messages and search-engine spam are prohibited; brand bidding on AWE/LiveJasmin PPC is non-commissionable; promotional materials outside AWE tools require written approval; Google link-scheme compliance is mandatory. Keep this offer SEO-only until written traffic-source approval; no Telegram/X/Buffer distribution."
         }
       ],
       "expectedImpact": "Potential monetization of an already-ranking LiveJasmin comparison page with a relevant official offer; no revenue forecast assigned.",
-      "risk": "medium",
+      "risk": "high",
       "experimentWindow": "7/28 days",
-      "nextAction": "Owner applies to A.W. Empire using actual site, traffic sources and GEOs; obtains written approval and current plan/rate/terms. Only then add a registry-gated direct CTA to the existing /livejasmin page and measure qualified clicks, purchases and net USD. No unapproved link or claim of 45% account commission.",
-      "ownerAction": "Owner to complete the AWEmpire application and confirm account-specific approval, permitted traffic, eligible GEOs, cookie/first-cookie rules, payout minimum and exact tracking URL.",
+      "nextAction": "Owner applies to A.W. Empire and obtains written approval for the exact LiveJasmin plan, GEOs, organic SEO traffic and any proposed distribution sources. AWE's September 2026 terms explicitly identify Telegram/WhatsApp/Discord and social-network traffic as potentially unauthorized, prohibit spam and brand PPC, and require written approval for non-AWE promotional materials. Until written approval, no LiveJasmin link or social distribution; after approval, add a registry-gated CTA only to the existing /livejasmin page and measure provider-confirmed outcomes.",
+      "ownerAction": "Owner to submit the AWEmpire application and obtain written approval for StripUnion's actual organic SEO traffic and any non-search channels. Do not send AWE traffic through Telegram, X, Buffer, WhatsApp or Discord unless the account manager explicitly approves in writing.",
       "history": [
         {
           "from": null,
@@ -626,7 +632,7 @@
       "productionUrls": [
         "https://stripunion.com/livejasmin/"
       ],
-      "lastEvidenceAt": "2026-11-27T00:00:53.791Z"
+      "lastEvidenceAt": "2026-11-27T00:01:29.644Z"
     },
     {
       "id": "viewer-comparison-two-page-pilot",
@@ -938,10 +944,16 @@
           "asOf": "2026-11-26",
           "kind": "official_awempire_livejasmin_offer_terms",
           "proof": "A.W. Empire's official LiveJasmin offer page lists PPL/PPLR, PPS up to $300 and REVS up to 45% headline; detailed REVS tiers shown are 20–30% by credit volume, with 14-day cookies (30 days for PPS). The PPL/PPLR application is reviewed by AWE; this is public offer information, not an approved StripUnion rate."
+        },
+        {
+          "url": "https://www.awempire.com/terms-of-service/",
+          "asOf": "2026-09",
+          "kind": "official_awempire_traffic_source_gate",
+          "proof": "AWE's current terms require manual program approval, prohibit spam and brand PPC, require Google link-scheme compliance, and treat social-network sources including Telegram/WhatsApp/Discord as potentially unauthorized. No account-specific approval is present in StripUnion's registry."
         }
       ],
-      "lastEvidenceAt": "2026-11-27T00:00:34.107Z",
-      "nextAction": "Prioritize a manual AWEmpire application for LiveJasmin because /livejasmin already has high-intent GSC demand. Obtain account-specific approval, exact rate plan, cookie/first-cookie rules, GEO eligibility, prohibited traffic sources, payout threshold and tracking URL before any CTA. Keep Lovense and Chaturbate disabled until their own account approvals.",
+      "lastEvidenceAt": "2026-11-27T00:01:29.644Z",
+      "nextAction": "Keep LiveJasmin/AWE, Lovense and Chaturbate disabled until account-specific approval and written traffic-source/GEO/payout terms are recorded. For AWE specifically, no Telegram/X/Buffer or other social-network distribution without explicit written permission; do not infer approval from the public offer page.",
       "ownerAction": "Owner applies to selected official programs, accepts terms and supplies sanitized approved tracking link; no login secrets.",
       "history": [
         {
