@@ -1,0 +1,125 @@
+{
+  "backlogId": "creator-platform-gift-membership-redemption-fit",
+  "slug": "creator-platform-gift-membership-redemption-fit",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Check Gift Membership Rules Before Offering Them",
+  "description": "Assess gift membership eligibility, redemption, timing, access, and support obligations before deciding whether gifting fits your creator business.",
+  "excerpt": "A gift membership can bring a new person into a creator community, but its mechanics may differ from an ordinary subscription. Map the giver, recipient, timing, access, and support path before promoting one.",
+  "keyTakeaways": [
+    "Verify whether gifts are available, who can buy them, and which membership levels they cover.",
+    "Map when a gift is redeemed and when its access period begins; do not assume purchase and activation happen together.",
+    "Explain what happens at expiry, including whether a recipient must take a separate step to continue access.",
+    "Separate questions about gift purchase, redemption, account access, and renewal so support can route them clearly.",
+    "Avoid promising that a gift is anonymous, transferable, refundable, or renewable unless current written terms confirm it."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the gifting model, not the promotion",
+      "paragraphs": [
+        "A gift membership is a distinct purchase and access journey, not simply an ordinary subscription with a different message attached. A giver may pay while another person creates or uses the receiving account. That difference can affect eligibility, account identity, renewal expectations, privacy, and the questions both people bring to support.",
+        "Before featuring gifting on a profile or in a campaign, establish the basic model from current platform materials. Check whether gifts are supported, whether the giver chooses a level or duration, whether the recipient must already have an account, and whether eligibility depends on region or account status. If documentation leaves any material point unclear, treat it as unresolved rather than filling the gap with an assumption."
+      ],
+      "bullets": [
+        "Identify the official source that describes gift purchase and redemption.",
+        "Record which gift options are actually shown in the purchase flow.",
+        "Note conditions that could make a recipient unable to redeem a gift."
+      ]
+    },
+    {
+      "heading": "Map each step from purchase through access",
+      "paragraphs": [
+        "Draw the process in order: selection, payment, delivery or invitation, redemption, account linking, access activation, and eventual expiry. At each step, identify who acts and what confirmation they receive. A gift could be delivered through a code, a link, an account-level action, or another process; the creator should verify the actual flow rather than describe a generic one as though it were guaranteed.",
+        "Timing deserves special attention. Determine whether the access period begins when the giver pays, when a recipient redeems the gift, or at another point defined by the platform. If there is a redemption deadline or a delay before access becomes available, capture it in plain language. Do not advertise a duration or start date until the displayed terms support that statement."
+      ],
+      "table": {
+        "caption": "A practical gift-membership journey map",
+        "headers": [
+          "Stage",
+          "Question to resolve",
+          "Evidence to keep"
+        ],
+        "rows": [
+          [
+            "Purchase",
+            "Who can buy, and what option is selected?",
+            "Current purchase-flow wording and selected option"
+          ],
+          [
+            "Delivery",
+            "How does the intended recipient receive the gift?",
+            "Displayed delivery method and any delivery instructions"
+          ],
+          [
+            "Redemption",
+            "Does the recipient need an account or a separate action?",
+            "Redemption steps and any eligibility conditions"
+          ],
+          [
+            "Access",
+            "When does the access period begin, and what does it include?",
+            "Access description and stated timing"
+          ],
+          [
+            "Expiry",
+            "What happens when the gift period ends?",
+            "Expiry notice, next step, and renewal wording"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Set clear expectations about renewal and expiry",
+      "paragraphs": [
+        "A recipient may interpret a gift as a one-time, fixed period of access. The platform may separately define whether any paid continuation requires the recipient to opt in, enter payment details, or take another action. Confirm the exact process and use wording that distinguishes the gift from a future paid membership. Do not imply that access will automatically continue—or automatically stop—without checking the stated terms.",
+        "Explain expiry in a way that helps both parties make an informed choice. If the gift has an end date, say where a recipient can verify it. If the recipient has to take action to continue, describe that as a possibility only when the platform’s rules confirm it. Likewise, do not promise that saving, downloading, or retaining material is part of the gift; access and content rights are separate questions."
+      ],
+      "bullets": [
+        "Keep gift-period access distinct from any later paid option.",
+        "Check whether the recipient receives an expiry notice and where it appears.",
+        "Avoid urgency language that obscures redemption or expiry conditions."
+      ]
+    },
+    {
+      "heading": "Treat privacy and account ownership as separate checks",
+      "paragraphs": [
+        "Gifting can reveal information between people even when the platform does not share the same information with everyone. A giver may learn that a gift was delivered or redeemed; a recipient may see a name, message, or other purchase detail. Confirm what the interface actually displays before describing a gift as anonymous or private. Never encourage a person to share login credentials to transfer access: the recipient should use the platform’s documented redemption route.",
+        "Clarify that the recipient’s account and the giver’s payment relationship may be separate. If the gift is linked to a particular account or cannot be moved, that matters when someone enters the wrong address or has an existing membership. Check the platform’s official help or support route for those edge cases, and avoid promising that support can transfer, reverse, or restore a gift unless its terms say so."
+      ]
+    },
+    {
+      "heading": "Prepare a focused support and promotion workflow",
+      "paragraphs": [
+        "Create a short reference sheet for common questions: purchase confirmation, failed delivery, mistaken recipient details, redemption trouble, existing memberships, access timing, and expiry. For each issue, point to the relevant official help route and state what information the user may need. Do not request passwords, full payment credentials, or unnecessary personal details when helping someone navigate a purchase problem.",
+        "Before publishing a promotion, compare every claim against the current purchase flow and terms. Keep a dated copy or note of the wording you checked, and review it if the interface or rules change. A creator’s role is to explain the offer accurately, not to guarantee a result controlled by the platform. If a point remains uncertain, omit it or tell readers where to verify it."
+      ],
+      "bullets": [
+        "Use separate instructions for the giver and the recipient.",
+        "Link to official redemption and support information where appropriate.",
+        "Review promotional copy whenever the gift flow or terms change."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I promise that a gift membership is anonymous?",
+      "answer": "Not unless current platform information clearly establishes what the giver, recipient, and other account users can see. Check the purchase and redemption screens, and describe only the specific privacy behavior those materials confirm."
+    },
+    {
+      "question": "Does a gift membership automatically renew?",
+      "answer": "Do not assume either renewal or non-renewal. Check the terms and recipient-facing account information, then explain whether the recipient must take a separate action or provide payment details."
+    },
+    {
+      "question": "What should I do if someone cannot redeem a gift?",
+      "answer": "Direct the person to the platform’s official support route and provide the relevant purchase or redemption instructions. Do not ask them to share passwords or promise a transfer, refund, or restoration that you cannot control."
+    }
+  ],
+  "publishedAt": "2026-11-27",
+  "updatedAt": "2026-11-27",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
