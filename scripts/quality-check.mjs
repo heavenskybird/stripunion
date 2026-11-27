@@ -23,6 +23,8 @@ const allowedExternalPrefixes = [
   'https://avcams.online',
   'https://go.whitetrafsa.com',
   'https://stripcash.com',
+  // Official StripCash referral guidance linked from the webmaster guide.
+  'https://help.stripcash.com/hc/en-us/articles/30212048997532-Can-I-recruit-models-studios-or-new-affiliates-through-my-white-label',
   'https://stripunion-live-models.stripunion.workers.dev',
   'https://www.googletagmanager.com',
   'https://www.clarity.ms'
