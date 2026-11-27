@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T04:34:56.390Z",
+  "generatedAt": "2026-11-27T07:14:08.898Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/creator-platform-public-name-change-continuity-plan.json",
-    "ops/editorial/content-artifacts/adult-platform-verification-document-printer-trace-plan.json",
-    "ops/editorial/content-artifacts/premium-video-library-fit-for-interrupted-viewing.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-link-replacement-publisher-exit-plan.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-headset-account-privacy-handoff.json"
+    "ops/editorial/content-artifacts/adult-anime-catalog-search-fallback-workflow.json",
+    "ops/editorial/content-artifacts/free-video-player-caption-setting-persistence-check.json",
+    "ops/editorial/content-artifacts/adult-games-launcher-removal-save-recovery-plan.json",
+    "ops/editorial/content-artifacts/adult-shop-order-invoice-product-name-privacy-review.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-referral-code-and-link-credit-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/creator-platform-public-name-change-continuity-plan.js",
-    "src/data/guides/adult-platform-verification-document-printer-trace-plan.js",
-    "src/data/guides/premium-video-library-fit-for-interrupted-viewing.js",
-    "src/data/guides/webmaster-affiliate-link-replacement-publisher-exit-plan.js",
-    "src/data/guides/vr-adult-platform-headset-account-privacy-handoff.js"
+    "src/data/guides/adult-anime-catalog-search-fallback-workflow.js",
+    "src/data/guides/free-video-player-caption-setting-persistence-check.js",
+    "src/data/guides/adult-games-launcher-removal-save-recovery-plan.js",
+    "src/data/guides/adult-shop-order-invoice-product-name-privacy-review.js",
+    "src/data/guides/webmaster-affiliate-referral-code-and-link-credit-check.js"
   ],
   "categories": [
-    "creator-platforms",
-    "privacy-safety-payment",
-    "premium-videos",
-    "webmaster-affiliate",
-    "vr-ar"
+    "hentai-anime",
+    "free-videos",
+    "adult-games",
+    "adult-shops",
+    "webmaster-affiliate"
   ],
   "backlogIds": [
-    "creator-platform-public-name-change-continuity-plan",
-    "adult-platform-verification-document-printer-trace-plan",
-    "premium-video-library-fit-for-interrupted-viewing",
-    "webmaster-affiliate-link-replacement-publisher-exit-plan",
-    "vr-adult-platform-headset-account-privacy-handoff"
+    "adult-anime-catalog-search-fallback-workflow",
+    "free-video-player-caption-setting-persistence-check",
+    "adult-games-launcher-removal-save-recovery-plan",
+    "adult-shop-order-invoice-product-name-privacy-review",
+    "webmaster-affiliate-referral-code-and-link-credit-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45940581389",
-  "phase": "closed"
+  "r1CycleId": "45956411476"
 }
