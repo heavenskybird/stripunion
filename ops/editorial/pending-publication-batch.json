@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T07:14:08.898Z",
+  "generatedAt": "2026-11-27T08:24:18.096Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/adult-anime-catalog-search-fallback-workflow.json",
-    "ops/editorial/content-artifacts/free-video-player-caption-setting-persistence-check.json",
-    "ops/editorial/content-artifacts/adult-games-launcher-removal-save-recovery-plan.json",
-    "ops/editorial/content-artifacts/adult-shop-order-invoice-product-name-privacy-review.json",
-    "ops/editorial/content-artifacts/webmaster-affiliate-referral-code-and-link-credit-check.json"
+    "ops/editorial/content-artifacts/adult-platform-card-issuer-merchant-controls-review.json",
+    "ops/editorial/content-artifacts/creator-platform-refund-access-offer-design-workbook.json",
+    "ops/editorial/content-artifacts/dating-platform-paid-read-receipt-decision-workbook.json",
+    "ops/editorial/content-artifacts/live-cam-wallet-session-spend-display-comparison.json",
+    "ops/editorial/content-artifacts/premium-video-subscription-gift-recipient-privacy-review.json"
   ],
   "guideFiles": [
-    "src/data/guides/adult-anime-catalog-search-fallback-workflow.js",
-    "src/data/guides/free-video-player-caption-setting-persistence-check.js",
-    "src/data/guides/adult-games-launcher-removal-save-recovery-plan.js",
-    "src/data/guides/adult-shop-order-invoice-product-name-privacy-review.js",
-    "src/data/guides/webmaster-affiliate-referral-code-and-link-credit-check.js"
+    "src/data/guides/adult-platform-card-issuer-merchant-controls-review.js",
+    "src/data/guides/creator-platform-refund-access-offer-design-workbook.js",
+    "src/data/guides/dating-platform-paid-read-receipt-decision-workbook.js",
+    "src/data/guides/live-cam-wallet-session-spend-display-comparison.js",
+    "src/data/guides/premium-video-subscription-gift-recipient-privacy-review.js"
   ],
   "categories": [
-    "hentai-anime",
-    "free-videos",
-    "adult-games",
-    "adult-shops",
-    "webmaster-affiliate"
+    "privacy-safety-payment",
+    "creator-platforms",
+    "dating-hookups",
+    "live-cams",
+    "premium-videos"
   ],
   "backlogIds": [
-    "adult-anime-catalog-search-fallback-workflow",
-    "free-video-player-caption-setting-persistence-check",
-    "adult-games-launcher-removal-save-recovery-plan",
-    "adult-shop-order-invoice-product-name-privacy-review",
-    "webmaster-affiliate-referral-code-and-link-credit-check"
+    "adult-platform-card-issuer-merchant-controls-review",
+    "creator-platform-refund-access-offer-design-workbook",
+    "dating-platform-paid-read-receipt-decision-workbook",
+    "live-cam-wallet-session-spend-display-comparison",
+    "premium-video-subscription-gift-recipient-privacy-review"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "45956411476",
-  "phase": "closed"
+  "r1CycleId": "45965117580"
 }
