@@ -1,0 +1,108 @@
+export default {
+  "slug": "free-video-advertising-claim-and-disclosure-check",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Check Advertising Claims Before You Browse",
+  "description": "Compare free video platforms by checking how they describe advertising, sponsored placements, and ad personalization without assuming identical practices.",
+  "excerpt": "Free access can involve advertising, but the labels and explanations vary. Learn what to check before browsing, how to distinguish a platform statement from an assumption, and how to respond when an ad leads somewhere unexpected.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "Look for the platform’s explanation of advertising and sponsored placements before relying on a brief label.",
+    "Distinguish ordinary listings from promotions when the interface provides a label or disclosure.",
+    "Check whether ad personalization or related privacy controls are described separately.",
+    "Treat an advertisement’s destination as an independent site and inspect it before sharing information.",
+    "Compare what each service actually explains rather than assuming that all free platforms use the same model."
+  ],
+  "sections": [
+    {
+      "heading": "Read the platform’s advertising explanation first",
+      "paragraphs": [
+        "Free access does not tell you how a video platform funds or presents its service. Some interfaces explain advertising, sponsorship, or promotional placement in a policy or help area; others use short labels near a listing or player. Start with the platform’s own explanation and note what it does and does not cover. Do not infer that an experience is ad-free, personalized, or supported by a particular model from the word free alone.",
+        "Separate general policy language from what you observe on a specific page. A policy may describe advertising broadly while a particular screen has a sponsored item or external promotion. Record the page, the label, and the context. If no explanation is available, mark the practice as unclear instead of treating the absence of a visible notice as proof that no promotion is present."
+      ],
+      "bullets": [
+        "Find the service’s advertising or sponsored-content explanation.",
+        "Note when a listing or placement is visibly labeled as promotional.",
+        "Keep observed interface behavior separate from policy claims."
+      ]
+    },
+    {
+      "heading": "Tell promotional placements from ordinary discovery results",
+      "paragraphs": [
+        "Search results, category pages, recommendations, and promoted placements can appear in similar visual formats. Look for labels, badges, or explanatory text that indicate why an item appears. Check whether the promotion is visually distinct enough to recognize while browsing, rather than relying only on a policy page elsewhere. If a result’s placement is unclear, avoid treating its position or styling as evidence that it is an independent recommendation.",
+        "Use a repeatable comparison method. Review a search result, a category listing, and a recommendation area separately, because the service may label each differently. Record the exact wording and where it appears. A platform comparison should describe visible evidence, such as a sponsored label appearing beside a result, rather than make unsupported claims about how the ranking system works."
+      ],
+      "table": {
+        "caption": "A consistent way to assess advertising disclosures",
+        "headers": [
+          "Surface",
+          "What to inspect",
+          "What to record"
+        ],
+        "rows": [
+          [
+            "Search results",
+            "Labels, badges, and separation from other results",
+            "Exact label and its position"
+          ],
+          [
+            "Category or browse page",
+            "Whether promotional items are identified in context",
+            "Which items carry a visible disclosure"
+          ],
+          [
+            "Player or viewing page",
+            "Ad interruptions, prompts, and any stated controls",
+            "What appeared and which controls were available"
+          ],
+          [
+            "Privacy settings",
+            "Any explanation of ad personalization or related choices",
+            "The stated control and its described effect"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Separate ad personalization from general advertising",
+      "paragraphs": [
+        "Advertising and personalized advertising are not interchangeable descriptions. A service may show advertising without explaining whether it is tailored, while a privacy notice may discuss data use in a different section from its advertising policy. Check the service’s own language about personalization, cookies, account data, and available controls. Do not assume that a setting labeled privacy affects every form of advertising or that a choice carries across other sites.",
+        "If a control is offered, read what the platform says it changes and whether it applies to an account, a browser, or a device. A visible toggle may have a narrow scope. If the explanation is unclear, record the limitation and avoid claiming that the setting stops all tracking or advertising. This keeps the comparison useful without promising a privacy outcome the platform has not stated."
+      ]
+    },
+    {
+      "heading": "Inspect an advertisement’s destination as a separate decision",
+      "paragraphs": [
+        "Selecting an advertisement may take you away from the video platform. Before opening it, check the link destination when your browser allows that, and pause if the label and destination do not match. Once a page opens, verify the address before entering credentials, contact details, or payment information. An ad displayed on a video service is not proof that the destination is operated by that service or follows the same privacy practices.",
+        "Be cautious with unexpected downloads, permission requests, or urgent prompts on an advertising destination. You are not required to grant location, notification, camera, or microphone access merely because a page asks. If an ad appears deceptive or unsafe, leave it unopened or close the destination and use the platform’s available reporting route. Keep any report focused on the placement and behavior you observed."
+      ],
+      "bullets": [
+        "Check the destination before submitting information.",
+        "Decline permissions that do not have a clear connection to your chosen task.",
+        "Do not install a file or extension presented unexpectedly by an ad."
+      ]
+    },
+    {
+      "heading": "Compare platforms using evidence, not assumptions",
+      "paragraphs": [
+        "Build a small comparison record using the same surfaces on each platform: policy explanation, search results, category listings, player experience, and privacy controls. Note what is visible, what the service states, and what remains unanswered. This approach makes differences legible without assigning a quality ranking or assuming that one interface’s disclosure represents every page or future session.",
+        "Recheck important information when the service changes its interface or policy. Advertising placements and privacy controls can be revised, so date your notes and avoid treating an old observation as a permanent guarantee. If a platform does not explain a point you consider important, make that uncertainty part of your decision. You can choose a service based on the information it provides without inventing details about its advertising operations."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does free access mean a video platform is supported by advertising?",
+      "answer": "Not necessarily. The word free describes an access condition, not the full funding model. Check the platform’s own explanation of advertising, sponsorship, or other arrangements before drawing a conclusion."
+    },
+    {
+      "question": "How can I tell if a result is sponsored?",
+      "answer": "Look for a visible label or disclosure beside the item and check the platform’s explanation of promoted placements. If the interface does not make the status clear, describe it as unclear rather than assuming it is either sponsored or organic."
+    },
+    {
+      "question": "Does turning off ad personalization stop advertising?",
+      "answer": "Do not assume that it does. Read the platform’s explanation of the specific control and its scope. A setting may affect personalization without removing advertising, and its effect may vary by account, browser, or device."
+    }
+  ]
+};

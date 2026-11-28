@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T23:28:20.296Z",
+  "generatedAt": "2026-11-28T02:00:07.201Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 0,
+  "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/hentai-anime-translation-quality-sample-audit.json",
-    "ops/editorial/content-artifacts/vr-adult-platform-physical-control-reach-audit.json",
-    "ops/editorial/content-artifacts/premium-video-repeatable-seek-skip-control-test.json",
-    "ops/editorial/content-artifacts/creator-platform-member-archive-findability-audit.json",
-    "ops/editorial/content-artifacts/adult-platform-network-dns-visibility-choice.json"
+    "ops/editorial/content-artifacts/dating-platform-trial-renewal-decision-check.json",
+    "ops/editorial/content-artifacts/live-cam-outbound-link-destination-review.json",
+    "ops/editorial/content-artifacts/affiliate-cross-device-attribution-evidence-plan.json",
+    "ops/editorial/content-artifacts/adult-anime-official-source-verification-workflow.json",
+    "ops/editorial/content-artifacts/free-video-advertising-claim-and-disclosure-check.json"
   ],
   "guideFiles": [
-    "src/data/guides/hentai-anime-translation-quality-sample-audit.js",
-    "src/data/guides/vr-adult-platform-physical-control-reach-audit.js",
-    "src/data/guides/premium-video-repeatable-seek-skip-control-test.js",
-    "src/data/guides/creator-platform-member-archive-findability-audit.js",
-    "src/data/guides/adult-platform-network-dns-visibility-choice.js"
+    "src/data/guides/dating-platform-trial-renewal-decision-check.js",
+    "src/data/guides/live-cam-outbound-link-destination-review.js",
+    "src/data/guides/affiliate-cross-device-attribution-evidence-plan.js",
+    "src/data/guides/adult-anime-official-source-verification-workflow.js",
+    "src/data/guides/free-video-advertising-claim-and-disclosure-check.js"
   ],
   "categories": [
+    "dating-hookups",
+    "live-cams",
+    "webmaster-affiliate",
     "hentai-anime",
-    "vr-ar",
-    "premium-videos",
-    "creator-platforms",
-    "privacy-safety-payment"
+    "free-videos"
   ],
   "backlogIds": [
-    "hentai-anime-translation-quality-sample-audit",
-    "vr-adult-platform-physical-control-reach-audit",
-    "premium-video-repeatable-seek-skip-control-test",
-    "creator-platform-member-archive-findability-audit",
-    "adult-platform-network-dns-visibility-choice"
+    "dating-platform-trial-renewal-decision-check",
+    "live-cam-outbound-link-destination-review",
+    "affiliate-cross-device-attribution-evidence-plan",
+    "adult-anime-official-source-verification-workflow",
+    "free-video-advertising-claim-and-disclosure-check"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,8 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "46082490373",
-  "mode": "recovery",
-  "recoveryCount": 5,
-  "phase": "closed"
+  "r1CycleId": "46095581108"
 }

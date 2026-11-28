@@ -1,0 +1,115 @@
+{
+  "backlogId": "adult-anime-official-source-verification-workflow",
+  "slug": "adult-anime-official-source-verification-workflow",
+  "categorySlug": "hentai-anime",
+  "categoryLabel": "Hentai / Anime",
+  "title": "Adult Anime Platforms: Verify the Source Before You Stream, Read, or Play",
+  "description": "A practical source-verification workflow for adult anime platforms, covering operator identity, catalog provenance, account prompts, and suspicious downloads.",
+  "excerpt": "A polished catalog page does not establish who operates a site or whether a title is presented with reliable source information. Use these checks before creating an account, paying, or downloading.",
+  "keyTakeaways": [
+    "Check whether the platform identifies its operator and explains how to contact it.",
+    "Separate a title’s catalog description from evidence about its source or authorization.",
+    "Treat unexpected downloads and third-party sign-in prompts as separate safety decisions.",
+    "Check the final domain before entering account or payment details.",
+    "Record unclear claims accurately rather than treating a polished interface as proof."
+  ],
+  "sections": [
+    {
+      "heading": "Start with the operator and the page you are actually using",
+      "paragraphs": [
+        "Before comparing an adult anime streaming, manga, or game catalog, establish which service you are looking at. Check the address bar, the site’s operator information, and its stated contact or support route. A familiar visual design, logo, or title listing does not by itself establish who controls the page. If you arrived through a search result, advertisement, or redirect, compare the current address with the service identity shown on the page.",
+        "Look for a consistent account boundary. The site should explain which service will receive your registration details and where its privacy and access terms can be found. If a page unexpectedly sends you to a different domain to create an account or complete an action, pause and identify that service before continuing. The practical goal is not to prove every claim from the page alone; it is to spot important gaps before sharing information."
+      ],
+      "bullets": [
+        "Check the current domain before signing in.",
+        "Find the stated operator and a usable contact or support route.",
+        "Pause when the account or payment destination changes without explanation."
+      ]
+    },
+    {
+      "heading": "Distinguish catalog metadata from source evidence",
+      "paragraphs": [
+        "A title page may contain a synopsis, format label, creator credit, release note, or edition detail. Those fields help identify what the catalog claims to offer, but they are not all evidence of where the material came from or whether the platform is authorized to provide it. Keep those questions separate. When provenance matters to your decision, look for a clear explanation of the source, publisher, rights information, or content-delivery relationship.",
+        "Compare claims across the title page, platform information, and any linked source documentation. If the information conflicts, note exactly what differs: title spelling, edition, credited party, release information, or stated access route. Avoid inferring a definitive answer from missing metadata alone. An incomplete page is a reason to seek clarification or choose another route, not proof of a particular rights status."
+      ],
+      "table": {
+        "caption": "What a catalog detail can and cannot establish",
+        "headers": [
+          "Catalog detail",
+          "Useful for",
+          "Does not automatically prove"
+        ],
+        "rows": [
+          [
+            "Title and alternate names",
+            "Finding and distinguishing a listing",
+            "Who supplied the material"
+          ],
+          [
+            "Creator or publisher credit",
+            "Understanding the page’s stated attribution",
+            "That the credit has been independently verified"
+          ],
+          [
+            "Format or edition label",
+            "Knowing what type of item the page claims to offer",
+            "That the delivered item matches the label"
+          ],
+          [
+            "Access or purchase prompt",
+            "Understanding the route offered by the service",
+            "The operator’s authority to provide the item"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Assess account, payment, and identity prompts",
+      "paragraphs": [
+        "A request to register should explain what information is required and what the account enables. Before submitting details, check whether browsing can continue without an account and whether the site explains how account data is handled. Do not provide identity documents, contact information, or other sensitive details simply because a page requests them. If a verification step appears, look for an explanation of purpose, data use, and alternatives before deciding whether to continue.",
+        "Payment prompts deserve the same boundary check. Confirm which service is taking payment, what access the transaction is intended to provide, and where the applicable terms are presented. Do not rely on a link label or a pop-up alone. If the page redirects to a new domain, inspect the destination and its operator before entering financial information. A catalog comparison can stop at this point if the service does not explain the transaction clearly."
+      ]
+    },
+    {
+      "heading": "Treat downloads and app offers as a different risk decision",
+      "paragraphs": [
+        "Streaming, reading, or browser-based play does not require accepting every file or installation prompt that appears near a catalog entry. A download may come from the platform, an outside host, or an unrelated advertisement. Confirm the source and purpose before opening a file. Avoid installing a player, extension, or update that arrives unexpectedly or is presented as necessary without a clear explanation from a service you have independently identified.",
+        "If a legitimate offline or installed option matters to you, find the service’s stated instructions through its own help or account pages rather than relying on a third-party prompt. Check the file type, the distribution source, and any stated access restrictions. Keep the decision proportional: if the source remains unclear, decline the download and use a route that does not require it."
+      ],
+      "bullets": [
+        "Do not open unexpected files to discover what they contain.",
+        "Check the source and purpose of an installation prompt before proceeding.",
+        "Use the platform’s own help route to verify any required software."
+      ]
+    },
+    {
+      "heading": "Use an evidence note to compare platforms fairly",
+      "paragraphs": [
+        "A concise evidence note helps distinguish a site’s claims from your own conclusions. Record the page address, date checked, operator information found, title-level source details, and any unexplained redirects or prompts. Use neutral wording such as stated publisher credit present or source not explained on the page. Avoid turning an absence of evidence into an accusation, and do not describe a title as authorized or unauthorized unless you have reliable support for that conclusion.",
+        "Compare services using the same questions and the same standard. One platform may explain its operator clearly but provide limited title-level provenance; another may provide detailed catalog credits but unclear account boundaries. Your decision can reflect those trade-offs without pretending the available evidence answers every question. If a material claim is unresolved, mark it as unresolved and consider whether that uncertainty is acceptable before creating an account or making a purchase."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a creator credit on an adult anime title page prove the platform is authorized to provide it?",
+      "answer": "A credit can be useful attribution, but it does not by itself establish the platform’s authority to provide the material. Check the service’s source or rights information and describe gaps in the evidence accurately."
+    },
+    {
+      "question": "What should I do if a catalog page redirects to another domain?",
+      "answer": "Pause and identify the destination before entering information or continuing. Check whether the platform explains the change and whether the new page identifies its operator. If the route remains unclear, close it and use a known service route."
+    },
+    {
+      "question": "Should I install a player requested by a catalog page?",
+      "answer": "Only consider it after independently verifying the source, purpose, and instructions. Unexpected downloads or updates are a reason to stop and check the service’s own help information, not a reason to install immediately."
+    }
+  ],
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
