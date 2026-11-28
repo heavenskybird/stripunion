@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T04:05:55.044Z",
+  "generatedAt": "2026-11-28T05:00:15.714Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/vr-adult-platform-download-queue-management-review.json",
-    "ops/editorial/content-artifacts/adult-games-achievement-and-playtime-visibility-review.json",
-    "ops/editorial/content-artifacts/adult-shop-product-model-identification-recall-readiness.json",
-    "ops/editorial/content-artifacts/premium-video-library-availability-sampling-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-public-chat-history-visibility-review.json"
+    "ops/editorial/content-artifacts/adult-platform-shared-card-authorization-boundary.json",
+    "ops/editorial/content-artifacts/creator-platform-platform-change-migration-sequence.json",
+    "ops/editorial/content-artifacts/adult-dating-platform-search-result-context-audit.json",
+    "ops/editorial/content-artifacts/webmaster-affiliate-conversion-eligibility-source-document-map.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-account-sharing-entitlement-boundary.json"
   ],
   "guideFiles": [
-    "src/data/guides/vr-adult-platform-download-queue-management-review.js",
-    "src/data/guides/adult-games-achievement-and-playtime-visibility-review.js",
-    "src/data/guides/adult-shop-product-model-identification-recall-readiness.js",
-    "src/data/guides/premium-video-library-availability-sampling-workflow.js",
-    "src/data/guides/live-cam-public-chat-history-visibility-review.js"
+    "src/data/guides/adult-platform-shared-card-authorization-boundary.js",
+    "src/data/guides/creator-platform-platform-change-migration-sequence.js",
+    "src/data/guides/adult-dating-platform-search-result-context-audit.js",
+    "src/data/guides/webmaster-affiliate-conversion-eligibility-source-document-map.js",
+    "src/data/guides/vr-adult-platform-account-sharing-entitlement-boundary.js"
   ],
   "categories": [
-    "vr-ar",
-    "adult-games",
-    "adult-shops",
-    "premium-videos",
-    "live-cams"
+    "privacy-safety-payment",
+    "creator-platforms",
+    "dating-hookups",
+    "webmaster-affiliate",
+    "vr-ar"
   ],
   "backlogIds": [
-    "vr-adult-platform-download-queue-management-review",
-    "adult-games-achievement-and-playtime-visibility-review",
-    "adult-shop-product-model-identification-recall-readiness",
-    "premium-video-library-availability-sampling-workflow",
-    "live-cam-public-chat-history-visibility-review"
+    "adult-platform-shared-card-authorization-boundary",
+    "creator-platform-platform-change-migration-sequence",
+    "adult-dating-platform-search-result-context-audit",
+    "webmaster-affiliate-conversion-eligibility-source-document-map",
+    "vr-adult-platform-account-sharing-entitlement-boundary"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "46105602549",
-  "phase": "closed"
+  "r1CycleId": "46109916483"
 }

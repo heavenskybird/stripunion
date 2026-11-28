@@ -1,0 +1,131 @@
+{
+  "backlogId": "webmaster-affiliate-conversion-eligibility-source-document-map",
+  "slug": "webmaster-affiliate-conversion-eligibility-source-document-map",
+  "categorySlug": "webmaster-affiliate",
+  "categoryLabel": "Webmaster / Affiliate",
+  "title": "Affiliate Programs: Map Which Document Defines Conversion Eligibility",
+  "description": "Before relying on affiliate conversion reports, compare the agreement, program rules, dashboard definitions, and support answers to identify the controlling eligibility terms.",
+  "excerpt": "A dashboard label may not explain why a referral qualifies, is excluded, or later changes status. Build a source map before you forecast or publish claims so your team knows which documented rule applies and where uncertainty remains.",
+  "keyTakeaways": [
+    "Locate the agreement and current program rules that define qualifying conversions, exclusions, and status changes.",
+    "Treat dashboard labels as reporting signals, not complete definitions, unless program documentation says they are authoritative.",
+    "Record the version and date of each source so later changes can be distinguished from earlier decisions.",
+    "Resolve conflicts through a specific written question and preserve the response alongside the applicable terms.",
+    "Do not make forecasts or visitor-facing claims more certain than the eligibility evidence supports."
+  ],
+  "sections": [
+    {
+      "heading": "Separate a report label from an eligibility rule",
+      "paragraphs": [
+        "Affiliate dashboards often present compact labels such as pending, approved, reversed, or qualified. Those labels can be useful for operating a campaign, but the label alone may not explain the underlying condition. A conversion can be reported before a review is complete, subject to an exclusion, or changed later under program rules. The exact meaning depends on the program’s documentation and should not be inferred from familiar wording.",
+        "Start by listing the events you need to understand: what counts as a conversion, which customer or transaction types qualify, what exclusions apply, when status can change, and which evidence is used if a referral is questioned. This is not the same task as matching clicks to reports or testing tracking links. It is a source-of-truth exercise: identify where each eligibility rule is written and whether the documents agree."
+      ],
+      "bullets": [
+        "Write each decision question as a separate item rather than treating “conversion rules” as one topic.",
+        "Capture the exact dashboard label and the date it was observed.",
+        "Find the written definition that corresponds to the label.",
+        "Mark any point that appears only in an informal explanation as unconfirmed."
+      ]
+    },
+    {
+      "heading": "Build a dated source inventory",
+      "paragraphs": [
+        "Collect the documents that may describe eligibility: the signed agreement or terms, program policy pages, campaign-specific instructions, dashboard help text, and written support replies. Record where each item came from, when you accessed it, and whether it identifies a version or effective date. Save a copy or stable reference where the program’s rules allow it. A dated inventory helps prevent an old email or cached page from being treated as current policy.",
+        "Keep different kinds of evidence distinct. A contract may define the general relationship; a program rule may specify operational exclusions; a dashboard guide may explain how statuses are displayed; and a support response may clarify an ambiguous case. These documents can answer different questions. Do not assume one replaces another unless the text or authorized program contact establishes that relationship."
+      ],
+      "table": {
+        "caption": "Source map for affiliate conversion eligibility",
+        "headers": [
+          "Source",
+          "What to extract",
+          "How to treat uncertainty"
+        ],
+        "rows": [
+          [
+            "Agreement or governing terms",
+            "Definitions, exclusions, amendment process, and governing references",
+            "Check whether a later document is incorporated or changes the terms."
+          ],
+          [
+            "Program policy or campaign rules",
+            "Eligibility conditions and campaign-specific restrictions",
+            "Record its effective date and applicable campaign scope."
+          ],
+          [
+            "Dashboard documentation",
+            "Meaning of statuses, timing, and report behavior",
+            "Do not treat a status explanation as a full commission rule unless stated."
+          ],
+          [
+            "Support correspondence",
+            "Clarification of a specific ambiguity or case",
+            "Preserve the question, answer, date, and responder context."
+          ],
+          [
+            "Your own reports and logs",
+            "Observed events, dates, IDs, and changes in status",
+            "Use as operational evidence, not as proof of the program’s rule."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare the sources without flattening differences",
+      "paragraphs": [
+        "Keep the map neutral. It should show what is documented, what is inferred, and what remains unknown. Do not convert a support representative’s informal comment into a guaranteed program term. Ask whether the response is an official interpretation, which campaign or period it applies to, and whether the governing terms will be updated. If no authoritative clarification is available, use the more conservative assumption for planning and avoid stating the disputed point as settled."
+      ]
+    },
+    {
+      "heading": "Connect eligibility evidence to reporting and forecasts",
+      "paragraphs": [
+        "Once sources are mapped, link each report field you use to its documented meaning. For instance, note whether a status represents an initial event, a reviewed event, or a final outcome only if the documentation supports that distinction. Identify how far back a report can change, where exclusions are recorded, and which time period a status applies to. This helps prevent a provisional report from being treated as earned or final revenue.",
+        "Forecasts should carry the same uncertainty as the evidence. If eligibility depends on conditions you cannot observe, label the estimate accordingly and avoid a single precise outcome. Keep reported counts separate from amounts that have been confirmed under the program’s rules. This is not a substitute for reconciliation or commission review; it is a way to make sure your assumptions are visible to anyone using the numbers."
+      ],
+      "bullets": [
+        "Map each frequently used report field to a documented definition.",
+        "Separate provisional, reviewed, and final states only where the rules define them.",
+        "Document assumptions that cannot be verified from available reports.",
+        "Use conservative scenarios when a material eligibility question remains unresolved."
+      ]
+    },
+    {
+      "heading": "Maintain the map when terms or reports change",
+      "paragraphs": [
+        "Revisit the source map when the program announces a policy change, updates dashboard documentation, changes a campaign, or gives a new written interpretation. Preserve the previous version rather than overwriting it. Record the effective date, the date you learned of the change, and which campaigns or reporting periods may be affected. This makes it easier to explain why a historical forecast or classification differed from a current one.",
+        "Assign an owner for checking and approving changes, particularly if several people manage links, reports, or editorial claims. The owner should flag affected assumptions and update internal guidance before new decisions depend on the changed definition. If the change is unclear, ask for scope and effective date in writing. Do not publish claims about eligibility, commission, or guaranteed outcomes that the source map cannot substantiate."
+      ],
+      "bullets": [
+        "Store source versions with access dates and effective dates when available.",
+        "Keep a change log rather than replacing old notes with new language.",
+        "Flag affected campaigns and forecasts when eligibility definitions change.",
+        "Review public claims and internal assumptions after material program updates."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is the affiliate dashboard the final authority on conversion eligibility?",
+      "answer": "Not necessarily. A dashboard may report events and statuses, while the agreement or program rules define qualification and exclusions. Check the program’s documentation to understand which source governs each question and how a status can change."
+    },
+    {
+      "question": "What should I do when a support reply conflicts with written terms?",
+      "answer": "Record the exact conflict and ask a focused follow-up through an official channel. Request clarification about which term applies, the relevant campaign or period, and whether the response is an authoritative interpretation. Do not treat an informal reply as a guaranteed amendment."
+    },
+    {
+      "question": "How often should a source map be reviewed?",
+      "answer": "Review it when terms, campaign rules, dashboard definitions, or written interpretations change, and before making a decision that depends on an uncertain eligibility rule. A dated review schedule can help, but event-triggered checks are important too."
+    },
+    {
+      "question": "Can an observed conversion prove that the referral qualified?",
+      "answer": "An observed event proves that the report recorded something, not necessarily that every eligibility condition has been met. Compare the event and status with the documented rules, exclusions, and any review process before treating it as final."
+    }
+  ],
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "evidence": {
+    "class": "evergreen_nonexplicit_editorial_framework",
+    "volatileClaims": [],
+    "officialSources": [],
+    "notes": "Autonomous producer is restricted to evergreen, non-platform-specific claims in this batch."
+  }
+}
