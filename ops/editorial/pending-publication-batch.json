@@ -1,37 +1,37 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T09:42:42.303Z",
+  "generatedAt": "2026-11-28T14:34:13.440Z",
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
   "generatedCount": 5,
   "artifactFiles": [
-    "ops/editorial/content-artifacts/dating-platform-registration-preview-evidence-workflow.json",
-    "ops/editorial/content-artifacts/live-cam-platform-comparison-evidence-confidence-workbook.json",
-    "ops/editorial/content-artifacts/adult-platform-payment-authorization-amount-boundary-plan.json",
-    "ops/editorial/content-artifacts/premium-video-subscription-watchlist-priority-planning.json",
-    "ops/editorial/content-artifacts/creator-platform-member-benefit-capacity-fit-workbook.json"
+    "ops/editorial/content-artifacts/free-video-platform-first-visit-evidence-workflow.json",
+    "ops/editorial/content-artifacts/adult-anime-language-layer-comparison-workflow.json",
+    "ops/editorial/content-artifacts/adult-games-version-specific-update-readiness-workflow.json",
+    "ops/editorial/content-artifacts/adult-shop-return-evidence-minimization-planner.json",
+    "ops/editorial/content-artifacts/vr-adult-platform-device-replacement-continuity-workflow.json"
   ],
   "guideFiles": [
-    "src/data/guides/dating-platform-registration-preview-evidence-workflow.js",
-    "src/data/guides/live-cam-platform-comparison-evidence-confidence-workbook.js",
-    "src/data/guides/adult-platform-payment-authorization-amount-boundary-plan.js",
-    "src/data/guides/premium-video-subscription-watchlist-priority-planning.js",
-    "src/data/guides/creator-platform-member-benefit-capacity-fit-workbook.js"
+    "src/data/guides/free-video-platform-first-visit-evidence-workflow.js",
+    "src/data/guides/adult-anime-language-layer-comparison-workflow.js",
+    "src/data/guides/adult-games-version-specific-update-readiness-workflow.js",
+    "src/data/guides/adult-shop-return-evidence-minimization-planner.js",
+    "src/data/guides/vr-adult-platform-device-replacement-continuity-workflow.js"
   ],
   "categories": [
-    "dating-hookups",
-    "live-cams",
-    "privacy-safety-payment",
-    "premium-videos",
-    "creator-platforms"
+    "free-videos",
+    "hentai-anime",
+    "adult-games",
+    "adult-shops",
+    "vr-ar"
   ],
   "backlogIds": [
-    "dating-platform-registration-preview-evidence-workflow",
-    "live-cam-platform-comparison-evidence-confidence-workbook",
-    "adult-platform-payment-authorization-amount-boundary-plan",
-    "premium-video-subscription-watchlist-priority-planning",
-    "creator-platform-member-benefit-capacity-fit-workbook"
+    "free-video-platform-first-visit-evidence-workflow",
+    "adult-anime-language-layer-comparison-workflow",
+    "adult-games-version-specific-update-readiness-workflow",
+    "adult-shop-return-evidence-minimization-planner",
+    "vr-adult-platform-device-replacement-continuity-workflow"
   ],
   "skippedCarryover": [],
   "growthIntelligence": {
@@ -43,6 +43,5 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "46131570504",
-  "phase": "closed"
+  "r1CycleId": "46149189784"
 }

@@ -1,0 +1,130 @@
+export default {
+  "slug": "vr-adult-platform-device-replacement-continuity-workflow",
+  "categorySlug": "vr-ar",
+  "categoryLabel": "VR / AR",
+  "title": "Replacing a VR Headset? Check Adult Platform Access Before You Switch Devices",
+  "description": "A continuity checklist for reviewing headset compatibility, account access, library availability, and privacy steps before replacing or retiring a VR device.",
+  "excerpt": "A headset change can affect more than comfort or display. Map the account, access route, and library first, then protect local information on the old device before handing it on or wiping it.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "Confirm that the platform supports the replacement headset and access route before relying on continuity.",
+    "Identify which account controls the platform login, purchase, and any headset-store access.",
+    "Check whether library access, saved lists, or local files depend on the old device.",
+    "Secure the old headset before transfer, repair, or disposal, and use its documented reset process.",
+    "Keep a record of unresolved compatibility or access questions before making an irreversible change."
+  ],
+  "sections": [
+    {
+      "heading": "Map the accounts and access route first",
+      "paragraphs": [
+        "Before buying or setting up a replacement headset, list the accounts involved in the current experience. A platform account, device-store account, email sign-in, and payment account may be separate. The fact that one account appears on the headset does not establish that it controls every purchase or library entitlement. Use account pages and purchase records you can access to identify the responsible account for each part.",
+        "Then identify the route you use: a headset browser, a platform application, a PC-connected setup, or another documented method. Do not assume that a replacement model supports the same route or that an old installation can simply be copied. Verify compatibility through platform or device documentation before committing to a transition. If details are missing, mark the route as unconfirmed rather than treating a similar model as proof."
+      ],
+      "bullets": [
+        "List platform, device-store, and sign-in accounts separately.",
+        "Record where purchases and subscriptions are managed.",
+        "Confirm the replacement headset and access route using current documentation."
+      ]
+    },
+    {
+      "heading": "Check what library access depends on",
+      "paragraphs": [
+        "Make a short list of the titles or library areas you care about and note how each is accessed. Some items may depend on an account entitlement, while others may be local files or connected to a separate player. A platform’s general library page does not necessarily show whether every item will work on a different device. Check the route for the specific content that matters before retiring the old headset.",
+        "Also distinguish continued account access from continued local access. A saved list may be attached to an account, while cached or downloaded files may exist only on the old device. If the platform provides export, transfer, or synchronization instructions, follow those instructions. If it does not explain what carries over, treat continuity as uncertain and avoid assuming that a reset or app removal will preserve local information."
+      ],
+      "table": {
+        "caption": "Map each part of the setup to the account or device that may control it.",
+        "headers": [
+          "Item to check",
+          "Evidence to look for",
+          "Question to resolve"
+        ],
+        "rows": [
+          [
+            "Platform account",
+            "Account page, sign-in method, or support documentation.",
+            "Can you sign in on the replacement device?"
+          ],
+          [
+            "Purchase or membership",
+            "Receipt, billing page, or stated access terms.",
+            "Which account manages billing and entitlement?"
+          ],
+          [
+            "Headset compatibility",
+            "Platform and device documentation.",
+            "Is the replacement model and route supported?"
+          ],
+          [
+            "Saved lists or preferences",
+            "Account settings or export information.",
+            "Are these synchronized, transferable, or device-local?"
+          ],
+          [
+            "Local files or cache",
+            "Device storage and platform instructions.",
+            "What must be backed up or removed before reset?"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify compatibility without relying on a product label",
+      "paragraphs": [
+        "Check the exact headset model, operating environment, and access method against the platform’s documentation. A broad “VR compatible” label may not explain whether access uses a browser, an installed application, a PC, or a companion player. Each route can have different requirements. Look for explicit support information and note when the documentation does not name your model or software version.",
+        "If possible, test the replacement route with non-sensitive account browsing before moving important settings or relying on the new device. Confirm that sign-in, navigation, and a permitted preview or basic library page work as expected. Do not enter credentials into a site reached from an unfamiliar link. If access depends on additional software, verify its source and permissions through the platform’s stated installation instructions."
+      ],
+      "paragraphs2": [
+        "A successful sign-in alone does not confirm every feature or title is available. Check the specific library and controls you expect to use, while distinguishing what you actually tested from what documentation claims. Keep tests limited and avoid storing credentials on a device you do not control. Compatibility is a chain of device, software, account, and content conditions; one working step does not verify all of them."
+      ]
+    },
+    {
+      "heading": "Plan saved information and transition timing",
+      "paragraphs": [
+        "Before changing devices, identify whether you need saved lists, viewing preferences, or other account information. Check for documented synchronization or export options and make a copy only through supported methods. Do not assume that an account login automatically transfers every local setting. If a platform does not explain portability, consider preserving a private record of essential non-sensitive preferences rather than relying on memory.",
+        "Plan the transition so you can confirm access on the replacement headset before wiping or surrendering the old one, when that is practical and consistent with your ownership situation. If the old device is being repaired or transferred, do not leave an account signed in just to make migration easier. Use documented sign-out and reset steps, and verify afterward that local access has been removed."
+      ],
+      "paragraphs2": [
+        "Avoid starting multiple changes at once. Changing a password, moving a subscription, resetting a device, and installing a new application in one sequence can make it difficult to locate the cause of an access problem. Record the old setup, complete one transition step, and confirm the result before proceeding. Keep account recovery information available in a private place in case the new device requires renewed sign-in."
+      ]
+    },
+    {
+      "heading": "Protect the old headset and shared-device privacy",
+      "paragraphs": [
+        "Before handing over, selling, recycling, or sending the old headset for service, review accounts, saved credentials, downloads, browser data, and notifications. Follow the device maker’s documented reset process and any platform instructions for removing the device from an account. A factory reset may not revoke every account session or subscription, so review account security settings separately when available.",
+        "Consider whether the headset is shared or managed by someone else. Remove personal access without altering another person’s account or bypassing organizational controls. If the device will be used by another household member, do not leave saved searches, account names, or notifications visible. Where account sign-out or device removal is unclear, consult the documented support route rather than experimenting with destructive steps."
+      ],
+      "bullets": [
+        "Sign out and remove device access using documented settings.",
+        "Review browser history, local files, saved passwords, and notifications.",
+        "Do not rely on a device reset alone to cancel billing or remove account sessions."
+      ]
+    },
+    {
+      "heading": "Use a go, pause, or resolve-first checklist",
+      "paragraphs": [
+        "Move forward when the replacement model and access route are documented, the relevant account is identified, and the library items you depend on have a clear access path. Pause when the platform does not explain compatibility, account ownership, or local-data handling. Resolve first when an unresolved detail could cause loss of access, an unwanted subscription change, or exposure of personal information on the old device.",
+        "Keep a transition note with the old headset model, replacement model, accounts involved, pages checked, and unanswered questions. Avoid including passwords or payment credentials. If you need support, a clear description of the device and access route is more useful than sharing a full account screenshot. After the change, verify the few features that matter and then remove unnecessary migration notes or downloads from shared locations."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Will my adult platform library automatically move to a replacement headset?",
+      "answer": "Do not assume so. Access can depend on the platform account, device support, purchase route, software, and whether an item is local or account-based. Verify the specific route and library details before retiring the old device."
+    },
+    {
+      "question": "Does factory resetting a headset cancel a membership?",
+      "answer": "A device reset should not be treated as a subscription cancellation. Review the account or billing route that manages the membership and follow its documented cancellation instructions if needed."
+    },
+    {
+      "question": "Should I transfer files directly from my old headset?",
+      "answer": "Only use transfer methods documented by the device maker or platform. Some files may be account-bound, device-specific, or unsuitable for copying. Check access rights and backup instructions before moving data."
+    },
+    {
+      "question": "What should I do if I cannot find compatibility information for the replacement model?",
+      "answer": "Treat compatibility as unconfirmed. Ask the platform or device support route a precise question naming the model and intended access method, and avoid relying on the replacement for essential access until you have a clear answer."
+    }
+  ]
+};

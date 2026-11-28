@@ -1,0 +1,130 @@
+export default {
+  "slug": "adult-shop-return-evidence-minimization-planner",
+  "categorySlug": "adult-shops",
+  "categoryLabel": "Adult Shops",
+  "title": "Adult Shop Returns: Keep Useful Records Without Sharing More Than Needed",
+  "description": "A privacy-aware workflow for documenting an adult-shop return or order issue, checking the retailer’s process, and sharing only relevant evidence through an appropriate support route.",
+  "excerpt": "A clear return record can help you explain an order issue without sending unnecessary personal details. Start with the policy, keep a minimal timeline, and review every attachment before sharing it.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "Check the retailer’s return instructions before sending a product, image, or personal document.",
+    "Keep a factual timeline with order reference, dates, and the issue you need resolved.",
+    "Share evidence through a verified support route and limit it to what the request requires.",
+    "Review photos and files for unrelated personal information before attaching them.",
+    "Keep your own copy of messages and outcomes in a private location."
+  ],
+  "sections": [
+    {
+      "heading": "Read the relevant policy before collecting evidence",
+      "paragraphs": [
+        "Start with the retailer’s current return, exchange, or defect instructions. Look for eligibility conditions, time windows, required contact steps, return authorization, and any stated restrictions. These terms vary by retailer and product, so a general assumption about what can be returned is not enough. If a policy is unclear, ask a specific question through the retailer’s verified support route before mailing anything.",
+        "Keep return eligibility separate from the way you document an issue. A retailer may request information to identify an order or understand a reported defect, but that does not mean every personal detail is necessary. Do not send a product back until you understand the required process, including any instruction about packaging or authorization. This can prevent avoidable delays and reduce unnecessary sharing."
+      ],
+      "bullets": [
+        "Save or note the policy page and the date you checked it.",
+        "Identify the required first step: form, email, account page, or another stated route.",
+        "Do not assume a return is accepted until the retailer confirms the applicable process."
+      ]
+    },
+    {
+      "heading": "Build a concise, factual case record",
+      "paragraphs": [
+        "Write down the order reference, purchase date if available, delivery date, and the issue in plain language. Include only facts that help explain what happened. For example, note whether a parcel arrived damaged or a listed item was missing, without adding unrelated details about your household, routines, or personal life. A concise record makes it easier to keep the support conversation consistent.",
+        "Keep the timeline in order: when you placed the order, when it arrived, when you noticed the issue, and when you contacted the retailer. If you receive instructions or a case number, add them to the same record. Avoid editorial comments or guesses about why the problem occurred. If you are uncertain, say so. Clear distinctions between observation and inference are useful both for customer support and for your own follow-up."
+      ],
+      "table": {
+        "caption": "A minimal return record helps you stay organized while limiting unnecessary information.",
+        "headers": [
+          "Record item",
+          "Useful detail",
+          "Avoid adding unless required"
+        ],
+        "rows": [
+          [
+            "Order reference",
+            "The reference needed to locate the purchase.",
+            "Full payment details or unrelated account information."
+          ],
+          [
+            "Timeline",
+            "Relevant dates and the order of events.",
+            "Personal schedules or unrelated household details."
+          ],
+          [
+            "Issue description",
+            "What was missing, damaged, or different from the listing.",
+            "Speculation about cause presented as fact."
+          ],
+          [
+            "Support instructions",
+            "Case number and the action the retailer requested.",
+            "Unnecessary copies of identity documents."
+          ],
+          [
+            "Evidence sent",
+            "What file or photo you provided and when.",
+            "A duplicate archive in a shared folder."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Choose evidence that answers the question",
+      "paragraphs": [
+        "Before sending a photo, screenshot, or document, ask what question it is meant to answer. A picture of damaged outer packaging may help explain a delivery issue; a screenshot of an order detail may help identify the item. Evidence that does not support the stated problem can add exposure without making the request clearer. Follow the retailer’s stated requirements, but do not volunteer unrelated material.",
+        "Inspect images for details outside the issue: addresses on labels, faces, reflections, notifications, other products, or documents in the background. Crop or retake a photo when doing so preserves the relevant evidence and is consistent with the retailer’s instructions. Do not alter an image in a way that misrepresents the item or condition. If the retailer requests a specific view, provide only the view needed to satisfy that request."
+      ],
+      "paragraphs2": [
+        "For digital attachments, check file names and metadata where practical. A filename that reveals more than the case requires can be changed to a neutral label. Avoid sharing a full screenshot of an account page if a cropped view of the relevant order detail is sufficient. Keep original records privately if you may need them later, and send only the copy needed for the support case."
+      ]
+    },
+    {
+      "heading": "Verify the support route and protect account access",
+      "paragraphs": [
+        "Use the retailer’s known website or the contact route stated in its policy, rather than an unexpected message link or a contact detail supplied by an unverified third party. If a message asks you to move the conversation to an unfamiliar channel or disclose payment credentials, pause and verify the request independently. A return issue should not require you to reveal a password or one-time sign-in code.",
+        "If you use an account portal, sign in through the address you normally use and check that the case relates to your order. Avoid leaving an account open on a shared device. After submitting information, sign out if appropriate and check whether the browser or device has saved attachments or form content. Keep the case reference and response in a private place rather than a public or shared notes area."
+      ],
+      "bullets": [
+        "Do not send passwords, security codes, or full payment credentials.",
+        "Confirm unexpected support requests through a known retailer route.",
+        "Check shared-device downloads and saved forms after completing the request."
+      ]
+    },
+    {
+      "heading": "Ask focused questions and preserve the response",
+      "paragraphs": [
+        "When a policy or request is unclear, ask one or two direct questions. For example: what information is required to assess the issue, whether a return authorization is needed before dispatch, and how the retailer wants the parcel handled. A focused message reduces back-and-forth and helps you avoid sending a broad bundle of personal documents in the hope that one will be useful.",
+        "Keep copies of your submitted message, attachments, and the retailer’s reply. Record what you sent and when, but do not retain sensitive material longer than you need. If the case requires escalation, a factual timeline and case reference are more useful than resending every document in every message. Do not assume a particular remedy or resolution until the retailer confirms it under its policy."
+      ],
+      "paragraphs2": [
+        "If the retailer requests more evidence, check that the request is connected to the order issue and understand why the item is needed. You can ask whether a less revealing document or a limited image would answer the same question. Whether an alternative is accepted is the retailer’s decision, but asking can clarify what is necessary before you share additional information."
+      ]
+    },
+    {
+      "heading": "Close the case and tidy up records",
+      "paragraphs": [
+        "Once the issue is resolved, save only the records you may reasonably need, such as the case reference, return instructions, tracking record, and outcome. Remove duplicate images or documents from shared folders, downloads, or devices where they are no longer needed. If you used a retailer account, review saved addresses and marketing preferences separately; a return request does not automatically change those settings.",
+        "If the issue remains unresolved, use the retailer’s stated escalation route and provide a concise chronology. Keep the original evidence intact for your own records, but avoid sending it repeatedly unless requested. A privacy-aware process is not about withholding relevant facts; it is about keeping communication focused, using a verified channel, and limiting exposure to information that does not help resolve the order issue."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I send photos whenever I request an adult-shop return?",
+      "answer": "Only when the retailer’s process requests them or they are relevant to explaining the issue. Check the policy first, and review any image for unrelated personal information before attaching it."
+    },
+    {
+      "question": "Is it safe to send a full order confirmation screenshot?",
+      "answer": "It may reveal more than needed. If the retailer only needs an order reference or item detail, ask whether that information is sufficient or provide a suitably limited copy through a verified support route."
+    },
+    {
+      "question": "What if a return policy does not explain what evidence is required?",
+      "answer": "Ask the retailer a focused question before sending documents or shipping the item. Keep the response with your case record and follow the instructions that apply to your order."
+    },
+    {
+      "question": "How long should I keep return records?",
+      "answer": "Keep relevant records while the case is active and for as long as you reasonably need the outcome or transaction information. Store them privately and remove unnecessary copies, especially from shared devices or folders."
+    }
+  ]
+};

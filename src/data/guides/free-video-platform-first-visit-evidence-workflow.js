@@ -1,0 +1,132 @@
+export default {
+  "slug": "free-video-platform-first-visit-evidence-workflow",
+  "categorySlug": "free-videos",
+  "categoryLabel": "Free Videos",
+  "title": "Free Video Platforms: Run a First-Visit Comparison Without Guessing",
+  "description": "A practical method for comparing free video platforms using the same browsing tasks, while separating site behavior from browser settings and account features.",
+  "excerpt": "A short, repeatable test can reveal whether a free video platform’s discovery, playback, advertising, and privacy controls fit your needs—without mistaking one browser’s behavior for a platform feature.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "Use the same small set of tasks on each platform so differences are easier to attribute.",
+    "Record what you observed separately from what the platform claims in its policies or help pages.",
+    "Test account-free browsing before signing up, but do not assume guest access represents every feature.",
+    "Keep the comparison privacy-aware: avoid personal search terms and do not save sensitive screenshots or notes in shared locations.",
+    "Treat moderation and privacy disclosures as evidence to inspect, not as guarantees of a particular outcome."
+  ],
+  "sections": [
+    {
+      "heading": "Define the decision before opening any platform",
+      "paragraphs": [
+        "A comparison is useful only when it answers a real choice. Decide what matters most before browsing: for example, whether you can understand listings without an account, whether playback starts predictably, or whether advertising interrupts the task. A fixed question prevents a visually busy homepage or a single convenient feature from dominating your judgment.",
+        "Choose a small set of neutral, non-identifying test tasks. You might inspect a category page, open a listing, locate the site’s privacy information, and check whether playback controls are understandable. Avoid using a personal username, private search phrase, or saved account history as a test input. The goal is to compare platform behavior, not to build a personal viewing profile."
+      ],
+      "bullets": [
+        "Write down your top three decision criteria before browsing.",
+        "Use the same task order on each platform.",
+        "Do not create an account unless account-only features are part of the decision."
+      ]
+    },
+    {
+      "heading": "Separate observed behavior from claims and assumptions",
+      "paragraphs": [
+        "A platform may describe a feature in a policy, help page, or interface label, but that description is not the same as a test result. Keep three kinds of notes: what you saw during browsing, what the platform says, and what remains unknown. For example, record “a settings link was visible” rather than concluding “the platform offers complete privacy control” before examining what the setting actually changes.",
+        "This distinction is particularly important for account requirements, privacy controls, and moderation information. A prompt appearing during one visit does not establish that an account is always required; it could be related to a particular route, region, or browser state. If a feature is unavailable without signing in, mark it as untested rather than assuming how it behaves for members."
+      ],
+      "table": {
+        "caption": "A simple evidence log keeps the comparison grounded in what you can verify.",
+        "headers": [
+          "Question",
+          "Observed",
+          "Platform statement",
+          "Still unclear"
+        ],
+        "rows": [
+          [
+            "Can I inspect listings without signing in?",
+            "Record the page and any prompt encountered.",
+            "Note the relevant access or account explanation.",
+            "Whether other sections use different gates."
+          ],
+          [
+            "How does playback begin?",
+            "Record visible steps and controls.",
+            "Note any playback guidance available.",
+            "Whether behavior changes with another device."
+          ],
+          [
+            "What privacy controls are described?",
+            "Record controls you can locate.",
+            "Summarize the stated purpose in your own words.",
+            "How long settings or data are retained."
+          ],
+          [
+            "Where is moderation information?",
+            "Record whether a policy or reporting route is findable.",
+            "Note stated scope and process.",
+            "What response or outcome is possible."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Test account requirements without overgeneralizing",
+      "paragraphs": [
+        "Start with the pages available before sign-in: the homepage, search or category navigation, a listing, and policy pages. Note which tasks are possible and where a sign-in or age-related prompt appears. Do not submit personal information just to discover whether a prompt can be dismissed; if the terms are unclear, stop and mark the step as unresolved.",
+        "If you later decide to assess account features, treat that as a separate test. Use a unique password and an email address you control, and review the account’s visibility, history, and notification settings before saving anything. An account can change recommendations, saved lists, or other interface behavior, so observations made while signed in should not be mixed with guest observations."
+      ],
+      "bullets": [
+        "Label each result as guest, signed-in, or unavailable.",
+        "Record the exact point where a prompt appears, without saving sensitive page content.",
+        "Do not infer that account creation is necessary from one blocked route."
+      ]
+    },
+    {
+      "heading": "Compare advertising and playback as a sequence",
+      "paragraphs": [
+        "Advertising is not just a count of interruptions. Note where an ad appears in the task: before playback, during playback, in a separate tab, or as a page element. Also record whether the interface clearly distinguishes an advertisement from a platform control. Do not click unfamiliar promotional links to test them; the destination is not necessary evidence of the basic viewing flow.",
+        "For playback, focus on the steps and controls that affect usability: whether the play action is clear, whether pause and volume controls are visible, and whether the page gives a straightforward way back to the listing. A single successful start does not prove consistent performance. Use the same short, permitted test across platforms and note failures without repeatedly refreshing or changing multiple settings at once."
+      ],
+      "paragraphs2": [
+        "Keep judgments proportionate to the sample. If one playback attempt fails, write “failed once during this test,” not “playback is unreliable.” If you see a repeated pattern across the same tasks, describe the pattern and how many attempts you made. This cautious wording helps you make a better choice without presenting a brief personal check as a formal platform review."
+      ]
+    },
+    {
+      "heading": "Review privacy and moderation information carefully",
+      "paragraphs": [
+        "Find the privacy notice and look for concrete descriptions of account data, browsing or playback data, cookies, sharing, retention, and available controls. You do not need to interpret every legal term to compare whether the information is easy to locate and specific enough to answer your questions. If a topic is not addressed, record that gap rather than filling it with an assumption.",
+        "For moderation, check whether the platform explains its rules, reporting routes, and what happens after a report. A visible policy or reporting link is useful evidence of published information, but it cannot promise that every report will receive a particular result. Record the process described and any limits the platform itself states. Avoid submitting a report as a test unless you have a genuine reason to report something."
+      ],
+      "bullets": [
+        "Note the date you reviewed policy pages; policies can change.",
+        "Separate “information is available” from “the outcome is guaranteed.”",
+        "Use a private notes location if the comparison itself could reveal sensitive interests."
+      ]
+    },
+    {
+      "heading": "Turn observations into a decision, not a score by default",
+      "paragraphs": [
+        "At the end, compare the platforms against your original priorities. A simple pass, concern, or unknown label is often more honest than a numerical score based on a tiny sample. Give extra weight to a criterion only if it matters to your use: someone who avoids accounts may prioritize guest browsing, while someone concerned about privacy may focus on data explanations and available controls.",
+        "Before deciding, revisit only the unresolved questions that could change your choice. Check the relevant platform explanation or repeat one controlled task, rather than browsing indefinitely. Preserve the notes you need, then remove them from shared devices or accounts if they contain sensitive details. A compact evidence record supports a deliberate choice without requiring unnecessary sign-ups or prolonged browsing."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a first-visit test tell me whether a platform is safe or private?",
+      "answer": "No brief test can establish that. It can help you locate policies, observe prompts, and identify visible controls. Treat those findings as limited evidence, and distinguish what you verified from what remains unknown."
+    },
+    {
+      "question": "Should I create accounts on every platform to compare them fairly?",
+      "answer": "Not necessarily. Begin with guest access if account-free browsing is relevant to your decision. Create an account only when a feature you genuinely need cannot otherwise be assessed, and keep signed-in observations separate from guest observations."
+    },
+    {
+      "question": "How many browsing tasks should I use?",
+      "answer": "Use a small, repeatable set that covers your decision criteria. The same few tasks on each platform are more informative than extensive browsing on one site and only a quick glance at another."
+    },
+    {
+      "question": "Is a platform’s moderation policy proof that reports will be resolved?",
+      "answer": "No. A policy can explain rules and procedures, but it does not guarantee a specific decision or response time. Note what the platform says and avoid treating published process information as a guaranteed outcome."
+    }
+  ]
+};
