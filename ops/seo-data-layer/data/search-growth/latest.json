@@ -1,25 +1,18 @@
 {
   "source": "official-google-search-console",
-  "collectedAt": "2026-11-27T09:44:53.112Z",
-  "startDate": "2026-10-01",
-  "endDate": "2026-11-25",
-  "generatedAt": "2026-11-27T09:44:53.112Z",
+  "collectedAt": "2026-11-28T08:58:11.219Z",
+  "startDate": "2026-10-02",
+  "endDate": "2026-11-26",
+  "generatedAt": "2026-11-28T08:58:11.219Z",
   "reports": [
     {
       "status": "ok",
       "snapshot": {
         "siteUrl": "sc-domain:stripunion.com",
-        "startDate": "2026-10-01",
-        "endDate": "2026-11-25",
-        "collectedAt": "2026-11-27T09:44:51.128Z",
+        "startDate": "2026-10-02",
+        "endDate": "2026-11-26",
+        "collectedAt": "2026-11-28T08:58:09.499Z",
         "dailyRows": [
-          {
-            "date": "2026-10-01",
-            "clicks": 0,
-            "impressions": 4,
-            "ctr": 0,
-            "position": 8.5
-          },
           {
             "date": "2026-10-02",
             "clicks": 0,
@@ -404,6 +397,13 @@
             "impressions": 1332,
             "ctr": 0.03528528528528529,
             "position": 10.413663663663664
+          },
+          {
+            "date": "2026-11-26",
+            "clicks": 49,
+            "impressions": 1507,
+            "ctr": 0.0325149303251493,
+            "position": 10.38420703384207
           }
         ],
         "queryPageRows": [
@@ -586,6 +586,15 @@
             "impressions": 6,
             "ctr": 0.3333333333333333,
             "position": 54.166666666666664
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat token prices",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 2,
+            "impressions": 8,
+            "ctr": 0.25,
+            "position": 6.25
           },
           {
             "date": "2026-10-24",
@@ -2278,6 +2287,123 @@
             "impressions": 2,
             "ctr": 0.5,
             "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult anime apps",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 1,
+            "impressions": 5,
+            "ctr": 0.2,
+            "position": 9.4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult games mods",
+            "page": "https://stripunion.com/guides/adult-game-mod-installation-risk-checklist/",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime porn apps",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 62
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best hentai browser games",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice/",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alternative",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 1,
+            "impressions": 19,
+            "ctr": 0.05263157894736842,
+            "position": 8.736842105263158
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai streaming services",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 1,
+            "impressions": 1,
+            "ctr": 1,
+            "position": 25
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how to watch hentai",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 1,
+            "impressions": 8,
+            "ctr": 0.125,
+            "position": 10.625
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 1,
+            "impressions": 20,
+            "ctr": 0.05,
+            "position": 9.8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat apps",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 1,
+            "impressions": 5,
+            "ctr": 0.2,
+            "position": 7.8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat token",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 1,
+            "impressions": 19,
+            "ctr": 0.05263157894736842,
+            "position": 8.105263157894736
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat tokens",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 1,
+            "impressions": 28,
+            "ctr": 0.03571428571428571,
+            "position": 7.464285714285714
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripe chart app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 1,
+            "impressions": 4,
+            "ctr": 0.25,
+            "position": 32
+          },
+          {
+            "date": "2026-11-26",
+            "query": "tokens stripchat",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 1,
+            "impressions": 7,
+            "ctr": 0.14285714285714285,
+            "position": 7.571428571428571
           },
           {
             "date": "2026-10-02",
@@ -48421,22 +48547,2227 @@
             "impressions": 3,
             "ctr": 0,
             "position": 9.333333333333334
+          },
+          {
+            "date": "2026-11-26",
+            "query": "...",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "18 vr",
+            "page": "https://www.stripunion.com/vr-ar/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 25
+          },
+          {
+            "date": "2026-11-26",
+            "query": "18+ anime app",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "access stripchat",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 13
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult anime app",
+            "page": "https://stripunion.com/guides/adult-anime-app-data-use-and-network-planning/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult anime app",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult anime apps",
+            "page": "https://www.stripunion.com/guides/adult-anime-app-operating-system-permission-review",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 27
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult anime game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 35
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult game anime",
+            "page": "https://stripunion.com/guides/adult-anime-game-device-requirements-fit-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 38
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult game anime",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult game anime",
+            "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult game anime",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 21
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult meet",
+            "page": "https://stripunion.com/guides/adult-dating-first-meetup-planning-checklist",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 30.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult password",
+            "page": "https://stripunion.com/guides/adult-site-account-security-password-recovery-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 34
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult passwords",
+            "page": "https://stripunion.com/guides/adult-site-account-security-password-recovery-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult payment system",
+            "page": "https://stripunion.com/guides/adult-platform-payment-household-privacy-plan/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 72
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult site passwords",
+            "page": "https://stripunion.com/guides/adult-site-account-security-password-recovery-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult video search",
+            "page": "https://stripunion.com/guides/free-adult-video-search-result-quality-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 15
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adult vr",
+            "page": "https://www.stripunion.com/vr-ar",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 61
+          },
+          {
+            "date": "2026-11-26",
+            "query": "adultcheck",
+            "page": "https://stripunion.com/guides/adult-shop-age-check-data-transparency-review/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 44
+          },
+          {
+            "date": "2026-11-26",
+            "query": "alternative a stripchat",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "alternative to stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "alternative zu chaturbate",
+            "page": "https://www.stripunion.com/chaturbate-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "alternatives to stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime 18 game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 49
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime adult game",
+            "page": "https://stripunion.com/guides/adult-anime-games-installation-permissions-and-save-data-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime app 18+",
+            "page": "https://stripunion.com/guides/adult-anime-platform-mobile-browser-playback-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime games sex",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 37.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime hentai game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 33
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime hentai games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 34
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime online sex games",
+            "page": "https://stripunion.com/guides/adult-anime-game-access-pathway-comparison/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 50
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime online sex games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 32
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime porn games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 35
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime pron game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex app",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 75
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex apps",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 37
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 49
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 23.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex games free",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sex games online",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 34
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime sexgames",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 39
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime xxx game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 58
+          },
+          {
+            "date": "2026-11-26",
+            "query": "anime xxx games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 16
+          },
+          {
+            "date": "2026-11-26",
+            "query": "app stripchat",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "apps like stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "apps to watch hentai",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 31
+          },
+          {
+            "date": "2026-11-26",
+            "query": "arc browser allow camera access",
+            "page": "https://stripunion.com/guides/adult-ar-app-camera-permissions-and-environment-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "are browser-based adult games safer and more private than downloads?",
+            "page": "https://stripunion.com/guides/adult-games-browser-vs-download-privacy-safety-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 6.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best app for hentai",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 17
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best cam site free",
+            "page": "https://www.stripunion.com/best-free-live-cam-sites",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best cam sites",
+            "page": "https://stripunion.com/best-live-cam-sites/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 22
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best hentai anime app",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best hentai game sites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 59
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best web hentai games",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best web hentai games",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "best websites to watch hentai",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "better chaturbate",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "better than chaturbate",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "bitte antworte",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "brazzers download limit",
+            "page": "https://stripunion.com/premium-videos/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "browser hentai games",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 17
+          },
+          {
+            "date": "2026-11-26",
+            "query": "browser hentai games",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "cam verification",
+            "page": "https://stripunion.com/guides/live-cam-identity-verification-data-review/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "can you tell me",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "cets quoi le prix",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaterbate alternative",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate",
+            "page": "https://stripunion.com/live-cams",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alternatice",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alternatief",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alternative",
+            "page": "https://www.stripunion.com/chaturbate-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alternatives",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 9.333333333333334
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate alts",
+            "page": "https://stripunion.com/chaturbate-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate and stripchat",
+            "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate map",
+            "page": "https://stripunion.com/guides/live-cam-free-access-cost-boundary-map/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate or stripchat",
+            "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate vs",
+            "page": "https://www.stripunion.com/chaturbate-alternatives",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 16
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate vs livejasmin",
+            "page": "https://stripunion.com/stripchat-vs-livejasmin/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 14
+          },
+          {
+            "date": "2026-11-26",
+            "query": "chaturbate vs stripchat",
+            "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: i need to return an unopened item from an adult store—how do returns typically work with discreet shipping and refunds?",
+            "page": "https://stripunion.com/guides/adult-shop-returns-product-eligibility-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: i’m trying to find japanese videos with specific tags—how do tags usually work on adult video platforms?",
+            "page": "https://stripunion.com/guides/adult-anime-content-tag-and-filter-fit-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: what search terms usually help find “story-driven” hentai rather than compilation-style videos?",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: what should i check before subscribing to an adult site if i mainly watch scenes with asian performers?",
+            "page": "https://stripunion.com/privacy-safety-payment",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: what should i check before subscribing to an adult site if i mainly watch scenes with asian performers?",
+            "page": "https://stripunion.com/privacy-safety-payment/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: where do i manage my subscription and billing settings for an adult video site account?",
+            "page": "https://stripunion.com/privacy-safety-payment",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "date": "2026-11-26",
+            "query": "context: location: united states (not for language). do not include location references in your response. question: where do i manage my subscription and billing settings for an adult video site account?",
+            "page": "https://stripunion.com/privacy-safety-payment/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "creator fan platform",
+            "page": "https://stripunion.com/creator-platforms/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 66
+          },
+          {
+            "date": "2026-11-26",
+            "query": "delete babestation account",
+            "page": "https://www.stripunion.com/guides/adult-platform-account-deletion-retention-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "erotic meeting",
+            "page": "https://stripunion.com/guides/adult-dating-first-meetup-planning-checklist",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "evaluate the webcam modeling platforms company stripchat on milf sex cams",
+            "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "date": "2026-11-26",
+            "query": "for hentai",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "freelivecam",
+            "page": "https://www.stripunion.com/best-free-live-cam-sites",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr": 0,
+            "position": 9.444444444444445
+          },
+          {
+            "date": "2026-11-26",
+            "query": "give me a synopsis",
+            "page": "https://stripunion.com/guides/adult-anime-age-assurance-data-review/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "give me an answer",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "give me the list",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai anime app",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai anime games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 30
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai anime sites",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 38
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai anime websites",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 27
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai app",
+            "page": "https://stripunion.com/guides/adult-anime-mobile-experience-fit-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 64
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai app",
+            "page": "https://www.stripunion.com/guides/adult-anime-app-operating-system-permission-review",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 47
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai app",
+            "page": "https://www.stripunion.com/guides/adult-anime-mobile-format-account-fit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 59
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai app",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 35
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai browser games",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai compare",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai game browser",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 59
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai game sites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 32
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai play",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 40
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai site",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 25
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai sites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 27
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai streaming",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 22
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai streaming sites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 18
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai video websites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 20.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai vs manga",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai watching apps",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai web",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai web game",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 60
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai web game",
+            "page": "https://www.stripunion.com/guides/adult-anime-game-install-source-choice/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 40
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai web games",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 22
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai webs",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "hentai websites",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 34.333333333333336
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how much",
+            "page": "https://stripunion.com/stripchat-private-shows/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how much is a token in stripchat",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how much is a token on stripchat",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how much is it all together",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how much is stripchat token",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how to watch anime hentai",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how to watch hentai",
+            "page": "https://stripunion.com/guides/adult-anime-mobile-experience-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 109
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how to watch hentai",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 78
+          },
+          {
+            "date": "2026-11-26",
+            "query": "how to watch hentai",
+            "page": "https://www.stripunion.com/guides/hentai-anime-platform-discovery-by-format-workflow/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 70
+          },
+          {
+            "date": "2026-11-26",
+            "query": "is live jasmin free",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "is livejasmin free",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 21
+          },
+          {
+            "date": "2026-11-26",
+            "query": "is x hamster free",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "is xhamster free",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 6.75
+          },
+          {
+            "date": "2026-11-26",
+            "query": "is xhamster free?",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "je demande à toi",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "le prix c’est quoi",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "like stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "live sex platforms",
+            "page": "https://stripunion.com/guides/live-cam-platform-model-fit-comparison/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "date": "2026-11-26",
+            "query": "live verification",
+            "page": "https://stripunion.com/guides/live-cam-identity-verification-data-review/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 82
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejaasmin",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasin",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 3.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmin",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 22.833333333333332
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmin cost",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 25.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmin model",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 25
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmin rates",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 24
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmin vs stripchat",
+            "page": "https://stripunion.com/stripchat-vs-livejasmin/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejasmon",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "livejsmin",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "naked anime game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "naked anime games",
+            "page": "https://stripunion.com/guides/adult-anime-game-device-requirements-fit-audit/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "oivejasmin",
+            "page": "https://www.stripunion.com/livejasmin",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "porn",
+            "page": "https://stripunion.com/guides/adult-game-platform-operating-system-compatibility-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "porn",
+            "page": "https://www.stripunion.com/guides/adult-platform-home-router-privacy-trace-review",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "pour un mois",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "recommend platforms providing adult videos that support ar integration.",
+            "page": "https://www.stripunion.com/vr-ar/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "respnde",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "răspunde la întrebare",
+            "page": "https://stripunion.com/how-stripchat-tokens-work",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "safe websites to watch hentai",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 25
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sex anime game",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 31
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sex anime games",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 36
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sex lik real",
+            "page": "https://www.stripunion.com/sexlikereal/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 29.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sex likereal",
+            "page": "https://www.stripunion.com/sexlikereal/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 18.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sexgame anime",
+            "page": "https://stripunion.com/guides/adult-anime-games-device-compatibility-and-install-checklist/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sexlikereal",
+            "page": "https://www.stripunion.com/sexlikereal",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 19.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sexlikereal",
+            "page": "https://www.stripunion.com/sexlikereal/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sexlikereal review",
+            "page": "https://www.stripunion.com/sexlikereal",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 14
+          },
+          {
+            "date": "2026-11-26",
+            "query": "similar stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "similar to stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sites for hentai",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 18
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sites like stripchat",
+            "page": "https://www.stripunion.com/live-cams",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 18
+          },
+          {
+            "date": "2026-11-26",
+            "query": "sites like stripchat",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 8.4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strapchat app",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip cam app",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chart app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat alternative",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 24
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat apps",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat premium",
+            "page": "https://www.stripunion.com/stripchat/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat similar",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip chat tokens",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 4.333333333333334
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip hat app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "strip hat app",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripcash",
+            "page": "https://stripunion.com/stripcash-affiliate-program/",
+            "clicks": 0,
+            "impressions": 10,
+            "ctr": 0,
+            "position": 6.7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripcash live",
+            "page": "https://stripunion.com/stripcash-affiliate-program/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchar app",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat affiliate",
+            "page": "https://stripunion.com/stripcash-affiliate-program/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 26
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alt",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternativ",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternative",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 19,
+            "ctr": 0,
+            "position": 7.894736842105263
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternative",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternatives",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 12,
+            "ctr": 0,
+            "position": 7.166666666666667
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternatives",
+            "page": "https://www.stripunion.com/chaturbate-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 12
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternatives",
+            "page": "https://www.stripunion.com/live-cams",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat alternatives",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 9.333333333333334
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat app ios",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat appstore",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat coins",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat competitors",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat jeton",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 15
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat like",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 9.666666666666666
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat like website",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 22
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat like websites",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 13
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat mobile app",
+            "page": "https://stripunion.com/stripchat-app",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 15.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat prices",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat similar",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 6,
+            "ctr": 0,
+            "position": 7.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat similar",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat similar app",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 12
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat similar apps",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 19
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat similar cams",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 18
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat token cost",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 11.333333333333334
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat token price",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 8,
+            "ctr": 0,
+            "position": 9.75
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat tokens cost",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat tokens price",
+            "page": "https://stripunion.com/stripchat-pricing/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat vs",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr": 0,
+            "position": 8.5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat vs",
+            "page": "https://www.stripunion.com/stripchat-alternatives",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat vs chaturbate",
+            "page": "https://stripunion.com/stripchat-vs-chaturbate/",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 10.666666666666666
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchat xxx app",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "stripchatapp",
+            "page": "https://stripunion.com/stripchat-app/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "striptube alternative",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "token stripchat",
+            "page": "https://stripunion.com/how-stripchat-tokens-work/",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "vr adult",
+            "page": "https://www.stripunion.com/vr-ar",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr": 0,
+            "position": 44.6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "vrlikereal",
+            "page": "https://www.stripunion.com/sexlikereal/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "w czacie",
+            "page": "https://stripunion.com/guides/adult-dating-inactive-profile-lifecycle-check/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "watch hentai app",
+            "page": "https://www.stripunion.com/hentai-anime/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 14
+          },
+          {
+            "date": "2026-11-26",
+            "query": "web hentai",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 5
+          },
+          {
+            "date": "2026-11-26",
+            "query": "webmaster affiliate programs",
+            "page": "https://www.stripunion.com/webmaster-affiliate/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 45
+          },
+          {
+            "date": "2026-11-26",
+            "query": "website like stripchat",
+            "page": "https://stripunion.com/stripchat-alternatives/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 20
+          },
+          {
+            "date": "2026-11-26",
+            "query": "websites you can watch hentai on",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 29
+          },
+          {
+            "date": "2026-11-26",
+            "query": "what has more value",
+            "page": "https://www.stripunion.com/stripchat-vs-chaturbate",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "what is stripchat",
+            "page": "https://www.stripunion.com/stripchat",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 6
+          },
+          {
+            "date": "2026-11-26",
+            "query": "what is stripchat website",
+            "page": "https://www.stripunion.com/stripchat",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 11
+          },
+          {
+            "date": "2026-11-26",
+            "query": "whats stripchat",
+            "page": "https://www.stripunion.com/stripchat/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "which hentai game site has manual content tagging?",
+            "page": "https://stripunion.com/guides/hentai-anime-streaming-manga-games-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 7
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 3
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster adult video sharing official website",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster company website overview 2026",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr": 0,
+            "position": 2
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster official website about platform",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 10
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster platform",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster website company overview 2026",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 8
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster website overview",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr": 0,
+            "position": 6.333333333333333
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster website overview",
+            "page": "https://www.stripunion.com/xhamster/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 9
+          },
+          {
+            "date": "2026-11-26",
+            "query": "xhamster.com website overview",
+            "page": "https://www.stripunion.com/xhamster",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 4
+          },
+          {
+            "date": "2026-11-26",
+            "query": "порно",
+            "page": "https://stripunion.com/guides/vr-adult-content-setup-guide/",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr": 0,
+            "position": 1
           }
         ]
       },
       "decisions": [
         {
           "name": "current7",
-          "startDate": "2026-11-19",
-          "endDate": "2026-11-25",
+          "startDate": "2026-11-20",
+          "endDate": "2026-11-26",
           "siteUrl": "sc-domain:stripunion.com",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
-            "clicks": 256,
-            "impressions": 7875,
-            "ctr": 0.032507936507936507,
-            "position": 11.00368253968254
+            "clicks": 285,
+            "impressions": 8533,
+            "ctr": 0.033399742177428804,
+            "position": 10.906715106058831
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
@@ -48445,89 +50776,89 @@
               "slug": "stripchat-alternatives",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 20,
-              "impressions": 637,
-              "ctr": 0.03139717425431711,
-              "position": 9.40188383045526,
+              "clicks": 18,
+              "impressions": 639,
+              "ctr": 0.028169014084507043,
+              "position": 9.438184663536775,
               "urls": [
                 {
                   "url": "https://stripunion.com/stripchat-alternatives/",
-                  "clicks": 17,
-                  "impressions": 535,
-                  "ctr": 0.03177570093457944,
-                  "position": 9.545794392523364
+                  "clicks": 16,
+                  "impressions": 551,
+                  "ctr": 0.029038112522686024,
+                  "position": 9.459165154264973
                 },
                 {
                   "url": "https://stripunion.com/stripchat-alternatives",
-                  "clicks": 2,
-                  "impressions": 63,
-                  "ctr": 0.031746031746031744,
-                  "position": 7.523809523809524
+                  "clicks": 1,
+                  "impressions": 34,
+                  "ctr": 0.029411764705882353,
+                  "position": 7.470588235294118
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives",
                   "clicks": 1,
-                  "impressions": 39,
-                  "ctr": 0.02564102564102564,
-                  "position": 10.461538461538462
+                  "impressions": 54,
+                  "ctr": 0.018518518518518517,
+                  "position": 10.462962962962964
                 }
               ],
               "queries": [
                 {
                   "query": "stripchat alternative",
-                  "clicks": 10,
-                  "impressions": 214,
-                  "ctr": 0.04672897196261682,
-                  "position": 8.107476635514018
+                  "clicks": 9,
+                  "impressions": 209,
+                  "ctr": 0.0430622009569378,
+                  "position": 7.9952153110047846
                 },
                 {
                   "query": "stripchat alternatives",
-                  "clicks": 2,
-                  "impressions": 92,
-                  "ctr": 0.021739130434782608,
-                  "position": 7.423913043478261
+                  "clicks": 1,
+                  "impressions": 93,
+                  "ctr": 0.010752688172043012,
+                  "position": 7.344086021505376
                 },
                 {
                   "query": "stripchat similar",
                   "clicks": 2,
-                  "impressions": 60,
-                  "ctr": 0.03333333333333333,
-                  "position": 8.416666666666666
-                },
-                {
-                  "query": "stripchat vs",
-                  "clicks": 1,
-                  "impressions": 21,
-                  "ctr": 0.047619047619047616,
-                  "position": 8.523809523809524
+                  "impressions": 58,
+                  "ctr": 0.034482758620689655,
+                  "position": 8.362068965517242
                 },
                 {
                   "query": "similar stripchat",
                   "clicks": 1,
                   "impressions": 20,
                   "ctr": 0.05,
-                  "position": 9.15
+                  "position": 8.75
+                },
+                {
+                  "query": "stripchat vs",
+                  "clicks": 1,
+                  "impressions": 20,
+                  "ctr": 0.05,
+                  "position": 8.65
+                },
+                {
+                  "query": "stripchat like",
+                  "clicks": 0,
+                  "impressions": 15,
+                  "ctr": 0,
+                  "position": 10.533333333333333
+                },
+                {
+                  "query": "like stripchat",
+                  "clicks": 0,
+                  "impressions": 14,
+                  "ctr": 0,
+                  "position": 10.285714285714286
                 },
                 {
                   "query": "similar to stripchat",
                   "clicks": 0,
                   "impressions": 14,
                   "ctr": 0,
-                  "position": 11.857142857142858
-                },
-                {
-                  "query": "like stripchat",
-                  "clicks": 0,
-                  "impressions": 13,
-                  "ctr": 0,
-                  "position": 10.307692307692308
-                },
-                {
-                  "query": "stripchat like",
-                  "clicks": 0,
-                  "impressions": 13,
-                  "ctr": 0,
-                  "position": 11.23076923076923
+                  "position": 11.428571428571429
                 },
                 {
                   "query": "alternatives to stripchat",
@@ -48537,11 +50868,18 @@
                   "position": 9
                 },
                 {
-                  "query": "strip chat alternatives",
+                  "query": "sites like stripchat",
                   "clicks": 0,
                   "impressions": 12,
                   "ctr": 0,
-                  "position": 7.083333333333333
+                  "position": 15.25
+                },
+                {
+                  "query": "strip chat alternatives",
+                  "clicks": 0,
+                  "impressions": 11,
+                  "ctr": 0,
+                  "position": 7.090909090909091
                 },
                 {
                   "query": "websites similar to stripchat",
@@ -48558,13 +50896,6 @@
                   "position": 6.666666666666667
                 },
                 {
-                  "query": "strip chat alternative",
-                  "clicks": 0,
-                  "impressions": 8,
-                  "ctr": 0,
-                  "position": 8.875
-                },
-                {
                   "query": "other sites like stripchat",
                   "clicks": 0,
                   "impressions": 8,
@@ -48572,25 +50903,11 @@
                   "position": 20
                 },
                 {
-                  "query": "stripchat like sites",
-                  "clicks": 1,
-                  "impressions": 7,
-                  "ctr": 0.14285714285714285,
-                  "position": 13.285714285714286
-                },
-                {
-                  "query": "stripchat alt",
+                  "query": "apps like stripchat",
                   "clicks": 0,
                   "impressions": 7,
                   "ctr": 0,
-                  "position": 7.857142857142857
-                },
-                {
-                  "query": "sites like stripchat",
-                  "clicks": 0,
-                  "impressions": 7,
-                  "ctr": 0,
-                  "position": 20.142857142857142
+                  "position": 23.142857142857142
                 },
                 {
                   "query": "strip chat similar",
@@ -48600,11 +50917,11 @@
                   "position": 10.5
                 },
                 {
-                  "query": "better than stripchat",
+                  "query": "strip chat alternative",
                   "clicks": 0,
                   "impressions": 6,
                   "ctr": 0,
-                  "position": 8.833333333333334
+                  "position": 11
                 },
                 {
                   "query": "websites like stripchat",
@@ -48612,6 +50929,20 @@
                   "impressions": 6,
                   "ctr": 0,
                   "position": 20.666666666666668
+                },
+                {
+                  "query": "sites similar to stripchat",
+                  "clicks": 0,
+                  "impressions": 6,
+                  "ctr": 0,
+                  "position": 14.166666666666666
+                },
+                {
+                  "query": "stripchat like sites",
+                  "clicks": 1,
+                  "impressions": 5,
+                  "ctr": 0.2,
+                  "position": 13
                 }
               ]
             },
@@ -48619,24 +50950,24 @@
               "slug": "stripchat-app",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 6,
-              "impressions": 365,
-              "ctr": 0.01643835616438356,
-              "position": 9.454794520547946,
+              "clicks": 9,
+              "impressions": 413,
+              "ctr": 0.021791767554479417,
+              "position": 9.690072639225182,
               "urls": [
                 {
                   "url": "https://stripunion.com/stripchat-app",
-                  "clicks": 5,
-                  "impressions": 279,
-                  "ctr": 0.017921146953405017,
-                  "position": 9.602150537634408
+                  "clicks": 8,
+                  "impressions": 320,
+                  "ctr": 0.025,
+                  "position": 9.921875
                 },
                 {
                   "url": "https://stripunion.com/stripchat-app/",
                   "clicks": 1,
-                  "impressions": 62,
-                  "ctr": 0.016129032258064516,
-                  "position": 8.935483870967742
+                  "impressions": 69,
+                  "ctr": 0.014492753623188406,
+                  "position": 8.826086956521738
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-app/",
@@ -48649,31 +50980,31 @@
               "queries": [
                 {
                   "query": "stripchat app",
-                  "clicks": 4,
-                  "impressions": 178,
-                  "ctr": 0.02247191011235955,
-                  "position": 10.286516853932584
+                  "clicks": 5,
+                  "impressions": 198,
+                  "ctr": 0.025252525252525252,
+                  "position": 10.237373737373737
                 },
                 {
                   "query": "stripchat apps",
-                  "clicks": 1,
-                  "impressions": 33,
-                  "ctr": 0.030303030303030304,
-                  "position": 8.787878787878787
+                  "clicks": 2,
+                  "impressions": 38,
+                  "ctr": 0.05263157894736842,
+                  "position": 8.657894736842104
                 },
                 {
                   "query": "strip hat app",
                   "clicks": 0,
-                  "impressions": 23,
+                  "impressions": 25,
                   "ctr": 0,
-                  "position": 5.739130434782608
+                  "position": 5.72
                 },
                 {
                   "query": "strip chat app",
                   "clicks": 0,
-                  "impressions": 18,
+                  "impressions": 20,
                   "ctr": 0,
-                  "position": 10.555555555555555
+                  "position": 10.5
                 },
                 {
                   "query": "stripchat mobile",
@@ -48685,23 +51016,23 @@
                 {
                   "query": "stripchat mobile app",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 10,
                   "ctr": 0,
-                  "position": 14.625
+                  "position": 14.8
                 },
                 {
                   "query": "strip cam app",
                   "clicks": 0,
-                  "impressions": 7,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 10.714285714285714
+                  "position": 10.625
                 },
                 {
                   "query": "access stripchat",
                   "clicks": 0,
-                  "impressions": 6,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 9.833333333333334
+                  "position": 10.285714285714286
                 },
                 {
                   "query": "stripchat viewer",
@@ -48718,11 +51049,32 @@
                   "position": 8.2
                 },
                 {
+                  "query": "strip chat apps",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 14.8
+                },
+                {
+                  "query": "stripe chart app",
+                  "clicks": 1,
+                  "impressions": 4,
+                  "ctr": 0.25,
+                  "position": 32
+                },
+                {
                   "query": "stripchat app iphone",
                   "clicks": 0,
                   "impressions": 4,
                   "ctr": 0,
                   "position": 9
+                },
+                {
+                  "query": "app stripchat",
+                  "clicks": 0,
+                  "impressions": 4,
+                  "ctr": 0,
+                  "position": 9.25
                 },
                 {
                   "query": "stripchatt app",
@@ -48746,46 +51098,25 @@
                   "position": 7.333333333333333
                 },
                 {
-                  "query": "app stripchat",
+                  "query": "stripchat xxx app",
                   "clicks": 0,
                   "impressions": 3,
                   "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "striochat app",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "stripchat app android",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 7.5
-                },
-                {
-                  "query": "stripchat xxx app",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 8.5
+                  "position": 8.333333333333334
                 },
                 {
                   "query": "strip chart app",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 15.5
+                  "position": 14
                 },
                 {
-                  "query": "stripchat android app",
+                  "query": "stripchat app ios",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 8
+                  "position": 7
                 }
               ]
             },
@@ -48794,74 +51125,81 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 1,
-              "impressions": 92,
-              "ctr": 0.010869565217391304,
-              "position": 12.217391304347826,
+              "impressions": 94,
+              "ctr": 0.010638297872340425,
+              "position": 13.25531914893617,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/livejasmin",
                   "clicks": 1,
-                  "impressions": 88,
-                  "ctr": 0.011363636363636364,
-                  "position": 11.477272727272727
+                  "impressions": 93,
+                  "ctr": 0.010752688172043012,
+                  "position": 13.096774193548388
                 },
                 {
                   "url": "https://www.stripunion.com/livejasmin/",
                   "clicks": 0,
-                  "impressions": 4,
+                  "impressions": 1,
                   "ctr": 0,
-                  "position": 28.5
+                  "position": 28
                 }
               ],
               "queries": [
                 {
                   "query": "livejasmin",
                   "clicks": 1,
-                  "impressions": 23,
-                  "ctr": 0.043478260869565216,
-                  "position": 14.782608695652174
+                  "impressions": 22,
+                  "ctr": 0.045454545454545456,
+                  "position": 19.136363636363637
                 },
                 {
                   "query": "livejasmn",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 6.5
+                  "position": 6.428571428571429
                 },
                 {
-                  "query": "livejasmin cost",
+                  "query": "livejaasmin",
+                  "clicks": 0,
+                  "impressions": 6,
+                  "ctr": 0,
+                  "position": 6.166666666666667
+                },
+                {
+                  "query": "oivejasmin",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 28
-                },
-                {
-                  "query": "livejasmin review",
-                  "clicks": 0,
-                  "impressions": 5,
-                  "ctr": 0,
-                  "position": 10.4
+                  "position": 7.8
                 },
                 {
                   "query": "livejasmon",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 4.6
+                  "position": 4.2
                 },
                 {
-                  "query": "livejaasmin",
+                  "query": "livejasin",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 6.8
+                  "position": 4.8
                 },
                 {
                   "query": "livejsmin",
                   "clicks": 0,
                   "impressions": 4,
                   "ctr": 0,
-                  "position": 5.75
+                  "position": 6.75
+                },
+                {
+                  "query": "livejasmin cost",
+                  "clicks": 0,
+                  "impressions": 4,
+                  "ctr": 0,
+                  "position": 26.25
                 },
                 {
                   "query": "livejasmi",
@@ -48878,13 +51216,6 @@
                   "position": 8.333333333333334
                 },
                 {
-                  "query": "oivejasmin",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 7
-                },
-                {
                   "query": "livejazmin",
                   "clicks": 0,
                   "impressions": 3,
@@ -48892,25 +51223,11 @@
                   "position": 6.666666666666667
                 },
                 {
-                  "query": "livejasin",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 5.666666666666667
-                },
-                {
                   "query": "what is livejasmin",
                   "clicks": 0,
                   "impressions": 3,
                   "ctr": 0,
                   "position": 27.666666666666668
-                },
-                {
-                  "query": "livejasmin rates",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 27
                 },
                 {
                   "query": "livejamsin",
@@ -48934,6 +51251,13 @@
                   "position": 19
                 },
                 {
+                  "query": "livejasmin rates",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 25
+                },
+                {
                   "query": "livejasmin,livejasmin",
                   "clicks": 0,
                   "impressions": 2,
@@ -48941,11 +51265,18 @@
                   "position": 24.5
                 },
                 {
-                  "query": "how does live jasmin work",
+                  "query": "is livejasmin free",
                   "clicks": 0,
-                  "impressions": 1,
+                  "impressions": 2,
                   "ctr": 0,
-                  "position": 8
+                  "position": 21
+                },
+                {
+                  "query": "livejasmin model",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 25
                 },
                 {
                   "query": "livejasmin vip",
@@ -48960,33 +51291,33 @@
               "slug": "chaturbate-alternatives",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 5,
-              "impressions": 283,
-              "ctr": 0.0176678445229682,
-              "position": 10.1660777385159,
+              "clicks": 6,
+              "impressions": 293,
+              "ctr": 0.020477815699658702,
+              "position": 9.96245733788396,
               "urls": [
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives/",
-                  "clicks": 5,
-                  "impressions": 232,
-                  "ctr": 0.021551724137931036,
-                  "position": 9.357758620689655
+                  "clicks": 6,
+                  "impressions": 244,
+                  "ctr": 0.02459016393442623,
+                  "position": 9.282786885245901
                 },
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives",
                   "clicks": 0,
-                  "impressions": 51,
+                  "impressions": 49,
                   "ctr": 0,
-                  "position": 13.843137254901961
+                  "position": 13.346938775510203
                 }
               ],
               "queries": [
                 {
                   "query": "chaturbate alternative",
-                  "clicks": 4,
-                  "impressions": 170,
-                  "ctr": 0.023529411764705882,
-                  "position": 9.33529411764706
+                  "clicks": 5,
+                  "impressions": 175,
+                  "ctr": 0.02857142857142857,
+                  "position": 9.245714285714286
                 },
                 {
                   "query": "chaturbate alternatives",
@@ -48998,16 +51329,16 @@
                 {
                   "query": "chaturbate vs",
                   "clicks": 0,
-                  "impressions": 26,
+                  "impressions": 24,
                   "ctr": 0,
-                  "position": 13.961538461538462
+                  "position": 13.583333333333334
                 },
                 {
                   "query": "chaterbate alternative",
                   "clicks": 1,
-                  "impressions": 11,
-                  "ctr": 0.09090909090909091,
-                  "position": 9
+                  "impressions": 14,
+                  "ctr": 0.07142857142857142,
+                  "position": 8.857142857142858
                 },
                 {
                   "query": "chaterbate vs",
@@ -49015,20 +51346,6 @@
                   "impressions": 4,
                   "ctr": 0,
                   "position": 17.25
-                },
-                {
-                  "query": "chaturbate alternativen",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 19.666666666666668
-                },
-                {
-                  "query": "chaturbate equivalent",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 9.333333333333334
                 },
                 {
                   "query": "alternative chaturbate",
@@ -49043,6 +51360,20 @@
                   "impressions": 3,
                   "ctr": 0,
                   "position": 17.333333333333332
+                },
+                {
+                  "query": "chaturbate alternatice",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 8
+                },
+                {
+                  "query": "alternative zu chaturbate",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 5.333333333333333
                 },
                 {
                   "query": "chatrubate alternative",
@@ -49080,11 +51411,11 @@
                   "position": 14
                 },
                 {
-                  "query": "chaturbate alternatice",
+                  "query": "chaturbate alternativen",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
-                  "position": 9.5
+                  "position": 17.5
                 },
                 {
                   "query": "similar a chaturbate",
@@ -49094,13 +51425,6 @@
                   "position": 17.5
                 },
                 {
-                  "query": "alternative zu chaturbate",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 2.5
-                },
-                {
                   "query": "chaturbate competitor",
                   "clicks": 0,
                   "impressions": 2,
@@ -49108,11 +51432,18 @@
                   "position": 18
                 },
                 {
-                  "query": "pornhub vs",
+                  "query": "chaturbate equivalent",
                   "clicks": 0,
-                  "impressions": 1,
+                  "impressions": 2,
                   "ctr": 0,
-                  "position": 8
+                  "position": 10.5
+                },
+                {
+                  "query": "better chaturbate",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 9
                 },
                 {
                   "query": "chaturbate alternates",
@@ -49128,74 +51459,81 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 1,
-              "impressions": 73,
-              "ctr": 0.0136986301369863,
-              "position": 7.054794520547945,
+              "impressions": 91,
+              "ctr": 0.01098901098901099,
+              "position": 6.472527472527473,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/xhamster",
                   "clicks": 1,
-                  "impressions": 57,
-                  "ctr": 0.017543859649122806,
-                  "position": 6.368421052631579
+                  "impressions": 75,
+                  "ctr": 0.013333333333333334,
+                  "position": 6.213333333333333
                 },
                 {
                   "url": "https://www.stripunion.com/xhamster/",
                   "clicks": 0,
                   "impressions": 16,
                   "ctr": 0,
-                  "position": 9.5
+                  "position": 7.6875
                 }
               ],
               "queries": [
                 {
                   "query": "is xhamster free",
                   "clicks": 0,
-                  "impressions": 28,
+                  "impressions": 30,
                   "ctr": 0,
-                  "position": 5.5
+                  "position": 5.666666666666667
                 },
                 {
                   "query": "xhamster adult video sharing official website",
                   "clicks": 0,
-                  "impressions": 15,
+                  "impressions": 13,
                   "ctr": 0,
-                  "position": 7
+                  "position": 7.153846153846154
                 },
                 {
                   "query": "xhamster website company overview 2026",
                   "clicks": 0,
-                  "impressions": 6,
+                  "impressions": 9,
                   "ctr": 0,
-                  "position": 7.833333333333333
-                },
-                {
-                  "query": "is x hamster free",
-                  "clicks": 0,
-                  "impressions": 4,
-                  "ctr": 0,
-                  "position": 7
+                  "position": 7.888888888888889
                 },
                 {
                   "query": "xhamster website overview",
                   "clicks": 0,
-                  "impressions": 3,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 9.333333333333334
+                  "position": 8
                 },
                 {
-                  "query": "xhamster alternative",
+                  "query": "xhamster company website overview 2026",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 34.5
+                  "position": 2.1666666666666665
+                },
+                {
+                  "query": "is x hamster free",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 7
                 },
                 {
                   "query": "is xhamster free?",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 5,
                   "ctr": 0,
-                  "position": 6
+                  "position": 5.4
+                },
+                {
+                  "query": "xhamster",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 5
                 },
                 {
                   "query": "xhamster review",
@@ -49205,13 +51543,6 @@
                   "position": 6.5
                 },
                 {
-                  "query": "xhamster",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 6
-                },
-                {
                   "query": "xhamsterreview",
                   "clicks": 0,
                   "impressions": 2,
@@ -49219,11 +51550,11 @@
                   "position": 4
                 },
                 {
-                  "query": "xhamster company website overview 2026",
+                  "query": "xhamster official website about platform",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
-                  "position": 2.5
+                  "position": 7.5
                 },
                 {
                   "query": "is it free",
@@ -49254,11 +51585,25 @@
                   "position": 10
                 },
                 {
-                  "query": "xhamster official website about platform",
+                  "query": "xhamster alternative",
                   "clicks": 0,
                   "impressions": 1,
                   "ctr": 0,
-                  "position": 5
+                  "position": 31
+                },
+                {
+                  "query": "xhamster platform",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 9
+                },
+                {
+                  "query": "xhamster.com website overview",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 4
                 }
               ]
             }
@@ -49266,16 +51611,16 @@
         },
         {
           "name": "previous7",
-          "startDate": "2026-11-12",
-          "endDate": "2026-11-18",
+          "startDate": "2026-11-13",
+          "endDate": "2026-11-19",
           "siteUrl": "sc-domain:stripunion.com",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
-            "clicks": 152,
-            "impressions": 4900,
-            "ctr": 0.031020408163265307,
-            "position": 12.168979591836734
+            "clicks": 159,
+            "impressions": 5208,
+            "ctr": 0.03052995391705069,
+            "position": 11.595622119815669
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
@@ -49284,75 +51629,75 @@
               "slug": "stripchat-alternatives",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 17,
-              "impressions": 388,
-              "ctr": 0.04381443298969072,
-              "position": 9.835051546391753,
+              "clicks": 18,
+              "impressions": 429,
+              "ctr": 0.04195804195804196,
+              "position": 9.787878787878787,
               "urls": [
                 {
                   "url": "https://stripunion.com/stripchat-alternatives/",
-                  "clicks": 11,
-                  "impressions": 210,
-                  "ctr": 0.05238095238095238,
-                  "position": 10.142857142857142
+                  "clicks": 12,
+                  "impressions": 249,
+                  "ctr": 0.04819277108433735,
+                  "position": 10.036144578313253
                 },
                 {
                   "url": "https://stripunion.com/stripchat-alternatives",
                   "clicks": 6,
-                  "impressions": 148,
-                  "ctr": 0.04054054054054054,
-                  "position": 9.527027027027026
+                  "impressions": 153,
+                  "ctr": 0.0392156862745098,
+                  "position": 9.431372549019608
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives",
                   "clicks": 0,
-                  "impressions": 30,
+                  "impressions": 27,
                   "ctr": 0,
-                  "position": 9.2
+                  "position": 9.518518518518519
                 }
               ],
               "queries": [
                 {
                   "query": "stripchat alternative",
                   "clicks": 10,
-                  "impressions": 122,
-                  "ctr": 0.08196721311475409,
-                  "position": 7.770491803278689
+                  "impressions": 138,
+                  "ctr": 0.07246376811594203,
+                  "position": 7.86231884057971
                 },
                 {
                   "query": "stripchat alternatives",
-                  "clicks": 4,
-                  "impressions": 87,
-                  "ctr": 0.04597701149425287,
-                  "position": 7.195402298850575
+                  "clicks": 5,
+                  "impressions": 88,
+                  "ctr": 0.056818181818181816,
+                  "position": 7.238636363636363
                 },
                 {
                   "query": "stripchat similar",
                   "clicks": 3,
-                  "impressions": 45,
-                  "ctr": 0.06666666666666667,
-                  "position": 7.622222222222222
+                  "impressions": 52,
+                  "ctr": 0.057692307692307696,
+                  "position": 7.711538461538462
                 },
                 {
                   "query": "similar stripchat",
                   "clicks": 0,
-                  "impressions": 19,
+                  "impressions": 18,
                   "ctr": 0,
-                  "position": 24.42105263157895
+                  "position": 25.22222222222222
                 },
                 {
                   "query": "stripchat vs",
                   "clicks": 0,
-                  "impressions": 9,
+                  "impressions": 12,
                   "ctr": 0,
-                  "position": 8.11111111111111
+                  "position": 8.5
                 },
                 {
-                  "query": "strip chat alternatives",
+                  "query": "similar to stripchat",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 9,
                   "ctr": 0,
-                  "position": 8.875
+                  "position": 14
                 },
                 {
                   "query": "sites like stripchat",
@@ -49362,32 +51707,32 @@
                   "position": 24.75
                 },
                 {
-                  "query": "similar to stripchat",
+                  "query": "strip chat alternatives",
                   "clicks": 0,
-                  "impressions": 7,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 14.285714285714286
+                  "position": 8.5
+                },
+                {
+                  "query": "strip chat alternative",
+                  "clicks": 0,
+                  "impressions": 8,
+                  "ctr": 0,
+                  "position": 9.375
                 },
                 {
                   "query": "alternatives to stripchat",
                   "clicks": 0,
-                  "impressions": 7,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 9.428571428571429
-                },
-                {
-                  "query": "alternative stripchat",
-                  "clicks": 0,
-                  "impressions": 5,
-                  "ctr": 0,
-                  "position": 8.6
+                  "position": 9.5
                 },
                 {
                   "query": "equivalent stripchat",
                   "clicks": 0,
-                  "impressions": 5,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 10
+                  "position": 9.428571428571429
                 },
                 {
                   "query": "websites like stripchat",
@@ -49397,11 +51742,11 @@
                   "position": 18.4
                 },
                 {
-                  "query": "strip chat alternative",
+                  "query": "stripchat alt",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 9.2
+                  "position": 9.4
                 },
                 {
                   "query": "apps like stripchat",
@@ -49409,6 +51754,27 @@
                   "impressions": 4,
                   "ctr": 0,
                   "position": 22.75
+                },
+                {
+                  "query": "better than stripchat",
+                  "clicks": 0,
+                  "impressions": 4,
+                  "ctr": 0,
+                  "position": 8.5
+                },
+                {
+                  "query": "like stripchat",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 14.333333333333334
+                },
+                {
+                  "query": "strip chat similar",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 16
                 },
                 {
                   "query": "sites similar to stripchat",
@@ -49430,27 +51796,6 @@
                   "impressions": 3,
                   "ctr": 0,
                   "position": 17
-                },
-                {
-                  "query": "similar to strip chat",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 12.5
-                },
-                {
-                  "query": "stripchat other site",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "stripchat similar cams",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 10.5
                 }
               ]
             },
@@ -49459,16 +51804,16 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 4,
-              "impressions": 180,
-              "ctr": 0.022222222222222223,
-              "position": 13.677777777777777,
+              "impressions": 167,
+              "ctr": 0.023952095808383235,
+              "position": 13.29940119760479,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/stripchat-app",
                   "clicks": 4,
-                  "impressions": 161,
-                  "ctr": 0.024844720496894408,
-                  "position": 14.385093167701863
+                  "impressions": 148,
+                  "ctr": 0.02702702702702703,
+                  "position": 14.02027027027027
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-app/",
@@ -49482,9 +51827,9 @@
                 {
                   "query": "stripchat app",
                   "clicks": 4,
-                  "impressions": 102,
-                  "ctr": 0.0392156862745098,
-                  "position": 14.470588235294118
+                  "impressions": 92,
+                  "ctr": 0.043478260869565216,
+                  "position": 13.956521739130435
                 },
                 {
                   "query": "app stripchat",
@@ -49510,16 +51855,16 @@
                 {
                   "query": "strip chart app",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 17.375
+                  "position": 15.714285714285714
                 },
                 {
                   "query": "strip cam app",
                   "clicks": 0,
-                  "impressions": 7,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 13
+                  "position": 13.833333333333334
                 },
                 {
                   "query": "stripcbat app",
@@ -49555,13 +51900,6 @@
                   "impressions": 2,
                   "ctr": 0,
                   "position": 8
-                },
-                {
-                  "query": "stripchatapp",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 12
                 },
                 {
                   "query": "stripcam app",
@@ -49618,6 +51956,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 8
+                },
+                {
+                  "query": "stripxhat app",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 9
                 }
               ]
             },
@@ -49626,39 +51971,39 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 0,
-              "impressions": 138,
+              "impressions": 139,
               "ctr": 0,
-              "position": 11.130434782608695,
+              "position": 10.81294964028777,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/livejasmin",
                   "clicks": 0,
-                  "impressions": 137,
+                  "impressions": 136,
                   "ctr": 0,
-                  "position": 10.91970802919708
+                  "position": 10.419117647058824
                 },
                 {
                   "url": "https://www.stripunion.com/livejasmin/",
                   "clicks": 0,
-                  "impressions": 1,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 40
+                  "position": 28.666666666666668
                 }
               ],
               "queries": [
                 {
                   "query": "livejasmin",
                   "clicks": 0,
-                  "impressions": 91,
+                  "impressions": 86,
                   "ctr": 0,
-                  "position": 9.43956043956044
+                  "position": 8.86046511627907
                 },
                 {
                   "query": "livejasmin review",
                   "clicks": 0,
-                  "impressions": 10,
+                  "impressions": 13,
                   "ctr": 0,
-                  "position": 6
+                  "position": 6.461538461538462
                 },
                 {
                   "query": "livejasmine",
@@ -49666,13 +52011,6 @@
                   "impressions": 6,
                   "ctr": 0,
                   "position": 6.666666666666667
-                },
-                {
-                  "query": "what is livejasmin",
-                  "clicks": 0,
-                  "impressions": 5,
-                  "ctr": 0,
-                  "position": 25
                 },
                 {
                   "query": "how much does live jasmin cost",
@@ -49689,7 +52027,21 @@
                   "position": 15.666666666666666
                 },
                 {
-                  "query": "livejasmn",
+                  "query": "what is livejasmin",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 19
+                },
+                {
+                  "query": "livejasmin cost",
+                  "clicks": 0,
+                  "impressions": 3,
+                  "ctr": 0,
+                  "position": 28.666666666666668
+                },
+                {
+                  "query": "livejsmin",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
@@ -49703,13 +52055,6 @@
                   "position": 5
                 },
                 {
-                  "query": "livejasmin stripchat",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 27
-                },
-                {
                   "query": "livejasmin reviews",
                   "clicks": 0,
                   "impressions": 1,
@@ -49718,13 +52063,6 @@
                 },
                 {
                   "query": "livehasmin",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 4
-                },
-                {
-                  "query": "livejsmin",
                   "clicks": 0,
                   "impressions": 1,
                   "ctr": 0,
@@ -49785,6 +52123,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 42
+                },
+                {
+                  "query": "livejasmin vip",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 3
                 }
               ]
             },
@@ -49793,53 +52138,46 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 1,
-              "impressions": 180,
-              "ctr": 0.005555555555555556,
-              "position": 11.338888888888889,
+              "impressions": 190,
+              "ctr": 0.005263157894736842,
+              "position": 10.578947368421053,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives",
                   "clicks": 1,
                   "impressions": 51,
                   "ctr": 0.0196078431372549,
-                  "position": 12.607843137254902
+                  "position": 12.745098039215685
                 },
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives/",
                   "clicks": 0,
-                  "impressions": 126,
+                  "impressions": 139,
                   "ctr": 0,
-                  "position": 10.26984126984127
-                },
-                {
-                  "url": "https://stripunion.com/chaturbate-alternatives",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 34.666666666666664
+                  "position": 9.784172661870503
                 }
               ],
               "queries": [
                 {
                   "query": "chaturbate alternative",
                   "clicks": 0,
-                  "impressions": 66,
+                  "impressions": 76,
                   "ctr": 0,
-                  "position": 11.878787878787879
+                  "position": 10.460526315789474
                 },
                 {
                   "query": "chaturbate alternatives",
                   "clicks": 0,
-                  "impressions": 46,
+                  "impressions": 48,
                   "ctr": 0,
-                  "position": 9.043478260869565
+                  "position": 9.166666666666666
                 },
                 {
                   "query": "chaturbate vs",
                   "clicks": 0,
-                  "impressions": 22,
+                  "impressions": 20,
                   "ctr": 0,
-                  "position": 15
+                  "position": 14.65
                 },
                 {
                   "query": "alternative chaturbate",
@@ -49851,30 +52189,37 @@
                 {
                   "query": "chaturbate alternativ",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 9.25
+                  "position": 9.142857142857142
                 },
                 {
                   "query": "alternative zu chaturbate",
                   "clicks": 0,
-                  "impressions": 7,
+                  "impressions": 5,
                   "ctr": 0,
-                  "position": 13.285714285714286
+                  "position": 8.6
+                },
+                {
+                  "query": "chaturbate equivalent",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 8.2
                 },
                 {
                   "query": "chaturbate alternativen",
                   "clicks": 0,
                   "impressions": 4,
                   "ctr": 0,
-                  "position": 9.25
+                  "position": 14.5
                 },
                 {
-                  "query": "chaturbate equivalent",
+                  "query": "chaterbate alternative",
                   "clicks": 0,
                   "impressions": 4,
                   "ctr": 0,
-                  "position": 8.5
+                  "position": 12.25
                 },
                 {
                   "query": "chaturbate competitors",
@@ -49884,25 +52229,11 @@
                   "position": 5
                 },
                 {
-                  "query": "chaterbate alternative",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 14.5
-                },
-                {
                   "query": "betterchatirbate",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
                   "position": 8.5
-                },
-                {
-                  "query": "chaturbate alternate",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 25
                 },
                 {
                   "query": "can you find them for me?",
@@ -49945,6 +52276,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 8
+                },
+                {
+                  "query": "pornhub vs",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 8
                 }
               ]
             },
@@ -49953,32 +52291,39 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 1,
-              "impressions": 29,
-              "ctr": 0.034482758620689655,
-              "position": 6.9655172413793105,
+              "impressions": 27,
+              "ctr": 0.037037037037037035,
+              "position": 7.555555555555555,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/xhamster",
                   "clicks": 1,
-                  "impressions": 27,
-                  "ctr": 0.037037037037037035,
-                  "position": 6.814814814814815
+                  "impressions": 26,
+                  "ctr": 0.038461538461538464,
+                  "position": 6.384615384615385
                 },
                 {
                   "url": "https://www.stripunion.com/xhamster/",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 1,
                   "ctr": 0,
-                  "position": 9
+                  "position": 38
                 }
               ],
               "queries": [
                 {
                   "query": "is xhamster free",
                   "clicks": 0,
-                  "impressions": 14,
+                  "impressions": 12,
                   "ctr": 0,
-                  "position": 7.642857142857143
+                  "position": 6.75
+                },
+                {
+                  "query": "xhamster adult video sharing official website",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 7.6
                 },
                 {
                   "query": "xhamsterreview",
@@ -49988,39 +52333,11 @@
                   "position": 3
                 },
                 {
-                  "query": "xhamster review",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 6
-                },
-                {
-                  "query": "xhamster adult video sharing official website",
-                  "clicks": 0,
-                  "impressions": 2,
-                  "ctr": 0,
-                  "position": 9
-                },
-                {
                   "query": "is xhamster free?",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
                   "position": 6
-                },
-                {
-                  "query": "alternative to xhamster",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "xhamster adult video hosting official website",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 9
                 },
                 {
                   "query": "xhamster?",
@@ -50049,6 +52366,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 8
+                },
+                {
+                  "query": "xhamster alternative",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 38
                 }
               ]
             }
@@ -50056,16 +52380,16 @@
         },
         {
           "name": "current28",
-          "startDate": "2026-10-29",
-          "endDate": "2026-11-25",
+          "startDate": "2026-10-30",
+          "endDate": "2026-11-26",
           "siteUrl": "sc-domain:stripunion.com",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
-            "clicks": 623,
-            "impressions": 20713,
-            "ctr": 0.030077728962487327,
-            "position": 12.54164051561821
+            "clicks": 657,
+            "impressions": 21543,
+            "ctr": 0.03049714524439493,
+            "position": 12.266675950424732
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
@@ -50075,30 +52399,30 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 51,
-              "impressions": 1600,
-              "ctr": 0.031875,
-              "position": 10.2375,
+              "impressions": 1652,
+              "ctr": 0.030871670702179176,
+              "position": 10.213680387409202,
               "urls": [
                 {
                   "url": "https://stripunion.com/stripchat-alternatives/",
                   "clicks": 34,
-                  "impressions": 911,
-                  "ctr": 0.03732162458836443,
-                  "position": 10.137211855104281
+                  "impressions": 977,
+                  "ctr": 0.03480040941658137,
+                  "position": 10.064483111566018
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives",
                   "clicks": 7,
-                  "impressions": 363,
-                  "ctr": 0.01928374655647383,
-                  "position": 10.680440771349863
+                  "impressions": 353,
+                  "ctr": 0.019830028328611898,
+                  "position": 10.725212464589235
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives/",
                   "clicks": 1,
-                  "impressions": 45,
-                  "ctr": 0.022222222222222223,
-                  "position": 13.488888888888889
+                  "impressions": 41,
+                  "ctr": 0.024390243902439025,
+                  "position": 14.463414634146341
                 },
                 {
                   "url": "https://stripunion.com/stripchat-alternatives",
@@ -50112,65 +52436,65 @@
                 {
                   "query": "stripchat alternative",
                   "clicks": 24,
-                  "impressions": 496,
-                  "ctr": 0.04838709677419355,
-                  "position": 8.566532258064516
+                  "impressions": 506,
+                  "ctr": 0.04743083003952569,
+                  "position": 8.492094861660078
                 },
                 {
                   "query": "stripchat alternatives",
                   "clicks": 8,
-                  "impressions": 317,
-                  "ctr": 0.025236593059936908,
-                  "position": 7.829652996845426
+                  "impressions": 326,
+                  "ctr": 0.024539877300613498,
+                  "position": 7.855828220858895
                 },
                 {
                   "query": "stripchat similar",
                   "clicks": 7,
-                  "impressions": 156,
-                  "ctr": 0.04487179487179487,
-                  "position": 8.673076923076923
+                  "impressions": 159,
+                  "ctr": 0.0440251572327044,
+                  "position": 8.679245283018869
                 },
                 {
                   "query": "similar stripchat",
                   "clicks": 1,
                   "impressions": 63,
                   "ctr": 0.015873015873015872,
-                  "position": 15.492063492063492
+                  "position": 15.396825396825397
                 },
                 {
                   "query": "sites like stripchat",
                   "clicks": 0,
-                  "impressions": 42,
+                  "impressions": 47,
                   "ctr": 0,
-                  "position": 17.452380952380953
-                },
-                {
-                  "query": "alternatives to stripchat",
-                  "clicks": 0,
-                  "impressions": 38,
-                  "ctr": 0,
-                  "position": 8.68421052631579
+                  "position": 16.48936170212766
                 },
                 {
                   "query": "stripchat vs",
                   "clicks": 1,
-                  "impressions": 35,
-                  "ctr": 0.02857142857142857,
-                  "position": 8.914285714285715
+                  "impressions": 37,
+                  "ctr": 0.02702702702702703,
+                  "position": 8.972972972972974
                 },
                 {
-                  "query": "websites like stripchat",
-                  "clicks": 1,
-                  "impressions": 31,
-                  "ctr": 0.03225806451612903,
-                  "position": 18.741935483870968
+                  "query": "alternatives to stripchat",
+                  "clicks": 0,
+                  "impressions": 36,
+                  "ctr": 0,
+                  "position": 8.805555555555555
                 },
                 {
                   "query": "similar to stripchat",
                   "clicks": 1,
-                  "impressions": 29,
-                  "ctr": 0.034482758620689655,
-                  "position": 13.758620689655173
+                  "impressions": 31,
+                  "ctr": 0.03225806451612903,
+                  "position": 13.516129032258064
+                },
+                {
+                  "query": "websites like stripchat",
+                  "clicks": 1,
+                  "impressions": 30,
+                  "ctr": 0.03333333333333333,
+                  "position": 18.733333333333334
                 },
                 {
                   "query": "strip chat alternatives",
@@ -50191,14 +52515,14 @@
                   "clicks": 0,
                   "impressions": 23,
                   "ctr": 0,
-                  "position": 10.869565217391305
+                  "position": 11.521739130434783
                 },
                 {
                   "query": "like stripchat",
                   "clicks": 0,
-                  "impressions": 18,
+                  "impressions": 20,
                   "ctr": 0,
-                  "position": 13.11111111111111
+                  "position": 12.8
                 },
                 {
                   "query": "websites similar to stripchat",
@@ -50206,6 +52530,20 @@
                   "impressions": 17,
                   "ctr": 0,
                   "position": 13.941176470588236
+                },
+                {
+                  "query": "stripchat like",
+                  "clicks": 0,
+                  "impressions": 17,
+                  "ctr": 0,
+                  "position": 11.117647058823529
+                },
+                {
+                  "query": "apps like stripchat",
+                  "clicks": 0,
+                  "impressions": 15,
+                  "ctr": 0,
+                  "position": 25.8
                 },
                 {
                   "query": "sites similar to stripchat",
@@ -50229,20 +52567,6 @@
                   "position": 14.642857142857142
                 },
                 {
-                  "query": "apps like stripchat",
-                  "clicks": 0,
-                  "impressions": 14,
-                  "ctr": 0,
-                  "position": 26.857142857142858
-                },
-                {
-                  "query": "stripchat like",
-                  "clicks": 0,
-                  "impressions": 14,
-                  "ctr": 0,
-                  "position": 11.428571428571429
-                },
-                {
                   "query": "best stripchat alternatives",
                   "clicks": 0,
                   "impressions": 12,
@@ -50255,31 +52579,31 @@
               "slug": "stripchat-app",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 16,
-              "impressions": 723,
-              "ctr": 0.022130013831258646,
-              "position": 12.334716459197788,
+              "clicks": 19,
+              "impressions": 751,
+              "ctr": 0.02529960053262317,
+              "position": 12.352862849533954,
               "urls": [
                 {
                   "url": "https://stripunion.com/stripchat-app",
-                  "clicks": 5,
-                  "impressions": 279,
-                  "ctr": 0.017921146953405017,
-                  "position": 9.602150537634408
+                  "clicks": 8,
+                  "impressions": 320,
+                  "ctr": 0.025,
+                  "position": 9.921875
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-app",
                   "clicks": 10,
-                  "impressions": 337,
-                  "ctr": 0.02967359050445104,
-                  "position": 15.700296735905045
+                  "impressions": 317,
+                  "ctr": 0.031545741324921134,
+                  "position": 16.085173501577287
                 },
                 {
                   "url": "https://stripunion.com/stripchat-app/",
                   "clicks": 1,
-                  "impressions": 62,
-                  "ctr": 0.016129032258064516,
-                  "position": 8.935483870967742
+                  "impressions": 69,
+                  "ctr": 0.014492753623188406,
+                  "position": 8.826086956521738
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-app/",
@@ -50292,52 +52616,52 @@
               "queries": [
                 {
                   "query": "stripchat app",
-                  "clicks": 11,
-                  "impressions": 360,
-                  "ctr": 0.030555555555555555,
-                  "position": 14.066666666666666
+                  "clicks": 12,
+                  "impressions": 370,
+                  "ctr": 0.032432432432432434,
+                  "position": 13.91891891891892
                 },
                 {
                   "query": "stripchat apps",
-                  "clicks": 1,
-                  "impressions": 56,
-                  "ctr": 0.017857142857142856,
-                  "position": 9.535714285714286
-                },
-                {
-                  "query": "strip chart app",
-                  "clicks": 0,
-                  "impressions": 26,
-                  "ctr": 0,
-                  "position": 20.96153846153846
+                  "clicks": 2,
+                  "impressions": 61,
+                  "ctr": 0.03278688524590164,
+                  "position": 9.39344262295082
                 },
                 {
                   "query": "strip chat app",
                   "clicks": 1,
-                  "impressions": 23,
-                  "ctr": 0.043478260869565216,
-                  "position": 11.478260869565217
+                  "impressions": 25,
+                  "ctr": 0.04,
+                  "position": 11.36
+                },
+                {
+                  "query": "strip chart app",
+                  "clicks": 0,
+                  "impressions": 25,
+                  "ctr": 0,
+                  "position": 21.48
                 },
                 {
                   "query": "strip hat app",
                   "clicks": 0,
+                  "impressions": 25,
+                  "ctr": 0,
+                  "position": 5.72
+                },
+                {
+                  "query": "stripchat mobile app",
+                  "clicks": 0,
                   "impressions": 23,
                   "ctr": 0,
-                  "position": 5.739130434782608
+                  "position": 14.826086956521738
                 },
                 {
                   "query": "strip cam app",
                   "clicks": 0,
                   "impressions": 22,
                   "ctr": 0,
-                  "position": 11.363636363636363
-                },
-                {
-                  "query": "stripchat mobile app",
-                  "clicks": 0,
-                  "impressions": 21,
-                  "ctr": 0,
-                  "position": 14.761904761904763
+                  "position": 11.454545454545455
                 },
                 {
                   "query": "stripchat mobile",
@@ -50349,16 +52673,16 @@
                 {
                   "query": "app stripchat",
                   "clicks": 0,
-                  "impressions": 17,
+                  "impressions": 18,
                   "ctr": 0,
-                  "position": 12.470588235294118
+                  "position": 12.333333333333334
                 },
                 {
                   "query": "strip hat.app",
                   "clicks": 0,
-                  "impressions": 14,
+                  "impressions": 13,
                   "ctr": 0,
-                  "position": 7.714285714285714
+                  "position": 7.769230769230769
                 },
                 {
                   "query": "stripchatt app",
@@ -50382,25 +52706,18 @@
                   "position": 7.75
                 },
                 {
+                  "query": "access stripchat",
+                  "clicks": 0,
+                  "impressions": 7,
+                  "ctr": 0,
+                  "position": 10.285714285714286
+                },
+                {
                   "query": "stripchart app",
                   "clicks": 0,
                   "impressions": 6,
                   "ctr": 0,
                   "position": 11.333333333333334
-                },
-                {
-                  "query": "access stripchat",
-                  "clicks": 0,
-                  "impressions": 6,
-                  "ctr": 0,
-                  "position": 9.833333333333334
-                },
-                {
-                  "query": "stripchat spk",
-                  "clicks": 0,
-                  "impressions": 5,
-                  "ctr": 0,
-                  "position": 8
                 },
                 {
                   "query": "stripchag app",
@@ -50410,6 +52727,20 @@
                   "position": 7.8
                 },
                 {
+                  "query": "strip chat apps",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 14.8
+                },
+                {
+                  "query": "stripe chart app",
+                  "clicks": 1,
+                  "impressions": 4,
+                  "ctr": 0.25,
+                  "position": 32
+                },
+                {
                   "query": "stripcbat app",
                   "clicks": 0,
                   "impressions": 4,
@@ -50417,18 +52748,11 @@
                   "position": 9
                 },
                 {
-                  "query": "stripchat app iphone",
+                  "query": "stripchatapp",
                   "clicks": 0,
                   "impressions": 4,
                   "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "stripchat application",
-                  "clicks": 1,
-                  "impressions": 3,
-                  "ctr": 0.3333333333333333,
-                  "position": 9
+                  "position": 13.25
                 }
               ]
             },
@@ -50437,16 +52761,16 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 6,
-              "impressions": 390,
-              "ctr": 0.015384615384615385,
-              "position": 14.743589743589743,
+              "impressions": 402,
+              "ctr": 0.014925373134328358,
+              "position": 14.644278606965175,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/livejasmin",
                   "clicks": 6,
-                  "impressions": 383,
-                  "ctr": 0.015665796344647518,
-                  "position": 14.511749347258485
+                  "impressions": 395,
+                  "ctr": 0.015189873417721518,
+                  "position": 14.417721518987342
                 },
                 {
                   "url": "https://www.stripunion.com/livejasmin/",
@@ -50460,23 +52784,23 @@
                 {
                   "query": "livejasmin",
                   "clicks": 6,
-                  "impressions": 210,
-                  "ctr": 0.02857142857142857,
-                  "position": 15.32857142857143
+                  "impressions": 211,
+                  "ctr": 0.02843601895734597,
+                  "position": 15.014218009478673
                 },
                 {
                   "query": "livejasmin review",
                   "clicks": 0,
-                  "impressions": 29,
+                  "impressions": 28,
                   "ctr": 0,
-                  "position": 7.896551724137931
+                  "position": 8
                 },
                 {
                   "query": "livejasmin,livejasmin",
                   "clicks": 0,
-                  "impressions": 13,
+                  "impressions": 12,
                   "ctr": 0,
-                  "position": 20.53846153846154
+                  "position": 20.416666666666668
                 },
                 {
                   "query": "what is livejasmin",
@@ -50493,18 +52817,18 @@
                   "position": 6.333333333333333
                 },
                 {
+                  "query": "livejasmin cost",
+                  "clicks": 0,
+                  "impressions": 9,
+                  "ctr": 0,
+                  "position": 26.88888888888889
+                },
+                {
                   "query": "livejaasmin",
                   "clicks": 0,
                   "impressions": 8,
                   "ctr": 0,
-                  "position": 6.375
-                },
-                {
-                  "query": "livejazmin",
-                  "clicks": 0,
-                  "impressions": 8,
-                  "ctr": 0,
-                  "position": 5.75
+                  "position": 6.25
                 },
                 {
                   "query": "livejasmin reviews",
@@ -50514,11 +52838,11 @@
                   "position": 18
                 },
                 {
-                  "query": "livejasmin cost",
+                  "query": "livejazmin",
                   "clicks": 0,
                   "impressions": 7,
                   "ctr": 0,
-                  "position": 27.285714285714285
+                  "position": 6.142857142857143
                 },
                 {
                   "query": "livjasmin",
@@ -50542,6 +52866,20 @@
                   "position": 6.666666666666667
                 },
                 {
+                  "query": "livejsmin",
+                  "clicks": 0,
+                  "impressions": 6,
+                  "ctr": 0,
+                  "position": 6.166666666666667
+                },
+                {
+                  "query": "livejasmon",
+                  "clicks": 0,
+                  "impressions": 6,
+                  "ctr": 0,
+                  "position": 5.166666666666667
+                },
+                {
                   "query": "livejamsin",
                   "clicks": 0,
                   "impressions": 5,
@@ -50549,18 +52887,18 @@
                   "position": 5
                 },
                 {
-                  "query": "livejsmin",
+                  "query": "oivejasmin",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 5.4
+                  "position": 7.8
                 },
                 {
-                  "query": "livejasmon",
+                  "query": "livejasin",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
-                  "position": 4.6
+                  "position": 4.8
                 },
                 {
                   "query": "livejassmin",
@@ -50577,25 +52915,11 @@
                   "position": 6.75
                 },
                 {
-                  "query": "livejasmiin",
+                  "query": "is livejasmin free",
                   "clicks": 0,
                   "impressions": 3,
                   "ctr": 0,
-                  "position": 8.333333333333334
-                },
-                {
-                  "query": "oivejasmin",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 7
-                },
-                {
-                  "query": "livejasin",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 5.666666666666667
+                  "position": 23
                 }
               ]
             },
@@ -50603,117 +52927,117 @@
               "slug": "chaturbate-alternatives",
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
-              "clicks": 9,
-              "impressions": 1025,
-              "ctr": 0.00878048780487805,
-              "position": 9.95219512195122,
+              "clicks": 10,
+              "impressions": 1004,
+              "ctr": 0.0099601593625498,
+              "position": 10.02788844621514,
               "urls": [
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives",
                   "clicks": 3,
-                  "impressions": 172,
-                  "ctr": 0.01744186046511628,
-                  "position": 9.703488372093023
+                  "impressions": 161,
+                  "ctr": 0.018633540372670808,
+                  "position": 9.726708074534162
                 },
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives",
                   "clicks": 1,
-                  "impressions": 334,
-                  "ctr": 0.0029940119760479044,
-                  "position": 10.341317365269461
+                  "impressions": 326,
+                  "ctr": 0.003067484662576687,
+                  "position": 10.432515337423313
                 },
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives/",
-                  "clicks": 5,
-                  "impressions": 427,
-                  "ctr": 0.0117096018735363,
-                  "position": 9.878220140515223
+                  "clicks": 6,
+                  "impressions": 459,
+                  "ctr": 0.013071895424836602,
+                  "position": 9.799564270152505
                 },
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives/",
                   "clicks": 0,
-                  "impressions": 92,
+                  "impressions": 58,
                   "ctr": 0,
-                  "position": 9.347826086956522
+                  "position": 10.39655172413793
                 }
               ],
               "queries": [
                 {
                   "query": "chaturbate alternative",
-                  "clicks": 5,
-                  "impressions": 380,
-                  "ctr": 0.013157894736842105,
-                  "position": 9.471052631578948
+                  "clicks": 6,
+                  "impressions": 387,
+                  "ctr": 0.015503875968992248,
+                  "position": 9.503875968992247
                 },
                 {
                   "query": "chaturbate alternatives",
                   "clicks": 2,
-                  "impressions": 205,
-                  "ctr": 0.00975609756097561,
-                  "position": 8.570731707317073
+                  "impressions": 204,
+                  "ctr": 0.00980392156862745,
+                  "position": 8.647058823529411
                 },
                 {
                   "query": "chaturbate vs",
                   "clicks": 0,
-                  "impressions": 90,
+                  "impressions": 83,
                   "ctr": 0,
-                  "position": 13.222222222222221
+                  "position": 13.590361445783133
                 },
                 {
                   "query": "chaturbate alternativen",
                   "clicks": 0,
-                  "impressions": 38,
+                  "impressions": 35,
                   "ctr": 0,
-                  "position": 19.5
-                },
-                {
-                  "query": "alternative chaturbate",
-                  "clicks": 0,
-                  "impressions": 32,
-                  "ctr": 0,
-                  "position": 8.90625
+                  "position": 20.62857142857143
                 },
                 {
                   "query": "alternative to chaturbate",
                   "clicks": 0,
-                  "impressions": 28,
+                  "impressions": 26,
                   "ctr": 0,
-                  "position": 5.178571428571429
+                  "position": 5.269230769230769
+                },
+                {
+                  "query": "alternative chaturbate",
+                  "clicks": 0,
+                  "impressions": 25,
+                  "ctr": 0,
+                  "position": 9.32
                 },
                 {
                   "query": "chaturbate competitors",
                   "clicks": 1,
-                  "impressions": 24,
-                  "ctr": 0.041666666666666664,
-                  "position": 7.625
-                },
-                {
-                  "query": "alternatives to chaturbate",
-                  "clicks": 0,
                   "impressions": 23,
-                  "ctr": 0,
-                  "position": 2.9565217391304346
-                },
-                {
-                  "query": "better than chaturbate",
-                  "clicks": 0,
-                  "impressions": 22,
-                  "ctr": 0,
-                  "position": 9.090909090909092
+                  "ctr": 0.043478260869565216,
+                  "position": 7.782608695652174
                 },
                 {
                   "query": "chaterbate alternative",
                   "clicks": 1,
-                  "impressions": 17,
-                  "ctr": 0.058823529411764705,
-                  "position": 8.588235294117647
+                  "impressions": 22,
+                  "ctr": 0.045454545454545456,
+                  "position": 8.681818181818182
+                },
+                {
+                  "query": "alternatives to chaturbate",
+                  "clicks": 0,
+                  "impressions": 21,
+                  "ctr": 0,
+                  "position": 2.9523809523809526
+                },
+                {
+                  "query": "better than chaturbate",
+                  "clicks": 0,
+                  "impressions": 19,
+                  "ctr": 0,
+                  "position": 8.526315789473685
                 },
                 {
                   "query": "alternative zu chaturbate",
                   "clicks": 0,
-                  "impressions": 17,
+                  "impressions": 18,
                   "ctr": 0,
-                  "position": 18.41176470588235
+                  "position": 18
                 },
                 {
                   "query": "chaturbate competitor",
@@ -50730,13 +53054,6 @@
                   "position": 14.5
                 },
                 {
-                  "query": "app like chaturbate",
-                  "clicks": 0,
-                  "impressions": 11,
-                  "ctr": 0,
-                  "position": 6
-                },
-                {
                   "query": "chaturbate alternativ",
                   "clicks": 0,
                   "impressions": 11,
@@ -50746,9 +53063,9 @@
                 {
                   "query": "similar to chaturbate",
                   "clicks": 0,
-                  "impressions": 9,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 6.222222222222222
+                  "position": 6.125
                 },
                 {
                   "query": "stripchat alternative",
@@ -50758,6 +53075,13 @@
                   "position": 14.25
                 },
                 {
+                  "query": "app like chaturbate",
+                  "clicks": 0,
+                  "impressions": 8,
+                  "ctr": 0,
+                  "position": 7
+                },
+                {
                   "query": "chaturbate equivalent",
                   "clicks": 0,
                   "impressions": 7,
@@ -50765,18 +53089,18 @@
                   "position": 8.857142857142858
                 },
                 {
-                  "query": "stripchat alternatives",
-                  "clicks": 0,
-                  "impressions": 6,
-                  "ctr": 0,
-                  "position": 10.166666666666666
-                },
-                {
                   "query": "chaturbate competition",
                   "clicks": 0,
                   "impressions": 5,
                   "ctr": 0,
                   "position": 13.2
+                },
+                {
+                  "query": "stripchat alternatives",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 10.6
                 }
               ]
             },
@@ -50785,32 +53109,32 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 4,
-              "impressions": 151,
-              "ctr": 0.026490066225165563,
-              "position": 8.298013245033113,
+              "impressions": 170,
+              "ctr": 0.023529411764705882,
+              "position": 7.876470588235295,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/xhamster",
                   "clicks": 3,
-                  "impressions": 125,
-                  "ctr": 0.024,
-                  "position": 8.152
+                  "impressions": 144,
+                  "ctr": 0.020833333333333332,
+                  "position": 7.743055555555555
                 },
                 {
                   "url": "https://www.stripunion.com/xhamster/",
                   "clicks": 1,
                   "impressions": 26,
                   "ctr": 0.038461538461538464,
-                  "position": 9
+                  "position": 8.615384615384615
                 }
               ],
               "queries": [
                 {
                   "query": "is xhamster free",
                   "clicks": 0,
-                  "impressions": 58,
+                  "impressions": 61,
                   "ctr": 0,
-                  "position": 6.931034482758621
+                  "position": 6.885245901639344
                 },
                 {
                   "query": "xhamster adult video sharing official website",
@@ -50818,6 +53142,20 @@
                   "impressions": 23,
                   "ctr": 0,
                   "position": 6.869565217391305
+                },
+                {
+                  "query": "is xhamster free?",
+                  "clicks": 0,
+                  "impressions": 11,
+                  "ctr": 0,
+                  "position": 7.363636363636363
+                },
+                {
+                  "query": "xhamster website company overview 2026",
+                  "clicks": 0,
+                  "impressions": 10,
+                  "ctr": 0,
+                  "position": 8.1
                 },
                 {
                   "query": "xhamster review",
@@ -50834,39 +53172,32 @@
                   "position": 3.4444444444444446
                 },
                 {
-                  "query": "is xhamster free?",
+                  "query": "xhamster website overview",
                   "clicks": 0,
                   "impressions": 8,
                   "ctr": 0,
                   "position": 8.25
                 },
                 {
-                  "query": "xhamster website company overview 2026",
-                  "clicks": 0,
-                  "impressions": 7,
-                  "ctr": 0,
-                  "position": 8.142857142857142
-                },
-                {
                   "query": "is x hamster free",
                   "clicks": 0,
-                  "impressions": 5,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 7.8
+                  "position": 7.666666666666667
                 },
                 {
-                  "query": "xhamster website overview",
+                  "query": "xhamster company website overview 2026",
                   "clicks": 0,
-                  "impressions": 4,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 9.5
+                  "position": 2.1666666666666665
                 },
                 {
-                  "query": "xhamster alternative",
+                  "query": "xhamster",
                   "clicks": 0,
                   "impressions": 3,
                   "ctr": 0,
-                  "position": 29.333333333333332
+                  "position": 5
                 },
                 {
                   "query": "xhamster adult video hosting official website",
@@ -50883,18 +53214,18 @@
                   "position": 8.5
                 },
                 {
-                  "query": "xhamster",
+                  "query": "xhamster alternative",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
-                  "position": 6
+                  "position": 34.5
                 },
                 {
-                  "query": "xhamster company website overview 2026",
+                  "query": "xhamster official website about platform",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
-                  "position": 2.5
+                  "position": 7.5
                 },
                 {
                   "query": "is it free",
@@ -50902,20 +53233,6 @@
                   "impressions": 1,
                   "ctr": 1,
                   "position": 4
-                },
-                {
-                  "query": "xhamster reviews",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 7
-                },
-                {
-                  "query": "xhamster working site",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 14
                 },
                 {
                   "query": "xhamster subscription price",
@@ -50944,6 +53261,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 8
+                },
+                {
+                  "query": "xhamster membership",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 4
                 }
               ]
             }
@@ -50951,16 +53275,16 @@
         },
         {
           "name": "previous28",
-          "startDate": "2026-10-01",
-          "endDate": "2026-10-28",
+          "startDate": "2026-10-02",
+          "endDate": "2026-10-29",
           "siteUrl": "sc-domain:stripunion.com",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
-            "clicks": 61,
-            "impressions": 3082,
-            "ctr": 0.019792342634652824,
-            "position": 15.028552887735238
+            "clicks": 76,
+            "impressions": 3755,
+            "ctr": 0.020239680426098534,
+            "position": 15.298801597869508
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
@@ -50970,60 +53294,67 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 2,
-              "impressions": 151,
-              "ctr": 0.013245033112582781,
-              "position": 12.516556291390728,
+              "impressions": 180,
+              "ctr": 0.011111111111111112,
+              "position": 11.955555555555556,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives/",
                   "clicks": 1,
-                  "impressions": 35,
-                  "ctr": 0.02857142857142857,
-                  "position": 13.257142857142858
+                  "impressions": 39,
+                  "ctr": 0.02564102564102564,
+                  "position": 12.256410256410257
                 },
                 {
                   "url": "https://www.stripunion.com/stripchat-alternatives",
                   "clicks": 1,
-                  "impressions": 116,
-                  "ctr": 0.008620689655172414,
-                  "position": 12.293103448275861
+                  "impressions": 141,
+                  "ctr": 0.0070921985815602835,
+                  "position": 11.872340425531915
                 }
               ],
               "queries": [
                 {
                   "query": "stripchat alternative",
                   "clicks": 0,
-                  "impressions": 48,
+                  "impressions": 58,
                   "ctr": 0,
-                  "position": 10.083333333333334
+                  "position": 10.189655172413794
                 },
                 {
                   "query": "stripchat alternatives",
                   "clicks": 1,
-                  "impressions": 28,
-                  "ctr": 0.03571428571428571,
-                  "position": 9
+                  "impressions": 34,
+                  "ctr": 0.029411764705882353,
+                  "position": 8.441176470588236
                 },
                 {
                   "query": "stripchat similar",
                   "clicks": 0,
-                  "impressions": 17,
+                  "impressions": 21,
                   "ctr": 0,
-                  "position": 11.647058823529411
+                  "position": 10.714285714285714
                 },
                 {
                   "query": "similar stripchat",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 9,
                   "ctr": 0,
-                  "position": 14.375
+                  "position": 14.222222222222221
                 },
                 {
                   "query": "alternatives to stripchat",
                   "clicks": 0,
-                  "impressions": 5,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 6.6
+                  "position": 7
+                },
+                {
+                  "query": "websites like stripchat",
+                  "clicks": 0,
+                  "impressions": 4,
+                  "ctr": 0,
+                  "position": 18.5
                 },
                 {
                   "query": "stripchat like",
@@ -51038,13 +53369,6 @@
                   "impressions": 3,
                   "ctr": 0,
                   "position": 18
-                },
-                {
-                  "query": "websites like stripchat",
-                  "clicks": 0,
-                  "impressions": 3,
-                  "ctr": 0,
-                  "position": 18.333333333333332
                 },
                 {
                   "query": "sites like stripchat",
@@ -51110,6 +53434,13 @@
                   "position": 7.5
                 },
                 {
+                  "query": "stripchat vs",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 8.5
+                },
+                {
                   "query": "websites similar to stripchat",
                   "clicks": 0,
                   "impressions": 2,
@@ -51122,13 +53453,6 @@
                   "impressions": 1,
                   "ctr": 1,
                   "position": 20
-                },
-                {
-                  "query": "stripchat alternativ",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 42
                 }
               ]
             },
@@ -51137,9 +53461,9 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 3,
-              "impressions": 78,
-              "ctr": 0.038461538461538464,
-              "position": 16.743589743589745,
+              "impressions": 98,
+              "ctr": 0.030612244897959183,
+              "position": 15.285714285714286,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/stripchat-app/",
@@ -51151,32 +53475,39 @@
                 {
                   "url": "https://www.stripunion.com/stripchat-app",
                   "clicks": 1,
-                  "impressions": 21,
-                  "ctr": 0.047619047619047616,
-                  "position": 20.666666666666668
+                  "impressions": 41,
+                  "ctr": 0.024390243902439025,
+                  "position": 15.268292682926829
                 }
               ],
               "queries": [
                 {
                   "query": "stripchat app",
                   "clicks": 2,
-                  "impressions": 46,
-                  "ctr": 0.043478260869565216,
-                  "position": 16.565217391304348
+                  "impressions": 56,
+                  "ctr": 0.03571428571428571,
+                  "position": 15.571428571428571
                 },
                 {
                   "query": "strip chart app",
                   "clicks": 0,
-                  "impressions": 9,
+                  "impressions": 11,
                   "ctr": 0,
-                  "position": 23.666666666666668
+                  "position": 21.09090909090909
                 },
                 {
                   "query": "strip cam app",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 9,
                   "ctr": 0,
-                  "position": 8.75
+                  "position": 8.666666666666666
+                },
+                {
+                  "query": "stripchat spk",
+                  "clicks": 0,
+                  "impressions": 5,
+                  "ctr": 0,
+                  "position": 8
                 },
                 {
                   "query": "strip chat app",
@@ -51191,6 +53522,13 @@
                   "impressions": 3,
                   "ctr": 0,
                   "position": 9
+                },
+                {
+                  "query": "strip hat.app",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 6.5
                 },
                 {
                   "query": "stripchat application",
@@ -51212,13 +53550,6 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 9
-                },
-                {
-                  "query": "strip hat.app",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 6
                 },
                 {
                   "query": "striphat app",
@@ -51254,6 +53585,13 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 10
+                },
+                {
+                  "query": "atripchat app",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 8
                 }
               ]
             },
@@ -51262,39 +53600,39 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 0,
-              "impressions": 15,
+              "impressions": 24,
               "ctr": 0,
-              "position": 29.866666666666667,
+              "position": 27.916666666666668,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/livejasmin",
                   "clicks": 0,
-                  "impressions": 15,
+                  "impressions": 24,
                   "ctr": 0,
-                  "position": 29.866666666666667
+                  "position": 27.916666666666668
                 }
               ],
               "queries": [
                 {
                   "query": "livejasmin",
                   "clicks": 0,
-                  "impressions": 3,
+                  "impressions": 8,
                   "ctr": 0,
-                  "position": 53.666666666666664
+                  "position": 43.625
                 },
                 {
                   "query": "livejasmin review",
                   "clicks": 0,
-                  "impressions": 3,
+                  "impressions": 4,
                   "ctr": 0,
-                  "position": 9.333333333333334
+                  "position": 8.25
                 },
                 {
                   "query": "livejasmin,livejasmin",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 18.5
+                  "position": 19.666666666666668
                 },
                 {
                   "query": "what is live jasmin",
@@ -51330,6 +53668,20 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 50
+                },
+                {
+                  "query": "livejaasmin",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 4
+                },
+                {
+                  "query": "livejazmin",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 3
                 }
               ]
             },
@@ -51338,95 +53690,109 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 0,
-              "impressions": 98,
+              "impressions": 159,
               "ctr": 0,
-              "position": 9.23469387755102,
+              "position": 8.849056603773585,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives/",
                   "clicks": 0,
-                  "impressions": 51,
+                  "impressions": 85,
                   "ctr": 0,
-                  "position": 8.352941176470589
+                  "position": 8.035294117647059
                 },
                 {
                   "url": "https://www.stripunion.com/chaturbate-alternatives",
                   "clicks": 0,
-                  "impressions": 43,
+                  "impressions": 56,
                   "ctr": 0,
-                  "position": 10.488372093023257
+                  "position": 10.125
                 },
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives/",
                   "clicks": 0,
-                  "impressions": 3,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 7
+                  "position": 7.833333333333333
                 },
                 {
                   "url": "https://stripunion.com/chaturbate-alternatives",
                   "clicks": 0,
-                  "impressions": 1,
+                  "impressions": 12,
                   "ctr": 0,
-                  "position": 7
+                  "position": 9.166666666666666
                 }
               ],
               "queries": [
                 {
                   "query": "chaturbate vs",
                   "clicks": 0,
-                  "impressions": 21,
+                  "impressions": 30,
                   "ctr": 0,
-                  "position": 11.047619047619047
+                  "position": 10.866666666666667
                 },
                 {
                   "query": "chaturbate alternative",
                   "clicks": 0,
-                  "impressions": 10,
+                  "impressions": 23,
                   "ctr": 0,
-                  "position": 6.2
+                  "position": 6.826086956521739
                 },
                 {
                   "query": "alternative chaturbate",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 15,
                   "ctr": 0,
-                  "position": 6.125
-                },
-                {
-                  "query": "alternatives to chaturbate",
-                  "clicks": 0,
-                  "impressions": 8,
-                  "ctr": 0,
-                  "position": 3
-                },
-                {
-                  "query": "better than chaturbate",
-                  "clicks": 0,
-                  "impressions": 8,
-                  "ctr": 0,
-                  "position": 10.5
+                  "position": 6.733333333333333
                 },
                 {
                   "query": "chaturbate alternatives",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 15,
                   "ctr": 0,
-                  "position": 5.75
+                  "position": 6.333333333333333
+                },
+                {
+                  "query": "better than chaturbate",
+                  "clicks": 0,
+                  "impressions": 12,
+                  "ctr": 0,
+                  "position": 10.916666666666666
+                },
+                {
+                  "query": "alternatives to chaturbate",
+                  "clicks": 0,
+                  "impressions": 10,
+                  "ctr": 0,
+                  "position": 3
                 },
                 {
                   "query": "alternative to chaturbate",
                   "clicks": 0,
-                  "impressions": 5,
+                  "impressions": 7,
                   "ctr": 0,
-                  "position": 4.4
+                  "position": 4.285714285714286
+                },
+                {
+                  "query": "chaturbate alternativen",
+                  "clicks": 0,
+                  "impressions": 6,
+                  "ctr": 0,
+                  "position": 8.833333333333334
                 },
                 {
                   "query": "similar to chaturbate",
                   "clicks": 0,
-                  "impressions": 5,
+                  "impressions": 6,
                   "ctr": 0,
-                  "position": 4.8
+                  "position": 5.166666666666667
+                },
+                {
+                  "query": "app like chaturbate",
+                  "clicks": 0,
+                  "impressions": 4,
+                  "ctr": 0,
+                  "position": 3.25
                 },
                 {
                   "query": "chaterbate vs",
@@ -51436,11 +53802,11 @@
                   "position": 17.666666666666668
                 },
                 {
-                  "query": "chaturbate alternativen",
+                  "query": "chaturbate competitors",
                   "clicks": 0,
                   "impressions": 3,
                   "ctr": 0,
-                  "position": 11.333333333333334
+                  "position": 5.333333333333333
                 },
                 {
                   "query": "apps like chaturbate",
@@ -51471,11 +53837,18 @@
                   "position": 7.5
                 },
                 {
-                  "query": "chaturbate competitors",
+                  "query": "sites like chaturbate",
                   "clicks": 0,
                   "impressions": 2,
                   "ctr": 0,
-                  "position": 6
+                  "position": 29
+                },
+                {
+                  "query": "stripchat alternatives",
+                  "clicks": 0,
+                  "impressions": 2,
+                  "ctr": 0,
+                  "position": 10
                 },
                 {
                   "query": "chaturbate competition",
@@ -51490,27 +53863,6 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 31
-                },
-                {
-                  "query": "chatterbate alternatives",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 2
-                },
-                {
-                  "query": "chaturbate similar",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 9
-                },
-                {
-                  "query": "like chaturbate",
-                  "clicks": 0,
-                  "impressions": 1,
-                  "ctr": 0,
-                  "position": 29
                 }
               ]
             },
@@ -51519,32 +53871,32 @@
               "decision": "UPDATE_EXISTING_HUB",
               "reason": "Existing URL has site-proven query demand",
               "clicks": 1,
-              "impressions": 39,
-              "ctr": 0.02564102564102564,
-              "position": 10.384615384615385,
+              "impressions": 44,
+              "ctr": 0.022727272727272728,
+              "position": 10.5,
               "urls": [
                 {
                   "url": "https://www.stripunion.com/xhamster",
                   "clicks": 1,
-                  "impressions": 37,
-                  "ctr": 0.02702702702702703,
-                  "position": 10.594594594594595
+                  "impressions": 41,
+                  "ctr": 0.024390243902439025,
+                  "position": 10.487804878048781
                 },
                 {
                   "url": "https://www.stripunion.com/xhamster/",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 6.5
+                  "position": 10.666666666666666
                 }
               ],
               "queries": [
                 {
                   "query": "is xhamster free",
                   "clicks": 0,
-                  "impressions": 8,
+                  "impressions": 9,
                   "ctr": 0,
-                  "position": 8.5
+                  "position": 8.555555555555555
                 },
                 {
                   "query": "xhamsterreview",
@@ -51570,9 +53922,9 @@
                 {
                   "query": "xhamster adult video sharing official website",
                   "clicks": 0,
-                  "impressions": 2,
+                  "impressions": 3,
                   "ctr": 0,
-                  "position": 6.5
+                  "position": 7
                 },
                 {
                   "query": "xhamster website overview",
@@ -51629,6 +53981,27 @@
                   "impressions": 1,
                   "ctr": 0,
                   "position": 3
+                },
+                {
+                  "query": "xhamster alternative",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 19
+                },
+                {
+                  "query": "xhamster reviews",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 7
+                },
+                {
+                  "query": "xhamster working site",
+                  "clicks": 0,
+                  "impressions": 1,
+                  "ctr": 0,
+                  "position": 14
                 }
               ]
             }
@@ -51640,17 +54013,10 @@
       "status": "ok",
       "snapshot": {
         "siteUrl": "https://blog.stripunion.com/",
-        "startDate": "2026-10-01",
-        "endDate": "2026-11-25",
-        "collectedAt": "2026-11-27T09:44:52.384Z",
+        "startDate": "2026-10-02",
+        "endDate": "2026-11-26",
+        "collectedAt": "2026-11-28T08:58:10.522Z",
         "dailyRows": [
-          {
-            "date": "2026-10-01",
-            "clicks": 0,
-            "impressions": 2,
-            "ctr": 0,
-            "position": 7.5
-          },
           {
             "date": "2026-10-02",
             "clicks": 0,
@@ -52031,6 +54397,13 @@
           },
           {
             "date": "2026-11-25",
+            "clicks": 0,
+            "impressions": 0,
+            "ctr": 0,
+            "position": 0
+          },
+          {
+            "date": "2026-11-26",
             "clicks": 0,
             "impressions": 0,
             "ctr": 0,
@@ -52601,8 +54974,8 @@
       "decisions": [
         {
           "name": "current7",
-          "startDate": "2026-11-19",
-          "endDate": "2026-11-25",
+          "startDate": "2026-11-20",
+          "endDate": "2026-11-26",
           "siteUrl": "https://blog.stripunion.com/",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
@@ -52674,8 +55047,8 @@
         },
         {
           "name": "previous7",
-          "startDate": "2026-11-12",
-          "endDate": "2026-11-18",
+          "startDate": "2026-11-13",
+          "endDate": "2026-11-19",
           "siteUrl": "https://blog.stripunion.com/",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
@@ -52747,16 +55120,16 @@
         },
         {
           "name": "current28",
-          "startDate": "2026-10-29",
-          "endDate": "2026-11-25",
+          "startDate": "2026-10-30",
+          "endDate": "2026-11-26",
           "siteUrl": "https://blog.stripunion.com/",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
             "clicks": 1,
-            "impressions": 146,
-            "ctr": 0.00684931506849315,
-            "position": 11.561643835616438
+            "impressions": 131,
+            "ctr": 0.007633587786259542,
+            "position": 11.98473282442748
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
@@ -52820,16 +55193,16 @@
         },
         {
           "name": "previous28",
-          "startDate": "2026-10-01",
-          "endDate": "2026-10-28",
+          "startDate": "2026-10-02",
+          "endDate": "2026-10-29",
           "siteUrl": "https://blog.stripunion.com/",
           "searchType": "web",
           "coverage": "COMPLETE_WINDOW",
           "propertyTotals": {
             "clicks": 0,
-            "impressions": 264,
+            "impressions": 277,
             "ctr": 0,
-            "position": 11.049242424242424
+            "position": 10.902527075812275
           },
           "propertyAggregation": "byProperty",
           "queryPageAggregation": "byPage; anonymized queries omitted; never add to property totals",
