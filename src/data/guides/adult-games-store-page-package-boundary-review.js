@@ -1,0 +1,105 @@
+export default {
+  "slug": "adult-games-store-page-package-boundary-review",
+  "categorySlug": "adult-games",
+  "categoryLabel": "Adult Games",
+  "title": "Adult Games: Check What a Store Page’s Package Actually Includes",
+  "description": "Use a package-boundary checklist to distinguish a playable adult game from extras, add-ons, soundtracks, and other items listed together on a storefront.",
+  "excerpt": "A bundle or product page can group several items under one heading. Before choosing an adult game, verify which parts are playable, which are optional extras, and which require separate access.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "Separate the base game, add-ons, soundtrack, art materials, and bonus items when reading a package page.",
+    "Check whether each listed component is included, optional, or separately acquired.",
+    "Do not treat a shared product page as proof that every item is part of the playable game.",
+    "Look for platform and version details for each component, especially when a package combines formats.",
+    "Record unclear package language and resolve it before purchase rather than inferring from images."
+  ],
+  "sections": [
+    {
+      "heading": "Why package boundaries deserve their own check",
+      "paragraphs": [
+        "A storefront page may group a game and related materials in one presentation. That can make the offer look like a single, clearly defined product even when it includes multiple components with different access conditions. A soundtrack, art collection, bonus episode, or add-on may be listed alongside the base game, but the page layout alone does not establish whether it is included or separately available.",
+        "This matters when your decision depends on what you can actually play. A package image may show extras that are not part of the game itself, while a description may mention additional items without explaining their entitlement. Treat the product title, package list, and checkout summary as separate evidence. The goal is to understand the exact boundary of what the listing says you receive, not to infer value from promotional presentation."
+      ]
+    },
+    {
+      "heading": "Sort each listed component by role",
+      "paragraphs": [
+        "Create a component list from the product page. Classify each item as the playable base game, an expansion or add-on, a soundtrack, visual materials, or another extra. If the listing uses broad terms such as bonus content or collection, do not assume those items are all playable. Look for a specific name and a clear explanation of what it is. If a component is not described, record it as unclear.",
+        "A package can also contain multiple versions or formats. Check whether an item is a standalone game, a downloadable extra, or content that requires another product. A shared banner or bundle label is not enough to establish dependency. Where the listing does not explain how components relate, avoid filling in the gap based on conventions from other storefronts or games."
+      ],
+      "table": {
+        "caption": "Package contents decision table",
+        "headers": [
+          "Listed item",
+          "Question to answer",
+          "Evidence to look for"
+        ],
+        "rows": [
+          [
+            "Base game",
+            "What is the primary playable product?",
+            "A distinct product name and description"
+          ],
+          [
+            "Add-on or expansion",
+            "Does it require a separate base game?",
+            "An explicit dependency or access statement"
+          ],
+          [
+            "Soundtrack or art extra",
+            "Is it an independent extra rather than gameplay?",
+            "A named component and its format"
+          ],
+          [
+            "Bundle or collection",
+            "Which items are included together?",
+            "A component list and checkout summary"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Compare the product page with the final offer",
+      "paragraphs": [
+        "Before completing a transaction, compare the package description with the final checkout or confirmation summary. Look for items that appear in one place but not the other, or language suggesting that a component is optional or separately selected. If the storefront uses a bundle, confirm the exact bundle name and contents rather than relying on a general page heading. This comparison is especially useful when several editions are displayed together.",
+        "Keep a record of the terms and item names you relied on, using a method that respects your privacy and the platform’s rules. You do not need to save sensitive account details to remember what a package appeared to contain. If the checkout wording is ambiguous, pause and seek clarification through the storefront’s official information channels. A completed purchase may be subject to terms that vary by seller and location, so do not assume a package can be changed later."
+      ]
+    },
+    {
+      "heading": "Check platform and version boundaries",
+      "paragraphs": [
+        "Components in a package may not share the same device support, installation method, or update path. A soundtrack might be provided in a different format from the game, while an add-on may depend on a particular version. Read the item-level platform information where available. Do not assume that compatibility for the base game applies automatically to every extra in the package.",
+        "If a store page combines several editions, compare the contents line by line. Note whether the listing distinguishes a standard edition from a bundle or an add-on. If the product page does not provide a clear component list, your decision should reflect that missing evidence. A broad claim such as complete edition is only useful when the listing says what it includes and what platform or version it applies to."
+      ]
+    },
+    {
+      "heading": "Make a decision using a concise checklist",
+      "paragraphs": [
+        "Package clarity can be a meaningful part of storefront choice. A clear listing lets you tell what is playable, what is additional, and what depends on another item. A confusing page may still represent a legitimate product, but it raises the risk of choosing based on an incorrect assumption. Compare the evidence, not a presumed storefront standard.",
+        "Use the same checklist for every game on your shortlist. This avoids giving one listing a generous interpretation and scrutinizing another more closely. If any component is essential to your decision, require an explicit description before proceeding. If it is an optional extra, decide whether the base game alone meets your needs. Treat unanswered questions as unresolved, and do not rely on community speculation as a substitute for the seller’s package terms."
+      ],
+      "bullets": [
+        "Identify the base game by name.",
+        "List every add-on and extra separately.",
+        "Check inclusion and dependency statements.",
+        "Compare product-page contents with the final offer.",
+        "Mark missing platform, version, or format details as unclear."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a product page image prove that an extra is included?",
+      "answer": "No. Images can be promotional and may show items that are optional or sold separately. Use the written contents list and final offer details to verify what the package includes."
+    },
+    {
+      "question": "Are soundtrack or artbook items part of the playable game?",
+      "answer": "Not necessarily. Treat them as separate components unless the listing explicitly describes them as gameplay content. Check their format and access details individually."
+    },
+    {
+      "question": "What if the package description and checkout summary differ?",
+      "answer": "Pause before completing the transaction. Compare the exact product and component names, then use the storefront’s official support or terms to clarify the discrepancy. Do not assume the broader description overrides the final offer."
+    }
+  ]
+};
