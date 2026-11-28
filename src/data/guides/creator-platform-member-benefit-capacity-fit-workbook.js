@@ -1,0 +1,113 @@
+export default {
+  "slug": "creator-platform-member-benefit-capacity-fit-workbook",
+  "categorySlug": "creator-platforms",
+  "categoryLabel": "Creator / Fan Platforms",
+  "title": "Creator Platforms: Match Member Benefits to Your Delivery Capacity",
+  "description": "Evaluate creator and fan platforms by checking whether their membership tools fit the benefits you can reliably deliver. Use a capacity worksheet to compare promises, workflow, and account controls.",
+  "excerpt": "A platform can offer useful membership tools, but a benefit only works when you can deliver it consistently. This guide helps creators connect platform features to realistic operations before choosing where to build an offer.",
+  "publishedAt": "2026-11-28",
+  "updatedAt": "2026-11-28",
+  "keyTakeaways": [
+    "List each proposed member benefit and the work required to deliver it.",
+    "Separate features a platform appears to support from workflows you have verified.",
+    "Estimate your own capacity using assumptions you control rather than platform marketing.",
+    "Check how you can explain access, updates, and changes to members.",
+    "Prefer an offer whose delivery process remains workable during busy periods."
+  ],
+  "sections": [
+    {
+      "heading": "Choose the benefit before choosing the tool",
+      "paragraphs": [
+        "Begin with the offer you want to make, not with a feature list. A membership might involve recurring posts, a community space, periodic updates, or another defined benefit. Describe each item in plain terms: what a member receives, how often it is delivered, and what completion looks like. If you cannot describe the promise clearly, platform selection is premature because the required workflow is still uncertain.",
+        "Then identify which platform functions would be necessary to support that promise. A benefit may depend on tier access, scheduled publishing, member messaging, an archive, or a reliable way to communicate changes. Treat each as a requirement to verify rather than a capability to assume. Platform descriptions can suggest a fit, but the actual interface and terms may add limits or conditions."
+      ],
+      "bullets": [
+        "Write down the benefit, delivery rhythm, and completion condition.",
+        "Separate essential platform requirements from convenient extras.",
+        "Avoid promising a workflow before you know how it will operate."
+      ]
+    },
+    {
+      "heading": "Map the work behind each promise",
+      "paragraphs": [
+        "For every benefit, list the steps required from preparation through delivery. Include creation time, editing, publishing, access checks, member questions, and any follow-up. A benefit that sounds small can create repeated work if it requires individual handling or frequent exceptions. This is an operational estimate for your own business, not a claim about typical creator workload.",
+        "Use your own assumptions and record them. If you are unsure how long a task takes, mark the estimate as provisional and run a limited workflow test before offering it at scale. Include a realistic allowance for administration and interruptions. The goal is not to predict every week perfectly; it is to expose a mismatch between what you intend to promise and what you can sustain."
+      ],
+      "table": {
+        "caption": "Member-benefit capacity worksheet",
+        "headers": [
+          "Benefit",
+          "Work steps",
+          "Capacity question",
+          "Platform evidence needed"
+        ],
+        "rows": [
+          [
+            "Recurring publication",
+            "Prepare, review, schedule, publish",
+            "Can this cadence fit your available time?",
+            "Check publishing and access controls"
+          ],
+          [
+            "Member interaction",
+            "Set expectations, respond, moderate",
+            "What response boundary can you maintain?",
+            "Check communication and moderation tools"
+          ],
+          [
+            "Archive access",
+            "Organize, label, maintain",
+            "Can members find what you promised?",
+            "Test navigation and member access"
+          ],
+          [
+            "Periodic update",
+            "Create, announce, deliver",
+            "What happens if timing changes?",
+            "Check notice and access workflows"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Verify the workflow, not only the feature name",
+      "paragraphs": [
+        "A feature label does not establish that a workflow fits your needs. If scheduled publishing matters, check how scheduling is set, what audience can see a post, and how you would correct a mistake. If tier-based access matters, check how a member’s entitlement is represented and how you can review it before publishing. If a platform offers a message or community function, establish whether it can support the boundaries you intend to set.",
+        "Test with a low-risk draft or internal planning example when possible. Avoid announcing an offer to members until you have verified the important steps. Record what you directly observed, what was described in help material, and what remains unknown. This distinction is especially useful when a tool is central to delivery: an unverified assumption about access can create confusion even if the benefit itself is well designed."
+      ]
+    },
+    {
+      "heading": "Plan for variation and exceptions",
+      "paragraphs": [
+        "Capacity is rarely identical every week. Consider how the offer behaves during a busy period, planned break, technical interruption, or unexpected delay. You do not need to promise uninterrupted output, but you should define what members can reasonably expect and how you will communicate a change. A clear boundary can be more sustainable than a high-frequency promise that depends on ideal conditions.",
+        "Write down the fallback for each benefit. For example, you might identify which work can be rescheduled, which access remains available, and what update you would provide if timing changes. Check whether your platform workflow can support that communication. If it cannot, consider simplifying the benefit or using a different process rather than relying on an informal workaround that may be easy to miss."
+      ],
+      "bullets": [
+        "Identify the benefits most likely to create repeated administrative work.",
+        "Define a practical response and update boundary.",
+        "Keep a fallback plan for delays or unavailable features."
+      ]
+    },
+    {
+      "heading": "Make a platform decision from the operating model",
+      "paragraphs": [
+        "Compare platforms against the work you actually intend to do. A useful scorecard can use “verified fit,” “possible fit,” and “not yet checked” rather than a false-precision numeric ranking. Include account controls, member access, discovery expectations, commercial terms, payout documentation, and content ownership as separate rows. This prevents an appealing publishing interface from masking unresolved questions about business terms or portability.",
+        "Choose a platform only after identifying which unknowns matter enough to delay launch. If a key benefit depends on a tool you cannot verify, simplify the offer, test a different workflow, or seek clarification through documented support. Revisit the worksheet when your offer changes. A platform decision is not just a signup choice; it is a choice about whether your planned promises can be delivered and explained over time."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Should I choose a platform before designing membership benefits?",
+      "answer": "It is usually more useful to define the intended benefits and delivery work first. Then you can verify which platform tools are necessary and whether the workflow fits. Choosing from feature names alone can lead to building an offer around tools you have not tested."
+    },
+    {
+      "question": "How can I estimate capacity if I am new to the workflow?",
+      "answer": "Use a provisional estimate, list its assumptions, and test the steps on a small scale before making a recurring promise. Include preparation, publishing, access checks, and member support rather than counting only creation time."
+    },
+    {
+      "question": "What if a platform’s documentation does not answer a key workflow question?",
+      "answer": "Mark the point as unverified and use a documented support route if the answer affects your offer. Until you have a reliable answer, avoid promising a benefit that depends on the uncertain workflow or design a simpler alternative."
+    }
+  ]
+};
