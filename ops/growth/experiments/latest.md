@@ -1,6 +1,6 @@
 # Growth Experiment Engine
 
-Generated: 2026-11-27T09:47:46.678Z
+Generated: 2026-11-28T09:01:27.060Z
 
 Running: 0
 Proposed: 1

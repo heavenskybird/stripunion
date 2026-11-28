@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27T09:47:46.356Z",
+  "generatedAt": "2026-11-28T09:01:26.581Z",
   "scope": "tracked Astro pages plus indexable data-driven reviews; WordPress draft inventory remains separate",
   "sources": {
-    "gsc": "2026-11-27T09:44:22.860Z",
-    "bing": "2026-11-27T09:44:44.728Z",
+    "gsc": "2026-11-28T08:57:41.108Z",
+    "bing": "2026-11-28T08:58:03.344Z",
     "wordpressDrafts": {
       "status": "unavailable",
       "reason": "No authenticated WordPress draft-listing connector or repository export is available."
@@ -37,7 +37,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 718
+        "queryImpressions": 863
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -63,7 +63,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 3204
+        "queryImpressions": 3385
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -89,7 +89,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1470
+        "queryImpressions": 1516
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -115,7 +115,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 219
+        "queryImpressions": 225
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -167,7 +167,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 1178
+        "queryImpressions": 1368
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -193,7 +193,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 296
+        "queryImpressions": 305
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -219,7 +219,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 465
+        "queryImpressions": 493
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -245,7 +245,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 580
+        "queryImpressions": 604
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -271,7 +271,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 489
+        "queryImpressions": 503
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -323,7 +323,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 276
+        "queryImpressions": 284
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
@@ -349,7 +349,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 475
+        "queryImpressions": 496
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review",
@@ -375,7 +375,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 392
+        "queryImpressions": 399
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -401,7 +401,7 @@
         "wordCount": 352,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 68
+        "queryImpressions": 66
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready",
@@ -427,7 +427,7 @@
         "wordCount": 929,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 57
+        "queryImpressions": 62
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -453,37 +453,11 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1571
+        "queryImpressions": 1611
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
       "rank": 17
-    },
-    {
-      "route": "/vrporn",
-      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
-      "cluster": "mobile/device",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.19,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 374,
-        "headings": 5,
-        "links": 0,
-        "queryImpressions": 44
-      },
-      "candidateType": "update data-driven review",
-      "qualityGate": "review-ready",
-      "rank": 18
     },
     {
       "route": "/live-cams",
@@ -505,11 +479,11 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 124
+        "queryImpressions": 128
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
-      "rank": 19
+      "rank": 18
     },
     {
       "route": "/stripcash-affiliate-program",
@@ -531,21 +505,21 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 118
+        "queryImpressions": 130
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
-      "rank": 20
+      "rank": 19
     },
     {
       "route": "/about",
       "title": "StripUnion helps adults compare platforms before clicking out.",
       "cluster": "guides",
-      "score": 62,
+      "score": 66,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 1,
+        "keywordOpportunity": 2,
         "uniqueness": 5,
         "freshnessSignal": 2,
         "overlapRisk": 0,
@@ -557,10 +531,36 @@
         "wordCount": 150,
         "headings": 3,
         "links": 0,
-        "queryImpressions": 13
+        "queryImpressions": 15
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review",
+      "rank": 20
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 65,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 3,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 31
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready",
       "rank": 21
     },
     {
@@ -583,7 +583,7 @@
         "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 31
+        "queryImpressions": 32
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -609,7 +609,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 18
+        "queryImpressions": 15
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready",
@@ -741,7 +741,7 @@
         "wordCount": 716,
         "headings": 10,
         "links": 9,
-        "queryImpressions": 718
+        "queryImpressions": 863
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -766,7 +766,7 @@
         "wordCount": 748,
         "headings": 8,
         "links": 9,
-        "queryImpressions": 3204
+        "queryImpressions": 3385
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -791,7 +791,7 @@
         "wordCount": 341,
         "headings": 5,
         "links": 9,
-        "queryImpressions": 1470
+        "queryImpressions": 1516
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -816,7 +816,7 @@
         "wordCount": 437,
         "headings": 5,
         "links": 7,
-        "queryImpressions": 219
+        "queryImpressions": 225
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -866,7 +866,7 @@
         "wordCount": 336,
         "headings": 6,
         "links": 6,
-        "queryImpressions": 1178
+        "queryImpressions": 1368
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -891,7 +891,7 @@
         "wordCount": 751,
         "headings": 7,
         "links": 5,
-        "queryImpressions": 296
+        "queryImpressions": 305
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -916,7 +916,7 @@
         "wordCount": 516,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 465
+        "queryImpressions": 493
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -941,7 +941,7 @@
         "wordCount": 434,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 580
+        "queryImpressions": 604
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -966,7 +966,7 @@
         "wordCount": 725,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 489
+        "queryImpressions": 503
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1016,7 +1016,7 @@
         "wordCount": 229,
         "headings": 4,
         "links": 2,
-        "queryImpressions": 276
+        "queryImpressions": 284
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1041,7 +1041,7 @@
         "wordCount": 293,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 475
+        "queryImpressions": 496
       },
       "candidateType": "update data-driven review",
       "qualityGate": "needs editorial review"
@@ -1066,7 +1066,7 @@
         "wordCount": 364,
         "headings": 5,
         "links": 0,
-        "queryImpressions": 392
+        "queryImpressions": 399
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1091,7 +1091,7 @@
         "wordCount": 352,
         "headings": 4,
         "links": 3,
-        "queryImpressions": 68
+        "queryImpressions": 66
       },
       "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
@@ -1116,7 +1116,7 @@
         "wordCount": 929,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 57
+        "queryImpressions": 62
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1141,34 +1141,9 @@
         "wordCount": 555,
         "headings": 7,
         "links": 3,
-        "queryImpressions": 1571
+        "queryImpressions": 1611
       },
       "candidateType": "update existing Astro page",
-      "qualityGate": "review-ready"
-    },
-    {
-      "route": "/vrporn",
-      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
-      "cluster": "mobile/device",
-      "score": 69,
-      "contentSource": "review-data",
-      "scorecard": {
-        "commercialIntent": 5,
-        "keywordOpportunity": 4,
-        "uniqueness": 4,
-        "freshnessSignal": 2,
-        "overlapRisk": 0.19,
-        "internalLinkPotential": 0,
-        "affiliateRelevance": 0,
-        "contentCompleteness": 4
-      },
-      "signals": {
-        "wordCount": 374,
-        "headings": 5,
-        "links": 0,
-        "queryImpressions": 44
-      },
-      "candidateType": "update data-driven review",
       "qualityGate": "review-ready"
     },
     {
@@ -1191,7 +1166,7 @@
         "wordCount": 197,
         "headings": 3,
         "links": 6,
-        "queryImpressions": 124
+        "queryImpressions": 128
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
@@ -1216,7 +1191,7 @@
         "wordCount": 491,
         "headings": 8,
         "links": 5,
-        "queryImpressions": 118
+        "queryImpressions": 130
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1225,11 +1200,11 @@
       "route": "/about",
       "title": "StripUnion helps adults compare platforms before clicking out.",
       "cluster": "guides",
-      "score": 62,
+      "score": 66,
       "contentSource": "astro-page",
       "scorecard": {
         "commercialIntent": 5,
-        "keywordOpportunity": 1,
+        "keywordOpportunity": 2,
         "uniqueness": 5,
         "freshnessSignal": 2,
         "overlapRisk": 0,
@@ -1241,10 +1216,35 @@
         "wordCount": 150,
         "headings": 3,
         "links": 0,
-        "queryImpressions": 13
+        "queryImpressions": 15
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "needs editorial review"
+    },
+    {
+      "route": "/vrporn",
+      "title": "VRPorn Review: VR Library, Headset Fit & Subscription Model",
+      "cluster": "mobile/device",
+      "score": 65,
+      "contentSource": "review-data",
+      "scorecard": {
+        "commercialIntent": 5,
+        "keywordOpportunity": 3,
+        "uniqueness": 4,
+        "freshnessSignal": 2,
+        "overlapRisk": 0.19,
+        "internalLinkPotential": 0,
+        "affiliateRelevance": 0,
+        "contentCompleteness": 4
+      },
+      "signals": {
+        "wordCount": 374,
+        "headings": 5,
+        "links": 0,
+        "queryImpressions": 31
+      },
+      "candidateType": "update data-driven review",
+      "qualityGate": "review-ready"
     },
     {
       "route": "/avcams",
@@ -1266,7 +1266,7 @@
         "wordCount": 341,
         "headings": 6,
         "links": 7,
-        "queryImpressions": 31
+        "queryImpressions": 32
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
@@ -1291,7 +1291,7 @@
         "wordCount": 602,
         "headings": 8,
         "links": 8,
-        "queryImpressions": 18
+        "queryImpressions": 15
       },
       "candidateType": "update existing Astro page",
       "qualityGate": "review-ready"
