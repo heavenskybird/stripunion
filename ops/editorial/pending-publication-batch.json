@@ -4,7 +4,7 @@
   "targetCount": 5,
   "count": 5,
   "carryoverCount": 0,
-  "generatedCount": 5,
+  "generatedCount": 0,
   "artifactFiles": [
     "ops/editorial/content-artifacts/hentai-anime-translation-quality-sample-audit.json",
     "ops/editorial/content-artifacts/vr-adult-platform-physical-control-reach-audit.json",
@@ -43,5 +43,7 @@
     "ctaSignalCount": 0,
     "behaviorSignalCount": 0
   },
-  "r1CycleId": "46082490373"
+  "r1CycleId": "46082490373",
+  "mode": "recovery",
+  "recoveryCount": 5
 }
